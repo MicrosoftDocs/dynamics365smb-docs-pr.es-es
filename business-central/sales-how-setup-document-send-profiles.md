@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b54decd14cfa1003747ef2a56244ed3865d1ccd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b91a1c0566b6fb4736093ca9617a5a1566bf2bf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778552"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436681"
 ---
 # <a name="set-up-document-sending-profiles"></a>Configurar perfiles de envío de documentos
 Puede configurar cada cliente con un método preferido para enviar documentos de venta, de modo que no tenga que seleccionar una opción de envío cada vez que elija la acción **Registrar y enviar**.
@@ -30,12 +30,12 @@ Cuando elige la acción **Registrar y enviar** en un documento de venta, el cuad
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Para configurar un perfil de envío de documentos
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Perfiles de envío de documentos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Perfiles de envío de documentos** y luego elija el enlace relacionado.
 2. En la página **Perfiles de envío de documentos**, elija la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Para especificar un perfil de envío en una ficha cliente
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha del cliente para el que desea configurar un perfil de envío.
 3. En el campo **Perfil de envío de documentos**, seleccione un perfil que haya configurado como se describe en el procedimiento anterior.
 

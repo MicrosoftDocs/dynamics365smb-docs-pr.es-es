@@ -1,6 +1,6 @@
 ---
-title: Proceso de devoluciones o cancelaciones de ventas | Documentos de Microsoft
-description: Describe cómo crear un abono de ventas, directamente o a través de un pedido de devolución de ventas, para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.
+title: Procesamiento de devoluciones de ventas o cancelaciones
+description: Describe cómo crear un abono de venta para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5f6daba9251dad73b8924312e35a5cb1474bdb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b668e37e7cbe9348aab84b2892543a73bc658b43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778702"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436806"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Procesamiento de devoluciones de ventas o cancelaciones
 Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una abono de ventas que especifique el cambio requerido. Para incluir la información correcta de la factura de ventas, puede crear la nota de crédito de ventas directamente de la factura de venta contabilizada o puede crear una nueva nota de crédito de ventas con información de factura copiada.
@@ -51,7 +51,7 @@ Para asignar manualmente la reversión del coste exacto, debe elegir el campo **
 Para obtener más información, consulte [Detalles de diseño: valoración de inventario](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Para crear un nuevo abono de venta desde una factura de venta registrada.
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y elija el vínculo relacionado.  
 2. En la página **Facturas de venta registradas**, seleccione la factura de ventas que desea revertir y, a continuación, seleccione la acción **Crear abono correctivo**.
 
     La cabecera del abono de venta contiene información de la factura de venta registrada. Puede modificarla, por ejemplo, mediante la nueva información que indica el contrato de devolución.  
@@ -73,7 +73,7 @@ El cuadro de diálogo de **Registrar y enviar confirmación** se abre para mostr
 Los documentos de venta registrados a los que ha aplicado el abono están invertidas y se puede crear un pago del reembolso para el cliente. El abono de venta se ha eliminado y remplazado por un nuevo documento de la lista de abonos de venta registrados.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Crear un nuevo abono de venta copiándolo desde una factura de venta registrada
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Abonos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo** para abrir un abono de ventas vacío.
 3. En el campo **Cliente**, escriba el nombre de un cliente existente.
 4. Elija la acción **Copiar de documento**.
@@ -84,7 +84,7 @@ Los documentos de venta registrados a los que ha aplicado el abono están invert
 9. Complete el abono de venta como se explica en [Para crear un abono de ventas de una factura de ventas registrada](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Pedido de devolución de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.  
 3. Rellen los campos de la ficha desplegable **General**.
 4. En la ficha desplegable **Líneas**, rellene las líneas manualmente o copie la información de otros documentos para rellenar las líneas automáticamente:
@@ -164,7 +164,7 @@ Cuando registre el pedido de devolución de ventas, se añadirá el cargo de rea
 Puede enviar un abono a un cliente con una reducción en el precio si el cliente ha recibido los productos ligeramente dañados o si los ha recibido con retraso.  
 Registre este precio reducido como un cargo de producto en un abono o una devolución y asígnelo al envío registrado. A continuación se describe esto para un abono de venta, pero los mismos pasos se aplican a un pedido de devolución.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Abonos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo** para abrir un abono de ventas vacío.
 3. Rellene la cabecera de abono con información acerca del cliente al que desea conceder la deducción de venta.  
 4. Seleccione **Cargo (prod.)** en el campo **Tipo** de la ficha desplegable **Líneas**.  
@@ -187,7 +187,7 @@ Para agrupar recibos de devolución deberá activar la casilla de verificación 
 
 ### <a name="to-manually-combine-return-receipts"></a>Para agrupar recibos de devolución de forma manual  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Abono de venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.
 3. En la ficha desplegable **General**, rellene los campos como sea necesario.  
 4. Elija la acción **Traer líns. recep. dev.**.  
@@ -203,7 +203,7 @@ Para agrupar recibos de devolución deberá activar la casilla de verificación 
 ### <a name="to-automatically-combine-return-receipts"></a>Agrupar automáticamente recepciones de devolución  
 Puede agrupar recepciones de devolución de forma automática y registrar los abonos automáticamente utilizando la función **Fact. autom. recep. dev.**  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Unir recepciones de devolución** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Fact. autom. recep. dev.** y, a continuación, elija el vínculo relacionado.
 2. En la página **Fact. autom. recep. dev...** , rellene los campos para seleccionar las recepciones de devolución relevantes.
 3. Seleccione la casilla de verificación **Registrar abonos**. De lo contrario, deberá registrar manualmente los abonos resultantes de compra.
 4.  Elija el botón **Aceptar**.  
@@ -212,7 +212,7 @@ Puede agrupar recepciones de devolución de forma automática y registrar los ab
 Al facturar recepciones de devolución de esta forma, los pedidos de devolución a partir de los cuales se registraron las recepciones de devolución siguen existiendo, aunque se hayan recibido y facturado por completo.  
 
 Cuando las recepciones de devolución se agrupan en un abono y se registran, se crea un abono de venta registrado para las líneas abonadas. El campo **Cantidad facturada** de la devolución de venta de origen se actualiza en función de la cantidad facturada.   
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Eliminar pedidos de devolución de venta facturados** y luego seleccione el enlace.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Eliminar pedidos de devolución de venta facturados** y, a continuación, seleccione el enlace.  
 2.  Especifique en el campo de filtro **Nº.** que pedidos de devolución desea eliminar.  
 3.  Elija el botón **Aceptar**.  
 

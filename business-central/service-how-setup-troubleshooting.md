@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 214c83c4614a92a8cc94c7dc88efe527686ef397
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5dbef8bda307a38b25e3c84776da0a50e2daced5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773685"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436506"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Configuración de la solución de problemas de los productos de servicio
 Puede configurar pautas de solución de problemas que ayuden a los técnicos a resolver problemas al proporcionar servicio. Por ejemplo, las directrices pueden ser una lista de pasos para realizar una reparación, o una serie de preguntas sobre los productos. Después de configurar las directrices de solución de problemas, puede asignarlas a grupos de productos de servicio, productos de servicio y productos. Hay una jerarquía de herencia para las directrices. Si las asigna a un grupo de productos de servicio, los productos incluidos en el grupo heredarán las directrices, a menos que las especifique previamente. Del mismo modo, los productos de servicio heredarán las directrices de los productos.  
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a>Para configurar instrucciones de detección de errores
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Solución de problemas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Solución de problemas** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a>Para asignar directrices de solución de problemas a productos, productos de servicio o grupos de productos de servicio
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Productos**, **Productos de servicio** o **Grupos de productos de servicio** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, **Producto de servicio** o **Grupos productos servicio** y, a continuación, elija el vínculo relacionado.  
 2. Elija la entidad correspondiente y, a continuación, elija la acción **Solución de problemas**.  
 
 ## <a name="see-also"></a>Consulte también

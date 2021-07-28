@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19b32e8faa6b9e56505379d1f06fd5ad79466614
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 67d7ad0d10ddc5c6065df482c7ceb4b98058d504
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115520"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436731"
 ---
 # <a name="sell-products"></a>Vender productos
 
@@ -44,7 +44,7 @@ Puede rellenar los campos de cliente en el pedido de venta de dos formas en func
 
 ## <a name="to-create-a-sales-order"></a>Para crear un pedido de ventas
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. En el campo **Cliente**, escriba el nombre de un cliente existente.
 
     Otros campos de la página **Pedido de venta** se rellenarán con la información estándar del cliente seleccionado.  

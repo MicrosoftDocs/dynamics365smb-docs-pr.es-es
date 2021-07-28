@@ -1,6 +1,6 @@
 ---
-title: Configurar códigos para servicios estándar | Documentos de Microsoft
-description: Aprenda a configurar códigos para las actividades de servicio que realiza a menudo.
+title: Configurar códigos para servicios estándar
+description: Aprenda a configurar códigos para las actividades de servicio realizadas con regularidad con un conjunto predefinido de líneas de servicio.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 494a3dd93906a8a9d663455f7410d27c9fc34eb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5f5e6dbe647fc8957c42a78163f6871d7a7b382
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778227"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436606"
 ---
 # <a name="set-up-standard-service-codes"></a>Configurar códigos de servicio estándar
 
@@ -26,13 +26,13 @@ Cuando se realiza un servicio habitual, a menudo es necesario crear documentos d
   
 ## <a name="to-set-up-a-standard-service-code"></a>Para configurar un código de servicio estándar
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Códigos servicio estándar** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códigos de servicio estándar** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Rellene las líneas de servicio vinculadas a este código de servicio.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Para asignar un código de servicio estándar a un grupo de productos de servicio
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos productos servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos productos servicio** y, a continuación, elija el vínculo relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Rellene las líneas de servicio vinculadas a este código de servicio.  
 

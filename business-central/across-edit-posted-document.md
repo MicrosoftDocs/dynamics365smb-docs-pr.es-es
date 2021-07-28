@@ -1,6 +1,6 @@
 ---
-title: Editar documentos de venta y compra registrados | Documentos de Microsoft
-description: Obtenga información sobre las diferentes funciones de registro para registrar documentos de compra y cómo puede actualizar los documentos registrados.
+title: Editar documentos de venta y compra registrados
+description: Este tema explica cómo actualizar la información en un documento registrado como envío de ventas o factura de compra cuando la información relevante ha cambiado.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ef23d98aaeeb63c17e836fd25b547703787264da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776202"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437807"
 ---
 # <a name="edit-posted-documents"></a>Editar documentos registrados
 
@@ -41,7 +42,7 @@ Los siguientes documentos adicionales se pueden editar en los países o regiones
 
 A continuación se explica cómo editar un histórico de albaranes de venta. Los pasos son similares para los demás documentos admitidos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico albaranes venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione el documento que desea editar y, a continuación, seleccione la acción **Actualizar documento**. También puede abrir el documento y, a continuación, elegir la acción.
 3. En la página **Histórico albaranes venta - Actualiz.**, edite el campo **Nº seguimiento bulto** , por ejemplo.
 4. Elija el botón **Aceptar**.

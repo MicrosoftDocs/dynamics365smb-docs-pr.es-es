@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 77fc6163a208b66c02bfa7e1bbfed94d448ea2ae
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 43cc3c212f2f2d35b7ebecf980afe1e807a2532b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774718"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437175"
 ---
 # <a name="void-electronic-payments"></a>Anular pagos electrónicos
 
@@ -23,7 +23,7 @@ En la versión en español de [!INCLUDE[prod_short](../../includes/prod_short.md
 
 ## <a name="to-void-electronic-payments"></a>Para anular pagos electrónicos  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Anular pagos electrónicos** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Anular pagos electrónicos** y luego elija el enlace relacionado.  
 2. En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -32,7 +32,7 @@ En la versión en español de [!INCLUDE[prod_short](../../includes/prod_short.md
 
 ## <a name="to-void-electronic-payments-in-the-cartera-module"></a>Para anular pagos electrónicos en el módulo Cartera  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Anular Orden pago - Exportar N34.1** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Anular Orden pago - Exportar N34.1** y luego elija el enlace relacionado.  
 2. En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

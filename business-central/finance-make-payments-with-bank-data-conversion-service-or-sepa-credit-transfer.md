@@ -1,6 +1,6 @@
 ---
 title: Realizar pagos con la extensión AMC Banking (EE. UU.) o transferencia de crédito SEPA (UE)
-description: Procese pagos a sus proveedores exportando un archivo junto con la información de pago desde las líneas de diario.
+description: Procese pagos a sus proveedores exportando un archivo (EFT) junto con la información de pago desde las líneas de diario.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/13/2021
+ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: d48172569ba8e93410dfb20a22eed785574f3989
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: f54abce68049db1a6ff9330eb5569f2c26cf12ed
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889236"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437421"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Efectúe pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA
 
 En la página **Diario de pagos**, puede procesar pagos a sus proveedores exportando un archivo junto con la información de pago desde las líneas de diario. Después, puede cargar el archivo al banco electrónico donde procesar las transferencias de dinero relacionadas. [!INCLUDE[prod_short](includes/prod_short.md)] admite el formato de transferencia de crédito SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.
 
 > [!NOTE]
-> En la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones para Norteamérica, el mismo servicio se puede utilizar para enviar archivos de pagos como transferencia electrónica de fondos (EFT), al menos con un proceso ligeramente distinto. Vea el paso 6 de [Para exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
+> En la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones norteamericanas, el mismo servicio se puede utilizar para enviar archivos de pago como transferencia electrónica de fondos (EFT), por ejemplo, la red de Cámara de Compensación Automatizada (ACH) de uso común, aunque con un proceso ligeramente diferente. Vea el paso 6 de [Para exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).  
 
  Para habilitar las transferencias de crédito de SEPA, primero debe configurar una cuenta bancaria, un proveedor y la sección de diario general en el que se basa el diario de pagos. A continuación, prepare los pagos a los proveedores; para ello, rellene automáticamente la página **Diario de pagos** con los pagos por vencimientos con fechas de registro específicas.  
 
@@ -101,7 +101,7 @@ Use la página **Registros de transferencia de crédito** para ver los archivos 
 
 A continuación se describe cómo pagar a un proveedor mediante un cheque. Los pasos son similares al reembolso de un cheque.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Rellene las líneas del diario de pagos. Para obtener más información, vea [Registre pagos y reembolsos](payables-how-post-payments-refunds.md).
 
     > [!NOTE]
@@ -147,7 +147,7 @@ Puede volver a exportar los archivos de pago desde la página **Registros de tra
 > [!NOTE]  
 > Los archivos EFT exportados no se muestran en la página **Registros de transferencia de crédito** y no se pueden volver a exportar.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Registros de transferencia de crédito** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registros de transferencia de crédito** y luego elija el enlace relacionado.
 2. Seleccione una exportación de pago que desee reexportar y, a continuación, elija la acción **Reexportar pago a archivo**.
 
 ## <a name="posting-the-payments"></a>Registro de los pagos

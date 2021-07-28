@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59b6febc147687e88f11423b4ad317ab6ee5a408
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bca44382de10299ecbea73eda26ba858fbd2ef32
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775952"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437632"
 ---
 # <a name="publish-a-web-service"></a>Publicar un servicio web
 
@@ -26,7 +26,7 @@ Los pasos siguientes explican cómo crear y publicar un servicio web.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Para crear y publicar un servicio web  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Servicios web** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Servicios web** y luego elija el enlace relacionado.  
 2. En la página **Servicios web**, elija **Nuevo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  

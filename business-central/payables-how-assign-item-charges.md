@@ -1,6 +1,6 @@
 ---
-title: Asignar cargos de producto a ventas y compras | Documentos de Microsoft
-description: Si desea que sus productos de inventario carguen costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos, puede usar la función Gastos de productos.
+title: Asignar cargos de producto a ventas y compras
+description: Asigne cargos de productos cuando necesite que sus productos de inventario carguen costes adicionales, tales como fletes y manipulación física en los que incurra al comprar o vender artículos.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: dbf96c4f09c82bf409c0e082b6df116f3563402f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773785"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436906"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto a cuenta para los costes comerciales adicionales
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. Para las compras, el coste de descarga de un producto comprado se compone del precio de compra del proveedor sumado a todos los cargos de producto directos adicionales que se pueden asignar a albaranes o envíos devueltos determinados. Para las compras, conocer el coste de envío de los productos vendidos es tan importante para la empresa como conocer el coste de los productos comprados.
@@ -26,7 +26,7 @@ Además de registrar el coste añadido en el valor de inventario, puede usar la 
 
 - Identificar el coste de descarga de un producto para tomar decisiones exactas sobre cómo optimizar la red de distribución.
 - Desglosar el coste unitario o el precio de venta de un producto con fines de análisis.
-- Incluir las deducciones de compras en el coste unitario y las deducciones de ventas en el precio de venta.
+- Incluya las deducciones de compras en el coste unitario y las deducciones de ventas en el precio de venta.
 
 Antes de poder asignar cargos por productos, debe configurar los números de cargos de productos para los diferentes tipos de cargos de productos, incluyendo los costes de cuentas de contables relacionados con ventas, compras y ajustes de inventario. Un número de cargo de producto contiene una combinación de grupo contable de producto, código de grupo de impuesto, grupo de registro IVA producto y cargos de producto. Al introducir el número de coste de producto en un documento de compra o de venta, se obtendrá una cuenta según la configuración del número de coste de producto y la información almacenada en el documento.
 
@@ -45,14 +45,14 @@ Este vídeo muestra cómo gestionar un coste de envío adicional como parte de l
 ## <a name="to-set-up-item-charge-numbers"></a>Configurar números de coste de producto
 Los números de cargo de producto sirven para diferenciar los distintos tipos de cargos que se utilizan en la empresa.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cargos de producto** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cargos de producto**, y luego elija el enlace relacionado.
 2. En la página **Cargos producto**, seleccione la acción **Nuevo** para crear una línea nueva.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto directamente en la factura de compra del producto
 Si conoce el coste de un producto en el momento en que registra la factura de compra, siga este procedimiento.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Crea una nueva factura de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Asegúrese de que la factura de compra tiene una o más líneas del tipo Producto.
 4. En una línea nueva, en el campo **Tipo**, seleccione **Cargo (prod.)**.

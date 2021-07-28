@@ -1,6 +1,6 @@
 ---
-title: 'Procedimiento: Configurar un servicio de intercambio de documentos | Documentos de Microsoft'
-description: Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo.
+title: Configurar un servicio de intercambio de documentos
+description: Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo utilizando "Configuración servicio intercambio documentos".
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a89cf3988e7576070a58a798e0f88693e598ef92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 357c48c6b7ed8e2d44316805bba04ff9236f0e9b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787287"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436303"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurar un servicio de intercambio de documentos
 Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Para configurar un servicio de intercambio de documentos  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración servicio intercambio documentos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración servicio intercambio documentos** y luego elija el enlace relacionado.  
 2. Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  

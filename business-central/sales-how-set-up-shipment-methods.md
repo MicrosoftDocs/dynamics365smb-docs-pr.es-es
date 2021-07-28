@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8390c95083eb02c208e97f0309a725e8ec4d7730
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778577"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436706"
 ---
 # <a name="set-up-shipment-methods"></a>Configurar métodos de envío
 
@@ -25,7 +25,7 @@ En la página **Métodos de envío**, configure la descripción y el código cor
 
 ## <a name="to-set-up-a-shipment-method"></a>Para configurar una forma de envío
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Métodos de envío** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Métodos de envío** y luego elija el enlace relacionado.
 2. En la página **Métodos de envío**, seleccione la acción **Nuevo**.
 3. En la nueva línea especifique un código y una descripción para el método de envío.
 

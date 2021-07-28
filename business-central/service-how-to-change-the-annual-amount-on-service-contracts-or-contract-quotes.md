@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718131ab06bd81a2394d82b9645a9e70be3f95a0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775330"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436456"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Cambiar el importe anual de los contratos de servicio o las ofertas de contrato
 Puede cambiar el importe anual del contrato de servicio u oferta de contrato para corregir el importe que se facturará anualmente.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Para cambiar el importe anual del contrato de servicio o la oferta de contrato  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Contratos servicio** u **Ofertas contrato servicio** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Contratos servicio** u **Ofertas contrato servicio** y, a continuación, elija el vínculo relacionado.  
 2. Elija el contrato o la oferta de contrato.  
 3. Elija la acción **Abrir contrato** para abrir el contrato u oferta de contrato para su modificación.  
 4. Seleccione la casilla **Permite importes sin saldar** si desea cambiar el importe anual y distribuir la diferencia del importe anual manualmente en la líneas de contrato. En caso contrario, desactive la casilla para distribuir automáticamente la diferencia de importe anual automáticamente en las líneas de contrato después de cambiar el importe anual.  

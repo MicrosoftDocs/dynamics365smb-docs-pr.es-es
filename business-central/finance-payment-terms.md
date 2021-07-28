@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783802"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437321"
 ---
 # <a name="set-up-payment-terms"></a>Configurar términos de pago
 
@@ -28,7 +28,7 @@ Si desea enviar a sus clientes recordatorios de pagos vencidos, debe configurar 
 
 ## <a name="to-set-up-payment-terms"></a>Para configurar términos de pago
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos de pago** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de pago** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Después de definir los términos de pago, asígnelos a clientes y proveedores. Opcionalmente, asigne condiciones de pago a sus métodos de pago.  

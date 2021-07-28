@@ -1,6 +1,6 @@
 ---
-title: Analizar datos por dimensiones | Documentos de Microsoft
-description: Describe cómo analizar varios datos empresariales por dimensiones.
+title: Analizar datos por dimensiones
+description: Este tema describe cómo analizar varios datos empresariales por dimensiones. Las dimensiones le brindan una mayor perspectiva de su negocio para que pueda evaluar la información.
 services: project-madeira
 documentationcenter: ''
 author: edupont
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 9637aabd44f0714983a5d0ce129bf5bc9f1eaee4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947393"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437081"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizar datos por dimensiones
 En análisis financiero, una dimensión son datos que puede agregar a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Las dimensiones se pueden utilizar en movimientos de diarios, documentos y presupuestos. El término dimensión describe cómo tiene lugar el análisis. Un análisis de dos dimensiones, por ejemplo, sería ventas por área. Sin embargo, mediante el uso de más de dos dimensiones al crear un movimiento, puede efectuar un análisis más complejo, como ventas por campaña de ventas, grupo de clientes y área. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
@@ -33,7 +33,7 @@ Analizar datos por dimensiones le proporciona una mejor perspectiva de su empres
 ## <a name="to-set-up-an-analysis-view"></a>Para configurar una vista de análisis  
 Los análisis por dimensiones muestran una combinación seleccionada de dimensiones. Puede almacenar y recuperar cada análisis que haya configurado. La información de configuración de un análisis se guarda en una ficha **Vista de análisis** para simplificar futuros análisis.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Vista de análisis** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Vistas de análisis**, y luego elija el enlace relacionado.  
 2. En la página **Lista vista de análisis**, elija la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Para agregar otros códigos de dimensión además de los cuatro de la ficha desplegable **Dimensiones**, elija la acción **Filtro**, rellene los campos y, a continuación, elija el botón **Aceptar**.  
@@ -42,7 +42,7 @@ Los análisis por dimensiones muestran una combinación seleccionada de dimensio
 ## <a name="to-analyze-by-dimensions"></a>Para analizar por dimensiones
 Puede utilizar la matriz **Análisis por dimensiones** para consultar los importes de la contabilidad mediante las vistas de análisis que haya configurado. Rellene la página **Análisis por dimensiones** para definir lo que se mostrará en la matriz y, a continuación, elija la acción **Mostrar matriz** para ver la matriz.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Vista de análisis** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Vistas de análisis**, y luego elija el enlace relacionado.  
 2. Seleccione la vista de análisis relevante y, a continuación, elija la acción **Análisis por dimensiones**.
 3. En la página **Análisis por dimensiones** rellene los campos para definir qué datos se muestran y cómo.
 4. Seleccione la acción **Mostrar matriz** para abrir la página de la matriz correspondiente de la vista de análisis definida.
@@ -65,7 +65,7 @@ Los importes que aparecen en la página **Análisis por dimensiones** le ofrecen
 
 El siguiente procedimiento permite actualizar una vista de análisis desde la página **Análisis por dimensiones**. Los pasos son parecidos desde las páginas **Ficha vista de análisis** y **Lista vista de análisis**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Vista de análisis** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Vistas de análisis**, y luego elija el enlace relacionado.
 2. Seleccione la vista de análisis relevante y, a continuación, elija la acción **Análisis por dimensiones**.
 2. En la página **Análisis por dimensiones**, elija el campo **Cód. vista análisis**.  
 3. Seleccione la línea con la vista de análisis relevante.  

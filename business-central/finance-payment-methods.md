@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1e836b43392cd915a77c5ee85d5a322753dcd5df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de37cfd8719615dbc736ff6e7b03ee75d97c87ce
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773960"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437346"
 ---
 # <a name="set-up-payment-methods"></a>Configure formas de pago
 
@@ -33,14 +33,14 @@ Sin embargo, los abonos para devoluciones son excepciones porque el dinero fluye
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona algunas formas de pago que las empresas utilizan con frecuencia. Sin embargo, puede agregar tantas como necesite.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Formas de pago** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Métodos de pago** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Opcionalmente, agregue condiciones de pago a su método de pago. Para obtener más información, consulte [Configurar términos de pago](finance-payment-terms.md).  
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Para asignar una forma de pago a un cliente o proveedor
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.
 2. En el campo **Cód. forma pago**, seleccione la forma que se usará de forma predeterminada para el cliente o proveedor.
 
 ## <a name="see-also"></a>Consulte también

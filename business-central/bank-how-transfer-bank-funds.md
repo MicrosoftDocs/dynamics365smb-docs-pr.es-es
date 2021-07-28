@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: e9a285db48593828fbb01b281459df6c1e3111d0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985392"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437156"
 ---
 # <a name="transfer-bank-funds"></a>Transferir fondos bancarios
 
@@ -23,7 +23,7 @@ En ocasiones es necesario transferir un importe desde un banco en [!INCLUDE[prod
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Para registrar transferencias entre bancos con el mismo código de divisa
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general**, y luego elija el enlace relacionado.
 2. En una línea de diario, rellene los campos **Fecha registro** y **Nº documento**.
 3. En el campo **Tipo mov**, seleccione **Banco**.
 4. En el campo **N.º de cuenta**, seleccione la cuenta desde la que quiere transferir los fondos.
@@ -38,7 +38,7 @@ En ocasiones es necesario transferir un importe desde un banco en [!INCLUDE[prod
 
 Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe registrar dos líneas de diario general.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general**, y luego elija el enlace relacionado.
 2. Cree dos líneas de diario y rellene los campos **Fecha de registro** y **N.º de documento**.
 3. En la primera línea de diario, en el campo **Tipo**, seleccione **Cuenta bancaria**.
 4. En el campo **N.º de cuenta**, seleccione la cuenta desde la que quiere transferir los fondos.

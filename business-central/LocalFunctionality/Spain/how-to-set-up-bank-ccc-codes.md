@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c879dbdbf21f89d5764a14fed7e313e2501cff42
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6728a95aa332afa15f1cecc68a1472406fa0e79d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775707"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436343"
 ---
 # <a name="set-up-bank-ccc-codes"></a>Configurar códigos CCC de bancos
 El Código Cuenta Cliente (CCC) es un código de cuenta único usado por los bancos para identificar a sus clientes. El código CCC se imprime en los documentos bancarios, como cheques y extractos.  
@@ -33,7 +33,7 @@ El procedimiento siguiente describe cómo configurar códigos CCC de banco para 
 
 ## <a name="to-enter-ccc-codes"></a>Para introducir códigos CCC  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
 2.  Rellene los campos de la ficha desplegable **Pagos**, tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -47,7 +47,7 @@ El siguiente procedimiento describe cómo configurar códigos bancarios CCC para
 
 ## <a name="to-set-up-bank-ccc-codes-for-a-customer-bank-account"></a>Para configurar códigos CCC de banco de un banco cliente  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Ficha banco cliente** y luego elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco cliente** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Transferencia**, escriba la información en los campos CCC relevantes.  
 
     > [!NOTE]  

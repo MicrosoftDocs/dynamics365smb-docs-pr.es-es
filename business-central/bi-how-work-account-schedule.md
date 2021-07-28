@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786592"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437031"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con esquemas de cuentas y categorías de cuentas
 
@@ -54,7 +54,7 @@ Los esquemas de cuentas en la versión estándar de [!INCLUDE[prod_short](includ
 
 La página **Panorama esq. cta.** es donde puede obtener una vista previa del informe financiero que define el esquema de cuentas. A continuación, es importante comprender que lo que se configura como filas y columnas del esquema de cuentas solo se puede ver y validar en la página **Panorama esq. cta.**, que se abre desde un esquema de cuentas seleccionando la acción **Panorama**. La página **Esquema cuentas** en sí misma es solo un área de configuración.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Esquemas de cuentas**, elija la acción **Nuevo** para crear un nuevo nombre de esquema de cuenta.
 3. También puede elegir la acción **Copiar esquema de cuentas**, rellenar los dos campos y, a continuación, elegir el botón **Aceptar**.
 4. Rellene los campos según sea necesario. En el campo **Plantilla columna genér.**, seleccione una disposición existente. Puede cambiarla más adelante si lo desea.
@@ -88,7 +88,7 @@ Utilice las plantillas de columnas para determinar qué columnas va a incluir en
 
 En ocasiones, podría desear incluir una columna en un esquema de cuentas para calcular los porcentajes de un total. Por ejemplo, si tiene una serie de filas que detallan las ventas por dimensión, podría desear crear una columna para indicar el porcentaje de las ventas totales que representa cada fila.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
 2. En la página **Nombres esquemas de cuentas**, seleccione un esquema de cuenta.  
 3. Elija la acción **Editar esquema cuentas** para configurar una fila del esquema de cuentas para calcular el total en el que se basarán los porcentajes.  
 4. Inserta una línea justo encima de la primera fila para la que desea que se muestre un porcentaje.  
@@ -101,7 +101,7 @@ En ocasiones, podría desear incluir una columna en un esquema de cuentas para c
 
 Puede usar un esquema de cuentas para crear un extracto que compare las cifras de contabilidad con las cifras presupuestadas.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
 2. En la página **Nombres esquemas de cuentas**, seleccione un esquema de cuenta.  
 3. Elija la acción **Editar esquema cuentas**  
 4. En la ventana **Esquema cuentas**, en el campo **Nombre**, seleccione el nombre del esquema de cuentas predeterminado.

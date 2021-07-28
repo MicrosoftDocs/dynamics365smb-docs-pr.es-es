@@ -1,6 +1,6 @@
 ---
 title: Ubicar la salida de producción
-description: La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén.
+description: La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. La ubicación del inventario se puede realizar de las siguientes formas.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2b04e07a6660ebeb32cc93594c77b8ff8e782766
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784222"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438137"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ubicar la salida de producción o la salida de ensamblado
 
@@ -33,14 +33,14 @@ En las configuraciones avanzadas de almacén, donde el almacén no requiere los 
 El primer paso para crear la ubicación de salida es crear la solicitud de almacén de entrada. Esta solicitud informa al almacén de que la salida del pedido de producción o ensamblado está preparada para ubicación.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>Para crear la solicitud de entrada al almacén  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Orden de producción lanzada** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Orden de producción lanzada** y, a continuación, elija el vínculo relacionado.  
 2.  En la orden de producción que está preparada para ubicación, elija la acción **Crear petición entrada alm.**  
 
 > [!NOTE]  
 > También puede crear la solicitud de almacén de entrada eligiendo el campo **Crear solicitud de entrada** al actualizar la orden de producción. Para obtener más información, vea [Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>Para ubicar la salida con una ubicación de inventario  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación existencias** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicación existencias** y luego elija el enlace relacionado.  
 2.  Cree una ubicación de inventario nueva. Para obtener más información, vea [Ubicar productos con ubicaciones de almacén](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Para tener acceso a la salida de la orden de producción, elija la acción **Traer doc. origen** y, a continuación, seleccione la orden de producción lanzada.  
 4.  Rellene las líneas de ubicación como crea conveniente.

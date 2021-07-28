@@ -1,6 +1,6 @@
 ---
 title: 'Tutorial: realización de una campaña de ventas'
-description: Una campaña es un tipo de actividad que implica varios contactos. Una importante parte de la configuración de una campaña implica la selección del público objetivo para la misma. Con este fin, en Business Central, creará un segmento o grupo de contactos con filtros.
+description: Este tutorial brinda una descripción detallada de todas las tareas involucradas en la realización de una campaña de ventas en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102438"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437842"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Tutorial: realización de una campaña de ventas
 
@@ -69,7 +69,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
 ### <a name="to-set-up-a-campaign"></a>Para configurar una campaña  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Campañas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Campañas** y luego elija el enlace relacionado.  
 2. Seleccione **Nuevo** para crear una nueva campaña. En la ficha de la campaña, pulse **Entrar** para crear un número de la campaña insertado automáticamente.  
 3. En el campo **Descripción**, escriba una descripción para la campaña, por ejemplo **Feria de muestras Office Futurus**.  
 4. Elegir el campo **Código de estado** y seleccione el código de estado "1-PLAN". 
@@ -161,11 +161,11 @@ El director de marketing decide que la lista reducida es la lista final de conta
 
 Se envían los archivos adjuntos. Cuando el proceso haya finalizado, haga clic en el botón **Aceptar** para el mensaje que indica que el segmento se registró.  
 
- Las cartas se imprimen automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se mueven a la lista de segmentos registrados. Para ver esa lista, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Segmentos grabados** y luego elija el enlace relacionado.  
+ Las cartas se imprimen automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se mueven a la lista de segmentos registrados. Para ver esa lista, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos archivados** y, a continuación, elija el vínculo relacionado.  
 
 Una vez registrado el segmento, cada carta se envíe que se registra como interacción, que se puede ver en el registro.  
 
-Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. log. interacción** y luego elija el enlace relacionado. Hay un movimiento para cada carta enviada.  
+Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movs. log. interacción** y luego elija el enlace relacionado. Hay un movimiento para cada carta enviada.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Procedimiento para enviar un correo electrónico a un contacto  
 
@@ -178,7 +178,7 @@ Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_s
 7. Seleccione la casilla **Crea segmento seguimiento**.  
 8. Elija el botón **Aceptar**.  
 
- Las cartas se envían por correo electrónico automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se guarda en la lista de segmentos registrados. Para ver esa lista, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Segmentos grabados** y luego elija el enlace relacionado.  
+ Las cartas se envían por correo electrónico automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se guarda en la lista de segmentos registrados. Para ver esa lista, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos archivados** y, a continuación, elija el vínculo relacionado.  
 
 ## <a name="registering-campaign-responses"></a>Registro de las respuestas de la campaña
 

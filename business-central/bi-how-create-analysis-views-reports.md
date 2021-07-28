@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11b90a7aa48927d68d4e32845343dddc56ba77c1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786642"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437056"
 ---
 #  <a name="create-analysis-reports"></a>Crear informes de análisis
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de inventario.  
@@ -61,7 +61,7 @@ En un informe de análisis, los parámetros de análisis se muestran como column
 
 Una plantilla contiene un conjunto de líneas que representan las columnas de análisis que se ven en el informe de análisis. Para definir una columna debe asignar un código de tipo de análisis a una línea. Este código de tipo de análisis determina el tipo de datos de origen en los movimientos de producto en los que se basa el análisis. Los datos de origen incluyen el coste, el importe de ventas, o la cantidad, y sus movimientos de valor asociados. Puede configurar tantas plantillas de columna como desee y utilizarlas posteriormente para crear nuevos informes de análisis.    
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Plantillas de la columna de ventas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de la columna de ventas** y luego elija el enlace relacionado.  
 2. Seleccione la primera línea vacía y, a continuación, rellene los campos según sea necesario.
 3. Seleccione la acción **Columnas**.  
 4. En la página **Columnas de análisis**, rellene los campos para especificar las columnas que desea incluir en el informe de análisis.  
@@ -78,7 +78,7 @@ En un informe de análisis los objetos de análisis se muestran en líneas. Pued
 
 Una plantilla contiene un conjunto de líneas que representan las líneas de análisis que se ven en el informe de análisis. Una línea puede especificar uno o varios productos, clientes, proveedores o grupos. También puede crear una fórmula en una línea para sumar las otras líneas. Puede configurar tantas plantillas de líneas como desee y utilizarlas después para crear nuevos informes de análisis.    
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Plantillas de la línea de ventas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de la línea de ventas** y luego elija el enlace relacionado.  
 2. Seleccione la primera línea vacía y, a continuación, rellene los campos según sea necesario.
 3. Seleccione la acción **Líneas**.  
 4. En la página **Línea de análisis**, cree líneas para los productos, los clientes, los proveedores o los vendedores cuyas cifras desee consultar en el informe de análisis. Debe rellenar los campos **Tipo**, **Intervalo** y **Descripción**.  
@@ -91,7 +91,7 @@ El procedimiento siguiente se basa en informes de análisis para ventas. Los pas
 
 Utilice los informes de análisis para analizar la dinámica de sus ventas según los indicadores de rendimiento de ventas clave que se seleccionen, por ejemplo, el volumen de ventas en los importes y cantidades, el margen de contribución o el progreso de venta real respecto al presupuesto. También puede utilizar el informe para analizar los precios medios de venta y para evaluar el rendimiento de ventas de su equipo de ventas.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Informes de análisis de ventas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes de análisis de ventas** y luego elija el enlace relacionado.  
 2. En la página **Informe de análisis ventas**, elija la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija la acción **Editar informe de análisis**.

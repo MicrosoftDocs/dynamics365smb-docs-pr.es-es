@@ -1,6 +1,6 @@
 ---
-title: Administración del precio de servicio | Documentos de Microsoft
-description: Este tema describe cómo aplicar el mejor precio a los pedidos de servicio, configurar los acuerdos de precios de servicio personalizados, mejorar la eficacia de los empelados de servicio y acelerar el proceso de facturación.
+title: Gestión de precios de servicios
+description: La administración de precios de servicios le permite configurar grupos de precios de servicios, precios de servicios, ajustes de precios de servicios y más.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776771"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438287"
 ---
 # <a name="service-price-management"></a>Gestión de precios de servicios
 La funcionalidad de gestión de precios de servicio le permite aplicar el mejor precio a los pedidos de servicio, configurar los acuerdos de precios de servicio personalizados, mejorar la eficacia de los empelados de servicio y acelerar el proceso de facturación.  
@@ -52,7 +52,7 @@ Puede configurar los tipos de tarifas de servicio (tipo de ajuste de precio y pr
 Por ejemplo, puede configurar tipos de tarifas de servicio para un grupo de precio de servicio de radio. En el caso de clientes sin un grupo de precio, puede asignar tarifas de servicio con el precio máximo de mano de obra, que se encuentra en el grupo de ajuste de precio de mano de obra. En el caso de clientes con un grupo de precio determinado, puede asignar tarifas de servicio con el precio fijo de mano de obra, en el mismo grupo de ajuste de precio de mano de obra.  
 
 #### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience)
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos de servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de servicio** y luego elija el enlace relacionado.  
 2. Seleccione el artículo de servicio, expanda la ficha desplegable **Precios y Ventas**, elija la acción **Recurso**, **Producto** o **Cuenta P/G**.
 3. En las páginas **Precios de los recursos laborales**, **Precios de artículos de trabajo** o **Precios de la cuenta P/G del trabajo**, rellene los campos según sea necesario.
 

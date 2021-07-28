@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 434f730b7b7f541ed7387b278672cdd032afb093
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e779bb1d2916c031dea66a52ed7b3b9ccc006aee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782541"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438162"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planificar movimientos de almacén en hojas de trabajo
 Planifique los movimientos en la hoja de trabajo con una función de reposición de ubicación o manualmente mediante la planificación de las líneas que desea crear como instrucciones de movimiento.  
@@ -23,7 +23,7 @@ Planifique los movimientos en la hoja de trabajo con una función de reposición
 ## <a name="to-calculate-a-replenishment-movement"></a>Para calcular un movimiento de reposición  
 Cuando el almacén envía los productos a los clientes, las ubicaciones con los ranking de ubicación más altos contienen cada vez menos productos. Para rellenar estas ubicaciones de picking de ranking más alto con productos de otras ubicaciones, ejecute la función **Calcular reposición ubicación** de la página **Hoja trabajo movimiento**.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo mov.** y, a continuación, elija el vínculo relacionado.  
 2.  Elija la acción **Calcular reposición ubicación**.  
 
     [!INCLUDE[prod_short](includes/prod_short.md)] crea líneas que indican exactamente cómo debe mover los productos de las ubicaciones de ranking inferior a las ubicaciones de ranking superior.  
@@ -44,7 +44,7 @@ Cuando el almacén envía los productos a los clientes, las ubicaciones con los 
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Mover todo el contenido de una o varias ubicaciones con la función Traer contenido ubicación  
 También puede utilizar la hoja de trabajo de movimiento para planificar otros movimientos de inventario en el almacén. Por ejemplo, cuando desee colocar productos en una ubicación para controlar la calidad, puede utilizar la hoja de trabajo de movimiento para planificar esta acción y, a continuación, crear un movimiento para darle instrucciones a un empleado.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo mov.** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Traer contenido ubicación**. Utilice la página de solicitud para filtrar las ubicaciones y productos que desea que aparezcan en las líneas de la hoja de trabajo de movimiento.  
 3.  Rellene los campos correspondientes de la página de solicitud del proceso. Por ejemplo, si desea ver el contenido de todas las ubicaciones en una determinada zona del almacén, rellene el campo **Cód. zona**. Si desea recuperar líneas de cada ubicación que contenga un producto determinado, rellene el campo **Nº producto**.  
 

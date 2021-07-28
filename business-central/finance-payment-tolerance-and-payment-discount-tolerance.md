@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b13426a431eb45183c5c12454ff70ef0cc066229
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dce64c634fb0ca7ba4358f5cc47cb8b49596b6ed
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788132"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436228"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Trabajar con tolerancias de pago y tolerancias de descuento de pago
 Puede configurar una tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura. Por ejemplo, las tolerancias de pago son típicamente para pequeñas cantidades que costarían más corregir que solo aceptar. Puede configurar una tolerancia de descuento P.P. para conceder un descuento P.P. después de que haya pasado la fecha de descuento.  
@@ -45,13 +45,13 @@ Para obtener más información, consulte [Para activar o desactivar la advertenc
 La tolerancia en días e importes le permite cerrar una factura aunque el pago no se haya realizado todo el pago del importe de la misma, si esto se debe a que se ha superado la fecha de vencimiento del descuento por pronto pago, a que se han realizado deducciones o a causa de un error sin importancia. Esto también se aplica a reembolsos y abonos.  
 
 Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia, especificar la tolerancia de descuento en el pago y los métodos de registro de tolerancia en el pago y, a continuación, ejecute el proceso **Cambiar tolerancia pagos**.  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
 2. En la página **Configuración grupos contables** configure una cuenta de debe y de haber de tolerancia de pago de ventas y una cuenta de debe y de haber de tolerancia de pago de compras  
-3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables clientes** y luego elija el enlace relacionado.    
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos registro cliente** y luego elija el enlace relacionado.    
 4. En la página **Grupos contables clientes** configure una cuenta de debe y de haber de tolerancia de pagos. Para obtener más información, consulte [Configurar los grupos contables](finance-posting-groups.md).  
-5. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración contable proveedor** y luego elija el enlace relacionado.  
+5. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración contable proveedor**, y luego elija el enlace relacionado.  
 6. En la página **Grupos contables proveedores** configure una cuenta de debe y de haber de tolerancia de pagos.  
-7. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+7. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
 8. Abra la página **Configuración contabilidad**.  
 9. En la ficha desplegable **Liquidación**, rellene los campos **Registrar tolerancia dto. P.P.**, **Periodo gracia descuento pagos** y **Registrar tolerancia pagos**.   
 10. Seleccione la acción **Cambiar tolerancia pagos**.
@@ -69,7 +69,7 @@ Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia,
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Para activar o desactivar las advertencias de tolerancia de pago
 La advertencia de tolerancia de pagos aparece cuando registra una liquidación con un saldo dentro de la tolerancia permitida. A continuación, puede elegir cómo desea registrar y documentar el saldo.    
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
 2. En la página **Configuración de contabilidad**, en la ficha desplegable **Liquidación**, active el campo **Advertencia tolerancia pagos** para activar la advertencia. Para desactivar la advertencia, apague la alternancia.  
 
 > [!NOTE]  
@@ -78,7 +78,7 @@ La advertencia de tolerancia de pagos aparece cuando registra una liquidación c
 ## <a name="to-block-payment-tolerance-for-customers"></a>Para bloquear la tolerancia de pagos de clientes  
 El valor predeterminado para la tolerancia de pagos es permitida. Para no permitir la tolerancia de pagos de un cliente o proveedor determinado tiene que bloquear la tolerancia en la ficha del cliente o proveedor correspondiente. A continuación se describe cómo debe hacerlo para un cliente. Los pasos son parecidos para un proveedor.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
 2. En la Ficha desplegable **Pagos**, seleccione la casilla **Bloquear tolerancia de pagos**.  
 
 > [!NOTE]  
@@ -125,9 +125,9 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago único 1](media/singlePmtTolRules(Pre1503).gif "Reglas de tolerancia de pago único 1")  
+![Reglas de tolerancia de pago único 1.](media/singlePmtTolRules(Pre1503).gif "Reglas de tolerancia de pago único 1")  
 
-(1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia..  
+(1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
 (2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.  
 
@@ -136,7 +136,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago único 2](media/singlePmtTolRules(GracePeriod).gif "Reglas de tolerancia de pago único 2")  
+![Reglas de tolerancia de pago único 2.](media/singlePmtTolRules(GracePeriod).gif "Reglas de tolerancia de pago único 2")  
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
@@ -147,7 +147,7 @@ Importe pendiente por
 
 Reglas de liquidación normales  
 
-![Reglas de tolerancia de pago único 3](media/singlePmtTolRules(Post0120).gif "Reglas de tolerancia de pago único 3")  
+![Reglas de tolerancia de pago único 3.](media/singlePmtTolRules(Post0120).gif "Reglas de tolerancia de pago único 3")  
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 

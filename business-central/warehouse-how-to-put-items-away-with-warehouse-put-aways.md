@@ -1,6 +1,6 @@
 ---
 title: Ubicación de productos con ubicación de almacén | Documentos de Microsoft
-description: Si el almacén está configurado para requerir los procesos de ubicación y recepción de almacén, utilice la función de documentos de ubicación de almacén para controlar la ubicación de los productos.
+description: Conozca las diferentes formas de guardar artículos en Business Central con las siguientes tareas de Ubic. exist. almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed7374fb2d718417639a2f1f74c69bff61847d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0f4dbac3c3131cf31690710cba9457e7508acad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782514"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438087"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
 Si el almacén está configurado para requerir los procesos de ubicación y recepción de almacén, utilice la función de documentos de ubicación de almacén para controlar la ubicación de los productos.  
@@ -27,7 +27,7 @@ Dependiendo de la configuración de almacén, se ponen a disposición las línea
 Además de las formas estándar de crear las ubicaciones de almacén que se describen en este tema, puede crear la ubicación de recepción de almacén registrado relacionada. Esta acción es útil si utiliza ubicaciones y picking directos y ha decidido no utilizar la hoja de trabajo de ubicación, ya que puede crear o volver a crear las instrucciones de ubicación desde líneas de albarán recibidas.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Para ubicar productos sin picking y ubicaciones directas  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Abra el almacén la ubicación que está preparado para manipular.  
 
     Puede ordenar las ubicaciones por varios criterios, por ejemplo, por producto, número de estante o fecha de vencimiento y, por tanto, optimizar el proceso de ubicación.  
@@ -35,7 +35,7 @@ Además de las formas estándar de crear las ubicaciones de almacén que se desc
 4.  Una vez haya completado la ubicación de los productos, elija la acción **Registrar ubicación** para registrar la finalización de la actividad y hacer que los productos estén disponibles para picking.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Para ubicar productos con ubicaciones y picking directos  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.
     Si se han creado instrucciones de ubicación, una ubicación de almacén está visible.  
 2.  Abra la ubicación de almacén con el que desee trabajar.  
 3.  Si el almacén lo requiere, escriba su id. de usuario en la ficha desplegable **General** cuando empiece a trabajar en una ubicación determinada.  
@@ -63,7 +63,7 @@ El ranking de ubicación se tiene en cuenta cuando varias ubicaciones cumplen lo
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Para crear una ubicación desde una recepción registrada  
  Si el almacén procesa la ubicación y la recepción y ha eliminado las líneas de ubicación, o si utiliza ubicaciones y picking directos y ha decidido no utilizar la hoja de trabajo de ubicación, puede crear o volver a crear las instrucciones de ubicación para líneas de albarán recibidas.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recep. almacén regis.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recep. almacén regis.** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione una recepción registrada que sea necesario ubicar.  
 3.  Seleccione la acción **Ficha**.  
 

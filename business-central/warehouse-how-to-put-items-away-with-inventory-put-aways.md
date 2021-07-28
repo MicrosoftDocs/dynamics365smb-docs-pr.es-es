@@ -1,6 +1,6 @@
 ---
-title: Ubicación de productos con ubicación de inventario | Documentos de Microsoft
-description: Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, utilice el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción cuya salida está preparados para ubicarse.
+title: Ubicación de productos con ubicación de inventario
+description: Obtenga más información sobre cómo utilizar el documento de ubicación de inventario para registrar y publicar información de ubicación y recepción para sus documentos de origen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35d512bc6d8181c03752c1de6b9f1275de85e815
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782564"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438112"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ubicar productos con ubicación de inventario
 Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, utilice el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción o ensamblado cuya salida está preparados para ubicarse.  
@@ -29,11 +29,11 @@ Puede crear una ubicación de inventario de tres formas:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Para solicitar una ubicación de inventario lanzando el documento de origen
 En el caso de pedidos de compra, pedidos de devolución de venta, pedidos de transferencia de entrada y pedidos de ensamblado, para crear la solicitud de almacén, lance el pedido. A continuación se describe cómo hacerlo des de un pedido de compra.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.
 2. Seleccione el pedido de compra que desea lanzar, y después seleccione **Lanzar**.  
 
     En el caso de los pedidos de producción, se crea la solicitud de almacén creando una solicitud de entrada a partir del pedido de producción lanzado.  
-3.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Órdenes producción lanzadas** y luego elija el enlace relacionado.  
+3.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Órdenes producción lanzadas** y, a continuación, elija el vínculo relacionado.  
 4. Seleccione la acción **Crear solicitud entrada almacén**.  
 
 > [!NOTE]  
@@ -43,7 +43,7 @@ Cuando se crea la solicitud de almacén, un empleado de almacén asignado para r
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Para crear una ubicación de inventario según el documento de origen
 Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nueva ubicación de inventario basado en el documento de origen lanzado.   
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación existencias** y luego seleccione el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicación de inventario** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. En el campo **Documento origen**, seleccione el tipo de documento de origen que está ubicando.  
 4. En el campo **Cód. procedencia mov.**, seleccione el documento de origen.  
@@ -56,7 +56,7 @@ Ahora que se ha creado la solicitud, el empleado del almacén puede crear un nue
 3. Elija el botón **Aceptar**. Se crea una ubicación de inventario nueva.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Para crear varias Ubicaciones de existencias con un proceso  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Crear ubicac./pick. exist.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear ubicac./pick. exist.** y, a continuación, elija el vínculo relacionado.  
 2.  En la ficha desplegable **Solicitud almacén** de la página respectiva, utilice los campos **Documento origen** y **Cód. procedencia mov.** para filtrar determinados tipos de documentos o intervalos de números de documento.  
 3.  En la ficha desplegable **Opciones**, seleccione la casilla **Crear ubicación exist.**
 4.  Elija el botón **Aceptar**. Se crean las ubicaciones de inventario especificadas.

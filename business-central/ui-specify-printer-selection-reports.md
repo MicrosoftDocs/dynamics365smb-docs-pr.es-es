@@ -1,6 +1,6 @@
 ---
 title: Configuración de impresoras
-description: Obtenga información sobre cómo configurar impresoras que puede usar para informes y documentos.
+description: Obtenga información sobre cómo configurar impresoras que puede usar para informes y documentos y las diferentes funciones de impresión disponibles en Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 05/17/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063457"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437221"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 
@@ -25,8 +25,8 @@ Para satisfacer sus necesidades de impresión, [!INCLUDE[prod_short](includes/pr
 
 |Característica|Descripción|Cliente web| Aplicación móvil|Aplicación para Teams|
 |-------|-----------|----------|-----------|--------------|
-|Impresión universal|Impresión universal es una solución de gestión de impresoras disponible como servicio en la nube de Microsoft. Con esta característica, puede configurar sus impresoras en Impresión universal y, a continuación, registrarlas para su uso en [!INCLUDE[prod_short](includes/prod_short.md)]. Esta característica requiere una suscripción a Impresión universal y la extensión **Integración de Impresión universal** extensión|![trabaja en línea](media/check.png)|![trabaja en línea](media/check.png)|![trabaja en línea](media/check.png)|
-|Impresión por correo electrónico|Esta característica le permite configurar impresoras habilitadas para correo electrónico. [!INCLUDE[prod_short](includes/prod_short.md)] envía los trabajos de impresión a una impresora usando la dirección de correo electrónico de la impresora. Esta característica requiere impresoras habilitadas para correo electrónico y la extensión **Enviar a impresora de correo electrónico**.|![trabaja en línea](media/check.png)|![trabaja en línea](media/check.png)|![trabaja en línea](media/check.png)|
+|Impresión universal|Impresión universal es una solución de gestión de impresoras disponible como servicio en la nube de Microsoft. Con esta característica, puede configurar sus impresoras en Impresión universal y, a continuación, registrarlas para su uso en [!INCLUDE[prod_short](includes/prod_short.md)]. Esta característica requiere una suscripción a Impresión universal y la extensión **Integración de Impresión universal** extensión|![trabaja en línea.](media/check.png)|![trabaja en línea.](media/check.png)|![trabaja en línea](media/check.png)|
+|Impresión por correo electrónico|Esta característica le permite configurar impresoras habilitadas para correo electrónico. [!INCLUDE[prod_short](includes/prod_short.md)] envía los trabajos de impresión a una impresora usando la dirección de correo electrónico de la impresora. Esta característica requiere impresoras habilitadas para correo electrónico y la extensión **Enviar a impresora de correo electrónico**.|![trabaja en línea.](media/check.png)|![trabaja en línea](media/check.png)|![trabaja en línea](media/check.png)|
 |Impresión en el navegador|Los trabajos de impresión son gestionados por la funcionalidad de impresión del navegador del usuario. Si no se instala y configura una impresora en la nube o si falla una impresora instalada, la impresión tendrá las opciones de impresión predeterminadas para el navegador. El campo **Impresora** en la página de solicitud de informe mostrará *(Manejado por el navegador)*.|![trabaja en línea](media/check.png)|||
 
 > [!NOTE]
@@ -36,7 +36,7 @@ Para satisfacer sus necesidades de impresión, [!INCLUDE[prod_short](includes/pr
 
 Impresión universal es un servicio basado en suscripción de Microsoft 365 que se ejecuta completamente en Microsoft Azure. Le brinda una administración centralizada de la impresora a través del portal de Impresión universal. [!INCLUDE[prod_short](includes/prod_short.md)] hace que las impresoras configuradas en Impresión universal estén disponibles para los usuarios cliente a través de la extensión **Integración de Impresión universal**.
 
-![Configuración de impresión universal](media/Universal-Print-arch.png)
+![Configuración de impresión universal.](media/Universal-Print-arch.png)
 
 La configuración completa requiere que trabaje en Microsoft Azure, usando [Azure Portal](https://portal.azure.com) y en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -146,7 +146,7 @@ Agregar impresoras individualmente le permite configurar la misma impresora de I
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Administración de impresoras** y luego seleccione el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Administración de impresoras** y, a continuación, elija el vínculo relacionado.
 2. Seleccione **Impresión universal** y, a continuación, elija una de las siguientes opciones:
 
     - **Agregar todas las impresoras de Impresión universal** para agregar todas las impresoras que aún no se agregaron. Puede usar esta opción incluso si ya se han agregado impresoras. 
@@ -206,7 +206,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 La página **Administración de impresoras** le muestra las impresoras que están configuradas actualmente. La página también le brinda acceso a la página **Configuración** de cada impresora para editar una configuración existente o configurar una nueva impresora.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Administración de impresoras** y luego seleccione el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Administración de impresoras** y, a continuación, elija el vínculo relacionado.
 2. Seleccione **Imprimir correo electrónico** y, a continuación, elija **Agregar una impresora de correo electrónico**.
 3. En la página **Configuración de impresora de correo electrónico**, rellene los campos necesarios. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -230,7 +230,7 @@ Existen un par de formas de configurar las impresoras que se usarán de forma pr
 
 La página **Administración de impresoras** le permite configurar una impresora como impresora predeterminada para todos los trabajos de impresión. Puede especificar la impresora como predeterminada solo para usted o para todos los usuarios.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Administración de impresoras** y luego seleccione el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Administración de impresoras** y, a continuación, elija el vínculo relacionado.
 
     > [!TIP]
     > También puede abrir la página **Administración de impresoras** desde la página **Selecciones de impresora** eligiendo **Administración de impresoras**.  
@@ -246,7 +246,7 @@ La página **Selecciones de impresora** le permite especificar la impresora que 
 > [!IMPORTANT]
 > Para [!INCLUDE[prod_short](includes/prod_short.md)] local, la página **Selecciones de impresora** solo se puede usar para impresoras en la nube definidas por extensiones de impresora, como las impresoras Email Print y Impresión universal. No se puede utilizar para impresoras locales.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selecciones de impresora** y luego seleccione el enlace relacionado. En su lugar, desde la página **Administración de impresoras**, seleccione una impresora y luego elija la acción **Selecciones de impresoras**.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selecciones de impresora** y, a continuación, elija el vínculo relacionado. En su lugar, desde la página **Administración de impresoras**, seleccione una impresora y luego elija la acción **Selecciones de impresoras**.
 2. Elija la acción **Nuevo** para agregar una selección de impresora para un informe específico.
 3. Rellene los campos según sea necesario.
 

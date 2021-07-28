@@ -1,6 +1,6 @@
 ---
-title: Procesar oportunidades de ventas en ciclos de ventas | Documentos de Microsoft
-description: Puede ver, cerrar o eliminar oportunidades de ventas, y también puede crear ofertas y pedidos de venta para oportunidades, y mover una oportunidad por las etapas de un ciclo de ventas.
+title: Procesar oportunidades de ventas en ciclos de ventas
+description: Este tema describe las diferentes formas en que puede procesar oportunidades de ventas en ciclos de ventas y mover una oportunidad a través de las etapas de un ciclo de ventas.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017254"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437607"
 ---
 # <a name="process-sales-opportunities"></a>Procesar oportunidades de ventas
 Después de crear una oportunidad, existen numerosas funciones para gestionarla y avanzar hasta completarla.
@@ -27,9 +27,9 @@ Las oportunidades de venta existentes están disponibles en la página **Lista o
 
 | Para ver las oportunidades | Entonces |
 | --- | --- |
-| Todos los vendedores y contactos |Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Lista de oportunidades** y luego elija el enlace relacionado. |
-| Un vendedor específico |Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado. Seleccione el vendedor, seleccione la acción **Oportunidades** y, a continuación, seleccione la acción **Lista**. |
-| Un contacto específico |Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado. Seleccione el contacto de la lista y, a continuación, seleccione la acción **Oportunidades**. |
+| Todos los vendedores y contactos |Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Lista oportunidades** y luego elija el enlace relacionado. |
+| Un vendedor específico |Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Vendedores** y luego elija el enlace relacionado. Seleccione el vendedor, seleccione la acción **Oportunidades** y, a continuación, seleccione la acción **Lista**. |
+| Un contacto específico |Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contactos** y luego elija el enlace relacionado. Seleccione el contacto de la lista y, a continuación, seleccione la acción **Oportunidades**. |
 
 Todas estas tareas abren la página **Lista oportunidades**.
 
@@ -66,7 +66,7 @@ Para eliminar oportunidades cerradas de la página **Lista oportunidad**, selecc
 
 Para borrar oportunidades cerradas usando el proceso **Eliminar oport. cerradas** siga estos pasos:
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Eliminar oportunidades** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar oportunidades** y luego elija el enlace relacionado.
 2. En la sección **Oportunidad** configure los filtros que especifican las oportunidades que se tienen que eliminar.
 3. Elija el botón **Aceptar**.
 

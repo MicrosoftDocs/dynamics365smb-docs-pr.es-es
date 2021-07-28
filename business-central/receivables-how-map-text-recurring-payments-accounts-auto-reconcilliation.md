@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a441336d14315b645a4085edb4e02bac178afdca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 168626f211d0aa9a01ae8fc50bda659d55bcc4be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784322"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436053"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Asignar texto en pagos periódicos a cuentas para conciliación automática
 En la página **Asignación de texto a cuenta**, que se abre desde la página **Diario de conciliación de pagos**, puede configurar asignaciones entre el texto de los pagos y las cuentas de débito, crédito y saldo específicas para que los pagos se contabilicen en las cuentas específicas cuando contabilices el diario de conciliación de pagos.
@@ -30,7 +30,7 @@ Los pagos registrados según la asignación de texto a cuenta no se aplican a mo
 En una línea del diario de conciliación de pagos en la que el pago se estableció en contabilizarse según la asignación de texto a cuenta, el campo **Confianza de la correspondencia** contiene **Asignación de texto a cuenta: Alta** y los campos **Tipo de cuenta** y **N.º cuenta** contienen las cuentas asociadas.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Para asignar texto en pagos periódicos a cuentas para conciliación automática
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario de conciliación de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de conciliación de pagos** y luego elija el enlace relacionado.
 2. Abra un diario de conciliación de pagos. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 3. Seleccione la acción **Asociar texto a cuenta**. Se abre la página **Asignación de texto a cuenta**.
 4. En el campo **Asignar texto**, introduzca cualquier texto de los pagos que quiera registrar en unas cuentas específicas sin aplicarlo a un movimiento pendiente. Puede escribir hasta 50 caracteres.

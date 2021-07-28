@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778752"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436856"
 ---
 # <a name="merge-duplicate-records"></a>Combinar registros duplicados
 A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o contacto a lo largo del tiempo, o que los nuevos registros se crean automáticamente durante la migración, un cliente, proveedor o contacto puede estar representado en el sistema con más de un registro. En este caso, puede utilizar la página **Combinar duplicados** de la ficha del registro que desea conservar. La página le ofrece una visión general de los valores de campo duplicado y le ofrece funciones para seleccionar los valores que desea conservar o descartar al combinar dos registros en uno.
@@ -28,7 +28,7 @@ A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o con
 
 El procedimiento siguiente se basa en una ficha de cliente. Los pasos son parecidos para una ficha de proveedor y de contacto.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Seleccione el cliente del que sabe o sospecha que existe un registro duplicado y, a continuación, seleccione la acción **Editar**.
 3. En la página **Ficha de cliente**, seleccione la acción **Combinar con**.
 4. En la página **Combinar duplicado**, en el campo **Combinar con**, seleccione el cliente que cree que es un duplicado del que ha abierto, indicado en el campo **Actual**.

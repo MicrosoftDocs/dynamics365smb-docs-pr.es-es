@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dba492551546c18cbda1b3bbb7dfd4b70c4052a6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0d6365bda6f8d027f01cc9cfa381463fa925ad91
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785553"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437296"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrar interacciones con contactos automáticamente
 Puede configurar la aplicación para que registre automáticamente interacciones de ventas, compras y documentos de servicio, hojas de portada, correos electrónicos, llamadas telefónicas, como:
@@ -29,7 +29,7 @@ Puede configurar la aplicación para que registre automáticamente interacciones
 * Llamar a sus contactos, si tiene un teléfono compatible TAPI y la instalación correcta.
 
 Para configurar los registros automáticos de estas interacciones, puede especificar plantillas de interacciones para estos documentos y acciones mediante la página **Configuración de plantilla de interacción**.  
-Para abrir la página **Configuración de plantilla de interacción**, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de plantilla de interacción** y luego elija el enlace relacionado.
+Para abrir la página **Configuración de plantilla de interacción**, elija la ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de plantilla de interacción** y luego elija el enlace relacionado.
 
 ## <a name="see-also"></a>Consulte también
 [Registrar interacciones con contactos](marketing-interactions.md)  

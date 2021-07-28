@@ -1,6 +1,6 @@
 ---
-title: Introducción de códigos CNAE
-description: Los códigos de Nomenclature génerale des Activités économiques dans les Communautés Européennes (CNAE) representan la clasificación estadística de actividades económicas dentro de la Unión Europea (UE).
+title: Introducción de códigos CNAE [ES]
+description: Aprenda a ingresar los códigos de la Nomenclatura génerale des Activités économiques dans les Communautés Européennes (NACE) con la versión en español.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: ad6780f7712de7e36fbb5c55523fc05357d0a11b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d9ca6c730641888812e0cbdd65aad53f2e2c706d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775220"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436345"
 ---
-# <a name="enter-nace-codes"></a>Introducir códigos NACE
+# <a name="enter-nace-codes-in-the-spanish-version"></a>Ingrese códigos NACE en la versión en español
 Los códigos de Nomenclature génerale des Activités économiques dans les Communautés Européennes (CNAE) representan la clasificación estadística de actividades económicas dentro de la Unión Europea (UE).  
 
 Un código CNAE sirve como base para compilar estadísticas para varios fines, incluidos:  
@@ -33,7 +33,7 @@ Los códigos CNAE se pueden escribir en la página **Información empresa**. Los
 
 ## <a name="to-enter-nace-codes"></a>Para introducir códigos CNAE  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
 2.  Escriba un código NACE en el campo **Código SIC de actividad** de la ficha desplegable **General**.  
 3.  Elija el botón **Aceptar**.  
 

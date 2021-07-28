@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938076"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436153"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
 
@@ -22,7 +22,7 @@ Como director de proyectos, puede configurar proyectos que definan cada uno de l
 Para cada proyecto, especifique fichas de proyecto individuales con información sobre los precios de los productos del proyecto, los recursos del proyecto y las cuentas de proyecto, y debe configurar los grupos contables de proyectos.
 
 ## <a name="to-set-general-information-for-jobs"></a>Para configurar la información general de los proyectos
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de proyectos** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -55,7 +55,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 Puede establecer los precios de los productos, recursos, productos y cuentas de contabilidad relacionadas con un trabajo. 
 
 #### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience)
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione la tarea y, a continuación, elija la acción **Recurso**, **Elemento** o **Cuenta P/G**.
 3. En las páginas **Precios de los recursos laborales**, **Precios de artículos de trabajo** o **Precios de la cuenta P/G del trabajo**, rellene los campos según sea necesario.
 
@@ -69,7 +69,7 @@ La siguiente tabla muestra cómo se utilizará la información de los campos opc
 
 ---
 #### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience)
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Listas de precios de venta**.
 
 ---
@@ -80,7 +80,7 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 > [!NOTE]  
 >   Se deben configurar las cuentas necesarias en el plan de cuentas antes de configurar los grupos contables. Para obtener más información, vea [Configuración o cambio del plan de cuentas](finance-setup-chart-accounts.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables de proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos contables de proyectos**, y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos de cuenta tal como se describe en la tabla siguiente.  
 
 | Campo Cuenta | Descripción |

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ed7c53d4352dcebc1475f4cafdd6a13db5385bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e64624006c8760037acaab48ab351dad9636bfdb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783439"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437557"
 ---
 # <a name="setting-up-relationship-management"></a>Configurar la gestión de relaciones
 
@@ -23,7 +23,7 @@ Antes de empezar a trabajar con sus contactos e intereses de marketing, hay algu
 
 La gestión de contactos y el establecimiento de una estrategia para identificar, atraer y conservar a los clientes le ayudará a optimizar su negocio y a incrementar la satisfacción del cliente. Asimismo, el uso de un sistema adecuado de gestión de contactos será de gran ayuda en los procesos de creación y mantenimiento de relaciones con los clientes. La comunicación es la clave en estas relaciones. Para lograr el éxito, las empresas deben ser capaces de establecer la comunicación adecuada con sus clientes, proveedores y socios comerciales potenciales y existentes. El establecimiento de una estrategia sobre cómo utilizará la empresa la información de contactos es un paso fundamental. Esta información estará accesible para muchos grupos diferentes de su empresa, por lo que un sistema adecuado incrementará la productividad de todos los usuarios.
 
-Puede configurar la gestión de marketing y de contactos desde la página **Configuración de marketing**. Para abrir la página **Configuración de marketing**, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de marketing** y luego elija el enlace relacionado.
+Puede configurar la gestión de marketing y de contactos desde la página **Configuración de marketing**. Para abrir la página **Configuración de marketing**, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de marketing** y luego elija el enlace relacionado.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Copiar automáticamente información específica desde las empresas de contacto a las personas de contacto
 Parte de la información de contacto de las empresas es la misma que la de las personas que trabajan allí, como la dirección. En la sección **Herencia** de la página **Configuración de marketing**, puede configurar la aplicación para que copie automáticamente campos específicos de la ficha de empresa de contacto a la ficha de persona de contacto cada vez que cree una persona de contacto de una empresa de contacto. Por ejemplo, puede seleccionar copiar el código de vendedor, los detalles de dirección (dirección, dirección 2, ciudad, código postal y provincia), los detalles de comunicación (número de fax, respuesta de télex y el número de teléfono) y más.

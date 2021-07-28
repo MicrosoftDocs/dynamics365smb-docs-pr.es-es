@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778602"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436756"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -34,7 +34,7 @@ Para registrar un cliente nueve, debe rellenar una ficha cliente. Puede establec
 
 ### <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
 2. En la página **Clientes**, seleccione la acción **Nuevo**.
 
     Si solo existe una plantilla de cliente, una nueva ficha de cliente se abre con algunos campos rellenados con la información de la plantilla.
@@ -76,7 +76,7 @@ Puede optar por no recibir advertencias que le indiquen que se excedió el lími
 
 ### <a name="to-specify-credit-limit-warnings"></a>Para especificar advertencias de límites de crédito
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
 
 2. En la ficha desplegable **General**, en el campo **Advertencias de crédito**, elija la opción relevante como se describe en la siguiente tabla:
 

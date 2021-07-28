@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4954287f93ed012709a51f6fbb19d00494c63d54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786542"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436981"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Agregar empresas al hub de empresas
 
@@ -29,7 +29,7 @@ Un vínculo de entorno es una tarjeta en la que especifica el entorno de [!INCLU
 
 El vínculo se utiliza cuando elige la empresa en el hub de empresas.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Acciones para una empresa que figura en el centro empressarial":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Acciones para una empresa que figura en el centro empresarial.":::
 
 > [!TIP]
 > Si está trabajando en la versión de prueba gratuita de [!INCLUDE [prod_short](includes/prod_short.md)], es fácil agregar las empresas en su suscriptor. Puede encontrar el vínculo del entorno copiando el Id. de Azure Active Directory de la sección **Solución de problemas** de la página de Ayuda y soporte. El nombre del entorno es probablemente el valor predeterminado, PRODUCCIÓN. Agregue esta información al campo **Vínculo de entorno**, como ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1``` y luego elija **Probar la conexión**. La empresa de evaluación se agregará a la lista.

@@ -10,18 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52632b540c2795b0e46cbae12037aa2e1ee8c743
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776127"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437757"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Asignación de campos al exportar archivos de pago utilizando la extensión AMC Banking 365 Fundamentals
 Cuando exporta archivos de pago utilizando la extensión AMC Banking 365 Fundamentals, los datos que exporta se exponen al proveedor de servicios. El proveedor del servicio es responsable de la privacidad de estos datos. Para obtener más información sobre la extensión AMC Banking 365 Fundamentals, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  Cuando se exportan archivos de pago con la extensión AMC Banking 365 Fundamentals, algunos de los datos empresariales serán visibles para el proveedor del servicio. El proveedor de servicios, AMC Consult A/S, es responsable de la privacidad de estos datos. Para obtener más información, consulte [Directiva de función de AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
+
+> [!NOTE]
+> En la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones norteamericanas, el mismo servicio se puede utilizar para enviar archivos de pago como transferencia electrónica de fondos (EFT), por ejemplo, la red de Cámara de Compensación Automatizada (ACH) de uso común, aunque con un proceso ligeramente diferente.
 
 La siguiente tabla enumera los campos en [!INCLUDE[prod_short](includes/prod_short.md)] desde los que puede exportar datos.  
 

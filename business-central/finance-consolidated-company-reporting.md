@@ -1,6 +1,6 @@
 ---
-title: Consolidar los datos de varias empresas | Documentos de Microsoft
-description: Obtener una visión general del estado financiero de sus empresas.
+title: Consolidar los datos de varias empresas
+description: Este tema explica cómo puede consolidar los movimientos de contabilidad de dos o más empresas independientes (subsidiarias) en una sola empresa consolidada.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2be133009314b714d7b86e6257f642f13720b5e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774334"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436253"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
 
@@ -55,7 +55,7 @@ El proceso de transferir las cifras de las unidades de negocio a la empresa cons
 Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUDE[prod_short](includes/prod_short.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Deberá corregir los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, puede probar el archivo.  
 
 1. Abra la empresa consolidada.  
-2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 3. Realice una de las siguientes acciones:  
 
     * Para probar un archivo, elija la acción **Probar archivo**, escriba el nombre del archivo y después seleccione **Imprimir**.  

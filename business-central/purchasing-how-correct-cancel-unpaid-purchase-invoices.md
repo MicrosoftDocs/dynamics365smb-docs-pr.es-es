@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2e2e64cd3845f20e9c3e0fea5c114ebcd08491d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc930c319a1d1c6ae7ff0615bb6bf20cf125cf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780237"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436103"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corregir o cancelar facturas de compra sin abonar
 
@@ -28,7 +28,7 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Para corregir una factura de compra registrada
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico facturas compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura de compra registrada que desea corregir.  
 
     > [!NOTE]  
@@ -41,7 +41,7 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 4. Elija **Mostrar abono correctivo** para ver el histórico de abonos de compra que anula la factura de compra registrada inicial.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Para cancelar una factura de compra registrada
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Histórico facturas compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura de compra registrada que desea cancelar.
 
     > [!NOTE]  

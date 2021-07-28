@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e3926db3bcc1b34e2f75e6b338a86f2ddc2c20b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4849f1a1b6c802a597ff9a70abfb8133f85baed0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783364"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438010"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizar páginas para perfiles
 Los usuarios pueden personalizar las páginas que componen su área de trabajo para que se adapte a sus preferencias. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
@@ -25,7 +25,7 @@ Los administradores pueden personalizar las páginas para un perfil, de acuerdo 
 La personalización de la página comienza en la página **Perfiles (roles)**, el punto de partida del administrador para administrar los perfiles de los usuarios en fichas de perfil individuales. Además de personalizar el diseño de la página, puede controlar otras configuraciones para los perfiles en la página **Perfil (rol)** para cada perfil. Para obtener más información, consulte [Administrar perfiles](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Para personalizar páginas para un perfil
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Perfiles (roles)** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Perfiles (roles)** y luego elija el enlace relacionado.
 2. Seleccione la línea del perfil para el que desea personalizar páginas y, después, seleccione la acción **Editar**.
 3. Elija la acción **Personalizar páginas**.
 

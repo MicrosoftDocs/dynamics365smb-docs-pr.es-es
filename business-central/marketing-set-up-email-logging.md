@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c46fc5107413c4b00b7283e29a75d835de5434e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777678"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437582"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos
 
@@ -105,7 +105,7 @@ Se parte de la base que para los siguientes pasos está usando Azure Active Dire
 Si no estas usando Azure Active Directory para administrar las identidades y el acceso, necesitará ayuda de un desarrollador. Si prefiere almacenar el identificador y el secreto de la aplicación en una ubicación diferente, puede dejar en blanco los campos Id . del cliente y Secreto del cliente y escribir una extensión para obtener el identificador y el secreto de la ubicación. Puede proporcionar el secreto en tiempo de ejecución suscribiéndose a los eventos OnGetEmailLoggingClientId y OnGetEmailLoggingClientSecret en la codeunit 1641 "Impl. de CDS Integration".
 
 ### <a name="to-stop-logging-email"></a>Para dejar de registrar correo electrónico
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de marketing** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de marketing** y luego elija el enlace relacionado.
 2. Desactive el botón de alternancia **Habilitado**.
 
 ## <a name="see-also"></a>Consulte también

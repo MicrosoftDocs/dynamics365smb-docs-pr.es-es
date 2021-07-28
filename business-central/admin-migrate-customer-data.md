@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781191"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437471"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 
@@ -42,7 +42,7 @@ Antes de comenzar, debe asegurarse de tener permiso para ejecutar los RapidStart
 > Tampoco se importarán las tablas que tengan diferentes claves principales ni los campos que tengan distintos tipos de datos. Por ejemplo, si el paquete de configuración incluye la tabla **50000 Cliente** que tiene la clave principal **Code20** y la base de datos a la que importa el paquete incluye la tabla **50000 Banco cliente** que tiene la clave principal **Code20 + Código 20**, no se importarán los datos.  
 
 1. Abra la nueva empresa.  
-2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.  
 3. Elija la acción **Importar paquete**. Navegue hasta el archivo del paquete .rapidstart que desea importar y luego elija la acción **Abrir**. Durante la importación, se descomprimen los contenidos del paquete y se crea el registro del paquete.  
 
     Cuando la importación esté completada, puede ver el número de tablas de configuración que se han importado en el campo **Nº de tablas**.  
@@ -63,7 +63,7 @@ Puede crear nuevos archivos de migración de datos y personalizarlos para satisf
 > [!TIP]
 > Un archivo solo se puede utilizar para migrar un campo que tenga su propiedad **FieldClass** establecida en **Normal**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquete de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.  
 2. Seleccione y abra el paquete que desea utilizar para migrar datos y después seleccione **Obtener tablas**. Se abre la página **Traer tabla de paquete**.  
 3. En el campo **TableID**, introduzca un número de tabla o seleccione una tabla de la lista, por ejemplo, la tabla 18, **Cliente**. El campo **Nombre de tabla** se rellena automáticamente.  
 4. Seleccione la nueva tabla de la migración y, a continuación, en la pestaña **Tablas**, elija la acción **Campos**. Se abre la página **Campos migración**.  
@@ -79,7 +79,7 @@ Se creará una nueva tabla de migración.
 ## <a name="to-export-data-migration-files"></a>Para exportar archivos de migración
 Cuando haya determinado las tablas a las que desea transferir datos de cliente, debe exportar los archivos.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.  
 2. Seleccione y abra el paquete que desee usar para la exportación.
 3. Seleccione la tabla o tablas que desea exportar y después seleccione **Exportar a Excel**.
 4. Guarde el archivo Excel exportado.  
@@ -100,7 +100,7 @@ Cuando liquide datos que ha importado desde Excel o desde un paquete RapidStart,
 
 En los siguientes procedimientos, debe revisar por adelantado los valores que desea que se retengan durante el proceso de migración. Para realizar los procedimientos siguientes, necesitará los archivos de migración de datos (.xlsx) que haya exportado desde [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Para exportar archivos de migración](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.
 2. Abra el paquete de la empresa en cuestión.  
 3. Seleccione la tabla a la que desee asignar valores y en la pestaña **Tablas**, elija la acción **Campos**.  
 4. Para cada campo que desee asignar, elija la acción **Asignación**.  
@@ -118,7 +118,7 @@ El ejemplo siguiente ilustra cómo implementa [!INCLUDE[prod_short](includes/pro
 3. Cuando se aplican datos, la asignación proporcionada en el campo **Código** de la tabla **Vendedor/Comprador** también se tendrá en cuenta al procesar los campos **Código de vendedor** y **Código de comprador**.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Para agregar valores adicionales a [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.  
 2. Seleccione la tabla a la que desee asignar valores adicionales y en la pestaña **Tablas**, elija la acción **Campos**.  
 3. Para los campos para los que desea que [!INCLUDE[prod_short](includes/prod_short.md)] permita valores adicionales durante la migración, seleccione la casilla **Crear códigos que faltan**.  
 4. Importe los datos del cliente. Para obtener más información, consulte [Para importar datos del cliente](admin-migrate-customer-data.md#to-import-customer-data).
