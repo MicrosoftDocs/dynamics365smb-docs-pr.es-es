@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074592"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444023"
 ---
 # <a name="sharing-business-central-records-in-microsoft-teams"></a>Compartir registros de Business Central en Microsoft Teams
 
@@ -30,7 +30,7 @@ La aplicación [!INCLUDE [prod_short](includes/prod_short.md)] le permite:
 - Copie un vínculo a cualquier registro de Business Central y péguelo en una conversación de Teams para compartirlo con sus compañeros de trabajo. La aplicación expandirá el vínculo para convertirse en una tarjeta compacta e interactiva que muestra información sobre el registro.
 - Una vez en la conversación, usted y sus compañeros de trabajo pueden ver más detalles sobre el registro, editar datos y tomar medidas, sin salir de Teams.
 
-[![Integración de Teams con Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Integración de Teams con Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -49,13 +49,13 @@ La aplicación [!INCLUDE [prod_short](includes/prod_short.md)] le permite:
 
 3. Copie la URL completa de la barra de direcciones del navegador.
 
-   ![Copiar la URL de Business Central desde el navegador](media/teams-url-v2.png)
+   ![Copiar la URL de Business Central desde el navegador.](media/teams-url-v2.png)
 4. Vaya a Teams e inicie una conversación, que puede ser chatear con una persona, un grupo de personas o un canal de equipo.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Pegue la URL en el cuadro de mensaje donde redacta los mensajes.
 
-   ![Pegar la URL de Business Central en Teams](media/teams-paste-url-v2.png)
+   ![Pegar la URL de Business Central en Teams.](media/teams-paste-url-v2.png)
 6. La primera vez que pegue un vínculo en una conversación, se le pedirá que inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)] y dar su consentimiento para que la aplicación recupere datos. Simplemente siga las instrucciones en pantalla.
 
     > [!NOTE]
@@ -90,6 +90,8 @@ Para obtener más información sobre cómo trabajar con tarjetas y detalles de t
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  
 [P+F de Teams](teams-faq.md)  
+[Búsqueda de clientes, proveedores y otros contactos desde Microsoft Teams](across-search-contacts-teams.md)  
+[Cambiar la empresa y otras configuraciones en Teams](across-teams-settings.md)  
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

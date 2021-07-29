@@ -1,6 +1,6 @@
 ---
-title: Recopilación de valores de configuración de cliente | Documentos de Microsoft
-description: Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en Business Central y después proporcionárselo al cliente como un archivo de Excel (.xlsx) o XML.
+title: Recopilación de valores de configuración de cliente
+description: El cuestionario de configuración ayuda a reducir la implementación al agilizar la configuración de nuevas empresas y ofrecer a los clientes un archivo Excel o XML.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783979"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443898"
 ---
 # <a name="gather-customer-setup-values"></a>Recopilación de valores de configuración de cliente
 Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en [!INCLUDE[prod_short](includes/prod_short.md)] y después proporcionárselo al cliente como un archivo de Excel o XML.  
@@ -50,9 +50,9 @@ Puede usar un cuestionario para ayudarle a determinar el ámbito y necesidades d
 -   Configuración almacén  
 
 > [!NOTE]  
->  Para ver una lista completa de tablas de configuración, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración manual** y luego elija el enlace relacionado. Para determinar el ámbito de la migración de datos de registros, utilice la función de migración. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
+>  Para ver una lista completa de tablas de configuración, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración** y luego elija el enlace relacionado. Para determinar el ámbito de la migración de datos de registros, utilice la función de migración. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **cuestionarios de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.   
 3. En la página **Cuestionario de configuración**, en el campo **Código**, introduzca ... 
 <!--4. In the **Name** field, enter...
@@ -98,7 +98,7 @@ Utilice el cuestionario de configuración para estructurar y documentar una disc
 >  También puede crear su propio cuestionario de configuración para ajustarse a sus necesidades.  
 
 1. Abra la empresa para la que desea completar el cuestionario.
-2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Cuestionarios de configuración** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado.  
 3. Seleccione el cuestionario para la empresa y luego elija la acción **Exportar a Excel**, de forma opcional la acción **Exportar a XML**.
 4. Haga que el cliente complete el cuestionario de configuración al especificar las respuestas en el libro de Excel. Existen hojas de cálculo para cada una de las áreas de preguntas que se han creado para el cuestionario.   
 5. Guarde el libro de Excel como *Datos XML*. Seleccione la acción **Importar desde XML** y seleccione el archivo .xml con las respuestas de cliente.
@@ -131,7 +131,7 @@ Cuando termine la validación, los datos estarán preparados para aplicarse a la
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Aplicar respuestas del cuestionario de configuración
 Después de que haya importado y validado información de un cuestionario de configuración, puede transferir o aplicar los datos de configuración a las tablas correspondientes en la base de datos de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **cuestionarios de configuración** y luego elija el enlace relacionado. Se abre la página **Cuestionario configuración**.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado. Se abre la página **Cuestionario configuración**.  
 2. Seleccione un cuestionario de configuración de la lista y elija la acción **Editar lista**.  
 3. Puede aplicar respuestas de dos maneras.  
 

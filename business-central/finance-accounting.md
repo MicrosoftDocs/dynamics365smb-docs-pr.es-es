@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e988e0b23f29f4b9969a9682eac2e2e91a30fcc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780940"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442805"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Experiencias contables en [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -44,7 +44,7 @@ Hemos facilitado la invitación a su contable externo. Abra simplemente la pági
 > [!Note]  
 > Para ello es necesario que haya configurado el correo electrónico SMTP. Para obtener más información, consulte [Configurar correo electrónico](admin-how-setup-email.md).  
 
-<!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
+<!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
 > La dirección de correo electrónico del contable debe ser una dirección de trabajo basada en Azure Active Directory. Si el contable utiliza otro tipo de correo electrónico, la invitación no se podrá enviar.
@@ -91,7 +91,7 @@ El contador recibirá un correo electrónico que le notifica que se le ha dado a
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Para añadir el contable a la empresa correcta
 
 1. Abra la [!INCLUDE[prod_short](includes/prod_short.md)] empresa a la que desea dar acceso al contable en [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
-2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Usuarios** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.  
 3. Elija la acción **Obtener nuevos usuarios de Microsoft 365**.
 
 Esto importa la cuenta de usuario que creó en Azure Portal a la empresa. Para obtener más información, consulte [Para añadir un usuario en Business Central](ui-how-users-permissions.md#adduser).  

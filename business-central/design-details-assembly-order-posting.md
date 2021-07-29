@@ -1,6 +1,6 @@
 ---
-title: 'Detalles de diseño: Registro de pedidos de ensamblado | Documentos de Microsoft'
-description: El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción. No obstante, los principios que se agrupan en los pedidos de ensamblado tienen su propia IU de registro, como para los pedidos de venta, mientras que el registro real de movimientos se produce en segundo plano como registro de productos directos y registro de diario de recursos, como con el de consumo, la salida y la capacidad de producción.
+title: 'Detalles de diseño: Registro de pedidos de ensamblado'
+description: El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216008"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442565"
 ---
 # <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
 El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción. No obstante, los principios que se agrupan en los pedidos de ensamblado tienen su propia IU de registro, como para los pedidos de venta, mientras que el registro real de movimientos se produce en segundo plano como registro de productos directos y registro de diario de recursos, como con el de consumo, la salida y la capacidad de producción.  
@@ -31,14 +31,14 @@ Los siguientes registros de diario se producen durante el registro de pedido de 
 
 En el diagrama siguiente se muestran la estructura del producto y los movimientos de recursos resultantes del registro de pedido de ensamblado.  
 
-![Movimientos de productos, recursos y capacidad resultantes del registro de pedidos de ensamblado](media/design_details_assembly_posting_1.png "Movimientos de productos, recursos y capacidad resultantes del registro de pedidos de ensamblado")  
+![Movimientos de productos, recursos y capacidad resultantes del registro de pedidos de ensamblado.](media/design_details_assembly_posting_1.png "Movimientos de productos, recursos y capacidad resultantes del registro de pedidos de ensamblado")  
 
 > [!NOTE]  
 >  Se incluyen los centros de máquina y de trabajo para ilustrar que los movimientos de capacidad se crean a partir de la producción y del ensamblado.  
 
 En el diagrama siguiente se muestra cómo los datos del ensamblado fluyen en los movimientos durante el registro:  
 
-![Flujo de movimiento relacionado con el ensamblado durante el registro](media/design_details_assembly_posting_2.png "Flujo de movimiento relacionado con el ensamblado durante el registro")  
+![Flujo de movimiento relacionado con el ensamblado durante el registro.](media/design_details_assembly_posting_2.png "Flujo de movimiento relacionado con el ensamblado durante el registro")  
 
 ## <a name="posting-sequence"></a>Secuencia de registro  
 El registro de un pedido de ensamblado se produce en el orden siguiente:  
@@ -69,7 +69,7 @@ La función de detección de nivel de pedido se usa en escenarios de conversión
 
 En el gráfico siguiente se muestra la estructura del movimiento de ajuste y cómo se ajustan los costes de ensamblado.  
 
-![Flujo de movimiento relacionado con el ensamblado durante el ajuste de costes](media/design_details_assembly_posting_3.png "Flujo de movimiento relacionado con el ensamblado durante el registro")  
+![Flujo de movimiento relacionado con el ensamblado durante el ajuste de costes.](media/design_details_assembly_posting_3.png "Flujo de movimiento relacionado con el ensamblado durante el registro")  
 
 ### <a name="performing-the-adjustment"></a>Realizar el ajuste  
 La distribución de los ajustes detectados de la lista de materiales y los costes de recursos en los movimientos de salida de ensamblado se lleva a cabo mediante el proceso **Valorar stock - movs. producto**. Contiene la función para aplicar ajustes de multinivel, que consta de los dos elementos siguientes:  
@@ -77,7 +77,7 @@ La distribución de los ajustes detectados de la lista de materiales y los coste
 -   Realizar el ajuste de pedido de ensamblado, que desvía el coste de la utilización de materiales y de recursos al movimiento de salida de ensamblado. Las líneas 5 y 6 del algoritmo siguiente son las responsables.  
 -   Realizar los ajustes de nivel individual, que desvía los costes de los productos individuales mediante su valoración de existencias. Las líneas 9 y 10 del algoritmo siguiente son las responsables.  
 
-![Resumen del algoritmo de ajuste de costes para el registro de ensamblados](media/design_details_assembly_posting_4.jpg "Resumen del algoritmo de ajuste de costes para el registro de ensamblados")  
+![Resumen del algoritmo de ajuste de costes para el registro de ensamblados.](media/design_details_assembly_posting_4.jpg "Resumen del algoritmo de ajuste de costes para el registro de ensamblados")  
 
 > [!NOTE]  
 >  El elemento Realizar ajustes de trabajo en curso, en las líneas 7 y 8, es responsable de enviar el material de producción y el uso de capacidad a la salida de las órdenes de producción finalizar. No se usa al ajustar los costes del pedido de ensamblado ya que el concepto de trabajo en curso no aplica al ensamblado.  

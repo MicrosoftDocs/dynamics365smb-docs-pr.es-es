@@ -1,6 +1,6 @@
 ---
-title: Personalización de páginas | Documentos de Microsoft
-description: Aprenda a personalizar la interfaz de usuario para que se adapte a su forma de trabajar en Business Central.
+title: Personalizar páginas
+description: Aprenda a personalizar la interfaz de usuario y personalizar el área de trabajo para que se adapte a su forma de trabajar y preferencias personales en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783316"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442680"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
 Puede personalizar su área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
@@ -42,7 +42,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Para empezar a personalizar una página a través del banner **Personalización**
 1. Abra cualquier página que quiera personalizar.
-2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija la acción **Personalizar**.
+2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") , y luego elija la acción **Personalizar**.
 
     El banner **Personalización** aparece en la parte superior para indicar que puede empezar a realizar cambios.
 

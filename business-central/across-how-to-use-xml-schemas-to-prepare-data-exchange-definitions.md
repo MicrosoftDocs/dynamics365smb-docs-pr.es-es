@@ -1,6 +1,6 @@
 ---
-title: Uso de esquemas XML para preparar definiciones de intercambio de datos
-description: Utilice los esquemas XML para configurar el marco de intercambio de documentos.
+title: Esquemas XML para preparar definiciones de intercambio de datos
+description: Utilice esquemas XML para configurar el marco de intercambio de datos para definir con qué elementos de datos desea intercambiar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70e80403175c6a77d120a3b405b1b5758410c227
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42afc2d2de9d705d90a92166084b492c3a328674
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781366"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444073"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Uso de esquemas XML para preparar definiciones de intercambio de datos
 
@@ -35,7 +35,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 1. Asegúrese de que esté disponible el archivo de esquema XML. La extensión de archivo es .xsd.  
 
-2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas XML** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas XML** y luego elija el enlace relacionado.  
 
 3. Seleccione la acción **Nuevo**.  
 
@@ -57,7 +57,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Para seleccionar o borrar nodos en un esquema XML  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Visor de esquemas XML** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Visor de esquemas XML** y luego elija el enlace relacionado.  
 
 2. Rellene los campos en la cabecera tal como se describe en la tabla siguiente.  
 
@@ -95,7 +95,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Para generar una definición de intercambio de datos basada en un esquema XML  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Esquemas XML** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas XML** y luego elija el enlace relacionado.  
 
 2. Seleccione el esquema XML relevante y luego elija la acción **Abrir Visor de esquema XML**.  
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ff6f0efce35a894f2a2200d2c8a89b35ad26bb53
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8d57fedc09b6c94ecfce7e24e1eea097f837030e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774135"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442290"
 ---
 # <a name="acquire-fixed-assets"></a>Activos fijos adquiridos
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Un libro de amortización debe estar configurado y asignado a cada activo fijo antes de que pueda adquirirlo.
@@ -31,7 +31,7 @@ El ajuste de valores se utiliza para ajustar los valores a los cambios de nivele
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Para crear un activo y adquirirlo automáticamente
 El procedimiento siguiente describe cómo crear un activo y después adquirirlo utilizando la página **Adquisición activos asistida** para crear y registrar las líneas necesarias del diario general de activos. También puede crear y registrar las líneas de diario manualmente. Para obtener más información, consulte [Para registrar una adquisición de un activo manualmente con el diario general de activos](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos de la ficha desplegable **General** como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En la ficha desplegable **Ficha libros amortización**, rellene los campos según sea necesario. Este paso asigna un libro de amortización al activo.  
 4. Si necesita asignar más de un libro de amortización al activo, elija la acción **Añadir más libros amortización**. Para obtener más información, consulte [Para asignar un libro de amortización a un activo fijo](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
@@ -50,12 +50,12 @@ Puede agrupar sus activos en principales y sus componentes. Por ejemplo, puede t
 
 Tanto el activo principal como todos sus componentes deben configurarse como fichas individuales de activos. Después de configurar una lista de componentes, [!INCLUDE[prod_short](includes/prod_short.md)] rellena automáticamente los campos **Principal/Componente** y **Componentes de activo principal** de las fichas de activos fijos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
 2. Seleccione el activo principal y, a continuación, elija la acción **Componentes activo ppal**.
 3. En la página **Componentes activo ppal.**, seleccione el campo **A/F Nº** y, a continuación, seleccione el activo que desea agregar como componente del activo principal.
 4. Cierre la página.
 5. Repita los pasos 3 y 4 para cada componente que desee agregar.
-6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración activos** y luego elija el enlace relacionado.
+6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de activos fijos** y luego elija el enlace relacionado.
 7. Seleccione la casilla de verificación **Permitir reg. en activos pples**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Para registrar una adquisición de activo manualmente con el diario general de activos fijos
@@ -64,7 +64,7 @@ El procedimiento siguiente describe cómo adquirir un activo manualmente creando
 > [!NOTE]  
 >   Puede registrar los costes como abonos. En ese caso, recuerde que el valor del campo **Importe** debe tener el símbolo menos que indica un abono.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios generales A/F** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales A/F**, y luego elija el enlace relacionado.
 2. En la página **A/F Diario general**, en el campo **A/F Tipo registro**, seleccione **Coste**.
 3. Rellene los campos restantes según sea necesario.
 4. Seleccione la acción **Registrar**.  
@@ -80,7 +80,7 @@ Por ejemplo, si registra una adquisición con la fecha incorrecta, debe corregir
 > [!IMPORTANT]  
 >   No puede usar la función **Transacciones inversas** para los movimientos de un activo.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cancelar movs. A/F** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cancelar movs. A/F**, y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Elija el botón **Aceptar** para iniciar el trabajo por lotes.
 4. Cuando se hayan cancelado el movimiento o movimientos incorrectos, registre el coste correcto.
@@ -90,7 +90,7 @@ Para anular los movimientos de varios activos fijos a la vez, use el proceso **A
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Para registrar el valor residual junto con el coste
 Puede registrar el valor residual junto con el coste a partir del diario de activos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **A/F Diarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **A/F Diarios**, y luego elija el enlace relacionado.
 2. En la página **Diarios de activos fijos**, cree la línea de adquisición. Para obtener más información, consulte [Para registrar una adquisición de un activo manualmente con el diario general de activos](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. En el campo **Valor residual** de la línea del diario, escriba el importe del valor residual como abono (con un signo menos).
 4. Seleccione la acción **Registrar**.

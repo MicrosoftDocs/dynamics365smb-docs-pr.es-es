@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4b9a131b890efe1612ec05d6810d5b661447b26f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782664"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444160"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Mover componentes a un área de operaciones en configuraciones básicas de almacén
 Si el artículo que procesa las operaciones tiene lugar en su ubicación de almacén, puede tener que mover los artículos entre las ubicaciones internas para responder a los documentos de origen interno, como producción, ensamblado o pedidos de servicio en la ubicación.  
@@ -47,7 +47,7 @@ Alternativamente, un trabajador de almacén puede crearla apuntando al pedido de
 Este procedimiento muestra cómo crear un movimiento de inventario de la página **Movimiento inventario** haciendo referencia un pedido de ensamblado lanzado como documento de origen. El procedimiento es el mismo cuando se mueven los componentes para las órdenes de producción y los pedidos de servicio.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Para mover componentes a un área de operaciones en configuraciones básicas de almacén  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movimiento de inventario** y elija el enlace relevante.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimiento inventario** y elija el enlace correspondiente.  
 2.  En la ficha desplegable **General**, rellene el campo **Nº** . Puede pulsar la tecla Entrar para seleccionar entre las series numéricas.  
 3.  En el campo **Cód. almacén**, escriba la ubicación donde tiene lugar el movimiento.  
 4.  Seleccione la acción **Traer doc. origen**. Alternativamente, rellene el campo **Documento origen** y, a continuación, elija el botón **AssistEdit** en el campo **Cód. procedencia mov.**  

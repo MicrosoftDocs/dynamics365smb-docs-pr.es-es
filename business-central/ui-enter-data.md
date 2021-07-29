@@ -1,6 +1,6 @@
 ---
-title: Cómo introducir datos en Business Central | Documentos de Microsoft
-description: Obtenga información sobre las características generales que le ayudan a introducir datos en los campos.
+title: Cómo ingresar datos en Business Central
+description: Hay muchas características generales que le ayudan a introducir datos de forma más fácil, rápida y precisa. Los principios básicos y las funciones avanzadas se describen aquí.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784820"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443673"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -93,7 +93,7 @@ La lista siguiente ofrece información útil sobre el uso de la entrada rápida.
 
 Para configurar la Entrada rápida en campos, utilice la personalización.
 
-1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y luego la acción **Personalizar**.
+1. Inicie la personalización seleccionando el icono ![Configuración.](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") , y luego la acción **Personalizar**.
 2. Seleccione el campo que desea cambiar. En listas, seleccione el encabezado de columna correspondiente. Luego, elija **Incluir en Entrada rápida** o **Excluir de Entrada rápida**.
 
 Para obtener más información sobre la personalización, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Se beneficiará especialmente cuando trabaje con grandes listas de artículos de
 
 ### <a name="switching-the-focus-on-and-off"></a>Activar y desactivar el enfoque
 
-Para el enfoque en los productos de línea, seleccione cualquier lugar de la parte de producto de línea y, a continuación, seleccione ![icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") en la esquina superior derecha o pulse Ctrl+Mayús+F12.
+Para centrarse en productos de línea, seleccione cualquier lugar de la parte de producto de línea y, a continuación, seleccione el ![icono Modo de enfoque.](media/focus-mode.png "Icono Modo de enfoque") en la esquina superior derecha, o presione Ctrl+Mayús+F12.
 
-Para volver a la vista normal, seleccione ![icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") o pulse Ctrl+Mayús+F12 de nuevo.
+Para volver a la vista normal, elija el ![icono Modo de enfoque.](media/focus-mode.png "Icono Modo de enfoque") o presione Ctrl+Mayús+F12 nuevamente.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitarea en varias páginas
 
@@ -148,15 +148,15 @@ Puede abrir una página de ficha o documento en una nueva ventana. Abrir una nue
 - Administre interrupciones en la tarea actual, como atender una llamada entrante.
 - Mantener una ventana abierta para una tarea en curso mientras inicia o completa otra tarea en ventanas.
 
-Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir en una nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
+Para abrir la tarjeta o documento actual en una nueva ventana, elija ![Abrir nueva ventana.](media/open-new-window-icon.png "Icono Abrir en una nueva ventana") en la esquina superior derecha, o presione Alt+Mayús+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
+Para abrir la tarjeta o documento actual en una nueva ventana, elija ![Abrir nueva ventana.](media/open-new-window-icon.png "Icono Abrir nueva ventana") en la esquina superior derecha, o presione Alt+Mayús+W.
 
 > [!NOTE]
-> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana").
+> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana.](media/open-new-window-icon.png "Icono Abrir nueva ventana").
 
 > [!NOTE]
 > Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

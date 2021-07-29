@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d39262993a173fec1eae68bcb44a85332a9866a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773109"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443997"
 ---
 # <a name="configuring-api-templates"></a>Configuración de plantillas API
 La biblioteca API para [!INCLUDE[prod_short_md](includes/prod_short.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La página **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
@@ -31,7 +31,7 @@ Para usar plantillas con la biblioteca API, primero debe configurar y definir pr
 
 Para asignar una plantilla a una API, debe seguir los siguientes pasos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de API** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de API** y luego elija el enlace relacionado.
 2. Seleccione **Nuevo** y el valor **Orden** para el registro.  
 Si hay más de una plantilla seleccionada para una API (ID de página), las plantillas se aplican en el orden definido en la columna **Pedido**.   
 Cuando se aplican las plantillas, los valores de campo definidos en la plantilla solo se aplican a los campos que aún no tienen un valor definido, ya sea explícitamente en la API o en una plantilla previamente aplicada en el pedido. 

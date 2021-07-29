@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd35c0af4d2b66f99c0a4a3a65f77826cd9af806
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 313de95353fc42b222fa95cd36d320881a7fbdb8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775927"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442590"
 ---
 # <a name="set-up-incoming-documents"></a>Configurar documentos entrantes
 
@@ -29,7 +29,7 @@ Al configurar la función Documentos entrantes, puede usar distintas funciones p
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>Para configurar la característica Documentos entrantes
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración de ventas y cobros** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de documentos entrantes** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Como parte de la configuración, debe decidir si desea solicitar la aprobación de los documentos entrantes. Para requerir aprobación, debe configurar aprobadores y flujos de trabajo de aprobación. Si su organización no tiene la intención de requerir aprobación, puede omitir la siguiente sección.  
@@ -44,7 +44,7 @@ Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, 
 
 ## <a name="to-set-up-an-ocr-service"></a>Para configurar un servicio de OCR
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración del servicio OCR** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración del servicio OCR** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  

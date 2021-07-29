@@ -1,6 +1,6 @@
 ---
-title: Preparar migración de datos de cliente con plantillas | Microsoft Docs
-description: Aprenda a usar las plantillas de configuración para estructurar los datos existentes del cliente antes de migrar los datos a la nueva empresa en Business Central.
+title: Prepararse migración de datos del cliente con plantillas
+description: Aprenda a usar las plantillas de configuración para estructurar los datos existentes del cliente antes de migrar los datos maestros a la nueva empresa en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776996"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443159"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepararse para migrar datos del cliente con plantillas
 
@@ -47,7 +47,7 @@ Al seleccionar una plantilla existente de datos maestros, debe evaluar si las pl
 > [!TIP]  
 > También puede usar plantillas de datos para crear nuevos registros de forma rápida. Utilícelas para una creación de datos más rápida y más exacta. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de configuración**, y luego elija el enlace relacionado.  
 2. En la página **Plantillas de configuración**, seleccione una plantilla de datos de lista y después seleccione **Editar**.  
 
 Si las plantillas predeterminadas no satisfacen sus necesidades, puede crear nuevas plantillas o agregar campos a una plantilla existente. Si las plantillas predeterminadas son suficientes, puede utilizarlas para crear registros basados en las plantillas de datos principales.
@@ -100,7 +100,7 @@ El identificador de tabla, el nombre de tabla y las líneas de la plantilla de d
 
 Puede crear rápidamente un libro de Excel para que sirva como plantilla basada en la estructura de una tabla de base de datos existente. A continuación, puede usar la plantilla para recopilar todos los datos de cliente en un formato coherente para su importación posterior en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. Agregue una tabla a la lista o seleccione una tabla existente. Para obtener más información, vea [Gestionar la configuración de la empresa en una hoja de trabajo](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Elija la acción **Mostrar campos** acción para definir los campos de la tabla que desea incluir en la plantilla.
 4. Seleccione la acción **Exportar a plantilla**.
@@ -130,11 +130,11 @@ Puede utilizar la estructura de datos que se incluye en las plantillas de datos 
 
 Los pasos siguientes ilustran cómo crear una ficha de producto de una plantilla de datos de producto. Puede crear un registro de cualquier plantilla de datos mediante el mismo procedimiento.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de configuración**, y luego elija el enlace relacionado.  
 2. Seleccione la plantilla **Artículo** y, a continuación, elija la acción **Editar**. Para obtener más información, consulte [Para crear una plantilla de datos](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Seleccione la acción **Crear instancia**. Se creará una ficha de producto.  
 4. Elija el botón **Aceptar**.  
-5. Para revisar la nueva ficha de producto, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+5. Para revisar la nueva ficha de artículo, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 6. Abra la ficha de producto nueva.  
 7. Expanda diferentes fichas desplegables y verifique que la información fue creada correctamente en ellas.  
 

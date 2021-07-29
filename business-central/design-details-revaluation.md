@@ -1,6 +1,6 @@
 ---
-title: 'Detalles de diseño: Reevaluación | Documentos de Microsoft'
-description: Puede revalorizar el inventario según la base de valoración que refleja de forma más precisa el valor de inventario. También puede especificar una fecha retroactiva para una revalorización, de modo que el coste total de las mercancías vendidas se actualice correctamente para los productos que ya se han vendido. Los productos que usan la valoración de existencias Estándar que no se han facturado por completo también se pueden volver a valorar.
+title: 'Detalles de diseño: Revalorización'
+description: Puede revalorizar el inventario según la base de valoración que refleja de forma más precisa el valor de inventario.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215783"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444310"
 ---
 # <a name="design-details-revaluation"></a>Detalles de diseño: Revalorización
 Puede revalorizar el inventario según la base de valoración que refleja de forma más precisa el valor de inventario. También puede especificar una fecha retroactiva para una revalorización, de modo que el coste total de las mercancías vendidas se actualice correctamente para los productos que ya se han vendido. Los productos que usan la valoración de existencias Estándar que no se han facturado por completo también se pueden volver a valorar.  
@@ -39,7 +39,7 @@ Dado que la operación de revalorización se puede realizar en cualquier fecha, 
 ### <a name="example"></a>Ejemplo  
 En el ejemplo siguiente se ilustra cuándo forman parte del inventario las transiciones de producto de trabajo en curso. El ejemplo se basa en la producción de una cadena con 150 eslabones.  
 
-![Inventario WIP y revalorización](media/design_details_inventory_costing_10_revaluation_wip.png "Inventario WIP y revalorización")  
+![Inventario WIP y revalorización.](media/design_details_inventory_costing_10_revaluation_wip.png "Inventario WIP y revalorización")  
 
 **1T**: el usuario registra vínculos de comprados según se reciben. En la tabla siguiente se muestra el movimiento de producto resultante.  
 

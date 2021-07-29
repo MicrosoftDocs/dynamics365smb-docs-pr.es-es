@@ -1,20 +1,20 @@
 ---
-title: Administre usuarios y roles | Documentos de Microsoft
-description: Obtener información sobre cómo administrar usuarios y áreas de trabajo en Business Central.
+title: Administrar usuarios y roles
+description: Obtener información sobre cómo administrar perfiles de usuari y áreas de trabajo en Business Central. Los perfiles permiten a los administradores definir y gestionar de forma centralizada lo que los usuarios pueden ver y hacer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776971"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443134"
 ---
-# <a name="manage-profiles"></a>Administración de perfiles
+# <a name="manage-user-profiles"></a>Administración de perfiles de usuario
 
 A todos los usuarios de [!INCLUDE[prod_short](includes/prod_short.md)] se les asigna un perfil que refleja su rol de negocio, el departamento en el que trabaja u otra clasificación. Los perfiles permiten a los administradores definir y administrar centralmente lo que los diferentes tipos de usuarios pueden ver y hacer en la interfaz de usuario para que puedan realizar sus tareas de negocio de manera eficiente.
 
@@ -31,7 +31,7 @@ Puede personalizar los diseños de página para un perfil de modo que todos los 
 ## <a name="to-create-a-profile"></a>Para crear un perfil
 Si no puede copiar un perfil existente, puede crear uno nuevo manualmente.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Perfiles (roles)** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Perfiles (roles)** y luego elija el enlace relacionado.  
 2. En la página **Perfiles (roles)**, elija la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ Sobre la página **Mi configuración**, los usuarios pueden definir el comportam
 
 Como administrador, puede definir esta configuración para un perfil y, por lo tanto, aplicar la configuración a todos los usuarios del rol relacionado.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Perfiles (roles)** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Perfiles (roles)** y luego elija el enlace relacionado.
 2. Seleccione la línea del perfil cuya configuración de usuario desea cambiar y elija la acción **Enumerar personalizaciones de usuario**.
 3. En la página **Personalizaciones del usuario**, abra la tarjeta para el usuario cuya configuración desea cambiar.
 4. En la página **Tarjeta personalización usuario**, edite los campos según sea necesario.
@@ -108,7 +108,7 @@ Puede eliminar un perfil eligiendo la acción **Eliminar** acción en la página
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Para eliminar todas las personalizaciones efectuadas por un usuario
 Puede eliminar todos los cambios que un usuario ha realizado en las páginas que constituyen su espacio de trabajo. Esto puede ser útil, por ejemplo, si un empleado ha cambiado de rol y ya no necesita las personalizaciones. Al eliminar las personalizaciones de los usuarios, el diseño de la página vuelve a ser el definido por el perfil.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Personalizaciones del usuario** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Personalizaciones de usuario** y luego elija el enlace relacionado.
 
     La página **Personalizaciones del usuario** muestra todos los usuarios que han realizado personalizaciones.
 
@@ -122,7 +122,7 @@ También puede eliminar todas las personalizaciones de página para un perfil. P
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Para eliminar las personalizaciones de páginas específicas
 Puede eliminar las personalizaciones que uno o más usuarios han realizado en páginas específicas que constituyen su espacio de trabajo. Esto puede ser útil, por ejemplo, si un proceso de negocio modificado significa que los usuarios ya no deben usar una personalización. Al eliminar las personalizaciones de los usuarios, el diseño de la página vuelve a ser el definido por el perfil.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Personalizaciones de página de usuario** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Personalizaciones de página de usuario** y luego elija el enlace relacionado.
 
     La página **Personalizaciones de página de usuario** enumera todas las páginas que se han personalizado y el usuario al que pertenecen.
 

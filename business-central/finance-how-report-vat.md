@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: caacf8eb62dd9539f050dbf55543dee862a6d7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779127"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444492"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Crear informes de IVA para las autoridades fiscales
 En este tema se describen los informes de [!INCLUDE[prod_short](includes/prod_short.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región. 
@@ -25,7 +25,7 @@ Utilice los siguientes informes:
 * El informe **Lista venta CE** (Lista de ventas de la Comunidad Europea (CE)) contiene listas de los importes del IVA que ha recaudado con las ventas a clientes con IVA dentro de los países de la Unión Europea.  
 * El informe **Devolución de IVA** incluye el IVA de las ventas y compras a clientes y de proveedores pertenecientes a todos los países que utilizan el IVA.
 
-Si desea ver un historial completo de entradas de IVA, cada publicación que implica IVA crea una entrada en la página **Movs. IVA** . Estos movimientos se utilizan para calcular el importe de liquidación de IVA, como pago o devolución, de un determinado periodo. Para ver los movimientos de IVA, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Movimientos de IVA** y luego elija el enlace relacionado.
+Si desea ver un historial completo de entradas de IVA, cada publicación que implica IVA crea una entrada en la página **Movs. IVA** . Estos movimientos se utilizan para calcular el importe de liquidación de IVA, como pago o devolución, de un determinado periodo. Para ver las entradas de IVA, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de IVA** y luego elija el enlace relacionado.
 
 > [!NOTE]
 > Cada entorno [!INCLUDE[prod_short](includes/prod_short.md)] está destinado a gestionar la información reglamentaria en un solo país. Por ejemplo, la versión holandesa de [!INCLUDE[prod_short](includes/prod_short.md)] gestiona las declaraciones del IVA en los Países Bajos, pero no en otros países. Del mismo modo, la versión de Estados Unidos de [!INCLUDE[prod_short](includes/prod_short.md)] gestiona las declaraciones 1099 en los Estados Unidos y no admite la solicitud de declaraciones del IVA en otros países, a menos que sea posible a través de una extensión entregada por nuestro ecosistema de socios o una modificación de código específica del cliente.
@@ -58,19 +58,19 @@ Para la devolución de IVA, puede especificar los movimientos para incluir:
 
 Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!INCLUDE[prod_short](includes/prod_short.md)] al servicio web de la autoridad fiscal. Para ello es necesario que se configure una cuenta con su autoridad fiscal. Cuando tenga una cuenta, puede activar una conexión de servicio que proporcionamos en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Conexiones de servicio** y luego elija el enlace apropiado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conexiones de servicio** y luego elija el enlace correspondiente.
 2. Rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > Conviene probar la conexión. Para ello, seleccione la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, prepare y envíe su informe de IVA como se describe en la sección _Preparar y enviar un informe de IVA_. Mientras está en modo de prueba, el servicio comprueba si la autoridad tributaria puede recibir su informe y el estado del informe indicará si el envío de la prueba ha sido satisfactorio. Debe recordar que no es un envío real. Para enviar el informe de válido, debe desactivar la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, repetir el proceso.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Para configurar informes IVA en [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración del informe de IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración del informe de IVA** y luego elija el enlace relacionado.  
 2. Para permitir que los usuarios cambien y vuelvan a enviar este informe, seleccione la casilla de verificación **Modificar informes enviados**.  
 3. Elija el código de serie que desee usar para cada informe.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Para preparar y enviar un informe de IVA
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Lista de venta de la CE** o **Devolución de IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Lista de ventas de la CE** o **Devolución de IVA** y, a continuación, elija el vínculo relacionado.  
 2. Elija **Nuevo** y, a continuación, rellene los campos requeridos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Para crear el contenido del informe, elija la acción **Proponer líneas** .  
 

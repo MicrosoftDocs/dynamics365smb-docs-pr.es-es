@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3d4522a08fe1c313ecf3f7c2f3fb59af62f48d2c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12eeb1a2eb3f7235524085c20f587ad9b2ec1f81
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778027"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444342"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Crear y modificar diseños de informe personalizados
 
-De forma predeterminada, un informe tendrá un diseño de informe integrado, bien de RDLC o de Word, o ambos. No puede modificar diseños integrados. No obstante, puede crear sus propios diseños personalizados que le permitan modificar el aspecto del informe cuando se vea, se imprima o se guarde. Puede crear varios diseños de informe personalizados para el mismo informe y, a continuación, cambiar al diseño utilizado por un informe según sea necesario.
+De forma predeterminada, un informe tendrá un diseño de informe integrado, bien de RDLC o de Word, o ambos. No puede modificar diseños integrados. Pero puede crear sus propios diseños personalizados que le permitan modificar el aspecto del informe cuando se vea, se imprima o se guarde. Puede crear varios diseños de informe personalizados para el mismo informe y, a continuación, cambiar al diseño utilizado por un informe según sea necesario.
 
 > [!NOTE]  
 > En [!INCLUDE[prod_short](includes/prod_short.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
 
-Para crear un diseño personalizado, puede hacer una copia de un diseño personalizado existente o agregar un nuevo diseño personalizado, que en la mayoría de los casos se basa en un diseño integrado. Cuando se agrega un nuevo diseño personalizado, puede elegir agregar un tipo de diseño de informe de RDLC, uno de Word, o ambos. El nuevo diseño personalizado se basará automáticamente en el diseño integrado del informe si hay uno disponible. Si no hay ningún diseño integrado para el tipo, se crea un nuevo diseño en blanco que tendrá que modificar y diseñar desde cero. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).  
+Para crear un diseño personalizado, haga una copia de un diseño personalizado existente o agregue un nuevo diseño personalizado, que suele basarse en un diseño integrado. Cuando se agrega un nuevo diseño personalizado, puede elegir agregar un tipo de diseño de informe de RDLC, uno de Word, o ambos. El nuevo diseño personalizado se basará automáticamente en el diseño integrado del informe si hay uno disponible. Si no hay un diseño integrado para el tipo, se crea un nuevo diseño en blanco. Tendrá que modificar y diseñar este diseño en blanco desde cero. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Use esquemas de cuentas para obtener información sobre los datos financieros almacenados en su plan de cuentas. Para obtener más información, vea [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md).
@@ -33,7 +33,7 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 
 ## <a name="to-create-a-custom-layout"></a>Para crear un diseño personalizado
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
 
     La página **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo **Nombre de la empresa** en la parte superior de la página.
 2. Establezca el campo **Empresa** en la empresa en la que desea crear el diseño del informe.
@@ -43,7 +43,7 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 4. Si desea crear una copia de un diseño personalizado existente, seleccione el diseño personalizado existente en la lista y, a continuación, elija la acción **Copiar**.  
 
    La copia del diseño personalizado aparece en la página **Diseños de informe personalizados** e incluye las palabras *Copia de* en el campo **Descripción**.
-5. Si desea añadir un nuevo diseño personalizado que se base en un diseño integrado, haga lo siguiente:  
+5. Si desea añadir un nuevo diseño personalizado que se base en un diseño integrado, siga estos pasos:  
    1. Seleccione la acción **Nuevo**. Aparece la página **Insertar diseñado integrado para un informe**. Los campos de **Id.** y **Nombre** se rellenan automáticamente.
    2. Para agregar un tipo de diseño de informe de Word personalizado, seleccione la casilla **Insertar diseño de Word**.
    3. Para agregar un tipo de diseño de informe de RDLC personalizado, seleccione la casilla **Insertar diseño de RDLC**.
@@ -54,16 +54,19 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 
 El diseño personalizado se ha creado. Ahora puede modificar el diseño personalizado según sea necesario.
 
+> [!TIP]
+> Puede exportar los resultados del informe a un archivo de Excel para ver el conjunto de datos completo, incluidas todas las columnas, pero sin el diseño. El archivo de Excel puede ayudarle a validar que el informe devuelve los datos esperados o diagnosticar problemas. Para más información, vea [Trabajar con informes - Enviar a Excel](ui-work-report.md#send-to-excel).
+
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modificación de un diseño personalizado
 
-Para modificar un diseño de informe, primero deberá exportar el diseño de informe como archivo a una ubicación en su equipo o red y después abrir el documento exportado y realizar los cambios. Cuando haya terminado de realizar los cambios, importe el diseño de informe.
+Para modificar el diseño de un informe, primero debe exportar el diseño del informe como archivo a una ubicación en su equipo o red. Luego, abra el documento exportado y realice los cambios. Cuando haya terminado de realizar los cambios, importe el diseño de informe.
 
 ### <a name="to-modify-a-custom-layout"></a>Para modificar un diseño personalizado
 
 1.  Puede exportar un diseño personalizado desde la página **Diseños de informe personalizados**. Si esta página no es ya abierta, busque y abra la página **Selección de diseño de informes**, seleccione el informe que tiene el diseño que quiere modificar y haga clic en la acción **Diseños personalizados**.  
 2.  En la página **Diseños de informe personalizados**, seleccione el diseño que desea modificar, seleccione la acción **Exportar diseño** y, después, seleccione **Guardar** o **Guardar como** para guardar el documento de diseño del informe en una ubicación del equipo o red.  
 
-3.  Abra el documento de diseño de informe que acaba de guardar y realice las modificaciones.
+3.  Abra el documento de diseño de informe que guardó y realice las modificaciones.
 
       Si está cambiando una plantilla de Word, abra el documento de diseño en Word. Para editar los detalles, vea la sección siguiente [Realizar cambios en el diseño del informe](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
 
@@ -73,7 +76,10 @@ Para modificar un diseño de informe, primero deberá exportar el diseño de inf
 
 4.  Vuelva a la página **Diseños de informe personalizados**, seleccione la plantilla del informe que se exportó y modificó y después seleccione **Importar diseño**.  
 
-5. En el cuadro de diálogo **Importar**, seleccione **Seleccionar** para buscar y seleccionar un documento de diseño y, a continuación, elija **Abrir**.
+5. En el cuadro de diálogo **Importar**, seleccione **Seleccionar** para buscar y seleccionar el documento de diseño de informe modificado y, a continuación, elija **Abrir**.
+
+> [!IMPORTANT]
+> Recuerde importar el documento de diseño de informe que modificó. De lo contrario, el nuevo diseño del informe no estará disponible.
 
 ##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Crear y modificar diseños de informe personalizados
 
@@ -86,13 +92,13 @@ Si está creando un diseño de informe de Word desde cero o agregando nuevos cam
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inserción de fuentes en disposiciones de Word para mayor consistencia
 
-Para garantizar que los informes siempre se muestren e impriman con las fuentes deseadas, independientemente del lugar donde los usuarios abran o impriman los informes, puede insertar las fuentes en el documento de Word. Sin embargo, tenga en cuenta que la inserción de fuentes puede aumentar significativamente el tamaño de los archivos de Word. Para obtener más información acerca de la inserción de fuentes en Word, consulte [Insertar fuentes en Word, PowerPoint o Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+Para garantizar que los informes siempre se muestren e impriman con las fuentes deseadas, cada vez que los usuarios abran o impriman los informes, puede insertar las fuentes en el documento de Word. Sin embargo, la inserción de fuentes puede aumentar significativamente el tamaño de los archivos de Word. Para obtener más información acerca de la inserción de fuentes en Word, consulte [Insertar fuentes en Word, PowerPoint o Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Quitar los campos de etiqueta y de datos en los diseños de Word
 
  Los campos de etiqueta y datos de un informe están incluidos en los controles de contenido en Word. La ilustración siguiente muestra un control de contenido seleccionado en el documento de Word.  
 
- ![Control de contenido del campo en el diseño de informe de Word](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Control de contenido del campo en el diseño de informe de Word.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
  El nombre del campo de etiqueta o de datos se muestra en el control de contenido. En el ejemplo, el nombre de campo es CompanyAddr1.  
 

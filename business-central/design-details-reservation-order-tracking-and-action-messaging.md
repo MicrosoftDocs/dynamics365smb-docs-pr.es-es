@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d53d813871b154a705676483559f7464bf8469fd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214908"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442315"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones
 El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.  
@@ -138,7 +138,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  Los siguientes movimientos de seguimiento de pedidos están en la tabla **Mov. reserva** según los datos de la tabla.  
 
- ![Primer ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Primer ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Números de movimiento 8 y 9  
  En el caso de necesidad componentes para LOTA y de LOTB respectivamente, se crean enlaces de seguimiento desde la demanda en la tabla 5407, **Componente orden producción**, al aprovisionamiento en la tabla 32, **Mov. producto**. El campo **Estado reserva** contiene **Seguimiento** para indicar que estos movimientos son vínculos de seguimiento de pedidos dinámico entre suministro y demanda.  
@@ -156,7 +156,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  Ahora, los siguientes movimientos de seguimiento de pedidos están en la tabla **Mov. reserva**.  
 
- ![Segundo ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Segundo ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Números de movimiento 8 y 9  
  Los movimientos de seguimiento de pedidos para los dos lotes del componente que refleja la demanda de la tabla 5407 cambian el estado de reserva de **Seguimiento** a **Excedente**. El motivo es que los suministros a los que estaban vinculados antes, en la tabla 32, se han usado mediante el envío del pedido de transferencia.  
@@ -170,7 +170,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  Ahora, los siguientes movimientos de seguimiento de pedidos están en la tabla **Mov. reserva**.  
 
- ![Tercer ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Tercer ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  Los movimientos de seguimiento de pedidos ahora son similares al primer punto del escenario, antes de que el pedido de transferencia se registrara como enviado únicamente, con la excepción de que los movimientos del componente ahora tienen el estado de reserva **Excedente**. Se debe a que la necesidad de componentes aún está en la ubicación WEST, lo que refleja que el campo **Cód. almacén** de la línea de componentes de la orden de producción contiene **WEST**, tal como se ha configurado en el campo **Componentes en alm.** El suministro que antes se ha asignado a esta demanda se ha transferido a la ubicación EAST y ahora no se puede realizar el seguimiento completo a menos que la necesidad de componentes de la línea de la orden de producción se cambie a la ubicación EAST.  
 
@@ -178,7 +178,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  Ahora, los siguientes movimientos de seguimiento de pedidos están en la tabla **Mov. reserva**.  
 
- ![Cuarto ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Cuarto ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Números de movimiento 21 y 22  
  Como la necesidad de componentes se ha cambiado a la ubicación EAST y el suministro está disponible como movimientos de producto en la ubicación EAST, ahora se realiza un seguimiento completo de todos los movimientos de seguimiento de pedidos de los dos números de lote, tal como indica el estado de reserva de **Seguimiento**.  

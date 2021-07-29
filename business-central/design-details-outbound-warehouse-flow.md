@@ -1,6 +1,6 @@
 ---
-title: 'Detalles de diseño: Flujo de salida del almacén | Documentos de Microsoft'
-description: El flujo de salida en el almacén comienza con una solicitud de los documentos de origen lanzados para sacar los productos del almacén, para enviarlos a una parte externa o a otra ubicación de la empresa. Desde el área de almacenamiento, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para extraer productos de las dársenas de envío.
+title: 'Detalles de diseño: Flujo de salida del almacén'
+description: Este tema trata sobre la secuencia del flujo de almacén de salida desde los documentos de origen liberados hasta los artículos listos para enviar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777778"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442390"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
 
@@ -54,7 +54,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
  En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
- ![Flujo de salida en las configuraciones básicas de almacén](media/design_details_warehouse_management_outbound_basic_flow.png "Flujo de salida en las configuraciones básicas de almacén")  
+ ![Flujo de salida en las configuraciones básicas de almacén.](media/design_details_warehouse_management_outbound_basic_flow.png "Flujo de salida en las configuraciones básicas de almacén")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Lanzar documento de origen/Crear selección o movimiento de inventario
 
@@ -81,7 +81,7 @@ Además, existen los siguientes documentos de origen internos que funcionan como
 
  En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
- ![Flujo de salida en las configuraciones avanzadas de almacén](media/design_details_warehouse_management_outbound_advanced_flow.png "Flujo de salida en las configuraciones avanzadas de almacén")  
+ ![Flujo de salida en las configuraciones avanzadas de almacén.](media/design_details_warehouse_management_outbound_advanced_flow.png "Flujo de salida en las configuraciones avanzadas de almacén")  
 
 ### <a name="1-release-source-document"></a>1: Lanzar documento de origen
 

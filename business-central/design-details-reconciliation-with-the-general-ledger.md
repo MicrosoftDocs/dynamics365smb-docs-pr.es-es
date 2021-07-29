@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215807"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442340"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Detalles de diseño: Conciliación con contabilidad
 Cuando registra transacciones del inventario, como envíos de ventas, salida de producción o ajustes negativos, se registran los cambios realizados en la cantidad y en los valores del inventario en los movimientos de contabilidad y en los movimientos de valores, respectivamente. El siguiente paso en el proceso será registrar los valores del inventario en las cuentas del inventario del módulo de contabilidad.  
@@ -82,16 +82,16 @@ En la tabla siguiente se muestra cómo está configurado el centro de trabajo en
     1. Se borran las cuentas provisionales. (Venta)  
     2. El coste de productos vendidos (CV) se registra. (Venta)  
 
-        ![Resultados de los registros de ventas con las cuentas de contabilidad](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultados de los registros de ventas con las cuentas de contabilidad")  
+        ![Resultados de los registros de ventas con las cuentas de contabilidad.](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultados de los registros de ventas con las cuentas de contabilidad")  
 5. El usuario registra el consumo de 150 eslabones, que es el número de eslabones usados para producir una cadena. (Consumo, Material)  
 
-    ![Resultados de los registros de material con las cuentas de contabilidad](media/design_details_inventory_costing_3_gl_posting_material.png "Resultados de los registros de material con las cuentas de contabilidad")  
+    ![Resultados de los registros de material con las cuentas de contabilidad.](media/design_details_inventory_costing_3_gl_posting_material.png "Resultados de los registros de material con las cuentas de contabilidad")  
 6. El centro de trabajo ha usado 60 minutos para producir la cadena. El usuario registra el coste de conversión. (Consumo, Capacidad)  
 
     1. Se registran los costes directos. (Consumo, Capacidad)  
     2. Se calculan y se registran los costes indirectos. (Consumo, Capacidad)  
 
-        ![Resultados de los registros de capacidad con las cuentas de contabilidad](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultados de los registros de capacidad con las cuentas de contabilidad")  
+        ![Resultados de los registros de capacidad con las cuentas de contabilidad.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultados de los registros de capacidad con las cuentas de contabilidad")  
 7. El usuario registra el coste previsto de una cadena. (Salida)  
 8. El usuario acaba la orden de producción y ejecuta el proceso **Valorar stock - movs. producto**. (Salida)  
 
@@ -100,7 +100,7 @@ En la tabla siguiente se muestra cómo está configurado el centro de trabajo en
     3. El coste indirecto (costes generales) se transfiere de la cuenta de coste indirecto a la cuenta de inventario. (Salida)  
     4. Esto genera un importe de desviación de 157,00 DL. Las desviaciones solo se calculan para los productos de coste estándar. (Salida)  
 
-        ![Resultados de los registros de salida con las cuentas de contabilidad](media/design_details_inventory_costing_3_gl_posting_output.png "Resultados de los registros de salida con las cuentas de contabilidad")  
+        ![Resultados de los registros de salida con las cuentas de contabilidad.](media/design_details_inventory_costing_3_gl_posting_output.png "Resultados de los registros de salida con las cuentas de contabilidad")  
 
         > [!NOTE]  
         >  Por simplificar, se muestra solo una cuenta de desviación. En la realidad hay cinco cuentas distintas:  
@@ -113,7 +113,7 @@ En la tabla siguiente se muestra cómo está configurado el centro de trabajo en
 
 9. El usuario revaloriza la cadena de 150,00 DL a DL 140,00. (Ajuste/Revalorización/Redondeo/Transferencia)  
 
-    ![Resultados de los registros de ajustes con las cuentas de contabilidad](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultados de los registros de ajustes con las cuentas de contabilidad")  
+    ![Resultados de los registros de ajustes con las cuentas de contabilidad.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultados de los registros de ajustes con las cuentas de contabilidad")  
 
 Para obtener más información acerca de la relación entre los tipos de cuenta y los distintos tipos de movimientos de valoración, consulte [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md).  
 

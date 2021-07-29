@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214883"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442365"
 ---
 # <a name="design-details-production-order-posting"></a>Detalles de diseño: Registro de órdenes de producción
 Al igual que el registro de pedido de ensamblado, se convierten los componentes consumidos y el tiempo de máquina usado, y se envían como el producto fabricado cuando finaliza la orden de producción. Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md). No obstante, el flujo del coste para los pedidos de ensamblado es menos complejo, especialmente porque el registro de coste de ensamblado solo se produce una vez, y por tanto que no genera un inventario de trabajo en curso.
@@ -58,11 +58,11 @@ El registro de órdenes de producción de registro al inventario de trabajo en c
 
 En el diagrama siguiente se muestran las rutinas de registro relacionadas en la codeunit 22.  
 
-![Rutinas de registro de órdenes de producción](media/design_details_inventory_costing_14_production_posting_1.png "Rutinas de registro de órdenes de producción")  
+![Rutinas de registro de órdenes de producción.](media/design_details_inventory_costing_14_production_posting_1.png "Rutinas de registro de órdenes de producción")  
 
 En el diagrama siguiente se muestran las asociaciones entre los movimientos resultantes y los objetos de coste.  
 
-![Flujo de movimiento de producción](media/design_details_inventory_costing_14_production_posting_2.png "Flujo de movimiento de producción")  
+![Flujo de movimiento de producción.](media/design_details_inventory_costing_14_production_posting_2.png "Flujo de movimiento de producción")  
 
 El movimiento de capacidad describe el consumo de capacidad en unidades de tiempo, mientras que el movimiento de valoración relacionado describe el valor del consumo de capacidad específico.  
 

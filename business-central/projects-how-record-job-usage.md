@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65975621fff862b64333c87e70f34b75f8e2cbdb
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 0d873a547175ee9f52a4016f4e8f5e9aa603cd8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938101"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443798"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrar el consumo o uso para proyectos
 
@@ -27,7 +27,7 @@ En los procedimientos siguientes se describe cómo registrar cantidades y costes
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Para registrar la utilización de una línea de planificación de proyecto de tipo Presupuesto
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Líneas planificación proyecto**.
 3. Seleccione una línea planificación de proyecto del tipo **Presupuesto** o **Presupuesto y Facturable** para la que desea registrar la utilización.  
 
@@ -49,7 +49,7 @@ En los procedimientos siguientes se describe cómo registrar cantidades y costes
 
 ## <a name="to-create-job-journal-lines-manually"></a>Para crear manualmente líneas de diario de proyectos
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2. En el campo **Nombre sección**, seleccione una sección de diario de proyectos relevante.  
 3. En una nueva línea, introduzca el número de documento, el número de proyecto, el número de la tarea del proyecto, el tipo y la cantidad del tipo que se consume.  
 4. Cuando las líneas del diario de proyectos están completas, seleccione la acción **Registrar**.  
@@ -63,7 +63,7 @@ Esto le permite supervisar y comparar los cálculos originales con los resultado
 > [!NOTE]  
 >   Los movimientos de producto crean movimientos contables y reducen la cantidad de inventario. El proceso **Regis. variación existencias** transfiere el coste del inventario a la contabilidad. Los movimientos de recursos crean movimientos correspondientes.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Cálc. uso restante**.  
 3. En la página **Cálc. uso restante proyecto** especifique el número del documento y la fecha de registro que se va a insertar en el diario y, a continuación, elija **Aceptar**.  
 4. Puede ser necesario actualizar el diario con algunos cambios.  
@@ -78,7 +78,7 @@ Después de haber registrado las líneas de diario de proyectos, puede ver las l
 > [!NOTE]  
 > Esto requiere que la casilla **Aplicar enlace de uso** se haya seleccionado para el proyecto. Para obtener más información, consulte [Configurar proyectos](projects-how-setup-jobs.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Movimientos**.  
 3. En la página **Movs. proyectos**, elija la acción **Mostrar líneas planificación proyecto vinculadas**.
 

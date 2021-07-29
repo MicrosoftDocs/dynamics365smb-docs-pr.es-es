@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fe04fc290f10324105d4d9ca01e13166bf2ad8f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a85a8acda1789997639c78c5d6028a14dbb75af
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773084"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443948"
 ---
 # <a name="managing-database-access-intent"></a>Gestionar la intención de acceso a la base de datos 
 
@@ -33,7 +33,7 @@ En términos de base de datos, esta característica se conoce comúnmente como *
 
 ## <a name="to-change-the-database-access-intent"></a>Para cambiar la intención de acceso a la base de datos
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Lista de intenciones de acceso a la base de datos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Lista de intenciones de acceso a la base de datos** y luego elija el enlace relacionado.
 
     La página enumera todos los informes, páginas y consultas. La columna **Intento de acceso** incluye uno de los siguientes valores:
 

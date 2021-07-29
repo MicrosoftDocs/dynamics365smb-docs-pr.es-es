@@ -1,9 +1,7 @@
 ---
-title: Configuración de divisas adicionales | Documentos de Microsoft
+title: Configurar divisas adicionales
 description: La contabilidad se configura con la divisa local (DL), y se configura otra divisa como divisa adicional, a la que se asigna un tipo de cambio.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -12,20 +10,23 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775530"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444442"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurar una divisa de informes adicional
+
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan revisar y crear informes de datos financieros en más de una divisa.
 
 La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA.
 
 > [!Warning]
-> La funcionalidad de divisa adicional no se debe usar como base de las traducciones de resultados financieros. No es una herramienta que pueda realizar traducciones de resultados financieros de las subsidiarias extranjeras como parte de la consolidación de una empresa. La divisa de informes adicional solo se puede utilizar para preparar los informes en otra divisa, como si dicha divisa fuera la divisa local de la empresa.
+> La funcionalidad de divisa adicional no se debe usar como base de las traducciones de resultados financieros a menos que conozca las limitaciones. No es una herramienta que pueda realizar traducciones de resultados financieros de las subsidiarias extranjeras como parte de la consolidación de una empresa. La divisa de informes adicional solo se puede utilizar para preparar los informes en otra divisa, como si dicha divisa fuera la divisa local de la empresa.
+>
+> Por ejemplo, tiene una gran cantidad de cuentas por cobrar en libras esterlinas (GBP) y ha configurado su divisa adicional (DA) en GBP. En este escenario, los importes en las cuentas por cobrar que utilizan libras esterlinas no se ajustarán por las ganancias / pérdidas por cambio de divisa en la DA, solo los importes en las cuentas por cobrar que estén en otras divisas. Eso significa que si usa DA para informar de sus estados financieros, podría producir saldos pendientes de cuentas por cobrar subestimados o exagerados.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Mostrar los informes y los importes en la divisa adicional
 El uso de una divisa adicional puede servir de ayuda en el proceso de creación de informes de una empresa en los casos siguientes:
@@ -48,7 +49,7 @@ Para configurar una divisa adicional para informes, debe seguir estos pasos:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Para especificar cuentas para registrar los ajustes de tipo de cambio.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Divisas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Divisas** y luego elija el enlace relacionado.  
 2. En la página **Divisas**, rellene los siguientes campos para la divisa adicional de informe.  
 
 |Campo|Description|  
@@ -64,7 +65,7 @@ Para configurar una divisa adicional para informes, debe seguir estos pasos:
 Debe especificar, para cada cuenta, como se ajustarán los importes de contabilidad de la cuenta en función de las fluctuaciones del tipo de cambio entre la divisa local y la divisa adicional.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Para especificar el método de ajuste de tipo de cambio para todas las cuentas  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Plan de cuentas**, seleccione la cuenta correspondiente y, a continuación, la acción **Editar**.  
 3. En la página **Ficha cuenta**, seleccione el método correspondiente en el campo **Ajuste tipo cambio**.  
 
@@ -81,7 +82,7 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
 4.  Cierre la página **Ficha cuenta**.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Especificar el método de ajuste de tipo de cambio para los movimientos del IVA  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
 2. En la página **Configuración de contabilidad**, seleccione el método correspondiente en el campo **Tipo cambio ajuste IVA**.  
 3. Si realiza registros en una divisa adicional, en el campo **Tipo cambio ajuste IVA** puede especificar cómo se ajustarán las cuentas para el registro del IVA de la página **Config. grupos registro IVA** en función de las fluctuaciones del tipo de cambio entre la divisa local y la divisa adicional.  
 
@@ -96,7 +97,7 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
     |**Ajustar importe divisa adicional**|La divisa de informe adicional se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe divisa-adicional** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Activar la divisa adicional  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración de contabilidad** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
 2. En la página **Configuración de contabilidad**, elija el campo **Divisa de informes adicional** para seleccionar la divisa adicional en la que desea informar.  
 3. Al salir del campo, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará un mensaje de confirmación con una descripción de los efectos de seleccionar (y activar) la divisa adicional.  
 4. Elija el botón **Sí** para confirmar que desea activar la divisa.  

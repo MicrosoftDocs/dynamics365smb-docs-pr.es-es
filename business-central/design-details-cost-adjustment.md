@@ -1,6 +1,6 @@
 ---
-title: 'Detalles de diseño: Ajuste de coste | Documentos de Microsoft'
-description: El propósito principal del ajuste de coste es desviar los cambios de coste de los orígenes de coste a los destinatarios de coste, según la valoración de existencias de un producto, para proporcionar la valoración de inventario correcta.
+title: 'Detalles de diseño: Ajuste de coste'
+description: El ajuste de coste desvía los cambios de coste de los orígenes de coste a los destinatarios de coste, según la valoración de existencias de un producto, para proporcionar la valoración de inventario correcta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0c0d46c75ca160ba5baa58bd637ead2e0339d368
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4fdf131d9f32940ed3b909c4bc98a1516f44bf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215408"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442465"
 ---
 # <a name="design-details-cost-adjustment"></a>Detalles de diseño: Ajuste de coste
 
@@ -67,7 +67,7 @@ Esta función de detección se usa en escenarios de conversión, producción y e
 
 La función de nivel de pedido se usa para detectar los ajustes en el registro de ensamblado. En el gráfico siguiente se muestra la estructura del movimiento de ajuste:  
 
-![Flujo de entradas en ajuste de costes](media/design_details_assembly_posting_3.png "Flujo de entradas en ajuste de costes")  
+![Flujo de entradas en ajuste de costes.](media/design_details_assembly_posting_3.png "Flujo de entradas en ajuste de costes")  
 
 Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 

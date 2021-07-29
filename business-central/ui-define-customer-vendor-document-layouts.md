@@ -1,6 +1,6 @@
 ---
-title: Asignar diseños de documentos especiales a clientes o proveedores | Documentos de Microsoft
-description: Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar que los diseños seleccionados se utilizarán para los documentos que cree para el cliente o el proveedor en cuestión.
+title: Asignar diseños de documentos a clientes o proveedores
+description: Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar que se utilizan el cliente o el proveedor en cuestión.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 086491f30ef0a223e5bf8a559af26b848e54d344
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773560"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443748"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definir diseños de documentos para clientes y proveedores
 Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar qué diseños se utilizarán para los diferentes tipos de documentos que cree para el cliente o el proveedor en cuestión. El valor en el campo **Uso** define para qué proceso se utilizará el diseño del documento, como **Recordatorio**, **Envío** y **Confirmación**.
@@ -31,7 +31,7 @@ Antes de poder definir qué diseño de documento usar para cada proceso y a qué
 A continuación se describe cómo definir diseños de documentos de venta desde una ficha de cliente. Los pasos son los mismos que para los diseños de documentos de compra de una ficha de proveedor.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Para habilitar todos los documentos de venta disponibles para un cliente
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha del cliente para el que desea definir diseños de documento por proceso de negocio.
 3. En la página **Ficha de cliente**, seleccione la página **Diseños de documentos**.
 4. En la página **Diseños de documentos**, elija la acción **Copiar desde selección de informe**.

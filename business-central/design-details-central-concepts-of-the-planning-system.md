@@ -1,6 +1,6 @@
 ---
-title: Detalles de diseño - Conceptos centrales del sistema de planificación | Documentos de Microsoft
-description: Las funciones de planificación se incluyen en un proceso que primero selecciona los productos relevantes y el periodo de planificación y, a continuación, propone acciones posibles para que las realice el usuario en función de la situación de demanda/oferta y los parámetros de planificación de los productos.
+title: 'Detalles de diseño: Conceptos centrales del sistema de planificación'
+description: Las funciones de planificación sugieren posibles acciones para que el usuario las realice en función de la situación de demanda/oferta y los parámetros de planificación de los productos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7c08623ccabfc01f5360073db98455cc8f88c8e9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215458"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442490"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 
 Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. A continuación, según el código de nivel inferior de cada producto (posición de la L.M.), el proceso llama a una codeunit que calcula un plan de suministro equilibrando los conjuntos de suministro y demanda, y sugiriendo acciones posibles que puede realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
 
-![Contenido de la página Hojas de planificación](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contenido de la página Hojas de planificación")  
+![Contenido de la página Hojas de planificación.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contenido de la página Hojas de planificación")  
 
 Se supone que el planificador de una empresa, como un comprador o un planificador de producción, es el usuario del sistema de planificación. El sistema de planificación ayuda al usuario a realizar los cálculos completos pero bastante sencillos de un plan. El usuario podrá concentrarse en resolver problemas más difíciles, como, por ejemplo, cuando las cosas son distintas de las normales.  
 
@@ -59,7 +59,7 @@ Por ejemplo, si el usuario introduce o modifica un pedido de venta, el sistema d
 
 Igualmente, el seguimiento dinámico del pedido se pueden considerar una herramienta que ayuda al usuario en evaluar si aceptar o no las sugerencias de pedidos de aprovisionamiento. Desde el lado del aprovisionamiento, un usuario puede ver qué demanda ha creado el aprovisionamiento y, desde el lado de la demanda, qué aprovisionamiento debe satisfacer la demanda.  
 
-![Ejemplo de seguimiento dinámico de pedidos](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Ejemplo de seguimiento dinámico de pedidos")  
+![Ejemplo de seguimiento dinámico de pedidos.](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Ejemplo de seguimiento dinámico de pedidos")  
 
 Para obtener más información, consulte [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -73,11 +73,11 @@ El sistema de planificación se ocupa de todo el patrón de suministro-demanda d
 
 El seguimiento dinámico de pedidos establece vínculos entre aprovisionamiento y demanda cuando se introducen datos según orden de entrada. Esto puede provocar un desorden en las prioridades. Por ejemplo, un pedido de venta que se ha registrado primero, con una fecha de vencimiento en el siguiente mes, se puede vincular al aprovisionamiento en inventario, mientras que el siguiente pedido de venta con vencimiento al día siguiente puede hacer que un mensaje de acción cree un nuevo pedido de compra para cubrirlo, tal como se ilustra a continuación.  
 
-![Ejemplo de seguimiento de pedidos en la planificación de suministros 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Ejemplo de seguimiento de pedidos en la planificación de suministros 1")  
+![Ejemplo de seguimiento de pedidos en la planificación de suministros 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Ejemplo de seguimiento de pedidos en la planificación de suministros 1")  
 
 En cambio, el sistema de planificación trata con toda la demanda y el aprovisionamiento para un producto determinado, en orden de prioridad y según las fechas de vencimiento y los tipos de pedidos, es decir, que primero se atiende al primero en necesitar ser atendido. Elimina todos los vínculos de seguimiento de pedidos creados dinámicamente y los restablece según prioridad de fecha de vencimiento. Cuando se ha ejecutado el sistema de planificación, se han solucionado todos los desequilibrios entre demanda y suministro, tal como se ilustra a continuación para los mismos datos.  
 
-![Ejemplo de seguimiento de pedidos en la planificación de suministros 2](media/NAV_APP_supply_planning_1_planning_graph.png "Ejemplo de seguimiento de pedidos en la planificación de suministros 2")  
+![Ejemplo de seguimiento de pedidos en la planificación de suministros 2.](media/NAV_APP_supply_planning_1_planning_graph.png "Ejemplo de seguimiento de pedidos en la planificación de suministros 2")  
 
 Después la ejecución de la planificación, no quedan mensajes de acción en la tabla Mov. mensaje acción, ya que han sido reemplazados por las acciones sugeridas en la hoja de trabajo de planificación.  
 
@@ -93,7 +93,7 @@ El sistema de planificación en [!INCLUDE[prod_short](includes/prod_short.md)] s
 
 En un entorno de fabricación, la demanda para un producto terminado y sellable dará como resultado una demanda derivada para los componentes que forman parte del producto terminado. La estructura de lista de materiales controla la estructura de componentes y puede abarcar varios niveles de productos semiterminados. La planificación de un producto en un nivel provocará demanda derivada para los componentes en el siguiente nivel, y así sucesivamente. Finalmente, esto dará como resultado una demanda derivada de los productos comprados. Por tanto, el sistema de planificación planifica productos en orden de clasificación en la jerarquía de la L.M. total, empezando por los productos vendibles terminados del nivel superior y siguiendo hacia abajo por la estructura de productos hasta los productos de nivel inferior (según el código más bajo).  
 
-![Planificación de las listas de materiales](media/NAV_APP_supply_planning_1_BOM_planning.png "Planificación de las listas de materiales")  
+![Planificación de las listas de materiales.](media/NAV_APP_supply_planning_1_BOM_planning.png "Planificación de las listas de materiales")  
 
 En la figura se ilustra la secuencia en el que el sistema realiza las sugerencias de los pedidos de suministro en el nivel superior y, si se supone que el usuario va a aceptar estas sugerencias, también para productos de nivel inferior.  
 
@@ -116,7 +116,7 @@ Se admite con el uso de UA, donde los parámetros individuales de planificación
 
 En principio, cualquier producto puede gestionarse en cualquier almacén, pero el enfoque de la aplicación en cuanto al concepto de almacén es muy estricto. Por ejemplo, un pedido de venta en un almacén no se puede satisfacer con una cantidad en existencias en otro almacén. La cantidad de existencias primero se debe transferir a la ubicación especificada en el pedido de venta.  
 
-![Planificación de unidades de almacenamiento](media/NAV_APP_supply_planning_1_SKU_planning.png "Planificación de unidades de almacenamiento")  
+![Planificación de unidades de almacenamiento.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planificación de unidades de almacenamiento")  
 
 Para obtener más información, consulte [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md).  
 
@@ -130,7 +130,7 @@ Para obtener más información, consulte [Priorizar pedidos](design-details-bala
 
 Las previsiones y los pedidos abiertos representan ambos la demanda prevista. El pedido abierto, que abarca las compras previstas de un cliente durante un determinado periodo de tiempo, sirve para reducir la incertidumbre de una previsión global. El pedido abierto es una previsión específica del cliente por encima de la previsión sin especificar, tal como se ilustra a continuación.  
 
-![Planificación con previsiones](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planificación con previsiones")  
+![Planificación con previsiones.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planificación con previsiones")  
 
 Para obtener más información, consulte la sección sobre la [reducción de la demanda de previsión por parte de pedidos de venta](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
@@ -226,7 +226,7 @@ No obstante, el sistema de planificación seguirá incluyendo las cantidades res
 
 En la ilustración siguiente se muestra cómo las reservas pueden impedir el plan más factible.  
 
-![Planificación con reservas](media/NAV_APP_supply_planning_1_reservations.png "Planificación con reservas")  
+![Planificación con reservas.](media/NAV_APP_supply_planning_1_reservations.png "Planificación con reservas")  
 
 Para obtener más información, consulte [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -242,7 +242,7 @@ La información de advertencia se muestra en la página **Elementos planificaci�
 -   Excepción  
 -   Atención  
 
-![Advertencias en la hoja de planificación](media/NAV_APP_supply_planning_1_warnings.png "Advertencias en la hoja de planificación")  
+![Advertencias en la hoja de planificación.](media/NAV_APP_supply_planning_1_warnings.png "Advertencias en la hoja de planificación")  
 
 ### <a name="emergency"></a>Emergencia
 
@@ -283,7 +283,7 @@ En la página de la solicitud Calcular plan, el usuario puede seleccionar el cam
 
 Si el campo no está seleccionado, el trabajo por lotes Calcular plan continuará hasta que se haya completado. Los errores no interrumpirán el trabajo por lotes. Si hay errores, la aplicación mostrará un mensaje al final, para indicar cuántos productos se ven afectados por los errores. A continuación, se abrirá la página **Registro error planificación**, con más información sobre el error y vínculos a los documentos afectados o las fichas de configuración.  
 
-![Mensajes de error en la hoja de planificación](media/NAV_APP_supply_planning_1_error_log.png "Mensajes de error en la hoja de planificación")  
+![Mensajes de error en la hoja de planificación.](media/NAV_APP_supply_planning_1_error_log.png "Mensajes de error en la hoja de planificación")  
 
 ## <a name="planning-flexibility"></a>Flexib. planificación
 

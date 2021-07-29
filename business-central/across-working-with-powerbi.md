@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935366"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444048"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -27,7 +27,7 @@ Los informes de Power BI le brindan información sobre su [!INCLUDE[prod_short](
 
 [!INCLUDE [prod_short](includes/prod_short.md)] funciona con con el servicio de Power BI. Los informes para mostrar en [!INCLUDE [prod_short](includes/prod_short.md)] se almacenan en un servicio de Power BI. En [!INCLUDE [prod_short](includes/prod_short.md)], puede cambiar el informe que se muestra en la parte de Power BI a cualquier informe de Power BI disponible en su servicio de Power BI. La primera vez que inicia sesión en [!INCLUDE [prod_short](includes/prod_short.md)] y hasta que se conecta a un servicio de Power BI, las partes estarán vacías, como se muestra aquí:
 
-![Parte de Power BI en Business Central](./media/power-bi-part.png)
+![Parte de Power BI en Business Central.](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Introducción
 

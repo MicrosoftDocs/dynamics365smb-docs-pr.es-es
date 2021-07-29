@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017179"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443698"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ordenar, buscar y filtrar
 
@@ -24,7 +24,7 @@ Existen algunos parámetros que puede configurar que le ayudarán a buscar, enco
 Para informes y XMLports, como en las listas, puede establecer filtros para delimitar qué datos se incluirán en el informe o XMLport, pero no puede ordenar y buscar.
 
 > [!TIP]
-> Al ver los datos como mosaicos, puede buscar y usar el filtrado. Para usar el conjunto completo de potentes funciones para ordenar, buscar y filtrar, elija el icono ![Mostrar como lista](media/ui_show_as_list_icon.png "Flecha izquierda de Mostrar como lista") para ver los registros como una lista.
+> Al ver los datos como mosaicos, puede buscar y usar el filtrado. Para usar el conjunto completo de potentes funciones para ordenar, buscar y filtrar, elija el icono ![Mostrar como lista.](media/ui_show_as_list_icon.png "Flecha izquierda de Mostrar como lista") para ver los registros como una lista.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Para ordenar una lista, puede:
 ## <a name="searching"></a>Búsqueda
 
 <!--## Searching by using the Quick Filter -->
-En la parte superior de cada página de la lista, hay una acción ![Buscar en la lista](media/ui-search/search-list.png "Icono de lista de búsqueda") **Buscar** Buscar que proporciona una manera rápida y fácil de reducir los registros en una lista y muestra solo aquellos registros que contienen los datos que le interesa ver.
+En la parte superior de cada página de lista, hay una ![Lista de búsqueda.](media/ui-search/search-list.png "Icono de lista de búsqueda") acción **Buscar** que proporciona una manera rápida y fácil de reducir los registros en una lista y muestra solo aquellos registros que contienen los datos que le interesa ver.
 
 Para buscar, solo elija la acción **Buscar** y, a continuación, en el cuadro, escriba el texto que está buscando. Puede escribir letras, números y otros símbolos.
 
@@ -144,7 +144,7 @@ Tanto en el panel de filtro como en una página de solicitud, introduzca sus cri
 
 El tipo de campo de filtro determina qué criterios puede especificar. Por ejemplo, filtrar un campo que tiene valores fijos solo le permitirá elegir entre esos valores. Para obtener más información sobre símbolos de filtro especiales, consulte [Criterios de filtro](#FilterCriteria) y [Tokens de filtro](#FilterTokens).
 
-Las columnas que ya tienen filtros se indican mediante el icono ![Icono Filtro](media/ui-search/filter-icon.png "Icono de filtro") en el encabezado de la columna. Para eliminar un filtro, seleccione la flecha desplegable y, a continuación, elija la acción **Borrar filtro**.
+Las columnas que ya tienen filtros se indican mediante el icono ![Icono Filtro.](media/ui-search/filter-icon.png "Icono de filtro") el encabezado de la columna. Para eliminar un filtro, seleccione la flecha desplegable y, a continuación, elija la acción **Borrar filtro**.
 
 > [!TIP]
 > Acelere la búsqueda y el análisis de sus datos utilizando combinaciones de atajos de teclado. Por ejemplo, seleccione un campo, use **Mayús+Alt+F3** para agregar ese campo al panel de filtros, escriba los criterios de filtro, use **Ctrl+Intro** para volver a las filas, seleccione otro campo y use **Alt+F3** para filtrar ese valor. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).

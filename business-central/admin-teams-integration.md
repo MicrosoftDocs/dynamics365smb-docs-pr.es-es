@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882210"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443211"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,7 +35,7 @@ Esta sección describe los requisitos mínimos para que la características de l
 
     |Qué|Licencia de Teams|Licencia de [!INCLUDE [prod_short](includes/prod_short.md)]|
     |----|---|---|
-    |Buscar contactos de [!INCLUDE [prod_short](includes/prod_short.md)].|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
+    |Buscar contactos de [!INCLUDE [prod_short](includes/prod_short.md)].|![marca de verificación.](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
     |Pegue un vínculo a un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación y envíelo como una tarjeta.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
     |Vea una tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")||
     |Vea más detalles de la tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|

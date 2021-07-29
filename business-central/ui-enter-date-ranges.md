@@ -1,6 +1,6 @@
 ---
-title: Introducción de fechas y horas en Business Central | Documentos de Microsoft
-description: Obtener información sobre cómo introducir fechas y horas con distintos consejos de productividad como taquigrafía, expresiones y rangos. Filtrar listas o informes hasta fechas o períodos de tiempo específicos.
+title: Introducción de fechas y horas en Business Central
+description: Obtener información sobre cómo introducir fechas y horas con distintos consejos de productividad como taquigrafía, expresiones y rangos.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773535"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443648"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
@@ -48,7 +48,7 @@ Para trabajar de forma más productiva con fechas y horas, puede utilizar cualqu
 
 Cualquier campo que muestre un icono de calendario se puede configurar con el selector de fechas del calendario. Para mostrar el selector de fechas del calendario, active el ícono de calendario o presione el atajo de teclado Ctrl + Inicio en el campo.
 
-![Campos de fecha](media/ui-date-field.png "Ejemplo de campo de fecha")
+![Campos de fecha.](media/ui-date-field.png "Ejemplo de campo de fecha")
 
 Consulte también [Métodos abreviados de teclado en el selector de fechas del calendario](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,23 +72,21 @@ En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:
 
 ### <a name="today"></a>Hoy
 
-Introduzca la palabra para hoy, en el idioma establecido por la configuración de **Idioma**, que establecerá la fecha a la fecha actual. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como h u hoy, siempre que no sea también el comienzo de otra palabra.
+Ingrese la palabra para _hoy_, en el idioma especificado en la página **Mi configuración**, para establecer la fecha de un registro en la fecha de hoy. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio. Por ejemplo, en inglés, puede ingresar _t_ o _tod_, siempre que no sea también el comienzo de otra palabra.
 
-### <a name="period"></a>Periodo
+### <a name="period"></a>Período
 
 Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de trabajo. Por ejemplo, si la fecha de trabajo es **21/03/22**, con p1, o solo p, se filtra el primer periodo contable del ejercicio 2022 (por ejemplo, 01/01/22..31/01/22). p15 filtra el decimoquinto periodo contable desde el inicio del ejercicio 2022 (por ejemplo, 01/03/23..31/03/23).
 
 Los periodos contables se definen en la página **Periodos contables**. Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="current-work-date"></a>Fecha de trabajo actual
+### <a name="work-date"></a>Fecha de trabajo
 
-La función de fecha de trabajo le permite grabar transacciones usando una fecha que es diferente de la fecha actual.
+Utilice una fecha de trabajo para especificar una fecha que no sea la de hoy en los registros. Por ejemplo, una fecha de trabajo es útil cuando necesita establecer una fecha particular para varios registros. Usted especifica la fecha de trabajo en la página **Mi configuración**. 
 
-La palabra para 'fecha de trabajo', en el idioma establecido por la configuración **Idioma**, establecerá la fecha en la fecha de trabajo establecida actualmente que se especifica en la página **Mis configuraciones**. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio, como "t" o "trabajo".
+Una forma rápida de ingresar la fecha de trabajo en los registros es ingresar parte o toda la palabra _trabajo_, comenzando desde el principio de la palabra, en el idioma en el que esté usando [!INCLUDE[prod_short](includes/prod_long.md)]. Por ejemplo, en inglés, puede ingresar _w_ o _work_. El idioma también se especifica en la página **Mi configuración**.
 
-Si no ha definido una fecha de trabajo, la fecha actual se usará como la fecha de trabajo. Una fecha de trabajo se puede usar si hay muchas operaciones con una fecha distinta a la activa.
-
-Consulte también [Cambiar la configuración básica como la fecha de trabajo](ui-change-basic-settings.md#work-date).
+Si no ha especificado una fecha de trabajo, se utilizará la fecha de hoy. Para más información, consulte [Cambiar la configuración básica como la fecha de trabajo](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Fecha cierre
 
@@ -199,7 +197,7 @@ El ejemplo siguiente muestra cómo utilizar un signo menos para indicar una fech
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

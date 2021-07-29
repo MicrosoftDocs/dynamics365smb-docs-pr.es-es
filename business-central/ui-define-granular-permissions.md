@@ -1,6 +1,6 @@
 ---
-title: Definir permisos detallados | Documentos de Microsoft
-description: Describe cómo dar acceso a los usuarios a los objetos mediante la asignación de conjuntos de permisos.
+title: Definir permisos granulares
+description: Este tema describe cómo definir permisos granulares dando acceso a determinados usuarios a objetos y asignándoles conjuntos de permisos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776722"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443722"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 
@@ -53,7 +53,7 @@ Puede asignar conjuntos de permisos a los usuarios de dos formas:
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Para asignar un conjunto de permisos en una tarjeta de usuario
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
 2. Seleccione el usuario al que desea asignar el permiso.
 Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro informativo **Conjuntos de permisos**.
 3. Seleccione la acción **Editar** para abrir la página **Ficha de usuario**.
@@ -61,14 +61,14 @@ Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro infor
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Para asignar un conjunto de permisos en la página Conjunto de permisos por usuario
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
 2. En la página **Usuarios**, seleccione el usuario relevante y luego elija la acción **Conjunto de permisos por usuario**.
 3. En la página **Conjunto de permisos por usuario**, seleccione la casilla de verificación **[nombre de usuario]** en una línea del conjunto de permisos relevante para asignarlo al usuario.
 4. Seleccione la casilla de verificación **Todos los usuarios** para asignar el conjunto de permisos a todos los usuarios.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Para obtener un resumen de los permisos de un usuario
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
 2. Abra la ficha del usuario correspondiente.
 3. Elija la acción **Permisos eficaces**.
 
@@ -103,7 +103,7 @@ Los conjuntos de permisos funcionan como contenedores de permisos, de modo que p
 
 ### <a name="to-create-new-permission-set-from-scratch"></a>Para crear un nuevo conjunto de permisos desde cero
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conjuntos de permisos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conjuntos de permisos** y luego elija el enlace relacionado.
 2. Para crear un conjunto de permisos nuevo, elija la acción **Crear**.
 3. En la línea nueva, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Cuando haya creado un conjunto de permisos, debe agregar los permisos reales. Para obtener más información, consulte [Para crear o modificar permisos manualmente](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
@@ -168,7 +168,7 @@ Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de vent
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Para crear o modificar permisos registrando las acciones
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conjuntos de permisos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conjuntos de permisos** y luego elija el enlace relacionado.
 2. Alternativamente, en la página **Usuarios**, seleccione la acción **Conjuntos de permisos**.
 3. En la página **Conjuntos de permisos**, elija la acción **Nuevo**.
 4. En una línea nueva, rellene los campos según sea necesario.
@@ -197,7 +197,7 @@ Los conjuntos de permisos asignados a un usuario a través de un grupo de usuari
 
 El siguiente procedimiento explica cómo crear grupos de usuarios manualmente. Para crear grupos de usuarios automáticamente, vea [Para copiar un grupo de usuarios y todos los conjuntos de permisos](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
 2. Alternativamente, en la página **Usuarios**, seleccione la acción **Grupos de usuarios**.
 3. En la página **Grupo usuarios**, seleccione la acción **Miembros de grupo de usuarios**.
 4. En la página **Miembros de grupo de usuarios**, seleccione la acción **Agregar usuarios**.
@@ -209,7 +209,7 @@ Para definir rápidamente un nuevo grupo de usuarios, puede copiar todos los con
 > [!NOTE]
 > No copian los miembros del grupo de usuarios al nuevo grupo de usuarios. Debe añadirlos manualmente posteriormente. Para obtener más información, consulte [Para agrupar usuarios en grupos de usuarios](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
 2. Seleccione el grupo de usuarios que desea copiar y, a continuación, seleccione la acción **Copiar el grupo de usuarios**.
 3. En el campo **Nuevo código de grupo de usuarios**, introduzca el nombre del grupo y después seleccione el botón **Aceptar**.
 
@@ -217,7 +217,7 @@ El nuevo grupo de usuarios se agrega a la página **Grupos de usuarios**. Empiec
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Para asignar conjuntos de permisos a grupos de usuarios
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
 2. Seleccione el grupo de usuarios al que desea asignar el permiso.
 Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro informativo **Conjuntos de permisos**.
 3. Elija la acción **Conjuntos de permisos de usuario** para abrir la página **Conjuntos de permisos de usuario**.
@@ -227,7 +227,7 @@ Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro infor
 
 El siguiente procedimiento explica cómo asignar conjuntos de permisos a un grupo de usuarios en la página **Conjunto de permisos por grupo de usuarios**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
 2. En la página **Usuarios**, seleccione el usuario relevante y luego elija la acción **Conjunto de permisos por grupo de usuarios**.
 3. En la página **Conjunto de permisos por grupo de usuarios**, seleccione la casilla de verificación **[nombre de grupo de usuarios]** en una línea del conjunto de permisos relevante para asignarlo al grupo de usuarios.
 4. Seleccione la casilla de verificación **Todos los grupos de usuarios** para asignar el conjunto de permisos a todos los grupos de usuarios.
@@ -240,7 +240,7 @@ El siguiente procedimiento explica cómo asignar conjuntos de permisos a un grup
 
 Los administradores pueden definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión. Los administradores también pueden asignar centros de responsabilidad a los usuarios. Para obtener más información, consulte [Trabajar con centros de responsabilidad](inventory-responsibility-centers.md).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de usuario** y luego elija el enlace relacionado.
 2. En la página **Configuración usuarios** que se abre, seleccione la acción **Nuevo**.
 3. En el campo **Id. usuario**, escriba el identificador de un usuario o elija el campo para ver todos los usuarios de Windows actuales en el sistema.
 4. Rellene los campos según sea necesario.

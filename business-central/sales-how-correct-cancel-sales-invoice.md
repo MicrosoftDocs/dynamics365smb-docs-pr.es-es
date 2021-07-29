@@ -1,6 +1,6 @@
 ---
 title: Corregir o cancelar una factura de venta registrada
-description: Describe cómo, corregir deshacer o cancela una factura de venta registrada y aplicar un abono de venta.
+description: Este tema describe cómo corregir, deshacer o cancelar una factura de venta registrada y aplicar un abono de venta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0d6e05a52cb4028087e4c52c56fb9d2f5ab78795
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4656e99f1227668cdf784ab950d38462da6f6c1c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778853"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443437"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Corregir o cancelar facturas de venta sin abonar
 
@@ -38,7 +38,7 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Cancelar una factura de venta registrada
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la factura de venta registrada que desea cancelar.
 
     > [!NOTE]  
@@ -54,7 +54,7 @@ Si la cancelación está relacionada con un registro parcial de la factura, la l
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Corregir una factura de venta registrada
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la factura de venta registrada que desea corregir.
 
     > [!NOTE]  

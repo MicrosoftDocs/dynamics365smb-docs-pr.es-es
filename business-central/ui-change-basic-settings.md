@@ -1,6 +1,6 @@
 ---
 title: Cambiar la configuración básica del usuario actual
-description: Obtenga información sobre cómo cambiar algunos de los valores básicos, por ejemplo, su área de trabajo, la empresa o la fecha de trabajo.
+description: Aprenda a cambiar algunas configuraciones básicas en Business Central, por ejemplo, su rol y centro de roles, empresa, fecha de trabajo y zonas horarias.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787457"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443773"
 ---
 # <a name="change-basic-settings"></a>Cambiar la configuración básica
 
@@ -33,7 +33,7 @@ La función determina la página de inicio, una pantalla de inicio que está des
 
 El rol pedido es **Administrador de negocio**, pero puede seleccionar otro rol para usar un área de trabajo que se adapte mejor a sus necesidades.  
 
-1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija la acción **Mi configuración**.
+1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración.](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija la acción **Mi configuración**.
 2. En la página **Mi configuración**, en el campo **Rol**, seleccione el rol que desea usar de forma predeterminada. Por ejemplo, seleccione **Contable**.
 3. Elija el botón **Aceptar**.
 
@@ -47,7 +47,7 @@ La empresa predeterminada se llama CRONUS y solo contiene datos de demostración
 
 El nombre de la empresa siempre se muestra en la esquina superior izquierda y funciona como una acción que puede elegir para volver al área de trabajo. Puede cambiar este nombre en la página **Información de empresa**.
 
-1. Elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego elija la acción **Información de empresa**.
+1. Elija el ![icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , y luego elija la acción **Información empresa**.
 2. En el campo **Nombre**, introduzca el nuevo nombre de empresa.
 3. Salga de la página. El sistema se reinicia y muestra la nueva empresa en la esquina superior izquierda.
 
@@ -55,7 +55,7 @@ El nombre de la empresa siempre se muestra en la esquina superior izquierda y fu
 
 Puede agregar un distintivo personalizado en la esquina superior derecha, que puede elegir para ver rápidamente el nombre de la empresa y la información de suscriptor en un cuadro emergente. El distintivo de la empresa también es útil cuando [!INCLUDE[prod_short](includes/prod_short.md)] está incrustado en otra aplicación, como Microsoft Teams, o en alguna otra aplicación web. En estos casos, debido a que [!INCLUDE[web_client](includes/web_client.md)] muestra menos información contextual circundante, el distintivo de la empresa sirve como la única forma de determinar a qué empresa o ambiente pertenece un registro.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.
 2. En la ficha desplegable **Distintivo de la empresa**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

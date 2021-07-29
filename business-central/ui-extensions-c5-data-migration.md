@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b146e2a515ffd2a200574c4ce059c8a0205b602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787407"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443573"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extensión de migración de datos de C5
 
@@ -107,7 +107,7 @@ El tamaño máximo del archivo que puede descargar en [!INCLUDE[prod_short](incl
 Deben realizarse algunos para exportar datos de la C5 e importarlos a [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. En la C5, utilice la función **Base de datos de exportación** para exportar los datos. Envíe la carpeta de exportación a una carpeta comprimida.  
-2. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Migración de datos** y luego elija **Migración de datos**.  
+2. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Migración de datos** y luego elige **Migración de datos**.  
 3. Complete los pasos de la guía de configuración asistida. Asegúrese de elegir **Importar de Microsoft Dynamcis C5 2012** como origen de datos.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Ver el estado de la migración

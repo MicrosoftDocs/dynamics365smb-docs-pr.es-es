@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4daacd73987e4e747f97d288ecfb51b564de7e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781041"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442830"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Trabajar con periodos contables y ejercicios
 
@@ -35,7 +35,7 @@ Puede crear períodos contables en bloque, utilizando el proceso **Crear ejercic
 
 Utilice el proceso **Crear ejercicio** para dividir un ejercicio en periodos de igual duración.  
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Periodos contables** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Periodos contables** y luego elija el enlace relacionado.  
 2. Elija la acción **Crear ejercicio**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. En el campo **Fecha inicial**, introduzca la fecha en la que comienza el ejercicio.  
 4. En el campo **Nº de periodos** especifique el número de ejercicios económicos en que se dividirá el ejercicio. Puede haber hasta 365 periodos en un año.  
@@ -46,7 +46,7 @@ Utilice el proceso **Crear ejercicio** para dividir un ejercicio en periodos de 
 
 Si los períodos contables de su ejercicio tienen duraciones diferentes, como el calendario 4-4-5 utilizado en comercio minorista, puede configurarlo manualmente.  
   
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Periodos contables** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Periodos contables** y luego elija el enlace relacionado.  
 2. En el campo **Fecha inicial**, introduzca la fecha en la que comienza el ejercicio. El campo **Nombre** mostrará el nombre del mes.  
 3. Seleccione la casilla de verificación **Principio ejercicio** para indicar que es el primer periodo del ejercicio. [!INCLUDE[prod_short](includes/prod_short.md)] utilizará este periodo para determinar los periodos para cerrar al final del año.
 4. Repita los pasos 2 y 3 con cada periodo restante.  
@@ -58,7 +58,7 @@ Cerrar el ejercicio es una de las tareas para cerrar los libros. Después de cer
 > [!NOTE]  
 > Debe tener al menos un ejercicio abierto. Al cerrar un ejercicio, asegúrese de que se ha creado un nuevo ejercicio. Además, tenga en cuenta que después de cerrar un ejercicio, no puede cambiar la fecha de inicio del ejercicio siguiente.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Periodos contables** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Periodos contables** y luego elija el enlace relacionado.  
 2. Elija la acción **Cerrar ejercicio**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Registro de movimientos en un ejercicio cerrado

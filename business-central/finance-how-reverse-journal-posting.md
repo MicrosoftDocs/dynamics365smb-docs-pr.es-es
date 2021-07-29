@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdbf4b682b4ad99524ea0aace9a123283668fb43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779102"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444467"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Revertir los registros de diario y deshacer los recibos/envíos
 Para deshacer un registro erróneo del diario, seleccione un movimiento y cree un movimiento de reversión (movimientos idénticos al original, pero con el signo contrario en el campo de importe) con el mismo número de documento y la misma fecha de registro que el movimiento original. Después de revertir un movimiento, debe registrar el movimiento correcto.
@@ -32,7 +32,7 @@ Si ha realizado un registro de una cantidad positiva errónea, como un albarán 
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Para revertir el registro de diario de un movimiento de contabilidad
 Se pueden revertir movimientos desde todas las páginas **Movimientos**. El siguiente procedimiento se basa en la página **Movs. contabilidad**.
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Movs. contabilidad** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de contabilidad** y luego elija el enlace relacionado.
 2. Seleccione el movimiento que desea revertir y, después, seleccione **Revertir transacción**. Tenga en cuenta que debe proceder de un registro de diario.
 3. En la página **Revertir movs. trans.**, elija la acción **Revertir**.
 4. Elija el botón **Sí** en el mensaje de confirmación.
@@ -43,7 +43,7 @@ Se pueden revertir movimientos desde todas las páginas **Movimientos**. El sigu
 ## <a name="to-post-a-negative-entry"></a>Para registrar un movimiento negativo  
 Puede utilizar el campo **Corrección** para enviar un adeudo negativo en lugar de un abono, o registrar un crédito negativo en vez de un débito en una cuenta. Para cumplir los requisitos legales, este campo estará visible de forma predeterminada en todos los diarios. Los campos **Importe debe** e **Importe haber** incluyen tanto el movimiento original como el corregido. Estos campos no influyen en el saldo de la cuenta.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales** y luego elija el enlace relacionado  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado  
 2.  En el campo **Nombre sección**, seleccione el nombre de sección requerido.  
 3.  Escriba información en los campos relevantes.  
 4.  En la línea del diario que desea activar para los movimientos negativos, seleccione la casilla de activación **Corrección**.  
@@ -52,7 +52,7 @@ Puede utilizar el campo **Corrección** para enviar un adeudo negativo en lugar 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Para deshacer la cantidad registrada en un albarán de compra registrado  
 A continuación se describe cómo deshacer un albarán registrado de artículos o recursos. Los pasos son parecidos para los envíos registrados.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Albaranes de compra registrados** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes compra** y, a continuación, elija el vínculo relacionado.  
 2.  Abra la recepción registrada que desea deshacer.  
 3.  Selecciones las líneas del diario que desea deshacer.  
 4.  Seleccione la acción **Deshacer albarán**.
@@ -64,7 +64,7 @@ Los campos de **Cantidad recibida** y de **Cdad. Rec. no facturada** en el pedid
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Deshacer y rehacer una cantidad registrada en un envío devuelto registrado
 A continuación se describe cómo deshacer un envío de devolución de artículos o recursos registrado y luego volver a registrar la devolución de la compra con una nueva cantidad. Los pasos son parecidos para las recepciones de devolución registradas.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Registro de envíos de devolución** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico envíos devolución** y, a continuación, elija el vínculo relacionado.  
 2.  Abra el envío devolución registrado que desea deshacer.
 3. Selecciones las líneas del diario que desea deshacer.  
 
@@ -75,7 +75,7 @@ A continuación se describe cómo deshacer un envío de devolución de artículo
     Ahora vuelva al pedido de devolución de compra para volver a realizar el registro.  
 
 5.  En la página **Histórico envío devolución**, tome una nota del número en el campo **Nº devolución** .  
-6.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Devolución de pedidos** y luego elija el enlace relacionado.  
+6.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Devolución de pedidos** y, a continuación, seleccione el vínculo relacionado.  
 7.  Abra el pedido de devolución en cuestión y, a continuación, elija la acción **Volver a abrir**.  
 8.  Corrija el movimiento en el campo **Cantidad** y vuelva a publicar la orden de devolución de la compra.  
 

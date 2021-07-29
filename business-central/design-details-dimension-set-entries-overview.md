@@ -1,6 +1,6 @@
 ---
-title: Información general de los movimientos del grupo dimensiones | Documentos de Microsoft
-description: Este tema describe cómo se almacenan y se registran los movimientos de grupo de dimensiones en Dynamics 365.
+title: Información general de los movimientos del grupo dimensiones
+description: Este artículo le ofrece una descripción general de cómo se almacenan los movimientos de grupo de dimensiones como movimientos de grupo de dimensiones y cómo se registran.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215308"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442415"
 ---
 # <a name="dimension-set-entries-overview"></a>Información general de los movimientos del grupo dimensiones
 Este tema describe cómo se almacenan y se registran los movimientos de grupo de dimensiones en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ El siguiente ejemplo muestra un grupo de dimensiones que tiene tres movimientos 
 ## <a name="dimension-set-entries"></a>Movimientos de grupo de dimensiones  
 Los grupos de dimensiones se almacenan en la tabla **Mov. grupo de dimensiones** como movimientos de grupo de dimensiones con el mismo Id. del grupo de dimensiones.  
 
-![Flujo de movimientos del grupo dimensiones](media/dimensionentrynav7.png "Flujo de movimientos del grupo dimensiones")  
+![Flujo de movimientos del grupo dimensiones.](media/dimensionentrynav7.png "Flujo de movimientos del grupo dimensiones")  
 
 Cuando crea una nueva línea de diario, cabecera de documentos o línea de documentos, puede especificar una combinación de valores de dimensión. En lugar de explícitamente guardar cada valor de dimensión en la base de datos, un Id. de grupo de dimensiones se asigna a la línea de diario, cabecera de documentos o línea de documentos para especificar el grupo de dimensiones.  
 

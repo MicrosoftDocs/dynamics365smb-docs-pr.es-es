@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215508"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442540"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
 El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.  
@@ -47,7 +47,7 @@ Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes d
 
  En el diagrama siguiente se muestra los diferentes elementos del cálculo.  
 
- ![Disponible para picking con superposición de reservas](media/design_details_warehouse_management_availability_2.png "Disponible para picking con superposición de reservas")  
+ ![Disponible para picking con superposición de reservas.](media/design_details_warehouse_management_availability_2.png "Disponible para picking con superposición de reservas")  
 
 ## <a name="quantity-available-to-reserve"></a>Cantidad disponible para reservar  
  Dado que coexisten los conceptos de contenido y de reserva de ubicación, la cantidad de productos disponibles para reservar se debe alinear con las asignaciones hacia documentos de almacén de salida.  
@@ -72,10 +72,10 @@ Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes d
 
  En el diagrama siguiente se muestra los diferentes elementos del cálculo.  
 
- ![Disponible para reserva por asignaciones de almacén](media/design_details_warehouse_management_availability_3.png "Disponible para reserva por asignaciones de almacén")  
+ ![Disponible para reserva por asignaciones de almacén.](media/design_details_warehouse_management_availability_3.png "Disponible para reserva por asignaciones de almacén")  
 
 ## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+ [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
  [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 
 

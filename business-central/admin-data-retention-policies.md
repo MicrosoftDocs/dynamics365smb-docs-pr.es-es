@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935341"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443923"
 ---
 # <a name="define-retention-policies"></a>Definir directivas de retención
 Los administradores pueden definir directivas de retención para especificar con qué frecuencia desean que [!INCLUDE[prod_short](includes/prod_short.md)] elimine datos desactualizados en tablas que contienen entradas de registro y registros archivados. Por ejemplo, limpiar las entradas de registro puede facilitar el trabajo con los datos que son realmente relevantes. Las directivas pueden incluir todos los datos de las tablas que superan la fecha de vencimiento, o puede agregar criterios de filtro que incluirán solo ciertos datos vencidos en la directiva. 
@@ -40,7 +40,7 @@ Los períodos de retención pueden ser tan largos o cortos como desee. Para crea
 > Por razones de cumplimiento, hemos definido un período de retención mínimo para algunas tablas. Si establece un período de retención más corto que el mínimo requerido, un mensaje mostrará el período obligatorio.
 
 ### <a name="set-up-a-retention-policy"></a>Configurar una directiva retención
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Directivas de retención** y luego elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Directivas de retención** y elija el enlace relacionado.
 2. En el campo **Id. de tabla**, seleccione la tabla que desee incluir en la directiva.
 3. En el campo **Periodo de retención**, especifique el período de tiempo durante el cual se conservarán los datos en la tabla.
 4. Opcional: para aplicar la directiva a datos específicos en una tabla, desactive la opción Aplicar a todos los registros. Aparecerá la Ficha desplegable Política de retención de registros, donde puede establecer filtros para crear subconjuntos de datos para cada línea. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#filtering).

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: beb78a3526b95af228ab313b67174633902e7bd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5ca9eb1dc14a75d84072f28e7f72fc8b5e89373
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778827"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443412"
 ---
 # <a name="make-drop-shipments"></a>Realizar envíos directos
 
@@ -52,7 +52,7 @@ Ahora puede asignar instrucciones al proveedor para que envíe los productos al 
 
 También puede utilizar la hoja de demanda para crear el pedido de compra para el proveedor. La ventaja de utilizar la hoja de demanda es que puede crear órdenes de compra para todos los envíos directos pendientes, por lo que no tiene que crear cada uno individualmente.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hojas de demanda** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hojas de demanda** y luego elija el enlace relacionado.
 2. Elija la acción **Envíos directos** y, a continuación, **Traer pedido venta**.
 3. Elija el botón **Aceptar**.
 4. Revise las líneas del pedido de compra y, en el campo **Nº proveedor**, seleccione el proveedor que suministra los bienes necesarios. 
@@ -66,7 +66,7 @@ También puede utilizar la hoja de demanda para crear el pedido de compra para e
 
 Después de que el proveedor envíe los productos, puede establecer los pedidos de venta como enviados. También puede registrar el pedido de compra, pero solo con la opción **Recibir** hasta que se haya facturado el pedido de ventas.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Abra el pedido de venta que ha creado en [Para crear un pedido de venta de envío directo](#to-create-a-sales-order-for-drop-shipment).
 3. En el campo **Cantidad a enviar**, especifiqué qué cantidad del pedido debe enviarse, todo o solo una parte.
 4. Seleccione la acción **Registrar** o **Registrar y enviar**.

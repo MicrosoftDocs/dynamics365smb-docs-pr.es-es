@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6991b640319abf43718c1832b8bbea17bce0a0f1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784297"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443623"
 ---
 # <a name="change-which-features-are-displayed"></a>Cambiar las funciones que se muestran
 [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para ayudarlo a administrar su empresa, independientemente del tamaño y la complejidad. En el núcleo del producto, encontrará características esenciales, como informes financieros, ventas, compras y administración de inventario. A medida que aumenta la complejidad empresarial, puede activar la funcionalidad para la fabricación y la administración de servicios, por ejemplo.
@@ -46,14 +46,14 @@ Los usuarios se asignan a planes en el Centro de administración de Microsoft 36
 Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Microsoft 365, como asignar más usuarios al plan Premium, debe reflejar el cambio en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Inicie sesión como administrador.
-2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Usuarios** y luego elija el enlace relacionado.
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
 3. En la página **Usuarios**, seleccione la acción **Actualizar todos los grupos de usuarios**.
 
 Toda la información nueva sobre los planes de los usuarios y sus grupos de usuarios asignados ahora se actualizan de acuerdo con los cambios del plan.
 
 ### <a name="to-select-the-premium-experience"></a>Para seleccionar la experiencia Premium
 Ahora puede proceder a seleccionar la nueva experiencia.
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.
 2. En la página **Información empresa**, en la ficha desplegable **Experiencia del usuario**, seleccione Premium en el campo **Experiencia**.
 
 ## <a name="help-assumes-premium-experience"></a>En la ayuda se asume la experiencia premium
