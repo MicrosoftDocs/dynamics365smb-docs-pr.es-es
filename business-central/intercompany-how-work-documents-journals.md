@@ -1,6 +1,6 @@
 ---
-title: Registrar documentos y diarios de empresas vinculadas | Documentos de Microsoft
-description: Usar documentos de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas.
+title: Registrar documentos y diarios de empresas vinculadas
+description: Este tema explica cómo utilizar los documentos o diarios de empresas vinculadas sirven para registrar transacciones con empresas vinculadas asociadas.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: febd0eec1e5a66354538964d5495e4409c4042f0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d6b2c7e9d60745c5344a4f0e6edf3f03eef8b778
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786178"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441248"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Usar documentos y diarios de empresas vinculadas
 Los documentos o diarios de empresas vinculadas sirven para registrar transacciones con empresas vinculadas asociadas. Al registrar un documento o una línea de diario de empresas vinculadas en su empresa, el programa crea un documento o una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas, que puede transferir a su socio. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
@@ -29,7 +29,7 @@ Puede enviar pedidos de venta y de compra y devoluciones antes de registrarlos. 
 
 El procedimiento siguiente describe cómo rellenar y enviar un pedido de venta de empresas vinculadas. Los mismos pasos se aplican a los pedidos de compras y devoluciones de empresas vinculadas, así como en facturas y abonos de venta registrados de empresas vinculadas.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Para crear un nuevo pedido de venta, elija **Nuevo**. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Asegúrese de que el cliente es socio de una empresa vinculada.
@@ -41,7 +41,7 @@ El procedimiento siguiente describe cómo rellenar y enviar un pedido de venta d
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Para rellenar y registrar un diario de empresas vinculadas
 Al registrar un documento o una línea de diario general en su empresa, el programa crea una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas, que puede transferir a su socio. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales de empresas vinculadas** y luego elija el enlace relacionado  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales de empresas vinculadas** y luego elija el enlace relacionado.  
 2. Abra la sección del diario correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 3. Rellene los campos según sea necesario.
 4. En el campo **Nº cuenta IC asociada**, introduzca la cuenta de contabilidad IC de empresas vinculadas en la que se registrará el importe de la empresa de su socio.

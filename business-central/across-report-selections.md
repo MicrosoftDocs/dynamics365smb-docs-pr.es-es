@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 848b2ddc00f5006f31a0b2cff0a07d51ec305921
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787112"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440804"
 ---
 # <a name="report-selection-in-business-central"></a>Selección de informes en Business Central
 
@@ -32,7 +32,7 @@ Las páginas **Selecciones de informes** especifican qué informe se imprimirá 
 |Definir informes para informes de IVA (Alemania)|[Configurar informes para IVA e Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Su [!INCLUDE [prod_short](includes/prod_short.md)] puede incluir páginas **Selección de informes** adicionales, dependiendo de su ubicación e industria, por ejemplo. Siempre puede verificar su configuración eligiendo el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), entrando **Selecciones de informes** y luego eligiendo el enlace correspondiente.
+> Su [!INCLUDE [prod_short](includes/prod_short.md)] puede incluir páginas **Selección de informes** adicionales, dependiendo de su ubicación e industria, por ejemplo. Siempre puede comprobar su configuración eligiendo el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escribiendo **Selecciones de informe** y luego elija el enlace relevante.
 
 La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] incluye las siguientes páginas **Sección de informe**:
 

@@ -1,6 +1,6 @@
 ---
-title: Cómo planificar los picking en la hoja de trabajo | Documentos de Microsoft
-description: Si el almacén está configurado para requerir los procesos de picking y envío, el almacén puede trabajar de forma que las líneas de los documentos de envío no se transformen automáticamente en instrucciones de picking, si no hacerlas disponibles en vez de llevarlas a la hoja de trabajo de picking.
+title: Cómo planificar picking en hojas de trabajo
+description: Aprenda cómo el almacén puede optar por operar para que las líneas de los documentos de envío estén disponibles para la hoja de trabajo de picking.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 55ac86ff992709bb454eaadfa65d8d5eed98732e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782589"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441840"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planificar los picking en la hoja de trabajo
 
@@ -39,11 +39,11 @@ Si ordena por fecha de vencimiento, puede eliminar de la hoja de trabajo todas l
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Para planificar los picking en la hoja de trabajo
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo picking.** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo picking** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Traer documentos almacén**.  
 3. Escriba el envío para el que desea preparar el picking. Ahora puede ordenar las líneas, pero el método ordenación que ejecute no se aplicará a la instrucción de picking. También puede eliminar algunas líneas para realizar un picking más eficaz. Por ejemplo, si hay varias líneas con productos en ubicaciones de tránsito directo, es posible que desee realizar un picking de todas las líneas asociadas con estas líneas. Se enviarán los productos de tránsito directo junto con el resto de los productos de los envíos, y las ubicaciones de tránsito directo tendrán espacio para la entrada de más productos.  
 4. Elija la acción **Crear picking** y rellene la página de solicitud **Crear picking**. El método de ordenación que ha solicitado ordenará las líneas de picking que cree. Por ejemplo, puede crear un picking para cada zona y ordenar las líneas por ranking de ubicación en cada picking.  
-5. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking almacén** y luego elija el enlace relacionado. Se abre la página **Picking almacén**.  
+5. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking almacén** y luego elija el enlace relacionado. Se abre la página **Picking almacén**.  
 6. Ahora puede encontrar la asignación de picking que acaba de crear seleccionando el picking con el número más alto.  
 7. En el picking, aún puede modificar el Id. de usuario asignado y el orden de las líneas.  
 8. Elija la acción **Imprimir** para que se impriman las instrucciones de picking.  

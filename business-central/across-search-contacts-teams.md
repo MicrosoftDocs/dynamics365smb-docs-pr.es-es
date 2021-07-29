@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935166"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440754"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Búsqueda de clientes, proveedores y otros contactos desde Microsoft Teams
 
@@ -42,13 +42,13 @@ El cuadro de comando se encuentra en la parte superior de cada pantalla en Teams
 
 1. En el cuadro de comando, escriba **@Business Central** y, a continuación, seleccione la aplicación Business Central de los resultados.
 
-    ![Abrir la aplicación Business Central para buscar contactos desde el cuadro de comando](media/teams-contacts-command-1.png)
+    ![Abrir la aplicación Business Central para buscar contactos desde el cuadro de comando.](media/teams-contacts-command-1.png)
 
 2. En el cuadro **Business Central**, empiece a escribir el texto de búsqueda, como un nombre, una dirección o un número de teléfono.
 
     A medida que escribe, aparecerán resultados coincidentes.
 
-    ![Buscar contactos de Business Central desde el cuadro de comando de Teams](media/teams-contacts-command-2.png)
+    ![Buscar contactos de Business Central desde el cuadro de comando de Teams.](media/teams-contacts-command-2.png)
 3. Seleccione un contacto de los resultados.
 
     La ficha de contacto aparece debajo del cuadro de comando.
@@ -65,13 +65,13 @@ La ventaja de usar el cuadro de redacción del mensaje es que puede agregar una 
 
     Si no ve el icono de **Business Central**, seleccione **... (extensiones de mensajes)**.
 
-    ![Abrir la aplicación Business Central para buscar contactos desde el cuadro de mensajes](media/teams-contacts-message-box.png)
+    ![Abrir la aplicación Business Central para buscar contactos desde el cuadro de mensajes.](media/teams-contacts-message-box.png)
 
 2. En el cuadro **Business Central**, empiece a escribir el texto de búsqueda, como un nombre, una dirección o un número de teléfono.
 
     A medida que escribe, aparecerán resultados coincidentes.
 
-    ![Buscar contactos de Business Central desde el cuadro de mensajes](media/teams-contacts-5.png)
+    ![Buscar contactos de Business Central desde el cuadro de mensajes.](media/teams-contacts-5.png)
 3. Seleccione un contacto de los resultados.
 
     La ficha de contacto aparece en el cuadro de redacción del mensaje.
@@ -101,6 +101,8 @@ La ficha de contacto funciona como fichas para registros, como productos, client
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  
 [P+F de Teams](teams-faq.md)  
+[Cambiar la empresa y otras configuraciones en Teams](across-teams-settings.md)  
+[Compartir registros en Microsoft Teams](across-working-with-teams.md)  
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 019767f671f48f7ae5bb1c0d795c8085d8a97472
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7d946020bb6f9a1eabf5ab68d3dd64a9af344993
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786417"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442065"
 ---
 # <a name="work-with-inventory-periods"></a>Trabajar con periodos de inventario
 Los periodos del inventario definen un periodo de tiempo durante el cual es posible registrar cambios en el inventario. Un periodo del inventario se define por la fecha en la que finaliza. Cuando se cierra un periodo del inventario, no es posible registrar ningún cambio en él (ya sea previsto o facturado) antes de dicha fecha de finalización. Tampoco es posible registrar ningún valor nuevo en el inventario antes de dicha fecha. Si tiene movimientos de producto abiertos en ese periodo ya cerrado (lo que significa que existen cantidades positivas que todavía no ha aplicado a transacciones de salida), seguirá pudiendo aplicar cantidades de salida a dichos movimientos, incluso si el periodo está cerrado.  
@@ -27,7 +27,7 @@ En el siguiente apartado se explica cómo:
 * Vuelva a abrir periodos de inventario.  
 
 ## <a name="to-create-an-inventory-period"></a>Para crear un periodo de inventario  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Periodos inventario** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Periodos inventario** y luego elija el enlace relacionado.  
 2. Cree una línea nueva.  
 3. En el campo **Fecha final**, introduzca la última fecha del periodo que desee definir. Cuando se cierre el periodo del inventario, ya no podrá registrar cambios en el inventario antes de dicha fecha.  
 4. Introduzca un nombre descriptivo en el campo **Nombre**. Elija el botón **Aceptar**.  
@@ -59,7 +59,7 @@ Esto significa que todas las cantidades de transacciones de salida (como aquella
 Después de haber cerrado el periodo de inventario, ya no podrá eliminarlo. No obstante, si lo desea podrá volver a abrirlo para permitir realizar cambios antes de la fecha de finalización del periodo del inventario. Al volver a abrir un periodo, también se volverán a abrir todos los periodos del inventario cuyas fechas de finalización sean posteriores a las del periodo que está volviendo a abrir.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Para volver a abrir un periodo de inventario  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Periodos inventario** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Periodos inventario** y luego elija el enlace relacionado.  
 2. Seleccione el periodo del inventario que desea volver a abrir.  
 3. Seleccione la acción del periodo **Reabrir periodo**. Confirme que desea volver a abrir el periodo.  
 4. Todos los periodos del inventario cuyas fechas de finalización sean posteriores a las del periodo que ha seleccionado se vuelven a abrir.  

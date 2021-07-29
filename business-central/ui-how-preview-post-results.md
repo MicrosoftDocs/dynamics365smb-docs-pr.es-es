@@ -11,18 +11,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 5f2ba1b65f92e2415ae67a3ee4b4c48bebbde9be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772309"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441049"
 ---
 # <a name="preview-posting-results"></a>Vista previa de los resultados del registro
 En cada documento y diario que se pueda registrar, puede elegir el botón **Vista previa de registro** para revisar los diferentes tipos de entradas que se crearán cuando registre el documento o diario.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Para obtener una vista previa de los movimientos contables que resultarán de registrar una factura de compra
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Cree una factura de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Elija **Vista previa de registro**.
 4. En la página **Vista previa de registro**, seleccione **Mov. contabilidad** y, a continuación, elija **Mostrar movimientos relacionados**.  

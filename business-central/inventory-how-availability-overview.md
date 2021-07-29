@@ -1,6 +1,6 @@
 ---
-title: Obtener un resumen de disponibilidad| Documentos de Microsoft
-description: Puede obtener información sobre la disponibilidad de los productos o existencias en distintos almacenes, por eventos de venta o de compra, por un periodo de tiempo o por la posición del producto en una L.M. de ensamblado o producción.
+title: Obtener un resumen de disponibilidad
+description: Puede obtener información sobre la disponibilidad de los productos o existencias en distintos almacenes, por eventos de venta o de compra, por un periodo de tiempo, etc.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e5be238c74496ca92c0f26ef0c2a1377a6c93466
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786073"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441198"
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
 
-Puede consultar la disponibilidad de todos los productos por ubicación y puede consultar la disponibilidad de cada producto por evento, periodo o ubicación. Un evento es cualquier transacción de producto programada, como un albarán de venta o un albarán de transferencia de entrada.
+Puede consultar la disponibilidad de todos los productos por ubicación y puede consultar la disponibilidad de cada producto por evento o por periodo también. Un evento es cualquier transacción de producto programada, como un albarán de venta o un albarán de transferencia de entrada.
 
 > [!NOTE]  
 >   Las vistas de disponibilidad por ubicación requieren que se mantenga el inventario en varias ubicaciones. Para obtener más información, consulte [Configurar ubicaciones](inventory-how-setup-locations.md).
@@ -42,7 +42,7 @@ En [!INCLUDE[prod_short](includes/prod_short.md)], las cifras de disponibilidad 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Para consultar la disponibilidad de un producto según cuándo se recibirá o enviará
 Puede ver la disponibilidad de un producto según las transacciones de producto programadas en la página **Disponibilidad por evento**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Evento**.
 
@@ -52,7 +52,7 @@ Puede ver la disponibilidad de un producto según las transacciones de producto 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Para consultar la disponibilidad de un producto en distintos periodos
 Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos de tiempo específicos en la página **Existencias producto**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Periodo**.
 
@@ -62,7 +62,7 @@ Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos d
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Para consultar la disponibilidad de un producto en las ubicaciones donde se almacena
 Puede ver la disponibilidad de un producto en distintos sitios donde se almacena en la página **Disponib. prod. por almacén**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Almacén**.
 
@@ -73,7 +73,7 @@ Puede ver la disponibilidad de un producto en distintos sitios donde se almacena
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Para consultar la disponibilidad de todos los productos en las ubicaciones donde se almacenan
 Puede ver la disponibilidad de todos sus productos en todas sus ubicaciones en la página **Productos por almacén**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Elija la acción **Productos por almacén**.
 
     La página **Productos por almacén** muestra la cantidad de todos sus productos que hay disponible en cada ubicación.

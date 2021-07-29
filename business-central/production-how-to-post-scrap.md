@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0abd3da4abd0b91b7541fb545606c569f98b987
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d13bfaf069a10cb1ff92806dbceb46811a770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787857"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441577"
 ---
 # <a name="post-scrap-manually"></a>Registrar el material de rechazo manualmente
 Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida. 
@@ -24,7 +24,7 @@ Si se produce material de rechazo durante el proceso, se puede introducir en el 
 > La cantidad de material de rechazo no incrementa la cantidad de salida.  
 
 ## <a name="to-post-scrap-manually"></a>Para registrar el material de rechazo manualmente  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario salida**, y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. En el campo **Cantidad rechazada**, introduzca la cantidad rechazada.  
 4. En el campo **Cód. rechazo**, introduzca el código de rechazo.  

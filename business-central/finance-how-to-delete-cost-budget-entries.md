@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2f05388149e9e6587f916db79b652e64ad5d02e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d506a6f1a5aa40a7dcc77bab66d5a13085d364c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774844"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442165"
 ---
 # <a name="delete-cost-budget-entries"></a>Eliminar movs. ppto. costes
 Utilice el trabajo por lotes **Eliminar movimientos presupuesto de costes** para anular los movimientos de presupuesto de costes del registro de presupuestos de costes.  
@@ -24,7 +24,7 @@ Para evitar cualquier discontinuidad en movimientos de presupuesto de costes y m
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Para eliminar movimientos de presupuesto de costes  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Eliminar movs. ppto. costes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar movs. ppto. costes** y, a continuación, elija el enlace relacionado.  
 
     El campo **Hasta nº registro** contiene siempre el último número de movimiento de registro, que no se puede cambiar.  
 

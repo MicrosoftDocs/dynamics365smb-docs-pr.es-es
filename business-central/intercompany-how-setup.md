@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79c204a6c8a173985a5d3558d5ce1af5a2d8fc39
-ms.sourcegitcommit: 6add995f289c56e5497409308825c73eeaa4f62f
+ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941522"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441273"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Configuración de registro de transacciones entre empresas
 
@@ -28,11 +28,11 @@ Si va a crear o a recibir líneas de empresas vinculadas con productos, puede ut
 Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan recursos, debe rellenar el campo **Nº cuenta compra IC asociada** en la ficha de cada recurso que proceda. Es el número de la cuenta de empresas vinculadas en la empresa asociada en la que se registrará la cantidad correspondiente a este recurso. Para obtener más información, consulte [Configurar recursos](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Establecer empresas para transacciones entre empresa vinculadas
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
 2. En la página **Información de la empresa**, rellene los campos **Código de socio de empresas vinculadas**, **Tipo de bandeja de entrada de las empresas vinculadas** y **Detalles de bandeja de entrada de las empresas vinculadas**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Para establecer socios de empresas vinculadas
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Socios de empresas vinculadas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Socios de empresas vinculadas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la página **Socio de empresas vinculadas**, rellene los campos según sea necesario.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -40,7 +40,7 @@ Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan 
 > En [!INCLUDE[prod_short](includes/prod_short.md)] online, no puede utilizar ubicaciones de archivos para transferir transacciones a sus socios porque [!INCLUDE[prod_short](includes/prod_short.md)] no tiene acceso a su red local. Por tanto, si elige **Ubicación del archivo** en el campo **Tipo de transferencia**, el campo **Ruta de la carpeta** no está disponible. En su lugar, el archivo se descargará a la carpeta Descargas de su computadora. Luego envía el archivo a alguien de la empresa asociada, por ejemplo, por correo electrónico. Para un proceso más directo, le recomendamos que elija **Email** en lugar.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Para configurar proveedores y clientes de empresas vinculadas
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. De forma alternativa, acceda al proveedor desde el campo **N.º proveedor** en la página **Proveedor empresas vinculadas**.
 3. Abra la ficha de un proveedor que sea un socio de empresa vinculada. Para obtener más información, vea [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).
 4. En el campo **Socio de empresa vinculada**, seleccione el código de socio de empresas vinculadas correspondiente.
@@ -54,19 +54,19 @@ Si su empresa es la empresa asociada y se encarga de definir el plan de cuentas 
 Si su empresa es una empresa subsidiaria y ha recibido un archivo XML que contiene el plan de cuentas común de las empresas vinculadas, siga el procedimiento [Para importar el plan de cuentas de empresas vinculadas:](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Configurar la definición de las empresas vinculadas
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas de empresas vinculadas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas de empresas vinculadas** y luego elija el enlace relacionado.
 2. En la página **Plan de cuentas de empresas vinculadas**, introduzca cada cuenta en una línea en la página.  
 3. Si su plan de cuentas de empresas vinculadas va a ser idéntico o similar al suyo habitual, puede rellenar la página automáticamente mediante la acción **Copiar de Plan de cuentas**. Puede editar las líneas nuevas si es necesario.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Para exportar el plan de cuentas de empresas vinculadas:
 Para permitir que sus socios de empresas vinculadas importen el plan de cuentas definido, debe exportarlo a un archivo.      
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas de empresas vinculadas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas de empresas vinculadas** y luego elija el enlace relacionado.
 2. En la página **Plan de cuentas de empresas vinculadas**, seleccione la acción **Exportar** y, a continuación, el botón **Guardar**.
 3. Indique el nombre y la ubicación que desea utilizar para guardar el archivo XML y seleccione **Guardar**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Para importar el plan de cuentas de empresas vinculadas  
 Cuando existe un archivo para el plan de cuentas de empresas vinculadas definido, los socios de las empresas vinculadas pueden importarlo para asegurarse de que tienen las mismas cuentas.  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas de empresas vinculadas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas de empresas vinculadas** y luego elija el enlace relacionado.  
 2. En la página **Plan de cuentas de empresas vinculadas**, seleccione la acción **Importar**.  
 3. Seleccione el nombre y la ubicación del archivo XML y elija el botón **Abrir**.  
 
@@ -77,7 +77,7 @@ Cuando ha definido o importado el plan de cuentas de empresas vinculadas que su 
 
 Si las cuentas del plan de cuentas de empresas vinculadas tiene los mismos números de cuenta que las correspondientes del plan de cuentas, puede asignar las cuentas automáticamente.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas de empresas vinculadas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas de empresas vinculadas** y luego elija el enlace relacionado.  
 2. Seleccione las líneas que desea asignar automáticamente y seleccione la acción **Asignar a cuenta con igual n.º**.  
 3. Para las cuentas de empresas vinculadas que no se asignan automáticamente, rellene el campo **N.º de cuenta de asignación** .  
 
@@ -86,7 +86,7 @@ Cuando crea una línea de venta o de compra de empresas vinculadas para enviarla
 
 Ahora, cuando introduzca una cuenta contable en el campo **Cta. contrapartida** en una línea de empresas vinculadas con **Socio de empresas vinculadas** en el campo **Tipo de cuenta** el campo **Cuentas genéricas de empresas vinculadas asociadas** se rellenará automáticamente.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. En la línea de una cuenta que se utiliza para transacciones entre empresas vinculadas, en el campo **Cuentas genéricas de empresas vinculadas asociadas**, ingrese la cuenta de contabilidad general entre empresas vinculadas que su socio registrará cuando registre en la cuenta de contabilidad en la línea.  
 3. Repita el paso 2 para cada cuenta que introduzca a menudo en el campo **Cta. contrapartida** en un diario o documento de empresas vinculadas.
 
@@ -102,7 +102,7 @@ Si su empresa es la empresa asociada y se encarga de definir el conjunto de dime
 Si su empresa es una empresa subsidiaria y ha recibido un archivo XML que contiene las dimensiones de las empresas vinculadas que utilizará el grupo como referencia común, siga el procedimiento [Importar las dimensiones de empresas vinculadas](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Definir las dimensiones de empresas vinculadas
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Dimensiones de empresas vinculadas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Dimensiones de empresas vinculadas** y luego elija el enlace relacionado.  
 2. En la página **Dimensiones de empresas vinculadas**, introduzca cada dimensión en una línea de la página.
 
     Si las dimensiones de empresas vinculadas va a ser idénticas o similares a las de su empresa, puede rellenar la página automáticamente mediante la función **Copiar de Dimensiones** y, a continuación, modificar las líneas resultantes.  
@@ -111,7 +111,7 @@ Si su empresa es una empresa subsidiaria y ha recibido un archivo XML que contie
 
 ### <a name="to-import-the-intercompany-dimensions"></a>Importar las dimensiones de empresas vinculadas  
 Cuando existe un archivo para las dimensiones de empresas vinculadas definido, los socios de las empresas vinculadas pueden importarlo para asegurarse de que tienen las mismas dimensiones.  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Dimensiones de empresas vinculadas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Dimensiones de empresas vinculadas** y luego elija el enlace relacionado.  
 2. En la página **Dimensiones de empresas vinculadas**, seleccione la acción **Importar**.  
 3. Especifique el nombre y la ubicación del archivo XML y elija el botón **Abrir**.  
 
@@ -124,7 +124,7 @@ Si alguna de las dimensiones de empresas vinculadas tiene el mismo código que l
 
 En los siguientes pasos, primero asigna dimensiones de empresas vinculadas a dimensiones para documentos entrantes en la página **Dimensiones de empresas vinculadas**. Luego, asigna dimensiones a dimensiones de empresas vinculadas para documentos salientes en la página **Dimensiones**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Dimensiones de empresas vinculadas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Dimensiones de empresas vinculadas** y luego elija el enlace relacionado.
 2. Abra la página **Dimensiones de empresas vinculadas**, seleccione las líneas que desea asignar automáticamente y elija la acción **Asignar a dim. con igual código**.
 3. Para cada dimensión de empresas vinculadas que no se asocia automáticamente, rellene el campo **Código dimensión de asignación**.
 
@@ -133,7 +133,7 @@ En los siguientes pasos, primero asigna dimensiones de empresas vinculadas a dim
 5. En la página **Valores de dimensiones de empresas vinculadas**, rellene el campo **Código valor dimens. asig.**
 
     Proceda a asignar las dimensiones a las dimensiones de empresas vinculadas realizando pasos similares.
-6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Dimensiones** y, a continuación, elija el enlace relacionado.
+6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Dimensiones** y luego elija el enlace relacionado.
 7. Abra la página **Dimensiones**, seleccione las líneas que desea asignar automáticamente y elija la acción **Asignar a dim. IC con igual código**.
 8. Para cada dimensión de empresas vinculadas que no se asocia automáticamente, rellene el campo **Código valor dimens. IC asig.**.
 9. Seleccione la acción **Valores de dimensión**.

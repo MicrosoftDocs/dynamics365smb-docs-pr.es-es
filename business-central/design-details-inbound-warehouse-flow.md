@@ -1,6 +1,6 @@
 ---
-title: 'Detalles de diseño: Flujo de entrada en almacén | Documentos de Microsoft'
-description: El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.
+title: 'Detalles de diseño: Flujo de entrada en almacén'
+description: El flujo de entrada en almacén comienza cuando los artículos llegan a la ubicación de la empresa de almacén. Los productos se registran y finalmente se comparan con los documentos de origen entrantes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215183"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441777"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
 El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  
@@ -51,7 +51,7 @@ En los métodos A, B y C, las acciones de recepción y ubicación se agrupan en 
 ## <a name="basic-warehouse-configurations"></a>Configuración básica de almacén  
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en las configuraciones básicas de almacén](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en las configuraciones básicas de almacén")  
+![Flujo de entrada en las configuraciones básicas de almacén.](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en las configuraciones básicas de almacén")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Lanzar documento de origen/Crear ubicación de inventario  
 Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario. El usuario también puede crear mediante envío documentos de ubicación de inventario para líneas de pedido particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
@@ -70,7 +70,7 @@ Se crean movimientos de producto positivos, se crean movimientos de almacén y s
 ## <a name="advanced-warehouse-configurations"></a>Configuración avanzada de almacén  
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en las configuraciones avanzadas de almacén](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en las configuraciones avanzadas de almacén")  
+![Flujo de entrada en las configuraciones avanzadas de almacén.](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en las configuraciones avanzadas de almacén")  
 
 ### <a name="1-release-source-document"></a>1: Lanzar documento de origen  
 Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario.  

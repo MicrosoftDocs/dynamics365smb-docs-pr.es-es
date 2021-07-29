@@ -1,6 +1,6 @@
 ---
 title: Resumen de tareas para configurar Business Central
-description: Describe las tareas para preparar, inicializar y configurar Business Central según sus necesidades.
+description: Lea una descripción general de las tareas para preparar, inicializar y configurar Business Central según sus necesidades.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781461"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441427"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781461"
 
 Por ejemplo, para que su plan de cuentas se rellene previamente con varias cuentas de registro listas para usar. Por supuesto, puede cambiar el plan de cuentas para satisfacer sus necesidades. Para obtener más información, consulte [Finanzas](finance.md).
 
-Desde el ![icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png), puede acceder a guías de configuración asistida que ayudan a configurar ciertos escenarios y agregar funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener información acerca de cómo acceder a todas las páginas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).  
+En el menú ![icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener información acerca de cómo acceder a todas las páginas de configuración manual y asistida, consulte [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

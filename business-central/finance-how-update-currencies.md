@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184454"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441627"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 
@@ -23,7 +23,10 @@ A continuación, debe configurar códigos de divisa para cada divisa que utilice
 > [!Important]
 > No cree el código de divisa local en las páginas **Configuración contabilidad** ni **Divisas**. Esto creará confusión entre la divisa en blanco y el código DL en la tabla de divisas, y es posible que se creen accidentalmente cuentas bancarias, clientes o proveedores, algunos con la divisa en blanco y otros con el código DL.
 
-La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md). La moneda de presentación de informes adicional se utiliza con mayor frecuencia para facilitar la presentación de informes financieros a los propietarios que residen en países o regiones que utilizan divisas diferentes a la divisa local (DL).
+La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md). La moneda de presentación de informes adicional se utiliza con mayor frecuencia para facilitar la presentación de informes financieros a los propietarios que residen en países o regiones que utilizan divisas diferentes a la divisa local (DL).  
+
+> [!IMPORTANT]
+> Si desea utilizar una divisa de informes adicional para informes financieros, asegúrese de comprender las limitaciones. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Divisas
 
@@ -65,6 +68,8 @@ Especifique los códigos de moneda en **Divisas**, incluida la información adic
 |**Tipo redondeo IVA**|Especifica el método de redondeo para corregir los importes de IVA manualmente en los documentos de compra y venta. Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Ejemplo de una transacción de divisa por cobrar
+
+Cuando recibe una factura de una empresa en divisa extranjera, es bastante fácil calcular el valor en divisa local (DL) de la factura en función del tipo de cambio actual. Sin embargo, la factura a menudo incluye condiciones de pago para que pueda retrasar el pago a una fecha posterior, lo que implica una tasa de cambio potencialmente diferente. Este problema, en combinación con el hecho de que los tipos de cambio bancarios siempre difieren de los tipos de cambio oficiales, hace imposible anticipar el importe exacto en divisa local (DL) que se requiere para cubrir la factura. Si la fecha de vencimiento de la factura se extiende al mes siguiente, es posible que también deba reevaluar el importe en divisa local (DL) al final del mes. El ajuste de divisa es necesario porque el nuevo valor de DL que se requiere para cubrir el importe de la factura puede ser diferente y la deuda de la empresa con el proveedor ha cambiado potencialmente. El nuevo importe en DL puede ser mayor o menor que el importe anterior y, por tanto, representará una ganancia o una pérdida. Sin embargo, dado que la factura aún no se ha pagado, la ganancia o pérdida se considera *no realizada*. Posteriormente, se paga la factura y el banco regresa con el tipo de cambio real para el pago. No es hasta ahora cuando se calacula la ganancia o la pérdida *realizada*. Esta ganancia o pérdida no realizada se revierte y, en su lugar, se contabiliza la ganancia o pérdida realizada.
 
 En el siguiente ejemplo, se recibe una factura el 1 de enero con el importe en la divisa de 1000. En ese momento, el tipo de cambio es 1,123.
 
@@ -117,21 +122,21 @@ En general, los valores de los campos **Importe del tipo de cambio** e **Importe
 
 > [!Note]
 > El tipo de cambio real se calculará mediante esta fórmula:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
 El importe del tipo de cambio del ajuste o el importe del tipo de cambio del ajuste relacional se utilizará para actualizar todas las transacciones bancarias abiertas, por cobrar o por pagar.  
 
 > [!Note]
 > El tipo de cambio real se calculará mediante esta fórmula:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Ajustar los tipos de cambio
 
 Puesto que los tipos de cambio fluctúan constantemente, los equivalentes de la divisa adicional del sistema se deben ajustar regularmente. Si no se llevan a cabo estos ajustes, los importes que se hayan convertido desde divisas extranjeras (o adicionales) y registrado en contabilidad en la divisa local pueden ser erróneos. Además, los movimientos diarios registrados antes de que se introduzca el tipo de cambio del día en la aplicación se tienen que actualizar una vez que se haya introducido esta información.
 
-El proceso **Ajustar tipos de cambio** se usa para ajustar manualmente los tipos de cambio de los movimientos de clientes, proveedores y bancos. También sirve para actualizar los importes en la divisa adicional de los movimientos de contabilidad.  
+El trabajo por lotes **Ajustar tipos de cambio** se usa para ajustar manualmente los tipos de cambio de los movimientos de clientes, proveedores y bancos. También sirve para actualizar los importes en la divisa adicional de los movimientos de contabilidad.  
 
 > [!TIP]
 > Puede utilizar un servicio para actualizar los tipos de cambio en el sistema automáticamente. Para obtener más información, vea [Para configurar un servicio de tipo de cambio de divisa](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Sin embargo, esto no ajusta los tipos de cambio en transacciones ya registradas. Para actualizar los tipos de cambio de las entradas publicadas, utilice el trabajo por lotes **Ajustar tipos de cambio**.
@@ -143,12 +148,15 @@ En las cuentas de proveedores y clientes, el trabajo por lotes ajusta la divisa 
 El proceso utiliza todos los movimientos de clientes y de proveedores. Si hay un tipo de cambio diferente para un movimiento, el proceso crea un nuevo movimiento detallado de cliente o de proveedor, que refleja el importe ajustado del movimiento de cliente o de proveedor.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensiones en movimientos de clientes y proveedores
+
 Los movimientos de ajuste se asignan a las dimensiones de los movimientos de clientes y proveedores y los ajustes se registran por combinación de valores de dimensiones.
 
 ### <a name="effect-on-bank-accounts"></a>Efecto sobre cuentas bancarias
+
 En las cuentas de bancos, el trabajo por lotes ajusta la divisa utilizando el tipo de cambio vigente a la fecha de registro especificada en el trabajo por lotes. El proceso calcula las diferencias de cada banco y registra los importes en la cuenta contable especificada en el campo **Cta. dif. pos. realizadas** o en el campo **Cta. dif. neg. realizadas** de la página **Divisas**. Los movimientos de contrapartida se registran automáticamente en las cuentas de bancos especificadas en los grupos contables de bancos. El proceso calcula un movimiento por divisa por grupo contable.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensiones en movimientos de bancos
+
 Los movimientos de ajustes de la cuenta contable del banco y de la cuenta de pérdidas y ganancias se asignan a las dimensiones predeterminadas de la cuenta de banco.
 
 ### <a name="effect-on-gl-accounts"></a>Efecto sobre cuentas
@@ -165,20 +173,20 @@ Los movimientos registrados se asignan a las dimensiones predeterminadas de las 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Para configurar un servicio de tipo de cambio de divisa
 Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa como FloatRates.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Servicios de tipo de cambio de divisas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Servicios de tipo de cambio de divisas** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la página **Servicio de tipo de cambio de divisas**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Active el control de alternancia a **Habilitado** para habilitar el servicio.
 
 > [!NOTE]
-> El siguiente video muestra un ejemplo de cómo conectarse a un servicio de tipo de cambio de divisa, utilizando el Banco Central Europeo como ejemplo. En el segmento que describe cómo configurar asignaciones de campo, la configuración en la columna **Origen** para **Nodo principal para el código de divisa** solo devolverá la primera divisa encontrada. El ajuste debe ser **/gesmes:Envelope/Code/Code/Code**.
+> El siguiente video muestra un ejemplo de cómo conectarse a un servicio de tipo de cambio de divisa, utilizando el Banco Central Europeo como ejemplo. En el segmento que describe cómo configurar asignaciones de campo, la configuración en la columna **Origen** para **Nodo principal para el código de divisa** solo devolverá la primera divisa encontrada. La configuración debería ser `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Para actualizar los tipos de cambio de divisa mediante un servicio
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Divisas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Divisas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Actualizar tipos de cambio**.
 
 El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el último tipo de cambio de divisa.

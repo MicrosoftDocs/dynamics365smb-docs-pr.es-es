@@ -1,6 +1,6 @@
 ---
-title: Cómo subcontratadas fabricación | Documentos de Microsoft
-description: Cuando el pedido de compra se haya creado en la hoja de subcontratación, se puede registrar.
+title: Cómo subcontratar fabricación
+description: Este tema ofrece una descripción general ampliada de la funcionalidad ampliada de la subcontratación en Business Central, incluidos los campos del centro de trabajo y la ruta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b717e5674130661e12b48e6c0f37473098b892
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787707"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441527"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
@@ -52,7 +52,7 @@ Las funciones de la página **Hoja subcontratación** como **Hoja planificación
 >  En las hojas de subcontratación, sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de **Lanzadas**.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Para calcular la hoja de subcontratación  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja subcontratación** y, a continuación, elija el vínculo relacionado.  
 2.  Para calcular la hoja, seleccione la acción **Calcular subcontratos**.  
 3.  En la página **Calcular subcontratos**, defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
 4.  Elija el botón **Aceptar**.  
@@ -60,7 +60,7 @@ Las funciones de la página **Hoja subcontratación** como **Hoja planificación
     Revise las líneas en la página **Hoja subcontratación**. La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Para generar el pedido de compra subcontratado  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja subcontratación** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Ejecutar mensajes de acción**.  
 3.  Seleccione el campo **Imprimir pedidos** para imprimir el pedido de compra al crearlo.  
 4.  Elija el botón **Aceptar**.  
@@ -73,7 +73,7 @@ La línea de la hoja de trabajo que se convirtió en pedido de compra se elimina
 Una vez que se han creado los pedidos de compra del subcontratista, se pueden registrar. La recepción del pedido registra un movimiento de capacidad en la orden de producción y la facturación del pedido registra el coste directo del pedido de compra en la orden de producción.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Para registrar un pedido de compra de subcontratación  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Pedidos de compra** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 2.  Abra un pedido de compra creado en la hoja de subcontratación.  
 
     En las líneas del pedido de compra, puede ver la misma información que estaba en la hoja de cálculo. Los campos **Nº orden producción**, **Nº lín. orden producc.**, **Nº operación** y **Nº centro trabajo** se rellenan con la información del pedido de producción de origen.  

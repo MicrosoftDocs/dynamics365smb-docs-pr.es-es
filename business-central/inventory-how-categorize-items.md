@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 55196b8026e5efc5a79ce1a547e2ff594fae231c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b831443bd9e068b4c20f583cc8e0e7132d75ac5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786028"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441148"
 ---
 # <a name="categorize-items"></a>Clasificar productos
 
@@ -27,7 +27,7 @@ Para buscar productos por características, puede asignar los atributos de produ
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>Para crear una categoría de producto
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Categorías de producto** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Categorías de artículos** y luego elija el enlace relacionado.
 2. En la página **Categorías producto**, seleccione la acción **Nuevo**.
 3. En la ficha desplegable **General** de la página **Ficha de categoría de producto**, complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. En la ficha desplegable **Atributos**, especifique atributos de producto a la categoría. Para obtener más información, consulte la sección [Para asignar un atributo de producto a una categoría](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -42,7 +42,7 @@ Si cambia de opinión sobre una categoría de artículo, puede eliminarla. Sin e
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Para asignar una categoría de producto a un producto
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la ficha del producto al que desee asignar una categoría de producto.
 3. Elija el botón de búsqueda en el campo **Cód. categoría producto** y seleccione una categoría existente. De forma alternativa, elija la acción **Nuevo** para crear primero una nueva categoría de producto como se explica en [Para crear una categoría de producto](inventory-how-categorize-items.md#to-create-an-item-category).
 

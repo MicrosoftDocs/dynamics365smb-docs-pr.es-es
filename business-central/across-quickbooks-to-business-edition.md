@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9cf2d377476eed7dd8b38dc824bd6e23f2902818
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12ac21b237188b391dac943dd1f0352cddb82602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787137"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440779"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Cambiar de una aplicación de QuickBooks a Dynamics 365 Business Central
 Cada vez más empresas en crecimiento están cambiando de aplicaciones de finanzas como QuickBooks Desktop y QuickBooks Online, que están diseñadas para empresas emergentes y otras pequeñas empresas, a [!INCLUDE[prod_short](includes/prod_short.md)], que también admite organizaciones más grandes y complejas. 
@@ -32,7 +32,7 @@ Para obtener más información, consulte sobre la extensión que se adapta a la 
 * [Extensión de migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>¿Listo ahora?
-Si está preparado para empezar ahora, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración asistida** y, a continuación, haga clic el vínculo relacionado. Seleccione **Migrar los datos empresariales** y, a continuación, siga los pasos en la guía.
+Si está listo para comenzar ahora, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado. Seleccione **Migrar los datos empresariales** y, a continuación, siga los pasos en la guía.
 
 ## <a name="see-also"></a>Consulte también
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c13e41d102e2a7ff2ca80275571a1a05eea225e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a39798d56aa18dffa929d719cecd68a522bde00d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779052"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441990"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Conciliar los pagos con liquidación automática
 
@@ -44,7 +44,7 @@ Para cada línea de diario en la página **Diario de conciliación de pagos** po
 > Puede iniciar la importación de las transacciones bancarias al mismo tiempo que abre la página **Diario de conciliación de pagos** de un diario existente. El procedimiento siguiente describe cómo importar transacciones bancarias a la página **Diario de conciliación de pagos** una vez creado un nuevo diario.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Para conciliar los pagos con liquidación automática
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario de conciliación de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de conciliación de pagos** y luego elija el enlace relacionado.
 2. Para trabajar en un nuevo diario de conciliación de pago, seleccione la acción **Nuevo diario**.
 3. En la página **Lista cuentas bancarias pago**, seleccione la cuenta bancaria que desee conciliar los pagos y, a continuación, haga clic en **Aceptar**.
    La página **Diario de conciliación de pagos** abre una ventana preparada para la cuenta bancaria seleccionada.

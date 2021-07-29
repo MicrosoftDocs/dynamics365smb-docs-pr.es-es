@@ -1,6 +1,6 @@
 ---
 title: Conectar a Microsoft Dataverse
-description: Puede integrar otras aplicaciones con Business Central a través de Microsoft Dataverse. Este artículo proporciona consejos y trucos para configurar las conexiones.
+description: Configuración de una conexión entre Business Central y Dataverse Las empresas suelen crear la conexión para integrar datos con otra aplicación empresarial de Dynamics 365.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063482"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441348"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Conectar a Microsoft Dataverse
 
@@ -64,7 +64,7 @@ La guía de configuración de la conexión de Dataverse puede facilitar la conex
 > [!IMPORTANT]
 > Normalmente, solo utiliza la sincronización completa cuando integra las aplicaciones por primera vez y solo una aplicación contiene datos. La sincronización completa puede ser útil en un entorno de demostración porque crea y acopla automáticamente registros en cada aplicación, lo que hace que sea más rápido comenzar a trabajar con datos sincronizados. Sin embargo, solo debe ejecutar la sincronización completa si desea una fila en [!INCLUDE[prod_short](includes/prod_short.md)] para cada fila en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] para las asignaciones de tablas. De lo contrario, el resultado puede ser registros duplicados.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado.
 2. Elija **Configurar una conexión a Microsoft Dataverse** para iniciar la guía de configuración asistida.
 3. Rellene los campos según sea necesario.
 
@@ -75,7 +75,7 @@ La guía de configuración de la conexión de Dataverse puede facilitar la conex
 
 El procedimiento siguiente describe cómo configurar la conexión manualmente en la página **Configuración de conexión de Dataverse**. También es la página donde administra los valores para la integración.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de la conexión de Dataverse** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de conexión de Dataverse** y luego elija el enlace relacionado.
 2. Escriba la siguiente información para la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Campo|Descripción|
@@ -106,6 +106,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Actualice las conexiones de Business Central Online para usar autenticación basada en certificados
+> [!NOTE]
+> Esta sección es relevante solo para los inquilinos de Business Central online hospedados por Microsoft. Los inquilinos online hospedados por ISV y las instalaciones locales no se ven afectados.
+
+En abril de 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] está abandonando el tipo de autenticación de Office365 (nombre de usuario/contraseña). Para más información, vea [Cese en el uso del tipo de autenticación de Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Además, en marzo de 2022, [!INCLUDE[prod_short](includes/prod_short.md)] está abandonando el uso de la autenticación de servicio a servicio basada en secreto del cliente para inquilinos en línea, y requerirá el uso de autenticación de servicio a servicio basada en certificados para las conexiones a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Los inquilinos [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en línea hospedados por ISV y las instalaciones locales pueden seguir usando la autenticación de Office365 configurada por su socio de Microsoft.
+
+Para evitar interrumpir las integraciones, _debe actualizar_ la conexión para utilizar autenticación basada en certificados. Aunque el cambio está programado para marzo de 2022, le recomendamos encarecidamente que actualice lo antes posible. Los siguientes pasos describen cómo actualizar a la autenticación basada en certificados. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Para actualizar la conexión de Business Central Online para usar autenticación basada en certificados
+> [!NOTE]
+> La autenticación basada en certificados está disponible en Business Central 2021 lanzamiento de versiones 1 y posteriores. Si está utilizando una versión anterior, debe programar una actualización a Business Central 2021 lanzamiento de versiones 1 antes de marzo de 2022. Para más información, consulte [Programación de actualizaciones](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Si tiene problemas, comuníquese con su socio o soporte.
+
+1. En el [Centro de administración de Business Central]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifique que está utilizando Business Central 2021 lanzamiento de versiones 1 o posterior (versión 18 o posterior).
+2. Dependiendo de si se integra con Dynamics 365 Sales, realice una de las siguientes acciones:
+   * Si lo hace, abra la página **Configuración de la conexión de Microsoft Dynamics 365**.
+   * Si no lo hace, abra la página **Configuración de la conexión de Dataverse**.
+3. Elija **Conexión** y luego **Usar autenticación de certificado** para actualizar la conexión para utilizar autenticación basada en certificados.
+4. Inicie sesión con credenciales de administrador para Dataverse. El inicio de sesión debería tardar menos de un minuto.
+
+> [!NOTE]
+> Debe repetir estos pasos en cada entorno de [!INCLUDE[prod_short](includes/prod_short.md)], incluidos los entornos de producción y entorno aislado, y en cada empresa donde tenga una conexión con [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ## <a name="connecting-on-premises-versions"></a>Conexión a las versiones locales
 
@@ -149,7 +171,7 @@ Se parte de la base que para los siguientes pasos está usando Azure AD para ges
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Para desconectar de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de la conexión de Dataverse** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de conexión de Dataverse** y luego elija el enlace relacionado.
 2. En la página **Configuración de conexión de Dataverse**, desactive **Habilitado**.  
 
 ## <a name="see-also"></a>Consulte también

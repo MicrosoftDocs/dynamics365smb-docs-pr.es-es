@@ -1,6 +1,6 @@
 ---
-title: Mostrar informes de Power BI personalizados para datos de Business Central
-description: Puede usar los informes de Power BI para obtener más información sobre los datos en las listas.
+title: Mostrar informes de Power BI personalizados
+description: Puedes usar Power BI FactBox para mostrar informes de Power BI y obtener información adicional sobre los datos de los registros en las listas clave.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/26/2021
+ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087699"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440929"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -53,7 +53,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
     2. Arrastre el campo al panel **Filtros** y colóquelo en el cuadro **Filtros en todas las páginas**.
     3. Establezca el **Tipo de filtro** en **Filtrado básico**. No puede ser un filtro de página, visual o avanzado.
 
-    ![Configurar el filtro para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    ![Configurar el filtro para el informe Actividad de facturas de venta.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 4. Diseñe el informe.
 
     Cree el diseño arrastrando campos y agregando visualizaciones. Para obtener más información, consulte [Trabajar con la vista Informe en Power BI Desktop](/power-bi/create-reports/desktop-report-view) en la documentación de Power BI.
@@ -86,7 +86,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 El tamaño del informe se debe configurar en 325 píxeles por 310 píxeles. Este tamaño proporciona el escalado correcto del informe en el espacio disponible del control del cuadro informativo de Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]. Para definir el tamaño del informe, coloque el enfoque fuera del área de diseño de informe y, a continuación, elija el icono de rodillo de pintura.
 
-![Configurar la anchura y la altura para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+![Configurar la anchura y la altura para el informe Actividad de facturas de venta.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 Puede cambiar el ancho y el alto del informe eligiendo **Personalizado** en el campo **Tipo**.
 

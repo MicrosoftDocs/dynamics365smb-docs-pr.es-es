@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935316"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440879"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Uso de aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
 
@@ -63,7 +63,7 @@ Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [h
 1. Abra su explorador, navegue hasta [https://powerbi.microsoft.com](https://powerbi.microsoft.com) e inicie sesión en su cuenta.
 2. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.  
 
-    ![Navegar para obtener datos](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navegar para obtener datos.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     También puede empezar desde [!INCLUDE [prod_short](includes/prod_short.md)]. Desde su página Web, vaya a **Selección de informes** en la sección Power BI. Seleccione **Servicio** o **Mi organización** en la cinta. Se abre la galería de la organización en Power BI o Microsoft AppSource, filtrados para mostrar solo las aplicaciones relacionadas con [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +89,7 @@ Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [h
 5. Cuando se le solicite, ingrese el nombre de usuario y la contraseña para iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Una vez conectado, se añaden un panel e informes a su área de trabajo de Power BI. Cuando se haya completado, se muestran los mosaicos con datos de su empresa de [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    ![Seleccione Dynamics 365 Business Central y Obtener ahora](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Seleccione Dynamics 365 Business Central y seleccione Obtener ahora.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Solucionar problemas
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 923f68b13619013dd54062438c66192a682868bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4bce7a2e07f9d559df74f4862e9aa841f4cfe6f0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787882"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441602"
 ---
 # <a name="batch-post-output-and-run-times"></a>Registrar por lotes el resultado y los tiempos de ejecución
 La cantidad de salida representa el trabajo en curso en términos de cantidad terminada y capacidad utilizada del centro de trabajo o de máquina.
@@ -31,7 +31,7 @@ Puede usar el diario de salida para:
 Con la ventana **Diario de producción**, puede realizar las mismas tareas que las de la ventana **Diario de salida** y al mismo tiempo realizar las tareas de registro de consumo relacionadas. Para obtener más información, consulte [Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md).
 
 ## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Para registrar cantidades de salida y/o registrar tiempos de ejecución en una o varias líneas de la orden de producción
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario salida** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario salida**, y luego elija el enlace relacionado.  
 2. Rellene los campos con los datos de las órdenes de producción y los datos de salida y/o tiempo de ejecución. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     Puede usar la función **Desplegar ruta** para generar líneas de diario a partir de órdenes de producción.

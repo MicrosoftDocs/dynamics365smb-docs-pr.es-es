@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786003"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441123"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Copiar productos existentes para crear productos nuevos
 
@@ -23,7 +23,7 @@ Al añadir un nuevo producto, para ahorrar tiempo, puede utilizar la función **
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Para copiar un producto existente en un producto nuevo
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. Seleccione el producto que desea copiar y elija la acción **Copiar producto**.  
 
     Si no puede encontrar la acción **Copiar producto**, elija ver más opciones y luego búsquela en **Acciones**, **Funciones**.  

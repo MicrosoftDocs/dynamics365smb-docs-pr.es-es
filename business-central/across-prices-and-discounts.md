@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787237"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440829"
 ---
 # <a name="set-up-prices-and-discounts"></a>Establecer precios y descuentos
 > [!NOTE]
@@ -47,7 +47,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 
 #### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience)  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Elija el cliente y, a continuación, elija la acción **Precios**.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Rellene una línea para cada combinación que aplicará un precio de venta especial al cliente.
 
@@ -58,7 +58,7 @@ De forma predeterminada, el estado de las nuevas listas de precios es **Borrador
 
 Para revisar las listas de precios y los precios que se aplican a clientes o proveedores específicos, en las páginas **Cliente** o **Proveedor**, elija la acción **Listas de precios de venta** o **Listas de precios de compra**. Para productos y recursos, puede ver las líneas de la lista de precios seleccionando **Precios de venta** o **Precios de compra** en las páginas **Producto** y **Recurso**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Elija el cliente y, a continuación, elija la acción **Listas de precios de venta**. 
 3. Para crear una nueva lista de precios, elija **Nueva**.
 4. En las fichas desplegables **General** e **Impuesto**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 
 #### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Descuentos de línea**.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Rellene una línea para cada combinación que aplicará un descuento de línea de venta al cliente.
 
@@ -86,7 +86,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 
 #### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience/)  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Elija el cliente y, a continuación, elija la acción **Listas de precios de venta**.
 3. Abra la lista de precios para la que desea especificar el descuento de línea.
 4. Active el conmutador **Permitir descuento de línea**.
@@ -118,7 +118,7 @@ Además de (o en lugar de) un porcentaje de descuento, puede vincular un importe
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Para configurar un descuento en factura para un cliente
 Después de decidir qué clientes pueden obtener descuentos en factura, introduzca el código de descuento en factura en las fichas de cliente y especifique los términos de cada código.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la página de cliente para un cliente que pueda obtener descuentos en factura.
 3. En el campo **Código descuento factura**, seleccione un código para los términos relevantes de la factura con descuentos que usará para calcular los descuentos en facturas para el cliente. <!--Looks like I can only choose customers in this list-->
 
@@ -142,7 +142,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 
 Si desea copiar precios de venta, por ejemplo, los precios de venta de un cliente determinado a un grupo de precios de clientes, debe ejecutar el proceso **Sugerir precio venta en hoja**. en la página **Hoja de precios de venta**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
 2. Elija **Sugerir precio venta en hoja**. .  
 3. En la ficha desplegable **Precios venta**, rellene los campos **Tipo venta** y **Código ventas** con los precios de venta originales que desea copiar.  
 4. En la parte superior de la página de solicitud, rellene los campos **Tipo venta** y **Código ventas** con el tipo y el nombre al que desea copiar los precios de venta.  
@@ -156,7 +156,7 @@ Si desea copiar precios de venta, por ejemplo, los precios de venta de un client
 
 El estado de la lista de precios debe ser **Borrador**. 
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Listas de precios de venta** y luego elija el enlace relacionado. 
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Listas de precios de venta** y luego elija el enlace relacionado. 
 2. Elija la lista de precios a copiar y luego elija **Copiar líneas**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -172,7 +172,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 
 Si desea actualizar de forma masiva los precios de los artículos, como aumentar todos los precios de los artículos en algún porcentaje, debe ejecutar el proceso **Sugerir precio producto en hoja**. Trabajo por lotes . Puede encontrar un enlace al proceso en la página **Hoja precios venta**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
 2. Elija **Sugerir precio producto en hoja**. .  
 3. En la ficha desplegable **Artículo**, rellene los campos **N.º** o **Grupo registro inventario** u otros con los precios del artículo original que desea actualizar.  
 4. En la parte superior de la página de solicitud, rellene el **Tipo venta** y **Código ventas** con el tipo y el nombre al que desea copiar los precios de venta.

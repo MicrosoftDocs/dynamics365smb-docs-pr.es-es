@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6533bc4d141bd13772cad62f8a8574681bb60846
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774516"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441004"
 ---
 # <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
 Cuando un registro, como un documento de compra o una ficha de cliente, necesita ser aprobado por alguien de su organización, enviará una solicitud de aprobación como parte de un flujo de trabajo. En función de la configuración del flujo de trabajo, el aprobador adecuado recibirá notificación sobre que el registro requiere su aprobación.
@@ -31,7 +31,7 @@ Los flujos de trabajo de aprobación más importantes para los documentos de com
 La siguiente tarea se realizado por un usuario de aprobación.
 
 1. En la página que presenta el registro, seleccione la acción **Enviar solicitud de aprobación**.
-2. Para ver todas las solicitudes de aprobación, seleccione el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. solic. aprobación** y luego elija el enlace relacionado.  
+2. Para ver todas sus solicitudes de aprobación, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movs. solic. aprobación** y, a continuación, elija el vínculo relacionado.  
 
 El estado del movimiento de aprobación se actualiza de **Creado** a **Abierto**. El estado del registro, por ejemplo una factura de compra, se actualiza de **Abierto** a **Pendiente de aprobación** y permanece bloqueado para el procesamiento hasta que todos los aprobadores hayan aprobado el registro.
 
@@ -51,7 +51,7 @@ La siguiente tarea se realizado por un usuario de aprobación con derechos de ap
 
 Puede procesar solicitudes de aprobación en la página **Solicitudes de aprobación**, por ejemplo aprobar múltiples solicitudes a la vez. Alternativamente, puede procesar cada solicitud en el registro relacionado, como en la página **Factura de compra**, seleccionando el enlace en la notificación que recibe.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Solicitudes para aprobar** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Solicitudes para aprobar** y, a continuación, elija el vínculo relacionado.
 2. Seleccione una o varias líneas para el registro o los registros que desee aprobar o rechazar.
 3. Seleccione las acciones **Aprobar**, **Rechazar** o **Delegar**.
 
@@ -66,7 +66,7 @@ La siguiente tarea se realizado por un usuario de aprobación con derechos de ap
 
 Para evitar que los documentos se acumulen o bloqueen el flujo de trabajo, el aprobador y el administrador de aprobación pueden delegar una solicitud de aprobación a un aprobador sustituto. El sustituto puede ser un sustituto designado, el aprobador directo o el administrador de aprobaciones, en ese orden de prioridad. Esta característica se utiliza normalmente si un aprobador se encuentra fuera de la oficina y no puede aprobar solicitudes antes de la fecha de vencimiento.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Solicitudes para aprobar** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Solicitudes para aprobar** y, a continuación, elija el vínculo relacionado.
 2. Seleccione una o varias líneas de las solicitudes de aprobación que desea delegar a un aprobador sustituto y, a continuación, seleccione la acción **Delegar**.
 
 Se envía una notificación para aprobar la solicitud al aprobador sustituto.
@@ -78,7 +78,7 @@ Deberá recordar de forma periódica a los usuarios de flujo de trabajo de aprob
 
 La función **Enviar notificaciones de aprobación vencidas** buscará todas las solicitudes de aprobación pendientes que hayan vencido. Cada aprobador que tenga al menos un movimiento de aprobación vencido recibirá una notificación con la lista de todas las solicitudes de aprobación vencidas. Esta notificación también se envía al aprobador y a todos los solicitantes de las aprobaciones vencidas. Esto resulta útil si el movimiento de aprobación vencido se debe delegar a un sustituto.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Solicitudes de aprobación vencidas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Solicitudes de aprobación vencidas** y luego elija el enlace relacionado.
 2. En la página **Solicitudes de aprobación vencidas**, seleccione la acción **Seleccionar solicitudes de aprobación vencidas**.
 
 ## <a name="see-also"></a>Consulte también

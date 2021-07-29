@@ -1,6 +1,6 @@
 ---
-title: Cómo crear facturas de prepago | Documentos de Microsoft
-description: Conocer el modo de gestionar las situaciones en las que requiere prepago, o lo requiere el proveedor.
+title: Cómo crear facturas de prepago
+description: Gestione situaciones en las que usted o su proveedor requieran prepago. Utilice los porcentajes predeterminados de cada línea de venta o de compra o ajuste el importe según sea necesario.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 72a073fcde9ddf20df7c138ab544afb6719b93ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782168"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442190"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de prepagos
 
@@ -29,7 +29,7 @@ El procedimiento siguiente describe cómo facturar un prepago del pedido de vent
 
 ## <a name="to-create-a-prepayment-invoice"></a>Para crear una factura de prepago
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Cree un pedido de venta nuevo para un cliente relevante. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 
     En la ficha desplegable **Prepago**, el campo **% de prepago** especifica el porcentaje que se utilizará para calcular el importe de prepago. Si existe un porcentaje de prepago predeterminado en la ficha del cliente, el campo se rellenará automáticamente. Puede cambiar el porcentaje. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

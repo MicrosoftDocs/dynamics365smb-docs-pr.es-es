@@ -1,6 +1,6 @@
 ---
-title: Ver el estado de los proyectos de sincronización | Documentos de Microsoft
-description: Aprenda a ver el estado después de sincronizar los registros emparejados.
+title: Ver el estado de los proyectos de sincronización
+description: Utilice la página Errores de sincronización de datos emparejados para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en integraciones.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b87bd1061adbcaae3a5497fa1af020cfaa412593
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781266"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441323"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Ver el estado de los proyectos de sincronización
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -35,7 +35,7 @@ Utilice la página **Errores de sincronización de datos emparejados** para ver 
 -->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Para ver y resolver los errores de sincronización de los registros emparejados
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Errores de sincronización de datos emparejados** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Errores de sincronización de datos emparejados** y luego elija el enlace relacionado.
 2. La página **Errores de sincronización de datos emparejados** muestra los problemas que se produjeron al sincronizar registros emparejados. La siguiente tabla incluye acciones que puede utilizar para resolver problemas uno por uno:
 
 |Acción|Descripción|

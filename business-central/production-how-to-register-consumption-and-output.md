@@ -1,6 +1,6 @@
 ---
-title: Registrar el consumo y la salida de una orden de producción | Documentos de Microsoft
-description: Esta tarea de ejecución se realiza en la página **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones.
+title: Registrar salida de consumo para orden de producción
+description: Este tema explica cómo registrar el consumo y la salida para una línea de orden de producción liberada que se ve en la página Diario de producción.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2ecf59472adb8b153b2b6feeea62591e0565085
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787832"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441552"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrar el consumo y la salida de una línea de orden de producción lanzada
 Esta tarea de ejecución se realiza en la página **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones. Los valores se registran en los movimientos de contabilidad bajo la orden de producción lanzada. Las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos positivos y los tiempos invertidos se registran como movimientos de capacidad. Estos valores registrados se pueden consultar también en la parte inferior del diario como cantidades reales.  
@@ -27,7 +27,7 @@ Esta tarea de ejecución se realiza en la página **Diario de producción**. El 
 >  los componentes sin códigos de conexión aparecen al principio del diario.  
 
 ## <a name="to-register-consumption-and-output"></a>Para registrar el consumo y la salida  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. lanzadas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. lanzadas** y, a continuación, elija el vínculo relacionado.  
 2.  Abra una línea de orden de producción lanzada que esté lista para su registro. En la ficha desplegable **Líneas**, seleccione la acción **Línea** y, a continuación, elija la acción **Diario de producción**.  
 
     La página **Diario de producción** se abre y muestra las líneas de diario para la línea de orden de producción según las páginas **Componente orden producción** y **Ruta orden producción**. Estas líneas proceden de la L.M. de producción y la ruta asignados al producto que se está fabricando. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-routings.md).  

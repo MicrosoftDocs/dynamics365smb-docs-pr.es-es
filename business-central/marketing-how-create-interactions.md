@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 92965b353dadb78e50b11138a832115885518f4f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19cfc6b241e72d63a0f2c00ee43b32682cdeefae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780712"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441098"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Crear interacciones en contactos y segmentos
 Puede crear interacciones para registrar todas las interacciones y comunicaciones que mantenga con sus contactos y segmentos, por ejemplo, con el correo directo.
@@ -38,7 +38,7 @@ Antes de crear interacciones, debe configurar las plantillas de interacción. Pa
 3. Seleccione la interacción que desea terminar y, a continuación, seleccione la acción **Reanudar**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Para crear una interacción en un segmento
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Segmentos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos** y luego elija el enlace relacionado.
 2. En la página **Segmento**, en la sección **Interacción**, rellene los campos para especificar qué interacción quiere asignar al segmento.
 
     Después de asignar una interacción al segmento puede personalizar la interacción para cada contacto particular dentro del segmento, por ejemplo seleccionando otra plantilla de interacción en las líneas de la página **Segmento**.  
