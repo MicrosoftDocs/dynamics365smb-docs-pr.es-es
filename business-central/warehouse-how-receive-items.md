@@ -1,6 +1,6 @@
 ---
-title: Cómo recibir productos | Documentos de Microsoft
-description: Cuando los productos llegan al almacén, se recuperan las líneas del documento de origen que ha activado su recepción. 
+title: Cómo recibir productos
+description: Este tema es una descripción general de las diferentes formas de recibir productos en un almacén, por ejemplo, productos con una orden de compra o productos con un recibo de almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771909"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445131"
 ---
 # <a name="receive-items"></a>Recibir productos
 
@@ -27,7 +27,7 @@ Cuando los productos llegan al almacén, se recuperan las líneas del documento 
 
 A continuación se describe cómo recibir productos con un pedido de compra. Los pasos son iguales para las órdenes de devolución de venta y las órdenes de transferencia.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.
 2. Abra un pedido de compra existente o cree uno nuevo. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Escriba la cantidad recibida en el campo **Cantidad a recibir**.
 
@@ -43,7 +43,7 @@ A continuación se describe cómo recibir productos con un pedido de compra. Los
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Para recibir productos con recibo de almacén
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recepciones almacén** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 
     Rellene los campos en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.  
@@ -96,7 +96,7 @@ Debe definir un porcentaje según el cual permite que se exceda la cantidad pedi
 
 A continuación, se describe cómo configurar y asignar un código de recepción en exceso a un artículo. Los pasos son parecidos para un proveedor.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la tarjeta para un artículo que sospecha que a veces se puede entregar con una cantidad mayor que la solicitada.
 3. Elija el botón de búsqueda en el campo **Código de recepción en exceso**.
 4. Seleccione la acción **Nuevo**.

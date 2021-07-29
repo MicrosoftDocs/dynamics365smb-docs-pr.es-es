@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772134"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445256"
 ---
 # <a name="working-with-prod_short"></a>Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
 
 Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para ello, expanda la anchura de las columnas, aumente la altura de los encabezados de columna y cambie el orden de los datos de las columnas. Y si quiere usar la barra de desplazamiento horizontal para ver todas las columnas en una página de lista o en líneas de documentos, verá que hay una inmovilización del panel vertical para impedir el desplazamiento de algunas columnas.
@@ -26,7 +27,7 @@ Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para 
 > [!TIP]
 > Para obtener un resumen en versión para imprimir de las funciones más usadas, elija la siguiente imagen y descargue el archivo PDF.
 >
-> [ ![Icono para el archivo PDF](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icono que abre un PDF")
+> [ ![Icono para el archivo PDF.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icono que abre un PDF")
 
 ## <a name="links-to-learn-more"></a>Vínculos para obtener más información
 
@@ -67,6 +68,21 @@ A continuación se muestra un vídeo corto acerca de cómo desplazarse en [!INCL
 
     Internet Explorer ya no es compatible. Para obtener más información, consulte la [documentación de Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Mantenga su navegador siempre actualizado a la última versión.
+
+## <a name="action-bars"></a>Barras de acción
+
+En [!INCLUDE [prod_short](includes/prod_short.md)], usted realiza la mayor parte de su trabajo en una lista, un documento o una tarjeta. Los tres tipos de páginas tienen una barra con acciones que son relevantes para la página en particular, y las acciones son casi las mismas para la tarjeta o documento individual y para la lista de entidades. De esta forma, puede gestionar un pedido de cliente individual en la página **Órdenes de venta** y en la **Órdenes de venta**, incluidos su registro y facturación.  
+
+Pero las acciones también pueden tener un aspecto diferente, o incluso no estar presentes, dependiendo de cómo abra la página. Específicamente para las páginas de lista, la página de lista que abre desde la página de inicio y la página que se muestra cuando la busca usando el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") no son idénticas.  
+
+Cuando busca una página de lista abierta, como la lista **Órdenes de venta**, está en modo de visualización. Las acciones para editar, ver o eliminar una entidad individual, como una orden de venta, se muestran cuando elige la acción **Administrar**.  
+
+> [!TIP]
+> Si sabe que utilizará acciones en este segundo nivel de la barra de acciones con frecuencia, elija el icono :::image type="icon" source="media/pin.png" border="false"::: para anclar la barra de acciones y hacer que las acciones de los distintos menús sean inmediatamente visibles.
+>
+> Para hacer que el segundo nivel de la barra de acción desaparezca nuevamente, elija el icono :::image type="icon" source="media/unpin.png" border="false":::.
+
+Pero cuando abre la misma página de lista desde su página de inicio, la acción **Administrar** no está presente. En su lugar, para abrir un pedido de cliente individual, simplemente elija el campo **Número**. En esta vista, no puede anclar la barra de acción.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

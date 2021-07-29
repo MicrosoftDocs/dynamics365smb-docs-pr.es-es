@@ -1,6 +1,6 @@
 ---
-title: Cómo configurar plantillas de ubicación | Documentos de Microsoft
-description: Con la funcionalidad de ubicación y picking directo, se sugiere la ubicación más adecuada para los productos en un momento determinado, según la plantilla de ubicación que ha configurado para el almacén, los rankings que ha dado a las ubicaciones y las cantidades máxima y mínima que ha definido para las ubicaciones fijas.
+title: Cómo configurar plantillas de ubicación
+description: Utilice las plantillas de ubicación para que se le sugieran las ubicaciones más apropiadas para sus productos en un momento dado.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784197"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445081"
 ---
 # <a name="set-up-put-away-templates"></a>Configurar plantillas de ubicación
 
@@ -25,7 +25,7 @@ Puede configurar varias plantillas de ubicación y seleccionar una para controla
 
 ## <a name="to-set-up-put-away-templates"></a>Para configurar las plantillas de ubicación
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de ubicación** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de ubicación**, y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Escriba un código que sea el identificador exclusivo de la plantilla que va a crear.  
 4. Escriba una breve descripción, si lo desea.  

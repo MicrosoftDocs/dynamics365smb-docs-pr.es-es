@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: Configuración y facturación de prepagos de ventas'
-description: Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Es posible que solicite un depósito antes de fabricar productos del pedido, o que solicite un pago antes de enviar productos al cliente. La funcionalidad de prepagos en Business Central se utiliza para facturar y cobrar depósitos de los clientes o remitir depósitos a los proveedores. De este modo, puede asegurar que todos los pagos estén registrados contra una factura.
+title: Configuración y facturación de prepagos de ventas
+description: Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: dacf9e5492f583513e69f2316a0440fce2597269
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6671db4d40b8c57d5144ca23f01bb8c5c176ac42
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216185"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445181"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas
 
@@ -72,7 +72,7 @@ En los siguientes procedimientos, se describe cómo realizar las tareas de Felis
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Para configurar series numéricas para prepagos
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.  
 2.  En la página **Conf. ventas y cobros**, amplíe la ficha desplegable **Numeración**.  
 3.  Verifique que la serie numérica de las facturas de prepago registradas en el campo **Nº fact. prepago registrada** sea la misma que para las facturas de venta registradas (**Nº serie fact. registrada**) y que la serie numérica para abonos de prepago registrados (**Nº abono prepago registrado**) sea la misma que para los abonos registrados (**Nº serie abono registrado**).  
 
@@ -88,7 +88,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20 % p
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Para asignar porcentajes de prepago predeterminados a clientes y productos
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
 2.  Abra la ventana de la ficha del cliente 20000 (Trey Research).
 3.  En el campo **% prepago**, escriba **30**.  
 4.  Seleccione **Relacionados**, **Ventas** y **Porcentajes de prepago**
@@ -106,7 +106,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20 % p
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Para especificar una cuenta para los prepagos de ventas en la configuración del registro general
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
 2.  Seleccione la línea donde el campo de **General neg. grupo contable** se establece en **NAC**, y el campo **General producción. grupo contable** se establece en **MERCADERÍA**.  
 3.  En el campo **Cuenta prepago venta**, especifique la cuenta relevante. Su selección se guarda automáticamente.  
 
@@ -120,7 +120,7 @@ Susana crea la factura de prepago y la envía al cliente.
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Para crear un pedido de venta con prepago
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Para el campo **N.º cliente**, seleccione **20000**.  
 4.  Cierre la advertencia de saldo pendiente que se muestra.  
@@ -184,7 +184,7 @@ El cliente paga el importe de prepago y Andrés, que trabaja en el departamento 
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Para aplicar un pago a las facturas de prepago
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de recibos de efectivo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de recibos de efectivo**, y luego elija el enlace relacionado.  
 2.  Rellene una línea de diario con la siguiente información.  
 
     |Nombre del campo|Introduzca|  
@@ -218,7 +218,7 @@ Se ha notificado a Andrés que los productos del pedido se han enviado y que el 
 
 Andrés puede ver el historial para verificar que la factura de venta fue creada tal como se previó.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Histórico facturas venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 
 ## <a name="next-steps"></a>Pasos siguientes
 

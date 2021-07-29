@@ -1,6 +1,6 @@
 ---
-title: abrir movs. productos
-description: Descubra por qué el nivel de inventario es cero aunque existan movimientos de producto pendientes.
+title: Movimientos contables abiertos de productos de inventario cero
+description: Este artículo aborda un problema donde el nivel de inventario es cero aunque existen movimientos de producto pendientes.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215933"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445000"
 ---
 # <a name="design-details-known-item-application-issue"></a>Detalles de diseño: Problema de liquidación de producto conocido
 Este artículo aborda un problema donde el nivel de inventario es cero aunque existen movimientos de producto pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -54,7 +54,7 @@ El artículo comienza enumerando los síntomas típicos del problema, seguido de
 
  El diagrama siguiente muestra cómo se crean las liquidaciones de cantidad.  
 
-![Flujo de ajuste de costes de compra a venta](media/helene/TechArticleInventoryZero2.png "Flujo de ajuste de costes de compra a venta")
+![Flujo de ajuste de costes de compra a venta.](media/helene/TechArticleInventoryZero2.png "Flujo de ajuste de costes de compra a venta")
 
  Tenga en cuenta que el movimiento de producto 1 (Compra) es el proveedor del producto y la fuente de coste del movimiento contable liquidado, movimiento de producto 2 (Venta).  
 
@@ -78,7 +78,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 
  El diagrama siguiente muestra el flujo de costes.  
 
-![Flujo de ajuste de costes de venta a devolución de ventas](media/helene/TechArticleInventoryZero4.png "Flujo de ajuste de costes de venta a devolución de ventas")
+![Flujo de ajuste de costes de venta a devolución de ventas.](media/helene/TechArticleInventoryZero4.png "Flujo de ajuste de costes de venta a devolución de ventas")
 
  Tenga en cuenta que el coste se envía al movimiento de producto 2 (Venta), a continuación al movimiento de producto 3 (Devolución venta) y finalmente al movimiento de producto 4 (Venta 2).  
 
@@ -91,7 +91,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
 
  El diagrama siguiente ilustra cómo se realizan las liquidaciones de productos en ambos escenarios.  
 
-![Fujo de ajuste de costes en ambas direcciones](media/helene/TechArticleInventoryZero6.png "Fujo de ajuste de costes en ambas direcciones")  
+![Fujo de ajuste de costes en ambas direcciones.](media/helene/TechArticleInventoryZero6.png "Fujo de ajuste de costes en ambas direcciones")  
 
  Tenga en cuenta que se realiza una liquidación de coste (representada por las flechas azules) para asegurar que el movimiento de producto 2 (Devolución ventas) tenga los mismos costes que el movimiento de producto que invierte, movimiento de producto 1 (Venta 1). Sin embargo, no se crea ninguna liquidación de cantidad (representada por las flechas rojas).  
 
@@ -133,7 +133,7 @@ El diagrama siguiente muestra cómo se crean las liquidaciones de coste.
      |N.º de movimiento|Nº mov. producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|Fecha reg.|Coste liquidación|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|28/01/2018|Sí|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Tenga en cuenta que el movimiento de producto de entrada 334 se liquida al movimiento de producto de salida 333.  
 

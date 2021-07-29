@@ -1,6 +1,6 @@
 ---
-title: Registrar gastos o ingresos directamente en contabilidad | Documentos de Microsoft
-description: Para las actividades empresariales que no está representadas por un documento, como los gastos o recibos de efectivo más pequeños, puede crear las transacciones relacionadas registrando líneas de diario en la página Diario general.
+title: Registrar gastos o ingresos directamente en contabilidad
+description: Para las actividades empresariales que no está representadas por un documento puede crear las transacciones relacionadas registrando líneas de diario en la página Diario general.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e0beff15352fb8e57f57c9d0ffdcd76bc28afbb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b27406f2020b95bc5dd9bc8771b9d632aa6c740f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782385"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444542"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrar transacciones directamente en la contabilidad
 
@@ -29,7 +29,7 @@ A diferencia de los movimientos que se registran en documentos, que requieren un
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Para registrar una transacción directamente en una cuenta contable
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado.
 2. Abra la sección del diario general correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 3. En una línea nueva de diario, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 

@@ -11,12 +11,12 @@ ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash r
 ms.date: 06/08/2021
 ms.author: a-jillk
 ms.reviewer: edupont
-ms.openlocfilehash: 8359d95b36d6c16b179de2fce400c44fd93ec0f1
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ae259cdccb2dc29882f3aee1a9062cfe0a2f5e73
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216401"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444717"
 ---
 # <a name="cash-flow-overview"></a>Descripción del flujo de efectivo
 
@@ -30,7 +30,7 @@ El término *flujo de efectivo* se utiliza para designar los cobros menos los pa
 
 El siguiente ejemplo muestra una descripción global de cómo puede trabajar con el flujo de efectivo.
 
-![Descripción del flujo de efectivo](media/finance_cash_flow_overview.png "Descripción del flujo de efectivo")
+![Descripción del flujo de efectivo.](media/finance_cash_flow_overview.png "Descripción del flujo de efectivo")
 
 - Configura una previsión del flujo de efectivo.  
 

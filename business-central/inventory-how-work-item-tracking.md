@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10483de41b1106914a1fa477309e5b39a3f41e6b
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 54e5985f9399d3b07a86165c720899a5a29f360e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947418"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444850"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Seguimiento de productos con números de serie, de lote y de paquete
 
@@ -70,7 +70,7 @@ Si trabaja con la página **Líns. seguim. prod.** durante un largo periodo de t
 
 Un código de seguimiento de producto refleja las distintas consideraciones que tiene una empresa en referencia al uso de números de serie y lote de los productos que se mueven en el inventario.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Códs. seguim. prod.** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códs. seguim. prod.**, y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. En las fichas desplegables **Nº serie**, **Nº lote** y **Nº paquete**, defina las directivas de seguimiento del producto mediante números de serie, lote y paquete, respectivamente.  
@@ -97,7 +97,7 @@ Con algunos productos es posible que le interese configurar fechas y reglas de c
 
 Con algunos productos es posible que le interese configurar garantías específicas en el código de seguimiento de producto. Esta funcionalidad le permite realizar un seguimiento de la caducidad de las garantías de determinados números de serie o lote en inventario.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Códs. seguim. prod.** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códs. seguim. prod.**, y luego elija el enlace relacionado.  
 
 2. Seleccione un código de seguimiento de productos existentes, y después la acción **Editar** .  
 3. En la ficha desplegable **Varios**, rellene el campo **Fórmula fecha garantía** y active las casillas según se indica a continuación.  
@@ -115,7 +115,7 @@ Las reglas exactas para controlar los números de seguimiento de producto en la 
 > [!NOTE]  
 >  Para utilizar números de seguimiento de productos en las actividades de almacén, se deben seleccionar los campos de configuración **Control lote almacén** y **Seguim. nº serie almacén**, ya que definen los principios especiales para gestionar los números de serie y lote en las actividades de almacén.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la línea del documento correspondiente en la ficha desplegable **Líneas**, elija la acción **Línea**, y después elija **Líns. seguim. prod**.  
 
     Puede asignar números de serie o lote de las siguientes maneras:  
@@ -197,7 +197,7 @@ Los procedimientos para controlar los números de serie y lote que se van a tran
 No obstante, el pedido de transferencia es único en que el envío y la recepción se hacen desde la misma línea de transferencia y, por tanto, utilizan la misma instancia de la página **Líns. seguim. prod.** Esto quiere decir que los números de seguimiento de productos enviados desde un almacén deben recibirse sin modificaciones en el otro almacén.  
 
  Las reglas exactas para controlar los números de seguimiento de producto en la empresa se rigen por la configuración de la tabla  **Cód. seguim. prod.**    
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de transferencia** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de transferencia** y luego elija el enlace relacionado.  
 2. Abra el pedido de transferencia que desea procesar. En la ficha desplegable **Líneas**, elija la acción **Línea**, seleccione la acción **Líns. seguim. prod.** y elija la acción **Envío**.  
 3. En la página **Líns. seguim. prod.**, asigne o seleccione números de serie o lote de la misma forma que lo haría para otra transacción de producto de salida.  
 
@@ -220,7 +220,7 @@ La funcionalidad utilizan los procesos de salida siguientes:
 
 En estas situaciones, las líneas de seguimiento de productos existentes se copian automáticamente en la factura o en el abono, pero la página **Líns. seguim. prod.** no permite realizar cambios en los números de serie o de lote. Solo se pueden modificar las cantidades.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego seleccione el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. Abra una factura de compra para los productos que se compran con los números de serie o de lote.  
 3. Desde una línea de la factura de compra, en la ficha desplegable **Líneas**, seleccione la acción **Traer líns. recep**.  
 4. En la página **Traer líns. albarán**, seleccione una línea de recepción que tenga líneas del seguimiento de producto y, a continuación seleccione el botón **Aceptar**.  
@@ -251,7 +251,7 @@ Alternatively, you can create an information card when you post journals or docu
 Puede modificar las tarjetas de información de lote o de serie creadas más tarde.
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Para modificar la información relativa al número de serie o de lote actuales  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. Seleccione un producto que tenga un código de seguimiento de producto e información de número de serie o lote.
 3. En la página **Ficha producto**, seleccione la acción **Movimientos** y, después, **Movimientos**.
 4. Elija los campos **Nº lote** o **Nº serie**. Si hay información referente al número de seguimiento del producto, se abre la página **Lista información nº lote** o **Lista información nº serie**.  
@@ -263,7 +263,7 @@ No puede modificar los números de serie o lote ni las cantidades. Para ello, de
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Para reclasificar números de lote o de serie  
 El proceso de reclasificar el seguimiento para un producto significa convertir un número de lote o de serie en un nuevo número de lote o de serie, o bien convertir la fecha de caducidad en una nueva. Si está trabajando con lotes, también puede combinar varios lotes en uno. Para llevar a cabo este proceso, deberá utilizar el diario de reclasificación de productos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario reclasif. producto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios reclasif. producto**, y luego elija el enlace relacionado.  
 2. Rellene la línea con la información correspondiente. Para obtener más información, consulte [Contar inventario mediante documentos](inventory-how-count-inventory-with-documents.md) o [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md).
 3. Seleccione la acción **Líns. seguim. prod.**  
 4. En el campo **Nº serie** o **Nº lote**, seleccione el número de serie o de lote actual.  

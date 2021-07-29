@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5bb97f1c26ca9264718a96a9f2f7803e248927b3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214983"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445025"
 ---
 # <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
 
@@ -27,7 +27,7 @@ Con la adición de los números de serie, de lote y de paquete, el sistema de re
 
 En el diagrama siguiente se describe el diseño de la funcionalidad de seguimiento de productos en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Ejemplo de flujo de seguimiento de artículos](media/design_details_item_tracking_design.png "Ejemplo de flujo de seguimiento de artículos")  
+![Ejemplo de flujo de seguimiento de artículos.](media/design_details_item_tracking_design.png "Ejemplo de flujo de seguimiento de artículos")  
 
 El objeto de registro central se ha rediseñado para controlar la subclasificación única de una línea de documento con el formato de números de serie o de lote, y se han agregado tablas de relación especiales para crear relaciones de uno a varios entre los documentos registrados y sus movimientos de producto y de valoración divididos.  
 

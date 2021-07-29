@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074667"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444825"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
 
@@ -23,9 +23,9 @@ Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[prod_short](includ
 
 Para ayudarle a empezar a hacer negocios, puede visitar la página **Configuración asistida** donde puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. Para acceder a la página, simplemente elija [este enlace](https://businesscentral.dynamics.com/?page=1801).  
 
-Opcionalmente, elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego la acción **Configuración asistida**.
+Alternativamente, elija el ![icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , y luego la acción **Configuración asistida**.
 
-También puede encontrar la lista de guías de configuración asistida, si elije el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración asistida** y luego elija el enlace relacionado.  
+También puede encontrar la lista de guías de configuración asistida si elige el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ A partir del lanzamiento de versiones 1 de 2021, cuando inicia sesión por prime
 
 Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si las otras guías de configuración asistida pueden ayudarle.
 
-Si un área no está cubierta por una configuración asistida, elija el icono ![Icono de rueda dentada para abrir el menú Configuración](media/ui-experience/settings_icon_small.png) y luego la acción **Configuración avanzada**. En **Configuración avanzada**, la sección **Configuración manual** proporciona acceso a las páginas de configuración donde puede completar los campos de configuración para todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+Si un área no está cubierta por una configuración asistida, elija el icono ![Icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , y luego la acción **Configuración avanzada**. En **Configuración avanzada**, la sección **Configuración manual** proporciona acceso a las páginas de configuración donde puede completar los campos de configuración para todas las áreas manualmente. Para obtener más información, consulte también [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > La lista de guías de configuración asistida, las extensiones y los servicios que están disponibles varían según la experiencia del usuario que elija para la empresa. La experiencia **Esencial** ofrece menos acceso que la experiencia **Premium**.

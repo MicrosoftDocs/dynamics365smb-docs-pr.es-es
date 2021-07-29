@@ -1,5 +1,5 @@
 ---
-title: Agregar archivos adjuntos, vínculos y notas en los registros | Documentos de Microsoft
+title: Agregar archivos adjuntos, vínculos y notas en los registros
 description: Adjuntar un hipervínculo a un documento o un sitio Web a un registro específico, como un documento de cliente.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771140"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444748"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrar archivos adjuntos, vínculos y notas en fichas y documentos
 
@@ -38,7 +38,7 @@ Puede adjuntar cualquier tipo de archivo, que contenga texto, imagen o vídeo, a
 
 El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Abra el pedido de venta al que desea adjuntar un archivo.
 3. En el cuadro informativo, abra la pestaña **Anexos**.
 4. Elija el valor que va detrás del campo **Documentos**, como "0".
@@ -58,7 +58,7 @@ Siempre que necesite guardar un documento como un archivo, puede usar la acción
 
 El procedimiento siguiente se basa en un pedido de venta. Los pasos son similares para todos los documentos admitidos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione un pedido de ventas y después seleccione la acción **Adjuntar como PDF** .
 
 Se agrega un archivo PDF con el contenido actual del pedido de cliente a la pestaña **Archivos adjuntos** del cuadro informativo.
@@ -68,7 +68,7 @@ Puede añadir un enlace de una ficha o un documento a cualquier URL o ruta. Esto
 
 El procedimiento siguiente se basa en una ficha de producto. Los pasos son parecidos a los de las demás fichas y documentos admitidos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Seleccione el producto del que desea agregar un vínculo y luego elija la pestaña **Anexos** en el cuadro informativo.
 3. En **Vínculos**, elija el icono **+**.
 4. En el campo **Vincular dirección**, especifique el vínculo.
@@ -88,7 +88,7 @@ Puede escribir una nota en un documento o ficha, por ejemplo, para comunicar ins
 
 El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione el pedido de venta del en el que desea escribir una nota y luego elija la pestaña **Anexos** en el cuadro informativo.
 3. En la sección **Notas**, elija el icono **+**.
 4. En el campo **Nota**, escriba cualquier texto, por ejemplo, "Este pedido es urgente.".

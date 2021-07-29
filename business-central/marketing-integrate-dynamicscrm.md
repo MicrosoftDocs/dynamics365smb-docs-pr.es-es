@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985367"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444875"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Uso de Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[prod_short](includes/prod_short.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
@@ -115,7 +115,7 @@ En la experiencia de precios actual, [!INCLUDE[prod_short](includes/prod_short.m
     1. Acople los artículos para los que el grupo de precios del cliente establece los precios.
     2. En la página **Grupos de precios para clientes**, combine el grupo de precios de clientes seleccionando **Relacionados**, luego **Dynamics 365 Sales**, **Emparejamiento** y finalmente **Configurar emparejamiento**. El emparejamiento creará una lista de precios activa en [!INCLUDE[prod_short](includes/prod_short.md)] con el mismo nombre que el grupo de precios del cliente en [!INCLUDE[crm_md](includes/crm_md.md)] y sincronizará automáticamente todos los artículos para los que el grupo de precios del cliente define el precio.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Página de grupo de precios de clientes":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Página de grupo de precios de clientes.":::
 
 #### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ La nueva experiencia de precios sincroniza las listas de precios que cumplen con
 
 Para sincronizar listas de precios, en la página **Lista de precios de venta**, elija **Relacionados**, **Dynamics 365 Sales**, **Emparejamiento** y luego **Configurar acoplamiento**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Página de lista de precios de venta":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Página de lista de precios de venta.":::
 
 ---
 

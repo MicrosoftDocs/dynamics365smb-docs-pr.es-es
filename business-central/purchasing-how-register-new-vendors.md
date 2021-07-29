@@ -1,6 +1,6 @@
 ---
-title: Crear una ficha de proveedor para registrar un proveedor nuevo | Documentos de Microsoft
-description: Obtenga información sobre cómo crear una ficha de proveedor para registrar un nuevo proveedor.
+title: Crear una ficha de proveedor para registrar un proveedor nuevo
+description: En este tema, aprenda a crear una ficha de proveedor para registrar un nuevo proveedor y guardar fichas de proveedor como plantilla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f1028b91101f8faa38d4d4d5d2695ee498ff6d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772659"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445381"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 
@@ -40,7 +40,7 @@ Para registrar un nuevo proveedor, debe rellenar una ficha de proveedor. Puede e
 
 ### <a name="to-create-a-new-vendor-card"></a>Para crear una nueva ficha de proveedor
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.  
 2. En la página **Proveedores**, elija **Nuevo**.
 
     Si existe más de una plantilla de proveedor, se abre una página desde la que puede seleccionar una plantilla de proveedor. En ese caso, siga los dos pasos siguientes.

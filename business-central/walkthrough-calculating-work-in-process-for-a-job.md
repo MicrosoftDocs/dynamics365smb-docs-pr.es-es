@@ -1,6 +1,6 @@
 ---
 title: 'Tutorial: cálculo del trabajo en curso para un proyecto | Documentos de Microsoft'
-description: Con proyectos, puede programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con el uso de recursos en un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto.
+description: Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e26df80ecfc0c7921e4f06b3094ae81ae7c29e4
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216083"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445231"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
 
@@ -60,7 +60,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ### <a name="to-calculate-wip"></a>Para calcular WIP  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  En la lista **Proyectos**, seleccione el proyecto **Reno** y, después, seleccione **Editar**. Se abrirá la ficha de proyecto en modo edición.  
 
      WIP se puede calcular basándose en Valor coste, Valor venta, Coste ventas, Porcentaje completado o Contrato consumado. En este ejemplo, CRONUS utiliza el método de Valor del coste.  
@@ -92,7 +92,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ### <a name="to-review-wip-warnings"></a>Para revisar las advertencias WIP  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cabina WIP proyecto** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cabina WIP proyecto** y luego elija el enlace relacionado.  
 2.  Seleccione el proyecto **Reno** y, a continuación, seleccione la acción **Mostrar advertencias**.  
 3.  En la página **Advertencias WIP proyecto**, revisar la advertencia asociada con el proyecto.  
 

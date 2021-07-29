@@ -1,6 +1,6 @@
 ---
-title: Especificar el diseño de un cheque | Documentos de Microsoft
-description: Puede diseñar e imprimir los cheques en diferentes formatos para cumplir los estándares.
+title: Especificar el diseño de un cheque
+description: Puede diseñar e imprimir los cheques en diferentes formatos para cumplir los estándares establecidos por las autoridades locales.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24d046d9284797e371a9cca98ad68618bf248be7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781611"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444642"
 ---
 # <a name="select-a-check-layout"></a>Seleccionar una plantilla de cheques
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
@@ -23,7 +23,7 @@ Puede diseñar los cheques conforme a los estándares definidos por las autorida
 Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Estados Unidos y Canadá en un formato cheque-matriz-cheque o en un formato matriz-matriz-cheque.
 
 ## <a name="to-select-a-check-layout"></a>Para seleccionar una plantilla de cheques
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección informes banco** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección informes banco** y luego elija el enlace relacionado.
 2. En la página **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
 3. Seleccione uno de los identificadores de informes siguientes:
 
@@ -52,10 +52,10 @@ En la actualización 15.3 y posteriores, las fuentes de reconocimiento de caract
 ### <a name="micr-e-13b-specifications"></a>Especificaciones MICR E-13B
 A continuación se resumen las especificaciones para las fuentes MICR E-13B que pueden ser útiles al calibrar fuentes para que estén en diseños de cheques con impresoras MICR específicas.
 
-![Especificaciones MICR E-13B](media/font_MICR_E-13B_Specifications.png "Especificaciones MICR E-13B")
+![Especificaciones MICR E-13B.](media/font_MICR_E-13B_Specifications.png "Especificaciones MICR E-13B")
 
 ### <a name="delimiter-characters"></a>Caracteres delimitadores
-![Caracteres delimitadores](media/font-micr-letters.png "Caracteres delimitadores")
+![Caracteres delimitadores.](media/font-micr-letters.png "Caracteres delimitadores")
 
 La especificación completa de las fuentes MICR E-13B se puede encontrar en la documentación del proveedor aquí: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -69,17 +69,17 @@ Las siguientes fuentes CMC-7 están disponibles en línea en [!INCLUDE[prod_shor
 
 A continuación se resumen las especificaciones para las fuentes MICR CMC-7 que pueden ser útiles al calibrar fuentes para que estén en diseños de cheques con impresoras MICR específicas.
 
-![Especificaciones MICR CMC-7](media/font_MICR_CMC-7_Specifications.png "Especificaciones MICR CMC-7")
+![Especificaciones MICR CMC-7.](media/font_MICR_CMC-7_Specifications.png "Especificaciones MICR CMC-7")
 
 ### <a name="delimiter-characters"></a>Caracteres delimitadores
-![Caracteres delimitadores](media/font-cmc7-letters.png "Caracteres delimitadores")
+![Caracteres delimitadores para CMC-7.](media/font-cmc7-letters.png "Caracteres delimitadores para CMC-7")
 
 La especificación completa de las fuentes MICR CMC-7 se puede encontrar en la documentación del proveedor aquí: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Especificaciones de fuente segura
 A continuación se resumen las especificaciones para las fuentes de comprobación de seguridad que pueden ser útiles al calibrar fuentes para que estén en diseños de cheques con impresoras MICR específicas.
 
-![Verifique las especificaciones de fuentes de seguridad](media/font_check-security-font_Specifications.png "Verifique las especificaciones de fuentes de seguridad")
+![Verifique las especificaciones de fuentes de seguridad.](media/font_check-security-font_Specifications.png "Verifique las especificaciones de fuentes de seguridad")
 
 La especificación completa de las fuentes de comprobación de seguridad se puede encontrar en la documentación del proveedor aquí: (https://www.idautomation.com/security-fonts/).
 

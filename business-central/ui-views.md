@@ -1,6 +1,6 @@
 ---
-title: Guardar y personalizar vistas de lista | Documentos de Microsoft
-description: Aprenda a crear sus propias vistas de listas filtradas.
+title: Guardar y personalizar vistas de lista
+description: Aprenda a crear sus propias vistas para listas filtradas, así como a guardar, cambiar el nombre y administrar esas vistas.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017079"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445356"
 ---
 # <a name="save-and-personalize-list-views"></a>Guardar y personalizar vistas de lista
 Cuando haya establecido un filtro en una lista y desee conservar el filtro para más adelante, puede guardarlo como una vista. Para obtener más información sobre el filtrado de listas, consulte [Configuración de filtros en listas](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,9 +24,9 @@ Si existen vistas, el grupo **Vistas** aparece en la parte superior del panel de
 
 ## <a name="to-save-a-view"></a>Para guardar una vista
 1. Abre cualquier página de lista.
-2. Seleccione el ![icono Panel de filtroIcono Panel de filtro](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro.
+2. Seleccione el ![icono Panel de filtro.](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro.
 3. Establezca uno o más filtros nuevos. Para obtener más información, vea [Configuración de filtros en listas](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Cuando haya configurado los filtros, elija el icono ![Guardar vista](media/save_view_icon.png "Guardar vista").
+4. Cuando haya configurado los filtros, elija el icono ![Guardar vista.](media/save_view_icon.png "Guardar vista") .
 
     Si configura un filtro para una vista de lista que ya está guardada como vista, la vista existente se actualizará cuando la guarde.
 5. Si va a guardar una nueva vista, introduzca un nombre para la vista en el cuadro **Todos (copia)**, por ejemplo, "Elementos que poseo".
@@ -38,7 +38,7 @@ Si no le asigna un nombre, se llamará **Todos (copia)**.
 > ¿No ve el icono ![Guardar vista](media/save_view_icon.png "Guardar vista")? Para más información, vea [Por qué no tengo un icono de Guardar](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Para cambiar el nombre de una vista o eliminarla
-1. Para la vista que actualmente muestra la lista, elija el icono ![Mostrar más opciones](media/show-more-options-icon.png "Mostrar más opciones") para ver qué opciones están disponibles.
+1. Para la vista que muestra actualmente la lista, elija el icono ![Mostrar más opciones.](media/show-more-options-icon.png "Mostrar más opciones") para ver qué opciones están disponibles.
 2. Elija la acción **Cambiar nombre** o **Eliminar**.
 
 ## <a name="managing-many-views"></a>Administración de muchas vistas
