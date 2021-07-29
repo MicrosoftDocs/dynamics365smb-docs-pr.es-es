@@ -1,6 +1,6 @@
 ---
 title: Realizar seguimiento de productos seguidos
-description: Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las características Seguimiento de producto y Buscar movimientos.
+description: Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió, produjo o devolvió con las características Seguimiento de productos y Buscar movimientos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: bbfe0237beb58f22d3be7bc388d7b2726f05d4ba
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214758"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445631"
 ---
 # <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
 Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las características Seguimiento de producto y [Buscar movimientos](ui-find-entries.md).  
@@ -30,7 +30,7 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 
 ## <a name="to-trace-item-tracked-items"></a>Para controlar productos seguidos  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Seguimiento productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Seguimiento de productos**, y luego elija el enlace relacionado.  
 2.  En los campos de filtrado que aparecen en la parte superior de la página, introduzca los números de producto específicos o un filtro sobre los números de producto a los que desea realizar un seguimiento.  
 3.  En el campo **Mostrar componentes**, seleccione si desea visualizar también de dónde provienen los componentes para los productos. Las opciones de este campo son las siguientes.  
 
@@ -59,7 +59,7 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Para buscar productos marcados para seguimiento con Buscar movimientos  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Buscar movimientos** y luego seleccione el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Buscar movimientos** y, a continuación, elija el vínculo relacionado.  
 2. Escoja **Acciones** > **Buscar por** > **Buscar por referencia de producto**.
 3. En la ficha desplegable **N.º de serie** y **N.º de lote**, introduzca los números de seguimiento de productos de los que desea realizar un seguimiento.  
 4. Elija la acción **Buscar** para buscar todos los casos números de serie o de lote en la base de datos.  

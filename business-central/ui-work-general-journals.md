@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087724"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445481"
 ---
 # <a name="working-with-general-journals"></a>Trabajar con diarios generales
 
@@ -152,7 +152,7 @@ Cuando haya creado líneas de diario que probablemente vaya a volver a crear má
 >   El siguiente procedimiento se refiere al diario de productos, pero la información también se aplica al diario general.
 
 ### <a name="to-save-a-standard-journal"></a>Para guardar un diario estándar
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de productos**, y luego elija el enlace relacionado.
 2. Escriba una o varias líneas de diario.
 3. Selecciones las líneas del diario que desea reutilizar.
 4. Seleccione la acción **Guardar como diario estándar**.
@@ -168,7 +168,7 @@ Cuando haya terminado de guardar el diario de productos estándar, se muestra la
 
 ### <a name="to-reuse-a-standard-journal"></a>Para reutilizar un diario estándar
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de productos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de productos**, y luego elija el enlace relacionado.
 2. Seleccione la acción **Obtener diarios estándar**.
 
     Se abre la página Diarios productos estándar donde se muestran los códigos y las descripciones de todos los diarios de productos estándar.
@@ -205,7 +205,7 @@ Cualquier nueva numeración de los números de documento respetará las aplicaci
 
 El procedimiento siguiente se basa en la página **Diario general**, pero se aplica a todos los demás diarios que se basan en el diario general, como la ventana **Diario de pagos**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diarios generales** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado.
 2. Cuando esté listo para registrar el diario, elija la acción **Renumerar los números de documento**.
 
 Cuando sea necesario, los valores del campo **Nº documento** se cambian para que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Después de que se vuelven a numerar documentos, podrá registrar el diario.

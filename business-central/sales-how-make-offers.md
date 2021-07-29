@@ -1,6 +1,6 @@
 ---
-title: Crear una oferta de venta a un cliente
-description: Describe cómo crear una oferta de venta o un documento de solicitud de propuesta (RFQ) para registrar la oferta a un cliente para vender productos con determinadas condiciones.
+title: Crear ofertas de ventas
+description: Obtenga más información sobre cómo crear una oferta de venta o un documento de solicitud de propuesta (RFQ) para registrar la oferta a un cliente o cliente potencial para vender productos con determinadas condiciones.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,36 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a538b7099521b10227bf5aeaefad0a9c60971068
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115545"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543125"
 ---
 # <a name="make-sales-quotes"></a>Crear ofertas de ventas
 
-Puede crear una oferta de venta para registrar la oferta a un cliente para vender determinados productos según términos de entrega y pago determinados. Puede enviar la oferta de venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la oferta. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
+Puede crear una oferta de venta para registrar la oferta a un cliente o cliente potencial para vender determinados productos según términos de entrega y pago determinados. Puede enviar la oferta de venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la oferta. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 
-Mientras negocia con el cliente, puede cambiar y reenviar la oferta de venta el número de veces necesario. Cuando el cliente acepta la oferta, convierte la oferta de venta a una factura de venta o un pedido de venta en el que se procesa la venta. Para obtener más información, consulte [Facturar ventas](sales-how-invoice-sales.md) o [Vender productos](sales-how-sell-products.md).
+Mientras negocia con el cliente o cliente potencial, puede cambiar y reenviar la oferta de venta el número de veces necesario. Cuando el cliente acepta la oferta, convierte la oferta de venta a una factura de venta o un pedido de venta en el que se procesa la venta. Para obtener más información, consulte [Facturar ventas](sales-how-invoice-sales.md) o [Vender productos](sales-how-sell-products.md).
 
-Puede rellenar los campos de clientes en la oferta de venta de dos formas en función de si el cliente ya está registrado. Consulte los pasos 2 y 3 del siguiente procedimiento.
+En la mayoría de los casos, usted envía ofertas de ventas a posibles clientes. A menudo tiene una persona de contacto con la que negocia. Si aceptan su oferta, usted convierte la oferta de venta en un pedido y registra al posible cliente como cliente en [!INCLUDE [prod_short](includes/prod_short.md)]. En el siguiente procedimiento, nos centramos en contactos, pero también puede enviar ofertas a clientes existentes.  
 
 ## <a name="to-create-a-sales-quote"></a>Para crear una oferta de venta
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ofertas de venta** y luego elija el enlace relacionado.
-2. En el campo **Cliente**, escriba el nombre de un cliente existente.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ofertas venta** y, a continuación, elija el vínculo relacionado.
+2. Especifique el contacto o cliente al que desea enviar la oferta de venta.
 
-   Otros campos de la página **Oferta de venta** contienen información estándar del cliente seleccionado.  
+    - Si la oferta de venta es para un contacto existente, especifique el nombre en el **N.º contacto** .  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]
+        Si la oferta de venta es para un cliente existente, especifique el cliente en el campo **Cliente**.
+    - Si el contacto no está registrado, realice los pasos siguientes:
 
-    Muchos campos de la oferta de venta se rellenan con la información especificada en la nueva ficha de cliente.  
+        1. En el campo **N.º contacto** , elija el botón editar :::image type="icon" source="media/assist-edit-icon.png" border="false":::.
+        2. En el cuadro de diálogo sobre la selección del contacto, elija la acción **Nuevo** y luego complete los campos relevantes. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Para obtener más información, consulte [Crear contactos](marketing-create-contact-companies.md).  
+        3. Cuando haya completado la ficha de contacto, seleccione el contacto recién creado en la lista de contactos y luego elija el botón Aceptar para volver a la oferta de venta.
+
+        Muchos campos de la oferta de venta se rellenan con la información especificada en la nueva ficha de contacto.
+
+        > [!NOTE]
+        > Para calcular correctamente los impuestos y precios de una cotización, debe elegir la plantilla de cliente relevante en el campo **Código de plantilla de cliente**. La plantilla se utilizará para convertir el contacto en un cliente una vez que la cotización se convierta en una orden de venta o factura.
+    -  Si la cotización es para un nuevo cliente, debe agregar el cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
+
 3. Rellene los campos en la página **Oferta venta** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Ahora podrá rellenar las líneas de la factura de pedido de los productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.  
+    Ahora podrá rellenar las líneas de venta de los productos que vende al cliente o para cualquier transacción con el cliente o cliente potencial que desee registrar en una cuenta de contabilidad.  
 
     Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo un pedido de reabastecimiento mensual, puede insertar estas líneas en el pedido seleccionando la acción **Obtener líneas de venta periódicas**.  
 
@@ -59,7 +69,7 @@ Puede rellenar los campos de clientes en la oferta de venta de dos formas en fun
 7. Si desea ofrecer un descuento, introduzca un porcentaje en el campo **% Descuento línea**. El valor del campo **Importe de línea** se actualiza según corresponde.  
 
     Si hay configurados precios de producto especiales en la ficha desplegable **Precios venta y descuentos línea ventas** en la ficha del producto o en la del cliente, el precio y el importe de la línea de venta se actualizan automáticamente si se cumplen los criterios acordados para el precio. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).  
-8. Repita los pasos 4 a 7 para cada producto que desee ofertar al cliente.
+8. Repita los pasos 4 a 7 para cada producto que desee ofertar al contacto.
 
     Los totales por debajo de las líneas se calculan automáticamente cuando se crean o modifican las líneas.  
 9. En el campo **Importe descuento factura**, especifique un importe que se debe descontar del valor que aparece en el campo **Total impuesto incl.** en la parte inferior de la factura.
@@ -71,9 +81,18 @@ Puede rellenar los campos de clientes en la oferta de venta de dos formas en fun
 
 10. Cuando las líneas de la oferta de venta ya estén completas, seleccione la acción **Enviar por correo electrónico**.
 11. En la página **Enviar correo electrónico**, rellene los campos restantes y revise la oferta de venta incluida. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
-12. Si el cliente acepta la oferta, seleccione la acción **Generar factura** o **Realizar pedido**.
+12. Si el contacto acepta la oferta, elija la acción **Crear pedido**.  
 
-La oferta de venta se quita de la base de datos. Una factura de venta o un pedido de venta se crea a partir de la información en la oferta de venta en la que puede procesar la venta. En el campo **Nº oferta** de la factura de venta o pedido de venta, se muestra el número de la oferta de venta a partir de la que se creó. Para obtener más información, consulte [Facturar ventas](sales-how-invoice-sales.md) o [Vender productos](sales-how-sell-products.md).  
+    Alternativamente, si su organización prefiere ese proceso, elija la acción **Crear factura**.  
+    > [!NOTE]
+    > Si agregó un cliente en el paso 2, se le pedirá que confirme la conversión de la oferta en pedido.  
+    >
+    > Si agregó un contacto de un posible cliente en el paso 2, se le pedirá que siga los siguientes pasos:
+    >
+    >  - Convierta el contacto o posible cliente en un cliente eligiendo una de las plantillas de conversión de contactos. Para obtener más información, consulte [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Confirme la conversión de la oferta en pedido.
+
+La conversión elimina la oferta de venta de la base de datos. Una factura de venta o un pedido de venta se crea a partir de la información en la oferta de venta para que pueda procesar la venta. En el campo **Nº oferta** de la factura de venta o pedido de venta, se muestra el número de la oferta de venta a partir de la que se creó. Para obtener más información, consulte [Facturar ventas](sales-how-invoice-sales.md) o [Vender productos](sales-how-sell-products.md).  
 
 ## <a name="external-document-number"></a>Número de documento externo
 
@@ -84,6 +103,7 @@ La oferta de venta se quita de la base de datos. Una factura de venta o un pedid
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
+[Archivar documentos](across-how-to-archive-documents.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

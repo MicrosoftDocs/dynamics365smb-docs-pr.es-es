@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779812"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446395"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Asignación de tablas y campos para sincronizar
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -68,7 +68,7 @@ Los acoplamientos se pueden configurar automáticamente mediante los proyectos d
 Si no desea sincronizar todas la sfilas para una tabla de [!INCLUDE[prod_short](includes/cds_long_md.md)] o una tabla de [!INCLUDE[prod_short](includes/prod_short.md)] concreta, puede configurar filtros para limitar los datos que se sincronizan. Los filtros se configuran en la página **Lista de asignaciones de tablas de integración**.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>Para filtrar registros o filas para la sincronización  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignaciones de tablas de integración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignaciones de tabla de integración** y luego elija el enlace relacionado.
 
 2.  Para filtrar los registros de [!INCLUDE[prod_short](includes/prod_short.md)], establezca el campo **Filtro de tabla**.  
 
@@ -80,7 +80,7 @@ De manera predeterminada, solo los registros de [!INCLUDE[prod_short](includes/p
 Por ejemplo, el proyecto de sincronización de Dynamics 365 Sales VENDEDORES usa la asignación de tabla VENDEDORES. El proyecto de sincronización copia los datos de los usuarios de [!INCLUDE[prod_short](includes/cds_long_md.md)] en los de vendedores de [!INCLUDE[prod_short](includes/prod_short.md)]. Si configura la asignación de tabla para crear registros nuevos, para cada usuario de [!INCLUDE[prod_short](includes/cds_long_md.md)] que aún no está acoplado a un vendedor de [!INCLUDE[prod_short](includes/prod_short.md)], se crea una fila de vendedor en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Para crear registros nuevos durante la sincronización  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignaciones de tablas de integración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignaciones de tabla de integración** y luego elija el enlace relacionado.
 
 2.  En el movimiento de asignación de tabla de la lista, borre el campo **Sincronizar solo reg. emparejados**.  
 
@@ -96,7 +96,7 @@ Si instala la configuración de sincronización predeterminada, la mayoría de l
 -   **CDSACCOUNT** crea y sincroniza cuentas nuevas de [!INCLUDE[prod_short](includes/cds_long_md.md)] basándose en una cuenta de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Para especificar plantillas de configuración en una asignación de tabla  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignaciones de tablas de integración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignaciones de tabla de integración** y luego elija el enlace relacionado.
 
 2.  En el movimiento de asignación de tabla de la lista, en el campo **Código de plantilla de config. de tabla**, elija la plantilla de configuración que se utilizará para registros nuevos de [!INCLUDE[prod_short](includes/prod_short.md)].  
 

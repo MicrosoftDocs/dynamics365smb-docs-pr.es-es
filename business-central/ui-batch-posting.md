@@ -1,6 +1,6 @@
 ---
-title: Cómo registrar varios documentos al mismo tiempo | Documentos de Microsoft
-description: En lugar de registrar documentos individuales uno por uno, puede seleccionar varios documentos no registrados en una lista para el registro por lotes, ya sea para registro inmediato o programada para, por ejemplo, al final del día.
+title: Registrar varios documentos al mismo tiempo
+description: En lugar de registrar documentos individuales uno por uno, puede seleccionar varios documentos no registrados en una lista para su registro inmediato o programado por lotes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773635"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446052"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Registrar varios documentos al mismo tiempo
 
@@ -25,7 +25,7 @@ En lugar de registrar documentos individuales uno por uno, puede seleccionar var
 
 El siguiente procedimiento explica cómo registrar varios pedidos de compra inmediatamente. Los pasos son parecidos a todos los documentos de compra y venta.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.
 2. En la página **Pedidos de compra**, seleccione todos los pedidos que se registrarán:
 3. En el campo **N.º**, elija los tres puntos verticales para abrir el menú contextual y luego elija la acción **Seleccionar más**.
 4. Seleccione la casilla para todas las líneas que representan los pedidos que desea registrar al mismo tiempo.
@@ -36,7 +36,7 @@ El siguiente procedimiento explica cómo registrar varios pedidos de compra inme
 
 El siguiente procedimiento explica cómo registrar por lotes los pedidos de compra. Los pasos son similares para todos los documentos de compra y venta donde la acción **Registro por lotes** está disponible.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Pedidos de compra**, seleccione todos los pedidos que se registrarán:
 3. En el campo **N.º**, elija los tres puntos verticales para abrir el menú contextual y luego elija la acción **Seleccionar más**.
 4. Seleccione la casilla para todas las líneas que representan los pedidos que desea registrar al mismo tiempo.
@@ -53,7 +53,7 @@ Las colas de proyecto son una herramienta eficaz para programar la ejecución de
 
 El siguiente procedimiento explica cómo configurar el registro en segundo plano de los pedidos de ventas. Los pasos son parecidos para la compra.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
 2. En la página **Configuración de ventas y cobros**, seleccione la casilla de verificación **Registrar con cola de proyectoss**.
 3. Elija el campo **Cód. categoría cola proyectos** y especifique un código **SALESPOST**.
 
@@ -86,7 +86,7 @@ Alternativamente, puede posponer los registros para horas en que resulta adecuad
 
 El siguiente procedimiento muestra cómo configurar el informe **Reg. lotes pedidos venta** para que se registren automáticamente los pedidos de ventas a las 4:00 en días hábiles.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movs. cola proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de cola de proyectos** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. En el campo **Tipo objeto para ejecutar**, seleccione **Informe**.  
 4. En el campo **Id. objeto para ejecutar**, seleccione 296, **Reg. lotes pedidos venta**.

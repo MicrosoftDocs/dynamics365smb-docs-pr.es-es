@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cd52b20d23f0731f8409666d63380c1691bb0ba8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 975af7edaeebf165c93b034fc2a874c11ab2f7a9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788216"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446146"
 ---
 # <a name="export-vat-statements-in-text-format"></a>Exportar declaraciones de IVA en formato de texto
 Puede exportar una declaración de IVA en formato de texto y después enviarla electrónicamente a las autoridades fiscales.  
@@ -26,7 +26,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 ## <a name="to-export-a-vat-statement-in-text-format"></a>Para exportar declaraciones de IVA en formato de texto  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Generar archivo TXT**.  
 
     > [!IMPORTANT]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110959"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445977"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Uso de plantillas de Word para comunicaciones masivas
 Las plantillas de Microsoft Word pueden facilitar la comunicación masiva con entidades como clientes y proveedores. Por ejemplo, puede crear folletos para alertar a los clientes sobre una campaña de ventas, cartas para informar a los proveedores sobre una nueva directiva de compras o invitaciones para atraer contactos a un próximo evento.
@@ -38,7 +38,7 @@ Cuando está configurando la plantilla en Word, en la pestaña **Correspondencia
 Cuando su plantilla de Word esté lista, en la página **Plantillas de Word** puede elegir **Aplicar** para generar los documentos. Puede crear un documento que contenga secciones para cada entidad o dividir la operación para crear un nuevo documento para cada entidad.
 
 ## <a name="to-create-a-word-template"></a>Para crear una plantilla de Word
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Plantillas de Word** y luego elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de Word** y luego elija el enlace relacionado.
 2. Siga los pasos de la guía de configuración asistida. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Consulte también

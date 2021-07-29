@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870003"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446002"
 ---
 # <a name="create-number-series"></a>Crear numeración
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
@@ -60,7 +60,7 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 > Si necesita activar la numeración manual, por ejemplo, se han creado nuevas fichas de producto con un proceso de la migración de datos que ha ocultado el campo **Nº** de forma predeterminada, vaya a la página **Configuración del inventario** y elija el campo **Nº serie producto** para abrir y para definir las series numéricas relacionadas con **Numeración manual**.
 
 ## <a name="to-create-a-new-number-series"></a>Para crear una nueva serie numérica
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **N.º serie** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Nº series** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la línea nueva, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Seleccione la acción **Líneas**.
@@ -69,7 +69,7 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Para configurar dónde se usa una serie numérica
 El siguiente procedimiento muestra cómo configurar una serie numérica para el área de ventas. Los pasos son parecidos a los de otras áreas.
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ventas y cobros** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ventas y cobros** y, a continuación, elija el vínculo relacionado.
 2. En la página **Ventas y cobros**, en la ficha desplegable **Serie numérica**, seleccione la serie numérica que desee para cada ficha de ficha o documento.
 
 El número seleccionado se utilizará para rellenar el campo **Nº** en la ficha o el documento en cuestión, según la configuración que ha establecido en la línea de serie numérica.
@@ -77,7 +77,7 @@ El número seleccionado se utilizará para rellenar el campo **Nº** en la ficha
 ## <a name="to-create-relationships-between-number-series"></a>Para crear relaciones entre números de serie
 Si ha configurado más de un código de número de serie para el mismo tipo de información básica o transacciones, puede crear relaciones entre los códigos. Esta característica puede servirle de ayuda para decidir entre un código u otro cuando utilice un número.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **N.º serie** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Nº series** y luego elija el enlace relacionado.
 2. Seleccione la línea con las series numéricas que desea insertar para crear relaciones y, a continuación, elija **Relaciones**.
 3. En el campo **Código serie**, escriba el código del número de serie con el que desee relacionar la serie seleccionada en el paso 2.
 4. Agregue una línea para cada código que desee relacionar con el número de serie seleccionado.

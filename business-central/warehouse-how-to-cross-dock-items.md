@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12281a872317a7ba02eedfbc13365b1f5410acdf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6090a1b259dfc456f331118a30f0e25fbc712b6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782689"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445827"
 ---
 # <a name="cross-dock-items"></a>Productos de tránsito directo
 La funcionalidad de tránsito directo está disponible si ha configurado el almacén para requerir el proceso de recepción y ubicación.  
@@ -41,14 +41,14 @@ La aplicación no mantiene registros independientes de los productos de los que 
 
     Si utiliza zonas, cree una para sus ubicaciones de tránsito directo y seleccione el campo **Zona ubicac. tráns. directo**. Para obtener más información, consulte [Configure lugares para utilizar las ubicaciones](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacén** y, a continuación, elija el enlace relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicación** y luego elija el enlace relacionado.  
 3.  En la página **Ubicación**, seleccione la ubicación cuyo tránsito directo del almacén desee configurar y, a continuación, elija la acción **Editar**.  
 4.  En la ficha desplegable **Almacén**, seleccione la casilla **Utilizar tránsito directo** y rellene al campo **Calcular fecha vto. tráns. directo** con el periodo de tiempo que el sistema anticipará la búsqueda de oportunidades de tránsito directo.
 
     La opción **Utiliza tránsito directo** sólo está disponible si ha seleccionado los campos **Recepción requerida**, **Envío requerido**, **Picking requerido** y **Ubicación requerida**.  
 
 5.  Si utiliza ubicaciones, en la ficha desplegable **Zonas y Ubic.**, rellene el campo **Cód. ubicac. tránsito directo** con el código de la ubicación que desea utilizar como ubicación de tránsito directo genérica.  
-6.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ud. de almacenam.** y seleccione el enlace relacionado.  
+6.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ud. de almacenam.** y, a continuación, elija el vínculo relacionado.  
 7.  Para cada artículo o unidad de almacenamiento donde desea que se pueda realizar el tránsito directo, seleccione el artículo y, a continuación, elija la acción **Editar**.
 8. En la página **Ficha ud. de almacenam.**, active la casilla **Utilizar tránsito directo**.  
 
@@ -56,7 +56,7 @@ La aplicación no mantiene registros independientes de los productos de los que 
 >  La funcionalidad de tránsito directo sólo es posible si el almacén está configurado para requerir los procesos de recepción y ubicación.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Para realizar el tránsito directo de productos sin ver las oportunidades  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recepciones almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2.  Cree las recepciones de un almacén para un artículo que ha llegado y pueda probablemente tener tránsito directo. Para obtener más información, consulte [Recibir productos](warehouse-how-receive-items.md).  
 3.  Rellene el campo **Cdad. para recibir** y, a continuación, elija la acción **Calcular tránsito directo**.  
 
@@ -73,7 +73,7 @@ La aplicación no mantiene registros independientes de los productos de los que 
 7.  Para registrar los productos de tránsito directo que se van a ubicar y hacer disponible para picking, elija la acción **Registrar**.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Para realizar el tránsito directo de productos después de ver las oportunidades  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recepciones almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2.  Cree las recepciones de un almacén para un artículo que ha llegado y pueda probablemente tener tránsito directo. Para obtener más información, consulte [Recibir productos](warehouse-how-receive-items.md).  
 
     Debe ver las líneas del documento de origen que solicitan el artículo para poder registrar la recepción.  

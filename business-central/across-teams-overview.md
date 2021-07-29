@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074692"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446470"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Descripción general de Business Central y Microsoft Teams
 
@@ -33,11 +33,11 @@ La aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Teams ofrece
 
 Independientemente de dónde se encuentre en Teams, puede buscar detalles sobre clientes, proveedores y otros contactos de [!INCLUDE [prod_short](includes/prod_short.md)]. Esta característica no solo le permite ver información general sobre los contactos, sino que también le brinda acceso al historial de interacciones, documentos relacionados y mucho más.
 
- [![Buscar contactos de Business Central desde el cuadro de comando de Teams](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Buscar contactos de Business Central desde el cuadro de comando de Teams.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 También puede compartir detalles de contacto en una conversación. Desde ahí, los participantes también tienen acceso a más detalles sobre el contacto.
 
- [![Buscar contactos de Business Central desde el cuadro de redacción de Teams](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Buscar contactos de Business Central desde el cuadro de redacción de Teams.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Para obtener más información, consulte [Búsqueda de contactos de Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ Para obtener más información, consulte [Búsqueda de contactos de Microsoft Te
 
 Copie un vínculo a cualquier registro de Business Central y péguelo en una conversación de Teams para compartirlo con sus compañeros de trabajo. La aplicación expandirá el vínculo para convertirse en una tarjeta compacta e interactiva que muestra información sobre el registro.
 
-[![Integración de Teams con Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Integración de Teams con Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Una vez en la conversación, usted y sus compañeros de trabajo pueden ver más detalles sobre el registro, editar datos y tomar medidas, sin salir de Teams.
 
@@ -68,6 +68,7 @@ Para obtener más información, consulte [Compartir registros en Microsoft Teams
 
 [P+F de Teams](teams-faq.md)  
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
+[Cambiar la empresa y otras configuraciones en Teams](across-teams-settings.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

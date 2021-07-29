@@ -1,6 +1,6 @@
 ---
-title: Realizar picking para ensamblado o producción en una configuración básica de almacén
-description: Cuando el almacén requiere el proceso de picking, pero no el proceso de envío, utilice la página **Picking inventario** para organizar y registrar el picking de componentes.
+title: Seleccionar producción o ensamblaje en almacén básico
+description: Cuando el almacén requiere el proceso de picking, pero no el proceso de envío, utilice la página Picking inventario para organizar y registrar el picking de componentes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 005532799378248f67ff21b8e50955342ff1c24a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3827bb8ab272b38972c17d79933ce0aa187e32d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782614"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445802"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Realizar picking para ensamblado o producción en una configuración básica de almacén
 La forma de ubicar el picking de componentes para fabricación u órdenes de ensamblado depende de la configuración del almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).
@@ -43,7 +43,7 @@ Una condición previa del sistema para picking o traslado de componentes para lo
 ## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Para realizar el picking de componentes de producción en configuraciones de almacén básicas mediante el picking de inventario
 En configuraciones básicas de almacén en donde se configura la ubicación para utilizar picking, podrá escoger los componentes para las actividades de producción con la página **Picking inventario**. Para obtener más información, vea [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking de existencias** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking inventario** y luego elija el enlace relacionado.  
 2.  Para tener acceso a los componentes de la orden de producción, elija la acción **Traer doc. origen** y, a continuación, seleccione la orden de producción lanzada.  
 3.  Realice el picking y, a continuación, registre la información de picking real en el campo **Cdad. a manipular**.  
 4.  Cuando las líneas estén preparadas para registrar, elija la acción **Registrar**. El registro crea los movimientos de almacén necesarios y registra el consumo de los productos.  
@@ -81,12 +81,12 @@ En escenarios de combinación, donde parte de la cantidad debe ensamblarse prime
 ## <a name="filling-the-consumption-bin"></a>Rellenando la ubicación del consumo
 Este organigrama muestra cómo se rellena el campo de **Código de ubicación** en las líneas del componente de la orden de producción según la ubicación.
 
-![Diagrama de flujo de ubicación](media/binflow.png "BinFlow")
+![Diagrama de flujo de ubicación.](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

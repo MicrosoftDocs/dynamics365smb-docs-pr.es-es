@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216399"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543175"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Informes y análisis de compra en Business Central
 
@@ -24,8 +24,7 @@ La siguiente tabla describe algunos de los informes clave en los informes de com
 
 |Informe |Id. de objeto|Descripción  |
 |---------|---------|---------|
-|**Estadísticas compras**|312|Muestra las estadísticas de compra de cada proveedor. Esto incluye información para cinco períodos, comenzando en la fecha que especifique.<br>
-El informe incluye el total de compras, pagos, intereses e información de descuento, incluidos los descuentos por pronto pago obtenidos y perdidos. Las estadísticas se calculan para las compras anteriores a la fecha especificada, en tres intervalos de un mes a partir de la fecha indicada y para un período que incluye todas las compras realizadas después del tercer intervalo de un mes.|
+|**Estadísticas compras**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**Proveedor - Lista de los 10 mejores**|311|Muestra información de compras de proveedores durante un periodo determinado. Puede elegir el número de proveedores que desea incluir en el informe.<br>Los proveedores aparecen ordenados por importes, y, opcionalmente, pueden estar ordenados por importe de compras o por saldo. El informe ofrece una rápida visión de los proveedores a los que más se compra o a los que más se debe.|
 |**Catálogo de productos de proveedor** o **Catálogo de productos/proveedores**|320 o 720|Muestra una lista de proveedores para los productos seleccionados o productos para proveedores seleccionados. De cada combinación de producto y proveedor se indica el precio de compra, el plazo de entrega (días) y el código de producto del proveedor.<br>En EE. UU., Canadá y México, este informe no está disponible. En su lugar, utilice el informe **Catálogo de productos/proveedores** (10164).|
 |**Compras prov./producto**|313|Muestra una lista de los movimientos de productos por cada proveedor durante un periodo determinado. El informe contiene información sobre cantidad facturada, importes y posibles descuentos. Utilícelo, por ejemplo, para analizar compras de productos por parte de la empresa y para saber si existe alguna relación entre descuentos y compras de productos.|

@@ -1,18 +1,18 @@
 ---
-title: Ayuda y soporte técnico
+title: Recursos de ayuda y soporte técnico
 description: Encuentre ayuda, orientación, consejos para la resolución de problemas y asistencia sobre el producto, y aprenda cómo obtener soporte técnico para Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/09/2021
-ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.date: 07/09/2021
+ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115416"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543075"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -71,11 +71,20 @@ Asegúrese de buscar en la lista de sugerencias enviadas. Lo más probable es qu
 
 La sección **Solución de problemas** muestra a información técnica que su administrador o socio de [!INCLUDE[prod_short](includes/prod_short.md)] pueden utilizar para desbloquear usuarios. Esto incluye información sobre el último mensaje de error, la versión actual de su [!INCLUDE[prod_short](includes/prod_short.md)] y un vínculo para ir a la página **inspección de la página**. Para obtener más información, consulte [Inspección de páginas en Business Central](across-inspect-page.md).  
 
-Como administrador interno, tiene acceso al centro de administración donde puede continuar con la solución de problemas. Puede ver telemetría, administrar entornos y administrar sesiones de usuario. Para obtener más información, consulte [Encontrar información técnica](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) y [Administrar entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) en el contenido de administración.  
+Para ayudarlo a usted o a su socio de soporte a solucionar problemas, puede activar el inicio de sesión adicional en la sección **Informar sobre un problema**. A continuación, puede analizar la telemetría adicional en el centro de administración o Application Insights, por ejemplo.  
+
+Como administrador interno, tiene acceso al centro de administración donde puede continuar con la solución de problemas. Puede ver telemetría, administrar entornos y administrar sesiones de usuario. Los siguientes productos del contenido de administración proporcionan más información:
+
+- [Buscar información técnica](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Administrar entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Supervisión y análisis de la telemetría](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Habilitar envío de telemetría a Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## <a name="report-a-problem"></a>Informar sobre un problema
 
-Su socio distribuidor de [!INCLUDE[prod_short](includes/prod_short.md)] le ayudará con el soporte técnico. Esta sección le facilita ponerse en contacto con su socio distribuidor si ha enviado sus datos de contacto de soporte. Si su socio de [!INCLUDE[prod_short](includes/prod_short.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft. Para obtener más información, consulte [Escalar problemas de soporte a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) en el contenido de administración.  
+Su socio distribuidor de [!INCLUDE[prod_short](includes/prod_short.md)] le ayudará con el soporte técnico. Esta sección le facilita ponerse en contacto con su socio distribuidor si ha enviado sus datos de contacto de soporte. Si su socio de [!INCLUDE[prod_short](includes/prod_short.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
+
+Para obtener más información, consulte [Escalar problemas de soporte a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) en el contenido de administración.  
 
 > [!NOTE]
 > Esta sección solo está disponible si ha pagado una suscripción a [!INCLUDE[prod_short](includes/prod_short.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prod_short](includes/prod_short.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prod_short](includes/prod_short.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145). Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  

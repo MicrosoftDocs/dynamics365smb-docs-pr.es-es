@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea056bf4255cf557c711113854821f9dece17cad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771040"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445777"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Realizar picking para ensamblado o producción en una configuración avanzada de almacén
 En la configuración avanzada de almacén en donde se configura la ubicación para utilizar picking y envío, podrá escoger los componentes para las actividades de producción y de ensamblado con la página **Picking almacén**.  
@@ -40,7 +40,7 @@ Para crear pedidos de picking, para escenarios de extracción y de empuje, deben
 |Pedido de ensamblado|Cambie el estado a Lanzada.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Para realizar el picking de componentes desde la hoja de trabajo de picking  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo picking.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo picking** y luego elija el enlace relacionado.  
 2.  Elija la acción **Documentos almacén** y seleccione las líneas de componente del pedido de producción lanzado.  
 3.  Explore las líneas, ordénelas para asegurar un picking más eficaz y combínelas con otras líneas de hoja de trabajo si es necesario para ahorrar tiempo a los empleados.  
 4.  Elija la acción **Crear picking**.  
@@ -52,12 +52,12 @@ Si el área de operaciones internas, como un suelo de departamento de producció
 ## <a name="filling-the-consumption-bin"></a>Rellenando la ubicación del consumo
 Este organigrama muestra cómo se rellena el campo de **Código de ubicación** en las líneas del componente de la orden de producción según la ubicación.
 
-![Diagrama de flujo de ubicación](media/binflow.png "BinFlow")  
+![Diagrama de flujo de ubicación.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

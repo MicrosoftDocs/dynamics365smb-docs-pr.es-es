@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 98a8f91aa3c6b8c9b2c9348441ca369f34f73b88
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 195d94af6e34206c6107690b0fef499ccc8b2490
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882500"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446445"
 ---
 # <a name="changing-company-and-other-settings-in-teams"></a>Cambiar la empresa y otras configuraciones en Teams
 
@@ -27,16 +27,18 @@ Hay dos formas de abrir la página **Configuración**: 1) desde el cuadro de red
 
 1. Debajo del cuadro de redacción del mensaje, haga clic con el botón derecho en el icono de la aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] y, a continuación, seleccione **Configuración**.
 
-    ![Configuración de Business Central desde el cuadro de comando](media/teams-settings-message-box.png)
+    ![Configuración de Business Central desde el cuadro de comando.](media/teams-settings-message-box.png)
 
 2. Desde el cuadro de comando en la parte superior, busque **@Business Central**, seleccione **... (Mas opciones)** y, a continuación, **Configuración**.
 
-   ![Configuración de Business Central desde el cuadro de mensaje](media/teams-settings-command-box.png)
+   ![Configuración de Business Central desde el cuadro de mensaje.](media/teams-settings-command-box.png)
 
 ## <a name="see-also"></a>Consulte también
 
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  
+[Búsqueda de clientes, proveedores y otros contactos desde Microsoft Teams](across-search-contacts-teams.md)  
+[Compartir registros en Microsoft Teams](across-working-with-teams.md)  
 [P+F de Teams](teams-faq.md)  
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

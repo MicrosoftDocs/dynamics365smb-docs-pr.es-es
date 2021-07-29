@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e326a8c417ea0f9f90621c76274a4276e210dd37
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f57cfdd4dcb6cae24c5f2a1ee7de7f07a05db707
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770615"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445758"
 ---
 # <a name="post-and-print-all-transactions-for-a-period"></a>Registrar e imprimir todas las transacciones de un periodo
 Las empresas deben enviar los movimientos de transacciones de su negocio, agrupados por números de transacción, en un informe anual a la administración fiscal. Cada transacción de contabilidad debe tener un número secuencial para el ejercicio. Al registrar las transacciones, se asignarán números de transacción a los movimientos de contabilidad.  
 
 ## <a name="to-post-all-transactions-for-a-period"></a>Para registrar todas las transacciones de un periodo  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general**, y luego elija el enlace relacionado.  
 2.  Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -39,7 +39,7 @@ Las empresas deben enviar los movimientos de transacciones de su negocio, agrupa
 
 ## <a name="to-print-all-transactions-for-a-period"></a>Para imprimir todas las transacciones de un periodo  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Registro movs. contabilidad** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registro movs. contabilidad** y luego elija el enlace relacionado.  
 2.  Para definir el campo **Nº asiento periodo** para todos los movimientos de contabilidad del periodo en un orden secuencial, elija **Asignar nº asiento periodo**. .  
 3.  Seleccione los filtros apropiados.  
 4.  Elija el botón **Aceptar**.  

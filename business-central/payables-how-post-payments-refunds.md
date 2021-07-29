@@ -1,21 +1,21 @@
 ---
-title: Liquidar pagos a documentos relacionados y publicarlos | Documentos de Microsoft
-description: Describe cómo registrar los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes.
+title: Registrar pagos y reembolsos en diario de pagos
+description: Obtenga más información sobre cómo registrar pagos que realiza a los proveedores y reembolsos que realiza a los clientes en la página Diario de pagos.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782068"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543202"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrar pagos y reembolsos en el diario de pagos
 
@@ -37,16 +37,31 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Realizar pagos en el diario de pagos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra la sección de diario dedicada a los pagos.
-3. Si sabe a quién pagar o reembolsar, complete los campos manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Si sabe a quién pagar, complete los campos manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Para aplicar también el pago a la factura o abono relacionado, seleccione el campo **Liq. por n.º documento**, en la página **Aplicar movs. proveedor**, seleccione la factura o abono relevante, y luego elija el botón **Aceptar**.
 
     Muchos de los campos, como **Importe del documento** y **Fecha vencimiento**, ahora se rellenan con información del documento seleccionado.
 5. También puede usar la función **Proponer pagos a proveedores**. Toda la información aplicable y los importes también se ingresan en las líneas del diario. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
 
     Los mensajes le guiarán para completar correctamente los campos obligatorios.
-6.  Cuando se completen todas las líneas del diario de pagos, seleccione la acción **Registrar**.
+6. Cuando se completen todas las líneas del diario de pagos, seleccione la acción **Registrar**.
+
+
+## <a name="to-issue-a-refund-check"></a>Para emitir un cheque de reembolso
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
+2. En el campo **Tipo documento**, seleccione **Reembolso**.  
+3. En el campo **Número de documento externo**, utilice esto como referencia para el cheque de reembolso (por ejemplo, número de orden de devolución).  
+4. En el campo **Tipo mov.**, seleccione **Cliente**.  
+5. En el campo **Nº cuenta**, seleccione el número de cuenta del cliente al que se emitirá el cheque de reembolso.  
+6. En el campo **Importe**, introduzca el importe que quiere reembolsar.  
+7. En el campo **Tipo contrapartida**, seleccione **Cuenta bancaria**.  
+8. En el campo **Bal. Nº cuenta**, seleccione la cuenta bancaria de la que saldrá el cheque.  
+9. En el campo **Liq. por n.º documento** , seleccione los documentos que requieren un reembolso.  
+10. Cuando se completen todas las líneas del diario de pagos, elija la acción **Publicar / Imprimir**, luego elija la acción **Publicar e imprimir** y seleccione **Sí**.  
+  
 
 ## <a name="see-also"></a>Consulte también
 [Realizar pagos por cheque](payables-how-work-checks.md)  

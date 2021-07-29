@@ -1,6 +1,6 @@
 ---
-title: Configurar cuentas bancarias para realizar pagos electrónicos
-description: En Business Central, puede configurar cuentas bancarias para realizar pagos electrónicos.
+title: Cuentas bancarias para pagos electrónicos [ES]
+description: Aprenda a utilizar Business Central para configurar cuentas bancarias y cuentas bancarias de proveedores para realizar pagos electrónicos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48b9417048dc5ed91c080dfef2fb8e14f9d7e5c9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fe12b95bf8bd0b6d9f68635a9b37c51ff93fe785
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787312"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445746"
 ---
-# <a name="set-up-bank-accounts-for-electronic-payments"></a>Configurar cuentas bancarias para realizar pagos electrónicos
+# <a name="set-up-bank-accounts-for-electronic-payments-in-the-spanish-version"></a>Configurar cuentas bancarias para pagos electrónicos en la versión en español
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar cuentas bancarias para realizar pagos electrónicos.  
 
 ## <a name="to-set-up-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ficha banco proveedor** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Transferencia**, asegúrese de que los campos **CCC Cód. banco**, **CCC Cód. oficina**, **CCC Dígito control** y **CCC Nº cuenta** se rellenan correctamente.  
 3.  En la ficha desplegable **Transferencia**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -39,7 +39,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar cuenta
 
 ## <a name="to-set-up-vendor-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Ficha banco proveedor** y luego elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco proveedor** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **General**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

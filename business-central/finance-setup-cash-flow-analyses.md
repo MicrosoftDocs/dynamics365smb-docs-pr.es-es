@@ -1,6 +1,6 @@
 ---
-title: Configuración del análisis de flujo de efectivo | Documentos de Microsoft
-description: Configure los planes en el área de trabajo Cuentas como ayuda para analizar el flujo de dinero de su empresa, incluyendo gastos e ingresos, liquidez y recibos de efectivo menos los pagos en efectivo.
+title: Configuración del análisis de flujo de efectivo
+description: Utilice los gráficos del área de trabajo Cuentas para analizar el flujo de dinero de su empresa, incluyendo gastos e ingresos, liquidez y recibos de efectivo menos los pagos en efectivo.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: e197155f272d4435f838fbc67fb336f339c1a290
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783677"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446295"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de trabajo Contable:  
@@ -70,14 +70,14 @@ Para usar la guía de configuración asistida:
 
 1. En el área de trabajo Contable, en el gráfico **Previsión de flujo de efectivo**, elija la acción **Abrir configuración asistida**.  
 2. Rellene los campos en cada paso de la guía.  
-3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Previsión de flujo de efectivo**, y luego elija el enlace relacionado.
 4. En la página **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 Para usar un proceso manual:  
 
 1. En el área de trabajo Contable, busque **Configuración de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Expanda la ficha desplegable **Azure AI** y active la casilla **Azure AI habilitado**.  
-3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Previsión de flujo de efectivo** y luego elija el enlace relacionado.
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Previsión de flujo de efectivo**, y luego elija el enlace relacionado.
 4. En la página **Previsión de flujo de efectivo**, seleccione la acción **Recalcular previsión**.  
 
 > [!TIP]  
@@ -123,7 +123,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 3. Use su cuenta de Microsoft para iniciar sesión en un espacio de trabajo y, a continuación, copie el modelo.  
 4. Ejecute el modelo y como publíquelo como un servicio web.  
 5. Anote la URL de API y la clave de API. Usará estas credenciales para una configuración de flujo de caja.  
-6. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración flujos efectivo** y luego elija el enlace relacionado.  
+6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración flujos efectivo** y luego elija el enlace relacionado.  
 7. Expanda la ficha desplegable **Azure AI** y rellene los campos.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

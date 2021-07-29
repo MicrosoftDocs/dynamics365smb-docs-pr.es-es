@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1aabc8530265e61a15d0f1e4b4a4c6bb80b19913
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 57fdcc7fb5e5b5e4ef4664e23109cf3c28591db0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785227"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445752"
 ---
 # <a name="set-limits-for-due-dates"></a>Establecer límites para fechas de vencimiento
 Puede modificar los términos de pago para que tengan límites para la cantidad máxima de días que puede transcurrir entre una entrega y el pago correspondiente.  
@@ -26,7 +26,7 @@ Los límites legales del espacio entre su entrega y pago determinan cómo se cal
 
 ## <a name="to-set-limits-for-due-dates-on-payment-terms"></a>Para definir los límites para las fechas de vencimiento en términos de pago  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos de pago** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de pago** y luego elija el enlace relacionado.  
 2.  Seleccione el término de pago que desea modificar y, a continuación, en el campo **Nº máx. días hasta fecha vencimiento**, especifique el número de días naturales permitidos entre su entrega y el pago.  
 
 A continuación, debe asegurarse de especificar los términos de pago adecuados para sus clientes y proveedores públicos y privados. Cuando crea un documento para ese cliente o proveedor, la fecha de vencimiento del pago se calcula a partir del día en que el cliente recibió los artículos o servicios. A continuación, debe actualizar el campo **Fecha del documento** con la fecha del recibo. Por ejemplo, si actualiza una factura de ventas cuando se le informa de la entrega, la fecha de vencimiento se calcula en función de la nueva fecha del documento que especificó. La fecha de vencimiento calculada no puede superar el límite que especificó para el plazo de pago.  

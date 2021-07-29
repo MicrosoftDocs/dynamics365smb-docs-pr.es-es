@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776821"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446077"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Configuración de estados para órdenes y reparaciones de servicio
 
@@ -29,7 +29,7 @@ Antes de poder configurar un estado de reparación, debe establecer prioridades 
 
 ## <a name="to-set-up-service-status-priorities"></a>Para configurar prioridades de estado de servicio
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estado ped. servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estado de pedido de servicio** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione el estado de pedido de servicio para el que desea establecer la prioridad.  
 3. En el campo **Prioridad**, seleccione la prioridad que desea para el estado de pedido de servicio.  
 
@@ -37,7 +37,7 @@ Repita las tareas 2 y 3 hasta que haya establecido la prioridad de las cuatro op
 
 ## <a name="to-set-up-a-repair-status"></a>Para configurar un estado de reparación
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estado reparación** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estado de reparación** y luego elija el enlace relacionado.
 2. Cree un estado de reparación nuevo.  
 3. Rellene los campos **Código** y **Descripción**.  
 4. En el campo **Estado ped. servicio**, seleccione el estado de pedido para enlazar el estado de reparación. El campo **Prioridad** muestra la prioridad del estado de pedido de servicio seleccionado.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773844"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446220"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuración de códigos de origen y códigos de auditoría para pistas de auditoría
 
@@ -33,7 +33,7 @@ Cuando registra o ejecuta un trabajo por lotes, el programa adjunta automáticam
 
 ### <a name="to-define-source-codes"></a>Para definir códigos de origen
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Configuración códigos origen** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Configuración códigos origen** y luego elija el enlace relacionado.  
 
 2. En la ventana **Configuración del código fuente**, especifique el código fuente relevante para cada tipo de registro y trabajo por lotes.  
 
@@ -45,7 +45,7 @@ Puede querer cambiar un código de origen. Por ejemplo, quiere modificar el cód
 
 ### <a name="to-change-source-codes"></a>Para modificar códigos de origen
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Códigos de origen** y, a continuación, elija el vínculo relacionado.
+1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Códigos de origen** y luego elija el enlace relacionado.
 
 2. En la línea que contiene el código que debe modificarse, seleccione el código en el campo **Código**.
 
@@ -59,7 +59,7 @@ Los códigos de auditoría complementan los código de origen y se utilizan para
 
 ### <a name="to-set-up-reason-codes"></a>Para configurar códigos de auditoría
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Código de auditoría** y, a continuación, elija el vínculo relacionado.
+1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe")  , escriba **Códigos de auditoría** y luego elija el enlace relacionado.
 
 2. En la ventana **Códigos auditoría**, introduzca el primer código en el campo **Código**. En el campo **Descripción**, escriba un texto explicativo.
 
@@ -69,7 +69,7 @@ El siguiente procedimiento describe cómo agregar un código de auditoría a un 
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Para asignar códigos de auditoría a libros de diarios
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Libro diario general** y, a continuación, elija el vínculo relacionado.
+1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe")  , escriba **Libros diario general**, y luego elija el enlace relacionado.
 
 2. En la línea que contiene el libro del diario seleccionado, en el campo **Código de auditoría**, especifique el código relevante.
 

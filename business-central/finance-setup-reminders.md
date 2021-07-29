@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 06853911f5b2858fbde4ff5371971c86f2960543
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba76f1f48249de12af6dc99057a92ef6aaeef13a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783489"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446245"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurar términos y niveles de recordatorios.
 
@@ -30,7 +30,7 @@ Si los clientes tienen pagos vencidos, deberá decidir cómo y cuándo les envia
 
 ### <a name="to-set-up-reminder-terms"></a>Para configurar los recordatorios
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de recordatorios** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Para utilizar más de una combinación de recordatorios, configure un código para cada uno.
 
@@ -42,7 +42,7 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
 
 ### <a name="to-set-up-reminder-levels"></a>Para configurar los niveles de recordatorio
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de recordatorios** y luego elija el enlace relacionado.  
 2. En la página **Términos recordatorio**, seleccione la línea que incluya los términos para los que desea configurar niveles y, a continuación, elija la acción **Niveles**.  
 3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 

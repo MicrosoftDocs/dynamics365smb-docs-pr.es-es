@@ -1,6 +1,6 @@
 ---
-title: Marcar un enlace a una página o informe en su Área de trabajo | Microsoft Docs
-description: Obtenga información sobre cómo agregar un vínculo a su Área de trabajo.
+title: Marcador a una página o informe en Área de trabajo
+description: Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787482"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446027"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Marque una página o informe en su Área de trabajo
-Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo. Esto le permite alcanzar rápidamente su contenido favorito o tareas comerciales. Agrega el marcador desde la página o informe de destino, lo que significa la pantalla que quiera vincular en el Área de trabajo para abrir.
+Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo. Los marcadores le permiten alcanzar rápidamente su contenido favorito o tareas comerciales. Agrega el marcador desde la página o informe de destino, lo que significa la pantalla que quiera vincular en el Área de trabajo para abrir.
 
 El icono de marcador se muestra en la esquina superior derecha de una página y también en la ventana **Dígame** donde puede marcar de manera eficiente múltiples páginas o informes. Si ya existe un marcador para la página, el icono está oscuro y la información sobre herramientas indica "Marcado".
 
 ## <a name="to-bookmark-the-target-page"></a>Para marcar la página de destino
 1. Abra cualquier página para la que desee un vínculo en su área de trabajo.
-2. Elija el icono ![Marcador](media/ui_bookmark_icon.png "Marcador").
+2. Elija el icono ![Marcador.](media/ui_bookmark_icon.png "Marcador"). .
 
 Ahora se agrega un nombre de acción según la página al menú de navegación en su área de trabajo.
 
 ## <a name="to-bookmark-the-target-report"></a>Para marcar el informe de destino
 1. Abra cualquier solicitud de informe para la que desee un vínculo en su área de trabajo.
-2. Elija el icono ![Marcador](media/ui_bookmark_icon.png "Marcador").
+2. Elija el icono ![Marcador.](media/ui_bookmark_icon.png "Marcador") .
 
 Ahora se agrega un nombre de acción según el informe al menú de navegación en su área de trabajo.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Para marcar una página o un informe desde la ventana Avisarme
 1. Abra la ventana **Dígame** e introduzca, por ejemplo, **Pedidos de venta**.
-2. Pase el cursor sobre el resultado de búsqueda para la página o informe **Pedidos de venta** y luego elija el icono ![Marcador](media/ui_bookmark_icon.png "Marcador").
+2. Pase el cursor sobre el resultado de búsqueda para la página o informe **Pedidos de venta** y luego elija el icono ![Marcador](media/ui_bookmark_icon.png "Marcador") .
 
 Ahora se agrega un nombre de acción según la página o informe al menú de navegación en su área de trabajo.
 
@@ -60,7 +60,7 @@ La capacidad de marcar una página o un informe es una de las muchas funciones d
 - **¿Por qué no puedo marcar ciertas páginas o informes?**  
 No todas las páginas e informes se pueden agregar a favoritos. Cuando se ejecuta una página o un informe dentro de un contexto especial regido por la aplicación empresarial, no se muestra el icono de marcador. Por ejemplo, páginas que no se pueden encontrar en la ventana **Más información** pero se inician desde otro lugar no mostrará un icono de marcador. Del mismo modo, las páginas de solicitud de informes que solo se utilizan para recopilar filtros sin ejecutar el informe no mostrarán un icono de marcador.
 
-Ver detalles técnicos sobre [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) y [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+  Ver detalles técnicos sobre [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) y [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Al borrar mi personalización, ¿también se borrarán mis marcadores?**  
 Sí. Los marcadores residen en el menú de navegación. Si borra los cambios en el menú de navegación desde cualquier página, o borra toda la personalización en el Área de trabajo, todas sus nuevas acciones se eliminarán permanentemente.
@@ -77,6 +77,8 @@ Nº En este momento, no es posible agregar acciones para abrir XMLports desde la
 
 - **¿Se traducirán mis marcadores cuando cambie mi idioma en Business Central?**  
 Cuando se agrega una acción nueva, cualquier texto traducido que estaba disponible en ese momento se usará al marcar. Si se agrega texto traducido más tarde, la nueva acción no incluirá las traducciones más recientes.
+
+- **¿Por qué no puedo agregar texto en una página directamente después de abrirla con el marcador?**<br> Cuando se marca una página, la página siempre se abrirá en el modo de visualización desde el marcador &mdash;incluso si estaba en el modo de edición cuando se marcó como favorito. Si selecciona el icono **Realizar cambios en la página** ![Muestra el icono de lápiz para editar la página.](media/edit-pencil.png) le permitirá agregar texto en los campos que son editables.
 
 
 ## <a name="see-also"></a>Consulte también

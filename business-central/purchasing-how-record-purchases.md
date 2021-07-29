@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115845"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445506"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrar compras con facturas de compra
 
@@ -49,7 +49,7 @@ Puede rellenar los campos del proveedor en la factura de compra de dos maneras d
 
 A continuación se describe cómo crear una factura de compra. Los pasos son parecidos para un pedido de compra. La principal diferencia es que los pedidos de compra tienen campos y acciones adicionales para la gestión física de los artículos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.  
 2. En el campo **Proveedor**, escriba el nombre de un proveedor existente.
 
     Otros campos de la página **Factura de compra** se rellenarán con la información estándar del proveedor seleccionado. Si el proveedor no está registrado, realice los pasos siguientes:

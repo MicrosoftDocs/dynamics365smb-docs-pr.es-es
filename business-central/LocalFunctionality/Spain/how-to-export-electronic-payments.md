@@ -1,6 +1,6 @@
 ---
-title: Exportar pagos electrónicos
-description: En Business Central, puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.
+title: Cómo exportar pagos electrónicos [ES]
+description: En Business Central, puede utilizar las páginas siguientes para exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 7a216db636f7ccde2882ebf90707cf32de2b852f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91d1479c0babd90fe6657daa2f9a92fd39deb6b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781385"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446150"
 ---
-# <a name="export-electronic-payments"></a>Exportar pagos electrónicos
+# <a name="export-electronic-payments-in-the-spanish-version"></a>Exportar pagos electrónicos en la versión en español
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
 
 |Estándar de pago|Página desde la que exportar|  
@@ -32,7 +32,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimien
 
 ## <a name="to-export-electronic-payments-using-the-payment-orders-page"></a>Para exportar pagos electrónicos mediante la página Órdenes de pago  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de pago** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Órdenes pago** y luego elija el enlace relacionado.  
 2.  Seleccione los documentos que desea pagar.  
 3.  Seleccione la acción **Exportar a archivo**.  
 
@@ -62,7 +62,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimien
 
 ## <a name="to-export-electronic-payments-using-the-payment-journal-page"></a>Para exportar pagos electrónicos mediante la página Diario de pagos  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.  
 2.  Seleccione los documentos que desea pagar.  
 3.  Elija **Relacionado** > **Pagos** > **Pagos electrónicos** > **Exportar**.  
 
@@ -95,7 +95,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimien
 
 ## <a name="to-export-electronic-payments-from-the-cartera-module"></a>Para exportar los pagos electrónicos del módulo Cartera  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Orden pago - Exportar N34.1** y luego elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Orden pago - Exportar N34.1** y luego elija el enlace relacionado.  
 2.  Rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

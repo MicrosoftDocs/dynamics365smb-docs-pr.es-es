@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: a8ada1c8488e8c5dec581db98dccf02d89da21c3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216395"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543252"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Informes y análisis de ventas en Business Central
 
@@ -31,7 +31,7 @@ La siguiente tabla describe algunos de los informes clave en los informes de ven
 |**Cliente - Lista ventas**|119|Muestra las ventas a clientes durante un periodo. Utilícelo para informar a las autoridades fiscales y aduaneras. Puede elegir incluir sólo clientes cuyas ventas totales superen una cantidad mínima. También puede especificar si desea que el informe muestre detalles de direcciones de cada cliente.<br>El informe se basa en ventas registradas en DL de los movimientos de clientes. En la parte inferior del informe, se muestra el total de ventas en DL. El total se basa en los clientes que ha incluido en el informe, es decir, los clientes que están incluidos en los filtros de la ficha desplegable Cliente y cuyas ventas totales son mayores que la cantidad especificada en el campo **Importes (DL) mayores de** de la ficha desplegable **Opciones**.|
 |**Cliente - Saldo por fechas**|121|Muestra un saldo detallado para los clientes seleccionados. Use el informe al cierre de un periodo contable o ejercicio, por ejemplo.|
 |**Cliente - Balance comprobación**|129|Muestra un saldo detallado para los clientes seleccionados. Puede utilizar el informe para comprobar que el saldo de un grupo contable de clientes es igual que el saldo de la cuenta contable correspondiente en una fecha determinada. Use el informe al cierre de un periodo contable o ejercicio, por ejemplo. Si necesita una versión más detallada de este tipo de informe, utilice el informe **Balance de comprobación de los detalles del cliente** (104).|
-|**Estadísticas ventas**|112|Muestra, en DL, los importes relativos a ventas, beneficios, descuentos factura y descuentos de pago, así como el porcentaje de beneficio, de cada cliente. Se proporcionan los costes y los beneficios originales y actualizados. Los costes y beneficios originales son aquellos que se calcularon al realizar el registro, mientras que los actualizados reflejan los cambios en los costes originales de los productos en las ventas. El importe de ajuste de costes que se muestra en el informe es la diferencia entre el coste original y el coste actualizado.<br>Las cifras se agrupan en tres periodos. Puede seleccionar la longitud del periodo a partir de una fecha inicial. También existen columnas para importes anteriores y posteriores a los tres periodos. Utilice el informe para analizar las ganancias procedentes de un cliente específico y las tendencias de ganancias, por ejemplo. |
+|**Estadísticas ventas**|112|[!INCLUDE [reports-sales-statistics](includes/reports-sales-statistics.md)] |
 |**Disponib. reserva venta**|209|Muestra la disponibilidad de productos para su envío en documentos de venta. Determine el que el informe refleje el estado de cada documento o el de cada línea de venta. Cuando imprima el informe, también puede actualizar la cantidad disponible para enviar en el campo **Cdad. a enviar** de las líneas de venta. Luego, utilice el informe para determinar qué documentos va a imprimir.<br>También existe una función con la que puede establecer la cantidad de mercancías que se enviarán. **Nota**: Este informe no está disponible para la funcionalidad de almacén avanzada.|
 |**Estado envío almacén**|7313|Este informe se puede utilizar para todas las ubicaciones, donde el campo **Envío requerido** esté seleccionado. El informe **Estado de envío de almacén** muestra todos los documentos de envío de almacén no contabilizados, incluidos los almacenes, los códigos de ubicación, el estado del documento, las cantidades, etc. Este informe es perfecto para obtener una descripción general.|
 |**Listado picking almacén**|813|Muestra una lista de los pedidos de ventas en los que se incluye un producto determinado. Se proporciona la siguiente información de cada producto: la línea de pedido de venta con el nombre del cliente, el código de variante, el código de almacén, el código de ubicación, la fecha de entrega, la cantidad a enviar y la unidad. Por cada producto se totaliza la cantidad a enviar. El informe se puede utilizar cuando los productos se recogen del stock.<br>**Nota**: Este informe no está disponible para la funcionalidad de almacén avanzada.|
