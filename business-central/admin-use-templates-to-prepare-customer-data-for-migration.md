@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443159"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649892"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepararse para migrar datos del cliente con plantillas
 
@@ -124,6 +124,7 @@ Los registros cuyos datos se apliquen de esta forma se habrán completado, ya qu
 > [!NOTE]
 > Si los datos en las tablas del paquete de configuración contienen fechas, por ejemplo, fechas de registro en facturas, las fechas se consideran en la zona horaria especificada en [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Para crear un registro desde una plantilla de configuración
 
 Puede utilizar la estructura de datos que se incluye en las plantillas de datos para convertir la información en registros de la base de datos, uno a uno. Para ello, utilice la función **Crear instancia**. Se trata de una versión en miniatura del proceso de migración de datos y puede ser útil para la creación de un prototipo o el tratamiento de tareas más pequeñas de creación de datos.  
@@ -137,6 +138,15 @@ Los pasos siguientes ilustran cómo crear una ficha de producto de una plantilla
 5. Para revisar la nueva ficha de artículo, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 6. Abra la ficha de producto nueva.  
 7. Expanda diferentes fichas desplegables y verifique que la información fue creada correctamente en ellas.  
+
+## <a name="to-use-conversion-templates"></a>Para utilizar plantillas de conversión
+
+Puede convertir contactos en clientes, proveedores y empleados. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Para convertir un contacto en un cliente, proveedor o empleado
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, introduzca **Contactos** y después seleccione el contacto correcto. 
+2. En la tarjeta de contacto, seleccione **Acciones**, **Funciones** y después seleccione **Crear como cliente, proveedor, banco o empleado**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Procedimiento para usar una plantilla de configuración en un registro
 
@@ -152,6 +162,9 @@ El procedimiento siguiente se basa en una nueva ficha cliente.
 3. En la página **Plantillas cliente**, seleccione una de las plantillas y, a continuación, el botón **Aceptar**.  
 
 Los valores predeterminados de la plantilla de cliente seleccionada se introducen en la ficha de cliente.
+
+> [!NOTE]
+> No puede utilizar Aplicar plantilla para dejar en blanco los campos de clientes, proveedores y similares. En su lugar, debe utilizar la funcionalidad **Editar en Excel**. Para obtener más información, consulte [Editar en Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Consulte también
 

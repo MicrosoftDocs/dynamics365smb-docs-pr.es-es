@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/15/2021
+ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437892"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649817"
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
 En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -114,7 +114,27 @@ La opción **Directiva fabricación** define los pedidos adicionales que propond
 
 Si utiliza la opción **Fab-contra-existencias**, los pedidos solo afectan al producto en cuestión.  
 
-Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analizará la L.M. de producción del producto y creará propuestas de pedido vinculadas adicionales para los productos de nivel inferior que también se hayan definido como Fab-contra-pedido. Esto continúa siempre que haya productos de fabricación contra pedido en las estructuras de L.M. descendentes.  
+Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analizará la L.M. de producción del producto y creará propuestas de pedido vinculadas adicionales para los productos de nivel inferior que también se hayan definido como Fab-contra-pedido. Esto continúa siempre que haya productos de fabricación contra pedido en las estructuras de L.M. descendentes.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Utilice códigos de bajo nivel para gestionar la demanda derivada
+
+Utilice códigos de bajo nivel para hacer que la demanda derivada de componentes avance hasta los niveles inferiores de la L.M. Para obtener una explicación más detallada de esto, consulte [Prioridad de producto/Código de nivel bajo](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Puede asignar un código de nivel bajo a cada parte en la estructura del producto o la L.M. indentada. El nivel de ensamblado máximo final es el nivel 0, el último producto. Cuanto más alto sea el número de código de nivel bajo, más abajo estará el producto en la jerarquía. Por ejemplo, los productos finales tienen el código de bajo nivel 0 y las partes del producto que van al ensamblado del producto final tienen los códigos de bajo nivel 1, 2, 3, etc. El resultado es que la planificación de las partes de los componentes se coordina con las necesidades de todos los números de partes de niveles más altos. Cuando calcule un plan, la L.M. se despliega en la hoja de planificación y las necesidades brutas para el nivel 0 se pasan por los niveles de planificación como necesidades brutas para el próximo nivel de planificación.
+
+Seleccione el campo **Código dinámico de bajo nivel** para especificar si asignar y calcular inmediatamente códigos de bajo nivel para cada componente en la estructura del producto. Si tiene grandes cantidades de datos, esta función puede tener un efecto negativo en el rendimiento del sistema, por ejemplo durante el ajuste automático de costes. Tenga en cuenta que no es una función retroactiva, por lo que es una buena idea considerar con anticipación el uso de esta utilidad.
+
+Como alternativa al cálculo automático que se realiza de forma dinámica si el campo está seleccionado, puede ejecutar el trabajo por lotes **Calc. cód. nivel bajo** desde el menú **Fabricación** haciendo clic en **Diseño de producto**, **Calc. cód. nivel bajo**.
+
+> [!IMPORTANT]
+> Si no selecciona el campo **Código dinámico de nivel bajo**, debe ejecutar el trabajo por lotes **Calc. cód. nivel bajo** antes de calcular un plan de suministro (el trabajo por lotes **Calcular plan**).  
+
+> [!NOTE]
+> Aunque el campo **Código dinámico de nivel bajo** esté seleccionado, los códigos de nivel bajo de los productos componentes no cambiarán dinámicamente si se elimina o se define como no certificada una L.M. principal. Como resultado, puede que sea difícil agregar productos nuevos al final de la estructura de productos, ya que se podría superar el número máximo de códigos de nivel bajo. Por lo tanto, para estructuras de productos grandes que alcancen el límite del código de nivel más bajo, es recomendable ejecutar el trabajo por lotes de **Calcular código de nivel bajo** con frecuencia para mantener la estructura.  
+
+### <a name="optimize-low-level-code-calculation"></a>Optimizar cálculo de código de nivel bajo
+
+Seleccione el campo **Optimizar el cálculo de código de nivel bajo** para especificar que desea utilizar el nuevo método más rápido de cálculo de código de bajo nivel. Tenga en cuenta que el nuevo cálculo se realiza de manera diferente y su uso podría romper extensiones que dependen del método existente. El nuevo método de cálculo reemplazará al método actual en una versión futura.
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   

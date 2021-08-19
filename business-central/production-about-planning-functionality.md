@@ -1,6 +1,6 @@
 ---
-title: Acerca de la funcionalidad de planificación | Documentos de Microsoft
-description: El programa de planificación tiene en cuenta todos los datos del aprovisionamiento y la demanda, cuadra el resultado y genera sugerencias para hacer que el aprovisionamiento satisfaga la demanda.
+title: Sobre la funcionalidad de la planificación
+description: El programa de planificación en Dynamics 365 Business Central tiene en cuenta todos los datos del aprovisionamiento y la demanda, cuadra el resultado y genera sugerencias para hacer que el aprovisionamiento satisfaga la demanda.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782043"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636021"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 
@@ -37,9 +37,12 @@ Otro objetivo del sistema de planificación es el de garantizar que las existenc
 
 ## <a name="planning-calculation"></a>Cálculo de la planificación
 
-El programa de planificación está controlado por la demanda, estimada y real, de los clientes, además de los parámetros de reaprovisionamiento de existencias. Si se ejecuta el cálculo de la planificación, la aplicación sugerirá acciones concretas (mensajes de acción) que se deben emprender en relación con una posible reposición de los proveedores, transferencias entre almacenes, o producción. Si ya hay pedidos de reposición, las acciones sugeridas pueden ser aumentar o acelerar los pedidos para satisfacer los cambios de la demanda.  
+El programa de planificación está controlado por la demanda, estimada y real, de los clientes, además de los parámetros de reaprovisionamiento de existencias. Si se ejecuta el cálculo de la planificación, la aplicación sugerirá acciones concretas ([Mensajes de acción](production-how-to-run-mps-and-mrp.md#action-messages)) que se deben emprender en relación con una posible reposición de los proveedores, transferencias entre almacenes, o producción. Si ya hay pedidos de reposición, las acciones sugeridas pueden ser aumentar o acelerar los pedidos para satisfacer los cambios de la demanda.  
 
 La base de la rutina de planificación es el cálculo bruto-neto. Las necesidades netas controlan la emisión de pedidos planificados, que se programan en función de la información sobre rutas (productos fabricados) o el plazo de seguridad de la ficha de producto (productos comprados). Las cantidades de los pedidos planificados se basan en el cálculo de la planificación y se ven afectadas por los parámetros definidos en cada una de las fichas de producto.  
+
+> [!TIP]
+> El programa de planificación se basa en cómo su organización utiliza los almacenes. Para obtener más información, consulte [Planificación con o sin almacenes](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planificación con pedidos de transferencia manuales
 

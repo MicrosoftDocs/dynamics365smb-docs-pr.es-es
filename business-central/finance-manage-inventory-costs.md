@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321892"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688348"
 ---
 # <a name="managing-inventory-costs"></a>Gestión de costes de inventario
 La gestión de costes, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costes operativos de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.   
@@ -37,7 +37,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Utilice funciones especiales de cálculo de costes para las transacciones de artículos diarios en las operaciones del elemento.|[Administración de existencias y costes de fabricación](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Actualice periódicamente los costes estándar de los componentes, en ensamblados o L.M. de producción, y distribuya los nuevos costes al producto principal.|[Actualizar costes estándar](finance-how-to-update-standard-costs.md)|
 |Consulte y modifique manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|
-|Realizar tareas de control e informes de final de periodo, como calcular el valor de existencias y registrar costes en la contabilidad.|[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
+|Realizar tareas de control e informes de final de periodo, como calcular el valor de existencias y registrar costes en la contabilidad.|[Creación de informes de costes y conciliación con la contabilidad](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el coste de inventario o conciliarlo con la contabilidad a un segundo plano.|[Ajustar y conciliar el coste de inventario con la contabilidad con cola de proyectos](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Consulte también  
  [Finanzas](finance.md)  

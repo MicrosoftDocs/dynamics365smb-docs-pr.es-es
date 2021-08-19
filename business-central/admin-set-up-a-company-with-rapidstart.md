@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325426"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649792"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Configurar una empresa con RapidStart Services
 Puede configurar una nueva empresa en [!INCLUDE[prod_short](includes/prod_short.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas.  
@@ -42,7 +42,7 @@ Puede utilizar los componentes siguientes para agilizar la configuración de su 
 |Definir y validar los valores de configuración de su cliente para todas las áreas centrales, como la información de la empresa, la contabilidad, el inventario, las ventas o la fabricación.|[Recopilación de valores de configuración de cliente](admin-gather-customer-setup-values.md)|  
 |Configure registros de datos maestros básicos mediante plantillas para prepararse para migrar los datos existentes de clientes.|[Preparar migración de datos de cliente](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Defina las tablas y campos, valide los datos existentes de clientes y migre los datos en la base de datos de [!INCLUDE[prod_short](includes/prod_short.md)].|[Migrar datos del cliente](admin-migrate-customer-data.md)|
-|Prepárese para reutilizar las configuraciones de la empresa en otras empresas.|[Crear paquetes de configuración de empresa personalizados](admin-how-to-create-custom-company-configuration-packages.md)|
+|Prepárese para reutilizar las configuraciones de la empresa en otras empresas (en el contenido de desarrollador y administración).|[Crear paquetes de configuración de empresa personalizados](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Busque soluciones para problemas conocidos en el kit de herramientas de RapidStart Services.|[Sugerencias y trucos: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Consulte también  

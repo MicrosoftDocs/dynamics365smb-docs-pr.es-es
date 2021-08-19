@@ -7,19 +7,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2021
+ms.search.keywords: multiple currencies, foreign exchange rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444442"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660211"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Configurar una divisa de informes adicional
 
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan revisar y crear informes de datos financieros en más de una divisa.
+
+> [!NOTE]  
+> Si está buscando información en tiempo real sobre tipos de cambio (FX) o tipos de cambio históricos, en [!INCLUDE[prod_short](includes/prod_short.md)] la encontrará como divisa. Además de este artículo, consulte también [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md).
+
 
 La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA.
 

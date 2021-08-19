@@ -1,8 +1,6 @@
 ---
-title: Analizar real frente a presupuesto
+title: Analizar importes reales frente a importes presupuestados
 description: Este tema describe cómo analizar los importes reales frente a los importes presupuestados como un medio para recopilar, analizar y compartir los datos de su empresa.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2bbdce7c34160ffc1eefc7e398574db8b642b657
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437106"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688283"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analizar importes reales frente a importes presupuestados
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos.

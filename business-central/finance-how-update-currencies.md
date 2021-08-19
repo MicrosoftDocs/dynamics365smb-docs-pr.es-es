@@ -1,18 +1,18 @@
 ---
 title: Actualizar tipos cambio divisa
-description: Realice un seguimiento de los importes en diferentes divisas utilizando códigos de divisa y deje que Business Central le ayude a ajustar los tipos de cambio de los movimientos registrados con un servicio externo.
+description: Realice un seguimiento de los importes en diferentes divisas utilizando códigos de divisa y deje que Business Central le ayude a ajustar los tipos de cambio FX de los movimientos registrados con un servicio externo.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441627"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660186"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 
@@ -29,6 +29,9 @@ La contabilidad se configura con la divisa local (DL), pero también se puede co
 > Si desea utilizar una divisa de informes adicional para informes financieros, asegúrese de comprender las limitaciones. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Divisas
+
+> [!NOTE]  
+> Si está buscando información en tiempo real sobre tipos de cambio (FX) o tipos de cambio históricos, en [!INCLUDE[prod_short](includes/prod_short.md)] la encontrará como divisa. Además de este artículo, consulte también [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
 
 Especifique los códigos de moneda en **Divisas**, incluida la información adicional y los ajustes necesarios para cada código de divisa.
 

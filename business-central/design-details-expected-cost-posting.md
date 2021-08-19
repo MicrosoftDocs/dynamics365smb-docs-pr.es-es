@@ -1,5 +1,5 @@
 ---
-title: 'Detalles de diseño: Advertencia registro coste esperado | Documentos de Microsoft'
+title: 'Detalles de diseño: Registro de coste previsto'
 description: Los costes previstos representan la estimación, por ejemplo, del coste de un producto comprado registrado antes de recibir la factura de este producto.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 181b0168dc73aba7bb4d09b7cda7a2ce7028e142
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215283"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649842"
 ---
 # <a name="design-details-expected-cost-posting"></a>Detalles de diseño: Registro de coste previsto
 Los costes previstos representan la estimación, por ejemplo, del coste de un producto comprado registrado antes de recibir la factura de este producto.  
@@ -29,10 +29,22 @@ Los costes previstos representan la estimación, por ejemplo, del coste de un pr
 
  Para respaldar el trabajo de conciliación y trazabilidad, el movimiento de valoración facturado muestra el importe del coste previsto que se ha registrado para cuadrar las cuentas provisionales.  
 
-## <a name="example"></a>Ejemplo  
- En el ejemplo siguiente se muestra el coste previsto si las casillas **Variación existencias automát.** y **Regis. cte. previsto en contab.** se seleccionan en la página **Configuración de inventario**.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Requisitos previos para registrar los costes previstos
 
- Registra un pedido de compra como recibido. El coste previsto es de 95,00 DL.  
+Para que sea posible registrar los costos previstos, debe hacer lo siguiente:
+1. En la página **Configuración de inventario**, seleccione la casilla **Registro automático de costes** y la casilla **Regis. cte. previsto en contab.**
+2. Configure qué cuentas provisionales usar durante el proceso de registro de costes previstos.  
+
+  En la página **Configuración de registros de inventario**, verifique los campos **Cuenta de inventario** y **Cuenta de inventario (provisional)** para el **Código de almacén y Código de grupo de registros de inventario** del artículo que va a comprar. Para obtener más información sobre estas cuentas, consulte [Detalles de diseño: Cuentas en Contabilidad](design-details-accounts-in-the-general-ledger.md).
+3. En la página **Config. grupo contable general**, verifique el campo **Cuenta de ajuste de inventario (provisional)** para el **Grupo contable empresarial general** y el **Grupo contable de producción general** que va a usar.
+4. Cuando crea una orden de compra, el valor predeterminado es que se requiere el **Número de factura del proveedor**. Debe desactivarlo en la página **Configuración de compras y pagos**, anulando la selección del campo **Número de documento ext. obligatorio**.
+
+## <a name="example"></a>Ejemplo:  
+
+> [!NOTE]  
+> Los números de cuenta que se utilizan en este ejemplo son solo de referencia y serán diferentes en su sistema. Configúrelos como se indica en los Requisitos previos anteriores.
+
+Registra un pedido de compra como recibido. El coste previsto es de 95,00 DL.  
 
  **Valor mov.**  
 
@@ -73,7 +85,7 @@ Los costes previstos representan la estimación, por ejemplo, del coste de un pr
 
  **Movs. contabilidad**  
 
-|Fecha registro|Cuenta|Nº cuenta (demostración En-US)|Importe|Nº mov.|  
+|Fecha reg.|Cuenta|Número de cuenta (¡solo ejemplos!)|Importe|Nº mov.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |15-01-20|Cuenta de ajuste de inventario (provisional)|5530|95,00|4|  
 |15-01-20|Cta. inventario (provisional)|2131|-95,00|3|  

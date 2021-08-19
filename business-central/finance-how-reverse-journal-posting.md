@@ -1,5 +1,5 @@
 ---
-title: Deshacer un registro registrando el movimiento de reversión | Documentos de Microsoft
+title: Deshacer un registro registrando el movimiento de reversión
 description: Si ha realizado un registro erróneo en el diario general, puede utilizar la función Revertir transacción para deshacer el registro con un seguimiento de auditoria correcto.
 services: project-madeira
 documentationcenter: ''
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444467"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660161"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Revertir los registros de diario y deshacer los recibos/envíos
-Para deshacer un registro erróneo del diario, seleccione un movimiento y cree un movimiento de reversión (movimientos idénticos al original, pero con el signo contrario en el campo de importe) con el mismo número de documento y la misma fecha de registro que el movimiento original. Después de revertir un movimiento, debe registrar el movimiento correcto.
+Revertir los registros de diario no solo se utilizan para corregir errores, sino que también se pueden utilizar para borrar un movimiento de ajuste antiguo antes de introducir uno nuevo, por ejemplo. Tiene que seleccionar un movimiento y crear un movimiento de reversión (movimientos idénticos al original, pero con el signo contrario en el campo de importe) con el mismo número de documento y la misma fecha de registro que el movimiento original. Después de revertir un movimiento, debe registrar el movimiento correcto.
 
 Solo se pueden revertir los movimientos que están registrados desde una línea del diario general. Un movimiento solo se puede revertir una vez.
 

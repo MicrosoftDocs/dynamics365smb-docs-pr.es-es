@@ -1,5 +1,5 @@
 ---
-title: Cómo preparar un paquete de configuración
+title: Preparar un paquete de configuración
 description: Aprenda ahora a preparar un paquete de configuración RapidStart que puede ayudarlo a establecer nuevas empresas basadas en datos existentes.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440729"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660236"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 
@@ -74,8 +74,20 @@ Especifique los campos que se incluyen en el paquete. De manera predeterminada, 
     - Para seleccionar solo los campos que desee incluir, elija la acción **Borrar incluido**. Para agregar todos los campos, elija la acción **Establecer incluidos**.  
     - Para especificar que los datos de campo no deben validarse, desactive la casilla **Validar campo** del campo.  
 
-10. Determine si ha introducido errores potenciales y elija la acción **Validar paquete**. Esto puede suceder cuando no incluye tablas en las que depende la configuración.  
-11. Elija el botón **Aceptar**.  
+10. Opcionalmente, para aplicar filtros de procesamiento en los datos de la tabla o para agregar una codeunit con cualquier código que desee incluir en el paquete, elija la línea para la tabla pertinente y luego elija la acción **Reglas de procesamiento**.
+
+    1. En la página **Config. Reglas de procesamiento de tablas**, rellene los campos. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Para aplicar filtros a los datos, especifique la acción pertinente en el campo **Acción**, elija la acción **Filtros de procesamiento** y luego rellene los campos.  
+
+            Por ejemplo, los paquetes de configuración de Microsoft para las empresas de evaluación establecen filtros de procesamiento en las tablas **Encabezado de ventas** y **Encabezado de compras**.
+        - Para agregar una codeunit de procesamiento, especifíquela en el campo **ID de codeunit de procesamiento personalizado**.
+
+          > [!NOTE]
+          > Esta codeunit debe tomar la tabla 8614 *Config. Registro de paquete* como parámetro en el método `OnRun`.
+    2. Cierre la página.
+11. Determine si ha introducido errores potenciales y elija la acción **Validar paquete**. Esto puede suceder cuando no incluye tablas en las que depende la configuración.  
+12. Elija el botón **Aceptar**.  
 
 Cuando haya ajustado la lista de campos que se deben incluir de una tabla, puede comprobar los resultados en Excel.  
 
