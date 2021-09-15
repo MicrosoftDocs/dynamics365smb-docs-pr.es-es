@@ -6,19 +6,19 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543050"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482175"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrar el almacenamiento eliminando documentos o comprimiendo datos
 
 Un rol central, como el administrador de aplicaciones, debe eliminar o comprimir periódicamente los documentos históricos para gestionar su acumulación.  
 
 > [!TIP]
-> Para obtener información sobre otras formas de reducir la cantidad de datos almacenados en una base de datos, consulte [Reducción de datos almacenados en bases de datos de Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) en la ayuda para desarrolladores y profesionales de TI.
+> Para obtener información sobre otras formas de reducir la cantidad de datos almacenados en una base de datos, consulte [Reducción de datos almacenados en bases de datos de Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) en la documentación para desarrolladores y profesionales de TI.
 
 ## <a name="delete-documents"></a>Eliminar documentos
 
@@ -34,7 +34,13 @@ Sin embargo, los pedidos de servicio no se eliminarán de forma automática si l
 
 ## <a name="compress-data-with-date-compression"></a>Comprimir datos con compresión de datos
 
-Puede comprimir datos en [!INCLUDE [prod_short](includes/prod_short.md)] para ahorrar espacio en la base de datos, lo que en [!INCLUDE [prod_short](includes/prod_short.md)] en línea también puede ahorrarle dinero. La compresión se basa en fechas y trabajos, fusionando diversos movimientos antiguos en uno solo. Solo podrá comprimir los movimientos de los ejercicios que ya estén cerrados y solo movimientos en los que el campo **Abrir** esté establecido en **No**.  
+Puede comprimir datos en [!INCLUDE [prod_short](includes/prod_short.md)] para ahorrar espacio en la base de datos, lo que en [!INCLUDE [prod_short](includes/prod_short.md)] en línea también puede ahorrarle dinero. La compresión se basa en fechas y trabajos, fusionando diversos movimientos antiguos en uno solo. 
+
+Puede comprimir entradas en las siguientes condiciones:
+
+* Son de años fiscales cerrados
+* El campo **Abrir** se establece en **No**. 
+* Tienen al menos cinco años. Si desea comprimir datos que tengan menos de cinco años, comuníquese con su socio de Microsoft.
 
 Por ejemplo, los movimientos de proveedores de ejercicios anteriores se pueden comprimir, de forma que sólo haya una entrada al haber y otra al debe cada mes. El importe del nuevo movimiento es la suma de todos los movimientos comprimidos. La fecha asignada es la inicial del periodo que se ha comprimido, como el primer día del mes (si los movimientos están comprimidos por meses). Después de la compresión, aún podrá ver el saldo del periodo de cada cuenta del ejercicio anterior.
 
@@ -55,16 +61,17 @@ Cuando define criterios para la compresión, puede utilizar las opciones de **Gu
 
 Después de la compresión, siempre se retiene el contenido de los siguientes campos: **Fecha de registro**, **N.º proveedor**, **Tipo de documento**, **Código de divisa**, **Grupo contable**, **Importe**, **Importe pendiente**, **Importe inicial (DL)**, **Importe pendiente (DL)**, **Importe (DL)**, **Beneficio (DL)**, **Dto. factura (DL)**, **Dto. P.P (DL)** y **Posible descuento P.P.**.
 
-> [!NOTE]
-> Las entradas comprimidas se publican de forma ligeramente diferente a la publicación estándar. Esto es para reducir el número de nuevos movimientos de contabilidad creados por la compresión de fechas, y es especialmente importante cuando mantiene información como dimensiones y números de documentos. La compresión de fechas crea nuevas entradas de la siguiente manera:
->* En la página **Movimientos de contabilidad**, se crean nuevas entradas con nuevos números de entrada para las entradas comprimidas. El campo **Descripción** contiene **Comprimido por fechas** para que las entradas comprimidas sean fáciles de identificar. 
->* En las páginas del libro mayor, como la página **Movimientos de contabilidad**, se crean uno o más movimientos con nuevos números de movimientos. 
-> El proceso de contabilización crea espacios en la serie de números para las entradas de la página **Movimientos de contabilidad**. Esos números se asignan solo a las entradas en las páginas del libro mayor. El rango de números que se asignó a los movimientos está disponible en la **Página de registro de P/G**, en los campos **Desde el número de movimiento** y **Hasta el número de movimiento**. 
+## <a name="posting-compressed-entries"></a>Publicar entradas comprimidas
+Las entradas comprimidas se publican de forma ligeramente diferente a la publicación estándar. Esto es para reducir el número de nuevos movimientos de contabilidad creados por la compresión de fechas, y es especialmente importante cuando mantiene información como dimensiones y números de documentos. La compresión de fechas crea nuevas entradas de la siguiente manera:
+* En la página **Movimientos de contabilidad**, se crean nuevas entradas con nuevos números de entrada para las entradas comprimidas. El campo **Descripción** contiene **Comprimido por fechas** para que las entradas comprimidas sean fáciles de identificar. 
+* En las páginas del libro mayor, como la página **Movimientos de contabilidad**, se crean uno o más movimientos con nuevos números de movimientos. 
+
+El proceso de contabilización crea espacios en la serie de números para las entradas de la página **Movimientos de contabilidad**. Esos números se asignan solo a las entradas en las páginas del libro mayor. El rango de números que se asignó a los movimientos está disponible en la **Página de registro de P/G**, en los campos **Desde el número de movimiento** y **Hasta el número de movimiento**. 
 
 > [!NOTE]
 > Después de ejecutar la compresión de fechas, todas las cuentas del libro mayor se bloquean. Por ejemplo, no puede anular la aplicación de los asientos del libro mayor de proveedores o bancos para ninguna cuenta durante el período para el que se comprimen las fechas.
 
-El número de movimientos resultante de una tarea de compresión por fechas dependerá del número de filtros aplicados, de los campos que se combinen y de la longitud del periodo seleccionada. Siempre habrá, al menos, un movimiento. 
+El número de movimientos resultante de una compresión de datos dependerá del número de filtros aplicados, de los campos que se combinen y de la longitud del periodo seleccionado. Siempre habrá, al menos, un movimiento. 
 
 > [!WARNING]
 > La compresión por fechas borra movimientos, por tanto es recomendable que haga siempre una copia de seguridad de la base de datos antes de ejecutar el proceso.
@@ -72,8 +79,11 @@ El número de movimientos resultante de una tarea de compresión por fechas depe
 ### <a name="to-run-a-date-compression"></a>Para ejecutar compresión por fechas
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Administración de datos** y, a continuación, seleccione el vínculo relacionado.
 2. Realice una de las siguientes acciones:
-    1. Para utilizar una guía de configuración asistida para configurar la compresión de fechas para uno o más tipos de datos, elija **Guía de administración de datos**.
-    1. Para configurar la compresión para un tipo individual de datos, elija **Compresión de fecha**, **Comprimir movimientos** y, a continuación, elija los datos que desee comprimir.
+    * Para utilizar una guía de configuración asistida para configurar la compresión de fechas para uno o más tipos de datos, elija **Guía de administración de datos**.
+    * Para configurar la compresión para un tipo individual de datos, elija **Compresión de fecha**, **Comprimir movimientos** y, a continuación, elija los datos que desee comprimir.
+
+   > [!NOTE]
+   > Solo puede comprimir datos que tengan más de cinco años. Si desea comprimir datos que tengan menos de cinco años, comuníquese con su socio de Microsoft.
 
 ## <a name="see-also"></a>Consulte también
 

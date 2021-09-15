@@ -1,21 +1,20 @@
 ---
-title: Cómo planear pedido por pedido
-description: Esta tarea de planificación se puede realizar en la página Programación de pedidos, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento.
+title: Planear la nueva demanda de pedido por pedido
+description: Esta tarea de planificación se puede realizar en la página Programación de pedidos, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento, incluyendo la sustitución de productos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444235"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440722"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planear la nueva demanda de pedido por pedido
 Esta tarea de planificación se puede realizar en la página **Programación de pedidos**, en la que se muestra toda la demanda nueva junto con información sobre disponibilidad y sugerencias de aprovisionamiento. Esta ventana proporciona la información y las herramientas necesarias para planificar de forma eficaz la demanda de las líneas de venta y las líneas de componentes y crear después directamente diferentes tipos de pedidos de suministros.  
@@ -67,6 +66,9 @@ En la página se muestran las líneas de planificación en función del filtro d
 
     Si existe un sustitutivo para el producto pedido, el campo **Existe sustitutivo** se establece en **Sí**, y puede realizar una búsqueda en la página **Movs. sustitución productos** para elegir un producto sustitutivo.  
 
+    > [!NOTE]  
+    > Tenga en cuenta que las sustituciones de productos no harán que un producto sea reemplazado automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible para usted.
+
 7.  Seleccione la casilla de verificación **Reserva** si desea hacer una reserva entre el pedido de suministro que ha creado y la línea de demanda para la que se ha creado. De forma predeterminada, este campo está vacío.  
 
     > [!NOTE]  
@@ -117,7 +119,7 @@ Cuando termine el trabajo de planificación en la página **Programación de ped
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Registro de productos nuevos](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

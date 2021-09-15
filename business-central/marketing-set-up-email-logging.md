@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437582"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482350"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos
 
@@ -31,31 +31,36 @@ Luego, te conectas [!INCLUDE[prod_short](includes/prod_short.md)] con Exchange O
 
 Comience con el registro de correo electrónico en dos sencillos pasos:
 
-1. Conecte [!INCLUDE[prod_short](includes/prod_short.md)] con Exchange Online para su suscripción de Microsoft 365. Exchange Online gestiona sus mensajes de correo electrónico. Hemos facilitado este paso al proporcionar una guía de configuración asistida. Solo necesita sus credenciales de administrador para su cuenta de administrador en Microsoft 365. Para comenzar la guía, vaya a **Configuración asistida** y, a continuación, elija **Configurar registro de correo electrónico**.  
+1. Conecte [!INCLUDE[prod_short](includes/prod_short.md)] con Exchange Online para su suscripción de Microsoft 365. Exchange Online gestiona sus mensajes de correo electrónico. Hemos facilitado este paso al proporcionar una guía de configuración asistida. Solo necesita sus credenciales de administrador para su cuenta de administrador en Microsoft 365. Para comenzar la guía, vaya a la página **Configuración asistida** y, a continuación, seleccione la guía **Configurar registro de correo electrónico**.  
 
 2. Asegúrese de que se han introducido direcciones de correo electrónico válidas en [!INCLUDE[prod_short](includes/prod_short.md)] para sus vendedores y contactos, dependiendo de si son clientes potenciales o existentes. Para ello, para cada cliente o vendedor, abra la ficha **Contacto** o **Vendedor/Comprador** y consulte el campo **Correo electrónico**.
 
 > [!Tip]
-> Después de completar los pasos de la guía, puede comprobar si la conexión se ha realizado correctamente. Busque **Configuración de marketing**, seleccione **Proceso**, **Funciones** y, a continuación, **Validar configuración de registro de correo electrónico**.
+> Después de completar los pasos de la guía, puede comprobar si la conexión se ha realizado correctamente. Busque **Configuración de marketing**, y seleccione **Acceso**, **Funciones** y, a continuación, **Validar configuración de registro de correo electrónico**.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Visualización de los intercambios de mensajes de correo electrónico en el registro de interacciones
-[!INCLUDE[prod_short](includes/prod_short.md)] crea una entrada en la página **Log de interacción** cada vez que un vendedor y un contacto intercambian un mensaje de correo electrónico. Para ver el registro de interacción, abra la tarjeta **Contacto** o **Vendedor/Comprador** correspondiente a la persona y, a continuación, elija **Historial** y luego **Mov. log interacción**. Hay algunas cosas que podemos hacer con cada entrada del registro, por ejemplo:
 
-- Ver el contenido del mensaje de correo electrónico que se ha intercambiado haciendo clic en la acción **Mostrar datos adjuntos**.
-- Convertir un intercambio de correos electrónicos en una oportunidad de ventas. Si una entrada parece prometedora, puede convertirla en una oportunidad y luego administrar su progreso hasta una venta. Para hacerlo, seleccione la entrada y, a continuación, seleccione la acción **Crear oportunidad**. Para obtener más información, consulte [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] crea una entrada en la página **Log de interacción** cada vez que un vendedor y un contacto intercambian un mensaje de correo electrónico. Para ver el registro de interacción, abra la tarjeta **Contacto** para la persona o elija **Relacionado** y, a continuación, elija **Historial** y luego **Mov. log interacción**. Hay algunas cosas que puede hacer con cada entrada del registro, por ejemplo:
+
+- Ver el contenido del mensaje de correo electrónico que se ha intercambiado seleccionando **Proceso** y, después **Mostrar datos adjuntos**.
+- Convertir un intercambio de correos electrónicos en una oportunidad de ventas. Si una entrada parece prometedora, puede convertirla en una oportunidad y luego administrar su progreso hasta una venta. Para hacer esto, seleccione la entrada y luego seleccione **Proceso**, y luego **Crear oportunidad**. Para obtener más información, consulte [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Conexión de versiones locales a Microsoft Exchange
-Puedes conectar [!INCLUDE[prod_short](includes/prod_short.md)] local a Exchange local o Exchange Online para el registro de correo electrónico. Para ambas versiones de Exchange, la configuración de la conexión está disponible en la página **Configuración de marketing**. Para Exchange Online, también puede utilizar una guía de configuración asistida. 
+
+Puedes conectar [!INCLUDE[prod_short](includes/prod_short.md)] local a Exchange local o Exchange Online para el registro de correo electrónico. Para ambas versiones de Exchange, la configuración de la conexión está disponible en la página **Configuración de marketing**. Para Exchange Online, también puede utilizar una guía de configuración asistida.
 
 ### <a name="connecting-to-exchange-on-premises"></a>Conexión a Exchange local.
-Para conectar [!INCLUDE[prod_short](includes/prod_short.md)] local a Exchange local, en la página **Configuración de marketing**, puede usar **Básico** como **tipo de autenticación**  y luego ingrese las credenciales para la cuenta de usuario de Exchange local. Entonces active el control de alternancia **Habilitado** para comenzar a registrar el correo electrónico. 
+
+Para conectar [!INCLUDE[prod_short](includes/prod_short.md)] local a Exchange local, en la página **Configuración de marketing**, puede usar **Básico** como **tipo de autenticación**  y luego ingrese las credenciales para la cuenta de usuario de Exchange local. Entonces active el control de alternancia **Habilitado** para comenzar a registrar el correo electrónico.
 
 ### <a name="connecting-to-exchange-online"></a>Conectar con Exchange Online
-Para conectar con Exchange Online, debe usar **OAuth2** como **tipo de autenticación**. También debe registrar una aplicación en Azure Active Directory y proporcionar el identificador de la aplicación, el secreto de Key Vault y la URL de redireccionamiento que se va a utilizar. La URL de redireccionamiento se rellena previamente y debería funcionar para la mayoría de las instalaciones. Para más información, vea [Para registrar una aplicación en Azure AD para conectarse desde Business Central a Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+
+Para conectar con Exchange Online, debe usar **OAuth2** como **tipo de autenticación**. También debe registrar una aplicación en Azure Active Directory y proporcionar el identificador de la aplicación, el secreto de Key Vault y la URL de redireccionamiento que se va a utilizar. La URL de redireccionamiento se rellena previamente y debería funcionar para la mayoría de las instalaciones. Para más información, vea Para registrar una aplicación en Azure AD para conectarse desde Business Central a Exchange Online a continuación.
 
 Debe configurar su instalación para usar HTTPS. Para más información, vea [Configuración SSL para proteger la conexión del cliente web de Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si está configurando su servidor para tener una página de inicio diferente, puede cambiar la dirección URL. El secreto del cliente se guardará como una cadena encriptada en su base de datos.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Para registrar una solicitud en Azure AD para conectarse desde Business Central a Exchange Online
+
 Se parte de la base que para los siguientes pasos está usando Azure Active Directory para gestionar identidades y accesos. Para obtener más información, consulte [Inicio rápido: registrar una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app). Si no usa Azure Active Directory, vea [Usar otro servicio de administración de identidades y accesos](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. En el Portal de Azure, en **Administrar** elija **Autenticación**.

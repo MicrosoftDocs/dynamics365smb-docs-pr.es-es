@@ -10,24 +10,27 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 52fbabb8e8d2fbb9217bbcd1f9971f8f11037893
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445050"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482483"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Especificar cómo y cuándo recibir notificaciones
 Al configurar usuarios en los flujos de trabajo de aprobación, especifique en las páginas **Configuración de notificación** y **Programación de notificación** cómo y cuándo cada usuario recibe las notificaciones sobre los pasos de flujo de aprobación. Los usuarios individuales pueden cambiar también su configuración de notificación eligiendo el botón **Cambiar configuración de notificación** en cualquier notificación.  
 
 > [!NOTE]
-> Las notificaciones se entregan de acuerdo con la configuración de notificaciones del receptor, no del remitente. Es una distinción importante porque significa que, cuando alguien solicita una aprobación como parte de un flujo de trabajo, su solicitud no se envía necesariamente de inmediato. En cambio, se entregará de acuerdo con la configuración de notificaciones de los aprobadores. 
+> Las notificaciones se entregan de acuerdo con la configuración de notificaciones del receptor, no del remitente. Es una distinción importante porque significa que, cuando alguien solicita una aprobación como parte de un flujo de trabajo, su solicitud no se envía necesariamente de inmediato. En su lugar, se entregará de acuerdo con la programación de notificaciones especificada en la configuración de notificaciones del aprobador. 
 
  Para poder configurar preferencias de notificación de un usuario de aprobación debe configurar el usuario como usuario de aprobación. Para obtener más información, [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
 
  Puede definir el diseño de las notificaciones por correo electrónico personalizando el informe 1320, Correo electrónico de notificación. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).  
 
  Muchos pasos del flujo de trabajo de aprobación están relacionados con la notificación a los usuarios de un evento que se ha producido y en el que deben realizar una acción. Por ejemplo, en un paso del flujo de trabajo, el evento puede ser que el usuario 1 solicita la aprobación de un registro nuevo. La respuesta relacionada es que se envíe una notificación al usuario 2, el aprobador. En el siguiente paso del flujo de trabajo, el evento puede ser que el usuario 2 aprueba el registro. La respuesta relacionada es que se envíe una notificación al usuario 3 para iniciar un proceso con el registro aprobado. En el caso de los pasos del flujo de trabajo relacionados con la aprobación, cada notificación está vinculada a un movimiento de aprobación. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
+
+> [!NOTE]
+> Si desea utilizar el correo electrónico como método de notificación, debe configurarlo para el remitente y para el destinatario en[!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Configurar correo electrónico](admin-how-setup-email.md).
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Especificar cómo y cuándo los usuarios reciben notificaciones  
 

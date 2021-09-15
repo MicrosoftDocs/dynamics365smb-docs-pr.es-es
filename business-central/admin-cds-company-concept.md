@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773341"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482200"
 ---
 # <a name="data-ownership-models"></a>Modelos de propiedad de datos
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ La siguiente imagen muestra un ejemplo de esta configuración de datos en [!INCL
 
 ![La unidad de negocio raíz está en la parte superior, los equipos están en el centro y luego las empresas están en la parte inferior.](media/cds_bu_team_company.png)
 
-En esta configuración, los registros relacionados con la empresa Cronus US serán propiedad de un equipo vinculado a la unidad de negocio Cronus US <ID> en [!INCLUDE[prod_short](includes/cds_long_md.md)]. Los usuarios que pueden acceder a esa unidad de negocio a través de un rol de seguridad que se establece en la visibilidad de nivel de unidad de negocio [!INCLUDE[prod_short](includes/cds_long_md.md)] ahora pueden ver esos registros. En el siguiente ejemplo, se muestra cómo usar equipos para proporcionar acceso a esos registros.
+En esta configuración, los registros relacionados con la empresa Cronus US serán propiedad de un equipo vinculado a la unidad de negocio Cronus US [!INCLUDE[prod_short](includes/cds_long_md.md)]. Los usuarios que pueden acceder a esa unidad de negocio a través de un rol de seguridad que se establece en la visibilidad de nivel de unidad de negocio [!INCLUDE[prod_short](includes/cds_long_md.md)] ahora pueden ver esos registros. En el siguiente ejemplo, se muestra cómo usar equipos para proporcionar acceso a esos registros.
 
 * El rol de Gerente de ventas se asigna a los miembros del equipo de ventas de Cronus en EE. UU.
 * Los usuarios que tienen el rol de Gerente de ventas pueden acceder a los registros de cuenta de los miembros de la misma unidad de negocio.
-* El equipo de ventas de Cronus US está vinculado a la unidad de negocio de Cronus US que se mencionó anteriormente. Los miembros del equipo de ventas de Cronus US pueden ver cualquier cuenta que sea propiedad del usuario de Cronus US <ID>, que habría venido de la tabla de la empresa Cronus US en [!INCLUDE[prod_short](includes/prod_short.md)].
+* El equipo de ventas de Cronus US está vinculado a la unidad de negocio de Cronus US que se mencionó anteriormente. Los miembros del equipo de ventas de Cronus US pueden ver cualquier cuenta que sea propiedad del usuario de Cronus US, que habría venido de la tabla de la empresa Cronus US en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Sin embargo, la asignación 1:1 entre la unidad de negocio, la empresa y el equipo es solo un punto de partida, como se muestra en la siguiente imagen.
 
@@ -51,7 +51,7 @@ Sin embargo, la asignación 1:1 entre la unidad de negocio, la empresa y el equi
 
 En este ejemplo, se crea una nueva unidad de negocio raíz EUR (Europa) en [!INCLUDE[prod_short](includes/cds_long_md.md)] como padre tanto de Cronus DE (Alemania) como Cronus ES (España). La unidad de negocio EUR no está relacionada con la sincronización. Sin embargo, puede dar a los miembros del equipo de ventas de EUR acceso a los datos de la cuenta tanto en Cronus DE como en Cronus ES configurando la visibilidad de los datos en **BU padre/hijo** en el rol de seguridad asociado en [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-La sincronización determina qué equipo debe poseer los registros. Esto se controla mediante el campo **Equipo propietario predeterminado** de la fila BCI - <ID>. Cuando un registro BCI - <ID> se habilita para la sincronización, creamos automáticamente la unidad de negocio asociada y el equipo propietario (si aún no existe) y configuramos el campo **Equipo propietario predeterminado**. Cuando la sincronización está habilitada para una tabla, los administradores pueden cambiar el equipo propietario, pero siempre se debe asignar un equipo.
+La sincronización determina qué equipo debe poseer los registros. Esto se controla mediante el campo **Equipo propietario predeterminado** de la fila BCI. Cuando un registro BCI se habilita para la sincronización, creamos automáticamente la unidad de negocio asociada y el equipo propietario (si aún no existe) y configuramos el campo **Equipo propietario predeterminado**. Cuando la sincronización está habilitada para una tabla, los administradores pueden cambiar el equipo propietario, pero siempre se debe asignar un equipo.
 
 > [!NOTE]
 > Los registros se vuelven de solo lectura después de agregar y guardar una empresa, así que asegúrese de elegir la empresa correcta.

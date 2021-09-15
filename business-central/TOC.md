@@ -91,6 +91,7 @@
 ### [Extensión de la versión de prueba](admin-extend-trial.md)
 ### [Cancelar la suscripción o quitar Business Central](admin-cancel.md)
 ## Comprar
+### [Introducción a una suscripción](across-preview.md#getting-started-with-a-subscription)
 ### [Preparación para hacer negocios](ui-get-ready-business.md)
 
 <!--setup-->
@@ -649,9 +650,10 @@
 ### [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 ### [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)
 ### [Reservar artículos](inventory-how-to-reserve-items.md)
+### [Configurar el seguimiento de productos con números de serie, de lote y de paquete](inventory-how-setup-item-tracking.md)
 ### [Seguimiento de productos con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)
-### [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md)
 ### [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)
+### [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md)
 ### [Bloquear productos](inventory-how-block-items.md)
 ### [Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)
 

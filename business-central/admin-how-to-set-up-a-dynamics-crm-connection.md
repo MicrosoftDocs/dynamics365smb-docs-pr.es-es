@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0afad844bc58089548885b8e7dcce8c4b947cea9
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636047"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440546"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Conectar a Microsoft Dataverse
 
@@ -111,15 +111,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!NOTE]
 > Esta sección es relevante solo para los inquilinos de Business Central online hospedados por Microsoft. Los inquilinos online hospedados por ISV y las instalaciones locales no se ven afectados.
 
-En abril de 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] está abandonando el tipo de autenticación de Office365 (nombre de usuario/contraseña). Para más información, vea [Cese en el uso del tipo de autenticación de Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Además, en marzo de 2022, [!INCLUDE[prod_short](includes/prod_short.md)] está abandonando el uso de la autenticación de servicio a servicio basada en secreto del cliente para inquilinos en línea, y requerirá el uso de autenticación de servicio a servicio basada en certificados para las conexiones a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Los inquilinos [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en línea hospedados por ISV y las instalaciones locales pueden seguir usando la autenticación de Office365 configurada por su socio de Microsoft.
+En abril de 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] está abandonando el tipo de autenticación de Office365 (nombre de usuario/contraseña). Para más información, vea [Cese en el uso del tipo de autenticación de Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Además, en marzo de 2022, [!INCLUDE[prod_short](includes/prod_short.md)] está abandonando el uso de la autenticación de servicio a servicio basada en secreto del cliente para inquilinos en línea, y requerirá el uso de autenticación de servicio a servicio basada en certificados para las conexiones a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Los inquilinos de [!INCLUDE[prod_short](includes/prod_short.md)] Online hospedados por ISV y las instalaciones locales pueden seguir utilizando la autenticación secreta del cliente para conectarse a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 Para evitar interrumpir las integraciones, _debe actualizar_ la conexión para utilizar autenticación basada en certificados. Aunque el cambio está programado para marzo de 2022, le recomendamos encarecidamente que actualice lo antes posible. Los siguientes pasos describen cómo actualizar a la autenticación basada en certificados. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Para actualizar la conexión de Business Central Online para usar autenticación basada en certificados
+
 > [!NOTE]
 > La autenticación basada en certificados está disponible en Business Central 2021 lanzamiento de versiones 1 y posteriores. Si está utilizando una versión anterior, debe programar una actualización a Business Central 2021 lanzamiento de versiones 1 antes de marzo de 2022. Para más información, consulte [Programación de actualizaciones](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Si tiene problemas, comuníquese con su socio o soporte.
 
-1. En el [Centro de administración de Business Central]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifique que está utilizando Business Central 2021 lanzamiento de versiones 1 o posterior (versión 18 o posterior).
+1. En el [Centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifique que está utilizando el lanzamiento de versiones 1 de Business Central 2021 o versiones posteriores (versión 18 o posteriores).
 2. Dependiendo de si se integra con Dynamics 365 Sales, realice una de las siguientes acciones:
    * Si lo hace, abra la página **Configuración de la conexión de Microsoft Dynamics 365**.
    * Si no lo hace, abra la página **Configuración de la conexión de Dataverse**.

@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435648"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440446"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 
@@ -85,6 +85,23 @@ Si compra el mismo producto a varios proveedores, deberá introducir informació
 6. Repita los pasos 2 a 5 para cada proveedor al que desee comprar el producto.
 
 Los proveedores aparecerán después en la página **Tarifas de compra productos** , que se abre desde la tarjeta del producto, para poder fácilmente seleccionar un proveedor alternativo.
+
+## <a name="set-up-item-substitutions"></a>Configurar sustituciones de productos
+
+Puede configurar productos para que tengan sustitutos, como otros productos que se pueden utilizar en lugar del producto original.
+
+### <a name="to-make-an-item-substitution"></a>Para identificar la sustitución de un producto
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
+2. Busque el producto relevante y luego haga clic en el **N.º producto** para abrir la tarjeta del producto.  
+3. Elija la acción **Relacionada**, luego elija **Producto**, y luego **Sustituciones** para abrir la página Mov. sustitución producto.  
+4. Elija el campo **N.º sustitutivo** y seleccione el producto de sustitución en la lista.
+5. Empiece a rellenar o cambiar otros campos en la página según sea necesario.
+
+Cuando la cantidad de productos solicitados, como una línea de venta, sobrepasa la cantidad disponible en el inventario, aparece un mensaje para informarle que existen productos sustitutos.
+
+> [!NOTE]  
+> Tenga en cuenta que las sustituciones de productos no harán que un producto sea reemplazado automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible para usted.
 
 ## <a name="categories-attributes-and-variants"></a>Categorías, atributos y desviaciones
 

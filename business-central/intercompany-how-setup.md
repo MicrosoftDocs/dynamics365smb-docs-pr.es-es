@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441273"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440471"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Configuración de registro de transacciones entre empresas
 
-Para que una transacción (por ejemplo, una línea del diario de ventas) se envíe de una empresa y se cree automáticamente la transacción correspondiente (por ejemplo, una línea del diario de compras) en la empresa asociada, ambas empresas tiene que acordar el plan de cuentas común y definir las dimensiones que utilizarán en las transacciones entre ambas. El plan de cuentas de empresas vinculadas puede ser, por ejemplo, una versión simplificada del plan de cuentas de la empresa matriz. Cada empresa asigna su plan de cuentas al plan de cuentas de empresas vinculadas compartido y asigna sus dimensiones a las dimensiones de empresas vinculadas.  
+Para que una transacción (por ejemplo, una línea del diario de ventas) se envíe de una empresa y se cree automáticamente la transacción correspondiente (por ejemplo, una línea del diario de compras) en la empresa asociada, ambas empresas tiene que acordar el plan de cuentas común y definir las dimensiones que utilizarán con las transacciones entre ambas. El plan de cuentas de empresas vinculadas puede ser, por ejemplo, una versión simplificada del plan de cuentas de la empresa matriz. Cada empresa asigna su plan de cuentas al plan de cuentas de empresas vinculadas compartido y asigna sus dimensiones a las dimensiones de empresas vinculadas.  
 
 También debe configurar un código de socio de empresas vinculadas para cada empresa asociada, que se acuerda entre todas las empresas y, a continuación, asignarlo a las tarjetas de cliente y de proveedor, respectivamente, rellenando el campo **Código de socio de empresas vinculadas**.  
 
@@ -34,7 +34,7 @@ Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan 
 ## <a name="to-set-intercompany-partners"></a>Para establecer socios de empresas vinculadas
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Socios de empresas vinculadas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
-3. En la página **Socio de empresas vinculadas**, rellene los campos según sea necesario.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. En la página **Socios de empresas vinculadas**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > En [!INCLUDE[prod_short](includes/prod_short.md)] online, no puede utilizar ubicaciones de archivos para transferir transacciones a sus socios porque [!INCLUDE[prod_short](includes/prod_short.md)] no tiene acceso a su red local. Por tanto, si elige **Ubicación del archivo** en el campo **Tipo de transferencia**, el campo **Ruta de la carpeta** no está disponible. En su lugar, el archivo se descargará a la carpeta Descargas de su computadora. Luego envía el archivo a alguien de la empresa asociada, por ejemplo, por correo electrónico. Para un proceso más directo, le recomendamos que elija **Email** en lugar.
@@ -82,7 +82,7 @@ Si las cuentas del plan de cuentas de empresas vinculadas tiene los mismos núme
 3. Para las cuentas de empresas vinculadas que no se asignan automáticamente, rellene el campo **N.º de cuenta de asignación** .  
 
 ## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Para configurar cuentas de contabilidad de socios de empresas vinculadas predeterminadas  
-Cuando crea una línea de venta o de compra de empresas vinculadas para enviarla como transacción saliente, introducirá una cuenta del plan de cuentas de empresas vinculadas como cuenta predeterminada en la que se registra el importe en la empresa asociada. En la página **Plan de cuentas**, para las cuentas que utiliza a menudo en líneas de diario de ventas o compras salientes, puede especificar una cuenta genérica de empresa vinculada asociada. Por ejemplo, para su cuenta de clientes, puede introducir las cuentas de proveedores correspondientes desde el plan de cuentas de empresas vinculadas.  
+Cuando crea una línea de venta o de compra de empresas vinculadas para enviarla como transacción saliente, introducirá una cuenta del plan de cuentas de empresas vinculadas como cuenta predeterminada en la que se registra el importe en la empresa asociada. En la página **Plan de cuentas**, para las cuentas que utiliza regularmente en líneas de diario de ventas o compras salientes, puede especificar una cuenta genérica de empresa vinculada asociada. Por ejemplo, para su cuenta de clientes, puede introducir las cuentas de proveedores correspondientes desde el plan de cuentas de empresas vinculadas.  
 
 Ahora, cuando introduzca una cuenta contable en el campo **Cta. contrapartida** en una línea de empresas vinculadas con **Socio de empresas vinculadas** en el campo **Tipo de cuenta** el campo **Cuentas genéricas de empresas vinculadas asociadas** se rellenará automáticamente.  
 

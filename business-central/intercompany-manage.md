@@ -8,18 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/02/2021
+ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 19fa804213d4f0a66a92a9febb157f2b5da23ec2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184429"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440568"
 ---
 # <a name="managing-intercompany-transactions"></a>Gestión de transacciones entre empresas vinculadas
 
-Su organización puede estar formada por varias empresas, pero puede no tener un número equivalente de departamentos de contabilidad y administrativos. La funcionalidad de empresas vinculadas le permite hacer transacciones con las subsidiarias y con otras organizaciones asociadas de la misma forma que con sus clientes y proveedores. La información sobre las transacciones entre empresas vinculadas sólo se introduce una vez en los documentos correspondientes. Puede usar las funciones que ya conoce, por ejemplo la gestión de cobros y pagos. Las opciones de asignación del plan de cuentas y las dimensiones contribuyen a garantizar que la información se muestra en los lugares correctos.  
+Las funciones de las transacciones entre empresas vinculas están diseñadas para los usuarios que controlan más de una entidad empresarial legal y han configurado varias empresas para separar las funciones contables de cada una de dichas entidades. Esta descripción general sirve para muchos tipos de usuarios, sobre todos los que trabajan en mercados internaciones o lugares en los que existen distintas culturas empresariales y entornos normativos.
+
+Su organización puede estar formada por varias empresas, pero puede no tener un número equivalente de departamentos de contabilidad y administrativos. Las transacciones entre empresas vinculadas le permiten simplificar los procesos y transacciones empresariales entre todas estas entidades.
+
+Una vez que empiece a utilizar las transacciones entre empresas vinculadas, los negocios con las subsidiarias y con otras organizaciones asociadas son tan sencillas como las que realiza con sus clientes y proveedores. La información sobre las transacciones entre empresas vinculadas sólo se introduce una vez en los documentos correspondientes. Puede usar las funciones que ya conoce, por ejemplo la gestión de cobros y pagos. Las opciones de asignación del plan de cuentas y las dimensiones contribuyen a garantizar que la información se muestra en los lugares correctos.  
 
 La funcionalidad entre empresas vinculadas tienen cuatro ventajas principales:  
 
@@ -28,9 +32,28 @@ La funcionalidad entre empresas vinculadas tienen cuatro ventajas principales:
 - Se logran un seguimiento y una visibilidad totales de las actividades empresariales y los historiales de las transacciones  
 - Las transacciones con las subsidiarias y las filiales son eficaces y rentables  
 
+## <a name="streamlining-the-flow-of-business-activities"></a>Simplificar el flujo de actividades empresariales  
+
+Las transacciones entre empresas vinculadas le permiten distribuir los documentos de compras y ventas, así como los movimientos del diario general a todas las sucursales, oficinas de ventas o subsidiarias, todo desde el interior del sistema. En consecuencia, se gana tiempo y se aumenta la eficacia en toda la organización, ya que se elimina la duplicación en la introducción de información y se evita el envío, recepción, impresión y archivado de los documentos en papel.  
+
 El control sobre todos los documentos de las transacciones es total. Por ejemplo, puede rechazar un documento que ha recibido y, de esta forma, revertir los registros de diario y deshacer los recibos/envíos incorrectos. Al realizar una compra a un asociado o una subsidiaria puede actualizar el pedido de compra, siempre que la empresa vendedora no haya enviado los productos todavía.  
 
 Al introducir una transacción, no tiene que especificar las cuentas de cada uno de los grupos de libros, si no que sólo tiene que proporcionar la identificación de la empresa asociada. La funcionalidad entre empresas vinculadas crean líneas del diario general que hacen que los libros queden cuadrados en las dos empresas implicadas en la transacción. En cobros y pagos, puede asignar un código de socio de empresa vinculada a cualquier cliente o proveedor. A partir de ese momento, todos los pedidos y facturas generados en relación con las transacciones realizadas con este tipo de empresas crearán los documentos correspondientes en la empresa asociada, y se cuadran correctamente todas las cuentas.  
+
+La funcionalidad de las transacciones entre empresas vinculadas se centra en dar apoyo a las transacciones entre empresas vinculadas con documentos de ventas y compras y con líneas del diario general. En esta área, las transacciones entre empresas vinculadas admiten transacciones entre empresas vinculadas en varias bases de datos de [!INCLUDE [prod_short](includes/prod_short.md)], por ejemplo de distintos países o regiones, así como en varias divisas, distintos planes de cuentas y dimensiones, y distintas numeraciones de productos.  
+
+Las transacciones entre empresas vinculadas usan varios movimientos y documentos de las transacciones entre empresas vinculadas:  
+
+- Movimientos del diario general
+- Pedidos de compras y de ventas
+- Facturas de compras y de ventas
+- Abonos
+- Devoluciones
+
+Al configurar las transacciones entre empresas vinculadas, crea una lista de socios de empresas vinculadas, denominados socios IC, y un plan de cuentas de empresas vinculadas. A continuación, lleva a cabo las transacciones de libro general entre empresas vinculadas. Si es necesario, debe configurar dimensiones por separado.  
+
+> [!NOTE]
+> El diario general en sí mismo no tiene la funcionalidad de divisas, si no que convierte todos los importes a la divisa local mediante el tipo de cambio que corresponda.
 
 Una vez que configura socios empresariales como clientes y proveedores en el sistema y les asigna códigos de socios de empresas vinculadas, puede intercambiar documentos de empresas vinculadas de compra y de venta, incluidos los productos y los cargos de producto. [!INCLUDE [prod_short](includes/prod_short.md)] admite transacciones entre empresas vinculadas en varias bases de datos de, por ejemplo, distintos países o regiones, así como en varias divisas, distintos planes de cuentas y dimensiones, y distintas numeraciones de productos.  
 
@@ -46,7 +69,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Cree sus proveedores y clientes de empresas vinculadas, como los llamados socios de empresas vinculadas, y configure un plan de cuentas de empresas vinculadas.|[Configurar empresa vinculada](intercompany-how-setup.md)|
 |Utilice documentos o diarios de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas.|[Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)|
 |Organice y procese las transacciones entrantes y salientes que intercambia con sus socios de empresas vinculadas.|[Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)|
-|Utilice las contabilizaciones de empresas vinculadas para distribuir costes entre empresas asociadas.|[Asignar costos a socios entre empresas](intercompany-allocate-costs.md)|
+|Utilice las transacciones de empresas vinculadas para distribuir costes entre empresas asociadas.|[Asignar costes a socios entre empresas](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Consulte también
 

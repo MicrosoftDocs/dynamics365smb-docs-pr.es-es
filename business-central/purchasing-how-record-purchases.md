@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 04/01/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 18aef7bfc5324d17d2af9f4aa4ff0ba2602c70e0
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445506"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482402"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrar compras con facturas de compra
 
@@ -25,25 +25,10 @@ Cree una factura o un pedido de compra para registrar el coste de las compras y 
 
 Además de comprar artículos físicos (tipo de producto de **Inventario**), que afectan a la valoración del inventario, puede comprar servicios representados por unidades de tiempo. Puede hacer esto con el tipo de elemento **Servicio** o con el tipo de línea **Recurso**.
 
-> [!NOTE]  
-> Debe usar pedidos de compra si el proceso de compra requiere que registre recibos parciales de una cantidad del pedido, por ejemplo, porque el proveedor no disponía de la cantidad total. Si vende productos que se entregan directamente desde el proveedor al cliente, como envío directo, deberá usar también pedidos de compras. Para obtener más información, vea [Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, los pedidos de compra funcionan de la misma forma que las facturas de compra. El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos para un pedido de compra.
-
 Cuando se reciben los productos de inventario o cuando se completa el servicio comprado, se registra la factura o el pedido de compra para actualizar el inventario y los registros financieros, y para activar el pago al proveedor según los términos de pago. Para más información, vea [Contabilización de compras](ui-post-purchases.md) y [Hacer pagos](payables-make-payments.md).
 
 > [!CAUTION]  
 > No registre una factura de compra para productos físicos hasta que reciba los productos y conozca el coste final de la compra, incluidos gastos adicionales. De lo contrario, las cifras de valor de inventario y de ganancias pueden estar sesgadas.
-
-La ficha de producto puede ser del tipo **Inventario**, **Servicio** y **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra o una unidad física no guardada en el inventario. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md). El proceso de la factura de compra es el mismo para los tres tipos de producto.
-
-> [!NOTE]
-> Con el tipo de línea de compra **Recurso**, también puede comprar recursos externos, por ejemplo, para facturar a un proveedor por el trabajo entregado. Para obtener más información, consulte [Configurar recursos](projects-how-setup-resources.md).
->
-> Para usar un recurso comprado, es posible que deba establecer la capacidad del recurso y asignarlo manualmente a un trabajo. La compra de un recurso creará un movimiento de recursos, sin embargo, los movimientos de recursos no se rastrean por cantidad y valor como, por ejemplo, los productos. Si se requiere el seguimiento de la cantidad y el valor, considere usar otros tipos de líneas de pedido.
-
-Puede rellenar los campos del proveedor en la factura de compra de dos maneras dependiendo de si el proveedor ya está registrado.
-<br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
 ### <a name="to-create-a-purchase-invoice"></a>Para crear una nueva factura de compra
 
@@ -56,12 +41,9 @@ A continuación se describe cómo crear una factura de compra. Los pasos son par
 
     1. En el campo **Proveedor**, especifique el nombre del proveedor nuevo.
     2. En el cuadro de diálogo que registra al nuevo proveedor, seleccione el botón **Sí**.
-    3. En la página **Seleccionar una plantilla para un proveedor nuevo**, seleccione una plantilla en la que se basará la nueva ficha de proveedor y, a continuación, haga clic en el botón **Aceptar**.
-    4. Una nueva ficha de proveedor se abre, prellenada con información sobre la plantilla de proveedor seleccionada. El campo **Nombre** se rellena previamente con el nombre del nuevo proveedor que especificó en la factura de compra.
-    5. Rellene los campos restantes de la ficha de proveedor. Para obtener más información, vea [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).  
-    6. Cuando haya finalizado la ficha de proveedor, seleccione el botón **Aceptar** para devolver a la página **Factura de compra**.
+    3. Para obtener más información sobre cómo completar la tarjeta de proveedor, consulte [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).  
+    4. Cuando haya finalizado la ficha de proveedor, seleccione el botón **Aceptar** para devolver a la página **Factura de compra**.
 
-    Varios campos de la página **Factura de compra** ahora están rellenados con la información especificada en la nueva ficha del proveedor.
 3. Rellene los campos en la página **Factura de compra** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Ya puede empezar a rellenar las líneas de la factura de compra con los productos o recursos que ha comprado del proveedor.
@@ -71,19 +53,11 @@ A continuación se describe cómo crear una factura de compra. Los pasos son par
 4. En la ficha desplegable **Líneas**, en el campo **Nº producto**, especifique el número de un producto o un servicio de inventario.
 5. En el campo **Cantidad**, introduzca el número de productos que se van a comprar.
 
-    > [!NOTE]  
-    > Para los productos de tipo **Servicio** o líneas de tipo **Recurso**, la cantidad es una unidad de tiempo, por ejemplo horas, según se indica en el campo **Cód. unidad medida** en la línea.
-
     El campo **Importe línea** se actualiza para mostrar el valor del campo **Coste unit. directo** multiplicado por el valor del campo **Cantidad**.
 
     El precio y el importe de las líneas se muestran con o sin IVA dependiendo de qué seleccione en el campo **Precios incluyendo IVA** en la ficha del proveedor.
 
     Los campos de totales debajo de las líneas se actualizan automáticamente a medida que se crean o modifican líneas para visualizar los importes que se registrarán en los extractos.
-
-    > [!NOTE]
-    > En casos raros, los importes registrados pueden desviarse de lo que se muestra en los campos de totales. Esto se debe normalmente a los cálculos de redondeo en relación con el IVA o el impuesto de venta.
-    >
-    > Para verificar los importes que se registrarán realmente, puede utilizar la página **Estadísticas**, que tiene en cuenta los cálculos de redondeo. Además, si selecciona la acción **Liberar**, los campos de totales se actualizarán para incluir los cálculos de redondeo.
 
 6. En el campo **Importe descuento factura**, especifique un importe que se debe descontar del valor que aparece en el campo **Total IVA incl.** en la parte inferior de la factura.
 
@@ -92,6 +66,28 @@ A continuación se describe cómo crear una factura de compra. Los pasos son par
 7. Cuando reciba los productos o servicios comprados, seleccione **Registrar**.
 
 La compra ahora se refleja en el inventario, en los movimientos de recursos y en los registros financieros, y se activa el pago al proveedor. La factura de compra se elimina de la lista de facturas de compra y se reemplaza con un nuevo documento de la lista de facturas de compra registradas.  
+
+> [!NOTE]
+> En casos raros, los importes registrados pueden desviarse de lo que se muestra en los campos de totales. Esto se debe normalmente a los cálculos de redondeo en relación con el IVA o el impuesto de venta.
+>
+> Para verificar los importes que se registrarán realmente, puede utilizar la página **Estadísticas**, que tiene en cuenta los cálculos de redondeo. Además, si selecciona la acción **Liberar**, los campos de totales se actualizarán para incluir los cálculos de redondeo.
+
+## <a name="when-to-use-purchase-orders"></a>Cuándo usar pedidos de compra
+
+Debe usar pedidos de compra si el proceso de compra requiere que registre recibos parciales de una cantidad del pedido, por ejemplo, porque el proveedor no disponía de la cantidad total. Si vende productos que se entregan directamente desde el proveedor al cliente, como envío directo, deberá usar también pedidos de compras. Para obtener más información, vea [Realizar envíos directos](sales-how-drop-shipment.md). En todos los demás aspectos, los pedidos de compra funcionan de la misma forma que las facturas de compra. El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos para un pedido de compra.
+
+<br><br>
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
+
+## <a name="selling-non-inventory-items"></a>Venta de artículos que no pertenecen al inventario
+
+Los productos de una factura de compra puede ser del tipo **Inventario**, **Servicio**, **Recurso** y **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra o una unidad física no guardada en el inventario. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md). El proceso de la factura de compra es el mismo para los tres tipos de producto.
+
+> [!NOTE]
+> Con el tipo de línea de compra **Recurso**, también puede comprar recursos externos, por ejemplo, para facturar a un proveedor por el trabajo entregado. Para obtener más información, consulte [Configurar recursos](projects-how-setup-resources.md).
+>
+> Para usar un recurso comprado, es posible que deba establecer la capacidad del recurso y asignarlo manualmente a un trabajo. La compra de un recurso creará un movimiento de recursos, sin embargo, los movimientos de recursos no se rastrean por cantidad y valor como, por ejemplo, los productos. Si se requiere el seguimiento de la cantidad y el valor, considere usar otros tipos de líneas de pedido.
 
 ## <a name="posted-invoices"></a>Facturas registradas
 

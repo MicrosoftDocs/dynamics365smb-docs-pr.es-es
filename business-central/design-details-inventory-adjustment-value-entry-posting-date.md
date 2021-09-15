@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688319"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440743"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Detalles de diseño: Fecha registro en el movimiento de valor de ajuste  
 
@@ -94,7 +94,7 @@ La primera fecha de publicación permitida es el primer día del primer período
 |Registrar tiempo:       |         |
 |Formato dirección local:|   C.P.      |  
 
- La primera fecha de publicación permitida es la fecha indicada en el campo Permitir registro desde: 1 de septiembre de 2020.  
+ La primera fecha de publicación permitida es la fecha indicada en el campo Permitir registro desde: 10 de septiembre de 2020.  
  Si en la Configuración de contabilidad se definen tanto los Períodos de inventario como las fechas de registro permitidas se definirá el rango de fechas de registro permitidas.  
 
  Paso 3: Asignación de una fecha de registro permitida;  
@@ -164,7 +164,7 @@ Ordenar: ID de usuario
 
 |Id. de usuario  |Permitir registro desde  | Permitir registro hasta  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|USERNAME |  2020-09-10      |2020-09-30      |
 
  Al asignar al usuario un rango de fechas de registro permitido más amplio (o el mismo) que en el Período de inventario o la Configuración de contabilidad, se evitará el conflicto mencionado. El movimiento valor de ajuste con fecha de contabilización del 10 de septiembre se contabilizará correctamente con esta configuración.
 

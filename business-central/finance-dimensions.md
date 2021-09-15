@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444692"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482227"
 ---
 # <a name="working-with-dimensions"></a>Trabajar con dimensiones
 Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento.  
@@ -53,6 +53,9 @@ Cuando se configuran las dimensiones y los valores, se pueden definir dimensione
 
 * Las **dimensiones globales** se usan como filtros, por ejemplo, en informes, trabajos por lotes y XMLports. Solo puede utilizar dos dimensiones globales, por lo que debería elegir las dimensiones que use a menudo.
 * Las **dimensiones abreviadas** están disponibles como campos en diarios, líneas de documento y movimienos contables. Puede crear un máximo de ocho.  
+
+> [!NOTE]
+> Después de utilizar una nueva dimensión en cualquier entrada, como una línea o un nuevo registro, no puede eliminar la dimensión, incluso si no publica la entrada. Esto es porque [!INCLUDE[prod_short](includes/prod_short.md)] crea inmediatamente un conjunto de dimensiones para la línea o registro. Para obtener más información, vea [Conjuntos de dimensiones](finance-dimensions.md#dimension-sets).
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Para configurar dimensiones predeterminadas para clientes, proveedores y otras cuentas
 Puede asignar una dimensión predeterminada para una determinada cuenta. La dimensión se copiará en el diario o el documento cuando introduzca el número de cuenta en una línea, pero puede eliminar o cambiar el código de la línea si es necesario. También puede convertir una dimensión en obligatoria para registrar un movimiento con un tipo de cuenta específico.  

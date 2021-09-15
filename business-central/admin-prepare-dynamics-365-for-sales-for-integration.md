@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325473"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482328"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -80,7 +80,7 @@ Además de las configuraciones anteriores, introduzca las siguientes configuraci
 |--|--|
 | **La integración de pedidos de venta está habilitada** | Permitir que los usuarios envíen pedidos de venta y ofertas activadas en [!INCLUDE[crm_md](includes/crm_md.md)] y después verlas y procesarlas en [!INCLUDE[prod_short](includes/prod_short.md)]. Esto integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Crear automáticamente pedidos de ventas** | Crear un pedido de venta en [!INCLUDE[prod_short](includes/prod_short.md)] cuando un usuario cree y envíe uno en [!INCLUDE[crm_md](includes/crm_md.md)]. |
-| **Procesar automáticamente ofertas de venta** | Procesar una oferta de venta cuando en [!INCLUDE[prod_short](includes/prod_short.md)] cuando un usuario cree y active una en [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Procesar automáticamente ofertas de venta** | Procesar una oferta de venta cuando en [!INCLUDE[prod_short](includes/prod_short.md)] cuando un usuario cree y active una en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Gestión de datos de ofertas de ventas](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
 
 <!--
 ### User Account Settings

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543252"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440396"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Informes y análisis de ventas en Business Central
 
@@ -36,6 +36,7 @@ La siguiente tabla describe algunos de los informes clave en los informes de ven
 |**Estado envío almacén**|7313|Este informe se puede utilizar para todas las ubicaciones, donde el campo **Envío requerido** esté seleccionado. El informe **Estado de envío de almacén** muestra todos los documentos de envío de almacén no contabilizados, incluidos los almacenes, los códigos de ubicación, el estado del documento, las cantidades, etc. Este informe es perfecto para obtener una descripción general.|
 |**Listado picking almacén**|813|Muestra una lista de los pedidos de ventas en los que se incluye un producto determinado. Se proporciona la siguiente información de cada producto: la línea de pedido de venta con el nombre del cliente, el código de variante, el código de almacén, el código de ubicación, la fecha de entrega, la cantidad a enviar y la unidad. Por cada producto se totaliza la cantidad a enviar. El informe se puede utilizar cuando los productos se recogen del stock.<br>**Nota**: Este informe no está disponible para la funcionalidad de almacén avanzada.|
 |**Productos - Pedidos por servir**|718|Muestra una lista con las líneas de pedido cuya fecha de entrega ya ha pasado. Se proporciona la siguiente información del pedido de cada producto: número, nombre del cliente, número de teléfono del cliente, fecha de entrega, cantidad del pedido y cantidad en pedidos pendientes. El informe también muestra si existen otros productos para el cliente en pedidos pendientes.|
+|**Inventario - Desglose pedidos**|708|Muestra una lista de pedidos que aun no se han enviado y los productos en los pedidos. Indica el número de pedido, el nombre del cliente, la fecha de entrega, la cantidad del pedido, la cantidad pendiente y el precio unitario, así como el posible porcentaje e importe del descuento. La cantidad en pedidos pendientes, y la cantidad y el importe pendientes, se totalizan para cada producto. Utilice el informe para averiguar si existen, o se puede suponer que existan, problemas de entrega en la actualidad.|
 
 
 

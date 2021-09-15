@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 06/07/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: c3d12e316e78516d355c7d1313cd37bbeedb7a29
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216058"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482449"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -77,6 +77,11 @@ Cada vez que inicie sesión durante el periodo de prueba, una notificación en u
 [!INCLUDE[prod_short](includes/prod_short.md)] en línea utiliza Microsoft 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prod_short](includes/prod_short.md)] local.  
 
 También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+Para obtener más información sobre lo que puede hacer con [!INCLUDE [prod_short](includes/prod_short.md)], consulte [Preparación para hacer negocios](ui-get-ready-business.md) y [Funcionalidad empresarial](across-business-functionality.md).  
 
 ## <a name="getting-started-with-sandboxes"></a>Introducción a los entornos aislados
 
