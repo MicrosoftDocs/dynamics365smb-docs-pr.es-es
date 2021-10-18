@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445531"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588531"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use cuestionarios de perfil para clasificar contactos comerciales
 Puede configurar los cuestionarios de perfil que desea utilizar en el momento de especificar información de los perfiles de sus contactos. En cada cuestionario, puede configurar distintas preguntas que desee realizar a sus contactos.  
@@ -49,114 +49,35 @@ Puede clasificar automáticamente sus contactos según la información de client
 Después de haber configurado las preguntas del perfil automático, si asigna el cuestionario de perfil que contiene esas preguntas a un contacto, [!INCLUDE[prod_short](includes/prod_short.md)] asignará automáticamente las respuestas correctas para ese contacto.  
 
 ## <a name="example"></a>Ejemplo
+
 Puede clasificar sus contactos según el volumen de compras que le hagan:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Respuesta</strong></th>
-<th><strong>Se aplica a</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>contactos que han comprado 500.000 DL o más</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>contactos que han comprado de 100.000 DL hasta 499.999 DL</p></td>
-</tr>
-<tr class="odd">
-<td><p>U</p></td>
-<td><p>contactos que han comprado 99.999 DL o menos</p></td>
-</tr>
-</tbody>
-</table>
+|Respuesta|Se aplica a|
+|--- |--- |
+|A|contactos que han comprado 500.000 DL o más|
+|B|contactos que han comprado de 100.000 DL hasta 499.999 DL|
+|U|contactos que han comprado 99.999 DL o menos|
 
 Para ello, rellene los datos de la página **Config. cuestionario perfil** de esta manera:
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Escriba</strong></th>
-<th><strong>Descripción</strong></th>
-<th><strong>Clasificación automática</strong></th>
-<th><strong>Desde valor</strong></th>
-<th><strong>Hasta valor</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Pregunta</p></td>
-<td><p>Clasificación ABC</p></td>
-<td><p>Haga clic para activar el campo</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Respuesta</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500.000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Respuesta</p></td>
-<td><p>P</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Respuesta</p></td>
-<td><p>U</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99,999</p></td>
-</tr>
-</tbody>
-</table>
+| Escriba     | Descripción        | Clasificación automática     | Desde valor | Hasta valor |
+|----------|--------------------|------------------------------|------------|----------|
+| Pregunta | Clasificación ABC | Haga clic para activar el campo |            |          |
+| Respuesta   | A                  |                              | 500.000    |          |
+| Respuesta   | P                  |                              | 100,000    | 499,999  |
+| Respuesta   | U                  |                              |            | 99,999   |
 
 A continuación, rellene los datos de la página **Detalles pregunta perfil** de la siguiente manera:
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Campo</strong></th>
-<th><strong>Valor</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Campo de clasificación de cliente</strong></td>
-<td><emphasis>Ventas (DL)</emphasis></td>
-</tr>
-<tr>
-<td><strong>Método clasificación</strong></td>
-<td><emphasis>Valor definido</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Campo                         | Valor         |
+|-------------------------------|---------------|
+| Campo de clasificación de cliente | Ventas (DL)   |
+| Método clasificación         | Valor definido |
 
 Al asignar el cuestionario perfil que contiene esta pregunta a un contacto, la aplicación escribe automáticamente la respuesta adecuada para este contacto en las líneas de perfil de la ficha de contacto.
 
 ## <a name="see-also"></a>Consulte también
+
 [Crear contactos](marketing-create-contact-companies.md)  
 
 

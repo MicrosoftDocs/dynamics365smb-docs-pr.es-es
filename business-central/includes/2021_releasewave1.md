@@ -1,1 +1,1 @@
-<Token> **SE APLICA A:** Business Central (lanzamiento de versiones 1 de 2021 y posteriores)</Token>
+> **SE APLICA A:** Lanzamiento de versiones 1 Business Central 2021 y posteriores

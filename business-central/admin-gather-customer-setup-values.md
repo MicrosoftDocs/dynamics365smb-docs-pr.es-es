@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443898"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589262"
 ---
 # <a name="gather-customer-setup-values"></a>Recopilación de valores de configuración de cliente
 Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en [!INCLUDE[prod_short](includes/prod_short.md)] y después proporcionárselo al cliente como un archivo de Excel o XML.  
@@ -32,7 +32,7 @@ Puede usar un cuestionario para ayudarle a determinar el ámbito y necesidades d
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Puede crear cuestionarios para únicamente para tablas de tipo de configuración. Por ejemplo, puede utilizar la herramienta para proporcionar información a las páginas siguientes:  
@@ -50,9 +50,9 @@ Puede usar un cuestionario para ayudarle a determinar el ámbito y necesidades d
 -   Configuración almacén  
 
 > [!NOTE]  
->  Para ver una lista completa de tablas de configuración, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración** y luego elija el enlace relacionado. Para determinar el ámbito de la migración de datos de registros, utilice la función de migración. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
+>  Para ver una lista completa de tablas de configuración, elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración** y luego elija el enlace relacionado. Para determinar el ámbito de la migración de datos de registros, utilice la función de migración. Para obtener más información, consulte [Migrar datos del cliente](admin-migrate-customer-data.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.   
 3. En la página **Cuestionario de configuración**, en el campo **Código**, introduzca ... 
 <!--4. In the **Name** field, enter...
@@ -82,7 +82,7 @@ Puede usar un cuestionario para ayudarle a determinar el ámbito y necesidades d
 5. En el campo **Id. de tabla**, seleccione el Id. de la tabla para la que desea recopilar información. El campo **Nombre de tabla** se rellena automáticamente.  
 6. Seleccione la acción **Actualizar preguntas**. Cada campo de la tabla se agrega al cuestionario con un signo de interrogación seguido de su etiqueta.
 
-Puede reformular la etiqueta para clarificar cómo se debe responder la pregunta. Por ejemplo, si un campo se denomina “Nombre”, podría modificarlo para indicar “Cuál es el nombre de <data being collected>”. También puede proporcionar orientación en el campo **Referencia**, incluida una URL a una página que proporciona información adicional.  
+Puede reformular la etiqueta para clarificar cómo se debe responder la pregunta. Por ejemplo, si un campo se denomina “Nombre”, podría modificarlo para indicar “Cuál es el nombre de \<data being collected\>." También puede proporcionar orientación en el campo **Referencia**, incluida una URL a una página que proporciona información adicional.  
 
 También se pueden eliminar las preguntas que no desea incluir en el cuestionario.  
 
@@ -98,7 +98,7 @@ Utilice el cuestionario de configuración para estructurar y documentar una disc
 >  También puede crear su propio cuestionario de configuración para ajustarse a sus necesidades.  
 
 1. Abra la empresa para la que desea completar el cuestionario.
-2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado.  
 3. Seleccione el cuestionario para la empresa y luego elija la acción **Exportar a Excel**, de forma opcional la acción **Exportar a XML**.
 4. Haga que el cliente complete el cuestionario de configuración al especificar las respuestas en el libro de Excel. Existen hojas de cálculo para cada una de las áreas de preguntas que se han creado para el cuestionario.   
 5. Guarde el libro de Excel como *Datos XML*. Seleccione la acción **Importar desde XML** y seleccione el archivo .xml con las respuestas de cliente.
@@ -131,15 +131,16 @@ Cuando termine la validación, los datos estarán preparados para aplicarse a la
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Aplicar respuestas del cuestionario de configuración
 Después de que haya importado y validado información de un cuestionario de configuración, puede transferir o aplicar los datos de configuración a las tablas correspondientes en la base de datos de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado. Se abre la página **Cuestionario configuración**.  
+1. Elija el icono ![Bombilla que abre la función Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuestionario de configuración**, y luego elija el enlace relacionado. Se abre la página **Cuestionario configuración**.  
 2. Seleccione un cuestionario de configuración de la lista y elija la acción **Editar lista**.  
 3. Puede aplicar respuestas de dos maneras.  
 
 - Para aplicar el cuestionario completo, seleccione la acción **Aplicar respuestas**.  
 - Para aplicar las respuestas para un **Área de preguntas** específica únicamente, seleccione la acción **Áreas pregunta**, un **Área preguntas** de la lista y, a continuación, elija la acción **Aplicar respuestas**.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Para comprobar que las respuestas se hayan aplicado correctamente  
-1. Compruebe las páginas de configuración de las diversas áreas funcionales de [!INCLUDE[prod_short](includes/prod_short.md)]. Para localizar la página, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca el nombre de la página a mostrar y, a continuación, elija el vínculo relacionado.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Para comprobar que las respuestas se hayan aplicado correctamente
+
+1. Compruebe las páginas de configuración de las diversas áreas funcionales de [!INCLUDE[prod_short](includes/prod_short.md)]. Para localizar la página, elija el icono ![Bombilla que abre la función Dígame 5](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca el nombre de la página a mostrar y, a continuación, elija el vínculo relacionado.  
 2. Compruebe que los campos se hayan rellenado con los datos correctos de las distintas áreas de pregunta en el cuestionario de configuración.  
 
 Ahora ha definido la configuración con la información y las reglas de negocio del cliente.

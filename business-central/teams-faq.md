@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 05/19/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341513"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587870"
 ---
 # <a name="teams-faq"></a>P+F de Teams
 
@@ -146,7 +146,11 @@ En Microsoft, escuchamos constantemente los comentarios de nuestra diversa comun
 
 Si desea participar en la mejora de la aplicación para Teams, o tiene una idea que ayudaría a simplificar su trabajo o experiencias colaborativas en Teams, agregue una idea o vote por ideas existentes en [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## <a name="searching-for-contacts"></a>[Buscar contactos](#tab/contacts)
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>¿Dónde puedo encontrar la integración de Teams dentro del cliente web de Business Central? 
+
+Para conocer la funcionalidad en el cliente web que se vincula a Teams, consulte [Compartir registros y vínculos de páginas en Microsoft Teams](across-working-with-teams.md#share-link).
+
+## <a name="search-for-contacts"></a>[Buscar contactos](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>¿En qué tablas busca la aplicación?
 
@@ -240,7 +244,7 @@ En este momento no es posible buscar en otras tablas. La aplicación [!INCLUDE [
 
 Si desea que las funcionalidades de búsqueda evolucionen para incluir otras tablas, animamos a nuestra comunidad a que agregue una idea o vote por ideas existentes en https://aka.ms/BusinessCentralIdeas.
 
-## <a name="working-with-cards"></a>[Trabajando con tarjetas](#tab/cards)
+## <a name="work-with-cards"></a>[Trabajar con tarjetas](#tab/cards)
 
 ### <a name="which-types-of-links-does-the-app-support"></a>¿Qué tipos de enlaces admite la aplicación?
 
@@ -273,7 +277,7 @@ Cuando redacta y envía un mensaje al chat que incluye una tarjeta, todos los us
 
 Si trabaja en empresas de [!INCLUDE [prod_short.md](includes/prod_short.md)], hable con su administrador sobre la habilitación de un distintivo de empresa para cada empresa. Cuando está habilitada, esta sugerencia llamativa aparece en cualquier ventana de detalles en Teams y muestra la empresa y el ambiente al que pertenece el registro. Para saber cómo configurar el distintivo de la empresa, consulte [Para mostrar un distintivo de la empresa para acceder rápidamente a la información de la empresa](ui-change-basic-settings.md#badge).
 
-## <a name="working-with-card-details"></a>[Trabajar con detalles de tarjetas](#tab/carddetails)
+## <a name="work-with-card-details"></a>[Trabajar con detalles de tarjetas](#tab/carddetails)
 
 ### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>¿Dónde está el botón guardar en la ventana de detalles en Teams?
 
@@ -303,7 +307,7 @@ Sí. Las funciones de [!INCLUDE [prod_short.md](includes/prod_short.md)] de la v
 
 Si está utilizando la funcionalidad en [!INCLUDE [prod_short.md](includes/prod_short.md)] que accede a las coordenadas de su ubicación actual, como con mapas, debe usar Teams en el navegador o en la aplicación móvil de Teams. La ubicación no está disponible cuando se usa la aplicación de escritorio de Teams. 
 
-## <a name="collaborating-with-guests"></a>[Colaborando con invitados ](#tab/collaborating)
+## <a name="collaborate-with-guests"></a>[Colarobar con invitados](#tab/collaborating)
 
 ### <a name="can-i-share-cards-with-users-outside-my-organization"></a>¿Puedo compartir tarjetas con usuarios fuera de mi organización?
 
@@ -319,8 +323,37 @@ Para conocer otras similitudes y diferencias entre los invitados y los miembros 
 
 Los invitados no tienen acceso al mercado de aplicaciones para instalarlas ellos mismos. Sin embargo, la aplicación se puede instalar automáticamente en función de las políticas de su organización. Otra forma de que un usuario invitado instale la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] es al recibir un mensaje de chat que incluye una tarjeta de [!INCLUDE [prod_short.md](includes/prod_short.md)]. En este caso, el usuario elige el botón **Detalles** o el menú de la tarjeta, luego instala la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para usar con su organización. Después de instalar la aplicación, un usuario no recibe automáticamente ningún permiso para acceder a los datos de su [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
+## <a name="share-to-teams"></a>[Compartir con Teams](#tab/share)
 
+### <a name="does-share-to-teams-send-a-compact-card"></a>¿Compartir con Teams envía una ficha compacta? 
+
+En este momento, solo se comparte un vínculo profundo a la página. Los destinatarios verán un hipervínculo en su mensaje, que pueden seleccionar para que les lleve a [!INCLUDE [prod_short.md](includes/prod_short.md)] en una ventana separada del navegador. 
+
+### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>¿Los destinatarios recibirán el mensaje de mí o de una cuenta de servicio de Business Central? 
+
+Cuando usa Compartir con Teams, el mensaje se envía a una persona, grupo o canal, de forma similar a si lo hubiera enviado usted mismo desde dentro Microsoft Teams. Los destinatarios ven su mensaje en su cliente de Teams preferido y pueden reaccionar y responder como lo harían normalmente a un mensaje suyo. 
+
+### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>¿Compartir con Teams está disponible en Business Central local? 
+
+Nº Similar a la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams, esta función solo está disponible para el cliente web en [!INCLUDE [prod_short.md](includes/prod_short.md)] en línea. No hay planes para apoyar tipos de implementación de [!INCLUDE [prod_short.md](includes/prod_short.md)], como en local, nube híbrida o nube privada, que Microsoft no aloja ni administra directamente.
+
+### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>¿Compartir con Teams otorga permisos a los destinatarios? 
+
+Nº Cuando comparte con una persona, grupo o canal, los permisos no se ven afectados. Los usuarios que ya tienen permiso para ver la página y los datos a los que se dirige el vínculo pueden hacerlo. Los usuarios que no tienen permiso para ver esa página y datos, o no tienen una licencia de [!INCLUDE [prod_short.md](includes/prod_short.md)], verán un mensaje de error. 
+ 
+### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>¿Debo tener instalada la aplicación de escritorio de Teams para usar Compartir con Teams? 
+
+Nº Todo lo que necesita es una cuenta válida que tenga acceso a Microsoft Teams. 
+
+### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>¿Compartir con Teams está disponible en todos los clientes de Business Central? 
+
+En este momento, Compartir con Teams está disponible exclusivamente en el cliente web de escritorio y en la ventana de detalles en Teams.  
+
+### <a name="where-do-i-find-share-to-teams-in-business-central"></a>¿Dónde encuentro Compartir con Teams en Business Central? 
+
+La **acción Compartir con Teams** se puede encontrar en el menú **Compartir** en todas las páginas, como páginas de fichas y documentos, páginas de listas u hojas de trabajo, incluidas las páginas personalizadas. La acción no está disponible en cuadros de diálogo o páginas que se muestran como cuadros de diálogo, como páginas de búsqueda o asistentes.
+
+---
 ## <a name="see-also"></a>Consulte también
 
 [Información general sobre [!INCLUDE [prod_short](includes/prod_short.md)] y la integración de Microsoft Teams](across-teams-overview.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783514"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588812"
 ---
 # <a name="setting-up-posting-groups"></a>Configurar los grupos contables
 Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Ahorran tiempo y ayudan a evitar errores al registrar las transacciones. Los valores de transacción se envían a las cuentas especificadas en el grupo contable de dicha entidad. El único requisito es que tenga un plan de cuentas. Para obtener más información, vea [Configuración del plan de cuentas](finance-setup-chart-accounts.md).  
@@ -74,6 +74,14 @@ La configuración determina cuándo se realiza el registro. Por ejemplo, el tiem
 
 ## <a name="copying-posting-setup-lines"></a>Copiar líneas de configuración de grupos contables
 Cuantos más grupos contables de producto y de negocio tenga, más líneas habrá en la página Configuración grupos contables. Ello podría conllevar la introducción de muchos datos para configurar los grupos contables de la empresa. Si bien puede haber muchas combinaciones distintas de grupos contables de negocio y de producto, las distintas combinaciones podrían crear registros en las mismas cuentas de contabilidad. Para limitar la introducción manual de los datos, copie las cuentas de contabilidad de una línea existente en la página **Configuración grupos contables**.
+
+## <a name="troubleshooting-posting-group-errors"></a>Solución de problemas de errores de grupos de publicación
+Los grupos de publicación son uno de los conceptos más avanzados para configurar en [!INCLUDE[prod_short](includes/prod_short.md)]. Si no están configurados correctamente, pueden ocurrir errores al registrar documentos o líneas de diario. Por ejemplo, estos errores generalmente se deben a un error en cómo se asignan las cuentas de contabilidad o en cómo se combinan los grupos de registro.
+
+Cuando algo anda mal, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará la página **Mensajes de error**. La página **Mensajes de error** puede facilitar la identificación y resolución del problema. La página ofrece una descripción del error que señala la configuración del grupo de publicación que necesita atención. Por ejemplo, el mensaje podría ser "A la cuenta de prepago de ventas le falta una configuración de registro general". También hay un enlace para abrir la página que es la fuente del problema para que pueda resolverlo rápidamente.  
+
+> [!NOTE]
+> El manejo de errores descrito anteriormente no está disponible en diarios de artículos, recursos, empleados y activos fijos, ni para cuentas de contabilidad agregadas en versiones locales de grupos de registro.
 
 ## <a name="see-also"></a>Consulte también .
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  

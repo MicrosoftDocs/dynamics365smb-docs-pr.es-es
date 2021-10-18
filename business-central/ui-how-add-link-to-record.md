@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 76829c832bfde71d46b2fa2a942aa68db9f5701a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444748"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588785"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrar archivos adjuntos, vínculos y notas en fichas y documentos
 
@@ -64,7 +64,7 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son similare
 Se agrega un archivo PDF con el contenido actual del pedido de cliente a la pestaña **Archivos adjuntos** del cuadro informativo.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Para añadir un enlace de una ficha de producto
-Puede añadir un enlace de una ficha o un documento a cualquier URL o ruta. Esto es útil, por ejemplo, cuando desea vincular una ficha de producto con el catálogo de producto del proveedor.
+Puede añadir un enlace de una ficha o un documento a cualquier URL. Esto es útil, por ejemplo, cuando desea vincular una ficha de producto con el catálogo de producto del proveedor.
 
 El procedimiento siguiente se basa en una ficha de producto. Los pasos son parecidos a los de las demás fichas y documentos admitidos.
 

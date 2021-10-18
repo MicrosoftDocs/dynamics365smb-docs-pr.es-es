@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 09/07/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482449"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589312"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -27,7 +27,7 @@ Puede registrarse para obtener una versión de prueba [aquí](https://go.microso
 
 Dependiendo de su país o región, la versión de prueba incluye los idiomas y la funcionalidad que requiere su país o región. Para obtener más información, vea [Cambiar idioma y región](about-locale-language.md).  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)], le serán familiares algunos aspectos, pero otros no. Cuando inicia sesión por primera vez en la empresa de demostración, obtiene acceso a una página de introducción con vínculos a guías de configuración asistida que pueden ayudarle a comenzar. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
+En [!INCLUDE[prod_short](includes/prod_short.md)], le serán familiares algunos aspectos, pero otros no. Cuando inicia sesión por primera vez en la empresa de demostración, obtiene acceso a una página de introducción con vínculos a guías de configuración asistida que pueden ayudarle a comenzar. Para más información, vea [Preparación para hacer negocios](ui-get-ready-business.md) y los artículos [inicios rápidos](quick-start-business-central.md).  
 
 Si encuentra dificultades, la página [Preguntas frecuentes](across-faq.yml) puede ayudarle a responder algunas de sus preguntas. Si no puede registrarse en la versión de prueba, la página [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md) puede ayudarlo. También puede contactar con un [socio](/dynamics365/business-central/across-faq#findpartner) y pedirle que cree para usted una prueba gratuita o un tipo diferente de versión preliminar de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -35,7 +35,7 @@ Si decide no usar [!INCLUDE [prod_short](includes/prod_short.md)], puede dejar q
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### <a name="try-out-your-own-company"></a>Probar su propia empresa
+### <a name="add-your-own-data-to-an-empty-trial-company"></a>Agregue sus propios datos a una empresa de prueba vacía
 
 Si desea probar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. La **guía de configuración asistida** Configurar mi empresa puede ayudarlo a especificar información básica sobre su negocio. De manera opcional, puede importar datos de su solución de gestión empresarial existente para poder evaluar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos. Sin embargo, le recomendamos que no utilice una versión de prueba gratuita para administrar su negocio. Contacte con [un socio distribuidor](/dynamics365/business-central/across-faq#findpartner) para obtener más información sobre cómo empezar a utilizar [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -43,7 +43,7 @@ Si 30 días no son suficientes para decidirse, puede ampliar la prueba. Para obt
 
 ### <a name="setting-up-your-company-in-prod_short"></a>Configurar la empresa en [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Para ayudarlo a configurar su empresa, la página **Configuración asistida** enumera las guías de configuración asistida que pueden ayudarlo. Dependiendo de su rol y país o región, la página muestra diferentes guías de configuración del asistente, como se mustra en la siguiente tabla:
+Los artículos de [inicio rápido](quick-start-business-central.md) pueden ayudarle a dar los primeros pasos para configurar [!INCLUDE [prod_short](includes/prod_short.md)] para su organización. En [!INCLUDE [prod_short](includes/prod_short.md)], la página **Configuración asistida** enumera las guías de configuración asistida que pueden ayudarlo. Dependiendo de su rol y país o región, la página muestra diferentes guías de configuración del asistente, como se mustra en la siguiente tabla:
 
 | Configuración asistida | Descripción |
 | -------------- | ----------- |
@@ -61,7 +61,7 @@ Para ayudarlo a configurar su empresa, la página **Configuración asistida** en
 | Configurar datos de informes|Configura conjuntos de datos que puede usar para generar informes eficaces utilizando Excel o Power BI, por ejemplo. |
 | Invitar a contable externo |Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su [!INCLUDE[prod_short](includes/prod_short.md)] para que pueda trabajar con usted en los datos fiscales. |
 
-La página **Configuración asistida** puede contener otras entradas. Cuando realice una configuración, esta se marcará como **Completada**. Puede configurar áreas adicionales de la empresa mediante la configuración manual. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+La página **Configuración asistida** puede contener otras entradas. Cuando realice una configuración, esta se marcará como **Completada**. Puede configurar otras áreas de la empresa mediante la configuración manual. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Restablecer la experiencia de prueba de [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -72,7 +72,7 @@ Si ha agregado datos a su versión de prueba de [!INCLUDE[prod_short](includes/p
 
 ## <a name="getting-started-with-a-subscription"></a>Introducción a una suscripción
 
-Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prod_short](includes/prod_short.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prod_short](includes/prod_short.md)] agregando aplicaciones de [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prod_short](includes/prod_short.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prod_short](includes/prod_short.md)] agregando aplicaciones desde [el mercado comercial de Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] en línea utiliza Microsoft 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prod_short](includes/prod_short.md)] local.  
 
@@ -85,21 +85,20 @@ Para obtener más información sobre lo que puede hacer con [!INCLUDE [prod_shor
 
 ## <a name="getting-started-with-sandboxes"></a>Introducción a los entornos aislados
 
-Los entornos aislados pueden ser una forma de practicar con [!INCLUDE[prod_short](includes/prod_short.md)]. Piense en un entorno aislado como un entorno que no es de producción y que puede usar en su instancia de producción de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, si desea tomar la formación en línea gratuita de [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), su administrador puede [crear un entorno aislado](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) para que usted y sus compañeros puedan practicar allí en lugar de hacerlo en su entorno de producción.  
+Los entornos aislados pueden ser una forma de practicar con [!INCLUDE[prod_short](includes/prod_short.md)]. Piense en un entorno aislado como un entorno que no es de producción y que puede usar en su instancia de producción de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, si desea realizar la formación online gratuita de [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), su administrador puede [crear un entorno de espacio aislado](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). De esta manera, usted y sus colegas pueden practicar en un lugar seguro en lugar de en su entorno de producción.  
 
 Si usted es un desarrollador, un entorno aislado le permite crear y probar extensiones de forma segura y desarrollar nuevas funcionalidades para personalizar el servicio sin afectar los datos y la configuración de su entorno de producción.  
 
-En este momento, todos los clientes pueden usar un sandbox, incluidas las organizaciones que se han registrado para una prueba. Para obtener más información acerca de cómo obtener ayuda con un entorno aislado, vea [Crear un entorno aislado](across-how-create-sandbox-environment.md).  
+En este momento, todos los clientes pueden usar un sandbox, incluidas las organizaciones que se han registrado para una prueba. Para obtener más información acerca de cómo obtener ayuda con un entorno aislado, vea [Entornos de espacio aislado](admin-sandbox-environments.md).  
 
 > [!NOTE]
 > Los entornos aislados creados de esta forma contienen datos de demostración de la empresa CRONUS ficticia. No se copian ni se transfieren datos del entorno de producción.   
 
-El administrador de su [!INCLUDE[prod_short](includes/prod_short.md)] y su socio distribuidor pueden crear entornos adicionales en el centro de administración. Para obtener más información, consulte [El centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
-
-
+El administrador de su [!INCLUDE[prod_short](includes/prod_short.md)] y su socio distribuidor pueden crear más entornos en el centro de administración. Para obtener más información, consulte [El centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Consulte también
 
+[Inicio rápido de Business Central](quick-start-business-central.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Extensión de la versión de prueba](admin-extend-trial.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446395"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588706"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Asignación de tablas y campos para sincronizar
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -49,6 +49,8 @@ La asignación de tablas es solo el primer paso. También debe asignar los campo
 
 > [!Note]
 > Si está utilizando una versión local de [!INCLUDE[prod_short](includes/prod_short.md)], las asignaciones de campos de integración se definen en la tabla 5336 de Asignación de campos de integración.
+
+Puede asignar manualmente los campos o puede automatizar el proceso asignando varios campos al mismo tiempo según los criterios para hacer coincidir sus valores. Para más información, vea [Para acoplar varios registros según la coincidencia de valores de campo](admin-how-to-couple-and-synchronize-records-manually.md).
 
 ### <a name="handling-differences-in-field-values"></a>Administración de diferencias en valores de campo
 A veces, los valores en los campos que desea asignar son diferentes. Por ejemplo, en [!INCLUDE[crm_md](includes/crm_md.md)], el código de idioma para Estados Unidos es "U.S.", pero en [!INCLUDE[prod_short](includes/prod_short.md)] es "US". Eso significa que debe transformar el valor cuando sincroniza los datos. Esto sucede por de las reglas de transformación que define para los campos. Las reglas de transformación se definen en la página **Asignaciones de tablas de integración**, eligiendo **Asignación** y luego **Campos**. Se proporcionan reglas predefinidas, pero también puede crear las suyas propias. Para obtener más información, vea [Reglas de transformación](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

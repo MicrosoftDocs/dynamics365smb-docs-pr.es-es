@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445927"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606390"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Cambiar a otra empresa o entorno
 
@@ -23,12 +23,17 @@ ms.locfileid: "6445927"
 
 ## <a name="switch-to-another-environment"></a>Cambiar a otro entorno
 
-Cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)], los ambientes a los que puede acceder están disponibles en la página de inicio de Dynamics 365. Puede abrir la página eligiendo el icono **Lanzador de aplicaciones** ![Lanzador de aplicaciones.](media/app-launcher-icon.png "El lanzador de aplicaciones proporciona acceso a más funciones") y eligiendo **Dynamics 365**. Para ir a su empresa predeterminada en ese entorno, elija el mosaico. Habrá un mosaico para cada tipo de entorno. Si tiene más de un entorno de cierto tipo, cuando elige el mosaico puede elegir el entorno para acceder.
+Cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)], los ambientes a los que puede acceder están disponibles en Office.com. 
 
-La siguiente imagen muestra mosaicos para acceder a entornos de producción y de espacio aislado en la página Web de Dynamics 365.
+1. Seleccione el icono del **Lanzador de aplicaciones** ![Lanzador de aplicaciones.](media/app-launcher-icon.png "El lanzador de aplicaciones proporciona acceso a más funciones").
+2. Si no ve una aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en el panel que se abre, entonces elija **Office 365**. Después, introduzca **Business Central** en la caja **Buscar** o seleccione **Todas las aplicaciones** > **Aplicaciones empresariales**.   
+3. Habrá una aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] enumerada para cada tipo de entorno, como producción y de pruebas. Para cambiar a otro entorno, elija la aplicación [!INCLUDE[prod_short](includes/prod_short.md)] para el tipo de entorno que es. Si hay más de un entorno de cierto tipo, se le pedirá que elija el entorno al que acceder.
 
-:::image type="content" source="media/app-picker-environments.png" alt-text="La página Web de Dynamics 365 que muestra entornos de producción y espacio aislado.":::
+<!--
+The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
+:::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
+-->
 ## <a name="switch-to-another-company"></a>Cambiar a otra empresa
 
 Cuando ha iniciado sesión en [!INCLUDE[prod_short](includes/prod_short.md)], puede cambiar rápidamente a otra empresa. Después de hacer el cambio, la empresa que elija se convierte en su empresa predeterminada y se mostrará la próxima vez que inicie sesión.

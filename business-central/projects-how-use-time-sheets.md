@@ -1,5 +1,5 @@
 ---
-title: Trabajar con hojas de horas para proyectos
+title: Uso de partes de horas para proyectos
 description: Describe cómo crear una hoja de horas de un proyecto, copiar líneas de planificación en ella, definir los tipos de trabajo, rellenar la hoja de horas y enviarla para su aprobación.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440646"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588837"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Uso de hojas de horas para proyectos
+# <a name="use-time-sheets-for-projects"></a>Uso de partes de horas para proyectos
 
 El proceso **Crear hojas de horas** se usa para configurar hojas de horas de un número determinado de periodos o semanas. Debe disponer de permisos para poder crear las hojas de horas.
 
@@ -25,9 +25,12 @@ Puede copiar y usar sus líneas de planificación de proyecto en una hoja de hor
 
 Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlos en el diario de proyectos o de recursos correspondiente.
 
-Para poder utilizar las hojas de horas, debe configurar la información general y especificar un administrador y uno o varios aprobadores de hojas de horas. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).
+Para poder utilizar las hojas de horas, debe configurar la información general y especificar un administrador y uno o varios aprobadores de hojas de horas. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>Para crear una hoja de horas
+> [!TIP]
+> A partir del lanzamiento de versiones 2 de 2021, puede administrar los partes de horas asignados en un dispositivo móvil. Sin embargo, puede que el administrador deba habilitar la característica **Actualización de datos de característica: nueva experiencia de parte de horas** en la página [Administración de características](https://businesscentral.dynamics.com/?page=2610) para utilizar esta capacidad. Para obtener más información, consulte [Configurar partes de horas](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>Para crear partes de horas
 
 Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.
 

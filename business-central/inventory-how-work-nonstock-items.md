@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445581"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588556"
 ---
 # <a name="work-with-catalog-items"></a>Trabajar con productos del catálogo
 Puede ofrecer varios productos a sus clientes para su comodidad que no desea gestionar en su sistema hasta que empiece a venderlos. Cuando desee empezar a gestionar esos productos en su sistema, puede convertirlos en fichas de productos normales de dos formas.
@@ -66,7 +66,7 @@ Se ha creado una plantilla y una nueva ficha de producto con la información del
 Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Un informe de referencia cruzada de un producto se crea automáticamente por el proveedor del producto entre el número del producto del proveedor y su nuevo número de producto. Para obtener más información, vea [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md).
+>   Una referencia de producto se crea automáticamente entre el número del producto del proveedor y su nuevo número de producto. Para obtener más información, vea [Usar referencias de producto](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Consulte también
 [Registro de productos nuevos](inventory-how-register-new-items.md)  

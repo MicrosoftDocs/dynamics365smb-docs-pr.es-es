@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440546"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587764"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Conectar a Microsoft Dataverse
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Personalizar el emparejamiento basado en coincidencias
+
+A partir del lanzamiento de versiones 2 de 2021, puede emparejar registros en [!INCLUDE [prod_short](includes/prod_short.md)] y [!INCLUDE [cds_long_md](includes/cds_long_md.md)] basándose en criterios de coincidencia definidos por el administrador.  
+
+El algoritmo para emparejar registros se puede iniciar desde los siguientes lugares en [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* Lista de páginas que muestran registros sincronizados con [!INCLUDE [cds_long_md](includes/cds_long_md.md)], como las páginas Clientes y Productos.  
+
+    Seleccione varios registros y luego elija la acción **Relacionado**, elija **Dataverse**, elija **Emparejamiento** y luego **Emparejamiento basado en coincidencias**.
+
+    Cuando el proceso de emparejamiento basado en coincidencias se inicia desde una lista de datos maestros, se programará un trabajo de emparejamiento directamente después de que haya seleccionado los criterios de emparejamiento.  
+* La página **Revisión sincronización completa de Dataverse**.  
+
+    Cuando el proceso de sincronización completo detecta que tiene registros desemparejados tanto en [!INCLUDE [prod_short](includes/prod_short.md)] como en [!INCLUDE [cds_long_md](includes/cds_long_md.md)], aparece un enlace **Seleccionar criterios de emparejamiento** para la tabla de integración correspondiente.  
+
+    Puede iniciar el proceso **Ejecutar sincronización completa** desde las páginas **Configuración de conexión de Dataverse** y **Configuración de conexión de Dynamics 365**, y se puede iniciar como un paso en la guía de configuración asistida **Configurar una conexión a Dataverse** cuando elige completar la configuración y ejecutar la sincronización completa al final.  
+
+    Cuando el proceso de emparejamiento basado en coincidencias se inicia desde una página **Revisión sincronización completa de Dataverse**, se programará un trabajo de emparejamiento directamente después de que haya completado la configuración.  
+* La lista **Asignaciones de tablas de integración**.  
+
+    Seleccione una asignación, elija la acción **Emparejamiento** y luego elija **Emparejamiento basado en coincidencias**.
+
+    Cuando el proceso de emparejamiento basado en coincidencias se inicia desde una asignación de tablas de integración, se ejecutará un trabajo de emparejamiento para todos los registros desemparejados en esa asignación. Si se ejecutó para un conjunto de registros seleccionados de la lista, se ejecutará solo para los registros desemparejados seleccionados.
+
+En los tres casos, la página **Seleccionar criterios de emparejamiento** se abre para que pueda definir los criterios de emparejamiento relevantes. En esta página, personalice el emparejamiento con las siguientes tareas:
+
+* Elija qué campos desea emparejar por registros de [!INCLUDE [prod_short](includes/prod_short.md)] y entidades de [!INCLUDE [cds_long_md](includes/cds_long_md.md)], y elija también si el emparejamiento en ese campo tendrá en cuenta mayúsculas y minúsculas.  
+
+* Especifique si se debe ejecutar una sincronización después de emparejar registros y, si el registro utiliza una asignación bidireccional, elija también qué sucede si los conflictos se enumeran en la página **Resolver conflictos de actualizaciones**.  
+
+* Priorice el orden en el que se buscan los registros especificando un *prioridad de coincidencia* para los campos de asignación relevantes. Las prioridades de coincidencia hacen que el algoritmo busque una coincidencia en una serie de iteraciones según lo definido por los valores del campo **Prioridad de coincidencia** en orden ascendente. Un valor en blanco en el campo **Prioridad de coincidencia** se interpreta como prioridad 0, por lo que los campos con este relleno de valor se considerarán primero.  
+
+* Especifique si desea crear una nueva instancia de entidad en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] en caso de que no se pueda encontrar ninguna coincidencia desemparejada única utilizando los criterios de coincidencia. Para activar esta capacidad, elija la acción **Crear nuevo si no se encuentra una coincidencia**.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Ver los resultados del trabajo de emparejamiento
+
+Para ver los resultados del trabajo de emparejamiento, abra la página **Asignaciones de tablas de integración**, seleccione la asignación relevante, elija la acción **Emparejamiento** y luego elija la acción **Registro de trabajo de emparejamiento de integración**.  
+
+Si hay registros que no se emparejaron, puede profundizar en el valor de la columna Error, que abrirá una lista de errores que especifica por qué los registros no se emparejaron.  
+
+El emparejamiento fallido se produce en los siguientes casos:
+
+* No se definieron criterios de coincidencia
+
+    En este caso, vuelva a ejecutar el emparejamiento basado en coincidencias, pero recuerde definir los criterios de acoplamiento.
+
+* No se encontró ninguna coincidencia para varios registros, según los campos coincidentes elegidos
+
+    En este caso, repita el emparejamiento con otros campos coincidentes.
+
+* Se encontraron varias coincidencias para varios registros, según los campos coincidentes elegidos  
+
+    En este caso, repita el emparejamiento con otros campos coincidentes.
+
+* Se encontró una única coincidencia, pero el registro coincidente ya está emparejado a otro registro en [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    En este caso, repita el emparejamiento con otros campos coincidentes o investigue por qué esa entidad [!INCLUDE [cds_long_md](includes/cds_long_md.md)] está emparejada a ese otro registro en [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> Para ayudarlo a obtener una descripción general del progreso de emparejamiento, el campo **Emparejado con Dataverse** muestra si un registro específico está emparejado con una entidad [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Puede filtrar la lista de registros que se sincronizan con [!INCLUDE [cds_long_md](includes/cds_long_md.md)] por este campo.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Actualice las conexiones de Business Central Online para usar autenticación basada en certificados
 > [!NOTE]
-> Esta sección es relevante solo para los inquilinos de Business Central online hospedados por Microsoft. Los inquilinos online hospedados por ISV y las instalaciones locales no se ven afectados.
+> Esta sección es relevante solo para los inquilinos de [!INCLUDE[prod_short](includes/prod_short.md)] en línea hospedados por Microsoft. Los inquilinos online hospedados por ISV y las instalaciones locales no se ven afectados.
 
 En abril de 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] está abandonando el tipo de autenticación de Office365 (nombre de usuario/contraseña). Para más información, vea [Cese en el uso del tipo de autenticación de Office365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Además, en marzo de 2022, [!INCLUDE[prod_short](includes/prod_short.md)] está abandonando el uso de la autenticación de servicio a servicio basada en secreto del cliente para inquilinos en línea, y requerirá el uso de autenticación de servicio a servicio basada en certificados para las conexiones a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Los inquilinos de [!INCLUDE[prod_short](includes/prod_short.md)] Online hospedados por ISV y las instalaciones locales pueden seguir utilizando la autenticación secreta del cliente para conectarse a [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

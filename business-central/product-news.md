@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7d487bdb24284583b2ea11f5f18ae3b9d8b7ab04
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 67767e95743d10b0f0b49ec2c034984187ffc5ff
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438732"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587597"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Novedades y planificación de Dynamics 365 Business Central
 
@@ -22,9 +22,9 @@ Siempre puede consultar el plan de la versión para obtener una visión general 
 
 La siguiente lista proporciona información sobre las últimas versiones de [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [Lanzamiento de versiones 2 de 2021](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
 * [Lanzamiento de versiones 1 de 2021](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 * [Lanzamiento de versiones 2 de 2020](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
-* [Lanzamiento de versiones 1 de 2020](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
 
 También puede explorar el sitio [Capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) y el sitio [Hoja de ruta de Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/).  
 
@@ -35,6 +35,7 @@ También puede explorar el sitio [Capacidades de Dynamics 365 Business Central](
 [Visite nuestra biblioteca de vídeos](across-videos.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Dynamics 365 Business Central en Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Inicio rápido de Business Central](quick-start-business-central.md)  
 [Capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Hoja de ruta de Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)  
 [Blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  

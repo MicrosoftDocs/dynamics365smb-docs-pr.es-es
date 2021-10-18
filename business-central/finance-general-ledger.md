@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321119"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588631"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Descripción de contabilidad y plan de cuentas
 
@@ -70,6 +70,9 @@ Por ejemplo, el extracto de saldo predeterminado tiene una subcategoría para *E
 3. Aplique sangría en la subcategoría **Efectivo**.  
 
 La próxima vez que genere los esquemas de cuentas, su extracto de saldo mostrará un extracto total de efectivo y dos líneas con extractos para efectivo pequeño y cuenta corriente.  
+
+## <a name="getting-a-quick-overview"></a>Obtener una descripción general rápida
+La página Plan de cuentas muestra las cuentas en una lista jerárquica que ofrece acceso rápido a la información clave de cada cuenta. Sin embargo, la lista es estática y, si tiene muchas cuentas, es posible que deba desplazarse un poco para ver la información de diferentes cuentas. Si solo desea una descripción general rápida de los conceptos básicos, como cambios netos y saldos, la página **Introducción al plan de cuentas** es una alternativa útil. El diseño de las columnas en la página ahora es el mismo que encontrará en la página del Plan de cuentas (solo hay menos), por lo que no tendrá que reorientarse y puede expandir o contraer los niveles jerárquicos para condensar la vista. Para facilitar el cambio entre las páginas, la página **Introducción al plan de cuentas** está disponible en la página del Plan de cuentas.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Acceso para crear y editar cuentas y categorías de cuentas
 

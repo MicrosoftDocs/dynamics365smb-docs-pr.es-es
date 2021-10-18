@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443722"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547028"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 
@@ -158,6 +158,9 @@ En cada uno de los cinco campos de tipo de acceso, **Permiso de lectura**, **Per
 |**Sí**|El usuario puede realizar la acción del objeto en cuestión.|El mayor|
 |**Indirecto**|El usuario puede realizar la acción del objeto en cuestión pero solo a través de otro objeto relacionado con el que el usuario tiene acceso a total. Para obtener más información sobre los permisos indirectos, consulte [Propiedad Permissions](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) en la Ayuda para desarrolladores e informáticos|En segundo mayor|
 |**En blanco**|El usuario no puede realizar la acción del objeto en cuestión.|El menor|
+
+> [!IMPORTANT]
+> Tenga cuidado al asignar **Permiso de inserción** o **Permiso de modificación** a la tabla **Miembro de grupo de usuarios 9001** o **Conjunto de permisos de grupo de usuarios 9003**. Cualquier usuario asignado al conjunto de permisos podría potencialmente asignarse a otros grupos de usuarios, lo que a su vez puede otorgarles permisos no deseados.
 
 ### <a name="example---indirect-permission"></a>Ejemplo: permiso indirecto
 

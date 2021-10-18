@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318589"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588656"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
 
-Debe definir la configuración general, como los documentos de venta que se requieren y el modo de registrar sus valores. Esta configuración general se efectúa normalmente una vez durante la implementación inicial.
+Debe definir la configuración general en la página **Ventas y cobros**, como qué documentos de ventas se requieren, cómo se registran sus valores y el tipo de líneas que se crearán de forma predeterminada. Esta configuración general se efectúa normalmente una vez durante la implementación inicial.
 
-Una serie de tareas independientes relacionadas con el registro de nuevos clientes es registrar acuerdos de precios especiales o descuentos que tenga con cada cliente.
+Una serie de tareas independientes relacionadas con el registro de nuevos clientes es registrar acuerdos de precios especiales o descuentos que tenga con cada cliente. Para más información, vea [Registrar precios y descuentos de ventas especiales](sales-how-record-sales-price-discount-payment-agreements.md).
 
 La configuración de ventas relacionada con las finanzas, como las formas de pago o las divisas, se describe en la sección Configuración de finanzas. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
 

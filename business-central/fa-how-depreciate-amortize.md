@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442265"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588306"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Depreciar o amortizar activos fijos
 La amortización se utiliza para distribuir el coste de activos, como maquinaria y equipos, a lo largo de su vida amortizable. Debe definir la amortización de cada activo.  
@@ -48,7 +48,10 @@ Una vez al mes, o cuando desee, puede ejecutar el proceso **Calcular amortizaci�
 5. Seleccione la acción **Registrar**.  
 
 > [!NOTE]
-> Si selecciona el campo **Utilizar forzar nº de días** y el campo **Forzar nº de días** se establece en un valor que da como resultado la fecha de registro menos el valor del campo **Número de días** es una fecha del año natural anterior, no puede registrar la amortización. La solución es reducir el valor de **Forzar nº de días** a no más de los días calculados hasta la fecha de registro usando 30 días/mes O seleccione el campo **Ejercicio 365 días** en el libro de amortización. Recomendamos la primera opción, ya que es posible que no desee cambiar el uso de 30 días/meses para amortización. Para más información, vea [Amortización de campo Ejercicio 365 días](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Límite conocido: Si establece el campo **Utilizar forzar nº de días** a Sí y el campo **Forzar nº de días** se establece en un valor donde la **Fecha de registro** menos el **Número de días** da como resultado una fecha del año natural anterior, el sistema no le permitirá registrar la amortización.
+> Puede evitarlo si reduce el campo **Forzar nº de días** a no más de los días calculados hasta la fecha de registro usando 30 días/mes O configure la bandera **Ejercicio 365 días** en el libro de amortización.
+> Recomendamos la primera opción, ya que es posible que no desee cambiar el uso de 30 días/meses para amortización. Para más información, vea [Amortización de campo Ejercicio 365 días](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Para registrar una apreciación manualmente desde el diario general de activos fijos
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **A/F Diario general** y luego elija el enlace relacionado.  

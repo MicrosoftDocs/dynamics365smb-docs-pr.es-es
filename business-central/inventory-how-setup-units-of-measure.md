@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435552"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588581"
 ---
 # <a name="set-up-units-of-measure"></a>Configurar unidades de medida
 
@@ -27,6 +27,8 @@ Puede configurar varias unidades de medida para un producto de forma que pueda a
 - Asigne las unidades de medida alternas a los documentos de compra, producción o venta para especificar cuántas unidades de la unidad de medida base que se llevarán al mismo tiempo en dichos procesos. Por ejemplo, puede comprar el producto en palés y utilizar solo piezas sueltas en la producción.
 
 Si un producto se almacena en una unidad de medida pero se fabrica en otra, se crea una orden de producción que utiliza una unidad de medida de la sección de fabricación para calcular la cantidad correcta de componentes durante el trabajo por lotes **Actualizar orden producción**. Un ejemplo del cálculo de una unidad de medida de la sección de fabricación es el caso en que un producto fabricado se almacena por piezas pero se produce en toneladas. Para obtener más información, consulte [Trabajar con la unidad de medida de lote de fabricación](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
+
+Otra herramienta que facilita el trabajo con varias unidades de medida para elementos es la capacidad de especificar una precisión de redondeo para las unidades de medida base. La especificación de una precisión de redondeo proporciona una guía sobre lo que alguien debe introducir para un proceso empresarial determinado y ayuda a reducir los problemas de redondeo. Cuando usa unidades de medida alternativas, el valor en el campo **Cant. por unidad de medida** ayuda a calcular la cantidad en la unidad de medida base, lo que puede generar problemas de redondeo. Por ejemplo, imagina que estás recibiendo una caja que contiene seis productos. Cuando la caja llega a su almacén, descubre que falta uno de los seis productos. Decide no publicar el recibo de una caja, sino cambiar la cantidad recibida a cinco de seis piezas. Eso llevaría a recibir 4,99998 piezas, en lugar de cinco. En la página **Unidades medida producto**, el campo **Precisión de redondeo de cantidad** le permite especificar un valor que convertirá la cantidad en un número más fácil de entender. Continuando con el ejemplo, introduciríamos **1** en el campo para redondear hasta cinco piezas iguales.
 
 ## <a name="to-set-up-units-of-measure"></a>Para configurar unidades de medida
 
@@ -57,11 +59,11 @@ Cuando registre un nuevo elemento, puede elegir la unidad medida base de la list
 
     En el campo **Unidad medida base** en la parte inferior de la ventana, puede ver o modificar la unidad de medida base del producto. También puede modificar la unidad de medida base en el campo **Unidad medida base** de la ficha de producto. En la página **Unidades medida producto**, la unidad medida base debe tener el valor **1** en el campo **Cant. por unidad de medida**.
 
-Ahora puede usar las unidades de medida alternativas en los documentos de compra, producción y ventas como se describe en la sección [Para especificar un código de unidad de medida predeterminado para las transacciones de compra y venta](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
+Ahora puede utilizar las unidades de medida alternas de los documentos de compra, producción y venta. Para obtener más información, consulte [Para introducir un código de unidad de medida predeterminada para las transacciones de compra y venta](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Para configurar traducciones de unidades de medida
 
-Cuando vende productos a clientes extranjeros, quizás le interese especificar la unidad de medida en el idioma del cliente. Para ello, primero debe configurar las traducciones correspondientes de las unidades de medida.
+Cuando vende productos a clientes extranjeros, quizás le interese especificar la unidad de medida en el idioma del cliente. Puede hacerlo especificando traducciones para unidades de medida.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de medida** y luego elija el enlace relacionado.
 2. Seleccione el código para el que desea configurar las traducciones y, a continuación, elija la acción **Traducciones**.

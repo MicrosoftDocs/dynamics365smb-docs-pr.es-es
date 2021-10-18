@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444048"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588331"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -78,7 +78,7 @@ Para aprender a crear informes para páginas de lista, consulte [Crear informes 
 
 Una parte de Power BI en una página puede mostrar cualquier informe de Power BI que esté disponible para usted. Para cambiar y ver otro informe, elija la acción **Seleccionar informe** en la lista de comandos desplegable en la parte superior de la parte.  
 
-La página **Selección de informes de Power BI** muestra una lista de todos los informes de Power BI a los que tiene acceso. Esta lista se recupera desde su área de trabajo de Power BI. Seleccione la casilla **Habilitar** para cada informe que desee visualizar en la página y, a continuación, seleccione **Aceptar**. Volverá a su página Web y aparecerá el último informe que haya habilitado. Con la lista desplegable de comandos, utilice el comando **Anterior** y **Siguiente** para navegar entre informes.  
+La página **Selección de informes de Power BI** muestra una lista de todos los informes de Power BI a los que tiene acceso. Esta lista se recupera de cualquiera de sus propias áreas de trabajo o áreas de trabajo que se hayan compartido con usted en el servicio de Power BI. Seleccione la casilla **Habilitar** para cada informe que desee visualizar en la página y, a continuación, seleccione **Aceptar**. Volverá a su página Web y aparecerá el último informe que haya habilitado. Con la lista desplegable de comandos, utilice el comando **Anterior** y **Siguiente** para navegar entre informes.  
 
 ### <a name="get-more-reports"></a>Obtener más informes
 

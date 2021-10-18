@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fda901d7737d7818b7ebc965d9babf1f0868f1de
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322177"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587485"
 ---
 # <a name="business-process-walkthroughs"></a>Tutoriales de procesos empresariales
 
@@ -24,7 +24,7 @@ En esta selección de tutoriales se proporcionan procesos empresariales completo
  Los tutoriales son ejemplos completos y deben realizarse desde el principio hasta el final para obtener el máximo beneficio. Muchos están basados en demostraciones de [!INCLUDE[prod_short](includes/prod_short.md)] y permiten probar los procedimientos a su ritmo.  
 
 > [!NOTE]
-> Algunos de los tutoriales requieren datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Algunos de los tutoriales requieren datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
 
 |Para|Vea|  
 |--------|---------|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440383"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589237"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanificar o actualizar órdenes de producción directamente
 Se utiliza normalmente la función **Replanificar** después de haber agregado o cambiado componentes que conforman órdenes de producción subyacentes. La función de planificación calcula los cambios realizados en las líneas de componentes y rutas e incluye a los productos de los niveles de L.M. de producción inferiores, para los que puede crear nuevas órdenes de producción.  
@@ -34,22 +34,23 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 > [!NOTE]
 > Si utiliza la función Actualizar para recalcular las líneas de orden de producción, se eliminan las líneas antiguas y se calculan las nuevas.  
 
-## <a name="to-replan-a-production-order"></a>Para replanificar una orden de producción  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. Planificadas en firme** y, a continuación, elija el vínculo relacionado.  
-2.  Abra la orden de producción que desea replanificar.  
-3.  En la ficha desplegable **Líneas**, elija la acció **Líneas** y, a continuación **Componentes**.  
-4.  Agregue un componente que sea un producto fabricado o un producto semiterminado.  
-5.  Desde la orden de producción, seleccione la acción **Replanificar**.  
+## <a name="to-replan-a-production-order"></a>Para replanificar una orden de producción
+
+1. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. Planificadas en firme** y, a continuación, elija el vínculo relacionado.  
+2. Abra la orden de producción que desea replanificar.  
+3. En la ficha desplegable **Líneas**, elija la acció **Líneas** y, a continuación **Componentes**.  
+4. Agregue un componente que sea un producto fabricado o un producto semiterminado.  
+5. Desde la orden de producción, seleccione la acción **Replanificar**.  
 
     En la página **Replanificar orden de producción**, defina cómo y qué se va a replanificar.  
-6.  En el campo **Dirección programación**, seleccione una de las siguientes opciones.  
+6. En el campo **Dirección programación**, seleccione una de las siguientes opciones.  
 
-    |Opción|Description|  
-    |----------------------------------|---------------------------------------|  
-    |**Atrás**|Calcula la secuencia de la operación hacia atrás desde la primera fecha final posible, definida por la fecha de vencimiento u otras órdenes programadas, hasta la última fecha inicial posible. **Nota**: esta opción predeterminada es la que se utiliza en la mayoría de las situaciones.|  
-    |**Anticipada**|Calcula la secuencia de la operación hacia delante desde la última fecha inicial posible, definida por la fecha de vencimiento u otras órdenes programadas, hasta la primera fecha final posible. **Nota**: Esta opción sólo se utiliza para pedidos urgentes.|  
+    | Opción | Description |
+    |--|--|
+    | **Atrás** | Calcula la secuencia de la operación hacia atrás desde la primera fecha final posible, definida por la fecha de vencimiento u otras órdenes programadas, hasta la última fecha inicial posible. **Nota**: esta opción predeterminada es la que se utiliza en la mayoría de las situaciones. |
+    | **Anticipada** | Calcula la secuencia de la operación hacia delante desde la última fecha inicial posible, definida por la fecha de vencimiento u otras órdenes programadas, hasta la primera fecha final posible. **Nota**: Esta opción sólo se utiliza para pedidos urgentes. |
 
-7.  En el campo **Planificar**, indique si desea calcular las necesidades de producción para los productos fabricados en la L.M. de producción, como se detalla a continuación.  
+7. En el campo **Planificar**, indique si desea calcular las necesidades de producción para los productos fabricados en la L.M. de producción, como se detalla a continuación.  
 
     |Opción|Description|  
     |----------------------------------|---------------------------------------|  
@@ -57,20 +58,21 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
     |**Un nivel**|Planificar la demanda de producción del primer nivel. Se pueden crear órdenes de producción de primer nivel.|  
     |**Todos los niveles**|Planificar la demanda de producción de todos los niveles. Se pueden crear órdenes de producción de todos los niveles.|  
 
-8.  Seleccione **Un nivel** y elija el botón **Aceptar** para replanificar la orden de producción, y calcular y crear una nueva orden subyacente para el producto semiterminado incluido, si no está totalmente disponible.  
+8. Seleccione **Un nivel** y elija el botón **Aceptar** para replanificar la orden de producción, y calcular y crear una nueva orden subyacente para el producto semiterminado incluido, si no está totalmente disponible.  
 
 > [!NOTE]  
->  Es muy probable que los cambios realizados con la función **Replanificar** modifiquen la necesidad de capacidad de la orden de producción y que, por tanto, tenga que reprogramar las operaciones a continuación.  
+> Es muy probable que los cambios realizados con la función **Replanificar** modifiquen la necesidad de capacidad de la orden de producción y que, por tanto, tenga que reprogramar las operaciones a continuación.  
 
-## <a name="to-refresh-a-production-order"></a>Para actualizar una orden de producción  
+## <a name="to-refresh-a-production-order"></a>Para actualizar una orden de producción
+
 Si ha modificado líneas de orden de producción, componentes o líneas de ruta, debe también actualizar la información en la orden de producción. En siguiente procedimiento, se calculan los componentes para una orden de producción planificada en firme. Los pasos son parecidos para las líneas de ruta.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Orden produc. planif. en firme** y, a continuación, elija el vínculo relacionado.  
-2.  Seleccione la acción **Nuevo**. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
-3.  Seleccione la acción **Actualizar**.
+1. Elija el icono ![Bombilla que abre la función Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Orden produc. planif. en firme** y, a continuación, elija el vínculo relacionado.  
+2. Seleccione la acción **Nuevo**. Para obtener más información, consulte [Crear órdenes de producción](production-how-to-create-production-orders.md).  
+3. Seleccione la acción **Actualizar**.
 4. En la página **Actualizar orden de producción**, seleccione una de las siguientes opciones:
 
-    |Opción||Description|  
+    |Campo|Opción|Descripción|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Dirección programación**|**Anticipada**|La programación empieza en la fecha inicial y avanza hasta la fecha final. Debe rellenar la fecha inicial para utilizar esta opción.|  
     ||**Atrás**|La programación empieza en la fecha final y retrocede hasta la fecha inicial.|  
@@ -82,9 +84,10 @@ Si ha modificado líneas de orden de producción, componentes o líneas de ruta,
 5. Elija el botón **Aceptar** para confirmar la selección. Se han calculado las líneas de la orden de producción.
 
 > [!NOTE]  
->  El cálculo de los componentes de la orden de producción elimina cambios realizados anteriormente en los mismos.
+> El cálculo de los componentes de la orden de producción elimina cambios realizados anteriormente en los mismos.
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Planificación](production-planning.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    

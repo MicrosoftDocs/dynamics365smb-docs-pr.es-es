@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
-ms.date: 08/17/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2ecf6884e37467504bc2f4573ef60c870993b799
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440421"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588506"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vender productos con un pedido de venta de cliente  
 
@@ -67,8 +67,8 @@ Incluso puede crear pedidos pagados directamente para clientes no registrados co
 8. En el campo **% Descuento línea**, especifique un porcentaje si desea conceder al cliente un descuento para el producto. El valor del campo **Importe de línea** se actualiza según corresponde.
 
     Si ha configurado precios de producto especiales en la ficha desplegable **Precios venta y descuentos línea ventas** en la ficha del producto o en la del cliente, el porcentaje de descuento, el precio y el presupuesto de línea en la línea de la factura se actualizan automáticamente si se cumplen los criterios acordados para el precio. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Para agregar un comentario acerca de la línea de oferta que el cliente puede ver en la oferta de venta impresa, escriba un comentario en el campo **Descripción** en una línea vacía.  
-10. Repita los pasos 4 a 8 para cada producto que desee vender al cliente.
+9. Para agregar un comentario acerca de la línea de pedido que el cliente puede ver en el pedido de venta impreso, escriba un comentario en el campo **Descripción** en una línea vacía.  
+10. Repita los pasos 5 a 9 para cada producto que desee vender al cliente.
 
     Los campos de totales debajo de las líneas se actualizan automáticamente a medida que se crean o modifican líneas para visualizar los importes que se registrarán en los extractos.
 

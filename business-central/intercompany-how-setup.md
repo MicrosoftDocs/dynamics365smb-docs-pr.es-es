@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 1d822b61c9ed64d970d2d17939a359d898513e2d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440471"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587585"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Configuración de registro de transacciones entre empresas
 
@@ -23,7 +23,7 @@ Para que una transacción (por ejemplo, una línea del diario de ventas) se env�
 
 También debe configurar un código de socio de empresas vinculadas para cada empresa asociada, que se acuerda entre todas las empresas y, a continuación, asignarlo a las tarjetas de cliente y de proveedor, respectivamente, rellenando el campo **Código de socio de empresas vinculadas**.  
 
-Si va a crear o a recibir líneas de empresas vinculadas con productos, puede utilizar sus propios números de producto o configurar los números de producto de sus socios para cada producto que corresponda, ya sea en el campo **Cód. producto proveedor** o en **Nº producto común** en la ficha del producto. También puede usar la función **Referencia cruzada producto** para asignar los números de producto a las descripciones de los productos de las empresas asociadas, abra la ficha de cada producto y, a continuación, elija la acción **Referencias cruzadas** para configurar las referencias cruzadas entre su descripción de los artículos y la de la empresa asociada. Para obtener más información, vea [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md). 
+Si va a crear o a recibir líneas de empresas vinculadas con productos, puede utilizar sus propios números de producto o configurar los números de producto de sus socios para cada producto que corresponda, ya sea en el campo **Cód. producto proveedor** o en **Nº producto común** en la ficha del producto. También puede usar la función **Referencia producto** para asignar los números de producto a las descripciones de los productos de las empresas asociadas, abra la ficha de cada producto y, a continuación, elija la acción **Referencias producto** para configurar las referencias entre su descripción de los artículos y la de la empresa asociada. Para obtener más información, vea [Usar referencias de producto](inventory-how-use-item-cross-refs.md). 
 
 Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan recursos, debe rellenar el campo **Nº cuenta compra IC asociada** en la ficha de cada recurso que proceda. Es el número de la cuenta de empresas vinculadas en la empresa asociada en la que se registrará la cantidad correspondiente a este recurso. Para obtener más información, consulte [Configurar recursos](projects-how-setup-resources.md).
 

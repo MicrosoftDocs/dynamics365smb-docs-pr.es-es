@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438932"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588256"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -89,22 +89,22 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 
 Las cuadrículas con filas y columnas existen en muchos tipos de página en [!INCLUDE[prod_short](includes/prod_short.md)], como páginas de lista y partes de **Líneas** en documentos. Moverse de una celda a otra a través de una cuadrícula está totalmente preparado para el teclado.
 
-|Pulsar estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Inicio<br />(Fn+Ctrl+Flecha izquierda)|Seleccione la primera fila de la lista; el enfoque permanece en la misma columna.|Desplazarse al primer mosaico en la primera fila. |
-|Ctrl+Fin<br />(Fn+Ctrl + Flecha derecha)|Seleccione la última fila de la lista; el enfoque permanece en la misma columna.|Desplazarse al último mosaico de la última fila.|
-|Inicio<br />(Fn+flecha izquierda)|Desplazarse al primer campo en una fila.|Desplazarse al primer mosaico en una fila.|
-|Fin<br />(Fn+flecha derecha)|Desplazarse al último campo en una fila.|Desplazarse al último mosaico en una fila.|
-|Introduzca|Abre el registro asociado a este campo.<br /><br />Solo es relevante si una página de ficha está asociada con el registro.|Abre el registro.<br /><br />Solo es relevante si una página de ficha está asociada con el registro.|
-|Ctrl+Enter|Mueva el enfoque al siguiente elemento fuera de la lista.|Mueva el enfoque al siguiente elemento fuera de la lista.|
-|Re. pág.<br />(Fn+flecha arriba)|Desplazarse para mostrar las filas establecidas por encima de las filas actuales a la vista. |Se desplaza para mostrar los mosaicos establecidos por encima de los mosaicos actuales a la vista. |
-|Av. Pág.<br />(Fn+flecha abajo)|Desplazarse para mostrar las filas establecidas por debajo de las filas actuales a la vista.|Desplazarse para mostrar los mosaicos establecidos por debajo de los mosaicos actuales a la vista.|
-|Flecha abajo|En la misma columna, desplazarse al campo de la fila inferior. |En la misma columna, desplazarse al mosaico de la fila inferior. |
-|Flecha hacia arriba|En la misma columna, desplazarse al campo de la fila superior.| En la misma columna, desplazarse al mosaico de la fila superior.  |
-|Flecha hacia la derecha|En una lista de solo lectura, desplácese en la misma fila al siguiente campo de la derecha.<br /><br />En una lista editable, desplácese a la derecha del campo actual.| En la misma fila, desplazarse al siguiente mosaico de la derecha. |
-|Flecha izquierda|En una lista de solo lectura, desplácese en la misma fila al campo anterior de la izquierda. <br /><br />En una lista editable, desplácese a la izquierda del campo actual.| En la misma fila, desplazarse al mosaico anterior de la izquierda. |
-|Tab|En una lista editable, desplácese en la misma fila al siguiente campo de la derecha.|No aplicable.||
-|Mayús+Tabulador|En una lista editable, desplácese en la misma fila al anterior campo de la izquierda. | No aplicable. |
+| Pulsar estas teclas<br />(en macOS) | Para hacerlo en una vista de lista | Para hacerlo en una vista de mosaico |
+|--|--|--|
+| Ctrl+Inicio<br />(Fn+Ctrl+Flecha izquierda) | Seleccione la primera fila de la lista; el enfoque permanece en la misma columna. | Desplazarse al primer mosaico en la primera fila. |
+| Ctrl+Fin<br />(Fn+Ctrl + Flecha derecha) | Seleccione la última fila de la lista; el enfoque permanece en la misma columna. | Desplazarse al último mosaico de la última fila. |
+| Inicio<br />(Fn+flecha izquierda) | Desplazarse al primer campo en una fila. | Desplazarse al primer mosaico en una fila. |
+| Fin<br />(Fn+flecha derecha) | Desplazarse al último campo en una fila. | Desplazarse al último mosaico en una fila. |
+| Introduzca | Abre el registro asociado a este campo.<br /><br />Solo es relevante si una página de ficha está asociada con el registro. | Abre el registro.<br /><br />Solo es relevante si una página de ficha está asociada con el registro. |
+| Ctrl+Enter | Mueva el enfoque al siguiente elemento fuera de la lista. | Mueva el enfoque al siguiente elemento fuera de la lista. |
+| Re. pág.<br />(Fn+flecha arriba) | Desplazarse para mostrar las filas establecidas por encima de las filas actuales a la vista. | Se desplaza para mostrar los mosaicos establecidos por encima de los mosaicos actuales a la vista. |
+| Av. Pág.<br />(Fn+flecha abajo) | Desplazarse para mostrar las filas establecidas por debajo de las filas actuales a la vista. | Desplazarse para mostrar los mosaicos establecidos por debajo de los mosaicos actuales a la vista. |
+| Flecha abajo | En la misma columna, desplazarse al campo de la fila inferior. | En la misma columna, desplazarse al mosaico de la fila inferior. |
+| Flecha hacia arriba | En la misma columna, desplazarse al campo de la fila superior. | En la misma columna, desplazarse al mosaico de la fila superior. |
+| Flecha hacia la derecha | En una lista de solo lectura, desplácese en la misma fila al siguiente campo de la derecha.<br /><br />En una lista editable, desplácese a la derecha del campo actual. | En la misma fila, desplazarse al siguiente mosaico de la derecha. |
+| Flecha izquierda | En una lista de solo lectura, desplácese en la misma fila al campo anterior de la izquierda. <br /><br />En una lista editable, desplácese a la izquierda del campo actual. | En la misma fila, desplazarse al mosaico anterior de la izquierda. |
+| Tab | En una lista editable, desplácese en la misma fila al siguiente campo de la derecha. | No aplicable. |  |
+| Mayús+Tabulador | En una lista editable, desplácese en la misma fila al anterior campo de la izquierda. | No aplicable. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selección, copia y pegado
 

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: cf0dd21100fe9ec1fcc92320f04393c5385d2514
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9028bf88940a8c378469078ca680858b7702872
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440671"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589162"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Instalar y desinstalar extensiones en Business Central
 
@@ -76,9 +76,16 @@ Microsoft proporciona las extensiones siguientes:
 * [La extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA: enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
 
+
+## <a name="uploading-a-per-tenant-extension-pte"></a>Cargar una extensión por inquilino (PTE)
+
+Cargue una PTE mediante la página **Administración de extensiones**. En la página **Administración de extensiones**, vaya a **Administrar** y elija **Cargar extensión**. En la página **Carga e implementación de una extensión**, especifique el archivo .app para cargar. Para continuar, elija el botón **Aceptar** y luego el botón **Implementar**, lo que iniciará el proceso de implementación del PTE.
+
+Si el PTE contiene cambios de esquema de ruptura, es posible *obligar* una carga del mismo. Para hacer eso, en el **Modo de sincronización de esquema**, elija la opción **Forzar**. Recibirá un cuadro de diálogo de confirmación para aceptar antes de continuar. 
+
 ## <a name="uninstalling-an-extension"></a>Desinstalar una extensión
 
-Desinstala una extensión usando la página **Gestión de extensiones**. Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan por defecto para que se vuelve a instalar la extensión estén disponibles. En su lugar, puede optar por eliminar los datos con la extensión. Esto está controlado por la casilla **Eliminar datos de extensión**. Por defecto, esta casilla de verificación está *deshabilitada*.
+Desinstale una extensión usando la página **Administración de extensiones**. Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan por defecto para que se vuelve a instalar la extensión estén disponibles. En su lugar, puede optar por eliminar los datos con la extensión. Esto está controlado por la casilla **Eliminar datos de extensión**. Por defecto, esta casilla de verificación está *deshabilitada*.
 
 > [!IMPORTANT]  
 > Si habilita la casilla **Eliminar datos de extensión**, obtendrá un cuadro de diálogo de confirmación y debe elegir **Aceptar**. Con la casilla **Eliminar datos de extensión** habilitada, ahora puede desinstalar la extensión y se le pedirá que vuelva a confirmar que desea desinstalar la extensión y eliminar los datos. La acción no se puede deshacer.

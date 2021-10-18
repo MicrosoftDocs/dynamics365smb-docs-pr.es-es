@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325818"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588381"
 ---
 # <a name="exchanging-data-electronically"></a>Intercambio de datos electrónicamente
 Puede usar Marco de intercambio de datos para gestionar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios comerciales.
 
-En la versión estándar de [!INCLUDE[prod_short](includes/prod_short.md)], el Marco de intercambio de datos se utiliza en funciones, como Documentos electrónicos, Importación / exportación de archivos bancarios y Actualización de tasas de cambio de moneda. Para más información, ver [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).
+En la versión estándar de [!INCLUDE[prod_short](includes/prod_short.md)], el Marco de intercambio de datos se utiliza en procesos, como el intercambio de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tasas de cambio de moneda. Para más información, ver [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).
 
-Como administrador o socio de Microsoft, puede usar el marco en nuevas funciones de integración configurando qué datos intercambiar y cómo. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
+Como administrador o socio de Microsoft, puede usar el marco en nuevas funciones de integración especificando los datos a intercambiar y cómo intercambiarlos. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 

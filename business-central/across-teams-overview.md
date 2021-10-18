@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446470"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587510"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Descripción general de Business Central y Microsoft Teams
 
@@ -51,6 +51,14 @@ Una vez en la conversación, usted y sus compañeros de trabajo pueden ver más 
 
 Para obtener más información, consulte [Compartir registros en Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Compartir vínculos desde páginas de Business Central a Teams
+
+Directamente desde la mayoría de las páginas de recopilación y detalles de Business Central, puede utilizar la acción **Compartir con Teams** del icono ![!El icono del menú Compartir en páginas.](media/share-icon.png "El menú Compartir mostrado en una tarjeta.") para escribir un mensaje, elegir destinatarios, como miembros del equipo, grupos o canales, y enviar el mensaje con un vínculo a la página de Business Central.
+
+¡![!El menú Compartir mostrado en una tarjeta.](media/teams-share-link.png "El menú Compartir mostrado en una tarjeta.")
+
+Para obtener más información, consulte [Compartir registros y vínculos de páginas en Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Introducción
 
 1. Se requiere una cuenta de usuario de [!INCLUDE [prod_short](includes/prod_short.md)] en línea para la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Teams.
@@ -62,7 +70,7 @@ Para obtener más información, consulte [Compartir registros en Microsoft Teams
 
 2. Como administrador, consulte [Administrar la integración de Microsoft Teams con Business Central](admin-teams-integration.md) para obtener información sobre cómo configurar los usuarios para trabajar con [!INCLUDE [prod_short](includes/prod_short.md)] y Teams.
 3. Instalar una aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. Consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md).
-4. Una vez que la aplicación esté instalada, estará listo para comenzar. Vea [Búsqueda de clientes, proveedores y otros contactos de Microsoft Teams](across-search-contacts-teams.md) y [Compartir registros en Microsoft Teams](across-working-with-teams.md). 
+4. Una vez que la aplicación esté instalada, estará listo para comenzar. Vea [Búsqueda de clientes, proveedores y otros contactos de Microsoft Teams](across-search-contacts-teams.md) y [Compartir registros en Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Consulte también
 

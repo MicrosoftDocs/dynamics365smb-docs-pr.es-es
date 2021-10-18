@@ -1,7 +1,6 @@
 ---
 title: Administrar inventario
 description: Este tema describe cómo administrar los productos físicos que intercambia mediante la creación de una tarjeta de artículo de inventario.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,14 +10,15 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9290d61245eec3331be315adf00e3e71a7fb5e97
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482277"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587895"
 ---
-# <a name="how-to-manage-inventory"></a>Cómo administrar inventario
+# <a name="manage-inventory"></a>Gestionar inventario
+
 Por cada producto físico que se comercialice, debe crear una ficha de producto del tipo **Inventario**. Los productos que ofrece a los clientes pero que no mantiene en el inventario, puede registrarlos como productos del catálogo, y puede convertirlos a productos de inventario cuando sea necesario. Puede aumentar o reducir la cantidad de un producto en el inventario registrándolo directamente desde los movimientos de producto, por ejemplo, después de un recuento físico o si no registra compras.
 
 Los aumentos y las disminuciones de inventario también se registran cuando registra documentos de compra y de ventas respectivamente. Para obtener más información, vea [Registrar compras](purchasing-how-record-purchases.md), [Vender productos](sales-how-sell-products.md) y [Facturar ventas](sales-how-invoice-sales.md). Las transferencias entre almacenes cambian las cantidades de inventario en los almacenes de la empresa.   
@@ -54,7 +54,7 @@ La siguiente tabla describe las tareas relacionadas.
 |Configure el seguimiento de productos para poder realizar un seguimiento de los números de serie de los productos, por ejemplo, para realizar un seguimiento de los productos en caso de recuperaciones.|[Configurar el seguimiento de productos con números de serie, de lote y de paquete](inventory-how-setup-item-tracking.md)|
 |Asigne números de serie o números de lote a cualquier documento o línea del diario saliente o entrante.|[Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)|
 |Encuentre donde se usó un número de serie o de lote en su cadena de suministro, por ejemplo, en situaciones de recuperación.|[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)|
-|Configure la descripción del producto del vendedor o del cliente en su ficha de artículo para que pueda insertar rápidamente la descripción del producto en los documentos comerciales.|[Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md)|
+|Configure la descripción del producto del vendedor o del cliente en su ficha de artículo para que pueda insertar rápidamente la descripción del producto en los documentos comerciales.|[Usar referencias de producto](inventory-how-use-item-cross-refs.md)|
 |Bloquear que un producto entre en líneas de compras y ventas, o que no se registre en ninguna transacción.|[Bloquear productos](inventory-how-block-items.md)|
 |Administre las operaciones comerciales en las oficinas de ventas, en los departamentos de compras o en las oficinas de planificación de plantas en múltiples ubicaciones.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
 |Utilice recursos con habilidades específicas para diversos servicios y elementos de servicio.|[Configurar asignación de recursos](service-how-setup-resource-allocation.md)|

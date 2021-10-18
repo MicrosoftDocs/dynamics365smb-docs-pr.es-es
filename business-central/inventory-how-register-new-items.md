@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.date: 07/29/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 34a7c73cd82d63a2ca5b549e7d1cedf582a32465
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440446"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587714"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 
@@ -40,13 +40,7 @@ En el siguiente procedimiento se explica cómo crear una ficha de producto desde
 
 ## <a name="to-create-a-new-item-card"></a>Para crear una nueva ficha de producto.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
-2. En la página **Productos**, seleccione la acción **Nuevo**.
-
-    Si solo existe una plantilla de producto, se abre una nueva ficha de producto con algunos de los campos rellenados con la información de la plantilla.
-3. En la página **Seleccionar una plantilla para un producto nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de producto.
-4. Elija el botón **Aceptar**. Se abre una nueva ficha de producto con algunos de los campos rellenados con la información de la plantilla.
-5. Empiece a rellenar o cambiar campos en la ficha de producto según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
 > En el campo **Valoración de existencias**, determinará la forma en que se calcula el coste unitario, presumiendo el flujo de productos físicos por la empresa. Hay cinco métodos de valoración de existencias, según del tipo de producto. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).

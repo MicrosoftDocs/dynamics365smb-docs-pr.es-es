@@ -10,20 +10,21 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770968"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606444"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditar cambios en Business Central
 Un desafío común en muchas aplicaciones de gestión empresarial es evitar cambios no deseados en los datos. Podría ser cualquier cosa, desde un número de teléfono incorrecto de un cliente hasta un registro incorrecto en la contabilidad. Este tema describe las capacidades para averiguar qué cambió, quién lo cambió y cuándo se realizó el cambio.
 
 ## <a name="about-the-change-log"></a>Sobre el Registro de cambios 
-El registro de cambios permite realizar un seguimiento de todas las modificaciones directas que realiza un usuario a los datos de la base de datos. Debe especificar para cada tabla y campo lo que desea que el sistema registre y, a continuación, debe activar el registro de cambios.  
+El registro de cambios permite realizar un seguimiento de todas las modificaciones directas que realiza un usuario a los datos de la base de datos. Especifique cada tabla y campo lo que desea que el sistema registre y, a continuación, active el registro de cambios.  
 
-El seguimiento de cambios puede afectar al rendimiento, lo que puede costarle tiempo, además de aumentar el tamaño de la base de datos, lo que podría costarle dinero. Para reducir esos costes, considere lo siguiente:
+El seguimiento de cambios puede afectar al rendimiento, lo que puede costarle tiempo, además de aumentar el tamaño de la base de datos, lo que podría costarle dinero. Para reducir esos costes, tenga en cuenta lo siguiente:
+
 - Tenga cuidado al elegir las tablas y las operaciones.
 - No agregue asientos contables ni documentos registrados. En su lugar, priorice los campos del sistema como Creado por y Fecha de creación.
 - No utilice el tipo de seguimiento Todos los campos. En su lugar, elija Algunos campos y realice un seguimiento solo de los campos más importantes.
@@ -32,10 +33,10 @@ El registro de cambios se basa en los cambios realizados en los datos en las tab
 
 > [!Important]
 > Los cambios se muestran en **Cambiar entradas de registro** solo después de reiniciar la sesión del usuario, lo que sucede de la siguiente manera:
-<br />
+>
 > * La sesión ha caducado y se ha actualizado.
 > * El usuario seleccionó otra empresa o área de trabajo.
-> * El usuario ha salido y ha vuelto a entrar.
+> * El usuario ha cerrado sesión y ha vuelto a iniciar sesión.
 
 ### <a name="working-with-the-change-log"></a>Trabajar con el registro de cambios
 El registro de cambios se activa y desactiva en la página **Config. log cambio**. Si un usuario activa o desactiva el registro de cambios, se registra esta actividad, de modo que siempre puede ver qué usuario ha activado o reactivado el registro de cambios.
@@ -60,7 +61,10 @@ Mantener los datos confidenciales seguros y privados es una preocupación fundam
 > El envío de notificaciones por correo electrónico requiere que configure la función de correo electrónico en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Configurar correo electrónico](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Configuración de supervisión de campos
-Puede usar la guía de configuración asistida **Configurar el cambio de campo del monitor** para especificar los campos que desea supervisar en función de los criterios de filtrado, como la clasificación de confidencialidad de datos para los campos. Para obtener más información, consulte [Clasificación de confidencialidad de datos](admin-classifying-data-sensitivity.md). La guía también le permite especificar la persona que recibirá una notificación por correo electrónico cuando se produzca un cambio y la cuenta de correo electrónico que enviará la notificación por correo electrónico. Debe especificar tanto la notificación del usuario como la cuenta desde la que enviar la notificación. Una vez que termine la guía, puede administrar la configuración para el monitoreo de campo en la página **Configuración de monitoreo de campo**. 
+Puede usar la guía de configuración asistida **Configurar el cambio de campo del monitor** para especificar los campos que desea supervisar en función de los criterios de filtrado, como la clasificación de confidencialidad de datos para los campos. Para obtener más información, consulte [Clasificación de confidencialidad de datos](admin-classifying-data-sensitivity.md). La guía también le permite especificar la persona que recibirá una notificación por correo electrónico cuando se produzca un cambio y la cuenta de correo electrónico que enviará la notificación por correo electrónico. Especifique tanto la notificación del usuario como la cuenta desde la que enviar la notificación. Una vez que termine la guía, puede administrar la configuración para el monitoreo de campo en la página **Configuración de monitoreo de campo**. 
+
+> [!NOTE]
+> Cuando especifica la cuenta de correo electrónico desde la cual enviar notificaciones, debe agregar los tipos de cuenta **Microsoft 365** o **SMTP**. Las notificaciones deben enviarse desde una cuenta que no esté asociada con un usuario real. Por lo tanto, no puede elegir el tipo de usuario **Usuario actual**. Si lo hace, no se enviarán notificaciones. 
 
 Con el tiempo, la lista de entradas de la página **Entradas de registro de campos supervisados** crecerá. Para reducir la cantidad de entradas, puede crear una directiva de retención que eliminará las entradas después de un período de tiempo específico. Para obtener más información, consulte [Definir directivas de retención](admin-data-retention-policies.md).
 
@@ -73,7 +77,13 @@ Puede administrar la configuración para el monitoreo de campo, como enviar una 
 
 ### <a name="working-with-field-monitoring"></a>Trabajar con el monitoreo de campo
 
-Las entradas para todos los valores modificados para los campos supervisados están disponibles en la página **Entradas de registro de campos supervisados**. Por ejemplo, las entradas contienen información como el campo para el que se cambió el valor, los valores originales y nuevos, quién hizo el cambio y cuándo lo hizo. Para investigar más a fondo un cambio, elija un valor para abrir la página donde se realizó. Para ver una lista de todas las entradas, elija **Entradas de cambio de campo**.
+Las entradas para todos los valores modificados para los campos supervisados están disponibles en la página **Entradas de registro de campos supervisados**. Por ejemplo, las entradas contienen la siguiente información:
+
+* El campo para el que se cambió el valor.
+* Los valores originales y nuevos.
+* Quién hizo el cambio y cuándo lo hizo. 
+
+Para investigar más a fondo un cambio, elija un valor para abrir la página donde se realizó. Para ver una lista de todas las entradas, elija **Entradas de cambio de campo**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Ver la telemetría de monitoreo de campo 
 

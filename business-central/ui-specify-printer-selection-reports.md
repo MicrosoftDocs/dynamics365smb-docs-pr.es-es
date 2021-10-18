@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437221"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547053"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 
@@ -132,9 +132,6 @@ Para obtener instrucciones detalladas sobre cómo realizar la configuración, co
     Impresión universal procesa el contenido para imprimir en formato XPS. Algunas impresoras heredadas del mercado no admiten la representación de contenido XPS; en muchos casos, solo en formato PDF. La impresión en estas impresoras producirá un error a menos que Impresión universal esté configurado para convertir documentos al formato compatible con la impresora.
 
     Para obtener más información, consulte [Información general de conversión de documentos](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > Si ninguna de sus impresoras requiere un formato de representación de contenido PDF, le recomendamos que no habilite la conversión de documentos porque podría afectar a la calidad de la salida de la impresión.
 
 Ahora, está listo para agregar las impresoras a [!INCLUDE[prod_short](includes/prod_short.md)], configurar impresoras predeterminadas para informes e imprimir.  
 

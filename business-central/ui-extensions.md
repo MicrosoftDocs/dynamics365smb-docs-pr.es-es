@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440508"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587789"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personalizar Business Central Online con extensiones
 
@@ -53,32 +53,6 @@ Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al des
 
 Algunas de las extensiones las proporciona Microsoft y otras las proporcionan [otras empresas](ui-extensions-other.md). Se prueban todas las extensiones antes de que estén disponibles, pero se recomienda acceder a los vínculos que se proporcionan con cada extensión para obtener más información sobre la extensión antes de optar por instalarla.  
 
-Microsoft proporciona las extensiones siguientes:  
-
-* [Extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
-* [Nóminas de Ceridian](ui-extensions-ceridian-payroll.md)
-* [Hub de empresas](ui-extensions-company-hub.md)  
-* [Migración de datos de Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Información de la empresa esencial](ui-extensions-essential-business-insights.md)
-* [Analizador de imágenes](ui-extensions-image-analyzer.md)
-* [Nube inteligente](ui-extensions-data-replication.md)
-* [Base de nube inteligente](ui-extensions-intelligent-cloud.md)  
-* [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)
-* [Migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
-* [Importación del archivo de nómina de QuickBooks](ui-extensions-quickbooks-payroll.md)
-* [Previsión de ventas e inventario](ui-extensions-sales-forecast.md)
-* [Grupo de IVA](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK: migración de datos de C5](ui-extensions-c5-data-migration.md)
-* [DK: pagos y conciliaciones de pagos](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK: formatos de archivo de impuestos](ui-extensions-tax-file-formats-dk.md)
-* [La extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA: enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > Puede estar atento a las nuevas extensiones de Microsoft y otros proveedores en [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
@@ -102,6 +76,12 @@ Esto también se aplica a algunas funcionalidades de la aplicación base, como l
 * Servicio OCR
 * Online Map
 * CIF/NIF de la UE Servicio
+
+## <a name="recommended-apps"></a>Aplicaciones recomendadas
+Los socios y distribuidores de Microsoft pueden crear extensiones que pueden usar para compilar listas de aplicaciones que a menudo recomiendan a sus clientes. Si lo hacen y han implementado la extensión para su inquilino, las aplicaciones estarán disponibles en la página **Aplicaciones recomendadas**. Allí puede leer sobre cada aplicación y decidir si desea instalarlas.
+
+> [!NOTE]
+> Si es un socio o distribuidor de Microsoft y está interesado en proporcionar una lista de aplicaciones recomendadas, consulte [Recomendar aplicaciones de AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## <a name="see-also"></a>Consulte también
 

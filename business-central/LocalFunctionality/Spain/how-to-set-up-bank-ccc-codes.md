@@ -1,8 +1,6 @@
 ---
-title: Configuración de códigos CCC de bancos
+title: Configurar códigos CCC de bancos [ES]
 description: El Código Cuenta Cliente (CCC) es un código de cuenta único usado por los bancos para identificar a sus clientes. El código CCC se imprime en los documentos bancarios, como cheques y extractos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6728a95aa332afa15f1cecc68a1472406fa0e79d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2e885b9dff8f488035ddbb5e36eaead7561059b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436343"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588800"
 ---
-# <a name="set-up-bank-ccc-codes"></a>Configurar códigos CCC de bancos
-El Código Cuenta Cliente (CCC) es un código de cuenta único usado por los bancos para identificar a sus clientes. El código CCC se imprime en los documentos bancarios, como cheques y extractos.  
+# <a name="set-up-bank-ccc-codes-in-the-spanish-version"></a>Configurar códigos bancarios CCC en la versión en español
+
+El Código Cuenta Cliente (CCC) es un código de cuenta único usado por los bancos españoles para identificar a sus clientes. El código CCC se imprime en los documentos bancarios, como cheques y extractos.  
 
 Se pueden configurar códigos CCC en las siguientes ubicaciones:  
 
@@ -33,11 +32,11 @@ El procedimiento siguiente describe cómo configurar códigos CCC de banco para 
 
 ## <a name="to-enter-ccc-codes"></a>Para introducir códigos CCC  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
-2.  Rellene los campos de la ficha desplegable **Pagos**, tal como se describe en la tabla siguiente.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
+2. Rellene los campos de la ficha desplegable **Pagos**, tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
-    |---------------------------------|--------------|---------------------------------------|  
+    |Campo           |Posición |Descripción                            |  
+    |----------------|---------|---------------------------------------|  
     |**CCC Cód. banco**|1-4|Identifica el banco en el que se ha abierto la cuenta.|  
     |**CCC Cód. oficina**|5-8|Identifica el código de la oficina. Si el banco no utiliza esta referencia, el código de la oficina pueden ser ceros.|  
     |**CCC Dígito control**|9-10|Identifica los dígitos de control.|  
@@ -47,15 +46,16 @@ El siguiente procedimiento describe cómo configurar códigos bancarios CCC para
 
 ## <a name="to-set-up-bank-ccc-codes-for-a-customer-bank-account"></a>Para configurar códigos CCC de banco de un banco cliente  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco cliente** y luego elija el enlace relacionado.  
-2.  En la ficha desplegable **Transferencia**, escriba la información en los campos CCC relevantes.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco cliente** y luego elija el enlace relacionado.  
+2  En la ficha desplegable **Transferencia**, escriba la información en los campos CCC relevantes.  
 
     > [!NOTE]  
     >  Debe configurar información de la empresa en la ficha desplegable **Pagos**.  
 
-3.  Elija el botón **Aceptar**.  
+3. Elija el botón **Aceptar**.  
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Configurar bancos](../../bank-how-setup-bank-accounts.md) 
 
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649867"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588887"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 
@@ -60,6 +60,15 @@ La siguiente tabla describe los valores del campo **Estado**.
 
 > [!TIP]
 > También puede ver el estado de los movimientos de la cola de proyectos utilizando Application Insights en Microsoft Azure para un análisis más profundo basado en telemetría. Para obtener más información, consulte [Supervisión y análisis de telemetría](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) y [Análisis de la telemetría de seguimiento del ciclo de vida de la cola de proyectos](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) en el [!INCLUDE [prod_short](includes/prod_short.md)] contenido de desarrolladores y administración.
+
+## <a name="view-scheduled-tasks"></a>Ver tareas programadas
+
+La página **Tareas programadas** de [!INCLUDE [prod_short](includes/prod_short.md)] muestra qué tareas están listas para ejecutarse en la cola de trabajos. La página también muestra información sobre la empresa para la que está configurada cada tarea. Sin embargo, solo se pueden ejecutar las tareas marcadas como pertenecientes al entorno actual.  
+
+Por ejemplo, si la empresa actual se encuentra en un entorno que es una copia de otro entorno, todas las tareas programadas se detienen automáticamente. Utilice la página **Tareas programadas** para establecer tareas listas para ejecutarse en la cola de trabajos.  
+
+> [!NOTE]
+> Los administradores y usuarios internos pueden programar tareas para que se ejecuten. Los administradores delegados no pueden.
 
 ## <a name="the-my-job-queue-part"></a>El apartado de Mi cola proyecto
 El apartado **Mi cola proyecto** del Área de trabajo muestra los movimientos de colas de proyectos que se han iniciado, pero que aún no han finalizado. Por defecto, el apartado no puede verse, por lo que tiene que agregarlo en el área de trabajo. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).  

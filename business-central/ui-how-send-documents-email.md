@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435249"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588456"
 ---
 # <a name="send-documents-and-emails"></a>Enviar documentos y correo electrónico
 
-Puede compartir fácilmente información y documentos, como órdenes de compra y venta y facturas, por correo electrónico directamente desde [!INCLUDE[prod_short](includes/prod_short.md)]], sin tener que abrir una aplicación de correo electrónico.  
+Puede compartir fácilmente información y documentos, como órdenes de compra y venta y facturas, por correo electrónico directamente desde [!INCLUDE[prod_short](includes/prod_short.md)], sin tener que abrir una aplicación de correo electrónico.  
 
 Puede enviar casi todos los tipos de documentos como archivos adjuntos PDF. Alternativamente, puede configurar un diseño de informe que incluya información del documento en el texto del correo electrónico, junto con texto que haga que el correo electrónico sea más amigable, por ejemplo, un saludo estándar. Para obtener más información, vea [Administrar diseños de informes y documentos](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -33,7 +33,7 @@ Para activar los correos electrónicos en [!INCLUDE[prod_short](includes/prod_sh
 Este procedimiento describe cómo adjuntar una factura de venta registrada a un correo electrónico como un archivo PDF y con el texto del correo electrónico específico del documento. <!--update this-->
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.
-2. Seleccione la factura de ventas registrada relevante y, a continuación, elija la acción **Imprimir/Enviar**.
+2. Seleccione la factura, elija la acción **Imprimir/Enviar** y, después, elija **Enviar**.
 3. en el campo **Correo electrónico** elija **Sí (Mensaje para configuración)**. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
     
     Si el campo **Correo electrónico** en la página **Enviar documento a** se establece en **Sí (Mensaje para configuración)**, se abre la página **Enviar correo electrónico** rellenada previamente con el contacto en el campo **Para:** y el documento adjunto es un archivo PDF. En el campo **Cuerpo**, puede introducir tanto el texto manualmente como disponer del campo rellenado con un contenido específico de un documento en el cuerpo del correo electrónico que ha configurado.
@@ -51,9 +51,10 @@ Este procedimiento describe cómo adjuntar una factura de venta registrada a un 
 > Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la página **Enviar documento a**. En ese caso, la página **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Para redactar y enviar un correo electrónico
+Puede redactar rápidamente correos electrónicos para contactos, clientes, proveedores, vendedores/compradores y cuentas bancarias directamente desde las páginas de esas entidades. Solo tiene que elegir **Proceso** y luego **Enviar correo electrónico** para abrir el editor de correo electrónico. Para cuentas bancarias, la acción **Enviar correo electrónico** está en **Acciones**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas de correo electrónico** y luego elija el enlace relacionado.
-2. Elija la cuenta desde la que enviar el correo electrónico y luego elija la acción **Escribir correo**.
+> [!TIP]
+> Si a menudo envía mensajes de correo electrónico que son de naturaleza similar, o desea enviar una comunicación masiva, por ejemplo, para anunciar una campaña de ventas, el uso de plantillas de Word con correo electrónico puede acelerar el proceso. Puede crear una plantilla para entidades como clientes, proveedores y contactos, que generará el contenido de un mensaje de correo electrónico por usted e incluso personalizará el contenido para el destinatario en función de los datos en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar plantillas de Word para comunicación masiva](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documentos marcados como impresos cuando se envían
 

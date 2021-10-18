@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 921eb4cc054ee61ffac543b68f19097927c511e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442115"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587920"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Eliminar y liquidar de nuevo los movimientos contables de producto
 En la página **Hoja liquidación**, puede ver y modificar manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.  
@@ -40,8 +40,9 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
     - Es posible eliminar liquidaciones de más de un movimiento a la vez desde la hoja de liquidación. Sin embargo, dado que la liquidación de movimientos afecta al conjunto de movimientos disponibles para ser liquidados, no es posible crear una liquidación para más de un movimiento a la vez.
     - La hoja de liquidación no puede realizar una liquidación si se da el caso siguiente: si no hay suficiente cantidad que liquidar en el stock, la hoja de liquidación no puede llevar a cabo el proceso si intente liquidar un movimiento de salida de existencias que no incluya información de seguimiento del producto con un movimiento de salida de existencias que sí incluya información de seguimiento.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Para eliminar una liquidación de producto con la Hoja de liquidación  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja liquidación** y, a continuación, elija el vínculo relacionado.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Para eliminar una liquidación de producto con la Hoja de liquidación
+
+1.  Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja liquidación** y, a continuación, elija el vínculo relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
 3.  Especifique los filtros en la ficha desplegable **General** para facilitar el movimiento del producto para el cual desea cambiar la liquidación.  
 4.  Seleccione el movimiento de producto relevante y, a continuación, seleccione la acción **Movs. liquidados**. Se abre la página **Ver, Movs. conciliados - Movs. conciliados** para mostrar los movimientos de producto que se aplican actualmente al movimiento seleccionado.  
@@ -54,10 +55,11 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
 > [!IMPORTANT]  
 >  No debe dejar movimientos de liquidación sin liquidar durante periodos más largos porque otros usuarios no pueden procesar los productos afectados hasta que vuelva a liquidar los movimientos o cierre la página **Hoja liquidación**. Se muestra el mensaje de error siguiente si intenta realizar acciones relacionadas con un movimiento de liquidación no aplicado manualmente:  
 >   
->  **No puede realizar esta acción porque los movimientos del producto <item> no están liquidados en la Hoja de liquidación del usuario <user>.**  
+>  **No puede realizar esta acción porque los movimientos del producto \<item\> no están liquidados en la Hoja de liquidación del usuario \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Para volver a liquidar un producto con la Hoja liquidación  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja liquidación** y, a continuación, elija el vínculo relacionado.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Para volver a liquidar un producto con la Hoja liquidación
+
+1.  Elija el icono ![Bombilla que abre la función Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja liquidación** y, a continuación, elija el vínculo relacionado.  
 2.  La página **Hoja liquidación** se abre y muestra los movimientos de producto existentes para todos los productos.  
 3.  Para volver a liquidar los movimientos que se eliminaron desde que abriera la hoja de trabajo, seleccione el movimiento que desea volver a liquidar y, a continuación, elija la acción **Liquidar de nuevo**.  
 
@@ -72,7 +74,8 @@ Si no puede usar un documento para volver a liquidar, por ejemplo cuando tiene q
     >  Si ha elegido llevar a cabo una liquidación que creará un bucle infinito en el proceso de ajuste del coste, la liquidación que ha propuesto no se realiza. Esto puede ocurrir cuando los movimientos originales han creado stock negativo. La liquidación no se realiza. Por tanto, debe seleccionar un movimiento diferente para la liquidación.  
 6.  Si en la configuración de existencias, el campo **Ajuste automático coste** en **Configuración inventario** se ha establecido en **Siempre**, se ejecuta automáticamente el trabajo por lotes de ajuste del coste una vez que se haya repetido la liquidación De lo contrario, ejecute el trabajo por lotes **Valorar stock - movs. producto** para asegurarse de que todos los costes estén actualizados.  
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también
+
 [Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)   

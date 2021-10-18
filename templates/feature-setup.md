@@ -1,0 +1,36 @@
+---
+title: Configurar una capacidad máxima de 46 caracteres
+description: Aprenda a configurar Business Central para que pueda hacer lo que sea (la longitud máxima es de 160 caracteres, que es esta longitud).
+author: myGitHubHandle
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.date: 10/01/2021
+ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
+ms.openlocfilehash: e729861acd836dd1743822a0ebb2ba3b6b0848aa
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606497"
+---
+# <a name="set-up-this-feature-in-max-100-characters"></a>Configure esta función en un máx. de de 100 caracteres.
+
+Use [!INCLUDE [prod_short](includes/prod_short.md)] para el nombre del producto y escriba en oraciones activas, como "Haga el trabajo más rápido" y "Con esta capacidad, puede X".  
+
+Para obtener sugerencias sobre MarkDown y el estilo, consulte [Guía de creación para Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+
+Recuerde agregar los enlaces Ver también y agregar el nuevo artículo al archivo TOC.md.  
+
+## <a name="to-set-up-something"></a>Para configurar algo
+
+1. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Nombre de la página** y luego elija el enlace relacionado.
+2. En la página **Nombre de la página**, rellene los campos. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > Agregue una nota sobre este paso.
+3. El tercer paso.
+
+## <a name="see-also"></a>Consulte también .
+
+[Preparación para hacer negocios](ui-get-ready-business.md)  
+[Administración](admin-setup-and-administration.md)  

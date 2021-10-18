@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438412"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588231"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Crear flujos de trabajo para conectar tareas de procesos empresariales
 
@@ -133,7 +133,7 @@ En el siguiente ejemplo se crea un nuevo flujo de trabajo para aprobar cambios e
     2. En el campo **Condición On**, elija la palabra **Siempre** y, luego, en la página **Condiciones del evento**, elija el vínculo **Agregar una condición para cuando cambie el valor de un campo** y luego seleccione el campo *Nombre*.  
 
       El resultado de este paso es que la condición se lee como *Se cambia el nombre*.  
-    3. En el campo **Respuesta Entonces**, elija el enlace **Seleccionar respuesta** y luego, en la página **Respuestas de flujo de trabajo**, en el campo **Seleccionar respuesta**, elija la respuesta *Revertir el valor del campo <Field> en el registro y guardar el cambio* y luego, en la sección **Opciones para la respuesta seleccionada**, especifique el campo *Nombre*.  
+    3. En el campo **Respuesta Entonces**, elija el enlace **Seleccionar respuesta** y luego, en la página **Respuestas de flujo de trabajo**, en el campo **Seleccionar respuesta**, elija la respuesta *Revertir el valor del campo \<Field\> en el registro y guardar el cambio* y luego, en la sección **Opciones para la respuesta seleccionada**, especifique el campo *Nombre*.  
     4. Elija el enlace **Agregar más respuestas** y luego agregue una entrada para la respuesta *Crear una solicitud de aprobación para el registro utilizando el tipo de aprobador <%1> y <%2>.* .  
     5. En la sección **Opciones para la respuesta seleccionada** para la nueva respuesta, cambie el campo **Tipo de aprobador** a *Grupo de usuarios de flujo de trabajo* y luego en el campo **Grupo de usuarios de flujo de trabajo**, especifique el grupo de usuarios relevante.  
 

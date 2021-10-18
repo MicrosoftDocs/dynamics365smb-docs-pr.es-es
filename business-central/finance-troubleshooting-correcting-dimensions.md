@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
-ms.date: 04/01/2021
+ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
-ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
+ms.openlocfilehash: 111e9b3dae70cc984ecc495a815de3d41ef42133
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373243"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589012"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Resolución de problemas y corrección de dimensiones
+
 Las vistas de análisis e informes financieros a menudo se basan en datos de dimensiones. A pesar de las salvaguardas disponibles, a veces ocurre un error que puede dar lugar a inexactitudes. Este tema describe algunos de los errores típicos y explica cómo corregir las asignaciones de dimensión en las transacciones registradas para que los informes financieros sean precisos.
 
 ## <a name="troubleshooting-dimensions-errors"></a>Solución de errores de dimensiones
+
 Sin embargo, cuando se registran documentos o líneas de diario que contienen dimensiones, pueden producirse varios errores que suelen estar relacionados con una configuración o asignación de dimensiones errónea.
 
 > [!NOTE]
@@ -42,30 +44,33 @@ Sin embargo, cuando se registran documentos o líneas de diario que contienen di
 |Una corrección de dimensión no se completa correctamente.||-Elija **Restablecer** para revertir la corrección a un estado de borrador. Esto restablece los cambios y puede ejecutar de nuevo la corrección.|
 
 ## <a name="changing-dimension-assignments-after-posting"></a>Cambio de asignaciones de dimensión después del registro
+
 Si descubre que se ha usado una dimensión incorrecta en los movimientos de contabilidad, puede corregir los valores de dimensión y actualizar sus vistas de análisis. Eso ayudará a que sus informes y análisis financieros sean precisos.
 
 > [!IMPORTANT]
 > Las funciones para corregir dimensiones están destinadas únicamente a ayudar a que los informes financieros sean precisos. Las correcciones de dimensión se aplican solo a las entradas de movimientos. No cambian las dimensiones asignadas a los asientos en otros libros mayores para la misma transacción. Habrá una discrepancia entre las dimensiones asignadas en el libro mayor y los libros secundarios.
 
 ### <a name="setting-up-dimension-corrections"></a>Configuración de correcciones de dimensión
+
 Hay dos cosas a tener en cuenta al configurar correcciones de dimensión:
 
 * ¿Hay dimensiones que no desea que la gente cambie? En la página **Configuración de corrección de dimensión**, especifique las dimensiones que desea bloquear para cambios.
 * ¿A quién quiere permitir que cambie de dimensión? Para permitir que las personas realicen cambios, asigne el permiso **CORRECCIÓN DIM. D365** a los usuarios. Los permisos les permiten crear correcciones de dimensión, ejecutarlas y deshacerlas si es necesario. También podrán especificar dimensiones bloqueadas. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md). 
 
 ### <a name="correcting-a-dimension"></a>Corrección de una dimensión
+
 Puede seleccionar manualmente uno o varios movimientos de contabilidad o usar filtros para seleccionar conjuntos de movimientos. Si es necesario, también puede agregar o eliminar dimensiones. 
 
 1. Para iniciar una corrección de dimensión, use una de las siguientes páginas:
 
-* En la página **Registro contabilidad**, seleccionando un registro y luego eligiendo la acción **Corregir dimensiones**. Esto inicia una corrección para los movimientos en el registro seleccionado.
-* En la página **Movs. contabilidad**, eligiendo la acción **Corrección de dimensión**. 
+    * En la página **Registro contabilidad**, seleccionando un registro y luego eligiendo la acción **Corregir dimensiones**. Esto inicia una corrección para los movimientos en el registro seleccionado.
+    * En la página **Movs. contabilidad**, eligiendo la acción **Corrección de dimensión**. 
 
 2. En el campo **Descripción**, introduzca cualquier información sobre el cambio. Otras personas pueden usar esta información más adelante para comprender lo que se hizo.
 3. En la ficha desplegable **Movimientos seleccionados**, elija los movimientos pertinentes.
 
-> [!IMPORTANT]
-> Cuando cambia una selección, se restablecen los valores de la ficha desplegable **Cambios de corrección de dimensión**. Por lo tanto, seleccione siempre los movimientos antes de especificar cambios en el valor de dimensión.
+    > [!IMPORTANT]
+    > Cuando cambia una selección, se restablecen los valores de la ficha desplegable **Cambios de corrección de dimensión**. Por lo tanto, seleccione siempre los movimientos antes de especificar cambios en el valor de dimensión.
 
    La siguiente tabla describe las opciones.
 
@@ -83,43 +88,41 @@ Puede seleccionar manualmente uno o varios movimientos de contabilidad o usar fi
 6. Elija **Ejecutar**.
 
 ### <a name="validating-dimension-corrections"></a>Validación de correcciones de dimensión
+
 Antes de ejecutar una corrección, es una buena idea validarla primero. La validación comprueba las restricciones sobre el valor al registrar para las cuentas de contabilidad, las restricciones para las dimensiones y si los valores de las dimensiones están bloqueados. Durante la validación, el estado de la corrección se establece en **Validación en proceso**. Después de validar una corrección, el resultado se muestra en el campo **Estado de validación**. Si se encontraron errores, puede usar la acción **Ver errores** para investigarlos. Después de corregir un error, debe usar la acción **Reabrir** para ejecutar la corrección o una nueva validación.
 
 Puede ejecutar una corrección inmediatamente o programarla para que se ejecute más adelante. Si está ejecutando correcciones en un conjunto de datos grande, le recomendamos que lo programe para que se ejecute fuera del horario comercial. Para obtener más información, consulte [Correcciones de dimensión en grandes conjuntos de datos](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
 ### <a name="undoing-a-correction"></a>Deshacer una corrección
+
 Después de corregir una dimensión, si no le gusta lo que ve, puede usar la acción **Deshacer** para restablecer el valor anterior. Sin embargo, solo puede deshacer la corrección más reciente. Antes de deshacer una corrección, puede validar los cambios que hará la anulación. Por ejemplo, esto resulta útil si las restricciones de dimensión han cambiado después de que se realizase la corrección.
 
 Si la acción Deshacer no está disponible, por ejemplo, porque ha realizado muchas correcciones, puede usar la acción **Copiar a borrador** para iniciar una nueva corrección para las mismas entradas.
 
 ### <a name="dimension-corrections-on-large-data-sets"></a>Correcciones de dimensión en grandes conjuntos de datos
+
 Tenga cuidado al corregir grandes conjuntos de entradas, por ejemplo, conjuntos que incluyan más de 10 000 entradas. Si puede, le recomendamos que use los filtros para ejecutar las correcciones en conjuntos de datos más pequeños. También es una buena idea realizar correcciones fuera del horario comercial habitual. 
 
 ### <a name="using-analysis-views-with-dimension-corrections"></a>Usar vistas de análisis con correcciones de dimensión
+
 Si **Actualizar al registrar** está habilitado para una vista de análisis, [!INCLUDE[prod_short](includes/prod_short.md)] puede ver cuándo se registran los documentos y diarios. También puede actualizar las vistas con esta configuración habilitada con los resultados de las correcciones de dimensión. Para ello, active el control de alternancia **Actualizar vistas de análisis**. La actualización de las vistas de análisis puede afectar al rendimiento, especialmente para grandes conjuntos de datos, por lo que le recomendamos que actualice las vistas de análisis solo para conjuntos de datos pequeños.  
 
 ### <a name="viewing-historical-dimension-corrections"></a>Visualización de correcciones de dimensión históricas
+
 Si se ha corregido un movimiento de contabilidad, puede investigar el cambio usando la acción **Historial de correcciones de dimensión**.
 
 ### <a name="handling-incomplete-corrections"></a>Gestión de correcciones incompletas
+
 Si una corrección no se completa, aparecerá una advertencia en la ficha de corrección. Si eso sucede, puede usar la acción **Restablecer** para revertir la corrección a un estado de borrador y deshacer los cambios. A continuación, puede volver a ejecutar la corrección.
 
 > [!NOTE]
 > Restablecer una corrección incompleta no afectará a las actualizaciones de las vistas de análisis porque se producen al final del proceso de corrección.
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Usar la contabilidad de costes con movimientos de contabilidad corregidos
-Después de corregir las dimensiones, sus datos para la contabilidad de costes no estarán sincronizados. La contabilidad de costes usa dimensiones para agregar cantidades para centros de coste y objetos de coste, y para ejecutar asignaciones de costes. Cambiar las dimensiones para movimientos de contabilidad probablemente signifique volver a ejecutar sus modelos de contabilidad de costes. Si solo necesita eliminar algunos registros de costes y volver a ejecutar asignaciones, o si necesita eliminar todo y volver a ejecutar todos sus modelos, depende de los datos que se hayan actualizado y de cómo estén configuradas sus capacidades de contabilidad de costes. Identificar dónde afectarán las correcciones de dimensión a la contabilidad de costes y dónde se necesitan actualizaciones es un proceso manual. [!INCLUDE[prod_short](includes/prod_short.md)] no ofrece actualmente una forma automatizada de hacerlo.
 
-## <a name="correcting-number-assignments-for-global-dimensions"></a>Corrección de asignaciones de números para dimensiones globales
-En la tabla Mov. grupo dimensiones se asignan las dimensiones globales **0** en el campo N.º dim. acceso directo y a las dimensiones de acceso directo se les asigna su número de dimensión de acceso directo, que puede ser de 1 a 8. Algunos informes utilizan estas asignaciones de números para determinar los valores que se utilizarán en los cálculos.
-
-Cuando los valores de dimensión se importan mediante el uso de paquetes de configuración que se crearon sin ejecutar desencadenadores de validación, o mediante el uso de código personalizado para llamar a los métodos Insertar o Modificar sin ejecutar los desencadenadores de validación OnInsert u OnModify, a veces a las dimensiones de acceso directo se les asigna un número que no es 0. Cuando esto ocurre, los cálculos serán incorrectos para las dimensiones en los diarios generales periódicos que utilizan los métodos periódicos Saldo de BD por cuenta o Saldo de BD por dimensiones. 
-
-Si se asigna un número incorrecto, cuando intenta publicar o obtener una vista previa de los diarios en la página **Diarios generales periódicos**, aparecerá la página **Mensajes de error**. Desde la página de Mensajes de error, puede elegir el enlace en el campo **Origen** para ejecutar un informe que corrija las asignaciones de números de dimensión de acceso directo en la tabla Entrada de conjunto de dimensiones. Alternativamente, también puede buscar **Actualizar N.º dimensión de acceso directo para Movimientos de grupo de dimensiones** para ejecutar el informe.
-
-Después de ejecutar el informe, en la página **Cambiar entradas de registro** puede revisar los cambios realizados en el número en el campo N.º dimensión global . [!INCLUDE[prod_short](includes/prod_short.md)] siempre registra los valores nuevos y anteriores. 
+Después de corregir las dimensiones, sus datos para la contabilidad de costes no estarán sincronizados. La contabilidad de costes usa dimensiones para agregar cantidades para centros de coste y objetos de coste, y para ejecutar asignaciones de costes. Cambiar las dimensiones para movimientos de contabilidad probablemente signifique volver a ejecutar sus modelos de contabilidad de costes. Si solo necesita eliminar algunos registros de costes y volver a ejecutar asignaciones, o si necesita eliminar todo y volver a ejecutar todos sus modelos, depende de los datos que se hayan actualizado y de cómo estén configuradas sus capacidades de contabilidad de costes. Debe identificar manualmente dónde afectarán las correcciones de dimensión a la contabilidad de costes y dónde se necesitan actualizaciones. [!INCLUDE[prod_short](includes/prod_short.md)] no ofrece actualmente una forma automatizada de hacerlo.
 
 ## <a name="see-also"></a>Consulte también
-[Descripción general de Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)
+
 [Trabajar con dimensiones](finance-dimensions.md)
-[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)
+[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)  

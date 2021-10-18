@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: cálculo del trabajo en curso para un proyecto | Documentos de Microsoft'
+title: 'Tutorial: cálculo del trabajo en curso para un proyecto'
 description: Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445231"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588122"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
 
@@ -52,7 +52,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 |Campo|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Deje el campo en blanco si la tarea del proyecto es parte de un grupo de tareas.|  
+|**\<blank\>**|Deje el campo en blanco si la tarea del proyecto es parte de un grupo de tareas.|  
 |**Total**|Define el rango o grupo de tareas que se incluyen en el cálculo del WIP y del reconocimiento. En el grupo, cualquier tarea de proyecto con **Tipo tarea proyecto** definido como **Registro** se incluirá en el total WIP, a menos que el campo **Total WIP** se defina como **Excluido**.|  
 |**Excluido**|Se aplica sólo a una tarea con el **Tipo tarea proyecto** **Registro**. La tarea no se incluye cuando se calcula el WIP y el reconocimiento.|  
 

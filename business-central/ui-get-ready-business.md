@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444825"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589137"
 ---
 # <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
 
@@ -32,7 +32,7 @@ También puede encontrar la lista de guías de configuración asistida si elige 
 
 ## <a name="get-started"></a>Introducción
 
-A partir del lanzamiento de versiones 1 de 2021, cuando inicia sesión por primera vez o lanza una nueva empresa, la lista de comprobación **Introducción** le lleva por los pasos para prepararse para el negocio. Los pasos varían según su país y cualquier funcionalidad específica del sector que haya agregado a su [!INCLUDE [prod_short](includes/prod_short.md)].  
+Cuando inicia sesión por primera vez o lanza una nueva empresa, la lista de comprobación **Introducción** le lleva por los pasos para prepararse para el negocio. Los pasos varían según su país y cualquier funcionalidad específica del sector que haya agregado a su [!INCLUDE [prod_short](includes/prod_short.md)]. A partir del lanzamiento de versiones 2 de 2021, cuando inicie sesión por primera vez en la empresa de demostración CRONUS, su página de inicio está optimizada para sus primeras experiencias. Si prefiere ver más vínculos a más páginas, simplemente cambie al rol de administrador de negocio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
 
 Una vez haya migrado los datos, como los proveedores, clientes o productos de su sistema financiero existente, está listo para empezar. Pero en función de sus necesidades, considere si las otras guías de configuración asistida pueden ayudarle.
 
@@ -43,7 +43,7 @@ Si un área no está cubierta por una configuración asistida, elija el icono ![
 >
 > La primera vez que inicie sesión, use la experiencia **Esencial**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**. <!--VERIFY-->  
+Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**.  
 
 ## <a name="teaching-tips-and-tours"></a>Consejos didácticos y recorridos
 
@@ -80,13 +80,18 @@ Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de su página de inicio para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta.
+Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de su página de inicio para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta. Eche un vistazo a los artículos de [inicio rápido](quick-start-business-central.md) que le ayudarán a dar los primeros pasos.  
 
 ## <a name="see-also"></a>Consulte también .
 
+[Inicio rápido de Business Central](quick-start-business-central.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Cambiar la configuración básica](ui-change-basic-settings.md)  
+[Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)  
+[Versiones de prueba y suscripciones](across-preview.md)  
+[Funciones empresariales](across-business-functionality.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
-[Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
+[Buscar en el panel de ayuda](product-help-and-support.md#search-in-the-help-pane)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Sitio de Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

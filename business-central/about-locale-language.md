@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776452"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588406"
 ---
 # <a name="changing-language-and-region"></a>Cambiar idioma y región
 
@@ -33,7 +33,7 @@ Cambiar los textos que se almacenan como datos de la aplicación no forma parte 
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] sólo admite un juego de caracteres únicos para los datos. Por lo tanto, es posible que la suscripción no admita algunos caracteres en su entorno y que surjan problemas a la hora de recuperar datos introducidos con un juego de caracteres diferente. Por ejemplo, es posible que su entorno solo admita los caracteres de inglés y ruso y si introduce datos en un idioma diferente, es posible que éstos no se almacenen correctamente. Póngase en contacto con el administrador del sistema para asegurarse de conocer los idiomas compatibles con su [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-the-region"></a>Cambiar de configuración regional
+## <a name="changing-your-region-setting"></a>Cambiar la configuración de su región
 La configuración regional es distinta del idioma y los requisitos legales en mercados local. La región determina cómo la información se muestra en términos de separador de comas, alineación a la izquierda o a la derecha, y algunos otros valores. La región también determinará algunos de los productos del sistema en el explorador, como la acción para crear un producto nuevo en una lista, por ejemplo.  
 
 Puede cambiar configuración regional de la pestaña del explorador que utiliza para trabajar [!INCLUDE[prod_short](includes/prod_short.md)]. El cambio solo se aplica a usted y no a los demás usuarios en la empresa.  La elección de la región se restablecerá a su configuración en su perfil de Microsoft 365 si su administrador sincroniza usuarios de Microsoft 365 a [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,6 +42,11 @@ Puede cambiar configuración regional de la pestaña del explorador que utiliza 
 > Cuando modifica la configuración regional, aparecerá una lista de larga idiomas de y regiones. Sin embargo, el idioma no está influenciado por la elección de la región.  
 
 Para cambiar configuración regional, vaya a la página **Mi configuración**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
+
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Cambiar la configuración de región para clientes, contactos y proveedores
+Algunas empresas utilizan un servicio externo que valida la información de dirección en su país o región. Sin embargo, cuando necesita actualizar la información de dirección, es posible que el enfoque estructurado que utilizan estos servicios no siempre sea el adecuado para algunos escenarios. Business Central ofrece un medio más flexible para ingresar los detalles de la dirección.
+
+En la página **Configuración de contabilidad**, si activa el botón de alternancia **Requerir el código de país o región en la dirección**, los cambios en el campo **Código de país/región** en direcciones para clientes, contactos o proveedores restablecerán los valores en otros campos de dirección.
 
 ## <a name="application-version"></a>Versión de la aplicación
 

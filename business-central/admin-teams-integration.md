@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443211"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589087"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -37,8 +37,10 @@ Esta sección describe los requisitos mínimos para que la características de l
     |----|---|---|
     |Buscar contactos de [!INCLUDE [prod_short](includes/prod_short.md)].|![marca de verificación.](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
     |Pegue un vínculo a un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación y envíelo como una tarjeta.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
+    |Comparta un enlace de una página en [!INCLUDE [prod_short](includes/prod_short.md)] con una conversación de Teams.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
     |Vea una tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")||
     |Vea más detalles de la tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
+    |Abra un enlace de página en [!INCLUDE [prod_short](includes/prod_short.md)] desde una conversación.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
 
 - Permitir vistas previas de URL
 
@@ -68,7 +70,7 @@ Para obtener más información, consulte los siguientes productos de la document
 - <a name="permissions"></a>Permisos de usuario:
 
     En su mayor parte, la búsqueda de contactos, las páginas y los datos que los usuarios pueden ver y editar en una conversación de Teams están controlados por sus permisos en [!INCLUDE [prod_short](includes/prod_short.md)].
-    
+
     - Para buscar contactos, los usuarios deben tener al menos permiso de lectura para la tabla **Contactos**. 
     - Para pegar un vínculo [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación de Teams y hacer que se expanda en una tarjeta, los usuarios deben tener al menos permiso de lectura en la página y sus datos.
     - Una vez que se envía una tarjeta a una conversación, cualquier usuario de esa conversación puede ver esa tarjeta sin permiso de [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -77,11 +79,35 @@ Para obtener más información, consulte los siguientes productos de la document
     
     Para obtener información sobre permisos, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).
 
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Instalación de la aplicación Business Central mediante Implementación centralizada
+
+El centro de administración de Microsoft Teams es donde se configuran las políticas de configuración de aplicaciones de Teams para la organización. En el centro de administración de Teams, puede usar la función Implementación centralizada para instalar automáticamente la aplicación Business Central en Teams para todos los usuarios de su organización, grupos específicos o usuarios individuales.
+
+> [!NOTE]
+> Para configurar Implementación centralizada, su cuenta de Teams debe tener el rol **Administrador de servicio de Teams** o el rol **Administrador global**.
+
+1. En Business Central, elija el icono ![Lupa que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Implementación centralizada de la aplicación Teams**, y luego elija el enlace relacionado. O seleccione [aquí](https://businesscentral.dynamics.com/?page=1833) para abrir la página directamente.
+2. Lea la información en **Configurar la aplicación Business Central para Teams**, y luego **Siguiente** cuando esté listo.
+3. Abre el [Centro de administración de Teams](https://go.microsoft.com/fwlink/?linkid=2163970) y complete los siguientes pasos.
+    1. Vaya a **Aplicaciones de Teams** > **Directivas de configuración**.
+    2. Cree una nueva directiva o seleccione la directiva que desea usar para instalar la aplicación Business Central, luego seleccione **Agregar aplicaciones**.
+    3. En la página **Agregar aplicaciones instaladas**, busque y seleccione **Business Central**.
+    4. Elija **Agregar**.
+
+       Business Central debería aparecer ahora bajo **Aplicaciones instaladas** para la directiva.
+    5. Configure ajustes adicionales y, a continuación, elija **Guardar**.
+
+    Para obtener más información sobre las directivas de configuración en Teams, consulte [Administrar directivas de configuración de aplicaciones en Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) en la documentación de Teams.
+4. Vuelva a **Implementación centralizada de aplicaciones de Teams** en Business Central y seleccione **Hecho**.
+
+> [!IMPORTANT]
+> La directiva de configuración de aplicaciones y la implementación de la aplicación para los usuarios pueden tardar hasta 24 horas.
+
 ## <a name="managing-privacy-and-compliance"></a>Gestionar la privacidad y el cumplimiento 
 
 Microsoft Teams proporciona amplios controles para el cumplimiento y la gestión de datos confidenciales o de identificación personal&mdash;incluidos los datos agregados a los chats y canales por la aplicación [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Saber dónde se almacenan las tarjetas de [!INCLUDE [prod_short](includes/prod_short.md)] 
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Saber dónde se almacenan las tarjetas de [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Después de enviar una tarjeta a un chat, la tarjeta y los campos que se muestran en la tarjeta se copian en Teams. Esta información está sujeta a las políticas de Teams de su organización, como las políticas de retención de datos. Cuando se muestran los detalles de la tarjeta, ninguno de los datos de la ventana de detalles se almacena en Teams. Los datos permanecen almacenados en [!INCLUDE [prod_short](includes/prod_short.md)] y Teams solo lo recuperará cuando el usuario elija ver los detalles. 
 

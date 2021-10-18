@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440954"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587535"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos
 A partir de archivos PDF o de imagen que reciba desde sus socios comerciales podrá hacer que un servicio externo de OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documentos en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puedes enviar al servicio de OCR desde la página **Documentos entrantes**. Esto se describe en el primer procedimiento.
@@ -69,11 +69,11 @@ Ahora puede empezar a crear los documentos de registro para los documentos elect
 El procedimiento siguiente describe cómo crear un registro de la factura de compra desde una factura recibida de un proveedor como un documento electrónico del servicio OCR. El procedimiento es el mismo que cuando crea, por ejemplo, una línea de diario general desde un recibo de gastos o un pedido de devolución de ventas desde un cliente.
 
 > [!NOTE]  
->   Los campos **Descripción** y **N.°** de las líneas creadas del documento se completarán solo si primero ha asignado el texto encontrado en el documento de OCR a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]. Puede realizar esta asignándolas como las referencias cruzadas de producto, para las líneas de documentos del tipo Producto. Para obtener más información, vea [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md). También puede utilizar la función de asignación de texto a cuenta. Para obtener más información, consulte [Asignar texto en un documento entrante a un proveedor específico, C/G o cuenta bancaria](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Los campos **Descripción** y **N.°** de las líneas creadas del documento se completarán solo si primero ha asignado el texto encontrado en el documento de OCR a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]. Puede realizar esta asignándolas como las referencias de producto, para las líneas de documentos del tipo Producto. Para obtener más información, vea [Usar referencias de producto](inventory-how-use-item-cross-refs.md). También puede utilizar la función de asignación de texto a cuenta. Para obtener más información, consulte [Asignar texto en un documento entrante a un proveedor específico, C/G o cuenta bancaria](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Seleccione la línea del documento entrante y, a continuación, seleccione la acción **Crear documento**.
 
-Una factura de compra se creará en [!INCLUDE[prod_short](includes/prod_short.md)] según la información del documento electrónico del proveedor que recibió del servicio OCR. La información se insertará en la nueva factura de compra en función de la asignación que haya definido como una referencia cruzada o como asignación de texto a cuenta.
+Una factura de compra se creará en [!INCLUDE[prod_short](includes/prod_short.md)] según la información del documento electrónico del proveedor que recibió del servicio OCR. La información se insertará en la nueva factura de compra en función de la asignación que haya definido como una referencia o como asignación de texto a cuenta.
 
 Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[prod_short](includes/prod_short.md)], se mostrarán en la ficha desplegable **Errores y advertencias**. Para obtener más información, consulte [Para gestionar errores al recibir documentos electrónicos](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 

@@ -1,33 +1,32 @@
 ---
 title: Aprobar o rechazar documentos en los flujos de trabajo | Documentos de Microsoft
 description: Solicite, rechace o delegue una aprobación de, por ejemplo, una compra o venta, como parte de un flujo de trabajo.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 6533bc4d141bd13772cad62f8a8574681bb60846
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 653c9e0231e7f1f28e3fe2d6987dbbf4db327faf
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441004"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588862"
 ---
 # <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
+
 Cuando un registro, como un documento de compra o una ficha de cliente, necesita ser aprobado por alguien de su organización, enviará una solicitud de aprobación como parte de un flujo de trabajo. En función de la configuración del flujo de trabajo, el aprobador adecuado recibirá notificación sobre que el registro requiere su aprobación.
 
-Los flujos de trabajo de aprobación se crean en la página **Flujo de trabajo**. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).
+Los flujos de trabajo de aprobación se crean en la página **Flujo de trabajo**. También debe configurar usuarios de aprobación, incluidos los límites de cantidad relevantes, en la página **Config. usuario aprobación**. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).  
 
 Además de los flujos de trabajo de aprobación descritos en este tema, puede realizar otras tareas de flujo de trabajo. Para obtener más información, [Uso de flujos de trabajo](across-use-workflows.md).
 
 Los flujos de trabajo de aprobación más importantes para los documentos de compras y ventas, los diarios de pago y las fichas de clientes y productos están listos para iniciar como guías. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Para solicitar la aprobación de un registro
+
 La siguiente tarea se realizado por un usuario de aprobación.
 
 1. En la página que presenta el registro, seleccione la acción **Enviar solicitud de aprobación**.
@@ -38,15 +37,17 @@ El estado del movimiento de aprobación se actualiza de **Creado** a **Abierto**
 Cuando el aprobador autoriza el registro, el estado cambia **Lanzados**. Podrá continuar con el resto de tareas del registro.
 
 ## <a name="to-cancel-requests-for-approval"></a>Para cancelar solicitudes de aprobación
+
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
 Puede que un cliente desee cambiar un pedido después de que éste haya sido enviado para su aprobación. En tal caso, puede cancelar el proceso de aprobación y realizar los cambios necesarios en el pedido antes de volver a solicitar aprobación.
 
-- en la página que muestra el registro, seleccione la acción **Cancelar solicitud de aprobación**.
+- En la página que muestra el registro, seleccione la acción **Cancelar solicitud de aprobación**.
 
 Una vez cancelada la solicitud de aprobación, el estado del movimiento de aprobación relacionado cambia a **Cancelado**. El estado del registro también se actualiza de **Aprobación pendiente** a **Abierto**. El proceso de aprobación puede entonces comenzar de nuevo.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Para aprobar o rechazar solicitudes de aprobación
+
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
 Puede procesar solicitudes de aprobación en la página **Solicitudes de aprobación**, por ejemplo aprobar múltiples solicitudes a la vez. Alternativamente, puede procesar cada solicitud en el registro relacionado, como en la página **Factura de compra**, seleccionando el enlace en la notificación que recibe.
@@ -62,6 +63,7 @@ Si hay configurada una jerarquía de aprobadores, el estado de registro será **
 Al mismo tiempo, el estado de aprobación cambia de **Creado** a **Abrir** en cuanto se cree una solicitud de aprobación para el registro. Si se rechaza la solicitud, el estado de aprobación cambia **Rechazado**. El estado permanece en **Abrir** o **Rechazado** hasta que todos los aprobadores hayan aprobado la solicitud.
 
 ## <a name="to-delegate-requests-for-approval"></a>Para delegar solicitudes de aprobación
+
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
 Para evitar que los documentos se acumulen o bloqueen el flujo de trabajo, el aprobador y el administrador de aprobación pueden delegar una solicitud de aprobación a un aprobador sustituto. El sustituto puede ser un sustituto designado, el aprobador directo o el administrador de aprobaciones, en ese orden de prioridad. Esta característica se utiliza normalmente si un aprobador se encuentra fuera de la oficina y no puede aprobar solicitudes antes de la fecha de vencimiento.
@@ -72,6 +74,7 @@ Para evitar que los documentos se acumulen o bloqueen el flujo de trabajo, el ap
 Se envía una notificación para aprobar la solicitud al aprobador sustituto.
 
 ## <a name="to-manage-overdue-approval-requests"></a>Para gestionar solicitudes de aprobación vencidas
+
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
 Deberá recordar de forma periódica a los usuarios de flujo de trabajo de aprobación las solicitudes de aprobación vencidas en las que deben realizar alguna acción. Para ello se utiliza la función **Enviar notificaciones de aprobación vencidas**.
@@ -82,10 +85,12 @@ La función **Enviar notificaciones de aprobación vencidas** buscará todas las
 2. En la página **Solicitudes de aprobación vencidas**, seleccione la acción **Seleccionar solicitudes de aprobación vencidas**.
 
 ## <a name="see-also"></a>Consulte también
-[Ventas](sales-manage-sales.md)    
+
+[Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
+[Ccial](sales-manage-sales.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

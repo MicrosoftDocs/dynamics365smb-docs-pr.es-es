@@ -1,21 +1,21 @@
 ---
 title: Cómo ingresar datos en Business Central
 description: Hay muchas características generales que le ayudan a introducir datos de forma más fácil, rápida y precisa. Los principios básicos y las funciones avanzadas se describen aquí.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443673"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588962"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -35,7 +35,6 @@ Algunos campos editables proporcionan un selector para ayudarle a especificar un
 |Desplegable          |Los menús desplegables ofrecen una opción de valores fijos o registros de referencia de otra tabla|
 |Conmutador o casilla|Algunos campos ofrecen una elección sencilla de valores *Sí* o *No*. El conmutador se usa para especificar este valor y siempre se muestra como una casilla en listas|
 |Edición de asistencia       |Algunos campos proporcionan selectores personalizados adecuados para buscar y elegir el mejor valor para ese campo, como la ventana emergente.|
-
 
 ### <a name="modifying-a-field-value"></a>Modificar un valor de campo
 
@@ -58,7 +57,6 @@ Cuando el cursor se muestra al final del valor del campo:
 
 > [!NOTE]
 > Después de especificar un valor, Business Central solo comprobará que sea válido después de hacer clic fuera del campo o establecer el foco en otro elemento, como el siguiente campo.  
-
 
 ## <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -267,9 +265,16 @@ A continuación se muestran algunos ejemplos.
 
  El número 5 se convierte a 5 hrs, si la unidad de medida es horas.  
 
-## <a name="see-also"></a>Consulte también  
- [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Configurar el separador decimal utilizado por los teclados numéricos
+
+Cuando se usa la tecla de separación decimal del teclado numérico para introducir datos, el separador decimal real que se introduce en el campo está determinado por la configuración regional de su Business Central. Establezca la región en Business Central en la página **Mi configuración**.
+
+Por ejemplo, suponga que está utilizando un teclado numérico que utiliza un punto (.) como tecla de separación decimal. Pero está introduciendo datos para un idioma regional que usa una coma (**,**) para el separador decimal, como danés (Dinamarca) o francés (Francia). Por lo tanto, desea que los decimales como "1.23" se introduzcan como "1,23". En este caso, puede ir a la página **Mi configuración** y configurar la **Región** al idioma regional de destino, como **Danés (Dinamarca)** o **Francés (Francia)**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Consulte también
+
+[Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

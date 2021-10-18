@@ -12,19 +12,23 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440554"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589287"
 ---
 # <a name="register-employees"></a>Registrar empleados
-Para utilizar la funcionalidad Recursos humanos, primero deberá registrar cada empleado creando una ficha con toda la información base y relacionada.
+Para usar la funcionalidad de Recursos humanos, primero debe agregar a cada empleado completando los campos en la página **Ficha de empleado**.
 
-Los detalles de un empleado se pueden modificar en cualquier momento. Mantener los registros de empleados actualizados facilita las tareas personales. Por ejemplo, si cambia la dirección de un empleado, esta información se puede registrar en la ficha del empleado.
+## <a name="adding-new-customers"></a>Agregar nuevos clientes
+Puede agregar nuevos empleados manualmente, completando los campos en la página **Ficha de empleado**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear plantillas para diferentes tipos de perfiles de empleados. El uso de plantillas ahorra tiempo al agregar nuevos empleados y ayuda a garantizar que la información sea correcta en todo momento. Si crea plantillas para más de un tipo de empleado, puede elegir la plantilla que utilizará cuando agregue un empleado. Si crea solo una plantilla, se utilizará para todos los empleados nuevos. Después de crear una plantilla, puede usar la acción **Aplicar plantilla** para aplicarla a uno o más empleados seleccionados. Para crear una plantilla, complete la información que desea reutilizar en la página Ficha de empleado y luego guárdela como una plantilla.
 
-Los procedimientos siguientes describen cómo crear una ficha inicial del empleado y cómo asignar dos tipos de datos del empleado a un empleado. Además, puede asignar otra información relacionada, como cualificaciones y códigos de causa de inactividad. Debe asignar la información sobre empleados eligiendo un campo o una acción en la página **Ficha de empleado**.
+> [!TIP]
+> Puede resultar útil personalizar la página **Ficha de empleado** cuando crea una plantilla. Por ejemplo, es posible que desee agregar un campo que aún no se muestra en la página. Para obtener más información, consulte [Personalizar el área de trabajo](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+Los detalles de un empleado se pueden modificar en cualquier momento. Mantener los registros de empleados actualizados puede facilitar las tareas personales. Por ejemplo, si cambia la dirección de un empleado, esta información se puede registrar en la página Ficha de empleado.
 
 > [!NOTE]  
 > Puede reembolsar a los empleados por sus gastos durante las actividades comerciales. Para ello, debe rellenar los campos de la ficha desplegable **Pagos** en la página **Ficha empleado**. Para obtener más información, consulte [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
@@ -35,7 +39,7 @@ Los procedimientos siguientes describen cómo crear una ficha inicial del emplea
 3. En la página **Ficha empleado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Para insertar una imagen de un empleado
-Si tiene una imagen de un empleado en formato .BMP, puede insertarla en su ficha.
+Si tiene una imagen de un empleado, puede insertarla en su ficha.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados** y luego elija el enlace relacionado.
 2. Abra la ficha del empleado pertinente.
