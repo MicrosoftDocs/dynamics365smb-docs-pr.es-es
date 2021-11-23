@@ -1,5 +1,5 @@
 ---
-title: Cómo crear facturas de prepago
+title: Crear facturas de prepagos
 description: Gestione situaciones en las que usted o su proveedor requieran prepago. Utilice los porcentajes predeterminados de cada línea de venta o de compra o ajuste el importe según sea necesario.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442190"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701570"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de prepagos
 
 Si requiere que sus clientes envíen el pago antes de enviarles un pedido, puede usar la funcionalidad de prepago. Lo mismo se aplica si su proveedor requiere que envíe el pago antes de enviarle un pedido.  
 
-Puede iniciar el proceso de prepago cuando cree un pedido de venta o de compra. Si tiene un porcentaje de prepago predeterminado para este cliente o proveedor, se incluirá automáticamente en la factura de prepago resultante. También puede especificar un porcentaje de prepago para todo el documento.
+Puede iniciar el proceso de prepago cuando cree un pedido de venta o de compra. Si tiene un porcentaje de prepago predeterminado para un artículo determinado del pedido o para el cliente o proveedor, se incluirá automáticamente en la factura de prepago resultante. También puede especificar un porcentaje de prepago para todo el documento.
 
 Después de crear un pedido de venta o de compra, puede crear una factura de prepago. Para ello, puede utilizar los porcentajes predeterminados de cada línea de venta o de compra o bien ajustar el importe según sea necesario. Por ejemplo, puede especificar un importe total para todo el pedido.  
 

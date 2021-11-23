@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 0ca067f8b9ca7a8d6838b6099ae330ab8ddbf66b
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587485"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724667"
 ---
 # <a name="business-process-walkthroughs"></a>Tutoriales de procesos empresariales
 
@@ -24,7 +24,7 @@ En esta selección de tutoriales se proporcionan procesos empresariales completo
  Los tutoriales son ejemplos completos y deben realizarse desde el principio hasta el final para obtener el máximo beneficio. Muchos están basados en demostraciones de [!INCLUDE[prod_short](includes/prod_short.md)] y permiten probar los procedimientos a su ritmo.  
 
 > [!NOTE]
-> Algunos de los tutoriales requieren datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
+> Algunos de los tutoriales requieren datos de muestra que no están disponibles en la empresa de demostración predeterminada en [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments.md). -->
 
 |Para|Vea|  
 |--------|---------|  

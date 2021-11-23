@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d57fedc09b6c94ecfce7e24e1eea097f837030e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442290"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643935"
 ---
 # <a name="acquire-fixed-assets"></a>Activos fijos adquiridos
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Un libro de amortización debe estar configurado y asignado a cada activo fijo antes de que pueda adquirirlo.
@@ -75,7 +75,7 @@ El procedimiento siguiente describe cómo adquirir un activo manualmente creando
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Para anular un coste del registro de un activo
 Si se equivoca al registrar un coste, puede eliminar el movimiento mediante el proceso **Cancelar movs. A/F** y registrar seguidamente el movimiento de adquisición correcto. Los movimientos incorrectos se transfieren a la página **A/F Movs. anulados**.
 
-Por ejemplo, si registra una adquisición con la fecha incorrecta, debe corregirla lo más pronto posible porque la fecha de registro de un activo se utiliza para realizar muchos cálculos importantes.
+Por ejemplo, si registra una adquisición con la fecha incorrecta, debe corregirla lo más pronto posible porque la fecha de registro de un activo se utiliza para realizar muchos cálculos.
 
 > [!IMPORTANT]  
 >   No puede usar la función **Transacciones inversas** para los movimientos de un activo.
@@ -90,9 +90,12 @@ Para anular los movimientos de varios activos fijos a la vez, use el proceso **A
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Para registrar el valor residual junto con el coste
 Puede registrar el valor residual junto con el coste a partir del diario de activos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **A/F Diarios**, y luego elija el enlace relacionado.
+> [!NOTE]
+> Este proceso puede requerir que personalice la página A/F Diario activos agregando el campo Valor residual. El campo Para no se muestra de forma predeterminada en la página. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **A/F Diario activos** y luego elija el enlace relacionado.
 2. En la página **Diarios de activos fijos**, cree la línea de adquisición. Para obtener más información, consulte [Para registrar una adquisición de un activo manualmente con el diario general de activos](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
-3. En el campo **Valor residual** de la línea del diario, escriba el importe del valor residual como abono (con un signo menos).
+3. En el campo **Valor residual** de la línea del diario, escriba el importe del valor residual como abono (prefije la cantidad con un signo menos, por ejemplo, **-** 100).
 4. Seleccione la acción **Registrar**.
 
 > [!NOTE]

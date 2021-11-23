@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a9d8479ad1caddef3ac640ba49a8fe101f96a375
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 932bf57b8801c758c6bcaff4fbdad69265853487
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440704"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724693"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -76,7 +76,7 @@ Esta sección explica los requisitos para una implementación de [!INCLUDE[prod_
 
     <!--
     > [!IMPORTANT]
-    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](../upgrade/deprecated-features-w1.md#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Using OAuth to Authorize Business Central Web Services](../webservices/authenticate-web-services-using-oauth.md).-->
+    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Using OAuth to Authorize Business Central Web Services](/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth).-->
 
 4. Cree un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en Microsoft Azure.
 

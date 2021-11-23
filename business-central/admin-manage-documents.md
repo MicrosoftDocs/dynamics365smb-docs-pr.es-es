@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482175"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724716"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrar el almacenamiento eliminando documentos o comprimiendo datos
 
@@ -57,7 +57,7 @@ Puede comprimir los siguientes tipos de datos usando trabajos por lotes. Hay un 
 Cuando define criterios para la compresión, puede utilizar las opciones de **Guardar contenido campo** para mantener el contenido de ciertos campos. Los campos que están disponibles dependen de los datos que está comprimiendo.
 
 > [!NOTE]
-> Antes de que pueda ejecutar la compresión de fechas, sus vistas de análisis deben estar actualizadas. Para más información, vea [Para actualizar una vista de análisis](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+> Antes de que pueda ejecutar la compresión de fechas, sus vistas de análisis deben estar actualizadas. Para más información, vea [Para actualizar una vista de análisis](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
 Después de la compresión, siempre se retiene el contenido de los siguientes campos: **Fecha de registro**, **N.º proveedor**, **Tipo de documento**, **Código de divisa**, **Grupo contable**, **Importe**, **Importe pendiente**, **Importe inicial (DL)**, **Importe pendiente (DL)**, **Importe (DL)**, **Beneficio (DL)**, **Dto. factura (DL)**, **Dto. P.P (DL)** y **Posible descuento P.P.**.
 

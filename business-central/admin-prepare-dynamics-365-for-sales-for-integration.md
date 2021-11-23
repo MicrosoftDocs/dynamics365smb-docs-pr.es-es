@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482328"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651492"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -94,9 +94,12 @@ La siguiente tabla enumera la asignación estándar entre tablas en [!INCLUDE[pr
 
 | [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Dirección de la sincronización | Filtro predeterminado |
 |--|--|--|--|
-| Unidad medida | Grupo de unidad | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Unidad de medida | Grupo de unidad | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Producto | Producto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro de contacto de Sales: **Tipo de producto** es **Inventario de ventas** |
 | Recurso | Producto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Filtro de contacto de Sales: **Tipo de producto** es **Services** |
+| Unidad medida producto | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Unidad medida recurso | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Grupo de unidad | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Grupo precio cliente | Lista de precios | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Precio venta | Lista de precios de productos | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtro de contacto de [!INCLUDE[prod_short](includes/prod_short.md)]: **Código ventas** no está en blanco, **Tipo de ventas** es **Grupo precio cliente** |
 | Oportunidad | Oportunidad | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ La siguiente tabla enumera la asignación estándar entre tablas en [!INCLUDE[pr
 | Histórico lín. factura venta | Producto de facturación | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Cabecera de pedido de cliente | Pedido venta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtro de cabecera de venta de [!INCLUDE[prod_short](includes/prod_short.md)]: **Tipo de documento** es Pedido, **Estado** es Lanzado |
 | Notas de pedido de ventas | Notas de pedido de ventas | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> Las asignaciones para las tablas Unidad de medida de elemento, Unidad de medida de recurso y Grupo de unidad están disponibles solo si su administrador ha activado la opción **Actualización de funciones: sincronización de varias unidades de medida con Dynamics 365 Sales** de función en la página **Gestión de funciones**. Para más información, ver [Sincronización de artículos y recursos con productos en diferentes unidades de medida](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Sincronización de artículos y recursos con productos con diferentes unidades de medida
+Las empresas a menudo producen o compran los artículos en una unidad de medida y luego los venden en otra. Para sincronizar elementos que utilizan varias unidades de medida, debe activar el interruptor **Actualización de funciones: sincronización de varias unidades de medida con Dynamics 365 Sales** de función en la página **Gestión de funciones**. 
+
+Cuando lo hace, se crea una nueva tabla de grupo de unidades y se asigna a cada elemento y recurso en [!INCLUDE[prod_short](includes/prod_short.md)]. Esto le permite mapear las tablas Grupo de unidad, Unidad de medida de artículo y Unidad de medida de recurso en [!INCLUDE[prod_short](includes/prod_short.md)] al Grupo de Unidades de Dynamics 365 Sales <!--Need to verify this name--> en [!INCLUDE[crm_md](includes/crm_md.md)], como se muestra en la siguiente imagen.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Asignaciones de tablas para grupos de unidades":::
+
+Puede crear varias unidades de medida para cada grupo de unidades y asignar los grupos a productos en [!INCLUDE[crm_md](includes/crm_md.md)]. Posteriormente, podrá sincronizar los productos con elementos y recursos en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede acoplar manualmente unidades de medida de artículos o unidades de medida de recursos con un grupo de unidades. Cuando lo haga, si el grupo de unidades para el elemento o recurso no está acoplado a un grupo de unidades en [!INCLUDE[crm_md](includes/crm_md.md)], por ejemplo, porque el grupo unitario no existía, [!INCLUDE[prod_short](includes/prod_short.md)] creará automáticamente el grupo de unidades en [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Asignación de elementos y recursos a productos
+Cuando activa el **Actualización de funciones: sincronización de varias unidades de medida con Dynamics 365 Sales** función de cambio, ocurre lo siguiente:
+
+* Se crean nuevas asignaciones para elementos y recursos.
+* Se eliminan las asignaciones existentes. <!--which mappings?-->
+* Una actualización de datos crea grupos de unidades para artículos y recursos.
+
+Para utilizar las nuevas asignaciones, debe sincronizar los grupos de unidades, la unidad de medida del artículo y la unidad de medida del recurso. También debe resincronizar elementos y recursos. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] no le permite cambiar un grupo de unidades para un producto. Por lo tanto, debe retirar sus productos y desacoplar los elementos y recursos y luego sincronizar creando nuevos productos en [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+Los siguientes pasos describen los pasos para comenzar a asignar grupos de unidades:
+
+1. Asegúrese de que los productos en [!INCLUDE[crm_md](includes/crm_md.md)] no se combinan con elementos o recursos en [!INCLUDE[prod_short](includes/prod_short.md)]. Si lo son, vaya a las páginas **Elementos** y / o **Recursos**, use las opciones de filtro para seleccionar los registros acoplados y luego elija la acción **Dynamics 365 Sales** y seleccione **Desacoplar**. Esto programa un trabajo en segundo plano para desacoplar los registros. Mientras se ejecuta el trabajo, puede comprobar su estado mediante la acción **Registro de sincronización**. Para obtener más información, consulte [Emparejamiento y sincronización](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Porque se crearán nuevos productos en [!INCLUDE[crm_md](includes/crm_md.md)] con nuevos grupos de unidades, para evitar nombres duplicados, realice una de las siguientes acciones:
+    
+    * Cambie el nombre de sus productos y luego retírelos en [!INCLUDE[crm_md](includes/crm_md.md)]. Para más información, ver [Retirar productos (Centro de ventas)](/dynamics365/sales-enterprise/retire-product). Para editar de forma masiva sus productos en Microsoft Excel, iniciar sesión en Power Apps, elija su entorno, vaya a la tabla **Producto** tabla y elija la pestaña **Datos**. Borre los filtros que se apliquen. En el grupo **Datos** grupo, elija la acción **Editar datos en Excel**. Agregue un prefijo o sufijo a los productos acoplados y luego retírelos.
+    * Retire sus productos y elimínelos. 
+
+3. Siga estos pasos para sincronizar **Grupos de unidades**, **Unidad de medidas**, **Elementos** y **Recursos**:
+    1. En [!INCLUDE[prod_short](includes/prod_short.md)], abra la página **Configuración de conexión de Dynamics 365 Sales**.
+    2. Use la acción **Ejecutar sincronización completa** para abrir la página **Revisión de sincronización completa de Dataverse**.
+    3. Para las asignaciones **ARTÍCULO UOM**, **UOM DE RECURSOS**, Y **GRUPO DE UNIDAD**, elija la acción **Recomendar sincronización completa**.
+    4. Seleccione la acción **Sincronizar todo**.
+
+    > [!NOTE]
+    > Para las asignaciones que aún no se han sincronizado por completo, esta acción las sincronizará por completo. Para evitar que esas asignaciones se sincronicen, elimine las asignaciones de la página. Esto solo los elimina de la sincronización completa actual y no elimina las asignaciones.
+    
+5. Elija la asignación **ARTÍCULO-PRODUCTO** y luego elija la acción **Reiniciar**. Esto crea nuevos productos a partir de los elementos en [!INCLUDE[crm_md](includes/crm_md.md)] y asigna un nuevo grupo de unidades específico para el artículo.
+6. Elija la asignación **RECURSO-PRODUCTO** y luego elija la acción **Reiniciar**. Esto crea nuevos productos a partir de los recursos en [!INCLUDE[crm_md](includes/crm_md.md)] y asigna un nuevo grupo de unidades específico para los recursos.
 
 ### <a name="synchronization-rules"></a>Reglas de sincronización
 

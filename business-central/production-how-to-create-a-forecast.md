@@ -1,6 +1,6 @@
 ---
 title: Cómo crear una previsión de la demanda
-description: Obtenga información sobre la función de previsión en Business Central y sobre cómo puede crear previsiones de ventas y producción.
+description: Obtenga información sobre las funciones de previsión de la demanda y sobre cómo puede crear previsiones de ventas y producción.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438692"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643972"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
 Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
@@ -44,15 +44,14 @@ La previsión de componentes es una previsión en relación con un producto prin
 Dado que la previsión de componentes está diseñada para definir las opciones de un producto principal, debe ser igual a o menor que la cantidad prevista del producto de venta. Si la previsión de componentes es mayor que la previsión del producto de venta, el programa considera la diferencia entre los dos tipos de previsión como demanda independiente.  
 
 ## <a name="forecasting-periods"></a>Periodos de previsión  
- El periodo de previsión es válido desde la fecha de inicio hasta la fecha de inicio de la siguiente previsión. La página de intervalo de tiempo proporciona muchas opciones para insertar la demanda en una fecha concreta del periodo. Por ello, es aconsejable no cambiar el periodo de previsión salvo que se desee llevar todos los movimientos a la fecha de inicio de este periodo.  
+El periodo de previsión es válido desde la fecha de inicio hasta la fecha de inicio de la siguiente previsión. La página de intervalo de tiempo proporciona muchas opciones para insertar la demanda en una fecha concreta del periodo. Por ello, es aconsejable no cambiar el periodo de previsión salvo que se desee llevar todos los movimientos a la fecha de inicio de este periodo.  
 
 ## <a name="forecast-by-locations"></a>Previsión por ubicación  
-
-Puede indicarse en la página **Configuración de fabricación** cómo desea tratar con las ubicaciones que se definen en las previsiones cuando calcula un plan. 
+En la página **Configuración de fabricación** puede especificar cómo desea considerar con las ubicaciones que se definen en las previsiones cuando calcula planes. 
 
 ### <a name="use-forecast-by-locations"></a>User previsiones por almacenes
 
-Si elige el campo **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] respetará los códigos de ubicación especificados para cada entrada de Previsión de demanda y calculará la previsión restante para cada ubicación.  
+Si activa la opción **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] respetará los códigos de ubicación especificados para cada entrada de previsión de demanda y calculará la previsión restante para cada ubicación.  
 
 Considere este ejemplo: su empresa compra y vende artículos en dos ubicaciones: EAST y WEST. Para ambas ubicaciones, ha configurado una política de reordenación de lote a lote. Crea una previsión para las dos ubicaciones:
 
@@ -68,7 +67,7 @@ Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. E
 >  Si las previsiones en función de las ubicaciones se observan por separado, la previsión global podría no ser representativa.
 
 ### <a name="do-not-use-forecast-by-locations"></a>No use previsiones por almacenes
-Si deshabilita **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] ignorará los códigos de ubicación especificados para cada entrada de Previsión de demanda y agregará las previsiones en una previsión para ubicaciones vacías.  
+Si desactiva la opción **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] ignorará los códigos de ubicación especificados para cada entrada de Previsión de demanda y agregará las previsiones en una previsión para ubicaciones vacías.  
 
 Considere este ejemplo: su empresa compra y vende artículos en dos ubicaciones: EAST y WEST. Para ambas ubicaciones, ha configurado una política de reordenación de lote a lote. Crea una previsión para las dos ubicaciones:
 

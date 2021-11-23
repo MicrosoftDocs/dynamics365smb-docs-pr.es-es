@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443186"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748966"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Solucionar problemas de conectividad con Business Central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443186"
 
 ## <a name="start-the-connectivity-check"></a>Iniciar la verificación de conectividad 
 
-1. Seleccione [este enlace](https://businesscentral.dynamics.com/connectivity) o abra su navegador de Internet e ingrese la siguiente URL en la dirección:
+1. Abra un navegador de Internet.
+2. En la dirección, ingrese la URL que usa para abrir Business Central y agregue `/connectivity` al final. 
+
+    Por ejemplo, si usa `https://businesscentral.dynamics.com`, luego ingrese:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. En la página **Solución de problemas de conectividad**, elija **Iniciar comprobación**.
+    O, si la URL incluye el ID de inquilino, como `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, luego ingresaría:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. En la página **Solución de problemas de conectividad**, elija **Iniciar comprobación**.
 
     Se ejecutan una serie de comprobaciones y se muestra el resultado de cada comprobación:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443186"
     - ![Error en comprobación de conectividad.](media/connectivity-failed.png) indica que la verificación produjo error. Revise el mensaje debajo de la marca de verificación para obtener más detalles.
     - ![No se ejecutó la verificación de conectividad.](media/connectivity-blocked.png) indica que la verificación no se ejecutó, generalmente debido a una falla en una verificación anterior. Revise el mensaje debajo de la marca de verificación para obtener más detalles.
 
-3. Para ejecutar la verificación nuevamente, elija **Reiniciar comprobación**.
+4. Para ejecutar la verificación nuevamente, elija **Reiniciar comprobación**.
 
 Las siguientes secciones explican las comprobaciones que se ejecutan y proporcionan algunos consejos para solucionar cualquier problema.
 

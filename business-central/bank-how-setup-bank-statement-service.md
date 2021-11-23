@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a01bbbcb158e975c2b6f21ce2dd2468f8b3fa431
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c27b2c158d817a6e58a72d49d65d75bb8470f65
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443528"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651467"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Configurar el servicio Envestnet Yodlee Bank Feeds
 
@@ -97,6 +97,11 @@ El servicio de fuente de banco se activará cuando vincule una cuenta a la cuent
 5. Elija el botón **Aceptar**.
 
 En la página **Lista de bancos**, se activa la casilla **Vinculado**.
+
+## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>Para editar las credenciales de una cuenta bancaria en línea
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.  
+2. Elija la línea para una cuenta bancaria que está vinculada a una cuenta en línea y, a continuación, seleccione la acción **Editar información de cuenta de banco en línea**.
+3. Actualice las credenciales.
 
 ## <a name="to-unlink-a-bank-account"></a>Para desvincular una cuenta bancaria
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.  

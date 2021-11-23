@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589507"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724617"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtener el complemento Business Central para Excel
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589507"
 
 ### <a name="about-the-add-in"></a>Acerca del complemento
 
-El complemento se llama **Complemento de Office de Microsoft Dynamics** y está disponible para su instalación desde la [Tienda Office (AppSource)](https://appsource.microsoft.com/). Con el complemento instalado, la acción **Editar en Excel** está disponible en la mayoría de las páginas de listas y de partes de listas desde el icono **Compartir** ![Compartir una página en otra aplicación.](media/share-icon.png). Para obtener más información sobre el uso del complemento, consulte [Ver y editar en Excel desde Business Central](across-work-with-excel.md)
+El complemento se llama **Complemento de Office de Microsoft Dynamics** y está disponible para su instalación desde la [Tienda Office (AppSource)](https://appsource.microsoft.com/). Con el complemento instalado, la acción **Editar en Excel** está disponible en la mayoría de las páginas de listas y de partes de listas desde el icono **Compartir** ![Compartir una página en otra aplicación.](media/share-icon.png). Para obtener más información sobre el uso del complemento, consulte [Ver y editar en Excel desde Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > El complemento solo funciona en Windows; no en macOS.
@@ -118,7 +118,7 @@ El complemento ahora está conectado a [!INCLUDE [prod_short](includes/prod_shor
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Prepare los dispositivos y la red para el complemento de Excel
 
-Los servicios de red, como los servidores proxy o los firewalls, deben permitir el enrutamiento entre cada dispositivo cliente en el que está instalado el complemento y muchos puntos finales de servicio. Para obtener una lista de puntos finales, consulte [Preparar la red para el complemento de Excel](/dev-itpro/administration/configuring-network-for-addins).
+Los servicios de red, como los servidores proxy o los firewalls, deben permitir el enrutamiento entre cada dispositivo cliente en el que está instalado el complemento y muchos puntos finales de servicio. Para obtener una lista de puntos finales, consulte [Preparar la red para el complemento de Excel](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Solución de problemas
 

@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442705"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752585"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Trabajar con pedidos abiertos de venta o pedidos abiertos de compra
 
@@ -67,7 +67,7 @@ Puede ver el estado de los pedidos de abiertos de venta en la página **Estad. p
 - En la ficha desplegable **Facturación** puede ver información resumida basada en la cantidad total de los campos **Cdad. a facturar** de las líneas del pedido de ventas abierto.  
 - En la ficha desplegable **Envío**, puede ver información resumida basada en la cantidad total de los campos **Cantidad a recibir** de las líneas del pedido de ventas abierto.  
 - En la ficha desplegable **Prepago**, puede ver información resumida sobre las importes de prepago.  
-- La ficha desplegable **Proveedor** contiene información básica acerca del proveedor.    
+- La ficha desplegable **Proveedor** contiene información básica acerca del proveedor.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Visualización de líneas de pedido abierto de venta registradas y no registradas   
 El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y cualquier otro documento de venta, se mantiene después de registrar como lista de líneas de factura de pedido de venta registradas y sin registrar.  
@@ -76,21 +76,21 @@ El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y c
 2. Abra el pedido abierto de venta que desea ver.
 3. Para ver los movimientos no registrados, seleccione la acción **Línea** y, a continuación, la acción **Líneas no registradas**. Elija una de las siguientes opciones.  
 
-    |Opción|Description|
-    |--|--|
-    |**Pedidos**|Especifica los pedidos abiertos asociados a la línea seleccionada.|
-    |**Facturas**|Especifica las facturas abiertas asociadas a la línea seleccionada. Las facturas abiertas se asocian manualmente a un pedido abierto especificando el número de dicho pedido en la línea de la factura de venta.|
-    |**Devoluciones**|Especifica las devoluciones abiertas asociadas a la línea seleccionada.|
-    |**Abonos**|Especifica los abonos abiertos asociados a la línea seleccionada.|
+|Opción|Description|
+|--|--|
+|**Pedidos**|Especifica los pedidos abiertos asociados a la línea seleccionada.|
+|**Facturas**|Especifica las facturas abiertas asociadas a la línea seleccionada. Las facturas abiertas se asocian manualmente a un pedido abierto especificando el número de dicho pedido en la línea de la factura de venta.|
+|**Devoluciones**|Especifica las devoluciones abiertas asociadas a la línea seleccionada.|
+|**Abonos**|Especifica los abonos abiertos asociados a la línea seleccionada.|
 
 4. Para ver los movimientos registrados, seleccione la acción **Línea** y, a continuación, la acción **Líneas registradas**. Elija una de las siguientes opciones.  
 
-    |Opción|Description|
-    |---|----|
-    |**Envíos**|Los envíos registrados asociados a la línea seleccionada.|
-    |**Facturas**|Las facturas registradas asociadas a la línea seleccionada.|
-    |**Recep. devolución**|Las recepciones de devolución registradas asociadas a la línea seleccionada.|
-    |**Abonos**|Los abonos registrados asociados a la línea seleccionada.|
+|Opción|Description|
+|---|----|
+|**Envíos**|Los envíos registrados asociados a la línea seleccionada.|
+|**Facturas**|Las facturas registradas asociadas a la línea seleccionada.|
+|**Recep. devolución**|Las recepciones de devolución registradas asociadas a la línea seleccionada.|
+|**Abonos**|Los abonos registrados asociados a la línea seleccionada.|
 
 5. En la página **Líneas de venta**, seleccione la acción **Mostrar documento** para ver la entrada.
 
