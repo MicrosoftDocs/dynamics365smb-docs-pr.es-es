@@ -1,36 +1,37 @@
 ---
-title: Detalles de diseño | Documentos de Microsoft
+title: Detalles de diseño de la aplicación
 description: En este contenido se incluye información técnica detallada acerca de las características de la aplicación complejas en Business Central
 author: SorenGP
-documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 11/26/2021
 ms.author: edupont
-ms.openlocfilehash: df7ea4e62608d64763288b978d4ee48a103e8424
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 06fa9254f59e283abb673f66190c61e464d510af
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215558"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865677"
 ---
-# <a name="design-details"></a>Detalles de diseño
-En este contenido se incluye información técnica detallada acerca de las características de la aplicación complejas en [!INCLUDE[prod_short](includes/prod_short.md)].  
+# <a name="application-design-details"></a>Detalles de diseño de la aplicación
 
- El contenido de los detalles de diseño va dirigido a implementadores, desarrolladores y superusuarios que necesitan una comprensión más profunda de los procesos de implementación, personalización o configuración de funciones concretas.  
+Los artículos en esta sección contienen información técnica detallada acerca de las características de la aplicación complejas en [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+El contenido de los detalles de diseño va dirigido a implementadores, desarrolladores y superusuarios que necesitan una comprensión más profunda de los procesos de implementación, personalización o configuración de funciones concretas.  
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Conocer cómo funciona el sistema de planificación y cómo ajustar los algoritmos para cumplir los requisitos de planificación en distintos entornos.|[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)|  
 |Conozca los mecanismos del motor de valoración, como la valoración de existencias y el ajuste de coste, y los principios contables para los que están diseñados.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|  
+|Aprenda cómo el proceso Valorar stock - movs. producto identifica y asigna una fecha de registro a los movimientos de valor que creará.|[Detalles de diseño: Fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)|
+|Conozca el diseño para almacenar y registrar dimensiones, incluidos ejemplos de código sobre cómo migrar y actualizar el código de dimensión.|[Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)|
+|Conocer cómo funciona el sistema de planificación y cómo ajustar los algoritmos para cumplir los requisitos de planificación en distintos entornos.|[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)|  
 |Conocer los principios básicos sobre las características de almacén avanzadas y básicas, y cómo se integran con otras características de la cadena de suministro.|[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)|  
 |Conocer el diseño histórico y actual de la funcionalidad del seguimiento de productos y cómo se integra con el programa de reservas para incluir números de serie y de lote en los cálculos de disponibilidad.|[Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)|  
-|Conozca la función de la línea de registro en el diario general, incluidas simplificaciones recientes del diseño de la codeunit 12.|[Detalles de diseño: línea de registro en diario general](design-details-general-journal-post-line.md)|
-|Conozca el diseño para almacenar y registrar dimensiones, incluidos ejemplos de código sobre cómo migrar y actualizar el código de dimensión.|[Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries-overview.md)|
+|Obtenga más información sobre la función Línea de contabilización del diario general.|[Detalles de diseño: línea de registro en diario general](design-details-general-journal-post-line.md)|
 
 ## <a name="see-also"></a>Consulte también
 

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724617"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865497"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtener el complemento Business Central para Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] incluye un complemento para Excel que permite a los usuarios seleccionar una acción **Editar en Excel** en determinadas páginas para abrir los datos en una hoja de cálculo de Excel. Esta acción es diferente a la acción **Abrir en Excel** porque permite a los usuarios realizar cambios en Excel y luego publicar los cambios en [!INCLUDE[prod_short](includes/prod_short.md)]\
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye un complemento para Excel que permite a los usuarios seleccionar una acción **Editar en Excel** en determinadas páginas para abrir los datos en una hoja de cálculo de Excel. Esta acción es diferente a la acción **Abrir en Excel** porque permite a los usuarios realizar cambios en Excel y luego publicar los cambios en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="overview"></a>Panorama
 
@@ -38,9 +38,9 @@ Para el usuario final, la experiencia de instalación es diferente para los dos 
 
 - Con la adquisición individual, los nuevos usuarios eligen la acción **Editar en Excel**, el panel **Nuevo complemento de Office** se abre en Excel. Para instalar el complemento, el usuario elige **Confía en este complemento**, que a su vez instala el complemento directamente desde la Tienda Office. Luego, los usuarios inician sesión en [!INCLUDE[prod_short](includes/prod_short.md)] utilizando su nombre de usuario y contraseña.
 
-- Con Implementación centralizada, los nuevos usuarios eligen la acción **Editar en Excel**, el complemento se instala automáticamente en Excel desde Implementación centralizada; no la Tienda Office. Lo único que tienen que hacer los usuarios es iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)]\
+- Con Implementación centralizada, los nuevos usuarios eligen la acción **Editar en Excel**, el complemento se instala automáticamente en Excel desde Implementación centralizada; no la Tienda Office. Lo único que tienen que hacer los usuarios es iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Con estas dos opciones de implementación, el complemento se configura automáticamente para conectarse a [!INCLUDE[prod_short](includes/prod_short.md)]\. Una tercera opción de implementación es una instalación manual del complemento directamente desde Excel. Con esta opción, los usuarios deberán configurar el complemento para conectarse a [!INCLUDE[prod_short](includes/prod_short.md)]\
+Con estas dos opciones de implementación, el complemento se configura automáticamente para conectarse a [!INCLUDE[prod_short](includes/prod_short.md)]. Una tercera opción de implementación es una instalación manual del complemento directamente desde Excel. Con esta opción, los usuarios deberán configurar el complemento para conectarse a [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Cambiar de adquisición individual a Implementación centralizada o a la inversa
 
@@ -63,13 +63,13 @@ Implementación centralizada es una característica del Centro de administració
 - Si está realizando la transición desde adquisición individual, consulte [Cambio de adquisición individual a Implementación centralizada](#switch)
 
 > [!NOTE]
-> La habilitación de Implementación centralizada afecta a las funciones que utilizan el complemento de Excel, como la acción **Editar en Excel**. No tiene ningún efecto sobre otras funciones o permisos relacionados con Excel asignados a los usuarios en [!INCLUDE[prod_short](includes/prod_short.md)]\
+> La habilitación de Implementación centralizada afecta a las funciones que utilizan el complemento de Excel, como la acción **Editar en Excel**. No tiene ningún efecto sobre otras funciones o permisos relacionados con Excel asignados a los usuarios en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Configurar Implementación centralizada del complemento
 
 Usted trabajará en [!INCLUDE[prod_short](includes/prod_short.md)] y el Centro de administración de Microsoft 365.
 
-1. En [!INCLUDE[prod_short](includes/prod_short.md)]\,, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Implementación centralizada complementos Excel**, luego elija el enlace relacionado.
+1. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Implementación centralizada complementos Excel**, luego elija el enlace relacionado.
 2. Lea la información en la página **Configuración de complementos de Excel de Business Central** y elija **Siguiente**.
 3. Inicie sesión en [Centro de administración de Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967) y vaya a **Aplicaciones integradas**<!--**Add-ins**-->.
 
@@ -81,7 +81,7 @@ Usted trabajará en [!INCLUDE[prod_short](includes/prod_short.md)] y el Centro d
     5. Espere a que aparezca la marca de verificación verde junto a **Implementado** para el complemento, luego elija **Hecho**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
        El complemento aparece en la página **Complementos**. Para obtener más información sobre la implementación de complementos en el Centro de administración de Microsoft 365, consulte [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-4. Vuelva a la configuración asistida de **Implementación centralizada de complementos de Excel** en [!INCLUDE[prod_short](includes/prod_short.md)]\, y elija **Siguiente**.
+4. Vuelva a la configuración asistida de **Implementación centralizada de complementos de Excel** en [!INCLUDE[prod_short](includes/prod_short.md)] y elija **Siguiente**.
 5. Active **Utilizar Implementación centralizada** y elija **Terminar**.
 
     Si no activa este conmutador, [!INCLUDE[prod_short](includes/prod_short.md)] obtendrá el complemento directamente de Tienda Office.
@@ -114,7 +114,7 @@ Si un usuario no puede conectarse automáticamente, puede desbloquearlo pidiénd
 4. Cuando se le pida, inicie sesión con su nombre de usuario y contraseña de Business Central.
 5. Opcionalmente, elija el entorno y la empresa a los que desea conectarse.
 
-El complemento ahora está conectado a [!INCLUDE [prod_short](includes/prod_short.md)]\, y puede editar datos y publicar los cambios en [!INCLUDE [prod_short](includes/prod_short.md)]\. 
+El complemento ahora está conectado a [!INCLUDE [prod_short](includes/prod_short.md)] y puede editar datos y publicar los cambios en [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Prepare los dispositivos y la red para el complemento de Excel
 
@@ -127,9 +127,9 @@ A veces, los usuarios tienen problemas con el complemento de Excel. Esta secció
 |Problema  |Solución o solución alternativa  |Comentarios  |
 |---------|---------|---------|
 |El complemento no se inicia|Compruebe si el complemento se implementa de forma centralizada. O verifique si el usuario no puede instalarlo localmente. | El administrador puede configurar Office para que los usuarios no puedan adquirir complementos. En esos casos, el administrador debe implementar el complemento de forma centralizada. Para más información, vea [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Los datos no se cargan en Excel|Pruebe la conexión abriendo otra lista en Excel desde [!INCLUDE [prod_short](includes/prod_short.md)]\. O abra el libro en Excel en un navegador.|Si el usuario ha especificado un nombre de empresa que contiene caracteres especiales, el complemento no se puede conectar. |
-|Los datos no se pueden volver a publicar en [!INCLUDE [prod_short](includes/prod_short.md)]\.|Pruebe la conexión abriendo el libro en Excel en un navegador. |A veces, una extensión puede bloquear el trabajo de publicación. Si la página está extendida o personalizada, elimine las extensiones y vuelva a intentarlo.|
-|Las fechas están mal  |Excel puede mostrar fechas y horas en un formato diferente que [!INCLUDE [prod_short](includes/prod_short.md)]\. Esta situación no significa que sean incorrectos y los datos de [!INCLUDE [prod_short](includes/prod_short.md)]\ no se desorganizarán.|         |
+|Los datos no se cargan en Excel|Pruebe la conexión abriendo otra lista en Excel desde [!INCLUDE [prod_short](includes/prod_short.md)]. O abra el libro en Excel en un navegador.|Si el usuario ha especificado un nombre de empresa que contiene caracteres especiales, el complemento no se puede conectar. |
+|Los datos no se pueden volver a publicar en [!INCLUDE [prod_short](includes/prod_short.md)].|Pruebe la conexión abriendo el libro en Excel en un navegador. |A veces, una extensión puede bloquear el trabajo de publicación. Si la página está extendida o personalizada, elimine las extensiones y vuelva a intentarlo.|
+|Las fechas están mal  |Excel puede mostrar fechas y horas en un formato diferente que [!INCLUDE [prod_short](includes/prod_short.md)]. Esta situación no significa que sean incorrectos y los datos de [!INCLUDE [prod_short](includes/prod_short.md)] no se desorganizarán.|         |
 |Para algunas páginas de lista, la edición de varias líneas en Excel provoca errores de forma constante. Esta condición puede ocurrir si las llamadas de OData incluyen FlowFields y campos fuera del control del repetidor.|En la página **Servicios web**, seleccione las casillas **Excluir FlowFields no editables** y **Excluir campos fuera del repetidor** para la página publicada. Al seleccionar estas casillas se excluyen los FlowFields y campos no editables del cálculo de eTag. |Estas casillas están ocultas de forma predeterminada. Para mostrarlas en la página **Servicios web**, use [personalización](/dynamics365/business-central/ui-personalization-user). |
 
 
@@ -162,7 +162,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 When the add-in is installed, it shows up as a panel in Excel. Next, you must configure the connection.
 
 > [!TIP]
-> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)]\.When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
+> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->

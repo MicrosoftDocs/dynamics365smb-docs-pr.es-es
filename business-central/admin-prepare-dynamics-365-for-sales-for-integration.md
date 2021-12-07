@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
-ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
+ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651492"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865726"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,7 +26,7 @@ El papel de vendedor se considera a menudo uno de los trabajos más orientados h
 > Este tema describe el proceso de integración de las versiones en línea de [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener información sobre la configuración local, consulte [Preparación de Dynamics 365 Sales para la integración local](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-dataverse"></a>Integración a través de Dataverse
-[!INCLUDE[prod_short](includes/prod_short.md)] también se integra con [!INCLUDE[prod_short](includes/cds_long_md.md)], lo que facilita la conexión y sincronización de datos con otras aplicaciones de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)], o incluso aplicaciones que crea usted mismo. Si está integrando por primera vez, le recomendamos que lo haga a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener más información, vea [Integración con Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] también se integra con [!INCLUDE[prod_short](includes/cds_long_md.md)], lo que facilita la conexión y sincronización de datos con otras aplicaciones de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)], o incluso aplicaciones que crea usted mismo. Si está integrando por primera vez, debe hacerlo a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener más información, vea [Integración con Dataverse](admin-common-data-service.md).
 
 Si ya ha integrado [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], puede continuar sincronizando datos utilizando su configuración. Sin embargo, si actualiza o desactiva la integración de [!INCLUDE[crm_md](includes/crm_md.md)], para activarla de nuevo debe conectarse a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener más información, vea [Actualización de una integración con Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -134,10 +134,10 @@ Para utilizar las nuevas asignaciones, debe sincronizar los grupos de unidades, 
 
 Los siguientes pasos describen los pasos para comenzar a asignar grupos de unidades:
 
-1. Asegúrese de que los productos en [!INCLUDE[crm_md](includes/crm_md.md)] no se combinan con elementos o recursos en [!INCLUDE[prod_short](includes/prod_short.md)]. Si lo son, vaya a las páginas **Elementos** y / o **Recursos**, use las opciones de filtro para seleccionar los registros acoplados y luego elija la acción **Dynamics 365 Sales** y seleccione **Desacoplar**. Esto programa un trabajo en segundo plano para desacoplar los registros. Mientras se ejecuta el trabajo, puede comprobar su estado mediante la acción **Registro de sincronización**. Para obtener más información, consulte [Emparejamiento y sincronización](admin-how-to-couple-and-synchronize-records-manually.md). 
+1. Asegúrese de que los productos en [!INCLUDE[crm_md](includes/crm_md.md)] no se combinan con elementos o recursos en [!INCLUDE[prod_short](includes/prod_short.md)]. Si lo son, vaya a las páginas **Elementos** y / o **Recursos** y use las opciones de filtro para seleccionar los registros acoplados. Después elija la acción **Dynamics 365 Sales**, y luego elija **Desacoplar**. Esto programa un trabajo en segundo plano para desacoplar los registros. Mientras se ejecuta el trabajo, puede comprobar su estado mediante la acción **Registro de sincronización**. Para obtener más información, consulte [Emparejamiento y sincronización](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Porque se crearán nuevos productos en [!INCLUDE[crm_md](includes/crm_md.md)] con nuevos grupos de unidades, para evitar nombres duplicados, realice una de las siguientes acciones:
     
-    * Cambie el nombre de sus productos y luego retírelos en [!INCLUDE[crm_md](includes/crm_md.md)]. Para más información, ver [Retirar productos (Centro de ventas)](/dynamics365/sales-enterprise/retire-product). Para editar de forma masiva sus productos en Microsoft Excel, iniciar sesión en Power Apps, elija su entorno, vaya a la tabla **Producto** tabla y elija la pestaña **Datos**. Borre los filtros que se apliquen. En el grupo **Datos** grupo, elija la acción **Editar datos en Excel**. Agregue un prefijo o sufijo a los productos acoplados y luego retírelos.
+    * Cambie el nombre de sus productos y luego retírelos en [!INCLUDE[crm_md](includes/crm_md.md)]. Para más información, ver [Retirar productos (Centro de ventas)](/dynamics365/sales-enterprise/retire-product). Para editar de forma masiva sus productos en Microsoft Excel, iniciar sesión en Power Apps, elija su entorno, vaya a la tabla **Producto** tabla y después elija la pestaña **Datos**. Borre los filtros que se apliquen. En el grupo **Datos** grupo, elija la acción **Editar datos en Excel**. Agregue un prefijo o sufijo a los productos acoplados y luego retírelos.
     * Retire sus productos y elimínelos. 
 
 3. Siga estos pasos para sincronizar **Grupos de unidades**, **Unidad de medidas**, **Elementos** y **Recursos**:

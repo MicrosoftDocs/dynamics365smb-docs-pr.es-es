@@ -1,6 +1,6 @@
 ---
 title: Fuentes Disponibles
-description: La versión en línea de Business Central contiene fuentes preinstaladas en los servidores que se pueden usar al generar informes.
+description: Obtenga información sobre las fuentes preinstaladas que puede utilizar para sus informes externos.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588029"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868306"
 ---
 # <a name="available-fonts"></a>Fuentes Disponibles
 
@@ -48,7 +48,7 @@ Además de las fuentes MICR, hay fuentes de seguridad especiales disponibles par
 Para obtener más información , vea [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Fuentes para códigos de barras
-Las fuentes para generar códigos de barras unidimensionales están instaladas y disponibles para su uso en diseños de informes de Word y RDLC.
+Las fuentes para generar códigos de barras están instaladas y disponibles para su uso en diseños de informes de Word y RDLC.
 
 Se admiten las siguientes simbologías de códigos de barras:
 * Código 3 de 9 (Código 39)
@@ -57,6 +57,13 @@ Se admiten las siguientes simbologías de códigos de barras:
 * Codabar
 * MSI
 * Intercalado 2 de 5
+
+Se admiten las siguientes simbologías bidimensionales de códigos de barras:
+* Aztec
+* Matriz de datos
+* Maxicode
+* PDF417
+* QR
 
 Para obtener más información, consulte [Fuentes para códigos de barras con Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

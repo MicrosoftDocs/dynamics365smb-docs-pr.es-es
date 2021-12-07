@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588256"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865447"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -37,7 +37,7 @@ Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que 
 La mayoría de los accesos directos son los mismos independientemente de que el sistema operativo sea Windows o macOS. Sin embargo, algunos accesos directos son distintos para macOS. Estos métodos abreviados de teclado se indican entre paréntesis en las siguientes secciones.
 
 > [!NOTE]
-> Además de los métodos abreviados de teclado globales descritos en este tema, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], F9 publica un documento y Ctrl + F7 muestra las entradas contables de un registro al abrirlo en una tarjeta. (Estos pueden ser diferentes en su solución). El método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
+> Además de los métodos abreviados de teclado globales descritos en este artículo, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], F9 publica un documento y Ctrl + F7 muestra las entradas contables de un registro al abrirlo en una tarjeta. Este artículo incluye algunos de los atajos específicos de negocios más comunes, que se muestran en cursiva. Tenga en cuenta que los atajos reales pueden ser diferentes en su solución. En la interfaz de usuario, el método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Métodos abreviados de teclado generales
 
@@ -83,7 +83,15 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Ordenar la columna seleccionada en orden ascendente o descendente.|No aplicable.|
 |Alt+N|Insertar una nueva línea en una lista editable, como la página **Presupuestos contables**.|Igual.|
+|Shift+F9|Publica e imprime un documento.|Igual.|
 |Shift+F10 |Abrir un menú de opciones que están disponibles para la fila seleccionada.|Igual.|
+|Alt+D|Abre las entradas de grupo de dimensiones.|Igual.|
+|Ctrl+F7|Abra entradas del libro mayor, entradas de registros, entradas de costos, etc.|
+|Ctrl+F9|Lanzar documento.|Igual.|
+|*F7*|Abrir estadísticas.|Igual.|
+|*F9*|Publicar, emitir, registrar o anular el documento.|Igual.|
+|*Mayúsculas+Ctrl+F*|Envíe las líneas sugeridas en la página de hojas de cálculo de flujo de efectivo.|No aplicable.|
+|*Mayúsculas+Ctrl+I*|Ver números de serie y de lote asignados al producto de línea en el documento o diario.|No aplicable.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navegación entre filas y columnas
 
@@ -103,7 +111,7 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 | Flecha hacia arriba | En la misma columna, desplazarse al campo de la fila superior. | En la misma columna, desplazarse al mosaico de la fila superior. |
 | Flecha hacia la derecha | En una lista de solo lectura, desplácese en la misma fila al siguiente campo de la derecha.<br /><br />En una lista editable, desplácese a la derecha del campo actual. | En la misma fila, desplazarse al siguiente mosaico de la derecha. |
 | Flecha izquierda | En una lista de solo lectura, desplácese en la misma fila al campo anterior de la izquierda. <br /><br />En una lista editable, desplácese a la izquierda del campo actual. | En la misma fila, desplazarse al mosaico anterior de la izquierda. |
-| Tab | En una lista editable, desplácese en la misma fila al siguiente campo de la derecha. | No aplicable. |  |
+| Tab | En una lista editable, desplácese en la misma fila al siguiente campo de la derecha. | No aplicable. | 
 | Mayús+Tabulador | En una lista editable, desplácese en la misma fila al anterior campo de la izquierda. | No aplicable. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selección, copia y pegado
@@ -142,7 +150,9 @@ Los siguientes métodos abreviados están disponibles en las páginas de ficha, 
 
 |Pulsar estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
+|Alt+D|Abre las entradas de grupo de dimensiones.|
 |Alt+F6|Alternar contraer/expandir la ficha desplegable o parte (subpágina) actual.|
+|Alt+F9|Crea un nuevo documento y lo publica.|
 |Alt + G|Abra la página **Buscar entradas** para buscar entradas relacionadas con el documento registrado. Funciona también en listas.|
 |Alt+N |Abrir una página para crear un nuevo registro; de la misma manera que se elige la acción **Nueva**. |
 |Alt+Mayús+N |Cerrar una página y abrir una nueva para crear un nuevo registro; de la misma manera que se selecciona la acción **Aceptar y nuevo**. |
@@ -152,9 +162,15 @@ Los siguientes métodos abreviados están disponibles en las páginas de ficha, 
 |Ctrl+Flecha arriba |Abrir el registro anterior de una entidad.|
 |Ctrl+Insertar |Insertar una nueva línea en los documentos.|
 |Ctrl+Supr |Eliminar la línea en documentos, diarios y hojas de trabajo.|
+|Ctrl+F7|Abra entradas del libro mayor, entradas de registros, entradas de costos, etc.|
+|Ctrl+F9|Lanzar documento.|
 |Ctrl+Shift+F12 |Maximizar la parte de productos de línea en una página de documento Pulse las teclas de nuevo para volver a la pantalla normal. Para obtener más información, consulte [Enfoque en los productos de línea](ui-enter-data.md#Focus).|
 |F6|Moverse a la siguiente ficha desplegable o parte (subpágina).|
+|*F7*|Abrir estadísticas.|
+|*F9*|Publicar, emitir, registrar o anular el documento.|
+|*Mayúsculas+Ctrl+F9*|Publique, imprima y guarde el recibo de almacén.|
 |Shift+F6|Moverse a la ficha desplegable o parte (subpágina) anterior.|
+|*Mayúsculas+F9*|Publica e imprime un documento.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Métodos abreviados de entrada rápida para campos
 
