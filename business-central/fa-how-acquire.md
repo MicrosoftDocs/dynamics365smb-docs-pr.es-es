@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643935"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920960"
 ---
 # <a name="acquire-fixed-assets"></a>Activos fijos adquiridos
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Un libro de amortización debe estar configurado y asignado a cada activo fijo antes de que pueda adquirirlo.
@@ -78,14 +78,14 @@ Si se equivoca al registrar un coste, puede eliminar el movimiento mediante el p
 Por ejemplo, si registra una adquisición con la fecha incorrecta, debe corregirla lo más pronto posible porque la fecha de registro de un activo se utiliza para realizar muchos cálculos.
 
 > [!IMPORTANT]  
->   No puede usar la función **Transacciones inversas** para los movimientos de un activo.
+> No puede usar la función **Transacciones inversas** para los movimientos de un activo.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cancelar movs. A/F**, y luego elija el enlace relacionado.
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Elija el botón **Aceptar** para iniciar el trabajo por lotes.
-4. Cuando se hayan cancelado el movimiento o movimientos incorrectos, registre el coste correcto.
-
-Para anular los movimientos de varios activos fijos a la vez, use el proceso **A/F Anular movs**.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movs. Activos**, y luego elija el enlace relacionado.  
+2. En la página **Movs. Activos**, seleccione la entrada o entradas que desea cancelar.  
+3. Seleccione el menú **Acciones** y, a continuación, seleccione la acción **Cancelar movs.**.
+4. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Elija el botón **Aceptar** para iniciar el trabajo por lotes.
+6. Cuando se hayan cancelado el movimiento o movimientos incorrectos, registre el coste correcto.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Para registrar el valor residual junto con el coste
 Puede registrar el valor residual junto con el coste a partir del diario de activos.

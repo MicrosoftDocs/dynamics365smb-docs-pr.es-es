@@ -1,6 +1,6 @@
 ---
 title: Configurar partes de horas y su aprobación
-description: Puede configurar hojas de horas para realizar un seguimiento del tiempo empleado en proyectos y el uso recursos, lo que le ayudará en la administración de proyectos, personal y capacidad
+description: Puede configurar hojas de horas para realizar un seguimiento del tiempo empleado en tareas y proyectos, lo que le ayudará en la administración de proyectos, personal y capacidad
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589212"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920985"
 ---
 # <a name="set-up-time-sheets"></a>Configuración de hojas de horas
 
-Las hojas de horas de [!INCLUDE[prod_short](includes/prod_short.md)] administran el registro de horas en incrementos semanales de siete días. Se usan para realizar el seguimiento del tiempo empleado en proyectos y puede usarlas para efectuar el registro de tiempo simple. Antes de poder usar las hojas de horas, debe especificar cómo desea que se configuren.
+Las hojas de horas de [!INCLUDE[prod_short](includes/prod_short.md)] administran el registro de horas en incrementos semanales de siete días. Puede utilizarlas para realizar el seguimiento del tiempo empleado en proyectos y puede usarlas para efectuar el registro de tiempo simple. Antes de poder utilizar las hojas de horas, debe especificar qué usuarios enviarán las hojas de horas y cómo desea configurar las hojas de horas.  
 
-Después de haber configurado cómo usará su organización las hojas de horas, puede especificar si se aprueban las hojas de horas y cómo se aprueban. En función de las necesidades de su organización, puede designar:
+> [!TIP]
+> En [!INCLUDE [prod_short](includes/prod_short.md)], los usuarios de las hojas de horas son *recursos*. De esta forma, puede utilizar hojas de horas para realizar un seguimiento del trabajo de los no empleados, por ejemplo. Para realizar un seguimiento del trabajo de sus propios empleados o para utilizar hojas de horas para realizar un seguimiento de la ausencia de empleados, debe asociar *empleados* con *recursos* en la guía de configuración.  
+
+Opcionalmente, especifique si se aprueban las hojas de horas y cómo. En función de las necesidades de su organización, puede designar:
 
 * Uno o varios usuarios como el administrador y el aprobador de todas las hojas de horas.
 * Un aprobador de la hoja de horas de cada recurso.
 
-Cuando haya configurado las hojas de horas, puede crear hojas de horas para recursos, asignarlas a líneas de planificación de proyecto y registrar líneas de hoja de horas. Para obtener más información, vea [Uso de hojas de horas](projects-how-use-time-sheets.md).  
+Cuando haya configurado las hojas de horas, puede crear hojas de horas para recursos, y los recursos pueden registrar líneas de hoja de horas. Opcionalmente, asigne hojas de horas a líneas de planificación de trabajos. Para obtener más información, vea [Uso de hojas de horas](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Configurar partes de horas con la guía de configuración asistida
 
@@ -42,6 +45,8 @@ A partir del lanzamiento de versiones 2 de 2021, puede utilizar una guía de con
 La guía de configuración asistida le guía a través de los siguientes pasos:
 
 1. Configurar los participantes en los procesos de parte de horas
+
+    La primera página de la guía muestra el número de usuarios en su [!INCLUDE [prod_short](includes/prod_short.md)]. También muestra otra información obligatoria y opcional.  
 2. Especificar el primer día de una semana laboral en esta organización
 
     El primer día de una semana laboral será el primer día predeterminado para todos los partes de horas.
@@ -50,10 +55,7 @@ La guía de configuración asistida le guía a través de los siguientes pasos:
     Esta persona puede editar y eliminar todos los partes de horas. Opcionalmente, agregue el mismo rol a otras personas en la página **Configuración de usuario**.
 4. Configurar los recursos que usarán los partes de horas y las personas que aprobarán los partes de horas
 
-    > [!NOTE]
-    > Para proyectos y trabajos, los usuarios de los partes de horas son *recursos*, no empleados. Por lo tanto, para poder realizar un seguimiento del trabajo de sus empleados, debe asociar los recursos con los empleados en la guía de configuración.
-
-Al final de la guía de configuración, puede optar por permitir que [!INCLUDE [prod_short](includes/prod_short.md)] cree partes de tiempo basados en su configuración. Alternativamente, ejecute la guía de configuración asistida nuevamente o complete la configuración manualmente.  
+Al final de la guía de configuración, puede optar por permitir que [!INCLUDE [prod_short](includes/prod_short.md)] cree partes de tiempo basados en su configuración. Vea las nuevas hojas de horas en la página **Hojas de horas**, que puede abrir [aquí](https://businesscentral.dynamics.com/?page=951). Alternativamente, ejecute la guía de configuración asistida nuevamente o complete la configuración manualmente.  
 
 ## <a name="set-up-time-sheets-manually"></a>Configurar partes de horas manualmente
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e62a4709b493d44487d189dfd9ec5b76bc6987b8
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446170"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921025"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 
@@ -31,7 +31,10 @@ Puede configurar los cálculos de IVA de forma manual, pero puede ser difícil y
 > [!NOTE]  
 > Puede usar la guía únicamente si ha creado una mi empresa, y no haya registrado transacciones que incluyen IVA. De lo contrario, sería muy sencillo usar tasas de IVA distintas por error, y crear informes relacionados con IVA inexactos.  
 
-Si desea configurar cálculos del IVA, o solo desea obtener información acerca de cada paso, este tema contiene descripciones de cada paso.
+Si desea configurar cálculos del IVA, o solo desea obtener información acerca de cada paso, este tema contiene descripciones de cada paso.  
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] está disponible en países que no utilizan IVA. Para obtener información sobre cómo configurar y declarar impuestos en su país en particular, consulte los artículos en la sección [Funcionalidad local en Business Central](about-localization.md).  
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Usar la guía de configuración asistida de configuración del IVA para configurar el IVA (recomendado)
 

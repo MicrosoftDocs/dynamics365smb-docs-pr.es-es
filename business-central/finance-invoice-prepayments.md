@@ -1,29 +1,34 @@
 ---
 title: Facturar prepagos
 description: Aprenda a utilizar prepagos para facturar y cobrar depósitos de los clientes y remitir depósitos a los proveedores en Business Central.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/29/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3c919a5d63e4468b7f3182afe04890c6733d0cad
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322534"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889899"
 ---
 # <a name="invoicing-prepayments"></a>Facturación de prepagos
 
-Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Puede requerir un depósito antes de fabricar productos bajo pedido o puede requerir el pago antes de enviar productos a un cliente. La funcionalidad de prepagos le permite facturar y cobrar depósitos requeridos de los clientes y remitir depósitos a proveedores. De este modo, puede asegurar que todos los pagos se registran contra una factura.  
+[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
- Los requisitos de los prepagos se pueden definir para un cliente o proveedor, para todos los productos o para algunos. Una vez realizada la configuración necesaria, puede generar facturas de prepago a partir de pedidos de compra y venta para el importe calculado del prepago. Puede cambiar los importes en la factura según sea necesario. Por ejemplo, puede especificar un importe total para todo el pedido. También puede enviar facturas de prepago adicionales si, por ejemplo, es necesario añadir nuevos productos al pedido. Puede aumentar las cantidades o añadir nuevas líneas a un pedido después de emitir un prepago y después puede registrar otra factura de prepago. Si desea eliminar una línea para la cual ya se ha facturado un prepago, deberá emitir un abono de prepago para poder eliminar la línea.  
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
- En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
+Por ejemplo, puede especificar un importe total para todo el pedido o puede distribuir el prepago en cada línea del pedido. También puede enviar facturas de prepago adicionales si, por ejemplo, es necesario añadir nuevos productos al pedido. Puede aumentar las cantidades o añadir nuevas líneas a un pedido después de emitir un prepago y después puede registrar otra factura de prepago.  
+
+> [!NOTE]
+> Si desea eliminar una línea para la cual ya se ha facturado un prepago, deberá emitir un abono de prepago para poder eliminar la línea.
+
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
 |**Para**|**Vea**|  
 |------------|-------------|  

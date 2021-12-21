@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445706"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921017"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas
 Todas las transacciones de empresas vinculadas que se reciben electrónicamente aparecen en la bandeja de entrada de empresas vinculadas.  
@@ -51,7 +51,7 @@ Puede utilizar el campo **Mostrar origen de transacción** para filtrar la pági
 
  > [!NOTE]  
  > Si los socios de empresas vinculadas se encuentran en la misma base de datos, las transacciones se transfieren sin necesidad de un archivo o correo electrónico. Consulte el campo **Tipo transferencia** de la página **Socio empresa vinculada**. <br /><br />
-En ese caso, puede configurar el sistema para que evite las bandeja de entrada y de salida seleccionando la opción **Aceptar auto. transacciones** en la página **Socio empresa vinculada** y en la ventana **Enviar auto. transacciones** en la página **Config. empr. vincul.**, respectivamente.
+En ese caso, puede configurar el sistema para que evite las bandeja de entrada y de salida seleccionando la opción **Aceptar auto. transacciones** en la página **Socio empresa vinculada** y en la ventana **Enviar auto. transacciones** en la página **Config. empr. vincul.**, respectivamente. Las transacciones entrantes entre empresas vinculadas se pueden aceptar automáticamente solo si el programador de tareas está habilitado. Para obtener más información, consulte [Configuración de Business Central Server - Configuración del programador de tareas](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Importar transacciones entre empresas vinculadas desde un archivo  
 Si tiene alguna empresa vinculada asociada que no está incluida en la misma base de datos que su empresa, puede recibir transacciones entre empresas vinculadas de ese socio en un archivo .xml. Después, deberá importar las transacciones en su bandeja de entrada.  

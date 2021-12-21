@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/09/2021
-ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 10/26/2021
+ms.openlocfilehash: bc04ebdbd8092fc480fdaa00043b4e4c49fa823e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588056"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920933"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -22,7 +22,7 @@ En [!INCLUDE[prod_long](includes/prod_long.md)], el elemento del menú Ayuda (el
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-El lanzamiento de versiones 2 de 2021 incluye un nuevo panel de ayuda que tiene una pestaña de búsqueda. Utilice el campo de búsqueda para buscar orientación sobre cómo utilizar el producto, las capacidades integradas y los módulos de formación disponibles. Dependiendo de sus términos de búsqueda, el panel muestra 5 o más enlaces con una breve descripción. Elija un enlace o detalle los términos de búsqueda. Cuando elige un enlace, el artículo de destino se abre en una nueva pestaña del navegador. Puede optar por desacoplar la pestaña del navegador y, a continuación, ver la información relevante junto con [!INCLUDE [prod_short](includes/prod_short.md)]. El panel permanece abierto mientras navega por [!INCLUDE [prod_short](includes/prod_short.md)] para que el contenido que buscó permanezca visible.  
+El lanzamiento de versiones 2 de 2021 incluye un nuevo panel de ayuda que tiene una pestaña de búsqueda. Utilice el campo de búsqueda para buscar orientación sobre cómo utilizar el producto, las capacidades integradas y los módulos de formación disponibles. Dependiendo de sus términos de búsqueda, el panel muestra cinco o más enlaces con una breve descripción. Elija un enlace o detalle los términos de búsqueda. Cuando elige un enlace, el artículo de destino se abre en una nueva pestaña del navegador. Puede optar por desacoplar la pestaña del navegador y, a continuación, ver la información relevante junto con [!INCLUDE [prod_short](includes/prod_short.md)]. El panel permanece abierto mientras navega por [!INCLUDE [prod_short](includes/prod_short.md)] para que el contenido que buscó permanezca visible.  
 
 > [!NOTE]
 > En la versión actual de [!INCLUDE [prod_short](includes/prod_short.md)], el campo de búsqueda en el panel de ayuda solo se aplica al contenido que se publica en el sitio docs.microsoft.com.
@@ -85,7 +85,7 @@ Para una visión general a más largo plazo, la [página de la guía básica](ht
 Esta sección le ofrece accesos directos a Microsoft AppSource para encontrar soluciones y servicios de los socios de [!INCLUDE[prod_short](includes/prod_short.md)]. Utilice los vínculos para explorar todas las funciones de [!INCLUDE[prod_short](includes/prod_short.md)] antes de decidir si desea comprar una suscripción. También puede encontrar un vínculo para contactar con el equipo de ventas.
 
 > [!NOTE]
-> Esta sección solo está disponible en experiencias de prueba. Si ya ha comprado [!INCLUDE[prod_short](includes/prod_short.md)], la sección ya no es visible.
+> Esta sección solo está disponible en experiencias de prueba de [!INCLUDE[prod_short](includes/prod_short.md)] online. Si ya ha comprado [!INCLUDE[prod_short](includes/prod_short.md)], la sección ya no es visible.
 
 ### <a name="give-feedback"></a>Enviar comentarios
 
@@ -95,7 +95,7 @@ Asegúrese de buscar en la lista de sugerencias enviadas. Lo más probable es qu
 
 ### <a name="troubleshooting"></a>Solución de problemas
 
-La sección **Solución de problemas** muestra a información técnica que su administrador o socio de [!INCLUDE[prod_short](includes/prod_short.md)] pueden utilizar para desbloquear usuarios. Esto incluye información sobre el último mensaje de error, la versión actual de su [!INCLUDE[prod_short](includes/prod_short.md)] y un vínculo para ir a la página **inspección de la página**. Para obtener más información, consulte [Inspección de páginas en Business Central](across-inspect-page.md).  
+La sección **Solución de problemas** muestra a información técnica que su administrador o socio de [!INCLUDE[prod_short](includes/prod_short.md)] pueden utilizar para desbloquear usuarios. Esta sección incluye información sobre el último mensaje de error, la versión actual de su [!INCLUDE[prod_short](includes/prod_short.md)] y un vínculo para ir a la página **inspección de la página**. Para obtener más información, consulte [Inspección de páginas en Business Central](across-inspect-page.md).  
 
 Para ayudarlo a usted o a su socio de soporte a solucionar problemas, puede activar el inicio de sesión adicional en la sección **Informar sobre un problema**. A continuación, puede analizar la telemetría adicional en el centro de administración o Application Insights, por ejemplo.  
 
@@ -113,13 +113,18 @@ Su socio distribuidor de [!INCLUDE[prod_short](includes/prod_short.md)] le ayuda
 Para obtener más información, consulte [Escalar problemas de soporte a Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) en el contenido de administración.  
 
 > [!NOTE]
-> Esta sección solo está disponible si ha pagado una suscripción a [!INCLUDE[prod_short](includes/prod_short.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prod_short](includes/prod_short.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prod_short](includes/prod_short.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145). Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
+> COn [!INCLUDE[prod_short](includes/prod_short.md)] online, la sección **Informar sobre un problema** solo está disponible si ha pagado una suscripción a [!INCLUDE[prod_short](includes/prod_short.md)]. Si se ha registrado en una versión de prueba y aún no ha comprado [!INCLUDE[prod_short](includes/prod_short.md)], no tiene un socio de reventa y no puede ponerse en contacto con el equipo de soporte de Microsoft. Puede encontrar un socio de [!INCLUDE[prod_short](includes/prod_short.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145). Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
+>
+> Con [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, esta sección solo está disponible en el lanzamiento de versiones 2 de 2020 (versión 18) y posteriores.
 
 ### <a name="support-contacts"></a>Contactos de soporte
 
 La sección **Informar sobre un problema** muestra una dirección de correo electrónico o un hipervínculo para que pueda ponerse en contacto con la persona o el equipo de atención al cliente. Si usted es el socio distribuidor de [!INCLUDE[prod_short](includes/prod_short.md)] de un suscriptor, puede configurar los datos de contacto de soporte preferidos en el centro de administración. Para obtener más información, consulte [Configuración de la experiencia de soporte](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) en el contenido de administración.  
 
 Para alertar a su socio de un problema, elija el vínculo para enviar un correo electrónico o abrir su sitio de soporte en una nueva pestaña del explorador. A continuación, puede agregar la información técnica sobre su suscriptor de Azure Active Directory desde la sección **Solución de problemas** y cualquier otra información que considere relevante.  
+
+> [!NOTE]
+> La información de los contactos de soporte no está disponible con [!INCLUDE[prod_short](includes/prod_short.md)] local.
 
 ## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>Usar el sitio docs.microsoft.com para obtener más información
 
@@ -181,7 +186,7 @@ En marzo de 2021, apareció una nueva sección debajo de la mayoría de artícul
 
 ### <a name="tell-us-what-you-think"></a>Indíquenos su opinión
 
-En docs.microsoft.com, cada artículo tiene dos botones al final del artículo. El botón *Este producto* le envía al sitio de Ideas y el botón *Esta página* le permite enviar comentarios sobre el contenido a través de GitHub. En ambos casos, debe crear una cuenta si aún no tiene una. Para *comentarios del producto*, debe iniciar sesión con su cuenta de correo de trabajo o de la organización. Para obtener *acceso a GitHub*, puede usar cualquier dirección de correo electrónico cuando cree una cuenta.  
+En docs.microsoft.com, cada artículo tiene dos botones al final del artículo. El botón *Este producto* le envía al sitio de Ideas y el botón **Esta página** le permite enviar comentarios sobre el contenido a través de GitHub. En ambos casos, debe crear una cuenta si aún no tiene una. Para *comentarios del producto*, debe iniciar sesión con su cuenta de correo de trabajo o de la organización. Para obtener *acceso a GitHub*, puede usar cualquier dirección de correo electrónico cuando cree una cuenta.  
 
 Agradecemos sus contribuciones, tanto como solicitudes de extracción con sugerencias o correcciones al contenido y como problemas de GitHub con errores o preguntas. Pero tenga en cuenta que los comentarios y contribuciones al repositorio *dynamics365smb-docs* es sobre el contenido, no sobre el producto.  
 

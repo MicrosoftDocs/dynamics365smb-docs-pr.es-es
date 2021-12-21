@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701570"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889841"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de prepagos
 
@@ -47,6 +47,9 @@ El procedimiento siguiente describe cómo facturar un prepago del pedido de vent
 
     Si ha especificado un porcentaje de prepago predeterminado para el cliente o en la ficha desplegalbe **Prepago** en este documento, este valor se copia en cada línea. Puede cambiar el contenido del campo **% de prepago** en la línea.  
 
+    > [!TIP]
+    > Si no ve el campo **% prepago**, puede agregarlo a través de la personalización.  Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
+
 4. Para ver el importe de prepago total, elija la acción **Estadísticas**.
 
     Si desea ajustar el importe de prepago total para el pedido, puede cambiar los contenidos del campo **Importe prepago** en la página **Estad. pedido ventas**.  
@@ -70,9 +73,10 @@ Puede emitir facturas de prepago adicionales para el pedido. Para ello, aumente 
 ## <a name="see-also"></a>Consulte también
 
 [Facturación de prepagos](finance-invoice-prepayments.md)  
-[Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Tutorial: configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Personalizar el área de trabajo](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

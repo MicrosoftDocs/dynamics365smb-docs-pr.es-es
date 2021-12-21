@@ -684,7 +684,7 @@
 ### [Informes de proyectos](project-reports.md)
 ### [Crear proyectos](projects-how-create-jobs.md)
 ### [Uso de recursos para proyectos](projects-how-use-resources.md)
-### [Uso de hojas de horas para proyectos](projects-how-use-time-sheets.md)
+### [Usar hojas de horas](projects-how-use-time-sheets.md)
 ### [Gestionar presupuestos de proyecto](projects-how-manage-budgets.md)
 ### [Registro del uso para proyectos](projects-how-record-job-usage.md)
 ### [Administración de suministros de proyecto](projects-how-manage-project-supplies.md)

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660186"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921063"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 
@@ -174,7 +174,10 @@ Los movimientos registrados se asignan a las dimensiones predeterminadas de las 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Para configurar un servicio de tipo de cambio de divisa
-Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa como FloatRates.
+Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa como FloatRates. 
+
+> [!NOTE]
+> La mayoría de los servicios de tipos de cambio proporcionan datos que son compatibles con el proceso de importación en [!INCLUDE[prod_short](includes/prod_short.md)]. Sin embargo, a veces los datos tienen un formato diferente y necesitará personalizar su proceso de importación. Puede usar el marco de intercambio de datos para hacerlo agregando su propia codeunit. Probablemente necesite ayuda de un desarrollador para hacer eso. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Servicios de tipo de cambio de divisas** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
