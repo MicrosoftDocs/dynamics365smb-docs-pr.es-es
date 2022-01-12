@@ -1,5 +1,5 @@
 ---
-title: Configurar bancos
+title: Configurar cuentas bancarias (contiene vídeo)
 description: Aprenda cómo se utilizan las cuentas bancarias en Business Central y cómo puede conciliar los importes con su banco.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 00e83bbf8c98a10e5a86f0341794bc125e8609c9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442880"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940606"
 ---
 # <a name="set-up-bank-accounts"></a>Configurar cuentas bancarias
 
@@ -84,9 +84,9 @@ Cuanta mejor información de asignación realice en el diario de conciliación d
 > [!WARNING]
 > Algunos campos pueden contener datos confidenciales, como los campos **Cód. sucursal banco**, **N.º cuenta bancaria**, **Código SWIFT**, y **Código IBAN**. Para más información, consulte [Supervisión de campos confidenciales](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts&quot;></a>Para configurar bancos
+## <a name="to-set-up-bank-accounts"></a>Para configurar bancos
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png &quot;Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. En la página **Cuentas bancarias**, elija la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

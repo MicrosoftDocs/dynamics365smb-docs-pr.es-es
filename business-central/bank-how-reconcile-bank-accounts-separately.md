@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587814"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949027"
 ---
 # <a name="reconcile-bank-accounts"></a>Conciliar cuentas bancarias
 
@@ -36,7 +36,7 @@ La conciliación de transacciones bancarias con movimientos de banco interno se 
 > [!NOTE]  
 > Si las líneas del extracto de cuenta están relacionadas con los movimientos del cheque, no puede utilizar las funciones de correspondencia. En lugar de eso, debe elegir la acción **Liquidar movs.** y, a continuación, seleccionar el movimiento de cheque correspondiente con el que desea relacionar la línea del extracto de cuenta.
 
-Cuando el valor en el campo **Saldo total** en el panel **Líneas de extracto de cuenta** es igual al valor del campo **Saldo a conciliar** en el panel **Movs. bancos**, puede seleccionar la acción **Registrar**. Los movimientos del libro mayor de banco no coincidentes permanecerán en la página, lo que indica alguna discrepancia que debe resolver para conciliar el banco.
+Cuando el valor en el campo **Saldo total** en el panel **Líneas de extracto bancario** es igual al valor total del campo **Saldo a conciliar**, además del campo **Saldo últ. extracto**, en el panel **Movs. bancos**, puede seleccionar la acción **Registrar**. Los movimientos del libro mayor de banco no coincidentes permanecerán en la página, lo que indica las discrepancias que debe resolver para conciliar el banco.
 
 Cualquier línea que no pueda coincidir, indicada por un valor en el campo **Diferencia**, permanecerá en la página **Conciliación banco** después de registrar. Representan algún tipo de discrepancia que debe resolver antes de completar la conciliación de banco. Situaciones comerciales típicas que pueden causar diferencias:
 

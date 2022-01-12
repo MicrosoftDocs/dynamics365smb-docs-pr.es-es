@@ -1,5 +1,5 @@
 ---
-title: Experiencias contables en Business Central
+title: Experiencias contables en Business Central (contiene vídeo)
 description: Obtenga más información sobre el Área de trabajo contable y el hub de empresas que admite contables internos y externos en la empresa cliente.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e988e0b23f29f4b9969a9682eac2e2e91a30fcc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2c92e72f20c26fe1505834e70d58981093c24b8
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442805"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940231"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Experiencias contables en [!INCLUDE[prod_long](includes/prod_long.md)]
 

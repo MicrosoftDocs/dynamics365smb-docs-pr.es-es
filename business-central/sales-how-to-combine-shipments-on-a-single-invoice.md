@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442730"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7929585"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
 Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.  
@@ -34,6 +34,9 @@ Para crear una agrupación de envíos, primero debe registrar más de un envío 
 
     Si se ha seleccionado una línea de envío incorrecta o desea volver a empezar, sólo tiene que eliminar las líneas de la factura y volver a ejecutar la función **Traer líneas alb. venta**.  
 7. Para registrar la factura, elija la acción **Registrar**.  
+
+> [!TIP]  
+> Si ha enviado pedidos donde el **Venta a-N.º cliente** es diferente de **Factura-a Nº cliente**, esas líneas no se muestran en el informe **Obtener líneas de envío**. Utilice la personalización para agregar el campo **Cliente de venta** a la página y elimine el filtro. Ahora puede agregar líneas de envío a la factura independientemente del valor en el campo **Venta a-N.º cliente** siempre que el campo **Factura-a Nº cliente** en las líneas de envío coincida con el valor de la factura de venta.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma automática en una factura única  
 [!INCLUDE[prod_short](includes/prod_short.md)] seleccionará solo pedidos de venta donde se elija **Combinar envíos**. 

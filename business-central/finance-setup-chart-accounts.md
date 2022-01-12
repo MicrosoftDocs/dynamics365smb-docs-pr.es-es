@@ -1,5 +1,5 @@
 ---
-title: Configurar un plan contable
+title: Configurar el plan de cuentas (contiene vídeo)
 description: El plan de cuentas muestra las cuentas de contabilidad que almacenan sus datos financieros. Puede cambiar las cuentas predeterminadas en el plan de cuentas y puede agregar nuevas cuentas.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 506aae83d19c8b04102760017302e83d523f77e8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0ef1a35805413619c6da19654a8f501525997d35
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6327043"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940556"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
 

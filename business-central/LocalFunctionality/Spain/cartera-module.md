@@ -1,8 +1,6 @@
 ---
 title: Módulo Cartera
 description: El módulo Cartera permite utilizar documentos específicos, como letras de cambio y pagarés, para administrar pagos de clientes y proveedores.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 35291, 35292,35293, 35294, 35295, 35296, 35297, 35298, 35299, 35300, 35301, 35302, 35303, 35304, 35305, 35306, 35848, 35850, 7000003, 7000004, 7000005, 7000006, 7000007, 7000008, 7000009, 7000010, 7000011, 7000012, 70000013, 7000014, 7000015, 7000016, 7000017, 7000018, 7000019, 7000020, 7000021, 7000022, 7000024, 7000025, 7000029, 7000030, 7000031, 7000032, 7000033, 7000034, 7000036, 7000037, 7000040, 7000041, 7000044, 7000045, 700071, 700072
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0871cbd022c3e602e92d58650244991c22645abe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 22c9a68e35bb916d39609b4bb207df21c9e00fae
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788222"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947219"
 ---
 # <a name="cartera-module"></a>Módulo Cartera
 El módulo Cartera permite utilizar documentos específicos, como letras de cambio y pagarés, para administrar pagos de clientes y proveedores.  

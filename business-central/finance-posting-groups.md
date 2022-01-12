@@ -1,8 +1,6 @@
 ---
 title: Configuración de grupos contables | Documentos de Microsoft
 description: Resumen de los grupos contables que puede utilizar para ahorrar tiempo y evitar errores al registrar transacciones.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588812"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940756"
 ---
 # <a name="setting-up-posting-groups"></a>Configurar los grupos contables
 Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Ahorran tiempo y ayudan a evitar errores al registrar las transacciones. Los valores de transacción se envían a las cuentas especificadas en el grupo contable de dicha entidad. El único requisito es que tenga un plan de cuentas. Para obtener más información, vea [Configuración del plan de cuentas](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ La configuración determina cuándo se realiza el registro. Por ejemplo, el tiem
 
 ## <a name="copying-posting-setup-lines"></a>Copiar líneas de configuración de grupos contables
 Cuantos más grupos contables de producto y de negocio tenga, más líneas habrá en la página Configuración grupos contables. Ello podría conllevar la introducción de muchos datos para configurar los grupos contables de la empresa. Si bien puede haber muchas combinaciones distintas de grupos contables de negocio y de producto, las distintas combinaciones podrían crear registros en las mismas cuentas de contabilidad. Para limitar la introducción manual de los datos, copie las cuentas de contabilidad de una línea existente en la página **Configuración grupos contables**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Configurar grupos contables sobre la marcha
+
+Para que los usuarios comiencen más rápido, [!INCLUDE[prod_short](includes/prod_short.md)] ofrece asistencia a través de notificaciones de cuentas de contabilidad general que falten en varias configuraciones de grupos contables en documentos. Para recibir estas notificaciones, asegúrese de que la notificación **Cuenta C/G que falta en grupo de registro o configuración** está seleccionada en la página **Mis notificaciones**, a la que puede acceder desde el campo **Cambiar cuándo recibo notificaciones** en la página **Mi configuración**.  
+
+De esta manera, cuando trabaje en un documento que usa un grupo contable o una configuración a la que le falta una cuenta de contabilidad general requerida, recibirá una notificación. Elija el vínculo en la notificación para abrir una página donde puede realizar los cambios relevantes, siempre que tenga permiso para hacerlo.  
+
+> [!NOTE]
+> Para llevarlo directamente al grupo contable o configuración al que le falta una cuenta de contabilidad general, [!INCLUDE[prod_short](includes/prod_short.md)] creará una configuración o grupo contable que servirá como marcador. Los grupos contables y las configuraciones son una forma para que el contable controle cómo se registran los movimientos en la contabilidad general, por lo que es posible que la creación al momento de grupos contables y configuraciones no esté permitida en su organización.  
+> 
+> En ese caso, desactive la notificación **Cuenta C/G que falta en grupo de registro o configuración** y, a continuación, trabaje con su contable para realizar los cambios relevantes en el grupo contable, la configuración o su documento. Este es un paso importante, porque una vez que se contabilizan los documentos, los grupos contables o configuraciones incorrectamente utilizados no se pueden eliminar porque se han creado movimientos de contabilidad general para ellos. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Solución de problemas de errores de grupos de publicación
 Los grupos de publicación son uno de los conceptos más avanzados para configurar en [!INCLUDE[prod_short](includes/prod_short.md)]. Si no están configurados correctamente, pueden ocurrir errores al registrar documentos o líneas de diario. Por ejemplo, estos errores generalmente se deben a un error en cómo se asignan las cuentas de contabilidad o en cómo se combinan los grupos de registro.

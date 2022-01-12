@@ -1,5 +1,5 @@
 ---
-title: Configurar métodos preferidos para enviar documentos de venta | Documentos de Microsoft
+title: Configurar métodos preferidos para enviar documentos de venta (contiene vídeo) | Documentos de Microsoft
 description: Describe cómo configurar el método preferido de cada cliente de enviar documentos de venta, por ejemplo, correo electrónico, PDF, documento electrónico, etc.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b91a1c0566b6fb4736093ca9617a5a1566bf2bf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436681"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939882"
 ---
 # <a name="set-up-document-sending-profiles"></a>Configurar perfiles de envío de documentos
 Puede configurar cada cliente con un método preferido para enviar documentos de venta, de modo que no tenga que seleccionar una opción de envío cada vez que elija la acción **Registrar y enviar**.

@@ -9,18 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/27/2021
+ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589506"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940631"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] en línea, puede obtener fácilmente un entorno seguro donde puede probar, formar o solucionar problemas sin alterar los procesos de trabajo o los datos de negocio de su empresa. Tal entorno de no producción se llama *entorno aislado*. Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.  
+
+> [!TIP]
+> ¿Llegó a este artículo después de elegir el nombre de su entorno de [!INCLUDE [prod_short](includes/prod_short.md)] en la barra superior? Actualmente, no puede cambiar el nombre o el entorno de esa manera. En su lugar, debe pedirle a su administrador que cambie el nombre o pedirle que comparta el vínculo a otro entorno.
 
 Su administrador gestiona los ambientes de espacio aislado en el [centro de administracion](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

@@ -1,5 +1,5 @@
 ---
-title: Creación del informe 340 [ES]
+title: Crear el informe 340 [ES]
 description: Lea sobre cómo crear el informe 340 para las autoridades fiscales en la versión en español de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 10737, 10738, 10744
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 72cda0e0ee088853b27a9e3bb48806b61dc4a7ef
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 34a2501a3bb6788aed7a53d92b2818835bb98656
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437519"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947230"
 ---
 # <a name="create-report-340-in-the-spanish-version"></a>Crear informe 340 en la versión en español
 El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados.  

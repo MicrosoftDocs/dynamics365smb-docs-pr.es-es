@@ -1,5 +1,5 @@
 ---
-title: Configurar compradores y asignar compradores a proveedores | Documentos de Microsoft
+title: Configurar compradores y asignar compradores a proveedores (contiene vídeo) | Documentos de Microsoft
 description: Si trabajan varios compradores, o agentes de compras, para su empresa, puede organizarlos para análisis estadísticos.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 452a5fab73d60bea127d19a42c1730fcbd24b06c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435140"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940181"
 ---
 # <a name="set-up-purchasers"></a>Configurar compradores
 Si trabajan para la empresa varios compradores, puede configurarlos en una página y asignar un código a cada uno. Más adelante, podrá utilizar los códigos para preparar estadísticas y filtrar información en los informes impresos.<br><br>  

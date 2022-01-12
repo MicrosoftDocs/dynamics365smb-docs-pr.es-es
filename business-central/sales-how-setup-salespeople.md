@@ -1,5 +1,5 @@
 ---
-title: Configurar un vendedor | Documentos de Microsoft
+title: Configurar un vendedor (contiene vídeo) | Documentos de Microsoft
 description: Puede configurar un identificador para cada uno de sus vendedores, de modo que pueda hacer un seguimiento del rendimiento de una persona o asignar un vendedor a un contacto.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 07fa5963f79f091dffd49af7d20669616923797f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2771eff803209b7f4295f6ac8a2e2af0d937f5fe
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436656"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940031"
 ---
 # <a name="set-up-salespeople"></a>Configurar vendedores
 Muchas empresas quieren realizar un seguimiento del rendimiento personal de sus empleados como base para calcular la comisión o prima por ventas. Vea, por ejemplo, el informe de **Comisiones del vendedor**. Ciertas empresas puede preferir asignar un vendedor a cada uno de sus contactos.

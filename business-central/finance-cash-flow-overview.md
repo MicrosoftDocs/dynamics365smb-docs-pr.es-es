@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724817"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940206"
 ---
 # <a name="cash-flow-overview"></a>Descripción del flujo de efectivo
 
@@ -26,7 +26,7 @@ Conocer las entradas y salidas de efectivo es la clave para una empresa exitosa.
 
 El término *flujo de efectivo* se utiliza para designar los cobros menos los pagos en efectivo durante un periodo seleccionado. Es una estimación del importe de dinero que espera que entre y salga de su empresa e incluye todos su ingresos y gastos previstos.
 
-## <a name="cash-flow-overview"></a>Descripción del flujo de efectivo
+## <a name="work-with-cash-flow"></a>Trabajar con flujo de efectivo
 
 El siguiente ejemplo muestra una descripción global de cómo puede trabajar con el flujo de efectivo.
 
@@ -74,7 +74,10 @@ El flujo de efectivo o el efectivo-en-mano neto se calcula como cobros totales m
 La previsión puede utilizarse como herramienta interna de toma de decisiones de gestión que contribuye a la planificación y la toma de decisiones estratégicas e importantes sobre la operación del negocio.
 
 ## <a name="see-also"></a>Consulte también
+
 [Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)  
-[Analizar el flujo de efectivo](finance-analyze-cash-flow.md)
+[Analizar el flujo de efectivo](finance-analyze-cash-flow.md)  
+[Prediga su flujo de efectivo en Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Configure previsiones de flujo de efectivo con Azure AI en Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

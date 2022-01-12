@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 06/23/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434913"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940831"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Extensión de Predicción de pagos atrasados  
+# <a name="the-late-payment-prediction-extension"></a>Extensión de Predicción de pagos atrasados
+
 La gestión efectiva de los cobres es importante para el estado financiero general de una empresa. La extensión de Predicción de pagos atrasados puede ayudarle a reducir los cobros pendientes y afinar su estrategia de cobros puesto que predice si las facturas de ventas se pagarán a tiempo. Por ejemplo, si se predice que un pago se retrasará, puede decidir ajustar los términos de pago o el método de pago para el cliente.
 
 ## <a name="getting-started"></a>Introducción
@@ -107,10 +108,13 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 7. Seleccione la casilla de verificación **Usar Mi suscripción a Azure**.
 8. En la ficha desplegable **Credenciales de mi modelo**, introduzca la URL y la clave de API para su modelo.  .  
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>Consulte también
+
 [Documentación de Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personalizar Business Central con extensiones](ui-extensions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-
+[Usar inteligencia artificial en Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

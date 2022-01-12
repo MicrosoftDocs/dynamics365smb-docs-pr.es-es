@@ -1,8 +1,6 @@
 ---
 title: Usar la extensión de previsión de ventas e inventario para administrar el inventario | Documentos de Microsoft
 description: Esta extensión le ayuda a predecir ventas, obtener un resumen claro de la falta de stock prevista e incluso le ayuda a crear solicitudes de reposición para proveedores.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 04/01/2021
+ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 86ff1e678882e4bfb7e95c253f55558c5b57defd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 615212ee648993136aaa75c7cb1ab798615899ab
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434839"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940156"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extensión de previsión de ventas e inventario
 La gestión del inventario es un equilibrio entre el servicio al cliente y gestionar el coste. Por un lado, un inventario bajo requiere menos capital de trabajo, pero, por otro lado, la falta de stock puede llevar potencialmente la pérdida de ventas. La extensión de la previsión de inventario y ventas predice ventas potenciales con datos históricos y ofrece una visión general clara de la falta de stock prevista. Según la previsión, la extensión ayuda a crear solicitudes de reposición a los proveedores y le ahorra tiempo.  
@@ -59,11 +57,13 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de previsión de ventas e inventario** y, a continuación, elija el vínculo relacionado.  
 7. Expanda la ficha desplegable **General** y rellene los campos de URL de API y clave de API.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
+
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
-
+[Usar inteligencia artificial en Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

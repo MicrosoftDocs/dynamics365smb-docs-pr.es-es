@@ -12,27 +12,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2541f509d02a584620c83903c3b92983aba1c2a8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322799"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949048"
 ---
 # <a name="about-item-types"></a>Acerca de los tipos de productos
-En el campo **Tipo** en la página **Ficha de producto**, puede seleccionar para qué se usa el producto en su negocio y, por lo tanto, cómo se administra en el sistema. Existen tres opciones:
+En el campo **Tipo** en la página **Ficha de producto**, puede seleccionar para qué se usa el producto en su negocio, lo que afecta al grado en el que puede administrar el producto en el inventario. La siguiente tabla enumera y describe los tres tipos de elementos que están disponibles.
 
 |Opción|Propósito típico|
 |------|-----------|
-|Grupos contables inventario|Una unidad física, como una bicicleta, para un soporte comercial completo.|
-|No inventario|Una unidad física, como un tornillo, para soporte comercial limitado, por ejemplo, porque el artículo solo se usa internamente y tiene un bajo coste.|
+|Inventario|Cosas físicas, como bicicletas, teléfonos y escritorios, para las que desea poder utilizar todos los procesos de inventario. Esto también puede incluir elementos no físicos, como licencias de software y suscripciones, si los elementos tienen números de identificación, como números de serie. Puede realizar un seguimiento completo de los valores y la disponibilidad de los artículos en el inventario.|
+|No inventario|Por lo general, los artículos que no están en el inventario son cosas físicas, como tornillos o bolígrafos, que una empresa consume pero que no desea realizar un seguimiento completo en el inventario. Por ejemplo, porque son artículos de bajo coste y solo se usan internamente.|
 |Servicio|Una unidad de tiempo de trabajo, como una hora de consultoría, para soporte comercial limitado.|
 
-El tipo de **inventario** implica el seguimiento completo de la cantidad y el valor del inventario. Por lo tanto, todos los tipos de transacciones de artículos son compatibles y los artículos de tipo Inventario se pueden usar con todas las características de manejo de artículos.
+> [!NOTE]
+> Los tipos de **Servicio** y **No inventario** no admiten el seguimiento de la cantidad y el valor del inventario. Solo se admiten los tipos y las características de transacción de los elementos seleccionados.
 
-Los tipos de **Servicio** y **No inventario** no implican el seguimiento de la cantidad y el valor del inventario. Por lo tanto, solo se admiten los tipos y las características de transacción de los elementos seleccionados.
-
-Los tres tipos de elementos admiten las siguientes características, respectivamente.
+La siguiente table enumera las características que admiten los tres tipos de productos.
 
 |Tipo de producto|Ccial|Compra|Consumo de proyecto|Consumo de servicio|Consumo de ensamblado|Producción Consumo|Salida de ensamblado|Salida de producción|Transferencia de ubicación|Recuento físico|Revalorización de inventario|Inventario y valoración|Seguim. prod.|Reserva|Gestión de almacén|Planificación|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

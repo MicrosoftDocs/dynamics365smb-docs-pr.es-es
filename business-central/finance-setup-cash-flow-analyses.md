@@ -1,5 +1,5 @@
 ---
-title: Configuración del análisis de flujo de efectivo
+title: Configuración del análisis de flujo de efectivo (contiene vídeo)
 description: Utilice los gráficos del área de trabajo Cuentas para analizar el flujo de dinero de su empresa, incluyendo gastos e ingresos, liquidez y recibos de efectivo menos los pagos en efectivo.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 718aed64e13b28972210918c8171956f79485006
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446295"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940406"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de trabajo Contable:  
