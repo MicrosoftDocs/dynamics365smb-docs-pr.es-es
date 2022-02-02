@@ -10,17 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 02afd4709ef950a621043ed6955c79bf71dac6fd
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 957612150a5a5b99f41b83222ec8b84a3c617620
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326968"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971919"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminología en contabilidad de costes
+
 Este tema define los términos clave que se utilizan en contabilidad de costes.  
 
-## <a name="key-terms"></a>Términos clave  
+## <a name="key-terms"></a>Términos clave
+
  La siguiente tabla muestra las definiciones de los términos clave de contabilidad de costes.  
 
 |**Periodo**|**Definición**|  

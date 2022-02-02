@@ -7,15 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: effeb489bbffbc3647f30b371bc0c0a8f7f2e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439440"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970968"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
@@ -87,8 +88,8 @@ Debe realizar los pasos siguientes antes de introducir manualmente el IVA en un 
 2. Repita el paso 1 para la página **Configuración de ventas y cobros**.
 3. Cuando haya completado las acciones descritas, puede ajustar el campo **Importe IVA** de la línea del diario general, o el campo **Importe IVA contrap.** de la línea del diario de ventas o compras. [!INCLUDE[prod_short](includes/prod_short.md)] comprobará que la diferencia no sea mayor que el máximo especificado.  
 
-    > [!NOTE]  
-    > Si la diferencia es mayor, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. Para continuar, debe ajustar el importe. Elija **Aceptar** e introduzca un importe admitido. Si la diferencia de IVA es igual o menor que el máximo permitido, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará la diferencia en el campo **Diferencia IVA**.  
+> [!NOTE]  
+> Si la diferencia es mayor, se muestra una advertencia en la que se indica cuál es la mayor diferencia permitida. Para continuar, debe ajustar el importe. Elija **Aceptar** e introduzca un importe admitido. Si la diferencia de IVA es igual o menor que el máximo permitido, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará la diferencia en el campo **Diferencia IVA**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Registro del IVA de importación con facturas de compra
 En lugar de utilizar diarios para registrar las facturas de IVA de importación, puede utilizar facturas de compra.  
@@ -120,34 +121,34 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
 3. Elija **Detalles del certificado de suministro**.  
 4. De forma predeterminada, la casilla **Certificado de suministro obligatorio** está seleccionada por la configuración de grupo de registro de IVA correspondiente al cliente, el campo **Estado** se configura en **Obligatorio**. Puede actualizar el campo para indicar si el cliente ha devuelto el certificado.  
 
-    > [!Note]  
-    >  Si la configuración del grupo de registro de IVA no tiene seleccionada la casilla **Certificado de suministro obligatorio**, se crea un registro y el campo **Estado** se establece en **No aplica**. Puede actualizar el campo para reflejar la información correcta del estado. Puede cambiar manualmente el estado de **No aplicable** a **Requerido**, y de **Requerido** a **No aplicable**, según sea necesario.  
+> [!Note]  
+>  Si la configuración del grupo de registro de IVA no tiene seleccionada la casilla **Certificado de suministro obligatorio**, se crea un registro y el campo **Estado** se establece en **No aplica**. Puede actualizar el campo para reflejar la información correcta del estado. Puede cambiar manualmente el estado de **No aplicable** a **Requerido**, y de **Requerido** a **No aplicable**, según sea necesario.  
 
    Cuando se actualiza el campo **Estado** a **Requerido**, **Recibido** o **No recibido**, se crea un certificado.  
 
-    > [!TIP]  
-    >  Puede utilizar la página **Certificados de suministro** para obtener una vista el estado de todos los envíos registrados para los que se haya creado un certificado de suministro.  
+> [!TIP]  
+>  Puede utilizar la página **Certificados de suministro** para obtener una vista el estado de todos los envíos registrados para los que se haya creado un certificado de suministro.  
 
 5. Elija **Imprimir certificado de suministro**.  
 
-    > [!Note]  
-    >  Puede ver o imprimir el documento. Cuando elige **Imprimir certificado de suministro** e imprime el documento, la casilla **Impreso** se selecciona automáticamente. Además, si no se ha especificado, el estado del certificado se actualiza a **Obligatorio**. Si es necesario, el certificado impreso se incluye con el envío.  
+> [!Note]  
+>  Puede ver o imprimir el documento. Cuando elige **Imprimir certificado de suministro** e imprime el documento, la casilla **Impreso** se selecciona automáticamente. Además, si no se ha especificado, el estado del certificado se actualiza a **Obligatorio**. Si es necesario, el certificado impreso se incluye con el envío.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Para imprimir certificado de suministro  
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.  
 2. Elija el albarán de venta correspondiente a un cliente de otro país o región de la UE.  
 3. Elija la acción **Imprimir certificado de suministro**.  
 
-    > [!NOTE]  
-    >  También puede imprimir un certificado desde la página **Certificado de suministro**.  
+> [!NOTE]  
+>  También puede imprimir un certificado desde la página **Certificado de suministro**.  
 
 4. Para incluir la información de las líneas en el documento de envío en el certificado, seleccione la casilla **Imprimir detalles de línea**.  
 5. Elija la casilla **Crear certificados de suministro si no se han creado** para que [!INCLUDE[prod_short](includes/prod_short.md)] cree certificados para envíos registrados que no tengan ninguno en el momento de ejecutarse. Cuando elije la casilla, se crearán los nuevos certificados para todos los envíos registrados que no tengan certificados dentro del rango seleccionado.  
 6. De forma predeterminada, la configuración de filtro corresponde al documento de envío seleccionado. Rellene la información de filtro para seleccionar un certificado de suministro específico que desee imprimir.  
 7. En la página **Certificado de suministro**, elija la acción **Imprimir** para imprimir el informe o elija la acción **Vista preliminar** para verlo en la pantalla.  
 
-    > [!Note]  
-    > El campo **Estado certificado de suministro** y el campo **Impreso** se actualizan para el envío en la página **Certificados de suministro**.  
+> [!Note]  
+> El campo **Estado certificado de suministro** y el campo **Impreso** se actualizan para el envío en la página **Certificados de suministro**.  
 
 8. Envíe el certificado de suministro impreso al cliente para su firma.  
 
@@ -174,11 +175,11 @@ Para ver un grupo de certificados, desde la página **Certificados de suministro
 
    Puede modificar la fecha para reflejar la fecha en la que se recibió el certificado de suministro firmado. También puede agregar un vínculo al certificado firmado con el sistema estándar de vinculación de documentos [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-    > [!NOTE]  
-    >  No puede crear un certificado de suministro nuevo en la página **Certificado de suministro** mientras se navega a él con este procedimiento. Para crear certificados para envíos no configurados para requerirlos, abra el albarán de venta y siga cualquiera de los dos procedimientos descritos antes:  
-    >
-    > * Para crear manualmente un certificado de suministro  
-    > * Para imprimir certificado de suministro.
+> [!NOTE]
+> No puede crear un certificado de suministro nuevo en la página **Certificado de suministro** mientras se navega a él con este procedimiento. Para crear certificados para envíos no configurados para requerirlos, abra el albarán de venta y siga cualquiera de los dos procedimientos descritos antes:  
+>
+> * Para crear manualmente un certificado de suministro  
+> * Para imprimir certificado de suministro.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

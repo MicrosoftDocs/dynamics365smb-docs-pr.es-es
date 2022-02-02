@@ -1,21 +1,22 @@
 ---
-title: Resumen de tareas para configurar las compras | Documentos de Microsoft
+title: Resumen de tareas para configurar las compras
 description: Describe las tareas para definir las directivas de aprovisionamiento de su empresa y configurar sus procesos de compra.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
+ms.search.form: 175, 176, 177, 178, 460, 5727, 5729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d0058c707862144592278d08a494175adf67a2a
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 1dd5297513230c126a10a05af282fc03e282f398
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115441"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012424"
 ---
 # <a name="setting-up-purchasing"></a>Configurar compras
 Para poder administrar procesos de compra, debe configurar las reglas y valores que definen las políticas de compra de la empresa.

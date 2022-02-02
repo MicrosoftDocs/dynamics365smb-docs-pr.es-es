@@ -1,5 +1,5 @@
 ---
-title: Configuración de calendarios de planta
+title: Configurar calendarios de planta
 description: Crear y habilitar un calendario de centro de trabajo implica varias tareas, incluida la configuración de calendarios de planta y la creación de turnos de trabajo.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ab690e038c3e7c681cea9677e48b35876c567eac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440408"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972780"
 ---
 # <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
+
 Un calendario del centro de trabajo o de máquina especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad disponible bruta del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y capacidad definidos.
 
 Como requisito para calcular el calendario de un centro de trabajo o de máquina específico, deben definirse primero uno o varios calendarios generales de planta. Los calendarios de planta definen la semana de trabajo estándar en términos de horas de inicio y fin de cada día laborable y la relación con los turnos de trabajo. Asimismo, los calendarios de planta definen los días festivos fijos durante el año.  

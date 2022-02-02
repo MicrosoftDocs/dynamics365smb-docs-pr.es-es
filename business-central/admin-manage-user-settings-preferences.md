@@ -9,14 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
+ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b4c857f006970fa3973a1203a7ddd8cffc2298
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438957"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011762"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Administrar configuraciones y preferencias de usuario
 
@@ -43,16 +44,16 @@ La página **Tarjeta Configuración usuario** es similar a la página **Mi confi
 
 - **Idioma**  
 
-  Define el idioma de la aplicación en el que [!INCLUDE[prod_short](includes/prod_short.md)] presenta texto, subtítulos y mensajes de error. Si los usuarios de [!INCLUDE[prod_short](includes/prod_short.md)] están sincronizados desde Microsoft 365, se utiliza la configuración de idioma de Microsoft 365, suponiendo que el usuario quiera usar la misma configuración en los productos de Office y [!INCLUDE[prod_short](includes/prod_short.md)]. El administrador puede cambiar la configuración predeterminada y cada usuario puede elegir entre los idiomas disponibles en la página Mi configuración. No obstante, se restablecerán al valor de Microsoft 365 una vez que se realice la siguiente sincronización.
+  Define el idioma de la aplicación en el que [!INCLUDE[prod_short](includes/prod_short.md)] presenta texto, subtítulos y mensajes de error. Si los usuarios [!INCLUDE[prod_short](includes/prod_short.md)] están sincronizados desde Microsoft 365, se utiliza el idioma de Microsoft 365, suponiendo que el usuario quiera usar la misma configuración en los productos de Office y [!INCLUDE[prod_short](includes/prod_short.md)]. El administrador puede cambiar la configuración predeterminada y cada usuario puede elegir entre los idiomas disponibles en la página Mi configuración. No obstante, se restablecerán al valor de Microsoft 365 una vez que se realice la siguiente sincronización.
 
-  Si la configuración de idioma de Microsoft 365 coincide con un idioma compatible en [!INCLUDE[prod_short](includes/prod_short.md)], este idioma se elegirá para el usuario.  
+  Si la configuración de idioma de Microsoft 365 coincide con un idioma compatible en [!INCLUDE[prod_short](includes/prod_short.md)], este idioma será elegido para el usuario.  
 
   > [!NOTE]
   > Es posible que deba instalar una aplicación de idioma para [!INCLUDE[prod_short](includes/prod_short.md)] para mostrar correctamente el idioma. Por lo tanto, se recomienda instalar las aplicaciones de idioma necesarias antes de que cualquier usuario inicie sesión por primera vez para que tengan una buena experiencia desde su primer día. Para obtener más información, vea la lista de [idiomas compatibles](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
   
 - **Región**  
 
-  Define cómo se presentan las fechas y los números en el cliente [!INCLUDE[prod_short](includes/prod_short.md)], como si usar los formatos de fecha europeos o americanos, o cómo mostrar el signo decimal y los separadores de miles en las cantidades. Si los usuarios de [!INCLUDE[prod_short](includes/prod_short.md)] están sincronizados desde Microsoft 365, se utiliza la configuración regional de Microsoft 365, suponiendo que el usuario quiera usar la misma configuración en los productos de Office y [!INCLUDE[prod_short](includes/prod_short.md)]. Un administrador o usuario puede cambiar estas opciones de configuración manualmente en [!INCLUDE[prod_short](includes/prod_short.md)], pero se restablecerán al valor de Microsoft 365 una vez que se realice la siguiente sincronización.
+  Define cómo se presentan las fechas y los números en el cliente [!INCLUDE[prod_short](includes/prod_short.md)], como si usar los formatos de fecha europeos o americanos, o cómo mostrar el signo decimal y los separadores de miles en las cantidades. Si los usuarios [!INCLUDE[prod_short](includes/prod_short.md)] están sincronizados desde Microsoft 365, se utiliza la configuración regional de Microsoft 365, suponiendo que el usuario quiera usar la misma configuración en los productos de Office y [!INCLUDE[prod_short](includes/prod_short.md)]. Un administrador o usuario puede cambiar esta configuración manualmente en [!INCLUDE[prod_short](includes/prod_short.md)], pero se restablecerá al valor de Microsoft 365 una vez que se realiza la siguiente sincronización.
 
 - **Zona horaria**  
 
@@ -63,7 +64,7 @@ La página **Tarjeta Configuración usuario** es similar a la página **Mi confi
   [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)] Como administrador, puede desactivar los consejos didácticos para todos los usuarios, por ejemplo, si está en proceso de incorporar usuarios que ya están familiarizados con [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Si se realiza la sincronización de un usuario de Microsoft 365 mientras que hay usuarios con sesión iniciada en [!INCLUDE[prod_short](includes/prod_short.md)], estos usuarios deben actualizar el navegador o cerrar sesión y volver a iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] para ver un posible idioma diferente que podría haberse establecido a través de la acción de sincronización.
+> Si se realiza la sincronización de un usuario de Microsoft 365 mientras que hay usuarios con sesión iniciada en [!INCLUDE[prod_short](includes/prod_short.md)], estos usuarios deben actualizar el navegador o cerrar sesión y volver a iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] para ver un posible idioma diferente que se hubiera establecido a través de la acción de sincronización.
 
 ## <a name="overview-of-all-user-specific-changes"></a>Resumen de todos los cambios específicos del usuario
 

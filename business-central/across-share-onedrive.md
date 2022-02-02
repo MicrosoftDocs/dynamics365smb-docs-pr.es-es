@@ -1,6 +1,6 @@
 ---
-title: Utilizar OneDrive para la Emprea con Business Central
-description: Puedes usar OneDrive para la Empresa para almacenar, administrar y compartir archivos, como informes o archivos adjuntos.
+title: Abrir archivos de Business Central en OneDrive
+description: Descubra cómo puede compartir datos de Business Central a través de OneDrive para empresas.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 92896af6888ef5c39288d511e61d343d3e384a83
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 310ff52463a34e9c63ee20b52eaccdefdf1dd471
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589508"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011444"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Abrir archivos de Business Central en OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] facilita almacenar, administrar y compartir archivos con otras personas a través de OneDrive para la Emprea. En la mayoría de las páginas donde hay archivos disponibles, como la Bandeja de entrada de informes o los archivos adjuntos a los registros, encontrará una acción **Abrir en OneDrive**.

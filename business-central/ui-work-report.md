@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439955"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972205"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Trabajar con informes, trabajos por lotes y XMLports
 
@@ -56,7 +56,7 @@ Utilice los campos de **Opciones** y **Filtros** para cambiar el límite de la i
 
 ## <a name="previewing-a-report"></a>Vista preliminar de un informe
 
-La vista previa de un informe le permite ver cómo quedará el informe antes de imprimirlo. La vista previa no se basa en el campo **Impresora** seleccionada en la página de solicitud. Está controlado por el navegador. Después de obtener una vista previa, puede volver a la página de solicitud y realizar cambios en las opciones y filtros según sea necesario.
+La vista previa de un informe le permite ver cómo quedará el informe antes de imprimirlo. La vista previa no se basa en la impresora seleccionada en el campo **Impresora** en la página de solicitud. Está controlado por el navegador. Después de obtener una vista previa, puede volver a la página de solicitud y realizar cambios en las opciones y filtros según sea necesario.
 
 Para obtener una vista previa de un informe, elija el botón **Vista previa** o **Vista previa y cierre** en la página de solicitud de informe. El botón que se muestra depende del informe, por lo que algunos informes tienen el botón **Vista previa**, mientras que otros tienen un botón **Vista previa y cierre**. Ambos botones abrirán una vista previa del informe. La diferencia es que **Vista previa** mantiene abierta la página de solicitud, para que pueda volver a ella, realizar cambios, obtener otra vez una vista previa o imprimir. Con **Vista previa y cierre**, la página de solicitud se cierra, por lo que tendrá que volver a abrir el informe para realizar cambios o imprimirlo.
 
@@ -139,6 +139,12 @@ Para obtener más información sobre el diseño de informes, consulte [Resumen d
 
 > [!NOTE]
 > Algunos informes exportan números como texto, lo que le impide realizar cálculos o utilizar Power Pivot en las celdas de la hoja de cálculo de Excel. Después de exportar, es una buena idea verificar los números en la hoja de cálculo. Si desea hacer análisis y gráficos con los números, cambie el formato de las celdas relevantes de **Texto** a **Número**. Para obtener más información sobre cómo formatear números en celdas, vea este vídeo [Dar formato a números en celdas en Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word Documento
+Use la opción **Documento de Microsoft Word** para generar un informe como un documento de Word.  
+
+> [!NOTE]
+> Puede especificar el diseño que se utilizará para cada informe en la página **Selección de informe** en el campo **Diseño seleccionado**. La configuración predeterminada para los informes es **RDLC (incorporado)**, que produce informes en el mismo diseño, o uno similar, que el diseño **Documento de Microsoft Word**. Sin embargo, la diferencia clave es si desea generar uno o varios documentos de informe. Para documentos individuales, puede utilizar la opción RDLC (integrada). Para varios documentos, configure el **Documento de Microsoft Word** como diseño predeterminado para el informe. Para obtener más información, vea [Administrar diseños de informes y documentos](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Programar un informe para que se ejecute
 

@@ -1,5 +1,5 @@
 ---
-title: Cómo combinar albaranes | Documentos de Microsoft
+title: Agrupar albaranes en una factura única
 description: Si desea facturar varios albaranes de compra a la vez, puede utilizar la función Combinar albaranes.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 136, 145, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f9a9307ed6774064262f5d0e0fcf57027be3794d
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435114"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953265"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Agrupar albaranes en una factura única
 

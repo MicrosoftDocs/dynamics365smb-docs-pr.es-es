@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
+ms.search.form: 119, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba584f11b1ac52146a7539b8ac08cb9ed67bcdba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c81046828e6be26683853d2c9cb7836ed939fb1
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445306"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029171"
 ---
 # <a name="create-users-according-to-licenses"></a>Crear usuarios de acuerdo con las licencias
 
@@ -26,7 +27,7 @@ Cuando crea usuarios en [!INCLUDE[prod_short](includes/prod_short.md)], puede as
 Para obtener más información sobre los diferentes tipos de licencias y cómo funcionan las licencias en [!INCLUDE[prod_short](includes/prod_short.md)], [descargue la Guía de licencias de Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 > [!NOTE]
-> El proceso de administración de usuarios y licencias varía según si [!INCLUDE[prod_short](includes/prod_short.md)] se implementa en línea o localmente. Para [!INCLUDE [prod_short](includes/prod_short.md)] en línea, debe agregar usuarios desde Microsoft 365. En implementaciones locales, puede crear, editar y eliminar usuarios directamente.  
+> El proceso de administración de usuarios y licencias varía según si [!INCLUDE[prod_short](includes/prod_short.md)] se implementa en línea o localmente. Para [!INCLUDE [prod_short](includes/prod_short.md)] Online, debe agregar usuarios desde Microsoft 365. En implementaciones locales, puede crear, editar y eliminar usuarios directamente.  
 
 ## <a name="managing-users-and-licenses-in-online-deployments"></a>Administración de usuarios y licencias en implementaciones en línea
 
@@ -34,8 +35,8 @@ En la versión en línea de [!INCLUDE[prod_short](includes/prod_short.md)], el n
 
 Para definir quién puede iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)], debe asignar las licencias de producto asignarse a los usuarios de acuerdo con los roles que desempeñarán en [!INCLUDE[prod_short](includes/prod_short.md)]. Se puede hacer de las siguientes maneras:
 
-- El administrador de Microsoft 365 de su empresa puede hacerlo en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). Para obtener más información, consulte [Agregar usuarios individualmente o en masa a Microsoft 365](/microsoft-365/admin/add-users/add-users).  
-- Un socio de Microsoft puede asignar licencias en el Centro de administración de Microsoft 365 o en el Centro de socios de Microsoft. Para obtener más información, vea [Tareas de administración de usuarios para cuentas de cliente](/partner-center/assign-licenses-to-users) en la ayuda del Centro de socios de Microsoft.
+- El administrador de Microsoft 365 de su empresa puede hacerlo en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). Para obtener más información, vea [Agregar usuarios individualmente o en masa a Microsoft 365](/microsoft-365/admin/add-users/add-users).  
+- Un socio de Microsoft puede asignar licencias en el Centro de administración de Microsoft 365 o en el Centro de partners de Microsoft. Para obtener más información, vea [Tareas de administración de usuarios para cuentas de cliente](/partner-center/assign-licenses-to-users) en la ayuda del Centro de socios de Microsoft.
 
 Para obtener más información, vea [Administración de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) en la ayuda de administración.
 
@@ -51,7 +52,7 @@ Si está agregando nuevos usuarios, el siguiente paso es asignar grupos de usuar
 > [!NOTE]
 > Todos los usuarios deben tener asignada la misma licencia, Essential o Premium. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
-Para obtener más información sobre la sincronización de la información de usuario con Microsoft 365, consulte la sección [Sincronización con Microsoft 365](#m365).
+Para obtener más información sobre la sincronización de la información de usuario con Microsoft 365, vea la sección [Sincronización con Microsoft 365](#m365).
 
 > [!NOTE]
 > Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su Business Central para que pueda trabajar con usted en los datos fiscales. Para obtener más información, consulte [Invitar a un contable externo a Business Central](finance-accounting.md#inviteaccountant).
@@ -70,7 +71,7 @@ También puede eliminar la licencia de un usuario en el Centro de administració
 
 Cuando asigna una licencia para [!INCLUDE[prod_short](includes/prod_short.md)] a un usuario en Microsoft 365, hay dos formas de crear el usuario en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-- El administrador puede agregar el usuario eligiendo la acción **Actualizar usuarios de Microsoft 365** en la página **Usuarios** como se describe en la sección [Para agregar un usuario o actualizar la información del usuario en Business Central](#adduser).
+- El administrador puede agregar el usuario eligiendo la página **Actualizar usuarios de Microsoft 365** en la página **Usuarios** como se describe en la sección [Para agregar un usuario o actualizar la información del usuario en Business Central](#adduser).
 - La información de la licencia se actualizará automáticamente cuando el usuario inicie sesión por primera vez.
 
 En ambos casos, se realizan automáticamente varias configuraciones. Estas se enumeran en la segunda y tercera columnas de la tabla siguiente.
@@ -88,46 +89,10 @@ Si cambia la información del usuario en Microsoft 365, puede actualizar [!INCLU
 |Sincronice planes de usuario (licencias) con licencias y roles asignados en Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
 |Agregue el usuario a grupos de usuarios de acuerdo con los planes de usuario actuales. Quite el conjunto de permisos SUPER para todos los usuarios que no sean el primer usuario en iniciar sesión y los [administradores](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Se necesita al menos un SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Quita los grupos de usuarios y permisos asignados manualmente.|**X**<br /><br />Actualice las asignaciones de grupos de usuarios.| |
 
-## <a name="the-device-license"></a>La licencia de dispositivo
-
-La licencia de dispositivo de Dynamics 365 Business Central permite que varios usuarios usen simultáneamente un dispositivo cubierto por la licencia. Por ejemplo, podría ser un punto de venta, taller o dispositivo de almacén. Cuando ha comprado un número de licencias de dispositivo, ese número máximo de usuarios asignado al grupo Usuarios de dispositivo de Dynamics 365 Business Central puede iniciar sesión simultáneamente. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/business-central/overview/).
-
-El administrador de Microsoft 365 de su empresa o el socio de Microsoft pueden crear el grupo Usuarios de dispositivo de Dynamics 365 Business Central y agregar usuarios de dispositivo como miembros en el [Centro de administración de Microsoft 365](https://admin.microsoft.com/) o en [Azure Portal](https://portal.azure.com/).
-
-### <a name="device-user-limitations"></a>Limitaciones del usuario del dispositivo
-
-Los usuarios con la licencia Dispositivo no pueden realizar las siguientes tareas en [!INCLUDE[prod_short](includes/prod_short.md)]:
-
-- Configurar proyectos para que se ejecuten como tareas programadas en la cola de proyectos. Los usuarios del dispositivo son usuarios concurrentes y, por lo tanto, no podemos garantizar que el usuario involucrado esté presente en el sistema cuando se ejecuta una tarea, lo cual es obligatorio.
-
-- Un usuario de dispositivo no puede ser el primer usuario que inicie sesión. Un usuario de tipo Administrador, Usuario completo o Contable externo debe ser el primero en iniciar sesión para poder configurar [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Administración de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) en la ayuda de administración.
-
-### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Para crear un grupo de Usuarios de dispositivo de Dynamics 365 Business Central
-
-1. En el Centro de administración de Microsoft 365, vaya a la página **Grupos**.
-2. Elija la acción **Agregar un grupo**.
-3. En la página **Elegir un tipo de grupo**, seleccione la opción **Seguridad** y, a continuación, elija la acción **Agregar**.
-4. En la página **Conceptos básicos**, introduzca **Usuarios de dispositivos de Dynamics 365 Business Central** como el nombre del grupo.
-  
-   >[!NOTE]
-   >El nombre del grupo debe estar escrito en inglés exactamente como se muestra en el paso 4, incluso si está utilizando otro idioma. Si ha copiado el nombre del grupo de un documento, como un PDF, verifique que el nombre no contenga espacios adicionales.
-5. Elija el botón **Cerrar**.
-
-> [!NOTE]
-> También puede crear un grupo de tipo Microsoft 365. Para obtener más información, consulte [Comparar grupos](/microsoft-365/admin/create-groups/compare-groups)
-
-### <a name="to-add-members-to-the-group"></a>Para agregar miembros al grupo
-
-1. En el Centro de administración de Microsoft 365, actualice la página **Grupos** para que aparezca el nuevo grupo.
-2. Seleccione el grupo **Usuarios de dispositivos de Dynamics 365 Business Central** y, a continuación, elija la acción **Ver todos y administrar miembros**.
-3. Elija la acción **Agregar miembros**.
-4. Seleccione los usuarios que desea agregar y, a continuación, elija el botón **Guardar**.
-5. Seleccione el botón **Cerrar** tres veces.
-
-Puede agregar tantos usuarios al grupo Usuarios de dispositivos de Dynamics 365 Business Central como necesite. Sin embargo, el número de dispositivos en los que los usuarios pueden iniciar sesión simultáneamente se define por el número de licencias de dispositivo adquiridas.
-
-> [!NOTE]
-> No es necesario asignar una licencia de [!INCLUDE[prod_short](includes/prod_short.md)] a los usuarios que son miembros del grupo Usuarios de dispositivos de Dynamics 365 Business Central.
+<!--
+## The Device License
+This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
+-->
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Administración de usuarios y licencias en implementaciones locales
 
@@ -155,7 +120,8 @@ Para las implementaciones locales, el administrador crea, edita y elimina usuari
 [Personalización de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Administración](admin-setup-and-administration.md)  
-[Agregar usuarios a Microsoft 365 para empresas](/microsoft-365/admin/add-users/add-users)  
+[Licencias en Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing)  
+[Agregar usuarios para Microsoft 365 para empresas](/microsoft-365/admin/add-users/add-users)  
 [Seguridad y protección en Business Central (contenido de administración)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 
 

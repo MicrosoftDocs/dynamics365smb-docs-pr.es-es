@@ -1,5 +1,5 @@
 ---
-title: Cómo bloquear compras a proveedores
+title: Bloquear proveedores
 description: Obtenga más información sobre cómo bloquear la inclusión de proveedores en cualquier transacción, o simplemente cómo bloquear nuevos pagos a ellos.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 27
 ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca2e3cb627a33a17dac57bacba9a6c002fbcc90e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2088f6ccc64c3827250878c8f7b1027600f7f558
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438857"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953140"
 ---
 # <a name="block-vendors"></a>Bloquear proveedores
 Puede bloquear a un proveedor, por ejemplo, por insolvencia, para que no pueda añadirse a los documentos de compra o para que no se puedan registrar pagos para el proveedor.

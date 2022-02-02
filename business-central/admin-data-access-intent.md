@@ -1,5 +1,5 @@
 ---
-title: Administrar la intención de acceso a la base de datos en Business Central | Microsoft Docs
+title: Administrar la intención de acceso a la base de datos en Business Central
 description: Cambie la intención de acceso a la base de datos para informes, páginas API y consultas.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,17 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3a85a8acda1789997639c78c5d6028a14dbb75af
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f1f77c4c1506db6d4f90d5d13f7c22ca54f44eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443948"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011209"
 ---
-# <a name="managing-database-access-intent"></a>Gestionar la intención de acceso a la base de datos 
+# <a name="managing-database-access-intent"></a>Gestionar la intención de acceso a la base de datos
 
 Como superusuario o administrador, puede cambiar la intención de acceso a la base de datos en informes, páginas de tipo API y consultas para mejorar el rendimiento del servicio.
 

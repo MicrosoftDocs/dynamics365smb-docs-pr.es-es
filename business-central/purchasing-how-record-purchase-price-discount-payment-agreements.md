@@ -1,5 +1,5 @@
 ---
-title: Precios y descuentos especiales y alternativos para proveedores | Documentos de Microsoft'
+title: Registrar precios y descuentos de compra especiales
 description: Puede definir precios y acuerdos de descuentos distintos o alternativos, y aplicarlos a los documentos de compra para proveedores.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
+ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 580a2b248b43ccac272b95656207439a8e02cc85
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 46e86445f60e0326a430acd5d2b4bbb555ba5635
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438557"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953439"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrar precios y descuentos de compra especiales
 > [!NOTE]

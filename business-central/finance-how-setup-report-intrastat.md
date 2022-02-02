@@ -1,8 +1,6 @@
 ---
-title: Configuración y creación de informes Intrastat | Documentos de Microsoft
+title: Configuración y creación de informes Intrastat
 description: Obtener información sobre cómo configurar las funciones de informes de Intrastat y cómo informar sobre el comercio con empresas de otros países de la UE.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
+ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444417"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971098"
 ---
 # <a name="set-up-and-report-intrastat"></a>Configuración y creación de informes Intrastat
+
 Todas las empresas de la Unión Europea deben emitir informes sobre sus transacciones comerciales con otros países o regiones de la UE. Debe notificar el movimiento de mercancías al organismo de estadística de su país o región todos los meses, y el informe se debe remitir a las autoridades fiscales. Esto se denomina Informes de Intrastat. Para realizar los informes de Intrastat periódicos se usa la página **Diario Intrastat**.  
 
 ## <a name="required-and-optional-setups"></a>Configuraciones necesarias y opcionales
@@ -30,10 +30,15 @@ Para poder usar el diario de Intrastat para informar sobre Instratat, debe confi
 * **Códigos de mercancía**: las autoridades aduaneras y fiscales han establecido códigos numéricos que clasificar productos y servicios. Especifique estos códigos para los productos.
 * **Códigos de naturaleza de la transacción**: los países y regiones tienen diferentes códigos para los tipos de transacciones de Intrastat, como la compra y venta ordinaria, el intercambio de mercancías devueltas y el intercambio de mercancías no devueltas. Configure todos los códigos que se aplican a su país o región. Utilice estos códigos en los documentos de venta y compra y cuando procese las devoluciones.  
 * **Métodos de transporte**: Existen siete códigos de un dígito para los modos de transporte de Intrastat. **1** para mar, **2** para ferrocarril, **3** para carretera, **4** para aire, **5** para correo, **7** para instalaciones fijas y **9** para autopropulsión (por ejemplo, transportar un coche conduciéndolo). [!INCLUDE[prod_short](includes/prod_short.md)] no requiere estos códigos, sin embargo, recomendamos que las descripciones proporcionen un significado similar.  
+* **Especificaciones de transacción**: se utilizan para complementar las descripciones de los tipos de transacción.  
+* **País de origen**: use los códigos alfa ISO de dos letras para el país donde se obtuvo o produjo el bien. Si la mercancía fue producida en más de un país, el país de origen es el último país donde fue significativamente procesada. 
+* **Número de identificación a efectos del IVA del operador asociado en el Estado miembro de importación**: este es el número de identificación fiscal del operador asociado en el Estado miembro de importación. El VAT-ID también se utiliza en el intercambio de datos de exportación dentro de la UE entre los Estados miembros, y permite a los Estados miembros asignar los datos recibidos a la empresa importadora en su propio país. Las unidades declarantes deben comunicar el NIF-IVA de la empresa que declaró la adquisición de bienes dentro de la Unión en el Estado miembro de importación. 
+
+> [!NOTE]
+> El ID de IVA del socio comercial que se debe usar puede diferir, según las circunstancias comerciales. Por ejemplo, el ID a usar difiere para escenarios como ventas en cadena, donde un proveedor vende un producto a otro país y luego esa empresa revende el artículo a otra empresa en el mismo país, comercio triangular, etc. Si no está seguro sobre el ID de IVA correcto que debe usar, le recomendamos que consulte a un experto en su país o región. 
 
 Opcionalmente, también puede configurar:
 
-* **Especificaciones de transacción**: se utilizan para complementar las descripciones de los tipos de transacción.  
 * **Áreas**: se utilizan para complementar la información sobre los países y regiones.  
 * **Puertos y aeropuertos**: se utilizan para especificar las ubicaciones de otros países donde envía o recibe productos. El aeropuerto de Heathrow es un ejemplo de valor de este campo. Introduzca los puertos y aeropuertos en los documentos de ventas y compras en la ficha desplegable **Internacional**. Esta información se copiará también de los movimientos de productos al crear el diario de Intrastat.  
 
@@ -53,35 +58,49 @@ Puede exportar los movimientos a un archivo que puede enviar a las autoridades d
 > [!Note]
 > En el campo **Periodo estadístico**, introduzca el periodo en forma de número de cuatro dígitos, donde los dos primeros dígitos representan el año y los dos siguientes el mes. Por ejemplo, escriba 1706 para junio de 2017.
 
-### <a name="to-set-up-commodity-codes"></a>Para configurar códigos de mercancías
-Todos los productos que compre o venda deben tener un código de mercancía.  
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códigos de producto** y luego elija el enlace relacionado.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Para asignar un código de mercancía a un producto, vaya a la página **Ficha producto**, expanda la ficha desplegable **Costes y registro** y, a continuación introdúzcalo en el campo **Código mercancía**.   
-
-### <a name="to-set-up-transaction-nature-codes"></a>Configurar códigos de naturaleza de transacción
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códigos de naturaleza de transacciones** y luego elija el enlace relacionado.  
-2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!Tip]
-> Si utiliza con frecuencia un código de naturaleza de transacción determinado, puede convertirlo en el valor predeterminado. Para ello, vaya a la página **Config. Intrastat** y elija el código.
-
 ### <a name="to-set-up-transport-methods"></a>Configurar métodos de transporte
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Métodos de transporte** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Para configurar qué campos de informe Intrastat son obligatorios
+
 En algunos países, como España y el Reino Unido, las autoridades requieren que los informes de Intrastat incluyan, por ejemplo, el método de envío para compras o algunos otros valores cuando las ventas superen un cierto umbral. En la página **Configuración de Intrastat**, puede seleccionar la **Configuración de test de Intrastat** para establecer los campos obligatorios en la página **Diario de Intrastat**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de Intrastat** y luego elija el enlace relacionado.
 2. Elija la acción **Configuración de test de Intrastat**.
 3. En la página **Configuración de test de Intrastat**, haga clic en **Nombre de campo** para elegir el campo de informe Intrastat que desea hacer obligatorio.
 
+### <a name="czechia"></a>Chequia
+
+Específicamente para las empresas checas, también debe configurar códigos de mercancías y códigos de naturaleza de transacción.  
+
+#### <a name="to-set-up-commodity-codes"></a>Para configurar códigos de mercancías
+
+Todos los productos que compre o venda deben tener un código de mercancía.  
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códigos de producto** y luego elija el enlace relacionado.  
+2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Para asignar un código de mercancía a un producto, vaya a la página **Ficha producto**, expanda la ficha desplegable **Costes y registro** y, a continuación introdúzcalo en el campo **Código mercancía**.   
+
+### <a name="italy"></a>Italia
+
+Específicamente para las empresas italianas, también debe configurar códigos de mercancías y códigos de naturaleza de transacción.  
+
+#### <a name="to-set-up-transaction-nature-codes"></a>Configurar códigos de naturaleza de transacción
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códigos de naturaleza de transacciones** y luego elija el enlace relacionado.  
+2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+> [!Tip]
+> Si utiliza con frecuencia un código de naturaleza de transacción determinado, puede convertirlo en el valor predeterminado. Para ello, vaya a la página **Config. Intrastat** y elija el código.
+
 ## <a name="to-report-intrastat"></a>Para crear informes Intrastat
+
 Después de rellenar el diario de Intrastat, puede ejecutar la acción **Test** para asegurarse de que toda esa información del diario es correcta. Los campos obligatorios que ha establecido en la página **Configuración de test de Intrastat** a los que les faltan valores, se mostrarán en el cuadro de información de Errores y advertencias en la página **Diario de intrastat**. Posteriormente, puede imprimir un informe Intrastat como un formulario o crear un archivo para enviarlo a la autoridad tributaria de su país o región.  
 
-### <a name="to-fill-in-intrastat-journals"></a>Para rellenar diarios Intrastat  
+### <a name="to-fill-in-intrastat-journals"></a>Para rellenar diarios Intrastat
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario Intrastat**, y luego elija el enlace relacionado.  
 2. En la página **Diario Intrastat**, en el campo **Nombre sección**, elija la sección relevante del diario y, a continuación, elija **Aceptar**.  
 3. Elija la acción **Proponer líneas**. Los campos **Fecha inicial** y **Fecha final** aparecerán con las fechas especificadas como periodo estadístico en la sección de diario.  
@@ -91,9 +110,10 @@ Después de rellenar el diario de Intrastat, puede ejecutar la acción **Test** 
 El proceso recupera todos los movimientos de producto en el periodo estadístico y los inserta como líneas en el diario Intrastat. Puede editar las líneas si es necesario.  
 
 > [!IMPORTANT]  
->  El proceso únicamente obtiene los movimientos que contienen un código de país o región para el cual se ha introducido un código Intrastat en la página **Países y regiones**. Por lo tanto, debe escribir los códigos Intrastat de los códigos de país o región para los que se ejecutará el proceso.  
+> El proceso únicamente obtiene los movimientos que contienen un código de país o región para el cual se ha introducido un código Intrastat en la página **Países y regiones**. Por lo tanto, debe escribir los códigos Intrastat de los códigos de país o región para los que se ejecutará el proceso.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Creación de informes Intrastat en un formulario o un archivo
+
 Para conseguir la información necesaria en el formulario Intrastat de las autoridades estadísticas, debe imprimir el **Intrastat – Formulario**. Para poder hacerlo, debe preparar el diario Intrastat y rellenarlo. Si tiene transacciones de ventas y de compras, debe completar un formulario independiente para cada tipo, por lo que deberá imprimir el informe dos veces.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios Intrastat**, y luego elija el enlace relacionado.  
@@ -104,6 +124,7 @@ Para conseguir la información necesaria en el formulario Intrastat de las autor
 6. Haga clic en **Enviar a** para imprimir el informe.  
 
 ### <a name="report-intrastat-in-a-file"></a>Emitir informes de Intrastat en un archivo
+
 Puede entregar el informe Intrastat como un archivo. Antes de crear el archivo, puede imprimir un informe test con la misma información que contendrá el archivo.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario Intrastat**, y luego elija el enlace relacionado.  
@@ -115,6 +136,7 @@ Puede entregar el informe Intrastat como un archivo. Antes de crear el archivo, 
 7. Busque la ubicación donde desea guardar el archivo y, a continuación, escriba el nombre del archivo y elija **Guardar**.
 
 ## <a name="reorganize-intrastat-journals"></a>Reorganizar diarios Intrastat
+
 Dado que debe presentar un informe Intrastat cada mes y crear una nueva sección de diario para cada informe, dispondrá de varias secciones de diario. Las líneas de diario no se eliminan automáticamente. Es posible que desee reorganizar los nombres de las secciones de diario periódicamente. Para ello, debe eliminar las secciones de diario que ya no son necesarias. Las líneas de diario de dichas secciones también se eliminan.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios Intrastat**, y luego elija el enlace relacionado.  

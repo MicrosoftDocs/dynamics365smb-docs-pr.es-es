@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920908"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973130"
 ---
 # <a name="use-time-sheets"></a>Usar hojas de horas
 
@@ -36,7 +36,7 @@ Para poder utilizar las hojas de horas, debe configurar la información general 
 Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.  
 
 > [!IMPORTANT]
-> Debe disponer de permisos para poder crear las hojas de horas.
+> Debe disponer de permisos para poder crear las hojas de horas. Para obtener más información, consulte [Configurar partes de horas](projects-how-setup-time-sheets.md).
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") Después, escriba **Parte de horas** y luego elija el enlace relacionado.
 2. En la página **Hojas de horas**, seleccione la acción **Crear hojas de horas**.

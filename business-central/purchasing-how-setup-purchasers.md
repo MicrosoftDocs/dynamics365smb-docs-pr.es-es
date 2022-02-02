@@ -1,8 +1,6 @@
 ---
-title: Configurar compradores y asignar compradores a proveedores (contiene vídeo) | Documentos de Microsoft
+title: Configurar compradores y asignar compradores a proveedores (contiene vídeo)
 description: Si trabajan varios compradores, o agentes de compras, para su empresa, puede organizarlos para análisis estadísticos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
+ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 83956e1e134e00c33f35b260e682bd2d467bfb9f
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940181"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953314"
 ---
 # <a name="set-up-purchasers"></a>Configurar compradores
 Si trabajan para la empresa varios compradores, puede configurarlos en una página y asignar un código a cada uno. Más adelante, podrá utilizar los códigos para preparar estadísticas y filtrar información en los informes impresos.<br><br>  

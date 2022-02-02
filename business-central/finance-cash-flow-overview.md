@@ -3,20 +3,20 @@ title: Descripción del flujo de efectivo
 description: Una descripción general de los flujos de entrada y salida de efectivo para ayudar a pronosticar los importes que se recibirán y que se pagarán.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
+ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: e5ce39c435c236719e6ee564217a0b1f7e338cf2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940206"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011101"
 ---
 # <a name="cash-flow-overview"></a>Descripción del flujo de efectivo
 
@@ -49,9 +49,9 @@ El siguiente ejemplo muestra una descripción global de cómo puede trabajar con
 
 Basándose en las líneas registradas de la hoja de trabajo, puede hacer periódicamente un flujo de efectivo. El siguiente diseño es un diseño que se utiliza con frecuencia para una previsión del flujo de efectivo. El diseño tiene tres secciones:
 
-  - Cobros  
-  - Desembolso de efectivo  
-  - Flujo de efectivo o efectivo-en-mano neto  
+- Cobros  
+- Desembolso de efectivo  
+- Flujo de efectivo o efectivo-en-mano neto  
 
 Los cobros proporcionan detalles de los ingresos que el negocio recibe.
 

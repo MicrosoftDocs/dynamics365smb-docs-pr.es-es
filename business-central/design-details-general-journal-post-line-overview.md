@@ -3,19 +3,19 @@ title: Descripción de la línea de registro en diario general
 description: Este tema presenta cambios en Codeunit 12, Diario general-lín. reg., y es el único lugar para insertar movimientos en el libro mayor, IVA y en el libro mayor de clientes y proveedores.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9642c33d9d5994c6982029e4ae96897a7648b8c8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 849bf54380aa7ee3abe09986a168aa946a1b3426
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322477"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011038"
 ---
 # <a name="general-journal-post-line-overview"></a>Descripción de la línea de registro en diario general
 

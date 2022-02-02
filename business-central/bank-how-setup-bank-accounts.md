@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940606"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029279"
 ---
 # <a name="set-up-bank-accounts"></a>Configurar cuentas bancarias
 
@@ -90,6 +91,8 @@ Cuanta mejor información de asignación realice en el diario de conciliación d
 2. En la página **Cuentas bancarias**, elija la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Por ejemplo, el campo **Grupo de contabilización de cuenta bancaria** conecta la cuenta bancaria con la cuenta de mayor subyacente en el balance. Para obtener más información, consulte [Configurar grupos de contabilidad](finance-posting-groups.md).
+
 > [!TIP]
 > Algunos campos están ocultos hasta que elige la acción **Mostrar más**, normalmente porque se utilizan raramente. Otros deben agregarse mediante personalización. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimiento de cuenta bancaria con el importe en cuestión. Puede hacerlo si realiza una conciliación de bancos. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md). De forma alternativa, puede implementar el saldo inicial como parte de la creación de datos generales en nuevas compañías mediante la guía de configuración asistida **Migrar datos empresariales**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md). Para aprender a crear saldos iniciales en [!INCLUDE[prod_short](includes/prod_short.md)], vea [Cómo crear saldos iniciales del diario](admin-how-to-create-journal-opening-balances.md).
+> Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimiento de cuenta bancaria con el importe en cuestión. Puede hacerlo si realiza una conciliación de bancos. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> De forma alternativa, puede implementar el saldo inicial como parte de la creación de datos generales en nuevas compañías mediante la guía de configuración asistida **Migrar datos empresariales**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> Es importante que no registre el saldo de apertura directamente en el libro mayor. Tener entradas en la cuenta del L/M que se contabilizan directamente en la cuenta del L/M normalmente hará que no pueda conciliar la cuenta bancaria o, en el caso de cuentas bancarias en moneda extranjera, provocará que se acumulen diferencias a medida que contabiliza más conciliaciones bancarias. A menudo, contabiliza el saldo bancario inicial directamente en la cuenta bancaria y el importe termina en la cuenta del L/M. Alternativamente, lo revierte más tarde contra una cuenta de mayor designada que haya utilizado para equilibrar el saldo inicial del libro mayor. En ambos casos, debe equilibrar cualquier contabilización directa en la cuenta de mayor antes de iniciar su primera conciliación bancaria, especialmente si la cuenta bancaria está en una moneda extranjera.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Para configurar la cuenta para la importación o exportación de archivos bancarios
 

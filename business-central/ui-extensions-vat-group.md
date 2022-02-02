@@ -1,5 +1,5 @@
 ---
-title: Extensión Gestión de grupo de IVA | Microsoft Docs
+title: Extensión Gestión de grupo de IVA
 description: Puede interactuar con otras empresas para formar un grupo de IVA y actuar como miembro o representante del grupo al declarar el IVA.
 author: bholtorf
 manager: annbe
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771292"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029145"
 ---
 # <a name="the-vat-group-management-extension"></a>Extensión Gestión de grupo de IVA
 
@@ -116,8 +116,12 @@ Cuando la declaración de IVA del representante del grupo de IVA se haya present
 > La funcionalidad del grupo de IVA solo se admite en aquellos mercados en los que [!INCLUDE[prod_short](includes/prod_short.md)] utiliza un marco de IVA que consta de declaraciones de IVA y períodos de devolución de IVA. No puede utilizar grupos de IVA en otros mercados que tengan otras implementaciones de informes de IVA locales, como Austria, Alemania, Italia, España y Suiza. 
 
 ## <a name="see-also"></a>Consulte también
+
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
-[Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)
+[Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)  
+[Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
+[Crear impuestos digitales en el Reino Unido](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Declaración de IVA noruego en la versión noruega](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

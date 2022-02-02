@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
+ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920985"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972231"
 ---
 # <a name="set-up-time-sheets"></a>Configuración de hojas de horas
 
@@ -41,6 +42,8 @@ A partir del lanzamiento de versiones 2 de 2021, puede utilizar una guía de con
 > Debe habilitar la característica **Actualización de datos de característica: nueva experiencia de parte de horas** en la página [Administración de características](https://businesscentral.dynamics.com/?page=2610) para utilizar esta capacidad.
 >
 > La misma característica también facilita la administración de partes de horas en un dispositivo móvil.
+
+Abra la guía de configuración asistida **Configurar hojas de tiempo** de la página [Configuración asistida](https://businesscentral.dynamics.com/?page=1801).
 
 La guía de configuración asistida le guía a través de los siguientes pasos:
 

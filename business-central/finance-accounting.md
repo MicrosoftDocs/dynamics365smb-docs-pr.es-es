@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2c92e72f20c26fe1505834e70d58981093c24b8
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940231"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029461"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Experiencias contables en [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -51,7 +52,7 @@ Hemos facilitado la invitación a su contable externo. Abra simplemente la pági
 >
 > Esta tarea requiere acceso para administrar usuarios y licencias en Azure Active Directory. El usuario que envía esta invitación debe tener asignado el rol **Administrador global** o **Administrador de usuarios** en el Centro de administración de Microsoft 365. Para obtener más información, consulte [Acerca de los roles de administrador](/microsoft-365/admin/add-users/about-admin-roles) en el contenido de administración de Microsoft 365.  
 
-### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Añadir su contable a Microsoft 365 en Azure Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Añadir su contable a su Microsoft 365 en Azure Portal
 
 Si su administrador o distribuidor no desea utilizar la guía **Invitar a un contable externo**, pueden añadir un usuario externo en Azure Portal y asignar a este usuario la licencia *Contable externo*. Para más información, consulte [Inicio rápido: añada usuarios invitados a su directorio en Azure Portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

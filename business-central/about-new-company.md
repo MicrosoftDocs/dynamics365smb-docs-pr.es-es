@@ -1,5 +1,5 @@
 ---
-title: Crear nuevas empresas con una guía de configuración asistida | Documentos de Microsoft
+title: Crear nuevas empresas con una guía de configuración asistida
 description: Es fácil crear una empresa nueva y en blanco en Business Central. Una guía de configuración asistida le ayudará a seguir los pasos, y podrá importar sus datos empresariales existentes.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
+ms.search.form: 1803
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb1639a57dcfed21b71d9c9cd57cd6090e5e81d7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8c0c9f03dada569ec19a4bf38d9d4fced1469c2b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776377"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011418"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]
 

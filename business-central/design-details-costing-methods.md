@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 30, 42, 43
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 78c69d4849dc7e7687f6bb0cdeb0229baeec1b0c
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442440"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974997"
 ---
 # <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de coste
 
@@ -34,11 +34,11 @@ En [!INCLUDE[prod_short](includes/prod_short.md)] se admiten las siguientes valo
 | Específico | El coste unitario de un producto es el coste exacto en el que la unidad determinada fue recibida. | En producción o comercio de productos fácilmente identificables con costes unitarios relativamente elevados.<br /><br /> En el caso de productos que están sujetos normativas.<br /><br /> Para productos con números de serie. |
 | Estándar | El coste unitario de un producto se preestablece basándose en una estimación.<br /><br /> Cuando el coste real se realiza posteriormente, el coste estándar se debe ajustar al coste real a través de valores de varianza. | Cuando el control del coste es crítico.<br /><br /> En fabricación repetitiva para establecer el valor de los costes de material directo, mano de obra directa y gastos de fabricación.<br /><br /> Cuando hay disciplina y personal para mantener los estándares. |
 
- En la imagen siguiente se muestra cómo fluyen los costes a través del inventario por cada valoración de existencias.  
+En la imagen siguiente se muestra cómo fluyen los costes a través del inventario por cada valoración de existencias.  
 
  ![Valoraciones de existencias.](media/design_details_inventory_costing_7_costing_methods.png "Valoraciones de existencias")  
 
- Los métodos de coste varían en cuanto a la forma en que el inventario disminuye y si se utiliza el coste real o el coste estándar como base de valoración. En la tabla siguiente se explican las diferentes características. (Se excluye el método LIFO por ser muy parecido al método FIFO).  
+Los métodos de coste varían en cuanto a la forma en que el inventario disminuye y si se utiliza el coste real o el coste estándar como base de valoración. En la tabla siguiente se explican las diferentes características. (Se excluye el método LIFO por ser muy parecido al método FIFO).  
 
 |Categoría|FIFO|Promedio|Estándar|Específico|  
 |-|----------|-------------|--------------|--------------|  
@@ -47,10 +47,11 @@ En [!INCLUDE[prod_short](includes/prod_short.md)] se admiten las siguientes valo
 |Revaluación|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer solo por producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza las cantidades facturadas y no facturadas.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|  
 |Varios|Si se especifica una fecha retroactiva para una salida de existencias, las entradas existentes NO se volverán a liquidar para proporcionar un flujo correcto FIFO del coste.|Si se retrocede la fecha de una entrada o una salida del inventario, se vuelve a calcular el coste medio y se ajustan todos los registros afectados.<br /><br /> Si cambia el periodo o el tipo de cálculo, todos los registros afectados deben ajustarse.|Utilice la página **Hoja de trabajo estándar** para actualizar y distribuir periódicamente los costes estándar.<br /><br /> NO se admite por UA.<br /><br /> No existe ningún registro histórico para los costes estándar.|Puede utilizar el seguimiento de producto específico sin usar la valoración de existencias Específica. El coste NO seguirá el número de lote, sino el coste supuesto de la valoración de existencias seleccionada.|  
 
-## <a name="example"></a>Ejemplo  
- En esta sección se proporcionan ejemplos de cómo las distintas valoraciones de existencias afectan al valor de inventario.  
+## <a name="example"></a>Ejemplo
 
- En la tabla siguiente se muestran las entradas y las salidas de existencias en las que se basan los ejemplos.  
+En esta sección se proporcionan ejemplos de cómo las distintas valoraciones de existencias afectan al valor de inventario.  
+
+En la tabla siguiente se muestran las entradas y las salidas de existencias en las que se basan los ejemplos.  
 
 |Fecha registro|Cantidad|Nº mov.|  
 |------------------|--------------|---------------|  
@@ -62,108 +63,111 @@ En [!INCLUDE[prod_short](includes/prod_short.md)] se admiten las siguientes valo
 |01-04-20|-1|6|  
 
 > [!NOTE]  
->  La cantidad resultante en el inventario es cero. Por tanto, el valor de inventario debe ser cero, independientemente del método de coste.  
+> La cantidad resultante en el inventario es cero. Por tanto, el valor de inventario debe ser cero, independientemente del método de coste.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Efecto de los métodos de coste en la valoración de entrada de existencias  
- **FIFO**/**LIFO**/**Promedio**/**Específico**  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Efecto de los métodos de coste en la valoración de entrada de existencias
 
- En el caso de productos con métodos de coste que utilizan el coste real como base de valoración (**FIFO**, **LIFO**, **Promedio** o **Específico**), las entradas de existencias se calculan según el coste de compra del producto.  
+- **FIFO**/**LIFO**/**Promedio**/**Específico**  
 
- En la tabla siguiente se muestra cómo se valoran las entradas de existencias para todas las valoraciones de existencias excepto **Estándar**.  
+    En el caso de productos con métodos de coste que utilizan el coste real como base de valoración (**FIFO**, **LIFO**, **Promedio** o **Específico**), las entradas de existencias se calculan según el coste de compra del producto.  
 
-|Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|10.00|1|  
-|01-01-20|1|20,00|2|  
-|01-01-20|1|30,00|3|  
+    En la tabla siguiente se muestra cómo se valoran las entradas de existencias para todas las valoraciones de existencias excepto **Estándar**.  
 
- **Estándar**  
+    |Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|10.00|1|  
+    |01-01-20|1|20,00|2|  
+    |01-01-20|1|30,00|3|  
 
- En el caso de productos donde se use el método de costes **Estándar**, las entradas de existencias se calculan según el coste estándar actual.  
+- **Estándar**  
 
- En la tabla siguiente se muestra cómo se valoran las entradas de existencias para la valoración de existencias **Estándar**.  
+    En el caso de productos donde se use el método de costes **Estándar**, las entradas de existencias se calculan según el coste estándar actual.  
 
-|Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|15.00|1|  
-|01-01-20|1|15.00|2|  
-|01-01-20|1|15.00|3|  
+    En la tabla siguiente se muestra cómo se valoran las entradas de existencias para la valoración de existencias **Estándar**.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Efecto de los métodos de coste en la valoración de salidas de existencias  
- **FIFO**  
+    |Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|15.00|1|  
+    |01-01-20|1|15.00|2|  
+    |01-01-20|1|15.00|3|  
 
- En el caso de productos con método de coste **FIFO**, los productos que se compraron primero se venden siempre primero (números de movimiento 3, 2 y 1 en este ejemplo). Así pues, las salidas de existencias se calculan tomando el valor de la primera entrada de existencias.  
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Efecto de los métodos de coste en la valoración de salidas de existencias
 
- El CV se calcula a partir del valor de la primera adquisición del inventario.  
+- **FIFO**  
 
- En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **FIFO**.  
+    En el caso de productos con método de coste **FIFO**, los productos que se compraron primero se venden siempre primero (números de movimiento 3, 2 y 1 en este ejemplo). Así pues, las salidas de existencias se calculan tomando el valor de la primera entrada de existencias.  
 
-|Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-02-20|-1|-10,00|4|  
-|01-03-20|-1|-20,00|5|  
-|01-04-20|-1|-30,00|6|  
+    El CV se calcula a partir del valor de la primera adquisición del inventario.  
 
- **LIFO**  
+    En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **FIFO**.  
 
- En el caso de productos con método de coste **LIFO**, los productos que se compraron más recientemente se venden siempre primero (números de movimiento 3, 2 y 1 en este ejemplo). Así pues, las salidas de existencias se calculan tomando el valor de la última entrada de existencias.  
+    |Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-02-20|-1|-10,00|4|  
+    |01-03-20|-1|-20,00|5|  
+    |01-04-20|-1|-30,00|6|  
 
- El CV se calcula a partir del valor de las adquisiciones más recientes del inventario.  
+- **LIFO**  
 
- En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **LIFO**.  
+    En el caso de productos con método de coste **LIFO**, los productos que se compraron más recientemente se venden siempre primero (números de movimiento 3, 2 y 1 en este ejemplo). Así pues, las salidas de existencias se calculan tomando el valor de la última entrada de existencias.  
 
-|Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-02-20|-1|-30,00|4|  
-|01-03-20|-1|-20,00|5|  
-|01-04-20|-1|-10,00|6|  
+    El CV se calcula a partir del valor de las adquisiciones más recientes del inventario.  
 
- **Promedio**  
+    En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **LIFO**.  
 
- En el caso de productos que usen el método de coste **Promedio**, las salidas de existencias se valoran calculando un promedio ponderado del inventario que queda en el último día del periodo de coste medio en el cual se ha registrado una salida de existencias. Para obtener más información, consulte [Detalles de diseño: Coste medio](design-details-average-cost.md).  
+    |Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-02-20|-1|-30,00|4|  
+    |01-03-20|-1|-20,00|5|  
+    |01-04-20|-1|-10,00|6|  
 
- En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **Media**.  
+- **Promedio**  
 
-|Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-02-20|-1|-20,00|4|  
-|01-03-20|-1|-20,00|5|  
-|01-04-20|-1|-20,00|6|  
+    En el caso de productos que usen el método de coste **Promedio**, las salidas de existencias se valoran calculando un promedio ponderado del inventario que queda en el último día del periodo de coste medio en el cual se ha registrado una salida de existencias. Para obtener más información, consulte [Detalles de diseño: Coste medio](design-details-average-cost.md).  
 
- **Estándar**  
+    En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **Media**.  
 
- En el caso de productos con método de coste **Estándar**, las salidas de existencias se valoran de forma parecida al método de coste **FIFO**, a menos que la valoración se base en un coste estándar y no en el coste real.  
+    |Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-02-20|-1|-20,00|4|  
+    |01-03-20|-1|-20,00|5|  
+    |01-04-20|-1|-20,00|6|  
 
- En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **Estándar**.  
+- **Estándar**  
 
-|Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-02-20|-1|-15,00|4|  
-|01-03-20|-1|-15,00|5|  
-|01-04-20|-1|-15,00|6|  
+    En el caso de productos con método de coste **Estándar**, las salidas de existencias se valoran de forma parecida al método de coste **FIFO**, a menos que la valoración se base en un coste estándar y no en el coste real.  
 
- **Específico**  
+    En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **Estándar**.  
 
- Los métodos de coste determinan el flujo de costes desde una entrada de existencias a una salida de existencias. No obstante, si existe información más exacta sobre el flujo del coste, puede omitir esta suposición creando una liquidación fija entre los movimientos. Una liquidación fija crea un vínculo entre una salida de existencias y una entrada de existencias específica y direcciona el flujo de costes según corresponda.  
+    |Fecha registro|Cantidad|Importe coste (Real)|Nº mov.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-02-20|-1|-15,00|4|  
+    |01-03-20|-1|-15,00|5|  
+    |01-04-20|-1|-15,00|6|  
 
- En el caso de productos con método de coste **Específico**, las salidas de existencias se valoran según la entrada de existencias que vincula la liquidación fija.  
+- **Específico**  
 
- En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **Específica**.  
+    Los métodos de coste determinan el flujo de costes desde una entrada de existencias a una salida de existencias. No obstante, si existe información más exacta sobre el flujo del coste, puede omitir esta suposición creando una liquidación fija entre los movimientos. Una liquidación fija crea un vínculo entre una salida de existencias y una entrada de existencias específica y direcciona el flujo de costes según corresponda.  
 
-|Fecha registro|Cantidad|Importe coste (Real)|Liq. por nº orden|Nº mov.|  
-|------------------|--------------|----------------------------|-----------------------|---------------|  
-|01-02-20|-1|-20,00|**2**|4|  
-|01-03-20|-1|-10,00|**1**|5|  
-|01-04-20|-1|-30,00|**3**|6|  
+    En el caso de productos con método de coste **Específico**, las salidas de existencias se valoran según la entrada de existencias que vincula la liquidación fija.  
 
-## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
- [Detalles de diseño: Desviación](design-details-variance.md)   
- [Detalles de diseño: Coste medio](design-details-average-cost.md)   
- [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
- [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
- [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+    En la tabla siguiente se muestra cómo se valoran las salidas de existencias para la valoración de existencias **Específica**.  
+
+    |Fecha registro|Cantidad|Importe coste (Real)|Liq. por nº orden|Nº mov.|
+    |------------|--------|--------------------|----------------|---------|  
+    |01-02-20|-1|-20,00|**2**|4|  
+    |01-03-20|-1|-10,00|**1**|5|  
+    |01-04-20|-1|-30,00|**3**|6|  
+
+## <a name="see-also"></a>Consulte también
+
+[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
+[Detalles de diseño: Desviación](design-details-variance.md)   
+[Detalles de diseño: Coste medio](design-details-average-cost.md)   
+[Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
+[Gestión de costes de inventario](finance-manage-inventory-costs.md)  
+[Finanzas](finance.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

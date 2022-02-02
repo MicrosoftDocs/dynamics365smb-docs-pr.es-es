@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439415"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971657"
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 
@@ -186,7 +186,7 @@ Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la pá
 
 ## <a name="multiple-interest-rates"></a>Tipos múltiples de interés
 
-Cuando configura los términos de interés y los términos de recordatorio, para la penalización por pago atrasado, puede especificar múltiples tasas de interés para que la penalización se calcule a partir de diferentes tasas de interés en diferentes períodos. Si no se configuran los tipos múltiples de interés, se utilizará la tasa de interés y el período que se define en las páginas **Términos interés** y **Términos recordatorio** para el que se usará todo el período de cálculo. Para obtener más información, vea [Configurar tipos múltiples de interés](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Para obtener más información, vea [Configurar tipos múltiples de interés](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

@@ -7,35 +7,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321396"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972413"
 ---
 # <a name="about-production-orders"></a>Sobre los pedidos de producción
+
 Las órdenes de producción se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados. Las órdenes de producción dirigen el trabajo por los distintos centros de trabajo o de máquina de la planta.  
 
 Antes de empezar con producción, la mayoría de las empresas realizan una planificación de suministros, normalmente una vez por semana, para calcular cuántos pedidos de producción y de compra ejecutar para cubrir la demanda de ventas esa semana. Los pedidos de compra suministran los componentes que se requieren según la L.M de producción para fabricar los productos finales.
 
 Las órdenes de producción son los componentes esenciales de la funcionalidad de fabricación de la aplicación. Contienen la información siguiente:  
 
--   Productos planificados para fabricación  
--   Materiales necesarios para las órdenes de producción planificadas  
--   Productos que se acaban de fabricar  
--   Materiales que ya se han seleccionado  
--   Productos que se han fabricado en el pasado  
--   Materiales que se utilizaron en operaciones de fabricación anteriores  
+- Productos planificados para fabricación  
+- Materiales necesarios para las órdenes de producción planificadas  
+- Productos que se acaban de fabricar  
+- Materiales que ya se han seleccionado  
+- Productos que se han fabricado en el pasado  
+- Materiales que se utilizaron en operaciones de fabricación anteriores  
 
 Las órdenes de producción son los puntos de partida de:  
 
--   La planificación de la fabricación futura  
--   El control de la fabricación actual  
--   El seguimiento de la fabricación terminada  
+- La planificación de la fabricación futura  
+- El control de la fabricación actual  
+- El seguimiento de la fabricación terminada  
 
 ## <a name="production-order-creation"></a>Creación de órdenes de producción  
 Las órdenes de producción se pueden crear una por una, manualmente, desde la página **Orden producción**, o se pueden generar desde las páginas **Planificación pedido venta** o **Planificación de pedidos**. Para crear varias órdenes se utiliza la página **Hoja planificación**.  
@@ -51,10 +52,10 @@ Las órdenes de producción se crean utilizando información sobre:
 ## <a name="limitations-on-production-order-creation"></a>Limitaciones en la creación de órdenes de producción  
 Las órdenes de producción se reservan automáticamente y se realiza el seguimiento hasta su origen cuando:  
 
--   Creado desde la **[Hoja planificación](production-how-to-run-mps-and-mrp.md)**.  
--   Creado desde la página **[Planificación de pedidos de venta](production-how-to-create-production-orders-from-sales-orders.md)**  
--   Se crean desde la página **[Planificación de pedidos](production-how-to-plan-for-new-demand.md)**  
--   Se usa la función **[Replanificar](production-how-to-replan-refresh-production-orders.md)** en las órdenes de producción  
+- Creado desde la **[Hoja planificación](production-how-to-run-mps-and-mrp.md)**.  
+- Creado desde la página **[Planificación de pedidos de venta](production-how-to-create-production-orders-from-sales-orders.md)**  
+- Se crean desde la página **[Planificación de pedidos](production-how-to-plan-for-new-demand.md)**  
+- Se usa la función **[Replanificar](production-how-to-replan-refresh-production-orders.md)** en las órdenes de producción  
 
 Para obtener más información, vea [Seguimiento de relaciones entre demanda y suministro](production-how-track-demand-supply.md).
 
@@ -117,9 +118,9 @@ La aplicación ofrece diversas opciones para que las empresas de fabricación pu
 
 El consumo de material se puede procesar mediante el [diario de consumo](production-how-to-post-consumption.md). Además, la aplicación lo puede registrar automáticamente, lo que se denomina creación automática de informes (baja). Los métodos de creación de informes son::  
 
--   Manual  
--   Adelante  
--   Atrás  
+- Manual  
+- Adelante  
+- Atrás  
 
 El método de creación manual de informes de consumo usa el diario de consumo para especificar la preparación de material.  
 
@@ -181,9 +182,9 @@ Con todo, el diario de producción difiere de los diarios de consumo y salida en
 En el diario de producción, las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos de producto positivos y los tiempos invertidos se registran como movimientos de capacidad.  
 
 ## <a name="see-also"></a>Consulte también
-[Fabricación](production-manage-manufacturing.md)    
+[Fabricación](production-manage-manufacturing.md)
 [Configuración de fabricación](production-configure-production-processes.md)  
-[Planificación](production-planning.md)      
+[Planificación](production-planning.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

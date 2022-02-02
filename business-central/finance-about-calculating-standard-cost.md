@@ -7,15 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: 3ef1aac08230477afefafee6afcaf05ac9c9cfff
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323207"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973705"
 ---
 # <a name="about-calculating-standard-cost"></a>Acerca del cálculo de coste estándar
 Muchas empresas de fabricación eligen una base de valoración de coste estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costes estándar determina el coste unitario del inventario en función de ciertos costes históricos o esperados razonables. Los estudios sobre costes anteriores y sobre costes futuros previstos pueden ofrecer una base para calcular costes estándar. Dichos costes quedan fijos hasta que se tome la decisión de cambiarlos. El coste real para fabricar un producto puede ser diferente de los costes estándar calculados. Para controlar la gestión, el coste real se compara con el coste estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones*.  
@@ -33,22 +32,23 @@ Dado que el coste estándar de un producto fabricado o ensamblado puede incluir 
 
 La tarea contable que debe llevar a cabo una empresa de producción que utilice un sistema de costes estándar es:  
 
--   Calcular un coste estándar del producto acabado y configurarlo en la ficha respectiva.  
--   Registrar y asignar el coste real de los elementos de coste clave y considerar las variaciones.  
+- Calcular un coste estándar del producto acabado y configurarlo en la ficha respectiva.  
+- Registrar y asignar el coste real de los elementos de coste clave y considerar las variaciones.  
 
 Para determinar el coste directo de un producto acabado, es necesario totalizar los costes de todos los componentes. Un producto ensamblado o fabricado puede incluir subensamblados, que también constan de varios componentes.  
 
 Los elementos de coste claves siguientes conforman el coste directo total de un producto procesado acabado:  
 
--   Costes de materiales.  
--   Costes de capacidad.  
--   Costes de subcontratistas para los productos fabricados solo.  
+- Costes de materiales.  
+- Costes de capacidad.  
+- Costes de subcontratistas para los productos fabricados solo.  
 
-### <a name="material-costs"></a>Costes de materiales  
- Los costes de materiales son aquellos que se asocian con productos semiterminados y materias prima que se hayan comprado. El coste unitario del material puede estar compuesto por elementos de coste directos e indirectos.  
+### <a name="material-costs"></a>Costes de materiales
 
--   El coste directo del material representa la cantidad facturada por las materias primas que se hayan comprado o por el coste de procesamiento de un producto semiterminado.  
--   El coste indirecto del material, o *costes generales*, puede representar elementos tales como costes de merma de existencias del producto acabado después de producido.  
+Los costes de materiales son aquellos que se asocian con productos semiterminados y materias prima que se hayan comprado. El coste unitario del material puede estar compuesto por elementos de coste directos e indirectos.  
+
+- El coste directo del material representa la cantidad facturada por las materias primas que se hayan comprado o por el coste de procesamiento de un producto semiterminado.  
+- El coste indirecto del material, o *costes generales*, puede representar elementos tales como costes de merma de existencias del producto acabado después de producido.  
 
 La configuración del coste de materiales para los productos comprados que afectan los costes directos e indirectos depende del método de valoración que haya seleccionado para el producto en cuestión. Puede configurar la información relativa al coste para cualquiera de los métodos en la ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
@@ -66,13 +66,13 @@ Los costes de capacidad son aquellos que están asociados con la mano de obra in
 
 En la configuración de los costes de capacidad de los productos ensamblados, están implicados los siguientes elementos:  
 
--   Coste unitario directo e indirecto del recurso.  
--   Tipo fijo o directo de utilización de recursos.  
+- Coste unitario directo e indirecto del recurso.  
+- Tipo fijo o directo de utilización de recursos.  
 
 En la configuración de los costes de capacidad de los productos fabricados, están implicados los siguientes elementos:  
 
--   Coste unitario directo e indirecto del centro de trabajo o de máquina.  
--   La configuración del tiempo y del tamaño del lote.  
+- Coste unitario directo e indirecto del centro de trabajo o de máquina.  
+- La configuración del tiempo y del tamaño del lote.  
 
 Para calcular el coste de capacidad estándar, deberá establecer cuáles son las tiempos estándar requeridos para llevar a cabo las operaciones con las máquinas y los trabajos en los centros. Normalmente, el tiempo total necesario para completar una operación consta del tiempo de preparación, de ejecución, y de espera y traslado.  
 
@@ -97,7 +97,7 @@ El proceso de actualizar o calcular los costes estándar normalmente consiste en
 
 1.  La actualización de costes en los niveles de componente y de capacidad. Para obtener más información, consulte los procesos **Sugerir coste estándar prod.** y **Sugerir coste estándar capacidad**.  
 2.  Consolidación y distribución de los costes de componentes y de la capacidad para calcular el coste total de fabricación o montaje de los productos. Para obtener más información, consulte la sección [Para calcular el coste estándar de un elemento de ensamblado](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  La implementación de los costes estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costes estándar no tienen efecto hasta que se implementan. Para obtener más información, consulte el proceso **Implementar cambios de coste estándar**.  
+3.  La implementación de los costes estándar que se introducen al ejecutar los procesos por lotes anteriores. Los costes estándar no tienen efecto hasta que se implementan. Use el trabajo por lotos **Implementar cambios de coste estándar** que actualiza los cambios en el coste estándar en los artículos con los de la tabla de la Hoja de trabajo de coste estándar.  
 4.  Implementación de los cambios para actualizar el campo **Coste unitario** en la ficha del producto y realizar una revalorización de inventario. Para obtener más información, vea [Revaluación de inventario](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Consulte también  
