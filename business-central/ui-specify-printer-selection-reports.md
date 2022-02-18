@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547053"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102452"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 
@@ -84,7 +84,7 @@ Para obtener instrucciones detalladas sobre cómo realizar la configuración, co
 
     La forma de asignar la licencia depende de si se está integrando con Business Central Online o local.
 
-    - Con [!INCLUDE[prod_short](includes/prod_short.md)] Online, las licencias se asignan mediante el Centro de administración de Microsoft 365.
+    - Con [!INCLUDE[prod_short](includes/prod_short.md)] en línea, las licencias se asignan mediante el Centro de administración de Microsoft 365.
 
       Para obtener más información, consulte [Ayuda del Centro de administración de Microsoft: asigne licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -267,6 +267,9 @@ Usted o el administrador también pueden usar la página **Selecciones de impres
 
 > [!NOTE]
 > Las selecciones de impresora más específicas tienen preferencia sobre las selecciones de impresora más generales. Por ejemplo, una selección de impresora que tenga valores en **ID de usuario**, **ID de informe** y **Nombre de impresora** tiene prioridad sobre una selección de impresora que tenga entradas en blanco en los campos **ID de usuario** o **ID de informe**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Elección de la impresora al generar un informe
+En lugar de utilizar la impresora predeterminada al ejecutar un informe, puede anular esta configuración desde la página de solicitud. Simplemente elija la impresora que desea utilizar para esta invocación del informe en el menú desplegable **Impresora**.
 
 ### <a name="sizing-print-jobs"></a>Cambio de tamaño de los trabajos de impresión
 

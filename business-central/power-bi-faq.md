@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3727faf800bf6ecf326009588eb3e1588a1bcfc3
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588004"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049437"
 ---
 # <a name="power-bi--faq"></a>Preguntas más frecuentes de Power BI
 
@@ -140,18 +140,55 @@ Nº No en este momento.
 
 Cuando se trata de servicios web, las consultas publicadas suelen ser más rápidas que las páginas publicadas equivalentes. La razón es que las consultas están optimizadas para leer datos y no contienen desencadenadores costosos como OnAfterGetRecord.
 
-Cuando el nuevo conector esté disponible en junio de 2021, le recomendamos que utilice páginas de API en lugar de consultas publicadas como servicios web.
+Los servicios web se basan en páginas o consultas creadas para el acceso desde la Web y, por lo general, no están optimizadas para el acceso desde servicios externos. Incluso aunque el conector de Business Central aún admite la obtención de datos de servicios web, le recomendamos que utilice páginas API en lugar de servicios web siempre que sea posible.
 
 <!-- 13 --> 
 ### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>¿Existe alguna forma de que un usuario final cree un servicio web con una columna que esté en una tabla de Business Central, pero no una página? ¿O el desarrollador tendrá que crear una consulta personalizada? 
 
-Sí. Con el lanzamiento del nuevo conector en junio de 2021, un desarrollador puede crear una nueva página de API para cumplir con este requisito. 
+Actualmente no hay forma de agregar un nuevo campo a un servicio web. Las páginas API ofrecen total flexibilidad en la estructura de la página, por lo que un desarrollador puede crear una nueva página API para cumplir con este requisito. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>¿Puedo conectar Power BI a un servidor de base de datos de solo lectura de Business Central Online? 
 
-Nº Pero tenemos esta característica en nuestra hoja de ruta a largo plazo. 
+Esta funcionalidad estará disponible próximamente. A partir de febrero de 2022, los nuevos informes que cree en función de los datos de Business Central Online intentarán conectarse automáticamente a una réplica de la base de datos de solo lectura. Esto hará que sus informes se actualicen más rápido y tendrá menos impacto en el rendimiento si utiliza Business Central mientras se actualiza un informe. Seguimos recomendando, siempre que sea posible, que programe sus informes para que se actualicen fuera del horario laboral habitual.
 
+Si tiene informes antiguos basados en datos de Business Central, no se conectarán a la réplica de la base de datos de solo lectura.
+
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it"></a><a name="databasemods"></a>He probado la versión preliminar del nuevo conector para la actualización de febrero de 2022. Cuando me conecto a mi página personalizada de la API de Business Central, aparece el error "No se puede insertar un registro. La intención de conexión actual es de solo lectura". ¿Cómo puedo solucionarlo?
+
+Con el nuevo conector, los nuevos informes que utilizan datos de Business Central se conectarán a una réplica de solo lectura de la base de datos de Business Central de forma predeterminada. Este cambio traerá una mejora en el rendimiento. Sin embargo, en casos excepcionales, podría causar el error. Este error generalmente ocurre porque su API personalizada está realizando modificaciones en los registros de Business Central mientras Power BI trata de obtener los datos. En particular, ocurre como parte de los desencadenadores AL: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord y OnAfterGetCurrRecord.
+
+Para solucionar este problema obligando al conector Business Central a permitir este comportamiento, consulte [Crear informes de Power BI para mostrar datos de Business Central: solución de problemas](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+
+<!--
+In general, we recommend avoiding any database modifications in API pages when they're opening or loading records, because they cause performance issues and might cause your report refresh to fail. In some cases, you might still need to make a database modification when your custom API page opens or loads records. You can force the Business Central connector to allow this behavior. Do the following steps when getting data from Business Central for the report in Power BI Desktop:
+
+1. Start Power BI Desktop.
+2. In the ribbon, select **Get Data** > **Online Services**.
+3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
+4. In the **Navigator** window, select the API endpoint that you want to load data from.
+5. In the preview pane on the right, you'll see the following error:
+
+   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Cannot insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+
+6.  Select **Transform Data** instead of **Load** as you might normally do.
+7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+8.  Replace the following line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
+   ```
+
+   with the line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false]),
+   ```
+
+9.  Select **Done**.
+10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
+
+-->
 ### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>¿Cómo cambio o borro la cuenta de usuario que estoy usando actualmente para conectarme a Business Central desde Power BI Desktop?
 
 En Power BI Desktop, realice uno de los siguientes pasos:
@@ -207,9 +244,9 @@ Sí. Este escenario avanzado ayudará a Business Central a mantener el rendimien
 
 Estamos investigando esta función. Power BI ofrece API enriquecidas para controlar la implementación de informes. Para más información, vea [Introducción a las canalizaciones de implementación](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="ive-tried-the-preview-of-the-new-connector-which-will-be-live-in-june-2021-i-see-some-values-like-_x0020_-when-connecting-to-api-v20-what-are-these-values"></a>He probado la vista previa del nuevo conector, que estará disponible en junio de 2021. Veo algunos valores como "_x0020_" al conectar a la API v2.0. ¿Qué son estos valores?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values"></a>Cuando obtengo datos de Business Central para usarlos en mis informes de Power BI, veo algunos valores como "_x0020_". ¿Qué son estos valores?
 
-La próxima versión del conector de Power BI permite conectarse a las páginas de la API de Business Central, incluida la API v2.0. Estas páginas incluyen algunos campos basados en [Objetos AL Enum](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Los campos basados en objetos AL Enum deben tener nombres que sean coherentes y siempre iguales, para que los filtros del informe siempre funcionen, sin importar el idioma o el sistema operativo que esté utilizando. Por este motivo, los campos basados en AL Enums no se traducen y se codifican para evitar cualquier carácter especial, incluido el espacio. En particular, siempre que haya una opción vacía en el objeto AL Enum, se codifica como "_x0020_". Siempre puede aplicar una transformación a sus datos en Power BI si desea mostrar algún valor diferente para estos campos, por ejemplo, "Vacío".
+Algunas páginas de API, incluida la mayoría de las páginas de API v2.0, tienen campos basados en [Objetos de enumeración AL](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Los campos basados en objetos de enumeración AL deben tener nombres que sean coherentes y siempre iguales, para que los filtros del informe siempre funcionen, sin importar el idioma o el sistema operativo que esté utilizando. Por este motivo, los campos basados en enumeraciones de AL no se traducen y se codifican para evitar cualquier carácter especial, incluido el espacio. En particular, siempre que haya una opción vacía en el objeto AL Enum, se codifica como "_x0020_". Siempre puede aplicar una transformación a sus datos en Power BI si desea mostrar algún valor diferente para estos campos, por ejemplo, "Vacío".
 
 
 ---

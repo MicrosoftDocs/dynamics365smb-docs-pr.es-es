@@ -1,6 +1,6 @@
 ---
 title: Recuento y ajuste de inventario
-description: Describe cómo realizar el recuento de inventario físico mediante las páginas Pedidos de inventario físico y Registro de inventario físico y realizar ajustes negativos o positivos con los documentos de inventario.
+description: Describe cómo contar el inventario físico y usar documentos de inventario para ajustar el inventario disponible.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 45001f05d2ddedcd254fafbd78f38e03cd87b93c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435677"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115289"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Recuento y ajuste de inventario mediante documentos
 
@@ -40,7 +41,7 @@ Un pedido de inventario físico es un documento completo formado por la cabecera
 
 Para crear las líneas de pedido de inventario físico, se suele usar la función **Calcular líneas** para reflejar el inventario actual como líneas del pedido. Opcionalmente, puede utilizar la función **Copiar de documento** para rellenar las líneas con el contenido de otro pedido de inventario físico abierto o registrado. El procedimiento siguiente solo describe cómo utilizar la función **Calcular líneas**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos obligatorios en la ficha desplegable **General**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija la acción **Calcular líneas**.
@@ -100,7 +101,7 @@ También puede elegir la acción **Dif. pedido invent. físico** para ver las di
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Para encontrar líneas de pedido de inventario físico duplicadas
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
 2. Abra el inventario físico del que desea ver las líneas duplicadas.
 3. Seleccione la acción **Mostrar líneas duplicadas**.
 
@@ -113,7 +114,7 @@ Después de completar un inventario físico pedido y cambiar el estado **Termina
 - Cada línea de pedido de inventario físico ha sido contada por al menos una línea de registro de inventario.
 - Las casillas de verificación **En líneas de registro** y **Cant. esperada calculada** se han seleccionado para todas las líneas de pedido de inventario físico.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
 2. Seleccione el pedido de inventario físico que desea completar, y después seleccione la acción **Editar**.
 
     En la página **Pedido de inventario físico**, puede ver la cantidad registrada en el campo **Cant. registrada (base)**.
@@ -127,7 +128,7 @@ Los movimientos de producto correspondientes se actualizan junto con los movimie
 ### <a name="to-view-posted-physical-inventory-orders"></a>Para ver los pedidos de inventario físico registrados
 Después de realizar el registro, el pedido de inventario físico se borrará y podrá ver y evaluar el documento como un pedido de inventario físico con sus registros de inventario físico y cualquier comentario que haya creado.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos inv. fís. registrados** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos inv. fís. registrados** y luego elija el enlace relacionado.
 2. En la página **Pedidos inv. fís. registrados**, seleccione el pedido de inventario registrado que desea ver, y después seleccione la acción **Ver**.
 3. Para ver una lista de registros de inventario físico relacionados, elija la acción **Registros**.
 
@@ -199,7 +200,7 @@ Puede imprimir estos documentos en cualquier etapa, liberarlos y volverlos a abr
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Para configurar la numeración de los documentos de inventario
 El siguiente procedimiento muestra cómo configurar la numeración de los documentos de inventario.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. existencias** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. existencias** y luego elija el enlace relacionado.
 2. En la ficha desplegable **Numeración**, especifique en los siguientes campos la serie de números de documentos:
    - **Números recep. inventario**  
    - **Números histórico recepciones de inventario**  
@@ -209,7 +210,7 @@ El siguiente procedimiento muestra cómo configurar la numeración de los docume
 ### <a name="to-create-and-post-an-inventory-document"></a>Para crear y registrar un documento de inventario
 En el siguiente procedimiento se muestra cómo crear, imprimir y registrar una recepción de inventario. Los pasos son parecidos para los envíos de inventario.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recepciones de inventario** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recepciones de inventario** y luego elija el enlace relacionado.  
 2. En el encabezado de la página **Recepción de inventario**, elija la ubicación en el **Código de almacén** y luego rellene los campos restantes según sea necesario.
 3. En la ficha desplegable **Líneas**, en el campo **Producto**, elija el producto de inventario. En el campo **Cantidad**, escriba el número de productos que se van a agregar. 
 4. Para imprimir un informe **Recepción de inventario** de la página **Recepción de inventario**, elija la acción **Imprimir**.

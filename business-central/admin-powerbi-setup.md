@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 932bf57b8801c758c6bcaff4fbdad69265853487
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724693"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049879"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -44,7 +44,12 @@ Una página API es un tipo de página específico creado en código AL que propo
 
 Business Central online está disponible con un conjunto de API integradas, que puede usar para obtener datos de las entidades comerciales más comunes, como clientes, artículos, pedidos de venta y más. No se requiere trabajo adicional o configuración para usar estas API como fuente de datos para informes de Power BI. Para obtener más información sobre estas API, consulte [API de Business Central V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business Central online también admite API personalizadas. Los desarrolladores de aplicaciones de las soluciones Business Central pueden crear sus propias páginas de API y empaquetarlas en extensiones. Puede instalar las extensiones en su inquilino. Una vez instaladas, puede utilizar las páginas de la API para sus informes de Power BI, como lo haría con las API integradas (v2.0). Para obtener más información sobre cómo crear páginas de API, consulte [Desarrollar una API personalizada](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central online también admite API personalizadas. Los desarrolladores de aplicaciones de las soluciones Business Central pueden crear sus propias páginas de API y empaquetarlas en extensiones. Luego puede instalar las extensiones en su suscriptor. Una vez instaladas, utilice las páginas de la API para sus informes de Power BI, como lo haría con las API integradas (v2.0). Para obtener más información sobre cómo crear páginas de API, consulte [Desarrollar una API personalizada](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+> [!IMPORTANT]
+> A partir de febrero de 2022, los informes de Power BI para [!INCLUDE[prod_short](includes/prod_short.md)] en línea provienen de una réplica secundaria de la base de datos de solo lectura, por razones de rendimiento. Como consecuencia, los desarrolladores de AL deben evitar diseñar páginas de API que realicen modificaciones en la base de datos mientras las páginas se abren o cargan registros. En particular, considere el código en los desencadenadores AL: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord y OnAfterGetCurrRecord. Estas modificaciones de la base de datos, en algunos casos, pueden causar problemas de rendimiento y evitar que el informe actualice los datos. Para más información, consulte [Artículos de rendimiento para desarrolladores](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) en la ayuda para el desarrollo de Business Central.
+>
+> En casos excepcionales, el comportamiento provocará un error cuando un usuario intente obtener datos de la página API para un informe en Power BI Desktop. Sin embargo, si las modificaciones de la base de datos son necesarias en la página de la API personalizada, los usuarios de Power BI Desktop pueden forzar el comportamiento. Para más información, consulte [Creación de informes de Power BI para mostrar datos de Business Central](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>Servicios web OData
 
@@ -91,6 +96,7 @@ Esta sección explica los requisitos para una implementación de [!INCLUDE[prod_
     Antes de que los usuarios finales puedan usar Power BI en [!INCLUDE[prod_short](includes/prod_short.md)], un administrador de la aplicación de Azure tendrá que dar su consentimiento al servicio de Power BI.
 
     Para realizar la conexión inicial, abra [!INCLUDE[prod_short](includes/prod_short.md)] y ejecute **Comenzar con Power BI** desde el centro de roles. Esta acción le guiará a través del proceso de consentimiento y verificará su licencia de Power BI. Cuando se le solicite, inicie sesión con una cuenta de administrador de Azure. Para obtener más información, consulte [Conectar a Power BI, solo una vez](across-working-with-powerbi.md#connect).
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -7,33 +7,20 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: 76de1625ee71b666b01d6b2fef1efe5605d9a418
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 676a4e5e33b5288c5d7ec8cb0d6b7593ff371e3b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543370"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102478"
 ---
 # <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Informes y análisis de cobros en Business Central
 
 Para ayudarlo a administrar sus cobros en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
 ## <a name="reports"></a>Informes
+[!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-La siguiente tabla describe algunos de los informes clave en los informes de cobros.
-
-| Informe | Id. de objeto | Descripción |
-|--|--|--|
-| **Cobros vencidos** | 120 | Muestra el importe pendiente con clientes desglosado en intervalos de tiempo por tiempo vencido. El informe también muestra la parte del saldo de los clientes que no se adeuda y se puede mostrar con o sin los detalles del documento para cada cliente. Este informe es el informe principal para conciliar el libro mayor de clientes con contabilidad. Suponiendo que no ha permitido el registro directo en las cuentas utilizadas en la cuenta de cobros de los grupos de registro de clientes, este informe es una especificación de los importes que encuentra en contabilidad. |
-| **Extracto del cliente** | 1316 | Genera un extracto de cliente para un intervalo de tiempo especificado. Por lo general, se envía a los clientes para brindarles una descripción general de los importes pendientes y también como recordatorio para que paguen los importes vencidos. Puede optar por mostrar los importes vencidos en una sección separada. Puede incluir un intervalo de antigüedad similar al utilizado en el informe **Cobros vencidos**. Para el intervalo de antigüedad, normalmente establece *30D*, lo que significa intervalos de 30 días, como 30, 60, 90 y más de 90 días de vencimiento, desde la fecha de finalización, o *1M+CM*, que será el mes actual en un intervalo aparte y luego en intervalos mensuales para los meses anteriores. **Nota**: En la lista de clientes, este informe también tiene una acción aparte, **Extractos programados**. Esta opción no filtra al cliente que ha seleccionado. Es el mismo informe, pero se usa cuando desea enviar extractos a todos/más clientes. |
-| **Cliente - Saldo por fechas** | 121 | Muestra los movimientos de cliente abiertos hasta la fecha de finalización. Este informe muestra un contenido similar al del extracto del cliente, pero sin indicación de si el movimiento está vencido. **Nota**: El filtro de fecha se aplicará a los movimiento de cliente detallados. Esto significa que si tiene pagos posteriores a la fecha de finalización que se han aplicado a las facturas dentro del rango de fechas, las facturas aparecerán en el informe ya que no se han cerrado según la fecha de finalización. |
-| **Cliente - Balance comprobación** | 129 | Muestra los cambios netos para los clientes durante el período especificado en el filtro de fecha, así como el cambio neto acumulado anual para el ejercicio fiscal correspondiente al período seleccionado. El informe está agrupado por grupos de registro de clientes y ofrecerá una vista del libro mayor de clientes diferente al informe **Cobros vencidos**. **Nota**: Si no ha configurado ningún período contable, el sistema no sabrá qué año fiscal utilizar y mostrará el acumulado anual del año fiscal más reciente definido o simplemente seleccionará el período, que puede ser o no desde el comienzo de un año.|
-| **Cliente - Detalles del balance de comprobación** | 104 | Muestra todos los movimientos del libro mayor de clientes en el filtro de fecha especificado. Este informe se usa generalmente para verificar que se contabilizan todos los movimientos de un cliente específico u otras verificaciones internas en los libros de contabilidad de los clientes. |
-| **Clientes - Pagos recibidos** | 211 | Crea un recibo de pago para cada entrada del libro mayor de clientes del tipo **Pago**. Si el pago se ha aplicado a facturas, se especificarán las facturas; de lo contrario, solo indicará el importe del pago como no aplicado. Este informe se utiliza para enviar a los clientes que desean documentación para recibir el pago.|
-| **Conciliar cuentas de cliente y proveedor** | 33 |Muestra los movimientos de contabilidad resultantes del registro de movimientos de clientes y proveedores divididos por cuenta de contabilidad y grupos contables. Este informe se utiliza para conciliar los saldos en la contabilidad de clientes y proveedores con los saldos de contabilidad detallados. |
-| **Cliente - Antigüedad deuda cliente**| 109 |Ésta es una versión heredada de un informe de vencimiento de cobros. Le recomendamos que utilice el informe **Cobros envejecidos** en su lugar. |
-| **Estadísticas de ventas** |112  |[!INCLUDE [reports-sales-statistics](includes/reports-sales-statistics.md)]<br>Este informe también se puede utilizar en cobros, ya que es más fácil realizar una búsqueda rápida de los pagos, descuentos y ventas registrados para un cliente determinado.|
-|**Lista de clientes**|101| Muestra información básica de distinta índole sobre los clientes, tal como grupo contable, grupo de descuento, intereses e información sobre pagos, representante, su divisa predeterminada, límite de crédito en su divisa local (DL) y saldo actual (en DL). Utilice el informe, por ejemplo, para mantener la información de la tabla Cliente.|
 
 ## <a name="see-also"></a>Consulte también .
 

@@ -1,6 +1,6 @@
 ---
 title: Administrar clientes con Dynamics 365 Sales (contiene vídeo) | Documentos de Microsoft
-description: Puede usar Dynamics 365 Sales desde Business Central para asignar datos y tener una integración y sincronización fluidas en el proceso de clientes potenciales a efectivo.
+description: Puede usar Dynamics 365 Sales desde Business Central con integración y sincronización fluidas en el proceso de clientes potenciales a efectivo.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
+ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67d9915e4f60b20d0e871810dfc3d66450103a5a
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: c0b6e3fe2229a43bd4e7fb7e7d0b56b152600d60
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940456"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115005"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Uso de Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[prod_short](includes/prod_short.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.

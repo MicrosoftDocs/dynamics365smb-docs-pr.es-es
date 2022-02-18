@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441402"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115203"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurar almacenes básicos con áreas de operaciones
 Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar los documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas:  
@@ -46,14 +47,15 @@ Los procedimientos siguientes se basan en las actividades del almacén básico d
 3.  En la ficha desplegable **Almacén**, seleccione la casilla **Ubicación requerida** para indicar que, cuando un documento de entrada o de origen interno con un código de ubicación emitido, se puede crear una ubicación de inventario o un documento de movimiento de inventario.  
 4.  Seleccione la casilla **Ubicación requerida** para indicar que, cuando se crea un documento de salida o de origen interno con un código de ubicación emitido, debe crearse un pick de inventario o un documento de movimiento de inventario.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Para definir una estructura de ubicación predeterminada en el área de producción  
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Para definir una estructura de ubicación predeterminada en el área de producción
+
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra el almacén que desea configurar.  
 3.  En la ficha desplegable **Ubicaciones**, en el campo **Abre cód. ubic. control planta**, introduzca el código de la ubicación en la área de producción con todos los componentes de los que el operador de máquina pueda consumir sin solicitar una actividad de almacén que los lleve a la ubicación. Los productos que se colocan en esta ubicación se suelen configurar para su registro automático o baja. Esto significa que el campo **Método de baja** contiene **Adelante** o **Atrás**.  
 4. En el campo **Cód. ubic. para producción**, introduzca el código de la ubicación en el área de producción en la que se colocan por defecto componentes que se extraen para producción en este almacén antes de que se puedan consumir. Los productos que se colocan en esta ubicación se suelen configurar para el registro manual del consumo. Esto significa que el campo de **Método de baja** contiene **Manual** o **Pick + Adelante** o **Pick + Atrás** para picking y movimientos de inventario de almacén.  
 
     > [!NOTE]  
-    >  Cuando se utiliza el picking de inventario, el campo **Cód. ubicación** de la línea de componente de orden de producción define la ubicación *traer* desde donde los componentes disminuyen cuando se registra el consumo. Al utilizar movimientos de inventario, el campo **Código de ubicación** en las líneas de componente de orden de producción define la ubicación *apartado* en el área de la operación donde el empleado de almacén debe colocar los componentes.  
+    > Cuando se utiliza el picking de inventario, el campo **Cód. ubicación** de la línea de componente de orden de producción define la ubicación *traer* desde donde los componentes disminuyen cuando se registra el consumo. Al utilizar movimientos de inventario, el campo **Código de ubicación** en las líneas de componente de orden de producción define la ubicación *apartado* en el área de la operación donde el empleado de almacén debe colocar los componentes.  
 
 5. En la ficha desplegable **Ubicaciones**, en el campo de **Cód. ubic. desde producción**, introduzca el código de la ubicación en la área de producción de donde se toman los productos finales terminados de forma predeterminada cuando el proceso implica una actividad de almacén. En las configuraciones básicas de almacén se registra la actividad como una ubicación o un movimiento de inventario.  
 
@@ -61,7 +63,7 @@ Las líneas de componente del pedido de producción con ese código predetermina
 
 Este organigrama muestra cómo se rellena el campo de **Cód. ubicación** en las líneas del componente de la orden de producción según la configuración.  
 
-![Diagrama de flujo de ubicación.](media/binflow.png "BinFlow")    
+![Diagrama de flujo de ubicación.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Para definir una estructura de ubicación predeterminada en el área de ensamblado
 Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la página **Movimiento inventario**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -136,8 +138,8 @@ La fabricación de una ubicación dedicada proporciona una funcionalidad similar
 ## <a name="see-also"></a>Consulte también  
 [Gestión almacén](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
-[Gestión de ensamblaje](assembly-assemble-items.md)    
+[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
+[Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

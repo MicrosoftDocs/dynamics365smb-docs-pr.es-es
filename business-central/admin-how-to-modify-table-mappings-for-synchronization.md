@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c7225981e11a8968c8fd698cda2373be133cea9e
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588706"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049723"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Asignación de tablas y campos para sincronizar
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 La base de la sincronización de datos es asignar las tablas y campos en [!INCLUDE[prod_short](includes/prod_short.md)] con las tablas y columnas en [!INCLUDE[prod_short](includes/cds_long_md.md)] para que puedan intercambiar los datos. La asignación ocurre a través de tablas de integración. 
 

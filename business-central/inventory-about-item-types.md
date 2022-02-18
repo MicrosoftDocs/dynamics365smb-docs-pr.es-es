@@ -1,7 +1,6 @@
 ---
 title: Descripción de los tipos de productos
 description: Puede ajustar la valoración de inventario de un producto utilizando los métodos de costes FIFO o Promedio cuando los costes de producto cambien por motivos distintos de las transacciones.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
-ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
+ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "7949048"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059627"
 ---
 # <a name="about-item-types"></a>Acerca de los tipos de productos
 En el campo **Tipo** en la página **Ficha de producto**, puede seleccionar para qué se usa el producto en su negocio, lo que afecta al grado en el que puede administrar el producto en el inventario. La siguiente tabla enumera y describe los tres tipos de elementos que están disponibles.

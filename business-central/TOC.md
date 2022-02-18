@@ -483,6 +483,7 @@
 #### [Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.](receivables-how-apply-sales-transactions-manually.md)
 #### [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)
 #### [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Enviar recordatorios de saldos pendientes](receivables-send-reminders.md)
 #### [Bloquear clientes](receivables-how-block-customers.md)
 #### [Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
@@ -1605,6 +1606,120 @@
 ##### [Imprimir informes de solución de problemas](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Enviar alertas reglamentarias](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Inteligencia empresarial e informes 
+
+## [Descripción general](reports-bi-reporting.md)
+
+## Usar informes en el trabajo diario
+### [Descripción general](reports-use-reports.md)
+### [Generación de informes](ui-work-report.md)
+### [Marcadores de posición de un informe](ui-bookmarks.md)
+### [Análisis de datos de informes con Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Impresión de informes](ui-specify-printer-selection-reports.md#default)
+### [Programación de informes](ui-work-report.md#ScheduleReport)
+### [Administración de configuración guardada de informes](reports-saving-reusing-settings.md)
+### [Cambio del diseño de informe predeterminado](ui-how-change-layout-currently-used-report.md)
+
+## Informes integrados
+### [Descripción general de informe](reports-available-reports.md)
+### Finanzas
+#### [Análisis financiero](bi.md)
+#### [Analizar extractos financieros con Excel](finance-analyze-excel.md)
+#### [Informes financieros clave](finance-reports.md)
+#### [Informes de clientes](receivables-reports.md)
+#### [Informes de proveedores](payables-reports.md)
+#### [Análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)
+#### [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)
+
+### Ccial
+#### [Informes de ventas](sales-reports.md)
+#### [Estado de pedido de ventas abierto](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Seguimiento de paquetes](sales-how-track-packages.md)
+#### [Ver líneas de pedido abierto de venta registradas y no registradas](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Compra
+#### [Informes de compras](purchase-reports.md)
+#### [Ver movimientos contables de compras](ui-post-purchases.md#viewing-ledger-entries)
+
+### Inventario y almacén
+#### [Informes de inventario y almacén](inventory-wms-reports.md)
+#### [Disponibilidad de producto](inventory-how-availability-overview.md)
+#### [Seguimiento de productos con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)
+#### [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)
+#### [Auditar la reconciliación entre la contabilidad de inventario y la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Ver productos de tránsito directo en un envío u hoja de trabajo de selección](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Programa
+#### [Informes de proyectos](project-reports.md)
+#### [Ver estimaciones de uso de trabajo](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)
+
+### Activos fijos
+#### [Informes de Activos fijos](fa-reports.md)
+#### [Supervisión de costes de mantenimiento](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Supervisión de cobertura de seguros](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Ver valores contables de depreciación modificados](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Ver movimientos contables de disposición](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Ver valores de disposición proyectados](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Gestión de ensamblaje
+#### [Informes de administración de ensamblados](assembly-reports.md)
+#### [Ver la estructura de la lista de materiales (L.M.)](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Fabricación
+#### [Informes de producción](production-reports.md)
+#### [Ver la carga en centros de trabajo y de máquinas](production-how-to-view-the-load-on-work-centers.md)
+#### [Ver los movimientos contables de centros de trabajo](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Gestión de servicios
+#### [Visualización de estadísticas de servicio](service-service-statistics.md)
+#### [Información general de pedidos de servicio](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Información general de ofertas de servicio](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Información general de documentos de servicio registrados](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Análisis de datos ad hoc
+### [Descripción general](reports-adhoc-analysis.md)
+### [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)
+### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
+### [Analizar datos de página en Excel](across-work-with-excel.md)
+### [Análisis de datos de informes con Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Análisis financiero](bi.md)
+
+## Análisis integrados 
+### [Descripción general](reports-built-in-analytics.md)
+### [Información inteligente](about-intelligent-cloud.md)
+### [Trabajar con informes de Power BI](across-working-with-powerbi.md)
+### [Análisis financiero](bi.md)
+### [Analizar extractos financieros con Excel](finance-analyze-excel.md)
+### [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)
+### [Telemetría de uso de informes](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Analizar datos en herramientas de Business Intelligence
+### [Descripción general](reports-external-analysis.md)
+### [Uso de Power BI con Business Central](admin-powerbi.md)
+### [Analizar extractos financieros con Excel](finance-analyze-excel.md)
+### [Extracción de datos a almacenes de datos o lagos de datos](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Lectura de datos con la API de Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Informes de desarrollo
+### [Descripción general](reports-develop-reports.md)
+### Desarrollo de diseños de informe
+#### [Tipos de diseño (Word y RDLC)](ui-manage-report-layouts.md)
+#### [Crear un nuevo diseño](ui-how-create-custom-report-layout.md)
+#### [Uso de fuentes en diseños](ui-fonts.md)  
+#### [Trabajar con diseños de Word](ui-how-add-fields-word-report-layout.md)
+#### [Importar/exportar un diseño](ui-how-import-and-export-report-layout.md)
+#### [Actualizar un diseño](ui-update-report-layouts.md)
+#### [Cambiar el diseño predeterminado](ui-how-change-layout-currently-used-report.md)
+### Desarrollo de conjuntos de datos de informes
+#### [Guía de desarrollo de informes](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Guía de ajuste del rendimiento de los informes](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Seguridad, privacidad, cumplimiento
 ## Seguridad y protección
 ### [Descripción general de seguridad y protección (solo en inglés)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

@@ -1,5 +1,5 @@
 ---
-title: 'Detalles de diseño: Inventario y valoración | Documentos de Microsoft'
+title: 'Detalles de diseño: coste de inventario'
 description: En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8bfcf2b10d9b302c9a65b7cf27c7fb336be68617
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215983"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115124"
 ---
 # <a name="design-details-inventory-costing"></a>Detalles de diseño: Coste de inventario
+
 En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La valoración de inventario, también conocida como "gestión de costes", se refiere al registro y la creación de informes sobre los costes operativos de la empresa.  
 
-## <a name="in-this-section"></a>En esta sección  
+## <a name="in-this-section"></a>En esta sección
+
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
 [Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  

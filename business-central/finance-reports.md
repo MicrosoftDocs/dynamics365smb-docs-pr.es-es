@@ -7,34 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543150"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102348"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Informes y análisis financieros en Business Central
 
 Informes financieros en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales financieros y comerciales crear, mantener, implementar y ver estados financieros. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes. [!INCLUDE [prod_short](includes/prod_short.md)] incluye diversos informes, funciones de seguimiento y herramientas que ayudan a los auditores o controladores que son responsables de informar al departamento de finanzas. Los informes financieros incluyen soporte para dimensiones, por lo que los segmentos o dimensiones de la cuenta están disponibles de inmediato. No se requieren otras herramientas ni pasos de configuración.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Informes
-
-La siguiente tabla describe algunos de los informes clave en los informes financieros.
-
-| Informe | Id. de objeto | Descripción |
-|--|--|--|
-| **Balance sumas y saldos** | 6 | Muestra el plan de cuentas con los saldos y los saldos de periodos. Puede optar por ver un balance de comprobación de las dimensiones seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. |
-| **Bal. comprobación/periodo** | 38 | Muestra el saldo inicial de cada cuenta de contabilidad, los movimientos producidos durante el periodo seleccionado de mes, trimestre o año, y el saldo de cierre resultante. |
-| **Balance sumas y saldos/Ppto.** | 9 | Muestra un balance de comprobación en comparación con un presupuesto. Puede optar por ver un balance de comprobación de las dimensiones seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. |
-| **Balance de comprobación detallado** | 4 | Muestra un balance de comprobación detallado de las cuentas de contabilidad seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. Puede definir las cuentas que se van a incluir en el informe configurando filtros. |
-| **Balance de comprobación/año anterior** | 7 | Muestra un balance de comprobación con respecto a las cifras del año anterior. Puede optar por ver un balance de comprobación de las dimensiones seleccionadas. Puede usar el informe al cierre de un periodo contable o ejercicio. *Año anterior* significa el mismo periodo del año anterior. |
-| **Esquema cuentas** | 25 | Los esquemas de cuentas se pueden utilizar para ver las cuentas de contabilidad de una manera diferente a la del plan de cuentas. Por ejemplo, los esquemas de cuentas se pueden utilizar para informes sobre cifras clave. |
-<!-- | **Balance** (Acc.Schedule o Excel) o **Balance de comprobación** |  |  |
-| **Estado de flujo de efectivo** (Esquema de cuentas) |  |  |
-| **Resumen/detalles de balance de comprobación** |  |  |
-| **Estado de resultados** (Acc.Schedule o Excel) |  |  |
-| **Ppto** |  |  | -->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Tareas
 

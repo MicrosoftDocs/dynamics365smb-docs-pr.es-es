@@ -1,8 +1,6 @@
 ---
-title: Usar la funcionalidad de recursos humanos | Documentos de Microsoft
+title: Administrar recursos humanos
 description: Puede registrar nuevo personal, modificar la información del personal existente y registrar y analizar las ausencias.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
+ms.search.form: 5200, 5201, 5212, 5211
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9593eeb4b88b059079d95e438873f3b69ae783e9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: afeeb4c3d170fc137586dc83864ba78baad943a8
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782118"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101167"
 ---
 # <a name="manage-human-resources"></a>Administrar recursos humanos
+
 En [!INCLUDE[prod_short](includes/prod_short.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
 
 También puede registrar ausencias de empleados, lo que permite analizar las ausencias registradas, según las necesidades.
@@ -34,6 +34,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registre la ausencia de los empleados y consulte las estadísticas de ausencia mediante distintos filtros. |[Gestionar ausencia empleados](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Consulte también
+
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)        

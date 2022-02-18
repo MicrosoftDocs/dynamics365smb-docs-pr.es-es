@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215433"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115481"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Detalles de diseño: Cambiar la valoración de existencias para productos
 
@@ -78,18 +79,18 @@ Para que los nuevos productos sean completamente útiles, debe copiar manualment
 
 |Área  |Qué copiar  |Cómo copiarlo  |
 |---------|---------|---------|
-|Inventario     |Unidades de almacenamiento (SKU)         |Compruebe si se especifica una SKU para el producto original. Si se han introducido parámetros de planificación para cada tarjeta de SKU, debe crear manualmente el SKU para el nuevo producto. Si no se especifican los parámetros, puede usar el trabajo por lotes **Crear unidad de almacenamiento** en la página **Ficha de producto** para crear los datos.        |
-|     |Sustituciones de producto         |Compruebe si hay sustituciones de productos definidas para el producto original. Si las hay, transfiera esos datos al nuevo producto. Para ver elementos sustitutos, use la acción **Sustituciones** en la página **Ficha de producto**.         |
-|     |Informes de análisis         |Revise los informes Análisis de productos, Análisis de ventas y Análisis de compras. Para aquellos que hacen referencia a los productos originales, puede crear un nuevo informe de análisis con una referencia al nuevo producto (manteniendo el informe de análisis original para usar como historial) o ajustar los informes para que hagan referencia al nuevo producto.         |
-|     |Diarios estándar         |Compruebe si los diarios estándar hacen referencia al producto original y transfiera esos datos al nuevo producto cuando sea necesario. Esta información se encuentra en los diarios estándar, que están disponibles en el diario de productos.          |
-|Ccial     |Porcentajes prepago ventas         | Compruebe si los porcentajes de prepago de ventas están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de prepago, en la página **Ficha de producto**, elija **Ventas** y después, **Porcentajes de prepago**.        |
-|Compra     |Porcentajes prepago compra         |Compruebe si los porcentajes de prepago de compras están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de prepago, en la página **Ficha de producto**, elija **Compras** y después, **Porcentajes de prepago**.                 |
-|Almacén     |Contenidos ubicación         |Revise el contenido de ubicación definido para el producto original. Si se han especificado de forma individual columnas como Cant. mín, Cant. máx., Predeterminado y Dedicado, debe crear manualmente el contenido del contenido de ubicación para el nuevo producto. Si no es así, no se requiere ninguna acción. [!INCLUDE[prod_short](includes/prod_short.md)] mantendrá los registros cuando registre documentos de almacén y diarios.|
-|Proyecto     |Precios del proyecto         |Compruebe si los precios del proyecto están definidos para el producto original y transfiera esos datos al nuevo producto. Esta información está disponible en la página **Ficha de producto** en a parte **Detalles proyecto - N.º precios** en el panel **Cuadro informativo**.         |
-|Servicio     |Capacidad de recursos de servicio         |Compruebe si las capacidades de recursos de servicio están definidas para el producto original y transfiera esos datos al nuevo producto. Para ver las capacidades de recursos del servicio, use la acción **Capacidades de recursos** en la página **Ficha de producto**.          |
-|     |Componentes del producto de servicio         |Compruebe si los componentes están definidos para el producto de servicio original y transfiera esos datos al nuevo producto. Para ver los componentes del producto de servicio, en la página **Ficha de producto**, use la acción **Producto de servicio** para abrir la lista de productos de servicio relacionados y luego elija al acción **Componentes**.          |
-|Producción     |LM producción         |Compruebe si alguna L.M. de producción contiene el producto original y reemplácela con el nuevo producto. Para reemplazar el producto original, en la página **L.M. de producción**, elija la acción **Cambiar producto en L.M. producción**.         |
-|Ensamblado     |L.M. de ensamblado         |Compruebe si hay alguna L.M. de producción que contenga el producto original y reemplácela manualmente con el nuevo producto.         |
+|Inventario |Unidades de almacenamiento (SKU) |Compruebe si se especifica una SKU para el producto original. Si se han introducido parámetros de planificación para cada tarjeta de SKU, debe crear manualmente el SKU para el nuevo producto. Si no se especifican los parámetros, puede usar el trabajo por lotes **Crear unidad de almacenamiento** en la página **Ficha de producto** para crear los datos.|
+| |Sustituciones de producto |Compruebe si hay sustituciones de productos definidas para el producto original. Si las hay, transfiera esos datos al nuevo producto. Para ver elementos sustitutos, use la acción **Sustituciones** en la página **Ficha de producto**. |
+| |Informes de análisis |Revise los informes Análisis de productos, Análisis de ventas y Análisis de compras. Para aquellos que hacen referencia a los productos originales, puede crear un nuevo informe de análisis con una referencia al nuevo producto (manteniendo el informe de análisis original para usar como historial) o ajustar los informes para que hagan referencia al nuevo producto. |
+| |Diarios estándar |Compruebe si los diarios estándar hacen referencia al producto original y transfiera esos datos al nuevo producto cuando sea necesario. Esta información se encuentra en los diarios estándar, que están disponibles en el diario de productos.  |
+|Ccial |Porcentajes prepago ventas | Compruebe si los porcentajes de prepago de ventas están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de prepago, en la página **Ficha de producto**, elija **Ventas** y después, **Porcentajes de prepago**.|
+|Compra |Porcentajes prepago compra |Compruebe si los porcentajes de prepago de compras están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de prepago, en la página **Ficha de producto**, elija **Compras** y después, **Porcentajes de prepago**. |
+|Almacén |Contenidos ubicación |Revise el contenido de ubicación definido para el producto original. Si se han especificado de forma individual columnas como Cant. mín, Cant. máx., Predeterminado y Dedicado, debe crear manualmente el contenido del contenido de ubicación para el nuevo producto. Si no es así, no se requiere ninguna acción. [!INCLUDE[prod_short](includes/prod_short.md)] mantendrá los registros cuando registre documentos de almacén y diarios.|
+|Proyecto |Precios del proyecto |Compruebe si los precios del proyecto están definidos para el producto original y transfiera esos datos al nuevo producto. Esta información está disponible en la página **Ficha de producto** en a parte **Detalles proyecto - N.º precios** en el panel **Cuadro informativo**. |
+|Servicio |Capacidad de recursos de servicio |Compruebe si las capacidades de recursos de servicio están definidas para el producto original y transfiera esos datos al nuevo producto. Para ver las capacidades de recursos del servicio, use la acción **Capacidades de recursos** en la página **Ficha de producto**.  |
+| |Componentes del producto de servicio |Compruebe si los componentes están definidos para el producto de servicio original y transfiera esos datos al nuevo producto. Para ver los componentes del producto de servicio, en la página **Ficha de producto**, use la acción **Producto de servicio** para abrir la lista de productos de servicio relacionados y luego elija al acción **Componentes**.  |
+|Producción |LM producción |Compruebe si alguna L.M. de producción contiene el producto original y reemplácela con el nuevo producto. Para reemplazar el producto original, en la página **L.M. de producción**, elija la acción **Cambiar producto en L.M. producción**. |
+|Ensamblado |L.M. de ensamblado |Compruebe si hay alguna L.M. de producción que contenga el producto original y reemplácela manualmente con el nuevo producto. |
 
 > [!IMPORTANT]
 > Si el nuevo método de valoración de existencias es Estándar, debe especificar un valor en el campo **Coste estándar** en la página **Ficha de producto**. Puede usar la página **Hoja trab. coste estándar** para establecer los costes compartidos en consecuencia. Para obtener más información, consulte [Actualizar costes estándar](finance-how-to-update-standard-costs.md).
@@ -116,23 +117,23 @@ Al crear pedidos de ensamblado, use la información del diario de inventario fí
 
 |Campo  |Valor a especificar  |
 |---------|---------|
-|Nº producto     |El número del producto nuevo.         |
-|Cantidad     |La cantidad en el diario de inventario físico.<br> **NOTA**: Las cantidades calculadas por los diarios de inventario físico no incluyen las cantidades que se encuentran en pedidos que aún no se han enviado.          |
-|Cód. variante     |Igual que en el diario de inventario físico.          |
-|Código de ubicación     |Igual que en el diario de inventario físico.         |
-|Código de unidad de medida     |Igual que en el diario de inventario físico.         |
-|Cód. ubicación     |Igual que en el diario de inventario físico.         |
+|Nº producto |El número del producto nuevo. |
+|Cantidad |La cantidad en el diario de inventario físico.<br> **NOTA**: Las cantidades calculadas por los diarios de inventario físico no incluyen las cantidades que se encuentran en pedidos que aún no se han enviado.  |
+|Cód. variante |Igual que en el diario de inventario físico.  |
+|Código de ubicación |Igual que en el diario de inventario físico. |
+|Código de unidad de medida |Igual que en el diario de inventario físico. |
+|Cód. ubicación |Igual que en el diario de inventario físico. |
 
 #### <a name="lines"></a>Líneas
 
 |Campo  |Valor a especificar  |
 |---------|---------|
-|Escriba     |Producto         |
-|Nº     |El número del producto original.         |
-|Cantidad por     |1         |
-|Cód. variante     |Igual que en el diario de inventario físico.         |
-|Código de ubicación     |Igual que en el diario de inventario físico.         |
-|Código de unidad de medida     |Igual que en el diario de inventario físico.         |
+|Escriba |Producto |
+|Nº |El número del producto original. |
+|Cantidad por |1 |
+|Cód. variante |Igual que en el diario de inventario físico. |
+|Código de ubicación |Igual que en el diario de inventario físico. |
+|Código de unidad de medida |Igual que en el diario de inventario físico. |
 
 > [!NOTE]
 > Un pedido de ensamblado puede gestionar solo un SKU de un artículo a la vez. Debe crear un pedido de ensamblado para cada combinación de SKU que tenga una cantidad en el inventario.
@@ -153,15 +154,15 @@ La siguiente tabla enumera áreas funcionales donde puede haber cantidades pendi
 
 |Área  |Dónde buscar cantidades pendientes  |
 |---------|---------|
-|Ccial     |Documentos de ventas, incluyendo pedidos, pedidos de devolución, facturas, presupuestos, pedidos abiertos y abonos         |
-|Inventario     |Diarios de productos, reservas, seguimiento de producto y hoja de trabajo de coste estándar         |
-|Compra     |Documentos de compras, incluyendo pedidos, pedidos de devolución, facturas, presupuestos, pedidos abiertos y abonos         |
-|Planificación     |Hoja de demanda, hoja de planificación y planificación de pedidos         |
-|Almacén     |Pedidos de transferencia, envíos de almacén, diarios de almacén y pickings de almacén, ubicaciones y movimientos, ubicación y picking internos y hojas de trabajo de creación de ubicación.         |
-|Ensamblado     |Documentos de ensamblado, incluyendo pedidos, pedidos de devolución y pedidos abiertos         |
-|Proyectos     |Líneas de planificación de proyecto y líneas del diario         |
-|Servicio     |Documentos de servicio y contratos de servicio.         |
-|Producción     |Orden de producción (planificadas, planificadas en firme y lanzadas)         |
+|Ccial |Documentos de ventas, incluyendo pedidos, pedidos de devolución, facturas, presupuestos, pedidos abiertos y abonos |
+|Inventario |Diarios de productos, reservas, seguimiento de producto y hoja de trabajo de coste estándar |
+|Compra |Documentos de compras, incluyendo pedidos, pedidos de devolución, facturas, presupuestos, pedidos abiertos y abonos |
+|Planificación |Hoja de demanda, hoja de planificación y planificación de pedidos |
+|Almacén |Pedidos de transferencia, envíos de almacén, diarios de almacén y pickings de almacén, ubicaciones y movimientos, ubicación y picking internos y hojas de trabajo de creación de ubicación. |
+|Ensamblado |Documentos de ensamblado, incluyendo pedidos, pedidos de devolución y pedidos abiertos |
+|Proyectos |Líneas de planificación de proyecto y líneas del diario |
+|Servicio |Documentos de servicio y contratos de servicio. |
+|Producción |Orden de producción (planificadas, planificadas en firme y lanzadas) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Bloquear el producto original para su uso posterior
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar los valores de campo sugeridos | Documentos de Microsoft
+title: Dejar que Business Central sugiera valores
 description: Para evitar cálculos manuales y completar rápidamente y de forma precisa las tareas, puede configurar la entrada de datos automática de forma que Business Central rellene los campos seleccionados.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 39, 251, 981
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9af79eccbfd180ce7d587a3cb2e420fde0f85a3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c7aaa366a237e2196aaa8a6e376220e5d5794d87
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445332"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100826"
 ---
 # <a name="letting-prod_short-suggest-values"></a>Permitir que [!INCLUDE[prod_short](includes/prod_short.md)] proponga valores
 [!INCLUDE[prod_short](includes/prod_short.md)] puede ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted. Aunque los datos introducidos automáticamente son siempre correctos, puede cambiarlos si lo desea.

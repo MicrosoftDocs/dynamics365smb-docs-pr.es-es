@@ -7,34 +7,19 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 0cacf41f0a055267af5b0ce5a8b68b34d86a1cb5
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7807b97930e257ea0588b2965b1f155aa8aa3b72
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216396"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102582"
 ---
 # <a name="production-reports-and-analytics-in-business-central"></a>Informes y análisis de producción en Business Central
 
 Los informes de producción en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de la producción y los negocios obtener información y estadísticas sobre las actividades de producción actuales y pasadas.  
 
 ## <a name="reports"></a>Informes
-
-La siguiente tabla describe algunos de los informes clave en los informes de producción.
-
-|Informe |Id. de objeto|Descripción  |
-|---------|---------|---------|
-|**Despliegue cantidad en L.M.**|99000753|Muestra una lista de L.M. indentada de el o los productos que ha especificado en los filtros. La L. M. de producción se despliega completamente a todos los niveles.|
-|**Puede hacer producto (tiempo)**|5871|Muestra cómo cinco cifras de disponibilidad clave diferentes se modifican a lo largo del tiempo para un producto de la L.M. Estas cifras cambian según los eventos previstos de suministro y demanda y para el suministro que se basa en los componentes disponibles que se pueden ensamblar o fabricar.<br>Puede utilizar el informe para ver si puede completar una pedido de venta para un producto en una fecha especificada consultando su disponibilidad actual en combinación con las cantidades potenciales que sus componentes pueden suministrar si se ha iniciado un pedido de ensamblado. El informe muestra cuándo y cuántas unidades de un elemento de ensamblado y fabricación puede producir según la disponibilidad de los componentes y la disponibilidad actual del producto. Esto se muestra como la cantidad total.<br>La información se muestra en un gráfico en el que cada cifra de disponibilidad es una línea que progresa a lo largo de la escala de tiempo y se mueve hacia arriba y hacia abajo cuando las cantidades cambian. Las cifras de la cantidad provienen del mismo motor que proporciona la información para la ventana **Disponibilidad prod. por nivel L.M.**. |
-|**Distribución partes costes L.M.**|5872|Muestra gráficamente cómo el coste de un elemento de ensamblado o fabricado se distribuye mediante la L.M.<br>Esta información puede resultar útil para decidir, por ejemplo, si se deben cambiar los proveedores de componentes, sustituir el uso interno de la capacidad por trabajo externo o viceversa, o cuándo revisar y modificar la lista de materiales de un producto.<br>El primer plan del informe muestra el coste unitario total de los componentes y recursos de trabajo del producto principal desglosados en un máximo de cinco partes de coste diferentes, y representadas gráficamente con diferentes colores.<br>El gráfico circular con la leyenda *Por el material o el trabajo* muestra la distribución proporcional entre el material del producto principal y los costes de mano de obra, así como sobre sus propios costes generales de fabricación. La parte de coste material incluye los costes materiales del producto. La parte de coste de mano de obra incluye la capacidad, los costes generales de capacidad y los costes subcontratados. Los costes compartidos se muestran de manera diferente dependiendo de lo que haya elegido en el campo **Mostrar solo**.<br>El gráfico circular con la leyenda *Por directo/indirecto* muestra la distribución proporcional entre los costes directos e indirectos del producto principal. La parte de coste directo incluye los costes de los materiales, la capacidad y la subcontrataciones del producto. La parte del coste indirecto incluye los costes generales de capacidad y de fabricación.<br>La tabla en la parte inferior del informe se incluye cuando se selecciona la casilla de verificación **Incluir detalles**. Muestra los valores seleccionados de la ventana Partes costes L.M. por a un nivel individual o distribuido, dependiendo de las opciones que haya elegido en el campo **Mostrar parte costes como**.|
-|**Cálculo detallado**|99000756|Muestra una lista de costes por producto teniendo en cuenta los rechazos.|
-|**Puntos-de-uso (nivel superior)**|99000757|Muestra dónde y en qué cantidades se utilizan los productos en la estructura de producto.<br>El informe muestra sólo el producto como punto-de-uso, cuando el producto base se utiliza como producto de nivel superior. Por ejemplo, si el producto “A” se utiliza para producir el producto “B”, y el producto “B” para producir el “C”, el informe mostrará el producto B si ejecuta el mismo para el producto A. Si ejecuta el informe para el producto B, el producto C se mostrará como punto-de-uso.<br>También puede abrir directamente desde el producto la página **Línea puntos-de-uso**.|
-|**Lista comparación LM productos**|99000758|Este informe le brinda la posibilidad de comparar productos finales similares con respecto a los costes. Verá una lista con todos los componentes y sus costes, así como las cantidades necesarias. La fecha de cálculo normalmente se establece en la fecha de trabajo. |
-|**Estadísticas orden producción**|99000791|Especifica los diversos costes que se han acumulado para la orden de producción seleccionada.<br>El contenido del informe es muy parecido a la página **Estadísticas orden producción** .<br>Para las órdenes de producción que utilizan la directiva de fabricación de *Fab-contra-pedido*, la ventana muestra solo el coste de material y de capacidad de los productos en el nivel más alto de la L.M.|
-|**Lista de tareas de capacidad**|99000780|Muestra las órdenes de producción que esperan a ser procesadas en los centros de trabajo y en los centros de máquina. El informe se realiza para la capacidad de un centro de trabajo o un centro de máquina. El informe incluye información como hora de inicio y fin, fecha por orden de producción y cantidad de entrada.|
-|**Carga centro trabajo** o **Carga centro máquina**|99000783 o 99000784|Ambos informes muestran una lista de la carga de un centro de trabajo o de máquina. La carga de un centro de trabajo o de máquina es la suma del número requerido de veces que se ejecutan todas las órdenes actuales y planificadas en el centro de trabajo en un periodo determinado.|
-|**Lista carencias ord. prod.**|99000788|Este informe se puede utilizar para ver todos los componentes que no están disponibles debido a la falta de existencias. Por lo tanto, este resumen se puede utilizar para ver a tiempo, si el cronograma para una orden de producción planificada o liberada o el tiempo planificado se pueden mantener.|
-
+[!INCLUDE [production_reports](includes/production-reports-include.md)]
 
 ## <a name="tasks"></a>Tareas
 

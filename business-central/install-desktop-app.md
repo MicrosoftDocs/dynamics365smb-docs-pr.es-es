@@ -8,20 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2021
+ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: babf20be3c22a3d4b7dd710e2486c59bc11351fe
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596652"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8050910"
 ---
 # <a name="get-business-central-desktop-app"></a>Obtener la aplicación de escritorio Business Central
 
-Si tiene un ordenador con Windows (PC) o macOS, puede instalar una aplicación Business Central en su escritorio. 
-> [!NOTE]
-> Si está utilizando el lanzamiento de versiones 1 de Business Central de 2021 o anterior, obtenga la aplicación de la [Tienda de Windows](https://go.microsoft.com/fwlink/?LinkId=734848).
+Si tiene un ordenador con Windows (PC) o macOS, puede instalar una aplicación Business Central en su escritorio. La aplicación funciona con Business Central Online y localmente.
 
 ## <a name="why-use-the-app"></a>¿Por qué usar la aplicación?
 
@@ -30,11 +28,23 @@ La aplicación Business Central se parece al cliente web, pero ofrece algunos be
 - La aplicación está disponible en el menú **Inicio**, puede anclarla fácilmente a la barra de tareas o hacer que se inicie de forma predeterminada cuando inicie su ordenador.
 - En general, la aplicación también es más rápida y fluida de renderizar en pantalla, sin diferencias de rendimiento en comparación con la ejecución [!INCLUDE[prod_short](includes/prod_short.md)] en el navegador.
 - La aplicación se abre en su propia ventana, independientemente de las ventanas del navegador. Esta función hace que sea más fácil de encontrar cuando se ejecuta una gran cantidad de aplicaciones o pestañas del navegador.
-- Si tiene más de un entorno de Business Central (solo en línea), puede instalar la aplicación por separado para cada entorno.
+- Si existe más de un entorno de Business Central (solo en línea), puede instalar la aplicación por separado para cada entorno.
 
      Cuando abre la aplicación para un entorno específico, el nombre del entorno se incluye en el título de la ventana. Cuando se trabaja en varios entornos [!INCLUDE[prod_short](includes/prod_short.md)], cada ventana de la aplicación se muestra por separado. El nombre le facilita ver qué ventana está asociada con cada entorno.
 
-## <a name="install-the-app"></a>Instalar la aplicación
+## <a name="install-the-app-for-business-central-online"></a>Instalar la aplicación para Business Central Online
+
+Hay dos formas de instalar la aplicación para Business Central Online. Puedes instalarla directamente desde el navegador o desde Microsoft Store. Cualquiera que sea el enfoque que utilice, es la misma aplicación. La diferencia es que la instalación desde el navegador le permite instalar la aplicación para cada entorno cuando hay más de uno.
+
+### <a name="from-microsoft-store"></a>Desde Microsoft Store
+
+1. Vaya a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
+2. Escoja **Obtener** > **Instalar**. 
+3. Cuando la aplicación se haya instalado, seleccione **Abrir** y luego inicie sesión en Business Central.
+
+La próxima vez que quiera abrir la aplicación, búsquela en el menú **Inicio**.
+
+### <a name="from-the-browser"></a>Desde el navegador
 
 1. Abra el cliente web [!INCLUDE[prod_short](includes/prod_short.md)] en Microsoft Edge o Google Chrome.
 
@@ -54,16 +64,14 @@ La aplicación Business Central se parece al cliente web, pero ofrece algunos be
 
 Una vez instalada, la aplicación aparece en el menú **Inicio**. Si ha seleccionado un entorno específico para la aplicación, el nombre del entorno se agrega al nombre de la aplicación en el menú **Inicio**.
 
-### <a name="for-business-central-on-premises"></a>Para Business Central local
+## <a name="install-the-app-for-business-central-on-premises"></a>Instalar la aplicación para Business Central de forma local
 
-La instalación de la aplicación cuando utiliza Business Central local es básicamente la misma que se describe anteriormente. Si solo tiene un inquilino, simplemente abra Business Central en su navegador y, después, seleccione ![Icono para instalar una aplicación en Edge.](media/ui-edge-install-app-icon.png) **Aplicación disponible. Instalar Business Central** o ![Icono para instalar una aplicación en Chrome.](media/ui-chrome-install-app-icon.png) **Instalar Business Central** como se muestra arriba. 
+La instalación de la aplicación de escritorio cuando utiliza Business Central local se realiza directamente desde el navegador según se [describió anteriormente](#from-the-browser). Si solo tiene un inquilino, simplemente abra Business Central en su navegador y, después, seleccione ![Icono para instalar una aplicación en Edge.](media/ui-edge-install-app-icon.png) **Aplicación disponible. Instalar Business Central** o ![Icono para instalar una aplicación en Chrome.](media/ui-chrome-install-app-icon.png) **Instalar Business Central** como se muestra arriba.
 
-La diferencia es cuando tiene varios inquilinos. A diferencia de [!INCLUDE[prod_short](includes/prod_short.md)] en línea, donde puede instalar la aplicación por separado para diferentes entornos, en el formato local solo puede instalar la aplicación para un inquilino. Por lo tanto, antes de instalar la aplicación cuando tenga varios inquilinos, asegúrese de cambiar al inquilino correcto. Una vez instalada, cuando abra la aplicación, abrirá directamente el inquilino.
+La diferencia es cuando tiene varios inquilinos. A diferencia de [!INCLUDE[prod_short](includes/prod_short.md)] en línea, donde puede instalar la aplicación por separado para diferentes entornos, solo puede instalar la aplicación para un inquilino. Por lo tanto, antes de instalar la aplicación cuando tenga varios suscriptores, asegúrese de cambiar al suscriptor correcto. Una vez instalada, cuando abra la aplicación, abrirá directamente el inquilino.
 
-<!-- for FAQ or troubleshooting
-> [!NOTE]
-> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
--->
+> [!IMPORTANT]
+> Si está utilizando el primer lanzamiento de versiones de Business Central 2021 (versión 18) o anterior, no puede instalar la aplicación como se describe en este artículo. En su lugar, instale la aplicación desde [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Para obtener más información y ayuda sobre la instalación de esta aplicación heredada, consulte [Preparación e instalación de la aplicación Business Central](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
