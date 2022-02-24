@@ -1,25 +1,25 @@
 ---
-title: Funcionalidad local para España [ES]
+title: Funcionalidad local para España
 description: En los temas siguientes se describe la funcionalidad local de la versión española de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: dac1a81dee881c93554147b0564ff68db9c45e89
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 06/09/2020
+ms.author: sgroespe
+ms.openlocfilehash: 22880489aebdf8aa691f0f94ba131ccd296db5cd
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321742"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454425"
 ---
-# <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local en la versión española
+# <a name="spain-local-functionality"></a>Funcionalidad local para España
 
-En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilidad de la característica  
 
@@ -40,6 +40,7 @@ En los temas siguientes se describe la funcionalidad local que es única para la
     * [Recargos de equivalencia](equivalence-charges-ec-.md) **Disponible ahora**
 
 * Banca y pagos  
+    * [Pagos electrónicos AEB N34.1](electronic-payments-aeb-n34.1.md) **Disponible ahora**
     * [Pagos electrónicos - AEB N34.1](electronic-payments-aeb-n341.md) **Disponible ahora**
     * [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md) **Disponible ahora**
     * [Pagar a los proveedores mediante pagos electrónicos](how-to-pay-vendors-by-using-electronic-payments.md) **Disponible ahora**
@@ -73,10 +74,7 @@ En los temas siguientes se describe la funcionalidad local que es única para la
     * [Establecer límites para fechas de vencimiento](how-to-set-limits-for-due-dates.md) **Disponible ahora**
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

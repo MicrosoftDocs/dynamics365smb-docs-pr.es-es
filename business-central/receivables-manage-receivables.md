@@ -1,29 +1,30 @@
 ---
-title: Resumen de tareas para administrar cobros
-description: Este tema resume las tareas para administrar los cobros y liquidar los pagos en los movimientos de cliente o proveedor.
+title: Resumen de tareas para administrar los cobros | Documentos de Microsoft
+description: Describe tareas para administrar los cobros y liquidar los pagos en los movimientos de cliente o proveedor.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 2c12c55b812c5ee92c32f30457f50851841b97d0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011235"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191912"
 ---
 # <a name="managing-receivables"></a>Administrar cobros
-
 Un paso normal en el ritmo financiero es conciliar las cuentas bancarias, lo que requiere liquidar pagos entrantes en las movimientos de cliente o propiedad para cerrar las facturas de venta y los abonos de compra como pagados.
 
 Si bien la mayoría de los clientes en entornos B2B pagan después de la entrega y dejan las facturas de ventas publicadas abiertas para que el departamento de Cobros las cierre (aplique) cuando se recibe el pago, algunas facturas de ventas se pueden pagar de inmediato, por ejemplo con PayPal. Dichas facturas se liquidan inmediatamente como pagadas cuando se contabilizan y, por lo tanto, no aparecen como pagos en procesos en AR. Para obtener más información, vea, por ejemplo [Facturar ventas](sales-how-invoice-sales.md).  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)], una de las formas más rápidas de registrar pagos es con la página **Diario de conciliación de pagos** mediante la importación de un archivo de extracto bancario o una fuente. Los pagos se liquidan en los movimientos de cliente o proveedor abiertos en función de las coincidencias de datos entre el texto de pago y la información de movimiento. Puede revisar y modificar las coincidencias antes de registrar el diario, y cerrar los movimientos de banco para los movimientos al registrar el diario. La cuenta bancaria se concilia cuando se liquidan todos los pagos.
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], una de las formas más rápidas de registrar pagos es con la página **Diario de conciliación de pagos** mediante la importación de un archivo de extracto bancario o una fuente. Los pagos se liquidan en los movimientos de cliente o proveedor abiertos en función de las coincidencias de datos entre el texto de pago y la información de movimiento. Puede revisar y modificar las coincidencias antes de registrar el diario, y cerrar los movimientos de banco para los movimientos al registrar el diario. La cuenta bancaria se concilia cuando se liquidan todos los pagos.
 
 Existen otras páginas donde puede liquidar pagos o conciliar cuentas bancarias:
 
@@ -31,7 +32,7 @@ Existen otras páginas donde puede liquidar pagos o conciliar cuentas bancarias:
 * La página **Registro de pagos**, donde puede liquidar manualmente los pagos recibidos como efectivo, cheque o transacción bancaria frente a una lista de documentos de ventas sin pagar. Tenga en cuenta que esta funcionalidad solo está disponible para documentos de ventas. Aquí, no puede liquidar pagos salientes, y no puede conciliar cuentas bancarias.
 * La página **Diario de recibos de efectivo**, donde puede registrar manualmente los albaranes en el libro mayor, cliente u otra cuenta pertinente introduciendo una línea de pago. Puede liquidar el albarán o el reembolso a uno o varios movimientos abiertos antes de registrar el diario de cobros o desde movimientos de cliente. Aquí, no puede conciliar cuentas bancarias.
 
-La página **Diario de conciliación de pagos** usa lógica de conciliación automática que puede configurar en la página **Reglas de liquidación de pago**. Para obtener más información, consulte [Configurar reglas para la liquidación automática de pagos](receivables-how-set-up-payment-application-rules.md).  
+Las páginas **Diario de conciliación de pagos** y **Conciliación banco** utilizan lógica de coincidencia automática que puede configurar en la página **Reglas de liquidación de pago**. Para obtener más información, consulte [Configurar reglas para la liquidación automática de pagos](receivables-how-set-up-payment-application-rules.md).
 
 Otros aspectos de la gestión de los cobros incluyen el cobro de los saldos pendientes, incluidos los gastos financieros y los recordatorios, así como la apertura de cuentas bancarias para permitir que los pagos de los clientes se retiren automáticamente de su cuenta.
 
@@ -45,6 +46,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Recordar a los clientes los importes vencidos, calcular intereses y administrar los cobros. |[Cobrar saldos pendientes](receivables-collect-outstanding-balances.md) |
 |Con el consentimiento de sus clientes, los pagos se cobran directamente al banco del cliente, solo en euros.|[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Bloquear a un cliente para que no pueda entrar en documentos o publicaciones, por ejemplo porque es insolvente.|[Bloquear clientes](receivables-how-block-customers.md)|
+|Asegúrese de que conoce el coste de los productos enviados mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra después de la venta.|[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de Predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
 
@@ -53,10 +55,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Administrar pagos](payables-manage-payables.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

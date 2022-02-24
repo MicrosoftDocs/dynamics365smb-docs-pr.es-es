@@ -1,28 +1,27 @@
 ---
-title: Trabajar con ingresos recurrentes
+title: Trabajar con ingresos recurrentes | Documentos de Microsoft
 description: Conozca las opciones disponibles para automatizar el envío de facturas de suscripción a sus clientes y registre ingresos recurrentes.
 author: AndreiPanko
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
-ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 05/27/2020
 ms.author: andreipa
-ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970994"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410792"
 ---
-# <a name="work-with-recurring-revenue-in-prod_short"></a>Trabajar con ingresos recurrentes en [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-d365fin"></a>Trabajar con ingresos recurrentes en [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Muchas empresas están pasando de un modelo de ingresos de negocio en el que los ingresos se obtienen de la compra única de un cliente a un modelo de suscripción en el que los ingresos se realizan de forma periódica a cambio de un acceso constante a la entrega de un bien o servicio.
-[!INCLUDE[prod_short](includes/prod_short.md)] tiene las siguientes opciones para automatizar la manera en que envía las facturas de suscripción a sus clientes y registra ingresos recurrentes. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] tiene las siguientes opciones para automatizar la manera en que envía las facturas de suscripción a sus clientes y registra ingresos recurrentes. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrar ingresos con un diario general periódico
 
@@ -32,7 +31,7 @@ Un diario periódico es un diario general con campos específicos para administr
 
 Con esta opción, se definen períodos de facturación flexibles con [Fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).
 
-Sin embargo, con esta opción, no puede imprimir ni enviar facturas en la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)].  
+Sin embargo, con esta opción, no puede imprimir ni enviar facturas en la versión predeterminada de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Para obtener más información, consulte [Trabajar con diarios periódicos](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -40,7 +39,7 @@ Para obtener más información, consulte [Trabajar con diarios periódicos](ui-w
 
 El diario periódico de proyecto es una alternativa más avanzada al diario general. Define Artículos, Recursos y Cuentas, que deben repetirse para cada trabajo, y especifica la frecuencia de periodicidad.  
 
-Después de registrar un diario periódico de proyecto, puede crear varias facturas con la tarea **Crear factura de venta de proyecto**. Puede revisar y registrar facturas creadas en la página **Facturas de venta**.
+Después de registrar un diario periódico de proyecto, puede crear varias facturas con la tarea **Crear factura de venta de proyecto***. Puede revisar y registrar facturas creadas en la página **Facturas de venta**.
 
 ### <a name="why-use-this-option"></a>Por qué usar esta opción
 
@@ -58,7 +57,7 @@ Si suele necesitar crear líneas de ventas y de compras con información similar
 
 Con esta opción, puede asignar las mismas líneas recurrentes a varios clientes. Puede definir el período de validez de las líneas de venta periódicas para un cliente específico. Puede asignar varias líneas periódicas al mismo cliente y todas se incluirán en la factura.
 
-Sin embargo, no hay forma de establecer precios fijos para los artículos porque [!INCLUDE[prod_short](includes/prod_short.md)] utilizará los precios reales y el descuento válido en la fecha del documento, tratando de encontrar la mejor combinación que ofrezca el precio más bajo.  
+Sin embargo, no hay forma de establecer precios fijos para los artículos porque [!INCLUDE[d365fin](includes/d365fin_md.md)] utilizará los precios reales y el descuento válido en la fecha del documento, tratando de encontrar la mejor combinación que ofrezca el precio más bajo.  
 
 Para obtener más información, vea [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md).
 
@@ -78,7 +77,7 @@ Sin embargo, esta opción requiere la licencia Premium. Es posible que la config
 Para obtener más información, consulte [Trabajar con contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md) y [Facturar varios contratos de servicio](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Características relacionadas
-Hay varias capacidades relacionadas en [!INCLUDE[prod_short](includes/prod_short.md)].
+Hay varias capacidades relacionadas en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ### <a name="blanket-sales-orders"></a>Pedidos abiertos de venta
 
@@ -104,11 +103,11 @@ Con esta opción, puede elegir entre precios fijos y "mejores".
 
 Sin embargo, solo está disponible en Noruega. El período de validez se puede definir en el nivel de grupo periódico.
 
-Para obtener más información, consulte [Pedidos periódicos](LocalFunctionality/Norway/recurring-orders.md).
+Para obtener más información, consulte [Pedidos periódicos (Noruega)](/localfunctionality/norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Ingresos periódicos y facturación de suscripción por otros proveedores
 
-En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener extensiones para Business Central. Algunas de las extensiones las proporciona Microsoft y otras las proporcionan otras empresas. La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) y consiga aplicaciones que le ayudarán en su trabajo en Business Central.  
+En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener extensiones para Business Central. Algunas de las extensiones las proporciona Microsoft y otras las proporcionan otras empresas. La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) y consiga aplicaciones que le ayudarán en su trabajo en Business Central.  
 
 ## <a name="see-also"></a>Consulte también .
 
@@ -121,7 +120,4 @@ En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener ex
 [Facturar varios contratos de servicio](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Previsiones de demanda y pedidos abiertos](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Trabajar con pedidos de venta abiertos](sales-how-to-create-blanket-sales-orders.md)  
-[Pedidos periódicos (Noruega)](LocalFunctionality/Norway/recurring-orders.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Pedidos periódicos (Noruega)](/localfunctionality/norway/recurring-orders.md)  

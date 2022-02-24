@@ -1,29 +1,25 @@
 ---
-title: Cómo crear informes con XBRL
-description: XBRL es un lenguaje basado en XML para etiquetar datos financieros que permite a las empresas procesar y compartir sus datos de manera eficiente y precisa.
+title: Cómo crear informes con XBRL | Documentos de Microsoft
+description: XBRL, siglas en inglés de eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales), es un lenguaje basado en XML para etiquetar datos financieros que permite a las empresas procesar y compartir sus datos de manera eficiente y precisa.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4fd911a708a929a9c73270c05b7729d17d84ec13
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101326"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186145"
 ---
 # <a name="create-reports-with-xbrl"></a>Crear informes con XBRL
-
-> [!NOTE]
-> Estamos en proceso de eliminar las características para informes XBRL de [!INCLUDE[prod_short](includes/prod_short.md)]. Para más información, consulte [Cambios en el lanzamiento de versiones 1 de 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
-
 XBRL, siglas en inglés de eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales), es un lenguaje basado en XML para etiquetar datos financieros que permite a las empresas procesar y compartir sus datos de manera eficiente y precisa. La iniciativa XBRL permite los informes financieros mundiales a numerosas empresas de software ERP y organizaciones internacionales de contabilidad. El objetivo de la iniciativa es proporcionar una norma para informes uniformes sobre información financiera para bancos, inversores y autoridades. Estos informes comerciales pueden incluir:  
 
  • Resultados financieros  
@@ -31,33 +27,28 @@ XBRL, siglas en inglés de eXtensible Business Reporting Language (Lenguaje ampl
  • Información no financiera  
  • Declaraciones obligatorias, como resultados financieros anuales y trimestrales  
 
-> [!NOTE]
-> Puede importar esquemas relacionados con P/G y crear documentos de instancia XBRL asignando datos de P/G del plan de cuentas a elementos de taxonomías que fueron diseñados para informes financieros, como balances, balances de ingresos, etc.
-> 
-> Las capacidades de XBRL en Business Central admiten taxonomías para la especificación 2.1; sin embargo, las taxonomías pueden contener elementos no admitidos como bases de enlaces de fórmulas, iXBRL o tener otras diferencias estructurales. Le recomendamos que valide la capacidad XBRL antes de usarla para generar informes.
-> 
-> El soporte completo para taxonomías puede requerir etiquetado y herramientas XBRL de terceros. La organización internacional XBRL tiene una lista de herramientas y servicios que puede utilizar para los informes XBRL. Dependiendo de los requisitos de informes XBRL para una taxonomía determinada, es posible que desee explorar esos recursos. Para más información, consulte [Primeros pasos para empresas](https://go.microsoft.com/fwlink/?linkid=2153466) y [Herramientas y servicios](https://go.microsoft.com/fwlink/?linkid=2153356).
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] permite a las empresas implementar datos en XBRL y aprovechar la flexibilidad y automatización que proporciona tanto para recopilar como para compartir datos.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales)
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage, Lenguaje ampliado para informes comerciales) es un lenguaje basado en XML para información financiera. XBRL proporciona un estándar de información uniforme para todos los usuarios de la cadena de suministro de información financiera; como empresas públicas y privadas, profesionales contables, auditores, analistas, inversores, mercados de capital y entidades de crédito, y otros como desarrolladores de software e intermediarios de datos.  
 
 El sitio Web www.xbrl.org mantiene las taxonomías. Para obtener más información o descargar taxonomías visite el sitio Web de XBRL.  
 
-Si alguien desea su información financiera, le proporcionará una taxonomía (un documento XML) que contiene uno o varios esquemas, cada uno con una o varias líneas. Las líneas corresponden a operaciones financieras individuales que requiere el remitente. Importe esta taxonomía y rellene los esquemas introduciendo las cuentas que corresponden a cada línea y el tipo de periodo que usar, por ejemplo, el saldo del periodo o el saldo a la fecha. En algunos casos puede introducir una constante, por ejemplo, el número de empleados. Ahora ya puede enviar el documento de instancia (un documento XML) al solicitante. La idea es que esto puede ser un evento periódico, por lo que si no ha hecho cambios en la taxonomía, sólo tiene que exportar los nuevos documentos de instancia para los nuevos periodos cuando se lo soliciten.  
+Si alguien desea su información financiera, le proporcionará una taxonomía (un documento XML) que contiene uno o varios esquemas, cada uno con una o varias líneas. Las líneas corresponden a operaciones financieras individuales que requiere el remitente. Importe esta taxonomía en la aplicación y rellene los esquemas introduciendo las cuentas que corresponden a cada línea, el tipo de periodo, por ejemplo, el saldo del periodo o el saldo a la fecha. En algunos casos puede introducir una constante, por ejemplo, el número de empleados. Ahora ya puede enviar el documento de instancia (un documento XML) a quien le ha solicitado la información. La idea es que esto puede ser un evento periódico, por lo que si no ha hecho cambios en la taxonomía, sólo tiene que exportar los nuevos documentos de instancia para los nuevos periodos cuando se lo soliciten.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL consta de los siguientes componentes:  
-La **especificación** XBRL explica lo que es XBRL y cómo generar documentos de instancia XBRL y taxonomías XBRL. La especificación XBRL explica XBRL en términos técnicos y está pensada para un público técnico.  
+La **especificación** XBRL explica lo que es XBRL, cómo generar documentos de instancia XBRL y taxonomías XBRL. La especificación XBRL explica XBRL en términos técnicos y está pensada para un público técnico.  
 
 El **esquema** XBRL son los componentes del núcleo de nivel inferior de XBRL. El esquema es el archivo XSD físico que expresa cómo se generan los documentos de instancia y las taxonomías.  
 
-Las **bases de enlaces** XBRL son los archivos XML físicos que contienen diversa información sobre los elementos definidos en el esquema XBRL, como las etiquetas en uno o varios idiomas, cómo se relacionan entre sí, cómo resumen elementos, etc.  
+Las **bases de enlaces** XBRL son los archivos XML físicos que contiene diversa información sobre los elementos definidos en el esquema XBRL, como las etiquetas en uno o varios idiomas, cómo se relacionan entre sí, cómo resumen elementos, etc...  
 
 Una **taxonomía** XBRL es un "vocabulario" o "diccionario" creado por un grupo, compatible con la especificación XBRL, para intercambiar información de negocios.  
 
 Un **documento de instancia** XBRL es un informe de negocios, como un extracto financiero preparado para la especificación XBRL. La taxonomía explica el significado de los valores del documento de instancia. Un documento de instancia es inútil a menos que conozca la taxonomía para la que está preparada.  
 
 ## <a name="layered-taxonomies"></a>Taxonomías por niveles  
-Una taxonomía puede componerse de una taxonomía base, por ejemplo, us-gaap o IAS y, a continuación, tener una o varias extensiones. Para reflejar esto, una taxonomía hace referencia a uno o varios esquemas, cada uno de los cuales son taxonomías separadas. Cuando se cargan las taxonomías adicionales en la base de datos, los elementos nuevos simplemente se agregan al final de los elementos existentes.  
+Una taxonomía puede componerse de una taxonomía base, por ejemplo, us-gaap o IAS y, a continuación, tener una o varias extensiones. Para reflejar esto, una taxonomía hace referencia a uno o varios esquemas que son taxonomías separadas. Cuando se cargan las taxonomías adicionales en la base de datos, los elementos nuevos simplemente se agregan al final de los elementos existentes.  
 
 ## <a name="linkbases"></a>Base de enlaces  
  En XBRL (especif. 2), la taxonomía se describe en varios archivos XML. El archivo XML principal es el propio archivo de esquema de la taxonomía (archivo .xsd) que sólo contiene una lista desordenada de elementos u operaciones que se van a comunicar. Además, normalmente hay algunos archivos de base de enlaces (.xml) asociados. Los archivos de base de enlaces contienen datos que complementan la taxonomía básica (archivo .xsd). Existen seis tipos de archivos de base de enlaces de los cuales cuatro afectan a Nombre producto XBRL. Son:  
@@ -75,7 +66,7 @@ Después de importar o actualizar la taxonomía, las líneas de los esquema debe
 
 Configure las líneas XBRL asignando los datos de la texto a sus datos contables.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Taxonomías de XBRL** y luego elija el enlace relacionado.  
 2.  En la página **Taxonomías XBRL**, seleccione una taxonomía de la lista.  
 3.  Seleccione la acción **Líneas**.  
 4.  Seleccione una línea y rellene los campos.   
@@ -83,19 +74,16 @@ Configure las líneas XBRL asignando los datos de la texto a sus datos contables
 6.  Para configurar la asignación de las cuentas contables del plan de cuentas a las líneas XBRL, elija la acción **Lín. contabilidad asignadas**.  
 7.  Para agregar notas a los extractos financieros, elija la acción **Notas**.  
 
-   > [!TIP]
-   > Para excluir líneas de la exportación, elija **NO APLICA** como tipo de fuente.
+> [!NOTE]  
+>  Sólo puede exportar datos que coincidan con el tipo de datos que ha seleccionado en el campo **Tipo procedencia mov.**, incluidas la descripción y las notas.  
 
-   > [!NOTE]  
-   > Solo puede exportar datos que correspondan a la selección en el campo **tipo de fuente**. Esto incluye descripciones y notas.  
-
-   > [!NOTE]  
-   > Las taxonomías pueden contener elementos que [!INCLUDE[prod_short](includes/prod_short.md)] no soporta. Si un elemento no es compatible, el campo **Tipo de fuente** mostrará **No aplica** y el campo **Descripción** mostrará un mensaje de error, como **Tipo inesperado: "tipo específico no reconocido"**. Si debe exportar el elemento, elija un tipo de fuente coincidente. Normalmente, se trata de una constante o una descripción. Esto le permitirá ingresar y exportar datos; sin embargo, dichos elementos pueden tener reglas de validación que no se pueden verificar antes de exportar.
+> [!NOTE]  
+>  Las líneas sin importancia pueden marcarse como tipo de línea **NO APLICABLE** para que las líneas no se exporten.
 
  ## <a name="to-import-an-xbrl-taxonomy"></a>Para importar taxonomías XBRL  
 El primer paso para trabajar con la funcionalidad XBRL es importar la taxonomía en la base de datos de la empresa. Una taxonomía se compone de uno o varios esquemas y algunas bases de enlaces. Una vez haya completado la importación de los esquemas y las bases de enlaces y haya aplicado las bases de enlaces linkbases a los esquemas, puede configurar las líneas y asignar las cuentas contables del pan de cuentas a las líneas apropiadas de la taxonomía.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Taxonomías de XBRL** y luego elija el enlace relacionado.  
 2.  En la página **Taxonomías XBRL**, cree una línea nueva y escriba el nombre y la descripción de la taxonomía.  
 3.  Elija la acción **Esquemas** y, a continuación, inserte la descripción del esquema.  
 4.  Para importar el esquema, en la página **Esquemas XBRL**, elija la acción **Importar** y seleccione una carpeta y un archivo XSD. Elija el botón **Abrir**.  
@@ -109,7 +97,7 @@ El primer paso para trabajar con la funcionalidad XBRL es importar la taxonomía
 ## <a name="to-update-an-xbrl-taxonomy"></a>Para actualizar una taxonomía XBRL  
 Cuando una taxonomía cambie, también tiene que actualizar la taxonomía actual. La razón para la actualización puede ser un cambio en el esquema, un cambio en la base de enlaces o una nueva base de enlaces. Después de actualizar la taxonomía, sólo tiene que asignar las líneas de las líneas nuevas o modificadas.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Taxonomías de XBRL** y luego elija el enlace relacionado.  
 2.  En la página **Taxonomías XBRL**, seleccione la acción **Esquemas**.  
 3.  Para actualizar un esquema, seleccione el esquema que desea actualizar y elija la acción **Importar**.  
 4.  Para actualizar o agregar una base de enlaces nueva, elija la acción **Bases de enlaces**.  
@@ -122,7 +110,4 @@ Cuando una taxonomía cambie, también tiene que actualizar la taxonomía actual
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)    
 [Inteligencia empresarial](bi.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -3,19 +3,19 @@ title: 'Procedimientos recomendados de configuración: políticas de reaprovisio
 description: El campo Directiva reaprov. en las fichas de producto ofrece cuatro métodos de planificación distintos que determinan la forma en que interactúan los parámetros individuales de planificación.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7a6a7193d02d8d42987da7f7eeb9f5ed1ec3e2fd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441452"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192200"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Procedimientos recomendados de configuración: políticas de reaprovisionamiento
 El campo **Directiva reaprov.** en las fichas de producto ofrece cuatro métodos de planificación distintos que determinan la forma en que interactúan los parámetros individuales de planificación.  
@@ -28,9 +28,9 @@ Un procedimiento recomendado básico para seleccionar una política de reaprovis
 |B|nº 20|nº 20|
 |C|60-70|10-30|
 
-La clasificación ABC indica que se puede ahorrar esfuerzo y dinero aplicando un control más ligero a los artículos de bajo valor-volumen bajo que a los artículos de alto valor-volumen. Las ilustración siguiente muestra qué directiva de reaprovisionamiento en [!INCLUDE[prod_short](includes/prod_short.md)] es más adecuada para los artículos A, B, y C respectivamente.
+La clasificación ABC indica que se puede ahorrar esfuerzo y dinero aplicando un control más ligero a los artículos de bajo valor-volumen bajo que a los artículos de alto valor-volumen. Las ilustración siguiente muestra qué directiva de reaprovisionamiento en [!INCLUDE[d365fin](includes/d365fin_md.md)] es más adecuada para los artículos A, B, y C respectivamente.
 
-![Clasificación ABC.](media/abc_classification.png "abc_classification")
+![Clasificación ABC](media/abc_classification.png "abc_classification")
 
 La tabla siguiente proporciona los procedimientos recomendados para seleccionar entre las cuatro políticas.  
 
@@ -45,7 +45,4 @@ La tabla siguiente proporciona los procedimientos recomendados para seleccionar 
  [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)   
  [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -3,19 +3,19 @@ title: Cómo calcular la reposición de ubicaciones | Documentos de Microsoft
 description: Cuando la ubicación se configure para utilizar ubicación y picking directos, se tendrán en cuenta las prioridades de la plantilla de ubicación para esa ubicación al situar las recepciones.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d4987502db2d278dfe7757cd9e5a71cd516c1ca5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7e8c5298fe098659aeab81eb3da64456c6d2a8ef
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443337"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193232"
 ---
 # <a name="calculate-bin-replenishment"></a>Calcular reposición ubicación
 Cuando la ubicación se configure para utilizar ubicación y picking directos, se tendrán en cuenta las prioridades de la plantilla de ubicación para esa ubicación al situar las recepciones. Las prioridades incluyen las cantidades mínimas y máximas de contenido de la ubicación que se han establecido para una ubicación determinada, y los ranking de ubicación. Por tanto, si llegan productos a un ritmo estable, se rellenarán las ubicaciones de picking más utilizadas en cuanto se vacíen.  
@@ -27,7 +27,7 @@ También es posible que el almacén espere pronto la llegada de nuevas existenci
 Finalmente, si ha definido sus ubicaciones de almacenamiento masivo con un tipo de ubicación sólo con la acción **Ubicar**, es decir, que el tipo de ubicación no tiene activada la acción **Picking**, siempre debe mantener las ubicaciones de picking llenas, ya que no se sugerirá un picking de existencias desde ubicaciones de tipo Ubicación.  
 
 ## <a name="to-replenish-pick-bins"></a>Para reponer ubicaciones de picking  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo mov.** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
 2.  Elija la acción **Calcular reposición ubicación** para abrir la página de solicitud de informes.  
 3.  Rellene la página del proceso para limitar el alcance de las sugerencias de reposición que se calcularán. Por ejemplo, puede que esté preocupado por determinadas zonas, ubicaciones o productos.  
 4.  Elija el botón **Aceptar**. Se crearán líneas para los movimientos de reposición que es necesario realizar según las reglas que se han configurado para las ubicaciones y contenido de ubicaciones, es decir, productos en ubicaciones.  
@@ -52,7 +52,4 @@ La próxima vez que calcule la reposición de la ubicación, se volverán a crea
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

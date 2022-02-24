@@ -1,27 +1,29 @@
 ---
-title: Registrar capacidades
-description: Registra las capacidades consumidas que no están asignadas a la orden de producción en el diario de capacidad y visualiza las capacidades registradas en la página de asientos del libro mayor de capacidad.
+title: Cómo registrar capacidades | Documentos de Microsoft
+description: En el diario de capacidad, registra las capacidades consumidas que no se asignan a la orden de producción. Por ejemplo, el trabajo de mantenimiento se debe asignar a la capacidad, pero no a una orden de producción.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5832, 99000802, 99000820
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 92e4a3cb7243a8e6e11e9744a2b308b7b1bcd4a0
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: d580fe2513e245b7105342c3d795ae122c151317
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972309"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313281"
 ---
 # <a name="post-capacities"></a>Registrar capacidades
 En el diario de capacidad, registra las capacidades consumidas que no se asignan a la orden de producción. Por ejemplo, el trabajo de mantenimiento se debe asignar a la capacidad, pero no a una orden de producción.  
 
 ## <a name="to-post-capacities"></a>Para registrar capacidades  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de capacidad**, y luego elija el enlace relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de capacidad** y luego elija el enlace relacionado.  
 2.  Rellene los campos **Fecha registro** y **Nº documento**.  
 3.  En el campo **Tipo**, introduzca el tipo de capacidad, ya sea **Centro máquina** o **Centro trabajo**, que esté registrando.  
 4.  En el campo **N.º**, introduzca el número del centro de trabajo o del centro de máquina.  
@@ -30,7 +32,7 @@ En el diario de capacidad, registra las capacidades consumidas que no se asignan
 
 ## <a name="to-view-work-center-ledger-entries"></a>Para consultar los movimientos de centros de trabajo  
 En las páginas **Ficha de centro de trabajo** y **Ficha de centro de máquina**, puede ver las capacidades registradas como resultado de órdenes de producción terminadas.    
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Centros de trabajo** y luego elija el enlace relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Centros trabajo** y luego elija el enlace relacionado.  
 2.  Abra la ficha relevante **Centro trabajo** de lista, y seleccione la acción **Movimientos de capacidad**.  
 
 La página **Movs. capacidad** muestra los movimientos registrados desde el centro de trabajo en la orden en que fueron registrados.   
@@ -39,9 +41,6 @@ La página **Movs. capacidad** muestra los movimientos registrados desde el cent
 [Fabricación](production-manage-manufacturing.md)    
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)      
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

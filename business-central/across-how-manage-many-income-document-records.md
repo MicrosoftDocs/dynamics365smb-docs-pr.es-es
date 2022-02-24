@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 69c807a9c99b105782240c43d096a73ff01e2664
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: c245690690a02bb4d7fccb6c07737b71c96f14d5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775977"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188521"
 ---
 # <a name="manage-many-incoming-document-records"></a>Gestionar varios registros de documento entrantes
 A medida que crea o procesa registros de documento entrantes, el número de líneas en la página **Documentos entrantes** puede aumentar hasta el punto de perder la visión general. Por lo tanto, puede establecer los registros de documento entrantes a Procesado para eliminarlos de la vista por defecto. Cuando selecciona la acción **Mostrar todos**, puede ver tanto los registros procesados como los que están sin procesar.
@@ -56,7 +56,4 @@ Se muestran todos los registros de documento entrantes, incluyendo aquellos que 
 [Procesar documentos entrantes](across-process-income-documents.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

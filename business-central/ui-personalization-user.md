@@ -1,21 +1,21 @@
 ---
-title: Personalizar páginas (contiene vídeo)
-description: Aprenda a personalizar la interfaz de usuario y personalizar el área de trabajo para que se adapte a su forma de trabajar y preferencias personales en Business Central.
+title: Personalización de páginas | Documentos de Microsoft
+description: Aprenda a personalizar la interfaz de usuario para que se adapte a su forma de trabajar en Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: cd25d18787f8f28b01974e59580f7e83425e54bf
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940281"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262195"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
 Puede personalizar su área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
@@ -28,11 +28,6 @@ Dependiendo del tipo de página y qué incluye, puede realizar varios cambios, c
 > Los administradores pueden realizar los mismos cambios de diseño que los usuarios al personalizar el espacio de trabajo para un perfil que se asigna a múltiples usuarios. Para obtener más información, consulte [Personalizar las páginas para los roles](ui-personalization-manage.md).<br /><br />
 Los administradores también pueden anular o deshabilitar la personalización de los usuarios y pueden definir qué características están incluso disponibles para que los usuarios las vean en todas las empresas o en empresas específicas. Para obtener más información, consulte [Personalizar Business Central](ui-customizing-overview.md).
 
-## <a name="video-overview"></a>Resumen en vídeo
-El siguiente video muestra algunas de las formas en que puede personalizar su área de trabajo.
-
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
-
 ## <a name="to-change-the-width-of-a-column"></a>Para cambiar el ancho de una columna
 Puede cambiar fácilmente el tamaño de las columnas en cualquier lista arrastrando el límite entre dos columnas hacia la izquierda o hacia la derecha.
 1. En la cabecera de una lista, seleccione y arrastre el límite entre dos columnas.
@@ -42,7 +37,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Para empezar a personalizar una página a través del banner **Personalización**
 1. Abra cualquier página que quiera personalizar.
-2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") , y luego elija la acción **Personalizar**.
+2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija la acción **Personalizar**.
 
     El banner **Personalización** aparece en la parte superior para indicar que puede empezar a realizar cambios.
 
@@ -65,7 +60,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 |Ocultar algo, un campo, una columna de la lista, un icono, una acción o una pieza.|Elija la punta de flecha y elija <b>Ocultar</b>.|El elemento aparece en gris cuando está en modo de personalización. Si el campo que oculta también se muestra en el encabezado de la ficha desplegable cuando está contraída, el campo ya no aparecerá allí.|
 |Mostrar acciones y partes ocultas.|Para un elemento atenuado (oculto), elija la punta de flecha y luego elija <b>Mostrar</b>.|El elemento oculto vuelve a estar visible.|
 |Agregar un campo o columna.|En el banner <b>Personalización</b>, elija la acción <b>+ Campo</b>.<br /></br>El panel <b>Agregar campo a página</b> se abre a la derecha. Muestra los campos que se pueden agregar a la página.<br /><br />Para agregar un campo, arrástrelo de panel a la posición que desee. La posición se indica con una fina línea vertical u horizontal.|Cada página incluye un conjunto predefinido de campos que puede mostrar. Siga este procedimiento para agregar campos o columnas que no se han mostrado anteriormente o para mostrar los campos que ha ocultado.|
-|Muestre un campo de la cabecera de una ficha desplegable cuando está contraída.|Elija la punta de flecha y, a continuación, seleccione <b>Mostrar cuando se contrae</b>. <br /> <br />Si no hace ve esta opción, significa que ya está establecida. En este caso, para dejar de mostrar el campo del encabezado de la ficha desplegable, elija <b>Mostrar siempre</b>.|*Ficha desplegable* es el término que se utiliza para un grupo de campos que aparecerán bajo un encabezado común. Utilice la opción <b>Mostrar cuando se contrae</b> para mostrar los campos más importantes. Si selecciona un campo del encabezado, se abrirá la ficha desplegable y con el enfoque en el campo seleccionado.<br /><br />Esta opción solo es aplicable si una página tiene una más de una ficha desplegable. Si hay solo una ficha desplegable, no se puede contraer, por lo que la opción <b>Mostrar cuando se contrae</b> no está disponible.|
+|Mostrar un campo de la cabecera de una ficha desplegable cuando está contraída.|Elija la punta de flecha y, a continuación, seleccione <b>Mostrar cuando se contrae</b>. <br /> <br />Si no hace ve esta opción, significa que ya está establecida. En este caso, para dejar de mostrar el campo del encabezado de la ficha desplegable, elija <b>Mostrar siempre</b>.|*Ficha desplegable* es el término que se utiliza para un grupo de campos que aparecerán bajo un encabezado común. Utilice la opción <b>Mostrar cuando se contrae</b> para mostrar los campos más importantes. Si selecciona un campo del encabezado, se abrirá la ficha desplegable y con el enfoque en el campo seleccionado.<br /><br />Esta opción solo es aplicable si una página tiene una más de una ficha desplegable. Si hay solo una ficha desplegable, no se puede contraer, por lo que la opción <b>Mostrar cuando se contrae</b> no está disponible.|
 |Hacer que un campo se muestre solo cuando seleccione **Mostrar más**.|Elija la punta de flecha y, a continuación, seleccione <b>Mostrar en "Mostrar más"</b>. <br /> <br />Si no ve la opción <b>Mostrar en "Mostrar más"</b>, significa que ya está establecida. En este caso, para que un campo se muestre siempre, no solo al seleccionar **Mostrar más**, elija <b>Mostrar siempre</b>.||
 |Cambiar la inmovilización de panel de una lista a otra columna. |Elija la punta de la flecha de la columna que desee establecer como la última de la inmovilización de panel y, a continuación, elija <b>Establecer inmovilización de panel</b>.<br /><br/>Si desea volver a configurar la inmovilización de panel en su posición original diseñada, elija la punta de flecha para la columna actual y elija <b>Borrar inmovilización de panel</b>. Nota: No puede eliminar la inmovilización de panel.|La inmovilización de panel especifica las columnas que siempre aparecen a la izquierda, incluso durante el desplazamiento horizontal.|  
 |Saltar un campo al presionar Entrar.|Elija la punta de flecha junto al campo, o la cabecera de columna en una lista y seleccione **Excluir de entrada rápida**. <br /><br /> Si no ve esta opción, significa que el campo ya está establecido para saltarlo. En este caso, para dejar de omitir el campo, elija **Incluir en entrada rápida**. |Consulte [Acelerar la entrada de datos con la entrada rápida](ui-enter-data.md#QuickEntry)|
@@ -143,9 +138,6 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

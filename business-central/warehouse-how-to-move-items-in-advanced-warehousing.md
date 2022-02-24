@@ -1,21 +1,21 @@
 ---
-title: Mover productos en configuración avanzada de almacén
-description: Este tema explica cómo un empleado senior puede organizar artículos en movimiento en configuraciones de almacén avanzadas, aplicable a ubicaciones con ubicaciones y picking dirigidas.
+title: Cómo mover productos en configuraciones avanzadas de almacén | Microsoft Docs
+description: En configuraciones de almacén avanzadas, es decir, en ubicaciones con ubicación y picking directos, los movimientos de almacén entre ubicaciones los realiza un empleado con experiencia que los prepara en la hoja de trabajo de movimientos y, a continuación, crea dichos movimientos para que los realicen los empleados de almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: cba0ff7da725d4113ed17f9121caabd2e6b54ce5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 0aab4a7ffd693ca8edaa3765228715b5496f0b2f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439290"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193064"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Mover productos en configuraciones avanzadas de almacén
 En configuraciones de almacén avanzadas, es decir, en ubicaciones con ubicación y picking directos, los movimientos de almacén entre ubicaciones los realiza un empleado con experiencia que los prepara en la hoja de trabajo de movimientos y, a continuación, crea dichos movimientos para que los realicen los empleados de almacén.  
@@ -23,12 +23,12 @@ En configuraciones de almacén avanzadas, es decir, en ubicaciones con ubicació
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Para mover los artículos con la hoja de cálculo del movimiento de almacén
 En la página **Hoja trabajo movimiento** existen dos funciones que pueden ayudarle a rellenar las líneas automáticamente. La primera es la función **Calcular reposición ubicación**. Esta función utiliza los rankings de ubicación para sugerir el reabastecimiento para ubicaciones de alto ranking desde ubicaciones de bajo ranking. El segundo es la función **Traer conten. ubicac.**, que rellena las líneas de la hoja de cálculo con los contenidos enteros de las ubicaciones que especifique.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo mov.** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
 2.  Especifique la información de movimientos de almacén en las líneas de la hoja de trabajo como crea conveniente.  
 3. Elija la acción **Crear movimiento** para crear un documento de movimiento de almacén que, más tarde, se puede registrar cuando se complete el movimiento.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Para registrar el movimiento de almacén  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movimientos** y luego elija el enlace relacionado.  
 2.  Abra el movimiento de almacén que desee procesar.  
 3.  En las líneas de acción tipo **Plaza**, especifique dónde, qué y cuándo mover el artículo en cuestión modificando los campos **Cód. zona**, **Cód. ubicación**, **Cdad. a manipular** o **Fecha vencimiento**.  
 
@@ -43,7 +43,7 @@ En la página **Hoja trabajo movimiento** existen dos funciones que pueden ayuda
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Para registrar el movimiento de producto que ya se ha producido  
 Si utiliza ubicación y picking directos y necesita mover productos a otros ubicaciones sin un movimiento, picking o ubicación de almacén existente, puede registrar la colocación correcta de los productos en el almacén con el **Diario reclasificación almacén**.
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario reclasificación almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario reclasificación almacén** y luego elija el enlace relacionado.  
 2.  Rellene los campos **Nº producto**, **Desde cód. zona**, **Desde cód. ubicación**, **Hasta cód. zona**, **Hasta cód. ubicación**.  
 3.  Elija la acción **Registrar**.  
 
@@ -53,7 +53,4 @@ Si utiliza ubicación y picking directos y necesita mover productos a otros ubic
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

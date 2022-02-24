@@ -1,22 +1,21 @@
 ---
-title: Supervisar el progreso y el rendimiento del trabajo
+title: Definir un método WIP y supervisar el progreso del proyecto | Documentos de Microsoft
 description: Describe cómo puede crear un método de trabajo en curso (WIP) y calcular el WIP para estimar el valor financiero de los trabajos mientras están en progreso.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.search.form: 89, 92, 1010
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 7c816ea6d4fa8f1653000f94e15b74f9b78db8c6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 368461d6d29f77586e2ee047f571ef4fae583b14
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971815"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192824"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Supervisar el progreso y el rendimiento del trabajo
 A medida que progresa un proyecto, se van consumiendo materiales, recursos y otros gastos, que se deben registrar en el proyecto. Trabajo en curso (WIP) es una función que permite estimar el valor financiero de los proyectos en la contabilidad mientras progresa el proyecto. En muchos casos, puede registrar gastos para un proyecto antes de facturarlo. Si solamente se registran gastos, el resultado financiero no será exacto. Para obtener más información, consulte [Comprensión de los métodos WIP](projects-understanding-wip.md).
@@ -39,23 +38,23 @@ Puede crear un método de proyecto WIP que refleje las necesidades de su organiz
 > [!NOTE]
 > Tras haber usado el nuevo método para crear los movimientos del WIP, no puede eliminar el método ni modificarlo.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Métodos WIP de proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Métodos WIP de proyecto** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Cierre la página.   
-4. Para convertir en predeterminado este nuevo método, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de proyectos** y luego elija el enlace relacionado.  
+4. Para convertir este nuevo método en el predeterminado, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de proyectos** y luego elija el enlace relacionado.  
 5. En el campo **Método WIP predet.**, seleccione el método de la lista.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Para definir un método de WIP para un proyecto
 Al crear un proyecto nuevo, debe especificar el método WIP que se aplica. En algunos casos, el método de WIP de proyecto que puede utilizar se ha configurado como valor predeterminado.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**. Para obtener más información, vea [Crear proyectos](projects-how-create-jobs.md).  
 3. En la página **Ficha de proyecto**, en el campo **Método WIP**, seleccione un método WIP de la lista. Si se ha definido un método predeterminado, puede seleccionar otra opción si es necesario.  
 
 ## <a name="to-calculate-wip"></a>Para calcular WIP
 Puede determinar el importe WIP que se debe registrar en cuentas de balance para informes del final de periodo. Para hacerlo, debe usar el proceso **Calcular WIP proyecto**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Calcular WIP proyecto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Calcular WIP proyecto** y luego elija el enlace relacionado.  
 2. Elija la acción **Calcular WIP**.
 3. En la página **Calcular WIP proyecto**, rellene los campos según sea necesario.
 4. Elija el botón **Aceptar**.  
@@ -66,30 +65,28 @@ Puede determinar el importe WIP que se debe registrar en cuentas de balance para
 ## <a name="to-post-wip"></a>Para registrar WIP
 Cuando ha calculado WIP, puede registrarlo en las cuentas de balance de los informes de fin de periodo. Para ello, debe usar el proceso **Registrar WIP en C/G proyecto**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registrar WIP en C/G proyecto**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Registrar WIP en C/G proyecto** y luego elija el enlace relacionado.  
 2. En la página **Registrar WIP en C/G proyecto**, rellene los campos según sea necesario.  
 3. Elija el botón **Aceptar**.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Para calcular y registrar los movimientos de finalización de proyecto
-Cuando haya terminado todas las actividades de un proyecto, incluidos los registros de consumo y la facturación, tiene que actualizarlo para que su **Estado** sea **Completado**. Después, debe revertir cualquier WIP que haya registrado en contabilidad.
+## <a name="to-view-job-usage-estimates-and-post-updates"></a>Para ver el uso estimado del proyecto y registrar las actualizaciones
+Puede ver el consumo del proyecto hasta que se termine en un paso. Para ello, utilice el proceso **Cálc. uso restante proyecto** para todas las tareas hasta la terminación del proyecto.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
-2. Seleccione un proyecto pendiente y, a continuación, elija la acción **Editar**.
-3. En el campo **Estado**, seleccione **Completado**.
-4. Siga los pasos de la ayuda para calcular y registrar WIP. También puede seguir los pasos 5 y 6 para hacerlo manualmente.  
-5. Elija la acción **Calcular WIP**.
-6. En la página **Calcular WIP proyecto**, rellene los campos según sea necesario.  
+Esto le permite supervisar y comparar los cálculos originales con los resultados reales, y realizar modificaciones o movimientos nuevos según sea necesario. Por ejemplo, puede haber estimado que un proyecto exigía 10 horas y, hasta el momento, ha llevado 15 horas. Puede agregar las cinco horas adicionales a la línea del diario existente o crear una línea de diario nueva que presente estas cinco horas como horas extra, que es otro tipo de trabajo. Se calcula el coste y el precio apropiado, y se puede registrar en el diario.  
 
-     Los movimientos de trabajo en curso del proyecto creados al ejecutar el proceso tendrán marcada la casilla **Proyecto completado** para indicar que se trata de movimientos de finalización.  
-7. Elija la acción **Registrar WIP en C/G proyecto**.
-8. En la página **Registrar WIP en C/G proyecto**, rellene los campos según sea necesario.  
+> [!NOTE]  
+>   Los movimientos de producto crean movimientos contables y reducen la cantidad de inventario. El proceso **Regis. variación existencias** transfiere el coste del inventario a la contabilidad. Los movimientos de recursos crean movimientos correspondientes.  
 
-     Los movimientos de contabilidad del trabajo en curso del proyecto creados al ejecutar el trabajo por lotes tendrán marcada la casilla de verificación **Proyecto completado** para indicar que se trata de movimientos de finalización.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Cálc. uso restante**.  
+3. En la página **Cálc. uso restante proyecto** especifique el número del documento y la fecha de registro que se va a insertar en el diario y, a continuación, elija **Aceptar**.  
+4. Puede ser necesario actualizar el diario con algunos cambios.  
+5. Seleccione **Registrar**.
 
 ## <a name="to-view-job-ledger-entries"></a>Para ver los movimientos del proyecto
 Los movimientos relativos a proyectos se guardan en los registros de movimientos de proyectos y se numeran de forma secuencial, empezando por 1. Desde el registro de movimientos de proyecto, se puede obtener un resumen de todos los movimientos de proyecto.    
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registros de proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Registros de proyectos** y luego elija el enlace relacionado.
 2. Seleccione un registro correspondiente y, a continuación, elija la acción **Movs. proyectos**.
 
 En la página **Movimientos de proyecto** puede revisar los movimientos que está asociado con algún proyecto.  
@@ -100,7 +97,4 @@ En la página **Movimientos de proyecto** puede revisar los movimientos que est�
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)      
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

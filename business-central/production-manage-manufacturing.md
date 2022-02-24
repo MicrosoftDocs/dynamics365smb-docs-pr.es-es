@@ -1,24 +1,23 @@
 ---
-title: Ejecutar producción
+title: Ejecutar producción | Documentos de Microsoft
 description: Cuando se ha planificado un pedido y se han emitido los materiales de acuerdo con la L.M. de producción, entonces, pueden iniciarse las operaciones de producción y se pueden ejecutar en la secuencia definida por la ruta de órdenes de producción.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 42e4b06ab258c99225aedc59a0854d7c9cbf7eaa
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 926f22537d54ad770e38d40a376a6c8ce2594991
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972650"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877671"
 ---
 # <a name="manufacturing"></a>Fabricación
-
 > [!NOTE]
 > La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
@@ -30,7 +29,7 @@ Como alternativa al diario de lotes para el registro de salida de varias órdene
 
 Antes de que pueda comenzar a producir elementos, debe realizar varias configuraciones, como centros de trabajo, rutas y listas de materiales de producción. Para obtener más información, vea [Configurar fabricación](production-configure-production-processes.md).
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -42,19 +41,15 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Registre el número de productos terminados y el tiempo empleado por operación en un diario que pueda procesar múltiples órdenes de producción lanzadas.|[Registrar por lotes el resultado y los tiempos de ejecución](production-how-to-post-output-quantity.md)|
 |Deshacer la salida, por ejemplo, porque se ha producido un error en la entrada de datos y el importe es incorrecto.  |[Revertir el registro de la salida](production-how-to-reverse-output-posting.md)|  
 |Contabilizar el número de artículos producido en cada operación terminada que no se cualifican como salida terminada, sino como material rechazado.|[Registrar material de rechazo](production-how-to-post-scrap.md)|
-|Ver la carga de planta como resultado de órdenes de producción planificadas y lanzadas.|[Visualizar la carga en centros de trabajo y de máquina](production-how-to-view-the-load-on-work-centers.md)|  
+|Ver la carga de planta como resultado de órdenes de producción planificadas y lanzadas.|[Visualizar la carga en centros de trabajo y de máquina](production-how-to-view-the-load-on-work-centers.md)|      
 |Utilizar la página **Diario de capacidad** para registrar capacidades consumidas que no están asignadas a una orden de producción, como el trabajo de mantenimiento.|[Registrar capacidades](production-how-to-post-capacities.md)|  
 |Calcular y ajustar el coste de artículos de producción terminados y componentes consumidos para la reconciliación financiera.|[Sobre los costes de la orden de producción terminada](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Consulte también
-
+## <a name="see-also"></a>Consulte también  
 [Configuración de fabricación](production-configure-production-processes.md)  
-[Planificación](production-planning.md)  
+[Planificación](production-planning.md)      
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

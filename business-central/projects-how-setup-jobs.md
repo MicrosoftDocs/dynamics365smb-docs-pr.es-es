@@ -1,79 +1,90 @@
 ---
-title: Configurar proyectos, precios y grupos contables de proyectos
+title: Configurar precios de proyectos y grupos contables de proyectos | Documentos de Microsoft
 description: Describe cómo configurar la configuración general de los proyectos y configurar los precios de los productos de proyecto, los recursos, las cuentas contables y los grupos contables de proyectos.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.search.form: 211, 463, 1012
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b5a071bbaff4b0c5a95725fdf77af3887b5e00a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973289"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527965"
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
+# <a name="set-up-jobs"></a>Configurar proyectos
 
-Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prod_short](includes/prod_short.md)]. En la página **Configuración de proyectos**, debe especificar cómo desea utilizar determinadas características del proyecto.
+Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prodshort](includes/prodshort.md)]. En la página **Configuración de proyectos**, debe especificar cómo desea utilizar determinadas características del proyecto.
 
 Para cada proyecto, especifique fichas de proyecto individuales con información sobre los precios de los productos del proyecto, los recursos del proyecto y las cuentas de proyecto, y debe configurar los grupos contables de proyectos.
 
 ## <a name="to-set-general-information-for-jobs"></a>Para configurar la información general de los proyectos
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de proyectos** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> El campo **Aplicar enlace de uso de forma predeterminada** indica si las entradas del libro mayor de proyectos están vinculadas a las líneas de planificación de proyecto de forma predeterminada. Elija el campo si desea aplicar esta configuración a todos los nuevos proyectos que cree. Puede habilitar o deshabilitar el seguimiento del uso del proyecto para un proyecto específico cambiando el valor del campo **Aplicar enlace de uso** en la tarjeta de trabajo individual. Las consecuencias se explican en la siguiente sección.
+> El impacto del campo **Aplicar vínculo uso de forma pred.** es bastante complejo y, por tanto, se explica en la sección siguiente.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Para configurar el seguimiento de uso de proyecto
 
-Cuando está trbajando en un proyecto, es posible que desee saber cómo va el seguimiento en comparación con el plan. A hacerlo fácilmente, cree un vínculo entre las líneas de planificación de proyecto y la utilización real. Esto le permite seguir los costes y ver fácilmente cuánto trabajo queda por realizar. De forma predeterminada, el tipo de línea de planificación de proyecto es *Presupuesto*, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
+Cuando se está ejecutando un proyecto, es posible que desee saber cómo va la utilización en comparación con el plan. A hacerlo fácilmente, cree un vínculo entre las líneas de planificación de proyecto y la utilización real. Esto le permite seguir los costes y ver fácilmente cuánto trabajo queda por realizar. De forma predeterminada, el tipo de línea de planificación de proyecto es **Presupuesto**, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
 
-Después de haber establecido el seguimiento de uso escogiendo **Aplicar vínculo de uso**, puede revisar la información de la línea de planificación de proyecto. Puede definir a la cantidad del recurso, el producto o la cuenta de contabilidad general, y después indicar qué cantidad desea transferir al diario de proyectos. El campo **Cantidad pendiente** de la línea de planificación de proyecto puede indicar qué queda por transferir y registrar en el diario de proyectos.
+Si selecciona el campo **Aplicar vínculo uso de forma pred.**, puede revisar la información de la línea de planificación de proyecto. Puede definir a la cantidad del recurso, el producto o la cuenta de contabilidad general, y después indicar qué cantidad desea transferir al diario de proyectos. El campo **Cantidad pendiente** de la línea de planificación de proyecto puede indicar qué queda por transferir y registrar en el diario de proyectos.
 
->[!NOTE]
-> Si se elige **Aplicar vínculo de uso** en el proyecto individual y el campo **Tipo de línea** de la línea de diario de proyectos o la línea de pedido es *Facturable*, se crearán las nuevas líneas de planificación de proyecto del tipo de línea *Presupuesto* al registrar el diario de proyectos o el documento de compra.  
-> Para más información, vea [Registro de uso para proyectos](projects-how-record-job-usage.md) y [Administrar suministros de proyectos](projects-how-manage-project-supplies.md)
+> [!TIP]  
+> Puede activar o desactivar el seguimiento del uso del proyecto para un proyecto determinado. El valor del campo **Aplicar vínculo uso** de la ficha de proyecto individual omitirá el valor de la página **Config. proyectos**.  
+
+Cuando se selecciona la casilla **Aplicar vínculo uso de forma pred.**, y el tipo de la línea de planificación de proyecto es **Facturable**, se crea una línea de planificación de proyecto del tipo **Presupuesto** después de registrar una línea del diario de proyecto.
 
 > [!IMPORTANT]
-> Si el campo **Tipo de línea** de la línea del diario de proyecto o la línea de compra están en blanco, entonces no se crean líneas de planificación de proyecto cuando se registra el diario de trabajo o el documento de compra.
+> Si el seguimiento de uso del proyecto está activado, en la página **Config. proyectos** o en el proyecto individual, y el campo **Tipo de línea** está en blanco, se crearán las nuevas líneas de planificación de proyecto del tipo de línea **Presupuesto** al registrar las líneas de diario de proyecto.  
+>  
+> Si el seguimiento de uso del proyecto *no* está activado, en la página **Config. proyectos** o en el proyecto individual, y el campo **Tipo de línea** está en blanco, no se crearán líneas de planificación de proyecto al registrar las líneas de diario de proyecto. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
-<!--
->[!Important]
-If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
-If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
--->
+1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Configuración de proyectos** y, a continuación, seleccione el vínculo relacionado.
+2. Seleccione la casilla **Aplicar vínculo uso de forma pred.**
 
+## <a name="to-set-up-prices-for-job-resources"></a>Para configurar los precios de los recursos de proyecto
+Puede configurar precios concretos para los recursos de un proyecto. Para ello debe usar la página **Precios recursos proyecto**.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Para establecer los precios de recursos, productos y cuentas de contabilidad para trabajos
-> [!NOTE]
-> En el segundo lanzamiento de versiones de 2020, lanzamos nuevos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Recurso**.
+3. En la página **Precios recursos proyecto**, rellene los campos según sea necesario.
 
-Puede establecer los precios de los productos, recursos, productos y cuentas de contabilidad relacionadas con un trabajo. 
+La información opcional de los campos **N.º tarea de proyecto**, **Tipo trabajo**, **Cód. divisa**, **% Descuento línea** y **Factor coste unitario** se usará en las líneas de planificación de proyecto y los diarios de uso cuando se introduce este recurso y se agrega al proyecto.  
 
-#### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience)
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
-2. Seleccione la tarea y, a continuación, elija la acción **Recurso**, **Elemento** o **Cuenta P/G**.
-3. En las páginas **Precios de los recursos laborales**, **Precios de artículos de trabajo** o **Precios de la cuenta P/G del trabajo**, rellene los campos según sea necesario.
+Se usará el valor del campo **Precio de venta** correspondiente al recurso en las líneas de planificación de proyecto y los diarios de proyectos cuando se introduzca este recurso, un recurso asignado al grupo de recursos o cualquier recurso.  
 
-La siguiente tabla muestra cómo se utilizará la información de los campos opcionales en las líneas de planificación de proyecto y los diarios cuando se elijan el recurso, el artículo o la cuenta de contabilidad para el trabajo.
+> [!NOTE]  
+>   Este precio anulará siempre los precios establecidos en la página **Precio de recurso/Precios de grupo de recursos** existente.
 
-|Columna 1  |Columna 2  |
-|---------|---------|
-|**Recursos de trabajo**|Los campos **Nº tarea de proyecto**, **Tipo de trabajo**, **Códido de divisa**, **Descuento línea %** y **Factor de coste unitario**. Se usará el valor del campo **Precio de venta** correspondiente al recurso en las líneas de planificación de proyecto y los diarios de proyectos cuando se introduzca este recurso, un recurso asignado al grupo de recursos o cualquier recurso. Tenga en cuenta que este precio anulará siempre los precios establecidos en la página **Precio de recurso/Precios de grupo de recursos** existente.|
-|**Elementos de trabajo**|Los campos **N.º de tarea de proyecto**, **Códido de divisa** y **% de Descuento de línea**. El valor del campo **Precio de venta** correspondiente al artículo se usará en las líneas de planificación del proyecto y en los diarios de proyectos cuando se introduzca este producto. tenga en cuenta que este precio siempre anulará el precio regular del cliente (mecanismo de “mejor precio”) de los productos. Si desea usar los mecanismos de precio regular del cliente, no debe crear ningún precio de producto para el proyecto.|
-|**Cuentas de contabilidad**|La información de los campos **N.º tarea proyecto**, **Código de divisa**, **% de descuento de línea**, **Factor de coste unitario** y **Coste unitario** se usará en las líneas de planificación de proyecto y los diarios de proyectos cuando se introduce esta cuenta de contabilidad y se agrega a un proyecto. El valor del campo **Precio de venta** del gasto de proyecto de contabilidad se usará en las líneas de planificación de proyecto y en los diarios de proyectos cuando se introduzca esta cuenta.|
+## <a name="to-set-up-prices-for-job-items"></a>Para configurar los precios de los productos de proyecto
+Puede configurar precios concretos para los productos de un proyecto. Para ello debe usar la página **Precios recursos proyecto**.
 
----
-#### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience)
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
-2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Listas de precios de venta**.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Producto**.
+3. En la página **Precios productos proyecto**, rellene los campos según sea necesario.
 
----
+La información opcional de los campos **N.º tarea de proyecto**, **Cód. divisa** y **% Descuento línea** se usarán en las líneas de planificación del proyecto y en los diarios de proyectos cuando se introduzca este producto o se agregue al proyecto.  
+
+El valor del campo **Precio de venta** correspondiente al artículo se usará en las líneas de planificación del proyecto y en los diarios de proyectos cuando se introduzca este producto.  
+
+> [!NOTE]  
+>   Este precio siempre anulará el precio regular del cliente (mecanismo de “mejor precio”) de los productos. Si desea usar los mecanismos de precio regular del cliente, no debe crear ningún precio de producto para el proyecto.
+
+## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Para configurar precios de cuentas del proyecto
+Puede configurar precios específicos para gastos contables de un proyecto. Para ello debe usar la página **Precios cuentas proyecto**.
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Cuenta**.  
+3. En la página **Precios cuentas proyecto**, rellene los campos según sea necesario.
+
+La información opcional de los campos **N.º tarea proyecto**, **Cód. divisa**, **% Descuento línea**, **Factor coste unitario** y **Coste unitario** se usará en las líneas de planificación de proyecto y los diarios de proyectos cuando se introduce esta cuenta y se agrega al proyecto.  
+
+El valor del campo **Precio de venta** del gasto de proyecto de contabilidad se usará en las líneas de planificación de proyecto y en los diarios de proyectos cuando se introduzca esta cuenta.
 
 ## <a name="to-set-up-job-posting-groups"></a>Para configurar grupos contables del proyecto
 Un aspecto de los proyectos de planificación es decidir qué cuentas de registro se deben utilizar para la valoración de proyectos. Para poder registrar proyectos, debe configurar cuentas de registro para cada grupo contable del proyecto. Un grupo contable representa un vínculo entre el proyecto y cómo debe ser tratado en la contabilidad general. Al crear un proyecto, se especifica un grupo contable y, de forma predeterminada, todas las tareas que crea para el proyecto están asociadas con ese grupo contable. Sin embargo, al crear las tareas, puede sustituir el predeterminado y seleccionar a un grupo contable que sea más adecuado.  
@@ -81,7 +92,7 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 > [!NOTE]  
 >   Se deben configurar las cuentas necesarias en el plan de cuentas antes de configurar los grupos contables. Para obtener más información, vea [Configuración o cambio del plan de cuentas](finance-setup-chart-accounts.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos contables de proyectos**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables proyecto** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos de cuenta tal como se describe en la tabla siguiente.  
 
 | Campo Cuenta | Descripción |
@@ -110,7 +121,4 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

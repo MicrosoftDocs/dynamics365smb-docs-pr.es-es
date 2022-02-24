@@ -1,21 +1,23 @@
 ---
 title: Estado asignación y estado de reparación | Documentos de Microsoft
 description: Obtenga información sobre la relación entre el estado de reparación de los elementos de servicio y el estado de asignación de las entradas de asignación.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9cf3349d654a4e007079075c64e9e56654619810
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772409"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316241"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Estado de asignación y estado de reparación de productos de servicio
 El estado de reparación y el estado de asignación de los movimientos de asignación de los productos de servicio están relacionados en Gestión de servicios. El estado de asignación cambia cuando se modifica el estado de reparación del producto de servicio a **Terminado** o **Parcialmente servido**, y cuando se convierte una oferta de servicio en un pedido de servicio. El estado de reparación del producto de servicio cambia cuando se cancela la asignación de producto de servicio o se reasigna el producto de servicio a otro recurso. Puede ver el estado de reparación de productos de servicio en la página **Tareas servicio** y actualizar el estado de reparación en el campo **Cód. estado reparación** en la página **Hoja trabajo prod. serv.** Puede ver el estado de asignación en el campo **Estado** de la página **Asignaciones recurso**.  
@@ -38,7 +40,7 @@ Cuando se convierte una oferta de servicio en un pedido de servicio, el pedido d
 * Se realiza una búsqueda de movimientos de asignación para todos los productos de servicio del pedido de servicio cuyo estado sea **Activo**. Si se encuentran los movimientos de asignación, el estado de asignación cambia de **Activo** a **Reasignación necesaria**.  
   
 ## <a name="canceling-allocations"></a>anular asignaciones  
-Cuando se cancela una asignación de un producto de servicio, [!INCLUDE[prod_short](includes/prod_short.md)] actualiza el estado de asignación del movimiento de asignación correspondiente de **Activo** a **Necesidad de reasignación**.
+Cuando se cancela una asignación de un producto de servicio, [!INCLUDE[d365fin](includes/d365fin_md.md)] actualiza el estado de asignación del movimiento de asignación correspondiente de **Activo** a **Necesidad de reasignación**.
 
 El estado de reparación del producto de servicio del movimiento de asignación se actualiza de la siguiente forma:  
   
@@ -70,6 +72,3 @@ Se creará una nueva entrada de asignación con el nuevo recurso y con el estado
 [Configurar asignaciones de recursos](service-how-setup-resource-allocation.md)  
 [Asignar recursos](service-how-to-allocate-resources.md)  
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

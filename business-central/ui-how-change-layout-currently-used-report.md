@@ -1,25 +1,25 @@
 ---
-title: Cambiar el aspecto de un informe seleccionando otro diseño
+title: Cambiar el aspecto de un informe seleccionando otro diseño | Documentos de Microsoft
 description: Puede utilizar diseños distintos para un informe y cambiar de un diseño a otro para cambiar el aspecto de un informe.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a5115407dd7cfbb8760a5749432ca6fc37f9f933
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101086"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953256"
 ---
 # <a name="change-the-current-report-layout"></a>Cambiar el diseño de informe actual
-
 Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario.
 
 Según los diseños disponibles para un informe, puede optar por usar un diseño de informe de RDLC integrado, un diseño de informe de Word integrado o un diseño personalizado. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).
@@ -30,8 +30,7 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 > Los informes de documento (no listas) que utilizan un diseño de informe de Word suelen ser más rápidos que los que utilizan un diseño de informe RDLC. Por lo tanto, si tiene la opción de elegir entre un diseño de informe Word o RDLC para un informe de documento, utilice el diseño de informe Word para obtener el mejor rendimiento.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Para cambiar qué diseño de informe se usará para un informe o documento
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
    La página **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo **Empresa** en la parte superior de la página. El campo **Diseño seleccionado** especifica el diseño que actualmente se está usando en el informe.
 2. Establezca el campo **Empresa** en la parte superior de la página en la empresa que incluye el informe.
 3. Para cambiar el diseño que se usa en un informe, en la fila del informe, establezca el campo **Diseño seleccionado** en una de las opciones siguientes:
@@ -60,7 +59,4 @@ Ahora puede ir a sus fichas de cliente y proveedor para especificar cuál de los
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,24 +1,23 @@
 ---
-title: Desplazar productos
-description: En el inventario, los productos deben moverse de una ubicación a la otra para posibilitar las actividades diarias del almacén relacionadas con el mantenimiento de productos general.
+title: Mover productos | Documentos de Microsoft
+description: En el inventario, los productos deben moverse de una ubicación a la otra para posibilitar las actividades diarias del almacén relacionadas con el mantenimiento de productos general. Algunos movimientos suceden en relación directa a las operaciones internas, como un orden de producción que necesite ubicar los componentes entregados o los productos finales. Otros movimientos suceden como sencilla optimización de los de almacén o como movimientos ad hoc o desde las operaciones.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 5712722f58523d372feb10710013fdbf53a464b2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f7fd88c88a69806e6cc914c27737d3a8b823bc51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971254"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876493"
 ---
 # <a name="moving-items"></a>Mover artículos
-
 La actividad de almacén consistente en mover productos entre los almacenes se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones básicas de almacén para la gestión pedido por pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).
 
 En una ubicación de almacén, los productos deben moverse de una ubicación a la otra para posibilitar las actividades diarias del almacén relacionadas con el mantenimiento de productos general. Algunos movimientos suceden en relación directa a las operaciones internas, como un orden de producción que necesite ubicar los componentes entregados o los productos finales. Otros movimientos suceden como sencilla optimización de los de almacén o como movimientos ad hoc o desde las operaciones.
@@ -40,14 +39,10 @@ Las tareas relacionadas con el inventario de recuento, ajuste y reclasificación
 |Actualizar la frecuencia con la que las ubicaciones, por ejemplo las ubicaciones de picking, deben reponerse como resultado de las fluctuaciones en la demanda.|[Calcular reposición ubicación](warehouse-how-to-calculate-bin-replenishment.md)|
 |Vuelva a estructurar el almacén con nuevos códigos y características de ubicación y muévalos.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Consulte también
-
+## <a name="see-also"></a>Consulte también  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de Warehouse Management](warehouse-setup-warehouse.md) 
-[Administración de ensamblados](assembly-assemble-items.md)
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
+[Gestión de ensamblaje](assembly-assemble-items.md)    
+[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

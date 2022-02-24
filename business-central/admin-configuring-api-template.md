@@ -1,26 +1,26 @@
 ---
-title: Configuración de plantillas API
+title: Configurar plantillas de API | Documentos de Microsoft
 description: Describa los pasos que debe seguir para configurar las plantillas API para Dynamics 365 Business Central.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: f5f081e4d0042333549453a3ad6af5a05a0e6ca0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7e21da444f8dc8858ebe0e5f65335311dfb2a5e7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011261"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187393"
 ---
 # <a name="configuring-api-templates"></a>Configuración de plantillas API
-
-La biblioteca API para [!INCLUDE[prod_short_md](includes/prod_short.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La página **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
+La biblioteca API para [!INCLUDE[d365fin_md](includes/d365fin_md.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La página **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
 
 Por ejemplo, si se define una plantilla de configuración para la entidad del elemento, cuando se crea un nuevo registro del elemento a través de la API de elementos, las propiedades del nuevo elemento que no están definidas en la API se rellenarán a partir de la plantilla seleccionada. Si, por ejemplo, no se define ningún valor para el campo **Grupo contable producto** a través de la API, pero se define un valor en la plantilla seleccionada, el valor del grupo definido en la plantilla se aplicará al nuevo elemento. 
 
@@ -31,7 +31,7 @@ Para usar plantillas con la biblioteca API, primero debe configurar y definir pr
 
 Para asignar una plantilla a una API, debe seguir los siguientes pasos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de API** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de API** y luego elija el enlace relacionado.
 2. Seleccione **Nuevo** y el valor **Orden** para el registro.  
 Si hay más de una plantilla seleccionada para una API (ID de página), las plantillas se aplican en el orden definido en la columna **Pedido**.   
 Cuando se aplican las plantillas, los valores de campo definidos en la plantilla solo se aplican a los campos que aún no tienen un valor definido, ya sea explícitamente en la API o en una plantilla previamente aplicada en el pedido. 
@@ -44,10 +44,8 @@ La plantilla definida se aplica a un nuevo registro creado a través de la API s
 
 ## <a name="see-also"></a>Consulte también
 [Documentación de la API](/dynamics-nav/fin-graph)  
-[Desarrollo de aplicaciones de conexión para [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Desarrollo de aplicaciones de conexión para [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Activar las API](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Extremos para las API](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

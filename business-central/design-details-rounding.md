@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Redondeo'
-description: Los redondeos residuales se pueden producir cuando se valora el coste de una salida de existencias que se mide en una cantidad distinta a la de la entrada de existencias correspondiente.
+title: 'Detalles de diseño: Redondeo | Documentos de Microsoft'
+description: Los redondeos residuales se pueden producir cuando se valora el coste de una salida de existencias que se mide en una cantidad distinta a la de la entrada de existencias correspondiente. Cuando se ejecuta el proceso **Valorar stock - movs. producto**, se calculan los redondeos residuales para todas las valoraciones de existencias.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 518433903f06c255c80dbba6d7e2982974a325a1
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b5185b7cc70e6b57a4641cbcd3b45cbf9682285d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318439"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184753"
 ---
 # <a name="design-details-rounding"></a>Detalles de diseño: Redondeo
 Los redondeos residuales se pueden producir cuando se valora el coste de una salida de existencias que se mide en una cantidad distinta a la de la entrada de existencias correspondiente. Cuando se ejecuta el proceso **Valorar stock - movs. producto**, se calculan los redondeos residuales para todas las valoraciones de existencias.  
@@ -64,7 +64,4 @@ Los redondeos residuales se pueden producir cuando se valora el coste de una sal
  [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)   
  [Detalles de diseño: métodos de coste](design-details-costing-methods.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

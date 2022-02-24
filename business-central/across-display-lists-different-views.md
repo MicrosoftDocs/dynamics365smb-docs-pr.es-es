@@ -1,25 +1,26 @@
 ---
-title: Ajustar la cantidad de detalle que se ve en las listas
+title: Ajustar la cantidad de detalle que se ve en las listas | Documentos de Microsoft
 description: Puede mostrar listas como filas detalladas que proporcionen el máximo de información o como mosaicos que sean fáciles de analizar visualmente y puede incluir miniaturas de imágenes.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.search.form: 31
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: fcd046027cb8646da72182aba1320b165c00c020
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012135"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188779"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Mostrar listas en diferentes vistas
-En la esquina derecha de cualquier lista de [!INCLUDE[prod_short](includes/prod_short.md)] encontrará iconos que permiten elegir cómo se muestra la lista de registros. Una lista se puede mostrar como filas detalladas, lo cual es ideal cuando necesita trabajar con muchos campos o editar campos en la lista. Pero también puede cambiar para mostrar registros como mosaicos, que es más compacto y muestra menos campos en el registro específico. Esto es muy útil para obtener un resumen de varios movimientos y, sobre todo, en dispositivos pequeños, porque es compacto y es más fácil de puntear.
+En la esquina derecha de cualquier lista de [!INCLUDE[d365fin](includes/d365fin_md.md)] encontrará iconos que permiten elegir cómo se muestra la lista de registros. Una lista se puede mostrar como filas detalladas, lo cual es ideal cuando necesita trabajar con muchos campos o editar campos en la lista. Pero también puede cambiar para mostrar registros como mosaicos, que es más compacto y muestra menos campos en el registro específico. Esto es muy útil para obtener un resumen de varios movimientos y, sobre todo, en dispositivos pequeños, porque es compacto y es más fácil de puntear.
 
 ## <a name="item-list"></a>Lista de productos
 En la página **Productos**, la existencia de imágenes que ayudan a obtener un resumen rápido de los productos que vende y el cambio a los mosaicos le proporcionan un catálogo de productos por el que puede navegar. Para las listas que incluyen imágenes, como la página **Productos**, tiene una tercera opción para la visualización como mosaicos grandes. De este modo se muestran imágenes grandes para cada registro, pero también se muestran pocos campos.
@@ -27,8 +28,5 @@ En la página **Productos**, la existencia de imágenes que ayudan a obtener un 
 Puede importar imágenes de producto, una por una o para varios productos de una sola vez. Para obtener más información, consulte [Importar varias imágenes de producto](inventory-how-import-item-pictures.md).  
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

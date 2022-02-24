@@ -1,24 +1,24 @@
 ---
-title: Interrupción masiva con picking y ubicaciones directas
-description: Aprenda a habilitar interrupción automática masiva con ubicación y picking dirigidos, así como interrupción en picking, ubicaciones, movimientos y más.
+title: Interrupción automática masiva con picking y ubicaciones directas | Documentos de Microsoft
+description: En almacenes que utilizan ubicación y picking directos, puede dividir una unidad de medida grande en otras unidades de medida más pequeñas, cuando crea instrucciones de almacén que cubren las necesidades de los documentos de origen, órdenes de producción o ubicaciones y picking internos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: a3e992b86b2c53393ee385fd4abde05bd2b915f2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9d2e0c1b065cfb96c27bc7f76ab3168e927e3705
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324844"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193328"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Habilitar interrupción automática masiva con ubicaciones y picking directos
-En almacenes que utilizan ubicación y picking directos, [!INCLUDE[prod_short](includes/prod_short.md)] puede dividir los bultos automáticamente, es decir, dividir una unidad de medida grande en otras unidades de medida más pequeñas, cuando crea instrucciones de almacén que cubren las necesidades de los documentos de origen, órdenes de producción o ubicaciones y picking internos. A veces, dividir bultos también significa reunir unidades de medida menores, si es necesario, para cumplir las solicitudes de salida dividiendo una unidad de medida grande del documento de origen u orden de producción en unidades de medida menores que están disponibles en el almacén.   
+En almacenes que utilizan ubicación y picking directos, [!INCLUDE[d365fin](includes/d365fin_md.md)] puede dividir los bultos automáticamente, es decir, dividir una unidad de medida grande en otras unidades de medida más pequeñas, cuando crea instrucciones de almacén que cubren las necesidades de los documentos de origen, órdenes de producción o ubicaciones y picking internos. A veces, dividir bultos también significa reunir unidades de medida menores, si es necesario, para cumplir las solicitudes de salida dividiendo una unidad de medida grande del documento de origen u orden de producción en unidades de medida menores que están disponibles en el almacén.   
 
 ## <a name="breakbulking-in-picks"></a>Dividir bultos en picking  
 Si desea almacenar productos en varias unidades de medida distintas y permitir que se combinen automáticamente según las necesidades en el proceso de picking, seleccione el campo **Permite división bulto** de la ficha de almacén.  
@@ -50,7 +50,4 @@ Puede ver el resultado del proceso de conversión de una unidad de medida a otra
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

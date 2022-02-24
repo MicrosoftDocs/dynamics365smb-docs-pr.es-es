@@ -1,31 +1,30 @@
 ---
-title: Crear el informe 340 [ES]
-description: Lea sobre cómo crear el informe 340 para las autoridades fiscales en la versión en español de Business Central.
+title: Creación del informe 340
+description: El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 10737, 10738, 10744
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 34a2501a3bb6788aed7a53d92b2818835bb98656
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7e18a2746ee398b7d8d3a4c43edcae92d58003da
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947230"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878826"
 ---
-# <a name="create-report-340-in-the-spanish-version"></a>Crear informe 340 en la versión en español
+# <a name="create-report-340"></a>Crear el informe 340
 El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados.  
 
 Este informe se genera en un formato que ha aprobado la administración fiscal. Debe presentar este informe en una periodicidad mensual o trimestral, en función del tamaño de la empresa.  
 
 ## <a name="to-create-report-340"></a>Para crear el informe 340  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Modelo 340** y luego elija el enlace relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Modelo 340** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la ficha desplegable **Opciones** de la página **Modelo 340**, rellene los campos tal y como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -61,6 +60,3 @@ Si imprime el documento registrado, por ejemplo, una factura de venta registrada
  [Informe 340](report-340.md)   
  [Pagos en efectivo](payments-in-cash.md)   
  [Agencia Tributaria](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,19 +3,19 @@ title: Cómo crear pedido de ensamblado abierto | Documentos de Microsoft
 description: Cree pedidos de ventas generales para elementos de ensamblado personalizados antes de realizar periódicamente los pedidos de ventas reales según el acuerdo de pedido abierto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a62d2b1d84d1139a0e5472d8e95f1c87f13bfa6c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: cdcc62b92e4fd8a080e3167c50efba1d1235c172
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435474"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186405"
 ---
 # <a name="create-blanket-assembly-orders"></a>Crear pedidos abiertos ensamblados
 Puede utilizar la administración de ensamblados para personalizar un artículo del ensamblado a la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Puede utilizar la administración de ensamblados para personalizar un artículo 
 >  Al igual que todos los pedidos abiertos, las cantidades de los pedidos abiertos de ensamblado solo son previsiones y no están operativas hasta que se convierten en pedidos de ensamblado reales. Por tanto, la funcionalidad del pedido, como el cálculo de disponibilidad, la reserva y el seguimiento de artículos no están activos en los pedidos de ensamblado abiertos.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Crear un pedido de ensamblado abierto para un artículo de ensamblado para pedido  
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos abiertos de ventas** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta abiertos** y luego elija el enlace relacionado.  
 2. Cree un nuevo pedido de ventas abierto con una línea para un artículo de ensamblado. Consulte [Crear pedidos abiertos de venta](sales-how-to-create-blanket-sales-orders.md) para obtener más información.  
 3. En el campo **Cantidad a ensamblar para pedido** en la línea del pedido de ensamblado abierto, escriba la cantidad total.
 
@@ -46,7 +46,4 @@ El pedido de ensamblado abierto vinculado y las personalizaciones se vinculan a 
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

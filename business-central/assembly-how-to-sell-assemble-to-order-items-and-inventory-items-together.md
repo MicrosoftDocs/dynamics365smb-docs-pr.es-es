@@ -1,21 +1,21 @@
 ---
-title: Vender productos de ensamblado para pedido y productos de inventario juntos
-description: Si no está disponible parte de la configuración de un elemento del ensamblado para ensamblar para stock, tiene la flexibilidad de crear un pedido de ensamblado para la cantidad restante.
+title: Vender productos de ensamblado para pedido y productos de inventario juntos | Documentos de Microsoft
+description: Si un elemento del ensamblado está configurada en Ensamblar para stock, el proceso de pedido de venta predeterminado supone que el producto está ensamblado y se puede ya seleccionar del inventario, si está disponible. Sin embargo, si parte de la cantidad (o toda) no está disponible, tiene la flexibilidad de crear un pedido de ensamblado para la cantidad pendiente de forma dinámica.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 08b7d36eb7cace9b70f5b58a387907ecb54f39e8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 790e4cae4e13eae0d394859f2944b56f2dbefc50
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326310"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186457"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vender productos de ensamblado para pedido y productos de inventario juntos
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para stock**, el proceso de pedido de venta predeterminado supone que el producto está ensamblado y se puede ya seleccionar del inventario, si está disponible. Por tanto, no se crea ni vincula ningún pedido de ensamblado automáticamente a la línea de pedido de venta. Sin embargo, si parte de la cantidad (o toda) no está disponible, tiene la flexibilidad de crear un pedido de ensamblado para la cantidad pendiente rellenando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta. De esta forma, puede ensamblar el producto para pedido aunque esté configurado para ensamblarse para stock de forma predeterminada.  
@@ -43,7 +43,4 @@ La flexibilidad similar se da cuando se venden productos que se ensamblarán par
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

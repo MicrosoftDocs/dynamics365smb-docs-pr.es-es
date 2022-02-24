@@ -3,19 +3,19 @@ title: Configurar procesos de gestión de servicio | Documentos de Microsoft
 description: Aprenda a configurar procesos que ayuden a asegurar que sus clientes estén completamente satisfechos con su atención al cliente.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 80f56b9572e8ff20c29174e738aff135243530b7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438237"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192305"
 ---
 # <a name="configure-service-processes"></a>Configurar procesos de servicio
 A continuación se muestran algunos ejemplos de la configuración que puede aplicar a los procesos de gestión de servicios:  
@@ -27,7 +27,7 @@ A continuación se muestran algunos ejemplos de la configuración que puede apli
 * Secuencias numéricas para documentos y productos relacionados con el servicio.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Para introducir valores generales y obligatorios
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de administración de servicios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de gestión de servicios** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Consulte también  
@@ -37,6 +37,3 @@ A continuación se muestran algunos ejemplos de la configuración que puede apli
 [Configurar costes adicionales de servicios](service-how-setup-service-costs-pricing.md)  
 [Configurar detección errores](service-how-setup-troubleshooting.md)  
 [Gestión de servicios](service-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

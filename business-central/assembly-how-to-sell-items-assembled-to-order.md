@@ -1,21 +1,21 @@
 ---
-title: Venta de artículos ensamblados para pedido
-description: Si un elemento está configurado para Ensamblar para pedido, no se espera que se encuentre en el inventario y el campo debe ensamblarse específicamente para un pedido de venta.
+title: Venta de artículos ensamblados para pedido | Documentos de Microsoft
+description: Si un elemento está configurado para Ensamblar para pedido, no se espera que se encuentre en el inventario y el campo debe ensamblarse específicamente para un pedido de venta. Cuando especifique el producto en una línea de pedido de venta, automáticamente se creará un pedido de ensamblado y se vinculará al pedido de venta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting, substitute items
-ms.date: 07/29/2021
-ms.author: edupont
-ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.search.keywords: kit, kitting
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: da4a854aa573599db2d2493219d4393366a995f9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440621"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186337"
 ---
 # <a name="sell-items-assembled-to-order"></a>Venta de artículos ensamblados para pedido
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado es **Ensamblar para pedido**, no se espera que el producto se encuentre en el inventario y el campo debe ensamblarse específicamente para un pedido de venta. Cuando especifique el producto en una línea de pedido de venta, automáticamente se creará un pedido de ensamblado y se vinculará al pedido de venta.  
@@ -29,7 +29,7 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 >  El procedimiento siguiente no incluye los pasos habituales del pedido de ventas antes del paso donde introduce el producto de ensamblar para pedido en una línea de pedido de venta.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Para vender un artículo que se ensamble para pedido  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
 2.  Cree un pedido de ventas. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 3.  En el campo **N.º**, introduzca un producto configurado para ensamblarse para pedido.  
 4.  En el campo **Cód. almacén**, defina de qué almacén se venderá el producto. El proceso de ensamblado se producirá en ese almacén.  
@@ -57,15 +57,9 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 10. En el pedido de venta, seleccione la acción **Lanzar** para notificar al departamento de ensamblado que el proceso de ensamblado puede comenzar.  
 11. En el departamento de ensamblado, realice los pasos de ensamblado de los productos que se venden en este procedimiento. Para obtener más información, consulte [Ensamblar productos](assembly-how-to-assemble-items.md).  
 
-> [!NOTE]  
-> Tenga en cuenta que las sustituciones de productos no harán que un producto sea reemplazado automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible para usted.
-
 ## <a name="see-also"></a>Consulte también  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Registro de productos nuevos](inventory-how-register-new-items.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

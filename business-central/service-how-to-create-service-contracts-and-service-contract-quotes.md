@@ -1,27 +1,29 @@
 ---
 title: Trabajar con contratos u ofertas de servicio | Documentos de Microsoft
 description: 'Puede crear un contrato de servicio de forma manual o desde una oferta de contrato de servicio. Puede crear un contrato basado en una oferta de contrato de servicio:'
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d011b97c81492af0ac796d08693084cf65bb7712
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436381"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553921"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Trabajar con contratos de servicio y ofertas de contrato de servicio
 Puede crear un contrato de servicio de forma manual o desde una oferta de contrato de servicio. Puede utilizar una oferta de contrato de servicio como precursora de un contrato de servicio, en ésta su empresa realiza una oferta al cliente para obtener así su aprobación para poder convertirla en un contrato de servicio. Los procedimientos para crear un contrato de servicio o una oferta de contrato de servicio son similares.  
 
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Para crear un contrato u oferta de contrato de servicio  
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Contratos servicio** u **Ofertas contrato servicio** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique **Contratos servicio** u **Ofertas contrato servicio** y, a continuación, elija el vínculo relacionado.  
 2. Crear un contrato u oferta de contrato de servicio nuevos:  
 3. Rellene el campo **No.**. . Se abrirá un cuadro de diálogo en el que se le preguntará si desea rellenar los datos comunes del contrato a partir de una plantilla de contrato. Si desea crear este tipo de contrato u oferta de contrato de servicio, seleccione **Sí**. Se abrirá la página **Lista plantilla contrato serv.**  
 4. Seleccione la plantilla adecuada y, a continuación, elija **Aceptar** para utilizarla al crear el contrato u oferta de contrato de servicio.  
@@ -46,7 +48,7 @@ Para contratos no detallados, el importe facturado se calcula de la siguiente fo
 * Importe facturado = (importe anual ÷ número de días del año) × número de días del periodo inicial.  
 * Si el contrato vence antes de que finalice el periodo inicial, la fecha de finalización se convierte en la fecha final del periodo inicial.    
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ofertas de contrato de servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ofertas contrato servicio** y luego elija el enlace relacionado.  
 2. Abra la oferta de contrato de servicio que desea convertir en contrato de servicio.  
 3. Seleccione la acción **Crear contrato**.  
 4. Si la fecha inicial del contrato es anterior al inicio del siguiente periodo de facturación, se le preguntará si desea crear una factura de servicio para el periodo inicial del contrato. Elija **Sí**.  
@@ -56,7 +58,7 @@ Para contratos no detallados, el importe facturado se calcula de la siguiente fo
 ## <a name="to-create-contract-service-credit-memos"></a>Para crear abonos de servicio de contrato
 Puede utilizar abonos de servicio de contrato cuando un cliente cancela un contrato de servicio de prepago o elimina un producto de servicio de un contrato de prepago. También sirven para corregir una factura de servicio incorrecta.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos servicio** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Abonos de servicio** y luego elija el enlace relacionado.  
 2. Cree un abono de servicio nuevo.  
 3. Rellene el campo **No.**. .  
 4. En el campo **Nº cliente**, especifique el número del cliente del contrato de servicio.  
@@ -64,7 +66,7 @@ Puede utilizar abonos de servicio de contrato cuando un cliente cancela un contr
      La ficha desplegable **Facturación**, muestra la información que se ha copiado de la ficha **Cliente**. Si desea registrar el abono con un cliente que no esté especificado en la ficha desplegable **General**, escriba el número del cliente en el campo **Factura a-Nº cliente** .  
 
     > [!NOTE]  
-    >  Puede comparar el abono con el documento original registrado en la página **Facts. ventas (servicio) regis.** Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas servicios reg.** y, a continuación, elija el vínculo relacionado.  
+    >  Puede comparar el abono con el documento original registrado en la página **Facts. ventas (servicio) regis.** Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Facturas servicios reg.** y luego elija el enlace relacionado.  
 
 5. Rellene los campos **Fecha registro** y **Fecha documento**.  
 6. En las líneas de abono, especifique información acerca de los productos devueltos o eliminados o de la deducción que se enviará. También puede utilizar el proceso **Trae movs. contrato prepag**.  
@@ -81,7 +83,7 @@ Puede cambiar el estado del contrato, inicialmente configurado en **Bloqueado**,
 ## <a name="to-add-a-contract-line-to-a-service-contract-or-contract-quote"></a>Para agregar una línea de contrato a una oferta de contrato o contrato de servicio  
 Cuando un cliente compra un producto nuevo y desea incluirlo en el contrato u oferta de contrato de servicio existente, debe registrar el producto como un producto de servicio y, a continuación, agregarlo como una nueva línea al contrato u oferta de contrato.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contratos de servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contratos servicio** y luego elija el enlace relacionado.  
 2. Abra el correspondiente contrato u oferta de contrato de servicio al que desea añadir una línea de contrato nueva.  
 3. Elija la acción **Abrir contrato** para abrir el contrato u oferta de contrato de servicio para su modificación.  
 4. En la ficha desplegable **Detalles fact.**, seleccione el campo **Permite importes sin saldar** si desea cambiar el importe anual y distribuir la diferencia del importe anual manualmente en las líneas de contrato. En caso contrario, desactive el campo **Permite importes sin saldar**. Esto distribuirá la diferencia de importe anual automáticamente en las líneas de contrato después de cambiar el importe anual.  
@@ -91,7 +93,7 @@ Cuando un cliente compra un producto nuevo y desea incluirlo en el contrato u of
 ## <a name="to-remove-contract-lines"></a>Para eliminar líneas de contrato  
 Es posible que tenga que eliminar líneas de contrato del contrato de servicio según elimina los correspondientes productos de servicio del contrato de servicio. Normalmente, se elimina una línea de contrato que ha caducado o que se corresponde a un producto de servicio que se ha estropeado.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contratos de servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contratos servicio** y luego elija el enlace relacionado.  
 2. Abra el contrato de servicio cuyas líneas de contrato desee eliminar.  
 3. Elija la acción **Abrir contrato** para abrir el contrato de servicio para su modificación.  
 4. Seleccione la línea de contrato que desea eliminar. Rellene el campo **Fecha fin contrato** con la fecha en la que desea quitar la línea. Por ejemplo, podría especificar la fecha en la que se estropeó el producto de servicio.  
@@ -122,7 +124,7 @@ En las líneas de un contrato de servicio, los importes de **Coste línea** y **
 ## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>Para agregar un descuento de contrato a las ofertas de contrato de servicios  
 Puede agregar descuentos de contrato sobre servicios para ofertas y servicios de contrato. Los descuentos pueden efectuarse sobre componentes de grupos de producto de servicio concretos, sobre horas de recursos de grupos de recursos determinados y sobre costes de servicio específicos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ofertas de contrato de servicio** y elija el enlace relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ofertas contrato servicio** y elija el enlace relacionado.  
 2. Seleccione la oferta en la que desea agregar un descuento.  
 3. Seleccione la acción **Descuentos servicio**. Se abrirá la página **Descuentos contrato/servicio**.  
 4. Para crear un nuevo descuento de contrato, selecione la acción **Nuevo**.  
@@ -142,7 +144,7 @@ Es posible que necesite modificar el propietario de un contrato de servicio. Si 
 >   
 >  Por ejemplo, imagine que el producto de servicio Nº 8 está incluido en los contratos SC00003 y SC00015. El contrato SC00015 también contiene el producto de servicio Nº 15, que también está incluido en el contrato SC00080. En este caso, cambiará el propietario de los tres contratos y productos de servicio.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contratos de servicio** y luego elija el enlace relacionado. Abra el contrato de servicio correspondiente cuyo propietario desee modificar.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contratos servicio** y luego elija el enlace relacionado. Abra el contrato de servicio correspondiente cuyo propietario desee modificar.  
 2. Elija la acción **Abrir contrato** para abrir el contrato para su modificación.  
 3. Seleccione la acción **Cambiar cliente**. Se abrirá la página **Cambiar cliente en contrato**.  
 4. En los campos **N.º contrato** y **Nº prod. servicio** puede ver los números de contrato y producto de servicio propiedad del cliente seleccionado. Si el cliente posee más de un contrato con más de un producto de servicio, el valor de estos campos será **Múltiple**. Para ver la lista de artículos de servicio o contratos relacionados, seleccione estos valores de campo.  
@@ -154,7 +156,7 @@ Es posible que necesite modificar el propietario de un contrato de servicio. Si 
 ## <a name="to-update-a-service-contract-price"></a>Para actualizar un precio de contrato de servicio  
 Para actualizar los precios de contratos de servicio, especifique un porcentaje de actualización de precio.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Actualizar precios de contrato de servicio** y, a continuación, elija el enlace relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Actualizar precios de contrato de servicio** y luego elija el enlace relacionado.
 2. Elija el contrato de servicio.  
 3. En el campo **Actualizar hasta fecha**, introduzca una fecha. El trabajo por lotes actualizará los precios de los contratos cuya fecha de siguiente actualización de precios sea anterior o posterior a esta fecha.  
 4. En el campo **% Actualiz. precio**, introduzca el porcentaje por el que desea actualizar los precios.  
@@ -165,7 +167,7 @@ Si trabaja con contratos de servicio de prepago, deberá registrar movimientos d
 
 Para poder registrar movimientos de contrato de prepago, deberá especificar un número de serie en el campo **Nº serie doc. regis. prepago** de la página **Config. gestión servicio**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registrar movs. contr. prepago** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Registrar movs. contr. prepago** y luego elija el enlace relacionado.  
 2. En en el campo **Registrar hasta la fecha** especifique una fecha. El proceso registra movimientos de servicio de prepago con fechas de registro anteriores a esta fecha.  
 4. En el campo **Fecha registro**, introduzca la fecha que desea utilizar como fecha de registro en la línea del diario general.  
 5. En el campo **Acción**, seleccione **Registrar transacciones de prepago**  
@@ -183,7 +185,7 @@ Es posible que tenga que cancelar un contrato de servicio cuando el contrato hay
 > [!NOTE]  
 >  No puede volver a abrir un contrato después de cancelarlo.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contratos de servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contratos servicio** y luego elija el enlace relacionado.  
 2. Abra el contrato de servicio relevante que desee cancelar.  
 3. Elija la acción **Abrir contrato** para abrir el contrato de servicio para su modificación.  
 4. En el campo **Código área cancelación**, elija el código de razón correspondiente. Para agregar más códigos de razón, elija la acción **Avanzado**.  
@@ -194,12 +196,9 @@ Es posible que tenga que cancelar un contrato de servicio cuando el contrato hay
 6. Si hay facturas, abonos o movimientos de prepago abiertos registrados para el contrato, aparecerá un mensaje de confirmación. En el cuadro de mensaje, elija **No** para volver a contrato y registrar los documentos o **Sí** para continuar el proceso de cancelación.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Archivado de un contrato de servicio u oferta de contrato  
-Puede archivar contratos de servicio y ofertas de contrato en cualquier momento para registrar una copia del contrato o una oferta de contrato. [!INCLUDE[prod_short](includes/prod_short.md)] archiva contratos de servicio automáticamente cuando se convierten ofertas de contrato en contratos de servicio o se cancelan contratos de servicio. Puede archivar un contrato u oferta mediante la acción **Archivar contrato** en las páginas **Contratos de servicio** u **Ofertas contrato servicio**. Si desea ver los contratos de ofertas archivados busque **Contratos archivados**.
+Puede archivar contratos de servicio y ofertas de contrato en cualquier momento para registrar una copia del contrato o una oferta de contrato. [!INCLUDE[d365fin](includes/d365fin_md.md)] archiva contratos de servicio automáticamente cuando se convierten ofertas de contrato en contratos de servicio o se cancelan contratos de servicio. Puede archivar un contrato u oferta mediante la acción **Archivar contrato** en las páginas **Contratos de servicio** u **Ofertas contrato servicio**. Si desea ver los contratos de ofertas archivados busque **Contratos archivados**.
 
 ## <a name="see-also"></a>Consulte también  
 [Configurar contratos de servicio](service-how-setup-service-contracts.md)  
 [Gestión de servicios](service-service.md)  
 [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

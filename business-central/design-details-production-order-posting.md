@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Registro de órdenes de producción | Documentos de
 description: Al igual que el registro de pedido de ensamblado, se convierten los componentes consumidos y el tiempo de máquina usado, y se envían como el producto fabricado cuando finaliza la orden de producción.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442365"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184825"
 ---
 # <a name="design-details-production-order-posting"></a>Detalles de diseño: Registro de órdenes de producción
 Al igual que el registro de pedido de ensamblado, se convierten los componentes consumidos y el tiempo de máquina usado, y se envían como el producto fabricado cuando finaliza la orden de producción. Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md). No obstante, el flujo del coste para los pedidos de ensamblado es menos complejo, especialmente porque el registro de coste de ensamblado solo se produce una vez, y por tanto que no genera un inventario de trabajo en curso.
@@ -44,10 +44,10 @@ Dependiendo del tipo de inventario, los aumentos y las disminuciones se represen
 
 ||Aumentos|Disminuciones|  
 |-|---------------|---------------|  
-|**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de subensamblados<br />-   Consumo negativo|Consumo de material|  
-|**Inventario WIP**|-   Consumo de material<br />-   Consumo de capacidad<br />-   Gastos generales de fabricación|Salida de productos finales (coste de los productos fabricados)|  
+|**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de productos semiterminados<br />-   Consumo negativo|Consumo de material|  
+|**Inventario WIP**|-   Consumo de material<br />-   Consumo de capacidad<br />-   Cost. gen. fabricación|Salida de productos finales (coste de los productos fabricados)|  
 |**Inventario de productos terminados**|Salida de productos finales (coste de los productos fabricados)|-   Ventas (coste de productos vendidos)<br />-   Salida negativa|  
-|**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de subensamblados<br />-   Consumo negativo|Consumo de material|  
+|**Inventario de materias primas**|-   Compras netas de material<br />-   Salida de productos semiterminados<br />-   Consumo negativo|Consumo de material|  
 
 Los valores de entradas y salidas de existencias se registran en los distintos tipos de inventario fabricado de la misma forma que para el inventario comprado. Cada vez que se produzca una entrada o una salida de existencias se crea un movimiento de producto y un movimiento de contabilidad correspondiente para el importe. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
@@ -58,11 +58,11 @@ El registro de órdenes de producción de registro al inventario de trabajo en c
 
 En el diagrama siguiente se muestran las rutinas de registro relacionadas en la codeunit 22.  
 
-![Rutinas de registro de órdenes de producción.](media/design_details_inventory_costing_14_production_posting_1.png "Rutinas de registro de órdenes de producción")  
+![Rutinas de registro de órdenes de producción](media/design_details_inventory_costing_14_production_posting_1.png "Rutinas de registro de órdenes de producción")  
 
 En el diagrama siguiente se muestran las asociaciones entre los movimientos resultantes y los objetos de coste.  
 
-![Flujo de movimiento de producción.](media/design_details_inventory_costing_14_production_posting_2.png "Flujo de movimiento de producción")  
+![Flujo de movimiento de producción](media/design_details_inventory_costing_14_production_posting_2.png "Flujo de movimiento de producción")  
 
 El movimiento de capacidad describe el consumo de capacidad en unidades de tiempo, mientras que el movimiento de valoración relacionado describe el valor del consumo de capacidad específico.  
 
@@ -110,6 +110,3 @@ En entornos de coste estándar, el coste de una orden de producción se basa en 
  [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md) [Finanzas](finance.md)  
  [Trabajar con Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

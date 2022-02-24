@@ -1,21 +1,23 @@
 ---
-title: Cómo configurar almacenes para utilizar ubicaciones
-description: Las ubicaciones representan la estructura básica del almacén y se utilizan para realizar sugerencias sobre la colocación de los artículos.
+title: Configurar lugares para utilizar las ubicaciones | Documentos de Microsoft
+description: Las ubicaciones representan la estructura del almacén básico y se utilizan para realizar sugerencias sobre la colocación de los artículos. Cuando haya creado sus ubicaciones, puede definir muy específicamente el contenido que desea que lleve a cada ubicación o la ubicación puede funcionar como una ubicación aleatoria sin contenido específico.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 29ee70ffa50b018073b8f44a66588df3d822b5cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f2d7ecc163737c103c91b2a28a6a8072fad89279
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442959"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310185"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Configurar almacenes para utilizar las ubicaciones
 Las ubicaciones representan la estructura del almacén básico y se utilizan para realizar sugerencias sobre la colocación de los artículos. Cuando haya creado sus ubicaciones, puede definir muy específicamente el contenido que desea que lleve a cada ubicación o la ubicación puede funcionar como una ubicación aleatoria sin contenido específico.  
@@ -26,7 +28,7 @@ Para utilizar la funcionalidad de ubicación en un almacén, primero debe activa
 >  Para poder especificar los códigos de ubicación en la ficha de almacén, deben crearse. Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Configurar una situación para utilizar las ubicaciones  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione la situación donde desea utilizar las ubicaciones.  
 3.  Seleccione la acción **Editar**.  
 4.  En la ficha desplegable **Almacén**, elija la casilla **Obligatorio ubicación**.  
@@ -41,15 +43,12 @@ Para utilizar la funcionalidad de ubicación en un almacén, primero debe activa
 ## <a name="filling-the-consumption-bin"></a>Rellenando la ubicación del consumo
 Este organigrama muestra cómo se rellena el campo de **Código de ubicación** en las líneas del componente de la orden de producción según la ubicación.
 
-![Diagrama de flujo de ubicación.](media/binflow.png "BinFlow")  
+![Gráfico de flujo de ubicación](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Consulte también
-[Gestión de almacenes](warehouse-manage-warehouse.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Gestión almacén](warehouse-manage-warehouse.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

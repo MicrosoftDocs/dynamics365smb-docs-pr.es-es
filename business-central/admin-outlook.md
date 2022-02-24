@@ -1,130 +1,80 @@
 ---
-title: Obtener el complemento Business Central para Outlook
-description: Obtenga información sobre cómo instalar el complemento Business Central para Outlook para su organización o para su propio uso.
-author: jswymer
+title: Usar Business Central con Outlook | Documentos de Microsoft
+description: Este servicio tiene una integración profunda con Office 365 lo que le permite administrar todas sus interacciones y correo de negocio con clientes y proveedores directamente en Outlook.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832
-ms.date: 08/13/2021
-ms.author: jswymer
-ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.search.keywords: SMTP, mail, Office 365
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049600"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186908"
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Obtener el complemento Business Central para Outlook
+# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 
-Con [!INCLUDE[prod_short](includes/prod_short.md)] puede administrar interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con el complemento de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook, puede ver datos financieros relacionados con clientes y proveedores. También puede crear y enviar documentos financieros, como presupuestos y facturas.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] introduce la posibilidad de gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.  
 
-Hay dos formas de instalar el complemento Business Central para Outlook, según su función en la organización:
+## <a name="getting-the-add-in"></a>Obtener el complemento
+Es fácil comenzar con el complemento de [!INCLUDE[d365fin](includes/d365fin_md.md)] para Outlook. En la guía de configuración asistida **Configurar su bandeja de entrada de empresa en Outlook**, puede configurar la conexión para usted o para su organización si su organización usa Office 365. Simplemente especifique su nombre de usuario y contraseña de Office 365, si se le solicita, y díganos si desea recibir un mensaje de correo electrónico de muestra. Los complementos [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan automáticamente a su Outlook. Para obtener más información, consulte [Requisitos mínimos para Outlook](product-requirements.md#outlook).  
 
-- Como administrador de Microsoft 365, utilice *Implementación centralizada* para instalar el complemento automáticamente para toda la organización, grupos o usuarios específicos.
+A continuación, cuando abra Outlook, verá un mensaje de correo electrónico del *administrador de Dynamics 365 Business Central*. Los nuevos complementos se agregan a la cinta de Outlook y, en el explorador, puede ver los complementos de [!INCLUDE[prodshort](includes/prodshort.md)] inmediatamente encima o debajo del cuerpo del mensaje de correo electrónico. Los complementos se actualizan periódicamente y recibirá la notificación de que tiene lista una nueva versión en Outlook.  
 
-- Como cualquier usuario, instale el complemento para su propio uso, si su administrador aún no lo ha implementado por usted.
+> [!TIP]
+> Si utiliza el nuevo Outlook en la web, los complementos de [!INCLUDE [prodshort](includes/prodshort.md)] pueden estar ocultos en **Más acciones**. Si usa el complemento con frecuencia, puede anclarlo para que siempre esté visible de inmediato. Para obtener más información, consulte [Usar complementos en Outlook en la web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Acerca del complemento Business Central para Outlook
+Si trabaja con más de una empresa de [!INCLUDE [prodshort](includes/prodshort.md)], puede cambiar fácilmente entre empresas en Outlook. En la barra de acciones del complemento, elija **Mas acciones** y, a continuación, puede ver la opción para cambiar de una empresa a otra.  
 
-El complemento Business Central para Outlook consta de dos complementos más pequeños:
-
-- Información del contacto
-
-    Este complemento proporciona a los usuarios información del cliente o proveedor de [!INCLUDE[prod_short](includes/prod_short.md)] en los correos electrónicos de Outlook y las citas del calendario. También le permite crear y enviar documentos comerciales de [!INCLUDE[prod_short](includes/prod_short.md)], como ofertas de ventas y facturas a un contacto. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
-
-- Vista de documento
-
-    Cuando un correo electrónico hace referencia a un número de documento comercial en el cuerpo del correo electrónico, este complemento proporciona un enlace directo en línea desde el cuerpo del correo electrónico al documento comercial real en [!INCLUDE[prod_short](includes/prod_short.md)].
-
-Para obtener más información sobre lo que hace con los complementos, consulte [Uso de Business Central como su bandeja de entrada comercial en Outlook](work-outlook-addin.md).
-
-Cada complemento se proporciona como archivo XML, llamado *manifiesto*, que debe instalarse en Outlook de cualquier persona que desee esta funcionalidad. Estos archivos describen cómo activar los complementos y conectarse a Business Central cuando se usan en Outlook. El trabajo con estos archivos normalmente lo realiza un administrador. Como usuario normal, en la mayoría de los casos, no tendrá que manejar estos archivos directamente. Su administrador configurará el complemento para que se instale automáticamente o usted utilizará la configuración asistida incorporada para manejar la instalación.
-
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Implementar el complemento mediante Implementación centralizada como administrador
-
-Implementación centralizada es una característica del Centro de administración de Microsoft 365 que se usa para instalar complementos automáticamente en las aplicaciones de Office de los usuarios, como Outlook. Es la forma recomendada para que los administradores implementen complementos de Office para usuarios y grupos dentro de su organización.
-
+<!--TEMP-->
 > [!NOTE]
-> Para Business Central local, consulte [Configuración del complemento para la integración de Outlook con Business Central local](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) en el contenido de administración (solo en inglés).
+> El cambio de una empresa a otra requiere la fase de lanzamiento 2 de [!INCLUDE [prodshort](includes/prodshort.md)] 2019 o posterior como se anunció en el [plan de versiones](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-### <a name="prerequisites"></a>Requisitos previos
+Algunas empresas que usan Office 365 restringen los permisos de los usuarios para implementar complementos. Debe asegurarse de que tiene una suscripción a Office 365 que incluye correo electrónico y permite implementar complementos. Si desea probar el complemento de todos modos, puede [probar Office 365 gratis](https://products.office.com/try).  
 
-- Una suscripción a Microsoft 365  
-- A los usuarios se les asigna una licencia de Microsoft 365  
-- Su cuenta de Microsoft 365 tiene el rol *Administrador global* o *Administrador de Exchange*
+## <a name="using-the-contact-insights-add-in"></a>Usar el complemento Información del contacto
+Supongamos que recibe un correo electrónico de un cliente que desea obtener una oferta de algunos productos. Puede abrir el complemento [!INCLUDE[d365fin](includes/d365fin_md.md)] directamente en Outlook, que reconoce al remitente como cliente y abre la ficha de cliente para su empresa. Desde este panel puede ver la información general del cliente, así como analizar en más detalle documentos específicos. También puede rebuscar en el historial de ventas del cliente. Si es un contacto nuevo, puede crearlo como nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)] sin salir de Outlook.  
 
-### <a name="deploy-the-add-in"></a>Implementar el complemento
+En el complemento puede crear un presupuesto de ventas y reenviarlo a su cliente sin abandonar la ventana de Outlook. Toda la información que necesita para enviar el presupuesto de ventas está disponible en su bandeja de entrada de empresa de Outlook.  
+Una vez tenga los datos introducidos puede registrar el presupuesto. Puede enviarlo por correo electrónico. [!INCLUDE[d365fin](includes/d365fin_md.md)] genera un archivo .PDF con el presupuesto de ventas y lo adjunta al mensaje que tiene como borrador en el complemento.  
 
-1. En Business Central, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado.
-2. Elija **Implementación centralizada complementos Outlook** para iniciar la guía de configuración asistida.
-3. Revise la primera página y elija **Siguiente** para abrir la página para descargar los complementos.
-4. En la columna **Implementar**, seleccione la casilla de los complementos que desea implementar, y luego elija **Descargar y continuar**.
+De igual forma, si recibe un correo electrónico de un proveedor, puede utilizar el complemento para trabajar con proveedores y facturas de compra.  
 
-    Un archivo con el nombre *OutlookAddins.zip* se descarga en su dispositivo.
+En ocasiones desea ver más campos de los que puede ver en el complemento, como cuando desea rellenar líneas en una factura. Para darle un poco más de espacio para trabajar con eso, puede abrir una página independiente con el complemento. Sigue formando parte de Outlook pero dispone de más espacio. Cuando introduce datos en el documento en la vista de ventana emergente, los cambios se guardan automáticamente. Cuando haya terminado de introducir datos en el documento puede elegir el botón **Aceptar**. Seleccionando el marco del complemento en Outlook se actualiza automáticamente el documento con los cambios que haya hecho en la vista de ventana emergente.  
 
-5. En este punto, ha terminado con el trabajo que necesita hacer en Business Central, por lo que puede elegir **Hecho**.
+## <a name="creating-invoices-from-your-meeting-appointments"></a>Crear facturas de las citas de reunión
+Algunos empresas registran todas las citas facturables en el calendario de Outlook. Con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede crear la factura para el cliente directamente en el producto de calendario: abra la cita y, a continuación, puede abrir el complemento [!INCLUDE[d365fin](includes/d365fin_md.md)], buscar la información existente o crear una factura u otro documento de venta directamente.  
 
-   >[!TIP]
-   > Antes de que elija **Siguiente**, seleccione el vínculo **Ir a Microsoft 365 (se abre en una nueva ventana)** para abrir e iniciar sesión en el Centro de administración de Microsoft 365 en una nueva ventana del navegador. De todos modos, tendrá que ir al Centro de administración de Microsoft 365 en un paso posterior.
+## <a name="doing-quick-document-lookup"></a>Realizar búsquedas rápidas en el documento
+El complemento Vínculos de documento de [!INCLUDE[d365fin](includes/d365fin_md.md)] le da un acceso más rápido a los documentos mencionados en los mensajes de correo electrónico. El complemento está disponible para un mensaje si se reconoce el nombre de un documento en el cuerpo del correo. Abrir el complemento le proporciona un acceso rápido al documento.  
 
-6. Vaya a la carpeta donde se descargó OutlookAddins.zip y extraiga los archivos **Contact Insights.xml** y **Document View.xml** del .zip a una carpeta de su elección.
+Por ejemplo, si recibe un mensaje de correo electrónico que menciona el texto *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] lo identifica como un presupuesto de venda y de esta manera puede abrir ese documento en Outlook. En Outlook haga clic en el botón inmediatamente superior al cuerpo del correo **Vínculos de documento**. En la aplicación web de Outlook seleccione el texto *S-QUO1001* en el cuerpo del mensaje.  
 
-    Para más información, vea [Comprima y descomprima archivos y carpetas](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Inicie sesión en Centro de administración de Microsoft 365, y luego vaya a [Aplicaciones integradas](https://go.microsoft.com/fwlink/?linkid=2163967).
+En el complemento Vínculos de documento puede modificar y realizar diferentes acciones con el documento de la misma forma que lo hace en [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-8. Elija **Cargar aplicaciones personalizadas**.
-9. En la página **Cargar aplicaciones para implementar**, elija **Cargar archivo de manifiesto (.xml) desde el dispositivo** > **Elegir un archivo**.
-10. Seleccione uno de los archivos adicionales que extrajo anteriormente, por ejemplo, **Contact Insights.xml**.
-11. Siga las instrucciones para asignar usuarios e implementar el complemento.
-12. Repita los pasos del 9 al 11 para el otro archivo de complemento si lo desea.
+## <a name="adding-the-add-ins-manually"></a>Agregar los complementos manualmente
+En algunos casos, los complementos no se agregan automáticamente a Outlook. Incluso si usted o un compañero han ejecutado la guía de configuración asistida en nombre de la empresa, es posible que [!INCLUDE[d365fin](includes/d365fin_md.md)] no aparezca en Outlook. Si tiene este problema, puede agregar los complementos de [!INCLUDE[d365fin](includes/d365fin_md.md)] manualmente.  
 
-> [!IMPORTANT]
-> Aparece una marca de verificación verde cuando el complemento se implementa en el centro de administración. Sin embargo, pueden pasar hasta 24 horas antes de que los usuarios vean el complemento la aplicación Outlook. Es posible que los usuarios también tengan que reiniciar Outlook.
+En primer lugar, debe comprobar que tiene acceso a los complementos en su cuenta de Office 365. Simplemente abra su Outlook en un explorador, abra un mensaje, seleccione **Más acciones** (...) en la parte superior del mensaje y, a continuación, en la parte inferior de la lista, seleccione **Obtener complementos**. Esto abre la página **Complementos para Outlook**, donde puede activar [!INCLUDE[prodshort](includes/prodshort.md)] para su Outlook. A continuación, al volver a Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] debe estar disponible.  
 
-Cuando termine, siempre puede cambiar la implementación en el Centro de administración de Microsoft 365, como asignar más usuarios. Para obtener más información sobre la implementación de complementos en el Centro de administración, consulte [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+De igual forma, en el cliente de escritorio de Outlook puede comprobar que [!INCLUDE[d365fin](includes/d365fin_md.md)] se muestra en la página **Obtener complementos**.  
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Instale el complemento para su propio uso
+En ambos casos, si [!INCLUDE[d365fin](includes/d365fin_md.md)] sigue sin estar disponible, tiene que obtener los archivos del manifiesto del complemento. Para obtener más información, póngase en contacto con su administrador de Office 365.
 
-Si su organización lo permite, puede instalar el complemento Business Central solo para usted. Si no está seguro, consulte con su administrador.
+## <a name="using-other-email-accounts"></a>Uso de otras cuentas de correo electrónico
 
-1. En Business Central, vaya al icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Obtener el complemento de Outlook**, y luego elija el enlace relacionado.
-2. Lea la página y elija **Siguiente** cuando esté listo.
-3. Si desea recibir un mensaje de correo electrónico de bienvenida de Business Central con una descripción general del uso del complemento, active **Enviar mensaje de correo de ejemplo**.
-4. Elija **Finalizar** para completar la instalación.
-
-Business Central se conectará a su servidor de correo electrónico e instalará el complemento en su Outlook. Esto no tardará mucho. Ahora está listo para comenzar a usar el complemento en Outlook.
-
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Para Business Central local
-
-Si usa Business Central local, la instalación del complemento puede ser ligeramente diferente.
-
-1. En Business Central, vaya al icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Obtener el complemento de Outlook**, y luego elija el enlace relacionado.
-2. Lea la página y elija **Siguiente** cuando esté listo.
-3. Realice uno de los siguientes pasos, según la página que vea:
-
-    - Si ve el botón **Instalar en mi Outlook**, elíjalo y listo.
-    - Si ve el botón **Siguiente**, elíjalo. En la página siguiente, si desea recibir un mensaje de correo electrónico de bienvenida de Business Central con una descripción general del uso del complemento, active **Enviar mensaje de correo de ejemplo**. A continuación, elija **Terminar** y está listo.
-    - Si ve el botón **Descargar complemento**, selecciónelo y vaya al paso siguiente.
-4. Cuando elige **Descargar complemento**, un archivo con el nombre *OutlookAddins.zip* se descarga en su dispositivo. Deberá ver el archivo en la parte superior del navegador.
-
-   Vaya a la carpeta donde se descargó OutlookAddins.zip y extraiga los archivos **Contact Insights.xml** y **Document View.xml** del .zip a una carpeta de su elección. Para obtener más información sobre cómo extraer archivos, consulte [Comprimir y descomprimir archivos y carpetas](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-
-5. Abra Outlook y elija **Obtener complementos** en la cinta de opciones. O, si está usando Outlook en la web, seleccione el menú desplegable en cualquier mensaje de correo electrónico nuevo o existente, luego seleccione **Obtener complementos**.
-6. Elija **Mis complementos** > **Agregar un complemento personalizado** > **Agregar desde un archivo**.
-7. Elija uno de los archivos .xml que extrajo, como **Contact Insights.xml**, y luego elija **Abrir** > **Instalar**.
-8. Repita los pasos 6 y 7 para el otro archivo .xml, si descargó uno.
-
-Ahora está listo para comenzar a usar el complemento en Outlook.
+Los complementos están diseñados para usarse con Office 365. Si utiliza [!INCLUDE [prodshort](includes/prodshort.md)] local, el administrador sabrá si puede utilizar los complementos de [!INCLUDE [prodshort](includes/prodshort.md)] en Outlook. Para obtener más información, consulte [¿Qué dirección de correo electrónico puedo usar en [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) y [Características que requieren circunstancias específicas](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 
-[Preparación para hacer negocios](ui-get-ready-business.md)  
+[Introducción](product-get-started.md)  
 [Obtener Business Central en mi dispositivo móvil](install-mobile-app.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Finanzas](finance.md)  
@@ -132,6 +82,3 @@ Ahora está listo para comenzar a usar el complemento en Outlook.
 [Compras](purchasing-manage-purchasing.md)  
 [Requisitos mínimos para Outlook](product-requirements.md#outlook)  
 [Usar complementos en Outlook en la web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Resumen de almacén'
-description: Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén.
+title: 'Detalles de diseño: Resumen de almacén | Documentos de Microsoft'
+description: Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén. Se administra en la tabla **Movimiento almacén**. Cada transacción se almacena en un registro de almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 49c25082d8f43210011cc7f482c4f4af330c1a19
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 41f18acde6140ca67050391273e9ace61f48fbb5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011603"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184585"
 ---
 # <a name="design-details-warehouse-overview"></a>Detalles de diseño: Resumen de almacén
 Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén. Se administra en la tabla **Movimiento almacén**. Cada transacción se almacena en un registro de almacén.  
@@ -28,10 +28,10 @@ Cuando los registros de producto se producen fuera del módulo de almacén, se u
 
 En la ilustración siguiente se describen los flujos de almacén típicos.  
 
-![Resumen de procesos de almacén.](media/design_details_warehouse_management_overview.png "Resumen de procesos de almacén")  
+![Resumen de procesos de almacén](media/design_details_warehouse_management_overview.png "Resumen de procesos de almacén")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Gestión avanzada o básica de almacén  
-La funcionalidad de almacén en [!INCLUDE[prod_short](includes/prod_short.md)] se puede implementar en distintos niveles de complejidad, en función de los procesos de una empresa y del volumen de pedidos. La diferencia principal es que las actividades se realizan pedido a pedido en el almacenamiento básico, mientras que se consolidan para varios pedidos en el almacenamiento avanzado.  
+La funcionalidad de almacén en [!INCLUDE[d365fin](includes/d365fin_md.md)] se puede implementar en distintos niveles de complejidad, en función de los procesos de una empresa y del volumen de pedidos. La diferencia principal es que las actividades se realizan pedido a pedido en el almacenamiento básico, mientras que se consolidan para varios pedidos en el almacenamiento avanzado.  
 
  Para diferenciar los distintos niveles de complejidad, en esta documentación se hace referencia a dos denominaciones generales: almacenamiento básico y avanzado. Esta diferenciación sencilla abarca diferentes niveles de complejidad, tal como se define mediante los módulos de producto y de ubicación, cada uno respaldado por distintos documentos de IU. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).  
 
@@ -69,7 +69,7 @@ La funcionalidad de almacén en [!INCLUDE[prod_short](includes/prod_short.md)] s
 Para obtener más información acerca de cada documento, consulte los temas correspondientes en la página.  
 
 ### <a name="terminology"></a>Terminología  
-Para establecer la correspondencia con los conceptos financieros de compras y ventas, en la documentación de almacén de [!INCLUDE[prod_short](includes/prod_short.md)] se hace referencia a los siguientes términos para el flujo de productos en el almacén.  
+Para establecer la correspondencia con los conceptos financieros de compras y ventas, en la documentación de almacén de [!INCLUDE[d365fin](includes/d365fin_md.md)] se hace referencia a los siguientes términos para el flujo de productos en el almacén.  
 
 |Periodo|Description|  
 |----------|---------------------------------------|  
@@ -79,6 +79,3 @@ Para establecer la correspondencia con los conceptos financieros de compras y ve
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

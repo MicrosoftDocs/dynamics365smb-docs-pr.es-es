@@ -1,30 +1,30 @@
 ---
 title: 'Detalles de diseño: Valoración inventario | Documentos de Microsoft'
-description: La valoración de inventario es la determinación del costo de un artículo de inventario.
+description: La valoración del inventario "Valoración de inventario" es la determinación del coste que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 8d68b2c5f0a1026daeca4f872551cbddcd95b047
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 674350643495df02548c91700350b6ad27b39cb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215058"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185185"
 ---
 # <a name="design-details-inventory-valuation"></a>Detalles de diseño: Valoración de inventario
-La valoración del inventario es la determinación del coste que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.  
+La valoración del inventario "Valoración de inventario" es la determinación del coste que se asigna a un producto de inventario, tal como expresa la ecuación siguiente.  
 
 Inventario final = inventario inicial + compras netas – coste de bienes vendidos  
 
-El cálculo de valoración de inventario usa el campo **Importe coste (real)** de los movimientos de valoración del producto. Los movimientos se clasifican según el tipo de movimiento correspondiente a los componentes de coste, el coste directo, el coste indirecto, la desviación, la revalorización y el redondeo. Para obtener más información, consulte [Detalles de diseño: Componentes de coste](design-details-cost-components.md).  
+El cálculo de valoración de inventario usa el campo **Importe coste (real)** de los movimientos de valoración del producto. Los movimientos se clasifican según el tipo de movimiento XE "Tipo de movimiento" correspondiente a los componentes de coste, el coste directo, el coste indirecto, la desviación, la revalorización y el redondeo. Para obtener más información, consulte [Detalles de diseño: Componentes de coste](design-details-cost-components.md).  
 
-Las entradas se aplican una respecto a otra, por liquidación fija o según el supuesto de flujo de coste general definido por el método de coste. Se puede aplicar un movimiento de salida de existencias a varios movimientos de entrada con distintas fechas de registro y, posiblemente, distintos costes. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md). Por lo tanto, el cálculo del valor de inventario para una fecha determinada se basa en la suma de movimientos de valoración positivos y negativos.  
+Las entradas se aplican una respecto a otra, por liquidación fija XE "Liquidación; fija" o según el supuesto de flujo de coste general definido por el método de coste XE "Método; coste" XE "Método de coste". Se puede aplicar un movimiento de salida de existencias a varios movimientos de entrada con distintas fechas de registro y, posiblemente, distintos costes XE "Coste". Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md). Por lo tanto, el cálculo del valor de inventario XE "Valor de inventario" para una fecha determinada se basa en la suma de movimientos de valoración positivos y negativos.  
 
 ## <a name="inventory-valuation-report"></a>Informe de valorización de inventario  
 Para calcular el valor de inventario en el informe **Valoración inventario**, se comienza con el cálculo del valor del inventario del producto en una fecha inicial determinada. Después agrega valor de las entradas de existencias y resta el valor de las salidas de existencias hasta una fecha final determinada. El resultado final es el valor de inventario en la fecha final. El informe calcula estos valores mediante la suma de los valores del campo **Importe coste (real)** en los movimientos de valoración, usando las fechas de registro como filtros.  
@@ -58,7 +58,4 @@ El propósito de la valoración de inventario del trabajo en curso es determinar
 [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md)
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

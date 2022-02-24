@@ -1,21 +1,21 @@
 ---
-title: Acerca de la contabilidad de costes
-description: La contabilidad de costes puede ayudarle a conocer los costes de la dirección de una empresa. La información de contabilidad de costes se ha diseñado para analizar distintos problemas.
+title: Acerca de la contabilidad de costes | Documentos de Microsoft
+description: La contabilidad de costes puede ayudarle a conocer los costes de la dirección de una empresa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 0d349f186757a38b9473b98fc74bfb490b81892e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6c61a23499735d694b2769730c5e3ce22ac835b1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973679"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184153"
 ---
 # <a name="about-cost-accounting"></a>Acerca de la contabilidad de costes
 La contabilidad de costes puede ayudarle a conocer los costes de la dirección de una empresa. La información de contabilidad de costes se ha diseñado para analizar:  
@@ -37,7 +37,7 @@ Contabilidad de costes tiene los siguientes componentes principales:
 
 El diagrama siguiente muestra el flujo de trabajo en contabilidad de costes.  
 
-![Resumen de la contabilidad de costes.](media/costaccountingoverview.png "CostAccountingOverview")  
+![Resumen de la contabilidad de costes](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Tipos de coste, centros de coste y objetos de costes  
 Define los tipos de coste, los centros de coste y los objetos de coste para analizar cuáles son los costes, de dónde provienen y quién debe asumirlos.  
@@ -72,7 +72,4 @@ La mayoría de los informes y las estadística se basan en los movimientos de co
  [Contabilidad para costes](finance-manage-cost-accounting.md)  
  [Finanzas](finance.md)   
  [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

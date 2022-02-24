@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 69e5cbb897527a903594af893c0af44a48dbee27
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788082"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181250"
 ---
 # <a name="set-up-contacts"></a>Configuración de contactos
 Al crear contactos, puede especificar información como, por ejemplo, la industria a la que pertenecen y sus relaciones de negocio con los contactos.
@@ -149,7 +149,7 @@ La herencia de campos sobrescribe los valores predeterminados en la configuraci�
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Sincronizar contactos con clientes, proveedores y cuentas bancarias
 Para sincronizar la ficha de contacto con un cliente, proveedor o tarjeta de cuenta bancaria vinculados, debe completar el campo correspondiente en la sección **Cód. relac. negoc. para** de la pestaña desplegable **Interacciones** en la página de **Configuración de marketing**.  
 
-Para obtener más información, consulte [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Para obtener más información, consulte [Sincronizar contactos con clientes, proveedores y cuentas bancarias](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Búsqueda de contactos duplicados
 Puede elegir que la aplicación busque duplicados de forma automática cada vez que cree un contacto o buscarlos de forma manual después de crearlos. También puede hacer que la aplicación actualice las cadenas de búsqueda de forma automática cada vez que se crea un contacto o se modifica su información. Puede elegir el porcentaje de acierto búsqueda, es decir, el porcentaje de cadenas idénticas que dos contactos deben tener para que la aplicación los considere duplicados. Configúrelo en la pestaña desplegable **Duplicados** de la página **Configuración de marketing**.
@@ -160,7 +160,4 @@ Cuando haya encontrado un contacto duplicado, puede usar la página **Combinar d
 [Gestionar contactos](marketing-contacts.md)  
 [Crear contactos](marketing-create-contact-companies.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

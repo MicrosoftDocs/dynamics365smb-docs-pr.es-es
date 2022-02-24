@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Estructura de tabla | Documentos de Microsoft'
 description: Para conocer cómo se ha rediseñado el almacenamiento y el registro de movimientos de dimensión, es importante entender la estructura de tabla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 6d418633eb884f0b8cfca2f46fc69103a8fabdb2
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 04e9fda4d784f8e1fa049455ddcab989691e821c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215733"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184632"
 ---
 # <a name="design-details-table-structure"></a>Detalles de diseño: Estructura de tablas
 Para entender cómo se almacenan y registran los movimientos de dimensión, es importante comprender la estructura de tabla.  
@@ -181,7 +181,8 @@ El campo 480 existe en las siguientes tablas de búfer.
 |5637|**A/F Mem. int. reg. C/G**|  
 |7136|**Búfer del presupuesto de productos**|  
 
-## <a name="see-also"></a>Consulte también
-
-[Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)  
-[Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   
+## <a name="see-also"></a>Consulte también  
+ [Detalles de diseño: Movimientos de grupo de dimensiones](design-details-dimension-set-entries.md)   
+ [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)   
+ [Detalles de diseño: Búsqueda de combinaciones de dimensiones](design-details-searching-for-dimension-combinations.md)   
+ 

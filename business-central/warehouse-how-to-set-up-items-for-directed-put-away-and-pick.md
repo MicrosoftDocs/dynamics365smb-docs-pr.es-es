@@ -1,27 +1,27 @@
 ---
-title: Configurar ubicación y picking directos
-description: Configure ubicaciones de almacén para ubicación y picking directos, lo que aporta nueva funcionalidad para garantizar que ejecuta los procesos de almacén de la forma más eficaz posible.
+title: Configurar la ubicación y el picking directos | Documentos de Microsoft
+description: Cuando un almacén está configurado para ubicación y picking directos, tiene disponible nueva funcionalidad que le ayuda a ejecutar los procesos de almacén de la forma más eficaz posible. 
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 0c7a49208216b12c234c0b40576b26f4f39e9ab5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5e76ef000ffc9242cf98e11be353b604990bf5ea
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438037"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876412"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurar productos y almacenes para ubicaciones y picking directos
 Cuando un almacén está configurado para ubicación y picking directos, tiene disponible nueva funcionalidad que le ayuda a ejecutar los procesos de almacén de la forma más eficaz posible. Para utilizar toda esta funcionalidad, tiene que proporcionar información adicional sobre los productos, que, a su vez, ayuda a que se realicen los cálculos necesarios para sugerir las formas más efectivas y eficaces de dirigir las actividades de almacén. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Para configurar productos para picking y ubicaciones directas  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
 2.  Abra la ficha del producto que desee configurar para picking y ubicaciones directas.
 3. En la ficha desplegable **Almacén** de la ficha de producto, rellene los campos para definir cómo debe gestionarse el producto en el almacén.  
 4.  Elija la acción **Unidades medida**.
@@ -33,7 +33,7 @@ Cuando un almacén está configurado para ubicación y picking directos, tiene d
 La ubicación y picking directos le ofrecen la posibilidad de tener acceso a características de configuración avanzada de almacén que pueden mejorar su eficacia y la fiabilidad de sus datos. Para utilizar esta funcionalidad, primero debe configurar varios parámetros en su almacén.  
 
 Para utilizar la funcionalidad de ubicación y picking directos debe activar la funcionalidad en la ficha de almacén.    
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Seleccione el almacén donde desea utilizar la ubicación y picking directos y, a continuación, elija la acción **Editar**.  
 3.  En la ficha desplegable **Almacén**, seleccione la casilla **Ubicac. y pick. directo**.  
 
@@ -49,7 +49,7 @@ También puede definir los códigos de clase de almacén, si el almacén trabaja
 Ahora está preparado para configurar zonas, si desea trabajar con ellas en el almacén. El uso de zonas reduce el número de campos que tiene que rellenar al configurar sus ubicaciones, porque las ubicaciones creadas en zonas heredan varias propiedades de la zona. Las zonas también ayudan a los empleados nuevos o temporales a orientarse en el almacén. Observe que el flujo se controla a través de las ubicaciones, por tanto es posible funcionar con las ubicaciones y una sola zona.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Para configurar una zona en el almacén  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.  
 2.  Seleccione el almacén donde desee configurar la zona y abra la ficha de almacén y elija la acción **Zonas**.  
 3.  En la página **Zonas**, rellene los campos necesarios. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -68,7 +68,4 @@ Además, deberá crear plantillas de ubicación y periodos de cuenta. Para obten
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Disponibilidad de seguimiento de productos'
-description: Las páginas Líneas seguimiento producto y Resumen seguimiento producto proporcionan información de disponibilidad dinámica de los números de serie o de lote, incrementando la transparencia para los usuarios.
+title: 'Detalles de diseño: Disponibilidad seguimiento de productos | Documentos de Microsoft'
+description: Las páginas Líneas seguimiento producto y Resumen seguimiento producto proporcionan información de disponibilidad dinámica de los números de serie o de lote. El propósito de esto es aumentar la transparencia para los usuarios con respecto a los documentos de salida, como pedidos de venta, mostrándoles qué números de serie o cuántas unidades de un número de lote están asignado actualmente a otros documentos abiertos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 707adc254b955ce80bbdb9efc2b22a0fb116d9d5
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 628d72c030d26b8de1f7341ea0ebbb0289b02ae5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320868"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185089"
 ---
 # <a name="design-details-item-tracking-availability"></a>Detalles de diseño: Disponibilidad de seguimiento de productos
 Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto** proporcionan información de disponibilidad dinámica de los números de serie o de lote. El propósito de esto es aumentar la transparencia para los usuarios con respecto a los documentos de salida, como pedidos de venta, mostrándoles qué números de serie o cuántas unidades de un número de lote están asignado actualmente a otros documentos abiertos. De este modo se reduce la incertidumbre que provoca la doble asignación y transmite confianza en los procesadores de pedidos de que se pueden cumplir los números y las fechas de seguimiento de producto que han prometido en los pedidos de venta sin registrar. Para obtener más información, consulte [Detalles de diseño: Página de líneas de seguimiento de productos](design-details-item-tracking-lines-window.md).  
@@ -44,6 +44,3 @@ Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto**
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

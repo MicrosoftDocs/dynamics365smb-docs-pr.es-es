@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 11a0065d6b8b5fddcde168cd0dead3a7f4b6a3c7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a97b7d630cb09d763dcefc82870ee0e455b3530d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446148"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301096"
 ---
 # <a name="export-vat-statements-in-xml-format"></a>Exportar declaraciones de IVA en formato XML
 Puede exportar una declaración de IVA en formato XML y después enviarla electrónicamente a las autoridades fiscales.  
@@ -26,13 +26,13 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 ## <a name="to-export-a-vat-statement-in-xml-format"></a>Para exportar declaraciones de IVA en formato XML  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Declaración de IVA** y luego elija el enlace apropiado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Declaración del IVA** y, a continuación, seleccione el vínculo apropiado.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Generar archivo XML**.  
 
     > [!IMPORTANT]  
     >  El nombre de la declaración de IVA debe ser de tipo de plantilla **Informe 1 columna**.  
     >   
-    >  En la versión estándar de [!INCLUDE[prod_short](../../includes/prod_short.md)], el nombre de la declaración del IVA para la declaración telemática 392 es del tipo **Informe 1 columna**.  
+    >  En la versión estándar de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], el nombre de la declaración del IVA para la declaración telemática 392 es del tipo **Informe 1 columna**.  
 
 3.  En la ficha desplegable **Declaración IVA en XML** de la página **Opciones**, rellene los campos tal y como se describe en la tabla siguiente.  
   
@@ -53,6 +53,3 @@ Puede abrir o guardar el archivo XML generado. Ahora puede enviar la declaració
 ## <a name="see-also"></a>Consulte también  
  [Crear plantillas para las declaraciones telemáticas de IVA en formato XML](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Exportar declaraciones de IVA en formato de texto](how-to-export-vat-statements-in-text-format.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

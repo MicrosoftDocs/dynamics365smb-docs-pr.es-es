@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 73c06f996aeb008e3f3b429b5b973b444b39550a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: eee7caa278872af9ce6d3e4115a263655a98784b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770990"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301079"
 ---
 # <a name="payments-in-cash"></a>Pagos en efectivo
 A partir del 1 de enero de 2012, las empresas en España están obligadas a presentar un resumen de los pagos en efectivo que superen los 6.000,00 EUR por cada cliente por cada año.  
@@ -43,6 +43,3 @@ Utilice el proceso **Modelo 340** para informar realizar pagos 340 en la declara
 ## <a name="see-also"></a>Consulte también  
 [Administrar cobros](../../receivables-manage-receivables.md)     
  [Informe 340](report-340.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

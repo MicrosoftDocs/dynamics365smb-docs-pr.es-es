@@ -1,21 +1,21 @@
 ---
-title: Registro de servicio
-description: La funcionalidad de registro de servicios le permite procesar los documentos de manera eficaz y mantener una política de servicio al cliente satisfactoria.
+title: Registro de servicio | Documentos de Microsoft
+description: La funcionalidad de registro de servicios le permite procesar los documentos de manera eficaz y mantener una política de servicio al cliente satisfactoria. Puede crear y actualizar documentos registrados, así como crear movimientos en el área de servicio y en otros módulos para garantizar una correcta actualización.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443034"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192464"
 ---
 # <a name="service-posting"></a>Registro de servicio
 La funcionalidad de registro de servicios le permite procesar los documentos de manera eficaz y mantener una política de servicio al cliente satisfactoria. Puede crear y actualizar documentos registrados, así como crear movimientos en el área de servicio y en otros módulos para garantizar una correcta actualización.  
@@ -26,7 +26,7 @@ La funcionalidad de registro de servicios le permite procesar los documentos de 
 >  En una ubicación en la que no se haya establecido el control de almacén como elemento obligatorio, las acciones de registro se realizan directamente desde la página **Líneas servicio**. En ubicaciones que requieran control de almacén, las acciones de registro descritas, salvo Enviar y Consumir, se realizan indirectamente mediante distintas funciones de envío de almacén, dependiendo de la configuración. Para obtener más información, vea [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Envío  
-La opción enviar permite registrar el tiempo y los productos que se hayan especificado en las líneas de un pedido de servicio una vez haya finalizado el servicio. Se crea un envío registrado y se llevan a cabo actualizaciones en el módulo Inventario y otros módulos de [!INCLUDE[prod_short](includes/prod_short.md)] a fin de reflejar que los productos se han excluido del inventario y se han enviado al cliente. En concreto, se generan movimientos de producto, de valores, de servicio y de garantía.  
+La opción enviar permite registrar el tiempo y los productos que se hayan especificado en las líneas de un pedido de servicio una vez haya finalizado el servicio. Se crea un envío registrado y se llevan a cabo actualizaciones en el módulo Inventario y otros módulos de [!INCLUDE[d365fin](includes/d365fin_md.md)] a fin de reflejar que los productos se han excluido del inventario y se han enviado al cliente. En concreto, se generan movimientos de producto, de valores, de servicio y de garantía.  
 
 Si el almacén está configurado para requerir el control de almacén, el envío y el movimiento de los productos de línea de servicio funcionan de la misma forma que para otros documentos de origen. La única diferencia es que los productos de línea de servicio pueden consumirse externa o internamente, lo cual requiere dos funciones diferentes de lanzamiento.
 
@@ -49,7 +49,7 @@ Cuando se registra una factura, un envío o un abono de servicio, la informació
 
 El procedimiento siguiente utiliza una factura de servicio registrada como ejemplo, pero es posible aplicar el mismo procedimiento a los envíos de servicio registrados y al histórico de abonos.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Factura de servicio registrada** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Factura servicio registrada** y luego elija el enlace relacionado.  
 2. Abra la factura de servicio registrada que desee ver.  
 3. Para obtener un resumen de la factura registrada, elija la acción **Estadísticas**.  
 
@@ -58,6 +58,3 @@ El procedimiento siguiente utiliza una factura de servicio registrada como ejemp
 ## <a name="see-also"></a>Consulte también  
 [Registrar pedidos de servicio](service-how-to-post-service-orders.md)   
 [Crear pedidos de servicio](service-how-to-create-service-orders.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

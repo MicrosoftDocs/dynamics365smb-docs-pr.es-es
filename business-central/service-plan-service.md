@@ -1,28 +1,28 @@
 ---
-title: Procesos de servicio de planificación
-description: Este tema resumen las distintas tareas para configurar reglas y valores para definir las directivas y los procesos de servicios.
+title: Procesos de servicio de planificación | Documentos de Microsoft
+description: Describe las tareas para configurar reglas y valores para definir las directivas y los procesos de servicios.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 06/23/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4e3e879a2f768e8260693d160c419b006159ed46
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323007"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192488"
 ---
 # <a name="planning-services"></a>Servicio de planificación
-Con [!INCLUDE[prod_short](includes/prod_short.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   
+Con [!INCLUDE[d365fin](includes/d365fin_md.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   
 
-[!INCLUDE[prod_short](includes/prod_short.md)] también proporciona algunas herramientas de estadísticas que puede utilizar para determinar como de bien van las cosas e identificar las áreas donde podría mejorar.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] también proporciona algunas herramientas de estadísticas que puede utilizar para determinar como de bien van las cosas e identificar las áreas donde podría mejorar.
   
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
   
@@ -41,6 +41,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Configurar componentes de servicio y de productos](service-how-setup-service-items.md)  
 [Configuración de estados para órdenes y reparaciones de servicio](service-order-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

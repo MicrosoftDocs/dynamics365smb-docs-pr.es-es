@@ -1,51 +1,40 @@
 ---
-title: Cerrar entradas del libro mayor de artículos que provienen del uso de una aplicación fija
-description: Aprenda a crear una aplicación fija entre una transacción de entrada y la transacción de salida original en el diario de productos.
+title: Cómo cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos | Documentos de Microsoft
+description: Puede utilizar el campo **Liquidar por mov.** en la página **Diario de productos** para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original. Por ejemplo, para corregir la transacción de salida o procesar su devolución.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 40
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e951666a06d9100a7a3e3127ec75412d49373a1b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4cec244feb09cf490692e92aa3b58429d4c3e16d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971072"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183457"
 ---
 # <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
-
-Puede utilizar el campo **Liquidar por mov.** en la página **Diario de productos** para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original. Por ejemplo, para corregir la transacción de salida o procesar su devolución.  
+Puede utilizar el campo **Liquidar por mov.** en la página **Diario de productos** para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original. Por ejemplo, para corregir la transacción de salida o procesar su devolución. Para obtener más información, consulte Liquidar por mov.  
 
 > [!IMPORTANT]  
-> Las liquidaciones fijas realizadas de esta forma aplican solo al coste, no a la cantidad. Por consiguiente, el movimiento de producto positivo registrado no cerrará la salida liquidado y seguirá abierto. Esto también aplica cuando se registra una liquidación fija para una positivo a un movimiento negativo que no se ha cerrado mediante un movimiento normal positivo, lo cual produce que tanto los movimientos negativos y positivos sigan abiertos.  
->
-> Esto también significa que no puede cerrar un periodo de inventario si existe tal tipo de movimiento.  
-
-Puede cambiar y volver a liquidar los movimientos de liquidación en determinadas condiciones mediante la página **Hoja liquidación**.  
+>  Las liquidaciones fijas realizadas de esta forma aplican solo al coste, no a la cantidad. Por consiguiente, el movimiento de producto positivo registrado no cerrará la salida liquidado y seguirá abierto. Esto también aplica cuando se registra una liquidación fija para una positivo a un movimiento negativo que no se ha cerrado mediante un movimiento normal positivo, lo cual produce que tanto los movimientos negativos y positivos sigan abiertos.  
+>   
+>  Esto también significa que no puede cerrar un periodo de inventario si existe tal tipo de movimiento.  
 
 El siguiente procedimiento muestra cómo cerrar los movimientos realizando dos registros correctores en el diario de productos.  
 
 ## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Para cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos  
 
-1. Utilice el campo **Liquidar por mov.** para registrar un ajuste positivo con la cantidad correspondiente. Esto cierra el movimiento negativo original con una liquidación fija.  
+1.  Utilice el campo **Liquidar por mov.** para registrar un ajuste positivo con la cantidad correspondiente. Esto cierra el movimiento negativo original con una liquidación fija.  
+2.  Utilice el campo **Liquidar por mov.** para registrar un ajuste negativo. Esto cierra el movimiento positivo de corrección original con una liquidación fija.  
 
-    El campo **Liquidar por mov.** especifica el número del movimiento de productos de salida cuyo coste se desvía al movimiento de producto de entrada cuando se registra una transacción de entrada de tipo **Entrada** o **Compra** con el diario de productos.  
-2. Utilice el campo **Liquidar por mov.** para registrar un ajuste negativo. Esto cierra el movimiento positivo de corrección original con una liquidación fija.  
-
-    El campo **Liq. por nº orden** especifica si la cantidad que aparece en la línea del diario de productos debe liquidarse en un documento ya registrado. Si es así, introduzca el número de movimiento del producto sobre el que debería liquidarse la línea del diario.
-
-## <a name="see-also"></a>Consulte también
-
+## <a name="see-also"></a>Consulte también  
 [Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)  
-[Procesamiento de devoluciones de ventas y cancelaciones](sales-how-process-sales-returns-cancellations.md)  
-[Configuración de valoración de existencias](finance-set-up-inventory-valuation-and-costing.md)  
-[Gestión de costes de inventario](finance-manage-inventory-costs.md)  
-[Detalles de diseño: Métodos de coste](design-details-costing-methods.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Procesamiento de devoluciones de ventas y cancelaciones](sales-how-process-sales-returns-cancellations.md)   
+ [Configuración de valoración de existencias](finance-set-up-inventory-valuation-and-costing.md)   
+ [Gestión de costes de inventario](finance-manage-inventory-costs.md)   
+ [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)

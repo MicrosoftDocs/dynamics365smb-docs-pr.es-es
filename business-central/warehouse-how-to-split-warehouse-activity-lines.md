@@ -1,21 +1,21 @@
 ---
-title: Cómo dividir líneas de actividad de almacén
-description: Lea cómo dividir líneas de actividad del almacén si la capacidad disponible en una ubicación sugerida no es suficiente.
+title: 'Procedimiento: divida las líneas de actividad de almacén | Documentos de Microsoft'
+description: En ubicaciones, movimientos o picking de almacén y en ubicaciones y picking de inventario, se sugieren las ubicaciones para el picking o la ubicación de productos. La cantidad real de la ubicación sugerida quizá no sea suficiente, o no hay sitio suficiente en la ubicación sugerida para ubicar la cantidad requerida. En estos casos, necesita dividir la línea para que los productos de esa línea se obtengan o coloquen en varias ubicaciones.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 46ac47dbf3b1df3f89b83c56215831100edb3827
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 1d1ae140b8a5b2816141696dd4c8eabf702c02da
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325248"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876445"
 ---
 # <a name="split-warehouse-activity-lines"></a>Dividir líneas de actividad de almacén
 En ubicaciones, movimientos o picking de almacén y en ubicaciones y picking de inventario, se sugieren las ubicaciones para el picking o la ubicación de productos. La cantidad real de la ubicación sugerida quizá no sea suficiente, o no hay sitio suficiente en la ubicación sugerida para ubicar la cantidad requerida. En estos casos, necesita dividir la línea para que los productos de esa línea se obtengan o coloquen en varias ubicaciones.  
@@ -37,7 +37,4 @@ El procedimiento siguiente se aplica a todos los documentos de almacén, como ub
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

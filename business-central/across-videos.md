@@ -1,37 +1,33 @@
 ---
-title: Visite nuestra biblioteca de vídeos
-description: Visite nuestra biblioteca de vídeos para obtener ayuda, desde vídeos de introducción que ilustran tareas comunes de "cómo hacer" hasta vídeos de productos temáticos.
+title: ¿Cómo puedo utilizar los vídeos en Business Central? | Documentos de Microsoft
+description: Proporciona acceso a los vídeos de introducción que muestran como realizar tareas comunes.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 06/11/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cbbd4ec47a3a6b6d8ed1ed3ab3db2982d21966aa
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: edcebea944533b0c1c91575dd6f3ec3bafe0688b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324691"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187561"
 ---
 # <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
+Sabemos que algunas personas prefieren ver contenido en lugar de leerlo. Con ese fin, estamos produciendo vídeos cortos y fácilmente digeribles que son independientes o complementan nuestra asistencia al usuario.   
 
-Sabemos que algunas personas prefieren ver contenido en lugar de leerlo. Con ese fin, estamos produciendo vídeos cortos y fácilmente digeribles que son independientes o complementan nuestra asistencia al usuario.  
+Si es nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede lanzar los vídeos de introducción desde la página de bienvenida que se muestra. Si ya está trabajando en [!INCLUDE[d365fin](includes/d365fin_md.md)], puede acceder a la biblioteca desde las Áreas de trabajo **Administrador de negocio** y **Contable** seleccionando los mosaicos **Vídeos de productos**. 
 
-Si es nuevo en [!INCLUDE[prod_short](includes/prod_short.md)], puede lanzar los vídeos de introducción desde la página de bienvenida que se muestra. Si ya está trabajando en [!INCLUDE[prod_short](includes/prod_short.md)], puede acceder a la biblioteca desde las Áreas de trabajo **Administrador de negocio** y **Contable** seleccionando los mosaicos **Vídeos de productos**.  
-
-También puede ver nuestros "tutoriales", además de muchos otros contenidos, en la lista de reproducción de YouTube que hemso creado para [!INCLUDE[prod_short](includes/prod_short.md)]. Para visitar ahora los vídeos, [haga clic aquí](https://go.microsoft.com/fwlink/?linkid=851533).
+También puede ver nuestros "tutoriales", además de muchos otros contenidos, en el canal de YouTube que creamos para [!INCLUDE[d365fin](includes/d365fin_md.md)]. Para visitar ahora el canal haga clic [aquí](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Los vídeos en la biblioteca se muestran en un cuadro que puede parecer pequeño. Para agrandar el marco, elija el icono de flecha de doble extremo en la esquina superior derecha. Después, los videos se mostrarán en el cuadro más grande hasta que vuelva a ser pequeño.
 
 ## <a name="see-also"></a>Consulte también
-
-[Preparación para hacer negocios](ui-get-ready-business.md)  
-[Canal de Dynamics 365 en YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introducción](product-get-started.md)

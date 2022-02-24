@@ -3,27 +3,26 @@ title: 'Detalles de diseño: Liquidación de producto | Documentos de Microsoft'
 description: En este tema se describe donde se registran la cantidad y el valor de existencias cuando se registra una transacción del inventario.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: fd37ec9ca5cc2de00f18f26bccc32aa81cd5659a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215033"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185161"
 ---
 # <a name="design-details-item-application"></a>Detalles de diseño: Liquidación de productos
-
 Cuando se registra una transacción de inventario, el registro de cantidad se guarda en los movimientos de producto y el registro de valor en los movimientos de valoración. Para obtener más información, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
 Además, se hace una solicitud de producto para conectar al destinatario del coste con el origen del coste y hacer así un desvío de coste al método de coste. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] hace dos tipos de liquidación de productos.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] hace dos tipos de liquidación de productos.  
 
 |Tipo de aplicación|Description|  
 |----------------------|---------------------------------------|  
@@ -41,15 +40,15 @@ El hecho que de que se hagan liquidaciones de cantidad o de coste depende de la 
 
 En la tabla siguiente se muestra, según los campos de la aplicación central en las líneas de transacción de inventario, cómo fluyen los costes según la dirección de la transacción. También indica cuándo y por qué la liquidación del producto es de tipo cantidad o coste.  
 
-|-|Campo Liq. por nº orden producto|Campo Liquid.-de mov. pdto|  
+||Campo Liq. por nº orden producto|Campo Liquid.-de mov. pdto|  
 |-|--------------------------------|----------------------------------|  
 |Aplicación de movimiento de salida|El movimiento de salida obtiene el coste del movimiento de entrada abierto.<br /><br /> **Liquidación de cantidad**|No compatible|  
 |Aplicación de movimiento de entrada|El movimiento de entrada envía el coste al movimiento de salida abierto.<br /><br /> El movimiento de entrada es el origen de coste.<br /><br /> **Liquidación de cantidad**|El movimiento de entrada obtiene el coste del movimiento de salida. **Nota:** Al realizar esta liquidación fija, la transacción de entrada se trata como una devolución de venta. Por lo tanto, el movimiento de salida liquidado permanecerá abierto. <br /><br /> El movimiento de entrada NO es el origen de coste.<br /><br /> **Coste liquidación**|  
 
 > [!IMPORTANT]  
-> Una devolución de venta NO se considera un origen de coste cuando se liquida de forma fija.  
->
-> El movimiento de venta permanece abierto hasta que se registra el origen real.  
+>  Una devolución de venta NO se considera un origen de coste cuando se liquida de forma fija.  
+>   
+>  El movimiento de venta permanece abierto hasta que se registra el origen real.  
 
 Un movimiento de liquidación de producto registra la siguiente información.  
 
@@ -89,7 +88,7 @@ En la tabla siguiente se muestran los dos movimientos de liquidación de product
 ## <a name="fixed-application"></a>Liquidación fija  
 Se realiza una liquidación fija cuando especifica que el coste de una entrada de existencias debería aplicarse a una salida de existencias específico o viceversa. La liquidación fija afecta a las cantidades restantes de los movimientos, pero también revierte el coste exacto del movimiento original que está liquidando.  
 
-Para llevar a cabo una liquidación fija, deberá utilizar los campos **Liq. por nº orden producto** o **Liquid. de mov. pdto** situados en las líneas del documento para especificar el movimiento de producto al que desea aplicar la línea de transacción. Por ejemplo, podría realizar una liquidación fija cuando desee crear una liquidación de coste que especifique que debería aplicarse una devolución de ventas a un albarán de ventas concreto con el fin de invertir el coste de dicho albarán de ventas. En este caso, [!INCLUDE[prod_short](includes/prod_short.md)] ignorará el método de coste y aplicará la salida de existencias (o la entrada, en caso de tratarse de una devolución de ventas) al movimiento de producto que especifique. La ventaja de llevar a cabo una liquidación fija, es que el coste de la transacción original se pasa a la nueva transacción.  
+Para llevar a cabo una liquidación fija, deberá utilizar los campos **Liq. por nº orden producto** o **Liquid. de mov. pdto** situados en las líneas del documento para especificar el movimiento de producto al que desea aplicar la línea de transacción. Por ejemplo, podría realizar una liquidación fija cuando desee crear una liquidación de coste que especifique que debería aplicarse una devolución de ventas a un albarán de ventas concreto con el fin de invertir el coste de dicho albarán de ventas. En este caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] ignorará el método de coste y aplicará la salida de existencias (o la entrada, en caso de tratarse de una devolución de ventas) al movimiento de producto que especifique. La ventaja de llevar a cabo una liquidación fija, es que el coste de la transacción original se pasa a la nueva transacción.  
 
 ### <a name="example--fixed-application-in-purchase-return"></a>Ejemplo: Liquidación fija en devolución de compra  
 El ejemplo siguiente, en el que se ilustra el efecto de la liquidación fija de una devolución de compra de un producto mediante la valoración de existencias FIFO, se basa en el escenario siguiente:  
@@ -127,9 +126,7 @@ El ejemplo siguiente, en el que se ilustra el efecto de la liquidación fija, se
 
 En la tabla siguiente se muestra el resultado del escenario en los movimientos de valoración del producto.  
 
-La siguiente tabla muestra el resultado del escenario en las entradas de valor del artículo después de que se completa la contabilización y se ejecuta el ajuste de costos.
-
-|Fecha reg.|Tipo mov. producto|Cdad. valorada|Importe coste (Real)|Liq. por nº orden producto|Valorado a coste medio|Nº mov. producto|N.º de movimiento|  
+|Fecha reg.|Tipo mov. producto|Cdad. valorada|Importe coste (real)|Liq. por nº orden producto|Valorado a coste medio|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Compra|1|200.00||N.º|1|1|  
 |01-01-20|Compra|1|1000.00||No|2|2|  
@@ -192,7 +189,7 @@ En la tabla siguiente se muestra el efecto de la reversión de coste exacta en l
 Al ejecutar el proceso **Valorar stock - movs. producto**, el aumento de coste del movimiento de compra, debido al cargo de producto, se desvía al movimiento de venta (número de movimiento 2). A continuación, el movimiento de venta desvía este aumento de coste al movimiento de abono de venta (movimiento número 3). El resultado final es que el coste se revierte correctamente.  
 
 > [!NOTE]  
->  Si está trabajando con reembolsos o abonos y ha configurado el campo **Coste exacto devolución obligatorio** en la página **Configuración compras y pagos** o en la página **Configuración ventas y cobros**, según corresponda en su caso, [!INCLUDE[prod_short](includes/prod_short.md)] rellenará automáticamente los distintos campos de registro al usar la función **Copiar de documento**. Si utiliza la función **Revertir líneas documentos registrados**, el programa siempre rellenará esos campos automáticamente.  
+>  Si está trabajando con reembolsos o abonos y ha configurado el campo **Coste exacto devolución obligatorio** en la página **Configuración compras y pagos** o en la página **Configuración ventas y cobros**, según corresponda en su caso, [!INCLUDE[d365fin](includes/d365fin_md.md)] rellenará automáticamente los distintos campos de registro al usar la función **Copiar de documento**. Si utiliza la función **Revertir líneas documentos registrados**, el programa siempre rellenará esos campos automáticamente.  
 
 > [!NOTE]  
 >  Si registra una transacción con una liquidación fija y el movimiento de producto al que lo está aplicando está cerrado (lo que significa que la cantidad restante es cero), el programa deshará automáticamente la liquidación anterior y volverá a aplicar el movimiento del producto utilizando la liquidación fija que ha especificado.  
@@ -205,30 +202,30 @@ El ejemplo siguiente, en el que se ilustra cómo se liquidan los movimientos de 
 
 1. El usuario compra el producto con un coste de 10,00 DL.  
 2. El usuario vuelve a comprar el producto con un coste de 20,00 DL.  
-3. El usuario transfiere el producto de la ubicación EAST a WEST.  
+3. El usuario transfiere el producto de la ubicación AZUL a la ROJA.  
 
 En la tabla siguiente se muestra el efecto de la transferencia en los movimientos de valoración del producto.  
 
-|Fecha reg.|Tipo mov. producto|Código de ubicación|Cdad. valorada|Importe coste (Real)|Nº mov.|  
+|Fecha reg.|Tipo mov. producto|Cód. almacén|Cdad. valorada|Importe coste (real)|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Compra|EAST|1|10.00|1|  
-|01-01-20|Compra|EAST|1|20,00|2|  
-|01-02-20|Transferencia|EAST|-1|15.00|3|  
-|01-02-20|Transferencia|WEST|1|15.00|4|  
+|01-01-20|Compra|AZUL|1|10.00|1|  
+|01-01-20|Compra|AZUL|1|20.00|2|  
+|01-02-20|Transferencia|AZUL|-1|15.00|3|  
+|01-02-20|Transferencia|ROJO|1|15.00|4|  
 
 ### <a name="example--standard-costing-method"></a>Ejemplo: Método de coste Estándar  
 El ejemplo siguiente, en el que se ilustra cómo se liquidan los movimientos de transferencia, se basa en el escenario siguiente de un producto que usa la valoración de existencias Estándar y un periodo de coste medio de un día.  
 
 1. El usuario compra el producto con un coste estándar de 10,00 DL.  
-2. El usuario transfiere el producto de la ubicación EAST a WEST con un coste estándar de 12,00 DL.  
+2. El usuario transfiere el producto de la ubicación AZUL a la ROJA con un coste estándar de 12,00 DL.  
 
 En la tabla siguiente se muestra el efecto de la transferencia en los movimientos de valoración del producto.  
 
-|Fecha reg.|Tipo mov. producto|Código de ubicación|Cdad. valorada|Importe coste (Real)|Nº mov.|  
+|Fecha reg.|Tipo mov. producto|Cód. almacén|Cdad. valorada|Importe coste (real)|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Compra|EAST|1|10.00|1|  
-|01-02-20|Transferencia|EAST|-1|10.00|2|  
-|01-02-20|Transferencia|WEST|1|10.00|3|  
+|01-01-20|Compra|AZUL|1|10.00|1|  
+|01-02-20|Transferencia|AZUL|-1|10.00|2|  
+|01-02-20|Transferencia|ROJO|1|10.00|3|  
 
 Como el valor de la entrada de existencias original es 10,00 DL, la transferencia se valora en ese coste, no en 12,00 DL.  
 
@@ -240,7 +237,7 @@ Debido a la forma en la que se calcula el coste unitario de un producto, una liq
 * Desea invalidar la liquidación creada automáticamente al efectuar el registro, según la valoración de existencias del producto.  
 * Tiene que devolver un producto al que ya se le ha aplicado una ventana, sin usar la función **Revertir líneas documentos registrados** y, por lo tanto, debe deshacer la liquidación.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ofrece una característica para analizar y corregir las liquidaciones de productos. Este trabajo se realiza en la página **Hoja liquidación**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece una característica para analizar y corregir las liquidaciones de productos. Este trabajo se realiza en la página **Hoja liquidación**.  
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -250,7 +247,4 @@ Debido a la forma en la que se calcula el coste unitario de un producto, una liq
 [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

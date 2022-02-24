@@ -1,37 +1,38 @@
 ---
-title: Descripción de los tipos de productos
-description: Puede ajustar la valoración de inventario de un producto utilizando los métodos de costes FIFO o Promedio cuando los costes de producto cambien por motivos distintos de las transacciones.
+title: Descripción de los tipos de productos | Documentos de Microsoft
+description: Puede ajustar la valoración de inventario de un producto utilizando los métodos de costes FIFO o Promedio, por ejemplo, cuando los costes de producto cambien por motivos distintos de las transacciones.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9297, 5845, 30,
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059627"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454301"
 ---
 # <a name="about-item-types"></a>Acerca de los tipos de productos
-En el campo **Tipo** en la página **Ficha de producto**, puede seleccionar para qué se usa el producto en su negocio, lo que afecta al grado en el que puede administrar el producto en el inventario. La siguiente tabla enumera y describe los tres tipos de elementos que están disponibles.
+En el campo **Tipo** en la página **Ficha de producto**, puede seleccionar para qué se usa el producto en su negocio y, por lo tanto, cómo se administra en el sistema. Existen tres opciones:
 
 |Opción|Propósito típico|
 |------|-----------|
-|Inventario|Cosas físicas, como bicicletas, teléfonos y escritorios, para las que desea poder utilizar todos los procesos de inventario. Esto también puede incluir elementos no físicos, como licencias de software y suscripciones, si los elementos tienen números de identificación, como números de serie. Puede realizar un seguimiento completo de los valores y la disponibilidad de los artículos en el inventario.|
-|No inventario|Por lo general, los artículos que no están en el inventario son cosas físicas, como tornillos o bolígrafos, que una empresa consume pero que no desea realizar un seguimiento completo en el inventario. Por ejemplo, porque son artículos de bajo coste y solo se usan internamente.|
+|Grupos contables inventario|Una unidad física, como una bicicleta, para un soporte comercial completo.|
+|No inventario|Una unidad física, como un tornillo, para soporte comercial limitado, por ejemplo, porque el artículo solo se usa internamente y tiene un bajo coste.|
 |Servicio|Una unidad de tiempo de trabajo, como una hora de consultoría, para soporte comercial limitado.|
 
-> [!NOTE]
-> Los tipos de **Servicio** y **No inventario** no admiten el seguimiento de la cantidad y el valor del inventario. Solo se admiten los tipos y las características de transacción de los elementos seleccionados.
+El tipo de **inventario** implica el seguimiento completo de la cantidad y el valor del inventario. Por lo tanto, todos los tipos de transacciones de artículos son compatibles y los artículos de tipo Inventario se pueden usar con todas las características de manejo de artículos.
 
-La siguiente table enumera las características que admiten los tres tipos de productos.
+Los tipos de **Servicio** y **No inventario** no implican el seguimiento de la cantidad y el valor del inventario. Por lo tanto, solo se admiten los tipos y las características de transacción de los elementos seleccionados.
+
+Los tres tipos de elementos admiten las siguientes características, respectivamente.
 
 |Tipo de producto|Ccial|Compra|Consumo de proyecto|Consumo de servicio|Consumo de ensamblado|Producción Consumo|Salida de ensamblado|Salida de producción|Transferencia de ubicación|Recuento físico|Revalorización de inventario|Inventario y valoración|Seguim. prod.|Reserva|Gestión de almacén|Planificación|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -56,7 +57,4 @@ Los productos de los clientes con los que realiza el servicio, como una impresor
 [Configurar inventario](inventory-setup-inventory.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

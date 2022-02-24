@@ -1,21 +1,22 @@
 ---
-title: Gestionar ausencia empleados
-description: Describe cómo registrar las ausencias de los empleados y analizar las estadísticas de ausencias mediante las páginas Registro de ausencias y Ausencias de los empleados.
+title: Gestionar ausencias del empleado | Documentos de Microsoft
+description: Describe cómo registrar ausencias del empleados y analizar las estadísticas de las ausencias.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5212, 5211, 5200
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 4b1ba11875ebd9a8ea9e2733f3f2dd6c0e876d86
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: d976ad8644df20821143a9ab31349a77a58eb73a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101404"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182593"
 ---
 # <a name="manage-employee-absence"></a>Gestionar ausencia empleados
 Para administrar la ausencia de un empleado, se debe registrar en la página **Registro de ausencias**. Puede posteriormente hacer un seguimiento de distintas maneras para fines de análisis y creación de informes.
@@ -70,8 +71,5 @@ Puede registrar las ausencias de empleados diariamente o a algún otro intervalo
 ## <a name="see-also"></a>Consulte también
 [Administrar recursos humanos](hr-manage-human-resources.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
-title: Exponer los objetos como servicios web
+title: Exponga los objetos como servicios Web | Documentos de Microsoft
 description: Publique los objetos como servicios web para estén disponibles inmediatamente para la solución Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.search.form: 810
-ms.date: 04/01/2021
+ms.topic: article
+ms.search.keywords: ''
+ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: bf12c7d415fc75841c4b9f88793ba5be69b21693
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011314"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402458"
 ---
 # <a name="publish-a-web-service"></a>Publicar un servicio web
 
-Los servicios web son una forma ligera para hacer que la funcionalidad de la aplicación esté disponible en distintas clases de sistemas externos y usuarios. Por defecto, [!INCLUDE[prod_short](includes/prod_short.md)] expone una serie de objetos, como servicios web, para una mejor integración con otros servicios de Microsoft. Puede agregar otros servicios web según lo requiera su empresa.  
+Los servicios web son una forma ligera para hacer que la funcionalidad de la aplicación esté disponible para una variedad de sistemas externos y usuarios. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un número de objetos que se exponen como servicios Web de forma predeterminada debido a la integración con otros servicios de Microsoft, pero también puede agregar otros servicios Web.  
 
-Configure un servicio web en [!INCLUDE[prod_short](includes/prod_short.md)] y luego publique el servicio web para que esté disponible para los usuarios autenticados. Todo los usuarios autorizados pueden tener acceso a los metadatos de los servicios Web, pero solo los usuarios con permisos suficientes pueden tener acceso a los datos reales.  
+Configure un servicio web en el cliente de [!INCLUDE[d365fin](includes/d365fin_md.md)]. A continuación debe publicar el servicio web para ponerlo a disposición de las solicitudes de servicio en la red. Los usuarios pueden descubrir servicios Web seleccionando un navegador en la ubicación del servidor y solicitando una lista de servicios disponibles. Al publicar un servicio web, estará disponible inmediatamente a través de la red para los usuarios autenticados. Todo los usuarios autorizados pueden tener acceso a los metadatos de los servicios Web, pero solo los usuarios con permisos suficientes pueden tener acceso a los datos reales.
 
 ## <a name="creating-and-publishing-a-web-service"></a>Crear y publicar un servicio web
 
@@ -26,21 +26,20 @@ Los pasos siguientes explican cómo crear y publicar un servicio web.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Para crear y publicar un servicio web  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Servicios web** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Servicios web** y luego elija el enlace relacionado.  
 2. En la página **Servicios web**, elija **Nuevo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    > **Codeunit** y **Página** son tipos válidos para los servicios web de SOAP. **Página** y **Consulta** son tipos válidos para los servicios web de OData. A partir de la versión 16.3, **Codeunit** también es un tipo válido para los servicios web de OData v4, pero no se muestra ninguna URL en la interfaz de usuario. También, si la base de datos contiene varias empresas, puede elegir un Id. objeto que sea específico de una de las empresas.  
+    > **Codeunit** y **Página** son tipos válidos para los servicios web de SOAP. **Página** y **Consulta** son tipos válidos para los servicios web de OData.  
+    > También, si la base de datos contiene varias empresas, puede elegir un Id. objeto que sea específico de una de las empresas.  
     > Finalmente, el nombre del servicio está visible a los consumidores de su servicio Web y es la base para identificar y distinguir servicios Web, por lo que debería hacer que el nombre tenga sentido.
 
 3. Activa la casilla en la columna **Publicado**.  
 
-Cuando publica el servicio web, los campos **URL de OData** y **URL de SOAP** muestran las nuevas URL. Sin embargo, para las codeunits que se exponen como acciones independientes de OData v4, los campos de URL no se muestran.  
-
-Puede probar el servicio web inmediatamente eligiendo los vínculos de los campos **URL de OData** y **URL de SOAP**. Opcionalmente, copie el valor del campo y guárdelo para su uso posterior. Para probar las unidades de código que se exponen como acciones independientes de OData v4, siga las instrucciones de la sección [Verificación de la disponibilidad del servicio web](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) del contenido del desarrollador.
+Al publicar el servicio web, en los campos **URL de OData** y **URL de SOAP**, puede ver las direcciones URL que se generan para el servicio web. Puede probar el servicio web inmediatamente eligiendo los vínculos de los campos **URL de OData** y **URL de SOAP**. Opcionalmente, puede copiar el valor del campo y guardarlo para su uso posterior.  
 
 > [!NOTE]
-> Si los objetos que expone como servicios web no deben ser accesibles desde [!INCLUDE[prod_short](includes/prod_short.md)] en línea, debe marcar los métodos expuestos en el código como `[Scope('OnPrem')]`. Para obtener más información, consulte [Ámbito de atributo](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Si los objetos que expone como servicios web no deben ser accesibles desde [!INCLUDE [prodshort](includes/prodshort.md)] en línea, debe marcar los métodos expuestos en el código como `[Scope('OnPrem')]`. Para obtener más información, consulte [Ámbito de atributo](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Una vez publique un servicio Web, está disponible a partes externas. Puede verificar la disponibilidad del servicio web con un explorador o bien, puede elegir el vínculo de los campos **URL de OData** y **URL de SOAP** en la página **Servicios web**. El procedimiento siguiente muestra cómo puede comprobar la disponibilidad del servicio web para uso posterior.  
 
@@ -56,7 +55,7 @@ Una vez publique un servicio Web, está disponible a partes externas. Puede veri
 
 2. Revise la información que se muestra en el explorador. Compruebe que puede ver el nombre del servicio web que ha creado.  
 
-Cuando obtiene acceso a un servicio web, y desea escribir datos de nuevo en [!INCLUDE[prod_short](includes/prod_short.md)], debe especificar el nombre de la empresa. Puede especificar la empresa como parte del URI como se muestra en los ejemplos o bien; alternativamente, puede especificar la empresa como parte de los parámetros de consulta. Por ejemplo, los URI siguientes señalan al mismo servicio web de OData y ambos son URI válidos.  
+Cuando obtiene acceso a un servicio web, y desea escribir datos de nuevo en [!INCLUDE[d365fin](includes/d365fin_md.md)], debe especificar el nombre de la empresa. Puede especificar la empresa como parte del URI como se muestra en los ejemplos o bien, puede especificar la empresa como parte de los parámetros de consulta. Por ejemplo, los URI siguientes señalan al mismo servicio web de OData y ambos son URI válidos.  
 
 ```
 https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  
@@ -71,6 +70,3 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 [Administración](admin-setup-and-administration.md)  
 [Servicios web de Business Central para desarrolladores](/dynamics365/business-central/dev-itpro/webservices/web-services)  
 [Límites de solicitud de OData](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

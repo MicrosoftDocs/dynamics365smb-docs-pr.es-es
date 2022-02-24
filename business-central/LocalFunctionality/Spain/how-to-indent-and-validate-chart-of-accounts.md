@@ -3,19 +3,19 @@ title: Test y validación del plan de cuentas
 description: En la página Ficha cuenta, se puede efectuar el test y la validación del plan de cuentas. Puede escribir 20 números como máximo. Las cuentas se ordenan según la cadena.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 593c4dec750d1611beef552bb33b6f0f6190b0c5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 3b160bc4bb68557de4242ebf876fc4763d0f98f5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446117"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878825"
 ---
 # <a name="indent-and-validate-chart-of-accounts"></a>Efectuar el test y la validación del plan de cuentas
 En la página **Ficha cuenta**, se puede efectuar el test y la validación del plan de cuentas. Puede escribir 20 números como máximo. Las cuentas se ordenan según la cadena, como se muestran en el siguiente ejemplo.  
@@ -31,7 +31,7 @@ En la página **Ficha cuenta**, se puede efectuar el test y la validación del p
 
 ## <a name="to-indent-and-validate-the-chart-of-accounts"></a>Para efectuar el test y la validación del plan de cuentas  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Plan de cuentas** y, a continuación, seleccione el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En la ficha desplegable **General**, en el campo **Nº** escriba el número de la cuenta de contabilidad que está configurando.  
 4.  En el campo **Tipo mov.**, seleccione **Registro** o **Mayor**. **Registro** implica que se pueden registrar movimientos en la cuenta. **Mayor** implica que no se pueden registrar movimientos en la cuenta.  
@@ -53,6 +53,3 @@ En la página **Ficha cuenta**, se puede efectuar el test y la validación del p
 
 ## <a name="see-also"></a>Consulte también  
 [Funcionalidad local para España](spain-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

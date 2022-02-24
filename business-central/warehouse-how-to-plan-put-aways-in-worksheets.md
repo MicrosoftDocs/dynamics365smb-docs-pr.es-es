@@ -1,21 +1,21 @@
 ---
-title: Planificar ubicaciones en hojas de trabajo
-description: Configure su almacén de modo que las líneas de recepción estén disponibles para usted en la hoja de trabajo de ubicación cuando desee planificar las instrucciones de ubicación de las recepciones.
+title: Cómo planificar ubicaciones en la hoja de trabajo | Documentos de Microsoft
+description: Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varios albaranes, en vez de hacer que los empleados sigan las instrucciones que crea la aplicación para albaranes registrados independientes, puede utilizar la hoja de trabajo de ubicación.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d7cea5a62f432b569967c088211ad7c41c5f4a64
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438187"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192920"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planificar ubicaciones en hojas de trabajo
 Si el almacén requiere los procesos de ubicación y recepción, y desea planificar instrucciones de ubicación para varios albaranes, en vez de hacer que los empleados sigan las instrucciones que crea la aplicación para albaranes registrados independientes, puede utilizar la hoja de trabajo de ubicación.  
@@ -31,7 +31,7 @@ Si no selecciona este campo, la aplicación creará automáticamente instruccion
 > 2.  Continúe el proceso de tantas ubicaciones como desee, hasta que haya eliminado todas las líneas con las que no desee trabajar en la hoja de trabajo. Ahora seleccione **Hojas trab. ubicación** y realice la planificación.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Para planificar instrucciones en la hoja de trabajo de ubicación  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo ubic.** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de ubicación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Traer documentos almacén**. Se abre la página **Selección ubicación**.  
 
     Vea las recepciones registradas y las ubicaciones internas registradas que se han pasado a la función de ubicación, incluidas aquellas para las que ya se han creado instrucciones de ubicación. Los documentos con líneas de ubicación que ya se han ubicado y registrado completamente no se muestran en la lista.  
@@ -68,7 +68,4 @@ Si no selecciona este campo, la aplicación creará automáticamente instruccion
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

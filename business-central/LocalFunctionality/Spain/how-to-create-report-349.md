@@ -1,29 +1,30 @@
 ---
-title: Crear el informe 349 [ES]
-description: Lea sobre cómo utilizar la versión en español de Business Central para enviar electrónicamente la declaración del Informe 349 a las autoridades fiscales.
+title: Creación del informe 349
+description: Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 10736
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: c469eed03cf77e5502d6973fc4c7427f8a86b756
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: e018ae685b7ea8b1c1c5444e68e11c388a7b15a2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947215"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301105"
 ---
-# <a name="create-report-349-in-the-spanish-version"></a>Crear informe 349 en la versión en español
+# <a name="create-report-349"></a>Crear el informe 349
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181).  
 
 ## <a name="to-create-report-349"></a>Para crear el informe 349  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Modelo 349** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Modelo 349** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -68,6 +69,3 @@ Para correcciones de importes que se incluyeron en un modelo 349 anterior, la p�
 
 ## <a name="see-also"></a>Consulte también  
 [Informe 349](report-349.md)   
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

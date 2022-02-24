@@ -3,19 +3,19 @@ title: 'Detalles de diseño: cuentas de contabilidad | Documentos de Microsoft'
 description: Para conciliar los movimientos de inventario y de capacidad con la contabilidad, los movimientos de valoración relacionas se registran en cuentas distintas en la contabilidad.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 41b94d44ba374ecbcad64a2b1da100fcf3e1a2ab
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6e6af3c9afe8e0d63d5ec2bcfe4905be0a7997df
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215583"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185881"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Detalles de diseño: cuentas de contabilidad
 Para conciliar los movimientos de inventario y de capacidad con la contabilidad, los movimientos de valoración relacionas se registran en cuentas distintas en la contabilidad. Para obtener más información, consulte [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md).  
@@ -99,7 +99,4 @@ En la tabla siguiente se muestra cómo se calculan los importes para registrar e
  [Detalles de diseño: Registro de coste previsto](design-details-expected-cost-posting.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

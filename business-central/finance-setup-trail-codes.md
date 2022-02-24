@@ -1,22 +1,21 @@
 ---
-title: Configurar códigos para trazas de auditorías
+title: Configurar códigos para pistas de auditoría | Documentos de Microsoft
 description: Aprenda sobre las tareas para configurar códigos de origen y códigos de auditoría que puede usar para realizar un seguimiento de pistas de auditoría.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 257, 259, 279
-ms.date: 04/01/2021
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: c6327be4cdcd1e51096a8e19601556305b772011
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971945"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372692"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuración de códigos de origen y códigos de auditoría para pistas de auditoría
 
@@ -34,7 +33,7 @@ Cuando registra o ejecuta un trabajo por lotes, el programa adjunta automáticam
 
 ### <a name="to-define-source-codes"></a>Para definir códigos de origen
 
-1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Configuración códigos origen** y luego elija el enlace relacionado.  
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Configuración códigos origen** y, a continuación, elija el vínculo relacionado.  
 
 2. En la ventana **Configuración del código fuente**, especifique el código fuente relevante para cada tipo de registro y trabajo por lotes.  
 
@@ -46,7 +45,7 @@ Puede querer cambiar un código de origen. Por ejemplo, quiere modificar el cód
 
 ### <a name="to-change-source-codes"></a>Para modificar códigos de origen
 
-1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Códigos de origen** y luego elija el enlace relacionado.
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Códigos de origen** y, a continuación, elija el vínculo relacionado.
 
 2. En la línea que contiene el código que debe modificarse, seleccione el código en el campo **Código**.
 
@@ -60,7 +59,7 @@ Los códigos de auditoría complementan los código de origen y se utilizan para
 
 ### <a name="to-set-up-reason-codes"></a>Para configurar códigos de auditoría
 
-1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe")  , escriba **Códigos de auditoría** y luego elija el enlace relacionado.
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Código de auditoría** y, a continuación, elija el vínculo relacionado.
 
 2. En la ventana **Códigos auditoría**, introduzca el primer código en el campo **Código**. En el campo **Descripción**, escriba un texto explicativo.
 
@@ -70,7 +69,7 @@ El siguiente procedimiento describe cómo agregar un código de auditoría a un 
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Para asignar códigos de auditoría a libros de diarios
 
-1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe")  , escriba **Libros diario general**, y luego elija el enlace relacionado.
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Libro diario general** y, a continuación, elija el vínculo relacionado.
 
 2. En la línea que contiene el libro del diario seleccionado, en el campo **Código de auditoría**, especifique el código relevante.
 
@@ -95,9 +94,6 @@ Al registrar la factura, el código de auditoría se copia en cada movimiento de
 [Trabajar con dimensiones](finance-dimensions.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,21 +1,21 @@
 ---
-title: Importar y exportar un diseño de informe o documento
+title: Importar y exportar un diseño de informe y de documento | Documentos de Microsoft
 description: Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.search.keywords: ''
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101352"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954055"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importar y exportar diseños de informe personalizados
 Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red. Por ejemplo, puede exportar un diseño de informe y, a continuación, enviar el archivo a otra persona para que lo modifique. Esa persona podrá entonces hacer las modificaciones en el diseño y devolverle el archivo para que pueda importarlo de nuevo.  
@@ -25,7 +25,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Para exportar un diseño de informe a un archivo  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
 2.  Seleccione la fila para el informe que contiene el diseño de informe personalizado que desea exportar y, a continuación, elija la acción **Diseños personalizados**.  
 
@@ -39,7 +39,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
      Un archivo de diseño de informe de Word debe tener la extensión de tipo de archivo .docx. El archivo de diseño de informe de RDLC debe tener la extensión de tipo de archivo .rdlc o .rdl.  
 
-2.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
+2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
 3.  Seleccione la fila para el informe para el que desee importar el diseño de informe y, a continuación, elija la acción **Diseños personalizados**.  
 
@@ -51,11 +51,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Consulte también
-
-[Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
-[Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
-[Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)    
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Consulte también  
+ [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
+ [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
+ [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)    

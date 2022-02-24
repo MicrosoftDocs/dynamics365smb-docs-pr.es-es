@@ -1,31 +1,30 @@
 ---
-title: Configuración de unidades de almacenamiento
+title: Configurar unidades de almacenamiento | Documentos de Microsoft
 description: Utilice unidades de almacenamiento para registrar información sobre los productos de un determinado almacén o de un código de variante en particular.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 5704, 5700, 5702, 5701
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 1a7314d228eef2ff45c7aaf4e3784290f9b17113
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 610939cb61c917d5319fc758e582c0d169d7f11b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059417"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182017"
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurar unidades de almacenamiento
-Utilice unidades de almacenamiento para registrar información sobre los productos de un determinado almacén o código de variante.  
+Utilice unidades de almacenamiento para registrar información sobre los productos de un determinado almacén o de un código de variante en particular.  
 
-Las unidades de almacenamiento vienen a complementar las fichas del producto. No los reemplazan, aunque guardan cierta relación con ellos. Estas unidades le permiten distinguir información sobre un producto de un determinado almacén, como un almacén o un centro de distribución, o de una determinada variante, como distintos códigos de situación e información de reposición.  
+ Las unidades de almacenamiento vienen a complementar las fichas del producto. No los reemplazan, aunque guardan cierta relación con ellos. Estas unidades le permiten distinguir información sobre un producto de un determinado almacén, como un almacén o un centro de distribución, o de una determinada variante, como distintos códigos de situación e información de reposición.  
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Para configurar una unidad de almacenamiento  
 
-1.  Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de almacenamiento**, y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de almacenamiento** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Complete los campos de la ficha. Se requieren los siguientes campos: **Nº producto**, **Cód. almacén** y/o **Cód. variante**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -47,7 +46,4 @@ Para crear varias unidades de almacenamiento para un producto, utilice el proces
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

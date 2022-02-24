@@ -1,23 +1,23 @@
 ---
-title: Crear oportunidades de ventas
-description: Este artículo describe cómo crear oportunidades a partir de un vendedor o un contacto en Business Central.
+title: Crear oportunidades de ventas | Documentos de Microsoft
+description: Describe cómo crear oportunidades a partir de un vendedor o un contacto en Business Central.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/22/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 68074c38203f987ed4ff48d9c14ad4a25891e8ba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437271"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181537"
 ---
 # <a name="create-sales-opportunities"></a>Crear oportunidades de ventas
 Puede crear oportunidades para las oportunidades de ventas de sus contactos. Las oportunidades deben asignarse a un vendedor o comprador y deben incluir un contacto.
@@ -27,7 +27,7 @@ Puede crear oportunidades desde la página **Lista oportunidades**. Pero, normal
 Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para obtener más información, vea [Configurar etapas y ciclos de venta de oportunidades](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Para crear una oportunidad a partir de un vendedor
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Vendedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Vendedores** y luego elija el enlace relacionado.
 2. Seleccione el vendedor de la lista para el que desea crear una oportunidad.
 3. Elija la acción **Oportunidades** y, a continuación, elija **Lista**.
 4. Elija **Nuevo** y, a continuación, rellene los campos según sea pertinente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Para crear una oportunidad a partir de un contacto
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contactos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione el contacto de la lista para el que desea crear una oportunidad.
 3. Realice una de las siguientes acciones:
    * Elija la acción **Crear oportunidad**.
@@ -46,6 +46,3 @@ Antes de crear oportunidad, debe configurar los ciclos ventas oportunidad. Para 
 [Ventas](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

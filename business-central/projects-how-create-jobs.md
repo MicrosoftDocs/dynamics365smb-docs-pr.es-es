@@ -1,20 +1,19 @@
 ---
-title: Crear una ficha de proyecto para un proyecto y especificar las tareas
+title: Crear una ficha de proyecto para un proyecto y especificar las tareas | Documentos de Microsoft
 description: Para un proyecto nuevo, cree una ficha de proyecto que contenga tareas y líneas de planificación, como ayuda para administrar el progreso y los presupuestos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.workload: na
 ms.search.keywords: project management, task
-ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e47aeba75459a7360ff3de87df3582b0cc0a4c17
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 4ac7fc5f7b3a7d4510ccf75002ca720eaae47e77
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101248"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312921"
 ---
 # <a name="create-jobs"></a>Crear proyectos
 Cuando inicie un proyecto nuevo, debe crear una ficha de proyecto con tareas de proyecto integradas y líneas de planificación de proyecto, estructuradas en dos niveles.  
@@ -31,7 +30,7 @@ La estructura de capas permite dividir el proyecto en tareas más pequeñas y us
 ## <a name="to-create-a-job-card"></a>Para crear una ficha de proyecto
 Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proyecto y las líneas de planificación de proyecto para el mismo.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Para especificar el proyecto con la información sobre otros proyectos, elija la acción **Copiar proyecto**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
@@ -41,7 +40,7 @@ Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proy
 ## <a name="to-create-tasks-for-a-job"></a>Para crear tareas para un proyecto
 Una parte clave de la creación de un proyecto es especificar las diversas tareas que conlleva. Para ello, debe agregar líneas nuevas en la ficha desplegable **Tareas** de la página **Ficha de proyecto**, con una tarea por línea. Cada proyecto debe tener al menos una tarea.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
 2. Abra la ficha de un proyecto relevante.
 3. En la ficha desplegable **Tareas**, rellene los campos según sea necesario en una nueva línea.
 4. Para indentar las tareas y crear una jerarquía, elija la acción **Tareas** y, a continuación, elija la acción **Indentar tareas proyecto**.
@@ -61,7 +60,7 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 
 **Nota**. A medida que introduzca información en las líneas de planificación, la información de costes se completará automáticamente. Por ejemplo, el coste, el precio y el descuento de los recursos y productos se basarán inicialmente en la información que se haya definido en las fichas de los recursos y productos.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.
 2. Abra una ficha de un proyecto relevante.
 3. Seleccione una tarea de proyecto cuyos campo **Tipo tarea proyecto** contenga **Registrar** y seleccione la acción **Líneas planificación proyecto**.  
 4. En la página **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
@@ -74,7 +73,4 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,21 +1,21 @@
 ---
-title: Preparar un paquete de configuración
-description: Aprenda ahora a preparar un paquete de configuración RapidStart que puede ayudarlo a establecer nuevas empresas basadas en datos existentes.
-author: bholtorf
+title: Preparar un paquete de configuración | Documentos de Microsoft
+description: Aprenda ahora a configurar un paquete de configuración RapidStart que puede ayudarlo a establecer nuevas empresas basadas en datos existentes.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: bholtorf
-ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660236"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535977"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 
@@ -30,12 +30,6 @@ Hay algunas cosas a tener en cuenta antes de crear un paquete de configuración 
 ### <a name="tables-that-contain-posted-entries"></a>Tablas que contienen movimientos registrados
 
 No puede importar datos a tablas que contengan movimientos registrados, como las tablas para clientes, proveedores y movimiento de productos, por lo que no debe incluir estos datos en su paquete de configuración. Puede añadir movimientos a estas tablas después de importar el paquete de configuración mediante el uso de diarios para registrar los movimientos. Para más información, consulte [Registrar documentos y diarios](ui-post-documents-journals.md).
-
-### <a name="table-names-that-contain-special-characters"></a>Nombres de tablas que contienen caracteres especiales
-
-Tenga cuidado si tiene tablas o campos que tienen el mismo nombre temporal pero que se diferencian por caracteres especiales, como %, &, <, >, ( y ). Por ejemplo, la tabla "XYZ" puede contener los campos "Campo 1" y "Campo 1%".
-
-El procesador XML acepta solo algunos caracteres especiales y eliminará los que no. Si al eliminar un carácter especial, como el signo % en el "Campo 1%", se obtienen dos o más tablas o campos con el mismo nombre, se producirá un error al exportar o importar un paquete de configuración. 
 
 ### <a name="licensing"></a>Licencias
 
@@ -56,14 +50,14 @@ Puede importar un paquete de configuración que se ha exportado desde una base d
 
 ## <a name="to-create-a-configuration-package"></a>Procedimiento para crear un paquete de configuración
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. En la ficha desplegable **General**, rellene el resto de los campos según corresponda. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Para excluir del paquete los cuestionarios de configuración, las plantillas de configuración y las tablas de la hoja de trabajo de configuración, active la casilla **Excluir tablas de configuración**. De lo contrario, estas tablas se agregarán automáticamente a la lista de tablas del paquete cuando este se exporte.  
 5. Seleccione la acción **Obtener tablas**. Se abre la página de proceso **Traer tablas de paquete**.  
 6. Elija el campo **Seleccionar tablas**. Se abre la página **Selección config**.  
 7. Elija la acción **Seleccionar todo** para agregar todas las tablas al paquete, o bien active la casilla **Seleccionado** para cada tabla de la lista que desee agregar.
-8. Elija el botón **Aceptar**. El número de tablas seleccionado se indica en el campo **Seleccionar tablas**. Especifique las opciones adicionales y, a continuación, seleccione el botón **Aceptar**. Las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] se agregan a las líneas de la página **Config. paquete**.  
+8. Elija el botón **Aceptar**. El número de tablas seleccionado se indica en el campo **Seleccionar tablas**. Especifique las opciones adicionales y, a continuación, seleccione el botón **Aceptar**. Las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan a las líneas de la página **Config. paquete**.  
 
     > [!NOTE]  
     >  También puede hacer esta operación en la hoja de trabajo de configuración. Seleccione las tablas que desea incluir en el paquete y seleccione la acción **Asignar paquete**.
@@ -74,20 +68,8 @@ Especifique los campos que se incluyen en el paquete. De manera predeterminada, 
     - Para seleccionar solo los campos que desee incluir, elija la acción **Borrar incluido**. Para agregar todos los campos, elija la acción **Establecer incluidos**.  
     - Para especificar que los datos de campo no deben validarse, desactive la casilla **Validar campo** del campo.  
 
-10. Opcionalmente, para aplicar filtros de procesamiento en los datos de la tabla o para agregar una codeunit con cualquier código que desee incluir en el paquete, elija la línea para la tabla pertinente y luego elija la acción **Reglas de procesamiento**.
-
-    1. En la página **Config. Reglas de procesamiento de tablas**, rellene los campos. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-        - Para aplicar filtros a los datos, especifique la acción pertinente en el campo **Acción**, elija la acción **Filtros de procesamiento** y luego rellene los campos.  
-
-            Por ejemplo, los paquetes de configuración de Microsoft para las empresas de evaluación establecen filtros de procesamiento en las tablas **Encabezado de ventas** y **Encabezado de compras**.
-        - Para agregar una codeunit de procesamiento, especifíquela en el campo **ID de codeunit de procesamiento personalizado**.
-
-          > [!NOTE]
-          > Esta codeunit debe tomar la tabla 8614 *Config. Registro de paquete* como parámetro en el método `OnRun`.
-    2. Cierre la página.
-11. Determine si ha introducido errores potenciales y elija la acción **Validar paquete**. Esto puede suceder cuando no incluye tablas en las que depende la configuración.  
-12. Elija el botón **Aceptar**.  
+10. Determine si ha introducido errores potenciales y elija la acción **Validar paquete**. Esto puede suceder cuando no incluye tablas en las que depende la configuración.  
+11. Elija el botón **Aceptar**.  
 
 Cuando haya ajustado la lista de campos que se deben incluir de una tabla, puede comprobar los resultados en Excel.  
 
@@ -119,7 +101,7 @@ Puede guardar el archivo con un nombre que tenga significado para usted, pero no
 
 Una vez que haya creado un paquete que satisfaga la mayoría de sus necesidades, puede emplearlo como base para crear paquetes similares. Esto puede agilizar el tiempo de implementación y mejora la capacidad de repetición de RapidStart Services.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 2. Seleccione un paquete de la lista y, a continuación, seleccione la acción **Copiar paquete**.  
 3. Escriba un código para el nuevo paquete en el campo **Nuevo código paquete**.  
 4. Active la casilla **Copiar datos** si también desea copiar los datos de base de datos del paquete existente.  
@@ -129,7 +111,7 @@ Una vez que haya creado un paquete que satisfaga la mayoría de sus necesidades,
 
 Use la hoja de trabajo de configuración para recopilar y clasificar la información que desea usar para configurar una nueva empresa, y organice las tablas de manera lógica. El formato de la hoja de trabajo se basa en una jerarquía sencilla: las áreas contienen grupos que, a su vez, contienen tablas. Las áreas y los grupos son opcionales, pero son necesarios para activar un resumen del proceso de configuración en el Área de trabajo de RapidStart Services.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 2. En el campo **Tipo línea**, elija **Área**. Especifique un nombre descriptivo en el campo **Nombre**.  
 3. En el campo **Tipo línea**, elija **Grupo**. Especifique un nombre descriptivo en el campo **Nombre**.  
 4. En el campo **Tipo línea**, elija **Tabla**. En el campo **Id. tabla**, seleccione la tabla que desee incluir en la hoja de trabajo.  
@@ -148,7 +130,7 @@ Una vez definidas las tablas que se deben procesar como parte de la configuraci�
 > [!NOTE]  
 > También puede crear un paquete directamente y agregarle tablas. Para obtener más información sobre cómo crear un proyecto, consulte [Para crear un paquete de configuración](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. En la hoja de trabajo de configuración, seleccione una línea o un grupo de líneas que desee asignar a un paquete de configuración y elija la acción **Asignar paquete**.  
 3. Seleccione un paquete de la lista o elija la acción **Nuevo** para crear un nuevo paquete y, a continuación, elija el botón **Aceptar**.  
 
@@ -159,11 +141,11 @@ Una vez definidas las tablas que se deben procesar como parte de la configuraci�
 
 A medida que crea un paquete de configuración para una solución, puede ver y personalizar los datos de base de datos disponibles para satisfacer las necesidades del cliente. La tabla de base de datos debe tener una página asociada.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.
 2. En la hoja de trabajo de configuración, indique las tablas cuyos datos desee ver o personalizar.  
 
     > [!NOTE]  
-    >  Asegúrese de que cada tabla tenga asignado un identificador de página. Para las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.
+    >  Asegúrese de que cada tabla tenga asignado un identificador de página. Para las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.
 
 3. Seleccione la acción **Datos de base de datos**. Se abre la página relacionada para la página.
 4. Revise la información disponible. Modifíquela según sea necesario. Para ello, elimine los registros que no son pertinentes o agregue registros nuevos.  
@@ -173,7 +155,7 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
 Una vez que haya revisado y probado toda la información de configuración, puede comenzar a copiar datos al entorno de producción. Crea una nueva empresa en la misma base de datos.
 
 1. Abra e inicializa la nueva empresa.  
-2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 3. Seleccione la acción **Copiar datos desde empresa**.  
 4. En la página **Copiar datos de empresa**, elija el campo **Copiar de**. Se abre la página **Empresas**.  
 5. Seleccione la empresa desde la que desea copiar datos y elija el botón **Aceptar**. Aparece una lista de tablas seleccionadas en la hoja de trabajo de configuración. Solo las tablas que contienen registros se incluyen en la lista.
@@ -186,7 +168,3 @@ Una vez que haya revisado y probado toda la información de configuración, pued
 [Establecer la configuración de una empresa](admin-set-up-company-configuration.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)  
-[Análisis de la telemetría de seguimiento del paquete de configuración](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Gestionar las interacciones con los contactos
+title: Administrar interacciones con los contactos | Documentos de Microsoft
 description: Puede administrar todos los tipos de comunicaciones o interacciones entre su empresa y sus contactos; por ejemplo, cartas, llamadas de teléfono, reuniones, etc.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059447"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181393"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrar interacciones con contactos
 La configuración de su aplicación para registrar interacciones consta de tres pasos:
@@ -50,12 +50,9 @@ En esta página, puede hacer lo siguiente:
 * Ver el estado de las interacciones.
 * Marcar las interacciones como canceladas.
 
-Puede eliminar los movimientos de registro de interacción que han sido cancelados. Para eliminar movimientos de registro de interacción, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar mov. cancel. reg. inter.** y, a continuación, elija el vínculo relacionado y rellene la información.
+Puede eliminar los movimientos de registro de interacción que han sido cancelados. Para eliminar os movimientos de registro de interacción, seleccione el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Eliminar mov. cancel. reg. inter.** y, a continuación, seleccione el vínculo relacionado y rellene la información.
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar contactos](marketing-contacts.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

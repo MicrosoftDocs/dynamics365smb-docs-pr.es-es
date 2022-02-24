@@ -1,21 +1,21 @@
 ---
-title: Componentes de servicio y de productos
-description: Conozca los aspectos que debe configurar antes de poder utilizar los productos del servicio, incluidos los valores predeterminados, como el tiempo de respuesta y el grupo de precios de servicio.
+title: Configurar los productos de servicio y los componentes del producto de servicio | Documentos de Microsoft
+description: Conozca los aspectos que debe configurar antes de poder utilizar los productos del servicio, incluidos los valores predeterminados, como el tiempo de respuesta, el porcentaje de descuento del contrato y el grupo de precios de servicio.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 9ebdb2ec8d76537887a7aa597eb9eabe298ec530
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 196f3d73827f03ce03e4990039779d8f814295ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436531"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877404"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Configurar componentes de servicio y de productos
 Para trabajar con productos de servicio, debe configurar lo siguiente
@@ -28,7 +28,7 @@ Puede establecer los grupos de productos relacionados en relación con la repara
 
 Puede asignar grupos de producto de servicio a productos de la ficha de **producto** y a productos de servicio de la ficha de **producto de servicio**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos productos servicio** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos productos servicio** y luego elija el enlace relacionado.  
 2. Cree un grupo de productos de servicio nuevo.  
 3. Rellene los campos **Código** y **Descripción**.  
 4. En el campo **% Descuento contrato genér.**, introduzca el porcentaje de descuento de contrato genérico que desea que tengan los productos de servicio del grupo.  
@@ -39,7 +39,7 @@ Puede asignar grupos de producto de servicio a productos de la ficha de **produc
 ## <a name="to-set-up-service-item-components"></a>Para configurar componentes de producto de servicio
 Los productos de servicio pueden constar de varios componentes que se pueden reemplazar con otros componentes durante el servicio del producto. Estos componentes se configuran en la página **Lista componente producto servicio**. Además, si desea configurar componentes para productos de servicio que sean L.M., puede copiar los productos de la L.M. y los cree como componentes de producto de servicio.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de servicio** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos de servicio** y luego elija el enlace relacionado.
 2. Abra el producto de servicio cuyos componentes desea configurar.  
 3. Seleccione la acción **Componentes**. Se abrirá la página **Lista componente prod. serv.**  
 4. Agregue un componente nuevo.  
@@ -47,7 +47,7 @@ Los productos de servicio pueden constar de varios componentes que se pueden ree
 6. En el campo **N.º**, seleccione el producto o producto de servicio que sea un componente del producto de servicio.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Para configurar componentes de producto de servicio desde una L.M.
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de servicio** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos de servicio** y luego elija el enlace relacionado.  
 2. Abra el producto de servicio para el cual desee configurar componentes desde una L.M.  
 3. Seleccione la acción **Componentes**. Se abrirá la página **Lista componente prod. serv.**  
 4. Elija la acción **Copiar desde L.M.**.  
@@ -57,12 +57,9 @@ Los productos de servicio pueden constar de varios componentes que se pueden ree
 ## <a name="to-set-up-a-service-shelf"></a>Para configurar una estantería de servicio
 Puede configurar estanterías de servicio que identifiquen dónde almacena los artículos de servicio. Las estanterías de servicio se asignan a los productos de servicio en las páginas **Pedido servicio** y **Hoja trabajo producto servicio**.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estanterías servicio** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Estanterías servicio** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar códigos para servicios estándar](service-how-setup-service-coding.md)   
 [Configurar detección errores](service-how-setup-troubleshooting.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

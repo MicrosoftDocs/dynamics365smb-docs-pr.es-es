@@ -1,24 +1,24 @@
 ---
-title: Resumen de tareas de asignar costes e ingresos
+title: Resumen de tareas de asignar costes e ingresos | Documentos de Microsoft
 description: Describe las tareas para asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 283
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 60b73b5c29bca5dc85e123f5957c7f3c0917345f
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012714"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248346"
 ---
 # <a name="allocate-costs-and-income"></a>Asignar costes e ingresos
-
 Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La asignación se puede realizar según tres métodos distintos:
 
 * Cantidad
@@ -31,10 +31,8 @@ Las funciones de asignación se pueden usar con diarios generales periódicos y 
 Los procedimientos siguientes describen cómo preparar la asignación de costes en un diario general periódico mediante la definición de las claves de asignación. Cuando se definen las claves de asignación, el diario se rellena y se registra como cualquier otro diario general periódico. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Para configurar claves de asignación
-
-Puede asignar un movimiento en un diario general periódico a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.  
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general periódico** y luego elija el enlace relacionado.
+Puede asignar un movimiento en un diario general periódico a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario general periódico** y luego elija el enlace relacionado.
 2. Seleccione el campo **Nombre de sección** para abrir la página **Secciones diario general**.
 3. Puede modificar las asignaciones en una sección existente de la lista o crear une nueva sección con asignaciones.
    * Para crear un lote nuevo, seleccione la acción **Nuevo** y vaya al paso siguiente.
@@ -49,7 +47,7 @@ Puede asignar un movimiento en un diario general periódico a varias cuentas dif
 11. Registre el diario.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Para modificar una clave de asignación que ya haya sido configurada
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general periódico** y luego elija el enlace relacionado.
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diario general periódico** y luego elija el enlace relacionado.
 2. En la página **Diario general periódico** (Diarios generales periódicos), seleccione el diario con la distribución.
 3. Seleccione la línea con la asignación y, a continuación, seleccione la acción **Asignaciones**.
 4. Cambie los campos relevantes y, a continuación, elija el botón **Aceptar**.
@@ -58,7 +56,4 @@ Puede asignar un movimiento en un diario general periódico a varias cuentas dif
 [Cerrar años y periodos](year-close-years-periods.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)    
 [Registrar documentos y diarios](ui-post-documents-journals.md)    
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

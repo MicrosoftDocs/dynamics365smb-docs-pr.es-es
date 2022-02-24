@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Seguimiento de productos en el almacén'
-description: Los documentos de almacén de entrada y salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de artículos.
+title: 'Detalles de diseño: Seguimiento del producto en el almacén | Documentos de Microsoft'
+description: El control de los números de serie y de lote es principalmente una tarea de almacén y, por lo tanto, todos los documentos de almacén de entrada y de salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de productos. No obstante, dado que el programa de reservas se basa en los movimientos de producto, no se admiten totalmente los documentos de actividad del almacén que registren solo movimientos de almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 3bf30b7739e488eeb3610d191cfb4f3b20e0e79e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 02a87bc61fbadae4392800f84adbc176bfb87b23
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320369"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185017"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Detalles de diseño: Seguimiento de productos en el almacén
 El control de los números de serie y de lote es principalmente una tarea de almacén y, por lo tanto, todos los documentos de almacén de entrada y de salida tienen una funcionalidad estándar para asignar y seleccionar números de seguimiento de productos.  
@@ -31,6 +31,3 @@ No obstante, el programa de reservas tiene en cuenta las actividades de almacén
 [Detalles de diseño: Integración con inventario](design-details-integration-with-inventory.md)  
 [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)  
 [Detalles de diseño: Diseño de seguimiento de productos](design-details-item-tracking-design.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

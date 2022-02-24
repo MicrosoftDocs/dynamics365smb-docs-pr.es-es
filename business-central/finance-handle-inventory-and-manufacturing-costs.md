@@ -1,21 +1,21 @@
 ---
-title: Administrar existencias y costes de fabricación
-description: Descubra cómo una serie de campos, páginas e informes están dirigidos a usuarios que administran directa o indirectamente el coste de los productos u operaciones.
+title: Administrar existencias y costes de fabricación | Documentos de Microsoft
+description: Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 82221de7c57e6130a3259ae7cf7be095e3c0571e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323345"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183745"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Administración de existencias y costes de fabricación
 Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.  
@@ -38,6 +38,3 @@ Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo m
 ## <a name="see-also"></a>Consulte también  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

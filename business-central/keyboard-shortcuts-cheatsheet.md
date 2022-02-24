@@ -1,95 +1,56 @@
 ---
 title: Referencia rápida a los métodos abreviados de teclado para PC
 description: Una hoja de referencia fácil de imprimir que contiene los métodos abreviados de teclado más populares para usuarios de PC.
-author: bholtorf
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: da764b00f8fb3218d3b53b843a27943b4e0bf5e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4686f509f81ba31e3215687630cc14f0a6e45402
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438907"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181732"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Referencia rápida de teclado: solo PC
 
 #### <a name="general"></a>General
-
-|Pulsar estas teclas|Para hacer esto|  
+|||  
 |-|-|
-|Alt+F2|Mostrar u ocultar el panel de cuadro informativo|
-|Alt+N|Crear un registro nuevo|
-|Alt+Mayús+N|Cerrar un registro recién creado y crear uno nuevo|
-|Alt+O|Agregar una nueva nota para el registro seleccionado|
-|Alt+Q|Abrir **Dígame**|
-|Alt+Arriba|Abrir la información sobre herramientas o el error de validación|
-|Alt+flecha abajo|Abrir un menú desplegable o buscar|
-|Alt+T|Abrir la página **Mi configuración**|
-|Alt+Mayús+W|Abrir la ficha o documento actual en una nueva ventana|
-|Ctrl+Insertar|Insertar una nueva línea en un documento|
-|Ctrl+Supr|Eliminar la línea de un documento, diario u hoja de trabajo|
-|Ctrl+Shift+F12|Maximizar la parte de productos de línea en una página de documento|
-|Ctrl+F1|Abrir la ayuda de la página<br />Navegar al personalizar|
-|Ctrl+Clic|Navegar al personalizar|
-|Shift+F12|Abrir el explorador de roles, una descripción general de la función|
-|F5/Ctrl+F5|Actualizar o volver a cargar la página|
-|Tab/Mayús+Tab|Desplazar el enfoque al elemento siguiente/anterior|
-|F6/Shift+F6|Desplazarse a la siguiente ficha desplegable/parte|
+|Alt+F2<br />Alt+N<br />Alt+Mayús+N<br />Alt+O<br />Alt+Q<br />Alt+Arriba<br />Alt+flecha abajo<br />Alt+T<br />Alt+Mayús+W<br />Ctrl+Insertar<br />Ctrl+Supr<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl+Clic<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Mayús+Tab<br />F6/Shift+F6<br />|Mostrar u ocultar el panel de cuadro informativo<br />Crear un registro nuevo<br />Cerrar un registro recién creado y crear uno nuevo<br />Agregar una nueva nota para el registro seleccionado<br />Abrir **Dígame**<br />Abrir la información sobre herramientas o el error de validación<br />Abrir un menú desplegable o buscar<br />Abrir la página **Mi configuración**<br />Abrir la ficha o documento actual en una nueva ventana<br />Insertar una nueva línea en un documento<br />Eliminar la línea de un documento, diario u hoja de trabajo<br />Maximizar la parte de productos de línea en una página de documento<br />Abrir la ayuda de la página<br />Navegar al personalizar<br />Abrir el explorador de roles, una descripción general de la función<br />Actualizar o volver a cargar la página<br />Desplazar el enfoque al elemento siguiente/anterior<br />Desplazarse a la siguiente ficha desplegable/parte|
 
 #### <a name="navigate--select-rows"></a>Desplazarse y seleccionar filas
-
-|Pulsar estas teclas|Para hacer esto|
+|||
 |-|-|
-|Inicio/Fin|Ir al primer/último campo|
-|Ctrl+Inicio/Fin |Ir a la primera/última fila|
-|Ctrl+Flecha arriba/abajo|Desplazarse sin perder la selección|
-|Ctrl+E |Seleccionar todo|
-|Ctrl+Espacio|Alternar la selección de la fila|
-|Ctrl/Shift+Clic|Agregar la fila o las filas a la selección|
-|Mayús+Flecha arriba/abajo|Agregue una fila arriba/debajo de la selección|
-|Mayús+Av/Re Pág|Seleccionar filas visibles arriba/abajo|
-|Ctrl+Enter|Centrarse en la lista|
+|Inicio/Fin<br />Ctrl+Inicio/Fin <br />Ctrl+Flecha arriba/abajo<br />Ctrl+E <br />Ctrl+Espacio<br />Ctrl/Shift+Clic<br />Mayús+Flecha arriba/abajo<br />Mayús+Av/Re Pág<br />Ctrl+Enter|Ir al primer/último campo<br />Ir a la primera/última fila<br />Desplazarse sin perder la selección<br />Seleccionar todo<br />Alternar la selección de la fila<br /> Agregar la fila o las filas a la selección<br />Agregue una fila arriba/debajo de la selección<br />Seleccionar filas visibles arriba/abajo <br />Centrarse en la lista|
 
 #### <a name="copy--paste"></a>Copiar y pegar
-
-|Pulsar estas teclas|Para hacer esto|
+|||
 |-|-|
-|Ctrl+C/V|Copiar/pegar filas|
-|F8|Copiar campo de arriba a la fila actual|
+|Ctrl+C/V<br />F8|Copiar/pegar filas<br />Copiar campo de arriba a la fila actual|
 
 #### <a name="search-filter--sort"></a>Buscar, filtrar y ordenar
-
-|Pulsar estas teclas|Para hacer esto|
+|||
 |-|-|
-|Alt+F7|Clasificar la columna en orden ascendente/descendente|
-|F3|Búsqueda alternativa|
-|Shift+F3|Alternar el panel de filtros; centrarse en los filtros de campo|
-|Alt+F3|Filtrar en el valor de la celda seleccionada|
-|Mayús+Alt+F3|Agregar un filtro en el campo seleccionado|
-|Ctrl+Alt+Mayús+F3|Restablecer filtros|
+|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Mayús+Alt+F3<br />Ctrl+Alt+Mayús+F3|Clasificar la columna en orden ascendente/descendente<br />Búsqueda alternativa<br />Alternar el panel de filtros; centrarse en los filtros de campo<br />Alternar el panel de filtros; centrarse en los filtros de totales<br />Filtrar en el valor de la celda seleccionada<br />Agregar un filtro en el campo seleccionado<br />Restablecer filtros|
 
 #### <a name="quick-entry"></a>Entrada rápida
-
-|Pulsar estas teclas|Para hacer esto|
+|||
 |-|-|
-|Ctrl+Mayús+Entrar|Ir al siguiente campo de entrada rápida fuera de una lista|
-|Entrar/Mayús+Entrar|Ir al campo de entrada rápida siguiente/anterior|
-##### <a name="report-preview"></a>Vista preliminar de un informe
+|Ctrl+Mayús+Entrar<br />Entrar/Mayús+Entrar|Ir al siguiente campo de entrada rápida fuera de una lista<br />Ir al campo de entrada rápida siguiente/anterior|
 
-|Pulsar estas teclas|Para hacer esto|
+
+##### <a name="report-preview"></a>Vista preliminar de un informe
+|||
 |-|-|
 |Ctrl+Inicio/Fin|Ir a la primera/última página|
 
 > [!TIP]
 > Para obtener una versión gráfica y preparada para imprimir elija la siguiente imagen y descargue el archivo PDF.
 >
-> [![Icono que abre un PDF.](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)

@@ -1,24 +1,25 @@
 ---
-title: Cálculo de fechas de vencimiento [ES]
-description: Leer información sobre cómo presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento.
+title: Cálculo de fechas de vencimiento
+description: En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 7000048
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: f28a39be0a7fb910e8fb24b21e3a90d314130bbd
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 692089d2d3202ecc2a2d39212e2dfd27f5faae7a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947145"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301113"
 ---
-# <a name="calculating-due-dates-in-the-spanish-version"></a>Cálculo de fechas de vencimiento en la versión en español
+# <a name="calculating-due-dates"></a>Cálculo de fechas de vencimiento
 En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento. Los requisitos legales dependen de si el cliente es una empresa privada o una gestión pública. Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.  
 
 ## <a name="payment-terms"></a>Condiciones de pago  
@@ -30,7 +31,7 @@ Para ayudarle a cumplir los requisitos legales, puede configurar términos de pa
 |**Cálculo de fecha de vencimiento**|**1M**|**1M**|  
 |**Nº máx. días hasta fecha vencimiento**|**30**|**60**|  
 
- Para cada cliente y proveedor, debe seleccionar el código de términos de pago adecuado. A continuación, cuando cree un documento para el cliente o proveedor, [!INCLUDE[prod_short](../../includes/prod_short.md)] calculará una fecha de vencimiento que no exceda el número límite para el término correspondiente de pagos.  
+ Para cada cliente y proveedor, debe seleccionar el código de términos de pago adecuado. A continuación, cuando cree un documento para el cliente o proveedor, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] calculará una fecha de vencimiento que no exceda el número límite para el término correspondiente de pagos.  
 
 > [!IMPORTANT]  
 >  No puede registrar un documento que crea una remesa donde uno o varios plazos tienen una fecha de vencimiento posterior al límite que se especifica en el campo **Nº máx. días hasta fecha vencimiento**.  
@@ -40,7 +41,7 @@ Para ayudarle a cumplir los requisitos legales, puede configurar términos de pa
  Puede cambiar la fecha de vencimiento calculada manualmente, pero no puede establecer una fecha posterior al límite que ha especificado para el término de pago. Por ejemplo, la fecha de vencimiento puede calcularse para que sea muy tarde debido a conflictos con los períodos de falta de pago. En ese caso, puede decidir crear la fecha de vencimiento anterior al periodo de impagos.  
 
 ## <a name="overdue-payments"></a>Pagos vencidos  
- Debe incluir información acerca de pagos vencidos en los informes anuales para el gobierno. [!INCLUDE[prod_short](../../includes/prod_short.md)] incluye dos informes para ayudarle a identificar pagos vencidos de clientes y pagos retrasados.  
+ Debe incluir información acerca de pagos vencidos en los informes anuales para el gobierno. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] incluye dos informes para ayudarle a identificar pagos vencidos de clientes y pagos retrasados.  
 
  Los informes **Cliente - Pagos vencidos** y **Proveedor - Pagos vencidos** incluyen una sección para cada cliente o proveedor que muestra los pagos con la siguiente información:  
 
@@ -69,6 +70,3 @@ Cada sección tiene una sección de resumen que contiene la siguiente informaci�
 [Administrar pagos](../../payables-manage-payables.md)  
 [Administrar cobros](../../receivables-manage-receivables.md)  
  [Definir las formas de pago](../../finance-payment-methods.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

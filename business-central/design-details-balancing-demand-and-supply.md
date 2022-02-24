@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Equilibrio de aprovisionamiento y demanda'
-description: Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación que consigue equilibrando la oferta con la demanda.
+title: 'Detalles de diseño: Equilibrado de aprovisionamiento y demanda | Documentos de Microsoft'
+description: Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que las demandas se satisfagan con suficiente suministro y de que los suministros tengan un propósito.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442515"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185713"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Detalles de diseño: Equilibrio de aprovisionamiento y demanda
 Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que:  
@@ -43,7 +43,7 @@ Para saber cómo funciona el sistema de planificación, es necesario conocer los
 
    El objetivo del mecanismo de planificación es contrarrestar la demanda y el suministro de un producto para garantizar que el suministro corresponderá a la demanda de una forma factible, según lo definido por los parámetros y las reglas de planificación.  
 
-   ![Resumen del equilibrio entre la oferta y la demanda.](media/nav_app_supply_planning_2_balancing.png "Resumen del equilibrio entre la oferta y la demanda")
+   ![Resumen del equilibrio entre la oferta y la demanda](media/nav_app_supply_planning_2_balancing.png "Resumen del equilibrio entre la oferta y la demanda")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Gestión de pedidos antes de la fecha de inicio de planificación
 Para evitar que un plan de suministro muestre sugerencias imposibles y, por tanto, de poca utilidad, el sistema de planificación considera el periodo hasta la fecha inicial como una zona congelada donde no hay nada planificado. La regla siguiente se aplica a la zona congelada:  
@@ -291,6 +291,3 @@ De este modo concluyen las descripciones de cómo el sistema de planificación c
  [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
  [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,28 +5,28 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 08989bb6903aa9f236b89d55d4b54af4db51cf1a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011976"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311913"
 ---
 # <a name="delivering-service"></a>Prestación del servicio
-[!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir. Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**. De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir. Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**. De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.  
   
 Otro modo de revisar pedidos de servicio pendientes es usar la página **Tareas de servicio**. En esta visión de sus obligaciones de servicio, puede ver en qué parte de su flujo de trabajo de servicios se encuentra un pedido y cambiar el estado para reflejar interacciones con su cliente.  
   
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 
-Una aplicación de gestión de servicios debe interactuar con la solicitud de servicio de un cliente. Dicha solicitud de servicio normalmente se convierte en un pedido de servicio. [!INCLUDE[prod_short](includes/prod_short.md)] proporciona herramientas para crear un pedido tanto directamente como en respuesta a una solicitud de cliente o como parte del proceso de contrato, si así está configurada la aplicación.  
+Una aplicación de gestión de servicios debe interactuar con la solicitud de servicio de un cliente. Dicha solicitud de servicio normalmente se convierte en un pedido de servicio. [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona herramientas para crear un pedido tanto directamente como en respuesta a una solicitud de cliente o como parte del proceso de contrato, si así está configurada la aplicación.  
   
 En caso necesario, puede gestionar un programa de productos prestados para sus clientes. También puede determinar su estructura de precios, poner ofertas de precios de servicios en agrupaciones lógicas y crear ajustes de precios.  
   
@@ -46,6 +46,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Servicio de planificación](service-plan-service.md)  
 [Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)  
 [Administrar proyectos](projects-manage-projects.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

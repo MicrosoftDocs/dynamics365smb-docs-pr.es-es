@@ -1,64 +1,29 @@
 ---
-title: Uso de flujos de trabajo
-description: Puede configurar y utilizar flujos de trabajo que conecten tareas de procesos empresariales como la publicación automática o la solicitud y concesión de aprobación para nuevos registros.
+title: Utilizar flujos de trabajo | Documentos de Microsoft
+description: Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: 51079e65deda165869d946b5efc11da85fb720e4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 91596f82b929f6fd9654114405571498750cc921
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446524"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187609"
 ---
 # <a name="using-workflows"></a>Uso de flujos de trabajo
-
-Un flujo de trabajo es una secuencia de tareas que se desencadenan por una acción, una condición o una regla. Los flujos de trabajo generalmente se implementan para integrar la lógica empresarial a una organización, como la separación de funciones, unificar procesos o aumentar la confianza y las responsabilidades.  
-
-Los flujos de trabajo están diseñados para crear solicitudes de aprobación de un nuevo valor manteniendo el valor anterior en caso de que la solicitud no sea aprobada. El nuevo valor no se implementará hasta que se apruebe la última solicitud.  
-
-La lógica empresarial podría ser la aprobación de:
-
-- Nuevos datos maestros como cuentas de mayor, clientes, proveedores o artículos
-- Cambios en los campos de los registros existentes que contienen información confidencial, como **Cód. cuenta banco proveedor** o **Límite crédito del cliente**
-- Cambios en los campos de los registros existentes que contienen información comercial crítica, como **Precios de venta de artículos**
-- Nuevos usuarios o cambios en los permisos de los usuarios
-- Documentos de compras
-- Documentos de venta
-- Documentos entrantes
-- Diarios financieros antes de registrarlos
-
-La siguiente ilustración muestra un ejemplo de un flujo de trabajo con aprobación secuencial desencadenada por un usuario. Al desencadenar el flujo de trabajo, se crea una solicitud de aprobación para el primer aprobador.  
-
-![Ilustración de un flujo de trabajo con aprobación secuencial.](media/Workflows/approval-flow.png)
-
-En este ejemplo, la solicitud debe ser aprobada por el primer aprobador antes de que la solicitud se envíe al siguiente aprobador. Si la solicitud no es aprobada por el primer aprobador, la solicitud nunca pasará al siguiente aprobador.  
-
-La ruta tomada desde el desencadenamiento inicial del flujo de trabajo puede variar según la naturaleza de la aprobación.  
-
-La siguiente ilustración muestra una aprobación paralela que es desencadenada por el usuario. Al activar el flujo de trabajo, se envía una solicitud de aprobación a todos los aprobadores simultáneamente.  
-
-![Ilustración de un flujo de trabajo con aprobación paralela.](media/Workflows/approval-flow-2.png)
-
-Sin embargo, el flujo de trabajo no se aprueba hasta que los aprobadores hayan aprobado todas las solicitudes, como se muestra en la siguiente ilustración:  
-
-![Ilustración de un flujo de trabajo rechazado con aprobación paralela.](media/Workflows/approval-flow-3.png)
-
-> [!NOTE]  
-> No es posible crear un flujo de trabajo con varios aprobadores y esperar que se apruebe todo el flujo de trabajo después de que se haya aprobado la primera solicitud. Todas las solicitudes deben aprobarse para que se apruebe el flujo de trabajo.
-
-Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. También es posible crear el mismo flujo de trabajo más de una vez. Cada flujo de trabajo desencadenado por un evento utilizando diferentes filtros. Esto es útil si una solicitud de aprobación en un departamento debe ser aprobada por un aprobador, mientras que las solicitudes de aprobación en otros departamentos deben ser aprobadas por otro aprobador. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
+Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
 
  Antes de empezar a utilizar flujos de trabajo, debe configurar usuarios de flujo de trabajo, crear los flujos de trabajo, potencialmente precedidos por personalización del código y especificar cómo reciben notificaciones los usuarios. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).  
 
 > [!NOTE]  
-> Los pasos habituales del flujo de trabajo están relacionados con usuarios que solicitan aprobación de tareas y aprobadores que aceptan o rechazan las solicitudes de aprobación. Por tanto, muchos temas sobre cómo utilizar los flujos de trabajo hacen referencia a las aprobaciones.  
+>  Los pasos habituales del flujo de trabajo están relacionados con usuarios que solicitan aprobación de tareas y aprobadores que aceptan o rechazan las solicitudes de aprobación. Por tanto, muchos temas sobre cómo utilizar los flujos de trabajo hacen referencia a las aprobaciones.  
 
  En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
@@ -73,7 +38,4 @@ Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos em
 ## <a name="see-also"></a>Consulte también  
 [Configuración de flujos de trabajo](across-set-up-workflows.md)   
 [Flujo de trabajo](across-workflow.md)   
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

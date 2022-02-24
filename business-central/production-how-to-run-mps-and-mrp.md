@@ -1,30 +1,31 @@
 ---
-title: Ejecutar la planificación completa, MPS o MRP
-description: El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o ambas cosas a la vez.
+title: Cómo ejecutar la planificación completa, MPS y MRP | Documentos de Microsoft
+description: Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000852, 99000860
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: c3994dfa33e75379b2dcbc19c0f40e0262e032b2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 226fb329b852075a26ad42e2f08a11f2f97ea733
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971306"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313137"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
-
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de planificación principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  
 
 -   MPS se refiere al cálculo de un programa de producción principal basado en la demanda real y en la previsión de demanda. El cálculo de MPS se utiliza para productos finales que tengan una previsión o una línea de pedido de venta. Estos productos se denominan "productos de MPS" y se identifican dinámicamente al iniciarse el cálculo.  
 -   MRP se refiere al cálculo de las necesidades de material basado en la demanda real de componentes y en la previsión de demanda de componentes. Sólo se calcula para los productos que no son productos de MPS. La finalidad de MRP es ofrecer planes formales con fases temporales, por producto, para suministrar el producto adecuado, en el momento correcto, en el lugar convenido y en la cantidad justa.  
 
-Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación relativos a saldos netos reutilizan órdenes de reposición existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay físicamente o se espera que haya (el suministro). Cuando estas cantidades se comparan, [!INCLUDE[prod_short](includes/prod_short.md)] proporciona mensajes de acción. Los mensajes de acción son sugerencias para crear un pedido nuevo, para cambiar un pedido (la cantidad o la fecha) o para cancelar un pedido ya solicitado. El término "pedido" incluye pedidos de compra, pedido de ensamblado, pedidos de producción y pedidos de transferencia.
+Los algoritmos de planificación usados tanto para MPS como para MRP son idénticos. Los algoritmos de planificación relativos a saldos netos reutilizan órdenes de reposición existentes y mensajes de acción. El proceso del sistema de planificación examina lo que se necesita o se va a necesitar (la demanda) y lo que hay físicamente o se espera que haya (el suministro). Cuando estas cantidades se comparan, [!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona mensajes de acción. Los mensajes de acción son sugerencias para crear un pedido nuevo, para cambiar un pedido (la cantidad o la fecha) o para cancelar un pedido ya solicitado. El término "pedido" incluye pedidos de compra, pedido de ensamblado, pedidos de producción y pedidos de transferencia.
 
 Los vínculos creados por el motor de planificación entre la demanda y el abastecimiento correspondiente se puede seguir en la página **Seguimiento pedido**. Para obtener más información, vea [Seguimiento de relaciones entre demanda y suministro](production-how-track-demand-supply.md).   
 
@@ -38,7 +39,7 @@ Para obtener buenos resultados en la planificación, se deben haber configurado 
     - **Cambios de parámetros de planificación:** son cambios en el stock de seguridad, el punto de pedido, la ruta, la lista de materiales, y cambios en el cálculo de ciclo o plazo de entrega.  
 -   **Traer mensajes acción:** esta función sirve como herramienta de planificación a corto plazo, ya que emite mensajes de acción para alertar al usuario sobre las modificaciones realizadas desde la última vez que se calculó el plan regenerativo o de cambio neto.  
 
-Con cada método previsto, [!INCLUDE[prod_short](includes/prod_short.md)] genera las entradas en la hoja de trabajo asumiendo que la capacidad es infinita. El centro de trabajo y de maquinaria no se tiene en cuenta cuando se desarrollan esquemas.  
+Con cada método previsto, [!INCLUDE[d365fin](includes/d365fin_md.md)] genera las entradas en la hoja de trabajo asumiendo que la capacidad es infinita. El centro de trabajo y de maquinaria no se tiene en cuenta cuando se desarrollan esquemas.  
 
 > [!IMPORTANT]  
 >  La función Calc. planif. regenerativa es el proceso más común. Sin embargo, las funciones Calcular plan y Ejecutar mensajes acción se pueden usar para ejecutar el proceso Calc. plan. saldo periodo.  
@@ -46,7 +47,7 @@ Con cada método previsto, [!INCLUDE[prod_short](includes/prod_short.md)] genera
 >  La función Traer mensajes de acción se puede ejecutar entre planes de cambio neto y regenerativos para obtener una vista inmediata del efecto de los cambios en el programa, pero no se debe usar como sustituto de los procesos de los dos planes completos.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Para calcular la hoja de planificación  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hojas de planificación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hojas planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa** para abrir la página **Calcular plan**.  
 3.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -99,10 +100,10 @@ Como respuesta a los desequilibrios entre aprovisionamiento y demanda, se genera
 |Mensaje acción|Descripción|  
 |--------------------|---------------------------------------|  
 |**Nuevo**|Si una demanda no se puede satisfacer con lo que sugieren los mensajes de acción en cuanto a **Cambiar cdad.**, **Reprogramar** o **Reprog. y cambiar cdad.** de los pedidos existentes, se genera el mensaje **Nuevo**, que sugiere crear otro pedido. Además, se emite el mensaje **Nuevo** si no hay pedidos de suministro en el ciclo de reaprovisionamiento del producto en cuestión. Este parámetro determina el número de periodos hacia adelante y hacia atrás del perfil de disponibilidad cuando busca un pedido para reprogramarlo.|  
-|**Cambiar cantidad**|Cuando cambia la cantidad de la demanda ligada a un pedido de suministro, se genera un mensaje de acción **Cambiar cdad.**, que indica que se debe cambiar el abastecimiento correspondiente en función del cambio en la demanda. Si se produce una nueva demanda, [!INCLUDE[prod_short](includes/prod_short.md)] busca el pedido de suministro sin reservar más próximo en el ciclo de reaprovisionamiento, y emite un mensaje de cambio.|  
+|**Cambiar cantidad**|Cuando cambia la cantidad de la demanda ligada a un pedido de suministro, se genera un mensaje de acción **Cambiar cdad.**, que indica que se debe cambiar el abastecimiento correspondiente en función del cambio en la demanda. Si se produce una nueva demanda, [!INCLUDE[d365fin](includes/d365fin_md.md)] busca el pedido de suministro sin reservar más próximo en el ciclo de reaprovisionamiento, y emite un mensaje de cambio.|  
 |**Reprogramar**|Si en un pedido de demanda o abastecimiento, cambia la fecha y ello crea un desequilibrio en la red de pedidos, se emite un mensaje de acción **Volver a programar**. Si la relación entre abastecimiento y demanda es de uno a uno, se emite un mensaje de acción que sugiere modificar el pedido de suministro en tal sentido. Si el pedido de abastecimiento cubre la demanda de más de un pedido de venta, se reprograma el pedido de abastecimiento, con la misma fecha que la primera demanda.|  
 |**Reprogramar y cambiar cantidad**|Si se han modificado las fechas y las cantidades de un pedido, debe cambiar las fechas y las cantidades de los planes. Los mensajes de acción recogen las dos acciones en un mensaje, **Reprog. y cambiar cdad.**, para garantizar que la red de pedidos vuelva a quedar equilibrada.|  
-|**Cancelar**|Si se elimina una demanda que se ha cubierto pedido a pedido, se emite un mensaje de acción para cancelar el pedido de suministro relacionado. Si la relación no es pedido a pedido, se genera un mensaje de acción para cambiar y reducir el abastecimiento. Si, por otros factores, como ajustes de inventario, no se requiere un pedido de suministro en el momento en que el usuario genera los mensajes de acción, [!INCLUDE[prod_short](includes/prod_short.md)] sugiere el mensaje **Cancelar** en la hoja.|  
+|**Cancelar**|Si se elimina una demanda que se ha cubierto pedido a pedido, se emite un mensaje de acción para cancelar el pedido de suministro relacionado. Si la relación no es pedido a pedido, se genera un mensaje de acción para cambiar y reducir el abastecimiento. Si, por otros factores, como ajustes de inventario, no se requiere un pedido de suministro en el momento en que el usuario genera los mensajes de acción, [!INCLUDE[d365fin](includes/d365fin_md.md)] sugiere el mensaje **Cancelar** en la hoja.|  
 
 ## <a name="see-also"></a>Consulte también  
 [Planificación](production-planning.md)  
@@ -112,7 +113,4 @@ Como respuesta a los desequilibrios entre aprovisionamiento y demanda, se genera
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

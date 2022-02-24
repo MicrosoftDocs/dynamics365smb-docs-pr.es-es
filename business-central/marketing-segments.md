@@ -1,23 +1,23 @@
 ---
-title: Administrar segmentos y seleccionar los contactos
-description: Este tema describe cómo crear un segmento seleccionando un grupo de contactos de acuerdo con criterios específicos para luego apuntar a ese segmento con una campaña.
+title: Administrar segmentos y seleccionar los contactos para incluirlos | Documentos de Microsoft
+description: Describe las tareas para crear un segmento para seleccionar un grupo de contactos según criterios específicos, por ejemplo, contactos de un determinado sector al que desee dirigirse.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
-ms.date: 06/22/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 4a782c0e4fcb98243f7902d2564c79ca831b0955
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 2f4115e62b1350fe55019aca94cb1d8beb6d93ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059783"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181297"
 ---
 # <a name="managing-segments"></a>Administrar segmentos
 Puede crear segmentos para seleccionar un grupo de contactos en función de criterios específicos. Por ejemplo, un segmento puede ser el sector al que pertenecen los contactos o su relación de negocio con los contactos. Puede crear un segmento para seleccionar los contactos a los que se va a dirigir la campaña.
@@ -38,7 +38,4 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 ## <a name="see-also"></a>Consulte también
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Gestionar contactos](marketing-contacts.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

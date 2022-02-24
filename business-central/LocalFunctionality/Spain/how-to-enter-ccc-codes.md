@@ -1,35 +1,35 @@
 ---
-title: Cómo introducir códigos CCC [ES]
-description: Aprenda a ingresar el código de identificación de cuenta bancaria único Código Cuenta Cliente (CCC) utilizando la versión en español de Business Central.
+title: Introducción de códigos CCC
+description: El Código Cuenta Cliente (CCC) es un código de identificación de cuentas bancarias único. Los siguientes campos de componentes componen la estructura de código CCC de 20 dígitos (España) o 21 dígitos (Portugal).
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 3f2349e458d139fc7677f00c6d9fbeb53f9c01fe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 32514856184473afbb4a531b5d8ddc5d1a732c2a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441821"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301102"
 ---
-# <a name="enter-ccc-codes-in-the-spanish-version"></a>Ingrese códigos CCC en la versión en español
+# <a name="enter-ccc-codes"></a>Introducir códigos CCC
 El Código Cuenta Cliente (CCC) es un código de identificación de cuentas bancarias único. Los siguientes campos de componentes componen la estructura de código CCC de 20 dígitos (España) o 21 dígitos (Portugal).  
 
 Si modifica la estructura del código CCC, el campo **Nº CCC** se actualiza automáticamente. De igual forma, si modifica el campo **Nº CCC** la estructura del código CCC se actualiza automáticamente.  
 
 ## <a name="to-enter-ccc-codes"></a>Para introducir códigos CCC  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Información de la empresa** y, a continuación, seleccione el vínculo relacionado.  
 2.  Rellene los campos de la ficha desplegable **Pagos**, tal como se describe en la tabla siguiente  
 
-    |Campo|Posición|Descripción|  
+    |Campo|Description|  
     |---------------------------------|--------------|---------------------------------------|  
     |**CCC Cód. banco**|1-4|Identifica el banco en el que se ha abierto la cuenta.|  
     |**CCC Cód. oficina**|5-8|Identifica el código de la oficina. Si el banco no utiliza esta referencia, pueden ser ceros.|  
@@ -38,6 +38,3 @@ Si modifica la estructura del código CCC, el campo **Nº CCC** se actualiza aut
 
 ## <a name="see-also"></a>Consulte también  
 [Funcionalidad local para España](spain-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

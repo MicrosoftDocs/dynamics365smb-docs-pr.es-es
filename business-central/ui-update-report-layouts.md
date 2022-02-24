@@ -1,24 +1,23 @@
 ---
-title: Actualizar los diseños de informe personalizados
-description: Aprenda a actualizar un diseño de informe personalizado que se utiliza en un informe cuando hay cambios de diseño en el conjunto de datos del informe, por ejemplo.
+title: Conservar una diseño de informe actualizado | Documentos de Microsoft
+description: Es posible que necesite actualizar un diseño de informe personalizado que se use en un informe. Esto es necesario cuando ha habido un cambio de diseño en el conjunto de datos del informe, por ejemplo, si se elimina un campo que se utiliza en el diseño.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.search.keywords: ''
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101482"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953112"
 ---
 # <a name="update-custom-report-layouts"></a>Actualizar los diseños de informe personalizados
-
 De vez en cuando es posible que necesite actualizar un diseño de informe personalizado que se use en un informe. Esto es necesario cuando ha habido un cambio de diseño en el conjunto de datos del informe, por ejemplo, si se elimina un campo que se utiliza en el diseño. Si un diseño de informe requiere actualización, recibirá un mensaje de error cuando intente obtener una vista previa del informe, o al imprimirlo o guardarlo.  
 
 Para actualizar automáticamente el diseño de un informe a partir del mensaje de error que aparece al ejecutar un informe, seleccionando el botón **Sí** en el mensaje de error. O, antes de ejecutar los informes, puede actualizar determinados diseños de informe o todos los diseños de informe personalizados que podrían verse afectados por los cambios del conjunto de datos.  
@@ -29,7 +28,7 @@ No todos los cambios de conjunto de datos de informe se pueden actualizar autom�
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Para actualizar una o varias plantillas de informe personalizado  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diseños de informe** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diseños de informe** y luego elija el enlace relacionado.  
 
 2.  En la página **Diseños de informe**, si desea actualizar un informe específico, seleccione el diseño de lista y, después, seleccione la acción **Actualizar diseño**. O, si desea actualizar todos los diseños de informe personalizados para la empresa, seleccione la acción **Actualizar todos los diseños**.  
 
@@ -37,7 +36,7 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
 ## <a name="to-test-custom-report-layout-updates"></a>Para probar actualizaciones de diseños de informe personalizados  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
 2.  En la página **Selección de diseño de informes**, seleccione la acción **Probar actualizaciones de diseño**.  
 
@@ -68,6 +67,3 @@ Después de modificar el diseño, pruebe a actualizar el diseño de nuevo.
 ## <a name="see-also"></a>Consulte también  
  [Gestión de diseños de informe](ui-manage-report-layouts.md)  
  [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

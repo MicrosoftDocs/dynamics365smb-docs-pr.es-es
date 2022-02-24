@@ -2,15 +2,15 @@
 title: Catálogo de aprendizaje de usuarios empresariales
 description: Encuentra todo el aprendizaje disponible para Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
-ms.topic: conceptual
-ms.author: margoc
-ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/20/2020
+ms.topic: article
+ms.author: v-lshann
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772434"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271947"
 ---
 # <a name="business-users-learning-catalog"></a>Catálogo de aprendizaje de usuarios empresariales
 
@@ -48,6 +48,3 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Devolver productos en Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | ¿Necesita devolver productos a los proveedores y aceptar devoluciones de los clientes? Esta ruta lo ayudará a aprender cómo procesar las devoluciones.                                                                                                                                                                         | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 1 hora 25 minutos  |
 | [Reponer productos en Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | ¿Necesita reponer productos de inventario en su empresa? Esta ruta de aprendizaje le mostrará las opciones que puede usar para reponer productos de manera eficiente en Business Central.                                                                                                                                     | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 1 hora 46 minutos  |
 | [Ensamblar productos en Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | ¿Vende productos ensamblados? Esta ruta de aprendizaje proporciona la información que necesita para la administración de ensamblados y productos. También proporciona los pasos para producir productos ensamblados para almacenarlos u ordenarlos.                                                                                                                | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 2 horas 26 minutos |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
