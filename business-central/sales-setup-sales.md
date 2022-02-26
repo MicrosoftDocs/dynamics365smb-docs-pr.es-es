@@ -1,30 +1,29 @@
 ---
-title: Resumen de tareas para configurar los procesos de venta | Documentos de Microsoft
-description: Describe las tareas para configurar reglas y valores para definir las directivas y los procesos de ventas.
-services: project-madeira
-documentationcenter: ''
+title: Resumen de tareas para configurar los procesos de venta
+description: Descripción general de las tareas necesarias para configurar reglas y valores que definen sus políticas y procesos de ventas, incluida la configuración general y la configuración de ventas relacionada con las finanzas.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 63d9357d29fbfdc3c230c69602fd370c5d73f21b
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953400"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115455"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
 
-Debe definir la configuración general, como los documentos de venta que se requieren y el modo de registrar sus valores. Esta configuración general se efectúa normalmente una vez durante la implementación inicial.
+Debe definir la configuración general en la página **Ventas y cobros**, como qué documentos de ventas se requieren, cómo se registran sus valores y el tipo de líneas que se crearán de forma predeterminada. Esta configuración general se efectúa normalmente una vez durante la implementación inicial.
 
-Una serie de tareas independientes relacionadas con el registro de nuevos clientes es registrar acuerdos de precios especiales o descuentos que tenga con cada cliente.
+Una serie de tareas independientes relacionadas con el registro de nuevos clientes es registrar acuerdos de precios especiales o descuentos que tenga con cada cliente. Para más información, vea [Registrar precios y descuentos de ventas especiales](sales-how-record-sales-price-discount-payment-agreements.md).
 
 La configuración de ventas relacionada con las finanzas, como las formas de pago o las divisas, se describe en la sección Configuración de finanzas. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
 
@@ -39,9 +38,13 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 |Utilice un servicio Web de la UE para comprobar el número de CIF/NIF de un cliente.|[Comprobar CIF/NIF](finance-setup-vat.md)|
 |Defina los diferentes incoterms que ofrece a los clientes o que sus proveedores le ofrecen.|[Configuración de métodos de envío](sales-how-set-up-shipment-methods.md)|
 |Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
+|Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

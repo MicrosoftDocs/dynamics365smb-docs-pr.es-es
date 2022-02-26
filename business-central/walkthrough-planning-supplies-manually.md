@@ -1,25 +1,25 @@
 ---
-title: 'Tutorial: planificación manual de suministros | Documentos de Microsoft'
-description: En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda.
+title: 'Tutorial: planificación manual de suministros'
+description: Este tutorial demuestra el proceso de planificación de pedidos de suministro para satisfacer la nueva demanda, incluida la planificación de una compra, transferencia y orden de producción.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876972"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438998"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Tutorial: planificación manual de suministros
 
-**Nota**: Este tutorial debe realizarse en una empresa de demostración con la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda. En este tutorial, utilizará la página **Planificación de pedidos**, una sencilla herramienta de planificación de suministros basada en la toma manual de decisiones en lugar de en una planificación automática basada en parámetros.  
 
@@ -38,10 +38,10 @@ En este tutorial, se demuestra el proceso de planificar pedidos de suministro pa
 -   Procesadora de pedidos de ventas  
 
 ## <a name="prerequisites"></a>Requisitos previos  
- Antes de comenzar este tutorial, debe instalar el [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se deben realizar las modificaciones siguientes a la base de datos:  
+ Antes de comenzar este tutorial, debe instalar el [!INCLUDE[prod_short](includes/prod_short.md)]. Se deben realizar las modificaciones siguientes a la base de datos:  
 
 -   Elimine todos los pedidos de ventas existentes para bicicletas.  
--   Cree un pedido de ventas para 10 bicicletas en el almacén AZUL.  
+-   Cree un pedido de ventas para 10 bicicletas en el almacén EAST.  
 -   Elimine todas las órdenes de producción planificadas y planificadas en firme. No elimine las órdenes iniciadas con movimientos que ya se hayan registrado.  
 
  Como regla, utilice los datos sugeridos en este tutorial pues contiene los registros necesarios.  
@@ -67,7 +67,7 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
 ### <a name="to-use-the-order-planning-page"></a>Para utilizar la página Planificación de pedidos  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Planificación de pedidos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Planificación de pedidos** y luego elija el enlace relacionado.  
 
      Cuando se abre la página **Planificación de pedidos** por primera vez, debe calcularse un plan para mostrar la nueva demanda desde la última vez que se calculó.  
 
@@ -148,7 +148,7 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 4.  Elija el botón **Aceptar** para reservar los diez productos que están disponibles.  
 
     > [!NOTE]  
-    >  En la línea de demanda, la compra sugerida se ha cambiado por una transferencia del almacén VERDE. La función **Crear pedidos compra** crea un pedido de transferencia de VERDE al almacén solicitado. El campo **Existen sustitutivos** funciona de la misma manera.  
+    >  En la línea de demanda, la compra sugerida se ha cambiado por una transferencia del almacén MAIN. La función **Crear pedidos compra** crea un pedido de transferencia de MAIN al almacén solicitado. El campo **Existen sustitutivos** funciona de la misma manera.  
 
 5.  Seleccione la acción **Crear pedidos**. Se abrirá la página **Crear pedidos suministros**.  
 6.  En la ficha desplegable **Planificación de pedidos**, en el campo **Crear pedidos para**, elija la opción **Pedido activo**.  
@@ -225,10 +225,13 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
      El mensaje indica que ya se han suministrado todos los productos requeridos. Compruebe los órdenes de producción planificada en firme que se crean.  
 
-13. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **O.P. Planificadas en firme** y luego elija el enlace relacionado.  
+13. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. Planificadas en firme** y, a continuación, elija el vínculo relacionado.  
 
      En la página **O.P. planif. en firme** revise como están programadas las horas de inicio y finalización de cada pedido según la estructura del producto. Primero se producen los componentes de nivel inferior. Por lo tanto, debe planificar pedidos de varios niveles como se demuestra en este flujo de trabajo de planificación.  
 
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
- [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

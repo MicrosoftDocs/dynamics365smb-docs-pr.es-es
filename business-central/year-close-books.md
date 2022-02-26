@@ -1,23 +1,22 @@
 ---
-title: Resumen de las tareas para cerrar los libros | Documentos de Microsoft
+title: Resumen de las tareas para cerrar los libros
 description: Obtenga información sobre el proceso de cerrar los libros de un ejercicio o periodo, y qué sucede después de cerrar al final de un ejercicio.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+m.search.form: 100
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: db4ec1033a830cb72b602691797d2b1ff637c2e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 224d1886987184e6ebdb3cc1434c64454d383678
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310113"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011340"
 ---
 # <a name="closing-the-books"></a>Cerrar los libros
 Una vez que se haya asegurado de que todas sus cuentas estén actualizadas, y que asigne costes e ingresos, puede cerrar los libros para un ejercicio o periodo.
@@ -54,5 +53,9 @@ El programa genera un movimiento de cierre, pero no lo registra automáticamente
 Puede realizar registros en un ejercicio anterior, después de se hayan cerrado las cuentas de ingresos, si vuelve a ejecutar el proceso Asiento regularización.
 
 ## <a name="see-also"></a>Consulte también
-[Abrir un nuevo ejercicio](finance-how-open-new-fiscal-year.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+[Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

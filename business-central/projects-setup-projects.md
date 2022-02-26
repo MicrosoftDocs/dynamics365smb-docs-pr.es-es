@@ -1,24 +1,26 @@
 ---
-title: Configurar recursos, hojas de horas y proyectos | Documentos de Microsoft
-description: Describe cómo configurar recursos, hojas de horas y proyectos para administrar proyectos.
+title: Configurar recursos, hojas de horas y proyectos
+description: Este tema describe cómo configurar recursos, hojas de horas y proyectos para administrar proyectos y sus presupuestos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f2c02cdcad7c0b33ad172df0b8a4d821f7fcd2df
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312633"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973763"
 ---
 # <a name="setting-up-project-management"></a>Configurar la administración de proyectos
-Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.
+
+Antes de poder usar [!INCLUDE[prod_short](includes/prod_short.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.
 
 A continuación, puede crear proyectos y programar recursos para los proyectos, así como administrar presupuestos y realizar el seguimiento de las horas de máquinas y de empleados con las hojas de horas. Para obtener más información, vea [Administración de proyectos](projects-manage-projects.md).  
 
@@ -38,4 +40,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

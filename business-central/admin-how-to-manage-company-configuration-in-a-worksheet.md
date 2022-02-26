@@ -1,34 +1,34 @@
 ---
-title: Gestionar la configuración de la empresa en una hoja de trabajo | Documentos de Microsoft
-description: La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas.
+title: Cómo gestionar la configuración de la empresa en una hoja de trabajo
+description: La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración de empresa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ab8b53ec5f913e07b80cc04a44805d77b10ffe86
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187129"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437967"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Gestionar la configuración de la empresa en una hoja de trabajo
 La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas.  
 
-El primer paso en la preparación de un paquete de configuración es seleccionar una empresa ya configurada y modificada para ajustarse a la mayoría de las necesidades de la solución. Esta empresa sirve como línea base para el trabajo de configuración para las empresas nuevas. En la hoja de trabajo, indica las tablas que desea que la configuración controle y procese. Puesto que la mayoría de las tablas en [!INCLUDE[d365fin](includes/d365fin_md.md)] tienen relaciones y dependencias con otras tablas, también debería incluir esas tablas relacionadas según sea necesario. Juntas, estas tablas servirán como la estructura en torno a la que creará una nueva empresa. Los pasos siguientes le ayudan a empaquetar y luego implementar la configuración.  
+El primer paso en la preparación de un paquete de configuración es seleccionar una empresa ya configurada y modificada para ajustarse a la mayoría de las necesidades de la solución. Esta empresa sirve como línea base para el trabajo de configuración para las empresas nuevas. En la hoja de trabajo, indica las tablas que desea que la configuración controle y procese. Puesto que la mayoría de las tablas en [!INCLUDE[prod_short](includes/prod_short.md)] tienen relaciones y dependencias con otras tablas, también debería incluir esas tablas relacionadas según sea necesario. Juntas, estas tablas servirán como la estructura en torno a la que creará una nueva empresa. Los pasos siguientes le ayudan a empaquetar y luego implementar la configuración.  
 
 Para ayudarle en el seguimiento y la revisión de su trabajo, use el cuadro informativo **Tabla de paquetes de configuración** para ver información acerca de los registros. Utilice el cuadro informativo **Tabla relacionada con la configuración** para controlar las relaciones de tabla.  
 
 En los procedimientos siguientes se muestra cómo agregar y personalizar la información de tabla para la configuración.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>Procedimiento para abrir la hoja de trabajo de configuración  
-1.  En [!INCLUDE[d365fin](includes/d365fin_md.md)], abra la empresa que servirá de línea base para la configuración, y abra el Área de trabajo del implementador de RapidStart Services.  
-2.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de configuración** y luego elija el enlace relacionado.  
+1.  En [!INCLUDE[prod_short](includes/prod_short.md)], abra la empresa que servirá de línea base para la configuración, y abra el Área de trabajo del implementador de RapidStart Services.  
+2.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Procedimiento para agregar una tabla a la hoja de trabajo  
 1.  En la página **Configurar hoja**, seleccione la acción **Editar lista**.  
@@ -62,7 +62,7 @@ En los procedimientos siguientes se muestra cómo agregar y personalizar la info
     |**Incluir solo tablas con licencia**|Activa la casilla para incluir solo las tablas para las que la licencia bajo la que se está creando la hoja de trabajo permita acceso.|
 
 3. En la ficha desplegable **Objeto**, establezca filtros según corresponda para especificar los tipos de tablas que desee incluir o excluir.  
-4. Elija el botón **Aceptar**. Las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] se agregan a la hoja de trabajo. Cada movimiento de la lista tiene un tipo de línea **Tabla**.  
+4. Elija el botón **Aceptar**. Las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] se agregan a la hoja de trabajo. Cada movimiento de la lista tiene un tipo de línea **Tabla**.  
 5. Para eliminar información de tabla duplicada, que puede resultar del uso de la acción **Obtener tablas**, seleccione la acción **Eliminar líneas duplicadas**. Esto eliminará las tablas duplicadas que tengan el mismo código de paquete.  
 6. Puede agregar a la hoja de trabajo tablas relacionadas con una tabla seleccionada. Revise la información del cuadro informativo **Tablas relacionadas** para ver si hay tablas que faltan. Para agregar tablas relacionadas para una tabla específica, seleccione la tabla de la lista y elija la acción **Traer tablas relacionadas**.  
 
@@ -97,7 +97,7 @@ En el procedimiento siguiente se describe cómo agregar el área y agrupar desig
 4. En el campo **Tipo línea**, elija **Grupo**. En el campo **Nombre**, escriba un nombre para el 'area. El nombre del grupo se sangra automáticamente.  
 5. Para mover tablas a la categoría adecuada, seleccione una tabla para mover y las acciones **Mover arriba** o **Mover abajo**. Como alternativa, puede eliminar una línea de la hoja de trabajo e insertar la tabla otra vez en la ubicación necesaria.  
 
-Algunas tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] son estándar y los datos que contienen probablemente no cambiarán de una implementación a otra. Por tanto, para ayudar al cliente, puede quitar estas tablas de la hoja de trabajo después de haberlas incluido en el paquete de configuración. Una vez agregadas, las tablas siguen formando parte del paquete de configuración.  
+Algunas tablas de [!INCLUDE[prod_short](includes/prod_short.md)] son estándar y los datos que contienen probablemente no cambiarán de una implementación a otra. Por tanto, para ayudar al cliente, puede quitar estas tablas de la hoja de trabajo después de haberlas incluido en el paquete de configuración. Una vez agregadas, las tablas siguen formando parte del paquete de configuración.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>Procedimiento para quitar una tabla estándar de la hoja de trabajo  
 Después de haber agregado todas las tablas necesarias a un paquete de configuración, determine cuáles no requerirán la atención del cliente.  
@@ -114,11 +114,11 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
 1.  En la página **Hoja de trabajo de configuración**, indique las tablas cuyos datos desee ver o personalizar.  
 
     > [!NOTE]  
-    >  Asegúrese de que cada tabla tenga asignado un identificador de página. Para las tablas de [!INCLUDE[d365fin](includes/d365fin_md.md)] estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.  
+    >  Asegúrese de que cada tabla tenga asignado un identificador de página. Para las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] estándar, este valor se rellena automáticamente. Para las tablas personalizadas, debe proporcionar el identificador.  
 
 2.  Seleccione la acción **Datos de base de datos**.  
 
-     Se abre la página [!INCLUDE[d365fin](includes/d365fin_md.md)] para la página.  
+     Se abre la página [!INCLUDE[prod_short](includes/prod_short.md)] para la página.  
 
 3.  Revise la información disponible. Modifíquela según sea necesario. Para ello, elimine los registros que no son pertinentes o agregue registros nuevos.
 
@@ -126,3 +126,6 @@ A medida que crea un paquete de configuración para una solución, puede ver y p
 [Establecer la configuración de una empresa](admin-set-up-company-configuration.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

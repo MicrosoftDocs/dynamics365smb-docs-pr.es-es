@@ -1,21 +1,21 @@
 ---
-title: Aplicar la configuración a nuevas empresas | Documentos de Microsoft
-description: Una vez que haya creado un paquete de configuración, el siguiente paso es implementar el paquete en el cliente para su implementación. Use la configuración con una nueva empresa vacía.
+title: Aplicar configuración a nuevas empresas
+description: Una vez que haya creado un paquete de configuración, implemente el paquete en el cliente para su implementación. Use la configuración con una nueva empresa vacía.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 56190be2caf1c31cf7c78d1a452d03ba7deea58e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187489"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324105"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Aplicar la configuración a nuevas empresas
 Una vez que haya creado un paquete de configuración, el siguiente paso es implementar el paquete en el cliente para su implementación. Trabaje con el paquete de configuración dentro de una nueva empresa vacía.  
@@ -33,3 +33,6 @@ Una vez que haya creado un paquete de configuración, el siguiente paso es imple
 ## <a name="see-also"></a>Consulte también  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

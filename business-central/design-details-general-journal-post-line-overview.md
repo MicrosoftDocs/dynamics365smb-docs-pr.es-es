@@ -1,26 +1,27 @@
 ---
-title: Descripción de la línea de registro en diario general | Documentos de Microsoft
-description: Este tema introduce cambios en la codeunit 12, **Diario general-línea de registro**, que es el objeto principal de aplicación para el registro en contabilidad y es el único lugar donde insertar movimientos de contabilidad, de IVA, de clientes y de proveedores.
+title: Descripción de la línea de registro en diario general
+description: Este tema presenta cambios en Codeunit 12, Diario general-lín. reg., y es el único lugar para insertar movimientos en el libro mayor, IVA y en el libro mayor de clientes y proveedores.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ffe7e29d26b386f0a69cc3a7377bf9ff58f93abf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 849bf54380aa7ee3abe09986a168aa946a1b3426
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185449"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011038"
 ---
 # <a name="general-journal-post-line-overview"></a>Descripción de la línea de registro en diario general
+
 La codeunit 12, **Diario general-lín. reg.**, es el objeto principal de aplicación para el registro en contabilidad y es el único lugar donde insertar movimientos de contabilidad, de IVA, de clientes y de proveedores. Esta codeunit se usa también para todas las operaciones de Liquidar, Desliquidar y Revertir.  
   
-Mientras que la codeunit se ha mejorado en cada versión durante los diez últimos años, su arquitectura seguía permaneciendo fundamentalmente invariable. La codeunit llegó a ser muy grande, con aproximadamente 7600 líneas de código. Con esta versión de [!INCLUDE[d365fin](includes/d365fin_md.md)], se ha cambiado la arquitectura y la codeunit se ha hecho más sencillo y más fácil de mantener. Esta documentación introduce los cambios y proporciona información que necesitará para actualizar.  
+En Microsoft Dynamics NAV 2013 R2, la codeunit se rediseñó porque se había vuelto muy grande, con aproximadamente 7600 líneas de código. La arquitectura había cambiado y la codeunit hizo más sencilla y más fácil de mantener. Esta documentación describe los cambios y proporciona información que necesitará para actualizar.  
   
 ## <a name="old-architecture"></a>Arquitectura antigua  
 La arquitectura antigua tenía las características siguientes:  
@@ -34,7 +35,7 @@ La arquitectura antigua tenía las características siguientes:
 * Las funciones de Registro, Liquidar, Desliquidar, Revertir, Descuento de pago y Tolerancia y Ajuste tipo cambio se incluían todas en la codeunit 12 con una larga lista de variables globales.  
   
 ### <a name="new-architecture"></a>Nueva arquitectura  
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], la codeunit 12 incluye las mejoras siguientes:  
+En [!INCLUDE[prod_short](includes/prod_short.md)], la codeunit 12 incluye las mejoras siguientes:  
   
 * La codeunit 12 se ha refactorizado en procedimientos más pequeños (todos con menos de 100 líneas de código).  
 * Se han implementado patrones estandardizados para la búsqueda de cuentas de contabilidad mediante funciones de ayudante desde las tablas Grupo contable.  
@@ -43,6 +44,11 @@ En [!INCLUDE[d365fin](includes/d365fin_md.md)], la codeunit 12 incluye las mejor
 * Muchas funciones de ayuda se han transferido a las tablas correspondientes de movimientos de cliente y de proveedor.  
 * El uso de variables globales se ha minimizado, de modo que cada procedimiento utiliza parámetros y encapsula su propia lógica de aplicación.  
   
-## <a name="see-also"></a>Consulte también  
-[Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)   
-[Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Consulte también
+
+[Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)  
+[Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  
+[Detalles de diseño: línea de registro en diario general (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

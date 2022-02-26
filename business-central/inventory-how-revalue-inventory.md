@@ -1,29 +1,29 @@
 ---
 title: Crear nuevos movimientos de valor para los productos del inventario | Documentos de Microsoft
 description: Describe cómo apreciar o amortizar los movimientos de valor de uno o varios productos del inventario enviando el valor calculado actual.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c961d15d04da5fcad18a460adc269f3099962f6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 5803,
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: b07aba72be831dd68eea3475f3ee591a7c319051
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182137"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059601"
 ---
 # <a name="revalue-inventory"></a>Revaluar inventario
 Si desea apreciar o depreciar un producto o el movimiento de un determinado producto, utilice el diario de revalorización.
 
 ## <a name="to-revalue-inventory"></a>Para revaluar el inventario
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **iario de revalorización** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de revaluación**, y luego elija el enlace relacionado.
 2. Elija la acción **Calcular valor inventario**.
 3. En la página **Calcular valor inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija el botón **Aceptar**.
@@ -39,4 +39,7 @@ Las nuevas entradas de valor ahora se crean de modo que reflejan las revalorizac
 [Inventario](inventory-manage-inventory.md)  
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

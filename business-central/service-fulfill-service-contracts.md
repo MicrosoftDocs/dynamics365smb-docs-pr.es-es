@@ -1,23 +1,23 @@
 ---
-title: Resumen de tareas para el cumplimiento de contratos de servicio | Documentos de Microsoft
-description: Describe las tareas para administrar los contratos de servicio con los clientes.
+title: Resumen de tareas para el cumplimiento de contratos de servicio
+description: Describe las tareas involucradas en el cumplimiento de los contratos de servicio con sus clientes, como establecer acuerdos contractuales estándar con plantillas personalizables y más.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 10/01/2019
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 50214fcf1e1f13c8e4fa69e1b14ba4adc537bf86
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 56fe45da5979f6f06fc17d68b676350a70288261
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316217"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011703"
 ---
 # <a name="fulfilling-service-contracts"></a>Cumplimiento de contratos de servicio 
 Un modo de configurar una empresa de gestión de servicios es tener acuerdos contractuales entre usted y sus clientes, que describan el nivel de servicio y las expectativas del servicio. Puede crear plantillas de contratos que incluyan información necesaria, como cliente, fecha de inicio del contrato y periodo de facturación.  
@@ -37,3 +37,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Prestación del servicio](service-deliver-service.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Creación de contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

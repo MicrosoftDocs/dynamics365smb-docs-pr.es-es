@@ -1,34 +1,34 @@
 ---
-title: Configurar cuentas bancarias para realizar pagos electrónicos
-description: En Business Central, puede configurar cuentas bancarias para realizar pagos electrónicos.
+title: Cuentas bancarias para pagos electrónicos [ES]
+description: Aprenda a utilizar Business Central para configurar cuentas bancarias y cuentas bancarias de proveedores para realizar pagos electrónicos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 789e4a88d2bdf49708795d4aaa9c8b70c75a594f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: fe12b95bf8bd0b6d9f68635a9b37c51ff93fe785
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878824"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445746"
 ---
-# <a name="set-up-bank-accounts-for-electronic-payments"></a>Configurar cuentas bancarias para realizar pagos electrónicos
-En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas bancarias para realizar pagos electrónicos.  
+# <a name="set-up-bank-accounts-for-electronic-payments-in-the-spanish-version"></a>Configurar cuentas bancarias para pagos electrónicos en la versión en español
+En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar cuentas bancarias para realizar pagos electrónicos.  
 
 ## <a name="to-set-up-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Ficha banco** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Transferencia**, asegúrese de que los campos **CCC Cód. banco**, **CCC Cód. oficina**, **CCC Dígito control** y **CCC Nº cuenta** se rellenan correctamente.  
 3.  En la ficha desplegable **Transferencia**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Ruta archivo exp. pago elec.**|Introduzca la ruta de acceso completa del archivo de pago electrónico, empiece con la letra de la unidad y acabe con una barra diagonal inversa (\). El nombre no se escribe aquí. Debe utilizar el directorio donde [!INCLUDE[d365fin](../../includes/d365fin_md.md)] se encuentra instalado. Por ejemplo, podría escribir **C:NAV** en este campo. Puede escribir 100 caracteres como máximo.|  
+    |**Ruta archivo exp. pago elec.**|Introduzca la ruta de acceso completa del archivo de pago electrónico, empiece con la letra de la unidad y acabe con una barra diagonal inversa (\). El nombre no se escribe aquí. Debe utilizar el directorio donde [!INCLUDE[prod_short](../../includes/prod_short.md)] se encuentra instalado. Por ejemplo, podría escribir **C:NAV** en este campo. Puede escribir 100 caracteres como máximo.|  
     |**Nom. arch. exp. últ. pago elec.**|Especifique el nombre del archivo con la extensión de nombre de archivo .txt, sin la ruta. Debido a que el nombre del archivo se incrementará cada vez que se exporte un archivo de pago electrónico, este nombre de archivo debe tener dígitos. De esta forma se creará un registro permanente de cada archivo que haya exportado al banco. Por ejemplo, **DD000000.txt** podría ser la primera entrada de este campo. Puede escribir 50 caracteres como máximo.|  
 
 4.  En la ficha desplegable **Registrando**, rellene los campos tal como se describe en la tabla siguiente.  
@@ -39,7 +39,7 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas b
 
 ## <a name="to-set-up-vendor-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos  
 
-1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Ficha banco proveedor** y, a continuación, seleccione el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco proveedor** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **General**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -50,3 +50,6 @@ En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar cuentas b
 
 ## <a name="see-also"></a>Consulte también  
  [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,23 +1,22 @@
 ---
-title: Resumen de tareas para configurar las compras | Documentos de Microsoft
+title: Resumen de tareas para configurar las compras
 description: Describe las tareas para definir las directivas de aprovisionamiento de su empresa y configurar sus procesos de compra.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 138cbe3e8f20448c37b59ca9ab8232e0155dc6a6
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954009"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115399"
 ---
 # <a name="setting-up-purchasing"></a>Configurar compras
 Para poder administrar procesos de compra, debe configurar las reglas y valores que definen las políticas de compra de la empresa.
@@ -34,9 +33,21 @@ La configuración de compra relacionada con las finanzas, como las formas de pag
 | Introduzca los diferentes descuentos y precios especiales que los proveedores le ofrecen en función del producto, la cantidad y/o la fecha. |[Registrar acuerdos de pago, descuentos y precios de venta](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | De prioridad a los proveedores |[De prioridad a los proveedores](purchasing-how-prioritize-vendors.md) |
 | Configure los compradores |[Configurar compradores](purchasing-how-setup-purchasers.md) |
+|Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+> [!TIP]
+> Según su ubicación geográfica, algunas páginas pueden contener campos que no se describen en los productos que se enumeran aquí, porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+## <a name="external-document-number"></a>Número de documento externo
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
+
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

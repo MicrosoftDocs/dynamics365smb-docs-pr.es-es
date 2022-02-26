@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Flujos internos de almacén | Documentos de Microsoft'
-description: El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen.
+title: 'Detalles de diseño: Flujos de almacén internos'
+description: El flujo entre centros de ubicación en picking de componentes y ubicación de artículos finales para órdenes de ensamblado o producción y movimientos ad-hoc, sin documentos de origen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7fa2f139935e279af47548b5c8e8a28b84845521
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185329"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441752"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Detalles de diseño: Flujos de almacén internos
 El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen. El ámbito y la naturaleza de las actividades implicadas varía entre almacenamiento básico y avanzado.  
@@ -35,7 +35,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 
  Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ficha de ubicación o de las fichas de máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.  
 
- Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección Consumo de componentes de producción en el almacén en este tema.  
+ Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección "Consumo de componentes de producción en el almacén" en este tema.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flujos a o desde el ensamblado  
  La integración principal entre los pedidos de ensamblado y las actividades de almacén básico se representa por la capacidad de mover a los componentes del ensamblado al área de ensamblado.  
@@ -72,7 +72,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 
  Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ficha de ubicación o de las fichas de máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.  
 
- Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección Consumo de componentes de producción en el almacén en este tema.  
+ Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección "Consumo de componentes de producción en el almacén" en este tema.  
 
 ### <a name="flows-to-and-from-assembly"></a>Flujos a o desde el ensamblado  
  La integración principal entre los pedidos de ensamblado y las actividades de almacén avanzadas se representa por la capacidad de realizar el picking de los componentes del ensamblado, tanto en la página **Picking almacén** como en la página **Hoja trabajo picking**. Esta funcionalidad opera igual que al realizar el picking de componentes para las órdenes de producción.  
@@ -90,7 +90,7 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 ## <a name="flushing-production-components-in-the-warehouse"></a>Consumo de componentes de producción en el almacén  
  Si se han configurado en la ficha del producto, los componentes seleccionados mediante de almacén se registran como consumidos por la orden de producción cuando se registra la selección de almacén. Con los métodos de baja **Seleccionar + Adelante** y **Seleccionar + Atrás**, el registro de selección activa el registro de consumo relacionado cuando la primera operación comienza o cuando la última operación acaba, respectivamente.  
 
- Tenga en cuenta el ejemplo siguiente basado en la base de datos de demostración de [!INCLUDE[d365fin](includes/d365fin_md.md)], almacén BLANCO.  
+ Tenga en cuenta el ejemplo siguiente basado en la base de datos de demostración de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Existe una orden de producción para 15 UDS del producto LS-100. Algunos de los productos de la lista de componentes deben darse de baja manualmente en un diario de consumo, y en los demás productos de la lista se puede llevar a cabo el picking y la baja automáticamente mediante el método de baja **Pick + Atrás**.  
 
@@ -114,7 +114,10 @@ El flujo de productos entre las ubicaciones en una ubicación de empresa se cent
 
  En la ilustración siguiente se muestra cuando se rellena el campo **Cód. ubicación** de la lista de componentes según la configuración de la máquina o del centro de trabajo.  
 
- ![Descripción general de cuándo y cómo se rellena el campo Código de ubicación](media/binflow.png "Descripción general de cuándo y cómo se rellena el campo Código de ubicación")  
+ ![Descripción general de cuándo y cómo se rellena el campo Código de ubicación.](media/binflow.png "Descripción general de cuándo y cómo se rellena el campo Código de ubicación")  
 
 ## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
+ [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

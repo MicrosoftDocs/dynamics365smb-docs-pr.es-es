@@ -3,19 +3,19 @@ title: Configurar una empresa con el asistente de RapidStart | Documentos de Mic
 description: Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1a9d4c2a4a99ebec0aa1fc019871608948844b7a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187225"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439665"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurar una empresa con el asistente de RapidStart
 Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
@@ -39,7 +39,7 @@ En el procedimiento siguiente, proporcionó al cliente el paquete de configuraci
     >  Solo cambie el Área de trabajo después de haber completado la configuración de la empresa. Si hay detalles de configuración adicionales que deben tenerse en cuenta o modificar, el primero use la hoja de trabajo de configuración para continuar con el trabajo. A continuación, vuelva al asistente para actualizar el perfil de Área de trabajo o elija la acción **Completar configuración**.
 
 7. Elija el botón **Aceptar**.  
-8. Para comprobar que la información de configuración se ha aplicado a la nueva empresa, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información empresa** y seleccione el vínculo relacionado.
+8. Para verificar que la información de configuración se haya aplicado a la nueva empresa, elija la ![ Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.
 
 La página **Información empresa** contiene la información especificada.   
 
@@ -49,3 +49,6 @@ Ya ha configurado la empresa y aplicado datos a ella.
 [Aplicar la configuración a nuevas empresas](admin-apply-configuration-to-new-companies.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,48 +1,66 @@
 ---
-title: Ver el estado de los proyectos de sincronización | Documentos de Microsoft
-description: Aprenda a ver el estado después de sincronizar los registros emparejados.
+title: Ver el estado de los trabajos de sincronización (contiene vídeo)
+description: Utilice la página Errores de sincronización de datos emparejados para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en integraciones.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2019
+ms.search.form: 6250
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a9f4f2442e9cb3f8efc46cc7c9fd1f92c002d0dd
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304497"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115317"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Ver el estado de los proyectos de sincronización
-Utilice la página **Errores de sincronización de datos emparejados** para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en una integración de [!INCLUDE[crm_md](includes/crm_md.md)]. Esto incluye proyectos que se han ejecutado desde la cola de proyectos y proyectos manuales de sincronización que se han ejecutado en registros desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por ejemplo, ver su estado es útil para la resolución de problemas, ya que le da acceso a los detalles sobre los errores relacionados con los registros emparejados. Normalmente, estos tipos de errores se deben a acciones del usuario, por ejemplo, cuando:  
 
-* Dos personas han hecho un cambio en el mismo registro en ambas aplicaciones empresariales.
-* Alguien ha eliminado un registro de una de las aplicaciones, pero no de ambas.
+
+Utilice la página **Errores de sincronización de datos emparejados** para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en una integración de Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. Esto incluye proyectos que se han ejecutado desde la cola de proyectos y proyectos manuales de sincronización que se han ejecutado en registros desde [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, ver su estado es útil para la resolución de problemas, ya que le da acceso a los detalles sobre los errores relacionados con los registros emparejados. Normalmente, estos tipos de errores se deben a acciones del usuario, por ejemplo, cuando:  
+
+* Dos personas han hecho un cambio en los mismos datos en ambas aplicaciones empresariales.
+* Alguien ha eliminado datos de una de las aplicaciones, pero no de ambas.
 
 > [!Note]
 > La página **Errores de sincronización de datos emparejados** muestra información sobre los proyectos relacionados con los registros emparejados. Si resuelve todos los errores pero los registros siguen sin sincronizarse, es posible que tenga algo que ver con una configuración para la integración. Típicamente, su administrador necesitará resolver esos tipos de errores.   
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+## <a name="example"></a>Ejemplo:
+Este vídeo muestra un ejemplo de cómo solucionar errores que ocurrieron al sincronizar con [!INCLUDE[prod_short](includes/cds_long_md.md)]. El proceso será el mismo para todas las integraciones. 
+
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Para ver y resolver los errores de sincronización de los registros emparejados
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Errores de sincronización de datos emparejados** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Errores de sincronización de datos emparejados** y luego elija el enlace relacionado.
 2. La página **Errores de sincronización de datos emparejados** muestra los problemas que se produjeron al sincronizar registros emparejados. La siguiente tabla incluye acciones que puede utilizar para resolver problemas uno por uno:
 
 |Acción|Descripción|
 |----|----|
-|**Eliminar emparejamiento**|Desempareja los registros y ya no se sincronizarán. Para reanudar la sincronización de los registros, debe emparejarlos de nuevo.|
-|**Reintentar**|Para cada registro en el que se encuentra un error, la sincronización se omite a menos que solucione el problema manualmente. El reintento incluirá el registro en la siguiente sincronización.|
-|**Sincronizar**|La aplicación intentará resolver un conflicto en el que se haya cambiado un registro en ambas aplicaciones empresariales. Puede elegir la versión del registro que se usará en ambas aplicaciones.|
-|**Restaurar Registros** y **Eliminar registros**|Son útiles cuando se ha eliminado un registro en una de las aplicaciones. La opción Eliminar registros elimina el registro en la aplicación donde aún existe. La restauración recrea el registro en la aplicación donde se eliminó.|
+|**Eliminar emparejamiento**|Desempareja los registros y ya no se sincronizarán. Para reanudar la sincronización, debe emparejarlos de nuevo. |
+|**Reintentar** y **Reintentar todo**|Para cada registro en el que se encuentra un error, la sincronización se omite a menos que solucione el problema. Reintentar incluirá el registro seleccionado en la próxima sincronización y **Reintentar todo** incluirá todos los registros.|
+|**Sincronizar**|La aplicación intentará resolver un conflicto en el que se haya cambiado datos en ambas aplicaciones empresariales. También puede elegir los datos que se usarán.|
+|**Restaurar Registros** y **Eliminar registros**|Son útiles cuando se ha eliminado un registro en una de las aplicaciones empresariales. La opción Eliminar registros elimina el registro o fila en la aplicación donde aún existe. La restauración de registros recrea el registro o la fila en la aplicación empresarial donde se eliminó.|
+
+> [!NOTE]
+> Para reducir el número de conflictos que necesita resolver, puede configurar sus asignaciones de tablas de integración para aplicar estas acciones automáticamente. Para obtener más información, consulte [Asignación de tablas de integración](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Para ver el registro de sincronización de un registro específico (sincronizado manualmente)
-1. Abrir, por ejemplo, un cliente, un producto o cualquier otro registro que esté sincronizando datos entre [!INCLUDE[d365fin](includes/d365fin_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)].
+1. Abrir, por ejemplo, un cliente, un producto o cualquier otro registro que esté sincronizando datos entre [!INCLUDE[prod_short](includes/prod_short.md)] y Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Seleccione la acción **Registro de sincronización** para ver el registro de sincronización de un registro seleccionado. Por ejemplo, un cliente específico que ha sincronizado manualmente.
+
+## <a name="remove-couplings-between-records"></a>Eliminar acoplamientos entre registros
+Cuando algo sale mal en su integración y necesita desacoplar registros para dejar de sincronizarlos, puede hacerlo para uno o más registros a la vez. Puede desacoplar uno o más registros de las páginas de lista o la página **Errores de sincronización de datos acoplados** eligiendo una o más líneas y eligiendo **Eliminar acoplamiento**. También puede eliminar todos los acoplamientos para una o más asignaciones de tabla en la página **Asignaciones de tablas de integración**. 
+
+Si una entidad con un emparejamiento unidireccional se elimina en [!INCLUDE[prod_short](includes/prod_short.md)], debe eliminar manualmente el emparejamiento roto. Para hacer eso, en la página **Errores de sincronización de datos acoplados**, elija la acción **Buscar eliminado** y, a continuación, elimine los acoplamientos.
 
 ## <a name="see-also"></a>Consulte también  
 [Configuración de cuentas de usuario para la integración con Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

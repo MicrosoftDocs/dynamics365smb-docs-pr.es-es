@@ -1,21 +1,21 @@
 ---
-title: Cómo convertir contratos de servicio | Documentos de Microsoft
-description: Como la herramienta de cambio de tasa de IVA no puede convertir contratos de servicio, estos acuerdos deben convertirse manualmente. Este tema describe diversos métodos alternativos que puede usar para la conversión de contrato de servicio.
+title: Convertir contratos de servicio
+description: Este tema describe diversos métodos alternativos que puede usar para convertir contratos de servicio que incluyan importes de IVA.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 1b2bb49651a52f36ab8d98edc22ba2248794f598
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554793"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436406"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Convertir contratos de servicio que incluyen importes de IVA
 Como la herramienta de cambio de tasa de IVA no puede convertir contratos de servicio, estos acuerdos deben convertirse manualmente. Este tema describe diversos métodos alternativos que puede usar para la conversión de contrato de servicio.  
@@ -29,7 +29,7 @@ Como la herramienta de cambio de tasa de IVA no puede convertir contratos de ser
 >  Para este ejemplo, debe cambiar la fecha de trabajo a 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Para corregir una factura para un contrato de servicio prepago  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Administración de contratos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Administración de contratos** y luego elija el enlace relacionado.  
 2. En **Listas**, seleccione **Contratos de servicio**.  
 3. Cree un contrato de servicio de prepago nuevo. Introduzca una fecha de inicio de **01.01.2017** y un año de periodo de factura para el cliente **20000**.  
 4. Para firmar el contrato, elija la acción **Firmar contrato**.  
@@ -68,3 +68,6 @@ El procedimiento siguiente describe cómo crear un nuevo abono con el trabajo po
 [Finanzas](finance.md)  
 [Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

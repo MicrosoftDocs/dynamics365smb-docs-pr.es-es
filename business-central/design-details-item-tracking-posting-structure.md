@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Estructura de registro de seguimiento de productos | Documentos de Microsoft'
-description: Aprender a usar movimientos de productos como soporte principal de los números de seguimiento de producto.
+title: 'Detalles de diseño: Estructura de registro de seguimiento de productos'
+description: Aprender a usar movimientos de productos como soporte principal de los números de seguimiento de producto en la Estructura de registro de seguimiento de productos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5fc178585579d4f4f8b253ecdb696964993e09c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 186f4d88fe7fe2b772ec579727fd62d4985c0cf9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184993"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320344"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Detalles de diseño: Estructura de registro de seguimiento de productos
 Para establecer la correspondencia con la funcionalidad de valoración de existencias y obtener una solución más simple y robusta, se usan los movimientos de producto como el soporte principal de los números de seguimiento de producto.  
@@ -48,3 +48,5 @@ La codeunit 22 examina los números de seguimiento de producto y divide el regis
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)   
 [Detalles de diseño: Diseño de seguimiento de productos](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

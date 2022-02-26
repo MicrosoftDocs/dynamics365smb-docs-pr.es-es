@@ -3,26 +3,26 @@ title: Configurar áreas de aplicación complejas mediante procedimientos recome
 description: Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a09a438a7683cafb8f68eb793bdde2b93fa64409
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: dc9ed598938ff0bb4782e9f01aa6d35eaa9b610e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192344"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778127"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Configurar áreas de aplicación complejas mediante procedimientos recomendados
 Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio.  
 
  Tanto si utiliza Rapid Start para implementar los valores de configuración como si los introduce manualmente en la nueva empresa, puede sustentar su decisiones de configuración con algunas recomendaciones generales para los campos de configuración seleccionados que son conocidos porque pueden provocar que la solución resulte ineficaz si están definidos forma incorrecta.  
 
- La ayuda de [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye información de procedimientos recomendados sobre cómo configurar los campos clave en las áreas de aplicación siguientes:  
+ La ayuda de [!INCLUDE[prod_short](includes/prod_short.md)] incluye información de procedimientos recomendados sobre cómo configurar los campos clave en las áreas de aplicación siguientes:  
 
 -   [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 
@@ -31,7 +31,10 @@ Es importante introducir los valores de configuración correctos desde el princi
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

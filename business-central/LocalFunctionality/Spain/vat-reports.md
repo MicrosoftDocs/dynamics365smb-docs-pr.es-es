@@ -1,25 +1,25 @@
 ---
-title: Informes IVA
-description: El IVA se aplica a las transacciones que involucran bienes y servicios en España o bienes importados a España. La siguiente información proporciona más detalles sobre la funcionalidad de IVA.
+title: Informes de IVA [ES]
+description: El IVA se aplica a las transacciones que involucran bienes y servicios en España o bienes importados a España. La siguiente información proporciona detalles sobre la funcionalidad de IVA.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6820e77e87a8887a6739fa71cee451816faa31c5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: a7fe12c48f967df22539ebb00a9dc840c76741c1
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301071"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323447"
 ---
-# <a name="vat-reports"></a>Informes IVA
+# <a name="vat-reports-in-the-spanish-version"></a>Informes de IVA en la versión en español
 El IVA se aplica a las transacciones que involucran bienes y servicios en España o bienes importados a España. La siguiente información proporciona más detalles sobre la funcionalidad de IVA.  
 
 ## <a name="equivalence-charge"></a>Recargo de equivalencia  
@@ -51,3 +51,6 @@ Mediante IVA - declaración VIES se puede ejecutar un archivo por lotes para gen
  [Funcionalidad local para España](spain-local-functionality.md)   
  [Informe 340](report-340.md)   
  [Informe 347](report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

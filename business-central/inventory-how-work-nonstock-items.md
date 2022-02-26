@@ -1,28 +1,28 @@
 ---
-title: Crear y administrar los productos del catálogo | Documentos de Microsoft
+title: Crear y administrar productos en catálogo
 description: Describe cómo comerciar con artículos que están en la lista de artículos de proveedores pero no en su propia lista de artículos.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 5725, 5726, 5732
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8e90de738a03887518ba8e4c33e0185da3134a6b
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181849"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060011"
 ---
 # <a name="work-with-catalog-items"></a>Trabajar con productos del catálogo
 Puede ofrecer varios productos a sus clientes para su comodidad que no desea gestionar en su sistema hasta que empiece a venderlos. Cuando desee empezar a gestionar esos productos en su sistema, puede convertirlos en fichas de productos normales de dos formas.
 
 * Desde una ficha de producto del catálogo, cree una nueva ficha de producto basada en una plantilla.
-* Desde una línea de pedido de ventas del tipo **Producto** con un campo ***N.º** vacío, seleccione un producto del catálogo. A continuación, se crea automáticamente una ficha de producto para el producto del catálogo.
+* Desde una línea de pedido de ventas del tipo **Producto** con un campo **N.º** vacío, seleccione un producto del catálogo. A continuación, se crea automáticamente una ficha de producto para el producto del catálogo.
 
 > [!NOTE]  
 > No puede seleccionar un producto del catálogo de la página **Facturas venta**.<br /><br />
@@ -36,25 +36,25 @@ Un producto del catálogo normalmente tiene el número del proveedor que lo sumi
 ## <a name="to-create-a-catalog-item"></a>Para crear un producto del catálogo
 Las fichas de productos del catálogo disponen de mucha menos información que las normales puesto que solo las utiliza en ofertas de ventas y en otras maneras. Por esa razón, se convertirán en fichas de producto normal antes de que pueda registrarles las transacciones de venta.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos de catálogo** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos del catálogo** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Para configurar cómo los números de productos del catálogo se convierten en su numeración
 Para activar la conversión de una ficha de producto del catálogo en una ficha normal, primero debe configurar cómo se convertirá la numeración del producto del vendedor a su formato de número de producto.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de productos de catálogo** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de productos de catálogo** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
 
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Para convertir un producto del catálogo en un producto normal
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos de catálogo** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos del catálogo** y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del catálogo que desee convertir a uno normal.
 3. En la página **Ficha de producto del catálogo**, seleccione la acción **Crear producto**.
 
 Se ha creado una plantilla y una nueva ficha de producto con la información del producto del catálogo rellenada previamente. Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Para vender un producto del catálogo y convertirlo en un producto normal
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**. Rellene los campos de la ficha desplegable **General** para cada pedido. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 3. En una nueva línea de venta, en el campo **Tipo**, seleccione **Producto**, pero deje **N.º** campo vacío.
 4. Elija la acción **Línea** y, a continuación, elija la acción **Seleccionar artículos del catálogo**.
@@ -66,10 +66,13 @@ Se ha creado una plantilla y una nueva ficha de producto con la información del
 Si es necesario, podrá rellenar o editar los campos en la nueva ficha de producto. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Un informe de referencia cruzada de un producto se crea automáticamente por el proveedor del producto entre el número del producto del proveedor y su nuevo número de producto. Para obtener más información, vea [Usar referencias cruzadas de producto](inventory-how-use-item-cross-refs.md).
+>   Una referencia de producto se crea automáticamente entre el número del producto del proveedor y su nuevo número de producto. Para obtener más información, vea [Usar referencias de producto](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Consulte también
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Crear pedidos especiales](sales-how-to-create-special-orders.md)|  
 [Inventario](inventory-manage-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

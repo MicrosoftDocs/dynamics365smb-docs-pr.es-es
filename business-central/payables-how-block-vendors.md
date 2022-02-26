@@ -1,21 +1,22 @@
 ---
-title: Cómo bloquear compras a proveedores
-description: Puede bloquear la inclusión de proveedores en cualquier transacción, o simplemente bloquear nuevos pagos a ellos.
+title: Bloquear proveedores
+description: Obtenga más información sobre cómo bloquear la inclusión de proveedores en cualquier transacción, o simplemente cómo bloquear nuevos pagos a ellos.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/14/2020
+ms.search.form: 27
+ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: f28d1c11889d496072d57cfdb70f3c743037bff3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 2088f6ccc64c3827250878c8f7b1027600f7f558
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954287"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953140"
 ---
 # <a name="block-vendors"></a>Bloquear proveedores
 Puede bloquear a un proveedor, por ejemplo, por insolvencia, para que no pueda añadirse a los documentos de compra o para que no se puedan registrar pagos para el proveedor.
@@ -29,7 +30,7 @@ La siguiente tabla describe las distintas opciones de bloqueo de proveedores.
 |**Todo**|No se permiten las transacciones de este proveedor.|  
 
 ## <a name="to-block-a-vendor"></a>Para bloquear a un proveedor  
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Seleccione el proveedor que desea bloquear.
 3. En el campo **Bloqueado** elija una de las opciones para bloquear.
 
@@ -37,3 +38,6 @@ La siguiente tabla describe las distintas opciones de bloqueo de proveedores.
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Creación de pagos](payables-make-payments.md)  
 [Administrar pagos](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

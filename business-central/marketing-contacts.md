@@ -1,26 +1,28 @@
 ---
-title: Crear y administrar contactos de empresa | Documentos de Microsoft
+title: Crear y gestionar contactos de empresas
 description: Puede configurar todas las entidades externas con las que mantenga una relación de negocio (por ejemplo clientes potenciales, clientes, proveedores y consultores) como contactos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99345104555d8cba2887361a1de4941b24b7499a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 581e89630782f4cfca364838002fa4eca4ddbb6d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181633"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060175"
 ---
 # <a name="managing-contacts"></a>Gestionar contactos
+
 Los empleados de su empresa se reúnen periódicamente con posibles relaciones de negocio que pueden convertirse en relaciones formales. Todos estos contactos externos y su información detallada deben registrarse en el sistema para que la comunicación sea más satisfactoria y puedan convertirse fácilmente en relaciones formales con clientes, proveedores o bancos.
+
+Utilice la lista **Contactos** para administrar sus contactos. A partir de ahí, puede crear oportunidades y administrar otras interacciones con contactos individuales. También puede ver estadísticas sobre un contacto y puede acceder a diversos informes. Para obtener información sobre cómo encontrar el contacto correcto en la lista, consulte [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md).  
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
@@ -32,5 +34,10 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Resolver la confusión cuando existen dos o más registros para el mismo contacto.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Consulte también
+
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
+[Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  
 [Trabajar con Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

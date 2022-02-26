@@ -1,21 +1,23 @@
 ---
-title: Administre usuarios y roles | Documentos de Microsoft
-description: Obtener información sobre cómo administrar usuarios y áreas de trabajo en Business Central.
+title: Administrar usuarios y roles
+description: Obtener información sobre cómo administrar perfiles de usuari y áreas de trabajo en Business Central. Los perfiles permiten a los administradores definir y gestionar de forma centralizada lo que los usuarios pueden ver y hacer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 9171
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186505"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012502"
 ---
-# <a name="manage-profiles"></a>Administración de perfiles
-A todos los usuarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] se les asigna un perfil que refleja su rol de negocio, el departamento en el que trabaja u otra clasificación. Los perfiles permiten a los administradores definir y administrar centralmente lo que los diferentes tipos de usuarios pueden ver y hacer en la interfaz de usuario para que puedan realizar sus tareas de negocio de manera eficiente.
+# <a name="manage-user-profiles"></a>Administración de perfiles de usuario
+
+A todos los usuarios de [!INCLUDE[prod_short](includes/prod_short.md)] se les asigna un perfil que refleja su rol de negocio, el departamento en el que trabaja u otra clasificación. Los perfiles permiten a los administradores definir y administrar centralmente lo que los diferentes tipos de usuarios pueden ver y hacer en la interfaz de usuario para que puedan realizar sus tareas de negocio de manera eficiente.
 
 > [!NOTE]
 > El uso de negocio típico de un perfil es un rol. Por lo tanto, un perfil se llama *Perfil (rol)* en la interfaz de usuario.
@@ -28,11 +30,15 @@ Para poder administrar los perfiles de los usuarios, los usuarios se deben crear
 Puede personalizar los diseños de página para un perfil de modo que todos los usuarios asignados al perfil vean las páginas personalizadas. Como administrador, personalice las páginas utilizando la misma funcionalidad que los usuarios cuando realizan la personalización. Para obtener más información, consulte [Personalizar las páginas para los perfiles](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Para crear un perfil
+
 Si no puede copiar un perfil existente, puede crear uno nuevo manualmente.
 
-1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Perfiles (roles)** y, a continuación, seleccione el vínculo relacionado.  
+1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Perfiles (roles)** y luego elija el enlace relacionado.  
 2. En la página **Perfiles (roles)**, elija la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Si desea que un perfil en particular esté disponible solo para usuarios muy específicos, puede configurar el campo **Descripción** a `Navigation menu only.`. De esta forma, el perfil queda excluido de la lista de roles disponibles en **Mi configuración**.
 
 ## <a name="to-copy-a-profile"></a>Para copiar un perfil
 Para ahorrar tiempo, puede crear un nuevo perfil copiando uno existente. Copie uno que tenga una configuración similar al que desea crear.
@@ -65,8 +71,8 @@ Sobre la página **Mi configuración**, los usuarios pueden definir el comportam
 
 Como administrador, puede definir esta configuración para un perfil y, por lo tanto, aplicar la configuración a todos los usuarios del rol relacionado.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Perfiles (roles)** y luego elija el enlace relacionado.
-2. Seleccione la línea del perfil cuya configuración de usuario desea cambiar, elija la acción **Navegar** y luego elija la acción **Personalizaciones del usuario**.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Perfiles (roles)** y luego elija el enlace relacionado.
+2. Seleccione la línea del perfil cuya configuración de usuario desea cambiar y elija la acción **Enumerar personalizaciones de usuario**.
 3. En la página **Personalizaciones del usuario**, abra la tarjeta para el usuario cuya configuración desea cambiar.
 4. En la página **Tarjeta personalización usuario**, edite los campos según sea necesario.
 
@@ -80,14 +86,14 @@ Cuando se crea un perfil, puede seleccionar diferentes casillas que definen si, 
     - **Mostrar en Explorador de roles** para especificar si las acciones de las características empresariales incluidas en el perfil se muestran en la vista ampliada del explorador de roles, una descripción general de las funciones. Para obtener más información, vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Para exportar perfiles
-Puede exportar perfiles desde [!INCLUDE[d365fin](includes/d365fin_md.md)], por ejemplo para reutilizarlos en otro suscriptor. Los perfiles se exportan a un archivo comprimido que contiene archivos .al que se pueden reutilizar para desarrollar extensiones. Para obtener más información, consulte [Uso del cliente para crear perfiles y personalizaciones de página](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Puede exportar perfiles desde [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo para reutilizarlos en otro suscriptor. Los perfiles se exportan a un archivo comprimido que contiene archivos .al que se pueden reutilizar para desarrollar extensiones. Para obtener más información, consulte [Uso del cliente para crear perfiles y personalizaciones de página](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * En la página **Perfiles (roles)**, elija la acción **Exportar perfiles**.
 
 Se exporta un archivo zip con los archivos .al de todos los perfiles.
 
 ## <a name="to-import-profiles"></a>Para importar perfiles
-Puede importar perfiles que se han exportado desde [!INCLUDE[d365fin](includes/d365fin_md.md)]. Los pasos son más o menos lo opuesto a los pasos para exportar perfiles. Para obtener más información, consulte [Para exportar perfiles](admin-users-profiles-roles.md#to-export-profiles).
+Puede importar perfiles que se han exportado desde [!INCLUDE[prod_short](includes/prod_short.md)]. Los pasos son más o menos lo opuesto a los pasos para exportar perfiles. Para obtener más información, consulte [Para exportar perfiles](admin-users-profiles-roles.md#to-export-profiles).
 
 1. En la página **Perfiles (roles)**, elija la acción **Importar perfiles**.
 2. Siga los pasos en el asistente **Importar perfiles**.
@@ -107,7 +113,7 @@ Puede eliminar un perfil eligiendo la acción **Eliminar** acción en la página
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Para eliminar todas las personalizaciones efectuadas por un usuario
 Puede eliminar todos los cambios que un usuario ha realizado en las páginas que constituyen su espacio de trabajo. Esto puede ser útil, por ejemplo, si un empleado ha cambiado de rol y ya no necesita las personalizaciones. Al eliminar las personalizaciones de los usuarios, el diseño de la página vuelve a ser el definido por el perfil.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Personalizaciones del usuario** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Personalizaciones de usuario** y luego elija el enlace relacionado.
 
     La página **Personalizaciones del usuario** muestra todos los usuarios que han realizado personalizaciones.
 
@@ -121,20 +127,29 @@ También puede eliminar todas las personalizaciones de página para un perfil. P
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Para eliminar las personalizaciones de páginas específicas
 Puede eliminar las personalizaciones que uno o más usuarios han realizado en páginas específicas que constituyen su espacio de trabajo. Esto puede ser útil, por ejemplo, si un proceso de negocio modificado significa que los usuarios ya no deben usar una personalización. Al eliminar las personalizaciones de los usuarios, el diseño de la página vuelve a ser el definido por el perfil.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Personalizaciones de página de usuario** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Personalizaciones de página de usuario** y luego elija el enlace relacionado.
 
     La página **Personalizaciones de página de usuario** enumera todas las páginas que se han personalizado y el usuario al que pertenecen.
 
     > [!Note]
-    > Una marca de verificación en el campo **Personalización heredada** indica que la personalización se realizó en una versión anterior de [!INCLUDE[d365fin](includes/d365fin_md.md)] que manejaba la personalización de forma diferente. Los usuarios que intentan personalizar estas páginas se bloquean a menos que elijan desbloquear la página. Para obtener más información, consulte [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md).
+    > Una marca de verificación en el campo **Personalización heredada** indica que la personalización se realizó en una versión anterior de [!INCLUDE[prod_short](includes/prod_short.md)] que manejaba la personalización de forma diferente. Los usuarios que intentan personalizar estas páginas se bloquean a menos que elijan desbloquear la página. Para obtener más información, consulte [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md).
 
 2. Seleccione la línea de la personalización de página que desea eliminar y, después, seleccione la acción **Eliminar**.
 
-El usuario podrá ver los cambios la próxima vez que inicie sesión.    
+El usuario podrá ver los cambios la próxima vez que inicie sesión.  
 
 También puede eliminar personalizaciones de página individuales para un perfil. Para obtener más información, consulte [Para eliminar la personalización de páginas específicas de un perfil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Administrar sesiones de usuario
+
+Como administrador de [!INCLUDE[prod_short](includes/prod_short.md)] online, puede administrar sesiones de usuario en el centro de administración. Para más información, vea [Administrar sesiones](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) en el contenido de la administración.  
+
+Para [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, puede administrar sesiones usando SQL Server Management Studio, por ejemplo. Para más información, consulte [Documentación técnica de SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Consulte también  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
 [Personalizar el área de trabajo](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
-title: Resumen de los informes previos al cierre para la precisión de las cuentas | Documentos de Microsoft
+title: Resumen de los informes previos al cierre para la precisión de las cuentas
 description: Proporciona un resume de los informes que puede usar para verificar la exactitud de las cuentas antes de cerrar los libros al final de un año o periodo.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.search.form: 1393, 1394
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d3e522f1fedf4e5ea5beaccd0e0fc015414b87c6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 877f2ed9ba278ccafb26266d85165b8cfc5589d3
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249703"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012665"
 ---
 # <a name="using-pre-closing-reports"></a>Usar los informes previos al cierre
+
 Existen numerosos informes estándar que puede usar para verificar la exactitud de las cuentas antes de cerrar los libros al final de un año o periodo. Por ejemplo, puede usar el informe **Cliente - Balance sumas y saldos** para verificar si el saldo para un grupo contable de cliente es igual al saldo en la cuenta de contabilidad correspondiente en una determinada fecha.
 
 La tabla siguiente describe diversos informes que pueden ayudar en este proceso.
@@ -35,9 +35,13 @@ La tabla siguiente describe diversos informes que pueden ayudar en este proceso.
 | Imprimir un informe de balance de comprobación con saldos y cambios netos para cuentas de contabilidad. |Balance sumas y saldos |
 | Imprimir un balance de comprobación para una empresa consolidada. |Balance comprobación consol. |
 
-Para ver informe, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba el nombre como aparece en la tabla y, a continuación, elija el vínculo relacionado.
+Para ver un informe, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba el nombre tal como aparece en la tabla y luego elija el enlace relacionado.
 
 ## <a name="see-also"></a>Consulte también
-[Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
+[Cerrar años y periodos](year-close-years-periods.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,25 +1,25 @@
 ---
-title: Importación de muchas imágenes de productos desde un archivo ZIP| Documentos de Microsoft
-description: Puede importar varias imágenes de productos de una sola vez. Simplemente asigne a sus archivos de imagen nombres que correspondan a sus números de producto, comprímalos en un archivo zip y, a continuación, utilice la página Importar imágenes de producto para administrar las imágenes de artículo que desea importar.
-documentationcenter: ''
+title: Importación de muchas imágenes de productos desde un archivo ZIP
+description: Para importar imágenes de varios elementos, asigne a los archivos de imágenes nombres correspondientes a los números de los productos, comprímalos en un archivo ZIP y utilice la página Importar imágenes de producto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8478a6fc2a4860f2cd5a2b5a01d6680fbaea3130
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 30, 461
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 5a43d696eab27a72c9f9b3c224d08feb9e99ccf4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182185"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059679"
 ---
 # <a name="import-multiple-item-pictures"></a>Importar varias imágenes de producto
-Puede importar varias imágenes de productos de una sola vez. Simplemente asigne a sus archivos de imagen nombres que correspondan a sus números de producto, comprímalos en un archivo ZIP y, a continuación, utilice la página **Importar imágenes de producto** para administrar las imágenes de artículo que desea importar.
+Puede importar varias imágenes de productos de una sola vez. Simplemente asigne a sus archivos de imagen nombres que correspondan a sus números de producto, comprímalos en un archivo zip y, a continuación, utilice la página Importar imágenes de producto para administrar las imágenes de artículo que desea importar.
 
 Se admiten todos los formatos de archivo habituales.
 
@@ -35,7 +35,7 @@ Se admiten todos los formatos de archivo habituales.
 2. Reúna todos los archivos en un archivo ZIP. Por ejemplo, en el Explorador de Windows, seleccione los archivos y, a continuación, seleccione **Enviar a**, **Carpeta comprimida (zip)**.     
 
 ## <a name="to-import-item-pictures"></a>Para importar imágenes de producto
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. existencias** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. existencias** y luego elija el enlace relacionado.
 2. Seleccione la acción **Importar imágenes de producto**.
 3. En el campo **Seleccionar un archivo ZIP**, seleccione la carpeta ZIP correspondiente y, a continuación, seleccione el botón **Abrir**.
 
@@ -54,4 +54,7 @@ El campo **Estado de importación** se actualiza para mostrar si la importación
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

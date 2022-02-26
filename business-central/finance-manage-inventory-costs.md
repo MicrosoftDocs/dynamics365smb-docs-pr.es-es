@@ -1,21 +1,21 @@
 ---
-title: Administrar el inventario de costes | Documentos de Microsoft
-description: La gestión de costes, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costes operativos de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.
+title: Gestión de costes de inventario
+description: La gestión de costes se refiere al registro y la creación de informes sobre los costes de explotación de la empresa e incluye la creación de informes de los costes de stock y fabricación.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34912c7f87823bf6f51ca97ff579ce34c0900d69
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183001"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688348"
 ---
 # <a name="managing-inventory-costs"></a>Gestión de costes de inventario
 La gestión de costes, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costes operativos de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.   
@@ -26,7 +26,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 |**Para**|**Vea**|  
 |------------|-------------|  
-|Leer información conceptual para conocer los principios y definiciones que rigen la función de contabilidad de valoración de existencias en [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Acerca del contabilidad de valoración](finance-learn-about-costing.md)|  
+|Leer información conceptual para conocer los principios y definiciones que rigen la función de contabilidad de valoración de existencias en [!INCLUDE[prod_short](includes/prod_short.md)].|[Acerca del contabilidad de valoración](finance-learn-about-costing.md)|  
+|Asegúrese de que conoce el coste de los productos enviados mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra después de la venta.|[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
 |Información sobre todos los mecanismos en el sistema de costes.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|
 |Leer cómo los periodos de inventario ayudan a las empresas a controlar el valor de las existencias con el tiempo definiendo periodos más cortos que se pueden cerrar para registrar según avanza el año fiscal.|[Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)|
 |Leer por qué los costes estándar los suelen utilizar las empresas de fabricación como base de valoración para los componentes y productos finales.|[Acerca del cálculo de coste estándar](finance-about-calculating-standard-cost.md)|
@@ -37,10 +38,14 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Actualice periódicamente los costes estándar de los componentes, en ensamblados o L.M. de producción, y distribuya los nuevos costes al producto principal.|[Actualizar costes estándar](finance-how-to-update-standard-costs.md)|
 |Consulte y modifique manualmente determinados movimientos de liquidación del producto que se crean automáticamente durante las transacciones del inventario.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|
 |Realizar tareas de control e informes de final de periodo, como calcular el valor de existencias y registrar costes en la contabilidad.|[Creación de informes de costes y conciliación con la contabilidad](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el coste de inventario o conciliarlo con la contabilidad a un segundo plano.|[Ajustar y conciliar el coste de inventario con la contabilidad con cola de proyectos](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Consulte también  
  [Finanzas](finance.md)  
  [Grupos contables inventario](inventory-manage-inventory.md)   
- [Ventas](sales-manage-sales.md)   
+ [Ccial](sales-manage-sales.md)   
  [Compras](purchasing-manage-purchasing.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

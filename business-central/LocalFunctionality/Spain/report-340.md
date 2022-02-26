@@ -1,33 +1,33 @@
 ---
-title: Informe 340
-description: El Informe 340 contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal.
+title: Informe 340 [ES]
+description: Este tema describe el Informe 340, que contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c7c5f086d2c92503e0c7b6804421a1e750f8f08e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: ff987583e55acdc1e1c9589b2103649b9c64aabf
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341578"
 ---
-# <a name="report-340"></a>Informe 340
-El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.aeat.es). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
+# <a name="report-340-in-the-spanish-version"></a>Informe 340 en la versión en español
+El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.agenciatributaria.es/). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
 
 ## <a name="reporting-requirements-for-entrepreneurs-and-small-companies"></a>Requisitos de informes para emprendedores y pequeñas empresas  
 Los requisitos de presentación de informes para empresarios y pequeñas empresas se modifican para apoyar a las empresas que utilizan los criterios de contabilidad de efectivo (CAC).  
 
 Una empresa puede utilizar el método de contabilidad de efectivo si las ventas del negocio no exceden los 2 millones de euros al año. Hay una excepción a esta regla para una empresa cuyos recibos en efectivo de un único cliente exceden la suma de 100 000 euros.  
 
-En [!INCLUDE[d365fin](../../includes/d365fin_md.md)], puede configurar grupos de contabilización para la contabilización del IVA en efectivo para compras y ventas.  
+En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar grupos de contabilización para la contabilización del IVA en efectivo para compras y ventas.  
 
- Si se archiva un informe de este régimen, se aplica la etiqueta siguiente a algunos informes de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]: **Régimen especial del criterio de caja**. Los informes modificados son:  
+ Si se archiva un informe de este régimen, se aplica la etiqueta siguiente a algunos informes de [!INCLUDE[prod_short](../../includes/prod_short.md)]: **Régimen especial del criterio de caja**. Los informes modificados son:  
 
 |Informe|Description|  
 |------------|---------------------------------------|  
@@ -92,3 +92,6 @@ Antes de crear el informe **Informe 340**, debe tener en cuenta las siguientes r
  [Crear el informe 340](how-to-create-report-340.md)   
  [Pagos en efectivo](payments-in-cash.md)   
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

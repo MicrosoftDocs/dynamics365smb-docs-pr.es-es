@@ -1,24 +1,24 @@
 ---
-title: 'Detalles de diseño: Parámetros de la planificación | Documentos de Microsoft'
-description: En este tema se describen los distintos parámetros de planificación que puede usar en Business Central.
+title: 'Detalles de diseño: Parámetros de la planificación'
+description: Este tema describe los diferentes parámetros de planificación que puede utilizar y cómo afectan al sistema de planificación.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 07/21/2021
+ms.author: edupont
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272043"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649817"
 ---
 # <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
-En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La forma en que el sistema de planificación controla el suministro de productos se determina mediante distintas opciones de configuración de la ficha de producto o UA, y las opciones de la configuración de fabricación. En la tabla siguiente se muestra cómo se usan estos parámetros para la planificación.  
 
@@ -82,25 +82,25 @@ Para obtener un plan de suministro racional, el planificador optimizará los par
 
 El momento del periodo de reprogramación, el periodo amortiguador y el periodo de acumulación de lotes se basa en una fecha de suministro. El ciclo se basa en la fecha de inicio de la planificación, tal como se muestra en la ilustración siguiente.  
 
-![Elementos de ciclo](media/supply_planning_5_time_bucket_elements.png "Elementos de ciclo")  
+![Elementos de ciclo.](media/supply_planning_5_time_bucket_elements.png "Elementos de ciclo")  
 
 En los siguientes ejemplos, las flechas negras representan el aprovisionamiento existente (arriba) y demanda (abajo). Las flechas rojas, verdes y naranjas son sugerencias de planificación.  
 
 **Ejemplo 1**: la fecha de modificación queda fuera del periodo de reprogramación, lo que hace que se cancele el aprovisionamiento existente. Se sugiere un nuevo aprovisionamiento para cubrir la demanda en el periodo de acumulación de lotes.  
 
-![Período de reprogramación y Período de acumulación de lotes](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Período de reprogramación y Período de acumulación de lotes")  
+![Período de reprogramación y Período de acumulación de lotes.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Período de reprogramación y Período de acumulación de lotes")  
 
 **Ejemplo 2**: la fecha de modificación está dentro del periodo de reprogramación, lo que hace que se reprograme el aprovisionamiento existente. Se sugiere un nuevo aprovisionamiento para cubrir la demanda fuera del periodo de acumulación de lotes.  
 
-![Período de reprogramación, Período de acumulación de lotes y Reprogramar](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Período de reprogramación, Período de acumulación de lotes y Reprogramar")  
+![Período de reprogramación, Período de acumulación de lotes y Reprogramar.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Período de reprogramación, Período de acumulación de lotes y Reprogramar")  
 
 **Ejemplo 3**: hay una demanda en el periodo amortiguador y la cantidad de aprovisionamiento en el periodo de acumulación de lotes coincide con la cantidad de aprovisionamiento. La siguiente demanda se queda sin cubrir y se sugieren un nuevo suministro.  
 
-![Período amortiguador y Período de acumulación de lotes](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Período amortiguador y Período de acumulación de lotes")  
+![Período amortiguador y Período de acumulación de lotes.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Período amortiguador y Período de acumulación de lotes")  
 
 **Ejemplo 4**: hay una demanda en el periodo amortiguador y el aprovisionamiento sigue en la misma fecha. No obstante, la cantidad de aprovisionamiento actual no es suficiente para cubrir la demanda en el periodo de acumulación de lotes, por lo que se sugiere aplicar una acción de cambio de cantidad para el pedido de aprovisionamiento existente.  
 
-![Período del amortiguador, Período de acumulación de lotes y Cambiar cantidad](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Período del amortiguador, Período de acumulación de lotes y Cambiar cantidad")  
+![Período del amortiguador, Período de acumulación de lotes y Cambiar cantidad.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Período del amortiguador, Período de acumulación de lotes y Cambiar cantidad")  
 
 **Valores predeterminados:** el valor predeterminado del campo **Ciclo** y los tres campos del periodo de reaprovisionamiento están en blanco. Para todos los campos, excepto el campo **Periodo amortiguador** esto significa 0D (cero días). Si el campo **Periodo amortiguador** está en blanco, se usará el valor global en el campo **Periodo predet. amortiguador** en la página **Configuración fabricación**.  
 
@@ -114,9 +114,32 @@ La opción **Directiva fabricación** define los pedidos adicionales que propond
 
 Si utiliza la opción **Fab-contra-existencias**, los pedidos solo afectan al producto en cuestión.  
 
-Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analizará la L.M. de producción del producto y creará propuestas de pedido vinculadas adicionales para los productos de nivel inferior que también se hayan definido como Fab-contra-pedido. Esto continúa siempre que haya productos de fabricación contra pedido en las estructuras de L.M. descendentes.  
+Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analizará la L.M. de producción del producto y creará propuestas de pedido vinculadas adicionales para los productos de nivel inferior que también se hayan definido como Fab-contra-pedido. Esto continúa siempre que haya productos de fabricación contra pedido en las estructuras de L.M. descendentes.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Utilice códigos de bajo nivel para gestionar la demanda derivada
+
+Utilice códigos de bajo nivel para hacer que la demanda derivada de componentes avance hasta los niveles inferiores de la L.M. Para obtener una explicación más detallada de esto, consulte [Prioridad de producto/Código de nivel bajo](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Puede asignar un código de nivel bajo a cada parte en la estructura del producto o la L.M. indentada. El nivel de ensamblado máximo final es el nivel 0, el último producto. Cuanto más alto sea el número de código de nivel bajo, más abajo estará el producto en la jerarquía. Por ejemplo, los productos finales tienen el código de bajo nivel 0 y las partes del producto que van al ensamblado del producto final tienen los códigos de bajo nivel 1, 2, 3, etc. El resultado es que la planificación de las partes de los componentes se coordina con las necesidades de todos los números de partes de niveles más altos. Cuando calcule un plan, la L.M. se despliega en la hoja de planificación y las necesidades brutas para el nivel 0 se pasan por los niveles de planificación como necesidades brutas para el próximo nivel de planificación.
+
+Seleccione el campo **Código dinámico de bajo nivel** para especificar si asignar y calcular inmediatamente códigos de bajo nivel para cada componente en la estructura del producto. Si tiene grandes cantidades de datos, esta función puede tener un efecto negativo en el rendimiento del sistema, por ejemplo durante el ajuste automático de costes. Tenga en cuenta que no es una función retroactiva, por lo que es una buena idea considerar con anticipación el uso de esta utilidad.
+
+Como alternativa al cálculo automático que se realiza de forma dinámica si el campo está seleccionado, puede ejecutar el trabajo por lotes **Calc. cód. nivel bajo** desde el menú **Fabricación** haciendo clic en **Diseño de producto**, **Calc. cód. nivel bajo**.
+
+> [!IMPORTANT]
+> Si no selecciona el campo **Código dinámico de nivel bajo**, debe ejecutar el trabajo por lotes **Calc. cód. nivel bajo** antes de calcular un plan de suministro (el trabajo por lotes **Calcular plan**).  
+
+> [!NOTE]
+> Aunque el campo **Código dinámico de nivel bajo** esté seleccionado, los códigos de nivel bajo de los productos componentes no cambiarán dinámicamente si se elimina o se define como no certificada una L.M. principal. Como resultado, puede que sea difícil agregar productos nuevos al final de la estructura de productos, ya que se podría superar el número máximo de códigos de nivel bajo. Por lo tanto, para estructuras de productos grandes que alcancen el límite del código de nivel más bajo, es recomendable ejecutar el trabajo por lotes de **Calcular código de nivel bajo** con frecuencia para mantener la estructura.  
+
+### <a name="optimize-low-level-code-calculation"></a>Optimizar cálculo de código de nivel bajo
+
+Seleccione el campo **Optimizar el cálculo de código de nivel bajo** para especificar que desea utilizar el nuevo método más rápido de cálculo de código de bajo nivel. Tenga en cuenta que el nuevo cálculo se realiza de manera diferente y su uso podría romper extensiones que dependen del método existente. El nuevo método de cálculo reemplazará al método actual en una versión futura.
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

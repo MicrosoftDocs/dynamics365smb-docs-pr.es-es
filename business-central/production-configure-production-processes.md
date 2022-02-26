@@ -1,23 +1,24 @@
 ---
-title: Configurar procesos de almacén | Documentos de Microsoft
+title: Configurar procesos de producción
 description: Para convertir material en artículos producidos finales, se deben configurar recursos de producción, como listas de materiales, ruta, operadores de máquina y maquinaria, en el sistema.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324347"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972361"
 ---
 # <a name="setting-up-manufacturing"></a>Configuración de fabricación
+
 Para convertir material en artículos producidos finales, se deben configurar recursos de producción, como listas de materiales, ruta, operadores de máquina y maquinaria, en el sistema.
 
 Los operadores y máquinas se representan en el sistema como centros de máquina que pueden organizarse en centros de trabajo y grupos de centros de trabajo. Cuando se establecen estos recursos, se pueden cargar con operaciones, en función de la estructura del proceso (ruta) y el material definido (L.M.) para el artículo y en función de la capacidad del centro de trabajo o de máquina. También se puede definir la capacidad de producción de cada recurso. La capacidad se define según el tiempo de trabajo disponible en los centros de trabajo y de máquina y se controla mediante calendarios para cada nivel. El calendario de un centro de trabajo especifica los días u horas laborales, turnos, vacaciones y ausencias que determinan la capacidad bruta disponible del centro de trabajo (normalmente, se mide en minutos). Todo esto se determina a partir de valores de capacidad y eficiencia definidos.  
@@ -42,8 +43,11 @@ Cuando haya configurado la fabricación, puede planificar y ejecutar las órdene
 |Prepare centros de trabajo y rutas para representar operaciones de producción subcontratadas.|[Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Consulte también
-[Fabricación](production-manage-manufacturing.md)    
+[Fabricación](production-manage-manufacturing.md)
 [Planificación](production-planning.md)   
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

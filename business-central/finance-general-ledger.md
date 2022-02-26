@@ -1,25 +1,26 @@
 ---
-title: Obtener información sobre contabilidad y plan de cuentas | Documentos de Microsoft
-description: Describe la contabilidad, el plan de cuentas y las categorías de cuentas.
+title: Descripción de contabilidad y plan de cuentas
+description: Describe la contabilidad, el plan de cuentas y las categorías de cuentas. Utilice la página Configuración contabilidad para especificar la gestión de asuntos de contabilidad en su empresa.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 05/12/2020
+ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372548"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973072"
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Descripción de contabilidad y plan de cuentas
+# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Descripción de contabilidad y plan de cuentas
 
-La contabilidad almacena sus datos financieros y el plan de cuentas muestra las cuentas donde se registran todos los movimientos contables. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
+La contabilidad almacena sus datos financieros y el plan de cuentas muestra las cuentas donde se registran todos los movimientos contables. [!INCLUDE[prod_short](includes/prod_short.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Configuración de contabilidad y grupos contables
 
@@ -31,10 +32,13 @@ En la página **Configuración contabilidad** especifique cómo gestionar determ
 * Formatos de dirección  
 * Informes financieros  
 
-De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md).  
-
 > [!TIP]
 > La página **Configuración de contabilidad:** incluye campos genéricos y campos que son específicos de su país o región. Si no está seguro del significado de un campo, le sugerimos que trabaje con su contable para determinar si es relevante para su organización.  
+
+De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Pero también puede abrir cada línea en su propia tarjeta de configuración de registro. Para obtener más información, consulte [Configuraciones de grupos de registro](finance-posting-groups.md).  
+
+> [!TIP]
+> Si no puede ver los campos que está buscando en la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
 
 ## <a name="the-chart-of-accounts"></a>Plan de cuentas
 
@@ -42,7 +46,7 @@ El plan de cuentas muestra todas las cuentas de contabilidad. Desde el plan de c
 
 * Ver informes que muestran movimientos de contabilidad y saldos.  
 * Cerrar el asiento de regularización.  
-* Abrir la ficha de cuenta para agregar o cambiar la configuración.  
+* Abrir la ficha de la cuenta de contabilidad general (CG) para agregar o cambiar la configuración.  
 * Ver una lista de grupos contables que registran en dicha cuenta.
 * Para ver los saldos del Debe y el Haber de una sola cuenta  
 
@@ -52,22 +56,39 @@ Puede agregar, cambiar o eliminar cuentas de contabilidad. Sin embargo, para evi
 
 Puede personalizar la estructura de los informes financieros con la asignación de las cuentas de contabilidad a las categorías de cuenta.  
 
-La página **Categorías de cuenta** muestra las categorías y subcategorías, y las cuentas que asignó a cada categoría. Puede crear nuevas subcategorías y asignarlas a las cuentas existentes.  
+La página **Categorías de cuenta** muestra las categorías y subcategorías, y las cuentas de contabilidad general que asignó a cada categoría. Puede crear nuevas subcategorías y asignarlas a las cuentas existentes.  
 
 Puede crear un grupo de categorías marcando otras subcategorías debajo de una línea en la página **Categorías de cuenta**. Esto le facilita la obtención de una descripción general, porque cada agrupación muestra un balance total. Por ejemplo, puede crear las subcategorías para distintos tipos de activos y a continuación crear grupos de categorías para los activos fijos y los activos circulantes.  
 
 Puede especificar si las cuentas de cada categoría deben incluirse en los tipos específicos de informes. Las categorías de cuentas ayudan a definir el diseño de sus balances financieros.  
 
-Por ejemplo, el extracto de saldo predeterminado tiene una subcategoría para efectivo en Activos fijos. Si desea que el extracto de saldo tenga en cuenta el efectivo pequeño y la cuenta corriente, puede:  
+### <a name="example"></a>Ejemplo:
 
-1. Agregar dos nuevas subcategorías. Una para el efectivo pequeño y otra para su cuenta corriente.  
+Por ejemplo, el extracto de saldo predeterminado tiene una subcategoría para *Efectivo* en *Activos fijos*. Usted desea que el extracto de saldo tenga en cuenta el efectivo pequeño y la cuenta corriente. Por tanto, sigue estos pasos:  
+
+1. Agregar dos nuevas subcategorías:
+
+    * Una para el efectivo pequeño  
+    * Una para su cuenta corriente  
 2. Especifique la definición de informe adicional **Cuentas de efectivo** de estas subcategorías.  
 3. Aplique sangría en la subcategoría **Efectivo**.  
 
 La próxima vez que genere los esquemas de cuentas, su extracto de saldo mostrará un extracto total de efectivo y dos líneas con extractos para efectivo pequeño y cuenta corriente.  
+
+## <a name="getting-a-quick-overview"></a>Obtener una descripción general rápida
+
+La página Plan de cuentas muestra las cuentas en una lista jerárquica que ofrece acceso rápido a la información clave de cada cuenta. Sin embargo, la lista es estática y, si tiene muchas cuentas, es posible que deba desplazarse un poco para ver la información de diferentes cuentas. Si solo desea una descripción general rápida de los conceptos básicos, como cambios netos y saldos, la página **Introducción al plan de cuentas** es una alternativa útil. El diseño de las columnas en la página ahora es el mismo que encontrará en la página del Plan de cuentas (solo hay menos), por lo que no tendrá que reorientarse y puede expandir o contraer los niveles jerárquicos para condensar la vista. Para facilitar el cambio entre las páginas, la página **Introducción al plan de cuentas** está disponible en la página del Plan de cuentas.
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Acceso para crear y editar cuentas y categorías de cuentas
+
+En una organización pequeña, como la empresa de demostración CRONUS, la mayoría de los usuarios pueden editar el plan de cuentas, excepto los usuarios con una licencia de TEAM MEMBER. Sin embargo, en organizaciones más grandes, el acceso para editar el plan de cuentas está limitado por roles y permisos. Si es administrador o tiene el rol *Administrador de negocio* o *Contable*, puede verificar los permisos de todos los usuarios para asegurarse de que las personas adecuadas tengan acceso a las tablas relevantes. Para obtener más información, consulte [Para obtener un resumen de los permisos de un usuario](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Consulte también
 
 [Finanzas](finance.md)  
 [Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)  
 [Inteligencia empresarial](bi.md)  
+[Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

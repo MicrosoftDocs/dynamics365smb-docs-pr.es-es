@@ -1,25 +1,25 @@
 ---
-title: 'Tutorial: cálculo del trabajo en curso para un proyecto | Documentos de Microsoft'
-description: Con proyectos, puede programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con el uso de recursos en un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto.
+title: 'Tutorial: cálculo del trabajo en curso para un proyecto'
+description: Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3d9a156a1196767b4ae07f63bbb4ca8e2ff5318f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527913"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588122"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Con proyectos, puede programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con el uso de recursos en un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto. Si un proyecto se extiende durante un periodo prolongado, es posible que desee transferir estos costes a una cuenta de Trabajo en curso (WIP) en el balance mientras se realiza el proyecto. De este modo, podrá identificar los costes y ventas en las cuentas de regularización cuando lo desee.  
 
@@ -38,7 +38,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
  En este tutorial se utiliza al miembro del equipo del proyecto (Tricia) como personaje.  
 
 ## <a name="prerequisites"></a>Requisitos previos  
- Para poder realizar las tareas del tutorial, [!INCLUDE[d365fin](includes/d365fin_md.md)] debe estar instalado en su ordenador:  
+ Para poder realizar las tareas del tutorial, [!INCLUDE[prod_short](includes/prod_short.md)] debe estar instalado en su ordenador:  
 
 ## <a name="story"></a>Historia  
  Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte del trabajo en CRONUS está orientado al proyecto y Tricia, un miembro del equipo de proyecto, utiliza los trabajos para tener una visión general de cada trabajo en curso que CRONUS ha iniciado y también los trabajos que se han completado. Algunos de los trabajos pueden ser muy largos y pueden durar varios meses. Tricia puede usar un Cuenta WIP para registrar el trabajo en curso y realizar el seguimiento de los costes del proyecto.  
@@ -52,7 +52,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 |Campo|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Deje el campo en blanco si la tarea del proyecto es parte de un grupo de tareas.|  
+|**\<blank\>**|Deje el campo en blanco si la tarea del proyecto es parte de un grupo de tareas.|  
 |**Total**|Define el rango o grupo de tareas que se incluyen en el cálculo del WIP y del reconocimiento. En el grupo, cualquier tarea de proyecto con **Tipo tarea proyecto** definido como **Registro** se incluirá en el total WIP, a menos que el campo **Total WIP** se defina como **Excluido**.|  
 |**Excluido**|Se aplica sólo a una tarea con el **Tipo tarea proyecto** **Registro**. La tarea no se incluye cuando se calcula el WIP y el reconocimiento.|  
 
@@ -60,7 +60,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ### <a name="to-calculate-wip"></a>Para calcular WIP  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Proyectos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  En la lista **Proyectos**, seleccione el proyecto **Reno** y, después, seleccione **Editar**. Se abrirá la ficha de proyecto en modo edición.  
 
      WIP se puede calcular basándose en Valor coste, Valor venta, Coste ventas, Porcentaje completado o Contrato consumado. En este ejemplo, CRONUS utiliza el método de Valor del coste.  
@@ -92,7 +92,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ### <a name="to-review-wip-warnings"></a>Para revisar las advertencias WIP  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cabina WIP proyecto** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cabina WIP proyecto** y luego elija el enlace relacionado.  
 2.  Seleccione el proyecto **Reno** y, a continuación, seleccione la acción **Mostrar advertencias**.  
 3.  En la página **Advertencias WIP proyecto**, revisar la advertencia asociada con el proyecto.  
 
@@ -156,11 +156,14 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
     >  Suponga el WIP calculado y registrado de Tricia para un proyecto con fechas incorrectas. Después del método que se ha discutido anteriormente, puede revertir los registros incorrectos, corregir las fechas y volver a la contabilidad general.  
 
 ## <a name="next-steps"></a>Pasos siguientes  
- Este tutorial le ha enseñado a calcular el trabajo en curso en [!INCLUDE[d365fin](includes/d365fin_md.md)]. En proyectos más grandes, puede resultar útil transferir los costes a una cuenta WIP periódicamente mientras se completa el proyecto. Este tutorial le ha mostrado cómo excluir líneas de tarea de un cálculo. También le muestra cuándo tiene que calcular de nuevo. Y finalmente, este tutorial demuestra la forma de registrar el WIP en la contabilidad general. También se incluye un ejemplo de cómo revertir un WIP que registra la contabilidad general.  
+ Este tutorial le ha enseñado a calcular el trabajo en curso en [!INCLUDE[prod_short](includes/prod_short.md)]. En proyectos más grandes, puede resultar útil transferir los costes a una cuenta WIP periódicamente mientras se completa el proyecto. Este tutorial le ha mostrado cómo excluir líneas de tarea de un cálculo. También le muestra cuándo tiene que calcular de nuevo. Y finalmente, este tutorial demuestra la forma de registrar el WIP en la contabilidad general. También se incluye un ejemplo de cómo revertir un WIP que registra la contabilidad general.  
 
 ## <a name="see-also"></a>Consulte también  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Tutorial: administración de programas con proyectos](walkthrough-managing-projects-with-jobs.md)   
  [Comprensión de los métodos WIP](projects-understanding-wip.md)   
  [Controlar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

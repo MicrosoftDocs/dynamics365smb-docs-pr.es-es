@@ -1,27 +1,25 @@
 ---
-title: 'Tutorial: vender, ensamblar y enviar kits | Documentos de Microsoft'
-description: Para usar el inventario puntual y la capacidad de personalizar los productos según las solicitudes del cliente, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta. El vínculo entre la demanda de venta y suministro de ensamblado permite a los procesadores de pedidos de venta personalizar el elemento del ensamblado y comprometerse con fechas de entrega según la disponibilidad de los componentes. Además, el consumo y la salida del ensamblado se registran automáticamente con el envío del pedido de venta vinculado.
-services: project-madeira
-documentationcenter: ''
+title: Vender, ensamblar y enviar kits
+description: Para usar el inventario puntual, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: f14defdd15acd82df76d1446b56d86ecda6e3cb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553971"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445206"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
 
-**Nota**: Este tutorial debe realizarse en una empresa de demostración con la opción **Evaluación completa - Datos de muestra completos**, que está disponible en el entorno de espacio aislado. Para obtener más información, consulte [Creación de un entorno aislado](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Para usar el inventario puntual y la capacidad de personalizar los productos según las solicitudes del cliente, los pedidos de ensamblado pueden crearse y vincularse automáticamente tan pronto como se cree la línea del pedido de venta. El vínculo entre la demanda de venta y suministro de ensamblado permite a los procesadores de pedidos de venta personalizar el elemento del ensamblado y comprometerse con fechas de entrega según la disponibilidad de los componentes. Además, el consumo y la salida del ensamblado se registran automáticamente con el envío del pedido de venta vinculado.  
 
@@ -39,7 +37,7 @@ Los elementos del ensamblado se caracterizan según su sistema de reposición y 
 -   Creación de una L.M. de ensamblado que enumera los componentes del ensamblado y el recurso que forman parte del elemento del ensamblado.  
 
 ### <a name="selling-customized-assembly-items"></a>Vender elementos del ensamblado personalizados  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
+[!INCLUDE[prod_short](includes/prod_short.md)] proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
 
 -   Crear una línea de pedido de venta puramente ATO donde la cantidad completa no está disponible y debe ensamblarse antes del envío.  
 -   Personalizar los productos ATO.  
@@ -81,17 +79,20 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 ## <a name="prerequisites"></a>Requisitos previos  
 Para poder realizar las tareas del tutorial, deberá hacer lo siguiente:  
 
--   Instalar [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Instalar [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Conviértase en un empleado de almacén en el almacén BLANCO. Para ello, realice los pasos siguientes:  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Empleados de almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2.  Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
 3.  En el campo **Cód. almacén**, especifique BLANCO.  
 4.  Seleccione el campo de **Predeterminado**.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 Realice los pasos siguientes para preparar el almacén BLANCO para el procesamiento de ensamblado:  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Ubicaciones** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Abra la ficha de almacén para el almacén BLANCO.  
 3.  En la ficha desplegable **Ubicaciones**, escriba **W-10-0001** en el campo **Cód. ubic. para ensamblado**.  
 
@@ -103,10 +104,10 @@ Realice los pasos siguientes para preparar el almacén BLANCO para el procesamie
 
 Realice los pasos siguientes para quitar el plazo de entrega predeterminada para los procesos internos:  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración fabricación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de fabricación** y luego elija el enlace relacionado.  
 2.  En la página **Configuración fabricación**, en la ficha desplegable **Planificación**, elimine el valor del campo **Plazo seguridad genérico**.  
 
-Cree el inventario para los componentes del ensamblado. Para ello, siga [Preparar datos de ejemplo](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
+<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Historia  
 El 23 de enero, Susana, la responsable del procesamiento de pedidos de venta recibe un pedido de La Tienda Aparatos de tres unidades del kit B, que es un producto ATO. Las tres unidades se personalizan y deben incluir la tarjeta gráfica de gran potencia y un bloque de RAM adicional. Las unidades de disco se actualizan a DWD porque las unidades de CD no están disponibles. Susana sabe que las unidades se pueden ensamblar inmediatamente, por lo que deja la fecha de envío sugerida del 23 de enero.  
@@ -137,7 +138,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 ## <a name="prepare-sample-data"></a>Preparar datos de ejemplo  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios producto almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios producto almacén**, y luego elija el enlace relacionado.  
 2.  Elija el campo **Nombre sección** y seleccione el diario predeterminado.  
 3.  Cree los ajustes de inventario positivos en el almacén BLANCO en la fecha de trabajo, el 23 de enero. Para ello, especifique la información siguiente.  
 
@@ -154,14 +155,14 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, sincronice los nuevos movimientos de almacén con el inventario.  
 
-5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Diarios de producto** y luego elija el enlace relacionado. Se abre la página **Diario productos**.  
+5.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de productos**, y luego elija el enlace relacionado. Se abre la página **Diario productos**.  
 6.  Seleccione la acción **Calcular ajuste almacén**.  
 7.  En la página **Calcular ajuste almacén**, seleccione el botón **Aceptar**.  
 8.  En la página **Diario de producto**, elija la acción **Registrar** y el botón **Sí**.  
 
 ### <a name="creating-the-assembly-items"></a>Crear elementos del ensamblado  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Cree el primer elemento del ensamblado según la información siguiente.  
 
@@ -212,7 +213,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 ### <a name="selling-the-assembly-items"></a>Vender elementos del ensamblado  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Cree dos líneas de pedido de venta para el cliente 62000, La Tienda Aparatos, en la fecha de trabajo con la siguiente información.  
 
@@ -265,7 +266,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planificar para producto ATS no disponibles  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja planificación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
 3.  En la página **Calcular plan**, establezca los filtros siguientes.  
 
@@ -283,12 +284,12 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Ensamblar y enviar la primera cantidad ATO  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Envío de almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envío almacén** y luego elija el enlace relacionado.  
 
     > [!NOTE]  
     >  En esta sección, la persona responsable de enviar se encarga de registrar el trabajo de ensamblado ATO completado en la línea de envío de almacén. Este flujo de trabajo puede realizarse en entornos donde el trabajo de ensamblado lo realiza la persona responsable de enviar o los trabajadores de ensamblado en el área de envío.  
     >   
-    >  En esta sección, las acciones del pedido de ensamblado se realizan indirectamente desde la línea de envío de almacén. Para obtener más información sobre cómo procesar un pedido de ensamblado directamente, consulte la sección sobre cómo ensamblar productos para stock en este tutorial.  
+    >  En esta sección, las acciones del pedido de ensamblado se realizan indirectamente desde la línea de envío de almacén. Para obtener más información sobre cómo procesar un pedido de ensamblado directamente, consulte la sección sobre cómo "ensamblar productos para stock" en este tutorial.  
 
 2.  Abra el envío de almacén más reciente que se ha creado en el almacén BLANCO.  
 
@@ -302,7 +303,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, realice la tarea del encargado de picking.  
 
-4.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking** y luego elija el enlace relacionado.  
+4.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado.  
 5.  Abra el documento de picking de almacén que se creó en el paso 3 de esta sección.  
 
     Observe el valor del campo **Documento origen** y que todas las líneas de picking sean para los componentes del ensamblado.  
@@ -331,7 +332,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     Lea el mensaje de error que explica la razón por la cual este campo solo se puede rellenar a través del campo **Cdad. a enviar** en el envío relacionado.  
 
-    El campo **Cantidad a ensamblar** se puede editar para las situaciones en las que desea enviar parcialmente una cantidad de inventario en lugar de ensamblar más unidades en el pedido. Para obtener más información, consulte la sección "Escenarios de combinación" en [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
+    El campo **Cantidad a ensamblar** se puede editar para las situaciones en las que desea enviar parcialmente una cantidad de inventario en lugar de ensamblar más unidades en el pedido. Para obtener más información, consulte la sección "Escenarios de combinación" en [Conocer Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
 12. Cierre la página **Pedido de ensamblado** para volver a la página **Envío almacén**.  
 13. En la línea de envío para tres unidades del kit B, en el campo **Ctdad. a enviar**, especifique **3**.  
@@ -343,7 +344,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Ensamblar y registrar la segunda cantidad ATO  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de ensamblado** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos ensamblado** y luego elija el enlace relacionado.  
 
     Observe que el pedido ATO para las unidades enviadas del kit B aún se incluye en la lista, aunque el campo **Cantidad pendiente** está vacío. Esto se debe a que el pedido de venta vinculado todavía no se ha facturado por completo.  
 
@@ -367,7 +368,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 ### <a name="assembling-the-ats-quantity"></a>Ensamblar la cantidad ATS  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de ensamblado** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos ensamblado** y luego elija el enlace relacionado.  
 2.  Abra el pedido de ensamblado ATO para diez unidades del kit A.  
 
     Observe que el campo **Cantidad a ensamblar** se ha rellenado con la cantidad esperada.  
@@ -379,7 +380,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, realice la tarea del encargado de picking.  
 
-5.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking** y luego elija el enlace relacionado.  
+5.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado.  
 6.  Abra el documento de picking de almacén que se creó en el paso 4 de esta sección.  
 
      Registre el picking sin cambiar la información predeterminada.  
@@ -395,7 +396,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Enviar productos restantes, parcialmente de las existencias y parcialmente ensamblado para pedido  
 
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Envío de almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envío almacén** y luego elija el enlace relacionado.  
 2.  Abra el envío de almacén más reciente que se ha creado en el almacén BLANCO.  
 
     Observe en la línea de diez unidades del kit A que los campos **Ctdad a enviar** y **Cdad. preparada pedido** están vacíos.  
@@ -406,7 +407,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     A continuación, realice la tarea final del encargado de picking para este envío de almacén.  
 
-4.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Picking** y luego elija el enlace relacionado.  
+4.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado.  
 5.  Abra el documento de picking de almacén que se creó en el paso 3 de esta sección.  
 
     Observe que este documento de picking es para el elemento del ensamblado y no para los componentes del ensamblado.  
@@ -426,7 +427,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     Se elimina el documento de envío de almacén, que indica que se completaron las actividades de almacén correspondientes. A continuación, compruebe que se ha procesado el pedido de venta.  
 
-10. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+10. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado  
 11. Abra el pedido de venta para La Tienda Aparatos.  
 
     Observe que el campo **Cantidad enviada** contiene la cantidad completa en ambas líneas.  
@@ -442,4 +443,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
  [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)   
  [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md)   
  [Detalles de diseño: Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)   
- [Tutorial: planificación automática de suministros](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

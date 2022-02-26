@@ -1,20 +1,21 @@
 ---
-title: Agregar líneas adicionales para definir descripciones ampliadas
+title: Agregar textos adicionales
 description: Puede agregar líneas adicionales para ampliar el texto estándar que describe un producto, una cuenta y otros datos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/08/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b611a4f2bcabec7cda408790ab659c6cf3f8e97
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.search.form: 391, 30
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 0a9a56e44ecf9e832da99f60a6256aa93240e524
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542572"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101196"
 ---
 # <a name="add-extended-text"></a>Agregar textos adicionales
 
@@ -43,4 +44,7 @@ Ahora puede agregar este texto adicional a los documentos. El siguiente procedim
 ## <a name="see-also"></a>Consulte también
 
 [Configurar inventario](inventory-setup-inventory.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

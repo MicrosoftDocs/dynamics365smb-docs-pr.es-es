@@ -1,26 +1,26 @@
 ---
-title: Conformidad de los servicios | Documentos de Microsoft
-description: En este contenido se incluye información acerca de la conformidad de los servicios en relación con Business Central.
+title: Conformidad de los servicios y SLA
+description: Desde una perspectiva de servicio, Business Central cumple con los estrictos requisitos y el cumplimiento de SLA en varias certificaciones ISO y específicas de la industria.
 author: sorenfriisalexandersen
-documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e1ecec00458dbe2872eda7654fab0ff555408868
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185912"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323673"
 ---
 # <a name="service-compliance"></a>Conformidad de los servicios
-En este contenido se incluye información acerca de la conformidad de los servicios en relación con [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+
+En este contenido se incluye información acerca de la conformidad de los servicios en relación con [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
 Business Central es un servicio en la nube con un alcance y escala global que se ejecuta en una de las infraestructuras de hiperescala más grandes del mundo, Microsoft Azure, con centros de datos en regiones de todo el mundo. La ejecución de un servicio en la nube también impone la necesidad de cumplir con ciertos estándares de seguridad y cumplimiento, por lo que, desde la perspectiva del servicio, Business Central cumple con los estrictos requisitos de varias certificaciones ISO y específicas de la industria.
 
@@ -30,9 +30,7 @@ Si desea encontrar la lista completa de ofertas de conformidad de Microsoft, con
 
 ## <a name="service-terms"></a>Términos del servicio
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] en línea se rige por la [directiva de ciclo de vida moderno](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Los términos del acuerdo de nivel de servicio se describen en el documento que puede descargar de la sección **Acuerdos de nivel de servicio para Microsoft Online Services** en la página [Términos de licencia](https://www.microsoft.com/licensing/product-licensing/products).  
-
-Además, puede supervisar el estado de salud de su suscriptor y especificar periodos de actualización en el [Centro de administración de suscriptores](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+[!INCLUDE [service-terms](../includes/service-terms.md)]
 
 ## <a name="see-also"></a>Consulte también
 
@@ -40,4 +38,7 @@ Además, puede supervisar el estado de salud de su suscriptor y especificar peri
 [Conformidad de las aplicaciones](compliance-application-compliance.md)  
 [Certificaciones](compliance-certifications.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

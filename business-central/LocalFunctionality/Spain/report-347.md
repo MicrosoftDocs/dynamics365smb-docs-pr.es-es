@@ -1,25 +1,23 @@
 ---
-title: Informe 347
-description: El Informe 347 es un informe anual obligatorio que todas las empresas deben enviar a la administración fiscal para reflejar las compras o ventas de un periodo determinado. Este informe también incluye entradas como el pago en efectivo que se recibió en el período.
-services: project-madeira
-documentationcenter: ''
+title: Informe 347 [ES]
+description: El Informe 347 es un informe anual obligatorio que todas las empresas deben enviar a la administración fiscal para reflejar las compras o ventas de un periodo determinado.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a17959be4d1046cd63e4c6458f43cc104ff36c86
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 37b309e1a42c813583961d51a249a2a60e69d7c4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301076"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319324"
 ---
-# <a name="report-347"></a>Informe 347
+# <a name="report-347-in-the-spanish-version"></a>Informe 347 en la versión en español
 El **Informe 347** es un informe anual obligatorio que todas las empresas deben enviar a la administración fiscal para reflejar las compras o ventas de un periodo determinado. Este informe también incluye entradas como el pago en efectivo que se recibió en el período. El **informe 347** se genera en un formato que ha aprobado la administración fiscal. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml).  
 
 ## <a name="file-format-for-report-347"></a>Formato de archivo del informe 347  
@@ -42,3 +40,6 @@ Antes de crear el **Informe 347**, debe tener en cuenta las siguientes restricci
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)   
  [Crear el informe 347](how-to-create-report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

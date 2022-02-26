@@ -1,24 +1,26 @@
 ---
-title: Tareas de trabajo usando recursos y hojas de horas | Documentos de Microsoft
-description: Describe cómo usar recursos, hojas de horas y trabajos para administrar proyectos.
+title: Administración de proyectos
+description: Este tema describe cómo usar recursos, hojas de horas y proyectos para administrar proyectos y sus presupuestos.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312657"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101274"
 ---
 # <a name="project-management"></a>Administración de proyectos
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.
 
-Antes de poder usar [!INCLUDE[d365fin](includes/d365fin_md.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos. Para obtener más información, consulte [Configuración de la administración de proyectos](projects-setup-projects.md).  
+En [!INCLUDE[prod_short](includes/prod_short.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.
+
+Antes de poder usar [!INCLUDE[prod_short](includes/prod_short.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos. Para obtener más información, consulte [Configuración de la administración de proyectos](projects-setup-projects.md).  
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
@@ -36,7 +38,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="get-started-with-projects"></a>Introducción a los proyectos
 
-La administración de proyectos ya es bastante complicada en sí misma, y aprender a crear proyectos y administrar el trabajo en curso en una nueva herramienta puede ser otra complicación. Para ayudarte a empezar con la administración de proyectos en [!INCLUDE [prodshort](includes/prodshort.md)], puede ver [un vídeo sobre la creación de proyectos](https://www.youtube.com/watch?v=VqaPWr7BWmw) en el canal [!INCLUDE [prodshort](includes/prodshort.md)] de YouTube.  
+La administración de proyectos ya es bastante complicada en sí misma, y aprender a crear proyectos y administrar el trabajo en curso en una nueva herramienta puede ser otra complicación. Para ayudarte a empezar con la administración de proyectos en [!INCLUDE[prod_short](includes/prod_short.md)], puede ver [un vídeo sobre la creación de proyectos](https://www.youtube.com/watch?v=VqaPWr7BWmw) en el canal [!INCLUDE[prod_short](includes/prod_short.md)] de YouTube.  
 
 ## <a name="see-also"></a>Consulte también
 
@@ -46,6 +48,9 @@ La administración de proyectos ya es bastante complicada en sí misma, y aprend
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

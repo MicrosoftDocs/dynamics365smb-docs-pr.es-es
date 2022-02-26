@@ -1,28 +1,28 @@
 ---
-title: Crear facturas o abonos de servicios | Documentos de Microsoft
-description: Aprenda a crear facturas para que pueda recibir el pago de su servicio.
+title: Crear facturas o abonos de servicios
+description: Aprenda a utilizar Business Central para crear sin problemas facturas de crédito y abonos para sus servicios.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/20/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: ad5003e8dac33ac5886caa698650ba211c9b89ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402530"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440158"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Crear facturas o abonos de servicios
-La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[prodshort](includes/prodshort.md)]. Puede configurar [!INCLUDE[prodshort](includes/prodshort.md)] de modo que un técnico de servicio de campo pueda crear una factura para un servicio que no esté vinculado con un contrato o pedido. Como alternativa, configure [!INCLUDE[prodshort](includes/prodshort.md)] para facturar contratos de servicio periódicamente. El periodo de factura de cada contrato define la frecuencia con que se factura.
+La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[prod_short](includes/prod_short.md)]. Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] de modo que un técnico de servicio de campo pueda crear una factura para un servicio que no esté vinculado con un contrato o pedido. Como alternativa, configure [!INCLUDE[prod_short](includes/prod_short.md)] para facturar contratos de servicio periódicamente. El periodo de factura de cada contrato define la frecuencia con que se factura.
 
 ## <a name="to-invoice-several-service-contracts"></a>Para facturar varios contratos de servicio
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Crear facturas de contrato de servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear facturas de contrato de servicio** y, a continuación, elija el enlace relacionado.  
 2. Establezca los filtros que desea aplicar.  
 3. En el campo **Fecha registro**, escriba la fecha que se utilizará como fecha de registro de las facturas de servicio.  
 4. En el campo **Factura hasta fecha**, introduzca la fecha hasta la que desea facturar contratos. El proceso incluirá contratos con fechas siguientes de factura hasta esta fecha.  
@@ -32,7 +32,7 @@ La facilidad de facturar sus pedidos de servicio es una función esencial de [!I
 También puede facturar un contrato de servicio directamente desde la página **Contrato servicio**, si la siguiente fecha de factura del contrato es anterior a la fecha de trabajo.
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Facturar un contrato de servicio desde la página de contrato de servicio   
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Contratos servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contratos de servicio** y luego elija el enlace relacionado.  
 2. Elija el contrato de servicio que desea facturar y abra la ficha de contrato.  
 3. Elija la acción **Crear factura servicio**. 
 4. Elija **Sí** para crear las facturas de servicio.  
@@ -43,7 +43,7 @@ También puede facturar un contrato de servicio directamente desde la página **
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Para registrar una factura de un pedido de servicio  
 En el siguiente procedimiento se describe cómo definir la parte del servicio por la que cobrará al cliente.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
 2. Elija el pedido de servicio que desea facturar y abra la ficha de pedido.  
 3. Elija la acción **Líneas de servicio**.  
 4. Busque los movimientos requeridos y especifique las cantidades por las que va a cobrar al cliente en el campo **Cdad. a facturar**.  
@@ -62,7 +62,7 @@ En el siguiente procedimiento se describe cómo definir la parte del servicio po
 ## <a name="to-create-a-service-invoice-manually"></a>Para crear una factura de servicio manualmente  
 Normalmente, después de que registre un pedido de servicio con la opción **Facturar** o **Enviar y facturar**, se registrará automáticamente una factura de servicio. Aún así, puede que necesite emitir una factura que no esté vinculada a un contrato o pedido de servicio. Este procedimiento explica cómo emitir una factura al mismo tiempo que el cliente recibe el servicio.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas servicios** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Factura servicio** y luego elija el enlace relacionado.  
 2. Cree una factura de servicio nueva.  
 3. Rellene el campo **No.**. .  
   
@@ -80,7 +80,7 @@ Normalmente, después de que registre un pedido de servicio con la opción **Fac
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Para crear una factura que combine líneas de albarán registradas de uno o más pedidos de servicio 
 Tal vez necesite crear una factura de servicio por un servicio que ya se ha enviado, ya sea de uno o de varios pedidos, pero que aún no se ha facturado ni consumido. Puede rellenar las líneas de factura de forma automática con las líneas de envío registrado seleccionadas para un cliente concreto.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas servicios** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Factura servicio** y luego elija el enlace relacionado.  
 2. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Cree líneas de factura para servicios enviados pero no facturados. Opcionalmente, puede utilizar la acción **Obtener líneas envío** para agregar líneas de envío a la factura.  
 4. Registre la factura de servicio.  
@@ -90,7 +90,7 @@ Tal vez necesite crear una factura de servicio por un servicio que ya se ha envi
 ## <a name="to-create-a-service-credit-memo"></a>Para crear un abono de servicio  
 Un documento de abono de servicio se utiliza normalmente cuando un cliente devuelve un producto, aunque también se puede utilizar para proporcionar alguna compensación a un cliente o para corregir una factura incorrecta.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Abonos servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos servicio** y, a continuación, elija el vínculo relacionado.  
 2. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Los campos **Fecha de registro** y **Fecha de emisión de documento** muestran la fecha del trabajo. Aunque podría cambiarlo si lo necesita.    
 4. En las líneas de abono, escriba información acerca de los productos devueltos o eliminados, o bien especifique la compensación que se va a proporcionar al cliente.  
@@ -99,3 +99,6 @@ Un documento de abono de servicio se utiliza normalmente cuando un cliente devue
 [Registrar facturas de servicio](service-how-to-post-service-orders.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Registro de servicio](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

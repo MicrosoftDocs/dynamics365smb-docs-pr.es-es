@@ -1,23 +1,25 @@
 ---
-title: Liquidar movimientos de cliente en pagos conciliados | Documentos de Microsoft
+title: Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.
 description: Describe cómo liquidar los recibos de efectivo o los reembolsos a uno o varios movimientos de clientes pendientes y conciliar pagos del cliente.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 74031e19332bb258323559a51fa22c486c880edb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 255
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 05b4d5074f77101e7158738b78126a562aabcc1e
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192032"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100956"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.
+
 Cuando recibe un cobro de un cliente o efectúa un reembolso, debe decidir si va a liquidar el pago o reembolsarlo para cerrar uno o varios movimientos pendientes del debe o el haber. Puede especificar el importe que desea liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente garantiza que la información, como las estadísticas de cliente, los extractos de cuenta y los intereses, sean correctos.
 
 > [!TIP]  
@@ -37,7 +39,7 @@ Puede liquidar movimientos de cliente de varias formas:
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Para rellenar y registrar un diario de recibos de efectivo
 Un diario de cobros es un tipo de diario general, por lo que puede usarlo para registrar transacciones en cuentas contables, de banco, de cliente, de proveedor y de activos fijos. Puede liquidar el pago de uno o más movimientos de débito cuando registra el pago o puede liquidarlos desde movimientos registrados posteriormente.
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de recibos de efectivo** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de recibos de efectivo**, y luego elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
 3. Seleccione la sección de diario que le interese en el campo **Nombre sección**.
 4. Rellene el campo **Fecha registro**.  
@@ -53,7 +55,7 @@ Un diario de cobros es un tipo de diario general, por lo que puede usarlo para r
 12. Registre el diario.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Para liquidar un pago a un solo movimiento de cliente
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de recibos de efectivo** y elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de recibos de efectivo**, y elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
 3. En la primera línea de diario, escriba la información correspondiente sobre el movimiento que se va a liquidar.
 4. En el campo **Tipo documento**, introduzca **Pago**.
@@ -68,7 +70,7 @@ Un diario de cobros es un tipo de diario general, por lo que puede usarlo para r
 11. Registro el diario de cobros.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Para liquidar un pago a varios movimientos de cliente
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de recibos de efectivo** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de recibos de efectivo**, y luego elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
 3. En la primera línea de diario, escriba la información correspondiente sobre el movimiento que se va a liquidar.
 4. En el campo **Tipo documento**, introduzca **Pago**.
@@ -84,7 +86,7 @@ Un diario de cobros es un tipo de diario general, por lo que puede usarlo para r
 12. Registro el diario de cobros.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Para liquidar un abono a un único movimiento de cliente
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Abonos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de venta** y, a continuación, elija el vínculo relacionado.
 2. Abra el abono de venta correspondiente.
 3. Para liquidar el abono a un solo movimiento de cliente al registrar, en la ficha desplegable **Liq. por n.º documento**, seleccione el movimiento que desea liquidar con el pago.
 4. En la línea del campo **Importe a liquidar**, introduzca el importe con el que desea liquidar el movimiento.  
@@ -94,7 +96,7 @@ Un diario de cobros es un tipo de diario general, por lo que puede usarlo para r
 6. Registre el abono.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Para liquidar un abono a varios movimientos de cliente
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Abonos de venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de venta** y, a continuación, elija el vínculo relacionado.
 2. Abra el abono de venta correspondiente.
 3. Para liquidar el abono en varios movimientos del cliente cuando registre, seleccione la acción **Liquidar movs.**
 4. Seleccione las líneas que incluyen los movimientos a los que desea aplicar el movimiento de liquidación y, a continuación, seleccione la acción **Marcar id. de liquidación**.
@@ -105,7 +107,7 @@ Un diario de cobros es un tipo de diario general, por lo que puede usarlo para r
 7. Registre el abono.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Para liquidar movimientos de clientes registrados
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha de cliente para el cliente con los movimientos que desea liquidar.
 3. Elija la acción **Movimientos** y, a continuación, seleccione la línea con el movimiento que se liquidará.
 4. Seleccione la acción **Liquidar movs.**. La página **Liquidar movs. cliente** se abre y muestra los movimientos pendientes del cliente.
@@ -117,7 +119,7 @@ Un diario de cobros es un tipo de diario general, por lo que puede usarlo para r
 8. Para registrar la liquidación, elija el botón **Aceptar**.
 
     Si la liquidación registrada obtiene como resultado movimientos cerrados de cliente, se desactivará el campo **Pendiente** para dichos movimientos.    
-9. Para ver los movimientos, elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado. Busque la ficha del cliente correspondiente para ver los movimientos.  
+9. Para ver los movimientos de proveedores, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado. Busque la ficha del cliente correspondiente para ver los movimientos.  
 
 En la lista de movimientos, en la línea que contiene el movimiento que se liquidó completamente, puede ver que la casilla **Pendiente** no está marcada.  
 
@@ -131,7 +133,7 @@ Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movim
 
 Se debe habilitar la liquidación de movimientos de cliente en divisas diferentes. Para obtener más información, vea [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de recibos de efectivo** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de recibos de efectivo**, y luego elija el enlace relacionado.
 2. Abra el diario que desea y rellene la primera línea de diario vacía utilizando un código de divisa.
 3. Seleccione la acción **Liquidar movs.**.
 4. Seleccione la línea que contiene el movimiento con el que desea liquidar el movimiento del diario de recibos de efectivo, seleccione la acción **Marcar id. de liquidación** y, a continuación, seleccione el movimiento que desea liquidar.
@@ -144,7 +146,7 @@ Se debe habilitar la liquidación de movimientos de cliente en divisas diferente
 ## <a name="to-correct-an-application-of-customer-entries"></a>Para corregir una liquidación de movimientos de clientes
 Cuando se corrige una liquidación errónea, se crean y registran movimientos de corrección que son idénticos al original, pero de signo opuesto en el campo de importe, para todos los movimientos, incluidos todos los registros de contabilidad derivados de la liquidación, como los descuentos por pronto pago y las pérdidas y ganancias en divisas. Los movimientos que se cerraron con la liquidación se volverán a abrir.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abrir la ficha de cliente correspondiente.
 3. Seleccione la acción **Movimientos**.
 4. Seleccione el movimiento relevante y, a continuación, seleccione la acción **Desliquidar entradas**.
@@ -158,4 +160,7 @@ Cuando se corrige una liquidación errónea, se crean y registran movimientos de
 ## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

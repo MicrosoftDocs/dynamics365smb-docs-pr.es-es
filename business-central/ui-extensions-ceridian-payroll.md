@@ -1,25 +1,24 @@
 ---
-title: Importar datos de nómina o de salario con la extensión de nóminas de Ceridian | Documentos de Microsoft
+title: Importar datos de nómina o de salario con la extensión de nóminas de Ceridian
 description: Utilice esta extensión para importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1dd13b3a0b1f11c5ba0b358fba7061b166d7b62c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: f2129d26cab8de999ae6ae1e80943ee4066ab50f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315556"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787432"
 ---
 # <a name="the-ceridian-payroll-extension"></a>La extensión de nóminas de Ceridian
+
 Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.
 
 Para hacer esto, primero importe un archivo que recibirá del proveedor de nóminas en la página **Diario general**. A continuación asigne las cuentas externas del archivo de nóminas a las cuentas correspondientes. Por último, registre operaciones de nóminas según la asignación de cuentas. Para obtener más información, vea [Importar transacciones de nómina](finance-how-import-payroll-transactions.md).
@@ -27,6 +26,10 @@ Para hacer esto, primero importe un archivo que recibirá del proveedor de nómi
 La extensión de nóminas de Ceridian le permite importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones ](ui-extensions.md)    
-[Finanzas](finance.md)    
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+[Finanzas](finance.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

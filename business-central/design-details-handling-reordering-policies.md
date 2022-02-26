@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Gestión de directivas de reaprovisionamiento | Documentos de Microsoft'
-description: Resumen de las tareas de definición de una directiva de reaprovisionamiento de planificación del suministro.
+title: 'Detalles de diseño: Gestión de directivas de reaprovisionamiento'
+description: Este artículo ofrece una descripción general de las tareas involucradas en la gestión de las directivas de reaprovisionamiento y la definición de la directiva de reaprovisionamiento en la planificación de suministros.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f7d207d0f6e4730d900ce4214d7faa8c809ae8bd
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185401"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441801"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Detalles de diseño: Gestión de directivas de reaprovisionamiento
 Para que un producto participe en la planificación de aprovisionamiento es necesario definir una directiva de reaprovisionamiento. Existen las cuatro directivas de reaprovisionamiento siguientes:  
@@ -67,7 +67,7 @@ En la secuencia siguiente se describe cómo se determina el nivel de inventario 
 
 A continuación se muestra una ilustración gráfica de este principio:  
 
-![Determinación del nivel de inventario proyectado](media/nav_app_supply_planning_2_projected_inventory.png "Determinación del nivel de inventario proyectado")  
+![Determinación del nivel de inventario proyectado.](media/nav_app_supply_planning_2_projected_inventory.png "Determinación del nivel de inventario proyectado")  
 
 1. El suministro **Sa** de 4 (fijos) cierra la demanda **Da** de 3.  
 2. CloseDemand: crear un aviso de disminución de -3 (no se mostrará).  
@@ -94,7 +94,7 @@ En el caso de directivas de reaprovisionamiento que utilizan un punto de pedido 
 
 El concepto por ciclos refleja el proceso manual de comprobación del nivel de inventario de un modo frecuente en vez de hacerlo por cada transacción. El usuario debe definir la frecuencia (el ciclo). Por ejemplo, el usuario recopila todas las exigencias de producto de un proveedor para hacer un pedido semanal.  
 
-![Ejemplo de ciclo en la planificación](media/nav_app_supply_planning_2_reorder_cycle.png "Ejemplo de ciclo en la planificación")  
+![Ejemplo de ciclo en la planificación.](media/nav_app_supply_planning_2_reorder_cycle.png "Ejemplo de ciclo en la planificación")  
 
 Por lo general, el ciclo se usa para evitar un efecto de cascada. Por ejemplo, una fila equilibrada de demanda y aprovisionamiento donde se cancela una demanda temprana, o se crea una nueva. El resultado podría ser que se programe cada pedido de suministro (sin incluir el último).
 
@@ -103,7 +103,7 @@ Cuando se usan políticas de cantidad máxima y cantidad fija, el sistema de pla
 
 *Atención: El inventario proyectado [xx] es superior al nivel de desbordamiento [xx] en la fecha de vencimiento [xx].*  
 
-![Nivel de desbordamiento de inventario](media/supplyplanning_2_overflow1_new.png "Nivel de desbordamiento de inventario")  
+![Nivel de desbordamiento de inventario.](media/supplyplanning_2_overflow1_new.png "Nivel de desbordamiento de inventario")  
 
 ###  <a name="calculating-the-overflow-level"></a>Cálculo del nivel de desbordamiento  
 El nivel de desbordamiento se calcula de diferentes modos según la configuración de planificación.  
@@ -179,7 +179,7 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 #### <a name="resulting-planning-lines"></a>Líneas de planificación resultantes  
  Se crea una línea de planificación (advertencia) para reducir la compra con 30 de 90 a 60 para mantener el inventario proyectado en 100 según el nivel de desbordamiento.  
 
-![Planificar de acuerdo con el nivel de desbordamiento](media/nav_app_supply_planning_2_overflow2.png "Planificar de acuerdo con el nivel de desbordamiento")  
+![Planificar de acuerdo con el nivel de desbordamiento.](media/nav_app_supply_planning_2_overflow2.png "Planificar de acuerdo con el nivel de desbordamiento")  
 
 > [!NOTE]  
 >  Sin la característica de desbordamiento, no se crea ninguna advertencia si el nivel de inventario proyectado está por encima del inventario máximo. Esto podría provocar un suministro superfluo de 30.
@@ -193,7 +193,7 @@ El punto de pedido expresa la demanda prevista durante el plazo del producto. Cu
 
  En la ilustración siguiente, el aprovisionamiento D representa un pedido de emergencia que ajustar para inventario negativo.  
 
- ![Sugerencia de planificación de emergencia para evitar existencias negativas](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar existencias negativas")  
+ ![Sugerencia de planificación de emergencia para evitar existencias negativas.](media/nav_app_supply_planning_2_negative_inventory.png "Sugerencia de planificación de emergencia para evitar existencias negativas")  
 
 1.  El suministro **A**, inventario proyectado inicial, está por debajo del punto de pedido.  
 2.  Se ha creado un nuevo aprovisionamiento programación de forma anticipada (**C**).  
@@ -296,3 +296,6 @@ Dado que la cantidad del pedido de aprovisionamiento se basa en la demanda real,
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

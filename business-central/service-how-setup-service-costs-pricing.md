@@ -1,31 +1,31 @@
 ---
-title: Configurar precio y costes de servicios | Documentos de Microsoft
-description: Más información sobre cómo configurar precios y costes adicionales de servicios.
+title: Configurar precios y costes de servicios
+description: Aprenda a utilizar las funciones de precios para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 58c54fd68d291a5d07765a57002e0918df78a1f3
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 595f25f872cf669d4b79f1cc10542b46e2da22d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877381"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436556"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Configurar precios y costes adicionales de servicios
-Puede utilizar las funciones de precios de [!INCLUDE[d365fin](includes/d365fin_md.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  
+Puede utilizar las funciones de precios de [!INCLUDE[prod_short](includes/prod_short.md)] para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos. Estas decisiones de precios se transmiten con facilidad al proceso de facturación.  
   
 Según requiera su implementación, puede configurar grupos de precios y asignarlos a periodos de tiempo, clientes o divisa específicos. Puede configurar precios fijos, mínimos o máximos, en función de los contratos de servicio que tenga con los clientes. Finalmente, al ajustar los precios, puede ver y aprobar los cambios antes de asignarlos en la contabilidad.  
 
 ## <a name="to-set-up-a-service-price-group"></a>Para configurar un grupo de precio de servicio
 Puede configurar grupos que contienen productos de servicio que desee que reciban el mismo precio de servicio especial. Los grupos de precio de servicio se asignan a productos de servicio de líneas de producto de servicio. También puede asignar grupos de precio de servicio a grupos de producto de servicio.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos precio servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos precio servicio** y, a continuación, elija el vínculo relacionado.  
 2. Cree un grupo de precios de servicios nuevo.  
 3. Rellene los campos **Código** y **Descripción**.  
 4. Seleccione la acción **Configurar**.  
@@ -37,7 +37,7 @@ Puede configurar grupos que contienen productos de servicio que desee que reciba
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Para configurar un grupo de ajuste de precios de servicio  
 Puede configurar grupos de ajuste de precios para ajustar los precios de servicio de los productos de servicio. Por ejemplo, puede configurar grupos de ajuste de precio para ajustar el precio del flete o de piezas de repuesto.  
   
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos de ajuste de precios de servicio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de ajuste de precio de servicio** y, a continuación, elija el vínculo relacionado.  
 2. Cree un grupo de ajuste de precios de servicio nuevo.  
 3. Rellene los campos **Código** y **Descripción**.  
 4. En el campo **Tipo**, especifique el tipo de entrada que desea ajustar.  
@@ -55,13 +55,16 @@ Puede configurar grupos de ajuste de precios para ajustar los precios de servici
 Cuando trabaje con productos y órdenes de servicio, puede que tenga que registrar costes adicionales, como costes de viaje para determinadas zonas de servicio o tarifas iniciales. Cuando cree un pedido de servicio, puede insertar estos costes y se sumará una línea con el tipo **Coste** al pedido. Por otra parte, si desea liquidar el coste a todos los pedidos de servicio, puede configurar un coste predeterminado. Por ejemplo, si desea que siempre se liquide un gasto inicial.
   
 ### <a name="to-set-up-service-costs"></a>Para configurar costes de servicio
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Costes servicio** y luego elija el enlace relacionado. 
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Costes de servicio** y luego elija el enlace relacionado. 
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Para especificar un coste predeterminado de los pedidos de servicio
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración del servicio** y luego elija el enlace relacionado. 
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de servicio** y luego elija el enlace relacionado. 
 2. En el campo **Cargo inicio ped. servicio**, seleccione el coste de servicio correspondiente.
 
 ## <a name="see-also"></a>Consulte también
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Gestión de servicios](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

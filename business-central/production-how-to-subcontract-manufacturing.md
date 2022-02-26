@@ -1,26 +1,27 @@
 ---
-title: Cómo subcontratadas fabricación | Documentos de Microsoft
-description: Cuando el pedido de compra se haya creado en la hoja de subcontratación, se puede registrar.
+title: Subcontratación de fabricación
+description: Este tema ofrece una descripción general ampliada de la funcionalidad ampliada de la subcontratación en Business Central, incluidos los campos del centro de trabajo y la ruta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.search.keywords: 99000886
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553799"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972728"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
+
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece varias herramientas para gestionar el trabajo subcontratado:  
+[!INCLUDE[prod_short](includes/prod_short.md)] ofrece varias herramientas para gestionar el trabajo subcontratado:  
 
 - Centros de trabajo con proveedor asignado: esta característica le permite configurar un centro de trabajo asociado a un proveedor (subcontratista). Se denomina centro de trabajo subcontratado. Puede especificar un centro de trabajo subcontratado en una operación de ruta, con lo que le resultará muy sencillo procesar la actividad subcontratada. Además, el coste de la operación se puede indicar en el nivel de la ruta o del centro de trabajo.  
 - Coste del centro de trabajo basado en unidades o tiempo: esta característica le permite especificar si los costes asociados al centro de trabajo se basan en el tiempo de producción o en una tarifa plana por unidad. Si bien los subcontratistas suelen usar una tarifa plana por unidad en sus servicios, la aplicación puede manejar las dos opciones (tiempo de producción y tarifa plana por unidad).  
@@ -52,7 +53,7 @@ Las funciones de la página **Hoja subcontratación** como **Hoja planificación
 >  En las hojas de subcontratación, sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de **Lanzadas**.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Para calcular la hoja de subcontratación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja subcontratación** y, a continuación, elija el vínculo relacionado.  
 2.  Para calcular la hoja, seleccione la acción **Calcular subcontratos**.  
 3.  En la página **Calcular subcontratos**, defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
 4.  Elija el botón **Aceptar**.  
@@ -60,7 +61,7 @@ Las funciones de la página **Hoja subcontratación** como **Hoja planificación
     Revise las líneas en la página **Hoja subcontratación**. La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Para generar el pedido de compra subcontratado  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja subcontratación** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Ejecutar mensajes de acción**.  
 3.  Seleccione el campo **Imprimir pedidos** para imprimir el pedido de compra al crearlo.  
 4.  Elija el botón **Aceptar**.  
@@ -72,15 +73,8 @@ La línea de la hoja de trabajo que se convirtió en pedido de compra se elimina
 ## <a name="posting-subcontract-purchase-orders"></a>Registrar pedidos de compra de subcontratación  
 Una vez que se han creado los pedidos de compra del subcontratista, se pueden registrar. La recepción del pedido registra un movimiento de capacidad en la orden de producción y la facturación del pedido registra el coste directo del pedido de compra en la orden de producción.  
 
-Cuando la compra se registra como recibida, se registra automáticamente un movimiento de diario de salida para la orden de producción. Esto se aplica solo si la operación de subcontratación es la última operación en la ruta de la orden de producción.  
-
-> [!CAUTION]  
->  Es posible que no desee realizar el registro de salida automático para una orden de producción en curso cuando se reciben productos subcontratados. Los motivos de esto podrían ser que la cantidad de salida esperada que se registra puede ser diferente de la cantidad real y que la fecha de registro de la salida automática es engañosa.  
->   
->  Para evitar que se registra la salida esperada de una orden de producción cuando se reciban compras de subcontratados, asegúrese de que la operación subcontratada no sea la última. También, inserte una nueva última operación para la cantidad de salida final.
-
 ## <a name="to-post-a-subcontract-purchase-order"></a>Para registrar un pedido de compra de subcontratación  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos compra** y luego seleccione el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 2.  Abra un pedido de compra creado en la hoja de subcontratación.  
 
     En las líneas del pedido de compra, puede ver la misma información que estaba en la hoja de cálculo. Los campos **Nº orden producción**, **Nº lín. orden producc.**, **Nº operación** y **Nº centro trabajo** se rellenan con la información del pedido de producción de origen.  
@@ -100,6 +94,9 @@ Cuando se registra el pedido de compra como facturado, el coste directo de dicho
 [Fabricación](production-manage-manufacturing.md)    
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)      
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

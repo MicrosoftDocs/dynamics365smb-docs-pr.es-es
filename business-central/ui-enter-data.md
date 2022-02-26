@@ -1,21 +1,21 @@
 ---
-title: Cómo introducir datos en Business Central | Documentos de Microsoft
-description: Obtenga información sobre las características generales que le ayudan a introducir datos en los campos.
-author: SorenGP
+title: Cómo ingresar datos en Business Central
+description: Hay muchas características generales que le ayudan a introducir datos de forma más fácil, rápida y precisa. Los principios básicos y las funciones avanzadas se describen aquí.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262147"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588962"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -24,7 +24,7 @@ Hay muchas características generales que le ayudan a introducir datos de forma 
 Los ejemplos de este producto utilizan los datos de demostración.
 
 ## <a name="working-with-editable-fields"></a>Trabajo con campos editables
-Los campos en [!INCLUDE[d365fin](includes/d365fin_md.md)] puede contener diferentes datos editables, como texto o importe de divisas. Los campos editables suelen mostrar un cuadro de entrada donde puede escribir o elegir un valor. Los campos no editables generalmente se muestran con un fondo gris.   
+Los campos en [!INCLUDE[prod_short](includes/prod_short.md)] puede contener diferentes datos editables, como texto o importe de divisas. Los campos editables suelen mostrar un cuadro de entrada donde puede escribir o elegir un valor. Los campos no editables generalmente se muestran con un fondo gris.   
 
 Algunos campos editables proporcionan un selector para ayudarle a especificar un valor.  
 
@@ -36,7 +36,6 @@ Algunos campos editables proporcionan un selector para ayudarle a especificar un
 |Conmutador o casilla|Algunos campos ofrecen una elección sencilla de valores *Sí* o *No*. El conmutador se usa para especificar este valor y siempre se muestra como una casilla en listas|
 |Edición de asistencia       |Algunos campos proporcionan selectores personalizados adecuados para buscar y elegir el mejor valor para ese campo, como la ventana emergente.|
 
-
 ### <a name="modifying-a-field-value"></a>Modificar un valor de campo
 
 Para modificar el valor de un campo, primero debe establecer el foco en ese campo. El foco se establece mediante las siguientes acciones:
@@ -44,7 +43,7 @@ Para modificar el valor de un campo, primero debe establecer el foco en ese camp
 - Usando la tecla **Tab**. La acción selecciona todo el valor.
 - Haciendo clic con el botón izquierdo del ratón o dispositivo de entrada similar. Esta acción solo seleccionará el valor del campo completo si el campo está en una lista.  
 
-Cuando interactúa con campos en la interfaz de usuario, [!INCLUDE[d365fin](includes/d365fin_md.md)] normalmente favorece la selección de todo el valor del campo para que le sea más fácil reemplazar ese valor.
+Cuando interactúa con campos en la interfaz de usuario, [!INCLUDE[prod_short](includes/prod_short.md)] normalmente favorece la selección de todo el valor del campo para que le sea más fácil reemplazar ese valor.
 
 Cuando se selecciona todo el valor del campo:
 - Reemplace el valor simplemente escribiendo para especificar un nuevo valor. Si el campo ofrece un selector, puede activarlo usando el método abreviado de teclado **Alt+flecha abajo**.
@@ -58,7 +57,6 @@ Cuando el cursor se muestra al final del valor del campo:
 
 > [!NOTE]
 > Después de especificar un valor, Business Central solo comprobará que sea válido después de hacer clic fuera del campo o establecer el foco en otro elemento, como el siguiente campo.  
-
 
 ## <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -85,7 +83,7 @@ La lista siguiente ofrece información útil sobre el uso de la entrada rápida.
 - Está disponible para cualquier campo editable.
 - También funciona en columnas y filas.
 - No impide el acceso a otros elementos de una página, como las acciones. Se puede seguir accediendo a estos elementos mediante Tab y Mayús+Tab.  
-- No es necesario que se expandan las fichas desplegables para que funcione la Entrada rápida. Si el siguiente campo de entrada rápida se encuentra en una ficha desplegable contraída, esa ficha desplegable se expandirá automáticamente y el foco estará en el campo elegido. [!INCLUDE[d365fin](includes/d365fin_md.md)] recordará que la ficha desplegable debe ampliarse la próxima vez que visite la página.  
+- No es necesario que se expandan las fichas desplegables para que funcione la Entrada rápida. Si el siguiente campo de entrada rápida se encuentra en una ficha desplegable contraída, esa ficha desplegable se expandirá automáticamente y el foco estará en el campo elegido. [!INCLUDE[prod_short](includes/prod_short.md)] recordará que la ficha desplegable debe ampliarse la próxima vez que visite la página.  
 - La entrada rápida funciona independientemente de si los campos son obligatorios. Por lo tanto, es buena idea asegurarse de que los campos obligatorios se incluyan en la entrada rápida.
 - De forma predeterminada, la mayoría de los campos se incluyen automáticamente en la entrada rápida. Por lo tanto, al principio, lo más probable es que su tarea sea excluir campos de la entrada rápida.
 
@@ -93,7 +91,7 @@ La lista siguiente ofrece información útil sobre el uso de la entrada rápida.
 
 Para configurar la Entrada rápida en campos, utilice la personalización.
 
-1. Comience la personalización seleccionando el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y luego la acción **Personalizar**.
+1. Inicie la personalización seleccionando el icono ![Configuración.](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") , y luego la acción **Personalizar**.
 2. Seleccione el campo que desea cambiar. En listas, seleccione el encabezado de columna correspondiente. Luego, elija **Incluir en Entrada rápida** o **Excluir de Entrada rápida**.
 
 Para obtener más información sobre la personalización, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
@@ -120,7 +118,7 @@ Puede copiar una o más filas de una lista o un solo campo de una página. Luego
 
 En una lista, para copiar el campo en la misma columna de la fila anterior y pegarlo en la fila actual, pulse F8.
 
-Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pegar](ui-copy-paste.md).
+Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrado de los productos de línea
 
@@ -136,9 +134,9 @@ Se beneficiará especialmente cuando trabaje con grandes listas de artículos de
 
 ### <a name="switching-the-focus-on-and-off"></a>Activar y desactivar el enfoque
 
-Para el enfoque en los productos de línea, seleccione cualquier lugar de la parte de producto de línea y, a continuación, seleccione ![icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") en la esquina superior derecha o pulse Ctrl+Mayús+F12.
+Para centrarse en productos de línea, seleccione cualquier lugar de la parte de producto de línea y, a continuación, seleccione el ![icono Modo de enfoque.](media/focus-mode.png "Icono Modo de enfoque") en la esquina superior derecha, o presione Ctrl+Mayús+F12.
 
-Para volver a la vista normal, seleccione ![icono Modo de enfoque](media/focus-mode.png "Icono Modo de enfoque") o pulse Ctrl+Mayús+F12 de nuevo.
+Para volver a la vista normal, elija el ![icono Modo de enfoque.](media/focus-mode.png "Icono Modo de enfoque") o presione Ctrl+Mayús+F12 nuevamente.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitarea en varias páginas
 
@@ -148,21 +146,21 @@ Puede abrir una página de ficha o documento en una nueva ventana. Abrir una nue
 - Administre interrupciones en la tarea actual, como atender una llamada entrante.
 - Mantener una ventana abierta para una tarea en curso mientras inicia o completa otra tarea en ventanas.
 
-Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir en una nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
+Para abrir la tarjeta o documento actual en una nueva ventana, elija ![Abrir nueva ventana.](media/open-new-window-icon.png "Icono Abrir en una nueva ventana") en la esquina superior derecha, o presione Alt+Mayús+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Para abrir la ficha o documento actual en una nueva ventana, elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana") en la esquina superior derecha o pulse Alt+Mayús+W.
+Para abrir la tarjeta o documento actual en una nueva ventana, elija ![Abrir nueva ventana.](media/open-new-window-icon.png "Icono Abrir nueva ventana") en la esquina superior derecha, o presione Alt+Mayús+W.
 
 > [!NOTE]
-> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana](media/open-new-window-icon.png "Icono Abrir nueva ventana").
+> Cuando abre otras páginas desde una ficha o documento que está abierto en una nueva ventana, esas páginas se abrirán en una nueva ventana aunque no elija ![Abrir nueva ventana.](media/open-new-window-icon.png "Icono Abrir nueva ventana").
 
 > [!NOTE]
 > Si trabaja en el explorador Safari, un bloqueador de ventanas emergentes puede provocar que no se abra la nueva ventana. Si este es el caso, especifique la URL del producto como un sitio web permitido. Para obtener información, consulte [Cambiar las preferencias en Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, vea [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+> Lo mismo puede suceder en otros navegadores, como Firefox. Para obtener más información, consulte [Configuración del bloqueador de elementos emergentes en Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Otra forma de realizar múltiples tareas es abrir [!INCLUDE[d365fin](includes/d365fin_md.md)] en dos o más pestañas del navegador. Cuando lo haga de esta forma, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. De esta forma se crea una nueva sesión.   
+Otra forma de realizar múltiples tareas es abrir [!INCLUDE[prod_short](includes/prod_short.md)] en dos o más pestañas del navegador. Cuando lo haga de esta forma, debe crear una nueva pestaña y luego copiar/pegar la URL de la pestaña original en la nueva pestaña. De esta forma se crea una nueva sesión.   
 
 > [!NOTE]
 > No use la función **Duplicar** del navegador para crear la nueva pestaña, ya que esto puede hacer que las acciones de una pestaña bloqueen las acciones de otras pestañas porque son parte de la misma sesión.
@@ -242,34 +240,9 @@ En la tabla siguiente se muestran varias formas de introducir horas y cómo se i
 
  Introduzca dos dígitos para cada unidad de tiempo si no escribe ningún separador.  
 
-## <a name="entering-datetimes"></a>Introducción de fechas/horas
+## <a name="entering-combined-datetimes"></a>Introducir fechas/horas combinadas
 
-Cuando introduzca fechas y horas, debe introducir un espacio en blanco entre la fecha y la hora.  
-
-En la tabla siguiente se muestran varias formas de introducir fechas y horas y cómo se interpretan.  
-
-|Movimiento|Interpretación|  
-|---------------|------------------------|  
-|`131202` 132455|13/12/02 13:24:55|  
-|02-12-01 10|01/12/02 10:00:00|  
-|1.12.02 5|01/12/02 05:00:00|  
-|12.1.02|01/12/02 00:00:00|  
-|11 12|11/mes actual/año actual 12:00:00|  
-|1112 12|11/12/año actual 12:00:00|  
-|h u hoy|fecha de hoy 00:00:00|  
-|h hora|fecha de hoy hora real|  
-|h 10:30|fecha de hoy 10:30:00|  
-|h 3:3:3|fecha de hoy 03:03:03|  
-|l o fecha de trabajo|la fecha de trabajo 00:00:00|  
-|l o lunes|Lunes de la semana actual 00:00:00|  
-|ma o martes|Martes de la semana actual 00:00:00|  
-|mi o miércoles|Miércoles de la semana actual 00:00:00|  
-|ju o jueves|Jueves de la semana actual 00:00:00|  
-|v o viernes|Viernes de la semana actual 00:00:00|  
-|s o sábado|Sábado de la semana actual 00:00:00|  
-|do o domingo|Domingo de la semana actual 00:00:00|  
-|ma 10:30|Martes de la semana actual 10:30:00|  
-|ma 3:3:3|Martes de la semana actual 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Introducción de duración
 
@@ -292,6 +265,16 @@ A continuación se muestran algunos ejemplos.
 
  El número 5 se convierte a 5 hrs, si la unidad de medida es horas.  
 
-## <a name="see-also"></a>Consulte también  
- [Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Configurar el separador decimal utilizado por los teclados numéricos
+
+Cuando se usa la tecla de separación decimal del teclado numérico para introducir datos, el separador decimal real que se introduce en el campo está determinado por la configuración regional de su Business Central. Establezca la región en Business Central en la página **Mi configuración**.
+
+Por ejemplo, suponga que está utilizando un teclado numérico que utiliza un punto (.) como tecla de separación decimal. Pero está introduciendo datos para un idioma regional que usa una coma (**,**) para el separador decimal, como danés (Dinamarca) o francés (Francia). Por lo tanto, desea que los decimales como "1.23" se introduzcan como "1,23". En este caso, puede ir a la página **Mi configuración** y configurar la **Región** al idioma regional de destino, como **Danés (Dinamarca)** o **Francés (Francia)**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Consulte también
+
+[Ordenar, buscar y filtrar listas](ui-enter-criteria-filters.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

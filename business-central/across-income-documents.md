@@ -1,40 +1,39 @@
 ---
 title: Trabajar con documentos entrantes| Documentos de Microsoft
 description: Puede administrar documentos empresariales externos entrantes, como recibos de pago o PDF, administrar tareas de OCR y convertir archivos a documentos y registros electrónicos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8e02cd4627219c7ea439155b2b91b61e03534dc2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187801"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788488"
 ---
 # <a name="incoming-documents"></a>Documentos entrantes
-Algunas transacciones empresariales no se registran en [!INCLUDE[d365fin](includes/d365fin_md.md)] desde el principio. En su lugar, un documento empresarial externo llega a la empresa como datos adjuntos de correo electrónico o una copia en papel que se digitaliza para archivarla. Esto es habitual en las compras, donde dichos archivos de documentos entrantes representan los recibos de pago de gastos o pequeñas compras.
 
-Desde los archivos PDF o de imagen que representan a los documentos entrantes podrá hacer que un servicio externo del OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documento en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Algunas transacciones empresariales no se registran en [!INCLUDE[prod_short](includes/prod_short.md)] desde el principio. En su lugar, un documento empresarial externo llega a la empresa como datos adjuntos de correo electrónico o una copia en papel que se digitaliza para archivarla. Esto es habitual en las compras, donde dichos archivos de documentos entrantes representan los recibos de pago de gastos o pequeñas compras.
+
+Desde los archivos PDF o de imagen que representan a los documentos entrantes podrá hacer que un servicio externo del OCR (reconocimiento óptico de caracteres) genere documentos electrónicos que se podrán convertir a registros de documento en [!INCLUDE[prod_short](includes/prod_short.md)]. Elija un paquete de servicios que sea apropiado para su organización y o el país o la región. Alternativamente, puede crear entradas manualmente para representar los documentos externos.  
 
 En la página **Documentos entrantes**, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes.
 
 El proceso de documento entrante puede constar de las principales actividades siguientes:
 
-* Registrar los documentos externos en [!INCLUDE[d365fin](includes/d365fin_md.md)] creando líneas en la página **Documentos entrantes** de cualquiera de las siguientes formas:
+* Registrar los documentos externos en [!INCLUDE[prod_short](includes/prod_short.md)] creando líneas en la página **Documentos entrantes** de cualquiera de las siguientes formas:
   * Manualmente, usando funciones simples, desde un PC o un dispositivo móvil, de una de las siguientes formas:
     * Use el botón **Crear desde archivo** y, a continuación, rellene los campos en la página **Documento entrante**. El campo se adjunta automáticamente.  
     * Use el botón **Nuevo** y, a continuación, rellene los campos en la página **Documento entrante** y adjunte el archivo relacionado manualmente.
     * Desde una tableta o un teléfono, utilice el botón **Crear desde la cámara** para crear un registro de documento entrante nuevo y, a continuación, envíe la imagen al servicio OCR, por ejemplo.
   * De forma automática, recibiendo el documento del servicio OCR como documento electrónico una vez haya enviado por correo electrónico el PDF o el archivo de imagen relacionado al servicio OCR. La ficha desplegable **Información financiera** se rellena automáticamente en la página **Documento entrante**.
-* Utilice el servicio de OCR para convertir documentos PDF o archivos de imagen a documentos electrónicos que se puedan convertir a registros de documento en [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* Utilice el servicio de OCR para convertir documentos PDF o archivos de imagen a documentos electrónicos que se puedan convertir a registros de documento en [!INCLUDE[prod_short](includes/prod_short.md)].
 * Crear documentos nuevos o líneas de diario general desde registros de documento entrante manualmente especificando la información a medida que la lee de los archivos de documento entrante.
 * Adjuntar archivos de documento entrantes a documentos de compra y de venta en cualquier estado, incluidos los movimientos de proveedor, cliente y contabilidad de la operación de registro.
 * Ver registros de documento entrantes y sus adjuntos desde cualquier documento o movimiento de compra y venta, o buscar todos los movimientos de contabilidad sin registros de documento entrantes desde la página **Plan de cuentas**.
@@ -47,5 +46,9 @@ El proceso de documento entrante puede constar de las principales actividades si
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
+
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

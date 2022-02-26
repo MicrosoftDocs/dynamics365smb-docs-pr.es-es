@@ -3,19 +3,19 @@ title: 'Detalles de diseño: Desviación | Documentos de Microsoft'
 description: La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 037af68ad735b84ca9cb0bf038bf2705d08aff7a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 3b6ec6cbd2ebef6ff2cd44a49284821485d63f6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184609"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439565"
 ---
 # <a name="design-details-variance"></a>Detalles de diseño: Desviación
 La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.  
@@ -38,7 +38,7 @@ La desviación se define como la diferencia entre el coste real y el coste está
 
  En la tabla siguiente se muestran los movimientos de valoración resultantes.  
 
- ![Cálculo de desviación de compras](media/design_details_inventory_costing_11_purchase_variance.png "Cálculo de desviación de compras")  
+ ![Cálculo de desviación de compras.](media/design_details_inventory_costing_11_purchase_variance.png "Cálculo de desviación de compras")  
 
 ## <a name="determining-the-standard-cost"></a>Determinación del coste estándar  
  El coste estándar se usa al calcular la desviación y el importe para capitalizar. Como el coste estándar puede cambiarse con el tiempo debido al cálculo de actualización manual, para el cálculo de desviación necesita un punto en el tiempo en el que el coste estándar sea fijo. Este momento se produce cuando se factura la entrada de existencias. En el caso de productos fabricados o ensamblados, el punto en el que se determina el coste estándar es cuando se ajusta el coste.  
@@ -48,19 +48,22 @@ La desviación se define como la diferencia entre el coste real y el coste está
 |Parte coste|Producto comprado|Producto fabricado/ensamblado|  
 |----------------|--------------------|------------------------------|  
 |**Coste estándar**||Coste material a un nivel + Coste capacidad a un nivel + Coste subcontrat. a un nivel + Costes gen. cap. a un nivel + Coste gen. fab. a un nivel|  
-|**Coste material a un nivel**|Coste unitario|![Ecuación 1](media/design_details_inventory_costing_11_equation_1.png "Ecuación 1")|  
-|**Coste capacidad a un nivel**|No aplicable|![Ecuación 2](media/design_details_inventory_costing_11_equation_2.png "Ecuación 2")|  
-|**Coste subcontrat. a un nivel**|No aplicable|![Ecuación 3](media/design_details_inventory_costing_11_equation_3.png "Ecuación 3")|  
-|**Costes gen. cap. a un nivel**|No aplicable|![Ecuación 4](media/design_details_inventory_costing_11_equation_4.png "Ecuación 4")|  
+|**Coste material a un nivel**|Coste unitario|![Ecuación 1.](media/design_details_inventory_costing_11_equation_1.png "Ecuación 1")|  
+|**Coste capacidad a un nivel**|No aplicable|![Ecuación 2.](media/design_details_inventory_costing_11_equation_2.png "Ecuación 2")|  
+|**Coste subcontrat. a un nivel**|No aplicable|![Ecuación 3.](media/design_details_inventory_costing_11_equation_3.png "Ecuación 3")|  
+|**Costes gen. cap. a un nivel**|No aplicable|![Ecuación 4.](media/design_details_inventory_costing_11_equation_4.png "Ecuación 4")|  
 |**Coste gen. fab. a un nivel**|No aplicable|(Coste de material de un nivel + Coste de capacidad de un nivel + Coste subcontr. de un nivel) * Coste indirecto % /100 + Tasa costes generales|  
-|**Coste material distribuido**|Coste unitario|![Ecuación 5](media/design_details_inventory_costing_11_equation_5.png "Ecuación 5")|  
-|**Coste capacidad distribuida**|No aplicable|![Ecuación 6](media/design_details_inventory_costing_11_equation_6.png "Ecuación 6")|  
-|**Coste subcontratado distrib.**|No aplicable|![Ecuación 7](media/design_details_inventory_costing_11_equation_7.png "Ecuación 7")|  
-|**Coste gen. capacidad distribuida**|No aplicable|![Ecuación 8](media/design_details_inventory_costing_11_equation_8.png "Ecuación 8")|  
-|**Costes gen. fabr. distrib.**|No aplicable|![Ecuación 9](media/design_details_inventory_costing_11_equation_9.png "Ecuación 9")|  
+|**Coste material distribuido**|Coste unitario|![Ecuación 5.](media/design_details_inventory_costing_11_equation_5.png "Ecuación 5")|  
+|**Coste capacidad distribuida**|No aplicable|![Ecuación 6.](media/design_details_inventory_costing_11_equation_6.png "Ecuación 6")|  
+|**Coste subcontratado distrib.**|No aplicable|![Ecuación 7.](media/design_details_inventory_costing_11_equation_7.png "Ecuación 7")|  
+|**Coste gen. capacidad distribuida**|No aplicable|![Ecuación 8.](media/design_details_inventory_costing_11_equation_8.png "Ecuación 8")|  
+|**Costes gen. fabr. distrib.**|No aplicable|![Ecuación 9.](media/design_details_inventory_costing_11_equation_9.png "Ecuación 9")|  
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: métodos de coste](design-details-costing-methods.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: Integración con inventario | Documentos de Microsoft'
-description: Las áreas de aplicación de Gestión de almacén e Inventario interactúan entre sí en el inventario físico y en el ajuste de inventario o de almacén.
+title: 'Detalles de diseño: Integración con inventario'
+description: El área de aplicación Warehouse Managemen e Inventario interactúan entre sí en el inventario físico y en el ajuste de inventario o de almacén.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bbc9c0e55041f4584ae7609f727179737adaa041
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 209bf5b50f362b11d0ba4fdc6ae0cab47a3622fa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185353"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319204"
 ---
 # <a name="design-details-integration-with-inventory"></a>Detalles de diseño: Integración con inventario
 Las áreas de aplicación de Gestión de almacén e Inventario interactúan entre sí en el inventario físico y en el ajuste de inventario o de almacén.  
@@ -48,3 +48,5 @@ Las áreas de aplicación de Gestión de almacén e Inventario interactúan entr
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)   
  [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

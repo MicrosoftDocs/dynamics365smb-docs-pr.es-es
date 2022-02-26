@@ -1,72 +1,125 @@
 ---
-title: Mostrar informes de Power BI personalizados | Documentos de Microsoft
-description: Puede usar los informes de Power BI para obtener información adicional sobre los datos en las listas.
-author: edupont04
+title: Mostrar informes de Power BI personalizados
+description: Puedes usar Power BI FactBox para mostrar informes de Power BI y obtener información adicional sobre los datos de los registros en las listas clave.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: 15b9f17b0b7748df977eef3837fb75122eb8d1ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/11/2021
+ms.author: jswymer
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187849"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440929"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Ver datos de listas en informes de Power BI en Business Central
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] incluye un elemento de control de cuadro informativo de varias páginas de lista de claves que proporciona información de los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Puede crear informes personalizados para mostrar en este control, pero hay reglas a seguir al crear informes para garantizar que proporcionan el comportamiento deseado.  
+[!INCLUDE[prod_long](includes/prod_long.md)] incluye un elemento de control de cuadro informativo de Power BI en muchas páginas de lista clave. El objetivo de este cuadro informativo es mostrar informes de Power BI relacionados con los registros de las listas, lo que ofrece más información sobre los datos. La idea es que a, medida que se desplaza por las filas de la lista, el informe se actualice para la entrada seleccionada.
 
-> [!NOTE]  
-> Debe disponer de una cuenta válida con [!INCLUDE[prodshort](includes/prodshort.md)] y con Power BI. Además, para crear informes personalizados, debe descargar [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Para obtener más información, consulte [Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md).  
+[!INCLUDE[prod_long](includes/prod_long.md)] viene listo con algunos de estos informes. También puede crear sus propios informes personalizados que se muestran en este cuadro informativo. La creación de estos informes es similar a otros informes. Pero hay algunas reglas de diseño que deberá seguir para asegurarse de que los informes se muestren como se espera. En este artículo se explica estas reglas.
 
-## <a name="report-data-set"></a>Conjunto de datos del informe
-Al crear el informe en Power BI Desktop, especifique el origen de datos o un servicio web que contenga los datos relacionados con la lista a la que desea asociar el informe. Por ejemplo, si desea crear un informe para la lista Ventas, asegúrese de que el conjunto de datos contenga información relacionada con ventas.  
+> [!NOTE]
+> Para obtener información general sobre la creación y la publicación de informes de Power BI para Business Central, consulte [Creación de informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md). 
 
-Para filtrar los datos de los informes en función del registro seleccionado en la página de listas, se debe usar la clave primaria como filtro de informe. Las claves primarias deben ser parte del conjunto de datos para que los informes se filtren correctamente. En la mayoría de los casos, la clave primaria de una lista es **Nº** .  
+## <a name="prerequisites"></a>Requisitos previos
 
-## <a name="defining-the-report-filter"></a>Definir el filtro de informe
-El informe debe tener un filtro de informe básico (no una página o un filtro visual ni un filtro avanzado) para filtrar correctamente en el cuadro informativo de Power BI. El filtro que se pasa al informe de Power BI desde cada página de lista se basará en la clave primaria tal como se ha descrito en la sección anterior.  
+- Una cuenta de Power BI.
+- Power BI Desktop.
 
-Para definir un filtro para el informe, seleccione la clave primaria en la lista de campos disponibles y, a continuación, arrastre y suelte el campo en la sección **Filtro de informe**.  
+<!-- 
+For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-![Configurar el filtro para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+## <a name="create-a-report-for-a-list-page"></a>Crear un informe para una página de lista
 
-## <a name="report-size-and-color"></a>Tamaño y color del informe
-El tamaño del informe se debe configurar en 325 píxeles por 310 píxeles. Esto es necesario para el escalado correcto del informe en el espacio disponible que permite el control del cuadro informativo de Power BI. Para definir el tamaño del informe, coloque el enfoque fuera del área de diseño de informe y, a continuación, elija el icono de rodillo de pintura.
+1. Inicie Power BI Desktop.
+2. Seleccione **Obtener datos** y comience a elegir el origen de datos para el informe.
 
-![Configurar la anchura y la altura para el informe Actividad de facturas de venta](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+    Especifique las páginas de lista de Business Central que contienen los datos que desea en el informe. Por ejemplo, para crear un informe para la lista **Facturas de venta**, incluya páginas relacionadas con las ventas.
+
+    Para obtener más información, siga las instrucciones [Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos en Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
+
+3. Establezca el filtro de informe.
+
+    Para hacer que los datos se actualicen en el registro seleccionado en la lista, agregue un filtro al informe. El filtro debe incluir un campo del origen de datos que se usa para identificar cada registro de la lista de forma única. En términos de desarrollador, este campo es la *clave primaria*. En la mayoría de los casos, la clave primaria de una lista es **Nº** .
+
+    Para configurar el filtro, siga los siguientes pasos:
+
+    1. En **Filtros**, seleccione el campo de clave primaria de la lista de campos disponibles.
+    2. Arrastre el campo al panel **Filtros** y colóquelo en el cuadro **Filtros en todas las páginas**.
+    3. Establezca el **Tipo de filtro** en **Filtrado básico**. No puede ser un filtro de página, visual o avanzado.
+
+    ![Configurar el filtro para el informe Actividad de facturas de venta.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+4. Diseñe el informe.
+
+    Cree el diseño arrastrando campos y agregando visualizaciones. Para obtener más información, consulte [Trabajar con la vista Informe en Power BI Desktop](/power-bi/create-reports/desktop-report-view) en la documentación de Power BI.
+
+5. Consulte las siguientes secciones sobre el tamaño del informe y el uso de varias páginas.
+
+6. Guarde y asigne un nombre al informe.
+
+    Dele al informe un nombre que contenga el nombre de la página de lista asociada con el informe, como esté en el cliente. Sin embargo, el nombre no distingue entre mayúsculas y minúsculas. Suponga que el informe es para la página de lista **Facturas de venta**. En este caso, incluya las palabras **facturas de venta** en algún lugar del nombre, como **mis facturas de venta.pbix** o **mi_lista_facturas_de_venta.pbix**.
+
+    Esta convención de nomenclatura no es un requisito. Sin embargo, hace que la selección de informes en [!INCLUDE[prod_short](includes/prod_short.md)] sea más rápida. Cuando la página de selección de informes se abre desde una página de lista, se aplica automáticamente un filtro según el nombre de la página. El filtro tiene la sintaxis: `@*<caption>*`, como `@*Sales Invoices*`. Este filtrado se realiza para limitar los informes que se muestran. Los usuarios pueden borrar el filtro para obtener una lista completa de los informes disponibles en Power BI.
+
+7. Cuando haya terminado, publique el informe como de costumbre.
+
+    Para obtener más información, consulte [Publicar un informe](across-how-use-financials-data-source-powerbi.md#publish-reports).
+
+8. Pruebe el informe.
+
+    Una vez que el informe se haya publicado en su área de trabajo, debería estar disponible en el cuadro informativo de Power BI en la página de lista en [!INCLUDE[prod_short](includes/prod_short.md)].
+
+    Para probarlo, siga los siguientes pasos.
+
+    1. Abra [!INCLUDE[prod_short](includes/prod_short.md)] y vaya a la página de la lista.
+    2. Si no ve el cuadro informativo de Power BI, vaya a la barra de acciones y seleccione **Acciones** > **Mostrar** > **Mostrar/ocultar informes de Power BI**.
+    3. En el cuadro informativo de Power BI, seleccione **Seleccionar informes**, seleccione el cuadro **Habilitar** para el informe y, a continuación, **Aceptar**.
+
+    Si está diseñado correctamente, se muestra el informe.  
+
+## <a name="set-the-report-size-and-color"></a>Configurar el tamaño y el color del informe
+
+El tamaño del informe se debe configurar en 325 píxeles por 310 píxeles. Este tamaño proporciona el escalado correcto del informe en el espacio disponible del control del cuadro informativo de Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]. Para definir el tamaño del informe, coloque el enfoque fuera del área de diseño de informe y, a continuación, elija el icono de rodillo de pintura.
+
+![Configurar la anchura y la altura para el informe Actividad de facturas de venta.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 Puede cambiar el ancho y el alto del informe eligiendo **Personalizado** en el campo **Tipo**.
 
-Del mismo modo, si desea que el fondo del informe se mezcle con el color de fondo del control del cuadro informativo de Power BI, defina un color de fondo de informe personalizado de *E5E5E5*. Es opcional.  
+Si desea que el fondo del informe se mezcle con el color de fondo del control del cuadro informativo de Power BI, defina un color de fondo de informe personalizado como *#FFFFFF* (blanco). 
+
+> [!TIP]
+> Use el archivo de tema [!INCLUDE [prod_short](includes/prod_short.md)] para crear informes con el mismo estilo de color que las aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar el tema de informe de [!INCLUDE [prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-powerbi.md#theme).
 
 ## <a name="reports-with-multiple-pages"></a>Informes con varias páginas
-Con Power BI, puede crear un solo informe con varias páginas. Los elementos visuales que desee ver en las páginas de listas de [!INCLUDE[d365fin](includes/d365fin_md.md)] deben estar en la primera página del informe en Power BI.  
 
-> [!NOTE]  
-> El cuadro informativo de Power BI solo puede mostrar la primera página del informe; si desea ver otras páginas, debe expandir el informe y usar las pestañas de la parte inferior del informe para desplazarse a otras páginas.  
+Con Power BI, puede crear un solo informe con varias páginas. Sin embargo, para los informes que se mostrarán con páginas de lista, no recomendamos que tengan más de una página. El cuadro informativo de Power BI solo mostrará la primera página de su informe.
 
-## <a name="saving-your-report"></a>Guardar el informe
+## <a name="fixing-problems"></a>Solucionar problemas
 
-Cuando guarde el informe, es recomendable que el nombre del informe contenga el nombre de la página de listas en la que desee mostrar el informe. Por ejemplo, la palabra *Proveedor* debe estar en cualquier parte del nombre del informe para los informes que desee que estén disponibles en la lista de proveedores.  
+En esta sección se explica cómo solucionar los problemas que puede encontrar al intentar ver un informe de Power BI para una página de lista en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Esto no es un requisito; sin embargo, acelerará el proceso de seleccionar informes. Cuando la página de selección de informe se abra desde una página de lista, pasaremos un filtro basado en el nombre de página para limitar los informes que se muestran.  Puede quitar el filtro para obtener una lista completa de los informes disponibles en Power BI.  
+### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>No puede ver el cuadro informativo de Power BI en una página de lista
 
-## <a name="troubleshooting"></a>Solución de problemas
-En esta sección se proporciona una solución para los problemas más habituales que se produzcan al crear el informe de Power BI.  
+De forma predeterminada, el cuadro informativo de Power BI está oculto a la vista. Para mostrar el cuadro informativo en una página, en la barra de acciones, seleccione **Acciones** > **Mostrar** > **Mostrar/ocultar informes de Power BI**.
 
-**El usuario no ve un informe en la página Seleccionar informe que desea seleccionar** Si no puede seleccionar un informe, una solución posible es comprobar el nombre del informe para asegurarse de que contiene el nombre de la página de listas. También puede borrar el filtro para obtener una lista completa de los informes de Power BI disponibles.  
+### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>No puede ver el informe en el panel Seleccionar informe
 
-**El informe se carga pero está en blanco, no se ha filtrado o se ha filtrado incorrectamente** Compruebe que el filtro de informe contenga la clave primaria correcta. En la mayoría de los casos, es el campo **Nº**, pero en la tabla **Mov. contabilidad**, por ejemplo, debe usar el campo **Nº mov.**
+El nombre del informe no contiene el nombre de la página de la lista que se muestra. Borre el filtro para obtener una lista completa de los informes de Power BI disponibles.  
 
-**El informe se carga, pero no muestra la página prevista** Compruebe que la página que desea mostrar es la primera página del informe.  
+### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>El informe está cargado pero en blanco, no filtrado o filtrado incorrectamente
 
-**El informe aparecerá con bordes grises no deseados, es demasiado pequeño o demasiado grande**
+Verifique que el filtro de informes contenga la clave principal correcta. En la mayoría de los casos, este campo es **Nº**, pero en la tabla **Mov. contabilidad**, por ejemplo, debe usar el campo **Nº mov.**.
+
+### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>El informe está cargado, pero muestra una página que no esperaba
+
+Verifique que la página que desea que se muestre es la primera página de su informe.  
+
+### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>El informe aparecerá con un borde gris no deseado o es demasiado pequeño o demasiado grande
 
 Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 píxeles. Guarde el informe y, a continuación, actualice la página de listas.  
 
@@ -75,7 +128,10 @@ Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 pí
 ## <a name="see-also"></a>Consulte también
 
 [Habilitar los datos de negocio para Power BI](admin-powerbi.md)  
-[Usar [!INCLUDE[d365fin](includes/d365fin_md.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Introducción](product-get-started.md)  
-[Configurar [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
+[Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finanzas](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

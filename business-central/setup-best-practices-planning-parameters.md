@@ -1,21 +1,21 @@
 ---
-title: 'Procedimientos recomendados de configuración: parámetros de planificación | Documentos de Microsoft'
-description: La ficha desplegable Planificación de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.
+title: 'Procedimientos recomendados de configuración: parámetros de la planificación'
+description: Este tema describe las mejores prácticas sobre cómo configurar campos de parámetros de planificación seleccionados con la ficha desplegable Planificación en la ficha del artículo.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8ff874a076aa1a0bba09e1277cb19ee6553eaa8b
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271923"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320061"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Procedimientos recomendados de configuración: parámetros de la planificación
 La ficha desplegable **Planificación** de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.  
@@ -45,4 +45,7 @@ La ficha desplegable **Planificación** de la ficha de producto es el centro de 
  [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
  [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
- [Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

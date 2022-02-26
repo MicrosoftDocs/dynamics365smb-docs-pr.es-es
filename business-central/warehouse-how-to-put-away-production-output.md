@@ -1,40 +1,46 @@
 ---
-title: Cómo ubicar la salida de producción | Documentos de Microsoft
-description: La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén.
+title: Ubicar la salida de producción
+description: La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. La ubicación del inventario se puede realizar de las siguientes formas.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e0acb1a8c1710b0b096c461f14f817957e4ee3af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192872"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438137"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ubicar la salida de producción o la salida de ensamblado
+
 La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
 
-En las configuraciones básicas de almacén, donde el almacén requiere el proceso de ubicación pero no el de recepción, utilice el documento **Ubicación inventario** para organizar y registrar la ubicación de la salida.  
+En las configuraciones básicas de almacén, donde el almacén requiere el proceso de ubicación, utilice el documento **Ubicación inventario** para la salida posproducción y registrar la ubicación de la salida.  
+
+> [!NOTE]  
+> La ubicación de inventario no es compatible con los procesos de ensamblaje. PublicRegistre un pedido de ensamblado para registrar la salida. Si usa ubicaciones, puede mover elementos entre ubicaciones más tarde. Para obtener más información, consulte [Mover productos ad hoc en las configuraciones avanzadas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
 
 En las configuraciones avanzadas de almacén, donde el almacén no requiere los procesos de ubicación y recepción, cree un documento de ubicación interno o un documento de movimiento para ubicar la salida.  
 
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Para colocar la salida de producción con una colocación de inventario
+
 El primer paso para crear la ubicación de salida es crear la solicitud de almacén de entrada. Esta solicitud informa al almacén de que la salida del pedido de producción o ensamblado está preparada para ubicación.
 
-## <a name="to-create-the-inbound-warehouse-request"></a>Para crear la solicitud de entrada al almacén  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Orden de producción lanzada** y luego elija el enlace relacionado.  
+### <a name="to-create-the-inbound-warehouse-request"></a>Para crear la solicitud de entrada al almacén  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Orden de producción lanzada** y, a continuación, elija el vínculo relacionado.  
 2.  En la orden de producción que está preparada para ubicación, elija la acción **Crear petición entrada alm.**  
 
 > [!NOTE]  
->  También puede crear la solicitud de almacén de entrada seleccionando la casilla de verificación **Crear solicitud de entrada** cuando actualice la orden de producción. Para obtener más información, vea [Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
+> También puede crear la solicitud de almacén de entrada eligiendo el campo **Crear solicitud de entrada** al actualizar la orden de producción. Para obtener más información, vea [Actualizar o replanificar o actualizar las órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="to-put-output-away-with-an-inventory-put-away"></a>Para ubicar la salida con una ubicación de inventario  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación existencias** y luego elija el enlace relacionado.  
+### <a name="to-put-output-away-with-an-inventory-put-away"></a>Para ubicar la salida con una ubicación de inventario  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicación existencias** y luego elija el enlace relacionado.  
 2.  Cree una ubicación de inventario nueva. Para obtener más información, vea [Ubicar productos con ubicaciones de almacén](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Para tener acceso a la salida de la orden de producción, elija la acción **Traer doc. origen** y, a continuación, seleccione la orden de producción lanzada.  
 4.  Rellene las líneas de ubicación como crea conveniente.
@@ -46,30 +52,18 @@ Al ubicar y registrar el inventario, se asume que todas las operaciones se regis
 
 Si solo necesita registrar el tiempo de preparación y ejecución de la última operación, defina la cantidad de salida de la última operación en 0. También puede decidir no registrar la última línea eliminándola.  
 
-## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Para ubicar la salida con una ubicación interna de almacén
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación interna alm.** y luego elija el enlace relacionado.  
-2. Seleccione la acción **Nuevo**.
-3. Rellene la cabecera de una nueva ubicación interna con, al menos, el **Cód. almacén.**  
-4. Rellene una línea por cada producto que desea mover al almacén. Sólo tiene que rellenar los campos **Nº producto** y **Cantidad**.  
+## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Para colocar el ensamblado y la producción en configuraciones avanzadas de almacén
+Al registrar la salida de la orden de producción o ensamblado en el almacén que está configurado para utilizar la ubicación y la recogida dirigidos, la salida se coloca en la ubicación definida en la orden de producción o ensamblado. 
 
-    > [!NOTE]  
-    >  Al seleccionar el campo **Nº producto**, se abrirá la **Lista contenidos** ubicación en vez de la **Lista de productos**. Esto es porque desea ubicar un producto que está en una ubicación determinada, un Contenido ubicación, que no es sólo un producto y ya conoce la ubicación de la que se debe traer el producto.  
+La siguiente tabla describe diferentes formas de mover artículos dentro del almacén con configuraciones avanzadas donde todas las actividades del almacén deben realizarse en un flujo de trabajo dirigido. 
 
-4.  Para rellenar las líneas de la hoja de trabajo con todo el contenido de la ubicación o el contenido filtrado de las ubicaciones del almacén, elija la acción **Traer conten. ubicac.**.  
-5.  Elija la acción **Crear ubicación** y los productos que desea mover a producción se colocarán en instrucciones de ubicación en espera de almacenamiento.  
+|**Para**|**Vea**|  
+|------------|-------------|  
+|Mover productos con la hoja de cálculo de movimientos de almacén.|[Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet)|  
+|Crear una colocación interna para dejar los productos producidos o ensamblados en una configuración avanzada de inventario.|[Crear una colocación interna](warehouse-how-to-create-put-aways-from-internal-put-aways.md#to-create-an-internal-put-away)|
 
 > [!NOTE]  
->  Cuando el almacén está configurado para utilizar ubicaciones y picking directos, el al está vinculado al área de fabricación a través de las ubicaciones de producción genéricas: las ubicaciones de entrada y salida y la ubicación de control de planta, que define en la ficha desplegable **Ubicaciones** de la ficha de almacén. Cuando registra la salida de una orden de producción, la salida se coloca automáticamente en la **Ubicación de salida de producción**. Siga el mismo procedimiento descrito anteriormente para ubicar la salida de producción, excepto que en vez de utilizar la ubicación genérica del producto, moverá o ubicará los productos desde la **ubicación de salida de producción** en la ubicación predeterminado del producto.  
-
-## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Para especificar manualmente una ubicación para almacenar los artículos de la salida de producción  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja trabajo mov.** y luego elija el enlace relacionado.  
-2.  Rellene la cabecera y cree una línea por cada producto que desea mover al almacén.  
-3.  Rellene los campos **Desde cód. ubicación** y **Hasta cód. ubicación** e introduzca la cantidad en el campo **Cantidad**.  
-4.  Para rellenar las líneas de la hoja de trabajo con todo el contenido de la ubicación o el contenido filtrado de las ubicaciones del almacén, elija la acción **Traer conten. ubicac.**.  
-5. Seleccione la acción **Crear movimiento**. Se crean instrucciones de movimiento de almacén con líneas Traer y Colocar para que los empleados de almacén las ejecuten.  
-
-> [!NOTE]  
->  En los documentos de almacén (documentos de ubicación interna, ubicación o movimiento) no puede introducir el número del documento de origen (número de orden de producción) de cada proceso.  
+> En los documentos de almacén (documentos de ubicación interna, ubicación o movimiento) no puede introducir el número del documento de origen (número de orden de producción) de cada proceso.  
 
 ## <a name="see-also"></a>Consulte también  
 [Gestión almacén](warehouse-manage-warehouse.md)  
@@ -77,4 +71,7 @@ Si solo necesita registrar el tiempo de preparación y ejecución de la última 
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
