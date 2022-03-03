@@ -2,17 +2,16 @@
 title: Informes y análisis de proyecto
 description: Consulte qué informes y análisis de proyecto están disponibles en la versión estándar de Business Central para que pueda realizar un seguimiento de su negocio.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: c4c39e7881839bbf890ef74eb4ecedee578a6c52
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 7ec46596e4e69d4e83038d2e74bbcbc215c3033b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102686"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137386"
 ---
 # <a name="project-reports-and-analytics-in-business-central"></a>Informes y análisis de proyecto en Business Central
 

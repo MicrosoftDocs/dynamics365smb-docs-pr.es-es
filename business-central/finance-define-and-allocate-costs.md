@@ -2,7 +2,6 @@
 title: Definición y asignación de costes
 description: Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 28edcb687c8c2ec2219b9d4f8b21e5fce02e9910
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972517"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149132"
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costes
 

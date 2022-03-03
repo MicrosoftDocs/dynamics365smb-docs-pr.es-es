@@ -2,24 +2,23 @@
 title: Migrar datos del cliente
 description: Puede migrar datos de clientes existentes desde un sistema existente a Business Central usando RapidStart Services o simplemente introdúzcalo directamente en la empresa.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437471"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335375"
 ---
 # <a name="migrate-customer-data"></a>Migrar datos del cliente
 
-Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[prod_short](includes/prod_short.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa.
+Puede migrar los datos existentes de cliente de un sistema de ERP existente a [!INCLUDE[prod_short](includes/prod_short.md)] utilizando las herramientas de migración de datos de RapidStart Services. Puede usar archivos de Excel como soporte de datos. También puede mover manualmente los datos al introducirlos directamente en la empresa. Como alternativa, puede utilizar la guía **Migración a la nube** para ayudarle a mover datos. Para obtener más información, consulte [Migrar datos](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de administración.
 
 > [!NOTE]
 > Los campos de tipo BLOB no se pueden exportar/importar con Excel.

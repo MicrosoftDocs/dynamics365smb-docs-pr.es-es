@@ -2,7 +2,6 @@
 title: Configurar procesos financieros
 description: Obtenga información sobre las tareas requeridas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d2763e42ae6c31a4f631457ea16b6a5bdcad40db
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7c6f7574a227d2901c8989db50d6f4c75528429f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6327018"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147601"
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
 Antes de que pueda comenzar a administrar su negocio, debe especificar reglas y valores predeterminados sobre cómo desea administrar los procesos financieros para esa empresa. En primer lugar, deberá configurar el elemento básico de los registros de contabilidad de la empresa - el plan de cuentas. A continuación, deberá configurar los grupos contables, que permiten que la asignación de cuentas contables predeterminadas a los clientes, proveedores y productos sea más eficaz.

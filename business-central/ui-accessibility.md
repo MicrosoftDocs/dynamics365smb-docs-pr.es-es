@@ -2,20 +2,20 @@
 title: Características de asistencia.
 description: Este artículo proporciona información sobre los métodos abreviados de teclado y otras funciones de asistencia en Business Central para personas con discapacidad.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: jswymer
-ms.openlocfilehash: 80e48acc1ded96c9958c1dd7a2a706e22dc3e82b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6389387e2b2e9dcaa2d709e7e376f38a3dd8e1a9
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319961"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334570"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accesibilidad y métodos abreviados de teclado
 

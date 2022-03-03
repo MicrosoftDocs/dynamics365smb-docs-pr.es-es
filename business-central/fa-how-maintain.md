@@ -2,7 +2,6 @@
 title: Mantener activos fijos
 description: Usted mantiene un registro de mantenimiento de cualquier reparación y servicio en un activo fijo para preservar el valor de ese activo fijo.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: d0c2a5a4ed0241a16c0cb0fc91ad5c9ca2592d2a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: bc98fa2bc07320a4989ceca36a09a4cad3cd82ce
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029567"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147939"
 ---
 # <a name="maintain-fixed-assets"></a>Mantener activos fijos
 Los gastos de mantenimiento son costes periódicos habituales necesarios para mantener el valor de los activos fijos. A diferencia de los incrementos de capital, estos no aumentan de valor.

@@ -2,19 +2,18 @@
 title: Versiones de prueba y suscripciones
 description: Obtenga información sobre cómo obtener una versión de prueba de Business Central, cómo trabajar con entornos aislados y cómo registrarse para obtener una suscripción.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 09/29/2021
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011551"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335531"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -38,7 +37,7 @@ Si decide no usar [!INCLUDE [prod_short](includes/prod_short.md)], puede dejar q
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Agregue sus propios datos a una empresa de prueba vacía
 
-Si desea probar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. La **guía de configuración asistida** Configurar mi empresa puede ayudarlo a especificar información básica sobre su negocio. De manera opcional, puede importar datos de su solución de gestión empresarial existente para poder evaluar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos. Sin embargo, le recomendamos que no utilice una versión de prueba gratuita para administrar su negocio. Contacte con [un socio distribuidor](/dynamics365/business-central/across-faq#findpartner) para obtener más información sobre cómo empezar a utilizar [!INCLUDE[prod_short](includes/prod_short.md)].  
+Si desea probar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. La **guía de configuración asistida** Configurar mi empresa puede ayudarlo a especificar información básica sobre su negocio. De manera opcional, puede importar datos de su solución de gestión empresarial existente para poder evaluar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos. Sin embargo, le recomendamos que no utilice una versión de prueba gratuita para administrar su negocio. Contacte con [un socio distribuidor](/dynamics365/business-central/across-faq#findpartner) para obtener más información sobre cómo empezar a utilizar [!INCLUDE[prod_short](includes/prod_short.md)]. El socio también puede ayudarlo a migrar sus datos a [!INCLUDE [prod_short](includes/prod_short.md)] en línea.  
 
 Si 30 días no son suficientes para decidirse, puede ampliar la prueba. Para obtener más información, vea [¿Necesita más tiempo para decidir si suscribirse?](admin-extend-trial.md)  
 
@@ -105,6 +104,7 @@ El administrador de su [!INCLUDE[prod_short](includes/prod_short.md)] y su socio
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Preguntas más frecuentes](across-faq.yml)  
 [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
+[Migrar datos](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Elegir el entorno aislado de desarrollo de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Ampliación de versiones de prueba (como administrador)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

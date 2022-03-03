@@ -4,7 +4,6 @@ description: Aprenda a ingresar el código de identificación de cuenta bancaria
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 3f2349e458d139fc7677f00c6d9fbeb53f9c01fe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dc3929947977572b225cf55c069635907c978855
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441821"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141785"
 ---
 # <a name="enter-ccc-codes-in-the-spanish-version"></a>Ingrese códigos CCC en la versión en español
 El Código Cuenta Cliente (CCC) es un código de identificación de cuentas bancarias único. Los siguientes campos de componentes componen la estructura de código CCC de 20 dígitos (España) o 21 dígitos (Portugal).  

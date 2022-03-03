@@ -2,20 +2,20 @@
 title: Marcador a una página o informe en Área de trabajo
 description: Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446027"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334933"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Marque una página o informe en su Área de trabajo
 Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo. Los marcadores le permiten alcanzar rápidamente su contenido favorito o tareas comerciales. Agrega el marcador desde la página o informe de destino, lo que significa la pantalla que quiera vincular en el Área de trabajo para abrir.

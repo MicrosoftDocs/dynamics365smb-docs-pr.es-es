@@ -2,7 +2,6 @@
 title: Cómo exportar pagos electrónicos [ES]
 description: En Business Central, puede utilizar las páginas siguientes para exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 91d1479c0babd90fe6657daa2f9a92fd39deb6b4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: af8ee9e16116142522b09c7dcd3237b68376aa0d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446150"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129310"
 ---
 # <a name="export-electronic-payments-in-the-spanish-version"></a>Exportar pagos electrónicos en la versión en español
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  

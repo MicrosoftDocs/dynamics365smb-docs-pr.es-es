@@ -2,21 +2,21 @@
 title: Información inteligente y migración a la nube
 description: En Business Central Online, tiene acceso a otros servicios en línea y puede obtener información inteligente basada en Azure AI, por ejemplo. Siga leyendo si está pensando en migrar de un entorno local a la nube.
 author: bmeier94
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
+ms.search.form: 9018, 9020, 9022, 9027
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 35457b6723ed514fb09d379c55062995d423c24d
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442615"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335151"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>Información inteligente en [!INCLUDE[prod_short](includes/prod_short.md)] Online
 

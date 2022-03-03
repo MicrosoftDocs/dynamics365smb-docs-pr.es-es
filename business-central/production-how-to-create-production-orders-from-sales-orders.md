@@ -2,7 +2,6 @@
 title: Crear órdenes de producción desde pedidos de venta
 description: Conozca las diferentes formas de crear órdenes de producción para productos producidos directamente a partir de órdenes de venta.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000883, 99000884
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 493d47e13d9ad1d7a2424dec4cd3691e92068d73
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 3080556ad69882c533bec3768787784bfdac5c4f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973367"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145529"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Crear órdenes de producción desde pedidos de venta
 Puede crear órdenes de producción para artículos producidos directamente desde los pedidos de venta.  

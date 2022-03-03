@@ -1,22 +1,20 @@
 ---
-title: Revisar un informe de prueba antes de registrar un documento de venta o de compra | Documentos de Microsoft
+title: Ver un informe de prueba antes de registrar un documento de venta o de compra
 description: Antes de registrar un documento, por ejemplo, un pedido o un abono, puede probarlo y revisarlo para comprobar si hay errores que puedan bloquear el registro.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1f7154c438437aacb3788c91ad9c17bba8673477
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445430"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335349"
 ---
 # <a name="view-test-reports-before-posting"></a>Ver informes de prueba antes de realizar el registro
 Cuando esté listo para registrar un documento, como un pedido, una factura o un abono, puede probar el documento para asegurarse de que no hay problemas que vayan a bloquear el registro.

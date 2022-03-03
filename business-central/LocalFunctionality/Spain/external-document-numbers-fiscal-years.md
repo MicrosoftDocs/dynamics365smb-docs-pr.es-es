@@ -2,18 +2,17 @@
 title: Números de documento externo y ejercicios (ES)
 description: Opción de configuración para decidir si debería ser posible reutilizar números de documento externo en los ejercicios en la versión en español de Business Central.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: e51d22426e71d7a9be542b64742c867dcef4d3d1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 633bab60f75198949e33087cc95b21f47c7d0dc4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437521"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138123"
 ---
 # <a name="using-the-same-external-document-numbers-across-fiscal-years"></a>Uso de los mismos números de documento externo en todos los ejercicios
 

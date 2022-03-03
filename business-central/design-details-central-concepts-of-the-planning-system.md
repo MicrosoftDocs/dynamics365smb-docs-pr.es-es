@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Conceptos centrales del sistema de planificación'
 description: Las funciones de planificación sugieren posibles acciones para que el usuario las realice en función de la situación de demanda/oferta y los parámetros de planificación de los productos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
-ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
+ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "7949099"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148673"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 

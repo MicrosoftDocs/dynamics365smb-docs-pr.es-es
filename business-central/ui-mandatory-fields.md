@@ -1,22 +1,20 @@
 ---
-title: Campos obligatorios para completar procesos | Documentos de Microsoft
+title: Campos obligatorios para completar procesos
 description: Obtenga información sobre los campos marcados con un asterisco rojo, que indica que son obligatorios y que deben rellenarse para completar procesos.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 386025d90301f780f8bf5927de495658a100825f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2694b4489878d7d953d4075eaa5cc740b817d727
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775280"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335220"
 ---
 # <a name="detecting-mandatory-fields"></a>Detección de campos obligatorios
 Cuando se introducen datos en páginas de [!INCLUDE[prod_short](includes/prod_short.md)], determinados campos aparecen marcados con un asterisco de color rojo. El asterisco rojo significa que el campo debe rellenarse para completar un determinado proceso que lo utilice, como registrar una transacción que utilice su valor.
