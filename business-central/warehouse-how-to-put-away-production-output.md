@@ -2,7 +2,6 @@
 title: Ubicar la salida de producción
 description: La forma de ubicar la salida de su producción depende de cómo esté configurado el almacén. La ubicación del inventario se puede realizar de las siguientes formas.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e93c4d5abd6b6c3136e95838d10895a8fb1b2b90
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438137"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134551"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ubicar la salida de producción o la salida de ensamblado
 

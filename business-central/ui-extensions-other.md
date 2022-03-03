@@ -2,7 +2,6 @@
 title: Extensiones de Business Central de otros proveedores
 description: Este tema enumera las aplicaciones y las extensiones para personalizar Business Central finanzas proporcionados por otras empresas.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eebbb68048501c9e68c36a0d5f5eaae19a3272d8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9cfdcf37464a032b6d999d525e67eecadb961ca4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322907"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129947"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Extensiones de Business Central de otros proveedores
 

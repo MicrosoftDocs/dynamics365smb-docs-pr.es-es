@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Diseño de seguimiento de productos'
 description: En este tema se describe el diseño detrás del seguimiento de productos en Business Central a medida que madura a través de las versiones del producto.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445025"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141338"
 ---
 # <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
 

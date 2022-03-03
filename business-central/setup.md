@@ -2,7 +2,6 @@
 title: Resumen de tareas para configurar Business Central
 description: Lea una descripción general de las tareas para preparar, inicializar y configurar Business Central según sus necesidades.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4140ff83d14be5af9a7c79101d50f99fa82f29fd
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011577"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128641"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]
 

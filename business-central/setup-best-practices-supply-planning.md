@@ -2,7 +2,6 @@
 title: 'Procedimientos recomendados de configuración: planificación de suministros'
 description: Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320036"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132555"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Procedimientos recomendados de configuración: planificación de suministros
 La planificación de suministros es un área comercial crítica. Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.  

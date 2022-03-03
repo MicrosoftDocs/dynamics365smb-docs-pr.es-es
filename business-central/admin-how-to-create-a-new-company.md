@@ -2,7 +2,6 @@
 title: Como crear una empresa nueva | Documentos de Microsoft
 description: Use tablas y páginas de RapidStart Services para crear una nueva empresa para la que desee realizar una implementación de cliente.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0031a05821346aa061334e0f9ced1079fef2978b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439640"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130776"
 ---
 # <a name="create-a-new-company"></a>Cree una nueva empresa
 Para usar RapidStart Services para [!INCLUDE[prod_short](includes/prod_short.md)], primero debe crear una nueva empresa para la que desee realizar una implementación de cliente. Al crear una empresa nueva, se crean las tablas y páginas estándar de [!INCLUDE[prod_short](includes/prod_short.md)], pero no existen datos en ellas.

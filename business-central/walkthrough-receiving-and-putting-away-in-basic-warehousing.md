@@ -2,7 +2,6 @@
 title: 'Tutorial: recepción y ubicación en la configuración del almacenamiento básico'
 description: En Business Central, los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras, en función del nivel de complejidad del almacén.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cca66a1e693e63b1d83b6d37d3f8c2957b3edf46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439315"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144520"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
 

@@ -2,7 +2,6 @@
 title: Configurar usuarios de aprobación
 description: Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, tienes que configurar los usuarios del flujo de trabajo implicados en los procesos de aprobación con configuración de usuario de aprobación.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 44b3eea21fdf26433fec70588859f710235e7dc5
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012606"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129212"
 ---
 # <a name="set-up-approval-users"></a>Configurar usuarios de aprobación
 

@@ -2,7 +2,6 @@
 title: Ampliar su versión de prueba de Business Central
 description: Si necesita más tiempo para decidir si desea suscribirse en Dynamics 365 Business Central, puede ampliar su versión de prueba una vez. Conozca sus opciones.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184279"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129113"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>¿Necesita más tiempo para decidir si suscribirse?
 
@@ -29,7 +28,7 @@ Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No e
 
     Inicie sesión con la cuenta de correo electrónico que utilizó cuando se inscribió en la versión de prueba.  
 
-    Si se registró con una cuenta de correo electrónico de una [versión de prueba de 30 días de Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), primero debe ampliar la prueba de Microsoft 365 o comprar una suscripción a Microsoft 365. Para más información, consulte [Ampliar la prueba de Microsoft 365 para empresas](/microsoft-365/commerce/extend-your-trial).
+    Si se registró con una cuenta de correo electrónico de una [versión de prueba de 30 días de Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), primero debe ampliar la prueba de Microsoft 365 o comprar una suscripción a Microsoft 365. Para más información, vea [Ampliar la prueba de Microsoft 365 para empresas](/microsoft-365/commerce/extend-your-trial).
 2. En la notificación de la parte superior del área de trabajo, elija **Ampliar prueba**.
 
     Si ha cerrado la notificación, debe cerrar la sesión y volver a iniciarla.

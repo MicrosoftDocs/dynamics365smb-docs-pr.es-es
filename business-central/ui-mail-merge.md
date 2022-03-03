@@ -2,7 +2,6 @@
 title: Uso de plantillas de Word para comunicaciones masivas | Microsoft Docs
 description: Las plantillas de Word pueden facilitar la creación masiva de documentos personalizados para entidades específicas.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c624d718d27de607aed49a82a506f81eec57247c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 9e87e86ea4f267bea0e636f16fab55ae485ee8cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588912"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145321"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Uso de plantillas de Word para comunicaciones masivas
 Las plantillas de Microsoft Word pueden facilitar la comunicación masiva por escrito o por correo con entidades como contactos, clientes y proveedores. Por ejemplo, puede crear folletos para alertar a los clientes sobre una campaña de ventas, cartas para informar a los proveedores sobre una nueva directiva de compras o invitaciones para atraer contactos a un próximo evento.

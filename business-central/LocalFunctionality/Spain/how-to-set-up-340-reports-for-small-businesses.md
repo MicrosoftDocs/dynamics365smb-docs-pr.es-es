@@ -2,7 +2,6 @@
 title: Configurar informes 340 para las empresas pequeñas [ES]
 description: Configure su negocio para informar en efectivo con los Criterios de contabilidad de efectivo (CAC) utilizando los informes 340 para pequeñas empresas.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 10737, 10738, 10744
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 53bb7123e52f2db9a7aa37cf36cf1f070aff7df4
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 8d4b6c3258879b5894cd7ad970017704375e5adc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947213"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136658"
 ---
 # <a name="set-up-340-reports-for-small-businesses-in-the-spanish-version"></a>Configurar informes 340 para pequeñas empresas en la versión en español
 Utilice el siguiente procedimiento para configurar su negocio para que informe en efectivo, es decir, Criterios de contabilidad de efectivo (CAC). Si aún no lo ha hecho, puede configurar grupos de contabilización para la contabilización del IVA en efectivo para compras y ventas.  

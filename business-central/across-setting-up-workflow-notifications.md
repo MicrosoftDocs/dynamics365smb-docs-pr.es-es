@@ -2,18 +2,17 @@
 title: Configurar notificaciones de flujo de trabajo
 description: Este tema le explica cómo configurar notificaciones de flujo de trabajo para alertar a un usuario de que ha ocurrido un evento al que debe reaccionar; se requiere una respuesta de flujo de trabajo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: f0db9d63257d37fe6be5d31fc58541caf968907a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: a41dcc291fb46173533f6552b6c64de35d28bc01
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482437"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134023"
 ---
 # <a name="workflow-notifications"></a>Notificaciones de flujo de trabajo
 

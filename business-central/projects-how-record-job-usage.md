@@ -2,7 +2,6 @@
 title: Registrar el consumo o uso de recursos y artículos de proyectos
 description: Describe cómo registrar el consumo o el uso de productos o recursos en proyectos para facilitar la administración de proyectos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d070c74ce6e49ea4bda563786b0b0bbe11f420b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 01af14b826f2974cf9e4d3b5b351a46dd973665d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973159"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131297"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrar el consumo o uso para proyectos
 

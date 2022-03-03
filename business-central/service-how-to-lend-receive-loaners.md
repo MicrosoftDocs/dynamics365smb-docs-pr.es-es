@@ -2,7 +2,6 @@
 title: Cómo prestar productos de servicio como sustitución | Documentos de Microsoft
 description: Puede ofrecer a los clientes productos de préstamo para reemplazar temporalmente productos de servicio recibidos para servicio.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e45777c8de2dec6a4a968ba8062843f4c92ffa2c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ddf4dd090246bd1b102a3f812db7955f48ad0afb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441890"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132581"
 ---
 # <a name="lend-and-receive-loaners"></a>Prestar y recibir productos prestados
 Puede prestar productos a los clientes para reemplazar temporalmente productos de servicio recibidos para servicio.  

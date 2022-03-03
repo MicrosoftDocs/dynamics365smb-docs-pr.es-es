@@ -2,7 +2,6 @@
 title: Asignar y gestionar tareas
 description: Aprenda a asignar tareas a los usuarios, incluido su contador, en Business Central, y cómo seleccionar y completar las tareas.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: tasks, work
 ms.search.form: 1164, 1170, 1171, 1172, 1175, 1176, 1177
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d32cb2f3e9c4e819550958df8b9e132530bb3f5
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6d57897d8e1aae9edbfec372844a73a6e388afde
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012268"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133205"
 ---
 # <a name="define-user-tasks"></a>Definir tareas de usuario
 

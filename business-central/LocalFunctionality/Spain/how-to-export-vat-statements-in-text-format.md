@@ -4,7 +4,6 @@ description: Puede exportar una declaración de IVA en formato de texto y despu�
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 975af7edaeebf165c93b034fc2a874c11ab2f7a9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 557a276dc7fd679855a627d260c933746cdc16a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446146"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145057"
 ---
 # <a name="export-vat-statements-in-text-format"></a>Exportar declaraciones de IVA en formato de texto
 Puede exportar una declaración de IVA en formato de texto y después enviarla electrónicamente a las autoridades fiscales.  

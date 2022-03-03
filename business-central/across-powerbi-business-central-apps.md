@@ -2,7 +2,6 @@
 title: Uso de aplicaciones de Business Central en Power BI | Documentos de Microsoft
 description: Obtener información, inteligencia empresarial y KPI de los datos de Business Central resulta muy sencillo con las aplicaciones de Business Central para Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440879"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134153"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Uso de aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
 

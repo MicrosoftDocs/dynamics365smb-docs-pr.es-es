@@ -2,7 +2,6 @@
 title: Exportar e importar flujos de trabajo | Documentos de Microsoft
 description: Para transferir flujos de trabajo a otras bases de datos de Business Central, por ejemplo, para ahorrar tiempo al crear nuevos flujos de trabajo, puede exportar e importar flujos de trabajo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc49fd08099823a3ab1adc02a006820fb4898e90
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 70a39d8d80ff5ca36953bea3923e4adbcbbca0d3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438337"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136535"
 ---
 # <a name="export-and-import-workflows"></a>Importar y exportar flujos de trabajo
 Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo, para ahorrar tiempo al crear nuevos flujos de trabajo, puede exportar e importar flujos de trabajo.  

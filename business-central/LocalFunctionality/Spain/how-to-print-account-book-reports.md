@@ -4,7 +4,6 @@ description: Aprenda a imprimir el informe Libro diario oficial y el informe del
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 5b9be28ed87c847e8730b37648d1bc8a3e4a83ad
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ac809cbc19b1a27f626373e9d6e4e0d38fe3b41e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445756"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136664"
 ---
 # <a name="print-account-book-reports-in-the-spanish-version"></a>Imprimir informes de libro diario en la versión en español
 Los informes de libro diario muestran todos los movimientos de contabilidad creados en un periodo específico. Los dos informes de libro diario son:  

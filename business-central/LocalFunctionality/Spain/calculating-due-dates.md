@@ -2,7 +2,6 @@
 title: Cálculo de fechas de vencimiento [ES]
 description: Leer información sobre cómo presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7000048
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: f28a39be0a7fb910e8fb24b21e3a90d314130bbd
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: bbe8dc39e4d1bc9b4a0e0eb1fd62bd4b31c1a954
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947145"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132213"
 ---
 # <a name="calculating-due-dates-in-the-spanish-version"></a>Cálculo de fechas de vencimiento en la versión en español
 En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento. Los requisitos legales dependen de si el cliente es una empresa privada o una gestión pública. Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.  

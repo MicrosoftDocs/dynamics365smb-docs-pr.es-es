@@ -2,7 +2,6 @@
 title: Obtener el complemento Business Central para Excel
 description: Obtenga información sobre cómo obtener para los usuarios el complemento Business Central para Excel.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865497"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141416"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtener el complemento Business Central para Excel
 
@@ -71,7 +70,7 @@ Usted trabajará en [!INCLUDE[prod_short](includes/prod_short.md)] y el Centro d
 
 1. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Implementación centralizada complementos Excel**, luego elija el enlace relacionado.
 2. Lea la información en la página **Configuración de complementos de Excel de Business Central** y elija **Siguiente**.
-3. Inicie sesión en [Centro de administración de Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967) y vaya a **Aplicaciones integradas**<!--**Add-ins**-->.
+3. Inicie sesión en [Centro de administración de Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967), y luego vaya a **Aplicaciones integradas**<!--**Add-ins**-->.
 
     Complete los siguientes pasos para configurar el complemento para implementar desde la Tienda Office: 
     1. Elija **Obtener aplicaciones** para abrir Office Store (AppSource). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->

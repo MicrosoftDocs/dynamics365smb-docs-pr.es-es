@@ -2,7 +2,6 @@
 title: Cálculo de la fecha de compras
 description: La aplicación calcula automáticamente la fecha en la que se debe solicitar un producto para tenerlo en el inventario en una fecha determinada.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6758c631fcddf157894ed06a483b811342a44e0d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 5c9a0c61b2f02e3f3750c3d8c23153df2634299d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321044"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132711"
 ---
 # <a name="date-calculation-for-purchases"></a>Cálculo de la fecha de compras
 

@@ -2,7 +2,6 @@
 title: Configurar recursos, hojas de horas y proyectos
 description: Este tema describe cómo configurar recursos, hojas de horas y proyectos para administrar proyectos y sus presupuestos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: projects
 ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 099698611820f791d36c659f983316dee03d9c9a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973763"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146233"
 ---
 # <a name="setting-up-project-management"></a>Configurar la administración de proyectos
 

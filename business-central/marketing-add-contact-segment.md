@@ -4,7 +4,6 @@ description: Después de haber creado un segmento, puede agregar contactos al se
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4095cfd39ad37037f7fad2a5bded7c5c71241f6a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438882"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135216"
 ---
 # <a name="add-contacts-to-segments"></a>Añadir contactos a segmentos
 Después de crear un segmento y especificar su información básica, puede que quiera añadir contactos al segmento. Puede hacerlo si rellena manualmente las líneas de la página **Segmento**, pero es más sencillo y rápido usar la acción **Agregar contactos**.

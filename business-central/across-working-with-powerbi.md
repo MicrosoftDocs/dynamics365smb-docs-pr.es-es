@@ -2,7 +2,6 @@
 title: Trabajar con informes de Power BI en Business Central | Documentos de Microsoft
 description: Obtener información, inteligencia empresarial y KPI de los datos de Business Central con Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588331"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147169"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 

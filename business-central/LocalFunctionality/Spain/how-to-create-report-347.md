@@ -2,17 +2,16 @@
 title: Creación del informe 347 [ES]
 description: Obtenga información sobre cómo presentar una declaración Informe 347 a la administración fiscal que proporcione las transacciones de ventas y compras del periodo fiscal anterior.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: ad618e844757614dfc83a1de0c875f2c650667c8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5082e73be7d73dfc0b6eac58d94d4dba14e14479
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439221"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138119"
 ---
 # <a name="create-report-347-in-the-spanish-version"></a>Crear informe 347 en la versión en español
 Todas las empresas deben presentar una declaración anual, el **Informe 347**, a la administración fiscal que proporcione las transacciones de ventas y compras del periodo fiscal anterior.  

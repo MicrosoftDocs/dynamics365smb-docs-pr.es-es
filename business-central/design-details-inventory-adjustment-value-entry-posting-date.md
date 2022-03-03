@@ -2,7 +2,6 @@
 title: Fecha registro en movimientos de valores
 description: Aprender cómo el proceso Valorar stock - movs. producto identifica y asigna una fecha de registro a los movimientos de valor que creará.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 49b840f91ca4177e046b986acbeb38b0ce3d4abb
-ms.sourcegitcommit: 772af6954539c65743d1a2f59e8a37d30bd30278
+ms.openlocfilehash: d48c27f06463f37ad5ca657bada33a4d165799ea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557220"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133919"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
 

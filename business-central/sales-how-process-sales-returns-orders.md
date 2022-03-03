@@ -2,7 +2,6 @@
 title: Procesar devoluciones ventas
 description: Describe cómo crear un pedido de devolución de venta para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 9302
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5461790c834a8809dc2f51dbd4f745da223b5c0c
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 8a82b9116984f8b824375238fd1e6e4eb73930a3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752271"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137060"
 ---
 # <a name="process-sales-return-orders"></a>Procesar devoluciones ventas  
 

@@ -2,7 +2,6 @@
 title: Corregir prepagos
 description: Puede realizar una corrección en un pedido después de haber registrado una factura de prepago para el pedido y agregar nuevas líneas a un pedido después de emitir un prepago.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ceaebd28d083c1dbebe69a5a02abff0952bf3311
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 47ff4066e41cc225f7d02556b5e30f9f6d9eaa5d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972898"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138549"
 ---
 # <a name="correct-prepayments"></a>Corregir prepagos
 

@@ -2,17 +2,16 @@
 title: Novedades y planificación de la versión predeterminada
 description: Obtenga información sobre dónde encontrar las últimas noticias y actualizaciones de características nuevas y existentes para la versión predeterminada de Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7e17ae2b89322f1e07adb42b922193a569b610d4
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: ef648fcd29b15494e78c4b6482edf0996c22b670
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724867"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135833"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Novedades y planificación de Dynamics 365 Business Central
 

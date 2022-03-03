@@ -2,7 +2,6 @@
 title: Cómo crear productos de servicio
 description: Lea acerca de las diferentes formas en que puede crear productos de servicio en Business Central, por ejemplo, en una orden de servicio o al enviar artículos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8803883e69678ee636c26b66bd34d38cfabe0042
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 74af60caaf286b9993402228b050e3717fb847a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441965"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136910"
 ---
 # <a name="create-service-items"></a>Crear productos de servicio
 En [!INCLUDE[prod_short](includes/prod_short.md)], el término “producto de servicio” se refiere el equipo o productos que requieren servicio. Al crear un pedido de servicio, se especifican los productos que necesitan servicio. En el pedido, puede vincular un producto de servicio a un producto en existencias o un grupo de productos de servicio.    

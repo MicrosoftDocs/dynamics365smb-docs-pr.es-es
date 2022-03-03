@@ -2,7 +2,6 @@
 title: Editar documentos de venta y compra registrados
 description: Este tema explica cómo actualizar la información en un documento registrado como envío de ventas o factura de compra cuando la información relevante ha cambiado.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: Posted document, editable, posted sales shipment, posted pur
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 30421c6fb3b3badf4116bc17badeb2a2a405257b
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 09b6180606ba92c6f5fbaeeb5aca6a0ce7c70a7f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012160"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136561"
 ---
 # <a name="edit-posted-documents"></a>Editar documentos registrados
 

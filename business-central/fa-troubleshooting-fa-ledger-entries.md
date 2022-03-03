@@ -3,7 +3,6 @@ title: La solución de problemas de la extensión de Movs. Activos
 description: Es más fácil trabajar con números enteros. Utilice esta extensión para redondear importes de activos fijos en el libro mayor de FA.
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 39bfc61cf928b6556a3c54625c8b6f9221553c93
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865585"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142320"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>La solución de problemas de la extensión de Movs. Activos
 Utilice la extensión Solución de problemas de Movs. Activos para redondear los montos de depreciación y adquisición en los asientos contables de activos fijos a números enteros. Por ejemplo, para redondear una cantidad de 30 000,44 a 30 000. Las causas típicas de los problemas de redondeo son la migración de datos, el comienzo repentino de registrar cantidades en el libro mayor o las personalizaciones que ha realizado en su [!INCLUDE[prod_short](includes/prod_short.md)].

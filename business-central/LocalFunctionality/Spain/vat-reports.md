@@ -4,7 +4,6 @@ description: El IVA se aplica a las transacciones que involucran bienes y servic
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: a7fe12c48f967df22539ebb00a9dc840c76741c1
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 1475e60a415170bc909143885a53caf3451d0db8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323447"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136628"
 ---
 # <a name="vat-reports-in-the-spanish-version"></a>Informes de IVA en la versión en español
 El IVA se aplica a las transacciones que involucran bienes y servicios en España o bienes importados a España. La siguiente información proporciona más detalles sobre la funcionalidad de IVA.  

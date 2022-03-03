@@ -2,7 +2,6 @@
 title: Uso de Invoicing y Business Central | Documentos de Microsoft
 description: Solución para tener acceso a Microsoft Invoicing cuando se ha registrado en Dynamics 365 Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,14 +9,14 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439152"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134413"
 ---
-# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Uso de la misma cuenta de Microsoft 365 en [!INCLUDE[prod_short](includes/prod_long.md)] y Microsoft Invoicing
+# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Con la misma cuenta de Microsoft 365 en [!INCLUDE[prod_short](includes/prod_long.md)] y Microsoft Invoicing
 Cuando se registra en una prueba en [!INCLUDE[prod_short](includes/prod_short.md)], puede cambiar a una fase de evaluación de 30 días, puede empezar una suscripción o bien puede dejar de usar [!INCLUDE[prod_short](includes/prod_short.md)]. En todos los casos, es posible que en algún momento haya visto algo denominado **Microsoft Invoicing** y haya hecho clic en él. Esta era una aplicación que formaba parte de lo que ahora es Microsoft 365 Business Standard y anteriormente se conocía como la suscripción de Microsoft 365 Business Premium, por lo que no todos habrán visto ese icono en su experiencia de Microsoft 365.  
 
 Microsoft Invoicing ya no está disponible, pero si necesita iniciar sesión en la facturación para recuperar sus datos, es posible que vea un mensaje que indica que no puede obtener acceso a la Microsoft Invoicing porque su cuenta se utiliza en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -25,7 +24,7 @@ Microsoft Invoicing ya no está disponible, pero si necesita iniciar sesión en 
 Se muestra un mensaje similar si instala la aplicación móvil de Invoicing.  
 
 ## <a name="workaround"></a>Solución
-Invoicing y [!INCLUDE[prod_short](includes/prod_short.md)] tienen una plataforma compartida. Esto significa que se le reconoce como un usuario existente de [!INCLUDE[prod_short](includes/prod_short.md)] al hacer clic en Invoicing en el Centro de administración de Microsoft 365. La razón es que Invoicing no puede utilizar la misma empresa que [!INCLUDE[prod_short](includes/prod_short.md)].  
+Invoicing y [!INCLUDE[prod_short](includes/prod_short.md)] tienen una plataforma compartida. Esto significa que se le reconoce como un usuario existente de [!INCLUDE[prod_short](includes/prod_short.md)] al hacer clic en facturación en el centro de administración de Microsoft 365. La razón es que Invoicing no puede utilizar la misma empresa que [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Por lo tanto, tendrá que iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] y cambiar el nombre de su empresa existente, y después crear una empresa nueva que pueda utilizarse en Invoicing. No se mueven ni sobrescriben datos durante esta solución.
 
@@ -41,7 +40,7 @@ Por lo tanto, tendrá que iniciar sesión en [!INCLUDE[prod_short](includes/prod
 7.  Cuando el sistema está preparado de nuevo, elija el botón **Crear nueva empresa**.  
 8.  En el cuadro de diálogo que aparece, especifique el nombre como *Mi empresa* y elija la opción **Producción - Solo datos de configuración**.  
 
-Esto tarda de nuevo varios minutos. Cuando se complete el proceso, podrá obtener acceso a Invoicing como parte de su experiencia de Microsoft 365 Business Standard. Pero solo para exportar datos ya que la aplicación Invoicing está en desuso.  
+Esto tarda de nuevo varios minutos. Cuando se complete el proceso, podrá obtener acceso a Invoicing como parte de la experiencia de Microsoft 365 Business Standard. Pero solo para exportar datos ya que la aplicación Invoicing está en desuso.  
 
 ### <a name="what-about-my-data"></a>¿Qué sucede con mis datos?
 Al cambiar el nombre Mi empresa original, se cambia el nombre de las tablas de base de datos que almacenan los datos de [!INCLUDE[prod_short](includes/prod_short.md)] existentes, pero no se modifican los datos.  

@@ -1,15 +1,14 @@
 ---
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e5d6b2320e19eaaf8f2409ed0419da1e701b5174
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 6e3a37322f10dd58581322bf057590edc853830f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724496"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135598"
 ---
 1. Elija el icono ![Bombilla que abre la función Dígame 11.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
 2. En la página **Clientes**, seleccione la acción **Nuevo**.

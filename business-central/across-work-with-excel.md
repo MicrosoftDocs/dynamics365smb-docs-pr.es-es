@@ -2,7 +2,6 @@
 title: Ver y editar en Excel desde Business Central (contiene vídeo)
 description: Obtenga más información sobre cómo puede abrir las páginas en Microsoft Excel desde Business Central para un mejor análisis de datos.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7800eb9d9852e8cc13eed26ce3e42fa318f7e185
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: d27ad94c21325808d92b8f71e97a5bb8a484ded5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940256"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142606"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Ver y editar en Excel desde Business Central
 

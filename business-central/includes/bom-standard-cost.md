@@ -1,14 +1,13 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2925fe74fd10cb991cb523c972cefa22109f8a64
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e8f6414d0fa1676622486a10a9366270cfadffe1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782018"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130233"
 ---
 Para calcular el coste unitario de una L.M. de ensamblado o producción, el producto principal y sus componentes deben usar el método de valoración de existencias *Estándar*. Cualquier recurso de la L.M. se distribuye si tiene un coste unitario que está definido en la ficha de recurso.

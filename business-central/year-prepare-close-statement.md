@@ -2,7 +2,6 @@
 title: Resumen de informes para preparar los extractos de cierre | Documentos de Microsoft
 description: Proporciona un resumen de los informes que puede utilizar para recopilar la información necesaria para preparar los extractos de cierre de su empresa cuando cierre el ejercicio.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: c1ba1ecc8716586e661b8553f12319a87b4cb85c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: e9eb5243541cdd365aa6a92b1278f38da531ed54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011524"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141826"
 ---
 # <a name="preparing-closing-statements"></a>Preparación de extractos de cierre
 Existen numerosos informes estándar que puede utilizar para recopilar la información necesaria para preparar las declaraciones de cierre de su empresa.

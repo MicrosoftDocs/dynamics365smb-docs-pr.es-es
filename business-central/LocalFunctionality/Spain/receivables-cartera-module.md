@@ -4,7 +4,6 @@ description: El módulo Docs. cartera a cobrar permite administrar las facturas 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 8b539fb8f412e23137654c458cf07afea9722ac2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: a9dc9cc07abb2df528ec88e6db33ebd23f2b04cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319326"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136638"
 ---
 # <a name="receivables-cartera-module-in-the-spanish-version"></a>Módulo Docs. cartera a cobrar en la versión en español
 El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas. Los documentos se pueden administrar por:  

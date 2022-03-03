@@ -2,7 +2,6 @@
 title: 'Detalles de diseño: Equilibrio de aprovisionamiento y demanda'
 description: Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación que consigue equilibrando la oferta con la demanda.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b0ddc9e4a3fbfd4f26633f82f022aa73ba93ada8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442515"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139838"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Detalles de diseño: Equilibrio de aprovisionamiento y demanda
 Para saber cómo funciona el sistema de planificación, es necesario conocer los objetivos con prioridad del sistema de planificación, los más importantes de los cuales son asegurarse de que:  

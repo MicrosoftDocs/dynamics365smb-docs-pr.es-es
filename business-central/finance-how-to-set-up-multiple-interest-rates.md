@@ -2,7 +2,6 @@
 title: Configurar tasas de interés múltiples para pagos atrasados
 description: Este tema explica cómo calcular cargos financieros con tasas de interés múltiples para un período específico.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 6, 431, 432, 572
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6d90f8e042899495bfc8e171d7e69f7e5b4fdb36
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 997a6e587a94d4d4a20db5f01a79ad0fd295df61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971608"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135446"
 ---
 # <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Configurar tasas de interés múltiples para pagos atrasados
 

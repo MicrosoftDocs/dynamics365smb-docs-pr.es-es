@@ -2,7 +2,6 @@
 title: Sobre la funcionalidad de la planificación
 description: El programa de planificación en Dynamics 365 Business Central tiene en cuenta todos los datos del aprovisionamiento y la demanda, cuadra el resultado y genera sugerencias para hacer que el aprovisionamiento satisfaga la demanda.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 89934218c50dde53452b678422c003ea9aa48f9f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 14048cfe4d18df0002f51dacac658a6c07bc0155
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972439"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135112"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 

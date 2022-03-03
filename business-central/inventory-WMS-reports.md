@@ -2,17 +2,16 @@
 title: Informes y análisis de inventario y almacén
 description: Consulte qué informes y análisis de inventario y almacén están disponibles en la versión estándar de Business Central para que pueda realizar un seguimiento de su negocio.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: aaad1aad5557e6e138d2101acdf01a11b02fa0ab
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 4c2329313d8678ed33527dd7b4917e839dd87dac
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102375"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131722"
 ---
 # <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>Informes y análisis de inventario y almacén en Business Central
 

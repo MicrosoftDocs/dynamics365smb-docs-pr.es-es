@@ -2,7 +2,6 @@
 title: Obtener Business Central en el dispositivo móvil (contiene vídeo)
 description: Este tema describe las diversas formas en que puede ver y editar los datos de Business Central, enviarlos a Excel y más en su teléfono o tableta.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,16 +9,16 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940081"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138471"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtener Business Central en el dispositivo móvil
 
-Acceda a los datos de [!INCLUDE[prod_short](includes/prod_short.md)] desde su dispositivo móvil. Puede navegar a través de sus datos empresariales, usar funciones como enviarlos a Excel o Microsoft 365, ver gráficos y KPI actualizados, enviar por correo electrónico facturas y ofertas de ventas y tomar y adjuntar fotos con su cámara. Siga los pasos siguientes para descargar la aplicación y empezar.
+Acceda a los datos de [!INCLUDE[prod_short](includes/prod_short.md)] desde su dispositivo móvil. Puede navegar a través de sus datos empresariales, usar funciones como enviar a Excel o Microsoft 365, ver gráficos y KPI actualizados, enviar por correo electrónico facturas y ofertas de ventas y hacer y adjuntar fotos con su cámara. Siga los pasos siguientes para descargar la aplicación y empezar.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 

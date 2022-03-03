@@ -2,7 +2,6 @@
 title: Cambiar la empresa y otras configuraciones en Teams
 description: Obtenga información sobre cómo cambiar la configuración de conexión de Business Central en Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 195d94af6e34206c6107690b0fef499ccc8b2490
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446445"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133231"
 ---
 # <a name="changing-company-and-other-settings-in-teams"></a>Cambiar la empresa y otras configuraciones en Teams
 

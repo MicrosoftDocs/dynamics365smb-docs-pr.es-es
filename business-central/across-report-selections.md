@@ -2,18 +2,17 @@
 title: Selección de informes en Business Central
 description: Obtenga información sobre cómo configurar los informes que utiliza para imprimir varios tipos de documentos en Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e79f1414e73b94ce9bc6bf6e3ae3402e2d29d66
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012477"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134061"
 ---
 # <a name="report-selection-in-business-central"></a>Selección de informes en Business Central
 

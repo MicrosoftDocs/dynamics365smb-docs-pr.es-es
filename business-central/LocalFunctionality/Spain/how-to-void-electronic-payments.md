@@ -2,7 +2,6 @@
 title: Anular pagos electrónicos
 description: En Business Central, puede anular el archivo de pago exportado. Al anular el archivo, se eliminará todo el diario de pagos desde el que se creó el archivo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 43cc3c212f2f2d35b7ebecf980afe1e807a2532b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c914e3226368a5f40eacd3494efba7f7f37a119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437175"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136646"
 ---
 # <a name="void-electronic-payments"></a>Anular pagos electrónicos
 

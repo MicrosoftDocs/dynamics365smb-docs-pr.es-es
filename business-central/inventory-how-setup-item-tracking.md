@@ -2,7 +2,6 @@
 title: Configurar el seguimiento de productos con números de serie, de lote y de paquete
 description: Configurar el seguimiento de productos con números de serie, de lote y de paquete
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: c6bfeeadda01ee82981f40eb49431fc6d40aebbc
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: ae490b4694aaa852962968cb80fef9f770767a57
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482516"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141052"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configurar el seguimiento de productos con números de serie, de lote y de paquete
 

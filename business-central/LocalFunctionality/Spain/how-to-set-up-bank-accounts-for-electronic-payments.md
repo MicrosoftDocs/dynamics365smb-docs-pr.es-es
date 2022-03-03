@@ -2,7 +2,6 @@
 title: Cuentas bancarias para pagos electrónicos [ES]
 description: Aprenda a utilizar Business Central para configurar cuentas bancarias y cuentas bancarias de proveedores para realizar pagos electrónicos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: fe12b95bf8bd0b6d9f68635a9b37c51ff93fe785
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 50d411f59fbd643150cc9ef64a662315a27991dc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445746"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136654"
 ---
 # <a name="set-up-bank-accounts-for-electronic-payments-in-the-spanish-version"></a>Configurar cuentas bancarias para pagos electrónicos en la versión en español
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar cuentas bancarias para realizar pagos electrónicos.  

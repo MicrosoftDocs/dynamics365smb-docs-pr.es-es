@@ -1,20 +1,19 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 09/02/2021
+ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482302"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142502"
 ---
 > [!NOTE]
 > Las siguientes secciones asumen que tiene acceso de administrador para Exchange Online.
 
-Antes de poder configurar el registro de correo electrónico, debe preparar las [carpetas públicas](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true) de Office 365. Puede hacer esto en el [Centro de administración de Exchange](/exchange/exchange-admin-center?preserve-view=true) o puede usar el [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+Antes de poder configurar el registro de correo electrónico, debe preparar las [carpetas públicas](/exchange/collaboration-exo/public-folders/public-folders) de Office 365. Puede hacer esto en el [Centro de administración de Exchange](/exchange/exchange-admin-center?preserve-view=true) o puede usar el [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
 
 > [!TIP]
 > Si quiere usar el [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true), puede encontrar ideas sobre cómo configurar su script en un script de muestra que publicamos para el [repositorio de BCTech](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
@@ -31,7 +30,7 @@ Cree un grupo de funciones de administrador para las carpetas públicas basada e
 |Roles seleccionados  |Carpetas públicas            |
 |Usuarios seleccionados  |El correo electrónico de la cuenta de usuario que Business Central usará para ejecutar el trabajo de registro de correo electrónico|
 
-Para obtener más información, vea [Administrar grupos de roles en Exchange Online](/exchange/permissions-exo/role-groups?preserve-view=true).
+Para obtener más información, vea [Administrar grupos de roles en Exchange Online](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Crear un nuevo buzón de carpeta pública
 
@@ -41,7 +40,7 @@ Cree un buzón nuevo de carpetas públicas basado en la información de la sigui
 |----------------|--------------------------|
 |Name            |Buzón público            |
 
-Para obtener más información, vea [Crear un buzón de carpeta pública](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
+Para obtener más información, vea [Crear un buzón de carpeta pública](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ### <a name="create-new-public-folders"></a>Crear carpetas públicas nuevas
 
@@ -51,7 +50,7 @@ Para obtener más información, vea [Crear un buzón de carpeta pública](/excha
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-Para obtener más información, vea [Crear una carpeta pública](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
+Para obtener más información, vea [Crear una carpeta pública](/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ### <a name="set-public-folder-ownership"></a>Establecer la propiedad de la carpeta pública
 
@@ -61,7 +60,7 @@ Para obtener más información, vea [Asignar permisos a la carpeta pública](/ex
 
 ### <a name="mail-enable-the-queue-public-folder"></a>Habilitar la carpeta pública *Cola* para el correo electrónico
 
-  Para más información, consulte [Habilitar o deshabilitar una carpeta pública para el correo electrónico](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
+  Para más información, consulte [Habilitar o deshabilitar una carpeta pública para el correo electrónico](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Habilitar el envío de correos electrónicos para la carpeta pública *Cola*
 

@@ -4,7 +4,6 @@ description: Descubra cómo la configuración de IVA para clientes y proveedores
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444260"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137918"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Asignar costos a socios entre empresas
 Cuando utiliza contabilizaciones de empresas vinculadas para transferir documentos entre empresas asociadas, las parametrizaciones relacionadas con el IVA (principalmente el grupo de contabilización comercial de IVA) asignadas a las cuentas de cliente o proveedor (asociadas con el socio de empresas vinculadas) controlan si y cómo se calcula y registra el IVA. También puede realizar distribuciones de costos directamente desde una orden de compra a empresas asociadas. Por ejemplo, si registra una factura de compra de un proveedor externo y desea distribuir algunos o todos los costos a uno o más socios de empresas vinculadas.

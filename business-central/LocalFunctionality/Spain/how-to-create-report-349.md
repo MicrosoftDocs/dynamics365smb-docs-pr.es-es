@@ -2,7 +2,6 @@
 title: Crear el informe 349 [ES]
 description: Lea sobre cómo utilizar la versión en español de Business Central para enviar electrónicamente la declaración del Informe 349 a las autoridades fiscales.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 10736
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: c469eed03cf77e5502d6973fc4c7427f8a86b756
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 8aa3588e5776a83300120cbd2a02cc5b84fec115
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947215"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132209"
 ---
 # <a name="create-report-349-in-the-spanish-version"></a>Crear informe 349 en la versión en español
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181).  

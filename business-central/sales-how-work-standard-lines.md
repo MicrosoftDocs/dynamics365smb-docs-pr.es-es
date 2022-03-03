@@ -2,7 +2,6 @@
 title: Líneas de ventas y de compras periódicas estándar
 description: Configure líneas de ventas y líneas de compras que realice con frecuencia para insertarlas en documentos de venta y compra y rellenar rápidamente las líneas con información estándar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6039739825964ce059a4f76d1e92f32b581c60a7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440183"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144754"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Crear líneas de ventas y de compras periódicas
 Si suele necesitar crear líneas de ventas y de compras con información similar, puede configurar líneas estándar que puede insertar en documentos de ventas y compras periódicas, por ejemplo, para órdenes de reposición periódicas.  

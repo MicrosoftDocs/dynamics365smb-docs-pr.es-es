@@ -2,7 +2,6 @@
 title: Crear ubicaciones
 description: Genere grupos de ubicaciones similares en la hoja de trabajo de creación de ubicaciones, cree ubicaciones individualmente en la ficha de ubicación o automáticamente en la Hoja de trabajo de creación de ubicación.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: b76c6aee2e986580d1c131688d87716e08d338f8
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ffd6bd12a1655cc330370df2c9d2c64a2d89e0af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972598"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144390"
 ---
 # <a name="create-bins"></a>Crear ubicaciones
 

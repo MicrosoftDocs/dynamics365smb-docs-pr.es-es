@@ -2,7 +2,6 @@
 title: Informe 340 [ES]
 description: Este tema describe el Informe 340, que contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: ff987583e55acdc1e1c9589b2103649b9c64aabf
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 519029e673bdd5bcc0e14609fd756fb854328a09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341578"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136642"
 ---
 # <a name="report-340-in-the-spanish-version"></a>Informe 340 en la versión en español
 El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.agenciatributaria.es/). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  

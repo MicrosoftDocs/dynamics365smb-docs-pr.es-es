@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 07/14/2021
 ms.author: edupont
-ms.openlocfilehash: 7ae45536f41228ca434116ecc15e69455bc0e412
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 78a4f013ea7afd54fdbca64c8712be58a920cca1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724892"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135781"
 ---
 Para suscribirse a una fuente Really Simple Syndication (RSS) de todas las actualizaciones del contenido de la funcionalidad empresarial en docs.microsoft.com para [!INCLUDE [prod_short](prod_short.md)], utilice el siguiente enlace:
 

@@ -2,7 +2,6 @@
 title: Ver el estado de los trabajos de sincronización (contiene vídeo)
 description: Utilice la página Errores de sincronización de datos emparejados para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en integraciones.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: a9f4f2442e9cb3f8efc46cc7c9fd1f92c002d0dd
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 357e6f92bc960b1fcd58c5be78d28985b389bb2a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115317"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130701"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Ver el estado de los proyectos de sincronización
 

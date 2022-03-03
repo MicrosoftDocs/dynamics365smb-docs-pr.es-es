@@ -2,7 +2,6 @@
 title: Esquemas XML para preparar definiciones de intercambio de datos
 description: Utilice esquemas XML para configurar el marco de intercambio de datos para definir con qué elementos de datos desea intercambiar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 42afc2d2de9d705d90a92166084b492c3a328674
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cbaa75f196f75b79e83becb80006f6b4dc2aa291
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444073"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130953"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Uso de esquemas XML para preparar definiciones de intercambio de datos
 

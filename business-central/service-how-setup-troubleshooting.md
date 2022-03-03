@@ -2,7 +2,6 @@
 title: Configurar los procesos de solución de problemas | Documentos de Microsoft
 description: Aprenda a configurar procesos que ayuden a los representantes de servicio a identificar y resolver problemas con productos de servicio.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5dbef8bda307a38b25e3c84776da0a50e2daced5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba3a265f94221388fb539d3c5b90a3327440b37a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436506"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134885"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Configuración de la solución de problemas de los productos de servicio
 Puede configurar pautas de solución de problemas que ayuden a los técnicos a resolver problemas al proporcionar servicio. Por ejemplo, las directrices pueden ser una lista de pasos para realizar una reparación, o una serie de preguntas sobre los productos. Después de configurar las directrices de solución de problemas, puede asignarlas a grupos de productos de servicio, productos de servicio y productos. Hay una jerarquía de herencia para las directrices. Si las asigna a un grupo de productos de servicio, los productos incluidos en el grupo heredarán las directrices, a menos que las especifique previamente. Del mismo modo, los productos de servicio heredarán las directrices de los productos.  

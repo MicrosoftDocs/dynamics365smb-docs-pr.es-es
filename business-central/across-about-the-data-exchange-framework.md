@@ -2,7 +2,6 @@
 title: Acerca del marco de intercambio de datos
 description: Este tema explica cómo usar el Marco de intercambio de datos para administrar el intercambio de datos en documentos comerciales como facturas con sus socios comerciales.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 4779bc3d2139ad6ea25df94a844198b6500dbcc6
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012294"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134387"
 ---
 # <a name="about-the-data-exchange-framework"></a>Acerca del marco de intercambio de datos
 

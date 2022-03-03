@@ -2,7 +2,6 @@
 title: Fecha de registro en el movimiento de valor de ajuste en comparación con el movimiento de origen
 description: 'Obtenga información sobre el escenario "La fecha de registro en el movimiento de valor de ajuste frente a la fecha de registro en el movimiento que causa el ajuste, como la revaluación o el cargo de producto" al ejecutar el trabajo por lotes Ajustar coste: movimientos de producto.'
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 2f3a74752faca380236a8b56c920fb5b88003073
-ms.sourcegitcommit: 772af6954539c65743d1a2f59e8a37d30bd30278
+ms.openlocfilehash: 9d77c13cbe60d9e9b5c4d12e55d75f8815a4a5ba
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557308"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138679"
 ---
 # <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Fecha de registro en el movimiento de valor de ajuste en comparación con el movimiento de origen
 

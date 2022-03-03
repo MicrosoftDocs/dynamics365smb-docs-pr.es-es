@@ -2,17 +2,16 @@
 title: Informes y análisis de ensamblado en Business Central
 description: Consulte qué informes y análisis de ensamblado están disponibles en la versión estándar de Business Central para que pueda realizar un seguimiento de su negocio.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 95225e3d7bf16a13040ff1d3960107035c2e5d59
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: df8dbbc35f3eeaac62702f9156e74dc1a5b17dbc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102400"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133024"
 ---
 # <a name="assembly-reports-and-analytics-in-business-central"></a>Informes y análisis de ensamblado en Business Central
 
