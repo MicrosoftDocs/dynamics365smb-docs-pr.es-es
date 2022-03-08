@@ -1,27 +1,28 @@
 ---
-title: Documentos electrónicos en Business Central
-description: En esta descripción general se explica cómo usar Marco de intercambio de datos para gestionar el intercambio de datos en documentos empresariales, como archivos bancarios y tipos de cambio de divisa.
+title: Documentos directos en Business Central | Documentos de Microsoft
+description: Introducción al envío y la recepción de documentos electrónicos en Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
-ms.date: 06/10/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141728"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753497"
 ---
 # <a name="exchanging-data-electronically"></a>Intercambio de datos electrónicamente
 Puede usar Marco de intercambio de datos para gestionar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios comerciales.
 
-En la versión estándar de [!INCLUDE[prod_short](includes/prod_short.md)], el Marco de intercambio de datos se utiliza en procesos, como el intercambio de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tasas de cambio de moneda. Para más información, ver [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).
+En la versión estándar de [!INCLUDE[prod_short](includes/prod_short.md)], el Marco de intercambio de datos se utiliza en funciones, como Documentos electrónicos, Importación / exportación de archivos bancarios y Actualización de tasas de cambio de moneda. Para más información, ver [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).
 
-Como administrador o socio de Microsoft, puede usar el marco en nuevas funciones de integración especificando los datos a intercambiar y cómo intercambiarlos. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
+Como administrador o socio de Microsoft, puede usar el marco en nuevas funciones de integración configurando qué datos intercambiar y cómo. Para obtener más información, vea [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
@@ -38,6 +39,3 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Intercambio de datos](across-exchange-data.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

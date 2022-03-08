@@ -2,17 +2,18 @@
 title: Actualizar los tipos de cambio de divisa (contiene vídeo)
 description: Realice un seguimiento de los importes en diferentes divisas utilizando códigos de divisa y deje que Business Central le ayude a ajustar los tipos de cambio FX de los movimientos registrados con un servicio externo.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 02/17/2022
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 93a5059be3810af4d0351c6508c5d6119eaa4015
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323271"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972892"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 
@@ -27,9 +28,6 @@ La contabilidad se configura con la divisa local (DL), pero también se puede co
 
 > [!IMPORTANT]
 > Si desea utilizar una divisa de informes adicional para informes financieros, asegúrese de comprender las limitaciones. Para obtener más información, vea [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
-
-> [!NOTE]  
-> Cuando contabiliza en el L/M usando un código de moneda, como registrar un gasto en un diario general usando un código de moneda, la transacción se convierte a LCY usando la tasa de cambio de moneda para la fecha de registro. La entrada del L/M no contendrá información de qué moneda se usó, solo su valor en LCY. Si desea realizar un seguimiento de la moneda original, por ejemplo, para una factura, debe usar los documentos de compra y venta, así como las cuentas bancarias que almacenan la información del código de moneda para las entradas.
 
 ## <a name="currencies"></a>Divisas
 

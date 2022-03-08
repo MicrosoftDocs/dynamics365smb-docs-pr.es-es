@@ -1,20 +1,21 @@
 ---
-title: 'Procedimiento: Restringir y permitir el uso de un registro'
-description: Si desea restringir un registro para que no se use, puede introducir dos respuestas de flujo de trabajo en un flujo de trabajo que controle el uso del registro.
+title: 'Procedimiento: Restringir y permitir el uso de un registro | Documentos de Microsoft'
+description: Si desea restringir un registro para que no se use en ciertas actividades, por ejemplo, hasta que se haya aprobado el registro, puede introducir dos respuestas de flujo de trabajo en un flujo de trabajo que controle el uso del registro.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5382a05668e3dfcb02534788de607473494bafd2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 519ef244f83937407c17311c7fb7e6bb103431de
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134283"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754747"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Restringir y permitir el uso de un registro
 Si desea restringir un registro para que no se use en ciertas actividades, por ejemplo, hasta que se haya aprobado el registro, puede introducir dos respuestas de flujo de trabajo en un flujo de trabajo que controle el uso del registro. Una respuesta del flujo de trabajo restringirá la utilización del registro definida por el evento y las condiciones del flujo de trabajo. Otra respuesta del flujo de trabajo permitirá la utilización del registro definida por el evento y las condiciones del flujo de trabajo. Hay dos respuestas existentes en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] con este fin: **Restringir el uso de un registro** y **Permitir el uso de un registro**.
@@ -28,7 +29,7 @@ Si desea restringir un registro para que no se use en ciertas actividades, por e
 El procedimiento siguiente describe cómo restringir el registro de pedidos de compra hasta que se hayan aprobado. El nuevo flujo de trabajo se basará en la plantilla existente de flujo de trabajo de aprobación de factura de compra.  
 
 ## <a name="to-create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Para crear un paso de flujo de trabajo que restrinja el registro de pedidos de compra no aprobados  
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2. En la página **Flujos de trabajo**, cree un nuevo flujo de trabajo denominado Flujo de trabajo de aprobación pedido compra. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 3. Seleccione la acción **Copiar desde plantilla de flujo de trabajo**.  
 4. Elija el campo **Código de flujo de trabajo** de origen y, a continuación, en la página **Plantillas de flujo de trabajo**, seleccione la plantilla de flujo de trabajo de aprobación de factura de compra.  
@@ -40,6 +41,3 @@ El procedimiento siguiente describe cómo restringir el registro de pedidos de c
 ## <a name="see-also"></a>Consulte también  
 [Crear flujos de trabajo](across-how-to-create-workflows.md)   
 [Flujo de trabajo](across-workflow.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

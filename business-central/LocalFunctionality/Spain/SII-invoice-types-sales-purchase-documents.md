@@ -2,6 +2,7 @@
 title: Tipos de facturas SII en los documentos de compra y venta
 description: Muestra el resultado de los diversos tipos que se utilizan para las facturas y los abonos en relación con SII y cómo se implementan.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 10751, 10752, 10753, 10770, 10771
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 15c1230015650ecc3322091a20c333c31b1522b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a00db09d6c5b14a04e4757dc37295e58aed208fe
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148872"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947189"
 ---
 # <a name="sii---invoice-and-credit-memo-types-in-sales-and-purchase-documents"></a>SII - Tipos de factura y abonos en documentos de compra y venta
 

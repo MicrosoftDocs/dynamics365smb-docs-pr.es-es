@@ -2,6 +2,7 @@
 title: Usar referencias de producto
 description: Configure referencias entre las descripciones, la unidad de medida y las variantes que usted y su proveedor o cliente utilizan para un artículo.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: item reference, cross reference, inventory
 ms.search.forms: 5737, 5735, 5736
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a53ce228f1edc337b8f3fb004984f80f6db5dec8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c649b444b0ebec908aa115261569a693f1ef0ce4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135320"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060253"
 ---
 # <a name="use-item-references"></a>Usar referencias de producto
 

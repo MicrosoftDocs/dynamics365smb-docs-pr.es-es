@@ -1,20 +1,21 @@
 ---
-title: 'Detalles de diseño: estructura de interfaz de registro'
-description: Este tema proporciona un resumen de los procedimientos globales y los detalles de diseño en la estructura de la interfaz de registro.
+title: 'Detalles de diseño: Estructura de interfaz de registro | Documentos de Microsoft'
+description: Este tema proporciona un resumen de los procedimientos globales en la estructura de la interfaz de registro.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting, interface, design
-ms.date: 06/15/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ed590455c9edbe5b8727988d4300172223bd2056
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b852d6e5d7f96cfba64de219ca414de60cea3a31
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131930"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777605"
 ---
 # <a name="design-details-posting-interface-structure"></a>Detalles de diseño: estructura de interfaz de registro
 En la estructura de interfaz de registro de [!INCLUDE[prod_short](includes/prod_short.md)] existen varios procedimientos globales que utilizan la misma estructura:  

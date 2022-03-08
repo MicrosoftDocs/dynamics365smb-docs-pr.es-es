@@ -2,20 +2,20 @@
 title: Facturar ventas
 description: Describe cómo crear un recibo, o una factura o un pedido de venta, para registrar el acuerdo con un cliente para vender productos con condiciones específicas.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0667c06af3fdd90da5b1b68dba2ae0e5ab21d1ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133619"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115570"
 ---
 # <a name="invoice-sales"></a>Facturar ventas
 
@@ -27,7 +27,7 @@ Hay un par de escenarios en los que debe usar un pedido de venta en lugar de una
 * Si envía productos después de contabilizar las facturas de venta correspondientes.
 * Si vende productos que el proveedor entrega directamente al cliente, lo que se denomina envío directo. Para obtener más información, vea [Realizar envíos directos](sales-how-drop-shipment.md).  
 
-En todos los demás aspectos, los pedidos de venta y las facturas de venta funcionan de la misma forma. Para obtener más información sobre cómo usar los pedidos de ventas, consulte [Vender productos](sales-how-sell-products.md).
+En todos los demás aspectos, los pedidos de venta y las facturas de venta funcionan de la misma forma. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 
 Puede negocias con el cliente creando primero creando una oferta de venta, que puede convertir en una factura de venta cuando acuerde la venta. Para obtener más información, consulte [Crear ofertas de ventas](sales-how-make-offers.md).
 
@@ -41,7 +41,7 @@ Puede rellenar los campos de clientes en la factura de venta de dos formas en fu
 
 ### <a name="to-create-a-sales-invoice"></a>Para crear una factura de venta
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. En el campo **Cliente**, escriba el nombre de un cliente existente.
 
    Otros campos de la página **Factura venta** contienen información estándar sobre el cliente seleccionado. Si el cliente no está registrado, realice los pasos siguientes:

@@ -2,20 +2,21 @@
 title: Descripción del flujo de efectivo
 description: Una descripción general de los flujos de entrada y salida de efectivo para ayudar a pronosticar los importes que se recibirán y que se pagarán.
 author: jill-kotel-andersson
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.search.form: 841, 849, 1818
-ms.date: 12/20/2021
-ms.author: edupont
-ms.openlocfilehash: fef3a27cf02d48fcf08a7bb70c469ed2820d0753
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 06/08/2021
+ms.author: a-jillk
+ms.reviewer: edupont
+ms.openlocfilehash: ae259cdccb2dc29882f3aee1a9062cfe0a2f5e73
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149106"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444717"
 ---
 # <a name="cash-flow-overview"></a>Descripción del flujo de efectivo
 
@@ -25,7 +26,7 @@ Conocer las entradas y salidas de efectivo es la clave para una empresa exitosa.
 
 El término *flujo de efectivo* se utiliza para designar los cobros menos los pagos en efectivo durante un periodo seleccionado. Es una estimación del importe de dinero que espera que entre y salga de su empresa e incluye todos su ingresos y gastos previstos.
 
-## <a name="work-with-cash-flow"></a>Trabajar con flujo de efectivo
+## <a name="cash-flow-overview"></a>Descripción del flujo de efectivo
 
 El siguiente ejemplo muestra una descripción global de cómo puede trabajar con el flujo de efectivo.
 
@@ -48,9 +49,9 @@ El siguiente ejemplo muestra una descripción global de cómo puede trabajar con
 
 Basándose en las líneas registradas de la hoja de trabajo, puede hacer periódicamente un flujo de efectivo. El siguiente diseño es un diseño que se utiliza con frecuencia para una previsión del flujo de efectivo. El diseño tiene tres secciones:
 
-- Cobros  
-- Desembolso de efectivo  
-- Flujo de efectivo o efectivo-en-mano neto  
+  - Cobros  
+  - Desembolso de efectivo  
+  - Flujo de efectivo o efectivo-en-mano neto  
 
 Los cobros proporcionan detalles de los ingresos que el negocio recibe.
 
@@ -73,10 +74,7 @@ El flujo de efectivo o el efectivo-en-mano neto se calcula como cobros totales m
 La previsión puede utilizarse como herramienta interna de toma de decisiones de gestión que contribuye a la planificación y la toma de decisiones estratégicas e importantes sobre la operación del negocio.
 
 ## <a name="see-also"></a>Consulte también
-
 [Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)  
-[Analizar el flujo de efectivo](finance-analyze-cash-flow.md)  
-[Prediga su flujo de efectivo en Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Configure previsiones de flujo de efectivo con Azure AI en Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
+[Analizar el flujo de efectivo](finance-analyze-cash-flow.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

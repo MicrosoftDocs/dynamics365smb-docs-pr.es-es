@@ -1,21 +1,21 @@
 ---
-title: Crear y gestionar contactos de empresas
+title: Crear y administrar contactos de empresa | Documentos de Microsoft
 description: Puede configurar todas las entidades externas con las que mantenga una relación de negocio (por ejemplo clientes potenciales, clientes, proveedores y consultores) como contactos.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 815b4c406b203e32a0d424a2ecf76f7aa0564662
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 87c30031b9c7bf653c7e43fea63ffb623107c25e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131488"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785528"
 ---
 # <a name="managing-contacts"></a>Gestionar contactos
 

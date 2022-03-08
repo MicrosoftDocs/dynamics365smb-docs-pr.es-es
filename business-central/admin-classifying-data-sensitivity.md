@@ -5,17 +5,17 @@ author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.topic: conceptual
-ms.search.form: 1752
-ms.date: 06/14/2021
-ms.openlocfilehash: 4ec4e6cd24c620829b35b7e3e25a27d4f127e045
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.date: 10/01/2020
+ms.openlocfilehash: 8d26a8a2f6ec5ffe17f38d5dc429e50efe08ea7e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136431"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911635"
 ---
-# <a name="classifying-data-sensitivity-fields"></a>Clasificar campos de confidencialidad de datos
+# <a name="classifying-data-sensitivity"></a>Clasificar confidencialidad de datos
 Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Como cliente, puede agregar un segundo nivel de clasificación especificando los niveles de confidencialidad para los datos que almacena en campos estándar y personalizados. La clasificación de la confidencialidad de los datos ayuda a garantizar que sepa dónde guarda los datos personales en su sistema y facilita la respuesta a las solicitudes de los interesados. Por ejemplo, si un contacto o cliente le pide que exporte sus datos personales. Para obtener más información, vea [Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md).
@@ -50,6 +50,3 @@ Por ejemplo, la hoja de trabajo Clasificación de datos le permite hacer cosas c
 ## <a name="see-also"></a>Consulte también
 
 [Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

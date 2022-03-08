@@ -1,30 +1,28 @@
 ---
-title: 'Detalles de diseño: coste de inventario'
+title: 'Detalles de diseño: Inventario y valoración | Documentos de Microsoft'
 description: En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f298199d4451a64f75ddb6ad34fefc30af3d7a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146662"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787776"
 ---
 # <a name="design-details-inventory-costing"></a>Detalles de diseño: Coste de inventario
-
-En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en [!INCLUDE[prod_short](includes/prod_short.md)].  
+En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 La valoración de inventario, también conocida como "gestión de costes", se refiere al registro y la creación de informes sobre los costes operativos de la empresa.  
 
-## <a name="in-this-section"></a>En esta sección
-
+## <a name="in-this-section"></a>En esta sección  
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
 [Detalles de diseño: Problema de liquidación de producto conocido](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -43,6 +41,3 @@ La valoración de inventario, también conocida como "gestión de costes", se re
 [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)  
 [Detalles de diseño: Valoración de inventario](design-details-inventory-valuation.md)  
 [Detalles de diseño: Revalorización](design-details-revaluation.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

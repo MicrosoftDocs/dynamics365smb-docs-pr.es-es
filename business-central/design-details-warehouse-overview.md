@@ -1,20 +1,21 @@
 ---
-title: 'Detalles de diseño: Resumen de almacén'
-description: Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén.
+title: 'Detalles de diseño: Resumen de almacén | Documentos de Microsoft'
+description: Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén. Se administra en la tabla **Movimiento almacén**. Cada transacción se almacena en un registro de almacén.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95e6e88f1f448546a7c1b0e4e49d33e54c642932
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8a972cebc919e0e308f22b417a62f33cb8b06f62
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141260"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785140"
 ---
 # <a name="design-details-warehouse-overview"></a>Detalles de diseño: Resumen de almacén
 Para respaldar la manipulación física de los productos en el nivel de zona y de ubicación, se debe realizar el seguimiento de toda la información por cada transacción o movimiento que se produzca en el almacén. Se administra en la tabla **Movimiento almacén**. Cada transacción se almacena en un registro de almacén.  
@@ -27,7 +28,7 @@ Cuando los registros de producto se producen fuera del módulo de almacén, se u
 
 En la ilustración siguiente se describen los flujos de almacén típicos.  
 
-![Resumen de procesos de almacén.](media/design_details_warehouse_management_overview.png "Resumen de procesos de almacén")  
+![Resumen de procesos de almacén](media/design_details_warehouse_management_overview.png "Resumen de procesos de almacén")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Gestión avanzada o básica de almacén  
 La funcionalidad de almacén en [!INCLUDE[prod_short](includes/prod_short.md)] se puede implementar en distintos niveles de complejidad, en función de los procesos de una empresa y del volumen de pedidos. La diferencia principal es que las actividades se realizan pedido a pedido en el almacenamiento básico, mientras que se consolidan para varios pedidos en el almacenamiento avanzado.  

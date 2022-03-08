@@ -1,104 +1,60 @@
 ---
-title: Agregar archivos adjuntos, vínculos y notas en los registros
+title: Proceso para vincular desde registros hacia programas o información externa | Documentos de Microsoft
 description: Adjuntar un hipervínculo a un documento o un sitio Web a un registro específico, como un documento de cliente.
-author: SorenGP
-ms.topic: conceptual
+author: jswymer
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: fb191de84dac161a6b3db95396e7f0b2b5f2ce40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/12/2019
+ms.author: jswymer
+ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142859"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250347"
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrar archivos adjuntos, vínculos y notas en fichas y documentos
+# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Añadir vínculos a páginas Web, documentos o programas en registros
+En un registro específico, como un cliente, documento, o pedido de venta, puede agregar un vínculo a un documento externo, una página Web, o programa. O bien, es posible que desee un vínculo que abra un nuevo mensaje de correo electrónico en blanco a un destinatario específico cuando lo seleccione. La página de fichas para algunos registros, como las fichas de cliente y proveedor, incluyen un campo **Página de inicio**, donde puede especificar una dirección de internet (URL). Para incluir otros en vínculos, puede utilizar el método que se describe en este artículo.  
 
-En el cuadro informativo en la mayoría de las fichas y documentos, puede adjuntar archivos, agregar vínculos y escribir notas. Para vínculos y notas, también puede hacer esto en la página de lista seleccionando primero la línea relacionada.
+> [!IMPORTANT]
+> Actualmente, esta capacidad solo está disponible en implementaciones locales de [!INCLUDE [prodshort](includes/prodshort.md)] con el cliente Windows de Dynamics NAV heredado.  
 
-Para ver o cambiar cualquiera de estos tipos de información adjunta, primero debe abrir la pestaña **Archivos adjuntos** en el cuadro informativo. El número situado detrás del título de la pestaña indica cuántos archivos adjuntos, vínculos o notas existen para la ficha o documento.
+Otro ejemplo podría ser cuando recibe facturas impresas de proveedores. Puede buscarlos y almacenarlos como archivos de .pdf en un sitio Web de SharePoint. A continuación, puede establecer un vínculo desde una factura de compra en [!INCLUDE[d365fin_md](includes/d365fin_md.md)] a la factura correspondiente en SharePoint. o bien cree un vínculo de una ficha de producto a la página correspondiente del catálogo en línea del proveedor.
 
-Los archivos adjuntos, vínculos y notas permanecen adjuntos a medida que la ficha o el documento se procesan en otros estados, por ejemplo, desde un pedido de ventas en curso hasta una factura de ventas registrada. Sin embargo, ninguno de los tipos de archivos adjuntos se envían del sistema, por ejemplo, al imprimir o al guardar en un archivo.
+## <a name="to-add-a-link-on-a-record"></a>Para agregar un vínculo a un registro   
 
-> [!NOTE]
-> Cuando envía y factura parcialmente un pedido de venta o de compra, el archivo adjunto solo se adjuntará a la factura final del pedido. Del mismo modo, cuando factura con la característica Fraccionamientos, el archivo adjunto se adjunta a los movimientos contables del documento, pero no para los movimientos de aplazamiento.
->
-> Si elimina un pedido antes de que se facture, el archivo adjunto también se elimina. Cuando factura pedidos de compra mediante la acción Traer albaranes de una factura de compra, el archivo adjunto de los pedidos de compra no se agrega a la factura de compra.
+1.  Abra el registro al que desea asociar el vínculo. Si desea agregar el vínculo a una línea específica, por ejemplo, a una línea de diario, selecciónela.  
 
-## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Para adjuntar un archivo a una factura de compra
-Puede adjuntar cualquier tipo de archivo, que contenga texto, imagen o vídeo, a una ficha o documento. Esto es útil, por ejemplo, cuando desea almacenar la factura de un proveedor como un archivo PDF en la factura de compra relacionada en [!INCLUDE[prod_short](includes/prod_short.md)].
+2.  Seleccione la acción **Vínculos** para abrir la página **Vínculos** que muestra todos los vínculos actuales que están agregadas al registro.
 
-> [!NOTE]
-> Los archivos adjuntos con la función Documentos entrantes no se incluyen en la pestaña **Anexos**. Para obtener más información, consulte [Documentos entrantes](across-income-documents.md).
+3. Para agregar un nuevo vínculo, elija **+nuevo**.
 
-El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
+4.  En el campo **Vincular dirección**, especifique
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
-2. Abra el pedido de venta al que desea adjuntar un archivo.
-3. En el cuadro informativo, abra la pestaña **Anexos**.
-4. Elija el valor que va detrás del campo **Documentos**, como "0".
-5. En la página **Documentos adjuntos**, en el campo **Archivo adjunto**, seleccione la acción **Seleccionar archivo**.
-5. Seleccione un archivo de cualquier ubicación y, a continuación, elija el botón **Abrir**.
+    -   Para vincular un archivo en el equipo o red, introduzca la ruta de acceso completa y el nombre de archivo, como **C:Mis Documentsfactura1.doc**.
+    -   Para vincular la página Web, especifique la dirección de Internet (URL), por ejemplo **www.microsoft.com**.
+    -   Para vincular la página Web, especifique la dirección de Internet (URL), por ejemplo **www.microsoft.com**.
+    -   Para vincular un programa, escriba una secuencia de caracteres específica para abrir el programa. Por ejemplo, para abrir OneNote con una página específica, escriba **onenote:///C:Mis documentostest.one**. O, para abrir Outlook con un nuevo mensaje de correo electrónico en blanco a un alias específico, escriba **mailto:testalias**.  
 
-El archivo se adjunta ahora a la factura de compra.
+5.  Rellene el campo **Descripción** con información sobre el vínculo.  
 
-## <a name="to-view-an-attached-file"></a>Para ver un archivo adjunto.
-1. En el cuadro informativo, abra la pestaña **Anexos**.
-2. Elija el valor que va detrás del campo **Documentos**, como "1".
-3. En la página **Documentos adjuntos**, seleccione la acción **Vista previa**.
-4. Abra el archivo descargado.
+6.  Haga clic en el botón **Guardar**.  
 
-## <a name="to-save-a-document-as-a-pdf-attachment"></a>Para guardar un documento como un archivo PDF adjunto
-Siempre que necesite guardar un documento como un archivo, puede usar la acción **Adjuntar como PDF** para capturar el contenido actual del documento como un archivo PDF adjunto al cuadro informativo del documento. Esto es útil, por ejemplo, cuando los documentos siguen varios pasos de un proceso, como un proceso de ventas o un flujo de trabajo de aprobación, y desea consultar una copia impresa del paso anterior.
+## <a name="to-delete-a-link-from-a-record"></a>Para eliminar un vínculo de un registro  
 
-El procedimiento siguiente se basa en un pedido de venta. Los pasos son similares para todos los documentos admitidos.
+Para eliminar un vínculo, en la página **Vínculos** , puede seleccionar **…** y después **Eliminar**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
-2. Seleccione un pedido de ventas y después seleccione la acción **Adjuntar como PDF** .
+Si elimina un único registro, por ejemplo, una línea de pedido de venta, un pedido de venta o un cliente, se eliminarán todos los vínculos asociados al registro. Sin embargo, si borra los registros utilizando un trabajo por lotes, como el trabajo por lotes **Eliminar pedidos de ventas facturados**, los vínculos se siguen guardando en la base de datos. Para eliminarlos de la base de datos, ejecute la codeunit **Eliminar vínculos reg. huérfanos**. Para ello, elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Eliminar vínculos reg. huérfanos** y luego elija el enlace relacionado.   
 
-Se agrega un archivo PDF con el contenido actual del pedido de cliente a la pestaña **Archivos adjuntos** del cuadro informativo.
+<!-- ### To run delete orphaned record links  
 
-## <a name="to-add-a-link-from-an-item-card"></a>Para añadir un enlace de una ficha de producto
-Puede añadir un enlace de una ficha o un documento a cualquier URL. Esto es útil, por ejemplo, cuando desea vincular una ficha de producto con el catálogo de producto del proveedor.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-El procedimiento siguiente se basa en una ficha de producto. Los pasos son parecidos a los de las demás fichas y documentos admitidos.
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
-2. Seleccione el producto del que desea agregar un vínculo y luego elija la pestaña **Anexos** en el cuadro informativo.
-3. En **Vínculos**, elija el icono **+**.
-4. En el campo **Vincular dirección**, especifique el vínculo.
-
-    El enlace debe ser una URL válida de Internet o intranet.
-
-5. En el campo **Descripción**, escriba cualquier información sobre el vínculo.  
-6. Elija el botón **Aceptar**.
-
-El vínculo ahora está adjunto a la ficha de producto.  
-
-## <a name="to-write-a-note-on-a-sales-order"></a>Para escribir una nota en un pedido de venta
-Puede escribir una nota en un documento o ficha, por ejemplo, para comunicar instrucciones especiales a otros usuarios del documento o ficha. Puede incluir vínculos de archivo y URL en las notas.
-
-> [!NOTE]
-> Las notas en la pestaña **Anexos** no están relacionadas con la funcionalidad de notas internas, que se utiliza principalmente para comunicarse entre los usuarios del flujo de trabajo. Para obtener más información, consulte [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md).
-
-El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecidos a los de los demás documentos y las fichas admitidos.
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
-2. Seleccione el pedido de venta del en el que desea escribir una nota y luego elija la pestaña **Anexos** en el cuadro informativo.
-3. En la sección **Notas**, elija el icono **+**.
-4. En el campo **Nota**, escriba cualquier texto, por ejemplo, "Este pedido es urgente.".
-5. Elija el botón **Aceptar**.
-
-La nota ahora está adjuntada al pedido de venta.
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Consulte también  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Documentos entrantes](across-income-documents.md)  
-[Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

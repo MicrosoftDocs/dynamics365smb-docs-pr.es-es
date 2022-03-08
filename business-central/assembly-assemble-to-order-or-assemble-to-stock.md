@@ -1,20 +1,21 @@
 ---
-title: Descripción de ensamblar para pedido y ensamblar para stock
+title: Descripción de ensamblar para pedido y ensamblar para stock | Documentos de Microsoft
 description: Los elementos de ensamblado se pueden suministrar ensamblándolos cuando se ordenan o ensamblándolos para que se mantengan en el inventario hasta que sean necesarios en una orden de venta.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128961"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380686"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 Los artículos de montaje se pueden suministrar en los dos procesos siguientes:  
@@ -69,29 +70,20 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 
  Un ejemplo del motivo por el que querría modificar la cantidad para ensamblar es que desee registrar parcialmente el envío de las cantidades del inventario antes de que la salida de ensamblado se pueda enviar.  
 
- En las siguiente tablas, se explican las reglas que definen los valores mínimo y máximo que se pueden introducir manualmente en el campo **Cantidad a ensamblar** para desviarse del valor predeterminado en un escenario de combinación. La tabla muestra un escenario de combinación cuyo campo **Cdad. a enviar** en la línea vinculada del pedido de venta se cambia del 7 al 4, y **Cdad. a ensamblar** se establece de forma predeterminada en 4.  
+ En la siguiente tabla, se explican las reglas que definen los valores mínimo y máximo que se pueden introducir manualmente en el campo **Cantidad a ensamblar** para desviarse del valor predeterminado en un escenario de combinación. La tabla muestra un escenario de combinación cuyo campo **Cdad. a enviar** en la línea vinculada del pedido de venta se cambia del 7 al 4, y **Cdad. a ensamblar** se establece de forma predeterminada en 4.  
 
-- Línea de pedido de venta
+|-|Línea de pedido de venta|Cabecera de pedido de ensamblado|  
+|-|----------------------|---------------------------|  
+||**Cantidad**|**Cdad. a enviar**|**Cdad. en ensamblar para pedido**|**Cantidad enviada**|**Cantidad**|**Cantidad a ensamblar**|**Cantidad ensamblada**|**Cantidad pendiente**|  
+|Inicial|10|7|7|0|7|7|0|7|  
+|Cambiar||4||||4 (insertado de forma predeterminada)|||  
 
-    |                | **Cantidad** | **Cdad. a enviar** | **Cdad. en ensamblar para pedido** | **Cantidad enviada** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Valor inicial**| 10          | 7                | 7                             | 0                    |
-    |**Cambio**      |              | 4                |                               |                      |
+ En función de la situación anterior, sólo se puede modificar el campo **Cantidad a ensamblar** de la siguiente forma:  
 
-- Cabecera de pedido de ensamblado
+-   La cantidad mínima que puede introducir es 1. Esto se debe a que debe ensamblar al menos una unidad para poder vender las cuatro unidades, si se asume que las tres restantes están disponibles en el inventario.  
+-   La cantidad máxima que puede introducir es 4. Así se garantiza que no ensamble más de este artículo de ensamblar para pedido de lo que se necesita en la venta.  
 
-    |                | **Cantidad** | **Cdad. a enviar** | **Cdad. en ensamblar para pedido** | **Cantidad enviada** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Valor inicial**| 7           | 7                | 0                             | 7                    |
-    |**Cambio**      |              | 4 (insertado de forma predeterminada)|                         |                      |
-
-En función de este ejemplo, sólo se puede modificar el campo **Cantidad a ensamblar** de la siguiente forma:  
-
-- La cantidad mínima que puede introducir es 1. Esto se debe a que debe ensamblar al menos una unidad para poder vender las cuatro unidades, si se asume que las tres restantes están disponibles en el inventario.  
-- La cantidad máxima que puede introducir es 4. Así se garantiza que no ensamble más de este artículo de ensamblar para pedido de lo que se necesita en la venta.  
-
-## <a name="see-also"></a>Consulte también
-
+## <a name="see-also"></a>Consulte también  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  

@@ -1,43 +1,40 @@
 ---
-title: Tareas administrativas en Business Central
+title: Tareas administrativas en Business Central | Documentos de Microsoft
 description: Algunas tareas de Business Central requieren administración y configuración centrales. Consulte cuáles son aprenda y qué hacer.
-author: SorenGP
-ms.topic: conceptual
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143873"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247191"
 ---
 # <a name="administration"></a>Administración
-
 Normalmente, un rol de la empresa se encarga de las tareas de la administración central. El alcance de estas tareas puede depender del tamaño de la empresa, así como de las responsabilidades laborales del administrador. Estas tareas pueden incluir la administración de la sincronización de base de datos de las colas de proyectos y de correo electrónico, la configuración de usuarios y la personalización de la interfaz de usuario.  
 
-Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio. [!INCLUDE[prod_short](includes/prod_short.md)] incluye varias guías de configuración que le ayudan a configurar datos fundamentales. Para obtener más información, consulte [Configurar Business Central](setup.md).
-
-> [!NOTE]
-> Puede configurar una nueva empresa en [!INCLUDE[prod_short](includes/prod_short.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio. [!INCLUDE[d365fin](includes/d365fin_md.md)] incluye varias guías de configuración que le ayudan a configurar datos fundamentales. Para obtener más información, consulte [Configurar Business Central](setup.md).
 
 Si utiliza RapidStart Services para implementar los valores de configuración o si los introduce manualmente en la nueva empresa, puede sustentar su decisiones de configuración con algunas recomendaciones generales para los campos de configuración seleccionados que son conocidos porque pueden provocar que la solución resulte ineficaz si están definidos forma incorrecta.  
 
-Un superusuario o un administrador puede configurar el marco de intercambio de datos para que los usuarios puedan exportar e importar los datos de los archivos de banco y de nómina, por ejemplo, para diferentes procesos de tesorería. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).
+Un superusuario o un administrador puede configurar el marco de intercambio de datos para que los usuarios puedan exportar e importar los datos de los archivos de banco y de nómina, por ejemplo, para diferentes procesos de tesorería.
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.  
+> [!NOTE]
+> Puede configurar una nueva empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Para obtener más información, consulte [Configuración de una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
 
 |**Para**|**Vea**|  
-|------------|-------------|
-|Defina quién puede iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] creando usuarios en el centro de administración de Microsoft 365 según las licencias del producto.|[Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)|
-|Asignar permisos a los usuarios, modificar conjuntos de permisos y agrupar usuarios para facilitar la administración de permisos.|[Asignar permisos a usuarios y grupos](ui-how-users-permissions.md)|
-|Agregar usuarios, gestionar permisos y gestionar el acceso a los datos, asignar roles.|[Administración de perfiles](admin-users-profiles-roles.md)|
-|Administre la configuración del usuario, como empresa, función, idioma, región y zona horaria.|[Configuración de usuario](admin-manage-user-settings-preferences.md)|
-|Configure impresoras y especifique qué informes imprimir en qué impresoras.|[Configuración de impresoras](ui-specify-printer-selection-reports.md)|
+|------------|-------------|  
+|Agregar usuarios, gestionar permisos y gestionar el acceso a los datos, asignar roles.|[Comprender perfiles y áreas de trabajo](admin-users-profiles-roles.md)|  
+|Asignar permisos a los usuarios, modificar conjuntos de permisos y agrupar usuarios por permisos.|[Gestionar usuarios y permisos](ui-how-users-permissions.md)|
 |Clasifique la confidencialidad de los datos para los campos, de modo que pueda responder a las solicitudes de los asuntos relacionadas con sus datos personales.|[Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md)|
 |Responda a las solicitudes de los asuntos relacionadas con sus datos personales.|[Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md)|
 |Configure una nueva empresa usando plantillas|[Crear nuevas en empresas](about-new-company.md)|
@@ -45,32 +42,15 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Introducir solicitudes únicas o periódicas para ejecutar informes o codeunits.|[Usar colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)|  
 |Administre, elimine, o comprima los documentos|[Eliminar documentos](admin-manage-documents.md)|  
 |Exponga las páginas, los codeunits y las consultas como servicios web.|[Publicar un servicio web](across-how-publish-web-service.md)|
-|Como parte de la creación de Connect Apps entre soluciones de [!INCLUDE[prod_short](includes/prod_short.md)] y de terceros a través de las API de REST, defina plantillas que se utilizan para completar propiedades vacías en una entidad cuando crea una acción POST a través de una API.|[Configuración de plantillas API](admin-configuring-api-template.md)|
-|Cifre los datos en el servidor de [!INCLUDE[prod_short](includes/prod_short.md)] generando claves de cifrado nuevas o importando claves existentes que se activarán en el servidor.|[Administración del cifrado de datos](admin-manage-data-encryption.md)|
-|Conecte Dynamics 365 Sales con [!INCLUDE[prod_short](includes/prod_short.md)] para obtener una integración perfecta entre las relaciones con los clientes y el procesamiento de pedidos en el proceso de obtención de efectivo.|[Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
-|Cambie los campos y las acciones que se muestran en la interfaz de usuario para adaptarla a los procesos de la empresa y ampliar la solución con aplicaciones.|[Personalización de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
-
-## <a name="administration-in-the-admin-center"></a>Administración en el Centro de administración
-
-Los administradores internos y delegados tienen acceso al [!INCLUDE [prod_short](includes/prod_short.md)] centro de administración donde pueden configurar, supervisar y solucionar problemas en [!INCLUDE [prod_short](includes/prod_short.md)] ambientes. En la tabla siguiente se indican algunas tareas clave con vínculos a los artículos que las describen.  
-
-|**Para**|**Vea**|  
-|------------|-------------|
-|Conozca las herramientas que están disponibles para ayudarlo a solucionar problemas.|[Soporte técnico](/dynamics365/business-central/dev-itpro/technical-support)|
-|Supervise el uso y solucione problemas de sesiones|[Telemetría del entorno en el centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Administre sesiones de usuario, incluida la cancelación de una sesión si el usuario está bloqueado.|[Administración de sesiones](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
-|Configure el suscriptor para enviar datos de telemetría a Azure Application Insights para mejor análisis y resolución de problemas.|[Habilitar envío de telemetría a Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
-
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+|Como parte de la creación de aplicaciones de Connect entre soluciones de [!INCLUDE[d365fin](includes/d365fin_md.md)] y de terceros a través de las REST API, defina plantillas que se utilizan para completar propiedades vacías en una entidad cuando crea una acción POST a través de una API.|[Configuración de plantillas API](admin-configuring-api-template.md)|
+|Cifre los datos en el servidor de [!INCLUDE[d365fin](includes/d365fin_md.md)] generando claves de cifrado nuevas o importando claves existentes que se activarán en el servidor.|[Administración del cifrado de datos](admin-manage-data-encryption.md)|
+|Conecte Dynamics 365 for Sales con [!INCLUDE[d365fin](includes/d365fin_md.md)] para obtener una integración perfecta entre las relaciones con los clientes y el procesamiento de pedidos en el proceso de obtención de efectivo.|[Integración con Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
+|Cambie los campos y las acciones que se muestran en la interfaz de usuario para adaptarla a los procesos de la empresa y ampliar la solución con aplicaciones.|[Personalización de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Consulte también
-
 [Funciones empresariales](across-business-functionality.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Preparación para hacer negocios](ui-get-ready-business.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Introducción](product-get-started.md)    
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

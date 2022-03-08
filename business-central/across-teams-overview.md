@@ -2,19 +2,20 @@
 title: Descripción general de Business Central y Microsoft Teams | Microsoft Docs
 description: Comparta registros de Business Central directamente en una conversación de Teams.
 author: jswymer
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138731"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074692"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Descripción general de Business Central y Microsoft Teams
 
@@ -32,11 +33,11 @@ La aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Teams ofrece
 
 Independientemente de dónde se encuentre en Teams, puede buscar detalles sobre clientes, proveedores y otros contactos de [!INCLUDE [prod_short](includes/prod_short.md)]. Esta característica no solo le permite ver información general sobre los contactos, sino que también le brinda acceso al historial de interacciones, documentos relacionados y mucho más.
 
- [![Buscar contactos de Business Central desde el cuadro de comando de Teams.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Buscar contactos de Business Central desde el cuadro de comando de Teams](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 También puede compartir detalles de contacto en una conversación. Desde ahí, los participantes también tienen acceso a más detalles sobre el contacto.
 
- [![Buscar contactos de Business Central desde el cuadro de redacción de Teams.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Buscar contactos de Business Central desde el cuadro de redacción de Teams](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Para obtener más información, consulte [Búsqueda de contactos de Microsoft Teams](across-search-contacts-teams.md).
 
@@ -44,19 +45,11 @@ Para obtener más información, consulte [Búsqueda de contactos de Microsoft Te
 
 Copie un vínculo a cualquier registro de Business Central y péguelo en una conversación de Teams para compartirlo con sus compañeros de trabajo. La aplicación expandirá el vínculo para convertirse en una tarjeta compacta e interactiva que muestra información sobre el registro.
 
-[![Integración de Teams con Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Integración de Teams con Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Una vez en la conversación, usted y sus compañeros de trabajo pueden ver más detalles sobre el registro, editar datos y tomar medidas, sin salir de Teams.
 
 Para obtener más información, consulte [Compartir registros en Microsoft Teams](across-working-with-teams.md).
-
-### <a name="share-links-from-pages-in-business-central-to-teams"></a>Compartir vínculos desde páginas de Business Central a Teams
-
-Directamente desde la mayoría de las páginas de recopilación y detalles de Business Central, puede utilizar la acción **Compartir con Teams** del icono ![!El icono del menú Compartir en páginas.](media/share-icon.png "El menú Compartir mostrado en una tarjeta.") para escribir un mensaje, elegir destinatarios, como miembros del equipo, grupos o canales, y enviar el mensaje con un vínculo a la página de Business Central.
-
-¡![!El menú Compartir mostrado en una tarjeta.](media/teams-share-link.png "El menú Compartir mostrado en una tarjeta.")
-
-Para obtener más información, consulte [Compartir registros y vínculos de páginas en Microsoft Teams](across-working-with-teams.md#share-link).
 
 ## <a name="get-started"></a>Introducción
 
@@ -69,13 +62,12 @@ Para obtener más información, consulte [Compartir registros y vínculos de pá
 
 2. Como administrador, consulte [Administrar la integración de Microsoft Teams con Business Central](admin-teams-integration.md) para obtener información sobre cómo configurar los usuarios para trabajar con [!INCLUDE [prod_short](includes/prod_short.md)] y Teams.
 3. Instalar una aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. Consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md).
-4. Una vez que la aplicación esté instalada, estará listo para comenzar. Vea [Búsqueda de clientes, proveedores y otros contactos de Microsoft Teams](across-search-contacts-teams.md) y [Compartir registros en Microsoft Teams](across-working-with-teams.md).
+4. Una vez que la aplicación esté instalada, estará listo para comenzar. Vea [Búsqueda de clientes, proveedores y otros contactos de Microsoft Teams](across-search-contacts-teams.md) y [Compartir registros en Microsoft Teams](across-working-with-teams.md). 
 
 ## <a name="see-also"></a>Consulte también
 
 [P+F de Teams](teams-faq.md)  
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
-[Cambiar la empresa y otras configuraciones en Teams](across-teams-settings.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

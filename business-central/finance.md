@@ -1,23 +1,23 @@
 ---
-title: Administración financiera (contiene vídeo)
-description: Obtenga información sobre cómo Business Central satisface sus necesidades de gestión financiera, contabilidad, auditoría y teneduría de libros.
+title: Gestión financiera
+description: Obtenga información sobre cómo Business Central satisface sus necesidades de gestión financiera, contabilidad, auditoría o teneduría de libros.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135963"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750285"
 ---
-# <a name="financial-management"></a>Gestión financiera
+# <a name="finance"></a>Finanzas
 
 [!INCLUDE[prod_short](includes/prod_short.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiar la configuración para que se adapte a su empresa. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md).
 
@@ -44,7 +44,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Asigne costes adicionales, como flete y manipulación física que se producen durante las operaciones comerciales, a los productos relacionados para que el coste se refleje en la valoración de existencias. |[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md) |
 |Registre los gastos personales de los empleados por las actividades comerciales y reembólselos mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 | Reconozca ingresos y gastos en periodos distintos de cuando se registraron las transacciones. |[Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)|
-| Conozca las opciones disponibles para automatizar el envío de facturas de suscripción a sus clientes y registre ingresos recurrentes. |[Trabajar con ingresos recurrentes](finance-recurring-invoicing.md)|
+| Conozca las opciones disponibles para automatizar el envío de facturas de suscripción a sus clientes y registre ingresos recurrentes. |[Ingresos recurrentes (suscripción)](finance-recurring-invoicing.md)|
 |Información sobre utilizar divisas adicionales y actualizar los tipos de cambio automáticamente. |[Actualizar tipos cambio divisa](finance-how-update-currencies.md)|
 | Importe transacciones de salario del proveedor de nóminas en el libro mayor. |[Importar transacciones de nómina](finance-how-import-payroll-transactions.md)|
 |Use las funciones para calcular el impuesto sobre el valor añadido (IVA) en las transacciones de ventas y compras para que pueda informar de los importes a las autoridades fiscales.|[Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)|
@@ -73,6 +73,3 @@ El siguiente video presenta algunas de las capacidades clave para administrar la
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

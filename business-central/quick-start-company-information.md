@@ -2,6 +2,7 @@
 title: Inicio rápido Información empresa
 description: Aprenda a completar los primeros campos críticos sobre su empresa en Business Central leyendo este artículo de Inicio rápido.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6d7bb056b0085ccbac153ea959c12e7f53651a0e
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133659"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724767"
 ---
 # <a name="company-information-quick-start"></a>Inicio rápido Información empresa
 

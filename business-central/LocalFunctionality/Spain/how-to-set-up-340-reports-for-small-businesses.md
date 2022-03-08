@@ -1,23 +1,25 @@
 ---
-title: Configurar informes 340 para las empresas pequeñas [ES]
-description: Configure su negocio para informar en efectivo con los Criterios de contabilidad de efectivo (CAC) utilizando los informes 340 para pequeñas empresas.
+title: Configurar informes 340 para las empresas pequeñas
+description: Utilice el siguiente procedimiento para configurar su negocio para que informe en efectivo, es decir, Criterios de contabilidad de efectivo (CAC). Si aún no lo ha hecho, puede configurar grupos de contabilización para la contabilización del IVA en efectivo para compras y ventas.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 10737, 10738, 10744
-ms.date: 06/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d4b6c3258879b5894cd7ad970017704375e5adc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b625d4a8b73971ba74403e503c2823a9bec79e99
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136658"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785224"
 ---
-# <a name="set-up-340-reports-for-small-businesses-in-the-spanish-version"></a>Configurar informes 340 para pequeñas empresas en la versión en español
+# <a name="set-up-340-reports-for-small-businesses"></a>Configurar informes 340 para las empresas pequeñas
 Utilice el siguiente procedimiento para configurar su negocio para que informe en efectivo, es decir, Criterios de contabilidad de efectivo (CAC). Si aún no lo ha hecho, puede configurar grupos de contabilización para la contabilización del IVA en efectivo para compras y ventas.  
 
 Cuando rellena un informe 340, se supone que todas las líneas de transacción que están asociadas con el IVA no liquidado se han llevado a cabo bajo contabilidad de efectivo.  
@@ -26,9 +28,9 @@ Después de que la contabilización del IVA esté configurada para manejar el IV
 
 ## <a name="to-set-up-reporting-under-cac"></a>Para configurar informes según el CAC  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Configuración de contabilidad** y luego elija el enlace relacionado.  
 2.  En la página **Configuración de contabilidad**, en la ficha desplegable **General**, seleccione la casilla **IVA no realizado**. Elija el botón **Aceptar**.  
-3.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.  
+3.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.  
 4.  En la página **Config. grupos registro IVA**, seleccione un grupo para modificar o crear un grupo de registro que tenga cuentas contables generales para tratar los importes de IVA de las diversas cuentas de IVA no realizado en la configuración de grupos registro IVA y elija la acción **Editar**.  
 5.  En la ficha desplegable **General**, defina **Tipo IVA no realizado** a **Porcentaje**.  
 6.  En las fichas desplegables **Ventas** y **Compras**, puede especificar cuentas contables para los diversos campos **Cuenta IVA no realizado**.  

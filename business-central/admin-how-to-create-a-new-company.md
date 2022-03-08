@@ -1,23 +1,24 @@
 ---
 title: Como crear una empresa nueva | Documentos de Microsoft
-description: Use tablas y páginas de RapidStart Services para crear una nueva empresa para la que desee realizar una implementación de cliente.
+description: Para usar las tablas y páginas de RapidStart Services creadas que no tienen datos.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0031a05821346aa061334e0f9ced1079fef2978b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1f176fb0e9d72d948d26d041f417554949087b68
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130776"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783672"
 ---
 # <a name="create-a-new-company"></a>Cree una nueva empresa
-Para usar RapidStart Services para [!INCLUDE[prod_short](includes/prod_short.md)], primero debe crear una nueva empresa para la que desee realizar una implementación de cliente. Al crear una empresa nueva, se crean las tablas y páginas estándar de [!INCLUDE[prod_short](includes/prod_short.md)], pero no existen datos en ellas.
+Para usar RapidStart Services para [!INCLUDE[d365fin](includes/d365fin_md.md)], primero debe crear una nueva empresa para la que desee realizar una implementación de cliente. Al crear una empresa nueva, se crean las tablas y páginas estándar de [!INCLUDE[d365fin](includes/d365fin_md.md)], pero no existen datos en ellas.
 
 Además, puede aplicar datos específicos de configuración a la empresa después de inicializarla. La información se proporciona en un paquete de configuración, un archivo .rapidstart, que entrega contenido en formato comprimido.  
 
@@ -25,19 +26,19 @@ La empresa de demostración CRONUS incluye paquetes de configuración de ejemplo
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Utilizar el paquete de configuración BASICCONFIG de ejemplo  
 1. Abra la empresa CRONUS España S.A. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
-2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Paquete de configuración** y luego elija el vínculo relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Paquetes de configuración** y luego elija el enlace relacionado.  
 3. Elija el paquete BASICCONFIG de la lista y, a continuación, seleccione la acción **Exportar paquete**.  
 
 Utilice el procedimiento siguiente para crear una nueva empresa y utilizar el paquete BASICCONFIG como parte del proceso.  
 
 ## <a name="to-create-a-new-company"></a>Para crear una nueva empresa  
-1. Cree una nueva empresa. Para obtener más información, consulte [Crear nuevas empresas en [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).
+1. Cree una nueva empresa. Para obtener más información, consulte [Crear nuevas empresas en [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
 2. Desde el área de trabajo del implementador de RapidStart Services, ahora puede importar el paquete de configuración que exportó de la empresa CRONUS España S.A.
 
-Después de crear una empresa nueva, algunas tablas se rellenan automáticamente, incluso si no se aplica ningún plantilla de empresa. Por ejemplo, puede revisar los códigos estándar para registrar y tratar las transacciones por lotes en la página **Código origen**. Si proporciona una versión local de [!INCLUDE[prod_short](includes/prod_short.md)], debe revisar esta tabla y tener en cuenta cualquier problema de idioma local.
+Después de crear una empresa nueva, algunas tablas se rellenan automáticamente, incluso si no se aplica ningún plantilla de empresa. Por ejemplo, puede revisar los códigos estándar para registrar y tratar las transacciones por lotes en la página **Código origen**. Si proporciona una versión local de [!INCLUDE[d365fin](includes/d365fin_md.md)], debe revisar esta tabla y tener en cuenta cualquier problema de idioma local.
 
 ## <a name="about-data-tables"></a>Acerca de las tablas de datos
-Las tablas de datos de [!INCLUDE[prod_short](includes/prod_short.md)] se proporcionan en dos tipos básicos: principal y configuración. Cuando está estableciendo la configuración de una empresa, puede usar estos tipos para centrar la estrategia de configuración.  
+Las tablas de datos de [!INCLUDE[d365fin](includes/d365fin_md.md)] se proporcionan en dos tipos básicos: principal y configuración. Cuando está estableciendo la configuración de una empresa, puede usar estos tipos para centrar la estrategia de configuración.  
 
 ### <a name="master-data-tables"></a>Tablas de datos maestros  
 En la tabla siguiente se enumeran todas las tablas de datos maestros. Cuando se inicializa una nueva empresa, estas tablas están vacías.  
@@ -60,7 +61,7 @@ En la tabla siguiente se enumeran algunas tablas de datos de configuración, en 
 |312|Configuración de compras y pagos|  
 |313|Configuración de inventario|  
 
-Además de las tablas de datos de configuración, [!INCLUDE[prod_short](includes/prod_short.md)] también incluye tablas de datos de tipo de configuración que especifican información básica acerca de la empresa y sus procesos empresariales. En la tabla siguiente aparecen algunos.  
+Además de las tablas de datos de configuración, [!INCLUDE[d365fin](includes/d365fin_md.md)] también incluye tablas de datos de tipo de configuración que especifican información básica acerca de la empresa y sus procesos empresariales. En la tabla siguiente aparecen algunos.  
 
 |Tabla nº|Nombre de tabla|  
 |-------------------|--------------------|  
@@ -75,6 +76,3 @@ Además de las tablas de datos de configuración, [!INCLUDE[prod_short](includes
 [Aplicar la configuración a nuevas empresas](admin-apply-configuration-to-new-companies.md)  
 [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administración](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,32 +1,28 @@
 ---
-title: Extensión de base de migración a la nube
-description: Use la extensión de Base de migración a la nube para conectar su solución local con Business Central Online.
+title: Base de nube inteligente | Documentos de Microsoft
+description: Utilice la extensión de nube inteligente para crear una copia en la nube de sus datos de modo que esté conectado a la nube inteligente.
 author: edupont04
 manager: edupont
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2021
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8999ad14b3937ddcbc0f0935338173a35f698b30
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9139855aa90aa0505f8735660d233475cc42bf91
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136800"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250209"
 ---
-# <a name="cloud-migration-base-extension"></a>Extensión de base de migración a la nube
+# <a name="intelligent-cloud-base-extension"></a>Extensión de base de nube inteligente
 
-Esta extensión le guiará por el proceso para configurar una conexión entre su solución local y su entorno de [!INCLUDE [prod_short](includes/prod_short.md)] en línea al iniciar la migración a la nube.  
-
-Una vez configurada la conexión, puede migrar datos de su solución local a [!INCLUDE[prod_short](includes/prod_short.md)] en línea. Esta extensión funcionará junto con una extensión de replicación de datos disponible para su solución local específica. Para más información, vea [Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
+Esta extensión lo llevará a través del proceso para configurar y administrar su entorno de nube inteligente.Una vez que su entorno de nube inteligente esté configurado, podrá administrar las replicaciones de datos de su solución local de [!INCLUDE[prodshort](includes/prodshort.md)] a su suscriptor de la nube. Esta extensión funcionará junto con una extensión de replicación de datos disponible para su solución local específica.Para obtener más información, vea [Acceda a la nube inteligente](about-intelligent-cloud.md).  
 
 ## <a name="see-also"></a>Consulte también
 
-[Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
-[Extensiones inteligentes en la nube para la migración a la nube](ui-extensions-data-replication.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Acceda a la nube inteligente](about-intelligent-cloud.md)  
+[Extensión de la nube inteligente de Business Central](ui-extensions-data-replication.md)  

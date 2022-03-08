@@ -1,26 +1,26 @@
 ---
-title: Subcontratación de fabricación
-description: Este tema ofrece una descripción general ampliada de la funcionalidad ampliada de la subcontratación en Business Central, incluidos los campos del centro de trabajo y la ruta.
+title: Cómo subcontratadas fabricación | Documentos de Microsoft
+description: Cuando el pedido de compra se haya creado en la hoja de subcontratación, se puede registrar.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 99000886
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 116c19964bde7cc58a2c90be1f6b9143ceca3af6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 08/10/2020
+ms.author: sgroespe
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132737"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677313"
 ---
 # <a name="subcontract-manufacturing"></a>Subcontratación de fabricación
-
 La subcontratación de operaciones seleccionadas al proveedor es común de muchas empresas de fabricación. La subcontratación puede ser esporádica o puede formar parte integrante de todos los procesos de producción.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ofrece varias herramientas para gestionar el trabajo subcontratado:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ofrece varias herramientas para gestionar el trabajo subcontratado:  
 
 - Centros de trabajo con proveedor asignado: esta característica le permite configurar un centro de trabajo asociado a un proveedor (subcontratista). Se denomina centro de trabajo subcontratado. Puede especificar un centro de trabajo subcontratado en una operación de ruta, con lo que le resultará muy sencillo procesar la actividad subcontratada. Además, el coste de la operación se puede indicar en el nivel de la ruta o del centro de trabajo.  
 - Coste del centro de trabajo basado en unidades o tiempo: esta característica le permite especificar si los costes asociados al centro de trabajo se basan en el tiempo de producción o en una tarifa plana por unidad. Si bien los subcontratistas suelen usar una tarifa plana por unidad en sus servicios, la aplicación puede manejar las dos opciones (tiempo de producción y tarifa plana por unidad).  
@@ -52,7 +52,7 @@ Las funciones de la página **Hoja subcontratación** como **Hoja planificación
 >  En las hojas de subcontratación, sólo se pueden ver y utilizar las órdenes de producción que tengan el estado de **Lanzadas**.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Para calcular la hoja de subcontratación  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja subcontratación** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
 2.  Para calcular la hoja, seleccione la acción **Calcular subcontratos**.  
 3.  En la página **Calcular subcontratos**, defina filtros para operaciones subcontratadas, o los centros de trabajo donde se realizan, para calcular solo las órdenes de producción correspondientes.  
 4.  Elija el botón **Aceptar**.  
@@ -60,7 +60,7 @@ Las funciones de la página **Hoja subcontratación** como **Hoja planificación
     Revise las líneas en la página **Hoja subcontratación**. La información de esta hoja de cálculo proviene de la orden de producción y de las líneas de ruta y flujos de la orden de producción del pedido de compra cuando se crea el documento. Puede eliminar una fila de la hoja de cálculo sin asignar a la información original, tal como puede hacer con las otras hojas de cálculo. La información reaparecerá la siguiente vez que ejecute la función de **Calcular subcontratos**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Para generar el pedido de compra subcontratado  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja subcontratación** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja subcontratación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Ejecutar mensajes de acción**.  
 3.  Seleccione el campo **Imprimir pedidos** para imprimir el pedido de compra al crearlo.  
 4.  Elija el botón **Aceptar**.  
@@ -73,7 +73,7 @@ La línea de la hoja de trabajo que se convirtió en pedido de compra se elimina
 Una vez que se han creado los pedidos de compra del subcontratista, se pueden registrar. La recepción del pedido registra un movimiento de capacidad en la orden de producción y la facturación del pedido registra el coste directo del pedido de compra en la orden de producción.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Para registrar un pedido de compra de subcontratación  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Pedidos de compra** y luego elija el enlace relacionado.  
 2.  Abra un pedido de compra creado en la hoja de subcontratación.  
 
     En las líneas del pedido de compra, puede ver la misma información que estaba en la hoja de cálculo. Los campos **Nº orden producción**, **Nº lín. orden producc.**, **Nº operación** y **Nº centro trabajo** se rellenan con la información del pedido de producción de origen.  
@@ -95,7 +95,4 @@ Cuando se registra el pedido de compra como facturado, el coste directo de dicho
 [Planificación](production-planning.md)      
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

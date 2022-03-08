@@ -2,16 +2,17 @@
 title: Configurar términos de pago
 description: En la versión básica de Business Central, utilice las condiciones de pago para administrar las fechas de vencimiento y los descuentos de pago.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a81713fb0b3a742beeaaceca45b69c57b9a5f0c8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135989"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971971"
 ---
 # <a name="set-up-payment-terms"></a>Configurar términos de pago
 

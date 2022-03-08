@@ -2,20 +2,20 @@
 title: Configurar información de inventario general
 description: Describe cómo definir la configuración de existencias general para que pueda administrar su almacén y stock.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: 2013c378c3b95947e0615371bcb1fb5100df78aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc52935e743b0e8af4f934c040898e64665843fc
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135885"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688256"
 ---
 # <a name="set-up-general-inventory-information"></a>Configurar información de inventario general
 

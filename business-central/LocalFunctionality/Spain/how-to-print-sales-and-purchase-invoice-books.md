@@ -1,20 +1,23 @@
 ---
 title: Impresión de libros de facturas emitidas y recibidas
 description: Los informes Libro facturas emitidas y Libro facturas recibidas permiten comprobar todos los documentos de compras y ventas creados en un periodo específico.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 4968bb96d1230ea675655aaeb6622b9000892cb7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 2fe2d5af5f245da41ea933f531017ebede7d4255
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136662"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301089"
 ---
 # <a name="print-sales-and-purchase-invoice-books"></a>Imprimir libros de facturas emitidas y recibidas
 Los informes **Libro facturas emitidas** y **Libro facturas recibidas** permiten comprobar todos los documentos de compras y ventas creados en un periodo específico.  
@@ -29,7 +32,7 @@ Los informes **Libro facturas emitidas** y **Libro facturas recibidas** se puede
 
 ## <a name="to-print-sales-invoice-book-and-purchase-invoice-book-reports"></a>Para imprimir los informes Libro de facturas emitidas y Libro de facturas recibidas  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libro facturas de venta** o escriba **Libro facturas recibidas** y luego elija el enlace relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Libro facturas emitidas** o **Libro facturas recibidas** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Opción|Description|  
@@ -41,6 +44,3 @@ Los informes **Libro facturas emitidas** y **Libro facturas recibidas** se puede
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

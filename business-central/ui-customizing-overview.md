@@ -1,21 +1,22 @@
 ---
-title: Personalizar Business Central
-description: Lea acerca de las diferentes formas de personalizar Business Central para mejorar el acceso a las funciones y características que más necesita según se adapte a su trabajo diario.
+title: Personalizar Business Central | Documentos de Microsoft
+description: Obtenga información acerca de cómo personalizar Business Central y agregar funcionalidades.
+documentationcenter: ''
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/23/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6eea88cf254b4d1b299a54c47d0e87774f0b21ae
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5cc03c8b5fb11ecc0a34d83b1ea6dfaeae791e9d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335300"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782398"
 ---
 # <a name="customize-business-central"></a>Personalizar Business Central
 Existen diferentes formas de personalizar la aplicación para tener acceso a las funciones, la funcionalidad y los datos que más necesitan, de la manera que mejor se adapte a su trabajo diario. Aquellos que vean los cambios dependerán de lo que haga, como se describe en esta tabla.
@@ -30,12 +31,9 @@ Existen diferentes formas de personalizar la aplicación para tener acceso a las
 |Habilitar colores en áreas de trabajo para designar la importancia.|Configure pilas para que aparezcan en las áreas de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de las pilas.|Todos los usuarios en una empresa específica.|[Configurar un indicador de color en pilas](admin-how-set-up-colored-indicator-on-cues.md)|
 |Instalar una extensión|Las extensiones son como pequeñas aplicaciones que agregan funcionalidades, cambian el comportamiento, proporcionan acceso a nuevos servicios en línea y más. Por ejemplo, Microsoft ofrece una extensión que proporciona integración con PayPal Payments Standard.|Todos los usuarios en todas las empresas.|[Personalizar con extensiones](ui-extensions.md)|
 > [!NOTE]
-> Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[prod_short](includes/prod_short.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario. Por lo tanto, los usuarios con la experiencia **Esencial** pueden leer en algunos temas acerca de la funcionalidad y los elementos de la IU que no están visibles en su interfaz de usuario. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+> Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[d365fin](includes/d365fin_md.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario. Por lo tanto, los usuarios con la experiencia **Esencial** pueden leer en algunos temas acerca de la funcionalidad y los elementos de la IU que no están visibles en su interfaz de usuario. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

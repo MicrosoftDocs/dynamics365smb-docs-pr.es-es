@@ -1,20 +1,21 @@
 ---
-title: Elegir productos
-description: La actividad de realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén.
+title: Elegir productos | Documentos de Microsoft
+description: La actividad de almacén consistente en realizar el picking de los productos antes de enviarlos o consumirlos se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad de la configuración puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones de almacén básicas para la gestión pedido-por-pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
-ms.date: 06/25/2021
+ms.search.keywords: ''
+ms.date: 06/30/2020
 ms.author: edupont
-ms.openlocfilehash: 9933982018e274b2ea84d568d56fee0d3aee73d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f051eb1267fd7ce9a45da23bf99007a21f039cf6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139075"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784901"
 ---
 # <a name="pick-items"></a>Elegir productos
 
@@ -47,10 +48,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 ## <a name="see-also"></a>Consulte también  
 [Gestión de almacenes](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de Warehouse Management](warehouse-setup-warehouse.md) 
-[Administración de ensamblados](assembly-assemble-items.md)
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
+[Gestión de ensamblaje](assembly-assemble-items.md)    
+[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

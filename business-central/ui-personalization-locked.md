@@ -1,29 +1,29 @@
 ---
-title: Por qué no puedo personalizar una página
+title: Por qué no puedo personalizar una página | Documentos de Microsoft
 description: Explica por qué no puede personalizar una página y qué puede hacer para desbloquearla.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd94d467961cf4f01fdffa35241d84371be64527
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 0bd24833f37fe70f8e642685be4d28dbb593a16d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335323"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923400"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Por qué la página está bloqueada para evitar la personalización
 
-Hay dos condiciones que le impiden personalizar una página. La página está bloqueada (como se indica en el icono ![Personalización bloqueada.](media/personalization-lock-icon.png "Bloqueo de personalizacion")) o está bloqueada (como se indica en el icono ![Bloqueo de personalización.](media/personalization-blocked-icon.png "Personalización bloqueada") ).
+Hay dos condiciones que le impiden personalizar una página. La página está bloqueada (como se indica en el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Bloqueo de personalizacion")) o está bloqueada (como se indica en el icono ![Bloqueo de personalización](media/personalization-blocked-icon.png "Personalización bloqueada")).
 
 ## <a name="locked-from-personalizing"></a>Bloqueado para evitar la personalización
 
-Si hay un icono ![Personalizar bloqueo.](media/personalization-lock-icon.png "Bloqueo de personalizacion") en el banner **Personalización** cuando abre una página, significa que actualmente se le impide realizar más cambios de personalización en la página.
+Si hay un icono ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalizacion") en el banner **Personalización** cuando abre una página, significa que actualmente se le impide realizar más cambios de personalización en la página.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -50,7 +50,7 @@ Antes de desbloquear la página, tenga en cuenta lo siguiente:
 
 Si hay un icono ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner **Personalización**, significa que se le impide hacer cualquier personalización de la página.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 
 La razón de esto es que el área de trabajo o rol que está actualmente asociado con su cuenta de usuario modifica esta página específicamente para su rol. Póngase en contacto con su administrador para obtener ayuda. Alternativamente, intente cambiar a un área de trabajo que incluya la adaptación de roles para esta página. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
 
@@ -59,6 +59,3 @@ La razón de esto es que el área de trabajo o rol que está actualmente asociad
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

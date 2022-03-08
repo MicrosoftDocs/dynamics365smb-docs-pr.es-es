@@ -1,20 +1,21 @@
 ---
-title: Crear ubicaciones desde ubicaciones internas
-description: Este tema trata sobre cómo realizar picking y ubicación sin un documento de origen, cómo crear un picking interno y cómo crear una ubicación interna.
+title: Para crear una ubicación desde la ubicación interna | Documentos de Microsoft
+description: Una vez ubicados los productos y antes de que se realice el picking de los mismos para cubrir las necesidades de una orden de producción o un envío, los productos se almacenan en el almacén como parte de las existencias disponibles.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5095b4dde92b2d6982bfc8a984f10f5b62454800
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140090"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756247"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Realizar el picking y la ubicación sin un documento de origen
 Una vez ubicados los productos y antes de que se realice el picking de los mismos para cubrir las necesidades de una orden de producción o un envío, los productos se almacenan en el almacén como parte de las existencias disponibles.  
@@ -33,30 +34,21 @@ Los **Picking internos** le permiten realizar ubicaciones sin tener que hacer re
 >  Cuando el almacén utiliza ubicación y picking directos y, por tanto, utiliza tipos de ubicaciones, no puede mover manualmente productos dentro o fuera de una ubicación de tipo RECEPCIÓN, porque los productos que están en una ubicación de tipo RECEPCIÓN deben ubicarse antes de que formen parte del inventario disponible.  
 
 ## <a name="to-create-an-internal-pick"></a>Para crear un picking interno  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking interno alm.** y, a continuación, elija el vínculo relacionado.  
-2. Seleccione la acción **Nuevo**.
-3. Rellene el campo **No.**. **Código de almacén** y el campo **Hasta código de ubicación** de la ficha desplegable **General**. El campo **Hasta código de ubicación** especifica la ubicación donde deea colocar los productos recogidos. Para producción, esta ubicación sería la ubicación de producción de entrada o la ubicación de planta abierta. Para otros fines, seleccione un código de ubicación de tipo ubicación que no se utilice para recogida, probablemente una ubicación especial, de envío o intermedia.  
-4.  Seleccione un producto en el campo **Nº producto** y rellene las cantidades que desea realizar el picking.  
-5. Elija la acción **Crear picking**. Ahora está preparada una instrucción de picking de almacén para que un empelado la ejecute. Alternativamente, puede elegir la acción **Liberar** y crear recogidas de almacén utilizando la **Hoja de trabajo de recogidas**. Para obtener más información, consulte [Planificar recogidas en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md)
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Picking interno almacén** y luego elija el enlace relacionado.  
+2.  Rellene el campo **No.**. y **Hasta cód. ubicación** de la ficha desplegable **General**. El campo **Hasta cód. ubicación** especifica la ubicación desde la que desea traer los productos. Para producción, esta ubicación sería la ubicación de producción de entrada o la ubicación de planta abierta. Para otros fines, seleccione un Hasta cód. ubicación de tipo ubicación que no se utilice para picking, probablemente una ubicación especial, de envío o intermedia.  
+3.  Seleccione un producto en el campo **Nº producto** y rellene las cantidades que desea realizar el picking.  
+4. Elija la acción **Crear picking**. Ahora está preparada una instrucción de picking de almacén para que un empelado la ejecute.  
 
 ## <a name="to-create-an-internal-put-away"></a>Para crear un ubicación interna  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicación interna alm.** y, a continuación, elija el vínculo relacionado.  
-2. Seleccione la acción **Nuevo**.
-3. Rellene la cabecera de una nueva ubicación interna con, al menos, el **N.º** y el **Código de almacén**.
-4. Rellene una línea por cada producto que desea mover al almacén. Sólo tiene que rellenar los campos **Nº producto** y **Cantidad**.
-
-  > [!NOTE]  
-  > Al seleccionar el campo **N.º producto**, se abrirá la **Lista de contenidos de ubicaciones** en vez de la **Lista de productos**. Esto es porque desea ubicar un producto que está en una ubicación determinada, el *contenido de ubicación*, no solo un producto y ya conoce la ubicación desde la que se debe traer el producto.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
-5. Para rellenar las líneas con todo el contenido de la ubicación o el contenido filtrado de las ubicaciones del almacén, elija la acción **Obtener contenido de ubicación**.  
-6. Seleccione la acción **Crear ubicación**. Ahora está preparada una instrucción de ubicación de almacén para que un empelado la ejecute. Alternativamente, puede elegir la acción **Liberar** y crear colocaciones de almacén utilizando la **Hoja de trabajo de colocaciones**. Para obtener más información, consulte [Planificar colocaciones en hojas de trabajo](warehouse-how-to-plan-put-aways-in-worksheets.md)
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Ubicación interna alm.** y luego elija el enlace relacionado.  
+2.  Rellene el campo **No.**. y **Desde cód. ubicación** de la ficha desplegable **General**. El campo **Desde cód. ubicación** especifica la ubicación donde se encuentran los productos devueltos al almacén, probablemente de producción.  
+3.  Rellene los números y las cantidades de productos de las líneas.  
+4.  Seleccione la acción **Crear ubicación**. Ahora está preparada una instrucción de ubicación de almacén para que un empelado la ejecute.  
 
 ## <a name="see-also"></a>Consulte también  
-[Gestión de almacenes](warehouse-manage-warehouse.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Gestión almacén](warehouse-manage-warehouse.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,22 @@
 ---
-title: Mostrar información útil en las áreas de trabajo
-description: Conozca cómo la extensión Información de la empresa esencial rota una serie de ideas comerciales en las áreas de trabajo.
+title: Mostrar información útil en las áreas de trabajo | Documentos de Microsoft
+description: La extensión Información de la empresa esencial rota una serie de ideas comerciales en las áreas de trabajo.
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 75081547af3c98233870d0cbe68860ab52d8c38d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 88aba42c6d30cb28020386f265150a0a8f201179
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134774"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915165"
 ---
 # <a name="the-essential-business-insights-extension"></a>La extensión Información de la empresa esencial
 La extensión Información de la empresa esencial encuentra hechos comerciales interesantes en los datos de su empresa y los muestra como titulares de periódico en las áreas de trabajo. En función de lo que encuentre la extensión en los datos, la información será de la última semana, mes o tres meses desde la fecha actual. La información se actualiza cada 10 minutos.  
@@ -36,7 +37,4 @@ En la tabla siguiente se describe la información que esta extensión proporcion
 |Administrador| Mostrará un saludo y el vínculo a la información del producto.|
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)

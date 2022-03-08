@@ -1,20 +1,21 @@
 ---
-title: 'Detalles de diseño: Flujo de entrada en almacén'
-description: El flujo de entrada en almacén comienza cuando los artículos llegan a la ubicación de la empresa de almacén. Los productos se registran y finalmente se comparan con los documentos de origen entrantes.
+title: 'Detalles de diseño: Flujo de entrada en almacén | Documentos de Microsoft'
+description: El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132008"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922147"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
 El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  
@@ -34,7 +35,7 @@ Los dos últimos representan los flujos de entrada al almacén desde las áreas 
 
 Los procesos y los documentos de interfaz de usuario en los flujos de almacén de entrada varían según el la configuración básica y avanzada de almacén. La diferencia principal es que las actividades se realizan pedido a pedido en la configuración básica de almacén y se consolidan para varios pedidos en la configuración avanzada. Para obtener más información acerca de los diferentes niveles de complejidad de almacenes, consulte [Detalles de diseño: Resumen de almacén](design-details-warehouse-setup.md).  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de entrada para recepción y ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
+En [!INCLUDE[d365fin](includes/d365fin_md.md)], los procesos de entrada para recepción y ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
 |Método|Proceso de salida|Ubicaciones|Recepciones|Ubicaciones|Nivel de complejidad (consulte [Detalles de diseño: configuración de almacén](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -50,7 +51,7 @@ En los métodos A, B y C, las acciones de recepción y ubicación se agrupan en 
 ## <a name="basic-warehouse-configurations"></a>Configuración básica de almacén  
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en las configuraciones básicas de almacén.](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en las configuraciones básicas de almacén")  
+![Flujo de entrada en las configuraciones básicas de almacén](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en las configuraciones básicas de almacén")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Lanzar documento de origen/Crear ubicación de inventario  
 Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario. El usuario también puede crear mediante envío documentos de ubicación de inventario para líneas de pedido particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
@@ -69,7 +70,7 @@ Se crean movimientos de producto positivos, se crean movimientos de almacén y s
 ## <a name="advanced-warehouse-configurations"></a>Configuración avanzada de almacén  
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en las configuraciones avanzadas de almacén.](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en las configuraciones avanzadas de almacén")  
+![Flujo de entrada en las configuraciones avanzadas de almacén](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en las configuraciones avanzadas de almacén")  
 
 ### <a name="1-release-source-document"></a>1: Lanzar documento de origen  
 Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario.  
@@ -109,6 +110,3 @@ Se crean movimientos de almacén y se eliminan las líneas de ubicación de alma
 
 ## <a name="see-also"></a>Consulte también  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

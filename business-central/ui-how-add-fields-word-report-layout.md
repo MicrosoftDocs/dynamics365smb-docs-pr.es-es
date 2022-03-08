@@ -1,20 +1,21 @@
 ---
-title: Agregar campos a un diseño de informe de Word
-description: Este tema describe cómo agregar campos de un conjunto de datos de informe a un diseño de informe de Word para un informe.
+title: Agregar campos a un diseño de informe de Word | Documentos de Microsoft
+description: Describe cómo agregar campos de un conjunto de datos de informe a un diseño de informe de Word para un informe.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/25/2021
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 036b6964b8a0e468bdfc4d2f3e44824b3daac9ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144728"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771115"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Agregar campos a un diseño de informe de Word
 Un conjunto de datos de informe puede constar de campos que muestran etiquetas, datos e imágenes. Este tema describe el procedimiento para agregar campos de un conjunto de datos de informe a un diseño de informe de Word para un informe. Agregue campos al informe mediante el elemento XML personalizado de Word y mediante la adición de controles de contenido que asignen los campos al conjunto de datos del informe. La adición de campos requiere tener conocimientos del conjunto de datos del informe, de forma que pueda identificar los campos que desea agregar al diseño.  
@@ -34,7 +35,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
   
 3.  En la pestaña **Desarrollador**, elija **Panel de asignación XML**.  
   
-4.  En el panel **Asignación XML**, en la lista desplegable **Elemento XML personalizado**, seleccione el elemento XML personalizado para el informe de [!INCLUDE[prod_short](includes/prod_short.md)], que suele ser el último en la lista. El nombre del elemento XML personalizado tiene el formato siguiente:  
+4.  En el panel **Asignación XML**, en la lista desplegable **Elemento XML personalizado**, seleccione el elemento XML personalizado para ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> informe, que suele ser el último de la lista. El nombre del elemento XML personalizado tiene el formato siguiente:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -77,7 +78,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
  Las imágenes se alinean en la esquina superior izquierda del control de contenido y cambian su tamaño automáticamente para ajustarse a los límites del control de contenido.  
   
 > [!IMPORTANT]  
->  Puede agregar solo imágenes que tengan formato compatible con Word, como tipos de archivo .bmp, .jpeg y .png. Si agrega una imagen que tenga un formato no admitido en Word, recibirá un error cuando ejecute el informe desde el cliente de [!INCLUDE[prod_short](includes/prod_short.md)].  
+>  Puede agregar solo imágenes que tengan formato compatible con Word, como tipos de archivo .bmp, .jpeg y .png. Si agrega una imagen que tenga un formato no admitido en Word, recibirá un error cuando ejecute el informe desde el cliente de ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> .  
   
 #### <a name="to-add-an-image"></a>Para agregar una imagen  
   
@@ -106,11 +107,11 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
 ### <a name="custom-xml-part-in-word"></a>Elemento XML personalizado en Word  
  En Word, se abre el elemento XML personalizado en el panel **Asignación XML** y, a continuación, se usa el panel para asignar elementos a los controles de contenido en el documento de Word. El panel **Asignación XML** está disponible desde la pestaña **Desarrollador** (para obtener más información, consulte [Visualizar la pestaña Desarrollador en la cinta de opciones](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- Los elementos del panel **Asignación XML** aparecen en una estructura similar a la del origen XML. Los campos de etiqueta están agrupados en un elemento **Etiquetas** y de datos común, y las columnas están organizadas en una estructura jerárquica que corresponde al origen XML, con las columnas enumeradas en orden alfabético. Los elementos se identifican por su nombre de columna tal como se define en el informe del conjunto de datos en el código AL. Para obtener más información, consulte [Definir un conjunto de datos de informe](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
+ Los elementos del panel **Asignación XML** aparecen en una estructura similar a la del origen XML. Los campos de etiqueta están agrupados en un elemento **Etiquetas** y de datos común, y las columnas están organizadas en una estructura jerárquica que corresponde al origen XML, con las columnas enumeradas en orden alfabético. Los elementos se identifican por su nombre tal como se define mediante la propiedad Nombre del Diseñador del conjunto de datos de informes en ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
  La ilustración siguiente muestra el elemento XML simple personalizado de la sección anterior en el panel **Asignación XML** de un documento de Word.  
   
- ![Clip del panel Asignación XML en Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip del panel Asignación XML en Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Para añadir una etiqueta o un campo de datos al diseño, inserte un control de contenido asignado al elemento en el panel **Asignación XML**.  
   

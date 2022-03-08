@@ -2,6 +2,7 @@
 title: Configurar la gestión de servicio | Documentos de Microsoft
 description: Descripción general de las tareas para configurar la Gestión de servicios para adaptarla a la forma en que sus organizaciones gestionan sus servicios.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140558"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778103"
 ---
 # <a name="setting-up-service-management"></a>Configurar la gestión de servicios
 Para poder utilizar las funciones de la gestión de servicios en [!INCLUDE[prod_short](includes/prod_short.md)], hay algunos parámetros que debe configurar. Por ejemplo, puede establecer códigos para servicios estándar, síntomas y códigos de defectos, y los productos de servicio y tipos de productos de servicio que requieran las necesidades de servicio al cliente de su empresa.  

@@ -2,6 +2,7 @@
 title: 'Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"'
 description: 'Resuelva el error del mensaje "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas" al ejecutar el trabajo por lotes Ajustar coste: movimientos de producto.'
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 1694bc0267e32d2af4af1202b2dfd1ad4b46ba55
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 68d0fc68b799306fafa4e4fc0fb5f6cb146faca9
+ms.sourcegitcommit: 772af6954539c65743d1a2f59e8a37d30bd30278
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139760"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557307"
 ---
 # <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"
 

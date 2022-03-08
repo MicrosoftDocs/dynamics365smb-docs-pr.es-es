@@ -2,20 +2,21 @@
 title: Configurar el impuesto sobre el valor añadido
 description: Asegúrese de que calcula, registra y crea informes correctamente del IVA de las ventas y las compras. Es recomendable que use la guía de configuración asistida para configurar el IVA.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 12/28/2021
 ms.author: bholtorf
-ms.openlocfilehash: 18087426a99d232a27c053c0e4ffd32440ee704c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af73c229ec8c9ebb9e530012360ce6baa7495fd8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146519"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972832"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 
@@ -41,7 +42,7 @@ Es recomendable que use la guía de configuración asistida Configuración de IV
 
 Para iniciar la guía de configuración asistida, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida**.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida**.  
 2. Escoger **Configurar IVA** y completa los pasos.
 3. Cuando haya completado la configuración asistida, visite la página **Configuración de registro de IVA** y verifique si debe completar campos adicionales de acuerdo con los requisitos locales de su versión de [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Funciones locales en Business Central](about-localization.md)  
 
@@ -51,7 +52,7 @@ Para ayudar a garantizar que las personas introduzcan números CIF/NIF válidos,
 
 Para configurar números CIF/NIF, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Países/Regiones**.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Países/Regiones**.
 2. Elija el país o región y después elija la acción **Formatos CIF/NIF**.
 3. En el campo **Formatos**, puede definir el formato introduciendo uno o varios de los siguientes caracteres:  
 
@@ -70,7 +71,7 @@ Use códigos fáciles de recordar y que describan el grupo de registro de negoci
 
 Para configurar un grupo de registro de IVA de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupo de registro de IVA de negocio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupo de registro de IVA de negocio** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
 Para configurar grupos de registro de IVA de negocio predeterminados deberá vincularlos a grupos contables de negocio. [!INCLUDE[prod_short](includes/prod_short.md)]asigna automáticamente el grupo de registro de IVA de negocio cuando asigne el grupo de registro de negocio relevante a un cliente, proveedor o cuenta contable.
@@ -82,7 +83,7 @@ Conviene utilizar códigos que sean fáciles de recordar y que describan el tipo
 
 Para configurar un grupo de registro de IVA de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Combinar grupos de registro de IVA en configuraciones de registro de IVA
@@ -93,7 +94,7 @@ Configure tambas combinaciones como necesite. Si desea agrupar las combinaciones
 
 Para combinar las configuraciones de registro de IVA, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 5.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Asignar los grupos de registro de IVA de forma predeterminada a varias entidades
@@ -105,26 +106,26 @@ Si desea aplicar los mismos grupos de registro de IVA a varias entidades, puede 
 
 El grupo de registro de IVA de negocio o de producto se asigna cuando elige un grupo de registro de IVA de negocio o de producto para un cliente, un proveedor, un producto o un recurso.
 
-## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Asignar grupos de registro de IVA a cuentas, clientes, proveedores, artículos y recursos
+## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Asignar grupos de registro de IVA a cuentas, clientes, proveedores, productos y recursos
 
 En las secciones siguientes se describe cómo asignar los grupos de registro de IVA de negocio a los objetos individuales.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Para asignar grupos de registro de IVA a cuentas contables individuales
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 6.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. Abre la ficha **Cuenta** de la cuenta.  
 3. En la ficha desplegable **Registro**, en el campo **Tipo IVA**, elija **Venta** o **Compra**.  
 4. Elija los grupos de registro de IVA que se usarán para la cuenta de venta o de compra.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Para asignar grupos de registro de IVA a clientes y proveedores
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 7.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
 2. En la ficha **Cliente** o **Proveedor**, amplíe la ficha desplegable **Facturación**.  
 3. Elija el grupo de registro de IVA de negocio.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Para asignar grupos de registro de IVA de producto a productos y recursos individuales
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 8.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Producto** o **Recurso** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Producto** o **Recurso** y luego elija el enlace relacionado.  
 2. Realice una de las siguientes acciones:  
 
     * En la ficha **Producto**, expanda la ficha desplegable **Precio y registro** y haga clic en **Mostrar más** para mostrar el campo **Grupo registro IVA producto**.  
@@ -143,7 +144,7 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 
 ### <a name="to-set-up-vat-clauses"></a>Para configurar las cláusulas de IVA
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 9.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
 2. En la página **Cláusulas de IVA**, cree una nueva línea.  
 3. En el campo **Código**, especifique un identificador para la cláusula. Utilice este código para asignar la cláusula a grupos de registro de IVA.  
 4. En el campo **Descripción**, escriba el texto de exención de IVA que desea mostrar en los documentos que pueden incluir el IVA. En el campo **Descripción 2**, escriba texto adicional, en caso necesario. El texto aparecerá en nuevas líneas de documento.
@@ -154,12 +155,12 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Para asignar una cláusula de IVA a una configuración de registro de IVA
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 10.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.  
 2. En la columna **Cláusula de IVA**, seleccione la cláusula que se usará por cada configuración de registro de IVA al que se aplique.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Para especificar las traducciones de las cláusulas de IVA
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 11.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
 2. Elija la acción **Traducciones**.  
 3. En el campo **Código idioma**, seleccione el idioma al que realizará la traducción.  
 4. En los campos **Descripción** y **Descripción 2**, especifique las traducciones de las descripciones. Este texto se muestra en los documentos de informes de IVA traducidos.  
@@ -170,9 +171,9 @@ Puede usar la característica de *IVA de importación* cuando necesite registrar
 
 Para configurar los códigos del IVA de importación, realice los pasos siguientes:  
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 12.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
 2. En la página Grupos de registro de IVA de producto, configure un nuevo grupo de registro de IVA de producto para el IVA de importación.  
-3. Elija el icono ![Bombilla que abre la característica Dígame 13.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el vínculo relacionado.  
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.  
 4. En la página Configuración de registro de IVA, cree una nueva línea o use una combinación de grupos de registro de IVA de negocio ya existente y el nuevo grupo de registro de IVA de producto.  
 5. En el campo **Tipo cálculo IVA**, elija **Total**.  
 6. En el campo **Cta. IVA acreditable**, escriba la cuenta que se utilizará para registrar el IVA de importación. Las demás cuentas son opcionales.  
@@ -200,13 +201,7 @@ Cuando registre una venta a un cliente de otro país o región de la UE, se calc
 
 ## <a name="vat-rounding-for-documents"></a>Redondeo del IVA en los documentos
 
-Los importes de los documentos que todavía no se han registrado se redondean y se muestran para que ajusten al redondeo final de los importes que realmente se registren. El IVA se calcula para un documento completo, lo que significa que el IVA se calcula según la suma de todas las líneas con el mismo identificador de IVA en el documento.  
-
-## <a name="set-up-vat-reporting"></a>Configurar informes de IVA
-
-Debe configurar la información sobre cómo las autoridades fiscales de su país o región requieren que presente informes de IVA. Los siguientes pasos ilustran la información más utilizada habitualmente. Sin embargo, su país o región puede requerir pasos adicionales. Para obtener más información, consulte el artículo correspondiente en la sección *Funcionalidad local* del panel de la izquierda.
-
-[!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
+Los importes de los documentos que todavía no se han registrado se redondean y se muestran para que ajusten al redondeo final de los importes que realmente se registren. El IVA se calcula para un documento completo, lo que significa que el IVA se calcula según la suma de todas las líneas con el mismo identificador de IVA en el documento.
 
 ## <a name="see-also"></a>Consulte también
 

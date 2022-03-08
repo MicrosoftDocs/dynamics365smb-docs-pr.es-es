@@ -1,27 +1,28 @@
 ---
-title: Cambiar el importe anual de los contratos de servicio o las ofertas de contrato
+title: Cómo cambiar el importe anual de los contratos de servicio o las ofertas de contrato | Documentos de Microsoft
 description: puede cambiar el importe que se facturará anualmente en el contrato de servicio o las ofertas de contrato de servicio.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c131e7b93a73bbcc0a7977f11e70518961b77134
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: adb6cb718f0f63eb5b12b62f1d40f1d8ea0c70d1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134956"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250807"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Cambiar el importe anual de los contratos de servicio o las ofertas de contrato
 Puede cambiar el importe anual del contrato de servicio u oferta de contrato para corregir el importe que se facturará anualmente.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Para cambiar el importe anual del contrato de servicio o la oferta de contrato  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Contratos servicio** u **Ofertas contrato servicio** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), especifique **Contratos servicio** u **Ofertas contrato servicio** y, a continuación, elija el vínculo relacionado.  
 2. Elija el contrato o la oferta de contrato.  
 3. Elija la acción **Abrir contrato** para abrir el contrato u oferta de contrato para su modificación.  
 4. Seleccione la casilla **Permite importes sin saldar** si desea cambiar el importe anual y distribuir la diferencia del importe anual manualmente en la líneas de contrato. En caso contrario, desactive la casilla para distribuir automáticamente la diferencia de importe anual automáticamente en las líneas de contrato después de cambiar el importe anual.  
@@ -79,9 +80,47 @@ Si cambia el importe anual del contrato de servicio o de la oferta de contrato, 
     * % Descuento línea = Importe dto. línea / Valor línea * 100  
     * Bfº bruto = Importe línea - Coste línea  
 
+### <a name="distribution-based-on-line-amount"></a>Distribución basada en Importe de línea
+Si cambia el importe anual del contrato de servicio o de la oferta de contrato, quizás le interese distribuir la diferencia entre los importes anuales nuevos y calculados en las líneas de contrato. La distribución basada en importe de línea es un método automático que le pueden ayudar a repartir la diferencia de importes anuales nuevos y calculados entre los importes de líneas en las líneas de contrato. La distribución se realizará para repartir de forma proporcional el importe de línea en el importe anual calculado. La siguiente lista de los pasos del procedimiento de distribución para cada línea de contrato describe la idea principal de este método:  
+
+1. La contribución del porcentaje del importe de línea se calcula del siguiente modo: el contenido del campo **Importe línea** se divide entre los valores del campo **Importe anual calculado** en todas las líneas de contrato.  
+2. El valor del campo **Importe línea** se actualiza sumándole la diferencia entre los importes anuales nuevos y calculados, que se multiplica por la contribución del porcentaje de importe de línea.  
+3. El contenido de los campos **Importe dto. línea**, **% Descuento línea** y **Bfº bruto** se actualiza en relación con el nuevo valor del campo **Importe dto. línea** de la siguiente forma:  
+
+    * Importe dto. línea = Valor línea - Importe línea  
+    * % Descuento línea = Importe dto. línea / Valor línea * 100  
+    * Bfº bruto = Importe línea - Coste línea  
+
 Los pasos se repiten para cada línea de contrato.  
 
 #### <a name="example"></a>Ejemplo:  
+La casilla de verificación **Permite importes sin saldar** no está activada en el contrato de servicio que contiene tres líneas de contrato con esta información.  
+
+|Producto|Coste línea|Valor línea|% Descuento línea|Importe dto. línea|Importe línea|Bfº bruto|  
+|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
+|Producto 1|15.00|17.00|3.00|0.51|25.00|1.49|  
+|Producto 2|20,00|23.00|Ninguno|0.00|55.10|3.00|  
+|Producto 3|24.00|27.00|3.00|0.81|112.70|2.19|  
+
+El valor del campo **Importe anual** es igual que el contenido del campo **Importe anual calculado**, que siempre se establece en la suma de los importes de las líneas. En este caso, es igual a lo siguiente: 16,49 + 23,00 + 26,19 = 65,68.  
+
+Si cambia el **Importe anual** a 60, se calcularán las contribuciones del porcentaje de las ganancias para cada línea de contrato:  
+
+* Producto 1 – 5 / (5 + 5,1 +12,7) = 0,2193 %  
+* Producto 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
+* Producto 3 – 12,7 / (5 + 5,1 + 12,7) = 0,557  
+
+El valor del campo **Importe línea** se actualiza en cada línea de contrato mediante la siguiente fórmula: Importe línea = Importe línea + diferencia entre los importes anuales nuevos y calculados * Porcentaje de contribución. Después de eso, los valores de los campos **Importe dto. línea**, **% Descuento línea** y **Bfº bruto** se actualizan con las fórmulas descritas en el procedimiento anterior.  
+
+Finalmente, las líneas del contrato tendrán los siguientes datos:  
+
+|Producto|Coste línea|Valor línea|% Descuento línea|Importe dto. línea|Importe línea|Bfº bruto|  
+|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
+|Producto 1|15.00|17.00|11.41|1.94|15.06|0.06|  
+|Producto 2|20,00|23.00|8.65|1.99|21.01|1.01|  
+|Producto 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   % Descuento línea = Importe dto. línea / Valor línea * 100  
+
+#### <a name="example"></a>Ejemplo  
 La casilla de verificación **Permite importes sin saldar** no está activada en el contrato de servicio que contiene tres líneas de contrato con esta información.  
 
 |Producto|Coste línea|Valor línea|% Descuento línea|Importe dto. línea|Importe línea|Bfº bruto|  
@@ -149,6 +188,3 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 ## <a name="see-also"></a>Consulte también  
 [Creación de contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

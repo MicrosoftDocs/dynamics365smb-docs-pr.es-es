@@ -1,20 +1,21 @@
 ---
-title: Recibir productos
-description: Este tema es una descripción general de las diferentes formas de recibir productos en un almacén, por ejemplo, productos con una orden de compra o productos con un recibo de almacén.
+title: Cómo recibir productos | Documentos de Microsoft
+description: Cuando los productos llegan al almacén, se recuperan las líneas del documento de origen que ha activado su recepción. 
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
-ms.date: 06/24/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c5a0ebaad14e33ec15df9f6483a397715a167a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144442"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911951"
 ---
 # <a name="receive-items"></a>Recibir productos
 
@@ -26,7 +27,7 @@ Cuando los productos llegan al almacén, se recuperan las líneas del documento 
 
 A continuación se describe cómo recibir productos con un pedido de compra. Los pasos son iguales para las órdenes de devolución de venta y las órdenes de transferencia.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Pedidos de compra** y luego elija el enlace relacionado.
 2. Abra un pedido de compra existente o cree uno nuevo. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 3. Escriba la cantidad recibida en el campo **Cantidad a recibir**.
 
@@ -42,7 +43,7 @@ A continuación se describe cómo recibir productos con un pedido de compra. Los
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Para recibir productos con recibo de almacén
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recepciones almacén** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 
     Rellene los campos en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.  
@@ -95,7 +96,7 @@ Debe definir un porcentaje según el cual permite que se exceda la cantidad pedi
 
 A continuación, se describe cómo configurar y asignar un código de recepción en exceso a un artículo. Los pasos son parecidos para un proveedor.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Productos** y luego elija el enlace relacionado.
 2. Abra la tarjeta para un artículo que sospecha que a veces se puede entregar con una cantidad mayor que la solicitada.
 3. Elija el botón de búsqueda en el campo **Código de recepción en exceso**.
 4. Seleccione la acción **Nuevo**.
@@ -122,7 +123,7 @@ Cuando administra una recepción en exceso, puede aumentar el valor del campo **
 2. Publique la recepción como lo haría con cualquier otra.
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] no incluye funcionalidad para iniciar automáticamente la administración financiera de las recepciones en exceso. Debe administrar manualmente esto de acuerdo con el proveedor, por ejemplo, enviando una factura nueva o actualizada.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] no incluye funcionalidad para iniciar automáticamente la administración financiera de las recepciones en exceso. Debe administrar manualmente esto de acuerdo con el proveedor, por ejemplo, enviando una factura nueva o actualizada.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -133,7 +134,4 @@ Cuando administra una recepción en exceso, puede aumentar el valor del campo **
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -2,6 +2,7 @@
 title: Optimizar Otulook para la bandeja de entrada de empresa
 description: Obtenga información sobre las cosas que puede hacer para mejorar la experiencia con la bandeja de entrada de empresa en Microsoft Outlook.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143977"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6064861"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Optimizar Otulook para la bandeja de entrada de empresa 
 
@@ -49,7 +50,7 @@ Para comprobar si Microsoft Edge WebView2 está instalado en un ordenador, siga 
 
 Desde el menú Inicio:
 
-1. Elija **Iniciar** ![Inicio de Windows.](media/windows-start-icon.png "Icono de inicio de Windows") > **Configuración** ![Configuración de Windows](media/windows-settings-icon.png "Icono de configuración de Windows") > **Aplicaciones y características**.
+1. Seleccione **Inicio** ![Inicio de Windows](media/windows-start-icon.png "Icono de inicio de Windows") > **Ajustes** ![Configuración de Windows](media/windows-settings-icon.png "Icono de configuración de Windows") > **Aplicaciones y funciones**.
 2. En el cuadro de búsqueda, escriba **WebView2**. Si Microsoft Edge WebView2 está instalado, verá una entrada llamada **Tiempo de ejecución de Microsoft Edge WebView2**.
 
 Desde el Panel de control:

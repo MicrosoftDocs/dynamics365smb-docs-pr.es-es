@@ -1,21 +1,21 @@
 ---
-title: Limpiar datos con directivas de retención
+title: Limpiar datos con directivas de retención | Microsoft Docs
 description: Puede especificar la frecuencia con la que desea eliminar ciertos tipos de datos.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.search.form: 3903, 3901
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 52f99b262dbfa5568650b72356ec43442fc75284
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132190"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378529"
 ---
 # <a name="define-retention-policies"></a>Definir directivas de retención
 Los administradores pueden definir directivas de retención para especificar con qué frecuencia desean que [!INCLUDE[prod_short](includes/prod_short.md)] elimine datos desactualizados en tablas que contienen entradas de registro y registros archivados. Por ejemplo, limpiar las entradas de registro puede facilitar el trabajo con los datos que son realmente relevantes. Las directivas pueden incluir todos los datos de las tablas que superan la fecha de vencimiento, o puede agregar criterios de filtro que incluirán solo ciertos datos vencidos en la directiva. 
@@ -40,7 +40,7 @@ Los períodos de retención pueden ser tan largos o cortos como desee. Para crea
 > Por razones de cumplimiento, hemos definido un período de retención mínimo para algunas tablas. Si establece un período de retención más corto que el mínimo requerido, un mensaje mostrará el período obligatorio.
 
 ### <a name="set-up-a-retention-policy"></a>Configurar una directiva retención
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Directivas de retención** y elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Directivas de retención** y luego elija el vínculo relacionado.
 2. En el campo **Id. de tabla**, seleccione la tabla que desee incluir en la directiva.
 3. En el campo **Periodo de retención**, especifique el período de tiempo durante el cual se conservarán los datos en la tabla.
 4. Opcional: para aplicar la directiva a datos específicos en una tabla, desactive la opción Aplicar a todos los registros. Aparecerá la Ficha desplegable Política de retención de registros, donde puede establecer filtros para crear subconjuntos de datos para cada línea. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#filtering).
@@ -67,7 +67,7 @@ Cuando un desarrollador agrega una tabla, puede especificar filtros obligatorios
 
 Los siguientes son ejemplos de cómo agregar una tabla a la lista de tablas permitidas con y sin filtros obligatorios o predeterminados. Para obtener un ejemplo más complejo, consulte codeunit 3999 "Reten. Pol. Instalar - BaseApp". 
 
-```al
+```
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Los siguientes son ejemplos de cómo agregar una tabla a la lista de tablas perm
 
 El siguiente ejemplo incluye un filtro obligatorio.
 
-```al
+```
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,12 +98,9 @@ El siguiente ejemplo incluye un filtro obligatorio.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
-
 Una vez que un desarrollador ha agregado tablas a la lista, un administrador puede incluirlas en una directiva de retención. 
 
 ## <a name="see-also"></a>Consulte también
-
-[Análisis de la telemetría de seguimiento de la política de retención](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Auditar cambios en Business Central](across-log-changes.md)  
 [Filtrado](ui-enter-criteria-filters.md#filtering)  
 [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)  

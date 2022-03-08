@@ -2,6 +2,7 @@
 title: Trabajar con informes de Power BI en Business Central | Documentos de Microsoft
 description: Obtener información, inteligencia empresarial y KPI de los datos de Business Central con Power BI.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99b2b25409993dabd4f4cd4ef758ea242165b2a3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147169"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773391"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -26,7 +27,7 @@ Los informes de Power BI le brindan información sobre su [!INCLUDE[prod_short](
 
 [!INCLUDE [prod_short](includes/prod_short.md)] funciona con con el servicio de Power BI. Los informes para mostrar en [!INCLUDE [prod_short](includes/prod_short.md)] se almacenan en un servicio de Power BI. En [!INCLUDE [prod_short](includes/prod_short.md)], puede cambiar el informe que se muestra en la parte de Power BI a cualquier informe de Power BI disponible en su servicio de Power BI. La primera vez que inicia sesión en [!INCLUDE [prod_short](includes/prod_short.md)] y hasta que se conecta a un servicio de Power BI, las partes estarán vacías, como se muestra aquí:
 
-![Parte de Power BI en Business Central.](./media/power-bi-part.png)
+![Parte de Power BI en Business Central](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Introducción
 
@@ -77,7 +78,7 @@ Para aprender a crear informes para páginas de lista, consulte [Crear informes 
 
 Una parte de Power BI en una página puede mostrar cualquier informe de Power BI que esté disponible para usted. Para cambiar y ver otro informe, elija la acción **Seleccionar informe** en la lista de comandos desplegable en la parte superior de la parte.  
 
-La página **Selección de informes de Power BI** muestra una lista de todos los informes de Power BI a los que tiene acceso. Esta lista se recupera de cualquiera de sus propias áreas de trabajo o áreas de trabajo que se hayan compartido con usted en el servicio de Power BI. Seleccione la casilla **Habilitar** para cada informe que desee visualizar en la página y, a continuación, seleccione **Aceptar**. Volverá a su página Web y aparecerá el último informe que haya habilitado. Con la lista desplegable de comandos, utilice el comando **Anterior** y **Siguiente** para navegar entre informes.  
+La página **Selección de informes de Power BI** muestra una lista de todos los informes de Power BI a los que tiene acceso. Esta lista se recupera desde su área de trabajo de Power BI. Seleccione la casilla **Habilitar** para cada informe que desee visualizar en la página y, a continuación, seleccione **Aceptar**. Volverá a su página Web y aparecerá el último informe que haya habilitado. Con la lista desplegable de comandos, utilice el comando **Anterior** y **Siguiente** para navegar entre informes.  
 
 ### <a name="get-more-reports"></a>Obtener más informes
 
@@ -147,7 +148,7 @@ Probablemente se deba a que el nombre del informe no contiene el nombre de la p�
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en Power Automate](across-how-use-financials-data-source-flow.md)  
 
-
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

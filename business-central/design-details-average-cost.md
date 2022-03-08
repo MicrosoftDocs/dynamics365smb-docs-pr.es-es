@@ -1,21 +1,21 @@
 ---
-title: 'Detalles de diseño: coste medio'
+title: 'Detalles de diseño: Coste medio | Documentos de Microsoft'
 description: El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 591788bdf425dc198a173fbefef702c7b707b4e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a716b25f3dfb25d2011fd12ed388fed5e1e98f9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146727"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751835"
 ---
 # <a name="design-details-average-cost"></a>Detalles de diseño: Coste medio
 El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -28,7 +28,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 |Campo|Descripción|  
 |---------------------------------|---------------------------------------|  
 |**Periodo coste medio**|Especifica en qué periodo se calcula el coste medio. Las siguientes opciones están disponibles:<br /><br /> -   **DÍA**<br />-   **Semana**<br />-   **Mes**<br />-   **Periodo contable**<br /><br /> Todas las salidas de existencias que se registraran dentro de periodo de coste medio recibirán el coste medio calculado para dicho periodo.|  
-|**Tipo cálculo cte. medio**|Especifica cómo se calcula el coste medio. Las siguientes opciones están disponibles:<br /><br /> -   **Producto**<br />-   **Producto, variante y almacén**<br /> Con esta opción, se calcula el coste medio por cada producto, por cada ubicación y por cada variante del producto. Esto supone que el coste medio de este producto dependerá de dónde se encuentre almacenado y de la variante (por ejemplo, el color) del producto que haya seleccionado.|  
+|**Tipo cálculo cte. medio**|Especifica cómo se calcula el coste medio. Las siguientes opciones están disponibles:<br /><br /> -   **Producto**<br />-   **Producto, variante y almacén**<br />     Con esta opción, se calcula el coste medio por cada producto, por cada ubicación y por cada variante del producto. Esto supone que el coste medio de este producto dependerá de dónde se encuentre almacenado y de la variante (por ejemplo, el color) del producto que haya seleccionado.|  
 
 > [!NOTE]  
 >  Solo puede usar un periodo de coste medio y un tipo de coste medio en un ejercicio.  
@@ -55,37 +55,37 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
  En la tabla siguiente se muestran los movimientos de producto del producto del coste medio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar stock - movs. producto**.  
 
-| **Fecha reg.** | **Tipo mov. producto** | **Cantidad** | **Importe coste (real)** | **N.º de movimiento** |
-|--|--|--|--|--|
-| 01-01-20 | Compra | 1 | 20.00 | 1 |
-| 01-01-20 | Compra | 1 | 40.00 | 2 |
-| 01-01-20 | Venta | -1 | -20,00 | 3 |
-| 01-02-20 | Venta | -1 | -40,00 | 4 |
-| 02-02-20 | Compra | 1 | 100.00 | 5 |
-| 03-02-20 | Venta | -1 | -100,00 | 6 |
+|**Fecha reg.**|**Tipo mov. producto**|**Cantidad**|**Importe coste (real)**|**N.º de movimiento**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Compra|1|20.00|1|  
+|01-01-20|Compra|1|40.00|2|  
+|01-01-20|Venta|-1|-20,00|3|  
+|01-02-20|Venta|-1|-40,00|4|  
+|02-02-20|Compra|1|100.00|5|  
+|03-02-20|Venta|-1|-100,00|6|  
 
 > [!NOTE]  
 >  Al no haberse producido aún el ajuste del coste, los valores del campo **Importe coste (real)** del inventario disminuyen según las entradas de existencias a las que se aplican.  
 
  En la tabla siguiente se muestran los movimientos en la tabla **Punto de entrada aj. coste promedio** que se aplican a los movimientos de valor que son el resultado de los movimientos de producto en la tabla anterior.  
 
-| **Nº producto** | **Cód. variante** | **Cód. almacén** | **Fecha valoración** | **Coste ajustado** |
-|--|--|--|--|--|
-| PROD1 |  | AZUL | 01-01-20 | No |
-| PROD1 |  | AZUL | 01-02-20 | No |
-| PROD1 |  | AZUL | 02-02-20 | No |
-| PROD1 |  | AZUL | 03-02-20 | No |
+|**Nº producto**|**Cód. variante**|**Cód. almacén**|**Fecha valoración**|**Coste ajustado**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|PROD1||AZUL|01-01-20|No|  
+|PROD1||AZUL|01-02-20|No|  
+|PROD1||AZUL|02-02-20|No|  
+|PROD1||AZUL|03-02-20|No|  
 
  En la tabla siguiente se muestran los mismos movimientos de producto después de que se haya ejecutado el proceso **Valorar stock - movs. producto**. Se calcula el coste medio por día y se aplica a las salidas de existencias.  
 
-| **Fecha reg.** | **Tipo mov. producto** | **Cantidad** | **Importe coste (real)** | **N.º de movimiento** |
-|--|--|--|--|--|--|
-| 01-01-20 | Compra | 1 | 20.00 | 1 |
-| 01-01-20 | Compra | 1 | 40.00 | 2 |
-| 01-01-20 | Venta | -1 | -30,00 | 3 |
-| 01-02-20 | Venta | -1 | -30,00 | 4 |
-| 02-02-20 | Compra | 1 | 100.00 | 5 |
-| 03-02-20 | Venta | -1 | -100,00 | 6 |
+|**Fecha reg.**|**Tipo mov. producto**|**Cantidad**|**Importe coste (real)**|**N.º de movimiento**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Compra|1|20.00|1|  
+|01-01-20|Compra|1|40.00|2|  
+|01-01-20|Venta|-1|-30,00|3|  
+|01-02-20|Venta|-1|-30,00|4|  
+|02-02-20|Compra|1|100.00|5|  
+|03-02-20|Venta|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Ejemplo: Periodo de coste medio = Mes  
  En el ejemplo siguiente se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un mes. El campo **Tipo cálculo cte. medio** en la página **Configuración de inventario** está configurado en **Producto**.  
@@ -94,24 +94,24 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
  En la tabla siguiente se muestran los movimientos de producto del producto del coste medio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar stock - movs. producto**.  
 
-| **Fecha reg.** | **Tipo mov. producto** | **Cantidad** | **Importe coste (real)** | **N.º de movimiento** |
-|--|--|--|--|--|
-| 01-01-20 | Compra | 1 | 20.00 | 1 |
-| 01-01-20 | Compra | 1 | 40.00 | 2 |
-| 01-01-20 | Venta | -1 | -20,00 | 3 |
-| 01-02-20 | Venta | -1 | -40,00 | 4 |
-| 02-02-20 | Compra | 1 | 100.00 | 5 |
-| 03-02-20 | Venta | -1 | -100,00 | 6 |
+|**Fecha reg.**|**Tipo mov. producto**|**Cantidad**|**Importe coste (real)**|**N.º de movimiento**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01-01-20|Compra|1|20.00|1|  
+|01-01-20|Compra|1|40.00|2|  
+|01-01-20|Venta|-1|-20,00|3|  
+|01-02-20|Venta|-1|-40,00|4|  
+|02-02-20|Compra|1|100.00|5|  
+|03-02-20|Venta|-1|-100,00|6|  
 
 > [!NOTE]  
 >  Al no haberse producido aún el ajuste del coste, los valores del campo **Importe coste (real)** del inventario disminuyen según las entradas de existencias a las que se aplican.  
 
  En la tabla siguiente se muestran los movimientos en la tabla **Punto de entrada aj. coste promedio** que se aplican a los movimientos de valor que son el resultado de los movimientos de producto en la tabla anterior.  
 
-| **Nº producto** | **Cód. variante** | **Cód. almacén** | **Fecha valoración** | **Coste ajustado** |
-|--|--|--|--|--|
-| PROD1 |  | AZUL | 31-01-20 | No |
-| PROD1 |  | AZUL | 28-02-20 | No |
+|**Nº producto**|**Cód. variante**|**Cód. almacén**|**Fecha valoración**|**Coste ajustado**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|PROD1||AZUL|31-01-20|No|  
+|PROD1||AZUL|28-02-20|No|  
 
 > [!NOTE]  
 >  La fecha de valoración se establece como el último día del periodo de coste medio, que, en este caso, es el último día del mes.  
@@ -212,6 +212,3 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

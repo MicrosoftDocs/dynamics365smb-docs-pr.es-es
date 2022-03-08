@@ -4,19 +4,20 @@ description: Descubra cómo la configuración de IVA para clientes y proveedores
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4c83569cf8aaa53e733754f05704d8b258d8dc50
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137918"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750210"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Asignar costos a socios entre empresas
 Cuando utiliza contabilizaciones de empresas vinculadas para transferir documentos entre empresas asociadas, las parametrizaciones relacionadas con el IVA (principalmente el grupo de contabilización comercial de IVA) asignadas a las cuentas de cliente o proveedor (asociadas con el socio de empresas vinculadas) controlan si y cómo se calcula y registra el IVA. También puede realizar distribuciones de costos directamente desde una orden de compra a empresas asociadas. Por ejemplo, si registra una factura de compra de un proveedor externo y desea distribuir algunos o todos los costos a uno o más socios de empresas vinculadas.
@@ -29,7 +30,7 @@ Puede asignar costos a uno o más socios de empresas vinculadas mediante lo sigu
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Asignar costos mediante un diario general de empresas vinculadas
 Para ingresar una línea en un diario general de empresas vinculadas, siga estos pasos. 
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general de empresas vinculadas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Diario general de empresas vinculadas** y luego elija el enlace relacionado.
 2. Si es necesario, en el campo **Documento externo No.**, ingrese el número de documento en la factura del proveedor.
 3. Elija **Factura** en el campo **Tipo documento**.
 4. En el campo **Tipo mov.**, elija **Proveedor**.
@@ -56,7 +57,7 @@ El siguiente procedimiento describe cómo asignar costos usando una factura de c
 > [!NOTE]
 > Para completar estos pasos debe personalizar la página **Factura de compra** agregando los campos **Código de socio de IC**, **Socio IC Ref. Tipo** y **Socio de IC**. Para más información, vea [Para comenzar a personalizar una página a través del banner de personalización](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Factura de compra** y luego elija el enlace relacionado.
 2. En el campo **Tipo**, elija **Cuenta**.
    
    La cuenta de mayor es la única opción que puede utilizar para asignar costos.  
@@ -69,7 +70,7 @@ El siguiente procedimiento describe cómo asignar costos usando una factura de c
 1. Para contabilizar la orden de compra, elija **Registrar**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Para enviar los costos asignados a socios de empresas vinculadas
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones sal. IC** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Transacciones sal. IC** y luego elija el enlace relacionado.
 2. Elija líneas para enviar y luego elija la acción **Enviar a IC Partner**. 
 3. Para asignar los costos, elija la acción **Acciones de línea completa**.
 
@@ -92,5 +93,3 @@ Cuando usa un documento para distribuir costos a socios de empresas vinculadas, 
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

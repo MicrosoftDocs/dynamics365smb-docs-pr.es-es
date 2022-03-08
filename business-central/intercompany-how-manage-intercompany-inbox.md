@@ -1,21 +1,23 @@
 ---
-title: Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas
+title: Procesar transacciones IC entrantes y salientes | Documentos de Microsoft
 description: Las transacciones entre empresas vinculadas que recibe de los socios IC se muestran en la bandeja de entrada IC donde se procesan manual o automáticamente.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7e50370c73085f3e0e86e3956a1b3c5a07390094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141078"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746421"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas
 Todas las transacciones de empresas vinculadas que se reciben electrónicamente aparecen en la bandeja de entrada de empresas vinculadas.  
@@ -49,14 +51,14 @@ Puede utilizar el campo **Mostrar origen de transacción** para filtrar la pági
 
  > [!NOTE]  
  > Si los socios de empresas vinculadas se encuentran en la misma base de datos, las transacciones se transfieren sin necesidad de un archivo o correo electrónico. Consulte el campo **Tipo transferencia** de la página **Socio empresa vinculada**. <br /><br />
-En ese caso, puede configurar el sistema para que evite las bandeja de entrada y de salida seleccionando la opción **Aceptar auto. transacciones** en la página **Socio empresa vinculada** y en la ventana **Enviar auto. transacciones** en la página **Config. empr. vincul.**, respectivamente. Las transacciones entrantes entre empresas vinculadas se pueden aceptar automáticamente solo si el programador de tareas está habilitado. Para obtener más información, consulte [Configuración de Business Central Server - Configuración del programador de tareas](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
+En ese caso, puede configurar el sistema para que evite las bandeja de entrada y de salida seleccionando la opción **Aceptar auto. transacciones** en la página **Socio empresa vinculada** y en la ventana **Enviar auto. transacciones** en la página **Config. empr. vincul.**, respectivamente.
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Importar transacciones entre empresas vinculadas desde un archivo  
 Si tiene alguna empresa vinculada asociada que no está incluida en la misma base de datos que su empresa, puede recibir transacciones entre empresas vinculadas de ese socio en un archivo .xml. Después, deberá importar las transacciones en su bandeja de entrada.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Información de empresa** y luego elija el enlace relacionado.
 2. Guarde el archivo en la ubicación que especificó en el campo **Detalles buzón empresa vinculada** en la página **Información empresa**.  
-3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones de bandeja de entrada entre empresas vinculadas** y luego elija el enlace relacionado.
+3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Transacciones de bandeja de entrada entre empresas vinculadas** y luego elija el enlace relacionado.
 4. En la página **Transacciones de bandeja de entrada entre empresas vinculadas**, seleccione la acción **Importar archivo transacción**.  
 5. En la página que aparece, seleccione el archivo .xml que contiene las transacciones y seleccione el botón **Abrir**.  
 
@@ -65,7 +67,7 @@ Las transacciones se importan en la bandeja de entrada y quedan listas para ser 
 ## <a name="to-process-incoming-intercompany-transactions"></a>Procesar transacciones entrantes entre empresas vinculadas  
 Cuando sus socios le envían transacciones entre empresas vinculadas, estas transacciones van a parar a su bandeja de entrada de empresas vinculadas. Debe evaluar cada transacción en la bandeja de entrada y emprender las acciones que estime convenientes.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones de bandeja de entrada entre empresas vinculadas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Transacciones de bandeja de entrada entre empresas vinculadas** y luego elija el enlace relacionado.  
 2. En la página **Transacciones de bandeja de entrada entre empresas vinculadas**, seleccione una línea y, a continuación, elija una acción, como **Aceptar**, para procesar la línea.
 3. En la página **Completa acc. band. entrada IC**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija el botón **Aceptar**.  
@@ -79,7 +81,7 @@ Para las líneas que procesó con la acción **Devolvérsela al socio**, debe re
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Procesar transacciones salientes entre empresas vinculadas  
 Al registrar un diario o un documento de empresas vinculadas, o al enviar una confirmación de pedido de empresas vinculadas, las transacciones se envían a su bandeja de salida de empresas vinculadas. Para que se envíen a las empresas asociadas, debe abrir la bandeja de salida y procesarlas.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones de bandeja de salida entre empresas vinculadas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Transacciones de bandeja de salida entre empresas vinculadas** y luego elija el enlace relacionado.  
 2. En la página **Transacciones de bandeja de salida entre empresas vinculadas**, seleccione una línea y, a continuación, elija una acción, como **Devolver a bandeja de entrada**, para procesar la línea.
 
 Las líneas que procesó con la acción **Enviar a socio de empresa vinculada** se enviarán a la bandeja de entrada del socio correspondiente.
@@ -93,7 +95,7 @@ De vez en cuando, es posible que desee volver a crear una transacción en la ban
 
 Este siguiente procedimiento describe el método para volver a crear transacciones en la bandeja de entrada, pero para la bandeja de salida el procedimiento es el mismo.
 
-  1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones bandeja entrada IC procesadas** y luego elija el enlace de salida.  
+  1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **ransacciones bandeja entrada IC procesadas** y luego elija el enlace relacionado.  
 
   2.  En la página **Transacciones bandeja entrada IC procesadas**, seleccione la línea que contiene la transacción que desea volver a crear en la bandeja de entrada y elija la acción **Volver a crear transacción en bandeja de entrada**.  
 
@@ -103,6 +105,3 @@ Este siguiente procedimiento describe el método para volver a crear transaccion
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

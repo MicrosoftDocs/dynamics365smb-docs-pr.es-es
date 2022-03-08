@@ -1,29 +1,30 @@
 ---
-title: Métodos WIP para calcular y registrar el progreso del proyecto
+title: Métodos WIP para calcular y registrar el progreso del proyecto | Documentos de Microsoft
 description: Describe los distintos métodos de trabajo en proceso (WIP) que puede utilizar para registrar, supervisar y calcular la información financiera de los proyectos en curso.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.search.form: 1010
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: bfae06855a633642ebc8032578f4f4c1bf4e35d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 02/04/2020
+ms.author: sgroespe
+ms.openlocfilehash: ac6b41d9fe03968531b7d99e534055b6a9955f57
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131254"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030297"
 ---
-# <a name="understanding-wip-methods-in-project-management"></a>Comprender los métodos WIP en la gestión de proyectos
-
+# <a name="understanding-wip-methods"></a>Comprensión de los métodos WIP
 A medida que progresa un proyecto, se van consumiendo materiales, recursos y otros gastos, que se deben registrar en el proyecto. Trabajo en curso (WIP) es una función que permite estimar el valor financiero de los proyectos en la contabilidad mientras progresa el proyecto. En muchos casos, puede registrar gastos para un proyecto antes de facturarlo. Si solamente se registran gastos, el resultado financiero no será exacto.
 
 Para supervisar el valor en la contabilidad, puede calcular WIP y registrar el valor en la contabilidad. Para obtener más información, vea [Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] admite los siguientes métodos de cálculo y registro del valor del trabajo en curso.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] admite los siguientes métodos de cálculo y registro del valor del trabajo en curso.
 
 | Método WIP | Tipo cálculo | Descripción del cálculo |
 | --- | --- | --- |
@@ -34,12 +35,8 @@ Para supervisar el valor en la contabilidad, puede calcular WIP y registrar el v
 | Contrato completado |Importe WIP = Importe coste WIP = Uso (Coste total)<br /><br /> Importe ventas WIP = (Precio facturado) facturable |Contrato consumado no reconoce los ingresos y los costes hasta que haya finalizado el proyecto. Es posible que desee utilizarlo cuando haya gran incertidumbre acerca de las estimaciones en cuanto a costes e ingresos del proyecto.<br /><br /> Todo el consumo se registra en la Cuenta costes WIP (activos) y las ventas facturadas se registran en la Cta. ventas facturadas WIP (pasivos) hasta que el proyecto finalice. |
 
 ## <a name="see-also"></a>Consulte también
-
 [Administración de proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  
-[Compras](purchasing-manage-purchasing.md)  
-[Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Compras](purchasing-manage-purchasing.md)         
+[Ventas](sales-manage-sales.md)      
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

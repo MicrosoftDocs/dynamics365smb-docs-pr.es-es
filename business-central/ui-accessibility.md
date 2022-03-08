@@ -1,90 +1,71 @@
 ---
 title: Características de asistencia.
-description: Este artículo proporciona información sobre los métodos abreviados de teclado y otras funciones de asistencia en Business Central para personas con discapacidad.
-author: jswymer
-ms.topic: conceptual
+description: Métodos abreviados de teclado y otras características de asistencia.
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/23/2021
-ms.author: jswymer
-ms.openlocfilehash: 6389387e2b2e9dcaa2d709e7e376f38a3dd8e1a9
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.search.keywords: ''
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: 69b1dccc88750dca2e2f406554db34357bd8d6db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334570"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912776"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Accesibilidad y métodos abreviados de teclado
+Este tema proporciona información acerca de las características que permiten que [!INCLUDE[d365fin](includes/d365fin_md.md)] esté disponible para personas con discapacidades. [!INCLUDE[d365fin](includes/d365fin_md.md)] admite las características de accesibilidad siguientes:  
 
-Este artículo proporciona información acerca de las características que permiten que [!INCLUDE[prod_short](includes/prod_short.md)] esté disponible con facilidad para personas con discapacidades. [!INCLUDE[prod_short](includes/prod_short.md)] admite las características de accesibilidad siguientes:  
+-   Métodos abreviados
 
-- Métodos abreviados de teclado. Consulte [Métodos abreviados de teclado](keyboard-shortcuts.md).
-- Gestos táctiles y con lápiz en tabletas y teléfonos. Consulte [Gestos táctiles y con lápiz](touch-gestures.md).
-- Navegación  
-- Encabezados  
-- Texto alternativo para imágenes y vínculos  
-- Compatibilidad con tecnologías de asistencia comunes 
-- Acercar o alejar cualquier página
-- Sugerencias sobre herramientas en elementos en la interfaz de usuario
+    Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md)
 
-## <a name="navigation"></a><a name="Navigation"></a> Navegación
-  
-Puede usar diferentes combinaciones de las teclas Tabulador, Mayús y de flechas para moverse entre los elementos de una página. Los elementos incluyen acciones, campos y columnas, partes y otros controles. En general, presione Tabulador o Mayús+Tabulador para pasar al elemento anterior o siguiente.
+-   Navegación  
 
-Cuando se enfoca en un área que contiene acciones, como la barra de navegación de la parte superior del área de trabajo o la barra de acciones en otras páginas, use las teclas de flechas para moverse por las diferentes acciones y grupos. Presione Entrar en un grupo para abrir sus acciones subyacentes y luego continúe usando las teclas de flechas. Presione Tabulador o Mayús+Tabulador para salir del área de acción.
+-   Encabezados  
 
-Con la orden del tabulador, también puede cambiar entre la página principal del explorador y los cuadros de diálogo que solicitan confirmación, por ejemplo, o la página de inicio de sesión.  
+-   Texto alternativo para imágenes y vínculos  
 
-## <a name="headings-in-content"></a><a name="Headings"></a> Encabezados en el contenido
+-   Compatibilidad con tecnologías de asistencia comunes  
 
-El código fuente HTML para el contenido de [!INCLUDE[prod_short](includes/prod_short.md)] utiliza etiquetas para ayudar a los usuarios de tecnología de asistencia a comprender la estructura y el contenido de la página. Por ejemplo, en las páginas de lista, las columnas se definen en las etiquetas TH y los encabezados de columna se establecen con el atributo TITLE dentro de la etiqueta. Los títulos de los elementos, como fichas desplegables, cuadros informativos y campos, se incluyen en las etiquetas de título (H1, H2, H3 y H4).  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-## <a name="image-and-links"></a><a name="Images"></a> Imagen y vínculos
-
-Un texto descriptivo para las imágenes se establece con el atributo ALT dentro de la etiqueta IMG. Un texto descriptivo para los hipervínculos se establece con el atributo title dentro de la etiqueta A.  
-
-## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Tecnologías de asistencia
-
-[!INCLUDE[prod_short](includes/prod_short.md)] admite las diversas tecnologías de asistencia, como contraste alto, lectores de pantalla y software de reconocimiento de voz. Es posible que algunas tecnologías de asistencia no funcionen bien con determinados elementos de las páginas de [!INCLUDE[prod_short](includes/prod_short.md)].  
-
-## <a name="zoom"></a><a name="zoom"></a> Zoom
-
-La mayoría de los navegadores utilizan atajos de teclado estándar para acercar y alejar la página actual. Estos atajos de teclado no son específicos de [!INCLUDE [prod_short](includes/prod_short.md)], pero funcionan al usar [!INCLUDE [prod_short](includes/prod_short.md)] en un navegador. Para obtener una lista de métodos abreviados de teclado compatibles, consulte [Atajos de teclado para acercar y alejar](keyboard-shortcuts.md#zoomshortcuts).
-
-## <a name="tooltips"></a>Sugerencias sobre herramientas
-
-La información sobre herramientas está disponible en la mayoría de los elementos de la interfaz de usuario, como campos y columnas de página, acciones, mosaicos de señales y gráficos. Una sugerencia sobre herramientas proporciona texto adicional que explica un elemento para ayudarle a comprender mejor su propósito. 
-
-Se accede a la información sobre herramientas de diferentes formas, según el cliente (web o móvil) y el dispositivo con el que esté trabajando. Utilice la siguiente tabla a modo de guía. Algunas sugerencias de herramientas pueden leerlas los lectores de pantalla. En este caso, acceda a las sugerencias sobre herramientas como se describe en la tabla, luego use el lector de pantalla para navegar a la sugerencia sobre herramientas, como lo haría con cualquier otro elemento.
-
-#### <a name="accessing-tooltips"></a>Acceso a la información sobre herramientas
-
-|Elemento|Acción del mouse para el cliente web|Atajo de teclado para cliente web|Gesto táctil en tableta o teléfono para aplicación móvil|Soporte de lector de pantalla|
-|-------|-----------------|------------|--------------------------|---------------------|
-|Campos de página y encabezados de columna|Colocar el cursor o hacer clic en el título del campo o el título de la columna|Mueva el foco al encabezado de campo o columna y presione Alt + Teclas de flecha arriba|Tocar en el pie del campo |sí|
-|Elementos de gráficos, como una barra, una línea o un sector de tarta|Colocar el cursor sobre el elemento|Mover el foco al elemento, por ejemplo, usando las teclas de flecha|Mantener pulsado el elemento|sí|
-|Acciones|Colocar el cursor sobre la acción|ninguno|ninguno |no|
-|Azulejos orientativos|Colocar el cursor sobre el mosaico |ninguno|ninguno|no|
-
-
-<!--
-- With a mouse, hover over the element.
-- With keyboard, press the Alt+Up Arrow keys.
-- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
+|To do this|Press|  
+|----------------|-----------|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
 
 -->
 
-## <a name="for-more-accessibility-information"></a>Para obtener más información sobre la accesibilidad
+##  <a name="navigation"></a><a name="Navigation"></a> Navegación  
+ Puede navegar entre las pestañas y las acciones en la cinta, elementos de la barra de navegación y otros controla en las páginas y los informes de [!INCLUDE[d365fin](includes/d365fin_md.md)] usando el teclado. Para mover el enfoque de una pestaña, acción o control a otro, pulse la tecla Tab para desplazarse hacia delante. Pulse Mayús+Tab para mover hacia atrás.  
 
+ Con el orden tabulación, también puede cambiar entre la página principal del explorador y los cuadros de diálogo que solicitan confirmación, por ejemplo, o la página de inicio de sesión.  
+
+##  <a name="headings"></a><a name="Headings"></a> Encabezados  
+ El código fuente HTML para el contenido de [!INCLUDE[d365fin](includes/d365fin_md.md)] utiliza etiquetas para ayudar a los usuarios de tecnología de asistencia a comprender la estructura y el contenido de la página. Por ejemplo, en las páginas de lista, las columnas se definen en las etiquetas TH y los encabezados de columna se establecen con el atributo TITLE dentro de la etiqueta. Los títulos de los elementos, como fichas desplegables, cuadros informativos y campos, se incluyen en las etiquetas de título (H1, H2, H3 y H4).  
+
+##  <a name="image-and-links"></a><a name="Images"></a> Imagen y vínculos  
+ Un texto descriptivo para las imágenes se establece con el atributo ALT dentro de la etiqueta IMG. Un texto descriptivo para los hipervínculos se establece con el atributo title dentro de la etiqueta A.  
+
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Tecnologías de asistencia  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] admite las diversas tecnologías de asistencia, como contraste alto, lectores de pantalla y software de reconocimiento de voz. Es posible que algunas tecnologías de asistencia no funcionen bien con determinados elementos de las páginas de [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+## <a name="for-more-accessibility-information"></a>Para obtener más información sobre la accesibilidad  
 Puede encontrar información adicional acerca de la accesibilidad con los productos de Microsoft y las tecnologías de asistencia en el sitio [Accesibilidad de Microsoft](https://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Consulte también
-
-[Preparación para hacer negocios](ui-get-ready-business.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Preguntas más frecuentes](across-faq.yml)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introducción](product-get-started.md)  
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Preguntas más frecuentes](across-faq.md)  

@@ -2,19 +2,20 @@
 title: Configuración del explorador
 description: Describe cómo configurar los navegadores para que funcionen con Business Central y los productos que se integran con él.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, web client, troubleshooting, errors
-ms.date: 04/01/2021
+ms.date: 01/08/2021
 ms.author: jswymer
-ms.openlocfilehash: a60c9e041ec61c61374fa7860c27018d362b165f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 17b41653b1b5934e98c82ce8a35430e7b6a5c0d0
+ms.sourcegitcommit: 1aac2c5f6773151c011dc1e4069c84d79fe5bda8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141754"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839966"
 ---
 # <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Configuración y solución de problemas de su navegador para que funcione con Business Central Web Client
 
@@ -24,7 +25,7 @@ El artículo proporciona detalles para configurar Microsoft Edge, pero los requi
 
 ## <a name="use-a-supported-browser"></a>Usar un explorador admitido
 
-Asegúrese de utilizar uno de los navegadores compatibles. Consulte [Requisitos mínimos para usar Business Central](product-requirements.md#browsers).  
+Asegúrese de utilizar uno de los navegadores compatibles. Vea [Requisitos mínimos para utilizar Business Central](product-requirements.md#recommended-browsers).  
 
 ## <a name="allow-javascript-from-business-central"></a>Permitir JavaScript desde Business Central
 
@@ -84,5 +85,3 @@ Try again
 ## <a name="see-also"></a>Consulte también
 
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

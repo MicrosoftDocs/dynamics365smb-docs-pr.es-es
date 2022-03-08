@@ -2,19 +2,20 @@
 title: Solución de problemas de integración de Microsoft Teams
 description: Obtenga más información sobre lo que puede hacer como administrador para controlar la integración de Microsoft Teams.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 10/01/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147013"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882178"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Solución de problemas de integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -41,9 +42,9 @@ Después de cambiar de empresa en la página **Configuración**, es posible que 
 
 Puede experimentar este error cuando busca en una empresa que no se ha inicializado o que no responde. Por ejemplo, no puede buscar en una nueva empresa de prueba que aún no haya aceptado los términos de uso. Para resolver este problema, intente iniciar sesión en el cliente web de [!INCLUDE [prod_short.md](includes/prod_short.md)] y actúe en cuadro de diálogo inicial que aparezca o descártelo.
 
-## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Error "No se puede encontrar la API de contacto/resumen de contactos" al buscar contactos
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Error "No se encontró la API de contactos" al buscar contactos
 
-Este problema puede deberse a personalizaciones o soluciones de la industria que afectan o modifican [!INCLUDE [prod_short.md](includes/prod_short.md)] o no proporcionan un contacto o una API de resumen de contactos. Si el problema continúa, póngase en contacto con su administrador o socio de soporte.
+Este problema puede deberse a personalizaciones o soluciones del sector que afectan, modifican o no proporcionan una API de contacto en [!INCLUDE [prod_short.md](includes/prod_short.md)]. Si el problema continúa, póngase en contacto con su administrador o socio de soporte.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Ninguno de mis enlaces se expande en una tarjeta 
 
@@ -148,22 +149,12 @@ Como administrador, quién tiene permisos de administrador de Azure Active Direc
 > [!NOTE]
 > Pasará un tiempo antes de que este cambio entre en vigor.
 
-## <a name="duplicate-text-in-the-share-to-teams-window"></a>Texto duplicado en la ventana Compartir con Teams
-
-Cuando pega texto en el cuadro de mensaje en la ventana **Compartir con Teams**, el texto se duplica. Microsoft conoce este problema y se solucionará en una actualización posterior. 
-
-## <a name="unable-to-sign-into-the-share-to-teams-window"></a>No se puede iniciar sesión en la ventana Compartir con Teams 
-
-Este problema puede deberse a varias razones. Por ejemplo, la identidad que está utilizando para iniciar sesión debe tener acceso a Microsoft Teams, como a través de una suscripción a Microsoft 365.
 
 ## <a name="see-also"></a>Consulte también
 
 [Información general sobre [!INCLUDE [prod_short](includes/prod_short.md)] y la integración de Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  
-[Búsqueda de clientes, proveedores y otros contactos desde Microsoft Teams](across-search-contacts-teams.md)  
-[Compartir registros en Microsoft Teams](across-working-with-teams.md)  
 [P+F de Teams](teams-faq.md)  
-[Cambiar la empresa y otras configuraciones en Teams](across-teams-settings.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

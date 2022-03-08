@@ -1,28 +1,27 @@
 ---
-title: Configurar calendarios base
-description: Puede asignar un calendario base a su empresa y sus socios comerciales, para calcular las fechas de entrega y recepción de acuerdo con los días hábiles especificados.
+title: Cómo configurar calendario base | Documentos de Microsoft
+description: Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7600, 7601, 7602, 5703
-ms.date: 06/11/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 25d15bfab1dac9cea52d9efdb30e5ed3c7cbb4a2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5c2733bf660b5d17b0f2e7273c48d7c3dffbb5ef
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141598"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384554"
 ---
 # <a name="set-up-base-calendars"></a>Configurar calendarios base
-
 Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario. La tarea principal en la configuración de un calendario base nuevo es especificar y definir los días no laborables que desea aplicar.  
 
-## <a name="to-set-up-a-base-calendar"></a>Para configurar un calendario base
-
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Calendario base** y luego elija el enlace relacionado.  
+## <a name="to-set-up-a-base-calendar"></a>Para configurar un calendario base  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Calendario base** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  Rellene el campo **Código**.  
 4. Seleccione la acción **Mantener cambios en el calendario base** .
@@ -43,7 +42,6 @@ Cuando se realice un movimiento, se selecciona el campo **No laborables**. Puede
 Especifica una fórmula de fecha con el tiempo que se tarda en reponer el producto. Se utiliza para calcular el campo **Fecha de recepción planificada**, si se calcula hacia adelante, y el campo **Fecha de pedido**, si calcula hacia atrás. Consulte [Plazo entrega (días)](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Plazo entrega (días)
-
 Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables. Del mismo modo, los dos campos clave de fecha de las líneas de pedido de compra se calculan como sigue en distintas condiciones.
 
 |Dirección de cálculo|Calendario de proveedor definido|Calendario de proveedor no definido|
@@ -66,7 +64,7 @@ Por ejemplo, mientras que un calendario base normalmente enumeraría todos los s
 
 El siguiente procedimiento utiliza este almacén como ejemplo. Tenga en cuenta que en este momento, ya ha asignado a un calendario base al almacén.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Almacenes** y, a continuación, elija el enlace relacionado.
 2. Abra la ubicación que desea actualizar y seleccione el campo **Calendario personalizado**. Tenga en cuenta que debe seleccionarse un calendario en el campo **Código calendario base**.
 3. En la página **Entradas del calendario personalizadas**, seleccionar la acción **Mantener los cambios del calendario personalizado**.
 4. En **Cambios personalizados del calendario**, añada líneas para las entradas del calendario personalizadas.
@@ -102,7 +100,7 @@ Los calendarios base se asignan a su propia empresa, clientes, proveedores, alma
 -   En la ficha **Almacén**, el calendario base se asigna en la ficha desplegable **Almacén**.  
 -   En la página **Transportistas**, el calendario base se asigna en la página **Servicios transportista**.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
 2.  Abra la ficha **Cliente** a la que asignará un calendario base.  
 3.  En la ficha desplegable **Envío**, en el campo **Código calendario base**, seleccione el calendario base que desea asignar.  
 

@@ -1,17 +1,18 @@
 ---
 title: Configurar Amortización A/F
-description: Existen varios métodos de amortización. En Business Central, usted define el método de amortización de un activo en la página **Tarjeta de activo fijo**.
+description: Puede especificar en un libro de amortización cómo desea que los activos fijos que se amorticen o deprecien.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 06/28/2021
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: 228ca9aa8b1f476e5063bd0f8d6728f18cfafaf3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136275"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493233"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurar la amortización de los activos fijos
 
@@ -25,7 +26,7 @@ Cuando cree los libros de amortización pertinentes, debe asignar uno o más a c
 
 En un libro de amortización de activos puede especificar la forma en que se amortizarán los activos. Para aplicar distintos métodos de amortización, puede configurar varios libros de amortización.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libros amortización** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.
 2. En la página **Lista libros amortización**, elija la acción **Nuevo**.
 3. En la página **Ficha libro amortización**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -40,7 +41,7 @@ En un libro de amortización de activos puede especificar la forma en que se amo
 Por ejemplo, si se deshace de un activo fijo donde el libro de amortización no especifica el redondeo, pero la configuración de contabilidad de la empresa requiere redondeo, entonces, cuando se deshaga del activo fijo, verá un mensaje de error que indica que se debe redondear una cantidad en un movimiento.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Para asignar un libro de amortización a un activo fijo
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.
 2. Seleccione el activo fijo para el que desee configurar un libro de amortización de activos fijos.
 3. En la ficha desplegable **Ficha libros amortización**, rellene los campos según sea necesario.
 4. Si necesita asignar más de un libro de amortización al activo, elija la acción **Añadir más libros amortización**.
@@ -49,13 +50,10 @@ Por ejemplo, si se deshace de un activo fijo donde el libro de amortización no 
     > [!NOTE]  
     >   Cuando utilice el método de amortización manual, debe introducir la amortización de forma manual en el diario general de activos. La función **Calcular amortización** ignora los activos que utilizan el método de amortización manual. Puede utilizar este método para activos no sujetos a amortización como, por ejemplo, los terrenos.
 
-    > [!NOTE]  
-    > Cuando utiliza el método de amortización definido por el usuario, debe asignar el libro de amortización de una manera diferente. Para más información, vea [Configurar el método de amortización definido por el usuario](fa-how-setup-user-defined-depreciation-method.md).
-
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Para asignar un libro de amortización a varios activos con un solo proceso
 Si desea asignar un libro de amortización a varios activos fijos, puede utilizar el proceso **A/F Crear libros amortización** para crear los libros necesarios de activos fijos.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Activos fijos** y luego elija el enlace relacionado.
 2. Seleccione el activo al que desea asignarle un libro de amortización y, a continuación, elija la acción **Editar**.
 3. En la página **Ficha libro amortización**, elija la acción **A/F Crear libros amortización**.
 4. En la página **A/F Crear libros amortización**, rellene el campo **Libro amortización**.
@@ -68,7 +66,7 @@ Si desea asignar un libro de amortización a varios activos fijos, puede utiliza
 ## <a name="to-set-up-depreciation-posting-types"></a>Para configurar los tipos de registro de amortización
 Para cada libro de amortización, debe configurar el modo en que desea que [!INCLUDE[prod_short](includes/prod_short.md)] administre los distintos tipos de registro. Por ejemplo, si el registro debe ser débito o abono, y si el tipo de registro se debe incluir en la base de amortización.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libros amortización** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
 2. Seleccione el libro de amortización que desea configurar y, a continuación, elija la acción **A/F Config. tipo registro**.
 3. En la página **A/F Config. tipo registro**, rellene los campos según sea necesario.
 
@@ -80,23 +78,16 @@ Se recomienda que no cambie la configuración de los libros de amortización de 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Para configurar las plantillas y los procesos predeterminados para la amortización de activos
 Puede definir para cada libro de amortización una configuración predeterminada para libros y secciones. Estos valores predeterminados se usan para duplicar líneas de un diario a otro, crear líneas de diario con los procesos **Calcular amortización** o **Ajustar valores activos fijos** o duplicar los costes de adquisición en el diario de seguros.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libros amortización** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Libros de amortización** y luego elija el enlace relacionado.  
 2. Seleccione el libro de amortización en el que desea definir los diarios predeterminados y, a continuación, elija la acción **Configuración del diario A/F**.  
 3. Si desea tener una configuración predeterminada para cada usuario, elija el campo **Id. usuario** y selecciónela desde la página **Usuarios**.  
 4. En el resto de campos, seleccione la sección o plantilla del diario que debe usarse de forma predeterminada.  
-
-## <a name="fiscal-year-365-days-field-depreciation"></a>Amortización de campo Ejercicio 365 días
-
-Cuando el proceso Calcular amortización calcula las amortizaciones, el proceso normalmente utiliza un año estándar de 360 días en el que cada uno de los 12 meses tiene 30 días.
-
-Si selecciona este campo, el proceso Calcular amortización utiliza un calendario de 365 en el que cada mes se calcula con el mismo número de días que en el calendario. La única excepción es el febrero en años bisiestos, que el proceso trata como que tiene 28 días en lugar de 29. Por eso, todos los años, incluso los bisiestos, consta que tienen 365 días.
-
 
 ## <a name="see-also"></a>Consulte también
 [Configurar activos fijos](fa-setup.md)  
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
-[Preparación para hacer negocios](ui-get-ready-business.md)  
+[Introducción](product-get-started.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

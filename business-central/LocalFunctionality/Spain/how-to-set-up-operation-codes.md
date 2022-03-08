@@ -1,27 +1,30 @@
 ---
 title: Configuración de códigos de operación
 description: Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en Business Central.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 292e1c21aef8b5072621c4df101acbc1d6bc7dda
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c2514b4a6284dd5b3f8ddc4a03ed3162e163877d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136650"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241655"
 ---
 # <a name="set-up-operation-codes"></a>Configurar códigos de operación
-Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en [!INCLUDE[prod_short](../../includes/prod_short.md)]. Por ejemplo, los abonos siempre tienen el código de operación D. No puede configurar estos valores en la tabla porque son códigos creados por el sistema. Si intenta agregarlos, [!INCLUDE[prod_short](../../includes/prod_short.md)] devolverá un error.  
+Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Por ejemplo, los abonos siempre tienen el código de operación D. No puede configurar estos valores en la tabla porque son códigos creados por el sistema. Si intenta agregarlos, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] devolverá un error.  
 
 ## <a name="to-set-up-operation-codes"></a>Para configurar códigos de operación  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códigos de operación** y luego elija el enlace relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Códigos de operación** y, a continuación, seleccione el vínculo relacionado.  
 2.  En la página **Códigos de operación**, rellene los campos tal como se describe en la tabla siguiente  
 
     |Campo|Description|  
@@ -31,7 +34,7 @@ Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, 
 
 ## <a name="to-link-operation-codes-to-general-product-posting-groups"></a>Para vincular códigos de operación a grupos de publicación de productos en general  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos registro**, y luego elija el enlace relacionado.  
+1.  Seleccione el icono ![Buscar página o informe](../../media/ui-search/search_small.png "icono Buscar página o informe"), escriba **Grupos contables** y, a continuación, seleccione el vínculo relacionado.  
 2.  Elija la acción **Grupos contables de producto general**.  
 3.  En la página **Grupos de publicación de productos generales**, vincule cada código de operación a un grupo de publicación de productos general.  
 
@@ -46,6 +49,3 @@ Cuando agrega un código de operación al grupo de publicación de producto gene
 
 ## <a name="see-also"></a>Consulte también  
  [Crear el informe 340](how-to-create-report-340.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

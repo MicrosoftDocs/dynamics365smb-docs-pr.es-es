@@ -2,6 +2,7 @@
 title: Obtener Business Central en el escritorio
 description: Este artículo describe cómo obtener la aplicación Business Central en un escritorio de Windows o MACiOS.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: fe612bb6366647ca031b38122de30fc96cc66853
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130467"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8050910"
 ---
 # <a name="get-business-central-desktop-app"></a>Obtener la aplicación de escritorio Business Central
 

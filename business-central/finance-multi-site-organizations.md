@@ -2,6 +2,7 @@
 title: Business Central para organizaciones internacionales y de sitios múltiples | Microsoft Docs
 description: Business Central proporciona capacidades que admiten un modelo de negocio de de concentrador y radios.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141104"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087674"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central para organizaciones internacionales y de sitios múltiples
 Las organizaciones que tienen varios sitios a menudo utilizan un modelo de negocio de centro y radios en el que una empresa matriz, o la sede central, gestiona las operaciones generales del negocio, mientras que cada sitio funciona como una entidad única e independiente. Los sitios a menudo están distribuidos geográficamente y tienen diferentes necesidades para compartir información con la empresa matriz. Además, los sitios no suelen necesitar el mismo nivel de complejidad y, a menudo, carecen de los recursos para mantener un sistema grande.
@@ -29,7 +30,7 @@ Este artículo presenta algunas de las formas en que [!INCLUDE[prod_short](inclu
 
 El siguiente diagrama es un ejemplo de diferentes sitios integrados con una empresa matriz.
 
-![Descripción del diagrama generada automáticamente.](media/multisite-headquarter-sites.png)
+![Descripción del diagrama generada automáticamente](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Satisfacer las necesidades de los sitios nacionales e internacionales
 
@@ -100,7 +101,7 @@ Los sitios a menudo necesitan acceso a la cadena de suministro y la capacidad de
 
 La empresa matriz debe poder reaccionar rápidamente a los cambios comerciales en cada sitio. En combinación con Power Automate, [!INCLUDE[prod_short](includes/prod_short.md)], puede servir como un mecanismo de alerta temprana.
 
-![Captura de pantalla de una publicación en las redes sociales de descripción generada automáticamente.](media/multisite-apps.png)
+![Captura de pantalla de una publicación en las redes sociales de descripción generada automáticamente](media/multisite-apps.png)
 
 | **Requisito de negocio** | **Cómo lo soporta Business Central** | **Más información** |
 |-------------------------|-------------------------|-------------------------|

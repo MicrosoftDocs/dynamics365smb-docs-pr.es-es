@@ -1,21 +1,21 @@
 ---
-title: Crear informes de análisis
+title: Crear informes de análisis | Documentos de Microsoft
 description: Describe cómo crear nuevos informes de análisis para ventas, compras y existencias, así como configurar plantillas de análisis.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d874c55108a985cd4076e2bbcc8eec53287db008
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335505"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186097"
 ---
 #  <a name="create-analysis-reports"></a>Crear informes de análisis
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de inventario.  
@@ -41,11 +41,11 @@ A continuación, puede configurar las siguientes columnas:
 - Porcentaje de ventas del mes anterior  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Configuración de plantillas de líneas y columnas  
- En la página **Informe de análisis**, puede ver diferentes diseños de línea y columna de acuerdo con las líneas o plantillas de línea que configuró en la página **Plantillas de línea de análisis**. Puede definir el nombre del informe y los objetos que desea mostrar en las líneas del informe. Las columnas se configuran en la página **Plantillas columnas análisis**. Puede definir el nombre de la plantilla de columna y los parámetros de análisis que desea mostrar en el informe como columnas. En la página **Plantillas columnas análisis**, cada línea representa una columna del informe. Observe que las líneas de análisis y las columnas de análisis son independientes las unas de las otras.  
+ En la página **Informe de análisis**, puede ver distintas plantillas de líneas y columnas según la configuración definida. Las líneas o las plantillas de línea, se configuran en la página **Plantilla de línea de análisis**. En esta página puede definir el nombre del informe y los objetos que desea mostrar en las líneas del informe. Las columnas se configuran en la página **Plantillas columnas análisis**. En esta página puede definir el nombre de la plantilla de columna y los parámetros de análisis que desea mostrar en el informe como columnas. En la página **Plantillas columnas análisis**, cada línea representa una columna del informe. Observe que las líneas de análisis y las columnas de análisis son independientes las unas de las otras.  
 
-Basándose en las líneas y columnas definidas, [!INCLUDE[prod_short](includes/prod_short.md)] agregará el resultado del informe en la página **Informe de análisis**, como se muestra en la siguiente tabla.  
+Basándose en las líneas y columnas definidas, la aplicación agregará el resultado del informe en la página de matriz **Informe de análisis**, como en este ejemplo:  
 
-|- |Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
+| |Ventas del mes actual|Ventas del mes anterior|Porcentaje de ventas del mes anterior|  
 |-|-|-|-|  
 |Equipos| | | |  
 |Pantallas| | | |  
@@ -61,7 +61,7 @@ En un informe de análisis, los parámetros de análisis se muestran como column
 
 Una plantilla contiene un conjunto de líneas que representan las columnas de análisis que se ven en el informe de análisis. Para definir una columna debe asignar un código de tipo de análisis a una línea. Este código de tipo de análisis determina el tipo de datos de origen en los movimientos de producto en los que se basa el análisis. Los datos de origen incluyen el coste, el importe de ventas, o la cantidad, y sus movimientos de valor asociados. Puede configurar tantas plantillas de columna como desee y utilizarlas posteriormente para crear nuevos informes de análisis.    
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de la columna de ventas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Plantillas de la columna de ventas** y luego elija el enlace relacionado.  
 2. Seleccione la primera línea vacía y, a continuación, rellene los campos según sea necesario.
 3. Seleccione la acción **Columnas**.  
 4. En la página **Columnas de análisis**, rellene los campos para especificar las columnas que desea incluir en el informe de análisis.  
@@ -78,7 +78,7 @@ En un informe de análisis los objetos de análisis se muestran en líneas. Pued
 
 Una plantilla contiene un conjunto de líneas que representan las líneas de análisis que se ven en el informe de análisis. Una línea puede especificar uno o varios productos, clientes, proveedores o grupos. También puede crear una fórmula en una línea para sumar las otras líneas. Puede configurar tantas plantillas de líneas como desee y utilizarlas después para crear nuevos informes de análisis.    
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de la línea de ventas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Plantillas de la línea de ventas** y luego elija el enlace relacionado.  
 2. Seleccione la primera línea vacía y, a continuación, rellene los campos según sea necesario.
 3. Seleccione la acción **Líneas**.  
 4. En la página **Línea de análisis**, cree líneas para los productos, los clientes, los proveedores o los vendedores cuyas cifras desee consultar en el informe de análisis. Debe rellenar los campos **Tipo**, **Intervalo** y **Descripción**.  
@@ -91,7 +91,7 @@ El procedimiento siguiente se basa en informes de análisis para ventas. Los pas
 
 Utilice los informes de análisis para analizar la dinámica de sus ventas según los indicadores de rendimiento de ventas clave que se seleccionen, por ejemplo, el volumen de ventas en los importes y cantidades, el margen de contribución o el progreso de venta real respecto al presupuesto. También puede utilizar el informe para analizar los precios medios de venta y para evaluar el rendimiento de ventas de su equipo de ventas.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes de análisis de ventas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Informes de análisis de ventas** y luego elija el enlace relacionado.  
 2. En la página **Informe de análisis ventas**, elija la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija la acción **Editar informe de análisis**.
@@ -105,7 +105,4 @@ Utilice los informes de análisis para analizar la dinámica de sus ventas segú
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
