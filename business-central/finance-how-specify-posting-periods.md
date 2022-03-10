@@ -1,36 +1,40 @@
 ---
-title: Especificar los periodos de registro | Documentos de Microsoft
-description: Puede especificar las fechas inicial y final de registro para configurar cuándo pueden los usuarios hacer registros en la contabilidad.
-services: project-madeira
-documentationcenter: ''
+title: Para especificar periodos de registro
+description: Puede especificar periodos de registro (fechas inicial y final de registro) para configurar cuándo pueden los usuarios hacer registros en la contabilidad.
 author: SorenGP
 editor: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 14ffdb7d4be38949a31aebeb86e6312a5e3128aa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 118
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 749f5d2dc901fae9db9c96d4f1c51e9590aa8184
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306153"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142190"
 ---
 # <a name="specify-posting-periods"></a>Para especificar periodos de registro
+
 Utilice los periodos de registro para especificar cuándo los usuarios pueden registrar en el libro mayor.  
 
 ## <a name="to-specify-posting-periods"></a>Para especificar periodos de registro
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
 2. En la página **Configuración de contabilidad**, defina el periodo introduciendo las fechas en los campos **Permitir registro desde** y **Permitir registro hasta**.  
 
 > [!NOTE]  
->   Estos periodos de registro se aplicarán a toda la empresa y todos los usuarios. Para permitir excepciones, puede definir periodos de registro diferentes para usuarios específicos en la página **Configuración usuarios**. Estos periodos de registro anulan los especificados en la página **Configuración de contabilidad**. Para obtener más información, vea [Para configurar restricciones de tiempo de usuarios](ui-how-users-permissions.md#to-set-up-user-time-constraints).
+> Estos periodos de registro se aplicarán a toda la empresa y todos los usuarios. Para permitir excepciones, puede definir periodos de registro diferentes para usuarios específicos en la página **Configuración usuarios**. Estos periodos de registro anulan los especificados en la página **Configuración de contabilidad**. Para obtener más información, vea [Para configurar restricciones de tiempo de usuarios](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>Consulte también
+
 [Finanzas](finance.md)  
 [Completar procesos de fin de periodo](year-how-complete-period-end-processes.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

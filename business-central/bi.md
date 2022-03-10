@@ -1,26 +1,24 @@
 ---
-title: Inteligencia empresarial | Documentos de Microsoft
-description: Capture y analice datos empresariales, como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados y los presupuestos, que resultan muy valiosos para la inteligencia artificial o la toma de decisiones.
-services: project-madeira
-documentationcenter: ''
+title: Inteligencia empresarial
+description: Business Central contiene una serie de funciones que le ayudan a recopilar, analizar y compartir datos valiosos de la empresa para la inteligencia empresarial y la toma de decisiones.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.search.form: 103, 198, 490
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e4a08c3c81aa9c59c27da920deb354320559f54c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786476"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335453"
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
-Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[d365fin](includes/d365fin_md.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.
+Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[prod_short](includes/prod_short.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.
 
 La funcionalidad Dimensiones desempeña una función importante en la inteligencia empresarial. Una dimensión son datos que puede agregar a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Entre otros usos, utilice las dimensiones al definir las vistas de análisis y al crear esquemas de cuentas para la elaboración de informes. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
 
@@ -44,6 +42,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Usar Business Central como fuente de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Cerrar periodos fiscales](year-close-years-periods.md)  
 [Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

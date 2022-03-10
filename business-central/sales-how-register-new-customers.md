@@ -1,21 +1,21 @@
 ---
-title: Crear una ficha de cliente para registrar clientes nuevos | Documentos de Microsoft
+title: Registrar a nuevos clientes creando una ficha cliente (contiene vídeo)
 description: Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 06/24/2020
+ms.search.keywords: client, customer, credit
+ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3e25756cff974e0db835f5e3ed3247dff6d7624a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f1b37df909e482f9f4102eab70ce82cdef999a12
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780889"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137008"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -26,25 +26,18 @@ Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Agregar nuevos clientes
+Puede agregar nuevos clientes manualmente, completando los campos en la página **Ficha de cliente**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear plantillas para diferentes tipos de perfiles de clientes. El uso de plantillas ahorra tiempo al agregar nuevos clientes y ayuda a garantizar que la información sea correcta en todo momento. Si crea plantillas para más de un tipo de cliente, puede elegir la plantilla que utilizará cuando agregue un cliente. Si crea solo una plantilla, se utilizará para todos los clientes nuevos. Después de crear una plantilla, puede usar la acción **Aplicar plantilla** para aplicarla a uno o más clientes seleccionados. Para crear una plantilla, complete la información que desea reutilizar en la página Ficha de cliente y luego guárdela como una plantilla. Para obtener más información, consulte la sección [Para guardar la ficha de cliente como una plantilla](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template).
 
-Para registrar un cliente nueve, debe rellenar una ficha cliente. Puede establecer plantillas para diferentes perfiles de clientes, o puede agregar clientes sin plantillas.  
+> [!TIP]
+> Puede resultar útil personalizar la página **Ficha de cliente** cuando crea una plantilla. Por ejemplo, es posible que desee agregar el campo **Límite de crédito** a una plantilla. Para obtener más información, consulte [Personalizar el área de trabajo](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Si existen plantillas de cliente para distintos tipos de cliente, una página aparece automáticamente cuando se crea una nueva ficha de cliente en la que puede seleccionar una plantilla de cliente correspondiente. Si solo existe una plantilla de cliente, las nuevas fichas de cliente utilizan siempre esa plantilla.  
+También puede crear un cliente a partir de un contacto. Para obtener más información, consulte [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.  
-2. En la página **Clientes**, seleccione la acción **Nuevo**.
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
-    Si solo existe una plantilla de cliente, una nueva ficha de cliente se abre con algunos campos rellenados con la información de la plantilla.
-
-    Si existe más de una plantilla de cliente, se abre una página desde la que puede seleccionar una plantilla de cliente. En ese caso, siga los dos pasos siguientes.
-3. En la página **Seleccionar una plantilla para un cliente nuevo**, seleccione la plantilla que quiere usar para la nueva ficha de cliente.
-4. Elija el botón **Aceptar**. Una nueva ficha de cliente se abre con algunos campos completados con la información de la plantilla.  
-5. Empiece a rellenar o cambiar campos en la ficha de cliente según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-En la ficha desplegable **Precios venta y descuentos línea ventas**, puede observar los precios especiales o los descuentos que concede al cliente si se cumplen determinados criterios, como, por ejemplo, el producto, la cantidad de pedido mínima o la fecha final. Cada fila representa un precio especial o un descuento de línea. Cada columna representa un criterio aplicable para autorizar el precio especial que se introduzca en el campo **Precio de venta**, o el descuento de línea que se introduzca en el campo **% Descuento línea**. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
+La acción **Precios y descuentos** proporciona opciones para administrar precios especiales o descuentos para el cliente cuando un pedido cumple con ciertos criterios. Por ejemplo, los criterios pueden ser cuándo compran un artículo determinado, solicitan una cantidad mínima o compran antes de una fecha, como, por ejemplo, cuando finaliza una campaña. Para más información, vea [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
 El cliente estará registrado y la ficha de cliente está lista para usarse en los documentos de venta.
 
@@ -62,7 +55,30 @@ La plantilla de cliente se agrega a la lista de plantillas de cliente, de modo q
 
 ## <a name="deleting-customer-cards"></a>Eliminar fichas cliente
 
-Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas cliente con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
+Si ha publicado una transacción para un cliente, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas de cliente con movimientos, póngase en contacto con su socio de Microsoft para hacerlo mediante código.  
+
+## <a name="managing-credit-limits"></a>Administrar los límites de crédito
+
+Los límites de crédito, los importes del saldo y las condiciones de pago permiten que [!INCLUDE [prod_short](includes/prod_short.md)] emita advertencias de crédito y deuda vencida al introducir un pedido de venta.  Además, las instalaciones de términos de recordatorio y de intereses le permiten facturar intereses y/o recargos adicionales.  
+
+El campo **Límite de crédito** de una ficha cliente especifica el importe máximo que le permite al cliente exceder el saldo de pago antes de que se emitan las advertencias. Luego, cuando introduce información en diarios, ofertas, pedidos y facturas, [!INCLUDE [prod_short](includes/prod_short.md)] prueba la cabecera de ventas y las líneas de ventas individuales para ver si se ha excedido el límite de crédito.
+
+Puede registrar, aunque se haya rebasado el límite de crédito. Si este campo se deja en blanco, este cliente no tendrá límite de crédito.  
+
+Puede optar por no recibir advertencias que le indiquen que se excedió el límite de crédito del cliente y puede especificar qué tipos de advertencias desea ver.
+
+### <a name="to-specify-credit-limit-warnings"></a>Para especificar advertencias de límites de crédito
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
+
+2. En la ficha desplegable **General**, en el campo **Advertencias de crédito**, elija la opción relevante como se describe en la siguiente tabla:
+
+    |Opción| Descripción|
+    |------|------------|
+    |**Ambos**| El programa comprueba los campos **Límite de crédito** y **Saldo vencido** de la ficha cliente y le avisa si el cliente ha superado el límite de crédito o si tiene una deuda vencida.|
+    |**Límite de crédito**|El valor del campo **Límite de crédito** de la ficha de cliente se compara con el saldo del cliente y se muestra un aviso si dicho saldo supera este importe.|
+    |**Deuda vencida**|Se comprueba el campo **Saldo vencido** de la ficha cliente y aparece una advertencia si el cliente tiene una deuda vencida.|
+    |**Ninguno**|No se muestra ninguna advertencia acerca del estado del cliente.|
 
 ## <a name="see-also"></a>Consulte también
 
@@ -71,4 +87,6 @@ Si ha publicado una transacción para un cliente, no puede eliminar la ficha por
 [Crear numeración](ui-create-number-series.md)  
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

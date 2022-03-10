@@ -1,21 +1,21 @@
 ---
-title: Encontrar entradas | Microsoft Docs
+title: Búsqueda de movimientos
 description: Este artículo describe cómo encontrar documentos y entradas que están relacionadas
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
+ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771166"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322985"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Búsqueda de entradas relacionadas para documentos registrados 
 
@@ -41,7 +41,7 @@ La página **Buscar entradas** incluye todos los documentos relacionados y las e
 <!--
  There are two ways to open this page:
 
-- Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
     
@@ -67,7 +67,7 @@ Puede buscar entradas basándose en información sobre el documento, el contacto
 Después de hacer una selección, introduzca la información de búsqueda relevante en los campos de la parte superior. Utilice la información de los campos como ayuda. Cuando haya terminado, elija **Buscar** para iniciar la búsqueda. Si cambia cualquiera de los filtros, deberá volver a elegir **Buscar**.
 
 > [!TIP]
-> Para ver un par de ejemplos sobre el uso de **Buscar entradas**, consulte [Seguimiento de productos con seguimiento de productos](inventory-how-to-trace-item-tracked-items.md) y [Tutorial: seguimiento de números de lote de serie](walkthrough-tracing-serial-lot-numbers.md).
+> Para ver un par de ejemplos sobre cómo usar **Buscar entradas**, consulte [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

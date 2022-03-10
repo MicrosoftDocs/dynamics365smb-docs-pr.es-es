@@ -1,29 +1,26 @@
 ---
-title: 'Procedimiento: Asignar las ubicaciones predefinidas a los productos | Documentos de Microsoft'
-description: Si utiliza ubicaciones en un almacén, la asignación de ubicaciones genéricas a sus productos puede facilitar el proceso de envío, recepción y movimiento de sus productos. Cuando se asigna una ubicación genérica a un producto, se sugiere esta ubicación cada vez que se inicia una transacción de este producto.
-services: project-madeira
-documentationcenter: ''
+title: Asignar las ubicaciones predefinidas a los productos
+description: Si utiliza ubicaciones en un almacén, la asignación de ubicaciones genéricas a sus productos puede facilitar el proceso de envío, recepción y movimiento de sus productos.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0eb6dc74d9ac050c692c003799c3142bdbdaeeaa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: e4f3d103c5bfdcedfef6fa3571f4ca56aa2ccb9a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248760"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134670"
 ---
 # <a name="assign-default-bins-to-items"></a>Asignar las ubicaciones predefinidas a los productos
 Si utiliza ubicaciones en un almacén, la asignación de ubicaciones genéricas a sus productos puede facilitar el proceso de envío, recepción y movimiento de sus productos. Cuando se asigna una ubicación genérica a un producto, se sugiere esta ubicación cada vez que se inicia una transacción de este producto. Las ubicaciones genéricas se definen en la página **Contenido ubicación**.  
 
 ## <a name="to-assign-a-default-bin-to-an-item"></a>Asignar una ubicación predeterminada a un producto
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Hoja trab. creac. cont. ubic.** y elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Hoja trab. creac. cont. ubic.** y, a continuación, elija el vínculo relacionado.  
 2.  Rellene la información del código de ubicación y del artículo para cada ubicación que desee configurar como valor predeterminado para un artículo. Asegúrese de seleccionar el campo **Predeterminado**.  
 3.  Seleccione la acción **Crear contenido ubicación**. Las ubicaciones ya están asignadas a su producto.  
 
@@ -32,7 +29,7 @@ Si utiliza ubicaciones en un almacén, la asignación de ubicaciones genéricas 
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>Para cambiar las ubicaciones predefinidas de los productos  
 Puede que tenga que cambiar la asignación de la ubicación predeterminada de un artículo o que tenga que asignar una ubicación predeterminada a un artículo nuevo.    
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Contenidos ubicación** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contenido de ubicación** y luego elija el enlace relacionado.  
 2.  En el campo **Filtro almacén**, seleccione el código de almacén correspondiente.  
 3.  Busque el movimiento de contenido de ubicación actual del producto y desactive la casilla **Genérica**.  
 4.  Busque la línea de contenido de la ubicación que desea que sea la nueva ubicación genérica. Seleccione la casilla de verificación **Ubicación predeterminada**.  
@@ -46,4 +43,7 @@ Puede que tenga que cambiar la asignación de la ubicación predeterminada de un
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

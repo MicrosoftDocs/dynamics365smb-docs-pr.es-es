@@ -1,19 +1,18 @@
 ---
-title: Enviar alertas normativas | Documentos de Microsoft
-description: Si tiene información sobre la nueva legislación y cree que requiere soporte de características en Business Central, puede seguir esta guía para enviar una alerta normativa al equipo del producto.
+title: Enviar alertas reglamentarias
+description: Si tiene información sobre la nueva legislación que requiere soporte de características en Business Central, puede seguir esta guía para enviar una alerta normativa al equipo del producto.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784845"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335115"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Enviar alertas sobre las características normativas específicas del país/región
 
@@ -21,7 +20,7 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Para enviar una alerta normativa en LCS
 
-1. Vaya a https://lcs.dynamics.com e inicie sesión  
+1. Vaya a [https://lcs.dynamics.com](https://lcs.dynamics.com) e inicie sesión  
 
     Se le mostrarán los proyectos a los que tiene acceso
 

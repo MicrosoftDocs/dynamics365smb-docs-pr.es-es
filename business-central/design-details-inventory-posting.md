@@ -2,20 +2,19 @@
 title: 'Detalles de diseño: Registro inventario | Documentos de Microsoft'
 description: Cada transacción de inventario, como un albarán de compra o un albarán de venta, registra dos movimientos de distintos tipos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 29f4bf5ba4315f6d7a19ba7cf3efd4186a2c5573
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389904"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138653"
 ---
 # <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
 
@@ -32,7 +31,7 @@ Cada transacción de inventario, como un albarán de compra o un albarán de ven
 
  Las entradas de valores que se crean en el inventario físico se registran en intervalos regulares en la contabilidad para conciliar las dos contabilidades para efectos de control financiero. Para obtener más información, consulte [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Flujo de entrada al reconciliar el inventario con C/G](media/design_details_inventory_costing_1_entry_flow.png "Flujo de entrada al reconciliar el inventario con C/G")  
+ ![Flujo de entrada al reconciliar el inventario con C/G.](media/design_details_inventory_costing_1_entry_flow.png "Flujo de entrada al reconciliar el inventario con C/G")  
 
 ## <a name="example"></a>Ejemplo:
 

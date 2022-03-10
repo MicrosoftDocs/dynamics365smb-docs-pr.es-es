@@ -1,25 +1,24 @@
 ---
-title: Módulo Docs. cartera a cobrar
-description: El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas.
+title: Módulo Docs. cartera a cobrar [ES]
+description: El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas utilizando el Diario Cartera.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: fe3a19c0fc7e457606864e89b74fa09a06e6d0e7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a9dc9cc07abb2df528ec88e6db33ebd23f2b04cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778112"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136638"
 ---
-# <a name="receivables-cartera-module"></a>Módulo Docs. cartera a cobrar
+# <a name="receivables-cartera-module-in-the-spanish-version"></a>Módulo Docs. cartera a cobrar en la versión en español
 El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas. Los documentos se pueden administrar por:  
 
 - Fecha de vencimiento  
@@ -59,3 +58,6 @@ Se pueden utilizar remesas para:
 ## <a name="see-also"></a>Consulte también  
  [Módulo Cartera](cartera-module.md)   
  [Módulo Docs. cartera a pagar](payments-cartera-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

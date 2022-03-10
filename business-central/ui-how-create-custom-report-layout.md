@@ -1,21 +1,21 @@
 ---
-title: Crear y modificar diseños personalizados para informes y documentos | Documentos de Microsoft
+title: Crear y modificar diseños personalizados para informes y documentos
 description: Obtenga información sobre cómo crear sus propios diseños personalizados para personalizar el aspecto de un informe cuando se vea, se imprima o se guarde.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12eeb1a2eb3f7235524085c20f587ad9b2ec1f81
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444342"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134722"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Crear y modificar diseños de informe personalizados
 
@@ -55,7 +55,7 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 El diseño personalizado se ha creado. Ahora puede modificar el diseño personalizado según sea necesario.
 
 > [!TIP]
-> Puede exportar los resultados del informe a un archivo de Excel para ver el conjunto de datos completo, incluidas todas las columnas, pero sin el diseño. El archivo de Excel puede ayudarle a validar que el informe devuelve los datos esperados o diagnosticar problemas. Para más información, vea [Trabajar con informes - Enviar a Excel](ui-work-report.md#send-to-excel).
+> Puede exportar los resultados del informe a un archivo de Excel para ver el conjunto de datos completo, incluidas todas las columnas, pero sin el diseño. El archivo de Excel puede ayudarle a validar que el informe devuelve los datos esperados o diagnosticar problemas. Para más información, consulte [Analizar datos de informes con Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modificación de un diseño personalizado
 

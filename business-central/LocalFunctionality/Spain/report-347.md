@@ -1,23 +1,22 @@
 ---
-title: Informe 347
-description: El Informe 347 es un informe anual obligatorio que todas las empresas deben enviar a la administración fiscal para reflejar las compras o ventas de un periodo determinado. Este informe también incluye entradas como el pago en efectivo que se recibió en el período.
+title: Informe 347 [ES]
+description: El Informe 347 es un informe anual obligatorio que todas las empresas deben enviar a la administración fiscal para reflejar las compras o ventas de un periodo determinado.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 58721233b94a69975f4f02b7e4bdf59707886e40
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 6b031746165b4621398c7b96d9aa9101bf40f6aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881325"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136636"
 ---
-# <a name="report-347"></a>Informe 347
+# <a name="report-347-in-the-spanish-version"></a>Informe 347 en la versión en español
 El **Informe 347** es un informe anual obligatorio que todas las empresas deben enviar a la administración fiscal para reflejar las compras o ventas de un periodo determinado. Este informe también incluye entradas como el pago en efectivo que se recibió en el período. El **informe 347** se genera en un formato que ha aprobado la administración fiscal. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml).  
 
 ## <a name="file-format-for-report-347"></a>Formato de archivo del informe 347  
@@ -40,3 +39,6 @@ Antes de crear el **Informe 347**, debe tener en cuenta las siguientes restricci
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)   
  [Crear el informe 347](how-to-create-report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

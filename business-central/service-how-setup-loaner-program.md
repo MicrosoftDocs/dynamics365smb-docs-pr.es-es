@@ -1,32 +1,29 @@
 ---
 title: Configurar productos prestados | Documentos de Microsoft
 description: Puede configurar productos prestados que puede prestar a los clientes para reemplazar productos de servicio mientras están en servicio.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 252696484a8c7d90bac90628cf74896240889ba9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311865"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132633"
 ---
 # <a name="set-up-a-loaner-program"></a>Configurar un programa de productos prestados
-En ocasiones, debe entregar al cliente un producto prestado para que lo utilice mientras el equipo de servicio al cliente realiza la reparación. En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede establecer un programa de productos prestados, prestar artículos a sus clientes y llevar un seguimiento de la recepción de los artículos cuando los clientes los devuelven. Además, puede agregar comentarios acerca de los productos prestados de una de las siguientes formas:  
+En ocasiones, debe entregar al cliente un producto prestado para que lo utilice mientras el equipo de servicio al cliente realiza la reparación. En [!INCLUDE[prod_short](includes/prod_short.md)], puede establecer un programa de productos prestados, prestar artículos a sus clientes y llevar un seguimiento de la recepción de los artículos cuando los clientes los devuelven. Además, puede agregar comentarios acerca de los productos prestados de una de las siguientes formas:  
   
 * Escribir una nota o comentario acerca del propio producto prestado.  
 * Escribir una nota en un producto de servicio acerca de la necesidad de un producto prestado.  
 
 ## <a name="to-set-up-a-loaner"></a>Para configurar un producto prestado  
-1. Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Productos prestados** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos prestados** y luego elija el enlace relacionado.  
 2. Cree una ficha de producto prestado nueva. 
 3. En el campo **N.º**, introduzca un número para el producto prestado. Si ha configurado una serie numérica para productos prestados en la página **Config. gestión servicios**, también puede presionar la tecla Enter para seleccionar el siguiente número de producto prestado disponible.  
 4. Rellene los campos **Descripción**, **Descripción 2** y **Nº serie**.  
@@ -37,3 +34,6 @@ En ocasiones, debe entregar al cliente un producto prestado para que lo utilice 
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Prestación del servicio](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

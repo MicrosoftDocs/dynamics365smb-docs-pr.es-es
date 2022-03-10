@@ -1,25 +1,24 @@
 ---
-title: Liquidar movimientos en distintas divisas | Documentos de Microsoft
+title: Liquidar movimientos en distintas divisas
 description: Puede liquidar movimientos en varias divisas, por ejemplo, si vende a un cliente en una divisa y cobra en otra.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
-ms.date: 10/01/2020
+ms.search.form: 148, 460
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 564ac8edfb21573e310a3be3eaa22060d84bef22
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a3ee04505d21455e05869b79bfad61dfa0c10dd5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750910"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147783"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Permitir la liquidación de movimientos de cliente en distintas divisas
+
 Si se realiza una compra a un proveedor en una divisa y se emite el pago en otra divisa, es posible liquidar la compra con el pago.
 
 De igual modo, si vende a un cliente en una divisa y cobra en otra, puede liquidar el pago con la factura de venta.
@@ -27,7 +26,8 @@ De igual modo, si vende a un cliente en una divisa y cobra en otra, puede liquid
 El procedimiento siguiente describe cómo configurarlo para movimientos de proveedor en la página **Configuración de compras y pagos**. La configuración es similar para los movimientos de cliente en la página **Configuración de ventas y cobros**.
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Para permitir la liquidación de movimientos de proveedor en divisas distintas
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
 2. En el campo **Liquidación entre divisas**, seleccione una de las siguientes opciones.
 
 | Opción | Descripción |
@@ -36,18 +36,23 @@ El procedimiento siguiente describe cómo configurarlo para movimientos de prove
 | UME |Se permite la liquidación entre divisas de la UME. |
 | Todo |Se permite la liquidación entre todas las divisas. |
 
-## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Para configurar cuentas para liquidar diferencias de redondeo en divisa  
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Para configurar cuentas para liquidar diferencias de redondeo en divisa
+
 Si liquida movimientos en varias divisas distintas, debe configurar las cuentas en las que se registrarán las diferencias de redondeo.  
 
 > [!NOTE]  
->  Primero debe configurar las cuentas contables antes de completar la tarea. Para obtener más información, consulte [Descripción del libro mayor y plan de cuentas](finance-general-ledger.md).
+> Primero debe configurar las cuentas contables antes de completar la tarea. Para obtener más información, consulte [Descripción del libro mayor y plan de cuentas](finance-general-ledger.md).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos contables clientes** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos registro cliente** y luego elija el enlace relacionado.  
 2. En los campos **Cta. neg. red. liquids. divisa** y **Cta. pos. red. liquids. divisa**, especifique el número de cuentas contables para registrar las diferencias de redondeo.  
-3. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Grupos registro proveedor** y luego elija el enlace relacionado.  
+3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos registro proveedor**, y luego elija el enlace relacionado.  
 4. En los campos **Cta. neg. red. liquids. divisa** y **Cta. pos. red. liquids. divisa**, especifique el número de cuentas contables para registrar las diferencias de redondeo.  
 
 ## <a name="see-also"></a>Consulte también
+
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

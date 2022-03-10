@@ -1,21 +1,20 @@
 ---
-title: 'Detalles de diseño: Estructura de registro de seguimiento de productos | Documentos de Microsoft'
-description: Aprender a usar movimientos de productos como soporte principal de los números de seguimiento de producto.
+title: 'Detalles de diseño: Estructura de registro de seguimiento de productos'
+description: Aprender a usar movimientos de productos como soporte principal de los números de seguimiento de producto en la Estructura de registro de seguimiento de productos.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0786853d6b5882306dfb887cbb396d1a8d009f62
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b568e62a71b907e8d2f9cbc8eba43773be655b44
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774869"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136327"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Detalles de diseño: Estructura de registro de seguimiento de productos
 Para establecer la correspondencia con la funcionalidad de valoración de existencias y obtener una solución más simple y robusta, se usan los movimientos de producto como el soporte principal de los números de seguimiento de producto.  

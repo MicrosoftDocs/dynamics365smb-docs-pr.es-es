@@ -1,21 +1,20 @@
 ---
-title: Cómo mover productos ad hoc en configuraciones básicas de almacén | Microsoft Docs
-description: Puede que necesite de vez en cuando mover los artículos entre las ubicaciones internas, no recibir o enviar ubicaciones, sin una demanda determinada desde un documento de origen. Puede realizar estos movimientos ad hoc, por ejemplo, para reorganizar el almacén, para llevar los artículos a un área de inspección o para mover más artículos a o desde un área de producción sin una relación de sistema con el documento de origen de la orden de producción.
+title: Mover productos ad hoc en configuraciones básicas de almacén
+description: Este tema explica los movimientos ad hoc realizados cuando necesita mover artículos entre ubicaciones internas sin una demanda específica de un documento de origen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2ada7dbf658517332af029571a63726eef038546
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1dd408f93a7111b6d389ae1c532bd7b1ec70d7bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391554"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140058"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Mover productos ad hoc en configuraciones básicas de almacén
 Puede que necesite de vez en cuando mover los artículos entre las ubicaciones internas, no recibir o enviar ubicaciones, sin una demanda determinada desde un documento de origen. Puede realizar estos movimientos ad hoc, por ejemplo, para reorganizar el almacén, para llevar los artículos a un área de inspección o para mover más artículos a o desde un área de producción sin una relación de sistema con el documento de origen de la orden de producción.  
@@ -29,7 +28,7 @@ En configuraciones de almacén básico, es decir en ubicaciones que utilizan el 
 >  En configuraciones avanzadas de almacén, es decir las ubicaciones que utilizan el campo de configuración **Ubicac. y pick. directo**, utilice las páginas **Hoja trabajo movimiento**, **Picking almacén interno** o **Ubicación almacén interno** para mover los artículos ad hoc entre ubicaciones.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Para mover los artículos como movimiento interno  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Movimiento interno** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimiento interno** y, a continuación, elija el vínculo relacionado.  
 2.  En la ficha desplegable **General**, rellene el campo **Nº** bien dejando el campo o eligiendo el botón **AssistEdit** para seleccionar de las series de números.  
 3.  En el campo de **Cód. almacén**, escriba la ubicación donde tiene lugar el movimiento.  
 
@@ -58,7 +57,7 @@ En configuraciones de almacén básico, es decir en ubicaciones que utilizan el 
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Para mover productos con el diario de reclasificación de productos:
 En lugar de utilizar documentos de movimiento de almacén, puede registrar el movimiento de productos reclasificando sus códigos de ubicación. Para obtener más información, consulte [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md).   
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario reclasif. producto** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios reclasif. producto**, y luego elija el enlace relacionado.  
 2.  En cada línea del diario, defina las ubicaciones de las que y a las que desea mover los artículos rellenando los campos **Cód. ubicación** y **Nueva ubicación**.  
 
     1.  Para mover todo el contenido de una ubicación a otra, elija la acción **Traer conten. ubicac.**.  

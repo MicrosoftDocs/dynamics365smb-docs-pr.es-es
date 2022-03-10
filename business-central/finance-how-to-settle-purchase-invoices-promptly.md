@@ -2,17 +2,16 @@
 title: Liquidar facturas de compra inmediatamente
 description: Si necesita pagar al proveedor en efectivo o con cheque, puede hacer que se realice el registro correspondiente cuando se registra la factura.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.topic: conceptual
+ms.search.form: 51, 9308
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fb442c7b1e9e7bdcb727ca6de157657e370e254f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746846"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141218"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Liquidar facturas de compra inmediatamente
 
@@ -23,7 +22,7 @@ Si necesita pagar al proveedor en efectivo o con cheque, puede registrar el pago
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Para liquidar facturas de compra inmediatamente
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Facturas de compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Para pagar en efectivo o mediante transferencia bancaria, introduzca el número de cuenta de caja o de banco en el campo **Cuenta contrapartida**.  
 
@@ -37,3 +36,6 @@ Si necesita pagar al proveedor en efectivo o con cheque, puede registrar el pago
 [Administrar pagos](payables-manage-payables.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

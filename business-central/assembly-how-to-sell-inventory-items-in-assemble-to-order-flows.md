@@ -1,25 +1,22 @@
 ---
-title: Venta de productos de inventario en los flujos de ensamblar para pedido | Documentos de Microsoft
-description: Si un elemento está configurado para la ficha de Ensamblar para pedido, el proceso de pedido de venta predeterminado supone que el producto no está en el inventario y se debe ensamblar para ese pedido de venta concreto. Por tanto, se crea automáticamente un pedido de ensamblado al agregar el elemento a una línea de pedido de venta.
-services: project-madeira
-documentationcenter: ''
+title: Cómo vender productos de inventario en los flujos de ensamblar para pedido
+description: Si un producto está configurado para ensamblar para pedido, el producto debe ensamblarse para pedidos de venta y se crea automáticamente un pedido de ensamblado vinculado.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 98d5b9e7efb4d195512010d9c18f875c946bcef7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 2d68bb10c6ff7d153417dbdc491dd8abd75b7adc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307665"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146987"
 ---
-# <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Vender productos de inventario en los flujos de ensamblar para pedido
+# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vender productos de inventario en flujos de ensamblar para pedido
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para pedido**, el proceso de pedido de venta predeterminado supone que el producto no está en el inventario y se debe ensamblar para ese pedido de venta concreto. Por tanto, se crea automáticamente un pedido de ensamblado al agregar el elemento a una línea de pedido de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md). Sin embargo, si parte de la cantidad del pedido de venta ya está disponible en el inventario, puede reducir la cantidad del pedido de ensamblado cambiando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta.  
 
 Este ejemplo es raro ya que se espera que los productos de ensamblar para pedido estén siempre personalizados y la posibilidad de que estén en el inventario con la configuración solicitada por otro cliente es baja. Sin embargo, si una empresa tiene cantidades de ensamblar para pedido en el inventario debido a devoluciones o cancelaciones de pedidos, se debe realizar el picking de estas cantidades y venderlas antes de que se ensamblen nuevas.  
@@ -35,7 +32,7 @@ Hay una funcionalidad similar disponible al vender productos de ensamblado del i
 En este procedimiento, se reemplazan las cantidades de ensamblar para pedido con cantidades de inventario en una línea de pedido de venta. Los pasos incluyen la detección de que existe la disponibilidad, la deducción de dicha cantidad del pedido de ensamblado vinculado y, a continuación, la reserva de la cantidad de inventario para asegurarse de que se ha realizado el picking de la misma y se ha enviado para el pedido.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Para vender productos de inventario en los flujos de ensamblar para pedido  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Pedidos de venta** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Cree un pedido de ventas. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 3.  En una línea de pedido de venta para un artículo de ensamblar para pedido, en el campo **Cantidad**, introduzca la cantidad solicitada.  
 4.  En el cuadro informativo **Detalles líneas venta**, determine si toda la cantidad solicitada o parte de ella está disponible.  
@@ -54,6 +51,9 @@ En este procedimiento, se reemplazan las cantidades de ensamblar para pedido con
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Reservar artículos](inventory-how-to-reserve-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

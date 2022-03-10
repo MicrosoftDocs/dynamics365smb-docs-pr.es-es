@@ -1,24 +1,23 @@
 ---
-title: Informe 340
-description: El Informe 340 contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal.
+title: Informe 340 [ES]
+description: Este tema describe el Informe 340, que contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: ee931d04d52453cefb4ffd1281c53588515806fc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 519029e673bdd5bcc0e14609fd756fb854328a09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753189"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136642"
 ---
-# <a name="report-340"></a>Informe 340
-El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.aeat.es). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
+# <a name="report-340-in-the-spanish-version"></a>Informe 340 en la versión en español
+El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.agenciatributaria.es/). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
 
 ## <a name="reporting-requirements-for-entrepreneurs-and-small-companies"></a>Requisitos de informes para emprendedores y pequeñas empresas  
 Los requisitos de presentación de informes para empresarios y pequeñas empresas se modifican para apoyar a las empresas que utilizan los criterios de contabilidad de efectivo (CAC).  
@@ -92,3 +91,6 @@ Antes de crear el informe **Informe 340**, debe tener en cuenta las siguientes r
  [Crear el informe 340](how-to-create-report-340.md)   
  [Pagos en efectivo](payments-in-cash.md)   
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

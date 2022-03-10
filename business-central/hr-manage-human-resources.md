@@ -1,26 +1,25 @@
 ---
-title: Usar la funcionalidad de recursos humanos | Documentos de Microsoft
+title: Administrar recursos humanos
 description: Puede registrar nuevo personal, modificar la información del personal existente y registrar y analizar las ausencias.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 10/01/2020
+ms.search.form: 5200, 5201, 5212, 5211
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4842c8215ecc9c256108c7434d779a9f54650bf3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921900"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135911"
 ---
 # <a name="manage-human-resources"></a>Administrar recursos humanos
-En [!INCLUDE[d365fin](includes/d365fin_md.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
+
+En [!INCLUDE[prod_short](includes/prod_short.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
 
 También puede registrar ausencias de empleados, lo que permite analizar las ausencias registradas, según las necesidades.
 
@@ -34,6 +33,10 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registre la ausencia de los empleados y consulte las estadísticas de ausencia mediante distintos filtros. |[Gestionar ausencia empleados](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Consulte también
+
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)        
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

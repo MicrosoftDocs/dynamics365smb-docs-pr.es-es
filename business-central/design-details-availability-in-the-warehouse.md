@@ -2,20 +2,19 @@
 title: 'Detalles de diseño: Disponibilidad en el almacén | Documentos de Microsoft'
 description: El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: dbab0b20fd46235b549e48950d23879229e6dc1c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788226"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132086"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
 El sistema debe mantener un control constante de la disponibilidad de productos el almacén, para que los pedidos de salida puedan fluir de un modo eficaz y proporcionar las entregas óptimas.  
@@ -47,7 +46,7 @@ Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes d
 
  En el diagrama siguiente se muestra los diferentes elementos del cálculo.  
 
- ![Disponible para picking con superposición de reservas](media/design_details_warehouse_management_availability_2.png "Disponible para picking con superposición de reservas")  
+ ![Disponible para picking con superposición de reservas.](media/design_details_warehouse_management_availability_2.png "Disponible para picking con superposición de reservas")  
 
 ## <a name="quantity-available-to-reserve"></a>Cantidad disponible para reservar  
  Dado que coexisten los conceptos de contenido y de reserva de ubicación, la cantidad de productos disponibles para reservar se debe alinear con las asignaciones hacia documentos de almacén de salida.  
@@ -72,8 +71,11 @@ Si no se cumplen una o más condiciones, se pueden mostrar diferentes mensajes d
 
  En el diagrama siguiente se muestra los diferentes elementos del cálculo.  
 
- ![Disponible para reserva por asignaciones de almacén](media/design_details_warehouse_management_availability_3.png "Disponible para reserva por asignaciones de almacén")  
+ ![Disponible para reserva por asignaciones de almacén.](media/design_details_warehouse_management_availability_3.png "Disponible para reserva por asignaciones de almacén")  
 
 ## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+ [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
  [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

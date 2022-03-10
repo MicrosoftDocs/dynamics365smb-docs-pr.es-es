@@ -1,21 +1,21 @@
 ---
-title: Preguntas más frecuentes acerca de la opción Dígame | Documentos de Microsoft
+title: Preguntas frecuentes sobre Dígame
 description: Este artículo proporciona respuestas a las preguntas que nuestros socios y clientes suelen hacer sobre la función Dígame.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: a23851dfbca688c5935d967a66ad6ebc8a0abe5e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 13605b6188f9aa2c30a82cbb8216d8419a711d31
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195344"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334718"
 ---
 # <a name="tell-me-faq"></a>FAQ acerca de la función Dígame
 Este tema responde las preguntas que nuestros usuarios avanzados suelen hacer sobre la función Dígame.
@@ -32,7 +32,7 @@ La función Dígame recoge las acciones, páginas e informes que se originan a p
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>¿Qué diferencia hay con lo que antes se conocía como búsqueda de página?
 La Búsqueda de páginas se ha convertido en la función Dígame para ayudarle a realizar el trabajo rápidamente. La búsqueda de páginas solo puede ayudarle a desplazarse por páginas o informes. A nivel técnico, la función Dígame ya no se basa en el concepto heredado de MenuSuite.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Utilizo [!INCLUDE[d365fin](includes/d365fin_md.md)] local. ¿Incluye la función Dígame?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Utilizo [!INCLUDE[prod_short](includes/prod_short.md)] local. ¿Incluye la función Dígame?
 Puede usar la función Dígame en el cliente web local para buscar acciones, páginas e informes, pero no documentación, o aplicaciones y servicios de consultoría en AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>¿Está disponible para todos los factores de forma?
@@ -50,3 +50,6 @@ El icono de marcador no se muestra en la ventana Dígame cuando la personalizaci
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md)  
 [Marque una página o informe en su Área de trabajo](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

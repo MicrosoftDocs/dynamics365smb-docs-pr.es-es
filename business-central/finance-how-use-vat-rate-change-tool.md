@@ -1,24 +1,24 @@
 ---
-title: Administración de los cambios en el tipo de IVA | Microsoft Docs
-description: Aprenda cómo utilizarla la herramienta de cambio del tipo de IVA para Dynamics 365 Business Central.
+title: Administración de cambios del tipo de IVA
+description: Aprenda a utilizar la herramienta de cambio del tipo de IVA para Dynamics 365 Business Central para cambiar los tipos de IVA según la legislación local.
 author: andregu
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 06/19/2020
+ms.search.form: 550,
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 1672c163237e23510e2d8f3a5a99760018d023d9
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486326"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135398"
 ---
 # <a name="managing-vat-rate-changes"></a>Administración de cambios del tipo de IVA
 
-Los tipos de IVA pueden cambiar según la legislación local. Cualquier cambio en el IVA afecta a sus datos en [!INCLUDE[d365fin](includes/d365fin_md.md)] si el tipo de IVA baja, aumenta o se elimina. El IVA está conectado a muchas entidades en [!INCLUDE[d365fin](includes/d365fin_md.md)], como clientes, proveedores, productos, recursos, cargos de producto y cuentas de contabilidad. Los cambios en los tipos de IVA generalmente ocurren en una fecha específica, a partir de la cual deberá haber cambiado la configuración del IVA, los grupos contables, etc. para asegurarse de que se creen nuevos pedidos de ventas y de compras con el nuevo tipo de IVA.
+Los tipos de IVA pueden cambiar según la legislación local. Cualquier cambio en el IVA afecta a sus datos en [!INCLUDE[prod_short](includes/prod_short.md)] si el tipo de IVA baja, aumenta o se elimina. El IVA está conectado a muchas entidades en [!INCLUDE[prod_short](includes/prod_short.md)], como clientes, proveedores, productos, recursos, cargos de producto y cuentas de contabilidad. Los cambios en los tipos de IVA generalmente ocurren en una fecha específica, a partir de la cual deberá haber cambiado la configuración del IVA, los grupos contables, etc. para asegurarse de que se creen nuevos pedidos de ventas y de compras con el nuevo tipo de IVA.
 
 ## <a name="changing-vat-rates"></a>Cambio de los tipos de IVA
 
@@ -71,13 +71,13 @@ Antes de configurar la herramienta de cambio de tasa de IVA, debe llevar a cabo 
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Para configurar la herramienta de cambio de tasa de IVA
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conf. cambio tipo IVA** y luego elija el enlace relacionado.  
 2. En las fichas desplegables **Datos maestros**, **Diarios** y **Documentos**, elija un valor de grupo contable de la lista de opciones para los campos necesarios. Para cada grupo, puede elegir si desea convertir grupos de registro IVA de producto o grupos de contabilización de productos generales, o convertir ambos valores si están disponibles en el elemento de datos maestros. Para algunas áreas, también puede establecer un filtro para convertir solo un subconjunto de valores, por ejemplo, cuentas. 
 3. En la ficha desplegable **Precios IVA incluido**, elija para qué tipos de línea en los pedidos desea actualizar los precios unitarios. Los precios unitarios en las líneas de tipo producto y recurso siempre se actualizarán.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Para configurar una conversión grupos de registro de producto
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conf. cambio tipo IVA** y luego elija el enlace relacionado.  
 2. En la página **Conf. cambio tasa IVA**, elija la acción **Conv. gr. contable producto IVA** o **Conv. gr. contable producto general**.  
 3. En el campo **Código origen**, especifique el grupo de registro actual.  
 4. En el campo **Código destino**, especifique el nuevo grupo de registro.  
@@ -92,7 +92,7 @@ Utiliza la herramienta de cambio de tasa de IVA para gestionar los cambios en la
 > [!IMPORTANT]  
 > Antes de realizar la conversión de cambio del tipo de IVA, puede probarla. Para hacerlo, siga los pasos siguientes, pero asegúrese de desactivar las casillas de verificación **Realizar conversión** y **Herramienta cambio tasa IVA finalizada**. Durante la conversión de prueba, el campo **Convertido** en la tabla **Mov. registro cambios en tasa IVA** está desactivada y el campo **Fecha conversión** en la tabla **Mov. registro cambios en tasa IVA** está vacío. Después de que la conversión esté completa, elija **Movs. reg. de cambio de tasa de IVA** para ver los resultados de la prueba. Verifique cada movimiento antes de realizar la conversión. Concretamente, verifique las transacciones que utilizan una tasa de IVA antigua.
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Conf. cambio tipo IVA** y luego elija el enlace **Conf. cambio tasa IVA**.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cambio tipo IVA** y luego elija el enlace **Conf. cambio tipo IVA**.  
 2. Compruebe que haya configurado la conversión del grupo de registro de IVA de producto o la conversión del grupo de registro general de producto.  
 3. Elija la casilla de verificación **Realizar conversión**.  
 
@@ -112,3 +112,6 @@ Utiliza la herramienta de cambio de tasa de IVA para gestionar los cambios en la
 [Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Funcionalidad local en Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

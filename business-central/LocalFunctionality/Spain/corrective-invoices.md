@@ -1,24 +1,24 @@
 ---
-title: Facturas correctivas
-description: La funcionalidad de factura correctiva permite enviar una factura correctiva cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales. Esta factura incluye todos los datos requeridos legalmente y hace referencia a la factura o facturas originales.
+title: Facturas correctivas [ES]
+description: La funcionalidad de factura correctiva permite enviar una factura correctiva cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.prod: dynamics-nav-2018
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
-ms.author: sgroespe
-ms.openlocfilehash: 4bcca48c71e8e6fe27a9929a7164b15738467cf3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: bea1b1f3146b26443c072920142e68ae3b3df07e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245138"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132207"
 ---
-# <a name="corrective-invoices"></a>Facturas correctivas
+# <a name="corrective-invoices-in-the-spanish-version"></a>Facturas correctivas en la versión en español
 La funcionalidad de factura correctiva permite enviar una factura correctiva cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales. Esta factura incluye todos los datos requeridos legalmente y hace referencia a la factura o facturas originales. Las facturas originales no se pueden anular y siguen siendo válidas. La factura correctiva contiene las correcciones y los motivos de estas correcciones.  
 
 Están disponibles las siguientes opciones:  
@@ -36,3 +36,6 @@ La factura correctiva debe cumplir los requisitos siguientes:
 
 ## <a name="see-also"></a>Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

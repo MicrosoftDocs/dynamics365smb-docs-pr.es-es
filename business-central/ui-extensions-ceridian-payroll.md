@@ -2,7 +2,6 @@
 title: Importar datos de nómina o de salario con la extensión de nóminas de Ceridian
 description: Utilice esta extensión para importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2129d26cab8de999ae6ae1e80943ee4066ab50f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1604bd9cdfd51bcfa35c0417df0d2b300038a5ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787432"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138341"
 ---
 # <a name="the-ceridian-payroll-extension"></a>La extensión de nóminas de Ceridian
 

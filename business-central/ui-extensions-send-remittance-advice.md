@@ -2,20 +2,19 @@
 title: Extensión Enviar de aviso de pago | Documentos de Microsoft
 description: Describe la extensión Enviar aviso de pago, que permite enviar por correo electrónico y reenviar el aviso de pago desde el diario de pagos y los movimientos de proveedores.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 10/01/2020
+ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: e0868a5919f82af9d19dbd692c8d27577e64b6b0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 256744599bcf30a6386ed5ef74b815e959b3b2bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376967"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132503"
 ---
 # <a name="send-remittance-advice"></a>Enviar aviso de pago
 
@@ -35,6 +34,13 @@ Puede enviar el aviso de pago de dos maneras diferentes:
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
-
+[Transferencia electrónica de fondos (EFT) en la versión australiana](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
+[Realizar pagos electrónicos (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+[Transferencia electrónica de fondos (EFT) en la versión neozelandesa](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
+[Funcionalidad local para Nueva Zelanda](localfunctionality/newzealand/new-zealand-local-functionality.md)  
+[Funcionalidad local del Reino Unido en la versión británica](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
+[Imprimir aviso de pago en la versión británica](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
+[Realizar pagos electrónicos (EE.UU.)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

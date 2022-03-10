@@ -1,23 +1,20 @@
 ---
 title: 'Procedimiento: convierta las ubicaciones existentes en ubicaciones de almacén | Documentos de Microsoft'
 description: Puede activar una ubicación de inventario existente para utilizar zonas y ubicaciones, y para operar como ubicación de almacén.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 9996dce18755a48be903fabdfcb381a5d6ee5398
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d8c87884b359c02815187ab6b5c994ebccce119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248875"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140116"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Convertir los almacenes existentes en ubicaciones de almacén
 Puede activar una ubicación de inventario existente para utilizar zonas y ubicaciones, y para operar como ubicación de almacén.  
@@ -30,7 +27,7 @@ Puede crear zonas y ubicaciones antes o después de la conversión. La única ub
 >  Para borrar todo el inventario negativo y los documentos de almacén abiertos antes de convertir la ubicación para la gestión de almacén, puede ejecutar un informe para identificar los artículos con el inventario negativo y abrir los documentos de almacén para la ubicación. Para obtener más información acerca de cómo crear picking de inventario, vea Comprobar el inventario negativo.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Para activar una ubicación para que funcione como una ubicación de almacén  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Crear un almacén** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear un almacén** y luego elija el enlace relacionado.  
 2.  En el campo de **Cód. almacén**, especifique la ubicación que desea activar para el procesamiento de almacén.  
 3.  En el campo de **Cód. ubicación ajuste**, especifique la ubicación en el lugar de almacenamiento en donde se almacenan los movimientos de almacén no sincronizados. Para obtener más información, consulte [Para sincronizar los movimientos ajustados de almacén con los correspondientes movimientos de producto](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
@@ -50,4 +47,7 @@ Puede crear zonas y ubicaciones antes o después de la conversión. La única ub
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

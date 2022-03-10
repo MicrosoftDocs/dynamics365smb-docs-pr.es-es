@@ -1,25 +1,23 @@
 ---
-title: Cálculo de fechas de vencimiento
-description: En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento.
-services: project-madeira
-documentationcenter: ''
+title: Cálculo de fechas de vencimiento [ES]
+description: Leer información sobre cómo presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 7000048
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 67be2e12df815c5d8d3768bbb174436050326f9f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: bbe8dc39e4d1bc9b4a0e0eb1fd62bd4b31c1a954
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753209"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132213"
 ---
-# <a name="calculating-due-dates"></a>Cálculo de fechas de vencimiento
+# <a name="calculating-due-dates-in-the-spanish-version"></a>Cálculo de fechas de vencimiento en la versión en español
 En España, hay un límite legal para el número de días que un pago se puede retrasar. Debe presentar un informe anual de compras y ventas de los pagos que se crearon antes o después de la fecha de vencimiento. Los requisitos legales dependen de si el cliente es una empresa privada o una gestión pública. Para obtener más información, consulte la declaración oficial [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) en la página web del Boletín Oficial del Estado.  
 
 ## <a name="payment-terms"></a>Condiciones de pago  
@@ -70,3 +68,6 @@ Cada sección tiene una sección de resumen que contiene la siguiente informaci�
 [Administrar pagos](../../payables-manage-payables.md)  
 [Administrar cobros](../../receivables-manage-receivables.md)  
  [Definir las formas de pago](../../finance-payment-methods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

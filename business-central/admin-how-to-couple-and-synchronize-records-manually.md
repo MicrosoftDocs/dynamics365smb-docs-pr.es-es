@@ -1,31 +1,31 @@
 ---
-title: Acoplamiento y sincronización | Documentos de Microsoft
+title: Emparejamiento y sincronización (contiene vídeo)
 description: La sincronización de una asignación de tablas de integración permite la sincronización de datos de todos los registros de una tabla de Business Central y de la tabla de Dynamics 365 Sales que están emparejadas.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 10/01/2020
+ms.search.form: 6250
+ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fa4d6cfe13662613a73c14d68542f8319798ea80
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 71e0e319162e071d880ef4d314eb54cdd5d918f0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752680"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136405"
 ---
-# <a name="coupling-and-synchronizing"></a>Acoplamiento y sincronización
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Emparejamiento y sincronización de registros entre Dataverse y Business Central
+
 En este tema se describe cómo emparejar uno o más registros de [!INCLUDE[prod_short](includes/prod_short.md)] con registros de Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. El emparejamiento de registros le permite ver información de Dataverse desde [!INCLUDE[prod_short](includes/prod_short.md)], y viceversa. El emparejamiento también le permite sincronizar datos entre los registros. Puede emparejar registros existentes o crear y emparejar nuevos registros.
 
 > [!Note]
 > El emparejamiento y la sincronización de datos solo están disponibles si el administrador del sistema ha creado una conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] y Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. Una forma rápida de comprobarlo es abrir la ficha **Cliente** y buscar la acción **Configurar emparejamiento**. Si la acción está disponible, las aplicaciones se conectan.   
 
 ## <a name="video-example"></a>Ejemplo de video
+Este video muestra el acoplamiento y la sincronización de datos en el contexto de una integración con [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
@@ -49,6 +49,14 @@ En este tema se describe cómo emparejar uno o más registros de [!INCLUDE[prod_
 > [!Note]
 > Puede sincronizar un solo registro desde [!INCLUDE[crm_md](includes/crm_md.md)] automáticamente solo cuando **Sincronizar solo reg. emparejados** está deshabilitado y la dirección de sincronización se establece en Bidireccional o Desde la tabla de integración en la página **Asignación de tabla de integración** para el registro. Para más información, vea [Asignación de tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
 
+## <a name="to-couple-multiple-records-using-match-based-coupling"></a>Para emparejar varios registros mediante el emparejamiento basado en coincidencias
+
+Puede especificar los datos que se sincronizarán para una entidad, como un cliente o un contacto, mediante el emparejamiento de registros basado en coincidencias. Puede acotar las coincidencias haciendo que la búsqueda distinga entre mayúsculas y minúsculas y asignando una prioridad para cada coincidencia. Si no se encuentra ninguna coincidencia, también puede especificar que desea crear la entidad en Dataverse. Para más información, vea [Personalizar emparejamiento basado en coincidencias](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+
+1. En el cliente de [!INCLUDE[prod_short](includes/prod_short.md)], abra la página de lista para el registro, como las páginas de lista Clientes o Contactos.
+2. Elija la acción **Emparejamiento basado en coincidencias**.
+3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
 ## <a name="to-synchronize-multiple-records"></a>Para sincronizar varios registros  
 1.  En el cliente de [!INCLUDE[prod_short](includes/prod_short.md)], abra la página de lista para el registro, como las páginas de lista Clientes o Contactos.  
 2.  Seleccione los registros que desea sincronizar y, después, seleccione la acción **Sincronizar ahora**.  
@@ -59,3 +67,6 @@ Puede desacoplar uno o más registros de las páginas de lista o la página **Er
 
 ## <a name="see-also"></a>Consulte también  
 [Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

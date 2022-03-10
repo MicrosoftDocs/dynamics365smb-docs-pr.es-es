@@ -1,25 +1,24 @@
 ---
-title: Funcionalidad local para España
+title: Funcionalidad local para España [ES]
 description: En los temas siguientes se describe la funcionalidad local de la versión española de Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: b48cfcd4a671623ffebc85fa11e7ac77cafea637
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 47dfc423b29dc220af344d98d6101b6cc9c7cdc9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925238"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136634"
 ---
-# <a name="spain-local-functionality"></a>Funcionalidad local para España
+# <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local en la versión española
 
-En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Disponibilidad de la característica  
 
@@ -73,7 +72,10 @@ En los temas siguientes se describe la funcionalidad local que es única para la
     * [Establecer límites para fechas de vencimiento](how-to-set-limits-for-due-dates.md) **Disponible ahora**
 
 ## <a name="see-also"></a>Consulte también
-[Trabajar con [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

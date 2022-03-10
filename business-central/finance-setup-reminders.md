@@ -2,20 +2,20 @@
 title: Configurar términos y niveles de recordatorios.
 description: Aprenda a configurar Business Central para enviar un recordatorio a un cliente sobre un pago pendiente y los intereses o comisiones generados por el retraso.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/21/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 2d8e233fb1796515314c954d883bda7302fdcd9b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377042"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132841"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurar términos y niveles de recordatorios.
 
@@ -30,7 +30,7 @@ Si los clientes tienen pagos vencidos, deberá decidir cómo y cuándo les envia
 
 ### <a name="to-set-up-reminder-terms"></a>Para configurar los recordatorios
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de recordatorios** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Para utilizar más de una combinación de recordatorios, configure un código para cada uno.
 
@@ -42,7 +42,7 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
 
 ### <a name="to-set-up-reminder-levels"></a>Para configurar los niveles de recordatorio
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos recordatorio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de recordatorios** y luego elija el enlace relacionado.  
 2. En la página **Términos recordatorio**, seleccione la línea que incluya los términos para los que desea configurar niveles y, a continuación, elija la acción **Niveles**.  
 3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -101,7 +101,8 @@ Una vez configurados los términos de recordatorio, con niveles y texto adiciona
 ## <a name="see-also"></a>Consulte también .
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
-[Configurar términos interés](finance-setup-finance-charges.md)  
+[Enviar recordatorios de saldos pendientes](receivables-send-reminders.md)  
+[Configurar términos de interés](finance-setup-finance-charges.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 
 

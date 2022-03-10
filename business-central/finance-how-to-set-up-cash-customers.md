@@ -1,41 +1,46 @@
 ---
-title: Configurar clientes de efectivo | Documentos de Microsoft
-description: En este tema se describen los pasos para configurar al cliente que paga en efectivo.
+title: Configurar clientes de efectivo
+description: Este tema describe los pasos necesarios para configurar la factura con un número de cliente para los clientes que pagan en efectivo.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a89522a57d84d70c1d7a1816f064375197329f5e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 21, 22
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 537c25d60282712f66afcdcfe9e44eb99bd2291f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879709"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139552"
 ---
 # <a name="set-up-cash-customers"></a>Configurar clientes de efectivo
+
 No se puede crear una factura sin un número de cliente. Esto es válido, incluso si realiza una venta en efectivo y no tiene nada que registrar en una cuenta de cliente.  
 
-## <a name="to-set-up-a-cash-customer"></a>Para configurar un cliente de efectivo  
-1.  Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Cliente** y luego elija el enlace relacionado.  
-2.  Cree una ficha **Cliente** nueva. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
-3.  En el campo **N.º**, introduzca, por ejemplo, **Efectivo**.  
-4.  En el campo **Nombre**, escriba **Venta en efectivo**.  
-5.  En la ficha desplegable **Facturación**, rellene los campos **Grupo contable cliente** y **Grupo contable negocio**.  
+## <a name="to-set-up-a-cash-customer"></a>Para configurar un cliente de efectivo
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** y luego elija el enlace relacionado.  
+2. Cree una ficha **Cliente** nueva. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
+3. En el campo **N.º**, introduzca, por ejemplo, **Efectivo**.  
+4. En el campo **Nombre**, escriba **Venta en efectivo**.  
+5. En la ficha desplegable **Facturación**, rellene los campos **Grupo contable cliente** y **Grupo contable negocio**.  
 
  Ya ha configurado un cliente que contiene suficiente información para facturarle.  
 
 > [!NOTE]  
->  Quizá haya elegido un grupo contable que se utilice también para las ventas a crédito nacionales. Si desea mantener datos por separado sobre ventas en efectivo, por ejemplo, con una cuenta de cliente o venta especial, configure un grupo contable adicional para ello.  
->   
->  Especifique un número de cuenta de cliente para dicho grupo contable, aunque el saldo de la cuenta quede siempre a 0 después de registrar una factura.  
+> Quizá haya elegido un grupo contable que se utilice también para las ventas a crédito nacionales. Si desea mantener datos por separado sobre ventas en efectivo, por ejemplo, con una cuenta de cliente o venta especial, configure un grupo contable adicional para ello.  
+>
+> Especifique un número de cuenta de cliente para dicho grupo contable, aunque el saldo de la cuenta quede siempre a 0 después de registrar una factura.  
 
 ## <a name="see-also"></a>Consulte también
-[Administrar cobros](receivables-manage-receivables.md)  
-[Permite registrar nuevos clientes](sales-how-register-new-customers.md)    
-[Finanzas](finance.md)  
 
+[Administrar cobros](receivables-manage-receivables.md)  
+[Registro de clientes nuevos](sales-how-register-new-customers.md)
+[Finance](finance.md)  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,20 +4,19 @@ description: Puede modificar los términos de pago para que tengan límites para
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b51b05e537f954828d099d149cf53e7f44a5c724
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 23974e8b1817075457eb0258e189c5313469530c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676574"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136660"
 ---
 # <a name="set-limits-for-due-dates"></a>Establecer límites para fechas de vencimiento
 Puede modificar los términos de pago para que tengan límites para la cantidad máxima de días que puede transcurrir entre una entrega y el pago correspondiente.  
@@ -26,7 +25,7 @@ Los límites legales del espacio entre su entrega y pago determinan cómo se cal
 
 ## <a name="to-set-limits-for-due-dates-on-payment-terms"></a>Para definir los límites para las fechas de vencimiento en términos de pago  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Términos de pago** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de pago** y luego elija el enlace relacionado.  
 2.  Seleccione el término de pago que desea modificar y, a continuación, en el campo **Nº máx. días hasta fecha vencimiento**, especifique el número de días naturales permitidos entre su entrega y el pago.  
 
 A continuación, debe asegurarse de especificar los términos de pago adecuados para sus clientes y proveedores públicos y privados. Cuando crea un documento para ese cliente o proveedor, la fecha de vencimiento del pago se calcula a partir del día en que el cliente recibió los artículos o servicios. A continuación, debe actualizar el campo **Fecha del documento** con la fecha del recibo. Por ejemplo, si actualiza una factura de ventas cuando se le informa de la entrega, la fecha de vencimiento se calcula en función de la nueva fecha del documento que especificó. La fecha de vencimiento calculada no puede superar el límite que especificó para el plazo de pago.  
@@ -36,3 +35,6 @@ A continuación, debe asegurarse de especificar los términos de pago adecuados 
 
 ## <a name="see-also"></a>Consulte también  
  [Cálculo de fechas de vencimiento](calculating-due-dates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

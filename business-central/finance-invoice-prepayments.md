@@ -1,29 +1,33 @@
 ---
-title: Facturar prepagos | Documentos de Microsoft
-description: Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Puede requerir un depósito antes de fabricar productos bajo pedido o puede requerir el pago antes de enviar productos a un cliente. La funcionalidad de prepagos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores. De este modo, puede asegurar que todos los pagos se registran contra una factura.
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+title: Facturar prepagos
+description: Aprenda a utilizar prepagos para facturar y cobrar depósitos de los clientes y remitir depósitos a los proveedores en Business Central.
+author: edupont04
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2020
+ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 3d8230c46f0c891d30cb75d79d71d5913657f809
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 74f277ab22675cd490b136845a48062527469c05
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777821"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147705"
 ---
 # <a name="invoicing-prepayments"></a>Facturación de prepagos
 
-Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final. Puede requerir un depósito antes de fabricar productos bajo pedido o puede requerir el pago antes de enviar productos a un cliente. La funcionalidad de prepagos le permite facturar y cobrar depósitos requeridos de los clientes o remitir depósitos a proveedores. De este modo, puede asegurar que todos los pagos se registran contra una factura.  
+[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
- Los requisitos de los prepagos se pueden definir para un cliente o proveedor, para todos los productos o para algunos. Una vez realizada la configuración necesaria, puede generar facturas de prepago a partir de pedidos de compra y venta para el importe calculado del prepago. Puede cambiar los importes en la factura según sea necesario. Por ejemplo, puede especificar un importe total para todo el pedido. También puede enviar facturas de prepago adicionales si, por ejemplo, es necesario añadir nuevos productos al pedido. Puede aumentar las cantidades o añadir nuevas líneas a un pedido después de emitir un prepago y después puede registrar otra factura de prepago. Si desea eliminar una línea para la cual ya se ha facturado un prepago, deberá emitir un abono de prepago para poder eliminar la línea.  
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
- En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
+Por ejemplo, puede especificar un importe total para todo el pedido o puede distribuir el prepago en cada línea del pedido. También puede enviar facturas de prepago adicionales si, por ejemplo, es necesario añadir nuevos productos al pedido. Puede aumentar las cantidades o añadir nuevas líneas a un pedido después de emitir un prepago y después puede registrar otra factura de prepago.  
+
+> [!NOTE]
+> Si desea eliminar una línea para la cual ya se ha facturado un prepago, deberá emitir un abono de prepago para poder eliminar la línea.
+
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -37,4 +41,7 @@ Los prepagos son pagos que se facturan y registran en un pedido de prepago de ve
 
 [Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

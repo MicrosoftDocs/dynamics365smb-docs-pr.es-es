@@ -1,21 +1,21 @@
 ---
-title: Funcionalidad local en Business Central
-description: Obtenga información sobre la disponibilidad local y el cumplimiento normativo de Business Central para los países o regiones donde Microsoft proporciona la funcionalidad local.
+title: Funcionalidad local y estrategia de localización
+description: Obtenga información sobre la disponibilidad local y el cumplimiento normativo en Business Central para los países o regiones donde Microsoft proporciona la funcionalidad local.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2020
+ms.search.form: 9018, 9020, 9022, 9027
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 73b4dcdbf5e2300fe579e263a2b19f533b0f0be4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 386953ce98bdd4d926c8ea8c698bb1463694d0ee
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385104"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334908"
 ---
 # <a name="local-functionality-in-prod_long"></a>Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -51,6 +51,7 @@ Para conocer la funcionalidad local de cada país o región, elija el vínculo r
 |        | Estados Unidos|[Funcionalidad local para Estados Unidos](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asia Pacífico |       |  |
 |        | Australia | [Funcionalidad local para Australia](localfunctionality/australia/australia-local-functionality.md) |
+|        | India | [Funcionalidad local para India](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nueva Zelanda | [Funcionalidad local para Nueva Zelanda](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Otros países o regiones
@@ -59,7 +60,7 @@ Para conocer la funcionalidad local de cada país o región, elija el vínculo r
 
 ## <a name="see-also"></a>Consulte también
 
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Conformidad](compliance/compliance-overview.md)  
 [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilidad internacional de Microsoft Dynamics 365](/dynamics365/get-started/availability)  

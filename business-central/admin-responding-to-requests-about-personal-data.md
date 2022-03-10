@@ -1,21 +1,20 @@
 ---
 title: Respuesta a las solicitudes de datos personales
-description: Deberá responder a las solicitudes de asunto de datos.
+description: Este tema le indica cómo responder a las solicitudes sobre datos personales. Esto se conoce como solicitud de asunto de datos.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385354"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148855"
 ---
-# <a name="responding-to-requests-about-personal-data"></a>Respuesta a las solicitudes de datos personales  
+# <a name="responding-to-requests-about-users-personal-data"></a>Respuesta a las solicitudes de datos personales de usuarios  
 Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según el Reglamento general de protección de datos (GDPR), los residentes de la UE tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Esto se conoce como *Solicitud de asunto de datos*. Si ha clasificado la confidencialidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de la pestaña **Privacidad de datos** en el área de trabajo **Director de TI**. Para obtener más información sobre la clasificación de datos y la clasificación de la confidencialidad de datos en [!INCLUDE[prod_long](includes/prod_long.md)], consulte [Clasificar datos](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) y [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Tipos de solicitudes
@@ -35,7 +34,7 @@ La siguiente tabla proporciona ejemplos de los tipos de solicitudes a las que pu
 Un asunto de datos puede solicitarle que detenga temporalmente el procesamiento de sus datos personales. Para cumplir con dichas solicitudes, puede marcar su registro como bloqueado debido a la privacidad para detener el procesamiento de sus datos. Cuando un registro está marcado como bloqueado, no puede crear nuevas transacciones que usen ese registro. Por ejemplo, no puede crear una nueva factura para un cliente cuando el cliente o el vendedor están bloqueados. Para marcar a un asunto de datos como bloqueado, abra la tarjeta para el sujeto de datos, por ejemplo, el Cliente, Proveedor o Tarjetas de contacto, y elija la casilla de verificación **Privacidad bloqueada**. Tiene que elegir **Mostrar más** para mostrar el campo.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Gestionar solicitudes de sujetos de datos durante la versión de prueba
-Ciertos tipos de datos personales forman parte de su cuenta de Microsoft 365 y requieren acceso administrativo para exportarlos, si recibe una solicitud de un usuario sobre este tipo de datos personales en virtud del Reglamento general de protección de datos (GDPR). El proceso para gestionar las solicitudes de los sujetos de datos es diferente según el tipo de inquilino de [!INCLUDE[prod_short](includes/prod_short.md)].  
+Ciertos tipos de datos personales forman parte de su cuenta de Microsoft 365 y requieren acceso administrativo para exportarlos, si recibe una solicitud de un usuario sobre este tipo de datos personales en virtud del Reglamento general de protección de datos (RGPD). El proceso para gestionar las solicitudes de los sujetos de datos es diferente según el tipo de inquilino de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Si tiene una suscripción de pago para [!INCLUDE[prod_short](includes/prod_short.md)], debe ponerse en contacto con el administrador de inquilinos de su organización para solicitar el asunto de datos. El administrador tiene los derechos administrativos y herramientas a completar la solicitud.  
 

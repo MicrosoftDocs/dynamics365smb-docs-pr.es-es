@@ -1,30 +1,32 @@
 ---
-title: Uso de la extensión AMC Banking 365 Fundamentals | Microsoft Docs
-description: Intercambie datos fácilmente con sus bancos mediante la transformación de datos al formato que requieran.
+title: Uso de la extensión AMC Banking 365 Fundamentals
+description: Aprenda a intercambiar datos fácilmente con sus bancos mediante la transformación de datos al formato que requieran.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87a31fafadb63d8dad9f6432a6f64343e22d15b8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912401"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140454"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Uso de la extensión AMC Banking 365 Fundamentals
-La extensión AMC Banking 365 Fundamentals hace que sea más fácil y más preciso enviar datos a sus bancos. La extensión conecta [!INCLUDE[d365fin](includes/d365fin_md.md)] con el servicio AMC Banking 365 Fundamentals para Microsoft Dynamics 365 Business Central, que puede convertir datos bancarios de [!INCLUDE[d365fin](includes/d365fin_md.md)] a formatos que necesitan más de 600 bancos de todo el mundo. Por ejemplo, esto facilita la transferencia de pagos y créditos a proveedores al introducir los pagos en [!INCLUDE[d365fin](includes/d365fin_md.md)] y luego cargarlos en su banco. Los formatos también pueden agilizar los procesos de conciliación de banco. Para obtener más información, consulte [AMC Banking para Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+La extensión AMC Banking 365 Fundamentals hace que sea más fácil y más preciso enviar datos a sus bancos. La extensión conecta [!INCLUDE[prod_short](includes/prod_short.md)] con el servicio AMC Banking 365 Fundamentals para Microsoft Dynamics 365 Business Central, que puede convertir datos bancarios de [!INCLUDE[prod_short](includes/prod_short.md)] a formatos que necesitan más de 600 bancos de todo el mundo. Por ejemplo, esto facilita la transferencia de pagos y créditos a proveedores al introducir los pagos en [!INCLUDE[prod_short](includes/prod_short.md)] y luego cargarlos en su banco. Los formatos también pueden agilizar los procesos de conciliación de banco. Para obtener más información, consulte [AMC Banking para Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
-> AMC Banking ha creado extensiones adicionales que funcionan con [!INCLUDE[d365fin](includes/d365fin_md.md)]. Este tema describe solo la extensión Fundamental.
+> AMC Banking ha creado extensiones adicionales que funcionan con [!INCLUDE[prod_short](includes/prod_short.md)]. Este tema describe solo la extensión Fundamental.
+
+> [!NOTE]
+> En la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], ya está configurado y conectado un proveedor global de servicios de conversión de datos bancarios a cualquier formato de archivo que el banco requiera. En las versiones norteamericanas, el mismo servicio se puede utilizar para enviar archivos de pago como transferencia electrónica de fondos (EFT), por ejemplo, la red de Cámara de Compensación Automatizada (ACH) de uso común, aunque con un proceso ligeramente diferente.
 
 ## <a name="using-our-demonstration-account"></a>Mediante nuestra cuenta de demostración
-[!INCLUDE[d365fin](includes/d365fin_md.md)] incluye una cuenta de demostración que le permite probar la extensión AMC Banking 365 Fundamentals. Proporcionamos configuraciones predeterminadas para conectarse a AMC Banking, especificando los bancos para obtener datos de [!INCLUDE[d365fin](includes/d365fin_md.md)], más algunas definiciones de intercambio de datos. Puede ver la configuración de conexión en la página **Configuración de AMC Banking**. Para los bancos, la extensión aplica valores en los campos **Nombre del banco**, **N.º mensaje transf. créd.**, **Formato de importación de extractos bancarios** y **Formato de exportación de pagos** en las fichas de banco.
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye una cuenta de demostración que le permite probar la extensión AMC Banking 365 Fundamentals. Proporcionamos configuraciones predeterminadas para conectarse a AMC Banking, especificando los bancos para obtener datos de [!INCLUDE[prod_short](includes/prod_short.md)], más algunas definiciones de intercambio de datos. Puede ver la configuración de conexión en la página **Configuración de AMC Banking**. Para los bancos, la extensión aplica valores en los campos **Nombre del banco**, **N.º mensaje transf. créd.**, **Formato de importación de extractos bancarios** y **Formato de exportación de pagos** en las fichas de banco.
 
 Proporcionamos la configuración, pero para probar la extensión, debe ejecutar la guía de configuración asistida para aplicarla. Para ejecutar la guía, en la página **Configuración de AMC Banking**, elija la acción **Configuración asistida**.
 
@@ -48,12 +50,12 @@ Para cada nuevo conjunto de permisos, conceda solo el permiso **Leer** para la *
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Para conectar la extensión a AMC Banking
 1. Obtenga un módulo y un plan de servicio para AMC Banking. Para ello, visite la página [Licencia de AMC](https://license.amcbanking.com/register).
-2. En [!INCLUDE[d365fin](includes/d365fin_md.md)], elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración de AMC Banking** y luego elija el enlace relacionado.  
+2. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de AMC Banking** y luego elija el enlace relacionado.  
 3. En la página **Configuración de AMC Banking**, elija la acción **Configuración asistida**.
 4. Complete los pasos de la guía de configuración asistida.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>Para conectar bancos a la extensión
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Bancos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Abra la ficha del banco que desea conectar al servicio.
 3. En el campo **Nombre del banco**, elija el formato que necesita su banco.  
 
@@ -71,7 +73,7 @@ Para usar esta extensión es solo cuestión de exportar datos en la página **Di
 > [!CAUTION]  
 >  Cuando se exportan datos con la extensión AMC Banking 365 Fundamentals, algunos de los datos empresariales serán visibles para el proveedor del servicio. El proveedor de servicios, AMC Consult A/S, es responsable de la privacidad de estos datos. Para obtener más información, consulte [Directiva de función de AMC](https://go.microsoft.com/fwlink/?LinkId=510158).
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Cree las líneas del diario que desea exportar.  
 
    > [!Note]
@@ -79,11 +81,14 @@ Para usar esta extensión es solo cuestión de exportar datos en la página **Di
 3. Seleccione la acción **Exportar**.
 
 ### <a name="to-import-and-apply-the-converted-file"></a>Para importar y aplicar el archivo convertido
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diario de conciliación de pagos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de conciliación de pagos** y luego elija el enlace relacionado.
 2. Elija la acción **Importar transacción bancaria** y luego elija el archivo convertido.  
 
-   [!INCLUDE[d365fin](includes/d365fin_md.md)] creará un nuevo diario de conciliación de pagos que contiene los datos del archivo. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   [!INCLUDE[prod_short](includes/prod_short.md)] creará un nuevo diario de conciliación de pagos que contiene los datos del archivo. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[d365fin](includes/d365fin_md.md)] con extensiones](ui-extensions.md)  
-[Introducción](product-get-started.md)
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

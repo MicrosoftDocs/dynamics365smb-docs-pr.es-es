@@ -1,22 +1,20 @@
 ---
-title: Campos obligatorios para completar procesos | Documentos de Microsoft
+title: Campos obligatorios para completar procesos
 description: Obtenga información sobre los campos marcados con un asterisco rojo, que indica que son obligatorios y que deben rellenarse para completar procesos.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: f525077069107e1365728aaaaf1e4791a250c6ee
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2694b4489878d7d953d4075eaa5cc740b817d727
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760372"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335220"
 ---
 # <a name="detecting-mandatory-fields"></a>Detección de campos obligatorios
 Cuando se introducen datos en páginas de [!INCLUDE[prod_short](includes/prod_short.md)], determinados campos aparecen marcados con un asterisco de color rojo. El asterisco rojo significa que el campo debe rellenarse para completar un determinado proceso que lo utilice, como registrar una transacción que utilice su valor.
@@ -30,3 +28,6 @@ En la página **Ficha producto**, el asterisco de color rojo aparece en el campo
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

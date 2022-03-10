@@ -4,20 +4,19 @@ description: Puede exportar una declaración de IVA en formato de texto y despu�
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 55d8e6dbe939c63559595fd534718bd10d10a660
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 557a276dc7fd679855a627d260c933746cdc16a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778333"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145057"
 ---
 # <a name="export-vat-statements-in-text-format"></a>Exportar declaraciones de IVA en formato de texto
 Puede exportar una declaración de IVA en formato de texto y después enviarla electrónicamente a las autoridades fiscales.  
@@ -26,13 +25,13 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 ## <a name="to-export-a-vat-statement-in-text-format"></a>Para exportar declaraciones de IVA en formato de texto  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Declaraciones de IVA** y luego elija el enlace relacionado.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Generar archivo TXT**.  
 
     > [!IMPORTANT]  
     >  El nombre de la declaración de IVA debe ser de tipo de plantilla **Informe 1 columna**.  
     >   
-    >  En la versión estándar de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], el nombre de la declaración del IVA para la declaración telemática 320 es del tipo **Informe 1 columna**.  
+    >  En la versión estándar de [!INCLUDE[prod_short](../../includes/prod_short.md)], el nombre de la declaración del IVA para la declaración telemática 320 es del tipo **Informe 1 columna**.  
 
 4.  En la ficha desplegable **Opciones** de la página **Declaración telemática IVA**, rellene los campos tal y como se describe en la tabla siguiente.  
 
@@ -55,3 +54,6 @@ Ahora puede enviar la declaración del IVA a las autoridades fiscales.
  [Informes IVA](vat-reports.md)   
  [Crear plantillas para las declaraciones telemáticas de IVA en formato de archivo de texto](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
  [Exportar declaraciones de IVA en formato XML](how-to-export-vat-statements-in-xml-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

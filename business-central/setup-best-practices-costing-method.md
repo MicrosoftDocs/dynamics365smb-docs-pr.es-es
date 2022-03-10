@@ -1,29 +1,28 @@
 ---
 title: 'Configurar procedimientos recomendados: valoración de existencias'
 description: La valoración de existencias en la ficha de producto define cómo se registra el flujo de coste del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del coste.
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+author: edupont04
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 30, 31
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1b08ebbdd24e821f5ed528d9956f2753c84fbc05
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8eafa5661bd61bc72df55171a2a2a79da045f0e8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747848"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140507"
 ---
 # <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valoración de existencias
 
 La **valoración de existencias** en la ficha de producto define cómo se registra el flujo de coste del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del coste.  
 
- La configuración de la valoración de existencias correcta según el tipo de producto y el entorno de negocio es importante para garantizar inventarios económicos.  
+La configuración de la valoración de existencias correcta según el tipo de producto y el entorno de negocio es importante para garantizar inventarios económicos.  
 
- En la tabla siguiente se proporcionan prácticas recomendadas sobre cómo configurar el campo **Método registro**. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).  
+En la tabla siguiente se proporcionan prácticas recomendadas sobre cómo configurar el campo **Método registro**. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).  
 
 |Opción de configuración|Procedimiento recomendado|Comentario|  
 |------------------|-------------------|-------------|  
@@ -33,8 +32,12 @@ La **valoración de existencias** en la ficha de producto define cómo se regist
 |Específico|Utilice esto en la producción o el comercio de productos fácilmente identificables con costes unitarios relativamente elevados.<br /><br /> Utilice para productos que están sujetos normativas.<br /><br /> Utilice esto para los productos con números de serie.|El coste unitario de un producto es el coste exacto en el que la unidad determinada fue recibida.|
 |Estándar|Utilice esto donde el control del coste es crítico.<br /><br /> Utilice esto en la fabricación repetitiva para establecer el valor de los costes de material directo, mano de obra directa y gastos de fabricación.<br /><br /> Utilice esto cuando hay disciplina y personal para mantener los estándares.|El coste unitario de un producto se preestablece basándose en una estimación.<br /><br /> Cuando el coste real se realiza posteriormente, el coste estándar se debe ajustar al coste real a través de valores de varianza.|  
 
-## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)   
- [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
- [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Consulte también
+
+[Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
+[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
+[Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

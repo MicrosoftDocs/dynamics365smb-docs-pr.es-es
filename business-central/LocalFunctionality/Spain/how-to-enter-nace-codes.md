@@ -4,7 +4,6 @@ description: Aprenda a ingresar los códigos de la Nomenclatura génerale des Ac
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: d9ca6c730641888812e0cbdd65aad53f2e2c706d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9ba0dcf29fda24d1327a8c04684f5708fe6f8476
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436345"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138121"
 ---
 # <a name="enter-nace-codes-in-the-spanish-version"></a>Ingrese códigos NACE en la versión en español
 Los códigos de Nomenclature génerale des Activités économiques dans les Communautés Européennes (CNAE) representan la clasificación estadística de actividades económicas dentro de la Unión Europea (UE).  

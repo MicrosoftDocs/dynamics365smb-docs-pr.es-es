@@ -1,29 +1,30 @@
 ---
-title: Configurar y publicar un servicios Web KPI para esquemas de cuentas | Documentos de Microsoft
+title: Configurar y publicar servicios web KPI para esquemas de cuentas
 description: Este tema describe cómo mostrar los datos de KPI del esquema de cuentas según esquemas de cuentas específicos.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 84cb09cbe7291ae0bd57997f5f23d04bd22cb898
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 29816a5812ce5d5cfe19b8c27b475ddd2090710f
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303921"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335427"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Configurar y publicar un servicio web KPI que se basa en esquemas de cuentas
 En la página **Configuración de servicio Web KPI de esquema de cuentas**, se configura cómo mostrar los datos KPI del esquema de cuentas y en qué esquemas de cuentas específicos se deben basar los KPI. Cuando elige el botón **Publicar servicio Web**, los datos especificados KPI de esquema de cuentas se agregan a la lista de servicios Web publicados en la página **Servicios Web**.  
 
+> [!NOTE]
+> Cuando utiliza este servicio web, las fechas de cierre no se incluyen en su conjunto de datos. Esto le permite usar filtros en Power BI para analizar varios períodos de tiempo.
+
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Para configurar y publicar un servicio web KPI que se basa en esquemas de cuentas  
-1.  Elija el icono ![bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame que desea hacer"), escriba **Configuración de servicio web KPI de esquema de cuentas** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de servicio web KPI de esquema de cuentas** y, a continuación, elija el vínculo relacionado.  
 2.  En la ficha desplegable **General**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Descripción|  
@@ -56,4 +57,7 @@ En la página **Configuración de servicio Web KPI de esquema de cuentas**, se c
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

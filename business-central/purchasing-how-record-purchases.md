@@ -1,21 +1,21 @@
 ---
-title: Registrar compras con facturas de compra
+title: Registrar compras con facturas de compra (contiene vídeo)
 description: Describe cómo comprar productos de inventario, no de inventario o recursos creando y registrando facturas o pedidos de compra.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
+ms.search.form: 50 ,51, 53, 56, 146
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 18aef7bfc5324d17d2af9f4aa4ff0ba2602c70e0
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: b263a44dd9490ef787b74f5b3e0585e10545be45
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482402"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140740"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrar compras con facturas de compra
 

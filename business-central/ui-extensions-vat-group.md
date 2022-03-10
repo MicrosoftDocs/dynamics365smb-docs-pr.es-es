@@ -1,22 +1,21 @@
 ---
-title: Extensión Gestión de grupo de IVA | Microsoft Docs
+title: Extensión Gestión de grupo de IVA
 description: Puede interactuar con otras empresas para formar un grupo de IVA y actuar como miembro o representante del grupo al declarar el IVA.
 author: bholtorf
 manager: annbe
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
-ms.date: 10/06/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498592"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132451"
 ---
 # <a name="the-vat-group-management-extension"></a>Extensión Gestión de grupo de IVA
 
@@ -116,8 +115,12 @@ Cuando la declaración de IVA del representante del grupo de IVA se haya present
 > La funcionalidad del grupo de IVA solo se admite en aquellos mercados en los que [!INCLUDE[prod_short](includes/prod_short.md)] utiliza un marco de IVA que consta de declaraciones de IVA y períodos de devolución de IVA. No puede utilizar grupos de IVA en otros mercados que tengan otras implementaciones de informes de IVA locales, como Austria, Alemania, Italia, España y Suiza. 
 
 ## <a name="see-also"></a>Consulte también
+
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
-[Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)
+[Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)  
+[Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
+[Crear impuestos digitales en el Reino Unido](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Declaración de IVA noruego en la versión noruega](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

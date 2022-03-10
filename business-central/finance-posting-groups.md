@@ -2,7 +2,6 @@
 title: Configuración de grupo contable
 description: Resumen de los grupos contables que puede utilizar para ahorrar tiempo y evitar errores al registrar transacciones.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 01/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c67b5cf378b959228edb52d4f5331cde5a063b89
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: ca9ec4e9d0e07306181e86d287e61747d34892a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029199"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128830"
 ---
 # <a name="set-up-posting-groups"></a>Configurar los grupos contables de activos
 

@@ -2,17 +2,17 @@
 title: Agregar empresas al hub de empresas
 description: Aprenda a agregar empresas de otros entornos de Business Central al hub de empresas para poder administrar el trabajo en todos los entornos.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 10/29/2020
+ms.search.form: 1151, 1155, 1166, 1165
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1832ae903af633756dd7fc2301e8a7ac21924de
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6cc06c45856f1e7c10b1ac82382dae799aef409
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752110"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139812"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Agregar empresas al hub de empresas
 
@@ -29,7 +29,7 @@ Un vínculo de entorno es una tarjeta en la que especifica el entorno de [!INCLU
 
 El vínculo se utiliza cuando elige la empresa en el hub de empresas.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Acciones para una empresa que figura en el centro empressarial":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Acciones para una empresa que figura en el centro empresarial.":::
 
 > [!TIP]
 > Si está trabajando en la versión de prueba gratuita de [!INCLUDE [prod_short](includes/prod_short.md)], es fácil agregar las empresas en su suscriptor. Puede encontrar el vínculo del entorno copiando el Id. de Azure Active Directory de la sección **Solución de problemas** de la página de Ayuda y soporte. El nombre del entorno es probablemente el valor predeterminado, PRODUCCIÓN. Agregue esta información al campo **Vínculo de entorno**, como ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1``` y luego elija **Probar la conexión**. La empresa de evaluación se agregará a la lista.
@@ -47,3 +47,6 @@ Cuando haya agregado sus entornos, sus empresas aparecerán automáticamente. Si
 
 [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

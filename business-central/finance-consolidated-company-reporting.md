@@ -1,29 +1,29 @@
 ---
-title: Consolidar los datos de varias empresas | Documentos de Microsoft
-description: Obtener una visión general del estado financiero de sus empresas.
+title: Consolidar los datos de varias empresas
+description: Este tema explica cómo puede consolidar los movimientos de contabilidad de dos o más empresas independientes (subsidiarias) en una sola empresa consolidada.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.search.form: 1826, 1827
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913401"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136119"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
 
-Algunas organizaciones utilizan [!INCLUDE [prodshort](includes/prodshort.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prodshort](includes/prodshort.md)] en subsidiarias que deben reportar a organizaciones matrices. En ambos casos, los contables utilizan herramientas integradas para ayudar a consolidar los datos financieros.  
+Algunas organizaciones utilizan [!INCLUDE [prod_short](includes/prod_short.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prod_short](includes/prod_short.md)] en subsidiarias que deben reportar a organizaciones matrices. En ambos casos, los contables utilizan herramientas integradas para ayudar a consolidar los datos financieros.  
 
 Puede consolidar los movimientos de contabilidad de dos o más empresas independientes (subsidiarias) en una sola empresa consolidada. Cada empresa individual implicada en una consolidación se denomina empresa. La empresa combinada se denomina empresa consolidada.  
 
-Puede importar datos en la empresa consolidada desde otras empresas del mismo suscriptor de [!INCLUDE [prodshort](includes/prodshort.md)], desde suscriptores o desde archivos.  
+Puede importar datos en la empresa consolidada desde otras empresas del mismo suscriptor de [!INCLUDE [prod_short](includes/prod_short.md)], desde suscriptores o desde archivos.  
 
 Si los resultados financieros de una empresa se encuentran en una divisa diferente de los de la empresa consolidada, debe configurar tipos de cambio para la consolidación.  
 
@@ -42,7 +42,7 @@ Configure la empresa consolidada de la misma forma que se configuran las demás 
 
 ## <a name="trial-balance"></a>Balance de comprobación
 
-Si tiene más de una empresa en [!INCLUDE[d365fin](includes/d365fin_md.md)], el informe **Balance de comprobación consolidado** puede darle un resumen del estado financiero del todo su negocio.  
+Si tiene más de una empresa en [!INCLUDE[prod_short](includes/prod_short.md)], el informe **Balance de comprobación consolidado** puede darle un resumen del estado financiero del todo su negocio.  
 
 El informe combina movimientos del libro mayor de sus empresas en una empresa nueva creada por usted para contener los datos consolidados. Esta empresa valor se denomina generalmente "empresa consolidada". La empresa consolidada es sólo un contenedor para los datos consolidados, y no tiene ningún dato vivo de sus empresas. Las empresas que incluya en la empresa que se convierten en **Unidades de negocio** en el informe. Para obtener más información, consulte [Establecer la consolidación de empresas](finance-consolidated-company-reporting-setup.md).  
 
@@ -52,10 +52,10 @@ El proceso de transferir las cifras de las unidades de negocio a la empresa cons
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Para probar los datos antes de la consolidación:
 
-Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUDE[d365fin](includes/d365fin_md.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Deberá corregir los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, puede probar el archivo.  
+Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUDE[prod_short](includes/prod_short.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Deberá corregir los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, puede probar el archivo.  
 
 1. Abra la empresa consolidada.  
-2. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Unidades de negocio** y luego elija el enlace relacionado.  
+2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 3. Realice una de las siguientes acciones:  
 
     * Para probar un archivo, elija la acción **Probar archivo**, escriba el nombre del archivo y después seleccione **Imprimir**.  
@@ -118,5 +118,8 @@ Los movimientos exportados tienen los siguientes campos: **Nº cuenta**, **Fecha
 
 [Configuración de la consolidación de empresas](finance-consolidated-company-reporting-setup.md)  
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportar los datos de negocio a Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

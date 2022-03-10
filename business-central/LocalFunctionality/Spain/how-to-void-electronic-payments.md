@@ -2,7 +2,6 @@
 title: Anular pagos electrónicos
 description: En Business Central, puede anular el archivo de pago exportado. Al anular el archivo, se eliminará todo el diario de pagos desde el que se creó el archivo.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 77fc6163a208b66c02bfa7e1bbfed94d448ea2ae
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c914e3226368a5f40eacd3494efba7f7f37a119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774718"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136646"
 ---
 # <a name="void-electronic-payments"></a>Anular pagos electrónicos
 
@@ -23,7 +22,7 @@ En la versión en español de [!INCLUDE[prod_short](../../includes/prod_short.md
 
 ## <a name="to-void-electronic-payments"></a>Para anular pagos electrónicos  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Anular pagos electrónicos** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Anular pagos electrónicos** y luego elija el enlace relacionado.  
 2. En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  
@@ -32,7 +31,7 @@ En la versión en español de [!INCLUDE[prod_short](../../includes/prod_short.md
 
 ## <a name="to-void-electronic-payments-in-the-cartera-module"></a>Para anular pagos electrónicos en el módulo Cartera  
 
-1. Elija el icono ![Bombilla que abre la función Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer"), introduzca **Anular Orden pago - Exportar N34.1** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Anular Orden pago - Exportar N34.1** y luego elija el enlace relacionado.  
 2. En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
 
     |Campo|Description|  

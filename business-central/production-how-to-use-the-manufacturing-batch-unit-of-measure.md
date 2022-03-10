@@ -1,23 +1,20 @@
 ---
-title: 'Procedimiento: Utilice la unidad de medida de lote de fabricación | Documentos de Microsoft'
-description: Si un producto se almacena en una unidad de medida pero se fabrica en otra distinta, en la orden de producción debe usar una unidad de medida de lote de fabricación para calcular la cantidad correcta de componentes. Un ejemplo del cálculo de una unidad de medida de la sección de fabricación es el caso en que un producto fabricado se almacena por piezas pero se produce en toneladas.
-services: project-madeira
-documentationcenter: ''
+title: Utilizar la unidad de medida de lote de fabricación
+description: Este tema ofrece una descripción general de cómo trabajar con unidades de medida de lotes de fabricación en Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: ea111c7f31406fd016cea2ebed70df2311d2b930
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 6e7d188adceffbc6044162e14de5cbb141c21b54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313089"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137502"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Trabajar con la unidad de medida de lote de fabricación
 Si un producto se almacena en una unidad de medida pero se fabrica en otra, se crea una orden de producción que utiliza una unidad de medida de la sección de fabricación para calcular la cantidad correcta de componentes durante el trabajo por lotes **Actualizar orden producción**. Un ejemplo del cálculo de una unidad de medida de la sección de fabricación es el caso en que un producto fabricado se almacena por piezas pero se produce en toneladas.  
@@ -53,4 +50,7 @@ En la ficha desplegable **Líneas**, elija la acción **Línea** y, a continuaci
 [Planificación](production-planning.md)   
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

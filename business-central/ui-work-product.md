@@ -1,22 +1,23 @@
 ---
-title: Trabajar con la funcionalidad general en Business Central | Documentos de Microsoft
+title: Trabajar con Business Central (contiene vídeo)
 description: Describe la funcionalidad general que se utiliza para interactuar con los datos en Business Central, como introducir valores, ordenar datos y cambiar de vista.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840183"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323063"
 ---
 # <a name="working-with-prod_short"></a>Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
 
 Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para ello, expanda la anchura de las columnas, aumente la altura de los encabezados de columna y cambie el orden de los datos de las columnas. Y si quiere usar la barra de desplazamiento horizontal para ver todas las columnas en una página de lista o en líneas de documentos, verá que hay una inmovilización del panel vertical para impedir el desplazamiento de algunas columnas.
@@ -26,7 +27,7 @@ Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para 
 > [!TIP]
 > Para obtener un resumen en versión para imprimir de las funciones más usadas, elija la siguiente imagen y descargue el archivo PDF.
 >
-> [ ![Icono para el archivo PDF](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icono que abre un PDF")
+> [ ![Icono para el archivo PDF.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icono que abre un PDF")
 
 ## <a name="links-to-learn-more"></a>Vínculos para obtener más información
 
@@ -61,20 +62,38 @@ A continuación se muestra un vídeo corto acerca de cómo desplazarse en [!INCL
 
 ## <a name="choosing-a-desktop-browser"></a>Elegir un navegador de escritorio
 
-[!INCLUDE[prod_short](includes/prod_short.md)] admite múltiples navegadores que ofrecen una variedad de características y capacidades. El navegador juega un papel importante en la capacidad de respuesta y la fluidez de la interfaz de usuario. Consulte la lista de navegadores compatibles y recomendados para [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) y navegadores para [Business Central On-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] admite múltiples navegadores que ofrecen una variedad de características y capacidades. El navegador juega un papel importante en la capacidad de respuesta y la fluidez de la interfaz de usuario. Consulte la lista de navegadores compatibles y recomendados para [Business Central Online](./product-requirements.md) y navegadores para [Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
 - Siempre que sea posible, evite navegadores antiguos como Internet Explorer y cambie a uno de nuestros navegadores modernos recomendados, como el [nuevo Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer todavía es compatible, pero, dado que el nuevo navegador Microsoft Edge está disponible para Windows Server ahora, vemos una tasa de uso decreciente para Internet Explorer. También puede obtener [un piloto de Microsoft Edge en modo IE](https://www.microsoft.com/edge/business). Para obtener más información, consulte la [documentación de Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer ya no es compatible. Para obtener más información, consulte la [documentación de Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Mantenga su navegador siempre actualizado a la última versión.
+
+## <a name="action-bars"></a>Barras de acción
+
+En [!INCLUDE [prod_short](includes/prod_short.md)], usted realiza la mayor parte de su trabajo en una lista, un documento o una tarjeta. Los tres tipos de páginas tienen una barra con acciones que son relevantes para la página en particular, y las acciones son casi las mismas para la tarjeta o documento individual y para la lista de entidades. De esta forma, puede gestionar un pedido de cliente individual en la página **Órdenes de venta** y en la **Órdenes de venta**, incluidos su registro y facturación.  
+
+Pero las acciones también pueden tener un aspecto diferente, o incluso no estar presentes, dependiendo de cómo abra la página. Específicamente para las páginas de lista, la página de lista que abre desde la página de inicio y la página que se muestra cuando la busca usando el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") no son idénticas.  
+
+Cuando busca una página de lista abierta, como la lista **Órdenes de venta**, está en modo de visualización. Las acciones para editar, ver o eliminar una entidad individual, como una orden de venta, se muestran cuando elige la acción **Administrar**.  
+
+> [!TIP]
+> Si sabe que utilizará acciones en este segundo nivel de la barra de acciones con frecuencia, elija el icono :::image type="icon" source="media/pin.png" border="false"::: para anclar la barra de acciones y hacer que las acciones de los distintos menús sean inmediatamente visibles.
+>
+> Para hacer que el segundo nivel de la barra de acción desaparezca nuevamente, elija el icono :::image type="icon" source="media/unpin.png" border="false":::.
+
+Pero cuando abre la misma página de lista desde su página de inicio, la acción **Administrar** no está presente. En su lugar, para abrir un pedido de cliente individual, simplemente elija el campo **Número**. En esta vista, no puede anclar la barra de acción.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también
 
-[Introducción](product-get-started.md)  
+[Preparación para hacer negocios](ui-get-ready-business.md)  
 [Configuración de Business Central](setup.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 [Consejos de rendimiento para usuarios comerciales](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,18 +1,18 @@
 ---
-title: Cambiar a otra empresa o entorno | Microsoft Docs
+title: Cambiar a otra empresa o entorno
 description: Si trabaja para varias organizaciones, puede cambiar rápidamente entre entornos y empresas.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 265974a70dc54bae24ea26aa1385fbf2c2ef9cb5
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606390"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335271"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Cambiar a otra empresa o entorno
 

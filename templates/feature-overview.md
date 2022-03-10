@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/05/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: a0b1f556445a29810107badf79dedf3be81d9b78
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 5ff9d51f0f1b05436aff60b870915a5410baaef3
+ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606498"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311292"
 ---
 # <a name="achieve-some-task-or-get-the-overview-in-max-100-characters"></a>Realice alguna tarea u obtenga la descripción general en un máx. de de 100 caracteres.
 
@@ -48,3 +48,5 @@ O una lista con puntos, como la siguiente:
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Administración](admin-setup-and-administration.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

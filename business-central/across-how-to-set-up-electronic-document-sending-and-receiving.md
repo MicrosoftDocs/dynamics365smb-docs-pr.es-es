@@ -2,30 +2,29 @@
 title: 'Procedimiento: Configurar el envío y la recepción de documentos electrónicos | Documentos de Microsoft'
 description: Como alternativa al envío de correos electrónicos con archivos adjuntos, puedes enviar y recibir documentos empresariales de forma electrónica.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/21/2020
-ms.author: sgroespe
-ms.openlocfilehash: ed2af108abd0ef23dac82b7e798a58bc8c494f89
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611564"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147247"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurar el envío y la recepción de documentos electrónicos
 
-Como alternativa al envío de correos electrónicos con archivos adjuntos, puedes enviar y recibir documentos empresariales de forma electrónica. Se entiende por documento electrónico un archivo compatible con el estándar que representa un documento empresarial, como una factura de un proveedor que se puede recibir y convertir en una factura de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)]. El intercambio de los documentos electrónicos entre dos socios comerciales se realiza a través de un proveedor externo de servicios de intercambio de datos. La versión genérica de [!INCLUDE[d365fin](includes/d365fin_md.md)] admite el envío y la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Hay preconfigurado un proveedor de servicios de intercambio de documentos principal listo para ser configurado según su empresa.  
+Como alternativa al envío de correos electrónicos con archivos adjuntos, puedes enviar y recibir documentos empresariales de forma electrónica. Se entiende por documento electrónico un archivo compatible con el estándar que representa un documento empresarial, como una factura de un proveedor que se puede recibir y convertir en una factura de compra en [!INCLUDE[prod_short](includes/prod_short.md)]. El intercambio de los documentos electrónicos entre dos socios comerciales se realiza a través de un proveedor externo de servicios de intercambio de datos. La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite el envío y la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Hay preconfigurado un proveedor de servicios de intercambio de documentos principal listo para ser configurado según su empresa.  
 
-Puedes hacer que un servicio de OCR (Reconocimiento óptico de caracteres) externo cree documentos electrónicos desde PDF o desde archivos de imagen que representen documentos entrantes que después puedas convertir a registros de documentos en [!INCLUDE[d365fin](includes/d365fin_md.md)], como en documentos electrónicos PEPPOL. Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puedes enviar al servicio de OCR desde la página **Documentos entrantes**. Al de unos segundos recibirás el archivo devuelto como una factura electrónica que se puede convertir en una factura de compra para el proveedor. Si envías el archivo al servicio de OCR por correo electrónico, se creará un documento entrante nuevo automáticamente cuando recibas el documento electrónico devuelto.  
+Puedes hacer que un servicio de OCR (Reconocimiento óptico de caracteres) externo cree documentos electrónicos desde PDF o desde archivos de imagen que representen documentos entrantes que después puedas convertir a registros de documentos en [!INCLUDE[prod_short](includes/prod_short.md)], como en documentos electrónicos PEPPOL. Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puedes enviar al servicio de OCR desde la página **Documentos entrantes**. Al de unos segundos recibirás el archivo devuelto como una factura electrónica que se puede convertir en una factura de compra para el proveedor. Si envías el archivo al servicio de OCR por correo electrónico, se creará un documento entrante nuevo automáticamente cuando recibas el documento electrónico devuelto.  
 
-El formato de documento electrónico **PEPPOL** se ha preconfigurado para permitirle enviar facturas y abonos electrónicos en formato PEPPOL. En primer lugar, debe configurar los distintos datos maestros, como la información de la empresa, los clientes, los productos y las unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de los campos de [!INCLUDE[d365fin](includes/d365fin_md.md)] en elementos en el archivo de documento saliente. Por último, debe seleccionar el formato en la página **Formato documento electrónico** para cada cliente al que enviará documentos electrónicos PEPPOL. Para obtener más información, vea [Enviar documentos electrónicos](sales-how-to-send-electronic-documents.md).  
+El formato de documento electrónico **PEPPOL** se ha preconfigurado para permitirle enviar facturas y abonos electrónicos en formato PEPPOL. En primer lugar, debe configurar los distintos datos maestros, como la información de la empresa, los clientes, los productos y las unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de los campos de [!INCLUDE[prod_short](includes/prod_short.md)] en elementos en el archivo de documento saliente. Por último, debe seleccionar el formato en la página **Formato documento electrónico** para cada cliente al que enviará documentos electrónicos PEPPOL. Para obtener más información, vea [Enviar documentos electrónicos](sales-how-to-send-electronic-documents.md).  
 
-Las definiciones de intercambio de datos **PEPPOL - Factura** y **PEPPOL - Abono** se han preconfigurado para permitirle recibir facturas electrónicas y abonos en formato PEPPOL. En primer lugar, debe configurar los distintos datos maestros, como la información de la empresa, los proveedores, los productos y las unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de elementos del archivo de documento entrante en campos de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Por último, debe seleccionar la definición de intercambio de datos en la página **Documentos entrantes** para cada documento electrónico entrante que desee convertir a un documento de compra en [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Las definiciones de intercambio de datos **PEPPOL - Factura** y **PEPPOL - Abono** se han preconfigurado para permitirle recibir facturas electrónicas y abonos en formato PEPPOL. En primer lugar, debe configurar los distintos datos maestros, como la información de la empresa, los proveedores, los productos y las unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de elementos del archivo de documento entrante en campos de [!INCLUDE[prod_short](includes/prod_short.md)]. Por último, debe seleccionar la definición de intercambio de datos en la página **Documentos entrantes** para cada documento electrónico entrante que desee convertir a un documento de compra en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La definición de intercambio de datos **OCR - Factura** está preconfigurada para permitirle recibir documentos electrónicos generados por el servicio de OCR. Para recibir, por ejemplo, una factura como documento electrónico de OCR, configure una fecha maestra y después procese el documento como si recibiera un documento electrónico de PEPPOL. Para obtener más información, vea [Usar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md).  
 
@@ -111,7 +110,7 @@ El tema incluye los siguientes procedimientos:
 4. En el campo **Documento electrónico**, seleccione **Sí (A través del servicio de intercambio de documentos)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] detecta automáticamente si el documento es una factura o un abono y aplica el formato PEPPOL según corresponda.  
+    >  [!INCLUDE[prod_short](includes/prod_short.md)] detecta automáticamente si el documento es una factura o un abono y aplica el formato PEPPOL según corresponda.  
 
 5. Para aplicar este perfil de envío de documentos a todos los clientes, seleccione la casilla **Por defecto** en la ficha desplegable **General**. Para aplicarlo solo a clientes específicos, rellene el campo **Perfil de envío de documentos** en las fichas cliente en cuestión. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).  
 
@@ -149,3 +148,6 @@ El tema incluye los siguientes procedimientos:
 [Intercambio de datos electrónicamente](across-data-exchange.md)   
 [Facturar ventas](sales-how-invoice-sales.md)   
 [Registrar compras](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
