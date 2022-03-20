@@ -1,7 +1,7 @@
 ---
 title: Business Central para organizaciones internacionales y de sitios múltiples | Microsoft Docs
 description: Business Central proporciona capacidades que admiten un modelo de negocio de de concentrador y radios.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141104"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382050"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central para organizaciones internacionales y de sitios múltiples
 Las organizaciones que tienen varios sitios a menudo utilizan un modelo de negocio de centro y radios en el que una empresa matriz, o la sede central, gestiona las operaciones generales del negocio, mientras que cada sitio funciona como una entidad única e independiente. Los sitios a menudo están distribuidos geográficamente y tienen diferentes necesidades para compartir información con la empresa matriz. Además, los sitios no suelen necesitar el mismo nivel de complejidad y, a menudo, carecen de los recursos para mantener un sistema grande.

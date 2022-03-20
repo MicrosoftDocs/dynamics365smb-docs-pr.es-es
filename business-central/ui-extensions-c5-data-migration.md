@@ -1,7 +1,7 @@
 ---
 title: Usar la extensión de migración de datos C5 | Documentos de Microsoft
 description: Utilice esta extensión para migrar clientes, proveedores, productos y las cuentas de contabilidad de Microsoft Dynamics C5 2012 a Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ccebff57d4189a3273c9930fc82ca665e7f807c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6f8c90eeb5b99f5591db7847e9d48124c910e328
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133607"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381119"
 ---
 # <a name="the-c5-data-migration-extension"></a>Extensión de migración de datos de C5
 

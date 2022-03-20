@@ -1,7 +1,7 @@
 ---
 title: Ver el estado de los trabajos de sincronización (contiene vídeo)
 description: Utilice la página Errores de sincronización de datos emparejados para ver el estado de los proyectos de sincronización que se han ejecutado para los registros emparejados en integraciones.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 357e6f92bc960b1fcd58c5be78d28985b389bb2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6112b025c08468a3e0f5bdfbb9147b2fbdaf6744
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130701"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383510"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Ver el estado de los proyectos de sincronización
 

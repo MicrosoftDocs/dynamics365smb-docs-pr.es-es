@@ -1,5 +1,5 @@
 ---
-title: 'Procedimiento: haga tránsito directo de artículos | Documentos de Microsoft'
+title: Productos de tránsito directo
 description: La funcionalidad de tránsito directo está disponible si ha configurado el almacén para requerir el proceso de recepción y ubicación.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15, 5703, 7302, 7332, 5768
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 367dd6915a168b208432116439aa89b94bded649
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4031260a498eb2dd147be85392e6da709e76e681
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128555"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383620"
 ---
 # <a name="cross-dock-items"></a>Productos de tránsito directo
 La funcionalidad de tránsito directo está disponible si ha configurado el almacén para requerir el proceso de recepción y ubicación.  
@@ -98,11 +99,11 @@ Al lanzar una orden de producción, las líneas están disponibles en la hoja de
 Si no utiliza ubicaciones, recuerde comprobar el área de tránsito directo de vez en cuando o deberá confiar en las notificaciones de recepción que han llegado productos para producción.  
 
 ## <a name="see-also"></a>Consulte también  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

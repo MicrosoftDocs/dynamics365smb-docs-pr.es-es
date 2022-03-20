@@ -1,7 +1,7 @@
 ---
 title: 'Detalles de diseño: Cambiar la valoración de existencias para productos'
 description: Aprenda a asignar una valoración de existencias diferente a un producto aunque ya lo haya usado en transacciones.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5e7bbb28b35f31e21904006b6c595896bdca3f61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6803d47ec9e7be0abe7962fd881f5cdacf8865c4
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148625"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383590"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Detalles de diseño: Cambiar la valoración de existencias para productos
 

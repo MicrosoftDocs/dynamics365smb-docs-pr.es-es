@@ -1,7 +1,7 @@
 ---
 title: Trabajo con notificaciones inteligentes y especificar cuándo aparecen
 description: Puede recibir notificaciones que le informen sobre los cambios de estado o los eventos, por ejemplo, un saldo pendiente o inventario bajo.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.date: 04/01/2021
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
-ms.openlocfilehash: 53a1852ca3c957b4b2cf0a2c23652b616bd383cb
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be94ef47fa86b613f3ee1e33bc28bfd050def543
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334628"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381624"
 ---
 # <a name="manage-notifications"></a>Administrar notificaciones
 

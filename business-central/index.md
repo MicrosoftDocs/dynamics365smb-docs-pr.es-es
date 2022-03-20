@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138497"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367207"
 ---
 # <a name="welcome-to-prod_long"></a>[!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Gracias a su gran adaptabilidad y variedad de funciones, [!INCLUDE[prod_short](includes/prod_short.md)] permite a las empresas administrar su negocio, incluidas las áreas de finanzas, fabricación, ventas, envíos, administración de proyectos, servicios, etc. Las organizaciones también pueden agregar fácilmente funcionalidades relevantes para la región de operación que, al ser personalizadas, ofrecen asistencia incluso a las industrias más especializadas.  
+
+[Aprenda cómo obtener una prueba gratuita aquí](trial-signup.md).  
 
 Si ya tiene [!INCLUDE[prod_short](includes/prod_short.md)], inicie sesión en [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). De otra manera, [obtenga la descripción general](https://dynamics.microsoft.com/business-central/overview/), [realice la visita guiada](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) y después [inicie una prueba gratuita](https://go.microsoft.com/fwlink/?linkid=847861). Revise los [artículos de inicio rápido](quick-start-business-central.md) para obtener información sobre [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información sobre la incorporación a [!INCLUDE[prod_short](includes/prod_short.md)], consulte [Preparación para hacer negocios](ui-get-ready-business.md).  
 
@@ -61,7 +63,7 @@ Las siguientes secciones apuntan a artículos clave que pueden ayudarlo a famili
   - [Planificación de la producción](production-planning.md)
   - [Gestión de ensamblaje](assembly-assemble-items.md)
   - [Fabricación](production-manage-manufacturing.md)
-  - [Gestión de almacenes](warehouse-manage-warehouse.md)
+  - [Warehouse Management](warehouse-manage-warehouse.md)
   - [Gestión de servicios](service-service.md)
   - [Funciones empresariales generales](ui-across-business-areas.md)
   - [Funcionalidad local](about-localization.md)

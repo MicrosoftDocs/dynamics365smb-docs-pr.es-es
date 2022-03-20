@@ -62,7 +62,7 @@
 ##### [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)  
 ##### [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
 ##### [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)
-#### Detalles de diseño: Gestión de almacén
+#### Detalles de diseño: Warehouse Management
 ##### [Detalles de diseño de Warehouse Management](design-details-warehouse-management.md)
 ##### [Detalles de diseño: resumen de almacén](design-details-warehouse-overview.md)  
 ##### [Detalles de diseño: Configuración de almacén](design-details-warehouse-setup.md)  
@@ -88,14 +88,16 @@
 ##### [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  
 
 ## Intentarlo
+### [Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md)
+### [Preguntas más frecuentes de la prueba de Dynamics 365 Business Central](trial-faq.md)
 ### [Versiones de prueba y suscripciones](across-preview.md)
-### [Preparación para hacer negocios](ui-get-ready-business.md)
+### [Prepárese para hacer negocios](ui-get-ready-business.md)
 ### [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
 ### [Extensión de la versión de prueba](admin-extend-trial.md)
 ### [Cancelar la suscripción o quitar Business Central](admin-cancel.md)
 ## Comprar
-### [Introducción a una suscripción](across-preview.md#getting-started-with-a-subscription)
-### [Preparación para hacer negocios](ui-get-ready-business.md)
+### [Introducción a una suscripción](across-preview.md#get-started-with-a-subscription)
+### [Prepárese para hacer negocios](ui-get-ready-business.md)
 
 ## Inicio rápido
 ### [Inicio rápido de Business Central](quick-start-business-central.md)
@@ -179,7 +181,7 @@
 #### [Configurar métodos de amortización definidos por usuario](fa-how-setup-user-defined-depreciation-method.md)
 #### [Configure el seguro de los activos fijos](fa-how-setup-insurance.md)
 #### [Configure el mantenimiento de los activos fijos](fa-how-setup-maintenance.md)
-### Configuración de la gestión del almacén
+### Configuración de Warehouse Management
 #### [Configurar almacenes](warehouse-setup-warehouse.md)
 #### [Detalles de diseño: resumen de almacén](design-details-warehouse-overview.md)
 #### [Configurar tipos de ubicación](warehouse-how-to-set-up-bin-types.md)
@@ -557,7 +559,7 @@
 #### [Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Creación de informes de costes y conciliación con la contabilidad
-##### [Informes de costes](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Informes de costes](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)
 #### [Ajustar y conciliar el costo de inventario con la contabilidad con cola de proyectos](finance-adjust-reconcile-inventory-cost-job-queue.md)
@@ -786,8 +788,8 @@
 ### [Registrar capacidades](production-how-to-post-capacities.md)
 ### [Sobre los costes de la orden de producción terminada](finance-about-finished-production-order-costs.md)
 
-## Gestión almacén
-### [Gestión de almacenes](warehouse-manage-warehouse.md)
+## Warehouse Management
+### [Warehouse Management](warehouse-manage-warehouse.md)
 ### [Informes de inventario y almacén](inventory-WMS-reports.md)
 ### [Recibir productos](warehouse-how-receive-items.md)
 ### [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md)

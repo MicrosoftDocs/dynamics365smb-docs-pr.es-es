@@ -1,7 +1,7 @@
 ---
 title: Enviar informes de IVA a las autoridades fiscales
 description: Obtenga más información sobre cómo preparar informes que registren el IVA de ventas durante un periodo, o durante vendas y compras, y enviarlo a las autoridades fiscales.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141182"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383810"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Crear informes de IVA para las autoridades fiscales
 
-En este tema se describen los informes de [!INCLUDE[prod_short](includes/prod_short.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región. 
+En este tema se describen los informes de [!INCLUDE[prod_short](includes/prod_short.md)] que puede utilizar para enviar información sobre importes del IVA (IVA) para ventas y compras a las autoridades fiscales de su región. Según el país específico, los informes pueden incluir información específica o puede haber informes adicionales que deba enviar. Consulte los artículos de su país o región en la sección [Funcionalidad local](about-localization.md).  
 
-Utilice los siguientes informes:
+Utilice los siguientes informes incluidos:
 
-* El informe **Lista venta CE** (Lista de ventas de la Comunidad Europea (CE)) contiene listas de los importes del IVA que ha recaudado con las ventas a clientes con IVA dentro de los países de la Unión Europea.  
-* El informe **Devolución de IVA** incluye el IVA de las ventas y compras a clientes y de proveedores pertenecientes a todos los países que utilizan el IVA.  
+* El informe **Lista venta CE**  
+
+    La Lista de ventas de la Comunidad Europea (CE) contiene listas de los importes del IVA que ha recaudado con las ventas a clientes con IVA dentro de los países de la Unión Europea.  
+* Acerca del informe de **Devolución de IVA**  
+
+    El informe Devolución de IVA incluye el IVA de las ventas y compras a clientes y de proveedores pertenecientes a todos los países que utilizan el IVA.  
 
 En ambos casos, el IVA se calcula basándose en la configuración de grupos registro IVA y los grupos de tipo de registro de IVA que haya configurado.
 
@@ -33,7 +37,7 @@ Si desea ver un historial completo de entradas de IVA, cada publicación que imp
 > [!NOTE]
 > Cada entorno [!INCLUDE[prod_short](includes/prod_short.md)] está destinado a gestionar la información reglamentaria en un solo país. Por ejemplo, la versión holandesa de [!INCLUDE[prod_short](includes/prod_short.md)] gestiona las declaraciones del IVA en los Países Bajos, pero no en otros países. Del mismo modo, la versión de Estados Unidos de [!INCLUDE[prod_short](includes/prod_short.md)] gestiona las declaraciones 1099 en los Estados Unidos y no admite la solicitud de declaraciones del IVA en otros países, a menos que sea posible a través de una extensión entregada por nuestro ecosistema de socios o una modificación de código específica del cliente.
 
-## <a name="about-the-ec-sales-list-report"></a>Acerca del informe de la Lista venta CE
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Acerca del informe de la Lista venta CE
 
 En la Unión Europea (UE) y el Reino Unido, todas las empresas que venden bienes y servicios a los clientes con IVA, incluidos los de los estados miembros de la Unión Europea (UE), deben presentar una versión electrónica de su informe de la lista de ventas de la Comunidad Europea a sus clientes y autoridades fiscales. El informe **Lista de ventas de RE** funciona solo para los países de la UE.
 
@@ -47,7 +51,11 @@ Los bienes y servicios *B2B* especifican si se ha vendido un bien o un servicio 
 
 Después de que la autoridad fiscal revise su informe, enviará un correo electrónico a la persona de contacto de su empresa. En [!INCLUDE[prod_short](includes/prod_short.md)], la persona de contacto se especifica en la página **Información de la empresa**. Antes de enviar el informe, asegúrese de que ha elegido a una persona de contacto.  
 
-## <a name="about-the-vat-return-report"></a>Acerca del informe de devolución de IVA
+### <a name="submit-an-ec-sales-list-report"></a>Enviar un informe de lista de ventas de CE
+
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Acerca del informe de devolución de IVA
 
 Utilice este informe para enviar el IVA para los documentos de ventas y compras, como órdenes de compra y venta, facturas y abonos. La información en el informe está en el mismo formato que el formulario de declaración de las autoridades aduaneras y fiscales.  
 

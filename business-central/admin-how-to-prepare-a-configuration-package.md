@@ -1,7 +1,7 @@
 ---
 title: Preparar un paquete de configuración
 description: Aprenda ahora a preparar un paquete de configuración RapidStart que puede ayudarlo a establecer nuevas empresas basadas en datos existentes.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6bb0c48f1b6be3857ada32e4847d28be19c61580
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 979680be432eb7ecf7c2753ce84b971b529e9665
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147091"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382450"
 ---
 # <a name="prepare-a-configuration-package"></a>Preparar un paquete de configuración
 

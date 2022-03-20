@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334544"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372026"
 ---
 La siguiente tabla describe algunos de los informes clave en los informes de producción.
 
@@ -22,6 +22,7 @@ La siguiente tabla describe algunos de los informes clave en los informes de pro
 | [Lista comparación LM productos](https://businesscentral.dynamics.com?report=99000758)|Este informe le brinda la posibilidad de comparar productos finales similares con respecto a los costes. Verá una lista con todos los componentes y sus costes, así como las cantidades necesarias. La fecha de cálculo normalmente se establece en la fecha de trabajo. |99000758|
 | [Estadísticas orden producción](https://businesscentral.dynamics.com?report=99000791)|Especifica los diversos costes que se han acumulado para la orden de producción seleccionada.<br>El contenido del informe es muy parecido a la página **Estadísticas orden producción** .<br>Para las órdenes de producción que utilizan la directiva de fabricación de *Fab-contra-pedido*, la ventana muestra solo el coste de material y de capacidad de los productos en el nivel más alto de la L.M.|99000791|
 | [Lista de tareas de capacidad](https://businesscentral.dynamics.com?report=99000780)|Muestra las órdenes de producción que esperan a ser procesadas en los centros de trabajo y en los centros de máquina. El informe se realiza para la capacidad de un centro de trabajo o un centro de máquina. El informe incluye información como hora de inicio y fin, fecha por orden de producción y cantidad de entrada.|99000780|
-| [Carga centro trabajo](https://businesscentral.dynamics.com?report=99000783)|Ambos informes muestran una lista de la carga de un centro de trabajo o de máquina. La carga de un centro de trabajo o de máquina es la suma del número requerido de veces que se ejecutan todas las órdenes actuales y planificadas en el centro de trabajo en un periodo determinado.|99000783|
-| [Carga centro máquina](https://businesscentral.dynamics.com?report=99000784)|Ambos informes muestran una lista de la carga de un centro de trabajo o de máquina. La carga de un centro de trabajo o de máquina es la suma del número requerido de veces que se ejecutan todas las órdenes actuales y planificadas en el centro de trabajo en un periodo determinado.|99000784|
+| [Carga centro trabajo](https://businesscentral.dynamics.com?report=99000783)|Muestra una lista de la carga de un centro de trabajo. La carga de un centro de trabajo es la suma del número requerido de veces que se ejecutan todas las órdenes actuales y planificadas en el centro de trabajo en un periodo determinado.|99000783|
+| [Carga centro máquina](https://businesscentral.dynamics.com?report=99000784)|Muestra una lista de la carga de un centro de máquina. La carga de un centro de máquina es la suma del número requerido de veces que se ejecutan todas las órdenes actuales y planificadas en el centro de trabajo en un periodo determinado.|99000784|
 | [Lista carencias ord. prod.](https://businesscentral.dynamics.com?report=99000788)|Este informe se puede utilizar para ver todos los componentes que no están disponibles debido a la falta de existencias. Por lo tanto, este resumen se puede utilizar para ver a tiempo, si el cronograma para una orden de producción planificada o liberada o el tiempo planificado se pueden mantener.|99000788|
+|[Orden producción - Cálculo](https://businesscentral.dynamics.com?report=99000767)|Muestra una lista de las órdenes de producción y sus costes. Incluye los costes de operaciones previstos, costes de componentes previstos y costes totales.|99000767|

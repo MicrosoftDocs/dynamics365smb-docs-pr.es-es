@@ -1,18 +1,18 @@
 ---
 title: Abrir archivos de Business Central en OneDrive
 description: Descubra cómo puede compartir datos de Business Central a través de OneDrive para empresas.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76d845b26bf9c68b3e60947fef4d2ac78304e5ee
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147195"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383970"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Abrir archivos de Business Central en OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] facilita almacenar, administrar y compartir archivos con otras personas a través de OneDrive para la Emprea. En la mayoría de las páginas donde hay archivos disponibles, como la Bandeja de entrada de informes o los archivos adjuntos a los registros, encontrará una acción **Abrir en OneDrive**.

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 1475e60a415170bc909143885a53caf3451d0db8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 87d832f3e65e3de7d329bef5fa02ef6a93cb8c28
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136628"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372012"
 ---
 # <a name="vat-reports-in-the-spanish-version"></a>Informes de IVA en la versión en español
 El IVA se aplica a las transacciones que involucran bienes y servicios en España o bienes importados a España. La siguiente información proporciona más detalles sobre la funcionalidad de IVA.  
@@ -43,13 +43,18 @@ En la tabla **Nombre declar. IVA** hay dos tipos de plantillas de informe:
 - **Informe 1 columna**  
 - **Informe 2 columnas**  
 
-### <a name="vat-vies-declaration"></a>IVA - declaración VIES  
-Mediante IVA - declaración VIES se puede ejecutar un archivo por lotes para generar los informes de ventas de la Union Europea (UE). El archivo por lotes exporta los movimientos al formato de archivo requerido para enviarlo a la aduana y a la administración fiscal.  
+### <a name="vat-vies-declaration"></a>IVA - declaración VIES
 
-## <a name="see-also"></a>Consulte también  
- [Funcionalidad local para España](spain-local-functionality.md)   
- [Informe 340](report-340.md)   
- [Informe 347](report-347.md)
+Puede declarar el IVA sobre las ventas a otros países de la Unión Europea (UE). Para más información, ver [Informar el IVA a las autoridades fiscales](../../finance-how-report-vat.md).  
+
+[!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
+
+## <a name="see-also"></a>Consulte también
+
+[Funcionalidad local para España](spain-local-functionality.md)  
+[Informe 340](report-340.md)  
+[Informe 347](report-347.md)  
+[Crear informes de IVA para las autoridades fiscales](../../finance-how-report-vat.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

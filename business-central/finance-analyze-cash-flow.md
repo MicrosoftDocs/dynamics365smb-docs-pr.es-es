@@ -1,21 +1,21 @@
 ---
 title: Análisis de los flujos de efectivo
 description: Describe cómo usar los gráficos Ciclo de efectivo, Ingresos y gastos, Flujo de efectivo y Previsión de flujo de efectivo para analizar el flujo de dinero de entrada y salida pasado y futuro de su empresa.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
+ms.search.form: 762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 41dc7aba46960197a6b77ad13f98b4194fd589d2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bad719af0de4e79cd6916765a22792b767f355ae
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145711"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382238"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
 Los gráficos del Área de trabajo Contable proporcionan información que le puede ayudar a tomar decisiones sólidas sobre qué debe hacer con el efectivo.  

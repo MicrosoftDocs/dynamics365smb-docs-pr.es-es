@@ -1,7 +1,7 @@
 ---
 title: 'Procedimiento: Configurar un servicio de intercambio de documentos | Documentos de Microsoft'
 description: Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133387"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382982"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurar un servicio de intercambio de documentos
 Como parte del marco de intercambio de datos, puede intercambiar documentos de compra y venta con sus socios comerciales sin pasos adicionales, como adjuntar los documentos a mensajes de correo electrónico como archivos PDF. Por ejemplo, cuando esté listo para facturar a un cliente, puede registrar la factura y enviarla para su pago como un archivo que su cliente puede recibir en su aplicación de administración comercial. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).

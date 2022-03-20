@@ -1,5 +1,5 @@
 ---
-title: Preparación para hacer negocios
+title: Prepárese para hacer negocios
 description: Describe las guías de configuración asistida, los vídeos, los temas de ayuda y las páginas que se usan para empezar a realizar operaciones empresariales en Business Central.
 author: edupont04
 ms.topic: conceptual
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be2e72edcbe41737dabbc703a322281dbddc310d
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335036"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367155"
 ---
-# <a name="getting-ready-for-doing-business"></a>Preparación para hacer negocios
+# <a name="get-ready-for-doing-business"></a>Prepárese para hacer negocios
 
 Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[prod_short](includes/prod_short.md)].
 

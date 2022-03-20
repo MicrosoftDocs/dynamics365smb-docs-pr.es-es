@@ -1,5 +1,5 @@
 ---
-title: Asociar un pedido de venta a un pedido de compra para un envío directo (contiene vídeo) | Documentos de Microsoft
+title: Hacer envíos directos (contiene vídeo)
 description: Describe cómo crear un pedido de venta vinculado a un pedido de compra para habilitar el envío directo del proveedor al cliente.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144832"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372048"
 ---
 # <a name="make-drop-shipments"></a>Realizar envíos directos
 
@@ -40,12 +40,12 @@ Para preparar un envío directo, debe indicar en el pedido de compra que debe en
 2. En el campo **Dirección de envío**, seleccione **Dirección del cliente**.
 3. En el campo **Cliente**, seleccione el cliente al que está realizando la venta.
 4. Elija la acción **Envíos directos** y, a continuación, **Traer pedido venta**.
-5. En la página **Lista ventas**, seleccione el pedido de ventas que ha preparado en [Para crear un pedido de venta de envío directo](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. En la página **Lista ventas**, seleccione el pedido de ventas que ha preparado en [Para crear un pedido de venta de envío directo](#to-create-a-sales-order-for-drop-shipment).
 6. Elija el botón **Aceptar**.
 
 La información de la línea del pedido de venta se inserta en las líneas del pedido de compra.
 
-Ahora puede asignar instrucciones al proveedor para que envíe los productos al cliente, por ejemplo, enviando el pedido de compra por correo electrónico en formato PDF.     
+Ahora puede asignar instrucciones al proveedor para que envíe los productos al cliente, por ejemplo, enviando el pedido de compra por correo electrónico en formato PDF. Si su proveedor proporciona un número de seguimiento o información similar, puede optar por registrar esa información en una línea de orden de compra del tipo *Comentario*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Para crear varios pedidos de compra para envíos directos
 

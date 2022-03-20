@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134982"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372137"
 ---
 # <a name="use-time-sheets"></a>Usar hojas de horas
 
@@ -32,7 +32,7 @@ Para poder utilizar las hojas de horas, debe configurar la información general 
 
 ## <a name="to-create-time-sheets"></a>Para crear partes de horas
 
-Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea.  
+Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea. También puede [programar el trabajo por lotes para que se ejecute automáticamente](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Debe disponer de permisos para poder crear las hojas de horas. Para obtener más información, consulte [Configurar partes de horas](projects-how-setup-time-sheets.md).
@@ -43,6 +43,8 @@ Puede usar el proceso **Crear hojas de horas** para configurar hojas de horas de
 
     > [!NOTE]  
     > Los campos **Usar hoja horas** e **Id. usuario prop. hoja horas** deben completarse en la ficha del recurso de la hoja de horas.
+
+    Opcionalmente, elija la acción **Programar** para especificar la frecuencia con la que desea que la tarea se ejecute automáticamente. Por ejemplo, para configurar la tarea para que se ejecute semanalmente durante cuatro semanas, en la página **Programar un informe - Crear hojas de tiempo**, configure el campo **Fórmula de fecha de próxima ejecución** a *4W*. Para más información, vea [Programar la ejecución de un informe](ui-work-report.md#ScheduleReport).  
 4. Elija el botón **Aceptar**.  
 
 Puede ver las hojas de horas creadas en la página **Hojas de horas**. Cada hoja de horas consta de una o más líneas que definen la hora que desea enviar para su aprobación. La siguiente tabla describe los tipos de líneas que puede agregar a la hoja de horas.

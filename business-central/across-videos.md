@@ -1,7 +1,7 @@
 ---
 title: Visite nuestra biblioteca de vídeos
 description: Visite nuestra biblioteca de vídeos para obtener ayuda, desde vídeos de introducción que ilustran tareas comunes de "cómo hacer" hasta vídeos de productos temáticos.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: video, library, how to
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7786dab73b28a0107aac746f8029207592e6b78b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: a87b28c49aa2c6e532755abe760e5aa1af39c6e3
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323245"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382342"
 ---
 # <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
 

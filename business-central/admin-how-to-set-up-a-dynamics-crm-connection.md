@@ -1,19 +1,19 @@
 ---
 title: Conectar a Microsoft Dataverse (contiene vídeo)
 description: Configuración de una conexión entre Business Central y Dataverse Las empresas suelen crear la conexión para integrar datos con otra aplicación empresarial de Dynamics 365.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b5a393356f4028de8278bad3177592c8d26fe40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130753"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383836"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Conectar a Microsoft Dataverse
 

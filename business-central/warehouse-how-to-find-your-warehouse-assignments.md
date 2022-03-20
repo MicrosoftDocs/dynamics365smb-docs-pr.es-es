@@ -1,26 +1,28 @@
 ---
-title: Cómo buscar las asignaciones de almacén
+title: Buscar las asignaciones de almacén
 description: Este tema explica cómo buscar las asignaciones de almacén que se le asignaron en la página Ficha de producto cuando se hayan creado las instrucciones para usted.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5b27848474f26f92b54169e1d60e8e786a6ab95f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141982"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382158"
 ---
 # <a name="find-your-warehouse-assignments"></a>Buscar las asignaciones de almacén
+
 Para buscar las asignaciones de almacén, abra la página de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>Para buscar una instrucción que se le ha asignado  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubic. exist. almacén**, **Picking almacén** o **Movimiento almacén**, y a continuación, elija el vínculo relacionado.
+## <a name="to-find-an-instruction-assigned-to-you"></a>Para buscar una instrucción que se le ha asignado
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubic. exist. almacén**, **Picking almacén** o **Movimiento almacén**, y a continuación, elija el vínculo relacionado.
 
     Las tres páginas muestran las asignaciones de todas las ubicaciones de almacén.  
 
@@ -29,12 +31,13 @@ Para buscar las asignaciones de almacén, abra la página de la ficha de un art�
 
 Puede utilizar el campo **Id. usuario asignado** de la cabecera para traer sus asignaciones de trabajo, si el administrador del almacén no asigna instrucciones determinadas a los usuarios. Sólo introduzca su id. de usuario en la cabecera del almacén antes de empezar a trabajar con una instrucción. Sus compañeros pueden trabajar con otras instrucciones y el almacén impedirá una duplicación del esfuerzo.  
 
-## <a name="see-also"></a>Consulte también  
-[Gestión almacén](warehouse-manage-warehouse.md)  
+## <a name="see-also"></a>Consulte también
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
-[Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md) 
+[Administración de ensamblados](assembly-assemble-items.md)
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 

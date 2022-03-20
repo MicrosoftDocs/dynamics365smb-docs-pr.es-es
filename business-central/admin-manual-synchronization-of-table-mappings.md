@@ -1,7 +1,7 @@
 ---
 title: Sincronización manual de asignaciones de tablas | Documentos de Microsoft
 description: La sincronización copia los datos entre tablas de Microsoft Dataverse y Business Central para mantener actualizados ambos sistemas.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d36032b28790052ad568a91c40d0b6eec7e2bc31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fd9ff4640b23dbd58c94d9da3f95ab9670710439
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149236"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381916"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Sincronizar manualmente las asignaciones de tablas
 

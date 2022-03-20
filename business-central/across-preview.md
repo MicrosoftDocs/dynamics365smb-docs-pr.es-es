@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/18/2022
+ms.date: 02/22/2022
 ms.author: edupont
-ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 48d8ee794c9259a19b22dfcb7c6203f489bf3534
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335531"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366241"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -21,9 +21,9 @@ ms.locfileid: "8335531"
 
 Si aún no trabaja con un socio, vea [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
 
-## <a name="getting-started-with-a-trial"></a>Introducción a una versión de prueba
+## <a name="get-started-with-a-trial"></a>Empiece con una versión de prueba
 
-Puede registrarse para obtener una versión de prueba [aquí](https://go.microsoft.com/fwlink/?linkid=847861). Le recomendamos que trabaje con [un socio distribuidor](/dynamics365/business-central/across-faq#findpartner) para ayudar a su organización a empezar a utilizar [!INCLUDE[prod_short](includes/prod_short.md)].  
+Puede registrarse para obtener una versión de prueba [aquí](https://go.microsoft.com/fwlink/?linkid=847861). Le recomendamos que trabaje con [un socio distribuidor](/dynamics365/business-central/across-faq#findpartner) para ayudar a su organización a empezar a utilizar [!INCLUDE[prod_short](includes/prod_short.md)]. Vea también el artículo [Regístrese para una prueba gratis de Dynamics 365 Business Central](trial-signup.md) para empezar.  
 
 Dependiendo de su país o región, la versión de prueba incluye los idiomas y la funcionalidad que requiere su país o región. Para obtener más información, vea [Cambiar idioma y región](about-locale-language.md).  
 
@@ -37,11 +37,11 @@ Si decide no usar [!INCLUDE [prod_short](includes/prod_short.md)], puede dejar q
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Agregue sus propios datos a una empresa de prueba vacía
 
-Si desea probar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. La **guía de configuración asistida** Configurar mi empresa puede ayudarlo a especificar información básica sobre su negocio. De manera opcional, puede importar datos de su solución de gestión empresarial existente para poder evaluar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos. Sin embargo, le recomendamos que no utilice una versión de prueba gratuita para administrar su negocio. Contacte con [un socio distribuidor](/dynamics365/business-central/across-faq#findpartner) para obtener más información sobre cómo empezar a utilizar [!INCLUDE[prod_short](includes/prod_short.md)]. El socio también puede ayudarlo a migrar sus datos a [!INCLUDE [prod_short](includes/prod_short.md)] en línea.  
+Si desea probar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos, puede cambiar a una prueba gratuita de 30 días sin datos de ejemplo. La **guía de configuración asistida** Configurar mi empresa puede ayudarlo a especificar información básica sobre su negocio. De manera opcional, puede importar datos de su solución de gestión empresarial existente para poder evaluar [!INCLUDE[prod_short](includes/prod_short.md)] con sus propios datos. Sin embargo, le recomendamos que no utilice una versión de prueba gratuita para administrar su negocio. Contacte con [un socio distribuidor](/dynamics365/business-central/across-faq#findpartner) para obtener más información sobre cómo empezar a utilizar [!INCLUDE[prod_short](includes/prod_short.md)]. El socio también puede ayudarlo a migrar sus datos a [!INCLUDE [prod_short](includes/prod_short.md)] en línea.  
 
 Si 30 días no son suficientes para decidirse, puede ampliar la prueba. Para obtener más información, vea [¿Necesita más tiempo para decidir si suscribirse?](admin-extend-trial.md)  
 
-### <a name="setting-up-your-company-in-prod_short"></a>Configurar la empresa en [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-prod_short"></a>Configure su empresa en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Los artículos de [inicio rápido](quick-start-business-central.md) pueden ayudarle a dar los primeros pasos para configurar [!INCLUDE [prod_short](includes/prod_short.md)] para su organización. En [!INCLUDE [prod_short](includes/prod_short.md)], la página **Configuración asistida** enumera las guías de configuración asistida que pueden ayudarlo. Dependiendo de su rol y país o región, la página muestra diferentes guías de configuración del asistente, como se mustra en la siguiente tabla:
 
@@ -70,7 +70,7 @@ Si ha agregado datos a su versión de prueba de [!INCLUDE[prod_short](includes/p
 > [!IMPORTANT]
 > Cuando comparte [!INCLUDE[prod_short](includes/prod_short.md)] con otras personas de su organización, debe asegurarse de que las demás personas no hayan iniciado sesión cuando elimine una empresa.  
 
-## <a name="getting-started-with-a-subscription"></a>Introducción a una suscripción
+## <a name="get-started-with-a-subscription"></a>Introducción a una suscripción
 
 Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prod_short](includes/prod_short.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prod_short](includes/prod_short.md)] agregando aplicaciones desde [el mercado comercial de Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
@@ -83,7 +83,7 @@ También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[prod_sh
 
 Para obtener más información sobre lo que puede hacer con [!INCLUDE [prod_short](includes/prod_short.md)], consulte [Preparación para hacer negocios](ui-get-ready-business.md) y [Funcionalidad empresarial](across-business-functionality.md).  
 
-## <a name="getting-started-with-sandboxes"></a>Introducción a los entornos aislados
+## <a name="get-started-with-sandboxes"></a>Introducción a los entornos aislados
 
 Los entornos aislados pueden ser una forma de practicar con [!INCLUDE[prod_short](includes/prod_short.md)]. Piense en un entorno aislado como un entorno que no es de producción y que puede usar en su instancia de producción de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, si desea realizar la formación online gratuita de [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), su administrador puede [crear un entorno de espacio aislado](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). De esta manera, usted y sus colegas pueden practicar en un lugar seguro en lugar de en su entorno de producción.  
 
@@ -96,8 +96,10 @@ En este momento, todos los clientes pueden usar un sandbox, incluidas las organi
 
 El administrador de su [!INCLUDE[prod_short](includes/prod_short.md)] y su socio distribuidor pueden crear más entornos en el centro de administración. Para obtener más información, consulte [El centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
+[Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md)  
+[Preguntas más frecuentes de la prueba de Dynamics 365 Business Central](trial-faq.md)  
 [Inicio rápido de Business Central](quick-start-business-central.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Extensión de la versión de prueba](admin-extend-trial.md)  

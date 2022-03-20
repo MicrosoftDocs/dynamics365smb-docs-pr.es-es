@@ -1,7 +1,7 @@
 ---
 title: La extensión Archivo de datos
 description: El archivo de datos crea una copia de seguridad de bajo costo de sus registros.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: e2df40494f72260a1ce7e66f57ea1c96fb35b301
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9c547b9fe73a889145aeb228e987895aeae6aa12
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130831"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382534"
 ---
 # <a name="the-data-archive-extension"></a>La extensión Archivo de datos
 Con el tiempo, su empresa acumulará una cantidad sustancial de datos y, como administrador, probablemente sea una buena idea tener una estrategia para archivar datos. Tener muchos datos puede ralentizar las cosas, por ejemplo, puede llevar un poco más de tiempo generar informes o incluso bloquear registros. Además, grandes cantidades de datos pueden generar mayores costos de almacenamiento.
