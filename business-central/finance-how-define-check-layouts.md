@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149054"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518108"
 ---
 # <a name="select-a-check-layout"></a>Seleccionar una plantilla de cheques
 
@@ -40,8 +40,7 @@ Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la
 
 Para cambiar una de estas plantillas de cheques predeterminadas, utilice la integración de Word o RDLC. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>Usando MICR y fuentes de seguridad
-
+## <a name="use-micr-and-security-fonts"></a>Usar MICR y fuentes de seguridad
 La versión en línea de [!INCLUDE[prod_short](includes/prod_short.md)] contiene fuentes preinstaladas en los servidores que se pueden usar al definir diseños de verificación. A continuación se describen qué fuentes están disponibles y tiene enlaces a información detallada por parte de proveedores externos de las fuentes.
 
 > [!Important]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: a55d0d32873783adf049b44d90cc12b6e66080a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144780"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513736"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
 Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.  

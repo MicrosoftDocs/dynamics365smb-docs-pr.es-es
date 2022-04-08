@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9409c33858f32628c9f8a85fe6d19fd5afb5986f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 34bbdae60f2e9e17cdd6f006f4af432658ee9dbe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381888"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519871"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vender productos de ensamblado para pedido y productos de inventario juntos
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para stock**, el proceso de pedido de venta predeterminado supone que el producto está ensamblado y se puede ya seleccionar del inventario, si está disponible. Por tanto, no se crea ni vincula ningún pedido de ensamblado automáticamente a la línea de pedido de venta. Sin embargo, si parte de la cantidad (o toda) no está disponible, tiene la flexibilidad de crear un pedido de ensamblado para la cantidad pendiente rellenando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta. De esta forma, puede ensamblar el producto para pedido aunque esté configurado para ensamblarse para stock de forma predeterminada.  
@@ -41,7 +41,7 @@ La flexibilidad similar se da cuando se venden productos que se ensamblarán par
 ## <a name="see-also"></a>Consulte también  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

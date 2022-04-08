@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131696"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518082"
 ---
 # <a name="about-item-types"></a>Acerca de los tipos de productos
 En el campo **Tipo** en la página **Ficha de producto**, puede seleccionar para qué se usa el producto en su negocio, lo que afecta al grado en el que puede administrar el producto en el inventario. La siguiente tabla enumera y describe los tres tipos de elementos que están disponibles.
@@ -54,7 +54,7 @@ Los productos de los clientes con los que realiza el servicio, como una impresor
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Configurar inventario](inventory-setup-inventory.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

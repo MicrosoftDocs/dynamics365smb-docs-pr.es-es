@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59b81f7cc357c46f0b929dbdde4bf45c230975f7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a57165a63139f0c8bf590b811160a45e26152ce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139110"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522437"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planificar movimientos de almacén en hojas de trabajo
 Planifique los movimientos en la hoja de trabajo con una función de reposición de ubicación o manualmente mediante la planificación de las líneas que desea crear como instrucciones de movimiento.  
@@ -69,7 +69,7 @@ También puede utilizar la hoja de trabajo de movimiento para planificar otros m
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

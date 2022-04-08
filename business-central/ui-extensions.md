@@ -1,29 +1,30 @@
 ---
-title: Instalación de extensiones para personalizar Business Central
+title: Personalizar Business Central Online con extensiones
 description: Obtenga toda información sobre cómo agregar funcionalidad y personalizar Business Central mediante la instalación de extensiones.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/25/2021
+ms.search.form: 2500, 2502
+ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132425"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510692"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Personalizar Business Central Online con extensiones
 
 Puede cambiar [!INCLUDE[prod_short](includes/prod_short.md)] en línea instalando extensiones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo.
 
 > [!NOTE]
-> Para instalar o desinstalar extensiones desde AppSource o añadir extensiones por suscriptor, debe tener los permisos adecuados. Debe ser miembro de ADMIN. EXTENS. - Grupo de usuarios ADMIN o debe tener ADMIN. EXTENS. - Conjunto de permisos ADMIN. Si es administrador, puede asignar grupos de usuarios y permisos a otros usuarios de su empresa.
+> Para instalar o desinstalar extensiones desde AppSource o añadir extensiones por suscriptor, debe tener los permisos adecuados. Debe ser miembro del grupo de usuarios **Admin extensión D365** o debe tener el conjunto de permisos de **ADMIN. EXTENS. - ADMIN** explícitamente. Si es administrador, puede asignar grupos de usuarios y permisos a otros usuarios de su empresa. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).  
 >
 > Para utilizar la funcionalidad que proporciona una extensión, como abrir páginas, ejecutar informes, seleccionar acciones, etc., se le deben asignar los conjuntos de permisos que se instalan como parte de la extensión.
 
-> [!NOTE]  
-> El conjunto de permisos **ADMIN. EXTENS. - ADMIN** se introdujo en el primer lanzamiento de versiones de Business Central 2021 para sustituir al conjunto de permisos **ADMIN. EXTENS. D365** de versiones anteriores.
+<!-- [!NOTE]  
+> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
 
 > [!IMPORTANT]  
 > No se admite la carga de extensiones por inquilino y la instalación de extensiones de AppSource a través de la página **Administración de extensiones** para instalaciones locales. No puede instalar extensiones de AppSource locales, incluidas las implementaciones basadas en Docker.
@@ -84,6 +85,7 @@ Los socios y distribuidores de Microsoft pueden crear extensiones que pueden usa
 
 ## <a name="see-also"></a>Consulte también
 
+[Instalar y desinstalar extensiones](ui-extensions-install-uninstall.md)  
 [Personalizar Business Central](ui-customizing-overview.md)  
 [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)  
 [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 668b34e011ec103689b45bdc864a7e726d4d8082
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7c04e2e81876628a8b6fe9534bb7ecdbb960bcc8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141930"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511322"
 ---
 # <a name="set-up-warehouse-employees"></a>Configurar los empleados de almacén
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6e7d188adceffbc6044162e14de5cbb141c21b54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: abf8fd20f15f02edad3f451da04729dfd2824bd4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137502"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514444"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Trabajar con la unidad de medida de lote de fabricación
 Si un producto se almacena en una unidad de medida pero se fabrica en otra, se crea una orden de producción que utiliza una unidad de medida de la sección de fabricación para calcular la cantidad correcta de componentes durante el trabajo por lotes **Actualizar orden producción**. Un ejemplo del cálculo de una unidad de medida de la sección de fabricación es el caso en que un producto fabricado se almacena por piezas pero se produce en toneladas.  
@@ -48,7 +48,7 @@ En la ficha desplegable **Líneas**, elija la acción **Línea** y, a continuaci
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    
 [Planificación](production-planning.md)   
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

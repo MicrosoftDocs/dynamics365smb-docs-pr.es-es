@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383432"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519523"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Uso de plantillas de Word para comunicaciones masivas
+# <a name="use-word-templates-for-bulk-communication"></a>Usar plantillas de Word para comunicaciones masivas
 Las plantillas de Microsoft Word pueden facilitar la comunicación masiva por escrito o por correo con entidades como contactos, clientes y proveedores. Por ejemplo, puede crear folletos para alertar a los clientes sobre una campaña de ventas, cartas para informar a los proveedores sobre una nueva directiva de compras o invitaciones para atraer contactos a un próximo evento.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Cuando su plantilla de Word esté lista, en la página **Plantillas de Word** pu
 
 Puede aplicar plantillas a una o más entidades del mismo tipo, como un contacto, directamente en el contexto de esa página, o desde la página de plantillas de Word para aplicar la plantilla a todas las entidades de ese tipo.
 
-## <a name="using-word-templates-with-email"></a>Uso de plantillas de Word con correo electrónico
+## <a name="use-word-templates-with-email"></a>Usar plantillas de Word con correo electrónico
 Puede usar plantillas de Word para agregar contenido a los mensajes de correo electrónico. Cuando redacta un correo electrónico, puede elegir la acción **Usar plantilla de Word** para aplicar el contenido de una plantilla al mensaje. Esto requiere que haya creado una o más plantillas para la entidad. Puede usar una plantilla a la vez, y cuando cambia entre plantillas, el mensaje cambia para reflejar el contenido de la plantilla elegida.
 
 Además, puede utilizar la acción **Agregar archivo desde plantilla de Word** para adjuntar el contenido de la plantilla al correo electrónico como un archivo. El archivo utilizará el formato que especificó para la salida de la plantilla.

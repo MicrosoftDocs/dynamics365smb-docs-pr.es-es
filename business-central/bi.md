@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335453"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523142"
 ---
 # <a name="business-intelligence"></a>Inteligencia empresarial
 Las empresas capturan una ingente cantidad de información con su actividad diaria. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[prod_short](includes/prod_short.md)] contiene numerosas funciones que le ayudan a recopilar, analizar y compartir la información de su empresa.
@@ -39,7 +39,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)    
-[Usar Business Central como fuente de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Usar Business Central como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Cerrar periodos fiscales](year-close-years-periods.md)  
 [Importar datos de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.search.keywords: cost accounting
 ms.search.form: 283, 284
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f5270acb437ca600e145d0060b34b16f9b20a009
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a803a9a7533de5ff94bbb41e73cc1877a25044af
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140350"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512235"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Utilizar claves de asignación en diarios generales
 Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.

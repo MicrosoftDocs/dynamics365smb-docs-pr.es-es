@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 85ae1bedbf1699f61517896943a3cc6e85f17222
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ed6ed65b971404cd1ddaab86a8b223771c36b464
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781918"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513840"
 ---
 # <a name="developers-learning-catalog"></a>Catálogo de aprendizaje para desarrolladores
 

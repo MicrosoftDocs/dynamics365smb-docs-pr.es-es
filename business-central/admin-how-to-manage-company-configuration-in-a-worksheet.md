@@ -1,22 +1,24 @@
 ---
-title: Cómo gestionar la configuración de la empresa en una hoja de trabajo
-description: La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración de empresa.
+title: Gestionar la configuración de la empresa en una hoja de trabajo
+description: Si usa RapidStart Services, la hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración de empresa.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141364"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514205"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>Gestionar la configuración de la empresa en una hoja de trabajo
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Gestionar la configuración de la empresa en una hoja de trabajo con RapidStart Services
+
 La hoja de trabajo de configuración es la ubicación central en la que puede planificar, controlar y realizar el trabajo de configuración. Puede crear una hoja de trabajo para cada empresa con la que trabaja o crear una hoja de trabajo de configuración estándar que se puede usar para configurar varias empresas idénticas.  
 
 El primer paso en la preparación de un paquete de configuración es seleccionar una empresa ya configurada y modificada para ajustarse a la mayoría de las necesidades de la solución. Esta empresa sirve como línea base para el trabajo de configuración para las empresas nuevas. En la hoja de trabajo, indica las tablas que desea que la configuración controle y procese. Puesto que la mayoría de las tablas en [!INCLUDE[prod_short](includes/prod_short.md)] tienen relaciones y dependencias con otras tablas, también debería incluir esas tablas relacionadas según sea necesario. Juntas, estas tablas servirán como la estructura en torno a la que creará una nueva empresa. Los pasos siguientes le ayudan a empaquetar y luego implementar la configuración.  
@@ -25,9 +27,10 @@ Para ayudarle en el seguimiento y la revisión de su trabajo, use el cuadro info
 
 En los procedimientos siguientes se muestra cómo agregar y personalizar la información de tabla para la configuración.  
 
-## <a name="to-open-the-configuration-worksheet"></a>Procedimiento para abrir la hoja de trabajo de configuración  
-1.  En [!INCLUDE[prod_short](includes/prod_short.md)], abra la empresa que servirá de línea base para la configuración, y abra el Área de trabajo del implementador de RapidStart Services.  
-2.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.  
+## <a name="to-open-the-configuration-worksheet"></a>Procedimiento para abrir la hoja de trabajo de configuración
+
+1.  En [!INCLUDE[prod_short](includes/prod_short.md)], abra la empresa que es la línea base de la configuración.  
+2.  Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja de configuración** y luego elija el enlace relacionado.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Procedimiento para agregar una tabla a la hoja de trabajo  
 1.  En la página **Configurar hoja**, seleccione la acción **Editar lista**.  
@@ -40,9 +43,9 @@ En los procedimientos siguientes se muestra cómo agregar y personalizar la info
     > [!NOTE]  
     > Las tablas relacionadas no se agregarán con la acción **Obtener tablas relacionadas** si se aplica cualquiera de lo siguiente:
     > - La relación es condicional.  
-    > Ejemplo: si se obtienen tablas relacionadas para la tabla **Cliente**, entonces la tabla **Almacén** no se agregará, ya que está solo condicionalmente con la tabla **Cliente**, por ejemplo si el campo **Cód. almacén** se ha rellenado en la tabla **Cliente**.  
+    >     Ejemplo: si se obtienen tablas relacionadas para la tabla **Cliente**, entonces la tabla **Almacén** no se agregará, ya que está solo condicionalmente con la tabla **Cliente**, por ejemplo si el campo **Cód. almacén** se ha rellenado en la tabla **Cliente**.  
     > - Se filtra la tabla relacionada.  
-    > Ejemplo: un campo de la tabla relacionada tiene la cláusula WHERE. El motivo es que la información sobre las relaciones correspondientes está almacenada en la tabla del sistema **Campo**, que no está totalmente accesible a la aplicación.  
+    >     Ejemplo: un campo de la tabla relacionada tiene la cláusula WHERE. El motivo es que la información sobre las relaciones correspondientes está almacenada en la tabla del sistema **Campo**, que no está totalmente accesible a la aplicación.  
     > Debe agregar dichos tipos de tablas manualmente según el paso 4 de este procedimiento.  
 
 8.  Para modificar la lista de tablas resultante, seleccione una tabla que desee quitar y elija la acción **Eliminar**.  

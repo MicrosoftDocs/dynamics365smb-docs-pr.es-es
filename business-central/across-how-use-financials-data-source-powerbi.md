@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366348"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523220"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Crear informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]
 
@@ -47,7 +47,7 @@ Este artículo describe cómo empezar a usar Power BI Desktop para crear informe
 
 - Descargue el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)] (opcional).
 
-  Para más información, ver [Usar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)]](#theme) en este articulo.
+  Para obtener más información, consulte [Usar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)]](#theme) en este articulo.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI Desktop
 
@@ -82,7 +82,7 @@ La primera tarea al crear informes es agregar [!INCLUDE[prod_short](includes/pro
       - **Nombre de la empresa**
         - **API avanzadas**
 
-          Esta carpeta enumera las páginas API avanzadas publicadas por Microsoft, como las [API de automatización de Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) y las [páginas API personalizadas para Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Las páginas de API personalizadas se agrupan además en carpetas por las propiedades [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) del código de la página API.
+          Esta carpeta enumera las páginas API avanzadas publicadas por Microsoft, como las [API de automatización de Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) y las [páginas API personalizadas para Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Las páginas de API personalizadas se agrupan además en carpetas por las propiedades [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) del código de la página API.
 
         - **API estándar v2.0**
 

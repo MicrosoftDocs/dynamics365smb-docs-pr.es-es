@@ -10,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9689db234280c2bcca5e32ade2a82488c15de5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8757ba52142990449d5d60273a73bdc146ffb240
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147731"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517503"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Revertir los registros de diario y deshacer los recibos/envíos
 

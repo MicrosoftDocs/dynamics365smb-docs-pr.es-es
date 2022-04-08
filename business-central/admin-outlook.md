@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323207"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518342"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Obtener el complemento Business Central para Outlook
 
@@ -39,7 +39,7 @@ El complemento Business Central para Outlook consta de dos complementos más peq
 
     Cuando un correo electrónico hace referencia a un número de documento comercial en el cuerpo del correo electrónico, este complemento proporciona un enlace directo en línea desde el cuerpo del correo electrónico al documento comercial real en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Para obtener más información sobre lo que hace con los complementos, consulte [Uso de Business Central como su bandeja de entrada comercial en Outlook](work-outlook-addin.md).
+Para obtener más información sobre lo que hace con los complementos, consulte [Usar Business Central como su bandeja de entrada comercial en Outlook](work-outlook-addin.md).
 
 Cada complemento se proporciona como archivo XML, llamado *manifiesto*, que debe instalarse en Outlook de cualquier persona que desee esta funcionalidad. Estos archivos describen cómo activar los complementos y conectarse a Business Central cuando se usan en Outlook. El trabajo con estos archivos normalmente lo realiza un administrador. Como usuario normal, en la mayoría de los casos, no tendrá que manejar estos archivos directamente. Su administrador configurará el complemento para que se instale automáticamente o usted utilizará la configuración asistida incorporada para manejar la instalación.
 
@@ -84,7 +84,7 @@ Implementación centralizada es una característica del Centro de administració
 > [!IMPORTANT]
 > Aparece una marca de verificación verde cuando el complemento se implementa en el centro de administración. Sin embargo, pueden pasar hasta 24 horas antes de que los usuarios vean el complemento la aplicación Outlook. Es posible que los usuarios también tengan que reiniciar Outlook.
 
-Cuando termine, siempre puede cambiar la implementación en el Centro de administración de Microsoft 365, como asignar más usuarios. Para obtener más información sobre la implementación de complementos en el Centro de administración, consulte [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Cuando termine, siempre puede cambiar la implementación en el Centro de administración de Microsoft 365, como asignar más usuarios. Para obtener más información sobre la implementación de complementos en el Centro de administración, consulte [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Instale el complemento para su propio uso
 

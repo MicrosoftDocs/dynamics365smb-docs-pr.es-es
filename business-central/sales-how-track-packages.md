@@ -7,12 +7,12 @@ ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334491"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518944"
 ---
 # <a name="track-packages"></a>Hacer un seguimiento de los paquetes
 La mayoría de los agentes de envío brindan un servicio web que le permite rastrear el estado de sus paquetes mientras están en ruta. Esa información puede ser útil en muchos procesos comerciales, por ejemplo, al ofrecer servicio al cliente. Si utiliza uno o más de estos transportistas, puede introducir cierta información básica sobre ellos y utilizar su servicio de seguimiento directamente desde las páginas Histórico albaranes ventas, Histórico facturas ventas, Notas de abono de ventas registradas y Recibo de devolución registrado. Para obtener más información, vea [Configurar transportistas](sales-how-to-set-up-shipping-agents.md). 

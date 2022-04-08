@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132555"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516541"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Procedimientos recomendados de configuración: planificación de suministros
 La planificación de suministros es un área comercial crítica. Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.  

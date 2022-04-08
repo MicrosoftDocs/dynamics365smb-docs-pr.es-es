@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142086"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520313"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valoración de existencias
 
@@ -43,7 +43,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Procedimientos recomendados de configuración: valoración de existencias](setup-best-practices-costing-method.md)  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
-[Detalles de diseño: Cambiar la valoración de existencias para artículos](design-details-changing-costing-methods.md)  
+[Detalles de diseño: cambiar la valoración de existencias para productos](design-details-changing-costing-methods.md)  
 [Trabajar con Business Central](ui-work-product.md)  
 [Finanzas](finance.md)  
 

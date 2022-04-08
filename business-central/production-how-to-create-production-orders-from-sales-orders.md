@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000883, 99000884
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3080556ad69882c533bec3768787784bfdac5c4f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f24ee7b1e5fab2b54e9653e6bc98cfd87200770
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145529"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516827"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Crear órdenes de producción desde pedidos de venta
 Puede crear órdenes de producción para artículos producidos directamente desde los pedidos de venta.  

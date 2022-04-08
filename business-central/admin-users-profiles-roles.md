@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133127"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514152"
 ---
 # <a name="manage-user-profiles"></a>Administración de perfiles de usuario
 
@@ -85,7 +85,7 @@ Cuando se crea un perfil, puede seleccionar diferentes casillas que definen si, 
     - **Mostrar en Explorador de roles** para especificar si las acciones de las características empresariales incluidas en el perfil se muestran en la vista ampliada del explorador de roles, una descripción general de las funciones. Para obtener más información, vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Para exportar perfiles
-Puede exportar perfiles desde [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo para reutilizarlos en otro suscriptor. Los perfiles se exportan a un archivo comprimido que contiene archivos .al que se pueden reutilizar para desarrollar extensiones. Para obtener más información, consulte [Uso del cliente para crear perfiles y personalizaciones de página](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Puede exportar perfiles desde [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo para reutilizarlos en otro suscriptor. Los perfiles se exportan a un archivo comprimido que contiene archivos .al que se pueden reutilizar para desarrollar extensiones. Para obtener más información, consulte [Usar el cliente para crear perfiles y personalizaciones de página](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * En la página **Perfiles (roles)**, elija la acción **Exportar perfiles**.
 

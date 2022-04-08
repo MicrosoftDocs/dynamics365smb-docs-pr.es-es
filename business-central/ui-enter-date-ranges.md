@@ -10,14 +10,14 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323011"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518866"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
+# <a name="work-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
 [!INCLUDE[prod_short](includes/prod_long.md)] ofrece múltiples formas de introducir fechas y horas, además de potentes funciones que aceleran la entrada de datos o ayudan a escribir expresiones de calendario complejas. Hay varios lugares en la aplicación donde puede introducir fechas y horas en los campos. Por ejemplo, en un pedido de venta, puede establecer la fecha de envío. Al filtrar listas o datos de informes, puede introducir fechas y horas para señalar solo los datos que le interesan.
 
@@ -63,12 +63,15 @@ El esquema de número de la semana siempre es ISO 8601, donde la semana 1 es la 
 
 En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:
 
--   Si introduce solo dos dígitos, se interpretarán como el día y se agregarán el mes y el año de la fecha de trabajo.
+- Si introduce solo dos dígitos, se interpretarán como el día y se agregarán el mes y el año de la fecha de trabajo.
 
--   Si introduce cuatro dígitos, se interpretarán como el día y el mes, y agregará el año de la fecha de trabajo. El orden del día y mes lo determina la configuración de región. Incluso si la configuración de región tiene el año anterior al día y al mes, cuatro dígitos se interpretan como el día y el mes.
+- Si introduce cuatro dígitos, se interpretarán como el día y el mes, y agregará el año de la fecha de trabajo. El orden del día y mes lo determina la configuración de región. Incluso si la configuración de región tiene el año anterior al día y al mes, cuatro dígitos se interpretan como el día y el mes.
 
--   Si la fecha que desea introducir está en el rango comprendido entre el 01/01/1930 y el 31/12/2029, puede introducir el año con dos dígitos; en caso contrario, introduzca el año mediante cuatro dígitos.
+- Si la fecha que desea introducir está en el rango comprendido entre el 01/01/1950 y el 31/12/2049, puede introducir el año con dos dígitos; en caso contrario, introduzca el año mediante cuatro dígitos.
 
+  > [!NOTE]
+  > Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, el intervalo de años de dos dígitos puede ser diferente. Los administradores pueden cambiar el rango modificando el ajuste **CalendarTwoDigitYearMax** del servidor [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Configuración de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### <a name="today"></a>Hoy
 
 Ingrese la palabra para _hoy_, en el idioma especificado en la página **Mi configuración**, para establecer la fecha de un registro en la fecha de hoy. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio. Por ejemplo, en inglés, puede ingresar _t_ o _tod_, siempre que no sea también el comienzo de otra palabra.
@@ -130,7 +133,7 @@ En listas, totales e informes, puede establecer filtros en fechas, horas y fecha
 
 Puede utilizar cualquiera de los formatos válidos en los filtros de rango de fechas. Por ejemplo, lun14 3..h 4p aplicado en un campo de fecha y hora da como resultado un filtro desde las 3 a.m. del lunes en la semana 14 del año actual de la fecha de trabajo, inclusive, hasta hoy a las 4 p.m., inclusive.
 
-## <a name="using-date-formulas"></a>Uso de fórmulas de fecha
+## <a name="use-date-formulas"></a>Usar fórmulas de fecha
 Una fórmula de fecha es una breve combinación abreviada de letras y números que especifica cómo calcular fechas. Puede introducir fórmulas de fecha en varios campos o filtros de cálculo de fecha.
 
 > [!NOTE]
@@ -216,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]

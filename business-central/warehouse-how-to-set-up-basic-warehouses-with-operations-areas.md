@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d64cb9cdba21d3a023c86fbb39e802a78945c2b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 502ac0d10379166426014ea3bda0eedb1f6d601c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144208"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512001"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurar almacenes básicos con áreas de operaciones
 Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar los documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas:  
@@ -139,7 +139,7 @@ La fabricación de una ubicación dedicada proporciona una funcionalidad similar
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

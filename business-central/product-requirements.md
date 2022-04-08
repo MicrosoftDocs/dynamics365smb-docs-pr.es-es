@@ -1,20 +1,20 @@
 ---
 title: Requisitos mínimos para utilizar Business Central
 description: Conozca los requisitos mínimos del sistema y de versión para usar Business Central Online que se indican a continuación.
-author: edupont04
+author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 8f0e9b608611c963cd31112a31d004108ad1ab73
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/31/2022
+ms.author: jswymer
+ms.openlocfilehash: 8a2c342f31dc4c17bb34af22ffc912dcc51c5cf9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135190"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514418"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
 
@@ -24,25 +24,16 @@ Antes de que acceda a [!INCLUDE[prod_short](includes/prod_short.md)] en línea, 
 
 **Microsoft Edge**: [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para que funcione con la versión actual del nuevo Microsoft Edge.
   
-**Chrome y Firefox para Windows**: [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para que funcione con la versión actual de estos exploradores. 
+**Chrome y Firefox para Windows**: [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para que funcione con la versión actual de estos exploradores. La aplicación de escritorio de Business Central no funciona con Firefox.
  
 **Safari**: [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para que funcione con la versión actual de Safari en macOS.  
 
 ## <a name="mobile-devices"></a>Dispositivos móviles
 
-**Windows:** Windows 10 S, Home, Pro, Enterprise o Education (ediciones de 32 y 64 bits).
-
 **Android (tableta y teléfono):** una de las tres últimas versiones principales y sus actualizaciones.
 
 **iOS (iPad y iPhone):** una de las tres últimas versiones principales y sus actualizaciones.
 
-<!--
-
-**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
-**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
-**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
--->
 ## <a name="outlook"></a>Outlook
 
 **Aplicaciones de Outlook:** para usar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como bandeja de entrada de empresa en Outlook, requerirá Outlook 2019 o posterior, Outlook para iOS u Outlook para Android. Su organización también debe utilizar Microsoft 365. No puede utilizar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como su bandeja de entrada empresarial en Outlook si su organización usa Exchange Server local. 
@@ -50,8 +41,8 @@ Antes de que acceda a [!INCLUDE[prod_short](includes/prod_short.md)] en línea, 
 > [!IMPORTANT]
 > Desde el segundo lanzamiento de versiones de Business Central 2021, ya no se puede iniciar sesión en el complemento Business Central desde versiones de Outlook anteriores a 2012.
   
-**Exploradores:** Al usar [!INCLUDE[prod_short](includes/prod_short.md)] como bandeja de entrada de empresa en Outlook en un explorador, el complemento requiere que su equipo ejecute uno de los exploradores compatibles que se han enumerado en este artículo. 
- 
+**Exploradores:** Al usar [!INCLUDE[prod_short](includes/prod_short.md)] como bandeja de entrada de empresa en Outlook en un explorador, el complemento requiere que su equipo ejecute uno de los exploradores compatibles que se han enumerado en este artículo.
+
 **Plataformas:** al usar el complemento de Outlook de [!INCLUDE[prod_short](includes/prod_short.md)] en Outlook para iOS o en Outlook para Android, el complemento requiere que su dispositivo móvil ejecute uno de los dispositivos móviles compatibles especificados para [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="teams"></a>Teams
@@ -78,7 +69,7 @@ El centro de administración está diseñado para funcionar con la versión actu
 - Firefox para Windows
 - Safari para macOS
 
-## <a name="using-business-central-on-premises"></a>Uso de Business Central local
+## <a name="use-business-central-on-premises"></a>Use Business Central local
 
 Si desea implementar Business Central localmente, debe comprobar los requisitos del sistema. Para obtener más información, consulte [Requisitos del sistema para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) y [Resumen de la implementación](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 

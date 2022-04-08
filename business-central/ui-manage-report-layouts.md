@@ -1,7 +1,7 @@
 ---
-title: Diseños personalizados e integrados para informes y documentos
+title: Administrar diseños de informes y documentos
 description: Use los diseños de informe para personalizar documentos, por ejemplo, para personalizar la fuente, el logotipo o la configuración de página de los archivos PDF que envía a clientes.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,19 +9,22 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d150d656371f67d6cfe04668e504f481cf9cc213
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.author: jswymer
+ms.openlocfilehash: 5fed722bb5929da100c1c92e63aebb1f10cf53d0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129843"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520687"
 ---
-# <a name="managing-report-and-document-layouts"></a>Administrar diseños de informes y documentos
+# <a name="report-and-document-layouts-overview"></a>Información general de diseños de informes y documentos
+
 Un diseño de informe controla el contenido y el formato del informe, incluidos los campos de datos de un conjunto de datos de informe que aparecen en el informe y la forma en que se organizan, el estilo del texto, las imágenes, etc. Desde [!INCLUDE[prod_short](includes/prod_short.md)] puede cambiar el diseño que se usa en un informe, crear un nuevo diseño o modificar diseños existentes.
 
 > [!NOTE]  
->   En [!INCLUDE[prod_short](includes/prod_short.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
+> En [!INCLUDE[prod_short](includes/prod_short.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
+
+## <a name="introduction"></a>Introducción
 
 En concreto, un diseño de informe configura lo siguiente:
 
@@ -30,35 +33,101 @@ En concreto, un diseño de informe configura lo siguiente:
 * El logotipo de la empresa y su posición.
 * Configuración de página general, como márgenes e imágenes de fondo.
 
-Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario. Puede utilizar uno de los diseños de informe integrados o puede crear diseños de informe personalizados y asignarlos a sus informes según sea necesario. Para obtener más información, vea [Crear un diseño de informe o documento personalizado](ui-how-create-custom-report-layout.md).
+Un informe se puede configurar con varios diseños de informe, entre los que puede cambiar según sea necesario. 
 
-Se pueden usar dos tipos de diseños de informe: Word y RDLC.
+<!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
 
-## <a name="word-report-layout-overview"></a>Descripción del diseño de informes de Word
-Un diseño de informe de Word está basado en un documento de Word (tipo de archivo .docx). Los diseños de informes de Word permiten diseñar formatos de informes con Microsoft Word. Un diseño de informes de Word determina el contenido del informe, controlando la forma en que se organizan estos elementos del contenido y su aspecto. Un documento de diseño de informe de Word normalmente usa tablas para organizar el contenido, donde las celdas pueden incluir campos de datos, texto o imágenes.
+Hay dos aspectos importantes de los diseños de informes que influirán en cómo trabaja con ellos: el *tipo de diseño* y el *origen del diseño*. El tipo de diseño indica el tipo de archivo en el que se basa el diseño. El origen del diseño indica el origen del diseño.
 
- ![Ejemplo de un documento de diseño de informe de Word para NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+## <a name="layout-types"></a>Tipos de diseño
 
-## <a name="rdlc-layout-overview"></a>Descripción del diseño de RDLC
-Los diseños de RDLC se basan en los diseños de definición de informe de cliente (tipos de archivo .rdlc o .rdl). Estos diseños se crean y modifican con el generador de informes de SQL Server. El concepto del diseño de RDLC es similar al de Word, donde el diseño define el formato general del informe y determina qué campos del conjunto de datos incluir. La elaboración de diseños de RDLC es más avanzada que la de diseños de Word. Para obtener más información, consulte [diseños de informe RDLC](/dynamics-nav/Designing-RDLC-Report-Layouts).
+Hay cuatro tipos de diseños que puede usar en los informes: Word, RDLC, Excel y externo.
 
-## <a name="built-in-and-custom-report-layouts"></a>Diseños de informe personalizados e integrados
-[!INCLUDE[prod_short](includes/prod_short.md)] incluye varios diseños integrados. Los diseños integrados son diseños predefinidos diseñados para informes específicos. Los informes de [!INCLUDE[prod_short](includes/prod_short.md)] tendrán un diseño integrado, como un diseño de informes de RDLC, un diseño de informes de Word o, en algunos casos, ambos. No puede modificar un diseño de informe integrado desde [!INCLUDE[prod_short](includes/prod_short.md)], pero sí se pueden usar como punto de inicio para crear sus propios diseños de informe personalizados.
+### <a name="word"></a>Word
 
-Los diseños personalizados son diseños de informe que se crean para modificar el aspecto de un informe. Normalmente se crea un diseño personalizado basado en un diseño integrado, si bien se pueden crear desde cero o desde una copia de un diseño personalizado existente. Los diseños personalizados permiten tener varios diseños para el mismo informe, con posibilidad de pasar de uno a otro según sea necesario. Por ejemplo, puede tener distintos diseños para cada empresa de [!INCLUDE[prod_short](includes/prod_short.md)], o puede tener diseños diferentes para la misma empresa para determinadas ocasiones o eventos, como una campaña especial o la temporada de vacaciones.
+Los diseños de Word se basan en documentos de Word (tipo de archivo .docx). Los diseños de Word permiten diseñar formatos de informes con Microsoft Word. Un diseño de Word determina el contenido del informe, controlando la forma en que se organizan estos elementos del contenido y su aspecto. Un documento de diseño de Word normalmente usa tablas para organizar el contenido, donde las celdas pueden incluir campos de datos, texto o imágenes.
 
-## <a name="deciding-whether-to-use-a-word-or-rdlc-report-layout"></a>Usar un diseño de informe de Word o uno de RDLC
-Un diseño de informe puede basarse en un documento de Word o en un archivo de RDLC. La decisión de si se usará un diseño de informe de Word o de RDLC dependerá del modo en que desea que aparezca el informe generado y de su conocimiento de Word y del generador de informes de SQL Server.
+[![Ejemplo de un documento de diseño de informe de Word para Business Central.](media/word-layout-overview.png)](media/word-layout-overview.png#lightbox) 
 
-Los conceptos de diseño generales son muy parecidos en Word y RDLC. Sin embargo, cada tipo tiene determinadas características de diseño que afectan a la forma en que el informe generado aparece en [!INCLUDE[prod_short](includes/prod_short.md)]. Esto significa que el mismo informe puede tener un aspecto diferente cuando se utiliza el diseño de informe de Word en comparación con el diseño de informe de RDLC.
+<!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
 
-El proceso para configurar diseños de informe de Word y de RDLC en informes es el mismo. La diferencia principal es la forma en la que se modifican los diseños. Los diseños de informe Word suelen ser más fáciles de crear y modificar que los diseños de informe de RDLC, ya que se puede utilizar Word para ello. Los diseños de informe de RDLC se modifican mediante el generador de informes de SQL Server, que está dirigido a usuarios más avanzados.
+Para obtener más información, consulte [Trabajar con diseños de Word](ui-how-add-fields-word-report-layout.md).
 
-Para obtener información acerca de cómo cambiar el diseño que desea usar, consulte [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md).
+### <a name="excel"></a>Excel
+
+Los diseños de Excel se basan en libros de Microsoft Excel (tipo de archivo .xlsx). Le permiten crear informes utilizando las características conocidas de Excel para resumir, analizar y presentar datos con herramientas, como las fórmulas, PivotTables, PivotCharts y más.
+
+[![Muestra el ejemplo de un diseño de Excel.](media/excel-layout-2.png)](media/excel-layout-2.png#lightbox)
+
+Para obtener más información, consulte [Trabajar con diseños de Excel](ui-excel-report-layouts.md).
+
+### <a name="rdlc"></a>RDLC
+
+Los diseños de RDLC se basan en los archivos de diseño de definición de informe de cliente (tipos de archivo .rdl o .rdlc). Estos diseños se crean y modifican con el generador de informes de SQL Server o Microsoft RDLC Report Designer. El concepto de diseño para los diseños de RDLC es similar a los diseños de Word, donde el diseño determina qué campos mostrar y cómo se organizan. No obstante, el diseño de RDLC es más avanzada que la de diseños de Word.
+
+[![Muestra el ejemplo de un diseño de RDLC.](media/rdlc-layout-overview.png)](media/rdlc-layout-overview.png#lightbox)
+
+Para obtener más información, consulte [Trabajar con diseños de RDLC](ui-rdlc-report-layouts.md).
+
+### <a name="external"></a>Externo
+
+Un tipo de diseño externo se refiere a un tipo avanzado que está especialmente diseñado para informes específicos. Los informes y los diseños los proporcionan normalmente los socios, no Microsoft. El tipo de archivo real del diseño variará según el proveedor.
+
+Para más información, consulte [Desarrollo de una representación de informe personalizada](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
+
+## <a name="layout-sources"></a>Orígenes de diseño
+
+Además del tipo, los diseños se dividen en tres categorías, según su fuente u origen.
+
+* Diseños de extensión
+
+   Los diseños de extensión son diseños que forman parte de una extensión que se ha instalado en el entorno. Estos diseños suelen ser diseños estándar proporcionados por Microsoft, por ejemplo, en la aplicación base. O bien, podrían ser diseños incluidos en extensiones de otros proveedores de software. Puede reconocer los diseños de extensión en la página **Diseños de informe** porque el nombre de la extensión y el editor se muestran en la columna **Extensión**.
+
+* Diseños definidos por el usuario
+
+   El otro origen de diseños es el usuario final. Desde dentro de Business Central, un usuario con los permisos adecuados puede agregar nuevos diseños de varias maneras. Por ejemplo, podría comenzar desde un diseño de extensión existente u otro diseño definido por el usuario. En los **Diseños de informe**, el diseño definido por el usuario tendrá una columna **Extensión** vacía.
+
+   Para obtener más información, consulte [Empezar a crear diseños de informes](ui-get-started-layouts.md).
+
+* Diseños personalizados
+
+  Los diseños personalizados también son diseños creados por los usuarios. La diferencia es que estos diseños se crean a partir de la página heredada **Diseños de informe personalizados** y solo pueden ser de tipo Word y RDLC. Aunque todavía puede crear diseños personalizados, se están eliminando gradualmente a favor de los diseños definidos por el usuario.
+
+  Para obtener más información, consulte [(Versión heredada) Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
+
+Para obtener información que le ayudará a decidir qué tipo es mejor para usted, consulte [Decida qué tipo de diseño desea](ui-get-started-layouts.md#decide).
+
+> [!IMPORTANT]
+> Una cosa importante que debe recordar es que no puede modificar los diseños de extensión desde el cliente de Business Central. Por ejemplo, no puede cambiar el nombre o el tipo del diseño, ni cargarlo y reemplazarlo con otra versión. Si lo intenta, obtendrá un mensaje de error. En su lugar, tendrá que crear un diseño personalizado o definido por el usuario basado en el diseño de la extensión.
+
+<!--
+### Built-in and custom report layouts
+
+
+
+[!INCLUDE[prod_short](includes/prod_short.md)] includes several built-in layouts. Built-in layouts are predefined layouts that are designed for specific reports. [!INCLUDE[prod_short](includes/prod_short.md)] reports will have a built-in layout as either an RDLC report layout, Word report layout, or in some cases both. You can’t modify a built-in report layout from [!INCLUDE[prod_short](includes/prod_short.md)] but you use them as a starting point for building your own custom report layouts.
+
+Custom layouts are report layouts that you design to change the appearance of a report. You typically create a custom layout based on a built-in layout, but you can create them from scratch or from a copy of an existing custom layout. Custom layouts enable you to have multiple layouts for the same report, which you switch among as needed. For example, you can have different layouts for each [!INCLUDE[prod_short](includes/prod_short.md)] company, or you can have different layouts for the same company for specific occasions or events, like a special campaign or holiday season.
+
+
+Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how you want the generated report to look and your knowledge of tools for creating the layouts, like Word, Excel, and SQL Server Report Builder.
+
+* The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
+
+* The process for setting up Word, Excel, and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word and especially Excel layouts are typically easier to create and modify than RDLC report layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder, which targets more advanced users.
+
+* Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
+
+For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
+
+-->
+
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
+
 [Actualizar los diseños de informe personalizados](ui-update-report-layouts.md)  
 [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)  
 [Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  

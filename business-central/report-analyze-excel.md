@@ -1,30 +1,32 @@
 ---
-title: Análisis de datos de informes con Excel
-description: Aprenda a usar Excel para analizar un conjunto de datos de informe.
+title: Análisis de datos de informes con Excel y XML
+description: Aprenda a usar Excel y XML para analizar un conjunto de datos de informe.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145477"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521811"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Análisis de datos de informes con Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Análisis de datos de informes con Excel y XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-Como desarrollador o usuario avanzado, es útil inspeccionar los datos que se generan para un conjunto de datos de informe determinado mientras crea nuevos informes o modifica los existentes. Para admitir esta capacidad, puede exportar un conjunto de datos de informe como datos sin procesar a una hoja de cálculo de Excel, directamente desde la página de solicitud de informe en el cliente. En Excel, puede realizar un análisis ad-hoc de los datos y diagnosticar problemas.
+Como desarrollador o usuario avanzado, es útil inspeccionar los datos que se generan para un conjunto de datos de informe determinado mientras crea nuevos informes o modifica los existentes. Para admitir esta capacidad, puede exportar un conjunto de datos de informe como datos sin procesar a una hoja de cálculo de Excel, o archivo XML, directamente. En Excel, por ejemplo, puede realizar un análisis ad-hoc de los datos y diagnosticar problemas.
 
 ## <a name="get-started"></a>Introducción
 
-Para exportar un conjunto de datos de informe a Excel, abra el informe en el cliente y luego, en la página de la solicitud, seleccione **Enviar a** > **Documento de Microsoft Excel (solo datos)**. 
+Para exportar un conjunto de datos de informe a una hoja de cálculo de Excel o archivo XML, abra el informe en el cliente y luego, en la página de la solicitud, seleccione **Enviar a** > **Documento Microsoft Excel (solo datos)** o **Documento XML**. El archivo se descargará en su dispositivo.
+
+## <a name="more-about-excel-data-only"></a>Más sobre Excel (solo datos)
 
 La opción **Documento de Microsoft Excel (solo datos)** exporta los resultados del informe y los criterios que se utilizaron para generarlos, pero no incluye el diseño del informe. El archivo de Excel incluirá el conjunto de datos completo, como datos sin procesar, organizados en filas y columnas. Se incluyen todas las columnas de datos del conjunto de datos del informe, independientemente de si se utilizan en el diseño del informe.
 

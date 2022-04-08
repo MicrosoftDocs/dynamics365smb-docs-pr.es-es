@@ -6,31 +6,31 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367207"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518134"
 ---
 # <a name="welcome-to-prod_long"></a>[!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Gracias a su gran adaptabilidad y variedad de funciones, [!INCLUDE[prod_short](includes/prod_short.md)] permite a las empresas administrar su negocio, incluidas las áreas de finanzas, fabricación, ventas, envíos, administración de proyectos, servicios, etc. Las organizaciones también pueden agregar fácilmente funcionalidades relevantes para la región de operación que, al ser personalizadas, ofrecen asistencia incluso a las industrias más especializadas.  
+[!INCLUDE[prod_short](includes/prod_short.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Gracias a su gran adaptabilidad y variedad de funciones, [!INCLUDE[prod_short](includes/prod_short.md)] permite a las empresas administrar su negocio, incluidas las áreas de finanzas, fabricación, ventas, envíos, administración de proyectos, servicios, etc. Las organizaciones también pueden agregar fácilmente funcionalidades relevantes para la región de operación que, al ser personalizadas, ofrecen asistencia incluso a las industrias más especializadas. [!INCLUDE[prod_short](includes/prod_short.md)] es rápido de implementar, fácil de configurar y su simplicidad guía toda innovación en el diseño de productos, en su desarrollo, su implementación y su uso funcional.  
 
-[Aprenda cómo obtener una prueba gratuita aquí](trial-signup.md).  
-
-Si ya tiene [!INCLUDE[prod_short](includes/prod_short.md)], inicie sesión en [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). De otra manera, [obtenga la descripción general](https://dynamics.microsoft.com/business-central/overview/), [realice la visita guiada](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) y después [inicie una prueba gratuita](https://go.microsoft.com/fwlink/?linkid=847861). Revise los [artículos de inicio rápido](quick-start-business-central.md) para obtener información sobre [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información sobre la incorporación a [!INCLUDE[prod_short](includes/prod_short.md)], consulte [Preparación para hacer negocios](ui-get-ready-business.md).  
+Si ya tiene [!INCLUDE[prod_short](includes/prod_short.md)], inicie sesión en [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). De otra manera, [obtenga la descripción general](https://dynamics.microsoft.com/business-central/overview/), [realice la visita guiada](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) y después [aprenda a iniciar una prueba gratuita](trial-signup.md). Revise los [artículos de inicio rápido](quick-start-business-central.md) para obtener información sobre [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información sobre la incorporación a [!INCLUDE[prod_short](includes/prod_short.md)], consulte [Prepararse para hacer negocios](ui-get-ready-business.md).  
 
 > [!TIP]
 > ¿Llegó aquí desde [!INCLUDE [prod_short](includes/prod_short.md)]? Si no sabe seguro dónde encontrar lo que está buscando, puede **filtrar por títulos** en el panel de navegación a la izquierda, o puede usar el campo **Buscar** en la parte superior de la ventana del navegador.  
 >
 > También puede usar las funcionalidades de búsqueda en [!INCLUDE [prod_short](includes/prod_short.md)] para encontrar documentación relevante. Para obtener más información, consulte [Búsqueda de páginas e información con Dígame](ui-search.md).
 
-## <a name="overview"></a>Panorama
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] es rápido de implementar, fácil de configurar y su simplicidad guía toda innovación en el diseño de productos, en su desarrollo, su implementación y su uso funcional. En el panel de navegación de la izquierda, puede encontrar información sobre el uso de [!INCLUDE[prod_short](includes/prod_short.md)] en su empresa. Encuentre vínculos a descripciones de las funcionalidades más utilizadas en la sección [Procesos empresariales](#business-processes).  
+## <a name="microsoft-docs"></a>Documentos de Microsoft
+
+En el panel de navegación de la izquierda, puede encontrar información sobre el uso de [!INCLUDE[prod_short](includes/prod_short.md)] en su empresa. Encuentre vínculos a descripciones de las funcionalidades más utilizadas en la sección [Procesos empresariales](#business-processes). Consulte también la sección [Usar el sitio docs.microsoft.com para obtener más información](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
@@ -106,6 +106,7 @@ También puede ver vídeos de funcionalidades nuevas y de uso común en nuestra 
 [Obtener [!INCLUDE[prod_short](includes/prod_short.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
+[Usar el sitio docs.microsoft.com para obtener más información](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
 [Conformidad de [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-overview.md)  
 [Términos del servicio en línea de [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-service-compliance.md#service-terms)  
 [Actualizaciones importantes y actualizaciones menores de Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

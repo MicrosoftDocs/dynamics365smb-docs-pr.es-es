@@ -10,12 +10,12 @@ ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6803d47ec9e7be0abe7962fd881f5cdacf8865c4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1f726a40e23fcfcc5d00616965111254ebcd14d8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383590"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512339"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Detalles de diseño: Cambiar la valoración de existencias para productos
 
@@ -45,7 +45,7 @@ Cuando configura productos de inventario, debe asignar una valoración de existe
 
 Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).
 
-## <a name="using-assembly-orders-to-change-costing-method-assignments"></a>Usar pedidos de ensamblado para cambiar asignaciones de valoraciones de existencias
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Usar pedidos de ensamblado para cambiar asignaciones de valoraciones de existencias
 
 Esta sección describe los siguientes pasos para cambiar la valoración de existencias asignada a un producto:
 

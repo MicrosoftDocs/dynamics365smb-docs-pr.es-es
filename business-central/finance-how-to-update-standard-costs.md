@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd79e723ea86f3e5631a571a26a061c84adab518
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4bada4ee28df77cc9700d5957ef8fb8b1a64535b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141130"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517451"
 ---
 # <a name="update-standard-costs"></a>Actualizar costes estándar
 Debe actualizar periódicamente los costes estándar de los componentes y distribuir los nuevos costes al producto principal. El proceso normalmente consiste en los cuatro pasos siguientes:  

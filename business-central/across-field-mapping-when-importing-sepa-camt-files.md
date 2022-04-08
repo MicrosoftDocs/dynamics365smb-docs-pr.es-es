@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 829ff2a07464d1c456b6776eef542914601c0a18
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db90358fcca87bc7217d48efa7577e8d4a835c58
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141637"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521363"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Asignación de campos al importar archivos CAMT de SEPA
-[!INCLUDE[prod_short](includes/prod_short.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
  El estándar CAMT de SEPA en sí presenta variaciones locales. Por lo tanto, es posible que tenga que modificar la configuración de intercambio de datos genérica (representada por el código de **CAMT de SEPA** en la página **Definiciones de intercambio de registro**) para adaptarla a una variación local del estándar. En las tablas siguientes se muestra la asignación de elemento a campo para las tablas 81, 273 y 274 en la implementación CAMT de SEPA en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -64,7 +64,7 @@ ms.locfileid: "8141637"
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
-[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
+[Usar la extensión de AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  
 

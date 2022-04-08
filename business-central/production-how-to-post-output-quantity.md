@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bbd2a3bf8eae3ced2ad063b0baa3b138cac46401
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135703"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522751"
 ---
 # <a name="batch-post-output-and-run-times"></a>Registrar por lotes el resultado y los tiempos de ejecución
 La cantidad de salida representa el trabajo en curso en términos de cantidad terminada y capacidad utilizada del centro de trabajo o de máquina.

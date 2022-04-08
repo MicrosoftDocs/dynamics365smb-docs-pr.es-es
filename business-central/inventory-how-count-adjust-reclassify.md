@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b25851a01a5687da3055a6b8e32becf8e6e9f018
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c683e2ff5960ce03f9c2083954c8250e2e6b39e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131618"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518056"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Recuento, ajuste y reclasificación de inventario con diarios
 Como mínimo una vez cada año fiscal, debe realizar un inventario físico (es decir, contar todos los productos del inventario) para ver si la cantidad registrada en la base de datos es la misma que la cantidad física real en los almacenes. Una vez se sepa la cantidad física, debe registrarse en la contabilidad como parte de la evaluación del inventario de final de periodo.
@@ -174,7 +174,7 @@ También puede usar la función **Ajustar inventario** como una manera sencilla 
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Para ajustar la cantidad de inventario de varios productos en configuraciones básicas de almacén
 En la página **Diario productos**, puede publicar transacciones de artículos directamente para ajustar el inventario en relación con compras, ventas y ajustes positivos o negativos sin utilizar documentos.
 
-Si utiliza con frecuencia el diario de productos para registrar líneas de diario iguales o parecidas, por ejemplo, relacionadas con el consumo de materiales, puede utilizar la página **Diario productos estándar** para hacer más fácil este trabajo repetitivo. Para obtener más información, consulte [Trabajar con diarios estándar](ui-work-general-journals.md#working-with-standard-journals).
+Si utiliza con frecuencia el diario de productos para registrar líneas de diario iguales o parecidas, por ejemplo, relacionadas con el consumo de materiales, puede utilizar la página **Diario productos estándar** para hacer más fácil este trabajo repetitivo. Para obtener más información, consulte [Trabajar con diarios estándar](ui-work-general-journals.md#work-with-standard-journals).
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de productos**, y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

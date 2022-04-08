@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335015"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519601"
 ---
 # <a name="sorting-searching-and-filtering"></a>Ordenar, buscar y filtrar
 
@@ -132,7 +132,7 @@ Puede establecer un filtro simple directamente en una lista mediante el panel de
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Configuración de filtros en informes, trabajos por lotes y XMLports
 
-Para informes y XMLports, los filtros están visibles directamente en la página de solicitud. La página de solicitud muestra los últimos filtros utilizados de acuerdo con su selección en el campo **Usar valores predeterminados de**. Para obtener más información, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).
+Para informes y XMLports, los filtros están visibles directamente en la página de solicitud. La página de solicitud muestra los últimos filtros utilizados de acuerdo con su selección en el campo **Usar valores predeterminados de**. Para obtener más información, consulte [Usar la configuración guardada](ui-work-report.md#SavedSettings).
 
 La sección principal **Filtrar** muestra los campos de filtro predeterminados que usa para delimitar qué registros incluir en el informe o XMLport. Para agregar un filtro, elija la acción **Filtro**. Después, para agregar un filtro, elija la acción + Filtrar, escriba el nombre del campo por el que desea filtrar la lista o elija un campo de la lista desplegable.
 
@@ -171,7 +171,10 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 |`P8..`|Información correspondiente al ejercicio económico 8 y posteriores|  
 |`..23`|Desde la fecha inicial hasta 23-mes actual-año actual 23:59:59|  
 |`23..`|Desde 23-mes actual-año actual 0:00:00 hasta la hora final|  
-|`22..23`|Desde 22-mes actual-año actual 0:00:00 hasta 23-mes actual-año actual 23:59:59|  
+|`22..23`|Desde 22-mes actual-año actual 0:00:00 hasta 23-mes actual-año actual 23:59:59| 
+
+> [!TIP]
+> Si está usando un teclado numérico, la tecla del separador decimal puede emitir un carácter distinto al punto (.). Para pasar a un punto, pulse las teclas "Alt+Separador decimal" del teclado numérico. Cuando quiera volver a cambiar, pulse de nuevo "Alt+Separador decimal". Para más información, consulte [Configurar el separador decimal utilizado por los teclados numéricos](ui-enter-data.md#decimal).
 
 #### <a name="124-eitheror"></a>(&#124;) O/o
 

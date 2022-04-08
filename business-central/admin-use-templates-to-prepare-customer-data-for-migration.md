@@ -1,20 +1,21 @@
 ---
 title: Prepararse migración de datos del cliente con plantillas
-description: Aprenda a usar las plantillas de configuración para estructurar los datos existentes del cliente antes de migrar los datos maestros a la nueva empresa en Business Central.
+description: Si utiliza RapidStart Services, puede usar las plantillas de configuración para estructurar los datos existentes del cliente antes de migrar los datos maestros a la nueva empresa en Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8620
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f0d8430be917981f84eb2841c0840a5b36a8d678
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9a90c0680d079a87436cea227becfa46435efd5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143795"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522253"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Prepararse para migrar datos del cliente con plantillas
 

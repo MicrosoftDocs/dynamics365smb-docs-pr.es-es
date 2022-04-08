@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5eb180d1190e56dc7a43354b5aef2637500a38be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bc42d30cfbfd664ec3d60576f21f4e7cbf3967e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148439"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522933"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Configurar ciclos de ventas de oportunidad y etapas de ciclo
 Para poder usar oportunidades de ventas, debe configurar ciclos de ventas y etapas del ciclo de ventas. Un ciclo de ventas se compone de una serie de etapas que van desde el contacto inicial hasta el cierre de una venta. Cada etapa puede tener determinados requisitos que se deben cumplir, por ejemplo, requerir una oferta de venta, antes de que la oportunidad pueda pasar a la siguiente etapa. También puede especificar si se puede omitir una etapa. Puede configurar tantos ciclos de ventas como necesite y tantas etapas del ciclo de ventas como sean necesarias para el ciclo de ventas.

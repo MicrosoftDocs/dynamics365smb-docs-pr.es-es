@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97b9a8d0ba436ff43db764ad10b64a4ce151180
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1378a3090db4bfaa958a371c31416c98f887e73e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147887"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511032"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configure el seguro de los activos fijos
 Para gestionar la cobertura del seguro de los activos fijos, debe configurar la información general de los seguros y una ficha de seguro por cada póliza.
@@ -42,7 +42,7 @@ Puede acumular información acerca de cada póliza de seguros en la ficha de seg
 ## <a name="to-set-up-insurance-journal-templates"></a>Para configurar libros diarios de seguros
 [!INCLUDE[prod_short](includes/prod_short.md)] crea automáticamente un libro de diario de seguros la primera vez que abra la página **Diario seguros**, pero puede configurar libros de diario adicionales. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libros diario seguros**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libros diario seguros**, y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Para configurar secciones del diario de seguros

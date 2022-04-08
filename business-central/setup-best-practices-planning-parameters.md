@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130000"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513658"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Procedimientos recomendados de configuración: parámetros de la planificación
 La ficha desplegable **Planificación** de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.  

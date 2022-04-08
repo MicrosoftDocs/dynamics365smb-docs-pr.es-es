@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ebfbdf04b577f60e20da899e0ba3512571ed5189
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140766"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519627"
 ---
 # <a name="create-jobs"></a>Crear proyectos
 Cuando inicie un proyecto nuevo, debe crear una ficha de proyecto con tareas de proyecto integradas y líneas de planificación de proyecto, estructuradas en dos niveles.  
@@ -26,6 +26,8 @@ La estructura de capas permite dividir el proyecto en tareas más pequeñas y us
 
 > [!TIP]
 > Elija la acción **Proyecto nuevo** en el área de trabajo **Administrador del proyecto** para iniciar una guía configuración asistida que le lleva por los pasos para crear un proyecto con tareas integradas y líneas de planificación. El procedimiento siguiente describe cómo realizar los pasos manualmente. Para ver un ejemplo de cómo crear un trabajo manualmente, consulte [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
+
+A veces, la parte a la que recibe un servicio es diferente de la parte que paga la factura. En la página **Trabajos**, puede especificar el cliente que se beneficiará del proyecto en los campos **Vender a** y la parte a facturar en los campos **Cobrar a**. También puede especificar dónde se llevará a cabo el trabajo seleccionando de una lista de direcciones de envío para el cliente, agregar información sobre referencias externas para simplificar la comunicación sobre el proyecto y sobrescribir los términos financieros estándar del proyecto.
 
 ## <a name="to-create-a-job-card"></a>Para crear una ficha de proyecto
 Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proyecto y las líneas de planificación de proyecto para el mismo.

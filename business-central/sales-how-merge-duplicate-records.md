@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130129"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510666"
 ---
 # <a name="merge-duplicate-records"></a>Combinar registros duplicados
 A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o contacto a lo largo del tiempo, o que los nuevos registros se crean automáticamente durante la migración, un cliente, proveedor o contacto puede estar representado en el sistema con más de un registro. En este caso, puede utilizar la página **Combinar duplicados** de la ficha del registro que desea conservar. La página le ofrece una visión general de los valores de campo duplicado y le ofrece funciones para seleccionar los valores que desea conservar o descartar al combinar dos registros en uno.

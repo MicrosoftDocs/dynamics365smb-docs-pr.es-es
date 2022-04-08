@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4cf357c8fac13c4f6ed714ee108020adc53686cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4a5aec398d502b7041c64a405c11ecb8de29179e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144416"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520635"
 ---
 # <a name="ship-items"></a>Enviar productos
 
@@ -112,7 +112,7 @@ También puede utilizar la hoja de trabajo de picking para crear varias instrucc
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

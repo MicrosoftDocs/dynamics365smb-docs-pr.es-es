@@ -10,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: d2d2437028c5d7e7f8ad4bc613e4f6bf1dc06de3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146311"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516619"
 ---
 # <a name="invoice-jobs"></a>Facturar proyectos
 Durante el proyecto, pueden acumularse los costes del proyecto por el uso de recursos, materiales y compras relacionadas con el proyecto. Según progresa el proyecto, estas transacciones se registran en el diario del proyecto. Es importante que se registren todos los costes en el diario del proyecto antes de facturar al cliente.
@@ -27,6 +27,8 @@ Puede facturar el proyecto completo desde la página **Líneas tareas proyecto**
 
 > [!NOTE]  
 > Si selecciona **Facturable** en el campo **Tipo línea proyecto** en los documentos de compra de las compras relacionadas con el proyecto, se crearán las líneas de planificación de proyecto que estén listas para facturarse al cliente. Para obtener más información, vea [Administrar suministros de proyecto](projects-how-manage-project-supplies.md).
+
+También puede facturar a una empresa que no sea el cliente final. A veces, la parte a la que se dirige un proyecto es diferente de la parte que paga la factura. En la página **Trabajos**, puede especificar el cliente que se beneficiará del proyecto en los campos **Vender a** y la parte a facturar en los campos **Cobrar a**. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>Para crear varias facturas de venta de proyecto
 Puede crear la factura de un proyecto o de una o varias tareas del proyecto para un cliente cuando se haya terminado el trabajo que se va a facturar o cuando se llegue a la fecha de facturación en función de un programa de facturación.

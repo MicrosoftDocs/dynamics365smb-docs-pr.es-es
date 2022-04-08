@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d3748e39dc75a8fb3fcda690d02f5bc1cb4484ce
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: abe1d874658c393b0d9795c1710e642b4e33add0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383194"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512963"
 ---
 # <a name="set-up-payment-methods"></a>Configure formas de pago
 

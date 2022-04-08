@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f855080c2e26e7d7ddf4a012164ec91477387e2f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: cd715ac63f9ce7068d5b02fce21e294b7a2231cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381145"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511498"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>Extensión de importación del archivo de nóminas de QuickBooks
 Use la extensión de Importación del archivo de nómina de QuickBooks para importar transacciones de nómina de QuickBooks a cuentas de contabilidad en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, esto es útil cuando está haciendo la transición de QuickBooks a [!INCLUDE[prod_short](includes/prod_short.md)], o si subcontrata su nómina pero también desea realizar un seguimiento de ella en [!INCLUDE[prod_short](includes/prod_short.md)].

@@ -1,23 +1,23 @@
 ---
-title: Instalar y desinstalar extensiones en Business Central | Documentos de Microsoft
+title: Instalar y desinstalar extensiones
 description: Aprenda a instalar y desinstalar extensiones en Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140402"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514756"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Instalar y desinstalar extensiones en Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Instalar y desinstalar extensiones en Business Central
 
 Puede cambiar [!INCLUDE[prod_short](includes/prod_short.md)] instalando extensiones que, por ejemplo, agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea. Para obtener más información, consulte [Personalizar Business Central con extensiones](ui-extensions.md).
 
@@ -29,7 +29,7 @@ Puede cambiar [!INCLUDE[prod_short](includes/prod_short.md)] instalando extensio
 > [!NOTE]  
 > El conjunto de permisos **ADMIN. EXTENS. - ADMIN** se introdujo en el primer lanzamiento de versiones de Business Central 2021 para sustituir al conjunto de permisos **ADMIN. EXTENS. D365** de versiones anteriores.
 
-## <a name="installing-an-extension"></a>Instalar una extensión
+## <a name="install-an-extension"></a><a name="install"></a>Instalar una extensión
 
 Puede administrar las extensiones en la página **Administración de extensiones**. Puede acceder a esta página desde Inicio. Como alternativa, elija el icono **Buscar por página o informe** ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") en la esquina superior derecha, ingrese **Extensión** y luego elija el enlace relacionado.  
 
@@ -75,14 +75,13 @@ Microsoft proporciona las extensiones siguientes:
 * [La extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA: enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Cargar una extensión por inquilino (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Cargar una extensión por inquilino (PTE)
 
 Cargue una PTE mediante la página **Administración de extensiones**. En la página **Administración de extensiones**, vaya a **Administrar** y elija **Cargar extensión**. En la página **Carga e implementación de una extensión**, especifique el archivo .app para cargar. Para continuar, elija el botón **Aceptar** y luego el botón **Implementar**, lo que iniciará el proceso de implementación del PTE.
 
-Si el PTE contiene cambios de esquema de ruptura, es posible *obligar* una carga del mismo. Para hacer eso, en el **Modo de sincronización de esquema**, elija la opción **Forzar**. Recibirá un cuadro de diálogo de confirmación para aceptar antes de continuar. 
+Si el PTE contiene cambios de esquema de ruptura, es posible *obligar* una carga del mismo. Para hacer eso, en el **Modo de sincronización de esquema**, elija la opción **Forzar**. Recibirá un cuadro de diálogo de confirmación para aceptar antes de continuar.  
 
-## <a name="uninstalling-an-extension"></a>Desinstalar una extensión
+## <a name="uninstall-an-extension"></a>Desinstalar una extensión
 
 Desinstale una extensión usando la página **Administración de extensiones**. Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan por defecto para que se vuelve a instalar la extensión estén disponibles. En su lugar, puede optar por eliminar los datos con la extensión. Esto está controlado por la casilla **Eliminar datos de extensión**. Por defecto, esta casilla de verificación está *deshabilitada*.
 

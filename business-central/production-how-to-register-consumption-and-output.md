@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7fbb0d2c064df2b99fcbb58dde278ed8848f949f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137528"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516088"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrar el consumo y la salida de una línea de orden de producción lanzada
 

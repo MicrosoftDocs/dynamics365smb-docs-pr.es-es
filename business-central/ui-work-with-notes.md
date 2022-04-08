@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a641c8e411b14df7097299b696d74fc56f68bd92
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dde082a69ff9074dc0afd86e6b4e71f0d68d5cbd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129557"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511949"
 ---
 # <a name="add-and-view-notes-on-records"></a>Añadir y visualizar notas de registros
  Puede <!--OnPrem and your colleagues -->puede agregar notas a los registros de la aplicación. Muchas páginas, particularmente las que muestran una lista de registros, como la página **Pedidos de ventas**, incluyen la acción **Notas** o el cuadro de información de **Notas**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

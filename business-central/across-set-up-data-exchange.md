@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133283"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517139"
 ---
 # <a name="setting-up-data-exchange"></a>Configuración del intercambio de datos
 Para poder enviar y recibir documentos electrónicos o importar y exportar archivos de banco, debe configurar el marco de intercambio de datos para procesar los archivos correspondientes. Además, debe configurar áreas relacionadas, como los clientes a los que envía facturas electrónicas o la extensión AMC Banking 365 Fundamentals si usa el proveedor de servicios externos para convertir los archivos bancarios. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).  
@@ -31,7 +31,7 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 |Configure los distintos datos maestros, como la información de la empresa, los clientes, los proveedores, los productos y las unidades de medida relacionadas con la asignación de datos en [!INCLUDE[prod_short](includes/prod_short.md)]|[Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Configure un banco, un proveedor y un diario de pagos para la transferencia de crédito de SEPA.|[Configurar la transferencia de crédito de SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Prepare los formatos de banco, las formas de pago y los acuerdos de cliente para el adeudo directo SEPA.|[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Configure la autenticación de usuario y la URL del proveedor de servicios de la extensión AMC Banking 365 Fundamentals que se requiere para que los archivos de banco se conviertan al formato de su banco.|[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
+|Configure la autenticación de usuario y la URL del proveedor de servicios de la extensión AMC Banking 365 Fundamentals que se requiere para que los archivos de banco se conviertan al formato de su banco.|[Usar la extensión de AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Configure y habilite un servicio externo que permita importar extractos bancarios directamente como fuentes de banco.|[Configurar el servicio de declaración bancaria](bank-how-setup-bank-statement-service.md)|  
 |Una vez que el servicio de extractos bancarios esté activado, vincule las cuentas a [!INCLUDE[prod_short](includes/prod_short.md)]|[Configurar bancos](bank-how-setup-bank-accounts.md)|  
 |Prepárese para configurar una definición de intercambio de datos nueva de un determinado archivo o flujo de datos usando el esquema XML del archivo para rellenar previamente la ficha desplegable **Definiciones de columna** en la página **Definiciones de intercambio de registro**.|[Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

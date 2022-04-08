@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: bcf0e27710c66e71dd95710790af2c2ffd4ab5e0
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381465"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485008"
 ---
 # <a name="set-up-and-report-intrastat"></a>Configuración y creación de informes Intrastat
 
@@ -27,7 +27,7 @@ Para poder usar el diario de Intrastat para informar sobre Instratat, debe confi
 * **Configuración de Intrastat**: la página Configuración de Intrastat se utiliza para habilitar los informes de Intrastat y establecer sus valores predeterminados. Puede especificar si necesita elaborar informes de Intrastat a partir de envíos (despachos), recibos (llegadas) o ambos, según los umbrales establecidos por sus regulaciones locales. También se pueden establecer naturalezas de transacción predeterminadas para documentos normales y de devolución, que se utilizan para la naturaleza de los informes de transacción.
 * **Libros del diario de Intrastat**: debe configurar los libros y secciones del diario de Intrastat que utilizará. Como el informe de Intrastat se realiza mensualmente, debe utilizar 12 procesos de diarios Intrastat basados en el mismo libro.  
 * **Códigos de mercancía**: las autoridades aduaneras y fiscales han establecido códigos numéricos que clasificar productos y servicios. Especifique estos códigos para los productos.
-* **Códigos de naturaleza de la transacción**: los países y regiones tienen diferentes códigos para los tipos de transacciones de Intrastat, como la compra y venta ordinaria, el intercambio de mercancías devueltas y el intercambio de mercancías no devueltas. Configure todos los códigos que se aplican a su país o región. Utilice estos códigos en los documentos de venta y compra y cuando procese las devoluciones. 
+* **Códigos de naturaleza de la transacción**: los países y regiones tienen diferentes códigos para los tipos de transacciones de Intrastat, como la compra y venta ordinaria, el intercambio de mercancías devueltas y el intercambio de mercancías no devueltas. Configure todos los códigos que se aplican a su país o región. Utilice estos códigos en la ficha despegable **Comercio exterior** en los documentos de venta y compra y cuando procese las devoluciones. 
 
     > [!NOTE]
     > A partir de enero de 2022, Intrastat requiere un código de naturaleza de transacción diferente para envíos a particulares o empresas sin registro de IVA y empresas registradas con IVA. Para cumplir con este requisito, le recomendamos que revise y/o agregue nuevos códigos de naturaleza de transacción en la página **Tipos de transacciones**, de acuerdo con los requisitos de su país. También debe revisar y actualizar el campo **Tipo de socio** a *Persona* para clientes particulares o empresas no registradas a efectos del IVA en la página **Cliente**. Si no está seguro sobre el Itipo de socio o el tipo de transacción a usar, le recomendamos que consulte a un experto de su país o región. 

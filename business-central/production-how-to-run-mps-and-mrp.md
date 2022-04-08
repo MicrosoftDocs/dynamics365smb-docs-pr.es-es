@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 561b069cb3136b50a76fe6c43276edc2fb0ab5ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b8a9f648030e0a307ccd1a086c681ba8492cf357
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131358"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516671"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fe4dc0bdfe18172cc2f6709cb55d02e963ffd09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cdee651c95a1c9e22ded28be1f2af48c5fbaacbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140792"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521889"
 ---
 # <a name="manufacturing"></a>Fabricación
 
@@ -49,7 +49,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

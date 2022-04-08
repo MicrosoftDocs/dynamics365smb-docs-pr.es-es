@@ -8,21 +8,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140480"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510602"
 ---
 # <a name="create-number-series"></a>Crear numeración
 
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
 
 > [!Important]
-> De forma predeterminada, no se permiten saltos en las series numéricas porque, por ley, el historial exacto de las transacciones financieras debe estar disponible para auditoría y, por lo tanto, debe seguir una secuencia ininterrumpida sin números eliminados.<br /><br />
+> De forma predeterminada, no se permiten saltos en las series numéricas porque, por ley, el historial exacto de las transacciones financieras debe estar disponible para auditoría y, por lo tanto, debe seguir una secuencia ininterrumpida sin números eliminados.
+> 
 > Si desea permitir huecos en ciertas series numéricas, primero consulte a su auditor o director de contabilidad para asegurarse de que cumple los requisitos legales de su país o región. Para obtener más información, vea la sección [Espacios en serie numérica](#gaps-in-number-series).
 
 > [!NOTE]  
@@ -41,11 +42,14 @@ Si desea usar más de un código de serie numérica para un tipo de datos maestr
 No todos los registros que crea en [!INCLUDE[prod_short](includes/prod_short.md)] son transacciones financieras que deben usar una numeración secuencial. Las fichas de cliente, las ofertas de venta y las actividades de almacén son ejemplos de registros a los que se les asigna un número de una serie numérica, pero no están sujetos a auditoría financiera o pueden eliminarse. Para estas series numéricas, puede seleccionar la casilla **Permitir espacios en números** en la página **Líneas nº serie**. Esta configuración también se puede cambiar después de crear la serie numérica. Para obtener más información, consulte [Para crear una nueva serie numérica](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamiento del campo de número en documentos y fichas
-En documentos venta, compra y transferencia y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números o manualmente, y puede configurarse para ser invisible.
+
+En documentos venta, compra y transferencia y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números predefinida o puede agregarlo manualmente. Sin embargo, bajo ciertas circunstancias, el campo **N.º** es invisible para evitar que lo edite.  
 
 El campo **Nº** se puede rellenar de tres maneras:
 
-1. Si solo existe una serie numérica para el tipo de documento o ficha donde la casilla **Numeración predet.** está marcada y la casilla **Numeración manual** no está marcada, el campo se rellena automáticamente con el siguiente número de la serie, y el campo **N.º** no será visible.
+1. Si solo existe una serie numérica para el tipo de documento o ficha y se selecciona el campo **Numeración predet.** y el campo **Numeración manual** no está seleccionado para la serie de números, el campo se rellena automáticamente con el siguiente número de la serie. El campo **Nº** no será visible en la tarjeta o documento.  
+
+    Aunque defina plantillas con varias series de números para los clientes, si la serie de números que se define en la página **Configuración de ventas y cobros** se configura de esta manera, el campo **N.º** será invisible en la ficha cliente, independientemente de la plantilla que utilice. Lo mismo se aplica a otros tipos de tarjetas y documentos.  
 
     > [!NOTE]  
     > Si la serie numérica no funciona, por ejemplo, porque se ha quedado sin números, el campo **N.º** será visible y puede introducir un número de forma manual o resolver los problemas en la página **Nos. serie**.
@@ -71,7 +75,7 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 > [!TIP]
 > Para permitir que los usuarios especifiquen números manualmente al registrar un nuevo cliente o proveedor, por ejemplo, elija el campo **Núms. manuales** en la propia serie numérica. Para dejar de permitir la numeración manual, borre el campo.
 
-Puede asignar series numéricas a las plantillas que configura para los diferentes tipos de clientes y proveedores que su personal de ventas y compradores agregan con mayor frecuencia a su [!INCLUDE [prod_short](includes/prod_short.md)]. En ese caso, configure la serie de números relevante, vincúlelos a través de relaciones y luego agregue la primera serie de números de la relación relevante a la página de configuración correspondiente.  
+Puede asignar series numéricas a las plantillas que configura para los diferentes tipos de clientes y proveedores que su personal de ventas y compradores agregan con mayor frecuencia a su [!INCLUDE [prod_short](includes/prod_short.md)]. En ese caso, configure la serie de números relevante, vincúlelos a través de relaciones y luego agregue la primera serie de números de la relación relevante a la página de configuración correspondiente. A continuación, cuando un usuario crea un cliente, elige la plantilla correspondiente, y el nuevo cliente recibe un número asignado de la serie de números que se ha definido para esa plantilla.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Para crear relaciones entre números de serie
 

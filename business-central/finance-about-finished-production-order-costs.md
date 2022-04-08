@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: dd9010e055e5e24cafb87846b8eed98f54d83474
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 375b6a4a57ae75a2f471db96cee5611736b39f34
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147835"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520443"
 ---
 # <a name="about-finished-production-order-costs"></a>Sobre los costes del orden de producción terminada
 

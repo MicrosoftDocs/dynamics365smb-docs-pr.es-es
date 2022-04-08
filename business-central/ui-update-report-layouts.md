@@ -1,7 +1,7 @@
 ---
 title: Actualizar los diseños de informe personalizados
 description: Aprenda a actualizar un diseño de informe personalizado que se utiliza en un informe cuando hay cambios de diseño en el conjunto de datos del informe, por ejemplo.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144624"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517217"
 ---
-# <a name="update-custom-report-layouts"></a>Actualizar los diseños de informe personalizados
+# <a name="legacy-update-custom-report-layouts"></a>(Versión heredada) Actualizar los diseños de informe personalizados
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 De vez en cuando es posible que necesite actualizar un diseño de informe personalizado que se use en un informe. Esto es necesario cuando ha habido un cambio de diseño en el conjunto de datos del informe, por ejemplo, si se elimina un campo que se utiliza en el diseño. Si un diseño de informe requiere actualización, recibirá un mensaje de error cuando intente obtener una vista previa del informe, o al imprimirlo o guardarlo.  
 
@@ -28,9 +30,9 @@ No todos los cambios de conjunto de datos de informe se pueden actualizar autom�
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Para actualizar una o varias plantillas de informe personalizado  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diseños de informe** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
-2.  En la página **Diseños de informe**, si desea actualizar un informe específico, seleccione el diseño de lista y, después, seleccione la acción **Actualizar diseño**. O, si desea actualizar todos los diseños de informe personalizados para la empresa, seleccione la acción **Actualizar todos los diseños**.  
+2.  En la página **Selección de diseño de informes**, si desea actualizar un informe específico, seleccione el diseño de lista y, después, seleccione la acción **Actualizar diseño**. O, si desea actualizar todos los diseños de informe personalizados para la empresa, seleccione la acción **Actualizar todos los diseños**.  
 
 Si no se producen errores, las actualizaciones se aplican a los diseños de informe. Si se producen errores, aparece un mensaje que contiene errores. A continuación tendrá que modificar el diseño de informe personalizado para corregir el error. Para obtener más información, vea [Corrección de errores](ui-update-report-layouts.md#FixErrors).  
 

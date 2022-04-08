@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d4880f91c53e8618db9be5e0bcdbfa396cbf21fd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137450"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514913"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
 
@@ -67,7 +67,6 @@ La siguiente tabla muestra cómo se utilizará la información de los campos opc
 |**Elementos de trabajo**|Los campos **N.º de tarea de proyecto**, **Códido de divisa** y **% de Descuento de línea**. El valor del campo **Precio de venta** correspondiente al artículo se usará en las líneas de planificación del proyecto y en los diarios de proyectos cuando se introduzca este producto. tenga en cuenta que este precio siempre anulará el precio regular del cliente (mecanismo de “mejor precio”) de los productos. Si desea usar los mecanismos de precio regular del cliente, no debe crear ningún precio de producto para el proyecto.|
 |**Cuentas de contabilidad**|La información de los campos **N.º tarea proyecto**, **Código de divisa**, **% de descuento de línea**, **Factor de coste unitario** y **Coste unitario** se usará en las líneas de planificación de proyecto y los diarios de proyectos cuando se introduce esta cuenta de contabilidad y se agrega a un proyecto. El valor del campo **Precio de venta** del gasto de proyecto de contabilidad se usará en las líneas de planificación de proyecto y en los diarios de proyectos cuando se introduzca esta cuenta.|
 
----
 #### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience)
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto correspondiente y, a continuación, elija la acción **Listas de precios de venta**.

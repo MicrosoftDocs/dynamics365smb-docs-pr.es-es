@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a650f2e756f8b2be6008c7f7abc7c62290023bb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134257"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522383"
 ---
 # <a name="set-up-workflow-users"></a>Configurar usuarios de flujo de trabajo
 
@@ -48,7 +48,7 @@ Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, ta
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
 [Configurar flujos de trabajo](across-set-up-workflows.md)  
-[Uso de flujos de trabajo](across-use-workflows.md)  
+[Usar flujos de trabajo](across-use-workflows.md)  
 [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Flujo de trabajo](across-workflow.md)  
 

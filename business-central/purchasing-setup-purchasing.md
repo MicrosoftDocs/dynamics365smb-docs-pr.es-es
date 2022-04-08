@@ -10,12 +10,12 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f00062efdb2e2489c911e531d7a9c8236034a110
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146207"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520791"
 ---
 # <a name="setting-up-purchasing"></a>Configurar compras
 Para poder administrar procesos de compra, debe configurar las reglas y valores que definen las políticas de compra de la empresa.

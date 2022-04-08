@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6592172331b92c1e0b6623c36c5531b4a32b5088
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148531"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517425"
 ---
 # <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
 Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las características Seguimiento de producto y [Buscar movimientos](ui-find-entries.md).  

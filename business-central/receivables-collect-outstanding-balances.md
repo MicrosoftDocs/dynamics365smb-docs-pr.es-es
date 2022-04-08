@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 6, 25, 440, 448, 452
+ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0974cce66734c5a25d87e87052fa82ad1e2a1c53
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 271b9f032df685b5eac1c3bddca037326ea4c1d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366941"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520739"
 ---
 # <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 
@@ -118,7 +118,7 @@ Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la pá
 ## <a name="see-also"></a>Consulte también
 
 [Configurar términos y niveles de recordatorios.](finance-setup-reminders.md)  
-[Configurar términos interés](finance-setup-finance-charges.md)  
+[Configurar términos de interés](finance-setup-finance-charges.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

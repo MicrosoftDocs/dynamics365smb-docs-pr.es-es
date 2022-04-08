@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 14048cfe4d18df0002f51dacac658a6c07bc0155
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135112"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512261"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 
@@ -168,7 +168,7 @@ Para obtener detalles sobre la planificación con ubicaciones y transferencias, 
 [Planificación](production-planning.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

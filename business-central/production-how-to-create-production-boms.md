@@ -1,17 +1,17 @@
 ---
 title: Crear LM de producción
 description: Obtenga información sobre cómo crear una lista de materiales (L.M.) de producción, nuevas versiones de una lista de materiales de producción y cómo utilizar la fórmula de cálculo de cantidades.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130262"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516905"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
 
@@ -85,8 +85,12 @@ La relación entre los componentes individuales se define en la fórmula de cál
 - **Largo x Ancho**: Cantidad = cantidad por * Largo x Ancho  
 - **Largo x Ancho x Profundidad**: Cantidad = Cantidad por Largo x Ancho x Profundidad  
 - **Peso**: Cantidad = Cantidad por x Peso  
+- **Cantidad fija** - Cantidad = Cantidad por
 
-### <a name="example"></a>Ejemplo
+> [!NOTE]
+> El tipo de cálculo **Cantidad fija** garantiza que el consumo de un componente sea el mismo, independientemente de las cantidades de rechazo o de salida. Para componentes de orden de producción, cuando el campo **Fórmula de cálculo** se establece en **Cantidad fija**, el valor del campo **Cantidad esperada** siempre es igual al campo **Cantidad por**. El porcentaje de rechazo que se define en la misma línea se ignora. La cantidad fija es respetada por el informe **Disponibilidad por lista de materiales**. El informe mostrará el artículo como el cuello de botella si la cantidad disponible es menor que la cantidad en el campo **Cantidad por principal**. Los campos **Capaz de hacer principal** y **Capaz de hacer artículo superior** siempre están en blanco, independientemente de la cantidad disponible. La cantidad fija también se incluye en los cálculos de costos estándar. El tamaño del lote del artículo producido afecta el costo que se asigna para un artículo.
+
+### <a name="example"></a>Ejemplo:
 
 En una L.M. de producción, se necesitan setenta componentes de metal con las dimensiones: largo = 0,20 m. y ancho: 0,15 m. Los valores se introducen de la manera siguiente: Fórmula de cálculo = Largo x Ancho, Largo = 20, Ancho = 15, Cantidad por = 70. La cantidad se obtiene de Cantidad por x Largo * Ancho, es decir, Cantidad = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 

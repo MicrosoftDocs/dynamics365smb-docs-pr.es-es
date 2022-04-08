@@ -1,28 +1,29 @@
 ---
 title: Recopilación de valores de configuración de cliente
-description: El cuestionario de configuración ayuda a reducir la implementación al agilizar la configuración de nuevas empresas y ofrecer a los clientes un archivo Excel o XML.
+description: Si desea usar RapidStart Services, el cuestionario de configuración ayuda a reducir la implementación al agilizar la configuración de nuevas empresas y ofrecer a los clientes un archivo Excel o XML.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145975"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518394"
 ---
-# <a name="gather-customer-setup-values"></a>Recopilación de valores de configuración de cliente
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Recopilación de valores de configuración de cliente con RapidStart Services
 Utilice el cuestionario de configuración para ayudar a reducir su carga de trabajo de implementación agilizando la tarea de configurar la empresa nueva. Puede generar el cuestionario de configuración en [!INCLUDE[prod_short](includes/prod_short.md)] y después proporcionárselo al cliente como un archivo de Excel o XML.  
 
 Puede cambiar todos los valores predeterminados en un cuestionario para ajustarse mejor a las necesidades del cliente.  
 
 > [!TIP]  
->  Para obtener más información acerca de la configuración de los valores en los campos de planificación de suministros, consulte [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md).  
+> Para obtener más información acerca de la configuración de los valores en los campos de planificación de suministros, consulte [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md).  
 
 Cuando su cliente completa el cuestionario, importe el archivo en la nueva empresa de [!INCLUDE[prod_short](includes/prod_short.md)] del cliente. Usted y su cliente deben validar las respuestas del cuestionario antes de aplicarlas a la empresa.
 

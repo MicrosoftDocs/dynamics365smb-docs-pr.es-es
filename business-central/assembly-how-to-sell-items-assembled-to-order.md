@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: ab94626b300a1f022b95770fe8e83fd8d80c9885
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 9860ebc2ce7260f450dbda928ee6339c0560e0a7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381517"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521129"
 ---
 # <a name="sell-items-assembled-to-order"></a>Venta de artículos ensamblados para pedido
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado es **Ensamblar para pedido**, no se espera que el producto se encuentre en el inventario y el campo debe ensamblarse específicamente para un pedido de venta. Cuando especifique el producto en una línea de pedido de venta, automáticamente se creará un pedido de ensamblado y se vinculará al pedido de venta.  

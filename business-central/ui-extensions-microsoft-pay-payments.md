@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d5668db9d0a7fa9b461a19949643ca7a2cc01a31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91f23a3b0a04a4e0d35d3574d4af84e187df14e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132529"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521655"
 ---
 # <a name="the-microsoft-pay-extension"></a>Extensión Microsoft Pay
 

@@ -10,12 +10,12 @@ ms.search.keywords: projects
 ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 099698611820f791d36c659f983316dee03d9c9a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2f238da69365edcdd797f00e62e6d766b00feec7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146233"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522725"
 ---
 # <a name="setting-up-project-management"></a>Configurar la administración de proyectos
 

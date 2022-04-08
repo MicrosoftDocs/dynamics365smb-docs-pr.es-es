@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1332240d6c6b0e43bada158fe11e82d42e0119f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ef6b031cfb87c74a62da85d0c7073a91e5e176e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144234"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520530"
 ---
 # <a name="create-bin-contents"></a>Crear contenido de ubicación
 
@@ -62,7 +62,7 @@ En esta hoja puede trabajar con varias líneas de contenido de ubicación para v
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Detalles de diseño: gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Detalles de diseño: Configuración de almacén](design-details-warehouse-setup.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

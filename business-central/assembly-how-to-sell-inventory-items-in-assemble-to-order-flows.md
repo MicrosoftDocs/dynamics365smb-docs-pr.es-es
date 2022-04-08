@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: acf9afd490158ccca25e2fd13ecb30bb07c64bfe
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f25dab624644b028cffce5e21080910fc87dfaf9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384077"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514522"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vender productos de inventario en flujos de ensamblar para pedido
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para pedido**, el proceso de pedido de venta predeterminado supone que el producto no está en el inventario y se debe ensamblar para ese pedido de venta concreto. Por tanto, se crea automáticamente un pedido de ensamblado al agregar el elemento a una línea de pedido de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md). Sin embargo, si parte de la cantidad del pedido de venta ya está disponible en el inventario, puede reducir la cantidad del pedido de ensamblado cambiando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta.  

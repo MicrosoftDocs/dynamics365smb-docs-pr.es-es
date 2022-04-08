@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 50745f63879bf3aa0610a0109950bdd9d88a676c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f5f701f4c26b81140fd87a81aa47591d268c8203
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137165"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510796"
 ---
 # <a name="managing-receivables"></a>Administrar cobros
 

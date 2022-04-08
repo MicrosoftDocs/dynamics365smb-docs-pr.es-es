@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91a97ab506f7536b9c468862709d1d39ed767d53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335479"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512365"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Preparar informes financieros con esquemas de cuentas y categorías de cuentas
 
@@ -54,7 +54,7 @@ Los esquemas de cuentas en la versión estándar de [!INCLUDE[prod_short](includ
 
 La página **Panorama esq. cta.** es donde puede obtener una vista previa del informe financiero que define el esquema de cuentas. A continuación, es importante comprender que lo que se configura como filas y columnas del esquema de cuentas solo se puede ver y validar en la página **Panorama esq. cta.**, que se abre desde un esquema de cuentas seleccionando la acción **Panorama**. La página **Esquema cuentas** en sí misma es solo un área de configuración.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Esquemas de cuentas**, elija la acción **Nuevo** para crear un nuevo nombre de esquema de cuenta.
 3. También puede elegir la acción **Copiar esquema de cuentas**, rellenar los dos campos y, a continuación, elegir el botón **Aceptar**.
 4. Rellene los campos según sea necesario. En el campo **Plantilla columna genér.**, seleccione una disposición existente. Puede cambiarla más adelante si lo desea.
@@ -71,7 +71,7 @@ Ha definido la base del esquema de cuentas, las filas de datos financieros que s
 
 ### <a name="to-edit-a-column-layout"></a>Para editar una plantilla de columnas
 
-Utilice las plantillas de columnas para determinar qué columnas va a incluir en el informe resultante. Por ejemplo, puede diseñar una plantilla para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior.
+Utilice las plantillas de columnas para determinar qué columnas va a incluir en el informe resultante. Por ejemplo, puede diseñar una plantilla para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior. Puede tener hasta 15 columnas. Esto resulta útil, por ejemplo, si desea ver los presupuestos de 12 meses e incluir una columna que muestre el total.
 
 > [!NOTE]
 > Una versión impresa, guardada o de vista preliminar de un esquema de cuentas puede mostrar como máximo cinco columnas. Si el esquema de cuentas solo está destinado al análisis en la página **Panorama esq. cta.**, puede crear tantas columnas como desee.
@@ -88,7 +88,7 @@ Utilice las plantillas de columnas para determinar qué columnas va a incluir en
 
 En ocasiones, podría desear incluir una columna en un esquema de cuentas para calcular los porcentajes de un total. Por ejemplo, si tiene una serie de filas que detallan las ventas por dimensión, podría desear crear una columna para indicar el porcentaje de las ventas totales que representa cada fila.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
 2. En la página **Nombres esquemas de cuentas**, seleccione un esquema de cuenta.  
 3. Elija la acción **Editar esquema cuentas** para configurar una fila del esquema de cuentas para calcular el total en el que se basarán los porcentajes.  
 4. Inserta una línea justo encima de la primera fila para la que desea que se muestre un porcentaje.  
@@ -101,11 +101,11 @@ En ocasiones, podría desear incluir una columna en un esquema de cuentas para c
 
 Puede usar un esquema de cuentas para crear un extracto que compare las cifras de contabilidad con las cifras presupuestadas.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
 2. En la página **Nombres esquemas de cuentas**, seleccione un esquema de cuenta.  
 3. Elija la acción **Editar esquema cuentas**  
 4. En la ventana **Esquema cuentas**, en el campo **Nombre**, seleccione el nombre del esquema de cuentas predeterminado.
-5. Elija la acción **Insertar cuentas**.  
+5. Elija la acción **Insertar cuentas de contabilidad**.  
 6. Seleccione la cuenta que desea incluir en la declaración y, a continuación, seleccione el botón **Aceptar**.
 
     Estas cuentas se insertan en el esquema de cuentas. Si lo desea, puede modificar la plantilla de columna.  
@@ -149,7 +149,17 @@ Si desea calcular el importe del periodo de comparación para periodos de tiempo
 
 Para obtener más información sobre las fórmulas de fecha, consulte [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="import-or-export-account-schedules"></a>Importación o exportación de esquemas de cuentas
+Puede importar y exportar esquemas de cuentas como paquetes de configuración de RapidStart. Por ejemplo, esto resulta útil para compartirlos con otras empresas. El paquete se crea en un archivo .rapidstart, que entrega los contenidos de paquete en un formato comprimido.
+
+### <a name="to-import-and-export-account-schedules"></a>Para importar y exportar esquemas de cuentas
+1. Elija el icono ![Bombilla que abre la función Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas de cuentas** y luego elija el enlace relacionado.
+2. Elija el esquema de cuenta y luego las acciones **Importar esquema de cuentas** o **Exportar esquema de cuentas**, dependiendo de lo que desee hacer. 
+
+> [!NOTE]
+> Cuando importe esquemas de cuentas, se eliminarán los registros existentes que tengan los mismos nombres que los que está importando.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Consulte también
 

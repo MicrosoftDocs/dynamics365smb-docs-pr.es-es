@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 609a57cd1d87a8a3518d6eaf7bc3fe8fc142953a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5bad6c920cc285dd7fb405b8075263229df778d1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134361"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519923"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Crear registros de documentos entrantes directamente desde documentos y movimientos
 Puede almacenar los documentos empresariales externos en [!INCLUDE[prod_short](includes/prod_short.md)] adjuntando los archivos de documento a los registros de documento entrante relacionados. Si el documento, como una factura de compra, no se ha iniciado como un registro de documento entrante, puede crear un registro de documento entrante y conectarlo a él más adelante. También puede adjuntar archivos de documento entrante a los documentos de compra y de venta registrados, y a los movimientos de proveedor, de cliente y de contabilidad mediante el cuadro informativo **Archivos de documento entrante**, por ejemplo, en las páginas **Facturas de compra registradas** y **Movimientos de proveedor**.

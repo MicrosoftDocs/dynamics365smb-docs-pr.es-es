@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ec39dfd6a8b9c209060fbd5d17ba429c56a6f92f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6ff238b213de72210908c89eae1da180a1a10fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136483"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519308"
 ---
 # <a name="enable-workflows"></a>Activar flujos de trabajo
 Una vez que haya creado un flujo de trabajo y esté seguro de que está preparado para empezar, debe activar el flujo de trabajo.  
@@ -31,7 +31,7 @@ Una vez que haya creado un flujo de trabajo y esté seguro de que está preparad
  [Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)   
  [Eliminar flujos de trabajo](across-how-to-delete-workflows.md)   
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
- [Uso de flujos de trabajo](across-use-workflows.md)   
+ [Usar flujos de trabajo](across-use-workflows.md)   
  [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Flujo de trabajo](across-workflow.md)   
 

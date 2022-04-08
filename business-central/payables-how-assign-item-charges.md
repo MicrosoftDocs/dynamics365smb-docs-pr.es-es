@@ -10,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6cfebffb12eb2cd7ffa84e12a07c01968c429069
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd8485bf4d679e740f60c8cc38e5912953b5b0bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145607"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522829"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto a cuenta para los costes comerciales adicionales
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. Para las compras, el coste de descarga de un producto comprado se compone del precio de compra del proveedor sumado a todos los cargos de producto directos adicionales que se pueden asignar a albaranes o envíos devueltos determinados. Para las compras, conocer el coste de envío de los productos vendidos es tan importante para la empresa como conocer el coste de los productos comprados.

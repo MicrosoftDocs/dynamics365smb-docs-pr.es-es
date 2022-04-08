@@ -1,6 +1,6 @@
 ---
 title: Aplicar configuración a nuevas empresas
-description: Una vez que haya creado un paquete de configuración, implemente el paquete en el cliente para su implementación. Use la configuración con una nueva empresa vacía.
+description: Una vez que haya creado un paquete de configuración, implemente el paquete en el cliente para su implementación. Use la configuración con una nueva empresa vacía si utiliza RapidStart Services.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 439a717b37d5936c221992bcd7f85bb1d1db42eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 14b97b1f635fab5671c478106680c2b723ca86c2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141494"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522279"
 ---
-# <a name="apply-configurations-to-new-companies"></a>Aplicar la configuración a nuevas empresas
+# <a name="apply-configurations-to-new-companies-with-rapidstart-services"></a>Aplicar configuraciones a nuevas empresas con RapidStart Services
 Una vez que haya creado un paquete de configuración, el siguiente paso es implementar el paquete en el cliente para su implementación. Trabaje con el paquete de configuración dentro de una nueva empresa vacía.  
 
  En la tabla siguiente se muestra una secuencia de tareas con vínculos a los temas que las describen.

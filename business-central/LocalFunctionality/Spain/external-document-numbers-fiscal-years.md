@@ -7,14 +7,14 @@ ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 633bab60f75198949e33087cc95b21f47c7d0dc4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9659d64905837eee100cdd0d67872551fde4f85d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138123"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520517"
 ---
-# <a name="using-the-same-external-document-numbers-across-fiscal-years"></a>Uso de los mismos números de documento externo en todos los ejercicios
+# <a name="use-the-same-external-document-numbers-across-fiscal-years"></a>Usar los mismos números de documento externo en todos los ejercicios
 
 En general, [!INCLUDE[prod_short](../../includes/prod_short.md)] no permite registrar documentos con el mismo valor en **N.º documento externo**, ni siquiera en ejercicios anteriores, debido a la legislación. En España, sin embargo, esto está aceptado, y [!INCLUDE[prod_short](../../includes/prod_short.md)] ahora incluye una opción para permitir este comportamiento.  
 

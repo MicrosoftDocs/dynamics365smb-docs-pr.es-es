@@ -10,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7135eb7b7b9ccb845bac1fe3ec5503201dc7b035
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 453cebcddb1fdfd2f3127fd08548deccc8fe1876
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383220"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512209"
 ---
 # <a name="set-up-company-consolidation"></a>Configuración de la consolidación de empresas
 

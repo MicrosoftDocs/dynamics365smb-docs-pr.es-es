@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: df267dab7bc0d292bcd90a3e8b1063a5e87e7e61
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: e21454f52564d4c679cd20171189b0dc14bfe49f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335089"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523042"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analizar importes reales frente a importes presupuestados
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos.

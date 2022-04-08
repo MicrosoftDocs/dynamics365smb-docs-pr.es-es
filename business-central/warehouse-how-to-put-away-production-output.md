@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e93c4d5abd6b6c3136e95838d10895a8fb1b2b90
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b6f6a19787f1fd2630cf3bc3a6882dc17f0d6bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134551"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514314"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ubicar la salida de producción o la salida de ensamblado
 
@@ -69,7 +69,7 @@ La siguiente tabla describe diferentes formas de mover artículos dentro del alm
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

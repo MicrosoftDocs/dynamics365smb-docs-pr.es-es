@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a5e16c335730190b0db162876230c101f8319941
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d25637f00d8b7e6641d994a13e135a78bd72a215
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135482"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511758"
 ---
 # <a name="create-reports-with-xbrl"></a>Crear informes con XBRL
 

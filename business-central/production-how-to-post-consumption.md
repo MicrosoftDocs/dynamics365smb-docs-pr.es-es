@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000846, 99000850
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4cc64e863c2bde02c61237e7baad7a58dfaba31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145503"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516723"
 ---
 # <a name="batch-post-production-consumption"></a>Registrar consumibles de producción por lotes
 

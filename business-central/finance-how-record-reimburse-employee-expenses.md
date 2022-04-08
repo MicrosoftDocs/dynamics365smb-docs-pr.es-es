@@ -10,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a8f731dd91d69ad7fa74f5755be519d10bc58667
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f02161c813719a00cc3d6935fddc99f0a8335e6d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135424"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515120"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
 

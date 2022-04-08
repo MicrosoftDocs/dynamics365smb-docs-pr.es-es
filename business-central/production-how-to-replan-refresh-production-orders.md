@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4fca74c179e6da283a2486efd2dad1c22019d013
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132867"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515386"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Replanificar o actualizar órdenes de producción directamente
 

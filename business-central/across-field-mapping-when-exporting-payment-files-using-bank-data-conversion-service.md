@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 31f6c59f13bed6fdb62624b56ad732824af77230
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131039"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519334"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Asignación de campos al exportar archivos de pago utilizando la extensión AMC Banking 365 Fundamentals
-Cuando exporta archivos de pago utilizando la extensión AMC Banking 365 Fundamentals, los datos que exporta se exponen al proveedor de servicios. El proveedor del servicio es responsable de la privacidad de estos datos. Para obtener más información sobre la extensión AMC Banking 365 Fundamentals, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+Cuando exporta archivos de pago utilizando la extensión AMC Banking 365 Fundamentals, los datos que exporta se exponen al proveedor de servicios. El proveedor del servicio es responsable de la privacidad de estos datos. Para obtener más información sobre la extensión AMC Banking 365 Fundamentals, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  Cuando se exportan archivos de pago con la extensión AMC Banking 365 Fundamentals, algunos de los datos empresariales serán visibles para el proveedor del servicio. El proveedor de servicios, AMC Consult A/S, es responsable de la privacidad de estos datos. Para obtener más información, consulte [Directiva de función de AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
@@ -72,7 +72,7 @@ La siguiente tabla enumera los campos en [!INCLUDE[prod_short](includes/prod_sho
 ## <a name="see-also"></a>Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)
-[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
+[Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 
 

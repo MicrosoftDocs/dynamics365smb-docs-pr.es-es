@@ -10,12 +10,12 @@ ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
 ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 8aafbe502c59924703d04711458ec9fa77a604f1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 52060d74d7ef855a89dd3cffabd4ada435d6b117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148335"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523272"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Vender productos con un pedido de venta de cliente  
 

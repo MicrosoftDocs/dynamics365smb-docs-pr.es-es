@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383142"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515750"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Asignación de tablas y campos para sincronizar
 
@@ -85,7 +85,7 @@ Por ejemplo, el proyecto de sincronización de Dynamics 365 Sales VENDEDORES usa
 
 2.  En el movimiento de asignación de tabla de la lista, borre el campo **Sincronizar solo reg. emparejados**.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Uso de plantillas de configuración en asignaciones de tabla
+## <a name="use-configuration-templates-on-table-mappings"></a>Usar plantillas de configuración en asignaciones de tabla
 Puede asignar plantillas de configuración a asignaciones de tabla para utilizarlas para registros o filas nuevos que se crean en [!INCLUDE[prod_short](includes/prod_short.md)] o [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para cada asignación de tabla, puede especificar una plantilla de configuración para utilizarla para los registros nuevos de [!INCLUDE[prod_short](includes/prod_short.md)] y otra plantilla para utilizar filas nuevas de [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
 Si instala la configuración de sincronización predeterminada, la mayoría de las veces, se crearán automáticamente dos plantillas de configuración que se utilizarán en la asignación de tabla para clientes de [!INCLUDE[prod_short](includes/prod_short.md)] y cuentas de [!INCLUDE[crm_md](includes/crm_md.md)]: **CDSCUST** y **CDSACCOUNT**.  

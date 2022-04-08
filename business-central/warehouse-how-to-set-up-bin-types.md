@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8fb409e9ca0a8540fa2ea997faae790f78086d6e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334595"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520053"
 ---
 # <a name="set-up-bin-types"></a>Configurar tipos de ubicación
 Puede dirigir el flujo de productos por las ubicaciones que ha definido para las actividades de un almacén determinado. Indique las actividades de flujo básicas para cada ubicación y defina la forma en que se utilizará la ubicación, asignándola a un tipo de ubicación.  
@@ -47,7 +47,7 @@ A continuación, se muestran los tipos de ubicaciones que puede crear.
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

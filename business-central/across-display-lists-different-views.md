@@ -10,12 +10,12 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2fd979106f1ec9923eb3fed5717eb7e2c05b23
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: afa3806cd0597ffe04c516f586ea58fab83c0bc2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141702"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515854"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Mostrar listas en diferentes vistas
 En la esquina derecha de cualquier lista de [!INCLUDE[prod_short](includes/prod_short.md)] encontrará iconos que permiten elegir cómo se muestra la lista de registros. Una lista se puede mostrar como filas detalladas, lo cual es ideal cuando necesita trabajar con muchos campos o editar campos en la lista. Pero también puede cambiar para mostrar registros como mosaicos, que es más compacto y muestra menos campos en el registro específico. Esto es muy útil para obtener un resumen de varios movimientos y, sobre todo, en dispositivos pequeños, porque es compacto y es más fácil de puntear.

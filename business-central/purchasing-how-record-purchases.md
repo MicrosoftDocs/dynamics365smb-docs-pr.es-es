@@ -10,12 +10,12 @@ ms.search.keywords: procurement
 ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 55cc80b6f03d93dd2a4b92a32260831b52a1176c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7af3f2923c3e39d8855c80a954a4c092d4393477
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383168"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517295"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrar compras con facturas de compra
 

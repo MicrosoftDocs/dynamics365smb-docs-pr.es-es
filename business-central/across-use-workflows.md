@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2cbf60577e7c0c4f95fcb623fb448f8cb5bd7960
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fc4dc464e6562684db6b4ae67422f59cb641927
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138705"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511212"
 ---
-# <a name="using-workflows"></a>Uso de flujos de trabajo
+# <a name="use-workflows"></a>Usar flujos de trabajo
 
 Un flujo de trabajo es una secuencia de tareas que se desencadenan por una acción, una condición o una regla. Los flujos de trabajo generalmente se implementan para integrar la lógica empresarial a una organización, como la separación de funciones, unificar procesos o aumentar la confianza y las responsabilidades.  
 

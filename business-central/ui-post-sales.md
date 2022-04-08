@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 130, 142, 1350, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 34995eab966a65561c18de8d0e32204ca8bb79cb
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8258e1e31bd6c01d5592e20110c05b7418442f42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335558"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521499"
 ---
 # <a name="posting-sales"></a>Registrar ventas
 

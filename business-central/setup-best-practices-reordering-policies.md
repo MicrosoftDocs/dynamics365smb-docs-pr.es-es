@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142884"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516567"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Procedimientos recomendados de configuración: políticas de reaprovisionamiento
 El campo **Directiva reaprov.** en las fichas de producto ofrece cuatro métodos de planificación distintos que determinan la forma en que interactúan los parámetros individuales de planificación.  

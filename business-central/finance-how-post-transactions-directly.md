@@ -10,12 +10,12 @@ ms.search.keywords: direct posting, general ledger
 ms.search.form: 39, 251
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 26fb9695778d3a8a63c740a6e4303bfd001ab707
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cf61b53db298f4c133a3e733e4bb95d3506af05a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132945"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517529"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Registrar transacciones directamente en la contabilidad
 

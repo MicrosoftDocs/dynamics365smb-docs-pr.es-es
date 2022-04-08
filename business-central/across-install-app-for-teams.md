@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141520"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516452"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Instale la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams
 
@@ -59,8 +59,8 @@ Esta opción es la forma más rápida de instalar la aplicación.
 4. Elija la aplicación cuando la encuentre.
 5. Elija **Agregar**.
 
-> [!NOTE]
-> Con cualquiera de las opciones, es posible que se le pida que inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)]. Seleccione el vínculo de **inicio de sesión** y siga las instrucciones para introducir el nombre y la contraseña de inicio de sesión para [!INCLUDE [prod_short](includes/prod_short.md)].
+> [!TIP]
+> Si pega un vínculo en una página de Business Central en una conversación del equipo y no tiene la aplicación instalada, recibirá un mensaje como: **Business Central quiere mostrar una vista previa de este vínculo.** Para instalar la aplicación, seleccione **Mostrar vista previa** y siga las instrucciones.
 
 **Opción 3: desde Business Central**
 
@@ -68,6 +68,9 @@ Esta opción es la forma más rápida de instalar la aplicación.
 2. Elija el icono ![Lupa que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Obtener la aplicación Business Central para Teams** y luego elija el vínculo relacionado.  
 3. Elija **Obtener la aplicación de la tienda**.
 4. Espere a que Teams se abra y aparezca la aplicación Business Central, luego elija **Agregar**.
+
+> [!NOTE]
+> Con cualquiera de las opciones, es posible que se le pida que inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)]. Seleccione el vínculo de **inicio de sesión** y siga las instrucciones para introducir el nombre y la contraseña de inicio de sesión para [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Paso siguiente
 

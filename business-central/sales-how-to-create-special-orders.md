@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d879e8cfb556ca0c7fc496f72ec653826e8d7db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128718"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518918"
 ---
 # <a name="create-special-orders"></a>Crear pedidos especiales
 Se puede crear un pedido especial para un determinado producto del catálogo que se vaya a enviar a un cliente en particular. El proveedor envía el producto al almacén de su empresa y de allí se envía a su cliente sólo o con otros productos de otro pedido.  

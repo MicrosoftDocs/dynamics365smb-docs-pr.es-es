@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147117"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528454"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Compartir registros y enlaces de página de Business Central en Microsoft Teams
 
@@ -45,7 +45,7 @@ En las siguientes secciones se describen los distintos métodos en detalle.
 
 Con la aplicación Business Central para Teams, puede copiar un vínculo de cualquier registro de Business Central, como un cliente o un pedido de ventas, y pegar el vínculo en una conversación de Teams. La aplicación conecta Microsoft Teams a los datos de su empresa en [!INCLUDE [prod_short](includes/prod_short.md)]\. A continuación expande el vínculo para convertirse en una tarjeta compacta e interactiva que muestra información sobre el registro. Una vez en la conversación, usted y sus compañeros de trabajo pueden ver más detalles sobre el registro, editar datos y tomar medidas, sin salir de Teams.
 
-[![Integración de Teams con Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Integración de Teams con Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Requisitos previos
 
@@ -60,38 +60,36 @@ Con la aplicación Business Central para Teams, puede copiar un vínculo de cual
 1. Inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)] usando su navegador.
 2. Abra el registro que quiere compartir.
 
-    La aplicación está diseñada para mostrar páginas tipo tarjeta desde [!INCLUDE [prod_short](includes/prod_short.md)]\. Por lo tanto, abra una página que muestre un solo registro, como un producto, un cliente o una orden de venta. No puede usarlo para centros de funciones o páginas que muestren varios registros en una lista.
+    La aplicación está diseñada para mostrar una ficha para casi cualquier tipo de página de [!INCLUDE [prod_short](includes/prod_short.md)]. Sin embargo, brinda la mejor experiencia cuando se usa para páginas que muestran un solo registro, como un artículo, un cliente o un pedido de ventas.
+3. Copie el vínculo a la página.
 
-3. Copie la URL completa de la barra de direcciones del navegador.
+    Existen dos formas de copiar el vínculo. La forma más sencilla y preferida es seleccionar **Compartir** ![Icono Compartir en Business Central](media/share-icon.png) > **Copiar vínculo**. La otra forma es copiar la URL completa de la barra de direcciones del navegador.
 
-   ![Copiar la URL de Business Central desde el navegador.](media/teams-url-v2.png)
+    [![Copiar la URL de Business Central desde el navegador.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Vaya a Teams e inicie una conversación, que puede ser chatear con una persona, un grupo de personas o un canal de equipo.
+5. Pegue el vínculo (URL) en el cuadro de mensaje donde redacta los mensajes.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Pegue la URL en el cuadro de mensaje donde redacta los mensajes.
+    ![Pegar la URL de Business Central en Teams.](media/teams-paste-url-v2.png)
 
-   ![Pegar la URL de Business Central en Teams.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Si recibe un mensaje como: *Business Central quiere mostrar una vista previa de este vínculo.*, significa que no tiene instalada la aplicación Business Central para Teams. Para instalar la aplicación, seleccione **Mostrar vista previa** y siga las instrucciones.
 6. La primera vez que pegue un vínculo en una conversación, se le pedirá que inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)] y dar su consentimiento para que la aplicación recupere datos. Simplemente siga las instrucciones en pantalla.
 
     > [!NOTE]
     > Solo tiene que realizar este paso una vez.
-
 7. Espere un momento mientras se genera una tarjeta en el cuadro de mensajes.
-
 8. Cuando aparezca la tarjeta, revise el contenido de la tarjeta detenidamente en busca de información confidencial antes de enviar el mensaje. Este paso es importante porque, una vez que envía el mensaje, todos los participantes de la conversación pueden ver la tarjeta.
-
 9. Si la tarjeta tiene buen aspecto, seleccione **Enviar** para enviarla a la conversación.
 
     > [!TIP]
     > Después de que aparezca la tarjeta y antes de seleccionar **Enviar**, puede eliminar la URL pegada si lo desea.
-
 10. Para ver más detalles o realizar cambios en el registro mostrado en la tarjeta, seleccione **Detalles**. Para obtener más información, consulte la sección siguiente.
 
 ### <a name="view-card-details"></a>Ver detalles de tarjeta
 
-Una vez que se ha enviado una tarjeta a una conversación, todos los participantes con los [permisos adecuados](admin-teams-integration.md#permissions) puede seleccionar **Detalles** para abrir una ventana que muestra más información sobre el registro, y posiblemente realizar cambios en el registro. No importa si eres el que envía la tarjeta o el que la recibe. La función **Detalles** es especialmente útil para los destinatarios, ya que les proporciona rápidamente información concisa y específica sobre el registro, en lugar de tener que escanear el registro completo.
+Una vez que se ha enviado una tarjeta a una conversación, todos los participantes con los [permisos adecuados](admin-teams-integration.md#permissions) puede seleccionar **Detalles** para abrir una ventana que muestra más información sobre el registro, y posiblemente realizar cambios en el registro. No importa si eres el que envía la tarjeta o el que la recibe. La característica **Detalles** es especialmente útil para los destinatarios, ya que les proporciona rápidamente información concisa y específica sobre el registro.
 
-La ventana de detalles es similar a la que vería en el registro de [!INCLUDE [prod_short](includes/prod_short.md)]. Pero está un tanto recortadada para Teams. Cuando haya terminado de ver y realizar cambios, cierre la ventana para volver a la conversación de Teams.
+La ventana de detalles es similar a lo que vería en [!INCLUDE [prod_short](includes/prod_short.md)], pero se centra en la página o el registro del que trata la ficha. Cuando haya terminado de ver y realizar cambios, cierre la ventana para volver a la conversación de Teams.
 
 Aquí hay un par de cosas que debe tener en cuenta al trabajar con los detalles de la tarjeta:
 

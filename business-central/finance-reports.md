@@ -4,14 +4,15 @@ description: Consulte qué informes y análisis financieros están disponibles e
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 2220bfacb8f94265363c30acbcde1cc6de745339
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311212"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514392"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Informes y análisis financieros en Business Central
 

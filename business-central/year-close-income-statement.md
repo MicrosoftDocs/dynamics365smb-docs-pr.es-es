@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 0f305c6284a617594202ac8e38ce786d7019f489
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fe66a7341045058f2d5d5b5313d122cf442d3117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139063"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514678"
 ---
 # <a name="closing-income-statement-accounts"></a>Cerrar cuentas de regularización
 Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman. Para ello, puede ejecutar el proceso **Cerrar asiento de regularización**. Esta tarea transfiere el resultado anual a una cuenta en la hoja de balance y cierra las cuentas del balance de ingresos. Se realiza creando líneas en un diario, que después puede registrar.

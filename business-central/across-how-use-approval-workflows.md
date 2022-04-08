@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: bc60d2e8f7e79e717b8b79a9c18e7babf88d8fbb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134205"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517659"
 ---
 # <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
 
@@ -20,7 +20,7 @@ Cuando un registro, como un documento de compra o una ficha de cliente, necesita
 
 Los flujos de trabajo de aprobación se crean en la página **Flujo de trabajo**. También debe configurar usuarios de aprobación, incluidos los límites de cantidad relevantes, en la página **Config. usuario aprobación**. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).  
 
-Además de los flujos de trabajo de aprobación descritos en este tema, puede realizar otras tareas de flujo de trabajo. Para obtener más información, [Uso de flujos de trabajo](across-use-workflows.md).
+Además de los flujos de trabajo de aprobación descritos en este tema, puede realizar otras tareas de flujo de trabajo. Para obtener más información, consulte [Usar flujos de trabajo](across-use-workflows.md).
 
 Los flujos de trabajo de aprobación más importantes para los documentos de compras y ventas, los diarios de pago y las fichas de clientes y productos están listos para iniciar como guías. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).
 

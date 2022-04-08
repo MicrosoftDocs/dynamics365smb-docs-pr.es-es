@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 4c305d4ba1f4208eb7a3c5845d4b32bb40f930e6
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382316"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514126"
 ---
 # <a name="set-up-bank-accounts"></a>Configurar cuentas bancarias
 
@@ -29,6 +29,8 @@ Las cuentas bancarias funcionan de manera diferente dependiendo de si se especif
 - Se especifica un código de divisa
 
   Todas las transacciones que se realicen en esta cuenta deben realizarse en la misma divisa que se especifica en la cuenta. Todos los cheques que se emiten desde esta cuenta también deben tener esta divisa.  
+
+Puede ahorrar tiempo en la introducción de datos haciendo que una cuenta bancaria sea la cuenta predeterminada que se utilizará para la divisa especificada para la cuenta. Si lo hace, la cuenta se asignará a documentos de ventas y servicios que utilicen la divisa. Para hacer que la cuenta sea la predeterminada para documentos de ventas y servicios, en la página **Ficha banco**, active el botón de alternancia **Usar como predeterminada para divisa**. Si es necesario, puede elegir una cuenta diferente cuando esté trabajando en un documento.
 
 Una cuenta bancaria es una parte integrada de [!INCLUDE[prod_short](includes/prod_short.md)] y juega un papel en muchas otras capacidades. La siguiente ilustración muestra las relaciones más importantes:
 
@@ -153,24 +155,24 @@ The following table explains key fields.
 |Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
-> [!NOTE]
-> Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimiento de cuenta bancaria con el importe en cuestión. Puede hacerlo si realiza una conciliación de bancos. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).  
+
+## <a name="entering-an-opening-balance"></a>Introducir un saldo inicial
+Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimiento de cuenta bancaria con el importe en cuestión. Puede hacerlo si realiza una conciliación de bancos. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > De forma alternativa, puede implementar el saldo inicial como parte de la creación de datos generales en nuevas compañías mediante la guía de configuración asistida **Migrar datos empresariales**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Es importante que no registre el saldo de apertura directamente en el libro mayor. Tener entradas en la cuenta del L/M que se contabilizan directamente en la cuenta del L/M normalmente hará que no pueda conciliar la cuenta bancaria o, en el caso de cuentas bancarias en moneda extranjera, provocará que se acumulen diferencias a medida que contabiliza más conciliaciones bancarias. A menudo, contabiliza el saldo bancario inicial directamente en la cuenta bancaria y el importe termina en la cuenta del L/M. Alternativamente, lo revierte más tarde contra una cuenta de mayor designada que haya utilizado para equilibrar el saldo inicial del libro mayor. En ambos casos, debe equilibrar cualquier contabilización directa en la cuenta de mayor antes de iniciar su primera conciliación bancaria, especialmente si la cuenta bancaria está en una moneda extranjera.  
+> Es importante que no registre el saldo de apertura directamente en el libro mayor. Tener entradas en la cuenta de contabilidad que se registran directamente en la cuenta de contabilidad normalmente hará que no pueda conciliar la cuenta bancaria o, para cuentas bancarias en divisa extranjera, provocará que se acumulen diferencias a medida que registra más conciliaciones bancarias. A menudo, contabiliza el saldo bancario inicial directamente en la cuenta bancaria y el importe termina en la cuenta del L/M. Como alternativa, lo revierte más tarde contra una cuenta de contabilidad que utilice para equilibrar el saldo inicial del libro mayor. En ambos casos, debe equilibrar cualquier registro directo en la cuenta de contabilidad antes de iniciar su primera conciliación bancaria, especialmente si la cuenta bancaria está en una divisa extranjera.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Para configurar la cuenta para la importación o exportación de archivos bancarios
+Los campos relacionados con la importación y la exportación de archivos o fuentes de banco se encuentran en la ficha desplegable **Transferencia** en la página **Ficha banco**. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco** están relacionados con la importación y exportación de archivos o fuentes de banco. Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Abra la ficha de un banco del que exportará archivos de banco, o al que los importará.
 3. En la ficha desplegable **Transferencia**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Distintos servicios de exportación de archivos y sus formatos requieren valores de configuración diferentes en la página **Ficha banco**. Estará informado sobre valores de configuración incorrectos o que faltan al intentar exportar el archivo. Leer las descripciones breves de los campos atentamente o consulte los temas relacionados del procedimiento. Por ejemplo, exportar un archivo de pago para la transferencia electrónica de fondos (EFT) de Norteamérica requiere que tanto el campo **Nº último aviso pago** como el campo **Nº tránsito** estén rellenados. Para obtener más información, vea [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+> Distintos servicios de exportación de archivos y sus formatos requieren valores de configuración diferentes en la página **Ficha banco**. Estará informado sobre valores de configuración incorrectos o que faltan cuando exporte el archivo. Lea las descripciones breves de los campos atentamente o consulte los temas relacionados del procedimiento. Por ejemplo, exportar un archivo de pago para la transferencia electrónica de fondos (EFT) de Norteamérica requiere que tanto el campo **Nº último aviso pago** como el campo **Nº tránsito** estén rellenados. Para obtener más información, vea [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 Los campos de la ficha desplegable **Tránsito** de la cuenta bancaria tienen diferentes propósitos, dependiendo de si el pago es entrante o saliente.
 
@@ -216,9 +218,9 @@ La ilustración muestra la ruta de los pagos salientes:
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Para configurar cuentas bancarias de proveedor para exportar archivos bancarios
 
-Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco proveedor** están relacionados con la exportación de archivos o fuentes de banco. Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco proveedor** están relacionados con la exportación de archivos o fuentes de banco. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra la ficha de un proveedor a cuya cuenta bancaria exportará los archivos bancarios de pagos.
 3. Elija la acción **Cuentas bancarias**.
 4. Desde la **Lista de cuentas bancarias de proveedores**, elija la cuenta bancaria relevante o agregue una nueva cuenta bancaria.  

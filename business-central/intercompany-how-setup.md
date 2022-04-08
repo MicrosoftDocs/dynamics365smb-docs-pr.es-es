@@ -7,34 +7,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621
-ms.date: 04/01/2021
+ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7efbc6f80eb59b9f0be1640ea2bf6cb57afea4c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f5bbbe30730057093f8550cef27a514cbc20a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131774"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515542"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Configuración de registro de transacciones entre empresas
 
-Para que una transacción (por ejemplo, una línea del diario de ventas) se envíe de una empresa y se cree automáticamente la transacción correspondiente (por ejemplo, una línea del diario de compras) en la empresa asociada, ambas empresas tiene que acordar el plan de cuentas común y definir las dimensiones que utilizarán con las transacciones entre ambas. El plan de cuentas de empresas vinculadas puede ser, por ejemplo, una versión simplificada del plan de cuentas de la empresa matriz. Cada empresa asigna su plan de cuentas al plan de cuentas de empresas vinculadas compartido y asigna sus dimensiones a las dimensiones de empresas vinculadas.  
+Las contabilizaciones de empresas vinculadas hacen que la contabilidad de dos o más empresas sea una tarea más fácil para un departamento financiero centralizado y los tenedores de libros en empresas asociadas de empresas vinculadas. Para que una transacción (por ejemplo, una línea del diario de ventas) se envíe de una empresa y se cree automáticamente la transacción correspondiente (por ejemplo, una línea del diario de compras) en la empresa asociada, ambas empresas tiene que acordar el plan de cuentas común y definir las dimensiones que utilizarán con las transacciones entre ambas. El plan de cuentas de empresas vinculadas puede ser, por ejemplo, una versión simplificada del plan de cuentas de la empresa matriz. Cada empresa asigna su plan de cuentas al plan de cuentas de empresas vinculadas compartido y asigna sus dimensiones a las dimensiones de empresas vinculadas.  
 
-También debe configurar un código de socio de empresas vinculadas para cada empresa asociada, que se acuerda entre todas las empresas y, a continuación, asignarlo a las tarjetas de cliente y de proveedor, respectivamente, rellenando el campo **Código de socio de empresas vinculadas**.  
+También debe configurar un código de socio de empresas vinculadas para cada empresa [!INCLUDE [prod_short](includes/prod_short.md)], que se acuerda entre todas las empresas y, a continuación, asignarlo a las tarjetas de cliente y proveedor, respectivamente.  
 
 Si va a crear o a recibir líneas de empresas vinculadas con productos, puede utilizar sus propios números de producto o configurar los números de producto de sus socios para cada producto que corresponda, ya sea en el campo **Cód. producto proveedor** o en **Nº producto común** en la ficha del producto. También puede usar la función **Referencia producto** para asignar los números de producto a las descripciones de los productos de las empresas asociadas, abra la ficha de cada producto y, a continuación, elija la acción **Referencias producto** para configurar las referencias entre su descripción de los artículos y la de la empresa asociada. Para obtener más información, vea [Usar referencias de producto](inventory-how-use-item-cross-refs.md). 
 
-Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan recursos, debe rellenar el campo **Nº cuenta compra IC asociada** en la ficha de cada recurso que proceda. Es el número de la cuenta de empresas vinculadas en la empresa asociada en la que se registrará la cantidad correspondiente a este recurso. Para obtener más información, consulte [Configurar recursos](projects-how-setup-resources.md).
+Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan recursos, debe rellenar el campo **Nº cuenta compra IC asociada** en la ficha de cada recurso que proceda. Es el número de la cuenta de empresas vinculadas en la empresa asociada en la que se registrará la cantidad correspondiente a este recurso. Para obtener más información, consulte [Configurar recursos](projects-how-setup-resources.md). 
 
-## <a name="to-set-up-companies-for-intercompany-transactions"></a>Establecer empresas para transacciones entre empresa vinculadas
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
-2. En la página **Información de la empresa**, rellene los campos **Código de socio de empresas vinculadas**, **Tipo de bandeja de entrada de las empresas vinculadas** y **Detalles de bandeja de entrada de las empresas vinculadas**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Las transacciones de compra entre empresas que incluyen recursos, activos fijos y cargos por artículos no son totalmente compatibles. En la empresa de su socio de empresas vinculadas, el **Tipo de línea** estará en blanco en las líneas del documento de compra que incluyan estas entidades. Debe actualizar el campo manualmente. 
 
-## <a name="to-set-intercompany-partners"></a>Para establecer socios de empresas vinculadas
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Socios de empresas vinculadas** y luego elija el enlace relacionado.
+## <a name="to-set-up-a-company-for-intercompany-transactions"></a>Establecer una empresa para transacciones entre empresa vinculadas
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Configuración de empresas vinculadas** y luego elija el enlace relacionado.  
+2. En la página **Conf. empresa vinculada**, rellene los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+  > [!NOTE]
+  > El lanzamiento de versiones 1 de 2022 introduce una nueva **Configuración de empresas vinculadas** para que también pueda especificar si esta empresa debe crear automáticamente líneas de diario basadas en las publicaciones de un socio de empresas vinculadas desde la página **Diario General del CI**. Si su organización ha utilizado [!INCLUDE [prod_short](includes/prod_short.md)] antes de este lanzamiento de versiones, debe activar la nueva experiencia en la página **Gestión de características**. Para obtener más información, vea [Auto aceptar transacciones para contabilidades de empresas vinculadas](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/intercompany-postings-have-auto-accept-transaction-enabled-intercompany-general-journals).
+
+En versiones anteriores al lanzamiento de versiones 1 de 2022, debe completar tres campos relacionados con empresas vinculadas en la página **Información de la empresa** en su lugar.  
+
+## <a name="to-set-up-intercompany-partners"></a>Configurar socios de empresas vinculadas
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Socios de empresas vinculadas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la página **Socios de empresas vinculadas**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Repita los pasos 2 y 3 para todas las demás empresas que forman parte de esta configuración de empresas vinculadas.
 
 > [!NOTE]
 > En [!INCLUDE[prod_short](includes/prod_short.md)] online, no puede utilizar ubicaciones de archivos para transferir transacciones a sus socios porque [!INCLUDE[prod_short](includes/prod_short.md)] no tiene acceso a su red local. Por tanto, si elige **Ubicación del archivo** en el campo **Tipo de transferencia**, el campo **Ruta de la carpeta** no está disponible. En su lugar, el archivo se descargará a la carpeta Descargas de su computadora. Luego envía el archivo a alguien de la empresa asociada, por ejemplo, por correo electrónico. Para un proceso más directo, le recomendamos que elija **Email** en lugar.
@@ -47,9 +58,9 @@ Si va a realizar transacciones de ventas entre empresas vinculadas que incluyan 
 5. Repita los pasos 1 a 4 para los clientes.
 
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>Para configurar los planes de cuentas de las empresas vinculadas
-Para que un grupo de empresas vinculadas pueda realizar transacciones entre ellas, deben aprobar un plan de cuentas para utilizarlo como referencia común. Debe ponerse de acuerdo con las empresas asociadas en cuanto a los números de cuenta que todos utilizarán al crear transacciones entre empresas vinculadas. Por ejemplo, la empresa matriz del grupo puede crear una versión simplificada de su propio plan de cuentas, exportar este plan de cuentas de empresas vinculadas desde su base de datos a un archivo XML y distribuirlo al resto de empresas del grupo.  
+Para que un grupo de empresas vinculadas pueda realizar transacciones entre ellas, deben aprobar un plan de cuentas para utilizarlo como referencia común. Debe ponerse de acuerdo con las empresas asociadas en cuanto a los números de cuenta que todos utilizarán al crear transacciones entre empresas vinculadas. Por ejemplo, la empresa matriz del grupo puede crear una versión simplificada de su propio plan de cuentas, después exportarlo a un archivo XML que se distribuye a cada empresa en el grupo.  
 
-Si su empresa es la empresa asociada y se encarga de definir el plan de cuentas de las empresas vinculadas que utilizará el grupo como referencia común, siga el procedimiento [Configurar la definición de las empresas vinculadas](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
+Si el plan de cuentas de su compañía define los planes de empresas vinculadas para sus compañías asociadas, siga el proceso descrito en [Configurar la definición de las empresas vinculadas](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
 Si su empresa es una empresa subsidiaria y ha recibido un archivo XML que contiene el plan de cuentas común de las empresas vinculadas, siga el procedimiento [Para importar el plan de cuentas de empresas vinculadas:](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
@@ -92,7 +103,7 @@ Ahora, cuando introduzca una cuenta contable en el campo **Cta. contrapartida** 
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Para configurar registros entre empresas vinculadas
 
-Si usted y las empresas vinculadas asociadas desean intercambiar transacciones que estén relacionadas con dimensiones, debe estar de acuerdo en las dimensiones que todos usarán. Por ejemplo, la empresa matriz del grupo puede crear una versión simplificada de su propio grupo de dimensiones, exportar estas dimensiones de empresas vinculadas a un archivo XML y distribuirlas al resto de empresas del grupo. Cada una de las subsidiarias importará el archivo XML en la página **Dimensiones de empresas vinculadas** y asignará las dimensiones de las empresas vinculadas a las de su propia página **dimensiones**.  
+Si usted y las empresas vinculadas asociadas desean intercambiar transacciones que estén relacionadas con dimensiones, debe estar de acuerdo en las dimensiones que todos usarán. Por ejemplo, la empresa matriz del grupo puede crear una versión simplificada de su propio conjunto de dimensiones, después exportarlo a un archivo XML que se distribuye a cada empresa en el grupo. Cada una de las subsidiarias importará el archivo XML en la página **Dimensiones de empresas vinculadas** y asignará las dimensiones de las empresas vinculadas a las de su propia página **dimensiones**.  
 
 > [!NOTE]
 > Cada empresa en [!INCLUDE [prod_short](includes/prod_short.md)] debe asignar dimensiones a dimensiones de empresas vinculadas para documentos salientes y asignar dimensiones de empresas vinculadas a sus propias dimensiones para documentos entrantes. Este mapeo ayuda a garantizar la coherencia entre las empresas. Para obtener más información, consulte la sección [Para mapear dimensiones de empresas vinculadas a las dimensiones de su empresa](#to-map-intercompany-dimensions-to-your-companys-dimensions).

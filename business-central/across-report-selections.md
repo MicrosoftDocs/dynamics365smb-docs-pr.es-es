@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134061"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512459"
 ---
 # <a name="report-selection-in-business-central"></a>Selección de informes en Business Central
 
@@ -43,6 +43,7 @@ La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] in
 * **Selección de informe: almacén**  
 * **Selección informe - Cuenta bancaria**  
 * **Selecciones de informe - Recordatorio/interés**  
+* **Selección informe - Proyecto**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Ejemplo: Selección de informes para documentos de ventas
 
@@ -68,6 +69,15 @@ Por ejemplo, en las páginas **Selección de informes: ventas** y **Selección d
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
 [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md)  
 [Configuración de impresoras](ui-specify-printer-selection-reports.md)  
-
+[Informes y análisis financieros en Business Central](finance-reports.md)  
+[Informes y análisis de clientes en Business Central](receivables-reports.md) 
+[Informes y análisis de proveedores en Business Central](payables-reports.md)  
+[Informes y análisis de activos fijos en Business Central](fa-reports.md)  
+[Informes y análisis de proyecto en Business Central](project-reports.md)  
+[Informes y análisis de ventas en Business Central](sales-reports.md)  
+[Informes y análisis de compra en Business Central](purchase-reports.md)  
+[Informes y análisis de inventario y almacén en Business Central](inventory-WMS-reports.md)  
+[Informes y análisis de ensamblado en Business Central](assembly-reports.md)  
+[Informes y análisis de producción en Business Central](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

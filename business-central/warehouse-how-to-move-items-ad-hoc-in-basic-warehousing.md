@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 965a87d731a2e1d9cb2ae390add4536c77c6824c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381041"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520609"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Mover productos ad hoc en configuraciones básicas de almacén
 Puede que necesite de vez en cuando mover los artículos entre las ubicaciones internas, no recibir o enviar ubicaciones, sin una demanda determinada desde un documento de origen. Puede realizar estos movimientos ad hoc, por ejemplo, para reorganizar el almacén, para llevar los artículos a un área de inspección o para mover más artículos a o desde un área de producción sin una relación de sistema con el documento de origen de la orden de producción.  

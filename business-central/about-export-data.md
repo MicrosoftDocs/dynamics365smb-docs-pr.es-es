@@ -10,12 +10,12 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.search.form: 9901, 9018, 9020, 9022, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3161c51160790b2fcc4e702866025e501167b644
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335609"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521389"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportar los datos de negocio a Excel
 Si desea trabajar con sus datos de [!INCLUDE[prod_short](includes/prod_short.md)] en Excel, puede abrir todas las listas en Excel y trabajar con ellos. De igual forma, si desea cancelar la suscripción de [!INCLUDE[prod_short](includes/prod_short.md)], puede exportar los datos a Excel de forma que pueda llevárselos.

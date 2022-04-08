@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5a81bf1377c7ba477961205ccb67fc9982ac3ae
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab9ad6e770e1a8c1c6ebc9e20d00e9f72ebec7c6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140922"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518970"
 ---
 # <a name="managing-marketing-campaigns"></a>Administrar campañas de marketing
 Un buen plan de marketing puede permitirle identificar, atraer y conservar a los clientes. Un plan de marketing consta de varias campañas y otras interacciones relacionadas con sus actividades de ventas y marketing. Durante la planificación de una campaña, debe decidir a qué contactos se va a dirigir, el tipo de campaña (por ejemplo, exposición comercial o correo directo) y los vendedores que realizarán las tareas.

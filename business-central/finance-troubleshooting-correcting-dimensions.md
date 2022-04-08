@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381728"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519126"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Resolución de problemas y corrección de dimensiones
 
@@ -103,7 +103,7 @@ Si la acción Deshacer no está disponible, por ejemplo, porque ha realizado muc
 
 Tenga cuidado al corregir grandes conjuntos de entradas, por ejemplo, conjuntos que incluyan más de 10 000 entradas. Si puede, le recomendamos que use los filtros para ejecutar las correcciones en conjuntos de datos más pequeños. También es una buena idea realizar correcciones fuera del horario comercial habitual. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Usar vistas de análisis con correcciones de dimensión
+### <a name="use-analysis-views-with-dimension-corrections"></a>Usar vistas de análisis con correcciones de dimensión
 
 Si **Actualizar al registrar** está habilitado para una vista de análisis, [!INCLUDE[prod_short](includes/prod_short.md)] puede ver cuándo se registran los documentos y diarios. También puede actualizar las vistas con esta configuración habilitada con los resultados de las correcciones de dimensión. Para ello, active el control de alternancia **Actualizar vistas de análisis**. La actualización de las vistas de análisis puede afectar al rendimiento, especialmente para grandes conjuntos de datos, por lo que le recomendamos que actualice las vistas de análisis solo para conjuntos de datos pequeños.  
 
@@ -118,7 +118,7 @@ Si una corrección no se completa, aparecerá una advertencia en la ficha de cor
 > [!NOTE]
 > Restablecer una corrección incompleta no afectará a las actualizaciones de las vistas de análisis porque se producen al final del proceso de corrección.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Usar la contabilidad de costes con movimientos de contabilidad corregidos
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Usar la contabilidad de costes con movimientos de contabilidad corregidos
 
 Después de corregir las dimensiones, sus datos para la contabilidad de costes no estarán sincronizados. La contabilidad de costes usa dimensiones para agregar cantidades para centros de coste y objetos de coste, y para ejecutar asignaciones de costes. Cambiar las dimensiones para movimientos de contabilidad probablemente signifique volver a ejecutar sus modelos de contabilidad de costes. Si solo necesita eliminar algunos registros de costes y volver a ejecutar asignaciones, o si necesita eliminar todo y volver a ejecutar todos sus modelos, depende de los datos que se hayan actualizado y de cómo estén configuradas sus capacidades de contabilidad de costes. Debe identificar manualmente dónde afectarán las correcciones de dimensión a la contabilidad de costes y dónde se necesitan actualizaciones. [!INCLUDE[prod_short](includes/prod_short.md)] no ofrece actualmente una forma automatizada de hacerlo.
 

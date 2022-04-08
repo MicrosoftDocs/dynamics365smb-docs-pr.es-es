@@ -7,26 +7,30 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: fa2e18e135e9e81634a02e1b193b237c599fd5fc
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382212"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514366"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Cambiar a otra empresa o entorno
+
+[!INCLUDE [prod_short](includes/prod_short.md)] está disponible en muchos países y regiones diferentes y es compatible con muchos tipos diferentes de organizaciones. Su organización podría configurar [!INCLUDE [prod_short](includes/prod_short.md)] así que debe entender los términos *empresa* y *entorno*.  
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Para obtener más información, consulte [Crear nuevas empresas en [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Si a menudo cambia entre empresas o trabaja con [!INCLUDE[prod_short](includes/prod_short.md)] desde dentro de otra aplicación como Microsoft Teams, puede ser fácil perder la noción de dónde se encuentra. Para ayudarle a realizar un seguimiento, puede agregar un distintivo que mostrará el nombre de la empresa, para que pueda verificar rápidamente que está en el lugar correcto. Para obtener más información, vea [Para mostrar un distintivo de empresa para acceder rápidamente a la información de la empresa](ui-change-basic-settings.md#badge).
 
+Dependiendo de su navegador, también puede anclar las diferentes empresas a su barra de favoritos.  
+
 ## <a name="switch-to-another-environment"></a>Cambiar a otro entorno
 
-Cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)], los ambientes a los que puede acceder están disponibles en Office.com. 
+Cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)], los ambientes a los que puede acceder están disponibles en Office.com.  
 
 1. Seleccione el icono del **Lanzador de aplicaciones** ![Lanzador de aplicaciones.](media/app-launcher-icon.png "El lanzador de aplicaciones proporciona acceso a más funciones").
-2. Si no ve una aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en el panel que se abre, entonces elija **Office 365**. Después, introduzca **Business Central** en la caja **Buscar** o seleccione **Todas las aplicaciones** > **Aplicaciones empresariales**.   
+2. Si no ve una aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en el panel que se abre, entonces elija **Office 365**. Después, introduzca **Business Central** en la caja **Buscar** o seleccione **Todas las aplicaciones** > **Aplicaciones empresariales**.  
 3. Habrá una aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] enumerada para cada tipo de entorno, como producción y de pruebas. Para cambiar a otro entorno, elija la aplicación [!INCLUDE[prod_short](includes/prod_short.md)] para el tipo de entorno que es. Si hay más de un entorno de cierto tipo, se le pedirá que elija el entorno al que acceder.
 
 <!--
@@ -51,8 +55,9 @@ Cuando ha iniciado sesión en [!INCLUDE[prod_short](includes/prod_short.md)], pu
 
 ## <a name="see-also"></a>Consulte también
 
-[El centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
+[Entornos y empresas (inglés solo)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+[El centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9456123c29b26c964acf974163ca31daa1e1b7c1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132841"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523376"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurar términos y niveles de recordatorios.
 
@@ -94,7 +94,7 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
     Por ejemplo, si escribe **Tiene una deuda de %9 %7 vencida desde el %2.**, el recordatorio resultante contendrá el siguiente texto: **Tiene una deuda de 1.200,50 USD vencida desde el 02-02-2014**.
 
     > [!NOTE]
-    > La fecha de vencimiento se calcula según la fórmula de fecha que introduzca. Para obtener más información, vea [Uso de fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).
+    > La fecha de vencimiento se calcula según la fórmula de fecha que introduzca. Para obtener más información, vea [Usar fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas).
 
 Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
 

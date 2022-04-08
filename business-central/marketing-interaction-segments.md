@@ -1,22 +1,21 @@
 ---
 title: Realizar un seguimiento de los segmentos y las interacciones relacionadas
 description: Obtenga información sobre cómo crear segmentos para definir grupos de contactos y especificar interacciones para los segmentos.
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5139,
+ms.search.forms: 5091, 5139,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51af368a1ec6e01e8df377cb8c8423edd57154d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131410"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522867"
 ---
 # <a name="manage-interactions-for-segments"></a>Administrar interacciones para segmentos
 La página **Segmento** es un tipo de hoja de cálculo con la que puede:

@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130353"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515516"
 ---
 # <a name="set-up-locations"></a>Configurar ubicaciones
 
@@ -75,13 +75,16 @@ Si desea estructurar sus ubicaciones en zonas, puede hacerlo en la página **Zon
 
 No obstante, puede configurar sólo una zona y organizar el almacén según ubicaciones independientes. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
 
+## <a name="default-dimensions-for-locations"></a>Dimensiones predeterminadas para ubicaciones
+Establece las dimensiones predeterminadas para una ubicación en la página **Tarjeta de ubicación** eligiendo **Ubicación**, y luego **Dimensiones**. Las dimensiones predeterminadas de la ubicación se copian en diarios y documentos cuando especifica la ubicación en una línea, pero puede eliminar o cambiar la dimensión en la línea si es necesario. Puede solicitar que las personas especifiquen dimensiones para ubicaciones específicas antes de que puedan publicar una entrada. También puede incluir valores de dimensión de ubicación en **Prioridades de dimensión predeterminadas** y **Combinaciones de dimensiones** para combinaciones de reglas de prioridad y dimensión.
+
 ## <a name="see-also"></a>Consulte también
 
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  
 [Crear ubicaciones](warehouse-how-to-create-individual-bins.md)  
 [Configurar tipos de ubicación](warehouse-how-to-set-up-bin-types.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)

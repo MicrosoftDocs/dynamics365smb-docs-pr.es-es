@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 06693ce5e02256e7f0b8d54788849c146ed9dcb1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e2fe316c9f310abe3eb3bc031146445a8ffa7cef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129497"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512027"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Configurar almacenes para utilizar las ubicaciones
 Las ubicaciones representan la estructura del almacén básico y se utilizan para realizar sugerencias sobre la colocación de los artículos. Cuando haya creado sus ubicaciones, puede definir muy específicamente el contenido que desea que lleve a cada ubicación o la ubicación puede funcionar como una ubicación aleatoria sin contenido específico.  
@@ -47,7 +47,7 @@ Este organigrama muestra cómo se rellena el campo de **Código de ubicación** 
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

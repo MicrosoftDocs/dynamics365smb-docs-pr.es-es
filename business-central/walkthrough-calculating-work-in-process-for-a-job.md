@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ee0720c6fe8f7b64e99344fc277a5c42a0243b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148153"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523298"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
 

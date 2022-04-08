@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138471"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515594"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Obtener Business Central en el dispositivo móvil
 
@@ -40,7 +40,7 @@ Ahora debería tener acceso a [!INCLUDE[prod_short](includes/prod_short.md)] y v
 > [!TIP]
 > Si desea conectar la aplicación a un entorno de caja de arena, elija el botón **Opciones avanzadas** y luego elija la opción de inicio de sesión **Espacio aislado en la nube**. Luego, si tiene más de un entorno de espacio aislado, elija el entorno relevante.
 
-## <a name="using-business-central-on-premises"></a>¿Uso de Business Central local?
+## <a name="use-business-central-on-premises"></a>¿Desea usar Business Central local?
 
 Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, también puede disfrutar de los beneficios de la aplicación móvil. La instalación es similar, pero con un par de excepciones.
 

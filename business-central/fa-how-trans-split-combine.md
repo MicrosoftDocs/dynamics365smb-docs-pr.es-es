@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8bed1cc63d95d3b49bf439da0ccf949d536b9792
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 48f2735c39c3630611abcb785efc67cfd9473671
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136249"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511134"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Permite transferir, dividir o combinar activos fijos
 

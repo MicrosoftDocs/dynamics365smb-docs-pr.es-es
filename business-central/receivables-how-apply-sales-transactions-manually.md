@@ -1,6 +1,6 @@
 ---
 title: Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.
-description: Describe cómo liquidar los recibos de efectivo o los reembolsos a uno o varios movimientos de clientes pendientes y conciliar pagos del cliente.
+description: Describe cómo liquidar los recibos de efectivo o los reembolsos a uno o varios movimientos de clientes pendientes. Esto es parte de la conciliación de los pagos de los clientes.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,16 +10,16 @@ ms.search.keywords: payment process, cash receipt
 ms.search.form: 25, 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3225ec2a441bde12abb5dd008c58f5a82fc96770
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: b41c8558c29bcc14edfe1d84cfadc2fdcc95865d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367077"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513762"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Concilie los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente.
 
-Cuando recibe un cobro de un cliente o efectúa un reembolso, debe decidir si va a liquidar el pago o reembolsarlo para cerrar uno o varios movimientos pendientes del debe o el haber. Puede especificar el importe que desea liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente garantiza que la información, como las estadísticas de cliente, los extractos de cuenta y los intereses, sean correctos.
+Cuando recibe un pago de un cliente o efectúa un reembolso, puede liquidar el pago o reembolsarlo para cerrar débitos o haber pendientes. Puede especificar el importe a liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente conserva las estadísticas de cliente, los extractos de cuenta, los intereses, etc. al día.
 
 > [!TIP]  
 >   En la página **Movs. clientes**, la fuente de color rojo significa que el pago relacionado ha superado su fecha de vencimiento. Si los pagos vencidos se están convirtiendo en un problema, podemos ayudarle a reducir su frecuencia. Puede habilitar la extensión de **Predicciones de pago atrasado**, que usa un modelo predictivo que creamos en Azure Machine Learning para predecir el momento en que se realizan los pagos. Estas predicciones le ayudan a reducir los cobros pendientes y afinar la estrategia de sus colecciones. Por ejemplo, si se predice que un pago se retrasará, puede ajustar los términos de pago o el método de pago para el cliente. Para obtener más información, consulte [Predicciones de pago atrasado](ui-extensions-late-payment-prediction.md).  
@@ -29,16 +29,17 @@ Puede liquidar movimientos de cliente de varias formas:
 * Al introducir información en páginas dedicadas:
     * La página **Diario de conciliación de pagos**. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md).
     * La página **Registro de pago**. Para obtener más información, consulte [Conciliar pagos de cliente desde una lista de documentos de ventas sin abonar](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-    * El **Diario de recibos de cobro**. Este se describe a continuación.
-* Rellenando el campo **Liq. por nº documento** en documentos de abono de venta. Este se describe a continuación.
-* Mediante la acción **Marcar id. de liquidación** en un movimiento de cliente. Este se describe a continuación.
+    * El **Diario de recibos de cobro**. Esta opción se describe a continuación.
+* Rellenando el campo **Liq. por nº documento** en documentos de abono de venta. Esta opción se describe a continuación.
+* Mediante la acción **Marcar id. de liquidación** en un movimiento de cliente. Esta opción se describe a continuación.
+* Al usar la acción **Aplicar entradas** en la página **Deposito bancario** y luego ingresando el número de factura en el campo **Se aplica a la identificación**. Para obtener más información, consulte [Crear depositarios bancarios](bank-create-bank-deposits.md).
 
 > [!NOTE]  
 >   Si el campo **Método liquidación** de la ficha del cliente contiene **Liq. por antigüedad**, los pagos se liquidan en el movimiento de crédito pendiente más antiguo, a menos que especifique manualmente un movimiento. Si el método de liquidación es **Manual**, siempre debe liquidar los movimientos manualmente.
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Para rellenar y registrar un diario de recibos de efectivo
-Un diario de cobros es un tipo de diario general, por lo que puede usarlo para registrar transacciones en cuentas contables, de banco, de cliente, de proveedor y de activos fijos. Puede liquidar el pago de uno o más movimientos de débito cuando registra el pago o puede liquidarlos desde movimientos registrados posteriormente.
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de recibos de efectivo**, y luego elija el enlace relacionado.
+Un diario de recibos de caja es un tipo de diario general. Puede usarlo para registrar transacciones en cuentas de contabilidad, bancos, clientes, proveedores y activos fijos. Puede liquidar el pago a una o más entradas del debe cuando registra el pago. También puede aplicar desde las entradas publicadas más tarde.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de recibos de efectivo**, y luego elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
 3. Seleccione la sección de diario que le interese en el campo **Nombre sección**.
 4. Rellene el campo **Fecha registro**.  
@@ -65,7 +66,7 @@ Un diario de cobros es un tipo de diario general, por lo que puede usarlo para r
 9. En el campo **Importe a liquidar**, introduzca el importe con el que desea liquidar el movimiento. Si no especifica ninguna cantidad, se usa el importe máximo.
 
     Al final de la página **Movs. pendientes cliente**, podrá ver el importe específico incluido en el campo **Importe liquidado** y también si la liquidación está cuadrada.  
-10. Elija el botón **Aceptar**. La página **Diario de recibos de efectivo** ahora muestra el movimiento que ha introducido en los campos **Liq. por tipo documento** y **Liq. por n.º documento**.
+10. Elija el botón **Aceptar**. La página **Diario de recibos de efectivo** ahora muestra el movimiento en los campos **Liq. por tipo documento** y **Liq. por n.º documento**.
 11. Registro el diario de cobros.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Para liquidar un pago a varios movimientos de cliente
@@ -128,7 +129,7 @@ En la lista de movimientos, en la línea que contiene el movimiento que se liqui
 ## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Para liquidar movimientos de cliente en divisas diferentes
 Si vende a un cliente en una divisa y cobra en otra, aún puede liquidar la factura con el pago.  
 
-Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movimiento 2) en otra divisa, se usa la fecha de registro del Movimiento 1 para buscar el tipo de cambio adecuado para convertir los importes del Movimiento 2. El tipo de cambio relevante se encuentra en la página **Tipos cambio divisa**.  
+A continuación, tiene un ejemplo. Puede liquidar el Movimiento 1 en una divisa al Movimiento 2 en otra divisa. La fecha de contabilización en la Entrada 1 se utiliza para encontrar el tipo de cambio que se utilizará para convertir los importes en la Entrada 2. El tipo de cambio se encuentra en la página **Tipos cambio divisa**.  
 
 Se debe habilitar la liquidación de movimientos de cliente en divisas diferentes. Para obtener más información, vea [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
@@ -143,7 +144,7 @@ Se debe habilitar la liquidación de movimientos de cliente en divisas diferente
 >   Si liquida movimientos en distintas divisas, los movimientos se convierten a divisa local. Aunque los tipos de cambio de las dos divisas son fijos, como entre USD y EUR, es posible que exista un pequeño importe residual al convertir los importes a USD. Estos importes residuales mínimos se registran como ganancias y pérdidas en la cuenta especificada en los campos **Cta. dif. pos. realizadas** o **Cta. dif. neg. realizadas** de la página **Divisas**. El campo **Importe (USD)** también se ajusta para los movimientos de proveedor.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>Para corregir una liquidación de movimientos de clientes
-Cuando se corrige una liquidación errónea, se crean y registran movimientos de corrección que son idénticos al original, pero de signo opuesto en el campo de importe, para todos los movimientos, incluidos todos los registros de contabilidad derivados de la liquidación, como los descuentos por pronto pago y las pérdidas y ganancias en divisas. Los movimientos que se cerraron con la liquidación se volverán a abrir.  
+Cuando corrige una aplicación, se crean y registran entradas de corrección para todas las entradas. Las entradas de corrección son las mismas que las originales pero tienen un registro opuesto en el campo **Cantidad**. Las entradas de corrección incluyen todas las entradas del libro mayor derivadas de la aplicación. Por ejemplo, el descuento de pago y las ganancias/pérdidas de divisas. Los movimientos que se cerraron con la liquidación se volverán a abrir.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abrir la ficha de cliente correspondiente.

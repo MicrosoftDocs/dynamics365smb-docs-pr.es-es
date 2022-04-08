@@ -4,14 +4,15 @@ description: Consulte qué informes y análisis están disponibles en la versió
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: ba0e5f3f75c01fd7a703097efc75809061c06715
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bd3c8db65e27f1e48906fbbf1bdce380835f9b46
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139605"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511092"
 ---
 # <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Informes y análisis de activos fijos en Business Central
 

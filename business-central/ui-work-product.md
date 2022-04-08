@@ -6,17 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323063"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516515"
 ---
-# <a name="working-with-prod_short"></a>Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-prod_short"></a>Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
 

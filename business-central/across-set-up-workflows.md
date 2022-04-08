@@ -9,22 +9,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c07a3cfc9807ddcb78a97dc342013ff6e498fee7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133257"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518446"
 ---
 # <a name="set-up-workflows"></a>Configurar flujos de trabajo
 
-Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo. Para obtener más información, consulte [Uso de flujos de trabajo](across-use-workflows.md).  
+Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo. Para obtener más información, consulte [Usar flujos de trabajo](across-use-workflows.md).  
 
  Antes de empezar a utilizar flujos de trabajo, debe configurar usuarios de flujo de trabajo y usuarios de aprobación, especificar cómo reciben los usuarios notificaciones sobre pasos del flujo de trabajo y, a continuación, crear los flujos de trabajo potencialmente precedidos por personalización del código.  
 
  En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.  
 
- Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos a través de código o puede configurar un flujo de trabajo mediante Power Automate. Para más información, ver [Utilizando [!INCLUDE[prod_short](includes/prod_short.md)] en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md) o [Eventos en AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) en la ayuda del desarrollador, respectivamente.
+ Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos a través de código o puede configurar un flujo de trabajo mediante Power Automate. Para obtener más información, ver [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md) o [Eventos en AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) en la ayuda del desarrollador, respectivamente.
 
  En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 
@@ -48,7 +48,7 @@ Este video muestra cómo configurar un flujo de trabajo que requerirá que algui
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
 ## <a name="see-also"></a>Consulte también  
- [Uso de flujos de trabajo](across-use-workflows.md)   
+ [Usar flujos de trabajo](across-use-workflows.md)   
  [Flujo de trabajo](across-workflow.md)   
  [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Trabajar con Business Central](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130020"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521681"
 ---
 # <a name="change-which-features-are-displayed"></a>Cambiar las funciones que se muestran
 [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para ayudarlo a administrar su empresa, independientemente del tamaño y la complejidad. En el núcleo del producto, encontrará características esenciales, como informes financieros, ventas, compras y administración de inventario. A medida que aumenta la complejidad empresarial, puede activar la funcionalidad para la fabricación y la administración de servicios, por ejemplo.

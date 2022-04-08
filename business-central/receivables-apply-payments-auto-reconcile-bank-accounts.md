@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1291, 1293, 1294
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9eb37571da51c0bab1fed0f6f62170208e7ee8c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19f2a449e90476ed77d144c1faf715f21777f5e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146181"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522699"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Liquidación de pagos automáticamente y conciliación de cuentas bancarias
 Debe conciliar con frecuencia los bancos y las cuentas de cobros y de pagos liquidando pagos registrados en el banco en sus facturas abiertas (sin abonar) relacionadas, abonos y otros movimientos pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -31,7 +31,7 @@ Para importar extractos bancarios como fuente de banco, primero debe configurar 
 > [!TIP]
 > También puede importar archivos de extractos de cuenta en formato delimitado por coma o punto y coma (.CSV). Use la configuración asistida **Configurar un formato de archivo de extracto de cuenta** para definir formatos de importación de extractos de cuenta y adjuntar el formato a una cuenta bancaria. A continuación, puede usar estos formatos cuando importe extractos de cuenta en la página **Conciliación de cuentas bancarias**.
 
-De forma alternativa, puede usar la extensión AMC Banking 365 Fundamentals para convertir un archivo de extracto de cuenta, en cualquier formato, a una secuencia de datos que pueda importar en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+De forma alternativa, puede usar la extensión AMC Banking 365 Fundamentals para convertir un archivo de extracto de cuenta, en cualquier formato, a una secuencia de datos que pueda importar en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
 

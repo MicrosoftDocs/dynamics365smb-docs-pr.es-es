@@ -9,14 +9,17 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148309"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512763"
 ---
-# <a name="import-and-export-custom-report-layouts"></a>Importar y exportar diseños de informe personalizados
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Versión heredada) Importar y exportar diseños de informe personalizados
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
+
 Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red. Por ejemplo, puede exportar un diseño de informe y, a continuación, enviar el archivo a otra persona para que lo modifique. Esa persona podrá entonces hacer las modificaciones en el diseño y devolverle el archivo para que pueda importarlo de nuevo.  
 
 > [!IMPORTANT]  

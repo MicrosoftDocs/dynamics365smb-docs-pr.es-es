@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131013"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521285"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Crear flujos de trabajo para conectar tareas de procesos empresariales
 
@@ -104,7 +104,7 @@ Para ambos tipos de eventos, los eventos están definidos por el sistema. Se deb
     >  Puede cambiar solo la sangría de un paso que no tenga un paso subsiguiente.  
 
 12. Repita los pasos del 7 al 11 para añadir más pasos de flujo de trabajo antes o después del paso que acaba de crear.  
-13. Seleccione la casilla **Habilitado** para especificar que el flujo de trabajo empezará en cuanto se produzca el evento en el primer paso de tipo **Punto de entrada**. Para obtener más información, consulte [Uso de flujos de trabajo](across-use-workflows.md).  
+13. Seleccione la casilla **Habilitado** para especificar que el flujo de trabajo empezará en cuanto se produzca el evento en el primer paso de tipo **Punto de entrada**. Para obtener más información, consulte [Usar flujos de trabajo](across-use-workflows.md).  
 
 > [!NOTE]  
 > No habilite un flujo de trabajo hasta que esté seguro de que el flujo de trabajo esté completado y que los pasos del flujo de trabajo relacionado puedan comenzar.  
@@ -188,7 +188,7 @@ A continuación, debe probar el flujo de trabajo abriendo un proveedor existente
 [Eliminar flujos de trabajo](across-how-to-delete-workflows.md)  
 [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Configurar flujos de trabajo](across-set-up-workflows.md)  
-[Uso de flujos de trabajo](across-use-workflows.md)  
+[Usar flujos de trabajo](across-use-workflows.md)  
 [Flujo de trabajo](across-workflow.md)  
 
 

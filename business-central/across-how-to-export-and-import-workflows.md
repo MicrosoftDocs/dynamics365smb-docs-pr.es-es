@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70a39d8d80ff5ca36953bea3923e4adbcbbca0d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ece05f68c15384ab11ae492bd6f138da14bafc1c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136535"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513205"
 ---
 # <a name="export-and-import-workflows"></a>Importar y exportar flujos de trabajo
 Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo, para ahorrar tiempo al crear nuevos flujos de trabajo, puede exportar e importar flujos de trabajo.  
@@ -44,7 +44,7 @@ Para transferir flujos de trabajo a otras bases de datos de [!INCLUDE[prod_short
  [Eliminar flujos de trabajo](across-how-to-delete-workflows.md)   
  [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
- [Uso de flujos de trabajo](across-use-workflows.md)   
+ [Usar flujos de trabajo](across-use-workflows.md)   
  [Flujo de trabajo](across-workflow.md)   
 
 

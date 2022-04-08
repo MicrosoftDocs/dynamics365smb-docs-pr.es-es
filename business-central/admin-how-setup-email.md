@@ -10,15 +10,15 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0c1dc36384541742e36cc0a74dc00fdecaf18b37
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ed1fb96cd3fb5a966df7f48f0918ac1514312c49
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382024"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515828"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
-Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden facilitarlo conectando una o más cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], para que pueda enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc., y agregar archivos adjuntos de hasta 100 MB. Los administradores también pueden configurar diseños de informes que incluyan solo la información clave de los documentos. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
+Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden conectar una o varias cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], para que pueda enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc. También puede agregar archivos adjuntos de hasta 100 MB. Además, los administradores pueden configurar diseños de informes que incluyan solo la información clave de los documentos. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 
 Las capacidades de correo electrónico en [!INCLUDE[prod_short](includes/prod_short.md)] son solo para mensajes salientes. No puede recibir respuestas, es decir, no hay una página de bandeja de entrada en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -31,7 +31,7 @@ Las capacidades de correo electrónico en [!INCLUDE[prod_short](includes/prod_sh
 Para configurar el correo electrónico, debe tener el conjunto de permisos **CONFIGURACIÓN DE CORREO ELECTRÓNICO**. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md). 
 
 ## <a name="adding-email-accounts"></a>Agregar cuentas de correo electrónico
-Agrega cuentas de correo electrónico a través de extensiones que permiten que se conecten cuentas de diferentes proveedores a [!INCLUDE[prod_short](includes/prod_short.md)]. Las extensiones estándar le permiten usar cuentas de Microsoft Exchange Online, pero puede haber otras extensiones disponibles que le permitan conectar cuentas de otros proveedores, como Gmail.
+Agrega cuentas de correo electrónico a través de extensiones que permiten que se conecten cuentas de diferentes proveedores a [!INCLUDE[prod_short](includes/prod_short.md)]. Las extensiones estándar le permiten usar cuentas de Microsoft Exchange Online. Sin embargo, es posible que estén disponibles otras extensiones que le permitan conectar cuentas de otros proveedores, como Gmail.
 
 Después de agregar una cuenta de correo electrónico, puede especificar escenarios comerciales predefinidos en los que usar la cuenta para enviar correos electrónicos. Por ejemplo, puede especificar que todos los usuarios envíen documentos de ventas desde una cuenta y compren documentos de otra. Para más información, vea [Asignar escenarios de correo electrónico a cuentas de correo electrónico](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
@@ -39,19 +39,19 @@ La siguiente tabla describe las extensiones de correo electrónico que están di
 
 |Extensión  |Descripción  |Ejemplos de cuando usar  |
 |---------|---------|---------|
-|**Microsoft 365**|Todos envían correos electrónicos desde un buzón compartido en Exchange Online.|Cuando todos los mensajes provienen del mismo departamento, por ejemplo, su organización de ventas envía mensajes desde una cuenta sales@cronus.com. Esto requiere que configure un buzón compartido en el centro de administración de Microsoft 365. Para más información, vea [Buzones de correo compartidos](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
-|**Usuario actual**|Todos envían correos electrónicos desde la cuenta que usaron para iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)].|Permitir comunicaciones de cuentas individuales.|
+|**Conector de Microsoft 365**|Todos envían correos electrónicos desde un buzón compartido en Exchange Online.|Cuando todos los mensajes provienen del mismo departamento, por ejemplo, su organización de ventas envía mensajes desde una cuenta sales@cronus.com. Esta opción requiere que configure un buzón compartido en el centro de administración de Microsoft 365. Para más información, vea [Buzones de correo compartidos](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Conector de usuario actual**|Todos envían correos electrónicos desde la cuenta que usaron para iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)].|Permitir comunicaciones de cuentas individuales.|
 |**Otro (SMTP)**|Usar el protocolo SMTP para enviar mensajes de correo electrónico.|Permita las comunicaciones a través de su servidor de correo SMTP. |
 
 > [!NOTE]
-> Las extensiones de **Microsoft 365** y **Usuario actual** usan las cuentas que configura para los usuarios en el centro de administración de Microsoft 365 para su suscripción a Microsoft 365. Para enviar correo electrónico utilizando las extensiones, los usuarios deben tener una licencia válida para Exchange Online. 
+> Las extensiones de **Conector de Microsoft 365** y **Conector de usuario actual** usan las cuentas que configura para los usuarios en el centro de administración de Microsoft 365 para su suscripción a Microsoft 365. Para enviar correo electrónico utilizando las extensiones, los usuarios deben tener una licencia válida para Exchange Online. Además, estas extensiones requieren que la configuración **Permitir solicitudes HttpClient** está habilitada. Para comprobar si está habilitada para estas extensiones, vaya a la página **Administración de extensiones**, elija la extensión y luego la opción **Configurar**.
 >
-> Además, los usuarios externos, como administradores delegados y contables externos, no pueden utilizar estas extensiones para enviar mensajes de correo electrónico desde [!INCLUDE[prod_short](includes/prod_short.md)].
+> Los usuarios externos, como administradores delegados y contables externos, no pueden utilizar estas extensiones para enviar mensajes de correo electrónico desde [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Configuración de SMTP heredada y correo electrónico: extensión del conector SMTP
-Si ya está usando [!INCLUDE[prod_short](includes/prod_short.md)] y ha configurado el correo electrónico a través de la configuración SMTP heredada, puede continuar usando su configuración en paralelo con la extensión Correo electrónico - Conector SMTP. Cuando actualizamos su [!INCLUDE[prod_short](includes/prod_short.md)] a la próxima versión de lanzamiento, copiaremos su configuración SMTP heredada en la extensión Correo electrónico - Conector SMTP. Cuando esté listo, su administrador puede activar las capacidades mejoradas de correo electrónico y comenzará a usar la extensión Correo electrónico - Conector SMTP. Para obtener más información, consulte [Acerca de la gestión de características](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Sin embargo, no hay sincronización entre la extensión del conector SMTP y la configuración heredada. Si cambia la configuración de SMTP en la extensión, debe realizar los mismos cambios en la configuración de SMTP heredada, o viceversa.
+Si utiliza la configuración de SMTP heredada en [!INCLUDE[prod_short](includes/prod_short.md)], puede seguir haciéndolo en paralelo con la extensión Correo electrónico - Conector SMTP. Cuando actualizamos su [!INCLUDE[prod_short](includes/prod_short.md)] a la próxima versión de lanzamiento, copiaremos su configuración de SMTP heredada en la extensión Correo electrónico - Conector SMTP. Cuando esté listo, su administrador puede activar las capacidades mejoradas de correo electrónico y comenzará a usar la extensión Correo electrónico - Conector SMTP. Para obtener más información, consulte [Acerca de la gestión de características](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Sin embargo, no hay sincronización entre la extensión del conector SMTP y la configuración heredada. Si cambia la configuración de SMTP en la extensión, debe realizar los mismos cambios en la configuración de SMTP heredada, o viceversa.
 
 > [!NOTE]
 > Si tiene personalizaciones que se basan en la configuración de correo electrónico SMTP heredada, existe la posibilidad de que algo salga mal con sus personalizaciones si comienza a usar extensiones de correo electrónico. Le recomendamos que configure y pruebe las extensiones antes de activar el interruptor de función para mejorar las capacidades de correo electrónico.
@@ -75,7 +75,7 @@ La guía de configuración asistida para **Configurar correo electrónico** pued
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Asignar escenarios de correo electrónico a cuentas de correo electrónico
-Los escenarios de correo electrónico son procesos que implican el envío de un documento, como una orden de compra o de venta, o una notificación, como una invitación a un contador externo. Puede utilizar cuentas de correo electrónico específicas para escenarios específicos. Por ejemplo, puede especificar que todos los usuarios envíen siempre documentos de ventas de una cuenta, documentos de compra de otra y documentos de almacén o producción de una tercera cuenta. Puede asignar, reasignar y eliminar escenarios cuando lo desee, pero solo puede asignar un escenario a una cuenta de correo electrónico a la vez. La cuenta de correo electrónico predeterminada se utilizará para todos los escenarios que no estén asignados a una cuenta.
+Los escenarios de correo electrónico son procesos que implican el envío de un documento. Por ejemplo, un pedido de compra o venta o una notificación, como una invitación a un contable externo. Puede utilizar cuentas de correo electrónico específicas para escenarios específicos. Por ejemplo, puede especificar que todos los usuarios envíen siempre documentos de ventas de una cuenta, documentos de compra de otra y documentos de almacén o producción de una tercera cuenta. Puede asignar, reasignar y eliminar escenarios cuando lo desee, pero solo puede asignar un escenario a una cuenta de correo electrónico a la vez. La cuenta de correo electrónico predeterminada se utilizará para todos los escenarios que no estén asignados a una cuenta.
  
 <!--
 ## To set up email
@@ -90,6 +90,19 @@ Los escenarios de correo electrónico son procesos que implican el envío de un 
 
 -->
 
+## <a name="set-up-view-policies"></a>Configurar directivas de visualización
+Puede controlar los mensajes de correo electrónico que un usuario puede ver en las páginas Bandeja de salida de correo electrónico y Correos electrónicos enviados.
+
+En **Directivas de visualización de correo electrónico de usuario**, elija un usuario y luego una de las siguientes opciones en el campo **Directiva de visualización de correo electrónico**:
+
+* **Ver correos electrónicos propios**: el usuario solo puede ver sus propios mensajes de correo electrónico.
+* **Ver todos los correos electrónicos**: el usuario puede ver todos los mensajes de correo electrónico, incluidos los correos electrónicos enviados por otros usuarios.
+* **Ver si se tiene acceso a todos los registros relacionados**: esta es la directiva de visualización predeterminada. El usuario puede ver los mensajes de correo electrónico que enviaron otros usuarios si el usuario tiene acceso al registro que se envió y todo lo relacionado. Por ejemplo, el usuario A envió un histórico de facturas de venta a un cliente. El usuario B puede ver el mensaje de correo electrónico si tiene acceso tanto a la factura como al cliente.
+* **Ver si se tiene acceso a los registros relacionados**: el usuario puede ver los mensajes de correo electrónico que enviaron otras personas si el usuario tiene acceso a como mínimo un registro relacionado con el registro que se envió. Por ejemplo, el usuario A envió un histórico de facturas de venta a un cliente. El usuario B puede ver el mensaje de correo electrónico si tiene acceso a la factura o al cliente.
+
+> [!NOTE]
+>  Si deja vacío el campo **ID de usuario** y luego elige la acción Directiva de visualización de correo electrónico, la directiva que defina se aplica a todos los usuarios.
+
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Configurar textos y diseños de correo electrónico reutilizables para documentos de compra y venta
 Puede utilizar informes para incluir información clave de documentos de compra y venta en textos para correos electrónicos. Este procedimiento describe cómo configurar el informe **Factura de venta** para facturas de ventas registradas, pero el proceso es similar para otros informes.
 
@@ -99,14 +112,14 @@ Puede utilizar informes para incluir información clave de documentos de compra 
 4. Seleccione la casilla **Usar para el cuerpo del correo electrónico**.
 5. Elija el campo **Descripción de diseño del cuerpo del correo electrónico** y seleccione un diseño en la lista.
 
-    Las plantillas de informes definen tanto el estilo como el contenido del texto del correo, incluyendo textos como saludos o instrucciones que preceden a la información del documento. Si su organización tiene muchos diseños, puede ver todos los diseños de informe disponibles si elige **Seleccionar de la lista completa**.
+    Los diseños de informe definen el estilo y el contenido del texto en el correo electrónico. Esto incluye textos como un saludo o instrucciones que preceden a la información del documento. Si su organización tiene muchos diseños, puede elegir **Seleccionar de la lista completa** para acceder a todos los diseños de informe disponibles.
 6. Para ver o editar el diseño en el que se basa el texto del correo electrónico, seleccione el diseño en la página **Diseños de informe personalizados** y, a continuación, elija la acción **Actualizar diseño**.
-7. Si desea ofrecer a sus clientes el pago de las ventas de forma electrónica puede configurar el servicio de pago relacionado, como por ejemplo PayPal y, a continuación, puede disponer también de su información y su vínculo en el texto del correo. Para obtener más información, consulte [Permitir pagos de cliente a través de PayPal](sales-how-enable-payment-service-extensions.md).
+7. Si desea permitir que los clientes utilicen un servicio de pago, como PayPal, deberá configurar el servicio. Después, la información y el vínculo de PayPal se insertan en el texto del correo electrónico. Para obtener más información, consulte [Permitir pagos de cliente a través de PayPal](sales-how-enable-payment-service-extensions.md).
 8. Elija el botón **Aceptar**.
 
 Ahora bien, cuando selecciona, por ejemplo, la acción **Enviar** en la página **Factura venta reg.**, el cuerpo del correo electrónico contendrá la información del documento del informe 1306 precedida por el texto estándar siguiendo el diseño de informe que seleccionó en el paso 5.
 
-## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Uso de una dirección de remitente sustituta en los mensajes de correo electrónico salientes
+## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Usar una dirección de remitente sustituta en los mensajes de correo electrónico salientes
 Si usa la configuración SMTP heredada, puede utilizar las funciones **Enviar como** o **Enviar en nombre de** en Microsoft Exchange para cambiar la dirección del remitente en los mensajes salientes. [!INCLUDE[prod_short](includes/prod_short.md)] utilizará la cuenta SMTP para autenticarse en Exchange, pero sustituirá la dirección del remitente por la que especifique o la modificará con "en nombre de".
 
 A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nombre de en [!INCLUDE[prod_short](includes/prod_short.md)]:
@@ -136,14 +149,14 @@ A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nom
 > [!INCLUDE[prod_short](includes/prod_short.md)] determinará qué dirección se mostrará en el siguiente orden: <br><br> 1. La dirección especificada en el campo **Correo electrónico** de la página **Configuración de usuario de aprobación** para los mensajes en un flujo de trabajo. <br> 2. La dirección especificada en el campo **Enviar como** de la página **Configuración de correo electrónico SMTP**. <br> 3. La dirección especificada en el campo **ID de usuario** de la página **Configuración de correo electrónico SMTP**.
 
 ## <a name="set-up-document-sending-profiles"></a>Configurar perfiles de envío de documentos
-Puede configurar un método preferido de envío de documentos de ventas para cada uno de sus clientes, de modo que no tenga que seleccionar una opción de envío, como enviar el documento por correo electrónico o como documento electrónico, cada vez que envía un documento. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
+Puede ahorrar tiempo configurando un método preferido de envío de documentos de ventas para cada uno de sus clientes. Si lo hace, no tendrá que seleccionar una opción de envío, como enviar el documento por correo electrónico o como documento electrónico, cada vez que envíe un documento. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
 
-## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Configurar carpetas públicas y reglas para iniciar sesión por correo electrónico en Exchange Online
+## <a name="optional-set-up-email-logging-in-exchange-online"></a>Opcional: Configurar el registro de correo electrónico en Exchange Online
 Aproveche al máximo las comunicaciones entre los vendedores y sus clientes actuales o potenciales mediante el seguimiento de los intercambios de correos electrónicos y, a continuación, conviértalos en oportunidades procesables. Para obtener más información, vea [Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos](marketing-set-up-email-logging.md).  
-
+<!--
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
-Luego, te conectas [!INCLUDE[prod_short](includes/prod_short.md)] con Exchange Online. Para obtener más información, vea [Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos](marketing-set-up-email-logging.md).  
+Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
 ## <a name="setting-up-email-for-business-central-on-premises"></a>Configuración del correo electrónico para Business Central en las instalaciones 
 [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones se puede integrar con servicios que se basan en Microsoft Azure. Por ejemplo, puede utilizar Cortana Intelligence para previsiones de flujo de caja más inteligentes, Power BI para visualizar su negocio y Exchange Online para enviar correo electrónico. La integración con estos servicios se basa en el registro de una aplicación en Azure Active Directory. El registro de la aplicación proporciona servicios de autenticación y autorización para las comunicaciones. Para utilizar las capacidades de correo electrónico en [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, debe registrar [!INCLUDE[prod_short](includes/prod_short.md)] como una aplicación en el portal de Azure y luego conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de la aplicación. En el siguiente apartado se explica cómo.

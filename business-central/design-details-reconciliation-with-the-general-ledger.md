@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e76e76fe97f3d4ca5dbe17c5d699cb64bbe5833
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145841"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513023"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Detalles de diseño: Conciliación con contabilidad
 Cuando registra transacciones del inventario, como envíos de ventas, salida de producción o ajustes negativos, se registran los cambios realizados en la cantidad y en los valores del inventario en los movimientos de contabilidad y en los movimientos de valores, respectivamente. El siguiente paso en el proceso será registrar los valores del inventario en las cuentas del inventario del módulo de contabilidad.  

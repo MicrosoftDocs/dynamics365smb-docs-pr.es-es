@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129172"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522357"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Especificar cómo y cuándo recibir notificaciones de flujos de trabajo
 Cuando configura usuarios de aprobación en flujos de trabajo, en los que desea que alguien apruebe los cambios, como cuando se crean nuevos registros o cuando alguien solicita una aprobación, debe especificar cómo y cuándo se notificará al usuario de aprobación. Por ejemplo, puede especificar que un usuario de aprobación recibirá inmediatamente un correo electrónico cuando alguien cree un nuevo cliente. Como alternativa, puede programar las notificaciones para que se entreguen, por ejemplo, semanal o mensualmente.
@@ -73,7 +73,7 @@ Muchos pasos del flujo de trabajo de aprobación están relacionados con la noti
  [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)   
  [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)   
  [Configuración de flujos de trabajo](across-set-up-workflows.md)   
- [Uso de flujos de trabajo](across-use-workflows.md)
+ [Usar flujos de trabajo](across-use-workflows.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

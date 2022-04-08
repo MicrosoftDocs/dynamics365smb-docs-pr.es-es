@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382104"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417524"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
-Si su país o región requiere que calcule el impuesto al valor añadido (IVA) en las transacciones de compra y venta para que pueda informar de los importes a una autoridad fiscal, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para calcular el IVA automáticamente en documentos de ventas y compras. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
+Si su país o región exige que calcule e informe del impuesto sobre el valor añadido (IVA) en las transacciones de compra y venta, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para calcular el IVA. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
 
 Sin embargo, hay algunas tareas relacionadas con el IVA que puede realizar manualmente. Por ejemplo, puede que tenga que corregir un importe registrado si descubre que un proveedor utiliza un método de redondeo diferente.  
 
@@ -26,33 +26,46 @@ Sin embargo, hay algunas tareas relacionadas con el IVA que puede realizar manua
 > Puede dejar que [!INCLUDE[prod_short](includes/prod_short.md)] valide los CIF/NIF y otra información de la empresa al crear o actualizar documentos. Para más información, consulte [Validar CIF/NIF](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Calcular y mostrar los importes del IVA en documentos de ventas y compras  
-Los importes del IVA de los documentos de ventas y compras se pueden calcular y mostrar de distintas maneras, según el tipo de cliente o proveedor de que se trate. También se puede anular el importe del IVA calculado de forma que coincida con el calculado por el proveedor en una transacción concreta.  
+Cuando elija un número de producto en el campo **Nº** en un documento de compra o venta, [!INCLUDE[prod_short](includes/prod_short.md)] completa los campos **Precio unitario** y **Importe línea**. El precio de venta proviene de la ficha **Producto** o de los precios del producto admitidos para el producto y el cliente. [!INCLUDE[prod_short](includes/prod_short.md)] calcula el importe de línea si introduce una cantidad en la línea.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Precio de venta e importe de línea incluido/excluido el IVA en documentos de ventas  
-Cuando elija un número de producto en el campo **Nº** de un documento de venta, [!INCLUDE[prod_short](includes/prod_short.md)] rellenará el campo **Precio de venta**. El precio de venta proviene de la ficha **Producto** o de los precios del producto admitidos para el producto y el cliente. [!INCLUDE[prod_short](includes/prod_short.md)] solo calcula el **Importe de línea** si introduce una cantidad en la línea.  
+Si desea que los precios unitarios y los importes de línea incluyan el IVA, por ejemplo, si vende a consumidores minoristas, seleccione la casilla **Precios IVA Incluido** en el documento. Para obtener más información, consulte [Inclusión o exclusión de IVA en precios e importes de línea](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Si está vendiendo a consumidores minoristas, es posible que desee que los precios de los documentos de ventas incluyan el IVA. Para ello, seleccione la casilla de verificación **Precios IVA incluido** del documento.  
+Los importes del IVA de los documentos de ventas y compras se pueden calcular y mostrar de distintas maneras, según el tipo de cliente o proveedor de que se trate. También se puede cambiar el importe del IVA calculado de forma manual, por ejemplo, para que coincida con el calculado por el proveedor en una transacción concreta.
 
-### <a name="including-or-excluding-vat-on-prices"></a>Inclusión o exclusión de IVA en los precios
-Si la casilla de verificación **Precios IVA incluido** está seleccionada en un documento de ventas, los campos **Precio de venta** e **Importe de línea** incluirán el IVA, lo que también se indicará en el nombre de los campos. De forma predeterminada, no se incluye el IVA en estos campos.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inclusión o exclusión de IVA en precios e importes de línea
+Si elige la casilla **Precios IVA incluido** en un documento de ventas, los campos **Precio de venta** e **Importe de línea** incluirán el IVA. De forma predeterminada, los valores de estos campos no incluyen el IVA. Los nombres de los campos reflejan si los precios incluyen IVA.  
 
-Si el campo no está activado, la aplicación rellenará los campos **Precio de venta** e **Importe de línea** sin incluir el IVA, lo que quedará indicado en el nombre de los campos.  
-
-Puede configurar el valor predeterminado de **Precios IVA incluido** de todos los documentos de venta de un cliente en el campo **Precios IVA incluido** de la ficha **Cliente**. También puede configurar los precios de los productos con el IVA incluido o no incluido. Normalmente, los precios de los productos de la ficha Producto no incluirán el IVA. La aplicación usa la información del campo **Precio IVA incluido** de la ficha **Producto** para determinar el precio de venta de los documentos de ventas.  
+Puede configurar el valor predeterminado de **Precios IVA incluido** de todos los documentos de venta de un cliente en el campo **Precios IVA incluido** de la ficha **Cliente**. También puede configurar los precios de los productos con el IVA incluido o no incluido. Por lo general, los precios en la Ficha de producto no incluirán el IVA. 
 
 En la tabla siguiente se ofrece una descripción global de cómo calcula la aplicación los precios unitarios de los documentos de ventas cuando no se han configurado los precios en la página **Precios de venta**:  
 
-|**Campo Precio IVA incluido de la ficha Producto**|**Campo Precio IVA incluido de la Cabecera Venta**|**Acción realizada**|  
+|**Campo Precio IVA incluido de la ficha Producto**|**Campo Precios IVA incluido**|**Acción realizada**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Sin marca de verificación|Sin marca de verificación|El **Precio de venta** de la ficha Producto se copia en el campo **Precio de venta IVA excl.** de las líneas de ventas.|  
-|Sin marca de verificación|Marca de verificación|La aplicación calcula el importe del IVA por unidad y lo agrega al **Precio de venta** de la ficha Producto. A continuación, este precio de venta total se introduce en el campo **Precio de venta IVA incl.** de las líneas de ventas.|  
-|Marca de verificación|Sin marca de verificación|La aplicación calcula el importe del IVA incluido en **Precio unitario** en la ficha de producto utilizando el % de IVA relativo a la combinación de Gr. contable negocio (Precio) y Grupo registro IVA prod. El **Precio unitario** en la ficha de producto, reducido por el importe de IVA, se introduce en el campo **Precio de venta IVA excl.** en las líneas de venta.|  
-|Marca de verificación|Marca de verificación|El **Precio de venta** de la ficha Producto se copia en el campo **Precio venta IVA incl.** de las líneas de ventas.|
+|No habilitado|No habilitado|El **Precio de venta** de la ficha Producto se copia en el campo **Precio de venta IVA excl.** de las líneas de ventas.|  
+|No habilitado|Habilitada|La aplicación calcula el importe del IVA por unidad y lo agrega al **Precio de venta** de la ficha Producto. A continuación, este precio unitario total se introduce en el campo **Precio de venta IVA incl.** de las líneas de ventas.|  
+|Habilitada|No habilitado|La aplicación calcula el importe del IVA incluido en el campo **Precio unitario** en la **Ficha de producto** utilizando el porcentaje de IVA relativo a la combinación de Gr. contable negocio (Precio) y Grupo registro IVA prod. El **Precio unitario** en la ficha de producto, reducido por el importe de IVA, se introduce en el campo **Precio de venta IVA excl.** en las líneas de venta. Para obtener más información, consulte [Usar Grupos contable IVA negocio y Grupos precio cliente](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Habilitada|Habilitada|El **Precio de venta** de la ficha Producto se copia en el campo **Precio venta IVA incl.** de las líneas de ventas.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Usar Grupos contable IVA negocio y Grupos precio cliente 
+Si desea que los precios incluyan el IVA, puede usar los grupos de registro de IVA de negocio para calcular el importe basado en la configuración de registro de IVA para el grupo. Para obtener más información, consulte [Configuración de grupos de registro de IVA de negocio](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+Dependiendo de lo que desee hacer, puede asignar un grupo de registro de IVA de negocio a clientes o documentos de ventas de las siguientes maneras:
+
+* Para usar el mismo tipo de IVA para todos los clientes, puede elegir un grupo en el campo **Grupo de registro de IVA de negocio (precio)** en la página **Configuración de ventas y cobros**.
+* Para usar un tipo de IVA para un cliente específico, puede elegir un grupo en el campo **Grupo de registro de IVA de negocio (precio)** en la página **Ficha cliente**. 
+* Para usar un tipo de IVA para clientes específicos, puede elegir un grupo en el campo **Grupo de registro de IVA de negocio (precio)** en la página **Grupo precio cliente**. Por ejemplo, esto resulta útil cuando desea que se aplique un precio a todos los clientes en una determinada región geográfica o una industria concreta.
+* En todos los documentos de venta en el campo **Grupo de registro de IVA de negocio**. El importe de IVA especificado para el grupo se utiliza solo para el documento en el que está trabajando actualmente.
+
+> [!NOTE]
+> Si no especifica un grupo en el campo **Grupo de registro de IVA de negocio (precio)**, el IVA no se incluirá en los precios.
+
+#### <a name="examples"></a>Ejemplos
+Factores como el país o la región en los que vende, o el tipo de sectores a los que vende, pueden afectar al importe de IVA que debe contabilizar. Por ejemplo, un restaurante puede cobrar un 6 % de IVA por las comidas que se consumen en el local y un 17 % por las comidas para llevar. Para lograrlo, cree un grupo de registro de IVA de negocio (precio) para uso interno y uno para llevar.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Corrección manual de los importes del IVA en los documentos de ventas y compras  
-Puede corregir los movimientos del IVA registrados. Así, puede cambiar los importes totales del IVA de ventas o compras sin cambiar la base del IVA. Esto resulta necesario, por ejemplo, si recibe una factura de un proveedor que haya calculado el IVA de forma incorrecta.  
+Puede corregir movimientos de IVA contabilizados para poder cambiar los importes totales de IVA repercutido o soportado sin cambiar la base de IVA. Por ejemplo, si recibe una factura de un proveedor con un importe de IVA incorrecto.  
 
-Aunque puede haber configurado una o varias combinaciones para administrar el importe de IVA, debe configurar al menos un grupo de registro de IVA de producto. Por ejemplo, puede nombrarla **CORRECTO** para las correcciones, a menos que pueda utilizar la misma cuenta de contabilidad en el campo **Cta. IVA acreditable** en la línea de configuración de registro de IVA. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
+Aunque puede haber configurado una o varias combinaciones para administrar el importe de IVA, debe configurar al menos un grupo de registro de IVA de producto. Por ejemplo, puede nombrarla **CORRECTO** para las correcciones, a menos que pueda utilizar la misma cuenta de contabilidad en el campo **Cta. IVA acreditable** en la línea de configuración de registro de IVA. Para obtener más información, consulte [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
 
 Si el descuento por pronto pago se ha calculado sobre la base de un importe de factura que incluye IVA, revierta la parte de descuento del importe del IVA cuando se conceda el descuento. Observe que debe activar el campo **Ajuste para dto. P.P.**, tanto en la configuración de la contabilidad en general como en la configuración de los grupos de registro de IVA para las combinaciones específicas de grupo de registro de IVA por negocio y grupo de registro de IVA por producto.  
 

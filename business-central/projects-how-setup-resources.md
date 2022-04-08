@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137424"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520895"
 ---
 # <a name="set-up-resources-for-projects"></a>Configurar recursos para proyectos
 
@@ -27,7 +27,9 @@ Debe especificar el importe predeterminado por hora cuando se crea el recurso. P
 
 > [!NOTE]
 > Puede comprar recursos externos, por ejemplo, para facturar a un proveedor por el trabajo entregado. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).<br /><br />
-> En ese caso, se recomienda que nombre o agrupe dichos recursos externos para indicar su propósito de modo que no se confundan con sus recursos internos.
+> Para recursos externos, recomendamos que los nombre o agrupe de modo que no se confundan con sus recursos internos.
+>  
+> Si está registrando transacciones de empresas vinculadas, aunque puede asignar un recurso a una línea en un pedido de ventas, si convierte el pedido de ventas en un pedido de compra en el lado receptor, el recurso no se incluirá. Para usar recursos en transacciones de empresas vinculadas, use el campo **Compra de IC. cuenta del L/M No.** en la tarjeta de recursos para especificar la cuenta en la que contabilizar los gastos.
 
 ## <a name="to-set-up-a-resource"></a>Para configurar un recurso
 Cree una ficha por cada recurso que desee utilizar en los proyectos.

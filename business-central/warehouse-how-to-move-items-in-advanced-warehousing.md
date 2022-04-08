@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 06b9b770a94a12a5e6f473259c943a52de713e19
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 02a96b48049207d2272c62b008148c000cf676e0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384051"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520583"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Mover productos en configuraciones avanzadas de almacén
 En configuraciones de almacén avanzadas, es decir, en ubicaciones con ubicación y picking directos, los movimientos de almacén entre ubicaciones los realiza un empleado con experiencia que los prepara en la hoja de trabajo de movimientos y, a continuación, crea dichos movimientos para que los realicen los empleados de almacén.  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b4ec7a008c58256a8b7a351d8ee6890ad43fb00a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 012fe136161d891cb4adde6ace120040f7da909a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136982"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513684"
 ---
 # <a name="set-up-shipping-agents"></a>Configurar transportistas
 Configure un código para cada uno de sus transportistas e introduzca información acerca de ellos.  
@@ -42,7 +42,7 @@ Una vez asignado un servicio de transportista a una línea de pedido de venta, e
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

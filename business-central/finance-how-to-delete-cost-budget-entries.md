@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1d6d920e4259752a25dd73c4b10a84e09334f78e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138022"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517477"
 ---
 # <a name="delete-cost-budget-entries"></a>Eliminar movs. ppto. costes
 

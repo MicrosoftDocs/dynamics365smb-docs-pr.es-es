@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137632"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419317"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advertencias y mensajes de error en Dynamics 365 Business Central
 
@@ -20,7 +20,7 @@ Durante un día de trabajo, es posible que vea notificaciones en [!INCLUDE [prod
 
 La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] incluye descripciones para la mayoría de los campos, columnas y acciones a las que se puede acceder cuando se elige el nombre. En combinación con consejos didácticos para páginas importantes, estas descripciones emergentes o leyendas son nuestra implementación actual de la *asistencia al usuario integrada*, que es un principio importante en el mundo actual del diseño de software.  
 
-Si tiene una pregunta sobre un campo u otro elemento de la interfaz de usuario, elija el nombre y aparecerá una breve descripción. Elija el vínculo *Más información* si eso no es suficiente.  
+Si tiene una pregunta sobre un campo u otro elemento de la interfaz de usuario, elija el nombre y aparecerá una breve descripción. Elija el vínculo *Más información* si eso no es suficiente. También puede usar el panel de ayuda del producto para encontrar respuestas a sus preguntas.  
 
 Para más información, vea [Modelo de asistencia al usuario de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/user-assistance) en el contenido de administración de [!INCLUDE [prod_short](includes/prod_short.md)].  
 

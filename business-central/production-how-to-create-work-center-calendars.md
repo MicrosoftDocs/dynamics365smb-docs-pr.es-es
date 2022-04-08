@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e8c950a402c8bbf650deec10eb7be2679c5eeab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131332"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516801"
 ---
 # <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
 

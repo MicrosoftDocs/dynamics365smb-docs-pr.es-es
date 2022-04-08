@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143873"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521181"
 ---
 # <a name="administration"></a>Administración
 
@@ -42,7 +42,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Responda a las solicitudes de los asuntos relacionadas con sus datos personales.|[Respuesta a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md)|
 |Configure una nueva empresa usando plantillas|[Crear nuevas en empresas](about-new-company.md)|
 |Realizar un seguimiento de todas las modificaciones directas que realicen los usuarios a los datos de la base de datos para identificar el origen de los errores y de las modificaciones en los datos.|[Registrar cambios](across-log-changes.md)|  
-|Introducir solicitudes únicas o periódicas para ejecutar informes o codeunits.|[Usar colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)|  
+|Introducir solicitudes únicas o periódicas para ejecutar informes o codeunits.|[Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)|  
 |Administre, elimine, o comprima los documentos|[Eliminar documentos](admin-manage-documents.md)|  
 |Exponga las páginas, los codeunits y las consultas como servicios web.|[Publicar un servicio web](across-how-publish-web-service.md)|
 |Como parte de la creación de Connect Apps entre soluciones de [!INCLUDE[prod_short](includes/prod_short.md)] y de terceros a través de las API de REST, defina plantillas que se utilizan para completar propiedades vacías en una entidad cuando crea una acción POST a través de una API.|[Configuración de plantillas API](admin-configuring-api-template.md)|

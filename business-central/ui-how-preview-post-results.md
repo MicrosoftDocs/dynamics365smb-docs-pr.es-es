@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28c9d8c9f24158f119ffffaeddd92590bee906cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148231"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515932"
 ---
 # <a name="preview-posting-results"></a>Vista previa de los resultados del registro
 En cada documento y diario que se pueda registrar, puede elegir el botón **Vista previa de registro** para revisar los diferentes tipos de entradas que se crearán cuando registre el documento o diario.

@@ -10,15 +10,14 @@ ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 494a79283ba7917666e708d9b07acf9523ef15b8
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: e5579df4d63a4f800118ca320d60a984f203022b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366737"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517581"
 ---
-# <a name="working-with-dimensions"></a>Trabajar con dimensiones
-
+# <a name="work-with-dimensions"></a>Trabajar con dimensiones
 Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento.  
 
 Por ejemplo, en lugar de configurar cuentas de libro mayor separadas para cada departamento y proyecto, puede utilizar las dimensiones como base para el análisis y evitar tener que crear un plan de cuentas complicado. Para obtener más información, consulte [Inteligencia empresarial](bi.md).
@@ -202,8 +201,7 @@ La página **Dimensiones predet.-Múltiple** contiene los campos siguientes:
 |**Cód. valor dimensión**|Muestra un valor de dimensión único o el término (Problema). Si en el campo se muestra un valor de dimensión, todas las cuentas resaltadas tendrán el mismo valor de dimensión predeterminado para una dimensión. Si en el campo se muestra el término (Problema), no todas las cuentas resaltadas tendrán el mismo valor de dimensión predeterminado para una dimensión. Al seleccionar el campo, podrá ver una lista de todas las dimensiones que están disponibles para una dimensión. Si selecciona un valor de dimensión, el valor de dimensión seleccionado se definirá como el valor de dimensión predeterminado para todas las cuentas resaltadas.|
 |**Registro valor**|Muestra una regla de valor al registrar única o el término (Problema). Si en el campo se muestra la regla de valor al registrar, todas las cuentas resaltadas tendrán la misma regla de valor al registrar para un valor de dimensión. Si en el campo se muestra el término (Problema), no todas las cuentas resaltadas tendrán la misma regla de valor al registrar para un valor de dimensión. Al seleccionar el campo Valor al registrar, podrá ver una lista de reglas de valor al registrar. Si selecciona una regla de valor al registrar, la regla de valor al registrar seleccionada se aplicará a todas las cuentas resaltadas.|
 
-## <a name="using-dimensions"></a>Usar dimensiones
-
+## <a name="use-dimensions"></a>Usar dimensiones
 En un documento como un pedido de ventas, puede agregar información de dimensión de una línea en particular y del mismo documento. Por ejemplo, en la página **Pedido de ventas**, puede introducir valores de dimensión para las dos primeras dimensiones abreviadas en las líneas de venta individuales y puede agregar más información de dimensión si elige el botón **Dimensiones**.  
 
 Si trabaja con un diario, puede agregar información de dimensiones a un movimiento del mismo modo, si ha configurado dimensiones abreviadas como campos directamente en las líneas de diario.  

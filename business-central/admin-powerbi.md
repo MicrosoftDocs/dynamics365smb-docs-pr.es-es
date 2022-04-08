@@ -11,12 +11,12 @@ ms.search.form: 6316, 6317
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 74d51603f7675e7c4ba27bb78b6237a9241cb36e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c1935c51fbcabfc0371530532f18b2aaf6005dbb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129163"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511810"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
 

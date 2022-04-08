@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 74f277ab22675cd490b136845a48062527469c05
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e1bc919488a1932338b71938cc4c6e2928cfc177
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147705"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514022"
 ---
 # <a name="invoicing-prepayments"></a>Facturación de prepagos
 
@@ -39,7 +39,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 ## <a name="see-also"></a>Consulte también
 
-[Tutorial: Configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Tutorial: configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

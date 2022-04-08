@@ -1,21 +1,22 @@
 ---
 title: Administración de valores de opciones que faltan
-description: Aprenda a evitar que falle la sincronización completa porque las opciones difieren en los campos asignados. Estos procesos requieren la ayuda de un desarrollador.
+description: Aprenda a evitar que falle la sincronización completa porque las opciones difieren en los campos asignados. Este proceso requiere la ayuda de un desarrollador.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383378"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512495"
 ---
 # <a name="handling-missing-option-values"></a>Administración de valores de opciones que faltan
-
+> [!NOTE]
+> En el primer lanzamiento de versiones de 2022, puede crear sus propias asignaciones de opciones. Para obtener más información, consulte [Personalización de asignaciones de opciones con Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Las nuevas capacidades requieren que su administrador habilite **Actualización de características: Asignación a conjuntos de opciones en Dataverse sin código** en la página **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Este tema está destinado a una audiencia técnica. Los procesos que describe requieren la ayuda de un desarrollador.
 

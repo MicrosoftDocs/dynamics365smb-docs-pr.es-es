@@ -1,22 +1,25 @@
 ---
-title: Configurar una empresa con el asistente de RapidStart | Documentos de Microsoft
-description: Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
+title: Configurar una empresa con el asistente de RapidStart
+description: Para Business Central local, puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 03/28/2022
 ms.author: edupont
-ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 189701aef31c5bbdc3323b753667937775d59a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130857"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515802"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Configurar una empresa con el asistente de RapidStart
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Puede configurar rápidamente una nueva empresa que se haya creado mediante el asistente para la configuración de RapidStart Services.
 
 En el procedimiento siguiente, proporcionó al cliente el paquete de configuración, que luego se instala en un equipo. El cliente abre la nueva empresa, que no contiene ningún elemento de datos de cliente. Usted o el cliente siguen los pasos del asistente de RapidStart Services y que se describen en este procedimiento, con el fin de proporcionar información básica sobre la empresa. El asistente importa el paquete de configuración y luego aplica este a la empresa.  

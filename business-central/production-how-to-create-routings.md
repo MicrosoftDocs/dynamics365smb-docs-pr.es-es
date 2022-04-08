@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 29d879552f4879c856f3481fde7cfabbffabec95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9aca8b6308fc5a45e008bc5aba529f51e764c79d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135729"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516879"
 ---
 # <a name="create-routings"></a>Creación de rutas
 

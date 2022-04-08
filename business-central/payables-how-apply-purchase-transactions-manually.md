@@ -10,12 +10,12 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3ec4f46425a344276792f44fde29e23f695384f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 001d747391998df212bacf9dbde23ebbe240bc2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145633"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521941"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor
 Cuando envía un pago o recibe un reembolso de un proveedor, debe decidir si va a liquidar uno o varios movimientos pendientes con el pago o el reembolso. Puede especificar el importe exacto que desea liquidar con el albarán de pago o el reembolso, y liquidar sólo parcialmente movimientos del proveedor. Debe liquidar todos los movimientos de proveedores para obtener estadísticas e informes correctos de los extractos de cuentas y los intereses.

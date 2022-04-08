@@ -9,19 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138185"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520079"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra
 
 Puede automatizar el proceso de aprobar nuevos registros o registros modificados, como documentos, líneas de diario y fichas cliente, creando flujos de trabajo con pasos para las aprobaciones en cuestión. Antes de crear flujos de trabajo de aprobación, debe configurar un aprobador y un aprobador sustituto para cada usuario de aprobación. También puede establecer límites de cantidad de aprobadores para definir qué registros de venta y de compra pueden aprobar. Las solicitudes de aprobación y otras notificaciones se pueden enviar como mensajes de correo electrónico o como notas internas. Para cada configuración de usuario de aprobación, también puede configurar cuándo reciben notificaciones.
 
 > [!NOTE]
-> Además de la funcionalidad de flujo de trabajo en [!INCLUDE[prod_short](includes/prod_short.md)], puede usar Power Automate para definir flujos de trabajo para eventos en [!INCLUDE[prod_short](includes/prod_short.md)]. Tenga en cuenta que, aunque son dos sistemas de flujo de trabajo independientes, cualquier plantilla de flujo de trabajo que cree con Power Automate se agrega a la lista de modelos de flujo de trabajo en la sección [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md).  
+> Además de la funcionalidad de flujo de trabajo en [!INCLUDE[prod_short](includes/prod_short.md)], puede usar Power Automate para definir flujos de trabajo para eventos en [!INCLUDE[prod_short](includes/prod_short.md)]. Tenga en cuenta que, aunque son dos sistemas de flujo de trabajo independientes, cualquier plantilla de flujo de trabajo que cree con Power Automate se agrega a la lista de modelos de flujo de trabajo en la sección [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md).  
 
  Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
 
@@ -92,7 +92,7 @@ Cree el flujo de aprobación de pedido de compra copiando los pasos de la planti
     La página **Flujo de trabajo** se abre para un nuevo flujo de trabajo que contiene toda la información de la plantilla seleccionada. El valor del campo **Código** se amplía con *-01* para indicar que este es el primer flujo de trabajo creado a partir de la plantilla de flujo de trabajo denominada **Flujo de trabajo de aprobación de pedido de compra**.  
 4. En el encabezado de la página **Flujo de trabajo**, seleccione la casilla **Habilitado**.  
 
-## <a name="using-the-approval-workflow"></a>Uso del flujo de trabajo de aprobación
+## <a name="use-the-approval-workflow"></a>Usar el flujo de trabajo de aprobación
 
 Utilice el nuevo flujo de trabajo de aprobación de pedido de compra iniciando sesión primero en [!INCLUDE[prod_short](includes/prod_short.md)] como Alicia para solicitar la aprobación de un pedido de compra. Después, inicie sesión como usted mismo, consulte la nota en el área de trabajo, siga el vínculo a la solicitud de aprobación y, a continuación, apruebe la solicitud.  
 
@@ -119,7 +119,7 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] incluye 
 
 Las variaciones del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan ejemplos de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
-Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos a través de código o puede configurar un flujo de trabajo mediante Power Automate. Para más información, ver [Utilizando [!INCLUDE[prod_short](includes/prod_short.md)] en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md) o [Eventos en AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) en la ayuda del desarrollador, respectivamente.
+Si una situación de negocio requiere un evento de flujo de trabajo o respuesta no compatibles, un asociado de Microsoft tiene que implementarlos a través de código o puede configurar un flujo de trabajo mediante Power Automate. Para obtener más información, ver [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md) o [Eventos en AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) en la ayuda del desarrollador, respectivamente.
 
 ## <a name="see-also"></a>Consulte también
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: bf748b94ec2a53eb92464a94c1172dd6971c8389
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7cdd6e49f4d7cb4d63f70312a89266d020025b4f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134567"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518526"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
 Si el almacén está configurado para requerir los procesos de ubicación y recepción de almacén, utilice la función de documentos de ubicación de almacén para controlar la ubicación de los productos.  
@@ -76,7 +76,7 @@ El ranking de ubicación se tiene en cuenta cuando varias ubicaciones cumplen lo
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

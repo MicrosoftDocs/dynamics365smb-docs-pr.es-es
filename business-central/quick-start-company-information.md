@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133659"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417618"
 ---
 # <a name="company-information-quick-start"></a>Inicio rápido Información empresa
 
@@ -25,19 +26,14 @@ Puede introducir todos los datos relevantes en la página **Información empresa
 ## <a name="to-set-up-company-information"></a>Para configurar la información de la empresa  
 
 1. Elija el ![icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , y luego elija la acción **Información empresa**.
-2. Introduzca la información en las fichas desplegables como se describe en la tabla siguiente.
+2. Introduzca la información en las fichas desplegables como se describe en la tabla siguiente. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Campo|Descripción|  
-    |-------------|---------------------------------------|  
-    |**General**|Introduzca la información general sobre su empresa, incluido un logotipo, ya que aparecerá en los documentos de cara al cliente, por ejemplo, las facturas que envíe. |  
-    |**Comunicación**|Introduzca la información de contacto básica de la empresa, como el número de teléfono y la dirección de correo electrónico.|  
-    |**Pagos**| Complete la información bancaria relevante para asegurarse de que sus clientes puedan pagarle.|  
-    |**Envío**|Complete la información de envío relevante para que pueda enviar y recibir mercancías desde y hacia su empresa.|  
-    |**Impuestos**|Dependiendo del país en el que viva, la ficha desplegable Impuestos puede estar disponible. Si está disponible, rellénela.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Una vez que haya terminado de rellenar la información, puede cerrar la página.  
 
 ## <a name="see-also"></a>Consulte también  
 
+[Resumen de la información de la empresa](admin-company-information.md)  
+[Configurar la información de la empresa en Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Inicio rápido de Business Central](quick-start-business-central.md)  
-[Configurar la información de la empresa](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

@@ -7,39 +7,103 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 9807, 9808, 9830, 9831
-ms.date: 06/23/2021
+ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146129"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522517"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 
-El sistema de seguridad de [!INCLUDE[prod_short](includes/prod_short.md)] le permite controlar a qué objetos puede acceder un usuario en cada base de datos o entorno. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, vea [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en la ayuda para desarrolladores y profesionales de TI para [!INCLUDE[prod_short](includes/prod_short.md)].
+Los administradores usan el sistema de seguridad [!INCLUDE[prod_short](includes/prod_short.md)] para controlar a qué objetos puede tener acceso un usuario dentro de cada base de datos o entorno, en combinación con las licencias que se le asignan. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, consulte [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en el contenido para desarrolladores y administración para [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Antes de asignar permisos a usuarios y grupos de usuarios, debe definir quién puede iniciar sesión creando usuarios de acuerdo con la licencia tal como se define en el Centro de administración de Microsoft 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], hay dos niveles de permisos para los objetos de la base de datos:
 
 - Permisos generales de acuerdo con la licencia, también se denominan derecho.
+
+  Las licencias incluyen conjuntos de permisos predeterminados. A partir de la versión 1 de 2022, los administradores pueden personalizar estos permisos predeterminados para los tipos de licencia correspondientes. Para obtener más información, consulte [Configurar permisos basados en licencias](ui-how-users-permissions.md#licensespermissions).  
 - Permisos más detallados según lo asignado desde [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Para facilitar la administración de permisos para varios usuarios, puede organizarlos en grupos de usuarios y así asignar o cambiar un conjunto de permisos para muchos usuarios en una sola acción. Para obtener más información, vea [Para administrar permisos mediante grupos de usuarios](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
+  Este artículo describe cómo puede definir, usar y aplicar permisos dentro de [!INCLUDE [prod_short](includes/prod_short.md)] para cambiar la configuración predeterminada.  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] en línea incluye grupos de usuarios predeterminados que se asignan a los usuarios automáticamente en función de su licencia. Puede cambiar la configuración predeterminada modificando o agregando grupos de usuarios, conjuntos de permisos y permisos. La siguiente tabla describe escenarios clave para modificar los permisos predeterminados.  
+
+|Para  |Vea  |
+|---------|---------|
+|Para facilitar la administración de permisos para varios usuarios, puede organizarlos en grupos de usuarios y así asignar o cambiar un conjunto de permisos para muchos usuarios en una sola acción.| [Para administrar permisos a través de grupos de usuarios](#to-manage-permissions-through-user-groups) |
+|Para administrar conjuntos de permisos para usuarios específicos | [Para asignar conjuntos de permisos a los usuarios](#to-assign-permission-sets-to-users) |
+|Para aprender a definir un conjunto de permisos|[Para crear o modificar un conjunto de permisos](#to-create-or-modify-a-permission-set)|
+|Para administrar permisos específicos|[Para crear o modificar permisos manualmente](#to-create-or-modify-permissions-manually)|
+|Para ver o solucionar problemas de permisos del usuario|[Para obtener un resumen de los permisos de un usuario](#to-get-an-overview-of-a-users-permissions)|
+|Para obtener más información sobre la seguridad a nivel de registro|[Los filtros de seguridad restringen el acceso de un usuario a registros específicos en una tabla](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
-> Un método adicional para definir a qué características tiene acceso un usuario consiste en establecer el campo **Experiencia** en la página **Información de la empresa**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
+> Un método adicional para definir a qué características tienen acceso los usuarios consiste en establecer el campo **Experiencia** en la página **Información de la empresa**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 >
 > También puede definir lo que ven los usuarios en la interfaz de usuario y cómo interactúan con su funcionalidad permitida a través de las páginas. Esta acción se hace a través de los perfiles que asigna a diferentes tipos de usuarios según su función de trabajo o departamento. Para obtener más información, [Administración de perfiles](admin-users-profiles-roles.md) y [Personalización de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
+## <a name="to-manage-permissions-through-user-groups"></a>Para administrar permisos a través de grupos de usuarios
+
+Los grupos de usuarios le ayudan a administrar conjuntos de permisos en toda la empresa. [!INCLUDE [prod_short](includes/prod_short.md)] en línea incluye grupos de usuarios predeterminados que se asignan a los usuarios automáticamente en función de su licencia. Puede agregar usuarios manualmente a un grupo de usuarios, y puede crear nuevos grupos de usuarios como copias de los existentes.  
+
+Se empieza con la creación de un grupo de usuarios. Después, asigna los conjuntos de permisos al grupo para definir a qué objetos pueden acceder los usuarios del grupo. Cuando agrega un usuario al grupo, los conjuntos de permisos definidos para el grupo se aplicarán al usuario.
+
+Los conjuntos de permisos asignados a un usuario a través de un grupo de usuarios permanecen sincronizados para que un cambio en los permisos del grupo de usuarios se propague automáticamente al usuario. Si elimina un usuario de un grupo de usuarios, los permisos involucrados se revocan automáticamente.
+
+### <a name="to-add-users-to-a-user-group"></a>Para agregar usuarios a un grupo de usuarios
+
+El siguiente procedimiento explica cómo crear grupos de usuarios manualmente. Para crear grupos de usuarios automáticamente, consulte [Para copiar un grupo de usuarios y todos los conjuntos de permisos](#to-copy-a-user-group-and-all-its-permission-sets).
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
+
+    1. Alternativamente, en la página **Usuarios**, seleccione la acción **Grupos de usuarios**.
+2. En la página **Grupo usuarios**, seleccione la acción **Miembros de grupo de usuarios**.
+3. En la página **Miembros de grupo de usuarios**, seleccione la acción **Agregar usuarios**.
+
+### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Para copiar un grupo de usuarios y todos los conjuntos de permisos
+
+Para definir rápidamente un nuevo grupo de usuarios, puede copiar todos los conjuntos de permisos de un grupo de usuarios existente al nuevo grupo de usuarios.
+
+> [!NOTE]
+> No copian los miembros del grupo de usuarios al nuevo grupo de usuarios. Debe añadirlos manualmente posteriormente. Para obtener más información, consulte la sección [Para agregar usuarios a un grupo de usuarios](#to-add-users-to-a-user-group).
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
+2. Seleccione el grupo de usuarios que desea copiar y, a continuación, seleccione la acción **Copiar el grupo de usuarios**.
+3. En el campo **Nuevo código de grupo de usuarios**, introduzca el nombre del grupo y después seleccione el botón **Aceptar**.
+
+El nuevo grupo de usuarios se agrega a la página **Grupos de usuarios**. Empiece a agregar usuarios. Para obtener más información, consulte la sección [Para agregar usuarios a un grupo de usuarios](#to-add-users-to-a-user-group).  
+
+### <a name="to-assign-permission-sets-to-user-groups"></a>Para asignar conjuntos de permisos a grupos de usuarios
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
+2. Seleccione el grupo de usuarios al que desea asignar el permiso.  
+
+    Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro informativo **Conjuntos de permisos**.
+3. Elija la acción **Conjuntos de permisos de usuario** para abrir la página **Conjuntos de permisos de usuario**.
+4. En la página **Conjuntos de permisos de usuario**, en una línea nueva, rellene los campos según sea necesario.
+
+### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Para asignar un conjunto de permisos en la página **Conjunto de permisos por grupo de usuarios**
+
+El siguiente procedimiento explica cómo asignar conjuntos de permisos a un grupo de usuarios en la página **Conjunto de permisos por grupo de usuarios**.
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
+2. En la página **Usuarios**, seleccione el usuario relevante y luego elija la acción **Conjunto de permisos por grupo de usuarios**.
+3. En la página **Conjunto de permisos por grupo de usuarios**, seleccione la casilla de verificación **[nombre de grupo de usuarios]** en una línea del conjunto de permisos relevante para asignarlo al grupo de usuarios.
+4. Seleccione la casilla de verificación **Todos los grupos de usuarios** para asignar el conjunto de permisos a todos los grupos de usuarios.
+
+También puede asignar conjuntos de permisos directamente a un usuario.
+
 ## <a name="to-assign-permission-sets-to-users"></a>Para asignar conjuntos de permisos a los usuarios
 
-Un conjunto de permisos es una colección de permisos para objetos de base de datos específicos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[prod_short](includes/prod_short.md)].
+Un conjunto de permisos es una colección de permisos para objetos de base de datos específicos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-Una solución de [!INCLUDE[prod_short](includes/prod_short.md)] contiene una serie de conjuntos de permisos predefinidos que Microsoft o su proveedor de soluciones agregan. También puede agregar nuevos conjuntos de permisos personalizados para satisfacer las necesidades de su organización. Para obtener más información, consulte [Para crear o editar un conjunto de permisos](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+Una solución de [!INCLUDE[prod_short](includes/prod_short.md)] contiene una serie de conjuntos de permisos predefinidos que Microsoft o su proveedor de soluciones agregan. También puede agregar nuevos conjuntos de permisos personalizados para satisfacer las necesidades de su organización. Para obtener más información, consulte la sección [Para crear o editar un conjunto de permisos](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Si no desea restringir el acceso de un usuario más allá de lo definido por la licencia, puede asignar un conjunto de permisos especial llamado SUPER al usuario. Este conjunto de permisos garantiza que el usuario pueda acceder a todos los objetos especificados en la licencia.
@@ -53,7 +117,7 @@ Puede asignar conjuntos de permisos a los usuarios de dos formas:
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Para asignar un conjunto de permisos en una tarjeta de usuario
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
 2. Seleccione el usuario al que desea asignar el permiso.
 Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro informativo **Conjuntos de permisos**.
 3. Seleccione la acción **Editar** para abrir la página **Ficha de usuario**.
@@ -61,10 +125,11 @@ Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro infor
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Para asignar un conjunto de permisos en la página Conjunto de permisos por usuario
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
-2. En la página **Usuarios**, seleccione el usuario relevante y luego elija la acción **Conjunto de permisos por usuario**.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
+2. En la página **Usuarios**, elija la acción **Conjunto de permisos por usuario**.
 3. En la página **Conjunto de permisos por usuario**, seleccione la casilla de verificación **[nombre de usuario]** en una línea del conjunto de permisos relevante para asignarlo al usuario.
-4. Seleccione la casilla de verificación **Todos los usuarios** para asignar el conjunto de permisos a todos los usuarios.
+
+    Seleccione la casilla de verificación **Todos los usuarios** para asignar el conjunto de permisos a todos los usuarios.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Para obtener un resumen de los permisos de un usuario
 
@@ -91,6 +156,11 @@ Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro infor
 
 > [!NOTE]  
 > Cuando edite un conjunto de permisos, los cambios también se aplicarán a otros usuarios que tengan asignado el conjunto de permisos.
+
+### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Los filtros de seguridad restringen el acceso de un usuario a registros específicos en una tabla
+
+Para seguridad de nivel registro en [!INCLUDE[prod_short](includes/prod_short.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. Esto significa que el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en el contenido de la administración.
+
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Para crear o modificar un conjunto de permisos
 
@@ -172,68 +242,18 @@ Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de vent
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Para crear o modificar permisos registrando las acciones
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conjuntos de permisos** y luego elija el enlace relacionado.
-2. Alternativamente, en la página **Usuarios**, seleccione la acción **Conjuntos de permisos**.
-3. En la página **Conjuntos de permisos**, elija la acción **Nuevo**.
-4. En una línea nueva, rellene los campos según sea necesario.
-5. Elija la acción **Permisos**.
-6. En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.
+
+    Alternativamente, en la página **Usuarios**, seleccione la acción **Conjuntos de permisos**.
+2. En la página **Conjuntos de permisos**, elija la acción **Nuevo**.
+3. En una línea nueva, rellene los campos según sea necesario.
+4. Elija la acción **Permisos**.
+5. En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.
 
     Se inicia un proceso de registro que captura todas las acciones en la interfaz de usuario.
-7. Vaya a las diferentes páginas y actividades en [!INCLUDE[prod_short](includes/prod_short.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
-8. Cuando desea finalizar el registro, vuelva a la página **Permisos** y, a continuación elija la acción **Paro**.
-9. Seleccione el botón **Sí** para agregar los permisos registrados al nuevo conjunto de permisos.
-10. Para cada objeto de la lista registrada especifique si los usuarios pueden insertar, modificar o eliminar los registros de las tablas registradas.
-
-## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Filtros de seguridad: para restringir el acceso de un usuario a registros específicos en una tabla
-
-Para seguridad de nivel registro en [!INCLUDE[prod_short](includes/prod_short.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. Esto significa que el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para obtener más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en la Ayuda para desarrolladores y profesionales de TI.
-
-## <a name="to-manage-permissions-through-user-groups"></a>Para administrar permisos a través de grupos de usuarios
-
-Puede configurar grupos de usuarios para administrar conjuntos de permisos para grupos de usuarios en su empresa.
-
-Se empieza con la creación de un grupo de usuarios. Después, asigna los conjuntos de permisos al grupo para definir a qué objetos pueden acceder los usuarios del grupo. Cuando agrega un usuario al grupo, los conjuntos de permisos definidos para el grupo se aplicarán al usuario.
-
-Los conjuntos de permisos asignados a un usuario a través de un grupo de usuarios permanecen sincronizados para que un cambio en los permisos del grupo de usuarios se propague automáticamente al usuario. Si elimina un usuario de un grupo de usuarios, los permisos involucrados se revocan automáticamente.
-
-### <a name="to-group-users-in-user-groups"></a>Para agrupar usuarios en grupos de usuarios
-
-El siguiente procedimiento explica cómo crear grupos de usuarios manualmente. Para crear grupos de usuarios automáticamente, vea [Para copiar un grupo de usuarios y todos los conjuntos de permisos](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
-2. Alternativamente, en la página **Usuarios**, seleccione la acción **Grupos de usuarios**.
-3. En la página **Grupo usuarios**, seleccione la acción **Miembros de grupo de usuarios**.
-4. En la página **Miembros de grupo de usuarios**, seleccione la acción **Agregar usuarios**.
-
-### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Para copiar un grupo de usuarios y todos los conjuntos de permisos
-
-Para definir rápidamente un nuevo grupo de usuarios, puede copiar todos los conjuntos de permisos de un grupo de usuarios existente al nuevo grupo de usuarios.
-
-> [!NOTE]
-> No copian los miembros del grupo de usuarios al nuevo grupo de usuarios. Debe añadirlos manualmente posteriormente. Para obtener más información, consulte [Para agrupar usuarios en grupos de usuarios](ui-define-granular-permissions.md#to-group-users-in-user-groups).
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
-2. Seleccione el grupo de usuarios que desea copiar y, a continuación, seleccione la acción **Copiar el grupo de usuarios**.
-3. En el campo **Nuevo código de grupo de usuarios**, introduzca el nombre del grupo y después seleccione el botón **Aceptar**.
-
-El nuevo grupo de usuarios se agrega a la página **Grupos de usuarios**. Empiece a agregar usuarios. Para obtener más información, consulte [Para agrupar usuarios en grupos de usuarios](ui-define-granular-permissions.md#to-group-users-in-user-groups).  
-
-### <a name="to-assign-permission-sets-to-user-groups"></a>Para asignar conjuntos de permisos a grupos de usuarios
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
-2. Seleccione el grupo de usuarios al que desea asignar el permiso.
-Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro informativo **Conjuntos de permisos**.
-3. Elija la acción **Conjuntos de permisos de usuario** para abrir la página **Conjuntos de permisos de usuario**.
-4. En la página **Conjuntos de permisos de usuario**, en una línea nueva, rellene los campos según sea necesario.
-
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Para asignar un conjunto de permisos en la página **Conjunto de permisos por grupo de usuarios**
-
-El siguiente procedimiento explica cómo asignar conjuntos de permisos a un grupo de usuarios en la página **Conjunto de permisos por grupo de usuarios**.
-
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
-2. En la página **Usuarios**, seleccione el usuario relevante y luego elija la acción **Conjunto de permisos por grupo de usuarios**.
-3. En la página **Conjunto de permisos por grupo de usuarios**, seleccione la casilla de verificación **[nombre de grupo de usuarios]** en una línea del conjunto de permisos relevante para asignarlo al grupo de usuarios.
-4. Seleccione la casilla de verificación **Todos los grupos de usuarios** para asignar el conjunto de permisos a todos los grupos de usuarios.
+6. Vaya a las diferentes páginas y actividades en [!INCLUDE[prod_short](includes/prod_short.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
+7. Cuando desea finalizar el registro, vuelva a la página **Permisos** y, a continuación elija la acción **Paro**.
+8. Seleccione el botón **Sí** para agregar los permisos registrados al nuevo conjunto de permisos.
+9. Para cada objeto de la lista registrada especifique si los usuarios pueden insertar, modificar o eliminar los registros de las tablas registradas.
 
 ## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Para eliminar permisos obsoletos de todos los conjuntos de permisos
 
@@ -247,7 +267,6 @@ Los administradores pueden definir periodos de tiempo durante los que los usuari
 2. En la página **Configuración usuarios** que se abre, seleccione la acción **Nuevo**.
 3. En el campo **Id. usuario**, escriba el identificador de un usuario o elija el campo para ver todos los usuarios de Windows actuales en el sistema.
 4. Rellene los campos según sea necesario.
-
 
 ## <a name="viewing-permission-changes-telemetry"></a>Ver los cambios de permisos de telemetría 
 
@@ -265,7 +284,8 @@ Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para enviar camb
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Administración](admin-setup-and-administration.md)  
 [Agregar usuarios para Microsoft 365 para empresas](/microsoft-365/admin/add-users/add-users)  
-[Seguridad y protección en Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) en Ayuda para desarrolladores y profesionales de TI
+[Seguridad y protección en Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) en Ayuda para desarrolladores y profesionales de TI  
+[Asignar un Id. de telemetría a usuarios](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights#assign-a-telemetry-id-to-users)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

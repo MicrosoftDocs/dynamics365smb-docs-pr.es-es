@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 190a3925cfc692331e21e3cd2a2b41c68cc02d6f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138159"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511420"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ubicar productos con ubicación de inventario
 Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, utilice el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de salida o una orden de producción o ensamblado cuya salida está preparados para ubicarse.  
@@ -75,7 +75,7 @@ El proceso de registro contabilizará la recepción, o para las órdenes de prod
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -1,27 +1,27 @@
 ---
 title: Configurar procesos financieros
 description: Obtenga información sobre las tareas requeridas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría.
-author: SorenGP
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/16/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 7c6f7574a227d2901c8989db50d6f4c75528429f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f0112cfb60321a44d833ad6a51db209a71494bf1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147601"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513944"
 ---
 # <a name="setting-up-finance"></a>Configurar las finanzas
 Antes de que pueda comenzar a administrar su negocio, debe especificar reglas y valores predeterminados sobre cómo desea administrar los procesos financieros para esa empresa. En primer lugar, deberá configurar el elemento básico de los registros de contabilidad de la empresa - el plan de cuentas. A continuación, deberá configurar los grupos contables, que permiten que la asignación de cuentas contables predeterminadas a los clientes, proveedores y productos sea más eficaz.
 
-Algunas configuraciones financieras se pueden hacer automáticamente con guías de configuración asistidas, y algunas deben hacerse manualmente. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).
+Algunas configuraciones financieras se pueden hacer automáticamente con guías de configuración asistidas, y algunas deben hacerse manualmente. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md). La página **Configuración contabilidad** especifica cómo gestionar muchos asuntos de contabilidad diferentes en su empresa. Por ejemplo, utilice esta página para especificar los detalles del redondeo de facturas, el código de divisa de la divisa local, los formatos de dirección y si desea utilizar una divisa alternativa para informes. Para obtener más información, consulte [Descripción del libro mayor y plan de cuentas](finance-general-ledger.md).  
 
-Puede utilizar dimensiones para agregar diferentes tipos de información a cada transacción. Puede configurar las dimensiones básicas de la empresa, por ejemplo, Proyectos y Departamentos. Posteriormente, puede agregar más dimensiones cuando sea necesario y configurar dimensiones temporales para utilizarlas durante un periodo de tiempo limitado, por ejemplo, en relación con una campaña de ventas. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
+Puede utilizar dimensiones para agregar diferentes tipos de información a cada transacción. Puede configurar las dimensiones básicas de la empresa, por ejemplo, *Proyectos* y *Departamentos*. Posteriormente, puede agregar más dimensiones cuando sea necesario y configurar dimensiones temporales para utilizarlas durante un periodo de tiempo limitado, por ejemplo, en relación con una campaña de ventas. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
 
 En general, las tareas de configuración se deben completar para poder registrar las transacciones financieras, aunque la mayoría de las configuraciones se pueden modificar posteriormente. Algunas de las tareas de configuración son opcionales, por ejemplo, los registros entre empresas vinculadas y las consolidaciones sólo se deben configurar si trabaja con varias empresas. Algunas tareas de configuración tales como la introducción del periodo durante el que se permite el registro puede que se tengan que repetir de forma periódica.  
 
@@ -29,15 +29,17 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 | Para | Vea |
 | --- | --- |
+|Ver o editar las cuentas de contabilidad en las que se registran todos los movimientos de contabilidad|[Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)|
 | Especifique cómo desea que le paguen los clientes y cómo desea pagar a sus proveedores. |[Configure formas de pago](finance-payment-methods.md) |
 | Especifique términos de pago para administrar las fechas de vencimiento y calcular posibles descuentos por pronto pago.|[Configurar términos de pago](finance-payment-terms.md) |
-| Especifique los grupos contables que asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. |[Configurar los grupos contables](finance-posting-groups.md)|
+| Especifique los grupos contables que asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. |[Configurar los grupos contables de activos](finance-posting-groups.md)|
 |Cree esquemas de cuentas y defina las categorías de cuentas para definir el contenido de los gráficos e informes financieros, como los informes Balance y Balance de ingresos.|[Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)|
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Configure los periodos fiscales. |[Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md) |
 |Configure términos de recordatorio para ayudarlo a cobrar los pagos vencidos.|[Configurar términos y niveles de recordatorios.](finance-setup-reminders.md)|
 | Definir cómo se comunican los importes del impuesto de valor añadido que ha recopilado por las ventas a las autoridades fiscales. |[Configurar el impuesto sobre el valor añadido (IVA)](finance-setup-vat.md)|
 |Prepárese para gestionar el IVA no realizado en conexión con los métodos contables basados en efectivo.|[Configurar el IVA no realizado para la contabilidad basada en efectivo](finance-setup-unrealized-vat.md)|
+|Defina las divisas extranjeras con las que opera o notifica transacciones.|[Configuración de divisas](finance-set-up-currencies.md)|
 | Configure sus características de ventas y compras para manejar pagos en divisas extranjeras.|[Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Defina una o varias divisas adicionales para que los importes se reporten automáticamente tanto en DL como en una divisa de informe adicional en cada entrada de contabilidad y en otras entradas.|[Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)|
 |Ajuste periódicamente los equivalentes de divisa adicionales para compensar tipos de cambio que fluctúan.|[Actualizar tipos cambio divisa](finance-how-update-currencies.md)|

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dcd912dfae36e31bd2642b5f1427483f3095c19
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148569"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519705"
 ---
 # <a name="reserve-items"></a>Reservar artículos
 Puede reservar productos para pedidos de venta, pedidos de servicio, pedidos de ensamblado y órdenes de producción. Puede reservar productos del inventario o de entrada en líneas de diario abiertas. El trabajo se realiza en la página **Reservas**.

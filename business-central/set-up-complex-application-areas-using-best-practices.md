@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 317e8af407722be22babde39e1ac24ce5f8a6867
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b0ab0afa97af7c0fda88c963a585a2e1ba481dd6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128622"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516010"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Configurar áreas de aplicación complejas mediante procedimientos recomendados
 Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio.  

@@ -10,12 +10,12 @@ ms.search.keywords: check, clearing
 ms.search.form: 1231, 1232, 1233, 1234
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a45ac4ca08f49a3ac27d93e31086ef06c167d971
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1e3ef74e8d407f9cafb2b67131167bdbfefe4872
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130571"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517555"
 ---
 # <a name="export-a-positive-pay-file"></a>Exportar un archivo de Positive Pay
 Para asegurarse de que su banco solo compense los cheques e importes validados, puede exportar un archivo de Positive Pay que contenga la información de proveedor, el número de cheque y el importe de pago, que puede enviar al banco como referencia cuando se procesen pagos.

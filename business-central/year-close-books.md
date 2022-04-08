@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142755"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511897"
 ---
 # <a name="closing-the-books"></a>Cerrar los libros
 Una vez que se haya asegurado de que todas sus cuentas estén actualizadas, y que asigne costes e ingresos, puede cerrar los libros para un ejercicio o periodo.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 20637dcced16fe695d64c2b4d858483882c64f7a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142476"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518290"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -66,7 +66,7 @@ When the assisted setup guide completes, you can start exploring the new company
 
 En un entorno aislado, encontrará el **Diseñador** habilitado Puede activar Diseñador seleccionando el icono de diseño ![Diseñador.](./media/across-sandbox/sandbox-inclient-design-icon.png) en una página, o eligiendo el elemento de menú **Diseño** en el menú Configuración ![Configuración](media/ui-experience/settings_icon_small.png).  
 
-Para más información, vea [Uso de diseñador](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) en el contenido para desarrolladores y administradores (solo en inglés).  
+Para obtener más información, consulte [Usar el diseñador](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) en el contenido para desarrolladores y administradores (solo en inglés).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 

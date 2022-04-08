@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4af7cc5a8ad3bd322edfdcb6e3a482e8b38ca6cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 38072f85f88e5c5ae64f6ceb30e9585a8abe7841
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145425"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519048"
 ---
 # <a name="set-up-document-sending-profiles"></a>Configurar perfiles de envío de documentos
 Puede configurar cada cliente con un método preferido para enviar documentos de venta, de modo que no tenga que seleccionar una opción de envío cada vez que elija la acción **Registrar y enviar**.

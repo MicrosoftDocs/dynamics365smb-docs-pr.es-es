@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382562"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519575"
 ---
 # <a name="the-vat-group-management-extension"></a>Extensión Gestión de grupo de IVA
 
@@ -91,7 +91,7 @@ Configure al miembro del grupo de IVA iniciando la guía de configuración asist
 
   Por ejemplo, en el Reino Unido, la configuración de la declaración de IVA se configuraría para declarar el IVA a HMRC. La extensión Gestión del grupo de IVA copia esta configuración, pero reemplaza la codeunit de envío por una que admita el envío al representante del grupo de IVA en lugar de a las autoridades fiscales. Microsoft proporciona la codeunit. Cuando haya concluido, elija **Siguiente**.
 
-## <a name="using-the-vat-group-management-features"></a>Uso de las características de gestión de grupos de IVA
+## <a name="use-the-vat-group-management-features"></a>Usar las características de gestión de grupos de IVA
 
 Los miembros del grupo de IVA utilizan los procesos estándar para preparar declaraciones de IVA. La única diferencia es elegir la versión de la declaración **VATGROUP** que envía la declaración de IVA al representante del grupo de IVA en lugar de a las autoridades. Para obtener más información, consulte [Acerca de la declaración de devolución de IVA](finance-how-report-vat.md#vatreturn).
 

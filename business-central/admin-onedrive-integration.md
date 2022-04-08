@@ -1,22 +1,23 @@
 ---
 title: Administrar la integración de OneDrive con Business Central
 description: Obtenga información sobre lo que puede hacer para administrar una integración entre Business Central y OneDrive para la Empresa.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, share, browser
-ms.date: 05/12/2021
-ms.author: bholtorf
-ms.openlocfilehash: 5debd01f9d26e5e1dc1abc1a0123073d0f7ee234
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 02/28/2022
+ms.author: jswymer
+ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382876"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514600"
 ---
-# <a name="managing-onedrive-integration-with-business-central"></a>Administrar la integración de OneDrive con Business Central 
+# <a name="managing-onedrive-integration-with-business-central"></a>Administrar la integración de OneDrive con Business Central
+
 Este artículo proporciona una descripción general de lo que puede hacer un administrador para controlar la integración de OneDrive para la Empresa con [!INCLUDE[prod_short](includes/prod_short.md)]. Los clientes de [!INCLUDE[prod_short](includes/prod_short.md)] en línea se benefician de la integración automática, sin necesidad de configuración adicional para utilizar estas funciones. 
 
 ## <a name="minimum-requirements"></a>Requisitos mínimos
@@ -25,6 +26,7 @@ Este artículo proporciona una descripción general de lo que puede hacer un adm
 * OneDrive debe configurarse para cada usuario.
 
 ## <a name="governance"></a>Gobernanza
+
 El centro de administración de SharePoint proporciona un amplio control sobre las políticas que gobiernan el uso de OneDrive en toda la organización. Administradores globales o usuarios que tienen el rol de administrador de SharePoint pueden configurar políticas que determinen quién puede acceder a OneDrive, dónde residen los datos, el ciclo de vida del contenido y mucho más. Los siguientes enlaces proporcionan información sobre las funciones y configuraciones de uso frecuente que pueden mejorar su integración con [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 * [Administrar la configuración de uso compartido](/sharepoint/turn-external-sharing-on-or-off)
@@ -39,9 +41,11 @@ El centro de administración de SharePoint proporciona un amplio control sobre l
 > Algunas funciones pueden estar disponibles solo para planes específicos.
 
 ## <a name="managing-privacy"></a>Gestionar la privacidad
+
 Los administradores y los usuarios finales controlan el contenido almacenado en OneDrive, y estos datos son propiedad exclusiva de su organización. Para más información, vea [Cómo SharePoint y OneDrive salvaguardan sus datos en la nube](/sharepoint/safeguarding-your-data). También puede visitar nuestra [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/en-us/privacystatement), que explica los datos que procesa Microsoft, cómo los procesa Microsoft y con qué fines.
 
 ## <a name="restoring-onedrive-and-prod_short"></a>Restaurar OneDrive y [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Como parte de un ejercicio de recuperación ante desastres, los administradores pueden necesitar restaurar un entorno de [!INCLUDE[prod_short](includes/prod_short.md)] a una copia de seguridad de un momento del pasado, y sincronizar el almacenamiento de OneDrive a ese mismo punto en el tiempo. OneDrive proporciona varias herramientas para ello, como restaurar OneDrive de un usuario a un momento anterior, restaurar una versión anterior de un archivo individual o restaurar archivos eliminados. Para obtener más información, consulte los siguientes artículos:
 
 * Para [!INCLUDE[prod_short](includes/prod_short.md)], vea [Restaurar un entorno en el Centro de administración](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
@@ -70,6 +74,11 @@ Un administrador debe configurar la conexión entre [!INCLUDE[prod_short](includ
 Agregue una aplicación registrada para Business Central en su inquilino de Azure AD de su plan Microsoft 365. Como otros servicios de Azure que funcionan con Business Central, OneDrive requiere un registro de aplicación en Azure Active Directory (Azure AD). El registro de la aplicación proporciona servicios de autenticación y autorización entre Business Central y SharePoint, que utiliza OneDrive.
 
 Configure la aplicación registrada con los siguientes permisos delegados a la API de SharePoint:
+
+- AllSites.FullControl
+- User.ReadWrite.All 
+
+Para Business Central 2021 lanzamiento de versiones 2 (versión 19), configure estos permisos:
 
 - AllSites.Write
 - MyFiles.Write

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0f0bf09670620a36ee696fdc9d1483a2c33f77b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: edb133005292c0309de09273b6a2c5c43669eeed
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144338"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514730"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
 
@@ -119,7 +119,7 @@ En escenarios de combinación, donde parte de la cantidad debe ensamblarse prime
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Tutorial: picking y envío en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

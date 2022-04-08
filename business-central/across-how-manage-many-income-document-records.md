@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b7251b17796994eeb74bd6ce9823b65782012eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9460bb8a972f3cd9ab812b14ef7f5a9e89f8ef4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134335"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523179"
 ---
 # <a name="manage-many-incoming-document-records"></a>Gestionar varios registros de documento entrantes
 A medida que crea o procesa registros de documento entrantes, el número de líneas en la página **Documentos entrantes** puede aumentar hasta el punto de perder la visión general. Por lo tanto, puede establecer los registros de documento entrantes a Procesado para eliminarlos de la vista por defecto. Cuando selecciona la acción **Mostrar todos**, puede ver tanto los registros procesados como los que están sin procesar.

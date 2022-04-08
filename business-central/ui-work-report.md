@@ -1,5 +1,5 @@
 ---
-title: Trabajar con informes, trabajos por lotes y XMLports
+title: Ejecutar e imprimir informes
 description: Obtenga información sobre cómo introducir un informe en una cola de proyectos y programarlo para que se procesa en una fecha y hora específicas.
 author: jswymer
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/09/2022
+ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: 9a5866db05b4ef78e751996f59ea56d9f4b75d27
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: fade19b2ecb4d2c17b5d5775074f2f715496a908
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322960"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512685"
 ---
-# <a name="working-with-reports-batch-jobs-and-xmlports"></a>Trabajar con informes, trabajos por lotes y XMLports
+# <a name="run-and-print-reports"></a>Ejecutar e imprimir informes
 
 Un informe recopila información en función de un conjunto específico de criterios. Organiza y presenta la información en un formato fácil de leer que puede imprimir o guardar como un archivo. Existen numerosos informes a la que se accede en la aplicación. Los informes proporcionan normalmente información relada con el contexto de la página en la que está. Por ejemplo, la página **Cliente** incluye los informes para los 10 clientes principales, estadísticas de ventas, etc.
 
@@ -26,7 +26,7 @@ Los trabajos por lotes y XMLports hacen más o menos lo mismo que los informes, 
 > [!NOTE]
 > Este tema hace referencia principalmente al "informe", pero se aplica información similar a los trabajos por lotes y XMLports.
 
-## <a name="getting-started"></a>Introducción
+## <a name="get-started"></a>Introducción
 
 Puede buscar informes en la pestaña **Informes** de páginas seleccionadas, o utilizar la búsqueda ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") para buscar informes por nombre.
 
@@ -43,7 +43,7 @@ El campo **Usar valores predeterminados de** proporciona una manera rápida y co
 >[!NOTE]
 > La configuración predefinida normalmente la configura y gestiona un administrador. Si desea obtener más información, consulte [Administrar la configuración guardada para informes y trabajos por lotes](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-reports"></a>Especificación de los datos que se van a incluir en los informes
+## <a name="specifying-the-data-to-include-in-a-report"></a>Especificación de los datos que se van a incluir en un informe
 
 Utilice los campos de **Opciones** y **Filtros** para cambiar el límite de la información que desea en el informe. Los filtros se establecen en un informe de la misma manera que en las listas. Para obtener más información, consulte [Filtrado](ui-enter-criteria-filters.md#filtering).
 
@@ -63,7 +63,7 @@ Para obtener una vista previa de un informe, elija el botón **Vista previa** o 
 > [!NOTE]
 > Si usa el lanzamiento de versiones 1 de Business Central 2020 o anterior, solo hay un botón **Vista previa** que cierra la página de solicitud en la vista previa, como se describe para **Vista previa y cierre**.
 
-### <a name="working-with-the-preview"></a>Trabajo con la vista previa
+### <a name="work-with-the-preview"></a>Trabajar con la vista previa
 
 En la versión preliminar, use la barra de menú en la versión preliminar para:
 
@@ -82,11 +82,13 @@ En la versión preliminar, use la barra de menú en la versión preliminar para:
 
 ## <a name="saving-a-report-to-a-file"></a>Guardar un informe en un archivo
 
-Puede guardar un informe en un documento PDF, un documento de Microsoft Word o una hoja de cálculo de Microsoft Excel seleccionando el botón **Enviar a** y luego hacer su selección.
+Puede guardar un informe en un documento PDF, un documento de Microsoft Word o una hoja de cálculo de Microsoft Excel o un documento XML seleccionando el botón **Enviar a** y luego hacer su selección.
 
-### <a name="about-sending-to-excel"></a>Acerca de enviar a Excel
-
-Puede trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Excel para su posterior análisis. Para más información, consulte [Analizar datos de informes con Excel](report-analyze-excel.md).  
+> [!TIP]
+> Las opciones **Documento de Microsoft Excel (solo datos)** y **Documento XML** son principalmente para propósitos avanzados. Normalmente usará estas opciones para realizar un análisis detallado de los datos. Para más información, consulte [Analizar datos de informes con Excel y XML](report-analyze-excel.md).
+>
+> También puede usar el **Documento de Microsoft Excel (solo datos)** para crear nuevos diseños de Excel para un informe determinado. Para obtener más información, consulte [Trabajar con diseños de Excel](ui-excel-report-layouts.md).  
+  
 <!--
 ### About sending to Word
 
@@ -97,17 +99,19 @@ Use the **Microsoft Word Document** option to generate a report as a Word docume
 
 -->
 
-## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Programar un informe para que se ejecute
+## <a name="scheduling-a-report-to-run-later"></a><a name="ScheduleReport"></a> Programar un informe para que se ejecute más tarde
 
 Puede programar un informe o un trabajo por lotes para ejecutarlo en una fecha y hora específicos. Los informes y los trabajos por lotes programados se introducen en la cola de proyectos y se procesan en el momento programado, de manera similar a con otros proyectos. Elija la opción **Programa** después de elegir el botón **Enviar a** y, a continuación, introduzca información como la impresora, la hora y la fecha. A continuación, el informe se agrega a la cola de proyectos y se ejecutará en el momento especificado. Cuando se procese el informe, el elemento se eliminará de la cola de proyectos. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
-Cuando programe la ejecución de un informe, puede especificar que debe ejecutarse todos los jueves configurando el campo **Fórmula de fecha de la próxima ejecución** en *D4*, por ejemplo. Para obtener más información, vea [Uso de fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).  
+Cuando programe la ejecución de un informe, puede especificar que debe ejecutarse todos los jueves configurando el campo **Fórmula de fecha de la próxima ejecución** en *D4*, por ejemplo. Para obtener más información, vea [Usar fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas).  
 
 Puede elegir guardar el informe en un archivo (como Excel, Word o PDF), imprimirlo o solo generar el informe. Si elige guardar el informe en un archivo, el informe procesado se envía al área **Bandeja de entrada de informes** en el área de trabajo, donde puede verlo.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Imprimir un informe
 
 Para imprimir un informe, elija el botón **Imprimir** en la página de solicitud o en la barra de menú de la página **Vista previa**.
+
+Cuando un informe use un diseño de Excel, no verá el campo **Impresora**, botón **Imprimir** o botón **Vista previa**. En su lugar, hay un botón **Descargar**. Para imprimir, seleccione **Descargar** y, a continuación, abra el archivo descargado en Excel e imprima desde allí.
 
 ### <a name="printer"></a><a name="Printer"></a>Impresora
 
@@ -125,9 +129,9 @@ Específicamente para la versión tailandesa de [!INCLUDE[prod_short](includes/p
 
 También puede pedir a su administrador que cree un diseño de informe de Word para los informes más utilizados. Para obtener más información, vea [Administrar diseños de informes y documentos](ui-manage-report-layouts.md).  
 
-## <a name="changing-report-layouts"></a>Cambio de diseños de informe
+## <a name="switching-the-report-layout"></a>Cambiar el diseño del informe
 
-El diseño de informe controla lo que se muestra en un informe, cómo se organiza y cómo está diseñado. Si desea cambiar a otro diseño distinto, consulte [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md). Pero, si desea personalizar su propio diseño del informe, vea [Crear y editar un diseño de informe personalizado](ui-how-create-custom-report-layout.md).
+El diseño de informe controla lo que se muestra en un informe, cómo se organiza y cómo está diseñado. Si desea cambiar a otro diseño distinto, consulte [Establecer el diseño utilizado por un informe](ui-set-report-layout.md). Pero, si desea personalizar su propio diseño del informe, vea [Empezar a crear diseños](ui-get-started-layouts.md).
 
 ## <a name="advanced-options"></a>Opciones avanzadas
 

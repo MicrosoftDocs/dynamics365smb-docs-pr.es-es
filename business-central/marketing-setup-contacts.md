@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137840"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516114"
 ---
 # <a name="set-up-contacts"></a>Configuración de contactos
 Al crear contactos, puede especificar información como, por ejemplo, la industria a la que pertenecen y sus relaciones de negocio con los contactos.
@@ -140,7 +140,7 @@ Al modificar uno de estos campos en la ficha de la empresa de contacto, se actua
 
 Para obtener más información, consulte [Crear contactos](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Usar valores predeterminados en contactos nuevos
+## <a name="use-predefined-defaults-on-new-contacts"></a>Usar valores predeterminados predefinidos en contactos nuevos
 Puede hacer que la aplicación asigne de forma automática ciertos códigos de idioma, territorio, vendedor y país/región como valores predeterminados para cada nuevo contacto. También se puede especificar un ciclo de ventas predeterminado que la aplicación asignará de forma automática a cada nueva oportunidad creada. Configúrelo en la pestaña desplegable **Valores predeterminados** de la página **Configuración de marketing**.
 
 La herencia de campos sobrescribe los valores predeterminados en la configuración. Por ejemplo, si el idioma predeterminado es el inglés, pero el de la empresa contacto es el alemán, la aplicación asignará automáticamente el alemán como idioma para las personas de contacto almacenadas de esa empresa.

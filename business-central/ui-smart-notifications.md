@@ -9,12 +9,12 @@ ms.workload: na
 ms.date: 04/01/2021
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
-ms.openlocfilehash: be94ef47fa86b613f3ee1e33bc28bfd050def543
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6bcfb7e570de8c261de05c958716e7116c11cdc1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381624"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512711"
 ---
 # <a name="manage-notifications"></a>Administrar notificaciones
 

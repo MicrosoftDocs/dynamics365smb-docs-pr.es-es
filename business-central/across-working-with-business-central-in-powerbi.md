@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142580"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510948"
 ---
-# <a name="working-with-prod_short-data-in-power-bi"></a>Trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
+# <a name="work-with-prod_short-data-in-power-bi"></a>Trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
 
 En este artículo, aprenderá algunos de los conceptos básicos sobre cómo trabajar con informes y paneles en Power BI que usan [!INCLUDE [prod_short](includes/prod_short.md)] como fuente de datos. El artículo analiza algunos aspectos que lo ayudarán a comenzar como usuario de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener pautas generales e instrucciones sobre el uso de Power BI, ver [Documentación de Power BI para consumidores](/power-bi/consumer).
 
@@ -64,7 +64,7 @@ Para más información, ver [Sube el informe al servicio](/power-bi/paginated-re
 > Cargar un informe requiere que tenga un espacio de trabajo con [capacidad Premium](/power-bi/service-premium-what-is). Para obtener más información, vea [Gestión de capacidades Premium](/power-bi/admin/service-premium-capacity-manage). 
 
 > [!TIP]
-> Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] online, también puede cargar un informe desde [!INCLUDE[prod_short](includes/prod_short.md)]. Para más información, ver [Trabajando con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)] - Subir informes](across-working-with-powerbi.md#upload).
+> Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] online, también puede cargar un informe desde [!INCLUDE[prod_short](includes/prod_short.md)]. Para más información, ver [Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)] - Subir informes](across-working-with-powerbi.md#upload).
 
 ## <a name="share-reports-with-others"></a><a name="share"></a>Compartir informes con otros
 

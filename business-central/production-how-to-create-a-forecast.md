@@ -7,22 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140948"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512919"
 ---
 # <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
 
-Es posible crear previsiones de ventas y producción desde la página **Previsión de la demanda**.  
+Es posible crear previsiones de ventas y producción desde la página la lista **Previsiones de la demanda**. Luego, para cada pronóstico, especifique varias configuraciones para ese pronóstico en la página **Descripción general de la previsión de la demanda**.  
 
-La funcionalidad de previsión se utiliza para crear la demanda prevista; la demanda real se crea a partir de las ventas y los pedidos de producción. Durante la creación del Programa de producción principal (MPS), la previsión se liquida con las ventas y los pedidos de producción. La opción *Componente* de la previsión determina qué tipo de requisitos se deben tener en cuenta en el proceso de liquidación. Si la previsión es para un producto de venta, sólo se liquidan los pedidos de venta en la previsión. Si es para componentes, sólo se liquida la demanda que depende de los componentes de la orden de producción en la previsión.  
+La funcionalidad de previsión se utiliza para crear la demanda prevista; la demanda real se crea a partir de las ventas y los pedidos de producción. Durante la creación del Programa de producción principal (MPS), la previsión se liquida con las ventas y los pedidos de producción. El campo **Tipo de previsión** de la previsión determina qué tipo de requisitos se deben tener en cuenta en el proceso de liquidación. Si la previsión es para un *producto de venta*, sólo se liquidan los pedidos de venta en la previsión. Si es para *componentes*, sólo se liquida la demanda que depende de los componentes de la orden de producción en la previsión.  
 
 Mediante la previsión, la empresa puede crear escenarios hipotéticos y planificar y satisfacer la demanda con eficacia y rentabilidad. Una previsión exacta puede aumentar significativamente el grado de satisfacción de los clientes en relación con el cumplimiento de fechas y la entrega puntual.  
+
+Con el lanzamiento de versiones 1 de 2022, también puede definir el nivel correcto de detalles en los campos **Pronóstico por ubicación** y **Pronóstico por variante** en la página **Descripción general de la previsión de la demanda**. Los filtros y otros ajustes se almacenan en la tabla **Nombre de previsión de demanda**. Para que pueda detenerse fácilmente y continuar su trabajo más tarde. Si su organización se ha actualizado al lanzamiento de versiones 1 de 2022, debe activar la nueva experiencia en la página [Gestión de características](admin-feature-management.md).  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Previsiones de ventas y previsiones de producción
 
@@ -33,7 +35,10 @@ La funcionalidad de previsión de la aplicación se puede usar para crear previs
 
 En la mayoría de los casos, el responsable de la planificación de la producción modifica la previsión de ventas para ajustarla a las condiciones de producción, si bien debe satisfacer la previsión de ventas.  
 
-Las previsiones se crean manualmente en la página **Previsión de la demanda**. En el sistema puede haber muchas previsiones, que se distinguen por el nombre y el tipo. Las previsiones se pueden copiar y editar como sea necesario. Tenga en cuenta que, en un momento dado, sólo se puede usar una previsión para realizar la planificación.  
+Las previsiones se crean manualmente en la página **Previsión de la demanda**. En el sistema puede haber muchas previsiones, que se distinguen por el nombre y el tipo. Las previsiones se pueden copiar y editar como sea necesario. 
+
+> [!NOTE]
+> Solo se puede usar una previsión para realizar la planificación.
 
 La previsión está formada por una serie de registros, cada uno de los cuales debe tener un número de producto, una fecha de previsión y una cantidad prevista. La previsión de un producto abarca un periodo de tiempo, definido mediante la fecha de previsión y la fecha de previsión del siguiente registro de la previsión. Desde el punto de vista de la planificación, la cantidad prevista debe estar disponible al principio del periodo de demanda.  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141416"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518420"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtener el complemento Business Central para Excel
 
@@ -79,13 +79,13 @@ Usted trabajará en [!INCLUDE[prod_short](includes/prod_short.md)] y el Centro d
     4. Revise **Aceptar solicitudes de permisos**, luego elija **Siguiente** > **Finalizar implementación**.
     5. Espere a que aparezca la marca de verificación verde junto a **Implementado** para el complemento, luego elija **Hecho**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       El complemento aparece en la página **Complementos**. Para obtener más información sobre la implementación de complementos en el Centro de administración de Microsoft 365, consulte [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       El complemento aparece en la página **Complementos**. Para obtener más información sobre la implementación de complementos en el Centro de administración de Microsoft 365, consulte [Implementar complementos en el centro de administración](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Vuelva a la configuración asistida de **Implementación centralizada de complementos de Excel** en [!INCLUDE[prod_short](includes/prod_short.md)] y elija **Siguiente**.
 5. Active **Utilizar Implementación centralizada** y elija **Terminar**.
 
     Si no activa este conmutador, [!INCLUDE[prod_short](includes/prod_short.md)] obtendrá el complemento directamente de Tienda Office.
 
-Cuando termine, siempre puede cambiar la implementación en el Centro de administración de Microsoft 365, como asignar más usuarios. Para obtener más información sobre la implementación de complementos en el Centro de administración, consulte [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Cuando termine, siempre puede cambiar la implementación en el Centro de administración de Microsoft 365, como asignar más usuarios. Para obtener más información sobre la implementación de complementos en el Centro de administración, consulte [Implementar complementos en el centro de administración](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > Si tiene más de un entorno, debe ejecutar la configuración asistida de **Implementación centralizada de complementos de Excel** en cada entorno en el que desee utilizar Implementación centralizada. Sin embargo, no es necesario que vuelva a configurar Implementación centralizada en Microsoft 365. Lo único que tiene que hacer es activar el conmutador **Utilizar Implementación centralizada** en la configuración asistida. 

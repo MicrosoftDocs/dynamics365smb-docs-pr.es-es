@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 389, 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4fbc616c75172e2909cadb0d66e4efd462c80c77
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2418ca1164d0a3d67ca9ae3403733dfbd9a56660
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383728"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520817"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Conciliar los pagos con liquidación automática
 

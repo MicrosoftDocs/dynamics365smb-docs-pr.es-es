@@ -10,12 +10,12 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8716aeaa83ac9304e142af1603efef47c8044918
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 632f802678de33e7c00fa95dab38530a1364ff3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148725"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511732"
 ---
 # <a name="transfer-bank-funds"></a>Transferir fondos bancarios
 

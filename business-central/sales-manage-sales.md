@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell
 ms.search.form: 253
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: de181f3f2cd074eeeef96306c61735b2e3ad96c9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8601153fc7bd813b3baa1c0ff7ebe0768d467dc0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128592"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518892"
 ---
 # <a name="sales"></a>Ccial
 Puede crear una factura o un pedido de ventas para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.
@@ -28,13 +28,13 @@ Puede corregir o cancelar fácilmente una factura de venta registrada antes de q
 
 Las buenas prácticas de ventas y marketing consisten en tomar las mejores decisiones en los momentos adecuados. La funcionalidad de marketing de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen preciso y puntual sobre la información de contacto para que pueda servir a sus clientes potenciales con más eficacia y aumentar la satisfacción de sus clientes. Para obtener más información, vea [Gestión de relaciones](marketing-relationship-management.md).
 
-Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de Business Central para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas. Para obtener más información, consulte [Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md).
+Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de Business Central para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas. Para obtener más información, consulte [Usar Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md).
 
 En entornos de negocio donde el cliente debe pagar antes de que los productos se entreguen, por ejemplo en la venta minorista, debe esperar la recepción del pago antes de entregar los productos. En la mayoría de casos, puede procesar los pagos entrantes algunas semanas después de la salida liquidando los pagos a las facturas relacionadas, registradas como facturas de ventas no pagadas . Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 Los documentos de ventas se pueden enviar como archivos PDF adjuntos al correo electrónico. El cuerpo del correo electrónico contendrá un extracto del documento de ventas, como los productos, el importe total y un vínculo al sitio web de PayPal. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 
-Para todos los procesos de ventas, puede introducir un flujo de trabajo de aprobación, por ejemplo, para requerir que el administrador de contabilidad apruebe las compras grandes para ciertos clientes. Para obtener más información, consulte [Uso de flujos de trabajo](across-use-workflows.md).
+Para todos los procesos de ventas, puede introducir un flujo de trabajo de aprobación, por ejemplo, para requerir que el administrador de contabilidad apruebe las compras grandes para ciertos clientes. Para obtener más información, consulte [Usar flujos de trabajo](across-use-workflows.md).
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 

@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: b73cad316dacb5170b8f63ce84dd134f505e5c1c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a485162cb194f7f16ff7c33c3e4a095865d35daf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383272"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520469"
 ---
 # <a name="undo-assembly-posting"></a>Deshacer registro de ensamblado.
 Puede que, a veces, tenga que deshacer un pedido de ensamblado registrado, por ejemplo cuando se haya registrado con errores que deban corregirse, o porque no deban haberse registrado en el primer lugar y deban revertirse.

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c6dc9d386bde8e4f8496f086141589ea4c89c73
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2918b554cf578baa0636f0a18bbbbf2fc8a4692
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136457"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516478"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importar datos de empresa de otros sistemas financieros
 
@@ -40,7 +40,7 @@ Para importar imágenes de producto, puede utilizar una función dedicada en la 
 > [!NOTE]  
 >   El trabajo con paquetes de configuración es una función avanzada y le recomendamos que se ponga en contacto con el administrador. Para obtener más información, vea [Importar datos del software de contabilidad heredado mediante un paquete de configuración](across-import-data-configuration-packages.md).
 
-## <a name="working-with-data-in-excel"></a>Trabajar con datos en Excel
+## <a name="work-with-data-in-excel"></a>Trabajar con datos en Excel
 Al exportar el paquete de configuración predeterminado a Excel, el libro generado contiene una hoja de trabajo para cada tabla del paquete. Para simplificar sus tareas, puede aprovechar las herramientas de manipulación de XML que se integran en Excel. También puede utilizar las funciones integradas de Excel para ayudar con el formato de datos y para colocar los datos en la celda correcta. Por ejemplo, agregue una hoja de cálculo en blanco y copie los datos heredados en ella. A continuación, cree una fórmula de Excel para asignar datos en la hoja de cálculo de transformación entre los campos en la hoja de cálculo exportada y los datos heredados del cliente. Después de asignar todos los datos, copie el intervalo de datos en la hoja de cálculo de la tabla.  
 
 > [!IMPORTANT]  

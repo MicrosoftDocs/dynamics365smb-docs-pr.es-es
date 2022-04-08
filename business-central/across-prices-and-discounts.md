@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383300"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523610"
 ---
 # <a name="set-up-prices-and-discounts"></a>Establecer precios y descuentos
 > [!NOTE]
@@ -99,7 +99,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Trabajo con descuentos en factura y cargos por servicios
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Trabajar con descuentos en factura y cargos por servicios
 Al utilizar descuentos en factura, el importe de la factura determina el descuento aplicado. En la página **Descuentos en factura**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  <!--The Invoice Discounts page is hard to find.-->
 
 Para poder aplicar descuentos en factura a las ventas, primero debe especificar determinados datos en la aplicación. Debe decidir qué clientes recibirán este tipo de descuento y los porcentajes de descuento que utilizará.  
@@ -193,7 +193,7 @@ Para actualizar los precios de varios productos, debe crear una nueva lista de p
 ---
 
 ## <a name="calculating-the-best-price"></a>Cálculo del mejor precio
-Cuando haya registrado precios especiales y descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre sea óptimo, calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y productos. Para obtener más información, vea [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Cuando haya registrado precios especiales y descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre sea óptimo, calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y productos. Para obtener más información, consulte [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 ## <a name="see-also"></a>Consulte también
 [Configuración de ventas](sales-setup-sales.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec67d201d89b01b38b86edbeb6dcd3ea0148153
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f9cd8d837d94e9f90e48f84d4209bc3427d0b922
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147653"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523402"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Trabajar con tolerancias de pago y tolerancias de descuento de pago
 Puede configurar una tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura. Por ejemplo, las tolerancias de pago son típicamente para pequeñas cantidades que costarían más corregir que solo aceptar. Puede configurar una tolerancia de descuento P.P. para conceder un descuento P.P. después de que haya pasado la fecha de descuento.  

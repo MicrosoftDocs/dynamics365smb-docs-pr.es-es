@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 97a8ff2971ca8cc6e34fb89cd5edbb092ac264a8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccac5101c5b28d81021a7229fe576f4eb7129746
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144286"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513242"
 ---
 # <a name="restructure-warehouses"></a>Reestructurar almacenes
 Es posible que desee volver a estructurar el almacén con nuevos códigos y características de ubicación. No realizará este tipo de actividad con mucha frecuencia, pero pueden producirse algunos casos en los que sea necesaria una reclasificación para conseguir o mantener una operatividad más eficaz. Por ejemplo:  
@@ -86,7 +86,7 @@ Si desea cambiar el nombre de una ubicación para que también cambie el nombre 
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
+[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

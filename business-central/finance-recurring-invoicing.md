@@ -11,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128796"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513918"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Trabajar con ingresos recurrentes en [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -29,11 +29,11 @@ Un diario periódico es un diario general con campos específicos para administr
 
 ### <a name="why-use-this-option"></a>Por qué usar esta opción
 
-Con esta opción, se definen períodos de facturación flexibles con [Fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).
+Con esta opción, se definen períodos de facturación flexibles con [Fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas).
 
 Sin embargo, con esta opción, no puede imprimir ni enviar facturas en la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Para obtener más información, consulte [Trabajar con diarios periódicos](ui-work-general-journals.md#working-with-recurring-journals).  
+Para obtener más información, consulte [Trabajar con diarios periódicos](ui-work-general-journals.md#work-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Crear varias facturas basadas en un diario periódico de proyecto
 
@@ -111,8 +111,8 @@ En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener ex
 
 ## <a name="see-also"></a>Consulte también .
 
-[Fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas)  
-[Trabajar con diarios periódicos](ui-work-general-journals.md#working-with-recurring-journals)  
+[Fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas)  
+[Trabajar con diarios periódicos](ui-work-general-journals.md#work-with-recurring-journals)  
 [Crear líneas de diario de proyectos](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Crear varias facturas de venta de proyecto](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)  

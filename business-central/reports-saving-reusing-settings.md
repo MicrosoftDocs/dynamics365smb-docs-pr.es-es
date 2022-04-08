@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 901f3899ef164d3d24dbc5c4e2226b840c97c945
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137190"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522647"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrar configuraciones guardadas para informes y trabajos por lotes
 
-Cuando se ejecutan informes, a los usuarios normalmente se les presenta una página que les permite seleccionar opciones y establecer filtros para cambiar los datos que se incluyen en el informe generado. Esta página se llama *página de solicitud*. Un informe puede incluir una o varias *opciones de configuración guardadas* que los usuarios pueden aplicar al informe de la página de solicitud. La *configuración guardada* son básicamente opciones y filtros predeterminados. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Para obtener más información, consulte [Uso de valores predeterminados: configuración predefinida](ui-work-report.md#SavedSettings).
+Cuando se ejecutan informes, a los usuarios normalmente se les presenta una página que les permite seleccionar opciones y establecer filtros para cambiar los datos que se incluyen en el informe generado. Esta página se llama *página de solicitud*. Un informe puede incluir una o varias *opciones de configuración guardadas* que los usuarios pueden aplicar al informe de la página de solicitud. La *configuración guardada* son básicamente opciones y filtros predeterminados. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Para obtener más información, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > Este tema hace referencia principalmente a los *informes*, pero se aplica información similar a los *trabajos por lotes*.
@@ -58,5 +58,6 @@ Desde la página **Configuración del informe**, puede:
 ## <a name="see-also"></a>Consulte también
 
 [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460, 25
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 24a0465b787afb6f78a82869f1025ffe60bd02ee
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: d7b83a2f53a41cc646b6480048fa4152035077c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366833"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510869"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Permitir la liquidación de movimientos de cliente en distintas divisas
 

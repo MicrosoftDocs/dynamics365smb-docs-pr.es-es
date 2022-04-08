@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: be2e72edcbe41737dabbc703a322281dbddc310d
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367155"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513580"
 ---
 # <a name="get-ready-for-doing-business"></a>Prepárese para hacer negocios
 
@@ -86,6 +86,7 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 [Inicio rápido de Business Central](quick-start-business-central.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
+[Resumen de la información de la empresa](admin-company-information.md)  
 [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)  
 [Versiones de prueba y suscripciones](across-preview.md)  
 [Funciones empresariales](across-business-functionality.md)  

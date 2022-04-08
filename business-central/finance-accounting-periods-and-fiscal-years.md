@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d1a7121f74cf58289e0bf4ce6a80080c071f64fe
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383484"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511680"
 ---
-# <a name="working-with-accounting-periods-and-fiscal-years"></a>Trabajar con periodos contables y ejercicios
+# <a name="work-with-accounting-periods-and-fiscal-years"></a>Trabajar con periodos contables y ejercicios
 
 Los períodos contables, también conocidos como períodos de información, son períodos de tiempo en los que una empresa u organización informa del rendimiento financiero, por ejemplo, generando su balance de ingresos o su balance. Normalmente, los períodos contables se refieren al ejercicio de la empresa, que puede contener varios períodos contables, como meses o trimestres.
 

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138783"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523246"
 ---
 # <a name="auditing-changes-in-business-central"></a>Auditar cambios en Business Central
 
@@ -40,8 +40,7 @@ También por motivos de rendimiento, el registro de cambios se desactiva durante
 > * El usuario seleccionó otra empresa o área de trabajo.
 > * El usuario ha cerrado sesión y ha vuelto a iniciar sesión.
 
-### <a name="working-with-the-change-log"></a>Trabajar con el registro de cambios
-
+### <a name="work-with-the-change-log"></a>Trabajar con el registro de cambios
 El registro de cambios se activa y desactiva en la página **Config. log cambio**. Si un usuario activa o desactiva el registro de cambios, se registra esta actividad, de modo que siempre puede ver qué usuario ha activado o reactivado el registro de cambios.
 
 En la página **Config. log cambio**, si elige la acción **Tablas**, puede especificar de qué tablas que desea realizar el seguimiento de los cambios y de qué cambios desea efectuar el seguimiento. [!INCLUDE[prod_short](includes/prod_short.md)] también realiza el seguimiento de varias tablas del sistema.
@@ -55,8 +54,7 @@ Después de haber configurado el registro de cambios, haberlo activado y alguien
 
 Desde algunas páginas en [!INCLUDE [prod_short](includes/prod_short.md)], puede ver un registro de actividad que muestra el estado y los errores de los archivos que exporta o importa [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="working-with-activity-logs"></a>Trabajar con registros de actividad
-
+### <a name="work-with-activity-logs"></a>Trabajar con registros de actividad
 La información se muestra en la página **Registro de actividad**, según el contexto desde el que se abra. Por ejemplo, puede abrir la página desde las páginas **Configuración del servicio de intercambio de documentos**, **Documento entrante**, **Histórico de facturas de venta** e **Histórico de abonos de venta**. Puede vaciar la lista de entradas de registro o simplemente borrar la lista de entradas anteriores a siete días.  
 
 ## <a name="monitoring-sensitive-fields"></a>Supervisar campos confidenciales
@@ -82,7 +80,7 @@ Puede administrar la configuración para el monitoreo de campo, como enviar una 
 > [!NOTE]
 > Después de agregar uno o más campos y comenzar a monitorear, debe cerrar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] e iniciar sesión nuevamente para aplicar su configuración.
 
-### <a name="working-with-field-monitoring"></a>Trabajar con el monitoreo de campo
+### <a name="work-with-field-monitoring"></a>Trabajar con la supervisión de campos
 
 Las entradas para todos los valores modificados para los campos supervisados están disponibles en la página **Entradas de registro de campos supervisados**. Por ejemplo, las entradas contienen la siguiente información:
 

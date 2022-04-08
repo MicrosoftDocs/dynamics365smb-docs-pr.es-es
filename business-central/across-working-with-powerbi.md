@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147169"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510927"
 ---
-# <a name="working-with-power-bi-reports-in-prod_short"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 
 En este artículo, aprenderá algunos de los conceptos básicos sobre la visualización de informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -65,7 +65,7 @@ Conectarse a Power BI desde [!INCLUDE [prod_short](includes/prod_short.md)] es s
 
 Una vez conectado, puede seleccionar un informe de la parte de Power BI en las páginas.
 
-## <a name="working-with-power-bi-reports"></a>Trabajar con informes de Power BI
+## <a name="work-with-power-bi-reports"></a>Trabajar con informes de Power BI
 
 ### <a name="show-reports-on-list-pages"></a>Mostrar informes en páginas de lista
 
@@ -109,7 +109,7 @@ Para cargar un informe, seleccione la acción **Cargar informe** de la lista des
 Después de que el informe se cargue en su espacio de trabajo de Power BI, se carga automáticamente en los espacios de trabajo de Power BI de otros usuarios.
 
 > [!NOTE]
-> Cargar un informe requiere que tenga permisos de usuario SUPER en [!INCLUDE[prod_short](includes/prod_short.md)]. Además, no puede cargar informes con [!INCLUDE [prod_short](includes/prod_short.md)] local. Con local, carga informes directamente a su espacio de trabajo de Power BI. Para obtener más información, consulte [Trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI](across-working-with-business-central-in-powerbi.md)..
+> Cargar un informe requiere que tenga permisos de usuario SUPER en [!INCLUDE[prod_short](includes/prod_short.md)]. Además, no puede cargar informes con [!INCLUDE [prod_short](includes/prod_short.md)] local. Con local, carga informes directamente a su espacio de trabajo de Power BI. Para obtener más información, consulte [Trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI](across-working-with-business-central-in-powerbi.md).
 
 ## <a name="fixing-problems"></a>Solucionar problemas
 

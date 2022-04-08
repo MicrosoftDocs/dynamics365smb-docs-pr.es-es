@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381331"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518762"
 ---
-# <a name="working-with-general-journals"></a>Trabajar con diarios generales
+# <a name="work-with-general-journals"></a>Trabajar con diarios generales
 
 La mayoría de las transacciones financieras se registran en la contabilidad a través de documentos empresariales dedicados, como facturas de compra y pedidos de ventas. Pero también puede procesar actividades comerciales como comprar, pagar, usar diarios periódicos para contabilizar acumulaciones o reembolsar los gastos de los empleados contabilizando líneas de diario en los diferentes diarios en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -34,7 +34,7 @@ La información que introduzca en un diario es temporal y se puede modificar mie
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Usar plantillas y secciones de diario
+## <a name="use-journal-templates-and-batches"></a>Usar libros y secciones del diario
 
 Existen varias plantillas de diario general. Cada plantilla de diario se representa mediante una página específica con funciones particulares y los campos que se requieren para admitir estas funciones, como la página **Diario de conciliación de pagos** para procesar pagos bancarios y la página **Diario de pagos** para pagar a sus proveedores o reembolsar a sus empleados. Para obtener más información, vea [Realizar pagos](payables-make-payments.md) y [Conciliar los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente](receivables-how-apply-sales-transactions-manually.md).
 
@@ -51,7 +51,9 @@ Para ayudar a evitar retrasos al contabilizar, puede activar una comprobación d
 
 Cuando habilita la validación, el Cuadro informativo **Comprobación de diario** se muestra junto a las líneas del diario y mostrará los problemas en la línea actual y en todo el lote. La validación ocurre cuando carga una sección de diario de finanzas y cuando elige otra línea de diario. La ventana **Total de problemas** del Cuadro informativo muestra el número total de problemas que [!INCLUDE[prod_short](includes/prod_short.md)] ha encontrado y puede elegirla para abrirla y ver una descripción general de los problemas. 
 
-Puede usar las acciones **Mostrar líneas con problemas** y **Mostrar todas las líneas** para alternar entre líneas del diario que tienen o no tienen problemas. El nuevo Cuadro informativo **Detalles de línea del diario** proporciona una descripción general rápida y acceso a los datos desde las líneas del diario, como la cuenta, el cliente o el proveedor, así como la configuración de contabilización para cuentas específicas.     
+Puede usar las acciones **Mostrar líneas con problemas** y **Mostrar todas las líneas** para alternar entre líneas del diario que tienen o no tienen problemas. El nuevo Cuadro informativo **Detalles de línea del diario** proporciona una descripción general rápida y acceso a los datos desde las líneas del diario, como la cuenta, el cliente o el proveedor, así como la configuración de contabilización para cuentas específicas.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Reversión de diarios para corregir errores
 Cuando se trabaja con diarios que tienen muchas líneas y algo sale mal, es importante tener una manera fácil de corregir los errores. La página **Diario general publicado** ofrece un par de acciones que pueden ayudar.
@@ -73,7 +75,7 @@ Si ha configurado cuentas de contrapartida predeterminadas para las secciones de
 > [!NOTE]  
 > El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.
 
-## <a name="working-with-recurring-journals"></a>Trabajar con diarios periódicos
+## <a name="work-with-recurring-journals"></a>Trabajar con diarios periódicos
 Un diario periódico es un diario general con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno, como el alquiler, las suscripciones, la electricidad y la calefacción. Al usar estos campos para las transacciones periódicas, puede registrar importes tanto fijos como variables. También puede especificar movimientos de reversión automática para el día posterior a la fecha de registro. También puede usar claves de asignación para dividir los movimientos periódicos entre varias cuentas. Para obtener más información, consulte [Asignación de importes de diario periódicos a varias cuentas](#allocating-recurring-journal-amounts-to-several-accounts).
 
 En un diario periódico, los movimientos que se van a registrar con regularidad sólo hay que escribirlos una vez. Por tanto, las cuentas, las dimensiones, los valores de dimensiones, etc. que se introduzcan permanecerán en el diario después del registro. Si hay que hacer algún cambio, puede realizarlo en cada registro.
@@ -97,7 +99,7 @@ Este campo determina la forma en que se tratará el importe en la línea de diar
 > Los campos de IVA se pueden rellenar en la línea del diario periódico o en la línea del diario de distribución, pero no en ambas. Es decir, sólo se pueden rellenar en la página **Asignaciones** si no se han rellenado las líneas correspondientes en el diario periódico.
 
 ### <a name="recurring-frequency-field"></a>Campo Frecuencia repetición
-Este campo determina la frecuencia con que se va a registrar el movimiento de la línea del diario. Es un campo de fórmula de fecha y debe rellenarse para líneas periódicas. Para obtener más información, vea [Uso de fórmulas de fecha](ui-enter-date-ranges.md#using-date-formulas).
+Este campo determina la frecuencia con que se va a registrar el movimiento de la línea del diario. Es un campo de fórmula de fecha y debe rellenarse para líneas periódicas. Para obtener más información, vea [Usar fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Ejemplos
 Si la línea de diario debe registrarse cada mes, escriba "1M". Después de cada registro, la fecha del campo **Fecha registro** se actualizará con la fecha del mes siguiente.
@@ -145,7 +147,7 @@ Las acumulaciones generalmente se contabilizan con métodos periódicos Fijos, V
 > [!NOTE]
 > De manera predeterminada, el campo **Cálculo de la fecha de reversión** no está disponible en la página **Diarios generales periódicos** página. Para usar el campo, debe agregarlo personalizando la página. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
-## <a name="working-with-standard-journals"></a>Trabajar con diarios estándar
+## <a name="work-with-standard-journals"></a>Trabajar con diarios estándar
 Cuando haya creado líneas de diario que probablemente vaya a volver a crear más adelante, puede guardarlas como un diario estándar antes de registrar el diario. Esta funcionalidad se aplica a los diarios de productos y a los diarios generales.
 
 > [!NOTE]  

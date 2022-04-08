@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: eeb886becb78fdccd4a075db88fc393c30adb221
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: deb54eae1b6b6494043ae1ed0d3fc5cbdf2bab22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366267"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516244"
 ---
 # <a name="manage-employee-absence"></a>Gestionar ausencia empleados
 Para administrar la ausencia de un empleado, se debe registrar en la página **Registro de ausencias**. Puede posteriormente hacer un seguimiento de distintas maneras para fines de análisis y creación de informes.

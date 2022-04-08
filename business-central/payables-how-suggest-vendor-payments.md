@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 439db2ccacf165d27db44e4c786e71a4372171f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137788"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522803"
 ---
 # <a name="suggest-vendor-payments"></a>Proponer pagos a proveedores
 

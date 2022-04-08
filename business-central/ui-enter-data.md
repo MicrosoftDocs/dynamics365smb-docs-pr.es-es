@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323037"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528553"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
@@ -23,7 +23,8 @@ Hay muchas características generales que le ayudan a introducir datos de forma 
 
 Los ejemplos de este producto utilizan los datos de demostración.
 
-## <a name="working-with-editable-fields"></a>Trabajo con campos editables
+## <a name="work-with-editable-fields"></a>Trabajar con campos editables
+
 Los campos en [!INCLUDE[prod_short](includes/prod_short.md)] puede contener diferentes datos editables, como texto o importe de divisas. Los campos editables suelen mostrar un cuadro de entrada donde puede escribir o elegir un valor. Los campos no editables generalmente se muestran con un fondo gris.   
 
 Algunos campos editables proporcionan un selector para ayudarle a especificar un valor.  
@@ -57,6 +58,8 @@ Cuando el cursor se muestra al final del valor del campo:
 
 > [!NOTE]
 > Después de especificar un valor, Business Central solo comprobará que sea válido después de hacer clic fuera del campo o establecer el foco en otro elemento, como el siguiente campo.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -108,9 +111,9 @@ Aunque el campo es obligatorio, no se le obliga a rellenar el campo para ir a ot
 
  Muchos campos tienen un botón de flecha hacia abajo que puede elegir. Seleccione la flecha para desplegar una lista de datos que están disponibles para su introducción en el campo. El botón tiene dos funciones, según el tipo de campo:  
 
--   Búsqueda: muestra información de otra tabla, que puede introducir en el campo. Puede seleccionar un elemento de datos a la vez.  
+- Búsqueda: muestra información de otra tabla, que puede introducir en el campo. Puede seleccionar un elemento de datos a la vez.  
 
--   Desplegable: muestra el conjunto de opciones que existe para el campo. Sólo puede seleccionar una de las opciones.  
+- Desplegable: muestra el conjunto de opciones que existe para el campo. Sólo puede seleccionar una de las opciones.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Preguntas frecuentes sobre copiar y pegar campos y líneas
 
@@ -171,26 +174,26 @@ Al introducir números en campos de cantidad, como el campo **Cantidad** de una 
 
 ### <a name="examples"></a>Ejemplos  
 
--   Si introduce 19+19, el campo se calcula para obtener el valor 38.  
+- Si introduce 19+19, el campo se calcula para obtener el valor 38.  
 
--   Si introduce 41-9, el campo se calcula para obtener el valor 32.  
+- Si introduce 41-9, el campo se calcula para obtener el valor 32.  
 
--   Si introduce 12*4, el campo se calcula para obtener el valor 48.  
+- Si introduce 12*4, el campo se calcula para obtener el valor 48.  
 
--   Si introduce 12/4, el campo se calcula para obtener el valor 3.  
+- Si introduce 12/4, el campo se calcula para obtener el valor 3.  
 
 ## <a name="entering-negative-numbers"></a>Especificación de números negativos
 
 Puede especificar números negativos de dos formas. El número -20,5 se puede especificar como:  
 
--   -20,5  
+- -20,5  
 
-    O
--   20,5-  
+  O
+- 20,5-  
 
- En ambos casos, el importe se registrará como -20,5.  
+En ambos casos, el importe se registrará como -20,5.  
 
- Si el último carácter de la expresión es **+** o **-**, la expresión completa se registrará con ese signo. Ejemplo, **10-20+** dará como resultado 10 y no -10.  
+Si el último carácter de la expresión es **+** o **-**, la expresión completa se registrará con ese signo. Ejemplo, **10-20+** dará como resultado 10 y no -10.  
 
 ## <a name="entering-dates-and-times"></a>Introducir fechas y horas
 
@@ -205,11 +208,14 @@ Puede utilizar el selector de fechas para seleccionar una fecha de un calendario
 
 Para la entrada de fecha manual, puede introducir dos, cuatro, seis u ocho dígitos:  
 
--   Dos dígitos se interpretan como el día. Agregará el mes y el año de la fecha de trabajo.  
+- Dos dígitos se interpretan como el día. Agregará el mes y el año de la fecha de trabajo.  
 
--   Cuatro dígitos se interpretan como el día y el mes. Agregará el año de la fecha de trabajo.  
+- Cuatro dígitos se interpretan como el día y el mes. Agregará el año de la fecha de trabajo.  
 
--   Si la fecha que desea está en el rango del 01/01/1930 al 31/12/2029, introduzca el año con dos dígitos. De lo contrario, introduzca el año con cuatro dígitos.  
+- Si la fecha que desea está en el rango del 01/01/1950 al 31/12/2049, introduzca el año con dos dígitos. De lo contrario, introduzca el año con cuatro dígitos.
+
+  > [!NOTE]
+  > Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, el intervalo de años de dos dígitos puede ser diferente. Los administradores pueden cambiar el rango modificando el ajuste **CalendarTwoDigitYearMax** del servidor [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Configuración de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 También puede introducir una fecha como día de la semana seguido de un número de semana. O bien, puede introducir un año. Por ejemplo, Lun25 o lun25 significa lunes de la semana 25.  
 
@@ -267,9 +273,12 @@ A continuación se muestran algunos ejemplos.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Configurar el separador decimal utilizado por los teclados numéricos
 
-Cuando se usa la tecla de separación decimal del teclado numérico para introducir datos, el separador decimal real que se introduce en el campo está determinado por la configuración regional de su Business Central. Establezca la región en Business Central en la página **Mi configuración**.
+Cuando se usa la tecla de separación decimal del teclado numérico para introducir datos, el separador decimal real que se introduce en el campo está determinado por la configuración regional de Business Central. La mayoría de las regiones usan el punto (.) o la coma (,) como separador para los valores decimales, como se suele ver en las cantidades de moneda. La tecla decimal de su teclado se adapta a su región. Suele ser diferente a las teclas de punto o coma del resto del teclado. Establezca la región en Business Central en la página **Mi configuración**.
 
-Por ejemplo, suponga que está utilizando un teclado numérico que utiliza un punto (.) como tecla de separación decimal. Pero está introduciendo datos para un idioma regional que usa una coma (**,**) para el separador decimal, como danés (Dinamarca) o francés (Francia). Por lo tanto, desea que los decimales como "1.23" se introduzcan como "1,23". En este caso, puede ir a la página **Mi configuración** y configurar la **Región** al idioma regional de destino, como **Danés (Dinamarca)** o **Francés (Francia)**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md#region).
+Por ejemplo, suponga que está utilizando un teclado numérico que utiliza un punto (.) como tecla de separación decimal. Pero está introduciendo datos para un idioma regional que usa una coma (**,**) para el separador decimal, como francés (Francia). Por lo tanto, desea que los decimales como "1.23" se introduzcan como "1,23". En este caso, puede ir a la página **Mi configuración** y configurar la **Región** al idioma regional de destino, como **Francés (Francia)**. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Puede haber ocasiones en las que quiera usar el separador decimal para introducir un punto (.). Por ejemplo, suponga que estaba introduciendo un rango de fechas en un filtro, como `01/01/2022..04/01/2022`, o cualquier cosa que requiera un punto. Para adaptarse a este caso, pulse las teclas "Alt+separador decimal" en el teclado numérico. Esta combinación de teclas cambia el separador decimal entre la salida de un punto y el separador decimal determinado por el ajuste **Región**.
 
 ## <a name="see-also"></a>Consulte también
 

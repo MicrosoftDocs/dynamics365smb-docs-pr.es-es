@@ -9,17 +9,17 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383110"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517035"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integración con Dynamics 365 Sales
 
 
-El papel de vendedor se considera a menudo uno de los trabajos más orientados hacia el exterior en una empresa. Sin embargo, puede ser útil para los vendedores poder mirar hacia adentro en la empresa y ver lo que está sucediendo en la trastienda. Mediante la integración de [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[crm_md](includes/crm_md.md)], puede dar a sus vendedores esa visión, permitiéndoles ver la información en [!INCLUDE[prod_short](includes/prod_short.md)] mientras trabajan en [!INCLUDE[crm_md](includes/crm_md.md)]. Por ejemplo, al preparar una oferta de ventas podría ser útil saber si tiene suficiente inventario para cumplir el pedido. Para obtener más información, consulte [Uso de Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md).
+El papel de vendedor se considera a menudo uno de los trabajos más orientados hacia el exterior en una empresa. Sin embargo, puede ser útil para los vendedores poder mirar hacia adentro en la empresa y ver lo que está sucediendo en la trastienda. Mediante la integración de [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[crm_md](includes/crm_md.md)], puede dar a sus vendedores esa visión, permitiéndoles ver la información en [!INCLUDE[prod_short](includes/prod_short.md)] mientras trabajan en [!INCLUDE[crm_md](includes/crm_md.md)]. Por ejemplo, al preparar una oferta de ventas podría ser útil saber si tiene suficiente inventario para cumplir el pedido. Para obtener más información, consulte [Usar Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > Este tema describe el proceso de integración de las versiones en línea de [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener información sobre la configuración local, consulte [Preparación de Dynamics 365 Sales para la integración local](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -80,6 +80,7 @@ Además de las configuraciones anteriores, introduzca las siguientes configuraci
 | **La integración de pedidos de venta está habilitada** | Permitir que los usuarios envíen pedidos de venta y ofertas activadas en [!INCLUDE[crm_md](includes/crm_md.md)] y después verlas y procesarlas en [!INCLUDE[prod_short](includes/prod_short.md)]. Esto integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Crear automáticamente pedidos de ventas** | Crear un pedido de venta en [!INCLUDE[prod_short](includes/prod_short.md)] cuando un usuario cree y envíe uno en [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Procesar automáticamente ofertas de venta** | Procesar una oferta de venta cuando en [!INCLUDE[prod_short](includes/prod_short.md)] cuando un usuario cree y active una en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Gestión de datos de ofertas de ventas](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Sincronización bidireccional de pedidos de venta**|Sincronice pedidos de venta en ambas direcciones. Por ejemplo, si un cliente cambia de opinión sobre el producto o la cantidad que pidió en [!INCLUDE[crm_md](includes/crm_md.md)], puede procesar el cambio en [!INCLUDE[prod_short](includes/prod_short.md)] archivando el documento de ventas y creando uno nuevo. Lo mismo se aplica a los cambios en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, cuando cambian los precios, los importes de impuestos o las fechas de envío previstas, los cambios se sincronizan automáticamente para [!INCLUDE[crm_md](includes/crm_md.md)]. Esto ayuda a mantener a sus vendedores al día de los últimos cambios y el estado de las ofertas y pedidos.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ La siguiente tabla enumera la asignación estándar entre tablas en [!INCLUDE[pr
 | Oportunidad | Oportunidad | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | Histórico cab. factura venta | Facturar | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Histórico lín. factura venta | Producto de facturación | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Cabecera de pedido de cliente | Pedido venta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Filtro de cabecera de venta de [!INCLUDE[prod_short](includes/prod_short.md)]: **Tipo de documento** es Pedido, **Estado** es Lanzado |
+| Cabecera de pedido de cliente | Pedido venta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Para sincronizar en ambas direcciones, debe activar el botón de alternancia **Sincronización bidireccional de pedidos de venta** en la página **Configuración de la conexión de Dynamics 365**.| Filtro de cabecera de venta de [!INCLUDE[prod_short](includes/prod_short.md)]: **Tipo de documento** es Pedido, **Estado** es Lanzado |
 | Notas de pedido de ventas | Notas de pedido de ventas | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

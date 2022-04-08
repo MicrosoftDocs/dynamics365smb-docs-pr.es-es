@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139935"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516400"
 ---
 # <a name="setting-up-banking"></a>Configurar banca
 
@@ -27,7 +27,7 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 | --- | --- |
 | Configurar fichas de bancos para cada uno de sus bancos, de modo que pueda realizar un seguimiento de sus transacciones bancarias. |[Configurar bancos](bank-how-setup-bank-accounts.md) |
 | Configure un servicio externo que permita importar extractos bancarios como fuentes de banco para la liquidación de pagos y la conciliación de bancos. |[Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Configure un servicio externo que permita exportar pagos al banco para su procesamiento e importar extractos bancarios como archivos bancarios para la liquidación de pagos y la conciliación de bancos. |[Uso de la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
+| Configure un servicio externo que permita exportar pagos al banco para su procesamiento e importar extractos bancarios como archivos bancarios para la liquidación de pagos y la conciliación de bancos. |[Usar la extensión de AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 

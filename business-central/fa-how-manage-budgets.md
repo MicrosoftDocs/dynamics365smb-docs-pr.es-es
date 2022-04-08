@@ -10,12 +10,12 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e902f423bd0729608fcf0369248a4815bb88a72
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1244fa4e0062a5f7b9586eba125fb0fa1a050ee1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133867"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523532"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gestionar presupuestos de los activos fijos
 Puede configurar activos fijos presupuestados. Por ejemplo, esto le permite incluir adquisiciones y ventas anticipadas en los informes.  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e9bd9e44a92c952fe01636b1ef724491e479cf1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7127569153ee98aaadcbb807432d852a4f22d0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145243"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518710"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Tutorial: planificación manual de suministros
 
@@ -55,7 +55,7 @@ En este tutorial, se demuestra el proceso de planificar pedidos de suministro pa
 ## <a name="setting-up-the-sample-data"></a>Configuración de los datos de ejemplo  
  La empresa de demostración CRONUS estándar tiene en la actualidad gran cantidad de demanda no planificada. Durante las diferentes tareas de planificación de este tutorial, para desviarse del flujo empresarial real, deberá hacer caso omiso de la demanda con fechas de vencimientos próximas y usar en su lugar la demanda con fechas posteriores.  
 
-## <a name="using-the-order-planning-page"></a>Uso de la página Planificación de pedidos  
+## <a name="use-the-order-planning-page"></a>Usar la página Planificación de pedidos  
 
 A la página **Planificación de pedidos** se puede acceder desde varias ubicaciones diferentes:  
 
