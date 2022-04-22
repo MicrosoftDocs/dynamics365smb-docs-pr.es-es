@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515750"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557410"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Asignación de tablas y campos para sincronizar
 
@@ -28,6 +28,9 @@ Cuando cree la conexión entre las aplicaciones, [!INCLUDE[prod_short](includes/
 
 > [!Note]
 > Si está utilizando una versión local de [!INCLUDE[prod_short](includes/prod_short.md)], las asignaciones de la tabla de integración se almacenan en la tabla 5335 de Asignaciones de la tabla de integración, donde puede ver y modificar las asignaciones. Las asignaciones complejas y las reglas de sincronización se definen en la codeunit 5341. 
+
+### <a name="additional-mappings"></a>Asignaciones adicionales 
+Los términos de pago, los métodos de envío y los agentes de envío pueden cambiar, y es importante poder ajustarlos. Si habilita la característica **Actualización de características: asignar a conjuntos de opciones en Dataverse sin código** en la página [Administración de características](https://businesscentral.dynamics.com/?page=2610), puede agregar manualmente asignaciones de tablas de integración para términos de pago (TÉRMINOS DE PAGO), métodos de envío (MÉTODO DE ENVÍO) y agentes de envío (AGENTE DE ENVÍO). Esta asignación puede contribuir a garantizar que sus políticas sean las mismas para estas configuraciones en [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ### <a name="synchronization-rules"></a>Reglas de sincronización
 Una asignación de tabla de integración también incluye reglas que controlan cómo los trabajos de sincronización de integración sincronizan registros en una tabla de [!INCLUDE[prod_short](includes/prod_short.md)] y una tabla en [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->

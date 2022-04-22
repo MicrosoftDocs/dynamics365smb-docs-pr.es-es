@@ -1,6 +1,6 @@
 ---
 title: Asignar diseños de documentos a clientes o proveedores
-description: Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar que se utilizan el cliente o el proveedor en cuestión.
+description: Utilice diseños de documentos para controlar la apariencia y el formato de documentos, como facturas y pedidos, que envía a clientes y proveedores.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,49 +9,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
+ms.search.form: 21, 9650
+ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f751b13485cf795acef829f40e2ff0c8f689fd0b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510744"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557384"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definir diseños de documentos para clientes y proveedores
-Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar qué diseños se utilizarán para los diferentes tipos de documentos que cree para el cliente o el proveedor en cuestión. El valor en el campo **Uso** define para qué proceso se utilizará el diseño del documento, como **Recordatorio**, **Envío** y **Confirmación**.
+Los diseños de documentos usan diseños de informes para definir la apariencia de los documentos que envía a clientes y proveedores. Business Central proporciona diseños estándar, pero también puede adaptar diseños personalizados para cada uno de sus socios comerciales. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md). Puede seleccionar diseños de documentos estándar y personalizados de las fichas de cliente y proveedor eligiendo la acción **Diseños de documentos**. El valor en el campo **Uso** define el proceso para el que se utiliza el diseño de documentos. Por ejemplo, para los clientes, puede utilizar los tipos de diseño de documentos **Recordatorio**, **Envío** y **Confirmación**.
 
-Además de configurar qué diseños se usarán para cada documento, puede ahorrar tiempo al enviar documentos a diferentes contactos de clientes o proveedores configurando las direcciones de correo electrónico de contactos específicos para usar con documentos específicos. Por ejemplo, los estados de cuenta de los clientes se enviarán a los contactos de contable, los pedidos de venta a los compradores de sus clientes y los pedidos de compra a los vendedores o administradores de cuentas de los proveedores.
+Los diseños de documentos también pueden ahorrarle tiempo cuando envía documentos a contactos de clientes o proveedores por correo electrónico. Para cada diseño que asigne al cliente o contacto, puede especificar una o más direcciones de correo electrónico de contacto. Por ejemplo, puede enviar una factura a los contactos de compras y almacén del cliente. Agregar direcciones de correo electrónico de contacto es fácil. En la página **Diseños de documento**, la acción **Seleccionar correo electrónico de contactos** le permite elegir entre una lista de direcciones de correo electrónico de contacto que usted haya registrado para el cliente o proveedor. También puede agregar direcciones de correo electrónico manualmente. Si ingresa varias direcciones, sepárelas con un punto y coma y no agregue espacios entre las direcciones.
 
-Cuando define un diseño de documento para un cliente o proveedor, también puede especificar la dirección de correo electrónico de la persona de contacto que debe recibir el documento. Puede hacer esto rápidamente con la función **Seleccionar correo electrónico de contactos**, que filtra automáticamente las direcciones de correo electrónico de contacto registradas para el cliente o proveedor en cuestión.
+Antes de poder definir qué diseño de documento usar para cada proceso y a qué contacto enviar el documento, debe cargar todos los informes disponibles (documentos) desde la página **Seleccionar selecciones**. Puede cargar rápidamente los documentos utilizando la acción **Copiar desde selección de informe** en la página **Diseños de documentos**.
 
-Antes de poder definir qué diseño de documento usar para cada proceso y a qué contacto enviar el documento, debe cargar todos los informes disponibles (documentos) desde la página **Seleccionar selecciones**. Puede hacer esto rápidamente con la función **Copiar desde selección de informe**.
+Los pasos en las siguientes secciones describen cómo definir diseños de documentos de venta desde la página **Ficha cliente**. Para los proveedores, los pasos son los mismos que desde la página **Ficha proveedor**.
 
-A continuación se describe cómo definir diseños de documentos de venta desde una ficha de cliente. Los pasos son los mismos que para los diseños de documentos de compra de una ficha de proveedor.
+## <a name="to-load-the-standard-document-layouts-for-sales-documents-for-a-customer"></a>Para cargar los diseños de documentos estándar para documentos de ventas de un cliente
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
+2. Abra la página **Ficha cliente** para el cliente y, a continuación, elija la acción **Diseños de documentos**.
+3. En la página **Diseños de documentos**, elija la acción **Copiar desde selección de informe**.
 
-## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Para habilitar todos los documentos de venta disponibles para un cliente
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
-2. Abra la ficha del cliente para el que desea definir diseños de documento por proceso de negocio.
-3. En la página **Ficha de cliente**, seleccione la página **Diseños de documentos**.
-4. En la página **Diseños de documentos**, elija la acción **Copiar desde selección de informe**.
-
-La página **Diseños de documentos** para el cliente en cuestión se rellena con todos los diseños de informes para ventas que existen en el sistema. Para obtener más información sobre su creación, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
-
-Ahora puede pasar a ajustar la lista con cualquier diseño de informe personalizado o dirección de correo electrónico para los contactos a los que se deben enviar los documentos.
+La página **Diseños de documentos** muestra todos los diseños que están disponibles para documentos de ventas. 
 
 ## <a name="to-select-a-custom-report-layout-to-use-for-the-sales-document-layout"></a>Para seleccionar un diseño de informe personalizado para usar para el diseño de documento de venta
-Si uno o más de los diseños de informe que están definidos en la página **Diseños de documento** para el cliente no tiene un diseño de informe personalizado definido, puede hacerlo rápidamente.
+Si aún no ha creado un diseño de informe personalizado para el tipo de documento, deberá hacerlo primero. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
-1. En la página **Diseños de documento**, en la línea para un diseño de informe para el que desea utilizar un diseño personalizado, elija el campo **Descripción de diseño personalizado**. El campo se rellena si el diseño del cliente ya está seleccionado o en blanco.
-2. En la página **Diseños de informe personalizados**, seleccione el diseño de documento especial que desea utilizar para el tipo de documento de venta en cuestión. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
+2. Abra la página **Ficha cliente** para el cliente y, a continuación, elija la acción **Diseños de documentos**.
+3. En la página **Diseños de documento**, en la línea para un diseño de informe para el que desea utilizar un diseño personalizado, elija el campo **Descripción de diseño personalizado**.
+4. En la página **Diseños de informe personalizados**, seleccione el diseño de documento que desea utilizar para el tipo de documento de ventas. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
-## <a name="to-set-up-which-contact-receives-which-document-layout-for-a-customer"></a>Para configurar qué contacto recibe cada diseño de documento para un cliente
-Puede ahorrar tiempo al enviar documentos a diferentes clientes o contactos de proveedor especificando las direcciones de correo electrónico de contacto en las diferentes líneas de la página **Diseños de documento**. Por ejemplo, los estados de cuenta de los clientes se pueden enviar a los contactos de contable, los pedidos de venta a los compradores de sus clientes y los pedidos de compra a los vendedores o administradores de cuentas de los proveedores.
+## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Para especificar qué contacto recibirá cada diseño de documento para un cliente
+Para ahorrar tiempo cuando envía documentos a contactos de clientes y proveedores por correo electrónico, especifique sus direcciones de correo electrónico en los diseños de documentos. Por ejemplo, puede enviar estados de cuenta de los clientes a sus contactos de contable, pedidos de venta a sus compradores o pedidos de compra a los vendedores de los proveedores.
 
 1. En la página **Diseños de documento**, en la línea para un diseño de informe que desea enviar a un contacto específico para el cliente, elija la acción **Seleccionar correo electrónico de contactos**.
-2. En la página **Contactos**, seleccione la línea para el contacto relevante y luego elija el botón **Aceptar**.
-
-La dirección de correo electrónico del contacto se inserta ahora en la línea de diseño de documento para que el documento de venta en cuestión, por ejemplo, los recordatorios, se envíe siempre a ese contacto en la empresa del cliente.
+2. En la página **Contactos**, seleccione uno o más contactos y luego elija **Aceptar**.
 
 ## <a name="see-also"></a>Consulte también  
 [Actualizar los diseños de informe personalizados](ui-update-report-layouts.md)  

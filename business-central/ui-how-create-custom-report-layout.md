@@ -10,23 +10,23 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511446"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557182"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Versión heredada) Crear y modificar diseños de informe personalizados
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-De forma predeterminada, un informe tendrá un diseño de informe integrado, bien de RDLC o de Word, o ambos. No puede modificar diseños integrados. Pero puede crear sus propios diseños personalizados que le permitan modificar el aspecto del informe cuando se vea, se imprima o se guarde. Puede crear varios diseños de informe personalizados para el mismo informe y, a continuación, cambiar al diseño utilizado por un informe según sea necesario.
+De forma predeterminada, un informe tendrá un diseño de informe integrado, de RDLC, de Word o ambos. No puede modificar diseños integrados, pero puede crear diseños personalizados. Un informe puede tener varios diseños de informe personalizados, lo que le permite cambiar al diseño utilizado según sea necesario.
 
 > [!NOTE]  
 > En [!INCLUDE[prod_short](includes/prod_short.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
 
-Para crear un diseño personalizado, haga una copia de un diseño personalizado existente o agregue un nuevo diseño personalizado, que suele basarse en un diseño integrado. Cuando se agrega un nuevo diseño personalizado, puede elegir agregar un tipo de diseño de informe de RDLC, uno de Word, o ambos. El nuevo diseño personalizado se basará automáticamente en el diseño integrado del informe si hay uno disponible. Si no hay un diseño integrado para el tipo, se crea un nuevo diseño en blanco. Tendrá que modificar y diseñar este diseño en blanco desde cero. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).  
+Para crear un diseño personalizado, haga una copia de un diseño personalizado existente o agregue un nuevo diseño personalizado, que suele basarse en un diseño integrado. Cuando se agrega un nuevo diseño personalizado, puede elegir agregar un tipo de diseño de informe de RDLC, de Word o ambos. El nuevo diseño personalizado se basará en el diseño integrado del informe si hay uno disponible. Si no hay un diseño integrado para el tipo, se crea un nuevo diseño en blanco. Tendrá que modificar y diseñar este diseño en blanco desde cero. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Use esquemas de cuentas para obtener información sobre los datos financieros almacenados en su plan de cuentas. Para obtener más información, vea [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md).

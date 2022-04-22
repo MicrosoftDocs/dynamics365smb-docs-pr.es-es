@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517900"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557228"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Configuración de centros de trabajo y centros de máquinas
 
@@ -39,18 +39,19 @@ A continuación se describe principalmente cómo configurar un centro de trabajo
 2. Seleccione la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. En el campo **Grupo de centro de trabajo**, seleccione el grupo de recursos de nivel superior bajo el que está organizado el centro de trabajo, si es relevante. En la ventana Clientes, seleccione la acción la lista desplegable **Nuevo**.  
-5. Seleccione el campo **Bloqueado** si desea evitar que el centro de trabajo se utilice en cualquier procesamiento. Esto significa que la salida no se puede registrar por un artículo producido en el centro de trabajo. Para obtener más información, consulte [Registro de salida de producción](production-how-to-post-output-quantity.md).
-6. En el campo **Coste unitario directo**, especifique el coste de producir una unidad de medida en este centro de trabajo, sin tener en cuenta los demás elementos de coste. Este coste se suele denominar *coste directo de mano de obra*.  
-7. En el campo **% Coste indirecto**, especifique los costes generales de operación de uso del centro de trabajo como un porcentaje del coste unitario directo. Este importe porcentual se agrega al coste directo al calcular el coste unitario.  
-8. En el campo **Tasa costes generales**, especifique todos los costes del centro de trabajo que no sean de explotación, como los gastos de mantenimiento, como una cantidad absoluta.  
+5. En el campo **Centro de trabajo alternativo**, seleccione el centro de trabajo que desea usar si este centro de trabajo no está disponible o cuando la demanda excede su capacidad. El centro de trabajo alternativo es solo informativo y no se incluye automáticamente en los procesos de planificación.
+6. Seleccione el campo **Bloqueado** si desea evitar que el centro de trabajo se utilice en cualquier procesamiento. Esto significa que la salida no se puede registrar por un artículo producido en el centro de trabajo. Para obtener más información, consulte [Registro de salida de producción](production-how-to-post-output-quantity.md).
+7. En el campo **Coste unitario directo**, especifique el coste de producir una unidad de medida en este centro de trabajo, sin tener en cuenta los demás elementos de coste. Este coste se suele denominar *coste directo de mano de obra*.  
+8. En el campo **% Coste indirecto**, especifique los costes generales de operación de uso del centro de trabajo como un porcentaje del coste unitario directo. Este importe porcentual se agrega al coste directo al calcular el coste unitario.  
+9. En el campo **Tasa costes generales**, especifique todos los costes del centro de trabajo que no sean de explotación, como los gastos de mantenimiento, como una cantidad absoluta.  
 
     El campo **Coste unitario** contiene el coste unitario calculado de producir una unidad de medida en este centro de trabajo, incluidos todos los elementos de coste, como se indica a continuación:  
 
     Coste unitario = Coste unitario directo + (Coste unitario directo x % Coste indirecto) + Tasa de costes generales.  
 
-9. En el campo **Cálculo coste unitario**, indique si el cálculo anterior debe basarse en la cantidad de tiempo empleado: **Tiempo** o en el número de unidades producidas: **Unidades**.  
-10. Seleccione el campo **Coste unitario específico** si desea definir el coste unitario del centro de trabajo en la línea de ruta donde se va a utilizar. Esto se aplica a las operaciones con unos costes de capacidad radicalmente diferentes de los procesados normalmente en el centro de trabajo.  
-11. En el campo **Método de baja**, seleccione si el registro de salida de este centro de trabajo se debe calcular y registrar manualmente o automáticamente con alguno de los métodos siguientes.
+10. En el campo **Cálculo coste unitario**, indique si el cálculo anterior debe basarse en la cantidad de tiempo empleado: **Tiempo** o en el número de unidades producidas: **Unidades**.  
+11. Seleccione el campo **Coste unitario específico** si desea definir el coste unitario del centro de trabajo en la línea de ruta donde se va a utilizar. Esto se aplica a las operaciones con unos costes de capacidad radicalmente diferentes de los procesados normalmente en el centro de trabajo.  
+12. En el campo **Método de baja**, seleccione si el registro de salida de este centro de trabajo se debe calcular y registrar manualmente o automáticamente con alguno de los métodos siguientes.
 
     |Opción|Descripción|
     |------|-----------|
@@ -61,17 +62,17 @@ A continuación se describe principalmente cómo configurar un centro de trabajo
     > [!NOTE]
     > Si es necesario, el método de baja seleccionado aquí, se puede reemplazar por operaciones individuales cambiando la configuración en las líneas de ruta
 
-12. En el campo **Cód. unidad de medida**, especifique la unidad de tiempo en la que se efectúa el cálculo de costes y la planificación de capacidad del centro de trabajo.
+13. En el campo **Cód. unidad de medida**, especifique la unidad de tiempo en la que se efectúa el cálculo de costes y la planificación de capacidad del centro de trabajo.
     Para poder controlar el consumo constantemente, primero debe configurar un método de medida. Las unidades que se especifican son unidades básicas. Por ejemplo, el tiempo de proceso se mide en horas y minutos.
 
     > [!NOTE]  
     > Si decide utilizar Días, recuerde que 1 día = 24 horas, y no 8 (jornada laboral).
 
-13. En el campo **Capacidad**, puede definir si en el centro de trabajo hay más de una máquina o persona trabajando a la vez. Si la instalación de [!INCLUDE[prod_short](includes/prod_short.md)] no tiene la funcionalidad del centro de máquina, el valor de este campo debe ser **1**.  
-14. En el campo **Eficiencia**, especifique el porcentaje de la salida estándar esperada que este centro de trabajo produce realmente. Si especifica **100**, estará indicando que el centro de trabajo tiene una salida real igual que la salida estándar.  
-15. Seleccione la casilla verificación **Calendario consolidado** si también utiliza centros de máquina. Esto asegura que los movimientos de calendario se traspasan desde los calendarios de centro de máquina.  
-16. En el campo **Cód. calen. planta**, seleccione un calendario de planta. Para obtener más información, consulte [Crear calendarios de planta](production-how-to-create-work-center-calendars.md).  
-17. En el campo **Tiempo cola**, puede especificar el intervalo de tiempo fijo que debe transcurrir antes de que se inicie el trabajo asignado en este centro de trabajo. 
+14. En el campo **Capacidad**, puede definir si en el centro de trabajo hay más de una máquina o persona trabajando a la vez. Si la instalación de [!INCLUDE[prod_short](includes/prod_short.md)] no tiene la funcionalidad del centro de máquina, el valor de este campo debe ser **1**.  
+15. En el campo **Eficiencia**, especifique el porcentaje de la salida estándar esperada que este centro de trabajo produce realmente. Si especifica **100**, estará indicando que el centro de trabajo tiene una salida real igual que la salida estándar.  
+16. Seleccione la casilla verificación **Calendario consolidado** si también utiliza centros de máquina. Esto asegura que los movimientos de calendario se traspasan desde los calendarios de centro de máquina.  
+17. En el campo **Cód. calen. planta**, seleccione un calendario de planta. Para obtener más información, consulte [Crear calendarios de planta](production-how-to-create-work-center-calendars.md).  
+18. En el campo **Tiempo cola**, puede especificar el intervalo de tiempo fijo que debe transcurrir antes de que se inicie el trabajo asignado en este centro de trabajo. 
 
 > [!NOTE]
 > Utilice tiempos de cola para proporcionar un búfer entre el momento en que un componente llega a una máquina o centro de trabajo y cuando la operación comienza realmente. Por ejemplo, una pieza se entrega a un centro de máquinas a las 10:00, pero se tarda una hora en montarla en la máquina, por lo que la operación no comienza hasta las 11:00. Para tener en cuenta esa hora, el tiempo de espera sería una hora. El valor del campo **Tiempo cola** de la ficha de centro de trabajo o centro de máquina y la suma de los valores de los campos **Tiempo preparación**, **Tiempo ejecución**, **Tiempo espera** y **Tiempo movimiento** de la línea de la línea de ruta se combinan para proporcionar el plazo de producción del producto. Esto ayuda a proporcionar tiempos de producción generales precisos.  

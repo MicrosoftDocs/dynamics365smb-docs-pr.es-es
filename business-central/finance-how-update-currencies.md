@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523480"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557358"
 ---
 # <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 
@@ -68,6 +68,12 @@ El trabajo por lotes **Ajustar tipos de cambio** se usa para ajustar manualmente
 
 > [!TIP]
 > Puede utilizar un servicio para actualizar los tipos de cambio en el sistema automáticamente. Para obtener más información, vea [Para configurar un servicio de tipo de cambio de divisa](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Sin embargo, esto no ajusta los tipos de cambio en transacciones ya registradas. Para actualizar los tipos de cambio de las entradas publicadas, utilice el trabajo por lotes **Ajustar tipos de cambio**.
+
+Puede obtener una vista previa del efecto que tendrá un ajuste en el registro antes de hacerlo realmente seleccionando **Vista previa** en la página **Ajustar tipos de cambio**. Además, puede seleccionar si el registro del libro mayor será detallado (por entrada) o resumido (por moneda) seleccionando **Resumir movimientos**. También puede especificar cómo manejar las dimensiones para registros de ganancias y pérdidas no realizadas eligiendo una de las siguientes opciones en el campo **Transferir valores de dimensión**:  
+
+- **Movimiento de origen**: los movimientos contables para ganancias y pérdidas no realizadas tendrán valores de dimensión transferidos desde el movimiento ajustado.
+- **Por cuenta**: los movimientos contables para ganancias y pérdidas no realizadas tendrán valores de dimensión transferidos desde el movimiento de origen de configuración de dimensiones en la cuenta de ganancias y pérdidas no realizadas.
+- **Sin transferencia**: los movimientos contables para ganancias y pérdidas no realizadas no tendrán valores de dimensión.
 
 ### <a name="effect-on-customers-and-vendors"></a>Efecto en clientes y proveedores
 

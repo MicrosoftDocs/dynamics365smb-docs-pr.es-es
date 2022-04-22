@@ -1,17 +1,17 @@
 ---
 title: Regístrese para obtener una versión de prueba gratuita
-description: Obtenga información sobre cómo registrarse rápidamente e iniciar una prueba gratuita de Dynamics 365 Business Central. Explore la aplicación con recorridos y videos, y encuentre recursos de aprendizaje adicionales.
+description: Obtenga información sobre cómo registrarse rápidamente e iniciar una prueba gratuita de Dynamics 365 Business Central. Explore la aplicación con recorridos y vídeos, y encuentre más recursos de aprendizaje.
 author: edupont04
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
-ms.date: 02/23/2022
-ms.openlocfilehash: 353d8954c1851bc69bd2ec4580d2a07eb4914363
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.date: 04/05/2022
+ms.openlocfilehash: 6e911b0f6b3dc9544e877aee16d52a10d54c4031
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367312"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557123"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Regístrese para obtener una versión de prueba de Dynamics 365 Business Central
 
@@ -19,23 +19,25 @@ Business Central ofrece una prueba gratuita. Tras un registro rápido, tendrá a
 
 ## <a name="to-sign-up-for-the-trial"></a>Para registrarse para la versión de prueba
 
-1. Vaya al [sitio de prueba](https://go.microsoft.com/fwlink/?linkid=847861), elija *Finanzas y operaciones*, y luego, en la tarjeta **Dynamics 365 Business Central**, elija el botón **Probar gratis**.  
-2. Introduzca la dirección de correo electrónico de su trabajo o escuela y otros datos. Se le redirigirá a su aplicación de prueba en [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
-
-La versión de prueba tarda unos minutos en cargarse, luego puede comenzar a usar la aplicación.
+[!INCLUDE [trial-get](includes/trial-get.md)]
 
 ## <a name="what-to-try"></a>Qué probar
 
-Su entorno de prueba incluye muchas de las mismas funciones que la versión de pago. Los enlaces a continuación lo guían a través de algunas de las funciones clave.
+Su entorno de prueba incluye las mismas funciones que la versión de pago. Los enlaces a continuación lo guían a través de algunas de las funciones clave.
 
-- [Obtener más información acerca de la conexión a Business Central](across-business-functionality.md)  
-- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-- [Inicio rápido de Business Central](quick-start-business-central.md)  
+- [Resumen de las funciones empresariales](across-business-functionality.md)  
+- [Introducción](ui-get-ready-business.md#get-started)  
+- [Sea productivo](ui-work-product.md)  
+- [Inicio rápido](quick-start-business-central.md)  
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Explorar la formación en Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Visite nuestra biblioteca de vídeos](across-videos.md)  
 - [Preguntas más frecuentes de la prueba](trial-faq.md)  
-- [Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
+- [Versiones de prueba y suscripciones](across-preview.md)  
 - [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)  
+- [Introducción a una suscripción](across-preview.md#get-started-with-a-subscription)  
+- [Personalizar el área de trabajo](ui-personalization-user.md)  
+- [Ejecutar e imprimir informes](ui-work-report.md)  
+- [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)  
