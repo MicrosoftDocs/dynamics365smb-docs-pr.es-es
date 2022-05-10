@@ -4,15 +4,15 @@ description: Si trabaja para varias organizaciones, puede cambiar rápidamente e
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514366"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655389"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Cambiar a otra empresa o entorno
 
@@ -24,6 +24,8 @@ ms.locfileid: "8514366"
 > Si a menudo cambia entre empresas o trabaja con [!INCLUDE[prod_short](includes/prod_short.md)] desde dentro de otra aplicación como Microsoft Teams, puede ser fácil perder la noción de dónde se encuentra. Para ayudarle a realizar un seguimiento, puede agregar un distintivo que mostrará el nombre de la empresa, para que pueda verificar rápidamente que está en el lugar correcto. Para obtener más información, vea [Para mostrar un distintivo de empresa para acceder rápidamente a la información de la empresa](ui-change-basic-settings.md#badge).
 
 Dependiendo de su navegador, también puede anclar las diferentes empresas a su barra de favoritos.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="switch-to-another-environment"></a>Cambiar a otro entorno
 

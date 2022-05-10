@@ -7,19 +7,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: fffc72eaa44207779a751c3d85381f830f651eb3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528553"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655025"
 ---
 # <a name="entering-data"></a>Introducción de datos
 
 Hay muchas características generales que le ayudan a introducir datos de forma más fácil, rápida y precisa. Los principios básicos y las características avanzadas para la introducción de datos se describen en este artículo.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Los ejemplos de este producto utilizan los datos de demostración.
 
@@ -262,7 +264,7 @@ A continuación se muestran algunos ejemplos.
 |6 h 30 m|6 h 30 m|  
 |6,5h|6 h 30 m|  
 |90m|1 h 30 m|  
-|2d 6h 30m|2 días 6 h 30 m|  
+|2d 6h 30m|2 días 6 hrs 30 mins|  
 |2d 6h 30m 56s 600ms|2 días 6 h 30 m 56 s 600 ms|  
 
  También puede introducir un número y se convertirá automáticamente en un periodo de tiempo. El número que introduzca se convierte según la unidad de medida predeterminada que se ha especificado en el campo Duración.  

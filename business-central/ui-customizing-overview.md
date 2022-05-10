@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 2500, 2502, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fa658877b3ed1c04532083788320403edbebce69
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01fd408e08dab78667eaa58bac55f39087b27f74
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512867"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655467"
 ---
 # <a name="customize-business-central"></a>Personalizar Business Central
 Existen diferentes formas de personalizar la aplicación para tener acceso a las funciones, la funcionalidad y los datos que más necesitan, de la manera que mejor se adapte a su trabajo diario. Aquellos que vean los cambios dependerán de lo que haga, como se describe en esta tabla.

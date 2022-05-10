@@ -11,17 +11,17 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 78ecb3147ef31bb2ced29aa3c316f9bd5c05ee0b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8350b6e2ce73d1f210bcb62a393ac8a76f7d297e
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518840"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625531"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Extensión PayPal Payments Standard
 Los clientes requieren continuamente un servicio de atención al cliente mejor, ya sea en cuanto a la calidad de los productos o a las opciones de pago y envío. El servicio Paypal Payments Standard ayuda a mejorar el servicio de atención al cliente.
 
-Como alternativa a recopilar pagos a través de la transferencia bancaria o las tarjetas de crédito, puede ofrecer a sus clientes la opción de pagar a través de su cuenta de PayPal. Cuando envía una factura de venta o un pedido de venta por correo electrónico, hay un vínculo de PayPal en el cuerpo del correo electrónico y en el documento PDF adjunto. Cuando el cliente elige el vínculo, aparece la página de su cuenta de PayPal y muestra los detalles de pago de la venta. El cliente podrá pagar la factura como cualquier otro pago de PayPal.
+Como alternativa a recopilar pagos a través de la transferencia bancaria o las tarjetas de crédito, puede ofrecer a sus clientes la opción de pagar a través de su cuenta de PayPal. Cuando envía una factura de venta por correo electrónico, hay un vínculo de PayPal en el cuerpo del correo electrónico y en el documento PDF adjunto. Cuando el cliente elige el vínculo, aparece la página de su cuenta de PayPal y muestra los detalles de pago de la venta. El cliente podrá pagar la factura como cualquier otro pago de PayPal.
 
 El servicio Paypal Payments Standard proporciona las ventajas siguientes:
 

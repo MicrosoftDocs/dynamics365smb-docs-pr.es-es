@@ -6,22 +6,26 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 05cd41ffea6b2c78747112925d4da1e8a74c67b6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2a87bfa59ad6b5ccef9232afb57aa7400aea6ff2
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518788"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655675"
 ---
 # <a name="save-and-personalize-list-views"></a>Guardar y personalizar vistas de lista
+
 Cuando haya establecido un filtro en una lista y desee conservar el filtro para más adelante, puede guardarlo como una vista. Para obtener más información sobre el filtrado de listas, consulte [Configuración de filtros en listas](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
 Si existen vistas, el grupo **Vistas** aparece en la parte superior del panel de filtro. Las vistas son variaciones de la lista que se han preconfigurado con filtros. Puede definir y guardar tantas vistas como desee por lista. Las vistas estarán disponibles la próxima vez que abra la lista, desde cualquier dispositivo o navegador.
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 ## <a name="to-save-a-view"></a>Para guardar una vista
+
 1. Abre cualquier página de lista.
 2. Seleccione el ![icono Panel de filtro.](media/open-filter-pane-icon.png "Icono Panel de filtro") en la parte superior de la lista o pulse Mayús+F3 para abrir el panel de filtro.
 3. Establezca uno o más filtros nuevos. Para obtener más información, vea [Configuración de filtros en listas](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -37,13 +41,16 @@ Si no le asigna un nombre, se llamará **Todos (copia)**.
 > ¿No ve el icono ![Guardar vista](media/save_view_icon.png "Guardar vista")? Para más información, vea [Por qué no tengo un icono de Guardar](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Para cambiar el nombre de una vista o eliminarla
+
 1. Para la vista que muestra actualmente la lista, elija el icono ![Mostrar más opciones.](media/show-more-options-icon.png "Mostrar más opciones") para ver qué opciones están disponibles.
 2. Elija la acción **Cambiar nombre** o **Eliminar**.
 
 ## <a name="managing-many-views"></a>Administración de muchas vistas
+
 A medida que aumenta el número de vistas en una página, es posible que necesite más control sobre cómo se presentan las vistas en el panel de filtro. Con el banner **Personalización**, puede ocultar vistas no deseadas o reordenar las vistas para obtener la secuencia perfecta. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Consulte también
+
 [Preguntas frecuentes sobre vistas de lista](ui-views-faq.yml)  
 [Personalizar el área de trabajo](ui-personalization-user.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

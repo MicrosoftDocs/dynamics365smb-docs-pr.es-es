@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519360"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654973"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], el contenedor para datos empresariales que pertenece a una unidad de negocio o entidad legal se denomina *empresa*. Cuando se registra en [!INCLUDE[prod_short](includes/prod_short.md)], recibe una empresa de demostración y una empresa vacía, *Mi empresa*. Cambiar entre las empresas es fácil, solo tiene que ir a **Mi configuración** y cambiar a la otra empresa. Pero también puede crear nuevas empresas en [!INCLUDE[prod_short](includes/prod_short.md)], según sus necesidades comerciales.  
 
 Al crear una empresa nueva, una guía de configuración asistida le ayuda a obtener los elementos básicos. A continuación, puede importar datos relevantes de su sistema heredado u otra empresa en [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>Elegir la plantilla adecuada
 
@@ -45,7 +47,7 @@ Durante su prueba de 30 días, puede crear todas las nuevas empresas que desee, 
 
 ## <a name="copy-a-company"></a>Copiar una empresa
 
-En la página **Empresas**, puede usar la acción **Copiar** para crear una segunda empresa basada en los contenidos de una empresa existente. Esto es útil, por ejemplo, cuando desea probar una empresa sin interrumpir los datos de producción.
+En la página **Empresas**, puede usar la acción **Copiar** para crear una segunda empresa basada en los contenidos de una empresa existente. Eso es útil, por ejemplo, cuando desea probar una empresa sin interrumpir los datos de producción.
 
 > [!Important]
 > Esta función no se puede utilizar para hacer una copia de seguridad de una empresa. Hacer una copia de seguridad de la empresa comienza exportando la base de datos como un archivo .bacpac. Para obtener más información, consulte [Exportar bases de datos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) en la ayuda para desarrolladores y administradores.
@@ -54,7 +56,7 @@ En la página **Empresas**, puede usar la acción **Copiar** para crear una segu
 
 Cuando inicie sesión en una empresa nueva, se ejecutará el asistente **Configuración de la empresa** automáticamente y le ayudará a empezar. Se le pedirá información sobre su empresa, como la dirección, los datos bancarios y el método de cálculo de costes de inventario. Pedimos esta información porque se utiliza como base para muchas áreas en [!INCLUDE[prod_short](includes/prod_short.md)] que no tendrá que configurar manualmente más adelante.  
 
-Por ejemplo, la dirección de su empresa se incluye en facturas y otros documentos, su información bancaria se utiliza en los pagos y el método de cálculo de costes se utiliza para calcular los precios, así como la evaluación del inventario.  
+Por ejemplo, [!INCLUDE [prod_short](includes/prod_short.md)] incluye la dirección de su empresa en las facturas y otros documentos y su información bancaria en los pagos. El método de coste se utiliza para calcular los precios y la valoración del inventario.  
 
 Una vez que tenga los elementos básicos, puede configurar las áreas restantes. A continuación, puede agregar datos empresariales, como clientes y proveedores. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 

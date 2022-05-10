@@ -7,22 +7,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a862cb514145d50d1a86816bbd3758055b41a872
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8ab57ff6e28abf3a40b9507375d33ffb4f1f33a3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512737"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655493"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
-Puede personalizar su área de trabajo para que se adapte a su trabajo y preferencias cambiando las páginas de modo que muestren únicamente la información que necesite y donde la necesite. Los cambios de personalización que realice solo afectarán a su visualización y no a la de otros usuarios.
 
-Puede personalizar todo tipo de páginas, incluida la página Área de trabajo. Para obtener más información sobre las áreas de trabajo, consulte [Área de trabajo](ui-change-basic-settings.md#role-center).
+Puede personalizar el área de trabajo para que se adapte a sus preferencias y trabajo. Cambie las páginas para que muestren solo la información que necesita, donde la necesita. Los cambios de personalización solo afectarán a *su* visualización y no a la de otros usuarios.
 
-Dependiendo del tipo de página y qué incluye, puede realizar varios cambios, como mover u ocultar campos, columnas, acciones y partes completas, y agregar nuevos campos. La mayor parte de la personalización debe hacerse activando primero el banner **Personalizando**, pero se pueden realizar ajustes muy simples, como el ancho de columna, inmediatamente en cualquier lista.
+Puede personalizar todo tipo de páginas, incluida la página Área de trabajo. Para obtener más información sobre las áreas de trabajo, consulte [Área de trabajo](ui-change-basic-settings.md#role-center).  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
+Puede realizar varios cambios, como mover u ocultar campos, columnas, acciones y partes completas, y agregar nuevos campos. La mayor parte de la personalización debe realizarse activando primero banner **Personalización**. Puede realizar ajustes simples, como el ancho de columna, inmediatamente en cualquier lista.
 
 > [!NOTE]
 > Los administradores pueden realizar los mismos cambios de diseño que los usuarios al personalizar el espacio de trabajo para un perfil que se asigna a múltiples usuarios. Para obtener más información, consulte [Personalizar las páginas para los roles](ui-personalization-manage.md).<br /><br />
@@ -34,13 +37,16 @@ El siguiente video muestra algunas de las formas en que puede personalizar su á
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 ## <a name="to-change-the-width-of-a-column"></a>Para cambiar el ancho de una columna
-Puede cambiar fácilmente el tamaño de las columnas en cualquier lista arrastrando el límite entre dos columnas hacia la izquierda o hacia la derecha.
+
+Puede cambiar fácilmente el tamaño de las columnas en cualquier lista. Solo tiene que arrastrar el límite entre dos columnas a la izquierda o derecha.  
+
 1. En la cabecera de una lista, seleccione y arrastre el límite entre dos columnas.
-2. También puede hacer doble clic en el límite entre dos columnas para ajustar automáticamente el ancho de la columna. Esto establece el ancho al tamaño óptimo para facilitar la lectura.
+2. También puede hacer doble clic en el límite entre dos columnas para ajustar automáticamente el ancho de la columna. El ancho se ajusta al tamaño óptimo para facilitar la lectura.
 
 En cuanto a otra personalización, los cambios que efectúe en el ancho de columna se almacenan en su cuenta y le siguen sin importar en qué dispositivo inicie sesión.
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Para empezar a personalizar una página a través del banner **Personalización**
+
 1. Abra cualquier página que quiera personalizar.
 2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") , y luego elija la acción **Personalizar**.
 
@@ -49,7 +55,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
     > [!NOTE]
     > Para navegar durante la personalización, use Ctrl + clic en una acción si está resaltada por la punta de flecha.
 
-    Si se muestra ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalizacion") o ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner, no puede personalizar la página. Para obtener más detalles, consulte [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md).
+    Si se muestra ![Bloqueo de personalización](media/personalization-lock-icon.png "Bloqueo de personalizacion") o ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner, no puede personalizar la página. Para obtener más información, consulte [Por qué la página está bloqueada para la personalización](ui-personalization-locked.md).
 
 3. Para agregar un campo, elija la acción **+ Campo**.
 4. Desde el panel **Agregar campo a página**, arrastre y suelte un campo en la posición deseada en la página.
@@ -71,7 +77,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 |Saltar un campo al presionar Entrar.|Elija la punta de flecha junto al campo, o la cabecera de columna en una lista y seleccione **Excluir de entrada rápida**. <br /><br /> Si no ve esta opción, significa que el campo ya está establecido para saltarlo. En este caso, para dejar de omitir el campo, elija **Incluir en entrada rápida**. |Consulte [Acelerar la entrada de datos con la entrada rápida](ui-enter-data.md#QuickEntry)|
 |Reordenar y eliminar vistas que representan listas filtradas.|Elija la punta de flecha situada junto a una vista y luego elija **Mover**, **Eliminar** u **Ocultar**.|Consulte [Guardar y personalizar vistas de lista](ui-views.md)|  
 |Agregue una nueva acción a una página o informe en su Área de trabajo.|Desde la página de destino, la página de solicitud de informe o la ventana Avisarme, elija el icono de marcador.|Consulte [Marcar una página o informe en su Área de trabajo](ui-bookmarks.md)|
-|Siempre empiece una lista como expandida o contraída|Elija el botón Expandir todo o Contraer todo en la esquina superior izquierda de la lista, o elija la acción Expandir todo o Contraer todo en el menú de la primera columna. |Se aplica a las listas jerárquicas contraíbles.|
+|Siempre empiece una lista como expandida o contraída|Elija el botón **Expandir todo** o **Contraer todo** en la esquina superior izquierda de la lista. Alternativamente, elija la acción **Expandir todo** o **Contraer todo** en el menú de la primera columna. |Se aplica a las listas jerárquicas contraíbles.|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Personalización de acciones
 
@@ -79,7 +85,7 @@ La personalización le permite decidir qué acciones se mostrarán en las barras
 
 Hay un par de términos con los que debería estar familiarizado para entender mejor la personalización de las acciones: *grupo de acciones* y *categoría promocionada*.  
 
-Un *grupo de acciones* es un elemento que se expande para mostrar otras acciones o grupos. Por ejemplo, en la página **Pedidos de venta**, la acción **Funciones** que aparece cuando elige la acción **Acciones** es un grupo de acciones.
+Un *grupo de acciones* es un elemento que se expande para mostrar otras acciones o grupos. Por ejemplo, en la página **Pedidos de venta**, un grupo de acciones es la acción **Funciones** que aparece cuando elige la acción **Acciones**.
 
 Una *categoría promocionada* es un grupo de acciones que antes de la línea vertical `|` en la barra de acciones. Las categorías suelen incluir las acciones más utilizadas, para que pueda encontrarlas rápidamente. Por ejemplo, en la página **Pedidos de venta**, las acciones **Pedido**, **Lanzamiento** y **Registro** son categorías promocionadas.
 
@@ -87,7 +93,9 @@ Una *categoría promocionada* es un grupo de acciones que antes de la línea ver
 > No puede personalizar la barra de acción que aparece en partes de la página (por ejemplo, las líneas de ventas parte en la página **Pedidos de venta**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Para eliminar, ocultar y mostrar acciones y grupos de acciones
-Cuando desee mostrar u ocultar una acción, las opciones situadas debajo de la punta de flecha definen lo que puede hacer dependiendo del estado de la acción.
+
+Cuando desee mostrar u ocultar una acción, las opciones situadas debajo de la punta de flecha definen lo que puede hacer dependiendo del estado de la acción. 
+
 1. Elija la punta de flecha de una acción o grupo de acciones.
 2. Elija de una de las siguientes opciones:
 
@@ -98,6 +106,7 @@ Cuando desee mostrar u ocultar una acción, las opciones situadas debajo de la p
 |**Mostrar**|Esta opción aparece si la acción o grupo de acciones ha sido previamente ocultada (atenuada). Al elegir esta opción se provocará que la acción o el grupo de acciones aparezca en la barra de navegación o barra de acciones.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Para mover acciones y grupos de acciones
+
 El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante una línea horizontal entre dos acciones o un borde alrededor de un grupo de acciones. Existen las siguientes limitaciones:
 
 - Puede mover acciones individuales a las categorías promocionadas, pero no puede reorganizar el orden de las acciones en la categoría.
@@ -106,10 +115,9 @@ El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante
 1. Para mover una acción o grupo de acciones, arrástrelo y suéltelo en la posición deseada, igual que hace con los campos y columnas.
 2. Para mover una acción o un grupo de acciones a otro grupo de acciones que está vacío, arrastre la acción o el grupo de acciones al nuevo grupo y colóquelo en el cuadro **Colocar aquí una acción** .
 
-
 ## <a name="personalizing-parts"></a><a name="Parts"></a>Personalizar partes
 
-Las partes son áreas de una página que generalmente se componen de múltiples campos, gráficos u otro contenido, y se pueden identificar mediante un borde de color al establecer el foco en la parte. Por ejemplo, una pantalla de inicio del Área de trabajo tiene varias partes. Debido a su límite bien definido, puede personalizar toda la parte, así como su contenido.
+Las partes son áreas de una página que normalmente se componen de varios campos, gráficos u otro contenido. Una parte muestra un borde de color cuando se enfoca en la parte. Por ejemplo, una pantalla de inicio del Área de trabajo tiene varias partes. Debido a su límite bien definido, puede personalizar toda la parte, así como su contenido.
 
 - Para mover una parte, arrástrela y suéltela en la posición deseada. Una línea de color indica las posiciones válidas en la pantalla. Por ejemplo, los cuadros informativos solo se pueden mover junto a otros cuadros informativos en el panel Cuadro informativo.
 - Puede ocultar una parte eligiendo la opción **Ocultar** bajo la punta de flecha.
@@ -117,21 +125,24 @@ Las partes son áreas de una página que generalmente se componen de múltiples 
 
 Puede borrar todos los cambios de personalización que haya realizado en una sola parte seleccionando la opción **Borrar personalización** bajo la punta de flecha de la parte. Borrar la personalización de una parte solo afecta a los cambios en el contenido de la parte, no a la ubicación ni a la visibilidad de la parte en la página.  
 
-
 ## <a name="to-clear-personalization"></a>Para borrar la personalización
 En algún momento, es posible que desee borrar algunos o todos los cambios de personalización que hizo en esta página a lo largo del tiempo.
 
 1. En el banner **Personalización**, elija la acción **Borrar personalización**.
-2. Elija una de las siguientes opciones. Tenga en cuenta que el borrado de la personalización no se puede deshacer.
+2. Elija una de las siguientes opciones.  
+
+> [!CAUTION]
+> El borrado de la personalización no se puede deshacer.
 
 |Opción|Lo que hace|
 |------|------------
-|**Solo menú de navegación**|Borra cualquier cambio de personalización que haya realizado en el menú de navegación que se comparte en el Área de trabajo y otras páginas. Esto incluye cualquier acción nueva que se haya agregado como marcador y cualquier cambio en los enlaces y grupos en el menú.|  
+|**Solo menú de navegación**|Borra cualquier cambio de personalización que haya realizado en el menú de navegación que se comparte en el Área de trabajo y otras páginas. Tales cambios incluyen cualquier acción nueva que se haya agregado como marcador y cualquier cambio en los enlaces y grupos en el menú.|  
 |**Solo acciones**|Borra todos los cambios de personalización que haya realizado en las barras de navegación o acciones en la página.|
-|**Solo campos, columnas y partes**|Borra todos los cambios de personalización que haya realizado en la página excepto los de la barra de navegación o de acciones. Esto incluye cambios en los campos, columnas, piezas e iconos. |
-|**Todo**|Borra todos los cambios de personalización que haya realizado para que se parezca a la original. Esto incluye cambios en las barras de navegación y de acciones, campos, columnas, partes e iconos.|
+|**Solo campos, columnas y partes**|Borra todos los cambios de personalización que haya realizado en la página excepto cambios en la barra de navegación o de acciones. Tales cambios incluyen cambios en los campos, columnas, piezas e iconos. |
+|**Todo**|Borra todos los cambios de personalización que haya realizado para que se parezca a la original. Tales cambios incluyen cambios en las barras de navegación y de acciones, campos, columnas, partes e iconos.|
 
-## <a name="additional-points-of-interest"></a>Puntos de interés adicionales
+## <a name="other-points-of-interest"></a>Otros puntos de interés
+
 Para ayudarle a comprender mejor la personalización, le presentamos algunos consejos.
 
 - Cuando realice cambios en una página de ficha que abre de una lista, los cambios tendrán efecto en todos los registros que abra de esa lista. Por ejemplo, digamos que abre un cliente específico desde la página de la lista Clientes y la personaliza agregando un campo. Cuando abra otros clientes de la lista, también se mostrará el campo que agregó.

@@ -6,21 +6,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2eaec73818a437e0ebc729612de063b19a074561
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516515"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655062"
 ---
 # <a name="work-with-prod_short"></a>Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
 
 Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para ello, expanda la anchura de las columnas, aumente la altura de los encabezados de columna y cambie el orden de los datos de las columnas. Y si quiere usar la barra de desplazamiento horizontal para ver todas las columnas en una página de lista o en líneas de documentos, verá que hay una inmovilización del panel vertical para impedir el desplazamiento de algunas columnas.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Sugerencias y trucos
 

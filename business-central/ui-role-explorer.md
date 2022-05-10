@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: role explorer, find features, navigate
-ms.search.form: RoleExplorer, 9020, 9022, 9027, 9018
+ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
 ms.date: 08/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 00831e4109f765f9ae0d275acc3f0c9902e1dae2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7181579da0f84d0ebdea8c546c7815004a18a40d
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512079"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655810"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Búsqueda de páginas con el explorador de roles
 
 Puede obtener una descripción general de todas las funciones empresariales que están disponibles para su rol y para otros roles si va un paso más allá. En la siguiente documentación, esta descripción general de funciones se denomina *explorador de roles*.
 
 Cada elemento del explorador de roles es una acción que abre una página. En consecuencia, también puede usar el explorador de roles como un medio para navegar en [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="open-the-role-explorer"></a>Abrir el explorador de roles
 

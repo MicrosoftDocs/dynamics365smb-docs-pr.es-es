@@ -7,26 +7,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: a87b28c49aa2c6e532755abe760e5aa1af39c6e3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: df32f9823a84165e27c592a7a02caede6a2e0480
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382342"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655129"
 ---
 # <a name="visit-our-video-library"></a>Visite nuestra biblioteca de vídeos
 
-Sabemos que algunas personas prefieren ver contenido en lugar de leerlo. Con ese fin, estamos produciendo vídeos cortos y fácilmente digeribles que son independientes o complementan nuestra asistencia al usuario.  
+Ha encontrado nuestra documentación. Pero algunas personas prefieren ver contenido en lugar de leerlo. Con ese fin, creamos vídeos cortos y fáciles de digerir. La mayoría de los vídeos complementan nuestra asistencia al usuario y algunos de ellos se pueden ver solos.  
 
-Si es nuevo en [!INCLUDE[prod_short](includes/prod_short.md)], puede lanzar los vídeos de introducción desde la página de bienvenida que se muestra. Si ya está trabajando en [!INCLUDE[prod_short](includes/prod_short.md)], puede acceder a la biblioteca desde las Áreas de trabajo **Administrador de negocio** y **Contable** seleccionando los mosaicos **Vídeos de productos**.  
+Si es nuevo en [!INCLUDE[prod_short](includes/prod_short.md)], puede iniciar los vídeos de introducción desde la página de bienvenida que se muestra. Si ya está trabajando en [!INCLUDE[prod_short](includes/prod_short.md)], puede acceder a la biblioteca desde las Áreas de trabajo **Administrador de negocio** y **Contable** seleccionando los mosaicos **Vídeos de productos**.  
 
-También puede ver nuestros "tutoriales", además de muchos otros contenidos, en la lista de reproducción de YouTube que hemso creado para [!INCLUDE[prod_short](includes/prod_short.md)]. Para visitar ahora los vídeos, [haga clic aquí](https://go.microsoft.com/fwlink/?linkid=851533).
+También puede ver nuestros "tutoriales", además de muchos otros contenidos, en la lista de reproducción de YouTube que hemso creado para [!INCLUDE[prod_short](includes/prod_short.md)]. Para visitar ahora los vídeos, [consulte aquí](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Los vídeos en la biblioteca se muestran en un cuadro que puede parecer pequeño. Para agrandar el marco, elija el icono de flecha de doble extremo en la esquina superior derecha. Después, los videos se mostrarán en el cuadro más grande hasta que vuelva a ser pequeño.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="see-also"></a>Consulte también
 

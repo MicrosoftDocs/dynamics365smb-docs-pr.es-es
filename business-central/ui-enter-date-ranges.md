@@ -7,26 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518866"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655103"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
-[!INCLUDE[prod_short](includes/prod_long.md)] ofrece múltiples formas de introducir fechas y horas, además de potentes funciones que aceleran la entrada de datos o ayudan a escribir expresiones de calendario complejas. Hay varios lugares en la aplicación donde puede introducir fechas y horas en los campos. Por ejemplo, en un pedido de venta, puede establecer la fecha de envío. Al filtrar listas o datos de informes, puede introducir fechas y horas para señalar solo los datos que le interesan.
+Puede introducir fechas y horas de varias maneras. [!INCLUDE[prod_short](includes/prod_long.md)] incluye potentes funciones que aceleran la entrada de datos o ayudan a escribir expresiones de calendario complejas. Hay varios lugares en la aplicación donde puede introducir fechas y horas en los campos. Por ejemplo, en un pedido de venta, puede establecer la fecha de envío. Al filtrar listas o datos de informes, puede introducir fechas y horas para señalar solo los datos que le interesan.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="check-your-region-and-language-settings"></a>Compruebe su región y la configuración de idioma
+
 La página **Mi configuración** especifica los valores de **Región** e **Idioma** que utiliza en la aplicación. Estos ajustes influyen en cómo se introducen las fechas y horas.
 
--   El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.
+- El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas.
 
--   Para los patrones de fecha que involucran palabras, el idioma de las palabras que usa debe corresponder a la configuración de **Idioma**.
+- Para los patrones de fecha que involucran palabras, el idioma de las palabras que usa debe corresponder a la configuración de **Idioma**.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_long.md)] utiliza el sistema de calendario gregoriano.
@@ -37,9 +40,13 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 ## <a name="entering-dates"></a>Introducción de fechas
 
-En un campo de fecha, puede introducir una fecha con el formato estándar para la configuración de su región. Diferentes regiones pueden usar diferentes separadores entre los días, meses y años. Por ejemplo, algunas regiones usan guiones (mm-dd-aaaa) y otras usan barras diagonales (mm/dd/aaaa). No obstante, puede usar cualquier separador, incluso un espacio y la fecha se cambiará automáticamente para usar separadores que coincidan con su región.
+En un campo de fecha, puede introducir una fecha con el formato estándar para la configuración de su región. Diferentes regiones pueden usar diferentes separadores entre los días, meses y años. Por ejemplo, algunas regiones usan guiones (mm-dd-aaaa) y otras usan barras diagonales (mm/dd/aaaa).  
 
-Tenga en cuenta que el formato en el que se muestran las fechas en los informes impresos o en los documentos enviados por correo electrónico no se ve afectado por su elección personal de configuración regional.
+> [!TIP]
+> Puede usar cualquier separador, incluso un espacio y la fecha se cambiará automáticamente para usar separadores que coincidan con su región.
+
+> [!NOTE]
+> El formato en el que se muestran las fechas en los informes impresos o en los documentos enviados por correo electrónico no se ve afectado por su elección personal de configuración regional.
 
 Para trabajar de forma más productiva con fechas y horas, puede utilizar cualquiera de los métodos o formatos que se describen en las siguientes secciones.
 
@@ -55,7 +62,7 @@ Consulte también [Métodos abreviados de teclado en el selector de fechas del c
 
 Puede introducir una fecha como día de la semana seguido de un número de semana y, opcionalmente, un año. Por ejemplo, Lun25 o lun25 significa lunes de la semana 25. Si no introduce un año, se utiliza el año de la fecha de trabajo.
 
-En lugar de introducir la palabra completa para el día de la semana, puede introducir parte de la palabra, comenzando desde el principio. En caso de conflictos (como con m que podría ser martes o miércoles), los días se evalúan de acuerdo con la configuración de la región. La entrada se evalúa primero en función de la fecha de trabajo y también hoy, así que tenga esto en cuenta al abreviar. Por ejemplo, m ya significa hoy, por lo que no puede significar martes o miércoles.
+En lugar de introducir la palabra completa para el día de la semana, puede introducir parte de la palabra, comenzando desde el principio. En caso de conflictos (como con m que podría ser martes o miércoles), los días se evalúan de acuerdo con la configuración de la región. La entrada se evalúa primero en función de la fecha de trabajo y también hoy, así que tenga esto en cuenta al abreviar. Por ejemplo, _m_ ya significa hoy, por lo que no puede significar martes o miércoles.
 
 El esquema de número de la semana siempre es ISO 8601, donde la semana 1 es la semana con 4 de enero, o la semana con el primer jueves del año.
 
@@ -78,7 +85,7 @@ Ingrese la palabra para _hoy_, en el idioma especificado en la página **Mi conf
 
 ### <a name="period"></a>Período
 
-Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de trabajo. Por ejemplo, si la fecha de trabajo es **21/03/22**, con p1, o solo p, se filtra el primer periodo contable del ejercicio 2022 (por ejemplo, 01/01/22..31/01/22). p15 filtra el decimoquinto periodo contable desde el inicio del ejercicio 2022 (por ejemplo, 01/03/23..31/03/23).
+Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de trabajo. Por ejemplo, si la fecha de trabajo es **21/03/22**, con _p1_, o solo _p_, se filtra el primer periodo contable del ejercicio 2022 (por ejemplo, 01/01/22..31/01/22). _p15_ filtra el decimoquinto periodo contable desde el inicio del ejercicio 2022 (por ejemplo, 01/03/23..31/03/23).
 
 Los periodos contables se definen en la página **Periodos contables**. Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
 
@@ -92,9 +99,9 @@ Si no ha especificado una fecha de trabajo, se utilizará la fecha de hoy. Para 
 
 ### <a name="closing-date"></a>Fecha cierre
 
-Cuando cierra el ejercicio, puede usar fechas U, para indicar que un movimiento es un movimiento de cierre. La fecha de cierre se encuentra técnicamente entre dos fechas, por ejemplo, entre 31 dic. y 1 ene.
+Cuando cierra el ejercicio, puede usar fechas U, para indicar que un movimiento es un movimiento de cierre. La fecha de cierre se encuentra técnicamente entre dos fechas, por ejemplo, entre 31 de diciembre y 1 de enero.
 
-Para especificar que es una fecha de cierre, coloque una C delante, como C123101. Esto se puede utilizar en combinación con todos los patrones de fecha.
+Para especificar que es una fecha de cierre, coloque una C delante, como C123101. Use este formato en combinación con todos los patrones de fecha.
 
 ### <a name="examples"></a>Ejemplos
 
@@ -134,18 +141,19 @@ En listas, totales e informes, puede establecer filtros en fechas, horas y fecha
 Puede utilizar cualquiera de los formatos válidos en los filtros de rango de fechas. Por ejemplo, lun14 3..h 4p aplicado en un campo de fecha y hora da como resultado un filtro desde las 3 a.m. del lunes en la semana 14 del año actual de la fecha de trabajo, inclusive, hasta hoy a las 4 p.m., inclusive.
 
 ## <a name="use-date-formulas"></a>Usar fórmulas de fecha
+
 Una fórmula de fecha es una breve combinación abreviada de letras y números que especifica cómo calcular fechas. Puede introducir fórmulas de fecha en varios campos o filtros de cálculo de fecha.
 
 > [!NOTE]
->  En todos los campos de fórmulas de datos, un día se incluye automáticamente para cubrir el día de hoy como fecha en que comienza el periodo. Por consiguiente, por ejemplo, si introduce 1S, el periodo comprende en realidad ocho días porque hoy está incluido. Para especificar un periodo de siete días \(una semana verdadera\) con la fecha inicial del periodo, debe introducir 6D o 1S-1D.
+> En todos los campos de fórmulas de datos, un día se incluye automáticamente para cubrir el día de hoy como fecha en que comienza el periodo. Por consiguiente, por ejemplo, si introduce 1S, el periodo comprende en realidad ocho días porque hoy está incluido. Para especificar un periodo de siete días \(una semana verdadera\) con la fecha inicial del periodo, debe introducir 6D o 1S-1D.
 
 A continuación se incluye algunos ejemplos de cómo se pueden usar las fórmulas de fechas:
 
--   La fórmula de fecha del campo de frecuencia periódica en los diarios periódicos determina con qué frecuencia se registrará el movimiento de la línea de diario.
+- La fórmula de fecha del campo de frecuencia periódica en los diarios periódicos determina con qué frecuencia se registrará el movimiento de la línea de diario.
 
--   La fórmula de fecha del campo **Periodo gracia** para un determinado nivel de recordatorio determina el periodo de tiempo que debe transcurrir, desde la fecha de vencimiento \(o desde la fecha del recordatorio anterior\), antes de que se cree un recordatorio.
+- La fórmula de fecha del campo **Periodo gracia** para un determinado nivel de recordatorio determina el periodo de tiempo que debe transcurrir, desde la fecha de vencimiento \(o desde la fecha del recordatorio anterior\), antes de que se cree un recordatorio.
 
--   La fórmula de fechas del campo **Cálculo de fecha de vencimiento** determina cómo calcular la fecha de vencimiento en el recordatorio.
+- La fórmula de fechas del campo **Cálculo de fecha de vencimiento** determina cómo calcular la fecha de vencimiento en el recordatorio.
 
 La fórmula de fechas puede contener un máximo de 20 caracteres, números y letras. Puede usar las siguientes letras, que son abreviaturas para especificaciones unidades de calendario.
 
@@ -223,15 +231,15 @@ Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+> In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
 
 Here are some examples of how date formulas can be used:
 
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
 
--   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+- The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
 
--   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+- The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
 
 The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
 
@@ -280,12 +288,13 @@ The following example shows how you can use a minus sign to indicate a date in t
 |-1Y|1 year ago from today|
 
 > [!IMPORTANT]
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+> If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
 
 -->
 
 ## <a name="entering-times"></a>Introducción de horas
-Cuando introduzca horas, puede insertar cualquier separador no espacial que desee entre las unidades, pero si usa dígitos dobles para cada unidad hasta milisegundos, no es necesario.
+
+Cuando introduzca horas, puede insertar cualquier signo separador que no sea espacio entre las unidades. Si usa dos dígitos para cada unidad hasta milisegundos, entonces no es necesario.
 
 Solo tiene que escribir las unidades más grandes que requiera; el resto se pondrá a cero. También puede omitir los indicadores de AM/PM.
 
@@ -308,9 +317,11 @@ En la tabla siguiente se muestran varias formas de introducir horas y cómo se i
 |5:30:5.50|05:30:05,5|
 |053005050|05:30:05.05|
 
-Debe tener en cuenta que los milisegundos se interpretan como notación decimal. Por ejemplo, 3, 30 y 300 significan 300 milisegundos, mientras que 03 significa 30 y 003 significa 3 milisegundos.
+> [!NOTE]
+> Los milisegundos se interpretan como notación decimal. Por ejemplo, 3, 30 y 300 significan 300 milisegundos, mientras que 03 significa 30 y 003 significa 3 milisegundos.
 
-No puede utilizar 24:00 para referirse a la medianoche, ni usar un valor superior a 24:00.
+> [!IMPORTANT]
+> No puede utilizar 24:00 para referirse a la medianoche, ni usar un valor superior a 24:00.
 
 La palabra para "hora" en el idioma utilizado por [!INCLUDE[prod_short](includes/prod_long.md)] se evaluará hasta la hora actual de su ordenador o dispositivo móvil. Puede introducir cualquier parte de la palabra, comenzando desde el principio, como h u HOR.
 
@@ -329,16 +340,17 @@ A continuación se muestran algunos ejemplos.
 |6 h 30 m|6 h 30 m|
 |6,5h|6 h 30 m|
 |90m|1 h 30 m|
-|2d 6h 30m|2 días 6 h 30 m|
+|2d 6h 30m|2 días 6 hrs 30 mins|
 |2d 6h 30m 56s 600ms|2 días 6 h 30 m 56 s 600 ms|
 
 También puede introducir un número que se convertirá automáticamente en un periodo de tiempo. El número que introduzca se convierte según la unidad de medida predeterminada que se ha especificado en el campo Duración.
 
-Para ver la unidad de medida que se va a usar en un campo Duración, introduzca un número y observe a qué unidad de medida se convierte.
+Para ver qué unidad de medida se está utilizando en un campo de duración, introduzca un número. Luego, puede ver a qué unidad de medida se convierte.
 
 Por ejemplo, si la unidad de medida es horas, el número 5 se convierte a 5 hrs.
 
 ## <a name="see-also"></a>Consulte también
+
 [Trabajar con [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)  
 [Introducir criterios en los filtros](ui-enter-criteria-filters.md)  

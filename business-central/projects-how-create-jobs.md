@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557198"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626400"
 ---
 # <a name="create-jobs"></a>Crear proyectos
 Cuando inicie un proyecto nuevo, debe crear una ficha de proyecto con tareas de proyecto integradas y líneas de planificación de proyecto, estructuradas en dos niveles.  
@@ -72,23 +72,6 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 3. Seleccione una tarea de proyecto cuyos campo **Tipo tarea proyecto** contenga **Registrar** y seleccione la acción **Líneas planificación proyecto**.  
 4. En la página **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
 5. Repita los pasos 3 y 4 para todas líneas de planificación que necesita para la tarea de proyecto.
-
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Crear documentos de picking de almacén e inventario para un proyecto
-Para crear documentos de picking de almacén de inventario para proyectos, su administrador debe habilitar **Actualización de característica: habilitar el picking de almacén e inventario de los proyectos** en la página **Administración de características**.
-
-La función agrega las acciones **Crear picking inventario** y **Crear picking almacén** en **Ficha de proyecto**. Para crear o registrar un documento de selección, utilice las acciones **Líns. almac./picking/Líneas movimiento** o **Líneas de picking registradas**.
-
-Puede usar acciones en las siguientes condiciones:
-* El **Estado** del proyecto es **Abierto**.
-* El **Tipo de línea** de la línea de planificación del proyecto es **Presupuesto** o **Presupuesto y facturable**.
-* El **Tipo** de la línea de planificación del proyecto es **Producto**.
-* **Picking requerido** está habilitado para la ubicación relacionada.
-* **Ubic. y pick. dirigido** está deshabilitado.
-
-> [!NOTE] 
-> Aunque la configuración se llama **Picking requerido**, aún puede registrar el consumo directamente desde la línea del diario de proyecto para la ubicación. Si el almacén está configurado para requerir el proceso de picking, pero no el proceso de envío, utilice la página **Picking inventario** para organizar e imprimir la información de picking. También se usa la página para ingresar y publicar el resultado del picking, lo que, a su vez, registra el consumo de los productos 
-> 
-> Si su almacén se ha configurado para requerir picking y procesamiento de envío, con lo que ha activado los campos de **Picking requerido** y **Envío requerido** en la **Ficha de almacén**, utilice la página **Picking de almacén** para gestionar el picking. Los picking de almacén son similares a los de inventario. La diferencia es que, en lugar de registrar la información del picking, registra el propio picking. Este registro no contabiliza el consumo, solo hace que los productos estén disponibles para el registro. Como administrador del almacén, puede utilizar la hoja de trabajo de un picking para organizar la información antes de crear las instrucciones individuales de picking de almacén
 
 ## <a name="see-also"></a>Consulte también
 

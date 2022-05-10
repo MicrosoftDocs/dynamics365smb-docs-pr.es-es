@@ -7,19 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518342"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654921"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Obtener el complemento Business Central para Outlook
 
-Con [!INCLUDE[prod_short](includes/prod_short.md)] puede administrar interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con el complemento de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook, puede ver datos financieros relacionados con clientes y proveedores. También puede crear y enviar documentos financieros, como presupuestos y facturas.  
+Con [!INCLUDE[prod_short](includes/prod_short.md)] puede administrar interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con el complemento de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook, verá datos financieros relacionados con clientes y proveedores. También puede crear y enviar documentos financieros, como presupuestos y facturas.  
 
 Hay dos formas de instalar el complemento Business Central para Outlook, según su función en la organización:
 
@@ -42,6 +42,9 @@ El complemento Business Central para Outlook consta de dos complementos más peq
 Para obtener más información sobre lo que hace con los complementos, consulte [Usar Business Central como su bandeja de entrada comercial en Outlook](work-outlook-addin.md).
 
 Cada complemento se proporciona como archivo XML, llamado *manifiesto*, que debe instalarse en Outlook de cualquier persona que desee esta funcionalidad. Estos archivos describen cómo activar los complementos y conectarse a Business Central cuando se usan en Outlook. El trabajo con estos archivos normalmente lo realiza un administrador. Como usuario normal, en la mayoría de los casos, no tendrá que manejar estos archivos directamente. Su administrador configurará el complemento para que se instale automáticamente o usted utilizará la configuración asistida incorporada para manejar la instalación.
+
+> [!IMPORTANT]
+> ¿Trabajar con varios entornos? El complemento Business Central para Outlook está diseñado para funcionar con un solo entorno Business Central. Cuando se instala el complemento, el nombre del entorno se incluye en el manifiesto del complemento. Esta configuración significa que el complemento solo se conectará al entorno desde el que se instaló. Para usar el complemento con un entorno diferente, abra el entorno e instale el complemento nuevamente.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Implementar el complemento mediante Implementación centralizada como administrador
 

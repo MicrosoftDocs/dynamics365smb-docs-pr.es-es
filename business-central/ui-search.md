@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512054"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655753"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Búsqueda de páginas e información con Dígame  
 Este tema describe cómo la función Dígame puede ayudarle a ir rápidamente a cosas como acciones, páginas o informes, encontrar información sobre cómo completar una tarea concreta y descubrir aplicaciones y servicios de consultoría adicionales para [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -33,6 +33,8 @@ En la parte inferior de la ventana **Dígame** hay una acción llamada **explora
 
 > [!NOTE]  
 >   Si prefiere usar el teclado, use la tecla de tabulación y las teclas de flecha para elegir un elemento de los resultados. Si pulsa la tecla Entrar en su teclado sin elegir un resultado, [!INCLUDE[prod_short](includes/prod_short.md)] abre el resultado que aparece primero.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### <a name="finding-an-action-on-the-current-page"></a>Búsqueda de una acción en la página actual
 La sección **En la página actual** le permite encontrar y realizar acciones en la página que tiene abierta. Por ejemplo, si la página **Oferta de venta** está abierta y escribe "cliente", la sección incluye una acción que abre la ficha de cliente para el cliente seleccionado en la oferta de venta.
