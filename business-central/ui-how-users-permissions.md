@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/23/2022
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: 52d8c0fb735bb0667f2219f5ed73e914e236014a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512157"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729806"
 ---
 # <a name="create-users-according-to-licenses"></a>Crear usuarios de acuerdo con las licencias
 
@@ -28,9 +28,9 @@ Para obtener más información sobre los diferentes tipos de licencias y cómo f
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Administrar usuarios y licencias en los suscriptores en línea
 
-En la versión en línea de [!INCLUDE[prod_short](includes/prod_short.md)], su suscripción define el número de usuarios que se le permiten. Los usuarios se agregan a su suscriptor en el Centro de socios de Microsoft, generalmente por su socio de Microsoft. Para obtener más información, vea [Agregar un nuevo cliente](/partner-center/add-a-new-customer) y [Crear, suspender o cancelar suscripciones de clientes](/partner-center/create-a-new-subscription) en la ayuda del Centro de socios de Microsoft.
+Su suscripción a [!INCLUDE[prod_short](includes/prod_short.md)] en línea define el número de usuarios que se le permiten. Los usuarios se agregan a su suscriptor en el Centro de socios de Microsoft, generalmente por su socio de Microsoft. Para obtener más información, consulte [Administración de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-Para definir quién puede iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)], debe asignar las licencias de producto asignarse a los usuarios de acuerdo con el trabajo que realizarán en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede asignar licencias de distintas formas:
+Asigne licencias de productos a los usuarios de acuerdo con el trabajo que cada usuario realizará en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede asignar licencias de distintas formas:
 
 - El administrador de Microsoft 365 de su empresa puede hacerlo en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). Para obtener más información, vea [Agregar usuarios individualmente o en masa a Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - Un socio de Microsoft puede asignar licencias en el Centro de administración de Microsoft 365 o en el Centro de partners de Microsoft. Para obtener más información, vea [Tareas de administración de usuarios para cuentas de cliente](/partner-center/assign-licenses-to-users) en la ayuda del Centro de socios de Microsoft.
@@ -39,10 +39,14 @@ Para obtener más información, vea [Administración de Business Central Online]
 
 > [!NOTE]
 > Después de agregar usuarios en el Centro de administración de Microsoft 365, le recomendamos que actualice la información de usuario en [!INCLUDE[prod_short](includes/prod_short.md)] tan pronto como sea posible. Mantener la información de los usuarios actualizada es fácil y ayuda a garantizar que las personas siempre puedan iniciar sesión. Para obtener más información, consulte [Para agregar usuarios o actualizar información de usuario y asignaciones de licencia en Business Central](#adduser).<br>
-> 
-> La actualización de la información del usuario es especialmente importante si ha personalizado conjuntos de permisos para la licencia. Si un nuevo usuario intenta iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] antes de agregarlo, es posible que no pueda hacerlo. Para obtener más información, consulte [Configurar permisos basados en licencias](#licensespermissions). 
-> 
+>
+> La actualización de la información del usuario es especialmente importante si ha personalizado conjuntos de permisos para la licencia. Si un nuevo usuario intenta iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] antes de agregarlo, es posible que no pueda hacerlo. Para obtener más información, consulte [Configurar permisos basados en licencias](#licensespermissions).
+>
 > Sin embargo, los usuarios que experimentan este problema en realidad no están bloqueados. Pueden usar la acción **Volver al inicio** o simplemente volver a iniciar sesión para resolver el problema.
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+
+Para más información, vea [Acceso de administrador delegado a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 ### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Configurar permisos basados en licencias
 
@@ -50,7 +54,7 @@ Para obtener más información, vea [Administración de Business Central Online]
 
 Los administradores pueden configurar conjuntos de permisos y grupos de usuarios en función de los diferentes tipos de licencia.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
-Por ejemplo, la licencia de uso común, Miembro de equipo de *Dynamics 365 Business Central*, está configurada de forma predeterminada para tener los grupos de usuarios *Miembro del equipo D365* y *Acción de exportación de Excel* más los siguientes conjuntos de permisos:
+Por ejemplo, la licencia de uso común, *Miembro de equipo de Dynamics 365 Business Central*, tiene los grupos de usuarios *Miembro del equipo D365* y *Acción de exportación de Excel* más los siguientes conjuntos de permisos de manera predeterminada:
 
 - LEER D365
 - MIEMBRO DEL EQUIPO D365
@@ -58,7 +62,7 @@ Por ejemplo, la licencia de uso común, Miembro de equipo de *Dynamics 365 Busin
 - EXPORTAR EXCEL DE INFORME
 - LOCAL
 
-Si esta no es la configuración correcta para un suscriptor en particular, el administrador puede cambiar esa configuración. Sin embargo, los permisos personalizados solo afectarán a los nuevos usuarios a los que se les asigne esa licencia. Los permisos para los usuarios existentes a los que se les asigna la licencia no se verán afectados.  
+Si esta configuración predeterminada no es la correcta para un suscriptor en particular, el administrador puede cambiar esa configuración. Sin embargo, los permisos personalizados solo afectarán a los nuevos usuarios a los que se les asigne esa licencia. Los permisos para los usuarios existentes a los que se les asigna la licencia no se verán afectados.  
 
 1. Inicie sesión en [!INCLUDE[prod_short](includes/prod_short.md)] con una cuenta de administrador.  
 2. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de licencia** y luego elija el vínculo relacionado.  
@@ -67,19 +71,20 @@ Si esta no es la configuración correcta para un suscriptor en particular, el ad
 3. En la página **Configuración de licencia** seleccione la licencia que desea personalizar y, a continuación, seleccione la acción **Configurar**.  
 4. Elija el campo **Personalizar permisos** para activar la personalización y, a continuación, realice los cambios relevantes.  
 
-    En nuestro ejemplo, el administrador quiere eliminar el permiso para editar en Excel, por lo que elimina el grupo de usuarios *Acción exportación Excel* de la licencia de miembro del equipo. En el futuro, los nuevos usuarios a los que se les asigne la licencia de miembro del equipo no tendrán la opción de exportar datos a Excel. Si la organización cambia de opinión sobre esto, simplemente puede volver a la página **Configuración de licencia** y desactivar la personalización para ese tipo de licencia.  
+    En nuestro ejemplo, el administrador quiere eliminar el permiso para editar en Excel, por lo que elimina el grupo de usuarios *Acción exportación Excel* de la licencia de miembro del equipo. En el futuro, los nuevos usuarios a los que se les asigne la licencia de miembro del equipo no tendrán la opción de exportar datos a Excel. Si la organización cambia de opinión sobre el tema, simplemente puede volver a la página **Configuración de licencia** y desactivar la personalización para ese tipo de licencia.  
 
 > [!IMPORTANT]
 > Esta personalización de permisos solo surtirá efecto para los nuevos usuarios a los que les asigne la licencia correspondiente. Los usuarios existentes no se actualizan. Recomendamos que personalice los permisos antes de comenzar a asignar licencias de usuarios en el Centro de administración de Microsoft 365.
 
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Para agregar usuarios o actualizar información de usuario y asignaciones de licencia en Business Central
-Después de agregar usuarios o cambiar la información del usuario en el Centro de administración de Microsoft 365, puede importar rápidamente la información del usuario a [!INCLUDE[prod_short](includes/prod_short.md)]. La importación incluye asignaciones de licencias. 
+
+Después de agregar usuarios o cambiar la información del usuario en el Centro de administración de Microsoft 365, puede importar rápidamente la información del usuario a [!INCLUDE[prod_short](includes/prod_short.md)]. La importación incluye asignaciones de licencias.  
 
 1. Inicie sesión en [!INCLUDE[prod_short](includes/prod_short.md)] con una cuenta de administrador.
 2. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.  
 3. Elija **Actualizar usuarios desde Microsoft 365**.
 
-Si está agregando nuevos usuarios, el siguiente paso es asignar grupos de usuarios y permisos. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md). Si está actualizando la información del usuario y la actualización incluye un cambio de licencia, los usuarios se asignarán al grupo de usuarios apropiado y sus conjuntos de permisos se actualizarán. Para obtener más información, vea [Para administrar permisos mediante grupos de usuarios](ui-define-granular-permissions.md).  
+Para nuevos usuarios, el siguiente paso es asignar grupos de usuarios y permisos. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md). Si está actualizando la información del usuario y la actualización incluye un cambio de licencia, los usuarios se asignarán al grupo de usuarios apropiado y sus conjuntos de permisos se actualizarán. Para obtener más información, vea [Para administrar permisos mediante grupos de usuarios](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > Todos los usuarios de un entorno deben tener asignada la misma licencia, Essential o Premium. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/business-central/overview/).
@@ -91,7 +96,7 @@ Para obtener más información sobre la sincronización de la información de us
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Para eliminar el acceso de un usuario al sistema
 
-En implementaciones en línea, puede eliminar el acceso de un usuario a [!INCLUDE[prod_short](includes/prod_short.md)]. Se conservan todas las referencias al usuario. Sin embargo, el usuario no puede iniciar sesión y las sesiones activas para el usuario se detienen.
+Puede eliminar el acceso de un usuario a [!INCLUDE[prod_short](includes/prod_short.md)] en línea. Se conservan todas las referencias al usuario. Sin embargo, el usuario no puede iniciar sesión y las sesiones activas para el usuario se detienen.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
 2. Abra la página **Ficha de usuario** para el usuario relevante y, a continuación, en el campo **Estado**, seleccione **Deshabilitado**.

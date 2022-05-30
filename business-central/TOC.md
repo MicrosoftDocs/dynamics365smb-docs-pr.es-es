@@ -215,7 +215,7 @@
 ### [Seguimiento de líneas de documentos](across-how-to-track-document-lines.md)
 ### [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)
 ### [Archivar documentos](across-how-to-archive-documents.md)
-### [Añadir textos ampliados del producto](ui-how-define-ext-text.md)
+### [Agregar textos ampliados del producto](ui-how-define-ext-text.md)
 ### [Definir tareas de usuario](across-user-tasks.md)
 ### [Exportar los datos de negocio a Excel](about-export-data.md)
 ### [Registrar documentos y diarios](ui-post-documents-journals.md)
@@ -237,21 +237,9 @@
 ##### [Buscar documentos registrados sin registros de documentos entrantes](across-how-find-posted-documents-without-income-document-records.md)
 ##### [Gestionar varios registros de documento entrantes](across-how-manage-many-income-document-records.md)
 
-### Flujo de trabajo
+### Flujos de trabajo
 #### [Información general del flujo de trabajo](across-workflow.md)
-#### Configurar flujos de trabajo
-##### [Configurar flujos de trabajo](across-set-up-workflows.md)
-##### [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)
-##### [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)
-##### [Notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)
-##### [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Crear y modificar diseños](ui-get-started-layouts.md)
-<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
-##### [Configurar correo electrónico](admin-how-setup-email.md)
-##### [Crear flujos de trabajo](across-how-to-create-workflows.md)
-##### [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Importar y exportar flujos de trabajo](across-how-to-export-and-import-workflows.md)
-##### [Tutorial: Configurar y usar un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Usar Business Central en flujos de Power Automate](across-how-use-financials-data-source-flow.md)
 #### Usar flujos de trabajo
 ##### [Usar flujos de trabajo](across-use-workflows.md)
 ##### [Activar flujos de trabajo](across-how-to-enable-workflows.md)
@@ -259,7 +247,7 @@
 ##### [Restringir y permitir el uso de un registro](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Eliminar flujos de trabajo](across-how-to-delete-workflows.md)
-
+<!--data exchange-->
 ### Intercambiar datos electrónicamente
 #### [Descripción general de OData Exchange](across-data-exchange.md)
 #### [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md)
@@ -545,7 +533,7 @@
 ### Gestionar los segmentos
 #### [Segmentos](marketing-segments.md)
 #### [Crear segmentos](marketing-how-create-segment.md)
-#### [Añadir contactos a segmentos](marketing-add-contact-segment.md)
+#### [Agregar contactos a segmentos](marketing-add-contact-segment.md)
 #### [Administrar interacciones para segmentos](marketing-interaction-segments.md)
 ### Gestionar interacciones
 #### [Interacciones](marketing-interactions-overview.md)
@@ -672,8 +660,18 @@
 #### [Registro de servicio](service-service-posting.md)
 #### [Registrar abonos y órdenes de servicio](service-how-to-post-service-orders.md)
 #### [Prestar y recibir productos prestados](service-how-to-lend-receive-loaners.md)
+<!--Shopify-->
+## Tienda en línea con Shopify
+### [Comenzar con el conector Shopify](shopify/get-started.md)
+### [Sincronizar los elementos con Shopify](shopify/synchronize-items.md)
+### [Sincronizar los clientes con Shopify](shopify/synchronize-customers.md)
+### [Sincronizar y cumplir con pedidos de ventas con Shopify](shopify/synchronize-orders.md)
+### [Ejecutar tareas en segundo plano](shopify/background.md)
+### [Solucionar problemas del conector de Shopify](shopify/troubleshoot.md)
+### [P+F del conector Shopify](shopify/shopify-faq.md)
+
 <!--Company Hub-->
-## Hub de empresas
+## Hub de empresa
 ### [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md)
 ### [Agregar empresas al hub de empresas](company-hub-add-company.md)
 ### [Solucionar problemas del hub de empresas](company-hub-troubleshooting.md)
@@ -770,6 +768,7 @@
 ##### [Números de empresa y números de sucursal](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Limitar el período de registro](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Establecer la fecha de trabajo como la fecha de registro](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Hacer obligatorias las plantillas de diario](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
 
 ### Canadá
 #### [Funcionalidad local en la versión canadiense](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -823,6 +822,7 @@
 #### IVA
 ##### [Imprimir informes de conciliación de IVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Informes de IVA-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [Configuración del CIF para Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Banca y pagos
 ##### [Detalles de FIK en el diario de conciliación de pagos](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Extensión de pagos y conciliaciones (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1329,6 +1329,7 @@
 ##### [Módulo Docs. cartera a cobrar](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Módulo Docs. cartera a pagar](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Tipos de factura y abonos en documentos de compra y venta](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [Configurar SII para informes de IVA](LocalFunctionality/Spain/sii-setup.md)
 #### Finanzas básicas
 ##### [Configuración y asiento de la regularización](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Efectuar el test y la validación del plan de cuentas](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1572,6 +1573,17 @@
 ##### [Preguntas frecuentes](ui-outlook-addin-faq.yml)
 ### Configurar informes
 #### [Selección de informe](across-report-selections.md)
+### Configurar flujos de trabajo de aprobación basados en plantillas
+#### [Configurar flujos de trabajo de aprobación](across-set-up-workflows.md)
+#### [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)
+#### [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)
+#### [Notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)
+#### [Especificar cómo y cuándo recibir notificaciones de flujos de trabajo](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Crear flujos de trabajo](across-how-to-create-workflows.md)
+#### [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Importar y exportar flujos de trabajo](across-how-to-export-and-import-workflows.md)
+#### [Tutorial: Configurar y usar un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!--Connectors-->
 ### Configurar conexiones
 #### [Obtener el complemento Business Central para Excel](admin-deploy-excel-addin.md)
 #### Usar Business Central como su bandeja de entrada de empresa en Outlook 
@@ -1606,7 +1618,8 @@
 ###### [Usar aplicaciones de Business Central en Power BI](across-powerbi-business-central-apps.md)
 ##### [Preguntas más frecuentes](power-bi-faq.md)
 #### Usar Power Automate con Business Central
-##### [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)
+##### [Usar Business Central en flujos de Power Automate](across-how-use-financials-data-source-flow.md)
+##### [Solucionar problemas de sus flujos de trabajo automatizados](across-flow-troubleshoot.md)  
 #### Usar Power Apps con Business Central
 ##### [Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Cambiar de una aplicación de QuickBooks a Business Central](across-quickbooks-to-business-edition.md)
@@ -1760,23 +1773,6 @@
 ### [Clasificar confidencialidad de datos](admin-classifying-data-sensitivity.md)
 ### [Responder a las solicitudes de datos personales](admin-responding-to-requests-about-personal-data.md)
 ### [Crear nuevas empresas](about-new-company.md)
-### Configurar una empresa con RapidStart Services
-#### [Información general de RapidStart](admin-set-up-a-company-with-rapidstart.md)
-#### Establecer la configuración de una empresa
-##### [información general de configuración de una empresa](admin-set-up-company-configuration.md)
-##### [Gestionar la configuración de la empresa en una hoja de trabajo](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Preparar un paquete de configuración](admin-how-to-prepare-a-configuration-package.md)
-#### Aplicar la configuración a nuevas empresas
-##### [Aplicar la configuración a nuevas empresas](admin-apply-configuration-to-new-companies.md)
-##### [Cree una nueva empresa](admin-how-to-create-a-new-company.md)
-##### [Configurar nuevas empresas](admin-how-to-configure-new-companies.md)
-##### [Configurar una empresa con el asistente de RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Copiar datos a una nueva empresa](admin-how-to-copy-data-to-new-companies.md)
-##### [Crear saldos iniciales del diario](admin-how-to-create-journal-opening-balances.md)
-#### [Recopilación de datos de configuración de cliente](admin-gather-customer-setup-values.md)
-#### [Prepararse para migrar datos del cliente con plantillas](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Migrar datos del cliente](admin-migrate-customer-data.md)
-#### [Sugerencias y trucos: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Registrar cambios](across-log-changes.md)
 ### [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)
 ### [Administrar el almacenamiento comprimiendo datos o eliminando documentos](admin-manage-documents.md)

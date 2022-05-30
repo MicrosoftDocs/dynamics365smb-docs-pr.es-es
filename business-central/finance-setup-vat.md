@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519230"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740316"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 
@@ -218,13 +218,22 @@ Debe configurar la información sobre cómo las autoridades fiscales de su país
 
 ## <a name="see-also"></a>Consulte también
 
-[Configuración de tipos de declaración de IVA y nombres de declaración de IVA](finance-how-setup-vat-statement.md)  
-[Configuración del impuesto sobre el valor añadido no realizado](finance-setup-unrealized-vat.md)  
+[Configurar tipos de declaración de IVA y nombres de declaración de IVA](finance-how-setup-vat-statement.md)  
+[Configurar el impuesto sobre el valor añadido no realizado](finance-setup-unrealized-vat.md)  
 [Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Trabajar con la herramienta de cambio de tipo de IVA](finance-how-use-vat-rate-change-tool.md)  
 [Comprobar CIF/NIF](finance-how-validate-vat-registration-number.md)  
 [Funcionalidad local en Business Central](about-localization.md)  
+[Declaración de IVA en la versión alemana](LocalFunctionality/Germany/vat-reporting.md)  
+[IVA Belga](LocalFunctionality/Belgium/belgian-vat.md)  
+[IVA italiano](LocalFunctionality/Italy/italian-vat.md)  
+[Configurar declaraciones electrónicas de IVA e ICP en la versión holandesa](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[Informes de IVA en la versión en español](LocalFunctionality/Spain/vat-reports.md)  
+[Configurar la contabilización de impuestos sobre bienes y servicios en la versión australiana](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[IVA en la versión checa](LocalFunctionality/Czech/finance-vat.md)  
+[Declaración de IVA en la versión noruega](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Informes del impuesto sobre bienes y servicios e impuesto armonizado en Canadá](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

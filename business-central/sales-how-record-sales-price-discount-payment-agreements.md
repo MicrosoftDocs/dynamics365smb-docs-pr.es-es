@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520158"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729846"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
 > [!NOTE]
@@ -95,7 +95,14 @@ Cuando habilita la actualización de funciones **Nueva experiencia de precios de
 > [!NOTE]
 > Si los precios se establecen solo en tarjetas de artículos o recursos, las listas de precios predeterminadas no se completarán con esos precios durante la función de actualización de datos. Sin embargo, puede abrir cualquiera de las listas de precios predeterminadas o la página Hoja de trabajo de precios y usar la acción **Sugerir líneas** para agregar los precios establecidos en las tarjetas de artículos o recursos. 
 
-* Para usar listas de precios de venta, desactívelo. Los precios existentes se convertirán en una nueva lista de precios para cada combinación de cliente, grupo de clientes o campaña y las fechas y monedas de inicio y finalización. Si tiene muchas combinaciones, tendrá muchas listas de precios.
+* Para usar listas de precios de venta, desactívelo. Los precios existentes se convertirán a una nueva lista de precios para cada combinación de las siguientes cosas: 
+
+* Cliente
+* Grupo de clientes o campaña
+* Fechas de inicio y finalización
+* Divisas 
+
+Si tiene muchas combinaciones, tendrá muchas listas de precios.
 
 Si ya ha habilitado la Nueva experiencia de precios, puede crear listas de precios predeterminadas manualmente o especificar una lista de precios existente como predeterminada. Para establecer una lista de precios existente como predeterminada, active la opción **Permitir actualizar valores predeterminados** en la lista de precios. Entonces, en las páginas **Configuración de ventas y cuentas por cobrar**, **Compras y cuentas a pagar** y **Configuración de trabajos** establezca la lista de precios como predeterminada.
 
@@ -129,13 +136,14 @@ Si desea copiar precios de venta, por ejemplo, los precios de venta de un client
    > El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implementarlas, es decir, insertarlas en la página **Precios de venta**, elija la acción **Implementar cambios de precios** en la página **Hoja de precios de venta**.
 
 #### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience/)  
+Puede especificar si la nueva lista de precios utilizará la configuración del encabezado de la lista que está copiando o la configuración de la nueva lista a la que está copiando. Para usar la configuración de la lista de precios a la que está copiando los precios, active la alternancia **Usar valores predeterminados desde destino**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Listas de precios de venta** y luego elija el enlace relacionado. 
 2. Elija la lista de precios a copiar y luego elija **Copiar líneas**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > No puede tener dos líneas que tengan la misma configuración pero diferentes precios. Si eso sucede, aparecerá un mensaje cuando active una lista de precios. Puede elegir el precio a utilizar abriendo la lista y eliminando el precio incorrecto.  
+   > No puedes tener dos artículos que tengan la misma configuración pero diferentes precios. Si eso sucede, aparecerá un mensaje cuando active la lista de precios. Puede elegir el precio a utilizar abriendo la lista y eliminando el precio incorrecto.  
   
 ---
 
@@ -146,8 +154,8 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualiz
 
 Para actualizar de forma masiva los precios de los artículos, como aumentar todos los precios en un porcentaje, puede rellenar la página Hoja de trabajo precios de venta usando los siguientes trabajos por lotes:
 
-* **Sugerir precio venta en hoja** sugiere cambios aplicando un factor de ajuste a los precios de venta existentes o copiando los acuerdos de precios de venta existentes a otros clientes, grupos de precios de clientes o campañas de ventas.
-* **Sugerir precio producto en hoja.** sugiere cambios aplicando un factor de ajuste a los precios unitarios existentes en las tarjetas de artículos, o sugiriendo precios para nuevas combinaciones de moneda, unidades de medida, etc. Este trabajo por lotes no modifica los precios unitarios de los artículos.  
+* **Sugerir precio venta en hoja** sugiera cambios de una de estas dos formas. Aplicando un factor de ajuste a los precios de venta existentes o copiando los acuerdos de precios de venta existentes a otros clientes, grupos de precios de clientes o campañas de ventas.
+* **Sugerir precio producto en hoja.** sugiera cambios de una de estas dos formas. Aplicando un factor de ajuste a los precios unitarios existentes en las tarjetas de artículos, o sugiriendo precios para nuevas combinaciones de moneda, unidades de medida, etc. Este trabajo por lotes no modifica los precios unitarios de los artículos.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
 2. Elija **Sugerir precio producto en hoja**. .  
@@ -168,9 +176,9 @@ Para actualizar los precios de varios productos, debe crear una nueva lista de p
 ---
 
 ## <a name="best-price-calculation"></a>Cálculo del mejor precio
-Después de registrar precios especiales y descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] asegura que sus beneficios sean siempre óptimos. Calcula el mejor precio en documentos de compra y venta y en líneas de diario de artículos y trabajos.
+Después de registrar precios especiales y alinear descuentos para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente el mejor precio en documentos de compra y venta y en líneas de diario de trabajos y artículos.
 
-El mejor precio es el precio más bajo permisible con el mayor descuento de línea permisible en una fecha indicada. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula los mejores precios al insertar el precio por unidad y el porcentaje de descuento de línea de los productos en las nuevas líneas de documento y diario.
+El mejor precio es el precio más bajo con el mayor descuento de línea permitido en una fecha indicada. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula los mejores precios al agregar precios unitarios y los porcentajes de descuento de línea de los productos en las nuevas líneas de documento y diario.
 
 > [!NOTE]  
 > A continuación se describe cómo se calcula el mejor precio para las ventas. El cálculo es igual para las compras.
@@ -199,7 +207,7 @@ Para poder aplicar descuentos en factura a las ventas, primero debe especificar 
 
 Si desea descuentos en factura para que se calculen automáticamente, en la página **Configuración ventas y cobros** active el conmutador **Calcular descuento inventario**.  
 
-Para cada cliente, puede especificar si ofrecerá descuentos en la factura si en la misma se cumplen ciertos criterios. Por ejemplo, si el monto de la factura es lo suficientemente grande. Los descuentos en factura pueden ser en divisa local para los clientes nacionales o en otras divisas para los clientes de otros países.  
+Puede especificar si ofrecerá descuentos en la factura si en la misma se cumplen ciertos criterios para cada cliente. Por ejemplo, si el monto de la factura es lo suficientemente grande. Los descuentos en factura pueden ser en divisa local para los clientes nacionales o en otras divisas para los clientes de otros países.  
 
 Se relacionan los porcentajes de descuento a los importes de factura específicos en la página **Dtos. factura cliente** para cada cilente. Puede introducir un número ilimitado de porcentajes. Cada cliente puede tener su propia página o se pueden vincular varios clientes a la misma página.  
 

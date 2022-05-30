@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521785"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729780"
 ---
 # <a name="make-drop-shipments"></a>Realizar envíos directos
 
@@ -30,7 +30,10 @@ Cuando se marca un pedido de venta para envío directo y se crea un pedido de co
 Para preparar un envío directo cree un pedido de venta para un producto e indique en la línea de ventas que dicha venta requiere un envío directo.
 
 1. Cree un pedido de ventas para un artículo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
-2. En la línea del pedido de venta del envío directo, seleccione la casilla **Envío directo**. Use la función **Elegir columnas** si el campo no está visible. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
+2. En la línea del pedido de venta del envío directo, seleccione la casilla **Envío directo**. 
+
+> [!TIP]
+> De forma predeterminada, la casilla Envío directo no está disponible en las líneas. Si no es así, puede agregarla personalizando la sección de la página que contiene las líneas. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Para crear pedidos de compra para envíos directos
 
@@ -45,13 +48,17 @@ Para preparar un envío directo, debe indicar en el pedido de compra que debe en
 
 La información de la línea del pedido de venta se inserta en las líneas del pedido de compra.
 
-Ahora puede asignar instrucciones al proveedor para que envíe los productos al cliente, por ejemplo, enviando el pedido de compra por correo electrónico en formato PDF. Si su proveedor proporciona un número de seguimiento o información similar, puede optar por registrar esa información en una línea de orden de compra del tipo *Comentario*.  
+Ahora puede decirle a su proveedor que envíe los artículos directamente al cliente. Por ejemplo, puede enviarles el pedido por correo electrónico. 
+
+Si su proveedor proporciona un número de seguimiento o información similar, puede añadir esa información en una línea de orden de compra del tipo *Comentario*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Para crear varios pedidos de compra para envíos directos
 
-También puede utilizar la hoja de demanda para crear el pedido de compra para el proveedor. La ventaja de utilizar la hoja de demanda es que puede crear órdenes de compra para todos los envíos directos pendientes, por lo que no tiene que crear cada uno individualmente.
+También puede utilizar la hoja de demanda para crear el pedido de compra para el proveedor. 
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hojas de demanda** y luego elija el enlace relacionado.
+La ventaja de utilizar la hoja de demanda es que puede crear órdenes de compra para todos los envíos directos pendientes. Eso significa que no tendrá que crear cada uno individualmente.
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hojas de demanda** y luego elija el vínculo relacionado.
 2. Elija la acción **Envíos directos** y, a continuación, **Traer pedido venta**.
 3. Elija el botón **Aceptar**.
 4. Revise las líneas del pedido de compra y, en el campo **Nº proveedor**, seleccione el proveedor que suministra los bienes necesarios. 

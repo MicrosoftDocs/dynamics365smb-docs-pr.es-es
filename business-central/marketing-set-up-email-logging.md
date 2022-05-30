@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516140"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729942"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos
 Aproveche al máximo las comunicaciones entre sus vendedores y sus clientes transformando los intercambios de correos electrónicos en oportunidades procesables. [!INCLUDE[prod_short](includes/prod_short.md)] puede funcionar con Exchange Online para mantener un registro de los mensajes entrantes y salientes. Puede ver y analizar el contenido de cada mensaje en la página **Movimientos del log de interacción**.
@@ -67,7 +67,7 @@ Las reglas de flujo de correo buscan condiciones específicas en los mensajes y 
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>Configuración de [!INCLUDE[prod_short](includes/prod_short.md)] para registrar los mensajes de correo electrónico
+## <a name="set-up-prod_short-to-log-email-messages"></a>Configurar [!INCLUDE[prod_short](includes/prod_short.md)] para registrar los mensajes de correo electrónico
 Estos pasos son los mismos para las experiencias actuales y nuevas.
 
 Comience con el registro de correo electrónico en dos sencillos pasos:
@@ -89,14 +89,27 @@ Comience con el registro de correo electrónico en dos sencillos pasos:
 - Ver el contenido del mensaje de correo electrónico que se ha intercambiado seleccionando **Proceso** y, después **Mostrar datos adjuntos**.
 - Convierta un intercambio de correo electrónico en una oportunidad de venta. Si una entrada parece prometedora, puede convertirla en una oportunidad y luego administrar su progreso hasta una venta. Para convertir un intercambio de correo electrónico en una oportunidad, seleccione la entrada y después **Proceso**, y **Crear oportunidad**. Para obtener más información, consulte [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Conexión de versiones locales a Microsoft Exchange
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Límites de buzones y carpetas en Exchange Online
+Hay límites de buzones y carpetas en Exchange Online, como límites para el tamaño de las carpetas y el número de mensajes. Para obtener más información, vea [Límites de Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) y [Límites de carpetas públicas en Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] almacena los mensajes de correo electrónico registrados en una carpeta en Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] también almacena un vínculo para cada mensaje registrado. Los vínculos abren los mensajes registrados en Exchange Online de las páginas Movimientos del log de interacción, Ficha de contacto y Ficha de vendedor en [!INCLUDE[prod_short](includes/prod_short.md)]. Si un mensaje registrado se mueve a otra carpeta, el vínculo se romperá. Por ejemplo, un mensaje puede moverse manualmente o Exchange Online podría iniciar automáticamente AutoSplit cuando se alcanza un límite de almacenamiento.
+
+Los siguientes pasos pueden ayudarle a evitar romper vínculos a mensajes en formato Exchange Online.
+
+1. No mueva los mensajes existentes a otra carpeta después de cambiar la configuración de registro de correo electrónico. Mantener los mensajes existentes donde están preservará los vínculos. Los vínculos a los mensajes en la nueva carpeta serán válidos.
+2. Evite alcanzar los límites de buzones y carpetas. Si está a punto de alcanzar un límite, siga los siguientes pasos:
+    1. Configure un nuevo buzón compartido (nueva experiencia) o una nueva carpeta compartida (experiencia actual) en Exchange Online.
+    2. Actualice sus reglas de flujo de correo electrónico en Exchange Online.
+    3. Actualice su configuración de registro de correo electrónico en Business Central en consecuencia
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Conectar versiones locales a Microsoft Exchange
 
 Puedes conectar [!INCLUDE[prod_short](includes/prod_short.md)] local a Exchange local o Exchange Online para el registro de correo electrónico. Para ambas versiones de Exchange, la configuración de la conexión está disponible en la página **Configuración de marketing**. Para Exchange Online, también puede utilizar una guía de configuración asistida.
 
 > [!IMPORTANT]
 > La nueva experiencia no admite una conexión a Exchange local. Si debe usar Exchange localmente, no habilite la actualización de funciones para la nueva experiencia.
 
-## <a name="connecting-to-exchange-on-premises"></a>Conexión a Exchange local
+## <a name="connect-to-exchange-on-premises"></a>Conectar a Exchange local
 ## <a name="current-experience"></a>[Experiencia actual](#tab/current-experience)
 Para conectar [!INCLUDE[prod_short](includes/prod_short.md)] local a Exchange local, en la página **Configuración de marketing**, puede usar **Básico** como **tipo de autenticación**  y luego ingrese las credenciales para la cuenta de usuario de Exchange local. Entonces active el control de alternancia **Habilitado** para comenzar a registrar el correo electrónico.
 
@@ -105,7 +118,7 @@ La nueva experiencia no admite conexiones a Exchange local.
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Conectar con Exchange Online
+## <a name="connect-to-exchange-online"></a>Conectar con Exchange Online
 Para conectarse a Exchange Online debe registrar una aplicación en Azure Active Directory. Proporcione el identificador de la aplicación, el secreto de Key Vault y la URL de redireccionamiento que se va a utilizar para el registro. La URL de redireccionamiento se establece previamente y debería funcionar para la mayoría de las instalaciones. Para más información, vea [Para registrar una aplicación en Azure AD para conectarse desde Business Central a Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 También debe usar **OAuth2** como **Tipo de autenticación**. También debe registrar una aplicación en Azure Active Directory. Proporcione el identificador de la aplicación, el secreto de Key Vault y la URL de redireccionamiento que se va a utilizar para el registro. La URL de redireccionamiento se rellena previamente y debería funcionar para la mayoría de las instalaciones. Para más información, vea Para registrar una aplicación en Azure AD para conectarse desde Business Central a Exchange Online a continuación.
@@ -214,6 +227,8 @@ Deshabilite su configuración actual, cambie el usuario en la página **Registro
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Registro de correo electrónico** y luego elija el enlace relacionado. 
 2. Elija **Acciones**, y luego **Renovar token**.
 3. Inicie sesión con la cuenta de Exchange Online que el trabajo programado usará para conectar el buzón compartido y procesar correos electrónicos.
+
+
 
 ## <a name="see-also"></a>Consulte también
 [Gestionar las relaciones](marketing-relationship-management.md)

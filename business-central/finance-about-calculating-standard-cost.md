@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149158"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729916"
 ---
 # <a name="about-calculating-standard-cost"></a>Acerca del cálculo de coste estándar
 Muchas empresas de fabricación eligen una base de valoración de coste estándar. Esto también se aplica a las empresas que llevan a cabo la fabricación ligera, como ensamblado y kitting. Un sistema de costes estándar determina el coste unitario del inventario en función de ciertos costes históricos o esperados razonables. Los estudios sobre costes anteriores y sobre costes futuros previstos pueden ofrecer una base para calcular costes estándar. Dichos costes quedan fijos hasta que se tome la decisión de cambiarlos. El coste real para fabricar un producto puede ser diferente de los costes estándar calculados. Para controlar la gestión, el coste real se compara con el coste estándar de un producto en particular, y se identifican y analizan las diferencias o *variaciones*.  
@@ -78,7 +78,7 @@ Para calcular el coste de capacidad estándar, deberá establecer cuáles son la
 Puede configurar las tasas para cada tipo de tiempo por cada máquina o centro de trabajo de una ruta en particular.  
 
 > [!NOTE]  
->  Mientras las tasas de tiempo de ejecución se aplican para cada unidad de producto fabricado, las tasas de tiempo de preparación se aplican para cada lote. Por tanto, debe prorratear el tiempo de preparación de la ruta por cada operación en función del tamaño del lote. Puede especificar el tamaño del lote en el campo correspondiente de la ficha desplegable **Pedidos** de la ficha del producto.  
+>  Mientras las tasas de tiempo de ejecución se aplican para cada unidad de producto fabricado, las tasas de tiempo de preparación se aplican para cada lote. Por tanto, debe prorratear el tiempo de preparación de la ruta por cada operación en función del tamaño del lote. Puede especificar el tamaño del lote en el campo correspondiente de la ficha desplegable **Reposición** de la página **Ficha de producto**.  
 
 Para especificar el tiempo de preparación en la ruta por motivos de planificación, pero no incluir este gasto en el cálculo del coste estándar, desactive el campo **Coste incl. preparación** de la página **Configuración fabricación**.  
 

@@ -1,42 +1,46 @@
 ---
 title: Definir permisos granulares
-description: Este tema describe cómo definir permisos granulares dando acceso a determinados usuarios a objetos y asignándoles conjuntos de permisos.
+description: Este artículo describe cómo definir permisos granulares y asignar a cada usuario los conjuntos de permisos que necesitan para hacer su trabajo.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
-ms.date: 03/24/2022
+ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522517"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729834"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 
-Los administradores usan el sistema de seguridad [!INCLUDE[prod_short](includes/prod_short.md)] para controlar a qué objetos puede tener acceso un usuario dentro de cada base de datos o entorno, en combinación con las licencias que se le asignan. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionados. Para obtener información detallada, consulte [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en el contenido para desarrolladores y administración para [!INCLUDE[prod_short](includes/prod_short.md)].
+El sistema de seguridad [!INCLUDE[prod_short](includes/prod_short.md)] controla a qué objetos puede tener acceso un usuario dentro de cada base de datos o entorno, en combinación con las licencias del usuario. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos seleccionada. Para obtener información detallada, consulte [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en el contenido para desarrolladores y administración para [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Antes de asignar permisos a usuarios y grupos de usuarios, debe definir quién puede iniciar sesión creando usuarios de acuerdo con la licencia tal como se define en el Centro de administración de Microsoft 365. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
+Antes de asignar permisos a usuarios y grupos de usuarios, debe definir quién puede iniciar sesión creando usuarios de acuerdo con su licencia. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], hay dos niveles de permisos para los objetos de la base de datos:
 
 - Permisos generales de acuerdo con la licencia, también se denominan derecho.
 
   Las licencias incluyen conjuntos de permisos predeterminados. A partir de la versión 1 de 2022, los administradores pueden personalizar estos permisos predeterminados para los tipos de licencia correspondientes. Para obtener más información, consulte [Configurar permisos basados en licencias](ui-how-users-permissions.md#licensespermissions).  
+
 - Permisos más detallados según lo asignado desde [!INCLUDE[prod_short](includes/prod_short.md)].
 
   Este artículo describe cómo puede definir, usar y aplicar permisos dentro de [!INCLUDE [prod_short](includes/prod_short.md)] para cambiar la configuración predeterminada.  
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
+Para más información, vea [Acceso de administrador delegado a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] en línea incluye grupos de usuarios predeterminados que se asignan a los usuarios automáticamente en función de su licencia. Puede cambiar la configuración predeterminada modificando o agregando grupos de usuarios, conjuntos de permisos y permisos. La siguiente tabla describe escenarios clave para modificar los permisos predeterminados.  
 
 |Para  |Vea  |
 |---------|---------|
-|Para facilitar la administración de permisos para varios usuarios, puede organizarlos en grupos de usuarios y así asignar o cambiar un conjunto de permisos para muchos usuarios en una sola acción.| [Para administrar permisos a través de grupos de usuarios](#to-manage-permissions-through-user-groups) |
+|Para facilitar la administración de permisos para varios usuarios, puede organizarlos en grupos de usuarios y luego asignar o cambiar un conjunto de permisos para muchos usuarios en una sola acción.| [Para administrar permisos a través de grupos de usuarios](#to-manage-permissions-through-user-groups) |
 |Para administrar conjuntos de permisos para usuarios específicos | [Para asignar conjuntos de permisos a los usuarios](#to-assign-permission-sets-to-users) |
 |Para aprender a definir un conjunto de permisos|[Para crear o modificar un conjunto de permisos](#to-create-or-modify-a-permission-set)|
 |Para administrar permisos específicos|[Para crear o modificar permisos manualmente](#to-create-or-modify-permissions-manually)|
@@ -54,7 +58,7 @@ Los grupos de usuarios le ayudan a administrar conjuntos de permisos en toda la 
 
 Se empieza con la creación de un grupo de usuarios. Después, asigna los conjuntos de permisos al grupo para definir a qué objetos pueden acceder los usuarios del grupo. Cuando agrega un usuario al grupo, los conjuntos de permisos definidos para el grupo se aplicarán al usuario.
 
-Los conjuntos de permisos asignados a un usuario a través de un grupo de usuarios permanecen sincronizados para que un cambio en los permisos del grupo de usuarios se propague automáticamente al usuario. Si elimina un usuario de un grupo de usuarios, los permisos involucrados se revocan automáticamente.
+Los conjuntos de permisos asignados a un usuario a través de un grupo de usuarios permanecen sincronizados. Un cambio en los permisos del grupo de usuarios se propaga automáticamente a los usuarios. Si elimina un usuario de un grupo de usuarios, los permisos involucrados se revocan automáticamente.
 
 ### <a name="to-add-users-to-a-user-group"></a>Para agregar usuarios a un grupo de usuarios
 
@@ -71,7 +75,7 @@ El siguiente procedimiento explica cómo crear grupos de usuarios manualmente. P
 Para definir rápidamente un nuevo grupo de usuarios, puede copiar todos los conjuntos de permisos de un grupo de usuarios existente al nuevo grupo de usuarios.
 
 > [!NOTE]
-> No copian los miembros del grupo de usuarios al nuevo grupo de usuarios. Debe añadirlos manualmente posteriormente. Para obtener más información, consulte la sección [Para agregar usuarios a un grupo de usuarios](#to-add-users-to-a-user-group).
+> No copian los miembros del grupo de usuarios al nuevo grupo de usuarios. Debe agregarlos manualmente posteriormente. Para obtener más información, consulte la sección [Para agregar usuarios a un grupo de usuarios](#to-add-users-to-a-user-group).
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios** y luego elija el enlace relacionado.
 2. Seleccione el grupo de usuarios que desea copiar y, a continuación, seleccione la acción **Copiar el grupo de usuarios**.
@@ -94,16 +98,16 @@ El siguiente procedimiento explica cómo asignar conjuntos de permisos a un grup
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
 2. En la página **Usuarios**, seleccione el usuario relevante y luego elija la acción **Conjunto de permisos por grupo de usuarios**.
-3. En la página **Conjunto de permisos por grupo de usuarios**, seleccione la casilla de verificación **[nombre de grupo de usuarios]** en una línea del conjunto de permisos relevante para asignarlo al grupo de usuarios.
+3. En la página **Conjunto de permisos por grupo de usuarios**, seleccione el campo **[nombre de grupo de usuarios]** en una línea del conjunto de permisos relevante para asignarlo al grupo de usuarios.
 4. Seleccione la casilla de verificación **Todos los grupos de usuarios** para asignar el conjunto de permisos a todos los grupos de usuarios.
 
 También puede asignar conjuntos de permisos directamente a un usuario.
 
 ## <a name="to-assign-permission-sets-to-users"></a>Para asignar conjuntos de permisos a los usuarios
 
-Un conjunto de permisos es una colección de permisos para objetos de base de datos específicos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[prod_short](includes/prod_short.md)]. 
+Un conjunto de permisos es una colección de permisos para objetos de base de datos específicos. A todos los usuarios se les debe asignar uno o varios conjuntos de permisos antes de que pueden acceder a [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Una solución de [!INCLUDE[prod_short](includes/prod_short.md)] contiene una serie de conjuntos de permisos predefinidos que Microsoft o su proveedor de soluciones agregan. También puede agregar nuevos conjuntos de permisos personalizados para satisfacer las necesidades de su organización. Para obtener más información, consulte la sección [Para crear o editar un conjunto de permisos](#to-create-or-modify-a-permission-set).
+Una solución de [!INCLUDE[prod_short](includes/prod_short.md)] contiene conjuntos de permisos predefinidos que Microsoft o su proveedor de soluciones agregan. También puede agregar nuevos conjuntos de permisos personalizados para satisfacer las necesidades de su organización. Para obtener más información, consulte la sección [Para crear o editar un conjunto de permisos](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Si no desea restringir el acceso de un usuario más allá de lo definido por la licencia, puede asignar un conjunto de permisos especial llamado SUPER al usuario. Este conjunto de permisos garantiza que el usuario pueda acceder a todos los objetos especificados en la licencia.
@@ -137,7 +141,7 @@ Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro infor
 2. Abra la ficha del usuario correspondiente.
 3. Elija la acción **Permisos eficaces**.
 
-    La parte de **Permisos** enumera todos los objetos de la base de datos a los que el usuario tiene acceso. Esta sección no se puede modificar.
+    La parte de **Permisos** enumera todos los objetos de la base de datos a los que el usuario tiene acceso. Esta sección no se puede editar.
 
     La parte **Por conjunto de permisos** muestra los conjuntos de permisos asignados a través de los cuales se otorgan los permisos al usuario, la fuente y el tipo de conjunto de permisos y a qué extensión se permiten los diferentes tipos de acceso.
 
@@ -159,7 +163,7 @@ Los conjuntos de permisos ya asignados al usuario se muestran en el cuadro infor
 
 ### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Los filtros de seguridad restringen el acceso de un usuario a registros específicos en una tabla
 
-Para seguridad de nivel registro en [!INCLUDE[prod_short](includes/prod_short.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. Esto significa que el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en el contenido de la administración.
+Para seguridad de nivel registro en [!INCLUDE[prod_short](includes/prod_short.md)], utilice los filtros de seguridad para restringir el acceso a un usuario a los datos de una tabla. Cree los filtros de seguridad en los datos de la tabla. Un filtro de seguridad describe un conjunto de registros de una tabla a la que un usuario tiene permisos para acceder. Puede especificar, por ejemplo, que el usuario puede leer solo los registros que contienen información acerca de un determinado cliente. De esta forma, el usuario no puede acceder a los registros que contienen información sobre otros clientes. Para más información, consulte [Usar filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters) en el contenido de la administración.
 
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Para crear o modificar un conjunto de permisos
@@ -186,28 +190,31 @@ También puede utilizar una función de copia para transferir rápidamente todos
 
 1. En la página **Conjuntos de permisos**, seleccione la línea para el conjunto de permisos que desea copiar y luego elija la acción **Copiar conjunto de permisos**.
 2. En la página **Copiar conjunto de permisos**, especifique el nombre del nuevo conjunto de permisos y después seleccione el botón **Aceptar**.
-3. Seleccione la casilla de verificación **Notificar sobre el conjunto de permisos modificado** si desea mantener un enlace entre el original y los conjuntos de permisos copiados. El enlace se usa para notificarle si el nombre o el contenido del conjunto de permisos original cambia en una versión futura a la que se actualiza la solución más adelante.
+3. Seleccione la casilla de verificación **Notificar sobre el conjunto de permisos modificado** si desea mantener un enlace entre el original y los conjuntos de permisos copiados. De esta forma, se le notificará si el nombre o el contenido del conjunto de permisos original cambia en una versión futura.
 
-El nuevo conjunto de permisos, que contiene todos los permisos del conjunto de permisos copiado, se agrega como una nueva línea en la página **Conjuntos de permisos**. Ahora puede modificar el permiso en el nuevo conjunto de permisos. Tenga en cuenta que las líneas están ordenadas alfabéticamente dentro de cada tipo.
+El nuevo conjunto de permisos, que contiene todos los permisos del conjunto de permisos copiado, se agrega como una nueva línea en la página **Conjuntos de permisos**. Ahora puede modificar el permiso en el nuevo conjunto de permisos. 
+
+> [!TIP]
+> Las líneas están ordenadas alfabéticamente dentro de cada tipo.
 
 ### <a name="to-export-and-import-a-permission-set"></a>Para exportar e importar un conjunto de permisos
 
 Para configurar rápidamente permisos, puede importar conjuntos de permisos que haya exportado desde otro suscriptor de [!INCLUDE[prod_short](includes/prod_short.md)].
 
-En entornos multiempresa, se importará un conjunto de permisos a un suscriptor específico, es decir, el alcance de la importación es "Suscriptor".
+En entornos multisuscriptores, se importará un conjunto de permisos a un suscriptor específico. En otras palabras, el alcance de la importación es *Suscriptor*.
 
 1. En el primer suscriptor, en la página **Conjuntos de permisos**, seleccione la línea o líneas para el conjunto de permisos que se exportará y luego elija la acción **Exportar conjuntos de permisos**.
 
-    Se crea un archivo xml en la carpeta de descargas de su máquina. De manera predeterminada, se denomina "Export Permission Sets.xml".
+    Se crea un archivo XML en la carpeta de descargas de su máquina. De manera predeterminada, el nombre es *Export Permission Sets.xml*.
 
 2. En el segundo suscriptor, en de la página **Conjuntos de permisos**, seleccione la acción **Importar conjuntos de permisos**.
-3. En la página de diálogo **Importar conjuntos de permisos**, piense si desea fusionar los conjuntos de permisos existentes con cualquier nuevo conjunto de permisos en el archivo xml.
+3. En la página de diálogo **Importar conjuntos de permisos**, piense si desea fusionar los conjuntos de permisos existentes con cualquier nuevo conjunto de permisos en el archivo XML.
 
-    Si selecciona la casilla de verificación **Actualizar permisos existentes**, los conjuntos de permisos existentes con el mismo nombre que los que existen en el archivo xml se fusionarán con los conjuntos de permisos importados.
+    Si selecciona la casilla **Actualizar permisos existentes**, los conjuntos de permisos existentes con el mismo nombre que los que existen en el archivo XML se fusionarán con los conjuntos de permisos importados.
 
-    Si no selecciona la casilla de verificación **Actualizar permisos existentes**, los conjuntos de permisos con el mismo nombre que los que existen en el archivo xml se omitirán durante la importación. En ese caso, se le notificará sobre los conjuntos de permisos que se omiten.
+    Si no selecciona la casilla **Actualizar permisos existentes**, los conjuntos de permisos con el mismo nombre que los que existen en el archivo XML se omitirán durante la importación. En ese caso, se le notificará sobre los conjuntos de permisos que se omiten.
 
-4. En la página de diálogo **Importar**, busque y seleccione el archivo xml que se va a importar, y luego elija la acción **Abrir**.
+4. En la página de diálogo **Importar**, busque y seleccione el archivo XML que se va a importar, y luego elija la acción **Abrir**.
 
 Los conjuntos de permisos se importan.
 
@@ -227,7 +234,7 @@ En cada uno de los cinco campos de tipo de acceso, **Permiso de lectura**, **Per
 |------|-----------|-------|
 |**Sí**|El usuario puede realizar la acción del objeto en cuestión.|El mayor|
 |**Indirecto**|El usuario puede realizar la acción del objeto en cuestión pero solo a través de otro objeto relacionado con el que el usuario tiene acceso a total. Para obtener más información sobre los permisos indirectos, consulte [Propiedad Permissions](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) en la Ayuda para desarrolladores e informáticos|En segundo mayor|
-|**En blanco**|El usuario no puede realizar la acción del objeto en cuestión.|El menor|
+|**En blanco**|El usuario no puede realizar la acción sobre el objeto en cuestión.|El menor|
 
 > [!IMPORTANT]
 > Tenga cuidado al asignar **Permiso de inserción** o **Permiso de modificación** a la tabla **Miembro de grupo de usuarios 9001** o **Conjunto de permisos de grupo de usuarios 9003**. Cualquier usuario asignado al conjunto de permisos podría potencialmente asignarse a otros grupos de usuarios, lo que a su vez puede otorgarles permisos no deseados.
@@ -249,7 +256,7 @@ Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de vent
 4. Elija la acción **Permisos**.
 5. En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.
 
-    Se inicia un proceso de registro que captura todas las acciones en la interfaz de usuario.
+    Se inicia un proceso de registro y captura todas las acciones en la interfaz de usuario.
 6. Vaya a las diferentes páginas y actividades en [!INCLUDE[prod_short](includes/prod_short.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
 7. Cuando desea finalizar el registro, vuelva a la página **Permisos** y, a continuación elija la acción **Paro**.
 8. Seleccione el botón **Sí** para agregar los permisos registrados al nuevo conjunto de permisos.
@@ -261,19 +268,23 @@ Sin embargo, el usuario no necesita tener acceso total a la tabla Línea de vent
 
 ## <a name="to-set-up-user-time-constraints"></a>Para configurar restricciones de tiempo de usuarios
 
-Los administradores pueden definir periodos de tiempo durante los que los usuarios especificados pueden registrar, así como especificar si el sistema registra la cantidad de tiempo que los usuarios tienen iniciada la sesión. Los administradores también pueden asignar centros de responsabilidad a los usuarios. Para obtener más información, consulte [Trabajar con centros de responsabilidad](inventory-responsibility-centers.md).
+Los administradores pueden definir períodos de tiempo durante los cuales los usuarios específicos pueden registrar. Los administradores también pueden especificar si el sistema registra cuánto tiempo están conectados los usuarios. De igual manera, los administradores también pueden asignar centros de responsabilidad a los usuarios. Para obtener más información, consulte [Trabajar con centros de responsabilidad](inventory-responsibility-centers.md).
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de usuario** y luego elija el enlace relacionado.
 2. En la página **Configuración usuarios** que se abre, seleccione la acción **Nuevo**.
 3. En el campo **Id. usuario**, escriba el identificador de un usuario o elija el campo para ver todos los usuarios de Windows actuales en el sistema.
 4. Rellene los campos según sea necesario.
 
-## <a name="viewing-permission-changes-telemetry"></a>Ver los cambios de permisos de telemetría 
+## <a name="viewing-permission-changes-telemetry"></a>Ver los cambios de permisos de telemetría
 
-Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para enviar cambios realizados en el permiso a un recurso de Application Insights en Microsoft Azure. Luego, con Azure Monitor, crea informes y configura alertas sobre los datos recopilados. Para obtener más información, consulte los siguientes artículos en la ayuda para desarrolladores y profesionales de TI de [!INCLUDE[prod_short](includes/prod_short.md)]:
+Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para enviar cambios realizados en el permiso a un recurso de Application Insights en Microsoft Azure. Luego, con Azure Monitor, crea informes y configura alertas sobre los datos recopilados. Para obtener más información, consulte los siguientes artículos en la ayuda para desarrolladores y administradores: [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - [Supervisión y análisis de telemetría: habilitación de Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Análisis de la telemetría de monitoreo de campo](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
+## <a name="delegated-admin-users"></a>Usuarios de administrador delegados
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ## <a name="see-also"></a>Consulte también
 
