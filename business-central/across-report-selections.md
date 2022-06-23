@@ -7,27 +7,27 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512459"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950204"
 ---
 # <a name="report-selection-in-business-central"></a>Selección de informes en Business Central
 
-Puede configurar informes predeterminados que se usarán para imprimir cuando trabaja con los diversos documentos de compra y venta, como pedidos, ofertas, facturas, abonos, etc. Por ejemplo, si tiene un diseño específico para las facturas de venta, puede especificar ese informe en la página **Selecciones de informes: ventas** para que se utilice para enviar o imprimir facturas de venta.  
+Puede configurar informes predeterminados para imprimir documentos de ventas y compra, como pedidos, ofertas y facturas. Por ejemplo, si tiene un diseño específico para las facturas de venta, puede especificar ese informe en la página **Selecciones de informes: ventas** para que se utilice para enviar o imprimir facturas de venta.  
 
-Las páginas **Selecciones de informes** especifican qué informe se imprimirá en diferentes situaciones. [!INCLUDE [prod_short](includes/prod_short.md)] incluye configuraciones predeterminadas, pero, por supuesto, puede cambiar estos valores predeterminados. También puede agregar informes a las páginas **Selección informes** para que el sistema imprima más de un informe por cada tipo de documento, por ejemplo.  
+Las páginas **Selecciones de informes** especifican qué informe se imprimirá en diferentes situaciones. [!INCLUDE [prod_short](includes/prod_short.md)] proporciona configuraciones predeterminadas, pero puede cambiarlas si es necesario. También puede agregar informes a las páginas **Selección informes** para que el sistema imprima más de un informe por cada tipo de documento, por ejemplo.  
 
 ## <a name="available-report-selections"></a>Selecciones de informes disponibles
 
-[!INCLUDE [prod_short](includes/prod_short.md)] incluye diferentes páginas **Selección de informes** para diferentes áreas. Las siguientes tablas describen dónde puede encontrar información sobre las diferentes páginas.  
+[!INCLUDE [prod_short](includes/prod_short.md)] incluye diferentes páginas **Selección de informes** para diferentes áreas. Las siguiente tabla describe dónde puede encontrar información sobre las diferentes páginas.  
 
 |Área o tarea  |Más información|
 |--------------|----------|
 |Ejemplo de cómo funciona la selección de informes (Ventas)|[Selección de informes para documentos de ventas](#example-report-selection-for-sales-documents)|
-|Diseño predeterminado para correos electrónicos con documentos de compra y venta  |[Configurar textos y diseños de correo electrónico reutilizables para documentos de compra y venta](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Diseño predeterminado para correos electrónicos con documentos de compra y venta  |[Configurar textos y diseños de correo electrónico reutilizables para documentos de compra y venta](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Definir diseños de cheque     |[Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md) |
 |Definir informes para informes de IVA (Alemania)|[Configurar informes para IVA e Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ La página **Selección de informes: ventas** define los informes predeterminado
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Algunos tipos de documentos se pueden enviar como archivos adjuntos de correo electrónico y otros no. Cada página **Selección de informes** muestra campos adicionales si el tipo de correo electrónico de soporte está listo para usar.  
+Algunos tipos de documentos se pueden enviar como archivos adjuntos de correo electrónico y otros no. Si un tipo de documento se puede enviar por correo electrónico, la página **Selección de informe** contendrá campos adicionales.  
 
 Por ejemplo, en las páginas **Selección de informes: ventas** y **Selección de informes: compra**, los siguientes campos le ayudarán a configurar el correo electrónico:
 
 |Nombre del campo |Descripción  |
 |-----------|-------------|
-|**Usar para el cuerpo del correo electrónico**| Indica que la información resumida, como el número de factura, la fecha de vencimiento y el vínculo del servicio de pago, se insertará en el cuerpo del correo electrónico que se envíe.        |
-|**Usar para los datos adjuntos de correo electrónico**| Especifica que el documento relacionado se adjuntará al correo electrónico.|
-|**Descripción del diseño del cuerpo del correo electrónico**|Especifica el diseño del cuerpo del correo electrónico que se utiliza, normalmente un diseño de informe personalizado. |
+|**Usar para el cuerpo del correo electrónico**| Inserte información resumida, como el número de factura, la fecha de vencimiento y el enlace del servicio de pago, en un correo electrónico.        |
+|**Usar para los datos adjuntos de correo electrónico**| Adjunte el documento relacionado al correo electrónico.|
+|**Descripción del diseño del cuerpo del correo electrónico**|Especifique el diseño del cuerpo del correo electrónico que se utilizará. Normalmente, el diseño es un diseño de informe personalizado. |
 
 ## <a name="see-also"></a>Consulte también .
 
-[Configurar textos y diseños de correo electrónico reutilizables para documentos de compra y venta](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md)  
 [Configurar informes para IVA e Intrastat (Alemania)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  

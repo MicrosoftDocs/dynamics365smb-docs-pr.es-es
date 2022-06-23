@@ -8,20 +8,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740342"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799750"
 ---
 # <a name="set-up-and-report-intrastat"></a>Configuración y creación de informes Intrastat
 
 Todas las empresas de la Unión Europea deben emitir informes sobre sus transacciones comerciales con otros países o regiones de la UE. Debe notificar el movimiento de mercancías al organismo de estadística de su país o región todos los meses, y el informe se debe remitir a las autoridades fiscales. Esto se denomina Informes de Intrastat. Para realizar los informes de Intrastat periódicos se usa la página **Diario Intrastat**.  
 
 ## <a name="required-and-optional-setups"></a>Configuraciones necesarias y opcionales
+
+> [!IMPORTANT]  
+> Las fichas de cliente y las fichas de proveedor incluyen un campo, **Tipo socio Intrastat**, que tiene los mismos valores de opción que el campo **Tipo socio**: *(vacío)*, *Compañía* y *Persona*. El campo **Tipo socio Intrastat** ha reemplazado al campo **Tipo socio** en los informes de Intrastat. **Tipo socio** se utiliza en SEPA para definir el Esquema de Débito Directo SEPA (Core o B2B). **Tipo socio Intrastat** se utiliza solo para informes de Intrastat. De esta forma, puede especificar valores diferentes para los dos campos, si es necesario.
+> 
+> Sin embargo, tenga en cuenta que si el campo **Tipo socio Intrastat** se deja en blanco, el valor del **Tipo socio** se utiliza para los informes de Intrastat.
+
 Para poder usar el diario de Intrastat para informar sobre Instratat, debe configurar algunos parámetros:  
 
 * **Configuración de Intrastat**: la página Configuración de Intrastat se utiliza para habilitar los informes de Intrastat y establecer sus valores predeterminados. Puede especificar si necesita elaborar informes de Intrastat a partir de envíos (despachos), recibos (llegadas) o ambos, según los umbrales establecidos por sus regulaciones locales. También se pueden establecer naturalezas de transacción predeterminadas para documentos normales y de devolución, que se utilizan para la naturaleza de los informes de transacción.
@@ -30,7 +36,7 @@ Para poder usar el diario de Intrastat para informar sobre Instratat, debe confi
 * **Códigos de naturaleza de la transacción**: los países y regiones tienen diferentes códigos para los tipos de transacciones de Intrastat, como la compra y venta ordinaria, el intercambio de mercancías devueltas y el intercambio de mercancías no devueltas. Configure todos los códigos que se aplican a su país o región. Utilice estos códigos en la ficha despegable **Comercio exterior** en los documentos de venta y compra y cuando procese las devoluciones. 
 
     > [!NOTE]
-    > A partir de enero de 2022, Intrastat requiere un código de naturaleza de transacción diferente para envíos a particulares o empresas sin registro de IVA y empresas registradas con IVA. Para cumplir con este requisito, le recomendamos que revise y/o agregue nuevos códigos de naturaleza de transacción en la página **Tipos de transacciones**, de acuerdo con los requisitos de su país. También debe revisar y actualizar el campo **Tipo de socio** a *Persona* para clientes particulares o empresas no registradas a efectos del IVA en la página **Cliente**. Si no está seguro sobre el Itipo de socio o el tipo de transacción a usar, le recomendamos que consulte a un experto de su país o región. 
+    > A partir de enero de 2022, Intrastat requiere un código de naturaleza de transacción diferente para envíos a particulares o empresas sin registro de IVA y empresas registradas con IVA. Para cumplir con este requisito, le recomendamos que revise y/o agregue nuevos códigos de naturaleza de transacción en la página **Tipos de transacciones**, de acuerdo con los requisitos de su país. También debe revisar y actualizar el campo **Tipo socio Intrastat** a *Persona* para clientes particulares o empresas no registradas a efectos del IVA en la página **Cliente**. Si no está seguro del Itipo de socio Intrastat o del tipo de transacción que se usará, le recomendamos que consulte a un experto de su país o región. 
  
 * **Métodos de transporte**: Existen siete códigos de un dígito para los modos de transporte de Intrastat. **1** para mar, **2** para ferrocarril, **3** para carretera, **4** para aire, **5** para correo, **7** para instalaciones fijas y **9** para autopropulsión (por ejemplo, transportar un coche conduciéndolo). [!INCLUDE[prod_short](includes/prod_short.md)] no requiere estos códigos, sin embargo, recomendamos que las descripciones proporcionen un significado similar.  
 * **Especificaciones de transacción**: se utilizan para complementar las descripciones de los tipos de transacción.  
@@ -113,7 +119,7 @@ Después de rellenar el diario de Intrastat, puede ejecutar la acción **Test** 
 El proceso recupera todos los movimientos de producto en el periodo estadístico y los inserta como líneas en el diario Intrastat. Puede editar las líneas si es necesario.  
 
 > [!IMPORTANT]  
-> El proceso únicamente obtiene los movimientos que contienen un código de país o región para el cual se ha introducido un código Intrastat en la página **Países y regiones**. Por lo tanto, debe escribir los códigos Intrastat de los códigos de país o región para los que se ejecutará el proceso. El trabajo por lotes establece el campo **Id. de IVA del socio** en *QV999999999999* para particulares o empresas sin registro de IVA (clientes con el campo **Tipo de socio** establecido en *Persona*), y utiliza el valor del campo **Tipo de transacción** del movimiento contable de artículos contabilizados o en el movimiento contable de trabajos. 
+> El proceso únicamente obtiene los movimientos que contienen un código de país o región para el cual se ha introducido un código Intrastat en la página **Países y regiones**. Por lo tanto, debe escribir los códigos Intrastat de los códigos de país o región para los que se ejecutará el proceso. El trabajo por lotes establece el campo **Id. de IVA del socio** en *QV999999999999* para particulares o empresas sin registro de IVA (clientes con el campo **Tipo socio Intrastat** establecido en *Persona*), y utiliza el valor del campo **Tipo de transacción** del movimiento contable de artículos contabilizados o en el movimiento contable de trabajos. 
 
 ### <a name="to-modify-intrastat-journals-lines"></a>Para modificar líneas de diarios de Intrastat
 
@@ -149,6 +155,9 @@ Puede entregar el informe Intrastat como un archivo. Antes de crear el archivo, 
 5. En la página Trabajo por lotes, elija el botón **Aceptar**.  
 6. Elija **Guardar**.  
 7. Busque la ubicación donde desea guardar el archivo y, a continuación, escriba el nombre del archivo y elija **Guardar**.
+
+> [!NOTE]
+> Cuando una línea del informe Intrastat tenga una unidad de medida suplementaria, no se mostrará el peso del artículo, ya que este valor no es obligatorio.
 
 ## <a name="reorganize-intrastat-journals"></a>Reorganizar diarios Intrastat
 

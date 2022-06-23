@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557182"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950387"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Versión heredada) Crear y modificar diseños de informe personalizados
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-De forma predeterminada, un informe tendrá un diseño de informe integrado, de RDLC, de Word o ambos. No puede modificar diseños integrados, pero puede crear diseños personalizados. Un informe puede tener varios diseños de informe personalizados, lo que le permite cambiar al diseño utilizado según sea necesario.
+De forma predeterminada, los informes tienen un diseño de informe integrado. El diseño puede ser un diseño de informe RDLC, un diseño de informe Word, o ambos. No puede modificar diseños integrados, pero puede crear diseños personalizados. Un informe puede tener varios diseños personalizados.
 
 > [!NOTE]  
 > En [!INCLUDE[prod_short](includes/prod_short.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
 
-Para crear un diseño personalizado, haga una copia de un diseño personalizado existente o agregue un nuevo diseño personalizado, que suele basarse en un diseño integrado. Cuando se agrega un nuevo diseño personalizado, puede elegir agregar un tipo de diseño de informe de RDLC, de Word o ambos. El nuevo diseño personalizado se basará en el diseño integrado del informe si hay uno disponible. Si no hay un diseño integrado para el tipo, se crea un nuevo diseño en blanco. Tendrá que modificar y diseñar este diseño en blanco desde cero. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).  
+Para crear un diseño personalizado, copie un diseño personalizado existente o agregue un nuevo diseño personalizado. Los diseños personalizados a menudo se basan en un diseño integrado. Cuando se agrega un nuevo diseño personalizado, puede elegir agregar un tipo de diseño de informe de RDLC, de Word o ambos. El nuevo diseño personalizado se basará en el diseño integrado del informe si hay uno disponible. Si no hay un diseño integrado para el tipo, se crea un nuevo diseño en blanco. Tendrá que modificar y diseñar este diseño en blanco desde cero. Para obtener más información acerca de los diseños de informe de RDLC y de Word, diseños personalizados e integrados y otros temas, consulte [Gestionar diseños de informe](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Use esquemas de cuentas para obtener información sobre los datos financieros almacenados en su plan de cuentas. Para obtener más información, vea [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md).
 
-Cuando se definen diseños de informes personalizados, puede seleccionarlos de las tarjetas de clientes y proveedores para especificar que los diseños seleccionados se utilizarán para los documentos que cree para el cliente o el proveedor en cuestión. Para obtener más información, vea [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md).
+Después de definir diseños de informes personalizados, puede seleccionarlos en las páginas Tarjeta de cliente y Tarjeta de proveedor. Los diseños se utilizarán cuando cree documentos para el cliente o proveedor. Para obtener más información, vea [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md).
+
+También puede utilizar los diseños de los informes personalizados para añadir contenido a los mensajes de correo electrónico. Los diseños de informes pueden ahorrar tiempo y ayudar a garantizar la coherencia al reutilizar el mismo contenido cuando se comunica con sus clientes. Para usar diseños de informes personalizados con correo electrónico, el tipo de archivo para el diseño debe ser Word. No puede utilizar el tipo de archivo RDLC. Para más información, vea [Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>Para crear un diseño personalizado
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
 
     La página **Selección de diseño de informes** muestra todos los informes disponibles en la empresa especificada en el campo **Nombre de la empresa** en la parte superior de la página.
-2. Establezca el campo **Empresa** en la empresa en la que desea crear el diseño del informe.
+2. En el campo **Nombre de la empresa**, elija la empresa para la que desea crear el diseño del informe.
 3. Seleccione la fila para el informe para el cual desee crear el diseño y, a continuación, elija la acción **Diseños personalizados**.  
 
    La página **Diseños de informe personalizados** aparece con todos los diseños personalizados disponibles para el informe seleccionado.
@@ -47,8 +49,8 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
    La copia del diseño personalizado aparece en la página **Diseños de informe personalizados** e incluye las palabras *Copia de* en el campo **Descripción**.
 5. Si desea añadir un nuevo diseño personalizado que se base en un diseño integrado, siga estos pasos:  
    1. Seleccione la acción **Nuevo**. Aparece la página **Insertar diseñado integrado para un informe**. Los campos de **Id.** y **Nombre** se rellenan automáticamente.
-   2. Para agregar un tipo de diseño de informe de Word personalizado, seleccione la casilla **Insertar diseño de Word**.
-   3. Para agregar un tipo de diseño de informe de RDLC personalizado, seleccione la casilla **Insertar diseño de RDLC**.
+   2. Para agregar un tipo de diseño de informe de Word personalizado, active el seleccione el toggle **Insertar diseño de Word**.
+   3. Para agregar un tipo de diseño de informe de RDLC personalizado, active el toggle **Insertar diseño de RDLC**.
    4. Elija el botón **Aceptar**.  
 
     El nuevo diseño personalizado aparece en la página **Diseños de informe personalizados**. Si un diseño nuevo se basa en un diseño integrado, tendrá las palabras **Copia de un diseño integrado** en el campo **Descripción**. Si no había diseño integrado para el informe, el nuevo diseño tendrá las palabras **Nuevo diseño** en el campo **Descripción** para indicar que el diseño personalizado está en blanco.

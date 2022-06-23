@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514756"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804661"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Instalar y desinstalar extensiones en Business Central
 
@@ -45,7 +45,7 @@ Si selecciona una extensión, puede consultar las funciones de la extensión y a
 Al instalar una extensión, es posible que tenga que configurarla, por ejemplo, especificar una cuenta para usar con la extensión **Paypal Payments Standard para [!INCLUDE[prod_short](includes/prod_short.md)]**.
 Otras extensiones simplemente agregan campos a una página existente o agregan una página nueva, por ejemplo.
 
-Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan para que se vuelve a instalar la extensión estén disponibles. Hay algunas extensiones que son obligatorias. No puede desinstalarlas de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.
+Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan para que se vuelve a instalar la extensión estén disponibles. Hay algunas extensiones que son obligatorias. No puede desinstalar estas extensiones de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.
 
 Algunas de las extensiones las proporciona Microsoft y otras las proporcionan [otras empresas](ui-extensions-other.md). Se prueban todas las extensiones antes de que estén disponibles, pero se recomienda acceder a los vínculos que se proporcionan con cada extensión para obtener más información sobre la extensión antes de optar por instalarla.
 
@@ -83,11 +83,15 @@ Si el PTE contiene cambios de esquema de ruptura, es posible *obligar* una carga
 
 ## <a name="uninstall-an-extension"></a>Desinstalar una extensión
 
-Desinstale una extensión usando la página **Administración de extensiones**. Si desinstala una extensión y cambia de idea, puede volver a instalarla. Al desinstalar una extensión que ha estado usando, los datos se guardan por defecto para que se vuelve a instalar la extensión estén disponibles. En su lugar, puede optar por eliminar los datos con la extensión. Esto está controlado por la casilla **Eliminar datos de extensión**. Por defecto, esta casilla de verificación está *deshabilitada*.
+Desinstale una extensión usando la página **Administración de extensiones**. Para desinstalar una extensión, selecciónela en la página, luego seleccione la acción **Desinstalar**. Si desinstala una extensión y cambia de idea, puede volver a instalarla.
+
+Cuando desinstala una extensión que ha estado utilizando, los datos se conservan por defecto por si vuelve a instalar la extensión. En su lugar, puede optar por eliminar los datos con la extensión. Esta operación está controlada por el interruptor **Eliminar datos de extensión**. De forma predeterminada, este interruptor está **desactivada**. Cuando intenta encender el interruptor **Eliminar datos de extensión** para la extensión, obtendrá un cuadro de diálogo de confirmación, y debe elegir **Sí** para encenderlo. Después de activar el interruptor **Eliminar datos de extensión**, puede desinstalar la extensión y se le pedirá que vuelva a confirmar que desea desinstalar la extensión y eliminar los datos.
 
 > [!IMPORTANT]  
-> Si habilita la casilla **Eliminar datos de extensión**, obtendrá un cuadro de diálogo de confirmación y debe elegir **Aceptar**. Con la casilla **Eliminar datos de extensión** habilitada, ahora puede desinstalar la extensión y se le pedirá que vuelva a confirmar que desea desinstalar la extensión y eliminar los datos. La acción no se puede deshacer.
-Se requieren algunas extensiones. No puede desinstalarlas de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.  
+> - Puede haber otras extensiones que requieran o dependan de la extensión que quieras desinstalar para poder funcionar. Estas otras extensiones se conocen como *dependientes*. No puede desinstalar una extensión a menos que sus dependientes también estén desinstalados.
+> - Cuando elige desinstalar una extensión que tiene uno o más dependientes, obtendrá un cuadro de diálogo de confirmación que enumera los dependientes y le pregunta si desea desinstalar la extensión y todos sus dependientes. Tendrá que seleccionar **Sí** para continuar.
+> - Si activa el interruptor **Eliminar datos de extensión**, la desinstalación de la extensión eliminará todos los datos de la extensión **más** los datos para todas las extensiones dependientes. La acción no se puede deshacer.
+> - Se requieren algunas extensiones. No puede desinstalarlas de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.  
 
 ## <a name="see-also"></a>Consulte también
 

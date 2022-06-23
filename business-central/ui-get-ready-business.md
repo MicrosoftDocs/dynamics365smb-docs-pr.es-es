@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513580"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805131"
 ---
 # <a name="get-ready-for-doing-business"></a>Prepárese para hacer negocios
 
@@ -77,6 +77,28 @@ Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página 
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Para obtener más información, consulte [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
 
+### <a name="set-up-your-company-in-prod_short"></a>Configure su empresa en [!INCLUDE[prod_short](includes/prod_short.md)]
+
+Los artículos de [inicio rápido](quick-start-business-central.md) pueden ayudarle a dar los primeros pasos para configurar [!INCLUDE [prod_short](includes/prod_short.md)] para su organización. En [!INCLUDE [prod_short](includes/prod_short.md)], la página **Configuración asistida** enumera las guías de configuración asistida que pueden ayudarlo. Dependiendo de su rol y país o región, la página muestra diferentes guías de configuración del asistente, como se mustra en la siguiente tabla:
+
+| Configuración asistida | Descripción |
+| -------------- | ----------- |
+| Configurar mi empresa |Crea una nueva empresa de prueba para que pueda introducir datos y probar [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Configurar flujos de trabajo de aprobación |Configura la capacidad de notificar automáticamente a un aprobador cuando un usuario intenta crear o cambiar ciertos valores en documentos, líneas de diario o tarjetas. Por ejemplo, puede configurar la aprobación de cantidades superiores a un límite especificado. |
+| Configurar correo electrónico |Le prepara para enviar correos electrónicos directamente de, por ejemplo, pedidos o contactos en [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Configurar su bandeja de entrada de empresa en Outlook |Prepárese para gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. |
+| Migrar datos empresariales |Permite importar datos empresariales existentes, como proveedores, clientes y productos desde Excel o Quickbooks. |
+| Config. registro correo elect. |Le permite iniciar sesión en la correspondencia por correo electrónico en [!INCLUDE[prod_short](includes/prod_short.md)] para realizar el seguimiento de las interacciones. |
+| Configurar un flujo de trabajo de aprobación de producto |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario cambia o crea un producto. |
+| Configurar un flujo de trabajo de aprobación de cliente |Configura la capacidad de notificar automáticamente al aprobador cuando un usuario intente crear o cambiar una ficha cliente. |
+| Configurar un flujo de trabajo de aprobación de pago |Configura la capacidad de enviar una notificación a un aprobador cuando un usuario envíe líneas de diario de pagos para su aprobación. |
+| Configurar la conexión de Dynamics 365 Sales |Le permite conectar con Dynamics 365 Sales, que le posibilita la sincronización de datos como los contactos y la información de los pedidos. |
+| Configurar previsión de flujo de efectivo |Configura el gráfico Previsión flujos efectivo, por lo que puede ver el movimiento previsto de efectivo dentro y fuera de su empresa. El gráfico está disponible en **Área de trabajo Contable**. |
+| Configurar datos de informes|Configura conjuntos de datos que puede usar para generar informes eficaces utilizando Excel o Power BI, por ejemplo. |
+| Invitar a contable externo |Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su [!INCLUDE[prod_short](includes/prod_short.md)] para que pueda trabajar con usted en los datos fiscales. |
+
+La página **Configuración asistida** puede contener otras entradas. Cuando realice una configuración, esta se marcará como **Completada**. Puede configurar otras áreas de la empresa mediante la configuración manual. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+
 ## <a name="next-steps"></a>Pasos siguientes
 
 Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de su página de inicio para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta. Eche un vistazo a los artículos de [inicio rápido](quick-start-business-central.md) que le ayudarán a dar los primeros pasos.  
@@ -88,13 +110,13 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Resumen de la información de la empresa](admin-company-information.md)  
 [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)  
-[Versiones de prueba y suscripciones](across-preview.md)  
 [Funciones empresariales](across-business-functionality.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
 [Buscar en el panel de ayuda](product-help-and-support.md#search-in-the-help-pane)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Sitio de Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Migrar datos](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Períodos de prueba y suscripciones](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

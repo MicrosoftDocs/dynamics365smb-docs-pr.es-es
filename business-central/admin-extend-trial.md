@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381225"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805105"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>¿Necesita más tiempo para decidir si suscribirse?
 
@@ -52,8 +52,8 @@ Cuando expire su período de prueba ampliado, puede [suscribirse](https://go.mic
 
 ## <a name="see-also"></a>Consulte también
 
+[Pruebas y suscripciones (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Crear nuevas en empresas](about-new-company.md)  
-[Versiones de prueba y suscripciones](across-preview.md)  
 [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
 [Ampliación de versiones de prueba (como administrador)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Empezar como revendedor de Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: 344
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: a577e4723f7880b9e94babd645b7f35324e7d1ea
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654792"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799854"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Búsqueda de entradas relacionadas para documentos registrados 
 
@@ -27,9 +27,9 @@ En este artículo, aprenderá a buscar documentos y entradas que estén relacion
 
 Esta característica es útil para buscar los movimientos originados por ciertas transacciones. Al realizar búsquedas por número de documentos, puede imprimir el resumen desde el informe Listas de documentos.
 
-## <a name="get-started"></a>Introducción
+## <a name="get-started"></a>Comenzar
 
-La característica de búsqueda de entradas está disponible en la mayoría de las páginas que muestran documentos publicados o entradas de documentos publicados, tanto para listas como para tarjetas. Por tanto, el primer paso es abrir una de estas páginas. Luego, elija la acción **Buscar entradas** o presione las teclas Ctrl+Alt+G.
+La función de búsqueda de entradas está disponible desde casi cualquier página presionando las teclas Ctrl+Alt+Q. Desde páginas que muestran específicamente documentos registrados o entradas de documentos registrados &mdash; tanto para listas como para tarjetas&mdash;también puede abrir la función eligiendo la acción **Buscar entradas**.
 
 La página **Buscar entradas** incluye todos los documentos relacionados y las entradas basadas en el n.º documento y la fecha de registro. La página está dividida en tres secciones:
 

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655753"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799443"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Búsqueda de páginas e información con Dígame  
 Este tema describe cómo la función Dígame puede ayudarle a ir rápidamente a cosas como acciones, páginas o informes, encontrar información sobre cómo completar una tarea concreta y descubrir aplicaciones y servicios de consultoría adicionales para [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -50,11 +50,13 @@ Las páginas y las tareas que se enumeran dependen de la experiencia del usuario
 ### <a name="finding-a-report-or-archived-information"></a>Búsqueda de un informe o información archivada
 La sección **Ir a Informes y análisis** ofrece acceso a las herramientas de informes. Por ejemplo, puede abrir el informe de **Balance** desde la lista o acceder a documentos archivados y otra información.  
 
-### <a name="finding-information-in-the-help"></a>Búsqueda de información en la ayuda
-En **Documentación** verá artículos de la documentación de [!INCLUDE[prod_short](includes/prod_short.md)] que describen conceptos y proporcionan una guía paso a paso para completar las tareas en la aplicación.    
+<!-- removed in v20 because of Help pane
+### Finding Information in the Help
+Under **Documentation** you will see articles from the [!INCLUDE[prod_short](includes/prod_short.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks in the application.    
 
 > [!NOTE]  
-> La documentación de las extensiones de terceros no se incluye en los resultados.
+> Documentation for third-party extensions is not included in the results.
+-->
 
 ### <a name="getting-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Obtención de más funcionalidad mediante la búsqueda de una aplicación en Microsoft AppSource
 Nuestra comunidad de socios está desarrollando aplicaciones que agregan funcionalidades a [!INCLUDE[prod_short](includes/prod_short.md)]. La sección **Obtener de Microsoft AppSource** enumera aplicaciones para [!INCLUDE[prod_short](includes/prod_short.md)] que están disponibles en Microsoft AppSource y están relacionadas con la palabra clave que ha buscado.

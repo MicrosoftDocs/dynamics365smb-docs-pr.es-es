@@ -1,20 +1,20 @@
 ---
 title: Métodos abreviados de teclado
 description: La lista completa de combinaciones de método abreviado de teclado para trabajar de manera eficaz con los datos.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517978"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799695"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -51,6 +51,7 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 |Alt+Mayús+F2|Cambiar entre **Detalles** y **Archivos adjuntos** en el panel del cuadro informativo.|
 |Alt+O|Agregar una nueva nota para el registro seleccionado, incluso si el panel del cuadro informativo no está abierto.|
 |Alt+Q<br />(Ctrl+Opción+Q)|Abrir la ventana **Dígame**. Para obtener más información, consulte [Búsqueda de páginas e información con Dígame](ui-search.md).|
+|Ctrl+Alt+Q<br />(Ctrl+Opción+Cmd+Q)|Abra la página **Buscar movimientos** para buscar documentos y movimientos relacionados entre sí en función de información común, como el número de documento o la fecha de publicación. Para más información, consulte [Búsqueda de entradas relacionados para documentos publicados ](ui-find-entries.md)|
 |Alt+N |Abrir una página para crear un nuevo registro. (Similar a elegir las acciones **Nuevo** y **+**).|
 |Alt+Mayús+N |Cerrar una página recién creada y abrir una nueva para crear un nuevo registro. Del mismo modo, Alt+F9 registra un documento y crea uno nuevo.|
 |Alt+T|Abrir la página **Mi configuración**.|
@@ -58,7 +59,7 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 |Ctrl+Alt+Mayús+C|Mostrar información en el distintivo de la empresa.|
 |Ctrl+Alt+F1|Abrir y cerrar el panel de inspección de la página. El panel de inspección de la página muestra información sobre la página, como su tabla de orígenes, campos, filtros, extensiones y más.<br /><br />Para obtener más información, vea [Inspección de páginas](across-inspect-page.md).|
 |Ctrl+C |Copiar el valor del campo. Si el campo tiene el enfoque y no ha seleccionado ningún texto en el campo, se copiará todo el valor. Si ha seleccionado texto en el campo, solo copiará el texto seleccionado.|
-|Ctrl+F1|Abrir la ayuda de Business Central correspondiente a la página.|
+|Ctrl+F1|Abra el [panel de ayuda](product-help-and-support.md#help-pane) o un artículo de ayuda de Business Central sobre [Documentos de Microsoft](/dynamics365/business-central/), dependiendo de su versión de Business Central.|
 |Ctrl+F12|Cambiar entre vista de diseño amplia y estrecha.|
 |Ctrl+Clic|Navegar durante la personalización cuando la acción está resaltada con una punta de flecha. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).|  
 |Ctrl+F5|Volver a cargar la aplicación [!INCLUDE[prod_short](includes/prod_short.md)]. (Similar a seleccionar actualizar/recargar en el explorador).|

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9b2ff8cca6abf8c1f849039deff5a441427bf112
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9abd79500966a946228834166ef554e6a3e70911
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143145"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950070"
 ---
 # <a name="set-up-customer-price-groups"></a>Configurar los grupos de precio de clientes
   
@@ -63,6 +63,9 @@ Después de configurar los grupos de precio de cliente, introduzca códigos resp
 
 ## <a name="see-also"></a>Consulte también
 
+[Ccial](sales-manage-sales.md)  
+[Configuración de ventas](sales-setup-sales.md)  
 [Registrar precios y descuentos de ventas especiales](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Configuración de grupos de descuento de cliente](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

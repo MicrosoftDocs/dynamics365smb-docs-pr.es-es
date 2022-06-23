@@ -10,18 +10,21 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 95d8aaf6749a2f02b1f586a2f235d3a5eaa7c21f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525173"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950044"
 ---
 # <a name="get-started-creating-report-layouts"></a>Empezar a crear diseños de informes
 
 Business Central viene con muchos diseños integrados que puede usar en sus informes. Es posible que se hayan agregado otros diseños como parte de otras extensiones. Pero también es posible crear sus propios informes desde cero o basándose en un diseño existente.
 
-## <a name="overview"></a>Panorama
+> [!IMPORTANT]
+> También puede utilizar los diseños de los informes para añadir contenido a los mensajes de correo electrónico. Por ejemplo, los diseños de informes pueden ahorrar tiempo y ayudar a garantizar la coherencia al reutilizar el mismo contenido cuando se comunica con sus clientes. Para usar diseños de informes personalizados con correo electrónico, el tipo de archivo para el diseño debe ser Word. No puede utilizar el tipo de archivo RDLC. Para más información, vea [Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
+
+## <a name="overview"></a>Información general
 
 Al trabajar con diseños de informes, resulta útil pensar en el diseño como un archivo que se importa y se asigna a un informe. Independientemente del tipo de diseño, la forma en que administra los diseños en Business Central es básicamente la misma. Por lo general, trabajará desde la página **Diseños de informe**. La principal diferencia es la forma en que se diseña el diseño, que se realiza utilizando el software de aplicación en el que se construye el diseño, como Word, Excel o SQL Server Report Builder.
 

@@ -7,39 +7,71 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
+ms.search.form: 5109, 5110
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/20/2022
+ms.openlocfilehash: 135ca390dbf00e46deefbe6e195acfbcf11b959c
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140870"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799669"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use cuestionarios de perfil para clasificar contactos comerciales
-Puede configurar los cuestionarios de perfil que desea utilizar en el momento de especificar información de los perfiles de sus contactos. En cada cuestionario, puede configurar distintas preguntas que desee realizar a sus contactos.  
+
+Puede clasificar los contactos con perspectivas de ventas con el fin de identificar los clientes potenciales a los que debe dirigirse la campaña de ventas. Puede configurar los cuestionarios de perfil que desea utilizar en el momento de especificar información de los perfiles de sus contactos. En cada cuestionario, puede configurar distintas preguntas que desee realizar a sus contactos. De esta manera, puede agrupar contactos para que sus campañas tengan más probabilidades de dirigirse a las personas adecuadas en función de los criterios que defina con los cuestionarios.  
+
+Con los cuestionarios adecuados, puede clasificar los distintos clientes potenciales y agruparlos en categorías. Puede utilizar preguntas y respuestas existentes y combinarlas con nuevas preguntas y respuestas para crear un sistema de clasificación propio. Cada respuesta del sistema de clasificación obtendrá un valor de punto y, dependiendo del intervalo que configure para las categorías (*Desde valor* y *Hasta valor*), el sistema de clasificación agrupará los contactos en las categorías definidas. Por ejemplo, clientes *ABC*, proveedores de fidelidad *Alta/baja* o clientes potenciales *Platino/Oro/Plata*.  
 
 Puede ejecutar el cuestionario para que responder de forma automática algunas de las preguntas, según los datos del contacto, cliente o proveedor.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Para añadir un cuestionario de perfil
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de cuestionario** y luego elija el enlace relacionado.  
-2.  Seleccione la acción **Nuevo**.  
-3.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de cuestionario** y luego elija el enlace relacionado.  
+2. Seleccione la acción **Nuevo**.  
+3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Para añadir preguntas a un cuestionario de perfil
-1.  Seleccione el cuestionario de perfil correspondiente y, a continuación, elija la acción **Editar config. cuestionario**.  
-2.  En la primera línea vacía, en el campo **Tipo**, elija **Pregunta** y escriba su pregunta en el campo **Descripción**. Rellene los otros campos de la línea.  
-3.  En la siguiente línea vacía, en el campo **Tipo**, elija **Respuesta** y escriba su respuesta en el campo **Descripción**.  
-4.  En el campo **Prioridad**, seleccione la prioridad. En los campos **Desde valor** y **Hasta valor**, defina un intervalo de punto. Los contactos que reciban puntos en el rango definido obtendrán la respuesta.  
+
+1. Seleccione el cuestionario de perfil correspondiente y, a continuación, elija la acción **Editar config. cuestionario**.  
+2. En la primera línea vacía, en el campo **Tipo**, elija **Pregunta** y escriba su pregunta en el campo **Descripción**. Rellene los otros campos de la línea.  
+
+    Opcionalmente, agregue detalles a la pregunta.
+
+    1. Elija la línea con la pregunta y, a continuación, seleccione el menú **Línea** y, a continuación, **Detalles de la pregunta**.  
+
+    2. En la ficha desplegable **Clasificación** de la página **Detalles pregunta perfil**, seleccione **Clasificación contacto autom.**  
+
+    3. En el campo **Campo clasific. contacto**, seleccione la opción **Clasificación**.  
+
+    4. Rellene el campo **% Mín. preguntas respondidas**. El valor predeterminado es **0**.  
+
+        Especifica la cantidad de preguntas que se deben responder para que se calcule esta clasificación.
+
+    5. En la pestaña **Acciones**, en el grupo **Página**, elija **Puntos respuesta**. Introduzca los puntos que desea dar a cada respuesta enumerada en la página **Puntos respuesta**.
+
+        Si desea obtener una información general de los puntos que ha otorgado a cada respuesta, elija la acción **Puntos de respuesta**.
+
+    6. Para ejecutar una actualización, vuelva a la página **Config. cuestionario perfil**. En el menú **Acciones**, en el grupo **Funciones**, seleccione **Actualizar clasificación**.
+
+    En la página **Config. cuestionario perfil**, el número de contactos que cumplen los criterios se muestra en el campo **N.º de contactos**, así como en la **Ficha contacto** de cada contacto.
+
+3. En la siguiente línea vacía, en el campo **Tipo**, elija **Respuesta** y escriba su respuesta en el campo **Descripción**.  
+4. En el campo **Prioridad**, seleccione la prioridad. En los campos **Desde valor** y **Hasta valor**, defina un intervalo de punto. Los contactos que reciban puntos en el rango definido obtendrán la respuesta.  
 
 Repita estos pasos para especificar todas las preguntas y respuestas del cuestionario de perfil.
 
-Tras crear un cuestionario, debe crear clasificaciones de contactos para clasificar sus contactos. También puede configurar preguntas que se clasifican automáticamente según la información en la ficha de contacto.  
+Tras crear un cuestionario, puede usarlo para valorar y clasificar sus contactos. También puede configurar preguntas que se clasifican automáticamente según la información en la ficha de contacto.  
 
 > [!NOTE]
-> Si especifica una pregunta que el sistema responde de forma automática, seleccione <STRONG>Línea</STRONG> y, a continuación, <STRONG>Detalles pregunta</STRONG> para especificar los criterios para responder a la pregunta automáticamente.
+> Si especifica una pregunta que el sistema responde de forma automática, seleccione **Línea** y, a continuación, **Detalles pregunta** para especificar los criterios para responder a la pregunta automáticamente.
+
+## <a name="apply-questionnaires-to-contacts"></a>Aplicar cuestionarios a contactos
+
+Puede aplicar sus cuestionarios a contactos manualmente. Solo tiene que abrir la ficha de contacto correspondiente y elegir la acción **Perfil**. Luego, una vez que haya aplicado los cuestionarios que desea aplicar, puede comenzar a utilizar las categorías en sus campañas.  
 
 ## <a name="the-automatic-classification-of-contacts"></a>la clasificación automática de los contactos
+
 Puede clasificar automáticamente sus contactos según la información de cliente, proveedor y contacto, si configura las preguntas del perfil en la página **Config. cuestionario perfil**.  
 
 > [!NOTE]

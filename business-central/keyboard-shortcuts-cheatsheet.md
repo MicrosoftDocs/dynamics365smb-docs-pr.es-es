@@ -1,20 +1,20 @@
 ---
 title: Referencia rápida a los métodos abreviados de teclado para PC
 description: Una hoja de referencia fácil de imprimir que contiene los métodos abreviados de teclado más populares para usuarios de PC.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511602"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799538"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Referencia rápida de teclado: solo PC
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511602"
 |Alt+Mayús+N|Cerrar un registro recién creado y crear uno nuevo|
 |Alt+O|Agregar una nueva nota para el registro seleccionado|
 |Alt+Q|Abrir **Dígame**|
+|Ctrl+Alt+Q|Abrir **Buscar movimientos**|
 |Alt+Arriba|Abrir la información sobre herramientas o el error de validación|
 |Alt+flecha abajo|Abrir un menú desplegable o buscar|
 |Alt+T|Abrir la página **Mi configuración**|
@@ -34,9 +35,9 @@ ms.locfileid: "8511602"
 |Ctrl+Insertar|Insertar una nueva línea en un documento|
 |Ctrl+Supr|Eliminar la línea de un documento, diario u hoja de trabajo|
 |Ctrl+Shift+F12|Maximizar la parte de productos de línea en una página de documento|
-|Ctrl+F1|Abrir la ayuda de la página<br />Navegar al personalizar|
+|Ctrl+F1|Abrir el panel de ayuda o un artículo de ayuda|
 |Ctrl+Clic|Navegar al personalizar|
-|Shift+F12|Abrir el explorador de roles, una descripción general de la función|
+|Mayús+F12|Abrir el explorador de roles, una descripción general de la función|
 |F5/Ctrl+F5|Actualizar o volver a cargar la página|
 |Tab/Mayús+Tab|Desplazar el enfoque al elemento siguiente/anterior|
 |F6/Shift+F6|Desplazarse a la siguiente ficha desplegable/parte|

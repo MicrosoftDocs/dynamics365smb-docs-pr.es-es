@@ -1,18 +1,18 @@
 ---
 title: Sincronizar y cumplir con los pedidos de ventas
 description: Configure y ejecute la importación y el procesamiento de pedidos de ventas desde Shopify.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768138"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809018"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Sincronizar y cumplir con los pedidos de ventas
 
@@ -27,7 +27,7 @@ Un pedido regular de Shopify puede tener montos adicionales en la parte superior
 - **Cuenta de propina**  
 
 Habilite **Crear pedidos automáticamente** para crear automáticamente documentos de ventas en [!INCLUDE[prod_short](../includes/prod_short.md)] una vez que se importe el pedido de Shopify.
-El documento de ventas de [!INCLUDE[prod_short](../includes/prod_short.md)] contiene un enlace al pedido de Shopify. Si habilita **N.º de pedido de Shopify en línea de documento**, entonces esta información se repetirá en la línea de ventas de tipo *Comentario*.
+El documento de ventas de [!INCLUDE[prod_short](../includes/prod_short.md)] contiene un enlace al pedido de Shopify. Si selecciona el campo **N.º de pedido de Shopify en línea de documento**, entonces esta información se repetirá en las líneas de ventas de tipo *Comentario*.
 
 En el campo **Origen del área fiscal**, puede definir la prioridad sobre cómo seleccionar el código de área fiscal o el grupo contable comercial de IVA en función de la dirección. Este paso es relevante para países con impuestos sobre las ventas, pero puede usarse para países con IVA. Para obtener más información, consulte [Observaciones sobre impuestos](synchronize-orders.md#tax-remarks).
 
@@ -71,16 +71,20 @@ El siguiente procedimiento describe cómo importar y actualizar pedidos de venta
 
 Alternativamente, puede buscar el trabajo por lotes **Sincronizar pedidos desde Shopify**.
 
-Una vez completada la importación, puede explorar el pedido de Shopify y encontrar toda la información relacionada, como transacciones de pago, costes de envío, procesos de entrega, nivel de riesgo. También puede ver la confirmación del pedido enviada al cliente seleccionando la acción **Página de estado de Shopify**.
+Puede programar la tarea para que se realicen de forma automatizada. Para obtener más información, consulte [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Revisar pedidos importados
+
+Una vez completada la importación, puede explorar el pedido Shopify y encontrar toda la información relacionada. Por ejemplo, encuentre las transacciones de pago, los costos de envío, el nivel de riesgo o los cumplimientos si el pedido ya se completó en Shopify. También puede ver la confirmación de cualquier pedido que se haya enviado al cliente seleccionando la acción **Página de estado de Shopify**.
 
 > [!NOTE]  
 > Puede navegar a la ventana **Pedidos de Shopify** directamente y podrá ver pedidos con estado *abierto* de todas las tiendas. Para revisar los pedidos completados, debe abrir la página **Pedidos de Shopify** desde la ventana de **Tarjeta de tienda de Shopify** específica.
 
-## <a name="create-sales-document-in-business-central"></a>Crear documento de ventas en Business Central
+## <a name="create-sales-documents-in-business-central"></a>Crear documentos de ventas en Business Central
 
-Si la alternancias **Crear pedidos automáticamente** está habilitada en **Tarjeta de tienda de Shopify**, la [!INCLUDE[prod_short](../includes/prod_short.md)] intenta crear un documento de ventas una vez que se importa el pedido. En caso de que el proceso encuentre problemas, por ejemplo, si falta un cliente o un producto, deberá solucionar el problema e intentar crear un pedido de ventas nuevamente.
+Si la alternancias **Crear pedidos automáticamente** está habilitada en **Tarjeta de tienda de Shopify**, la [!INCLUDE[prod_short](../includes/prod_short.md)] intenta crear un documento de ventas una vez que se importa el pedido. Si el proceso tiene problemas, como si falta un cliente o un producto, deberá solucionar el problema. Luego puede intentar crear la orden de venta nuevamente.
 
-### <a name="to-create-sales-document"></a>Para crear un documento de venta
+### <a name="to-create-sales-documents"></a>Para crear documentos de venta
 
 1. Vaya al icono ![Bombilla que abre la función Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") de búsqueda. , escriba **Tienda de Shopify** y luego elija el vínculo relacionado.
 2. Seleccione la tienda para la que desea sincronizar pedidos para abrir la página **Tarjeta de tienda de Shopify**.
@@ -88,7 +92,7 @@ Si la alternancias **Crear pedidos automáticamente** está habilitada en **Tarj
 4. Seleccione el pedido para el que desea crear un documento de ventas y elija la acción **Crear documento de ventas**.
 5. Elija **Sí**.
 
-Si el pedido de Shopify requiere proceso de entrega, se creará el **Pedido de ventas** para los pedidos entregados de Shopify. Por ejemplo, para los que contienen solo una tarjeta de regalo, se crea la **Factura de venta**.
+Si el pedido de Shopify requiere proceso de entrega, se creará el **Pedido de ventas**. Para pedidos Shopify completamente cumplido, como aquellos pedidos que contienen solo una tarjeta de regalo o que ya se manejan en Shopify, se crea la **Factura de venta**.
 
 Ahora se crea un documento de ventas y se puede administrar utilizando las funcionalidades [!INCLUDE[prod_short](../includes/prod_short.md)] estándar.
 
@@ -102,7 +106,7 @@ Si su configuración impide crear un cliente automáticamente y no se puede enco
 
 ### <a name="tax-remarks"></a>Observaciones sobre impuestos
 
-Mientras que el pedido de Shopify importado contiene información sobre impuestos, los impuestos se vuelven a calcular cuando se crea el documento de ventas. Por eso es importante que la configuración de IVA/Impuestos sea correcta en [!INCLUDE[prod_short](../includes/prod_short.md)].
+Mientras que el pedido de Shopify importado contiene información sobre impuestos, los impuestos se vuelven a calcular cuando se crea el documento de ventas. Por eso es importante que el recálculo de IVA/Impuestos sea correcto en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Múltiples tasas de impuestos/IVA sobre productos. Por ejemplo, algunas categorías de productos están sujetas a tipos impositivos reducidos. Esos elementos deben existir en [!INCLUDE[prod_short](../includes/prod_short.md)] y estar asignados a productos de Shopify. De lo contrario, con la creación automática de elementos faltantes, se utilizará el grupo de contabilización de productos con IVA.
 

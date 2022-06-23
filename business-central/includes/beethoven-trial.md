@@ -1,20 +1,20 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: fd1448c9fd32b359bf40a02b90a3ee6a66a5d685
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367305"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950260"
 ---
 ## <a name="sign-up"></a>Registrarse
 
 ### <a name="which-email-address-i-should-use-to-sign-up"></a>¿Qué dirección de correo electrónico debo usar para registrarme?
 
-Use la dirección de correo electrónico de su trabajo o escuela. Estableceremos su prueba en la cuenta de su organización. No puede utilizar direcciones de correo electrónico proporcionadas por servicios de correo electrónico para consumidores o proveedores de telecomunicaciones, como outlook.com, hotmail.com, gmail.com, y otros.  
+Use la dirección de correo electrónico de su trabajo o escuela. Estableceremos su prueba en la cuenta de su organización. No puede utilizar direcciones de correo electrónico proporcionadas por servicios de correo electrónico para consumidores o proveedores de telecomunicaciones, como *outlook.com*, *hotmail.com*, *gmail.com*, y otros.  
 
 ### <a name="what-are-the-system-requirements-for-the-trial"></a>¿Cuáles son los requisitos del sistema para la evaluación?
 
@@ -39,7 +39,7 @@ Cuando se registre para la evaluación, recibirá un correo electrónico con los
 
 ### <a name="how-do-i-add-more-users-to-a-trial"></a>¿Cómo agrego más usuarios a una evaluación?
 
-Para agregar usuarios, solicite a su administrador que vaya al [centro de administración de Microsoft 365](https://admin.microsoft.com) donde puede seguir la [guía del centro de administración](/microsoft-365/admin/add-users/add-users) para agregar usuarios hasta el límite de la licencia de prueba. Si el usuario que está agregando ya tiene una cuenta de Microsoft 365, asígneles la licencia correspondiente. Para más información, vea [Asignar licencias a usarios](/microsoft-365/admin/manage/assign-licenses-to-users) en el contenido de Microsoft 365.
+Para agregar usuarios, su administrador debe ir al [Centro de administración de Microsoft 365](https://admin.microsoft.com). Después pueden seguir la [guía del Centro de administración](/microsoft-365/admin/add-users/add-users) para agregar usuarios hasta el límite de la licencia de la evaluación. Si el usuario que está agregando ya tiene una cuenta de Microsoft 365, asígneles la licencia correspondiente. Para más información, vea [Asignar licencias a usarios](/microsoft-365/admin/manage/assign-licenses-to-users) en el contenido de Microsoft 365.
 
 ### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>¿Cuántos usuarios puedo agregar a mi entorno de evaluación?
 
@@ -47,11 +47,9 @@ Puede agregar un número ilimitado de usuarios al entorno de evaluación.
 
 ### <a name="how-do-i-reset-the-trial-environment"></a>¿Cómo restablezco el entorno de evaluación?
 
-No puede restablecer el entorno de evaluación. Pero su administrador puede crear nuevos entornos de espacio aislado donde puede probar las diversas capacidades. Para obtener más información, consulte [Producción y entornos de espacios aislados](/dynamics365/business-central/dev-itpro/administration/environment-types) en el contenido para administradores.  
+No puede restablecer el entorno de evaluación. Pero puede pedirle a su administrador que cree un nuevo entorno de espacio aislado para probar las diversas capacidades. Para obtener más información, consulte [Producción y entornos de espacios aislados](/dynamics365/business-central/dev-itpro/administration/environment-types) en el contenido para administradores.  
 
 Si quiere cancelar [!INCLUDE [prod_short](prod_short.md)] un período de prueba, debe solicitar al administrador de Microsoft 365 que elimine la suscripción de prueba de la cuenta de su empresa en el [centro de administración de Microsoft 365](https://admin.microsoft.com/). Vea también [Cancelar o eliminar la suscripción [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
-
-Si se registró en Dynamics 365 Business Central con una cuenta de empresa que no es de Microsoft 365, no tiene administrador de Microsoft 365. Para cancelar la suscripción debe contactar con el [!INCLUDE[prod_short](prod_short.md)] equipo de cancelación enviando un mensaje de correo electrónico a [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Debe incluir en el mensaje el nombre de su suscriptor de [!INCLUDE[prod_short](prod_short.md)] para que podamos identificarle. Puede encontrar esta información en la página de **Ayuda y apoyo** a la que puede acceder desde **?** . Para obtener más información, vea [Recursos de ayuda y soporte técnico](../product-help-and-support.md).  
 
 ## <a name="trial-expiration-and-extension"></a>Vencimiento y evaluación de la prueba
 

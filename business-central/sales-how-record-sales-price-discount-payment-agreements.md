@@ -1,5 +1,5 @@
 ---
-title: Configurar precios y descuentos de venta para clientes | Microsoft Docs
+title: Registrar precios y descuentos de ventas especiales
 description: Describe cómo definir acuerdos de precios y descuentos para documentos de ventas.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729846"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950152"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
+
 > [!NOTE]
-> En el segundo lanzamiento de versiones de 2020, lanzamos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo que usa esa versión, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> El segundo lanzamiento de versiones de 2020 introdujo nuevos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo que usa la última versión, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] admite varias estrategias de precios, tales como:
+
 * Modelos de precio único para todos en los que un artículo siempre se vende al mismo precio.
 * Acuerdos de precios especiales con clientes específicos, o grupos de clientes.
 * Campañas cuando una venta cumple con los criterios para una oferta especial. Por ejemplo, los criterios pueden ser cuando un pedido alcanza una cantidad mínima, es anterior a una fecha determinada o incluye un determinado tipo de artículo.  
 
-Para utilizar un modelo de precios básico, solo necesita especificar un precio unitario cuando configura un artículo o recurso. Ese precio siempre se utilizará en los documentos de venta. Para modelos más avanzados, por ejemplo, cuando está ejecutando una campaña de ventas y desea ofrecer precios especiales, puede especificar criterios para eso en la página **Precios de venta**. Puede ofrecer precios especiales basados una combinación de la información siguiente: 
+Para utilizar un modelo de precios básico, solo necesita especificar un precio unitario cuando configura un artículo o recurso. Ese precio siempre se utilizará en los documentos de venta. Para modelos más avanzados, por ejemplo, cuando está ejecutando una campaña de ventas y desea ofrecer precios especiales, puede especificar criterios para eso en la página **Precios de venta**. Puede ofrecer precios especiales basados una combinación de la información siguiente:  
 
 * Cliente
 * Producto
@@ -176,34 +178,36 @@ Para actualizar los precios de varios productos, debe crear una nueva lista de p
 ---
 
 ## <a name="best-price-calculation"></a>Cálculo del mejor precio
-Después de registrar precios especiales y alinear descuentos para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula automáticamente el mejor precio en documentos de compra y venta y en líneas de diario de trabajos y artículos.
 
-El mejor precio es el precio más bajo con el mayor descuento de línea permitido en una fecha indicada. [!INCLUDE[d365fin](includes/d365fin_md.md)] calcula los mejores precios al agregar precios unitarios y los porcentajes de descuento de línea de los productos en las nuevas líneas de documento y diario.
+Después de registrar precios especiales y alinear descuentos para ventas y compras, [!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente el mejor precio en documentos de compra y venta y en líneas de diario de trabajos y artículos.
+
+El mejor precio es el precio más bajo con el mayor descuento de línea permitido en una fecha indicada. [!INCLUDE[prod_short](includes/prod_short.md)] calcula los mejores precios al agregar precios unitarios y los porcentajes de descuento de línea de los productos en las nuevas líneas de documento y diario.
 
 > [!NOTE]  
-> A continuación se describe cómo se calcula el mejor precio para las ventas. El cálculo es igual para las compras.
+> A continuación se describe cómo se calcula el mejor precio para las ventas. Para las compras, el cálculo es similar pero se basa en los parámetros disponibles. Por ejemplo, los grupos de descuento de productos no se admiten para la compra.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba la combinación de la factura a cliente y el producto, y calcula el precio por unidad y el porcentaje de descuento de línea aplicables utilizando los siguientes criterios:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba la combinación de la factura a cliente y el producto, y calcula el precio por unidad y el porcentaje de descuento de línea aplicables utilizando los siguientes criterios:
 
-    - ¿El cliente tiene un acuerdo de precios o descuentos, o el cliente pertenece a un grupo que lo tiene?
-    - ¿Está incluido el producto o el grupo de descuento del producto de la línea en alguno de estos acuerdos de precios o descuentos?
-    - ¿La fecha de pedido (o la fecha de registro de la factura y abono) está comprendida entre la fecha inicial y la fecha final del acuerdo de precios o descuentos?
-    - ¿Se ha especificado un código de unidad de medida? Si es así, [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba los precios o descuentos con el mismo código de unidad de medida y los precios o descuentos sin un código de unidad de medida.
+    * ¿El cliente tiene un acuerdo de precios o descuentos, o el cliente pertenece a un grupo que lo tiene?
+    * ¿Está incluido el producto o el grupo de descuento del producto de la línea en alguno de estos acuerdos de precios o descuentos?
+    * ¿La fecha de pedido (o la fecha de registro de la factura y abono) está comprendida entre la fecha inicial y la fecha final del acuerdo de precios o descuentos?
+    * ¿Se ha especificado un código de unidad de medida? Si es así, [!INCLUDE[prod_short](includes/prod_short.md)] comprueba los precios o descuentos con el mismo código de unidad de medida y los precios o descuentos sin un código de unidad de medida.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] comprueba si se aplican acuerdos de precio/descuento a la información del documento o línea de diario. Luego inserta el precio unitario aplicable y el porcentaje de descuento de línea utilizando los siguientes criterios:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba si se aplican acuerdos de precio/descuento a la información del documento o línea de diario. Luego inserta el precio unitario aplicable y el porcentaje de descuento de línea utilizando los siguientes criterios:
 
-    - ¿Hay un requisito de cantidad mínima en el acuerdo de precios o descuentos que se debe cumplir?
-    - ¿Hay un requisito de divisa en el acuerdo de precios o descuentos que se debe cumplir? Si es así, se insertan el precio más bajo y el descuento de línea más alto para esa divisa, incluso si la divisa local proporciona un precio mejor. Si no existen acuerdos de precios o descuentos para el código de divisa especificado, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserte el menor precio y el mayor descuento de línea en la su divisa local.
+    * ¿Hay un requisito de cantidad mínima en el acuerdo de precios o descuentos que se debe cumplir?
+    * ¿Hay un requisito de divisa en el acuerdo de precios o descuentos que se debe cumplir? Si es así, se insertan el precio más bajo y el descuento de línea más alto para esa divisa, incluso si la divisa local proporciona un precio mejor. Si no existen acuerdos de precios o descuentos para el código de divisa especificado, [!INCLUDE[prod_short](includes/prod_short.md)] inserta el menor precio y el mayor descuento de línea en la su divisa local.
 
 Si no se puede calcular ningún precio especial para el producto de la línea, se inserta el último coste directo o el precio unitario de la ficha de producto.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Descuentos en factura de ventas y cargos por servicios
+
 Al utilizar descuentos en factura, el importe total de la factura determina el tamaño del descuento aplicado. En la página **Dtos. factura clientes**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  
 
 Para poder aplicar descuentos en factura a las ventas, primero debe especificar determinados datos. Debe tomar las decisiones siguientes:  
 
-- ¿A qué clientes se le concederá este tipo de descuento?  
-- ¿Qué porcentajes de descuento se van a aplicar?  
+* ¿A qué clientes se le concederá este tipo de descuento?  
+* ¿Qué porcentajes de descuento se van a aplicar?  
 
 Si desea descuentos en factura para que se calculen automáticamente, en la página **Configuración ventas y cobros** active el conmutador **Calcular descuento inventario**.  
 
@@ -231,7 +235,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualiz
 2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Descuentos de línea**.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Rellene una línea para cada combinación que aplicará un descuento de línea de venta al cliente.
 
-> [!Note]
+> [!NOTE]
 > Cuando abra las páginas **Precios de venta** y **Descuentos de línea de ventas** de un cliente específico, los campos **Filtro de tipo de ventas** y **Filtro de código de ventas** se establecen para el cliente y no se pueden cambiar ni eliminar.
 >
 > Para configurar precios o descuentos de línea para todos los clientes, un grupo de precios de clientes o una campaña, debe abrir las páginas desde una tarjeta de producto. Alternativamente, para precios de venta, use la página **Hoja de trabajo de precio de venta**. Para obtener más información, vea [Para actualizar de forma masiva los precios de los productos](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -277,6 +281,8 @@ Configure de nuevo los términos de descuento en factura de ventas.
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Ccial](sales-manage-sales.md)  
+[Configurar los grupos de precio de clientes](sales-how-to-set-up-customer-price-groups.md)  
+[Configuración de grupos de descuento de cliente](sales-how-to-set-up-customer-discount-groups.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511238"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805053"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Descripción general de Business Central y Microsoft Teams
 
@@ -65,7 +65,7 @@ Para obtener más información, consulte [Compartir registros y vínculos de pá
     Si no está seguro de tener una, o bien si no sabe sus credenciales para iniciar sesión, póngase en contacto con el administrador de la empresa para que lo ayude a empezar.
 
     > [!TIP]
-    > Si su organización no tiene una suscripción de [!INCLUDE [prod_short](includes/prod_short.md)], puede registrarse para obtener una versión de prueba. Para obtener más información, consulte [Introducción a una versión de prueba](across-preview.md#get-started-with-a-trial).
+    > Si su organización no tiene una suscripción de [!INCLUDE [prod_short](includes/prod_short.md)], puede registrarse para obtener una versión de prueba. Para más información, consulte [Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md).
 
 2. Como administrador, consulte [Administrar la integración de Microsoft Teams con Business Central](admin-teams-integration.md) para obtener información sobre cómo configurar los usuarios para trabajar con [!INCLUDE [prod_short](includes/prod_short.md)] y Teams.
 3. Instalar una aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. Consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md).

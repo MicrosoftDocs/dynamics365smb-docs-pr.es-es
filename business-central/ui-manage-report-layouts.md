@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fed722bb5929da100c1c92e63aebb1f10cf53d0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fa615d3e0753b7f1aa9cd602168a393849765079
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520687"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950230"
 ---
 # <a name="report-and-document-layouts-overview"></a>Información general de diseños de informes y documentos
 
@@ -23,6 +23,8 @@ Un diseño de informe controla el contenido y el formato del informe, incluidos 
 
 > [!NOTE]  
 > En [!INCLUDE[prod_short](includes/prod_short.md)], el término “informe” también afecta a documentos externos, como facturas de venta y las confirmaciones de pedido que envía a los clientes como archivos PDF.
+
+También puede utilizar los diseños de los informes para añadir contenido a los mensajes de correo electrónico. Por ejemplo, los diseños de informes pueden ahorrar tiempo y ayudar a garantizar la coherencia al reutilizar el mismo contenido cuando se comunica con sus clientes. Para usar diseños de informes personalizados con correo electrónico, el tipo de archivo para el diseño debe ser Word. No puede utilizar el tipo de archivo RDLC. Para más información, vea [Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="introduction"></a>Introducción
 

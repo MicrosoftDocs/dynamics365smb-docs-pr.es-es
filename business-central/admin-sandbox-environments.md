@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 20637dcced16fe695d64c2b4d858483882c64f7a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 93855d8c5fe1dfd292791cfec0c57aae25a740c1
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518290"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805027"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -73,7 +73,7 @@ Para obtener más información, consulte [Usar el diseñador](/dynamics365/busin
 ## <a name="see-also"></a>Consulte también
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
+[Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]]((/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Administración de entornos en el centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Ambientes de producción y de espacios aislados](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 

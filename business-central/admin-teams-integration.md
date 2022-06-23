@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147039"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799776"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ Esta sección describe los requisitos mínimos para que la características de l
 
 - Licencias requeridas
 
-    Esta tabla le ofrece una descripción general de las licencias necesarias que la características de la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] trabajen en Teams.
+    La aplicación [!INCLUDE[prod_short](includes/prod_short.md)] necesita una licencia de Teams a través de una suscripción empresarial o de negocios de Microsoft 365. No se admiten suscripciones de Teams independientes como Microsoft Teams (gratuitas) o Microsoft Teams Essentials.
 
-    |Qué|Licencia de Teams|Licencia de [!INCLUDE [prod_short](includes/prod_short.md)]|
-    |----|---|---|
-    |Buscar contactos de [!INCLUDE [prod_short](includes/prod_short.md)].|![marca de verificación.](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
-    |Pegue un vínculo a un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación y envíelo como una tarjeta.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
-    |Comparta un enlace de una página en [!INCLUDE [prod_short](includes/prod_short.md)] con una conversación de Teams.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
-    |Vea una tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")||
-    |Vea más detalles de la tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
-    |Abra un enlace de página en [!INCLUDE [prod_short](includes/prod_short.md)] desde una conversación.|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|
+    La mayoría de las características de la aplicación [!INCLUDE[prod_short](includes/prod_short.md)] para Teams también requiere una licencia [!INCLUDE [prod_short](includes/prod_short.md)], como se muestra en la siguiente tabla.
+
+    |Qué|Licencia de [!INCLUDE [prod_short](includes/prod_short.md)]|
+    |----|---|
+    |Buscar contactos de [!INCLUDE [prod_short](includes/prod_short.md)].|![marca de verificación](media/check.png "comprobar")|
+    |Pegue un vínculo a un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación y envíelo como una tarjeta.|![marca de verificación](media/check.png "comprobar")|
+    |Comparta un enlace de una página en [!INCLUDE [prod_short](includes/prod_short.md)] con una conversación de Teams.|![marca de verificación](media/check.png "comprobar")|
+    |Vea una tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.||
+    |Vea más detalles de la tarjeta de un registro de [!INCLUDE [prod_short](includes/prod_short.md)] en una conversación.|![marca de verificación](media/check.png "comprobar")|
+    |Abra un enlace de página en [!INCLUDE [prod_short](includes/prod_short.md)] desde una conversación.|![marca de verificación](media/check.png "comprobar")|
 
 - Permitir vistas previas de URL
 
@@ -85,7 +87,7 @@ El centro de administración de Microsoft Teams es donde se configuran las polí
 > [!NOTE]
 > Para configurar Implementación centralizada, su cuenta de Teams debe tener el rol **Administrador de servicio de Teams** o el rol **Administrador global**.
 
-1. En Business Central, elija el icono ![Lupa que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Implementación centralizada de la aplicación Teams**, y luego elija el enlace relacionado. O seleccione [aquí](https://businesscentral.dynamics.com/?page=1833) para abrir la página directamente.
+1. En Business Central, seleccione el icono ![Lupa que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entre en **Implementación centralizada de la aplicación Teams**, y luego elija el enlace relacionado. O seleccione [aquí](https://businesscentral.dynamics.com/?page=1833) para abrir la página directamente.
 2. Lea la información en **Configurar la aplicación Business Central para Teams**, y luego **Siguiente** cuando esté listo.
 3. Abre el [Centro de administración de Teams](https://go.microsoft.com/fwlink/?linkid=2163970) y complete los siguientes pasos.
     1. Vaya a **Aplicaciones de Teams** > **Directivas de configuración**.

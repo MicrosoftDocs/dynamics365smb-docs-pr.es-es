@@ -5,13 +5,13 @@ author: edupont04
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
-ms.date: 04/05/2022
-ms.openlocfilehash: 6e911b0f6b3dc9544e877aee16d52a10d54c4031
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.date: 05/25/2022
+ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557123"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805183"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Regístrese para obtener una versión de prueba de Dynamics 365 Business Central
 
@@ -30,14 +30,26 @@ Su entorno de prueba incluye las mismas funciones que la versión de pago. Los e
 - [Sea productivo](ui-work-product.md)  
 - [Inicio rápido](quick-start-business-central.md)  
 
+## <a name="get-started-with-a-subscription"></a>Introducción a una suscripción
+
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prod_short](includes/prod_short.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prod_short](includes/prod_short.md)] agregando aplicaciones desde [el mercado comercial de Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
+
+[!INCLUDE[prod_short](includes/prod_short.md)] en línea usa Microsoft 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prod_short](includes/prod_short.md)] local.  
+
+También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+Para obtener más información sobre lo que puede hacer con [!INCLUDE [prod_short](includes/prod_short.md)], consulte [Preparación para hacer negocios](ui-get-ready-business.md) y [Funcionalidad empresarial](across-business-functionality.md).  
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Explorar la formación en Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Visite nuestra biblioteca de vídeos](across-videos.md)  
 - [Preguntas más frecuentes de la prueba](trial-faq.md)  
-- [Versiones de prueba y suscripciones](across-preview.md)  
 - [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)  
-- [Introducción a una suscripción](across-preview.md#get-started-with-a-subscription)  
 - [Personalizar el área de trabajo](ui-personalization-user.md)  
 - [Ejecutar e imprimir informes](ui-work-report.md)  
 - [Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)  
+- [Versiones de prueba y suscripciones (para administradores)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

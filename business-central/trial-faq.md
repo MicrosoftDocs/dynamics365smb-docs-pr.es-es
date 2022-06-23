@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367302"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805157"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Preguntas más frecuentes de la prueba de Dynamics 365 Business Central
 
@@ -19,11 +19,11 @@ ms.locfileid: "8367302"
 
 ### <a name="can-i-convert-the-trial-to-a-paid-license"></a>¿Puedo convertir la versión de prueba en una licencia de pago?
 
-Sí que puede. Para obtener más información, consulte [Introducción a una suscripción](across-preview.md#get-started-with-a-subscription).  
+Sí que puede. Para obtener más información, consulte [Introducción a una suscripción](trial-signup.md#get-started-with-a-subscription).  
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>¿Cuáles son los límites y las cuotas de la prueba?
 
-La prueba gratuita incluye datos de muestra. Si desea probar Business Central con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. Si desea obtener más información, consulte [[!INCLUDE[prod_long](includes/prod_long.md)] Pruebas y suscripciones](across-preview.md).  
+La prueba gratuita incluye datos de muestra. Si desea probar Business Central con sus propios datos, puede cambiar a una prueba gratuita de 30 días con una empresa vacía. Su administrador puede obtener más información sobre pruebas y suscripciones [aquí](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ### <a name="how-do-i-start-using-the-trial"></a>¿Cómo empiezo a utilizar la versión de prueba?
 
@@ -54,4 +54,4 @@ No puede. Si elimina accidentalmente datos de muestra, solicite a su administrad
 [Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md)  
 [Preguntas frecuentes sobre el uso de Business Central](across-faq.yml)  
 [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)  
-[Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md)  
+[Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

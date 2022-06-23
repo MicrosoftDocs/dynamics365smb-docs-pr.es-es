@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654973"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805235"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,11 +32,11 @@ Si decide agregar una empresa al [!INCLUDE[prod_short](includes/prod_short.md)],
 El asistente de configuración ofrece dos plantillas y una opción en blanco:
 
 - **Evaluación - Datos de ejemplo**  
-    Crea una empresa similar a la compañía de demostración con datos de ejemplo y datos de configuración. Este tipo de empresa está a su disposición sin necesidad de cambiar a [un período de prueba de 30 días](across-preview.md#add-your-own-data-to-an-empty-trial-company), lo que hacen los otros tipos.  
+    Crea una empresa similar a la compañía de demostración con datos de ejemplo y datos de configuración. Este tipo de empresa está a su disposición sin necesidad de cambiar a un período de prueba de 30 días, lo que hacen los otros tipos.  
 - **Producción - Solo datos de configuración**  
-    Crea una empresa similar a **Mi empresa** con datos de configuración pero sin datos de ejemplo. Podrá usar esta empresa durante [un periodo de evaluación de 30 días](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Crea una empresa similar a **Mi empresa** con datos de configuración pero sin datos de ejemplo. Podrá usar esta empresa durante un periodo de evaluación de 30 días.  
 - **Crear nuevo - No hay datos**  
-    Crea una empresa en blanco sin datos de configuración. Podrá usar esta empresa durante [un periodo de evaluación de 30 días](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Crea una empresa en blanco sin datos de configuración. Podrá usar esta empresa durante un periodo de evaluación de 30 días.  
 
 Si desea empezar fácilmente con una empresa nueva, elija **Producción - Solo datos de configuración** y, a continuación, importe sus propios datos empresariales, como clientes, productos, y proveedores. Seleccione la plantilla **Nuevo** si desea configurar todos los parámetros desde cero. En ese caso, puede utilizar la guía de configuración asistida **Configuración de la empresa** para obtener ayuda con los datos esenciales de configuración.  
 
@@ -44,6 +44,8 @@ Si desea empezar fácilmente con una empresa nueva, elija **Producción - Solo d
 > Al crear una empresa nueva, tarda algunos minutos antes de tener acceso en [!INCLUDE[prod_short](includes/prod_short.md)]. El estado de configuración de la página **Empresas** muestra cuando la nueva empresa está lista. A continuación, puede cambiar a la nueva empresa mediante **Mi configuración**.  
 
 Durante su prueba de 30 días, puede crear todas las nuevas empresas que desee, pero solo estarán disponibles durante la versión de prueba. Para obtener más información, póngase en contacto con su socio [!INCLUDE[prod_short](includes/prod_short.md)]. Consulte también el artículo [Preguntas más frecuentes de la prueba de Dynamics 365 Business Central](trial-faq.md).  
+
+Su administrador puede obtener más información sobre pruebas y suscripciones [aquí](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## <a name="copy-a-company"></a>Copiar una empresa
 
@@ -84,7 +86,6 @@ La aplicación Contoso Coffee proporciona datos de demostración que pueden ayud
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
-[Versiones de prueba y suscripciones](across-preview.md)  
 [Comprender la infraestructura de Business Central Online (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

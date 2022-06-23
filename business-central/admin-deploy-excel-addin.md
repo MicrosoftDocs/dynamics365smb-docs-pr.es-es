@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518420"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950096"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Obtener el complemento Business Central para Excel
 
@@ -130,8 +130,7 @@ A veces, los usuarios tienen problemas con el complemento de Excel. Esta secció
 |Los datos no se pueden volver a publicar en [!INCLUDE [prod_short](includes/prod_short.md)].|Pruebe la conexión abriendo el libro en Excel en un navegador. |A veces, una extensión puede bloquear el trabajo de publicación. Si la página está extendida o personalizada, elimine las extensiones y vuelva a intentarlo.|
 |Las fechas están mal  |Excel puede mostrar fechas y horas en un formato diferente que [!INCLUDE [prod_short](includes/prod_short.md)]. Esta situación no significa que sean incorrectos y los datos de [!INCLUDE [prod_short](includes/prod_short.md)] no se desorganizarán.|         |
 |Para algunas páginas de lista, la edición de varias líneas en Excel provoca errores de forma constante. Esta condición puede ocurrir si las llamadas de OData incluyen FlowFields y campos fuera del control del repetidor.|En la página **Servicios web**, seleccione las casillas **Excluir FlowFields no editables** y **Excluir campos fuera del repetidor** para la página publicada. Al seleccionar estas casillas se excluyen los FlowFields y campos no editables del cálculo de eTag. |Estas casillas están ocultas de forma predeterminada. Para mostrarlas en la página **Servicios web**, use [personalización](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Los usuarios ya no pueden iniciar sesión en el complemento. Cuando intentan iniciar sesión, el proceso se detiene sin completarse.| Este problema puede deberse a una actualización que realizamos en el complemento, en algún momento de julio de 2022. Para obtener más información y una solución, consulte [Modificar la configuración del complemento de Excel para admitir la actualización de julio de 2022](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Se aplica solo local a [!INCLUDE [prod_short](includes/prod_short.md)]|
 
 <!--
 ## Deploy the Excel add-in for Business Central online

@@ -1,18 +1,18 @@
 ---
 title: Sincronizar clientes
 description: Importar clientes desde o exportar a Shopify
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768157"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808870"
 ---
 # <a name="synchronize-customers"></a>Sincronizar clientes
 
@@ -25,8 +25,8 @@ Cuando un pedido se importa desde Shopify, la información sobre los clientes es
 
 La función *Importar pedido de Shopify* intenta seleccionar el cliente en el siguiente orden:
 
-1. Si el **N.º de cliente genérico** se define en la **Plantilla cliente de Shopify** para el país correspondiente, entonces se usa el **N.º de cliente genérico** independientemente de los ajustes en **Importación de cliente desde Shopify** y **Tipo de asignación de cliente**.
-2. Si se ha definido **Importación de cliente desde Shopify** y **N.º de cliente genérico** , entonces se usa el **N.º de cliente genérico** .
+1. Si el **N.º de cliente genérico** el campo se define en la **Plantilla de cliente de Shopify** para el país correspondiente, se usa el **N.º de cliente genérico** independientemente de los ajustes en **Importación de cliente desde Shopify** y **Tipo de asignación de cliente**. Para obtener más información, consulte [Plantilla de clientes por país](synchronize-customers.md#customer-template-per-country).
+2. Si **Importación de clientes desde Shopify** está establecido como *Ninguno* y **N.º de cliente genérico** se define en la **Shopify Tarjeta de tienda**, luego el **N.º de cliente genérico** .
 
 Los próximos pasos dependen del **Tipo de asignación de cliente**.
 
@@ -76,7 +76,7 @@ Los clientes existentes se pueden exportar a Shopify de forma masiva. Como resul
 
 ### <a name="populate-customer-information-in-shopify"></a>Rellenar la información del cliente en Shopify
 
-Un cliente en Shopify tiene nombre, apellido, correo electrónico y número de teléfono. Puede completar el nombre y el apellido en función de los datos de la ficha del cliente en [!INCLUDE[prod_short](../includes/prod_short.md)].
+Un cliente en Shopify tiene nombre, apellido, correo electrónico y número de teléfono. Puede completar el nombre y el apellido a partir de los datos de la ficha del cliente en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Prioridad|Campo en la ficha cliente|Descripción|
 |------|------|-----------|
@@ -100,6 +100,8 @@ Para las direcciones en las que se utiliza el país o la provincia, seleccione *
 3. Seleccione la acción **Sincronizar clientes**.
 
 Como alternativa, puede usar la acción **Iniciar sincronización de cliente** en la ventana **Clientes de Shopify** o buscar el trabajo por lotes **Sincronizar clientes**.
+
+Puede programar la tarea para que se realicen de forma automatizada. Para obtener más información, consulte [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Consulte también
 

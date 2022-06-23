@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768229"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808873"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Solución de problemas de Shopify y sincronización de Business Central
 
@@ -56,9 +56,8 @@ Si [!INCLUDE[prod_short](../includes/prod_short.md)] no puede conectarse a su cu
 
 1. Vaya al icono ![Bombilla que abre la función Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") de búsqueda. , escriba **Tienda de Shopify** y luego elija el vínculo relacionado.
 2. Seleccione la tienda para la que desea conseguir el token de acceoso para abrir la página **Tarjeta de tienda de Shopify**.
-3. En el campo **Código**, escriba el código.  
-4. Elegir la acción **Solicitar acceso**.
-5. Si se le solicita, inicie sesión en su cuenta de Shopify.
+3. Elegir la acción **Solicitar acceso**.
+4. Si se le solicita, inicie sesión en su cuenta de Shopify.
 
 ## <a name="see-also"></a>Consulte también
 
