@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dcc7b1586f50d3d9436d237592279007f38c05fa
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517425"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077246"
 ---
 # <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
+
 Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las características Seguimiento de producto y [Buscar movimientos](ui-find-entries.md).  
 
 Estas funciones pueden ser especialmente útiles en controles de calidad en los que sea necesario conocer qué clientes recibieron productos con un número de lote en particular, o cuando es necesario conocer de qué lote proviene un componente defectuoso.  
@@ -64,7 +65,9 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 3. En la ficha desplegable **N.º de serie** y **N.º de lote**, introduzca los números de seguimiento de productos de los que desea realizar un seguimiento.  
 4. Elija la acción **Buscar** para buscar todos los casos números de serie o de lote en la base de datos.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)  

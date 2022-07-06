@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 6b128f79cb8e629147bdd5ae77f2545ad0f7025c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525184"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078757"
 ---
 # <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Tutorial: Combinar la baja automática y la manual
 
@@ -23,7 +23,9 @@ Usted es el planificador de producción de Contoso Coffee. Debe crear una nueva 
 
 ## <a name="steps"></a>Pasos
 
-1. Cree una orden de producción en firme para cinco unidades del artículo **SP-SCM1004, AutoDrip**. Para obtener orientación, consulte [Tutorial: Crear una nueva orden de producción planificada en firme y cambiarla](create-firm-planned-production-order-change.md).  
+> [¡Nota!] Recuerde ajustar el inventario registrando el diario de artículos con saldos iniciales.
+
+1. Cree una orden de producción planificada en firme para cinco unidades del artículo **SP-SCM1004, AutoDrip** en la ubicación *NORTE*. Para obtener orientación, consulte [Tutorial: Crear una nueva orden de producción planificada en firme y cambiarla](create-firm-planned-production-order-change.md).  
 
 2. Lance la orden de producción.
 

@@ -9,25 +9,28 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4a502dc56f45673c0a052b0081518ae0ec888a14
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382982"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076024"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Configurar un servicio de intercambio de documentos
+
 Como parte del marco de intercambio de datos, puede intercambiar documentos de compra y venta con sus socios comerciales sin pasos adicionales, como adjuntar los documentos a mensajes de correo electrónico como archivos PDF. Por ejemplo, cuando esté listo para facturar a un cliente, puede registrar la factura y enviarla para su pago como un archivo que su cliente puede recibir en su aplicación de administración comercial. Para obtener más información, vea [Intercambio de datos electrónicamente](across-data-exchange.md).
 
 > [!NOTE]
 > La configuración de un servicio de intercambio de documentos para Business Central local requiere algunos pasos adicionales para la autorización. Para obtener más información, consulte [Configuración para Business Central local](#settings-for-business-central-on-premises).
 
 ## <a name="connecting-with-trading-partners"></a>Conexión con socios comerciales
+
 El intercambio de documentos electrónicos requiere una conexión con sus socios comerciales. Para facilitar la creación de una conexión segura, [!INCLUDE[prod_short](includes/prod_short.md)] en línea se configura para utilizar la aplicación de integración de Business Central. La aplicación está disponible en la tienda de aplicaciones Tradeshift, y todo lo que usted y sus socios comerciales deben hacer es crear una cuenta de Tradeshift y luego habilitar la aplicación. La aplicación de integración de Business Central se encuentra en versiones de producción y de entorno aislado. Por ejemplo, usar la versión espacio aislado es bueno para probar el intercambio de documentos. Puede cambiar entre las versiones de producción y espacio aislado activando o desactivando el botón de alternancia **Espacio aislado** en la página **Configuración servicio intercambio documentos**. Cuando lo haga, la información de la ficha desplegable **Servicio** se actualiza automáticamente.
 
 Alternativamente, si desea utilizar otro servicio, debe proporcionar información para realizar la conexión. Para obtener más información, vea [Para conectar con un servicio de intercambio de documentos](across-how-to-set-up-a-document-exchange-service.md#to-connect-to-a-document-exchange-service).
 
 ## <a name="to-connect-to-the-business-central-integration-app-on-tradeshift"></a>Para conectarse a la aplicación de integración de Business Central en Tradeshift
+
 Puede crear rápidamente una cuenta de Tradeshift y comenzar con la aplicación de integración de Business Central desde la página **Configuración servicio intercambio documentos**. Elija el enlace **Activar aplicación** en la notificación o el campo **URL de la aplicación** para ir a la aplicación en la tienda de aplicaciones Tradeshift. En la página de inicio de sesión de Tradeshift, inicie sesión o regístrese.
 
 > [!NOTE]
@@ -35,7 +38,8 @@ Puede crear rápidamente una cuenta de Tradeshift y comenzar con la aplicación 
 
 Si decide dejar de usar la aplicación de integración de Business Central, debe desactivarla en la tienda de aplicaciones Tradeshift. 
 
-## <a name="to-connect-to-a-document-exchange-service"></a>Para conectar con un servicio de intercambio de documentos  
+## <a name="to-connect-to-a-document-exchange-service"></a>Para conectar con un servicio de intercambio de documentos
+
 Si prefiere utilizar otro servicio de intercambio de documentos, debe proporcionar cierta información para conectarse al servicio.
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Configuración servicio intercambio documentos** y luego elija el enlace relacionado.  
@@ -58,11 +62,15 @@ Si prefiere utilizar otro servicio de intercambio de documentos, debe proporcion
     > Si no puede conectarse al servicio de intercambio de documentos debido a un problema de autorización, puede ser porque [!INCLUDE[prod_short](includes/prod_short.md)] no puede renovar automáticamente el token de acceso. Por ejemplo, esto podría ocurrir si no ha utilizado el servicio durante algún tiempo. Puede renovar el token manualmente utilizando la acción **Renovar token**.
 
 ## <a name="settings-for-business-central-on-premises"></a>Configuración de Business Central local
+
 Para conectar Business Central local debe crear una aplicación en la tienda de aplicaciones Tradeshift. Cuando lo haga, utilice el URL de redireccionamiento del campo **URL de redireccionamiento** en la página **Configuración del servicio de intercambio de documentos**. Después de registrar su aplicación, Tradeshift le proporcionará un ID de cliente y un secreto de cliente. En [!INCLUDE[prod_short](includes/prod_short.md)], ingrese esos valores en la ficha desplegable **Autorización** en la página **Configuración del servicio de intercambio de documentos**.
 
 Si prefiere almacenar el identificador y el secreto de la aplicación en una ubicación diferente, puede dejar en blanco los campos Id . del cliente y Secreto del cliente y escribir una extensión para obtener el identificador y el secreto de la ubicación. Puede proporcionar el secreto en tiempo de ejecución suscribiéndose a los eventos OnGetClientId y OnGetClientSecret en codeunit 1410 "Configuración servicio intercambio documentos".
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también
+
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)
 

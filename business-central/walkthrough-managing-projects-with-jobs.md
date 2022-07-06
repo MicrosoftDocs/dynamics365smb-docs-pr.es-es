@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513424"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076752"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Tutorial: administración de programas con proyectos
 
@@ -24,54 +24,63 @@ Este tutorial le presenta a las funciones de administración de programas en los
 
  En este tutorial, se trata la configuración de un nuevo proyecto, además de las tareas más comunes, como gestión de precios fijos, creación de pagos a plazo, registro de facturas de proyectos y copia de proyectos.  
 
-## <a name="about-this-walkthrough"></a>Acerca de este tutorial  
+## <a name="about-this-walkthrough"></a>Acerca de este tutorial
+
  En este tutorial, se demuestran las siguientes tareas:  
 
-### <a name="setting-up-a-job"></a>Configuración de un proyecto  
+### <a name="setting-up-a-job"></a>Configuración de un proyecto
+
  Con la configuración de la estructura del presupuesto para los trabajos, crear un trabajo es directo. Este tutorial trata los siguientes procedimientos:  
 
 - Configuración de líneas de planificación y líneas de tarea de un proyecto.  
 - Creación de precios específicos de proyectos para productos y cuentas.  
 - Facturación a partir de un proyecto.  
 
-### <a name="handling-fixed-prices"></a>Gestión de precios fijos  
+### <a name="handling-fixed-prices"></a>Gestión de precios fijos
+
  En proyectos, puede gestionar precios fijos y precios de servicios o mercaderías que se acuerdan por adelantado con los clientes. En este tutorial, puede hacer lo siguiente:  
 
 - Ver cómo se determinan los valores de facturas y contratos.  
 - Permitir trabajo adicional en el programa que no se ha facturado.  
 
-### <a name="copying-a-job"></a>Copia de un proyecto  
+### <a name="copying-a-job"></a>Copia de un proyecto
+
  Esta parte del tutorial se centra en cómo copiar una parte o la totalidad de un proyecto para reducir la introducción manual de datos y mejorar la precisión. Incluye lo siguiente:  
 
 - Copia de parte de un proyecto en un proyecto nuevo.  
 - Copia de precios específicos de proyectos.  
 - Copia de líneas de planificación.  
 
-### <a name="making-payment-by-installment"></a>Creación de pagos a plazos  
+### <a name="making-payment-by-installment"></a>Creación de pagos a plazos
+
  Cuando un proyecto amplio y caro tiene una larga duración, el cliente suele llegar a un acuerdo con la empresa para pagar a plazos. Este ejemplo muestra cómo configurar pagos a plazo y trata lo siguiente:  
 
 - Creación de pagos a plazo para un proyecto.  
 - Facturación de pagos a clientes.  
 - Cómo tener en cuenta el uso en un proyecto de pagos a plazo.  
 
-## <a name="roles"></a>Funciones  
+## <a name="roles"></a>Funciones
+
  En este tutorial se incluyen tareas para las siguientes funciones:  
 
 - Director de proyectos  
 - Miembro del equipo del proyecto  
 
-## <a name="prerequisites"></a>Requisitos previos  
+## <a name="prerequisites"></a>Requisitos previos
+
  Para poder realizar las tareas del tutorial, deberá hacer lo siguiente:  
 
 - Instale la base de datos de demostración CRONUS.
 - Cree datos de ejemplo como indican los pasos de la siguiente sección.  
 
-## <a name="story"></a>Historia  
+## <a name="story"></a>Historia
+
 Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que diseña y equipa nuevas infraestructuras, como salas de conferencias y oficinas, con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash es director de proyectos en CRONUS. Utiliza proyectos para darle un panorama de cada proyecto en curso que CRONUS ha iniciado, además de los proyectos finalizados. Normalmente es uno de los que trata con los clientes e introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los trabajos y el pago por plazos.
 
  Tricia, miembro del equipo del proyecto que depende de Prakash, es la responsable de supervisar el día a día del proyecto. Ella introduce su propio trabajo además del trabajo realizado por técnicos en cada tarea. Ella registra los productos que han utilizado y los costes en los que han incurrido.  
 
-## <a name="preparing-sample-data"></a>Preparación de datos de ejemplo  
+## <a name="preparing-sample-data"></a>Preparación de datos de ejemplo
+
  Para prepararse para este tutorial, deberá añadir a Tricia como un recurso nuevo.  
 
 ### <a name="to-prepare-the-sample-data"></a>Para preparar los datos de ejemplo  
@@ -109,7 +118,8 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
 
 4.  Elija el botón **Aceptar** para guardar los cambios.
 
-## <a name="setting-up-a-job"></a>Configuración de un proyecto  
+## <a name="setting-up-a-job"></a>Configuración de un proyecto
+
  En este escenario, CRONUS ha ganado un contrato con un cliente, Progressive Home Furnishings, para diseñar una sala de conferencias y un refectorio. El cliente tiene su sede en los Estados Unidos y el proyecto precisa un software especial. El director del proyecto llega a un acuerdo con el cliente y crea un proyecto que cubra el acuerdo.  
 
 ### <a name="to-set-up-a-job"></a>Para configurar un proyecto  
@@ -202,7 +212,8 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
 
 4. Cierre la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
 
-## <a name="calculating-remaining-usage"></a>Cálculo del uso restante  
+## <a name="calculating-remaining-usage"></a>Cálculo del uso restante
+
  Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto durante algún tiempo y desea registrar sus horas y utilización en el proyecto. No ha trabajado más horas que las acordadas previamente con el cliente. Ella utiliza el trabajo por lotes **Cálc. uso restante** para calcular el uso restante para el proyecto en un diario respectivo. Para cada tarea, el trabajo por lotes calcula la diferencia entre el uso programado de productos, recursos y gastos de contabilidad, y el uso real registrado en los movimientos del proyecto. A continuación, se muestra el uso restante en el diario del proyecto, desde el cual puede registrarlo.  
 
 ### <a name="to-calculate-remaining-usage"></a>Para calcular el uso restante  
@@ -219,7 +230,8 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
 
 Ya se han registrado las líneas.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Creación y registro de una factura de ventas de proyecto  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Creación y registro de una factura de ventas de proyecto
+
  A continuación, Tricia puede crear una factura nueva para el trabajo completo o para parte de un trabajo. También puede adjuntar la factura a otra factura para el mismo cliente y proyecto. En este caso, puede facturar todo el proyecto, ya que éste ya estará completado.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>Para crear una factura de ventas del proyecto  
@@ -252,7 +264,8 @@ Ya se han registrado las líneas.
 2.  Seleccione la acción **Estadísticas**. Puede revisar información detallada acerca de los precios, costes y beneficio bruto del trabajo en las divisas local y extranjera.  
 3.  Elija el botón de **Cerrar** para cerrar la página **Estadísticas proyecto**.  
 
-## <a name="handling-fixed-prices"></a>Gestión de precios fijos  
+## <a name="handling-fixed-prices"></a>Gestión de precios fijos
+
  CRONUS se han contratado a las salas de conferencias de instalación. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Ha llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Para gestionar precios fijos en proyectos  
@@ -443,15 +456,18 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 2.  En la página **Crear factura venta**, establezca la fecha de hoy como la fecha de registro, especifique **Por la tarea** y elija el botón **Aceptar** para crear una factura con la información predeterminada. Elija el botón **Aceptar** para cerrar la página de confirmación.  
 3.  Elija la acción **Crear factura/abono de venta**. En la factura de venta, puede ver que sólo se incluye en la factura el pago de entrada. Ahora puede enviarlo al cliente como acordaron.  
 
-## <a name="next-steps"></a>Pasos siguientes  
+## <a name="next-steps"></a>Pasos siguientes
+
  Este tutorial le ha llevado por algunos de los pasos básicos de trabajo con los proyectos en [!INCLUDE[prod_short](includes/prod_short.md)]. Ha aprendido acerca de cómo crear un trabajo nuevo, cómo copiar un trabajo y cómo administrar los pagos. Además, ha visto una demostración de cómo seguir las horas y crear las facturas.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/create-jobs/)
 
- [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
- [Configurar la administración de proyectos](projects-setup-projects.md)   
- [Usar recursos](projects-how-use-resources.md)   
- [Supervisar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)   
+## <a name="see-also"></a>Consulte también .
+
+ [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
+ [Configurar la administración de proyectos](projects-setup-projects.md)  
+ [Usar recursos](projects-how-use-resources.md)  
+ [Controlar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)  
  [Facturar proyectos](projects-how-invoice-jobs.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e41f61156dbc7248cc9cb1a99ca2b5c790ee036
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8b64a0314f4880ed9bc5a6c10a37c8747e4aa561
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518606"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077767"
 ---
 # <a name="create-bins"></a>Crear ubicaciones
 
@@ -76,12 +76,14 @@ Para trabajar con la página **Hoja trab. creación ubicación**, debe estar con
 
 Repita el proceso para otro grupo de ubicaciones hasta que haya creado todas las ubicaciones del almacén.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-new-bins/)
 
-[Gestión almacén](warehouse-manage-warehouse.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
-[Gestión de ensamblaje](assembly-assemble-items.md)    
+## <a name="see-also"></a>Consulte también .
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
+[Inventario](inventory-manage-inventory.md)  
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
+[Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

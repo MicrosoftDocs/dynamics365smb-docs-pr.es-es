@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f1e99daea56fda5a1a36e0e2b1fb69c332dc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519152"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076544"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminología en contabilidad de costes
 
@@ -49,8 +49,11 @@ Este tema define los términos clave que se utilizan en contabilidad de costes.
 |Coste variable|Los costes variables son los gastos que cambian en proporción a la actividad de una empresa. Los costes variables son la suma de costes marginales en todas las unidades producidas. Los costes fijos y los costes variables componen los dos componentes de costes totales.|  
 |Variante|Una variante se utiliza como etiqueta definida por el usuario opcional para las asignaciones. El objetivo de la etiqueta es filtrar grupos de asignación.|  
 
-## <a name="see-also"></a>Consulte también  
- [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
+ [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)  
  [Contabilidad para costes](finance-manage-cost-accounting.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

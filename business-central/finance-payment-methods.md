@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abe1d874658c393b0d9795c1710e642b4e33add0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5cf88736711667a18a43e75bc70533de5c924ad2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512963"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076596"
 ---
 # <a name="set-up-payment-methods"></a>Configure formas de pago
 
@@ -43,7 +43,9 @@ Opcionalmente, agregue condiciones de pago a su método de pago. Para obtener m�
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.
 2. En el campo **Cód. forma pago**, seleccione la forma que se usará de forma predeterminada para el cliente o proveedor.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
 [Configurar términos de pago](finance-payment-terms.md)  

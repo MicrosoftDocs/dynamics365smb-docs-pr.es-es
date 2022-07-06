@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 56757c07ae0bbc41ae2ac9fad6bc3318a1d0ab93
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 171e046e68cd3eaabbb10b0e1aeacb508cbc76b4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520417"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078131"
 ---
 # <a name="creating-cost-budgets"></a>Crear presupuesto coste
 
@@ -32,11 +32,13 @@ Utilice las siguientes páginas para crear y analizar presupuestos de coste. Eli
 |Vea registros de presupuesto de costes y movimientos de presupuestos de costes.|Página de **Registros de presupuesto de costes**|  
 |Imprima comparaciones del presupuesto de costes con varios informes.|Informe **Saldo/presupuesto contable costes**<br /><br /> Informe **Extracto contable de costes/Presupuesto**<br /><br /> Informe **Ppto. costes por centro de coste**<br /><br /> Informe **Ppto. costes por objeto de coste**|  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Contabilidad para costes](finance-manage-cost-accounting.md)  
 [Crear presupuestos contables](finance-how-create-budgets.md)  
-[Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
+[Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)  
 [Definición y asignación de costes](finance-define-and-allocate-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e2fe316c9f310abe3eb3bc031146445a8ffa7cef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 88fa36a84b88ccb44df3c1412ac217461febc883
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512027"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078263"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Configurar almacenes para utilizar las ubicaciones
+
 Las ubicaciones representan la estructura del almacén básico y se utilizan para realizar sugerencias sobre la colocación de los artículos. Cuando haya creado sus ubicaciones, puede definir muy específicamente el contenido que desea que lleve a cada ubicación o la ubicación puede funcionar como una ubicación aleatoria sin contenido específico.  
 
 Para utilizar la funcionalidad de ubicación en un almacén, primero debe activar la funcionalidad en la ficha de **Almacén**. A continuación podrá diseñar el flujo del artículo en la ubicación especificando los códigos de ubicación en los campos de instalación que representan a los distintos flujos.  
@@ -24,7 +25,8 @@ Para utilizar la funcionalidad de ubicación en un almacén, primero debe activa
 > [!NOTE]  
 >  Para poder especificar los códigos de ubicación en la ficha de almacén, deben crearse. Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Configurar una situación para utilizar las ubicaciones  
+## <a name="to-set-up-a-location-to-use-bins"></a>Configurar una situación para utilizar las ubicaciones
+
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione la situación donde desea utilizar las ubicaciones.  
 3.  Seleccione la acción **Editar**.  
@@ -38,12 +40,16 @@ Para utilizar la funcionalidad de ubicación en un almacén, primero debe activa
 11. En la ficha desplegable **Almacén**, rellene los campos **Tiempo manip. alm. salida**, **Tiempo manip. alm. entrada** y **Código calendario base**. Para obtener más información, vea [Configurar calendarios base](across-how-to-assign-base-calendars.md).
 
 ## <a name="filling-the-consumption-bin"></a>Rellenando la ubicación del consumo
+
 Este organigrama muestra cómo se rellena el campo de **Código de ubicación** en las líneas del componente de la orden de producción según la ubicación.
 
 ![Diagrama de flujo de ubicación.](media/binflow.png "BinFlow")  
 
-## <a name="see-also"></a>Consulte también
-[Gestión de almacenes](warehouse-manage-warehouse.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/configure-bins-location/)
+
+## <a name="see-also"></a>Consulte también .
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    

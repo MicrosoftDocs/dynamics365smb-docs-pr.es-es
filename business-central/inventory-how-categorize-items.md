@@ -10,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 108f88cf9f068f28598d3b8ff8013b8879ca630a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 849d7ff23b1e437639ee7b624b2d8d35b735d76e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514964"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075920"
 ---
 # <a name="categorize-items"></a>Clasificar productos
 
@@ -50,7 +50,9 @@ Si cambia de opinión sobre una categoría de artículo, puede eliminarla. Sin e
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  

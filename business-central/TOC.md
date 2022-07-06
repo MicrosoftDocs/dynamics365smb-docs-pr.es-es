@@ -229,13 +229,11 @@
 ### Documentos entrantes
 #### [Información general sobre documentos entrantes](across-income-documents.md)
 #### [Configurar documentos entrantes](across-how-setup-income-documents.md)
-#### Procesar documentos entrantes
-##### [Procesar documentos entrantes](across-process-income-documents.md)
-##### [Crear registros de documento entrantes](across-how-create-income-document-records.md)
-##### [Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md)
-##### [Crear registros de documentos entrantes directamente desde documentos y movimientos](across-how-connect-disconnect-income-document-records.md)
-##### [Buscar documentos registrados sin registros de documentos entrantes](across-how-find-posted-documents-without-income-document-records.md)
-##### [Gestionar varios registros de documento entrantes](across-how-manage-many-income-document-records.md)
+#### [Crear registros de documento entrantes](across-how-create-income-document-records.md)
+#### [Utilizar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md)
+#### [Crear registros de documentos entrantes directamente desde documentos y movimientos](across-how-connect-disconnect-income-document-records.md)
+#### [Buscar documentos registrados sin registros de documentos entrantes](across-how-find-posted-documents-without-income-document-records.md)
+#### [Gestionar varios registros de documento entrantes](across-how-manage-many-income-document-records.md)
 
 ### Flujos de trabajo
 #### [Información general del flujo de trabajo](across-workflow.md)
@@ -1424,8 +1422,8 @@
 #### Tributos
 ##### [Impuesto de venta de EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Informe del informe de venta en EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Comunicar transacciones como sujetas al 1099 en EE. UU.](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Configure y use el formulario IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Cambios y detalles del formato reglamentario 1099](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Configurar el impuesto al uso y el impuesto a la compra](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Configurar descuentos de impuesto de venta y de pago de venta no realizados](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banca y pagos

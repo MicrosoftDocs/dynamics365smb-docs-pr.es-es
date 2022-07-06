@@ -10,20 +10,22 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5f0a26e9a6784f1d0ae2b7c8881667a51560cbf6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523610"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077689"
 ---
 # <a name="set-up-prices-and-discounts"></a>Establecer precios y descuentos
+
 > [!NOTE]
 > En el segundo lanzamiento de versiones de 2020, lanzamos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo que usa esa versión, está usando la nueva experiencia. Si es un cliente existente, si está utilizando la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en la página **Administración de funciones**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Las estrategias de precios y descuentos para la compra y venta de artículos y servicios son herramientas fundamentales para negocios exitosos. Después de configurar los artículos y servicios que su empresa compra y vende, puede definir lo que paga o cobra por ellos, y esos importes se agregarán automáticamente a los documentos de ventas y compras. 
 
 ## <a name="setting-up-prices-and-discounts"></a>Establecimiento de precios y descuentos
+
 Antes de crear listas de precios, debe definir sus estrategias de precios y descuentos en la páginas **Configuración de ventas y cuentas de clientes** y **Configuración de compras y cuentas de proveedores**.
 
 Puede configurar dos tipos de descuentos:
@@ -39,6 +41,7 @@ Dado que los descuentos de línea de venta y los precios de venta se basan en un
 > Si nunca debe venderse un producto con descuento, simplemente deje vacíos los campos de descuento en la ficha del producto y no incluya el producto en ninguna configuración de descuento de línea.
 
 ## <a name="about-price-lists"></a>Acerca de las listas de precios
+
 Las listas de precios son flexibles y le permiten especificar el socio comercial o la actividad a la que se aplican. Por ejemplo, puede configurar una lista de precios que se aplique a todos los proveedores y clientes, u ofrecer precios especiales o descuentos para cada socio comercial, tal vez en función de una cantidad mínima en pedidos de compra o de venta, o de una determinada combinación de cliente, artículo, cantidad mínima, unidad de medida o períodos de tiempo. Los precios y descuentos que defina se aplican automáticamente a los documentos de compra y venta. 
 
 ## <a name="set-up-prices"></a>Configurar precios
@@ -52,6 +55,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Rellene una línea para cada combinación que aplicará un precio de venta especial al cliente.
 
 #### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience)  
+
 Puede agregar artículos y servicios manualmente para cada línea, o puede usar la acción **Sugerir líneas** para crear nuevos precios para artículos seleccionados, grupos de descuentos de artículos, recursos y otros tipos de productos. Si escoge **Sugerir líneas** en al página **Líneas de precio: crear nueva**, puede utilizar filtros para seleccionar los productos o servicios que se incluirán en la lista de precios. También puede especificar si se debe considerar una cantidad mínima al calcular los precios, el factor de ajuste para aplicar nuevas líneas de lista de precios y el método de redondeo a aplicar a los precios. 
 
 De forma predeterminada, el estado de las nuevas listas de precios es **Borrador**. Cuando esté listo para comenzar a usar la lista, puede cambiar el estado a **Activo**.
@@ -71,6 +75,7 @@ Para revisar las listas de precios y los precios que se aplican a clientes o pro
 ---
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Para configurar un descuento de línea de venta para un cliente
+
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualiación de la característica **Nueva experiencia de precios de venta**. 
 
 #### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)  
@@ -100,6 +105,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 ---
 
 ## <a name="work-with-invoice-discounts-and-service-charges"></a>Trabajar con descuentos en factura y cargos por servicios
+
 Al utilizar descuentos en factura, el importe de la factura determina el descuento aplicado. En la página **Descuentos en factura**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  <!--The Invoice Discounts page is hard to find.-->
 
 Para poder aplicar descuentos en factura a las ventas, primero debe especificar determinados datos en la aplicación. Debe decidir qué clientes recibirán este tipo de descuento y los porcentajes de descuento que utilizará.  
@@ -116,6 +122,7 @@ Además de (o en lugar de) un porcentaje de descuento, puede vincular un importe
 > Antes de comenzar a introducir esta información, es una buena idea preparar su estructura de descuentos de antemano, para que sea más fácil ver qué clientes vincular a la misma página de descuento en factura. Para obtener más información sobre descuentos en ventas, consulte [Establecer descuentos para sus clientes](/learn/modules/customer-discounts-dynamics-365-business-central/index) en Microsoft Learn.  
 
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Para configurar un descuento en factura para un cliente
+
 Después de decidir qué clientes pueden obtener descuentos en factura, introduzca el código de descuento en factura en las fichas de cliente y especifique los términos de cada código.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
@@ -136,6 +143,7 @@ Configure de nuevo los términos de descuento en factura de ventas.
 El descuento en factura ahora está configurado y asignado al cliente en cuestión. Al seleccionar el código del cliente en el campo **Cód. dto. factura** en otras fichas de cliente, se asigna el mismo descuento en factura a estos clientes.
 
 ## <a name="to-copy-sales-prices"></a>Para copiar precios de venta
+
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualiación de la característica **Nueva experiencia de precios de venta**. 
 
 #### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)  
@@ -166,6 +174,7 @@ El estado de la lista de precios debe ser **Borrador**.
 ---
 
 ## <a name="to-bulk-update-item-prices"></a>Para actualizar de forma masiva los precios de los artículos
+
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualiación de la característica **Nueva experiencia de precios de venta**. 
 
 #### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)
@@ -193,9 +202,16 @@ Para actualizar los precios de varios productos, debe crear una nueva lista de p
 ---
 
 ## <a name="calculating-the-best-price"></a>Cálculo del mejor precio
+
 Cuando haya registrado precios especiales y descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre sea óptimo, calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y productos. Para obtener más información, consulte [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/customer-discounts-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Configuración de ventas](sales-setup-sales.md)  
 [Ccial](sales-manage-sales.md)  
-[Trabajar con [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

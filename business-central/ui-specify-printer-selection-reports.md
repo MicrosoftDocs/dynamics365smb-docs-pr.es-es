@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655296"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075660"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 
@@ -269,13 +269,16 @@ Usted o el administrador también pueden usar la página **Selecciones de impres
 > Las selecciones de impresora más específicas tienen preferencia sobre las selecciones de impresora más generales. Por ejemplo, una selección de impresora que tenga valores en **ID de usuario**, **ID de informe** y **Nombre de impresora** tiene prioridad sobre una selección de impresora que tenga entradas en blanco en los campos **ID de usuario** o **ID de informe**.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Elección de la impresora al generar un informe
+
 En lugar de utilizar la impresora predeterminada al ejecutar un informe, puede anular esta configuración desde la página de solicitud. Simplemente elija la impresora que desea utilizar para esta invocación del informe en el menú desplegable **Impresora**.
 
 ### <a name="sizing-print-jobs"></a>Cambio de tamaño de los trabajos de impresión
 
 La impresión en la nube se ha diseñado para documentos de un tamaño razonable. La mayoría de los servicios en la nube, incluidos PrintNode y HP ePrint, tienen un límite de 10 MB por trabajo. Si necesita imprimir informes más grandes, es posible que deba dividirlos en varias copias impresas.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Imprimir un informe](ui-work-report.md#PrintReport)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

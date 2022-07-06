@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7495ddfae4a6a59caba08c0d40d97f5b9c5f0c85
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f59670f427eb530eabaa69aa7596d610cb117078
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518658"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076128"
 ---
 # <a name="calculate-bin-replenishment"></a>Calcular reposición ubicación
+
 Cuando la ubicación se configure para utilizar ubicación y picking directos, se tendrán en cuenta las prioridades de la plantilla de ubicación para esa ubicación al situar las recepciones. Las prioridades incluyen las cantidades mínimas y máximas de contenido de la ubicación que se han establecido para una ubicación determinada, y los ranking de ubicación. Por tanto, si llegan productos a un ritmo estable, se rellenarán las ubicaciones de picking más utilizadas en cuanto se vacíen.  
 
 Pero las existencias no siempre llegan a un ritmo constante. A veces, los productos se compran en grandes cantidades por lo que la empresa puede obtener un mejor precio, o su departamento de producción puede fabricar un lote de un producto para conseguir un menor precio de coste unitario. Así los productos no se volverán a recibir en el almacén durante algún tiempo y el almacén necesita mover productos periódicamente a las ubicaciones de picking desde las áreas de almacenamiento masivas.  
@@ -26,7 +27,8 @@ También es posible que el almacén espere pronto la llegada de nuevas existenci
 
 Finalmente, si ha definido sus ubicaciones de almacenamiento masivo con un tipo de ubicación sólo con la acción **Ubicar**, es decir, que el tipo de ubicación no tiene activada la acción **Picking**, siempre debe mantener las ubicaciones de picking llenas, ya que no se sugerirá un picking de existencias desde ubicaciones de tipo Ubicación.  
 
-## <a name="to-replenish-pick-bins"></a>Para reponer ubicaciones de picking  
+## <a name="to-replenish-pick-bins"></a>Para reponer ubicaciones de picking
+
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo mov.** y, a continuación, elija el vínculo relacionado.  
 2.  Elija la acción **Calcular reposición ubicación** para abrir la página de solicitud de informes.  
 3.  Rellene la página del proceso para limitar el alcance de las sugerencias de reposición que se calcularán. Por ejemplo, puede que esté preocupado por determinadas zonas, ubicaciones o productos.  
@@ -45,12 +47,15 @@ La próxima vez que calcule la reposición de la ubicación, se volverán a crea
 >   
 >  los campos **Desde zona** y **Desde ubicación** estarán en blanco, ya que el algoritmo para calcular desde dónde se van a mover los productos sólo se ejecuta al activar la función **Crear movimiento**.  
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/move-items/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Realización de picking por el FEFO](warehouse-picking-by-fefo.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de Warehouse Management](warehouse-setup-warehouse.md) 
-[Administración de ensamblados](assembly-assemble-items.md)
+[Inventario](inventory-manage-inventory.md)  
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
+[Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

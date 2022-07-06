@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 1
 ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: 1adf94a191b2e0514f7a7435ac1807ca19498b14
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 5de13d4f6e625db0d0871a3f7a94f62d726abc8f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626244"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077715"
 ---
 # <a name="company-information-overview"></a>Resumen de la información de la empresa
 
@@ -35,10 +35,15 @@ Si su [!INCLUDE [prod_short](includes/prod_short.md)] incluye varias empresas, e
 
 La experiencia de usuario predeterminada en una prueba de [!INCLUDE [prod_short](includes/prod_short.md)] no revela todas las capacidades. Puede activar la experiencia completa en la página **Información de la empresa**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Inicio rápido Información empresa](quick-start-company-information.md)  
 [Configurar la información de la empresa en Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

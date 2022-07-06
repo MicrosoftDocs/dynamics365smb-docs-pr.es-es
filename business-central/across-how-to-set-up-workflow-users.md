@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522383"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075139"
 ---
 # <a name="set-up-workflow-users"></a>Configurar usuarios de flujo de trabajo
 
@@ -44,7 +44,9 @@ Los usuarios del flujo de trabajo que funcionan como usuarios de aprobación, ta
 6. Repita el paso 5 para añadir más usuarios de flujo de trabajo al grupo de usuarios.  
 7. Repita los pasos del 2 al 6 para añadir más grupos de usuarios de flujo de trabajo.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
 [Configurar flujos de trabajo](across-set-up-workflows.md)  

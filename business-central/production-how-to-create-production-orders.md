@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 814770db81744306120445a509325cff8502041d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b47525b8f552cb4446497a0edafa7661aa25f17b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516853"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074713"
 ---
 # <a name="create-production-order-headers"></a>Crear cabeceras de orden de producción
 
@@ -31,7 +31,7 @@ En el siguiente procedimiento, se crea una orden de producción planificada en f
 3. En el campo **N.º**, inserte el número siguiente de la serie.  
 4. En el campo **Tipo procedencia mov.**, seleccione la procedencia del movimiento de la orden de producción.
 
-Aquí puede seleccionar producir para una familia de productos. Para obtener más información, consulte [Trabajar con familias de producción](production-how-work-family.md).
+    Aquí puede seleccionar producir para una familia de productos. Para obtener más información, consulte [Trabajar con familias de producción](production-how-work-family.md).
 5. En el campo **Cód. procedencia mov.**, seleccione el código de producto, familia o cabecera de venta para el cual se va a generar la orden de producción.  
 6. Rellene los campos **Cantidad** y **Fecha vencimiento** según sus especificaciones.  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511563"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078027"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configurar el seguimiento de productos con números de serie, de lote y de paquete
 
@@ -85,10 +85,12 @@ Para habilitar el seguimiento de productos, primero debe asignar los códigos de
 3. En la ficha desplegable **Seguimiento de producto**, asigne los códigos de seguimiento de productos apropiados y elija el **Código de seguimiento del producto**, los **Números de serie**, y los **Números de lote**.
     1. También puede crear un nuevo código de seguimiento de producto seleccionando la acción **Nuevo**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/prepare-item-tracking/)
 
-[Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md)
-[Seguimiento de productos con seguimiento de productos](inventory-how-to-trace-item-tracked-items.md)  
+## <a name="see-also"></a>Consulte también .
+
+[Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
+[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)  
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  

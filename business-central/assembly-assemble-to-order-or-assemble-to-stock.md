@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517009"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075972"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
+
 Los artículos de montaje se pueden suministrar en los dos procesos siguientes:  
 
 -   Ensamblar para pedido  
 -   Ensamblar para stock.  
 
-## <a name="assemble-to-order"></a>Ensamblar para pedido  
+## <a name="assemble-to-order"></a>Ensamblar para pedido
+
 Utilice normalmente *ensamblar para pedido* para los artículos que no desea llevar porque espera personalizarlos según lo solicitado por el cliente o porque desee minimizar el coste que incluye del inventario. La funcionalidad incluye:  
 
 -   Capacidad de personalizar los artículos de montaje al realizar un pedido de venta.  
@@ -43,7 +45,8 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 
  Para activar este proceso, el campo de **Directiva de ensamblado** en la ficha del artículo debe ser **Ensamblar para pedido**.  
 
-## <a name="assemble-to-stock"></a>Ensamblar para stock.  
+## <a name="assemble-to-stock"></a>Ensamblar para stock.
+
  Se utiliza normalmente *Ensamblar para stock* para los artículos que se desea ensamblar antes de la venta, como para prepararse para una campaña de equipo, y mantenerlo en stock hasta que se soliciten. Estos artículos suelen ser estándar, como equipos embalados que no ofrecen personalización según las solicitudes de cliente.  
 
  En el proceso del ensamblar para stock, el artículo se ensamble sin demanda de venta inmediata y se mantiene en existencias en el almacén como producto de inventario para la venta o el consumo posterior como subelemento. Para obtener más información, consulte [Ensamblar productos](assembly-how-to-assemble-items.md). De ese momento, el artículo se prepara y se procesa como único artículo y se considera un producto terminado.  
@@ -55,7 +58,8 @@ Cuando se introduce un artículo de ensamblar para pedido en una línea de venta
 
  Para activar este proceso, el campo **Directiva de ensamblado** en la ficha del artículo debe ser **Ensamblar para stock**.  
 
-## <a name="combination-scenarios"></a>Escenarios de combinación  
+## <a name="combination-scenarios"></a>Escenarios de combinación
+
  Un principio general de la administración de ensamblados es que cuando están agrupadas en una línea del pedido de venta, las cantidades de ensamblar para pedido se deben enviar antes de las del inventario.  
 
  Si un pedido de ensamblado está vinculado a una línea del pedido de venta, el valor del campo **Cdad. en ensamblar para pedido** en la línea del pedido de venta se copia al campo **Cantidad a ensamblar** mediante el campo **Cantidad** de la cabecera del pedido de ensamblado. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -91,7 +95,9 @@ En función de este ejemplo, sólo se puede modificar el campo **Cantidad a ensa
 - La cantidad mínima que puede introducir es 1. Esto se debe a que debe ensamblar al menos una unidad para poder vender las cuatro unidades, si se asume que las tres restantes están disponibles en el inventario.  
 - La cantidad máxima que puede introducir es 4. Así se garantiza que no ensamble más de este artículo de ensamblar para pedido de lo que se necesita en la venta.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  

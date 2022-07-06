@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: a51175dc5dd124b58ef92e87ab6874f04e4bea41
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144884"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076960"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Descripción general de Inteligencia empresarial e informes
 
@@ -30,14 +30,16 @@ Las pequeñas y medianas empresas responden con análisis e informes integrados 
 | Aprenda a integrar herramientas de inteligencia de negocios externas con [!INCLUDE[prod_short](includes/prod_short.md)].| [Herramientas de Business Intelligence externas](reports-external-analysis.md) |
 |Aprenda a modificar diseños de informes o incluso a desarrollar sus propios informes desde cero. |[Desarrollo de informes](reports-develop-reports.md)|
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
 
-[Usar informes en el trabajo diario](reports-use-reports.md)
-[Descripción general del informe](reports-available-reports.md)
-[Análisis de datos ad hoc](reports-adhoc-analysis.md)
-[Analítica integrada](reports-built-in-analytics.md)
-[Herramientas de Business Intelligence externas](reports-external-analysis.md)
-[Desarrollo de informes](reports-develop-reports.md)
+## <a name="see-also"></a>Consulte también .
+
+[Usar informes en el trabajo diario](reports-use-reports.md)  
+[Descripción general de informe](reports-available-reports.md)  
+[Análisis de datos ad hoc](reports-adhoc-analysis.md)  
+[Análisis integrados](reports-built-in-analytics.md)  
+[Herramientas de Business Intelligence externas](reports-external-analysis.md)  
+[Desarrollo de informes](reports-develop-reports.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

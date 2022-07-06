@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 337900111388e086e27a2d388843d4e1ab052eb6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec81b14510d89729f7c51f95a3907db38e3876ea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518238"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075946"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Métodos de amortización de activos fijos
 
@@ -300,10 +300,12 @@ Cuando introduzca un movimiento en B1 del diario general de activos fijos y acti
 > [!NOTE]  
 > No puede utilizar la misma serie de numeración en los diarios generales de activos fijos y en los diarios de activos fijos. Al registrar movimientos en los diarios generales de activos fijos, debe dejar en blanco el campo **Nº documento**. Si introduce un número en el campo, el número se duplica en el diario de activos fijos. También tendrá que modificar manualmente el número de documento para poder registrar el diario.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Activos fijos](fa-manage.md)  
-[Configurar activos fijos](fa-setup.md)  
+[Configuración de activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

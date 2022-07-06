@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9860ebc2ce7260f450dbda928ee6339c0560e0a7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b66efde55918886132def51ad898fa9e89054c02
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521129"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077350"
 ---
 # <a name="sell-items-assembled-to-order"></a>Venta de artículos ensamblados para pedido
+
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado es **Ensamblar para pedido**, no se espera que el producto se encuentre en el inventario y el campo debe ensamblarse específicamente para un pedido de venta. Cuando especifique el producto en una línea de pedido de venta, automáticamente se creará un pedido de ensamblado y se vinculará al pedido de venta.  
 
 > [!NOTE]  
@@ -28,7 +29,8 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 > [!NOTE]  
 >  El procedimiento siguiente no incluye los pasos habituales del pedido de ventas antes del paso donde introduce el producto de ensamblar para pedido en una línea de pedido de venta.  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Para vender un artículo que se ensamble para pedido  
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Para vender un artículo que se ensamble para pedido
+
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Cree un pedido de ventas. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 3.  En el campo **N.º**, introduzca un producto configurado para ensamblarse para pedido.  
@@ -52,7 +54,7 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
     >   
     >  En la cabecera de pedidos de ensamblado vinculados, solo el campo **Fecha inicial** se puede cambiar para permitir a los empleados de ensamblado especificar una fecha que sea anterior a la fecha de vencimiento en la que comenzarán el proceso. Todos los campos de las líneas del pedido de ensamblado vinculado pueden cambiar de forma que los empleados del almacén puedan introducir las cifras de consumo durante el proceso.  
 
-8.  Revise o reaccione a incidencias de disponibilidad de componentes. Por ejemplo, seleccione un producto sustitutivo disponible o establezca una fecha de vencimiento posterior.  
+8.  Revise o reaccione a incidencias de disponibilidad de componentes. Por ejemplo, seleccione un artículo sustituto disponible.  
 9. Cierre la página **Ensamblar para líneas de pedido**. El pedido de ensamblado vinculado ahora está preparado para comenzar a ensamblar los productos personalizados por fecha de vencimiento.  
 10. En el pedido de venta, seleccione la acción **Lanzar** para notificar al departamento de ensamblado que el proceso de ensamblado puede comenzar.  
 11. En el departamento de ensamblado, realice los pasos de ensamblado de los productos que se venden en este procedimiento. Para obtener más información, consulte [Ensamblar productos](assembly-how-to-assemble-items.md).  
@@ -60,7 +62,10 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 > [!NOTE]  
 > Tenga en cuenta que las sustituciones de productos no harán que un producto sea reemplazado automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible para usted.
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Inventario](inventory-manage-inventory.md)  

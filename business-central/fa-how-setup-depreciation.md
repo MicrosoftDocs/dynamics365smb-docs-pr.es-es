@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: e70b14b5344acd9b59034b5847455417b8225182
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518212"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079199"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurar la amortización de los activos fijos
 
@@ -40,6 +40,7 @@ En un libro de amortización de activos puede especificar la forma en que se amo
 Por ejemplo, si se deshace de un activo fijo donde el libro de amortización no especifica el redondeo, pero la configuración de contabilidad de la empresa requiere redondeo, entonces, cuando se deshaga del activo fijo, verá un mensaje de error que indica que se debe redondear una cantidad en un movimiento.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Para asignar un libro de amortización a un activo fijo
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
 2. Seleccione el activo fijo para el que desee configurar un libro de amortización de activos fijos.
 3. En la ficha desplegable **Ficha libros amortización**, rellene los campos según sea necesario.
@@ -53,6 +54,7 @@ Por ejemplo, si se deshace de un activo fijo donde el libro de amortización no 
     > Cuando utiliza el método de amortización definido por el usuario, debe asignar el libro de amortización de una manera diferente. Para más información, vea [Configurar el método de amortización definido por el usuario](fa-how-setup-user-defined-depreciation-method.md).
 
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Para asignar un libro de amortización a varios activos con un solo proceso
+
 Si desea asignar un libro de amortización a varios activos fijos, puede utilizar el proceso **A/F Crear libros amortización** para crear los libros necesarios de activos fijos.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
@@ -66,6 +68,7 @@ Si desea asignar un libro de amortización a varios activos fijos, puede utiliza
 7. Elija el botón **Aceptar**.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>Para configurar los tipos de registro de amortización
+
 Para cada libro de amortización, debe configurar el modo en que desea que [!INCLUDE[prod_short](includes/prod_short.md)] administre los distintos tipos de registro. Por ejemplo, si el registro debe ser débito o abono, y si el tipo de registro se debe incluir en la base de amortización.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libros amortización** y luego elija el enlace relacionado.  
@@ -78,6 +81,7 @@ Para cada libro de amortización, debe configurar el modo en que desea que [!INC
 Se recomienda que no cambie la configuración de los libros de amortización de los movimientos que ya se han registrado. Los cambios no afectarán a los movimientos ya registrados, lo que provocaría estadísticas del libro de amortización erróneas.
 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Para configurar las plantillas y los procesos predeterminados para la amortización de activos
+
 Puede definir para cada libro de amortización una configuración predeterminada para libros y secciones. Estos valores predeterminados se usan para duplicar líneas de un diario a otro, crear líneas de diario con los procesos **Calcular amortización** o **Ajustar valores activos fijos** o duplicar los costes de adquisición en el diario de seguros.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libros amortización** y luego elija el enlace relacionado.  
@@ -91,9 +95,11 @@ Cuando el proceso Calcular amortización calcula las amortizaciones, el proceso 
 
 Si selecciona este campo, el proceso Calcular amortización utiliza un calendario de 365 en el que cada mes se calcula con el mismo número de días que en el calendario. La única excepción es el febrero en años bisiestos, que el proceso trata como que tiene 28 días en lugar de 29. Por eso, todos los años, incluso los bisiestos, consta que tienen 365 días.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/configure-depreciation-books/)
 
-## <a name="see-also"></a>Consulte también
-[Configurar activos fijos](fa-setup.md)  
+## <a name="see-also"></a>Consulte también .
+
+[Configuración de activos fijos](fa-setup.md)  
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  

@@ -1,8 +1,6 @@
 ---
 title: Crear y administrar interacciones con los contactos
 description: En Business Central, las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Lea sobre las formas de crear y administrar sus contactos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6cb8696d84bf9e40d07f7f29a6c2e08b39c30b2c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b489cc9977b6711de8c5851ea7c95899c6dfaf14
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135165"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074749"
 ---
 # <a name="managing-interactions-with-your-contacts"></a>Administración de las interacciones con los contactos
 En [!INCLUDE[prod_short](includes/prod_short.md)], las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Por ejemplo, pueden ser por correo electrónico, carta, teléfono, reuniones, etc.

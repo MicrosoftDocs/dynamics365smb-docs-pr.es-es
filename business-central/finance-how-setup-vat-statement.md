@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383702"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075530"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Configurar tipos de declaración de IVA y nombres de declaración de IVA
 
@@ -45,10 +45,12 @@ Después de definir una declaración de IVA, puede obtener una vista previa de e
 4. En las líneas cuyo campo **Tipo** contenga **Total mov. IVA**, podrá ver una lista de los movimientos de IVA al seleccionar el importe del campo **Importe columna**.
 5. Puede usar la personalización para mostrar más campos en las líneas. Por ejemplo, el importe base no realizado y el importe de IVA no realizado, si está utilizando el IVA no realizado.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)  
-[Configuración del impuesto sobre el valor añadido no realizado](finance-setup-unrealized-vat.md)      
+[Configuración del impuesto sobre el valor añadido no realizado](finance-setup-unrealized-vat.md)  
 [Crear informes de IVA para la autoridad fiscal](finance-how-report-vat.md)  
 [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)  
 [Funcionalidad local en Business Central](about-localization.md)

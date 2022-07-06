@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515516"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077272"
 ---
 # <a name="set-up-locations"></a>Configurar ubicaciones
 
@@ -27,6 +27,7 @@ Así podrá crear las líneas de documento para un almacén específico, consult
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Fichas de almacén
+
 Debe especificar la información sobre ubicaciones, como un almacén o un centro de distribución, en la **Tarjeta de almacén**. Proporcione un nombre y un código que represente a cada almacén. A continuación, puede introducir el código de almacén en otras partes del sistema cuando desee registrar transacciones de un almacén determinado.  
 
 Puede introducir información sobre ubicaciones y políticas de almacén para cada almacén. Basándose en las políticas de almacén que seleccione, puede utilizar las opciones de la ficha desplegable **Ubic**. para definir las ubicaciones que se utilizarán como genéricas al realizar transacciones. Si utiliza almacenamiento y selección directos, puede usar la mayoría de las opciones de la ficha desplegable **Políticas ubic.** para definir cómo desea utilizar las diversas funcionalidades ampliadas de almacén.  
@@ -76,9 +77,12 @@ Si desea estructurar sus ubicaciones en zonas, puede hacerlo en la página **Zon
 No obstante, puede configurar sólo una zona y organizar el almacén según ubicaciones independientes. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Dimensiones predeterminadas para ubicaciones
+
 Establece las dimensiones predeterminadas para una ubicación en la página **Tarjeta de ubicación** eligiendo **Ubicación**, y luego **Dimensiones**. Las dimensiones predeterminadas de la ubicación se copian en diarios y documentos cuando especifica la ubicación en una línea, pero puede eliminar o cambiar la dimensión en la línea si es necesario. Puede solicitar que las personas especifiquen dimensiones para ubicaciones específicas antes de que puedan publicar una entrada. También puede incluir valores de dimensión de ubicación en **Prioridades de dimensión predeterminadas** y **Combinaciones de dimensiones** para combinaciones de reglas de prioridad y dimensión.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  

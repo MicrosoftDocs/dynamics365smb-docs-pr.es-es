@@ -8,14 +8,15 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626400"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074697"
 ---
 # <a name="create-jobs"></a>Crear proyectos
+
 Cuando inicie un proyecto nuevo, debe crear una ficha de proyecto con tareas de proyecto integradas y líneas de planificación de proyecto, estructuradas en dos niveles.  
 
 La primera capa consta de tareas de proyecto. Debe crear al menos una tarea de proyecto por cada proyecto porque todos los registros hacen referencia a una tarea de proyecto. Tener al menos una tarea de proyecto en su proyecto le permite configurar líneas de planificación de proyecto y registrar el consumo en el proyecto.
@@ -34,6 +35,7 @@ A veces, la parte a la que recibe un servicio es diferente de la parte que paga 
 * Sobrescriba los términos financieros estándar del proyecto.
 
 ## <a name="to-create-a-job-card"></a>Para crear una ficha de proyecto
+
 Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proyecto y las líneas de planificación de proyecto para el mismo.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
@@ -44,6 +46,7 @@ Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proy
 >   Si utiliza las hojas de horas con su proyecto, también debe designar una persona responsable. Esta persona puede aprobar las hojas de horas para las tareas de empleados asociadas con el proyecto. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Para crear tareas para un proyecto
+
 Una parte clave de la creación de un proyecto es especificar las diversas tareas que conlleva. Para especificar tareas, debe crear una línea por tarea en la ficha desplegable **Tareas** de la página **Ficha de proyecto**. Cada proyecto debe tener al menos una tarea.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.
@@ -54,6 +57,7 @@ Una parte clave de la creación de un proyecto es especificar las diversas tarea
 6. Para especificar las tareas de proyecto con la información sobre otras tareas de proyecto, elija la acción **Copiar tareas de proyecto desde**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Para crear líneas de planificación de un proyecto
+
 Puede redefinir las nuevas tareas de proyecto como líneas de planificación de proyecto. Una línea de planificación puede capturar la información de un proyecto que desee supervisar. Por ejemplo, puede realizar un seguimiento de los recursos que requiere el proyecto o los productos que se necesitan. Por ejemplo, tiene una tarea para lograr que un cliente apruebe un proyecto. Puede asociar esa tarea con líneas de planificación para productos como reuniones con clientes y asignar un recurso.  
 
 Una línea de planificación de un proyecto puede ser de uno de los siguientes tipos.  
@@ -73,7 +77,9 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 4. En la página **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
 5. Repita los pasos 3 y 4 para todas líneas de planificación que necesita para la tarea de proyecto.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-new-job/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Administración de proyectos](projects-manage-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

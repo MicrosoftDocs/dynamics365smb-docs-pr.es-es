@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: de00eb7e96e2903872a3ef312d096bd91d97577d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 565654d8f7a4dd38aceccbcc39e722bad89bf67e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142060"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077611"
 ---
 # <a name="set-up-finance-charge-terms"></a>Configurar términos interés
 
@@ -67,6 +67,8 @@ Además, cada término de la tabla Términos interés está vinculado a la subta
 |%7|Importe total del recordatorio.|  
 |%8|Contenido del campo **Código divisa** en la cabecera del documento de interés|  
 |%9|Contenido del campo **Fecha registro** en la cabecera del documento de interés|  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Consulte también .
 

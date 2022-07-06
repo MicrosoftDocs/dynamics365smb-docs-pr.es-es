@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5af803495f90590e288ad3d4e919995bb60e06b2
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 7ad15181a1dc25f8b3ee923a62f5b4c553f965b2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626608"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078913"
 ---
 # <a name="ship-items"></a>Enviar productos
 
@@ -106,11 +106,13 @@ También puede utilizar la hoja de trabajo de picking para crear varias instrucc
 > [!NOTE]
 > Si espera que se reciban documentos de origen productos en el almacén y utiliza la funcionalidad de tránsito directo, [!INCLUDE[prod_short](includes/prod_short.md)] calcula, en cada línea de la hoja de trabajo de picking o envío, la cantidad de producto que está en la ubicación de tránsito directo. Este campo se actualiza cada vez que abandona y abre el documento de envío o la hoja de trabajo. Para obtener más información, consulte [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
 
-[Gestión de almacenes](warehouse-manage-warehouse.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
+## <a name="see-also"></a>Consulte también .
+
+[Warehouse Management](warehouse-manage-warehouse.md)  
+[Inventario](inventory-manage-inventory.md)  
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

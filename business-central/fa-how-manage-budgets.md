@@ -10,19 +10,21 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1244fa4e0062a5f7b9586eba125fb0fa1a050ee1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c23881a80761a9c5ffe229b6299c320c39fc3f85
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523532"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079225"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gestionar presupuestos de los activos fijos
+
 Puede configurar activos fijos presupuestados. Por ejemplo, esto le permite incluir adquisiciones y ventas anticipadas en los informes.  
 
 Para preparar sus presupuestos de ingresos, presupuestos de cuentas de balance y el presupuesto de caja, necesitará información acerca de las inversiones futuras, ventas/bajas y amortización de activos fijos. Puede obtener esta información desde el informe **A/F - Proyección amort**. Antes de imprimir este informe, debe preparar el presupuesto.  
 
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>Para presupuestar el coste de un activo
+
 Para preparar presupuestos, necesita configurar fiches de activos para los activos que quiera comprar en el futuro. Los activos fijos presupuestados se configuran como activos normales, pero deben configurarse para que no se registren en el libro mayor.
 
 Al registrar el coste, introduzca el número de activos presupuestados en el campo **A/F N.º pptdo.** Esto provocará que se registre un coste con signo inverso en el activo presupuestado. Significa que el coste total del activo presupuestado es la diferencia entre el coste presupuestado y el real.
@@ -33,6 +35,7 @@ Al registrar el coste, introduzca el número de activos presupuestados en el cam
 4. Rellene los campos restantes, asigne un libro de amortización y, a continuación, registre el primer coste con el activo presupuestado especificado en el campo **A/F N. º pptdo.** en la línea del diario. Para obtener más información, vea [Adquirir activos fijos](fa-how-acquire.md).
 
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>Para presupuestar la venta/baja de un activo fijo
+
 Si desea vender activos en el periodo de presupuesto, puede especificar información acerca del precio y fecha de venta.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
@@ -40,6 +43,7 @@ Si desea vender activos en el periodo de presupuesto, puede especificar informac
 3. En la página **Libros amortización A/F**, rellene los campos **Fecha prevista venta/baja** y **Ingresos previstos venta/baja**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Para ver valores venta/baja previstos
+
 Para ver los valores venta/baja previstos y que se calculen las ganancias y pérdidas, puede usar el informe **Proyección de la amortización A/F**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyección de la amortización A/F**, y luego elija el enlace relacionado.
@@ -47,6 +51,7 @@ Para ver los valores venta/baja previstos y que se calculen las ganancias y pér
 3. Haga clic en el botón **Imprimir** o **Vista previa**.
 
 ## <a name="to-budget-depreciation"></a>Para presupuestar amortización
+
 Puede usar el informe **A/F - Proyección amort.** para calcular la amortización futura. El informe muestra el valor neto y la amortización acumulada al principio del periodo seleccionado, los cambios durante el periodo y el valor neto y la amortización acumulada al final del periodo seleccionado.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Valor proyectado de activo fijo** y luego elija el enlace relacionado.
@@ -55,9 +60,12 @@ Puede usar el informe **A/F - Proyección amort.** para calcular la amortizació
 4. Deje en blanco la ficha desplegable **Activo** para incluir todos los activos. En el campo **Activo presupuestado**, puede especificar **No** para excluir los activos presupuestados o **Sí** para ver solo los activos presupuestados.
 5. Haga clic en el botón **Imprimir** o **Vista previa**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/budget-fixed-assets/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Activos fijos](fa-manage.md)  
-[Configurar activos fijos](fa-setup.md)  
+[Configuración de activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 609678742ccf9593407e96ea412a377f37c8abf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c0800642804b8e8c9e1dc629224bfac77b174500
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525226"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075738"
 ---
 # <a name="working-with-excel-layouts"></a>Trabajar con diseños de Excel
 
@@ -143,10 +143,10 @@ Para resumir lo que puede y no puede hacer en la hoja **Datos**:
 [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md)  
 [Importar y exportar un diseño de informe o documento personalizado](ui-how-import-and-export-report-layout.md)  
 [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
-[Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md) 
+[Preparar Financial Reporting con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)  
 [Inteligencia empresarial](bi.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Análisis de datos de informes con Excel](report-analyze-excel.md).
+[Análisis de datos de informes con Excel](report-analyze-excel.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

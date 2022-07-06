@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: b19471cc3833c642ee65dc262fd5ca6cc1a57492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e5f98a7851702f95b627e69544eb181d3d0d5206
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520183"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077923"
 ---
 # <a name="power-bi--faq"></a>Preguntas más frecuentes de Power BI
 
@@ -250,15 +250,17 @@ Algunas páginas de API, incluida la mayoría de las páginas de API v2.0, tiene
 
 ---
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
 
-[Licencia de Power BI](admin-powerbi-setup.md#license)
+## <a name="see-also"></a>Consulte también .
+
+[Licencias de Power BI](admin-powerbi-setup.md#license)  
 [Introducción a Business Central y Power BI](admin-powerbi.md)  
 [Información general sobre integración de Power BI](admin-powerbi-overview.md)  
 [Habilitación de Power BI en Business Central](admin-powerbi-setup.md)  
 [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md)  
 [Trabajar con datos de Business Central en Power BI](across-working-with-business-central-in-powerbi.md)  
-[Creación de informes de Power BI para mostrar datos de Business Central](across-how-use-financials-data-source-powerbi.md)    
+[Creación de informes de Power BI para mostrar datos de Business Central](across-how-use-financials-data-source-powerbi.md)  
 [Documentación de Power BI](/power-bi/)  
 
 

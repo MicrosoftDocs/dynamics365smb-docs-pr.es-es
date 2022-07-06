@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 4fcc6d93c234e6c7a5b7b62514f53157878fee81
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805235"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079433"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -79,7 +79,9 @@ Una vez que se ha creado una empresa, no puede cambiar su nombre. Pero puedes ca
 
 La aplicación Contoso Coffee proporciona datos de demostración que pueden ayudarle a explorar las capacidades avanzadas de [!INCLUDE [prod_short](includes/prod_short.md)]. Encuentre la aplicación en AppSource e instálela en una empresa vacía, por ejemplo, una empresa en un entorno de espacio aislado. Para obtener más información, consulte [Introducción a los datos de demostración de Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Personalizar Business Central](ui-customizing-overview.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
@@ -87,5 +89,6 @@ La aplicación Contoso Coffee proporciona datos de demostración que pueden ayud
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Comprender la infraestructura de Business Central Online (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

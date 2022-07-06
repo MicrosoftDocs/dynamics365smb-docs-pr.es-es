@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 320a5315f569deeec8c86ce8246497f171fbb853
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5271203a9936f268e23df9b8e38a2373d875e5f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517399"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076492"
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurar unidades de almacenamiento
+
 Utilice unidades de almacenamiento para registrar información sobre los productos de un determinado almacén o código de variante.  
 
 Las unidades de almacenamiento vienen a complementar las fichas del producto. No los reemplazan, aunque guardan cierta relación con ellos. Estas unidades le permiten distinguir información sobre un producto de un determinado almacén, como un almacén o un centro de distribución, o de una determinada variante, como distintos códigos de situación e información de reposición.  
@@ -39,10 +40,13 @@ Para crear varias unidades de almacenamiento para un producto, utilice el proces
 > Si UA se suministra a través de producción, el campo **Coste estándar** no se usa al facturar y ajustar el coste real del producto fabricado. En su lugar, el campo **Coste estándar** de la ficha subyacente de producto se utiliza, y cualquier desviación se calcula con el reparto de costes de dicho producto.<br /><br />
 > Porque las L.M. y ruta no se pueden asignar a UA, la distribución del coste unitario y el cálculo relacionado de la parte de costes tampoco están disponibles en UA. Para obtener más información, consulte [Acerca de Calcular el coste estándar](finance-about-calculating-standard-cost.md)
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Configurar la gestión del almacén](warehouse-setup-warehouse.md)  
-[Gestión de almacenes](warehouse-manage-warehouse.md)  
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)    
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  

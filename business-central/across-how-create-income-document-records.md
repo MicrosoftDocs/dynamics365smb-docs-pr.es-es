@@ -1,71 +1,79 @@
 ---
 title: Crear registros de documento entrantes
 description: Utilice diferentes funciones en la página Documentos entrantes para revisar recibos de gastos, administrar tareas de OCR, convertir archivos de documentos entrantes y adjuntar archivos externos.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/11/2021
+ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 4244801207874f1629d59d4b3a66de98fb9d2bed
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9c8bf606d7f4e421bd2819d804b6b5aac780b652
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522411"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079407"
 ---
 # <a name="create-incoming-document-records"></a>Crear registros de documento entrantes
+
 En la página **Documentos entrantes**, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes.
 
-Para registrar un documento externo en [!INCLUDE[prod_short](includes/prod_short.md)], debe crear o completar un registro de documento entrante. Puede hacerlo manualmente o tomar una foto del documento externo y crear el registro de documento entrante con el archivo de imagen adjunto.
+Para registrar un documento externo en [!INCLUDE[prod_short](includes/prod_short.md)], cree primero un registro de documento entrante. Puede hacer estas tareas manualmente o tomar una foto del documento externo para crear el registro de documento entrante con el archivo de imagen adjunto.
 
-Para poder usar la función Documentos entrantes, debe realizar la configuración necesaria. Para obtener más información, vea [Configurar documentos entrantes](across-how-setup-income-documents.md).
+Para poder usar la función **Documentos entrantes**, debe realizar la configuración necesaria. Para obtener más información, vea [Configurar documentos entrantes](across-how-setup-income-documents.md).
 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Para aprobar o rechazar un documento entrante
-Si desea que los usuarios creen facturas o líneas de diario general a partir de los registros de documento entrante a menos que se aprueben, puede configurar aprobadores que deben aprobar los registros antes de que se puedan procesar.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.
+Si ha configurado la característica **Documentos entrantes** para requerir aprobación para crear documentos, los usuarios con los derechos adecuados deben aprobar los registros antes de que se procesen. Para más información, vea [Configurar aprobadores de registros de documentos entrantes](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.
 2. Seleccione la línea con el documento que desea aprobar o rechazar y, a continuación, elija las acciones **Aprobar** o **Rechazar**.
 
 Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de la línea de documento entrante. El usuario responsable de crear, por ejemplo, facturas de compra puede procesar el registro.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Para crear un registro de documento entrante tomando una foto
-> [!NOTE]  
->   El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. En la barra de aplicaciones, seleccione el mosaico **Crear documento entrante desde la cámara** y, a continuación, vaya al paso 4.
-2. O bien, en la barra de aplicaciones, seleccione el botón de opciones, elija **Documentos entrantes** y, a continuación, elija **Todo**.
-3. En la página **Documentos entrantes**, elija el botón de puntos suspensivos y seleccione **Crear desde la cámara**. La cámara de la tableta o del teléfono se activará.
-4. Tome una foto de un documento, como un albarán de compra, que desee procesar como documento entrante y, a continuación, seleccione el botón **Aceptar**.
+> [!NOTE]  
+> El procedimiento siguiente solo se aplica a los clientes de tabletas y teléfonos de [!INCLUDE[prod_short](includes/prod_short.md)].
+
+1. En el centro de roles, seleccione el mosaico **Crear documento entrante desde la cámara** y, a continuación, vaya al paso 4.
+2. Alternativamente, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.
+3. En la página **Documentos entrantes**, elija **Nuevo** y luego **Crear desde la cámara**. La cámara de la tableta o del teléfono se activará.
+4. Tome una foto de un documento, como un albarán de compra, que desee procesar como documento entrante y, a continuación, seleccione el botón **Usar**.
 
     Se crea un nuevo registro de documento entrante con la imagen adjunta.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Para adjuntar una imagen en un registro de documento entrante
-> [!NOTE]  
->   El procedimiento siguiente solo se aplica a los clientes de teléfonos y tabletas de [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. En la barra de aplicaciones, elija el botón opciones, seleccione **Documentos entrantes** y, a continuación, elija **Todo**.
+> [!NOTE]  
+> El procedimiento siguiente solo se aplica a los clientes de tabletas y teléfonos de [!INCLUDE[prod_short](includes/prod_short.md)].
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.
 2. Abra la ficha de un registro entrante de documento entrante existente.
-3. En la página **Documento entrante**, elija el botón de puntos suspensivos y seleccione **Adjuntar imagen desde la cámara**. La cámara de la tableta o del teléfono se activará.
-4. Tome una foto de un documento, como un albarán de compra, que desee procesar como documento entrante y, a continuación, seleccione el botón **Aceptar**.
+3. En la página de registro de documentos, elija **Procesar** y, luego, **Adjuntar imagen desde la cámara**. La cámara de la tableta o del teléfono se activará.
+4. Tome una foto de un documento, como un albarán de compra, que desee procesar como documento entrante y, a continuación, seleccione el botón **Usar**.
 
     La imagen se adjunta al registro de documento entrante.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Para crear un registro de documento entrante manualmente
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.
-2. Elija la acción **Crear desde archivo**.  
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.
+2. Elija la acción **Nuevo** y, a continuación, la acción **Crear desde archivo**.  
 3. En la página **Insertar archivo**, seleccione un archivo y, a continuación, elija **Abrir**. El campo se adjunta automáticamente.
 4. De forma alternativa, elija la acción **Nuevo**.
-5. Para adjuntar un archivo, elija la acción **Adjuntar archivo**.
+5. Para adjuntar un archivo, elija **Procesar** y luego la acción **Adjuntar archivo**.
 6. En la página **Insertar archivo**, seleccione el archivo que representa el documento entrante en cuestión y, a continuación, elija el botón **Abrir**.
 7. En la página **Documento entrante**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Consulte también
-[Procesar documentos entrantes](across-process-income-documents.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
+[Usar OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md)
+[Crear registros de documentos entrantes directamente desde documentos y movimientos](across-how-connect-disconnect-income-document-records.md)
+[Buscar documentos publicados sin registros de documentos entrantes](across-how-find-posted-documents-without-income-document-records.md)
 [Documentos entrantes](across-income-documents.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

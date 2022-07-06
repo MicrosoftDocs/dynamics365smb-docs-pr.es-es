@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: f36d255c555c9ac83205a675bc7647cb02e0b3c2
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.openlocfilehash: e501f61f61aec9d9ffc4acd9607ee6b9cf22e74f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419631"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074905"
 ---
 # <a name="set-up-currencies"></a>Configuración de divisas
 
@@ -85,9 +85,9 @@ Para administrar las divisas que no utilizan decimales y evitar su uso innecesar
 
 - Redondeo de importe  
 
-Estas características pueden utilizarse de forma independiente o combinarse entre sí. También pueden utilizarse en combinación con la característica de redondeo de facturas.
+Estas funciones pueden utilizarse de forma independiente o combinarse entre sí. También pueden utilizarse en combinación con la función de redondeo de facturas.
 
-A diferencia de las características de redondeo de facturas, las funciones de redondeo de importe y precio-producto solo afectan a los importes en divisas extranjeras-no a los importes correspondientes en divisas locales. Estas dos características no dan lugar a ningún registro en las cuentas de contabilidad. Como consecuencia, no es necesario especificar ninguna cuenta en los grupos contables ni en ninguna otra sección.
+A diferencia de las funciones de redondeo de facturas, las funciones de redondeo de importe y precio-producto sólo afectan a los importes en divisas extranjeras-no a los importes correspondientes en divisas locales. Estas dos funciones no dan lugar a ningún registro en las cuentas de contabilidad. Como consecuencia, no es necesario especificar ninguna cuenta en los grupos contables ni en ninguna otra sección.
 
 ### <a name="unit-amount-rounding"></a>Redondeo precio-producto
 
@@ -117,7 +117,12 @@ Puede especificar un código de divisa en una línea de un diario general y regi
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/currencies-exchange-rates-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Consulte también .
 
 [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)  
 [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

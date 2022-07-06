@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe6f144b8513f651293f56e10ecf3020c1d0760
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 91a7b43265dbf4027c88f6fac7b79d4340f22ce1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517744"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078497"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Crear líneas de ventas y de compras periódicas
+
 Si suele necesitar crear líneas de ventas y de compras con información similar, puede configurar líneas estándar que puede insertar en documentos de ventas y compras periódicas, por ejemplo, para órdenes de reposición periódicas.  
 
 Los siguientes procedimientos muestran cómo trabajar con líneas de ventas estándar en una factura de venta. Funciona de forma similar a todos los demás documentos de venta y todos los documentos de compras.  
@@ -66,6 +67,7 @@ Si existen líneas de ventas periódicas para el cliente, puede insertarlas, o h
 5. Elija el botón **Aceptar** para insertar las líneas de ventas estándar en la factura, donde puede reutilizar la información tal como está o editarla.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Para crear varias facturas de venta basadas en líneas de ventas periódicas
+
 Puede utilizar el trabajo por lotes **Crear facturas de venta periódicas** para crear facturas de venta según las líneas de venta estándar asignadas a los clientes y con fechas de registro dentro de las fechas de inicio y fin de validez que especifique en las líneas de ventas estándar.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear facturas de venta periódicas** y, a continuación, elija el vínculo relacionado.
@@ -75,7 +77,9 @@ Puede utilizar el trabajo por lotes **Crear facturas de venta periódicas** para
 
 Las facturas de venta se crean para los clientes con el código de ventas de cliente estándar especificado y la información de domiciliación especificada, para el registro en la fecha especificada.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

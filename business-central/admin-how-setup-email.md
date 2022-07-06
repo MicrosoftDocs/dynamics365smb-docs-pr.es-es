@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950467"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041431"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
 Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden conectar una o varias cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], permitiéndole enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc., y agregar archivos adjuntos de hasta 100 MB. Además, los diseños de informes pueden permitir que los administradores incluyan solo la información clave de los documentos. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ La siguiente tabla describe las extensiones de correo electrónico que están di
 |**Conector SMTP**|Usar el protocolo SMTP para enviar mensajes de correo electrónico.|Permita las comunicaciones a través de su servidor de correo SMTP. |
 
 > [!NOTE]
-> Las extensiones de **Conector de Microsoft 365** y **Conector de usuario actual** usan las cuentas que configura para los usuarios en el centro de administración de Microsoft 365 para su suscripción a Microsoft 365. Para enviar correo electrónico utilizando las extensiones, los usuarios deben tener una licencia válida para Exchange Online. Además, estas extensiones requieren que la configuración **Permitir solicitudes HttpClient** está habilitada. Para comprobar si está habilitada para estas extensiones, vaya a la página **Administración de extensiones**, elija la extensión y luego la opción **Configurar**.
+> Las extensiones de **Conector de Microsoft 365** y **Conector de usuario actual** usan las cuentas que configura para los usuarios en el centro de administración de Microsoft 365 para su suscripción a Microsoft 365. Para enviar correo electrónico utilizando las extensiones, los usuarios deben tener una licencia válida para Exchange Online. Además, en entornos de espacio aislado, estas extensiones requieren que la configuración **Permitir solicitudes HttpClient** esté habilitada. Para comprobar si está habilitada para estas extensiones, vaya a la página **Administración de extensiones**, elija la extensión y luego la opción **Configurar**.
 
 > Los usuarios externos, como administradores delegados y contables externos, no pueden utilizar estas extensiones para enviar mensajes de correo electrónico desde [!INCLUDE[prod_short](includes/prod_short.md)].
 

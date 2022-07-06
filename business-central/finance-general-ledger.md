@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bb94f725c57f538f9d8704ba66e3d66e120d41d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510877"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079147"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Descripción de contabilidad y plan de cuentas
 
@@ -89,7 +89,9 @@ La página **Plan de cuentas** muestra las cuentas en una lista jerárquica que 
 
 En una organización pequeña, como la empresa de demostración CRONUS, la mayoría de los usuarios pueden editar el plan de cuentas, excepto los usuarios con una licencia de TEAM MEMBER. Sin embargo, en organizaciones más grandes, el acceso para editar el plan de cuentas está limitado por roles y permisos. Si es administrador o tiene el rol *Administrador de negocio* o *Contable*, puede verificar los permisos de todos los usuarios para asegurarse de que las personas adecuadas tengan acceso a las tablas relevantes. Para obtener más información, consulte [Para obtener un resumen de los permisos de un usuario](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/business-central-configure-general-ledger-setup/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Finanzas](finance.md)  
 [Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)  

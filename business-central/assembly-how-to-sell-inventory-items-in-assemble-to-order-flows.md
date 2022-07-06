@@ -10,14 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f25dab624644b028cffce5e21080910fc87dfaf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ce2494e929613d69c22d125adffb6465d1717cd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514522"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075035"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vender productos de inventario en flujos de ensamblar para pedido
+
+
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para pedido**, el proceso de pedido de venta predeterminado supone que el producto no está en el inventario y se debe ensamblar para ese pedido de venta concreto. Por tanto, se crea automáticamente un pedido de ensamblado al agregar el elemento a una línea de pedido de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md). Sin embargo, si parte de la cantidad del pedido de venta ya está disponible en el inventario, puede reducir la cantidad del pedido de ensamblado cambiando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta.  
 
 Este ejemplo es raro ya que se espera que los productos de ensamblar para pedido estén siempre personalizados y la posibilidad de que estén en el inventario con la configuración solicitada por otro cliente es baja. Sin embargo, si una empresa tiene cantidades de ensamblar para pedido en el inventario debido a devoluciones o cancelaciones de pedidos, se debe realizar el picking de estas cantidades y venderlas antes de que se ensamblen nuevas.  
@@ -32,7 +34,8 @@ Hay una funcionalidad similar disponible al vender productos de ensamblado del i
 
 En este procedimiento, se reemplazan las cantidades de ensamblar para pedido con cantidades de inventario en una línea de pedido de venta. Los pasos incluyen la detección de que existe la disponibilidad, la deducción de dicha cantidad del pedido de ensamblado vinculado y, a continuación, la reserva de la cantidad de inventario para asegurarse de que se ha realizado el picking de la misma y se ha enviado para el pedido.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Para vender productos de inventario en los flujos de ensamblar para pedido  
+## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Para vender productos de inventario en los flujos de ensamblar para pedido
+
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Cree un pedido de ventas. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).  
 3.  En una línea de pedido de venta para un artículo de ensamblar para pedido, en el campo **Cantidad**, introduzca la cantidad solicitada.  
@@ -48,7 +51,10 @@ En este procedimiento, se reemplazan las cantidades de ensamblar para pedido con
 > [!CAUTION]  
 >  El campo **Cód. ubicación** en el pedido de venta se puede llenar por anticipado de acuerdo con el campo **Cód. ubic. ensamblar para pedido** o **Cód. ubic. desde ensamblado** en la ficha de almacén. En ese caso, el campo **Cód. ubicación** de la línea de pedido de venta puede ser incorrecto en esta combinación de cantidades de ensamblar para pedido y ensamblar para stock. Es una buena idea observar el campo **Cód. ubicación** y garantizar que la ubicación es válida para todas las cantidades. También puede introducir las dos cantidades en líneas de pedido de venta distintas.  
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Reservar artículos](inventory-how-to-reserve-items.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  

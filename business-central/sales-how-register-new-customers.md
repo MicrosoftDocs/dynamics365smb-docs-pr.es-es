@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520131"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076882"
 ---
 # <a name="register-new-customers"></a>Permite registrar nuevos clientes
 
@@ -26,6 +26,7 @@ Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Agregar nuevos clientes
+
 Puede agregar nuevos clientes manualmente, completando los campos en la página **Ficha de cliente**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear plantillas para diferentes tipos de perfiles de clientes. El uso de plantillas ahorra tiempo al agregar nuevos clientes y ayuda a garantizar que la información sea correcta en todo momento. Si crea plantillas para más de un tipo de cliente, puede elegir la plantilla que utilizará cuando agregue un cliente. Si crea solo una plantilla, se utilizará para todos los clientes nuevos. Después de crear una plantilla, puede usar la acción **Aplicar plantilla** para aplicarla a uno o más clientes seleccionados. Para crear una plantilla, complete la información que desea reutilizar en la página Ficha de cliente y luego guárdela como una plantilla. Para obtener más información, consulte la sección [Para guardar la ficha de cliente como una plantilla](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template).
 
 > [!TIP]
@@ -80,7 +81,9 @@ Puede optar por no recibir advertencias que le indiquen que se excedió el lími
     |**Deuda vencida**|Se comprueba el campo **Saldo vencido** de la ficha cliente y aparece una advertencia si el cliente tiene una deuda vencida.|
     |**Ninguno**|No se muestra ninguna advertencia acerca del estado del cliente.|
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Definir las formas de pago](finance-payment-methods.md)  
 [Combinar registros duplicados](sales-how-merge-duplicate-records.md)  

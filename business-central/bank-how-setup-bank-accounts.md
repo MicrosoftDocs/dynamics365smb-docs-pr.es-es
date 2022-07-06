@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514126"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078783"
 ---
 # <a name="set-up-bank-accounts"></a>Configurar cuentas bancarias
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Introducir un saldo inicial
+
 Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimiento de cuenta bancaria con el importe en cuestión. Puede hacerlo si realiza una conciliación de bancos. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > De forma alternativa, puede implementar el saldo inicial como parte de la creación de datos generales en nuevas compañías mediante la guía de configuración asistida **Migrar datos empresariales**. Para obtener más información, vea [Preparación para hacer negocios](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimie
 > Es importante que no registre el saldo de apertura directamente en el libro mayor. Tener entradas en la cuenta de contabilidad que se registran directamente en la cuenta de contabilidad normalmente hará que no pueda conciliar la cuenta bancaria o, para cuentas bancarias en divisa extranjera, provocará que se acumulen diferencias a medida que registra más conciliaciones bancarias. A menudo, contabiliza el saldo bancario inicial directamente en la cuenta bancaria y el importe termina en la cuenta del L/M. Como alternativa, lo revierte más tarde contra una cuenta de contabilidad que utilice para equilibrar el saldo inicial del libro mayor. En ambos casos, debe equilibrar cualquier registro directo en la cuenta de contabilidad antes de iniciar su primera conciliación bancaria, especialmente si la cuenta bancaria está en una divisa extranjera.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Para configurar la cuenta para la importación o exportación de archivos bancarios
+
 Los campos relacionados con la importación y la exportación de archivos o fuentes de banco se encuentran en la ficha desplegable **Transferencia** en la página **Ficha banco**. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
@@ -240,7 +242,9 @@ Después de crear la nueva cuenta bancaria, también debe crear un nuevo grupo c
 
 Para obtener una vista más condensada de sus cuentas de caja en los informes financieros, utilice las cuentas **Principio-Total** y **Fin-Total** en su plan de cuentas, las filas **Sumatorio** en esquemas de cuentas o categorías de cuentas de contabilidad. Para obtener más información, consulte la sección [Inteligencia empresarial y Financial Reporting](bi.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Configurar banca](bank-setup-banking.md)  
 [Configurar los grupos contables](finance-posting-groups.md)  

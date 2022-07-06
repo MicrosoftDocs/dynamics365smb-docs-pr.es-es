@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 51f1e2ff31e819c8aa571335b25dc51ec61d6d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512261"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077213"
 ---
 # <a name="about-planning-functionality"></a>Sobre la funcionalidad de la planificación
 
@@ -162,7 +162,9 @@ Las líneas de la hoja de demanda contienen información detallada sobre los pro
 
 Para obtener detalles sobre la planificación con ubicaciones y transferencias, consulte [Planificación con o sin ubicaciones](production-planning-with-without-locations.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
 [Planificación](production-planning.md)  

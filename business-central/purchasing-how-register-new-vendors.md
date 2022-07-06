@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521863"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074619"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 
@@ -32,6 +32,7 @@ Las fichas de proveedor contienen la información necesaria para comprar product
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Agregar nuevos proveedores
+
 Puede agregar nuevos proveedores manualmente, completando los campos en la página **Ficha de proveedor**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear plantillas para diferentes tipos de perfiles de proveedores. El uso de plantillas ahorra tiempo al agregar nuevos proveedores y ayuda a garantizar que la información sea correcta en todo momento. Si crea plantillas para más de un tipo de proveedor, puede elegir la plantilla que utilizará cuando agregue un proveedor. Si crea solo una plantilla, se utilizará para todos los proveedores nuevos. Después de crear una plantilla, puede usar la acción **Aplicar plantilla** para aplicarla a uno o más proveedores seleccionados. Para crear una plantilla, complete la información que desea reutilizar en la página Ficha de proveedor y luego guárdela como una plantilla. Para obtener más información, consulte la sección [Para guardar la página de proveedor como una plantilla](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ Puede editar la información de las fichas de proveedor en cualquier momento. Si
 > [!TIP]
 > Puede cambiar el IBAN en la cuenta bancaria de un proveedor sin que el cambio afecte los movimientos del registro de transferencia de crédito históricos. Los movimientos del registro de transferencia de crédito almacenan el IBAN del destinatario, el número de cuenta bancaria del destinatario que se especificaron en los campos Cuenta bancaria del proveedor y Nombre del destinatario de la página Ficha del proveedor cuando se crearon los movimientos.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Para guardar la ficha de proveedor como una plantilla
 
 1. En la página **Ficha proveedor**, seleccione la acción **Guardar como plantilla**. La página **Plantilla proveedor** se abre mostrando la ficha de proveedor como plantilla.
@@ -67,12 +67,15 @@ Puede editar la información de las fichas de proveedor en cualquier momento. Si
 5. Cuando haya finalizado la nueva plantilla de proveedor, seleccione el botón de **Aceptar**.  
    La plantilla de proveedor se agrega a la lista de plantillas de proveedor, de modo que puede usarla para crear nuevas fichas de proveedor.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Combinar registros duplicados](sales-how-merge-duplicate-records.md)  
 [Crear numeración](ui-create-number-series.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

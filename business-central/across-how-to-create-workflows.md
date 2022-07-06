@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521285"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077741"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Crear flujos de trabajo para conectar tareas de procesos empresariales
 
@@ -179,7 +179,9 @@ Las siguientes ilustraciones proporcionan una descripción general del resultado
 
 A continuación, debe probar el flujo de trabajo abriendo un proveedor existente y cambiar el nombre. Verifique que se realice una solicitud de aprobación al cambiar el nombre del proveedor.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)  
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  

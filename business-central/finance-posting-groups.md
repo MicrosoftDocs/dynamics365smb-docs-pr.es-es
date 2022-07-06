@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515672"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076570"
 ---
 # <a name="set-up-posting-groups"></a>Configurar los grupos contables de activos
 
@@ -58,6 +58,7 @@ La siguiente tabla describe los grupos contables que son específicos de tipos d
 | Grupos contables de activos fijos |Defina las cuentas para diferentes tipos de gastos y costes, como los costes de adquisición, los importes de amortización acumulados, los costes de adquisición en venta/baja, la amortización acumulada en baja, la ganancia en venta/baja, la pérdida en venta/baja, los gastos de mantenimiento y los gastos de amortización. Configure estos grupos contables en la página **A/F Grupos contables**. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Permitir grupos de registro de clientes o proveedores sustitutos en documentos
+
 Puede permitir que las personas elijan grupos contables de clientes y proveedores diferentes a los predeterminados cuando trabajan con documentos y diarios de compras o ventas.
 
 Para permitir cambios en los grupos contables de clientes, seleccione **Permitir la alteración del grupo contable** en las páginas **Configuración de ventas y cobros** y **Config. gestión servicio**, y la página **Configuración de compras y pagos** para cambios de grupos contables de proveedores.
@@ -129,10 +130,13 @@ Cuando algo anda mal, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará l
 > [!NOTE]
 > El manejo de errores descrito anteriormente no está disponible en diarios de artículos, recursos, empleados y activos fijos, ni para cuentas de contabilidad agregadas en versiones locales de grupos de registro.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Consulte también .
+
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

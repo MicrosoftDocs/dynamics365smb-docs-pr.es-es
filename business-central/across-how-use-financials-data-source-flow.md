@@ -9,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: 93eb177ff9ba102277a50f9686ea941df33d5563
-ms.sourcegitcommit: 13ac10624bee47c73989b2b20942a01c849b4a6a
+ms.openlocfilehash: f1128a9fb4e9643286e4305695e1d40719d86301
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8744115"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079329"
 ---
 # <a name="use-prod_short-in-power-automate-flows"></a>Usar [!INCLUDE[prod_short](includes/prod_short.md)] en flujos de Power Automate
 
@@ -51,7 +51,9 @@ Puede crear flujos en el sitio web [powerautomate.microsoft.com](https://powerau
 
 Puede obtener una descripción general de todos los flujos de trabajo a los que tiene acceso eligiendo la acción **Administrar flujos de trabajo** en el menú **Power Automate**. La lista se abre en una nueva pestaña del navegador y se inicia sesión automáticamente en Power Automate. Ahí, puede ver cuándo se ejecutó cada flujo más recientemente.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/use-power-automate/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Solucionar problemas de sus [!INCLUDE[prod_short](includes/prod_short.md)] flujos de trabajo automatizados](across-flow-troubleshoot.md)  
 [Prepárese para hacer negocios](ui-get-ready-business.md)  

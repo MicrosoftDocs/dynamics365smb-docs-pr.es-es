@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521051"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075608"
 ---
 # <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
 El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción. No obstante, los principios que se agrupan en los pedidos de ensamblado tienen su propia IU de registro, como para los pedidos de venta, mientras que el registro real de movimientos se produce en segundo plano como registro de productos directos y registro de diario de recursos, como con el de consumo, la salida y la capacidad de producción.  
@@ -107,6 +107,13 @@ El movimiento de producto obtenido como consecuencia de registrar una venta de e
 Los movimientos de producto del tipo Venta resultantes del registro de las cantidades de ensamblar para pedido se marcan con **Sí** en el campo **Ensamblar para pedido**.  
 
 El registro de las líneas de pedido de venta donde una parte es cantidad de inventario y otra parte es cantidad ensamblar para pedido genera movimientos de producto independientes, uno para la cantidad de inventario y otro para la cantidad de ensamblar para pedido.  
+
+### <a name="posting-dates"></a>Fechas de registro
+
+En general, las fechas de registro se copian de un pedido de ventas a la orden de ensamblado vinculada. La fecha de registro en el pedido de ensamblado se actualiza automáticamente cuando cambia la fecha de registro en el pedido de ventas directa o indirectamente, por ejemplo, si cambia la fecha de registro en el envío de almacén, selección de inventario o como parte de un registro masivo.
+
+Puede modificar la fecha de registro manualmente, en la orden de montaje. Sin embargo, no puede ser posterior a la fecha de registro en el pedido de ventas vinculado. El sistema mantendrá esta fecha a menos que actualice la fecha de registro en el pedido de ventas.
+
 
 ## <a name="see-also"></a>Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   

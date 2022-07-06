@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655103"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076804"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
@@ -330,6 +330,7 @@ La palabra para "hora" en el idioma utilizado por [!INCLUDE[prod_short](includes
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Introducción de duración
+
 Algunos campos de la aplicación representan una duración o cantidad de tiempo transcurrido, en lugar de una fecha u hora específicas. Introduzca un periodo de tiempo como un número seguido de su unidad de medida.
 
 A continuación se muestran algunos ejemplos.
@@ -349,10 +350,12 @@ Para ver qué unidad de medida se está utilizando en un campo de duración, int
 
 Por ejemplo, si la unidad de medida es horas, el número 5 se convierte a 5 hrs.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
-[Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)  
+[Cálculo de la fecha de las compras](purchasing-date-calculation-for-purchases.md)  
 [Introducir criterios en los filtros](ui-enter-criteria-filters.md)  
 
 

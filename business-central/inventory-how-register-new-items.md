@@ -10,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 83ebbe21771c8836e6998747733b82f5e4999c83
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 893efecd282352ac44d10e15983a8f0f3923b224
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522045"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075452"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 
@@ -117,12 +117,14 @@ Cuando su empresa utiliza los procesos de planificación de suministro en [!INCL
 
 Para ver ejemplos de cómo puede utilizar los campos en la ficha desplegable **Planificación**, consulte [Prácticas recomendadas de configuración: parámetros de planificación](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-items/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Inventario](inventory-manage-inventory.md)  
 [Configurar unidades de medida](inventory-how-setup-units-of-measure.md)  
 [Códigos arancelarios](finance-how-setup-report-intrastat.md#tariff-numbers)  
-[Conciliar costes de inventario con la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Conciliar costes de inventario con la contabilidad](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Crear numeración](ui-create-number-series.md)  
 [Configurar los grupos contables](finance-posting-groups.md)  
 [Compras](purchasing-manage-purchasing.md)  

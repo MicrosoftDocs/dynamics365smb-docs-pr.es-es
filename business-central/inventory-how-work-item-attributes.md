@@ -10,14 +10,15 @@ ms.search.keywords: categories, search words, facets
 ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb907b4574126c23292e4b164505606a5ac404dd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7268ac8ff38025dcd0b439e4ea6ae7d051ebc9d6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516192"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078001"
 ---
 # <a name="work-with-item-attributes"></a>Trabajar con atributos de producto
+
 Cuando los clientes hacen consultas sobre un producto, ya sea por correspondencia o en una tienda en línea integrada, pueden preguntar por las características como la altura y el año del modelo. Para proporcionar este servicio al cliente, puede asignar valores de atributo de producto de diferentes tipos a sus productos, que podrán usarse posteriormente en la búsqueda de productos.
 
 También puede asignar los atributos de producto a categorías de producto que se aplican después a los productos que las utilizan. Para obtener más información, consulte [Clasificar productos](inventory-how-categorize-items.md).
@@ -26,6 +27,7 @@ También puede asignar los atributos de producto a categorías de producto que s
 > Si asocia imágenes a productos, la extensión Analizador de imágenes puede detectar los atributos en la imagen y sugerir los atributos que puede decidir si se los asigna. La extensión está lista para usarse. Solo debe habilitarla. Para obtener más información, vea [Extensión del analizador de imágenes](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Para crear atributos de producto
+
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entr en **Atributos de producto** y luego elija el enlace relacionado.
 2. En la página **Atributos de producto**, seleccione la acción **Nuevo**.
 3. En la página **Atributos de producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -34,11 +36,13 @@ También puede asignar los atributos de producto a categorías de producto que s
 >   Si selecciona **Opción** en el campo **Tipo**, puede seleccionar la acción **Valores de atributo de producto** para crear valores de atributo de producto. Para obtener más información, consulte [Para crear valores de atributo de producto del tipo Opción](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Para crear los valores de los atributos de producto del tipo Opción
+
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , entr en **Atributos de producto** y luego elija el enlace relacionado.
 2. En la página **Atributos de producto**, seleccione un atributo de producto del tipo **Opción** al que quiere asignarle un valor y, a continuación, seleccione la acción **Valores de atributo de producto**.
 3. En la página **Valores de atributo de producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Asignar un atributo de producto a productos
+
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. En la página **Producto**, seleccione el producto al que quiere asignarle un atributo de producto y, a continuación, seleccione la acción **Atributos**.
 3. En la página **Valores de atributo de producto**, seleccione la acción **Nuevo**.
@@ -48,6 +52,7 @@ También puede asignar los atributos de producto a categorías de producto que s
 7. Repita los pasos del 4 al 6 para todos los atributos de producto que desea asignar al producto.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Asignar un atributo de producto a una categoría
+
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Categorías de artículos** y luego elija el enlace relacionado.
 2. En la página **Categoría de producto**, seleccione la categoría de producto al que quiere asignarle un atributo y, a continuación, seleccione la acción **Editar**.
 3. En la página **Ficha de categoría de artículo**, en la ficha desplegable **Atributos**, seleccione la acción **Nuevo**.
@@ -59,6 +64,7 @@ También puede asignar los atributos de producto a categorías de producto que s
 >   Las categorías de producto secundarias deben heredar los atributos de producto de las categorías principales. Esto está indicado en el campo **Origen de herencia** de la ficha desplegable **Atributos**. Para obtener más información, consulte [Clasificar productos](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>Para filtrar por atributos de producto
+
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. En la página **Producto**, seleccione la acción **Filtrar por atributo**.
 3. En la página **Filtrar productos por atributo** seleccione el botón de búsqueda en el campo **Atributo** y seleccione un atributo de producto.
@@ -71,12 +77,15 @@ También puede asignar los atributos de producto a categorías de producto que s
 7. En el campo **Valor**, introduzca un valor de atributo para filtrar los productos.
 
     **Ejemplo**: Para filtrar los productos en que la descripción del material empieza por "azul", rellene los campos como se indica a continuación: campo **Atributo**: descripción de material; campo **Condición**: empieza por; campo **Valor**: azul.
-8. Elija el botón **Aceptar**.   
+8. Elija el botón **Aceptar**.
 
 Los productos de la página **Productos** se filtran por los valores de atributo de productos especificados.
 
-## <a name="see-also"></a>Consulte también
-[Clasificar productos](inventory-how-categorize-items.md)    
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
+[Clasificar productos](inventory-how-categorize-items.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

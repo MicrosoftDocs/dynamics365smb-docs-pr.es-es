@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520339"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074879"
 ---
 # <a name="setting-up-cost-accounting"></a>Configuración de contabilidad de costes
 
@@ -141,7 +141,8 @@ Los objetos de coste son proyectos, productos o servicios de una empresa. El pla
 * Transfiera los valores de dimensión en la contabilidad al plan de objetos de coste. Puede hacer los ajustes necesarios después de la transferencia.  
 * Cree un plan del objeto de coste que es independiente de la contabilidad o agregue un objeto de coste nuevo a un plan existente de objetos de coste. Debe crear cada objeto de coste por separado.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Para transferir valores de dimensión de la contabilidad al plan de objetos de coste  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Para transferir valores de dimensión de la contabilidad al plan de objetos de coste
+
 1.  Configurar una dimensión para que sea la dimensión del objeto de coste en la página **Actualizar dimensiones CA**. Sólo los valores de esta dimensión se transfieren.  
 2.  Elija el icono ![Bombilla que abre la función Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan objetos coste** y luego elija el enlace relacionado.  
 3.  Elija la acción **Traer objetos coste de dimensión** para transferir los valores de dimensión al plan de objetos de coste. La función transfiere los valores de dimensión que definió en el paso 1.  
@@ -151,7 +152,8 @@ Los objetos de coste son proyectos, productos o servicios de una empresa. El pla
 
 El plan de objetos de coste contendrá ahora todos los valores de dimensión especificados desde la contabilidad e incluirá títulos y subtotales.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Crear nuevos objetos de coste en la página Plan objetos coste  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Crear nuevos objetos de coste en la página Plan objetos coste
+
 Puede configurar y mantener objetos de coste en la ficha **Plan objeto de coste** o bien en la página **Plan objetos coste**. En este procedimiento, va a configurar objetos de coste en la página **Plan de objetos de coste**.  
 
 1.  Abra la página **Plan objetos coste** en el modo de edición.  
@@ -169,9 +171,11 @@ Puede configurar y mantener objetos de coste en la ficha **Plan objeto de coste*
 >  Si ha introducido definiciones en los campos **Total desde/a** para los objetos de coste de **Total final** antes de ejecutar la función Aplicar sangría, deberá volver a introducirlas. La función sobrescribe los valores de todos los campos de **Total final**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definición de centros de coste y de objetos de coste para el plan de cuentas
+
 Puede transferir automáticamente los movimientos de gastos y de ingresos de la contabilidad a la contabilidad de costes para cada registro de contabilidad o con un trabajo por lotes. Cuando lleva a cabo la transferencia, [!INCLUDE[prod_short](includes/prod_short.md)] transfiere sólo los movimientos ya vinculados a un centro o un objeto de coste. Para establecer una transferencia significativa, debe asegurarse de que los centros de coste y los objetos de coste están definidos correctamente.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definición de los valores de dimensión predeterminados para cuentas de contabilidad  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definición de los valores de dimensión predeterminados para cuentas de contabilidad
+
 Para cada cuenta de contabilidad, puede definir valores de dimensión predeterminados de la tabla **Dimensión predeterminada**. El siguiente ejemplo muestra cómo definir que siempre debe haber un centro de coste de DEPARTAMENTO, pero nunca un objeto de coste de PROYECTO al registrar en una cuenta de contabilidad.  
 
 |**Cód. dimensión**|**Registro valor**|  
@@ -179,7 +183,8 @@ Para cada cuenta de contabilidad, puede definir valores de dimensión predetermi
 |Departamento|Código obligatorio|  
 |Programa|Sin código|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definición de valores de dimensión para costes generales y costes directos  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definición de valores de dimensión para costes generales y costes directos
+
  Puede transferir costes generales a un centro de coste y costes directos a un objeto de coste. La siguiente tabla muestra la combinación óptima de valores de configuración de dimensión.  
 
 |Transferir a|Registro del centro de coste|Registro del objeto de coste|  
@@ -190,9 +195,12 @@ Para cada cuenta de contabilidad, puede definir valores de dimensión predetermi
 > [!NOTE]  
 >  Para garantizar que el centro de coste y el objeto de coste predefinidos que configuró en la contabilidad sean transportados automáticamente a la contabilidad de costes, seleccione la casilla **Comprobar registros C/G** en la página Configuración contabilidad costes.
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Contabilidad para costes](finance-manage-cost-accounting.md)  
-[Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
+[Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)  
 [Definición y asignación de costes](finance-define-and-allocate-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

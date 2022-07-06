@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7934e272652f175360d58ea3643fa28c5551c082
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0b9598c8249e209583ffff73868013ad7e26f1b3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512297"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078161"
 ---
 # <a name="revalue-fixed-assets"></a>Revalorizar activos fijos
+
 La revalorización de activos fijos está formada por apreciaciones, depreciaciones o ajustes de valor general.
 
 Cuando haya aumentado el valor de un activo, registre una línea de diario con un importe mayor, una apreciación, en el libro de amortización. El nuevo importe se registra como una apreciación en función de la configuración del registro de activos.
@@ -26,6 +27,7 @@ Cuando haya disminuido el valor de un activo, registre una línea de diario con 
 El ajuste de valores se utiliza para ajustar los diversos valores de los activos fijos como, por ejemplo, los cambios generales de precio. El proceso **Ajustar valores activos** puede utilizarse para cambiar diversos importes como, por ejemplo, importes de apreciación y depreciación.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Para registrar una apreciación desde el diario general de activos fijos
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales A/F**, y luego elija el enlace relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.
 3. En el campo **A/F Tipo registro**, seleccione **Reevaluación**.
@@ -36,6 +38,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Para registrar una depreciación desde el diario general de activos fijos
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales A/F**, y luego elija el enlace relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.
 3. En el campo **A/F Tipo registro**, seleccione **Depreciación**.
@@ -46,6 +49,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
 5. Seleccione la acción **Registrar**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Para realizar una revalorización general de activos fijos
+
 El ajuste de valores se utiliza para ajustar los diversos valores de los activos fijos como, por ejemplo, los cambios generales de precio. El proceso **Ajustar valores activos** puede utilizarse para cambiar diversos importes como, por ejemplo, importes de apreciación y depreciación. La casilla **Permite ajuste valores** de la página **Libro amortización** debe estar seleccionada.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ajustar valores activos** y luego elija el enlace relacionado.  
@@ -61,6 +65,7 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
     >   Si los números de ajuste son solo para fines de simulación, puede crear un libro de amortización especial que los guarde. Así estos movimientos no afectarán a ninguno de los libros de amortización.
 
 ## <a name="to-post-additional-acquisition-costs"></a>Para registrar costes adicionales
+
 Puede registrar costes adicionales de un activo de la misma forma en que registra el coste original: desde una factura de compra o desde un diario de activos fijos. Para obtener más información, vea [Adquirir activos fijos](fa-how-acquire.md).  
 
 Si ya ha calculado la amortización para el activo, seleccione la casilla de verificación **Coste amortización** para que el coste adicional sea menor que el valor residual amortizado, en proporción al importe con el que se amortizó anteriormente el activo. Esto asegura que el periodo de amortización no cambia.  
@@ -74,6 +79,7 @@ El porcentaje de amortización se calcula así:
 Recuerde seleccionar la casilla **A/F Amort. hasta fecha reg.** en la factura, las líneas del diario general de activos o del diario de activos fijos, para asegurarse de la amortización se calcula desde la última fecha de registro de activos fijos hasta la fecha de registro del coste adicional.
 
 ### <a name="example---posting-additional-acquisition-costs"></a>Ejemplo: registro de costes adicionales
+
 Se compra una máquina el 1 de agosto de 2000. El coste es de 4.800. El método de amortización es lineal durante cuatro años.
 
 El 31 de agosto de 2000 se ejecuta el proceso **Calcular amortización**. La amortización se calcula como:
@@ -114,9 +120,12 @@ Si no seleccionó la casilla **A/F Amort. hasta fecha reg.**, el activo perderí
 
 *Total de amortización = 100 +15 + 55,54 = 170,54*
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/manage-advanced-fixed-assets-transactions/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Activos fijos](fa-manage.md)  
-[Configurar activos fijos](fa-setup.md)  
+[Configuración de activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

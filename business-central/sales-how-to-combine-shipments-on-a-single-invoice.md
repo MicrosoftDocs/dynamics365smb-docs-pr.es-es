@@ -9,19 +9,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9308412e7b1bfc19cb11187e22ae1b2d2f6c339b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513736"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077585"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
+
 Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.  
 
 Para crear una agrupación de envíos, primero debe registrar más de un envío de venta para el mismo cliente en la misma divisa. Dicho de otro modo, debe haber creado dos o más pedidos de venta y haberlos registrado como enviados pero no facturados. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma manual en una factura única  
+## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma manual en una factura única
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
 3. En el campo **Venta a-N.º cliente**, introduzca el cliente que recibirá la factura de los productos enviados.  
@@ -37,7 +39,8 @@ Para crear una agrupación de envíos, primero debe registrar más de un envío 
 > [!TIP]  
 > Si ha enviado pedidos donde el **Venta a-N.º cliente** es diferente de **Factura-a Nº cliente**, esas líneas no se muestran en el informe **Obtener líneas de envío**. Utilice la personalización para agregar el campo **Cliente de venta** a la página y elimine el filtro. Ahora puede agregar líneas de envío a la factura independientemente del valor en el campo **Venta a-N.º cliente** siempre que el campo **Factura-a Nº cliente** en las líneas de envío coincida con el valor de la factura de venta.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma automática en una factura única  
+## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma automática en una factura única
+
 [!INCLUDE[prod_short](includes/prod_short.md)] seleccionará solo pedidos de venta donde se elija **Combinar envíos**. 
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Agrupar envíos** y, a continuación, elija el vínculo relacionado. Se abre la página de solicitud de trabajo por lotes.  
@@ -48,7 +51,8 @@ Para crear una agrupación de envíos, primero debe registrar más de un envío 
 > [!NOTE]  
 >  Deberá registrar las facturas manualmente si no se ha activado la casilla de verificación **Registrar facturas** en el trabajo por lotes.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Eliminar pedidos de venta abiertos después del registro de envío combinado 
+## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Eliminar pedidos de venta abiertos después del registro de envío combinado
+
 Cuando se agrupan envíos en una factura y se registran, se crea una factura de venta registrada para las líneas facturadas. El campo **Cantidad facturada** del pedido de venta o pedido abierto de venta de origen se actualiza en función de la cantidad facturada.  
 
 Al facturar envíos de esta forma, los pedidos a partir de los cuales se registraron los envíos siguen existiendo, aunque se hayan enviado y facturado por completo.   
@@ -61,7 +65,10 @@ También puede eliminar los pedidos de venta individuales manualmente.
 
 Repita las tareas 1 a 3 para cualquier otro documento asignado, como pedidos abiertos de ventas.
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -10,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 71a05e36075dfcfd7384b0e4c055e955dbfda3c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0346150f53006cc5ae34bf9ad8fcb19c8bbcb271
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510989"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079173"
 ---
 # <a name="managing-fixed-assets"></a>Administrar activos fijos
 
@@ -48,12 +48,16 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Gestionar presupuestos de activos fijos, costes, ventas/bajas y amortización. |[Gestionar presupuestos de los activos fijos](fa-how-manage-budgets.md) |
 
 ## <a name="video-overview"></a>Resumen en vídeo
+
 El siguiente video cubre los conceptos básicos de los activos fijos.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-also"></a>Consulte también
-[Configurar activos fijos](fa-setup.md)  
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/manage-fixed-assets-transactions/)
+
+## <a name="see-also"></a>Consulte también .
+
+[Configuración de activos fijos](fa-setup.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  

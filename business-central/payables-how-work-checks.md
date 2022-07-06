@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1b4d3f152f74e1bba9f30e7da45e1b910301b4df
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f9b819205fe3292e7a3de5e8de232616a511ca24
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520235"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077195"
 ---
 # <a name="make-check-payments"></a>Realizar pagos por cheque
 
@@ -37,6 +37,7 @@ Puede pagar con dos tipos de cheques. Para ambos tipos, el campo **Tipo contrapa
 Puede imprimir hasta 10 facturas en una página para una matriz de cheque. Si un cheque se aplica a más de 10 facturas, cuando imprima el talón anularemos el cheque en la primera página e imprimiremos la palabra ANULADO en el cheque. A continuación, imprimimos el resto de las facturas y el importe total del cheque en la segunda página.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Para pagar una factura de proveedor con un cheque automático
+
 A continuación se describe cómo pagar a un proveedor mediante un cheque. Los pasos son similares al reembolso de un cheque.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.
@@ -56,6 +57,7 @@ Se crean los movimientos de contabilidad de proveedores y de cuenta bancaria tot
 > Si quiere imprimir y pagar cheques en varias divisas de cuentas bancarias distintas, deberá ejecutar el proceso **Imprimir cheque** por separado para cada divisa y especificar la cuenta bancaria correspondiente.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Para anular los cheques imprimidos que no han sido registrados
+
 Puede anular los cheques no registrados después de que hayan sido imprimidos usando la acción **Anular cheque** de la página **Diario de pagos**.
 
 1. En la página **Diario de pagos**, seleccione **Anular cheque** y, a continuación, seleccione qué cheques desea cancelar.
@@ -74,11 +76,15 @@ Cuando se ha registrado el pago del cheque, solo puede cancelar (anular) cheques
 5. Elija el botón **Aceptar**.
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Para ver un resumen de los cheques registrados
+
 Si desea revisar los cheques registrados, por ejemplo, para verificar los cheques múltiples pagados a un proveedor, puede usar el informe **Bancos - Desglose cheques**.
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Banco - Desglose cheques** y luego elija el enlace relacionado.
 2. Establezca los filtros como relevantes y luego elija el botón **Vista previa**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/use-checks-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Creación de pagos](payables-make-payments.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Configurar banca](bank-setup-banking.md)  

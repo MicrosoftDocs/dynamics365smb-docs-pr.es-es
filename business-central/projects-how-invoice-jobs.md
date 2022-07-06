@@ -10,14 +10,15 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 06be08bce312cfcdd0bc6eef0e50890244734dba
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516619"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074645"
 ---
 # <a name="invoice-jobs"></a>Facturar proyectos
+
 Durante el proyecto, pueden acumularse los costes del proyecto por el uso de recursos, materiales y compras relacionadas con el proyecto. Según progresa el proyecto, estas transacciones se registran en el diario del proyecto. Es importante que se registren todos los costes en el diario del proyecto antes de facturar al cliente.
 
 > [!NOTE]
@@ -31,6 +32,7 @@ Puede facturar el proyecto completo desde la página **Líneas tareas proyecto**
 También puede facturar a una empresa que no sea el cliente final. A veces, la parte a la que se dirige un proyecto es diferente de la parte que paga la factura. En la página **Trabajos**, puede especificar el cliente que se beneficiará del proyecto en los campos **Vender a** y la parte a facturar en los campos **Cobrar a**. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>Para crear varias facturas de venta de proyecto
+
 Puede crear la factura de un proyecto o de una o varias tareas del proyecto para un cliente cuando se haya terminado el trabajo que se va a facturar o cuando se llegue a la fecha de facturación en función de un programa de facturación.
 
 El siguiente procedimiento muestra cómo utilizar un proceso para facturar varios proyectos.  
@@ -46,6 +48,7 @@ Puede revisar y registrar facturas creadas en la ventana **Facturas de venta**.
 > También puede facturar a un cliente seleccionando el proyecto y eligiendo la acción **Crear factura venta proyecto**. 
 
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Para crear y registrar facturas de venta de proyecto desde líneas de planificación de proyecto
+
 Puede crear una factura a partir de las líneas de planificación de proyecto e indicar en ese momento la cantidad del producto, recurso o cuenta que desea facturar.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.
@@ -63,12 +66,14 @@ Puede crear una factura a partir de las líneas de planificación de proyecto e 
 > [!NOTE]  
 >   El procedimiento anterior es similar para crear, revisar y registrar un abono de venta relacionado con el proyecto.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
+
 [Administrar proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  
-[Compras](purchasing-manage-purchasing.md)         
-[Ventas](sales-manage-sales.md)      
+[Compras](purchasing-manage-purchasing.md)  
+[Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

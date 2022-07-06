@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149132"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075556"
 ---
 # <a name="defining-and-allocating-costs"></a>Definición y asignación de costes
 
@@ -143,12 +143,14 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
 
- [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)   
- [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)   
- [Contabilidad para costes](finance-manage-cost-accounting.md)   
- [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)   
+## <a name="see-also"></a>Consulte también .
+
+ [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)  
+ [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)  
+ [Contabilidad para costes](finance-manage-cost-accounting.md)  
+ [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)  
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)
 
 

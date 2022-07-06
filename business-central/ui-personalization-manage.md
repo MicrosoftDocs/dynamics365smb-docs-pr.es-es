@@ -7,14 +7,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bbb912f0e9e6718ba625fba4dc05fae19f4f2ebb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521525"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076206"
 ---
 # <a name="customize-pages-for-profiles"></a>Personalizar páginas para perfiles
+
 Los usuarios pueden personalizar las páginas que componen su área de trabajo para que se adapte a sus preferencias. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
 Los administradores pueden personalizar las páginas para un perfil, de acuerdo con el rol o el departamento empresarial relacionado, por ejemplo, para que todos los usuarios a los que se les asigne el perfil vean el diseño de página personalizado. El administrador personaliza las páginas utilizando la misma funcionalidad que los usuarios cuando personalizan páginas.
@@ -25,6 +26,7 @@ Los administradores pueden personalizar las páginas para un perfil, de acuerdo 
 La personalización de la página comienza en la página **Perfiles (roles)**, el punto de partida del administrador para administrar los perfiles de los usuarios en fichas de perfil individuales. Además de personalizar el diseño de la página, puede controlar otras configuraciones para los perfiles en la página **Perfil (rol)** para cada perfil. Para obtener más información, consulte [Administrar perfiles](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Para personalizar páginas para un perfil
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Perfiles (roles)** y luego elija el enlace relacionado.
 2. Seleccione la línea del perfil para el que desea personalizar páginas y, después, seleccione la acción **Editar**.
 3. Elija la acción **Personalizar páginas**.
@@ -50,6 +52,7 @@ Puede obtener una visión general de qué páginas están personalizadas para un
 En la página **Páginas personalizadas**, puede eliminar personalizaciones y solucionar problemas mediante la búsqueda de posibles problemas.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Para eliminar las personalizaciones de un perfil
+
 Puede cancelar todas las personalizaciones que ha realizado en un perfil. Las personalizaciones introducidas con una extensión y las personalizaciones realizadas por un usuario no se eliminarán. Puede eliminar todas las personalizaciones con otra acción. Para obtener más información, consulte [Para eliminar todas las personalizaciones efectuadas por un usuario](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - En la pestaña **Perfil (rol)** para un perfil personalizado, elija la acción **Borrar páginas personalizadas**.
@@ -57,6 +60,7 @@ Puede cancelar todas las personalizaciones que ha realizado en un perfil. Las pe
 El diseño en las páginas para el perfil se restablece al diseño predeterminado.  
 
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Para eliminar la personalización de páginas específicas para un perfil
+
 Puede eliminar personalizaciones de página individuales que ha efectuado para un perfil. Las personalizaciones introducidas con una extensión y las personalizaciones realizadas por un usuario no se eliminarán. Puede eliminar las personalizaciones de página específicas con otra acción. Para obtener más información, consulte [Para eliminar las personalizaciones de páginas específicas](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
 1. En la página **Perfil (rol)**, elija la acción **Administrar páginas personalizadas**.
@@ -64,7 +68,9 @@ Puede eliminar personalizaciones de página individuales que ha efectuado para u
 
 El diseño en las páginas seleccionadas se ajusta a los cambios que ha hecho.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Personalizar el área de trabajo](ui-personalization-user.md)  
 [Administración de perfiles](admin-users-profiles-roles.md)  

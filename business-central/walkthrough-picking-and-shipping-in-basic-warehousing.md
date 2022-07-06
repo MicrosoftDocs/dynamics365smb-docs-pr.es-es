@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0594134585fe85540c7ed87e1588fd218b7a561a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513398"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074463"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Tutorial: picking y envío en la configuración del almacenamiento básico
 
@@ -67,6 +67,7 @@ Ellen, la administradora del almacén en CRONUS, configura el almacén SUR para 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### <a name="setting-up-the-bin-codes"></a>Configuración los códigos de ubicación
+
 Una vez que haya configurado el almacén, debe agregar dos ubicaciones.
 
 #### <a name="to-setup-the-bin-codes"></a>Para configurar los códigos de ubicación
@@ -143,7 +144,9 @@ En la página **Picking inventario**, puede administrar todas las actividades de
 
     Los 30 lámparas Ámsterdam ahora se registran como preparados desde las ubicaciones S-01-0001 y S-01-0002, y un movimiento de producto negativo se crea para reflejar el histórico de albaranes de venta.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Realizar el picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

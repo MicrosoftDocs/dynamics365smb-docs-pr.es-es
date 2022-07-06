@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382824"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075229"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
@@ -189,7 +189,8 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, venda bicicletas de carreras. Primero venda la bicicleta de carreras con NS1 a Selangorian Ltd.  
 
-### <a name="to-sell-the-end-items"></a>Para vender los productos finales  
+### <a name="to-sell-the-end-items"></a>Para vender los productos finales
+
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Elija la acción **Nuevo** y, a continuación, cree un pedido de venta rellenando los campos siguientes.  
 
@@ -228,10 +229,12 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     Así finaliza la preparación de datos para demostrar las características Seguimiento de productos y Buscar movimientos.  
 
-## <a name="tracing-from-usage-to-origin"></a>Seguimiento desde el uso hasta el origen  
+## <a name="tracing-from-usage-to-origin"></a>Seguimiento desde el uso hasta el origen
+
  En el departamento de ventas, el controlador de calidad averigua que la bicicleta de carrera devuelta, producto 1002, tiene el número de serie NS1. Con esta información básica, puede determinar dónde se utilizó por última vez la bicicleta de carreras terminada, en este caso, en el albarán de venta a Selangorian Ltd. A continuación, el controlador de calidad debe realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el cuadro de carreras defectuoso y qué proveedor lo suministró.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Para determinar qué lote incluía el cuadro defectuoso y quién lo suministró  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Para determinar qué lote incluía el cuadro defectuoso y quién lo suministró
+
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Seguimiento de productos**, y luego elija el enlace relacionado.  
 2.  En la página **Seguimiento productos**, escriba **NS1** en el campo **Filtro nº serie** y, a continuación, **1002** en el campo **Filtro producto**.  
 3.  Conserve la configuración predeterminada de **Sólo producto seguido** en el campo **Mostrar componentes** y conserve el método de seguimiento predeterminado de **Uso - Origen** en **Método seguimiento**.  
@@ -257,7 +260,8 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
      De este modo finaliza la primera tarea de gestión de defectos mediante la página **Seguimiento productos**. El controlador de calidad ahora debe determinar si otros documentos registrados han procesado cuadros de bicicleta de LOT1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Seguimiento desde el origen hasta el uso  
+## <a name="tracing-from-origin-to-usage"></a>Seguimiento desde el origen hasta el uso
+
  El controlador de calidad ha establecido que los cuadros de bicicletas defectuosos procedían de LOT1. Ahora debe buscar otras bicicletas de carrera que contengan cuadros de bicicleta del lote defectuoso, para que se puedan detener o retirar.  
 
  Un modo de preparar esta tarea de seguimiento en la página **Seguimiento productos** es introducir manualmente LOT1 en el campo de **Filtro nº lote** y 2000 en el campo de **Filtro producto**. Sin embargo, este tutorial utilizará la función de **Realizar seguimiento opuestos - desde línea**.  
@@ -280,7 +284,8 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     De este modo finaliza la segunda tarea de gestión de defectos mediante la página **Seguimiento productos**. Dado que la página **Seguimiento de productos** se basa únicamente en los movimientos registrados, el controlador de calidad debe continuar hasta la página **Buscar movimientos** para asegurarse de que LOT1 no se utiliza en documentos no registrados.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Búsqueda de un número de serie/lote en todos los registros  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Búsqueda de un número de serie/lote en todos los registros
+
  Con la página **Seguimiento productos**, el controlador de calidad ha averiguado que LOT1 contenía los cuadros de bicicletas defectuosos, qué proveedor los suministró y en qué transacción registrada se han usado. Ahora debe determinar si existe LOT1 en algún documento abierto mediante la integración del resultado del seguimiento en la página **Buscar movimientos**, donde puede realizar una búsqueda en todos los registros de la base de datos.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Para buscar todas las incidencias de LOT1 en registros no registrados, como pedidos pendientes  
@@ -298,12 +303,14 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
  De este modo finaliza el tutorial sobre cómo usar la página **Buscar movimientos** para la gestión de defectos en la integración con la página **Seguimiento de productos**.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
 [Buscar movimientos](ui-find-entries.md)  
 [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

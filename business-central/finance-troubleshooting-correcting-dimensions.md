@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519126"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075426"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Resolución de problemas y corrección de dimensiones
 
@@ -122,7 +122,12 @@ Si una corrección no se completa, aparecerá una advertencia en la ficha de cor
 
 Después de corregir las dimensiones, sus datos para la contabilidad de costes no estarán sincronizados. La contabilidad de costes usa dimensiones para agregar cantidades para centros de coste y objetos de coste, y para ejecutar asignaciones de costes. Cambiar las dimensiones para movimientos de contabilidad probablemente signifique volver a ejecutar sus modelos de contabilidad de costes. Si solo necesita eliminar algunos registros de costes y volver a ejecutar asignaciones, o si necesita eliminar todo y volver a ejecutar todos sus modelos, depende de los datos que se hayan actualizado y de cómo estén configuradas sus capacidades de contabilidad de costes. Debe identificar manualmente dónde afectarán las correcciones de dimensión a la contabilidad de costes y dónde se necesitan actualizaciones. [!INCLUDE[prod_short](includes/prod_short.md)] no ofrece actualmente una forma automatizada de hacerlo.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
 
-[Trabajar con dimensiones](finance-dimensions.md)
+## <a name="see-also"></a>Consulte también .
+
+[Trabajar con dimensiones](finance-dimensions.md)  
 [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

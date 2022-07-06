@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460, 25
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7b83a2f53a41cc646b6480048fa4152035077c9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ec081740ff45dc018d975f6d84deae4aae907cb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510869"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078705"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Permitir la liquidación de movimientos de cliente en distintas divisas
 
@@ -48,7 +48,9 @@ Si liquida movimientos en varias divisas distintas, debe configurar las cuentas 
 3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos registro proveedor**, y luego elija el enlace relacionado.  
 4. En los campos **Cta. neg. red. liquids. divisa** y **Cta. pos. red. liquids. divisa**, especifique el número de cuentas contables para registrar las diferencias de redondeo.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cobros](receivables-manage-receivables.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 568f9f4424eefb249176fc56cbc515fc03a9af24
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7cfff3b5140dfa01aa3028b47cf9e52bad47cd8c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517347"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078627"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corregir o cancelar facturas de compra sin abonar
 
@@ -28,6 +28,7 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Para corregir una factura de compra registrada
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura de compra registrada que desea corregir.  
 
@@ -41,6 +42,7 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 4. Elija **Mostrar abono correctivo** para ver el histórico de abonos de compra que anula la factura de compra registrada inicial.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Para cancelar una factura de compra registrada
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura de compra registrada que desea cancelar.
 
@@ -52,9 +54,13 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 4. Elija **Mostrar abono correctivo** para ver el histórico de abonos de compra que anula la factura de compra registrada inicial.
 
 ### <a name="partial-invoice-posting-also-supported"></a>También se admite el registro parcial de facturas
+
 Si la cancelación está relacionada con un registro parcial de la factura, la línea de pedido de compra original se actualiza para reflejar la cantidad facturada cancelada. Los campos **Cant. a facturar** y **Cant. facturada** en la línea de pedido de compra relacionada se restablecen a los valores previos del registro parcial.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
+
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
