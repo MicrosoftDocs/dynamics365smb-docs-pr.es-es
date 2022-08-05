@@ -10,14 +10,15 @@ ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 411163798b5af49a154e19243e556c010bffd5ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ed025f130fc2de9be77c373ab9b651844496b8a7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513788"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144216"
 ---
 # <a name="prioritize-vendors"></a>De prioridad a los proveedores
+
 [!INCLUDE[prod_short](includes/prod_short.md)] puede proponer diversos pagos a proveedores, como los pagos que están próximos a vencer o los pagos en los que se pueden realizar descuentos. Para obtener más información, vea [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md).
 
 Primero, debe dar prioridad a los proveedores asignándoles números.
@@ -25,6 +26,7 @@ Primero, debe dar prioridad a los proveedores asignándoles números.
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>Para dar prioridad a proveedores
+
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Seleccione el proveedor correspondiente y, a continuación, elija **Editar**.
 3. En el campo **Prioridad**, escriba un número.
@@ -33,10 +35,11 @@ Primero, debe dar prioridad a los proveedores asignándoles números.
 
 Si no desea dar prioridad a un proveedor, deje el campo **Prioridad** en blanco. Más adelante, si utiliza la característica de propuesta de pago, el proveedor se mostrará después de todos los proveedores que poseen un número de prioridad. Puede introducir tantos niveles de prioridad como considere necesario.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
+
+[Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

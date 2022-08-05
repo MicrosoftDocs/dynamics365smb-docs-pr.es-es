@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740316"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130124"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 
@@ -171,6 +171,21 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 2. Elija la acción **Traducciones**.  
 3. En el campo **Código idioma**, seleccione el idioma al que realizará la traducción.  
 4. En los campos **Descripción** y **Descripción 2**, especifique las traducciones de las descripciones. Este texto se muestra en los documentos de informes de IVA traducidos.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>Para especificar texto extendido para las cláusulas de IVA
+
+> [!NOTE]  
+> Si su país o región requiere un texto más largo para las cláusulas de IVA que el que admite la versión predeterminada, puede especificar el texto más largo para las cláusulas de IVA como *texto extendido* para que se imprima en los informes de compras y ventas.  
+
+1. Elija el icono ![Bombilla que abre la función Dígame 11.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el vínculo relacionado.  
+2. Elija la acción **Textos ampliados**.  
+3. Rellene los campos **Código** y **Descripción**.  
+3. Seleccione la acción **Nuevo**.  
+4. Opcionalmente, seleccione el campo **Todos los códigos de idioma** o especifique el idioma pertinente en el campo **Código de idioma** si utiliza códigos de idioma.  
+5. Rellene los campos **Fecha inicial** y **Fecha final** si desea limitar las fechas en las que se utiliza el texto adicional.  
+6. En las líneas **Texto**, escriba el texto ampliado para sus cláusulas de IVA.  
+7. Seleccione los campos correspondientes para los tipos de documento donde desee imprimir el texto adicional.  
+8. Cierra la página.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Crear una configuración de registro de IVA para usar el IVA de importación
 

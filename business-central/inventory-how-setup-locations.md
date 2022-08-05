@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077272"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129682"
 ---
 # <a name="set-up-locations"></a>Configurar ubicaciones
 
@@ -77,8 +77,7 @@ Si desea estructurar sus ubicaciones en zonas, puede hacerlo en la página **Zon
 No obstante, puede configurar sólo una zona y organizar el almacén según ubicaciones independientes. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Dimensiones predeterminadas para ubicaciones
-
-Establece las dimensiones predeterminadas para una ubicación en la página **Tarjeta de ubicación** eligiendo **Ubicación**, y luego **Dimensiones**. Las dimensiones predeterminadas de la ubicación se copian en diarios y documentos cuando especifica la ubicación en una línea, pero puede eliminar o cambiar la dimensión en la línea si es necesario. Puede solicitar que las personas especifiquen dimensiones para ubicaciones específicas antes de que puedan publicar una entrada. También puede incluir valores de dimensión de ubicación en **Prioridades de dimensión predeterminadas** y **Combinaciones de dimensiones** para combinaciones de reglas de prioridad y dimensión.
+Establece las dimensiones predeterminadas para una ubicación en la página **Tarjeta de ubicación** eligiendo **Dimensiones**. Posteriormente, las dimensiones predeterminadas de la ubicación se asignan a los documentos cuando elige la ubicación en una línea. Si es necesario, puede eliminar o cambiar la dimensión en la línea. En el campo **Registro de valor**, puede solicitar que las personas especifiquen dimensiones para ubicaciones específicas antes de que puedan publicar una entrada. Si desea permitir que las personas elijan solo ciertos valores de dimensión, puede especificarlos en el campo **Filtro de valores permitidos**. También puede incluir valores de dimensión de ubicación en la página **Prioridades de dimensión predeterminadas** y en la página **Combinaciones de dimensiones** para combinaciones de reglas de prioridad y dimensión.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

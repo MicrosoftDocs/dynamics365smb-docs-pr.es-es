@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077741"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130097"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Crear flujos de trabajo para conectar tareas de procesos empresariales
 
@@ -22,9 +22,9 @@ Puede crear flujos de trabajo que vinculen tareas de procesos empresariales real
 
 En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo moderado por condiciones de evento y una respuesta de flujo de trabajo con opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.  
 
-Al crear flujos de trabajo, puede copiar los pasos de flujos de trabajo existentes o de plantillas de flujo de trabajo. Las plantillas de flujo de trabajo representan flujos de trabajo no editables que existen en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)]. El código de las plantillas de flujo de trabajo agregados por Microsoft se prefija con "MS-", como "MS-PIW". Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
+[!INCLUDE[workflow](includes/workflow.md)]
 
-Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas que no se admiten, un asociado de Microsoft debe implementarlos creando una extensión que implemente el evento de flujo de trabajo correspondiente.  
+Al crear flujos de trabajo, puede copiar los pasos de flujos de trabajo existentes o de plantillas de flujo de trabajo. Las plantillas de flujo de trabajo representan flujos de trabajo no editables que existen en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)]. El código de las plantillas de flujo de trabajo agregados por Microsoft se prefija con "MS-", como "MS-PIW". Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > Todas las notificaciones sobre pasos de flujo de trabajo se envían a través de una cola de proyectos. Asegúrese de que la cola de trabajos refleje sus necesidades comerciales. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
@@ -33,15 +33,18 @@ Si su escenario empresarial necesita eventos de flujo de trabajo o respuestas qu
 
 El flujo de trabajo se divide en tres secciones:
 
-1) **Evento Cuando** Aquí es donde se selecciona el disparador.
-    Ejemplos de disparador:
-    - Se ha cambiado un registro de datos maestros
-    - Se ha creado una línea del diario
-    - Se ha creado o liberado un documento entrante
-    - Se ha solicitado la aprobación de un documento
+1. **Evento Cuando**  
+   Aquí es donde se selecciona el disparador.  
+   Ejemplos de disparador:
+   * Se ha cambiado un registro de datos maestros
+   * Se ha creado una línea del diario
+   * Se ha creado o liberado un documento entrante
+   * Se ha solicitado la aprobación de un documento
 
-2) **Condición On de** Las **condiciones** están relacionadas con el evento y se abren para crear filtros para cuando se desencadena el evento
-3) **Respuesta Entonces** Las **Respuestas** responden a cuál es el siguiente paso en el trabajo.
+2. **Condición On**  
+   Las **condiciones** están relacionadas con el evento y se abren para crear filtros para cuando se desencadena el evento.
+3. **Respuesta Entonces**  
+   Las **respuestas** responden a cuáles son los siguientes pasos en el trabajo.
 
 Para ambos tipos de eventos, los eventos están definidos por el sistema. Se deben agregar nuevos eventos mediante el desarrollo de una extensión.
 
@@ -50,13 +53,13 @@ Para ambos tipos de eventos, los eventos están definidos por el sistema. Se deb
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Se abre la página **Flujo de trabajo**.  
 3. En el campo **Código**, introduzca un máximo de 20 caracteres para identificar el flujo de trabajo.  
-4. Para crear el flujo de trabajo desde una plantilla, en la página **Flujos de trabajo**, seleccione la acción **Crear flujo de trabajo desde plantilla**. Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Para crear el flujo de trabajo desde una plantilla, en la página **Flujos de trabajo**, seleccione la acción **Nuevo flujo de trabajo desde plantilla**. Para obtener más información, consulte [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md).  
 5. En el campo **Descripción**, describa el flujo de trabajo.  
 6. En el campo **Categoría**, especifique a qué categoría pertenece el flujo de trabajo.  
 7. En el campo **Evento Cuando**, especifique el evento que debe producirse para iniciar el paso del flujo de trabajo.  
 
-    Cuando elige el campo, la página **Eventos de flujo de trabajo** se abre, donde puede seleccionar de todos los eventos de flujo de trabajo existentes.  
-8. En el campo **Condición**, especifique una o varias condiciones que se deben cumplir para que se produzca el evento en el campo **Evento Cuando**.  
+    Cuando elige el campo, la página **Eventos de flujo de trabajo** se abre, donde puede seleccionar de todos los eventos de flujo de trabajo disponibles.  
+8. En el campo **Condición en**, especifique una o varias condiciones que se deben cumplir para que se produzca el evento en el campo **Evento Cuando**.  
 
     Cuando elige el campo se abre la página **Condiciones de evento**, donde se elige entre una lista de campos de filtro pertinentes relevantes como condiciones del evento en cuestión. Puede agregar los campos de filtro nuevos que desee utilizar como condiciones del evento. Puede definir filtros de condición de evento igual que define filtros en las páginas de solicitud de informe.  
 
@@ -66,7 +69,7 @@ Para ambos tipos de eventos, los eventos están definidos por el sistema. Se deb
     2. En el campo **Operador**, seleccione **Disminuyó**, **Aumentó** o **Cambió**.  
 9. Especifique la respuesta que seguirá cuando se produzca el evento del flujo de trabajo en el campo **Respuesta Entonces**.  
 
-     Cuando elija el campo, la página **Respuestas de flujo de trabajo** se abre, donde puede seleccionar de todas las respuestas de flujo de trabajo que existen y fijar opciones de respuesta para la respuesta seleccionada.  
+     Cuando elija el campo, la página **Respuestas de flujo de trabajo** se abre, donde puede seleccionar de todas las respuestas de flujo de trabajo disponibles y fijar opciones de respuesta para la respuesta seleccionada.  
 10. En la ficha desplegable **Opciones para la respuesta seleccionada**, especifique las opciones para la respuesta de flujo de trabajo seleccionando los valores en los campos que aparecen, como se indica a continuación:  
 
     1. Para especificar las opciones para una respuesta de flujo de trabajo que implica enviar una notificación, rellene los campos tal como se describe en la tabla siguiente.  
@@ -74,9 +77,9 @@ Para ambos tipos de eventos, los eventos están definidos por el sistema. Se deb
         |Campo|Descripción|  
         |-----|-----------|  
         |**Notificar remitente**|Especifique si se notifica al solicitante de aprobación en lugar de al destinatario de la solicitud de aprobación. Si selecciona la casilla, el campo **Id. de usuario destinatario** está deshabilitado porque se notificará al solicitante de la aprobación, el remitente. El nombre de la respuesta del flujo de trabajo cambia en consecuencia, a **Crear notificación para &lt;remitente&gt;**. Si la casilla no está seleccionada, el nombre de la respuesta del flujo de trabajo es **Crear notificación para &lt;usuario&gt;**.
-        |**Id. de usuario destinatario**|Especifique el usuario al que se debe enviar la notificación. **Nota**: Esta opción solo está disponible para respuestas de flujo de trabajo con un marcador para un usuario específico. Para las respuestas de flujo de trabajo sin marcadores para usuarios, el usuario de aprobación define normalmente la configuración del destinatario de la notificación.|  
+        |**Id. de usuario destinatario**|Especifique el usuario al que se debe enviar la notificación. **Nota**: Esta opción solo está disponible para respuestas de flujo de trabajo con un marcador para un usuario específico. Para las respuestas de flujo de trabajo sin marcadores para usuarios, el usuario de aprobación define normalmente la **configuración del usuario de aprobación**.|  
         |**Tipo de movimiento de notificación**|Especifica si la notificación de flujo de trabajo se desencadena por un cambio de registro, una solicitud de aprobación o una fecha de vencimiento pasada.|
-        |**Página de destino de vínculo**|Especifique otra página que el vínculo de la notificación abrirá en lugar de la página predeterminada. Tenga en cuenta que la página debe tener la misma tabla de origen que el registro involucrado.|
+        |**Página de destino de vínculo**|Especifique otra página que el vínculo de la notificación abrirá en lugar de la página predeterminada. La página debe tener la misma tabla de origen que el registro involucrado.|
         |**Personalizar vínculo**|Especifique la dirección URL de un vínculo que se agrega a la notificación además del vínculo a la página.|  
 
     2. Para especificar opciones para una respuesta de flujo de trabajo que implica crear una solicitud de aprobación, rellene los campos tal como se describe en la tabla siguiente.  
@@ -87,7 +90,7 @@ Para ambos tipos de eventos, los eventos están definidos por el sistema. Se deb
         |**Delegar tras**|Especifica si y cuándo se delegará automáticamente una solicitud de aprobación al sustituto correspondiente. Puede seleccionar delegar automáticamente un día, dos o cinco después de la fecha en que se solicitó la aprobación.|
         |**Tipo de aprobador**|Especifique quién es el aprobador según la configuración de usuarios de aprobación y usuarios de flujo de trabajo. Cuando el campo se establece como **Vendedor/Comprador**, ese ajuste especifica que el usuario configurado en el campo **Cód. vendedor/comprador** en la página **Config. usuario aprobación** determina quién es el aprobador. Los movimientos de solicitud de aprobación se crean según el valor del campo **Tipo de límite de aprobador**. Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-workflow-users.md).|
         |**Mostrar mensaje de confirmación**|Especifica si un mensaje de confirmación se muestra los usuarios después de que hayan solicitado una aprobación.|
-        |**Tipo de límite de aprobador**|Especifique cómo afectan los límites de aprobación de los aprobadores cuando se crean movimientos de solicitud de aprobación para ellos. Un aprobador calificado es aquel cuyo límite de aprobación es superior al valor de la solicitud que se está realizando. Estas son las opciones: <ol><li>**Cadena de aprobadores** especifica que los movimientos de solicitud de aprobación se crean para todos los aprobadores del solicitante hasta el primer aprobador cualificado, incluido este</li><li>**Aprobador directo** especifica que un movimiento de solicitud de aprobación solo se crea para el aprobador inmediato del solicitante, sea cual sea el límite de aprobación del aprobador.</li><li>**Primer aprobador cualificado** especifica que solo se crea un movimiento de solicitud de aprobación para el primer aprobador cualificado del solicitante.</li></ol>|
+        |**Tipo de límite de aprobador**|Especifique cómo afectan los límites de aprobación de los aprobadores cuando se crean movimientos de solicitud de aprobación para ellos. Un aprobador calificado es aquel cuyo límite de aprobación es superior al valor de la solicitud que se está realizando. Las siguientes opciones están disponibles: <ol><li>**Cadena de aprobadores** especifica que los movimientos de solicitud de aprobación se crean para todos los aprobadores del solicitante hasta el primer aprobador cualificado, incluido este</li><li>**Aprobador directo** especifica que un movimiento de solicitud de aprobación solo se crea para el aprobador inmediato del solicitante, sea cual sea el límite de aprobación del aprobador.</li><li>**Primer aprobador cualificado** especifica que solo se crea un movimiento de solicitud de aprobación para el primer aprobador cualificado del solicitante.</li></ol>|
     3. Para especificar las opciones para una respuesta de flujo de trabajo que implica crear líneas de diario, rellene los campos tal como se describe en la tabla siguiente.  
 
         |Campo|Description|  
@@ -103,8 +106,8 @@ Para ambos tipos de eventos, los eventos están definidos por el sistema. Se deb
     > [!NOTE]  
     >  Puede cambiar solo la sangría de un paso que no tenga un paso subsiguiente.  
 
-12. Repita los pasos del 7 al 11 para añadir más pasos de flujo de trabajo antes o después del paso que acaba de crear.  
-13. Seleccione la casilla **Habilitado** para especificar que el flujo de trabajo empezará en cuanto se produzca el evento en el primer paso de tipo **Punto de entrada**. Para obtener más información, consulte [Usar flujos de trabajo](across-use-workflows.md).  
+12. Repita los pasos del 7 al 11 para añadir más pasos de flujo de trabajo antes o después del paso que ha creado.  
+13. Active el control de alternancia **Habilitado** para especificar que el flujo de trabajo empezará en cuanto se produzca el evento en el primer paso de tipo **Punto de entrada**. Para obtener más información, consulte [Usar flujos de trabajo](across-use-workflows.md).  
 
 > [!NOTE]  
 > No habilite un flujo de trabajo hasta que esté seguro de que el flujo de trabajo esté completado y que los pasos del flujo de trabajo relacionado puedan comenzar.  
@@ -114,7 +117,7 @@ Para ambos tipos de eventos, los eventos están definidos por el sistema. Se deb
 
 ## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Ejemplo de creación de un nuevo flujo de trabajo utilizando eventos existentes
 
-En el siguiente ejemplo se crea un nuevo flujo de trabajo para aprobar cambios en el nombre de un proveedor existente:
+En el siguiente ejemplo, se crea un nuevo flujo de trabajo para aprobar cambios en el nombre de un proveedor existente:
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Se abre la página **Flujo de trabajo**.
@@ -139,7 +142,7 @@ En el siguiente ejemplo se crea un nuevo flujo de trabajo para aprobar cambios e
     Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
     6. Agregue una tercer respuesta, *Envíe la solicitud de aprobación para el registro y cree una notificación.*  
     7. Agregue una cuarta respuesta, *Mostrar mensaje "%1"* y luego, en la sección **Opciones para la respuesta seleccionada**, en el campo Mensaje, especifique **Se ha enviado una solicitud de aprobación**.  
-    8. Elija el botón Aceptar para volver al paso de flujo de trabajo.  
+    8. Elija el botón **Aceptar** para volver al paso de flujo de trabajo.  
 
 5. En la siguiente línea, agregue un nuevo paso de flujo de trabajo para el evento *Se ha aprobado una solicitud de aprobación.* .  
 
@@ -149,7 +152,7 @@ En el siguiente ejemplo se crea un nuevo flujo de trabajo para aprobar cambios e
 
       El resultado de este paso es que la condición se lee como *Aprobaciones pendientes:0* para indicar que este es el último aprobador.  
     4. En el campo **Respuesta Entonces**, elija el enlace **Seleccionar respuesta** y luego, en la página **Respuestas de flujo de trabajo**, en el campo **Seleccionar respuesta**, elija la respuesta *Envíe una solicitud de aprobación para el registro y cree una notificación*.  
-    5. Elija el botón Aceptar.  
+    5. Elija el botón **Aceptar**.  
 6. En la siguiente línea, agregue un segundo paso de flujo de trabajo para el evento *Se ha aprobado una solicitud de aprobación*.  
 
     1. En el campo **Evento Cuando**, especifique *Se ha aprobado una solicitud de aprobación*.
@@ -157,27 +160,27 @@ En el siguiente ejemplo se crea un nuevo flujo de trabajo para aprobar cambios e
 
       El resultado de este paso es que la condición se lee como *Aprobaciones pendientes:>0* para indicar que este *no* es el último aprobador.  
     3. En el campo **Respuesta Entonces**, elija el enlace **Seleccionar respuesta** y luego, en la página **Respuestas de flujo de trabajo**, en el campo **Seleccionar respuesta**, elija la respuesta *Envíe una solicitud de aprobación para el registro y cree una notificación*.  
-    4. Elija el botón Aceptar.  
-7. En la siguiente línea, agregue un paso de flujo de trabajo para el evento *Se ha rechazado una solicitud de aprobación*.  
+    4. Elija el botón **Aceptar**.  
+7. En la siguiente línea, agregue un paso de flujo de trabajo para el evento *Se ha delegado una solicitud de aprobación*.  
+
+    1. En el campo **Evento Cuando**, especifique *Se ha delegado una solicitud de aprobación*.  
+    2. En el campo **Condición On**, deje el valor como *Siempre*.  
+    3. En el campo **Respuesta Entonces**, elija el enlace **Seleccionar respuesta** y luego, en la página **Respuestas de flujo de trabajo**, en el campo **Seleccionar respuesta**, elija la respuesta *Envíe una solicitud de aprobación para el registro y cree una notificación*.  
+    4. Elija el botón **Aceptar**.  
+8. En la siguiente línea, agregue un segundo paso de flujo de trabajo para el evento *Se ha rechazado una solicitud de aprobación*.  
 
     1. En el campo **Evento Cuando**, especifique *Se ha rechazado una solicitud de aprobación*.  
     2. En el campo **Condición On**, deje el valor como *Siempre*.  
     3. En el campo **Respuesta Entonces**, elija el enlace **Seleccionar respuesta** y luego, en la página **Respuestas de flujo de trabajo**, en el campo **Seleccionar respuesta**, elija la respuesta *Descartar los nuevos valores*.  
     4. Elija el enlace **Agregar más respuestas** y luego agregue una entrada para la respuesta *Rechazar la solicitud de aprobación del registro y crear una notificación*.
-    5. Elija el botón Aceptar.  
-8. En la siguiente línea, agregue un segundo paso de flujo de trabajo para el evento *Se ha rechazado una solicitud de aprobación*.  
+    5. Elija el botón **Aceptar**.  
+9. Para habilitar el flujo de trabajo, active el control de alternancia a **Habilitado**.  
 
-    1. En el campo **Evento Cuando**, especifique *Se ha rechazado una solicitud de aprobación*.  
-    2. En el campo **Condición On**, deje el valor como *Siempre*.  
-    3. En el campo **Respuesta Entonces**, elija el enlace **Seleccionar respuesta** y luego, en la página **Respuestas de flujo de trabajo**, en el campo **Seleccionar respuesta**, elija la respuesta *Envíe una solicitud de aprobación para el registro y cree una notificación*.  
-    4. Elija el botón Aceptar.  
-9. Para habilitar el flujo de trabajo, elija el campo **Habilitado**.  
-
-Las siguientes ilustraciones proporcionan una descripción general del resultado de este procedimiento.  
+La siguiente ilustración proporciona una descripción general del resultado de este procedimiento.  
 
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Ilustración del flujo de trabajo Aprobación del nombre del proveedor.":::
 
-A continuación, debe probar el flujo de trabajo abriendo un proveedor existente y cambiar el nombre. Verifique que se realice una solicitud de aprobación al cambiar el nombre del proveedor.
+A continuación, pruebe el flujo de trabajo abriendo una tarjeta de proveedor existente y cambiando el nombre. Verifique que se envíe una solicitud de aprobación después de cambiar el nombre del proveedor.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077376"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130232"
 ---
 # <a name="use-workflows"></a>Usar flujos de trabajo
 
@@ -52,21 +52,21 @@ Sin embargo, el flujo de trabajo no se aprueba hasta que los aprobadores hayan a
 > [!NOTE]  
 > No es posible crear un flujo de trabajo con varios aprobadores y esperar que se apruebe todo el flujo de trabajo después de que se haya aprobado la primera solicitud. Todas las solicitudes deben aprobarse para que se apruebe el flujo de trabajo.
 
-Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. También es posible crear el mismo flujo de trabajo más de una vez. Cada flujo de trabajo desencadenado por un evento utilizando diferentes filtros. Esto es útil si una solicitud de aprobación en un departamento debe ser aprobada por un aprobador, mientras que las solicitudes de aprobación en otros departamentos deben ser aprobadas por otro aprobador. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
+Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. También es posible crear el mismo flujo de trabajo más de una vez. Cada flujo de trabajo se puede desencadenar por un evento utilizando diferentes filtros. Esto es útil si una solicitud de aprobación en un departamento debe ser aprobada por un aprobador, mientras que las solicitudes de aprobación en otros departamentos deben ser aprobadas por otro aprobador. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
 
- Antes de empezar a utilizar flujos de trabajo, debe configurar usuarios de flujo de trabajo, crear los flujos de trabajo, potencialmente precedidos por personalización del código y especificar cómo reciben notificaciones los usuarios. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).  
+Antes de empezar a utilizar flujos de trabajo, debe configurar usuarios de flujo de trabajo, crear los flujos de trabajo, potencialmente precedidos por personalización del código y especificar cómo reciben notificaciones los usuarios. Para obtener más información, consulte [Configurar flujos de trabajo](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Los pasos habituales del flujo de trabajo están relacionados con usuarios que solicitan aprobación de tareas y aprobadores que aceptan o rechazan las solicitudes de aprobación. Por tanto, muchos temas sobre cómo utilizar los flujos de trabajo hacen referencia a las aprobaciones.  
 
- En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
+ En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.  
 
-|**Para**|**Consulte**|  
+|**Para**|**Vea**|  
 |------------|-------------|  
 |Establecer un flujo de trabajo para comenzar cuando se produzca el primer evento de punto de entrada.|[Activar flujos de trabajo](across-how-to-enable-workflows.md)|  
 |Solicitar aprobación de una tarea como aprobador, aceptar, rechazar o delegar aprobaciones, y enviar o ver notificaciones de aprobación.|[Usar flujos de trabajo de aprobación del producto](across-how-use-approval-workflows.md)|  
 |Cree pasos de flujo de trabajo que restrinjan el uso de cierto tipo de registros antes de producirse un determinado evento, por ejemplo que el registro se apruebe.|[Restringir y permitir el uso de un registro](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Ver los casos del paso del flujo de trabajo con estado de completado.|[Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)|  
+|Ver los casos del paso del flujo de trabajo con estado de **Completado**.|[Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)|  
 |Eliminar un flujo de trabajo que está seguro que no se utilizará más.|[Eliminar flujos de trabajo](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)

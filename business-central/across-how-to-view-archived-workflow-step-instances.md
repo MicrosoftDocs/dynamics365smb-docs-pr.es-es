@@ -1,6 +1,6 @@
 ---
 title: Ver las instancias de paso de flujo de trabajo archivadas
-description: Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**. Cada paso consta de un evento de flujo de trabajo y una respuesta de flujo de trabajo.
+description: Todas las instancias de paso de flujo de trabajo completada se guardan en la página Instancias de paso de flujo de trabajo archivadas. Cada paso consta de un evento de flujo de trabajo y una respuesta de flujo de trabajo.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,36 +9,39 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 99f6507eccebc91c9f530e05ad95ae4b23d5e1e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1913b943cd899fe0903d64da6214225787b002a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523105"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129881"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Ver instancias de paso de flujo de trabajo archivadas
+
 Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**.  
 
- En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
+En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
-## <a name="to-view-archived-workflow-step-instances"></a>Para ver las instancias de paso de flujo de trabajo archivadas  
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
-2.  Abra el flujo de trabajo del que desea ver todas las instancias de paso de flujo de trabajo archivadas.  
-3.  En la página **Flujo de trabajo** , seleccione la acción **Instancias de paso de flujo de trabajo archivadas**.  
+## <a name="to-view-archived-workflow-step-instances"></a>Para ver las instancias de paso de flujo de trabajo archivadas
 
-    Se abre la página **Instancias de paso de flujo de trabajo archivadas** y muestra las instancias de paso de flujo de trabajo archivadas del flujo de trabajo seleccionado.  
-4.  Alternativamente, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Instancias de paso de flujo de trabajo archivadas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
+2. Abra el flujo de trabajo del que desea ver todas las instancias de paso de flujo de trabajo archivadas.  
+3. En la página **Flujo de trabajo** , seleccione la acción **Instancias de paso de flujo de trabajo archivadas**.  
 
-Se abre la página **Instancias de paso de flujo de trabajo archivadas** para mostrar todas las instancias de paso de flujo de trabajo archivadas. En el campo **Código flujo de trabajo** puede ver a qué flujo de trabajo pertenecía la instancia de paso de flujo de trabajo archivada.  
+   Se abre la página **Instancias de paso de flujo de trabajo archivadas** y muestra las instancias de paso de flujo de trabajo archivadas del flujo de trabajo seleccionado.  
+4. Alternativamente, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Instancias de paso de flujo de trabajo archivadas** y luego elija el enlace relacionado.  
 
-## <a name="see-also"></a>Consulte también  
- [Eliminar flujos de trabajo](across-how-to-delete-workflows.md)   
- [Crear flujos de trabajo](across-how-to-create-workflows.md)   
- [Activar flujos de trabajo](across-how-to-enable-workflows.md)   
- [Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Configuración de flujos de trabajo](across-set-up-workflows.md)   
- [Usar flujos de trabajo](across-use-workflows.md)   
- [Flujo de trabajo](across-workflow.md)
+   Se abre la página **Instancias de paso de flujo de trabajo archivadas** para mostrar todas las instancias de paso de flujo de trabajo archivadas. En el campo **Código flujo de trabajo** puede ver a qué flujo de trabajo pertenecía la instancia de paso de flujo de trabajo archivada.  
+
+## <a name="see-also"></a>Consulte también .
+
+[Eliminar flujos de trabajo](across-how-to-delete-workflows.md)  
+[Crear flujos de trabajo](across-how-to-create-workflows.md)  
+[Activar flujos de trabajo](across-how-to-enable-workflows.md)  
+[Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Configurar flujos de trabajo](across-set-up-workflows.md)  
+[Usar flujos de trabajo](across-use-workflows.md)  
+[Flujo de trabajo](across-workflow.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

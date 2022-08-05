@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075087"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129908"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flujos de trabajo en Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] ad
 
 * Flujos de trabajo de aprobación automatizados basados en plantillas de flujo de trabajo integradas  
 
-  En la página **Plantillas de flujo de trabajo**, puede ver todos los flujos de trabajo disponibles. La versión de prueba de [!INCLUDE[prod_short](includes/prod_short.md)] incluye un número de flujos de trabajo preconfigurados que están representados por plantillas de flujo de trabajo que puede copiar para crear flujos de trabajo. Cuando abre una plantilla de flujo de trabajo desde la página **Plantillas de flujo de trabajo** y el nombre del flujo de trabajo comienza por *MS-*, Microsoft agrega la plantilla de flujo de trabajo.  
+  En la página **Plantillas de flujo de trabajo**, puede ver todos los flujos de trabajo disponibles. La versión de prueba de [!INCLUDE[prod_short](includes/prod_short.md)] incluye muchos flujos de trabajo preconfigurados que están representados por plantillas de flujo de trabajo que puede copiar para crear flujos de trabajo. Cuando abre una plantilla de flujo de trabajo desde la página **Plantillas de flujo de trabajo** y el nombre del flujo de trabajo comienza por *MS-*, Microsoft agrega la plantilla de flujo de trabajo.  
 * Flujos automatizados que usted mismo configura  
 
   Cualquier plantilla de flujo de trabajo que cree con Power Automate se agrega a la lista de plantillas de flujo de trabajo en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar Business Central en flujos de Power Automate](across-how-use-financials-data-source-flow.md).  
@@ -32,13 +32,13 @@ La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] ad
 
 ## <a name="power-automate-flows"></a>Flujos de Power Automate
 
-Para [!INCLUDE [prod_short](includes/prod_short.md)] en línea, puede registrarse en Power Automate y luego crear potentes flujos automatizados que puede ejecutar desde dentro de [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en flujos de Power Automate](across-how-use-financials-data-source-flow.md).  
+Con [!INCLUDE [prod_short](includes/prod_short.md)] en línea, puede registrarse en Power Automate y luego crear potentes flujos automatizados que puede ejecutar desde dentro de [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en flujos de Power Automate](across-how-use-financials-data-source-flow.md).  
 
 ## <a name="automated-approval-workflows"></a>Flujos de trabajo de aprobación automatizados
 
 Puede crear un flujo de trabajo de aprobación haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.  
 
-Si un escenario empresarial requiere un evento de flujo de trabajo o una respuesta que no se admite en la versión predeterminada, regístrese en Power Automate. Para obtener más información, consulte [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en flujos de Power Automate](across-how-use-financials-data-source-flow.md). Alternativamente, obtenga una aplicación o trabaje con un socio de Microsoft para personalizar el código de la aplicación.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
 Para configurar y usar flujos de trabajo que no están definidos en Power Automate, consulte los siguientes artículos:  
 

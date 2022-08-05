@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078783"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144145"
 ---
 # <a name="set-up-bank-accounts"></a>Configurar cuentas bancarias
 
@@ -88,7 +88,7 @@ Cuanta mejor información de asignación realice en el diario de conciliación d
 
 ## <a name="to-set-up-bank-accounts"></a>Para configurar bancos
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. En la página **Cuentas bancarias**, elija la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -169,7 +169,7 @@ Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimie
 
 Los campos relacionados con la importación y la exportación de archivos o fuentes de banco se encuentran en la ficha desplegable **Transferencia** en la página **Ficha banco**. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame 2.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Abra la ficha de un banco del que exportará archivos de banco, o al que los importará.
 3. En la ficha desplegable **Transferencia**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -222,14 +222,7 @@ La ilustración muestra la ruta de los pagos salientes:
 
 Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco proveedor** están relacionados con la exportación de archivos o fuentes de banco. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
-2. Abra la ficha de un proveedor a cuya cuenta bancaria exportará los archivos bancarios de pagos.
-3. Elija la acción **Cuentas bancarias**.
-4. Desde la **Lista de cuentas bancarias de proveedores**, elija la cuenta bancaria relevante o agregue una nueva cuenta bancaria.  
-5. En la página **Ficha banco proveedor** de la ventana **Transferencia**, complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Algunos campos de la cuenta bancaria del proveedor pueden contener datos confidenciales, como los campos **Cód. sucursal banco**, **N.º cuenta bancaria**, **Código SWIFT**, y **Código IBAN**. Para más información, consulte [Supervisión de campos confidenciales](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## <a name="changing-your-bank-account"></a>Cambiar su cuenta bancaria
 
@@ -257,6 +250,5 @@ Para obtener una vista más condensada de sus cuentas de caja en los informes fi
 [Conciliación de pagos](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

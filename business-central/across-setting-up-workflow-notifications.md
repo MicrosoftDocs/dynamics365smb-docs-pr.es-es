@@ -1,38 +1,40 @@
 ---
 title: Configurar notificaciones de flujo de trabajo
-description: Este tema le explica cómo configurar notificaciones de flujo de trabajo para alertar a un usuario de que ha ocurrido un evento al que debe reaccionar; se requiere una respuesta de flujo de trabajo.
+description: Este artículo le explica cómo configurar notificaciones de flujo de trabajo para alertar a un usuario de que ha ocurrido un evento al que debe reaccionar; se requiere una respuesta de flujo de trabajo.
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a41dcc291fb46173533f6552b6c64de35d28bc01
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99c08769429eef51a1d52e142d455ccd227781c7
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134023"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130016"
 ---
 # <a name="workflow-notifications"></a>Notificaciones de flujo de trabajo
 
-Configure sus flujos de trabajo para notificar automáticamente a los usuarios cuando se requiera su atención para un paso en ese flujo de trabajo. Muchas respuestas del flujo de trabajo corresponden a la notificación al usuario de un evento que se ha producido y en el que deben realizar una acción. Por ejemplo, en un paso del flujo de trabajo, el evento puede ser que el usuario 1 apruebe la solicitud de un registro nuevo y la respuesta que se envíe una notificación al usuario 2, el aprobador. En el siguiente paso del flujo de trabajo, el evento puede ser que el usuario 2 apruebe el registro y la respuesta que se envíe una notificación al usuario 3 para iniciar el procesamiento relacionado del registro aprobado. En el caso de los pasos del flujo de trabajo relacionados con la aprobación, cada notificación está vinculada a un movimiento de aprobación. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
+Configure sus flujos de trabajo para notificar automáticamente a los usuarios cuando se requiera su atención para un paso en ese flujo de trabajo. Muchas respuestas del flujo de trabajo corresponden a la notificación al usuario de un evento que se ha producido y en el que deben realizar una acción.
+
+Por ejemplo, puede establecer que el Usuario 2, el usuario aprobador, reciba una notificación cada vez que el Usuario 1 solicite la aprobación de un nuevo registro. En el siguiente paso del flujo de trabajo, se notifica al usuario 3 después de que el usuario 2 aprueba el registro para iniciar un procesamiento relacionado del registro. Con los pasos del flujo de trabajo de aprobación, cada notificación está vinculada a un movimiento de aprobación. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
 
 > [!NOTE]  
-> La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] utiliza las notificaciones como correo electrónico y como notas internas.  
+> La versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)] utiliza las notificaciones como correo electrónico y como notas internas.  
 
 > [!IMPORTANT]  
 > Todas las notificaciones de flujo de trabajo se envían a través de una cola de proyectos. Asegúrese de que la cola de proyectos en la instalación está configurada para gestionar las notificaciones de flujo de trabajo, así como que la casilla **Iniciar automáticamente desde servidor** esté seleccionada. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
 ## <a name="set-up-notifications"></a>Configuración de notificaciones
 
-Se configuran distintos aspectos de las notificaciones de flujo de trabajo en los lugares siguientes:  
+Puede configurar distintos aspectos de las notificaciones de flujo de trabajo en los lugares siguientes:  
 
 * Notificación de aprobador
 
     Para los flujos de trabajo de aprobación, configure los destinatarios de las notificaciones del flujo de trabajo rellenando una línea en la página **Config. usuario aprobación** para cada usuario que participe en el flujo de trabajo.  
 
-    Por ejemplo, si se ha especificado el usuario 2 en el campo **Id. aprobador** en la línea del usuario 1, la notificación de solicitud de aprobación se envía el usuario 1. Para obtener más información, vea . Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
+    Por ejemplo, si se ha especificado el usuario 2 en el campo **Id. aprobador** en la línea del usuario 1, la notificación de solicitud de aprobación se envía el usuario 2. Para obtener más información, vea . Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
 * Programaciones de notificación
 
     Para definir cuándo y cómo los usuarios reciben notificaciones de flujo de trabajo debe rellenarse la página **Programación de notificación** para cada usuario del flujo de trabajo. Para obtener más información, consulte [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md).  
@@ -45,13 +47,15 @@ Se configuran distintos aspectos de las notificaciones de flujo de trabajo en lo
 
 * Opciones de respuesta
 
-    Deberá configurarse el contenido específico y las reglas para una notificación de flujo de trabajo al crear el flujo de trabajo en cuestión. Para ello, seleccione las opciones correspondientes en la página **Opciones de respuesta de flujo de trabajo** para la respuesta de flujo de trabajo que represente la notificación. Para obtener más información, consulte el paso 9 en [Crear flujos de trabajo](across-how-to-create-workflows.md).  
+    Deberá configurarse el contenido específico y las reglas para una notificación de flujo de trabajo al crear el flujo de trabajo en cuestión. Seleccione las opciones de personalización en la página **Respuestas de flujo de trabajo** para la respuesta de flujo de trabajo que represente la notificación. Para obtener más información, consulte el paso 9 en [Crear flujos de trabajo](across-how-to-create-workflows.md#to-create-a-workflow).  
 
 * Notificar al remitente
 
-    Para los flujos de trabajo de aprobación, agregue un paso de respuesta de flujo de trabajo para notificar al remitente cuando su solicitud se ha aprobado o rechazado. Para obtener más información, consulte el paso 9 en [Crear flujos de trabajo](across-how-to-create-workflows.md).  
+    Para los flujos de trabajo de aprobación, agregue un paso de respuesta de flujo de trabajo para notificar al remitente cuando su solicitud se ha aprobado o rechazado. Para obtener más información, consulte el paso 9 en [Crear flujos de trabajo](across-how-to-create-workflows.md#to-create-a-workflow).  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
 [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)  
