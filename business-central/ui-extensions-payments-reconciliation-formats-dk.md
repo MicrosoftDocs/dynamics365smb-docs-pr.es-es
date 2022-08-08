@@ -66,7 +66,7 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 |----|--------|---------|---------|---------|
 |¿Número de cuenta de Giro o Número acreedor de FIK? | Número de cuenta de Giro | Número de cuenta de Giro | N.º acreedor de FIK | N.º acreedor de FIK|
 |¿Se permiten los mensajes al destinatario? | Sí |No |No | Sí |
-|¿Contiene el número de referencia de pago? | N.º | Sí, 16 dígitos. | Sí, 15 dígitos. | No|
+|¿Contiene el número de referencia de pago? | No | Sí, 16 dígitos. | Sí, 15 dígitos. | No|
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.  
 2. Abra la ficha, amplíe la pestaña **Pagos**, en el campo **Forma pago** seleccione la forma de pago.  

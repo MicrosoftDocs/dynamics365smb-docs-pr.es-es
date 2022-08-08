@@ -35,8 +35,8 @@ La siguiente table enumera las características que admiten los tres tipos de pr
 |Tipo de producto|Ccial|Compra|Consumo de proyecto|Consumo de servicio|Consumo de ensamblado|Producción Consumo|Salida de ensamblado|Salida de producción|Transferencia de ubicación|Recuento físico|Revalorización de inventario|Inventario y valoración|Seguim. prod.|Reserva|Gestión de almacén|Planific.|Planificación de pedidos|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Grupos contables inventario|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|
-|No inventariado|Sí|Sí|Sí|Sí|Sí|Sí|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|Sí|
-|Servicio|Sí|Sí|Sí|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|N.º|Sí|
+|No inventariado|Sí|Sí|Sí|Sí|Sí|Sí|No|No|No|No|No|No|No|No|No|No|Sí|
+|Servicio|Sí|Sí|Sí|No|No|No|No|No|No|No|No|No|No|No|No|No|Sí|
 
 ## <a name="costing-methods-for-types-of-items"></a>Valoración de existencias para tipos de productos
 Cuando publica transacciones de inventario, las cambios en la cantidad y en los valores del inventario se registran en los movimientos de producto y los movimientos de valores respectivamente. 

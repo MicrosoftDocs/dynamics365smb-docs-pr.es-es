@@ -25,42 +25,42 @@ En la tabla siguiente se muestra la relación entre diferentes tipos de movimien
 |**Tipo mov. producto**|**Tipo movimiento valor**|**Tipo desviación**|**Coste previsto**|**Cuenta**|**Cuenta de contrapartida**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Compra|Coste directo||Sí|Inventario (provisional)|Cta. ajuste invent. (Provis.)|  
-|Compra|Coste directo||N.º|Grupos contables inventario|Coste directo aplic.|  
-|Compra|Coste indirecto||N.º|Grupos contables inventario|Cost. gen. liqd.|  
-|Compra|Desviación|Compra|N.º|Grupos contables inventario|Desviación compras|  
-|Compra|Reevaluación||N.º|Grupos contables inventario|Ajuste inventario|  
-|Compra|Redondeo||N.º|Grupos contables inventario|Ajuste inventario|  
+|Compra|Coste directo||No|Grupos contables inventario|Coste directo aplic.|  
+|Compra|Coste indirecto||No|Grupos contables inventario|Cost. gen. liqd.|  
+|Compra|Desviación|Compra|No|Grupos contables inventario|Desviación compras|  
+|Compra|Reevaluación||No|Grupos contables inventario|Ajuste inventario|  
+|Compra|Redondeo||No|Grupos contables inventario|Ajuste inventario|  
 |Venta|Coste directo||Sí|Inventario (provisional)|Coste ventas (provisional)|  
-|Venta|Coste directo||N.º|Grupos contables inventario|CV|  
-|Venta|Reevaluación||N.º|Grupos contables inventario|Ajuste inventario|  
-|Venta|Redondeo||N.º|Grupos contables inventario|Ajuste inventario|  
-|Ajuste positivo, Ajuste negativo, Transferencia|Coste directo||N.º|Grupos contables inventario|Ajuste inventario|  
-|Ajuste positivo, Ajuste negativo, Transferencia|Reevaluación||N.º|Grupos contables inventario|Ajuste inventario|  
-|Ajuste positivo, Ajuste negativo, Transferencia|Redondeo||N.º|Grupos contables inventario|Ajuste inventario|  
-|(Producción) Consumo|Coste directo||N.º|Grupos contables inventario|WIP|  
-|(Producción) Consumo|Reevaluación||N.º|Grupos contables inventario|Ajuste inventario|  
-|(Producción) Consumo|Redondeo||N.º|Grupos contables inventario|Ajuste inventario|  
-|Consumo de ensamblado|Coste directo||N.º|Grupos contables inventario|Ajuste inventario|  
-|Consumo de ensamblado|Coste directo||N.º|Coste directo aplic.|Ajuste inventario|  
-|Consumo de ensamblado|Coste indirecto||N.º|Cost. gen. liqd.|Ajuste inventario|  
+|Venta|Coste directo||No|Grupos contables inventario|CV|  
+|Venta|Reevaluación||No|Grupos contables inventario|Ajuste inventario|  
+|Venta|Redondeo||No|Grupos contables inventario|Ajuste inventario|  
+|Ajuste positivo, Ajuste negativo, Transferencia|Coste directo||No|Grupos contables inventario|Ajuste inventario|  
+|Ajuste positivo, Ajuste negativo, Transferencia|Reevaluación||No|Grupos contables inventario|Ajuste inventario|  
+|Ajuste positivo, Ajuste negativo, Transferencia|Redondeo||No|Grupos contables inventario|Ajuste inventario|  
+|(Producción) Consumo|Coste directo||No|Grupos contables inventario|WIP|  
+|(Producción) Consumo|Reevaluación||No|Grupos contables inventario|Ajuste inventario|  
+|(Producción) Consumo|Redondeo||No|Grupos contables inventario|Ajuste inventario|  
+|Consumo de ensamblado|Coste directo||No|Grupos contables inventario|Ajuste inventario|  
+|Consumo de ensamblado|Coste directo||No|Coste directo aplic.|Ajuste inventario|  
+|Consumo de ensamblado|Coste indirecto||No|Cost. gen. liqd.|Ajuste inventario|  
 |(Producción) Salida|Coste directo||Sí|Inventario (provisional)|WIP|  
-|(Producción) Salida|Coste directo||N.º|Grupos contables inventario|WIP|  
-|(Producción) Salida|Coste indirecto||N.º|Grupos contables inventario|Cost. gen. liqd.|  
-|(Producción) Salida|Desviación|Material|N.º|Grupos contables inventario|Desviac. material|  
-|(Producción) Salida|Desviación|Capacidad|N.º|Grupos contables inventario|Desviac. capacidad|  
-|(Producción) Salida|Desviación|Subcontratados|N.º|Grupos contables inventario|Desviac. subcontratada|  
-|(Producción) Salida|Desviación|Cost. gen. capdad.|N.º|Grupos contables inventario|Desv. coste gen. cap|  
-|(Producción) Salida|Desviación|Cost. gen. fabricación|N.º|Grupos contables inventario|Desv. coste gen. fab.|  
-|(Producción) Salida|Reevaluación||N.º|Grupos contables inventario|Ajuste inventario|  
-|(Producción) Salida|Redondeo||N.º|Grupos contables inventario|Ajuste inventario|  
-|Salida de ensamblado|Coste directo||N.º|Grupos contables inventario|Ajuste inventario|  
-|Salida de ensamblado|Reevaluación||N.º|Grupos contables inventario|Ajuste inventario|  
-|Salida de ensamblado|Coste indirecto||N.º|Grupos contables inventario|Cost. gen. liqd.|  
-|Salida de ensamblado|Desviación|Material|N.º|Grupos contables inventario|Desviac. material|  
-|Salida de ensamblado|Desviación|Capacidad|N.º|Grupos contables inventario|Desviac. capacidad|  
-|Salida de ensamblado|Desviación|Cost. gen. capdad.|N.º|Grupos contables inventario|Desv. coste gen. cap|  
-|Salida de ensamblado|Desviación|Cost. gen. fabricación|N.º|Grupos contables inventario|Desv. coste gen. fab.|  
-|Salida de ensamblado|Redondeo||N.º|Grupos contables inventario|Ajuste inventario|  
+|(Producción) Salida|Coste directo||No|Grupos contables inventario|WIP|  
+|(Producción) Salida|Coste indirecto||No|Grupos contables inventario|Cost. gen. liqd.|  
+|(Producción) Salida|Desviación|Material|No|Grupos contables inventario|Desviac. material|  
+|(Producción) Salida|Desviación|Capacidad|No|Grupos contables inventario|Desviac. capacidad|  
+|(Producción) Salida|Desviación|Subcontratados|No|Grupos contables inventario|Desviac. subcontratada|  
+|(Producción) Salida|Desviación|Cost. gen. capdad.|No|Grupos contables inventario|Desv. coste gen. cap|  
+|(Producción) Salida|Desviación|Cost. gen. fabricación|No|Grupos contables inventario|Desv. coste gen. fab.|  
+|(Producción) Salida|Reevaluación||No|Grupos contables inventario|Ajuste inventario|  
+|(Producción) Salida|Redondeo||No|Grupos contables inventario|Ajuste inventario|  
+|Salida de ensamblado|Coste directo||No|Grupos contables inventario|Ajuste inventario|  
+|Salida de ensamblado|Reevaluación||No|Grupos contables inventario|Ajuste inventario|  
+|Salida de ensamblado|Coste indirecto||No|Grupos contables inventario|Cost. gen. liqd.|  
+|Salida de ensamblado|Desviación|Material|No|Grupos contables inventario|Desviac. material|  
+|Salida de ensamblado|Desviación|Capacidad|No|Grupos contables inventario|Desviac. capacidad|  
+|Salida de ensamblado|Desviación|Cost. gen. capdad.|No|Grupos contables inventario|Desv. coste gen. cap|  
+|Salida de ensamblado|Desviación|Cost. gen. fabricación|No|Grupos contables inventario|Desv. coste gen. fab.|  
+|Salida de ensamblado|Redondeo||No|Grupos contables inventario|Ajuste inventario|  
 
 ## <a name="from-the-capacity-ledger"></a>Desde los movimientos de capacidad  
  En la tabla siguiente se muestra la relación entre diferentes tipos de movimientos de valoración de capacidad así como las cuentas y las cuentas de contrapartida en contabilidad. Los movimientos de capacidad representan el tiempo de trabajo consumido en trabajos de ensamblado o de producción.  
