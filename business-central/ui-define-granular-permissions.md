@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729834"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227505"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 
@@ -82,6 +82,10 @@ Para definir rápidamente un nuevo grupo de usuarios, puede copiar todos los con
 3. En el campo **Nuevo código de grupo de usuarios**, introduzca el nombre del grupo y después seleccione el botón **Aceptar**.
 
 El nuevo grupo de usuarios se agrega a la página **Grupos de usuarios**. Empiece a agregar usuarios. Para obtener más información, consulte la sección [Para agregar usuarios a un grupo de usuarios](#to-add-users-to-a-user-group).  
+
+> [!IMPORTANT]
+> Obtendrá un error de validación si intenta asignar al usuario un grupo de usuarios que se refiera a un conjunto de permisos definido en una extensión desinstalada. Es porque el ID de la aplicación de la extensión se valida cada vez que se hace referencia a ella. Para asignar ese grupo de usuarios a un usuario, puede volver a instalar la extensión, eliminar la referencia de la extensión desinstalada del conjunto de permisos o eliminar ese conjunto de permisos del grupo de usuarios.
+
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Para asignar conjuntos de permisos a grupos de usuarios
 

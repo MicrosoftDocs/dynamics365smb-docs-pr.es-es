@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074697"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227478"
 ---
 # <a name="create-jobs"></a>Crear proyectos
 
@@ -43,7 +43,15 @@ Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proy
 3. Para especificar el proyecto con la información sobre otros proyectos, elija la acción **Copiar proyecto**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
 > [!NOTE]  
->   Si utiliza las hojas de horas con su proyecto, también debe designar una persona responsable. Esta persona puede aprobar las hojas de horas para las tareas de empleados asociadas con el proyecto. Para obtener más información, consulte [Configurar hojas de horas](projects-how-setup-time-sheets.md).
+> Si utiliza las hojas de horas con su proyecto, también debe designar una persona responsable. Esta persona puede aprobar las hojas de horas para las tareas de empleados asociadas con el proyecto. Para obtener más información, consulte [Configurar partes de horas](projects-how-setup-time-sheets.md).
+
+Opcionalmente, marque las acciones del proyecto como bloqueadas utilizando el campo **Bloqueado**. la siguiente tabla describe el efecto de las opciones de este campo.
+
+|Opción  |Descripción  |
+|---------|---------|
+|En blanco |Se permiten todas las acciones.|
+|Registrar    |Podrá trabajar con las líneas de planificación, pero estará bloqueado el registro para el proyecto. Si elige esta opción, no podrá registrar ningún consumo o ventas relacionados con el proyecto.|
+|Todo  |Todas las acciones están bloqueadas.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Para crear tareas para un proyecto
 
