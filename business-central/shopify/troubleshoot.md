@@ -1,18 +1,18 @@
 ---
 title: Solución de problemas de Shopify y sincronización de Business Central
 description: Descubra qué hacer si algo falla durante la sincronización de datos entre Shopify y Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129646"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317251"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Solución de problemas de Shopify y sincronización de Business Central
 
@@ -86,6 +86,16 @@ Los siguientes procedimientos describen cómo rotar el token de acceso utilizado
 2. Seleccione la tienda para la que desea girar el token de acceoso para abrir la página **Tarjeta de tienda de Shopify**.
 3. Elija la acción **Solicitar acceso**.
 4. Si se le solicita, inicie sesión en su cuenta de Shopify, revise la privacidad y los permisos, y luego elija el botón **Instalar aplicación**.
+
+## <a name="known-issues"></a>Problemas conocidos
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Gen. Bus. Grupo de contabilización debe tener un valor en Cliente. No puede estar vacío o ser cero.
+
+Rellene el campo **Código de plantilla de cliente** en la ventana **Tarjeta de tienda de Shopify** con la plantilla que tiene **Grupo contable negocio**. La plantilla de cliente se utiliza no solo para la creación de clientes, sino también para el cálculo del precio de venta y durante la creación de documentos de venta.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>La importación de datos a su tienda Shopify no está habilitada. Vaya a la tarjeta de la tienda para habilitarla.
+
+En la **Tarjeta de tienda de Shopify**, active la opción **Permitir la sincronización de datos para Shopify**.  Esta opción está destinada a proteger la tienda en línea de obtener datos de demostración de [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>Consulte también .
 

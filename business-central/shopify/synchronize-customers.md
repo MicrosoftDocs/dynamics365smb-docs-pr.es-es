@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077793"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317332"
 ---
 # <a name="synchronize-customers"></a>Sincronizar clientes
 
@@ -47,7 +47,7 @@ Da igual si importa clientes desde Shopify de forma masiva o junto con la import
 |**Tipo de asignación de cliente**|Defina cómo desea que el conector realice la asignación.<br>- **Por correo electrónico/teléfono** si desea que el conector asigne el cliente de Shopify importado a un cliente existente en [!INCLUDE[prod_short](../includes/prod_short.md)] utilizando el correo electrónico y el teléfono.</br>- **Por información de dirección de facturación** si desea que el conector asigne el cliente de Shopify importado a un cliente existente en [!INCLUDE[prod_short](../includes/prod_short.md)] utilizando la información de la parte que recibe la factura.</br>Seleccione **Tomar siempre el cliente predeterminado** si desea que el sistema utilice un cliente del campo **N.º de cliente predeterminado** . |
 |**Shopify puede actualizar clientes**| Seleccione si desea que el conector actualice los clientes que se encuentran, cuando las opciones **Por correo electrónico/teléfono** o **Por información de dirección de facturación** se han seleccionado en el campo **Tipo de asignación de cliente**.|
 |**Crear clientes desconocidos automáticamente**| Seleccione si desea que el conector cree los clientes que falten cuando las opciones **Por correo electrónico/teléfono** o **Por información de dirección de facturación** se hayan seleccionado en el campo **Tipo de asignación de cliente**. Se creará un nuevo cliente usando datos importados y el **Código de plantilla de cliente** definido en las páginas **Ficha de tienda de Shopify** o **Plantilla de cliente de Shopify**. Tenga en cuenta que el cliente de Shopify debe tener al menos una dirección. Si esta opción no está habilitada, deberá crear un cliente manualmente y vincularlo al cliente de Shopify. Siempre puede iniciar la creación de un cliente manualmente desde la página **Pedido de Shopify**.|
-|**Código de plantilla de cliente**|Se usa con **Creación automática de clientes desconocidos**.<br> Elija la plantilla predeterminada que se utilizará para los clientes creados automáticamente. Asegúrese de que la plantilla seleccionada contenga los campos obligatorios, como los campos **Grupo de registro de negocio general**, **Grupo de registro de clientes**, IVA o campos relacionados con impuestos.<br> Puede definir plantillas por país o región en la página **Plantillas de clientes de Shopify**, que es útil para el cálculo de impuestos adecuado. Para obtener más información, consulte [Observaciones sobre impuestos](synchronize-orders.md#tax-remarks).|
+|**Código de plantilla de cliente**|Se usa con **Creación automática de clientes desconocidos**.<br> Elija la plantilla predeterminada que se utilizará para los clientes creados automáticamente. Asegúrese de que la plantilla seleccionada contenga los campos obligatorios, como los campos **Grupo de registro de negocio general**, **Grupo de registro de clientes**, IVA o campos relacionados con impuestos.<br> Puede definir plantillas por país o región en la página **Plantillas de clientes de Shopify**, que es útil para el cálculo de impuestos adecuado. <br>Para obtener más información, consulte [Configuración de impuestos](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Plantilla de cliente por país
 
@@ -57,7 +57,8 @@ La **Plantilla de cliente de Shopify** le permite hacer lo siguiente para cada p
 
 1. Especificar el **N.º de cliente genérico**, que tiene prioridad sobre la selección en los campos **Importación de clientes desde Shopify** y **Tipo de asignación de cliente**. Se utiliza en el pedido de venta importado.
 2. Defina el **Código de plantilla de cliente**, que se utiliza para crear clientes que falten si se ha habilitado **Crear clientes desconocidos automáticamente**. Si el **Código de plantilla de cliente** está vacío, entonces la función usa el **Código de plantilla de cliente** definido en la **Ficha de tienda de Shopify**.
-3. En algunos casos, el **Código de plantilla de cliente** definido para el país no es suficiente para garantizar el cálculo correcto de los impuestos. Por ejemplo, para países con impuesto sobre las ventas. En este caso, **Áreas fiscales** podría ser una adición útil.
+3. Defina si los precios incluyen impuestos/IVA para pedidos importados.
+4. En algunos casos, el **Código de plantilla de cliente** definido para el país no es suficiente para garantizar el cálculo correcto de los impuestos. Por ejemplo, para países con impuesto sobre las ventas. En este caso, **Áreas fiscales** podría ser una adición útil.
 
 > [!NOTE]  
 > Los códigos de país son códigos de país ISO 3166-1 alfa-2. Para obtener más información, consulte [Código de país](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,7 +69,7 @@ Los clientes existentes se pueden exportar a Shopify de forma masiva. Como resul
 
 |Campo|Descripción|
 |------|-----------|
-|**Exportar clientes a Shopify**|Seleccione si planea exportar todos los clientes con una dirección de correo electrónico válida desde [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify de forma masiva usando la acción **Sincronizar clientes** o mediante una cola de trabajos para actualizaciones periódicas.|
+|**Exportar clientes a Shopify**|Seleccione si planea exportar todos los clientes con una dirección de correo electrónico válida desde [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify de forma masiva usando la acción **Sincronizar clientes** o mediante una cola de trabajos para actualizaciones periódicas.<br> Al exportar clientes con provincias/estados, asegúrese de que **Código ISO** se rellena para países/regiones.|
 |**Puede actualizar clientes de Shopify**|Se usa junto con el ajuste **Exportar cliente a Shopify**. Habilite la opción si desea generar actualizaciones más tarde desde [!INCLUDE[prod_short](../includes/prod_short.md)] para los clientes que ya existen en Shopify.|
 
 > [!NOTE]  

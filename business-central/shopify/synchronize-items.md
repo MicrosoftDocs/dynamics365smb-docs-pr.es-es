@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c7aea0d0b3d9a8902e704a2d390d6a244e8cbbef
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808964"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317305"
 ---
 # <a name="synchronize-items-and-inventory"></a>Sincronizar artículos e inventario
 
@@ -89,6 +89,8 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 |**Inventario seguido**|Elija cómo el sistema debe llenar el campo **Seguimiento de inventario** para productos exportados a Shopify. Puede actualizar la información de disponibilidad desde [!INCLUDE[prod_short](../includes/prod_short.md)] para productos en Shopify cuyo inventario de seguimiento está habilitado. Para obtener más información, vea [Inventario](synchronize-items.md#sync-inventory-to-shopify).|
 |**Directiva de inventario predeterminada**|Escoja *Denegar* para evitar existencias negativas del lado de Shopify. |
 |**Puede actualizar productos de Shopify**|Defina si [!INCLUDE[prod_short](../includes/prod_short.md)] solo puede crear elementos o también puede actualizar elementos. Seleccione esta opción si, después de la sincronización inicial desencadenada por la acción **Agregar artículo**, planea actualizar los productos manualmente usando la acción **Sincronizar producto** o a través de la cola de trabajos para actualizaciones periódicas. Recuerde seleccionar **A Shopify** en el campo **Sincronización de elementos**.|
+|**Código de plantilla de cliente**|Elija la plantilla predeterminada que se utilizará durante el cálculo del precio. Para obtener más información, consulte [Configurar impuestos](setup-taxes.md).|
+
 
 ### <a name="fields-mapping-overview"></a>Información general de asignaciones de campos
 
@@ -100,7 +102,7 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 |Título de página SEO|Valor fijo: vacío, vea [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hock-updates-of-shopify-products). |No utilizado.|
 |Descripción meta de SEO|Valor fijo: vacío, vea [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hock-updates-of-shopify-products). |No utilizado.|
 |Medios|**Imagen**, para más información, vea [Sincronizar imágenes de artículos](synchronize-items.md#sync-item-images)|**Imagen**|
-|Precio|El cálculo del precio del cliente final incluye el grupo de precios del artículo, el grupo de descuento del artículo, el código de moneda y el código de plantilla de cliente. |No utilizado.|
+|Precio|El cálculo del precio del cliente final incluye el grupo de precios del artículo, el grupo de descuento del artículo, el código de moneda y el código de plantilla de cliente. |**Precio unitario**|
 |Comparar por precio|El cálculo del precio sin descuento incluye el grupo de precios del artículo, el grupo de descuento del artículo, el código de moneda y el código de plantilla de cliente. |No utilizado.|
 |Coste por artículo|**Coste unitario**|**Coste unitario**|
 |UA|Vea **Asignación de SKU** en [Exportar elementos a Shopify](synchronize-items.md#export-items-to-shopify)| Vea [Cómo el SKU y el código de barras definidos en el producto de Shopify afectan al mapeo y la creación de artículos y variantes](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
@@ -111,7 +113,7 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 |Proveedor|**Nombre** del proveedor según el **N.º de proveedor** |Asignación de **N.º de proveedor** por nombre.|
 |Peso|**Peso bruto**.|No utilizado.|
 |Gravable|Valor fijo: habilitado.|No utilizado.|
-|Códigos impositivos|**Código de grupo de impuestos**. Solo relevante para los impuestos. Para obtener más información, consulte [impuesto](synchronize-orders.md#tax-remarks). |No utilizado.|
+|Códigos impositivos|**Código de grupo de impuestos**. Solo relevante para los impuestos. Para obtener más información, consulte [Configurar impuestos](setup-taxes.md). |No utilizado.|
 
 ### <a name="tags"></a>Etiquetas
 
@@ -197,7 +199,7 @@ Los precios se pueden exportar para artículos sincronizados de las formas que s
 
 ### <a name="price-calculation-remarks"></a>Observaciones de cálculo de precios
 
-* Para el cálculo del precio, es importante tener un valor en el campo **Plantilla de cliente predeterminada**. [!INCLUDE[prod_short](../includes/prod_short.md)] utiliza el valor del campo **Grupo empresarial IVA** para calcular el precio con IVA incluido. Es posible que desee crear un grupo de precios de clientes en el que seleccione el campo **Precio con IVA incluido** y especifique el valor relevante en el campo **(Precio) gr. publicación comercial IVA**.
+* Para el cálculo del precio, es importante tener un valor en el campo **Plantilla de cliente predeterminada**. Para obtener más información, consulte [Configurar impuestos](setup-taxes.md).
 * Introduzca un **Código de moneda** si su tienda en línea utiliza una moneda diferente a LCY. La divisa especificada debe tener tipos de cambio configurados. Si su tienda en línea usa la misma divisa que [!INCLUDE[prod_short](../includes/prod_short.md)], deje el campo vacío.
 * Al determinar un precio, [!INCLUDE[prod_short](../includes/prod_short.md)] utiliza la lógica del "Precio más bajo". Significa que si el precio unitario definido en la ficha del artículo es inferior al definido en el grupo de precios, se utiliza el precio unitario de la ficha del artículo.
 

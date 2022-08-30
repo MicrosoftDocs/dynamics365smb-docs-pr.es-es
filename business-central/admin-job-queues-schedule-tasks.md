@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed56b0724b19d971b8dc98ea79807423403fd83
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129771"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317440"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 
-Las colas de proyectos permiten a los usuarios programar y ejecutar informes y codeunits específicos. Puede configurar proyectos para que se ejecuten una vez o de manera periódica. Por ejemplo, es posible que desee ejecutar el informe **Vendedor * Estadísticas de ventas** semanalmente para realizar un seguimiento de las ventas por vendedor cada semana o ejecutar la codeunit **Solicitudes de aprobación de delegados** diariamente, para evitar que los documentos se acumulen.
+Las colas de proyectos permiten a los usuarios programar y ejecutar informes y codeunits específicos. Puede configurar proyectos para que se ejecuten una vez o de manera periódica. Por ejemplo, es posible que desee ejecutar el informe **Vendedor - Estadísticas de ventas** semanalmente para realizar un seguimiento de las ventas por vendedor cada semana o ejecutar la codeunit **Solicitudes de aprobación de delegados** diariamente, para evitar que los documentos se acumulen.
 
 La página **Entradas de cola de proyectos** enumera todos los proyectos existentes. Si agrega una nueva entrada de cola de trabajos que desea programar, debe proporcionar cierta información. Por ejemplo:
 * El tipo de objeto que desea ejecutar, como un informe o una codeunit. Debe tener permiso para ejecutar el informe o la codeunit en particular.
