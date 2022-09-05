@@ -7,55 +7,53 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 1877, 470, 471, 472
+ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: e0703d6dfccc2ec97213c89f42b8d74b3d320e1c
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130124"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361588"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 
-Los consumidores y las empresas pagan el impuesto sobre el valor añadido (IVA) cuando compran mercancías o servicios. El importe de IVA a pagar puede variar, dependiendo de varios factores. En [!INCLUDE[prod_short](includes/prod_short.md)], puede configurar el IVA para especificar las tasas que se usarán para calcular los importes de impuesto a partir de los siguientes parámetros:
+Los consumidores y las empresas pagan el impuesto sobre el valor añadido (IVA) cuando compran mercancías o servicios. El importe de IVA a pagar puede variar, dependiendo de varios factores. En [!INCLUDE[prod_short](includes/prod_short.md)], puede configurar el IVA para especificar las tasas que usó para calcular los importes de impuesto a partir de los siguientes parámetros:
 
 * A quién vende  
 * A quién compra  
 * Qué vende  
 * Qué compra  
 
-Puede configurar los cálculos de IVA de forma manual, pero puede ser difícil y largo. Para que sea fácil, proporcionamos una guía de configuración asistida denominada **Configuración de IVA** que le ayudará con los pasos. Es recomendable que use la guía de configuración asistida para configurar el IVA.
+Puede configurar los cálculos de IVA de forma manual, pero puede ser difícil y largo. La razón es que es muy sencillo usar tasas de IVA distintas por error, y crear informes relacionados con IVA inexactos. Para facilitar la configuración del IVA, le recomendamos que utilice la guía asistida **Configuración de IVA** provista en el producto. 
 
-> [!NOTE]  
-> Puede usar la guía únicamente si ha creado una mi empresa, y no haya registrado transacciones que incluyen IVA. De lo contrario, sería muy sencillo usar tasas de IVA distintas por error, y crear informes relacionados con IVA inexactos.  
-
-Si desea configurar cálculos del IVA, o solo desea obtener información acerca de cada paso, este artículo contiene descripciones de cada paso.  
+Sin embargo, si desea configurar los cálculos del IVA, o solo desea obtener información acerca de cada paso, este artículo contiene descripciones de cada paso.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Usar la guía de configuración asistida Configuración de IVA para configurar el IVA (recomendado)
+## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>Configurar el IVA mediante la guía de configuración asistida (recomendado) 
 
-Es recomendable que use la guía de configuración asistida Configuración de IVA para configurar el IVA en [!INCLUDE[prod_short](includes/prod_short.md)].
+> [!NOTE]
+> Puede usar la guía **Configuración de IVA** únicamente si ha creado una *Mi empresa* y no ha registrado transacciones que incluyen IVA todavía.
 
 Para iniciar la guía de configuración asistida, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida**.  
-2. Escoger **Configurar IVA** y completa los pasos.
-3. Cuando haya completado la configuración asistida, visite la página **Configuración de registro de IVA** y verifique si debe completar campos adicionales de acuerdo con los requisitos locales de su versión de [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Funciones locales en Business Central](about-localization.md)  
+1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") y escriba **Configuración asistida**. 
+2. Escoja **Configurar IVA** y complete los pasos.
+3. Cuando haya completado la configuración asistida, visite la página **Configuración de registro de IVA** para verificar si necesita completar campos adicionales de acuerdo con los requisitos locales de su versión de [!INCLUDE [prod_short](includes/prod_short.md)]. Obtenga más información en [Funcionalidad local en Business Central](about-localization.md).  
 
 ### <a name="check-the-vat-posting-setup"></a>Comprobar la configuración de registro de IVA
 
-Para ayudarle a empezar rápido, [!INCLUDE [prod_short](includes/prod_short.md)] le mostrará notificaciones si le faltan cuentas de contabilidad general (CG) en grupos contables o configuraciones de registro, como la página **Configuración de registro de IVA**. Puede activar o desactivar este tipo de notificación utilizando la notificación *Cuentas contables que faltan en grupo de registro o configuración* en la página **Mis notificaciones**. Solo tiene que ir a la página **Mi configuración** y luego elegir *Cambiar cuándo recibo notificaciones.* .  
+Para ayudarle a empezar rápido, [!INCLUDE [prod_short](includes/prod_short.md)] le notifica si le faltan cuentas de contabilidad general (CG) en grupos contables o configuraciones de registro, como en la página **Configuración de registro de IVA**. Puede activar o desactivar este tipo de notificación utilizando la notificación *Cuentas contables que faltan en grupo de registro o configuración* en la página **Mis notificaciones**. Solo tiene que ir a la página **Mi configuración** y luego elegir *Cambiar cuándo recibo notificaciones.* .  
 
 Si elige esta notificación, [!INCLUDE [prod_short](includes/prod_short.md)] crea automáticamente esas configuraciones de registro en función de los grupos de registro en el documento o diario en el que esté trabajando actualmente.  
 
-En este punto, puede completar las cuentas de contabilidad general que falten. Más adelante, cuando redefina aún más la configuración, es posible que se dé cuenta de que esta configuración era errónea. [!INCLUDE [prod_short](includes/prod_short.md)] no permite la eliminación de la configuración de registro de IVA y la configuración de registro general cuando se crean entradas basadas en dichas configuraciones. A partir del primer lanzamiento de versiones de 2022, puede usar el campo **Bloqueado** en la página **Configuración de registro de IVA** para evitar que los usuarios utilicen por error una configuración que ya no es pertinente para los nuevos registros.
+En este punto, puede completar las cuentas de contabilidad general que falten. Sin embargo, más adelante, cuando redefina aún más la configuración, es posible que se dé cuenta de que esta configuración era errónea. Y [!INCLUDE [prod_short](includes/prod_short.md)] no permite la eliminación de una configuración de registro de IVA y la configuración de registro general cuando se han creado entradas basadas en dichas configuraciones. Por lo tanto, a partir del primer lanzamiento de versiones de 2022, puede usar el campo **Bloqueado** en la página **Configuración de registro de IVA** para evitar que los usuarios utilicen por error una configuración que ya no es pertinente para los nuevos registros.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Configurar números CIF/NIF para su país o región
 
-Para ayudar a garantizar que las personas introduzcan números CIF/NIF válidos, puede definir formatos que se usan en los países o regiones con los que mantiene relaciones comerciales. [!INCLUDE[prod_short](includes/prod_short.md)] mostrará un mensaje de error cuando alguien cometa un error o utilice un formato que sea incorrecto para el país o región.
+Para ayudar a garantizar que las personas introduzcan números CIF/NIF válidos, puede definir formatos que se usan en los países o regiones con los que mantiene relaciones comerciales. [!INCLUDE[prod_short](includes/prod_short.md)] mostrará un mensaje de error si alguien comete un error o utiliza un formato que sea incorrecto para el país o región.
 
 Para configurar números CIF/NIF, realice los pasos siguientes:
 
@@ -67,26 +65,27 @@ Para configurar números CIF/NIF, realice los pasos siguientes:
 * **@** Requiere una letra. Este formato no distingue entre mayúsculas y minúsculas.  
 * **?** Permite cualquier carácter.  
 
-    > [!Tip]
-    > Puede usar otros caracteres siempre que estén presentes en el formato de país o región. Por ejemplo, si necesita incluir un punto o un guión entre conjuntos de números, puede definir el formato como ##.####.### or @@-###-###.  
+    > [!TIP]
+    > Puede usar otros caracteres siempre que estén presentes en el formato de país o región. Por lo tanto, si necesita incluir un punto o un guión entre conjuntos de números, puede definir el formato como ##.####.### or @@-###-###.  
 
 ## <a name="set-up-vat-business-posting-groups"></a>Configuración de grupos de registro de IVA de negocio
 
 El grupo de registro de IVA de negocio debería representar los mercados en los que trabaje con clientes y proveedores, y definir cómo calcular y registrar el IVA en cada mercado. Ejemplos de grupos de registro de IVA de negocio son **Nacional** y **Unión Europea (EU)**.  
 
-Use códigos fáciles de recordar y que describan el grupo de registro de negocio, como **UE**, **No UE** o **Nacional**. El código debe ser único. Puede configurar tantos códigos como desee, pero no puede aparecer el mismo código más de una vez en una tabla.
+Use códigos fáciles de recordar y que describan el grupo de registro de negocio, como **UE**, **No UE** o **Nacional**. Cada código debe ser único, lo que significa que puede configurar tantos códigos como desee, pero no puede aparecer el mismo código más de una vez en una tabla.
 
 Para configurar un grupo de registro de IVA de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la función Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupo de registro de IVA de negocio** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro de IVA de negocio** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
-Para configurar grupos de registro de IVA de negocio predeterminados deberá vincularlos a grupos contables de negocio. [!INCLUDE[prod_short](includes/prod_short.md)]asigna automáticamente el grupo de registro de IVA de negocio cuando asigne el grupo de registro de negocio relevante a un cliente, proveedor o cuenta contable.
+Puede configurar grupos de registro de IVA de negocio predeterminados deberá vincularlos a grupos contables de negocio. [!INCLUDE[prod_short](includes/prod_short.md)]asigna automáticamente el grupo de registro de IVA de negocio cuando asigne el grupo de registro de negocio relevante a un cliente, proveedor o cuenta contable.
 
 ## <a name="set-up-vat-product-posting-groups"></a>Configurar grupos de registro de IVA de producto
 
-Los grupos de registro de IVA de producto representan los productos y los recursos que compra o vende, y determinan cómo se calcula y se registra el IVA en función del tipo de producto o que se adquiera o se venda.  
-Conviene utilizar códigos que sean fáciles de recordar y que describan el tipo, como **SIN IVA** o **Cero**, **IVA10** o **Reducido** para el IVA del 10 % e **IVA25** o **Estándar** para el 25 %.
+Los grupos de registro de IVA de producto representan los productos y los recursos que compra o vende, y determinan cómo se calcula y se registra el IVA en función del tipo de producto o recurso.
+
+Conviene utilizar códigos que sean fáciles de recordar y que describan el tipo, como **SIN IVA** o **Cero**, **IVA10** o **Reducido** para el IVA del 10 por ciento e **IVA25** o **Estándar** para el 25 por ciento.
 
 Para configurar un grupo de registro de IVA de negocio, realice los pasos siguientes:
 
@@ -141,11 +140,11 @@ En las secciones siguientes se describe cómo asignar los grupos de registro de 
 
 ## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Configurar cláusulas para explicar la exención del IVA o los tipos de IVA no estándar
 
-Configura una cláusula de IVA para describir información acerca del tipo de IVA que se está aplicando. La legislación puede requerir la información. Una vez que haya configurado una cláusula de IVA y la haya asociado a una configuración de registro de IVA, la cláusula de IVA se muestra en los documentos de venta impresos que usan ese grupo de configuración de registro de IVA.
+Configura una cláusula de IVA para describir información acerca del tipo de IVA que se está aplicando. Las leyes gubernamentales pueden requerir la información. Una vez que haya configurado una cláusula de IVA y la haya asociado a una configuración de registro de IVA, la cláusula de IVA se muestra en los documentos de venta impresos que usan ese grupo de configuración de registro de IVA.
 
 Si es necesario, también puede especificar cómo traducir las cláusulas de IVA a otros idiomas. A continuación, cuando cree e imprima un documento de venta que contenga un identificador de IVA, el documento traducido incluirá la cláusula de IVA. El código de idioma especificado en la ficha de cliente determina el idioma.
 
-Cuando se usan tipos de IVA no estándar en diferentes tipos de documentos, como facturas o abonos, a las empresas generalmente se les exige que incluyan un texto de exención (cláusula de IVA) que indique por qué se ha calculado un tipo de IVA reducido o cero. Puede definir diferentes cláusulas de IVA que se incluirán en los documentos comerciales por tipo de documento, como factura o abono. Haces esto en la página **Cláusulas de IVA por tipo de documento**.
+Cuando se usan tipos de IVA no estándar en diferentes tipos de documentos, como facturas o abonos, a las empresas generalmente se les exige que incluyan un texto de exención (cláusula de IVA) que indique por qué se ha calculado un tipo de IVA reducido o cero. Puede definir diferentes cláusulas de IVA que se incluirán en los documentos comerciales por tipo de documento, como factura o abono. Hace esto en la página **Cláusulas de IVA por tipo de documento**.
 
 Puede modificar o eliminar una cláusula de IVA, y las modificaciones se reflejarán en un informe generado. Sin embargo, [!INCLUDE[prod_short](includes/prod_short.md)] no mantiene un historial de cambios. En el informe, la descripciones de cláusula de IVA se imprimen y se muestran para todas las líneas del informe junto al importe de IVA y el importe base de IVA. Si una cláusula de IVA no se ha definido para ninguna línea en el documento de venta, se omite toda la sección cuando se imprima el informe.
 
@@ -179,13 +178,13 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 
 1. Elija el icono ![Bombilla que abre la función Dígame 11.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el vínculo relacionado.  
 2. Elija la acción **Textos ampliados**.  
-3. Rellene los campos **Código** y **Descripción**.  
 3. Seleccione la acción **Nuevo**.  
-4. Opcionalmente, seleccione el campo **Todos los códigos de idioma** o especifique el idioma pertinente en el campo **Código de idioma** si utiliza códigos de idioma.  
-5. Rellene los campos **Fecha inicial** y **Fecha final** si desea limitar las fechas en las que se utiliza el texto adicional.  
-6. En las líneas **Texto**, escriba el texto ampliado para sus cláusulas de IVA.  
-7. Seleccione los campos correspondientes para los tipos de documento donde desee imprimir el texto adicional.  
-8. Cierra la página.  
+4. Rellene los campos **Código de idioma** y **Descripción**.  
+5. Opcionalmente, seleccione el campo **Todos los códigos de idioma** o especifique el idioma pertinente en el campo **Código de idioma** si utiliza códigos de idioma.  
+6. Rellene los campos **Fecha inicial** y **Fecha final** si desea limitar las fechas en las que se utiliza el texto adicional.  
+7. En las líneas **Texto**, escriba el texto ampliado para sus cláusulas de IVA.  
+8. Seleccione los campos correspondientes para los tipos de documento donde desee imprimir el texto adicional.  
+9. Cierra la página.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Crear una configuración de registro de IVA para usar el IVA de importación
 
@@ -216,7 +215,7 @@ El IVA no se calcula para las ventas a empresas sujetas al IVA de otros países 
 
 Para calcular correctamente el IVA en las ventas a países o regiones de la UE, debe:  
 
-* Configurar una línea para las ventas con la misma información de las compras. Si ya ha creado líneas en la página Config. grupos registro IVA para las compras a países o regiones de la UE, puede usarlas para las ventas.  
+* Configurar una línea para las ventas con la misma información de las compras. Si ya ha creado líneas en la página **Config. grupos registro IVA** para las compras a países o regiones de la UE, puede usarlas para las ventas.  
 * Asigne grupos de registro de IVA de negocio en el campo **Grupo registro IVA neg.** de la ficha desplegable **Facturación** de la ficha cliente de cada cliente de la UE. También debe introducir el CIF/NIF del cliente en el campo **CIF/NIF** en la Ficha desplegable **Comercio exterior**.  
 
 Cuando registre una venta a un cliente de otro país o región de la UE, se calculará el importe del IVA y se creará un movimiento del IVA con la información sobre el IVA de reversión y la base del IVA (importe utilizado para calcular el importe del IVA). No se registran movimientos en las cuentas del IVA de contabilidad.
@@ -227,11 +226,13 @@ Los importes de los documentos que todavía no se han registrado se redondean y 
 
 ## <a name="set-up-vat-reporting"></a>Configurar informes de IVA
 
-Debe configurar la información sobre cómo las autoridades fiscales de su país o región requieren que presente informes de IVA. Los siguientes pasos ilustran la información más utilizada habitualmente. Sin embargo, su país o región puede requerir pasos adicionales. Para obtener más información, consulte el artículo correspondiente en la sección *Funcionalidad local* del panel de la izquierda.
+Debe configurar la información sobre cómo las autoridades fiscales de su país o región requieren que presente informes de IVA. Los siguientes pasos ilustran la información más utilizada habitualmente. Sin embargo, su país o región puede requerir otros pasos. Para obtener más información, consulte el artículo correspondiente en la sección *Funcionalidad local* del panel de la izquierda.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Consulte también .
 
 [Configurar tipos de declaración de IVA y nombres de declaración de IVA](finance-how-setup-vat-statement.md)  
 [Configurar el impuesto sobre el valor añadido no realizado](finance-setup-unrealized-vat.md)  
@@ -249,8 +250,5 @@ Debe configurar la información sobre cómo las autoridades fiscales de su país
 [IVA en la versión checa](LocalFunctionality/Czech/finance-vat.md)  
 [Declaración de IVA en la versión noruega](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 [Informes del impuesto sobre bienes y servicios e impuesto armonizado en Canadá](LocalFunctionality/Canada/sales-tax-goods-services.md)  
-
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

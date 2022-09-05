@@ -296,6 +296,7 @@
 #### [Bloquear clientes](receivables-how-block-customers.md)
 #### [Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
+#### [Impuesto sobre las ventas en la versión predeterminada de Business Central](sales-tax-concept.md)
 
 ### Gestionar pagos
 #### [Información general de proveedores](payables-manage-payables.md)

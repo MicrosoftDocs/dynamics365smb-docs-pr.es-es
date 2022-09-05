@@ -6,15 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
+ms.search.keywords: app, add-in, manifest, customize, stream, bank account link
+ms.search.form: 1450, 1451, 1452, 1453, 1454, 1458, 1460,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 54871f5a9aac3fe84e769d278fc21138a118ebb0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1e2c1b1b9030033ec35c79e478d0d5bd5246b3d6
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511472"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362000"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión Envestnet Yodlee Bank Feeds
 
@@ -40,14 +41,15 @@ El servicio Envestnet Yodlee Bank Feeds proporciona las siguientes ventajas:
 * Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.
 
 ## <a name="available-bank-feeds"></a>Fuentes de banco disponibles
+
 Puede comprobar si un banco es compatible configurando y conectándose al servicio Envestnet Yodlee Bank Feeds. El banco aparecerá en la lista si es compatible con Envestnet Yodlee.
 
 Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a>Consulte también
-[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones ](ui-extensions.md)    
-[Liquidación de pagos automáticamente y conciliación de bancos](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Consulte también .
 
+[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
+[Liquidación de pagos automáticamente y conciliación de bancos](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

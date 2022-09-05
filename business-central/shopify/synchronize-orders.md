@@ -4,15 +4,16 @@ description: Configure y ejecute la importación y el procesamiento de pedidos d
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30124, 30125, 30128, 30129, 30130, 30131, 30132, 30133, 30134,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bef02c5fcbc2b6174e8a3f746a97f0e11564dcf6
-ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
+ms.openlocfilehash: 3a8f6b2188c2a315bbed1ef99e23b6bbfafae40f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "9213695"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361398"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Sincronizar y cumplir con los pedidos de ventas
 
@@ -128,7 +129,7 @@ El pedido importado de Shopify contiene información sobre los impuestos, pero e
 
 - Tasas de impuestos dependientes de la dirección. Utilice el campo **Prioridad de área fiscal** junto con la tabla **Plantillas de clientes** para sobrescribir la lógica estándar que rellena el **Código de área fiscal** en el documento de venta. El campo **Prioridad de área fiscal** especifica la prioridad que se utiliza para determinar la información sobre el país/región y el estado/provincia. Luego, se encuentra el registro correspondiente en las plantillas de cliente de Shopify y se usan el **Código de área fiscal**, **Sujeto a impuestos** y **Grupo de registro de negocio con IVA** al crear un documento de ventas.
 
-- Precio con impuestos incluidos. El campo **Precios con impuestos incluidos**/**Precios IVA incluido** del documento de ventas creado no depende del cliente, sino de la **Plantilla de cliente** de la página **Tarjeta de cliente de Shopify** o de la plantilla de cliente por país.
+- Precio con impuestos incluidos. El campo **Precios con impuestos incluidos**/**Precios IVA incluido** del documento de ventas creado no depende del cliente, sino de la **Plantilla de cliente** de la página **Tarjeta de cliente de Shopify** o de la plantilla de cliente por país o región.
 
 ### <a name="impact-of-order-editing"></a>Impacto de las modificaciones de pedidos
 

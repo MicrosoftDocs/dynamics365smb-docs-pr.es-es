@@ -9,20 +9,20 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 97e2e4e63d1a0d694cf881ed1fff8523d50fbb46
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 620a1af0deff6f9615b38706dd3f53f3db285008
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077637"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362073"
 ---
 # <a name="create-prepayment-invoices"></a>Crear facturas de prepagos
 
-Si requiere que sus clientes envíen el pago antes de enviarles un pedido, puede usar la funcionalidad de prepago. Lo mismo se aplica si su proveedor requiere que envíe el pago antes de enviarle un pedido.  
+Si requiere que sus clientes paguen antes de enviarles su pedido, puede usar las características de prepago. Lo mismo se aplica si su proveedor requiere que pague antes de enviarle un pedido.  
 
-Puede iniciar el proceso de prepago cuando cree un pedido de venta o de compra. Si tiene un porcentaje de prepago predeterminado para un artículo determinado del pedido o para el cliente o proveedor, se incluirá automáticamente en la factura de prepago resultante. También puede especificar un porcentaje de prepago para todo el documento.
+Puede iniciar el proceso de prepago cuando cree un pedido de venta o de compra. Si tiene un porcentaje de prepago predeterminado para un artículo del pedido o para el cliente o proveedor, se incluirá automáticamente el porcentaje en la factura de prepago resultante. También puede especificar un porcentaje de prepago para todo el documento.
 
-Después de crear un pedido de venta o de compra, puede crear una factura de prepago. Para ello, puede utilizar los porcentajes predeterminados de cada línea de venta o de compra o bien ajustar el importe según sea necesario. Por ejemplo, puede especificar un importe total para todo el pedido.  
+Después de crear un pedido de venta o de compra, puede crear una factura de prepago para este. Utilice los porcentajes predeterminados de cada línea de venta o de compra o ajuste el importe. Por ejemplo, podría especificar un importe total para todo el pedido.  
 
 El procedimiento siguiente describe cómo facturar un prepago del pedido de venta. Los pasos son parecidos para pedidos de compra.  
 
@@ -55,19 +55,23 @@ El procedimiento siguiente describe cómo facturar un prepago del pedido de vent
 
     Si se selecciona el campo **Precios IVA incluido**, el campo **Cantidad prepago incl. IVA** se puede modificar.  
 
-    Si cambia el contenido del campo **Cantidad prepago**, la cantidad se distribuirá proporcionalmente entre todas las líneas, excepto aquellas cuyo valor es **0** en el campo **% de prepago**.  
+    Si cambia el contenido del campo **Cantidad prepago**, la cantidad se distribuirá proporcionalmente entre todas las líneas, excepto aquellas líneas cuyo valor es **0** en el campo **% de prepago**.  
 
 5. Para imprimir un test antes de registrar la factura de prepago, elija las acciones **Prepago** e **Informe test prepago**.  
 6. Para registrar una factura de prepago, elija las acciones **Prepago** y **Registrar factura prepago**.  
 
     Para registrar e imprimir la factura de prepago, seleccione la acción **Registrar e imprimir factura prepago**.  
 
-Puede emitir facturas de prepago adicionales para el pedido. Para ello, aumente la cantidad de prepago de una o varias líneas, ajuste la fecha del documento si es necesario y registre la factura de prepago. Se creará una nueva factura con la diferencia entre las cantidades de prepago facturadas hasta el momento y la nueva cantidad de prepago.  
+Puede emitir otras facturas de prepago adicionales para el pedido. Para emitir otra factura, aumente la cantidad de prepago de una o varias líneas, ajuste la fecha del documento si es necesario y registre la factura de prepago. Se creará una nueva factura con la diferencia entre las cantidades de prepago facturadas hasta el momento y la nueva cantidad de prepago.  
 
 > [!NOTE]  
 > Si se encuentra en América del Norte, no puede cambiar el porcentaje de prepago después de que se haya contabilizado la factura de prepago. Esto se evita en la versión americana de [!INCLUDE[prod_short](includes/prod_short.md)] porque el cálculo del impuesto sobre las ventas, de otra manera, sería incorrecto.  
 
  Cuando esté listo para registrar el resto de la factura, hágalo del mismo modo que lo haría con cualquier otra factura; la cantidad de prepago se descontará automáticamente del importe vencido.  
+
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Actualizar el estado de los pedidos y facturas prepago automáticamente
+
+Puede acelerar el procesamiento de pedidos y facturas configurando entradas de cola de trabajos que actualizan automáticamente el estado de esos documentos. Cuando se paga una factura de prepago, las entradas de la cola de trabajos pueden cambiar automáticamente el estado del documento de **Pago anticipado pendiente** a **Liberado**. Cuando configure las entradas de la cola de trabajos, las unidades de código que necesitará usar son **383 actualizado Pendiente Prepago Ventas** y **383 actualizado Pendiente Prepago Compra**. Le recomendamos que programe las entradas para que se ejecuten con frecuencia, por ejemplo, cada minuto. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 

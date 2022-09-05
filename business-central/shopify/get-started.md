@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808938"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361561"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Comenzar con el conector de Shopify
 
@@ -26,26 +27,26 @@ El connector de Shopify incluye las siguientes capacidades:
 - Sincronización bidireccional de artículos o productos  
 
   - El conector sincronizará imágenes, variantes de productos, códigos de barras, números de artículos de proveedores, textos extendidos y etiquetas.  
-  - Exportar atributos de producto a Shopify.  
-  - Use grupos de precios de clientes seleccionados y descuentos para definir los precios exportados a Shopify.  
-  - Decida si los elementos se pueden crear automáticamente o solo permitir actualizaciones de productos existentes.  
+  -    Exportar atributos de producto a Shopify.  
+  -    Use grupos de precios de clientes seleccionados y descuentos para definir los precios exportados a Shopify.  
+  -    Decida si los elementos se pueden crear automáticamente o solo permitir actualizaciones de productos existentes.  
 - Sincronización de nivel de inventario  
 
-  - Elija algunas o todas las ubicaciones disponibles en [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Actualice los niveles de inventario en múltiples ubicaciones en Shopify.  
+  -    Elija algunas o todas las ubicaciones disponibles en [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Actualice los niveles de inventario en múltiples ubicaciones en Shopify.  
 - Sincronización bidireccional de clientes  
 
-  - Clientes de mapa inteligente por teléfono y correo electrónico.  
-  - Utilice plantillas específicas del país/región al crear clientes, lo que ayuda a garantizar que la configuración de impuestos sea correcta.  
+  -    Clientes de mapa inteligente por teléfono y correo electrónico.  
+  -    Utilice plantillas específicas del país/región al crear clientes, lo que ayuda a garantizar que la configuración de impuestos sea correcta.  
 - Importar pedidos desde Shopify  
 
-  - Durante la importación, puede crear automáticamente clientes en [!INCLUDE [prod_short](../includes/prod_short.md)] o decidir gestionar los clientes en Shopify.  
-  - Incluir pedidos creados en otros canales, como Shopify POS o Amazon.  
-  - Costes de envío, tarjetas de regalo, propinas, métodos de envío y pago, transacciones y riesgo de fraude.  
+  -    Durante la importación, puede crear automáticamente clientes en [!INCLUDE [prod_short](../includes/prod_short.md)] o decidir gestionar los clientes en Shopify.  
+  -    Incluir pedidos creados en otros canales, como Shopify POS o Amazon.  
+  -    Costes de envío, tarjetas de regalo, propinas, métodos de envío y pago, transacciones y riesgo de fraude.  
   - Recibir información de pago desde Shopify Payments.  
 - Fácil seguimiento de la información de cumplimiento  
 
-  - Opcionalmente, elija escribir la información de seguimiento del artículo desde [!INCLUDE [prod_short](../includes/prod_short.md)] a Shopify.  
+  -    Opcionalmente, elija escribir la información de seguimiento del artículo desde [!INCLUDE [prod_short](../includes/prod_short.md)] a Shopify.  
 
 Para usar Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)], debe a hacer algunas cosas primero. Este artículo sirve como guía para completar la integración de su almacén de Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)].
 

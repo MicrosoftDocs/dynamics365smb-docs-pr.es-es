@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074931"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362027"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Trabajar con tolerancias de pago y tolerancias de descuento de pago
 
@@ -30,7 +30,7 @@ Un documento tendrá las tolerancia de pago si se liquida con él mismo o con ot
 
 *fecha de descuento P.P. < fecha de pago del movimiento seleccionado <= fecha de tolerancia de pago*  
 
-Esta regla también aplica para determinar si se muestran las advertencias cuando aplica la tolerancia de pago a varios documentos. La advertencia de tolerancia de descuento de pago se muestra para cada movimiento que cumpla los criterios de fecha. Para obtener más información, consulte [Ejemplo 2: cálculos de tolerancia para varios documentos](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
+Esta regla también determina si se muestran las advertencias cuando aplica la tolerancia de pago a varios documentos. La advertencia de tolerancia de descuento de pago se muestra para cada movimiento que cumpla los criterios de fecha. Para obtener más información, consulte [Ejemplo 2: cálculos de tolerancia para varios documentos](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 Puede optar por mostrar una advertencia que se base en las distintas situaciones de tolerancia.  
 
@@ -44,7 +44,7 @@ Para obtener más información, consulte [Para activar o desactivar la advertenc
 
 ## <a name="to-set-up-tolerances"></a>Para configurar las tolerancias
 
-La tolerancia en días e importes le permite cerrar una factura aunque el pago no se haya realizado todo el pago del importe de la misma, si esto se debe a que se ha superado la fecha de vencimiento del descuento por pronto pago, a que se han realizado deducciones o a causa de un error sin importancia. Esto también se aplica a reembolsos y abonos.  
+La tolerancia de días e importes permite cerrar una factura aunque el pago no cubre totalmente el importe de la factura. Por ejemplo, porque se ha excedido la fecha de vencimiento del descuento de pago, se han descontado bienes o por un error menor. Esto también se aplica a reembolsos y abonos.  
 
 Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia, especificar la tolerancia de descuento en el pago y los métodos de registro de tolerancia en el pago y, a continuación, ejecute el proceso **Cambiar tolerancia pagos**.  
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
@@ -57,17 +57,21 @@ Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia,
 8. Abra la página **Configuración contabilidad**.  
 9. En la ficha desplegable **Liquidación**, rellene los campos **Registrar tolerancia de descuento de pago**, **Periodo gracia descuento pagos** y **Registrar tolerancia pagos**.   
 10. Seleccione la acción **Cambiar tolerancia pagos**.
+
+    > [!NOTE]
+    > Cuando elige **Aplicar a los más antiguos** en el campo **Método de aplicación** en una página **Tarjeta de cliente**, [!INCLUDE[prod_short](includes/prod_short.md)] no publicará automáticamente las tolerancias de pago, incluso cuando estén dentro de los umbrales establecidos en la página **Configuración del libro mayor**. [!INCLUDE[prod_short](includes/prod_short.md)] asume que la configuración Aplicar a la más antigua indica que el cliente (o usted como cliente de su proveedor) tiene una cuenta con usted donde paga regularmente el saldo. Por lo tanto, los importes restantes no deben eliminarse mediante la contabilización de una entrada de tolerancia de pago.
+
 11. En la página **Cambiar tolerancia pagos**, rellene los campos **% Tolerancia pago** y **Máx. importe tolerancia pago** y, a continuación, seleccione **Aceptar**.
 
 > [!IMPORTANT]  
->  Sólo ha configurado la tolerancia para las divisa local. Si desea que [!INCLUDE[prod_short](includes/prod_short.md)] controle la tolerancia de pagos, abonos y reembolsos en una divisa extranjera, debe ejecutar el proceso **Cambiar tolerancia pagos** con un valor en el campo **Código divisa**.  
+> Sólo ha configurado la tolerancia para las divisa local. Si desea que [!INCLUDE[prod_short](includes/prod_short.md)] controle la tolerancia de pagos, abonos y reembolsos en una divisa extranjera, debe ejecutar el proceso **Cambiar tolerancia pagos** con un valor en el campo **Código divisa**.  
 
 > [!NOTE]  
->  Si desea recibir una advertencia de tolerancia de pagos cada vez que registre una liquidación dentro de la tolerancia, debe activar la advertencia de tolerancia de pagos. Para obtener más información, consulte [Para activar o desactivar la advertencia de tolerancia de pago:](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
+> Para recibir una advertencia de tolerancia de pagos cada vez que registre una liquidación dentro de la tolerancia, debe activar la advertencia de tolerancia de pagos. Para obtener más información, consulte [Para activar o desactivar la advertencia de tolerancia de pago:](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Para desactivar la tolerancia de un cliente o proveedor, debe bloquear las tolerancias en la ficha del cliente o proveedor correspondiente. Para obtener más información, consulte [Bloquear la tolerancia de pagos de clientes](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+> Para desactivar la tolerancia de un cliente o proveedor, debe bloquear las tolerancias en la ficha del cliente o proveedor correspondiente. Para obtener más información, consulte [Bloquear la tolerancia de pagos de clientes](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Al configurar la tolerancia, [!INCLUDE[prod_short](includes/prod_short.md)] comprueba si existen movimientos pendientes y también calcula la tolerancia de estos movimientos.
+> Al configurar la tolerancia, [!INCLUDE[prod_short](includes/prod_short.md)] comprueba si existen movimientos pendientes y también calcula la tolerancia de estos movimientos.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Para activar o desactivar las advertencias de tolerancia de pago
 
@@ -76,7 +80,7 @@ La advertencia de tolerancia de pagos aparece cuando registra una liquidación c
 2. En la página **Configuración de contabilidad**, en la ficha desplegable **Liquidación**, active el campo **Advertencia tolerancia pagos** para activar la advertencia. Para desactivar la advertencia, apague la alternancia.  
 
 > [!NOTE]  
->  La opción predeterminada para la página **Advertencia tolerancia pagos** es **Dejar el saldo como importe pendiente**. La opción predeterminada para la página **Advertencia tolerancia descuento de pago** es **No aceptar el descuento por pago vencido**.
+> La opción predeterminada para la página **Advertencia tolerancia pagos** es **Dejar el saldo como importe pendiente**. La opción predeterminada para la página **Advertencia tolerancia descuento de pago** es **No aceptar el descuento por pago vencido**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Para bloquear la tolerancia de pagos de clientes
 
@@ -86,7 +90,7 @@ El valor predeterminado para la tolerancia de pagos es permitida. Para no permit
 2. En la Ficha desplegable **Pagos**, seleccione la casilla **Bloquear tolerancia de pagos**.  
 
 > [!NOTE]  
->  Si el cliente o proveedor tiene movimientos pendientes, primero debe eliminar la tolerancia de pagos de los movimientos que están abiertos actualmente.
+> Si el cliente o proveedor tiene movimientos pendientes, primero debe eliminar la tolerancia de pagos de los movimientos que están abiertos actualmente.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Ejemplo 1: cálculos de tolerancia para un único documento
 
@@ -136,7 +140,7 @@ Reglas de liquidación normales
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
-(2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.  
+(2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
 #### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) La fecha de pago está comprendida entre 16/01/03 y 20/01/03 (ejemplos 4 a 9)
 
@@ -148,7 +152,7 @@ Reglas de liquidación normales
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
-(2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.  
+(2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
 #### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) la fecha de pago es posterior a 20/01/03 (ejemplos 10 a 15)
 
@@ -164,7 +168,7 @@ Reglas de liquidación normales
 
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Ejemplo 2: cálculos de tolerancia para varios documentos
 
-A continuación, se presentan algunos ejemplos que muestran los cálculos de tolerancia previstos y los registros que se producen en diferentes situaciones. Los ejemplos se limitan únicamente a las situaciones que dan como resultado que todos los movimientos de liquidación se cierran.  
+A continuación, se presentan algunos ejemplos que muestran los cálculos de tolerancia previstos y los registros que se producen en diferentes situaciones. Los ejemplos se limitan a las situaciones que dan como resultado que todos los movimientos de liquidación se cierran.  
 
 La página **Configuración contabilidad** contiene la configuración siguiente:
 - Periodo gracia descuento pagos 5D  
@@ -224,7 +228,7 @@ Reglas de liquidación normales
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
-(2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.  
+(2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
 #### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) La fecha de pago está comprendida entre 16/01/03 y 17.01.03 (ejemplos 4 a 9)
 
@@ -236,7 +240,7 @@ Reglas de liquidación normales
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
-(2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.  
+(2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
 #### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) La fecha de pago está comprendida entre 01/18/03 y 20/01/03 (ejemplos 10 a 21)
 
@@ -248,7 +252,7 @@ Reglas de liquidación normales
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
-(2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.  
+(2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
 #### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) La fecha de pago está comprendida entre 21/01/03 y 22/01/03 (ejemplos 22 a 27)
 
@@ -260,7 +264,7 @@ Reglas de liquidación normales
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
-(2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.  
+(2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
 #### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) la fecha de pago es posterior a 22/01/03 (ejemplos 28 a 30)
 
@@ -272,7 +276,7 @@ Reglas de liquidación normales
 
 (1) si el pago no se produce en estos intervalos, todos los movimientos de liquidación se cierran con o sin tolerancia.  
 
-(2) (2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.
+(2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/enter-payments-dynamics-365-business-central/)
 
