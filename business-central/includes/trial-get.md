@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 0f6ce66b4bb534d1cc2c66414fe08254f68253b2
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557488"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461054"
 ---
 1. Vaya al [sitio de prueba](https://go.microsoft.com/fwlink/?linkid=847861), elija *Finanzas y operaciones*, y luego, en la tarjeta **Dynamics 365 Business Central**, elija el botón **Probar gratis**.  
 2. Introduzca la dirección de correo electrónico de su trabajo o escuela y otros datos. Se le redirigirá a su aplicación de prueba en [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
@@ -24,4 +24,4 @@ Si decide no usar [!INCLUDE [prod_short](prod_short.md)], puede dejar que caduqu
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-Si tiene problemas, consulte los artículos [Preguntas más frecuentes de la prueba](../trial-faq.md) o [Preguntas más frecuentes](../across-faq.yml) para encontrar respuestas a algunas de sus preguntas. Si no puede registrarse en la versión de prueba, consulte el artículo [Solución de problemas en el registro de autoservicio](../ui-troubleshoot-self-signup.md) para encontrar sugerencias. También puede contactar con un [socio](/dynamics365/business-central/across-faq#findpartner) y pedirle que cree para usted una prueba gratuita o un tipo diferente de versión preliminar de [!INCLUDE[prod_short](prod_short.md)].  
+Si tiene problemas, consulte los artículos [Preguntas más frecuentes de la prueba](../trial-faq.md) o [Preguntas más frecuentes](../across-faq.yml) para encontrar respuestas a algunas de sus preguntas. Si no puede registrarse en la versión de prueba, consulte el artículo [Solución de problemas en el registro de autoservicio](../ui-troubleshoot-self-signup.md) para encontrar sugerencias. También puede contactar con un [socio](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) y pedirle que cree para usted una prueba gratuita o un tipo diferente de versión preliminar de [!INCLUDE[prod_short](prod_short.md)].  

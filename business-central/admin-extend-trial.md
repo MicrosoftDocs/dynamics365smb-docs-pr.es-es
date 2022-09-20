@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 17491ce9bdc611bbdc7d06755edebe12a5f5df31
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079303"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460676"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>¿Necesita más tiempo para decidir si suscribirse?
 
 Es importante tomar la decisión correcta al elegir una aplicación de negocios y sabemos que puede llevar tiempo explorar todos los rincones de [!INCLUDE[prod_short](includes/prod_short.md)]. Si necesita más tiempo para finalizar su evaluación, puede ampliar el período de prueba otros 30 días más. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostraremos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía.
 
-Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No es posible hacerlo dos veces, al menos no por su parte. Si ya ha ampliado el período de prueba, su socio de Microsoft puede ampliarlo nuevamente para usted. Aunque también es posible hacerlo solamente una vez. Si aún no trabaja con un socio, vea [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
+Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No es posible hacerlo dos veces, al menos no por su parte. Si ya ha ampliado el período de prueba, su socio de Microsoft puede ampliarlo nuevamente para usted. Aunque también es posible hacerlo solamente una vez. Si aún no trabaja con un socio, vea [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 
 ## <a name="to-extend-your-trial-period"></a>Para ampliar su período de prueba
 
@@ -56,7 +56,7 @@ Cuando expire su período de prueba ampliado, puede [suscribirse](https://go.mic
 
 [Pruebas y suscripciones (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Crear nuevas en empresas](about-new-company.md)  
-[¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner)  
+[¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Ampliación de versiones de prueba (como administrador)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Empezar como revendedor de Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

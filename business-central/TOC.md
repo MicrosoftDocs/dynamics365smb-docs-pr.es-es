@@ -1,4 +1,4 @@
-# [Bienvenido a Business Central](index.md)
+# [Bienvenido a Business Central](index.md)  
 # [Nuevo y planeado](product-news.md)
 # Introducción
 ## [Resumen de las funciones empresariales](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Trabajar con diarios generales](ui-work-general-journals.md)
 ### [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)
 ### [Dejar que Business Central sugiera valores](ui-let-system-suggest-values.md)
+### [Usar Mapas en línea para encontrar ubicaciones e indicaciones](across-online-maps.md)
 
 ### Documentos entrantes
 #### [Información general sobre documentos entrantes](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Imprimir la lista de picking](sales-how-print-picking-list.md)
 ### [Registrar ventas](ui-post-sales.md)
 ### [Crear líneas de venta periódicas](sales-how-work-standard-lines.md)
+### [Procesar envíos parciales con aviso de envío](sales-how-send-partial-shipments.md)
 ### [Realizar envíos directos](sales-how-drop-shipment.md)
 ### [Crear pedidos especiales](sales-how-to-create-special-orders.md)
 ### [Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Crear numeración](ui-create-number-series.md)
 ### [Configurar calendarios base](across-how-to-assign-base-calendars.md)
 ### [Configuración de impresoras](ui-specify-printer-selection-reports.md)
+### [Configurar mapas en línea](across-online-maps-setup.md)
 ### [Obtener Business Central en el dispositivo móvil](install-mobile-app.md)
 ### [Obtener Business Central en el escritorio](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)
 ### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Solucionar problemas de errores de sincronización](admin-troubleshoot-sales-synchronization.md)
+### [Utilizar un flujo de Power Automate para alertas de cambios de entidad de Dataverse](admin-power-automate-flow-dataverse.md)
 ## Detalles de diseño
 ### [Información general de detalles de diseño de aplicaciones](design-details-application-design.md)
 ### Detalles de diseño: Planificación de aprovisionamiento

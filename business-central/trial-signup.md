@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077507"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461027"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Regístrese para obtener una versión de prueba de Dynamics 365 Business Central
 
@@ -32,7 +32,7 @@ Su entorno de prueba incluye las mismas funciones que la versión de pago. Los e
 
 ## <a name="get-started-with-a-subscription"></a>Introducción a una suscripción
 
-Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#findpartner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prod_short](includes/prod_short.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prod_short](includes/prod_short.md)] agregando aplicaciones desde [el mercado comercial de Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Cada vez que inicie sesión durante el periodo de prueba, una notificación en una barra azul de la parte superior muestra el tiempo restante. Si decide suscribirse, busque un socio de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) El socio distribuidor puede ayudarle a configurar [!INCLUDE[prod_short](includes/prod_short.md)] para adaptarlo a su negocio, incluida la importación de los datos del sistema anterior. También puede personalizar [!INCLUDE[prod_short](includes/prod_short.md)] agregando aplicaciones desde [el mercado comercial de Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] en línea usa Microsoft 365. Si su empresa utiliza un tipo diferente de configuración de correo electrónico, el socio distribuidor puede ayudarlo a decidir cómo migrar, o si debe usar [!INCLUDE[prod_short](includes/prod_short.md)] local.  
 
