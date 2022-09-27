@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eafddef05562e5b63c291f8ea9ca130b878dcd68
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1c1f86cae4ad411efe21453d58761b436bb7470d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075192"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532517"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Mover productos en configuraciones avanzadas de almacén
 
@@ -50,7 +50,7 @@ Si utiliza ubicación y picking directos y necesita mover productos a otros ubic
 2.  Rellene los campos **Nº producto**, **Desde cód. zona**, **Desde cód. ubicación**, **Hasta cód. zona**, **Hasta cód. ubicación**.  
 3.  Elija la acción **Registrar**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

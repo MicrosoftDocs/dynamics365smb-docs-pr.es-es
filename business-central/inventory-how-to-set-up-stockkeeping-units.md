@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5271203a9936f268e23df9b8e38a2373d875e5f9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e61c61f760dd14145ecea76f36903f8a4124cac5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076492"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533838"
 ---
 # <a name="set-up-stockkeeping-units"></a>Configurar unidades de almacenamiento
 
@@ -40,7 +40,7 @@ Para crear varias unidades de almacenamiento para un producto, utilice el proces
 > Si UA se suministra a través de producción, el campo **Coste estándar** no se usa al facturar y ajustar el coste real del producto fabricado. En su lugar, el campo **Coste estándar** de la ficha subyacente de producto se utiliza, y cualquier desviación se calcula con el reparto de costes de dicho producto.<br /><br />
 > Porque las L.M. y ruta no se pueden asignar a UA, la distribución del coste unitario y el cálculo relacionado de la parte de costes tampoco están disponibles en UA. Para obtener más información, consulte [Acerca de Calcular el coste estándar](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/control-inventory-multiple-locations/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

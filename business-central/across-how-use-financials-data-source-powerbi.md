@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 72df794aa170736507c959ea0e75e4bb52b234d7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523220"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534378"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Crear informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]
 
@@ -48,6 +48,8 @@ Este artículo describe cómo empezar a usar Power BI Desktop para crear informe
 - Descargue el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)] (opcional).
 
   Para obtener más información, consulte [Usar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)]](#theme) en este articulo.
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI Desktop
 
@@ -183,7 +185,7 @@ A partir de febrero de 2022, los nuevos informes que utilizan datos de Business 
 9. Seleccione **Listo**.
 10. Seleccione **Cerrar y aplicar** en la cinta para guardar los cambios y cerrar Editor de Power Query.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

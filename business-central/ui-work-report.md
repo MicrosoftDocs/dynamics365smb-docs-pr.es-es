@@ -10,12 +10,12 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Wo
 ms.search.form: ''
 ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: 43e2c33af227ccd33ad5e5a616df78fd75298bcd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: b4184f5538ea15c1a5be5ed1d7a6e8fd7ef3e1cb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076180"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531275"
 ---
 # <a name="run-and-print-reports"></a>Ejecutar e imprimir informes
 
@@ -146,7 +146,7 @@ Los campos de **Avanzado** establecen limitaciones en el informe generado para c
 > [!NOTE]
 > Los valores máximos pueden ser diferentes para [!INCLUDE[prod_short](includes/prod_short.md)] local y un administrador puede cambiarlos. Para obtener más información, consulte [Configuración de Business Central Server: informes](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Para obtener una descripción general de las limitaciones de los informes [!INCLUDE[prod_short](includes/prod_short.md)] en línea, consulte [Límites operativos](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

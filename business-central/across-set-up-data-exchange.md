@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: c5efaaa688e2636ae68b149e05f9f526d1e4b1d4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075998"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529439"
 ---
 # <a name="setting-up-data-exchange"></a>Configuración del intercambio de datos
 
@@ -38,7 +38,7 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 |Prepárese para configurar una definición de intercambio de datos nueva de un determinado archivo o flujo de datos usando el esquema XML del archivo para rellenar previamente la ficha desplegable **Definiciones de columna** en la página **Definiciones de intercambio de registro**.|[Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Configure el marco de intercambio de datos para que los usuarios puedan recibir un formato de documento de compra nuevo, enviar un formato de documento de venta nuevo, importar un archivo bancario nuevo u otro intercambio de datos.|[Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

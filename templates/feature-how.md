@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 3ec9760cc2b1225f4b06b142a0b32ac4178dcca6
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: dc225dad42ba5f05fc4cbd4b091377fa04063b9f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311266"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528470"
 ---
 # <a name="achieve-some-task-in-max-100-characters"></a>Logue alguna tarea en un máx. de 100 caracteres.
 
 Para obtener detalles sobre cómo completar tareas complejas, utilice los artículos HowTo dedicados. Use [!INCLUDE [prod_short](includes/prod_short.md)] para el nombre del producto.  
 
-Para obtener sugerencias sobre MarkDown y el estilo, consulte [Guía de creación para Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Para obtener sugerencias sobre MarkDown y el estilo, consulte [Guía de creación para Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Recuerde agregar los enlaces Ver también y agregar el nuevo artículo al archivo TOC.md.  
 

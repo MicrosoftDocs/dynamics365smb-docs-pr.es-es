@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c20a7e2a53974d17b8571f0a4d69d6298804b064
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515620"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534162"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Configuración del análisis de flujo de efectivo
 Si desea ayuda para decidir qué debe hacer con el efectivo, eche un vistazo a los gráficos del Área de trabajo Contable:  
@@ -124,7 +124,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración flujos efectivo** y luego elija el enlace relacionado.  
 7. Expanda la ficha desplegable **Azure AI** y rellene los campos.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

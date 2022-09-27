@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 167ad75bceeec8e0e5bb998f8075f547a51b2157
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805131"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535805"
 ---
 # <a name="get-ready-for-doing-business"></a>Prepárese para hacer negocios
 
@@ -114,9 +114,9 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
 [Buscar en el panel de ayuda](product-help-and-support.md#search-in-the-help-pane)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
-[Sitio de Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Formación de Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Migrar datos](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-[Períodos de prueba y suscripciones](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
+[Períodos de prueba y vistas previas](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

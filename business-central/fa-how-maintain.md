@@ -10,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18be12c81ddfebd07c1311e6a0f338712f842f21
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: db722d702dbfa6499c5ae259313af8915b95d51c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078209"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534243"
 ---
 # <a name="maintain-fixed-assets"></a>Mantener activos fijos
 
@@ -90,7 +90,7 @@ En el informe **Mnto. - Detalles**, puede ver o imprimir los movimientos de mant
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Imprimir** o **Versión preliminar**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

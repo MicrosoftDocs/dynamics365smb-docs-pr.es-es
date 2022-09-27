@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
-ms.openlocfilehash: ac75505d2f9987037cf04bbe96a0a1eb398c737c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 94ff94bab70582f4f9b4dcd73a5923931317d6f1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655850"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530330"
 ---
 # <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 
@@ -128,7 +128,7 @@ Si está usando la aplicación de Outlook, simplemente elija **Vínculo de docum
 > A partir del primer lanzamiento de versiones de 2022, los documentos se abren en una nueva ventana del navegador con todas las funciones que ya conoce de [!INCLUDE [prod_short](includes/prod_short.md)]. Puede navegar de un documento a una lista y viceversa, abrir listas en Excel, enviar documentos para imprimir y ejecutar u obtener una vista previa de informes relacionados. También tiene todos los métodos abreviados de teclado familiares allí mismo cuando abre documentos desde Outlook.  
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

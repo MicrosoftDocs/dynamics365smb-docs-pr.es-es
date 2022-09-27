@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: dd7914ba66eef12cb092e716836ef44276f2128d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7054dcdedbb86edad111297b59347a6aa60fc2a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130077"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535778"
 ---
 # <a name="send-electronic-documents"></a>Enviar documentos electrónicos
 
@@ -49,7 +49,7 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite e
     > [!NOTE]  
     >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.**, elija la acción **Registro de actividades** para ver el estado del documento electrónico.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

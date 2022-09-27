@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a6b6de60f6262906429127b0588ca62c9dcca1b
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: a0ea051ec39b290706b30da455fce518cd7bdcd0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461081"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533381"
 ---
 # <a name="use-the-prod_short-apps-in-power-bi"></a>Usar aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
 
@@ -150,7 +150,7 @@ La aplicación de Power BI solo mostrará los datos de la empresa de [!INCLUDE[p
 - [Seleccione un mosaico](/power-bi/service-dashboard-tiles) para abrir el informe subyacente.  
 - De forma predeterminada, su conjunto de datos no está programado para actualizarse. Puede cambiar la programación de actualización o intentar actualizarlo a petición utilizando **Actualizar ahora**. Para obtener más información, vea [Configuración de actualización programada](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

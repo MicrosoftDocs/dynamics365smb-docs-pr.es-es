@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5d22e409ec2b9dcd24b210d92a7c87df8df5380
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 61cc87155b3defaf43555940ce74ff58a0e2be6e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075582"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535269"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Configure el seguro de los activos fijos
 
@@ -61,11 +61,11 @@ En un libro del diario de seguros puede configurar secciones. Los valores de la 
 > [!NOTE]  
 >   Los números tienen una función especial en los nombres de diario. Si un nombre de libro diario o un nombre de sección del diario contiene un número, el número aumenta automáticamente en uno cada vez que se registra el diario. Por ejemplo, si se escribe HH1 en el campo **Nombre**, el nombre del diario cambiará a HH2 después de registrar el diario llamado HH1.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/set-up-fixed-assets-management/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 
-[Configurar activos fijos](fa-setup.md)  
+[Configuración de activos fijos](fa-setup.md)  
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  

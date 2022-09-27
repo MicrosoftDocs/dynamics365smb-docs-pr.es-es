@@ -10,12 +10,12 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 683d70d7f01d35bd31c1a8e37f735e9a847cf863
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655649"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528658"
 ---
 # <a name="change-basic-settings"></a>Cambiar la configuración básica
 
@@ -106,7 +106,7 @@ Seleccione el vínculo *Cambiar cuándo recibo notificaciones* para ver o cambia
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

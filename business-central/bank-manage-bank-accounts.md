@@ -10,12 +10,12 @@ ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 2903e6d8564a48464c1ae5ce493270f3b46781a1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 352304983b331d361947d88fdafc134d50fe70a3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516374"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530897"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Administre y concilie sus cuentas bancarias
 
@@ -38,7 +38,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Use la conciliación bancaria para ayudar a comprobar que sus libros estén actualizados y no publique la conciliación hasta que esté satisfecho con la conciliación.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

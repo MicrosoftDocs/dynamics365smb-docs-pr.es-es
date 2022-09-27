@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8764fa82ef8bf408e85655b5a97719d9f649e7be
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 79b373ec522d2cd8f99c6b0a98db0df7f9d1793f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078367"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533703"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
 
@@ -112,7 +112,7 @@ Si no se especifica ningún código de ubicación de la línea de pedido de vent
 
 En escenarios de combinación, donde parte de la cantidad debe ensamblarse primero y a la otra se le debe realizar el picking de inventario, un mínimo de dos líneas de picking de inventario se crea. Una línea de picking es para la cantidad de ensamblado para pedido. La otra línea de picking depende de qué ubicación pueden cubrir la cantidad pendiente de inventario. Los códigos de ubicación en las dos líneas se completan de formas distintas según se describe para los dos tipos de venta respectivamente. Para obtener más información, consulte la sección "Escenarios de combinación" en [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

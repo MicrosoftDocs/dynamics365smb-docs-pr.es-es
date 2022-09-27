@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 8853de8000e1e4b08604a9f620a2d920ca7d558f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8b84e6f832ca5ab7908d7ed00ff7976b073df082
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076715"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529763"
 ---
 # <a name="incoming-documents"></a>Documentos entrantes
 
@@ -63,7 +63,7 @@ El proceso de documento entrante puede constar de las principales actividades si
 | Desde las páginas **Plan de cuentas** y **Movs. contabilidad**, podrá usar una función de búsqueda para buscar los movimientos de contabilidad para aquellos documentos registrados que no tienen registros de documento entrantes y, a continuación, vincularlos de forma centralizada a registros existentes o crear registros nuevos con archivos de documentos adjuntos. |[Buscar documentos registrados sin registros de documentos entrantes](across-how-find-posted-documents-without-income-document-records.md) |
 | Obtenga un mejor resumen estableciendo los registros de documentos entrantes en *Procesado* y retirándolos de la vista por defecto. |[Gestionar varios registros de documento entrantes](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

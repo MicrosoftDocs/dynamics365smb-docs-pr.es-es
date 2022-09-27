@@ -7,12 +7,12 @@ metadata:
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 13f6de4c6f01fbe7a525d7b1f18d3f83f12cb6c3
-  ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
+  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 09/09/2022
-  ms.locfileid: "9461000"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "9535350"
 title: Preguntas frecuentes sobre el uso de Business Central
 summary: "Esta sección contiene las respuestas de las preguntas más frecuentes sobre el inicio de sesión en una versión de prueba, la adquisición de una suscripción y el uso de [!INCLUDE[prod_short](includes/prod_short.md)]. También puede obtener información sobre cómo obtener asistencia técnica.  \n"
 sections:
@@ -36,7 +36,7 @@ sections:
       Sí. [!INCLUDE [prod_short](includes/prod_short.md)] está optimizado para una implementación en línea y algunas funcionalidades pueden ejecutarse localmente solo en algunas circunstancias, mientras que otras no son compatibles en absoluto. Obtenga más información en [Características no implementadas en implementaciones locales de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (solo disponible en inglés).
   - question: >
       ¿Puedo recibir formación en Business Central?
-    answer: "Sí que puede. Puede encontrar contenido gratuito de eLearning en el [sitio de Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). También puede pedirle a su socio de reventa más formación. Si no sabe quién es, vea la sección [¿Cómo encuentro un socio distribuidor?](#how-do-i-find-a-reselling-partner)  \n\nPara obtener más información sobre la formación en Dynamics 365 que ofrece Microsoft, consulte la página [Formación de Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nLa comunidad de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona más contenido, como la [Guía de campo de Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics), que la ha elaborado un socio.  \n"
+    answer: "Sí que puede. Puede encontrar contenido gratuito de aprendizaje electrónico en la [página de formación de Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). También puede pedirle a su socio de reventa más formación. Si no sabe quién es, vea la sección [¿Cómo encuentro un socio distribuidor?](#how-do-i-find-a-reselling-partner)  \n\nPara obtener más información sobre la formación en Dynamics 365 que ofrece Microsoft, consulte la página [Formación de Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nLa comunidad de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona más contenido, como la [Guía de campo de Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics), que la ha elaborado un socio.  \n"
   - question: ¿Cómo obtengo soporte técnico para Business Central?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] se vende a través de socios y debe ponerse en contacto con su socio distribuidor para obtener ayuda con problemas técnicos. Si su socio de [!INCLUDE[prod_short](includes/prod_short.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  \n\nObtenga más información en [Ayuda y soporte técnico](product-help-and-support.md) y la sección [¿Cómo encuentro un socio distribuidor?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
@@ -50,7 +50,7 @@ sections:
     answer: "Si la configuración de Experiencia en la página **Información de la empresa** está establecida en **Esencial**, los elementos de la interfaz de usuario para las funciones de Gestión de fabricación y servicios no serán visibles porque requieren la experiencia **Premium**. Se inserta una nota de texto en los temas de ayuda de alto nivel para estas áreas de funciones. Obtenga más información en [Cambiar las funciones que se muestran](ui-experiences.md).  \n"
   - question: >
       ¿Por qué no hay nueva información disponible en mi idioma?
-    answer: "En el sitio docs.microsoft.com, el contenido sobre la funcionalidad empresarial se publica en varios idiomas. El contenido está escrito en inglés y publicado en URL con *en-us* como el código del idioma. Cuando se publica nueva información en inglés, se envía para su traducción a los idiomas admitidos. Esto significa que no podrá leer este nuevo contenido en su propio idioma durante cuatro semanas como máximo.  \n\nEntendemos los problemas que esto puede causar, y alentamos a los usuarios a buscar lo que necesiten en inglés si no pueden encontrarlo en su propio idioma.  \n"
+    answer: "El contenido de Microsoft Learn sobre la funcionalidad empresarial se publica en varios idiomas. El contenido está escrito en inglés y publicado en URL con *en-us* como el código del idioma. Cuando se publica nueva información en inglés, se envía para su traducción a los idiomas admitidos. Esto significa que no podrá leer este nuevo contenido en su propio idioma durante cuatro semanas como máximo.  \n\nEntendemos los problemas que esto puede causar, y alentamos a los usuarios a buscar lo que necesiten en inglés si no pueden encontrarlo en su propio idioma.  \n"
   - question: ¿Qué dirección de correo electrónico puedo usar en Business Central Online?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] en línea requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[prod_short](includes/prod_short.md)] en línea no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  \n\nSi intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección del trabajo o la escuela. Obtenga más información en [Solución de problemas del registro de autoservicio](ui-troubleshoot-self-signup.md).  \n\nSi desea realizar la implementación local de [!INCLUDE[prod_short](includes/prod_short.md)], puede utilizar otros métodos de autenticación. Obtenga más información en [Despliegue de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
   - question: >

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2eaec73818a437e0ebc729612de063b19a074561
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 761bd759e66ca557dfd7537bb2b4fefb049da3da
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655062"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528550"
 ---
 # <a name="work-with-prod_short"></a>Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -86,7 +86,7 @@ Cuando busca una página de lista abierta, como la lista **Órdenes de venta**, 
 
 Pero cuando abre la misma página de lista desde su página de inicio, la acción **Administrar** no está presente. En su lugar, para abrir un pedido de cliente individual, simplemente elija el campo **Número**. En esta vista, no puede anclar la barra de acción.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

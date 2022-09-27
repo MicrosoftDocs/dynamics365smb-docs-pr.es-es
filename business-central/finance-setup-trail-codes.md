@@ -10,16 +10,16 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08545d1bb23b8a70d10c6114f4840ce186aa94cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ab140d214c25735bf8158a2255f8f35ba246442c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515568"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535161"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuración de códigos de origen y códigos de auditoría para pistas de auditoría
 
-Todos los movimientos registrados se asignan automáticamente a un código de origen de forma que pueda realizarse un seguimiento del origen de las transacciones. Si desea asignar a los movimientos un código de origen adicional, utilice códigos de auditoría. Los códigos de auditoría se utilizan para indicar el motivo por el que se ha creado un movimiento. Al configurar códigos de auditoría, puede asignarlos a libros de diarios o a secciones de diarios, así como a líneas de diarios y a documentos individuales.  
+Todos los movimientos registrados se asignan automáticamente a un código de origen de forma que pueda realizarse un seguimiento del origen de las transacciones. Si desea asignar a los movimientos un código de origen adicional, utilice los códigos de motivo. Los códigos de motivo se utilizan para indicar el motivo por el que se ha creado un determinado movimiento. Al configurar códigos de auditoría, puede asignarlos a libros de diarios o a secciones de diarios, así como a líneas de diarios y a documentos individuales.  
 
 Tanto para los códigos fuente como para los códigos de auditoría, use códigos que sean descriptivos y fáciles de recordar. El código debe ser único y puede configurar tantos códigos como desee.
 
@@ -83,9 +83,9 @@ El código de auditoría seleccionado se copiará en las nuevas secciones de dia
 
 2. En la cabecera de ventas o de compra, escriba el código en el campo **Código de auditoría**.
 
-Al registrar la factura, el código de auditoría se copia en cada movimiento de contabilidad, cliente y proveedor. No puede asignar códigos de auditoría distintos a cada una de las líneas de compra porque todas las líneas se registran como un solo movimiento.
+Al registrar la factura, el código de auditoría se copia en cada movimiento de contabilidad, cliente y proveedor. No puede asignar códigos de auditoría distintos a cada una de las líneas de venta y compra porque todas las líneas se registran como un solo movimiento.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

@@ -10,12 +10,12 @@ ms.search.keywords: app, add-in, manifest, customize, import, implement
 ms.search.form: 1911, 1912, 1913, 1914, 1915, 1916, 1918, 1919
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99a7e12543751fef0297051a64f19c2fb5700022
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 620218c86be81578b7f40ab74434d4004d5f2db2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361642"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530870"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Extensión de la migración de datos de QuickBooks
 
@@ -66,7 +66,7 @@ Hay algunas acciones concretas que debe realizar: si las transacciones de QuickB
 Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
 Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

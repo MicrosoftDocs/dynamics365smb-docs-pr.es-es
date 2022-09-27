@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 401deb016122100f86142cb2314c18e3b481bccd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 538392cd86dfc348877e8ef349d42a8961934262
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077871"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532571"
 ---
 # <a name="date-calculation-for-sales"></a>Cálculo de fecha de ventas
 
@@ -43,7 +43,7 @@ Si no especifica una fecha de entrega requerida en la línea de pedido de venta,
 - Fecha envío + Tiempo manip. alm. salida = Fecha envío planeada
 - Fecha envío planeada + Hora envío = Fecha entrega planeada
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

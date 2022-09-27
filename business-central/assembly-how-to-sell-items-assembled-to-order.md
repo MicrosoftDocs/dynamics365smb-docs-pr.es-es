@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: b66efde55918886132def51ad898fa9e89054c02
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ca22a5dc82e950b81829c356f5054ab7c8da1973
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077350"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534972"
 ---
 # <a name="sell-items-assembled-to-order"></a>Venta de artículos ensamblados para pedido
 
@@ -62,7 +62,7 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 > [!NOTE]  
 > Tenga en cuenta que las sustituciones de productos no harán que un producto sea reemplazado automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible para usted.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

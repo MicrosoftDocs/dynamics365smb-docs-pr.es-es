@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cfb8fcb086b258ece6de68850b627c19f3bfbcd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c948845c535474ccd5fb8c3d6e031e5467c9de2f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075842"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532085"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrar el consumo o uso para proyectos
 
@@ -99,7 +99,7 @@ Después de haber registrado las líneas de diario de proyectos, puede ver las l
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Movimientos**.  
 3. En la página **Movs. proyectos**, elija la acción **Mostrar líneas planificación proyecto vinculadas**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

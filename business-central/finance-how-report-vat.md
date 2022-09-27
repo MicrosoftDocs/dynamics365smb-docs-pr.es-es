@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383810"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532733"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Crear informes de IVA para las autoridades fiscales
 
@@ -137,7 +137,7 @@ En la tabla siguiente se describen las codeunits que debe crear para el informe.
 > [!Note]
 > Cuando cree las unidades de código para el informe, preste atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2021** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

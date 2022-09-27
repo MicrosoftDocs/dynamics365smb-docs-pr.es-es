@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: cf7f84b8ba0c7622f08856b677e3559cc669e7ed
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 72e5be73b78e702bfa006a79b6c3a46c8b11ed96
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078679"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531167"
 ---
 # <a name="set-up-prepayments"></a>Configurar prepagos
 
@@ -106,7 +106,7 @@ Puede ahorrar tiempo configurando una entrada en la cola de trabajos que liberar
 3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de cola de proyectos** y luego elija el enlace relacionado.
 4. Configure la entrada de la cola de trabajos **Actualización pendiente prepago ventas**, por ejemplo, utilizando la configuración en la ficha desplegable **Periodicidad** para programar la frecuencia con la que desea que se ejecute. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .  
 

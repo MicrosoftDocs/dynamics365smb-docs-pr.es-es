@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8b03ca934a87573feded023311f01349066f886c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: cb1366e5d4eb2c2ec578b313379deffde7f62764
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074853"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532895"
 ---
 # <a name="set-up-units-of-measure"></a>Configurar unidades de medida
 
@@ -80,7 +80,7 @@ Si suele comprar o vender en unidades que no sean la unidad de medida base, espe
 4. En compras, en la ficha desplegable **Reposición**, en el campo **Unidad medida compra**, abra la página **Unidades medida producto**.
 5. Seleccione el código que desea configurar como la unidad de medida predeterminada para ventas o compras, respectivamente y elija el botón **Aceptar**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

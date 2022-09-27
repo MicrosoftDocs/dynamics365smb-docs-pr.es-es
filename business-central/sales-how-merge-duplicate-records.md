@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 412dd6ae2842c408ac0a4be7be369c01019a814b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a50d15ad62459b78b2d18d8167df319669a56ec7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074490"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529169"
 ---
 # <a name="merge-duplicate-records"></a>Combinar registros duplicados
 
@@ -62,7 +62,7 @@ El procedimiento siguiente se basa en una ficha de cliente. Los pasos son pareci
 > [!NOTE]
 > Para los contactos, puede usar la funcionalidad para encontrar contactos duplicados antes de usar la página **Combinar duplicados**. Para obtener más información, vea [Búsqueda de contactos duplicados](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

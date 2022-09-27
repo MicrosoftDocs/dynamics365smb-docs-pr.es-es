@@ -10,12 +10,12 @@ ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 779c2ac1b043cee6f2578f3a642a26a8bb3156c8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079537"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530546"
 ---
 # <a name="calculate-dates-for-purchases"></a>Calcular las fechas de compras
 
@@ -64,12 +64,12 @@ Puede especificar manualmente la fórmula de fecha en las líneas. De lo contrar
 3. Ficha ud. de almacenam.
 4. Ficha proveedor
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 
 [Cálculo de fecha de ventas](sales-date-calculation-for-sales.md)  
-[Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)  
+[Calcular fechas de compromiso de pedidos](sales-how-to-calculate-order-promising-dates.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f3743e49795f8673bc8fe24e9def11686863954f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: b822ed9b6a9fa6d784d8f2846d74cd0c98550b0d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078079"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532868"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Transferencia y registro de movimientos de coste
 
@@ -104,7 +104,7 @@ Para movimientos de coste únicos, [!INCLUDE[prod_short](includes/prod_short.md)
 
 En la tabla **Registro de costes**, [!INCLUDE[prod_short](includes/prod_short.md)] crea un movimiento con la transferencia de origen de la contabilidad. El movimiento registra el primer y último número de los movimientos de contabilidad que se transfieren, además del primer y último número de movimientos de coste creados.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

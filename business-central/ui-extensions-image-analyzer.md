@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8852056c5981c8db65f9048af850abbfe086c658
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361887"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524633"
 ---
 # <a name="the-image-analyzer-extension"></a>Extensión del analizador de imágenes
 
@@ -39,7 +39,7 @@ Hay algunos requisitos para las imágenes:
 * Tamaño del archivo máximo: menos de 4 MB  
 * Dimensiones de la imagen: mayor de 50 x 50 píxeles  
 
-## <a name="to-enable-image-analyzer"></a>Activar el analizador de imágenes
+## <a name="switch-on-the-image-analyzer-extension"></a>Activar la extensión del analizador de imágenes
 
 La extensión del analizador de imágenes viene incorporada en [!INCLUDE[prod_short](includes/prod_short.md)]. Solo necesita activarla.
 
@@ -48,79 +48,74 @@ La extensión del analizador de imágenes viene incorporada en [!INCLUDE[prod_sh
 
 Para activar la extensión del analizador de imágenes, lleve a cabo una de estas acciones:
 
-* Abrir un elemento o tarjeta de contacto. En la barra de notificación, elija **Analizar imágenes** y, a continuación, siga los pasos de la guía de configuración asistida.  
-* Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conexiones de servicio** y luego elija **Configuración de análisis de imagen**. Seleccione la casilla **Activar analizador de imágenes** y, a continuación, complete los pasos de la guía de configuración asistida.  
+* Abrir un elemento o tarjeta de contacto. En la barra de notificación, elija **Analizar imagen** y, a continuación, siga los pasos de la guía de configuración asistida.  
+* Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conexiones de servicio** y luego elija **Configuración de análisis de imagen**. Seleccione la casilla **Activar analizador de imágenes** y, a continuación, complete los pasos de la guía de configuración asistida.  
 
     > [!TIP]  
     > La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
 
-## <a name="to-analyze-an-image-of-an-item"></a>Analizar una imagen de un producto
+## <a name="analyze-an-item-image"></a>Analizar una imagen de producto
 
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. Seleccione el producto y, a continuación, elija la acción **Analizar imagen**.  
-3. La página **Atributos del analizador de imágenes** muestra los atributos detectados, el nivel de confianza y otros detalles sobre el atributo. Utilice las opciones **Acción para realizar** para especificar qué hacer con el atributo o elija **Agregar a la descripción del producto** para agregar el nombre del atributo a la descripción del producto. Por ejemplo, esto puede ser útil para agregar rápidamente detalles. 
+3. La página **Atributos del analizador de imágenes** muestra los atributos detectados, el nivel de confianza y otros detalles sobre el atributo. Utilice las opciones **Acción para realizar** para especificar qué hacer con el atributo o elija **Agregar a la descripción del producto** para agregar el nombre del atributo a la descripción del producto. Por ejemplo, esta acción puede ser útil para agregar rápidamente detalles.
 
-La acción **Acción para realizar** tiene las siguientes opciones:
+El campo **Acción para realizar** tiene las siguientes opciones:
 
-  * *Ignorar*
+| Acción | Descripción |
+| ------ | ----------- |
+| *Ignorar* | No se realizarán acciones. |
+| *Usar como atributo* | El valor se agrega a los atributos del producto. Obtenga más información en [Trabajar con atributos de producto](inventory-how-work-item-attributes.md). |
+| *Usar como categoría* | El valor seleccionado se agrega como una categoría. Obtenga más información en [Categorizar productos](inventory-how-categorize-items.md). |
+| *Agregar a la lista de bloqueados* | Si el análisis sugiere un atributo que no desea ver, puede bloquearlo. Sin embargo, preste atención. Los atributos bloqueados ya no aparecerán más para otros productos. Si desea desbloquear un atributo, elija **Ver atributos bloqueados** y, a continuación, eliminarlo de la lista. |
 
-    No se realizarán acciones
-  * *Usar como atributo*
+> [!NOTE]  
+> De forma predeterminada **Atributos del producto** muestra atributos donde la **Puntuación de confianza** está por encima del **% de umbral de puntuación de confianza** definido en el **Configuración de análisis de imagen**. Para ver todos los atributos detectados, elija la acción **Ver todos los atributos**.
 
-    El valor se agrega a los atributos del producto. Para obtener más información sobre cómo trabajar con el formulario, consulte [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)
-  * *Usar como categoría*
-
-    El valor seleccionado se agrega como una categoría. Para obtener más información, consulte [Clasificar productos](inventory-how-categorize-items.md)
-  * *Agregar a la lista de bloqueados*
-
-    Si el análisis sugiere un atributo que no desea ver, puede bloquearlo. Sin embargo, preste atención. Los atributos bloqueados ya no aparecerán más para otros productos. Si desea desbloquear un atributo, elija **Ver atributos bloqueados** y, a continuación, eliminarlo de la lista.
-  
-    > [!NOTE]  
-    > De forma predeterminada **Atributos del producto** muestra atributos donde la **Puntuación de confianza** está por encima del **% de umbral de puntuación de confianza** definido en el **Configuración de análisis de imagen**. Para ver todos los atributos detectados, elija la acción **Ver todos los atributos**.
-
-## <a name="to-analyze-a-picture-of-a-contact-person"></a>Analizar una imagen de una persona de contacto
+## <a name="analyze-a-contact-person-picture"></a>Analizar una imagen de persona de contacto
 
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contactos** y luego elija el enlace relacionado.  
 2. Seleccione la persona de contacto y, a continuación, elija la acción **Analizar imagen**.  
-3. En la ficha desplegable **Cuestionario perfil**, revise las sugerencias y realice correcciones si es necesario. Para obtener más información, consulte [Utilizar cuestionarios de perfil para clasificar contactos comerciales](marketing-create-contact-profile-questionnaire.md).  
+3. En la ficha desplegable **Cuestionario perfil**, revise las sugerencias y realice correcciones si es necesario. Obtenga más información en [Usar cuestionarios de perfil para clasificar contactos comerciales](marketing-create-contact-profile-questionnaire.md).  
 
     > [!NOTE]  
-    > 
+    >
     > La API de Computer Vision devuelve los siguientes atributos:
+    >
     > * *edad*
     >
     >     Una "edad visual" estimada en años. Es la edad de una persona en comparación con la edad biológica real.
     > * *sexo*
     >
     >    Mujer o varón.
-    > 
+    >
     > La API de Computer Vision no devuelve el nivel de confianza para los atributos de edad y género.
   
-## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Usar su propia cuenta para la API de Computer Vision
+## <a name="use-your-own-computer-vision-api-account"></a>Usar su propia cuenta de la API de Computer Vision
 
-También puede utilizar su propia cuenta para la API de Computer Vision, por ejemplo, si desea analizar más imágenes de las que permitimos.  
+También puede utilizar su propia cuenta para la API de Computer Vision, por ejemplo, si desea analizar más imágenes de las que ofrece la integración predeterminada.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de análisis de imagen** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de análisis de imagen** y luego elija el enlace relacionado.
 2. Ingrese el **API de URI** y la **Clave de API** que recibió para la API de Computer Vision.  
 
     > [!NOTE]  
-    > Si no está escrito, debe agregar **/analyze** al final de la API de URI. Por ejemplo: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > Si no está escrito, debe agregar **/analyze** al final de la API de URI. Por ejemplo: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Ver cuántos análisis ha dejado en el período actual
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Ver cuántos análisis ha dejado en el período actual
 
 Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en el período actual.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de análisis de imagen** y luego elija el enlace relacionado.  
-2. El **Tipo límite**, el **Valor límite** y los **Análisis realizados** proporcionan la información de uso.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de análisis de imagen** y luego elija el enlace relacionado.
+2. Los campos **Tipo de límite**, **Valor de límite** y **Análisis realizados** proporcionan la información de uso.  
 
-## <a name="to-stop-using-the-image-analyzer-extension"></a>Detener el uso de la extensión del analizador de imágenes
+## <a name="stop-using-the-image-analyzer-extension"></a>Detener el uso de la extensión del analizador de imágenes
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conexiones de servicio** y luego elija **Configuración de análisis de imagen**.  
-2. Desactive la casilla **Activar analizador de imágenes**.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conexiones de servicio** y luego elija **Configuración de análisis de imagen**.  
+2. Desactive el campo **Activar analizador de imágenes**.  
 
 Opcionalmente, desinstale la extensión por completo. Siempre puede volver a recuperarla en AppSource. Para obtener más información, consulte [Instalación y desinstalación de extensiones en Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
 

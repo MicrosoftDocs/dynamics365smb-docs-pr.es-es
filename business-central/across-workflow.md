@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0bd4c54bc089906877052efdbf471fc3dbe1fc30
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129908"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533435"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flujos de trabajo en Dynamics 365 Business Central
 
@@ -47,7 +47,7 @@ Para configurar y usar flujos de trabajo que no están definidos en Power Automa
 |Configure usuarios de flujo de trabajo, especifique cómo reciben notificaciones los usuarios y cree nuevos flujos de trabajo. Para nuevos flujos de trabajo en situaciones no compatibles, implemente los elementos de flujo de trabajo necesarios personalizando el código de aplicación.|[Configurar flujos de trabajo](across-set-up-workflows.md)|  
 |Habilite flujos de trabajo, actúe al recibir notificaciones de flujos de trabajo, incluida la aprobación de solicitudes, para realizar un paso del flujo de trabajo. Archive y elimine flujos de trabajo.|[Usar flujos de trabajo](across-use-workflows.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

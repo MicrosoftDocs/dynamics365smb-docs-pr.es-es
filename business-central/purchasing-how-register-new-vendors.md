@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: 88b6c57fb93b5ef3e2a4cf02ce7a802e4d8aef22
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460752"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532045"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 
@@ -72,7 +72,7 @@ Puede editar la información de las fichas de proveedor en cualquier momento. Si
 5. Cuando haya finalizado la nueva plantilla de proveedor, seleccione **Aceptar**.  
    La plantilla de proveedor se agrega a la lista de plantillas de proveedor, de modo que puede usarla para crear nuevas fichas de proveedor.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada.
 
 ## <a name="see-also"></a>Consulte también .
 

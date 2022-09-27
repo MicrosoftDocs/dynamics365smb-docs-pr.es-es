@@ -10,12 +10,12 @@ ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951,
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c62b50867383ffb4aa9b3bff375d9c36a1e194c
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: a2b6cc372846ec525c9f035aa98c5daafbf31913
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361507"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533770"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Extensión de Predicción de pagos atrasados
 
@@ -118,13 +118,13 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 7. Seleccione la casilla de verificación **Usar Mi suscripción a Azure**.
 8. En la ficha desplegable **Credenciales de mi modelo**, introduzca la URL y la clave de API para su modelo.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/predict-late-payments-sales-documents/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 
 [Documentación de Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personalizar Business Central con extensiones](ui-extensions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-[Usar inteligencia artificial en Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+[Usar inteligencia artificial en Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

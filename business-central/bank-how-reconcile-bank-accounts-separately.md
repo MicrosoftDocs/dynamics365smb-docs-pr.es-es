@@ -10,12 +10,12 @@ ms.search.keywords: bank account balance, bank statement
 ms.search.form: 379, 388, 389, 1290, 1692, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: e74df84ac5119e87aecd6a15e270dfd50fb1b117
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d12ac9b5aa8718c2445cd7a4054ff0549e5d8ada
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514496"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534945"
 ---
 # <a name="reconcile-bank-accounts"></a>Conciliar cuentas bancarias
 
@@ -166,7 +166,7 @@ Si la próxima conciliación bancaria que realice es para agosto, considere camb
 >
 >El último estado de cuenta del saldo se guarda en la cuenta bancaria para minimizar los errores al realizar conciliaciones bancarias, pero también es editable, lo que le permite realizar conciliaciones bancarias en el orden que desee. Esto también significa que si deshace un extracto bancario, es posible que el nuevo saldo final no sea el último saldo del siguiente extracto bancario. No existe una función que le permita mover un saldo hacia adelante a todos los extractos bancarios posteriores, así que tenga esto en cuenta cuando use Deshacer. 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/bank-reconciliation-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

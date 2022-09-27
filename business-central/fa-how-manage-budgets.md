@@ -10,12 +10,12 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c23881a80761a9c5ffe229b6299c320c39fc3f85
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a39ff86ea1bc8b3a2e772b8b3b557cdf863f8d7f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079225"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528364"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Gestionar presupuestos de los activos fijos
 
@@ -58,9 +58,9 @@ Puede usar el informe **A/F - Proyección amort.** para calcular la amortizació
 2. Rellene los campos según sea necesario.
 3. Para ver los valores totales de todos los activos, desactive la casilla **Imprimir por activo fijo**.
 4. Deje en blanco la ficha desplegable **Activo** para incluir todos los activos. En el campo **Activo presupuestado**, puede especificar **No** para excluir los activos presupuestados o **Sí** para ver solo los activos presupuestados.
-5. Haga clic en el botón **Imprimir** o **Vista previa**.
+5. Elija el botón **Imprimir** o **Versión preliminar**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/budget-fixed-assets/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079199"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534675"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Configurar la amortización de los activos fijos
 
@@ -95,7 +95,7 @@ Cuando el proceso Calcular amortización calcula las amortizaciones, el proceso 
 
 Si selecciona este campo, el proceso Calcular amortización utiliza un calendario de 365 en el que cada mes se calcula con el mismo número de días que en el calendario. La única excepción es el febrero en años bisiestos, que el proceso trata como que tiene 28 días en lugar de 29. Por eso, todos los años, incluso los bisiestos, consta que tienen 365 días.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-depreciation-books/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

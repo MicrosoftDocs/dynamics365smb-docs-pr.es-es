@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 80c8eab293fbabd05e385c89f63f7900a7e7cbde
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 89434ef4ac6b9421859791e4e04f895d506e78bb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074546"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530168"
 ---
 # <a name="create-service-items"></a>Crear productos de servicio
 
@@ -62,7 +62,7 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 
     Se insertará una línea de servicio del tipo **Coste** con el gasto de inicio. El gasto de inicio se aplica al producto de servicio seleccionado.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-items/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

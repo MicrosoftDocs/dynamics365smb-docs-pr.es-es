@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c6579f302bfcd5aa8b210eaa5f717c1712a4bd8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 38a98bacb8fcef7e57d1f4e4d7339cac5ca3814b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076284"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529547"
 ---
 # <a name="cloud-migration-base-extension"></a>Extensión de base de migración a la nube
 
@@ -23,7 +23,7 @@ Esta extensión le guiará por el proceso para configurar una conexión entre su
 
 Una vez configurada la conexión, puede migrar datos de su solución local a [!INCLUDE[prod_short](includes/prod_short.md)] en línea. Esta extensión funcionará junto con una extensión de replicación de datos disponible para su solución local específica. Para más información, vea [Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

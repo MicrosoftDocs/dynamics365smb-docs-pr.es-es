@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417524"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530924"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región exige que calcule e informe del impuesto sobre el valor añadido (IVA) en las transacciones de compra y venta, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para calcular el IVA. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
@@ -193,7 +193,7 @@ Para ver un grupo de certificados, desde la página **Certificados de suministro
 > * Para crear manualmente un certificado de suministro  
 > * Para imprimir certificado de suministro.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

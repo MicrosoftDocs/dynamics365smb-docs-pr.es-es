@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 07dfa98c8499a2a9c7de9d5005d941f8d65aa7fb
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 0f1e728b67555fcbde041f556265824b1a64a169
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805079"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529034"
 ---
 # <a name="welcome-to-prod_long"></a>[!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -30,11 +30,11 @@ Si ya tiene [!INCLUDE[prod_short](includes/prod_short.md)], inicie sesión en [h
 
 ## <a name="microsoft-docs"></a>Documentos de Microsoft
 
-En el panel de navegación de la izquierda, puede encontrar información sobre el uso de [!INCLUDE[prod_short](includes/prod_short.md)] en su empresa. Encuentre vínculos a descripciones de las funcionalidades más utilizadas en la sección [Procesos empresariales](#business-processes). Consulte también la sección [Usar el sitio docs.microsoft.com para obtener más información](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
+En el panel de navegación de la izquierda, puede encontrar información sobre el uso de [!INCLUDE[prod_short](includes/prod_short.md)] en su empresa. Encuentre vínculos a descripciones de las funcionalidades más utilizadas en la sección [Procesos empresariales](#business-processes). Consulte también la sección [Obtener más información utilizando la documentación del producto](product-help-and-support.md#learn-more-using-the-product-documentation).
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-Tú también puede [visitar nuestra biblioteca](across-videos.md), o empezar con la ruta de aprendizaje [Introducción a Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) en [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Tú también puede [visitar nuestra biblioteca](across-videos.md), o empezar con la ruta de aprendizaje [Introducción a Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) en la [formación de Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
 > A menos que se especifique lo contrario, el contenido del sitio Docs.microsoft.com refleja la última versión de [!INCLUDE[prod_short](includes/prod_short.md)] online. Si su organización usa una versión diferente de [!INCLUDE[prod_short](includes/prod_short.md)] online, es posible que algunas funcionalidades aún no estén disponibles. Además, si su organización utiliza [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, puede estar utilizando una versión anterior. Para obtener más información, consulte [Preguntas frecuentes ](across-faq.yml).
@@ -78,7 +78,7 @@ Las siguientes secciones apuntan a artículos clave que pueden ayudarlo a famili
 
 ## <a name="learn"></a>Obtener información
 
-Encuentre contenido de aprendizaje electrónico gratuito para [!INCLUDE[prod_short](includes/prod_short.md)] en [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Encuentre contenido de aprendizaje electrónico gratuito para [!INCLUDE[prod_short](includes/prod_short.md)] en la [formación de Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 También puede ver vídeos de funcionalidades nuevas y de uso común en nuestra biblioteca de vídeos. Para obtener más información, vea [Visite nuestra biblioteca de vídeos](across-videos.md).  
 
@@ -94,11 +94,11 @@ También puede ver vídeos de funcionalidades nuevas y de uso común en nuestra 
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la Formación relacionada en [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) relacionada
 
 ## <a name="see-also"></a>Consulte también
 
-[Dynamics 365 Business Central en Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Formación de Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Inicio rápido de Business Central](quick-start-business-central.md)  
 [Comenzar con Business Central](ui-get-ready-business.md)  
 [Visite nuestra biblioteca de vídeos](across-videos.md)  
@@ -107,7 +107,7 @@ También puede ver vídeos de funcionalidades nuevas y de uso común en nuestra 
 [Obtener [!INCLUDE[prod_short](includes/prod_short.md)] en el dispositivo móvil](install-mobile-app.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
-[Usar el sitio docs.microsoft.com para obtener más información](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
+[Obtener más información utilizando la documentación del producto](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [Conformidad de [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-overview.md)  
 [Términos del servicio en línea de [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-service-compliance.md#service-terms)  
 [Actualizaciones importantes y actualizaciones menores de Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

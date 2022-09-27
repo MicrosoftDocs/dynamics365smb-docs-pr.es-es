@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 23a730f79e3b5969243a1b176152496b6e20bdd2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078393"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534729"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Realizar un picking de los artículos para el envío de almacén
 
@@ -75,7 +75,7 @@ Una vez registrado el envío de almacén, los distintos campos de la línea de p
 
 > En ese caso, la cantidad de ensamblar para pedido se controla tal como se describe en este tema, y la cantidad de existencias se controla como cualquier otra línea de envío normal de almacén. Para obtener más información sobre los escenarios de combinación, consulte [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/pick-ship-items-warehouse/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

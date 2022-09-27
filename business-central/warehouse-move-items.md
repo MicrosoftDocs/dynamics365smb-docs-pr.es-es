@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 19e6d291cf2547ac0a9ad45dce264e1e326dfad6
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c74a14711fc6bd682a4a1675925690b7aabdf8d3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078237"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530843"
 ---
 # <a name="moving-items"></a>Mover artículos
 
@@ -39,7 +39,7 @@ Las tareas relacionadas con el inventario de recuento, ajuste y reclasificación
 |Actualizar la frecuencia con la que las ubicaciones, por ejemplo las ubicaciones de picking, deben reponerse como resultado de las fluctuaciones en la demanda.|[Calcular reposición ubicación](warehouse-how-to-calculate-bin-replenishment.md)|
 |Vuelva a estructurar el almacén con nuevos códigos y características de ubicación y muévalos.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d538ea3e1bb00772a3a3183c09c2220893380058
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1b0b3aa0813a4ede91232235b319e8bf72961e6c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079563"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529715"
 ---
 # <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
 
@@ -119,7 +119,7 @@ El coste unitario de una L.M. de ensamblado equivale siempre al total de los cos
 
 Los costes de los productos que conforman la L.M. de ensamblado se copian de las fichas de productos componente. El coste de cada producto se multiplica por la cantidad, y el coste total se muestra en el campo **Coste unitario** en la ficha elemento de ensamblado.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/set-up-assembly-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/set-up-assembly-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 171e046e68cd3eaabbb10b0e1aeacb508cbc76b4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 71ed144297e1f7b98b5fcb7252a216258719f68a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078131"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533649"
 ---
 # <a name="creating-cost-budgets"></a>Crear presupuesto coste
 
@@ -32,7 +32,7 @@ Utilice las siguientes páginas para crear y analizar presupuestos de coste. Eli
 |Vea registros de presupuesto de costes y movimientos de presupuestos de costes.|Página de **Registros de presupuesto de costes**|  
 |Imprima comparaciones del presupuesto de costes con varios informes.|Informe **Saldo/presupuesto contable costes**<br /><br /> Informe **Extracto contable de costes/Presupuesto**<br /><br /> Informe **Ppto. costes por centro de coste**<br /><br /> Informe **Ppto. costes por objeto de coste**|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fb5b2fa88289ff3d9d491f9b8ee7d73706740020
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461293"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524511"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Utilizar un flujo de Power Automate para alertas de cambios de entidad de Dataverse
 
@@ -28,13 +28,24 @@ Los administradores pueden crear un flujo automatizado en Power Automate que not
 > [!NOTE]
 > Este artículo asume que ha conectado su versión en línea de [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE [cds_long_md](includes/cds_long_md.md)] y la sincronización programada entre las dos aplicaciones.
 
+## <a name="import-the-flow-template"></a>Importar la plantilla de flujo
+
+> [!TIP]
+> Para facilitar la configuración del flujo, hemos creado una plantilla que definirá el activador del flujo y la condición del flujo por usted. Para utilizar la plantilla, siga los pasos de esta sección. Para crear el flujo usted mismo, omita esta sección y comience con los pasos en [Definir el desencadenador del flujo](#define-the-flow-trigger).
+
+1. Inicie sesión en [Power Automate](https://powerautomate.microsoft.com).
+2. Elija **Plantillas** y luego busque **Notificar a Business Central**.
+
+:::image type="content" source="media/power-automate-import-template.png" alt-text="Palabras clave para encontrar la plantilla del flujo":::
+3. Elija la plantilla **Notificar a Business Central cuando cambie una cuenta**.
+4. Continúe con los pasos de la sección [Notificar un cambio a Business Central](#notify-business-central-about-a-change).
+
 ## <a name="define-the-flow-trigger"></a>Definir el desencadenador del flujo
 
 1. Iniciar sesión en [Power Automate](https://flow.microsoft.com).
 2. Cree un flujo de nube automatizado que comience cuando se añada, modifique o elimine una entidad una fila para una entidad de [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Para más información, vea [Desencadenar flujos cuando se agrega, modifica o elimina una fila](/power-automate/dataverse/create-update-delete-trigger). Este ejemplo utiliza la entidad **Cuentas**. La siguiente imagen muestra la configuración del primer paso para definir un disparador de flujo.
 
 :::image type="content" source="media/power-automate-flow-dataverse-trigger.png" alt-text="Configuración del desencadenador del flujo":::
-
 3. Utilice el botón **AssistEdit (...)** de la esquina superior derecha para agregar la conexión a su entorno de [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 4. Elija **Mostrar opciones avanzadas**, y en el campo **Filtrar filas**, ingrese **customertypecode eq 3** o **customertypecode eq 11** y **statecode eq 0**. Estos valores significan que el desencadenador reaccionará solo cuando se realicen cambios en las cuentas activas del tipo **cliente** o **proveedor**.
 
@@ -46,11 +57,11 @@ Los datos se sincronizan entre [!INCLUDE[prod_short](includes/prod_short.md)] y 
     1. En el campo **Nombre de tabla**, elija **Usuarios**
     2. En el campo **Id de fila**, elija **Modificado por (valor)** del disparador de flujo.  
 2. Agregue un paso de condición con el siguiente ajuste **o** para identificar la cuenta de usuario de integración.
-    1. La **Dirección de correo principal** del usuario contiene **contoso.com** 
-    2. El **Nombre completo** del usuario del usuario **[!INCLUDE[prod_short](includes/prod_short.md)]**. 
-3. Agregue un control Terminar para detener el flujo si se cumple la condición. Es decir, si se cumple la condición y la cuenta de usuario de integración cambió una entidad.
+    1. La **Dirección de correo principal** del usuario contiene **contoso.com**
+    2. El **Nombre completo** del usuario del usuario **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+3. Agregue un control Terminar para detener el flujo si la cuenta de usuario de integración cambió la entidad.
 
-La siguiente imagen muestra la información que se debe agregar para definir el desencadenador de flujo y la condición de flujo.
+La siguiente imagen muestra cómo definir el desencadenador de flujo y la condición de flujo.
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Descripción general de la configuración de desencadenador y condición del flujo":::
 
@@ -58,11 +69,10 @@ La siguiente imagen muestra la información que se debe agregar para definir el 
 
 Si el flujo no se detiene por la condición, debe notificar [!INCLUDE[prod_short](includes/prod_short.md)] que se produjo un cambio. Utilice el conector de [!INCLUDE[prod_short](includes/prod_short.md)] para ello.
 
-1. En la bifurcación **No** del paso de condición, agregue una acción y busque **Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]**. Elija el icono de conector en la lista. 
+1. En la bifurcación **No** del paso de condición, agregue una acción y busque **Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]**. Elija el icono de conector en la lista.
 2. Seleccione la acción **Crear registro (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Configuración del conector de [!INCLUDE[prod_short](includes/prod_short.md)]":::
-
 3. Utilice el botón **assist edit (...)** de la esquina superior derecha para agregar la conexión a su [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Cuando esté conectado, rellene los campos **Nombre del entorno** y **Nombre de empresa**.
 5. En el campo **Categoría de API**, ingrese **microsoft/dataverse/v1.0**.
@@ -76,7 +86,7 @@ La imagen siguiente muestra el aspector que debería tener el flujo.
 
 Cuando agrega, elimina o modifica una cuenta de su entorno de [!INCLUDE [cds_long_md](includes/cds_long_md.md)], este flujo realizará las siguientes acciones:
 
-1. Llama al entorno de [!INCLUDE[prod_short](includes/prod_short.md)] que especificó en el conector de [!INCLUDE[prod_short](includes/prod_short.md)]. 
+1. Llama al entorno de [!INCLUDE[prod_short](includes/prod_short.md)] que especificó en el conector de [!INCLUDE[prod_short](includes/prod_short.md)].
 2. Utilic la API [!INCLUDE[prod_short](includes/prod_short.md)] para insertar un registro con el **Nombre de la entidad** ajustado a **cuenta** en la tabla **Cambio de entrada de Dataverse**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] iniciará la entrada de la cola de trabajos que sincroniza clientes con cuentas.
 
 ## <a name="see-also"></a>Consulte también

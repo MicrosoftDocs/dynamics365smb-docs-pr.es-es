@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 09e6bf269e8561dab5d205bc61d81ac40787200c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 24188a9eddda8d91e33058039b092ed8fcb37414
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075478"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534621"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurar términos y niveles de recordatorios.
 
@@ -98,7 +98,7 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
 
 Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

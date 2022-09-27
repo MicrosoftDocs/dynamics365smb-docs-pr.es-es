@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 80a34d18c94038ded7bcf405cabd1c67ddf82539
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2814fe1f9ca71c3a14bb288427c9b12603d0463a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078419"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529143"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Realizar picking para ensamblado o producción en una configuración básica de almacén
 
@@ -87,7 +87,7 @@ Este organigrama muestra cómo se rellena el campo de **Código de ubicación** 
 
 ![Diagrama de flujo de ubicación.](media/binflow.png "BinFlow")
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

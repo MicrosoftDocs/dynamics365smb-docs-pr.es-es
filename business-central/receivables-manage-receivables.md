@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f5f701f4c26b81140fd87a81aa47591d268c8203
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 37aa7f341bd0a8f097e0ca9737bffd3d2cd4e507
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510796"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534108"
 ---
 # <a name="managing-receivables"></a>Administrar cobros
 
@@ -45,9 +45,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Con el consentimiento de sus clientes, los pagos se cobran directamente al banco del cliente, solo en euros.|[Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)|
 |Bloquear a un cliente para que no pueda entrar en documentos o publicaciones, por ejemplo porque es insolvente.|[Bloquear clientes](receivables-how-block-customers.md)|
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de Predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
+| Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  

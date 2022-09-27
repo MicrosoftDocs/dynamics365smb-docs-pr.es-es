@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7da9d24f805c273c67cf856e6a1a835e18686b83
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076960"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528685"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Descripción general de Inteligencia empresarial e informes
 
@@ -30,7 +30,7 @@ Las pequeñas y medianas empresas responden con análisis e informes integrados 
 | Aprenda a integrar herramientas de inteligencia de negocios externas con [!INCLUDE[prod_short](includes/prod_short.md)].| [Herramientas de Business Intelligence externas](reports-external-analysis.md) |
 |Aprenda a modificar diseños de informes o incluso a desarrollar sus propios informes desde cero. |[Desarrollo de informes](reports-develop-reports.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

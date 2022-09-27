@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ce0b3e4208cddba15c7358659e404ba2c868f11c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dfe8f1aa36f19372363c5e23994328d15f8a5b77
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514548"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534270"
 ---
 # <a name="assembly-management"></a>Gestión de ensamblaje
 Para apoyar a las empresas que suministran los productos a sus clientes agrupando los componentes en procesos sencillos sin necesidad de la funcionalidad de fabricación, [!INCLUDE[prod_short](includes/prod_short.md)] incluye las características para ensamblar artículos que se integran con las existentes, como son planificación, reservas y almacén.  
@@ -46,7 +46,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Saber la diferencia entre ensamblado L.M. y producción L.M. y las diferencias de procesamiento correspondientes.|[Trabajar con listas de materiales](inventory-how-work-BOMs.md)|
 |Saber cómo se gestiona el consumo de ensamblado y a la salida cuando se registran los pedidos de ensamblado y cómo se procesan y se distribuyen a la contabilidad el artículo y los precios de coste de recurso derivados.|[Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

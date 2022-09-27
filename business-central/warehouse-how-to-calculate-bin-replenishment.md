@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f59670f427eb530eabaa69aa7596d610cb117078
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0f2653087df90ca6801f0d2e972f142e1f65b889
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076128"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530817"
 ---
 # <a name="calculate-bin-replenishment"></a>Calcular reposición ubicación
 
@@ -47,7 +47,7 @@ La próxima vez que calcule la reposición de la ubicación, se volverán a crea
 >   
 >  los campos **Desde zona** y **Desde ubicación** estarán en blanco, ya que el algoritmo para calcular desde dónde se van a mover los productos sólo se ejecuta al activar la función **Crear movimiento**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/move-items/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/move-items/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

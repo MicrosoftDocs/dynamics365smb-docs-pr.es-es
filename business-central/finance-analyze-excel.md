@@ -7,12 +7,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 43b5a4181b50da65f25be3f3fc73a0e01fd885af
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 874234154c7a2ae2e8cf0444794a2b4fbdcbcf5e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361767"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534216"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Análisis de estados financieros en Microsoft Excel
 
@@ -56,7 +56,7 @@ Su experiencia con [!INCLUDE [prod_short](includes/prod_short.md)] incluye un co
 
 El complemento le permite conseguir nuevos datos de [!INCLUDE [prod_short](includes/prod_short.md)] y puede insertar cambios en [!INCLUDE [prod_short](includes/prod_short.md)]. Sin embargo, la capacidad de insertar datos en la base de datos no está disponible para los informes financieros que peude ver en Excel.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

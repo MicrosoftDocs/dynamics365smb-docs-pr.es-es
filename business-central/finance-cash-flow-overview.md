@@ -10,12 +10,12 @@ ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash r
 ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: fef3a27cf02d48fcf08a7bb70c469ed2820d0753
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 811bf9e69e75bbc3b46a20a5c3d4a6226abcdccc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149106"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530600"
 ---
 # <a name="cash-flow-overview"></a>Descripción del flujo de efectivo
 
@@ -76,7 +76,7 @@ La previsión puede utilizarse como herramienta interna de toma de decisiones de
 
 [Configuración del análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)  
 [Analizar el flujo de efectivo](finance-analyze-cash-flow.md)  
-[Prediga su flujo de efectivo en Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Configure previsiones de flujo de efectivo con Azure AI en Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
+[Prediga su flujo de efectivo en Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Configure previsiones de flujo de efectivo con Azure AI en Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

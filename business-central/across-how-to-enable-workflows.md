@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 994dd652c5339dbdf1dead483e10192a12084fc7
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f9efb91e608bffc0d5da789191b5732ae90e8305
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130070"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531788"
 ---
 # <a name="enable-workflows"></a>Activar flujos de trabajo
 
@@ -28,7 +28,7 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
 2. Abra el flujo de trabajo que quiera activar.  
 3. En la página **Flujo de trabajo**, active **Habilitado**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

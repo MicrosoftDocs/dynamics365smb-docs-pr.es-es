@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 161, 254, 256, 347, 574, 599, 9002
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7365ca162baf7aacb0cac16d5eee3fdec0e7c098
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c3049cc4dd488a7ff7648d2a11d0371ac463daa6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523350"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531447"
 ---
 # <a name="managing-payables"></a>Administración de pagos
 
@@ -35,7 +35,7 @@ En la tabla siguiente se muestra una secuencia de tareas de cuentas por pagar, c
 |Asegúrese de la valoración de inventario correcta mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar.|[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
 |Reembolse a los empleados por gastos personales durante las actividades comerciales mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Compras](purchasing-manage-purchasing.md)  

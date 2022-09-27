@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 152f3ac3fc95e342bca2e286dac03a065193f6cb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075972"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533192"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 
@@ -95,7 +95,7 @@ En función de este ejemplo, sólo se puede modificar el campo **Cantidad a ensa
 - La cantidad mínima que puede introducir es 1. Esto se debe a que debe ensamblar al menos una unidad para poder vender las cuatro unidades, si se asume que las tres restantes están disponibles en el inventario.  
 - La cantidad máxima que puede introducir es 4. Así se garantiza que no ensamble más de este artículo de ensamblar para pedido de lo que se necesita en la venta.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

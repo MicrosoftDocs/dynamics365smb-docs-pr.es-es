@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f458f1dca9f2aa23fcc7942ad6556b1d86848b5f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 38b71a036ac4334a7d7ac641aaa1868f01253a03
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074827"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530060"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Seguimiento de productos con números de serie, de lote y de paquete
 
@@ -226,7 +226,7 @@ El proceso de reclasificar el seguimiento para un producto significa convertir u
 8. Si desea modificar la información existente relativa al número de lote o de serie, puede registrar la información respectiva.  
 9. Registre el diario para enlazar los números de seguimiento de producto renovados o las fechas de caducidad con los movimientos de producto asociados.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

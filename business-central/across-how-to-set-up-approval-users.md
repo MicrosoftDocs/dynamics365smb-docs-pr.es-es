@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 464212d90ba43648bcb5d2852f5d3fec0c23ca41
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129800"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530789"
 ---
 # <a name="set-up-approval-users"></a>Configurar usuarios de aprobación
 
@@ -54,7 +54,7 @@ Antes de que puedas crear flujos de trabajo que impliquen pasos de aprobación, 
 3. Para probar la configuración de usuario de aprobación, elija la opción **Prueba configuración usuario aprobación**.  
 4. Repita los pasos 2 y 3 para cada usuario que desee configurar como usuario de aprobación.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

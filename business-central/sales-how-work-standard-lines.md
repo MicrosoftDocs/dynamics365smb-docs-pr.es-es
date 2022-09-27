@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: edupont
-ms.openlocfilehash: 7b5e0b32306fad7a4379aca6e3dbc23eb609c99e
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 1d4223bb324a10644e0974f8b92564f5bf85dce2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144118"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535626"
 ---
 # <a name="create-recurring-sales"></a>Crear ventas periódicas
 
@@ -76,7 +76,7 @@ Puede utilizar el trabajo por lotes **Crear facturas de venta periódicas** para
 
 Las facturas de venta se crean para los clientes con el código de ventas de cliente estándar especificado y la información de domiciliación especificada, para el registro en la fecha especificada.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

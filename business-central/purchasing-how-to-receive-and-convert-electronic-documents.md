@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 189, 190, 191
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: bf1cb735e823ee22a9bd65a9b69955b841adc442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ff1b79447091df53f45eff49779e1c73b2fe0fd5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131150"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534189"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
 
@@ -58,7 +58,7 @@ El procedimiento siguiente describe cómo recibir una factura de proveedor y con
 
     Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[prod_short](includes/prod_short.md)], se mostrarán en la ficha desplegable **Mensajes de error**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

@@ -10,12 +10,12 @@ ms.search.keywords: extension, migrate, data, QuickBooks, import
 ms.search.form: 1830,
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: f2e7c3243a2633534dc36dd37aef5d096a7d1f28
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 4c0e9a89b81e9d967482d79e91b4aa05619fc658
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361373"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528577"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Extensión de migración de datos de QuickBooks Online
 
@@ -67,7 +67,7 @@ Hay algunos pasos que es recomendable que haga:
 * Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
 * Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks Online no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

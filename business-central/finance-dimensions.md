@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5579df4d63a4f800118ca320d60a984f203022b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f6e20f7886c30d15f3984062febc1dc81a48a95c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517581"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533327"
 ---
 # <a name="work-with-dimensions"></a>Trabajar con dimensiones
 Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento.  
@@ -222,7 +222,7 @@ En una página de movimiento de contabilidad, puede ver si hay dimensiones globa
 > [!NOTE]  
 > La página **Dimensiones movimiento** muestra las dimensiones de un movimiento de contabilidad cada vez. A medida que se desplaza por los movimientos de contabilidad, el contenido de la página **Dimensiones movimiento** va cambiando según corresponda.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/dimensions-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

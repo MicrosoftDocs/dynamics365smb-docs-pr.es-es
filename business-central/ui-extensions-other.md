@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ba87c96e23a3905e555a3c5fbf361758f2f76664
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 417d6bcb596e5f3aef3644ff464105d1eb8014e7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075712"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531329"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Extensiones de Business Central de otros proveedores
 
@@ -22,7 +22,7 @@ En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener ex
 
 La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) y consiga aplicaciones que le ayudarán en su trabajo en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/customize-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

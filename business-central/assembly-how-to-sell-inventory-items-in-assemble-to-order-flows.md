@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9ce2494e929613d69c22d125adffb6465d1717cd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3b9955ece6a5f76269915b18ecfe22c722d2e59d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075035"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532976"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vender productos de inventario en flujos de ensamblar para pedido
 
@@ -51,7 +51,7 @@ En este procedimiento, se reemplazan las cantidades de ensamblar para pedido con
 > [!CAUTION]  
 >  El campo **Cód. ubicación** en el pedido de venta se puede llenar por anticipado de acuerdo con el campo **Cód. ubic. ensamblar para pedido** o **Cód. ubic. desde ensamblado** en la ficha de almacén. En ese caso, el campo **Cód. ubicación** de la línea de pedido de venta puede ser incorrecto en esta combinación de cantidades de ensamblar para pedido y ensamblar para stock. Es una buena idea observar el campo **Cód. ubicación** y garantizar que la ubicación es válida para todas las cantidades. También puede introducir las dos cantidades en líneas de pedido de venta distintas.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

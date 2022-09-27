@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 18a9d4ba7e2865e41d660261a598b1b755c68023
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 988e3ad6185e06bbe82f21005e64ad9bada051a5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129717"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534999"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Crear flujos de trabajo a partir de plantillas de flujo de trabajo
 
@@ -35,7 +35,7 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
    La página **Flujo de trabajo** se abre para un nuevo flujo de trabajo que contiene toda la información de la plantilla seleccionada. El valor del campo **Código** se amplia, por ejemplo, con "-01" para indicar que este es el primer flujo de trabajo creado a partir de la plantilla de flujo de trabajo.  
 4. Empiece a crear el flujo de trabajo modificando los pasos del flujo de trabajo o agregando nuevos pasos. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

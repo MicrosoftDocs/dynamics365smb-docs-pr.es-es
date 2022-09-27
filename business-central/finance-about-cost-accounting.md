@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b2e1b0971d6fe8c9c48ba2e0ca03271429c9841d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076622"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528390"
 ---
 # <a name="about-cost-accounting"></a>Acerca de la contabilidad de costes
 
@@ -74,7 +74,7 @@ Puede crear tantos presupuestos de coste como sea necesario. Puede copiar el pre
 
 La mayoría de los informes y las estadística se basan en los movimientos de costes registrados. Puede definir el orden de los resultados y usar filtros para definir qué datos deben mostrarse. Puede crear informes para el análisis de distribución del coste. Además, puede utilizar los esquemas de cuenta estándar para definir cómo se muestran los informes para el plan de tipos de coste.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

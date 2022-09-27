@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e942adc661b31dbb181624ff66ebd33a2d50b255
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514808"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531086"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Configurar reglas para la liquidación automática de los pagos
 
@@ -77,10 +77,10 @@ La siguiente tabla describe las reglas de aplicación de pago estándar en [!INC
 | Baja              | 1        | Completamente                 | No                             | Ninguna instancia                     |
 | Baja              | 2        | Parcialmente             | No                             | Múltiples instancias               |
 | Baja              | 3        | Parcialmente             | No                             | Ninguna instancia                     |
-| Baja              | 4        | No                    | No                             | Una instancia                      |
-| Baja              | 5        | No                    | No                             | Múltiples instancias               |
+| Baja              | 4        | N.º                    | N.º                             | Una instancia                      |
+| Baja              | 5        | N.º                    | N.º                             | Múltiples instancias               |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  

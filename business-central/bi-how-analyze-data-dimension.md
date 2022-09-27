@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5578a67baf1f6036c1a9f8804a9618f446e34006
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b18bd7f224988f0e5357aa68088ea311ea0cd965
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512444"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530681"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analizar datos por dimensiones
 En análisis financiero, una dimensión son datos que puede agregar a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Las dimensiones se pueden utilizar en movimientos de diarios, documentos y presupuestos. El término dimensión describe cómo tiene lugar el análisis. Un análisis de dos dimensiones, por ejemplo, sería ventas por área. Sin embargo, mediante el uso de más de dos dimensiones al crear un movimiento, puede efectuar un análisis más complejo, como ventas por campaña de ventas, grupo de clientes y área. Para obtener más información, consulte [Trabajar con dimensiones](finance-dimensions.md).
@@ -75,7 +75,7 @@ El siguiente procedimiento permite actualizar una vista de análisis desde la p�
 > [!NOTE]  
 >   Para actualizar varias vistas de análisis al mismo tiempo, debe utilizar el proceso **Actualizar vistas de análisis**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/dimensions-financial-reports-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Inteligencia empresarial](bi.md)  

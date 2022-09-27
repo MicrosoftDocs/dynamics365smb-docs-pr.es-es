@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 22f0ecdf185d3b2e31d23dd2492223179328d103
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514048"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533138"
 ---
 # <a name="create-gl-budgets"></a>Crear presupuestos contables
 
@@ -49,7 +49,7 @@ Prácticamente en todas las demás páginas, puede exportar datos en páginas de
 > [!NOTE]
 > El plan de cuentas, en el que se basan los presupuestos contables, tiene líneas de tipo de cuenta Mayor que contienen el total de las líneas siguientes. Cuando se exporta un presupuesto contable, se exportan los datos de todas las líneas independientemente del tipo de cuenta. Sin embargo, solo se pueden volver a importar los datos de las líneas del tipo Registro. En consecuencia: <br /><br /> **Al importar un presupuesto contable, todos los valores que existían en las líneas de cabecera se eliminarán.** <br /><br /> Esto sirve para evitar cantidades totales erróneas después de importar datos que se han creado o editado en Excel.<br /><br /> **Escenario**: Usted sabe que el nuevo coste de los salarios presupuestados será de 1.200.000 DL. Desea permitir que el departamento de Salarios presupueste las tres líneas específicas (de tipo de cuenta Publicación) para Empleados a tiempo completo, Empleados a tiempo parcial y Ayuda temporal. Las tres líneas se agrupan bajo una línea de encabezado de Salarios.<br /><br />Introduzca 1.200.000 en la línea Mayor, exporte el presupuesto a Excel y luego envíelo al departamento de Salarios y dígales que distribuyan los 1.200.000 DL.<br /><br /> El departamento de Salarios distribuye el importe en las tres cuentas contables. Cuando vuelve a importar al presupuesto contable, las tres cuentas se completan con los nuevos datos de Excel, que suman 1.200.000 DL y la línea Mayor está en blanco.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 16adda82dbc45bcff61934d57de7a4e46f8477cf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 14c5f0db9750c4c87a7606044204864d115acdd2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075296"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529926"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
 
@@ -165,7 +165,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
  Este tutorial le ha enseñado a calcular el trabajo en curso en [!INCLUDE[prod_short](includes/prod_short.md)]. En proyectos más grandes, puede resultar útil transferir los costes a una cuenta WIP periódicamente mientras se completa el proyecto. Este tutorial le ha mostrado cómo excluir líneas de tarea de un cálculo. También le muestra cuándo tiene que calcular de nuevo. Y finalmente, este tutorial demuestra la forma de registrar el WIP en la contabilidad general. También se incluye un ejemplo de cómo revertir un WIP que registra la contabilidad general.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/calculate-post-job-wip/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

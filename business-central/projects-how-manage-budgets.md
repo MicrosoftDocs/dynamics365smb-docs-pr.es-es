@@ -10,12 +10,12 @@ ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc3d630e232e560987daefaabbe7ea8b5ddc681c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 47a3e85a806db2f7c4b0c0656016594d5f7818dc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075374"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529979"
 ---
 # <a name="manage-job-budgets"></a>Gestionar presupuestos de proyecto
 
@@ -49,7 +49,7 @@ En la página **Ficha proyecto**, puede ver un resumen del total de costes presu
 
 Para obtener información acerca del registro de precios y costes de proyecto presupuestados y reales, vea [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/set-up-job-planning-lines/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

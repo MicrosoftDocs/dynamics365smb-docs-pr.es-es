@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525170"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535859"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Establecer el diseño utilizado por un informe
 
@@ -62,7 +62,7 @@ Hay dos formas de establecer qué diseño usa un informe. Una forma es desde la 
 
 Los informes están diseñados para usar un diseño de forma predeterminada. Puede volver al diseño predeterminado original desde la página **Selección de diseño de informes**. Simplemente seleccione el informe, luego seleccione la acción **Restaurar la selección predeterminada** en la parte superior de la página.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

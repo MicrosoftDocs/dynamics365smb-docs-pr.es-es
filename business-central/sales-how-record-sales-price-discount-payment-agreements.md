@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf0a8881ea896c1728f02f07e5991b284a3ccae
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129854"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529601"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
 
@@ -221,7 +221,7 @@ Además de, o en lugar de, un porcentaje de descuento, puede vincular un importe
 > [!TIP]  
 > Antes de introducir esta información, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los clientes que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido introducirá la información básica.
 
-Para formación sobre descuentos en ventas, consulte [Establecer descuentos para sus clientes](/learn/modules/customer-discounts-dynamics-365-business-central/index) en Microsoft Learn.  
+Para formación sobre descuentos en ventas, consulte [Establecer descuentos para sus clientes](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="calculating-invoice-discounts-on-sales"></a>Calcular descuentos en factura para ventas
 
@@ -276,7 +276,7 @@ Configure de nuevo los términos de descuento en factura de ventas.
 4. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
 5. Repita los pasos del 5 al 7 para cada divisa que el cliente reciba un descuento diferente de factura.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-sales-prices-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

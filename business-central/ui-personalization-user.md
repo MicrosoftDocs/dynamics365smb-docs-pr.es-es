@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8ab57ff6e28abf3a40b9507375d33ffb4f1f33a3
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655493"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528818"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
 
@@ -150,7 +150,7 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 - Los cambios de una página realizados en un panel tendrán efecto en la página donde se muestre.  
 - Solo puede agregar campos y columnas de una lista predefinida, que está basada en la página. No puede crear campos ni columnas nuevos.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  

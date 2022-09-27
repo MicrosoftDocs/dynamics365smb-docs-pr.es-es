@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 49280683e865e1c86f50532999dfa182e15015a2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147247"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530303"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Configurar el envío y la recepción de documentos electrónicos
 
@@ -142,7 +142,7 @@ El tema incluye los siguientes procedimientos:
     |---------------------------------|---------------------------------------|  
     |**Cuenta para líneas que no son artículos físicos**|Especifica la cuenta que se inserta automáticamente en las líneas de compra creadas a partir de los documentos electrónicos cuando la línea de documento entrante no contiene un producto identificable. Cualquier línea del documento entrante que no tenga un GTIN o el número de producto del proveedor se convierte en una línea de compra de tipo **Cuenta**, y el campo **Nº** de la línea de compra contendrá la cuenta seleccionada en el campo **Cuenta para líneas que no son artículos físicos**.<br /><br /> Si dejas el campo **Cuenta para líneas que no son artículos físicos** en blanco y el documento entrante contiene líneas sin artículos identificables, no se creará el documento de compra. Entonces, aparecerá un mensaje de error que te indicará que rellenes el campo **Cuenta para líneas que no son artículos físicos** antes de completar la tarea.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también  
 [Intercambio de datos electrónicamente](across-data-exchange.md)   

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 1
 ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: 5de13d4f6e625db0d0871a3f7a94f62d726abc8f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 791d2b5c91014b2b9ce836854285ea8f0f32df37
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077715"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533946"
 ---
 # <a name="company-information-overview"></a>Resumen de la información de la empresa
 
@@ -35,7 +35,7 @@ Si su [!INCLUDE [prod_short](includes/prod_short.md)] incluye varias empresas, e
 
 La experiencia de usuario predeterminada en una prueba de [!INCLUDE [prod_short](includes/prod_short.md)] no revela todas las capacidades. Puede activar la experiencia completa en la página **Información de la empresa**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

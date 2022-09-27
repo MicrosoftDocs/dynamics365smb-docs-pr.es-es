@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 43489631d1e59c26838287f77ba2ec5136da194e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 8915015f015642a85439fbdd5511271b06a8358f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362339"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531302"
 ---
 # <a name="set-up-printers"></a>Configuración de impresoras
 
@@ -276,7 +276,7 @@ En lugar de utilizar la impresora predeterminada al ejecutar un informe, puede a
 
 La impresión en la nube se ha diseñado para documentos de un tamaño razonable. La mayoría de los servicios en la nube, incluidos PrintNode y HP ePrint, tienen un límite de 10 MB por trabajo. Si necesita imprimir informes más grandes, es posible que deba dividirlos en varias copias impresas.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

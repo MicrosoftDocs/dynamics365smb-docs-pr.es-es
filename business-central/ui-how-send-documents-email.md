@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950495"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532355"
 ---
 # <a name="send-documents-and-emails"></a>Enviar documentos y correo electrónico
 
@@ -69,7 +69,7 @@ Algunos documentos de [!INCLUDE[prod_short](includes/prod_short.md)] tienen un c
 
 La **Bandeja de salida de correo electrónico** es donde encontrará los correos electrónicos que guardó como borradores y los correos electrónicos que no se pudieron enviar, por ejemplo, si la dirección de correo electrónico no era válida. Para los mensajes que no se pudieron enviar, puede elegir **Mostrar error** o **Investigar error** para solucionar el problema.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

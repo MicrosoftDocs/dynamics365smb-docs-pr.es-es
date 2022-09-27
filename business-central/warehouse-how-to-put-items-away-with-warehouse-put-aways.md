@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3e638e00fc648a720d09520fb62aa3ad25324673
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: af211e70e43a70999822a513fc79907dbcd74429
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078277"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529844"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
 
@@ -75,7 +75,7 @@ El ranking de ubicación se tiene en cuenta cuando varias ubicaciones cumplen lo
 4.  Si el albarán se ha ubicado parcialmente o no se ha ubicado, elija la acción **Crear ubicación**.  
 5.  Rellene la página del proceso para crear la ubicación como necesite y a continuación seleccione **Aceptar**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

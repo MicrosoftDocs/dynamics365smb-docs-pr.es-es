@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 612dc8ada170ae6925bd3121db324cec1624ce68
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515308"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530141"
 ---
 # <a name="legacy-set-the-layout-used-by-a-report"></a>(Versión heredada) Establecer el diseño utilizado por un informe
 
@@ -62,7 +62,7 @@ El nombre del diseño personalizado seleccionado ahora se muestra en el campo **
 
 Ahora puede ir a sus fichas de cliente y proveedor para especificar cuál de los diseños se usará para diferentes documentos que cree para el cliente o proveedor en cuestión, como confirmaciones de pedido o recordatorios de pagos. Para obtener más información, vea [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 99f23e497c969e9a9461928d1e550605f6db1eae
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 6a1254cb18546556b977eb009a819806e62ee2ca
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076362"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531653"
 ---
 # <a name="set-up-salespeople"></a>Configurar vendedores
 
@@ -31,7 +31,7 @@ Cuando debe configurar un vendedor en la página **Vendedor**, puede seleccionar
 
 Puede utilizar vendedores en diferentes tareas de gestión de relaciones y de marketing. Por ejemplo, puede asignar tareas a un vendedor, de modo que las tareas se incorporen en las oportunidades de ventas que tiene asignadas el vendedor. Para obtener más información, vea [Configurar ciclos de ventas de oportunidad y etapas de ciclo](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

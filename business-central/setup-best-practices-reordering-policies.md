@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f12a5156cbad785ccede27bbe176b7e3ccd74d9c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077533"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531059"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Procedimientos recomendados de configuración: políticas de reaprovisionamiento
 
@@ -41,7 +41,7 @@ La tabla siguiente proporciona los procedimientos recomendados para seleccionar 
 |**Cdad. fija reaprov.**|Utilice para productos C.<br /><br /> Combine con parámetros de puntos de pedido.<br /><br /> En la fabricación, utilice para los componentes de nivel inferior.<br /><br /> No utilice si el producto suele ser reservado.|Los productos C, como las tazas de té, son productos de valor inferior con una velocidad de pedido alta y regular. La mejor política de reaprovisionamiento para productos C es, por tanto, aquella que garantiza la disponibilidad constante y permanece siempre por encima de un punto de pedido.<br /><br /> Si el usuario reserva una cantidad para alguna demanda distante, se afectará a la base de la planificación. Aunque el nivel de inventario estimado es aceptable en relación con el punto de nuevo pedido, las cantidades pueden no estar disponibles debido a la reserva.|  
 |**Cdad. máxima**|Utilice para productos C con altos costes de traslado o limitaciones de almacenamiento.<br /><br /> Combine con uno o más modificadores de pedidos (cantidad máxima o mínima de pedido o múltiplos de pedido).|Los productos C, como las tazas de té, son productos de valor inferior con una velocidad de pedido alta y regular. La mejor política de reaprovisionamiento para productos C es, por tanto, aquella que garantiza la disponibilidad constante y permanece siempre por encima de un punto de pedido, pero por debajo de un nivel de inventario máximo.<br /><br /> Para modificar el pedido propuesto, tal vez desee reducir la cantidad del pedido a una cantidad máxima especificada de pedido, aumentarla a una cantidad de pedido mínima especificada o redondearla para alcanzar un múltiplo de pedido especificado. **Nota**: Si se utiliza con un punto de pedido, el inventario permanecerá entre el punto de pedido y la cantidad máxima.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/replenish-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

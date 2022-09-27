@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 0e1f394be1503c76bbf071ca188612b06231e107
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799443"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532301"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Búsqueda de páginas e información con Dígame  
 Este tema describe cómo la función Dígame puede ayudarle a ir rápidamente a cosas como acciones, páginas o informes, encontrar información sobre cómo completar una tarea concreta y descubrir aplicaciones y servicios de consultoría adicionales para [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -67,7 +67,7 @@ La función **Dígame qué desea hacer** no busca datos, como nombres de cliente
 ## <a name="questions"></a>¿Tiene alguna pregunta?
 Hemos mostrado la opción Dígame a varias partes interesadas, anotamos las preguntas que tenían en común y convertimos nuestras notas en una lista de preguntas frecuentes. Si le interesa, consulte las [Preguntas más frecuentes de la opción Dígame](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Trabajar con Business Central](ui-work-product.md)  

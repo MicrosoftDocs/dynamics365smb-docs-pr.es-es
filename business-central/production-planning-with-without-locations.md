@@ -7,37 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/16/2021
+ms.date: 09/15/2022
 ms.author: edupont
-ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4bb3f626e02259171a9a1bf41c580f34aaa19758
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517848"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524543"
 ---
 # <a name="planning-with-or-without-locations"></a>Planificación con o sin almacenes
-En cuanto a la planificación con o sin códigos de almacén en las líneas de demanda, el programa de planificación funciona directamente cuando:  
 
--   las líneas de demanda siempre incluyen códigos de almacén y el sistema utiliza unidades de almacenamiento por completo, incluida la configuración de almacén correspondiente.  
--   las líneas de demanda nunca incluyen códigos de almacén y el sistema no utiliza unidades de almacenamiento ni configuración de almacén (consulte el último escenario más adelante).  
+Antes de comenzar a utilizar el motor de planificación, le recomendamos que decida si usará o no las ubicaciones. Hay dos formas sencillas principales:
 
-Sin embargo, si las líneas de demanda a veces incluyen códigos de almacén y en otras ocasiones no, el programa de planificación seguirá determinadas reglas dependiendo de la configuración.  
-
-> [!TIP]
-> Si suele planificar la demanda en diferentes almacenes, le recomendamos que use la capacidad Uds. de almacenan.
+* las líneas de demanda siempre incluyen códigos de almacén y el sistema utiliza unidades de almacenamiento por completo, incluida la configuración de almacén correspondiente. Obtenga más información en [Demanda en los almacenes](#demand-at-location).  
+* Las líneas de demanda nunca llevan códigos de ubicación y el sistema utiliza la ficha de producto. Consulte el escenario [Demanda en una "ubicación en blanco"](#demand-at-blank-location) a continuación.
 
 ## <a name="demand-at-location"></a>Demanda en los almacenes  
 
-Cuando el sistema de planificación detecta demanda en un almacén (una línea con un código de almacén), actuará de distinta forma dependiendo de 3 valores de configuración críticos.  
+Cuando el sistema de planificación detecta demanda en un almacén (una línea con un código de almacén), actuará de distinta forma dependiendo de 2 valores de configuración críticos.  
 
-Durante la ejecución de la planificación, el programa comprueba los tres valores de configuración por orden y genera la planificación en consecuencia:  
+Durante la ejecución de la planificación, el programa comprueba los dos valores de configuración por orden y genera la planificación en consecuencia:  
 
-1. ¿Hay una marca de verificación en el campo **Almacén obligatorio** en página **Configuración de inventario**?  
-
-    En caso afirmativo:  
-
-2. ¿Existe unidad de almacenamiento para el producto?  
+1. ¿Existe un SKU para el artículo en la ubicación demandada?  
 
     En caso afirmativo:  
 
@@ -45,7 +37,7 @@ Durante la ejecución de la planificación, el programa comprueba los tres valor
 
     Si no es así:  
 
-3. ¿El campo **Componentes en el almacén** en la página **Configuración fabricación** contiene el código de almacén solicitado?  
+2. ¿El campo **Componentes en el almacén** en la página **Configuración fabricación** contiene el código de almacén solicitado?  
 
     En caso afirmativo:  
 
@@ -53,104 +45,112 @@ Durante la ejecución de la planificación, el programa comprueba los tres valor
 
     Si no es así:  
 
-    El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote*, Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos. (Los artículos que usan la directiva de reaprovisionamiento *Pedido* siguen usando *Pedido*, así como las demás configuraciones).  
-
-> [!NOTE]  
-> Esta alternativa mínima solo cubre la demanda exacta. Se omite cualquier otro parámetro de planificación definido.  
-
-Consulte las variaciones en los escenarios siguientes.  
+    El artículo se planifica de acuerdo con la "alternativa mínima" que cubre la demanda exacta. Los parámetros de planificación se establecen como: Política reaprov. = *Lote a lote*, Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos. (Los artículos que usan la directiva de reaprovisionamiento *Pedido* siguen usando *Pedido*, así como las demás configuraciones).
 
 > [!TIP]
-> El **Almacén obligatorio** en la página **Configuración de inventario** y el campo **Componentes en el almacén** en la página Configuración fabricación son muy importantes para decidir cómo el sistema de planificación maneja las líneas de demanda con/sin códigos de almacén.
+> Si suele planificar la demanda en diferentes almacenes, le recomendamos que use la capacidad Uds. de almacenan y eviten la demanda en unbicación en blanco. Obtenga más información en [Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)
+
+Consulte las variaciones en los [escenarios siguientes](#scenarios).
+
+> [!NOTE]
+> El campo **Componentes en almacén** en la página **Configuración fabricación** es muy importante para controlar cómo el sistema de planificación gestiona las líneas de demanda de producción.
 >
-> En el caso de la demanda de producción que se compra (cuando el motor de planificación se utiliza exclusivamente para planificación de compras y no para planificación de producción), [!INCLUDE [prod_short](includes/prod_short.md)] utilizará el mismo almacén que figura en la orden de producción para los componentes. Con todo, si rellena este campo, puede redirigir los componentes a otro almacén.
+> En lo que se refiere a la demanda de producción, [!INCLUDE [prod_short](includes/prod_short.md)] usará para los componentes y el subensamblaje el almacén indicado en la orden de producción. Con todo, si rellena este campo, puede redirigir los componentes y el subensamblaje a otro almacén.
 >
 > También puede definir esto para una UA específica seleccionando un código de almacén diferente en el campo **Componentes en el almacén** de la ficha UA. Tenga en cuenta que esto no tiene mucho sentido, ya que la lógica de planificación se puede distorsionar al planificar el componente de la UA.
 
-Otro campo importante es el campo **Cantidad máxima de pedido** en la ficha **Producto**. Especifica una cantidad máxima permitida para una propuesta de pedido de producto y se utiliza si el producto se entrega en una unidad de transporte fija, como un contenedor, que desea que se utilice por completo, por ejemplo. Una vez detectada la necesidad de reposición y ajustado el tamaño del lote para cubrir la política de reaprovisionamiento especificada, se disminuirá la cantidad, si es necesario, para cubrir la cantidad máxima de pedido que defina para el producto. Si se mantienen las demandas adicionales, se calcularán nuevos pedidos para cubrirlas. Por lo general, este campo se usa con una política de fabricación Fab-contra-stock.  
+## <a name="demand-at-blank-location"></a>Demanda en almacén en blanco
 
-## <a name="demand-at-blank-location"></a>Demanda en "Almacén en blanco"  
-Incluso aunque el cuadro de verificación **Almacén obligatorio** esté marcado, el sistema permitirá la creación de líneas de demanda sin código de almacén, lo que también se conoce como almacén *EN BLANCO*. Ésta es una desviación del sistema porque tiene diversos valores de configuración ajustados para tratar con los almacenes (consulte más arriba) y, como resultado, el motor de planificación no creará ninguna línea de planificación para dicha línea de demanda. Si no está marcado el campo **Almacén obligatorio**, pero existe cualquiera de los valores de configuración de almacén, la situación también se considera una desviación y el sistema de planificación reaccionará generando la "alternativa mínima":   
-El producto se planifica según esta lógica: Política reaprov. =  *Lote a lote* ( *Pedido* sigue siendo *Pedido)*, Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
+En general, cuando el sistema de planificación detecta demanda en un almacén en blanco (una línea sin código de almacén), el artículo se planifica de acuerdo con los parámetros de planificación de la ficha de producto.
 
-Consulte las variaciones en la configuración de escenarios siguiente.  
+El **Almacén obligatorio** en la página **Configuración de inventario** y el campo **Componentes en el almacén** en la página **Configuración fabricación** o las unidades de almacenamiento afectarán a cómo el sistema de planificación maneja las líneas de demanda con/sin códigos de almacén. Si una de las siguientes afirmaciones es true, la demanda en almacén en blanco también se considera una desviación, y el sistema de planificación reaccionará aplicando la “alternativa mínima”. El producto se planificaría así: directiva de reaprovisionamiento = *lote por lote* (el *pedido* sigue siendo *pedido*), incluir inventario = *sí*, resto de parámetros de planificación = vacío.
 
-### <a name="setup-1"></a>Configuración 1:  
+* El campo **Componentes en almacén** en la página **Configuración fabricación** tiene un valor.
+* Una unidad de almacenamiento exite para el producto planificado.
+* Se selecciona el campo **Almacén obligatorio**.
 
--   Almacén obligatorio = *Sí*  
--   La unidad de almacenamiento está configurada en  *ROJO*  
--   Componentes en alm. =  *AZUL*  
+## <a name="scenarios"></a>Escenarios
 
-#### <a name="case-11-demand-is-at--red-location"></a>Caso 1.1: La demanda está en un almacén  *ROJO*  
+Consulte las variaciones en la configuración de escenarios siguiente.
 
-El producto se planifica en función de los parámetros de planificación de la ficha de la unidad de almacenamiento (incluidas posibles transferencias).  
+### <a name="setup-1"></a>Configuración 1
 
-#### <a name="case-12-demand-is-at--blue-location"></a>Caso 1.2: La demanda está en un almacén *AZUL*  
+* Almacén obligatorio = *Sí*  
+* La unidad de almacenamiento está configurada en *WEST*  
+* Componentes en alm. = *EAST*  
 
-El producto se planifica en función de los parámetros de planificación de la ficha del producto.  
+#### <a name="case-11-demand-is-at-west-location"></a>Caso 1.1: La demanda está en un almacén *WEST*
 
-#### <a name="case-13-demand-is-at--green-location"></a>Caso 1.3: La demanda está en un almacén  *VERDE*  
+El producto se planifica en función de los parámetros de planificación de la ficha de la unidad de almacenamiento (incluidas posibles transferencias).
 
-El producto se planifica en función de los siguientes parámetros: Política reaprov. =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
+#### <a name="case-12-demand-is-at-east-location"></a>Caso 1.2: La demanda está en un almacén *EAST*
 
-#### <a name="case-14-demand-is-at--blank-location"></a>Caso 1.4: La demanda está en un almacén  *EN BLANCO*  
+El producto se planifica en función de los parámetros de planificación de la ficha del producto.
 
-El producto no se planifica porque no hay definido ningún almacén en la línea de demanda.  
+#### <a name="case-13-demand-is-at-north-location"></a>Caso 1.3: La demanda está en un almacén *NORTH*
 
-### <a name="setup-2"></a>Configuración 2:  
+El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
--   Almacén obligatorio = *Sí*  
--   No existe unidad de almacenamiento  
--   Componentes en alm. =  *AZUL*  
+#### <a name="case-14-demand-is-at-blank-location"></a>Caso 1.4: La demanda está en un almacén *EN BLANCO*
 
-#### <a name="case-21-demand-is-at--red-location"></a>Caso 2.1: La demanda está en un almacén  *ROJO*  
+El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
-El producto se planifica en función de los siguientes parámetros: Política reaprov. =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
+### <a name="setup-2"></a>Configuración 2
 
-#### <a name="case-22-demand-is-at--blue-location"></a>Caso 2.2: La demanda está en un almacén *AZUL*  
+* Almacén obligatorio = *Sí*  
+* No existe unidad de almacenamiento  
+* Componentes en alm. = *EAST*  
 
-El producto se planifica en función de los parámetros de planificación de la ficha del producto.  
+#### <a name="case-21-demand-is-at-west-location"></a>Caso 2.1: La demanda está en un almacén *WEST*
 
-### <a name="setup-3"></a>Configuración 3:  
+El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
--   Almacén obligatorio = *No*  
--   No existe unidad de almacenamiento  
--   Componentes en alm. =  *AZUL*  
-
-#### <a name="case-31-demand-is-at--red-location"></a>Caso 3.1: La demanda está en un almacén  *ROJO*  
-
-El producto se planifica en función de los siguientes parámetros: Política reaprov. =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
-
-#### <a name="case-32-demand-is-at--blue-location"></a>Caso 3.2: La demanda está en un almacén *AZUL*  
+#### <a name="case-22-demand-is-at-east-location"></a>Caso 2.2: La demanda está en un almacén *EAST*
 
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.  
 
-#### <a name="case-33-demand-is-at--blank-location"></a>Caso 3.3: La demanda está en un almacén  *EN BLANCO*  
+### <a name="setup-3"></a>Configuración 3
 
-El producto se planifica en función de los siguientes parámetros: Política reaprov. =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
+* Almacén obligatorio = *No*  
+* No existe unidad de almacenamiento  
+* Componentes en alm. = *EAST*  
 
-### <a name="setup-4"></a>Configuración 4:  
+#### <a name="case-31-demand-is-at-west-location"></a>Caso 3.1: La demanda está en un almacén *WEST*
 
--   Almacén obligatorio = *No*  
--   No existe unidad de almacenamiento  
--   Componentes en alm. =  *EN BLANCO*  
+El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
-#### <a name="case-41-demand-is-at--blue-location"></a>Caso 4.1: La demanda está en un almacén  *AZUL*  
-
-El producto se planifica en función de los siguientes parámetros: Política reaprov. =  *Lote a lote* ( *Pedido* sigue siendo  *Pedido*), Incluir existencias =  *Sí*, todos los demás parámetros de planificación = vacíos.  
-
-#### <a name="case-42-demand-is-at--blank-location"></a>Caso 4.2: La demanda está en un almacén  *EN BLANCO*  
+#### <a name="case-32-demand-is-at-east-location"></a>Caso 3.2: La demanda está en un almacén *EAST*
 
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.  
+
+#### <a name="case-33-demand-is-at-blank-location"></a>Caso 3.3: La demanda está en un almacén *EN BLANCO*
+
+El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
+
+### <a name="setup-4"></a>Configuración 4
+
+* Almacén obligatorio = *No*  
+* No existe unidad de almacenamiento  
+* Componentes en alm. = *EN BLANCO*  
+
+#### <a name="case-41-demand-is-at-east-location"></a>Caso 4.1: La demanda está en un almacén *EAST*
+
+El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
+
+#### <a name="case-42-demand-is-at-blank-location"></a>Caso 4.2: La demanda está en un almacén *EN BLANCO*
+
+El producto se planifica en función de los parámetros de planificación de la ficha del producto.
 
 Como se puede ver en el último escenario, la única manera de conseguir un resultado correcto para una línea de demanda sin código de ubicación consiste en deshabilitar todos los valores de configuración relativos a los almacenes. De forma similar, la única manera de obtener resultados de planificación estables para la demanda en los almacenes es utilizar unidades de almacenamiento.  
 
-Por tanto, si suele planificar la demanda en diferentes almacenes, le recomendamos que use la capacidad Uds. de almacenan.  
+Por tanto, si suele planificar la demanda en diferentes almacenes, le recomendamos que use la capacidad Uds. de almacenan.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+
+## <a name="see-also"></a>Consulte también .
 
 [Planificación](production-planning.md)  
-[Configuración de fabricación](production-configure-production-processes.md)  
+[Configurar fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)  
@@ -158,6 +158,5 @@ Por tanto, si suele planificar la demanda en diferentes almacenes, le recomendam
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

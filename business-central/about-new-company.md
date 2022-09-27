@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4fcc6d93c234e6c7a5b7b62514f53157878fee81
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 19340305e2d39ce0626b3d6cb10974556c24b70f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079433"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531545"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -79,7 +79,7 @@ Una vez que se ha creado una empresa, no puede cambiar su nombre. Pero puedes ca
 
 La aplicación Contoso Coffee proporciona datos de demostración que pueden ayudarle a explorar las capacidades avanzadas de [!INCLUDE [prod_short](includes/prod_short.md)]. Encuentre la aplicación en AppSource e instálela en una empresa vacía, por ejemplo, una empresa en un entorno de espacio aislado. Para obtener más información, consulte [Introducción a los datos de demostración de Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

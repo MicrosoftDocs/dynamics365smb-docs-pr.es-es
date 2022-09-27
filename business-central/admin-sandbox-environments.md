@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130179"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529736"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Su administrador gestiona los ambientes de espacio aislado en el [centro de admi
 
 Por ejemplo, si desea crear un ambiente aislado para banco de pruebas, su administrador puede crear un ambiente dedicado en el centro de administración. Para obtener más información, consulte [Ambientes de producción y espacios aislados](/dynamics365/business-central/dev-itpro/administration/environment-types) en el contenido para desarrolladores y administradores.  
 
-También puede usar espacios aislados de forma segura para la formación, como por ejemplo, para seguir una ruta de aprendizaje de [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) porque es un ambiente seguro para experimentar. Si algo sale mal, simplemente elimine el espacio aislado y comience de nuevo.  
+También puede usar espacios aislados de forma segura para la formación, como por ejemplo, para seguir una ruta de aprendizaje de la [formación de Microsoft](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) porque es un ambiente seguro para experimentar. Si algo sale mal, simplemente elimine el espacio aislado y comience de nuevo.  
 
 Una vez que haya terminado, puede eliminar el entorno aislado, utilizando el centro de administración.  
 
@@ -70,7 +70,7 @@ Para obtener más información, consulte [Usar el diseñador](/dynamics365/busin
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

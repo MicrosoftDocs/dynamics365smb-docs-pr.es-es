@@ -10,12 +10,12 @@ ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853,
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: fd48dacda54a5a81a7bb3a734201da31e8eb5453
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: ad8a1b1945331c9db4ef326bdf2bb36e68b35aaa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362254"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533514"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Extensión de previsión de ventas e inventario
 
@@ -64,13 +64,13 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de previsión de ventas e inventario** y, a continuación, elija el vínculo relacionado.  
 7. Expanda la ficha desplegable **General** y rellene los campos de URL de API y clave de API.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/use-sales-inventory-forecast-extension/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 
 [Ccial](sales-manage-sales.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
-[Usar inteligencia artificial en Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+[Usar inteligencia artificial en Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

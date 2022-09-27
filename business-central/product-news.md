@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7077e434ba564b62cfb03155a60b16460cea9ee3
-ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
+ms.openlocfilehash: 3c26215511829512241a2aac1d20880beca251cb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "8841954"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532139"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Novedades y planificación de Dynamics 365 Business Central
 
@@ -35,7 +35,7 @@ También puede explorar el sitio [Capacidades de Dynamics 365 Business Central](
 
 [Visite nuestra biblioteca de vídeos](across-videos.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
-[Dynamics 365 Business Central en Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Formación de Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Inicio rápido de Business Central](quick-start-business-central.md)  
 [Capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Hoja de ruta de Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)  

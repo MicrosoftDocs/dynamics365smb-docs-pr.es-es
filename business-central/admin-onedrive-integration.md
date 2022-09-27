@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514600"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524499"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Administrar la integración de OneDrive con Business Central
 
@@ -53,7 +53,7 @@ Como parte de un ejercicio de recuperación ante desastres, los administradores 
 
 ## <a name="configuring-business-central-on-premises"></a>Configurar Business Central local
 
-Un administrador debe configurar la conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] local y OneDrive. A diferencia de [!INCLUDE[prod_short](includes/prod_short.md)] en línea, la conexión no es automática. Si la conexión no se configura, los usuarios no pueden usar las funciones para OneDrive. 
+Un administrador debe configurar la conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] local y OneDrive. A diferencia de [!INCLUDE[prod_short](includes/prod_short.md)] en línea, la conexión no es automática. Si la conexión no se configura, los usuarios no pueden usar las funciones para OneDrive.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] local solo se puede conectar a OneDrive alojado por Microsoft en la nube. No se admite la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] local al repositorio Mis sitios de SharePoint Server.
 
@@ -64,7 +64,7 @@ Un administrador debe configurar la conexión entre [!INCLUDE[prod_short](includ
 >* Al exportar cualquier informe a un archivo se copiará automáticamente el archivo a OneDrive, luego ábralo en Excel Online, Word Online o OneDrive. 
 >* Otras funciones también pueden abrirse automáticamente en OneDrive.
 
-### <a name="to-prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Para preparar [!INCLUDE[prod_short](includes/prod_short.md)] local para conectarse a OneDrive
+### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Preparar [!INCLUDE[prod_short](includes/prod_short.md)] local para conectarse a OneDrive
 
 <!-- 
 1. For the best experience Configure Azure Active Directory (AD) authentication.
@@ -86,12 +86,12 @@ Para Business Central 2021 lanzamiento de versiones 2 (versión 19), configure e
 
 Realice este trabajo en el portal de Azure. Asegúrese de copiar el ID de la aplicación (cliente) y el secreto del cliente utilizados por la aplicación registrada. Necesitará esta información en la siguiente tarea.
 
-Para obtener más información sobre cómo registrar una aplicación y configurar permisos, consulte [Registrar una aplicación en Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) en la ayuda para desarrolladores y profesionales de TI.
+Para obtener más información sobre los requisitos previos de la cuenta, registrar una aplicación y configurar permisos, consulte [Registrar una aplicación en Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) en la ayuda para desarrolladores y profesionales de TI.
 
 > [!TIP]
 > Si ya ha registrado una aplicación como parte de una integración con otro producto de Microsoft, como Power BI, luego puede reutilizar el registro de la aplicación. En este caso, solo tendrá que configurar los permisos de SharePoint.
 
-### <a name="to-set-up-the-connection-in-prod_short-on-premises"></a>Para configurar la conexión en [!INCLUDE[prod_short](includes/prod_short.md)] local
+### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Configurar la conexión en [!INCLUDE[prod_short](includes/prod_short.md)] local
 
 <!--
 > [!NOTE]
@@ -101,7 +101,7 @@ Para obtener más información sobre cómo registrar una aplicación y configura
 > * NavUserPassword
 > * Azure Active Directory
 -->
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de conexión de Microsoft SharePoint** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de conexión de Microsoft SharePoint** y luego elija el enlace relacionado.
 2. En el campo **Descripción**, escriba una descripción para la conexión, como **OneDrive**.
 3. En el campo **Carpeta**, ingrese **Business Central**.
 4. En el campo **Ubicación**, ingrese la URL de su OneDrive.
@@ -117,8 +117,10 @@ Para obtener más información sobre cómo registrar una aplicación y configura
 > [!IMPORTANT]
 > La página Configuración de conexión de SharePoint se utiliza para configurar varias funciones heredadas. La sección **General** configura la conexión con OneDrive, y la sección **Documentos compartidos** redirige archivos a SharePoint en su lugar. La función de SharePoint heredada quedará obsoleta en un futuro próximo. Le recomendamos que no configure la sección **Documentos compartidos**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
+
 [Integración de Business Central y OneDrive para la Empresa](across-onedrive-overview.md)  
 [Abrir archivos de Business Central en OneDrive](across-share-onedrive.md)  
-[Preguntas más frecuentes de OneDrive](admin-onedrive-faq.md)
+[Preguntas más frecuentes de OneDrive](admin-onedrive-faq.md)  
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

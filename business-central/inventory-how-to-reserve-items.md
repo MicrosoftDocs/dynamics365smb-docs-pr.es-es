@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: d727242c772d1eba2959747c2fcd151a7a330009
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: e68a85cfb15841f45b048cabaad2e279de19b73b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361669"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534891"
 ---
 # <a name="reserve-items"></a>Reservar artículos
 
@@ -107,7 +107,7 @@ El procedimiento siguiente se basa en un pedido de venta.
 7. Elija el botón **Aceptar** para abrir la página **Reserva** que muestra solo el suministro con el número de seguimiento del producto especificado. Si existe alguna reserva no específica de cualquiera de los números de seguimiento de producto que ha especificado en esta línea, se le informa de la cantidad que ya se ha reservado.  
 8. Elija **Reservar auto.** o **Reservar desde la línea actual** para realizar una reserva de los números de seguimiento de productos específicos.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-outbound-serial-lot-numbers/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

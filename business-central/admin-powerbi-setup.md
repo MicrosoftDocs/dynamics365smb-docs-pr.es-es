@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 07/13/2022
 ms.author: jswymer
-ms.openlocfilehash: 5be0366c2d26e809e966844fc6851cfc5d9e29b7
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 6f2aea0734a25a49d21bd45628ddf0068f5cb7a6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144307"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530978"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -97,7 +97,7 @@ Esta sección explica los requisitos para una implementación de [!INCLUDE[prod_
     Para realizar la conexión inicial, abra [!INCLUDE[prod_short](includes/prod_short.md)] y ejecute **Comenzar con Power BI** desde la página principal. Esta acción le guiará a través del proceso de consentimiento y verificará su licencia de Power BI. Cuando se le solicite, inicie sesión con una cuenta de administrador de Azure. Para obtener más información, consulte [Conectar a Power BI, solo una vez](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

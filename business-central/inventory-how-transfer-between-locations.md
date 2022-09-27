@@ -10,12 +10,12 @@ ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 01846d10f0612a902c7b9bd9f1c2f436404e441e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: b3fb127931f433ab7f433fca4ab8ba4a9ef306e1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076466"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534864"
 ---
 # <a name="transfer-inventory-between-locations"></a>Transferir el inventario entre almacenes
 
@@ -63,7 +63,7 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
 4. En el campo **Cód. almacén destino**, especifique el almacén al que desee transferir los productos.
 5. Seleccione la acción **Registrar**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/transfer-items/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/transfer-items/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

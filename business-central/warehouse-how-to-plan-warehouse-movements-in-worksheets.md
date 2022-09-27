@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4454fd40daffbaa5d551635c406f10c70009d3bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1ec80435211b139868bf62ddf0ce269a802d2abc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076076"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534054"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planificar movimientos de almacén en hojas de trabajo
 
@@ -67,7 +67,7 @@ También puede utilizar la hoja de trabajo de movimiento para planificar otros m
 6.  Elimine las líneas incompletas que ha utilizado para su información.  
 7.  Cuando las líneas de la hoja de trabajo de movimiento reflejen exactamente cómo debe realizar el empleado del almacén la acción de movimiento, elija la acción **Crear movimiento** para crear las instrucciones para el empleado.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/move-items/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/move-items/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5774, 5776, 5777, 5785, 5793, 5797, 7318, 7364, 7401, 8909, 9000, 9008, 9009, 9050, 9053, 9056
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 95e0655f863ea5559cad92f7bc0d89fc47a1b1c4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c08331889a0a94e8760b8104b8d5769ea5d0edbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074333"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529790"
 ---
 # <a name="warehouse-management"></a>Gestión almacén
 
@@ -39,7 +39,7 @@ Las tareas relacionadas con el inventario de recuento, ajuste y reclasificación
 |Realizar el picking de los productos para su envío, transferencia o consumo en producción o ensamblado, de acuerdo con lo configurado en el proceso del almacén.|[Realización de picking de artículos](warehouse-pick-items.md)|
 |Registre la envío de productos desde las ubicaciones del almacén, ya sea solo con una orden de ventas, en configuraciones de ubicación sencillas o con un envío de almacén, en caso de proceso semi o totalmente automatizado del almacén en la ubicación.|[Enviar productos](warehouse-how-ship-items.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

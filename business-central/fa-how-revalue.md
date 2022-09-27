@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b9598c8249e209583ffff73868013ad7e26f1b3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ba537dd27fedfb204483d81815380d0910676c20
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078161"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532220"
 ---
 # <a name="revalue-fixed-assets"></a>Revalorizar activos fijos
 
@@ -120,7 +120,7 @@ Si no seleccionó la casilla **A/F Amort. hasta fecha reg.**, el activo perderí
 
 *Total de amortización = 100 +15 + 55,54 = 170,54*
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/manage-advanced-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/manage-advanced-fixed-assets-transactions/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

@@ -10,12 +10,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3469abf51165af7dcbdeb9c97e867829fe97ff22
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 63aa8e6b23c2977e8e44c6f346f33c1c33fe3c2a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513153"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533219"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -65,7 +65,7 @@ El siguiente diagrama ilustra el flujo de trabajo básico para los usuarios al c
 6. El usuario crea un informe en Power BI Desktop.
 7. El usuario publica el informe en el servicio Power BI. Los informes están disponibles para su selección en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 

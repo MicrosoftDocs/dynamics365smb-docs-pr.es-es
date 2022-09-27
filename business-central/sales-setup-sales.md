@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4e34a21fc06c8c880e124db4040c088e4d235ffb
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 2346c246fdf0d9973f40e7d0073dee9004c68669
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460811"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531356"
 ---
 # <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
@@ -39,7 +39,7 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 |Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  

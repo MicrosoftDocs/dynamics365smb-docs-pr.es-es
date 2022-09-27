@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 995d7277d67b3db4360210e80b417b8a62d6b1a8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 43dba5e57a3262d9803255c146285ca1aa3f4159
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077090"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535724"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Preguntas más frecuentes de la prueba de Dynamics 365 Business Central
 
@@ -49,7 +49,7 @@ Cambie a la versión de prueba de 30 días y luego agregue sus propios datos. Pa
 
 No puede. Si elimina accidentalmente datos de muestra, solicite a su administrador que cree un nuevo entorno de espacio aislado. Para obtener más información, consulte [Producción y entornos de espacios aislados](/dynamics365/business-central/dev-itpro/administration/environment-types) en el contenido para administradores (solo en inglés).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

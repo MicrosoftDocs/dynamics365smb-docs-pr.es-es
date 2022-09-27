@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: a4dcb5c9f12190a662c4f45bbadcfdddee70fa7f
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 55e7861d479ee5d4415ca776f969b722464ddcc3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129827"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531923"
 ---
 # <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
 
@@ -83,7 +83,7 @@ La función **Enviar notificaciones de aprobación vencidas** buscará todas las
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Solicitudes de aprobación vencidas** y luego elija el enlace relacionado.
 2. En la página **Solicitudes de aprobación vencidas**, seleccione la acción **Seleccionar solicitudes de aprobación vencidas**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/use-approval-workflows/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

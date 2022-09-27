@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9135514b6f788aab99b3433a04ad28ec36064e30
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074359"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530438"
 ---
 # <a name="create-bin-contents"></a>Crear contenido de ubicación
 
@@ -55,7 +55,7 @@ Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación qu
 
 En esta hoja puede trabajar con varias líneas de contenido de ubicación para varias ubicaciones y así obtener una buena panorámica de los que coloca en varias ubicaciones de una zona, pasillo o estantería.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/set-up-zones-bins/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

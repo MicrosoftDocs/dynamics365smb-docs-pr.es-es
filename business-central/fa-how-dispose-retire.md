@@ -10,12 +10,12 @@ ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611, 5629, 5633
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: dd8e374a0f7124084d789858767d08c4935d1631
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 47faf0bbc342500898d3a0df9d50afda37eb38a3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077324"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533165"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Cancelar o retirar activos fijos
 
@@ -51,7 +51,7 @@ En el momento de vender o dar de baja un activo, el valor de venta o baja se reg
 
 La página **Movs. contabilidad** se abre y puede ver los movimientos que se produjeron al registrar la venta/baja.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/dispose-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/dispose-fixed-assets/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 667aa2702d064e44b9b52dc167e2372f98d7944f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078341"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530411"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planificar los picking en la hoja de trabajo
 
@@ -53,7 +53,7 @@ Puede ordenar las líneas por artículo, número de estante, documento de origen
 8. Elija la acción **Imprimir** para que se impriman las instrucciones de picking.  
 9. Una vez haya completado el picking, elija la acción **Registrar**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/pick-ship-items-warehouse/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

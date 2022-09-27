@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec68eac92b29ac0f2877bdbdb957da33311e2e2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2bec10341df30f451e05289573c48132cf20b00a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077403"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534000"
 ---
 # <a name="set-up-bin-types"></a>Configurar tipos de ubicación
 
@@ -44,7 +44,7 @@ A continuación, se muestran los tipos de ubicaciones que puede crear.
 |COLOCARPICKING|Artículos en ubicaciones que se sugieren para funciones de ubicación y de picking. Probablemente, las ubicaciones de este tipo tengan distintos rankings de ubicación. Puede configurar las ubicaciones de almacenamiento masivo como de este tipo con rankings de ubicación bajos comparados con las ubicaciones de picking normales o las ubicaciones del área de picking de seguimiento.|  
 |QC|Esta ubicación se utiliza para ajustes de inventario si se especifica en la ficha de almacén en el campo **Cód. ubicación ajuste**. También puede configurar ubicaciones de este tipo para productos defectuosos y productos que es preciso inspeccionar. puede mover productos a este tipo de ubicación si desea que no se tenga a consulta a los mismos desde el flujo de productos normal.<br /><br /> **NOTA**: A diferencia de resto de tipos de ubicación, el de **QC** no tiene seleccionada de forma predeterminada ninguna de las casillas de verificación de manejo de artículos. Esto indica que el contenido que sitúe en una ubicación de control de calidad no se incluye de los flujos del artículo.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/set-up-zones-bins/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

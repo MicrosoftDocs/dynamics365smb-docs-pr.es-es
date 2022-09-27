@@ -10,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 06be08bce312cfcdd0bc6eef0e50890244734dba
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 027a79180dbc8a1a9ea53da9548d2b39a1852cdc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074645"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533541"
 ---
 # <a name="invoice-jobs"></a>Facturar proyectos
 
@@ -66,7 +66,7 @@ Puede crear una factura a partir de las líneas de planificación de proyecto e 
 > [!NOTE]  
 >   El procedimiento anterior es similar para crear, revisar y registrar un abono de venta relacionado con el proyecto.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 

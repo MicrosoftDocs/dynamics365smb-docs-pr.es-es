@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e21454f52564d4c679cd20171189b0dc14bfe49f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8be263821e288d314f0c5b91415ca204e767a98e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523042"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535107"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analizar importes reales frente a importes presupuestados
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos.
@@ -62,7 +62,7 @@ En lugar de ver los importes reales y presupuestados de todas las cuentas en un 
 3. En la parte superior de la página rellene los campos según sea necesario para definir lo que se muestra.   
 4. Para ver una especificación de un importe que aparece en pantalla, elija el campo.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte Formación relacionada en [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also"></a>Consulte también
 [Inteligencia empresarial](bi.md)  

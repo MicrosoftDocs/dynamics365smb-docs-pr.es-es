@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a3d851ff0f44fdae3880aea841d1145fc83e7e13
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075166"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530112"
 ---
 # <a name="set-up-warehouse-employees"></a>Configurar los empleados de almacén
 
@@ -29,7 +29,7 @@ Cada usuario que desarrolla actividades en el almacén debe estar configurado co
 5. Seleccione la casilla de verificación **Predeterminada** para definir la ubicación como la única en la que el empleado puede realizar actividades de almacén.  
 6. Repita estos pasos para asignar otros empleados a ubicaciones o para asignar ubicaciones no predeterminadas a empleados de almacén existentes.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
 
 ## <a name="see-also"></a>Consulte también .
 
