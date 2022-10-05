@@ -7,75 +7,76 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 5c6f480bff2244fac66b996a81ada8e3e318c150
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130043"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585515"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Especificar cómo y cuándo recibir notificaciones de flujos de trabajo
 
-Cuando configura usuarios de aprobación en flujos de trabajo, en los que desea que alguien apruebe los cambios, como cuando se crean nuevos registros o cuando alguien solicita una aprobación, debe especificar cómo y cuándo se notificará al usuario de aprobación. Por ejemplo, puede especificar que un usuario de aprobación recibirá inmediatamente un correo electrónico cuando alguien cree un nuevo cliente. Como alternativa, puede programar las notificaciones para que se entreguen, por ejemplo, semanal o mensualmente.
+Cuando configura usuarios de aprobación en flujos de trabajo, en los que desea que alguien apruebe los cambios, como cuando se crean nuevos registros o cuando alguien solicita una aprobación, debe especificar cómo y cuándo se notifica al usuario de aprobación. Por ejemplo, puede especificar que un usuario de aprobación recibirá inmediatamente un correo electrónico cuando alguien cree un nuevo cliente. También puede programar las notificaciones para que se mantengan y se entreguen juntas, por ejemplo, de forma semanal o mensual.
 
-Las personas pueden cambiar también su configuración de notificaciones eligiendo el botón **Cambiar configuración de notificaciones** en cualquier notificación.  
+Las personas pueden cambiar también su configuración de notificaciones eligiendo **Cambiar configuración de notificaciones** en cualquier notificación.  
 
 > [!NOTE]
 > Las notificaciones se entregan de acuerdo con la configuración de notificaciones del receptor, no del remitente. Es una distinción importante porque significa que, cuando alguien solicita una aprobación como parte de un flujo de trabajo, su solicitud no se envía necesariamente de inmediato. En su lugar, se entregará de acuerdo con la programación de notificaciones especificada en la configuración de notificaciones del aprobador.
 
-Para poder configurar preferencias de notificación de un usuario de aprobación debe configurar el usuario como usuario de aprobación. Para obtener más información, vea [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
+Para poder configurar preferencias de notificación de un usuario de aprobación debe configurar el usuario como usuario de aprobación. Obtenga más información en [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]
-> Si desea utilizar el correo electrónico como método de notificación, debe configurarlo para el remitente y para el destinatario en[!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Configurar correo electrónico](admin-how-setup-email.md).
+> Si desea utilizar el correo electrónico como método de notificación, debe configurarlo para el remitente y para el destinatario en [!INCLUDE [prod_short](includes/prod_short.md)]. Obtenga más información en [Configurar correo electrónico](admin-how-setup-email.md).
 
 ## <a name="steps-in-workflows"></a>Pasos de flujos de trabajo
 
-Muchos pasos del flujo de trabajo de aprobación están relacionados con la notificación a los usuarios de un evento que se ha producido y en el que deben realizar una acción. Por ejemplo, en un paso del flujo de trabajo, el evento puede ser que el usuario 1 solicita la aprobación de un registro nuevo. La respuesta relacionada es que se envíe una notificación al usuario 2, el aprobador. En el siguiente paso del flujo de trabajo, el evento puede ser que el usuario 2 aprueba el registro. La respuesta relacionada es que se envíe una notificación al usuario 3 para iniciar un proceso con el registro aprobado. En el caso de los pasos del flujo de trabajo relacionados con la aprobación, cada notificación está vinculada a un movimiento de aprobación. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
+Muchos pasos del flujo de trabajo de aprobación están relacionados con la notificación a los usuarios de un evento que se ha producido y en el que deben realizar una acción. Por ejemplo, en un paso del flujo de trabajo, el evento puede ser que el usuario 1 solicita la aprobación de un registro nuevo. La respuesta relacionada es que se envíe una notificación al usuario 2, el aprobador. En el siguiente paso del flujo de trabajo, el evento puede ser que el usuario 2 aprueba el registro. La respuesta relacionada es que se envíe una notificación al usuario 3 para iniciar un proceso con el registro aprobado. En el caso de los pasos del flujo de trabajo relacionados con las aprobaciones, cada notificación está vinculada a una entrada de aprobación. Obtenga más información en [Flujo de trabajo](across-workflow.md).  
 
-## <a name="specify-when-and-how-users-receive-notifications"></a>Especificar cómo y cuándo los usuarios reciben notificaciones  
+## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Especificar cómo y cuándo los usuarios de aprobaciones reciben notificaciones  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. usuario aprobación** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. usuario aprobación** y luego elija el vínculo relacionado.  
 2. Seleccione la línea del usuario para el que desea configurar las preferencias de notificación y, a continuación, elija la acción **Configuración de notificación**.  
 3. En la página **Configuración de notificación**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    > [!NOTE]
-    > Si abre la página **Configuración de notificaciones** desde la página **Configuración usuarios de aprobación**, la configuración de notificaciones está vinculada al usuario de aprobación. El usuario de aprobación siempre recibirá notificaciones de flujo de trabajo de acuerdo con esa configuración de notificaciones. Si usa Dígame para abrir la página **Configuración de notificaciones**, la configuración de notificaciones se aplicará a todos los usuarios.  
+   > [!NOTE]
+   > Si abre la página **Configuración de notificaciones** desde la página **Configuración usuarios de aprobación**, la configuración de notificaciones está vinculada al usuario de aprobación. El usuario de aprobación siempre recibirá notificaciones de flujo de trabajo de acuerdo con esa configuración de notificaciones. Si utiliza la función *Dígame* para abrir la página **Configuración de notificaciones**, la configuración de notificaciones se aplica a todos los usuarios.
 
-    |Campo|Descripción|  
-    |---------------------------------|---------------------------------------|  
-    |**Tipo de notificación**|Especifique el tipo de evento del que trata la notificación.<br /><br /> Seleccione una de las siguientes opciones:<br /><br /> -   **Nuevo registro** especifica que la notificación trata de un registro nuevo, como un documento, en el que el usuario debe realizar alguna acción.<br />-   **Aprobación** especifica que la notificación trata de una solicitud de aprobación o más.<br />-   **Vencidos** especifica que la notificación recuerda a los usuarios que se han retrasado para actuar en un evento.|  
-    |**Método de notificación**|Especifique si la notificación es un correo electrónico o una nota interna.|
+   |Campo|Descripción|
+   |-----|-----------|
+   |**Tipo de notificación**|Especifique el tipo de evento del que trata la notificación.<br /><br /> Seleccione una de las siguientes opciones:<br /><br /> -   **Nuevo registro** especifica que la notificación trata de un registro nuevo, como un documento, en el que el usuario debe realizar alguna acción.<br />-   **Aprobación** especifica que la notificación trata de una solicitud de aprobación o más.<br />-   **Vencidos** especifica que la notificación recuerda a los usuarios que se han retrasado para actuar en un evento.|
+   |**Método de notificación**|Especifique si la notificación es un correo electrónico o una nota interna.|
 
-    Puede definir el diseño de las notificaciones por correo electrónico personalizando el informe 1320, Correo electrónico de notificación. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
+   Puede definir el diseño de las notificaciones por correo electrónico personalizando el informe 1320, Correo electrónico de notificación. Obtenga más información en [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
-    Ya ha especificado cómo recibe el usuario las notificaciones. Proceda a especificar cuándo recibe el usuario las notificaciones.  
-
+   Ya ha especificado cómo recibe el usuario las notificaciones. Proceda a especificar cuándo recibe el usuario las notificaciones.  
 4. Elija la acción **Programación de notificación**.  
 5. En la página **Programación de notificación**, rellene los campos tal como se describe en la tabla siguiente.  
 
-    |Campo|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Periodicidad**|Especifique el modelo de periodicidad en el que el usuario recibe las notificaciones.|  
-    |**Hora**|Especifique a qué hora del día recibe notificaciones el usuario cuando el valor del campo **Periodicidad** no es **Inmediatamente**.|  
-    |**Frecuencia diaria**|Especifique en qué tipo de días recibe el usuario las notificaciones cuando el valor del campo **Periodicidad** es **Diario**.<br /><br /> Seleccione **Día laborable** para recibir notificaciones cada día laborable de la semana. Seleccione **Diario** para recibir notificaciones cada día de la semana, incluso los fines de semana.|  
-    |**Lunes** a **Domingo**|Especifique en qué tipo de días recibe el usuario las notificaciones cuando el valor del campo **Periodicidad** es **Semanal**.|  
-    |**Fecha de mes**|Especifique si el usuario recibe notificaciones al principio del mes, al final o en una fecha específica.|  
-    |**Fecha de notificación mensual**|Especifique la fecha del mes en las que el usuario recibe las notificaciones cuando el valor del campo **Fecha de mes** es **Personalizada**.|  
+   |Campo|Descripción|
+   |-----|-----------|
+   |**Periodicidad**|Especifique el patrón periódico con el que se envían las notificaciones al usuario.|
+   |**Hora**|Especifique a qué hora del día se envían notificaciones al usuario cuando el valor del campo **Periodicidad** tiene un valor diferente de **Inmediatamente**.|
+   |**Frecuencia diaria**|Especifique en qué tipo de días recibe el usuario las notificaciones cuando el valor del campo **Periodicidad** es **Diario**.<br /><br /> Seleccione **Día laborable** para recibir notificaciones cada día de la semana laboral. Seleccione **Diario** para recibir notificaciones cada día de la semana, incluso los fines de semana.|
+   |**Lunes** a **Domingo**|Especifique en qué tipo de días recibe el usuario las notificaciones cuando el valor del campo **Periodicidad** es **Semanal**.|
+   |**Fecha de mes**|Especifique si el usuario recibe notificaciones al principio del mes, al final o en una fecha específica.|
+   |**Fecha de notificación mensual**|Especifique la fecha del mes en las que el usuario recibe las notificaciones cuando el valor del campo **Fecha de mes** es **Personalizada**.|
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Cambiar cómo y cuándo recibe notificaciones
 
-1. En una de las notificaciones que ha recibido, en correo electrónico o nota, seleccione el botón **Cambiar configuración de notificación**.  
-2. En la página **Configuración de notificación**, cambie sus preferencias de notificación tal como se describe en el procedimiento anterior.  
+1. En una de las notificaciones que ha recibido, en correo electrónico o nota, elija **Cambiar configuración de notificación**.  
+2. En la página **Configuración de notificación**, cambie sus preferencias de notificación tal como se describe en los pasos 3-5 anteriores.
+   1. Confirme que se haya elegido la notificación correcta en el campo **Tipo de notificación**.
+   2. Elija si desea recibir una notificación por correo electrónico o por nota en el campo **Método de notificación**.
+   3. Seleccione **Programación de notificación** para cambiar la frecuencia y la periodicidad con las que se envían las notificaciones.
 
 ## <a name="see-also"></a>Consulte también .
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
 [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)  
-[Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)  
-[Configurar flujos de trabajo](across-set-up-workflows.md)  
-[Usar flujos de trabajo](across-use-workflows.md)
-
+[Configurar notificaciones de flujo de trabajo de aprobación](across-setting-up-workflow-notifications.md)  
+[Configurar flujos de trabajo de aprobación](across-set-up-workflows.md)  
+[Usar flujos de trabajo de aprobación](across-use-workflows.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

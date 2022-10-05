@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520999"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585870"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Usar Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[prod_short](includes/prod_short.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
@@ -76,7 +76,7 @@ Esto también puede funcionar si el pedido de cliente original contiene producto
 
 Si la descripción del artículo en el pedido de venta original es larga, se crea una línea de orden de venta adicional del tipo **Comentario** para mantener el texto completo en el pedido de cliente en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Las actualizaciones de los campos de las cabeceras de los pedidos de venta, como los campos Fecha de último envío o Fecha entrega requerida, que se asignan en la asignación de tabla de integración **PEDIDO DE VENTAS-PEDIDO** se sincronizan periódicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. Procesos como la liberación de un pedido de venta y el envío o facturación de un pedido de venta se registran contabilizan en la escala de tiempo del pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Introducción a las fuentes de actividades](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Las actualizaciones de los campos de las cabeceras de los pedidos de venta, como los campos Fecha de último envío o Fecha entrega requerida, que se asignan en la asignación de tabla de integración **PEDIDO DE VENTAS-PEDIDO** se sincronizan periódicamente con [!INCLUDE[crm_md](includes/crm_md.md)]. Procesos como la liberación y el envío o facturación de un pedido de venta se registran contabilizan en la escala de tiempo del pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Introducción a las fuentes de actividades](/dynamics365/sales-enterprise/manage-activities). Para habilitar la contabilización y las actividades de los pedidos en [!INCLUDE[crm_md](includes/crm_md.md)], consulte [Configurar el control de notas para obtener acceso a la información sobre publicaciones para una entidad personalizada](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) en la documentación de Customer Engagement. El artículo se refiere a Customer Engagement local, pero los pasos son los mismos para la versión en línea. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > La sincronización periódica basada en la asignación de tablas de integración **PEDIDO DE VENTAS-PEDIDO** solo funcionará cuando la integración de pedidos de venta esté activada. Para más información, vea [Configuración de la conexión en la página Configuración de la conexión de Sales](admin-prepare-dynamics-365-for-sales-for-integration.md). Solo se sincronizan los pedidos de venta creados a partir de los pedidos de venta enviados en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

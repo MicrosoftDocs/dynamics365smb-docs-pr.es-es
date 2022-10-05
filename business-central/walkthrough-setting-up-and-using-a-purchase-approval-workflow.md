@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf58b9f1c0702275df1dc6e2884444369d084b80
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533823"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585435"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra
 
@@ -23,19 +23,19 @@ Puede automatizar el proceso de aprobar nuevos registros o registros modificados
 Antes de crear flujos de trabajo de aprobación, debe configurar un aprobador y un aprobador sustituto para cada usuario de aprobación. También puede establecer límites de cantidad de aprobadores para definir qué registros de venta y de compra pueden aprobar. Las solicitudes de aprobación y otras notificaciones se pueden enviar como mensajes de correo electrónico o como notas internas. Para cada configuración de usuario de aprobación, también puede configurar cuándo reciben notificaciones.
 
 > [!NOTE]
-> Además de la funcionalidad de flujo de trabajo en [!INCLUDE[prod_short](includes/prod_short.md)], puede usar Power Automate para definir flujos de trabajo para eventos en [!INCLUDE[prod_short](includes/prod_short.md)]. Tenga en cuenta que, aunque son dos sistemas de flujo de trabajo independientes, cualquier plantilla de flujo de trabajo que cree con Power Automate se agrega a la lista de modelos de flujo de trabajo en la sección [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md).  
+> Además de la funcionalidad de flujo de trabajo en [!INCLUDE[prod_short](includes/prod_short.md)], puede usar Power Automate para definir flujos de trabajo para eventos en [!INCLUDE[prod_short](includes/prod_short.md)]. Tenga en cuenta que, aunque son dos sistemas de flujo de trabajo independientes, cualquier plantilla de flujo de trabajo que cree con Power Automate se agrega a la lista de modelos de flujo de trabajo en la sección [!INCLUDE[prod_short](includes/prod_short.md)]. Obtenga más información en [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md).  
 
-Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo. Para obtener más información, consulte [Flujo de trabajo](across-workflow.md).  
+Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo. Obtenga más información en [Flujo de trabajo](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Acerca de este tutorial
 
-En este tutorial se ilustran las siguientes tareas:  
+Este tutorial es un escenario que ilustra las siguientes tareas:  
 
 - Configurar usuarios de aprobación  
 - Configurar notificaciones para usuarios de aprobación  
 - Modificar y activar un flujo de trabajo de aprobación  
-- Solicitar aprobación de un pedido de compra, como Alicia  
-- Recibir una notificación a continuación aprobar la solicitud, como Pedro  
+- Solicitar aprobación de un pedido de compra (como Alicia)  
+- Recibir una notificación a continuación aprobar la solicitud (como Pedro)  
 
 ## <a name="story"></a>Historia
 
@@ -45,7 +45,7 @@ Para probar el flujo de aprobación, Pedro primero inicia sesión en [!INCLUDE[p
 
 ## <a name="users"></a>Usuarios
 
-Para poder configurar los usuarios de aprobación y su método de notificación, debe asegurarse de que existen dos usuarios en [!INCLUDE[prod_short](includes/prod_short.md)]: un usuario representará a Alicia. El otro usuario, usted, representará a Sean. Para obtener más información, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
+Para poder configurar los usuarios de aprobación y su método de notificación, debe asegurarse de que existen esos usuarios en [!INCLUDE[prod_short](includes/prod_short.md)]: un usuario representará a Alicia. El otro usuario, usted, representará a Sean. Obtenga más información en [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Configurar usuarios de aprobación
 
@@ -57,18 +57,18 @@ Cuando inicie sesión como usted mismo, configure a Alicia como un usuario de ap
 2. En la página **Config. usuario aprobación**, seleccione la acción **Nuevo**.  
 
     > [!NOTE]  
-    >  Debe configurar un aprobador para poder configurar usuarios que requieren la aprobación del aprobador. Así, antes de configurar a Alicia, debe configurarse a sí mismo.  
+    >  Debe configurar un aprobador para poder configurar usuarios que requieren la aprobación del aprobador. Eso significa que debe prepararse a sí mismo antes de poder preparar a Alicia.  
 
 3. Configure a los dos usuarios de aprobación rellenando los campos tal como se describe en la tabla siguiente.  
 
     |Id. de usuario|Id. aprobador|Aprobación compra ilimitada|  
-    |-------------|-----------------|---------------------------------|  
-    |USTED||Seleccionada|  
-    |ALICIA|USTED||  
+    |-------|-----------|---------------------------|  
+    |USTED||Seleccionada|
+    |ALICIA|USTED||
 
 ### <a name="setting-up-notifications"></a>Configuración de notificaciones
 
-En este tutorial, el usuario recibe una notificación mediante una nota interna sobre las solicitudes para aprobar. Las notificaciones de aprobación también pueden enviarse por correo electrónico y puede agregar un paso de respuesta de flujo de trabajo que notifique al remitente cuando se aprueba o rechaza una solicitud. Para obtener más información, consulte [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md).
+En este tutorial, el usuario recibe una notificación mediante una nota interna sobre las solicitudes para aprobar. Las notificaciones de aprobación también pueden enviarse por correo electrónico y puede agregar un paso de respuesta de flujo de trabajo que notifique al remitente cuando se aprueba o rechaza una solicitud. Obtenga más información en [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Para configurar cómo y cuándo recibirá notificaciones
 
@@ -83,11 +83,11 @@ En este tutorial, el usuario recibe una notificación mediante una nota interna 
 Cree el flujo de aprobación de pedido de compra copiando los pasos de la plantilla **Flujo de trabajo de aprobación de pedido de compra**. Deje los pasos de flujo de trabajo existentes sin cambiar y, a continuación, active el flujo de trabajo.  
 
 > [!TIP]
-> Opcionalmente, agregue un paso de respuesta de flujo de trabajo para notificar al remitente cuando su solicitud sea aprobada o rechazada. Para obtener más información, consulte [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md).
+> Opcionalmente, agregue un paso de respuesta de flujo de trabajo para notificar al remitente cuando su solicitud sea aprobada o rechazada. Obtenga más información en [Especificar cómo y cuándo recibir notificaciones](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Para crear y activar un flujo de trabajo de aprobación de pedido de compra
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el vínculo relacionado.  
 2. En la página **Flujos de trabajo**, seleccione **Acciones**, luego seleccione **Nuevo** y luego elija la acción **Nuevo flujo de trabajo de plantilla**.  
 3. En la página **Plantillas de flujo de trabajo**, seleccione la plantilla de flujo de trabajo denominada **Flujo de trabajo de aprobación de pedido de compra**.  
 
@@ -101,7 +101,7 @@ Utilice el nuevo flujo de trabajo de aprobación de pedido de compra iniciando s
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Para solicitar aprobación de un pedido de compra como Alicia
 
 1. Inicie sesión como Alicia.
-2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
+2. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 3. Seleccione la línea para abrir el *pedido de compra 106001*.  
 4. En la página **Pedido de compra**, elija **Acciones**, luego, **Solicitar aprobación** y, después, la acción **Enviar solicitud aprobación**.  
 
@@ -110,16 +110,16 @@ Observe que el valor del campo **Estado** ha cambiado **Pendiente de aprobación
 ### <a name="to-approve-the-purchase-order-as-sean"></a>Para aprobar el pedido de compra como Pedro
 
 1. Inicie sesión como Sean.
-2. En el área de trabajo, en el área **Autoservicio**, elija la ventana **Solicitudes para aprobar**.
+2. En el área de trabajo, en el área **Autoservicio**, elija **Solicitudes para aprobar**.
 3. En la página **Solicitudes para aprobar**, seleccione la línea sobre el pedido de compra de Alicia y luego elija la acción **Aprobar**.  
 
 El valor del campo **Estado** del pedido de compra de Alicia cambia **Lanzado**.  
 
-Ya ha configurado y probado un flujo de trabajo de aprobación sencillo según los dos primeros pasos del **flujo de trabajo de aprobación de pedido de compra**. Puede ampliar fácilmente este flujo de trabajo para registrar automáticamente el pedido de compra de Alicia cuando Pedro lo apruebe. Para hacerlo, debe activar el **flujo de trabajo de factura de compra**, en el que la respuesta a una factura de compra lanzada es registrarla. Primero debe cambiar la condición del evento en el primer paso del flujo de trabajo (compra) **Factura** a **Pedido**.  
+Ya ha configurado y probado un flujo de trabajo de aprobación sencillo según los dos primeros pasos del **flujo de trabajo de aprobación de pedido de compra**. Puede ampliar fácilmente este flujo de trabajo para registrar automáticamente el pedido de compra de Alicia cuando Pedro lo apruebe. Para hacerlo, debe activar el **flujo de trabajo de factura de compra**, por lo que la respuesta a una factura de compra lanzada es registrarla. Primero debe cambiar la condición del evento en el primer paso del flujo de trabajo (compra) **Factura** a **Pedido**.  
 
 La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] incluye muchas plantillas de flujo de trabajo para ejemplos compatibles con el código de aplicación. La mayor parte de estas plantillas son de los flujos de trabajo de aprobación.  
 
-Las variaciones del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan ejemplos de flujo de trabajo que admite el código de aplicación. Para obtener más información, consulte [Crear flujos de trabajo](across-how-to-create-workflows.md).  
+Las variaciones del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan ejemplos de flujo de trabajo que admite el código de aplicación. Obtenga más información en [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
@@ -129,7 +129,7 @@ Las variaciones del flujo de trabajo se definen rellenando los campos de las lí
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
 [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)  
-[Crear flujos de trabajo](across-how-to-create-workflows.md)  
+[Crear flujos de trabajo de aprobación](across-how-to-create-workflows.md)  
 [Usar flujos de trabajo de aprobación del producto](across-how-use-approval-workflows.md)  
 [Flujo de trabajo](across-workflow.md)  
 [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md)  

@@ -113,8 +113,11 @@
 ## Inicio rápido
 ### [Inicio rápido de Business Central](quick-start-business-central.md)
 ### [Configurar la información de la empresa](quick-start-company-information.md)
+### [Introducir la información financiera](quick-start-financial-information.md)
 ### [Vender productos y servicios](quick-start-sell-products-and-services.md)
 ### [Comprar productos y servicios](quick-start-procurement.md)
+### [Personalizar e imprimir informes y documentos](quick-start-reports-and-documents.md)
+### [Obtener información con Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Aumentar la productividad en Business Central
@@ -239,13 +242,13 @@
 ### Flujos de trabajo
 #### [Información general del flujo de trabajo](across-workflow.md)
 #### [Usar Business Central en flujos de Power Automate](across-how-use-financials-data-source-flow.md)
-#### Usar flujos de trabajo
-##### [Usar flujos de trabajo](across-use-workflows.md)
-##### [Activar flujos de trabajo](across-how-to-enable-workflows.md)
-##### [Usar flujos de trabajo de aprobación del producto](across-how-use-approval-workflows.md)
+#### Usar flujos de trabajo de aprobación del producto
+##### [Usar flujos de trabajo de aprobación](across-use-workflows.md)
+##### [Habilitar flujos de trabajo de aprobación](across-how-to-enable-workflows.md)
+##### [Cómo usar flujos de trabajo de aprobación](across-how-use-approval-workflows.md)
 ##### [Restringir y permitir el uso de un registro](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md)
-##### [Eliminar flujos de trabajo](across-how-to-delete-workflows.md)
+##### [Eliminar flujos de trabajo de aprobación](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Intercambiar datos electrónicamente
 #### [Descripción general de OData Exchange](across-data-exchange.md)
@@ -1585,11 +1588,11 @@
 #### [Configurar flujos de trabajo de aprobación](across-set-up-workflows.md)
 #### [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)
 #### [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)
-#### [Notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)
+#### [Notificaciones de flujo de trabajo de aprobación](across-setting-up-workflow-notifications.md)
 #### [Especificar cómo y cuándo recibir notificaciones de flujos de trabajo](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Crear flujos de trabajo](across-how-to-create-workflows.md)
+#### [Crear flujos de trabajo de aprobación](across-how-to-create-workflows.md)
 #### [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Importar y exportar flujos de trabajo](across-how-to-export-and-import-workflows.md)
+#### [Importar y exportar flujos de trabajo de aprobación](across-how-to-export-and-import-workflows.md)
 #### [Tutorial: Configurar y usar un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Configurar conexiones
@@ -1626,7 +1629,7 @@
 ###### [Usar aplicaciones de Business Central en Power BI](across-powerbi-business-central-apps.md)
 ##### [Preguntas más frecuentes](power-bi-faq.md)
 #### Usar Power Automate con Business Central
-##### [Usar Business Central en flujos de Power Automate](across-how-use-financials-data-source-flow.md)
+##### [Usar flujos de Power Automate en Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Solucionar problemas de sus flujos de trabajo automatizados](across-flow-troubleshoot.md)  
 #### Usar Power Apps con Business Central
 ##### [Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps](across-how-use-financials-data-source-powerapps.md)
