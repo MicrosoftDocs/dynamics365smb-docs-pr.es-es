@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530924"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617826"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Trabajar con el IVA por ventas y compras
 Si su país o región exige que calcule e informe del impuesto sobre el valor añadido (IVA) en las transacciones de compra y venta, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para calcular el IVA. Para obtener más información, vea [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).
@@ -61,6 +61,18 @@ Dependiendo de lo que desee hacer, puede asignar un grupo de registro de IVA de 
 
 #### <a name="examples"></a>Ejemplos
 Factores como el país o la región en los que vende, o el tipo de sectores a los que vende, pueden afectar al importe de IVA que debe contabilizar. Por ejemplo, un restaurante puede cobrar un 6 % de IVA por las comidas que se consumen en el local y un 17 % por las comidas para llevar. Para lograrlo, cree un grupo de registro de IVA de negocio (precio) para uso interno y uno para llevar.
+
+## <a name="working-with-vat-date"></a>Trabajar con la fecha del IVA
+### <a name="vat-date-in-documents"></a>Fecha de IVA en documentos
+Cuando crea nuevos documentos de compra o venta, la **Fecha de IVA** se basará en la configuración del campo **Fecha de IVA predeterminada** de la página **Configuración de contabilidad**. Este valor predeterminado puede ser el mismo que **Fecha registro** o **Fecha de documento**. Si necesita otra fecha de IVA, puede cambiar manualmente el valor en el campo **Fecha de IVA**. Al contabilizar el documento, la **Fecha de IVA** se mostrará en el documento de contabilización y en los movimientos de IVA y contabilidad.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Corrección de la fecha de IVA en los movimientos registrados
+En algunas situaciones, es necesario cambiar la fecha del IVA aunque el documento se haya contabilizado; esto se puede hacer en [!INCLUDE[prod_short](includes/prod_short.md)]. Para cambiar la **Fecha de IVA** de un documento registrado, debe seguir estos pasos:
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de IVA** y luego elija el enlace relacionado.
+2. Busque el movimiento con la fecha errónea de IVA.
+3. Haga clic en la acción **Editar lista** e introduzca la fecha correcta en el campo **Fecha de IVA**.
+4. Cierra la página.
+5. La nueva fecha de IVA cambiará en los **Movimientos de contabilidad** y en el documento contabilizado si existe.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Corrección manual de los importes del IVA en los documentos de ventas y compras  
 Puede corregir movimientos de IVA contabilizados para poder cambiar los importes totales de IVA repercutido o soportado sin cambiar la base de IVA. Por ejemplo, si recibe una factura de un proveedor con un importe de IVA incorrecto.  
@@ -109,14 +121,14 @@ En lugar de utilizar diarios para registrar las facturas de IVA de importación,
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Procedimiento para configurar la compra para registrar facturas de IVA de importación  
 1. Configure una ficha de proveedor para la autoridad de importación que envía la factura de IVA de importación. Los campos **Grupo contable negocio** y **Grupo registro IVA neg.** deben configurarse de la misma forma que la contabilidad para el IVA de importación.  
 2. Cree un **Gr. contable producto** para el IVA de importación y configure un **Grupo registro IVA producto** predeterminado del IVA de importación para el **Gr. contable producto** relacionado.  
-3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+3. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 4. Seleccione la cuenta contable de IVA de importación y, a continuación, seleccione la acción **Editar**.  
 5. En la ficha desplegable **Registro**, seleccione la configuración **Grupo contable producto** para el IVA de importación. [!INCLUDE[prod_short](includes/prod_short.md)] debería rellenar automáticamente el campo **Grupo registro IVA prod.**  
-6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
+6. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
 7. Cree una combinación **Grupo contable negocio** para la autoridad de IVA y **Grupo contable producto** para el IVA de importación. Para esta combinación nueva, en el campo **Cuenta de compras**, elija la cuenta contable de IVA de importación.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Para crear una factura nueva para la autoridad de importación una vez haya finalizado la configuración  
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.  
 2. Cree una nueva factura de compra.  
 3. En el campo **Compra a-Nº proveedor**, elija la autoridad de importación y elija el botón **Aceptar**.  
 4. En la primera línea de compra, en el campo **Tipo**, elija **Cuenta** y en el campo **Nº** elija la cuenta contable de IVA de importación.  
@@ -128,7 +140,7 @@ En lugar de utilizar diarios para registrar las facturas de IVA de importación,
 Cuando se venden productos a un cliente en otro país o región de la UE, debe enviar al cliente un certificado de suministro que el cliente debe firmar y devolverle. Los procedimientos siguientes son para procesar certificados de suministro para los albaranes de venta, pero se siguen los mismos pasos para envíos de servicio de productos y envíos de devolución a proveedores.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Para ver detalles de un certificado de suministro  
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.  
 2. Elija el albarán de venta correspondiente a un cliente de otro país o región de la UE.  
 3. Elija **Detalles del certificado de suministro**.  
 4. De forma predeterminada, la casilla **Certificado de suministro obligatorio** está seleccionada por la configuración de grupo de registro de IVA correspondiente al cliente, el campo **Estado** se configura en **Obligatorio**. Puede actualizar el campo para indicar si el cliente ha devuelto el certificado.  
@@ -147,7 +159,7 @@ Cuando se venden productos a un cliente en otro país o región de la UE, debe e
 >  Puede ver o imprimir el documento. Cuando elige **Imprimir certificado de suministro** e imprime el documento, la casilla **Impreso** se selecciona automáticamente. Además, si no se ha especificado, el estado del certificado se actualiza a **Obligatorio**. Si es necesario, el certificado impreso se incluye con el envío.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Para imprimir certificado de suministro  
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico albaranes venta** y, a continuación, elija el vínculo relacionado.  
 2. Elija el albarán de venta correspondiente a un cliente de otro país o región de la UE.  
 3. Elija la acción **Imprimir certificado de suministro**.  
 

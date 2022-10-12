@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148673"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605170"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 
@@ -168,7 +168,7 @@ En lugar de calcular cualquier combinación teórica de variante y ubicación, l
 
 Para obtener más información sobre cómo el sistema de planificación gestiona los códigos de almacén en demandas, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-balancing-demand-and-supply.md).  
 
-## <a name="item-attributes"></a>Atributos de producto
+## <a name="item-attributes"></a>Atributos de artículo
 
 Aparte de las dimensiones de productos generales, como número de producto, código de variante, código de almacén y tipo de pedido, cada evento de demanda y de aprovisionamiento puede llevar especificaciones adicionales en forma de números de serie y de lote. El sistema de planificación planea estos atributos de determinadas formas según su nivel de especificación.  
 
@@ -299,7 +299,7 @@ La herramienta de planificación de suministro básica representada por la pági
 > [!NOTE]  
 >  No es recomendable utilizar la planificación de pedidos si la empresa ya utiliza las hojas de trabajo de planificación o solicitud. Los pedidos de aprovisionamientos creados a través de la página **Programación de pedidos** se pueden modificar o eliminar durante las ejecuciones de planificaciones automatizadas. Esto se debe a que los procesos de planificación automatizados utilizan parámetros de planificación que es posible que el usuario que realiza el plan manual en la página Programación de pedidos no tenga en cuenta.  
 
-##  <a name="finite-loading"></a>Carga limitada
+## <a name="finite-loading"></a>Carga limitada
 
 [!INCLUDE[prod_short](includes/prod_short.md)] es un sistema ERP estándar, no un sistema de control de envíos o de planta. Planea una utilización factible de los recursos al proporcionar una programación preliminar, pero no crea ni mantiene automáticamente las programaciones detalladas basadas en prioridades o reglas de optimización.  
 
@@ -308,19 +308,18 @@ El uso previsto de la característica Recurso capacidad limitada es 1) evitar la
 Al planificar con recursos de capacidad limitada, el sistema se asegura de que no se cargue ningún recurso por encima de su capacidad definida (carga crítica). Esto se realiza mediante la asignación de cada operación a la franja temporal disponible más próxima. Si la franja temporal no es lo suficientemente amplia para completar toda la operación, la operación se dividirá en dos o más partes que se colocarán en las franjas temporales más próximas disponibles.  
 
 > [!NOTE]  
->  En el caso de división de la operación, el tiempo de configuración se asigna solo una vez, pues se presupone que se realiza algún ajuste manual para optimizar la programación.  
+> En el caso de división de la operación, el tiempo de configuración se asigna solo una vez, pues se presupone que se realiza algún ajuste manual para optimizar la programación.  
 
 El tiempo de amortiguación puede agregarse a recursos para minimizar la división de operaciones. De este modo, el sistema puede programar la carga en el último día posible superando el porcentaje de carga crítica ligeramente si esto puede reducir el número de operaciones divididas.  
 
 Esto completa el resumen de los conceptos básicos relacionados con la planificación del suministro en [!INCLUDE[prod_short](includes/prod_short.md)]. En las secciones siguientes se investigan estos conceptos con más profundidad y se presentan en el contexto de los procedimientos de planificación básicos, el equilibrado de la demanda y el suministro, así como el uso de las directivas de reaprovisionamiento.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
-[Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)   
-[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
-[Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)   
-[Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
-[Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)
-
+[Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)  
+[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)  
+[Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)  
+[Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)  
+[Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

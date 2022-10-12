@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
+ms.date: 08/26/2022
 ms.author: edupont
-ms.openlocfilehash: 2c5868e1fb00f6dba78f89d777cb4b1e670e8579
-ms.sourcegitcommit: 7b422fa4907270da802d1318cce0ee3fc9769643
+ms.openlocfilehash: 088e72dd6872d3ad4a8a29d245710356df7410e2
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9224134"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607147"
 ---
 # <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local en la versión española
 
@@ -76,7 +76,5 @@ En los temas siguientes se describe la funcionalidad local que es única para la
 
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
-
-## [!INCLUDE[free_trial](../../includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

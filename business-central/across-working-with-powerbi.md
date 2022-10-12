@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535323"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606446"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -52,7 +52,7 @@ Cuando inicia sesión por primera vez en [!INCLUDE [prod_short](includes/prod_sh
     - Si aún no se ha registrado en Power BI, seleccione [Ir a la página de inicio de Power BI](https://powerbi.microsoft.com). Regístrese para tener una cuenta, luego regrese a [!INCLUDE[prod_short](includes/prod_short.md)] y termine la configuración.
 
     - Si ya tiene una licencia, seleccione **Siguiente**.
-4. En la página siguiente, [!INCLUDE[prod_short](includes/prod_short.md)] ahora cargará un informe de demostración en Power BI. Esto tardará unos minutos, así que se realiza en segundo plano. Para completar la configuración, seleccione **Siguiente** y luego **Terminar**.
+4. En la página siguiente, [!INCLUDE[prod_short](includes/prod_short.md)] ahora cargará un informe de demostración en Power BI. Este paso tardará unos minutos, así que se realiza en segundo plano. Para completar la configuración, seleccione **Siguiente** y luego **Terminar**.
 
 Comienza el proceso de conexión. Durante el proceso, [!INCLUDE [prod_short](includes/prod_short.md)] se comunica con el servicio de Power BI para determinar si tiene una cuenta y licencia de Power BI. Una vez verificada la licencia, se mostrarán el informe de Power BI predeterminado en la página. Si no se muestra un informe, puede seleccionar un informe de la parte.
 
@@ -69,9 +69,14 @@ Una vez conectado, puede seleccionar un informe de la parte de Power BI en las p
 
 ### <a name="show-reports-on-list-pages"></a>Mostrar informes en páginas de lista
 
-[!INCLUDE[prod_long](includes/prod_long.md)] incluye un cuadro informativo de Power BI en varias páginas de lista clave. Este cuadro informativo proporciona información adicional sobre los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada. Si no ve esta parte, en la barra de acciones, seleccione **Comportamiento** > **Monitor** > **Mostrar/ocultar informes de Power BI**.
+[!INCLUDE[prod_long](includes/prod_long.md)] incluye un cuadro informativo de Power BI en varias páginas de lista clave. Este cuadro informativo proporciona información extra sobre los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada.
 
 Para aprender a crear informes para páginas de lista, consulte [Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Si no ve el cuadro informativo de Power BI, podría estar oculto en su espacio de trabajo por personalización. Seleccione la ![Configuración.](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") , y luego la acción **Personalizar**. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
+>
+> O si tiene una versión anterior de Business Central, vaya a la barra de acción, seleccione **Comportamiento** > **Monitor** > **Mostrar/ocultar Informes de Power BI**.
 
 ### <a name="switch-reports"></a>Cambiar informes
 
@@ -143,7 +148,6 @@ Probablemente se deba a que el nombre del informe no contiene el nombre de la p�
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en Power Automate](across-how-use-financials-data-source-flow.md)  
 

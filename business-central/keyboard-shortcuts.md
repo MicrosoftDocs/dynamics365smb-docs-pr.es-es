@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531140"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606673"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -56,15 +56,16 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 |Alt+Mayús+N |Cerrar una página recién creada y abrir una nueva para crear un nuevo registro. Del mismo modo, Alt+F9 registra un documento y crea uno nuevo.|
 |Alt+T|Abrir la página **Mi configuración**.|
 |Alt + Flecha hacia la derecha|Buscar información adicional o valores subyacentes para un campo que contiene el botón ![AssistEdit.](media/assist-edit-icon.png "Botón AssistEdit") . Se usa cuando el botón desplegable habitual (Alt+flecha abajo) en el mismo campo se usa para otro propósito.|
-|Ctrl+Alt+Mayús+C|Mostrar información en el distintivo de la empresa.|
+|Ctrl+Alt+Mayús+C|Mostrar información en el distintivo de la empresa. Este acceso directo se suspendió en Business Central 2022 versión 2 (versión 21) y se reemplazó por Ctrl+O. |
 |Ctrl+Alt+F1|Abrir y cerrar el panel de inspección de la página. El panel de inspección de la página muestra información sobre la página, como su tabla de orígenes, campos, filtros, extensiones y más.<br /><br />Para obtener más información, vea [Inspección de páginas](across-inspect-page.md).|
 |Ctrl+C |Copiar el valor del campo. Si el campo tiene el enfoque y no ha seleccionado ningún texto en el campo, se copiará todo el valor. Si ha seleccionado texto en el campo, solo copiará el texto seleccionado.|
-|Ctrl+F1|Abra el [panel de ayuda](product-help-and-support.md#help-pane) o un artículo de ayuda de Business Central sobre [Documentos de Microsoft](/dynamics365/business-central/), dependiendo de su versión de Business Central.|
+|Ctrl+F1|Abra el [panel de ayuda](product-help-and-support.md#help-pane) o un artículo de ayuda de Business Central en [Microsoft Learn](/dynamics365/business-central/), dependiendo de su versión de Business Central.|
 |Ctrl+F12|Cambiar entre vista de diseño amplia y estrecha.|
 |Ctrl+Clic|Navegar durante la personalización cuando la acción está resaltada con una punta de flecha. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).|  
 |Ctrl+F5|Volver a cargar la aplicación [!INCLUDE[prod_short](includes/prod_short.md)]. (Similar a seleccionar actualizar/recargar en el explorador).|
 |F5|Actualizar los datos en la página actual.<br /><br />Utilice esta tecla para asegurarse de que los datos de la página estén actualizados con cualquier cambio que otros hayan hecho mientras usted trabaja.|
-|Introduzca|Habilite o acceda al elemento o control que tiene el enfoque.|
+|Ctrl+A|Abra el panel **Empresas disponibles** para cambiar a otra empresa o entorno. Para más información, vea [Cambiar a otra empresa o entorno](ui-organization-switch.md).|
+|Entrar|Habilite o acceda al elemento o control que tiene el enfoque.|
 |Esc|Cerrar la página o lista desplegable actual.|
 |Tabulador|Mueva el enfoque al control o elemento siguiente de una página, como acciones, botones, campos o encabezados de una lista.|
 |Mayús+Tabulador|Mueva el enfoque al control o elemento anterior de una página, como acciones, botones, campos o encabezados de una lista.|

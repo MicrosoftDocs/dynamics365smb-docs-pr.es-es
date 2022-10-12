@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529099"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605521"
 ---
 # <a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
 
@@ -95,6 +95,18 @@ Los movimientos de contabilidad que se van a registrar en la cuenta de fracciona
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Resumen de fraccionamientos de ventas** y, a continuación, elija el vínculo relacionado.
 2. En la página **Resumen de fraccionamientos de ventas**, en el campo **Saldo a partir de**, introduzca la fecha hasta la que desea ver ingresos fraccionados.
 3. Haga clic en el botón **Vista previa**.
+
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Para especificar un período en el que permitir la publicación diferida
+
+Puede especificar un período en el que las personas pueden registrar transacciones ingresando fechas en los campos **Permitir publicar desde** y **Permitir publicar en** de la siguiente manera:
+
+* Para todos los usuarios, en la página **Configuración de contabilidad**
+* Para usuarios específicos, en la página **Configuración de usuario**
+
+Si lo ha hecho, debe hacer una excepción para los aplazamientos para permitir que se registren fuera del período. Para definir el período, siga estos pasos.
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad** o **Configuración de usuario**, y luego elija el enlace relacionado.
+2. En los campos **Permitir publicación diferida desde** y **Permitir publicación diferida a**, introduzca una fecha de inicio y fin para el período.
 
 ## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) relacionada
 

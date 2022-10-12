@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a485162cb194f7f16ff7c33c3e4a095865d35daf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8a3588e83ad0a75c4ac9167329659b25ed52320e
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520469"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606338"
 ---
 # <a name="undo-assembly-posting"></a>Deshacer registro de ensamblado.
+
 Puede que, a veces, tenga que deshacer un pedido de ensamblado registrado, por ejemplo cuando se haya registrado con errores que deban corregirse, o porque no deban haberse registrado en el primer lugar y deban revertirse.
 
 Cuando se deshace un pedido de ensamblado registrado, se crea un grupo de los movimientos de producto correctores para revertir las entradas originales. Cada entrada positiva de salida para el artículo de montaje se revierte mediante una entrada negativa de salida. Cada entrada de consumo negativo de un componente de ensamblado se revierte mediante una entrada de consumo positivo. La solicitud del coste fijo se crea automáticamente entre las entradas correctoras y originales para garantizar una reversión exacta del coste.  
@@ -39,7 +40,8 @@ Además, los pedidos de ensamblado existentes se pueden restablecer sólo si no 
 
 El procedimiento siguiente describe cómo deshacer los pedidos de ensamblado registrado donde los artículos se ensamblaron para stock. Si desea deshacer los pedidos de ensamblado registrado donde los artículos se ensamblaron para pedido de venta, deberá usar la función **Deshacer envío** en el envío registrado relacionado con el pedido de ensamblado registrado. Para obtener más información, vea [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md). Deshacer el pedido de ensamblado registrado se produce entonces automáticamente tal como que se describe en este tema.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Para deshacer el registro de un pedido de ensamblado  
+## <a name="to-undo-posting-of-an-assembly-order"></a>Para deshacer el registro de un pedido de ensamblado
+
 1.  Para deshacer un pedido de ensamblado registrado total o parcialmente, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos ensamblados reg.** y, a continuación, el vínculo relacionado.  
 
     Se abrirá la página **Pedidos de ensamblado registrados** y mostrará uno o más pedidos de ensamblado registrado que se registren del pedido de ensamblado en cuestión. Cada registro parcial crea un pedido de ensamblado registrado diferente.  
@@ -53,11 +55,12 @@ El campo **Revertido** de la cabecera del pedido de ensamblado cambia a **Sí**.
 > [!NOTE]  
 >  Para restaurar las cantidades de los registros parciales múltiples en un pedido de ensamblado, deberá deshacer todos los pedidos de ensamblado registrados en cuestión siguiendo los pasos 1 a 3 anterior para cada pedido de ensamblado registrado.  
 
-## <a name="see-also"></a>Consulte también  
+## <a name="see-also"></a>Consulte también .
+
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
-[Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md)    
-[Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
+[Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md)  
+[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

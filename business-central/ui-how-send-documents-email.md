@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532355"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607208"
 ---
 # <a name="send-documents-and-emails"></a>Enviar documentos y correo electrónico
 
@@ -51,10 +51,13 @@ Este procedimiento describe cómo adjuntar una factura de venta registrada a un 
 > Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la página **Enviar documento a**. En ese caso, la página **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Para redactar y enviar un correo electrónico
+
 Puede redactar rápidamente correos electrónicos para contactos, clientes, proveedores, vendedores/compradores y cuentas bancarias directamente desde las páginas de esas entidades. Solo tiene que elegir **Proceso** y luego **Enviar correo electrónico** para abrir el editor de correo electrónico. Para cuentas bancarias, la acción **Enviar correo electrónico** está en **Acciones**.
 
 > [!TIP]
 > Si a menudo envía mensajes de correo electrónico que son de naturaleza similar, o desea enviar una comunicación masiva, por ejemplo, para anunciar una campaña de ventas, el uso de plantillas de Word con correo electrónico puede acelerar el proceso. Puede crear una plantilla para entidades como clientes, proveedores y contactos, que generará el contenido de un mensaje de correo electrónico por usted e incluso personalizará el contenido para el destinatario en función de los datos en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar plantillas de Word para comunicación masiva](ui-mail-merge.md).  
+
+Si está asignado a un escenario de correo electrónico relacionado con la entidad a la que está enviando el correo electrónico o el documento que está enviando, es posible que se agregue automáticamente un archivo adjunto a su mensaje. Esto se debe a que se ha asignado un archivo adjunto predeterminado al escenario de correo electrónico. Puede eliminar el archivo adjunto si no desea enviarlo con su mensaje. Para más información, vea [Asignar escenarios de correo electrónico a cuentas de correo electrónico](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documentos marcados como impresos cuando se envían
 

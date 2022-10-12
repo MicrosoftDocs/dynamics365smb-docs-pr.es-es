@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531707"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607721"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -51,7 +51,7 @@ La siguiente lista describe cómo puede acceder al panel de Ayuda y si se le agr
 Utilice el campo de búsqueda en la parte superior del panel de Ayuda para buscar orientación sobre cómo utilizar el producto, las capacidades integradas y los módulos de formación disponibles. Dependiendo de sus términos de búsqueda, el panel muestra cinco o más enlaces con una breve descripción. Elija un enlace o detalle los términos de búsqueda. Cuando elige un enlace, el artículo de destino se abre en una nueva pestaña del navegador. Puede optar por desacoplar la pestaña del navegador y, a continuación, ver la información relevante junto con [!INCLUDE [prod_short](includes/prod_short.md)]. El panel permanece abierto mientras navega por [!INCLUDE [prod_short](includes/prod_short.md)] para que el contenido que buscó permanezca visible.  
 
 > [!NOTE]
-> En la versión actual de [!INCLUDE [prod_short](includes/prod_short.md)], el campo de búsqueda en el panel de ayuda solo se aplica al contenido que se publica en el sitio [Docs.microsoft.com](/dynamics365/business-central).
+> En la versión actual de [!INCLUDE [prod_short](includes/prod_short.md)], el campo de búsqueda del panel de ayuda solo se aplica al contenido que se publica en la [documentación de Dynamics 365 Business Central](/dynamics365/business-central) en Microsoft Learn.
 
 ## <a name="help--support-page"></a>Página Ayuda y soporte técnico
 
@@ -83,7 +83,7 @@ La sección **Buscarlo** incluye dos vínculos a la ayuda del producto:
 
 - Ayuda sobre la página que acaba de ver en [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Este vínculo se genera automáticamente. Si [!INCLUDE[prod_short](includes/prod_short.md)] no puede encontrar el vínculo correspondiente, se muestra la página de destino en [Docs.microsoft.com](index.md) para la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, si la página formaba parte de una aplicación que no agregaba mapeo de ayuda sensible al contexto a [!INCLUDE[prod_short](includes/prod_short.md)], los valores predeterminados *Vínculo de aprendizaje* a la página de destino.  
+  Este vínculo se genera automáticamente. Si [!INCLUDE[prod_short](includes/prod_short.md)] no puede encontrar el vínculo correspondiente, se muestra la [página de destino en Microsoft Learn](index.md) de la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, si la página formaba parte de una aplicación que no agregaba mapeo de ayuda sensible al contexto a [!INCLUDE[prod_short](includes/prod_short.md)], los valores predeterminados *Vínculo de aprendizaje* a la página de destino.  
   
 - Página de destino de ayuda para [!INCLUDE[prod_short](includes/prod_short.md)]  
 

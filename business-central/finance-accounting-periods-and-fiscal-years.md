@@ -7,24 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/25/2022
 ms.author: bholtorf
-ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 93dcf334d65bda2859f8fcd91c976c3d85e6b18f
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511680"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605656"
 ---
 # <a name="work-with-accounting-periods-and-fiscal-years"></a>Trabajar con periodos contables y ejercicios
 
 Los períodos contables, también conocidos como períodos de información, son períodos de tiempo en los que una empresa u organización informa del rendimiento financiero, por ejemplo, generando su balance de ingresos o su balance. Normalmente, los períodos contables se refieren al ejercicio de la empresa, que puede contener varios períodos contables, como meses o trimestres.
 
-Para muchas empresas, el año fiscal no se corresponde con el año natural. Por ejemplo, el ejercicio podría terminar el 30 de junio en lugar del 31 de diciembre. En el caso de las empresas de nueva creación, el período fiscal puede ser superior a 12 meses.  
+Para muchas empresas, el año fiscal no se alinea con el año calendario, por ejemplo, cuando el año fiscal finaliza el 30 de junio en lugar del 31 de diciembre. En el caso de las empresas de nueva creación, el período fiscal podría incluso ser superior a 12 meses.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] solo requiere períodos contables si se desea cerrar un balance de ingresos o ejecutar tareas de compresión de datos. 
+[!INCLUDE[prod_short](includes/prod_short.md)] solo requiere períodos contables si se desea cerrar un balance de ingresos o ejecutar tareas de compresión de datos.
 
-Puede utilizar periodos contables en el informe. Por ejemplo, al revisar los movimientos registrados en la página **Saldo/Presupuesto**, donde se puede especificar el intervalo de informes. Una de las opciones que puede especificar para crear informes por período contable. También puede crear un esquema de cuentas que compare los resultados de diferentes períodos contables.
+Puede usar periodos contables en informes, como cuando revisa los movimientos registrados en la página **Saldo/Presupuesto**, donde se puede especificar el intervalo de informes. Una de las opciones que puede especificar para crear informes por período contable. También puede crear un informe financiero que compare los resultados de diferentes períodos contables.
 
 ## <a name="creating-a-new-fiscal-year"></a>Creación de un nuevo ejercicio
 
@@ -35,10 +35,10 @@ Puede crear períodos contables en bloque, utilizando el proceso **Crear ejercic
 Utilice el proceso **Crear ejercicio** para dividir un ejercicio en periodos de igual duración.  
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Periodos contables** y luego elija el enlace relacionado.  
-2. Elija la acción **Crear ejercicio**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
+2. Elija la acción **Crear ejercicio**.
 3. En el campo **Fecha inicial**, introduzca la fecha en la que comienza el ejercicio.  
 4. En el campo **Nº de periodos** especifique el número de ejercicios económicos en que se dividirá el ejercicio. Puede haber hasta 365 periodos en un año.  
-5. En el campo **Longitud período**, introduzca una duración para cada período. Por ejemplo, 1M para un mes, 1T para un trimestre y 1Y para un año.  
+5. En el campo **Longitud período**, introduzca una duración para cada período. Los identificadores de duración incluyen, por ejemplo, 1M para un mes, 1T para un trimestre y 1Y para un año.  
 6. Elija **Aceptar**.  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>Cómo crear períodos contables manualmente
@@ -64,11 +64,10 @@ Cerrar el ejercicio es una de las tareas para cerrar los libros. Después de cer
 
 Aunque un ejercicio esté cerrado, todavía podrá registrar en él movimientos de contabilidad. Al hacerlo, los movimientos se marcan como registrados en un ejercicio cerrado y se seleccionará la casilla **Asiento post-cierre**. De forma predeterminada, la casilla no se muestra en la página, pero puede agregarla. Los siguientes pasos son cerrar las cuentas de regularización y transferir los resultados del ejercicio a una cuenta en el balance. Repita estos pasos cada vez que registre movimientos en un ejercicio cerrado.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
 [Cerrar los libros](year-close-books.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  
-[Trabajar con esquemas de cuentas](bi-how-work-account-schedule.md)  
-
+[Cómo trabajar con informes financieros](bi-how-work-account-schedule.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

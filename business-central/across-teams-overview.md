@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 03/04/2022
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805053"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607430"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Descripción general de Business Central y Microsoft Teams
 
@@ -52,7 +52,7 @@ Para obtener más información, consulte [Compartir registros en Microsoft Teams
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Compartir vínculos desde páginas de Business Central a Teams
 
-Directamente desde la mayoría de las páginas de recopilación y detalles de Business Central, puede utilizar la acción **Compartir con Teams** del icono ![!El icono del menú Compartir en páginas.](media/share-icon.png "El menú Compartir mostrado en una tarjeta.") para escribir un mensaje, elegir destinatarios, como miembros del equipo, grupos o canales, y enviar el mensaje con un vínculo a la página de Business Central.
+Directamente desde la mayoría de las páginas de recopilación y detalles de Business Central, puede utilizar la acción **Compartir con Teams** del icono ![!El icono del menú Compartir en páginas.](media/share-icon.png "El menú Compartir mostrado en una tarjeta.") para escribir un mensaje, elegir destinatarios, como miembros del equipo, grupos o canales, y enviar el mensaje con un vínculo y a la página de Business Central.
 
 ¡![!El menú Compartir mostrado en una tarjeta.](media/teams-share-link.png "El menú Compartir mostrado en una tarjeta.")
 

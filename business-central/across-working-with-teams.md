@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528454"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617799"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Compartir registros y enlaces de página de Business Central en Microsoft Teams
 
@@ -102,21 +102,27 @@ Para obtener más información sobre cómo trabajar con tarjetas y detalles de t
 
 Directamente desde la mayoría de las páginas de colección, como la página **Productos** y páginas de detalles, como la tarjeta **Productos**, puede enviar un vínculo a la página a destinatarios específicos en una conversación de Teams. Por ejemplo, puede compartir un enlace a una vista filtrada de sus registros. Los destinatarios pueden seleccionar el enlace para abrir la página en [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ¡![!El menú Compartir mostrado en una tarjeta.](media/teams-share-link.png "El menú Compartir mostrado en una tarjeta.")
+[![!El menú Compartir mostrado en una tarjeta.](media/teams-share-link-v2.png "El menú Compartir mostrado en una tarjeta.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Requisitos previos
-Tiene acceso a Microsoft Teams.
+
+- Tiene acceso a Microsoft Teams.
+- (Opcional) Ha instalado la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. 
+
+  Con la aplicación instalada, los mensajes que envíe con el enlace también incluirán una tarjeta compacta para la página. Para obtener más información sobre cómo instalar la aplicación, consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Compartir un enlace
 
 1. En [!INCLUDE [prod_short](includes/prod_short.md)]\,, abra la página que quiera compartir.
 2. En la parte superior de la página, elija el icono ![!Acción Compartir con otras aplicaciones en páginas.](media/share-icon.png) , luego **Compartir con Teams**.
 3. Si se le solicita, inicie sesión en Teams con su nombre de usuario y contraseña.
-4. En la página **Compartir con Teams**, escriba el nombre de una persona, grupo o canal al que desea enviar el mensaje. 
-5. El cuadro de mensaje incluirá un enlace a la página. Agregue más información si lo desea, luego elija **Compartir**.
+4. En la página **Compartir con Teams**, escriba el nombre de una persona, grupo o canal al que desea enviar el mensaje.
+5. El cuadro de mensaje incluirá un enlace a la página. Si la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] está instalada para Teams, también aparecerá una tarjeta para el registro o la página vinculados en el cuadro de mensaje.
+
+   Agregue más información si lo desea, luego elija **Compartir**.
 6. El enlace ahora se ha compartido. Si quiere ir a la conversación, elija **Ir a Teams**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  
@@ -127,6 +133,5 @@ Tiene acceso a Microsoft Teams.
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

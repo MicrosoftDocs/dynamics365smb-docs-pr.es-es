@@ -8,14 +8,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 06/24/2021
+  ms.date: 08/09/2022
   ms.author: mikebc
-  ms.openlocfilehash: 6140dd6e114a8967a4e20196feb88e25fbd06bb1
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
+  ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8144598"
+  ms.lasthandoff: 09/30/2022
+  ms.locfileid: "9607640"
 title: Preguntas frecuentes sobre vistas de lista
 summary: Este artículo responde preguntas que nuestros usuarios avanzados hacen a menudo sobre cómo trabajar con vistas de lista y guardar filtros.
 sections:
@@ -47,7 +47,7 @@ sections:
   - question: >
       ¿Las vistas también están disponibles en otros factores de forma?
     answer: >
-      Sí. Cualquier vista que guarde en su explorador o aplicación de escritorio también estará disponible en su tableta o smartphone. No puede modificar ni personalizar vistas en los dispositivos móviles.
+      Sí. Cualquier vista que guarde en su explorador o aplicación de escritorio también estará disponible en su tableta, smartphone o cuando se incorpora en Microsoft Teams. No puede modificar ni personalizar vistas en los dispositivos móviles.
   - question: >
       ¿Mis vistas personales están siempre accesibles?
     answer: >
@@ -63,7 +63,7 @@ sections:
   - question: >
       ¿Cómo puedo compartir mis vistas con otros usuarios?
     answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] no proporciona una forma de compartir la vista de lista precisa. Pero puede compartir sus filtros actuales para que otros usuarios puedan ver una lista similar de registros. En su explorador de escritorio, basta con que copie la URL y compártala con sus colegas. No se garantiza que compartir filtros proporcione al destinatario un conjunto idéntico de filtros que ve en su explorador.
+      [!INCLUDE[prod_short](includes/prod_short.md)] no proporciona una forma de compartir la vista de lista precisa. Pero puede compartir sus filtros actuales para que otros usuarios puedan ver una lista similar de registros. En el cliente web de Business Central, elija una vista y luego use la característica **Copiar enlace** para copiar la URL a su portapapeles. basta con que copie la URL y compártala con sus colegas. No se garantiza que compartir filtros proporcione al destinatario un conjunto idéntico de filtros que ve en su explorador.
   - question: >
       ¿Puedo buscar vistas en la ventana Dígame?
     answer: >
@@ -88,17 +88,9 @@ sections:
       Las vistas que ve en cualquier lista son una combinación de sus vistas personales junto con las vistas del sistema. Las vistas del sistema pueden originarse desde la aplicación de negocio, desde extensiones o pueden ser específicas del rol si la lista se ha personalziado para su rol.
   - question: >
       ¿Por qué algunas vistas ofrecen menos opciones?
-    answer: >
-      Algunas vistas solo ofrecen la opción de guardar una copia de la vista, mientras que otras no permiten guardar los cambios en la vista. La forma en que se creó la vista determina las opciones disponibles para esa vista. Las vistas se pueden crear de varias maneras:
-
-
-      - Vistas personales que ha guardado
-
-      - Vistas del sistema que son una parte estándar de la aplicación de negocio o las han agregado extensiones o vistas específicas de rol. A diferencia de las vistas personales, no puede guardar cambios en los filtros en esa vista del sistema.
-
-      - Vistas de sistema heredadas que son una parte estándar de la aplicación de negocio pero que se crearon utilizando versiones anteriores de [!INCLUDE[prod_short](includes/prod_short.md)]. Estas vistas ofrecen menos opciones. Solo puede guardarlas como una nueva vista y tampoco puede ocultarlas ni reordenarlas. Las vistas de sistema heredadas dejarán de estar operativas en una actualización futura de [!INCLUDE[prod_short](includes/prod_short.md)].
+    answer: "Algunas vistas solo ofrecen la opción de guardar una copia de la vista, mientras que otras no permiten guardar los cambios en la vista. La forma en que se creó la vista determina las opciones disponibles para esa vista. Las vistas se pueden crear de varias maneras:\n\n- Vistas personales que ha guardado\n- Vistas del sistema que son una parte estándar de la aplicación de negocio o las han agregado extensiones o vistas específicas de rol. A diferencia de las vistas personales, no puede guardar cambios en los filtros en esa vista del sistema.\n- Vistas de sistema heredadas que son una parte estándar de la aplicación de negocio pero que se crearon utilizando versiones anteriores de [!INCLUDE[prod_short](includes/prod_short.md)]. Estas vistas ofrecen menos opciones. Solo puede guardarlas como una nueva vista y tampoco puede ocultarlas ni reordenarlas. Las vistas de sistema heredadas dejarán de estar operativas en una actualización futura de [!INCLUDE[prod_short](includes/prod_short.md)].\n\n> [!NOTE]\n> A partir del segundo lanzamiento de versiones de Business Central 2023, las vistas heredadas ya no serán compatibles y no se mostrarán en la página de lista. Obtenga información técnica sobre cómo los desarrolladores pueden migrar a vistas de lista modernas en [Migración de vistas heredadas a vistas modernas](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
   - question: >
-      ¿Cómo convierto las vistas de sistema heredadas?
+      ¿Cómo supero las limitaciones de las vistas del sistema heredado?
     answer: >
       Las vistas de sistema heredadas son vistas de lista creadas por desarrolladores en versiones anteriores de [!INCLUDE[prod_short](includes/prod_short.md)] colocándolas en la página Área de trabajo. Estas vistas ahora se muestran directamente en la página de lista, pero ofrecen una experiencia degradada y menos opciones. Puede convertir una vista de sistema heredada en una vista personal que sea totalmente personalizable, simplemente guardándola como una nueva vista. Del mismo modo, los administradores pueden optar por convertir las vistas de sistema heredadas específicas del rol personalizando el rol del usuario y guardando la vista heredada como una nueva vista específica del rol.
 

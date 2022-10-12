@@ -9,24 +9,22 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45fec99ad6082f8d0bb7258415477df833712b41
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523324"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605771"
 ---
 # <a name="setting-up-manufacturing"></a>Configuración de fabricación
 
 Para convertir material en artículos producidos finales, se deben configurar recursos de producción, como listas de materiales, ruta, operadores de máquina y maquinaria, en el sistema.
 
-Los operadores y máquinas se representan en el sistema como centros de máquina que pueden organizarse en centros de trabajo y grupos de centros de trabajo. Cuando se establecen estos recursos, se pueden cargar con operaciones, en función de la estructura del proceso (ruta) y el material definido (L.M.) para el artículo y en función de la capacidad del centro de trabajo o de máquina. También se puede definir la capacidad de producción de cada recurso. La capacidad se define según el tiempo de trabajo disponible en los centros de trabajo y de máquina y se controla mediante calendarios para cada nivel. El calendario de un centro de trabajo especifica los días u horas laborales, turnos, vacaciones y ausencias que determinan la capacidad bruta disponible del centro de trabajo (normalmente, se mide en minutos). Todo esto se determina a partir de valores de capacidad y eficiencia definidos.  
+Los operadores y máquinas se representan en el sistema como centros de máquina que pueden organizarse en centros de trabajo y grupos de centros de trabajo. Cuando se establecen estos recursos, se pueden cargar con operaciones, en función de la estructura del proceso (ruta) y el material definido (L.M.) para el artículo y en función de la capacidad del centro de trabajo o de máquina. También se puede definir la capacidad de producción de cada recurso. La capacidad se define según el tiempo de trabajo disponible en los centros de trabajo y de máquina y se controla mediante calendarios para cada nivel. El calendario de un centro de trabajo especifica los días u horas laborables, turnos, vacaciones y ausencias que determinan la capacidad bruta disponible del centro de trabajo (normalmente, se mide en minutos). Todo esto se determina a partir de valores de capacidad y eficiencia definidos.  
 
 Cuando haya configurado la fabricación, puede planificar y ejecutar las órdenes de producción. Si desea obtener más información, consulte [Planificación ](production-planning.md) y [Fabricación](production-manage-manufacturing.md).  
 
-
-
- En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -41,12 +39,12 @@ Cuando haya configurado la fabricación, puede planificar y ejecutar las órdene
 |Uso de tareas estándar para simplificar la creación de rutas adjuntando rápidamente información adicional a operaciones periódicas.|[Configurar de líneas de ruta estándar](production-how-set-up-standard-routing-lines.md)|  
 |Prepare centros de trabajo y rutas para representar operaciones de producción subcontratadas.|[Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Consulte también
-[Fabricación](production-manage-manufacturing.md)
-[Planificación](production-planning.md)   
+## <a name="see-also"></a>Consulte también .
+
+[Fabricación](production-manage-manufacturing.md)  
+[Planificación](production-planning.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

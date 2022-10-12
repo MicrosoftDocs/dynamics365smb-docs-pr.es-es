@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535859"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606889"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Establecer el diseño utilizado por un informe
 
@@ -25,17 +25,19 @@ El diseño de un informe determina el aspecto de un informe. Controla qué campo
 
 Cuando hay varias empresas en la aplicación, los diseños se establecen por empresa. Así, el mismo informe en una empresa puede tener un diseño diferente en otra.
 
-## <a name="get-started"></a>Introducción
+## <a name="get-started"></a>Comenzar
 
-Hay dos formas de establecer qué diseño usa un informe. Una forma es desde la página **Selección de diseño de informes**. La otra forma es desde la página **Diseños de informe**. Cada página tiene ventajas, por ejemplo: 
+Hay varias formas de establecer qué diseño usa un informe. Cada forma tiene ventajas, dependiendo de lo que estés buscando hacer: 
 
-- La página **Selección de diseño de informes** muestra una lista de todos los informes.
+- Desde la página de solicitud de informe
 
-  Esta página indica cuál es el diseño actual de un informe. Además, puede establecer diseños en diferentes empresas, sin tener que cambiar la empresa con la que está trabajando.
+  Al configurar la ejecución de un informe, la página de solicitud de informe incluye el campo **Diseño de informes** que muestra el diseño predeterminado actual utilizado por el informe. Puede usar este campo para cambiar temporalmente a otro diseño disponible el informe que está ejecutando. Después de ejecutar el informe, el diseño volverá al diseño predeterminado. Para más información, vea [Ejecutar e imprimir informes](ui-work-report.md#switching-the-report-layout).
 
-- La página **Diseños de informe** muestra todos los diseños disponibles para cada informe en la empresa actual.
+- Desde la página **Selección de diseño de informes**
 
-  Es fácil encontrar un diseño específico ordenando o filtrando la lista. Una vez que haya encontrado el diseño, puede configurarlo para un informe con una sola selección.
+  La página **Selección de diseño de informes** muestra una lista de todos los informes. Esta página indica cuál es el diseño actual de un informe predeterminado. Le permite establecer diseños en diferentes empresas, sin tener que cambiar la empresa con la que está trabajando.
+
+- Desde la página **Diseños de informe** La página **Diseños de informes** muestra todos los diseños disponibles para cada informe en la empresa actual. También se utiliza para especificar el diseño predeterminado de los informes. Es fácil encontrar un diseño específico ordenando o filtrando la lista. Una vez que haya encontrado el diseño, puede configurarlo para un informe con una sola selección.
 
   > [!NOTE]
   > No puede usar la página **Diseños de informe** para diseños de Word y RDLC que se crearon usando la función heredada **Diseños personalizados**. De hecho, ni siquiera verá estos diseños personalizados en la lista de la página **Diseños de informe**. Para estos diseños, solo puede configurarlos usando la página **Selección de diseño de informes**.

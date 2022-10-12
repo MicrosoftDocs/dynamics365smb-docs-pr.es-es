@@ -5,18 +5,18 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/28/2022
+ms.date: 08/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 2e1cc04d265541c87244dcd6c13b14327f07cc2f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 99077273617613a2bd5fd949ead836605432b9aa
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516426"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607451"
 ---
-# <a name="opening-and-sharing-business-central-files-in-onedrive"></a>Abrir y compartir archivos de Business Central en OneDrive
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Abrir y compartir archivos de Business Central en Microsoft OneDrive
 
-[!INCLUDE[prod_short](includes/prod_short.md)] facilita almacenar, administrar y compartir archivos con otras personas a través de OneDrive para la Emprea. En la mayoría de las páginas donde hay archivos disponibles, como la Bandeja de entrada de informes o los archivos adjuntos a los registros, encontrará las acciones **Abrir en OneDrive** y **Compartir**.
+[!INCLUDE[prod_short](includes/prod_short.md)] facilita almacenar, administrar y compartir archivos con otras personas a través de Microsoft OneDrive para la Emprea. En la mayoría de las páginas con archivos disponibles, como la Bandeja de entrada de informes cuando los archivos están adjuntos a los registros, encontrará las acciones **Abrir en OneDrive** y **Compartir**.
 
 
 :::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="Las acciones Abrir en OneDrive y Compartir para informes":::
@@ -24,38 +24,37 @@ ms.locfileid: "8516426"
 
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Las acciones Abrir en OneDrive y Compartir para archivos adjuntos":::
 
-<!--
-:::image type="content" source="media/Open in OneDrive.PNG" alt-text="The Open in OneDrive action":::
-
- 
-:::image type="content" source="media/OneDrive attachment.PNG" alt-text="Share file attachments in OneDrive":::
--->
 
 ## <a name="open-in-onedrive"></a>Abrir en OneDrive
 
-La acción **Abrir en OneDrive** copia el archivo en su OneDrive y abre el archivo en sus aplicaciones en línea, como Excel en línea, Word en línea y PowerPoint en línea. 
+La acción **Abrir en OneDrive** copia el archivo en su OneDrive y luego abre el archivo en una aplicación como Microsoft Excel en línea, Microsoft Word en línea o Microsoft PowerPoint en línea. 
 
-<!--## Working with Different Types of Files-->
+<!--## Working with different types of files-->
 
-Cuando elige **Abrir en OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifica archivos de Excel, Word y PowerPoint y los abre en sus aplicaciones en línea, es decir, Excel en línea, Word en línea y PowerPoint en línea. Puede realizar anotaciones, editar y colaborar con otras personas sin salir del navegador.
+Cuando elige **Abrir en OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifica archivos de Excel, Word y PowerPoint y los abre en sus aplicaciones en línea, es decir, Excel en línea, Word en línea y PowerPoint en línea. 
+
+Con las versiones en línea de estas aplicaciones, puede anotar, editar y colaborar con otros sin salir del navegador.
 
 Para otros tipos de archivos populares, como PDF, archivos de texto e imágenes, OneDrive proporciona visores de archivos que ofrecen funciones para imprimir, compartir y más. Si un archivo no se puede ver en OneDrive, es posible que se le solicite que lo descargue.
 
-## <a name="share"></a>Participación
+## <a name="share"></a>Compartir
 
-La acción **Compartir** copia el archivo a su OneDrive y le permite compartir el archivo con otras personas y ver con quién ya ha compartido el archivo. Cuando selecciona la acción **Compartir**, se abre la siguiente página.
+La acción **Compartir** copia el archivo a su OneDrive para poder ver con quién lo ha compartido ya así como compartir el archivo con otras personas. Cuando selecciona la acción **Compartir**, se abre la siguiente página.
 
-:::image type="content" source="media/share-to-onedrive-dialog.PNG" alt-text="Compartir archivo en OneDrive":::
+:::image type="content" source="media/share-to-onedrive-dialog-v2.PNG" alt-text="Compartir archivo en OneDrive":::
 
-Si está familiarizado con OneDrive, es posible que reconozca la página. Tiene dos opciones para compartir el archivo: **Enviar vínculo** y **Copiar vínculo**.
+Si está familiarizado con OneDrive, es posible que reconozca la página antes referida. Verá que tiene dos opciones para compartir el archivo: **Enviar vínculo** y **Copiar vínculo**.
 
-- **Enviar vínculo** le permite compartir los archivos con personas específicas. Las personas con las que comparta el archivo recibirán un correo electrónico con un vínculo al archivo. El archivo también aparecerá en la sección **Compartido** de su OneDrive. Comience escribiendo las direcciones de correo electrónico o los nombres de los contactos en el **campo Nombre, grupo o correo electrónico**.
+- **Enviar vínculo** le permite compartir los archivos con personas específicas. Las personas con las que comparta el archivo recibirán un correo electrónico con un vínculo al archivo. El archivo también aparecerá en la sección **Compartido** de su OneDrive. Comience escribiendo las direcciones de correo electrónico o los nombres de los contactos en el **campo Nombre, grupo o correo electrónico**. Incluya un mensaje debajo del **Nombre, grupo o campo de correo electrónico**, si quiere.
 
-- **Copiar vínculo** copia un vínculo al archivo en su OneDrive para que pueda usar el vínculo en otros lugares como Facebook, Twitter o correos electrónicos. 
+  > [!TIP]
+  > Si desea redactar su mensaje en Outlook, seleccione el botón **Outlook**. El enlace se insertará en un borrador de correo electrónico y todas las personas con las que ingresó para compartir estarán en la lista **A**. Con esta opción, puede crear correos electrónicos utilizando todas las funciones de Outlook, incluido el formato de texto, la adición de otros archivos adjuntos, la inserción de imágenes o tablas y la adición de destinatarios CC o BCC.
 
-Antes de enviar o copiar el vínculo, establezca el permiso para el archivo que desea que tengan las personas. Puede ver la configuración actual en **Enviar vínculo** y **Copiar vínculo**. En la mayoría de los casos, será **Cualquiera que tenga el vínculo puede editar para abrir el vínculo**, dependiendo de la configuración establecida por su administrador. Para cambiar los permisos, seleccione el vínculo y haga los cambios en la página **Configuración del vínculo**.
+- **Copiar link** copia un enlace de archivo que puede usar para compartir el archivo a través de aplicaciones como Facebook, Twitter o correo electrónico. 
 
-La característica para compartir en Business Central se basa en OneDrive. Por lo tanto, para obtener más información sobre el uso compartido y los permisos, consulte [Compartir archivos y carpetas de OneDrive](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+Antes de enviar o copiar un vínculo de archivo, establezca el nivel de permiso para el archivo que desea que tengan las personas. Puede ver la configuración actual en **Enviar vínculo** o **Copiar vínculo**. En la mayoría de los casos, será **Cualquiera que tenga el vínculo puede editar para abrir el vínculo**, dependiendo de la configuración del administrador. Para cambiar los permisos, seleccione el vínculo y haga los cambios en la página **Configuración del vínculo**.
+
+La característica para compartir en Business Central se basa en OneDrive. Más información sobre el uso compartido de OneDrive y los permisos en [Compartir archivos y carpetas de OneDrive](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 > [!NOTE]
 > La acción **Compartir** no está disponible en la aplicación Business Central para dispositivos móviles.
@@ -65,29 +64,44 @@ La característica para compartir en Business Central se basa en OneDrive. Por l
 Cuando usa la acción **Abrir en OneDrive** o **Compartir** por primera vez, [!INCLUDE[prod_short](includes/prod_short.md)] hace lo siguiente:
 
 1. Se abre la página **Revise los términos y condiciones**. Lea la página y, si está de acuerdo con los términos y condiciones, seleccione **Aceptar** para continuar.
-2. Se abre la página **Elegir una cuenta**  Seleccione su cuenta o **use otra cuenta** si no ve la suya, introduzca el nombre de usuario y la contraseña cuando se le solicite.
+2. Abre la página **Elegir una cuenta**. Seleccione su cuenta o **use otra cuenta** si no ve la suya, introduzca el nombre de usuario y la contraseña correctos cuando se le solicite.
 3. Crea una carpeta llamada [!INCLUDE[prod_short](includes/prod_short.md)] en OneDrive. 
-4. En la carpeta [!INCLUDE[prod_short](includes/prod_short.md)], crea otra carpeta con el mismo nombre que la empresa en la que está trabajando. Si trabaja en más de una empresa, se creará una carpeta para la empresa en la que está trabajando cuando utilice las acciones **Abrir en OneDrive** y **Compartir**. 
-5. Coloca una copia del archivo que seleccionó en la carpeta y luego abre el archivo. La próxima vez que use la acción, solo copia y abre el archivo. 
+4. En la carpeta [!INCLUDE[prod_short](includes/prod_short.md)], crea una con el mismo nombre que la empresa en la que está trabajando. Si trabaja en más de una empresa, [!INCLUDE[prod_short](includes/prod_short.md)] crea una carpeta para cada empresa en la que está trabajando cuando utilice la acción **Abrir en OneDrive** o **Compartir**. 
+5. Coloca una copia del archivo que seleccionó en la carpeta de nombre de empresa y luego abre el archivo. 
+
+Luego, la próxima vez que use la acción **Abrir en OneDrive** o **Compartir**, [!INCLUDE[prod_short](includes/prod_short.md)] solo copia y abre el archivo. 
 
 ## <a name="managing-multiple-copies-of-a-file"></a>Administrar varias copias de un archivo
 
-Cuando elige **Abrir en OneDrive** o **Compartir**, el archivo se copia de [!INCLUDE[prod_short](includes/prod_short.md)] a su carpeta en OneDrive. Si edita el archivo en OneDrive, las copias del archivo serán diferentes. Para actualizar [!INCLUDE[prod_short](includes/prod_short.md)] con el archivo más reciente, elimine el archivo existente de [!INCLUDE[prod_short](includes/prod_short.md)] y luego cargue la última copia.
+Cuando elige **Abrir en OneDrive** o **Compartir**, el archivo se copia de [!INCLUDE[prod_short](includes/prod_short.md)] a su carpeta en OneDrive. Si edita el archivo en OneDrive, ese archivo será diferente del archivo [!INCLUDE[prod_short](includes/prod_short.md)]. Para actualizar [!INCLUDE[prod_short](includes/prod_short.md)] con la versión del archivo más reciente, elimine el archivo existente de [!INCLUDE[prod_short](includes/prod_short.md)] y cargue la última copia.
 
-Además, cuando ya exista un archivo con el mismo nombre en OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] proporcionará la opción de reemplazar el archivo o de conservar ambos archivos. Si opta por mantener ambos archivos, el nuevo archivo se copia en OneDrive y se le asigna un nombre de archivo con un número de sufijo, como "Elementos (2).xlsx,". El archivo original no se modifica. 
+Si ya existe un archivo con el mismo nombre en OneDrive, se le darán las siguientes opciones:
 
-Si elige reemplazar el archivo, el nuevo archivo se agrega al historial de versiones de ese archivo. El archivo original no se pierde y puede ver o restaurar versiones anteriores del archivo. 
+- **Utilizar existente**
+
+  Esta opción abre o comparte el archivo que ya está almacenado en OneDrive, en lugar de copiar el archivo desde Business Central.
+  
+- **Reemplazar**
+  
+  Esta opción reemplaza el archivo existente en OneDrive con el archivo que seleccionó de Business Central. El archivo original no se pierde, puede verlo y restaurarlo usando el historial de versiones en OneDrive. Obtenga más información en [Restaurar una versión anterior de un archivo almacenado en OneDrive](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive).
+
+- **Conservar ambos**
+ 
+  Esta opción mantiene el archivo existente tal cual y guarda el archivo que seleccionó de Business Central con un nombre diferente. El nuevo nombre es similar al nombre existente, excepto que tiene un número de sufijo como "Artículos (2).xlsx".
 
 ## <a name="about-your-business-central-folder-on-onedrive"></a>Acerca de su carpeta de Business Central en OneDrive
 
-La carpeta y su contenido son privados hasta que decida compartirlos con otras personas. Por ejemplo, puede decidir compartir contenido con uno o más de sus compañeros de trabajo, o incluso con personas ajenas a su organización. Puede acceder a su OneDrive desde la página **Mi configuración** eligiendo el enlace en el campo **Almacenamiento en la nube**. Para obtener más información, consulte [Compartir archivos y carpetas de OneDrive](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+La carpeta y su contenido son privados hasta que decida compartirlos con otras personas. Por tanto, puede decidir compartir contenido con uno o más de sus compañeros de trabajo, o incluso con personas ajenas a su organización. 
+
+Puede acceder a su OneDrive desde la página **Mi configuración** eligiendo el enlace en el campo **Almacenamiento en la nube**. Obtenga más información en [Compartir archivos y carpetas de OneDrive](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="El campo Almacenamiento en la nube en Mi configuración":::
 
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
+
 [Integración de Business Central y OneDrive](across-onedrive-overview.md)  
 [Administrar la integración de OneDrive con Business Central](admin-onedrive-integration.md)  
 [Preguntas más frecuentes de OneDrive](admin-onedrive-faq.md)

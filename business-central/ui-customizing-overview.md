@@ -10,12 +10,12 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 877e4bf26b0af7675fe71f791e0bfe53159b9d70
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533084"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606095"
 ---
 # <a name="customize-business-central"></a>Personalizar Business Central
 
@@ -29,7 +29,8 @@ Existen diferentes formas de personalizar la aplicación para tener acceso a las
 |Cambiar el espacio de trabajo de los usuarios personalizando su rol asignado.|Cambiar la interfaz de usuario para un perfil (rol) para que todos los usuarios de ese rol vean un espacio de trabajo personalizado. Controlar y administrar la personalización de usuarios desactivando la capacidad para personalizar las páginas y borrar la personalización de página.|Todos los usuarios en una empresa específica.|[Personalizar páginas para perfiles](ui-personalization-manage.md)|
 |Cambiar qué elementos de la interfaz de usuario son visibles.|El valor **Experiencia** determina qué cantidad de la funcionalidad se muestra en la interfaz de usuario. Elija entre Esencial y Premium.|Todos los usuarios en una empresa específica.|[Cambiar las funciones que se muestran](ui-experiences.md)|
 |Habilitar colores en áreas de trabajo para designar la importancia.|Configure pilas para que aparezcan en las áreas de trabajo de los usuarios a fin de que incluyan un indicador que cambia de color según los valores de las pilas.|Todos los usuarios en una empresa específica.|[Configurar un indicador de color en pilas](admin-how-set-up-colored-indicator-on-cues.md)|
-|Instalar una extensión|Las extensiones son como pequeñas aplicaciones que agregan funcionalidades, cambian el comportamiento, proporcionan acceso a nuevos servicios en línea y más. Por ejemplo, Microsoft ofrece una extensión que proporciona integración con PayPal Payments Standard.|Todos los usuarios en todas las empresas.|[Personalizar con extensiones](ui-extensions.md)|
+|Instalar una aplicación|Instale aplicaciones que agregan funcionalidades, cambian el comportamiento, proporcionan acceso a nuevos servicios en línea y más. Por ejemplo, Microsoft ofrece una aplicación que proporciona integración con PayPal Payments Standard.|Todos los usuarios en todas las empresas.|[Personalización con aplicaciones](ui-extensions.md)|
+
 > [!NOTE]
 > Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[prod_short](includes/prod_short.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario. Por lo tanto, los usuarios con la experiencia **Esencial** pueden leer en algunos temas acerca de la funcionalidad y los elementos de la IU que no están visibles en su interfaz de usuario. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 

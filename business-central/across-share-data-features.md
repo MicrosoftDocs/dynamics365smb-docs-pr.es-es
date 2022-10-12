@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528510"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607478"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Compartir datos comerciales desde Business Central
 
@@ -42,7 +42,7 @@ Para obtener más información, consulte [Ordenar, buscar y filtrar](ui-enter-cr
 
 ![Admitido](media/check.png) Business Central Online ![No admitido](media/x-icon.png) Business Central local
 
-Directamente desde la mayoría de las páginas de colección y páginas de detalles, puede enviar un vínculo a la página a personas, grupos de chat o canales. Por ejemplo, comparta un vínculo a una vista filtrada de sus registros. Los destinatarios pueden seleccionar el vínculo para abrir la página en Business Central.
+Directamente desde la mayoría de las páginas de colección y páginas de detalles, puede enviar un vínculo a la página a personas, grupos de chat o canales. Por ejemplo, comparta un vínculo a una vista filtrada de sus registros. Si ha instalado la aplicación [!INCLUDE[prod_short](includes/prod_short.md)] para Teams, el enlace se expandirá automáticamente en una tarjeta compacta para que la incluya con su mensaje. Luego los destinatarios pueden seleccionar el vínculo o la tarjeta para abrir la página en Business Central.
 
 Para obtener más información, consulte [Compartir registros y vínculos de páginas en Teams](across-working-with-teams.md).
 

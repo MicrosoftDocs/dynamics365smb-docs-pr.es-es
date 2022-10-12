@@ -5,22 +5,23 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
-ms.date: 04/12/2021
+ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 7e9ad9fa80a4690439b34abe2ccf65d84ed714ca
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 8838569a1077a5c9befc1ab11daab49432563d3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529223"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605089"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Informes y análisis financieros en Business Central
 
-Informes financieros en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales financieros y comerciales crear, mantener, implementar y ver estados financieros. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes. [!INCLUDE [prod_short](includes/prod_short.md)] incluye diversos informes, funciones de seguimiento y herramientas que ayudan a los auditores o controladores que son responsables de informar al departamento de finanzas. Los informes financieros incluyen soporte para dimensiones, por lo que los segmentos o dimensiones de la cuenta están disponibles de inmediato. No se requieren otras herramientas ni pasos de configuración.  
+Financial Reporting en [!INCLUDE [prod_short](includes/prod_short.md)] aporta a los profesionales financieros y de la empresa la capacidad de crear, mantener, implementar y ver estados financieros. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes. [!INCLUDE [prod_short](includes/prod_short.md)] incluye diversos informes, funciones de seguimiento y herramientas para ayudar a los auditores o controladores que son responsables de informar al departamento de finanzas. Financial Reporting incluye soporte para dimensiones, por lo que los segmentos o dimensiones de la cuenta están disponibles de inmediato. No se necesitan otras herramientas ni pasos de configuración.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 ## <a name="reports"></a>Informes
+
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Tareas
@@ -28,8 +29,8 @@ Informes financieros en [!INCLUDE [prod_short](includes/prod_short.md)] permite 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Analizar importes reales frente a importes presupuestados](bi-how-analyze-actual-versus-budget.md)  
-* [Preparar informes financieros con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)  
-* [Configurar y publicar un servicio web KPI que se basa en esquemas de cuentas](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Preparar Financial Reporting con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md)  
+* [Configurar y publicar un servicio web KPI que se basa en informes financieros](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)  
 * [Crear informes de análisis](bi-how-create-analysis-views-reports.md)  
 * [Crear informes con XBRL](bi-create-reports-with-xbrl.md)  

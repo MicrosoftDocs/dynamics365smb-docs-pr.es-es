@@ -1,6 +1,6 @@
 ---
 title: Crear fichas de producto para bienes o servicios (contiene vídeo)
-description: Puede crear fichas de producto para servicios que venda como horas y para productos físicos, como productos de ensamblaje, productos terminados, que venda del inventario.
+description: Cree fichas de productos para servicios que venda por horas y para productos físicos. Los ejemplos incluyen productos de ensamblaje y productos terminados que vende desde su inventario.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.date: 09/26/2022
 ms.author: edupont
-ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 945197681e32f6d77ede2f1b0e727892a64d8277
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532922"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604954"
 ---
 # <a name="register-new-items"></a>Registro de productos nuevos
 
@@ -23,19 +23,20 @@ Los productos, entre otros elementos, son la base de su empresa, las mercancías
 
 Las fichas de producto contienen la información necesaria para comprar, almacenas, vender, entregar y contabilizar productos.
 
-La ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra o una unidad física sin seguimiento en el inventario. Para obtener más información, consulte [unidad física sin seguimiento en el inventario](inventory-about-item-types.md).
+La ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de trabajo o una unidad física sin seguimiento en el inventario. Para obtener más información, consulte [unidad física sin seguimiento en el inventario](inventory-about-item-types.md).
 
-Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). En [!INCLUDE[prod_short](includes/prod_short.md)], una lista de materiales puede ser una L.M. de ensamblado o una L.M. de producción, en función de su uso. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
+Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). Obtenga más información sobre las L.M. de ensamblado y las L.M. en [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
 Si le compra el mismo producto a varios proveedores, puede conectarlos a la ficha de producto. Los proveedores aparecerán después en la página **Tarifas de compra productos** , para poder fácilmente seleccionar un proveedor alternativo.
 
-Los productos que ofrece a sus clientes pero que no desea administrar en su sistema hasta que comience a venderlos se pueden configurar como productos del catálogo. Los productos del catálogo no deben confundirse con artículos regulares de tipo **No inventario**. Para obtener más información, consulte [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).  
+*Productos del catálogo* son productos que ofrece a sus clientes, pero que no desea administrar en su sistema hasta que comience a venderlos. Los productos del catálogo no son artículos normales de tipo **No inventario**. Obtenga más información en [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > Si existen plantillas para distintos tipos de producto, aparece una página automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
 
 En el siguiente procedimiento se explica cómo crear una ficha de producto desde cero. También puede crear nuevas fichas de producto copiando las existentes. Para obtener más información, consulte [Copiar productos existentes para crear productos nuevos](inventory-how-copy-items.md).  
 
+<br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Para crear una nueva ficha de producto.
@@ -87,29 +88,31 @@ Puede configurar productos para que tengan sustitutos, como otros productos que 
 ### <a name="to-make-an-item-substitution"></a>Para identificar la sustitución de un producto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
-2. Busque el producto relevante y luego haga clic en el **N.º producto** para abrir la tarjeta del producto.  
-3. Elija la acción **Relacionada**, luego elija **Producto**, y luego **Sustituciones** para abrir la página Mov. sustitución producto.  
+2. Busque el producto relevante y luego seleccione en **N.º producto** para abrir la ficha del producto.  
+3. Elija la acción **Relacionada**, luego elija **Producto**, y, por último, **Sustituciones**, para abrir la página **Mov. sustitución producto**.  
 4. Elija el campo **N.º sustitutivo** y seleccione el producto de sustitución en la lista.
-5. Empiece a rellenar o cambiar otros campos en la página según sea necesario.
+5. Rellene o cambie otros campos de la página según sea necesario.
 
-Cuando la cantidad de productos solicitados, como una línea de venta, sobrepasa la cantidad disponible en el inventario, aparece un mensaje para informarle que existen productos sustitutos.
+Cuando la cantidad solicitada sobrepasa la cantidad disponible en el inventario, aparece un mensaje para informarle de que existen productos sustitutos.
 
 > [!NOTE]  
 > Tenga en cuenta que las sustituciones de productos no harán que un producto sea reemplazado automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible para usted.
 
-## <a name="categories-attributes-and-variants"></a>Categorías, atributos y desviaciones
+## <a name="categories-attributes-and-variants"></a>Categorías, atributos y variantes
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
+Obtenga más información sobre las variantes en [Administrar variantes de productos](inventory-item-variants.md).  
+
 ## <a name="deleting-item-cards"></a>Eliminar fichas de producto
 
-Si ha publicado una transacción para un artículo, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la valoración de inventario o auditoría. Para eliminar fichas de producto con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
+Si ha publicado una transacción para un producto, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la valoración de inventario o auditoría. Para eliminar fichas de producto con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
 
 ## <a name="manage-inventory-in-warehouses"></a>Administrar el inventario en almacenes
 
-Cuando registre un nuevo producto, verá campos relacionados con la gestión del almacén, especialmente en la Ficha desplegable **Almacén**. Si su organización no utiliza las capacidades de gestión de almacenes de [!INCLUDE [prod_short](includes/prod_short.md)], entonces puede ignorar esos campos.  
+Cuando registre un nuevo producto, verá campos relacionados con la gestión del almacén, especialmente en la ficha desplegable **Almacén**. Si su organización no utiliza las capacidades de gestión de almacenes de [!INCLUDE [prod_short](includes/prod_short.md)], entonces puede ignorar esos campos.  
 
-Si su organización configura posteriormente la gestión del almacén, en la mayoría de los casos, debe volver a cada producto existente para asegurarse de que tenga la información correcta en los distintos campos, de modo que los procesos del almacén se puedan ejecutar como se esperaba. Esta información puede incluir campos como **Código de clase de almacén** o **Código de plantilla de ubicación**. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).  
+Si su organización configura posteriormente la gestión de almacenes, le recomendamos que se asegure de que todos los productos tenga la información adecuada en los distintos campos. De esta manera, los procesos de almacén pueden ejecutarse como se esperaba. Esta información puede incluir campos como **Código de clase de almacén** o **Código de plantilla de ubicación**. Para obtener más información, consulte [Detalles de diseño: Configuración almacén](design-details-warehouse-setup.md).  
 
 ## <a name="planning"></a>Planificación
 
@@ -123,7 +126,8 @@ Para ver ejemplos de cómo puede utilizar los campos en la ficha desplegable **P
 
 [Inventario](inventory-manage-inventory.md)  
 [Configurar unidades de medida](inventory-how-setup-units-of-measure.md)  
-[Códigos arancelarios](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Administrar variantes de productos](inventory-item-variants.md)  
+[Configuración de Informes de Intrastat](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Conciliar costes de inventario con la contabilidad](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Crear numeración](ui-create-number-series.md)  
 [Configurar los grupos contables](finance-posting-groups.md)  

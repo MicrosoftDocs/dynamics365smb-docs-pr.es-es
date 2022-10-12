@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655519"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606835"
 ---
 # <a name="changing-language-and-region"></a>Cambiar idioma y región
 
@@ -58,14 +58,14 @@ En la página **Ayuda y soporte técnico** puede ver la versión de que [!INCLUD
 
 ## <a name="languages-of-the-prod_short-help"></a>Idiomas de la Ayuda de [!INCLUDE[prod_short](includes/prod_short.md)]
 
-El contenido de la Ayuda para la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)] se publica en el sitio de Microsoft Docs. El contenido está disponible en diferentes idiomas. Si tiene acceso a documentos desde [!INCLUDE[prod_short](includes/prod_short.md)], el contenido se mostrará en su idioma. De forma predeterminada, si una página en particular aún no está disponible en su idioma, se mostrarán en inglés.
+El contenido de la Ayuda para la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)] se publica en Microsoft Learn. El contenido está disponible en diferentes idiomas. Si tiene acceso a la documentación desde [!INCLUDE[prod_short](includes/prod_short.md)], el contenido se mostrará en su idioma. De forma predeterminada, si una página en particular aún no está disponible en su idioma, se mostrarán en inglés.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>¿Cómo cambio el idioma del sitio de Microsoft Docs?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>¿Cómo cambio el idioma del sitio de Microsoft Learn?
 
 Es simple, desplácese al final de la página del explorador y elija el símbolo del mundo en la esquina inferior izquierda.
 
 > [!NOTE]  
-> La lista muestra todos los idiomas admitidos en el sitio de Documentos de Microsoft. [!INCLUDE[prod_short](includes/prod_short.md)] está disponible en un número limitado de países o regiones, y el contenido de Ayuda de [!INCLUDE [prod_short](includes/prod_short.md)] no está disponible en todos los idiomas que admite el sitio de Microsoft Docs.
+> La lista muestra todos los idiomas admitidos en el sitio de Microsoft Learn. [!INCLUDE[prod_short](includes/prod_short.md)] está disponible en un número limitado de países o regiones, y el contenido de Ayuda de [!INCLUDE [prod_short](includes/prod_short.md)] no está disponible en todos los idiomas que admite el sitio de Microsoft Learn.
 
 ## <a name="see-also"></a>Consulte también
 

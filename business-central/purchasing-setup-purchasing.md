@@ -8,30 +8,64 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 07/04/2022
+ms.date: 08/30/2022
 ms.author: edupont
-ms.openlocfilehash: 008c0d35c8bfefdf002e08b967ddc1a9336b04a5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 82083beeb1779455fbd4b8a6083663b5559129eb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530384"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606619"
 ---
 # <a name="setting-up-purchasing"></a>Configurar compras
 
 Para poder administrar procesos de compra, debe configurar las reglas y valores que definen las políticas de compra de la empresa.
 
-Debe definir la configuración general, por ejemplo, qué documentos son necesarios y cómo se registran sus valores. Esta configuración general se efectúa normalmente una vez durante la implementación inicial.
+Debe definir la configuración general en la página **Configuración de compras y pagos**, que normalmente se realiza una vez durante la implementación inicial. Obtenga más información en la siguiente sección, [Configuración de compras y pagos](#purchases-and-payables-setup).
 
-Una serie de tareas independientes relacionadas con el registro de nuevos proveedores es registrar acuerdos de precios especiales o descuentos que tenga con cada proveedor.
+Una serie de tareas independientes relacionadas con el registro de nuevos proveedores consiste en registrar acuerdos de precios especiales o descuentos que tenga con cada proveedor.
 
-La configuración de compra relacionada con las finanzas, como las formas de pago o las divisas, se describe en la sección Configuración de finanzas. Para obtener más información, consulte [Configurar finanzas](finance-setup-finance.md). Del mismo modo, la configuración de compras relacionadas con el inventario, como las unidades de medida y los códigos de seguimiento de artículos, se pueden encontrar en la [sección Configuración de inventario](inventory-setup-inventory.md).
+La configuración de compra relacionada con las finanzas, como las formas de pago o las divisas, se describe en la sección de configuración de finanzas. Obtenga más información en [Configurar las finanzas](finance-setup-finance.md). Del mismo modo, la configuración de compras relacionadas con el inventario, como las unidades de medida y los códigos de seguimiento de artículos, se puede encontrar en la [sección Configuración de inventario](inventory-setup-inventory.md).
+
+## <a name="purchases-and-payables-setup"></a>Configuración de compras y pagos
+
+Antes de trabajar con compras y pagos, especifique en la página **Configuración de compras y pagos** cómo se registran los valores de compra y las series numéricas utilizadas para proveedores y documentos de compra.
+
+### <a name="general-settings"></a>Configuración general
+
+En la ficha desplegable **General**, puede especificar opciones como el método de cálculo y registro de descuentos y si desea redondear las facturas. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+
+Algunos campos requieren una atención especial, como el campo **Calc. dto. fra. por ID IVA**, que especifica si el descuento en factura se calcula según el identificador de impuestos o el total de la factura. Obtenga más información en [Combinar grupos de registro de IVA en configuraciones de registro de IVA](finance-setup-vat.md#combine-vat-posting-groups-in-vat-posting-setups)
+
+Del mismo modo, el campo **Liquidación entre divisas** puede producir pequeñas diferencias de redondeo al liquidar movimientos en distintas divisas. Obtenga más información en [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md).
+
+Además, algunos campos cambian su comportamiento o dependen de cómo se configuran otros campos. Por ejemplo, la característica **Comprobar prepago al registrar** está influenciada por cómo el campo **Actualización automática prepago** está configurado para comprobar los pagos anticipados pendientes.
+
+Leer detalles sobre los campos [**Nº doc. externo obligatorio**](#external-document-number) y [**Coste exacto devol. obligatorio**](#exact-cost-reversing) siguientes.
+
+### <a name="number-series-settings"></a>Configuración de series numéricas
+
+En la ficha desplegable **Serie numérica**, debe especificar los códigos de identificación únicos que se utilizarán para proveedores, facturas y otros documentos de compra. La numeración es importante no solo para los procesos internos, sino que también puede ser necesaria para cumplir las normas locales. Por lo tanto, podría valer la pena considerar configurar todas las series de la página **N.º serie** de antemano en lugar de crear otras nuevas a partir de **Configuración de compras y pagos**. Obtenga más información en [Crear numeración](ui-create-number-series.md).
+
+## <a name="external-document-number"></a>Número de documento externo
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
+## <a name="exact-cost-reversing"></a>Reversión de coste exacto
+
+La función **Coste exacto devol. obligatorio** ayuda a garantizar que los bienes devueltos se valoren al mismo coste que cuando se extrajeron originalmente del inventario, utilizando una liquidación fija en lugar de seguir un método de coste promedio o primero en entrar, primero en salir (FIFO). Obtenga más información en la sección [Detalles de diseño: liquidación fija](design-details-item-application.md#fixed-application). Si se agrega un coste adicional posterior a la compra original, el programa actualiza el valor de la devolución de compra correspondiente.
+
+Con la característica habilitada, solo se puede registrar una transacción de devolución especificando el número de movimiento de producto en el campo **Liq. por nº orden producto** en la línea de pedido de devolución de compra. De forma predeterminada no se muestra el campo en la ficha desplegable **Líneas**. Aprenda a agregar campos a las páginas en la sección [Personalizar el área de trabajo](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+[!INCLUDE[local-functionality](includes/local-functionality.md)]
+
+## <a name="more-purchasing-setups"></a>Más configuraciones de compra
 
 | Para | Vea |
 | --- | --- |
-| Cree una ficha de proveedor para cada proveedor al que compre. |[Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md) |
-| De prioridad a los proveedores |[De prioridad a los proveedores](purchasing-how-prioritize-vendors.md) |
-| Ingrese la información de la cuenta bancaria, incluidos los códigos IBAN y SWIFT, en la tarjeta de su proveedor. | [Configurar cuentas bancarias de proveedor](purchasing-how-set-up-vendors-bank-accounts.md) |
+| Cree una ficha de proveedor por cada proveedor al que compre. |[Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md) |
+| De prioridad a los proveedores. |[De prioridad a los proveedores](purchasing-how-prioritize-vendors.md) |
+| Introduzca la información de la cuenta bancaria, incluidos los códigos de cuenta bancaria internacional (IBAN) y SWIFT, en la ficha de su proveedor. | [Configurar cuentas bancarias de proveedor](purchasing-how-set-up-vendors-bank-accounts.md) |
 | Configure compradores, asígneles proveedores y códigos para realizar un seguimiento de las estadísticas. |[Configurar compradores](purchasing-how-setup-purchasers.md) |
 | Introduzca los diferentes descuentos y precios especiales que los proveedores le ofrecen en función del producto, la cantidad y/o la fecha. |[Registrar acuerdos de pago, descuentos y precios de venta](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Defina lo que paga por los artículos y servicios adquiridos por su empresa.  | [Establecer precios y descuentos](across-prices-and-discounts.md) |
@@ -41,14 +75,7 @@ La configuración de compra relacionada con las finanzas, como las formas de pag
 | Revise recibos de gastos, convierta documentos en papel y electrónicos en líneas de diario y digitalice facturas en papel de los proveedores. | [Configurar documentos entrantes](across-how-setup-income-documents.md) |
 | Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos. |[Selección de informes en Business Central](across-report-selections.md)|
 
-> [!TIP]
-> Según su ubicación geográfica, algunas páginas pueden contener campos que no se describen en los productos que se enumeran aquí, porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>Número de documento externo
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) relacionada
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Consulte también .
 

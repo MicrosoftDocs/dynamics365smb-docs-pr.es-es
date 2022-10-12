@@ -4,18 +4,18 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: f574fbb444752b1c8b0761df80dbfdc98e8123e6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 83453858afb9cbaa893252e712fa408b27483b45
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531680"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607613"
 ---
 - Un vínculo sobre la página actual
 
   En la parte superior del panel, una tarjeta muestra una breve descripción de la página actual, si existe. Si no hay descripción de la página, la tarjeta proporciona un único vínculo a un artículo sobre la página.  
 
-  Si [!INCLUDE[prod_short](prod_short.md)] no puede encontrar el vínculo relevante, mostramos la página de destino en [Microsoft Docs](/dynamics365/business-central). Por ejemplo, si la página era parte de una aplicación que no agregaba asignación de ayuda sensible al contexto a [!INCLUDE[prod_short](prod_short.md)], el *Vínculo de aprendizaje* va por defecto a la página de destino.  
+  Si [!INCLUDE[prod_short](prod_short.md)] no puede encontrar el vínculo pertinente, se muestra la página de destino en [Microsoft Learn](/dynamics365/business-central). Por ejemplo, si la página formaba parte de una aplicación que no agregaba asignación de ayuda sensible al contexto a [!INCLUDE[prod_short](prod_short.md)], los valores predeterminados *Vínculo de aprendizaje* a la página de destino.  
 
 - Vínculos a artículos relacionados
 

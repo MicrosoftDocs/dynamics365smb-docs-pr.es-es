@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317440"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607105"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Uso de colas de proyectos para programar tareas
 
-Las colas de proyectos permiten a los usuarios programar y ejecutar informes y codeunits específicos. Puede configurar proyectos para que se ejecuten una vez o de manera periódica. Por ejemplo, es posible que desee ejecutar el informe **Vendedor - Estadísticas de ventas** semanalmente para realizar un seguimiento de las ventas por vendedor cada semana o ejecutar la codeunit **Solicitudes de aprobación de delegados** diariamente, para evitar que los documentos se acumulen.
+La página Entradas de colas de proyectos permiten a los usuarios programar y ejecutar informes y codeunits específicos. Puede configurar proyectos para que se ejecuten una vez o de manera periódica. Por ejemplo, es posible que desee ejecutar el informe **Vendedor * Estadísticas de ventas** semanalmente para realizar un seguimiento de las ventas por vendedor cada semana o ejecutar la codeunit **Solicitudes de aprobación de delegados** diariamente, para evitar que los documentos se acumulen.
 
 La página **Entradas de cola de proyectos** enumera todos los proyectos existentes. Si agrega una nueva entrada de cola de trabajos que desea programar, debe proporcionar cierta información. Por ejemplo:
+
 * El tipo de objeto que desea ejecutar, como un informe o una codeunit. Debe tener permiso para ejecutar el informe o la codeunit en particular.
 * Nombre e id. del objeto. 
 * Parámetros para especificar el comportamiento del movimiento de cola de proyectos. Por ejemplo, puede agregar un parámetro para enviar solo pedidos de venta registrados. 
 * Cuándo y con qué frecuencia se ejecutará la entrada de la cola de trabajos.
 
 > [!IMPORTANT]  
-> Si utiliza el conjunto de permisos SUPER que se suministran con [!INCLUDE[prod_short](includes/prod_short.md)], usted y sus usuarios tienen permisos para ejecutar todos los objetos dentro de la licencia. Eso todavía no es suficiente para el administrador delegado o los usuarios con licencia de dispositivo, que no pueden crear entradas para la cola de proyectos.
+> Si se le ha asignado el conjunto de permisos SUPER que se suministran con [!INCLUDE[prod_short](includes/prod_short.md)], tiene permisos para ejecutar todos los objetos incluidos en la licencia. Si tiene la función de administrador delegado, puede crear y programar entradas de la cola de trabajos, pero solo los administradores y los usuarios con licencia pueden ejecutarlas. Los usuarios con la licencia de dispositivo no pueden crear ni ejecutar colas de trabajo completas.
 
 Después de configurar y ejecutar las colas de proyectos, el estado puede cambiar de la siguiente manera en cada período recurrente:
 
@@ -73,7 +74,7 @@ La página **Tareas programadas** de [!INCLUDE [prod_short](includes/prod_short.
 Por ejemplo, todas las tareas programadas se detienen si la empresa actual se encuentra en un entorno que es una copia de otro entorno. Utilice la página **Tareas programadas** para establecer tareas listas para ejecutarse en la cola de trabajos.  
 
 > [!NOTE]
-> Los administradores y usuarios internos pueden programar tareas para que se ejecuten. Los administradores delegados no pueden.
+> Los administradores y usuarios con licencia pueden programar tareas para que se ejecuten. Los administradores delegados pueden configurar y programar la ejecución de tareas, pero solo los usuarios con licencia pueden ejecutarlas.
 
 ## <a name="the-my-job-queue-part"></a>El apartado de Mi cola proyecto
 

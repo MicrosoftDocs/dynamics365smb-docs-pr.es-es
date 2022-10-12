@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 519029e673bdd5bcc0e14609fd756fb854328a09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1cbaf6d46ef1ae3e27a6531cb1c9b94360018880
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136642"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617897"
 ---
 # <a name="report-340-in-the-spanish-version"></a>Informe 340 en la versión en español
-El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.agenciatributaria.es/). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
+El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado y se basa en **Fecha de IVA**. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.agenciatributaria.es/). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
 
 ## <a name="reporting-requirements-for-entrepreneurs-and-small-companies"></a>Requisitos de informes para emprendedores y pequeñas empresas  
 Los requisitos de presentación de informes para empresarios y pequeñas empresas se modifican para apoyar a las empresas que utilizan los criterios de contabilidad de efectivo (CAC).  

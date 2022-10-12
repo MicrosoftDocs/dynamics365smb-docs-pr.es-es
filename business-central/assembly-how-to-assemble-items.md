@@ -10,23 +10,23 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 07cccf188ed476a3dba4fa71ec7de20620cbd6f1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534702"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607051"
 ---
 # <a name="assemble-items"></a>Ensamblar artículos
 
 Si el campo **Sistema reposición** en la ficha del artículo contiene **Montaje**, el método predeterminado para suministrar el artículo será ensamblarlo desde los componentes definidos y potencialmente por un recurso definido.  
 
-Los componentes y los recursos que forman esta clase de artículo de ensamblado deben definirse en un L.M. de ensamblado. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).  
+Los componentes y los recursos que forman esta clase de artículo de ensamblado deben definirse en un L.M. de ensamblado. Para obtener más información, consulte [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md).
 
 Los artículos de ensamblado se pueden configurar para dos procesos de ensamblado diferentes:  
 
--   Ensamblar para stock.  
--   Ensamblar para pedido  
+- Ensamblar para stock.  
+- Ensamblar para pedido  
 
 Se utiliza normalmente **Ensamblar para stock** para los artículos que se desea ensamblar antes de la venta, como para prepararse para una campaña de equipo, y mantenerlo en stock hasta que se soliciten. Estos artículos suelen ser estándar, como equipos embalados que no ofrecen personalización según las solicitudes de cliente.  
 
@@ -37,7 +37,7 @@ Para obtener más información acerca de cómo configurar un elemento del ensamb
 Estas opciones de configuración son los valores predeterminados para controlar cómo se procesan inicialmente las líneas de ventas y de pedido de ensamblado. Puede iniciar a partir de estos valores predeterminados y suministrar el artículo de ensamblado de la forma más óptima al procesar una venta. Para obtener más información, consulte [Venta de productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) y [Venta de productos de ensamblado para pedido y productos de inventario juntos](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Los componentes de ensamblaje se manejan de forma especial en configuraciones básicas de almacén. Para obtener más información, vea la sección "Tratamiento de productos ensamblar para pedido en los picking de inventario" en [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Los componentes de ensamblaje se manejan de forma especial en configuraciones básicas de almacén. Para obtener más información, vea la sección "Tratamiento de productos de Ensamblar para pedido en los picking de existencias" en [Realizar picking de productos con picking de existencias](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 En este procedimiento se crea y procesa un pedido de ensamblado para los artículos que se ensamblan para stock, lo que significa que no tiene un pedido de venta vinculado. Los pasos incluyen la iniciación del pedido de ensamblado, gestionando los problemas potenciales de disponibilidad de componente y registrando parcialmente la salida del artículo de montaje.
 
@@ -74,10 +74,9 @@ Después de que el registrar se realice correctamente, el artículo de ensamblad
 ## <a name="see-also"></a>Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
+[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

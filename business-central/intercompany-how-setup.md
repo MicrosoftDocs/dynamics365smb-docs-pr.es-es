@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7add9cf10ff90ff978c67cf691b2f7e5c6b87bdd
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 32a0005f2ebbc6bfc87c21fed8469c86535e15de
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460865"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607289"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Configuración de registro de transacciones entre empresas
 
@@ -56,6 +56,10 @@ Estos campos para rellenar difieren, dependiendo de si su administrador ha activ
 
 > [!NOTE]
 > En [!INCLUDE[prod_short](includes/prod_short.md)] online, no puede utilizar ubicaciones de archivos para transferir transacciones a sus socios porque [!INCLUDE[prod_short](includes/prod_short.md)] no tiene acceso a su red local. Por tanto, si elige **Ubicación del archivo** en el campo **Tipo de transferencia**, el campo **Ruta de la carpeta** no está disponible. En su lugar, el archivo se descargará a la carpeta Descargas de su computadora. Luego envía el archivo a alguien de la empresa asociada, por ejemplo, por correo electrónico. Para un proceso más directo, le recomendamos que elija **Email** en lugar.
+
+> [!NOTE]
+> Para la contabilización de empresas vinculadas, cuando tiene activada la alternancia **Aceptar automáticamente transacciones** en la página **Fichas de socios de empresas vinculadas**, [!INCLUDE[prod_short](includes/prod_short.md)] suprime los mensajes de advertencia sobre facturas de compra que duplican el pedido de compra original. Por lo tanto, es importante contar con un proceso de empresa para gestionar los duplicados. Por ejemplo, eliminando dichos pedidos de compra cuando se recibe la factura de compra del socio de empresas vinculadas.
+
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Para configurar proveedores y clientes de empresas vinculadas
 

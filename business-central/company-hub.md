@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132060"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606176"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrar el trabajo de varias empresas en el hub de empresas
 
-Algunas personas trabajan en varias empresas en [!INCLUDE [prod_short](includes/prod_short.md)], y algunos también trabajan en más de una organización, como contables externos o empleados y gerentes de corporaciones con múltiples subsidiarias. Para estos usuarios y muchos otros, el hub de empresas sirve como página de aterrizaje para administrar el trabajo en los diversos entornos en los que trabajan, en empresas, entornos y regiones.  
+Algunas personas trabajan en varias empresas en [!INCLUDE [prod_short](includes/prod_short.md)], y algunos también trabajan en más de una organización, como contables externos o empleados y gerentes de corporaciones con múltiples subsidiarias. Para estos usuarios, y muchos otros, el centro de la empresa sirve como una página de inicio que brinda una descripción financiera general de las empresas y los entornos. Proporciona a los usuarios una herramienta para administrar el trabajo en los diversos entornos en los que trabajan, en empresas, entornos y regiones.  
 
 Puede acceder al centro cambiando al rol **Hub de empresas** Mi Configuración, o abriendo directamente la página **Hub de empresas**. Puede hacer el mismo trabajo en ambos lugares, pero las acciones se colocan de forma ligeramente diferente en los menús.  
+
+[![Muestra la página central de la empresa que enumera todas las empresas.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Puede conectar el hub de la empresa a tantas empresas como necesite. Sin embargo, solo puede conectar el hub de la empresa a empresas alojadas en [!INCLUDE [prod_short](includes/prod_short.md)] en línea.
@@ -63,9 +65,9 @@ La lista **Mis tareas de usuario** le ayuda a priorizar su día al mostrar más 
 
 Puede ordenarlas por fecha de vencimiento, por ejemplo, o por otro tipo de datos que lo ayuden a priorizar su día. De forma predeterminada, la lista muestra todas las tareas que tiene asignadas, pero puede configurar filtros para que solo se muestren las tareas marcadas como de alta prioridad, por ejemplo.  
 
-Para elegir una tarea, simplemente selecciónela de la lista de tareas pendientes del usuario. En la cinta de opciones, el vínculo **Ir al elemento de la tarea** abrirá la página en la que puede realizar el trabajo.  
+Para elegir una tarea, selecciónela de la lista de tareas pendientes del usuario. En la cinta de opciones, el vínculo **Ir al elemento de la tarea** abrirá la página en la que puede realizar el trabajo.  
 
-Cuando haya terminado una tarea, simplemente márquela como completada.  
+Cuando haya terminado una tarea, márquela como completada.  
 
 Para obtener más información sobre empresas y entornos, consulte [Vínculos de entorno](company-hub-add-company.md#environment-links).  
 

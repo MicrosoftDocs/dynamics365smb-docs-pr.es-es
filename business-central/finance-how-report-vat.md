@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532733"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617854"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Crear informes de IVA para las autoridades fiscales
 
@@ -30,7 +30,7 @@ Utilice los siguientes informes incluidos:
 
     El informe Devolución de IVA incluye el IVA de las ventas y compras a clientes y de proveedores pertenecientes a todos los países que utilizan el IVA.  
 
-En ambos casos, el IVA se calcula basándose en la configuración de grupos registro IVA y los grupos de tipo de registro de IVA que haya configurado.
+En ambos casos, el IVA se calcula basándose en la configuración de grupos registro IVA y los grupos de tipo de registro de IVA que haya configurado. [!INCLUDE[prod_short](includes/prod_short.md)] muestra entradas de IVA basadas en su **Fecha de IVA**.
 
 Si desea ver un historial completo de entradas de IVA, cada publicación que implica IVA crea una entrada en la página **Movs. IVA** . Estos movimientos se utilizan para calcular el importe de liquidación de IVA, como pago o devolución, de un determinado periodo. Para ver las entradas de IVA, elija el icono ![Bombilla que abre la función 1 Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de IVA** y luego elija el enlace relacionado.
 

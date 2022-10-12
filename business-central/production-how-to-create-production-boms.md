@@ -3,21 +3,25 @@ title: Crear LM de producción
 description: Obtenga información sobre cómo crear una lista de materiales (L.M.) de producción, nuevas versiones de una lista de materiales de producción y cómo utilizar la fórmula de cálculo de cantidades.
 author: bholtorf
 ms.topic: conceptual
-ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: production bom, bills of material,
+ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516905"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607829"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
 
 Una lista de materiales (L.M.) de producción contiene datos maestros que describen los componentes y los subconjuntos utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] también admite L.M. de ensamblado. Utilice los pedidos de ensamblado para crear productos finales de los componentes en un proceso sencillo que se pueda realizar por uno o varios recursos básicos, que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo. Para obtener más información, consulte [L.M. de ensamblado o L.M. de producción](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+
+> [!TIP]
+> La aplicación **Datos de demostración de Contoso Coffee** incluye productos de demostración de una variedad de escenarios de L.M. de producción que se pueden usar en un entorno de prueba, incluso durante una prueba. Aprenda a configurar los datos de Contoso Coffee y encuentre tutoriales para diferentes escenarios en [Introducción a datos de demostración de Contoso Coffee](/contoso-coffee/contoso-coffee-intro.md).
 
 Para poder configurar una ruta, lo siguiente debe existir:  
 
@@ -26,7 +30,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 
 ## <a name="to-create-a-production-bom"></a>Crear una L.M. de producción.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **L. MAT de producción** y, a continuación, elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **L.M. de producción** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Para editar la L.M., establezca el campo **Estado** en **Nueva** o **En desarrollo**. Para activarla, establezca el campo **Estado** en **Certificada**.  
@@ -46,16 +50,16 @@ Para poder configurar una ruta, lo siguiente debe existir:
 12. Ahora puede asociar la L.M. de producción nueva a la ficha del producto principal en cuestión. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Para volver a calcular el coste estándar del producto desde la ficha del producto, seleccione la acción **Fabricación** y, a continuación, seleccione la ación **Calcular coste estándar**.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Para volver a calcular el coste estándar del producto desde la ficha del producto, seleccione la acción **Fabricación** y, a continuación, seleccione la acción **Calcular coste estándar**.  
 
-## <a name="to-create-a-new-versions-of-a-production-bom"></a>Para crear una versión nueva de una L.M. de producción
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Para crear una versión nueva de una L.M. de producción
 
 Se utilizan las nuevas versiones de la L.M. de producción cuando, por ejemplo, un producto se sustituye por otro, o cuando un cliente solicita una versión especial de un producto. El principio de versión permite administrar varias versiones de una L.M. de producción. La estructura de la versión de la L.M. de producción se corresponde con la de la L.M. de producción. La diferencia básica es la validez en el tiempo de las versiones. La validez se define mediante la fecha inicial.  
 
 La fecha inicial indica el comienzo del periodo en el que la versión es válida. Para lo demás, la fecha inicial es un criterio de filtro para cálculos y evaluaciones. La versión de L.M. es válida hasta que la siguiente versión se convierta en la válida debido a su fecha inicial.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **L. MAT de producción** y, a continuación, elija el vínculo relacionado.  
-2. Seleccione la L.M. de producción a copiar y después seleccione la acción **Versiones**.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **L.M. de producción** y, a continuación, elija el vínculo relacionado.  
+2. Seleccione la L.M. de producción que quiere copiar y después seleccione la acción **Versiones**.  
 3. Seleccione la acción **Nuevo**.  
 4. Rellene los campos según sea necesario.
 5. En el campo **Código de versión**, introduzca la identificación única de la versión. Se permite cualquier combinación de letras y números.  
@@ -72,11 +76,11 @@ El periodo de validez de la versión se especifica mediante el campo **Fecha ini
 >
 > Las L.M. de producción ficticias sirven para estructurar productos. Este tipo de L.M. de producción nunca lleva a un producto terminado, sino que se utiliza exclusivamente para determinar la demanda dependiente. Las L.M. de producción ficticias no poseen sus propios datos maestros del producto.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Fórmula de cálculo de la cantidad en la L.M. de producción
+## <a name="quantity-calculation-formula-on-production-boms"></a>Fórmula de cálculo de la cantidad en las L.M. de producción
 
 La cantidad se calcula teniendo en cuenta las distintas dimensiones, que se especificaron en las líneas de la L.M. de producción. Las dimensiones se refieren a la unidad de orden del producto correspondiente. Se pueden especificar los valores de largo, ancho, alto y peso como dimensiones.  
 
-Las columnas Fórmula cálculo, Largo, Ancho, Alto y Peso no se muestran ya que sólo se utilizan por usuarios cualificados. Si desea utilizar el cálculo de la cantidad, debe mostrar primero estas columnas.  
+Las columnas Tipo cálculo, Largo, Ancho, Alto y Peso no se muestran ya que solo las utilizan algunos usuarios. Si desea utilizar el cálculo de la cantidad, debe mostrar primero estas columnas.  
 
 La relación entre los componentes individuales se define en la fórmula de cálculo. Existen las posibilidades siguientes como fórmula de cálculo:  
 
@@ -90,19 +94,22 @@ La relación entre los componentes individuales se define en la fórmula de cál
 > [!NOTE]
 > El tipo de cálculo **Cantidad fija** garantiza que el consumo de un componente sea el mismo, independientemente de las cantidades de rechazo o de salida. Para componentes de orden de producción, cuando el campo **Fórmula de cálculo** se establece en **Cantidad fija**, el valor del campo **Cantidad esperada** siempre es igual al campo **Cantidad por**. El porcentaje de rechazo que se define en la misma línea se ignora. La cantidad fija es respetada por el informe **Disponibilidad por lista de materiales**. El informe mostrará el artículo como el cuello de botella si la cantidad disponible es menor que la cantidad en el campo **Cantidad por principal**. Los campos **Capaz de hacer principal** y **Capaz de hacer artículo superior** siempre están en blanco, independientemente de la cantidad disponible. La cantidad fija también se incluye en los cálculos de costos estándar. El tamaño del lote del artículo producido afecta el costo que se asigna para un artículo.
 
-### <a name="example"></a>Ejemplo:
+### <a name="example"></a>Ejemplo
 
 En una L.M. de producción, se necesitan setenta componentes de metal con las dimensiones: largo = 0,20 m. y ancho: 0,15 m. Los valores se introducen de la manera siguiente: Fórmula de cálculo = Largo x Ancho, Largo = 20, Ancho = 15, Cantidad por = 70. La cantidad se obtiene de Cantidad por x Largo * Ancho, es decir, Cantidad = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
-[Creación de rutas](production-how-to-create-routings.md)   
+[Creación de rutas](production-how-to-create-routings.md)  
+[Administrar variantes de productos](inventory-item-variants.md)  
+[Tutorial: variantes](/contoso-coffee/variants.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
-[Fabricación](production-manage-manufacturing.md)    
-[Planificación](production-planning.md)   
+[Fabricación](production-manage-manufacturing.md)  
+[Planificación](production-planning.md)  
+[Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
+[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

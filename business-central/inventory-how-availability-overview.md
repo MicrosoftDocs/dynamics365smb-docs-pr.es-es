@@ -9,16 +9,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
-ms.date: 06/16/2021
+ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: d87f18b6af045e371cefe88ed35f62bc028fab2f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b30c38789dcfe3c6fd639fedc1f8f2a7b0d0d47a
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514990"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605852"
 ---
 # <a name="view-the-availability-of-items"></a>Consultar la disponibilidad de los productos
+
 En el contexto de una tarea de negocio, puede obtener la información avanzada acerca de cuándo y dónde está disponible un producto, por ejemplo, al hablar con un cliente sobre una fecha de entrega.
 
 Puede consultar la disponibilidad de todos los productos por ubicación y puede consultar la disponibilidad de cada producto por evento o por periodo también. Un evento es cualquier transacción de producto programada, como un albarán de venta o un albarán de transferencia de entrada.
@@ -40,6 +41,7 @@ En [!INCLUDE[prod_short](includes/prod_short.md)], las cifras de disponibilidad 
 >   Los procedimientos siguientes describen cómo ver la información de disponibilidad avanzada de la lista de productos y la ficha de producto. También puede tener acceso a la información de las líneas del documento de venta, correspondiente al producto de la línea. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Para consultar la disponibilidad de un producto según cuándo se recibirá o enviará
+
 Puede ver la disponibilidad de un producto según las transacciones de producto programadas en la página **Disponibilidad por evento**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
@@ -50,6 +52,7 @@ Puede ver la disponibilidad de un producto según las transacciones de producto 
 4. Elija el valor en el campo **Saldo disponible estimado** para ver los movimientos de productos o documentos abiertos que constituyen el valor.
 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Para consultar la disponibilidad de un producto en distintos periodos
+
 Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos de tiempo específicos en la página **Existencias producto**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
@@ -60,6 +63,7 @@ Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos d
 4. Elija el valor en el campo **Saldo disponible estimado** para ver los movimientos de productos o documentos abiertos que constituyen el valor.
 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Para consultar la disponibilidad de un producto en las ubicaciones donde se almacena
+
 Puede ver la disponibilidad de un producto en distintos sitios donde se almacena en la página **Disponib. prod. por almacén**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
@@ -71,6 +75,7 @@ Puede ver la disponibilidad de un producto en distintos sitios donde se almacena
 5. Elija el valor en el campo **Saldo disponible estimado** para ver los movimientos de productos o documentos abiertos que constituyen el valor.
 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Para consultar la disponibilidad de todos los productos en las ubicaciones donde se almacenan
+
 Puede ver la disponibilidad de todos sus productos en todas sus ubicaciones en la página **Productos por almacén**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
@@ -80,6 +85,7 @@ Puede ver la disponibilidad de todos sus productos en todas sus ubicaciones en l
 3. Elija el valor en el campo **Cantidad física disponible** para ver los movimientos de productos que constituyen el valor.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Para consultar la disponibilidad de un producto por su uso en las L.M. de ensamblado o producción
+
 Si un producto forma parte de las L.M. de ensamblado o producción, como producto principal o como componente, puede ver cuántas unidades se requieren en la página **Disponibilidad producto por nivel L.M.**. La página muestra cuántas unidades de un producto principal se pueden producir según la disponibilidad de productos secundarios en las líneas subyacentes. Cualquier producto cuya L.M. de ensamblado o producción se muestre en la página como una línea contraíble. Puede expandir esta línea para ver los componentes subyacentes y subconjuntos de nivel inferior con sus propias L.M.
 
 Por ejemplo, puede utilizar la página para determinar si puede completar una pedido de venta para un producto en una fecha especificada consultando su disponibilidad actual en y las cantidades que sus componentes pueden suministrar. También puede utilizar la página para especificar los cuellos de botella en las L.M. relacionadas.
@@ -92,6 +98,7 @@ En cada línea de la página para los productos principales y los productos secu
 |**Puede hacer prod. ppal.**|Muestra cuántas unidades del producto superior puede producir. El campo especifica cuántas unidades del producto de la L.M. de la línea superior puede ensamblar. El valor se basa en la disponibilidad del producto de la línea.|
 
 ### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Para ver la disponibilidad de un producto según la demanda para su principal
+
 La página **Disponibilidad prod. por nivel L.M.** muestra información acerca del producto de la línea de ficha o documento para el que se ha abierto la página. El producto siempre se muestra en la línea superior. Puede ver la información de otros productos o de todos los productos cambiando el valor del campo **Filtro producto**.
 
 > [!NOTE]  
@@ -100,12 +107,29 @@ La página **Disponibilidad prod. por nivel L.M.** muestra información acerca d
 El campo **Cuello de botella** especifica qué producto de una estructura de L.M. le impide producir una cantidad mayor que la cantidad que se muestra en el campo **Puede hacer prod. ppal.** Por ejemplo, el artículo de embotellamiento puede ser un componente comprado con una fecha de recepción esperada que es demasiado atrasada para realizar las unidades de artículos adicionales del artículo superior por la fecha del campo **Fecha en que se necesita**.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Para ver la disponibilidad de un producto por sus unidades de medida
+
 La página **Disponibilidad de producto por unidad de medida** muestra la disponibilidad de un producto en las unidades de medida en las que está almacenada.
 
 > [!NOTE]  
 > Para mantener esta información precisa, debe convertir las unidades de medida del producto. Por ejemplo, si compra un artículo en una unidad de medida, como cajas, y vende artículos en otra unidad de medida, como piezas, debe usar un diario de artículos para convertir las unidades de medida o "desempaquetar" artículos. Puede usar una línea de diario de elementos de ajuste negativo para reducir el inventario en la unidad de medida de compra, por ejemplo, cajas, y un ajuste positivo para aumentar el inventario en la unidad de medida de ventas, por ejemplo, piezas. 
 
+## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>Para ver la disponibilidad de un producto por sus variantes
+
+La página **Disponibilidad producto por variante** muestra la disponibilidad real y proyectada de un producto agrupado según el código de variante.
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
+2. Abra la ficha de un producto del que quiera ver su disponibilidad.
+3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Variante**.
+
+    La página **Disp. producto por variante** muestra la disponibilidad de todas las variantes del producto. La página aparece vacía si ninguna variante existe para el producto.
+
+4. En el campo **Ver por**, seleccione la longitud del periodo de tiempo que desea consultar.
+5. Consulte las cifras de disponibilidad de los distintos campos de cantidad para cada línea.
+
+[!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
+
 ## <a name="assembly-availability-page"></a>Página Disponibilidad de ensamblado
+
 La página **Disponibilidad de ensamblado** muestra la información de disponibilidad detallada para el elemento del ensamblado. Abre:
 
 - Automáticamente de una línea del pedido de venta en los escenarios de ensamblar para pedido cuando se introduce una cantidad que causa un problema de disponibilidad de componente.
@@ -120,15 +144,17 @@ La ficha desplegable **Líneas** muestra información detallada de la disponibil
 
 Si uno o más componentes del ensamblado no están disponibles, se reflejará en el campo **Capaz de ensamblar** en la línea en cuestión como cantidad inferior que la del campo **Cantidad pendiente** en la ficha desplegable **Detalles**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
+
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Trabajar con listas de materiales](inventory-how-work-BOMs.md)    
+[Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
+[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
+[Crear LM de producción](production-how-to-create-production-boms.md)  
 [Configurar ubicaciones](inventory-how-setup-locations.md)  
 [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  
-[Vender productos](sales-how-sell-products.md)      
+[Vender productos](sales-how-sell-products.md)  
+[Funciones empresariales generales](ui-across-business-areas.md)  
 [Trabajar con Business Central](ui-work-product.md)  
-[Funciones empresariales generales](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

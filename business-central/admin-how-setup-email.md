@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534297"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606392"
 ---
 # <a name="set-up-email"></a>Configurar correo electrónico
 Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden conectar una o varias cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], permitiéndole enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc., y agregar archivos adjuntos de hasta 100 MB. Además, los diseños de informes pueden permitir que los administradores incluyan solo la información clave de los documentos. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ La guía de configuración asistida para **Configurar correo electrónico** pued
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Asignar escenarios de correo electrónico a cuentas de correo electrónico
 Los escenarios de correo electrónico son procesos que implican el envío de un documento. Por ejemplo, un pedido de compra o venta o una notificación, como una invitación a un contable externo. Puede utilizar cuentas de correo electrónico específicas para escenarios concretos. Por ejemplo, puede especificar que todos los usuarios envíen siempre documentos de ventas de una cuenta, documentos de compra de otra y documentos de almacén o producción de una tercera cuenta. Puede asignar, reasignar y eliminar escenarios cuando lo desee. Un escenario solo se puede asignar a una cuenta de correo electrónico a la vez. La cuenta predeterminada se utilizará para todos los escenarios de correo electrónico que no estén asignados a una cuenta.
- 
+
+En la página **Asignación de escenario por correo electrónico**, puede elegir la acción **Establecer archivos adjuntos predeterminados** para agregar archivos adjuntos a escenarios de correo electrónico. Los archivos adjuntos siempre estarán disponibles cuando redacte un correo electrónico para un documento relacionado con el escenario. Cada escenario de correo electrónico puede tener uno o más archivos adjuntos predeterminados. Los archivos adjuntos predeterminados se agregan automáticamente a los correos electrónicos para el escenario de correo electrónico. Por ejemplo, cuando envía un pedido de ventas por correo electrónico, se agregará el archivo adjunto predeterminado especificado para el escenario Pedido de ventas. Los archivos adjuntos predeterminados se muestran en la sección **Archivos adjuntos** en la parte inferior de la página **Redactar un correo electrónico**. Puede agregar manualmente archivos adjuntos no predeterminados al correo electrónico.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ En **Directivas de visualización de correo electrónico de usuario**, elija un 
 >  Si deja vacío el campo **ID de usuario** y luego elige la acción Directiva de visualización de correo electrónico, la directiva que defina se aplica a todos los usuarios.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Configurar textos y diseños de correo electrónico reutilizables
-Puede utilizar informes para incluir información clave de documentos de compra y venta en textos para correos electrónicos. Este procedimiento describe cómo configurar el informe **Factura de venta** para facturas de ventas registradas, pero el proceso es similar para otros informes.
+Puede utilizar informes para incluir información clave de documentos de venta, compra y servicio en textos para correos electrónicos. Este procedimiento describe cómo configurar el informe **Factura de venta** para facturas de ventas registradas, pero el proceso es similar para otros informes.
 
 > [!NOTE]
 > Para usar el diseño para crear contenido para mensajes de correo electrónico, debe usar el tipo de archivo de Word para su diseño.
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección informes ventas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección informes - Ventas** y luego elija el enlace relacionado.
 2. En la página **Informe selección - ventas**, en el campo **Uso**, seleccione **Facturar**.
 3. En una línea nueva, en el campo **Id. informe**, seleccione, por ejemplo, informe estándar 1306.
 4. Seleccione la casilla **Usar para el cuerpo del correo electrónico**.

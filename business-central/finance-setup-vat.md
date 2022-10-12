@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 148d6657d3fffeaa7b5415338517f1688264ae98
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532949"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617917"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 
@@ -32,7 +32,7 @@ Sin embargo, si desea configurar los cálculos del IVA, o solo desea obtener inf
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>Configurar el IVA mediante la guía de configuración asistida (recomendado) 
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Configurar el IVA mediante la guía de configuración asistida (recomendado)
 
 > [!NOTE]
 > Puede usar la guía **Configuración de IVA** únicamente si ha creado una *Mi empresa* y no ha registrado transacciones que incluyen IVA todavía.
@@ -50,6 +50,21 @@ Para ayudarle a empezar rápido, [!INCLUDE [prod_short](includes/prod_short.md)]
 Si elige esta notificación, [!INCLUDE [prod_short](includes/prod_short.md)] crea automáticamente esas configuraciones de registro en función de los grupos de registro en el documento o diario en el que esté trabajando actualmente.  
 
 En este punto, puede completar las cuentas de contabilidad general que falten. Sin embargo, más adelante, cuando redefina aún más la configuración, es posible que se dé cuenta de que esta configuración era errónea. Y [!INCLUDE [prod_short](includes/prod_short.md)] no permite la eliminación de una configuración de registro de IVA y la configuración de registro general cuando se han creado entradas basadas en dichas configuraciones. Por lo tanto, a partir del primer lanzamiento de versiones de 2022, puede usar el campo **Bloqueado** en la página **Configuración de registro de IVA** para evitar que los usuarios utilicen por error una configuración que ya no es pertinente para los nuevos registros.
+
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Configurar una fecha de IVA predeterminada para documentos y diarios
+La declaración de IVA en [!INCLUDE [prod_short](includes/prod_short.md)] se basa en la **Fecha de IVA** para incluir entradas de IVA en informes de IVA de un período de IVA. La fecha de IVA se puede cambiar en todos los documentos y diarios, pero debe especificar un valor predeterminado para la fecha de IVA.
+
+> [!NOTE]
+> Después de contabilizar el documento o diario, la **Fecha de IVA** aparecerá en **Movimientos de IVA** y **Movimientos de contabilidad**, así como en el documento contabilizado si existe.
+
+Para configurar un valor predeterminado para una fecha de IVA, siga estos pasos:
+
+1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad** y luego elija el enlace relacionado.  
+2. En la ficha desplegable **General** del campo **Fecha de IVA predeterminada**, elija **Fecha registro** o **Fecha del documento**.
+3. Cierra la página.  
+
+> [!NOTE]
+> De forma predeterminada, la **Fecha de IVA predeterminada** es la **Fecha registro**.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Configurar números CIF/NIF para su país o región
 
@@ -89,7 +104,7 @@ Conviene utilizar códigos que sean fáciles de recordar y que describan el tipo
 
 Para configurar un grupo de registro de IVA de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la función Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 4](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Combinar grupos de registro de IVA en configuraciones de registro de IVA
@@ -100,7 +115,7 @@ Configure tambas combinaciones como necesite. Si desea agrupar las combinaciones
 
 Para combinar las configuraciones de registro de IVA, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la función Dígame 5.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame 5](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Asignar los grupos de registro de IVA de forma predeterminada a varias entidades
@@ -118,20 +133,20 @@ En las secciones siguientes se describe cómo asignar los grupos de registro de 
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Para asignar grupos de registro de IVA a cuentas contables individuales
 
-1. Elija el icono ![Bombilla que abre la función Dígame 6.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 6](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. Abre la ficha **Cuenta** de la cuenta.  
 3. En la ficha desplegable **Registro**, en el campo **Tipo IVA**, elija **Venta** o **Compra**.  
 4. Elija los grupos de registro de IVA que se usarán para la cuenta de venta o de compra.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Para asignar grupos de registro de IVA a clientes y proveedores
 
-1. Elija el icono ![Bombilla que abre la función Dígame 7.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 7](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.  
 2. En la ficha **Cliente** o **Proveedor**, amplíe la ficha desplegable **Facturación**.  
 3. Elija el grupo de registro de IVA de negocio.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Para asignar grupos de registro de IVA de producto a productos y recursos individuales
 
-1. Elija el icono ![Bombilla que abre la función Dígame 8.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Producto** o **Recurso** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 8](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Producto** o **Recurso** y luego elija el enlace relacionado.  
 2. Realice una de las siguientes acciones:  
 
     * En la ficha **Producto**, expanda la ficha desplegable **Precio y registro** y haga clic en **Mostrar más** para mostrar el campo **Grupo registro IVA producto**.  
@@ -150,7 +165,7 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 
 ### <a name="to-set-up-vat-clauses"></a>Para configurar las cláusulas de IVA
 
-1. Elija el icono ![Bombilla que abre la función Dígame 9.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 9](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el enlace relacionado.  
 2. En la página **Cláusulas de IVA**, cree una nueva línea.  
 3. En el campo **Código**, especifique un identificador para la cláusula. Utilice este código para asignar la cláusula a grupos de registro de IVA.  
 4. En el campo **Descripción**, escriba el texto de exención de IVA que desea mostrar en los documentos que pueden incluir el IVA. En el campo **Descripción 2**, escriba texto adicional, en caso necesario. El texto aparecerá en nuevas líneas de documento.
@@ -161,7 +176,7 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Para asignar una cláusula de IVA a una configuración de registro de IVA
 
-1. Elija el icono ![Bombilla que abre la función Dígame 10.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 10](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el vínculo relacionado.  
 2. En la columna **Cláusula de IVA**, seleccione la cláusula que se usará por cada configuración de registro de IVA al que se aplique.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Para especificar las traducciones de las cláusulas de IVA
@@ -176,7 +191,7 @@ Puede modificar o eliminar una cláusula de IVA, y las modificaciones se refleja
 > [!NOTE]  
 > Si su país o región requiere un texto más largo para las cláusulas de IVA que el que admite la versión predeterminada, puede especificar el texto más largo para las cláusulas de IVA como *texto extendido* para que se imprima en los informes de compras y ventas.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame 11.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 11](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cláusulas de IVA** y luego elija el vínculo relacionado.  
 2. Elija la acción **Textos ampliados**.  
 3. Seleccione la acción **Nuevo**.  
 4. Rellene los campos **Código de idioma** y **Descripción**.  
@@ -192,9 +207,9 @@ Puede usar la característica de *IVA de importación* cuando necesite registrar
 
 Para configurar los códigos del IVA de importación, realice los pasos siguientes:  
 
-1. Elija el icono ![Bombilla que abre la función Dígame 12.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el vínculo relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 12](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el vínculo relacionado.  
 2. En la página Grupos de registro de IVA de producto, configure un nuevo grupo de registro de IVA de producto para el IVA de importación.  
-3. Elija el icono ![Bombilla que abre la función Dígame 13.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el vínculo relacionado.  
+3. Elija el icono ![Bombilla que abre la función Dígame 13](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. grupos registro IVA** y luego elija el vínculo relacionado.  
 4. En la página Configuración de registro de IVA, cree una nueva línea o use una combinación de grupos de registro de IVA de negocio ya existente y el nuevo grupo de registro de IVA de producto.  
 5. En el campo **Tipo cálculo IVA**, elija **Total**.  
 6. En el campo **Cta. IVA acreditable**, escriba la cuenta que se utilizará para registrar el IVA de importación. Las demás cuentas son opcionales.  

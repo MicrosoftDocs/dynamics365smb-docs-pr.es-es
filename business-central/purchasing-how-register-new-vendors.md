@@ -1,21 +1,21 @@
 ---
 title: Crear una ficha de proveedor para registrar un proveedor nuevo (contiene vídeo)
 description: Aprenda a crear una ficha de proveedor para registrar un nuevo proveedor y guardar fichas de proveedor como plantilla.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532045"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606646"
 ---
 # <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 
@@ -41,6 +41,10 @@ Después de crear una plantilla, puede usar la acción **Aplicar plantilla** par
 > Puede resultar útil personalizar la página **Ficha de proveedor** cuando crea una plantilla. Por ejemplo, si desea agregar un campo que aún no se muestra en la página. Obtenga más información en la sección [Personalizar el área de trabajo](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 También puede crear un proveedor a partir de un contacto. Obtenga más información en la sección [Crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Las direcciones Remitir a se utilizan al imprimir cheques para pagar a los proveedores y es posible que estos tengan varias direcciones de envío para recibir los pagos. Por ejemplo, un proveedor puede suministrar un producto desde una empresa subsidiaria, pero desea recibir el pago en su sede. [!INCLUDE [prod_short](includes/prod_short.md)] le permite configurar varias direcciones de correo por cada proveedor, y usted puede elegir la ubicación correcta a la que enviar los pagos factura por factura.
+
+Las direcciones de envío se especifican en las páginas Ficha proveedor y en la ficha desplegable Envío y pagos en las órdenes de compra y las facturas. Cuando crea líneas del diario de pago usando las acciones Pagar a proveedor o Crear pago de la página de lista de proveedores o la página Ficha proveedor, o la acción Liquidar movimientos de un diario de pago, se asigna el código de recepción de remisión en el movimiento del proveedor. Puede sobrescribir este valor.
 
 ### <a name="to-create-a-new-vendor"></a>Para crear un nuevo proveedor
 

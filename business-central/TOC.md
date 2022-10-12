@@ -2,7 +2,7 @@
 # [Nuevo y planeado](product-news.md)
 # Introducción
 ## [Resumen de las funciones empresariales](across-business-functionality.md)
-<!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
+<!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Obtener información
 ### [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)
 ### [Formación de Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -18,9 +18,9 @@
 <!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Tutorial: Administrar programas con proyectos](walkthrough-managing-projects-with-jobs.md)
 #### [Tutorial: cálculo del trabajo en curso para un proyecto](walkthrough-calculating-work-in-process-for-a-job.md)
-#### [Tutorial: picking y envío en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+#### [Tutorial: Picking y envío en la configuración del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Tutorial: elaboración de previsiones del flujo de efectivo con esquemas de cuentas](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Tutorial: elaboración de previsiones del flujo de efectivo con informes financieros](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 <!-- Contoso-->
 ### Datos de demostración de Contoso Coffee para fabricación
 #### [Introducción a datos de demostración de Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -124,6 +124,7 @@
 ### [Información general de la funcionalidad](ui-work-product.md)
 ### [Guía rápida en versión para imprimir](ui-work-product.md#cheatsheet)
 ### [Buscar páginas e información con Dígame](ui-search.md)
+### [Buscar datos específicos](ui-search-data.md)
 ### [Buscar páginas con el explorador de roles](ui-role-explorer.md)
 ### [FAQ acerca de la función Dígame](ui-search-faq.md)
 ### [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)
@@ -196,10 +197,11 @@
 ### [Recursos de ayuda y soporte técnico](product-help-and-support.md)
 ### [Visite nuestra biblioteca de vídeos](across-videos.md)
 ### [Obtener soporte técnico](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-<!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+
+<!--## Microsoft Learn training
+### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -225,6 +227,7 @@
 ### [Registrar varios documentos al mismo tiempo](ui-batch-posting.md)
 ### [Vista previa de los resultados del registro](ui-how-preview-post-results.md)
 ### [Editar documentos registrados](across-edit-posted-document.md)
+### [Campo de estado en los documentos](ui-document-status.md)
 ### [Trabajar con diarios generales](ui-work-general-journals.md)
 ### [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)
 ### [Dejar que Business Central sugiera valores](ui-let-system-suggest-values.md)
@@ -257,7 +260,6 @@
 ##### [Configuración del intercambio de datos](across-set-up-data-exchange.md)
 ##### [Configurar un servicio de intercambio de documentos](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Configurar documentos entrantes](across-how-setup-income-documents.md)
-##### [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)
 ##### [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [Usar la extensión de AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
@@ -275,7 +277,6 @@
 ##### [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)
 ##### [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Asignación de campos para la extensión AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
@@ -301,6 +302,7 @@
 #### [Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
 #### [Impuesto sobre las ventas en la versión predeterminada de Business Central](sales-tax-concept.md)
+#### [Trabajar con informes de Intrastat](finance-how-report-intrastat.md)
 
 ### Gestionar pagos
 #### [Información general de proveedores](payables-manage-payables.md)
@@ -416,19 +418,19 @@
 ### [Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)
 ### [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)
 ### [Administrar cambios del tipo de IVA](finance-how-use-vat-rate-change-tool.md)
-### [Tutorial: elaborar previsiones del flujo de efectivo con esquemas de cuentas](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### [Tutorial: elaboración de previsiones del flujo de efectivo con informes financieros](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analizar estados financieros en Excel](finance-analyze-excel.md)
 ### [Transferir fondos bancarios](bank-how-transfer-bank-funds.md)
 ### [Crear depósitos bancarios](bank-create-bank-deposits.md)
 ### [Experiencias contables en Business Central](finance-accounting.md)
 ### [Organizaciones internacionales y de múltiples sitios](finance-multi-site-organizations.md)
 
-## Inteligencia empresarial y Financial Reporting
-### [Descripción general de Inteligencia empresarial y Financial Reporting](bi.md)
+## Inteligencia empresarial e informes financieros
+### [Descripción general de Inteligencia empresarial e informes financieros](bi.md)
 ### [Informes financieros](finance-reports.md)
 ### [Analizar importes reales frente a importes presupuestados](bi-how-analyze-actual-versus-budget.md)
-### [Preparar Financial Reporting con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)
-### [Configurar y publicar un servicio web KPI que se basa en esquemas de cuentas](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+### [Preparar Financial Reporting con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md)
+### [Configurar y publicar un servicio web KPI que se basa en informes financieros](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)
 ### [Crear informes de análisis](bi-how-create-analysis-views-reports.md)
 ### [Crear informes con XBRL](bi-create-reports-with-xbrl.md)
@@ -454,9 +456,9 @@
 ### [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md)
 ### [Trabajar con pedidos de venta abiertos](sales-how-to-create-blanket-sales-orders.md)
 ### [Agrupar envíos en una factura única](sales-how-to-combine-shipments-on-a-single-invoice.md)
-### [Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)
+### [Calcular fechas de compromiso de pedidos](sales-how-to-calculate-order-promising-dates.md)
 ### [Hacer un seguimiento de los paquetes](sales-how-track-packages.md)
-### [Cálculo de fecha de ventas](sales-date-calculation-for-sales.md)
+### [Cálculo de la fecha de entrega de las ventas](sales-date-calculation-for-sales.md)
 ### [Combinar registros duplicados](sales-how-merge-duplicate-records.md)
 ### [Trabajar con ingresos recurrentes](finance-recurring-invoicing.md)
 ### [Introducir números de documento externo](across-enter-external-document-numbers.md)
@@ -486,6 +488,7 @@
 ### [Registro de productos nuevos](inventory-how-register-new-items.md)
 ### [Trabajar con listas de materiales](inventory-how-work-BOMs.md)
 ### [Clasificar productos](inventory-how-categorize-items.md)
+### [Administrar variantes de productos](inventory-item-variants.md)  
 ### [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)
 ### [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md)
 ### [Recuento y ajuste de inventario mediante documentos](inventory-how-count-inventory-with-documents.md)
@@ -588,7 +591,7 @@
 ### [Vender productos de ensamblado para pedido y productos de inventario juntos](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Crear pedidos abiertos ensamblados](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Deshacer registro de ensamblado](assembly-how-to-undo-assembly-posting.md)
-### [Trabajar con listas de materiales](inventory-how-work-BOMs.md)
+### [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)
 ### [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)
 
 ## Fabricación
@@ -629,8 +632,8 @@
 #### [Elegir productos](warehouse-pick-items.md)
 #### [Realizar el picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Realizar picking para ensamblado o producción en una configuración básica de almacén](warehouse-how-to-pick-for-production.md)
-#### [Realizar picking para ensamblado o producción en una configuración avanzada de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+#### [Realizar picking para producción, ensamblado o proyectos en una configuración básica de almacén](warehouse-how-to-pick-for-production.md)
+#### [Realizar picking para producción, ensamblado o proyectos en una configuración avanzada de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 #### [Planificar los picking en la hoja de trabajo](warehouse-how-to-plan-picks-in-worksheets.md)
 #### [Realizar el picking y la ubicación sin un documento de origen](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 #### [Picking por el FEFO](warehouse-picking-by-fefo.md)
@@ -668,10 +671,9 @@
 <!--Shopify-->
 ## Tienda en línea con Shopify
 ### [Comenzar con el conector Shopify](shopify/get-started.md)
-### [Sincronizar los elementos con Shopify](shopify/synchronize-items.md)
+### [Sincronizar productos con Shopify](shopify/synchronize-items.md)
 ### [Sincronizar los clientes con Shopify](shopify/synchronize-customers.md)
-### [Sincronizar y cumplir con pedidos de ventas con Shopify](shopify/synchronize-orders.md)
-### [Configurar impuestos para la conexión Shopify](shopify/setup-taxes.md)
+### [Sincronizar y cumplir pedidos de venta con Shopify](shopify/synchronize-orders.md)
 ### [Ejecutar tareas en segundo plano](shopify/background.md)
 ### [Solucionar problemas del conector de Shopify](shopify/troubleshoot.md)
 ### [P+F del conector Shopify](shopify/shopify-faq.md)
@@ -1228,11 +1230,11 @@
 ### Rusia
 #### [Funcionalidad local en la versión rusa](LocalFunctionality/Russia/russia-local-functionality.md)
 #### Finanzas básicas
-##### [Resumen de esquemas de cuentas](LocalFunctionality/Russia/account-schedules-overview.md)
-##### [Importación y exportación de esquemas de cuentas](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
-##### [Definición de una extensión de esquema de cuentas](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
-##### [Definición de una constante de esquema de cuentas](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
-##### [Trabajar con esquemas de cuentas](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
+##### [Información general de informes financieros](LocalFunctionality/Russia/account-schedules-overview.md)
+##### [Importar y exportar informes financieros](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
+##### [Definir una extensión de informe financiero](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
+##### [Definir una constante de informe financiero](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
+##### [Trabajar con informes financieros](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
 ##### [Correspondencia de contabilidad](LocalFunctionality/Russia/general-ledger-correspondence.md)
 ##### [Divisa](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 ##### [Configuración de empleados responsables y extractos anticipados](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
@@ -1340,7 +1342,7 @@
 ##### [Configuración y asiento de la regularización](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Efectuar el test y la validación del plan de cuentas](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
 ##### [Omitir descuentos en cuentas de contabilidad](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
-##### [Exportar esquemas de cuentas a formato ASC](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
+##### [Exportar informes financieros a formato ASC](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
 ##### [Imprimir informes de libro diario](LocalFunctionality/Spain/how-to-print-account-book-reports.md)
 ##### [Imprimir libros de facturas emitidas y recibidas](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
 ##### [Números de transacción](LocalFunctionality/Spain/transaction-numbers.md)
@@ -1427,7 +1429,7 @@
 ### Estados Unidos
 #### [Funcionalidad local en la versión de EE. UU.](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tributos
-##### [Impuesto de venta de EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Configuración de impuestos básicos](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Informe del informe de venta en EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Configure y use el formulario IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Cambios y detalles del formato reglamentario 1099](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
@@ -1449,7 +1451,7 @@
 #### [Configure formas de pago](finance-payment-methods.md)
 #### [Configurar términos de pago](finance-payment-terms.md)
 #### [Configurar los grupos contables de activos](finance-posting-groups.md)
-#### [Preparar Financial Reporting con esquemas de cuentas y categorías de cuentas](bi-how-work-account-schedule.md)
+#### [Preparar Financial Reporting con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md)
 #### [Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)
 #### [Configurar términos y niveles de recordatorios.](finance-setup-reminders.md)
@@ -1467,7 +1469,7 @@
 #### [Configurar el plan de cuentas](finance-setup-chart-accounts.md)
 #### [Configurar el análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)
 #### [Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md)
-#### [Configuración y creación de informes Intrastat](finance-how-setup-report-intrastat.md)
+#### [Configuración de informes de Intrastat](finance-how-setup-report-intrastat.md)
 #### [Utilizar claves de asignación en diarios generales](ui-how-use-allocation-keys-general-journals.md)
 ### Configurar banca
 #### [Configurar banca](bank-setup-banking.md)
@@ -1583,7 +1585,7 @@
 ##### [Usar Business Central sin Outlook](admin-no-outlook.md)
 ##### [Preguntas frecuentes](ui-outlook-addin-faq.yml)
 ### Configurar informes
-#### [Selección de informe](across-report-selections.md)
+#### [Selección de informes para documentos](across-report-selections.md)
 ### Configurar flujos de trabajo de aprobación basados en plantillas
 #### [Configurar flujos de trabajo de aprobación](across-set-up-workflows.md)
 #### [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)
@@ -1613,7 +1615,8 @@
 #### Usar OneDrive para la Empresa con Business Central
 ##### [Panorama](across-onedrive-overview.md)
 ##### [Gestionar OneDrive para la integración empresarial](admin-onedrive-integration.md)
-##### [Abrir archivos de Business Central en OneDrive](across-share-onedrive.md)
+###### [Configuración de la integración de OneDrive con Business Central local](admin-onedrive-integration-onpremises.md)
+##### [Abrir y compartir archivos en OneDrive](across-share-onedrive.md)
 ##### [Preguntas más frecuentes de OneDrive](admin-onedrive-faq.md)
 #### Usar Power BI con Business Central
 ##### [Introducción](admin-powerbi.md)
@@ -1653,9 +1656,9 @@
 ### [Ejecutar informes](ui-work-report.md)
 ### [Establecer un marcador para un informe](ui-bookmarks.md)
 ### [Analizar datos de informes con Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
 ### [Imprimir informes](ui-specify-printer-selection-reports.md#default)
 ### [Programar informes](ui-work-report.md#ScheduleReport)
+### [Compartir y exportar informes con la bandeja de entrada de informes](ui-work-report-inbox.md)
 ### [Administrar configuración guardada de informes](reports-saving-reusing-settings.md)
 ### [Establecer el diseño utilizado por un informe](ui-set-report-layout.md)
 ### [(Versión heredada) Establecer el diseño utilizado por un informe](ui-how-change-layout-currently-used-report.md)
@@ -1663,7 +1666,7 @@
 ## Informes integrados
 ### [Descripción general de informe](reports-available-reports.md)
 ### Finanzas
-#### [Análisis financiero](bi.md)
+#### [Inteligencia empresarial financiera](bi.md)
 #### [Analizar extractos financieros con Excel](finance-analyze-excel.md)
 #### [Informes financieros clave](finance-reports.md)
 #### [Informes de clientes](receivables-reports.md)
@@ -1704,7 +1707,7 @@
 
 ### Gestión de ensamblaje
 #### [Informes de administración de ensamblados](assembly-reports.md)
-#### [Ver la estructura de la lista de materiales (L.M.)](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+#### [Ver la estructura de la lista de materiales (L.M.)](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
 ### Fabricación
 #### [Informes de producción](production-reports.md)
@@ -1723,13 +1726,13 @@
 ### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
 ### [Analizar datos de página en Excel](across-work-with-excel.md)
 ### [Análisis de datos de informes con Excel](report-analyze-excel.md)
-### [Análisis financiero](bi.md)
+### [Inteligencia empresarial financiera](bi.md)
 
 ## Análisis integrados 
 ### [Descripción general](reports-built-in-analytics.md)
 ### [Información inteligente](about-intelligent-cloud.md)
 ### [Trabajar con informes de Power BI](across-working-with-powerbi.md)
-### [Análisis financiero](bi.md)
+### [Inteligencia empresarial financiera](bi.md)
 ### [Analizar extractos financieros con Excel](finance-analyze-excel.md)
 ### [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)
 ### [Telemetría de uso de informes](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)

@@ -1,0 +1,1 @@
+Si su organización ha configurado OneDrive para funciones del sistema, el libro de trabajo de Excel se abrirá en su navegador con Excel para la web. Si no usa OneDrive para funciones del sistema, el libro de trabajo se descargará en el dispositivo. Desde allí, puede abrirlo con la aplicación de escritorio de Excel o con Excel para la web, según lo que tenga.

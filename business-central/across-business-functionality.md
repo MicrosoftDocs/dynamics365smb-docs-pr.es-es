@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: e413f75356af244dafe7e887207db370b942db7b
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654896"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606808"
 ---
 # <a name="business-functionality"></a>Funciones empresariales
 
@@ -23,20 +23,20 @@ ms.locfileid: "8654896"
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de muchos procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su empresa. Desde el área de trabajo, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Varias áreas de las funciones empresariales se deben configurar manualmente. Los artículos de [Inicio rápido de Business Central](quick-start-business-central.md) pueden ayudarle a dar los primeros pasos para hacer [!INCLUDE [prod_short](includes/prod_short.md)] por su cuenta. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de muchos procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su empresa. Desde el área de trabajo, puede acceder a guías de configuración asistida que le ayudarán a configurar varios escenarios y añadir funciones a [!INCLUDE[prod_short](includes/prod_short.md)]. Varias áreas de las funciones empresariales se deben configurar manualmente. Los artículos de [Inicio rápido de Business Central](quick-start-business-central.md) ayudan a dar los primeros pasos para familiarizarse con [!INCLUDE [prod_short](includes/prod_short.md)]. Obtenga más información en [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | Para | Vea |
 | --- | --- |
 |Realizar y recibir pagos, administrar el flujo de efectivo, fraccionar ingresos y beneficios, preparar cierres de ejercicios y administrar activos fijos.|[Finanzas](finance.md)|
-|Obtener información sobre el rendimiento de sus actividades empresariales mediante presupuestos, esquemas de cuentas y vistas de análisis.|[Inteligencia empresarial](bi.md)|
+|Obtener información sobre el rendimiento de sus actividades empresariales mediante presupuestos, esquemas de cuentas y vistas de análisis.|[Inteligencia empresarial financiera](bi.md)|
 |Administrar los procesos y la información de venta, como ofertas, pedidos, devoluciones y cuentas de cliente, y crear envíos directos.|[Ventas](sales-manage-sales.md)|
 |Administrar los procesos y la información de compra, como facturas, pedidos, devoluciones y cuentas de proveedor, y comprar productos de documentos de venta. |[Compras](purchasing-manage-purchasing.md)|
-|Registrar nuevo inventario o productos de tipo servicio, clasificar productos para facilitar la búsqueda, ajustar los niveles de inventario y llevar a cabo tareas comunes de valoración de existencias.|[Grupos contables inventario](inventory-manage-inventory.md)|
-|Crear proyectos y programar recursos para el proyecto, administrar presupuestos de proyecto, supervisar el progreso y realizar el seguimiento de las horas de máquinas y de empleados.|[Administración de proyectos](projects-manage-projects.md)|
+|Registrar nuevo inventario o productos de tipo servicio, clasificar productos para facilitar la búsqueda, ajustar los niveles de inventario y llevar a cabo tareas comunes de valoración de existencias.|[Inventario](inventory-manage-inventory.md)|
+|Crear proyectos y programar recursos para proyectos, administrar presupuestos de proyecto, supervisar el progreso y realizar el seguimiento de las horas de máquinas y de empleados.|[Administración de proyectos](projects-manage-projects.md)|
 |Organice los activos fijos, garantice una correcta amortización periódica y realice un seguimiento de los costes de mantenimiento.|[Activos fijos](fa-manage.md)|
 |Administrar y respaldar las acciones de venta y enfocar las interacciones en clientes y contactos preferidos.|[Gestión de relaciones](marketing-relationship-management.md)|
 |Mantener registros detallados de los empleados y registrar las ausencias para realizar análisis. |[Recursos humanos](hr-manage-human-resources.md)|
-|Planificar las operaciones de producción que sean necesarias para transformar las entradas en mercancías terminadas.|[Planificación](production-planning.md)|
+|Planificar las operaciones de producción requeridas para transformar entradas en productos terminados.|[Planificación](production-planning.md)|
 |Sitúe productos sellables juntos en pasos sencillos para crear un nuevo producto, como un equipo.|[Gestión de ensamblaje](assembly-assemble-items.md)|
 |Definir recursos de planta y su capacidad, programar operaciones, extraer componentes de producción y ejecutar la producción.|[Fabricación](production-manage-manufacturing.md)|
 |Garantizar un flujo de efectivo eficaz de los productos que se reciban y envíen.|[Warehouse Management](warehouse-manage-warehouse.md)|
@@ -45,13 +45,12 @@ ms.locfileid: "8654896"
 |Permitir a los usuarios intercambiar datos con orígenes externos durante las tareas diarias, como envío/recepción de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tipos de cambio de divisa.|[Intercambio de datos electrónicamente](across-data-exchange.md)|
 |Registrar documentos externos en [!INCLUDE[prod_short](includes/prod_short.md)], incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
+[Administración](admin-setup-and-administration.md)    
 [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Administración](admin-setup-and-administration.md)  
-[Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Configuración de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)   
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

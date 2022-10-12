@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528658"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606068"
 ---
 # <a name="change-basic-settings"></a>Cambiar la configuración básica
 
@@ -29,42 +29,49 @@ La función determina la página de inicio, una pantalla de inicio que está des
 
 * En la parte superior, la navegación le permite cambiar entre clientes, proveedores, artículos y otras listas importantes de información. Del mismo modo, las acciones le permiten iniciar tareas, como crear una nueva factura de venta, directamente desde la página de inicio.
 
-* En el centro, busque el área **Actividades**, que muestra los datos actuales y se puede hacer clic o tocar para ver información más detallada. Los indicadores de rendimiento clave (KPI) pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de clientes favoritos en la página de inicio para las cuentas de empresa con las que hace negocios a menudo o a las que necesita prestar especial atención.
+* En el centro, busque el área **Actividades**, que muestra los datos actuales y se puede seleccionar para ver información más detallada. Los indicadores de rendimiento clave (KPI) pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de clientes favoritos en la página de inicio para las cuentas de empresa con las que hace negocios a menudo o a las que necesita prestar especial atención.
 
-### <a name="to-change-the-role"></a>Para cambiar el rol
+### <a name="change-the-role"></a>Cambiar el rol
 
 El rol pedido es **Administrador de negocio**, pero puede seleccionar otro rol para usar un área de trabajo que se adapte mejor a sus necesidades.  
 
 1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración.](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija la acción **Mi configuración**.
 2. En la página **Mi configuración**, en el campo **Rol**, seleccione el rol que desea usar de forma predeterminada. Por ejemplo, seleccione **Contable**.
-3. Elija el botón **Aceptar**.
+3. Elija **Aceptar**.
 
 ## <a name="company"></a><a name="company"></a>Compañía
 
-Una empresa funciona como un contenedor de datos en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez.
+Una empresa funciona como un contenedor de datos en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez. La empresa predeterminada se llama CRONUS y solo contiene datos de demostración.
+
+El campo **Empresa** muestra la empresa en la que trabaja actualmente y puede usarlo para cambiar a otra empresa. El nombre de la empresa siempre se muestra en la esquina superior izquierda y funciona como una acción que puede elegir para volver al área de trabajo.
+
+> [!TIP]
+> También puede cambiar la empresa utilizando el conmutador de empresas (Crtl+O). Para obtener más información acerca de esta función y otras formas de cambiar de empresa o entorno, consulte [Cambiar a otra empresa o entorno](ui-organization-switch.md).
 
 La empresa predeterminada se llama CRONUS y solo contiene datos de demostración. Puede crear una nueva empresa con datos personalizados. Para obtener más información, consulte [Crear nuevas empresas](about-new-company.md).
 
-### <a name="to-change-the-company-name"></a>Para cambiar el nombre de la empresa
+<!--
+### To change the company name
 
-El nombre de la empresa siempre se muestra en la esquina superior izquierda y funciona como una acción que puede elegir para volver al área de trabajo. Puede cambiar este nombre en la página **Información de empresa**.
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Elija el ![icono de rueda dentada para abrir el menú Configuración.](media/ui-experience/settings_icon_small.png) , y luego elija la acción **Información empresa**.
-2. En el campo **Nombre**, introduzca el nuevo nombre de empresa.
-3. Salga de la página. El sistema se reinicia y muestra la nueva empresa en la esquina superior izquierda.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Para mostrar un distintivo de empresa para acceder rápidamente a la información de la empresa
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-Puede agregar un distintivo personalizado en la esquina superior derecha, que puede elegir para ver rápidamente el nombre de la empresa y la información de suscriptor en un cuadro emergente. El distintivo de la empresa también es útil cuando [!INCLUDE[prod_short](includes/prod_short.md)] está incrustado en otra aplicación, como Microsoft Teams, o en alguna otra aplicación web. En estos casos, debido a que [!INCLUDE[web_client](includes/web_client.md)] muestra menos información contextual circundante, el distintivo de la empresa sirve como la única forma de determinar a qué empresa o ambiente pertenece un registro.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.
-2. En la ficha desplegable **Distintivo de la empresa**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> Si se define un distintivo de la empresa, no puede cambiar el nombre de la empresa como se describe en [Para cambiar el nombre de la empresa](ui-change-basic-settings.md#to-change-the-company-name)
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a><a name="work-date"></a>Fecha de trabajo
-La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea la fecha de hoy.
+
+La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea hoy.
 
 > [!TIP]  
 > En todos los campos de fecha, escriba **h** para introducir rápidamente la fecha de hoy y escriba **t** para introducir rápidamente la fecha de trabajo, que es el valor en el campo **Fecha de trabajo** en la página **Mi configuración**.
@@ -84,7 +91,7 @@ Si la fecha de trabajo no está establecida en el día actual (hoy), la fecha de
 
 ## <a name="region"></a><a name="region"></a> Región
 
-El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas. También determina qué carácter se usa como separador decimal cuando se usa un teclado numérico para introducir datos. Para obtener más información, consulte [Introducir datos](ui-enter-data.md#decimal).
+El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas. También determina qué carácter se usa como separador decimal cuando se usa un teclado numérico para introducir datos. Obtenga más información en [Introducción de datos](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Idioma
 
@@ -100,7 +107,7 @@ Define la zona horaria en la que se encuentra. Cuando inicia sesión por primera
 
 ## <a name="notifications"></a>Notificaciones
 
-Seleccione el vínculo *Cambiar cuándo recibo notificaciones* para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Para obtener más información, consulte [Administrar notificaciones](ui-smart-notifications.md).
+Seleccione el vínculo *Cambiar cuándo recibo notificaciones* para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Obtenga más información en [Administrar notificaciones](ui-smart-notifications.md).
 
 ## <a name="teaching-tips"></a>Consejos didácticos
 
@@ -108,10 +115,10 @@ Seleccione el vínculo *Cambiar cuándo recibo notificaciones* para ver o cambia
 
 ## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
-[Crear nuevas en empresas](about-new-company.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
+[Crear nuevas en empresas](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

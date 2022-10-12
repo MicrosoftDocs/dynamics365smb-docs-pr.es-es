@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 85c83a08907f9f5b441b3f09c1a09131684707a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517179"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606500"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspección de páginas en Business Central
 
@@ -26,11 +26,7 @@ La función de inspección de páginas le permite obtener detalles sobre una pá
 
 Puede empezar con la inspección de páginas des de la página **Ayuda y soporte técnico**. Elija el signo de interrogación en la esquina superior derecha, elija **Ayuda y soporte técnico** y, a continuación, **Inspeccionar páginas y datos**. O bien simplemente puede utilizar el método abreviado de teclado **Ctrl+Alt+F1**.
 
-El panel **Inspección de la página** se abre en el lateral. La siguiente figura ilustra el panel **Inspección de la página** en la página **Pedido de venta**.
-
-![Inspección de la página.](media/page-inspection-example.png)
-
-Cuando el panel **Inspección de la página** se abre por primera vez, muestra información que pertenece al objeto de la página principal.
+El panel **Inspección de la página** se abre en el lateral. Cuando el panel se abre por primera vez, muestra información que pertenece al objeto de la página principal.
 
 Utilice el teclado o el dispositivo señalador para mover el enfoque a diferentes elementos de la página. Cuando selecciona un cuadro informativo o una parte de la página principal, el área delimitada se resalta con un borde y el panel **Inspección de la página** muestra información sobre el elemento seleccionado. Por ejemplo, la figura anterior muestra información sobre la parte de la lista en la página **Pedido de venta**. A medida que se desplaza a otras páginas de la aplicación, el panel **Inspección de la página** se actualizará automáticamente con la información de la página a medida que avanza.
 
@@ -44,9 +40,8 @@ Como administrador, puede controlar el acceso a todos los detalles que se muestr
 
 Los usuarios a los que no se les conceden permisos sobre el **objeto de sistema 5330** pueden acceder al panel **Inspección de páginas**, pero solo verán los campos **Página** y **Tabla**, que muestran los detalles básicos que pueden pasar a su equipo de soporte.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

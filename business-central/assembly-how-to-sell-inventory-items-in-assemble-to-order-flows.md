@@ -10,15 +10,14 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 3b9955ece6a5f76269915b18ecfe22c722d2e59d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e43a8bbfb663a7207afd01360ba3600cd60d5076
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532976"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607024"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Vender productos de inventario en flujos de ensamblar para pedido
-
 
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para pedido**, el proceso de pedido de venta predeterminado supone que el producto no está en el inventario y se debe ensamblar para ese pedido de venta concreto. Por tanto, se crea automáticamente un pedido de ensamblado al agregar el elemento a una línea de pedido de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md). Sin embargo, si parte de la cantidad del pedido de venta ya está disponible en el inventario, puede reducir la cantidad del pedido de ensamblado cambiando el campo **Cdad. al ensamblar para pedido** de la línea de pedido de venta.  
 
@@ -57,7 +56,7 @@ En este procedimiento, se reemplazan las cantidades de ensamblar para pedido con
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Reservar artículos](inventory-how-to-reserve-items.md)  
-[Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
+[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 152f3ac3fc95e342bca2e286dac03a065193f6cb
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 3d99c3ae307d8f0e4324fd14d86bddc85a916fcd
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533192"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605413"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
 
@@ -100,7 +100,7 @@ En función de este ejemplo, sólo se puede modificar el campo **Cantidad a ensa
 ## <a name="see-also"></a>Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
+[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

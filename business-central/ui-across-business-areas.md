@@ -8,26 +8,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 04/01/2021
+ms.date: 09/19/2022
 ms.author: edupont
-ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655063"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605906"
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
+
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).
 
-Para apoyar esas tareas específicas del área de negocios, puede utilizar una variedad de funciones generales como definir texto ampliado para las líneas del documento y organizar tareas comerciales conectadas en flujos de trabajo.
+Para apoyar esas tareas específicas del área de negocios, puede utilizar varias funciones de negocio generales, como definir texto ampliado para líneas de un documento y organizar tareas empresariales relacionadas en flujos de trabajo.
 
 > [!NOTE]
 > Además de las funciones relacionadas con el negocio que se describen en esta sección, debe utilizar las funciones generales de UI todos los días para interactuar con el sistema. Para obtener más información, consulte [Trabajar con Business Central](ui-work-product.md).
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-En la tabla siguiente se indican las áreas de negocio generales, con vínculos a los temas que los describen.
+En la tabla siguiente se indican las áreas de negocio generales, con vínculos a los artículos que los describen.
 
 | Para | Vea |
 | --- | --- |
@@ -42,18 +43,20 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 |Registre varios documentos de venta o compra juntos, inmediatamente o según lo programado.|[Registrar varios documentos al mismo tiempo](ui-batch-posting.md)|  
 |Revise el resultado del registro antes de registrar.|[Vista previa de los resultados del registro](ui-how-preview-post-results.md)|
 |Edite los campos seleccionados en las ventas registradas o en los documentos de compra.|[Editar documentos registrados](across-edit-posted-document.md)|
+| Comprender el estado disponible de documentos de ofertas, pedidos y notas de abono, como **Pendiente** y **Lanzado** | [Campo de estado en los documentos](ui-document-status.md) |
 |Obtenga información sobre cómo trabajar con diarios generales, que se usan para registrar en cuentas contables y otras cuentas, como bancarias, de clientes, de proveedores y de activos fijos. |[Trabajar con diarios generales](ui-work-general-journals.md) |
 | Programar un informe para ejecutarlo en una fecha y hora específicos. |[Programar un informe para que se ejecute](ui-work-report.md#ScheduleReport) |
 |Permita al sistema ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted.|[Dejar que Business Central proponga valores](ui-let-system-suggest-values.md)|
 |Registrar documentos externos, incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
 |Configurar y utilizar los flujos de trabajo que vinculan tareas que realizan los distintos usuarios o el sistema, como registro automático. Solicitar y conceder aprobaciones para crear o registrar documentos son pasos habituales de un flujo de trabajo.|[Flujo de trabajo](across-workflow.md)|
 | Configure definiciones de intercambio de datos para que pueda enviar y recibir documentos electrónicos. |[Intercambio de datos electrónicamente](across-data-exchange.md) |
+| Utilice mapas en línea para encontrar ubicaciones e indicaciones para clientes, proveedores y direcciones en general. | [Usar Mapas en línea para encontrar ubicaciones e indicaciones](across-online-maps.md) |
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también .
+
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Administración](admin-setup-and-administration.md)
+[Administración](admin-setup-and-administration.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

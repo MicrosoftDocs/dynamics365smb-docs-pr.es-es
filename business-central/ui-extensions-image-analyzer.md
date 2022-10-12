@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: bd729acaab521cb32b152f297950c7616c78aad7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524633"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606014"
 ---
 # <a name="the-image-analyzer-extension"></a>Extensión del analizador de imágenes
 
@@ -117,7 +117,7 @@ Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conexiones de servicio** y luego elija **Configuración de análisis de imagen**.  
 2. Desactive el campo **Activar analizador de imágenes**.  
 
-Opcionalmente, desinstale la extensión por completo. Siempre puede volver a recuperarla en AppSource. Para obtener más información, consulte [Instalación y desinstalación de extensiones en Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
+Opcionalmente, desinstale la extensión por completo. Siempre puede volver a recuperarla en AppSource. Para obtener más información, consulte [Instalación y desinstalación de extensiones en Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
 ## <a name="see-also"></a>Consulte también .
 
