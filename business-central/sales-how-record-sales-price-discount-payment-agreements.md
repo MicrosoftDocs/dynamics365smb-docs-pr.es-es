@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606149"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652197"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
 
@@ -93,7 +93,7 @@ Cuando habilita la actualización de funciones **Nueva experiencia de precios de
     * Ccial
     * Compras
     * Venta de proyectos
-    * Compras de proyecto 
+    * Compras de proyecto
 
     Puede editar todos los precios de estas áreas en la página **Hoja de trabajo de precios**. Las listas de precios predeterminadas se establecen en las páginas **Configuración de ventas y cobros**, **Configuración de compras y pagos** y **Configuración de proyectos**. 
 
@@ -252,7 +252,7 @@ Se relacionan los porcentajes de descuento a los importes de factura específico
 Además de, o en lugar de, un porcentaje de descuento, puede vincular un importe de cargo por servicios a un importe facturado específico.  
 
 > [!TIP]  
-> Antes de introducir esta información, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los clientes que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido introducirá la información básica.
+> Antes de introducir esta información, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. La estructura hacer que resulte más fácil determinar los clientes que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido introducirá la información básica.
 
 Para formación sobre descuentos en ventas, consulte [Establecer descuentos para sus clientes](/training/modules/customer-discounts-dynamics-365-business-central/index).
 

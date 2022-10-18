@@ -1,21 +1,21 @@
 ---
 title: Personalizar páginas (contiene vídeo)
 description: Aprenda a personalizar la interfaz de usuario y personalizar el área de trabajo para que se adapte a su forma de trabajar y preferencias personales en Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528818"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652170"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
 
@@ -79,9 +79,15 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 |Agregue una nueva acción a una página o informe en su Área de trabajo.|Desde la página de destino, la página de solicitud de informe o la ventana Avisarme, elija el icono de marcador.|Consulte [Marcar una página o informe en su Área de trabajo](ui-bookmarks.md)|
 |Siempre empiece una lista como expandida o contraída|Elija el botón **Expandir todo** o **Contraer todo** en la esquina superior izquierda de la lista. Alternativamente, elija la acción **Expandir todo** o **Contraer todo** en el menú de la primera columna. |Se aplica a las listas jerárquicas contraíbles.|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Personalización de acciones
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Personalización de la barra de acciones y los menús
 
-La personalización le permite decidir qué acciones se mostrarán en las barras de navegación y acciones y en las áreas de trabajo y dónde se mostrarán. Puede mostrar, ocultar o mover acciones individuales o grupos de acciones. La personalización de las barras de navegación y acciones se hace básicamente de la misma forma que con otros elementos de la interfaz de usuario. Sin embargo, lo que puede realizar con una acción o un grupo depende de dónde se encuentre la acción o el grupo. La mejor forma de averiguarlo es cambiar al modo de personalización y dejar que le guíen las puntas de flecha.
+La personalización le permite decidir qué acciones se mostrarán en las barras de navegación y acciones y en las áreas de trabajo y dónde se mostrarán. Puede mostrar, ocultar o mover acciones individuales o grupos de acciones.
+
+En el segundo lanzamiento de versiones de 2022 le proporcionamos más formas de personalizar Business Central. El siguiente video muestra cómo puede personalizar acciones en páginas y áreas de trabajo.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+La personalización de las barras de navegación y acciones se hace básicamente de la misma forma que con otros elementos de la interfaz de usuario. Sin embargo, lo que puede realizar con una acción o un grupo depende de dónde se encuentre la acción o el grupo. La mejor forma de averiguarlo es cambiar al modo de personalización y dejar que le guíen las puntas de flecha.
 
 Hay un par de términos con los que debería estar familiarizado para entender mejor la personalización de las acciones: *grupo de acciones* y *categoría promocionada*.  
 

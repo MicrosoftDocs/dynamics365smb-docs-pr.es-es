@@ -1,27 +1,32 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ed62e60d3b5b1af2158d8adc6c411884ea4c12aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: 8849f1c5d33cd1f826e7f53be317cb01e513fcd1
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133581"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652143"
 ---
-Una vez que se hayan especificado todos los productos como líneas, podrá calcular el descuento en factura para todo el documento de ventas eligiendo la acción **Calcular descuento en factura**.
+Cuando haya agregado todos los productos en las líneas, podrá calcular el descuento en factura para todo el documento de venta eligiendo la acción **Calcular descuento en factura**.
 
-El descuento se calcula basándose en todas las líneas del documento de venta para productos en los que el campo **Permitir descuento en factura** de la línea de pedido de venta contiene **Sí**. Este es el valor predeterminado para los productos. Las líneas con cargos de producto, por ejemplo, no se incluyen en el cálculo del descuento de factura. Si desea aplicar un descuento a dichas líneas, debe establecer el campo **% de descuento de línea** en las líneas relevantes.  
+El descuento se calcula sobre la base de todas las líneas del documento de venta en las que se ha seleccionado la casilla de verificación **Permitir dto. factura**. De forma predeterminada, se permiten descuentos en facturas. Sin embargo, las líneas con cargos de producto, por ejemplo, no se incluyen en el cálculo del descuento de factura. Para aplicar un descuento a dichas líneas, introduzca un valor en el campo **Importe dto. línea** de las líneas.  
+
+> [!NOTE]
+> De forma predeterminada, los campos **Permitir dto. factura** y **Importe dto. línea** están ocultos en las líneas. Si los campos no están disponibles, puede agregarlos personalizando la página. Para obtener más información, consulte [Personalizar el área de trabajo](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 > [!TIP]
-> Si se selecciona el campo **Calcular descuento de factura** en la página **Configuración ventas y cobros**, se calcula el descuento de la factura automáticamente cuando realiza una de las siguientes operaciones en un documento de venta:
+> Si se selecciona el campo **Calc. dto. factura** en la página **Conf. ventas y cobros**, el descuento en factura se calculará automáticamente. El momento en que se produce el cálculo difiere, según el tipo de documento de venta que se use.
+>
+> Si usa un pedido de ventas, el descuento se calcula cuando se agrega una línea. Para todos los demás documentos de venta, como las facturas de venta, el descuento se calcula cuando se realiza alguna de las siguientes acciones:
 >
 > * Ver estadísticas
 > * Ver un test
 > * Imprimir
 > * Envíos postales
 
-Las condiciones de descuento en factura para un cliente se definen en la página **Descuentos en factura de cliente** para el cliente. El código de divisa del documento de venta se usa para buscar las condiciones de descuento en factura en la divisa correspondiente.
+Se definen las condiciones de descuento en factura para un cliente en la página **Descuentos en factura de cliente**. El código de divisa del documento de venta se usa para buscar las condiciones de descuento en factura en la divisa correspondiente.
 
-Si no se han definido descuentos facturas para divisas extranjeras, el programa utiliza las condiciones de descuento factura en DL que aparecen en la página **Dto. factura cliente** con importes en la divisa local y el tipo de cambio en la fecha de registro del documento de venta para calcular el descuento en factura en divisa extranjera.
+Si no ha definido los descuentos en factura para las divisas extranjeras, las condiciones de descuento de la página **Dtos. factura cliente** se usan para calcular el descuento. El cálculo utiliza su divisa local y el tipo de cambio vigente en la fecha de contabilización del documento.
