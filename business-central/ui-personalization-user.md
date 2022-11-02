@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652170"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716576"
 ---
 # <a name="personalize-your-workspace"></a>Personalice su área de trabajo
 
@@ -155,6 +155,12 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 - Los cambios realizados tendrán efecto sobre todas las áreas de trabajo. Por ejemplo, si realiza un cambio en la lista Clientes cuando el área de trabajo está configurada en administrador de negocio, también verá el cambio en la página **Clientes** cuando el área de trabajo está configurada en Procesador de pedidos de ventas.
 - Los cambios de una página realizados en un panel tendrán efecto en la página donde se muestre.  
 - Solo puede agregar campos y columnas de una lista predefinida, que está basada en la página. No puede crear campos ni columnas nuevos.
+- El elemento **Power Automate** en la barra de acciones
+  - No puede ocultar o mover el elemento **Automatizar** o el subelemento **Power Automate** y sus acciones **Crear un flujo** y **Administrar flujos**.
+  - Puede mover los flujos incluidos en el elemento **Automatizar**, pero no puede ocultarlos mediante la personalización. Mover el flujo hace una copia del flujo al destino, no lo eliminará del elemento **Automatizar**.
+
+   > [!TIP]
+   > Como administrador, puede ocultar el elemento **Automatización** de los usuarios. Obtenga más información en [Configurar la integración de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 

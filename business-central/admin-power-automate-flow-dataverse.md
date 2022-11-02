@@ -10,18 +10,14 @@ ms.search.keywords: Power Automate, Flow, Dataverse
 ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: d58a8ba6b1b2c451caa391ef5dd89e0d73d38b5a
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585897"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716509"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Utilizar un flujo de Power Automate para alertas de cambios de entidad de Dataverse
-
-> [!IMPORTANT]
-> Este artículo describe la funcionalidad que estará disponible en el lanzamiento de versiones 2 de 2022. Hasta que esa versión esté disponible, no puede usar un flujo de Power Automate para ser alertado cuando cambie una entidad en Dataverse.
 
 Los administradores pueden crear un flujo automatizado en Power Automate que notifique su [!INCLUDE[prod_short](includes/prod_short.md)] sobre cambios en registros de su organización de [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
