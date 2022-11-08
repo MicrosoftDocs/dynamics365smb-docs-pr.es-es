@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607721"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728578"
 ---
 # <a name="resources-for-help-and-support"></a>Recursos de ayuda y soporte técnico
 
@@ -114,9 +114,13 @@ Esta sección le ofrece accesos directos a Microsoft AppSource para encontrar so
 
 ### <a name="give-feedback"></a>Enviar comentarios
 
-En el [sitio Ideas de Dynamics 365](https://aka.ms/bcideas), puede proporcionar sugerencias sobre nuevas funciones y capacidades. Sus comentarios van directamente al registro de ingeniería de Business Central para su investigación y priorización.  
+Aproximadamente una vez por trimestre, el equipo [!INCLUDE [prod_short](includes/prod_short.md)] recopila comentarios de nuestros usuarios sobre cuán satisfechos están con el producto. Además de las calificaciones, también puede proporcionar un comentario por escrito. Al brindarnos comentarios específicos y prácticos, ayuda a nuestros equipos de ingeniería a priorizar las mejoras de productos en las que invertimos. También puede dar su consentimiento para ser contactado acerca de su comentario. Si lo hace, se le invitará a una reunión de Teams en el momento que le resulte más conveniente. Puede proporcionar sugerencias de productos en cualquier momento en nuestro sitio web [Dynamics 365 Ideas](https://aka.ms/bcideas).  
 
-Asegúrese de buscar en la lista de sugerencias enviadas. Lo más probable es que alguien ya haya enviado algo similar, y que esa entrada ya haya recibido votos. Vote si ya se ha presentado una idea para priorizarla en el registro de ingeniería.  
+### <a name="product-suggestions"></a>Sugerencias de productos
+
+En el sitio web del [sitio Ideas de Dynamics 365](https://aka.ms/bcideas), puede proporcionar sugerencias sobre nuevas funciones y capacidades. Sus comentarios van directamente al registro de ingeniería de Business Central para su investigación y priorización.  
+
+Asegúrese de buscar en la lista de sugerencias enviadas. Existe la posibilidad de que alguien ya haya enviado algo similar, y que esa entrada ya haya recibido votos. Vote si ya se ha presentado una idea para priorizarla en el registro de ingeniería.  
 
 ### <a name="troubleshooting"></a>Solución de problemas
 

@@ -1,19 +1,19 @@
 ---
 title: Campo de estado en los documentos
 description: Obtenga información sobre los estados 'Abierto' y 'Liberado' en documentos de oferta, pedido o nota de abono.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: ''
 ms.date: 09/19/2022
-ms.author: a-reishima
-ms.openlocfilehash: c96909b4ee37673ee7b0c752224478a144ad853e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608199"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728632"
 ---
 # <a name="status-field-on-documents"></a>Campo de estado en los documentos
 
@@ -28,7 +28,7 @@ Una vez rellenado el documento, láncelo y [!INCLUDE[prod_short](includes/prod_s
 | Aprobación pendiente   | El documento está en espera de aprobación. |
 | Prepago pendiente | Se ha registrado una factura de prepago para el documento. |
 
-## <a name="releasing"></a>Lanzamiento
+## <a name="release-process"></a>Proceso de versión
 
 El proceso de lanzamiento se puede utilizar de varias formas distintas para facilitar el flujo de trabajo habitual, por ejemplo, para seguir los procedimientos de la empresa respecto de autorizaciones o para iniciar actividades de almacén.
 
@@ -46,16 +46,16 @@ Obtenga más información sobre los flujos de trabajo de aprobación en [Usar fl
 
 Si el estado del pedido es **Pendiente**, el almacén no iniciará los preparativos del envío ni esperará recibir los productos de un pedido de compra. Cuando lance el pedido, indique que está completo y que el almacén puede incluirlo en sus actividades.
 
-## <a name="reopening-a-released-order"></a>Reapertura de un pedido lanzado
+## <a name="reopen-a-released-order"></a>Reapertura de un pedido lanzado
 
 Para modificar un pedido lanzado, debe abrirlo de nuevo. Pero, sólo podrá incrementar la cantidad de las líneas ya procesadas por el almacén.
 
-Una vez realizados los cambios y lanzado el pedido de nuevo, se vuelve a calcular el impuesto sobre el valor añadido (IVA) y el descuento en factura.
+Una vez haga los cambios y lanzado el pedido de nuevo, [!INCLUDE [prod_short](includes/prod_short.md)] vuelve a calcular el impuesto sobre el valor añadido (IVA) y el descuento en factura.
 
 Si modifica un pedido lanzado, debe notificar dichos cambios al almacén.
 
 > [!NOTE]
-> Si desea registrar un solo abono o pedido pendiente sin lanzarlo previamente, el programa lanzará el documento automáticamente cuando lo registre. Si registra los pedidos o abonos con la función **Registrar por lotes**, si lo desea puede registrar únicamente los pedidos o abonos que ha lanzado.
+> Si desea registrar un solo abono o pedido pendiente sin lanzarlo previamente, [!INCLUDE [prod_short](includes/prod_short.md)] lanzará el documento automáticamente cuando lo registre. Si registra los pedidos o abonos con la función **Registrar por lotes**, si lo desea puede registrar únicamente los pedidos o abonos que ha lanzado.
 
 ## <a name="see-also"></a>Consulte también .
 

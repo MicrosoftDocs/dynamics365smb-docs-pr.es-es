@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716538"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728473"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Flujos de trabajo en Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] ad
 * Flujos de Power Automate
 
   * Flujos automatizados que se activan por eventos (como la creación, modificación o eliminación de registros) en [!INCLUDE[prod_short](includes/prod_short.md)]. También se incluyen flujos de aprobación creados en Power Automate que se activan cuando se solicita una aprobación en [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Flujos instantáneos que son activados manualmente por la acción **Automatizar** desde listas, tarjetas y páginas de documentos. 
+  * Flujos instantáneos que son activados manualmente por la acción **Automatizar** desde listas, tarjetas y páginas de documentos.
 
     Cree y active manualmente un flujo de Power Automate en un registro [!INCLUDE[prod_short](includes/prod_short.md)] como un cliente, un artículo o un pedido de venta, con opciones para manipular la información tanto interna como externamente (utilizando herramientas integradas).
 
@@ -44,11 +44,12 @@ Con [!INCLUDE [prod_short](includes/prod_short.md)] en línea, puede registrarse
 
 ## <a name="approval-workflows"></a>Flujos de trabajo de aprobación
 
-Puede crear un flujo de trabajo de aprobación haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de:
-- Un evento de flujo de trabajo, moderado por las condiciones del evento
-- Una respuesta de flujo de trabajo, que está moderada por las opciones de respuesta.
+Cree un flujo de trabajo de aprobación definiendo qué inicia el flujo de trabajo y qué sucede a continuación, de la siguiente manera:
 
-Para definir los pasos del flujo de trabajo, se rellenan los campos de las líneas de flujo de trabajo usando listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.<!--What are the "values"? Can we give an example?-->
+* Un evento de flujo de trabajo, moderado por las condiciones del evento.
+* Una respuesta de flujo de trabajo, que está moderada por las opciones de respuesta.
+
+Para definir los pasos del flujo de trabajo, debe rellenar los campos en las líneas de flujo de trabajo usando el evento y valores de respuesta que representan los escenarios admitidos.
 
 Los ejemplos de eventos de flujos de trabajo de aprobación incluyen la creación de pedidos/ofertas/facturas de venta o de compra, cambios de precios, ediciones de proveedores o clientes, y más.
 

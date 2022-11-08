@@ -8,12 +8,12 @@ ms.search.form: 30105, 30106, 30107, 30108, 30109,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: d4ff86179fa5b82bcc398ee58cf92fc121c486d8
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 1a796d1094401cd2ebc0efd54f752211d22bfb12
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361427"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728659"
 ---
 # <a name="synchronize-customers"></a>Sincronizar clientes
 
@@ -21,22 +21,6 @@ Cuando un pedido se importa desde Shopify, es esencial obtener la información s
 
 * Use un cliente especial para todos los pedidos.
 * Importe la información real del cliente desde Shopify. Esta opción también está disponible cuando exporta clientes a Shopify primero desde [!INCLUDE[prod_short](../includes/prod_short.md)].
-
-## <a name="how-the-connector-chooses-which-customer-to-use"></a>Cómo el conector elige qué cliente usar
-
-La función *Importar pedido de Shopify* intenta seleccionar los clientes en el siguiente orden:
-
-1. Si el campo **N.º de cliente genérico** se define en la **Plantilla de cliente de Shopify** para el país correspondiente, se usa el **N.º de cliente genérico** independientemente de los ajustes de los campos **Importar cliente desde Shopify** y **Tipo de asignación de cliente**. Más información en [Plantilla de cliente por país](synchronize-customers.md#customer-template-per-country).
-2. Si **Importar clientes desde Shopify** está establecido en *Ninguno* y el **N.º de cliente genérico** se define en la página **Shopify Tarjeta de tienda**, luego el **N.º de cliente genérico** .
-
-Los próximos pasos dependen del **Tipo de asignación de cliente**.
-
-* Si es **Tomar siempre el cliente predeterminado**, el conector usa el cliente definido en el campo **N.º de cliente predeterminado** en la página **Ficha de tienda de Shopify**.
-* Si es **Por correo electrónico/teléfono**, el conector intenta encontrar el cliente existente primero por id., luego por correo electrónico y luego por número de teléfono. Si no se encuentra el cliente, el conector crea un nuevo cliente.
-* Si es **Por información de dirección de facturación**, el conector intenta encontrar el cliente existente primero por id. y luego por la información de dirección de facturación. Si no se encuentra el cliente, el conector crea un nuevo cliente.
-
-> [!NOTE]  
-> El conector utiliza la información de la dirección de facturación y crea el cliente de facturación en [!INCLUDE[prod_short](../includes/prod_short.md)]. El cliente de venta es el mismo que el cliente de facturación.
 
 ## <a name="important-settings-when-importing-customers-from-shopify"></a>Configuraciones importantes al importar clientes desde Shopify
 
@@ -66,19 +50,29 @@ Puede hacer lo siguiente para cada cliente mediante la **Plantilla de cliente de
 
 ## <a name="export-customers-to-shopify"></a>Exportar clientes a Shopify
 
-Los clientes existentes se pueden exportar a Shopify de forma masiva. En cada caso, se crean un cliente y una dirección predeterminadas. Puede gestionar el proceso con las siguientes configuraciones:
+Puede explotar los clientes existentes a Shopify de forma masiva. En cada caso, se crean un cliente y una dirección predeterminadas. Puede gestionar el proceso con las siguientes configuraciones:
 
 |Campo|Descripción|
 |------|-----------|
-|**Exportar clientes a Shopify**|Seleccione esto si tiene previsto exportar todos los clientes con una dirección de correo electrónico válida de [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify en masa. Puede hacerlo manualmente, usando la acción **Sincronizar clientes**, o automáticamente, usando una cola de trabajos para actualizaciones recurrentes.<br> Al exportar clientes con direcciones que incluyen provincias/estados, asegúrese de que **Código ISO** se rellena para países/regiones.|
+|**Exportar clientes a Shopify**|Seleccione esto si tiene previsto exportar todos los clientes de [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify en masa. Puede hacerlo manualmente, usando la acción **Sincronizar clientes**, o automáticamente, usando una cola de trabajos para actualizaciones recurrentes.<br> Al exportar clientes con direcciones que incluyen provincias/estados, asegúrese de que **Código ISO** se rellena para países/regiones.|
 |**Puede actualizar clientes de Shopify**|Se usa junto con el ajuste **Exportar cliente a Shopify**. Habilite la opción si desea generar actualizaciones más tarde desde [!INCLUDE[prod_short](../includes/prod_short.md)] para los clientes que ya existen en Shopify.|
 
-> [!NOTE]  
-> Una vez que haya creado los clientes en Shopify, puedes enviarles invitaciones directas animándolos a activar sus cuentas.
+Los siguientes son requisitos para exportar un cliente:
+
+* El cliente debe tener una dirección de correo electrónico válida.
+* Se selecciona un país/región en la tarjeta de cliente, para clientes locales, con país/región en blanco el país/región especificado en la página **Información de la empresa** debe tener un código ISO definido.
+* Si el cliente tiene un número de teléfono, el número debe ser único porque Shopify no aceptará un segundo cliente con el mismo número de teléfono.
+* Si el cliente tiene un número de teléfono, debe estar en el formato E.164. Se admiten diferentes formatos si representan un número que se puede marcar desde cualquier parte del mundo. Los siguientes formatos son válidos:
+  * xxxxxxxxxx
+  * +xxxxxxxxxxx
+  * (xxx)xxx-xxxx
+  * +x xxx-xxx-xxxx
+
+Una vez que haya creado los clientes en Shopify, puedes enviarles invitaciones directas animándolos a activar sus cuentas.
 
 ### <a name="populate-customer-information-in-shopify"></a>Rellenar la información del cliente en Shopify
 
-Un cliente en Shopify tiene nombre, apellido, correo electrónico y número de teléfono. Puede completar el nombre y los apellidos a partir de los datos de la ficha del cliente en [!INCLUDE[prod_short](../includes/prod_short.md)].
+Un cliente en Shopify tiene nombre, apellido, correo electrónico y número de teléfono. Puede introducir el nombre y los apellidos a partir de los datos de la ficha del cliente en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Prioridad|Campo en la ficha de cliente|Descripción|
 |------|------|-----------|

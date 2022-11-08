@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2c54b24a38be055fb8f6e641761130e6eab8b829
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361615"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728389"
 ---
 # <a name="synchronize-items-and-inventory"></a>Sincronizar artículos e inventario
 
@@ -29,7 +29,9 @@ Un tercer escenario es administrar datos en Shopify pero importar esos productos
 ## <a name="define-item-synchronizations"></a>Definir las sincronizaciones de artículos
 
 1. Elija el icono ![Bombilla que abre la función Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") de búsqueda. y entre en la **Tienda Shopify**. Abra la tienda para la que quiera configurar la sincronización de artículos.
-2. En el campo **Sincronizar artículo**, seleccione la opción requerida.<br>La siguiente tabla esboza las opciones.
+2. En el campo **Sincronizar artículo**, seleccione la opción requerida.
+
+   La siguiente tabla esboza las opciones.
 
 |Opción|Descripción|
 |------|-----------|
@@ -46,7 +48,7 @@ Primero, importe artículos de Shopify de forma masiva o junto con pedidos para 
 |**Crear artículos desconocidos automáticamente**|Cuando se importan productos y variantes de Shopify a [!INCLUDE[prod_short](../includes/prod_short.md)], la función [!INCLUDE[prod_short](../includes/prod_short.md)] siempre intenta encontrar primero el registro coincidente en la lista de artículos. **Asignación de SKU** afecta a cómo se realiza la correspondencia y crea un nuevo artículo y/o variante de artículo. Habilite esta opción si desea crear un nuevo artículo o cuando no existe un registro correspondiente. El nuevo elemento se crea utilizando datos importados y el **Código de plantilla de artículos**. Si esta opción no está habilitada, deberá crear un artículo manualmente y usar la acción **Asignar producto** en la página **Productos de Shopify**.|
 |**Código de plantilla de artículos**|Se usa con la opción de alternancia **Creación automática de artículos desconocidos**.<br>Elija la plantilla que desea usar para los elementos creados automáticamente.|
 |**Asignación de SKU**|Elige cómo quiere usar el valor de **SKU** importado de Shopify durante el mapeo y la creación de artículos/variantes. Obtenga más información en la sección [Efecto de los SKU y códigos de barras definidos del producto de Shopify en el mapeo y la creación de artículos y variantes en Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**Separador de campo de SKU**|Use esto con **Asignación de SKU** establecido en la opción **Artículo. No + Variante (synchronize-items.md#efecto-de-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)Código**.<br> Defina un separador para usarlo para dividir la SKU.<br>Así, si en Shopify crea la variante con la SKU '1000/001', escribirá '/' en el campo **Separador de campo SKU** para crear el número de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] como '1000' y el código de variante del artículo como '001'.|
+|**Separador de campo de SKU**|Use esto junto con **Asignación de SKU** ajustado a la opción **[N.º de artículo + Código de variante](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Defina un separador para usarlo para dividir la SKU.<br>Así, si en Shopify crea la variante con la SKU '1000/001', escribirá '/' en el campo **Separador de campo SKU** para crear el número de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] como '1000' y el código de variante del artículo como '001'.|
 |**Prefijo de variante**|Se usa junto con **Asignación de SKU** ajustado a **Código de variante** o **N.º de articulo + Código de variante** como función alternativa cuando el SKU proveniente de Shopify esta vacío.<br>Si desea crear la variante de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] automáticamente, tendrá que introducir un valor en **Código**. Por defecto, se usa el valor definido en el campo SKU importado de Shopify. Sin embargo, si el SKU está vacío, generará un código que comenzará con el prefijo de variante definido y "001".|
 |**Shopify puede actualizar artículo**|Elija esta opción si desea actualizar artículos y/o variantes automáticamente.|
 
@@ -100,7 +102,7 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 |------|-----------------|-----------------|
 |Status|De acuerdo con el campo **Estado de los productos creados** en la **Tarjeta de tienda de Shopify**. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Cargo | **Descripción**. Si el código de idioma está definido y existe una traducción del artículo correspondiente, se utilizará la traducción del artículo en lugar de la descripción.|**Descripción**|
-|Descripción|Combina textos extendidos y atributos silas alternancias correspondientes en la tarjeta de Shopify están habilitadas. Respeta el código de idioma.|No utilizado.|
+|Descripción|Combina textos extendidos y atributos si las alternancias correspondientes en la tarjeta de Shopify están habilitadas. Respeta el código de idioma.|No utilizado.|
 |Título de página SEO|Valor fijo: vacío. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Descripción meta de SEO|Valor fijo: vacío. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Medios|**Imagen**. Obtenga más información en la sección [Sincronizar imágenes de elementos](synchronize-items.md#sync-item-images)|**Imagen**|
@@ -168,7 +170,7 @@ Según el valor de **Acción para productos eliminados** en la página **Tarjeta
 
 La sincronización de imágenes se puede configurar para elementos sincronizados. Elija entre las siguientes opciones:
 
-* **En blanco**: la sincronización de imágenes se desactiva.
+* **Deshabilitado**: la sincronización de imágenes se desactiva.
 * **A Shopify**: las imágenes de los artículos se exportan a Shopify
 * **Desde Shopify**: las imágenes de Shopify se importan a [!INCLUDE[prod_short](../includes/prod_short.md)]
 
@@ -188,7 +190,7 @@ La sincronización de imágenes se puede inicializar de las dos maneras que se d
 ### <a name="image-synchronization-remarks"></a>Observaciones de sincronización de imágenes
 
 * Al exportar imágenes de [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify, las nuevas imágenes se añaden a Shopify, manteniendo intactas las imágenes antiguas. Si una imagen se actualiza en [!INCLUDE[prod_short](../includes/prod_short.md)], deberá eliminar las imágenes antiguas en el **administrador de Shopify**.
-* Las imágenes que se exportan a Shopify que no cumplen con los requisitos definidos por Shopify no se importarán. Obtenga más información en [Tipos de medios de productos en help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images)
+* Las imágenes que se exportan a Shopify que no cumplen con los requisitos definidos por Shopify no se importarán. Obtenga más información sobre [Tipos de medios de productos en help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
 ## <a name="sync-prices-with-shopify"></a>Sincronizar precios con Shopify
 
@@ -202,7 +204,7 @@ Los precios para artículos sincronizados se pueden exportar de las formas que s
 ### <a name="price-calculation-remarks"></a>Observaciones de cálculo de precios
 
 * Para el cálculo del precio, es importante tener un valor en el campo **Plantilla de cliente predeterminada**. Obtenga más información en [Configurar impuestos](setup-taxes.md).
-* Introduzca un **código de moneda** si su tienda en línea utiliza una moneda diferente a la moneda local (LCY). La divisa especificada debe tener tipos de cambio configurados. Si su tienda en línea usa la misma divisa que [!INCLUDE[prod_short](../includes/prod_short.md)], deje el campo vacío.
+* Introduzca un **código de moneda** solo si su tienda en línea utiliza una moneda diferente a la moneda local (LCY). La divisa especificada debe tener tipos de cambio configurados. Si su tienda en línea usa la misma divisa que [!INCLUDE[prod_short](../includes/prod_short.md)], deje el campo vacío.
 * Al determinar un precio, [!INCLUDE[prod_short](../includes/prod_short.md)] utiliza la lógica del "precio más bajo". Eso significa que, si el precio unitario definido en la ficha del artículo es inferior al definido en el grupo de precios, se utiliza el precio unitario de la ficha del artículo.
 
 ## <a name="sync-inventory-to-shopify"></a>Sincronizar inventario a Shopify

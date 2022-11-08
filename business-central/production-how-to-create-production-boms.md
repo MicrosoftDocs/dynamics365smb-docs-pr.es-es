@@ -1,18 +1,18 @@
 ---
 title: Crear LM de producción
 description: Obtenga información sobre cómo crear una lista de materiales (L.M.) de producción, nuevas versiones de una lista de materiales de producción y cómo utilizar la fórmula de cálculo de cantidades.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: production bom, bills of material,
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607829"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728551"
 ---
 # <a name="create-production-boms"></a>Crear LM de producción
 
@@ -21,7 +21,7 @@ Una lista de materiales (L.M.) de producción contiene datos maestros que descri
 [!INCLUDE[prod_short](includes/prod_short.md)] también admite L.M. de ensamblado. Utilice los pedidos de ensamblado para crear productos finales de los componentes en un proceso sencillo que se pueda realizar por uno o varios recursos básicos, que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo. Para obtener más información, consulte [L.M. de ensamblado o L.M. de producción](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> La aplicación **Datos de demostración de Contoso Coffee** incluye productos de demostración de una variedad de escenarios de L.M. de producción que se pueden usar en un entorno de prueba, incluso durante una prueba. Aprenda a configurar los datos de Contoso Coffee y encuentre tutoriales para diferentes escenarios en [Introducción a datos de demostración de Contoso Coffee](/contoso-coffee/contoso-coffee-intro.md).
+> La aplicación **Datos de demostración de Contoso Coffee** incluye productos de demostración de una variedad de escenarios de L.M. de producción que se pueden usar en un entorno de prueba, incluso durante una prueba. Aprenda a configurar los datos de Contoso Coffee y encuentre tutoriales para diferentes escenarios en [Introducción a datos de demostración de Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).
 
 Para poder configurar una ruta, lo siguiente debe existir:  
 
@@ -96,13 +96,13 @@ La relación entre los componentes individuales se define en la fórmula de cál
 
 ### <a name="example"></a>Ejemplo
 
-En una L.M. de producción, se necesitan setenta componentes de metal con las dimensiones: largo = 0,20 m. y ancho: 0,15 m. Los valores se introducen de la manera siguiente: Fórmula de cálculo = Largo x Ancho, Largo = 20, Ancho = 15, Cantidad por = 70. La cantidad se obtiene de Cantidad por x Largo * Ancho, es decir, Cantidad = 70 x 0,20 m x 0,15 m = 2,1 m2.  
+Una L.M. de producción, requiere setenta componentes de metal con las dimensiones: largo = 0,20 m. y ancho: 0,15 m. Los valores se introducen de la manera siguiente: Fórmula de cálculo = Largo x Ancho, Largo = 20, Ancho = 15, Cantidad por = 70. La cantidad se obtiene de Cantidad por x Largo * Ancho, es decir, Cantidad = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Consulte también .
 
 [Creación de rutas](production-how-to-create-routings.md)  
 [Administrar variantes de productos](inventory-item-variants.md)  
-[Tutorial: variantes](/contoso-coffee/variants.md)  
+[Tutorial: variantes](contoso-coffee/variants.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
 [Planificación](production-planning.md)  

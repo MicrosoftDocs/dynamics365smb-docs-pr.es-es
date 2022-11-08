@@ -8,14 +8,14 @@ ms.search.form: 30118, 30119, 30120,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 47b0d72283b4d017bb522c3e71f6c61501b59d5b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 37fb8069f6149cc89c1c53f671eafe3788f54ccf
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361947"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728362"
 ---
-# <a name="troubleshooting-shopify-and-business-central-synchronization"></a>Solución de problemas de Shopify y sincronización de Business Central
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Solución de problemas de Shopify y sincronización de Business Central
 
 Es posible encontrarse con situaciones en las que necesite solucionar problemas al sincronizar datos entre Shopify y [!INCLUDE[prod_short](../includes/prod_short.md)]. Esta página define los pasos para solucionar algunos escenarios comunes que pueden ocurrir.
 
@@ -67,7 +67,7 @@ Se activará el conmutador de alternancia **Tiene clave de acceso**.
 Para funcionar correctamente, la extensión del conector de Shopify requiere permiso para realizar solicitudes HTTP. Al probar en espacios aislados, las solicitudes HTTP están prohibidas para todas las extensiones.
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **administración de extensiones** y luego elija el enlace relacionado.
-2. Seleccione la extensión *Conector de Shopify*.
+2. Seleccione la extensión **Conector de Shopify**.
 3. Seleccione la acción **Configurar** para abrir la página **Configuración de extensiones**.
 4. Asegúrese de que el conmutador de alternancia **Permitir solicitudes HTTPClient** esté habilitado.
 
@@ -90,13 +90,17 @@ Los siguientes procedimientos describen cómo rotar el token de acceso utilizado
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-*Grupo de contabilización de negocio* no puede ser cero o vacío; debe haber un valor en el campo del cliente. Para corregirlo:
+### <a name="the-gen-bus-posting-group-cannot-be-zero-or-empty-there-must-be-a-value-in-the-customer-field"></a>*Grupo de contabilización de negocio* no puede ser cero o vacío; debe haber un valor en el campo del cliente
 
 Rellene el campo **Código de plantilla de cliente** en la ventana **Tarjeta de tienda de Shopify** con la plantilla que tiene **Grupo contable negocio**. La plantilla de cliente se utiliza no solo para la creación de clientes, sino también para el cálculo del precio de venta y durante la creación de documentos de venta.
 
 ### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>La importación de datos a su tienda Shopify no está habilitada. Vaya a la tarjeta de la tienda para habilitarla.
 
-En la **Tarjeta de tienda de Shopify**, active la opción **Permitir la sincronización de datos para Shopify**.  Esta opción está destinada a proteger la tienda en línea de obtener datos de demostración de [!INCLUDE[prod_short](../includes/prod_short.md)].
+En la **Tarjeta de tienda de Shopify**, active la opción **Permitir la sincronización de datos para Shopify**. Esta opción está destinada a proteger la tienda en línea de obtener datos de demostración de [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+### <a name="oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Oauth error invalid_request: No se pudo encontrar Aplicación API Shopify con api_key
+
+Parece que usa [Insertar aplicación](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), donde la URL del cliente tiene el formato: `https://[application name].bc.dynamics.com`. El conector Shopify no funciona para las aplicaciones integradas. Para más información, ver [¿Qué productos de Microsoft tienen disponible el conector Shopify](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
 
 ## <a name="see-also"></a>Consulte también .
 
