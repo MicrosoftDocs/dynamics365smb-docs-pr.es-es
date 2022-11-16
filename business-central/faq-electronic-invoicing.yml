@@ -3,12 +3,14 @@ metadata:
   title: P+F sobre facturación electrónica
   description: Obtenga respuestas sobre el servicio de intercambio de documentos y las versiones compatibles de PEPPOL.
   ms.topic: faq
-  ms.openlocfilehash: 0351a756d8b07eee489ff5457c8463f8587dded4
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  author: edupont04
+  ms.author: edupont
+  ms.openlocfilehash: 42e9278371ac9736d9d6a0d4b8e288fbe295c863
+  ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8136223"
+  ms.lasthandoff: 11/04/2022
+  ms.locfileid: "9744821"
 title: P+F sobre facturación electrónica
 summary: "El servicio de intercambio de documentos integrado envía facturas electrónicas a TradeShift, un proveedor de servicios que transmite facturas electrónicas a los destinatarios de PEPPOL o NemHandel. Pero el servicio admite un número limitado de versiones.   \n\nEstas preguntas frecuentes responden a algunas de las preguntas clave sobre la facturación electrónica.  \n"
 sections:
@@ -17,16 +19,16 @@ sections:
   - question: ¿Cuál es el problema?
     answer: El soporte integrado de PEPPOL utiliza una API proporcionada por TradeShift. Pero esa API no admite versiones más recientes de PEPPOL.
   - question: ¿Cuál es la última versión de PEPPOL compatible con la API TradeShift?
-    answer: La última versión de PEPPOL compatible con la API TradeShift es **PEPPOL BIS 2.1**.
+    answer: La última versión de PEPPOL compatible con la API TradeShift es **PEPPOL BIS 2.1**.
   - question: ¿Cuál es la última versión de PEPPOL compatible con Business Central?
-    answer: La última versión de PEPPOL compatible con la versión predeterminada de Business Central es **PEPPOL BIS 3.0**. Mantendremos el servicio de intercambio de documentos existente basado en TradeShift en funcionamiento siempre que TradeShift admita la API actual. Además, seguimos admitiendo los formatos de facturación electrónica actualmente admitidos.
+    answer: La última versión de PEPPOL compatible con la versión predeterminada de Business Central es **PEPPOL BIS 3.0**. Mantendremos el servicio de intercambio de documentos existente basado en TradeShift en funcionamiento siempre que TradeShift admita la API actual. Además, seguimos admitiendo los formatos de facturación electrónica actualmente admitidos.
 - name: 'Aplicaciones de '
   questions:
   - question: ¿Existen aplicaciones que nos puedan ayudar con la facturación electrónica?
     answer: >
       Sí. La siguiente lista proporciona ejemplos de aplicaciones existentes para Business Central que admiten la facturación electrónica en los formatos más recientes. Tenga en cuenta que no es una lista completa:
 
-      - [Pagero - Aplicación de facturación electrónica (Dinamarca, Alemania, Finlandia, Francia, Noruega, España, Suecia, Reino Unido)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
+      - [Pagero - Aplicación de facturación electrónica (Bélgica, Dinamarca, Alemania, Finlandia, Francia, Italia, Luxemburgo, Noruega, Arabia Saudí, España, Suecia, Reino Unido, EE. UU.)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
 
       - [Soluciones Oseberg - Factura electrónica PEPPOL Bis (Noruega)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
 
@@ -36,7 +38,7 @@ sections:
 
       - [NAVlab - FTE LITE CLOUD (Italia)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.navlab-1990684%7CAID.felight%7CPAPPID.a239eef8-4446-4379-a0af-e0f8f1e7f260?tab=Overview)
 
-      - [AppVision - Factura electrónica para Hungría](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview) 
+      - [AppVision - Factura electrónica para Hungría](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview)
 
       - [Socios de Estonian Dynamics - Telema EDI (Estonia)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.telema-edi%7CPAPPID.0f6cfaa0-c4d6-49af-a644-4194e69420be)
 
@@ -50,5 +52,5 @@ sections:
 - name: Requisito B2G en Alemania
   questions:
   - question: ¿Qué pasa con el requisito de B2G en Alemania?
-    answer: Para los usuarios de Business Central que tienen clientes en el gobierno alemán y necesitan facturación B2G, a partir del 27 de noviembre de 2020, deben enviar facturas en formatos locales, como *XRechnung* o *ZUGFeRD*.  Esto será compatible con aplicaciones como [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) o [Facturación electrónica de Pagero](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6). 
+    answer: Para los usuarios de Business Central que tienen clientes en el gobierno alemán y necesitan facturación B2G, a partir del 27 de noviembre de 2020, deben enviar facturas en formatos locales, como *XRechnung* o *ZUGFeRD*.  Esto será compatible con aplicaciones como [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) o [Facturación electrónica de Pagero](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6).
 additionalContent: "## <a name=\"next-steps\"></a>Pasos siguientes\nEncuentre información relacionada aquí: \n  - [Enviar documentos electrónicos](sales-how-to-send-electronic-documents.md)"

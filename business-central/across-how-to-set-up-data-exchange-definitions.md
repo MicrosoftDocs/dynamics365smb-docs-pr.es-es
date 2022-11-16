@@ -1,19 +1,19 @@
 ---
 title: Definir cómo se intercambian los datos electrónicamente
 description: Defina cómo Business Central intercambia datos con archivos externos como documentos electrónicos, datos bancarios, catálogos de artículos y más.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607532"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744875"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
 
@@ -129,6 +129,7 @@ A partir del segundo lanzamiento de versiones de 2022, también puede agrupar po
     |**Id. tabla**|Especifique la tabla que contiene los campos a los que se intercambian los datos, o desde los que se intercambian, según la asignación.|  
     |**Usar como tabla intermedia**|Especifique si la tabla que seleccionó en el campo **Id. tabla** es una tabla intermedia en la que se almacenan los datos importados antes de asignarlos a la tabla de destino.<br /><br /> Normalmente se usa una tabla intermedia cuando la definición de intercambio de datos se utiliza para importar y para convertir los documentos electrónicos, como facturas de proveedor en facturas de compra en [!INCLUDE[prod_short](includes/prod_short.md)]. Más información en [Intercambio de datos electrónicamente](across-data-exchange.md).|  
     |**Nombre**|Escriba un nombre para la configuración de asignación.|  
+    |**Índice de la clave**|Especifique el índice de clave para ordenar los registros de origen antes de la exportación.|
     |**Codeunit de preasignación**|Especifique la codeunit que prepara la asignación entre los campos de [!INCLUDE[prod_short](includes/prod_short.md)] y los datos externos.|  
     |**Codeunit de asignación**|Especifique la codeunit que se usa para asignar las columnas especificadas o los elementos de datos XML a los campos de [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Codeunit de postasignación**|Especifique la codeunit que completa la asignación entre los campos de [!INCLUDE[prod_short](includes/prod_short.md)] y los datos externos. **Nota**: Al usar la característica extensión AMC Banking 365 Fundamentals, la codeunit convierte los datos exportados desde [!INCLUDE[prod_short](includes/prod_short.md)] a un formato genérico que está preparado para la exportación. Para importar, la codeunit convierte los datos externos a un formato listo para importar a [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -161,6 +162,13 @@ A partir del segundo lanzamiento de versiones de 2022, también puede agrupar po
      |**Regla de transformación**|Especifica la regla que transforma el texto importado en un valor admitido para que se pueda asignar a un campo especificado. Cuando elige un valor en este campo, el mismo valor se introduce en el campo **Regla de transformación** en la tabla **Búfer asignación campo intercambio datos** y viceversa. Consulte la siguiente sección para obtener más información sobre las reglas de transformación disponibles que se pueden aplicar.|
      |**Prioridad**|Especifique el orden en que se deben procesar las asignaciones de campos. La asignación de campo con el número de mayor prioridad se procesará primero.|
 
+4. En la ficha desplegable **Agrupación de campos**, especifique las reglas que desea usar para agrupar sus campos cuando cree el archivo completando los campos como se describe en la siguiente tabla.  
+
+     |Campo|Descripción|  
+     |--------------------------------- |---------------------------------------|  
+     |**Id. de campo**|Especifique el número del campo en el archivo externo que se usa para agrupar y este campo debe configurarlo el usuario.|
+     |**Título campo**|Especifique el título del campo en el archivo externo que se usa para agrupación.|
+
 ## <a name="transformation-rules"></a>Reglas de transformación
 
 Si los valores en los campos que está asignando difieren, debe usar reglas de transformación para las definiciones de intercambio de datos para que sean iguales. Defina reglas de transformación para las definiciones de intercambio de datos abriendo una definición existente, o creando una nueva definición, y luego en las **Definiciones de línea** FastTab, eligiendo **Gestionar**, y entonces **Mapeo de campo**. Se proporcionan reglas predefinidas, pero también puede crear las suyas propias. La siguiente tabla describe los tipos de transformaciones que puede realizar.
@@ -180,6 +188,8 @@ Si los valores en los campos que está asignando difieren, debe usar reglas de t
 |**Coincidencia - expresiones regulares**|Use una expresión regular para encontrar uno o más valores. Esta regla es similar a las opciones de **Subcadena** y **Expresión regular - Reemplazar**.|
 |**Personalizado**|Esta regla de transformación es una opción avanzada que requiere asistencia de un desarrollador. Permite un evento de integración al que puede suscribirse si desea usar su propio código de transformación. Si es desarrollador y desea utilizar esta opción, consulte la sección de abajo.|
 |**Formato de fecha y hora**|Defina cómo mostrar la fecha actual y la hora del día.|
+|**Búsqueda de campo**|Utilice campos de diferentes tablas. Para usarlos, necesita seguir algunas reglas. Primero, use el **Id. de tabla** para especificar el id. de la tabla que contiene el registro para la búsqueda de campos. Después, en el campo **Id. campo origen**, especifique el id. del campo que contiene el registro para la búsqueda de campo. Por último, en el campo **Id. campo destino**, especifique el id. del campo en el que se encuentra el registro para la búsqueda de campo. Opcionalmente, utilice el campo **Regla de búsqueda de campo** para especificar el tipo de búsqueda de campo. Para el campo **Objetivo**, se usa el valor de **Id. campo destino**, incluso si está en blanco. Para el campo **Original si el destino está en blanco**, se utiliza el valor original si el destino está en blanco.|
+|**Redondear**|Redondee el valor en este campo usando algunas reglas adicionales. Primero, en el campo **Precisión**, especifique una precisión de redondeo. Después, en el campo **Dirección**, especifique la dirección de redondeo.|
 
 > [!NOTE]  
 > Obtenga más información sobre el formato de fecha y hora en [Cadenas de formato de fecha y hora estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings).

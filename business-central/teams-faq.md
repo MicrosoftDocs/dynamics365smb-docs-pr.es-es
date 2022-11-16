@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606122"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744710"
 ---
 # <a name="teams-faq"></a>P+F de Teams
 
@@ -145,6 +145,92 @@ Si desea participar en la mejora de la aplicación para Teams, o tiene una idea 
 
 Para obtener información sobre la funcionalidad en el cliente web que se vincula a Teams, consulte [Compartir registros y vínculos de páginas en Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Pestañas de Business Central](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>¿Quién puede ver el contenido de una pestaña?
+
+Cualquier persona en tu chat o canal que tenga:
+
+1. La aplicación Business Central para Teams instalada.
+2. Una licencia de Business Central o se le ha otorgado acceso a Business Central usando su licencia de Microsoft 365.
+3. Permisos para ver los datos en la página.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>¿De dónde viene el contenido recomendado?
+
+El contenido recomendado que puede elegir en la opción **Contenido de la pestaña** en una pestaña se basa en su área de trabajo. El contenido recomendado solo incluye páginas de lista, como Clientes, Pedidos de venta y Proveedores, no una página de tarjeta individual como un cliente o proveedor específico.
+
+Específicamente, el contenido recomendado incluye:
+
+- Acciones en el menú de navegación superior del área de trabajo
+- Cualquier página de lista que haya marcado.
+- Si una página de lista ofrece diferentes vistas, incluidas las vistas que haya creado, también puede elegir entre esas vistas
+
+Puede agregar páginas de lista al contenido recomendado agregando marcadores. También puede eliminar el contenido recomendado eliminando los marcadores. Para obtener información sobre cómo agregar o eliminar marcadores, consulte [Marcar una página o un informe en su área de trabajo](ui-bookmarks.md).
+
+Si cambia el entorno o la empresa en la opción de la pestaña, el contenido recomendado cambiará según el Área de trabajo y los marcadores para el entorno y la empresa a los que cambia.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Cuando creo una pestaña, ¿otorga permisos a las personas en el canal o chat?
+
+N.º La creación de pestañas no afecta los permisos, y los usuarios ya deben tener permiso para esos datos cuando acceden a la pestaña.
+
+### <a name="can-i-chat-alongside-a-tab"></a>¿Puedo chatear junto a una pestaña?
+
+Sí. Utilice el icono de chat para iniciar la conversación. Este hilo de chat se asocia entonces con la pestaña. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Si elimino una pestaña de un chat o canal, ¿se elimina algún dato de Business Central?
+
+N.º
+
+### <a name="can-i-safely-rename-a-tab"></a>¿Puedo cambiar el nombre de una pestaña de forma segura?
+
+Sí. El contenido de la pestaña no está relacionado con el nombre real de la pestaña. ¡Cambie el nombre cuando quiera! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Necesito trabajar en tareas en diferentes ventanas. ¿Puedo hacerlo?
+
+Sí. Puede abrir la pestaña en su propia ventana del navegador para mostrar el cliente web de Business Central. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>¿Puedo agregar o fijar una pestaña en las reuniones del equipo?
+
+N.º La aplicación Business Central para Teams no admite pestañas en las reuniones.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>No se puede agregar una pestaña si se usan URL de ISV como *.bc.dynamics.com (pero se pueden anclar)
+
+No compatible.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Cuando hago cosas en la pestaña, como navegar, reordenar, aplicar un filtro o buscar, ¿los demás ven mis cambios?
+
+N.º Solo los cambios de campo o las acciones en ejecución afectan la forma en que otros ven el contenido de la pestaña.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>¿El contenido de la pestaña se actualiza automáticamente? Si no, ¿cómo lo actualizo?
+
+El contenido no se actualiza automáticamente y actualmente no hay botón de actualización. La mejor manera de actualizar el contenido para asegurarse de que esté actualizado es dejar la pestaña y luego regresar. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>¿Esto muestra listas y registros de mis personalizaciones y complementos?
+
+Sí. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Cuando agrego una pestaña, ¿las personas la verán en mi idioma?
+
+N.º Cada usuario ve el contenido de la pestaña en la configuración de idioma, región y zona horaria de Business Central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>¿Puedo tener varias pestañas que apunten a contenido diferente?
+
+Sí.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>¿También puedo agregar pestañas para chatear con una sola persona?
+
+Sí, siempre que el chat no sea un borrador (es decir, no se haya enviado un mensaje para iniciar ese chat) y la otra persona también tenga instalada la aplicación Business Central.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>¿Puedo cambiar de compañía dentro de una pestaña?
+
+N.º 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>¿Es esto diferente a usar la capacidad genérica de Teams para crear una pestaña que aloje un sitio web?
+
+Sí. No le recomendamos que utilice ese enfoque. En muchos casos, no funciona para Business Central.
+
 ## <a name="search-for-contacts"></a>[Buscar contactos](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>¿En qué tablas busca la aplicación?
@@ -156,6 +242,7 @@ Al buscar contactos desde la aplicación de [!INCLUDE [prod_short.md](includes/p
 A medida que escribe los términos de búsqueda en el cuadro de búsqueda, los términos se comparan con la mayoría de los campos de la tabla **Contactos**. Los campos incluyen, por ejemplo, los campos **Nº**, **Nombre**, **Dirección**, **Nº teléfono** o **Nº teléfono móvil** y **Correo electrónico**. 
 
 Los términos de búsqueda no se comparan con ningún campo personalizado agregado a la tabla **Contactos** por aplicaciones y extensiones.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>¿Los resultados de búsqueda incluyen empresas y personas?
 
 Sí. En [!INCLUDE [prod_short.md](includes/prod_short.md)], los contactos pueden ser de tipo **Empresa** o escriba **Persona**, donde una o varias personas pueden estar asociadas a una empresa. En los resultados de búsqueda, las empresas y las personas tienen diferentes iconos.

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530546"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744956"
 ---
 # <a name="calculate-dates-for-purchases"></a>Calcular las fechas de compras
 
@@ -44,9 +44,9 @@ Si especifica una fecha de recepción solicitada en una línea de pedido de comp
 > [!NOTE]
 > Si su proceso se basa en el cálculo hacia atrás, por ejemplo, si utiliza la fecha de recepción solicitada para obtener la fecha de pedido, le recomendamos que utilice fórmulas de fecha que tengan duraciones fijas, como "5D" para cinco días o "1S" para una semana. Las fórmulas de fecha sin duraciones fijas, como "SA" para la semana actual o MA para el mes actual, pueden dar lugar a cálculos de fecha incorrectos. Para obtener más información sobre las fórmulas de fecha, consulte [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Realizar cálculos sin una fecha de entrega requerida
+## <a name="calculating-without-a-requested-receipt-date"></a>Realizar cálculos sin una fecha de recepción solicitada
 
-Si especifica una línea de pedido de compra sin una fecha de entrega requerida, el campo **Fecha pedido** de la línea muestra la fecha del campo **Fecha pedido** de la cabecera del pedido de compra. Se trata de la fecha que especificó o la fecha del trabajo. Se utiliza la fecha del pedido como punto inicial para calcular las fechas siguientes de la línea del pedido de compra, como sigue.  
+Si especifica una línea de pedido de compra sin una fecha de recepción requerida, el campo **Fecha pedido** de la línea muestra la fecha del campo **Fecha pedido** de la cabecera del pedido de compra. Se trata de la fecha que especificó o la fecha del trabajo. Se utiliza la fecha del pedido como punto inicial para calcular las fechas siguientes de la línea del pedido de compra, como sigue.  
 
 - fecha pedido + plazo entrega (días) = fecha recepción planificada.  
 - fecha recepción planificada + tiempo manipulación almacén salida + plazo de seguridad = fecha recepción esperada  

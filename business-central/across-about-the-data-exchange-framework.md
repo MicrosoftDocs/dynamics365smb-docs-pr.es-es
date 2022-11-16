@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134387"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744656"
 ---
 # <a name="about-the-data-exchange-framework"></a>Acerca del marco de intercambio de datos
 
-Puede usar Marco de intercambio de datos para gestionar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios comerciales.
+Puede usar Marco de intercambio de datos para gestionar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios o autoridades comerciales.
 
 Como administrador o socio de Microsoft, puede usar el marco en nuevas funciones de integración configurando qué datos intercambiar y cómo. Por ejemplo, el formato de archivos para intercambio de datos en archivos bancarios, documentos electrónicos, tipos de cambio de divisa y otros con los sistemas ERP varía en función del proveedor del archivo de datos o de secuencia y el país o la región. [!INCLUDE[prod_short](includes/prod_short.md)] utiliza varios formatos de archivo bancario y estándares de servicio de datos. Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.
 
@@ -59,10 +59,14 @@ Puede configurar un servicio externo para mantener actualizados los tipos de cam
 
 Para todos los intercambios de datos en archivos XML, puede preparar la configuración de intercambio de datos cargando el archivo relacionado de esquema XML en la página **Visor de esquema XML**. Aquí se seleccionan los elementos de datos que se desea intercambiar con [!INCLUDE[prod_short](includes/prod_short.md)] y, a continuación, se inicializa una definición de intercambio de datos o se genera un XMLport.
 
+## <a name="intrastat"></a>Intrastat
+
+[!INCLUDE[prod_short](includes/prod_short.md)] utiliza el marco de intercambio de datos para informes de Intrastat, donde puede crear fácilmente archivos con marca de tiempo en diferentes formatos para exportar. [!INCLUDE[prod_short](includes/prod_short.md)] contiene formatos preparados para países localizados, así como para la versión predeterminada. Pero puede cambiar el informe original o crear uno propio.
+
 ## <a name="see-also"></a>Consulte también
 
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
-[Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Usar esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  

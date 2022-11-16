@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528480"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744767"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Solución de problemas de integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -159,6 +159,23 @@ Este problema puede deberse a varias razones. Por ejemplo, la identidad que est�
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>Mis tarjetas ya no tienen un botón emergente
 
 A partir de abril de 2022, los vínculos que se muestran como tarjeta compacta en Teams ya no contendrán el botón **emergente**. Para abrir esa tarjeta en su propia ventana, elija el botón **Detalles** y luego **Abrir en navegador** del menú de puntos suspensivos (**...**) en la esquina superior derecha de la ventana.
+
+## <a name="cant-pin-a-card-to-tab"></a>No se puede anclar una tarjeta a la pestaña
+
+Existen dos motivos para este problema.
+
+- Si la tarjeta se compartió desde Search ME, entonces no se puede anclar a una pestaña. 
+
+- No se puede anclar hasta que agregue su primera pestaña de Business Central. Este problema se conoce en Teams. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Alguien agregó una pestaña, pero no me aparece la pestaña
+
+Este problema se debe a que no tiene instalada la aplicación BC para Teams. Solo aquellos que tengan la aplicación instalada verán las pestañas de Business Central.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Otros ven una ordenación o disposición de columnas diferente a la que ve el autor de la pestaña
+
+Es probable que este problema se deba a que compartió una vista de lista que es una vista personal. En este caso, trabaje con su administrador para crear vistas de lista específicas de roles que cubran los diferentes roles en el canal/chat, o cree esta vista para toda la organización para que todos puedan obtener una vista uniforme.
+
 
 ## <a name="see-also"></a>Consulte también
 

@@ -1610,6 +1610,7 @@
 ##### [Gestionar la integración de Teams](admin-teams-integration.md)
 ##### [Instalar la aplicación Business Central para Teams](across-install-app-for-teams.md)
 ##### [Buscar clientes, proveedores y contactos](across-search-contacts-teams.md)
+##### [Agregar una pestaña de Business Central al canal o chat](across-teams-tab.md)
 ##### [Compartir registros y enlaces de página en Teams](across-working-with-teams.md)
 ##### [Cambiar la empresa y otras configuraciones](across-teams-settings.md)
 ##### [P+F de Teams](teams-faq.md)
@@ -1784,6 +1785,12 @@
 ### [Tareas de administración](admin-setup-and-administration.md)
 ### [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md)
 ### [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)
+### Acceso con licencias de Microsoft 365
+#### [Descripción general](admin-access-with-m365-license.md)
+#### [Configurar acceso con licencias de Microsoft 365](admin-access-with-m365-license-setup.md)
+#### [Flujo de acceso de usuarios](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Solución de problemas](admin-access-with-m365-license-troubleshooting.md) 
 ### [Administración de perfiles](admin-users-profiles-roles.md)
 ### [Administrar configuraciones de usuario y preferencias](admin-manage-user-settings-preferences.md)
 ### [Configuración de impresoras](ui-specify-printer-selection-reports.md)

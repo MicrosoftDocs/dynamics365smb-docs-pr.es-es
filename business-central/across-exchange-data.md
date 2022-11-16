@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 00bac7c92cf6b29cbd79f5b3f04eaa9dfab1ee2d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bb5886d46e780a32f0d0e58d0f62c58cacdc91a7
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133439"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744740"
 ---
 # <a name="exchanging-data"></a>Intercambio de datos
 Puede intercambiar datos entre [!INCLUDE[prod_short](includes/prod_short.md)] y secuencias o archivos externos en conexión con tareas de negocio comunes, como enviar y recibir documentos electrónicos e importar y exportar archivos bancarios.  
@@ -34,6 +34,7 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 |Indique a su banco para que transfiera los importes de pago de los bancos de los clientes a la cuenta de su empresa según la configuración de adeudo directo SEPA.|[Crear movimientos de domiciliación de adeudo directo SEPA y exportación a un archivo bancario](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Utilice un proveedor de servicios de tipos de cambio de divisa para actualizar la página **Divisas**.|[Actualizar tipos cambio divisa](finance-how-update-currencies.md)|  
 |Ver qué elementos de archivo están asignados a campos de [!INCLUDE[prod_short](includes/prod_short.md)] al importar archivos de extracto CAMT de SEPA.|[Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md)|  
+|Exportar datos para informes de Intrastat en formato [!INCLUDE[prod_short](includes/prod_short.md)].|[Configuración de informes de Intrastat](finance-how-setup-report-intrastat.md)|
 |Ver qué campos de [!INCLUDE[prod_short](includes/prod_short.md)] están asignados a elementos de archivo al exportar archivos de pago con la extensión AMC Banking 365 Fundamentals.|[Asignación de campos al exportar archivos de pago utilizando la extensión AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Consulte también  
