@@ -1,24 +1,24 @@
 ---
 title: Crear flujos de trabajo de aprobación para conectar tareas
-description: Puede crear flujos de trabajo que conecten tareas de procesos empresariales realizadas por diferentes usuarios e incluir tareas del sistema, como publicación automática, como pasos del flujo de trabajo.
-author: SorenGP
+description: Obtenga información acerca de cómo crear flujos de trabajo que conecten tareas realizadas por distintos usuarios en procesos de negocio.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586005"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763273"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Crear flujos de trabajo para conectar tareas de procesos empresariales
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Crear flujos de trabajo para conectar tareas en procesos de negocio
 
-Puede crear flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
+Puede crear flujos de trabajo que conecten tareas en procesos de negocio realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
 
 En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo moderado por condiciones de evento y una respuesta de flujo de trabajo con opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo usando listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación.  
 
@@ -73,6 +73,9 @@ Tanto para los eventos como para las respuestas, las opciones están definidas p
 
     1. Para especificar las opciones para una respuesta de flujo de trabajo que implica enviar una notificación, rellene los campos tal como se describe en la tabla siguiente.  
 
+    > [!NOTE]
+    > Estos campos varían, según la respuesta que haya elegido.
+
        |Campo|Descripción|
        |-----|-----------|
        |**Notificar remitente**|Especifique si se notifica al solicitante de aprobación en lugar de al destinatario de la solicitud de aprobación. Si selecciona la casilla, el campo **Id. de usuario destinatario** está deshabilitado porque se notificará al solicitante de la aprobación, el remitente. El nombre de la respuesta del flujo de trabajo cambia en consecuencia, a **Crear notificación para &lt;remitente&gt;**. Si la casilla no está seleccionada, el nombre de la respuesta del flujo de trabajo es **Crear notificación para &lt;usuario&gt;**.|
@@ -83,19 +86,19 @@ Tanto para los eventos como para las respuestas, las opciones están definidas p
 
     2. Para especificar opciones para una respuesta de flujo de trabajo que implica crear una solicitud de aprobación, rellene los campos tal como se describe en la tabla siguiente.  
 
-        |Campo|Description|  
-        |-----|-----------|  
-        |**Fórmula fecha vencimiento**|Especifique la cantidad de días en que se debe completar la solicitud de aprobación desde la fecha en que se ha enviado.|
-        |**Delegar tras**|Especifica si y cuándo se delegará automáticamente una solicitud de aprobación al sustituto correspondiente. Puede seleccionar delegar automáticamente un día, dos o cinco después de la fecha en que se solicitó la aprobación.|
-        |**Tipo de aprobador**|Especifique quién es el aprobador según la configuración de usuarios de aprobación y usuarios de flujo de trabajo. Cuando el campo se establece como **Vendedor/Comprador**, el usuario configurado en el campo **Cód. vendedor/comprador** en la página **Config. usuario aprobación** determina quién es el aprobador. Los movimientos de solicitud de aprobación se crean según el valor del campo **Tipo de límite de aprobador**. Obtenga más información en [Configurar usuarios de aprobación](across-how-to-set-up-workflow-users.md).|
-        |**Mostrar mensaje de confirmación**|Especifica si un mensaje de confirmación se muestra los usuarios después de que hayan solicitado una aprobación.|
-        |**Tipo de límite de aprobador**|Especifique cómo afectan los límites de aprobación de los aprobadores cuando se crean movimientos de solicitud de aprobación para ellos. Un aprobador calificado es aquel cuyo límite de aprobación es superior al valor de la solicitud que se está realizando. Las siguientes opciones están disponibles: <ol><li>**Cadena de aprobadores** especifica que los movimientos de solicitud de aprobación se crean para todos los aprobadores del solicitante hasta el primer aprobador cualificado, incluido este</li><li>**Aprobador directo** especifica que un movimiento de solicitud de aprobación solo se crea para el aprobador inmediato del solicitante, sea cual sea el límite de aprobación del aprobador.</li><li>**Primer aprobador cualificado** especifica que solo se crea un movimiento de solicitud de aprobación para el primer aprobador cualificado del solicitante.</li></ol>|
+       |Campo|Description|  
+       |-----|-----------|  
+       |**Fórmula fecha vencimiento**|Especifique la cantidad de días en que se debe completar la solicitud de aprobación desde la fecha en que se ha enviado.|
+       |**Delegar tras**|Especifica si y cuándo se delegará automáticamente una solicitud de aprobación al sustituto correspondiente. Puede seleccionar delegar automáticamente un día, dos o cinco después de la fecha en que se solicitó la aprobación.|
+       |**Tipo de aprobador**|Especifique quién es el aprobador según la configuración de usuarios de aprobación y usuarios de flujo de trabajo. Cuando el campo se establece como **Vendedor/Comprador**, el usuario configurado en el campo **Cód. vendedor/comprador** en la página **Config. usuario aprobación** determina quién es el aprobador. Los movimientos de solicitud de aprobación se crean según el valor del campo **Tipo de límite de aprobador**. Obtenga más información en [Configurar usuarios de aprobación](across-how-to-set-up-workflow-users.md).|
+       |**Mostrar mensaje de confirmación**|Especifica si un mensaje de confirmación se muestra los usuarios después de que hayan solicitado una aprobación.|
+       |**Tipo de límite de aprobador**|Especifique cómo afectan los límites de aprobación de los aprobadores cuando se crean movimientos de solicitud de aprobación para ellos. Un aprobador calificado es aquel cuyo límite de aprobación es superior al valor de la solicitud que se está realizando. Las siguientes opciones están disponibles: <ol><li>**Cadena de aprobadores** especifica que los movimientos de solicitud de aprobación se crean para todos los aprobadores del solicitante hasta el primer aprobador cualificado, incluido este</li><li>**Aprobador directo** especifica que un movimiento de solicitud de aprobación solo se crea para el aprobador inmediato del solicitante, sea cual sea el límite de aprobación del aprobador.</li><li>**Primer aprobador cualificado** especifica que solo se crea un movimiento de solicitud de aprobación para el primer aprobador cualificado del solicitante.</li><li>**Aprobador específico** especifica que usted notifique al usuario elegido en el campo **Id. aprobador**.</li></ol>|
     3. Para especificar las opciones para una respuesta de flujo de trabajo que implica crear líneas de diario, rellene los campos tal como se describe en la tabla siguiente.  
 
-        |Campo|Description|  
-        |-----|-----------|  
-        |**Nombre plantilla diario general**|Especifique el nombre de la plantilla de libro de diario general en las que se crearán las líneas de diario especificadas.|  
-        |**Nombre sección diario general**|Especifique el nombre del proceso de diario general en las que se crearán las líneas de diario especificadas.|  
+       |Campo|Description|  
+       |-----|-----------|  
+       |**Nombre plantilla diario general**|Especifique el nombre de la plantilla de libro de diario general en las que se crearán las líneas de diario especificadas.|  
+       |**Nombre sección diario general**|Especifique el nombre del proceso de diario general en las que se crearán las líneas de diario especificadas.|  
 
 11. Seleccione los botones **Aumentar sangría** y **Disminuir sangría** para sangrar el nombre del evento en el campo **Cuando** para definir la posición del paso de flujo de trabajo.  
 
