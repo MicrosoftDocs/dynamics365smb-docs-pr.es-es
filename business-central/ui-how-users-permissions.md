@@ -1,25 +1,25 @@
 ---
 title: Crear usuarios de acuerdo con las licencias
 description: Describe cómo agregar usuarios a Business Central Online o local según las licencias.
-author: edupont04
+author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
 ms.date: 05/09/2022
-ms.author: edupont
-ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.openlocfilehash: f0a9231b68df913c122c4118a5585f8464fdbd00
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729806"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804532"
 ---
 # <a name="create-users-according-to-licenses"></a>Crear usuarios de acuerdo con las licencias
 
-Este artículo describe cómo los administradores crean usuarios y definen quién puede iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)]. Este artículo también cubre cómo asignar permisos a diferentes tipos de usuarios según las licencias de sus productos.
+Este artículo describe cómo los administradores crean usuarios y definen quién puede iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)]. También verá cómo asignar permisos a diferentes usuarios según las licencias de sus productos.
 
-Cuando crea usuarios en [!INCLUDE[prod_short](includes/prod_short.md)], puede asignarles permisos a través de conjuntos de permisos y organizar usuarios en grupos de usuarios. Los grupos de usuarios facilitan la administración de permisos para múltiples usuarios al mismo tiempo. Para obtener más información, vea [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
+Cuando crea usuarios en [!INCLUDE[prod_short](includes/prod_short.md)], les otorga permisos a través de conjuntos de permisos. También puede organizar a los usuarios en grupos de usuarios. Los grupos de usuarios facilitan la administración de permisos y otras configuraciones para múltiples usuarios al mismo tiempo. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 
 Para obtener más información sobre los diferentes tipos de licencias y cómo funcionan las licencias en [!INCLUDE[prod_short](includes/prod_short.md)], [descargue la Guía de licencias de Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -28,14 +28,24 @@ Para obtener más información sobre los diferentes tipos de licencias y cómo f
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Administrar usuarios y licencias en los suscriptores en línea
 
-Su suscripción a [!INCLUDE[prod_short](includes/prod_short.md)] en línea define el número de usuarios que se le permiten. Los usuarios se agregan a su suscriptor en el Centro de socios de Microsoft, generalmente por su socio de Microsoft. Para obtener más información, consulte [Administración de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+Las cuentas de usuario en [!INCLUDE[prod_short](includes/prod_short.md)] deben crearse primero en el centro de administración de Microsoft 365. Estas cuentas de usuario no son exclusivas de Business Central. Si se suscribe a otros planes, se pueden usar para iniciar sesión en otras aplicaciones, como Power BI. Para obtener información sobre cómo crear usuarios en el centro de administración de Microsoft 365, vaya a [Agregar usuarios en el centro de administración de Microsoft](/microsoft-365/admin/add-users/add-users).
 
-Asigne licencias de productos a los usuarios de acuerdo con el trabajo que cada usuario realizará en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede asignar licencias de distintas formas:
+Su suscripción a [!INCLUDE[prod_short](includes/prod_short.md)] en línea define el número de licencias de usuario de [!INCLUDE[prod_short](includes/prod_short.md)] que se le permiten. Los usuarios se agregan a su suscriptor en el Centro de socios de Microsoft, generalmente por su socio de Microsoft. Para obtener más información, consulte [Administración de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+Asigna licencias a los usuarios de acuerdo con el trabajo que cada usuario realizará en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede asignar licencias de distintas formas:
 
 - El administrador de Microsoft 365 de su empresa puede hacerlo en el [Centro de administración de Microsoft 365](https://admin.microsoft.com). Para obtener más información, vea [Agregar usuarios individualmente o en masa a Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - Un socio de Microsoft puede asignar licencias en el Centro de administración de Microsoft 365 o en el Centro de partners de Microsoft. Para obtener más información, vea [Tareas de administración de usuarios para cuentas de cliente](/partner-center/assign-licenses-to-users) en la ayuda del Centro de socios de Microsoft.
 
 Para obtener más información, vea [Administración de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) en la ayuda de administración.
+
+Una vez creadas las cuentas de usuario en el centro de administración de Microsoft 365, existen dos formas de importarlas a Business Central:
+
+- Una cuenta de usuario se importa automáticamente cuando el usuario inicia sesión en Business Central por primera vez.
+
+- El administrador puede importar usuarios eligiendo la acción  **Actualizar usuarios de Microsoft 365** en la página **Usuarios* .
+
+Ambos enfoques tienen sus propias ventajas y puede usarlos simultáneamente. Cada enfoque permite a los administradores configurar de forma proactiva Business Central para asignar los permisos de inicio, los grupos de usuarios y los perfiles de usuario. El uso de la acción **Actualizar usuarios desde Microsoft 365** brinda a los administradores más control para ajustar permisos, grupos de usuarios y perfiles. Es un enfoque ideal cuando configura Business Central por primera vez, antes de que cualquier usuario inicie sesión o cuando agrega un nuevo equipo de usuarios.
 
 > [!NOTE]
 > Después de agregar usuarios en el Centro de administración de Microsoft 365, le recomendamos que actualice la información de usuario en [!INCLUDE[prod_short](includes/prod_short.md)] tan pronto como sea posible. Mantener la información de los usuarios actualizada es fácil y ayuda a garantizar que las personas siempre puedan iniciar sesión. Para obtener más información, consulte [Para agregar usuarios o actualizar información de usuario y asignaciones de licencia en Business Central](#adduser).<br>
@@ -52,9 +62,9 @@ Para más información, vea [Acceso de administrador delegado a Business Central
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
-Los administradores pueden configurar conjuntos de permisos y grupos de usuarios en función de los diferentes tipos de licencia.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
+Los administradores pueden configurar conjuntos de permisos y grupos de usuarios para cada licencia.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
-Por ejemplo, la licencia de uso común, *Miembro de equipo de Dynamics 365 Business Central*, tiene los grupos de usuarios *Miembro del equipo D365* y *Acción de exportación de Excel* más los siguientes conjuntos de permisos de manera predeterminada:
+Por ejemplo, la licencia de uso común, *Miembro del equipo de Dynamics 365 Business Central*, tiene los siguientes conjuntos de permisos de forma predeterminada:
 
 - LEER D365
 - MIEMBRO DEL EQUIPO D365
@@ -62,12 +72,14 @@ Por ejemplo, la licencia de uso común, *Miembro de equipo de Dynamics 365 Busin
 - EXPORTAR EXCEL DE INFORME
 - LOCAL
 
-Si esta configuración predeterminada no es la correcta para un suscriptor en particular, el administrador puede cambiar esa configuración. Sin embargo, los permisos personalizados solo afectarán a los nuevos usuarios a los que se les asigne esa licencia. Los permisos para los usuarios existentes a los que se les asigna la licencia no se verán afectados.  
+Otros conjuntos de permisos se agregan automáticamente en función de los grupos de usuarios asignados a la licencia. Al crear un nuevo usuario basado en esta licencia, [!INCLUDE[prod_short](includes/prod_short.md)] asigna los conjuntos de permisos que se originan en los grupos de usuarios y los conjuntos de permisos de la licencia. Se asignan los mismos permisos iniciales al usuario si su cuenta de usuario se creó automáticamente en [!INCLUDE[prod_short](includes/prod_short.md)] o si el administrador usó la acción **Actualizar usuarios desde Microsoft 365** en la página **Usuarios**.
+
+Si esta configuración predeterminada no es la correcta para un entorno en particular, el administrador puede cambiar esa configuración. Sin embargo, los permisos personalizados solo afectarán a los nuevos usuarios a los que se les asigne esa licencia. Los permisos para los usuarios existentes a los que se les asigna la licencia no se verán afectados.  
 
 1. Inicie sesión en [!INCLUDE[prod_short](includes/prod_short.md)] con una cuenta de administrador.  
 2. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de licencia** y luego elija el vínculo relacionado.  
 
-    Alternativamente, si ya está en la página **Usuarios**, puede ejecutar la guía **Actualizar usuarios desde Microsoft 365** y, a continuación, en la primera página de la guía, elija el vínculo **Configurar permisos por licencia**.  
+    <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. En la página **Configuración de licencia** seleccione la licencia que desea personalizar y, a continuación, seleccione la acción **Configurar**.  
 4. Elija el campo **Personalizar permisos** para activar la personalización y, a continuación, realice los cambios relevantes.  
 
@@ -84,12 +96,12 @@ Después de agregar usuarios o cambiar la información del usuario en el Centro 
 2. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.  
 3. Elija **Actualizar usuarios desde Microsoft 365**.
 
-Para nuevos usuarios, el siguiente paso es asignar grupos de usuarios y permisos. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md). Si está actualizando la información del usuario y la actualización incluye un cambio de licencia, los usuarios se asignarán al grupo de usuarios apropiado y sus conjuntos de permisos se actualizarán. Para obtener más información, vea [Para administrar permisos mediante grupos de usuarios](ui-define-granular-permissions.md).  
+El siguiente paso para los usuarios recién creados es asignar grupos de usuarios y permisos. Vaya a [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md) para obtener información. Si está actualizando un usuario y la actualización incluye un cambio de licencia, los usuarios se asignarán al grupo de usuarios apropiado y sus conjuntos de permisos se actualizarán. Para obtener más información, vea [Para administrar permisos mediante grupos de usuarios](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> Todos los usuarios de un entorno deben tener asignada la misma licencia, Essential o Premium. Para obtener más información, consulte la Guía de licencias de Microsoft Dynamics 365 Business Central. La guía está disponible para descargar en el sitio web de [Business Central](https://dynamics.microsoft.com/business-central/overview/).
+> Todos los usuarios de un entorno deben tener asignada la misma licencia, Essentials o Premium. Para obtener más información sobre las licencias, visite el sitio web [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
-Para obtener más información sobre la sincronización de la información de usuario con Microsoft 365, vea la sección [Sincronización con Microsoft 365](#m365).
+Para obtener más información sobre la sincronización de la información de usuario con Microsoft 365, vaya a la sección [Sincronización con Microsoft 365](#m365).
 
 > [!NOTE]
 > Si utiliza un contable externo para administrar los libros y los informes financieros, puede invitarle a su Business Central para que pueda trabajar con usted en los datos fiscales. Para obtener más información, consulte [Invitar a un contable externo a Business Central](finance-accounting.md#inviteaccountant).
@@ -111,29 +123,27 @@ Cuando asigna una licencia para [!INCLUDE[prod_short](includes/prod_short.md)] a
 - El administrador puede agregar el usuario eligiendo la página **Actualizar usuarios de Microsoft 365** en la página **Usuarios** como se describe en la sección [Para agregar un usuario o actualizar la información del usuario en Business Central](#adduser).
 - La información de la licencia se actualizará automáticamente cuando el usuario inicie sesión por primera vez.
 
-En ambos casos, se realizan automáticamente varias configuraciones. Estas configuraciones se enumeran en la segunda y tercera columnas de la tabla siguiente.
+En ambos casos, se aplican automáticamente varias configuraciones. Estas configuraciones se enumeran en la segunda y tercera columnas de la tabla siguiente.
 
-Si cambia la información del usuario en Microsoft 365, puede actualizar [!INCLUDE[prod_short](includes/prod_short.md)] para reflejar el cambio. Según lo que desee actualizar, use una de las acciones en la página **Usuarios**. Las acciones se describen en las tres últimas columnas de la tabla siguiente.
+Si cambia la información del usuario en Microsoft 365, puede actualizar [!INCLUDE[prod_short](includes/prod_short.md)] para reflejar el cambio. Según lo que desee actualizar, use una de las acciones en la página **Usuarios**. Las acciones se describen en las dos últimas columnas de la tabla siguiente.
 
-> [!NOTE]
-> Las acciones descritas en la siguiente tabla son precisas, sin embargo, la única que necesita es **Actualizar usuarios de Microsoft 365**, que se agregó para simplificar el proceso. Las otras acciones se eliminarán en una versión futura de [!INCLUDE[prod_short](includes/prod_short.md)].
+|Qué pasa cuando:|Primer usuario, primer inicio de sesión|Actualizar usuarios desde Microsoft 365|Restaurar los grupos de usuarios predeterminados del usuario|
+|-|-|-|-|
+|Ámbito:|Usuario actual|Varios usuarios seleccionados|Usuario individual seleccionado (excepto el actual)|
+|Cree el nuevo usuario y asigne el conjunto de permisos SUPER.<br /><br /><!--Platform-->|**X**|**X** | | 
+|Actualice el usuario en función de la información en Microsoft 365: Estado, Nombre completo, Correo electrónico de contacto, Correo electrónico de autenticación.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|
+|Sincronice planes de usuario (licencias) con licencias y roles asignados en Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|
+|Agregue el usuario a grupos de usuarios de acuerdo con los planes de usuario actuales. Quite el conjunto de permisos SUPER para todos los usuarios que no sean el primer usuario en iniciar sesión y los [administradores](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Se necesita al menos un SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**<br /><br />Quita los grupos de usuarios y permisos asignados manualmente.|
 
-|Qué pasa cuando:|Primer usuario, primer inicio de sesión|Obtener usuarios desde Microsoft 365|Actualizar usuarios desde Microsoft 365|Restaurar los grupos de usuarios predeterminados del usuario|Actualizar grupos de usuarios|Actualizar información del usuario desde Microsoft 365|
-|-|-|-|-|-|-|-|
-|Ámbito:|Usuario actual|Nuevos usuarios en Microsoft 365|Varios usuarios seleccionados|Usuario individual seleccionado (excepto el actual)|Varios usuarios seleccionados|Varios usuarios seleccionados|
-|Cree el nuevo usuario y asigne el conjunto de permisos SUPER.<br /><br /><!--Platform-->|**X**||**X** | | | |
-|Actualice el usuario en función de la información en Microsoft 365: Estado, Nombre completo, Correo electrónico de contacto, Correo electrónico de autenticación.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
-|Sincronice planes de usuario (licencias) con licencias y roles asignados en Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
-|Agregue el usuario a grupos de usuarios de acuerdo con los planes de usuario actuales. Quite el conjunto de permisos SUPER para todos los usuarios que no sean el primer usuario en iniciar sesión y los [administradores](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Se necesita al menos un SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Quita los grupos de usuarios y permisos asignados manualmente.|**X**<br /><br />Actualice las asignaciones de grupos de usuarios.| |
+Los usuarios pueden acceder a los registros de [!INCLUDE[prod_short](includes/prod_short.md)] en Teams usando solo su licencia de Microsoft 365. Cuando el acceso está habilitado para un entorno, la sincronización mediante la acción **Actualizar usuarios de Microsoft 365** no incluirá a los usuarios que solo tienen una licencia Microsoft 365 . Para incluir a estos usuarios en la sincronización, primero debe actualizar la configuración del entorno asignando un grupo de seguridad que contenga usuarios con una licencia de [!INCLUDE[prod_short](includes/prod_short.md)] y usuarios con solo una licencia de Microsoft 365.
 
-<!--
-## The Device License
-This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
--->
+Obtenga información sobre cómo proteger el acceso a los entornos mediante grupos de seguridad en [Administrar el acceso mediante grupos de Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+
+Obtenga una descripción general de cómo acceder a Business Central en Teams con licencias de Microsoft 365 en [acceso-administrador-con-licencia-m365](admin-access-with-m365-license.md).
 
 ## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Administrar usuarios y licencias en implementaciones locales
 
-Para las implementaciones locales, el número de licencias de usuario se especifica en el archivo de licencia (.flf). Cuando un administrador o el partner de Microsoft carga el archivo de licencia, puede especificar qué usuarios pueden iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)].
+Para las implementaciones locales, el número de licencias de usuario se especifica en el archivo de licencia (.bclicense or .flf). Cuando un administrador o el partner de Microsoft carga el archivo de licencia, puede especificar qué usuarios pueden iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Para las implementaciones locales, el administrador crea, edita y elimina usuarios directamente desde la página **Usuarios**.
 

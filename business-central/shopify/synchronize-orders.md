@@ -8,18 +8,22 @@ ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 3
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728335"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802936"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Sincronizar y cumplir con los pedidos de ventas
 
 Este artículo describe la configuración necesaria y los pasos que debe seguir para sincronizar y cumplir con los pedidos de ventas con Shopify en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Configurar la importación de pedidos en la ficha de tienda Shopify
+
+Introduzca un **código de moneda** si su tienda en línea utiliza una moneda diferente a la moneda local (LCY). La divisa especificada debe tener tipos de cambio configurados. Si su tienda en línea usa la misma divisa que [!INCLUDE[prod_short](../includes/prod_short.md)], deje el campo vacío. 
+
+Puede ver la moneda de la tienda en la configuración de [Detalles de la tienda](https://www.shopify.com/admin/settings/general) en su Administrador de Shopify. Shopify se puede configurar para aceptar diferentes monedas, sin embargo, los pedidos importados a [!INCLUDE[prod_short](../includes/prod_short.md)] utilizan la moneda de la tienda.
 
 Un pedido regular de Shopify puede incluir costes adicionales al subtotal, como los gastos de envío o, si está activado, las propinas. Estos importes se contabilizan directamente en la cuenta de contabilidad que se desea utilizar para los tipos de transacción específicos:
 
@@ -80,7 +84,7 @@ Puede programar la tarea para que se realice de forma automatizada. Obtenga más
 
 ## <a name="review-imported-orders"></a>Revisar pedidos importados
 
-Una vez completada la importación, puede explorar el pedido de Shopify y encontrar toda la información relacionada, como transacciones de pago, costes de envío, procesos de entrega, nivel de riesgo o los cumplimientos, si el pedido ya se cumplió en Shopify. También puede ver la confirmación de cualquier pedido que se haya enviado al cliente seleccionando la acción **Página de estado de Shopify**.
+Una vez completada la importación, puede explorar el pedido de Shopify y encontrar toda la información relacionada, como transacciones de pago, costes de envío, procesos de entrega, nivel de riesgo, atraibutos y etiquetas de pedidos o los cumplimientos, si el pedido ya se cumplió en Shopify. También puede ver la confirmación de cualquier pedido que se haya enviado al cliente seleccionando la acción **Página de estado de Shopify**.
 
 > [!NOTE]  
 > Puede navegar a la ventana **Pedidos de Shopify** directamente y podrá ver pedidos con estado *abierto* de todas las tiendas. Para revisar los pedidos completados, debe abrir la página **Pedidos de Shopify** desde la ventana **Tarjeta de tienda de Shopify** específica.
@@ -132,6 +136,7 @@ En Shopify:
 |Editar|Impacto|
 |------|-----------|
 |Cambiar la ubicación de proceso de entrega | La ubicación original se sincronizará con [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Cambiar la ubicación de cumplimiento y registre el cumplimiento en Shopify| Si el pedido ya se importó, las líneas no se actualizarán. De lo contrario, el pedido importado utilizará la ubicación de cumplimiento. |
 |Editar un pedido y cambiar la cantidad| El encabezado del pedido y las tablas complementarias se actualizarán en [!INCLUDE[prod_short](../includes/prod_short.md)], las líneas no lo harán. |
 |Editar un pedido y agregar un nuevo artículo | El encabezado del pedido se actualizará, las líneas no. |
 

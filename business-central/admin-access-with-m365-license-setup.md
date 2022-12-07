@@ -9,18 +9,19 @@ ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: f509c0a8bf5e9320eb0f2712863984221b7138b9
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
+ms.search.forms: 9061
+ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9745023"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804424"
 ---
-# <a name="set-up-access-with-microsoft-365-licenses"></a>Configurar acceso con licencias de Microsoft 365 
+# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Configurar el acceso a Business Central en Teams con licencias de Microsoft 365
 
-Los administradores deben completar varias actividades antes de que los usuarios puedan acceder a Business Central con su licencia de Microsoft 365. Los pasos a continuación representan la configuración mínima requerida para comenzar.  
+Los administradores deben completar varias actividades antes de que los usuarios puedan acceder a Business Central con su licencia de Microsoft 365. Los pasos a continuación representan la configuración mínima requerida para comenzar. Para obtener más información sobre el acceso con licencias de Microsoft 365, vaya a [Acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Implementar la aplicación Business Central para Teams 
+## <a name="deploy-the-business-central-app-for-teams"></a>Implementar la aplicación Business Central para Teams
 
 Para que los titulares de licencias de Business Central compartan datos en Teams y para que los titulares de licencias de Microsoft 365 accedan a esos datos, cada uno debe tener instalada la aplicación Business Central para Teams. Aunque los usuarios pueden instalar la aplicación por sí mismos, se recomienda que los administradores utilicen la implementación centralizada. La implementación centralizada le permite implementar la aplicación a una audiencia más amplia en toda la organización y minimizar el esfuerzo del usuario individual. 
 
@@ -43,8 +44,10 @@ Para configurar los permisos de inicio:
 3. En la parte superior de la página de la licencia de **Microsoft 365**, seleccione el icono de edición ![icono de edición](media/edit-pencil.png), luego active **Personalizar permisos**. 
 4. En la sección **Conjuntos de permisos personalizados**, agregue los conjuntos de permisos apropiados y elija si son aplicables a una sola empresa o a todas las empresas dentro del entorno.
 
+Con esta configuración, los usuarios con solo una licencia de Microsoft 365 se agregan a la lista de **Usuarios** cuando acceden a Business Central por primera vez. Para obtener más información sobre los usuarios, vea [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
+
 > [!NOTE]
-> Al sincronizar la lista de usuarios en Business Central con usuarios en Microsoft 365, solo los usuarios que tienen una licencia de Business Central se agregan a la lista de usuarios de Business Central. Los usuarios con solo una licencia de Microsoft 365 se agregan a la lista de usuarios cuando acceden a Business Central por primera vez. Obtenga más información en [Crear usuarios de acuerdo con las licencias](ui-how-users-permissions.md).
+> Al sincronizar la lista de usuarios en Business Central con usuarios en Microsoft 365, solo los usuarios que tienen una licencia de Business Central se agregan a la lista de usuarios de Business Central. Para obtener un mayor control administrativo sobre los permisos, los grupos de usuarios y los perfiles, puede asignar un grupo de seguridad al entorno. Cuando los entornos están protegidos mediante un grupo de seguridad y habilitan el acceso con licencias de Microsoft 365 licencias, la acción **Actualizar usuarios desde Microsoft 365** en la página **Usuarios** también incluirá a los usuarios que solo tienen una licencia de Microsoft 365. Para obtener información sobre cómo proteger los entornos, consulte [Administrar el acceso mediante grupos de Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) en la ayuda para desarrolladores y profesionales de TI.
 
 > [!TIP]
 > ¿Está buscando una forma más rápida de empezar a probar esta característica de espacio aislado o empresa de evaluación? Asigne el conjunto de permisos **Leer D365**, que otorga permiso a la mayoría de los objetos.  
@@ -89,6 +92,6 @@ Para verificar que su configuración esté lista para la producción, los siguie
 
 ## <a name="see-also"></a>Consulte también .
 
-[Acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
+[Descripción general del acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
 [Solucionar problemas de acceso con licencias de Microsoft 365](admin-access-with-m365-license-troubleshooting.md)  
 [Integración de Business Central y Microsoft Teams](across-teams-overview.md)  

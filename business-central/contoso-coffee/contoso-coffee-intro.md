@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362101"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788234"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Introducción a datos de demostración de Contoso Coffee
 
@@ -26,13 +26,13 @@ La aplicación proporciona cuatro productos optimizados para diferentes escenari
 
 - **SP-SCM1011 Airpot Duo**  
 
-  Este producto requiere seguimiento de artículos y tiene un componente que también requiere seguimiento de artículos. El método de coste es *Especial*.  
+  Este producto requiere seguimiento de artículos y tiene un componente que también requiere seguimiento de artículos. El método de coste es *Específico*.  
 
 - **SP-SCM1004 Autodrip**  
 
   Este producto es una L.M. con un producto semiterminado, **Ruta**. Le recomendamos que demuestre los diversos métodos de baja tanto para componentes como para operaciones. El método de coste es *Estándar*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   Este producto tiene tres variantes y tres listas de materiales (L.M.) que se pueden asignar a unidades de almacenamiento. El producto utiliza el concepto de L.M. ficticia. El método de coste es *Estándar*.
 

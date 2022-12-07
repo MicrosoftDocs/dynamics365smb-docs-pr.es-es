@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: a14e81932ab2cc02c691d6dfe8a9a1c4fe326410
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728389"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802962"
 ---
 # <a name="synchronize-items-and-inventory"></a>Sincronizar artículos e inventario
 
@@ -64,8 +64,8 @@ La siguiente tabla describe las diferencias entre las opciones del campo **Asign
 |**Nº producto**|Elíjalo si el campo SKU contiene el número de artículo.|Sin efecto en la creación de un elemento sin variantes. Para un artículo con variantes, cada variante se crea como un artículo separado.<br>Por lo tanto, si Shopify tiene un producto con dos variantes y sus SKU son '1000' y '2000', en [!INCLUDE[prod_short](../includes/prod_short.md)] el sistema creará dos artículos numerados '1000' y '2000'.|
 |**Cód. variante**|El campo SKU no se usa en la rutina de mapeo de artículos.|Sin efecto en la creación del elemento. Cuando se crea una variante de artículo, el valor del campo SKU se usa como código. Si el SKU está vacío, se genera un código usando el campo **Prefijo de variante**.|
 |**N.º artículo + Código de variante**|Seleccione esto si el campo SKU contiene un número de artículo. y el código de variante del artículo se separa por el valor definido en el campo **Separador de campos SKU**.|Cuando se crea un artículo, la primera parte del valor del campo SKU se designa como **N.º**. Si el campo SKU está vacío, un número de artículo se genera utilizando las series numéricas definidas en el campo **Código de plantilla de artículo** o **Números de artículo** de la página **Configuración de inventario**.<br>Cuando se crea un artículo, la función variante usa la segunda del valor del campo SKU se usa como **Código**. Si el campo de SKU está vacío, se genera un código usando el campo **Prefijo de variante**.|
-|**N.º de artículo de proveedor**|Elíjalo si el campo SKU contiene el número de artículo de proveedor. En este caso, el **Número de proveedor de artículo** no se usa en la página **Tarjeta de artículo**; más bien se usa el **Número de artículo del proveedor** del **Catálogo de proveedores de artículos**. Si el registro encontrado de *Catálogo de proveedores de artículos* contiene un código de variante, este código se utiliza para mapear la variante de Shopify.|Si existe un proveedor correspondiente en [!INCLUDE[prod_short](../includes/prod_short.md)], el valor de SKU se usará como **Número de artículo del proveedor** en la página **Tarjeta de artículo** y como **Referencia del artículo** de tipo proveedor. <br>Impide la creación de variantes. Es útil cuando desea usar el artículo principal solo en el pedido de ventas. Todavía puodrá asignar una variante manualmente desde la página **Productos de Shopify**.|
-|**Código de barras**|Elíjalo si el campo SKU contiene un código de barras. Se realiza una búsqueda entre **Referencias de artículos** del tipo de proveedor. Si el registro encontrado de Referencia de artículo contiene un código de variante, este código de variante se utiliza para mapear la variante de Shopify.|Sin efecto en la creación del elemento. <br>Impide la creación de variantes. Es útil cuando desea usar el artículo principal solo en el pedido de ventas. Todavía puodrá asignar una variante manualmente desde la página **Productos de Shopify**.|
+|**N.º de artículo de proveedor**|Elíjalo si el campo SKU contiene el número de artículo de proveedor. En este caso, el **Número de proveedor de artículo** no se usa en la página **Tarjeta de artículo**; más bien se usa el **Número de artículo del proveedor** del **Catálogo de proveedores de artículos**. Si el registro encontrado de *Catálogo de proveedores de artículos* contiene un código de variante, este código se utiliza para mapear la variante de Shopify.|Si existe un proveedor correspondiente en [!INCLUDE[prod_short](../includes/prod_short.md)], el valor de SKU se usará como **Número de artículo del proveedor** en la página **Tarjeta de artículo** y como **Referencia del artículo** de tipo *proveedor*. <br>Impide la creación de variantes. Es útil cuando desea usar el artículo principal solo en el pedido de ventas. Todavía puodrá asignar una variante manualmente desde la página **Productos de Shopify**.|
+|**Código de barras**|Elíjalo si el campo SKU contiene un código de barras. Se realiza una búsqueda entre **Referencias de artículos** del tipo de *código de barras*. Si el registro encontrado de Referencia de artículo contiene un código de variante, este código de variante se utiliza para mapear la variante de Shopify.|Sin efecto en la creación del elemento. <br>Impide la creación de variantes. Es útil cuando desea usar el artículo principal solo en el pedido de ventas. Todavía puodrá asignar una variante manualmente desde la página **Productos de Shopify**.|
 
 En la tabla siguiente se describe los efectos del campo **Código de barras**.
 
@@ -238,9 +238,18 @@ La sincronización de inventarios se puede inicializar de las dos maneras que se
 
 ### <a name="inventory-remarks"></a>Consideraciones sobre inventarios
 
-* El conector calcula el **Saldo disponible proyectado** y lo exporta a Shopify.
+* El conector calcula el **Saldo disponible proyectado** en una fecha actual y lo exporta a Shopify.
 * Puede consultar la información de existencias recibida de Shopify en la página **Cuadro informativo de inventario de Shopify**. En este cuadro informativo, obtendrá una descripción general de las existencias de Shopify y el último inventario calculado en [!INCLUDE[prod_short](../includes/prod_short.md)]. Hay un registro por ubicación.
 * Si la información de existencias en Shopify es diferente de **Saldo disponible proyectado** en [!INCLUDE[prod_short](../includes/prod_short.md)], entonces las existencias se actualizarán en Shopify.
+
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Ejemplo de cálculo de saldo disponible proyectado
+
+Hay 10 piezas del artículo A disponibles y dos órdenes de venta pendientes. Uno para el lunes con cantidad *Uno* y otro para el jueves con cantidad *Dos*. Dependiendo de cuándo sincronice el inventario, el sistema actualizará el nivel de existencias en Shopify con diferentes cantidades:
+
+|Cuando se ejecuta el inventario sincronizado|Valor utilizado para actualizar el nivel de existencias|Comentario|
+|------|-----------------|-----------------|
+|Martes|9|Inventario 10 menos pedido de venta programado para enviarse el lunes|
+|Viernes|7|Inventario 10 menos ambas órdenes de venta|
 
 ## <a name="see-also"></a>Consulte también .
 

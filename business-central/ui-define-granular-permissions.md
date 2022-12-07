@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 09/19/2022
+ms.date: 11/29/2022
 ms.author: bholtorf
-ms.openlocfilehash: d265566e21388978f9ee7cba9372d3d337cbf97e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 058019ec9ce336b701c66c0de277ad57e73344da
+ms.sourcegitcommit: bcd3e5dcbb3d839f38f2321b7ef35d4a2ce492c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604893"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806005"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Asignar permisos a usuarios y grupos
 
@@ -140,9 +140,9 @@ Cree un nuevo conjunto de permisos copiando otro. El nuevo conjunto incluirá to
 2. En la página **Conjuntos de permisos**, elija la acción **Nuevo**.
 3. En una línea nueva, rellene los campos según sea necesario.
 4. Elija la acción **Permisos**.
-5. En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.
-
-    Se inicia un proceso de registro y captura todas sus acciones en la interfaz de usuario.
+1. En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.  
+    La grabación debe realizarse utilizando la función **Abrir esta página en una ventana nueva** (emergente) para tener la ventana de grabación **Permisos** una al lado de la otra, o trabajando dentro de la misma pestaña.  
+    Ahora se inicia un proceso de registro y captura todas sus acciones en la interfaz de usuario.
 6. Vaya a las diferentes páginas y actividades en [!INCLUDE[prod_short](includes/prod_short.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
 7. Cuando desea finalizar el registro, vuelva a la página **Permisos** y, a continuación elija la acción **Paro**.
 8. Seleccione el botón **Sí** para agregar los permisos registrados al nuevo conjunto de permisos.
