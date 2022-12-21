@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
-ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
+ms.openlocfilehash: d401e6d9a0b8fb4f05bcc379322b2f81bfc03c57
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617917"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822420"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido
 
@@ -234,6 +234,11 @@ Para calcular correctamente el IVA en las ventas a países o regiones de la UE, 
 * Asigne grupos de registro de IVA de negocio en el campo **Grupo registro IVA neg.** de la ficha desplegable **Facturación** de la ficha cliente de cada cliente de la UE. También debe introducir el CIF/NIF del cliente en el campo **CIF/NIF** en la Ficha desplegable **Comercio exterior**.  
 
 Cuando registre una venta a un cliente de otro país o región de la UE, se calculará el importe del IVA y se creará un movimiento del IVA con la información sobre el IVA de reversión y la base del IVA (importe utilizado para calcular el importe del IVA). No se registran movimientos en las cuentas del IVA de contabilidad.
+
+Si desea utilizar la combinación del grupo de contabilización de empresas de IVA y el grupo contable de productos de IVA para informar como servicios en los informes periódicos de IVA, marque el campo **Servicio de la UE**.
+
+> [!NOTE]  
+> El campo **Servicio de la UE** solo se aplica a los informes de IVA. El campo no está relacionado con las funciones **Declaración de servicio** o **Intrastat para servicios** .
 
 ## <a name="vat-rounding-for-documents"></a>Redondeo del IVA en los documentos
 

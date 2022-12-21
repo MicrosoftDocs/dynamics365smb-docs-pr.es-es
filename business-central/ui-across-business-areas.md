@@ -1,21 +1,19 @@
 ---
 title: Uso de la funcionalidad general en las áreas de negocio
 description: Obtenga información sobre la funcionalidad y las características que se usan en varias áreas de negocio en Business Central.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605906"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822497"
 ---
 # <a name="general-business-functionality"></a>Funciones empresariales generales
 
@@ -43,7 +41,8 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 |Registre varios documentos de venta o compra juntos, inmediatamente o según lo programado.|[Registrar varios documentos al mismo tiempo](ui-batch-posting.md)|  
 |Revise el resultado del registro antes de registrar.|[Vista previa de los resultados del registro](ui-how-preview-post-results.md)|
 |Edite los campos seleccionados en las ventas registradas o en los documentos de compra.|[Editar documentos registrados](across-edit-posted-document.md)|
-| Comprender el estado disponible de documentos de ofertas, pedidos y notas de abono, como **Pendiente** y **Lanzado** | [Campo de estado en los documentos](ui-document-status.md) |
+|Aprenda a buscar documentos y entradas que estén relacionados entre sí en función de información de un documento, contacto o artículo. | [Buscar entradas relacionadas para documentos registrados](ui-find-entries.md) |
+|Comprender el estado disponible de documentos de ofertas, pedidos y notas de abono, como **Pendiente** y **Lanzado** | [Campo de estado en los documentos](ui-document-status.md) |
 |Obtenga información sobre cómo trabajar con diarios generales, que se usan para registrar en cuentas contables y otras cuentas, como bancarias, de clientes, de proveedores y de activos fijos. |[Trabajar con diarios generales](ui-work-general-journals.md) |
 | Programar un informe para ejecutarlo en una fecha y hora específicos. |[Programar un informe para que se ejecute](ui-work-report.md#ScheduleReport) |
 |Permita al sistema ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted.|[Dejar que Business Central proponga valores](ui-let-system-suggest-values.md)|
