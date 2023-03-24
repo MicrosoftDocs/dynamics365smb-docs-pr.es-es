@@ -1,21 +1,15 @@
 ---
 title: Enviar documentos y correo electrónico
-description: Puede definir el contenido que se insertará en el cuerpo de un mensaje de correo electrónico, por ejemplo, un vínculo de PayPal. También es posible adjuntar documentos a los mensajes de correo electrónico.
+description: 'Puede definir el contenido que se insertará en el cuerpo de un mensaje de correo electrónico, por ejemplo, un vínculo de PayPal. También es posible adjuntar documentos a los mensajes de correo electrónico.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.search.form: ''
+ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607208"
 ---
-# <a name="send-documents-and-emails"></a>Enviar documentos y correo electrónico
+# Enviar documentos y correo electrónico
 
 Puede compartir fácilmente información y documentos, como órdenes de compra y venta y facturas, por correo electrónico directamente desde [!INCLUDE[prod_short](includes/prod_short.md)], sin tener que abrir una aplicación de correo electrónico.  
 
@@ -28,7 +22,7 @@ Para activar los correos electrónicos en [!INCLUDE[prod_short](includes/prod_sh
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] solo admite comunicaciones de correo electrónico salientes. Tampoco puede recibir respuestas desde la aplicación.
 
-## <a name="to-send-documents-by-email"></a>Para enviar documentos por correo electrónico
+## Para enviar documentos por correo electrónico
 
 Este procedimiento describe cómo adjuntar una factura de venta registrada a un correo electrónico como un archivo PDF y con el texto del correo electrónico específico del documento. <!--update this-->
 
@@ -50,7 +44,7 @@ Este procedimiento describe cómo adjuntar una factura de venta registrada a un 
 > [!NOTE]  
 > Si no desea especificar la configuración del correo electrónico cada vez que envíe un documento, puede seleccionar la opción **Sí (Usar configuración predeterminada)** en el campo **Correo electrónico** en la página **Enviar documento a**. En ese caso, la página **Enviar correo electrónico** no se abrirá. Consulte el paso 4. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>Para redactar y enviar un correo electrónico
+## Para redactar y enviar un correo electrónico
 
 Puede redactar rápidamente correos electrónicos para contactos, clientes, proveedores, vendedores/compradores y cuentas bancarias directamente desde las páginas de esas entidades. Solo tiene que elegir **Proceso** y luego **Enviar correo electrónico** para abrir el editor de correo electrónico. Para cuentas bancarias, la acción **Enviar correo electrónico** está en **Acciones**.
 
@@ -59,11 +53,11 @@ Puede redactar rápidamente correos electrónicos para contactos, clientes, prov
 
 Si está asignado a un escenario de correo electrónico relacionado con la entidad a la que está enviando el correo electrónico o el documento que está enviando, es posible que se agregue automáticamente un archivo adjunto a su mensaje. Esto se debe a que se ha asignado un archivo adjunto predeterminado al escenario de correo electrónico. Puede eliminar el archivo adjunto si no desea enviarlo con su mensaje. Para más información, vea [Asignar escenarios de correo electrónico a cuentas de correo electrónico](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documentos marcados como impresos cuando se envían
+## Documentos marcados como impresos cuando se envían
 
 Algunos documentos de [!INCLUDE[prod_short](includes/prod_short.md)] tienen un campo que especifica cuántas veces se ha impreso el documento. El número en ese campo <!--"that field?" need a name...--> también se actualiza si envía el documento por correo electrónico porque se genera un archivo PDF para él. El número se actualiza incluso si no envía el correo electrónico. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Correos electrónicos enviados y su bandeja de salida de correo electrónico
+## Correos electrónicos enviados y su bandeja de salida de correo electrónico
 
 [!INCLUDE[prod_short](includes/prod_short.md)] almacena los correos electrónicos que envía en la página **Elementos enviados**. Eso le permite reenviar correos electrónicos o reenviarlos a otra persona. Si no puede encontrar un correo electrónico en sus artículos enviados, búsquelo en la página **Bandeja de salida de correo electrónico**. 
 
@@ -72,9 +66,9 @@ Algunos documentos de [!INCLUDE[prod_short](includes/prod_short.md)] tienen un c
 
 La **Bandeja de salida de correo electrónico** es donde encontrará los correos electrónicos que guardó como borradores y los correos electrónicos que no se pudieron enviar, por ejemplo, si la dirección de correo electrónico no era válida. Para los mensajes que no se pudieron enviar, puede elegir **Mostrar error** o **Investigar error** para solucionar el problema.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  
 [Configurar correo electrónico](admin-how-setup-email.md)  

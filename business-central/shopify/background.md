@@ -7,21 +7,16 @@ ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 4a67f6fc58fb8b158563ce58baab55e7fda2ccb1
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728605"
 ---
-# <a name="run-tasks-in-the-background"></a>Ejecutar tareas en segundo plano
+
+# Ejecutar tareas en segundo plano
 
 Es eficiente ejecutar algunas tareas simultáneamente y de forma automatizada. Puede realizar dichas tareas en segundo plano y también puede establecer un cronograma cuando desee que esas tareas se ejecuten automáticamente. Para ejecutar tareas en segundo plano, se admiten dos modos:
 
 - Las tareas activadas manualmente se programan inmediatamente a través de **Movimientos de cola de proyectos**.
 - Las tareas recurrentes se programan en **Movimientos de cola de proyectos**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Ejecutar tareas en segundo plano para una tienda específica
+## Ejecutar tareas en segundo plano para una tienda específica
 
 1. Elija la ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") icono, introduzca el nombre de **Tienda de Shopify** y elija el nombre de la tienda de la lista.
 2. Seleccione la tienda para la que desea sincronizar artículos para abrir la página **Tarjeta de tienda de Shopify**.
@@ -29,7 +24,7 @@ Es eficiente ejecutar algunas tareas simultáneamente y de forma automatizada. P
 
 Ahora, cuando se activa la acción de sincronización, en lugar de ejecutar una tarea en primer plano, le pedirá que espere. Cuando se haya completado, puede continuar con la siguiente acción. La tarea se crea como un **Movimiento de cola de proyectos** y comienza instantáneamente sin bloqueos.
 
-## <a name="to-schedule-recurring-tasks"></a>Programar tareas recurrentes
+## Programar tareas recurrentes
 
 Puede programar las siguientes actividades recurrentes para que se realicen de forma automatizada. Obtenga más información sobre programar tareas en [Cola de trabajo](../admin-job-queues-schedule-tasks.md).
 
@@ -47,6 +42,6 @@ Puede programar las siguientes actividades recurrentes para que se realicen de f
 > [!NOTE]
 > Algunos elementos pueden ser actualizados por varias tareas, por ejemplo, cuando importa pedidos, dependiendo de la configuración en la **Tarjeta de tienda de Shopify**, el sistema también puede importar y actualizar datos de clientes y/o productos. Recuerde utilizar la misma categoría de cola de trabajos para evitar conflictos.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Comenzar con el conector para Shopify](get-started.md)  

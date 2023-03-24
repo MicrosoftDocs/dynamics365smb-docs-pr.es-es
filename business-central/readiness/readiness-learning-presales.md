@@ -5,20 +5,15 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 7bede8c805e960848f349a3492784e7d0f568bd7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534486"
 ---
-# <a name="partner-pre-sales-learning-catalog"></a>Catálogo de aprendizaje para preventa para socios
 
-¿Es responsable de demostrar las características clave a los clientes? 
+# Catálogo de aprendizaje para preventa para socios
+
+¿Es responsable de demostrar las características clave a los clientes? 
 
 El siguiente catálogo está organizado desde el conocimiento básico hasta dominios específicos y desde el más básico hasta el más avanzado. Si el contenido está en varios formatos, se lo haremos saber, para que pueda elegir el formato de formación que mejor se adapte a sus necesidades. 
 
-## <a name="get-started"></a>Introducción<a name="get-started"></a>
+## Introducción<a name="get-started"></a>
 
 | Contenido                                                                                                                              | Descripción                                                                                                                                                                                                                                                                                      | Formato                                | Longitud             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -28,21 +23,21 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Lista de reproducción de YouTube de Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | Página de destino de YouTube para los vídeos de Dynamics 365 Business Central | Vídeos de YouTube |                    |
 | [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Explorar las capacidades de Dynamics 365 Business Central                                                                                                                                                                                                                                               | Sitio web                               |                    |
 
-## <a name="grow-your-business"></a>Haga crecer su empresa<a name="grow"></a>
+## Haga crecer su empresa<a name="grow"></a>
 
 | Contenido                                                                                                                                | Descripción                                                                                                                                                                                                                                                                                      | Formato                                | Longitud                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central: Conversaciones convincentes con clientes potenciales (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Únase a Errol Schoenfish, Director de Marketing de Producto, mientras explica cómo tener conversaciones convincentes con clientes potenciales en Microsoft Dynamics 365 Business Central. | Vídeo | 11 minutos 16 segundos |
 | [Dynamics 365 Business Central- Cómo hacerlo realidad](https://mbspartner.microsoft.com/D365/Videos/101787) | Únase a Errol Schoenfish, Director de Marketing de Producto, mientras explica cómo comenzar a habilitar demos para Microsoft Dynamics 365 Business Central. | Vídeo | 12 minutos 29 segundos |
 
-## <a name="business-value"></a>Valor de negocio<a name="busvalue"></a>
+## Valor de negocio<a name="busvalue"></a>
 
 | Contenido                                                                                                                                | Descripción                                                                                                                                                                                                                                                                                      | Formato                                | Longitud                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Explorar las capacidades de Dynamics 365 Business Central | Sitio web |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Este módulo muestra características de aplicación, beneficios y ejemplos de Dynamics 365 Business Central en acción. | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 24 minutos          |
 
-## <a name="whats-new"></a>Novedades<a name="whatsnew"></a>
+## Novedades<a name="whatsnew"></a>
 
 | Contenido                                                                                                                                | Descripción                                 | Formato                                | Longitud                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

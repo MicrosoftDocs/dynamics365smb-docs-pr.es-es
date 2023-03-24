@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 1694bc0267e32d2af4af1202b2dfd1ad4b46ba55
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139760"
 ---
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"
+
+# Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"
 
 Al usar el trabajo por lotes **Ajustar coste: movimientos de producto** puede encontrarse con el siguiente mensaje de error:
 
@@ -24,7 +19,7 @@ Al usar el trabajo por lotes **Ajustar coste: movimientos de producto** puede en
 
 Este mensaje de error indica que el usuario no puede publicar registros para la fecha en cuestión, y esto se puede solucionar cambiando la configuración del usuario.
 
-## <a name="change-the-user-setup"></a>Cambiar la configuración del usuario  
+## Cambiar la configuración del usuario  
 
 |Id. de usuario  |Permitir registro desde  | Permitir registro hasta  |
 |---------|---------|--------|
@@ -32,9 +27,9 @@ Este mensaje de error indica que el usuario no puede publicar registros para la 
 
 El usuario en este caso tiene un rango de fechas de registro permitidas desde el 11 hasta el 30 de septiembre y, por lo tanto, no puede registrar el movimiento de valor de ajuste con fecha de publicación el 10 de septiembre.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Descripción general de la configuración de la fecha de registro involucrada
+### Descripción general de la configuración de la fecha de registro involucrada
 
-#### <a name="inventory-periods"></a>Periodos de inventario
+#### Periodos de inventario
 
 |Fecha final  |Name  |Cerrada  |
 |---------|---------|---------|
@@ -51,7 +46,7 @@ El usuario en este caso tiene un rango de fechas de registro permitidas desde el
 |2020-11-30     |Noviembre de 2020   |         |
 |2020-12-31     |Diciembre de 2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Configuración de contabilidad
+#### Configuración de contabilidad
 
 |Campo|Valor|
 |---------|---------|
@@ -60,7 +55,7 @@ El usuario en este caso tiene un rango de fechas de registro permitidas desde el
 |Registrar tiempo:       |         |
 |Formato dirección local:|   C.P.      |  
 
-#### <a name="user-setup"></a>Configuración de usuarios
+#### Configuración de usuarios
 
 |Id. de usuario  |Permitir registro desde  | Permitir registro hasta  |
 |---------|---------|--------|
@@ -68,7 +63,7 @@ El usuario en este caso tiene un rango de fechas de registro permitidas desde el
 
 Al asignar un rango de fechas de registro permitido más amplio que en el periodo de inventario o la configuración de contabilidad, será posible evitar el conflicto que provoca el mensaje de error. El movimiento valor de ajuste con fecha de contabilización del 10 de septiembre se contabilizará correctamente con esta configuración.
   
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 
 [Detalles de diseño: Fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  

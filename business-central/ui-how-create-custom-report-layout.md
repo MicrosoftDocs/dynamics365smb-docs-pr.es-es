@@ -1,23 +1,17 @@
 ---
 title: Crear y modificar diseños personalizados para informes y documentos
-description: Obtenga información sobre cómo crear sus propios diseños personalizados para personalizar el aspecto de un informe cuando se vea, se imprima o se guarde.
+description: 'Obtenga información sobre cómo crear sus propios diseños personalizados para personalizar el aspecto de un informe cuando se vea, se imprima o se guarde.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604783"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Versión heredada) Crear y modificar diseños de informe personalizados
+# (Versión heredada) Crear y modificar diseños de informe personalizados
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ Después de definir sus diseños de informes personalizados, puede seleccionarlo
 
 También puede utilizar los diseños de los informes personalizados para añadir contenido a los mensajes de correo electrónico. Los diseños de informes pueden ahorrar tiempo y ayudar a garantizar la coherencia al reutilizar el mismo contenido cuando se comunica con sus clientes. Para usar diseños de informes personalizados con correo electrónico, el tipo de archivo para el diseño debe ser Word; no puede usar el tipo de archivo RDLC. Más información en [Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Crear un diseño personalizado
+## Crear un diseño personalizado
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
 
@@ -60,11 +54,11 @@ Se ha creado el diseño personalizado y puede modificarlo como desee.
 > [!TIP]
 > Puede exportar los resultados del informe a un archivo de Microsoft Excel para ver el conjunto de datos completo, incluidas todas las columnas, pero sin el diseño. El archivo de Excel puede ayudarle a validar que el informe devuelve los datos esperados o diagnosticar problemas. Para más información, consulte [Analizar datos de informes con Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modificación de un diseño personalizado
+## <a name="ModifyCustomLayout"></a>Modificación de un diseño personalizado
 
 Para modificar el diseño de un informe personalizado, primero debe exportar el diseño del informe como archivo a una ubicación en su equipo o red. Luego, abra el documento exportado y realice los cambios. Cuando haya terminado de realizar los cambios, importe el diseño de informe.
 
-### <a name="modify-a-custom-layout"></a>Modificar un diseño personalizado
+### Modificar un diseño personalizado
 
 1. Exportar un diseño personalizado desde la página **Diseños de informe personalizados**. Si esta página no es ya abierta, busque y abra la página **Selección de diseño de informes**, seleccione el informe que tiene el diseño que quiere modificar y haga clic en la acción **Diseños personalizados**.  
 2. En la página **Diseños de informe personalizados**, seleccione el diseño que desea modificar, seleccione la acción **Exportar diseño** y, después, seleccione **Guardar** o **Guardar como** para guardar el documento de diseño del informe en una ubicación del equipo o red.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md)  

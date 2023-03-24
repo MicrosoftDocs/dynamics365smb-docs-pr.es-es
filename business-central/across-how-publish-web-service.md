@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: efa143d439a2f172ca3705d2c14d0fdc968b6a40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129264"
 ---
-# <a name="publish-a-web-service"></a>Publicar un servicio web
+# Publicar un servicio web
 
 Los servicios web son una forma ligera para hacer que la funcionalidad de la aplicación esté disponible en distintas clases de sistemas externos y usuarios. Por defecto, [!INCLUDE[prod_short](includes/prod_short.md)] expone una serie de objetos, como servicios web, para una mejor integración con otros servicios de Microsoft. Puede agregar otros servicios web según lo requiera su empresa.  
 
 Configure un servicio web en [!INCLUDE[prod_short](includes/prod_short.md)] y luego publique el servicio web para que esté disponible para los usuarios autenticados. Todo los usuarios autorizados pueden tener acceso a los metadatos de los servicios Web, pero solo los usuarios con permisos suficientes pueden tener acceso a los datos reales.  
 
-## <a name="creating-and-publishing-a-web-service"></a>Crear y publicar un servicio web
+## Crear y publicar un servicio web
 
 Los pasos siguientes explican cómo crear y publicar un servicio web.  
 
-### <a name="to-create-and-publish-a-web-service"></a>Para crear y publicar un servicio web  
+### Para crear y publicar un servicio web  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Servicios web** y luego elija el enlace relacionado.  
 2. En la página **Servicios web**, elija **Nuevo**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -43,7 +37,7 @@ Puede probar el servicio web inmediatamente eligiendo los vínculos de los campo
 
 Una vez publique un servicio Web, está disponible a partes externas. Puede verificar la disponibilidad del servicio web con un explorador o bien, puede elegir el vínculo de los campos **URL de OData** y **URL de SOAP** en la página **Servicios web**. El procedimiento siguiente muestra cómo puede comprobar la disponibilidad del servicio web para uso posterior.  
 
-### <a name="to-verify-the-availability-of-a-web-service"></a>Para verificar la disponibilidad de un servicio web  
+### Para verificar la disponibilidad de un servicio web  
 
 1. En el explorador, escriba la dirección URL correspondiente. La tabla siguiente muestra los tipos de direcciones URL que puede introducir para distintos tipos de servicio web.  
 
@@ -65,7 +59,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administración](admin-setup-and-administration.md)  
 [Servicios web de Business Central para desarrolladores](/dynamics365/business-central/dev-itpro/webservices/web-services)  

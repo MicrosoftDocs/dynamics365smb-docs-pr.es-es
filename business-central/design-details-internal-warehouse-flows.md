@@ -1,122 +1,130 @@
 ---
-title: 'Detalles de diseño: Flujos de almacén internos'
-description: El flujo entre centros de ubicación en picking de componentes y ubicación de artículos finales para órdenes de ensamblado o producción y movimientos ad-hoc, sin documentos de origen.
-author: SorenGP
+title: 'Detalles de diseño: Flujos para producción, ensamblaje y proyectos'
+description: 'Aprenda sobre el flujo entre ubicaciones para picking de componentes y ubicación de artículos finales para órdenes de ensamblado, producción o proyecto.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136379"
+ms.date: 12/16/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-internal-warehouse-flows"></a>Detalles de diseño: Flujos de almacén internos
-El flujo de productos entre las ubicaciones en una ubicación de empresa se centra en el picking de los componentes y en la ubicación de productos para los pedidos de ensamblado u órdenes de producción, y en los movimientos ad hoc, como reposiciones de ubicación, sin una relación con los documentos de origen. El ámbito y la naturaleza de las actividades implicadas varía entre almacenamiento básico y avanzado.  
+# Flujos para producción, ensamblaje y proyectos
 
- Algunos flujos internos se solapan con los flujos de entrada o de salida. Parte de esta superposición se muestra como los pasos 4 y 5 de los diagramas gráficos para los flujos de entrada y de salida avanzados, respectivamente. Para obtener más información, consulte [Detalles de diseño: Flujo de entrada del almacén](design-details-outbound-warehouse-flow.md).  
+Los flujos internos, como la selección de componentes y el almacenamiento de artículos finales para ensamblaje, trabajos y órdenes de producción, son similares a los flujos de entrada o salida. Por lo tanto, muchos de los procesos pueden parecer familiares. Este artículo proporciona información sobre cómo trabajar con flujos de almacén internos con varios niveles de complejidad.
 
-## <a name="internal-flows-in-basic-warehousing"></a>Flujos internos en gestión básica de almacén  
- En la configuración básica del almacén, el flujo de productos entre ubicaciones dentro de la empresa se centra en la selección de componentes y la ubicación de productos finales para pedidos de ensamblado u órdenes de producción, y en movimientos ad hoc, como reposiciones de ubicación, sin relación con los documentos de origen.  
+## Descripción general de las diferentes opciones de configuración
 
-### <a name="flows-to-and-from-production"></a>Flujos a o desde producción  
- La integración principal entre las órdenes de producción y las actividades de almacén básicas se representa mediante la capacidad de realizar el picking de los componentes de producción con las páginas **Picking inventario** o **Movimiento inventario**.  
+Puede configurar funciones de almacén de varias formas. Es importante que las opciones que elija mejoren sus procesos sin causar gastos generales. Las siguientes tablas describen configuraciones típicas para tratar con bienes físicos para producción, trabajos y órdenes de ensamblaje.
 
-> [!NOTE]  
->  En la página **Picking inventario**, el consumo de componentes se registra junto con el registro de selección. En la página **Movimiento inventario** solo se registran los ajustes de la ubicación, ningún movimiento de producto.  
+### Flujo de entrada (ubicación)
 
- Además de la gestión de componentes, la integración se representa mediante la capacidad de colocar los productos fabricados con la página **Ubicación inventario**.  
+|Nivel de complejidad|Descripción|Configuración|Cód. ubicación|Flujo de entrada de la orden de producción|Flujo de entrada de la orden de ensamblaje|Flujo de entrada de proyectos|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|No hay ninguna actividad de almacén dedicada.|Registrar desde pedidos y diarios||Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Diario de producción -> Diario de salida</br><br/> **NOTA**: puede publicar la salida usando **Diario de producción**.|Pedido de ensamblado|La ubicación no se aplica a los trabajos|  
+|Básico|Pedido por pedido.|Requerir almacenamiento. </br><br/> **NOTA**: Aunque la configuración se llama **Requerir ubicación**, aún puede publicar la salida de los documentos de origen en las ubicaciones donde seleccione esta casilla de verificación. |Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Orden de producción -> Ubicación de inventario|Pedido de ensamblado|La ubicación no se aplica a los trabajos|
+|Avanzado|Actividades de ubicación consolidadas para múltiples documentos de origen.|Requerir recepción + Requerir ubicación|Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Orden de producción -> Diario de salida|Órdenes de montaje -> movimientos internos | La ubicación no se aplica a los trabajos|
+|Avanzado|Igual que arriba + Actividades de selección/ubicación dirigidas|Selección y ubicación dirigidas (los conmutadores dependientes se habilitarán automáticamente)|Obligatoria|Igual que en el caso anterior.|Igual que en el caso anterior.| La ubicación no se aplica a los trabajos|
 
- Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ficha de ubicación o de las fichas de máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.  
+Algunas configuraciones no le permiten usar documentos de almacén dedicados para registrar ubicaciones. Sin embargo, si su ubicación usa contenedores, puede usar documentos de movimiento genéricos para mover artículos producidos o ensamblados al almacén. Obtener más información en [Mover productos internamente en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
- Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección "Consumo de componentes de producción en el almacén" en este tema.  
+### Flujo de salida (pick)
 
-### <a name="flows-to-and-from-assembly"></a>Flujos a o desde el ensamblado  
- La integración principal entre los pedidos de ensamblado y las actividades de almacén básico se representa por la capacidad de mover a los componentes del ensamblado al área de ensamblado.  
+|Nivel de complejidad|Descripción|Configuración|Cód. ubicación|Flujo de salida de la orden de producción|Flujo de salida de la orden de ensamblaje|Flujo de salida de proyectos|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|No hay ninguna actividad de almacén dedicada.|Registrar desde pedidos y diarios||Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Diario de producción -> Diario de consumo </br><br/> **NOTA**: puede registrar el consumo usando un **Diario de producción**.|Pedido de ensamblado|Proyecto -> Diario de proyecto|  
+|Básico|Pedido por pedido.|Picking requerido. </br><br/> **NOTA**: Aunque la configuración se llama **Picking requerido**, aún puede publicar la salida de los documentos de origen en las ubicaciones donde seleccione esta casilla de verificación. <!-- ToDo Test prod output-->|Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Pedido de producción -> Picking de inventario|Orden de montaje -> movimiento de inventario</br><br/>El **Movimiento de inventario** solo se puede usar con ubicaciones.|Proyecto -> Picking de inventario|
+|Avanzado|Actividades de picking consolidadas para múltiples documentos de origen.|Requerir envío + Requerir picking|Opcional. Controlado por el control de alternancia Código Bin es Obligatorio|Órdenes de producción -> Picking de almacén -> Diario de consumo |Órdenes de montaje -> Selección de almacén| Proyectos -> Picking de almacén -> Diario de proyectos |
+|Avanzado|Igual que arriba + Actividades de selección/ubicación dirigidas|Selección y ubicación dirigidas (los conmutadores dependientes se habilitarán automáticamente)|Obligatoria|Igual que en el caso anterior.|Igual que en el caso anterior.| La ubicación y el picking directo no es compatible con los proyectos|
 
- Aunque no existe una funcionalidad de almacén específica para la ubicación de elementos de ensamblado, el código de ubicación del encabezado de pedido de ensamblado se puede configurar en una ubicación predeterminada. El registro del pedido de ensamblado funciona como el registro de una ubicación. La actividad de almacén para mover los elementos de ensamblado al almacén se puede administrar en la página **Movimiento interno**, sin relación con el pedido de ensamblado.  
+De manera similar al flujo de entrada, algunas configuraciones no le permiten usar documentos de almacén dedicados para registrar ubicaciones. Si su ubicación usa contenedores, puede usar documentos de movimiento genéricos para mover artículos producidos o ensamblados. Obtenga más información en [Mover productos](warehouse-move-items.md).
 
- Existen los siguientes flujos de ensamblado.  
+## Almacenes sin actividad de almacén dedicada
 
-|Flujo de trabajo|Descripción|  
-|----------|---------------------------------------|  
-|Ensamblar para stock|Los componentes se necesitan en un pedido de ensamblado donde la salida se guarda en el almacén.<br /><br /> Este flujo de almacén se administra en la página **Movimiento inventario**. Una línea de toma especifica de dónde tomar los componentes. Una línea de plaza especifica dónde colocar los componentes.|  
-|Ensamblar para pedido|Los componentes se necesitan en un pedido de ensamblado vinculado a un pedido de venta que se envía cuando se ensambla el producto vendido.|  
+Incluso si no tiene actividades de almacén dedicadas, probablemente aún desee realizar un seguimiento de cosas como el consumo y la producción. Los siguientes artículos proporcionan información sobre cómo procesar recibos para documentos de origen.
 
-> [!NOTE]  
->  Si se ensamblan productos para un pedido, la selección de inventario del pedido de venta vinculado acciona un movimiento de inventario para todos los componentes de ensamblado que participan, no solo para el producto vendido, como ocurre al enviar productos de inventario.  
+* [Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md)
+* [Ensamblar artículos](assembly-how-to-assemble-items.md)
+* [Registrar el consumo o uso para proyectos](projects-how-record-job-usage.md)
 
- Los campos de **Cód. ubic. para ensamblado**, **Cód. ubic. desde ensamblado** y **Cód. ubic. ens.contra-pedido** de la ficha de ubicación definen los flujos predeterminados a áreas del ensamblado y desde ellas.  
+## Configuración básica de almacén
 
-> [!NOTE]  
->  El campo **Cód. ubic. ens.contra-pedido** funciona como la ubicación desde ensamblado en los escenarios ensamblar para pedido.  
+Los flujos de entrada y salida en una configuración básica de almacén implican la siguiente configuración en la página **Tarjeta de ubicación** para la ubicación:
 
-### <a name="ad-hoc-movements"></a>Movimientos ad hoc  
- En la gestión básica del almacén, el movimiento de los productos de ubicación a ubicación sin relación con los documentos de origen se realiza en la página **Movimiento interno**, la cual funciona conjuntamente con la página **Movimiento inventario**.  
+* Para el flujo de entrada (ubicación), active la opción **Requerir ubicación**, pero desactive el control de alternancia **Requerir recibo**.
+* Para el flujo de salida (picking), active la opción **Requerir picking**, pero desactive el control de alternancia **Requerir envío**.
 
- Otra forma de mover productos ad hoc entre ubicaciones es registrar movimientos positivos en el campo **Código ubicación nuevo** de la página **Diario reclasif. producto**.  
+### Flujos hacia y desde producción en una configuración básica de almacén  
 
-## <a name="internal-flows-in-advanced-warehousing"></a>Flujos internos en gestión avanzada de almacén  
- En configuraciones avanzadas de almacén, el flujo de productos entre las ubicaciones dentro de la empresa se centra en el componente de selección y colocación de productos finales para órdenes de producción y componentes de selección para pedidos de ensamblado. Además, los flujos internos se producen como movimientos ad hoc, como reposiciones de ubicación, sin relación con los documentos de origen.  
+Utilice documentos de **Picking de inventario** para seleccionar componentes de producción en el flujo a producción. Para ubicar los productos que produce, use documentos de **Almacenamiento de inventario**.
 
-### <a name="flows-to-and-from-production"></a>Flujos a o desde producción  
- La integración principal entre las órdenes de producción y las actividades de almacén avanzadas se representa mediante la capacidad de realizar el picking de los componentes de producción, en las páginas **Picking almacén** y **Hoja trabajo picking**, y la capacidad de ubicar los productos fabricados con la página **Ubicación interna alm.**  
+Para ubicaciones que usan contenedores, los documentos de movimiento de inventario son especialmente útiles para el vaciado de componentes. Para obtener más información acerca del procedimiento de bajada del consumo de componentes desde las ubicaciones para producción o de aprovisionamiento manual, consulte [Baja de componentes de producción en el almacén](warehouse-how-to-pick-for-production.md#flushing-production-components-in-a-basic-warehouse-configuration).
 
- La página **Movimiento almacén** proporciona otro punto de integración en la producción, que junto con la página Hoja trabajo movimiento, le permite colocar componentes y hacerse con productos fabricados para las órdenes de producción lanzadas.  
+   > [!NOTE]
+   > Los movimientos de inventario son documentos importantes si utiliza los métodos de vaciado **Seleccionar + adelante** o **Seleccionar + retroceder**. Obtenga más información en [Métodos de baja](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
- Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ficha de ubicación o de las fichas de máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.  
+* Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ubicación o de la máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas.
+* Administre el movimiento de artículos producidos en la página **Movimiento interno** sin una relación con una orden de producción.
 
- Para obtener más información acerca del procedimiento de bajada del consumo desde las ubicaciones para producción o de aprovisionamiento manual, consulte la sección "Consumo de componentes de producción en el almacén" en este tema.  
+### Flujos hacia y desde ensamblado en una configuración básica de almacén  
 
-### <a name="flows-to-and-from-assembly"></a>Flujos a o desde el ensamblado  
- La integración principal entre los pedidos de ensamblado y las actividades de almacén avanzadas se representa por la capacidad de realizar el picking de los componentes del ensamblado, tanto en la página **Picking almacén** como en la página **Hoja trabajo picking**. Esta funcionalidad opera igual que al realizar el picking de componentes para las órdenes de producción.  
+Publique la producción y el consumo de ensamblaje directamente desde una orden de ensamblaje.
 
- Aunque no existe una funcionalidad de almacén específica para la ubicación de elementos de ensamblado, el código de ubicación del encabezado de pedido de ensamblado se puede configurar en una ubicación predeterminada. El registro del pedido de ensamblado funciona como el registro de una ubicación. La actividad de almacén para mover los elementos de ensamblado al almacén se puede administrar en la página **Hoja trabajo movimiento** o **Ubicación interna alm.**, sin relación con el pedido de ensamblado.  
+> [!NOTE]
+> Los documentos de **selección de inventario** y **ubicación de inventario** no se admiten para órdenes de ensamblado.
 
-> [!NOTE]  
->  Si se ensamblan productos para un pedido, el envío de almacén del pedido de venta vinculado acciona una selección de almacén para todos los componentes de ensamblado que participan, no solo para el producto vendido, como ocurre al enviar productos de inventario.  
+Para almacenes que usan ubicaciones:
 
- Los campos de **Cód. ubic. para ensamblado** y **Cód. ubic. desde ensamblado** de la ficha de ubicación definen los flujos predeterminados a áreas del ensamblado y desde ellas.  
+* Utilice los documentos **Movimiento de inventario** para mover componentes del ensamblado al área de ensamblado.
+* Los campos de **Cód. ubic. para ensamblado**, **Cód. ubic. desde ensamblado** de la ficha de ubicación definen los flujos predeterminados a áreas del ensamblado y desde ellas.
+* Administre el movimiento de artículos ensamblados en la página **Movimiento interno**, sin una relación con una orden de ensamblado.
 
-### <a name="ad-hoc-movements"></a>Movimientos ad hoc  
- En la gestión avanzada del almacén, el movimiento de los productos de ubicación a ubicación sin relación con los documentos de origen se gestiona en la página **Hoja trabajo almacén** y se registra en la página Movimiento almacén.  
+[!INCLUDE [prod_short](includes/prod_short.md)] es compatible con los flujos de ensamblado ensamblar para stock y ensamblar para pedido. Obtenga más información en [Descripción de ensamblar para pedido y ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). En relación con la gestión de almacenes, ensamblar para stock es parte del flujo de almacén interno y ensamblar para ordenar está en el flujo de almacén de salida. Obtenga más información en [Tratamiento de productos de ensamblar para pedido con los picking de inventario](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="flushing-production-components-in-the-warehouse"></a>Consumo de componentes de producción en el almacén  
- Si se han configurado en la ficha del producto, los componentes seleccionados mediante de almacén se registran como consumidos por la orden de producción cuando se registra la selección de almacén. Con los métodos de baja **Seleccionar + Adelante** y **Seleccionar + Atrás**, el registro de selección activa el registro de consumo relacionado cuando la primera operación comienza o cuando la última operación acaba, respectivamente.  
+### Flujos de gestión de proyectos en una configuración básica de almacén
 
- Tenga en cuenta el ejemplo siguiente basado en la base de datos de demostración de [!INCLUDE[prod_short](includes/prod_short.md)].  
+Utilice documentos de **Picking de inventario** para seleccionar componentes de proyecto en el flujo a la administración de proyectos.
 
- Existe una orden de producción para 15 UDS del producto LS-100. Algunos de los productos de la lista de componentes deben darse de baja manualmente en un diario de consumo, y en los demás productos de la lista se puede llevar a cabo el picking y la baja automáticamente mediante el método de baja **Pick + Atrás**.  
+Para una ubicación que utiliza contenedores, el campo **Código de contenedor al trabajo** en la ubicación define los flujos predeterminados para la gestión de proyectos.
 
-> [!NOTE]  
->  **Pick + Adelante** solo funciona si la segunda operación de línea de ruta de producción usa un código de vínculo de rutas. Lanzar una orden de producción planificada inicia la baja hacia adelante de los componentes configurados como **Pick + Adelante**. No obstante, la baja no puede realizarse hasta que se registre la selección de los componentes, que de nuevo solo puede tener lugar cuando se lance el pedido.  
+## Configuración avanzada de almacén  
 
- En los pasos siguientes se describen las acciones correspondientes para distintos usuarios y la respuesta relacionada:  
+Los flujos de entrada y salida en una configuración avanzada de almacén implican la siguiente configuración en la página **Tarjeta de ubicación** para la ubicación:
 
-1.  El supervisor de planta lanza la orden de producción. Los productos con el método de baja **Anticipada** y sin código de conexión de ruta se deducen de la ubicación de aprovisionamiento manual.  
-2.  El supervisor de planta elige el botón **Crear selección de almacén** en la orden de producción. Un documento de selección de almacén se crea para seleccionar productos con métodos de baja **Manual**, **Seleccionar + Atrás** y **Seleccionar + Adelante**. Estos productos se colocan en la ubicación para producción.  
-3.  El administrador de almacén asigna los picking a un empleado de almacén.  
-4.  El trabajador de almacén picking directos los productos de las ubicaciones y de los apartados apropiados estos comandos en la ubicación para producción o en la ubicación especificados en picking de almacén, que puede ser una ubicación del centro de trabajo o del centro de máquina.  
-5.  El empleado de almacén registra el picking. La cantidad se resta de las ubicaciones de picking y se agregan a la ubicación de consumo. Se actualiza el campo **Cdad. preparada pedido** de la lista de componentes para todos los productos preparados.  
+* Para el flujo de entrada (ubicación), active los controles de alternancia **Requerir recepción** y **Requerir almacenamiento**.
+* Para el flujo de salida (picking), active los controles de alternancia **Requerir envío** y **Requerir recepción**.
 
-    > [!NOTE]  
-    >  Solo se puede consumir la cantidad preparada.  
+### Flujos hacia y desde producción en configuraciones avanzadas de almacén
 
-6.  El operador de máquina notifica al director de producción que se han completado los productos finales.  
-7.  El supervisor de planta usa el diario de consumo o de producción para registrar el consumo de los productos componentes que usan el método de baja **Manual**, o bien los métodos de baja **Adelante** o **Pick + Adelante** junto con los códigos de conexión de ruta.  
-8.  El administrador de producción registra la salida de la orden de producción y modifica el estado a **Terminada**. La cantidad de productos componentes que usan el método de baja **Atrás** se deduce de la ubicación de aprovisionamiento manual y la cantidad de los productos componentes que usan el método de baja **Pick + Atrás** se deduce de la ubicación para producción.  
+Utilice los documentos **Selección de almacén** y la página **Hoja de trabajo de selección** para seleccionar componentes para producción.
 
- En la ilustración siguiente se muestra cuando se rellena el campo **Cód. ubicación** de la lista de componentes según la configuración de la máquina o del centro de trabajo.  
+Para almacenes que usan ubicaciones:
 
- ![Descripción general de cuándo y cómo se rellena el campo Código de ubicación.](media/binflow.png "Descripción general de cuándo y cómo se rellena el campo Código de ubicación")  
+* Los documentos **Movimiento de almacén** y la página **Hoja de trabajo de movimiento** son especialmente útiles para el vaciado de componentes. Obtenga más información en [Baja de componentes de producción en el almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md#flushing-production-components-in-a-advanced-warehouse-configuration).
+* Los campos **Cód. ubic. para producción**, **Cód. ubic. desde producción** y **Abre ubic. aprovision. manual** de la ubicación o de la máquina/centro de trabajo definen los flujos predeterminados a las áreas de producción y desde ellas. 
+* Administre el movimiento de artículos producidos en las páginas **Hoja de trabajo de movimiento** o **Almacenamiento interno de almacén**, sin una relación con una orden de producción.
 
-## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)
+### Flujos hacia y desde ensamblaje en configuraciones avanzadas de almacén
 
+Utilice los documentos **Selección de almacén** y la página **Hoja de trabajo de selección** para seleccionar componentes para el ensamblaje.
+
+Para almacenes que usan ubicaciones:
+
+* Los campos de **Cód. ubic. para ensamblado** y **Cód. ubic. desde ensamblado** en la ubicación definen los flujos predeterminados a áreas del ensamblado y desde ellas.
+* Administre el movimiento de artículos de ensamblaje en las páginas **Hoja de trabajo de movimiento** o **Almacenamiento interno de almacén**, sin una relación con una orden de ensamblaje.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] es compatible con los flujos de ensamblado ensamblar para stock y ensamblar para pedido. Obtenga más información en [Descripción de ensamblar para pedido y ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). 
+
+Ensamblar para stock es parte del flujo de almacén interno y ensamblar para ordenar está en el flujo de almacén de salida. Obtenga más información en [Tratamiento de productos de ensamblar para pedido en los envíos de almacén](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
+
+### Flujos de gestión de proyectos en configuraciones avanzadas de almacén
+
+Utilice los documentos **Selección de almacén** y la página **Hoja de trabajo de selección** para seleccionar componentes en el flujo para gestión de proyectos.
+
+Para almacenes que utilizan ubicaciones, el campo **Código de contenedor a proyectos** en la ubicación define los flujos predeterminados para el área de proyectos.
+
+## Consulte también  
+
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

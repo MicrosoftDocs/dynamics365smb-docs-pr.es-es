@@ -1,23 +1,17 @@
 ---
 title: Resumen de tareas para administrar las ventas
-description: Lea todo sobre cómo utilizar los servicios de Business Central para administrar las actividades de ventas de sus clientes con facturas de ventas, pedidos, ofertas y más.
+description: 'Lea todo sobre cómo utilizar los servicios de Business Central para administrar las actividades de ventas de sus clientes con facturas de ventas, pedidos, ofertas y más.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell
+ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: d6db11d2cb8f7d2cb0906146d03f423b815c29d1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535751"
 ---
-# <a name="sales"></a>Venta
+# Venta
 
 Puede crear una factura o un pedido de ventas para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.
 
@@ -59,7 +53,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Informar a los clientes las fechas de entrega de los pedidos, mediante el cálculo de la fecha fecha capaz de comprometer o la fecha del neto no comprometido.|[Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)|
 |Resolver la confusión cuando existen dos o más registros para el mismo cliente.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/) relacionada.
+## Consultar la [formación de Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/) relacionada.
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
