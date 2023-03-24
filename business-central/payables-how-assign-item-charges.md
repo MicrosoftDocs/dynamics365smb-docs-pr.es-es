@@ -1,23 +1,17 @@
 ---
 title: Asignar cargos de producto a ventas y compras (contiene vídeo)
-description: Asigne cargos de productos cuando necesite que sus productos de inventario carguen costes adicionales, tales como fletes y manipulación física en los que incurra al comprar o vender artículos.
+description: 'Asigne cargos de productos cuando necesite que sus productos de inventario carguen costes adicionales, tales como fletes y manipulación física en los que incurra al comprar o vender artículos.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: transportation, added cost, landed cost
-ms.search.form: 5709, 5800, 5805, 5814
+ms.search.keywords: 'transportation, added cost, landed cost'
+ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 626af5eb217548b3813a137c16b7a84c1e860da2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528739"
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto a cuenta para los costes comerciales adicionales
+# Usar los cargos de producto a cuenta para los costes comerciales adicionales
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. Para las compras, el coste de descarga de un producto comprado se compone del precio de compra del proveedor sumado a todos los cargos de producto directos adicionales que se pueden asignar a albaranes o envíos devueltos determinados. Para las compras, conocer el coste de envío de los productos vendidos es tan importante para la empresa como conocer el coste de los productos comprados.
 
 Además de registrar el coste añadido en el valor de inventario, puede usar la función de cargos de producto para:
@@ -35,19 +29,19 @@ Para los documentos de compra y de venta, puede asignar un coste de producto de 
 > [!NOTE]  
 >   Puede asignar cargos de artículos a pedidos, facturas y abonos para ventas y compras. Los procedimientos siguientes describen cómo gestionar los cargos de producto en una factura de compra. Los pasos son parecidos a los de los documentos de compra y venta.
 
-## <a name="example"></a>Ejemplo:
+## Ejemplo:
 Este vídeo muestra cómo gestionar un coste de envío adicional como parte de la valoración de existencias.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Configurar números de coste de producto
+## Configurar números de coste de producto
 Los números de cargo de producto sirven para diferenciar los distintos tipos de cargos que se utilizan en la empresa.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cargos de producto**, y luego elija el enlace relacionado.
 2. En la página **Cargos producto**, seleccione la acción **Nuevo** para crear una línea nueva.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto directamente en la factura de compra del producto
+## Asignar un coste de producto directamente en la factura de compra del producto
 Si conoce el coste de un producto en el momento en que registra la factura de compra, siga este procedimiento.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
@@ -70,7 +64,7 @@ El cargo del producto está completamente asignado, el valor de la factura de co
 
 El cargo de producto está asignado a la factura de compra. Al registrar la recepción de la factura de compra, los valores de inventario de los elementos se actualizan con el coste del cargo del producto.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto de una factura independiente a la factura de compra del producto
+## Asignar un coste de producto de una factura independiente a la factura de compra del producto
 Si recibió una factura por el cargo de producto después de haber publicado el recibo de compra original, siga este procedimiento.
 1. Repita los pasos del 1 al 8 en [Asignar un coste de producto directamente en la factura de compra del producto](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. En la página **Asignación cargos prod.**, elija la acción **Traer líns. albarán**.
@@ -79,9 +73,9 @@ Si recibió una factura por el cargo de producto después de haber publicado el 
 
 El cargo de producto de la factura de compra independiente se asigna al producto en el recibo de compra registrado, y se actualiza el valor de inventario del artículo con el coste del cargo de producto.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administrar pagos](payables-manage-payables.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  

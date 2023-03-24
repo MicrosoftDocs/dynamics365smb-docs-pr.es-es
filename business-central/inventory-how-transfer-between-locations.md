@@ -1,48 +1,54 @@
 ---
 title: Transferir productos entre almacenes
-description: Describe cómo mover el inventario de un lugar o almacén a otro con el diario de reclasificación o con pedidos de transferencia.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: move, warehouse
-ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: b3fb127931f433ab7f433fca4ab8ba4a9ef306e1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534864"
+description: Aprenda a mover el inventario de un lugar o almacén a otro con el diario de reclasificación o con pedidos de transferencia.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 02/21/2023
+ms.custom: bap-template
+ms.search.keywords: 'move, warehouse'
+ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ---
-# <a name="transfer-inventory-between-locations"></a>Transferir el inventario entre almacenes
+# Transferir el inventario entre almacenes
 
 Puede transferir inventarios de productos entre almacenes creando pedidos de transferencia. También puede usar el diario de reclasificación de productos.
 
-Con los pedidos de transferencia, se envía la transferencia de salida desde un almacén y se recibe la transferencia de entrada en el otro almacén. Esto permite administrar las actividades de almacén correspondientes y proporciona más certidumbre de que las cantidades del inventario se actualizan correctamente.
+> [!NOTE]
+> Para transferir productos, debe configurar los almacenes y las rutas de transferencia. Para obtener más información sobre cómo configurar almacenes, vaya a [Configurar almacenes](inventory-how-setup-locations.md). No puede usar pedidos de transferencia para almacenes *en blanco*.
 
-Cono el diario de reclasificación, simplemente se rellenan los campos **Código de almacén** y **Nuevo código de almacén**. Al registrar el diario, los movimientos de productos se ajustan en los almacenes en cuestión. Con este método, las actividades de almacén no se administran.
+## Pedidos de transferencia
 
-> [!NOTE]  
->   Si tiene productos registrados en el inventario sin un código de almacén, por ejemplo cuando solo tenía un almacén, no podrá transferir estos productos con pedidos de transferencia. En su lugar, deberá utilizar el diario de reclasificación para reclasificar los productos desde un código de almacén en blanco a un código de almacén real.  Para obtener más información, vea el paso 3 en [Para transferir productos con el diario de reclasificación](inventory-how-transfer-between-locations.md#to-transfer-items-with-the-item-reclassification-journal).
+Puede enviar una transferencia de salida desde un almacén y recibir una transferencia de entrada en el destino. Con él, puede:
 
-Para transferir productos, se deben configurar las ubicaciones y las rutas de transferencia. Para obtener más información, consulte [Configurar ubicaciones](inventory-how-setup-locations.md).
+* Seguimiento de una cantidad en tránsito
+* Defina calendarios, rutas y tiempos de manejo de entrada y salida para el cálculo y la planificación de fechas. Para obtener más información sobre la planificación, vaya a [Sobre la funcionalidad de la planificación](production-about-planning-functionality.md).
+* Use diferentes funciones de almacén para los almacenes de entrada y salida.
+* Con algunas limitaciones, puede usar pedidos de transferencia para transferencias directas.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>Para transferir productos con un pedido de transferencia
+## Diarios de reclasificación de productos
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de transferencia** y luego elija el enlace relacionado.
+* Transferencia sencilla y directa de productos entre almacenes.
+* Mueva productos entre ubicaciones. Para obtener más información sobre la transferencia de productos entre ubicaciones, vaya a [Mover productos no planificados en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
+* Cambie un número de serie o lote por un nuevo número de serie o lote. Para obtener más información sobre cómo reclasificar los números de serie o lote, vaya a [Reclasificar números de serie o lote](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+* Cambie la fecha de caducidad a una nueva fecha.
+* Reclasifique productos desde un almacén *en blanco* hasta un almacén real.
+* Las actividades de almacén no se administran. Se crearán movimientos de almacén.
+
+## Para transferir productos con un pedido de transferencia
+
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de transferencia** y luego elija el enlace relacionado.
 2. En la página **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Cód. servicio transportista** en la página **Ruta transf. espec.** cuando configuró la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
+    >   Si ha rellenado los campos **Cód. en tránsito**, **Cód. transportista** y **Cód. servicio transportista** en la página **Ruta transf. espec.** al configurar la ruta de transferencia, los campos correspondientes del pedido de transferencia se rellenan automáticamente.
 
     Cuando se especifica un valor en el campo **Servicio transportista**, se calcula la fecha de recepción en el almacén de destino de la transferencia, sumando el tiempo de envío del transportista a la fecha de envío.
 
 3. Para rellenar las líneas, introdúzcalas manualmente o elija una de las siguientes opciones en la acción **Funciones**:
-    - Elija la acción **Traer conten. ubicac.** para seleccionar productos existentes de un contenedor específico en el almacén.
-    - Elija la acción **Traer líns. albarán** para seleccionar productos que acaban de llegar al almacén de transferencia.   
+
+    * Elija la acción **Traer conten. ubicac.** para seleccionar productos existentes de un contenedor específico en el almacén.
+    * Elija la acción **Traer líns. albarán** para seleccionar productos que acaban de llegar al almacén de transferencia.
 
     Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con el envío de los productos.
 4. Seleccione la acción **Registrar**, seleccione la opción **Envío** y seleccione el botón **Aceptar**.
@@ -52,20 +58,20 @@ Para transferir productos, se deben configurar las ubicaciones y las rutas de tr
     Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con la recepción de los productos. Las líneas del pedido de transferencia son las mismas que en el envío y no se pueden editar.
 5. Seleccione la acción **Registrar**, seleccione la opción **Recepción** y seleccione el botón **Aceptar**.
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Para transferir productos con el diario de reclasificación de productos
+## Para transferir productos con el diario de reclasificación de productos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios reclasif. producto**, y luego elija el enlace relacionado.
 2. En la página **Diarios reclasif. producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. En el campo **Cód. almacén**, escriba la el almacén donde se almacenan los productos actualmente.
 
     > [!NOTE]  
-    >   Para transferir productos que no tienen código de almacén, deje en blanco el campo **Cód. almacén**.
+    > Para transferir productos que no tienen código de almacén, deje en blanco el campo **Cód. almacén**.
 4. En el campo **Cód. almacén destino**, especifique el almacén al que desee transferir los productos.
 5. Seleccione la acción **Registrar**.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/transfer-items/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/transfer-items/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Configurar ubicaciones](inventory-how-setup-locations.md)  

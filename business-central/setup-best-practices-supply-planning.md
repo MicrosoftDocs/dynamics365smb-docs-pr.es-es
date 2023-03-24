@@ -1,22 +1,16 @@
 ---
 title: 'Procedimientos recomendados de configuración: planificación de suministros'
-description: Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.
+description: 'Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516541"
 ---
-# <a name="setup-best-practices-supply-planning"></a>Procedimientos recomendados de configuración: planificación de suministros
+# Procedimientos recomendados de configuración: planificación de suministros
 La planificación de suministros es un área comercial crítica. Cuando se configura y utiliza correctamente, la planificación de suministros ayuda a que una empresa evite quedarse sin existencias y reduzca tanto los costes de pedido como los de inventario.  
 
  No es posible prescribir una configuración óptima de todos los campos de planificación, ya que varía en cada empresa debido a las variables empresariales, como la situación del mercado y la estrategia empresarial. Sin embargo, hay prácticas recomendadas para seleccionar opciones de las fichas de productos y campos de configuración globales para ayudar a poner en marcha la empresa con flujos de inventario rentables y oportunos.  
@@ -29,7 +23,7 @@ La planificación de suministros es un área comercial crítica. Cuando se confi
 |Aprenda las prácticas recomendadas para especificar los parámetros de planificación seleccionados con la política de reaprovisionamiento definida para la planificación eficaz y económica de un producto según los elementos críticos, como el plazo de entrega, los costes de merma y la estacionalidad.|[Procedimientos recomendados de configuración: parámetros de la planificación](setup-best-practices-planning-parameters.md)|  
 |Aprenda las prácticas recomendadas para aplicar una estrategia de suministro general en todas las fichas de producto, como siempre recibir los productos un día antes de que se necesiten o minimizar la reacción del sistema a pequeñas fluctuaciones de demanda.|[Procedimientos recomendados de configuración: configuración de planificación global](setup-best-practices-global-planning-setup.md)|  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
  [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
  [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  

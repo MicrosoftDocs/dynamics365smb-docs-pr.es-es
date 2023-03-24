@@ -1,28 +1,22 @@
 ---
 title: Descripción de la línea de registro en diario general
-description: Este tema presenta cambios en Codeunit 12, Diario general-lín. reg., y es el único lugar para insertar movimientos en el libro mayor, IVA y en el libro mayor de clientes y proveedores.
+description: 'Este tema presenta cambios en Codeunit 12, Diario general-lín. reg., y es el único lugar para insertar movimientos en el libro mayor, IVA y en el libro mayor de clientes y proveedores.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, general ledger, post
+ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2a4d9715f6fdfaef63bf6ac4090bb71d86346e51
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146701"
 ---
-# <a name="general-journal-post-line-overview"></a>Descripción de la línea de registro en diario general
+# Descripción de la línea de registro en diario general
 
 La codeunit 12, **Diario general-lín. reg.**, es el objeto principal de aplicación para el registro en contabilidad y es el único lugar donde insertar movimientos de contabilidad, de IVA, de clientes y de proveedores. Esta codeunit se usa también para todas las operaciones de Liquidar, Desliquidar y Revertir.  
   
 En Microsoft Dynamics NAV 2013 R2, la codeunit se rediseñó porque se había vuelto muy grande, con aproximadamente 7600 líneas de código. La arquitectura había cambiado y la codeunit hizo más sencilla y más fácil de mantener. Esta documentación describe los cambios y proporciona información que necesitará para actualizar.  
   
-## <a name="old-architecture"></a>Arquitectura antigua  
+## Arquitectura antigua  
 La arquitectura antigua tenía las características siguientes:  
   
 * Se hacía un uso extensivo de variables globales, lo que aumentaba la posibilidad de que se produjeran errores ocultos por el uso de variables con ámbito incorrecto.  
@@ -33,7 +27,7 @@ La arquitectura antigua tenía las características siguientes:
 * Una gran parte del código en la codeunit 12, aproximadamente el 30 por ciento, relacionado con los cálculos de descuento de pago y tolerancia, aunque estas características no se necesitan en muchos países o regiones.  
 * Las funciones de Registro, Liquidar, Desliquidar, Revertir, Descuento de pago y Tolerancia y Ajuste tipo cambio se incluían todas en la codeunit 12 con una larga lista de variables globales.  
   
-### <a name="new-architecture"></a>Nueva arquitectura  
+### Nueva arquitectura  
 En [!INCLUDE[prod_short](includes/prod_short.md)], la codeunit 12 incluye las mejoras siguientes:  
   
 * La codeunit 12 se ha refactorizado en procedimientos más pequeños (todos con menos de 100 líneas de código).  
@@ -43,7 +37,7 @@ En [!INCLUDE[prod_short](includes/prod_short.md)], la codeunit 12 incluye las me
 * Muchas funciones de ayuda se han transferido a las tablas correspondientes de movimientos de cliente y de proveedor.  
 * El uso de variables globales se ha minimizado, de modo que cada procedimiento utiliza parámetros y encapsula su propia lógica de aplicación.  
   
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)  
 [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  

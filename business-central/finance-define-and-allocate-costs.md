@@ -1,22 +1,16 @@
 ---
 title: Definición y asignación de costes
-description: Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite.
+description: 'Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
+ms.search.form: '1102, 1105, 1106, 1107, 1109, 1114'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7561b157d1167e528d900fc2bf610906c7ad6a23
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531869"
 ---
-# <a name="defining-and-allocating-costs"></a>Definición y asignación de costes
+# Definición y asignación de costes
 
 Las asignaciones de costes mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Puede definir tantas asignaciones como necesite. Cada asignación consta de:  
 
@@ -34,11 +28,11 @@ Para cada destino de asignación, define una base de asignaciones. La base de la
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Configuración del origen de asignación y los destinos
+## Configuración del origen de asignación y los destinos
 
 Cada asignación está formada por un origen de asignación y uno o varios destinos de asignación. El origen de asignación define qué costes se asignarán. Los destinos de asignación determinan dónde se deben asignar los costes.  
 
-### <a name="to-set-up-cost-allocations"></a>Para configurar asignaciones de coste
+### Para configurar asignaciones de coste
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignación de costes** y luego elija el enlace relacionado.  
 2. En la página **Asignación costes**, elija la acción **Editar**.  
@@ -56,13 +50,13 @@ Cada asignación está formada por un origen de asignación y uno o varios desti
 > [!NOTE]  
 > Seleccione la casilla **Bloqueado** para desactivar la configuración de asignación.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Configuración de filtros para las bases de la asignación dinámica
+## Configuración de filtros para las bases de la asignación dinámica
 
 El método de asignación dinámica se basa en los valores cambiables. Por ejemplo, el número de empleados de un centro de coste o los productos vendidos de un objeto de coste en un periodo de tiempo determinado. Existen nueve bases predefinidas de asignación y doce rangos de fechas dinámicas. Define distintos filtros basados en la base de asignación.  
 
-### <a name="setting-filters"></a>Configurando filtros
+### Configurando filtros
 
-La siguiente tabla muestra qué filtros son posibles para distintas bases de asignación y qué valores son válidos en los campos **Filtro nº** y **Filtro grupo**. Presione F1 en el campo **Filtro fecha vto.** para leer descripciones detalladas.  
+La siguiente tabla muestra qué filtros son posibles para distintas bases de asignación y qué valores son válidos en los campos **Filtro nº** y **Filtro grupo**. Seleccione <kbd>F1</kbd> en el campo **Filtro fecha vto.** para leer descripciones detalladas.  
 
 |**Base**|**Filtro Nº**|**Filtro fecha vto.**|**Filtro centro coste**|**Filtro objeto coste**|**Filtro grupo**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
@@ -76,7 +70,7 @@ La siguiente tabla muestra qué filtros son posibles para distintas bases de asi
 |Productos vendidos (importe)|Nº producto|Sí|Sí|Sí|Grupo contable existencias|  
 |Productos comprados (importe)|N.º producto|Sí|Sí|Sí|Grupo registro inventario|
 
-## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Ejemplo 1: definición de asignaciones estáticas basadas en la proporción de asignación
+## Ejemplo 1: definición de asignaciones estáticas basadas en la proporción de asignación
 
 El método de asignaciones estáticas se basa en un valor definido, por ejemplo los metros cuadrados utilizados, o una proporción de asignación establecida de 5:2:4.  
 
@@ -85,17 +79,17 @@ Este tema describe cómo definir tres nuevos objetos de coste de destino de asig
 > [!NOTE]  
 > El ejemplo utiliza los datos de demostración en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Para definir el centro de coste PROD de origen de asignación en la ficha desplegable General  
+### Para definir el centro de coste PROD de origen de asignación en la ficha desplegable General  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignación de costes** y luego elija el enlace relacionado.  
 2. En la página **Asignación costes**, elija la acción **Nuevo**.  
-3. En el campo **ID**, presione Entrar o escriba un Id.  
+3. En el campo **ID**, seleccione <kbd>Entrar</kbd> o escriba un Id.  
 4. En el campo **Nivel**, introduzca **1**.  
 5. Especifique las fechas del período en los campos **Válido desde** y **Válido hasta**.  
 6. En el campo **Código centro coste**, introduzca **PROD**.  
 7. En el campo **Abonar en tipo de coste**, especifique un tipo de coste **9903**.  
 
-### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Para definir los objetos de coste de destino de asignación en la Ficha desplegable Líneas  
+### Para definir los objetos de coste de destino de asignación en la Ficha desplegable Líneas  
 
 1. En la primera línea, en el campo **Tipo coste destino**, especifique **9903**.  
 2. En la primera línea, en el campo **Objeto de coste de destino**, seleccione **ACCESORIOS**.  
@@ -116,18 +110,18 @@ Este tema describe cómo definir tres nuevos objetos de coste de destino de asig
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente el campo **Porcentaje** con un porcentaje que depende de las tres relaciones de asignación que se han introducido en el campo **Compartir** para las tres líneas.
 
-## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Ejemplo 2: definición de asignaciones dinámicas basándose en productos vendidos
+## Ejemplo 2: definición de asignaciones dinámicas basándose en productos vendidos
 
 Este tema muestra un ejemplo de cómo definir asignaciones mediante el método de asignación dinámica. En el ejemplo, se cambia la asignación dinámica de los costes del centro de coste VENTAS para admitir el nuevo EQUIPO TI del objeto de coste. Los paquetes de EQUIPO TI tienen números de producto en el rango de 8904-W a 8924-W. Utiliza las cifras de ventas del año anterior para calcular el reparto. La asignación se registra al tipo de coste de ayuda 9903.  
 
 > [!NOTE]  
 > El ejemplo utiliza los datos de demostración en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Para definir las asignaciones dinámicas basándose en los productos vendidos el año anterior  
+### Para definir las asignaciones dinámicas basándose en los productos vendidos el año anterior  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asignación de costes** y luego elija el enlace relacionado.  
 2. En la página **Asignación costes**, elija la acción **Nuevo**.  
-3. En el campo **ID**, presione Entrar o escriba un Id.  
+3. En el campo **ID**, seleccione <kbd>Entrar</kbd> o escriba un Id.  
 4. En el campo **Nivel**, introduzca **1**.  
 5. Especifique las fechas del período en los campos **Válido desde** y **Válido hasta**.  
 6. En el campo **Código centro coste**, introduzca **VENTAS**.  
@@ -143,9 +137,9 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
  [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)  
  [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)  

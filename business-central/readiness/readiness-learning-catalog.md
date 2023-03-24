@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530195"
 ---
-# <a name="business-central-learning-catalog"></a>Catálogo de aprendizaje de Business Central
+
+# Catálogo de aprendizaje de Business Central
 
 Encuentre la formación en línea adecuada, talleres presenciales y eventos para su rol como usuario o socio de Business Central.
 
@@ -20,7 +15,7 @@ Encuentre la formación en línea adecuada, talleres presenciales y eventos para
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Responsable de la toma de decisiones empresariales
+    ### Responsable de la toma de decisiones empresariales
 
     ¿Decide si invertir en nuevas tecnologías? 
 
@@ -36,7 +31,7 @@ Encuentre la formación en línea adecuada, talleres presenciales y eventos para
 
     :::column:::
 
-    ### <a name="business-user"></a>Usuario empresarial
+    ### Usuario empresarial
 
     ¿Acaba de recibir una nueva aplicación para usarla? 
 
@@ -54,7 +49,7 @@ Encuentre la formación en línea adecuada, talleres presenciales y eventos para
 
     :::column:::
 
-    ### <a name="developer"></a>Desarrollador
+    ### Desarrollador
 
     ¿Necesita escribir código para la integración con otros orígenes de datos, ampliar la funcionalidad del sistema básico o crear una aplicación compleja?
 
@@ -66,7 +61,7 @@ Encuentre la formación en línea adecuada, talleres presenciales y eventos para
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Consultor funcional
+    ### Consultor funcional
     
     ¿Es experto en implementación para un dominio empresarial? 
 

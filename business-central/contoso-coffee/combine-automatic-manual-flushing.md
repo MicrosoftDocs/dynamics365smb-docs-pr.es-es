@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078757"
 ---
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Tutorial: Combinar la baja automática y la manual
+
+# Tutorial: Combinar la baja automática y la manual
 
 En este artículo, le guiaremos a través de los pasos para usar los datos de demostración de Contoso Coffee en la baja.  
 
-## <a name="scenario"></a>Caso
+## Caso
 
 Usted es el planificador de producción de Contoso Coffee. Debe crear una nueva orden de producción para diez unidades del artículo SP-SCM1004, AutoDrip. Algunos componentes y operaciones se consumirán hacia adelante y otros hacia atrás en función de diferentes condiciones.
 
-## <a name="steps"></a>Pasos
+## Pasos
 
 > [¡Nota!] Recuerde ajustar el inventario registrando el diario de artículos con saldos iniciales.
 
@@ -108,7 +103,7 @@ Usted es el planificador de producción de Contoso Coffee. Debe crear una nueva 
 
 Eso es todo para la baja manual y automática de componentes.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Bajar componentes según la salida de la operación](../production-how-to-flush-components-according-to-operation-output.md)  
 [Introducción a datos de demostración de Contoso Coffee](contoso-coffee-intro.md)  

@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950178"
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Procedimientos recomendados de configuración: parámetros de la planificación
+# Procedimientos recomendados de configuración: parámetros de la planificación
+
 La ficha desplegable **Planificación** de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.  
 
  La tabla siguiente proporciona prácticas recomendadas sobre cómo configurar los campos de parámetros de planificación seleccionados. Para obtener más información acerca de un campo, elija el vínculo en la columna **Configurar el campo**.  
@@ -35,16 +30,16 @@ La ficha desplegable **Planificación** de la ficha de producto es el centro de 
 |Precisión redondeo|En una fabricación cara, defina en 0,00001.|Las cantidades grandes de redondeo de consumo de residuos o materiales pueden suponer costes de inventario muy elevados. Por lo tanto, es importante definir la precisión de redondeo más pequeña para minimizar este coste potencial.|  
 
 > [!NOTE]  
->  Las prácticas recomendadas para los parámetros de planificación en las fichas de producto también se aplican a los mismos campos de las fichas de UA.  
->   
->  Si las empresas planean la demanda en distintos almacenes, es muy recomendable definir UA para cada almacén y que toda la demanda se cree con un valor en el campo **Cód. almacén**. Para obtener más información, consulte [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md).  
+> Las prácticas recomendadas para los parámetros de planificación en las fichas de producto también se aplican a los mismos campos de las fichas de UA.  
+>
+> Si las empresas planean la demanda en distintos almacenes, es muy recomendable definir UA para cada almacén y que toda la demanda se cree con un valor en el campo **Cód. almacén**. Obtenga información en [Detalles del diseño: Planificación con o sin almacenes](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Consulte también  
- [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)   
- [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
- [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
- [Detalles de diseño: Demanda en almacén vacío](design-details-demand-at-blank-location.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Consulte también  
+[Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
+[Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
+[Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  
+[Detalles del diseño: Planificación con o sin almacenes](production-planning-with-without-locations.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

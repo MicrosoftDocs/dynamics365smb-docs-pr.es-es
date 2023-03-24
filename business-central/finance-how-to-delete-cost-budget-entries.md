@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517477"
 ---
-# <a name="delete-cost-budget-entries"></a>Eliminar movs. ppto. costes
+# Eliminar movs. ppto. costes
 
 Utilice el trabajo por lotes **Eliminar movimientos presupuesto de costes** para anular los movimientos de presupuesto de costes del registro de presupuestos de costes.  
 
 Para evitar cualquier discontinuidad en movimientos de presupuesto de costes y movimientos de registro de costes, no puede eliminar un único movimiento o sección de movimientos del centro de la lista de los movimientos de registro.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Para eliminar movimientos de presupuesto de costes  
+## Para eliminar movimientos de presupuesto de costes  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar movs. ppto. costes** y, a continuación, elija el enlace relacionado.  
 
@@ -34,7 +28,7 @@ Para evitar cualquier discontinuidad en movimientos de presupuesto de costes y m
 > [!NOTE]  
 > Para evitar una eliminación accidental de los movimientos de presupuesto de coste, puede cerrar movimientos de registro marcando las líneas como **Cerrado** en el campo **Cerrado** en la página **Registro de presupuesto de costes**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Contabilidad para costes](finance-manage-cost-accounting.md)
 [Crear presupuesto coste](finance-create-cost-budgets.md)  

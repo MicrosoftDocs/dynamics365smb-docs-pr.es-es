@@ -1,22 +1,17 @@
 ---
 title: Obtener Business Central en el dispositivo móvil (contiene vídeo)
-description: Este tema describe las diversas formas en que puede ver y editar los datos de Business Central, enviarlos a Excel y más en su teléfono o tableta.
+description: 'Este tema describe las diversas formas en que puede ver y editar los datos de Business Central, enviarlos a Excel y más en su teléfono o tableta.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: desktop, Windows, app
+ms.search.keywords: 'desktop, Windows, app'
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 075af1a6b1d02a68a84d504b7ffa8602b50b17f8
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534091"
 ---
-# <a name="getting-business-central-on-your-mobile-device"></a>Obtener Business Central en el dispositivo móvil
+
+# Obtener Business Central en el dispositivo móvil
 
 Acceda a los datos de [!INCLUDE[prod_short](includes/prod_short.md)] desde su dispositivo móvil. Puede navegar a través de sus datos empresariales, usar funciones como enviar a Excel o Microsoft 365, ver gráficos y KPI actualizados, enviar por correo electrónico facturas y ofertas de ventas y hacer y adjuntar fotos con su cámara. Siga los pasos siguientes para descargar la aplicación y empezar.
 
@@ -25,7 +20,7 @@ Acceda a los datos de [!INCLUDE[prod_short](includes/prod_short.md)] desde su di
 > [!TIP]
 > ¿Quiere una aplicación en el escritorio de su ordenador Windows o macOS? Consulte [Obtener la aplicación de escritorio Business Central](install-desktop-app.md).
 
-## <a name="get-the-app-on-my-mobile-device"></a>Obtener la aplicación en mi dispositivo móvil
+## Obtener la aplicación en mi dispositivo móvil
 
 1. Instale la aplicación [!INCLUDE[prod_short](includes/prod_short.md)] en su dispositivo móvil descargándola desde la App Store o Google Play.  
    - [Tienda de aplicaciones](https://go.microsoft.com/fwlink/?LinkId=734847)
@@ -40,7 +35,7 @@ Ahora debería tener acceso a [!INCLUDE[prod_short](includes/prod_short.md)] y v
 > [!TIP]
 > Si desea conectar la aplicación a un entorno de caja de arena, elija el botón **Opciones avanzadas** y luego elija la opción de inicio de sesión **Espacio aislado en la nube**. Luego, si tiene más de un entorno de espacio aislado, elija el entorno relevante.
 
-## <a name="use-business-central-on-premises"></a>¿Desea usar Business Central local?
+## ¿Desea usar Business Central local?
 
 Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, también puede disfrutar de los beneficios de la aplicación móvil. La instalación es similar, pero con un par de excepciones.
 
@@ -58,9 +53,9 @@ Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalacio
 > [!NOTE]
 > Si tiene problemas para que la aplicación funcione correctamente, hable con su administrador. Podría ser un requisito previo faltante o una configuración incompleta. Para más información, vea [Preparando el entorno para la aplicación móvil](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) o [Solución de problemas de la aplicación móvil Business Central en las instalaciones](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [P+F sobre aplicaciones móviles](ui-mobile-faq.yml)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  

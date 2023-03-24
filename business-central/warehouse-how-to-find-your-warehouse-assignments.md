@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513294"
 ---
-# <a name="find-your-warehouse-assignments"></a>Buscar las asignaciones de almacén
+# Buscar las asignaciones de almacén
 
 Para buscar las asignaciones de almacén, abra la página de la ficha de un artículo seleccionado. Si se han creado las instrucciones del almacén, las líneas de tipo Traer y colocar son visibles y puede empezar a trabajar en una asignación. En algunos almacenes, el administrador puede haber asignado instrucciones específicas a cada empleado. Para obtener más información, vea [Configurar los empleados de almacén](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>Para buscar una instrucción que se le ha asignado
+## Para buscar una instrucción que se le ha asignado
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubic. exist. almacén**, **Picking almacén** o **Movimiento almacén**, y a continuación, elija el vínculo relacionado.
 
@@ -31,13 +25,12 @@ Para buscar las asignaciones de almacén, abra la página de la ficha de un art�
 
 Puede utilizar el campo **Id. usuario asignado** de la cabecera para traer sus asignaciones de trabajo, si el administrador del almacén no asigna instrucciones determinadas a los usuarios. Sólo introduzca su id. de usuario en la cabecera del almacén antes de empezar a trabajar con una instrucción. Sus compañeros pueden trabajar con otras instrucciones y el almacén impedirá una duplicación del esfuerzo.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
-[Grupos contables inventario](inventory-manage-inventory.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
+[Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md) 
-[Administración de ensamblados](assembly-assemble-items.md)
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
+[Gestión de ensamblaje](assembly-assemble-items.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 

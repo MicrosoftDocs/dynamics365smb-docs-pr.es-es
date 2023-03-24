@@ -1,28 +1,22 @@
 ---
 title: Imprimir lista de picking almacén a partir de un pedido de venta
-description: Puede imprimir una lista de picking de inventario directamente desde un pedido de ventas, ventas, factura y otros documentos de venta de salida.
+description: 'Puede imprimir una lista de picking de inventario directamente desde un pedido de ventas, ventas, factura y otros documentos de venta de salida.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c4b9dbda118c3de9e414e013f40b69b900480177
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510588"
 ---
-# <a name="print-the-picking-list"></a>Imprimir la lista de picking
+# Imprimir la lista de picking
 
 Puede imprimir una lista de picking de inventario directamente desde un pedido de ventas y otros documentos que inicien el envío de los productos.
 
-Este informe se utiliza normalmente en empresas sin funcionalidad dedicada para la gestión de almacenes, de modo que un trabajador de inventario pueda ver o imprimir simplemente la lista de picking del documento de ventas relacionado. En empresas con un volumen más alto o procesos más complejos, el picking se planifica y se realiza en documentos de almacén dedicados. Para obtener más información, consulte [Elegir productos](warehouse-pick-items.md).
+Este informe se utiliza normalmente en empresas sin funcionalidad dedicada a la gestión de almacenes, de modo que un trabajador de inventario pueda ver o imprimir la lista de picking del documento de ventas relacionado. En empresas con un volumen más alto o procesos más complejos, el envío y el picking se planifican y se realizan en documentos de almacén dedicados. Obtenga más información en [Flujo de salida del almacén](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>Para imprimir una lista de picking a partir de un pedido de venta
+## Para imprimir una lista de picking a partir de un pedido de venta
 
 El procedimiento siguiente se basa en un pedido de venta. Los pasos son similares para otros documentos de ventas que se pueden usar para iniciar el envío de productos, como pedidos de transferencia.
 
@@ -31,15 +25,15 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son similare
 3. Elija la acción **Informe** y luego elija la acción **Lista de selección por orden**.  
 4. Seleccione el botón de **Imprimir** para imprimir la lista de picking o elija el botón de **Vista previa** para verlo en la pantalla.
 
-También puede guardar la lista de picking como un documento, por ejemplo, para enviarla a alguien o para agregarla como un archivo adjunto al pedido de ventas. Para obtener información, consulte [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md).
+También puede guardar la lista de picking como un documento, por ejemplo, para enviarla a alguien o para agregarla como un archivo adjunto al pedido de ventas. Obtenga más información en [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md).
 
 > [!NOTE]
-> Si ha usado la función **Desplegar L.M.** en el pedido de venta, solo se muestran en el informe los componentes del elemento del ensamblado relacionado. Para obtener más información, consulte [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
+> Si ha usado la función **Desplegar L.M.** en el pedido de venta, solo se muestran en el informe los componentes del elemento del ensamblado relacionado. Obtenga más información en [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Inventario](inventory-manage-inventory.md)  
-[Elegir productos](warehouse-pick-items.md)  
+[Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,26 +1,20 @@
 ---
 title: Certificaciones del servicio
-description: Este contenido contiene información sobre certificaciones en relación con Business Central, como certificaciones y acreditaciones específicas de la región.
+description: 'Este contenido contiene información sobre certificaciones en relación con Business Central, como certificaciones y acreditaciones específicas de la región.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 643d8cbfcc4a17db468263aee72a12cb1237201c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146857"
 ---
-# <a name="certifications"></a>Certificaciones
+# Certificaciones
 
 En este contenido se incluye información acerca de las certificaciones en relación con [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Certificaciones y acreditaciones por países o regiones
+## Certificaciones y acreditaciones por países o regiones
 
 En algunos países o regiones, el software de contabilidad debe estar certificado para cumplir con las normativas fiscales locales y los requisitos financieros. Algunos países o regiones aplican esto como un requisito anual recurrente y otros como un requisito único que se debe cumplir. A continuación se muestra una lista de los países o regiones actuales en los que Business Central ha obtenido certificaciones.
 
@@ -33,11 +27,11 @@ En algunos países o regiones, el software de contabilidad debe estar certificad
 > [!NOTE]  
 > En los países o regiones donde Microsoft no lanza una versión local, normalmente depende de los socios obtener la certificación del producto base de Business Central, incluidas las características de localización y regulación del socio.
 
-## <a name="other-certifications"></a>Otras certificaciones
+## Otras certificaciones
 
 Business Central como servicio en la nube también ha logrado certificaciones, como la ISO 27001 entre otras. Para obtener una lista completa de estas certificaciones, consulte [esta página (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Conformidad](compliance-overview.md)  
 [Conformidad de las aplicaciones](compliance-application-compliance.md)  

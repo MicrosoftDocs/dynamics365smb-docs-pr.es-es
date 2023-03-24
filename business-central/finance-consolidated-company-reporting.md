@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518160"
 ---
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
+
+# Consolidar los datos financieros de varias empresas
 
 Algunas organizaciones utilizan [!INCLUDE [prod_short](includes/prod_short.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prod_short](includes/prod_short.md)] en subsidiarias que deben reportar a organizaciones matrices. En ambos casos, los contables utilizan herramientas integradas para ayudar a consolidar los datos financieros.  
 
@@ -40,17 +35,17 @@ Configure la empresa consolidada de la misma forma que se configuran las demás 
 > [!TIP]
 > La consolidación de los datos financieros puede ser especialmente relevante en relación con los procesos entre compañías. Para obtener más información, vea [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md).
 
-## <a name="trial-balance"></a>Balance de comprobación
+## Balance de comprobación
 
 Si tiene más de una empresa en [!INCLUDE[prod_short](includes/prod_short.md)], el informe **Balance de comprobación consolidado** puede darle un resumen del estado financiero del todo su negocio.  
 
 El informe combina movimientos del libro mayor de sus empresas en una empresa nueva creada por usted para contener los datos consolidados. Esta empresa valor se denomina generalmente "empresa consolidada". La empresa consolidada es sólo un contenedor para los datos consolidados, y no tiene ningún dato vivo de sus empresas. Las empresas que incluya en la empresa que se convierten en **Unidades de negocio** en el informe. Para obtener más información, consulte [Establecer la consolidación de empresas](finance-consolidated-company-reporting-setup.md).  
 
-## <a name="consolidate-data"></a>Consolidar datos
+## Consolidar datos
 
 El proceso de transferir las cifras de las unidades de negocio a la empresa consolidada es la *consolidación* real. Antes de hacer esto, es conveniente comprobar si existen diferencias entre la información básica de las empresas y de la empresa consolidada. Existen dos informes que puede utilizar para probar la base de datos y el archivo.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>Para probar los datos antes de la consolidación:
+### Para probar los datos antes de la consolidación:
 
 Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUDE[prod_short](includes/prod_short.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Deberá corregir los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, puede probar el archivo.  
 
@@ -61,7 +56,7 @@ Puede probar los datos antes de transferirlos a la empresa consolidada. [!INCLUD
     * Para probar un archivo, elija la acción **Probar archivo**, escriba el nombre del archivo y después seleccione **Imprimir**.  
     * Para probar la base de datos, elija **Probar base de datos**.  
 
-### <a name="run-the-consolidation"></a>Ejecutar la consolidación
+### Ejecutar la consolidación
 
 Después de haber probado los datos, puede transferirlos a la empresa consolidada.  
 
@@ -71,7 +66,7 @@ Después de haber probado los datos, puede transferirlos a la empresa consolidad
 4. En la sección Filtro, establezca un filtro para la empresa o el nombre de la empresa relevantes.  
 5. Opcionalmente, programe el informe para ejecutarlo en un momento conveniente.  
 
-## <a name="eliminate-repeated-transactions"></a>Eliminar transacciones repetidas
+## Eliminar transacciones repetidas
 
 Una vez que haya consolidado todas las empresas, debe encontrar transacciones que se registren más de una vez en todas las empresas y luego publicar los movimientos de eliminación para eliminarlas.
 
@@ -91,14 +86,14 @@ Cada cuenta aparece en una línea aparte, según la estructura del plan de cuent
 
 * Número cuenta
 * Nombre de cuenta.
-* Si ha seleccionado uno o más códigos de empresa en el campo **Cód. unidad de negocio** de la página de solicitud, aparecerá un total de la empresa consolidada, excluyendo las empresas seleccionadas y las eliminaciones. Si no ha rellenado el campo **Cód. empresa**, aparecerá un total de la empresa consolidada, excluyendo las eliminaciones.
+* Si ha seleccionado uno o más códigos de empresa en el campo **Cód. unidad de negocio**de la página de solicitud, aparecerá un total de la empresa consolidada, excluyendo las empresas seleccionadas y las eliminaciones. Si no ha rellenado el campo **Cód. empresa**, aparecerá un total de la empresa consolidada, excluyendo las eliminaciones.
 * Si ha seleccionado un código de empresa en el campo **Cód. empresa** de la página de solicitud, aparecerá un total de los movimientos importados desde la empresa. Si no ha rellenado el campo **Cód. empresa**, aparecerá un total de las eliminaciones registradas en la empresa consolidada.
 * El total de la empresa consolidada, con todas las empresas y las eliminaciones registradas.
 * Las eliminaciones a realizar en la empresa consolidada, es decir, los movimientos del diario general seleccionado en la página de solicitud.
 * El texto de registro, copiado del diario general.
 * El total de la empresa consolidada, después de las eliminaciones, si se registran.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Exportar e importar datos consolidados entre bases de datos
+## Exportar e importar datos consolidados entre bases de datos
 
 Si los datos de una unidad de negocio se encuentran en otra base de datos, deberá exportar los datos a un archivo antes de incluirlos en la consolidación. Cada empresa debe exportarse por separado. Para ello, usa el proceso **Exportar consolidación**.  
 
@@ -114,7 +109,7 @@ Los movimientos exportados tienen los siguientes campos: **Nº cuenta**, **Fecha
 3. El valor de dimensión exportado para el movimiento será el valor de dimensión de la empresa consolidada del campo **Cód. consolidación** del valor de dimensión. Si no se ha introducido un valor de dimensión de empresa consolidada en el campo **Cód. consolidación** del valor de dimensión, se exportará a la línea el valor de dimensión en sí.  
 4. Además, los archivos XML contienen los tipos de cambio de divisa del periodo consolidado. Estos tipos se incluyen en una sección aparte al principio del archivo.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configuración de la consolidación de empresas](finance-consolidated-company-reporting-setup.md)  
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  

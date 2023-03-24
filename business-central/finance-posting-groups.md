@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: posting setup, initialize
-ms.search.form: 312, 313
+ms.search.keywords: 'posting setup, initialize'
+ms.search.form: '312, 313'
 ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: 96505ae8097131b6c02aba65c9ab751b3e331224
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535188"
 ---
-# <a name="set-up-posting-groups"></a>Configurar los grupos contables de activos
+# Configurar los grupos contables de activos
 
 Los grupos contables asignan entidades a cuentas de contabilidad. Algunos ejemplos de entidades son clientes, proveedores, artículos, recursos y documentos de compra y venta. Los grupos contables ahorran tiempo y ayudan a evitar errores al registrar las transacciones. Los valores de transacción se envían a las cuentas especificadas en el grupo contable de dicha entidad. El único requisito es que tenga un plan de cuentas. Para obtener más información, vea [Configuración del plan de cuentas](finance-setup-chart-accounts.md).  
 
@@ -35,7 +29,7 @@ Los grupos contables tienen tres divisiones:
 
 Las secciones siguientes describen los grupos contables con cada división.  
 
-## <a name="general-posting-groups"></a>Grupos contables
+## Grupos contables
 
 La tabla siguiente describe los grupos contables generales.
 
@@ -45,7 +39,7 @@ La tabla siguiente describe los grupos contables generales.
 | Grupos contables de producto |Asigne este grupo a productos y recursos para especificar lo que vende y lo que compra. Configure estos grupos contables en la página **Grupos registro producto gen.**. Al hacerlo, considere el número de grupos que necesitará para desglosar las ventas por producto (productos y recursos) y las compras por producto. Por ejemplo, divida estos grupos por materias primas, mercaderías, recursos, capacidad, etc. |
 | Configuraciones grupos contables |Combine grupos contables de negocio y de producto, y seleccione las cuentas en las que se registrarán. Para cada combinación de grupos contables de negocios y productos, puede asignar un conjunto de cuentas de contabilidad. Por ejemplo, puede registrar la venta del mismo producto en diferentes cuentas de contabilidad porque varios clientes se asignan a diferentes grupos contables de negocio. Establezca estas configuraciones en la página **Configuración grupos contables**. |
 
-## <a name="specific-posting-groups"></a>Grupos contables concretos
+## Grupos contables concretos
 
 La siguiente tabla describe los grupos contables que son específicos de tipos de datos.
 
@@ -57,7 +51,7 @@ La siguiente tabla describe los grupos contables que son específicos de tipos d
 | Grupos registro cuenta bancaria |Define las cuentas contables en las que se publican las entradas de la cuenta de banco. Por ejemplo, esto puede simplificar los procesos de seguimiento de las transacciones y de conciliación de cuentas bancarias. Configure estos grupos contables en la página **Grupos registro cuenta bancaria**. Recomendamos que estas cuentas de mayor tengan el campo **Publicación directa** campo establecido en *No*. |
 | Grupos contables de activos fijos |Defina las cuentas para diferentes tipos de gastos y costes, como los costes de adquisición, los importes de amortización acumulados, los costes de adquisición en venta/baja, la amortización acumulada en baja, la ganancia en venta/baja, la pérdida en venta/baja, los gastos de mantenimiento y los gastos de amortización. Configure estos grupos contables en la página **A/F Grupos contables**. |
 
-### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Permitir grupos de registro de clientes o proveedores sustitutos en documentos
+### Permitir grupos de registro de clientes o proveedores sustitutos en documentos
 
 [!INCLUDE [preview](includes/preview.md)]
 
@@ -71,7 +65,7 @@ Después de configurar esto, puede elegir entre los grupos contables sustitutos 
 
 Por ejemplo, cuando se aplica una factura y un pago que se registra con diferentes grupos contables de clientes o proveedores (diferentes cuentas contables), [!INCLUDE[prod_short](includes/prod_short.md)] transfiere los importes entre las cuentas contables para equilibrarlas.
 
-## <a name="tax-posting-groups"></a>Grupos contables de impuestos
+## Grupos contables de impuestos
 
 La tabla siguiente describe los grupos contables relacionados con los impuestos.
 
@@ -83,7 +77,7 @@ La tabla siguiente describe los grupos contables relacionados con los impuestos.
 
 Si su país o región utiliza el impuesto sobre el valor añadido (IVA), consulte [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md).  
 
-## <a name="example-of-linking-posting-groups"></a>Ejemplo de grupos contables de vinculación
+## Ejemplo de grupos contables de vinculación
 
 A continuación presentamos un ejemplo.  
 
@@ -106,11 +100,11 @@ Al crear un documento de ventas, el encabezado de ventas usa la información de 
 
 La configuración determina cuándo se realiza el registro. Por ejemplo, el tiempo se ve afectado por el momento en que realiza actividades periódicas, como registrar el coste de inventario o ajustar los movimientos de producto de coste.
 
-## <a name="copying-posting-setup-lines"></a>Copiar líneas de configuración de grupos contables
+## Copiar líneas de configuración de grupos contables
 
 Cuantos más grupos contables de producto y de negocio tenga, más líneas habrá en la página **Configuración grupos contables**. Puede que sea necesario introducir muchos datos para configurar los grupos contables de la empresa. Si bien puede haber muchas combinaciones distintas de grupos contables de negocio y de producto, las distintas combinaciones podrían crear registros en las mismas cuentas de contabilidad. Para limitar la introducción manual de los datos, copie las cuentas de contabilidad de una línea existente en la página **Configuración grupos contables**.
 
-## <a name="set-up-posting-groups-on-the-go"></a>Configurar grupos contables sobre la marcha
+## Configurar grupos contables sobre la marcha
 
 Para que los usuarios comiencen más rápido, [!INCLUDE[prod_short](includes/prod_short.md)] puede mostrar notificaciones de cuentas de contabilidad general que falten en varias configuraciones de grupos contables. Para recibir estas notificaciones, asegúrese de que la notificación **Cuenta C/G que falta en grupo de registro o configuración** está seleccionada en la página **Mis notificaciones**, a la que puede acceder desde el campo **Cambiar cuándo recibo notificaciones** en la página **Mi configuración**.  
 
@@ -123,7 +117,7 @@ De esta manera, cuando trabaje en un documento que usa un grupo contable o una c
 
 A partir del primer lanzamiento de versiones de 2022, puede usar el campo **Bloqueado** en la página **Configuración grupos contables** para evitar que los usuarios utilicen por error una configuración que ya no es pertinente para los nuevos registros.  
 
-## <a name="troubleshooting-posting-group-errors"></a>Solución de problemas de errores de grupos de publicación
+## Solución de problemas de errores de grupos de publicación
 
 Los grupos de publicación son uno de los conceptos más avanzados para configurar en [!INCLUDE[prod_short](includes/prod_short.md)]. Si no están configurados correctamente, pueden ocurrir errores al registrar documentos o líneas de diario. Por ejemplo, estos errores generalmente se deben a un error en cómo se asignan las cuentas de contabilidad o en cómo se combinan los grupos de registro.
 
@@ -132,9 +126,9 @@ Cuando algo anda mal, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará l
 > [!NOTE]
 > El manejo de errores descrito anteriormente no está disponible en diarios de artículos, recursos, empleados y activos fijos, ni para cuentas de contabilidad agregadas en versiones locales de grupos de registro.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/posting-groups-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/posting-groups-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Configurar las finanzas](finance-setup-finance.md)  

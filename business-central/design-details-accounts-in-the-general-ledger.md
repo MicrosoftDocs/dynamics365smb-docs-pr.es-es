@@ -1,25 +1,19 @@
 ---
 title: 'Detalles de diseño: cuentas de contabilidad | Documentos de Microsoft'
-description: Para conciliar los movimientos de inventario y de capacidad con la contabilidad, los movimientos de valoración relacionas se registran en cuentas distintas en la contabilidad.
+description: 'Para conciliar los movimientos de inventario y de capacidad con la contabilidad, los movimientos de valoración relacionas se registran en cuentas distintas en la contabilidad.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b67dd40723f28cb4d59818deb302a1d35c7420e4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521077"
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Detalles de diseño: cuentas de contabilidad
+# Detalles de diseño: cuentas de contabilidad
 Para conciliar los movimientos de inventario y de capacidad con la contabilidad, los movimientos de valoración relacionas se registran en cuentas distintas en la contabilidad. Para obtener más información, consulte [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Desde los movimientos de inventario  
+## Desde los movimientos de inventario  
 En la tabla siguiente se muestra la relación entre diferentes tipos de movimientos de valoración de inventario así como las cuentas y las cuentas de contrapartida en contabilidad.  
 
 |**Tipo mov. producto**|**Tipo movimiento valor**|**Tipo desviación**|**Coste previsto**|**Cuenta**|**Cuenta de contrapartida**|  
@@ -62,7 +56,7 @@ En la tabla siguiente se muestra la relación entre diferentes tipos de movimien
 |Salida de ensamblado|Desviación|Cost. gen. fabricación|No|Grupos contables inventario|Desv. coste gen. fab.|  
 |Salida de ensamblado|Redondeo||No|Grupos contables inventario|Ajuste inventario|  
 
-## <a name="from-the-capacity-ledger"></a>Desde los movimientos de capacidad  
+## Desde los movimientos de capacidad  
  En la tabla siguiente se muestra la relación entre diferentes tipos de movimientos de valoración de capacidad así como las cuentas y las cuentas de contrapartida en contabilidad. Los movimientos de capacidad representan el tiempo de trabajo consumido en trabajos de ensamblado o de producción.  
 
 |**Tipo trabajo**|**Tipo de movimiento de capacidad**|**Tipo mov. valor**|**Cuenta**|**Cuenta de contrapartida**|  
@@ -72,12 +66,12 @@ En la tabla siguiente se muestra la relación entre diferentes tipos de movimien
 |Producción|Centro máquina/Centro trabajo|Coste directo|Cuenta WIP|Coste directo aplic.|  
 |Producción|Centro máquina/Centro trabajo|Coste indirecto|Cuenta WIP|Cost. gen. liqd.|  
 
-## <a name="assembly-costs-are-always-actual"></a>Los costes de ensamblado son siempre reales  
+## Los costes de ensamblado son siempre reales  
  Como se muestra en de la tabla anterior, los registros de ensamblado no aparecen representados en las cuentas provisionales. Esto se debe a que el concepto de trabajo en curso no se aplica al registro de la salida de ensamblado, a diferencia del registro de la salida de producción. Los costes de ensamblado se registran solo como coste real, nunca como coste previsto.  
 
  Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Cálculo del importe que registrar en la contabilidad  
+## Cálculo del importe que registrar en la contabilidad  
  Los campos siguientes de la tabla **Movimiento valor** se usan para calcular el importe de coste previsto que se registra en contabilidad:  
 
 -   Importe coste (real)  
@@ -92,7 +86,7 @@ En la tabla siguiente se muestra cómo se calculan los importes para registrar e
 |Coste real|Importe coste (Real) - Imp. registrado contabilidad|  
 |Coste previsto|Importe coste (previsto) – Coste esperado reg. en contabilidad|  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md)   
  [Detalles de diseño: Registro de coste previsto](design-details-expected-cost-posting.md)  

@@ -1,22 +1,16 @@
 ---
 title: Administrar existencias y costes de fabricación
-description: Descubra cómo una serie de campos, páginas e informes están dirigidos a usuarios que administran directa o indirectamente el coste de los productos u operaciones.
+description: 'Descubra cómo una serie de campos, páginas e informes están dirigidos a usuarios que administran directa o indirectamente el coste de los productos u operaciones.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605575"
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Administración de existencias y costes de fabricación
+# Administración de existencias y costes de fabricación
 
 Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo mediante procesos subyacentes que no requieren la interacción del usuario, tales como la liquidación de movimientos y el ajuste automático de costes, existen varios campos, páginas e informes destinados a los usuarios que administran directa o indirectamente el coste de los productos o las operaciones.  
 
@@ -35,7 +29,7 @@ Aunque la mayoría de las funciones de contabilidad de costes se llevan a cabo m
 |Deshacer manualmente una liquidación de producto o liquidar de nuevo movimientos de productos creados por la aplicación.|[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilice el campo **Liquidar por mov.** en el diario de productos para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original.|[Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)

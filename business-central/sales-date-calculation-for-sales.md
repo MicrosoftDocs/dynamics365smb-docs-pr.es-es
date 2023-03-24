@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 8cd8f1594a3d2353343e405d2ab616d2ec931c78
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607871"
 ---
-# <a name="delivery-date-calculation-for-sales"></a>Cálculo de la fecha de entrega de las ventas
+# Cálculo de la fecha de entrega de las ventas
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente la fecha más próxima posible en la que se puede enviar un producto incluido en una línea de pedido de venta.
 
 * Si el cliente solicita una fecha de entrega concreta, se calcula la fecha en que los productos deberán estar disponibles para el picking y poder realizar su entrega en dicha fecha.
 * Si el cliente no solicita una fecha de entrega concreta, se calcula la fecha en que los productos se pueden entregar. El cálculo comienza a partir de la fecha en que los productos se pueden seleccionar.
 
-## <a name="calculating-a-requested-delivery-date"></a>Calcular una fecha de entrega requerida
+## Calcular una fecha de entrega requerida
 
 Si escribe una fecha de entrega requerida en la línea de pedido de venta, dicha fecha se convertirá en el punto inicial para los cálculos siguientes.
 
@@ -35,16 +29,16 @@ Si los productos están disponibles para el picking en la fecha de envío, el pr
 > [!NOTE]
 > Si su proceso se basa en el cálculo hacia atrás; por ejemplo, si utiliza la fecha de entrega requerida para obtener la fecha de envío planificada, le recomendamos que utilice fórmulas de fecha con duraciones fijas, como "5D" para cinco días o "1S" para una semana. Las fórmulas de fecha sin duraciones fijas, como "SA" para la semana actual o MA para el mes actual, pueden dar lugar a cálculos de fecha incorrectos. Obtenga más información sobre las fórmulas de fecha, en [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
-## <a name="calculating-the-earliest-possible-delivery-date"></a>Calcular la fecha de entrega más próxima posible
+## Calcular la fecha de entrega más próxima posible
 
 Si no especifica una fecha de entrega requerida en la línea del pedido de venta, o si la fecha de entrega requerida no se puede cumplir, se calculará la fecha de disponibilidad de los productos más cercana. A continuación, se insertará dicha fecha en la línea del campo **Fecha envío** y con las siguientes fórmulas calculará la fecha prevista para el envío de los productos y la fecha de su entrega al cliente:
 
 - *fecha envío + tiempo manip. alm. salida = fecha envío planeada*
 - *fecha envío planeada + hora envío = fecha entrega planeada*
 
-## <a name="see-related-microsoft-training"></a>Consulte la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada.
+## Consulte la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Cálculo de la fecha de las compras](purchasing-date-calculation-for-purchases.md)  
 [Calcular fechas de compromiso de pedidos](sales-how-to-calculate-order-promising-dates.md)  

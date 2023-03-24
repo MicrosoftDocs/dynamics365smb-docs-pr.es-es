@@ -1,6 +1,6 @@
 ---
 title: Registrar el material de rechazo manualmente
-description: Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida. Observe que la cantidad de material de rechazo no incrementa la cantidad de salida.
+description: 'Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida. Observe que la cantidad de material de rechazo no incrementa la cantidad de salida.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,21 +9,15 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d28439357d179e41dfacbaa8504dc0a7fa98230e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516697"
 ---
-# <a name="post-scrap-manually"></a>Registrar el material de rechazo manualmente
+# Registrar el material de rechazo manualmente
 
 Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida.  
 
 > [!NOTE]
 > La cantidad de material de rechazo no incrementa la cantidad de salida.  
 
-## <a name="to-post-scrap-manually"></a>Para registrar el material de rechazo manualmente
+## Para registrar el material de rechazo manualmente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario salida**, y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +25,7 @@ Si se produce material de rechazo durante el proceso, se puede introducir en el 
 4. En el campo **Cód. rechazo**, introduzca el código de rechazo.  
 5. Seleccione la acción **Registrar** para registrar el material de rechazo específico por operación.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Fabricación](production-manage-manufacturing.md)
 [Configuración de fabricación](production-configure-production-processes.md)  

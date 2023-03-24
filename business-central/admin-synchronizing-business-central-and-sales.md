@@ -1,22 +1,17 @@
 ---
 title: Sincronización e integración de datos | Documentos de Microsoft
-description: La sincronización copia los datos entre las tablas de Microsoft Dataverse y los registros de Business Central, y mantiene actualizados los datos de ambos sistemas.
+description: 'La sincronización copia los datos entre las tablas de Microsoft Dataverse y los registros de Business Central, y mantiene actualizados los datos de ambos sistemas.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
+ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7c03e4491519a31aeaf11c4d52555ab222701c32
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383090"
 ---
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Sincronización de datos en Business Central con Microsoft Dataverse
+
+# Sincronización de datos en Business Central con Microsoft Dataverse
 
 
 Cuando integra [!INCLUDE[prod_short](includes/cds_long_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], puede decidir si desea sincronizar los datos de campos seleccionados de [!INCLUDE[prod_short](includes/prod_short.md)] (como clientes, contactos y personal de ventas) con las filas equivalentes en [!INCLUDE[prod_short](includes/cds_long_md.md)] (como cuentas, contactos y usuarios). Dependiendo del tipo de fila, puede sincronizar datos de [!INCLUDE[prod_short](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)], o viceversa. Para obtener más información, vea [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -42,7 +37,7 @@ Cuando la sincronización está configurada, puede emparejar filas de [!INCLUDE[
 > La sincronización entre [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] se basa en la ejecución programada de las entradas de la cola de trabajos y no garantiza la coherencia de los datos en tiempo real entre dos servicios. Para obtener coherencia de datos en tiempo real, debe explorar [Mesas virtuales de Business Central](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) o API de Business Central.   
 
 
-## <a name="standard-table-mapping-for-synchronization"></a>Asignación de tablas estándar para la sincronización
+## Asignación de tablas estándar para la sincronización
 Las tablas en [!INCLUDE[prod_short](includes/cds_long_md.md)], como las cuentas, se integran con tipos equivalentes de tablas en [!INCLUDE[prod_short](includes/prod_short.md)], como los clientes. Para trabajar con datos de [!INCLUDE[prod_short](includes/cds_long_md.md)] se establecen vínculos, llamados emparejamientos, entre tablas en [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 La siguiente tabla enumera la asignación estándar entre tablas en [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -61,10 +56,10 @@ La siguiente tabla enumera la asignación estándar entre tablas en [!INCLUDE[pr
 > [!NOTE]
 > Las acciones de **Dataverse** no estarán disponibles en páginas, por ejemplo, la página Ficha de cliente, para registros que no respetan el filtro de tabla en la asignación de la tabla de integración.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Consejo para administradores: visualización de asignaciones de tabla
+### Consejo para administradores: visualización de asignaciones de tabla
 Puede ver la asignación entre las tablas en [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] en la página **Lista de asignaciones de tablas de integración**, donde también puede aplicar filtros. La asignación entre los campos de las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] y las columnas de las tablas de [!INCLUDE[prod_short](includes/cds_long_md.md)] se define en la página **Lista de asignaciones de campos de integración**, donde se puede añadir lógica de asignación adicional. Por ejemplo, esto puede ser útil si necesita solucionar problemas de sincronización.
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

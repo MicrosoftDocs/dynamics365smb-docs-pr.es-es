@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: planning, design
+ms.search.keywords: 'planning, design'
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131982"
 ---
-# <a name="design-details-planning-parameters"></a>Detalles de diseño: Parámetros de la planificación
+# Detalles de diseño: Parámetros de la planificación
 En este tema se describen los distintos parámetros de planificación que puede usar en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La forma en que el sistema de planificación controla el suministro de productos se determina mediante distintas opciones de configuración de la ficha de producto o UA, y las opciones de la configuración de fabricación. En la tabla siguiente se muestra cómo se usan estos parámetros para la planificación.  
@@ -30,10 +24,10 @@ La forma en que el sistema de planificación controla el suministro de productos
 |Modificar los pedidos de suministro|Cantidad mínima pedido<br /><br /> Cantidad máxima pedido<br /><br /> Múltiplos de pedido|  
 |Delimitación del producto planificado|Directiva fabricación:<br /><br /> -   Fab-contra-stock<br />-   Fab-contra-pedido|  
 
-## <a name="define-if-the-item-will-be-planned"></a>Definir si se va a planificar el producto  
+## Definir si se va a planificar el producto  
 Para incluir un producto/UA en el proceso de planificación, debe tener una directiva de reaprovisionamiento, de lo contrario, se debe planificación manualmente, por ejemplo, con la característica Planificación de pedidos.  
 
-## <a name="define-when-to-reorder"></a>Definir cuándo reaprovisionar  
+## Definir cuándo reaprovisionar  
 Por lo general, las propuestas de reaprovisionamiento solo se lanzan cuando la cantidad disponible proyectada ha caído o está por debajo de una cantidad determinada. Esta cantidad se define mediante el punto de pedido. De lo contrario, será cero. Se puede ajustar cero si se especifica un stock de seguridad. Si el usuario ha definido un plazo de seguridad, hará que la propuesta se entregue en el periodo anterior a la fecha de vencimiento requerida.  
 
 Las directivas de punto de pedido (**Fijo punto del campo cdad.** y **Cdad. máxima**) usan el campo **Ciclo**, donde el nivel de inventario se comprueba después de cada ciclo. El primer ciclo comienza en la fecha inicial de planificación.  
@@ -45,7 +39,7 @@ El plazo de seguridad genérico, en la página **Configuración fabricación**, 
 
 Tres campos de periodo de reaprovisionamiento adicionales, **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo amortiguador**, también desempeñan un rol en el reaprovisionamiento. Para obtener más información, vea [Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Definir qué cantidad reaprovisionar  
+## Definir qué cantidad reaprovisionar  
 Si el sistema de planificación detecta necesidad de reaprovisionamiento, la directiva de reaprovisionamiento seleccionada se utiliza para determinar el momento del pedido y la cantidad correspondiente.  
 
 Independiente de la directiva de reaprovisionamiento, el sistema de planificación sigue normalmente esta lógica:  
@@ -58,7 +52,7 @@ Independiente de la directiva de reaprovisionamiento, el sistema de planificaci�
 
      Los siguientes campos de periodo de reaprovisionamiento también desempeñan un rol en la definición de la cantidad de reaprovisionamiento: **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo amortiguador**. Para obtener más información, vea [Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-### <a name="reordering-policies"></a>Directivas de reaprovisionamiento  
+### Directivas de reaprovisionamiento  
 Las siguientes directivas de reaprovisionamiento afectan a la cuenta que se va a reaprovisionar.  
 
 |Directiva reaprov.|Descripción|  
@@ -68,7 +62,7 @@ Las siguientes directivas de reaprovisionamiento afectan a la cuenta que se va a
 |**Pedido**|Se calculará la cantidad de pedido para cubrir cada evento de demanda individual y el conjunto de demanda-suministro permanecerá vinculado hasta su ejecución. No se tiene en cuenta ningún parámetro de planificación.|  
 |**Lote a lote**|La cantidad se calcula para cubrir la suma de la demanda que vence en el ciclo.|  
 
-##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento  
+##  Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento  
 Para obtener un plan de suministro racional, el planificador optimizará los parámetros de planificación para limitar las sugerencias de reprogramación, acumular demanda (cantidad dinámica de nuevo pedido) o evitar acciones de planificación insignificantes. Los siguientes campos de periodo de reaprovisionamiento contribuyen a optimizar el momento y la cantidad de reaprovisionamiento.  
 
 |Campo|Descripción|  
@@ -103,19 +97,19 @@ En los siguientes ejemplos, las flechas negras representan el aprovisionamiento 
 
 **Valores predeterminados:** el valor predeterminado del campo **Ciclo** y los tres campos del periodo de reaprovisionamiento están en blanco. Para todos los campos, excepto el campo **Periodo amortiguador** esto significa 0D (cero días). Si el campo **Periodo amortiguador** está en blanco, se usará el valor global en el campo **Periodo predet. amortiguador** en la página **Configuración fabricación**.  
 
-## <a name="modify-the-supply-orders"></a>Modificar los pedidos de suministro  
+## Modificar los pedidos de suministro  
 Cuando se ha calculado la cantidad de la propuesta de pedido, uno o más de los modificadores de pedido pueden ajustarla. Por ejemplo, la cantidad de pedido máxima es mayor que o igual a la cantidad de pedido mínima, que es mayor que o igual al múltiplo de pedido.  
 
 La cantidad se reduce si supera la cantidad de pedido máximo. A continuación, se aumenta si se encuentra por debajo de la cantidad de pedido mínima. Finalmente, se redondea hacia arriba de modo que coincida con un múltiplo de pedido especificado. Las cantidades pendientes utilizan los mismos ajustes hasta que la demanda total se haya convertido a propuestas de pedidos.  
 
-## <a name="delimit-the-item"></a>Delimitación del producto  
+## Delimitación del producto  
 La opción **Directiva fabricación** define los pedidos adicionales que propondrá el cálculo de MRP.  
 
 Si utiliza la opción **Fab-contra-existencias**, los pedidos solo afectan al producto en cuestión.  
 
 Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analizará la L.M. de producción del producto y creará propuestas de pedido vinculadas adicionales para los productos de nivel inferior que también se hayan definido como Fab-contra-pedido. Esto continúa siempre que haya productos de fabricación contra pedido en las estructuras de L.M. descendentes.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Utilice códigos de bajo nivel para gestionar la demanda derivada
+## Utilice códigos de bajo nivel para gestionar la demanda derivada
 
 Utilice códigos de bajo nivel para hacer que la demanda derivada de componentes avance hasta los niveles inferiores de la L.M. Para obtener una explicación más detallada de esto, consulte [Prioridad de producto/Código de nivel bajo](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,11 +125,11 @@ Como alternativa al cálculo automático que se realiza de forma dinámica si el
 > [!NOTE]
 > Aunque el campo **Código dinámico de nivel bajo** esté seleccionado, los códigos de nivel bajo de los productos componentes no cambiarán dinámicamente si se elimina o se define como no certificada una L.M. principal. Como resultado, puede que sea difícil agregar productos nuevos al final de la estructura de productos, ya que se podría superar el número máximo de códigos de nivel bajo. Por lo tanto, para estructuras de productos grandes que alcancen el límite del código de nivel más bajo, es recomendable ejecutar el trabajo por lotes de **Calcular código de nivel bajo** con frecuencia para mantener la estructura.  
 
-### <a name="optimize-low-level-code-calculation"></a>Optimizar cálculo de código de nivel bajo
+### Optimizar cálculo de código de nivel bajo
 
 Seleccione el campo **Optimizar el cálculo de código de nivel bajo** para especificar que desea utilizar el nuevo método más rápido de cálculo de código de bajo nivel. Tenga en cuenta que el nuevo cálculo se realiza de manera diferente y su uso podría romper extensiones que dependen del método existente. El nuevo método de cálculo reemplazará al método actual en una versión futura.
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)

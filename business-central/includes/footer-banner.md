@@ -1,4 +1,8 @@
-> [!NOTE]
->¿Puede indicarnos sus preferencias de idioma de documentación? [Realice una breve encuesta.](https://aka.ms/BAG_Docs_Language_Survey) (tenga en cuenta que esta encuesta está en inglés)
->
->La encuesta durará unos siete minutos. No se recopilan datos personales ([declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=521839)).
+---
+author: edupont04
+ms.topic: include
+ms.date: 11/01/2022
+ms.author: edupont
+---
+[Encuentre módulos de aprendizaje en línea gratuitos de Business Central aquí](/training/dynamics365/business-central)
+

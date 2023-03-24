@@ -1,28 +1,22 @@
 ---
 title: 'Detalles de diseño: coste medio'
-description: El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en Business Central.
+description: 'El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en Business Central.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: cdba126a3cdd6116f0067cac08bccadbdfc5a982
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519845"
 ---
-# <a name="design-details-average-cost"></a>Detalles de diseño: Coste medio
+# Detalles de diseño: Coste medio
 El coste medio de un producto se calcula con una media ponderada periódica, en función del periodo de coste medio que esté configurado en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  La fecha de valoración se establece automáticamente.  
 
-## <a name="setting-up-average-cost-calculation"></a>Configurar el cálculo del coste medio  
+## Configurar el cálculo del coste medio  
  En la tabla siguiente se describen los dos campos de la página **Configuración de inventario** que se deben rellenar para habilitar el cálculo de coste medio.  
 
 |Campo|Descripción|  
@@ -35,7 +29,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 >   
 >  La página **Pedidos contables** muestra el periodo de coste medio y el tipo de cálculo de coste medio que está en vigor durante ese periodo, por cada periodo contable.  
 
-## <a name="calculating-average-cost"></a>Cálculo de coste promedio  
+## Cálculo de coste promedio  
  Cuando se registra una transacción para un producto que utiliza el método de valoración de existencias Medio, se crea un movimiento en la tabla **Punto de entrada aj. coste promedio**. Este movimiento contiene el número de producto, el código de variante y el código de almacén de la transacción. El movimiento también contiene el campo **Fecha valoración**, el cual especifica la última fecha del periodo de coste medio en la que se registró la transacción.  
 
 > [!NOTE]  
@@ -50,7 +44,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
  El programa aplica el coste medio calculado a las salidas de existencias del elemento (producto, almacén o variante) con fechas de registro durante el periodo de coste medio. Si se han aplicado entradas de existencias de forma fija a salidas de existencias en el periodo de coste medio, el coste medio calculado se reenvía desde la entrada a la salida.  
 
-### <a name="example-average-cost-period--day"></a>Ejemplo: Periodo de coste medio = Día  
+### Ejemplo: Periodo de coste medio = Día  
  En el ejemplo siguiente se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un día. El campo **Tipo cálculo cte. medio** en la página **Configuración de inventario** está configurado en **Producto**.  
 
  En la tabla siguiente se muestran los movimientos de producto del producto del coste medio de muestra, ITEM1, antes de que se haya ejecutado el proceso **Valorar stock - movs. producto**.  
@@ -87,7 +81,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 | 02-02-20 | Compra | 1 | 100.00 | 5 |
 | 03-02-20 | Venta | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Ejemplo: Periodo de coste medio = Mes  
+### Ejemplo: Periodo de coste medio = Mes  
  En el ejemplo siguiente se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un mes. El campo **Tipo cálculo cte. medio** en la página **Configuración de inventario** está configurado en **Producto**.  
 
  Si el periodo de coste medio es un mes, solo se crea una entrada para cada combinación de número de producto, código de variante, código de almacén y fecha de valoración.  
@@ -131,7 +125,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
  Para obtener el coste medio para febrero, el coste medio de la pieza recibida en el inventario (100,00) se suma al coste medio al comienzo del periodo (30,00). La suma de los dos (130,00) se dividido entre la cantidad total del inventario (2). Esto ofrece el coste medio resultante del producto en el periodo correspondiente a febrero (65,00). El programa asigna dicho coste medio a las salidas de existencias ocurridas en el periodo (entradas 4 y 6).  
 
-## <a name="setting-the-valuation-date"></a>Definición de la fecha de valoración  
+## Definición de la fecha de valoración  
  El campo **Fecha valoración** de la tabla **Movimiento valor** se usa para determinar a qué periodo de coste medio pertenece un movimiento de salida de existencias. Esto también se aplica al inventario de trabajo en curso.  
 
  En la tabla siguiente se muestran los criterios que se usan para establecer la fecha de valoración.  
@@ -143,7 +137,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 |3|Anterior a la última fecha de valoración de los movimientos de valorización aplicados|Positivo|No|Última fecha de valoración de los movimientos de valoración aplicados|  
 |4||Negativo|Sí|Fecha de registro del movimiento de valoración de revalorización|  
 
-### <a name="example"></a>Ejemplo  
+### Ejemplo  
  En la siguiente tabla de movimientos de valoración se ilustran los distintos escenarios.  
 
 |Caso|Fecha reg.|Tipo mov. producto|Fecha valoración|Cdad. valorada|Importe coste (real)|Nº mov. producto|N.º de movimiento|  
@@ -164,7 +158,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
  Si la cantidad en el inventario es menor que cero después de registrar la salida de existencias, la fecha de valoración primero se establece en la fecha de registro de la salida de existencias. Esta fecha se puede modificar posteriormente, según las reglas descritas en la nota anteriormente en esta sección, cuando se aplica la entrada de existencias.  
 
-## <a name="recalculating-average-cost"></a>Nuevo cálculo de coste promedio  
+## Nuevo cálculo de coste promedio  
  La valoración de las salidas de existencias como una media ponderada será sencilla si las compras siempre se han facturado antes de que se facturen las ventas, los registros nunca tienen una fecha anterior y nunca se cometen errores. No obstante, la realidad es algo diferente a este ideal.  
 
  Tal como se muestra en los ejemplos en este tema, la fecha de valoración se define como la fecha a partir de la cual la entrada de valor se incluye en el cálculo del coste medio. Le ofrece flexibilidad para realizar las acciones siguientes en los productos que usan la valoración de existencias Media:  
@@ -180,7 +174,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 
  Es posible cambiar la base de valoración del inventario dentro de un periodo contable si se modifican los campos **Periodo coste medio** y **Tipo cálculo cte. medio**. No obstante, debe hacerse con cuidado y de acuerdo con un auditor.  
 
-### <a name="example"></a>Ejemplo  
+### Ejemplo  
  En el ejemplo siguiente se ilustra el modo en que se recalcula el coste medio cuando se introduce un registro posterior en una fecha anterior a una o varias salidas de existencias. El ejemplo se basa en el periodo de coste medio de **Día**.  
 
  En la tabla siguiente se muestran los movimientos de valoración que hay para el producto antes de que se haya introducido el registro.  
@@ -204,7 +198,7 @@ El coste medio de un producto se calcula con una media ponderada periódica, en 
 |15-02-20|-1|-17,00|3|  
 |16-02-20|-1|-17,00|4|  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)   
  [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)   

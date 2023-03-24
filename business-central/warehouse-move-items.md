@@ -1,53 +1,48 @@
 ---
 title: Desplazar productos
-description: En el inventario, los productos deben moverse de una ubicación a la otra para posibilitar las actividades diarias del almacén relacionadas con el mantenimiento de productos general.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: c74a14711fc6bd682a4a1675925690b7aabdf8d3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530843"
+description: Obtenga más información sobre cómo mover productos entre contenedores en el almacén.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: Conceptual
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Mover artículos
+# Mover artículos
 
-La actividad de almacén consistente en mover productos entre los almacenes se realiza de modo distinto según estén configuradas las funciones de gestión del almacén. La complejidad puede oscilar desde la ausencia total de funciones de almacén, pasando por configuraciones básicas de almacén para la gestión pedido por pedido en sólo una o más actividades, hasta configuraciones más avanzadas en las que todas las actividades del almacén se llevan a cabo como parte de un flujo de trabajo dirigido. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).
+Puede mover productos en e almacén de diferentes maneras, dependiendo de cómo haya configurado su almacén. La complejidad puede variar:
 
-En una ubicación de almacén, los productos deben moverse de una ubicación a la otra para posibilitar las actividades diarias del almacén relacionadas con el mantenimiento de productos general. Algunos movimientos suceden en relación directa a las operaciones internas, como un orden de producción que necesite ubicar los componentes entregados o los productos finales. Otros movimientos suceden como sencilla optimización de los de almacén o como movimientos ad hoc o desde las operaciones.
+* Los almacenes pequeños pueden usar configuraciones básicas de almacén para manejar pedidos individualmente, en uno o varios pasos.
+* Los almacenes grandes pueden usar configuraciones avanzadas en las que todas las actividades del almacén se coordinan mediante un flujo de trabajo dirigido. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
 
-Se llevan a cabo tareas adicionales de movimiento para reponer periódicamente las ubicaciones de picking o las ubicaciones de control de planta y modificar la información del contenido de la ubicación.
+Es posible que sea necesario mover artículos entre ubicaciones, por ejemplo, debido a operaciones internas:
 
-El movimiento de productos a otras ubicaciones afecta los movimientos de productos y, en consecuencia, debe realizarse por medio de una orden de transferencia. Para obtener más información, vea [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md).  
+* Una orden de producción necesita que se entreguen los componentes o que se almacenen los productos terminados.
+* Un responsable de almacén quiere optimizar el espacio.
+* Movimientos no planificados hacia y desde las operaciones.
+* Restablecer las ubicaciones de picking o las ubicaciones de planta.
+* Actualizar los contenidos de la ubicación.
 
-Las tareas relacionadas con el inventario de recuento, ajuste y reclasificación de artículos pueden incluir tareas de almacén que deben realizarse en los movimientos del almacén antes de que puedan sincronizarse con los movimientos del producto relacionado. Para obtener más información, consulte [Recuento, ajuste, y reclasificación de inventario](inventory-how-count-adjust-reclassify.md)  
+Las actividades de recuento, ajuste y reclasificación de productos pueden incluir tareas de almacén que deben realizarse en los movimientos del almacén antes de que puedan sincronizarse con los movimientos del producto. Obtenga más información en [Recuento, ajuste y reclasificación de inventario](inventory-how-count-adjust-reclassify.md).  
 
- En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.   
+ En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.
 
 |**Para**|**Vea**|  
 |------------|-------------|  
+|Mover productos entre almacenes|[Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)|
 |Mueva los artículos entre las ubicaciones en configuraciones de almacén básico en cualquier momento o sin los documentos de origen.|[Mover productos en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
-|Utilice la hoja de cálculo del movimiento de almacén para desplazar los artículos en configuraciones avanzadas de almacén, tanto para los documentos de origen y como los ad hoc.|[Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Traiga los artículos componentes a las operaciones internas en configuraciones de almacén básico que solicita los documentos de origen para aquellos operaciones.|[Mover componentes a un área de operaciones en configuraciones básicas de almacén](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
-|Planificar qué ubicaciones deben llenarse o vaciarse para mantener establecer un flujo eficiente, como por ejemplo vaciar un área de almacenaje de bultos antes de recibir un gran volumen.|[Planificar movimientos de almacén en hojas de trabajo](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
-|Actualizar la frecuencia con la que las ubicaciones, por ejemplo las ubicaciones de picking, deben reponerse como resultado de las fluctuaciones en la demanda.|[Calcular reposición ubicación](warehouse-how-to-calculate-bin-replenishment.md)|
+|Utilice la hoja de trabajo del movimiento de almacén, el picking y el almacenamiento internos para mover los productos en configuraciones avanzadas de almacén con el picking y el almacenamiento dirigidos.|[Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Vuelva a estructurar el almacén con nuevos códigos y características de ubicación y muévalos.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
-[Gestión de ensamblaje](assembly-assemble-items.md)  
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

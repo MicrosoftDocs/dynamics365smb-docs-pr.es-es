@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: f1c6ead7a776d11ccc8917944c3752ec6ac43c66
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132659"
 ---
+
 En los documentos de compra y los diarios, puede especificar un número de documento que haga referencia al sistema de numeración del proveedor. Utilice este campo para registrar el número que el proveedor asignó al pedido, la factura o el abono. Posteriormente podrá utilizar este número si, por alguna razón, necesita buscar la entrada registrada del diario mediante este número.
 
 El campo **N.º doc. externo obligatorio** en la página **Configuración de compras y pagos** especifica si es obligatorio especificar un número de documento externo en las siguientes situaciones:

@@ -1,6 +1,6 @@
 ---
 title: Crear contenido de ubicación
-description: Una vez que haya configurado sus contenedores, puede especificar los productos que desea almacenar en ellos y configurar reglas que controlen la frecuencia con la que se rellenan los contenedores.
+description: 'Una vez que haya configurado sus contenedores, puede especificar los productos que desea almacenar en ellos y configurar reglas que controlen la frecuencia con la que se rellenan los contenedores.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530438"
 ---
-# <a name="create-bin-contents"></a>Crear contenido de ubicación
+# Crear contenido de ubicación
 
 Después de configurar las ubicaciones, puede configurar el contenido. Es decir, puede configurar los productos que desea almacenar en una ubicación determinada y definir las reglas que rigen la cumplimentación de la ubicación con un producto particular. Puede hacerlo manualmente en la página **Contenidos de ubicación** o automáticamente con la página **Crear hoja de contenido de ubicación**.
 
-## <a name="to-create-bin-content-manually"></a>Para crear el contenido de ubicación manualmente
+## Para crear el contenido de ubicación manualmente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2. Seleccione la ubicación en la que desee configurar contenidos de ubicación y elija la acción **Ubicaciones**.  
@@ -37,7 +31,7 @@ Si selecciona el campo **Fijo**, define la ubicación fija del producto, lo que 
 > [!NOTE]  
 > Puede configurar varios contenidos de ubicación simultáneamente en la página **Hoja trab. creac. cont. ubic.**  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Para crear el contenido de una ubicación con una hoja de trabajo
+## Para crear el contenido de una ubicación con una hoja de trabajo
 
 Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación que desea para cada ubicación en la hoja de trabajo de creación de contenido de hoja de trabajo.
 
@@ -55,17 +49,14 @@ Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación qu
 
 En esta hoja puede trabajar con varias líneas de contenido de ubicación para varias ubicaciones y así obtener una buena panorámica de los que coloca en varias ubicaciones de una zona, pasillo o estantería.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/set-up-zones-bins/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/set-up-zones-bins/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Calcular reposición ubicación](warehouse-how-to-calculate-bin-replenishment.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)  
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
-[Detalles de diseño: Configuración de almacén](design-details-warehouse-setup.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

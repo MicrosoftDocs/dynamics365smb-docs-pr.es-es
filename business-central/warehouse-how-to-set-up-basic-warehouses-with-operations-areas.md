@@ -1,23 +1,17 @@
 ---
 title: Configurar almacenes básicos con áreas de operaciones
-description: Configure áreas de operaciones de almacén y utilice movimientos de inventario, picking y ubicaciones para mover mercancías entre ellas.
+description: 'Configure áreas de operaciones de almacén y utilice movimientos de inventario, picking y ubicaciones para mover mercancías entre ellas.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 6774, 6775, 6776
+ms.search.keywords: null
+ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0f90d7e92f4196a27712a1eedbd3cd66c15a9fc2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534027"
 ---
-# <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurar almacenes básicos con áreas de operaciones
+# Configurar almacenes básicos con áreas de operaciones
 
 Si las áreas de operaciones internas, como producción o ensamblado, existen en configuraciones de almacén básico donde las ubicaciones utilizan el campo de instalación de **Ubicac. obligatoria** y los campos de configuración **Picking requerido** y **Ubicación requerida**, puede utilizar los documentos de almacén básico siguientes para registrar sus actividades de almacén para las áreas de operaciones internas:  
 
@@ -41,14 +35,14 @@ Los procedimientos siguientes se basan en las actividades del almacén básico d
 > [!NOTE]  
 >  En el procedimiento siguiente, el campo de configuración **Ubicac. obligatoria** en las fichas de almacén está seleccionado como condición previa porque se considera como la base de cualquier nivel de gestión de almacén.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Para activar los documentos del inventario para las actividades de la operación interna
+## Para activar los documentos del inventario para las actividades de la operación interna
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra la ficha de almacén que desea configurar.  
 3.  En la ficha desplegable **Almacén**, seleccione la casilla **Ubicación requerida** para indicar que, cuando un documento de entrada o de origen interno con un código de ubicación emitido, se puede crear una ubicación de inventario o un documento de movimiento de inventario.  
 4.  Seleccione la casilla **Ubicación requerida** para indicar que, cuando se crea un documento de salida o de origen interno con un código de ubicación emitido, debe crearse un pick de inventario o un documento de movimiento de inventario.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Para definir una estructura de ubicación predeterminada en el área de producción
+## Para definir una estructura de ubicación predeterminada en el área de producción
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra el almacén que desea configurar.  
@@ -66,20 +60,20 @@ Este organigrama muestra cómo se rellena el campo de **Cód. ubicación** en la
 
 ![Diagrama de flujo de ubicación.](media/binflow.png "BinFlow")
 
-## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Para definir una estructura de ubicación predeterminada en el área de ensamblado
+## Para definir una estructura de ubicación predeterminada en el área de ensamblado
 
-Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la página **Movimiento inventario**. Para obtener más información, consulte [Mover componentes a un área de operaciones en el almacenamiento básico](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Los componentes para los pedidos de ensamblado no se seleccionar o registrar con picking de inventario. En lugar de eso, use la página **Movimiento inventario**. Para obtener más información, consulte [Realizar picking o mover para producción ensamblado o proyectos en un almacén básico](warehouse-how-to-pick-for-production.md).
 
 Cuando las cantidades de la línea de picking y envío que se ensamblan para el pedido, debe seguir ciertas reglas al crear las líneas de picking de inventario. Para obtener más información, vea la sección "Tratamiento de productos ensamblar para pedido en los picking de inventario" en [Realizar picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 Para obtener más información, consulte [Gestión de ensamblado](assembly-assemble-items.md).
 
-### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Para configurar que un movimiento de inventario se cree automáticamente cuando el picking de inventario para el producto del ensamblado se crea
+### Para configurar que un movimiento de inventario se cree automáticamente cuando el picking de inventario para el producto del ensamblado se crea
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conf. ensamblado** y luego elija el enlace relacionado.
 2. Seleccione la casilla **Crear movimientos automáticamente**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Para configurar la ubicación en el área de ensamblado en la que se colocan, de forma predeterminada, los componentes antes de que se puedan consumir en el ensamblado
+### Para configurar la ubicación en el área de ensamblado en la que se colocan, de forma predeterminada, los componentes antes de que se puedan consumir en el ensamblado
 
 El valor de este campo se inserta automáticamente en el campo **Cod. ubicación** de las líneas de pedido de ensamblado cuando esta ubicación se introduce en el campo **Cod. almacén** el campo de la línea de pedido de ensamblado.
 
@@ -87,7 +81,7 @@ El valor de este campo se inserta automáticamente en el campo **Cod. ubicación
 2. Abra el almacén que desea configurar.
 3. Rellene el campo **Cód. ubic. para ensamblado**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Para configurar la ubicación en el área de ensamblado donde los elementos del ensamblado terminados se registran cuando se ensamblan para stock
+### Para configurar la ubicación en el área de ensamblado donde los elementos del ensamblado terminados se registran cuando se ensamblan para stock
 
 El valor de este campo se inserta automáticamente en el campo **Cod. ubicación** de los encabezados de pedido de ensamblado cuando este código de ubicación se rellena en el campo **Cod. almacén** el campo del encabezado de pedido de ensamblado.
 
@@ -100,7 +94,7 @@ Los códigos de ubicación que se configuran en las fichas de almacén definen u
 2. Abra el almacén que desea configurar.
 3. Rellene el campo **Cód. ubic. desde ensamblado**.
 
-### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Para configurar la ubicación en la que los elementos del ensamblado terminados se registran cuando se ensamblan para un pedido de venta asociado
+### Para configurar la ubicación en la que los elementos del ensamblado terminados se registran cuando se ensamblan para un pedido de venta asociado
 
 Desde esta ubicación, los productos de ensamblado se envían inmediatamente, mediante un picking de inventario, para cumplir el pedido de venta.
 
@@ -122,7 +116,7 @@ El mismo código de ubicación a su vez se copia al campo **Cod. ubicación** de
 2. Abra el almacén que desea configurar.
 3. Rellene el campo **Cód. ubic. ens.contra-pedido**.
 
-## <a name="to-create-dedicated-component-bins"></a>Para crear las ubicaciones de componentes dedicados
+## Para crear las ubicaciones de componentes dedicados
 
 Puede especificar que las cantidades en una ubicación estén protegidas de picking para otras demandas que la demanda de su propósito actual.
 
@@ -142,15 +136,14 @@ La fabricación de una ubicación dedicada proporciona una funcionalidad similar
 > [!NOTE]  
 >  La ubicación debe estar vacía antes de poder seleccionar o borrar el campo **Dedicado**.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -1,23 +1,17 @@
 ---
 title: Añadir información a sus registros para usted mismo | Documentos de Microsoft
-description: Adjunte una nota a cualquier registro de la aplicación. Por ejemplo, si tiene información adicional sobre un pedido de venta que no se ajusta a ninguno de los campos del pedido de venta, puede escribir una nota.
+description: 'Adjunte una nota a cualquier registro de la aplicación. Por ejemplo, si tiene información adicional sobre un pedido de venta que no se ajusta a ninguno de los campos del pedido de venta, puede escribir una nota.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ROBOTS: NOINDEX,NOFOLLOW
+ms.search.keywords: null
+ROBOTS: 'NOINDEX,NOFOLLOW'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dde082a69ff9074dc0afd86e6b4e71f0d68d5cbd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511949"
 ---
-# <a name="add-and-view-notes-on-records"></a>Añadir y visualizar notas de registros
+# Añadir y visualizar notas de registros
  Puede <!--OnPrem and your colleagues -->puede agregar notas a los registros de la aplicación. Muchas páginas, particularmente las que muestran una lista de registros, como la página **Pedidos de ventas**, incluyen la acción **Notas** o el cuadro de información de **Notas**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
@@ -46,7 +40,7 @@ ms.locfileid: "8511949"
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

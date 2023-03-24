@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522751"
 ---
-# <a name="batch-post-output-and-run-times"></a>Registrar por lotes el resultado y los tiempos de ejecución
+# Registrar por lotes el resultado y los tiempos de ejecución
 La cantidad de salida representa el trabajo en curso en términos de cantidad terminada y capacidad utilizada del centro de trabajo o de máquina.
 
 Puede usar el diario de salida para:
@@ -30,7 +24,7 @@ Puede usar el diario de salida para:
 
 Con la ventana **Diario de producción**, puede realizar las mismas tareas que las de la ventana **Diario de salida** y al mismo tiempo realizar las tareas de registro de consumo relacionadas. Para obtener más información, consulte [Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Para registrar cantidades de salida y/o registrar tiempos de ejecución en una o varias líneas de la orden de producción
+## Para registrar cantidades de salida y/o registrar tiempos de ejecución en una o varias líneas de la orden de producción
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario salida**, y luego elija el enlace relacionado.  
 2. Rellene los campos con los datos de las órdenes de producción y los datos de salida y/o tiempo de ejecución. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -44,7 +38,7 @@ Los movimientos de capacidad se actualizan para los centros de trabajo o de máq
 
 Si registró la última operación, el producto se agregará al inventario.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Registrar el material de rechazo manualmente](production-how-to-post-scrap.md)
 [Revertir el registro de la salida](production-how-to-reverse-output-posting.md)

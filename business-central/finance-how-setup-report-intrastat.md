@@ -2,22 +2,16 @@
 title: Configuración de informes de Intrastat
 description: Obtener información sobre cómo configurar las funciones de informes de Intrastat y cómo informar sobre el comercio con empresas de otros países de la UE.
 author: altotovi
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
-ms.date: 09/02/2022
 ms.author: altotovi
-ms.openlocfilehash: b6adddb338af36f07abe4c6cb67c8113657ccb7c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605494"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
+ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
+ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# <a name="set-up-intrastat-reporting"></a>Configuración de informes de Intrastat
+# Configuración de informes de Intrastat
 
 Todas las empresas de la Unión Europea (UE) deben emitir informes sobre sus transacciones comerciales con otros países o regiones de la UE. Las empresas deben notificar el movimiento de mercancías al organismo de estadística de su país o región todos los meses, y el informe se debe remitir a las autoridades fiscales. Intrastat es el sistema para recopilar estadísticas comerciales de bienes dentro de estos países/regiones. Usa el **Informe intrastat** para completar informes periódicos de Intrastat (generalmente mensuales), recopilar, registrar e informar el comercio de bienes de acuerdo con la legislación local.
 
@@ -33,7 +27,7 @@ Los informes de Intrastat se basan en las normas básicas de la UE que se aplica
 >
 > Lea el artículo de configuración y uso de Intrastat de la versión anterior en [Configurar e informar Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## <a name="enable-the-new-intrastat-experience"></a>Habilitar la nueva experiencia de Intrastat
+## Habilitar la nueva experiencia de Intrastat
 
 En el segundo lanzamiento de versiones de 2022, [!INCLUDE[prod_short](includes/prod_short.md)] incluye una experiencia de Intrastat rediseñada con funciones ampliadas. Si la nueva funcionalidad de Intrastat no está habilitada en su entorno, un administrador puede habilitarla manualmente en la página **Gestión de características**.
 
@@ -50,11 +44,11 @@ En el segundo lanzamiento de versiones de 2022, [!INCLUDE[prod_short](includes/p
 > [!NOTE]
 > Dependiendo de la ubicación de su empresa, habilitar la función descrita anteriormente será suficiente. Para los países con características específicas para los informes Intrastat, debe habilitar la aplicación Intrastat específica del país además de la extensión principal.
 
-## <a name="intrastat-configuration"></a>onfiguración de Intrastat
+## onfiguración de Intrastat
 
 Antes de que pueda usar los informes de Intrastat, hay varias configuraciones que se deben establecer.
 
-### <a name="intrastat-reporting-setup"></a>Configuración de informes de Intrastat
+### Configuración de informes de Intrastat
 
 La página **Configuración de informes de Intrastat** se utiliza para habilitar los informes de Intrastat y establecer sus valores predeterminados. Puede especificar si necesita elaborar informes de Intrastat a partir de envíos (despachos), recibos (llegadas), o ambos, según los umbrales establecidos por sus regulaciones locales. También se pueden establecer naturalezas de transacción predeterminadas para documentos normales y de devolución, que se utilizan para la naturaleza de los informes de transacción.
 
@@ -94,7 +88,7 @@ Para configurar los informes Intrastat:
    | **Código def. interc. datos - Envío** | Especifica el código de definición de intercambio de datos para generar el archivo de Intrastat para mercancías enviadas. Funciona solo si el campo **Dividir archivos de recibos/envíos** se establece en **Sí**. |
 5. Abra la ficha rápida **Numeración** para configurar **Números de Intrastat**.
 
-### <a name="set-up-a-reporting-file"></a>Configurar un archivo de informe
+### Configurar un archivo de informe
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
@@ -113,7 +107,7 @@ Para configurar los informes Intrastat:
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] viene con la definición de intercambio de datos preconfigurada para Intrastat para todos los países localizados. Obtenga más información acerca de cómo crear una nueva definición de intercambio de datos en el artículo [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Establecer campos obligatorios con la lista de verificación del informe Intrastat
+### Establecer campos obligatorios con la lista de verificación del informe Intrastat
 
 En algunos países, las autoridades requieren que los informes de Intrastat incluyan, por ejemplo, el método de envío para compras o algunos otros valores cuando las ventas superan un cierto umbral.
 
@@ -133,9 +127,9 @@ Para establecer campos y/o valores obligatorios en la página **Informe Intrasta
 > [!NOTE]
 > Cuando abre la **Página de filtro** desde la línea **Expresión de filtro**, puede usar todas las expresiones de filtro estándar relacionadas con el campo específico que desea filtrar.
 >
-> Tenga cuidado con la configuración de las reglas de validación, ya que pueden diferir de un país a otro.
+> Tenga cuidado al configurar las reglas de validación. Pueden diferir de un país a otro.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Usar codeunits personalizadas en informes Intrastat
+## Usar codeunits personalizadas en informes Intrastat
 
 Si desea cambiar el funcionamiento de Intrastat y la configuración predeterminada no es suficiente, puede personalizar el sistema ampliando las funciones estándar. Si necesita cambiar aún más el comportamiento de Intrastat, puede desarrollar sus propias codeunits. Sin embargo, cuando crea codeunits, debe realizar cambios adicionales para usarlas. Para configurar el sistema para usar sus propios objetos:
 
@@ -143,15 +137,15 @@ Si desea cambiar el funcionamiento de Intrastat y la configuración predetermina
 2. En lapágina **Configuración de informes de IVA**, agregue una nueva línea.
 3. En el campo **Tipo de informe de IVA** campo, elija la opción **Informe intrastat**.
 4. En el campo **Versión del informe de IVA**, especifique la versión del informe.
-5. Después de eso, puede agregar sus codeunits para las siguientes opciones: a. En el campo **ID de codeunit de líneas sugeridas**, especifique la nueva codeunit para las líneas sugeridas en las líneas del informe Intrastat.
-   b. En el campo **ID de codeunit de contenido**, especifique la nueva codeunit para exportar datos como un archivo mediante una definición de intercambio de datos.
-   c. En el campo **Validar ID de codeunit**, especifique las nuevas codeunits para las validar los resultados en las líneas del informe Intrastat.
+5. Después de eso, puede agregar sus codeunits para las siguientes opciones: a. En el campo **Id. de codeunit de líneas sugeridas**, especifique la nueva codeunit para las líneas sugeridas en las líneas del informe intrastat.
+   b. En el campo **Id. de codeunit de contenido**, especifique la nueva codeunit para exportar datos como un archivo mediante una definición de intercambio de datos.
+   c. En el campo **Validar id. de codeunit**, especifique las nuevas codeunits para validar los resultados en las líneas del informe intrastat.
 
 > [!IMPORTANT]
 >
 > Esta línea debe estar vacía si utiliza las codeunits estándar. Solo debe crear una línea y configurarla si ha desarrollado codeunits personalizadas.
 
-## <a name="other-intrastat-configurations"></a>Otras configuraciones de Intrastat
+## Otras configuraciones de Intrastat
 
 > [!IMPORTANT]
 > Las fichas de cliente y proveedor incluyen un campo, **Tipo socio Intrastat**, que tiene los mismos valores de opción que el campo **Tipo socio**: "" (vacío), *Compañía* y *Persona*. El campo **Tipo socio Intrastat** ha reemplazado al campo **Tipo socio** en los informes de Intrastat. El campo **Tipo de socio** se utiliza en el Área Única de Pagos en Euros (SEPA) para definir el Esquema de Débito Directo SEPA (Core o B2B). El campo **Tipo de socio Intrastat** se utiliza solo para informes de Intrastat. De esta forma, puede especificar valores diferentes para los dos campos, si es necesario.
@@ -183,86 +177,134 @@ Opcionalmente, también puede configurar:
 * **Puertos y aeropuertos**: especifique las ubicaciones de otros países donde envía o recibe productos. Un aeropuerto de Heathrow es un ejemplo de valor de este campo. Introduzca los puertos y aeropuertos en los documentos de ventas y compras en la ficha desplegable **Internacional**. Esta información se copiará también de los movimientos de productos al crear el diario de Intrastat.
 * **Unidad de medida suplementaria**: la cantidad de mercancías para el informe de Intrastat puede ser peso neto (en kilogramos) o una unidad suplementaria. Si se requieren unidades adicionales, debe configurarlas para artículos y activos fijos.
 
-#### <a name="set-up-transport-methods"></a>Configurar métodos de transporte
+#### Configurar métodos de transporte
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Métodos de transporte** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Configurar códigos de naturaleza de transacción
+#### Configurar códigos de naturaleza de transacción
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tipos de transacciones** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Otras configuraciones relacionadas
+### Otras configuraciones relacionadas
 
 Antes de utilizar la función de informes de Intrastat, debe configurar algunos campos en las fichas de artículos, activos fijos, clientes y proveedores.
 
-#### <a name="item-cards"></a>Fichas de producto
+#### Fichas de producto
 
 Para configurar toda la información necesaria relacionada con Intrastat en fichas de artículos:
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Seleccione el elemento que quiere configurar.
-3. Amplíe la ficha despelgable **Costos y publicación** y rellene el **Número de arancel**, la **Unidad de medida suplementaria** y el **Código de país/región de origen**.
-4. Amplíe la ficha desplegable **Inventario** e ingrese el valor decimal en el campo **Peso neto**.
+3. En la ficha desplegable **Costes y registros**, rellene los campos **Cód. arancelario**, **Unidad de medida suplementaria** y **Código de país/región de origen**.
+4. En la ficha desplegable **Inventario**, introduzca el valor decimal en el campo **Peso neto**.
 
 > [!NOTE]
 > Puede utilizar diferentes unidades de medida como su unidad de medida suplementaria. Si esto no es lo mismo que la **Unidad de medida base**, necesita configurar esta unidad de medida en la página **Unidades de medida de producto**.
 
-#### <a name="fixed-asset-cards"></a>Fichas de activos
+#### Fichas de activos
 
 Para configurar toda la información necesaria relacionada con Intrastat en fichas de activos:
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
 2. Seleccione el activo fijo que desee configurar.
-3. Amplíe la ficha desplegable **Intrastat** y rellene los campos **Número de arancel**, **Peso neto** y **Unidad de medida suplementaria**.
+3. En la ficha desplegable **Intrastat**, rellene los campos **Cód. arancelario**, **Peso neto** y **Unidad de medida suplementaria**.
 
 > [!NOTE]
 > Puede utilizar diferentes unidades de medida como su unidad de medida suplementaria. Pero, con independencia del **Código de unidad de medida** que elija, su **Cantidad** en los informes de Intrastat siempre será 1.
 
-#### <a name="vendor-cards"></a>Fichas de proveedor
+#### Fichas de proveedor
 
 Antes de utilizar un proveedor en los informes de Intrastat, debe tener un **Código de país/región** y un **Número de registro de IVA** dedicado para cada uno de ellos, además de más información sobre su página **Tarjeta de vendedor**:
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Seleccione el proveedor que quiere configurar.
 3. En la ficha desplegable **Intrastat**, puede establecer valores predeterminados para **Tipo de trans. predeterminada**, **Tipo de trans. predeterminada - Devoluciones** y **Método de transporte predeterminado**.
-4. Amplíe la ficha desplegable **Pagos** y elija la opción en el campo **Tipo de socio de Intrastat** para especificar si el proveedor es una persona o una empresa en los informes de Intrastat.
+4. En la ficha desplegable **Pagos**, elija la opción en el campo **Tipo socio Intrastat** para especificar si el proveedor es una persona o una empresa en los informes de Intrastat.
 
-#### <a name="customer-cards"></a>Fichas de cliente
+#### Fichas de cliente
 
 Antes de utilizar un cliente en los informes de Intrastat, debe tener un **Código de país/región** y un **Número de registro de IVA** dedicado para cada uno de ellos, además de más información sobre su página **Tarjeta de cliente**:
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Seleccione el cliente que quiere configurar.
 3. En la ficha desplegable **Intrastat**, puede establecer valores predeterminados para **Tipo de trans. predeterminada**, **Tipo de trans. predeterminada - Devoluciones** y **Método de transporte predeterminado**.
-4. Amplíe la ficha desplegable **Pagos** y elija la opción en el campo **Tipo de socio de Intrastat** para especificar si el proveedor es una persona o una empresa en los informes de Intrastat.
+4. En la ficha desplegable **Pagos**, elija la opción en el campo **Tipo socio Intrastat** para especificar si el proveedor es una persona o una empresa en los informes de Intrastat.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Excluir artículos y activos fijos de los informes de Intrastat
+#### Excluir artículos y activos fijos de los informes de Intrastat
 
 Si hay un motivo para excluir un artículo o activo fijo específico de los informes de Intrastat, debe cambiar una opción en su tarjeta.
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Excluir un artículo de un informe Intrastat
+##### Excluir un artículo de un informe Intrastat
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Seleccione el elemento que quiere configurar.
-3. Amplíe la ficha desplegable **Costos y registros** y seleccione el campo **Excluir del informe de Intrastat**.
+3. En la ficha desplegable **Costes y registros**, seleccione el campo **Excluir del informe de Intrastat**.
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Excluir activos fijos de los informes de Intrastat
+##### Excluir activos fijos de los informes de Intrastat
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
 2. Seleccione el activo fijo que desee configurar.
-3. Amplíe la ficha desplegable **Intrastat** y seleccione el campo **Excluir del informe de Intrastat**.
+3. En la ficha desplegable **Intrastat**, seleccione el campo **Excluir del informe de Intrastat**.
 
-## <a name="country-specific-intrastat-setup"></a>Configuración de Intrastat específica del país
+## Configuración de Intrastat específica del país
 
-<!-- PM's note: Currently, we will add only the 'Overview' topic; the topic 'Manage Intrastat Country Specifics' and country details will wait until 21.1 when I update with all country-based details -->
+Los requisitos de Intrastat son similares en todos los estados miembros de la UE, aunque hay excepciones importantes. En teoría, las reglas deberían aplicarse de manera uniforme en todos los estados miembros. Sin embargo, existen diferencias en la implementación porque algunos estados miembros brindan pautas sobre cómo aplicar los principios generales del reglamento en situaciones específicas. Por ejemplo, muestras comerciales, devolución de mercancías, etc. Estas pautas pueden producir resultados diferentes para diversas situaciones en los estados miembros de la UE. Por eso, algunos países tienen información específica adicional separada de otros países. También utilizan un formato de archivo diferente para los informes.
 
-Los requisitos de Intrastat son similares en todos los estados miembros de la UE, aunque hay excepciones importantes. En teoría, las reglas deberían aplicarse de manera uniforme en todos los estados miembros. Sin embargo, existen diferencias en la implementación porque algunos estados miembros brindan pautas sobre cómo se deben aplicar los principios generales del reglamento en situaciones específicas (por ejemplo, muestras comerciales, devolución de bienes, etc.). Estas pautas pueden producir resultados diferentes para diversas situaciones en los estados miembros de la UE. Por eso, algunos países tienen información específica adicional separada de otros países, y también tienen un formato de archivo diferente para los informes.
+### Austria
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+Los informes de Intrastat en Austria requieren dos archivos diferentes para recibos y envíos. Para verificar que su configuración es correcta, siga estos pasos:
 
-## <a name="see-also"></a>Consulte también .
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de informes de Intrastat** y luego elija el enlace relacionado.  
+2. En la ficha desplegable **Informes**, compruebe si se ha seleccionado **Dividir archivos recepción/envíos**. Relacionado con eso, encontrará dos **Código def. intercambio datos** configurados. El campo **Archivo zip (-s)** también está seleccionado para garantizar que los archivos de informe se agregarán al archivo comprimido.
+
+El proceso de trabajo con informes Intrastat es el mismo que el de la característica global.
+
+<!-- ### Belgium-->
+
+### República Checa
+
+La nueva experiencia del informe Intrastat para la República Checa estará disponible a partir del primer lanzamiento de versiones de 2023. Mientras tanto, puede seguir utilizando la característica **Diario de Instrastat**.
+
+### Finlandia
+
+En Finlandia, hay algunos pasos adicionales para configurar Intrastat. Los informes de Intrastat en Finlandia requieren dos archivos diferentes para recibos y envíos. Relacionado con eso, encontrará dos **Código def. intercambio datos** configurados.
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de informes de Intrastat** y luego elija el enlace relacionado.  
+2. En la página **Configuración de informe Intrastat**, en la ficha desplegable **Configuración del archivo**, complete los campos como se describe en la siguiente tabla:
+
+    |Campo|Descripción|  
+    |------------------------------------|---------------------------------------|
+    | **Código personalizado**|Especifica un código personalizado para la información de configuración del archivo Intrastat. |
+    | **Número de serie de la compañía**|Especifica un número de serie de la compañía para la información de configuración del archivo Intrastat. |
+
+3. En la ficha desplegable **Informes**, compruebe si se ha seleccionado **Dividir archivos recepción/envíos**.
+
+El proceso de trabajo con informes Intrastat es el mismo que el de la característica global.
+
+<!-- ### Germany-->
+
+### Italia
+
+La nueva experiencia de informes Intrastat para Italia estará disponible a partir de febrero de 2023. Mientras tanto, puede seguir utilizando la característica **Diario de Instrastat**.
+
+<!-- ### France-->
+
+### Suecia
+
+Los informes de Intrastat en Suecia requieren dos archivos diferentes para recibos y envíos. Para verificar que su configuración es correcta, siga estos pasos:
+
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de informes de Intrastat** y luego elija el enlace relacionado.  
+2. En la ficha desplegable **Informes**, compruebe si se ha seleccionado **Dividir archivos recepción/envíos**. Relacionado con eso, encontrará dos **Código def. intercambio datos** configurados.
+
+El proceso de trabajo con informes Intrastat es el mismo que el de la característica global.
+
+<!-- ### United Kingdom-->
+
+## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+
+## Consulte también .
 
 [Informes de Intrastat en Business Central](finance-how-report-intrastat.md)  
 [Gestión financiera](finance.md)  

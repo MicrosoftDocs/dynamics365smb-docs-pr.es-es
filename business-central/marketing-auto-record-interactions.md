@@ -1,22 +1,16 @@
 ---
 title: Configurar el registro automático de las interacciones | Documentos de Microsoft
-description: Puede registrar automáticamente sus interacciones con el cliente, por ejemplo, para ventas, compras y documentos de servicio o llamadas telefónicas.
+description: 'Puede registrar automáticamente sus interacciones con el cliente, por ejemplo, para ventas, compras y documentos de servicio o llamadas telefónicas.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: marketing, relationship, prospect, contact, client, customer
+ms.search.keywords: 'marketing, relationship, prospect, contact, client, customer'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6ccf3a51b8a9cbddcddd68ba192cfdbe36149bc3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075882"
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a>Registrar interacciones con contactos automáticamente
+# Registrar interacciones con contactos automáticamente
 Puede configurar la aplicación para que registre automáticamente interacciones de ventas, compras y documentos de servicio, hojas de portada, correos electrónicos, llamadas telefónicas, como:
 
 * Imprimir ofertas, pedidos, facturas, abonos y hojas de portada de compra y de ventas.
@@ -28,7 +22,7 @@ Puede configurar la aplicación para que registre automáticamente interacciones
 Para configurar los registros automáticos de estas interacciones, puede especificar plantillas de interacciones para estos documentos y acciones mediante la página **Configuración de plantilla de interacción**.  
 Para abrir la página **Configuración de plantilla de interacción**, elija la ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de plantilla de interacción** y luego elija el enlace relacionado.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Registrar interacciones con contactos](marketing-interactions.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

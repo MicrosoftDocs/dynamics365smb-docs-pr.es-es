@@ -1,138 +1,115 @@
 ---
-title: 'Detalles de diseño: Flujo de salida del almacén'
-description: Este tema trata sobre la secuencia del flujo de almacén de salida desde los documentos de origen liberados hasta los artículos listos para enviar.
-author: SorenGP
+title: Resumen de procesos de almacén salientes
+description: Este artículo describe el flujo de trabajo del almacén de salida.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 282c6533d7ac8b769c1ec74c42d4808ebc5da380
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139708"
+ms.date: 11/25/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-outbound-warehouse-flow"></a>Detalles de diseño: Flujo de salida del almacén
+# Procesos de almacén salientes
 
-El flujo de salida en el almacén comienza con una solicitud de los documentos de origen lanzados para sacar los productos del almacén, para enviarlos a una parte externa o a otra ubicación de la empresa. Desde el área de almacenamiento, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para extraer productos de las dársenas de envío.  
+Los procesos de salida en los almacenes comienzan cuando libera un documento de origen para sacar artículos de una ubicación de almacén. Por ejemplo, ya sea para enviar los artículos a algún lugar o para trasladarlos a otra ubicación de la empresa. En principio, el proceso de envío de pedidos salientes consta de dos actividades:
 
- Cada producto se identifica y empareja con su documento de origen de entrada correspondiente. Existen los siguientes documentos de origen de salida:  
+* Recogiendo artículos de los estantes.
+* Envío de artículos fuera del almacén.
 
-- Pedido de venta  
-- Pedido de transferencia de salida  
-- Pedido dev. compra  
-- Pedido servicio  
+Los documentos de origen para el flujo de almacén de salida son:  
 
-Además, existen los siguientes documentos de origen internos que funcionan como orígenes de salida:  
+* Pedido de venta  
+* Pedido de transferencia de salida  
+* Pedido dev. compra  
+* Pedido servicio  
 
-- Orden de producción con necesidad de componentes  
-- Pedido de ensamblado con necesidad de componentes  
+> [!NOTE]
+> Los pedidos de producción y ensamblaje con necesidades de componentes también representan documentos de origen salientes. Las órdenes de producción y ensamblaje son un poco diferentes porque normalmente son procesos internos que no involucran envíos. En su lugar, se utilizan para ubicar artículos producidos o mover los componentes necesarios para ensamblar un artículo a un área de ensamblaje. Obtenga más información sobre estos procesos en [Detalles de diseño: flujos internos de almacén](design-details-internal-warehouse-flows.md).  
 
- Los dos últimos documentos representan los flujos de salida del almacén a las áreas de operaciones internas. Para obtener más información acerca de la gestión de almacenes para los procesos de entrada y salida internos, consulte [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md).  
+En [!INCLUDE[prod_short](includes/prod_short.md)], la selección y el envío de productos se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
- Los procesos y los documentos de interfaz de usuario en los flujos de almacén de salida varían según el la configuración básica y avanzada de almacén. La diferencia principal es que las actividades se realizan pedido a pedido en la configuración básica de almacén y se consolidan para varios pedidos en la configuración avanzada. Para obtener más información acerca de los diferentes niveles de complejidad de almacenes, consulte [Detalles de diseño: Resumen de almacén](design-details-warehouse-setup.md).  
+|Método|Proceso de salida|Picking requerido|Envío requerido|Nivel de complejidad (Obtenga más información en [Descripción general de la gestión de almacenes](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Registro de picking y envío desde la línea de pedido|||No hay ninguna actividad de almacén dedicada.|  
+|B|Registro de picking y envío desde un documento de picking de existencias|Activado||Básico: Pedido por pedido|  
+|P|Registro de picking y envío desde un documento de envío de almacén||Activado|Básico: Publicación consolidada de recepción/envío para múltiples pedidos.|  
+|D|Registro de picking desde un documento de picking de almacén y registro de envío de un documento de envío de almacén|Activado|Activado|Avanzado|  
 
- En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de salida para la selección y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
+El enfoque que se elige depende de las prácticas de su almacén y del nivel de su complejidad organizativa. Los siguientes son algunos ejemplos que pueden ayudarlo a decidir.
 
-|Método|Proceso de salida|Ubicaciones|Picking|Envíos|Nivel de complejidad (consulte [Detalles de diseño: configuración de almacén](design-details-warehouse-setup.md))|  
-|------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
-|A|Registro de picking y envío desde la línea de pedido|X|||2|  
-|P|Registro de picking y envío desde un documento de picking de existencias||X||3|  
-|C|Registro de picking y envío desde un documento de envío de almacén|||X|5/4/6|  
-|D|Registro de picking desde un documento de picking de almacén y registro de envío de un documento de envío de almacén||X|X|5/4/6|  
+* En un entorno de pedido por pedido con procesos directos y una estructura simple de ubicación, resulta apropiado el método A, selección y envío desde la línea de pedido.
+* Si los artículos para una línea de pedido provienen de más de una ubicación, o si los trabajadores del almacén no pueden trabajar con documentos de pedido, es apropiado el uso de documentos de recolección separados, método B.
+* Si sus procesos de selección y envío implican varios pedidos y requieren un mayor control y una visión general, puede optar por utilizar un documento de envío de almacén y un documento de selección de almacén para separar las tareas de selección y envío, métodos C y D.  
 
- La selección de un planteamiento depende de las prácticas aceptadas de la empresa y del nivel de su complejidad organizativa. En un entorno de pedido por pedido con procesos directos y estructura simple de ubicación, resulta apropiado el método A, selección y envío desde la línea de pedido. En otras empresas de pedido por pedido donde los productos para una línea de pedido pueden proceder de más de una ubicación o donde los trabajadores del almacén no pueden trabajar con documentos de pedido, es adecuado usar documentos de selección aparte, método B. En los casos de empresas donde los procesos de selección y envío implican una gestión de pedidos múltiples y por tanto requieren un mayor control y supervisión, la empresa puede optar por utilizar un documento de envío de almacén y un documento de selección de almacén para separar las tareas de selección y envío, métodos C y D.  
+En los métodos A, B y C, las actividades de selección y envío se agrupan en un paso al registrar un documento como enviado. En el método D, primero registra la selección y después registra el envío desde otro documento.
 
- En los métodos A, B y C, las acciones de selección y envío se agrupan en un paso al registrar el documento correspondiente como enviado. En el método D, primero se registra la selección y después se registra el envío más adelante desde otro documento.  
+> [!NOTE]
+> Si bien las selecciones de almacén y las selecciones de inventario suenan similares, son documentos diferentes y se utilizan en procesos diferentes.
+> * La selección de inventario utilizada en el método B, junto con el registro de la información de selección, también contabiliza el envío del documento de origen.
+> * La selección de almacén utilizada en el método D no se puede contabilizar y solo registra la selección. El registro no registra el envío, sino que simplemente hace que los artículos estén disponibles para el envío. En el flujo de salida, la selección en almacén requiere un envío de almacén.
 
-## <a name="basic-warehouse-configurations"></a>Configuración básica de almacén
+## No hay ninguna actividad de almacén dedicada
 
- En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
+Los siguientes artículos brindan información sobre cómo procesar recibos para documentos de origen si no tiene actividades de almacén dedicadas.
 
- ![Flujo de salida en las configuraciones básicas de almacén.](media/design_details_warehouse_management_outbound_basic_flow.png "Flujo de salida en las configuraciones básicas de almacén")  
+* [Vender producto](sales-how-sell-products.md)
+* [Pedidos de transferencia](inventory-how-transfer-between-locations.md)
+* [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md)
+* [Crear pedidos de servicio](service-how-to-create-service-orders.md)
 
-### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Lanzar documento de origen/Crear selección o movimiento de inventario
+## Configuraciones básicas de almacén
 
- Cuando un usuario responsable de los documentos de origen, como un procesador de pedidos de venta o un planificador de producción, está preparado para la actividad de almacén salida, lanza el documento de origen para señalizar a los empleados de almacén que los productos o componentes vendidos se pueden preparar y colocar en las ubicaciones especificadas. Además, el usuario crea documentos de picking o de movimiento de inventario para las líneas de pedido individuales, mediante envío, basándose en las ubicaciones y cantidades especificadas para manipular.  
+En el diagrama siguiente se ilustran los procesos de almacén de salida para diferentes tipos de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-> [!NOTE]  
-> Los movimientos de inventario se utilizan para mover productos a áreas de operaciones internas en las configuraciones de almacén básico, según documentos de origen o ad hoc.  
+:::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Muestra los pasos de un flujo de salida básico en un almacén.":::
 
-### <a name="2-create-outbound-request"></a>2: Crear solicitud de salida
+### 1: Lanzar un documento de origen
 
- Cuando se libera el documento de origen de salida, se crea automáticamente una solicitud de almacén de salida. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
+Cuando utiliza la acción **Liberar** en un documento de origen, como una orden de venta o de transferencia, los artículos del documento están listos para manejarse en el almacén. Por ejemplo, seleccionar y colocar en la ubicación especificada en el documento. Alternativamente, puede crear documentos de selección de inventario para líneas de pedido particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
 
-### <a name="3-create-inventory-pick-or-movement"></a>3: Crear selección de inventario o movimiento
+### 2: Crear un picking de inventario
 
- En la página **Picking inventario** o **Movimiento de inventario**, el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de salida del almacén. Las líneas de selección de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
+En la página **Selección de inventario**, el trabajador del almacén recupera, de manera pull, las líneas del documento de origen. Las líneas de selección de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
 
-### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Registrar selección de inventario o Registrar movimiento de inventario
+### 3: Registrar un picking de inventario
 
- En cada línea de los productos en los que se ha realizado el picking o se han trasladado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** y, a continuación, registra el picking de existencias o el movimiento de inventario. Los documentos de origen relacionados con el picking de existencias se registran como enviados o consumidos. No se registran los documentos de origen relacionados con los movimientos de inventario.  
+En cada línea de los productos que se han seleccionado o movido, parcial o totalmente, rellene el campo **Cantidad** y, a continuación, registre la selección de inventario. Los documentos de origen relacionados con el picking de existencias se registran como enviados o consumidos.  
 
- En el caso de selecciones de inventario, se crean movimientos de producto negativos y movimientos de almacén, así como se elimina la solicitud de selección si se ha gestionado íntegramente. Por ejemplo, se actualiza el campo **Cantidad enviada** en la línea de salida del documento de origen. Se crea un documento de envío registrado que refleja el pedido de venta, por ejemplo, y los productos enviados.  
+En el caso de selecciones de inventario, se crean movimientos de producto negativos y movimientos de almacén, así como se elimina la solicitud de selección si se ha gestionado íntegramente. Por ejemplo, se actualiza el campo **Cantidad enviada** en la línea de salida del documento de origen. Se crea un documento de envío registrado que refleja el pedido de venta, por ejemplo, y los productos enviados.  
 
-## <a name="advanced-warehouse-configurations"></a>Configuraciones avanzadas de almacén
+## Configuración avanzada de almacén
 
- En el diagrama siguiente se ilustran los flujos de almacén de salida por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
+En el diagrama siguiente se ilustran los procesos de almacén de salida para diferentes tipos de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
- ![Flujo de salida en las configuraciones avanzadas de almacén.](media/design_details_warehouse_management_outbound_advanced_flow.png "Flujo de salida en las configuraciones avanzadas de almacén")  
+:::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Muestra los pasos de un flujo de almacén de salida avanzado.":::
 
-### <a name="1-release-source-document"></a>1: Lanzar documento de origen
+### 1: Lanzar un documento de origen
 
- Cuando un usuario responsable de los documentos de origen, como un procesador de pedidos de venta o un planificador de producción, está preparado para la actividad de almacén de salida, lanza el documento de origen para señalizar a los empleados de almacén que los productos o componentes vendidos se pueden preparar y colocar en las ubicaciones especificadas.  
+Liberar un documento de origen en configuraciones avanzadas hace lo mismo que para las configuraciones básicas. Los artículos pasan a estar disponibles para su manipulación en el almacén. Por ejemplo, se pueden incluir en un envío.  
 
-### <a name="2-create-outbound-request-2"></a>2: Crear solicitud de salida (2)
+### 2: Crear un envío de almacén
 
- Cuando se libera el documento de origen de salida, se crea automáticamente una solicitud de almacén de salida. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
+Obtenga las líneas del documento de origen liberado en la página **Envío almacén**. Puede combinar líneas de varfios documentos de origen en un envío de almacén.  
 
-### <a name="3-create-warehouse-shipment"></a>3: Crear envío de almacén
+### 3: Crear un picking de almacén
 
- En la página **Envío almacén**, el trabajador responsable de envíos recupera las líneas pendientes del documento de origen basándose en la solicitud de salida del almacén. Se pueden combinar varias líneas del documento de origen en un documento de envío de almacén.  
+En la página **Envío de almacén**, cree actividades de selección de almacén para envíos de almacén de una de estas dos maneras:
 
-### <a name="4-release-shipment--create-warehouse-pick"></a>4: Lanzar envío/Crear selección de almacén
+- De forma automática, donde utiliza la acción **Crear selección**. Seleccione las líneas que se van a seleccionar y prepare los picking mediante la especificación, por ejemplo, de las ubicaciones de las que se tomarán, las ubicaciones en las que se colocarán y la cantidad de unidades que se manipularán. Las ubicaciones se pueden predefinir para la ubicación del almacén o el recurso.
+- De forma pull, donde utiliza la acción **Liberar**. En la página **Hoja trabajo picking**, los empleados del almacén pueden usar la acción **Traer documentos almacén** para obtener los pickings asignados. Cuando los picking de almacén están totalmente registrados, se eliminan las líneas en **Hoja trabajo picking**.
 
- El empleado de envíos responsable libera el envío de almacén, para que los empleados de almacén puedan crear o coordinar el picking de almacén para el envío en cuestión.  
+### 4: Registrar una selección de almacén
 
- El usuario también puede crear mediante envío documentos de selección de almacén para líneas de envío particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
+En la página **Selección de almacén**, un empleado del almacén rellena el campo **Cantidad** de cada línea que han seleccionado parcial o totalmente y luego registra el picking del almacén.
 
-### <a name="5-release-internal-operation--create-warehouse-pick"></a>5: Lanzar operación interna/Crear selección de inventario
+Se crean movimientos de almacén y se eliminan las líneas de picking de almacén, si se ha seleccionado la cantidad completa. El documento de picking de almacén permanecerá abierto hasta que se registre la cantidad total del envío de almacén. El campo **Cdad. preparada pedido** de las líneas de albarán de almacén se actualiza como corresponde.  
 
- El usuario responsable de las operaciones internas lanza un documento de origen interno, como, por ejemplo, una orden de producción y un pedido de ensamblado, de modo que los empleados de almacén pueden crear o coordinar los picking de almacén para la operación interna en cuestión.  
+### 5: Registrar el envío de almacén
 
- El usuario también puede crear mediante envío documentos de selección de almacén para la orden de producción o el pedido de ensamblado particular, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
+Cuando todos los productos del documento de envío de almacén están registrados como preparados para las ubicaciones de envío especificadas, el empleado de almacén registra el envío. La contabilización actualiza las entradas del libro mayor de artículos para reflejar la reducción en el inventario. Por ejemplo, se actualiza el campo **Cantidad enviada** en la línea de salida del documento de origen.  
 
-### <a name="6-create-pick-request"></a>6: Crear petición de selección
+## Consulte también
 
- Cuando se libera el documento de origen de salida, se crea automáticamente una solicitud de picking de almacén. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario. Dependiendo de la configuración, el consumo de una orden de producción y un pedido de ensamblado también crea una solicitud de selección de los componentes necesarios del inventario.  
-
-### <a name="7-generate-pick-worksheet-lines"></a>7: Generar líneas de hoja de trabajo de selección
-
- El usuario responsable de coordinar el picking recupera las líneas de picking del almacén en la **Hoja trabajo picking**, basándose en las solicitudes de picking de los envíos de almacén o las operaciones internas con el consumo de componentes. El usuario selecciona las líneas para picking y prepara los picking mediante la especificación de las ubicaciones de las que se tomarán, las ubicaciones en las que se colocarán y la cantidad de unidades que se manipularán. Las ubicaciones se pueden predefinir mediante la configuración del recurso de ubicación de almacén o de operación.  
-
- El usuario especifica los métodos de picking para la manipulación optimizada en el almacén y, a continuación, usa una función para crear los documentos de picking de almacén correspondientes, que se asignan a distintos empleados de almacén que realizan los picking de almacén. Cuando los picking de almacén están totalmente asignados, se eliminan las líneas en **Hoja trabajo picking**.  
-
-### <a name="8-create-warehouse-pick-documents"></a>8: Cree documentos de selección de almacén
-
- El empleado de almacén que realiza las tareas de picking crea un documento de picking de almacén, mediante extracción, basándose en el documento de origen lanzado. El documento de selección de almacén se crea y se asigna también al trabajador de almacén mediante envío.  
-
-### <a name="9-register-warehouse-pick"></a>9: Registrar selección de almacén
-
- En cada línea de los productos en los que se ha realizado el picking, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** de la página **Picking almacén** y, a continuación, registra el picking del almacén.  
-
- Se crean movimientos de almacén y se eliminan las líneas de picking de almacén, si se han manipulado por completo. El documento de picking de almacén permanecerá abierto hasta que se registre la cantidad total del envío de almacén relacionado. El campo **Cdad. preparada pedido** de las líneas de albarán de almacén se actualiza como corresponde.  
-
-### <a name="10-post-warehouse-shipment"></a>10: Registro de envío de almacén
-
- Cuando todos los productos del documento de envío de almacén están registrados como preparados para las ubicaciones de envío especificadas, el empleado responsable de los envíos registra el envío de almacén. Se crean movimientos de producto negativos. Por ejemplo, se actualiza el campo **Cantidad enviada** en la línea de salida del documento de origen.  
-
-## <a name="see-also"></a>Consulte también
-
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)  
-
+[Warehouse Management](design-details-warehouse-management.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

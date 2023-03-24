@@ -1,22 +1,16 @@
 ---
 title: Habilitar el picking por FEFO | Documentos de Microsoft
-description: El primero que caduca es el primero en salir (FEFO en las siglas en inglés) es un método de ordenación que asegura que con los artículos más antiguos, aquéllos con las fechas de vencimiento más próxima, se hace el picking antes.
+description: 'El primero que caduca es el primero en salir (FEFO en las siglas en inglés) es un método de ordenación que asegura que con los artículos más antiguos, aquéllos con las fechas de vencimiento más próxima, se hace el picking antes.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520027"
 ---
-# <a name="enable-picking-items-by-fefo"></a>Habilitar la realización de picking de productos por FEFO
+# Habilitar la realización de picking de productos por FEFO
 El primero que caduca es el primero en salir (FEFO en las siglas en inglés) es un método de ordenación que asegura que con los artículos más antiguos, aquéllos con las fechas de vencimiento más próxima, se hace el picking antes.  
 
  Esta funcionalidad sólo funciona únicamente cuando se cumplen los criterios siguientes:  
@@ -39,11 +33,10 @@ Para activar movimientos según el FEFO, deje en blanco el campo **Desde ubicaci
 <br /><br />
 Si el campo **Registro caducidad requerido** está seleccionado en **Ficha cód. seguim. prod.**, solo los productos que no se caducan se incluirán en el picking y las líneas se ordenan según el principio FEFO.
 
-## <a name="see-also"></a>Consulte también  
-[Realización de picking de artículos](warehouse-pick-items.md)   
+## Consulte también  
 [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Realizar el picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

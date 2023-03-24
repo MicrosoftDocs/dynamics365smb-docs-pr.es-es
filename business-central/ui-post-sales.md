@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 130, 142, 1350
+ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91744dd58d68c6b732c9abe794f33b0c9a11211a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535685"
 ---
-# <a name="posting-sales"></a>Registrar ventas
+# Registrar ventas
 
 En el menú **Registro** en un documento de venta, puede elegir entre las funciones de registro siguientes:
 
@@ -43,19 +37,19 @@ Por cada línea de pedido de venta, se creará un movimiento de producto en la t
 
 Puede registrar o registrar y enviar. Si elige registrar y enviar, se genera un archivo PDF que luego podrá enviar. También puede elegir la función **Registrar por lotes**, que permite registrar varios pedidos a la vez. Para obtener más información, consulte [Registrar varios documentos al mismo tiempo](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Ver movimientos
+## Ver movimientos
 
 Una vez completado el registro, las líneas de venta registradas se quitan del pedido. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas que los contienen, como **Movs. cliente**, **Movs. contabilidad**, **Movs. producto**, **Histórico albaranes ventas** y **Histórico facturas venta**.  
 
 En la mayoría de los casos, puede abrir movimientos desde la tarjeta o documento afectado. Por ejemplo, en la página **Ficha cliente**, seleccione la acción **Movimientos**.
 
-## <a name="editing-ledger-entries"></a>Editar movimientos
+## Editar movimientos
 
 Puede editar determinados campos en documentos de compra registrados, como **Nº seguimiento bulto**. . Para obtener más información, vea [Editar documentos registrados](across-edit-posted-document.md). Para campos más críticos que afectan el registro de auditoría, debe revertir o deshacer la publicación. Para obtener más información, vea [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Ccial](sales-manage-sales.md)  
 [Registrar varios documentos al mismo tiempo](ui-batch-posting.md)  

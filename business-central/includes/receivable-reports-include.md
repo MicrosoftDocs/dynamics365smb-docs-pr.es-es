@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 68d16a6e7493000a8365f8bbe9306d44c8ba9679
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334519"
 ---
+
 La siguiente tabla describe algunos de los informes clave en los informes de cobros.
 
 | Informe | Descripción | Id. | 

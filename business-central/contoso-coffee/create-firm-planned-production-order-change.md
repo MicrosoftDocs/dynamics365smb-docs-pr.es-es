@@ -6,24 +6,19 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 7a057e144ed6825435c62f565eeaaa73974fedf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525253"
 ---
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Tutorial: Crear una nueva orden de producción planificada en firme y cambiarla
+
+# Tutorial: Crear una nueva orden de producción planificada en firme y cambiarla
 
 En este artículo, le guiaremos a través de los pasos para usar los datos de demostración de Contoso Coffee para trabajar con órdenes de producción.  
 
-## <a name="scenario"></a>Caso
+## Caso
 
 Eduardo, el planificador de producción de Contoso Coffee, debe crear una nueva orden de producción para 10 unidades del artículo **SP-SCM1009, Airpot** con vencimiento el 28 de abril. Lo programa hacia atrás y confirma que puede iniciar el pedido el 27 de abril.  
 
 Poco después de terminar esta tarea, se le pide que aumente el pedido a 50 unidades. Cuando hace esto, la funcionalidad de programación regresiva adelanta demasiado la fecha de inicio del pedido. Por lo tanto, adelanta el pedido del 23 de abril para determinar una fecha de finalización más realista.  
 
-## <a name="steps"></a>Pasos
+## Pasos
 
 1. Cree la orden de producción inicial para 10 unidades del artículo **SP-SCM1009, Airpot**.
 
@@ -63,6 +58,6 @@ Poco después de terminar esta tarea, se le pide que aumente el pedido a 50 uni
 
 La nueva orden de producción ya está configurada y se cumplen los requisitos de Eduardo.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Introducción a datos de demostración de Contoso Coffee](contoso-coffee-intro.md)  

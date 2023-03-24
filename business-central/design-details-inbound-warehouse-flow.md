@@ -1,114 +1,152 @@
 ---
 title: 'Detalles de diseño: Flujo de entrada en almacén'
-description: El flujo de entrada en almacén comienza cuando los artículos llegan a la ubicación de la empresa de almacén. Los productos se registran y finalmente se comparan con los documentos de origen entrantes.
-author: SorenGP
+description: El flujo del almacén de entrada comienza cuando los artículos llegan al almacén de la empresa y se registran y comparan con los documentos de origen de entrada.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132008"
+ms.search.keywords: null
+ms.date: 11/14/2022
+ms.author: bholtorf
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Detalles de diseño: Flujo de entrada en almacén
-El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. Un empleado registra los productos normalmente mediante el escaneo de un código de barras. Desde la dársena de recepción, las actividades de almacén se llevan a cabo en distintos niveles de complejidad para introducir los productos en el área de almacén.  
+# Detalles de diseño: Flujo de entrada en almacén
 
- Cada producto se identifica y empareja con su documento de origen de entrada correspondiente. Existen los siguientes documentos de origen de entrada:  
+El flujo de entrada de un almacén comienza cuando los productos llegan al almacén de la ubicación de empresa, recibidos de orígenes externos o de otra ubicación de empresa. En principio, el proceso de recepción de pedidos entrantes consta de dos actividades:
 
-- Pedido de compra  
-- Pedido de transferencia de entrada  
-- Pedido dev. venta  
+* Reciba los artículos en el muelle de recepción del almacén, donde los identifica, los relaciona con un documento de origen y registra la cantidad recibida. 
+* Guarde los artículos en stock y registre el lugar donde los colocó.
 
-Además, existen los siguientes documentos de origen internos que funcionan como orígenes de entrada:  
+Los documentos de origen para el flujo de almacén de entrada son:
 
-- Orden de producción con registro de salida  
-- Pedido de ensamblado con registro de salida  
+* Pedidos de compra  
+* Pedidos de transferencia de entrada  
+* Pedidos devolución de venta  
 
-Los dos últimos representan los flujos de entrada al almacén desde las áreas de operaciones internas. Para obtener más información acerca de la gestión de almacenes para los procesos de entrada y salida internos, consulte [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md).  
+> [!NOTE]
+> Las salidas de producción y ensamblado también representan documentos de origen de entrada. Obtenga más información acerca de las salidas de producción y ensamblado para los procesos internos en [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md).  
 
-Los procesos y los documentos de interfaz de usuario en los flujos de almacén de entrada varían según el la configuración básica y avanzada de almacén. La diferencia principal es que las actividades se realizan pedido a pedido en la configuración básica de almacén y se consolidan para varios pedidos en la configuración avanzada. Para obtener más información acerca de los diferentes niveles de complejidad de almacenes, consulte [Detalles de diseño: Resumen de almacén](design-details-warehouse-setup.md).  
+En [!INCLUDE[prod_short](includes/prod_short.md)], la recepción y la ubicación se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
-En [!INCLUDE[prod_short](includes/prod_short.md)], los procesos de entrada para recepción y ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
+|Método|Proceso de salida|Recepciones requeridas|Ubicaciones requeridas|Nivel de complejidad (Obtenga más información en [Descripción general de la gestión de almacenes](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Registro de la recepción y ubicación desde la línea de pedido|||No hay ninguna actividad de almacén dedicada.|  
+|B|Registro de la recepción y ubicación desde un documento de ubicación del inventario||Activado|Básico: Pedido por pedido|  
+|P|Registro de la recepción y ubicación desde un documento de recepción de almacén|Activado||Básico: Publicación consolidada de recepción/envío para múltiples pedidos.|  
+|D|Registro de la recepción desde un documento de recepción de almacén y registro de ubicación desde un documento de ubicación de almacén|Activado|Activado|Avanzado|  
 
-|Método|Proceso de salida|Ubicaciones|Recepciones|Ubicaciones|Nivel de complejidad (consulte [Detalles de diseño: configuración de almacén](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
-|A|Registro de la recepción y ubicación desde la línea de pedido|X|||2|  
-|P|Registro de la recepción y ubicación desde un documento de ubicación del inventario|||X|3|  
-|C|Registro de la recepción y ubicación desde un documento de recepción de almacén||X||5/4/6|  
-|D|Registro de la recepción desde un documento de recepción de almacén y registro de ubicación desde un documento de ubicación de almacén||X|X|5/4/6|  
+La selección de un planteamiento depende de las prácticas de su empresa y del nivel de su complejidad organizativa. Los siguientes son algunos ejemplos que pueden ayudarlo a decidir.
 
-La selección de un planteamiento depende de las prácticas aceptadas de la empresa y del nivel de su complejidad organizativa. En un entorno de almacén de pedido por pedido, donde la mayoría del personal de almacén trabaja directamente con documentos de pedido, una empresa puede decidir utilizar el método A. Un almacén de pedido por pedido que tenga procesos de colocación más complejos, o donde haya personal de almacén dedicado para realizar funciones de almacenamiento, se puede decidir separar las funciones de ubicación del documento de pedido, el método B. Además, las empresas que necesitan planificar la gestión de varios pedidos pueden encontrar útil usar documentos de recepción de almacén, los métodos C y D.  
+* En un entorno de almacén pedido por pedido, donde la mayoría del personal del almacén trabaja directamente con los documentos de pedido, puede decidir utilizar el método A. 
+* Un almacén pedido por pedido que tiene un proceso de ubicación más complejo, o donde el personal del almacén separa sus actividades de ubicación del documento de pedido, podría usar el método B.
+* Las empresas que necesitan planificar el manejo de varios pedidos pueden encontrar útil utilizar documentos de recibo de almacén, métodos C y D.  
 
-En los métodos A, B y C, las acciones de recepción y ubicación se agrupan en un paso al registrar los documentos correspondientes como recibidos. En el método D, se registra primero la recepción para reconocer la entrada de existencias y que hay productos disponibles para su venta. A continuación, el empleado de almacén registra la ubicación a fin de que los productos estén disponibles para picking.  
+En los métodos A, B y C, la recepción y ubicación se agrupan en un paso al registrar los documentos como recibidos. En el método D, se registra primero la recepción para registrar la entrada de existencias y que hay productos disponibles para su venta. A continuación, el empleado de almacén registra la ubicación a fin de que los productos estén disponibles para picking para los pedidos salientes. 
 
-## <a name="basic-warehouse-configurations"></a>Configuración básica de almacén  
+> [!NOTE]
+> Si bien las ubicaciones de almacén y las ubicaciones de inventario suenan similares, son documentos diferentes y se utilizan en procesos diferentes.
+> * La ubicación de inventario utilizada en el método B, junto con el registro de la información de ubicación, también contabiliza la recepción del documento de origen.
+> * La ubicación de almacén utilizada en el método D no se puede contabilizar y solo registra la ubicación. El registro hace que los artículos estén disponibles para el procesamiento posterior, pero no contabiliza el recibo. En el flujo de entrada, la ubicación en almacén requiere un recibo de almacén.
+
+> [!NOTE]
+> Si bien las ubicaciones de almacén y las ubicaciones de inventario suenan similares, son documentos diferentes y se utilizan en procesos diferentes.
+> * La ubicación de inventario utilizada en el método B, junto con el registro de la información de ubicación, también contabiliza la recepción del documento de origen.
+> * La ubicación de almacén utilizada en el método D no se puede contabilizar y solo registra la ubicación. El registro hace que los artículos estén disponibles para el procesamiento posterior, pero no contabiliza el recibo. En el flujo de entrada, la ubicación en almacén requiere un recibo de almacén.
+
+## No hay ninguna actividad de almacén dedicada
+
+Los siguientes artículos brindan información sobre cómo procesar recibos para documentos de origen si no tiene actividades de almacén dedicadas.
+
+* [Registrar compras](purchasing-how-record-purchases.md)
+* [Pedidos de transferencia](inventory-how-transfer-between-locations.md)
+* [Procesar devoluciones de ventas](sales-how-process-sales-returns-orders.md)
+
+## Configuraciones básicas de almacén  
+
+En una configuración de almacén básica, el conmutador **Requerir ubicación** está activado, pero el conmutador **Requerir recibo** está activado. desactivado en la página Tarjeta de ubicación para la ubicación.
+
 En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración básica de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-![Flujo de entrada en las configuraciones básicas de almacén.](media/design_details_warehouse_management_inbound_basic_flow.png "Flujo de entrada en las configuraciones básicas de almacén")  
+:::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="El flujo de entrada básico en un almacén.":::
 
-### <a name="1-release-source-document--create-inventory-put-away"></a>1: Lanzar documento de origen/Crear ubicación de inventario  
-Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario. El usuario también puede crear mediante envío documentos de ubicación de inventario para líneas de pedido particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
+### 1: Liberar un documento de origen para crear una solicitud de ubicación de inventario  
 
-### <a name="2-create-inbound-request"></a>2: Crear solicitud de entrada  
-Cuando se libera el documento de origen de entrada, se crea automáticamente una solicitud de almacén de entrada. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
+Cuando reciba artículos, libere el documento de origen, como una orden de compra o una orden de transferencia entrante. Al liberar el documento, los artículos quedan disponibles para su ubicación. También puede crear mediante envío documentos de ubicación de inventario para líneas de pedido particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
 
-### <a name="3-create-inventory-put-away"></a>3: Crear ubicación de inventario  
-En la página **Ubicación inventario**, el trabajador del almacén recupera, mediante extracción, las líneas pendientes del documento de origen basándose en las solicitudes de entrada al almacén. Las líneas de ubicación de inventario las puede crear también mediante envío el usuario responsable del documento de origen.  
+### 2: Crear una ubicación de inventario  
 
-### <a name="4-post-inventory-put-away"></a>4: Publicar ubicación de inventario  
-En cada línea de los productos que se han ubicado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** y, a continuación, registra la ubicación de inventario. Los documentos de origen que están relacionados con la ubicación de inventario se registran como recibidos.  
+En la página **Ubicación inventario**, mediante extracción, puede obtener las líneas pendientes del documento de origen basándose en las solicitudes de entrada al almacén. De manera automática, también puede crear líneas de ubicación de inventario cuando crea el documento de origen.  
 
-Se crean movimientos de producto positivos, se crean movimientos de almacén y se elimina la solicitud de ubicación, si se ha manipulado por completo. Por ejemplo, se actualiza el campo **Cantidad recibida** en la línea de entrada del documento de origen. Se crea un documento de recepción registrada que refleja el pedido de compra, por ejemplo, y los productos recibidos.  
+### 3: Registrar un almacenamiento de inventario  
 
-## <a name="advanced-warehouse-configurations"></a>Configuración avanzada de almacén  
-En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento en la configuración avanzada de almacén. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
+En cada línea de los productos que se han ubicado, parcial o totalmente, rellene el campo **Cantidad** y, a continuación, registre la ubicación de inventario. Los documentos de origen que están relacionados con la ubicación de inventario se registran como recibidos.  
 
-![Flujo de entrada en las configuraciones avanzadas de almacén.](media/design_details_warehouse_management_inbound_advanced_flow.png "Flujo de entrada en las configuraciones avanzadas de almacén")  
+* Se crean movimientos de producto positivos
+* Las entradas de almacén se crean para ubicaciones que requieren un código de ubicación en todas las transacciones de artículos.
+* La solicitud de ubicación se elimina, si se gestiona por completo. Por ejemplo, se actualiza el campo **Cantidad recibida** en la línea de entrada del documento de origen.
+* Se crea un documento de recepción registrada que refleja el pedido de compra, por ejemplo, y los productos recibidos.  
 
-### <a name="1-release-source-document"></a>1: Lanzar documento de origen  
-Cuando se reciben productos en el almacén, el usuario responsable de la recepción libera el documento de origen, como, por ejemplo, un pedido de compra o un pedido de transferencia interna, para señalizar a los empleados de almacén que los productos recibidos se pueden guardar en el inventario.  
+## Configuración avanzada de almacén  
 
-### <a name="2-create-inbound-request"></a>2: Crear solicitud de entrada  
-Cuando se libera el documento de origen de entrada, se crea automáticamente una solicitud de almacén de entrada. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario.  
+En una configuración de almacén avanzada, el interruptor **Requerir recibo** está activado en la página Tarjeta de ubicación para la ubicación. El conmutador **Ubicación requerida** es opcional.
 
-### <a name="3-create-warehouse-receipt"></a>3: Crear recepción de almacén  
-En la página **Recep. almacén**, el usuario responsable de recibir los productos recupera las líneas pendientes del documento de origen basándose en la solicitud de entrada en el almacén. Se pueden combinar varias líneas del documento de origen en un documento de recepción de almacén.  
+En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo de documento. Los números del diagrama corresponden a los pasos de las secciones que siguen el diagrama.  
 
-El usuario rellena el campo **Cdad. a manipular** y selecciona la zona y la ubicación de recepción, si procede.  
+:::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Flujo de entrada avanzado en un almacén.":::
 
-### <a name="4-post-warehouse-receipt"></a>4: Registrar recepción de almacén  
-El usuario registra la recepción de almacén. Se crean movimientos de producto positivos. Por ejemplo, se actualiza el campo **Cantidad recibida** en la línea de entrada del documento de origen.  
+### 1: Lanzar el documento de origen  
 
-### <a name="5-create-warehouse-internal-put-away"></a>5: Crear ubicación interna de almacén  
-El usuario responsable de la ubicación a partir de las operaciones internas crea una ubicación interna de almacén para los productos que tienen que ubicarse en el almacén, como la salida de producción o de ensamblado. El usuario especifica la cantidad, la zona y la ubicación donde se deben colocar los productos, potencialmente con la función **Traer conten. ubicac.** El usuario lanza la ubicación interna de almacén, lo que crea una solicitud de almacén de entrada, de modo que la tarea se puede recuperar en documentos de ubicación de almacén o en la hoja de trabajo de ubicación.  
+Cuando reciba artículos, libere el documento de origen, como una orden de compra o una orden de transferencia entrante. Al liberar el documento, los artículos quedan disponibles para su ubicación. El almacenamiento contendrá referencias al tipo y el número de documento de origen.
 
-### <a name="6-create-put-away-request"></a>6: Crear petición de ubicación  
-Cuando se registra el documento de origen de entrada, se crea automáticamente una solicitud de ubicación de almacén. Contiene referencias al tipo y el número de documento de origen y no puede verlo el usuario. Dependiendo de la configuración, la salida de una orden de producción también crea una solicitud de almacén para colocar los productos terminados en el inventario.  
+### 2: Crear una recepción de almacén  
 
-### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generar líneas de hoja de trabajo de ubicación (opcional)  
-El usuario responsable de coordinar las ubicaciones recupera las líneas de ubicación de almacén en **Hoja trabajo ubicación** basándose en las recepciones de almacén registradas o las operaciones internas con salida. El usuario selecciona las líneas para ubicación y prepara las ubicaciones mediante la especificación de las ubicaciones de las que se tomarán, las ubicaciones en las que se colocarán y la cantidad de unidades que se manipularán. Las ubicaciones se pueden predefinir mediante la configuración del recurso de ubicación de almacén o de operación.  
+Obtenga las líneas del documento de origen de entrada en la página **Recep. almacén**. Puede combinar varias líneas del documento de origen en un documento de recepción de almacén. Rellene el campo **Cdad. a manipular** y seleccione la zona y la ubicación de recepción, si procede.  
 
-Cuando todas las ubicaciones se planifican y asignan a empleados de almacén, el usuario genera los documentos de ubicación de almacén. Las líneas con ubicación totalmente asignada se eliminan de **Hoja trabajo ubicación**.  
+### 3: Registrar la recepción de almacén  
+
+Registre la recepción de almacén para crear los movimientos de producto positivos. El campo **Cantidad recibida** en la línea de entrada del documento de origen se actualiza.  
+
+Si el interruptor **Requerir ubicación** no está activado en la tarjeta de ubicación, aquí es donde se detiene el proceso. De lo contrario, al registrar el documento de origen de entrada, los artículos quedan disponibles para su ubicación. El almacenamiento contiene referencias al tipo y el número de documento de origen.  
+
+### 4: (Opcional) Generar líneas de hoja de trabajo de ubicación
+
+Obtenga las líneas de ubicación del almacén en la **Hoja de trabajo de ubicación** basándose en los recibos de almacén registrados o en las operaciones que generan resultados. Elija las líneas para ubicar y especifique la siguiente información:
+
+* Los contenedores para tomar artículos.
+* Las ubicaciones para colocar los productos.
+* Cuantas unidades manejar.
+
+Las ubicaciones se pueden predefinir mediante la configuración de la ubicación de almacén o el recurso que realizó la operación.  
+
+Cuando todas las ubicaciones se planifican y asignan a empleados de almacén, genere los documentos de ubicación de almacén. Las líneas con ubicación totalmente asignada se eliminan de **Hoja trabajo ubicación**.  
 
 > [!NOTE]  
->  Si el campo **Utilizar hoja trabajo ubicación** no se ha seleccionado en la ficha de almacén, los documentos de ubicación en almacén se crean directamente de acuerdo con las recepciones de almacén registradas. En ese caso, se omite el paso 7.  
+> Si el control de alternancia **Utilizar hoja trabajo ubicación** no se ha activado en la ficha de almacén, los documentos de ubicación en almacén se crean directamente de acuerdo con las recepciones de almacén registradas. En ese caso, este paso no es necesario.  
 
-### <a name="8-create-warehouse-put-away-document"></a>8: Cree documento de ubicación de almacén  
-El empleado de almacén que realiza las ubicaciones crea un documento de ubicación de almacén, mediante extracción, basándose en la recepción de almacén registrada. El documento de ubicación de almacén se crea y se asigna también a un trabajador de almacén mediante envío.  
+### 5: Crear un documento de almacenamiento de almacén
 
-### <a name="9-register-warehouse-put-away"></a>9: Registrar ubicación de almacén  
-En cada línea de los productos que se han ubicado, parcial o totalmente, el empleado del almacén rellena el campo **Cantidad** en la página **Ubicación almacén** y, a continuación, registra la ubicación de inventario.  
+Cree un documento de ubicación de almacén de forma pull, en función del recibo de almacén registrado. Alternativamente, cree el documento de ubicación de almacén y asígnelo a un trabajador de almacén mediante envío.  
 
-Se crean movimientos de almacén y se eliminan las líneas de ubicación de almacén, si se han manipulado por completo. El documento de ubicación de almacén permanecerá abierto hasta que se registre la cantidad total de la recepción de almacén registrada relacionada. El campo **Cantidad a ubicar** de las líneas de pedido de recepción de almacén se actualiza como corresponde.  
+### 6: Registrar una ubicación de almacén
 
-## <a name="see-also"></a>Consulte también  
-[Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)
+En cada línea de los productos que se han ubicado, parcial o totalmente, rellene el campo **Cantidad** en la página **Ubicación almacén** y, a continuación, registre la ubicación de almacén.  
 
+* Las entradas de almacén se crean para ubicaciones que requieren un código de ubicación en todas las transacciones de artículos.
+* Las líneas de ubicación de almacén, si se han manipulado por completo, se eliminan.
+* El documento de ubicación de almacén permanecerá abierto hasta que se registre la cantidad total de la recepción de almacén registrada relacionada.
+* El campo **Cantidad a ubicar** de las líneas de pedido de recepción de almacén registradas se actualiza.
+
+## Tareas relacionadas
+
+En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
+
+|**Para**|**Vea**|  
+|------------|-------------|  
+|Registre la recepción de productos en las ubicaciones del almacén o con un recibo de almacén, en caso de procesamiento semi o totalmente automatizado del almacén en la ubicación.|[Recibir productos](warehouse-how-receive-items.md)|
+|Ubique los productos pedido a pedido y registre la recepción como parte de la misma actividad, en configuraciones básicas de almacén.|[Ubicar productos con ubicación de inventario](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Ubique los productos recibidos de múltiples compras, devoluciones de ventas, órdenes de transferencia en una configuración de almacén avanzada.|[Ubicar productos con ubic. exist. almacén](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+
+
+## Consulte también
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

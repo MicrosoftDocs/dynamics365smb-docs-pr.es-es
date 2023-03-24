@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: ''
+ms.search.form: null
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c1a28e5bdf796f6ea7d049ca317f061ca7e318b7
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655415"
 ---
-# <a name="post-multiple-documents-at-the-same-time"></a>Registrar varios documentos al mismo tiempo
+# Registrar varios documentos al mismo tiempo
 
 En lugar de registrar documentos individuales uno por uno, puede seleccionar varios documentos no registrados en una lista para el registro inmediato o para el registro por lotes según una programación, por ejemplo, al final del día. Esto puede ser útil solo si un supervisor puede registrar documentos creados por otros usuarios o para evitar problemas de rendimiento del sistema del registro durante las horas de trabajo.
 
-## <a name="to-post-multiple-purchase-orders-immediately"></a>Para registrar varios pedidos de compra inmediatamente
+## Para registrar varios pedidos de compra inmediatamente
 
 El siguiente procedimiento explica cómo registrar varios pedidos de compra inmediatamente. Los pasos son parecidos a todos los documentos de compra y venta.
 
@@ -32,7 +26,7 @@ El siguiente procedimiento explica cómo registrar varios pedidos de compra inme
 5. Elija la acción **Registro** y, a continuación, seleccione la acción **Registrar**.
 6. Elija el botón **Sí** en el mensaje de confirmación.
 
-## <a name="to-batch-post-multiple-purchase-orders"></a>Para registrar por lotes varios pedidos de compra
+## Para registrar por lotes varios pedidos de compra
 
 El siguiente procedimiento explica cómo registrar por lotes los pedidos de compra. Los pasos son similares para todos los documentos de compra y venta donde la acción **Registro por lotes** está disponible.
 
@@ -48,7 +42,7 @@ El siguiente procedimiento explica cómo registrar por lotes los pedidos de comp
 > [!NOTE]
 > La publicación de varios documentos puede llevar algún tiempo y bloquear a otros usuarios. Considere habilitar la publicación en segundo plano. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## <a name="to-set-up-background-posting-with-job-queues"></a>Para configurar el registro de fondo con colas de proyecto
+## Para configurar el registro de fondo con colas de proyecto
 Las colas de proyecto son una herramienta eficaz para programar la ejecución de procesos de negocios en segundo plano, como cuando varios usuarios intentan publicar pedidos de ventas, pero solo se puede procesar un pedido a la vez.  
 
 El siguiente procedimiento explica cómo configurar el registro en segundo plano de los pedidos de ventas. Los pasos son parecidos para la compra.  
@@ -73,14 +67,14 @@ El siguiente procedimiento explica cómo configurar el registro en segundo plano
 4. Para verificar que la cola de proyectos funciona como se esperaba, registre un pedido de venta. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
     Los pedidos de venta ahora se agregarán a una entrada de cola de proyectos dedicada, que define cuándo se registran los documentos. 
 
-### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Para ver el estado de un documento de compra o de venta
+### Para ver el estado de un documento de compra o de venta
 Si la cola de proyectos no puede registrar el pedido de venta, cambie el estado a **Error** y el pedido de venta se agregará a la lista de pedidos de venta que el usuario debe administrar manualmente.
 1. Desde el documento que ha intentado registrar con el registro en segundo plano, seleccione el campo **Estado de la cola de proyectos**, que contendrá **Error**.
 2. Revise el mensaje de error y corrija el problema.
 
 Alternativamente, puede revisar si el pedido de ventas se publicó correctamente en la página **Movs. registro cola proyecto**. Para obtener más información, consulte la sección [Supervisar la cola de proyectos](#monitor-the-job-queue).
 
-## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Para crear un movimiento de la cola de proyectos para el registro por lotes de pedidos de ventas
+## Para crear un movimiento de la cola de proyectos para el registro por lotes de pedidos de ventas
 
 Alternativamente, puede posponer los registros para horas en que resulta adecuado para su organización. Por ejemplo, para su empresa puede tener sentido ejecutar ciertas rutinas cuando la mayor parte de la introducción de datos del día ha concluido. Para hacerlo, configure la cola de proyectos para que ejecute varios informes de registro por lotes, como el **Reg. lotes pedidos venta**, el **Reg. lotes facturas ventas** e informes similares. [!INCLUDE[prod_short](includes/prod_short.md)] admite el registro en segundo plano para todos los documentos de ventas, compras y servicios.
 
@@ -117,13 +111,13 @@ El siguiente procedimiento muestra cómo configurar el informe **Reg. lotes pedi
 
 Los pedidos de venta que estén en filtros definidos ahora se registrarán cada día de la semana a las 4:00.
 
-## <a name="monitor-the-job-queue"></a>Supervisar la cola de proyectos
+## Supervisar la cola de proyectos
 
 Si configura la publicación en segundo plano con colas de proyectos, conviértalo en una tarea periódica para supervisar la cola de proyectos para detectar cualquier problema. Puede hacer un seguimiento del estado en la página **Movimientos de cola de proyectos**. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
 Como administrador, puede utilizar [Application Insights](/azure/azure-monitor/app/app-insights-overview) para recopilar y analizar la telemetría que puede utilizar para identificar problemas. Para obtener más información, consulte [Supervisión y análisis de la telemetría](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en el contenido de desarrolladores y administración.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)  

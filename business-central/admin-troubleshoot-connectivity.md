@@ -6,18 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: connectivity, troubleshooting, connection problems
+ms.search.keywords: 'connectivity, troubleshooting, connection problems'
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: 6719a46bdb86be63bd4ffe1b3ff916911a645bc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522227"
 ---
-# <a name="troubleshoot-connectivity-for-business-central"></a>Solucionar problemas de conectividad con Business Central
+# Solucionar problemas de conectividad con Business Central
 
 > **SE APLICA A:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -28,7 +22,7 @@ ms.locfileid: "8522227"
 > [!NOTE]
 > La página **Solución de problemas de conectividad** no prueba el rendimiento o la confiabilidad de la red, como la velocidad de su conexión. Solo verifica la conectividad con diferentes recursos.
 
-## <a name="start-the-connectivity-check"></a>Iniciar la verificación de conectividad 
+## Iniciar la verificación de conectividad 
 
 1. Abra un navegador de Internet.
 2. En la dirección, ingrese la URL que usa para abrir Business Central y agregue `/connectivity` al final. 
@@ -57,7 +51,7 @@ ms.locfileid: "8522227"
 
 Las siguientes secciones explican las comprobaciones que se ejecutan y proporcionan algunos consejos para solucionar cualquier problema.
 
-## <a name="basic-internet-connectivity"></a>Conectividad básica a Internet
+## Conectividad básica a Internet
 
 Comprueba que tiene conexión a Internet verificando que puede acceder a un dominio público conocido, como www.bing.com.
 
@@ -66,7 +60,7 @@ Comprueba que tiene conexión a Internet verificando que puede acceder a un domi
 |Su navegador no admite esta verificación|Abra la página en un navegador compatible y vuelva a intentarlo. Para obtener una lista de navegadores compatibles, consulte [Requisitos mínimos para utilizar Business Central - Exploradores](product-requirements.md#browsers)|
 |Error al hacer ping al servidor en la siguiente URL: {url}|Compruebe la configuración del firewall.|
 
-## <a name="cdn-content-delivery-network-resources-loading"></a>Carga de recursos de CDN (content delivery network)
+## Carga de recursos de CDN (content delivery network)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] usa Azure Content Delivery Network (CDN) para proporcionar recursos necesarios para ejecutar el cliente web de Business Central. Esta comprobación verifica que los recursos necesarios estén disponibles y accesibles haciendo ping a la instancia de Business Central en CDN.
 
@@ -75,7 +69,7 @@ Comprueba que tiene conexión a Internet verificando que puede acceder a un domi
 |Su navegador no admite esta verificación|Vea la comprobación de **Conectividad básica a Internet**.|
 |Error al hacer ping al servidor en la siguiente URL: {url}|Compruebe la configuración del firewall.|
 
-## <a name="user-authentication"></a>Autenticación de usuario
+## Autenticación de usuario
 
 Comprueba que el usuario actual haya iniciado sesión con una cuenta de Business Central válida.
 
@@ -83,7 +77,7 @@ Comprueba que el usuario actual haya iniciado sesión con una cuenta de Business
 |-------|-------------|
 |Ningún usuario está autenticado actualmente|Inicie sesión en Business Central con un nombre de usuario y una contraseña válidos.|
 
-## <a name="business-central-environments-discovery"></a>Descubrimiento de entornos de Business Central
+## Descubrimiento de entornos de Business Central
 
 Comprueba los entornos de Business Central que están disponibles para un usuario autenticado y luego verifica si el usuario puede autenticarse en el entorno.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -94,7 +88,7 @@ Comprueba los entornos de Business Central que están disponibles para un usuari
 |Error al recuperar entornos disponibles para su cuenta.|Consulte la lista de entornos disponibles en el centro de administración de Business Central.|
 |Su nombre de usuario o contraseña no son correctos, o no dispone de una cuenta válida.| Verifique que haya iniciado sesión con el nombre de usuario y la contraseña correctos.|
 
-## <a name="application-service-connectivity"></a>Conectividad del servicio de aplicaciones
+## Conectividad del servicio de aplicaciones
 
 Comprueba que el usuario autenticado pueda conectarse a un entorno descubierto, normalmente comenzando con el entorno de producción.
 
@@ -105,7 +99,7 @@ Comprueba que el usuario autenticado pueda conectarse a un entorno descubierto, 
 |No hay dirección de agrupación para realizar esta verificación|Consulte la lista de entornos disponibles en el centro de administración de Business Central.|
 |El punto final de la versión no existe|Consulte la lista de entornos disponibles en el centro de administración de Business Central.|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Resumen de tareas para configurar Business Central](setup.md)  

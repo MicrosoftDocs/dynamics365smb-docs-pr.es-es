@@ -1,23 +1,17 @@
 ---
 title: Cambiar las funciones que se muestran
-description: Obtenga información sobre lo que significan las capas de experiencia de usuario Esencial y Premium para la interfaz de usuario, las áreas de aplicación y su empresa.
+description: 'Obtenga información sobre lo que significan las capas de experiencia de usuario Esencial y Premium para la interfaz de usuario, las áreas de aplicación y su empresa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: essential, basic, user interface, application area, experience
+ms.search.keywords: 'essential, basic, user interface, application area, experience'
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521681"
 ---
-# <a name="change-which-features-are-displayed"></a>Cambiar las funciones que se muestran
+# Cambiar las funciones que se muestran
 [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para ayudarlo a administrar su empresa, independientemente del tamaño y la complejidad. En el núcleo del producto, encontrará características esenciales, como informes financieros, ventas, compras y administración de inventario. A medida que aumenta la complejidad empresarial, puede activar la funcionalidad para la fabricación y la administración de servicios, por ejemplo.
 
 Puede definir el nivel de complejidad del producto y, por lo tanto, a qué características tienen acceso los usuarios de la empresa, cambiando la configuración **Experiencia** en la página **Información de empresa**. Tenga en cuenta que la configuración de experiencia también se puede cambiar agregando ciertas extensiones desde AppSource. Para obtener más información, consulte [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] mediante extensiones](ui-extensions.md).
@@ -38,10 +32,10 @@ Antes de definir la configuración de experiencia de una empresa, defina el acce
 
 La configuración **Experiencia** se aplica a todos los usuarios de una empresa, pero cada usuario puede personalizar aún más su propia experiencia cambiando el diseño y el contenido de la página. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Habilitar características premium después de actualizar un plan
+## Habilitar características premium después de actualizar un plan
 Los usuarios se asignan a planes en el Centro de administración de Microsoft 365 en relación con el trabajo general para crear los usuarios de Business Central. Para más información, vea [Agregue usuarios y asigne licencias al mismo tiempo](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a>Para actualizar los cambios del plan en grupos de usuarios
+### Para actualizar los cambios del plan en grupos de usuarios
 Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Microsoft 365, como asignar más usuarios al plan Premium, debe reflejar el cambio en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Inicie sesión como administrador.
@@ -50,15 +44,15 @@ Cuando haya realizado un cambio en los planes de los usuarios en el Centro de ad
 
 Toda la información nueva sobre los planes de los usuarios y sus grupos de usuarios asignados ahora se actualizan de acuerdo con los cambios del plan.
 
-### <a name="to-select-the-premium-experience"></a>Para seleccionar la experiencia Premium
+### Para seleccionar la experiencia Premium
 Ahora puede proceder a seleccionar la nueva experiencia.
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.
 2. En la página **Información empresa**, en la ficha desplegable **Experiencia del usuario**, seleccione Premium en el campo **Experiencia**.
 
-## <a name="help-assumes-premium-experience"></a>En la ayuda se asume la experiencia premium
+## En la ayuda se asume la experiencia premium
 Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[prod_short](includes/prod_short.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 [Personalizar el área de trabajo](ui-personalization-user.md)  
 [Personalizar Business Central](ui-customizing-overview.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  

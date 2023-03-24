@@ -1,27 +1,22 @@
 ---
 title: Configurar el impuesto sobre el valor añadido no realizado
-description: Si utiliza contabilidad basada en efectivo, puede especificar cómo gestionar el IVA no realizado para venta y compras.
+description: 'Si utiliza contabilidad basada en efectivo, puede especificar cómo gestionar el IVA no realizado para venta y compras.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.search.form: 118, 472, 473
+ms.search.keywords: 'cash, VAT, unrealized, cash-based'
+ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ae48b042cf3df00a1d62a6871136e2526b3db0c
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417700"
 ---
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurar el IVA no realizado para la contabilidad basada en efectivo
+
+# Configurar el IVA no realizado para la contabilidad basada en efectivo
 
 Si utiliza métodos de contabilidad basada en efectivo, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para gestionar el IVA no realizado.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Usar las cuentas de contabilidad para el IVA no realizado
+## Usar las cuentas de contabilidad para el IVA no realizado
 
 Puede elegir que los importes de IVA se calculen y registren en una cuenta temporal al registrar una factura y que, a continuación, se registren en la cuenta correcta y se incluyan en las declaraciones de IVA cuando se registre el pago real de la factura. Antes de poder hacerlo, deberá [configurar los grupos de registro de IVA](finance-setup-vat.md).
 
@@ -51,7 +46,7 @@ Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 > [!NOTE]  
 > El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA soportado.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

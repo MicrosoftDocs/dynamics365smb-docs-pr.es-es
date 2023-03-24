@@ -8,20 +8,14 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
-ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804424"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
+ms.search.form: 9061
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Configurar el acceso a Business Central en Teams con licencias de Microsoft 365
+# Configurar el acceso a Business Central en Teams con licencias de Microsoft 365
 
 Los administradores deben completar varias actividades antes de que los usuarios puedan acceder a Business Central con su licencia de Microsoft 365. Los pasos a continuación representan la configuración mínima requerida para comenzar. Para obtener más información sobre el acceso con licencias de Microsoft 365, vaya a [Acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Implementar la aplicación Business Central para Teams
+## Implementar la aplicación Business Central para Teams
 
 Para que los titulares de licencias de Business Central compartan datos en Teams y para que los titulares de licencias de Microsoft 365 accedan a esos datos, cada uno debe tener instalada la aplicación Business Central para Teams. Aunque los usuarios pueden instalar la aplicación por sí mismos, se recomienda que los administradores utilicen la implementación centralizada. La implementación centralizada le permite implementar la aplicación a una audiencia más amplia en toda la organización y minimizar el esfuerzo del usuario individual. 
 
@@ -33,7 +27,7 @@ Para obtener información sobre cómo implementar de forma centralizada la aplic
 > [!TIP]
 > ¿Está buscando una forma más rápida de empezar a probar esta característica? Los usuarios de prueba pueden instalar la aplicación en [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="configure-permissions"></a>Configurar permisos
+## Configurar permisos
 
 Business Central es seguro por diseño y minimiza el riesgo al no otorgar permisos a usuarios de Microsoft 365 directamente. Los administradores deben configurar permisos de objetos que determinen a qué tablas, páginas e informes se puede acceder en Teams con solo una licencia de Microsoft 365. Estos permisos son los permisos iniciales asignados cuando un usuario inicia sesión por primera vez con su licencia de Microsoft 365. 
 
@@ -56,7 +50,7 @@ Cuando se trabaja con varios entornos, la configuración de la licencia se debe 
 
 Obtenga más información en [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md) y [Componer conjuntos de permisos](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="turn-on-access-with-microsoft-365-licenses"></a>Activar el acceso con licencias de Microsoft 365
+## Activar el acceso con licencias de Microsoft 365
 
 El acceso con licencias de Microsoft 365 está desactivado de forma predeterminada. El acceso debe habilitarse para cada entorno de forma independiente, dando a los administradores el control y permitiendo la implementación por etapas en toda la organización. Active el acceso mediante el centro de administración de Business Central: 
 
@@ -66,7 +60,7 @@ El acceso con licencias de Microsoft 365 está desactivado de forma predetermina
 4. En el panel **Licencias de Microsoft 365**, active el interruptor. 
 5. Seleccione **Guardar** cuando termine y acepte la confirmación. El cambio entra en vigor inmediatamente.
 
-## <a name="test-your-setup"></a>Probar su configuración
+## Probar su configuración
 
 Para verificar que su configuración esté lista para la producción, los siguientes pasos le ayudarán a generar la confianza de que todo funciona como debería. 
 
@@ -90,7 +84,7 @@ Para verificar que su configuración esté lista para la producción, los siguie
 > [!TIP]
 > ¿Ha habido algún problema? Consulte [Solucionar problemas de acceso con licencias de Microsoft 365](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Descripción general del acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
 [Solucionar problemas de acceso con licencias de Microsoft 365](admin-access-with-m365-license-troubleshooting.md)  

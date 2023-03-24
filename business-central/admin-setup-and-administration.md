@@ -1,22 +1,15 @@
 ---
 title: Tareas administrativas en Business Central
 description: Algunas tareas de Business Central requieren administración y configuración centrales. Consulte cuáles son aprenda y qué hacer.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: edupont
-ms.openlocfilehash: 8d961c1d54dda71651eb81c6dfab05733d0207fc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533246"
+ms.date: 01/11/2023
+ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Tareas de administración
+# Tareas de administración
 
 Normalmente, un rol de la empresa se encarga de las tareas de la administración central. El alcance de estas tareas puede depender del tamaño de la empresa, así como de las responsabilidades laborales del administrador. Estas tareas pueden incluir la administración de la sincronización de base de datos de las colas de proyectos y de correo electrónico, la configuración de usuarios y la personalización de la interfaz de usuario.  
 
@@ -50,7 +43,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Conecte Dynamics 365 Sales con [!INCLUDE[prod_short](includes/prod_short.md)] para obtener una integración perfecta entre las relaciones con los clientes y el procesamiento de pedidos en el proceso de obtención de efectivo.|[Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Cambie los campos y las acciones que se muestran en la interfaz de usuario para adaptarla a los procesos de la empresa y ampliar la solución con aplicaciones.|[Personalizar [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Administración en el Centro de administración
+## Administración en el Centro de administración
 
 Los administradores internos y delegados tienen acceso al [!INCLUDE [prod_short](includes/prod_short.md)] centro de administración donde pueden configurar, supervisar y solucionar problemas en [!INCLUDE [prod_short](includes/prod_short.md)] ambientes. En la tabla siguiente se indican algunas tareas clave con vínculos a los artículos que las describen.  
 
@@ -58,12 +51,12 @@ Los administradores internos y delegados tienen acceso al [!INCLUDE [prod_short]
 |------------|-------------|
 |Conozca las herramientas que están disponibles para ayudarlo a solucionar problemas.|[Soporte técnico](/dynamics365/business-central/dev-itpro/technical-support)|
 |Supervise el uso y solucione problemas de sesiones|[Telemetría del entorno en el centro de administración de Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Administre sesiones de usuario, incluida la cancelación de una sesión si el usuario está bloqueado.|[Administrar sesiones](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Administre sesiones de usuario, incluida la cancelación de una sesión si el usuario está bloqueado.|[Administrar sesiones](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configure el suscriptor para enviar datos de telemetría a Azure Application Insights para mejor análisis y resolución de problemas.|[Habilitar envío de telemetría a Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Funciones empresariales](across-business-functionality.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  

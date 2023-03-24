@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523428"
 ---
-# <a name="managing-inventory-costs"></a>Gestión de costes de inventario
+# Gestión de costes de inventario
 La gestión de costes, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costes operativos de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.   
 
 Es preciso entender los principios básicos, es decir, que los métodos de valoración definen cómo se valoran los productos cuando salen del inventario, que el ajuste de costes actualiza el coste de las mercancías vendidas con los costes de compra asociados registrados tras su venta y que los valores de inventario deben registrarse en cuentas contables exclusivas periódicamente.
@@ -39,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Realizar tareas de control e informes de final de periodo, como calcular el valor de existencias y registrar costes en la contabilidad.|[Creación de informes de costes y conciliación con la contabilidad](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el coste de inventario o conciliarlo con la contabilidad a un segundo plano.|[Ajustar y conciliar el coste de inventario con la contabilidad con cola de proyectos](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Finanzas](finance.md)  
  [Grupos contables inventario](inventory-manage-inventory.md)   
  [Ccial](sales-manage-sales.md)   

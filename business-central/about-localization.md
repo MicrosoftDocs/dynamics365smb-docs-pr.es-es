@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: availability, localization
-ms.search.form: ''
+ms.search.keywords: 'availability, localization'
+ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a0468ce2d5c58fae7fc8298b4f4bf320ba3540ce
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655727"
 ---
-# <a name="local-functionality-in-prod_long"></a>Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]
+# Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tiene una estrategia de localización combinada que incluye tanto modelos dirigidos por Microsoft como modelos dirigidos por socios. En esta sección puede ver las descripciones de la funcionalidad que se aplica a los países y regiones donde Microsoft proporciona el cumplimiento normativo y otra funcionalidad local.  
 
 Para obtener una lista de los mercados admitidos actualmente, consulte [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Funcionalidad local
+## Funcionalidad local
 
 Para conocer la funcionalidad local de cada país o región, elija el vínculo relacionado:
 
@@ -54,11 +48,11 @@ Para conocer la funcionalidad local de cada país o región, elija el vínculo r
 |        | India | [Funcionalidad local para India](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nueva Zelanda | [Funcionalidad local para Nueva Zelanda](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countries"></a>Otros países o regiones
+### Otros países o regiones
 
 [!INCLUDE[prod_short](includes/prod_short.md)] también está disponible en otros mercados mediante aplicaciones de localización. Si un socio de Microsoft ha desarrollado una aplicación de localización para su país o región, puede encontrarla en [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Conformidad](compliance/compliance-overview.md)  

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, work hours, configure, price, pricing
+ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077559"
 ---
-# <a name="planning-services"></a>Servicio de planificación
+# Servicio de planificación
 Con [!INCLUDE[prod_short](includes/prod_short.md)], puede configurar las tareas estándar que necesite para satisfacer las necesidades de servicio de su cliente. Para realizarlo, debe determinar qué ofertas de productos de servicio admite su organización de servicios y a qué precio.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] también proporciona algunas herramientas de estadísticas que puede utilizar para determinar como de bien van las cosas e identificar las áreas donde podría mejorar.
@@ -31,7 +25,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Comprender la relación entre el estado de una reparación y el efecto que tienen sobre los recursos asignados, y viceversa.|[Descripción del estado de asignación y estado de reparación](service-allocation-status-and-repair-status.md)|  
 |Utilice estadísticas para analizar los procesos de servicio. | [Visualización de estadísticas de servicio](service-service-statistics.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)  
 [Prestación del servicio](service-deliver-service.md)  
 [Configurar precios y costes adicionales de servicios](service-how-setup-service-costs-pricing.md)  

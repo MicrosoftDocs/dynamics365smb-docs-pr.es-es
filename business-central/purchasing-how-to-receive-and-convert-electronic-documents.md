@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 189, 190, 191
+ms.search.keywords: null
+ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ff1b79447091df53f45eff49779e1c73b2fe0fd5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534189"
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
+# Recibir y convertir documentos electrónicos
 
 La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la página Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -40,7 +34,7 @@ Puede iniciar la conversión de documentos electrónicos manualmente, tal como s
 
 El procedimiento siguiente describe cómo recibir una factura de proveedor y convertirla en una factura de compra en [!INCLUDE[prod_short](includes/prod_short.md)]. El procedimiento es el mismo cuando se convierte una factura de proveedor en una línea de diario general.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Para recibir y convertir una factura electrónica en una factura de compra
+### Para recibir y convertir una factura electrónica en una factura de compra
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.  
 
@@ -58,9 +52,9 @@ El procedimiento siguiente describe cómo recibir una factura de proveedor y con
 
     Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[prod_short](includes/prod_short.md)], se mostrarán en la ficha desplegable **Mensajes de error**.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar pagos](payables-manage-payables.md)  
 [Documentos entrantes](across-income-documents.md)  

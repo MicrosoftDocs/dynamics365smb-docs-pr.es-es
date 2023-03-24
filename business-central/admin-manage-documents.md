@@ -3,24 +3,18 @@ title: Administrar el almacenamiento eliminando documentos o comprimiendo datos
 description: Aprenda a lidiar con la acumulación de documentos históricos (y reduzca la cantidad de datos almacenados en una base de datos) eliminándolos o comprimiéndolos.
 author: edupont04
 ms.topic: conceptual
-ms.search.form: 107, 9035, 9040
+ms.search.form: '107, 9035, 9040'
 ms.date: 09/14/2022
 ms.author: edupont
-ms.openlocfilehash: d6a98decb0b518629e29673d21147acc079b1b9e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607369"
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrar el almacenamiento eliminando documentos o comprimiendo datos
+# Administrar el almacenamiento eliminando documentos o comprimiendo datos
 
 Un rol central, como el administrador de aplicaciones, debe eliminar o comprimir periódicamente los documentos históricos para gestionar su acumulación.  
 
 > [!TIP]
 > Obtenga más información sobre otras formas de reducir la cantidad de datos almacenados en una base de datos en [Reducción de datos almacenados en bases de datos de Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) en la documentación para desarrolladores y profesionales de TI.
 
-## <a name="delete-documents"></a>Eliminar documentos.
+## Eliminar documentos.
 
 En algunos casos, es posible que necesite eliminar pedidos de compra facturados. Sin embargo, no puede eliminarlos a menos que haya facturado por completo y recibido los artículos en las órdenes de compra. [!INCLUDE[prod_short](includes/prod_short.md)] le ayuda comprobando eso.
 
@@ -32,7 +26,7 @@ Los pedidos de servicios facturados se suelen eliminar automáticamente después
 
 Sin embargo, los pedidos de servicio no se eliminarán de forma automática si la cantidad total de dicho pedido se ha registrado desde la página **Factura servicio** y no desde el pedido de servicio en sí. Es posible que deba eliminar manualmente dichos pedidos facturados ejecutando el trabajo por lotes **Eliminar órdenes de servicio facturadas**.  
 
-## <a name="compress-data-with-date-compression"></a>Comprimir datos con compresión por fechas
+## Comprimir datos con compresión por fechas
 
 Puede comprimir datos en [!INCLUDE [prod_short](includes/prod_short.md)] para ahorrar espacio en la base de datos, lo que en [!INCLUDE [prod_short](includes/prod_short.md)] en línea también puede ahorrarle dinero. La compresión, basada en fechas y trabajos, fusiona diversos movimientos antiguos en uno solo.
 
@@ -61,7 +55,7 @@ Cuando define criterios para la compresión, puede mantener el contenido de cier
 
 Después de la compresión, siempre se retiene el contenido de los siguientes campos: **Fecha de registro**, **N.º proveedor**, **Tipo de documento**, **Código de divisa**, **Grupo contable**, **Importe**, **Importe pendiente**, **Importe inicial (DL)**, **Importe pendiente (DL)**, **Importe (DL)**, **Beneficio (DL)**, **Dto. factura (DL)**, **Dto. P.P (DL)** y **Posible descuento P.P.**.
 
-## <a name="posting-compressed-entries"></a>Publicar entradas comprimidas
+## Publicar entradas comprimidas
 
 Las entradas comprimidas se publican de forma ligeramente diferente a la publicación estándar. Esto es para reducir el número de nuevos movimientos de contabilidad creados por la compresión de fechas, y es especialmente importante cuando mantiene información como dimensiones y números de documentos. La compresión de fechas crea nuevas entradas de la siguiente manera:
 
@@ -78,7 +72,7 @@ El número de movimientos resultante de una compresión de datos dependerá del 
 > [!WARNING]
 > La compresión por fechas borra movimientos, por tanto es recomendable que haga siempre una copia de seguridad de la base de datos antes de ejecutar el proceso.
 
-### <a name="to-run-a-date-compression"></a>Para ejecutar compresión por fechas
+### Para ejecutar compresión por fechas
 
 1. Seleccione el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe"), introduzca **Administración de datos** y, a continuación, seleccione el vínculo relacionado.
 2. Realice una de las siguientes acciones:
@@ -88,7 +82,7 @@ El número de movimientos resultante de una compresión de datos dependerá del 
    > [!NOTE]
    > Solo puede comprimir datos que tengan más de cinco años. Si desea comprimir datos que tengan menos de cinco años, comuníquese con su socio de Microsoft.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administración](admin-setup-and-administration.md)  
 

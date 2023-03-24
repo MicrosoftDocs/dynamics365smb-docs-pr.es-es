@@ -3,13 +3,8 @@ author: rubenseishima
 ms.topic: include
 ms.date: 06/30/2022
 ms.author: a-reishima
-ms.openlocfilehash: c77d21222c7ac2fe2ddcfe4cfa129c6959afa441
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144411"
 ---
+
 1. Elija la ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abre la ficha del proveedor.
 3. Elija la acción **Cuentas bancarias**.

@@ -1,87 +1,100 @@
 ---
-title: Mover productos ad hoc en configuraciones básicas de almacén
-description: Este tema explica los movimientos ad hoc realizados cuando necesita mover artículos entre ubicaciones internas sin una demanda específica de un documento de origen.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 393, 7382
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 46b6cbd88cf23974e5fd11453c328c1669c8e19c
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534432"
+title: Mover productos no planificados en configuraciones básicas de almacén
+description: Este producto explica los movimientos internos no planificados entre ubicaciones sin una demanda de un documento de origen.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/16/2022
+ms.custom: bap-template
+ms.search.form: '393, 7382'
 ---
-# <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Mover productos ad hoc en configuraciones básicas de almacén
+# Mover productos internamente en configuraciones básicas de almacén
 
-Puede que necesite de vez en cuando mover los artículos entre las ubicaciones internas, no recibir o enviar ubicaciones, sin una demanda determinada desde un documento de origen. Puede realizar estos movimientos ad hoc, por ejemplo, para reorganizar el almacén, para llevar los artículos a un área de inspección o para mover más artículos a o desde un área de producción sin una relación de sistema con el documento de origen de la orden de producción.  
+Es posible que desee mover productos entre ubicaciones sin una demanda de un documento de origen. Por ejemplo, como parte de las siguientes actividades:
 
-En configuraciones de almacén básico, es decir en ubicaciones que utilizan el campo de instalación **Ubicac. obligatoria** y posiblemente los campos de configuración **Picking requerido** y **Ubicación requerida**, puede registrar los movimientos ad hoc sin los documentos de origen de las siguientes formas:  
+* Reorganizar el almacén.
+* Llevar los productos a una zona de inspección.
+* Mueva elementos adicionales hacia y desde un área de producción. 
 
-- Con la página **Movimiento interno**.  
-- Con la página **Diario reclasificación productos**.  
+La forma de mover productos depende de si el almacén se configuró como ubicación. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
+
+En las configuraciones de almacén en las que la opción **Ubicac. obligatoria** está activada, pero no **Ubic. y pick. dirigido** puede registrar movimientos no planificados en las siguientes páginas:  
+
+* En la página **Movimiento interno**.
+* En la página **Diario reclasificación productos**.  
+
+## Movimientos internos
+
+La página **Movimientos internos** le permite especificar líneas de Traer y colocar cuando no hay una demanda de un documento de origen. La página Movimiento Interno es como una hoja de trabajo para organizar cosas. No puede procesar el movimiento real directamente desde ella. Cuando se complete una línea, use la acción **Crear movimiento de inventario** para enviar la línea a la página **Movimiento de inventario**, que es donde se tramita y registra el movimiento.
+
+### Para mover los artículos como movimiento interno
+
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") escriba **Movimientos internos** y, a continuación, elija el vínculo relacionado.  
+2. Elija la acción **Nuevo**. Asegúrese de que el campo **N.º** en desplegable **General** se haya rellenado.
+3. En el campo de **Cód. almacén**, escriba la ubicación donde tiene lugar el movimiento.  
+
+    Si la ubicación está configurada como predeterminada como empleado de almacén, el código de almacén se agregará automáticamente.  
+4. En el campo **Hasta cód. ubicación**, introduzca el código para la ubicación a la que desea mover el producto.
+
+    Por ejemplo, en producción, la ubicación podría ser la ubicación de aprovisionamiento manual, tal como se define en la ficha de almacén o del centro de trabajo.  
+5. En el campo **Fecha vencimiento**, introduzca la fecha en la que debe completarse el movimiento.  
+6. En cada línea, rellene los campos de la línea como sea necesario. Los documentos de movimiento interno tienen una línea por movimiento. La línea contiene las acciones de traer y colocar.
+7. Elija el campo **Nº producto** para abrir la página **Lista de contenidos de ubicaciones** . Seleccione el producto para mover en función de su disponibilidad en ubicaciones. También puede elegir la acción **Traer conten. ubicac.** para llenar las líneas de movimiento internas según sus filtros.  
+
+    Después de seleccionar el producto, el campo **Desde cód. ubicación** se completa automáticamente de acuerdo con el contenido de la ubicación seleccionada. Puede elegir cualquier ubicación donde el producto esté disponible. Los campos **Nº producto** y **Desde cód. ubicación** están relacionados. Cambiar el valor en un campo puede cambiar el valor en el otro.  
+
+    El campo **Hasta cód. ubicación** se completa con el valor que especificó en el encabezado. Puede cambiarlo en la línea a cualquier otro código de ubicación que no esté bloqueado o dedicado para fines especiales. Obtenga más información en [El campo dedicado](warehouse-how-to-create-individual-bins.md#the-dedicated-field).  
+
+8. Cuando haya definido que las ubicaciones desde y a las que desea mover los productos, introduzca la cantidad para mover en el campo **Cantidad**.  
+
+    > [!NOTE]  
+    > La cantidad debe estar disponible en la ubicación especificada en el campo **Desde cód. ubicación**.  
+
+9. Cuando vaya para procesar el movimiento, elija la acción **Crear movimiento de inventario**.  
+
+    > [!NOTE]  
+    >  Cuando se haya creado el movimiento, se eliminarán las líneas de movimientos internos.  
+
+Realice el resto del movimiento no planificado en la página **Movimiento inventario** de la misma forma que lo haría en un movimiento basado en los documentos de origen.
+
+### Para registrar el movimiento de inventario
+
+1. En la página **Movimiento inventario**, abra el documento para registrar el movimiento.  
+2. En las líneas de movimiento del campo **Cód. ubicación**, la ubicación desde la cual se debe realizar el picking de productos es donde el producto está disponible. Puede cambiar la ubicación si lo necesita.
+3. Realice el movimiento e introduzca la información de la cantidad movida en el campo **Cdad. a manipular**. El valor de Toma y las líneas de Plaza deben iguales. Si no, no podrá registrar el movimiento.
+
+    Si debe tomar los producto para una línea de más de una ubicación, por ejemplo porque no está toda la cantidad en la ubicación, utilice la acción **Dividir línea** de la ficha desplegable **Líneas**. La acción crea una línea la cantidad restante que se debe administrar.  
+4. Elija la acción **Registro movimiento de inventario**.  
+
+Lo siguiente sucede durante el proceso de publicación:
+
+* Las entradas de almacén indican que la cantidad se transfiere de las ubicaciones de toma a las ubicaciones de colocación.
+
+## Para mover productos con el diario de reclasificación de productos:
+
+En lugar de utilizar documentos de movimiento, puede registrar los movimientos reclasificando sus códigos de ubicación en productos. Obtenga más información en [Recuento, ajuste y reclasificación de inventario con diarios](inventory-how-count-adjust-reclassify.md).
 
 > [!NOTE]  
->  En configuraciones avanzadas de almacén, es decir las ubicaciones que utilizan el campo de configuración **Ubicac. y pick. directo**, utilice las páginas **Hoja trabajo movimiento**, **Picking almacén interno** o **Ubicación almacén interno** para mover los artículos ad hoc entre ubicaciones.  
+> Los movimientos registrados con diarios de reclasificación no hacen que los documentos de movimiento estén listos para moverse.  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Para mover los artículos como movimiento interno
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios reclasif. producto**, y luego elija el enlace relacionado.  
+2. En cada línea del diario, defina las ubicaciones de las que y a las que desea mover los productos rellenando los campos **Cód. ubicación** y **Nueva ubicación**.  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimiento interno** y, a continuación, elija el vínculo relacionado.  
-2.  En la ficha desplegable **General**, rellene el campo **Nº** bien dejando el campo o eligiendo el botón **AssistEdit** para seleccionar de las series de números.  
-3.  En el campo de **Cód. almacén**, escriba la ubicación donde tiene lugar el movimiento.  
+    1. Para mover todo el contenido de una ubicación a otra, elija la acción **Traer conten. ubicac.**.  
+    2. Utilice los filtros para buscar la ubicación cuyo contenido desea mover y a continuación seleccione **Aceptar**. Las líneas del diario se rellenan con el contenido de la ubicación.  
+3. Rellene el resto de los campos de cada línea del diario.
+4. Registre el diario de reclasificación.  
 
-    Si la ubicación está configurada como predeterminada como empleado de almacén, el código de almacén se insertará automáticamente.  
-4.  En el campo **Hasta cód. ubicación**, introduzca un código para la ubicación a la que desea mover el artículo. A efectos de producción, esto podría ser el código de ubicación a producción, por ejemplo, tal como se define en la ficha de almacén o del centro de trabajo.  
-5.  En el campo **Fecha vencimiento**, introduzca la fecha en la que debe completarse el movimiento.  
-6.  En la ficha desplegable **Líneas**, elija el campo **Nº producto** para abrir la página **Lista contenidos ubic.** y seleccione el producto que se debe mover según su disponibilidad en las ubicaciones. También, elija la acción **Traer conten. ubicac.** para rellenar las líneas de movimiento interno basándose en los filtros. Para obtener más información, vea la información sobre herramientas para la acción **Traer conten. ubicac.**.  
+## Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
-    Cuando haya seleccionado el artículo, el campo **Desde cód. ubicación** se rellena automáticamente según el contenido seleccionado en la ubicación, pero puede cambiarlo por cualquier otra ubicación donde esté disponible el artículo.  
+## Consulte también .
 
-    > [!NOTE]  
-    >  Dado que el campo **Nº producto** y el **Desde cód. ubicación** están conectados, los valores pueden cambiar de forma interdependiente cuando se edite el campo.  
-
-    El campo **Hasta cód. ubicación** se rellena con el valor introducido en la cabecera, pero puede cambiarlo en la línea a cualquier otro código de ubicación que no esté bloqueado ni se dedique a fines especiales. Para obtener más información acerca de la fabricación de las ubicaciones dedicadas, consulte Dedicado.  
-7.  Cuando haya definido que las ubicaciones desde y a las que desea mover el artículo, introduzca la cantidad para mover en el campo **Cantidad**.  
-
-    > [!NOTE]  
-    >  La cantidad debe estar disponible en campo Desde cód. ubicación.  
-
-8.  Cuando vaya para procesar el movimiento interno, elija la acción **Crear movimiento de inventario**.  
-
-    > [!NOTE]  
-    >  Cuando se haya creado el movimiento de inventario, se eliminarán las líneas de movimientos internos.  
-
-    Ejecute el resto del movimiento ad hoc en la página **Movimiento inventario** de la misma forma que lo haría en un movimiento basado en los documentos de origen. Para obtener más información, consulte, por ejemplo, [Mover componentes a un área de operaciones en las configuraciones básicas de almacén](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
-
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Para mover productos con el diario de reclasificación de productos:
-
-En lugar de utilizar documentos de movimiento de almacén, puede registrar el movimiento de productos reclasificando sus códigos de ubicación. Para obtener más información, consulte [Recuento, ajuste y reclasificación de inventario mediante diarios](inventory-how-count-adjust-reclassify.md).
-
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios reclasif. producto**, y luego elija el enlace relacionado.  
-2.  En cada línea del diario, defina las ubicaciones de las que y a las que desea mover los artículos rellenando los campos **Cód. ubicación** y **Nueva ubicación**.  
-
-    1.  Para mover todo el contenido de una ubicación a otra, elija la acción **Traer conten. ubicac.**.  
-    2.  Rellene los filtros para encontrar la ubicación cuyo contenido desea mover y a continuación seleccione **Aceptar**. Las líneas del diario se rellenan con el contenido de la ubicación.  
-3.  Rellene el resto de los campos de cada línea del diario.   
-4.  Registre el diario de reclasificación.  
-
-    > [!NOTE]  
-    >  A diferencia de los documentos de movimiento, un movimiento registrado con el diario de reclasificación no crea una solicitud de almacén para realizar la tarea física.  
-
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
-
-## <a name="see-also"></a>Consulte también .
-
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

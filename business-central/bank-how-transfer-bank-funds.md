@@ -1,27 +1,21 @@
 ---
 title: Transferir fondos bancarios
-description: Puede transferir importes de una cuenta bancaria a otra, con divisas distintas, registrando la transacción en el diario general.
+description: 'Puede transferir importes de una cuenta bancaria a otra, con divisas distintas, registrando la transacción en el diario general.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bank account transfer, multiple currencies
+ms.search.keywords: 'bank account transfer, multiple currencies'
 ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: 632f802678de33e7c00fa95dab38530a1364ff3b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511732"
 ---
-# <a name="transfer-bank-funds"></a>Transferir fondos bancarios
+# Transferir fondos bancarios
 
 En ocasiones es necesario transferir un importe desde un banco en [!INCLUDE[prod_short](includes/prod_short.md)] a otro. Para hacerlo, debe registrar la transacción en la página **Diario general**. La tarea varía en función de si los bancos usan la misma divisa o distintas divisas.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Para registrar transferencias entre bancos con el mismo código de divisa
+## Para registrar transferencias entre bancos con el mismo código de divisa
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general**, y luego elija el enlace relacionado.
 2. En una línea de diario, rellene los campos **Fecha registro** y **Nº documento**.
@@ -34,7 +28,7 @@ En ocasiones es necesario transferir un importe desde un banco en [!INCLUDE[prod
 7. En el campo **Cta. contrapartida**, seleccione la cuenta a la que quiere transferir los fondos.
 8. Registre el diario.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Para registrar transferencias entre bancos con códigos de divisa distintos
+## Para registrar transferencias entre bancos con códigos de divisa distintos
 
 Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe registrar dos líneas de diario general.
 
@@ -71,7 +65,7 @@ Para transferir fondos entre cuentas bancarias que usan distintas divisas, debe 
     > Una cantidad sin signo es un débito y una cantidad con signo menos es un crédito.
 10. Registre el diario.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Configurar banca](bank-setup-banking.md)  

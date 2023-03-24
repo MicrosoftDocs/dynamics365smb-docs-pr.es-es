@@ -3,12 +3,6 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8849f1c5d33cd1f826e7f53be317cb01e513fcd1
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652143"
 ---
 Cuando haya agregado todos los productos en las líneas, podrá calcular el descuento en factura para todo el documento de venta eligiendo la acción **Calcular descuento en factura**.
 

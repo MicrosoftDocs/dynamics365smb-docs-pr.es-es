@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 864b7854593fe0b0d8ecb739f580daa7bd035c58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519282"
 ---
-# <a name="design-details-rounding"></a>Detalles de diseño: Redondeo
+# Detalles de diseño: Redondeo
 Los redondeos residuales se pueden producir cuando se valora el coste de una salida de existencias que se mide en una cantidad distinta a la de la entrada de existencias correspondiente. Cuando se ejecuta el proceso **Valorar stock - movs. producto**, se calculan los redondeos residuales para todas las valoraciones de existencias.  
 
  Cuando se usa la valoración de existencias media, el redondeo residual se calcula y registra de forma acumulada y movimiento a movimiento.  
 
  Cuando se usa una valoración de existencias distinta de Media, el redondeo residual se calcula cuando se ha liquidado completamente la entrada de existencias, lo que sucede cuando la cantidad restante de la entrada de existencias es igual a cero. A continuación se crea una entrada independiente para la redondeo residual, y la fecha de registro en esta entrada de redondeo es la fecha de registro de la entrada del último valor facturado de la entrada de existencias.  
 
-## <a name="example"></a>Ejemplo  
+## Ejemplo  
  En el ejemplo siguiente se ilustra cómo se tratan diferentes redondeos residuales para la valoración de existencias Media y de otro tipo, respectivamente. En ambos casos, se ha ejecutado el proceso **Valorar stock - movs. producto**.  
 
  En la tabla siguiente se muestran los movimientos de producto en los que se basa el ejemplo.  
@@ -58,7 +52,7 @@ Los redondeos residuales se pueden producir cuando se valora el coste de una sal
 |01-04-20|-1|-3,33|4|4|  
 |01-01-20|0|-0,01|1|5|  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)   
  [Detalles de diseño: métodos de coste](design-details-costing-methods.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  

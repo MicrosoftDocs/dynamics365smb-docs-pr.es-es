@@ -1,120 +1,126 @@
 ---
 title: Enviar productos
-description: Este artículo describe cómo enviar productos desde su almacén según la configuración de su almacén para el procesamiento del envío.
-author: SorenGP
+description: En este artículo se describe cómo enviar productos desde su almacén.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
-ms.date: 09/02/2022
-ms.author: edupont
-ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531221"
+ms.date: 02/22/2023
+ms.custom: bap-template
+ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="ship-items"></a>Enviar productos
 
-Cuando envíe artículos de un almacén que no está configurado para el procesamiento de envío de almacén, simplemente registre el envío en el documento de negocio relacionado, como un pedido de cliente, una orden de servicio, una orden de devolución de compra o una orden de transferencia de salida.
+# Enviar productos con envío de almacén
 
-Cuando envía productos de un almacén que está configurado para realizar el proceso de envío de almacén, puede enviar productos solo basándose en los documentos de origen que otras unidades de la empresa han enviado al almacén para realizar una acción.
+En [!INCLUDE[prod_short](includes/prod_short.md)], la selección y el envío de productos se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
-> [!NOTE]
-> Si el almacén utiliza tránsito directo y ubicaciones, para cada línea, puede ver la cantidad de productos colocados en las ubicaciones de tránsito directo. La aplicación calcula estas cantidades automáticamente cada vez que se actualicen los campos en el envío. Si son los productos que se incluyen en el envío que está preparando, puede crear un picking de todas las líneas y, a continuación, completar el envío. Obtenga más información en [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
+|Método|Proceso de salida|Picking requerido|Envío requerido|Nivel de complejidad (Obtenga más información en [Descripción general de la gestión de almacenes](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Registro de picking y envío desde la línea de pedido|||No hay ninguna actividad de almacén dedicada.|  
+|B|Registro de picking y envío desde un documento de picking de existencias|Activado||Básico: Pedido por pedido|  
+|P|Registro de picking y envío desde un documento de envío de almacén||Activado|Básico: Publicación consolidada de recepción/envío para múltiples pedidos.|  
+|D|Registro de picking desde un documento de picking de almacén y registro de envío de un documento de envío de almacén|Activado|Activado|Avanzado|  
 
-## <a name="ship-items-with-a-sales-order"></a>Enviar productos con un pedido de ventas
+Para obtener más información sobre el envío de productos, vaya a [Flujo de salida del almacén](design-details-outbound-warehouse-flow.md).
 
-Las instrucciones siguientes describen cómo enviar productos de un pedido de venta. Los pasos son iguales para las órdenes de devolución de compra, las órdenes de servicio y las órdenes de transferencia de salida.  
+Este artículo hace referencia a los métodos C y D de la tabla. En ambos métodos, se empieza creando un documento de envío a partir de un documento de origen empresarial. A continuación, seleccione los productos especificados para el envío.
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
-2. Abra un pedido de venta existente o cree uno nuevo. Obtenga más información en [Vender productos](sales-how-sell-products.md).
-3. Escriba la cantidad enviada en el campo **Cantidad a enviar**.
+Cuando una ubicación requiere envíos de almacén, puede enviar productos en función de los documentos de origen que se hayan enviado al almacén. La liberación de documentos de origen hace que los productos que contienen estén listos para ser manipulados en el almacén. Los siguientes son ejemplos de documentos de origen:
 
-    El valor del campo **Cdad. enviada** se actualiza según corresponde. Si se trata de un envío parcial, el valor es menor que el valor del campo **Cantidad**. Obtenga más información en [Procesar envíos parciales](sales-how-send-partial-shipments.md).
-4. Seleccione la acción **Registrar**.
+* Pedidos de venta
+* Pedidos de devolución compra
+* Pedidos de transferencia
+* Pedidos de servicio
 
-> [!NOTE]
-> Si su organización no utiliza pedidos de ventas, cuando contabilice la factura de ventas, [!INCLUDE [prod_short](includes/prod_short.md)] asume que ha enviado la cantidad completa. Si esto entra en conflicto con el funcionamiento de su organización, le recomendamos que utilice pedidos de ventas y registre envíos como se explica en este artículo.
+Puede crear un envío de almacén de dos maneras:
 
-## <a name="ship-items-with-a-warehouse-shipment"></a>Enviar productos con envío de almacén
+* De manera forzada, cuando el trabajo se realiza pedido por pedido. Elija la acción **Crear envío de almacén** en el documento de origen para crear un envío de almacén para el documento.
+* De forma forzada, donde usa la acción **Liberar** en el documento de origen para liberarlo al almacén. Un empleado de almacén crea una **Envío de almacén** para uno o varios documentos de origen emitidos. El siguiente procedimiento describe cómo crear un envío de almacén de manera forzada.
 
-Primero cree un documento de envío de un documento de origen de negocio. A continuación, seleccione los productos especificados para el envío.
+## Para enviar productos con un documento de envío de almacén
 
-### <a name="create-a-warehouse-shipment"></a>Crear un envío de almacén
-
-Normalmente, el empleado responsable de los envíos crea un envío de almacén. El siguiente procedimiento describe cómo crear el envío manualmente en la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)]. Sin embargo, es posible que su organización haya automatizado parte del proceso, por ejemplo, con el uso de escáneres portátiles o montados respaldados por proveedores externos.  
-
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envíos de almacén** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envíos de almacén** y luego elija el enlace relacionado.  
 2. Elija **Nuevo**.  
+3. En el campo **N.º**, seleccione la serie de números que se usará para crear una identificación para el envío.  
+4. En el campo **Código de ubicación**, elija el almacén desde el que realiza el envío. 
 
-    Rellene los campos en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.  
+    Al recuperar las líneas del documento de origen, se copia parte de la información desde el almacén en cada línea.  
+5. Si el almacén requiere ubicaciones, rellene el campo **Código de ubicación** . Dependiendo de su configuración, [!INCLUDE[prod_short](includes/prod_short.md)]] puede agregar el código de ubicación por usted. Obtenga más información en [Códigos de zona y de ubicación](warehouse-how-ship-items.md#zone-and-bin-codes).  
+6. Puede obtener el documento de origen de dos maneras:
 
-    Para una almacén configurado con ubicación y picking directos, si el almacén tiene una zona y ubicación genéricas para los envíos, se rellenarán automáticamente los campos **Cód. zona** y **Cód. ubicación**, pero puede cambiarlos como considere.  
+    * Seleccione la acción **Traer doc. origen**. Se abre la página **Documentos origen: Salida**. Aquí puede seleccionar uno o más documentos de origen enviados al almacén que requieren envío.
+    * Elija la acción **Utiliz. filt. para traer docs.**. Se abre la página **Filtros para traer docs. orig.** Puede seleccionar el filtro del documento de origen y aplicarlo. Todas las líneas del documento de origen liberadas que cumplen los criterios de filtro se agregan en la página **Envío de almacén** . Obtenga más información en [Cómo utilizar filtros para traer documentos de origen](warehouse-how-ship-items.md#how-to-use-filters-to-get-source-documents).
 
-    > [!NOTE]  
-    > Si desea enviar productos con códigos de clase de almacén de la ubicación en el campo **Cód. ubicación** de la cabecera de documento, debe eliminar el contenido del campo **Cód. ubicación** en la cabecera antes de recuperar líneas del documento de origen para los productos.  
-3. Seleccione la acción **Traer doc. origen**. Se abre la página **Documentos origen**.
+    > [!NOTE]
+    > Si el almacén utiliza tránsito directo y ubicaciones, para cada línea, puede revisar la cantidad de productos colocados en las ubicaciones de tránsito directo. [!INCLUDE [prod_short](includes/prod_short.md)] calcula las cantidades automáticamente cada vez que se actualicen los campos en el envío. Si son los productos del envío que está preparando, puede crear un picking de todos los productos y, a continuación, completar el envío. Obtenga más información en [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
 
-    Desde una recepción o un envío de almacén nuevos o abiertos, puede utilizar la página **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que definen la artículos para recibir o enviar.
+7. Cree un picking de almacén. Si el almacén requiere picking, puede crear actividades de picking para envíos de almacén de una de dos maneras:
 
-    1. Elija la acción **Utiliz. filt. para traer docs.**.  
-    2. Para configurar un nuevo filtro introduzca un código descriptivo en el campo **Código** y, a continuación, elija la acción **Modificar**.  
-    3. Defina el tipo de líneas del documento de origen que desea que recupere el sistema rellenando los campos de filtro correspondientes.  
-    4. Seleccione la acción **Ejecutar**.  
+    * De forma automática, donde utiliza la acción **Crear selección**. Seleccione las líneas para elegir y especifique información sobre las selecciones. Por ejemplo, de qué ubicaciones tomar y en cuáles colocar, y cuántas unidades manejar. Las ubicaciones se pueden predefinir para la ubicación del almacén o el recurso.
+    * De forma pull, donde utiliza la acción **Liberar**. En la página **Hoja trabajo picking** , use la acción **Traer documentos almacén** para obtener las selecciones asignadas. Cuando los picking de almacén están totalmente registrados, se eliminan las líneas en **Hoja trabajo picking**. Obtenga más información en [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-    Todas las líneas del documento de origen lanzado que cumplan los criterios del filtro se insertarán en la página **Envío almacén** desde las que se activó la función del filtro.  
+> [!TIP]
+> Para un almacén que no requiere picking, puede imprimir el envío del almacén y usarlo como una lista de picking.
 
-    Las combinaciones de filtros que defina se guardan en la página **Filtros para traer docs. orig.** hasta que la próxima vez que las necesite. Puede crear un número ilimitado de combinaciones de filtros. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
+8. Especifique la cantidad que se enviará.  
 
-4. Seleccione los documentos de origen para los que desea enviar productos y, a continuación, elija **Aceptar**.  
+    Para una ubicación que requiere picking, el campo **Cdad. a enviar** se actualiza automáticamente cuando se registra el picking. De lo contrario, el campo **Cantidad a enviar** se rellena con la cantidad pendiente de cada línea cuando se crea la línea de envío de almacén.
 
-Las líneas de los documentos de origen aparecerán en la página **Envío almacén**. El campo **Cantidad a enviar** se rellena con la cantidad pendiente de cada línea, pero puede cambiarla según necesite. Si ha eliminado el contenido del campo **Cód. ubicación** de la ficha desplegable **General** antes de traer las líneas, debe rellenar un código de ubicación apropiado en cada línea de envío.  
+    Puede cambiar la cantidad, pero no puede enviar más productos que el número en el campo **Cdad. pendiente** en la línea del documento de origen o en el campo **Cdad. preparada pedido** si se requiere selección.
 
-> [!NOTE]  
-> No puede enviar más productos que el número que se muestra en el campo **Cdad. pendiente** de la línea del documento de origen. Para enviar más productos, utilice la función de filtro para recuperar otro documento de origen que contenga una línea del mismo producto.  
+    Para establecer el valor en el campo **Cdad. a enviar** de todas las líneas en cero, elija la acción **Eliminar cdad. a enviar**. Por ejemplo, establecer las cantidades en cero es útil si está utilizando un escáner de código de barras para actualizar las cantidades enviadas. Para agregar la cantidad disponible para el envío, elija la acción **Rellenar cdad. a enviar autom.**
 
-Cuando tenga las líneas que desea enviar, puede iniciar el proceso que envía las líneas a los empleados del almacén para ejecutar el picking.
+9. Registre el envío.
 
-### <a name="pick-and-ship"></a>Realizar el picking y enviar
+## Cómo utilizar filtros para obtener documentos de origen
 
-Normalmente, un empleado de almacén responsable del picking crea un documento de picking, o bien abre un documento ya creado de picking.  
+Desde un envío de almacén, puede utilizar la página **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que definen los productos para recibir o enviar.
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envíos de almacén** y luego elija el enlace relacionado.
-2. Seleccione el envío de almacén para el que desea realizar el picking, y después seleccione la acción **Crear picking**.
-3. Rellene los campos en la página de solicitud y, a continuación, elija **Aceptar**. Se crea el documento de picking de almacén especificado.
+1. En el envío de almacén, elija la acción **Utiliz. filt. para traer docs.**. 
+2. Para configurar un nuevo filtro introduzca un código descriptivo en el campo **Código** y, a continuación, elija la acción **Modificar**.
 
-    Alternativamente, abra un documento de picking de almacén existente.
-4. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado. Seleccione el picking de almacén con el que desea trabajar.
+    Se abrirá la página **Ficha filtro documento origen - Saliente**.
 
-    Si el almacén está configurado para utilizar ubicaciones, las líneas de picking se han convertido a líneas de acción Traer y Colocar.
+3. Utilice los filtros para definir el tipo de líneas del documento de origen que desea recuperar. Por ejemplo, puede seleccionar tipos de documentos de origen, como pedidos de venta o de transferencia.
+4. Elija **Ejecutar**.  
 
-    Si utiliza picking y ubicaciones directos, puede ordenar las líneas, asignar un empleado al picking, definir un filtro de división de bultos e imprimir las instrucciones.
+Todas las líneas del documento original liberado que cumplan los criterios de filtrado se añaden en la página **Envío almacén** en la que haya establecido los filtros.
 
-5. Realice el picking de los productos y colóquelos en la ubicación de envío especificada, o en el área de envío, si no tiene ubicaciones.
-6. Elija la acción **Registrar picking**.
+Puede crear un número ilimitado de combinaciones de filtros. Los filtros se guardan en la página **Filtros para traer docs. orig.** y están disponibles la próxima vez que las necesite. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
 
-    Se actualizarán los campos **Cantidad a enviar** y **Estado documento** de la cabecera del documento de envío. Los productos de los que ha realizado el picking ya no estarán disponibles para que otros pedidos hagan picking o para operaciones internas.
-7. Imprima sus documentos de envío, prepare el embalaje y, a continuación, registre el envío.
+## Códigos de zona y ubicación
 
-Para obtener más información acerca de la selección para envíos de almacén, [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Si los contenedores son obligatorios en la ubicación, [!INCLUDE [prod_short](includes/prod_short.md)] sugiere una zona y un código de ubicación en el documento de envío del almacén.
 
-También puede utilizar la hoja de trabajo de picking para crear varias instrucciones de picking en una sola instrucción (para varios envíos) y, por tanto, mejorar la eficacia del picking en el almacén. Obtenga más información en [Planificar pickings en hojas de trabajo](warehouse-how-to-plan-picks-in-worksheets.md).
+* Para configuraciones avanzadas en las que el almacén utiliza un almacén y picking dirigidos,  [!INCLUDE [prod_short](includes/prod_short.md)] utiliza la ubicación especificada en el campo **Cód. ubicación envío** en el campo **Ficha de almacén**. Si no se especifica un **Cód. ubicación envío**, el campo está en blanco. Si el producto y la ubicación de envío no coinciden, [!INCLUDE [prod_short](includes/prod_short.md)] deja la ubicación de envío en blanco.
+* En otros casos, [!INCLUDE [prod_short](includes/prod_short.md)] siempre utiliza la ubicación especificada en el campo **Cód. ubicación envío** de la **Ficha almacén** primero. Si no se especifica un código de ubicación de envío, [!INCLUDE [prod_short](includes/prod_short.md)] usa el código de ubicación del documento de origen.
+
+## Tratamiento de productos ensamblar para pedido en los envíos de almacén
+
+En escenarios de ensamblar para pedido, use el campo **Cdad. a enviar** de las líneas de envío de almacén para registrar cuántas unidades se ensamblan. La cantidad se registra como salida de ensamblado cuando se registra el envío de almacén. Para las demás líneas de envío de almacén, el valor del campo **Cdad. a enviar** es cero.
+
+Cuando los trabajadores terminan de montar parte o toda la cantidad de ensamblar para pedido, la registran en el campo **Cdad. a enviar** de la línea de envío de almacén. A continuación, elija la acción **Registrar envío**. La salida de ensamblado se contabiliza, incluido el consumo de componentes. Un envío de venta para la cantidad se registra para el pedido de venta.
+
+Desde el pedido de ensamblado, puede elegir **Lín. envío almacén ensamblar para pedido** para acceder a la línea de envío de almacén.
+
+Una vez registrado el envío de almacén, los distintos campos de la línea de pedido de venta se actualizan para mostrar el progreso en el almacén. Los siguientes campos también se actualizan para mostrar cuántas cantidades de ensamblar para pedido faltan ensamblar y enviar:
+
+* **Cdad. pdte. almacén de ATO**
+* **Cdad. pdte. salida alm. de ATO**
 
 > [!NOTE]
-> Si espera la llegada de productos específicos en el almacén y utiliza la funcionalidad de tránsito directo, [!INCLUDE[prod_short](includes/prod_short.md)] calcula la cantidad de producto que está en la ubicación de tránsito directo en cada línea de la hoja de trabajo de picking o envío. Este campo se actualiza cada vez que abandona y abre el documento de envío o la hoja de trabajo. Obtenga más información en [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
+> En escenarios de combinación, en los que una parte de la cantidad debe ensamblarse y la otra se debe enviar desde el inventario, se crean dos líneas de envío de almacén. Uno es para la cantidad de ensamblar para pedido y otro es para la cantidad de existencias.
+>
+> La cantidad ensamblada para pedido se maneja como se describe en este artículo. La cantidad de inventario se maneja como una línea de envío de almacén regular. Para obtener más información sobre los escenarios de combinación, vaya a [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada.
+## Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

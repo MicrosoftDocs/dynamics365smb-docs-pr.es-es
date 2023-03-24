@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: posting, interface, design
+ms.search.keywords: 'posting, interface, design'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: ed590455c9edbe5b8727988d4300172223bd2056
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131930"
 ---
-# <a name="design-details-posting-interface-structure"></a>Detalles de diseño: estructura de interfaz de registro
+# Detalles de diseño: estructura de interfaz de registro
 En la estructura de interfaz de registro de [!INCLUDE[prod_short](includes/prod_short.md)] existen varios procedimientos globales que utilizan la misma estructura:  
   
 * RunWithCheck y RunWithoutCheck llaman al código de procedimiento - interfaz de registro genérica para la línea de diario general.  
@@ -25,7 +19,7 @@ En la estructura de interfaz de registro de [!INCLUDE[prod_short](includes/prod_
 * UnapplyCustLedgEntry: registrar desliquidación de liquidación de cliente, llamada desde la codeunit 226 Mov. cliente-Liquidar movimientos registrados.  
 * UnapplyVendLedgEntry: registrar desliquidación de liquidación de proveedor, llamada desde la codeunit 227 Mov. proveedor-Liquidar movimientos registrados.  
   
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

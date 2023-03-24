@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142911"
 ---
-# <a name="service-management"></a>Gestión de servicios
+# Gestión de servicios
 > [!NOTE]
 > La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
@@ -42,7 +36,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Crear y gestionar los acuerdos contractuales entre usted y sus clientes.|[Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)|  
 |Ofrecer servicio a clientes y factura los pedidos de servicio.|[Prestación del servicio](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Administrar cobros](receivables-manage-receivables.md)   
 [Proyectos](projects-how-create-jobs.md)   
 [[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)

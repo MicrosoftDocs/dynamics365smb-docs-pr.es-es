@@ -1,22 +1,16 @@
 ---
 title: 'Detalles de diseño: Desviación | Documentos de Microsoft'
-description: La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.
+description: 'La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db015f330a89a164b7636b4f44a265f528e9cc3f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513049"
 ---
-# <a name="design-details-variance"></a>Detalles de diseño: Desviación
+# Detalles de diseño: Desviación
 La desviación se define como la diferencia entre el coste real y el coste estándar, tal como se describe en la fórmula siguiente.  
 
  coste real – coste estándar = desviación  
@@ -26,7 +20,7 @@ La desviación se define como la diferencia entre el coste real y el coste está
 > [!NOTE]  
 >  La revalorización no afecta al cálculo de desviación, porque la revalorización solo modifica el valor de inventario.  
 
-## <a name="example"></a>Ejemplo  
+## Ejemplo  
  En el ejemplo siguiente se ilustra cómo se calcula la desviación de los productos comprados. Se basa en el siguiente caso:  
 
 1.  El usuario compra un producto por DL 90,00, pero el coste estándar es de 100,00 DL. Por consiguiente, la desviación de compra es 10,00 DL.  
@@ -39,7 +33,7 @@ La desviación se define como la diferencia entre el coste real y el coste está
 
  ![Cálculo de desviación de compras.](media/design_details_inventory_costing_11_purchase_variance.png "Cálculo de desviación de compras")  
 
-## <a name="determining-the-standard-cost"></a>Determinación del coste estándar  
+## Determinación del coste estándar  
  El coste estándar se usa al calcular la desviación y el importe para capitalizar. Como el coste estándar puede cambiarse con el tiempo debido al cálculo de actualización manual, para el cálculo de desviación necesita un punto en el tiempo en el que el coste estándar sea fijo. Este momento se produce cuando se factura la entrada de existencias. En el caso de productos fabricados o ensamblados, el punto en el que se determina el coste estándar es cuando se ajusta el coste.  
 
  En la tabla siguiente se muestra cómo se calculan diferentes partes de coste para productos fabricados y ensamblados al usar la función Calcular coste estándar.  
@@ -58,7 +52,7 @@ La desviación se define como la diferencia entre el coste real y el coste está
 |**Coste gen. capacidad distribuida**|No aplicable|![Ecuación 8.](media/design_details_inventory_costing_11_equation_8.png "Ecuación 8")|  
 |**Costes gen. fabr. distrib.**|No aplicable|![Ecuación 9.](media/design_details_inventory_costing_11_equation_9.png "Ecuación 9")|  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: métodos de coste](design-details-costing-methods.md) [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
  [Finanzas](finance.md)  

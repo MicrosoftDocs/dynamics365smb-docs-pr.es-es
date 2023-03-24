@@ -1,23 +1,17 @@
 ---
 title: Modificar o cancelar facturas de compra sin abonar (contiene vídeo)
-description: Explica cómo corregir, cancelar o deshacer una factura de compra registrada y crear automáticamente un abono de compra.
+description: 'Explica cómo corregir, cancelar o deshacer una factura de compra registrada y crear automáticamente un abono de compra.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: undo, credit memo, return
-ms.search.form: 138, 140, 146
+ms.search.keywords: 'undo, credit memo, return'
+ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71356d981573447b6dc012066eedce38d1b77c38
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534594"
 ---
-# <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corregir o cancelar facturas de compra sin abonar
+# Corregir o cancelar facturas de compra sin abonar
 
 Puede corregir o cancelar una factura de compra registrada. Esto es útil si se desea corregir un error de escritura o si desea cambiar la compra de forma anticipada en el proceso de pedido.
 
@@ -27,7 +21,7 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
-## <a name="to-correct-a-posted-purchase-invoice"></a>Para corregir una factura de compra registrada
+## Para corregir una factura de compra registrada
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura de compra registrada que desea corregir.  
@@ -41,7 +35,7 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
     Un abono de compra se crea y se registra automáticamente para anular la factura de compra registrada inicialmente.
 4. Elija **Mostrar abono correctivo** para ver el histórico de abonos de compra que anula la factura de compra registrada inicial.
 
-## <a name="to-cancel-a-posted-purchase-invoice"></a>Para cancelar una factura de compra registrada
+## Para cancelar una factura de compra registrada
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la factura de compra registrada que desea cancelar.
@@ -53,13 +47,13 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
     Un abono de compra se crea y se registra automáticamente para anular la factura de compra registrada inicialmente. El campo **Cancelado** en la factura de compra registrada inicial se cambia a **Sí**.
 4. Elija **Mostrar abono correctivo** para ver el histórico de abonos de compra que anula la factura de compra registrada inicial.
 
-### <a name="partial-invoice-posting-also-supported"></a>También se admite el registro parcial de facturas
+### También se admite el registro parcial de facturas
 
 Si la cancelación está relacionada con un registro parcial de la factura, la línea de pedido de compra original se actualiza para reflejar la cantidad facturada cancelada. Los campos **Cant. a facturar** y **Cant. facturada** en la línea de pedido de compra relacionada se restablecen a los valores previos del registro parcial.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  

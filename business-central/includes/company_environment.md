@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317380"
 ---
 Los usuarios de [!INCLUDE[prod_short](prod_short.md)] a veces admiten a más de un departamento o suborganización dentro de una unidad de negocio. Por ejemplo, una empresa puede tener oficinas de ventas en distintas ciudades y múltiples países o regiones, por lo que ha creado una unidad de negocios separada para cada oficina. Las oficinas que se encuentran en el mismo país se configuran como *empresas* separadas en un *entorno* compartido. Otras oficinas se crean como empresas en entornos separados porque tienen su base geográfica en otros países.
 

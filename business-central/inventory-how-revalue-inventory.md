@@ -7,21 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: costing, inventory cost, value entries
-ms.search.forms: 5803,
+ms.search.keywords: 'costing, inventory cost, value entries'
+ms.search.forms: '5803,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511551"
 ---
-# <a name="revalue-inventory"></a>Revaluar inventario
+# Revaluar inventario
 Si desea apreciar o depreciar un producto o el movimiento de un determinado producto, utilice el diario de revalorización.
 
-## <a name="to-revalue-inventory"></a>Para revaluar el inventario
+## Para revaluar el inventario
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de revaluación**, y luego elija el enlace relacionado.
 2. Elija la acción **Calcular valor inventario**.
 3. En la página **Calcular valor inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,7 +27,7 @@ Si desea apreciar o depreciar un producto o el movimiento de un determinado prod
 
 Las nuevas entradas de valor ahora se crean de modo que reflejan las revalorizaciones que ha registrado. Puede ver los nuevos valores en las respectivas tarjetas de producto.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Detalles de diseño: Revalorización](design-details-revaluation.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Ccial](sales-manage-sales.md)  

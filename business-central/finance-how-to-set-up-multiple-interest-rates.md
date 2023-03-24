@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 6, 431, 432, 572
+ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 997a6e587a94d4d4a20db5f01a79ad0fd295df61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135446"
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Configurar tasas de interés múltiples para pagos atrasados
+# Configurar tasas de interés múltiples para pagos atrasados
 
 Puede usar tasas de interés diferentes se utilizan para diferentes períodos de pagos retrasados en las transacciones comerciales. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -24,7 +18,7 @@ Por ejemplo, un gobierno especifica el interés máximo que debe percibirse por 
 
 Cuando cree los términos de interés y los términos de recordatorio, para la penalización por pago atrasado, puede especificar múltiples tasas de interés para que la penalización se calcule a partir de diferentes tasas de interés en diferentes períodos.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Configurar varios tipos de interés
+## Configurar varios tipos de interés
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos interés** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Términos interés**, seleccione el término requerido de interés y después seleccione la acción **Tipos de interés**.  
@@ -36,7 +30,7 @@ Cuando cree los términos de interés y los términos de recordatorio, para la p
 
 Cuando emite una nota de cargo financiero, la nota muestra los cargos financieros con tasas de interés múltiples para un período de tiempo específico. La nota también contiene los detalles de contacto del cliente, la empresa que emite la nota, el importe adicional y el importe total. El movimiento inicial de la nota se muestra en negrita. Los cargos financieros se calculan con tasas de interés múltiples para un período de tiempo específico y se imprimen después del movimiento inicial de la nota.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar las finanzas](finance-setup-finance.md)

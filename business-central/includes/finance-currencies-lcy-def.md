@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: c391e7d6492a722de10801212ccd04a532f8a971
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419618"
 ---
 Las empresas trabajan en más países o regiones, por lo que es vital que puedan intercambiar y generar información financiera en más de una divisa. La divisa local (DL) se define en la página **Configuración de contabilidad** como se describe en el artículo [Descripción de contabilidad y plan de cuentas](../finance-general-ledger.md). Una vez que se ha definido la divisa local (DL), se representará como una divisa en blanco, por lo que cuando el campo **Divisa** esté vacío, significa que la divisa es DL.  
 

@@ -7,16 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: edupont
-ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822524"
 ---
-# <a name="posting-documents-and-journals"></a>Registrar documentos y diarios
+# Registrar documentos y diarios
 
 Registrar representa la acción contable de registrar transacciones empresariales en extractos de varias empresas.
 
@@ -33,7 +27,7 @@ En la tabla siguiente se describen tareas relacionadas con vínculos a los temas
 | Obtenga una vista previa, en una página, de las entradas que se crearán al registrar. |[Vista previa de los resultados del registro](ui-how-preview-post-results.md) |
 | Obtenga una vista previa, en un informe, de las entradas que se crearán al registrar. |[Ver informes de prueba antes de realizar el registro](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Editar documentos registrados](across-edit-posted-document.md)  
 [Buscar entradas relacionadas para documentos registrados](ui-find-entries.md)  

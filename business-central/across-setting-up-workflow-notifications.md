@@ -4,17 +4,11 @@ description: Este artículo le explica cómo configurar notificaciones de flujo 
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65dad3ffcb91415b13683f20a5e91274c3841c87
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585474"
 ---
-# <a name="approval-workflow-notifications"></a>Notificaciones de flujo de trabajo de aprobación
+# Notificaciones de flujo de trabajo de aprobación
 
 Configure sus flujos de trabajo para notificar automáticamente a los usuarios cuando se requiera su atención para un paso en un flujo de trabajo. Muchas respuestas del flujo de trabajo corresponden a la notificación al usuario de un evento que se ha producido y en el que deben realizar una acción.
 
@@ -26,7 +20,7 @@ Por ejemplo, puede establecer que el Usuario 2, el usuario aprobador, reciba una
 > [!IMPORTANT]  
 > Todas las notificaciones de flujo de trabajo se envían a través de una cola de proyectos. Asegúrese de que la cola de proyectos en la instalación está configurada para gestionar las notificaciones de flujo de trabajo, así como que se haya seleccionado la casilla **Iniciar automáticamente desde servidor**. Obtenga más información en [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Configuración de notificaciones
+## Configuración de notificaciones
 
 Puede configurar distintos aspectos de las notificaciones de flujo de trabajo en los lugares siguientes:  
 
@@ -55,9 +49,9 @@ Puede configurar distintos aspectos de las notificaciones de flujo de trabajo en
 
   Para los flujos de trabajo de aprobación, agregue un paso de respuesta de flujo de trabajo para notificar al remitente cuando su solicitud se ha aprobado o rechazado. Obtenga más información del paso 9 en la sección [Crear flujos de trabajo](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
 [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)  

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1500, 1501, 1503, 1504, 1505
+ms.search.keywords: null
+ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 4b4a46071173c7371a306570227be5fffebd36d6
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585789"
 ---
-# <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
+# Usar flujos de trabajo de aprobación del producto
 
 Un flujo de trabajo es una secuencia de tareas que se desencadenan por una acción, una condición o una regla. Los flujos de trabajo generalmente se implementan para integrar la lógica empresarial a una organización, como la separación de funciones, unificar procesos o aplicar procedimientos recomendados.
 
@@ -70,9 +64,9 @@ Antes de empezar a utilizar flujos de trabajo, debe configurar usuarios de flujo
 | Ver los casos del paso del flujo de trabajo con estado de **Completado**. | [Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md) |
 | Eliminar un flujo de trabajo de aprobación que está seguro de que no se utilizará más. | [Eliminar flujos de trabajo de aprobación](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar flujos de trabajo de aprobación](across-set-up-workflows.md)  
 [Flujo de trabajo](across-workflow.md)  

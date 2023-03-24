@@ -1,23 +1,17 @@
 ---
 title: Administrar diseños de informes y documentos
-description: Use los diseños de informe para personalizar documentos, por ejemplo, para personalizar la fuente, el logotipo o la configuración de página de los archivos PDF que envía a clientes.
+description: 'Use los diseños de informe para personalizar documentos, por ejemplo, para personalizar la fuente, el logotipo o la configuración de página de los archivos PDF que envía a clientes.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0c5a8d8e9cbb556b25a3b1c5ee6069ac07c7cc9f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534783"
 ---
-# <a name="report-and-document-layouts-overview"></a>Información general de diseños de informes y documentos
+# Información general de diseños de informes y documentos
 
 Un diseño de informe controla el contenido y el formato del informe, incluidos los campos de datos de un conjunto de datos de informe que aparecen en el informe y la forma en que se organizan, el estilo del texto, las imágenes, etc. Desde [!INCLUDE[prod_short](includes/prod_short.md)] puede cambiar el diseño que se usa en un informe, crear un nuevo diseño o modificar diseños existentes.
 
@@ -26,7 +20,7 @@ Un diseño de informe controla el contenido y el formato del informe, incluidos 
 
 También puede utilizar los diseños de los informes para añadir contenido a los mensajes de correo electrónico. Por ejemplo, los diseños de informes pueden ahorrar tiempo y ayudar a garantizar la coherencia al reutilizar el mismo contenido cuando se comunica con sus clientes. Para usar diseños de informes personalizados con correo electrónico, el tipo de archivo para el diseño debe ser Word. No puede utilizar el tipo de archivo RDLC. Para más información, vea [Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="introduction"></a>Introducción
+## Introducción
 
 En concreto, un diseño de informe configura lo siguiente:
 
@@ -41,11 +35,11 @@ Un informe se puede configurar con varios diseños de informe, entre los que pue
 
 Hay dos aspectos importantes de los diseños de informes que influirán en cómo trabaja con ellos: el *tipo de diseño* y el *origen del diseño*. El tipo de diseño indica el tipo de archivo en el que se basa el diseño. El origen del diseño indica el origen del diseño.
 
-## <a name="layout-types"></a>Tipos de diseño
+## Tipos de diseño
 
 Hay cuatro tipos de diseños que puede usar en los informes: Word, RDLC, Excel y externo.
 
-### <a name="word"></a>Word
+### Word
 
 Los diseños de Word se basan en documentos de Word (tipo de archivo .docx). Los diseños de Word permiten diseñar formatos de informes con Microsoft Word. Un diseño de Word determina el contenido del informe, controlando la forma en que se organizan estos elementos del contenido y su aspecto. Un documento de diseño de Word normalmente usa tablas para organizar el contenido, donde las celdas pueden incluir campos de datos, texto o imágenes.
 
@@ -55,7 +49,7 @@ Los diseños de Word se basan en documentos de Word (tipo de archivo .docx). Los
 
 Para obtener más información, consulte [Trabajar con diseños de Word](ui-how-add-fields-word-report-layout.md).
 
-### <a name="excel"></a>Excel
+### Excel
 
 Los diseños de Excel se basan en libros de Microsoft Excel (tipo de archivo .xlsx). Le permiten crear informes utilizando las características conocidas de Excel para resumir, analizar y presentar datos con herramientas, como las fórmulas, PivotTables, PivotCharts y más.
 
@@ -63,7 +57,7 @@ Los diseños de Excel se basan en libros de Microsoft Excel (tipo de archivo .xl
 
 Para obtener más información, consulte [Trabajar con diseños de Excel](ui-excel-report-layouts.md).
 
-### <a name="rdlc"></a>RDLC
+### RDLC
 
 Los diseños de RDLC se basan en los archivos de diseño de definición de informe de cliente (tipos de archivo .rdl o .rdlc). Estos diseños se crean y modifican con el generador de informes de SQL Server o Microsoft RDLC Report Designer. El concepto de diseño para los diseños de RDLC es similar a los diseños de Word, donde el diseño determina qué campos mostrar y cómo se organizan. No obstante, el diseño de RDLC es más avanzada que la de diseños de Word.
 
@@ -71,13 +65,13 @@ Los diseños de RDLC se basan en los archivos de diseño de definición de infor
 
 Para obtener más información, consulte [Trabajar con diseños de RDLC](ui-rdlc-report-layouts.md).
 
-### <a name="external"></a>Externo
+### Externo
 
 Un tipo de diseño externo se refiere a un tipo avanzado que está especialmente diseñado para informes específicos. Los informes y los diseños los proporcionan normalmente los socios, no Microsoft. El tipo de archivo real del diseño variará según el proveedor.
 
 Para más información, consulte [Desarrollo de una representación de informe personalizada](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## <a name="layout-sources"></a>Orígenes de diseño
+## Orígenes de diseño
 
 Además del tipo, los diseños se dividen en tres categorías, según su fuente u origen.
 
@@ -126,9 +120,9 @@ For information about how to switch the layout currently used on a report, see [
 
 
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Actualizar los diseños de informe personalizados](ui-update-report-layouts.md)  
 [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)  

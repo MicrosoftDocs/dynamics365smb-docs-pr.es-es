@@ -1,22 +1,16 @@
 ---
 title: 'Detalles de diseño: Registro inventario | Documentos de Microsoft'
-description: Cada transacción de inventario, como un albarán de compra o un albarán de venta, registra dos movimientos de distintos tipos.
+description: 'Cada transacción de inventario, como un albarán de compra o un albarán de venta, registra dos movimientos de distintos tipos.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f2265c8b447fa20d177b89cabf773a04aad31926
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513075"
 ---
-# <a name="design-details-inventory-posting"></a>Detalles de diseño: Registro de inventario
+# Detalles de diseño: Registro de inventario
 
 Cada transacción de inventario, como un albarán de compra o un albarán de venta, registra dos movimientos de distintos tipos.  
 
@@ -33,26 +27,26 @@ Cada transacción de inventario, como un albarán de compra o un albarán de ven
 
  ![Flujo de entrada al reconciliar el inventario con C/G.](media/design_details_inventory_costing_1_entry_flow.png "Flujo de entrada al reconciliar el inventario con C/G")  
 
-## <a name="example"></a>Ejemplo:
+## Ejemplo:
 
 En el ejemplo siguiente se muestra cómo los movimientos de producto, los movimientos de valoración y los movimientos de liquidación de producto dan como resultado movimientos de contabilidad.  
 
  Registra un pedido de compra como recibido y facturado para 10 productos con un coste unitario directo de 7 DL y una tasa de costes generales de 1 DL. La fecha de registro es 01-01-20. Se crean los siguientes registros:  
 
-### <a name="item-ledger-entries-1"></a>Movimientos contables de producto (1)
+### Movimientos contables de producto (1)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Cantidad|Nº mov.|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Compra|80,00|10|1|  
 
-### <a name="value-entries-1"></a>Movimientos de valor (1)
+### Movimientos de valor (1)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Nº mov. producto|Nº mov.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Coste directo|70.00|1|1|  
 |01-01-20|Coste indirecto|10.00|1|2|  
 
-### <a name="item-application-entries-1"></a>Movimientos de liquidación de producto (1)
+### Movimientos de liquidación de producto (1)
 
 |Nº mov.|Nº movimiento contable de producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -60,19 +54,19 @@ En el ejemplo siguiente se muestra cómo los movimientos de producto, los movimi
 
  A continuación, registre una venta de 10 unidades del producto con una fecha de registro de 15-01-20.  
 
-### <a name="item-ledger-entries-2"></a>Movimientos contables de producto (2)
+### Movimientos contables de producto (2)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Cantidad|Nº mov.|  
 |------------|----------|--------------------|--------|---------|  
 |15-01-20|Venta|-80,00|-10|2|  
 
-### <a name="value-entries-2"></a>Movimientos de valor (2)
+### Movimientos de valor (2)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Nº movimiento contable de producto|Nº mov.|  
 |------------|----------|--------------------|---------------------|---------|  
 |15-01-20|Coste directo|-80,00|2|3|  
 
-### <a name="item-application-entries-2"></a>Movimientos de liquidación de producto (2)
+### Movimientos de liquidación de producto (2)
 
 |Nº mov.|Nº movimiento contable de producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -84,7 +78,7 @@ Al final del periodo contable se ejecuta el trabajo por lotes de **Registro vari
 
  En las tablas siguientes se muestra el resultado de conciliar las transacciones de inventario en este ejemplo con la contabilidad.  
 
-### <a name="value-entries-3"></a>Movimientos de valor (3)  
+### Movimientos de valor (3)  
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Coste regis. en contab.|Nº mov. producto|Nº mov.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -92,7 +86,7 @@ Al final del periodo contable se ejecuta el trabajo por lotes de **Registro vari
 |01-01-20|Coste indirecto|10.00|10.00|1|2|  
 |15-01-20|Coste directo|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-3"></a>Movimientos de contabilidad (3)
+### Movimientos de contabilidad (3)
 
 |Fecha reg.|Cuenta|Nº cuenta (demostración En-US)|Importe|Nº mov.|  
 |------------|-----------|------------------------|------|---------|  
@@ -110,7 +104,7 @@ Al final del periodo contable se ejecuta el trabajo por lotes de **Registro vari
 
  La relación entre los movimientos de valoración y los movimientos de contabilidad se almacena en la tabla **Relación movs. productos - C/G**  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Movimientos de relación en C/G: tabla Relación movs. productos (3)
+### Movimientos de relación en C/G: tabla Relación movs. productos (3)
 
 |Nº mov. contabilidad|Nº mov. valor|Nº asto. registro|  
 |-------------|---------------|----------------|  
@@ -121,13 +115,13 @@ Al final del periodo contable se ejecuta el trabajo por lotes de **Registro vari
 |5|3|1|  
 |6|3|1|  
 
-## <a name="assembly-and-production-posting"></a>Registro del ensamblado y de producción
+## Registro del ensamblado y de producción
 
 La capacidad y los movimientos de recursos representan el tiempo registrado como consumido en producción o en ensamblado. Estos costes de proceso se registran como movimientos de valoración en la contabilidad junto con los costes de materiales relacionados en una estructura similar a la descrita para los movimientos de producto en este tema.  
 
 Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
  [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)  

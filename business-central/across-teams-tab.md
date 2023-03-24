@@ -8,15 +8,10 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/04/2022
 ms.custom: bap-template
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab
-ms.openlocfilehash: cff1392b0e4ae622819fa50d4eaf69b98a9a1a52
-ms.sourcegitcommit: bef166d75d656f4cc516f5f9a85227e540630344
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "9748407"
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
-# <a name="add-business-central-tab-in-microsoft-teams"></a>Agregar una pestaña de Business Central en Microsoft Teams
+
+# Agregar una pestaña de Business Central en Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -24,7 +19,7 @@ En Teams, las pestañas aparecen en la parte superior de los canales y chats, lo
 
 ![Pestañas en Teams](media/teams-tabs-border.png)
 
-## <a name="about-business-central-tabs"></a>Sobre las pestañas de Business Central
+## Sobre las pestañas de Business Central
 
 Una pestaña de [!INCLUDE [prod_short](includes/prod_short.md)] proporciona una vista enfocada de la lista y las páginas de tarjetas de [!INCLUDE [prod_short](includes/prod_short.md)]. La pestaña no muestra el cliente web completo de [!INCLUDE [prod_short](includes/prod_short.md)]. No hay borde del navegador, banner de [!INCLUDE [prod_short](includes/prod_short.md)] (por ejemplo, con Dígame, búsqueda, ayuda) o menú de navegación superior, solo el contenido de la página y sus acciones. El contenido es interactivo, lo que significa que puede seleccionar acciones y vínculos, cambiar datos y más. Está limitado a lo que ve y puede hacer por los mismos permisos asignados a su cuenta en [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -33,7 +28,7 @@ Para saber quién puede ver el contenido en una pestaña de [!INCLUDE [prod_shor
 > [!TIP]
 > ¿Es desarrollador? También puede agregar pestañas mediante programación mediante la API de Microsoft Graph. Para obtener más información, consulte [Agregar pestañas de Business Central en Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos
 
 Para agregar una pestaña de [!INCLUDE [prod_short](includes/prod_short.md)], se deben cumplir los siguientes requisitos:
 
@@ -47,7 +42,7 @@ Para ver la pestaña [!INCLUDE [prod_short](includes/prod_short.md)] que fue agr
 - Tiene una licencia de [!INCLUDE [prod_short](includes/prod_short.md)] o acceso limitado a Business Central con una sola licencia de Microsoft 365. Para obtener más información, consulte [Acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md).
 - Ha instalado la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] en Teams.
 
-## <a name="add-tab-using-recommended-content"></a>Agregar pestaña usando contenido recomendado
+## Agregar pestaña usando contenido recomendado
 
 Siga estos pasos para agregar una pestaña eligiendo qué mostrar de una lista fácilmente disponible de contenido recomendado que se basa en su centro de funciones sin salir de Teams. Para obtener más información sobre el contenido que puede elegir, consulte [¿De dónde viene el contenido recomendado?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -66,7 +61,7 @@ Siga estos pasos para agregar una pestaña eligiendo qué mostrar de una lista f
 6. Seleccione **Publicar en el canal sobre esta pestaña** para publicar automáticamente un anuncio en el canal o chat de Teams para que los participantes sepan que ha agregado esta pestaña.
 7. Seleccione **Guardar**.
 
-## <a name="add-tab-using-a-page-link"></a>Agregar pestaña usando un vínculo de página
+## Agregar pestaña usando un vínculo de página
 
 Otra forma de agregar una pestaña mediante un vínculo (URL) a la página que desea mostrar. Esta forma es útil cuando desea mostrar un registro o página de lista de [!INCLUDE [prod_short](includes/prod_short.md)] determinados que no están marcados en su centro de roles.
 
@@ -85,14 +80,14 @@ Otra forma de agregar una pestaña mediante un vínculo (URL) a la página que d
 8. Seleccione **Publicar en el canal sobre esta pestaña** para publicar automáticamente un anuncio en el canal o chat de Teams para que los participantes sepan que ha agregado esta pestaña.
 9. Seleccione **Guardar**.
 
-## <a name="add-tab-by-pinning-card-details"></a>Agregar pestaña fijando los detalles de la tarjeta
+## Agregar pestaña fijando los detalles de la tarjeta
 
 Use estos pasos para agregar una pestaña para un registro que se compartió o pegó en un canal o chat de Teams. Para obtener información sobre cómo compartir registros y vínculos de página en Teams, consulte [Compartir registros y vínculos de página en Teams](across-working-with-teams.md).
 
 1. En Teams, seleccione el botón **Detalles** en la tarjeta.
 2. En la esquina superior derecha de los detalles de la tarjeta, seleccione el icono **Fijar en la parte superior del chat** ![Icono de fijar para agregar la pestaña Teams en Business Central](media/pin-teams.png).
 
-## <a name="change-a-tab-and-its-content"></a>Cambiar una pestaña y su contenido
+## Cambiar una pestaña y su contenido
 
 Después de agregar una pestaña, puede realizar ciertos cambios en la pestaña. Por ejemplo, puede cambiar el nombre de la pestaña, moverla y eliminarla. Puede encontrar estas acciones en las opciones de la pestaña que están disponibles al seleccionar la flecha hacia abajo en la pestaña.
 
@@ -102,7 +97,7 @@ En cuanto al contenido de una pestaña, puede modificar los datos, si tiene perm
 
 También puede cambiar su vista de la página y sus datos, como ordenar y cambiar el diseño entre vistas de lista e icono. Cuando realiza este tipo de cambios, no afectarán lo que ven los demás. Verán lo que publicó originalmente, hasta que ellos mismos hagan cambios similares.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  

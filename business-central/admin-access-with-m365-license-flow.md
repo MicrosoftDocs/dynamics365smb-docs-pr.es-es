@@ -8,15 +8,9 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: d20384149854161588df50af9e8d92af78e16fa1
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9745030"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="user-access-flow-for-microsoft-365-licenses"></a>Flujo de acceso de usuario para licencias de Microsoft 365
+# Flujo de acceso de usuario para licencias de Microsoft 365
 
 Este artículo describe lo que sucede cuando un usuario accede a los datos de Business Central usando su licencia de Microsoft 365 por primera vez. Comprender este flujo permite a los administradores planificar su enfoque y configurar Business Central para satisfacer sus necesidades comerciales.
 
@@ -34,7 +28,7 @@ La cuenta de usuario ahora está registrada en Business Central y se puede admin
 > [!NOTE]
 > Los pasos pueden variar según cualquier configuración de seguridad adicional que haya especificado en Microsoft 365 o Business Central.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
 [Configurar acceso con licencias de Microsoft 365](admin-access-with-m365-license-setup.md)  

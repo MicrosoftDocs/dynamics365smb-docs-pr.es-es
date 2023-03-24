@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: direct posting, general ledger
-ms.search.form: 39, 251
+ms.search.keywords: 'direct posting, general ledger'
+ms.search.form: '39, 251'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cf61b53db298f4c133a3e733e4bb95d3506af05a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517529"
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Registrar transacciones directamente en la contabilidad
+# Registrar transacciones directamente en la contabilidad
 
 Puede usar diarios generales para registrar transacciones financieras directamente en cuentas generales y otras cuentas, como cuentas bancarias, de cliente, proveedor y empleado.  
 
@@ -27,7 +21,7 @@ Los diarios generales registran las transacciones financieras directamente en cu
 
 A diferencia de los movimientos que se registran en documentos, que requieren un proceso de abono, puede revertir correctamente los movimientos que se registran con el diario general. Para obtener más información, vea [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Para registrar una transacción directamente en una cuenta contable
+## Para registrar una transacción directamente en una cuenta contable
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado.
 2. Abra la sección del diario general correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
@@ -41,7 +35,7 @@ A diferencia de los movimientos que se registran en documentos, que requieren un
     > Si desea introducir varias líneas de transacción sobre una línea de cuenta de contrapartida, por ejemplo, de una cuenta bancaria, seleccione la casilla de verificación **Sugerir importe de compensación** en la línea de la sección en la página **Secciones diario general**. El campo **Importe** de la línea de la cuenta de contrapartida se rellena previamente de forma automática con el valor que se requiere para compensar las transacciones.
 5. Seleccione la acción **Registrar** para registrar las transacciones en las cuentas contables especificadas.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)  

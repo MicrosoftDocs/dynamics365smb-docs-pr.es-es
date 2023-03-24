@@ -1,27 +1,21 @@
 ---
 title: Cómo copiar productos existentes en productos nuevos
-description: Al añadir un nuevo producto, para ahorrar tiempo, puede utilizar la función Copiar producto para copiar un producto existente y utilizarlo como plantilla para un nuevo producto.
+description: 'Al añadir un nuevo producto, para ahorrar tiempo, puede utilizar la función Copiar producto para copiar un producto existente y utilizarlo como plantilla para un nuevo producto.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130301"
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Copiar productos existentes para crear productos nuevos
+# Copiar productos existentes para crear productos nuevos
 
 Al añadir un nuevo producto, para ahorrar tiempo, puede utilizar la función **Copiar producto** para copiar un producto existente y utilizarlo como plantilla para un nuevo producto.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Para copiar un producto existente en un producto nuevo
+## Para copiar un producto existente en un producto nuevo
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. Seleccione el producto que desea copiar y elija la acción **Copiar producto**.  
@@ -35,7 +29,7 @@ Al añadir un nuevo producto, para ahorrar tiempo, puede utilizar la función **
 
 4. Para copiar las selecciones en el nuevo producto, seleccione el botón **Aceptar**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Configurar inventario](inventory-setup-inventory.md)  

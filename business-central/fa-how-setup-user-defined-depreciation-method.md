@@ -1,20 +1,15 @@
 ---
 title: Configurar método de amortización definido por el usuario
-description: En Business Central, puede aplicar un método de amortización definido por el usuario para definir el método de amortización de su activo en la página Ficha activo.
+description: 'En Business Central, puede aplicar un método de amortización definido por el usuario para definir el método de amortización de su activo en la página Ficha activo.'
 author: jill-kotel-andersson
 ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 517c3cdb51762c3c0fadcf29ff1ad6dbf949f971
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144988"
 ---
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Configurar activos fijos con métodos de amortización definidos por el usuario
+
+# Configurar activos fijos con métodos de amortización definidos por el usuario
 
 Puede usar [!INCLUDE[prod_short](includes/prod_short.md)] para configurar métodos de amortización definidos por el usuario como se describe aquí.
 
@@ -28,7 +23,7 @@ La fórmula para calcular los importes de amortización es:
 > [!NOTE]  
 > Mientras que la fecha en el campo **1ª fecha amort. def.-usuario** se utiliza para determinar los intervalos de tiempo, se utiliza **Fecha inicio amortización** para determinar el número de días de amortización. Si la **1ª fecha amort. def.-usuario** es anterior a la **Fecha inicio amortización**, el porcentaje del primer periodo de la tabla de amortización solo se usará parcialmente cuando el programa calcule la primera amortización. Es decir, el activo no estará totalmente amortizado cuando se llegue al final del último periodo.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Para asignar un libro de amortización a un activo fijo con un método de amortización definido por el usuario
+## Para asignar un libro de amortización a un activo fijo con un método de amortización definido por el usuario
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Activos fijos** y luego elija el enlace relacionado.
 2. Seleccione el activo fijo para el que desee configurar un libro de amortización de activos fijos.
@@ -41,7 +36,7 @@ La fórmula para calcular los importes de amortización es:
 7. Cuando utiliza un método definido por el usuario, el campo **1ª fecha amort. def.-usuario** debe establecerse en una fecha que sea igual o anterior a la del campo **Fecha inicio amortización**. Si ha seleccionado un valor en el campo **Longitud del periodo** de la tabla de amortización, la fecha del campo **1ª fecha amort. def.-usuario** debe ser la fecha inicial de un periodo contable.
 8. Complete el campo **Nº años amortización** o el campo **Fecha final amortización**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods"></a>Para configurar métodos de amortización definidos por usuario
+## Para configurar métodos de amortización definidos por usuario
 
 En la página **Tabla amortización**, puede configurar métodos de amortización definidos por el usuario. Por ejemplo, puede configurar la amortización según el número de unidades.  
 
@@ -61,11 +56,11 @@ Suma de dígitos = 1 + 2 + 3 + 4 = 10 de amortización:
 * Año 3 = 2/10  
 * Año 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units"></a>Amortización según el número de unidades
+### Amortización según el número de unidades
 
 Este método definido por el usuario también se puede utilizar para amortizar según el número de unidades, por ejemplo, en el caso de máquinas de producción con una capacidad de vida establecida. En la página **Tablas amortización**, puede introducir el número de unidades que pueden producirse en cada periodo (mes, trimestre, año o periodo contable).  
 
-### <a name="example---user-defined-depreciation"></a>Ejemplo: amortización definida por el usuario
+### Ejemplo: amortización definida por el usuario
 
 Por motivos de impuestos puede utilizar un método amortización que le permita amortizar activos de forma acelerada.  
 
@@ -98,7 +93,7 @@ En el ejemplo anterior, ambos campos **Primera fecha de amortización definida p
 | 31/12/24 |Amortización |Ninguno |Ninguno |0 |
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Configurar activos fijos](fa-setup.md)  
 [Activos fijos](fa-manage.md)  
 [Configurar la amortización de los activos fijos](fa-how-setup-depreciation.md)  

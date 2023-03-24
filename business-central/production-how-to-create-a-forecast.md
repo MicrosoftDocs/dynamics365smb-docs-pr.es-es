@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9245, 99000919, 99000921, 99000922
+ms.search.form: '9245, 99000919, 99000921, 99000922'
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512919"
 ---
-# <a name="create-a-demand-forecast"></a>Crear una previsión de la demanda
+# Crear una previsión de la demanda
 
 Es posible crear previsiones de ventas y producción desde la página la lista **Previsiones de la demanda**. Luego, para cada pronóstico, especifique varias configuraciones para ese pronóstico en la página **Descripción general de la previsión de la demanda**.  
 
@@ -26,7 +20,7 @@ Mediante la previsión, la empresa puede crear escenarios hipotéticos y planifi
 
 Con el lanzamiento de versiones 1 de 2022, también puede definir el nivel correcto de detalles en los campos **Pronóstico por ubicación** y **Pronóstico por variante** en la página **Descripción general de la previsión de la demanda**. Los filtros y otros ajustes se almacenan en la tabla **Nombre de previsión de demanda**. Para que pueda detenerse fácilmente y continuar su trabajo más tarde. Si su organización se ha actualizado al lanzamiento de versiones 1 de 2022, debe activar la nueva experiencia en la página [Gestión de características](admin-feature-management.md).  
 
-## <a name="sales-forecasts-and-production-forecasts"></a>Previsiones de ventas y previsiones de producción
+## Previsiones de ventas y previsiones de producción
 
 La funcionalidad de previsión de la aplicación se puede usar para crear previsiones de ventas o de producción, juntas o por separado. Por ejemplo, casi todas las empresas que fabrican contra pedido no disponen de existencias de productos terminados, porque cada producto se fabrica cuando se pide. La previsión de pedidos (previsión de ventas) es esencial para lograr unos plazos de producción de los productos terminados razonables (previsión de producción). Por ejemplo, si las piezas de los componentes tienen tiempos de entrega muy largos, y no están pedidas o en existencias, pueden retrasar la producción.  
 
@@ -44,21 +38,21 @@ La previsión está formada por una serie de registros, cada uno de los cuales d
 
 Debe calificar una previsión como de *Producto venta*, *Componente* o *Ambos*. El tipo de previsión *Producto venta* se usa en la previsión de ventas. La previsión de producción se crea con el tipo *Componente*. El tipo de previsión *Ambos* sólo se usa para ofrecer al responsable de la planificación una visión general de las previsiones de ventas y de producción. Con esta opción, los movimientos de previsión no se pueden modificar. Mediante la calificación de estos tipos de previsión aquí, puede usar la misma hoja para introducir una previsión de ventas de la misma forma que se introduce una previsión de producción, y usar la misma hoja para ver las dos previsiones a la vez. Tenga en cuenta que el sistema trata los dos tipos de información (ventas y producción) de distinta forma al calcular la planificación, en función de la configuración del producto, la fabricación y la producción.  
 
-## <a name="component-forecast"></a>Previsión de componentes
+## Previsión de componentes
 
 La previsión de componentes es una previsión en relación con un producto principal. Puede resultar útil, por ejemplo, si el responsable de la planificación puede estimar la demanda del componente.  
 
 Dado que la previsión de componentes está diseñada para definir las opciones de un producto principal, debe ser igual a o menor que la cantidad prevista del producto de venta. Si la previsión de componentes es mayor que la previsión del producto de venta, el programa considera la diferencia entre los dos tipos de previsión como demanda independiente.  
 
-## <a name="forecasting-periods"></a>Periodos de previsión
+## Periodos de previsión
 
 El periodo de previsión es válido desde la fecha de inicio hasta la fecha de inicio de la siguiente previsión. La página de intervalo de tiempo proporciona muchas opciones para insertar la demanda en una fecha concreta del periodo. Por ello, es aconsejable no cambiar el periodo de previsión salvo que se desee llevar todos los movimientos a la fecha de inicio de este periodo.  
 
-## <a name="forecast-by-locations"></a>Previsión por ubicación
+## Previsión por ubicación
 
 En la página **Configuración de fabricación** puede especificar cómo desea considerar con las ubicaciones que se definen en las previsiones cuando calcula planes. 
 
-### <a name="use-forecast-by-locations"></a>User previsiones por almacenes
+### User previsiones por almacenes
 
 Si activa la opción **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] respetará los códigos de ubicación especificados para cada entrada de previsión de demanda y calculará la previsión restante para cada ubicación.  
 
@@ -75,7 +69,7 @@ Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. E
 > [!NOTE]  
 > Si las previsiones en función de las ubicaciones se observan por separado, la previsión global podría no ser representativa.
 
-### <a name="do-not-use-forecast-by-locations"></a>No use previsiones por almacenes
+### No use previsiones por almacenes
 
 Si desactiva la opción **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] ignorará los códigos de ubicación especificados para cada entrada de Previsión de demanda y agregará las previsiones en una previsión para ubicaciones vacías.  
 
@@ -92,7 +86,7 @@ Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. E
 > [!NOTE]  
 > Puede establecer un filtro por ubicaciones, pero es posible que los resultados basados en la ubicación no coincidan con los resultados de la planificación sin filtros.
 
-## <a name="to-create-a-demand-forecast"></a>Para crear una previsión de la demanda
+## Para crear una previsión de la demanda
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Previsión de demanda**, y luego elija el enlace relacionado.  
 2. Seleccione una previsión en el campo **Nombre previsión demanda** de la ficha desplegable  **General**. Puede haber varias previsiones, que se distinguen por el nombre y el tipo de previsión.  
@@ -110,7 +104,7 @@ Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. E
 > [!NOTE]  
 > También se puede editar una previsión existente. Haga clic en la página **Matriz de previsión de la demanda**, seleccione la acción **Copiar previsión de la demanda** y rellene la página **Previsión de la demanda** con una previsión existente. Es posible realizar modificaciones a las cantidades según sea pertinente.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)

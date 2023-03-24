@@ -7,14 +7,9 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 03/23/2022
-ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512495"
 ---
-# <a name="handling-missing-option-values"></a>Administración de valores de opciones que faltan
+
+# Administración de valores de opciones que faltan
 > [!NOTE]
 > En el primer lanzamiento de versiones de 2022, puede crear sus propias asignaciones de opciones. Para obtener más información, consulte [Personalización de asignaciones de opciones con Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Las nuevas capacidades requieren que su administrador habilite **Actualización de características: Asignación a conjuntos de opciones en Dataverse sin código** en la página **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -87,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Todas las enumeraciones [!INCLUDE[prod_short](includes/prod_short.md)] anteriores se asignan a conjuntos de opciones de [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-prod_short"></a>Extensión de conjuntos de opciones en [!INCLUDE[prod_short](includes/prod_short.md)]
+### Extensión de conjuntos de opciones en [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Cree una nueva extensión AL.
 
 2. Agregue una extensión Enum para las opciones que desea extender. Asegúrese de usar el mismo valor. 
@@ -109,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Los primeros diez caracteres de los nuevos nombres de valores de opciones y títulos deben ser únicos. Por ejemplo, dos opciones llamadas "Transferir 20 días hábiles" y "Transferir 20 días naturales" causarán un error porque ambos tienen los mismos 10 primeros caracteres, "Transferir 2". Nómbrelos, por ejemplo, "TRF20 DH" y "TRF20 DN".
 
-### <a name="update-prod_short-option-mapping"></a>Actualizar la asignación de opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### Actualizar la asignación de opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Ahora puede recrear la asignación entre las opciones [!INCLUDE[prod_short](includes/cds_long_md.md)] y los registros [!INCLUDE[prod_short](includes/prod_short.md)].
 
 En la página **Asignación de tablas de integración**, elija la línea para la asignación **Condiciones de pago** y luego elija la acción **Sincronizar registros modificados**. La página **Asignación de opciones de Dataverse** se actualiza con los registros adicionales siguientes.
@@ -145,7 +140,7 @@ La tabla **Condiciones de pago** de [!INCLUDE[prod_short](includes/prod_short.md
 | *NET60*      |                      |                           | 0.         | FALSE                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | FALSE                         |                   |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Asignación de tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

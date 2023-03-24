@@ -6,24 +6,19 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 3c631e0285e0fdc6db5bf70cd0f5167741f602f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525146"
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Tutorial: Crear una nueva L.M. de producción y una versión de L.M.
+
+# Tutorial: Crear una nueva L.M. de producción y una versión de L.M.
 
 En este artículo, le guiaremos por los pasos para usar los datos de demostración de Contoso Coffee para trabajar con listas de materiales (L.M) en procesos de producción.  
 
-## <a name="scenario"></a>Caso
+## Caso
 
 Contoso Coffee ha decidido agregar otra cafetera a su línea de producto: **SP-SCM1008 Airpot Lite**. Esta cafetera es idéntica al artículo existente **SP-SCM1009 Airpot**, excepto que no incluye la placa de calentamiento, **SP-BOM1104**. En un paso separado, la luz de encendido/apagado, **SP-BOM1106** se elimina para una versión de la L.M. de Airpot Lite.
 
 Oscar, el ingeniero de procesos de Contoso Coffee, debe configurar una nueva L.M. de producción para definir los requisitos de componentes iniciales para Airpot Lite. A continuación, debe configurar una nueva versión de L.M., con una fecha de inicio del 1 de julio, para alinearse con los planes del lanzamiento de otra edición.
 
-## <a name="steps"></a>Pasos
+## Pasos
 
 1. Cree una nueva L.M. de producción para Airpot Lite.
 
@@ -78,6 +73,6 @@ Oscar, el ingeniero de procesos de Contoso Coffee, debe configurar una nueva L.M
 
 La nueva cafetera ahora está configurada como una L.M. de producción con una versión.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Introducción a datos de demostración de Contoso Coffee](contoso-coffee-intro.md)  

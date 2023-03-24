@@ -10,14 +10,8 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 09/22/2022
 ms.author: kepontop
-ms.openlocfilehash: 4ae58b37d42d501142ebfa617da79266d5d8a9b1
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607866"
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Descripción general de Inteligencia empresarial e informes
+# Descripción general de Inteligencia empresarial e informes
 
 Las pequeñas y medianas empresas se basan en capacidades de análisis e informes integrados que pueden usar de inmediato como ayuda para realizar un seguimiento de su negocio. [!INCLUDE[prod_short](includes/prod_short.md)] admite procesos comerciales comunes, así como procesos más complejos para dichas organizaciones. Cada uno de estos procesos incluye heramientas de informes y análisis. También puede realizar análisis ad-hoc directamente desde su página principal.  
 
@@ -32,9 +26,9 @@ La siguiente tabla cubre la funcionalidad de inteligencia empresarial y de infor
 | Integre herramientas de inteligencia de negocios externas con [!INCLUDE[prod_short](includes/prod_short.md)].| [Herramientas de inteligencia empresarial externas](reports-external-analysis.md) |
 |Modifique diseños de informes o incluso desarrolle sus propios informes desde cero. |[Desarrollo de informes](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training"></a>Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
+## Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

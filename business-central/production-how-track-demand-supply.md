@@ -1,28 +1,22 @@
 ---
 title: Realizar un seguimiento de las relaciones entre demanda y suministro
-description: Este tema explica las diferentes formas de realizar un seguimiento de las relaciones entre la oferta y la demanda, como el seguimiento de elementos vinculados y el tratamiento de elementos de planificación sin seguimiento.
+description: 'Este tema explica las diferentes formas de realizar un seguimiento de las relaciones entre la oferta y la demanda, como el seguimiento de elementos vinculados y el tratamiento de elementos de planificación sin seguimiento.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5830, 9101, 99000822, 99000855
+ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 377f0af230bd1a1d77bcbc303a9b5cdefcb42ca6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517874"
 ---
-# <a name="track-relations-between-demand-and-supply"></a>Realizar un seguimiento de las relaciones entre demanda y suministro
+# Realizar un seguimiento de las relaciones entre demanda y suministro
 
 Desde cualquier documento de suministro o demanda de la llamada red de pedidos, puede efectuar el seguimiento de la demanda de pedido (cantidad seguida), previsión, pedido de ventas abierto o parámetro de planificación (cantidad no seguida) que ha dado lugar a la línea de planificación en cuestión.
 
 Las hojas de planificación también presentan información de planificación complementaria, acerca de entidades sin pedidos para ayudar al planificador a elaborar un plan de suministro óptimo. Para obtener más información, consulte [Elementos de planificación sin seguimiento](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## <a name="to-track-linked-items"></a>Para seguir productos relacionados
+## Para seguir productos relacionados
 El seguimiento de pedidos muestra cómo se relacionan los pedidos de venta, las órdenes de producción y los pedidos de compra con las órdenes de fabricación en los sistemas de planificación y reservas.
 
 A continuación se describe cómo seguir productos asociados en una orden de producción planificada en firme. Los pasos son parecidos a los de todos los tipos de pedidos y planificación de las líneas de hoja de trabajo.
@@ -33,7 +27,7 @@ A continuación se describe cómo seguir productos asociados en una orden de pro
 
 Las líneas de **Seguimiento de pedido** muestran los documentos que están relacionados con la línea de pedido de producción actual.
 
-## <a name="untracked-planning-elements"></a>Elementos planificación sin seguimiento
+## Elementos planificación sin seguimiento
 Se abre la página **Elementos de planificación sin seguimiento** cuando elige el campo **Cantidad sin seguimiento** en la página **Planificación de pedidos**. Responde a dos propósitos:
 
 1. Albergar información sobre cantidades sin seguimiento que se muestran cuando el usuario busca desde la página Seguimiento pedido las cantidades sin seguimiento.
@@ -52,7 +46,7 @@ La página contiene entradas que contabilizan la cantidad de excedentes sin segu
 - Múltiplos de pedido
 - Amort. (% tamaño lote)
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Planificación](production-planning.md)   
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    

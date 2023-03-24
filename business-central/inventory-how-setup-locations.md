@@ -1,23 +1,17 @@
 ---
 title: Configurar una ficha de almacén y definir las rutas de transferencia (contiene vídeo)
-description: Si compra, almacena o vende productos en más de un lugar, puede configurar cada lugar como una ubicación.
+description: 'Si compra, almacena o vende productos en más de un lugar, puede configurar cada lugar como una ubicación.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, distribution center
-ms.search.forms: 5703, 15
+ms.search.keywords: 'warehouse, distribution center'
+ms.search.forms: '5703, 15'
 ms.date: 07/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 882c7c0506439aba55d5b1c2d0cc23bd79db9d6e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605812"
 ---
-# <a name="set-up-locations"></a>Configurar ubicaciones
+# Configurar ubicaciones
 
 Las ubicaciones son lugares como almacenes donde compra, almacena o vende artículos. [!INCLUDE [prod_short](includes/prod_short.md)] utiliza ubicaciones para ayudar a realizar un seguimiento del inventario tanto en los casos simples como en los procesos de almacén complejos.
 
@@ -26,7 +20,7 @@ Así podrá crear las líneas de documento para un almacén específico, consult
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Fichas de almacén
+## Fichas de almacén
 
 Debe especificar la información sobre ubicaciones, como un almacén o un centro de distribución, en la **Tarjeta de almacén**. Proporcione un nombre y un código que represente a cada almacén. A continuación, puede introducir el código de almacén en otras partes del sistema cuando desee registrar transacciones de un almacén determinado.  
 
@@ -36,7 +30,7 @@ Algunos campos de opción dependen de la configuración de la página **Tarjeta 
 
 Seleccione las acciones **Zonas** o **Ubicaciones** para ver información acerca de las zonas y ubicaciones que están definidas para el almacén.
 
-### <a name="to-set-up-a-location"></a>Para configurar un almacén
+### Para configurar un almacén
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
@@ -50,7 +44,7 @@ Puede cambiar la configuración de una ubicación siempre que no tenga movimient
 
 Si tiene varios almacenes, puede definir rutas de transferencia entre almacenes. Para obtener más información, consulte [Para crear una ruta de transferencia](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Para crear una ruta de transferencia
+### Para crear una ruta de transferencia
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Rutas de transferencia** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
@@ -58,7 +52,7 @@ Si tiene varios almacenes, puede definir rutas de transferencia entre almacenes.
 
 Ahora puede transferir productos de inventario entre dos almacenes. Para obtener más información, vea [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md).    
 
-## <a name="bins"></a>Ubicaciones
+## Ubicaciones
 
 Las ubicaciones representan la estructura básica del almacén y pueden sugerir dónde colocar los productos. Sus ubicaciones pueden tener contenido o ser ubicaciones flotantes sin contenido específico. 
 
@@ -67,17 +61,17 @@ Para utilizar la funcionalidad de ubicación en un almacén, en la página **Fic
 > [!NOTE]
 > Para poder especificar los códigos de ubicación en un almacén, deben crearlos. Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md) y [Configurar tipos de ubicación](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Zonas
+## Zonas
 
 Si desea estructurar sus ubicaciones en zonas, puede hacerlo en la página **Zonas**. Cuando asigna una zona a las ubicaciones, [!INCLUDE [prod_short](includes/prod_short.md)] copia la información de la zona a las ubicaciones. También puede optar por configurar una zona y usar ubicaciones solas para organizar su almacén. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Dimensiones predeterminadas para ubicaciones
+## Dimensiones predeterminadas para ubicaciones
 
 Establece las dimensiones predeterminadas para una ubicación en la página **Tarjeta de ubicación** eligiendo **Dimensiones**. Posteriormente, las dimensiones predeterminadas de la ubicación se asignan a los documentos cuando elige la ubicación en una línea. Si es necesario, puede eliminar o cambiar la dimensión en la línea. En el campo **Registro de valor**, puede solicitar que las personas especifiquen dimensiones para ubicaciones específicas antes de que puedan publicar una entrada. Si desea permitir que las personas elijan solo ciertos valores de dimensión, puede especificarlos en el campo **Filtro valores permitidos**. También puede incluir valores de dimensión de ubicación en la página **Prioridades de dimensión predeterminadas** y en la página **Combinaciones de dimensiones** para combinaciones de reglas de prioridad y dimensión.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)  

@@ -5,23 +5,18 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
-ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
+ms.search.form: '30100, 30101, 30102, 30103, 30104, 30135,'
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: bc3c5769a100909faedbfacce58bb1a2b146f5ad
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802989"
 ---
-# <a name="get-started-with-the-shopify-connector"></a>Comenzar con el conector de Shopify
+
+# Comenzar con el conector de Shopify
 
 Conecte su tienda (o tiendas) de Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)] y maximice la productividad de su negocio. Administre y vea información de su negocio y su tienda de Shopify como una unidad.
 
 Para usar Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)], debe a hacer algunas cosas primero. Este artículo sirve como guía para integrar su tienda de Shopify con [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## <a name="prerequisites-for-shopify"></a>Requisitos previos para Shopify
+## Requisitos previos para Shopify
 
 Debe tener:
 
@@ -30,7 +25,7 @@ Debe tener:
 
 Para más información sobre cómo crear pruebas y configuraciones recomendadas de Shopify, vaya a [Creación y configuración de la cuenta de Shopify](shopify-account.md).
 
-## <a name="prerequisites-for-business-central"></a>Requisitos previos para Business Central
+## Requisitos previos para Business Central
 
 - Asegúrese de que la aplicación **[Connector de Shopify](https://go.microsoft.com/fwlink/?linkid=2196238)** esté instalada.
 
@@ -39,7 +34,7 @@ Para más información sobre cómo crear pruebas y configuraciones recomendadas 
 - Asegúrese de que el usuario tenga suficientes permisos. Shopify Connector está cubierto por el conjunto de permisos *Shopify – Admin (SHPFY – ADMIN)*. Obtenga más información en [Crear usuarios según las licencias](../ui-how-users-permissions.md) y [Asignar permisos a usuarios y grupos](../ui-define-granular-permissions.md)
 
 
-## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>Instalar la aplicación Dynamics 365 Business Central para su tienda en línea de Shopify
+## Instalar la aplicación Dynamics 365 Business Central para su tienda en línea de Shopify
 
 Por [!INCLUDE[prod_short](../includes/prod_short.md)] existentes, este paso es opcional y se puede omitir.
 
@@ -51,7 +46,7 @@ Por [!INCLUDE[prod_short](../includes/prod_short.md)] existentes, este paso es o
 4. Elija **Registrarse ahora** para empezar la prueba de [!INCLUDE[prod_short](../includes/prod_short.md)] o **Iniciar sesión** si ya tiene [!INCLUDE[prod_short](../includes/prod_short.md)]. Se le redirigirá a su página en [Business Central](https://businesscentral.dynamics.com).
 5. Los siguientes pasos deben hacerse en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="connect-business-central-to-the-shopify-online-store"></a>Conectar Business Central a la tienda en línea de Shopify
+## Conectar Business Central a la tienda en línea de Shopify
 
 1. Elija la ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tienda de Shopify** y luego elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.  
@@ -62,14 +57,14 @@ Por [!INCLUDE[prod_short](../includes/prod_short.md)] existentes, este paso es o
 
 Repita los pasos 2 a 6 para todas las tiendas en línea que desee conectar.
 
-### <a name="known-issues"></a>Problemas conocidos
+### Problemas conocidos
 
 - El navegador bloquea la ventana emergente. Cuando activa la opción **Activado** el sistema abre la página **En espera de una respuesta - no cierre esta página**, que está esperando un token de acceso de Shopify, si esa página está cerrada o bloqueada, no puede conectarse a Shopify. Obtenga más información en [Solicitar el token de acceso](troubleshoot.md#request-the-access-token)
 - [Error invalid_request de Oauth: No se pudo encontrar Aplicación API de Shopify con api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [No se puede conectar desde el espacio aislado](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
 
 
-## <a name="next-steps"></a>Pasos siguientes
+## Pasos siguientes
 
 Ahora su tienda en línea está conectada a [!INCLUDE[prod_short](../includes/prod_short.md)]. En los siguientes pasos, definirá cómo y qué sincronizar.
 
@@ -77,7 +72,7 @@ Ahora su tienda en línea está conectada a [!INCLUDE[prod_short](../includes/pr
 - [Sincronizar clientes](synchronize-customers.md)
 - [Sincronizar pedidos](synchronize-orders.md)
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Tutorial: Configurar y usar el Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
 

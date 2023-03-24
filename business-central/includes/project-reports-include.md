@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ffe86add3d3a5124befe782548ab57365ee6ea2a
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334777"
 ---
+
 La siguiente tabla describe algunos de los informes clave en los informes de proyectos.
 
 | Informe | Descripción | Id. | 

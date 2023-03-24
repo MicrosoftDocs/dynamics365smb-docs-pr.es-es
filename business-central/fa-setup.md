@@ -1,23 +1,17 @@
 ---
 title: Configuración de activos fijos
-description: Obtenga información sobre la secuencia de tareas que debe realizar para configurar activos fijos, como maquinaria o edificios.
+description: 'Obtenga información sobre la secuencia de tareas que debe realizar para configurar activos fijos, como maquinaria o edificios.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d537d22d3273c2185016904779eab0ff030d201
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530249"
 ---
-# <a name="setting-up-fixed-assets"></a>Configurar activos fijos
+# Configurar activos fijos
 
 Antes de trabajar con activos fijos, debe definir algunos parámetros:  
 
@@ -42,9 +36,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Conocer varios métodos de amortización de activos fijos. |[Métodos de depreciación](fa-depreciation-methods.md) |
 | Obtenga información sobre cómo aplicar métodos de amortización definidos por el usuario. |[Configurar métodos de amortización definidos por usuario](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/set-up-fixed-assets-management/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/set-up-fixed-assets-management/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  

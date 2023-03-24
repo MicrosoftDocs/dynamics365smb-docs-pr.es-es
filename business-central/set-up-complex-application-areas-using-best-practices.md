@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0ab0afa97af7c0fda88c963a585a2e1ba481dd6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516010"
 ---
-# <a name="set-up-complex-application-areas-using-best-practices"></a>Configurar áreas de aplicación complejas mediante procedimientos recomendados
+# Configurar áreas de aplicación complejas mediante procedimientos recomendados
 Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio.  
 
  Tanto si utiliza Rapid Start para implementar los valores de configuración como si los introduce manualmente en la nueva empresa, puede sustentar su decisiones de configuración con algunas recomendaciones generales para los campos de configuración seleccionados que son conocidos porque pueden provocar que la solución resulte ineficaz si están definidos forma incorrecta.  
@@ -27,7 +21,7 @@ Es importante introducir los valores de configuración correctos desde el princi
 
 -   [Procedimientos recomendados de configuración: valoración de existencias](setup-best-practices-costing-method.md)  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Detalles de diseño: planificación de aprovisionamiento](design-details-supply-planning.md)   
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

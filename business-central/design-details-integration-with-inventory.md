@@ -6,20 +6,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 58cb2222f2533e2ba952727243a5fdb830b34e75
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145893"
 ---
-# <a name="design-details-integration-with-inventory"></a>Detalles de diseño: Integración con inventario
+# Detalles de diseño: Integración con inventario
 Las áreas de aplicación de Gestión de almacén e Inventario interactúan entre sí en el inventario físico y en el ajuste de inventario o de almacén.  
   
-## <a name="physical-inventory"></a>Inventario físico  
+## Inventario físico  
  La página **Diario de inventario físico de almacén** se usa en la página **Diario inventario físico** para todas las ubicaciones de almacén avanzadas. Se calcula el inventario en el nivel de ubicación y se proporciona una lista impresa al empleado del almacén. La lista muestra los productos en los que se deben contar las ubicaciones.  
   
  El empleado de almacén introduce la cantidad contada en la página **Diario de inventario físico de almacén** y, a continuación, registra el diario.  
@@ -32,7 +26,7 @@ Las áreas de aplicación de Gestión de almacén e Inventario interactúan entr
   
  Cuando se registra el diario de inventario físico, se actualizan el inventario y la ubicación de ajuste predeterminada.  
   
-### <a name="warehouse-adjustments-to-the-item-ledger"></a>Ajustes de almacén en los movimientos de productos  
+## Ajustes de almacén en los movimientos de productos  
  Use la página **Diario de producto** y la función **Calcular ajuste almacén** para ajustar el inventario en el movimiento de producto según un ajuste que se ha realizado en la cantidad de producto en una ubicación de almacén. Para crear un vínculo entre el inventario y el almacén, debe definir una ubicación de ajuste predeterminado por ubicación.  
   
  La ubicación de ajuste predeterminado registra los productos en el almacén al registrar una entrada de existencias. No obstante, si se registra una disminución, la cantidad en la ubicación predeterminada también disminuye. En ambos casos, se crean movimientos de producto y movimientos de almacén.  
@@ -44,8 +38,8 @@ Las áreas de aplicación de Gestión de almacén e Inventario interactúan entr
   
  Si introduce una cantidad positiva y registra la línea, el inventario almacenado en la ubicación se incrementará, y la cantidad de la ubicación de ajuste predeterminada se reducirá en consecuencia.  
   
-## <a name="see-also"></a>Consulte también  
- [Detalles de diseño: Gestión de almacén](design-details-warehouse-management.md)   
- [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)
+## Consulte también  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
+[Detalles de diseño: disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

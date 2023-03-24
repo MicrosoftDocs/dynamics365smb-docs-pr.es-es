@@ -5,26 +5,21 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 1378449eccd83d89ff3df1889df469e4a27a6745
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534459"
 ---
-# <a name="business-decision-makers-learning-catalog"></a>Catálogo de aprendizaje de responsables de decisiones empresariales
+
+# Catálogo de aprendizaje de responsables de decisiones empresariales
 
 ¿Decide si invertir en nuevas tecnologías?
 
 El siguiente catálogo está organizado desde el conocimiento básico hasta dominios específicos y desde el más básico hasta el más avanzado. Si el contenido está en varios formatos, se lo haremos saber, para que pueda elegir el formato de formación que mejor se adapte a sus necesidades.  
 
-## <a name="business-value"></a>Valor de negocio<a name="busvalue"></a>
+## Valor de negocio<a name="busvalue"></a>
 
 | Contenido                                                                 | Descripción                                                                                                | Formato                                | Longitud     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Este módulo muestra características de aplicación, beneficios y ejemplos de Dynamics 365 Business Central en acción. | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 24 minutos |
 
-## <a name="getting-started"></a>Introducción<a name="get-started"></a>
+## Introducción<a name="get-started"></a>
 
 | Contenido                                                                                                                             | Descripción                                                                                                                                                                                                                                                                                      | Formato                                | Longitud             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

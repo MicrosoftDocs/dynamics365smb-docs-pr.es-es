@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1530,
+ms.search.keywords: null
+ms.search.form: '1530,'
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 60a25f6b07c4e483d06891367a679bada00d4f75
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585816"
 ---
-# <a name="view-archived-workflow-step-instances"></a>Ver instancias de paso de flujo de trabajo archivadas
+# Ver instancias de paso de flujo de trabajo archivadas
 
 Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**.  
 
@@ -26,7 +20,7 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
 > [!NOTE]
 > Para ver el historial y el estado de los flujos de trabajo usando la integración de Power Automate, elija la acción **Mis flujos** en la página **Power Automate** y, a continuación, elija un flujo para ver su historial y estado de ejecución.
 
-## <a name="to-view-archived-workflow-step-instances"></a>Para ver las instancias de paso de flujo de trabajo archivadas
+## Para ver las instancias de paso de flujo de trabajo archivadas
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el vínculo relacionado.  
 2. Abra el flujo de trabajo del que desea ver todas las instancias de paso de flujo de trabajo archivadas.  
@@ -37,7 +31,7 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
 
    Se abre la página **Instancias de paso de flujo de trabajo archivadas** para mostrar todas las instancias de paso de flujo de trabajo archivadas. En el campo **Código flujo de trabajo** puede ver a qué flujo de trabajo pertenecía la instancia de paso de flujo de trabajo archivada.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Eliminar flujos de trabajo de aprobación](across-how-to-delete-workflows.md)  
 [Crear flujos de trabajo de aprobación](across-how-to-create-workflows.md)  

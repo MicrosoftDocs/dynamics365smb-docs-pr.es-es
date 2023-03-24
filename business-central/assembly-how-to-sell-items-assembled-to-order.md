@@ -7,17 +7,11 @@ ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
-ms.search.keywords: kit, kitting, substitute items
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting, substitute items'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
-ms.openlocfilehash: a9c686531a813e9eaf849d30fbcb41fc4f31c696
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804478"
 ---
-# <a name="sell-items-assembled-to-order"></a>Venta de artículos ensamblados para pedido
+# Venta de artículos ensamblados para pedido
 
 Los elementos que se configuran para Ensamblar para pedido, no se espera que se encuentren en el inventario y se ensamblarán cuando se incluyan en un pedido de venta. Un artículo está configurado para ensamblado bajo pedido cuando el campo **Política de ensamblado** en la ficha del artículo contiene **Ensamblado bajo pedido**. Cuando especifique el producto en una línea de pedido de venta, automáticamente se creará un pedido de ensamblado y se vinculará al pedido de venta.  
 
@@ -34,7 +28,7 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 > [!NOTE]  
 > El procedimiento siguiente no incluye los pasos para crear un pedido de ventas estándar antes del paso donde introduce el producto de ensamblar para pedido en una línea de pedido de venta. Obtenga más información sobre cómo crear pedidos de venta en [Vender productos con un pedido de venta de cliente](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Para vender un artículo que se ensamble para pedido
+## Para vender un artículo que se ensamble para pedido
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Cree un pedido de ventas. 
@@ -66,15 +60,15 @@ En este procedimiento, procesa la venta de un producto que se ensamblará según
 > [!NOTE]  
 > Las sustituciones de productos no reemplazan un producto automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Inventario](inventory-manage-inventory.md)  
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

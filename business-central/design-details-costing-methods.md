@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519809"
 ---
-# <a name="design-details-costing-methods"></a>Detalles de diseño: Métodos de coste
+# Detalles de diseño: Métodos de coste
 
 La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.
 
@@ -46,7 +40,7 @@ Los métodos de coste varían en cuanto a la forma en que el inventario disminuy
 |Revaluación|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer solo por producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza las cantidades facturadas y no facturadas.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|  
 |Varios|Si se especifica una fecha retroactiva para una salida de existencias, las entradas existentes NO se volverán a liquidar para proporcionar un flujo correcto FIFO del coste.|Si se retrocede la fecha de una entrada o una salida del inventario, se vuelve a calcular el coste medio y se ajustan todos los registros afectados.<br /><br /> Si cambia el periodo o el tipo de cálculo, todos los registros afectados deben ajustarse.|Utilice la página **Hoja de trabajo estándar** para actualizar y distribuir periódicamente los costes estándar.<br /><br /> NO se admite por UA.<br /><br /> No existe ningún registro histórico para los costes estándar.|Puede utilizar el seguimiento de producto específico sin usar la valoración de existencias Específica. El coste NO seguirá el número de lote, sino el coste supuesto de la valoración de existencias seleccionada.|  
 
-## <a name="example"></a>Ejemplo
+## Ejemplo
 
 En esta sección se proporcionan ejemplos de cómo las distintas valoraciones de existencias afectan al valor de inventario.  
 
@@ -64,7 +58,7 @@ En la tabla siguiente se muestran las entradas y las salidas de existencias en l
 > [!NOTE]  
 > La cantidad resultante en el inventario es cero. Por tanto, el valor de inventario debe ser cero, independientemente del método de coste.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Efecto de los métodos de coste en la valoración de entrada de existencias  
+### Efecto de los métodos de coste en la valoración de entrada de existencias  
 
 En el caso de productos con métodos de coste que utilizan el coste real como base de valoración (**FIFO**, **LIFO**, **Promedio** o **Específico**), las entradas de existencias se calculan según el coste de compra del producto.  
 
@@ -72,11 +66,11 @@ En el caso de productos con métodos de coste que utilizan el coste real como ba
 
     En el caso de productos donde se use el método de costes **Estándar**, las entradas de existencias se calculan según el coste estándar actual.  
 
-#### <a name="standard"></a>Estándar  
+#### Estándar  
 
 En el caso de productos donde se use el método de costes **Estándar**, las entradas de existencias se calculan según el coste estándar actual.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Efecto de los métodos de coste en la valoración de salidas de existencias
+### Efecto de los métodos de coste en la valoración de salidas de existencias
 
 - **FIFO**  
 
@@ -144,7 +138,7 @@ En el caso de productos donde se use el método de costes **Estándar**, las ent
     |01-03-20|-1|-10,00|**1**|5|  
     |01-04-20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Desviación](design-details-variance.md)   

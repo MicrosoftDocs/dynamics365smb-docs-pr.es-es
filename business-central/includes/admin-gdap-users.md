@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: f002086780e694ad80f2b5c80e942ab411de1948
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732968"
 ---
 Es posible que vea a otros usuarios en la lista **Usuarios** aparte de los de su propia empresa. Cuando un administrador delegado de una empresa asociada distribuidora inicia sesión en un entorno de [!INCLUDE [prod_short](prod_short.md)] en nombre de su cliente, se crea automáticamente como un usuario dentro [!INCLUDE [prod_short](prod_short.md)]. De esta forma, las acciones realizadas por un administrador delegado quedan registradas en [!INCLUDE [prod_short](prod_short.md)], como la publicación de documentos, y asociados con su id. de usuario.  
 

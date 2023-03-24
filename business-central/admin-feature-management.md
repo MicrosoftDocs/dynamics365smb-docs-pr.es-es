@@ -3,18 +3,13 @@ title: Habilitar las próximas funciones de antemano
 description: Aprenda a habilitar funciones opcionales seleccionadas antes de que sean obligatorias.
 author: mikebcMSFT
 ms.topic: conceptual
-ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.keywords: 'administration, admin, key, optional, feature management, early access, preview'
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 0ff7ee2a56b762609e2b15f101c1e4abc9bd46cd
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533354"
 ---
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Habilitar las nuevas y próximas funciones de antemano
+
+# Habilitar las nuevas y próximas funciones de antemano
 
 Algunas funciones nuevas se pueden habilitar con anticipación, lo que le permite aprovecharlas lo antes posible. La habilitación de funciones pronto le proporciona el tiempo para probar y preparar a su organización para el cambio.
 
@@ -22,9 +17,9 @@ Cuando Microsoft publica características o mejoras de diseño de característic
 
 Más información acerca de la [Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Características nuevas y planificadas](/dynamics365-release-plan/2021wave1/)  
 

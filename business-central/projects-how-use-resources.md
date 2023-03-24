@@ -1,23 +1,17 @@
 ---
 title: Registrar y ajustar el uso y los precios de los recursos
-description: Describe cómo puede registrar el uso o consumo de recursos asociados a un proyecto, para realizar el seguimiento y administrar costes, precios y tipos de trabajo.
+description: 'Describe cómo puede registrar el uso o consumo de recursos asociados a un proyecto, para realizar el seguimiento y administrar costes, precios y tipos de trabajo.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff
-ms.search.form: 201,206, 207, 271, 493
+ms.search.keywords: 'project management, capacity, staff'
+ms.search.form: '201,206, 207, 271, 493'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517373"
 ---
-# <a name="use-resources-for-jobs"></a>Uso de recursos para proyectos
+# Uso de recursos para proyectos
 
 El consumo de los recursos en el diario de proyectos se registra para hacer un seguimiento de costes, precios y tipos de trabajo que están vinculados a proyectos. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
@@ -26,17 +20,17 @@ El consumo de los recursos en el diario de proyectos se registra para hacer un s
 
 El consumo de un recurso también se puede registrar en un diario de recursos. Los movimientos registrados en un diario de recursos no afectan a la contabilidad.
 
-## <a name="to-assign-resources-to-jobs"></a>Para asignar recursos a proyectos
+## Para asignar recursos a proyectos
 
 Asigne recursos a proyectos creando líneas de planificación para el proyecto. Para obtener más información, vea [Crear proyectos](projects-how-create-jobs.md).
 
-## <a name="to-record-resource-usage-for-a-job"></a>Para registrar el uso de recursos de un proyecto
+## Para registrar el uso de recursos de un proyecto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.
 2. Abra una sección del diario de proyectos correspondiente y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Cuando el diario esté completo, seleccione la acción **Registrar**.
 
-## <a name="to-adjust-resource-prices"></a>Para ajustar los precios de los recursos
+## Para ajustar los precios de los recursos
 
 Si desea modificar los precios de coste y de venta de un gran número de recursos, puede utilizar un proceso.  
 
@@ -46,7 +40,7 @@ Si desea modificar los precios de coste y de venta de un gran número de recurso
 > [!NOTE]  
 > Este proceso no crea ni ajusta costes o precios alternativos de recursos. Solo cambia el contenido del campo de la ficha del recurso del **Campo ajuste** seleccionada en el trabajo por lotes. Dado que el ajuste surte efecto en los recursos al instante, compruebe los factores de ajuste antes de ejecutar el trabajo por lotes.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Para obtener propuestas de modificación de precios de venta de recursos basadas en precios de venta alternativos existentes
+## Para obtener propuestas de modificación de precios de venta de recursos basadas en precios de venta alternativos existentes
 
 Si ya ha configurado precios de venta alternativos para algunos recursos, puede utilizar un proceso para configurar varios precios de venta de recurso alternativos.
 
@@ -55,7 +49,7 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 3. Elija el botón **Aceptar**.  
 4. Cuando termine el proceso, la página **Cambios de precio en recursos** muestra los resultados del proceso.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Para obtener propuestas de cambio de precio de venta de recursos basadas en precios de venta estándar
+## Para obtener propuestas de cambio de precio de venta de recursos basadas en precios de venta estándar
 
 Si desea configurar varios precios alternativos basados en los precios estándar que figuran en las fichas de recurso, puede utilizar un proceso.  
 
@@ -64,7 +58,7 @@ Si desea configurar varios precios alternativos basados en los precios estándar
 3. Elija el botón **Aceptar**.  
 4. Cuando termine el proceso, abra la página **Borrador mod. precios recursos** para ver los resultados del proceso.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Para obtener propuestas para la modificación de precios de venta de recursos basadas en los precios de venta estándar
+## Para obtener propuestas para la modificación de precios de venta de recursos basadas en los precios de venta estándar
 
 Si ya ha configurado precios de venta alternativos para algunos recursos, puede utilizar un proceso para configurar varios precios de venta de recurso alternativos.
 
@@ -73,7 +67,7 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 3. Elija el botón **Aceptar**.  
 4. Cuando termine el proceso, abra la página **Borrador mod. precios recursos** para ver los resultados del proceso.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administración de proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  

@@ -1,23 +1,17 @@
 ---
-title: Ordenar, buscar y filtrar listas
-description: Trabaje de manera eficiente en las listas buscando en sus datos, clasificando columnas y refinando los resultados utilizando símbolos de filtrado y atajos de teclado.
+title: 'Ordenar, buscar y filtrar listas'
+description: 'Trabaje de manera eficiente en las listas buscando en sus datos, clasificando columnas y refinando los resultados utilizando símbolos de filtrado y atajos de teclado.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.search.form: ''
+ms.search.keywords: 'delimit, FlowFilter, totals, limit, advanced'
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2fd135bc18f347539ba7fedcfe4b48e7bb314daf
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532409"
 ---
-# <a name="sorting-searching-and-filtering"></a>Ordenar, buscar y filtrar
+# Ordenar, buscar y filtrar
 
 Existen algunos parámetros que puede configurar que le ayudarán a buscar, encontrar y limitar los registros de una lista, un informe o un XMLport Estos incluyen la ordenación, la búsqueda y el filtrado. Puede aplicar solo algunos o todos a la vez para encontrar o analizar rápidamente sus datos.
 
@@ -32,7 +26,7 @@ Para informes y XMLports, como en las listas, puede establecer filtros para deli
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## <a name="sorting"></a>Ordenación
+## Ordenación
 
 La ordenación facilita la obtención rápida de un resumen de sus datos. Por ejemplo, si hay varios clientes, por ejemplo, podría elegir ordenarlos por **N.º de cliente**, **Cód. divisa** o **Cód. país/región** para disponer de la vista general que desea.
 
@@ -44,7 +38,7 @@ Para ordenar una lista, puede:
 > [!NOTE]  
 > El ordenamiento no se admite en imágenes, campos BLOB, FlowFilters ni campos que no pertenecen a una tabla.  
 
-## <a name="searching"></a>Búsqueda
+## Búsqueda
 
 <!--## Searching by using the Quick Filter -->
 En la parte superior de cada página de lista, hay una ![Lista de búsqueda.](media/ui-search/search-list.png "Icono de lista de búsqueda") acción **Buscar** que proporciona una manera rápida y fácil de reducir los registros en una lista y muestra solo aquellos registros que contienen los datos que le interesa ver.
@@ -54,13 +48,13 @@ Para buscar, solo elija la acción **Buscar** y, a continuación, en el cuadro, 
 En general, la búsqueda intentará hacer coincidir el texto en todos los campos. No distingue entre mayúsculas y minúsculas y coincidirá con el texto colocado en algún lugar del campo: al principio, al final o en el centro.
 
 > [!TIP]
-> Puede presionar **F3** para activar y desactivar el cuadro de búsqueda. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
+> Puede seleccionar <kbd>F3</kbd> para activar y desactivar el cuadro de búsqueda. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
 > La búsqueda no coincidirá con valores en imágenes, campos BLOB, FlowFilters, FlowFields y otros campos que no forman parte de una tabla.
 
 
-### <a name="fine-tuning-the-search-with-filter-criteria"></a>Ajuste de los criterios de búsqueda con filtro
+### Ajuste de los criterios de búsqueda con filtro
 
 Puede realizar una búsqueda más exacta utilizando operadores de filtro, expresiones y tokens de filtro. A diferencia del filtrado, estos se aplican en todos los campos cuando se utilizan en el cuadro de búsqueda, lo que los hace menos eficientes que el filtrado.
 
@@ -83,7 +77,7 @@ En la tabla siguiente se muestran algunos ejemplos de cómo puede utilizar la b�
 |`@*man`|Todos los registros que acaban por **man** independientemente de las mayúsculas y minúsculas. Por ejemplo, **Norman** pero no **Manchester** o **manual**.|
 
 
-## <a name="filtering"></a><a name="filtering"></a>Filtrado
+## <a name="filtering"></a>Filtrado
 
 El filtrado proporciona una forma más avanzada y versátil de controlar qué registros se incluyen en una lista o se incluyen en un informe o XMLport. Existen dos diferencias principales entre la búsqueda y el filtrado, como se describe en la tabla siguiente.
 
@@ -96,7 +90,7 @@ El filtrado le permite mostrar registros de cuentas o clientes específicos, fec
 
 Para las listas, los filtros se muestran en un panel de filtro que aparece a la izquierda de la lista cuando lo activa. Para informes, trabajos por lotes y XMLports, los filtros están visibles directamente en la página de solicitud.
 
-### <a name="filtering-with-option-fields"></a>Filtrado con campos de opción
+### Filtrado con campos de opción
 
 Para los campos "normales" que contienen datos, fecha de configuración o datos de negocio, puede establecer filtros seleccionando datos y escribiendo valores de filtro, y puede usar símbolos para definir criterios de filtro avanzados. Para obtener más información, vea [Introducción de criterios de filtros](ui-enter-criteria-filters.md#entering-filter-criteria).
 
@@ -105,11 +99,11 @@ Sin embargo, para campos de tipo **Opción**, solo puede establecer un filtro se
 > [!NOTE]
 > Cuando selecciona varias opciones como valor de filtro, la relación entre las opciones se define como *O*. Por ejemplo, si selecciona las casillas **Abierto** y **Lanzado** en el campo de filtro **Estado** en la página **Pedidos de venta**, significa que se muestran los pedidos de venta que están abiertos o lanzados.
 
-### <a name="setting-filters-on-lists"></a>Configuración de filtros en listas
+### Configuración de filtros en listas
 
-En las listas, los filtros se establecen utilizando el panel de filtro. Para mostrar el panel de filtro de una lista, elija la flecha desplegable situada junto al nombre de la página y luego elija la acción **Mostrar panel de filtros**. Alternativamente, presione **Mayús+F3**.
+En las listas, los filtros se establecen utilizando el panel de filtro. Para mostrar el panel de filtro de una lista, elija la flecha desplegable situada junto al nombre de la página y luego elija la acción **Mostrar panel de filtros**. Alternativamente, seleccione <kbd>Mayús</kbd>+<kbd>F3</kbd>.
 
-Para mostrar el panel de filtro de una columna de una lista, elija la flecha desplegable y luego elija la acción **Filtrar**. Alternativamente, presione **Mayús+F3**. El panel de filtro se abre con la columna seleccionada que se muestra como un campo de filtro en la sección **Filtrar lista por**.
+Para mostrar el panel de filtro de una columna de una lista, elija la flecha desplegable y luego elija la acción **Filtrar**. Alternativamente, seleccione <kbd>Mayús</kbd>+<kbd>F3</kbd>. El panel de filtro se abre con la columna seleccionada que se muestra como un campo de filtro en la sección **Filtrar lista por**.
 
 El panel de filtro muestra los filtros actuales para una lista y le permite configurar sus propios filtros personalizados en uno o más campos eligiendo la acción **+ Filtrar**.
 
@@ -130,9 +124,9 @@ El panel de filtro muestra los filtros actuales para una lista y le permite conf
   > [!NOTE]
   > FlowFilters es el encargado de controlar los filtros de la sección **Filtrar totales por** en el diseño de la página. Para obtener información técnica, vea [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-Puede establecer un filtro simple directamente en una lista mediante el panel de filtro, es decir, un filtro que muestra solo registros con el mismo valor que en la celda seleccionada. Seleccione una celda de la lista, elija la flecha desplegable y luego elija la acción **Filtrar a este valor**. Alternativamente, presione **Alt+F3**.
+Puede establecer un filtro simple directamente en una lista mediante el panel de filtro, es decir, un filtro que muestra solo registros con el mismo valor que en la celda seleccionada. Seleccione una celda de la lista, elija la flecha desplegable y luego elija la acción **Filtrar a este valor**. Alternativamente, seleccione <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
-### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Configuración de filtros en informes, trabajos por lotes y XMLports
+### Configuración de filtros en informes, trabajos por lotes y XMLports
 
 Para informes y XMLports, los filtros están visibles directamente en la página de solicitud. La página de solicitud muestra los últimos filtros utilizados de acuerdo con su selección en el campo **Usar valores predeterminados de**. Para obtener más información, consulte [Usar la configuración guardada](ui-work-report.md#SavedSettings).
 
@@ -140,7 +134,7 @@ La sección principal **Filtrar** muestra los campos de filtro predeterminados q
 
 En la sección **Filtrar totales por**, puede ajustar varias dimensiones que influyen en los cálculos en el informe o XMLport. Para agregar un filtro, elija la acción **Filtro**. Después, para agregar un filtro, elija la acción + Filtrar, escriba el nombre del campo por el que desea filtrar la lista o elija un campo de la lista desplegable.
 
-## <a name="entering-filter-criteria"></a>Introducción de criterios de filtros
+## Introducción de criterios de filtros
 
 Tanto en el panel de filtro como en una página de solicitud, introduzca sus criterios de filtro en el cuadro situado debajo del campo de filtro.
 
@@ -149,9 +143,9 @@ El tipo de campo de filtro determina qué criterios puede especificar. Por ejemp
 Las columnas que ya tienen filtros se indican mediante el icono ![Icono Filtro.](media/ui-search/filter-icon.png "Icono de filtro") el encabezado de la columna. Para eliminar un filtro, seleccione la flecha desplegable y, a continuación, elija la acción **Borrar filtro**.
 
 > [!TIP]
-> Acelere la búsqueda y el análisis de sus datos utilizando combinaciones de atajos de teclado. Por ejemplo, seleccione un campo, use **Mayús+Alt+F3** para agregar ese campo al panel de filtros, escriba los criterios de filtro, use **Ctrl+Intro** para volver a las filas, seleccione otro campo y use **Alt+F3** para filtrar ese valor. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
+> Acelere la búsqueda y el análisis de sus datos utilizando combinaciones de atajos de teclado. Por ejemplo, seleccione un campo, use <kbd>Mayús</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> para agregar ese campo al panel de filtros, escriba los criterios de filtro, use <kbd>Ctrl</kbd>+<kbd>Entrar</kbd> para volver a las filas, seleccione otro campo y use <kbd>Alt</kbd>+<kbd>F3</kbd> para filtrar ese valor. Para obtener más información, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="filter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Criterios y operadores de filtro
+### <a name="FilterCriteria"> </a>Criterios y operadores de filtro
 
 Al introducir criterios, puede usar todos los números y las letras que normalmente se emplean en un campo. Pero también hay un conjunto de símbolos especiales que puede usar como operadores para filtrar aún más los resultados. Las siguientes secciones describen estos símbolos y cómo usarlos como operadores en filtros.
 
@@ -163,7 +157,7 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 >
 > - Si hay más de 200 operadores en un solo filtro, el sistema agrupará automáticamente algunas expresiones entre paréntesis `()` con el fin de procesarlas. Esto no tiene ningún efecto en el filtro ni en los resultados.  
 
-#### <a name="-interval"></a>(..) Intervalo
+#### (..) Intervalo
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
@@ -176,64 +170,64 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 |`22..23`|Desde 22-mes actual-año actual 0:00:00 hasta 23-mes actual-año actual 23:59:59| 
 
 > [!TIP]
-> Si está usando un teclado numérico, la tecla del separador decimal puede emitir un carácter distinto al punto (.). Para pasar a un punto, pulse las teclas "Alt+Separador decimal" del teclado numérico. Cuando quiera volver a cambiar, pulse de nuevo "Alt+Separador decimal". Para más información, consulte [Configurar el separador decimal utilizado por los teclados numéricos](ui-enter-data.md#decimal).
+> Si está usando un teclado numérico, la tecla del separador decimal puede emitir un carácter distinto al punto (.). Para pasar a un punto, seleccione las teclas <kbd>Alt</kbd>+<kbd>Separador decimal</kbd> del teclado numérico. Cuando quiera volver a cambiar, seleccione de nuevo <kbd>Alt</kbd>+<kbd>Separador decimal</kbd>. Para más información, consulte [Configurar el separador decimal utilizado por los teclados numéricos](ui-enter-data.md#decimal).
 
-#### <a name="124-eitheror"></a>(&#124;) O/o
+#### (&#124;) O/o
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Números con 1200 ó 1300|  
 
-#### <a name="-not-equal-to"></a>(<>) Distinto  
+#### (<>) Distinto  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`<>0`|Todos los números, excepto el 0<br /><br /> La opción SQL Server permite combinar este símbolo con una expresión de caracteres comodín. Por ejemplo, <>A* significa distinto de cualquier texto que empiece por A.|  
 
-#### <a name="-greater-than"></a>(>) Mayor de  
+#### (>) Mayor de  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`>1200`|Números mayores que 1200|  
 
-#### <a name="-greater-than-or-equal-to"></a>(>=) Mayor o igual a  
+#### (>=) Mayor o igual a  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`>=1200`|Números mayores o igual que 1200|  
 
-#### <a name="-less-than"></a>(<) Menor de  
+#### (<) Menor de  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`<1200`|Números menores que 1200|  
 
-#### <a name="-less-than-or-equal-to"></a>(<=) Menor o igual que  
+#### (<=) Menor o igual que  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`<=1200`|Números menores o iguales que 1200|  
 
-#### <a name="-and"></a>(&) y  
+#### (&) y  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Números mayores de 200 e inferiores a 1200|  
 
-#### <a name="-an-exact-character-match"></a>(") Una coincidencia exacta de carácter  
+#### (") Una coincidencia exacta de carácter  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`'man'`|Texto que coincide exactamente con **man** y distingue mayúsculas de minúsculas.|  
 |`''`|Texto que está vacío.|  
 
-#### <a name="-case-insensitive"></a>(@) Distinción entre mayúsculas y minúsculas  
+#### (@) Distinción entre mayúsculas y minúsculas  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`@man*`|Texto que empieza por **man** y no distingue mayúsculas de minúsculas.|  
 
-#### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Un número indefinido de caracteres desconocidos (quizás ninguno)
+#### (*) Un número indefinido de caracteres desconocidos (quizás ninguno)
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
@@ -241,13 +235,13 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 |`*Co`|Texto que termine con **Co** y es con diferenciación de mayúsculas y minúsculas.|  
 |`Co*`|Texto que empiece por **Co** y es con diferenciación de mayúsculas y minúsculas.|  
 
-#### <a name="-one-unknown-character"></a>(?) Un carácter desconocido  
+#### (?) Un carácter desconocido  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Texto como **Mendoza** o **Mendosa**|  
 
-#### <a name="combined-format-expressions"></a>Expresiones de formato combinadas  
+#### Expresiones de formato combinadas  
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
@@ -255,7 +249,7 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 |`..1299|1400..`|Incluye los registros cuyo número sea menor o igual que 1299 o un número igual o mayor que 1400|  
 |`>50&<100`|Incluye los registros cuyo número sea mayor que 50 y menor que 100.|  
 
-### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtrado por valores que contienen símbolos
+### <a name="symbols"></a>Filtrado por valores que contienen símbolos
 
 Puede haber casos en los que los valores de campo contengan uno de los siguientes símbolos:
 
@@ -269,14 +263,14 @@ Si desea filtrar por cualquiera de estos símbolos, coloque la expresión de fil
 
 Este requisito no es necesario para otros símbolos.
 
-### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Tokens de filtro
+### <a name="FilterTokens"> </a>Tokens de filtro
 
 Al introducir criterios de filtro, también puede escribir palabras que tengan un significado especial, lo que se conoce como tokens de filtro. Después de introducir la palabra token, la palabra se reemplaza por el valor o valores que representa. Los tokens de filtro facilitan el filtrado al reducir la necesidad de ir a otras páginas para buscar los valores que desea agregar a su filtro. En las tablas siguientes se describen algunos de los tokens que puede escribir como criterios de filtro.
 
 > [!TIP]
 > Su organización puede usar tokens personalizados. Para obtener información sobre el conjunto completo de tokens disponibles o para agregar más tokens personalizados, hable con su administrador. Para obtener información técnica, consulte [Agregar tokens de filtro](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### <a name="me-or-userid-records-assigned-to-you"></a>(%me o %userid) Registros que se le han asignado
+#### (%me o %userid) Registros que se le han asignado
 
 Utilice `%me` o `%userid` cuando filtre campos que contengan el ID de usuario, como el campo **Asignado a ID de usuario**, para mostrar todos los registros que se le asignaron.
 
@@ -284,7 +278,7 @@ Utilice `%me` o `%userid` cuando filtre campos que contengan el ID de usuario, c
 |-----------------------|-----------------------|  
 |`%me`<br />o<br />`%userid`|Registros que se han asignado a su cuenta. |  
 
-#### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Clientes en Mis clientes
+#### (%mycustomers) Clientes en Mis clientes
 
 Use `%mycustomers` en el campo de cliente **No** para mostrar todos los registros de los clientes que se incluyen en la lista **Mis clientes** en su Área de trabajo.
 
@@ -292,7 +286,7 @@ Use `%mycustomers` en el campo de cliente **No** para mostrar todos los registro
 |-----------------------|-----------------------|  
 |`%mycustomers`|Clientes en **Mis clientes** en el Área de trabajo. |  
 
-#### <a name="myitems-items-in-my-items"></a>(%myitems) Artículos en Mis artículos
+#### (%myitems) Artículos en Mis artículos
 
 Use `%myitems` en el campo de artículo **No** para mostrar todos los registros de los artículos que se incluyen en la lista **Mis artículos** en su Área de trabajo.
 
@@ -300,7 +294,7 @@ Use `%myitems` en el campo de artículo **No** para mostrar todos los registros 
 |-----------------------|-----------------------|  
 |`%myitems`|Artículos en **Mis artículos** en el Área de trabajo. |  
 
-#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Proveedores en Mis proveedores
+#### (%myvendors) Proveedores en Mis proveedores
 
 Use `%myvendors` en el campo de proveedor **No** para mostrar todos los registros de los proveedores que se incluyen en la lista **Mis proveedores** en su Área de trabajo.
 
@@ -308,9 +302,9 @@ Use `%myvendors` en el campo de proveedor **No** para mostrar todos los registro
 |-----------------------|-----------------------|  
 |`%myvendors`|Proveedores en **Mis proveedores** en el Área de trabajo. |  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)  
 [Guardar y personalizar vistas de lista](ui-views.md)  

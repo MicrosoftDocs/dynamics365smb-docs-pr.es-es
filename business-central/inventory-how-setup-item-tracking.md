@@ -1,22 +1,16 @@
 ---
-title: Configurar el seguimiento de productos con números de serie, de lote y de paquete
-description: Configurar el seguimiento de productos con números de serie, de lote y de paquete
+title: 'Configurar el seguimiento de productos con números de serie, de lote y de paquete'
+description: 'Configurar el seguimiento de productos con números de serie, de lote y de paquete'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533273"
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configurar el seguimiento de productos con números de serie, de lote y de paquete
+# Configurar el seguimiento de productos con números de serie, de lote y de paquete
 
 Realice un seguimiento de los productos de inventario incluso en configuraciones de almacén complejas con números específicos para cada producto, ya sea como un objeto individual, como un lote o como un paquete. Con el seguimiento de productos, puede realizar un seguimiento de los productos en los movimientos internos del almacén y en los documentos de entrada y salida.
 
@@ -25,13 +19,13 @@ Los números de serie y lote de productos se pueden seguir, ya sea hacia adelant
 > [!TIP]
 > En 2021, el lanzamiento de versiones 1 y posteriores, active la actualización de la característica *Uso de seguimiento por número de paquete en el sistema de reservas y seguimiento* si desea trabajar con números de paquete, así como con números de serie y de lote. Para obtener más información, consulte [Habilitación de las próximas actualizaciones de antemano](admin-feature-management.md). Una vez que la característica está activada, puede asignar números de paquete a documentos de entrada y salida de forma similar a como puede trabajar con números de lote.  
 
-## <a name="numbers-and-item-tracking"></a>Seguimiento de números y productos
+## Seguimiento de números y productos
 
 Como parte de los procesos de su almacén, puede agrupar sus existencias en paquetes, cajas, contenedores, etc. Pero, para realizar un seguimiento de los productos, asigna números únicos como identificación. Por ejemplo, fabrica y vende una silla que tiene el número de producto *1900-S*. Cada silla individual tiene un número de serie, *1001*, pero también agrupa cuatro sillas en un lote, *LOT0001*, y envía las sillas en un contenedor con el número de paquete *CONTENEDOR010* que también incluye otros productos, como *LOTE0100* con mesas auxiliares, y *LOTE200* con lámparas.  
 
 Dependiendo de su configuración, usa estos números diferentes para realizar un seguimiento del inventario en [!INCLUDE [prod_short](includes/prod_short.md)] en las distintas etapas de compras, ventas, operaciones de almacén, etc.
 
-## <a name="to-set-up-item-tracking-codes"></a>Para configurar códigos de seguimiento de producto
+## Para configurar códigos de seguimiento de producto
 
 Un código de seguimiento de producto refleja las distintas consideraciones que tiene una empresa en referencia al uso de números de serie y lote de los productos que se mueven en el inventario.  
 
@@ -48,7 +42,7 @@ Ya que este campo cubre todas las transacciones posibles con el producto, los ca
 > [!NOTE]  
 >  Para asignar números de seguimiento de producto en las actividades de almacén, los campos de verificación **Seguim. nº serie almacén** y **Control lote almacén** se deben seleccionar en la ficha del código del seguimiento del producto.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Para configurar las reglas de caducidad para números de serie o lote
+## Para configurar las reglas de caducidad para números de serie o lote
 
 Con algunos productos es posible que le interese configurar fechas y reglas de caducidad específicas en el código de seguimiento de producto. Esta funcionalidad le permite realizar un seguimiento de la caducidad de determinados números de serie y de lote.
 
@@ -62,7 +56,7 @@ Con algunos productos es posible que le interese configurar fechas y reglas de c
     |**Requerir entrada fecha caducidad**|Especifica que debe introducirse una fecha de caducidad en la línea de seguimiento de producto.|  
     |**Usar fechas de caducidad**|Especifica que desea calcular las fechas de caducidad. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Para configurar garantías para números de serie o lote
+## Para configurar garantías para números de serie o lote
 
 Con algunos productos es posible que le interese configurar garantías específicas en el código de seguimiento de producto. Esta funcionalidad le permite realizar un seguimiento de la caducidad de las garantías de determinados números de serie o lote en inventario.  
 
@@ -76,7 +70,7 @@ Con algunos productos es posible que le interese configurar garantías específi
     |**Requerir entrada fecha garantía**|Especifica que debe introducir manualmente una fecha de garantía en la línea de seguimiento del producto.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>Para configurar los productos para el seguimiento con los códigos de seguimiento de productos correctos
+## Para configurar los productos para el seguimiento con los códigos de seguimiento de productos correctos
 
 Para habilitar el seguimiento de productos, primero debe asignar los códigos de seguimiento de productos a un producto. Hay dos formas de agregar códigos de seguimiento de productos, seleccionando el código de una lista predefinida o asignando un nuevo código único. Pase el cursor sobre los campos para leer una breve descripción.
 
@@ -85,9 +79,9 @@ Para habilitar el seguimiento de productos, primero debe asignar los códigos de
 3. En la ficha desplegable **Seguimiento de producto**, asigne los códigos de seguimiento de productos apropiados y elija el **Código de seguimiento del producto**, los **Números de serie**, y los **Números de lote**.
     1. También puede crear un nuevo código de seguimiento de producto seleccionando la acción **Nuevo**.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  

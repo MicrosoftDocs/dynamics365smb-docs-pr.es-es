@@ -6,93 +6,88 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605802"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Referencia rápida de teclado: solo PC
 
-#### <a name="general"></a>General
+# Referencia rápida de teclado: solo PC
 
-|Pulsar estas teclas|Para hacer esto|  
+#### General
+
+|Seleccione estas teclas|Para hacer esto|  
 |-|-|
-|Alt+F2|Mostrar u ocultar el panel de cuadro informativo|
-|Alt+N|Crear un registro nuevo|
-|Alt+Mayús+N|Cerrar un registro recién creado y crear uno nuevo|
-|Alt+O|Agregar una nueva nota para el registro seleccionado|
-|Alt+Q|Abrir **Dígame**|
-|Ctrl+Alt+Q|Abrir **Buscar movimientos**|
-|Alt+Arriba|Abrir la información sobre herramientas o el error de validación|
-|Alt+flecha abajo|Abrir un menú desplegable o buscar|
-|Alt+T|Abrir la página **Mi configuración**|
-|Alt+Mayús+W|Abrir la ficha o documento actual en una nueva ventana|
-|Ctrl+Insertar|Insertar una nueva línea en un documento|
-|Ctrl+Supr|Eliminar la línea de un documento, diario u hoja de trabajo|
-|Ctrl+Shift+F12|Maximizar la parte de productos de línea en una página de documento|
-|Ctrl+F1|Abrir el panel de ayuda o un artículo de ayuda|
-|Ctrl+Clic|Navegar al personalizar|
-|Ctrl+A|Cambiar de empresa o entorno|
-|Mayús+F12|Abrir el explorador de roles, una descripción general de la función|
-|F5/Ctrl+F5|Actualizar o volver a cargar la página|
-|Tab/Mayús+Tab|Desplazar el enfoque al elemento siguiente/anterior|
-|F6/Shift+F6|Desplazarse a la siguiente ficha desplegable/parte|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Mostrar u ocultar el panel de cuadro informativo|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Crear un registro nuevo|
+|<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>N</kbd>|Cerrar un registro recién creado y crear uno nuevo|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Agregar una nueva nota para el registro seleccionado|
+|<kbd>Alt</kbd>+<kbd>Q</kbd>|Abrir **Dígame**|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Abrir **Buscar movimientos**|
+|<kbd>Alt</kbd>+<kbd>Arriba</kbd>|Abrir la información sobre herramientas o el error de validación|
+|<kbd>Alt</kbd>+<kbd>Flecha abajo</kbd>|Abrir un menú desplegable o buscar|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|Abrir la página **Mi configuración**|
+|<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>W</kbd>|Abrir la ficha o documento actual en una nueva ventana|
+|<kbd>Ctrl</kbd>+<kbd>Insertar</kbd>|Insertar una nueva línea en un documento|
+|<kbd>Ctrl</kbd>-<kbd>Supr</kbd>|Eliminar la línea de un documento, diario u hoja de trabajo|
+|<kbd>Ctrl</kbd>+<kbd>Mayús</kbd>+<kbd>F12</kbd>|Maximizar la parte de productos de línea en una página de documento|
+|<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Abrir el panel de ayuda o un artículo de ayuda|
+|<kbd>Ctrl</kbd>+Clic|Navegar al personalizar|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Cambiar de empresa o entorno|
+|<kbd>Mayús</kbd>+<kbd>F12</kbd>|Abrir el explorador de roles, una descripción general de la función|
+|<kbd>F5</kbd>/<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Actualizar o volver a cargar la página|
+|<kbd>Tabulador</kbd>/<kbd>Mayús</kbd>+<kbd>Tabulador</kbd>|Desplazar el enfoque al elemento siguiente/anterior|
+|<kbd>F6</kbd>/<kbd>Mayús</kbd>+<kbd>F6</kbd>|Desplazarse a la siguiente ficha desplegable/parte|
 
-#### <a name="navigate--select-rows"></a>Desplazarse y seleccionar filas
+#### Desplazarse y seleccionar filas
 
-|Pulsar estas teclas|Para hacer esto|
+|Seleccione estas teclas|Para hacer esto|
 |-|-|
-|Inicio/Fin|Ir al primer/último campo|
-|Ctrl+Inicio/Fin |Ir a la primera/última fila|
-|Ctrl+Flecha arriba/abajo|Desplazarse sin perder la selección|
-|Ctrl+E |Seleccionar todo|
-|Ctrl+Espacio|Alternar la selección de la fila|
-|Ctrl/Shift+Clic|Agregar la fila o las filas a la selección|
-|Mayús+Flecha arriba/abajo|Agregue una fila arriba/debajo de la selección|
-|Mayús+Av/Re Pág|Seleccionar filas visibles arriba/abajo|
-|Ctrl+Enter|Centrarse en la lista|
+|<kbd>Inicio/Fin|Ir al primer/último campo|
+|<kbd>Ctrl</kbd>+<kbd>Inicio</kbd>/<kbd>Fin</kbd>|Ir a la primera/última fila|
+|<kbd>Ctrl</kbd>+<kbd>Arriba</kbd>/<kbd>Abajo</kbd>|Desplazarse sin perder la selección|
+|<kbd>Ctrl</kbd>+<kbd>A</kbd>|Seleccionar todo|
+|<kbd>Ctrl</kbd>+<kbd>Espacio</kbd>|Alternar la selección de la fila|
+|<kbd>Ctrl</kbd>/<kbd>Mayús</kbd>+Clic|Agregar la fila o las filas a la selección|
+|<kbd>Mayús</kbd>+<kbd>Arriba</kbd>/<kbd>Abajo</kbd>|Agregue una fila arriba/debajo de la selección|
+|<kbd>Mayús</kbd>+<kbd>Re. pág</kbd>/<kbd>Abajo</kbd>|Seleccionar filas visibles arriba/abajo|
+|<kbd>Ctrl</kbd>+<kbd>Entrar</kbd>|Centrarse en la lista|
 
-#### <a name="copy--paste"></a>Copiar y pegar
+#### Copiar y pegar
 
-|Pulsar estas teclas|Para hacer esto|
+|Seleccione estas teclas|Para hacer esto|
 |-|-|
-|Ctrl+C/V|Copiar/pegar filas|
-|F8|Copiar campo de arriba a la fila actual|
+|<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copiar/pegar filas|
+|<kbd>F8</kbd>|Copiar campo de arriba a la fila actual|
 
-#### <a name="search-filter--sort"></a>Buscar, filtrar y ordenar
+#### Buscar, filtrar y ordenar
 
-|Pulsar estas teclas|Para hacer esto|
+|Seleccione estas teclas|Para hacer esto|
 |-|-|
-|Alt+F7|Clasificar la columna en orden ascendente/descendente|
-|F3|Búsqueda alternativa|
-|Shift+F3|Alternar el panel de filtros; centrarse en los filtros de campo|
-|Alt+F3|Filtrar en el valor de la celda seleccionada|
-|Mayús+Alt+F3|Agregar un filtro en el campo seleccionado|
-|Ctrl+Alt+Mayús+F3|Restablecer filtros|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Clasificar la columna en orden ascendente/descendente|
+|<kbd>F3</kbd>|Búsqueda alternativa|
+|<kbd>Mayús</kbd>+<kbd>F3</kbd>|Alternar el panel de filtros; centrarse en los filtros de campo|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Filtrar en el valor de la celda seleccionada|
+|<kbd>Mayús</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Agregar un filtro en el campo seleccionado|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>F3</kbd>|Restablecer filtros|
 
-#### <a name="quick-entry"></a>Entrada rápida
+#### Entrada rápida
 
-|Pulsar estas teclas|Para hacer esto|
+|Seleccione estas teclas|Para hacer esto|
 |-|-|
-|Ctrl+Mayús+Entrar|Ir al siguiente campo de entrada rápida fuera de una lista|
-|Entrar/Mayús+Entrar|Ir al campo de entrada rápida siguiente/anterior|
+|<kbd>Ctrl</kbd>+<kbd>Mayús</kbd>+<kbd>Entrar</kbd>|Ir al siguiente campo de entrada rápida fuera de una lista|
+|<kbd>Entrar</kbd>/<kbd>Mayús</kbd>+<kbd>Entrar</kbd>|Ir al campo de entrada rápida siguiente/anterior|
 
-##### <a name="report-preview"></a>Vista preliminar de un informe
+##### Vista preliminar de un informe
 
-|Pulsar estas teclas|Para hacer esto|
+|Seleccione estas teclas|Para hacer esto|
 |-|-|
-|Ctrl+Inicio/Fin|Ir a la primera/última página|
+|<kbd>Ctrl</kbd>+<kbd>Inicio</kbd>/<kbd>Fin</kbd>|Ir a la primera/última página|
 
-#### <a name="numeric-keypad"></a>Teclado numérico
+#### Teclado numérico
 
-|Pulsar estas teclas|Para hacer esto|  
+|Seleccione estas teclas|Para hacer esto|  
 |-|-|
-|Alt+Separador decimal|Alternar la salida de la tecla del separador decimal en el teclado numérico|
+|<kbd>Alt</kbd>+<kbd>Separador decimal</kbd>|Alternar la salida de la tecla del separador decimal en el teclado numérico|
 
 > [!TIP]
 > Para obtener una versión gráfica y preparada para imprimir elija la siguiente imagen y descargue el archivo PDF.

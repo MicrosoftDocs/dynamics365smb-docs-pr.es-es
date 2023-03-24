@@ -1,23 +1,17 @@
 ---
 title: Gestión de transacciones entre empresas vinculadas
-description: Con la funcionalidad de empresas vinculadas, puede simplificar los procesos y transacciones empresariales entre empresas de la misma organización.
+description: 'Con la funcionalidad de empresas vinculadas, puede simplificar los procesos y transacciones empresariales entre empresas de la misma organización.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511654"
 ---
-# <a name="managing-intercompany-transactions"></a>Gestión de transacciones entre empresas vinculadas
+# Gestión de transacciones entre empresas vinculadas
 
 Las funciones de las transacciones entre empresas vinculas están diseñadas para los usuarios que controlan más de una entidad empresarial legal y han configurado varias empresas para separar las funciones contables de cada una de dichas entidades. Esta descripción general sirve para muchos tipos de usuarios, sobre todos los que trabajan en mercados internaciones o lugares en los que existen distintas culturas empresariales y entornos normativos.
 
@@ -32,7 +26,7 @@ La funcionalidad entre empresas vinculadas tienen cuatro ventajas principales:
 - Se logran un seguimiento y una visibilidad totales de las actividades empresariales y los historiales de las transacciones  
 - Las transacciones con las subsidiarias y las filiales son eficaces y rentables  
 
-## <a name="streamlining-the-flow-of-business-activities"></a>Simplificar el flujo de actividades empresariales  
+## Simplificar el flujo de actividades empresariales  
 
 Las transacciones entre empresas vinculadas le permiten distribuir los documentos de compras y ventas, así como los movimientos del diario general a todas las sucursales, oficinas de ventas o subsidiarias, todo desde el interior del sistema. En consecuencia, se gana tiempo y se aumenta la eficacia en toda la organización, ya que se elimina la duplicación en la introducción de información y se evita el envío, recepción, impresión y archivado de los documentos en papel.  
 
@@ -71,7 +65,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Organice y procese las transacciones entrantes y salientes que intercambia con sus socios de empresas vinculadas.|[Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)|
 |Utilice las transacciones de empresas vinculadas para distribuir costes entre empresas asociadas.|[Asignar costes a socios entre empresas](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  

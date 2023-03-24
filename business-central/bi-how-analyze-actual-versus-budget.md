@@ -1,29 +1,23 @@
 ---
 title: Analizar importes reales frente a importes presupuestados
-description: Este artículo describe cómo analizar los importes reales frente a los importes presupuestados como un medio para recopilar, analizar y compartir los datos de su empresa.
+description: 'Este artículo describe cómo analizar los importes reales frente a los importes presupuestados como un medio para recopilar, analizar y compartir los datos de su empresa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 120, 121, 422
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022
 ms.author: edupont
-ms.openlocfilehash: 927622bf51f4474d995cd2e35f72ec3111844886
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605278"
 ---
-# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analizar importes reales frente a importes presupuestados
+# Analizar importes reales frente a importes presupuestados
 
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos.
 
 Para analizar los importes presupuestados, primero debe crear presupuestos contables (G/L). Obtenga más información en [Crear presupuestos de G/L](finance-how-create-budgets.md).
 
-## <a name="view-a-gl-budget"></a>Ver un presupuesto contable
+## Ver un presupuesto contable
 
 En un presupuesto con dimensiones, puede filtrar los movimientos y, por lo tanto, ver presupuestos concretos.
 
@@ -40,7 +34,7 @@ En un presupuesto con dimensiones, puede filtrar los movimientos y, por lo tanto
 > [!TIP]  
 > Utilizar la acción **Editar presupuesto** para modificar el presupuesto. En la página de presupuesto, elija un importe para ver los movimientos de contabilidad subyacentes.
 
-## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Ver los importes reales y presupuestados de todas las cuentas
+## Ver los importes reales y presupuestados de todas las cuentas
 
 Puede ver presupuestos y compararlos con las cifras reales de varias áreas de [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -57,7 +51,7 @@ Las columnas de la izquierda contienen el plan de cuentas. De las cinco columnas
 > [!TIP]  
 > Utilice el campo **Ver por** en la página **Saldo/Ppto. cuenta** seleccionar la longitud del periodo. Utilice el campo **Ver como** para seleccionar el modo de cálculo de los importes, **Saldo periodo** o **Saldo a la fecha**. Elija la acción **Periodo anterior** o **Periodo siguiente** para cambiar el periodo.  
 
-## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Para ver los importes reales y presupuestados de varios periodos  
+## Para ver los importes reales y presupuestados de varios periodos  
 
 En lugar de ver los importes reales y presupuestados de todas las cuentas en un único periodo, puede ver varios periodos de una cuenta.  
 
@@ -66,9 +60,9 @@ En lugar de ver los importes reales y presupuestados de todas las cuentas en un 
 3. En la ficha desplegable **Opciones**, rellene los campos según sea necesario para definir lo que se muestra en la tabla.  
 4. En la ficha desplegable **Líneas**, pase el cursor sobre un campo en la tabla para leer una breve descripción sobre la cantidad mostrada.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  
 [Trabajar con informes financieros](bi-how-work-account-schedule.md)  

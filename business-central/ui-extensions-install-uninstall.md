@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.search.form: 2500, 20350
+ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
+ms.search.form: '2500, 20350'
 ms.date: 09/22/2022
 ms.author: solsen
-ms.openlocfilehash: db08c13d5e6a5dd29cf9a32b56ab3b5fa9ce77f9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605987"
 ---
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Instalar y desinstalar extensiones (Aplicaciones) en Business Central
+
+# Instalar y desinstalar extensiones (Aplicaciones) en Business Central
 
 Puede cambiar [!INCLUDE[prod_short](includes/prod_short.md)] instalando aplicaciones que, por ejemplo, agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea. Para obtener más información, consulte [Personalizar Business Central con extensiones](ui-extensions.md).
 
@@ -28,7 +23,7 @@ Puede cambiar [!INCLUDE[prod_short](includes/prod_short.md)] instalando aplicaci
 
 Para utilizar la funcionalidad que proporciona una extensión, como abrir páginas, ejecutar informes, seleccionar acciones, etc., se le deben asignar los conjuntos de permisos que se instalan como parte de la extensión.
 
-## <a name="install-an-extension"></a><a name="install"></a>Instalar una extensión
+## <a name="install"></a>Instalar una extensión
 
 Puede administrar las aplicaciones y extensiones en la página **Administración de extensiones**. Puede acceder a esta página desde Inicio. Como alternativa, elija el icono **Buscar por página o informe** ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") en la esquina superior derecha, ingrese **Extensión** y luego elija el enlace relacionado.  
 
@@ -75,18 +70,18 @@ Microsoft proporciona las aplicaciones siguientes:
 * [La extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA: enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-extension"></a>Configurar una extensión
-Después de instalar una aplicación, es posible que deba configurarla. Por ejemplo, para la aplicación **PayPal Payments Standard para [!INCLUDE[prod_short](includes/prod_short.md)]** debe especificar la cuenta de PayPal a utilizar. Si ese es el caso, cuando se complete la instalación [!INCLUDE[prod_short](includes/prod_short.md)] le preguntará si desea configurar la aplicación de inmediato. Las configuraciones pueden ser necesarias para que la aplicación funcione u opcionales.
+## Configurar una extensión
+Después de instalar una aplicación, es posible que deba configurarla. Por ejemplo, para la aplicación**PayPal Payments Standard para [!INCLUDE[prod_short](includes/prod_short.md)]** debe especificar la cuenta de PayPal a utilizar. Si ese es el caso, cuando se complete la instalación [!INCLUDE[prod_short](includes/prod_short.md)] le preguntará si desea configurar la aplicación de inmediato. Las configuraciones pueden ser necesarias para que la aplicación funcione u opcionales.
 
 Si elige configurar su aplicación de inmediato y tiene una configuración requerida, [!INCLUDE[prod_short](includes/prod_short.md)] abrirá la configuración requerida. La configuración puede ser una página en la que ingresa información o una guía de configuración asistida que lo ayuda a través de los pasos. Si no completa la configuración de una sola vez, puede usar la página **Configuraciones para _nombre de la aplicación_**, que enumera todas las configuraciones para la aplicación. Configuraciones requeridas indicadas por **letras en negrita**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Cargar una extensión por inquilino (PTE)
+## Cargar una extensión por inquilino (PTE)
 
 Cargue una PTE mediante la página **Administración de extensiones**. En la página **Administración de extensiones**, vaya a **Administrar** y elija **Cargar extensión**. En la página **Carga e implementación de una extensión**, especifique el archivo .app para cargar. Para continuar, elija el botón **Aceptar** y luego el botón **Implementar**, lo que iniciará el proceso de implementación del PTE.
 
 Si el PTE contiene cambios de esquema de ruptura, es posible *obligar* una carga del mismo. Para hacer eso, en el **Modo de sincronización de esquema**, elija la opción **Forzar**. Recibirá un cuadro de diálogo de confirmación para aceptar antes de continuar.  
 
-## <a name="uninstall-an-app"></a>Desinstalar una aplicación
+## Desinstalar una aplicación
 
 Desinstale una aplicación usando la página **Administración de extensiones**. Para desinstalar una aplicación, selecciónela en la página, luego seleccione la acción **Desinstalar**. Si desinstala una aplicación y cambia de idea, puede volver a instalarla.
 
@@ -98,7 +93,7 @@ Cuando desinstala una aplicación que ha estado utilizando, los datos se conserv
 > - Si activa el interruptor **Eliminar datos de extensión**, la desinstalación de la aplicación eliminará todos los datos de la aplicación **más** los datos para todas las aplicaciones dependientes. La acción no se puede deshacer.
 > - Se requieren algunas aplicaciones. No puede desinstalarlas de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Personalizar Business Central](ui-customizing-overview.md)  
 [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)  

@@ -1,6 +1,6 @@
 ---
 title: Búsqueda de entradas relacionadas para documentos registrados
-description: Aprenda a buscar documentos, contactos comerciales y entradas de artículos relacionados entre sí.
+description: 'Aprenda a buscar documentos, contactos comerciales y entradas de artículos relacionados entre sí.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -10,14 +10,8 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: ae1ae9293530a36a635af48e1711f502b64add4d
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822459"
 ---
-# <a name="finding-related-entries-for-documents"></a>Búsqueda de entradas relacionadas para documentos registrados
+# Búsqueda de entradas relacionadas para documentos registrados
 
 Aprenda a buscar documentos y entradas que estén relacionados entre sí en función de una información común, como:
 
@@ -27,9 +21,9 @@ Aprenda a buscar documentos y entradas que estén relacionados entre sí en func
 
 Esta característica es útil para buscar los movimientos originados por ciertas transacciones. Al realizar búsquedas por número de documentos, puede imprimir el resumen desde el informe **Listas de documentos**.
 
-## <a name="get-started"></a>Comenzar
+## Comenzar
 
-La función de búsqueda de entradas está disponible desde casi cualquier página presionando las teclas Ctrl+Alt+Q. Desde páginas que muestran específicamente documentos registrados o entradas de documentos registrados &mdash; tanto para listas como para tarjetas&mdash;también puede abrir la función eligiendo la acción **Buscar entradas**.
+La función de búsqueda de entradas está disponible desde casi cualquier página presionando las teclas <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>. Desde páginas que muestran específicamente documentos registrados o entradas de documentos registrados &mdash; tanto para listas como para tarjetas&mdash;también puede abrir la función eligiendo la acción **Buscar entradas**.
 
 La página **Buscar entradas** incluye todos los documentos relacionados y las entradas basadas en el n.º documento y la fecha de registro. La página está dividida en tres secciones:
 
@@ -37,7 +31,7 @@ La página **Buscar entradas** incluye todos los documentos relacionados y las e
 - La sección central muestra documentos relacionados basados en la búsqueda.
 - La sección inferior muestra información sobre el documento de origen que se encontró mediante la búsqueda.
 
-## <a name="search-for-entries"></a>Buscar entradas
+## Buscar entradas
 
 Puede buscar entradas basándose en información sobre el documento, el contacto comercial o la referencia del producto. En la sección superior, seleccione una de las siguientes opciones según el tipo de información que tenga:
 
@@ -52,9 +46,9 @@ Después de hacer una selección, introduzca la información de búsqueda releva
 > [!TIP]
 > Para ver un par de ejemplos sobre el uso de **Buscar entradas**, consulte [Seguimiento de productos con seguimiento de productos](inventory-how-to-trace-item-tracked-items.md) y [Tutorial: seguimiento de números de lote de serie](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
 [Buscar documentos registrados sin registros de documentos entrantes](across-how-find-posted-documents-without-income-document-records.md)  

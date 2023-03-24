@@ -1,19 +1,13 @@
 ---
 title: Configurar términos de pago
-description: En la versión básica de Business Central, utilice las condiciones de pago para administrar las fechas de vencimiento y los descuentos de pago.
+description: 'En la versión básica de Business Central, utilice las condiciones de pago para administrar las fechas de vencimiento y los descuentos de pago.'
 author: edupont04
 ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605116"
 ---
-# <a name="set-up-payment-terms"></a>Configurar términos de pago
+# Configurar términos de pago
 
 Los términos de pago determinan cómo administra las fechas de vencimiento y los descuentos de pago. Puede configurar un número ilimitado de términos de pago y utilizar fórmulas de fecha para definirlos. Cuando se registra por primera vez para [!INCLUDE [prod_short](includes/prod_short.md)], la empresa de demostración ofrece algunos métodos de pago que las empresas suelen utilizar. Sin embargo, puede agregar tantas como necesite.  
 
@@ -25,7 +19,7 @@ Del mismo modo, cuando publica una nota de crédito, [!INCLUDE [prod_short](incl
 
 Si desea enviar a sus clientes recordatorios de pagos vencidos, debe configurar niveles y términos de recordatorio. Para más información, ver [Configurar términos y niveles de recordatorio](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Para configurar términos de pago
+## Para configurar términos de pago
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de pago** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ Después de definir los términos de pago, asígnelos a clientes y proveedores. 
 >
 > En ciertos países o regiones, *pueden* establecer condiciones de pago con pagos parciales. Para saber si esta capacidad es compatible en su país o región, consulte la sección **Funcionalidad local** en el panel de navegación del lado izquierdo de un artículo de [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configure formas de pago](finance-payment-methods.md)  
 [Configurar prepagos](finance-set-up-prepayments.md)  

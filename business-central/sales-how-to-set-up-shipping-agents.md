@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 012fe136161d891cb4adde6ace120040f7da909a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513684"
 ---
-# <a name="set-up-shipping-agents"></a>Configurar transportistas
+# Configurar transportistas
 Configure un código para cada uno de sus transportistas e introduzca información acerca de ellos.  
 
 Si introduce una dirección de Internet para el transportista, y éste ofrece servicios de seguimiento de paquetes a través de Internet, utilice la función de seguimiento automático de paquetes. Para obtener más información, vea [Realizar seguimiento de paquetes](sales-how-track-packages.md).
@@ -26,7 +20,7 @@ Puede configurar un número ilimitado de servicios para cada transportista y esp
 
 Una vez asignado un servicio de transportista a una línea de pedido de venta, el tiempo de envío del servicio se incluirá en el cálculo del compromiso de entrega de dicha línea. Para obtener más información, consulte [Calcular las fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md).
 
-## <a name="to-set-up-a-shipping-agent"></a>Para configurar un transportista  
+## Para configurar un transportista  
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transportistas**, y luego elija el enlace relacionado.  
 2.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Elija la acción **Servicios transportista**.
@@ -35,14 +29,13 @@ Una vez asignado un servicio de transportista a una línea de pedido de venta, e
 > [!NOTE]  
 >  Si elimina el transportista de la línea de pedido, también se eliminará el código de servicio de transportista. Se volverá a calcular el contenido de los campos basados en parte en el servicio de transportista.  
 
-## <a name="see-also"></a>Consulte también
-[Configuración de métodos de envío](sales-how-set-up-shipment-methods.md)  
+## Consulte también
+[Configurar métodos de envío](sales-how-set-up-shipment-methods.md)  
 [Hacer un seguimiento de los paquetes](sales-how-track-packages.md)    
-[Gestión de almacenes](warehouse-manage-warehouse.md)  
+[Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
-[Configuración de la gestión del almacén](warehouse-setup-warehouse.md)     
+[Configuración de Warehouse Management](warehouse-setup-warehouse.md)     
 [Gestión de ensamblaje](assembly-assemble-items.md)    
-[Detalles de diseño: Warehouse Management](design-details-warehouse-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

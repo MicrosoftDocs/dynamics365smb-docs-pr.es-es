@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ac6bae8d001728da43fc7357cf156d6ac6fc6633
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383918"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Programación de una sincronización entre Business Central y Dataverse
+
+# Programación de una sincronización entre Business Central y Dataverse
 
 
 Puede sincronizar [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en intervalos programados configurando proyectos en la cola de proyectos. Los proyectos de sincronización sincronizan los datos de los registros de [!INCLUDE[prod_short](includes/prod_short.md)] y de los registros de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] que se han emparejado previamente. O, para registros que no se han emparejado, según la dirección y las reglas de sincronización, los proyectos de sincronización pueden crear y emparejar registros nuevos en el sistema de destino. 
@@ -31,7 +26,7 @@ Hay varios trabajos de sincronización que están disponibles de forma inmediata
 
 Puede los proyectos en la página de **Movimientos de cola de proyectos**. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries"></a>Movimientos de la cola de proyectos de sincronización predeterminados
+## Movimientos de la cola de proyectos de sincronización predeterminados
 
 La tabla siguiente describe los proyectos de sincronización predeterminados para [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -43,7 +38,7 @@ La tabla siguiente describe los proyectos de sincronización predeterminados par
 | Proyecto de sincronización de PROVEEDOR - Common Data Service | Sincroniza las cuentas de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] con los clientes de [!INCLUDE[prod_short](includes/prod_short.md)]. | Bidireccional | PROVEEDOR | 30 | 720<br> (12 h) |
 | Proyecto de sincronización de VENDEDORES - Common Data Service | Sincroniza los vendedores de [!INCLUDE[prod_short](includes/prod_short.md)] con los usuarios de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. | De [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)] | VENDEDORES | 30 | 1440<br> (24 h) |
 
-## <a name="synchronization-process"></a>Proceso de sincronización
+## Proceso de sincronización
 
 Cada movimiento de cola de proyectos de sincronización utiliza una asignación de tabla de integración concreta que especifica qué tabla de [!INCLUDE[prod_short](includes/prod_short.md)] y tabla de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] se deben sincronizar. Las asignaciones de tabla también incluyen configuraciones que controlan qué registros de la tabla de [!INCLUDE[prod_short](includes/prod_short.md)] y de la tabla de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] se deben sincronizar.  
 
@@ -64,7 +59,7 @@ Para sincronizar datos, los registros de tabla de [!INCLUDE[cds_long_md](include
 
 - Con la sincronización bidireccional, el proyecto se sincroniza de [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y, a continuación, de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="about-inactivity-timeouts"></a>Acerca de los tiempos de espera de inactividad
+## Acerca de los tiempos de espera de inactividad
 Algunos movimientos de cola de proyecto, como los que programan la sincronización entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)], utilizan el campo **Tiempo de inactividad** en la PÁGINA Mov. cola proyecto para evitar que el movimiento de cola de proyecto se ejecute innecesariamente.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Diagrama de flujo para cuando los movimientos de cola de proyecto se ponen en espera debido a la inactividad.":::
@@ -76,7 +71,7 @@ Por ejemplo, de forma predeterminada, el movimiento de cola de trabajo DIVISA, q
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] activará automáticamente los movimientos de cola de proyecto que están en espera solo cuando se producen cambios en [!INCLUDE[prod_short](includes/prod_short.md)]. Los cambios en [!INCLUDE[cds_long_md](includes/cds_long_md.md)] no activarán los movimientos de cola de proyecto.
 
-## <a name="to-view-the-synchronization-job-log"></a>Para ver el registro de proyectos de sincronización
+## Para ver el registro de proyectos de sincronización
 
 1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, introduzca **Registro de sincronización de integración** y luego elija el enlace relacionado.
 2. Si se generan uno o más errores para un proyecto de sincronización, el número de errores aparece en la columna **Erróneo**. Para ver los errores del proyecto, elija el número.  
@@ -84,16 +79,16 @@ Por ejemplo, de forma predeterminada, el movimiento de cola de trabajo DIVISA, q
     > [!TIP]  
     > Puede ver todos los errores del proyecto de sincronización abriendo el registro de errores del proyecto de sincronización directamente.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Para ver el registro del proyecto de sincronización desde las asignaciones de tabla
+## Para ver el registro del proyecto de sincronización desde las asignaciones de tabla
 
 1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, introduzca **Asignaciones de tabla de integración** y luego elija el enlace relacionado.
 2. En la página **Lista de asignaciones de tablas de integración**, seleccione un movimiento y después seleccione **Registro de trabajo de sinc. de integración**.  
 
-## <a name="to-view-the-synchronization-error-log"></a>Para ver el registro de errores de sincronización
+## Para ver el registro de errores de sincronización
 
 - Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, introduzca **Errores de sincronización de integración** y luego elija el enlace relacionado.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Sincronización de datos en Business Central y [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)  
