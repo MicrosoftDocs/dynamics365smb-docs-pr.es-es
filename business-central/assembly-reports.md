@@ -4,31 +4,25 @@ description: Consulte qué informes y análisis de ensamblado están disponibles
 author: AndreiPanko
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905, Report_801, Report_809, Report_810, Report_811, Report_812, Report_915, Report_5871, Report_5872
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905, Report_801, Report_809, Report_810, Report_811, Report_812, Report_915, Report_5871, Report_5872'
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: e518b25ef67dd2abaee2dc0775fe1ccc18e8dbe8
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605386"
 ---
-# <a name="assembly-reports-and-analytics-in-business-central"></a>Informes y análisis de ensamblado en Business Central
+# Informes y análisis de ensamblado en Business Central
 
 Los informes de ensamblado en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de la producción y los negocios obtener información y estadísticas sobre las actividades de ensamblado actuales y pasadas.  
 
-## <a name="reports"></a>Informes
+## Informes
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks"></a>Tareas
+## Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  

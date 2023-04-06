@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514288"
 ---
-# <a name="close-accounting-periods"></a>Cerrar periodos contables
+# Cerrar periodos contables
 
 Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman.
 
-## <a name="to-close-accounting-periods"></a>Para cerrar periodos contables
+## Para cerrar periodos contables
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Periodos contables** y luego elija el enlace relacionado.
 2. En la página **Periodos contables**, elija la acción **Cerrar ejercicio**.
@@ -38,7 +32,7 @@ Incluso aunque un ejercicio se haya cerrado, todavía podrá registrar en él mo
 
 Después de cerrar un ejercicio, debe regularizar las cuentas de explotación y transferir los resultados del año a una cuenta del balance. Puede repetirlo cada vez que registre el ejercicio cerrado.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Cierre de libros](year-close-books.md)  
 [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  

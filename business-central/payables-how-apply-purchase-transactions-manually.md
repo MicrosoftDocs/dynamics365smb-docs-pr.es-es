@@ -1,23 +1,17 @@
 ---
 title: Conciliar los recibos o reembolsos de pagos de proveedores en el diario de pagos
-description: Para procesar, hacer coincidir o conciliar pagos o reembolsos de proveedor manualmente, liquide el importe con uno o varios movimientos de proveedores abiertos.
+description: 'Para procesar, hacer coincidir o conciliar pagos o reembolsos de proveedor manualmente, liquide el importe con uno o varios movimientos de proveedores abiertos.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment application, payment processing, match payments
-ms.search.form: 62, 233, 522, 623
+ms.search.keywords: 'payment application, payment processing, match payments'
+ms.search.form: '62, 233, 522, 623'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 001d747391998df212bacf9dbde23ebbe240bc2b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521941"
 ---
-# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor
+# Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor
 Cuando envía un pago o recibe un reembolso de un proveedor, debe decidir si va a liquidar uno o varios movimientos pendientes con el pago o el reembolso. Puede especificar el importe exacto que desea liquidar con el albarán de pago o el reembolso, y liquidar sólo parcialmente movimientos del proveedor. Debe liquidar todos los movimientos de proveedores para obtener estadísticas e informes correctos de los extractos de cuentas y los intereses.
 
 > [!NOTE]  
@@ -36,7 +30,7 @@ Puede liquidar pagos a proveedores manualmente a los documentos de compra relaci
 
 También puede liquidar los pagos a proveedores y los pagos a clientes, después los pagos aparecen como transacciones negativas en su banco. En la página **Diario de conciliación de pagos**, puede usar las funciones para importar extractos bancarios, para la liquidación automática y para la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
-## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Para liquidar uno o varios movimientos del proveedor con un pago:
+## Para liquidar uno o varios movimientos del proveedor con un pago:
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de pagos** y luego elija el enlace relacionado.
 2. En la página **Diario de pagos**, en la primera línea del diario, escriba la información correspondiente sobre el movimiento de pago.
 3. Para liquidar un solo movimiento de proveedor:
@@ -54,7 +48,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
 5. Elija el botón **Aceptar**.
 6. Seleccione la acción **Registrar**, para registrar el diario de pagos.
 
-## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Para liquidar un abono con uno o varios movimientos de proveedor
+## Para liquidar un abono con uno o varios movimientos de proveedor
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abono de compra** y, a continuación, elija el enlace relacionado.
 2. Abra el abono que desea liquidar.
 3. Escriba la información relevante en la cabecera.
@@ -71,7 +65,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
    La página **Abono compra** muestra el movimiento que ha introducido en los campos **Liq. por tipo documento** y **Liq. por n.º documento**. La página también muestra el importe del abono para registrar, ajustado con los descuentos por pronto pago.
 7. Seleccione el botón **Registrar** para crear el abono de compra.
 
-## <a name="to-apply-posted-vendor-ledger-entries"></a>Para liquidar movimientos de proveedor registrados
+## Para liquidar movimientos de proveedor registrados
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra el proveedor pertinente con movimientos ya registrados.
 3. Seleccione la acción **Movimientos** y, a continuación, seleccione la acción **Liquidar movs**.
@@ -88,7 +82,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
     La página **Registrar liquidación** se abre con el número de documento del movimiento de liquidación y la fecha de registro del movimiento con la fecha más reciente.
 9. Para registrar la liquidación, elija el botón **Aceptar**.
 
-## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Para liquidar movimientos de proveedor entre divisas distintas
+## Para liquidar movimientos de proveedor entre divisas distintas
 Si se realiza una venta a un proveedor en una divisa y se efectúa el pago en otra divisa, todavía se puede solicitar la factura para el pago.
 
 Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movimiento 2) en otra divisa, se usa la fecha de registro del Movimiento 1 para buscar el tipo de cambio adecuado para convertir los importes del Movimiento 2. El tipo de cambio relevante se encuentra en la página **Tipos cambio divisa**. En ese caso, debe habilitar la liquidación de movimientos de proveedor en divisas distintas. Para obtener más información, vea [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -103,7 +97,7 @@ Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movim
 > [!IMPORTANT]  
 >   Si liquida movimientos en distintas divisas, los movimientos se convierten a divisa local. Aunque los tipos de cambio de las dos divisas son fijos, como entre USD y EUR, es posible que exista un pequeño importe residual al convertir los importes de divisa extranjera a USD. Estos importes residuales mínimos se registran como ganancias y pérdidas en la cuenta especificada en el campo **Cta. dif. pos. realizadas** o **Cta. dif. neg. realizadas** de la página **Divisas**. El campo **Importe (USD)** también se ajusta para los movimientos de proveedor correspondientes.
 
-## <a name="to-unapply-an-application-of-vendor-entries"></a>Para deshacer un movimiento de liquidación de movimientos de proveedor
+## Para deshacer un movimiento de liquidación de movimientos de proveedor
 Cuando se deshace una liquidación errónea, se crean y registran movimientos de corrección que son idénticos al original, pero de signo opuesto en el campo de importe, para todos los movimientos, incluidos todos los registros de contabilidad derivados de la liquidación, como los descuentos por pronto pago y las pérdidas y ganancias en divisas. Los movimientos que se cerraron con la liquidación se volverán a abrir.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
@@ -117,7 +111,7 @@ Cuando se deshace una liquidación errónea, se crean y registran movimientos de
 > [!IMPORTANT]  
 >   Si se ha liquidado un movimiento con más de un movimiento de liquidación, primero deberá deshacer la liquidación más reciente.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Pagos](payables-manage-payables.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

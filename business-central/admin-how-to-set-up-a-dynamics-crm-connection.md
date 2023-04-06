@@ -6,14 +6,12 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/30/2021
+ms.date: 03/22/2023
 ms.author: bholtorf
 ---
 # Conectar a Microsoft Dataverse
 
-
-
-Este tema describe cómo configurar una conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Por lo general, las empresas crean la conexión para integrar y sincronizar datos con otra aplicación empresarial de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)].  
+Este artículo describe cómo configurar una conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Por lo general, las empresas crean la conexión para integrar y sincronizar datos con otra aplicación empresarial de Dynamics 365, como [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 ## Antes de comenzar
 
@@ -45,6 +43,7 @@ En todos los tipos de autenticación distintos de la autenticación de Microsoft
 > Al dar su consentimiento en nombre de la organización, el administrador da derecho a la aplicación de Azure registrada denominada [!INCLUDE[prod_short](includes/prod_short.md)] Integration a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] para sincronizar datos usando las credenciales de usuario automáticamente creadas de [!INCLUDE[prod_short](includes/prod_short.md)] Integration.
 
 ### Para usar la guía de configuración asistida Configuración de conexión de Dataverse
+
 La guía de configuración de la conexión de Dataverse puede facilitar la conexión de las aplicaciones e incluso puede ayudarlo a ejecutar una sincronización inicial. Si elige ejecutar la sincronización inicial, [!INCLUDE[prod_short](includes/prod_short.md)] revisará los datos en ambas aplicaciones y brindará recomendaciones sobre cómo abordar la sincronización inicial. La siguiente tabla describe las recomendaciones.
 
 |Recomendación  |Descripción  |
@@ -159,6 +158,7 @@ Normalmente, el emparejamiento produce un error por las siguientes razones:
 > Para ayudarle a obtener una descripción general del progreso de emparejamiento, el campo **Emparejado con Dataverse** muestra si un registro está emparejado con una entidad [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Puede usar el campo **Emparejado con Dataverse** para filtrar la lista de registros que está sincronizando.
 
 ## Actualice las conexiones de Business Central Online para usar autenticación basada en certificados
+
 > [!NOTE]
 > Esta sección es relevante solo para los inquilinos de [!INCLUDE[prod_short](includes/prod_short.md)] en línea hospedados por Microsoft. Los inquilinos online hospedados por ISV y las instalaciones locales no se ven afectados.
 
@@ -182,17 +182,6 @@ Para evitar interrumpir las integraciones, _debe actualizar_ la conexión para u
 Para conectar [!INCLUDE[prod_short](includes/prod_short.md)] local a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], debe especificar alguna información en la página **Configuración de la conexión de Dataverse**.
 
 Para conectarse usando una cuenta de Azure Active Directory (Azure AD), debe registrar una aplicación en Azure AD. Tendrá que proporcionar el identificador de la aplicación, el secreto de Key Vault y la URL de redireccionamiento que se va a utilizar. La URL de redireccionamiento se rellena previamente y debería funcionar para la mayoría de las instalaciones. Debe configurar su instalación para usar HTTPS. Para más información, vea [Configuración SSL para proteger la conexión del cliente web de Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Si está configurando su servidor para tener una página de inicio diferente, puede cambiar la dirección URL. El secreto del cliente se guardará como una cadena encriptada en su base de datos. 
-
-### Requisitos previos
-
-Dataverse debe usar uno de los siguientes tipos de autenticación:
-
-* Office365 (heredado)
-
-  > [!IMPORTANT]
-  > A partir de abril de 2022, Office365 (heredado) ya no será compatible. Para obtener más información, consulte [Próximos cambios importantes (ceses de uso) en Power Apps, Power Automate y aplicaciones de interacción con el cliente](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-* Office365 (moderno, basado en secreto de cliente OAuth2)
-* OAuth
 
 ### Para registrar una solicitud en Azure AD para conectarse desde Business Central a Dataverse
 

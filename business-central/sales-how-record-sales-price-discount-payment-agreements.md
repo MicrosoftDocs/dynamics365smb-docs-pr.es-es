@@ -7,18 +7,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: special price, alternate price, pricing
-ms.search.form: 7022, 7024
+ms.search.keywords: 'special price, alternate price, pricing'
+ms.search.form: '7022, 7024'
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652197"
 ---
-# <a name="record-special-sales-prices-and-discounts"></a>Registrar precios y descuentos de ventas especiales
+
+# Registrar precios y descuentos de ventas especiales
 
 > [!NOTE]
 > El segundo lanzamiento de versiones de 2020 introdujo nuevos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo que usa la última versión, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Obtenga más información en [Habilitar las próximas funciones de antemano](/dynamics365/business-central/dev-itpro/administration/feature-management), en el contenido de la administración.
@@ -49,17 +44,17 @@ Puede configurar dos tipos de descuentos para ofertas:
 > [!TIP]  
 > Si nunca debe venderse un producto con descuento, simplemente deje vacíos los campos de descuento en la ficha del producto y no incluya el producto en ninguna configuración de descuento de línea.
 
-## <a name="to-set-up-a-sales-price-for-a-customer"></a>Para configurar un precio de venta para un cliente
+## Para configurar un precio de venta para un cliente
 
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualización de la característica **Nueva experiencia de precios de venta**. Si la actualización de funciones no está activada, siga los pasos de la pestaña Experiencia actual. 
 
-#### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)
+#### [Experiencia actual](#tab/current-experience/)
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Elija el cliente y, a continuación, elija la acción **Precios**.
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Rellene una línea para cada combinación que aplicará un precio de venta especial al cliente.
 
-#### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience/)  
+#### [Nueva experiencia](#tab/new-experience/)  
 
 De forma predeterminada, el estado de las nuevas listas de precios es **Borrador**. Las listas de precios preliminares no se incluyen en los cálculos de precios. Cuando haya terminado de agregar líneas y desee empezar a usar los precios, puede cambiar el estado a **Activo**.
 
@@ -75,7 +70,7 @@ De forma predeterminada, el estado de las nuevas listas de precios es **Borrador
 
 ---
 
-## <a name="using-sales-and-purchase-price-lists"></a>Uso de listas de precios de compra y venta
+## Uso de listas de precios de compra y venta
 
 > [!NOTE]
 > El uso de listas de precios requiere que su administrador haya habilitado la actualización de función **Nueva experiencia de precios de venta** en **Gestión de funciones**. Obtenga más información en [Habilitar las próximas funciones de antemano](/dynamics365/business-central/dev-itpro/administration/feature-management), en el contenido de la administración.
@@ -84,7 +79,7 @@ La mayor parte de la nueva experiencia de precios de venta es similar a la exper
 
 Los campos **Se aplica al tipo** y **Se aplica al N.º** le permiten elegir a qué se aplicará una lista de precios, como el cliente o el grupo de precios del cliente. Usando **Ver columnas para**, puede mostrar u ocultar columnas relevantes para establecer precios, descuentos o precios y descuentos.
 
-### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Conversión de precios ya existentes al activar la actualización de la función de precios
+### Conversión de precios ya existentes al activar la actualización de la función de precios
 
 Cuando habilita la actualización de funciones **Nueva experiencia de precios de venta** en la página **Gestión de funciones**, se abre la guía **Actualización de datos de funciones**. Use la opción **Usar precios predeterminados** de la siguiente manera:
 
@@ -111,7 +106,7 @@ Si tiene muchas combinaciones, tendrá muchas listas de precios.
 
 Si ya ha habilitado la Nueva experiencia de precios, puede crear listas de precios predeterminadas manualmente o especificar una lista de precios existente como predeterminada. Para establecer una lista de precios existente como predeterminada, active la opción **Permitir actualizar valores predeterminados** en la lista de precios. A continuación, en las páginas **Configuración de ventas y cobros**, **Compras y pagos** y **Configuración de proyectos** establezca la lista de precios como predeterminada.
 
-### <a name="editing-active-price-lists"></a>Editar listas de precios activas
+### Editar listas de precios activas
 
 Para permitir que las personas editen precios en listas de precios activas para artículos, recursos, clientes, proveedores u otras entidades que usan precios, active la opción **Permitir editar precio activo** en las páginas **Configuración de ventas y cuentas por cobrar** y **Configuración de compras y pagos**.
 
@@ -124,7 +119,7 @@ La página **Resumen de precios** proporciona una descripción general de todos 
 
 Para agregar nuevos precios, en la página **Resumen de precios**, utilice la acción **Agregar nuevas líneas**. La página **Hoja de cálculo de precios** se abre y puede agregar líneas de precios sugiriéndolas en función de los criterios, copiándolas de otras listas de precios o introduciéndolas manualmente. Posteriormente, puede utilizar la acción **Implementar cambio de precio** para comparar los nuevos precios con otras listas de precios para evitar duplicados y ambigüedades durante el cálculo de precios.
 
-#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Crear líneas de precios de venta basadas en el precio unitario
+#### Crear líneas de precios de venta basadas en el precio unitario
 
 1. En la página **Hoja de trabajo de precios**, elija la acción **Proponer líneas**.
 2. En la página **Líneas de precio: crear nuevas**, rellene los campos según sus necesidades. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -137,7 +132,7 @@ Para agregar nuevos precios, en la página **Resumen de precios**, utilice la ac
 5. Elija **Aceptar**. Se agregarán más líneas a la página **Hoja de precios** con la configuración seleccionada y los precios unitarios de las fichas de productos.
 6. Edite las líneas creadas con los nuevos precios unitarios o descuentos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Crear líneas de precios de venta basadas en listas de precios ya existentes
+#### Crear líneas de precios de venta basadas en listas de precios ya existentes
 
 1. En la página **Hoja de trabajo de precios**, elija la acción **Copiar líneas**.
 2. En la página **Líneas de precio: copiar existente**, seleccione una lista de precios ya existente en el campo **De lista de precios**.
@@ -151,11 +146,11 @@ Para agregar nuevos precios, en la página **Resumen de precios**, utilice la ac
 6. Elija **Aceptar**. Se agregarán líneas nuevas a la página **Hoja de precios** con la configuración seleccionada.
 7. Edite las líneas creadas con los nuevos precios unitarios o descuentos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-sales-prices"></a>Para copiar precios de venta
+## Para copiar precios de venta
 
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualización de la característica **Nueva experiencia de precios de venta**. Si la actualización de funciones no está activada, siga los pasos de la pestaña Experiencia actual.
 
-#### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)  
+#### [Experiencia actual](#tab/current-experience/)  
 
 Si desea copiar precios de venta, por ejemplo, los precios de venta de un cliente determinado a un grupo de precios de clientes, debe ejecutar el proceso **Sugerir precio venta en hoja**. en la página **Hoja de precios de venta**.  
 
@@ -169,7 +164,7 @@ Si desea copiar precios de venta, por ejemplo, los precios de venta de un client
    > [!NOTE]  
    > El proceso sólo crea propuestas; no implementa los cambios propuestos. Si está satisfecho con las propuestas y desea implementarlas, es decir, insertarlas en la página **Precios de venta**, elija la acción **Implementar cambios de precios** en la página **Hoja de precios de venta**.
 
-#### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience/)  
+#### [Nueva experiencia](#tab/new-experience/)  
 
 Puede especificar si la nueva lista de precios utilizará la configuración del encabezado de la lista que está copiando o la configuración de la nueva lista a la que está copiando. Para usar la configuración de la lista de precios a la que está copiando los precios, active la alternancia **Usar valores predeterminados desde destino**.
 
@@ -182,11 +177,11 @@ Puede especificar si la nueva lista de precios utilizará la configuración del 
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Para actualizar de forma masiva los precios de los artículos
+## Para actualizar de forma masiva los precios de los artículos
 
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualización de la característica **Nueva experiencia de precios de venta**. Si la actualización de funciones no está activada, siga los pasos de la pestaña Experiencia actual.
 
-#### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)
+#### [Experiencia actual](#tab/current-experience/)
 
 Para actualizar de forma masiva los precios de los artículos, como aumentar todos los precios en un porcentaje, puede rellenar la página Hoja de trabajo precios de venta usando los siguientes trabajos por lotes:
 
@@ -202,7 +197,7 @@ Para actualizar de forma masiva los precios de los artículos, como aumentar tod
 7. Elija el botón **Aceptar** para completar las líneas en la página **Hoja de trabajo de precio de venta** con los nuevos precios sugeridos.
 8. Para implementar las sugerencias, utilice la acción **Implementar cambios de precio**. El trabajo por lotes crea sugerencias pero no las implementa. 
 
-#### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience/)
+#### [Nueva experiencia](#tab/new-experience/)
 
 Para actualizar los precios de varios productos, debe crear una nueva lista de precios y luego copiar las líneas desde una lista de precios existente. Cuando copie las líneas, puede usar filtros para especificar qué copiar, y puede especificar un número entero o decimal en el campo **Factor de ajuste** para aumentar o disminuir los precios. El estado de la lista de precios debe estar en estado **Borrador**. Si es necesario, puede desactivar la lista de precios anterior.
 
@@ -211,7 +206,7 @@ Para actualizar los precios de varios productos, debe crear una nueva lista de p
 
 ---
 
-## <a name="best-price-calculation"></a>Cálculo del mejor precio
+## Cálculo del mejor precio
 
 Después de registrar precios especiales y alinear descuentos para ventas y compras, [!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente el mejor precio en documentos de compra y venta y en líneas de diario de trabajos y artículos.
 
@@ -234,7 +229,7 @@ El mejor precio es el precio más bajo con el mayor descuento de línea permitid
 
 Si no se puede calcular ningún precio especial para el producto de la línea, se inserta el último coste directo o el precio unitario de la ficha de producto.
 
-## <a name="sales-invoice-discounts-and-service-charges"></a>Descuentos y cargos por servicios de la factura de venta
+## Descuentos y cargos por servicios de la factura de venta
 
 Al utilizar descuentos en factura, el importe total de la factura determina el tamaño del descuento aplicado. En la página **Dtos. factura clientes**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  
 
@@ -256,15 +251,15 @@ Además de, o en lugar de, un porcentaje de descuento, puede vincular un importe
 
 Para formación sobre descuentos en ventas, consulte [Establecer descuentos para sus clientes](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Calcular descuentos en factura para ventas
+### Calcular descuentos en factura para ventas
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Para configurar un descuento de línea de venta para un cliente
+## Para configurar un descuento de línea de venta para un cliente
 
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualización de la característica **Nueva experiencia de precios de venta**. Si la actualización de funciones no está activada, siga los pasos de la pestaña Experiencia actual.
 
-#### <a name="current-experience"></a>[Experiencia actual](#tab/current-experience/)  
+#### [Experiencia actual](#tab/current-experience/)  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Descuentos de línea**.
@@ -275,7 +270,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualiz
 >
 > Para configurar precios o descuentos de línea para todos los clientes, un grupo de precios de clientes o una campaña, debe abrir las páginas desde una tarjeta de producto. Alternativamente, para precios de venta, use la página **Hoja de trabajo de precio de venta**. Obtenga más información en [Para actualizar de forma masiva los precios de los productos](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
-#### <a name="new-experience"></a>[Nueva experiencia](#tab/new-experience/)  
+#### [Nueva experiencia](#tab/new-experience/)  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Clientes** y luego elija el enlace relacionado.
 2. Elija el cliente y, a continuación, elija la acción **Listas de precios de venta**.
@@ -292,7 +287,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualiz
 
 ---
 
-## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Para configurar un descuento en factura para un cliente
+## Para configurar un descuento en factura para un cliente
 
 Después de decidir qué clientes pueden obtener descuentos en factura, introduzca el código de descuento en factura en las páginas de fichas cliente. Luego configure los términos para cada código.
 
@@ -311,9 +306,9 @@ Configure los nuevos términos de descuento en factura de ventas.
 4. En el campo **% descuento**, introduzca el descuento en la factura como un porcentaje del importe de la factura.
 5. Repita los pasos del 5 al 7 para cada divisa que el cliente reciba un descuento diferente de factura.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-sales-prices-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/manage-sales-prices-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Ccial](sales-manage-sales.md)  

@@ -1,22 +1,16 @@
 ---
 title: Crear registros de documento entrantes
-description: Utilice diferentes funciones en la página Documentos entrantes para revisar recibos de gastos, administrar tareas de OCR, convertir archivos de documentos entrantes y adjuntar archivos externos.
+description: 'Utilice diferentes funciones en la página Documentos entrantes para revisar recibos de gastos, administrar tareas de OCR, convertir archivos de documentos entrantes y adjuntar archivos externos.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
+ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 3f49980df13e62d948e7b2c17be54779bc8f901a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532463"
 ---
-# <a name="create-incoming-document-records"></a>Crear registros de documento entrantes
+# Crear registros de documento entrantes
 
 En la página **Documentos entrantes**, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes.
 
@@ -24,7 +18,7 @@ Para registrar un documento externo en [!INCLUDE[prod_short](includes/prod_short
 
 Para poder usar la función **Documentos entrantes**, debe realizar la configuración necesaria. Para obtener más información, vea [Configurar documentos entrantes](across-how-setup-income-documents.md).
 
-## <a name="to-approve-or-reject-an-incoming-document"></a>Para aprobar o rechazar un documento entrante
+## Para aprobar o rechazar un documento entrante
 
 Si ha configurado la característica **Documentos entrantes** para requerir aprobación para crear documentos, los usuarios con los derechos adecuados deben aprobar los registros antes de que se procesen. Para más información, vea [Configurar aprobadores de registros de documentos entrantes](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -33,7 +27,7 @@ Si ha configurado la característica **Documentos entrantes** para requerir apro
 
 Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de la línea de documento entrante. El usuario responsable de crear, por ejemplo, facturas de compra puede procesar el registro.
 
-## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Para crear un registro de documento entrante tomando una foto
+## Para crear un registro de documento entrante tomando una foto
 
 > [!NOTE]  
 > El procedimiento siguiente solo se aplica a los clientes de tabletas y teléfonos de [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -45,7 +39,7 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 
     Se crea un nuevo registro de documento entrante con la imagen adjunta.
 
-## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Para adjuntar una imagen en un registro de documento entrante
+## Para adjuntar una imagen en un registro de documento entrante
 
 > [!NOTE]  
 > El procedimiento siguiente solo se aplica a los clientes de tabletas y teléfonos de [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -57,7 +51,7 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 
     La imagen se adjunta al registro de documento entrante.
 
-## <a name="to-create-an-incoming-document-record-manually"></a>Para crear un registro de documento entrante manualmente
+## Para crear un registro de documento entrante manualmente
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.
 2. Elija la acción **Nuevo** y, a continuación, la acción **Crear desde archivo**.  
@@ -67,9 +61,9 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 6. En la página **Insertar archivo**, seleccione el archivo que representa el documento entrante en cuestión y, a continuación, elija el botón **Abrir**.
 7. En la página **Documento entrante**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Usar OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md)
 [Crear registros de documentos entrantes directamente desde documentos y movimientos](across-how-connect-disconnect-income-document-records.md)

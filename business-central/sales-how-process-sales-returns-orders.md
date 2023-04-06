@@ -1,29 +1,23 @@
 ---
 title: Procesar devoluciones ventas
-description: Describe cómo crear un pedido de devolución de venta para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.
+description: 'Describe cómo crear un pedido de devolución de venta para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: undo, credit memo, return, order
-ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
+ms.search.keywords: 'undo, credit memo, return, order'
+ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 78b4c6412b24721b52a5c271c0e1c5a4c7ba8775
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529115"
 ---
-# <a name="process-sales-return-orders"></a>Procesar devoluciones ventas  
+# Procesar devoluciones ventas  
 
 Si necesita más control del proceso de devolución de ventas, como documentos de almacén para el manejo de artículos o una mejor descripción al recibir productos de varios documentos de ventas con una sola devolución de ventas, puede crear órdenes de devolución de ventas. Una orden de devolución de ventas emite automáticamente la nota de crédito de ventas relacionada y otros documentos relacionados con la devolución, como una orden de venta de reemplazo, si es necesario.
 
 Además de la original factura de venta registrada, puede liquidar el abono de venta o el pedido de devolución de ventas a otros documentos de venta, por ejemplo otra factura de venta registrada, porque el cliente también devuelve los productos entregados con dicha factura.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados  
+## Crear un pedido de devolución de ventas basado en uno o más documentos de ventas publicados  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.  
@@ -45,7 +39,7 @@ Además de la original factura de venta registrada, puede liquidar el abono de v
 8. Seleccione las líneas que desea copiar en el nuevo documento.  
 
     > [!NOTE]  
-    >  Si utiliza Ctrl+E para seleccionar todas las líneas, se copiarán todas las líneas incluidas en el filtro definido, pero se ignorará el filtro **Mostrar sólo líneas reversibles**. Por ejemplo, imagine que ha filtrado las líneas en un número de documento determinado con dos líneas, una de las cuales ya se ha devuelto. Aunque el campo **Mostrar sólo líneas reversibles** esté seleccionado, si presiona Ctrl+E para copiar todas las líneas, se copiarán las dos líneas, en lugar de copiar solamente aquella que aún no se ha revertido.  
+    >  Si utiliza <kbd>Ctrl</kbd>+<kbd>A</kbd> para seleccionar todas las líneas, se copiarán todas las líneas incluidas en el filtro definido, pero se ignorará el filtro **Mostrar solo líneas reversibles**. Por ejemplo, imagine que ha filtrado las líneas en un número de documento determinado con dos líneas, una de las cuales ya se ha devuelto. Aunque el campo **Mostrar solo líneas reversibles** esté seleccionado, si seleccione <kbd>Ctrl</kbd>+<kbd>A</kbd> para copiar todas las líneas, se copiarán las dos líneas, en lugar de copiar solamente aquella que aún no se ha revertido.  
 
 9. Seleccione **Aceptar** para copiar las líneas en el documento nuevo.  
 
@@ -73,7 +67,7 @@ Además de la original factura de venta registrada, puede liquidar el abono de v
 10. En la página **Pedido dev. venta**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
 11. Seleccione la acción **Registrar**.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Para crear un pedido de venta de reposición desde un pedido de devolución de venta
+## Para crear un pedido de venta de reposición desde un pedido de devolución de venta
 Quizás decida compensar a un cliente por un producto que le vendió cambiando el producto. Puede cambiarlo por el mismo producto o por otro distinto. Esta situación se puede dar, por ejemplo, si por error envió al cliente el producto equivocado,  
 
 1. En la página **Pedido dev. venta** para un proceso de devolución activo, en una línea vacía, haga un movimiento negativo para el producto de reposición insertando un importe negativo en el campo **Cantidad** .  
@@ -81,7 +75,7 @@ Quizás decida compensar a un cliente por un producto que le vendió cambiando e
 3. En la página **Mover líneas ventas negativas**, rellene los campos en una línea según sea necesario.
 4. Elija el botón **Aceptar**. La línea negativa del producto de reposición se borra del pedido de devolución de ventas y se inserta en una nueva página **Pedido venta**. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Crear documentos relativos a devoluciones a partir de un pedido de devolución de ventas
+## Crear documentos relativos a devoluciones a partir de un pedido de devolución de ventas
 Puede crear automáticamente órdenes de venta de reposición, órdenes de devolución de compras y órdenes de compra de sustitución durante el proceso de devolución de ventas. Esto puede ser útil, por ejemplo, en aquellos casos en los que desee controlar productos con garantías proporcionadas por proveedores.
 
 1. En la página **Pedido dev. venta** para un proceso de devolución activo, elija la acción **Crear docs. relacionados-dev.**
@@ -90,7 +84,7 @@ Puede crear automáticamente órdenes de venta de reposición, órdenes de devol
 4. Si es necesario pedir la devolución de un producto al proveedor, active la casilla de verificación **Crear pedido compra**.
 5. Si es necesario crear un pedido de venta de reposición, active la casilla de verificación **Crear ped. venta**.
 
-## <a name="to-create-a-restock-charge"></a>Para crear un cargo de reaprovisionamiento
+## Para crear un cargo de reaprovisionamiento
 Quizás decida cobrar a su cliente un cargo de reaprovisionamiento para cubrir los costes de manipulación física en la devolución de un producto. Esto podría suceder, por ejemplo, si el cliente pidió por error el producto equivocado o cambió de parecer una vez recibido el producto que le vendió.
 
 Registre este precio aumentado como un cargo de producto en un abono o una devolución y asígnelo al envío registrado. A continuación se describe de un pedido de devolución de ventas, pero los mismos pasos se aplican a un abono de venta.
@@ -101,9 +95,9 @@ Registre este precio aumentado como un cargo de producto en un abono o una devol
 
 Cuando registre el pedido de devolución de ventas, se añadirá el cargo de reaprovisionamiento al importe del movimiento de ventas correspondiente. De este modo podrá mantener la precisión de la valoración del inventario.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  

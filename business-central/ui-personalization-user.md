@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716576"
 ---
-# <a name="personalize-your-workspace"></a>Personalice su área de trabajo
+# Personalice su área de trabajo
 
 Puede personalizar el área de trabajo para que se adapte a sus preferencias y trabajo. Cambie las páginas para que muestren solo la información que necesita, donde la necesita. Los cambios de personalización solo afectarán a *su* visualización y no a la de otros usuarios.
 
@@ -31,12 +25,12 @@ Puede realizar varios cambios, como mover u ocultar campos, columnas, acciones y
 > Los administradores pueden realizar los mismos cambios de diseño que los usuarios al personalizar el espacio de trabajo para un perfil que se asigna a múltiples usuarios. Para obtener más información, consulte [Personalizar las páginas para los roles](ui-personalization-manage.md).<br /><br />
 Los administradores también pueden anular o deshabilitar la personalización de los usuarios y pueden definir qué características están incluso disponibles para que los usuarios las vean en todas las empresas o en empresas específicas. Para obtener más información, consulte [Personalizar Business Central](ui-customizing-overview.md).
 
-## <a name="video-overview"></a>Resumen en vídeo
+## Resumen en vídeo
 El siguiente video muestra algunas de las formas en que puede personalizar su área de trabajo.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="to-change-the-width-of-a-column"></a>Para cambiar el ancho de una columna
+## Para cambiar el ancho de una columna
 
 Puede cambiar fácilmente el tamaño de las columnas en cualquier lista. Solo tiene que arrastrar el límite entre dos columnas a la izquierda o derecha.  
 
@@ -45,7 +39,7 @@ Puede cambiar fácilmente el tamaño de las columnas en cualquier lista. Solo ti
 
 En cuanto a otra personalización, los cambios que efectúe en el ancho de columna se almacenan en su cuenta y le siguen sin importar en qué dispositivo inicie sesión.
 
-## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Para empezar a personalizar una página a través del banner **Personalización**
+## Para empezar a personalizar una página a través del banner **Personalización**
 
 1. Abra cualquier página que quiera personalizar.
 2. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") , y luego elija la acción **Personalizar**.
@@ -63,7 +57,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 6. Elija el elemento y, a continuación, seleccione **Mover**, **Eliminar**, **Ocultar**, **Mostrar**, **Mostrar en "Mostrar más"**, **Mostrar cuando se contrae**, **Mostrar siempre**, **Establecer/Borrar inmovilización de panel** o **Incluir/Excluir de entrada rápida**, según el tipo y el estado del elemento de la interfaz de usuario. Para obtener más información, consulte [Qué puede personalizar](#What).
 7. Cuando haya terminado de cambiar el diseño de una o más páginas, elija el botón **Listo** en el banner **Personalización**.
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Qué puede personalizar
+## <a name="What"></a>Qué puede personalizar
 
 |Qué desea hacer|Cómo hacerlo|Comentarios|
 |----|------------|-------|
@@ -79,7 +73,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 |Agregue una nueva acción a una página o informe en su Área de trabajo.|Desde la página de destino, la página de solicitud de informe o la ventana Avisarme, elija el icono de marcador.|Consulte [Marcar una página o informe en su Área de trabajo](ui-bookmarks.md)|
 |Siempre empiece una lista como expandida o contraída|Elija el botón **Expandir todo** o **Contraer todo** en la esquina superior izquierda de la lista. Alternativamente, elija la acción **Expandir todo** o **Contraer todo** en el menú de la primera columna. |Se aplica a las listas jerárquicas contraíbles.|
 
-## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Personalización de la barra de acciones y los menús
+## <a name="Actions"></a>Personalización de la barra de acciones y los menús
 
 La personalización le permite decidir qué acciones se mostrarán en las barras de navegación y acciones y en las áreas de trabajo y dónde se mostrarán. Puede mostrar, ocultar o mover acciones individuales o grupos de acciones.
 
@@ -95,10 +89,10 @@ Un *grupo de acciones* es un elemento que se expande para mostrar otras acciones
 
 Una *categoría promocionada* es un grupo de acciones que antes de la línea vertical `|` en la barra de acciones. Las categorías suelen incluir las acciones más utilizadas, para que pueda encontrarlas rápidamente. Por ejemplo, en la página **Pedidos de venta**, las acciones **Pedido**, **Lanzamiento** y **Registro** son categorías promocionadas.
 
-> [!NOTE]
-> No puede personalizar la barra de acción que aparece en partes de la página (por ejemplo, las líneas de ventas parte en la página **Pedidos de venta**).
+> [!NOTE]  
+> Para borrar la personalización, seleccione la punta de flecha alrededor del menú del diseñador de la pieza y luego elija **Borrar personalización**.
 
-### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Para eliminar, ocultar y mostrar acciones y grupos de acciones
+### Para eliminar, ocultar y mostrar acciones y grupos de acciones
 
 Cuando desee mostrar u ocultar una acción, las opciones situadas debajo de la punta de flecha definen lo que puede hacer dependiendo del estado de la acción. 
 
@@ -111,7 +105,7 @@ Cuando desee mostrar u ocultar una acción, las opciones situadas debajo de la p
 |**Ocultar**|Esta opción aparece si la acción o el grupo de acciones no se encuentra en otro lugar de la barra de navegación o barra de acciones. Como **Eliminar**, al elegir esta opción se provocará que la acción o el grupo de acciones desaparezca de la barra de navegación o barra de acciones. No obstante, en el modo de personalización, aún se mostrará la acción o el grupo de acciones en la posición actual, excepto que aparece atenuada.|
 |**Mostrar**|Esta opción aparece si la acción o grupo de acciones ha sido previamente ocultada (atenuada). Al elegir esta opción se provocará que la acción o el grupo de acciones aparezca en la barra de navegación o barra de acciones.|
 
-### <a name="to-move-actions-and-action-groups"></a>Para mover acciones y grupos de acciones
+### Para mover acciones y grupos de acciones
 
 El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante una línea horizontal entre dos acciones o un borde alrededor de un grupo de acciones. Existen las siguientes limitaciones:
 
@@ -121,7 +115,7 @@ El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante
 1. Para mover una acción o grupo de acciones, arrástrelo y suéltelo en la posición deseada, igual que hace con los campos y columnas.
 2. Para mover una acción o un grupo de acciones a otro grupo de acciones que está vacío, arrastre la acción o el grupo de acciones al nuevo grupo y colóquelo en el cuadro **Colocar aquí una acción** .
 
-## <a name="personalizing-parts"></a><a name="Parts"></a>Personalizar partes
+## <a name="Parts"></a>Personalizar partes
 
 Las partes son áreas de una página que normalmente se componen de varios campos, gráficos u otro contenido. Una parte muestra un borde de color cuando se enfoca en la parte. Por ejemplo, una pantalla de inicio del Área de trabajo tiene varias partes. Debido a su límite bien definido, puede personalizar toda la parte, así como su contenido.
 
@@ -131,7 +125,7 @@ Las partes son áreas de una página que normalmente se componen de varios campo
 
 Puede borrar todos los cambios de personalización que haya realizado en una sola parte seleccionando la opción **Borrar personalización** bajo la punta de flecha de la parte. Borrar la personalización de una parte solo afecta a los cambios en el contenido de la parte, no a la ubicación ni a la visibilidad de la parte en la página.  
 
-## <a name="to-clear-personalization"></a>Para borrar la personalización
+## Para borrar la personalización
 En algún momento, es posible que desee borrar algunos o todos los cambios de personalización que hizo en esta página a lo largo del tiempo.
 
 1. En el banner **Personalización**, elija la acción **Borrar personalización**.
@@ -147,7 +141,7 @@ En algún momento, es posible que desee borrar algunos o todos los cambios de pe
 |**Solo campos, columnas y partes**|Borra todos los cambios de personalización que haya realizado en la página excepto cambios en la barra de navegación o de acciones. Tales cambios incluyen cambios en los campos, columnas, piezas e iconos. |
 |**Todo**|Borra todos los cambios de personalización que haya realizado para que se parezca a la original. Tales cambios incluyen cambios en las barras de navegación y de acciones, campos, columnas, partes e iconos.|
 
-## <a name="other-points-of-interest"></a>Otros puntos de interés
+## Otros puntos de interés
 
 Para ayudarle a comprender mejor la personalización, le presentamos algunos consejos.
 
@@ -162,9 +156,9 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
    > [!TIP]
    > Como administrador, puede ocultar el elemento **Automatización** de los usuarios. Obtenga más información en [Configurar la integración de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  

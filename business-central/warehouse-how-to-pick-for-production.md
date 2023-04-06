@@ -127,6 +127,8 @@ Lo siguiente sucede durante el proceso de publicación:
 * Registre el consumo de las líneas del documento de origen donde se realizó el picking.
 * Si el almacén utiliza ubicaciones, el registro también creará movimientos de almacén para registrar los cambios de cantidad de la ubicación.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## Para registrar el movimiento de inventario
 
 1. En la página **Movimiento de inventario**, abra el documento para registrar el movimiento.  

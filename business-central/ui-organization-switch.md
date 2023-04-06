@@ -1,24 +1,19 @@
 ---
 title: Cambiar a otra empresa o entorno
-description: Si trabaja para varias organizaciones, puede cambiar rápidamente entre entornos y empresas.
+description: 'Si trabaja para varias organizaciones, puede cambiar rápidamente entre entornos y empresas.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'environments, companies, tenants, organization'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0cc18a4a84e24ce58d486275442ba686ed559047
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605960"
 ---
-# <a name="switching-to-another-company-or-environment"></a>Cambiar a otra empresa o entorno
+
+# Cambiar a otra empresa o entorno
 
 [!INCLUDE [prod_short](includes/prod_short.md)] está disponible en muchos países y regiones diferentes y es compatible con muchos tipos diferentes de organizaciones. Su organización puede optar por organizar el trabajo en [!INCLUDE [prod_short](includes/prod_short.md)] en múltiples *compañías* y *entornos*. Este artículo lo ayuda a comprender las diferencias clave y cómo trabajar con ellas.
 
-## <a name="about-companies-and-environments"></a>Acerca de empresas y entornos
+## Acerca de empresas y entornos
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -30,7 +25,7 @@ ms.locfileid: "9605960"
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment"></a>Características para cambiar de empresa o entorno
+## Características para cambiar de empresa o entorno
 
 Hay algunas funciones que puede usar para cambiar de empresa o entorno mientras trabaja. La siguiente tabla compara las capacidades de la función, que se explican con más detalle en las secciones siguientes.
 
@@ -41,7 +36,7 @@ Hay algunas funciones que puede usar para cambiar de empresa o entorno mientras 
 |[Mi configuración](#use-my-settings)|![marca de verificación](media/check.png "comprobar")|||![marca de verificación](media/check.png "comprobar")|
 |[Hub de empresas](#use-company-hub)|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")|![marca de verificación](media/check.png "comprobar")||
 
-## <a name="use-the-company-switcher"></a>Usar el cambio de empresa
+## Usar el cambio de empresa
 
 Usar el cambio de empresa es probablemente la forma más rápida y versátil de cambiar de empresa. El cambio de empresas es un panel que está disponible desde cualquier página. El panel ofrece una descripción general de todas las empresas en todos los entornos a los que tiene acceso y le permite cambiar directamente a cualquiera de ellos.&mdash;ya sea en la misma pestaña del navegador o en una nueva. Es especialmente útil cuando trabaja en muchas empresas en diferentes entornos.
 
@@ -50,7 +45,7 @@ Usar el cambio de empresa es probablemente la forma más rápida y versátil de 
    :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Muestra el icono de cambio de empresa en el encabezado del cliente de Business Central.":::  
 
    > [!TIP]
-   > También puede utilizar el método abreviado de teclado Ctrl+O para abrir el panel.
+   > También puede utilizar el atajo del teclado <kbd>Crtl</kbd>+<kbd>O</kbd> para abrir el panel.
 2. En el panel **Empresas disponibles**, seleccione la empresa a la que desea cambiar, seleccione la flecha **Cambiar**, luego elija una de las siguientes opciones:
 
    |Opción|Descripción|
@@ -60,9 +55,9 @@ Usar el cambio de empresa es probablemente la forma más rápida y versátil de 
    |Abrir en una nueva pestaña e ir a la misma página|Esta opción solo está activa en páginas de lista, como clientes, pedidos de venta o artículos. Abre la misma lista, pero para la empresa seleccionada, en una nueva pestaña del navegador. |
 
 > [!TIP]
-> Pulse F5 para actualizar la lista de entornos y empresas.
+> Seleccione <kbd>F5</kbd> para actualizar la lista de entornos y empresas.
 
-## <a name="use-the-app-launcher"></a>Usar el iniciador de aplicaciones
+## Usar el iniciador de aplicaciones
 
 Cuando inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)], los ambientes a los que puede acceder están disponibles en Office.com.  
 
@@ -78,14 +73,14 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## <a name="use-my-settings"></a>Usar Mi configuración
+## Usar Mi configuración
 
 Cuando ha iniciado sesión en [!INCLUDE[prod_short](includes/prod_short.md)], puede cambiar rápidamente a otra empresa en el mismo entorno. Después de hacer el cambio, la empresa que elija se convierte en su empresa predeterminada y se abrirá la próxima vez que inicie sesión.
 
 1. En la esquina superior derecha, elija el icono **Configuración** ![Configuración.](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") y, a continuación, elija la acción **Mi configuración**.
 
     > [!TIP]
-    > También puede usar el método abreviado de teclado Alt+T para abrir rápidamente la página Mi configuración.
+    > También puede utilizar el atajo <kbd>Alt</kbd>+<kbd>T</kbd> para abrir rápidamente la página Mi configuración.
 
 2. En la página **Mi configuración**, en el campo **Empresa**, seleccione la empresa.  
 3. Elija el botón **Aceptar**.
@@ -93,13 +88,13 @@ Cuando ha iniciado sesión en [!INCLUDE[prod_short](includes/prod_short.md)], pu
 > [!TIP]
 > Una buena manera de ir directamente a su empresa predeterminada cuando inicia sesión y evitar tener que especificar un entorno, es agregar la URL a su lista de favoritos después de iniciar sesión.
 
-## <a name="use-company-hub"></a>Usar Hub de empresa
+## Usar Hub de empresa
 
 *Hub de empresa* es un centro de funciones altamente especializado que ofrece una visión general financiera de todas las empresas y entornos. Disponible como una [extensión](ui-extensions-company-hub.md), el Hub de empresa proporciona un panel con datos resumidos para cada empresa a la que tiene acceso. La página de inicio muestra los KPI financieros, así como un vínculo directo a los entornos individuales y las empresas. Para más información, consulte [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md).
 
 [![Muestra la página central de la empresa que enumera todas las empresas.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  

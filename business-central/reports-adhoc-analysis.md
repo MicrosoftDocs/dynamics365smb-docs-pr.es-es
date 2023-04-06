@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 690aa39a73705b25a804111fbe939298a528c96a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607910"
 ---
-# <a name="ad-hoc-data-analysis"></a>Análisis de datos ad hoc
+# Análisis de datos ad hoc
 
 En ocasiones necesita analizar datos de [!INCLUDE[prod_short](includes/prod_short.md)] de una manera que no está disponible en un informe estándar. Esta tarea a veces se denomina "análisis ad hoc". A continuación hay enlaces para ayudarlo a realizarla.
 
@@ -27,7 +21,7 @@ En ocasiones necesita analizar datos de [!INCLUDE[prod_short](includes/prod_shor
 | Ver y analizar datos de un conjunto de datos de informe en Excel. | [Guardar conjunto de datos de informe a Excel desde la página de solicitud](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 | Vea y analice los datos financieros utilizando informes financieros. | [Análisis financiero](bi.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Descripción general de Inteligencia empresarial e informes](ui-work-report.md)
 

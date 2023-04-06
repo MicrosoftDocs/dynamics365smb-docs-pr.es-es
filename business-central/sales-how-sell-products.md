@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
-ms.search.form: 42, 48, 9305
+ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
+ms.search.form: '42, 48, 9305'
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 7d3363557e469344c1648c52b08393efc0f2dc69
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535832"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Vender productos con un pedido de venta de cliente
+# Vender productos con un pedido de venta de cliente
 
 Este artículo proporciona orientación sobre cuándo utilizar un pedido de venta de cliente además de una factura. Si el proceso de venta requiere que solo envíe parte de un pedido, quizá porque la cantidad total no está disponible inmediatamente, deberá procesar esa venta realizando un pedido de ventas.
 
@@ -29,7 +23,7 @@ En los entornos comerciales en los que el cliente paga de forma inmediata, por e
 
 Incluso puede crear pedidos pagados directamente para clientes no registrados configurando primero una tarjeta de "cliente de efectivo" que señale en el pedido de venta. Obtenga más información en [Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Crear un pedido de ventas
+## Crear un pedido de ventas
 
 > [!NOTE]  
 > El siguiente procedimiento asume que el cliente ya está preparado. Para obtener instrucciones sobre cómo hacer esto, consulte [Registrar nuevos clientes](sales-how-register-new-customers.md).
@@ -93,13 +87,13 @@ El cuadro de diálogo **Registrar y enviar confirmación** muestra el método pr
 
 El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y el pedido de venta se genera automáticamente como un documento PDF. Cuando el pedido de venta se registra por completo, se elimina de la lista de pedidos de venta y se sustituye por nuevos documentos de la lista de facturas de venta registradas y la lista de envíos de venta registrados.  
 
-## <a name="external-document-number"></a>Número de documento externo
+## Número de documento externo
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada.
+## Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Registrar ventas](ui-post-sales.md)  

@@ -4,22 +4,17 @@ description: Configure y ejecute la importación y el procesamiento de pedidos d
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
+ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802936"
 ---
-# <a name="synchronize-and-fulfill-sales-orders"></a>Sincronizar y cumplir con los pedidos de ventas
+
+# Sincronizar y cumplir con los pedidos de ventas
 
 Este artículo describe la configuración necesaria y los pasos que debe seguir para sincronizar y cumplir con los pedidos de ventas con Shopify en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Configurar la importación de pedidos en la ficha de tienda Shopify
+## Configurar la importación de pedidos en la ficha de tienda Shopify
 
 Introduzca un **código de moneda** si su tienda en línea utiliza una moneda diferente a la moneda local (LCY). La divisa especificada debe tener tipos de cambio configurados. Si su tienda en línea usa la misma divisa que [!INCLUDE[prod_short](../includes/prod_short.md)], deje el campo vacío. 
 
@@ -27,7 +22,7 @@ Puede ver la moneda de la tienda en la configuración de [Detalles de la tienda]
 
 Un pedido regular de Shopify puede incluir costes adicionales al subtotal, como los gastos de envío o, si está activado, las propinas. Estos importes se contabilizan directamente en la cuenta de contabilidad que se desea utilizar para los tipos de transacción específicos:
 
-* **Importe de gastos de envío**
+* **Cta. cargos envío**
 * **Cuenta de tarjeta de regalo vendida**; obtenga más información en [Tarjeta regalo](synchronize-orders.md#gift-cards)
 * **Cuenta de propina**  
 
@@ -37,7 +32,7 @@ El documento de ventas de [!INCLUDE[prod_short](../includes/prod_short.md)] cont
 
 En el campo **Origen del área fiscal**, defina la prioridad sobre cómo seleccionar el código de área fiscal o el grupo contable comercial de IVA en función de la dirección. El pedido importado de Shopify contiene información sobre los impuestos, pero estos se recalculan cuando se crea el documento de venta, por lo que es importante que la configuración del IVA/impuestos sea correcta en [!INCLUDE[prod_short](../includes/prod_short.md)]. Para obtener más información acerca de los impuestos, consulte [Configurar impuestos para la conexión Shopify](setup-taxes.md).
 
-### <a name="shipment-method-mapping"></a>Asignación de método de envío
+### Asignación de método de envío
 
 El **Código de método de envío** para documentos de venta importados desde Shopify, se puede rellenar automáticamente. Necesita configurar la **Asignación de métodos de envío**.
 
@@ -50,7 +45,7 @@ El **Código de método de envío** para documentos de venta importados desde Sh
 > [!NOTE]  
 > Si varios cargos de envío están asociados con un pedido de ventas, solo se seleccionará uno como Método de envío y se asignará al documento de ventas.
 
-### <a name="location-mapping"></a>Asignación de ubicación
+### Asignación de ubicación
 
 La asignación de ubicación es necesario para tres propósitos:
 
@@ -64,7 +59,7 @@ La asignación de ubicación es necesario para tres propósitos:
 4. Elija la acción **Obtener ubicaciones de Shopify** para importar todas las ubicaciones definidas en Shopify. Puedes encontrarlas en la configuración de [**Ubicaciones**](https://www.shopify.com/admin/settings/locations), en el panel **Administrador de Shopify**. Tenga en cuenta que la ubicación marcada como *Predeterminada* se usará al importar los pedidos no rellenados de Shopify.
 5. Introduzca el **Código de ubicación predeterminado** con la ubicación correspondiente en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="run-the-order-synchronization"></a>Ejecutar la sincronización de pedidos
+## Ejecutar la sincronización de pedidos
 
 El siguiente procedimiento describe cómo importar y actualizar pedidos de venta.
 
@@ -76,24 +71,28 @@ El siguiente procedimiento describe cómo importar y actualizar pedidos de venta
 3. Seleccione la acción **Pedidos**.
 4. Elija la acción **Sincronizar usuarios desde Shopify**.
 5. Defina filtros en los pedidos según sea necesario. Por ejemplo, puede importar pedidos totalmente pagados o con bajo nivel de riesgo.
-6. Elija el botón **Aceptar**.
+
+> [!NOTE]  
+> Al filtrar por etiqueta, debe usar tokens de filtro `@` y `*`. Por ejemplo, si desea importar pedidos que contengan *tag1*, utilice `@*tag1*`. `@` se asegurará de que el resultado no tenga en cuenta mayúsculas y minúsculas, mientras que `*` busca pedidos con varias etiquetas.
+
+7. Elija el botón **Aceptar**.
 
 Alternativamente, puede buscar el trabajo por lotes **Sincronizar pedidos desde Shopify**.
 
 Puede programar la tarea para que se realice de forma automatizada. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
 
-## <a name="review-imported-orders"></a>Revisar pedidos importados
+## Revisar pedidos importados
 
 Una vez completada la importación, puede explorar el pedido de Shopify y encontrar toda la información relacionada, como transacciones de pago, costes de envío, procesos de entrega, nivel de riesgo, atraibutos y etiquetas de pedidos o los cumplimientos, si el pedido ya se cumplió en Shopify. También puede ver la confirmación de cualquier pedido que se haya enviado al cliente seleccionando la acción **Página de estado de Shopify**.
 
 > [!NOTE]  
 > Puede navegar a la ventana **Pedidos de Shopify** directamente y podrá ver pedidos con estado *abierto* de todas las tiendas. Para revisar los pedidos completados, debe abrir la página **Pedidos de Shopify** desde la ventana **Tarjeta de tienda de Shopify** específica.
 
-## <a name="create-sales-documents-in-business-central"></a>Crear documentos de ventas en Business Central
+## Crear documentos de ventas en Business Central
 
 Si el conmutador de alternancia **Crear pedidos automáticamente** está habilitado en **Tarjeta de tienda de Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] intenta crear un documento de ventas una vez que se importa el pedido. Si se producen problemas, como la falta de un cliente o de un producto, tendrá que solucionarlos y volver a crear el pedido de venta.
 
-### <a name="to-create-sales-documents"></a>Para crear documentos de venta
+### Para crear documentos de venta
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego elija el enlace relacionado.
 2. Seleccione la tienda para la que desea sincronizar pedidos para abrir la página **Tarjeta de tienda de Shopify**.
@@ -105,15 +104,15 @@ Si el pedido de Shopify requiere proceso de entrega, se crea un **Pedido de vent
 
 Ahora se crea un documento de ventas y se puede administrar utilizando la funcionalidad [!INCLUDE[prod_short](../includes/prod_short.md)] estándar.
 
-### <a name="manage-missing-customers"></a>Gestionar clientes perdidos
+### Gestionar clientes perdidos
 
 Si su configuración impide crear un cliente automáticamente y no se puede encontrar un cliente existente adecuado, deberá asignar un cliente al pedido de Shopify manualmente. Existen varias formas de hacer esto:
 
 * Puede asignar el **N.º de venta al cliente** y **Nº de cliente de facturación** directamente en la página **Pedidos de Shopify**, eligiendo un cliente de la lista de clientes existentes.
-* Puede seleccionar un código de plantilla de cliente, crear y asignar el cliente a través de la acción **Crear nuevo cliente** en la página **Pedidos de Shopify**.
+* Puede seleccionar un código de plantilla de cliente, crear y asignar el cliente a través de la acción **Crear nuevo cliente** en la página **Pedidos de Shopify**. Tenga en cuenta que el cliente de Shopify debe tener al menos una dirección. A los pedidos creados a través del canal de ventas Shopify POS a menudo les faltan los detalles de la dirección.
 * Puede asignar un cliente existente al **Cliente de Shopify** relacionado en la ventana **Clientes de Shopify** y luego elegir la acción **Buscar asignación** en la página **Pedidos de Shopify**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Cómo el conector elige qué cliente usar
+### Cómo el conector elige qué cliente usar
 
 La función *Importar pedido de Shopify* intenta seleccionar los clientes en el siguiente orden:
 
@@ -129,7 +128,7 @@ Los próximos pasos dependen del **Tipo de asignación de cliente**.
 > [!NOTE]  
 > El conector utiliza la información de la dirección de facturación y crea el cliente de facturación en [!INCLUDE[prod_short](../includes/prod_short.md)]. El cliente de venta es el mismo que el cliente de facturación.
 
-### <a name="impact-of-order-editing"></a>Impacto de las modificaciones de pedidos
+### Impacto de las modificaciones de pedidos
 
 En Shopify:
 
@@ -149,7 +148,7 @@ En [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |Cambie o disminuya la cantidad. Registre el envío. | El pedido de Shopify se marcará como parcialmente entregado. |
 |Agregue un artículo nuevo. Registre el envío. | El pedido de Shopify se marcará como entregado. Las líneas no se actualizarán. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Sincronizar envíos a Shopify
+## Sincronizar envíos a Shopify
 
 Cuando un pedido de venta que se crea a partir de un pedido de Shopify se envía, puede sincronizar los envíos con Shopify.
 
@@ -167,7 +166,7 @@ Puede programar la tarea para que se realice de forma automatizada. Obtenga más
 
 Recuerde ejecutar **Sincronizar pedidos desde Shopify** para actualizar el estado de proceso de entrega de un pedido en [!INCLUDE[prod_short](../includes/prod_short.md)]. La funcionalidad del conector también archiva pedidos completamente pagados y procesados en Shopify y [!INCLUDE[prod_short](../includes/prod_short.md)], siempre que se cumplan las condiciones.
 
-### <a name="shipping-agents-and-tracking-url"></a>Agentes de envío y URL de seguimiento
+### Agentes de envío y URL de seguimiento
 
 Si el documento **Histórico albaranes venta** contiene el **Código de agente de envío** y/o el **Número de seguimiento del paquete**, esta información se enviará a Shopify y al cliente final en el correo electrónico de confirmación de envío.
 
@@ -179,7 +178,7 @@ La empresa de seguimiento se rellena en el siguiente orden (de mayor a menor) se
 
 Si el campo **URL de seguimiento del paquete** se rellena para el registro del agente de envío, luego la confirmación de envío también contendrá una URL de seguimiento.
 
-## <a name="gift-cards"></a>Tarjetas regalo
+## Tarjetas regalo
 
 En la tienda Shopify puede vender tarjetas de regalo, que se pueden usar para pagar productos reales.
 
@@ -187,6 +186,6 @@ Cuando se trata de tarjetas de regalo, es importante introducir un valor en el c
 
 Para revisar las tarjetas de regalo emitidas y aplicadas, elija el icono ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tarjetas regalo** y luego elija el enlace relacionado.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Comenzar con el conector para Shopify](get-started.md)  

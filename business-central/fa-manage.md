@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
-ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
+ms.search.keywords: 'machinery, buildings'
+ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5bd6ff8d27b17e413c418de64bea7ded8428e892
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529304"
 ---
-# <a name="managing-fixed-assets"></a>Administrar activos fijos
+# Administrar activos fijos
 
 La funcionalidad Activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
 
@@ -47,15 +41,15 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registrar transacciones de venta/baja, ver movimientos de venta/baja y registrar ventas/bajas parciales. |[Cancelar o retirar activos fijos](fa-how-dispose-retire.md) |
 | Gestionar presupuestos de activos fijos, costes, ventas/bajas y amortización. |[Gestionar presupuestos de los activos fijos](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Resumen en vídeo
+## Resumen en vídeo
 
 El siguiente video cubre los conceptos básicos de los activos fijos.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-transactions/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-transactions/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configuración de activos fijos](fa-setup.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  

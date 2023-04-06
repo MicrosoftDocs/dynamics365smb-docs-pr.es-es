@@ -28,6 +28,7 @@ En la tabla siguiente se describen niveles de confidencialidad de datos que pued
 |Normal | Datos generales que no pertenecen a ninguna otra categoría.|
 
 ## ¿Cómo clasifico mis datos?
+
 Clasificar la confidencialidad de muchos campos uno a uno llevaría mucho tiempo. Para ayudar a acelerar el proceso, proporcionamos herramientas que puede usar para clasificar en bloque la confidencialidad de los campos y luego ajustar las clasificaciones para campos específicos. Puede encontrar herramientas en la hoja de trabajo Clasificación de datos, que está disponible en el área de trabajo Administración de usuarios, grupos de usuarios y permisos. Es necesario ser administrador del sistema para usar la hoja de trabajo.
 
 > [!Important]

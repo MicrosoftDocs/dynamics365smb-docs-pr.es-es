@@ -12,6 +12,8 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 ---
 # Flujo de acceso de usuario para licencias de Microsoft 365
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Este artículo describe lo que sucede cuando un usuario accede a los datos de Business Central usando su licencia de Microsoft 365 por primera vez. Comprender este flujo permite a los administradores planificar su enfoque y configurar Business Central para satisfacer sus necesidades comerciales.
 
 1. Primero, se autentica la identidad del usuario. 

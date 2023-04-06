@@ -41,6 +41,8 @@ El primer paso para almacenar la salida es crear la solicitud de almacén de ent
 4. Rellene las líneas de ubicación como sea necesario.
 5. Cuando las líneas estén preparadas para registrar, elija la acción **Registrar**. El registro creará los movimientos de almacén y registrará la salida de los productos.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 También puede crear **Ubicación existencias** directamente de la orden de producción lanzada. Obtenga más información en [Almacenar productos con almacenes de inventario](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Al registrar un almacenamiento de inventario, se asume que todas las operaciones se registran según la ruta estándar. Es decir, la cantidad de salida se registra de acuerdo con la última operación. Puede usar el diario de salida para registrar las desviaciones de la cantidad de salida y los tiempos de preparación y ejecución. Si es preciso realizar un registro parcial después de crear el almacenamiento de inventario, puede hacerlo en configuración de tiempos y cantidades de todas las operaciones, excepto la última. La última operación se controla por el almacenamiento de inventario.  

@@ -59,8 +59,8 @@ Puede crear un envío de almacén de dos maneras:
     * De forma automática, donde utiliza la acción **Crear selección**. Seleccione las líneas para elegir y especifique información sobre las selecciones. Por ejemplo, de qué ubicaciones tomar y en cuáles colocar, y cuántas unidades manejar. Las ubicaciones se pueden predefinir para la ubicación del almacén o el recurso.
     * De forma pull, donde utiliza la acción **Liberar**. En la página **Hoja trabajo picking** , use la acción **Traer documentos almacén** para obtener las selecciones asignadas. Cuando los picking de almacén están totalmente registrados, se eliminan las líneas en **Hoja trabajo picking**. Obtenga más información en [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> Para un almacén que no requiere picking, puede imprimir el envío del almacén y usarlo como una lista de picking.
+    > [!TIP]
+    > Para un almacén que no requiere picking, puede imprimir el envío del almacén y usarlo como una lista de picking.
 
 8. Especifique la cantidad que se enviará.  
 
@@ -71,6 +71,8 @@ Puede crear un envío de almacén de dos maneras:
     Para establecer el valor en el campo **Cdad. a enviar** de todas las líneas en cero, elija la acción **Eliminar cdad. a enviar**. Por ejemplo, establecer las cantidades en cero es útil si está utilizando un escáner de código de barras para actualizar las cantidades enviadas. Para agregar la cantidad disponible para el envío, elija la acción **Rellenar cdad. a enviar autom.**
 
 9. Registre el envío.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## Cómo utilizar filtros para obtener documentos de origen
 

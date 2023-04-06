@@ -11,6 +11,8 @@ ms.custom: bap-template
 ---
 # P+F del acceso con licencias de Microsoft 365
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Los usuarios pueden acceder a los datos de Business Central en Microsoft Teams usando su licencia de Microsoft 365. Este artículo responde a las preguntas más frecuentes de administradores, consultores y otros. Los desarrolladores deben consultar las Preguntas frecuentes para desarrolladores. Si tiene preguntas sobre la integración de Business Central con Microsoft Teams, vaya a [Preguntas frecuentes de Teams](teams-faq.md).
 
 ## [Permisos](#tab/permissions) 

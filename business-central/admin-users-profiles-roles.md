@@ -12,6 +12,8 @@ ms.search.form: 9171
 ---
 # Administración de perfiles de usuario
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Asigne todos los usuarios a perfiles que reflejen:
 
 * Su rol comercial

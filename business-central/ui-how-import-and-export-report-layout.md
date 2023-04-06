@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
+ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0384ea780065c72e6fd4ca3ff95d2ec771a20ea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528147"
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(Versión heredada) Importar y exportar diseños de informe personalizados
+# (Versión heredada) Importar y exportar diseños de informe personalizados
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -25,7 +19,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 > [!IMPORTANT]  
 >  No puede importar o exportar diseños de informe integrados.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>Para exportar un diseño de informe a un archivo  
+### Para exportar un diseño de informe a un archivo  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
@@ -35,7 +29,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
 4.  En el cuadro de diálogo **Exportar archivo**, elija el botón **Guardar** y, a continuación, guarde el archivo en una ubicación de su equipo o red.  
 
-### <a name="to-import-a-report-layout-file"></a>Para importar un archivo de diseño de informe  
+### Para importar un archivo de diseño de informe  
 
 1.  Asegúrese de que el archivo correspondiente que define el diseño de informe está disponible en el equipo o en la red.  
 
@@ -51,9 +45,9 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
  El diseño de informe original personalizado se reemplaza con el diseño de informe importado.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  

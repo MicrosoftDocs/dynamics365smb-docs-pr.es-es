@@ -1,23 +1,17 @@
 ---
 title: Análisis de los flujos de efectivo
-description: Describe cómo usar los gráficos Ciclo de efectivo, Ingresos y gastos, Flujo de efectivo y Previsión de flujo de efectivo para analizar el flujo de dinero de entrada y salida pasado y futuro de su empresa.
+description: 'Describe cómo usar los gráficos Ciclo de efectivo, Ingresos y gastos, Flujo de efectivo y Previsión de flujo de efectivo para analizar el flujo de dinero de entrada y salida pasado y futuro de su empresa.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.search.form: 762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
+ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera'
+ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818'
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: c0625964c396611a46575af8aee11da2144e3194
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529277"
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
+# Analizar el flujo de efectivo de la empresa
 Los gráficos del Área de trabajo Contable proporcionan información que le puede ayudar a tomar decisiones sólidas sobre qué debe hacer con el efectivo.  
 
 | Para responder a preguntas como las siguientes | Use este gráfico |
@@ -42,15 +36,15 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 * Resta los pagos y suma los cobros.  
 * Omite los pedidos de venta y de compra duplicados.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Para ver la hoja de flujo de efectivo
+## Para ver la hoja de flujo de efectivo
 
 1. Busque **Previsiones de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione una previsión de flujo de efectivo y, a continuación, seleccione la acción **Hoja flujos efectivo**.  
 3. En la página **Hoja flujos efectivo**, elija la acción **Proponer líneas de hoja de trabajo**.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

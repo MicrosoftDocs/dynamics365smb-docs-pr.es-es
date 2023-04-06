@@ -87,6 +87,8 @@ En lugar de utilizar documentos de movimiento, puede registrar los movimientos r
 3. Rellene el resto de los campos de cada línea del diario.
 4. Registre el diario de reclasificación.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
 ## Consulte también .

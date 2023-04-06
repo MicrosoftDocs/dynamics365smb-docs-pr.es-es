@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
-ms.search.form: 256, 233, 624, 1228
+ms.search.keywords: 'payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP'
+ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 8b64ed6fc1342ec5f274b28f5a670bc329555e44
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520947"
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrar pagos y reembolsos en el diario de pagos
+# Registrar pagos y reembolsos en el diario de pagos
 
 En la página **Diario de pagos**, registre los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria del sistema especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
 
@@ -35,7 +29,7 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 
     Además de registrar que se realiza el pago, también puede usar la página **Diario de pagos** para generar el pago y procesarlo en su banco. Para obtener más información, consulte [Realizar pagos de cheques](payables-how-work-checks.md) y [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Realizar pagos en el diario de pagos.
+## Realizar pagos en el diario de pagos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra la sección de diario dedicada a los pagos.
@@ -49,7 +43,7 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 6. Cuando se completen todas las líneas del diario de pagos, seleccione la acción **Registrar**.
 
 
-## <a name="to-issue-a-refund-check"></a>Para emitir un cheque de reembolso
+## Para emitir un cheque de reembolso
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. En el campo **Tipo documento**, seleccione **Reembolso**.  
@@ -63,7 +57,7 @@ El diario de pagos es un diario general que se optimiza para crear pagos. Puede 
 10. Cuando se completen todas las líneas del diario de pagos, elija la acción **Publicar / Imprimir**, luego elija la acción **Publicar e imprimir** y seleccione **Sí**.  
   
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Realizar pagos por cheque](payables-how-work-checks.md)  
 [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Administrar pagos](payables-manage-payables.md)  

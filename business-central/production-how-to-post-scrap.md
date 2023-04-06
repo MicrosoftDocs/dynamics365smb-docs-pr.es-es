@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000823
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Registrar el material de rechazo manualmente
@@ -24,6 +24,8 @@ Si se produce material de rechazo durante el proceso, se puede introducir en el 
 3. En el campo **Cantidad rechazada**, introduzca la cantidad rechazada.  
 4. En el campo **Cód. rechazo**, introduzca el código de rechazo.  
 5. Seleccione la acción **Registrar** para registrar el material de rechazo específico por operación.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## Consulte también
 

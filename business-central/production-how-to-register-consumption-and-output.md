@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516088"
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrar el consumo y la salida de una línea de orden de producción lanzada
+# Registrar el consumo y la salida de una línea de orden de producción lanzada
 
 Esta tarea de ejecución se realiza en la página **Diario de producción**. El diario combina las funciones del diario de consumo y de los diarios de salida en un único diario, al que se tiene acceso directamente desde una orden de producción lanzada. La finalidad principal de este diario es registrar manualmente el consumo de componentes, la cantidad de los productos finales fabricados y el tiempo empleado en las operaciones. Su finalidad principal es registrar manualmente el consumo de componentes, la cantidad de productos finales fabricados y el tiempo dedicado a las operaciones. Los valores se registran en los movimientos de contabilidad bajo la orden de producción lanzada. Las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos positivos y los tiempos invertidos se registran como movimientos de capacidad. Estos valores registrados se pueden consultar también en la parte inferior del diario como cantidades reales.  
 
@@ -26,7 +20,7 @@ Esta tarea de ejecución se realiza en la página **Diario de producción**. El 
 > [!NOTE]  
 >  los componentes sin códigos de conexión aparecen al principio del diario.  
 
-## <a name="to-register-consumption-and-output"></a>Para registrar el consumo y la salida  
+## Para registrar el consumo y la salida  
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. lanzadas** y, a continuación, elija el vínculo relacionado.  
 2.  Abra una línea de orden de producción lanzada que esté lista para su registro. En la ficha desplegable **Líneas**, seleccione la acción **Línea** y, a continuación, elija la acción **Diario de producción**.  
 
@@ -64,7 +58,7 @@ Si quedan valores para registrar, el diario contendrá dichos valores la próxim
 > [!WARNING]  
 >  La página **Diario de producción** no se puede utilizar por dos usuarios simultáneamente. Esto significa que si el usuario 2 abre la página e introduce datos cuando el usuario 1 ya está trabajando en la página, el usuario 2 puede perder los datos cuando el usuario 1 cierre la página.  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
 [Fabricación](production-manage-manufacturing.md)    
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)      
