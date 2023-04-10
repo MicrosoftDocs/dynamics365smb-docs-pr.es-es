@@ -21,27 +21,34 @@
 #### [Tutorial: Picking y envío en las configuraciones del almacenamiento básico](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Tutorial: Elaborar previsiones del flujo de efectivo con informes financieros](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-#### [Tutorial: Configurar y usar Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+#### [Tutorial: Configurar y usar el conector de Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Datos de demostración de Contoso Coffee para fabricación
+### Datos de demostración de Contoso Coffee
 #### [Introducción a datos de demostración de Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### [Crear una nueva L.M. de producción y una versión de L.M.](contoso-coffee/create-new-production-bom-version.md)
-#### [Crear una nueva ruta](contoso-coffee/create-new-routing.md)
-#### [Crear una nueva orden de producción planificada en firme y cambiarla](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Combinar la baja automática y manual](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Usar la planificación de pedidos para crear y reservar suministros](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Configurar y procesar una operación de subcontratación](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Configurar nueva capacidad](contoso-coffee/set-up-new-capacity.md)
-#### [Variantes](contoso-coffee/variants.md)
+#### Fabricación
+##### [Introducción a los procesos de fabricación de Contoso Coffee](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Crear una nueva L.M. de producción y una versión de L.M.](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Crear una nueva ruta](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Crear una nueva orden de producción planificada en firme y cambiarla](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Combinar la baja automática y manual](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Usar la planificación de pedidos para crear y reservar suministros](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Configurar y procesar una operación de subcontratación](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Configurar nueva capacidad](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Variantes](contoso-coffee/manufacturing/variants.md)
+#### Gestión de almacén
+##### [Introducción a los procesos de almacén de Contoso Coffee](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Tutorial sobre el flujo entrante y saliente en configuraciones del almacenamiento básico](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Tutorial sobre el flujo entrante y saliente en configuraciones del almacenamiento mixto](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Tutorial sobre el flujo entrante y saliente en una configuración de almacén avanzada con almacenamiento y picking dirigidos](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Detalles de diseño
-#### [Información general de los detalles del diseño de las aplicaciones](design-details-application-design.md)
+#### [Información general de los detalles de diseño de las aplicaciones](design-details-application-design.md)
 #### Detalles de diseño: coste de inventario
 ##### [Detalles de diseño del coste de inventario](design-details-inventory-costing.md)
 ##### [Detalles de diseño: métodos de coste](design-details-costing-methods.md)  
 ##### [Detalles de diseño: cambio del método de coste para los productos](design-details-changing-costing-methods.md)
-##### [Detalles de diseño: liquidación de artículos](design-details-item-application.md)  
-##### [Detalles de diseño: problema conocido con la liquidación de artículos](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+##### [Detalles de diseño: liquidación de productos](design-details-item-application.md)  
+##### [Detalles de diseño: problema conocido con la liquidación de productos](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Detalles de diseño: ajuste de coste](design-details-cost-adjustment.md)  
 ##### [Detalles de diseño: registro de coste previsto](design-details-expected-cost-posting.md)  
 ##### [Detalles de diseño: coste medio](design-details-average-cost.md)  
@@ -102,16 +109,23 @@
 ### [Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md)
 ### [Preguntas frecuentes de la versión de prueba de Dynamics 365 Business Central](trial-faq.md)
 ### [Versiones de prueba y suscripciones (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
-### [Prepárese para hacer negocios](ui-get-ready-business.md)
+### [Prepararse para hacer negocios](ui-get-ready-business.md)
 ### [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
 ### [Ampliar la versión de prueba](admin-extend-trial.md)
 ### [Cancelar la suscripción o eliminar Business Central](admin-cancel.md)
-## Compra
-### [Comenzar a usar una suscripción](trial-signup.md#get-started-with-a-subscription)
-### [Prepárese para hacer negocios](ui-get-ready-business.md)
+### Texto de marketing de productos impulsado por IA con Copilot
+#### [Información general](ai-overview.md)
+#### [Obtener versión preliminar](ai-preview-getstarted.md)
+#### [Configurar texto de marketing de productos impulsado por IA](enable-ai.md)
+#### [Crear texto de marketing de productos impulsado por IA](item-marketing-text.md)
+#### [Preguntas frecuentes](ai-faq.md)
 
-## Artículos de inicio rápido
-### [Artículos de inicio rápido de Business Central](quick-start-business-central.md)
+## Comprar
+### [Comenzar con una suscripción](trial-signup.md#get-started-with-a-subscription)
+### [Prepararse para hacer negocios](ui-get-ready-business.md)
+
+## Inicio rápido
+### [productos de inicio rápido de Business Central](quick-start-business-central.md)
 ### [Configurar la información de la empresa](quick-start-company-information.md)
 ### [Especificar la información financiera](quick-start-financial-information.md)
 ### [Vender productos y servicios](quick-start-sell-products-and-services.md)
@@ -327,7 +341,7 @@
 #### [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)
 #### [Cobrar mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Bloquear proveedores](payables-how-block-vendors.md)
-#### [Usar los cargos de artículos a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
+#### [Usar los cargos de productos a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
 #### [Trabajar con tolerancias de pago y tolerancias de descuentos de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
 
@@ -362,14 +376,14 @@
 ### Administrar costes de inventario
 #### [Información general de costes de inventario](finance-manage-inventory-costs.md)
 #### [Acerca del coste de inventario](finance-learn-about-costing.md)
-#### [Usar los cargos de artículos a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
+#### [Usar los cargos de productos a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
 #### [Acerca del cálculo del coste estándar](finance-about-calculating-standard-cost.md)
 #### [Acerca del cálculo de coste unitario](finance-about-calculating-unit-cost.md)
 #### [Detalles de diseño: coste de inventario](design-details-inventory-costing.md)
 #### [Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)
 #### [Configurar la valoración de inventario y coste](finance-set-up-inventory-valuation-and-costing.md)
 #### [Revalorizar inventario](inventory-how-revalue-inventory.md)
-#### [Ajustar costes de artículos](inventory-how-adjust-item-costs.md)
+#### [Ajustar costes de productos](inventory-how-adjust-item-costs.md)
 #### [Administrar inventario y costes de fabricación](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Actualizar costes estándar](finance-how-to-update-standard-costs.md)
 #### [Quitar y volver a liquidar los movimientos de productos](finance-how-to-remove-and-reapply-item-entries.md)
@@ -402,8 +416,12 @@
 ### Consolidar los datos financieros de varias empresas
 #### [Consolidación de empresa](finance-consolidated-company-reporting.md)
 #### [Configurar la consolidación de empresa](finance-consolidated-company-reporting-setup.md)
+
+### Trabajar con el plan de cuentas y la contabilidad general
+#### [Entender la contabilidad general y los planes de cuentas](finance-general-ledger.md)
+#### [Consultar cuentas](finance-review-accounts.md)
+
 ### [Consolidar saldos para una empresa que es un cliente y un proveedor](finance-consolidate-customer-vendor-balances.md)
-### [Comprender la contabilidad general y el plan de cuentas](finance-general-ledger.md)
 ### [Trabajar con dimensiones](finance-dimensions.md)
 ### [Solucionar problemas y corregir dimensiones](finance-troubleshooting-correcting-dimensions.md)
 ### [Divisas en Business Central](finance-currencies.md)
@@ -429,6 +447,7 @@
 ## Inteligencia empresarial e informes financieros
 ### [Información general de la inteligencia empresarial y los informes financieros](bi.md)
 ### [Informes financieros](finance-reports.md)
+### [Analizar datos con cuentas estadísticas](bi-use-statistical-accounts.md)
 ### [Analizar importes reales frente a importes presupuestados](bi-how-analyze-actual-versus-budget.md)
 ### [Preparar Financial Reporting con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md)
 ### [Configurar y publicar un servicio web KPI basado en informes financieros](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -489,14 +508,15 @@
 ### [Registro de productos nuevos](inventory-how-register-new-items.md)
 ### [Trabajar con listas de materiales](inventory-how-work-BOMs.md)
 ### [Clasificar productos](inventory-how-categorize-items.md)
-### [Administrar variantes de productos](inventory-item-variants.md)  
+### [Administrar variantes del producto](inventory-item-variants.md)  
 ### [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)
 ### [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md)
+### [Agregar texto de marketing para productos](item-marketing-text.md)
 ### [Recontar y ajustar inventario mediante documentos](inventory-how-count-inventory-with-documents.md)
-### [Recontar, ajustar y reclasificar inventario con diarios](inventory-how-count-adjust-reclassify.md)
+### [Contar, ajustar y reclasificar diarios de uso de inventario](inventory-how-count-adjust-reclassify.md)
 ### [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 ### [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)
-### [Reservar artículos](inventory-how-to-reserve-items.md)
+### [Reservar productos](inventory-how-to-reserve-items.md)
 ### [Configurar el seguimiento de productos con números de serie, de lote y de paquete](inventory-how-setup-item-tracking.md)
 ### [Seguir productos con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)
 ### [Seguir producto - Productos seguidos](inventory-how-to-trace-item-tracked-items.md)
@@ -582,12 +602,12 @@
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Administración de ensamblados
-### [Ensamblar artículos](assembly-assemble-items.md)
+### [Ensamblar productos](assembly-assemble-items.md)
 ### [Informes de ensamblado](assembly-reports.md)
 ### [Comprender ensamblar para pedido y ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Presupuestar una venta de ensamblar para pedido](assembly-how-to-quote-an-assemble-to-order-sale.md)
-### [Ensamblar artículos](assembly-how-to-assemble-items.md)
-### [Vender artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md)
+### [Ensamblar productos](assembly-how-to-assemble-items.md)
+### [Vender productos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md)
 ### [Vender productos de inventario en los flujos de ensamblar para pedido](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)
 ### [Vender productos de ensamblado para pedido y productos de inventario juntos](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Crear pedidos de ensamblado abiertos](assembly-how-to-create-blanket-assembly-orders.md)
@@ -646,7 +666,7 @@
 ##### [Desplazar productos](warehouse-move-items.md)
 ##### [Transferir el inventario entre almacenes](inventory-how-transfer-between-locations.md)
 ##### [Mover productos internamente en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
-##### [Mover artículos en configuraciones avanzadas de almacén con selección y ubicación dirigidas](warehouse-how-to-move-items-in-advanced-warehousing.md)
+##### [Mover productos en configuraciones avanzadas de almacén con selección y ubicación dirigidas](warehouse-how-to-move-items-in-advanced-warehousing.md)
 
 #### Recuento de almacén
 ##### [Detalles de diseño: Integración con inventario](design-details-integration-with-inventory.md)
@@ -688,7 +708,7 @@
 ### [Ejecutar tareas en segundo plano](shopify/background.md)
 ### [Solucionar problemas del conector de Shopify](shopify/troubleshoot.md)
 ### [Preguntas frecuentes del conector Shopify](shopify/shopify-faq.md)
-### [Tutorial: Configurar y usar Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+### [Tutorial: Configurar y usar el conector de Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Hub de empresas
@@ -1139,7 +1159,7 @@
 ##### [Escenario de pago 2: pago al extranjero (ME a ME)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Escenario de pago 3: pago al extranjero (ML a ME)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
 ##### [Crear propuestas](LocalFunctionality/Netherlands/how-to-create-proposals.md)
-##### [Informes de registro de artículos](LocalFunctionality/Netherlands/docket-reports.md)
+##### [Informes de registro de productos](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Introducir y registrar diarios de efectivo y bancarios o de giros postales](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Imprimir informes de prueba para diarios de efectivo y bancarios o de giros postales](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
 ##### [Zona única de pagos en euros (SEPA)](LocalFunctionality/Netherlands/single-euro-payments-area-sepa-.md)
@@ -1306,7 +1326,7 @@
 ##### [Documentos de productos](LocalFunctionality/Russia/Item-Documents.md)
 ##### [Actos obligatorios de producto](LocalFunctionality/Russia/Item-Obligatory-Acts.md)
 ##### [Ley de inventario de cobros y pagos INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
-##### [Facturación de contabilidad de artículos](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
+##### [Facturación de contabilidad de productos](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [Crear el informe de productos TORG-29](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
 ##### [Conocimiento de embarque](LocalFunctionality/Russia/bill-of-lading.md)
 #### Recursos humanos
@@ -1503,6 +1523,7 @@
 #### [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)
 #### [Configurar métodos de envío](sales-how-set-up-shipment-methods.md)
 #### [Configurar transportistas](sales-how-to-set-up-shipping-agents.md)
+#### [Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)
 ### Configurar compra
 #### [Configurar compra](purchasing-setup-purchasing.md)
 #### [Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)
@@ -1511,6 +1532,7 @@
 #### [Configurar compradores](purchasing-how-setup-purchasers.md)
 #### [Configurar precios y descuentos](across-prices-and-discounts.md)
 #### [Registrar precios y descuentos de compra especiales](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)
 ### Configurar inventario
 #### [Configurar inventario](inventory-setup-inventory.md)
 #### [Configurar información de inventario general](inventory-how-setup-general.md)
@@ -1523,8 +1545,9 @@
 #### [Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Clasificar productos](inventory-how-categorize-items.md)
 #### [Importar varias imágenes de producto](inventory-how-import-item-pictures.md)
-### Configurar administración de proyectos
-#### [Configurar programas](projects-setup-projects.md)
+#### [Configurar texto de marketing de productos impulsado por IA con Copilot](enable-ai.md)
+### Configurar gestión del proyecto
+#### [Configurar proyectos](projects-setup-projects.md)
 #### [Configurar recursos](projects-how-setup-resources.md)
 #### [Configurar partes de horas](projects-how-setup-time-sheets.md)
 #### [Configurar proyectos](projects-how-setup-jobs.md)
@@ -1548,7 +1571,7 @@
 #### [Configurar almacenes para utilizar las ubicaciones](warehouse-how-to-set-up-locations-to-use-bins.md)
 #### [Convertir los almacenes existentes en ubicaciones de almacén](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
 #### [Configurar almacenes básicos con áreas de operaciones](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
-#### [Configurar artículos y ubicaciones para la recogida y el almacenamiento directos](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
+#### [Configurar productos y ubicaciones para la recogida y el almacenamiento directos](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 #### [Habilitar interrupción automática masiva con recogida y almacenamiento directos](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 #### [Habilitar picking por FEFO](warehouse-picking-by-fefo.md)
 <!-- #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
@@ -1592,8 +1615,9 @@
 #### [Configurar correo electrónico](admin-how-setup-email.md)
 #### Configurar la bandeja de entrada en Microsoft Outlook
 ##### [Obtener el complemento Business Central para Outlook](admin-outlook.md)
-##### [Usar Business Central como bandeja de entrada de empresa en Outlook](work-outlook-addin.md)
-##### [Sincronizar con Contactos en Outlook](admin-synchronize-outlook-contacts.md)
+##### [Usar Business Central como su bandeja de entrada de empresa en Outlook](work-outlook-addin.md)
+##### [Sincronizar con contactos en Outlook](admin-synchronize-outlook-contacts.md)
+###### [Configurar sincronización de contactos para entornos locales](admin-contact-sync-setup-onprem.md)
 ##### [Optimizar Outlook](admin-outlook-optimize.md)
 ##### [Usar Business Central sin Outlook](admin-no-outlook.md)
 ##### [Preguntas frecuentes](ui-outlook-addin-faq.yml)
@@ -1612,14 +1636,16 @@
 <!--Connectors-->
 ### Configurar conexiones
 #### [Obtener el complemento Business Central para Excel](admin-deploy-excel-addin.md)
-#### Usar Business Central como bandeja de entrada de empresa en Outlook 
+#### Usar Business Central como su bandeja de entrada de empresa en Outlook 
 ##### [Información general](admin-outlook.md)
-##### [Sincronizar con Contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Sincronizar con contactos en Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Configurar sincronización de contactos para entornos locales](admin-contact-sync-setup-onprem.md)
 ##### [Usar Business Central sin Outlook](admin-no-outlook.md)
-#### Usar Microsoft Teams con Business Central
+#### Uso de Microsoft Teams con Business Central
 ##### [Información general](across-teams-overview.md)
 ##### [Administrar la integración de Teams](admin-teams-integration.md)
 ##### [Instalar la aplicación Business Central para Teams](across-install-app-for-teams.md)
+##### [Acceder a datos en Teams sin licencia de Business Central](teams-access-with-m365-license.md)
 ##### [Buscar clientes, proveedores y contactos](across-search-contacts-teams.md)
 ##### [Agregar una pestaña de Business Central al canal o chat](across-teams-tab.md)
 ##### [Compartir registros y vínculos de página en Teams](across-working-with-teams.md)
@@ -1744,6 +1770,7 @@
 ### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
 ### [Analizar datos de página en Excel](across-work-with-excel.md)
 ### [Analizar datos de informes con Excel](report-analyze-excel.md)
+### [Analizar datos de lista con el modo de análisis](analysis-mode.md)
 ### [Inteligencia empresarial financiera](bi.md)
 
 ## Análisis integrados 
@@ -1873,8 +1900,11 @@
 ### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Solucionar errores de sincronización](admin-troubleshoot-sales-synchronization.md)
 ### [Utilizar un flujo de Power Automate para alertas de cambios de entidad de Dataverse](admin-power-automate-flow-dataverse.md)
+## Sincronizar datos maestros entre empresas
+### [Prepararse para sincronizar datos maestros](admin-set-up-data-sync.md)
+### [Administrar la sincronización de datos maestros](admin-sync-master-data.md)
 ## Detalles de diseño
-### [Información general de los detalles del diseño de las aplicaciones](design-details-application-design.md)
+### [Información general de los detalles de diseño de las aplicaciones](design-details-application-design.md)
 ### Detalles de diseño: planificación de suministro
 #### [Información general de la planificación de suministro](design-details-supply-planning.md)
 #### [Detalles de diseño: conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)  
@@ -1888,8 +1918,8 @@
 #### [Información general de costes](design-details-inventory-costing.md)
 #### [Detalles de diseño: métodos de coste](design-details-costing-methods.md)  
 #### [Detalles de diseño: cambio del método de coste para los productos](design-details-changing-costing-methods.md)
-#### [Detalles de diseño: liquidación de artículos](design-details-item-application.md)  
-#### [Detalles de diseño: problema conocido con la liquidación de artículos](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+#### [Detalles de diseño: liquidación de productos](design-details-item-application.md)  
+#### [Detalles de diseño: problema conocido con la liquidación de productos](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 #### [Detalles de diseño: ajuste de coste](design-details-cost-adjustment.md)  
 #### Detalles de diseño: fecha de registro en el movimiento de valor de ajuste
 #### [Detalles de diseño: fecha de registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
