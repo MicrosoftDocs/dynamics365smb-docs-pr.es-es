@@ -28,7 +28,9 @@ Un pedido regular de Shopify puede incluir costes adicionales al subtotal, como 
 
 Habilite **Crear pedidos automáticamente** para crear automáticamente documentos de ventas en [!INCLUDE[prod_short](../includes/prod_short.md)], una vez que se importe el pedido de Shopify.
 
-El documento de ventas de [!INCLUDE[prod_short](../includes/prod_short.md)] contiene un enlace al pedido de Shopify. Si selecciona el campo **N.º de pedido de Shopify en línea de documento**, entonces esta información se repite en las líneas de ventas de tipo *Comentario*.
+Si desea liberar automáticamente un documento de ventas, active la opción **Liberación automática de pedidos de venta**.
+
+El documento de ventas en [!INCLUDE[prod_short](../includes/prod_short.md)] se vincula al pedido de Shopify y puede agregar un campo que aún no se muestra en la página. Para obtener más información sobre cómo agregar un campo, vaya a [Para comenzar a personalizar una página a través del banner **Personalizar**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner) . Si selecciona el campo **N.º de pedido de Shopify en línea de documento**, entonces esta información se repite en las líneas de ventas de tipo **Comentario**.
 
 En el campo **Origen del área fiscal**, defina la prioridad sobre cómo seleccionar el código de área fiscal o el grupo contable comercial de IVA en función de la dirección. El pedido importado de Shopify contiene información sobre los impuestos, pero estos se recalculan cuando se crea el documento de venta, por lo que es importante que la configuración del IVA/impuestos sea correcta en [!INCLUDE[prod_short](../includes/prod_short.md)]. Para obtener más información acerca de los impuestos, consulte [Configurar impuestos para la conexión Shopify](setup-taxes.md).
 
@@ -75,11 +77,11 @@ El siguiente procedimiento describe cómo importar y actualizar pedidos de venta
 > [!NOTE]  
 > Al filtrar por etiqueta, debe usar tokens de filtro `@` y `*`. Por ejemplo, si desea importar pedidos que contengan *tag1*, utilice `@*tag1*`. `@` se asegurará de que el resultado no tenga en cuenta mayúsculas y minúsculas, mientras que `*` busca pedidos con varias etiquetas.
 
-7. Elija el botón **Aceptar**.
+6. Elija el botón **Aceptar**.
 
 Alternativamente, puede buscar el trabajo por lotes **Sincronizar pedidos desde Shopify**.
 
-Puede programar la tarea para que se realice de forma automatizada. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
+Puede programar la tarea para que se realice automáticamente. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
 
 ## Revisar pedidos importados
 
@@ -90,7 +92,7 @@ Una vez completada la importación, puede explorar el pedido de Shopify y encont
 
 ## Crear documentos de ventas en Business Central
 
-Si el conmutador de alternancia **Crear pedidos automáticamente** está habilitado en **Tarjeta de tienda de Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] intenta crear un documento de ventas una vez que se importa el pedido. Si se producen problemas, como la falta de un cliente o de un producto, tendrá que solucionarlos y volver a crear el pedido de venta.
+Si el conmutador de alternancia **Crear pedidos automáticamente** está habilitado en **Tarjeta de tienda de Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] intenta crear un documento de ventas después de que se importa el pedido. Si se producen problemas, como la falta de un cliente o de un producto, tendrá que solucionarlos y volver a crear el pedido de venta.
 
 ### Para crear documentos de venta
 
@@ -132,20 +134,24 @@ Los próximos pasos dependen del **Tipo de asignación de cliente**.
 
 En Shopify:
 
-|Editar|Impacto|
-|------|-----------|
-|Cambiar la ubicación de proceso de entrega | La ubicación original se sincronizará con [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Cambiar la ubicación de cumplimiento y registre el cumplimiento en Shopify| Si el pedido ya se importó, las líneas no se actualizarán. De lo contrario, el pedido importado utilizará la ubicación de cumplimiento. |
-|Editar un pedido y cambiar la cantidad| El encabezado del pedido y las tablas complementarias se actualizarán en [!INCLUDE[prod_short](../includes/prod_short.md)], las líneas no lo harán. |
-|Editar un pedido y agregar un nuevo artículo | El encabezado del pedido se actualizará, las líneas no. |
+|Editar|Impacto para pedido ya importado|Impacto para el pedido que se importa por primera vez|
+|------|-----------|-----------|
+|Cambiar la ubicación de proceso de entrega | La ubicación original está en las líneas | La ubicación de proceso de entrega está sincronizada con [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Editar un pedido y aumentar la cantidad| El encabezado del pedido y las tablas complementarias se actualizarán en [!INCLUDE[prod_short](../includes/prod_short.md)], las líneas no lo harán.| El pedido importado usará una nueva cantidad|
+|Editar un pedido y disminuir la cantidad| El encabezado del pedido y las tablas complementarias se actualizarán en [!INCLUDE[prod_short](../includes/prod_short.md)], las líneas no lo harán.| El pedido importado usará la cantidad original, el campo Cantidad a cumplir contendrá un nuevo valor.|
+|Editar un pedido y eliminar un producto existente | El encabezado del pedido y las tablas complementarias se actualizarán en [!INCLUDE[prod_short](../includes/prod_short.md)], las líneas no lo harán.| El producto eliminado aún se importará, el campo Cantidad a cumplir contendrá cero. |
+|Editar un pedido y agregar un nuevo artículo | El encabezado del pedido se actualizará, las líneas no. | Se importarán los elementos originales y añadidos. |
+|Procesar pedido: cumplir, actualizar información de pago | El encabezado del pedido se actualizará, pero las líneas no. |El cambio no tiene impacto sobre cómo se importa el pedido.|
+|Cancelar pedido | El encabezado del pedido se actualizará, pero las líneas no. |El pedido cancelado no se importa |
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Editar|Impacto|
 |------|-----------|
-|Cambie la ubicación a otra ubicación, asignada a las ubicaciones de Shopify. Registre el envío. | Después de sincronizar el proceso de entrega, la ubicación se actualizará en Shopify. |
+|Cambie la ubicación a otra ubicación, asignada a las ubicaciones de Shopify. Registre el envío. | El pedido se marcará como entregado. Se utilizará el almacén original. |
 |Cambie la ubicación a otra ubicación, no asignada a las ubicaciones de Shopify. Registre el envío. | El proceso de entrega no se sincronizará con Shopify. |
-|Cambie o disminuya la cantidad. Registre el envío. | El pedido de Shopify se marcará como parcialmente entregado. |
+|Disminuya la cantidad. Registre el envío. | El pedido de Shopify se marcará como parcialmente entregado. |
+|Incremente la cantidad. Registre el envío. | El proceso de entrega no se sincronizará con Shopify. |
 |Agregue un artículo nuevo. Registre el envío. | El pedido de Shopify se marcará como entregado. Las líneas no se actualizarán. |
 
 ## Sincronizar envíos a Shopify
@@ -162,7 +168,8 @@ Como alternativa, utilice la acción **Sincronizar envíos** en los pedidos de v
 
 Puede programar la tarea para que se realice de forma automatizada. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
 
->[Importante] La ubicación, incluida la ubicación en blanco, definida en la línea de envío registrado debe tener un registro coincidente en el almacén Shopify. De lo contrario, esta línea no se devolverá a Shopify. Obtenga más información en [Asignación de almacén](synchronize-orders.md#location-mapping).
+>[!Important]
+>La ubicación, incluida la ubicación en blanco, definida en la línea de envío contabilizado, debe tener un registro coincidente en el almacén de Shopify. De lo contrario, esta línea no se devolverá a Shopify. Obtenga más información en [Asignación de almacén](synchronize-orders.md#location-mapping).
 
 Recuerde ejecutar **Sincronizar pedidos desde Shopify** para actualizar el estado de proceso de entrega de un pedido en [!INCLUDE[prod_short](../includes/prod_short.md)]. La funcionalidad del conector también archiva pedidos completamente pagados y procesados en Shopify y [!INCLUDE[prod_short](../includes/prod_short.md)], siempre que se cumplan las condiciones.
 

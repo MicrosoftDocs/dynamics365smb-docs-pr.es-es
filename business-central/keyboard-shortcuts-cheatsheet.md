@@ -1,14 +1,14 @@
 ---
-title: Referencia rápida a los métodos abreviados de teclado para PC
+title: 'Referencia rápida de teclado: solo PC'
 description: Una hoja de referencia fácil de imprimir que contiene los métodos abreviados de teclado más populares para usuarios de PC.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'accessibility, shortcuts, keyboarding'
-ms.date: 08/19/2022
+ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Referencia rápida de teclado: solo PC
@@ -17,6 +17,7 @@ ms.author: jswymer
 
 |Seleccione estas teclas|Para hacer esto|  
 |-|-|
+|<kbd>Alt</kbd>|Mostrar teclas de acceso para navegar por la barra de acciones o el menú de navegación|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Mostrar u ocultar el panel de cuadro informativo|
 |<kbd>Alt</kbd>+<kbd>N</kbd>|Crear un registro nuevo|
 |<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>N</kbd>|Cerrar un registro recién creado y crear uno nuevo|

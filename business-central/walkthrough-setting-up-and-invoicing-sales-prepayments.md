@@ -39,15 +39,15 @@ En este tutorial se incluyen tareas para las siguientes funciones:
 
 ## Historia
 
- Felisa es administradora de contabilidad. Ella decisiones sobre qué clientes deben abonar un depósito antes de que se fabriquen o envíen los productos. Felisa configura [!INCLUDE[prod_short](includes/prod_short.md)] para calcular automáticamente los prepagos.  
+ Phyllis es administradora de contabilidad y toma decisiones sobre qué clientes deben abonar un depósito antes de que se fabriquen o envíen los productos. Felisa configura [!INCLUDE[prod_short](includes/prod_short.md)] para calcular automáticamente los prepagos.  
 
- Susana es procesadora de pedidos de ventas. Cuando un cliente llama para realizar un pedido, ella lo introduce en el sistema mientras el cliente está en el teléfono. Así, puede verificar los precios y las condiciones de pago con el cliente en el momento, y puede realizar cambios en el pedido mientras negocia con el cliente.  
+ Susana es procesadora de pedidos de ventas. Cuando un cliente llama para realizar un pedido, Susan lo introduce en el sistema mientras el cliente está al teléfono. Así, Susan puede verificar los precios y las condiciones de pago con el cliente en el momento, y realiza cambios en el pedido mientras negocia con el cliente.  
 
- Andrés trabaja en el departamento de Cobros, donde registra facturas y pagos.  
+ Arnie trabaja en el departamento de Clientes y registra facturas y pagos.  
 
  En este ejemplo, Felisa configura los requisitos de prepago para el cliente Sellafrio, basándose en su historial crediticio. Phyllis le da instrucciones a Susan sobre cómo manejar sus pedidos.  
 
- Cuando el cliente llama, Susana negocia con el cliente hasta alcanzar un acuerdo. Ella puede elegir calcular el prepago de varias maneras diferentes.  
+ Cuando llama el cliente, Susan negocia con el cliente hasta alcanzar un acuerdo, y luego elige calcular el prepago de diversas formas distintas.  
 
  Una vez que Susana envíe la factura prepago, el cliente solicita un producto adicional. Susana actualiza el pedido y crea una segunda factura prepago.  
 
@@ -75,9 +75,9 @@ En los siguientes procedimientos, se describe cómo realizar las tareas de Felis
 
 Hora no se puede enviar ni facturar un pedido que tenga una cantidad de prepago sin abonar.  
 
-Felisa exige que al cliente 20000 se le facture un prepago del 30% en todos los pedidos, de manera predeterminada. Por lo tanto, escribirá un porcentaje de prepago predeterminado en la ficha cliente.  
+Felisa exige que al cliente 20000 se le facture un prepago del 30% en todos los pedidos, de manera predeterminada. Por lo tanto, Phyllis escribirá un porcentaje de prepago predeterminado en la ficha del cliente.  
 
-Felisa requiere que a todos los clientes se les facture un depósito del 20 % para el producto 1896-S. El cliente 20000 tiene un mal historial de prepagos, por lo que requiere un prepago del 40% para el cliente 20000 para el producto 1896-S. En el procedimiento siguiente se ilustra el modo de configurar los porcentajes de prepago predeterminados.  
+Felisa requiere que a todos los clientes se les facture un depósito del 20 % para el producto 1896-S. El cliente 20000 tiene un mal historial de pagos, por lo que Phyllis requiere un prepago del 40 % para el cliente 20000, para el producto 1896-S. En el procedimiento siguiente se ilustra el modo de configurar los porcentajes de prepago predeterminados.  
 
 ### Para asignar porcentajes de prepago predeterminados a clientes y productos
 
@@ -110,7 +110,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20 % p
 
  En el siguiente ejemplo, Susana, la procesadora de pedidos, crea un pedido cuando habla con un cliente. Los artículos que el cliente está ordenando requieren un prepago. Además, el cliente ha realizado algunos pagos atrasados en el pasado. Se ha indicado a Susana para requerir un importe fijo de **800** como prepago en el pedido.  
 
-El cliente solicita que le permitan pagar el 35%, que Susana puede aceptar, por lo que realiza el cambio en el pedido.  
+El cliente solicita que le permitan pagar el 35 %, lo que Susana acepta, y cambia el pedido.  
 
 Susana crea la factura de prepago y la envía al cliente.  
 
@@ -165,7 +165,7 @@ Después de escribir los valores de prepago correctos en el pedido, Susana crea 
 
 ## Crear una factura de prepago adicional
 
-Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El cliente desea dos unidades del producto 1896-S. Susan vuelve a abrir el pedido y lo actualiza. Luego crea una segunda factura de prepago para el pedido y la envía al cliente.  
+Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El cliente desea dos unidades del producto 1896-S. Susana vuelve a abrir y actualiza el pedido y, a continuación, crea una segunda factura de prepago del pedido y la envía al cliente.  
 
 ### Para crear una factura de prepago adicional
 

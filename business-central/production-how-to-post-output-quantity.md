@@ -7,10 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Registrar por lotes el resultado y los tiempos de ejecución
+
 La cantidad de salida representa el trabajo en curso en términos de cantidad terminada y capacidad utilizada del centro de trabajo o de máquina.
 
 Puede usar el diario de salida para:
@@ -22,7 +23,7 @@ Puede usar el diario de salida para:
 > [!NOTE]
 > Si se usa la ruta de producción, se actualiza solo cuando registra la cantidad de salida en la última operación.
 
-Con la ventana **Diario de producción**, puede realizar las mismas tareas que las de la ventana **Diario de salida** y al mismo tiempo realizar las tareas de registro de consumo relacionadas. Para obtener más información, consulte [Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md).
+La página **Diario de producción** le permite hacer las mismas tareas que en la página **Diario de salida**, y también hacer tareas de contabilización de consumo. Para obtener más información, consulte [Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md).
 
 ## Para registrar cantidades de salida y/o registrar tiempos de ejecución en una o varias líneas de la orden de producción
 
@@ -32,11 +33,11 @@ Con la ventana **Diario de producción**, puede realizar las mismas tareas que l
     Puede usar la función **Desplegar ruta** para generar líneas de diario a partir de órdenes de producción.
   
 3. Si la operación se ha completado, seleccione el campo **Terminado**.  
-4. Para registrar las operaciones, elija la acción **Registrar**. 
+4. Para registrar las operaciones, elija la acción **Registrar**.
 
-Los movimientos de capacidad se actualizan para los centros de trabajo o de máquinas usados con información sobre el tiempo y la cantidad de salida y rechazo.  
+    Los movimientos de capacidad se actualizan para los centros de trabajo o de máquinas usados con información sobre el tiempo y la cantidad de salida y rechazo. Si registró la última operación, el producto se agregará al inventario.
 
-Si registró la última operación, el producto se agregará al inventario.  
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Consulte también
 

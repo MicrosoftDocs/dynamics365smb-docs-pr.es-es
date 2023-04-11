@@ -1,14 +1,14 @@
 ---
-title: Métodos abreviados de teclado
+title: Métodos abreviados
 description: La lista completa de combinaciones de método abreviado de teclado para trabajar de manera eficaz con los datos.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Métodos abreviados de teclado
@@ -39,6 +39,7 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 
 |Seleccione estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Muestra las teclas de acceso para seleccionar acciones en la barra de acciones y el menú de navegación de la página. Para obtener más información, vaya a [Claves de acceso](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>flecha arriba</kbd>|Abra una lista desplegable o busque un valor de un campo.|
 |<kbd>Alt</kbd>+<kbd>flecha arriba</kbd>|Mostrar información sobre herramienta de un campo o encabezado de columna de una tabla. Si el campo contiene errores de validación, seleccione <kbd>Alt</kbd>+<kbd>flecha arriba</kbd> para mostrar el error de validación. Pulse <kbd>Esc</kbd> o <kbd>Alt</kbd>+<kbd>flecha arriba</kbd> para cerrar la información sobre herramientas.|
 |<kbd>F2</kbd>|Alterne entre seleccionar todo el valor del campo o colocar el cursor al final del valor del campo.|
@@ -51,7 +52,7 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 |<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>N</kbd> |Cerrar una página recién creada y abrir una nueva para crear un nuevo registro. Del mismo modo, <kbd>Alt</kbd>+<kbd>F9</kbd> registra un documento y crea uno nuevo.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Abrir la página **Mi configuración**.|
 |<kbd>Alt</kbd>+<kbd>Flecha hacia la derecha</kbd>|Buscar información adicional o valores subyacentes para un campo que contiene el botón ![AssistEdit.](media/assist-edit-icon.png "Botón AssistEdit") . Se usa cuando el botón desplegable habitual (<kbd>Alt</kbd>+<kbd>flecha arriba</kbd>) en el mismo campo se usa para otro propósito.|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>C</kbd>|Mostrar información en el distintivo de la empresa. Este acceso directo se suspendió en el segundo lanzamiento de versiones de 2022 (versión 21) de Business Central y se reemplazó por <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>C</kbd>|Mostrar información en el distintivo de la empresa. A partir del segundo lanzamiento de versiones de 2022 de Business Central (versión 21), este método abreviado ya no es compatible, siendo sustituido por <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Abrir y cerrar el panel de inspección de la página. El panel de inspección de la página muestra información sobre la página, como su tabla de orígenes, campos, filtros, extensiones y más.<br /><br />Para obtener más información, vea [Inspección de páginas](across-inspect-page.md).|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copiar el valor del campo. Si el campo tiene el enfoque y no ha seleccionado ningún texto en el campo, se copiará todo el valor. Si ha seleccionado texto en el campo, solo copiará el texto seleccionado.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Abra el [panel de ayuda](product-help-and-support.md#help-pane) o un artículo de ayuda de Business Central en [Microsoft Learn](/dynamics365/business-central/), dependiendo de su versión de Business Central.|
@@ -245,6 +246,19 @@ En la tabla siguiente se describen los métodos abreviados en un teclado numéri
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Separador decimal</kbd>|Cambie la salida de la tecla de separador decimal a un punto (.) o al carácter determinado por la opción **Región** de la página **Mi configuración**. Para más información, consulte [Configurar el separador decimal utilizado por los teclados numéricos](ui-enter-data.md#decimal).|
 
+
+## Teclas de acceso para la barra de acciónes y el menú de navegación
+
+Las teclas de acceso son métodos abreviados de teclado que seleccionan acciones específicas en la barra de acciones y el menú de navegación, lo que le permite navegar a través de las acciones para llegar a la página que se desea. Las claves de acceso están disponibles en el cliente web de Business Central y son similares a las claves de acceso en Excel y Word Online.  
+
+Para usar las teclas de acceso en una página, primero seleccione la tecla <kbd>Alt</kbd> para mostrar *sugerencias de teclas*, que son letras en pequeños recuadros junto a las acciones de la barra de acciones y el menú de navegación. 
+
+![Imagen que muestra claves de acceso en la página de lista de clientes.](media/access-keys.png) 
+
+Para seleccionar una acción, seleccione la combinación de teclas que se muestra en la sugerencia de teclas, por ejemplo <kbd>H</kbd> o <kbd>J</kbd>+<kbd>F</kbd>.
+- Si la acción abre un submenú de otras acciones, se muestran las sugerencias de teclas para el submenú, lo que le permite continuar usando las teclas de acceso si lo desea.
+- Si la acción abre una página diferente, las sugerencias clave se desactivan. Para volver a mostrarlos, seleccione la tecla <kbd>Alt</kbd>. 
+ 
 ## Consulte también .
 
 [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)  

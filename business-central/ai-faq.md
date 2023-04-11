@@ -4,7 +4,7 @@ description: Obtenga respuestas a preguntas frecuentes sobre las capacidades de 
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: faq
-ms.date: 03/16/2023
+ms.date: 04/03/2023
 ms.custom: bap-template
 author: jswymer
 ms.service: dynamics365-business-central
@@ -35,10 +35,9 @@ Para que Copilot esté disponible, se deben cumplir los siguientes requisitos:
 - El idioma que usa en Business Central debe ser el inglés. Cualquiera de las configuraciones regionales disponibles en inglés servirá, como inglés (Estados Unidos), inglés (Reino Unido) o inglés (Sudáfrica).
 
   Para cambiar el idioma, en la esquina superior derecha, seleccione el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") > **Mi configuración** > **Idioma**. Para obtener más información, vaya a [Cambiar configuración básica](ui-change-basic-settings.md#language).
-- Debe utilizar Business Central Online como prueba o en un espacio aislado.
-- Su versión de Business Central debe ser **22.0.54157.54311 (versión preliminar - edición Copilot)**.
+- Debe usar Business Central Online, versión 22 o posterior (si se trata de un cliente existente) o una versión de prueba.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
 
-   Para comprobar la versión, seleccione el signo de interrogación en la esquina superior derecha, luego **Ayuda y soporte técnico**. En **Solución de problemas**, busque la versión de la aplicación. Para obtener información sobre cómo obtener la versión de versión preliminar correcta, vaya a [Comenzar con una versión de versión preliminar de Business Central: edición Copilot](ai-preview-getstarted.md).
+   Para comprobar la versión, seleccione el signo de interrogación en la esquina superior derecha, luego **Ayuda y soporte técnico**. En **Solución de problemas**, busque la versión de la aplicación. Para obtener información sobre cómo obtener la versión de versión preliminar correcta, vaya a [Comenzar con una versión preliminar de Business Central](ai-preview-getstarted.md).
 - La característica en versión preliminar **Crear descripciones de productos con tecnología de IA con Copilot** debe estar habilitada.
 
    Para obtener más información, vaya a [Habilitar o deshabilitar la característica "Crear descripciones de productos con tecnología de IA con Copilot"](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).

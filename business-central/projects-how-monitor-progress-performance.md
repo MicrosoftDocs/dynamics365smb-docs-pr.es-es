@@ -1,15 +1,14 @@
 ---
 title: Supervisar el progreso y el rendimiento del trabajo
 description: Describe cómo puede crear un método de trabajo en curso (WIP) y calcular el WIP para estimar el valor financiero de los trabajos mientras están en progreso.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
-ms.date: 08/04/2022
-ms.author: edupont
 ---
 # Supervisar el progreso y el rendimiento del trabajo
 

@@ -39,7 +39,7 @@ En este tutorial, se demuestran las tareas realizadas por el siguiente rol de us
 
 ## Historia
 
-Ken es un controlador de CRONUS que efectúa previsiones mensuales del flujo de efectivo. Incluye las finanzas, ventas, compras y activos fijos en la previsión y, a continuación, lo envía a CFO Sara para una perspectiva de negocio.  
+Ken es un controlador de CRONUS que efectúa previsiones mensuales del flujo de efectivo. Ken incluye las finanzas, ventas, compras y los activos fijos en las previsiones y las envía a la CFO Sara para una perspectiva de negocio.  
 
 ## Configuración de un nuevo nombre de informe financiero
 
@@ -95,12 +95,12 @@ Después de configurar un nombre de informe financiero, Ken define cada línea e
 
 ## Configuración de una definición de columna nueva
 
-Antes de que Ken pueda imprimir la previsión del flujo de efectivo, necesita crear la definición de columna para la información numérica. En las columnas, define la información que desea utilizar de las líneas.
+Antes de imprimir la previsión del flujo de efectivo, Ken necesita crear la definición de columna para la información numérica. En las columnas, Ken define la información necesaria para utilizarla desde las líneas.
 
 - La primera columna tiene el número *C10* con el título **Importe** y contiene el saldo del periodo.  
 - La segunda columna tiene el número *C20* con el título **Saldo a la fecha** y contiene las transacciones para el periodo.  
 - La tercera columna tiene el número *C30* con el título **Año completo** y contiene el saldo del periodo en los saldos del ejercicio completo.  
-- Por último, asigna la definición de columna como opción predeterminado para el informe financiero **Previsiones**.  
+- Por último, Ken asigna la definición de columna como opción predeterminada para el informe financiero **Previsiones**.  
 
 ### Configurar una definición de columna nueva
 

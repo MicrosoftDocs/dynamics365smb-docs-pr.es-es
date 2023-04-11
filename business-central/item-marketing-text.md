@@ -26,10 +26,15 @@ Con Copilot, obtiene rápidamente una sugerencia de texto que se genera automát
 
 Copilot está diseñado para ahorrarle tiempo y ayudarlo a escribir texto creativo y atractivo que refleje su marca y sea consistente en toda su línea de productos. Comience generando una sugerencia, luego cambie el texto sugerido según sea necesario.
 
+> [!NOTE]
+> En la versión preliminar de Business Central, el texto generado por IA solo está en inglés.
+
 ### Requisitos previos
 
 - Está utilizando una [versión preliminar](ai-preview-getstarted.md) de Business Central que está habilitada para Copilot. La activación de Copilot la realiza un administrador. Para obtener más información, vaya a [Configurar texto de marketing de artículos impulsado por IA con Copilot](enable-ai.md).
+- El idioma que usa en Business Central debe ser el inglés. Cualquiera de las configuraciones regionales disponibles en inglés servirá, como inglés (Estados Unidos), inglés (Reino Unido) o inglés (Sudáfrica).
 
+   Para cambiar el idioma, en la esquina superior derecha, seleccione el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") > **Mi configuración** > **Idioma**. Para obtener más información, vaya a [Cambiar configuración básica](ui-change-basic-settings.md#language).
 - Consulte las [preguntas frecuentes de Copilot](ai-faq.md) para obtener más información sobre las sugerencias de texto generadas por IA de Copilot y cómo debe usarlas.
 
 ### Crear un primer borrador con Copilot

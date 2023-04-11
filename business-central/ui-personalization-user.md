@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Personalice su área de trabajo
 
-Puede personalizar el área de trabajo para que se adapte a sus preferencias y trabajo. Cambie las páginas para que muestren solo la información que necesita, donde la necesita. Los cambios de personalización solo afectarán a *su* visualización y no a la de otros usuarios.
+Puede personalizar el área de trabajo para que se adapte a sus preferencias y trabajo. Cambie las páginas para que muestren solo la información que necesita, donde la necesita. La personalización afecta solo a su espacio de trabajo. No cambia la forma en que otros trabajan.
 
-Puede personalizar todo tipo de páginas, incluida la página Área de trabajo. Para obtener más información sobre las áreas de trabajo, consulte [Área de trabajo](ui-change-basic-settings.md#role-center).  
+Puede personalizar todo tipo de páginas, incluida la página Área de trabajo. Para obtener más información sobre las áreas de trabajo, vaya a [Área de trabajo](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Puede realizar varios cambios, como mover u ocultar campos, columnas, acciones y partes completas, y agregar nuevos campos. La mayor parte de la personalización debe realizarse activando primero banner **Personalización**. Puede realizar ajustes simples, como el ancho de columna, inmediatamente en cualquier lista.
 
 > [!NOTE]
-> Los administradores pueden realizar los mismos cambios de diseño que los usuarios al personalizar el espacio de trabajo para un perfil que se asigna a múltiples usuarios. Para obtener más información, consulte [Personalizar las páginas para los roles](ui-personalization-manage.md).<br /><br />
+> Los administradores pueden hacer los mismos cambios de diseño que los usuarios al personalizar el espacio de trabajo para un perfil que se asigna a múltiples usuarios. Para obtener más información sobre las páginas para roles, vaya a [Personalizar páginas para roles](ui-personalization-manage.md)<br /><br />
 Los administradores también pueden anular o deshabilitar la personalización de los usuarios y pueden definir qué características están incluso disponibles para que los usuarios las vean en todas las empresas o en empresas específicas. Para obtener más información, consulte [Personalizar Business Central](ui-customizing-overview.md).
 
-## Resumen en vídeo
+## Vídeo
+
 El siguiente video muestra algunas de las formas en que puede personalizar su área de trabajo.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 
 La personalización le permite decidir qué acciones se mostrarán en las barras de navegación y acciones y en las áreas de trabajo y dónde se mostrarán. Puede mostrar, ocultar o mover acciones individuales o grupos de acciones.
 
-En el segundo lanzamiento de versiones de 2022 le proporcionamos más formas de personalizar Business Central. El siguiente video muestra cómo puede personalizar acciones en páginas y áreas de trabajo.
+El siguiente video muestra cómo puede personalizar acciones en páginas y áreas de trabajo.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -126,6 +127,7 @@ Las partes son áreas de una página que normalmente se componen de varios campo
 Puede borrar todos los cambios de personalización que haya realizado en una sola parte seleccionando la opción **Borrar personalización** bajo la punta de flecha de la parte. Borrar la personalización de una parte solo afecta a los cambios en el contenido de la parte, no a la ubicación ni a la visibilidad de la parte en la página.  
 
 ## Para borrar la personalización
+
 En algún momento, es posible que desee borrar algunos o todos los cambios de personalización que hizo en esta página a lo largo del tiempo.
 
 1. En el banner **Personalización**, elija la acción **Borrar personalización**.
@@ -138,7 +140,7 @@ En algún momento, es posible que desee borrar algunos o todos los cambios de pe
 |------|------------
 |**Solo menú de navegación**|Borra cualquier cambio de personalización que haya realizado en el menú de navegación que se comparte en el Área de trabajo y otras páginas. Tales cambios incluyen cualquier acción nueva que se haya agregado como marcador y cualquier cambio en los enlaces y grupos en el menú.|  
 |**Solo acciones**|Borra todos los cambios de personalización que haya realizado en las barras de navegación o acciones en la página.|
-|**Solo campos, columnas y partes**|Borra todos los cambios de personalización que haya realizado en la página excepto cambios en la barra de navegación o de acciones. Tales cambios incluyen cambios en los campos, columnas, piezas e iconos. |
+|**Solo campos y columnas**|Borra todos los cambios de personalización que haya realizado en la página excepto cambios en la barra de navegación o de acciones. Tales cambios incluyen cambios en los campos, columnas, piezas e iconos. |
 |**Todo**|Borra todos los cambios de personalización que haya realizado para que se parezca a la original. Tales cambios incluyen cambios en las barras de navegación y de acciones, campos, columnas, partes e iconos.|
 
 ## Otros puntos de interés

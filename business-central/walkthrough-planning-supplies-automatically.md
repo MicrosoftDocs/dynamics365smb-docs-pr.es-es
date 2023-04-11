@@ -47,11 +47,11 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 ## Historia  
  El cliente, Cannon Group PLC, hace un pedido de cinco bicicletas de ruta para su entrega el 05-02-2021 (5 de febrero).  
 
- Eduardo, el planificador de producción, realiza la planificación de suministros de rutina para la primera semana de febrero de 2021. Realiza el filtrado en su propio almacén, EAST, y especifica el intervalo de planificación de la fecha de trabajo 23-01-2021 a 07-02-2021 antes de calcular un plan de suministro inicial.  
+ Eduardo, el planificador de producción, realiza la planificación de suministros de rutina para la primera semana de febrero de 2021. Eduardo realiza el filtrado en su propio almacén, ESTE, y especifica el intervalo de planificación de la fecha de trabajo 23-01-2021 a 07-02-2021 antes de calcular un plan de suministro inicial.  
 
  La única demanda de dicha semana es para el pedido de venta de GDE Distribución S.A.. Eduardo ve que ninguna de las líneas de planificación tiene advertencias y crea pedidos de suministro sin cambios para las líneas de planificación sugeridas.  
 
- Al día siguiente, antes de que se inicie o registre ninguno de los pedidos de suministro iniciales, notifican a Eduardo que otro cliente ha realizado un pedido de diez bicicletas de ruta para su envío el 12-02-2021. Eduardo vuelve a calcular para ajustar el plan de suministro según el cambio en la demanda. El nuevo cálculo arroja un plan de saldo periodo que sugiere cambios tanto en el tiempo como en la cantidad de algunos de los pedidos de suministro creados la primera vez.  
+ Al día siguiente, antes de que se inicie o registre ninguno de los pedidos de suministro iniciales, notifican a Eduardo que otro cliente ha realizado un pedido de diez bicicletas de ruta para su envío el 12-02-2021. Eduardo vuelve a calcular para ajustar el plan de suministro según el cambio de la demanda. El nuevo cálculo arroja un plan de saldo periodo que sugiere cambios tanto en el tiempo como en la cantidad de algunos de los pedidos de suministro creados la primera vez.  
 
  Durante los diversos pasos de planificación, Eduardo consulta los pedidos implicados y utiliza la función Seguimiento pedido para ver qué demanda es cubierta con qué suministro.  
 
@@ -80,7 +80,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
  De este modo finaliza la preparación de datos de ejemplo para el tutorial.  
 
 ## Creación de un plan de suministro regenerativo  
- En reacción a un nuevo pedido de venta de cinco bicicletas de ruta, Ricardo comienza el proceso de planificación configurando las opciones, los filtros y el intervalo de planificación para excluir el resto de la demanda, salvo la de la primera semana de febrero en el almacén EAST. Comienza por calcular un programa maestro de producción (MPS) en los filtros y luego calcula un plan de suministro completo para toda la demanda de nivel inferior (MRP) en los filtros.  
+ En reacción a un nuevo pedido de venta de cinco bicicletas de ruta, Ricardo comienza el proceso de planificación configurando las opciones, los filtros y el intervalo de planificación para excluir el resto de la demanda, salvo la de la primera semana de febrero en el almacén EAST. Ricardo comienza por calcular un programa maestro de producción (MPS) y luego calcula un plan de suministro completo para toda la demanda de nivel inferior (MRP).  
 
 ### Para crear el pedido de venta  
 
@@ -198,7 +198,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
  De este modo finaliza el cálculo inicial, análisis y creación de un plan de suministro para la demanda en el almacén EAST para la primera semana de febrero. En la siguiente sección, otro cliente realiza un pedido de diez bicicletas de ruta, por lo que Eduardo deberá replanificar.  
 
 ## Creación de un plan de saldo periodo  
- Al día siguiente, antes de que se inicie o registre ninguno de los pedidos de suministro iniciales, llega un nuevo pedido de venta de Libros S.A. de diez bicicletas de ruta para enviarse el 12-02-2021. A Eduardo le notifican la nueva demanda y pasa a replanificar para ajustar el plan de suministro actual. Eduardo utiliza la función Planif. saldo periodo para calcular únicamente los cambios que se realizan a la demanda o al suministro desde la última ejecución de la planificación. Además, expande el periodo de planificación al 14-02-2021 para incluir la nueva demanda de venta el 12-02-2014.  
+ Al día siguiente, antes de que se inicie o registre ninguno de los pedidos de suministro iniciales, llega un nuevo pedido de venta de Libros S.A. de diez bicicletas de ruta para enviarse el 12-02-2021. A Eduardo le notifican la nueva demanda y pasa a replanificar para ajustar el plan de suministro actual. Eduardo utiliza la función Planif. saldo periodo para calcular únicamente los cambios que se realizan a la demanda o al suministro desde la última ejecución de la planificación. Además, Eduardo expande el periodo de planificación al 14-02-2021, para incluir la nueva demanda de venta el 12-02-2014.  
 
  El sistema de planificación calcula el mejor modo de cubrir la demanda para estos dos productos idénticos, como consolidar algunos pedidos de compra y órdenes de producción, reprogramar otros pedidos y crear nuevos pedidos donde se requiera.  
 

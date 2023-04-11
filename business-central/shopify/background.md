@@ -18,11 +18,11 @@ Es eficiente ejecutar algunas tareas simultáneamente y de forma automatizada. P
 
 ## Ejecutar tareas en segundo plano para una tienda específica
 
-1. Elija la ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") icono, introduzca el nombre de **Tienda de Shopify** y elija el nombre de la tienda de la lista.
-2. Seleccione la tienda para la que desea sincronizar artículos para abrir la página **Tarjeta de tienda de Shopify**.
-3. Permitir la alternancia **Permitir sincronizaciones en segundo plano**.
+1. Elija la ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tienda de Shopify** y luego elija el vínculo relacionado.
+2. Seleccione la tienda para la que desea ejecutar la sincronización en segundo plano para abrir la página **Tarjeta de tienda de Shopify**.
+3. Active la alternancia **Permitir sincronizaciones en segundo plano**.
 
-Ahora, cuando se activa la acción de sincronización, en lugar de ejecutar una tarea en primer plano, le pedirá que espere. Cuando se haya completado, puede continuar con la siguiente acción. La tarea se crea como un **Movimiento de cola de proyectos** y comienza instantáneamente sin bloqueos.
+Ahora, cuando se activa la acción de sincronización, en lugar de ejecutar una tarea en primer plano, le pedirá que espere. Cuando se haya completado, puede continuar con la siguiente acción. La tarea se crea como un **Movimiento de cola de proyectos** y comienza de inmediato.
 
 ## Programar tareas recurrentes
 
@@ -41,6 +41,15 @@ Puede programar las siguientes actividades recurrentes para que se realicen de f
 
 > [!NOTE]
 > Algunos elementos pueden ser actualizados por varias tareas, por ejemplo, cuando importa pedidos, dependiendo de la configuración en la **Tarjeta de tienda de Shopify**, el sistema también puede importar y actualizar datos de clientes y/o productos. Recuerde utilizar la misma categoría de cola de trabajos para evitar conflictos.
+
+Otras tareas que pueden ser útiles para automatizar el procesamiento posterior de los documentos de ventas:
+
+- informe 497 de lote de facturas posterior al pedido
+- informe 496 de lote de pedidos posterior a la compra
+
+Puede usar el campo **N.º de pedido de Shopify** para identificar los documentos de ventas que se importaron desde Shopify.
+
+Para obtener más información sobre la publicación de pedidos de venta en un lote, vaya a [Para crear una entrada de cola de trabajos para el registro por lotes de pedidos de venta](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## Consulte también .
 

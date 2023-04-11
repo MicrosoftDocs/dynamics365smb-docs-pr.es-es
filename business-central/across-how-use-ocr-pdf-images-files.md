@@ -44,7 +44,7 @@ Desde su aplicación de correo electrónico, puede reenviar un correo electróni
 Dado que no existe ningún registro de documento entrante para el archivo, se creará automáticamente un nuevo registro en la página **Documentos entrantes** cuando el servici OCR envíe el documento electrónico resultante. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> Si trabaja con una tableta o un teléfono, puede enviar el archivo al servicio OCR en cuanto haya tomado una foto del documento o puede crear un documento entrante directamente. Para obtener más información, vea [Crear un documento entrante tomando una foto](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> Si trabaja con una tableta o un teléfono, puede enviar el archivo al servicio OCR en cuanto haya tomado una foto del documento o puede crear un documento entrante directamente. Para obtener más información, vea [Crear un documento entrante tomando una foto](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## Para recibir el documento electrónico resultante desde el servicio OCR
 

@@ -45,12 +45,7 @@ En los métodos A, B y C, la recepción y ubicación se agrupan en un paso al re
 
 > [!NOTE]
 > Si bien las ubicaciones de almacén y las ubicaciones de inventario suenan similares, son documentos diferentes y se utilizan en procesos diferentes.
-> * La ubicación de inventario utilizada en el método B, junto con el registro de la información de ubicación, también contabiliza la recepción del documento de origen.
-> * La ubicación de almacén utilizada en el método D no se puede contabilizar y solo registra la ubicación. El registro hace que los artículos estén disponibles para el procesamiento posterior, pero no contabiliza el recibo. En el flujo de entrada, la ubicación en almacén requiere un recibo de almacén.
-
-> [!NOTE]
-> Si bien las ubicaciones de almacén y las ubicaciones de inventario suenan similares, son documentos diferentes y se utilizan en procesos diferentes.
-> * La ubicación de inventario utilizada en el método B, junto con el registro de la información de ubicación, también contabiliza la recepción del documento de origen.
+> * El almacenamiento de inventario utilizado en el método B, junto con el registro de la información de almacenamiento, también contabiliza la recepción del documento de origen.
 > * La ubicación de almacén utilizada en el método D no se puede contabilizar y solo registra la ubicación. El registro hace que los artículos estén disponibles para el procesamiento posterior, pero no contabiliza el recibo. En el flujo de entrada, la ubicación en almacén requiere un recibo de almacén.
 
 ## No hay ninguna actividad de almacén dedicada

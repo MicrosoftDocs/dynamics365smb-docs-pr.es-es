@@ -39,6 +39,7 @@ Puede hacer lo siguiente para cada cliente mediante la **Plantilla de cliente de
 2. Defina el **Código de plantilla de cliente**, que se utiliza para crear clientes que falten si se ha habilitado **Crear clientes desconocidos automáticamente**. Si el **Código de plantilla de cliente** está vacío, entonces la función usa el **Código de plantilla de cliente** definido en la **Ficha de tienda de Shopify**.
 3. Defina si los precios incluyen IVA o impuestos para pedidos importados.
 4. En algunos casos, el **Código de plantilla de cliente** definido para un país no es suficiente para garantizar el cálculo correcto de los impuestos (por ejemplo, para países con impuesto sobre las ventas). En este caso, incluir **Áreas fiscales** podría ser una adición útil.
+5. El campo **Zona fiscal** también contiene una pareja de **Código de país** y **Nombre de provincia**. Este par es útil cuando el conector necesita convertir un código en un nombre, o viceversa.
 
 > [!NOTE]  
 > Los códigos de país son códigos de país ISO 3166-1 alfa-2. Obtenga más información en [Código de país](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +59,7 @@ Los siguientes son requisitos para exportar un cliente:
 * Se selecciona un país/región en la tarjeta de cliente, para clientes locales, con país/región en blanco el país/región especificado en la página **Información de la empresa** debe tener un código ISO definido.
 * Si el cliente tiene un número de teléfono, el número debe ser único porque Shopify no aceptará un segundo cliente con el mismo número de teléfono.
 * Si el cliente tiene un número de teléfono, debe estar en el formato E.164. Se admiten diferentes formatos si representan un número que se puede marcar desde cualquier parte del mundo. Los siguientes formatos son válidos:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +84,8 @@ Un cliente en Shopify también tiene una dirección predeterminada. Esta direcci
 |1|**Nombre**|Máxima prioridad, si el campo **Origen de nombre** en la **Ficha de tienda de Shopify** contiene *Nombre de empresa*.|
 |2|**Nombre 2**|Prioridad más baja, si el campo **Origen de nombre 2** en la **Ficha de tienda de Shopify** contiene *Nombre de empresa*.|
 
-Para las direcciones en las que se utiliza el país o la provincia, seleccione *Código* o *Nombre* en el campo **Origen de país** en la **Ficha de tienda de Shopify**. Esto especifica el tipo de datos almacenados en [!INCLUDE[prod_short](../includes/prod_short.md)], en el campo **País o región**.
+Para las direcciones en las que se utiliza la provincia, seleccione **Código** o **Nombre** en el campo **Origen de provincia**, en la página **Tarjeta de tienda de Shopify**. El código o el nombre especifica el tipo de datos almacenados en [!INCLUDE[prod_short](../includes/prod_short.md)], en el campo **Provincia**. Recuerde inicializar las plantillas de clientes por país, para que el mapeo de código/nombre de provincia esté listo. 
+
 
 ## Sincronizar clientes
 

@@ -86,8 +86,9 @@ Una vez que tenga el archivo de diseño de Excel, la siguiente tarea es agregarl
 3. Establezca el **Id. informe** en *Informe*.
 4. Introduzca un nombre en **Nombre del diseño**.
 5. Establezca **Opciones de formato** en **Excel**.
-6. Seleccione **Aceptar** > **Elegir** para abrir el explorador de archivos en el dispositivo.
-7. Busque y seleccione el archivo de Excel y, a continuación, seleccione **Abrir**.
+6. Seleccione **Aceptar** y luego realice uno de los siguientes pasos para cargar el archivo de diseño del informe:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    El archivo seleccionado se carga en el diseño y la página **Diseños de informes** se abre.
 8. Para ver cómo se ve el informe con el nuevo diseño, seleccione el diseño en la lista y luego seleccione **Ejecutar informe**.

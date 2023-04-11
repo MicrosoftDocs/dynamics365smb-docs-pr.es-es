@@ -36,13 +36,14 @@ La configuración **Experiencia** se aplica a todos los usuarios de una empresa,
 Los usuarios se asignan a planes en el Centro de administración de Microsoft 365 en relación con el trabajo general para crear los usuarios de Business Central. Para más información, vea [Agregue usuarios y asigne licencias al mismo tiempo](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### Para actualizar los cambios del plan en grupos de usuarios
-Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Microsoft 365, como asignar más usuarios al plan Premium, debe reflejar el cambio en [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+Cuando haya realizado un cambio en los planes de los usuarios en el Centro de administración de Microsoft 365, como asignar más usuarios al plan Premium, debe actualizar [!INCLUDE[prod_short](includes/prod_short.md)] para reflejar el cambio.
 
 1. Inicie sesión como administrador.
-2. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
-3. En la página **Usuarios**, seleccione la acción **Actualizar todos los grupos de usuarios**.
-
-Toda la información nueva sobre los planes de los usuarios y sus grupos de usuarios asignados ahora se actualizan de acuerdo con los cambios del plan.
+2. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Usuarios** y luego elija el enlace relacionado.
+3. En la página **Usuarios**, elija la acción **Actualizar usuarios desde Microsoft 365**.
 
 ### Para seleccionar la experiencia Premium
 Ahora puede proceder a seleccionar la nueva experiencia.

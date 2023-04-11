@@ -44,7 +44,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
 ## Historia
 
- El Director de marketing del Departamento de ventas de CRONUS es responsable de la planificación de campañas y de su ejecución. También toma decisiones sobre en qué ferias de muestras participar y evalúa el progreso de la campaña.  
+ El Director de marketing del Departamento de ventas de CRONUS es responsable de la planificación de campañas y de su ejecución. El administrador de marketing también toma decisiones sobre en qué ferias de muestras participar y evalúa el progreso de la campaña.  
 
  El empleado del Departamento de marketing maneja la producción, la distribución y la colocación de material de marketing.  
 
@@ -96,7 +96,7 @@ La página **Segmento** contiene ahora una lista de contactos basada en los filt
 
 ## Extracción de los datos
 
- El director de marketing estudia atentamente la lista de contactos segmentada y observa que es demasiado extensa. Decide reducir la lista basándose en clientes probables reales para asegurarse de centrarse en el grupo objetivo correcto. Este proceso de refinar y reducir los datos también se conoce como extracción de datos.  
+ El director de marketing estudia atentamente la lista de contactos segmentada y observa que es demasiado extensa. El administrador decide reducir la lista basándose en clientes probables reales, para centrarse en el grupo objetivo correcto. Este proceso de refinar y reducir los datos también se conoce como extracción de datos.  
 
 ### Para eliminar los contactos del segmento  
 

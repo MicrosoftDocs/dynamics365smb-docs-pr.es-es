@@ -90,8 +90,12 @@ El primer paso para trabajar con la funcionalidad XBRL es importar una taxonomí
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Taxonomías XBRL** y luego elija el enlace relacionado.  
 2. En la página **Taxonomías XBRL**, cree una línea nueva y escriba el nombre y la descripción de la taxonomía.  
 3. Elija la acción **Esquemas** y, a continuación, inserte la descripción del esquema.  
-4. Para importar el esquema, en la página **Esquemas XBRL**, elija la acción **Importar** y luego seleccione una carpeta y un archivo XSD. Elija **Abrir**.  
-5. Para importar la base de enlaces, en la página **Esquemas XBRL**, elija la acción **Base de enlaces** y seleccione una carpeta y un archivo XML. Elija **Abrir**.  
+4. Para importar el esquema, en la página **Esquemas XBRL** , elija la acción **Importar** y luego realice uno de los siguientes pasos para subir el archivo:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Para importar la base de vínculos, en la página **Esquemas XBRL**, elija la acción **Bases de vínculos** y luego realice uno de los siguientes pasos para subir el archivo:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. Ahora puede elegir entre aplicar la base de enlaces al esquema. Repita el proceso hasta que haya importado todas las bases de enlaces.  
 7. Seleccione la acción **Aplicar a taxonomía** para aplicar la base de enlaces al esquema.  
 

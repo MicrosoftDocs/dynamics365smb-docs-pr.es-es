@@ -69,9 +69,9 @@ Este tutorial le presenta a las funciones de administración de programas en los
 
 ## Historia
 
-Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que diseña y equipa nuevas infraestructuras, como salas de conferencias y oficinas, con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash es director de proyectos en CRONUS. Utiliza proyectos para darle un panorama de cada proyecto en curso que CRONUS ha iniciado, además de los proyectos finalizados. Normalmente es uno de los que trata con los clientes e introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los trabajos y el pago por plazos.
+Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que diseña y equipa nuevas infraestructuras, como salas de conferencias y oficinas, con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash, un administrador de proyectos de CRONUS utiliza proyectos para obtener un panorama de cada proyecto en curso que ha iniciado CRONUS, además de los proyectos finalizados. Prakash normalmente es uno de los que trata con los clientes y se introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los trabajos y el pago por plazos.
 
- Tricia, miembro del equipo del proyecto que depende de Prakash, es la responsable de supervisar el día a día del proyecto. Ella introduce su propio trabajo además del trabajo realizado por técnicos en cada tarea. Ella registra los productos que han utilizado y los costes en los que han incurrido.  
+ Tricia, miembro del equipo del proyecto que depende de Prakash, es la responsable de supervisar el día a día del proyecto. Tricia especifica su propio trabajo, así como el trabajo realizado por técnicos en todas las tareas, registra los productos que han utilizado y los costes en los que han incurrido.  
 
 ## Preparación de datos de ejemplo
 
@@ -98,11 +98,11 @@ Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que di
 
 6. Cierre la página.
 
-En el siguiente procedimiento, cree una sección diario proyecto para Tricia para registrar su utilización.  
+En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, para contabilizar su uso.  
 
 ### Para crear una sección de diario de proyecto  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2.  En la página **Diario proyecto**, seleccione el campo **Nombre sección**. Aparecerá la página **Secciones diario proyectos**.  
 3.  Seleccione la acción **Nuevo**, para crear una línea con la siguiente información:  
 
@@ -182,7 +182,7 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
 - **Facturable**: facturado, pero no añadido a la previsión.  
 - **Presupuesto y facturable**: Facturado y añadido a la previsión.  
 
- En este tutorial, el director de proyectos utiliza **Presupuesto y facturable**. Crea tres líneas de planificación para la tarea 1010, y dos líneas de planificación para la tarea 1020.  
+ En este tutorial, el director de proyectos utiliza **Presupuesto y facturable**. Crean tres líneas de planificación para la tarea 1010, y dos líneas de planificación para la tarea 1020.  
 
 ### Para crear líneas de planificación  
 
@@ -208,7 +208,7 @@ En el siguiente procedimiento, cree una sección diario proyecto para Tricia par
 
 ## Cálculo del uso restante
 
- Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto durante algún tiempo y desea registrar sus horas y utilización en el proyecto. No ha trabajado más horas que las acordadas previamente con el cliente. Ella utiliza el trabajo por lotes **Cálc. uso restante** para calcular el uso restante para el proyecto en un diario respectivo. Para cada tarea, el trabajo por lotes calcula la diferencia entre el uso programado de productos, recursos y gastos de contabilidad, y el uso real registrado en los movimientos del proyecto. A continuación, se muestra el uso restante en el diario del proyecto, desde el cual puede registrarlo.  
+ Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto durante algún tiempo y desea registrar sus horas y utilización en el proyecto. Tricia no ha trabajado más horas que las acordadas previamente con el cliente. Tricia utiliza el trabajo por lotes **Cálcular el uso restante** para calcular el uso restante para el proyecto en un diario del proyecto. Para cada tarea, el trabajo por lotes calcula la diferencia entre el uso programado de productos, recursos y gastos de contabilidad, y el uso real registrado en los movimientos del proyecto. A continuación, se muestra el uso restante en el diario del proyecto, desde el cual puede registrarlo.  
 
 ### Para calcular el uso restante  
 
@@ -226,7 +226,7 @@ Ya se han registrado las líneas.
 
 ## Creación y registro de una factura de ventas de proyecto
 
- A continuación, Tricia puede crear una factura nueva para el trabajo completo o para parte de un trabajo. También puede adjuntar la factura a otra factura para el mismo cliente y proyecto. En este caso, puede facturar todo el proyecto, ya que éste ya estará completado.  
+ A continuación, Tricia puede crear una factura nueva para el trabajo completo o para parte de un trabajo. Tricia también puede adjuntar la factura a otra factura para el mismo cliente y proyecto. En este caso, Tricia factura todo el proyecto, ya que éste ya se ha completado.  
 
 ### Para crear una factura de ventas del proyecto  
 
@@ -236,7 +236,7 @@ Ya se han registrado las líneas.
 4.  En la ficha desplegable **Opciones**, introduzca la fecha de registro y defina si desea crear una factura por tarea o una sola factura para todas las tareas.  
 5.  Elija el botón **Aceptar** para crear la factura y seleccione el botón **Aceptar** en la página de confirmación.  
 
- Después de que Tricia cree la factura, puede acceder a ella desde el área de trabajo **Procesadora de pedidos de ventas**, por ejemplo. 
+ Después de crear la factura, Tricia puede acceder a ella desde el Área de trabajo **Procesadora de pedidos de ventas**, por ejemplo. 
 
 ### Para registrar una nueva factura de ventas  
 
@@ -250,7 +250,7 @@ Ya se han registrado las líneas.
 2.  Seleccione una de las líneas de planificación que se han facturado y, a continuación, seleccione la acción **Facturas ventas/abono**.
 3. En la página **Facturas de proyecto**, elija la acción **Abrir Facturas venta/Abonos venta**.  
 
- Tricia tiene una pregunta acerca de los precios, los costes y los beneficios correspondientes a este proyecto en particular; por lo tanto, accede a esa información en la página **Estadísticas**.  
+ Tricia tiene una pregunta acerca de los precios, los costes y los beneficios correspondientes a este proyecto en particular; por lo que Tricia accede a esa información en la página **Estadísticas**.  
 
 ### Para abrir la página Estadísticas  
 
@@ -260,7 +260,7 @@ Ya se han registrado las líneas.
 
 ## Gestión de precios fijos
 
- CRONUS se han contratado a las salas de conferencias de instalación. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Ha llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
+ CRONUS se han contratado a las salas de conferencias de instalación. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, Prakash desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Han llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
 
 ### Para gestionar precios fijos en proyectos  
 
@@ -268,7 +268,7 @@ Ya se han registrado las líneas.
 2. Seleccione el número de proyecto **Deco** y, después, seleccione la acción **Líneas de tarea de proyecto**.  
 3. Seleccione la línea 1120 y, en el campo **Presupuesto (coste total)**, haga clic con el botón secundario en el importe y seleccione **Análisis**.  
 
-     Al revisar las líneas de planificación del proyecto, Prakash determina que también va a necesitar a Tricia durante 30 horas para esta etapa del proyecto. Acuerda un precio fijo con el cliente.  
+     Al revisar las líneas de planificación del proyecto, se determina que Prakash también va a necesitar a Tricia durante 30 horas para esta etapa del proyecto. Prakash acuerda un precio fijo con el cliente.  
 
 4. En la página **Líneas de tarea de proyecto**, seleccione la línea 1120 y, a continuación, elija la acción **Líneas de planificación de proyecto**. Cree una línea de planificación con la siguiente información:  
 
@@ -280,7 +280,7 @@ Ya se han registrado las líneas.
 5. En el campo de **Presupuesto (coste total)**, haga clic con el botón secundario en el campo y elija **Análisis** otra vez en la página **Líneas tarea proyecto**. Vea los cambios a la programación. Puede ver que se han agregado 30 horas al programa.  
 6. Cierre las páginas.  
 
-Una vez agregada Tricia a la previsión para esta línea de tarea, trabaja 25 horas en el proyecto. Ella introduce estas horas en el diario del proyecto.  
+Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas en el proyecto e introduce estas horas en el diario de proyectos.  
 
 ### Para especificar horas en el Diario proyectos  
 
@@ -298,7 +298,7 @@ Una vez agregada Tricia a la previsión para esta línea de tarea, trabaja 25 ho
 
 3. Seleccione la acción **Registrar**.  
 
-     Unos días más tarde, Tricia trabaja otras 10 horas en el proyecto. Ya lleva trabajadas 35 horas en total. Como el acuerdo con el cliente es por 30 horas, sólo cinco se cargarán al cliente. Tricia sumará manualmente las cinco horas adicionales que trabajó a la programación.  
+     Unos días después, Tricia trabaja otras 10 horas en el trabajo y ahora ha trabajado 35 horas en total. Como el acuerdo con el cliente es por 30 horas, sólo cinco se cargarán al cliente. Tricia sumará manualmente las cinco horas adicionales que trabajó a la programación.  
 
 4. En la página **Diario de proyecto**, seleccione la acción **Cálc. uso restante**.  
 5. En la página **Cálc. uso restante proyecto**, en la ficha desplegable **Opciones**, escriba la siguiente información:  
@@ -442,7 +442,7 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
 11. Crear un movimiento de línea similar de planificación de la tarea 4000 del proyecto.  
 
- Ahora que se han especificado las líneas de tarea y de planificación, Prakash crea una factura para el primer pago. Lo hace desde las líneas de tarea del proyecto para asegurarse de que la factura sólo contenga las líneas del primer pago. Puede abrir el pedido de venta desde las líneas de planificación o desde las líneas de tarea.  
+ Ahora que se han especificado las líneas de tarea y de planificación, Prakash crea una factura para el primer pago. Prakash lo hace desde las líneas de tarea del proyecto, para asegurarse de que la factura sólo contenga las líneas del primer pago. Puede abrir el pedido de venta desde las líneas de planificación o desde las líneas de tarea.  
 
 ### Para crear una factura  
 

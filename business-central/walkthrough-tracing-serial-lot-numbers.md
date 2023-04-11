@@ -53,7 +53,7 @@ Ricardo, el controlador de calidad, está trabajando en una devolución de venta
 - Qué lote de cuadros de bicicletas estaba defectuoso.  
 - En qué pedido de compra se recibió el lote defectuoso.  
 
-A partir del departamento de ventas, el controlador de calidad averigua que la bicicleta de carreras devuelta, producto 1002, tenía el número de serie NS1. Con esta información básica, debe determinar dónde se utilizó por última vez la bicicleta de carrera terminada y, posteriormente, realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el componente defectuoso (el cuadro de la bicicleta).  
+A partir del departamento de ventas, el controlador de calidad averigua que la bicicleta de carreras devuelta, producto 1002, tenía el número de serie NS1. Con esta información básica, deben determinar dónde se utilizó por última vez la bicicleta de carrera terminada y, posteriormente, realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el componente defectuoso, el cuadro de la bicicleta.  
 
 Los resultados de esta primera tarea de seguimiento del productos identifican los cuadros de bicicletas que estaban defectuosos y el proveedor que los suministró. Después, pero dentro del mismo proceso de seguimiento global, el controlador de calidad debe encontrar todas las bicicletas de carreras vendidas que contengan cuadros de bicicletas del lote defectuoso, para poder detener o retirar dichos pedidos. Por último, el controlador de calidad debe encontrar los documentos pendientes en los que se usa el lote defectuoso, para no realizar más transacciones.  
 
@@ -225,7 +225,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
 ## Seguimiento desde el uso hasta el origen
 
- En el departamento de ventas, el controlador de calidad averigua que la bicicleta de carrera devuelta, producto 1002, tiene el número de serie NS1. Con esta información básica, puede determinar dónde se utilizó por última vez la bicicleta de carreras terminada, en este caso, en el albarán de venta a Selangorian Ltd. A continuación, el controlador de calidad debe realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el cuadro de carreras defectuoso y qué proveedor lo suministró.  
+ En el departamento de ventas, el controlador de calidad averigua que la bicicleta de carrera devuelta, producto 1002, tiene el número de serie NS1. Con esta información básica, pueden determinar dónde se utilizó por última vez la bicicleta de carreras terminada, en este caso, en el albarán de venta a Selangorian Ltd. A continuación, el controlador de calidad debe realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el cuadro de carreras defectuoso y qué proveedor lo suministró.  
 
 ### Para determinar qué lote incluía el cuadro defectuoso y quién lo suministró
 
@@ -247,7 +247,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
     - El siguiente documento registrado hacia atrás después de aquél es el registro de consumo desde la primera orden de producción lanzada. Aquí, el controlador de calidad ve que se ha usado un cuadro de bicicleta de LOT1.  
     - El último documento registrado en esta cadena es el histórico albaranes de compra en el cual los cuadros de bicicletas con LOT1 entraron en el inventario.  
 
-    El controlador de calidad ya ha establecido qué lote de cuadros de bicicletas estaba defectuoso y puede buscar la última línea de seguimiento para ver qué proveedor los suministró; se trata de Custom Metals Incorporated.  
+    El controlador de calidad ya ha establecido qué lote de cuadros de carreras estaba defectuoso y pueden buscar la última línea de seguimiento para ver qué proveedor los suministró; se trata de Custom Metals Incorporated.  
 
     > [!NOTE]  
     >  No realice más modificaciones en el resultado del seguimiento, pues lo va a utilizar en la próxima sección.  
@@ -256,7 +256,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
 ## Seguimiento desde el origen hasta el uso
 
- El controlador de calidad ha establecido que los cuadros de bicicletas defectuosos procedían de LOT1. Ahora debe buscar otras bicicletas de carrera que contengan cuadros de bicicleta del lote defectuoso, para que se puedan detener o retirar.  
+ El controlador de calidad ha establecido que los cuadros de bicicletas defectuosos procedían de LOT1. Ahora deben buscar otras bicicletas de carrera que contengan cuadros de bicicleta del lote defectuoso, para que se puedan detener o recuperar.  
 
  Un modo de preparar esta tarea de seguimiento en la página **Seguimiento productos** es introducir manualmente LOT1 en el campo de **Filtro nº lote** y 2000 en el campo de **Filtro producto**. Sin embargo, este tutorial utilizará la función de **Realizar seguimiento opuestos - desde línea**.  
 
@@ -274,13 +274,13 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     El controlador de calidad informa inmediatamente al departamento de ventas para que pueda iniciar la retirada de la bicicleta de carreras defectuosa al cliente, GDE Distribución S.A.  
 
-    Al mismo tiempo, puede ver a partir de las tres últimas líneas de seguimiento que otros dos productos, SN3 y SN4, se han producido basándose en cuadros de bicicletas de LOT1. Toma medidas para bloquear los productos finales en existencias.  
+    Al mismo tiempo pueden ver, a partir de las tres últimas líneas de seguimiento que otros dos productos, SN3 y SN4, se han producido basándose en cuadros de bicicletas de LOT1. Toman medidas para bloquear estos productos finales en existencias.  
 
     De este modo finaliza la segunda tarea de gestión de defectos mediante la página **Seguimiento productos**. Dado que la página **Seguimiento de productos** se basa únicamente en los movimientos registrados, el controlador de calidad debe continuar hasta la página **Buscar movimientos** para asegurarse de que LOT1 no se utiliza en documentos no registrados.  
 
 ## Búsqueda de un número de serie/lote en todos los registros
 
- Con la página **Seguimiento productos**, el controlador de calidad ha averiguado que LOT1 contenía los cuadros de bicicletas defectuosos, qué proveedor los suministró y en qué transacción registrada se han usado. Ahora debe determinar si existe LOT1 en algún documento abierto mediante la integración del resultado del seguimiento en la página **Buscar movimientos**, donde puede realizar una búsqueda en todos los registros de la base de datos.  
+ Con la página **Seguimiento productos**, el controlador de calidad ha averiguado que LOT1 contenía los cuadros de bicicletas defectuosos, qué proveedor los suministró y en qué transacción registrada se han usado. Ahora deben determinar si aparece LOT1 en algún documento abierto mediante la integración del resultado del seguimiento en la página **Buscar movimientos**, donde puede realizar una búsqueda en todos los registros de la base de datos.  
 
 ### Para buscar todas las incidencias de LOT1 en registros no registrados, como pedidos pendientes  
 
@@ -293,7 +293,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
 3.  Para abrir el registro de la línea de ventas, seleccione la segunda línea Buscar movimientos y elija la acción **Mostrar**. De manera alternativa, elija el valor en el campo **Nº registros**.  
 
-    Aquí, el controlador de calidad ve una línea de ventas pendiente para los cuadros de bicicletas defectuosos. Sugiere inmediatamente al departamento de ventas que se cancele este pedido y que se inicie una nueva orden de producción basada en cuadros de bicicleta en buenas condiciones.  
+    Aquí, el controlador de calidad ve una línea de ventas pendiente para los cuadros de bicicletas defectuosos. Sugieren inmediatamente al departamento de ventas que se cancele este pedido y que se inicie una nueva orden de producción basada en cuadros de bicicleta en buenas condiciones.  
 
  De este modo finaliza el tutorial sobre cómo usar la página **Buscar movimientos** para la gestión de defectos en la integración con la página **Seguimiento de productos**.  
 

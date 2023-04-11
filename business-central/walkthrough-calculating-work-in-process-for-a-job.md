@@ -44,7 +44,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
  CRONUS ha contratado un proyecto extenso que ahora se ha ampliado a varios periodos de registro. Tricia, un miembro de equipo de proyecto, calcula el trabajo en curso (WIP) para garantizar que el informe financiero de la empresa será preciso.  
 
- Durante este procedimiento, Tricia seleccionará un grupo específico de tareas que se incluirá en el cálculo de WIP. En la página **Líneas tarea proyecto**, puede especificar estas líneas en la columna **WIP-Total**.  
+ Durante este procedimiento, Tricia seleccionará un grupo específico de tareas que se incluirá en el cálculo de WIP. En la página **Líneas de tarea proyecto**, Tricia puede especificar estas líneas en la columna **WIP-Total**.  
 
  La siguiente tabla describe las tres opciones.  
 
@@ -54,7 +54,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 |**Total**|Define el rango o grupo de tareas que se incluyen en el cálculo del WIP y del reconocimiento. En el grupo, cualquier tarea de proyecto con **Tipo tarea proyecto** definido como **Registro** se incluirá en el total WIP, a menos que el campo **Total WIP** se defina como **Excluido**.|  
 |**Excluido**|Se aplica sólo a una tarea con el **Tipo tarea proyecto** **Registro**. La tarea no se incluye cuando se calcula el WIP y el reconocimiento.|  
 
- En el siguiente tutorial, Tricia se aplica el método de Valor coste, su estándar de la empresa, para calcular WIP. Ella especifica la parte del trabajo que se va a incluir en el cálculo WIP asignando los valores WIP-Total a varias líneas de la tarea del proyecto.  
+ En el siguiente tutorial, Tricia aplica el método de Valor de coste, su estándar de la empresa, para calcular el WIP. Tricia especifica la parte del trabajo que se incluirá en el cálculo de WIP, asignando los valores WIP-Total a diversas líneas de tareas del proyecto.  
 
 ### Para calcular WIP  
 
@@ -110,7 +110,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ## Registro de WIP en contabilidad
 
- Ahora que Tricia ha calculado el WIP para este proyecto, puede registrarlo en la contabilidad.  
+ Ahora que Tricia ha calculado el WIP para este proyecto, puede registrarlo en la contabilidad general.  
 
 ### Para registrar un WIP en contabilidad  
 
@@ -134,7 +134,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ## Reversión de un registro WIP
 
- Tricia determina que las tareas del proyecto que se excluyeron de cálculo del WIP deben haberse calculado en el WIP. Puede revertir los registros incorrectos sin tener que asentar nuevos registros de WIP.  
+ Tricia determina que las tareas del proyecto que se excluyeron de cálculo del WIP deben haberse calculado en el WIP. Tricia puede revertir las contabilidades incorrectas sin tener que contabilizar nuevos movimientos de WIP.  
 
 ### Para revertir un registro WIP  
 
@@ -153,7 +153,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 13. Abra **Líneas tarea proyecto** del proyecto, incluya las partes del proyecto que deben incluirse en el cálculo de WIP y, a continuación, vuelva a calcular y registre el nuevo valor en la contabilidad.  
 
     > [!NOTE]  
-    >  Suponga el WIP calculado y registrado de Tricia para un proyecto con fechas incorrectas. Después del método que se ha discutido anteriormente, puede revertir los registros incorrectos, corregir las fechas y volver a la contabilidad general.  
+    >  Suponga el WIP calculado y registrado de Tricia para un proyecto con fechas incorrectas. Después del método que se ha discutido anteriormente, Tricia puede revertir los asientos incorrectos, corregir las fechas y volver a la contabilidad general.  
 
 ## Pasos siguientes
 

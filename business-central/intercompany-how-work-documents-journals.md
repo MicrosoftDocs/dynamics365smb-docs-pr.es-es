@@ -1,25 +1,26 @@
 ---
 title: Registrar documentos y diarios de empresas vinculadas
 description: Este tema explica cómo utilizar los documentos o diarios de empresas vinculadas sirven para registrar transacciones con empresas vinculadas asociadas.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 02/06/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '600, 610'
-ms.date: 03/09/2022
-ms.author: edupont
 ---
 # Usar documentos y diarios de empresas vinculadas
-Los documentos o diarios de empresas vinculadas sirven para registrar transacciones con empresas vinculadas asociadas. Al registrar un documento o una línea de diario de empresas vinculadas en su empresa, el programa crea un documento o una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas, que puede transferir a su socio. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
 
-Para los documentos de ventas y compras, el código de socio entre empresas del cliente o del vendedor involucrados garantiza que todas las órdenes y facturas generadas en relación con las transacciones con estas empresas producirán documentos correspondientes en la empresa asociada, lo que redundará en el equilibrio correcto de las cuentas.
+Utilice documentos o diarios de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas. Al registrar un documento o una línea de diario de empresas vinculadas en su empresa, el programa crea un documento o una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas. Transfiere la línea de su bandeja de salida a su socio. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
 
-Para las líneas de diario generales de empresas vinculadas, no tiene que especificar las cuentas de cada uno de los grupos de libros, si no que sólo tiene que proporcionar la identificación de la empresa asociada. A continuación, se crean las correspondientes líneas de diario generales de empresas vinculadas en la empresa asociada que hacen que los libros queden cuadrados en las dos empresas implicadas en la transacción.
+Para los documentos de ventas y compras, el código de socio de empresas vinculadas del cliente o del vendedor de empresas vinculadas garantiza que todos los pedidos y facturas generados en relación con las transacciones centre socios producirán documentos correspondientes en las empresas asociadas. Las cuentas de la empresa cuadran correctamente.
 
-## Para rellenar y enviar un pedido de venta de empresas vinculadas
-Puede enviar pedidos de venta y de compra y devoluciones antes de registrarlos. Las facturas y los abonos no se pueden enviar hasta que se hayan registrado.
+Lo mismo se aplica a las líneas de diario general de empresas vinculadas. No necesita especificar cuentas, simplemente elija la empresa asociada. A continuación, se crean las líneas de diario general de empresas vinculadas en la empresa asociada.
+
+## Rellene y envíe un pedido de venta de empresas vinculadas
+
+Puede enviar pedidos de venta y de compra y devoluciones antes de registrarlos. Las facturas y las notas de abono no se pueden enviar hasta que se hayan contabilizado.
 
 El procedimiento siguiente describe cómo rellenar y enviar un pedido de venta de empresas vinculadas. Los mismos pasos se aplican a los pedidos de compras y devoluciones de empresas vinculadas, así como en facturas y abonos de venta registrados de empresas vinculadas.  
 
@@ -30,22 +31,22 @@ El procedimiento siguiente describe cómo rellenar y enviar un pedido de venta d
 5. Para enviar el pedido de venta antes de registrarlo, elija la acción **Envío ped. venta IC** .
 
 > [!NOTE]
-> Si ejecuta el paso 4, el pedido de venta se pasará a la bandeja de salida de empresas vinculadas donde puede enviarlo más adelante. Para obtener más información, consulte [Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md).
+> Si ejecuta el paso 5, el pedido de venta se pasa a la bandeja de salida de empresas vinculadas, donde puede enviarlo más adelante. Para obtener más información sobre la bandeja de entrada y la bandeja de salida de empresas vinculadas, vaya a [Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md).
 
-## Para rellenar y registrar un diario de empresas vinculadas
+## Rellenar y registrar un diario de empresas vinculadas
 
-Al registrar un documento o una línea de diario general en su empresa, el programa crea una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas, que puede transferir a su socio. Con el primer lanzamiento de versiones de 2022, también puede configurar la empresa para la creación automática de transacciones recibidas entre empresas vinculadas de socios de empresas vinculadas, registradas a través del diario general entre empresas vinculadas. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
+Al registrar un documento o una línea de diario general en su empresa, el programa crea una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas, que puede transferir a su socio. Con el primer lanzamiento de versiones de 2022, también puede configurar la empresa para la creación automática de transacciones recibidas entre empresas vinculadas que los socios de empresas vinculadas contabilizan en diarios generales entre empresas vinculadas. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales de empresas vinculadas** y luego elija el enlace relacionado.  
-2. Abra la sección del diario correspondiente. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
-3. Rellene los campos según sea necesario.
+2. Abra el lote de diario. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
+3. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](../archive/invoicing/includes/tooltip-inline-tip_md.md)]
 4. En el campo **Nº cuenta IC asociada**, introduzca la cuenta de contabilidad IC de empresas vinculadas en la que se registrará el importe de la empresa de su socio.
 
     > [!NOTE]
     > Este campo debe rellenarse en una línea con una cuenta bancaria o de contabilidad en el campo **Nº cuenta** o en el campo **Cta. contrapartida**.  
 5. Seleccione la acción **Registrar**.
 
-Los movimientos correspondientes se registran en su empresa y se creará un diario con los movimientos correspondientes en la bandeja de salida de empresas vinculadas que puede enviar a su empresa asociada. Para obtener más información, consulte [Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md).
+Los movimientos se registran en su empresa y se crea un diario con los movimientos correspondientes en la bandeja de salida de empresas vinculadas, que puede enviar a su empresa asociada.
 
 ## Consulte también
 

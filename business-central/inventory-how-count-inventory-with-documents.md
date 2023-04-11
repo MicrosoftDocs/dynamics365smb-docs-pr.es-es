@@ -83,10 +83,10 @@ Cuando los empleados hayan contado las cantidades de inventario, debe prepararse
 4. Seleccione la casilla de verificación **Registrado** en cada línea.
 5. Cuando haya introducido todos los datos de un registro de inventario físico, elija la acción **Terminar**. Tenga en cuenta que todas las líneas deben tener la casilla de verificación **Registrado** seleccionada.
 
-> [!NOTE]
-> Cuando se termina un registro de inventario físico, cada línea se transfiere a la línea del pedido de inventario físico relacionado que coincide exactamente con él. Para que coincida, los valores de los campos **Nº producto**, **Cód. variante**, **Cód. almacén** y **Cód. ubicación** deben ser los mismos en el registro y en las líneas del pedido.<br /><br />
-> Si no existe ninguna línea de pedido de inventario físico coincidente, y si está activada la casilla de verificación **Permitir registro sin pedido**, una nueva línea se insertará automáticamente y se selecciona la casilla de verificación **Registrado sin pedido** en la línea de pedido de inventario físico relacionada. De lo contrario, se mostrará un mensaje de error y se cancelará el proceso.<br /><br />
-> Si varias líneas de registro de inventario físico coinciden con una línea de pedido de inventario físico, se mostrará un mensaje y se cancela el proceso. Si, por algún motivo, dos líneas idénticas de inventario físico idénticas terminan en pedido de inventario físico, puede usar una función para resolverlo. Para obtener más información, consulte la sección [Para encontrar líneas de pedido de inventario físico duplicadas](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > Cuando se termina un registro de inventario físico, cada línea se transfiere a la línea del pedido de inventario físico relacionado que coincide exactamente con él. Para que coincida, los valores de los campos **Nº producto**, **Cód. variante**, **Cód. almacén** y **Cód. ubicación** deben ser los mismos en el registro y en las líneas del pedido.<br /><br />
+    > Si no existe ninguna línea de pedido de inventario físico coincidente, y si está activada la casilla de verificación **Permitir registro sin pedido**, una nueva línea se insertará automáticamente y se selecciona la casilla de verificación **Registrado sin pedido** en la línea de pedido de inventario físico relacionada. De lo contrario, se mostrará un mensaje de error y se cancelará el proceso.<br /><br />
+    > Si varias líneas de registro de inventario físico coinciden con una línea de pedido de inventario físico, se mostrará un mensaje y se cancela el proceso. Si, por algún motivo, dos líneas idénticas de inventario físico idénticas terminan en pedido de inventario físico, puede usar una función para resolverlo. Para obtener más información, consulte la sección [Para encontrar líneas de pedido de inventario físico duplicadas](#to-find-duplicate-physical-inventory-order-lines).
 
 ## Para completar un pedido de inventario físico
 
@@ -102,7 +102,7 @@ También puede elegir la acción **Dif. pedido invent. físico** para ver las di
 2. Abra el inventario físico del que desea ver las líneas duplicadas.
 3. Seleccione la acción **Mostrar líneas duplicadas**.
 
-Se muestran las líneas de pedido de inventario físico duplicadas para que pueda eliminarlas y conservar solo una línea con un conjunto único de los valores de los campos **Nº producto**, **Cód. variante**, **Cód. almacén** y **Cód. ubicación**.
+Las líneas de pedido de inventario físico duplicadas se muestran para que pueda eliminarlas y conservar solo una línea con un conjunto único de los valores de los campos **N.º producto**, **Código de variante**, **Código de almacén** y **Código de ubicación**.
 
 ### Para registrar un pedido de inventario físico
 
@@ -118,10 +118,12 @@ Después de completar un inventario físico pedido y cambiar el estado **Termina
     En la página **Pedido de inventario físico**, puede ver la cantidad registrada en el campo **Cant. registrada (base)**.
 3. Seleccione la acción **Terminar**.
 
-    El valor del campo **Estado** se cambia a **Terminada** y ahora solo puede cambiar el pedido si primer elige la acción **Volver a abrir**.
+    El valor del campo **Estado** es **Terminado** y ahora solo puede cambiar el pedido si primero elige la acción **Volver a abrir**.
 4. Para registrar el pedido, elija la acción **Registrar** y el botón **Aceptar**.
 
-Los movimientos de producto correspondientes se actualizan junto con los movimientos de seguimiento de producto relacionados.
+    Los movimientos contables de producto se actualizan junto con los movimientos de seguimiento de producto relacionados.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### Para ver los pedidos de inventario físico registrados
 
@@ -141,7 +143,7 @@ La casilla de verificación **Usar seguimiento de producto** en líneas de pedid
 
 Considere un inventario físico del producto A, que está almacenado en inventario como diez números de serie distintos.
 1. En la línea de registro del producto, active la casilla de verificación **Usar seguimiento de producto**.
-2.  Elija el campo **Nº serie**, seleccione el primer número de serie que existe en el inventario correspondiente al producto y, a continuación, seleccione el botón **Aceptar**.
+2. Elija el campo **Nº serie**, seleccione el primer número de serie que existe en el inventario correspondiente al producto y, a continuación, seleccione el botón **Aceptar**.
 
     Copie la línea del primer producto seguido para insertar líneas adicionales correspondientes al número de números de serie que están almacenados en el inventario.
 
@@ -192,8 +194,8 @@ En la página **Pedido de inventario físico**, el campo **Cantidad neg. (base)*
 
 Los siguientes tipos de documentos son útiles para administrar su almacén:
 
-- Use **Recepciones de inventario** para registrar ajustes positivos de productos basados en la calidad, la cantidad y el coste.
-- Use **Envíos de inventario** para cancelar bienes perdidos o dañados.
+* Use **Recepciones de inventario** para registrar ajustes positivos de productos basados en la calidad, la cantidad y el coste.
+* Use **Envíos de inventario** para cancelar bienes perdidos o dañados.
 
 Puede imprimir estos documentos en cualquier etapa, liberarlos y volverlos a abrir, y asignar valores comunes, incluidas dimensiones, en el encabezado. Si desea volver a imprimir los documentos después de que se hayan registrado, puede hacerlo en las páginas **Histórico recepción de inventario** y **Histórico envío inventario**.
 
@@ -206,10 +208,11 @@ El siguiente procedimiento muestra cómo configurar la numeración de los docume
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. existencias** y luego elija el enlace relacionado.
 2. En la ficha desplegable **Numeración**, especifique en los siguientes campos la serie de números de documentos:
-   - **Números recep. inventario**  
-   - **Números histórico recepciones de inventario**  
-   - **Números envío inventario**  
-   - **Números histórico envío inventario**  
+
+   * **Números recep. inventario**  
+   * **Números histórico recepciones de inventario**  
+   * **Números envío inventario**  
+   * **Números histórico envío inventario**  
 
 ### Para crear y registrar un documento de inventario
 
@@ -222,17 +225,19 @@ En el siguiente procedimiento se muestra cómo crear, imprimir y registrar una r
 
 Las siguientes funciones están disponibles en la página **Recepción de inventario**:
 
-- Elegir las acciones **Lanzar** o **Volver a abrir** para establecer el estado de la siguiente etapa de procesamiento  
-- Elegir la acción **Registrar** para registrar la recepción de inventario o elegir **Registrar e imprimir** para registrar la recepción e imprimir el informe de prueba  
+* Elegir las acciones **Lanzar** o **Volver a abrir** para establecer el estado de la siguiente etapa de procesamiento  
+* Elegir la acción **Registrar** para registrar la recepción de inventario o elegir **Registrar e imprimir** para registrar la recepción e imprimir el informe de prueba  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Impresión de documentos de inventario
 
 Puede especificar los informes que deben imprimirse en diferentes etapas eligiendo una de las siguientes opciones en el campo **Uso** de la página **Selección de informes - Inventario**:
 
-- Recepción inventario
-- Envío inventario
-- Histórico recepción de inventario
-- Histórico envío inventario
+* Recepción inventario
+* Envío inventario
+* Histórico recepción de inventario
+* Histórico envío inventario
 
 > [!NOTE]
 > Los informes disponibles pueden variar según la localización de su país. La aplicación base no incluye ningún diseño.

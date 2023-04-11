@@ -117,8 +117,9 @@ Copiar es una forma rápida de crear un nuevo diseño que sea igual a un diseño
    |Descripción| Escriba información más detallada sobre el diseño. |no|
    |Opciones de formato|Configure este campo para que coincida con el tipo de diseño, como Word, Excel o RDLC.|sí|
 
-6. Seleccione **Aceptar** > **Elegir** para abrir el explorador de archivos en el dispositivo.
-7. Busque y seleccione el archivo de Excel y, a continuación, seleccione **Abrir**.
+6. Seleccione **Aceptar** y luego realice uno de los siguientes pasos para cargar el archivo de diseño del informe:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    El archivo seleccionado se carga en el diseño y vuelve a la página **Diseños de informes**.
 

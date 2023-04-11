@@ -33,9 +33,9 @@ Este tutorial es un escenario que ilustra las siguientes tareas:
 
 ## Historia
 
-Pedro es superusuario en CRONUS. Crea dos usuarios de aprobación. Uno es Alicia, que representa un agente de compras. El otro es él mismo, que representa al aprobador de Alicia. Pedro se concede derechos de aprobación de compra ilimitados y especifica que recibirá las notificaciones por la nota interna en cuanto se produzca un evento relevante. Por último, Pedro crea el flujo de trabajo de aprobación necesario como copia de la plantilla existente *Flujo de trabajo de aprobación de pedido de compra*, deja todas las condiciones de evento y las opciones de respuesta existentes sin cambiar y, a continuación, activa el flujo de trabajo.  
+Sean es un superusuario en CRONUS y crea dos usuarios de aprobación. Uno es Alicia, que representa un agente de compras. El otro es él mismo Sean, que representa al aprobador de Alicia. Sean les concede a estos derechos de aprobación de compra ilimitados y especifica que recibirán las notificaciones por nota interna en cuanto se produzca un evento relevante. Por último, Pedro crea el flujo de trabajo de aprobación necesario como copia de la plantilla existente *Flujo de trabajo de aprobación de pedido de compra*, deja todas las condiciones de evento y las opciones de respuesta existentes sin cambiar y, a continuación, activa el flujo de trabajo.  
 
-Para probar el flujo de aprobación, Pedro primero inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)] como Alicia y, a continuación, solicita aprobación de un pedido de compra. Después inicia sesión como él mismo, ve la nota en su área de trabajo, sigue el vínculo a la solicitud de aprobación del pedido de compra y aprueba la solicitud.  
+Para probar el flujo de aprobación, Pedro primero inicia sesión en [!INCLUDE[prod_short](includes/prod_short.md)] como Alicia y, a continuación, solicita aprobación de un pedido de compra. Después inicia sesión como él mismo, ve la nota en el Área de trabajo, sigue el vínculo a la solicitud de aprobación del pedido de compra y aprueba la solicitud.  
 
 ## Usuarios
 

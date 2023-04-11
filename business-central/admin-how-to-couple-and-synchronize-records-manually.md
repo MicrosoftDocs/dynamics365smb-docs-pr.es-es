@@ -2,21 +2,20 @@
 title: Emparejamiento y sincronización (contiene vídeo)
 description: La sincronización de una asignación de tablas de integración permite la sincronización de datos de todos los registros de una tabla de Business Central y de la tabla de Dynamics 365 Sales que están emparejadas.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
-ms.search.form: 6250
-ms.date: 10/01/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
+ms.search.form: '6250,'
 ---
 
 # Emparejamiento y sincronización de registros entre Dataverse y Business Central
 
 En este tema se describe cómo emparejar uno o más registros de [!INCLUDE[prod_short](includes/prod_short.md)] con registros de Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. El emparejamiento de registros le permite ver información de Dataverse desde [!INCLUDE[prod_short](includes/prod_short.md)], y viceversa. El emparejamiento también le permite sincronizar datos entre los registros. Puede emparejar registros existentes o crear y emparejar nuevos registros.
 
-> [!Note]
+> [!NOTE]
 > El emparejamiento y la sincronización de datos solo están disponibles si el administrador del sistema ha creado una conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] y Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. Una forma rápida de comprobarlo es abrir la ficha **Cliente** y buscar la acción **Configurar emparejamiento**. Si la acción está disponible, las aplicaciones se conectan.
 
 ## Ejemplo de video
@@ -46,11 +45,11 @@ Este video muestra el acoplamiento y la sincronización de datos en el contexto 
 2. Elija la acción **[!INCLUDE[prod_short](includes/prod_short.md)]** en la cinta para abrir y emparejar el registro automáticamente.
 
     > [!Note]
-    > Puede sincronizar un solo registro desde [!INCLUDE[crm_md](includes/crm_md.md)] automáticamente solo cuando **Sincronizar solo reg. emparejados** está deshabilitado y la dirección de sincronización se establece en Bidireccional o Desde la tabla de integración en la página **Asignación de tabla de integración** para el registro. Para más información, vea [Asignación de tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+    > Puede sincronizar un solo registro desde [!INCLUDE[crm_md](includes/crm_md.md)] automáticamente solo cuando **Sincronizar solo reg. emparejados** está deshabilitado y la dirección de sincronización se establece en Bidireccional o Desde la tabla de integración en la página **Asignación de tabla de integración** para el registro. Para más información, vea [Asignación de tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
 
 ## Para emparejar varios registros mediante el emparejamiento basado en coincidencias
 
-Puede especificar los datos que se sincronizarán para una entidad, como un cliente o un contacto, mediante el emparejamiento de registros basado en coincidencias. Puede acotar las coincidencias haciendo que la búsqueda distinga entre mayúsculas y minúsculas y asignando una prioridad para cada coincidencia. Si no se encuentra ninguna coincidencia, también puede especificar que desea crear la entidad en Dataverse. Para más información, vea [Personalizar emparejamiento basado en coincidencias](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+Especifique los datos que se sincronizarán para una entidad, como un cliente o un contacto, mediante el emparejamiento de registros basado en coincidencias. Acote las coincidencias haciendo que la búsqueda distinga entre mayúsculas y minúsculas y asignando una prioridad para cada coincidencia. Si no se encuentra ninguna coincidencia, también puede especificar que desea crear la entidad en Dataverse. Para más información, vaya a [Personalizar emparejamiento basado en coincidencias](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
 
 > [!NOTE]
 > El proceso de acoplamiento basado en coincidencias omite los registros que ya tienen coincidencias. Para incluir esos registros cuando ejecuta el acoplamiento basado en coincidencias, desacople los registros y vuelva a intentarlo. Para obtener más información sobre cómo desacoplar registros, vaya a [Desacoplamiento de registros](#uncoupling-records).

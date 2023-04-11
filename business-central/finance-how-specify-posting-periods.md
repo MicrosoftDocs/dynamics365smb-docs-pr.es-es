@@ -22,7 +22,7 @@ Utilice los periodos de registro para especificar cuándo los usuarios pueden re
 2. En la página **Configuración de contabilidad**, defina el periodo introduciendo las fechas en los campos **Permitir registro desde** y **Permitir registro hasta**.  
 
 > [!NOTE]  
-> Estos periodos de registro se aplicarán a toda la empresa y todos los usuarios. Para permitir excepciones, puede definir periodos de registro diferentes para usuarios específicos en la página **Configuración usuarios**. Estos periodos de registro anulan los especificados en la página **Configuración de contabilidad**. Para obtener más información, vea [Para configurar restricciones de tiempo de usuarios](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
+> Estos periodos de registro se aplicarán a toda la empresa y todos los usuarios. Para permitir excepciones, puede definir periodos de registro diferentes para usuarios específicos en la página **Configuración usuarios**. Estos periodos de registro anulan los especificados en la página **Configuración de contabilidad**. Para obtener más información, vea [Para configurar restricciones de tiempo de los usuarios](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
 ## Consulte también
 

@@ -96,7 +96,7 @@ Una L.M. de producción, requiere setenta componentes de metal con las dimension
 
 [Creación de rutas](production-how-to-create-routings.md)  
 [Administrar variantes de productos](inventory-item-variants.md)  
-[Tutorial: variantes](contoso-coffee/variants.md)  
+[Tutorial: variantes](contoso-coffee/manufacturing/variants.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
 [Planificación](production-planning.md)  

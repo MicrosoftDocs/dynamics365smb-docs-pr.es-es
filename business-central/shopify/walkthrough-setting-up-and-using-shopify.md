@@ -29,7 +29,7 @@ Obtenga más información sobre cómo crear pruebas y configuraciones recomendad
 
 Debe tener una cuenta de [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
-Por ejemplo, puede crear una cuenta de demostración o iniciar una prueba. Obtenga más información en [Preparación de demostraciones de [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) y [Inscríbase en la prueba](../trial-signup.md). 
+Por ejemplo, puede crear una cuenta de demostración o iniciar una prueba. Obtenga más información en [Preparar entornos de demostración de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) y [Registrarse para la prueba](../trial-signup.md). 
 
 ## Conectar Business Central a la tienda de Shopify
 
@@ -100,7 +100,7 @@ Elija el botón **Cómprelo ahora** y proceda a pagar.
 5. Elija el botón **Seguir comprando** para continuar.
 6. Mantenga `Standard` como método de envío y luego elegir el botón **Continuar con el pago** .
 7. Seleccione la propina `10%`.
-8. En el campo **Tarjeta de crédito** , ingrese `1` si usa *(para probar) Bogus Gateway*; si usa *Shopify Payments* en modo de prueba, ingrese `5555 5555 5555 4444` en el campo **Tarjeta de crédito**.
+8. En el campo **Tarjeta de crédito**, introduzca `1` si usa *(para probar) Bogus Gateway*, o introduzca `5555 5555 5555 4444`; si usa *Shopify Payments* en modo de prueba.
 9. Complete el campo **Nombre en la tarjeta**.
 10. En el campo **Fecha de vencimiento**, ingrese el mes/año actual.
 11. En el **Código de seguridad**, especifique `111`.
@@ -162,18 +162,20 @@ Preparar datos.
 2. Agregue un grupo de precios nuevo. En el campo **Código**, especifique `SHOPIFY`.
 3. Cierre la ventana **Grupo de precios del cliente**.
 4. Elija el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") y escriba **Productos** y luego elija el enlace relacionado.
-5. Seleccione el artículo **1896-S, escritorio Atenas**.
-6. Elija la acción **Variantes** y luego agregue las dos variantes `PREMIUM, Athens Desk, Premium edition` y `ESSENTIAL, Athens Desk, Essential edition`.
-7. Elija **Texto extendido**, cree un nuevo texto extendido válido para todos los códigos de idioma. En el campo **Descripción** escriba `Shopify`. 
-8. Agregue la siguiente descripción con etiquetas HTML: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Elija **Precios de venta** y agregue nuevos precios como se muestra en la siguiente tabla:
+
+Seleccione el producto **1896-S, Athens Desk** y ejecute los siguientes pasos.
+
+1. Elija la acción **Variantes** y luego agregue las dos variantes `PREMIUM, Athens Desk, Premium edition` y `ESSENTIAL, Athens Desk, Essential edition`.
+2. Elija la acción **Texto extendido**, cree un nuevo texto extendido válido para todos los códigos de idioma. En el campo **Descripción** escriba `Shopify`. 
+3. Agregue el siguiente texto con etiquetas HTML: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Elija la acción **Precios de venta** y agregue nuevos precios como se muestra en la siguiente tabla:
 
   |Línea|**Tipo venta**|**Código ventas**|Tipo|Código|Cód. variante<br>(añadir el campo a través de la personalización)|Precio unitario|
   |------|------------|------------|------------|------------|------------|------------|
   |1|Grupo de precio de cliente|SHOPIFY|Artículo|1896-S|ESSENTIAL|700|
-  |2|Grupo de precio de cliente|SHOPIFY|Artículo|1896-S|PREMIUM|1000|
+  |2|Grupo de precio de cliente|SHOPIFY|Producto|1896-S|PREMIUM|1000|
 
-10. Elija **Descuentos de ventas** y agregue un nuevo descuento:
+5. Elija la acción **Descuentos de ventas** y agregue un nuevo descuento:
 
 * **Tipo de venta** *Grupo de discos de cliente*
 * **Código de ventas** *RETAIL*
@@ -182,18 +184,18 @@ Preparar datos.
 * **Código de unidad medida** *PCS*
 * **% de descuento en línea** *10*
 
-11. Elija **Referencias de artículos** y agregue las siguientes líneas:
+6. Elija la acción **Referencias de productos** y agregue las siguientes líneas:
 
   |Línea|**Tipo referencia**|**N.º referencia**|Cód. variante|
   |------|------------|------------|------------|
   |1|Código de barras|77777777|ESSENTIAL|
   |2|Código de barras|11111111|PREMIUM|
 
-12. Cierre la **ficha de producto**.
-13. Seleccione el artículo **1920-S, ANTWERP Conference Table**.
-14. Elija **Ajustar inventario** y en el campo **Nuevo inventario**, ingrese `100` para las ubicaciones *ESTE* y *OESTE*. 
-1. Elija **Aceptar**.
-1. Cierre la **ficha de producto**.
+
+Seleccione el producto **1920-S, ANTWERP Conference Table** y ejecute los siguientes pasos.
+
+1. Elija **Ajustar inventario** y en el campo **Nuevo inventario**, ingrese `100` para las ubicaciones *ESTE* y *OESTE*. 
+2. Elija **Aceptar**.
 
 Ajuste la configuración de sincronización.
 

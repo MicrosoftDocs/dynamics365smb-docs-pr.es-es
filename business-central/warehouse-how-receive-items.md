@@ -32,12 +32,12 @@ Cuando los productos llegan a un almacén que está configurado para procesar re
 Puede crear una recepción de almacén de dos maneras:
 
 * De manera forzada, cuando el trabajo se realiza pedido por pedido. Elija la acción **Crear recepción de almacén** en el documento de origen, como Pedido de compra, Pedido de devolución de venta o Pedido de transferencia para crear una recepción de almacén para un documento de origen.
-*-* De manera forzada, cuando se utiliza la acción **Lanzar** en el documento de origen, como un pedido de compra, una orden de devolución de ventas o una orden de transferencia para liberar el documento al almacén. Un empleado de almacén crea una **Recepción de almacén** para uno o varios documentos de origen emitidos. El siguiente procedimiento describía cómo crear un recibo de almacén de manera forzada. El siguiente procedimiento describe cómo crear una recepción de almacén de manera forzada. 
+* De manera forzada, cuando se utiliza la acción **Liberar** en el documento de origen, como un pedido de compra, una orden de devolución de ventas o un pedido de transferencia para liberar el documento al almacén. Un empleado de almacén crea una **Recepción de almacén** para uno o varios documentos de origen emitidos. El siguiente procedimiento describía cómo crear un recibo de almacén de manera forzada. El siguiente procedimiento describe cómo crear una recepción de almacén de manera forzada.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 
-    Rellene el campo **Código de almacén** en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea. 
+    Rellene el campo **Código de almacén** en la ficha desplegable **General**. Al recuperar las líneas del documento de origen, se copia parte de la información en cada línea.
 
     Para un almacén que requiera ubicaciones, rellene el campo **Código de ubicación** . Dependiendo de su configuración, [!INCLUDE[prod_short](includes/prod_short.md)] puede agregar el código del código de ubicación por usted. Obtenga más información en [Códigos de zona y de ubicación](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ Puede crear una recepción de almacén de dos maneras:
 
 5. Registre la recepción de almacén. Los campos de cantidad se actualizan en el documento de origen y los productos se agregan a las existencias.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Si usa el almacenamiento del almacén, que se refiere al método D en la tabla al principio de este artículo, los productos se reciben pero no se pueden recolectar hasta que se hayan almacenado. Para obtener más información sobre cómo almacenar productos, vaya a [Ubicar productos con ubic. exist. almacén](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Si usa el almacenamiento del almacén, que se refiere al método D en la tabla al principio de este artículo, los productos se reciben pero no se pueden recolectar hasta que se hayan almacenado. Para obtener más información sobre cómo almacenar productos, vaya a [Ubicar productos con ubic. exist. almacén](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > De lo contrario, considere usar la acción **Registrar e Imprimir**. La acción registrará el recibo y lo imprimirá como una instrucción de ubicación que muestra dónde colocar el producto.
 
-> [!NOTE]  
-> Si su almacén utiliza tránsito directo, puede comprobar si puede realizar el tránsito directo de productos sin almacenarlos. Para obtener más información sobre el tránsito directo, vaya a [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Si su almacén utiliza tránsito directo, puede comprobar si puede realizar el tránsito directo de productos sin almacenarlos. Para obtener más información sobre el tránsito directo, vaya a [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
 
 ## Cómo utilizar filtros para obtener documentos de origen
 

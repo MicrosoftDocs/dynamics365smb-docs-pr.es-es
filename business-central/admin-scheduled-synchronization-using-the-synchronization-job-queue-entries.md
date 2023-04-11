@@ -2,19 +2,17 @@
 title: Sincronización de Business Central y Dataverse
 description: Obtenga información sobre la sincronización de datos entre Business Central y Dataverse.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Programación de una sincronización entre Business Central y Dataverse
 
-
-Puede sincronizar [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en intervalos programados configurando proyectos en la cola de proyectos. Los proyectos de sincronización sincronizan los datos de los registros de [!INCLUDE[prod_short](includes/prod_short.md)] y de los registros de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] que se han emparejado previamente. O, para registros que no se han emparejado, según la dirección y las reglas de sincronización, los proyectos de sincronización pueden crear y emparejar registros nuevos en el sistema de destino. 
+Puede sincronizar [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en intervalos programados configurando proyectos en la cola de proyectos. Los trabajos de sincronización sincronizan los datos de los registros de [!INCLUDE[prod_short](includes/prod_short.md)] y de los registros de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] que se han emparejado. Para registros que no se han emparejado, según la dirección y las reglas de sincronización, los trabajos de sincronización pueden crear y emparejar registros nuevos en el sistema de destino.
 
 Hay varios trabajos de sincronización que están disponibles de forma inmediata. Los trabajos se ejecutan en el siguiente orden para evitar dependencias de emparejamiento entre tablas. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
@@ -26,7 +24,7 @@ Hay varios trabajos de sincronización que están disponibles de forma inmediata
 
 Puede los proyectos en la página de **Movimientos de cola de proyectos**. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## Movimientos de la cola de proyectos de sincronización predeterminados
+## Entradas de cola de proyectos de sincronización predeterminados
 
 La tabla siguiente describe los proyectos de sincronización predeterminados para [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -44,12 +42,12 @@ Cada movimiento de cola de proyectos de sincronización utiliza una asignación 
 
 Para sincronizar datos, los registros de tabla de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] deben emparejarse con los registros de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, un cliente de [!INCLUDE[prod_short](includes/prod_short.md)] debe emparejarse con una cuenta de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Puede configurar los emparejamientos manualmente, antes de ejecutar los proyectos de sincronización o permitir que los proyectos de sincronización configuren emparejamientos automáticamente. La lista siguiente describe cómo los datos se sincronizan entre [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] cuando se utilizan los movimientos de la cola de proyectos de sincronización. Para obtener más información, consulte [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- La casilla **Sincronizar solo reg. emparejados** controla si se crean nuevos registros cuando sincroniza. De forma predeterminada, la casilla está seleccionada, lo que significa que solo se sincronizarán los registros que estén emparejados. En la asignación de tabla de integración puede cambiar la asignación de tabla entre una tabla de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y una tabla de [!INCLUDE[prod_short](includes/prod_short.md)], de manera que los proyectos de sincronización de integración creen los registros nuevos en la base de datos de destino para cada fila de la base de datos de origen que no esté emparejado. Para obtener más información, consulte [Crear registros nuevos](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- La casilla **Sincronizar solo reg. emparejados** controla si se crean nuevos registros cuando sincroniza. De forma predeterminada, la casilla está seleccionada, lo que significa que solo se sincronizarán los registros que estén emparejados. En la asignación de tabla de integración puede cambiar la asignación de tabla entre una tabla de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y una tabla de [!INCLUDE[prod_short](includes/prod_short.md)], de manera que los proyectos de sincronización de integración creen los registros nuevos en la base de datos de destino para cada fila de la base de datos de origen que no esté emparejado. Para obtener más información, consulte [Crear registros nuevos](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Ejemplo** Si desactiva la casilla **Sincronizar solo reg. emparejados**, cuando sincroniza los clientes en [!INCLUDE[prod_short](includes/prod_short.md)] con cuentas en [!INCLUDE[cds_long_md](includes/cds_long_md.md)], se crea una nueva cuenta para cada cliente en [!INCLUDE[prod_short](includes/prod_short.md)] y se empareja automáticamente. Además, como la sincronización en este caso es bidireccional, se crea un cliente nuevo y se empareja para cada cuenta de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] que aún no está emparejada.  
 
     > [!NOTE]  
-    > Existen reglas y filtros que determinan qué datos se sincronizan. Para obtener más información, vea [Reglas de sincronización](admin-synchronizing-business-central-and-sales.md).
+    > Existen reglas y filtros que determinan qué datos se sincronizan. Para obtener más información, vaya a [Reglas de sincronización](admin-synchronizing-business-central-and-sales.md).
 
 - Cuando se crean nuevos registros en [!INCLUDE[prod_short](includes/prod_short.md)], los registros utilizan la plantilla definida para la asignación de tablas de integración o la plantilla predeterminada que está disponible para el tipo de fila. Los campos se rellenan con datos de [!INCLUDE[prod_short](includes/prod_short.md)] o [!INCLUDE[cds_long_md](includes/cds_long_md.md)] dependiendo de la dirección de sincronización. Para obtener más información, consulte [Modificar asignaciones de tablas para la sincronización](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -60,6 +58,7 @@ Para sincronizar datos, los registros de tabla de [!INCLUDE[cds_long_md](include
 - Con la sincronización bidireccional, el proyecto se sincroniza de [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] y, a continuación, de [!INCLUDE[cds_long_md](includes/cds_long_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Acerca de los tiempos de espera de inactividad
+
 Algunos movimientos de cola de proyecto, como los que programan la sincronización entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)], utilizan el campo **Tiempo de inactividad** en la PÁGINA Mov. cola proyecto para evitar que el movimiento de cola de proyecto se ejecute innecesariamente.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Diagrama de flujo para cuando los movimientos de cola de proyecto se ponen en espera debido a la inactividad.":::
@@ -88,7 +87,7 @@ Por ejemplo, de forma predeterminada, el movimiento de cola de trabajo DIVISA, q
 
 - Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, introduzca **Errores de sincronización de integración** y luego elija el enlace relacionado.
 
-## Consulte también
+## Consulte también .
 
 [Sincronización de datos en Business Central y [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)  

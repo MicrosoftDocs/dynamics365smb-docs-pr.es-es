@@ -45,18 +45,60 @@ Puede enviar una transferencia de salida desde un almacén y recibir una transfe
 
     Cuando se especifica un valor en el campo **Servicio transportista**, se calcula la fecha de recepción en el almacén de destino de la transferencia, sumando el tiempo de envío del transportista a la fecha de envío.
 
-3. Para rellenar las líneas, introdúzcalas manualmente o elija una de las siguientes opciones en la acción **Funciones**:
+3. Hay varias formas de rellenar las líneas:
 
-    * Elija la acción **Traer conten. ubicac.** para seleccionar productos existentes de un contenedor específico en el almacén.
-    * Elija la acción **Traer líns. albarán** para seleccionar productos que acaban de llegar al almacén de transferencia.
+    |Opción  |Descripción  |
+    |---------|---------|
+    |Manualmente     | En la ficha desplegable **Líneas**, rellene una línea para un producto o use la acción **Seleccionar articulos** para elegir varios productos.        |
+    |Automáticamente     | * Elija la acción **Traer contenido de ubicación** para seleccionar productos existentes de una ubicación específica del almacén.<br><br>* Elija la acción **Obtener líneas de albarán** para seleccionar productos que acaban de llegar al almacén de transferencia.        |
 
-    Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con el envío de los productos.
+    Ahora puede enviar los productos.
 4. Seleccione la acción **Registrar**, seleccione la opción **Envío** y seleccione el botón **Aceptar**.
 
     Los productos ahora se encuentran en tránsito entre las ubicaciones especificadas, según la ruta de transferencia especificada.
 
     Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con la recepción de los productos. Las líneas del pedido de transferencia son las mismas que en el envío y no se pueden editar.
 5. Seleccione la acción **Registrar**, seleccione la opción **Recepción** y seleccione el botón **Aceptar**.
+
+### Contabilizar varios pedidos de transferencia en un lote
+
+El siguiente procedimiento explica cómo contabilizar pedidos de transferencia en un lote.
+
+1. 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de transferencia** y luego elija el enlace relacionado.  
+2. En la página **Pedidos de transferencia**, seleccione los pedidos a contabilizar.
+3. En el campo **N.º**, campo, abra el menú contextual y elija **Seleccionar más**.
+4. Seleccione la casilla de las líneas de cada pedido que desee contabilizar.
+5. Elija la acción **Contabilizar** y, a continuación, seleccione **Lote de contabilidad**.
+6. En la página **Pedido de transferencia de lote de contabilidad**, rellene los campos según sea necesario.
+
+   > [!TIP]
+    > Para pedidos de transferencia que utilizan una ubicación en tránsito, puede elegir entre **Enviar** o **Recibir**. Repita este paso si necesita hacer ambas cosas. Para pedidos donde **Contabilidad directa** está activado, ambas opciones funcionan de la misma manera y contabilizan el pedido por completo.
+
+7. Seleccione **Aceptar**.
+8. Para ver posibles problemas, abra la página **Registro de mensajes de error**.
+
+    > [!NOTE]
+    > La contabilización de varios documentos puede llevar algún tiempo y bloquear a otros usuarios. Considere habilitar la publicación en segundo plano. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+
+### Programar una entrada de la cola de trabajos para contabilizar varios documentos en un lote
+
+Como alternativa, puede usar la cola de trabajos para programar la contabilidad, para que se realice en un momento que sea conveniente para su organización. Por ejemplo, para su empresa puede tener sentido ejecutar ciertas rutinas cuando la mayor parte de la introducción de datos del día ha concluido.
+
+El siguiente procedimiento muestra cómo configurar el informe **Contabilizar pedidos venta en lote** para que se registren automáticamente los pedidos de transferencia a las 4:00 p. m. en días laborables. Ese tiempo es solo un ejemplo. Los pasos son los mismos para otros documentos.  
+
+1. Busque la página **Entradas de la cola de trabajos** y luego elija el vínculo relacionado.  
+2. Seleccione la acción **Nuevo**.  
+3. En el campo **Tipo objeto para ejecutar**, seleccione **Informe**.  
+4. En el campo **Id. de objeto a ejecutar**, seleccione **5707, Contabilidad en lote de pedidos de transferencia**.
+5. Seleccione la casilla **Página de solicitud de informe**.
+6. En la página de solicitud **Contabilidad en lote de pedidos de transferencia** elija la opción **Enviar**, filtre en **Transferencia directa** y luego seleccione **Aceptar**.
+
+   > [!IMPORTANT]
+   > Es importante establecer filtros. De lo contrario, [!INCLUDE [prod_short](includes/prod_short.md)] contabilizará todos los documentos, incluso si no están listos. Considere establecer un filtro en el campo **Estado** para el valor **Publicado** y un filtro en el campo **Fecha de publicación** para el valor **..hoy**. Para obtener más información sobre los filtros, vaya a [Clasificación, búsqueda y filtrado](/dynamics365/business-central/ui-enter-criteria-filters).
+
+7. Seleccione todas las casillas de **Ejecutar los lunes** hasta **Ejecutar los viernes**.
+8. En el campo **Hora inicial**, introduzca **4 p. m.**.
+9. Elija la acción **Establecer estado en Preparado**.
 
 ## Para transferir productos con el diario de reclasificación de productos
 
@@ -69,6 +111,20 @@ Puede enviar una transferencia de salida desde un almacén y recibir una transfe
 4. En el campo **Cód. almacén destino**, especifique el almacén al que desee transferir los productos.
 5. Seleccione la acción **Registrar**.
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
+## Deahacer un envío de transferencia
+
+Si encuentra un error en una cantidad en una orden de transferencia contabilizada, siempre que no se reciba el envío, puede corregir fácilmente la cantidad. En la página **Envío de transferencia contabilizado**, la acción **Deshacer envío** crea líneas correctivas, de la siguiente manera:
+
+* El valor del campo **Cantidad enviada** disminuye en la cantidad que ha deshecho.
+* El valor del campo **Cantidad a enviar** se incrementa en la cantidad que ha deshecho.
+* Se activa la casilla **Corrección** para las líneas.
+
+Si la cantidad se ha enviado en un envío de almacén, se crea una línea de corrección en el envío de almacén contabilizado.
+
+Para completar la corrección, vuelva a abrir la orden de transferencia, introduzca la cantidad correcta y luego contabilice el pedido. Si utiliza un envío de almacén para enviar el pedido, cree y contabilice un nuevo envío de almacén.
+
 ## Consultar la [formación de Microsoft](/training/modules/transfer-items/) relacionada
 
 ## Consulte también .
@@ -78,6 +134,5 @@ Puede enviar una transferencia de salida desde un almacén y recibir una transfe
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

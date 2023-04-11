@@ -25,16 +25,16 @@ Obtenga más información en [Flujo de entrada en almacén](design-details-inbou
 
 Este artículo hace referencia al método B de la tabla.
 
-Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, se utiliza el documento **Ubicac. inventario** para registrar la información de ubicación y recepción de sus documentos de origen. Los documentos de entrada pueden ser pedidos de compra, pedidos de devolución de ventas y pedidos de transferencia de entrada.
+Cuando el almacén está configurado para requerir el proceso de ubicación, pero no el proceso de recepción, se utiliza un documento de **Almacenamiento de inventario** para registrar la información de almacenamiento y recepción de sus documentos de origen. Los documentos de entrada pueden ser pedidos de compra, pedidos de devolución de ventas y pedidos de transferencia de entrada.
 
 > [!NOTE]
 > Las salidas de producción y ensamblado también representan documentos de origen de entrada. Obtenga más información acerca de las salidas de producción y ensamblado para los procesos internos en [Detalles de diseño: Flujos de almacén internos](design-details-internal-warehouse-flows.md).
 
 Puede crear una ubicación de inventario de tres formas:  
 
-- Cree la ubicación de inventario directamente desde el propio documento de origen.  
-- Cree los almacenamientos de inventario para varios documentos de origen al mismo tiempo mediante un trabajo por lotes.  
-- Cree el almacenamiento en dos pasos, primero liberando el documento de origen para que los productos estén disponibles para su almacenamiento. Pude crear el almacenamiento de inventario en función del documento de origen usando la página **Almacenamiento de inventario**.  
+* Cree la ubicación de inventario directamente desde el propio documento de origen.  
+* Cree los almacenamientos de inventario para varios documentos de origen al mismo tiempo mediante un trabajo por lotes.  
+* Cree el almacenamiento en dos pasos, primero liberando el documento de origen para que los productos estén disponibles para su almacenamiento. Pude crear el almacenamiento de inventario en función del documento de origen usando la página **Almacenamiento de inventario**.  
 
 ## Para crear una ubicación de inventario desde el documento de origen
 
@@ -80,6 +80,8 @@ Un empleado del almacén puede crear un nuevo almacenamiento de inventario basad
 
     * Registrar la recepción de las líneas del documento de origen que se han guardado
     * Si el almacén utiliza ubicaciones, el registro también creará movimientos de almacén para registrar los cambios de cantidad en la ubicación.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
 

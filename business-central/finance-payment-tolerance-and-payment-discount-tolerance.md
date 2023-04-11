@@ -1,20 +1,20 @@
 ---
 title: Tolerancia de pago y tolerancia de descuento de pago
-description: Puede configurar la tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura.
+description: Este artículo explica cómo configurar la tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '118, 314, 395'
-ms.date: 10/29/2021
+ms.date: 04/03/2023
 ms.author: edupont
 ---
 # Trabajar con tolerancias de pago y tolerancias de descuento de pago
 
 Puede configurar una tolerancia de pago para cerrar una factura cuando el pago no cubre totalmente el importe de la factura. Por ejemplo, las tolerancias de pago son típicamente para pequeñas cantidades que costarían más corregir que solo aceptar. Puede configurar una tolerancia de descuento P.P. para conceder un descuento P.P. después de que haya pasado la fecha de descuento.  
 
-Puede utilizar las tolerancias de pago para que cada importe pendiente tenga una tolerancia de pago máxima permitida. Si se cumple la tolerancia de pago, el importe de pago se analiza. Si no se ha pagado todo el importe, el importe pendiente se cerrará totalmente con el importe que falta por pagar. Se registra un movimiento detallado para el movimiento de pago para que no exista un importe pendiente en el movimiento de factura liquidado. Si se ha pagado más del importe pendiente, se registra un movimiento detallado para el movimiento de pago para que no exista un importe pendiente en el movimiento de pago.
+Utilice las tolerancias de pago para que cada importe pendiente tenga una tolerancia de pago máxima permitida. Si se cumple la tolerancia de pago, el importe del pago se analiza. Si no se ha pagado todo el importe, el importe pendiente se cerrará totalmente con el importe que falta por pagar. Se registra un movimiento detallado para el movimiento de pago para que no exista un importe pendiente en el movimiento de factura liquidado. Si se ha pagado más del importe pendiente, se registra un movimiento detallado para el movimiento de pago para que no exista un importe pendiente en el movimiento de pago.
 
 Puede utilizar tolerancias de descuento de pago para que si acepta un descuento P.P. después de la fecha de descuento, siempre se registre en la cuenta de descuento P.P. o en la cuenta de tolerancia de pagos.
 
@@ -66,6 +66,9 @@ Para configurar la tolerancia tiene que configurar varias cuentas de tolerancia,
 > Para desactivar la tolerancia de un cliente o proveedor, debe bloquear las tolerancias en la ficha del cliente o proveedor correspondiente. Para obtener más información, consulte [Bloquear la tolerancia de pagos de clientes](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > Al configurar la tolerancia, [!INCLUDE[prod_short](includes/prod_short.md)] comprueba si existen movimientos pendientes y también calcula la tolerancia de estos movimientos.
+
+> [!IMPORTANT]  
+> Cuando habilita el campo **Ajuste por descuento de pago** en la página **Configuración de grupos registro de IVA**, el importe del IVA se considera en relación con los importes **Tolerancias de pago** y **Descuentos de pago**, y el IVA se reducirá para ambos importes de transacción, si existen. El sistema no se puede configurar para usar la reducción del IVA solo para un tipo de transacción.  
 
 ## Para activar o desactivar las advertencias de tolerancia de pago
 

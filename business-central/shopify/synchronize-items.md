@@ -82,17 +82,15 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 
 |Campo|Descripción|
 |------|-----------|
-|**Grupo de precios de cliente**|Determine el precio de un artículo en Shopify. Se toma el precio de venta de este grupo de precios de cliente. Si no se ingresa ningún grupo, se utiliza el precio en la ficha del artículo.|
-|**Grupo de descuentos de cliente**|Determinar el descuento que se utilizará para calcular el precio de un artículo en Shopify. Los precios con descuento se almacenan en el campo **Precio** y el precio completo se almacena en el campo **Comparar en el precio**.|
 |**Sincronizar texto adicional de artículo**|Seleccione este campo para sincronizar el texto extendido del elemento. Como se agregará al campo *Descripción*, puede contener código HTML. |
 |**Sincronizar atributos de artículo**|Seleccione este campo para sincronizar los atributos del artículo. Los atributos tienen el formato de una tabla y se incluyen en el campo *Descripción* en Shopify.|
+|**Sincronizar texto de marketing de producto**|Seleccione este campo para sincronizar el texto de marketing del producto. Aunque el texto de marketing es una especie de descripción, es diferente del campo **Descripción** del producto. El campo **Descripción** se utiliza normalmente como un nombre visible conciso para identificar rápidamente el producto. El texto de marketing, por otro lado, es más rico y descriptivo. Su propósito es agregar contenido promocional y de marketing. Este texto se puede publicar con el elemento en Shopify. Hay dos formas de crear el texto de marketing. Use Copilot, que sugiere texto generado por IA o comience desde cero.|
 |**Código de idioma**|Seleccione este campo si desea que las versiones traducidas se utilicen para el título, los atributos y el texto ampliado.|
 |**Asignación de SKU**|Elija cómo desea completar el campo SKU en Shopify. Las opciones admitidas son:<br> - **N.º de artículo** para usar el n.º de artículo tanto para productos como para variantes.<br> - **N.º de artículo + Código de variante** para crear un SKU concatenando valores de dos campos. Para artículos sin variantes, solo se usa el número de artículo.<br>- **N.º de proveedor de artículo** para utilizar el número de proveedor del artículo definido en *Tarjeta de artículo* tanto para productos como para variantes.<br> - **Código de barras** para usar el tipo código de barras de **Referencia del artículo**. Esta opción respeta las variantes.|
 |**Separador de campo de SKU**|Defina un separador para la opción **N.º de articulo + Código de variante**.|
 |**Inventario seguido**| Elija cómo el sistema debe llenar el campo **Seguimiento de inventario** para productos exportados a Shopify. Puede actualizar la información de disponibilidad desde [!INCLUDE[prod_short](../includes/prod_short.md)] para productos en Shopify cuyo inventario de seguimiento está habilitado. Obtenga más información en la sección [Inventario](synchronize-items.md#sync-inventory-to-shopify).|
 |**Directiva de inventario predeterminada**|Escoja *Denegar* para evitar existencias negativas en el lado de Shopify.|
 |**Puede actualizar productos de Shopify**|Defina este campo si [!INCLUDE[prod_short](../includes/prod_short.md)] solo puede crear productos o también puede actualizar productos. Seleccione esta opción si, después de la sincronización inicial desencadenada por la acción **Agregar artículo**, planea actualizar los productos manualmente usando la acción **Sincronizar producto** o usando la cola de trabajos para actualizaciones periódicas. Recuerde seleccionar **A Shopify** en el campo **Sincronización de elementos**.|
-|**Código de plantilla de cliente**|Elija la plantilla predeterminada que se utilizará durante el cálculo del precio. Obtenga más información en [Configurar impuestos](setup-taxes.md).|
 
 ### Información general de asignaciones de campos
 
@@ -104,8 +102,8 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 |Título de página SEO|Valor fijo: vacío. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Descripción meta de SEO|Valor fijo: vacío. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Medios|**Imagen**. Obtenga más información en la sección [Sincronizar imágenes de elementos](synchronize-items.md#sync-item-images)|**Imagen**|
-|Precio|El cálculo del precio del cliente final incluye el grupo de precios del artículo, el grupo de descuento del artículo, el código de moneda y el código de plantilla de cliente.|**Precio unitario**|
-|Comparar por precio|El cálculo del precio sin descuento incluye el grupo de precios del artículo, el grupo de descuento del artículo, el código de moneda y el código de plantilla de cliente.|No utilizado.|
+|Precio|El cálculo del precio del cliente final incluye el precio unitario del producto, el grupo de precios del cliente, el grupo de descuento del cliente y el código de moneda. Obtenga más información en la sección [Sincronizar precios](synchronize-items.md#sync-prices-with-shopify)|**Precio unitario**|
+|Comparar por precio|El cálculo del precio sin descuento.|No utilizado.|
 |Coste por artículo|**Coste unitario**|**Coste unitario**|
 |UA|Infórmese sobre esto en **Asignación de SKU** en la sección [Exportar elementos a Shopify](synchronize-items.md#export-items-to-shopify).|Obtenga más información sobre esto en la sección [Efecto de los SKU y códigos de barras definidos del producto de Shopify en la asignación y la creación de artículos y variantes en Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Código de barras|**Referencias de artículos** de tipo código de barras.|**Referencias de artículos** de tipo código de barras.|
@@ -193,7 +191,18 @@ La sincronización de imágenes se puede inicializar de las dos maneras que se d
 
 ## Sincronizar precios con Shopify
 
-Los precios para artículos sincronizados se pueden exportar de las formas que se describen a continuación.
+Las siguientes configuraciones le permiten administrar el proceso de exportar precios:
+
+|Campo|Descripción|
+|------|-----------|
+|**Grupo de precios de cliente**|Determine el precio de un artículo en Shopify. Se toma el precio de venta de este grupo de precios de cliente. Si no se especifica ningún grupo, se utiliza el precio de la tarjeta del producto.|
+|**Grupo de descuentos de cliente**|Determine el descuento que se utilizará para calcular el precio de un producto en Shopify. Los precios con descuento se almacenan en el campo **Precio** y el precio completo se almacena en el campo **Comparar por precio**.|
+|**Permitir dto. línea**|Especifica si se permite el descuento de línea al calcular precios para Shopify. Esta configuración se aplica solo a los precios del producto. Los precios para el grupo de precios del cliente tienen sus propias líneas de activación.|
+|**Precio IVA incluido**|Especifica si los cálculos de precio para Shopify incluyen el IVA. Obtenga más información en [Configurar impuestos](setup-taxes.md).|
+|**Grupo registro IVA negocio**|Especifica el grupo contable de negocio de IVA que se usa para calcular los precios en Shopify. Este debería ser el grupo que utilice para clientes nacionales. Obtenga más información en [Configurar impuestos](setup-taxes.md).|
+|**Cód. divisa**|Introduzca un código de moneda solo si su tienda en línea utiliza una moneda diferente a la moneda local (LCY). La divisa especificada debe tener tipos de cambio configurados. Si su tienda en línea usa la misma divisa que [!INCLUDEprod_short], deje el campo vacío.|
+
+Los precios para productos sincronizados puede exportarlos de las dos formas que se describen a continuación.
 
 ### Sincronzar precios desde la página de productos de Shopify
 
@@ -202,9 +211,8 @@ Los precios para artículos sincronizados se pueden exportar de las formas que s
 
 ### Observaciones de cálculo de precios
 
-* Para el cálculo del precio, es importante tener un valor en el campo **Plantilla de cliente predeterminada**. Obtenga más información en [Configurar impuestos](setup-taxes.md).
-* Introduzca un **código de moneda** solo si su tienda en línea utiliza una moneda diferente a la moneda local (LCY). La divisa especificada debe tener tipos de cambio configurados. Si su tienda en línea usa la misma divisa que [!INCLUDE[prod_short](../includes/prod_short.md)], deje el campo vacío.
-* Al determinar un precio, [!INCLUDE[prod_short](../includes/prod_short.md)] utiliza la lógica del "precio más bajo". La lógica de precio más bajo significa que, si el precio unitario definido en la ficha del artículo es inferior al definido en el grupo de precios, se utiliza el precio unitario de la ficha del artículo.
+* Al determinar un precio, [!INCLUDE[prod_short](../includes/prod_short.md)] utiliza la lógica del "precio más bajo". Sin embargo, la lógica del precio más bajo ignora el precio unitario definido en la tarjeta del producto si se define un precio en el grupo de precios. Esto es cierto incluso si el precio unitario del precio de la tarjeta del producto es más bajo.
+* Para calcular los precios, el conector crea una oferta de venta temporal para el producto con una cantidad de 1 y utiliza la lógica de cálculo de precios estándar. Solo se utilizan los precios y descuentos aplicables a la cantidad 1. No puede exportar diferentes precios o descuentos en función de la cantidad.
 
 ## Sincronizar inventario a Shopify
 
@@ -220,7 +228,7 @@ La sincronización de inventario se puede configurar para elementos ya sincroniz
 3. Elija la acción **Ubicaciones** para abrir **Ubicaciones de tienda de Shopify**.
 4. Elija la acción **Obtener ubicaciones de Shopify** para importar todas las ubicaciones definidas en Shopify. Puede encontrarlas en la configuración de [**Ubicaciones**](https://www.shopify.com/admin/settings/locations) del **Administrador de Shopify**.
 5. En el campo **Filtro de ubicación**, agregue ubicaciones si desea incluir inventario solo de ubicaciones específicas. Por lo tanto, podría introducir *ESTE|OESTE* para que el inventario solo de estas dos ubicaciones esté disponible para la venta a través de la tienda en línea.
-6. Deseleccione la alternancia **Desactivado** para habilitar la sincronización de inventario para ubicaciones de Shopify seleccionadas.
+6. Seleccione el método de cálculo de existencias que se usará para las ubicaciones seleccionadas de Shopify.
 
 La sincronización de inventarios se puede inicializar de las dos maneras que se describen a continuación.
 
@@ -237,9 +245,10 @@ La sincronización de inventarios se puede inicializar de las dos maneras que se
 
 ### Consideraciones sobre inventarios
 
-* El conector calcula el **Saldo disponible proyectado** en una fecha actual y lo exporta a Shopify.
+* El método estándar de cálculo de existencias es **Saldo disponible proyectado en la fecha**. Con la extensibilidad, puede agregar más opciones. Para obtener más información sobre la extensibilidad, vaya a los [ejemplos](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * Puede consultar la información de existencias recibida de Shopify en la página **Cuadro informativo de inventario de Shopify**. En este cuadro informativo, obtendrá una descripción general de las existencias de Shopify y el último inventario calculado en [!INCLUDE[prod_short](../includes/prod_short.md)]. Hay un registro por ubicación.
 * Si la información de existencias en Shopify es diferente de **Saldo disponible proyectado** en [!INCLUDE[prod_short](../includes/prod_short.md)], entonces las existencias se actualizarán en Shopify.
+* Cuando agrega una nueva ubicación en Shopify, también necesita agregar registros de inventario para ella. Shopify no lo hace automáticamente para los productos y variantes existentes y el conector no sincronizará los niveles de inventario para dichos productos en la nueva ubicación. Para obtener más información, vaya a [Asignación de inventario a ubicaciones](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
 #### Ejemplo de cálculo de saldo disponible proyectado
 
