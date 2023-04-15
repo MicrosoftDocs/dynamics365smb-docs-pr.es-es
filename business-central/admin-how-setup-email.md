@@ -6,18 +6,13 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805, 9813, 9814, 1262, 1263
+ms.search.keywords: 'SMTP, email, Office 365, connector'
+ms.search.form: '1805, 9813, 9814, 1262, 1263'
 ms.date: 11/22/2022
 ms.author: bholtorf
-ms.openlocfilehash: 20246e01fab861a3d4af7d6a1778531f17e97987
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822441"
 ---
-# <a name="set-up-email"></a>Configurar correo electrónico
+
+# Configurar correo electrónico
 
 Las personas en las empresas envían información y documentos, como órdenes de compra y venta y facturas, por correo electrónico todos los días. Los administradores pueden conectar una o varias cuentas de correo electrónico a [!INCLUDE[prod_short](includes/prod_short.md)], permitiéndole enviar documentos sin tener que abrir una aplicación de correo electrónico. Puede redactar cada mensaje individualmente con herramientas de formato básicas, como fuentes, estilos, colores, etc., y agregar archivos adjuntos de hasta 100 MB. Además, los diseños de informes pueden permitir que los administradores incluyan solo la información clave de los documentos. Obtenga más información en [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 
@@ -28,14 +23,14 @@ Las capacidades de correo electrónico en [!INCLUDE[prod_short](includes/prod_sh
 >
 > Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] local, antes de poder configurar el correo electrónico, debe crear un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en Azure Portal. El registro de la aplicación permitirá [!INCLUDE[prod_short](includes/prod_short.md)] para autorizar y autenticarse con su proveedor de correo electrónico. Para obtener más información, consulte [Configurar correo electrónico para Business Central local](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). En [!INCLUDE[prod_short](includes/prod_short.md)] en línea, nos encargamos de esto por usted.
 
-## <a name="requirements"></a>Requisitos
+## Requisitos
 
 Hay un par de requisitos para configurar y utilizar las funciones de correo electrónico.
 
 * Para configurar el correo electrónico, debe tener el conjunto de permisos **CONFIGURACIÓN DE CORREO ELECTRÓNICO**. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).
 * Todos los que vayan a utilizar las funciones de correo electrónico deben tener una licencia completa [!INCLUDE [prod_short](includes/prod_short.md)]. Por ejemplo, los administradores delegados y los usuarios invitados no pueden usar la cuenta de correo electrónico del inquilino.
 
-## <a name="adding-email-accounts"></a>Agregar cuentas de correo electrónico
+## Agregar cuentas de correo electrónico
 
 Agrega cuentas de correo electrónico a través de extensiones que permiten que se conecten cuentas de diferentes proveedores a [!INCLUDE[prod_short](includes/prod_short.md)]. Las extensiones estándar le permiten usar cuentas de Microsoft Exchange Online. Sin embargo, es posible que estén disponibles otras extensiones que le permitan conectar cuentas de otros proveedores, como Gmail.
 
@@ -56,7 +51,7 @@ La siguiente tabla describe las extensiones de correo electrónico que están di
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
-## <a name="using-smtp"></a>Uso de SMTP
+## Uso de SMTP
 
 Si desea utilizar el protocolo SMTP para enviar correos electrónicos desde [!INCLUDE[prod_short](includes/prod_short.md)], puede utilizar la extensión de Conector SMTP. Cuando configura una cuenta que utiliza SMTP, el **tipo de remitente** es un campo importante. Si elige **Usuario específico**, los correos electrónicos se enviarán con el nombre y otra información de la cuenta que está configurando. Sin embargo, si elige **Usuario actual**, los correos electrónicos se enviarán desde la cuenta de correo electrónico especificada para la cuenta de cada usuario. Usuario actual es parecido a la función Enviar como. Para más información, compruebe [Usar una dirección de remitente sustituta en los mensajes de correo electrónico salientes](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
@@ -65,7 +60,9 @@ Si desea utilizar el protocolo SMTP para enviar correos electrónicos desde [!IN
 >
 > Exchange Online está desaprobando el uso de la autenticación básica para SMPT. Los inquilinos que actualmente usan SMTP AUTH no se verán afectados por este cambio. Sin embargo, recomendamos enfáticamente usar la última versión de [!INCLUDE [prod_short](includes/prod_short.md)] y configurar la autenticación OAuth 2.0 para SMTP. No agregaremos autenticación basada en certificados para versiones anteriores de [!INCLUDE [prod_short](includes/prod_short.md)], por ejemplo, la versión 14. Si no puede configurar la autenticación OAuth 2.0, le recomendamos que explore alternativas de terceros si desea utilizar el correo electrónico SMTP en versiones anteriores.
 
-## <a name="add-email-accounts"></a>Agregar cuentas de correo electrónico
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
+## Agregar cuentas de correo electrónico
 
 La guía de configuración asistida para **Configurar correo electrónico** puede ayudarlo a comenzar rápidamente con los correos electrónicos.
 
@@ -81,7 +78,7 @@ La guía de configuración asistida para **Configurar correo electrónico** pued
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
-## <a name="assign-email-scenarios-to-email-accounts"></a>Asignar escenarios de correo electrónico a cuentas de correo electrónico
+## Asignar escenarios de correo electrónico a cuentas de correo electrónico
 
 Los escenarios de correo electrónico son procesos que implican el envío de un documento. Por ejemplo, un pedido de compra o venta o una notificación, como una invitación a un contable externo. Puede utilizar cuentas de correo electrónico específicas para escenarios concretos. Por ejemplo, puede especificar que todos los usuarios envíen siempre documentos de ventas de una cuenta, documentos de compra de otra y documentos de almacén o producción de una tercera cuenta. Puede asignar, reasignar y eliminar escenarios cuando lo desee. Un escenario solo se puede asignar a una cuenta de correo electrónico a la vez. La cuenta predeterminada se utilizará para todos los escenarios de correo electrónico que no estén asignados a una cuenta.
 
@@ -100,7 +97,7 @@ En la página **Asignación de escenario por correo electrónico**, puede elegir
 
 -->
 
-## <a name="set-up-view-policies"></a>Configurar directivas de visualización
+## Configurar directivas de visualización
 
 Puede controlar los mensajes de correo electrónico que un usuario puede acceder en las páginas Bandeja de salida de correo electrónico y Correos electrónicos enviados.
 
@@ -114,7 +111,7 @@ En **Directivas de visualización de correo electrónico de usuario**, elija un 
 > [!NOTE]
 > Si deja vacío el campo **ID de usuario** y luego elige la acción **Directiva de visualización de correo electrónico**, la directiva que defina se aplica a todos los usuarios.
 
-## <a name="specify-how-many-messages-an-account-can-send-per-minute"></a>Especificar cuántos mensajes puede enviar una cuenta por minuto
+## Especificar cuántos mensajes puede enviar una cuenta por minuto
 
 Algunos proveedores de correo electrónico (ISP) limitan la cantidad de mensajes de correo electrónico que una cuenta de correo electrónico puede enviar de una sola vez, dentro de un cierto período de tiempo, o en ambos. Conocida como *limitación del correo electrónico*, la práctica ayuda a los ISP a controlar el tráfico en sus servidores y evitar el spam. Si una cuenta de correo electrónico supera el límite, el ISP podría bloquear los mensajes. Para asegurarse de que la cantidad de mensajes que envía desde [!INCLUDE [prod_short](includes/prod_short.md)] cumpla con el límite de su ISP, especifique el límite para cada una de sus cuentas de correo electrónico.
 
@@ -125,11 +122,9 @@ Hay dos formas de especificar el límite:
 * Cuando utilice la guía de configuración asistida Configurar correo electrónico para crear una nueva cuenta, especifique el límite en el campo **Límite de tasa por minuto** .
 * Para las cuentas de correo electrónico existentes, especifique el límite en el campo **Límite de tasa de correo electrónico** de la cuenta.
 
+## Configure textos y diseños de correo electrónico reutilizables
 
-
-## <a name="set-up-reusable-email-texts-and-layouts"></a>Configure textos y diseños de correo electrónico reutilizables
-
-Puede utilizar informes para incluir información clave de documentos de venta, compra y servicio en textos para correos electrónicos. Este procedimiento describe cómo configurar el informe **Factura de venta** para facturas de ventas registradas, pero el proceso es similar para otros informes.
+Puede utilizar informes para incluir información clave de documentos de venta, compra y servicio en textos para correos electrónicos. Los diseños de informe definen el estilo y el contenido del texto en el correo electrónico. Por ejemplo, el contenido podría incluir textos como un saludo o instrucciones que preceden a la información del documento. Este procedimiento describe cómo configurar el informe **Factura de venta** para facturas de ventas registradas, pero el proceso es similar para otros informes.
 
 > [!NOTE]
 > Para usar el diseño para crear contenido para mensajes de correo electrónico, debe usar el tipo de archivo de Word para su diseño.
@@ -139,15 +134,15 @@ Puede utilizar informes para incluir información clave de documentos de venta, 
 3. En una línea nueva, en el campo **Id. informe**, seleccione, por ejemplo, informe estándar 1306.
 4. Seleccione la casilla **Usar para el cuerpo del correo electrónico**.
 5. Elija el campo **Descripción de diseño del cuerpo del correo electrónico** y seleccione un diseño en la lista.
-
-    Los diseños de informe definen el estilo y el contenido del texto en el correo electrónico. Por ejemplo, el contenido podría incluir textos como un saludo o instrucciones que preceden a la información del documento. Si su organización tiene muchos diseños, puede elegir **Seleccionar de la lista completa** para acceder a todos los diseños de informe disponibles.
-6. Para ver o editar el diseño en el que se basa el texto del correo electrónico, seleccione el diseño en la página **Diseños de informe personalizados** y, a continuación, elija la acción **Actualizar diseño**.
+6. Para ver o editar el diseño en el que se basa el texto del correo electrónico, seleccione el diseño en la página **Diseños de informe personalizados** y, a continuación, elija la acción **Exportar diseño**. Si personaliza el diseño, utilice la acción **Importar diseño** para cargar el nuevo diseño.
+    > [!NOTE]
+    > Para personalizar un diseño de informe estándar, como 1306, debe hacer una copia del informe. [!INCLUDE [prod_short](includes/prod_short.md)] le ayudará a crear una copia cuando importe un diseño personalizado para un informe estándar. El nombre de su nuevo diseño de informe personalizado tendrá el prefijo "Copia de".
 7. Si desea permitir que los clientes utilicen un servicio de pago, como PayPal, deberá configurar el servicio. Después, la información y el vínculo de PayPal se insertan en el texto del correo electrónico. Para obtener más información, consulte [Permitir pagos de cliente a través de PayPal](sales-how-enable-payment-service-extensions.md).
 8. Elija el botón **Aceptar**.
 
 Ahora bien, cuando selecciona, por ejemplo, la acción **Enviar** en la página **Factura venta reg.**, el cuerpo del correo electrónico contendrá la información del documento del informe 1306 precedida por el texto estándar siguiendo el diseño de informe que seleccionó en el paso 5.
 
-## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Usar una dirección de remitente sustituta en los mensajes de correo electrónico salientes
+## Usar una dirección de remitente sustituta en los mensajes de correo electrónico salientes
 
 Si usa la extensión Conector SMTP, puede utilizar las funciones **Enviar como** o **Enviar en nombre de** en Microsoft Exchange para cambiar la dirección del remitente en los mensajes salientes. [!INCLUDE[prod_short](includes/prod_short.md)] utilizará la cuenta SMTP para autenticarse en Exchange, pero sustituirá la dirección del remitente por la que especifique o la modificará con "en nombre de".
 
@@ -182,11 +177,11 @@ A continuación se ofrecen ejemplos de cómo se usan Enviar como y Enviar en nom
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
-## <a name="set-up-document-sending-profiles"></a>Configurar perfiles de envío de documentos
+## Configurar perfiles de envío de documentos
 
 Puede ahorrar tiempo configurando un método preferido de envío de documentos de ventas para cada uno de sus clientes. No tendrá que seleccionar una opción de envío, como enviar el documento por correo electrónico o como documento electrónico, cada vez que envíe un documento. Para obtener más información, vea [Configurar los perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
 
-## <a name="optional-set-up-email-logging-in-exchange-online"></a>Opcional: Configurar el registro de correo electrónico en Exchange Online
+## Opcional: Configurar el registro de correo electrónico en Exchange Online
 
 Aproveche al máximo las comunicaciones entre comerciales y sus clientes actuales o potenciales. Puede realizar un seguimiento de los intercambios de correo electrónico y luego convertirlos en oportunidades procesables. Más información en [Realizar un seguimiento de los intercambios de mensajes de correo electrónico entre vendedores y contactos](marketing-set-up-email-logging.md).  
 <!--
@@ -194,13 +189,18 @@ Aproveche al máximo las comunicaciones entre comerciales y sus clientes actuale
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## <a name="setting-up-email-for-business-central-on-premises"></a>Configuración del correo electrónico para Business Central en las instalaciones
+## Configuración del correo electrónico para Business Central en las instalaciones
 
 [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones se puede integrar con servicios que se basan en Microsoft Azure. Por ejemplo, puede utilizar Cortana Intelligence para previsiones de flujo de caja más inteligentes, Power BI para visualizar su negocio y Exchange Online para enviar correo electrónico. La integración con estos servicios se basa en el registro de una aplicación en Azure Active Directory. El registro de la aplicación proporciona servicios de autenticación y autorización para las comunicaciones. Para utilizar las capacidades de correo electrónico en [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, debe registrar [!INCLUDE[prod_short](includes/prod_short.md)] como una aplicación en el portal de Azure y luego conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de la aplicación. En el siguiente apartado se explica cómo.
 
-### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Crear un registro de aplicación para Business Central en Azure Portal
+### Crear un registro de aplicación para Business Central en Azure Portal
 
-Los pasos para registrar [!INCLUDE[prod_short](includes/prod_short.md)] en Azure Portal se describen en [Registrar una aplicación en Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Las configuraciones que son específicas de las capacidades de correo electrónico son los permisos delegados que otorga al registro de su aplicación. La siguiente tabla enumera los permisos mínimos.
+Los pasos para registrar [!INCLUDE[prod_short](includes/prod_short.md)] en Azure Portal se describen en [Registrar una aplicación en Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+
+> [!NOTE]
+> Para usar las características de correo electrónico, el registro de su aplicación debe usar una configuración de múltiples inquilinos.
+
+Las configuraciones que son específicas de las capacidades de correo electrónico son los permisos delegados que otorga al registro de su aplicación. La siguiente tabla enumera los permisos mínimos.
 
 |API / Nombre de permiso  |Escriba  |Descripción  |
 |---------|---------|---------|
@@ -230,7 +230,7 @@ Más información sobre directrices generales sobre cómo registrar una aplicaci
 > [!NOTE]
 Si tiene problemas para usar el protocolo SMTP para enviar correos electrónicos después de conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de su aplicación, podría deberse a que SMTP AUTH no está habilitado para su suscriptor. En su lugar, le recomendamos que use los conectores de correo electrónico de Microsoft 365 y del usuario actual, ya que usan las API de Microsoft Graph Mail. Sin embargo, si debe usar el protocolo SMTP, puede habilitar SMTP AUTH. Para obtener más información, consulte [Habilitar o deshabilitar el envío SMTP de cliente autenticado (SMTP AUTH) en Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-prod_short-to-your-app-registration"></a>Conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de su aplicación
+### Conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de su aplicación
 
 Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](includes/prod_short.md)], utilice la guía de configuración asistida **Registro de AAD para aplicaciones de correo electrónico** para conectar [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -263,9 +263,9 @@ Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](i
 
 -->
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Buzones compartidos en Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
