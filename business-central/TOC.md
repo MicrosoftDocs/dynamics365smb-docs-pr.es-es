@@ -428,6 +428,7 @@
 ### [Crear presupuestos contables](finance-how-create-budgets.md)
 ### [Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)
 ### [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)
+### [Exportación de archivo de auditoría](finance-how-to-export-audit-files.md)
 ### [Asignar costes e ingresos](year-allocate-costs-income.md)
 ### [Registrar y reembolsar los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)
 ### [Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)
