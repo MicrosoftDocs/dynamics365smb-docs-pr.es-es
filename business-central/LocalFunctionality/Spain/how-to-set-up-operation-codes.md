@@ -1,25 +1,19 @@
 ---
 title: Configuración de códigos de operación
-description: Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en Business Central.
+description: 'Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en Business Central.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 292e1c21aef8b5072621c4df101acbc1d6bc7dda
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136650"
 ---
-# <a name="set-up-operation-codes"></a>Configurar códigos de operación
+# Configurar códigos de operación
 Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, los códigos C, D e I ya existe en [!INCLUDE[prod_short](../../includes/prod_short.md)]. Por ejemplo, los abonos siempre tienen el código de operación D. No puede configurar estos valores en la tabla porque son códigos creados por el sistema. Si intenta agregarlos, [!INCLUDE[prod_short](../../includes/prod_short.md)] devolverá un error.  
 
-## <a name="to-set-up-operation-codes"></a>Para configurar códigos de operación  
+## Para configurar códigos de operación  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códigos de operación** y luego elija el enlace relacionado.  
 2.  En la página **Códigos de operación**, rellene los campos tal como se describe en la tabla siguiente  
@@ -29,7 +23,7 @@ Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, 
     |**Código**|Introduzca un código de operación. Puede introducir un letra o número.<br /><br /> Los códigos válidos son números del 1 al 8 y letras de la A a la Z.<br /><br /> Para enviar un informe bajo el régimen de CAC, debe asegurarse de que el código Z, que se requiere para este tipo de transacciones, se encuentre en la lista de códigos de operación.|  
     |**Descripción**|Escriba una descripción para el código de operación. Puede introducir un máximo de 30 caracteres alfanuméricos.|  
 
-## <a name="to-link-operation-codes-to-general-product-posting-groups"></a>Para vincular códigos de operación a grupos de publicación de productos en general  
+## Para vincular códigos de operación a grupos de publicación de productos en general  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos registro**, y luego elija el enlace relacionado.  
 2.  Elija la acción **Grupos contables de producto general**.  
@@ -44,7 +38,7 @@ Puede añadir tantos códigos de operación como desee a la tabla. Sin embargo, 
 
 Cuando agrega un código de operación al grupo de publicación de producto general, esa asociación se aplica a su vez a los artículos que tienen ese grupo.  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Crear el informe 340](how-to-create-report-340.md)
 
 

@@ -4,26 +4,20 @@ description: Opción de configuración para decidir si debería ser posible reut
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.reviewer: edupont
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 9659d64905837eee100cdd0d67872551fde4f85d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520517"
 ---
-# <a name="use-the-same-external-document-numbers-across-fiscal-years"></a>Usar los mismos números de documento externo en todos los ejercicios
+# Usar los mismos números de documento externo en todos los ejercicios
 
 En general, [!INCLUDE[prod_short](../../includes/prod_short.md)] no permite registrar documentos con el mismo valor en **N.º documento externo**, ni siquiera en ejercicios anteriores, debido a la legislación. En España, sin embargo, esto está aceptado, y [!INCLUDE[prod_short](../../includes/prod_short.md)] ahora incluye una opción para permitir este comportamiento.  
 
-## <a name="to-allow-posting-of-the-same-external-document-no-across-fiscal-years"></a>Para permitir el registro del mismo **número de documento externo** en todos los ejercicios
+## Para permitir el registro del mismo **número de documento externo** en todos los ejercicios
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.  
 2. En la ficha desplegable **General**, seleccione el campo **Mismo N.º doc. externo en dif. ejercicio**.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Funcionalidad local para España](spain-local-functionality.md)
 

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 10751, 10752, 10753, 10770, 10771
+ms.search.keywords: null
+ms.search.form: '10751, 10752, 10753, 10770, 10771'
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: bfa31c713c16fdb1640da000c4f72e9fcecaa58d
-ms.sourcegitcommit: 7b422fa4907270da802d1318cce0ee3fc9769643
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9224136"
 ---
-# <a name="sii---invoice-and-credit-memo-types-in-sales-and-purchase-documents"></a>SII - Tipos de factura y abonos en documentos de compra y venta
+# SII - Tipos de factura y abonos en documentos de compra y venta
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] admite los requisitos del SII españoles para la declaración del impuesto sobre el valor añadido (IVA) (suministro de información inmediato).  
 
@@ -25,7 +19,7 @@ Obtenga más información sobre cómo configurar [!INCLUDE [prod_short](../../in
 
 Las siguientes secciones muestran el resultado de los diversos tipos que se utilizan para las facturas y los abonos y cómo se implementan en la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
-## <a name="sales-invoices"></a>Facturas de venta
+## Facturas de venta
 
 |Tipo|Descripción|Implementación|
 |--|--|--|
@@ -39,7 +33,7 @@ Las siguientes secciones muestran el resultado de los diversos tipos que se util
 |R4|Factura corregida (otro)|No compatible. Se utiliza solo para abonos.|
 |R5|Factura corregida en facturas simplificadas|No compatible. Se utiliza solo para abonos.|
 
-## <a name="sales-credit-memos"></a>Notas de abono de venta
+## Notas de abono de venta
 
 |Tipo|Descripción|Implementación|
 |--|--|--|
@@ -53,7 +47,7 @@ Las siguientes secciones muestran el resultado de los diversos tipos que se util
 |R4|Factura corregida (otro)|Igual que para R1.|
 |R5|Factura corregida en facturas simplificadas|Igual que R1, excepto que el bloqueo se llama `Contraparte`.|
 
-## <a name="purchase-invoices"></a>Facturas de compra
+## Facturas de compra
 
 |Tipo|Descripción|Implementación|
 |--|--|--|
@@ -69,7 +63,7 @@ Las siguientes secciones muestran el resultado de los diversos tipos que se util
 |R4|Factura corregida (otro)|No compatible. Se utiliza solo para abonos.|
 |R5|Factura corregida en facturas simplificadas|No compatible. Se utiliza solo para abonos.|
 
-## <a name="purchase-credit-memos"></a>Notas de abono de compra
+## Notas de abono de compra
 
 |Tipo|Descripción|Implementación|
 |--|--|--|
@@ -85,7 +79,7 @@ Las siguientes secciones muestran el resultado de los diversos tipos que se util
 |R4|Factura corregida (otro)|Igual que para R1.|
 |R5|Factura corregida en facturas simplificadas|Igual que R1, excepto que el bloqueo se llama `Contraparte`|
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar SII para informes de IVA en la versión en español](sii-setup.md)  
 [Funcionalidad local para España](spain-local-functionality.md)  

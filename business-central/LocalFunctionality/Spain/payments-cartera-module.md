@@ -3,17 +3,11 @@ title: Módulo Docs. cartera a pagar
 description: El módulo Docs. cartera a pagar permite administrar documentos a pagar generados a partir de facturas de compra o del Diario Cartera.
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c00d12b39adefa4561e8944fdf4a4dc837c4a8a2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136644"
 ---
-# <a name="payments-cartera-module"></a>Módulo Docs. cartera a pagar
+# Módulo Docs. cartera a pagar
 El módulo Docs. cartera a pagar permite administrar documentos a pagar generados a partir de facturas de compra o del **Diario Cartera**. Los documentos se pueden administrar por:  
 
 - Banco  
@@ -21,7 +15,7 @@ El módulo Docs. cartera a pagar permite administrar documentos a pagar generado
 - Valor  
 - Divisa  
 
-## <a name="payment-orders"></a>Ordenes pago  
+## Ordenes pago  
 Una orden de pago se compone de uno o varios documentos que se agrupan para su entrega a un banco.  
 
 Existen diferentes criterios para agrupar documentos en una única orden de pago. Se pueden agrupar los documentos enviados al mismo proveedor, los documentos con la misma fecha de vencimiento, los que se han enviado a la misma dirección, etc.  
@@ -38,7 +32,7 @@ Los intereses de entidades de crédito están incluidos.
 
 La confirmación del pago es un servicio que proporciona una entidad de crédito. Mediante la confirmación de pago se pueden administrar los pagos de una empresa a sus proveedores y se puede utilizar la factura para cobrar a los clientes o proveedores antes de la fecha de vencimiento.  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Módulo Cartera](cartera-module.md)   
  [Módulo Docs. cartera a cobrar](receivables-cartera-module.md)
 

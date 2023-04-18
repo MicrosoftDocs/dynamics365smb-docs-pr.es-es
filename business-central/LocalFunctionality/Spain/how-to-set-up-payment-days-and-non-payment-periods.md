@@ -8,17 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b6eab9ea2efc1324e79578d3138121344a7eb31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136648"
 ---
-# <a name="set-up-payment-days-and-non-payment-periods"></a>Configurar días de pago y de periodos no-pago
+# Configurar días de pago y de periodos no-pago
 Los días de pago y periodos no-pago se utilizan para calcular fechas de vencimiento. El cálculo de fecha de vencimiento se utiliza para los documentos de compras y ventas.  
 
 Un día de pago es un día en el que se pagan facturas.  
@@ -27,7 +21,7 @@ Un periodo no-pago es un intervalo de fechas durante el cual la empresa no reali
 
 Para facturas de compras y ventas, se tienen en cuenta los días de pago y los periodos no-pago del cliente y el proveedor.  
 
-## <a name="to-set-up-payment-days-and-non-payment-periods-for-a-company"></a>Para configurar días de pago y periodos no-pago para una empresa  
+## Para configurar días de pago y periodos no-pago para una empresa  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Información empresa** y luego elija el enlace relacionado.  
 2.  Amplíe la ficha desplegable **Pagos**.  
@@ -45,14 +39,14 @@ Para facturas de compras y ventas, se tienen en cuenta los días de pago y los p
 8.  Escriba información en los campos relevantes.  
 9. Elija el botón **Aceptar**.  
 
-## <a name="to-set-up-payment-days-for-customers-and-vendors"></a>Para configurar días de pago para clientes y proveedores  
+## Para configurar días de pago para clientes y proveedores  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** o escriba **Proveedores** y luego elija el enlace relacionado.  
 2.  Seleccione el cliente o el proveedor correspondiente y, a continuación, la acción **Días pago** .  
 3.  En la página **Días pago**, en el campo **Día pago**, escriba el día de pago del cliente o proveedor.  
 4.  Elija el botón **Aceptar**.  
 
-## <a name="to-set-up-non-payment-periods-for-customers-and-vendors"></a>Para configurar periodos no-pago para clientes y proveedores  
+## Para configurar periodos no-pago para clientes y proveedores  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** o escriba **Proveedores** y luego elija el enlace relacionado.  
 2.  Seleccione el cliente o el proveedor correspondiente y, a continuación, la acción **Periodos no-pago** .  
@@ -66,7 +60,7 @@ Para facturas de compras y ventas, se tienen en cuenta los días de pago y los p
 
 4.  Elija el botón **Aceptar**.  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
 
 

@@ -12,15 +12,19 @@ ms.author: jswymer
 
 Puede convertir los datos de [!INCLUDE[prod_short](includes/prod_short.md)] en disponibles como origen de datos en Power Apps.  
 
-> [!NOTE]  
-> Debe disponer de una cuenta válida con [!INCLUDE[prod_short](includes/prod_short.md)] y con Power Apps.  
+> [!TIP]  
+> La documentación adicional de Power Apps y nuestras muestras de Power App presentadas durante el Evento de lanzamiento de [!INCLUDE[prod_short](includes/prod_short.md)] se publicarán aquí más adelante en la ola 1 de 2023. Obtenga más información en [Empezar con más plantillas de muestra Power Automate y Power Apps](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).
 
-## Para agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Apps
+## Requisitos previos
+
+Debe disponer de una cuenta válida con [!INCLUDE[prod_short](includes/prod_short.md)] y con Power Apps.  
+
+## Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Apps
 
 1. En el explorador, vaya a [powerapps.microsoft.com](https://powerapps.microsoft.com/) y, a continuación, inicie sesión.
 2. En la página de inicio, en la sección **Comenzar a partir de los datos**, elija la ventana **Otros orígenes de datos**.  
 
-    Esto abre Power Apps Studio. En el primer inicio de sesión, debe especificar el país y la región.  
+    Este paso abre Power Apps Studio. En el primer inicio de sesión, debe especificar el país o la región.  
 3. En la lista de conexiones disponibles, elija **Business Central** y, después, seleccione el botón **Crear**.
 
     Power Apps se conectará a su [!INCLUDE[prod_short](includes/prod_short.md)] con las credenciales con las que ha iniciado sesión. Si no es administrador de su [!INCLUDE[prod_short](includes/prod_short.md)], es posible que tenga que iniciar sesión con otra cuenta.  
@@ -34,7 +38,7 @@ Estas denominadas tablas están expuestas como extremos por el contector [!INCLU
 > [!NOTE]
 > Si desea incluir datos de otras tablas de [!INCLUDE[prod_short](includes/prod_short.md)] en su aplicación, debe trabajar con un desarrollador para definir una API personalizada en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Ya se ha conectado correctamente con los datos de [!INCLUDE[prod_short](includes/prod_short.md)] y está preparado para comenzar a crear su PowerApp. Puede agregar pantallas adicionales y conectarse a los datos adicionales de su [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Crear una aplicación de lienzo a partir de un ejemplo en Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
+Ya se ha conectado correctamente con los datos de [!INCLUDE[prod_short](includes/prod_short.md)] y está preparado para comenzar a crear su Power App. Puede agregar más pantallas y conectarse a más datos desde su [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Crear una aplicación de lienzo a partir de un ejemplo en Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 Cuando haya diseñado y creado la aplicación, puede compartirla con sus compañeros. Para obtener más información, consulte [Guardar y publicar una aplicación de lienzo en Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 

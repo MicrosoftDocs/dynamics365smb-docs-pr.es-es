@@ -8,22 +8,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 728cc93ea7b3bf95af4a55583e42b55e910855e2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144128"
 ---
-# <a name="export-vat-statements-in-xml-format"></a>Exportar declaraciones de IVA en formato XML
+# Exportar declaraciones de IVA en formato XML
 Puede exportar una declaración de IVA en formato XML y después enviarla electrónicamente a las autoridades fiscales.  
 
 Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkID=238181).  
 
-## <a name="to-export-a-vat-statement-in-xml-format"></a>Para exportar declaraciones de IVA en formato XML  
+## Para exportar declaraciones de IVA en formato XML  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Declaración de IVA** y luego elija el enlace apropiado.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Generar archivo XML**.  
@@ -49,7 +43,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 Puede abrir o guardar el archivo XML generado. Ahora puede enviar la declaración del IVA a las autoridades fiscales.  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Crear plantillas para las declaraciones telemáticas de IVA en formato XML](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Exportar declaraciones de IVA en formato de texto](how-to-export-vat-statements-in-text-format.md)
 
