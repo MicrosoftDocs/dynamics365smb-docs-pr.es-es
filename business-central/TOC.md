@@ -722,7 +722,7 @@
 
 ### Australia
 #### [Información general de la versión australiana](LocalFunctionality/Australia/australia-local-functionality.md)
-#### Impuestos
+#### Tributos
 ##### [Impuestos en la versión australiana](LocalFunctionality/Australia/tax.md)
 ##### [Retención de impuestos](LocalFunctionality/Australia/withholding-tax.md)
 ##### [Configurar la retención de impuestos](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
@@ -810,10 +810,11 @@
 ##### [Limitar el período de registro](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Establecer la fecha de trabajo como la fecha de registro](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Hacer obligatorias las plantillas de diario](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Aplazamientos en informes de contabilidad de compras y ventas](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canadá
 #### [Funcionalidad local en la versión canadiense](LocalFunctionality/Canada/canada-local-functionality.md)
-#### Impuestos
+#### Tributos
 ##### [Informar sobre el impuesto sobre bienes y servicios y el impuesto de ventas en Canadá](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Informar del impuesto de ventas en Canadá](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Configurar descuentos de impuesto de venta y de pago de venta no realizados](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1128,7 +1129,7 @@
 
 ### México
 #### [Funcionalidad local en la versión mexicana](LocalFunctionality/Mexico/mexico-local-functionality.md)
-#### Impuestos
+#### Tributos
 ##### [Configurar y generar informes DIOT](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 ##### [Tipos de identificación fiscal para México](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Recálculo del IVA](LocalFunctionality/Mexico/vat-recalculation.md)
@@ -1183,7 +1184,7 @@
 
 ### Nueva Zelanda
 #### [Funcionalidad local en la versión neozelandesa](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)
-#### Impuestos
+#### Tributos
 ##### [Retención de impuestos](LocalFunctionality/NewZealand/withholding-tax.md)
 ##### [Configurar la retención de impuestos](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
 ##### [Configurar tipos de ingresos para la retención de impuestos](LocalFunctionality\NewZealand\how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -1461,7 +1462,7 @@
 
 ### Estados Unidos
 #### [Funcionalidad local en la versión estadounidense](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-#### Impuestos
+#### Tributos
 ##### [Configuración de impuestos básicos](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Declaración del impuesto sobre las ventas en EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Configurar y usar el formulario IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
