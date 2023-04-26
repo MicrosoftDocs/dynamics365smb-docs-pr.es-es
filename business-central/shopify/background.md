@@ -44,8 +44,8 @@ Puede programar las siguientes actividades recurrentes para que se realicen de f
 
 Otras tareas que pueden ser útiles para automatizar el procesamiento posterior de los documentos de ventas:
 
-- informe 497 de lote de facturas posterior al pedido
-- informe 496 de lote de pedidos posterior a la compra
+- informe 297 de lote de facturas posterior a la compra
+- informe 296 de lote de pedidos posterior al pedido de venta
 
 Puede usar el campo **N.º de pedido de Shopify** para identificar los documentos de ventas que se importaron desde Shopify.
 

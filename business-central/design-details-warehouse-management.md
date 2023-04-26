@@ -28,7 +28,7 @@ Implemente estas características en diferentes combinaciones para adaptar sus p
 
 ## Descripción general de las diferentes opciones de configuración
 
-Puede configurar funciones de almacén de varias formas. Es importante que las opciones que elija mejoren sus procesos sin causar gastos generales. La siguiente tabla ofrece una descripción general de las configuraciones típicas que se utilizan cuando se trata de bienes físicos.
+Puede configurar funciones de almacén de varias formas. Es importante elegir opciones que mejoren sus procesos sin causar gastos generales. La siguiente tabla ofrece una descripción general de las configuraciones típicas para tratar con bienes físicos.
 
 |Nivel de complejidad|Descripción|Configuración|Cód. ubicación|Ejemplo de flujo de entrada|Ejemplo de flujo de salida|Ejemplo de flujo interno|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -61,7 +61,7 @@ Para manejar bienes físicos, debe tener al menos una ubicación. Puede usar mú
 Por lo general, las ubicaciones son la forma preferida de organizar las operaciones que se distribuyen en áreas geográficas. Sin embargo, en algunos casos, es posible que desee crear varias ubicaciones que estén ubicadas en el mismo lugar. El uso de ubicaciones tiene las siguientes ventajas:
 
 * Otorgue acceso mediante las páginas **Empleado de almacén** y **Centros de responsabilidad**.
-* Defina calendarios, rutas y tiempos de manejo de entrada y salida para el cálculo y la planificación de fechas. [Sobre la funcionalidad de la planificación](production-about-planning-functionality.md).
+* Defina calendarios, rutas y tiempos de manejo de entrada y salida para el cálculo y la planificación de fechas. Obtenga más información en [Sobre la funcionalidad de la planificación](production-about-planning-functionality.md).
 * Especifique las dimensiones predeterminadas y use diferentes configuraciones de publicación de inventario.
 * Configurar los parámetros de planificación. Obtenga más información en [Parámetros de planificación](production-about-planning-functionality.md#planning-parameters).  
 * Use diferentes funciones de almacén para cada ubicación.

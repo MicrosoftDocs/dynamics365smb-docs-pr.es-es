@@ -11,7 +11,7 @@ ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
 ms.search.form: '6250,'
 ---
 
-# Emparejamiento y sincronización de registros entre Dataverse y Business Central
+# Empareje y sincronice registros entre Dataverse y Business Central
 
 En este tema se describe cómo emparejar uno o más registros de [!INCLUDE[prod_short](includes/prod_short.md)] con registros de Dataverse o [!INCLUDE[crm_md](includes/crm_md.md)]. El emparejamiento de registros le permite ver información de Dataverse desde [!INCLUDE[prod_short](includes/prod_short.md)], y viceversa. El emparejamiento también le permite sincronizar datos entre los registros. Puede emparejar registros existentes o crear y emparejar nuevos registros.
 
@@ -45,7 +45,7 @@ Este video muestra el acoplamiento y la sincronización de datos en el contexto 
 2. Elija la acción **[!INCLUDE[prod_short](includes/prod_short.md)]** en la cinta para abrir y emparejar el registro automáticamente.
 
     > [!Note]
-    > Puede sincronizar un solo registro desde [!INCLUDE[crm_md](includes/crm_md.md)] automáticamente solo cuando **Sincronizar solo reg. emparejados** está deshabilitado y la dirección de sincronización se establece en Bidireccional o Desde la tabla de integración en la página **Asignación de tabla de integración** para el registro. Para más información, vea [Asignación de tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
+    > Puede sincronizar un solo registro desde [!INCLUDE[crm_md](includes/crm_md.md)] automáticamente solo cuando **Sincronizar solo reg. emparejados** está deshabilitado y la dirección de sincronización se establece en **Bidireccional** o **Desde la tabla de integración** en la página **Asignación de tabla de integración** para el registro. Para más información, vea [Asignación de tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
 ## Para emparejar varios registros mediante el emparejamiento basado en coincidencias
 
@@ -63,6 +63,36 @@ Especifique los datos que se sincronizarán para una entidad, como un cliente o 
 1. En [!INCLUDE[prod_short](includes/prod_short.md)], abra la página de lista para el registro, como las páginas de Clientes o Contactos.  
 2. Seleccione los registros que desea sincronizar y, después, seleccione la acción **Sincronizar ahora**.  
 3. Si los registros se pueden sincronizar en una dirección, seleccione la opción que especifica la dirección y, a continuación, seleccione **Aceptar**.  
+
+## Registros de emparejamiento e inserción en lote
+
+Si tiene una gran cantidad de entidades de Dataverse que corresponden a registros en [!INCLUDE [prod_short](includes/prod_short.md)], puede insertarlas y emparejarlas en lote. Por ejemplo, es posible que desee realizar una inserción en lote y emparejar registros cuando configure la sincronización por primera vez.
+
+Utilizará el **Asistente de importación de datos** en el **Centro de administración de Microsoft Power Platform**.
+
+El siguiente ejemplo describe cómo realizar una inserción en lote y vincular clientes con cuentas en Dataverse. Utilice el mismo proceso para otros tipos de entidades, como proveedores, artículos y recursos.
+
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
+2. Elija la acción **Abrir en Excel** para abrir los datos del cliente en Excel. <!--Don't they need to choose the customers that they want to import to Dataverse?-->
+3. Para asignar e importar datos a la entidad **Cuenta** en Dataverse, siga los pasos descritos en [Importar datos (todos los tipos de registro ) de varios orígenes](/power-platform/admin/import-data-all-record-types).  
+
+    Si la entidad Cuenta tiene una columna **bcbi_companyid**, cuando asigne las columnas de datos, asegúrese de que la importación asigne el id. de empresa adecuado en la columna para cada registro importado. Para encontrar el id. de la empresa en [!INCLUDE [prod_short](includes/prod_short.md)], siga estos pasos:
+
+    1. Abra la página **Asignaciones de tablas de integración**.
+    2. Eliga la asignación **CLIENTE** y luego **Editar lista**.
+    3. Desplácese hacia la derecha y elija el botón de edición asistida :::image type="icon" source="media/assist-edit-icon.png" border="false"::: en el campo **Filtro de tabla de integración**. Esto muestra el filtro predeterminado para la asignación de clientes y contiene el id. de la empresa. El id. de la empresa es la primera parte del valor. Copie solo esa parte e ignore los 0. El siguiente ejemplo resalta la parte a copiar.
+
+    :::image type="content" source="media/dataverse-company-id-guid.png" alt-text="Muestra la parte del id. de la empresa a copiar.":::
+
+    > [!NOTE]
+    > No todos los nombres de entidades de Dataverse y registros de Business Central coinciden. Dependiendo de lo que esté importando, vuelva a comprobar que las siguientes columnas tengan los siguientes valores después de importar:
+    >
+    >* Para los clientes, la columna **CustomerTypeCode** debe contener **Cliente**.
+    >* Para los proveedores, la columna **CustomerTypeCode** debe contener **Proveedores**. 
+    >* Para artículos, la columna **ProductTypeCode** debe contener **Inventario de ventas**.
+    >* Para recursos, la columna **ProductTypeCode** debe contener **Servicio**.
+ 
+4. Después de importar datos al entorno de Dataverse, en [!INCLUDE [prod_short](includes/prod_short.md)], siga los pasos [Emparejar varios registros mediante el emparejamiento basado en coincidencias](#to-couple-multiple-records-using-match-based-coupling) para emparejar las entidades de Dataverse con registros de [!INCLUDE [prod_short](includes/prod_short.md)]. 
 
 ## Desemparejamiento de registros
 

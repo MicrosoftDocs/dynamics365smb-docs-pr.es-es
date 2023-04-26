@@ -28,6 +28,7 @@ Los flujos de Power Automate se desencadenan por eventos, como la creación, mod
 ## Acerca de los flujos de Power Automate
 
 Power Automate es un servicio que lo ayuda a crear flujos de trabajo (o flujos) automatizados entre aplicaciones y servicios, como [!INCLUDE[prod_short](includes/prod_short.md)]. Los flujos de Power Automate requieren poco o ningún conocimiento de codificación. Se pueden asociar con una amplia gama de eventos y respuestas, tales como:
+
 - Cambios de registros
 - Actualizaciones de archivos externos
 - Documentos publicados
@@ -41,10 +42,13 @@ Hay tres tipos diferentes de flujo de nube con los que puede trabajar:
 |Programada|Este tipo de flujo también se ejecuta automáticamente, pero se ejecuta periódicamente en una fecha y hora programadas. |
 |Instantáneo |Este tipo de flujo se ejecuta bajo demanda, lo que requiere que el usuario lo ejecute manualmente desde un botón o acción en otra aplicación o dispositivo, en este caso, el cliente de [!INCLUDE[prod_short](includes/prod_short.md)]. Los flujos instantáneos funcionan de forma similar a los accesos directos por lotes, realizando varios pasos largos con unas pocas pulsaciones de botón y se lanzan desde páginas o tablas específicas. Por ejemplo, un flujo puede añadir un botón al menú de acciones de la página **Proveedores** para bloquear los pagos a un proveedor y, al mismo tiempo, enviar correos electrónicos personalizados al contacto del proveedor y a los compradores de su empresa, así como actualizar el contacto en Outlook. |
 
-## Funciones de Power Automate en [!INCLUDE[prod_short](includes/prod_short.md)]
+## Características de Power Automate
 
-Puede explorar todos los flujos de Power Automate actualmente disponibles para usted iniciando sesión en [Power Automate](https://powerautomate.com) y seleccionando **Mis flujos** en la barra de navegación de la izquierda. Aquí encontrará los flujos que ya haya creado usted mismo y los flujos compartidos con usted por un administrador o un compañero de trabajo. Estos flujos también están disponibles desde [!INCLUDE [prod_short](includes/prod_short.md)] en varias paginas. Con flujos automatizados en [!INCLUDE[prod_short](includes/prod_short.md)], no tienes nada que hacer, a menos que quieras cambiarlos o apagarlos. De lo contrario, solo funcionarán cuando se activen. En cuanto a los flujos instantáneos en datos de [!INCLUDE[prod_short](includes/prod_short.md)], puede ejecutarlos desde la mayoría de las páginas de listas, tarjetas y documentos seleccionándolos en el elemento **Automatizar** en la acción. Obtenga más información en las secciones siguientes.
+Puede explorar todos los flujos de Power Automate actualmente disponibles para usted iniciando sesión en [Power Automate](https://powerautomate.com) y seleccionando **Mis flujos** en la barra de navegación de la izquierda. Aquí encontrará los flujos que ya haya creado usted mismo y los flujos compartidos con usted por un administrador o un compañero de trabajo.
 
+- Los flujos instantáneos también están disponibles para ejecutarse directamente desde la mayoría de las páginas de listas, tarjetas y documentos en [!INCLUDE[prod_short](includes/prod_short.md)]. Encontrará los flujos instantáneos en el grupo de acciones **Automatizar** en la barra de acciones de las páginas. Para ejecutar un flujo, selecciónelo y siga las instrucciones que se le presenten. Obtenga más información en las secciones siguientes.
+ 
+- Con flujos automatizados en [!INCLUDE[prod_short](includes/prod_short.md)], no tienes nada que hacer, a menos que quieras cambiarlos o apagarlos. De lo contrario, solo funcionarán cuando se activen. 
 <!--
 
 ## Automated flows
@@ -86,9 +90,9 @@ La creación de nuevos flujos, la modificación y la gestión de los existentes 
 
 - Para crear un flujo instantáneo a partir de una página de lista, tarjeta o documento, seleccione **Automatizar** > **Crear un flujo**.
 - Para abrir Power Automate desde una página de lista, tarjeta o documento, seleccione **Automatizar** > **Administrar flujos**.
-- Para crear nuevos flujo o administrar flujos existentes desde dentro de [!INCLUDE[prod_short](includes/prod_short.md)], vaya a la página **Administrar flujos de Power Automate**.
+<!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-Estas tareas generalmente las realizan administradores o superusuarios. Las tareas requieren un conocimiento más amplio de los procesos de negocio en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Configurar flujos automatizados](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Configurar flujos instantáneos](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) y [Administrar flujos de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+Estas tareas generalmente las realizan administradores o superusuarios. Las tareas requieren un conocimiento más amplio de los procesos de negocio en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, explore [Integración de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Configurar flujos instantáneos](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) y [Administrar flujos de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
 <!-- 
 
 ## Add more automated flows and instant flows
