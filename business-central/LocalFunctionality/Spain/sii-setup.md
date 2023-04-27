@@ -1,27 +1,21 @@
 ---
-title: Configurar SII para informes de IVA [ES]
+title: 'Configurar SII para informes de IVA [ES]'
 description: Descubre cómo configurar Business Central para enviar documentos a través del SII en la versión en español.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 10751, 10752, 10753, 10770, 10771, 747, 473
+ms.search.keywords: null
+ms.search.form: '10751, 10752, 10753, 10770, 10771, 747, 473'
 ms.date: 07/12/2022
 ms.author: edupont
-ms.openlocfilehash: 2d9af4415b75d9edcf5352a0317e8d0fe8d7d084
-ms.sourcegitcommit: 7b422fa4907270da802d1318cce0ee3fc9769643
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9224138"
 ---
-# <a name="set-up-sii-for-vat-reporting-in-the-spanish-version"></a>Configurar SII para informes de IVA en la versión en español
+# Configurar SII para informes de IVA en la versión en español
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] admite los requisitos del SII españoles para la declaración del IVA (suministro de información inmediato).  
 
-## <a name="enable-the-sii-module-in-the-spanish-version"></a>Habilitar el módulo SII en la versión española
+## Habilitar el módulo SII en la versión española
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de SII** y luego elija el enlace relacionado.  
 2. En la ficha desplegable **General**, seleccione el campo **Habilitado**.  
@@ -35,7 +29,7 @@ ms.locfileid: "9224138"
    Si utiliza envíos por lotes de documentos, puede enviar documentos por lotes de forma manual o automática. Con el envío automático por lotes, los documentos se transfieren a la página **Historial SII** con un estado de *Pendiente* cuando los registra y envía en lotes cuando se alcanza o supera el valor umbral. Obtenga más información en la sección [Umbral de envíos de lotes de proyectos](#job-batch-submission-thresholds).
 5. Configure los otros campos, importe un certificado válido y especifique los puntos finales relevantes con la URL de destino. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
-## <a name="job-batch-submission-thresholds"></a>Umbral de envíos de lotes de proyectos
+## Umbral de envíos de lotes de proyectos
 
 Si desea utilizar el envío automático por lotes, el campo **Umbral de envío de lotes de proyectos** especifica el número de umbral de documentos con el estado *Pendiente* y eso activará un envío automático por lotes.
 
@@ -48,7 +42,7 @@ Si el umbral se establece en *1* o más, los documentos se envían automáticame
 
 Siempre puede enviar documentos manualmente con un estado *Pendiente* eligiendo las acciones **Reintentar** o **Reintentar todo** de la página **Historial SII**.
 
-## <a name="specify-customers-without-a-registered-nif-with-aeat"></a>Especificar clientes sin NIF registrado en la AEAT
+## Especificar clientes sin NIF registrado en la AEAT
 
 Si el NIF de un cliente aún no está registrado en la base de datos de la AEAT, se rechazará la presentación de documentos. En este caso, puede seleccionar la opción **No está en la AEAT** y volver a enviar el documento.
 
@@ -56,7 +50,7 @@ Si el NIF de un cliente aún no está registrado en la base de datos de la AEAT,
 2. Elija el cliente relevante para abrir la **Ficha de cliente**.
 3. Seleccione el campo **No está en la AEAT**.
 
-## <a name="set-vat-exemptions"></a>Establecer exenciones de IVA
+## Establecer exenciones de IVA
 
 Para indicar las exenciones del impuesto sobre el valor añadido (IVA) en el esquema SII, puede seleccionar un código de exención para una cláusula del IVA en la página **Cláusulas de IVA** o bien crear una nueva cláusula que se corresponda con la exención y elegir el código adecuado en el campo **Código de excepción SII**.
 
@@ -65,7 +59,7 @@ Para indicar las exenciones del impuesto sobre el valor añadido (IVA) en el esq
 
 Para habilitar la presentación de informes en los escenarios **No sujeto a impuestos debido a reglas de localización**, establezca la **Ficha config. registro IVA** correspondiente en la página **Config. grupos registro IVA** eligiendo la opción en el campo **No es un tipo imponible**.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [SII - Tipos de factura y abonos en documentos de compra y venta](SII-invoice-types-sales-purchase-documents.md)  
 [Funcionalidad local para España](spain-local-functionality.md)  

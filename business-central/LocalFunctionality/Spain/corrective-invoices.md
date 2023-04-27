@@ -1,5 +1,5 @@
 ---
-title: Facturas correctivas [ES]
+title: 'Facturas correctivas [ES]'
 description: La funcionalidad de factura correctiva permite enviar una factura correctiva cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales.
 services: project-madeira
 documentationcenter: ''
@@ -8,17 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: bea1b1f3146b26443c072920142e68ae3b3df07e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132207"
 ---
-# <a name="corrective-invoices-in-the-spanish-version"></a>Facturas correctivas en la versión en español
+# Facturas correctivas en la versión en español
 La funcionalidad de factura correctiva permite enviar una factura correctiva cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales. Esta factura incluye todos los datos requeridos legalmente y hace referencia a la factura o facturas originales. Las facturas originales no se pueden anular y siguen siendo válidas. La factura correctiva contiene las correcciones y los motivos de estas correcciones.  
 
 Están disponibles las siguientes opciones:  
@@ -34,7 +28,7 @@ La factura correctiva debe cumplir los requisitos siguientes:
 - Se deben indicar claramente los números de las facturas que se corrigen.  
 - Únicamente se puede contabilizar una factura correctiva sin números de factura corregida si las correcciones son necesarias a causa de descuentos u ofertas por volumen.  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
 
 

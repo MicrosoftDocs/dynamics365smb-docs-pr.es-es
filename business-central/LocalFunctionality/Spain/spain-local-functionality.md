@@ -1,26 +1,20 @@
 ---
-title: Funcionalidad local para España [ES]
+title: 'Funcionalidad local para España [ES]'
 description: En los temas siguientes se describe la funcionalidad local de la versión española de Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/26/2022
 ms.author: edupont
-ms.openlocfilehash: 088e72dd6872d3ad4a8a29d245710356df7410e2
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607147"
 ---
-# <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local en la versión española
+# Funcionalidad local en la versión española
 
 En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilidad de la característica
+## Disponibilidad de la característica
 
 * IVA  
   * [SII para informes de IVA](sii-setup.md) **Disponible ahora**
@@ -72,7 +66,13 @@ En los temas siguientes se describe la funcionalidad local que es única para la
   * [Introducir códigos NACE](how-to-enter-nace-codes.md) **Disponible ahora**
   * [Establecer límites para fechas de vencimiento](how-to-set-limits-for-due-dates.md) **Disponible ahora**
 
-## <a name="see-also"></a>Consulte también .
+## Se están investigando los requisitos de legislación futura
+
+* Requisitos para la facturación electrónica en España en **julio de 2024**
+
+Si está al tanto de cualquier característica reglamentaria futura, envíe una [Alerta de características reglamentarias](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
