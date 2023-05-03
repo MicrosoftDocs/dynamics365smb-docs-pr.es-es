@@ -2,17 +2,17 @@
 title: Definir permisos granulares
 description: Este artículo describe cómo definir permisos granulares y asignar a cada usuario los conjuntos de permisos que necesitan para hacer su trabajo.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 11/29/2022
-ms.author: bholtorf
+ms.date: 02/08/2023
 ---
 
 # Asignar permisos a usuarios y grupos
+
+[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
 El sistema de seguridad [!INCLUDE[prod_short](includes/prod_short.md)] controla a qué objetos puede tener acceso un usuario dentro de cada base de datos o entorno, en combinación con las licencias del usuario. Puede especificar para cada usuario si puede leer, modificar o introducir datos en los objetos de la base de datos. Para más información, consulte [Seguridad de datos](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) en el contenido para desarrolladores y administración para [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -26,16 +26,16 @@ En [!INCLUDE[prod_short](includes/prod_short.md)], hay dos niveles de permisos p
 
 - Permisos detallados que asigna en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-  Este artículo describe cómo puede definir, usar y aplicar permisos en [!INCLUDE [prod_short](includes/prod_short.md)] para cambiar la configuración predeterminada.  
+Este artículo describe cómo definir, usar y aplicar permisos en [!INCLUDE [prod_short](includes/prod_short.md)] para cambiar la configuración predeterminada.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Para más información, vea [Acceso de administrador delegado a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] en línea incluye grupos de usuarios predeterminados que se asignan a los usuarios automáticamente en función de su licencia. Puede cambiar la configuración predeterminada modificando o agregando grupos de usuarios, conjuntos de permisos y permisos. La siguiente tabla describe escenarios clave para modificar los permisos predeterminados.  
+[!INCLUDE [prod_short](includes/prod_short.md)] en línea incluye grupos de usuarios predeterminados que se asignan a los usuarios automáticamente en función de su licencia. Puede cambiar la configuración predeterminada modificando o agregando grupos de seguridad, conjuntos de permisos y permisos. La siguiente tabla describe escenarios clave para modificar los permisos predeterminados.  
 
 |Para  |Vea  |
 |---------|---------|
-|Para facilitar la administración de permisos para varios usuarios, puede organizarlos en grupos de usuarios y luego asignar o cambiar un conjunto de permisos para muchos usuarios en una sola acción.| [Para administrar permisos a través de grupos de usuarios](#to-manage-permissions-through-user-groups) |
+|Para facilitar la administración de permisos para varios usuarios, puede organizarlos en grupos de seguridad y luego asignar o cambiar un conjunto de permisos para muchos usuarios en una sola acción.| [Para administrar permisos a través de grupos de usuarios](#to-manage-permissions-through-user-groups) |
 |Para administrar conjuntos de permisos para usuarios específicos | [Para asignar conjuntos de permisos a los usuarios](#to-assign-permission-sets-to-users) |
 |Para aprender a definir un conjunto de permisos|[Crear un conjunto de permisos](#to-create-a-permission-set)|
 |Para ver o solucionar problemas de permisos del usuario|[Para obtener un resumen de los permisos de un usuario](#to-get-an-overview-of-a-users-permissions)|
@@ -76,11 +76,11 @@ El mantenimiento es también más sencillo. Cuando agrega un permiso del sistema
   |**Reducir a indirecto**|Cambie el nivel de acceso a Indirecto si algún conjunto de permisos otorga acceso Directo al objeto. Por ejemplo, elija esta opción si el conjunto de permisos otorga acceso directo a las entradas del L/M, pero no desea que los usuarios tengan acceso completo a las entradas.|
   
   > [!NOTE]
-  > El conjunto de permisos más alto en la jerarquía determina si el permiso está incluido o excluido. Si dos conjuntos están en el mismo nivel en la jerarquía y se incluye un permiso en un conjunto pero se excluye en el otro, el permiso se excluirá.
+  > Si un permiso está incluido y excluido, el permiso será excluido.
 
 6. Use los campos **Tipo de objeto** e **ID de objeto** para especificar el objeto al que está dando acceso.
 
-> [!TIP]
+  > [!TIP]
   > Las nuevas líneas muestran los valores predeterminados. Por ejemplo, el campo **Tipo de objeto** contiene **Datos de la tabla**, y el campo **ID de objeto** contiene **0**. Los valores predeterminados son solo marcadores de posición y no se utilizan. Debe elegir un tipo de objeto y un objeto en el campo **ID de objeto** antes de que pueda crear otra línea nueva.
 
 7. Opcional: si está definiendo permisos para un tipo de objeto de datos de tabla, en el campo **Filtro de seguridad** puede filtrar los datos a los que un usuario puede acceder en los campos de la tabla seleccionada. Por ejemplo, puede querer permitir a un usuario acceder solo a los registros que contienen información acerca de un determinado cliente. Para más información, vea [Los filtros de seguridad limitan el acceso de un usuario a registros específicos en una tabla](#security-filters-limit-a-users-access-to-specific-records-in-a-table) y [Uso de filtros de seguridad](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -105,9 +105,15 @@ En el panel **Resultado**, use el campo **Estado de inclusión** para identifica
 
 Para obtener una vista general de los permisos en el conjunto de permisos, elija la acción **Ver todos los permisos**. La página **Permisos ampliados** muestra todos los permisos que ya se asignaron al conjunto de permisos y los permisos en los conjuntos de permisos agregados.
 
-Para excluir por completo un conjunto de permisos que ha agregado, en el panel **Resultado**, seleccione la línea, elija **Mostrar más opciones** y luego elija **Excluir**. Cuando excluye un conjunto de permisos, se crea una línea en el panel **Conjuntos de permisos** del tipo Excluido. Si excluyó un conjunto de permisos, pero desea volver a incluirlo, elimine la línea en el panel **Conjuntos de permisos**.
+Para excluir por completo todos los permisos de un conjunto de permisos, en el panel **Resultado**, seleccione la línea, elija **Mostrar más opciones** y luego elija **Excluir**. Cuando excluye un conjunto de permisos, se crea una línea en el panel **Conjuntos de permisos** del tipo Excluido. Si excluyó un conjunto de permisos, pero desea volver a incluirlo, elimine la línea en el panel **Conjuntos de permisos**.
 
-Para excluir total o parcialmente un permiso específico en un conjunto que ha agregado, en **Permisos**, cree una línea para el objeto. Los campos de nivel de acceso, Insertar permiso, Modificar permiso, etc., contendrán Excluir. Para permitir un determinado nivel de acceso, elija la opción adecuada.
+Para excluir total o parcialmente un permiso específico en un conjunto que ha agregado, en **Permisos**, cree una línea para el objeto. Los campos de nivel de acceso, Insertar permiso, Modificar permiso, etc., contendrán todos **Excluir**. Para permitir un determinado nivel de acceso, elija la opción adecuada.
+
+La exclusión de un conjunto de permisos excluye todos los permisos del conjunto. [!INCLUDE [prod_short](includes/prod_short.md)] calcula los permisos de la manera siguiente:
+
+1. Calcular la lista completa de permisos incluidos
+2. Calcular la lista completa de permisos excluidos
+3. Eliminar permisos excluidos de la lista de permisos incluidos (eliminar un permiso indirecto es lo mismo que Reducir a indirecto)
 
 ## Copiar un conjunto de permisos
 
@@ -135,7 +141,7 @@ Cree un nuevo conjunto de permisos copiando otro. El nuevo conjunto incluirá to
 2. En la página **Conjuntos de permisos**, elija la acción **Nuevo**.
 3. En una línea nueva, rellene los campos según sea necesario.
 4. Elija la acción **Permisos**.
-1. En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.  
+5. En la página **Permisos**, seleccione la acción **Registrar permisos** y, a continuación elija la acción **Iniciar**.  
     La grabación debe realizarse utilizando la función **Abrir esta página en una ventana nueva** (emergente) para tener la ventana de grabación **Permisos** una al lado de la otra, o trabajando dentro de la misma pestaña.  
     Ahora se inicia un proceso de registro y captura todas sus acciones en la interfaz de usuario.
 6. Vaya a las diferentes páginas y actividades en [!INCLUDE[prod_short](includes/prod_short.md)] a las que desea que accedan los usuarios con este conjunto de permisos. Debe realizar las tareas para las que desea registrar permisos.
@@ -166,9 +172,9 @@ Los conjuntos de permisos se importan.
 
 ## Para eliminar permisos obsoletos de todos los conjuntos de permisos
 
-1. En la página **conjunto de permisos**, seleccione la acción **Eliminar permisos obsoletos**.
+En la página **conjunto de permisos**, seleccione la acción **Eliminar permisos obsoletos**.
 
-## Para configurar restricciones de tiempo de usuarios
+## Para configurar restricciones para usuarios
 
 Los administradores pueden definir períodos de tiempo durante los cuales los usuarios específicos pueden registrar. Los administradores también pueden especificar si el sistema registra cuánto tiempo están conectados los usuarios. De igual manera, los administradores también pueden asignar centros de responsabilidad a los usuarios. Para obtener más información, consulte [Trabajar con centros de responsabilidad](inventory-responsibility-centers.md).
 
