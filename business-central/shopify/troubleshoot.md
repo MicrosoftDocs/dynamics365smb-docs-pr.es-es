@@ -1,13 +1,13 @@
 ---
 title: Solución de problemas de Shopify y sincronización de Business Central
-description: Descubra qué hacer si algo falla durante la sincronización de datos entre Shopify y Business Central
-ms.date: 03/27/2023
-ms.topic: article
-ms.service: dynamics365-business-central
+description: Descubra qué hacer si algo falla cuando sincroniza datos entre Shopify y Business Central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 04/24/2023
+ms.custom: bap-template
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
-author: edupont04
-ms.author: andreipa
-ms.reviewer: solsen
 ---
 
 # Solución de problemas de Shopify y sincronización de Business Central
@@ -20,7 +20,7 @@ Puede encontrarse con situaciones en las que necesite solucionar problemas al si
 2. Seleccione la tienda para la que desea solucionar problemas para abrir la página **Tarjeta de tienda de Shopify**.
 3. Desactive la alternancia **Permitir sincronizaciones en segundo plano**.
 
-Ahora, cuando se desencadene la acción de sincronización, la tarea se ejecutará en primer plano y, si se produce un error, aparecerá un cuadro de diálogo de error con el vínculo **Copiar detalles**. Use este vínculo para copiar información adicional a un editor de texto para un análisis posterior.
+Ahora, cuando se active la acción de sincronización, la tarea se ejecutará en primer plano. Si se produce un error, aparecerá un cuadro de diálogo de error con un vínculo **Copiar detalles**. Use el vínculo para copiar información a un editor de texto para un análisis posterior.
 
 ## Registros
 
@@ -35,16 +35,16 @@ Si falla una tarea de sincronización, puede activar el conmutador de alternanci
 ### Para revisar registros
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de registro de Shopify** y luego elija el vínculo relacionado.
-2. Seleccione el movimiento de registro relacionado y abra la página **Movimiento de registro de Shopify**.
+2. Seleccione el movimiento de registro relacionado y luego abra la página **Movimiento de registro de Shopify**.
 3. Revise la solicitud, el código y la descripción de estado, y los valores de respuesta. Puede descargar los valores de solicitud y respuesta como archivos en formato de texto.
 
-Más tarde recuerde desactivar el registro más tarde para evitar un impacto negativo en el rendimiento y un aumento en el tamaño de la base de datos.
+Más tarde recuerde desactivar el registro para evitar un impacto negativo en el rendimiento y un aumento en el tamaño de la base de datos.
 
 Desde la página **Movimientos de registro de Shopify**, puede desencadenar la eliminación de todas las entradas de registro o las que tengan más de siete días.
 
 ## Captura de datos
 
-Sin importar los ajustes de **Registro activado**, algunas respuestas de Shopify siempre se registran para que pueda inspeccionarlas o descargarlas usando la página **Lista de captura de datos**.
+Independientemente de si **Registro activado** está activado, algunas respuestas de Shopify siempre se registran. Puede inspeccionar o descargar los registros desde la página **Lista de captura de datos**.
 
 Elija la acción **Datos de Shopify recuperados** en una de las siguientes páginas:
 
@@ -58,13 +58,13 @@ Elija la acción **Datos de Shopify recuperados** en una de las siguientes pági
 
 ## Restablecer sincronización
 
-Para un rendimiento óptimo, el conector importa solo clientes, productos y pedidos creados o modificados desde la última sincronización. En la **Ficha de tienda de Shopify**, hay funciones disponibles que cambian la fecha/hora de la última sincronización o restablecerla por completo. Esta función garantiza que cuando se ejecuta la sincronización, se sincronizan todos los datos en lugar de solo los cambios desde la última sincronización.
+Para un rendimiento óptimo, el conector importa solo clientes, productos y pedidos creados o modificados desde la última sincronización. En la **Ficha de tienda de Shopify**, hay funciones disponibles que cambian la fecha/hora de la última sincronización o restablecerla por completo. Esta función garantiza que se sincronizan todos los datos, en lugar de solo los cambios desde la última sincronización.
 
 Esta función solo se aplica a las sincronizaciones de Shopify a [!INCLUDE[prod_short](../includes/prod_short.md)]. Puede ser útil si necesita restaurar datos eliminados, como productos, clientes o pedidos eliminados.
 
 ## Solicitar el token de acceso
 
-Si [!INCLUDE[prod_short](../includes/prod_short.md)] no puede conectarse a su cuenta de Shopify, intente solicitar el token de acceso de Shopify. Esta solicitud puede ser necesaria si hay una rotación de claves de seguridad o cambios en los permisos requeridos (ámbitos).
+Si [!INCLUDE[prod_short](../includes/prod_short.md)] no puede conectarse a su cuenta de Shopify, intente solicitar el token de acceso de Shopify. Es posible que necesite el token si hubo cambios en las claves de seguridad o permisos requeridos (ámbitos).
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego elija el enlace relacionado.
 2. Seleccione la tienda para la que desea conseguir el token de acceoso para abrir la página **Tarjeta de tienda de Shopify**.
@@ -73,11 +73,11 @@ Si [!INCLUDE[prod_short](../includes/prod_short.md)] no puede conectarse a su cu
 
 Se activará el conmutador de alternancia **Tiene clave de acceso**.
 
-### Verifique y habilite los permisos para realizar solicitudes HTTP cuando se ejecuta en un entorno que no sea de producción
+### Verifique y habilite los permisos para realizar solicitudes HTTP en un entorno que no sea de producción
 
 Para funcionar correctamente, la extensión del conector de Shopify requiere permiso para realizar solicitudes HTTP. Al probar en espacios aislados, las solicitudes HTTP están prohibidas para todas las extensiones.
 
-1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **administración de extensiones** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Administración de extensiones** y luego elija el enlace relacionado.
 2. Seleccione la extensión **Conector de Shopify**.
 3. Seleccione la acción **Configurar** para abrir la página **Configuración de extensiones**.
 4. Asegúrese de que el conmutador de alternancia **Permitir solicitudes HTTPClient** esté habilitado.
@@ -103,11 +103,12 @@ Los siguientes procedimientos describen cómo rotar el token de acceso utilizado
 
 ### Error: el encabezado de ventas no existe. Campos y valores de identificación: Tipo de documento='Oferta',N.º='TIENDA DE SHOPIFY'
 
-Para calcular los precios, el conector de Shopify crea un documento de venta temporal (oferta) para el cliente temporal (código de tienda) y permite que la lógica de cálculo de precio estándar haga su trabajo. Es un escenario típico cuando una extensión de terceros se suscribe a eventos en la línea de ventas, pero no verifica que el registro sea temporal, por lo que es posible que no se pueda acceder al encabezado. Nuestra recomendación es contactar con el proveedor de la extensión y pedirle que modifique su código para comprobar si los registros son temporales. En algunos casos, basta con agregar el método `IsTemporary` en el lugar correcto. Para obtener más información sobre IsTemporary, vaya a [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+Para calcular los precios, el conector de Shopify crea un documento de venta temporal (oferta) para un cliente temporal (código de tienda) y utiliza la lógica de cálculo de precio estándar haga su trabajo. Si una extensión de terceros se suscribe a eventos en un documento de ventas temporal, es posible que el encabezado no esté disponible. Le recomendamos que se ponga en contacto con el proveedor de la extensión. Pídales que modifiquen su código para buscar registros temporales. En algunos casos, solo tienen que agregar el método `IsTemporary` en el lugar correcto. Para obtener más información sobre `IsTemporary`, vaya a [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
-Para verificar que el problema lo causa una extensión de terceros, utilice el vínculo **Copiar información al portapapeles** en el mensaje de error y copie el contenido en el editor de texto. La información contiene una **pila de llamadas AL**, donde la línea superior es la línea donde ocurrió el error. El siguiente es un ejemplo de una pila de llamadas AL.
+Para verificar que el problema lo causa una extensión de terceros, utilice el vínculo **Copiar información al portapapeles** en el mensaje de error y copie el contenido en el editor de texto. La información contiene una **pila de llamadas AL**, donde la línea superior es la línea donde ocurrió el error. El siguiente ejemplo muestra una pila de llamadas AL.
 
-Pila de llamadas AL: 
+Pila de llamadas AL:
+
 ```AL
 [Object Name]([Object type] [Object Id]).[Function Name] line [XX] - [Extension Name] by [Publisher] 
 ...
@@ -124,15 +125,15 @@ Recuerde compartir la información de la pila de llamadas AL con el proveedor de
 
 ### Error: Gen. Grupo de contabilización Bus. debe tener un valor en Cliente: 'TIENDA DE SHOPIFY'. No puede estar vacío ni ser cero
 
-Rellene el campo **Código de plantilla de cliente** en la ventana **Tarjeta de tienda de Shopify** con la plantilla que tiene **Grupo contable negocio**. La plantilla de cliente se utiliza no solo para la creación de clientes, sino también para el cálculo del precio de venta y durante la creación de documentos de venta.
+Rellene el campo **Código de plantilla de cliente** en la ventana **Tarjeta de tienda de Shopify** con la plantilla que tiene **Grupo contable negocio**. La plantilla de cliente se utiliza para crear clientes y calcular precios de venta en documentos de ventas.
 
 ### Error: la importación de datos a su tienda de Shopify no está habilitada. Vaya a la tarjeta de la tienda para habilitarla.
 
-En la **Tarjeta de tienda de Shopify**, active la opción **Permitir la sincronización de datos para Shopify**. Esta opción está destinada a proteger la tienda en línea de obtener datos de demostración de [!INCLUDE[prod_short](../includes/prod_short.md)].
+En la página **Tarjeta de tienda de Shopify**, active la opción **Permitir la sincronización de datos para Shopify**. Este ajuste ayuda a proteger la tienda en línea de obtener datos de demostración de [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ### Error: Oauth error invalid_request: no se pudo encontrar la aplicación API de Shopify con api_key
 
-Parece que usa [Insertar aplicación](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), donde la URL del cliente tiene el formato: `https://[application name].bc.dynamics.com`. El conector Shopify no funciona para las aplicaciones integradas. Para más información, consulte [¿Qué productos de Microsoft tienen disponible el conector Shopify?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+Parece que usa [Insertar aplicación](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), donde la URL del cliente tiene el formato: `https://[application name].bc.dynamics.com`. El conector Shopify no funciona para las aplicaciones integradas. Para obtener más información, vaya a [¿Qué productos de Microsoft tienen disponible el conector Shopify?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
 ## Consulte también .
 

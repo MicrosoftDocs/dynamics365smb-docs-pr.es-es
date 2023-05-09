@@ -1,22 +1,16 @@
 ---
 title: Ejecutar producción
-description: Cuando se ha planificado un pedido y se han emitido los materiales de acuerdo con la L.M. de producción, entonces, pueden iniciarse las operaciones de producción y se pueden ejecutar en la secuencia definida por la ruta de órdenes de producción.
+description: 'Cuando se ha planificado un pedido y se han emitido los materiales de acuerdo con la L.M. de producción, entonces, pueden iniciarse las operaciones de producción y se pueden ejecutar en la secuencia definida por la ruta de órdenes de producción.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
+ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdee651c95a1c9e22ded28be1f2af48c5fbaacbf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521889"
 ---
-# <a name="manufacturing"></a>Fabricación
+# Fabricación
 
 > [!NOTE]
 > La funcionalidad descrita en este tema y los subtemas solo están visibles en la interfaz de usuario si tiene la experiencia **Premium**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
@@ -45,7 +39,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Utilizar la página **Diario de capacidad** para registrar capacidades consumidas que no están asignadas a una orden de producción, como el trabajo de mantenimiento.|[Registrar capacidades](production-how-to-post-capacities.md)|  
 |Calcular y ajustar el coste de artículos de producción terminados y componentes consumidos para la reconciliación financiera.|[Sobre los costes de la orden de producción terminada](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Planificación](production-planning.md)  

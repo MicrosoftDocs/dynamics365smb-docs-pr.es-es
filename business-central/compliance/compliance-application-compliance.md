@@ -1,26 +1,25 @@
 ---
 title: Conformidad de las aplicaciones
-description: 'En este tema se explica la conformidad de las aplicaciones en relación con Business Central, como las Normas Internacionales de Información Financiera, la funcionalidad local y el RGPD.'
+description: 'En este artículo se explica cómo Business Central cumple las normas internacionales de información financiera, la funcionalidad local y las leyes y los reglamentos de privacidad.'
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 08/25/2022
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Conformidad de las aplicaciones
 
-En este contenido se incluye información acerca de la conformidad de las aplicaciones en relación con [!INCLUDE[prod_short](../includes/prod_short.md)], como las Normas Internacionales de Información Financiera, la funcionalidad local, el Reglamento General de Protección de Datos (RGPD) y más. La confianza en una solución de gestión empresarial es clave para dirigir un negocio eficiente. Con Business Central, las empresas están facultadas para agilizar los procesos de negocios a la vez que cumplen de manera consistente y rentable con el aumento de los requisitos de regulación e informes.
+Este artículo proporciona información sobre cómo [!INCLUDE [prod_short](../includes/prod_short.md)] faculta a las empresas para agilizar los procesos de negocios a la vez que cumplen de manera consistente y rentable con el aumento de los requisitos de regulación e informes.
 
 ## Privacidad de datos
 
-Business Central respalda iniciativas de privacidad de datos, como el RGPD que entró en vigencia el 25 de mayo de 2018. Más información acerca de cómo [Business Central respalda el RGPD](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] cumple las leyes y regulaciones de privacidad de datos. [Obtenga información acerca de cómo responder a solicitudes del interesado en Business Central](../admin-responding-to-requests-about-personal-data.md).
 
-Si es un desarrollador de extensiones de Business Central, necesita conocer la clasificación de datos. Obtenga más información sobre [esta página](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
-Si desea obtener más información sobre el RGPD desde una perspectiva más amplia de Dynamics 365, consulte [estas notas de producto](/dynamics365/get-started/gdpr/).
+Si desarrolla extensiones de [!INCLUDE [prod_short](../includes/prod_short.md)], deberá saber [cómo se clasifican los datos en Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[Más información sobre la privacidad de datos en Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Procesos y controles contables para facilitar el cumplimiento
 
@@ -36,7 +35,7 @@ La conformidad no solo depende de la información precisa y los procesos contabl
 
 ## Obtener los beneficios de una solución de gestión empresarial integrada
 
-Business Central proporciona información operativa y financiera integrada en tiempo real desde toda su organización, para que pueda:
+[!INCLUDE [prod_short](../includes/prod_short.md)] proporciona información operativa y financiera integrada en tiempo real desde toda su organización, para que pueda:
 
 - Realizar un seguimiento de los datos financieros con informes financieros para flujo de efectivo, ingresos, balances, activos fijos, estructura de capital, indicadores clave de rendimiento y mucho más.
 - Salvaguardar la precisión con la seguridad basada en funciones y los controles de aplicación configurables que impiden la entrada de datos no válidos o duplicados.
@@ -45,7 +44,7 @@ Business Central proporciona información operativa y financiera integrada en ti
 
 ## Obtener control de información, procesos e informes críticos.
 
-Business Central mejora el control de las funciones clave y la información crítica para la operación financiera exitosa de su negocio.
+[!INCLUDE [prod_short](../includes/prod_short.md)] mejora el control de las funciones clave y la información crítica para la operación financiera exitosa de su negocio.
 
 ### Gestionar la conformidad de las normas importantes
 
@@ -90,7 +89,7 @@ Microsoft crea versiones localizadas de Business Central para un número limitad
 
 > [!NOTE]  
 > **NIC/NIIF: Normas de reconocimiento y medición**  
-> Dependiendo de los PCGA locales actualmente actuales, uno de los principales cambios de reconocimiento y medición para los NIC/NIIF es el uso extendido de los principios por el valor razonable en lugar de por el coste histórico. Business Central puede ayudar a las empresas a calcular los conceptos de valor razonable y valor actual neto (VAN), que se centran en los flujos de efectivo actuales y esperados en lugar del precio de compra histórico. Por lo que respecta a los informes, puede proporcionar informes de segmento por unidad de negocio y ubicación geográfica.
+> Dependiendo de los PCGA locales actualmente actuales, uno de los principales cambios de reconocimiento y medición para los NIC/NIIF es el uso extendido de los principios por el valor razonable en lugar de por el coste histórico. [!INCLUDE [prod_short](../includes/prod_short.md)] puede ayudar a las empresas a calcular los conceptos de valor razonable y valor actual neto (VAN), que se centran en los flujos de efectivo actuales y esperados en lugar del precio de compra histórico. Por lo que respecta a los informes, puede proporcionar informes de segmento por unidad de negocio y ubicación geográfica.
 
 > [!NOTE]  
 > **Basilea II: implicaciones para la presentación de informes y análisis**  

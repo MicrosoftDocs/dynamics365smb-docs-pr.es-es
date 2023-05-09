@@ -1,23 +1,17 @@
 ---
 title: Resumen de tareas para administrar los pagos a proveedores
-description: Describe las tareas para administrar los pagos a proveedores o acreedores, incluido el registro de líneas de pago, y obtener un resumen de saldo vencido.
+description: 'Describe las tareas para administrar los pagos a proveedores o acreedores, incluido el registro de líneas de pago, y obtener un resumen de saldo vencido.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
+ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd3786fd6795163fb0327a54c501808272621a30
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531464"
 ---
-# <a name="making-payments"></a>Creación de pagos
+# Creación de pagos
 
 Cuando efectúa pagos a proveedores o clientes, o reembolsos a empleados, las líneas de pago relacionadas se registran en la página **Diario de pagos**. El diario de pagos es un diario general que está optimizado para realizar pagos e incluye una serie de funciones potentes, como la función **Sugerir pagos de proveedores** que encuentra los pagos de proveedores vencidos, y el informe **Proveedor - Pagos por periodos** que muestra una descripción general de los pagos vencidos de proveedores.  
 
@@ -41,9 +35,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Pague a un proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Asegúrese de que su banco solo compensa cheques e importes validados enviándoles un archivo que contenga la información de proveedor, cheque y pago. |[Exportar un archivo de Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administrar pagos](payables-manage-payables.md)  
 [Compras](purchasing-manage-purchasing.md)  

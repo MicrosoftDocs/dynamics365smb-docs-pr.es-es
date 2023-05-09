@@ -1,23 +1,17 @@
 ---
-title: Emitir, imprimir, cancelar y anular cheques
-description: Describe cómo emitir cheques con el diario de pagos, imprimir cheques y anular o ver movimientos de cheques en Business Central.
+title: 'Emitir, imprimir, cancelar y anular cheques'
+description: 'Describe cómo emitir cheques con el diario de pagos, imprimir cheques y anular o ver movimientos de cheques en Business Central.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.search.form: 256, 404,
+ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '256, 404,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81d8ae51a9d9046f30afdf9ca365b3284c8eed53
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532625"
 ---
-# <a name="make-check-payments"></a>Realizar pagos por cheque
+# Realizar pagos por cheque
 
 Puede emitir cheques electrónicos y manuales en [!INCLUDE[prod_short](includes/prod_short.md)]. Ambos métodos utilizan el diario de pagos para emitir los cheques a proveedores. También puede anular cheques y ver movimientos de cheques.
 
@@ -36,7 +30,7 @@ Puede pagar con dos tipos de cheques. Para ambos tipos, el campo **Tipo contrapa
 
 Puede imprimir hasta 10 facturas en una página para una matriz de cheque. Si un cheque se aplica a más de 10 facturas, cuando imprima el talón anularemos el cheque en la primera página e imprimiremos la palabra ANULADO en el cheque. A continuación, imprimimos el resto de las facturas y el importe total del cheque en la segunda página.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Para pagar una factura de proveedor con un cheque automático
+## Para pagar una factura de proveedor con un cheque automático
 
 A continuación se describe cómo pagar a un proveedor mediante un cheque. Los pasos son similares al reembolso de un cheque.
 
@@ -56,13 +50,13 @@ Se crean los movimientos de contabilidad de proveedores y de cuenta bancaria tot
 > [!NOTE]  
 > Si quiere imprimir y pagar cheques en varias divisas de cuentas bancarias distintas, deberá ejecutar el proceso **Imprimir cheque** por separado para cada divisa y especificar la cuenta bancaria correspondiente.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Para anular los cheques imprimidos que no han sido registrados
+## Para anular los cheques imprimidos que no han sido registrados
 
 Puede anular los cheques no registrados después de que hayan sido imprimidos usando la acción **Anular cheque** de la página **Diario de pagos**.
 
 1. En la página **Diario de pagos**, seleccione **Anular cheque** y, a continuación, seleccione qué cheques desea cancelar.
 
-## <a name="to-void-checks"></a>Para anular cheques
+## Para anular cheques
 
 Cuando se ha registrado el pago del cheque, solo puede cancelar (anular) cheques en los movimientos resultantes del banco.
 
@@ -75,15 +69,15 @@ Cuando se ha registrado el pago del cheque, solo puede cancelar (anular) cheques
 4. Seleccione la casilla **Anular cheque solo**.
 5. Elija el botón **Aceptar**.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>Para ver un resumen de los cheques registrados
+## Para ver un resumen de los cheques registrados
 
 Si desea revisar los cheques registrados, por ejemplo, para verificar los cheques múltiples pagados a un proveedor, puede usar el informe **Bancos - Desglose cheques**.
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Banco - Desglose cheques** y luego elija el enlace relacionado.
 2. Establezca los filtros como relevantes y luego elija el botón **Vista previa**.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/use-checks-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/use-checks-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Creación de pagos](payables-make-payments.md)  
 [Administrar pagos](payables-manage-payables.md)  

@@ -177,7 +177,7 @@ Para evitar interrumpir las integraciones, _debe actualizar_ la conexión para u
 > [!NOTE]
 > Debe repetir estos pasos en cada entorno de [!INCLUDE[prod_short](includes/prod_short.md)], incluidos los entornos de producción y entorno aislado, y en cada empresa donde tenga una conexión con [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## Conexión a las versiones locales
+## Conectar versiones locales
 
 Para conectar [!INCLUDE[prod_short](includes/prod_short.md)] local a [!INCLUDE[cds_long_md](includes/cds_long_md.md)], debe especificar alguna información en la página **Configuración de la conexión de Dataverse**.
 

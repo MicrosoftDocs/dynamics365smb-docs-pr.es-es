@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 436, 437, 442, 431, 432, 434
+ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
+ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 5faa75ab9a501e30551c951c0e18a6cf559331d6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535402"
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Enviar recordatorios de saldos pendientes
+# Enviar recordatorios de saldos pendientes
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar tasas de interés múltiples para pagos atrasados](finance-how-to-set-up-multiple-interest-rates.md)  

@@ -40,7 +40,7 @@ Un código de seguimiento de producto refleja las distintas consideraciones que 
 Ya que este campo cubre todas las transacciones posibles con el producto, los campos de entrada y salida individuales también estarán seleccionados. No obstante, no hay que hacer nada con los campos de entrada y salida individuales en las existencias, ya que sólo definen el flujo de trabajo de su empresa cuando se asignan números de seguimiento de producto.  
 
 > [!NOTE]  
->  Para asignar números de seguimiento de producto en las actividades de almacén, los campos de verificación **Seguim. nº serie almacén** y **Control lote almacén** se deben seleccionar en la ficha del código del seguimiento del producto.  
+> Para asignar números de seguimiento de producto en las actividades de almacén, los campos de verificación **Seguim. nº serie almacén** y **Control lote almacén** se deben seleccionar en la ficha del código del seguimiento del producto.  
 
 ## Para configurar las reglas de caducidad para números de serie o lote
 
@@ -78,6 +78,36 @@ Para habilitar el seguimiento de productos, primero debe asignar los códigos de
 2. Seleccione un elemento existente de la lista y abra la página **Tarjeta de producto**.  
 3. En la ficha desplegable **Seguimiento de producto**, asigne los códigos de seguimiento de productos apropiados y elija el **Código de seguimiento del producto**, los **Números de serie**, y los **Números de lote**.
     1. También puede crear un nuevo código de seguimiento de producto seleccionando la acción **Nuevo**.
+
+## Para especificar saldos iniciales para los productos que sigue
+
+Puede crear saldos iniciales para los productos que sigue. Dado que puede elegir diferentes configuraciones de almacén, hay dos opciones:
+
+* Habilite lotes específicos en la página **Diario productos** para permitir que las personas ingresen datos de serie, lote y paquete directamente en las líneas del diario.
+* Para lugares donde el control de alternancia **ubicación y picking directos** está activado, utilice la página **Diario de inventario físico de almacén** para que todos los campos de seguimiento de artículos estén disponibles. Los campos que están disponibles incluyen los campos **Fecha de garantía** y **Fecha de caducidad**.
+
+### Diarios de productos 
+
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de productos**, y luego elija el enlace relacionado.
+2. Seleccione el campo **Nombre** para abrir una lista de secciones del diario de productos.
+3. Elija **Nuevo** para crear un nuevo lote y luego active el control de alternancia **Seguim. prod. en líneas**.
+4. Elija **Aceptar** para seleccionar el lote que creó.
+5. Rellene los campos en la línea del diario de productos según sea necesario. Tenga en cuenta que los campos **Nº lote**, **Nº de serie**, **Fecha de caducidad**, **Fecha de garantía** y **N.° de paquete** están disponibles (si la función está habilitada).
+6. Elija la acción **Registrar** para ajustar inventario.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] hace algunas validaciones menores cuando ingresa o importa datos. Se produce una comprobación más completa cuando contabiliza o transfiere datos de líneas de diario a la ventana **Líns. seg. prod.**. Esto último sucede automáticamente cuando abre la página **Líns. seg. prod.** desde la línea del diario de productos o si elige la acción **Actualizar líns. seguim. prod.**.
+
+### Diario de inventario físico de almacén para ubicaciones donde están activados la ubicación y el picking directos  
+
+1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de inventario físico de almacén** y luego elija el enlace relacionado.
+2. Rellene los campos en la línea del diario de productos según sea necesario. Tenga en cuenta que los campos **Nº lote**, **Nº de serie**, **Fecha de caducidad**, **Fecha de garantía** y **N.° de paquete** están disponibles (si la función está habilitada).
+3. Seleccione la acción **Registrar** para realizar ajustes de inventario. Recuerde, debe sincronizar los movimientos ajustados de almacén con los correspondientes movimientos de producto. Para obtener más información, vaya a [sincronizar las entradas de almacén ajustadas](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+Para importaciones masivas, use paquetes de configuración para importar datos a los diarios.
+
+> [!NOTE]
+> No puede usar **Editar en Excel** para crear líneas de diario con información de seguimiento.
 
 ## Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
 

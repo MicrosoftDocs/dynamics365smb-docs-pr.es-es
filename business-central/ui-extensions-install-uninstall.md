@@ -2,14 +2,13 @@
 title: Instalar y desinstalar aplicaciones
 description: Aprenda a instalar y desinstalar extensiones y aplicaciones en Business Central.
 author: SusanneWindfeldPedersen
+ms.author: solsen
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/24/2023
+ms.custom: bap-template
 ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 20350'
-ms.date: 09/22/2022
-ms.author: solsen
 ---
 
 # Instalar y desinstalar extensiones (Aplicaciones) en Business Central
@@ -17,11 +16,11 @@ ms.author: solsen
 Puede cambiar [!INCLUDE[prod_short](includes/prod_short.md)] instalando aplicaciones que, por ejemplo, agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea. Para obtener más información, consulte [Personalizar Business Central con extensiones](ui-extensions.md).
 
 > [!NOTE]
-> Para instalar o desinstalar aplicaciones desde AppSource o añadir aplicaciones por suscriptor, debe tener los permisos adecuados. Debe ser miembro de ADMIN. EXTENS. - Grupo de usuarios ADMIN o debe tener ADMIN. EXTENS. - Conjunto de permisos ADMIN. Si es administrador, puede asignar grupos de usuarios y permisos a otros usuarios de su empresa.
+> Para instalar o desinstalar aplicaciones desde AppSource o añadir aplicaciones por suscriptor, debe tener los permisos adecuados. Debe ser miembro del grupo de usuarios D365 Extensión MGT o debe tener el conjunto de permisos de ADMIN. EXTENS. - Conjunto de permisos ADMIN. Si usted es administrador, puede asignar grupos de usuarios y permisos a otros usuarios de su empresa. Para obtener más información sobre grupos de usuarios y permisos, vaya a [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).
 >
 > Para utilizar la funcionalidad que proporciona una extensión, como abrir páginas, ejecutar informes, seleccionar acciones, etc., se le deben asignar los conjuntos de permisos que se instalan como parte de la extensión.
 
-Para utilizar la funcionalidad que proporciona una extensión, como abrir páginas, ejecutar informes, seleccionar acciones, etc., se le deben asignar los conjuntos de permisos que se instalan como parte de la extensión.
+Para usar una extensión, debe tener asignados los conjuntos de permisos que vienen con ella.
 
 ## <a name="install"></a>Instalar una extensión
 
@@ -34,15 +33,15 @@ Puede obtener nuevas aplicaciones disponibles en el mercado en [AppSource.micros
 
 También puede obtener AppSource desde [!INCLUDE[prod_short](includes/prod_short.md)]. En la página **Gestión de extensiones**, puede ver las aplicaciones que están instaladas actualmente y puede abrir la página del **Mercado de extensiones** que muestra todas las aplicaciones para [!INCLUDE[prod_short](includes/prod_short.md)] que están disponibles actualmente en AppSource. Si elige el vínculo *Más aplicaciones* se le redireccionará a [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-Si selecciona una aplicación, puede consultar las funciones de la aplicación y acceder al sitio de ayuda de la aplicación para obtener más información. Cuando elige una aplicación debe aceptar las condiciones de uso. Si obtiene la aplicación del sitio web de AppSource, se requerirá el inicio de sesión en [!INCLUDE[prod_short](includes/prod_short.md)] para completar la instalación.  
+Elija una aplicación para obtener información sobre lo que hace y puede acceder a la Ayuda de la aplicación para obtener más información. Cuando elige una aplicación debe aceptar sus condiciones de uso. Si obtiene la aplicación del sitio web de AppSource, se requerirá el inicio de sesión en [!INCLUDE[prod_short](includes/prod_short.md)] para completar la instalación.  
 
 Después de instalar una aplicación, es posible que deba configurarla. Algunas aplicaciones requieren que proporcione cierta información antes de poder usarlas. Por ejemplo, después de instalar la aplicación **Paypal Payments Standard**, debe especificar el correo electrónico o el ID de la cuenta del comerciante para su cuenta de PayPal. Para configurar una aplicación o averiguar qué información necesitará, en la página **Extensiones instaladas**, elija la acción **Configurar**.  
 
 Otras aplicaciones simplemente agregan campos a una página existente o agregan una página nueva, por ejemplo.
 
-Si desinstala una aplicación y cambia de idea, puede volver a instalarla. Al desinstalar una aplicación que ha estado usando, los datos se guardan para que se vuelve a instalar la aplicación estén disponibles. Hay algunas aplicaciones que son obligatorias. No puede desinstalar las aplicaciones de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.
+Si desinstala una aplicación y cambia de idea, puede volver a instalarla. Cuando desinstala una aplicación que ha estado usando, sus datos no se eliminan. Los datos están disponibles si vuelve a instalar la aplicación.
 
-Algunas de las aplicaciones las proporciona Microsoft y otras las proporcionan [otras empresas](ui-extensions-other.md). Se prueban todas las aplicaciones antes de que estén disponibles, pero se recomienda acceder a los vínculos que se proporcionan con cada aplicación para obtener más información sobre la aplicación antes de optar por instalarla.
+Algunas de las aplicaciones las proporciona Microsoft y otras las proporcionan [otras empresas](ui-extensions-other.md). Le recomendamos que obtenga más información sobre la aplicación antes de elegir instalarla.
 
 Microsoft proporciona las aplicaciones siguientes:
 
@@ -67,10 +66,11 @@ Microsoft proporciona las aplicaciones siguientes:
 * [DK: migración de datos de C5](ui-extensions-c5-data-migration.md)
 * [DK: pagos y conciliaciones de pagos](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK: formatos de archivo de impuestos](ui-extensions-tax-file-formats-dk.md)
-* [La extensión Códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA: enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
+* [La extensión de códigos postales de Reino Unido de GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
+* [US/CA/UK/AU/NZ/ZA: Enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
 
-## Configurar una extensión
+## Configurar una aplicación
+
 Después de instalar una aplicación, es posible que deba configurarla. Por ejemplo, para la aplicación**PayPal Payments Standard para [!INCLUDE[prod_short](includes/prod_short.md)]** debe especificar la cuenta de PayPal a utilizar. Si ese es el caso, cuando se complete la instalación [!INCLUDE[prod_short](includes/prod_short.md)] le preguntará si desea configurar la aplicación de inmediato. Las configuraciones pueden ser necesarias para que la aplicación funcione u opcionales.
 
 Si elige configurar su aplicación de inmediato y tiene una configuración requerida, [!INCLUDE[prod_short](includes/prod_short.md)] abrirá la configuración requerida. La configuración puede ser una página en la que ingresa información o una guía de configuración asistida que lo ayuda a través de los pasos. Si no completa la configuración de una sola vez, puede usar la página **Configuraciones para _nombre de la aplicación_**, que enumera todas las configuraciones para la aplicación. Configuraciones requeridas indicadas por **letras en negrita**.
@@ -79,19 +79,18 @@ Si elige configurar su aplicación de inmediato y tiene una configuración reque
 
 Cargue una PTE mediante la página **Administración de extensiones**. En la página **Administración de extensiones**, vaya a **Administrar** y elija **Cargar extensión**. En la página **Carga e implementación de una extensión**, especifique el archivo .app para cargar. Para continuar, elija el botón **Aceptar** y luego el botón **Implementar**, lo que iniciará el proceso de implementación del PTE.
 
-Si el PTE contiene cambios de esquema de ruptura, es posible *obligar* una carga del mismo. Para hacer eso, en el **Modo de sincronización de esquema**, elija la opción **Forzar**. Recibirá un cuadro de diálogo de confirmación para aceptar antes de continuar.  
+Si el PTE contiene cambios de esquema de ruptura, es posible *obligar* una carga del mismo. Para hacer eso, en **Modo de sincronización de esquema**, elija la opción **Forzar**. Recibirá un cuadro de diálogo de confirmación para aceptar antes de continuar.  
 
 ## Desinstalar una aplicación
 
 Desinstale una aplicación usando la página **Administración de extensiones**. Para desinstalar una aplicación, selecciónela en la página, luego seleccione la acción **Desinstalar**. Si desinstala una aplicación y cambia de idea, puede volver a instalarla.
 
-Cuando desinstala una aplicación que ha estado utilizando, los datos se conservan por defecto por si vuelve a instalar la aplicación. En su lugar, puede optar por eliminar los datos con la aplicación. Esta operación está controlada por el interruptor **Eliminar datos de extensión**. De forma predeterminada, este interruptor está **desactivada**. Cuando intenta encender el interruptor **Eliminar datos de extensión** para la aplicación, obtendrá un cuadro de diálogo de confirmación, y debe elegir **Sí** para encenderlo. Después de activar el interruptor **Eliminar datos de extensión**, puede desinstalar la aplicación y se le pedirá que vuelva a confirmar que desea desinstalar la aplicación y eliminar los datos.
+De forma predeterminada, cuando desinstala una aplicación que ha estado usando, sus datos no se eliminan. Si está seguro de que no volverá a instalar la aplicación, puede eliminar los datos cuando la desinstale. Para eliminar datos cuando desinstala una aplicación, active la opción **Eliminar datos de extensión**. Aparecerá un cuadro de diálogo de confirmación y debe elegir **Sí** para activarlo. Después de activar el interruptor **Eliminar datos de extensión**, puede desinstalar la aplicación y se le pedirá que vuelva a confirmar que desea desinstalar la aplicación y eliminar los datos.
 
 > [!IMPORTANT]  
-> - Puede haber otras aplicaciones que requieran o dependan de la aplicación que quiera desinstalar para poder funcionar. Estas otras aplicaciones se conocen como *dependientes*. No puede desinstalar una aplicación a menos que sus dependientes también estén desinstalados.
-> - Cuando elige desinstalar una aplicación que tiene uno o más dependientes, obtendrá un cuadro de diálogo de confirmación que enumera los dependientes y le pregunta si desea desinstalar la aplicación y todos sus dependientes. Tendrá que seleccionar **Sí** para continuar.
-> - Si activa el interruptor **Eliminar datos de extensión**, la desinstalación de la aplicación eliminará todos los datos de la aplicación **más** los datos para todas las aplicaciones dependientes. La acción no se puede deshacer.
-> - Se requieren algunas aplicaciones. No puede desinstalarlas de la página **Administración de extensiones**. Si lo intenta, aparece un mensaje de error.  
+> * Puede haber aplicaciones que requieran o dependan de la aplicación que quiera desinstalar. Estas aplicaciones se conocen como *dependientes*. No puede desinstalar una aplicación a menos que también desinstale sus dependientes. Cuando desinstala una aplicación que tiene dependientes, un cuadro de diálogo enumera los dependientes. Para continuar, deberá seleccionar **Sí** para desinstalar la aplicación y sus dependientes.
+> * Si activa el control de alternancia **Eliminar datos de extensión**, la desinstalación de la aplicación eliminará todos los datos de la aplicación *más* los datos para todas las aplicaciones dependientes. La acción no se puede deshacer.
+> * Algunas aplicaciones son obligatorias y no puede eliminarlas en la página **Administración de extensiones**.  
 
 ## Consulte también
 

@@ -68,6 +68,8 @@ En los temas siguientes se describe la funcionalidad local que es única para la
 
 ## Se están investigando los requisitos de legislación futura
 
+* Filtre **No son movimientos imponibles** basada en un estado **Abierto** o **Cerrado** de la entrada **Mayo de 2023**
+* IVA no deducible **Julio de 2023**
 * Requisitos para la facturación electrónica en España en **julio de 2024**
 
 Si está al tanto de cualquier característica reglamentaria futura, envíe una [Alerta de características reglamentarias](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
