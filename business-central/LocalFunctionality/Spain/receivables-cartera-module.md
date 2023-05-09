@@ -1,5 +1,5 @@
 ---
-title: Módulo Docs. cartera a cobrar [ES]
+title: 'Módulo Docs. cartera a cobrar [ES]'
 description: El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas utilizando el Diario Cartera.
 services: project-madeira
 documentationcenter: ''
@@ -8,17 +8,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: a9dc9cc07abb2df528ec88e6db33ebd23f2b04cf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136638"
 ---
-# <a name="receivables-cartera-module-in-the-spanish-version"></a>Módulo Docs. cartera a cobrar en la versión en español
+# Módulo Docs. cartera a cobrar en la versión en español
 El módulo Docs. cartera a cobrar permite administrar las facturas generadas a partir de facturas de ventas. Los documentos se pueden administrar por:  
 
 - Fecha de vencimiento  
@@ -29,7 +23,7 @@ El módulo Docs. cartera a cobrar permite administrar las facturas generadas a p
 
 Mediante el **Diario Cartera** se pueden crear facturas manualmente. También se puede utilizar el módulo Docs. cartera a cobrar para administrar todas las facturas de ventas que la empresa proporciona a una entidad de factoring.  
 
-## <a name="bill-groups"></a>Remesas  
+## Remesas  
 Mediante el módulo Docs. cartera a cobrar, se pueden administrar remesas y remesas de descuento en la divisa local u original.  
 
 Existen diferentes criterios para agrupar documentos en una remesa. Se pueden agrupar documentos girados para el mismo cliente, se pueden agrupar documentos que tengan la misma fecha de vencimiento, documentos girados en la misma plaza, etc. Pueden agruparse en una remesa uno o más documentos a cobrar.  
@@ -55,7 +49,7 @@ Se pueden utilizar remesas para:
 - Factoring sin recurso: la entidad de factoring asume los riesgos asociados con el no-pago.  
 - Factoring con recurso: usted asume los riesgos asociados con el no-pago.  
 
-## <a name="see-also"></a>Consulte también  
+## Consulte también  
  [Módulo Cartera](cartera-module.md)   
  [Módulo Docs. cartera a pagar](payments-cartera-module.md)
 
