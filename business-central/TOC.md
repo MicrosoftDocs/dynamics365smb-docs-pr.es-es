@@ -350,9 +350,11 @@
 #### Configurar IVA
 ##### [Configurar impuesto sobre valor añadido](finance-setup-vat.md)
 ##### [Configuración de grupo contable](finance-posting-groups.md#tax-posting-groups)
+##### [Configurar el IVA no deducible](finance-setup-nondeductible-vat.md)
 ##### [Configurar impuesto sobre valor añadido no realizado](finance-setup-unrealized-vat.md)
 ##### [Configurar una declaración de IVA](finance-how-setup-vat-statement.md)
 #### [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)
+#### [Usar IVA no deducible](finance-how-use-non-deductible-vat.md)
 #### [Enviar informes de IVA a las autoridades fiscales](finance-how-report-vat.md)
 #### [Administrar cambios del tipo de IVA](finance-how-use-vat-rate-change-tool.md)
 #### [Validar el CIF/NIF](finance-how-validate-vat-registration-number.md)
