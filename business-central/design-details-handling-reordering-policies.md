@@ -338,13 +338,15 @@ A diferencia de la mayoría de conjuntos de suministro-demanda, el sistema ha pl
 
 La política Lote por lote es la más flexible porque el sistema solo reacciona a la demanda real. Actúa sobre la demanda anticipada de los pedidos abiertos y previstos y luego liquida la cantidad del pedido en función de la demanda. La directiva está pensada para los productos donde el inventario se puede aceptar pero se debe evitar.  
 
-De alguna manera, la política Lote por lote es similar a la política Pedido, pero tiene un enfoque genérico para los artículos. Puede aceptar cantidades en el inventario y agrupa la oferta y la demanda en los intervalos de tiempo que defina.  
+De alguna manera, la política Lote por lote es similar a la política Pedido. Puede aceptar cantidades en el inventario y agrupa la oferta y la demanda en los intervalos de tiempo que defina.
 
 El intervalo de tiempo se especifica en el campo **Cubo de tiempo** en la página **Tarjeta de artículo**. El tamaño mínimo del período de tiempo es un día, porque es la unidad de medida de tiempo más pequeña en eventos de oferta y demanda en [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 El ciclo también establece límites con respecto a cuándo se debe reprogramar un pedido de suministro para cubrir una demanda determinada. El aprovisionamiento dentro del ciclo se vuelve a programar dentro o fuera para cubrir la demanda. El suministro anterior generará un inventario adicional y debe cancelarlo. Para el suministro posterior, cree un nuevo pedido de suministro.  
 
-Con esta política, puede especificar un stock de seguridad para compensar los cambios en la oferta o para satisfacer una demanda repentina.  
+Con esta política, puede especificar un stock de seguridad para compensar los cambios en la oferta o para satisfacer una demanda repentina. La política de lote por lote también puede incluir un período amortiguador y una cantidad de amortiguación para reducir la programación de pedidos.  
+
+Junto con el campo **Periodo de reprogramación**, el campo **Periodo de acumulación de lotes** contribuye para definir el ciclo de reaprovisionamiento. Desde la fecha de la primera demanda, todas las demandas se acumulan en el siguiente periodo de acumulación de lotes en un pedido de suministro en la fecha de la primera demanda. Demanda que está fuera del periodo de acumulación del lote no queda cubierta por los pedidos de suministros.
 
 Debido a que la cantidad de la orden de suministro se basa en la demanda real, puede tener sentido usar los modificadores de orden:
 

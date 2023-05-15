@@ -76,7 +76,7 @@ El mantenimiento es también más sencillo. Cuando agrega un permiso del sistema
   |**Reducir a indirecto**|Cambie el nivel de acceso a Indirecto si algún conjunto de permisos otorga acceso Directo al objeto. Por ejemplo, elija esta opción si el conjunto de permisos otorga acceso directo a las entradas del L/M, pero no desea que los usuarios tengan acceso completo a las entradas.|
   
   > [!NOTE]
-  > Si un permiso está incluido y excluido, el permiso será excluido.
+  > Si un permiso está en un conjunto de permisos incluido y también está en un conjunto de permisos excluido, el permiso se excluirá.
 
 6. Use los campos **Tipo de objeto** e **ID de objeto** para especificar el objeto al que está dando acceso.
 
