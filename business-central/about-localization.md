@@ -53,9 +53,9 @@ Para conocer la funcionalidad local de cada país o región, elija el vínculo r
 [!INCLUDE[prod_short](includes/prod_short.md)] también está disponible en otros mercados mediante aplicaciones de localización. Si un socio de Microsoft ha desarrollado una aplicación de localización para su país o región, puede encontrarla en [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## Consulte también
-
+[Crear entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
-[Conformidad](compliance/compliance-overview.md)  
+[Cumplimiento](compliance/compliance-overview.md)  
 [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Disponibilidad internacional de Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Desarrollo de una solución de localización](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

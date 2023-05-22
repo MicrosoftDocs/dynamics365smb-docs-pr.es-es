@@ -2,13 +2,13 @@
 title: Compartir registros de Business Central en Microsoft Teams
 description: Aprenda a usar la aplicación Business Central para Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.service: dynamics365-business-central
+ms.reviewer: jswymer
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
-ms.date: 09/22/2022
+ms.date: 16/18/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Compartir registros y enlaces de página de Business Central en Microsoft Teams
@@ -68,17 +68,16 @@ Con la aplicación Business Central para Teams, puede copiar un vínculo de cual
 
     > [!TIP]
     > Si recibe un mensaje como: *Business Central quiere mostrar una vista previa de este vínculo.*, significa que no tiene instalada la aplicación Business Central para Teams. Para instalar la aplicación, seleccione **Mostrar vista previa** y siga las instrucciones.
-6. La primera vez que pegue un vínculo en una conversación, se le pedirá que inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)] y dar su consentimiento para que la aplicación recupere datos. Simplemente siga las instrucciones en pantalla.
 
     > [!NOTE]
-    > Solo tiene que realizar este paso una vez.
-7. Espere un momento mientras se genera una tarjeta en el cuadro de mensajes.
-8. Cuando aparezca la tarjeta, revise el contenido de la tarjeta detenidamente en busca de información confidencial antes de enviar el mensaje. Este paso es importante porque, una vez que envía el mensaje, todos los participantes de la conversación pueden ver la tarjeta.
-9. Si la tarjeta tiene buen aspecto, seleccione **Enviar** para enviarla a la conversación.
+    > En función de la versión de Business Central, la primera vez que pegue un vínculo en una conversación, se le puede pedir que inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)] y dé su consentimiento para que la aplicación recupere datos. Simplemente siga las instrucciones en pantalla. Solo tendrá que hacer este paso una vez.
+6. Espere un momento mientras se genera una tarjeta en el cuadro de mensajes.
+7. Cuando aparezca la tarjeta, revise el contenido de la tarjeta detenidamente en busca de información confidencial antes de enviar el mensaje. Este paso es importante porque, una vez que envía el mensaje, todos los participantes de la conversación pueden ver la tarjeta.
+8. Si la tarjeta tiene buen aspecto, seleccione **Enviar** para enviarla a la conversación.
 
     > [!TIP]
     > Después de que aparezca la tarjeta y antes de seleccionar **Enviar**, puede eliminar la URL pegada si lo desea.
-10. Para ver más detalles o realizar cambios en el registro mostrado en la tarjeta, seleccione **Detalles**. Para obtener más información, consulte la sección siguiente.
+9. Para ver más detalles o realizar cambios en el registro mostrado en la tarjeta, seleccione **Detalles**. Para obtener más información, consulte la sección siguiente.
 
 ### Ver detalles de tarjeta
 

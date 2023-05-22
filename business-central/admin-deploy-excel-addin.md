@@ -14,7 +14,7 @@ ms.author: jswymer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] incluye un complemento para Excel que permite a los usuarios seleccionar una acción **Editar en Excel** en determinadas páginas para abrir los datos en una hoja de cálculo de Excel. Esta acción es diferente a la acción **Abrir en Excel** porque permite a los usuarios realizar cambios en Excel y luego publicar los cambios en [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## Panorama
+## Información general
 
 ### Acerca del complemento
 

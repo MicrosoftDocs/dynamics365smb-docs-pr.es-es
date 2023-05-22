@@ -106,7 +106,7 @@ Hay dos formas de dar consentimiento como administrador:
 
 - La forma más fácil es usar Copilot. La primera vez que utilice Copilot como administrador, se le pedirá que revise los términos y condiciones y que acepte o no. Para aprender a usar Copilot, vaya a [Agregar texto de marketing a los artículos](item-marketing-text.md).  
 
-- La otra forma es usar la página **Estado de avisos de privacidad** en Business Central y aceptar la integración de **Azure OpenAI** para todos los usuarios. Para obtener más información, vaya a [Consentimiento de los términos y condiciones](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- La otra forma es usar la página **Estado de avisos de privacidad** en Business Central y aceptar la integración de **Azure OpenAI** para todos los usuarios. Para obtener más información, vaya a [Consentimiento de los términos y condiciones](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## Consulte también .
 

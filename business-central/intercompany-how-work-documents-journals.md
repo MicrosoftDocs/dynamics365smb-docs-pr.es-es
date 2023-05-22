@@ -7,12 +7,14 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
-ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
 # Usar documentos y diarios de empresas vinculadas
 
-Utilice documentos o diarios de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas. Al registrar un documento o una línea de diario de empresas vinculadas en su empresa, el programa crea un documento o una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas. Transfiere la línea de su bandeja de salida a su socio. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
+Utilice documentos o diarios de empresas vinculadas para registrar transacciones con empresas vinculadas asociadas. Puede contabilizar transacciones en cuentas de mayor y, si ha configurado cuentas bancarias de empresas vinculadas, también puede contabilizar transacciones de banco a banco. Para obtener más información sobre cómo configurar cuentas bancarias de empresas vinculadas, vaya a [Especifique las cuentas bancarias que se utilizarán para los socios de empresas vinculadas](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
+
+Al registrar un documento o una línea de diario de empresas vinculadas en su empresa, el programa crea un documento o una línea de diario correspondiente en la bandeja de salida entre empresas vinculadas. Transfiere la línea de su bandeja de salida a su socio. Después, su socio podrá registrar la correspondiente transacción en su empresa, sin tener que volver a introducir los datos.
 
 Para los documentos de ventas y compras, el código de socio de empresas vinculadas del cliente o del vendedor de empresas vinculadas garantiza que todos los pedidos y facturas generados en relación con las transacciones centre socios producirán documentos correspondientes en las empresas asociadas. Las cuentas de la empresa cuadran correctamente.
 

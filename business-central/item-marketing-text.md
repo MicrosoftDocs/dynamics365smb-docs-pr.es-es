@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Agregar texto de marketing para productos
 
-Para cualquier producto registrado en Business Central, puede escribir *texto de marketing* sobre el producto. Aunque el texto de marketing es una especie de descripción, es diferente del campo **Descripción** del producto. El campo **Descripción** se utiliza normalmente como un nombre visible conciso para identificar rápidamente el producto. El texto de marketing, por otro lado, es un texto más rico y descriptivo. Su propósito es agregar contenido promocional y de marketing, también conocido como *copia*. Este texto se puede publicar con el producto si se publica en una tienda web, como Shopify.
+Para cualquier producto registrado en Business Central, puede escribir *texto de marketing* sobre el producto. Aunque el texto de marketing es una especie de descripción, es diferente que el campo **Descripción** del producto. El campo **Descripción** se utiliza normalmente como un nombre visible conciso para identificar rápidamente el producto. El texto de marketing, por otro lado, es un texto más rico y descriptivo. Su propósito es agregar contenido promocional y de marketing, también conocido como *copia*. Este texto se puede publicar con el producto si se publica en una tienda web, como Shopify.
 
 Hay dos formas de crear el texto de marketing. La forma más fácil de comenzar es usar Copilot, que sugiere texto generado por IA. La otra forma es empezar de cero. 
 
@@ -39,7 +39,7 @@ Copilot está diseñado para ahorrarle tiempo y ayudarlo a escribir texto creati
 
 ### Crear un primer borrador con Copilot
 
-1. En Business Central, abra el producto que desea modificar. Para abrir un elemento, siga los pasos siguientes:
+1. En Business Central, abra el producto que desea modificar. Para abrir un elemento, haga lo siguiente:
 
    1. En la esquina superior derecha, seleccione la ![bombilla que abre la característica Tell Me 22.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Productos**, y, a continuación, elija el enlace relacionado para mostrar una lista de productos disponibles.
    2. Para abrir el elemento, haga doble clic en él o seleccione su valor en la columna **N.º** .
@@ -50,14 +50,14 @@ Copilot está diseñado para ahorrarle tiempo y ayudarlo a escribir texto creati
 
 2. Desde la ficha del producto, hay dos formas de empezar a escribir texto de marketing con Copilot:
 
-   - Una forma es usar el panel **Texto de marketing** en el Cuadro informativo en el lado derecho de la página. Siga estos pasos:
+   - Use el panel **Texto de marketing** en el Cuadro informativo en el lado derecho de la página. Siga estos pasos:
 
-      1. En el panel **Texto de marketing** , seleccione **Crear con Copilot**.
+     1. En el panel **Texto de marketing** , seleccione **Crear con Copilot**.
 
-         El texto sugerido aparece en el panel.
-      2. Si desea otra sugerencia, seleccione **Crear con Copilot** nuevamente. Si no le gusta una sugerencia, seleccione **Descartar** para borrar el panel.
+        El texto sugerido aparece en el panel.
+     2. Si desea otra sugerencia, seleccione **Crear con Copilot** nuevamente. Si no le gusta una sugerencia, seleccione **Descartar** para borrar el panel.
 
-         Puede realizar este paso una y otra vez hasta que obtenga una sugerencia que crea que es un buen punto de partida. Pero tenga en cuenta que la sugerencia actual se sobrescribirá y no necesariamente podrá recuperarla. Entonces, si le gusta la sugerencia actual, vaya al siguiente paso. Todavía tendrá la oportunidad de obtener más sugerencias e incluso mejorar las sugerencias, si lo desea más adelante.
+        Puede realizar este paso una y otra vez hasta que obtenga una sugerencia que sea un buen punto de partida. Pero tenga en cuenta que la sugerencia actual se sobrescribirá y no podrá recuperarla. Entonces, si le gusta la sugerencia actual, vaya al siguiente paso. Todavía tendrá la oportunidad más tarde de obtener más sugerencias e incluso mejorar las sugerencias, si lo desea.
       3. Seleccione **Revisar y guardar la sugerencia** o **Editar** para revisar, editar y guardar el texto.
 
          Este paso lo lleva a la página **Crear con Copilot**. Pase a la siguiente sección.
@@ -65,7 +65,7 @@ Copilot está diseñado para ahorrarle tiempo y ayudarlo a escribir texto creati
          > [!NOTE]
          > El texto no se guardará hasta que realice este paso.
 
-   - Otra forma es seleccionar la acción **Texto de marketing** en la parte superior de la página de la ficha del producto para ir directamente a la página **Crear con Copilot**.
+   - Seleccione la acción **Texto de marketing** en la parte superior de la página de la ficha del producto para ir directamente a la página **Crear con Copilot**.
 
      En la página **Crear con Copilot**, seleccione **Crear con Copilot** para obtener la primera sugerencia. Luego puede obtener más sugerencias, intentar mejorar las sugerencias que recibe, editar texto y más. Vaya a [Revisar, editar y guardar](#review-edit-and-save-text) para obtener más información.
 
@@ -104,7 +104,7 @@ Hay algunos pasos que puede seguir para mejorar las sugerencias de texto y modif
    |-|-|
    |Atributos que se incluirán|Utilice esta opción para basar las sugerencias, en parte, en los atributos asignados al producto. Elija los atributos que mejor se alineen con las características que desea promocionar. Cuantos más atributos relevantes incluya, más rico será el resultado. Si cree que le faltan algunos atributos clave, agregue más. Para más información sobre los atributos, vaya a [Trabajar con atributos de productos](inventory-how-work-item-attributes.md) |
    |Enfatizar una calidad|Use esta opción para elegir de una lista de cualidades predefinidas que desea enfatizar en el texto. Elija una calidad que mejor se alinee con el tipo de producto sobre el que está escribiendo. Las cualidades no se corresponden directamente con los atributos, la descripción o la categoría del producto. Por ejemplo, **Calidad** podría ser una buena opción tanto para una bicicleta como para un escritorio, mientras que **Velocidad** sería adecuado para una bicicleta., pero no un escritorio.|
-   |Tono de voz|Utilice esta opción para influir en qué tipo de palabras, frases y puntuación se utilizan para atraer al público objetivo. Puede elegir entre varios tonos de voz predefinidos, que van desde **Formal** (lo que da como resultado un tono más comercial de las opciones) hasta **Creativo** (lo que resulta en un tono más informal de las elecciones). |
+   |Tono de voz|Utilice esta opción para influir en qué tipo de palabras, frases y puntuación se utilizan para atraer al público objetivo. Puede elegir entre varios tonos de voz predefinidos, que van desde **Formal** (lo que da como resultado un tono comercial) hasta **Creativo** (lo que resulta en un tono más informal). |
    |Formato y longitud|Utilice esta opción para controlar la estructura general del texto, que consta de tres partes, cubiertas por cuatro opciones diferentes: <ul><li>**Eslogan**: frase pegadiza u oración breve que identifica el producto o la marca.</li><li>**Párrafo**: un solo párrafo de texto fluido y detallado, que consta de varias oraciones completas.</li><li>**Eslogan + Párrafo**: un eslogan seguido de un párrafo</li><li>**Breve**: una oración introductoria, similar a un eslogan, seguida de una lista con viñetas de puntos clave de interés.</li></ul> |
 
 2. Mejore el campo **Descripción** en la ficha del producto.
@@ -122,9 +122,9 @@ Hay algunos pasos que puede seguir para mejorar las sugerencias de texto y modif
     1. En la esquina superior derecha, seleccione la ![bombilla que abre la característica Tell Me 22.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Productos**, y, a continuación, elija el enlace relacionado para mostrar una lista de productos disponibles.
     2. Para abrir el elemento, haga doble clic en él o seleccione su número en la columna **N.º** .
 
-2. Realice uno de los siguientes pasos:
+2. Realice una de las siguientes acciones:
 
-   - En el plane **Texto de marketing** del cuadro informativo en la parte derecha de la página, seleccione **Editar**.
+   - En el panel **Texto de marketing** del cuadro informativo en la parte derecha de la página, seleccione **Editar**.
    - Seleccione la acción **Marketing Text**.
 3. Realice cambios en el texto directamente en el cuadro **Texto de marketing**. Use la barra de herramientas en la parte inferior del cuadro para dar formato y estilo al texto, agregar enlaces y más.
 4. Seleccione **DE ACUERDO** cuando haya terminado para guardar el texto.

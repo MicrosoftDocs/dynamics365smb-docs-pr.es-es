@@ -1,6 +1,6 @@
 ---
 title: Configure el texto de marketing de artículos basado en IA (vista previa) con Copilot
-description: Este artículo explica cómo obtener una versión de prueba de Copilot de Business Central y habilitar Copilot en un entorno
+description: Este artículo explica cómo obtener una versión de prueba de Copilot de Business Central y habilitar Copilot en un entorno.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -24,10 +24,10 @@ Si no se cumple alguno de estos requisitos, la característica no estará dispon
 
 Está utilizando una [versión preliminar](ai-preview-getstarted.md) de Business Central que está habilitada para Copilot. La activación de Copilot la realiza un administrador. Para obtener más información, vaya a [Configurar texto de marketing de artículos impulsado por IA con Copilot](enable-ai.md).
 
-## Habilite o deshabilite la característica "Crear descripciones de productos impulsadas por IA con Copilot"
+## Habilite o deshabilite Crear descripciones de productos basadas en IA con Copilot
 
 1. En Business Central, busque y abra la página **Gestión de características**.
-2. Establezca la columna **Habilitada para** para la característica **Vista previa de características: Crear descripciones de productos potenciadas por IA con Copilot** a **Todos los usuarios** para activar la característica o **Ninguno** para deshabilitarla.
+2. Establezca la columna **Habilitada para** para **Vista previa de características: Crear descripciones de productos potenciadas por IA con Copilot** a **Todos los usuarios** para activar la característica o **Ninguno** para deshabilitarla.
 
    Para más información sobre la gestión de características en general, vaya a [Gestión de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
 

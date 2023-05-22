@@ -232,13 +232,13 @@ Si tiene problemas para usar el protocolo SMTP para enviar correos electrónicos
 
 ### Conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de su aplicación
 
-Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](includes/prod_short.md)], utilice la guía de configuración asistida **Registro de AAD para aplicaciones de correo electrónico** para conectar [!INCLUDE[prod_short](includes/prod_short.md)].
+Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](includes/prod_short.md)], utilice página **Registro de AAD para aplicaciones de correo electrónico** para conectar [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. En [!INCLUDE[prod_short](includes/prod_short.md)], elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registro de AAD para aplicaciones de correo electrónico** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Alternativamente, si se conecta por primera vez, puede ejecutar la guía de configuración asistida **Configurar correo electrónico**. La guía requerirá la información para conectarse al registro de su aplicación. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Alternativamente, si se conecta por primera vez, puede ejecutar la guía de configuración asistida **Configurar correo electrónico**. En este caso, la guía también incluirá la página de registro de AAD de la aplicación de correo electrónico para agregar la información para conectarse al registro de su aplicación. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 
