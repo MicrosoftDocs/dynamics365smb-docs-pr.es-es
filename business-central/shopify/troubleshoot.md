@@ -64,7 +64,7 @@ Esta función solo se aplica a las sincronizaciones de Shopify a [!INCLUDE[prod_
 
 ## Solicitar el token de acceso
 
-Si [!INCLUDE[prod_short](../includes/prod_short.md)] no puede conectarse a su cuenta de Shopify, intente solicitar el token de acceso de Shopify. Es posible que necesite el token si hubo cambios en las claves de seguridad o permisos requeridos (ámbitos).
+Si [!INCLUDE[prod_short](../includes/prod_short.md)] no puede conectarse a su cuenta de Shopify, intente solicitar el token de acceso de Shopify. Es posible que necesite solicitar un nuevo token si hubo cambios en las claves de seguridad o permisos requeridos (ámbitos de aplicación).
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego elija el enlace relacionado.
 2. Seleccione la tienda para la que desea conseguir el token de acceoso para abrir la página **Tarjeta de tienda de Shopify**.
@@ -73,7 +73,7 @@ Si [!INCLUDE[prod_short](../includes/prod_short.md)] no puede conectarse a su cu
 
 Se activará el conmutador de alternancia **Tiene clave de acceso**.
 
-### Verifique y habilite los permisos para realizar solicitudes HTTP en un entorno que no sea de producción
+## Verifique y habilite los permisos para realizar solicitudes HTTP en un entorno que no sea de producción
 
 Para funcionar correctamente, la extensión del conector de Shopify requiere permiso para realizar solicitudes HTTP. Al probar en espacios aislados, las solicitudes HTTP están prohibidas para todas las extensiones.
 
@@ -125,7 +125,7 @@ Recuerde compartir la información de la pila de llamadas AL con el proveedor de
 
 ### Error: Gen. Grupo de contabilización Bus. debe tener un valor en Cliente: 'TIENDA DE SHOPIFY'. No puede estar vacío ni ser cero
 
-Rellene el campo **Código de plantilla de cliente** en la ventana **Tarjeta de tienda de Shopify** con la plantilla que tiene **Grupo contable negocio**. La plantilla de cliente se utiliza para crear clientes y calcular precios de venta en documentos de ventas.
+Rellene el campo **Código de plantilla de cliente** de la página **Tarjeta de tienda de Shopify**, elija la plantilla que tiene **Grupo contable negocio**. La plantilla de cliente se utiliza para crear clientes y calcular precios de venta en documentos de ventas.
 
 ### Error: la importación de datos a su tienda de Shopify no está habilitada. Vaya a la tarjeta de la tienda para habilitarla.
 
@@ -134,6 +134,10 @@ En la página **Tarjeta de tienda de Shopify**, active la opción **Permitir la 
 ### Error: Oauth error invalid_request: no se pudo encontrar la aplicación API de Shopify con api_key
 
 Parece que usa [Insertar aplicación](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), donde la URL del cliente tiene el formato: `https://[application name].bc.dynamics.com`. El conector Shopify no funciona para las aplicaciones integradas. Para obtener más información, vaya a [¿Qué productos de Microsoft tienen disponible el conector Shopify?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+
+### Error: error interno. Parece que hemos tenido un problema. ID de solicitud: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Póngase en contacto con el soporte técnico de Shopify dentro de los 7 días de haber experimentado este error y proporcione la identificación de la solicitud. Para obtener más información, vaya a [Opciones de soporte técnico para Shopify](shopify-faq.md#shopify).
 
 ## Consulte también .
 

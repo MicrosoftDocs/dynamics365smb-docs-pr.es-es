@@ -13,9 +13,9 @@ ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 
 # Prepararse para sincronizar datos maestros
 
-Cuando tiene dos o más empresas que usan al menos algunos de los mismos datos maestros, puede ahorrar tiempo al introducir datos sincronizándolos en las empresas. La sincronización de datos es particularmente útil cuando está configurando nuevas empresas filiales.
+Cuando dos o más empresas utilizan algunos de los mismos datos maestros, puede sincronizar los datos en lugar de agregarlos manualmente en cada empresa. Por ejemplo, la sincronización de datos es particularmente útil cuando está configurando nuevas empresas filiales.
 
-Los datos maestros incluyen configuraciones e información no transaccional sobre entidades comerciales, como clientes, proveedores, productos y empleados. Los datos proporcionan contexto para las transacciones comerciales. Los siguientes son algunos ejemplos de datos maestros para un cliente:
+Los datos maestros incluyen configuraciones e información no transaccional sobre entidades comerciales. Por ejemplo, clientes, proveedores, artículos y empleados. Los datos proporcionan contexto para las transacciones comerciales. Los siguientes son algunos ejemplos de datos maestros para un cliente:
 
 * Name
 * Número de identificación
@@ -23,7 +23,7 @@ Los datos maestros incluyen configuraciones e información no transaccional sobr
 * Condiciones de pago
 * Límite de crédito
 
-Establezca la sincronización en las empresas filiales. Usando un modelo de extracción, las filiales extraen los datos de la empresa de origen que necesitan para hacer negocios con ellos. Después de configurar la sincronización y sincronizar los datos por primera vez, ya está todo listo. Los registros de las tablas se acoplan y las entradas de la cola de trabajos comienzan a actualizar inmediatamente los datos en las filiales cuando alguien realiza un cambio en la empresa de origen.
+Establezca la sincronización en las empresas filiales. Usando un modelo de extracción, las filiales extraen los datos de la empresa de origen que necesitan para hacer negocios con ellos. Después de configurar la sincronización y sincronizar los datos por primera vez, ya está todo listo. Los movimientos de cola de proyectos actualizan registros emparejados en las filiales cuando alguien cambia datos en la empresa de origen.
 
 ## Solo sincronización unidireccional
 
@@ -37,7 +37,10 @@ Puede sincronizar datos solo de la empresa de origen a las empresas filiales en 
 Estos son los requisitos para configurar la sincronización.
 
 * Todas las empresas deben estar en el mismo entorno.
-* El usuario que configura la filial debe tener el conjunto de permisos **Adm. de datos maestros: vista**. El conjunto de permisos está disponible en las licencias Premium y Essential. La licencia de miembro del equipo le permite a alguien acceder pero no modificar registros, por lo que no se puede usar para configurar la sincronización.
+* El usuario que configura la filial debe tener la licencia **Essential**, **Premium** o **Basic ISV**.
+
+> [!NOTE]
+> Las licencias de miembro del equipo o administrador interno le permiten acceder pero no modificar registros, por lo que no se pueden usar para configurar la sincronización. La licencia de administrador delegado no le permite programar tareas en segundo plano, por lo que no podrá completar la configuración.
 
 ## Especificar la empresa de origen
 
@@ -52,7 +55,7 @@ El siguiente paso es habilitar tablas y campos para la sincronización.
 
 ## Habilitar o deshabilitar tablas y campos
 
-Para ahorrar tiempo, [!INCLUDE [prod_short](includes/prod_short.md)] proporciona una lista de tablas que las empresas suelen sincronizar. De manera predeterminada, estas tablas están habilitadas para la sincronización, pero puede modificarlas, deshabilitarlas o eliminarlas como mejor le parezca. Para ahorrar más tiempo, algunos campos de las tablas ya están deshabilitados, porque probablemente no sean relevantes para la filial.
+Para ahorrar tiempo, [!INCLUDE [prod_short](includes/prod_short.md)] proporciona una lista de tablas que las empresas suelen sincronizar. De forma predeterminada, estas tablas están habilitadas para sincronización. Puede modificarlas, deshabilitarlas o eliminarlas como mejor le parezca. Para ahorrar tiempo, algunos campos de las tablas ya están deshabilitados, porque probablemente no sean relevantes para la filial.
 
 > [!NOTE]
 > Si una o más extensiones están instaladas en la empresa de origen, cuando una filial configura la sincronización, la página **Tablas de sincronización** incluye tablas de las extensiones y puede acceder a sus campos. Sin embargo, si la empresa de origen agrega una extensión después de configurar la sincronización, cada filial debe agregar las tablas manualmente. Para obtener más información sobre cómo agregar tablas, vaya a [Agregar o eliminar tablas de la lista de tablas de sincronización](#add-or-delete-tables-from-the-synchronization-tables-list). Para obtener más información sobre cómo extender [!INCLUDE [prod_short](includes/prod_short.md)], vaya a [Desarrollo de extensiones en Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -85,8 +88,11 @@ Puede especificar los datos para sincronizar para una tabla haciendo coincidir l
 
 Cuando esté listo, en la página **Configuración de administración de datos maestros** , seleccione la acción **Iniciar sincronización inicial**. En la página **Sincronización inicial de datos maestros** elija el tipo de sincronización que desea usar para cada tabla.
 
-* Si ya tiene registros tanto en la empresa de origen como en las filiales, y desea hacer coincidir los registros existentes, elija la acción **Usar emparejamiento basado en coincidencias**. [!INCLUDE [prod_short](includes/prod_short.md)] hará coincidir registros de la empresa filial con registros de la empresa de origen, en función de los criterios de emparejamiento que defina. Para diversas tablas predeterminadas, [!INCLUDE [prod_short](includes/prod_short.md)] ya ha hecho coincidir los registros existentes mediante el uso de su clave principal, pero puede cambiar eso si lo desea. También puede permitir que la sincronización cree nuevos registros en la filial para registros en la empresa de origen que la filial no tiene. Para obtener más información sobre coincidencias, vaya a [Usar emparejamiento basado en coincidencias](#use-match-based-coupling).
-* Si elije **Ejecutar sincronización completa**, la sincronización creará nuevos registros para todos los registros de la empresa de origen que aún no están emparejados. Por lo general, esta opción es útil si la filial no tiene ningún dato en la tabla, o si solo desea agregar registros de la empresa de origen, sin coincidencias.  
+* Si ya tiene registros tanto en la empresa de origen como en las filiales, y desea hacer coincidir los registros existentes, elija la acción **Usar emparejamiento basado en coincidencias**. [!INCLUDE [prod_short](includes/prod_short.md)] hace coincidir los registros de la empresa filial con los registros de la empresa de origen. Las coincidencias se basan en los criterios de coincidencia que defina. Para diversas tablas predeterminadas, [!INCLUDE [prod_short](includes/prod_short.md)] ya ha hecho coincidir los registros existentes mediante el uso de su clave principal, pero puede cambiar eso si lo desea. También puede permitir que la sincronización cree nuevos registros en la filial para registros en la empresa de origen que la filial no tiene. Para obtener más información sobre coincidencias, vaya a [Usar emparejamiento basado en coincidencias](#use-match-based-coupling).
+* Si elige **Ejecutar sincronización completa**, la sincronización crea nuevos registros para todos los registros de la empresa de origen que aún no están emparejados. Por ejemplo, esta opción es útil en los siguientes escenarios:
+
+    * La filial no tiene datos en la tabla.
+    * Desea agregar registros de la empresa de origen sin coincidencias.  
 
 Después de elegir la opción a usar, elija la acción **Iniciar todo** para iniciar la sincronización.
 
@@ -118,7 +124,7 @@ Para acceder a detalles, como el número de registros que se insertan o modifica
 
 ## Use exportar e importar para compartir una configuración de sincronización
 
-Si está configurando varias filiales que utilizarán la misma configuración de sincronización o una similar, puede ahorrar tiempo configurando una empresa filial y luego exportando su configuración a un archivo .xml. El archivo contiene la configuración completa, incluidas las asignaciones de tablas y campos y los criterios de filtro. A continuación, puede importar el archivo a la siguiente filial. Para importar o exportar una configuración, en la página **Configuración de administración de datos maestros**, use las acciones **Importar** o **Exportar**.
+Si está configurando varias filiales que usan la misma configuración de sincronización o una similar, hay un ahorro de tiempo. Configure una empresa filial y luego exporte su configuración a un archivo .xml. El archivo contiene la configuración completa, incluidas las asignaciones de tablas y campos y los criterios de filtro. A continuación, puede importar el archivo a la siguiente filial. Para importar o exportar una configuración, en la página **Configuración de administración de datos maestros**, use las acciones **Importar** o **Exportar**.
 
 ## Consulte también
 

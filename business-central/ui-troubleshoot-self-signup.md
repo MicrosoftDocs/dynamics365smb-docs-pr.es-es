@@ -39,7 +39,7 @@ Para obtener una descripción general de los mercados que se admiten actualmente
 
 [Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md)  
 [Preguntas más frecuentes de la prueba de Dynamics 365 Business Central](trial-faq.md)  
-[[!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[[!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funcionalidad local](about-localization.md)  
 [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

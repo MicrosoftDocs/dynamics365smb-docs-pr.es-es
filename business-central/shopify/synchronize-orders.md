@@ -1,13 +1,13 @@
 ---
 title: Sincronizar y cumplir con los pedidos de ventas
 description: Configure y ejecute la importación y el procesamiento de pedidos de ventas desde Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Sincronizar y cumplir con los pedidos de ventas
@@ -32,7 +32,20 @@ Si desea liberar automáticamente un documento de ventas, active la opción **Li
 
 El documento de ventas en [!INCLUDE[prod_short](../includes/prod_short.md)] se vincula al pedido de Shopify y puede agregar un campo que aún no se muestra en la página. Para obtener más información sobre cómo agregar un campo, vaya a [Para comenzar a personalizar una página a través del banner **Personalizar**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner) . Si selecciona el campo **N.º de pedido de Shopify en línea de documento**, entonces esta información se repite en las líneas de ventas de tipo **Comentario**.
 
-En el campo **Origen del área fiscal**, defina la prioridad sobre cómo seleccionar el código de área fiscal o el grupo contable comercial de IVA en función de la dirección. El pedido importado de Shopify contiene información sobre los impuestos, pero estos se recalculan cuando se crea el documento de venta, por lo que es importante que la configuración del IVA/impuestos sea correcta en [!INCLUDE[prod_short](../includes/prod_short.md)]. Para obtener más información acerca de los impuestos, consulte [Configurar impuestos para la conexión Shopify](setup-taxes.md).
+En el campo **Prioridad de área fiscal**, defina la prioridad sobre cómo seleccionar el código de área fiscal en direcciones en pedidos. El pedido importado de Shopify contiene información sobre impuestos. Los impuestos se vuelven a calcular cuando crea el documento de ventas, por lo que es importante que la configuración de IVA/impuestos sea correcta en [!INCLUDE[prod_short](../includes/prod_short.md)]. Para obtener más información acerca de los impuestos, consulte [Configurar impuestos para la conexión Shopify](setup-taxes.md).
+
+Especifique cómo procesará las devoluciones y los reembolsos:
+
+* **En blanco** especifica que no importa ni procesa devoluciones y reembolsos.
+* **Importar solo** especifica que importa información, pero creará manualmente la nota de abono correspondiente.
+* **Creación automática nota abono** especifica que usted importa información y [!INCLUDE[prod_short](../includes/prod_short.md)] crea automáticamente las notas de abono. Esta opción requiere que active la opción **Crear pedido de venta automáticamente**.
+
+Especifique una ubicación para devoluciones y cuentas de contabilidad para reembolsos de artículos y otros reembolsos.
+
+* **Productos sin stock de reembolso**: especifica un n.º de cuenta para artículos en los que no desea tener una corrección de inventario.
+* **Cuenta de reembolso**: especifica un número de cuenta de contabilidad para la diferencia entre el importe reembolsado total y el importe total de los productos.
+
+Obtenga más información en [Devoluciones y reembolsos](synchronize-orders.md#returns-and-refunds)
 
 ### Asignación de método de envío
 
@@ -118,7 +131,7 @@ Si su configuración impide crear un cliente automáticamente y no se puede enco
 
 La función *Importar pedido de Shopify* intenta seleccionar los clientes en el siguiente orden:
 
-1. Si el campo **N.º de cliente genérico** se define en la **Plantilla de cliente de Shopify** para el país correspondiente, se usa el **N.º de cliente genérico** independientemente de los ajustes de los campos **Importar cliente desde Shopify** y **Tipo de asignación de cliente**. Más información en [Plantilla de cliente por país](synchronize-customers.md#customer-template-per-country).
+1. Si el campo **N.º de cliente genérico** se define en la **Plantilla de cliente de Shopify** para el **Cód. país/región dirección de envío**, se usa el **N.º de cliente genérico** independientemente de los ajustes de los campos **Importar cliente desde Shopify** y **Tipo de asignación de cliente**. Más información en [Plantilla de cliente por país](synchronize-customers.md#customer-template-per-country).
 2. Si **Importar clientes desde Shopify** está establecido en *Ninguno* y el **N.º de cliente genérico** se define en la página **Shopify Tarjeta de tienda**, luego el **N.º de cliente genérico** .
 
 Los próximos pasos dependen del **Tipo de asignación de cliente**.
@@ -129,6 +142,27 @@ Los próximos pasos dependen del **Tipo de asignación de cliente**.
 
 > [!NOTE]  
 > El conector utiliza la información de la dirección de facturación y crea el cliente de facturación en [!INCLUDE[prod_short](../includes/prod_short.md)]. El cliente de venta es el mismo que el cliente de facturación.
+
+### Diferentes reglas de procesamiento para pedidos
+
+Es posible que desee procesar los pedidos de manera diferente en función de una regla. Por ejemplo, los pedidos de un canal de ventas específico, como POS, deben usar el cliente predeterminado, pero usted desea que su tienda en línea tenga información real sobre el cliente.
+
+Una forma de abordar este requisito es crear otra tarjeta de tienda de Shopify y usar filtros en la página de solicitud **Sincronizar pedidos desde Shopify**.
+
+Ejemplo: tiene una tienda en línea y un POS de Shopify. Para su POS, usted desea utilizar un cliente fijo, pero para su tienda en línea desea crear clientes en [!INCLUDE[prod_short](../includes/prod_short.md)]. El siguiente procedimiento enumera los pasos de alto nivel. Para obtener más información, vaya a los artículos de ayuda correspondientes.
+
+1. Cree una tienda de Shopify llamada *TIENDA* y vincúlela a su cuenta de Shopify.
+2. Configure la sincronización de artículos/productos para que esta tienda gestione la información de productos.
+3. Especifique que los clientes se importan con pedidos. El conector debe encontrar clientes buscando su dirección de correo electrónico. Si no encuentra una dirección, utiliza la plantilla de cliente para crear un nuevo cliente.
+4. Cree una tienda de Shopify llamada *POS* y vincúlela a la misma cuenta de Shopify.
+6. Asegúrese de que la sincronización de artículos/productos esté deshabilitada.
+7. Seleccione el conector que utiliza el cliente predeterminado.
+8. Cree una entrada de cola de trabajo periódica para el Informe 30104 **Sincronizar pedidos desde Shopify**. Seleccione **TIENDA** en el campo **Código de tienda de Shopify** y use filtros para capturar todos los pedidos excepto los que crea el canal de ventas POS. Por ejemplo, **<>Punto de venta**
+9. Cree una entrada de cola de trabajo periódica para el Informe 30104 **Sincronizar pedidos desde Shopify**. Seleccione **POS** en el campo **Código de tienda de Shopify** y use filtros para capturar pedidos generados por el canal de ventas POS. Por ejemplo, **Punto de venta**.
+
+Cada cola de trabajo importará y procesará pedidos dentro de los filtros definidos y utilizará las reglas de la tarjeta de tienda de Shopify correspondiente. Por ejemplo, crearán pedidos de punto de venta para el cliente predeterminado.
+
+>![Importante] Para evitar conflictos al procesar pedidos, recuerde usar la misma categoría de cola de trabajos para ambas entradas de la cola de trabajos.
 
 ### Impacto de las modificaciones de pedidos
 
@@ -184,6 +218,27 @@ La empresa de seguimiento se rellena en el siguiente orden (de mayor a menor) se
 * **Código**
 
 Si el campo **URL de seguimiento del paquete** se rellena para el registro del agente de envío, luego la confirmación de envío también contendrá una URL de seguimiento.
+
+## Devoluciones y reembolsos
+
+En una integración entre Shopify y [!INCLUDE[prod_short](../includes/prod_short.md)], es importante poder sincronizar la mayor cantidad posible de datos empresariales. Eso hace que sea más fácil mantener actualizados sus niveles financieros y de inventario en [!INCLUDE[prod_short](../includes/prod_short.md)]. Los datos que puede sincronizar incluyen devoluciones y reembolsos que se registraron en el Administrador de Shopify o POS de Shopify.
+
+Las devoluciones y los reembolsos se importan con sus pedidos relacionados si habilitó el tipo de procesamiento en la Tarjeta de tienda de Shopify.
+
+Las devoluciones se importan solo con fines informativos. No hay una lógica de procesamiento asociada con ellos.
+
+Las transacciones financieras y, si es necesario, de inventario se procesan mediante reembolsos. Los reembolsos pueden incluir productos o solo importes, por ejemplo, si un comerciante decidió compensar los gastos de envío o algún otro importe.
+Puede crear notas de abono de ventas para reembolsos. Las notas de abono pueden tener los siguientes tipos de líneas:
+
+|Tipo|N.º|Comentario|
+|-|-|-|
+|Cuenta C/G|Cuenta de tarjeta regalo vendida| Úsela para reembolsos relacionados con tarjetas regalo.|
+|Cuenta C/G|Sin stock de reembolso | Úsela para reembolsos relacionados con productos que no se reaprovisionaron. |
+|Artículo |N.º artículo| Úsela para reembolsos relacionados con productos que se reaprovisionaron. Válida para reembolsos directos o reembolsos vinculados a reembolsos. El código de ubicación en la línea de abono adicional se establece en función del valor seleccionado para la ubicación de devolución.|
+|Cuenta C/G| Cuenta de reembolso | Úsela para otros importes reembolsados que no estén relacionados con productos o tarjetas regalo. Por ejemplo, propinas, o si especificó manualmente una cantidad para reembolsar en Shopify. |
+
+>[!Note]
+>La ubicación de devolución, incluidas las ubicaciones en blanco, definidas en la **Tarjeta de tienda de Shopify** se utilizan en la nota de abono creada. El sistema ignora las ubicaciones originales de pedidos o envíos.
 
 ## Tarjetas regalo
 

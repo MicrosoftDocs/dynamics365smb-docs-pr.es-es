@@ -1,18 +1,18 @@
 ---
 title: Sincronizar artículos e inventario
 description: Configurar y ejecutar sincronizaciones de artículos entre Shopify y Business Central
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Sincronizar artículos e inventario
 
-Los **Artículos** en [!INCLUDE[prod_short](../includes/prod_short.md)] son equivalentes a los *productos* en Shopify, e incluyen bienes físicos, descargas digitales, servicios y tarjetas de regalo que puede vender. Hay dos razones principales para sincronizar los artículos:
+Los **Artículos** en [!INCLUDE[prod_short](../includes/prod_short.md)] son equivalentes a los *productos* en Shopify, e incluyen bienes físicos, descargas digitales, servicios y tarjetas de regalo que usted vende. Hay dos razones principales para sincronizar artículos:
 
 1. La gestión de datos se realiza principalmente en [!INCLUDE[prod_short](../includes/prod_short.md)]. Necesita exportar todos o algunos datos desde allí a Shopify y hacerlo visible. Puede exportar el nombre del artículo, la descripción, la imagen, los precios, la disponibilidad, las variantes, los detalles del proveedor y el código de barras. Una vez exportados, puede revisar los elementos o hacerlos visibles inmediatamente.
 2. Cuando un pedido de Shopify se importa, la información sobre los artículos es vital para el procesamiento posterior del documento en [!INCLUDE[prod_short](../includes/prod_short.md)].
@@ -98,17 +98,17 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 |------|-----------------|-----------------|
 |Status|De acuerdo con el campo **Estado de los productos creados** en la **Tarjeta de tienda de Shopify**. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Cargo | **Descripción**. Si el código de idioma está definido y existe una traducción del artículo correspondiente, se utilizará la traducción del artículo en lugar de la descripción.|**Descripción**|
-|Descripción|Combina textos extendidos y atributos si las alternancias correspondientes en la tarjeta de Shopify están habilitadas. Respeta el código de idioma.|No utilizado.|
+|Descripción|Combina textos extendidos, texto de marketing y atributos si habilita las alternancias correspondientes en la tarjeta de tienda de Shopify. Respeta el código de idioma.|No utilizado.|
 |Título de página SEO|Valor fijo: vacío. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Descripción meta de SEO|Valor fijo: vacío. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Medios|**Imagen**. Obtenga más información en la sección [Sincronizar imágenes de elementos](synchronize-items.md#sync-item-images)|**Imagen**|
-|Precio|El cálculo del precio del cliente final incluye el precio unitario del producto, el grupo de precios del cliente, el grupo de descuento del cliente y el código de moneda. Obtenga más información en la sección [Sincronizar precios](synchronize-items.md#sync-prices-with-shopify)|**Precio unitario**|
+|Precio|El cálculo del precio del cliente final incluye el precio unitario del producto, el grupo de precios del cliente, el grupo de descuento del cliente y el código de moneda. Obtenga más información en la sección [Sincronizar precios](synchronize-items.md#sync-prices-with-shopify)|**Precio unitario**. El precio solo se importa a los artículos recién creados, pero no se actualizará en sincronizaciones posteriores.|
 |Comparar por precio|El cálculo del precio sin descuento.|No utilizado.|
-|Coste por artículo|**Coste unitario**|**Coste unitario**|
+|Coste por artículo|**Coste unitario**|**Coste unitario**. El coste unitario solo se importa a los artículos recién creados, y no se actualizará en sincronizaciones posteriores.|
 |UA|Infórmese sobre esto en **Asignación de SKU** en la sección [Exportar elementos a Shopify](synchronize-items.md#export-items-to-shopify).|Obtenga más información sobre esto en la sección [Efecto de los SKU y códigos de barras definidos del producto de Shopify en la asignación y la creación de artículos y variantes en Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Código de barras|**Referencias de artículos** de tipo código de barras.|**Referencias de artículos** de tipo código de barras.|
-|Seguimiento de cantidad|De acuerdo con el campo **Inventario seguido** en la página **Tarjeta de tienda de Shopify**. Obtenga más información en la sección [Inventario](synchronize-items.md#sync-inventory-to-shopify).|No utilizado.|
-|Continuar vendiendo cuando no haya existencias|De acuerdo con la **Directiva de inventario predeterminada** en la **Tarjeta de tienda de Shopify**. No importado.|No utilizado.|
+|Seguimiento de cantidad|De acuerdo con el campo **Inventario seguido** en la página **Tarjeta de tienda de Shopify**. Obtenga más información en la sección [Inventario](synchronize-items.md#sync-inventory-to-shopify). Solo se usa cuando exporta un producto por primera vez.|No utilizado.|
+|Continuar vendiendo cuando no haya existencias|De acuerdo con la **Directiva de inventario predeterminada** en la **Tarjeta de tienda de Shopify**. Solo se usa cuando exporta un producto por primera vez.|No utilizado.|
 |Tipo|**Descripción** de **Código de categoría de artículos**. Si el tipo no está especificado en Shopify, se agrega como un tipo personalizado.|**Código de categoría de artículos**. Mapeo por descripción.|
 |Proveedor|**Nombre** del proveedor según el **N.º de proveedor**|Asignación de **N.º de proveedor** por nombre.|
 |Peso|**Peso bruto**.|No utilizado.|

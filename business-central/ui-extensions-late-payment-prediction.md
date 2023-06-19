@@ -118,7 +118,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 
 [Documentación de Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Personalizar Business Central con extensiones](ui-extensions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Usar inteligencia artificial en Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

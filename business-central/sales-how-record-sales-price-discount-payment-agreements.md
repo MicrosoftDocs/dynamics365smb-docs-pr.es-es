@@ -1,16 +1,14 @@
 ---
 title: Registrar precios y descuentos de ventas especiales
 description: Describe cómo definir acuerdos de precios y descuentos para documentos de ventas.
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Registrar precios y descuentos de ventas especiales
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * Modelos de precio único para todos en los que un artículo siempre se vende al mismo precio.
 * Acuerdos de precios especiales con clientes específicos, o grupos de clientes.
-* Campañas cuando una venta cumple los criterios para una oferta especial. Por ejemplo, los criterios pueden ser cuando un pedido alcanza una cantidad mínima, es anterior a una fecha determinada o incluye un determinado tipo de artículo.  
+* Campañas cuando una venta cumple los criterios para una oferta especial. Por ejemplo, puede tener los siguientes criterios para un pedido:
+
+  * Cumple una cantidad mínima
+  * Es antes de cierta fecha
+  * Incluye un determinado tipo de artículo  
 
 Para utilizar un modelo de precios básico, solo necesita especificar un precio unitario cuando configura un artículo o recurso. Ese precio siempre se utilizará en los documentos de venta. Para modelos más avanzados, por ejemplo, cuando está ejecutando una campaña de ventas y desea ofrecer precios especiales, puede especificar criterios para eso en la página **Precios de venta**. Puede ofrecer precios especiales basados una combinación de la información siguiente:  
 
@@ -32,13 +34,13 @@ Para utilizar un modelo de precios básico, solo necesita especificar un precio 
 * Cantidad mínima
 * Fechas que definen el período de validez de los precios.
 
-Después de configurar precios especiales, [!INCLUDE[prod_short](includes/prod_short.md)] puede calcular los mejores precios en documentos de compra y venta y en líneas de diario de trabajos y artículos. Obtenga más información en [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Después de configurar precios especiales, [!INCLUDE[prod_short](includes/prod_short.md)] puede calcular los mejores precios en documentos de compra y venta y en líneas de diarios de trabajos y artículos. Obtenga más información en [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Puede configurar dos tipos de descuentos para ofertas:
 
 | Tipo de descuento | Descripción |
 | --- | --- |
-| **Descuento línea venta** |Un importe que se inserta en las líneas de venta si contienen una cierta combinación de cliente, producto, cantidad mínima, unidad de medida o fecha de inicio o de fin. Este tipo funciona igual que para los precios de venta. |
+| **Descuento línea venta** |Agregue un importe en las líneas de venta que tengan una cierta combinación de cliente, producto, cantidad mínima, unidad de medida o fecha de inicio o de fin. Este tipo funciona igual que para los precios de venta. |
 | **Descuento en factura** |Un porcentaje de descuento que se resta del total del documento de venta si la suma de todas las líneas del documento supera cierto límite. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ Cuando habilita la actualización de funciones **Nueva experiencia de precios de
 
 * Si desea trabajar con todos los precios en una sola página, actívela. Los precios existentes se convertirán en una lista de precios predeterminada para cada uno de los siguientes documentos:
 
-    * Ccial
-    * Compras
-    * Venta de proyectos
-    * Compras de proyecto
+  * Ccial
+  * Compras
+  * Venta de proyectos
+  * Compras de proyecto
 
-    Puede editar todos los precios de estas áreas en la página **Hoja de trabajo de precios**. Las listas de precios predeterminadas se establecen en las páginas **Configuración de ventas y cobros**, **Configuración de compras y pagos** y **Configuración de proyectos**. 
+  Puede editar todos los precios de estas áreas en la página **Hoja de trabajo de precios**. Las listas de precios predeterminadas se establecen en las páginas **Configuración de ventas y cobros**, **Configuración de compras y pagos** y **Configuración de proyectos**.
 
 > [!NOTE]
 > Si los precios se establecen solo en fichas de productos o recursos, las listas de precios predeterminadas no se rellenarán con esos precios durante la actualización de datos. Sin embargo, puede abrir cualquiera de las listas de precios predeterminadas o la página **Hoja de precios de venta** y usar la acción **Sugerir líneas** para agregar los precios establecidos en las fichas de productos o recursos.
 
-* Para usar listas de precios de venta, desactívelo. Los precios existentes se convertirán a una nueva lista de precios para cada combinación de las siguientes cosas: 
+* Para usar listas de precios de venta, desactívelo. Los precios existentes se convertirán a una nueva lista de precios para cada combinación de las siguientes cosas:
 
-* Cliente
-* Grupo de clientes o campaña
-* Fechas de inicio y finalización
-* Divisas 
+  * Cliente
+  * Grupo de clientes o campaña
+  * Fechas de inicio y finalización
+  * Divisas
 
 Si tiene muchas combinaciones, tendrá muchas listas de precios.
 
@@ -166,9 +168,12 @@ Si desea copiar precios de venta, por ejemplo, los precios de venta de un client
 
 #### [Nueva experiencia](#tab/new-experience/)  
 
-Puede especificar si la nueva lista de precios utilizará la configuración del encabezado de la lista que está copiando o la configuración de la nueva lista a la que está copiando. Para usar la configuración de la lista de precios a la que está copiando los precios, active la alternancia **Usar valores predeterminados desde destino**.
+Puede especificar la configuración que utilizará la lista de precios:
 
-1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Listas de precios de venta** y luego elija el enlace relacionado. 
+* Utilice la configuración del encabezado de la lista que está copiando.
+* Utilice la configuración de la lista a la que está copiando. Para usar la configuración de la lista de precios a la que está copiando los precios, active la alternancia **Usar valores predeterminados desde destino**.
+
+1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Listas de precios de venta** y luego elija el enlace relacionado.
 2. Elija la lista de precios a copiar y luego elija **Copiar líneas**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualiz
 
 Para actualizar de forma masiva los precios de los artículos, como aumentar todos los precios en un porcentaje, puede rellenar la página Hoja de trabajo precios de venta usando los siguientes trabajos por lotes:
 
-* **Sugerir precio venta en hoja** sugiera cambios de una de estas dos formas. Aplicando un factor de ajuste a los precios de venta existentes o copiando los acuerdos de precios de venta existentes a otros clientes, grupos de precios de clientes o campañas de ventas.
-* **Sugerir precio producto en hoja.** sugiera cambios de una de estas dos formas. Aplicando un factor de ajuste a los precios unitarios existentes en las tarjetas de artículos, o sugiriendo precios para nuevas combinaciones de moneda, unidades de medida, etc. Este trabajo por lotes no modifica los precios unitarios de los artículos.  
+* **Sugerir precio venta en hoja** sugiera cambios de una de estas dos formas:
+
+  * Aplicando un factor de ajuste a los precios de venta existentes.
+  * Copiando acuerdos de precios de venta existentes a otros clientes, grupos de precios de clientes o campañas de ventas.
+
+* **Sugerir precio producto en hoja** sugiera cambios de una de estas dos formas:
+
+  * Aplicando un factor de ajuste a precios unitarios existentes en fichas de productos.
+  * Sugiriendo precios para nuevas combinaciones de moneda, unidades de medida, etc.
+
+  Este trabajo por lotes no modifica los precios unitarios de los artículos.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Hoja de precios de venta** y luego elija el enlace relacionado.  
 2. Elija **Sugerir precio producto en hoja**. .  
@@ -219,7 +233,7 @@ El mejor precio es el precio más bajo con el mayor descuento de línea permitid
 
     * ¿El cliente tiene un acuerdo de precios o descuentos, o el cliente pertenece a un grupo que lo tiene?
     * ¿Está incluido el producto o el grupo de descuento del producto de la línea en alguno de estos acuerdos de precios o descuentos?
-    * ¿La fecha de pedido (o la fecha de registro de la factura y abono) está comprendida entre la fecha inicial y la fecha final del acuerdo de precios o descuentos?
+    * ¿Está la fecha dentro de la fecha inicial y final del acuerdo sobre precio/descuento? Para facturas y notas de abono, esta es la fecha en el campo **Fecha registro** en el encabezado del documento. Para todos los demás documentos, es la fecha en el campo **Fecha pedido** de sus encabezados.
     * ¿Se ha especificado un código de unidad de medida? Si es así, [!INCLUDE[prod_short](includes/prod_short.md)] comprueba los precios o descuentos con el mismo código de unidad de medida y los precios o descuentos sin un código de unidad de medida.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] comprueba si se aplican acuerdos de precio/descuento a la información del documento o línea de diario. Luego inserta el precio unitario aplicable y el porcentaje de descuento de línea utilizando los siguientes criterios:

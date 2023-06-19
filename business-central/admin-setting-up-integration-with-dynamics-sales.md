@@ -16,12 +16,12 @@ Este artículo proporciona una visión general de cómo configurar las cuentas d
 
 ## Configurar la cuenta de usuario administrador
 
-Debe agregar su cuenta de usuario administrador para [!INCLUDE[prod_short](includes/prod_short.md)] como usuario en [!INCLUDE[cds_long](includes/cds_long_md.md)]. Cuando configure la conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)], utilizaremos esta cuenta una vez para instalar y configurar algunos componentes necesarios.
+Para configurar la conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[prod_short](includes/cds_long_md.md)], debe iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] con una cuenta de usuario asignada a la licencia [!INCLUDE[prod_short](includes/prod_short.md)] Essential o [!INCLUDE[prod_short](includes/prod_short.md)] Premium. Usaremos esta cuenta una vez para instalar y configurar algunos componentes necesarios.
 
 > [!IMPORTANT]
-> La cuenta de usuario administrador debe ser un usuario con licencia con el rol de seguridad **Administrador de sistema**  en el entorno de [!INCLUDE[prod_short](includes/cds_long_md.md)] y administrador global en el arrendatario al que pertenece el entorno. Esta cuenta no necesita una licencia para [!INCLUDE[prod_short](includes/prod_short.md)], ya que se utilizará únicamente para la prestación del servicio en el arrendatario de [!INCLUDE[prod_short](includes/cds_long_md.md)] y para realizar tareas de configuración.
+> Durante la configuración, se le pedirá que proporcione las credenciales para el entorno de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Proporcione las credenciales de una cuenta que sea un usuario con licencia y asignada al rol de seguridad **Administrador de sistema** en el entorno de [!INCLUDE[prod_short](includes/cds_long_md.md)] y administrador global en el arrendatario al que pertenece el entorno. Esta cuenta no necesita una licencia para [!INCLUDE[prod_short](includes/prod_short.md)], ya que se utilizará únicamente para realizar tareas de configuración en el entorno de [!INCLUDE[prod_short](includes/cds_long_md.md)].
 >
-> Una vez finalizada la configuración de la conexión, este usuario de [!INCLUDE[prod_short](includes/cds_long_md.md)] puede ser eliminado. La integración continuará utilizando la cuenta de usuario creada automáticamente para la integración.
+> Una vez finalizada la configuración de la conexión, puede quitar este usuario de [!INCLUDE[prod_short](includes/cds_long_md.md)]. La integración continuará utilizando la cuenta de usuario creada automáticamente para la integración.
 
 ## Permisos y roles de seguridad para cuentas de usuario en [!INCLUDE[prod_short](includes/cds_long_md.md)]
 

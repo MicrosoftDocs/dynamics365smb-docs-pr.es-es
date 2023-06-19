@@ -60,7 +60,7 @@ Repita los pasos 2 a 6 para todas las tiendas en línea que desee conectar.
 
 - El navegador bloquea la ventana emergente. Al activar el conmutador en **Activado**, [!INCLUDE [prod_short](../includes/prod_short.md)] abre la página **En espera de una respuesta: no cierre esta página** mientras espera un token de acceso de Shopify. Si esa página está cerrada o bloqueada, no puede conectarse a Shopify. Obtenga más información en [Solicitar el token de acceso](troubleshoot.md#request-the-access-token)
 - [Error: error invalid_request de Oauth: no se pudo encontrar Aplicación API de Shopify con api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [No se puede conectar desde el espacio aislado](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [No se puede conectar desde el espacio aislado](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Pasos siguientes
 
@@ -96,7 +96,11 @@ Si debe usar esta configuración, le recomendamos que revise y probablemente des
 * **Shopify puede actualizar clientes** para no actualizar clientes existentes
 * **Crear pedido de venta automáticamente** para no crear pedidos de venta ni facturas de venta
 
+Para obtener más información, consulte [Restaurar un entorno](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+
 ### Producción de Shopify y espacio aislado de Business Central
+
+Puede ser una buena idea hacer una copia de seguridad de sus datos. Por ejemplo, exporte sus productos y clientes. Para obtener más información, consulte [Uso de archivos CSV para realizar copias de seguridad de la información de la tienda](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Desactive el conmutador **Permitir sincronización de datos para Shopify** para que [!INCLUDE[prod_short](../includes/prod_short.md)] no escriba en Shopify. En este caso, podrá importar productos, imágenes, clientes y pedidos de Shopify. Pero no podrá enviar productos, precios, niveles de inventario, clientes ni información de cumplimiento a Shopify.
 

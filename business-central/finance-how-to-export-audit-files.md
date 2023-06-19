@@ -11,7 +11,7 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Exportación de archivo de auditoría
@@ -98,10 +98,9 @@ Siga estos pasos para proporcinoar la asignación de cuentas de mayor para la ex
 > Si tiene varias entradas para exportar, no le recomendamos que las exporte en la sesión actual, debido a posibles problemas de rendimiento. En su lugar, le recomendamos que utilice el procesamiento paralelo durante los días o las horas no laborables.
 
 ## Consulte también .
-
 [Gestión financiera](finance.md)  
 [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Trabajar con Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

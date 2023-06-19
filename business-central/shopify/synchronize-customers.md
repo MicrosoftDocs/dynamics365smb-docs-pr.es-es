@@ -1,18 +1,18 @@
 ---
 title: Sincronizar clientes
 description: Importar clientes desde o exportar a Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Sincronizar clientes
 
-Cuando un pedido se importa desde Shopify, es esencial obtener la información sobre el cliente para el procesamiento posterior del documento en [!INCLUDE[prod_short](../includes/prod_short.md)]. Hay dos opciones principales para ello y sus combinaciones:
+Cuando un pedido se importa desde Shopify, es esencial obtener la información sobre el cliente para el procesamiento posterior del documento en [!INCLUDE[prod_short](../includes/prod_short.md)]. Hay dos opciones principales para ello y sus diversas combinaciones:
 
 * Use un cliente especial para todos los pedidos.
 * Importe la información real del cliente desde Shopify. Esta opción también está disponible cuando exporta clientes a Shopify primero desde [!INCLUDE[prod_short](../includes/prod_short.md)].
@@ -36,10 +36,9 @@ Algunas configuraciones se pueden definir en el nivel de país o región, o en e
 Puede hacer lo siguiente para cada cliente mediante la **Plantilla de cliente de Shopify**:
 
 1. Especificar el **N.º de cliente genérico**, que tiene prioridad sobre la selección en los campos **Importación de clientes desde Shopify** y **Tipo de asignación de cliente**. Se utiliza en el pedido de venta importado.
-2. Defina el **Código de plantilla de cliente**, que se utiliza para crear clientes que falten si se ha habilitado **Crear clientes desconocidos automáticamente**. Si el **Código de plantilla de cliente** está vacío, entonces la función usa el **Código de plantilla de cliente** definido en la **Ficha de tienda de Shopify**.
-3. Defina si los precios incluyen IVA o impuestos para pedidos importados.
-4. En algunos casos, el **Código de plantilla de cliente** definido para un país no es suficiente para garantizar el cálculo correcto de los impuestos (por ejemplo, para países con impuesto sobre las ventas). En este caso, incluir **Áreas fiscales** podría ser una adición útil.
-5. El campo **Zona fiscal** también contiene una pareja de **Código de país** y **Nombre de provincia**. Este par es útil cuando el conector necesita convertir un código en un nombre, o viceversa.
+2. Defina el **Código de plantilla de cliente**, que se utiliza para crear clientes que falten si se ha habilitado **Crear clientes desconocidos automáticamente**. Si el **Código de plantilla de cliente** está vacío, entonces la función usa el **Código de plantilla de cliente** definido en la **Ficha de tienda de Shopify**. El sistema primero intenta encontrar una plantilla para el **Código de país/región** para la dirección predeterminada. Si no encuentra una plantilla, utiliza la primera dirección.
+3. En algunos casos, el **Código de plantilla de cliente** definido para un país no es suficiente para garantizar cálculos correctos de impuestos (por ejemplo, para países con impuesto sobre las ventas). En este caso, incluir **Área fiscal** podría ser una adición útil.
+4. El campo **Zona fiscal** también contiene una pareja de **Código de país** y **Nombre de provincia**. Este par es útil cuando el conector necesita convertir un código en un nombre, o viceversa.
 
 > [!NOTE]  
 > Los códigos de país son códigos de país ISO 3166-1 alfa-2. Obtenga más información en [Código de país](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

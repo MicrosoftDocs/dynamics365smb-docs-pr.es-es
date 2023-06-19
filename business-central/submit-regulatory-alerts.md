@@ -70,7 +70,7 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
 [Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Cambiar idioma y región](about-locale-language.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
-[Bienvenido a Business Central](index.md)  
+[Bienvenido a Business Central](welcome.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

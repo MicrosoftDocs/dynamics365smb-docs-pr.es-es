@@ -37,7 +37,7 @@ La página también se conecta a Power BI para obtener más información. Opcion
 
 ## Consulte también
 
-[Bienvenido a Business Central](index.md)  
+[Bienvenido a Business Central](welcome.md)  
 [Extensiones de migración a la nube](ui-extensions-data-replication.md)  
 [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 

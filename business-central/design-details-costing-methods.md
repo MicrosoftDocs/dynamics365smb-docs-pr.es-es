@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 03/24/2022
+ms.date: 05/12/2023
 ms.author: bholtorf
 ---
 # Detalles de diseño: Métodos de coste
@@ -32,13 +32,22 @@ En la imagen siguiente se muestra cómo fluyen los costes a través del inventar
 ![Métodos de valoración de existencias visualizados.](media/design_details_inventory_costing_7_costing_methods.png "Métodos de valoración de existencias visualizados")  
 
 Los métodos de coste varían en cuanto a la forma en que el inventario disminuye y si se utiliza el coste real o el coste estándar como base de valoración. En la tabla siguiente se explican las diferentes características. (Se excluye el método LIFO por ser muy parecido al método FIFO).  
-
-|Categoría|FIFO|Promedio|Estándar|Específico|  
+<!--Old  table
+|Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
-|Característica general|Fácil de comprender|Basándose en opciones de periodo: **Día**/**Semana**/**Mes**/**Trimestre**/**Periodo contable**.<br /><br /> Se puede calcular por producto o por producto, almacén y variante.|Fácil de usar pero requiere mantenimiento cualificado.|Requiere el seguimiento de producto en la transacción de entrada y de salida.<br /><br /> Normalmente se usa para productos serializados.|  
-|Aplicación/ajuste|La aplicación hace un seguimiento de **la cantidad pendiente**.<br /><br /> El ajuste desvía los costes según la liquidación de la cantidad.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> Los costes se calculan y se envían por la **fecha de valoración**.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> La aplicación se basa en el método FIFO.|Toda las liquidaciones son fijas.|  
-|Revaluación|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer solo por producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza las cantidades facturadas y no facturadas.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|  
-|Varios|Si se especifica una fecha retroactiva para una salida de existencias, las entradas existentes NO se volverán a liquidar para proporcionar un flujo correcto FIFO del coste.|Si se retrocede la fecha de una entrada o una salida del inventario, se vuelve a calcular el coste medio y se ajustan todos los registros afectados.<br /><br /> Si cambia el periodo o el tipo de cálculo, todos los registros afectados deben ajustarse.|Utilice la página **Hoja de trabajo estándar** para actualizar y distribuir periódicamente los costes estándar.<br /><br /> NO se admite por UA.<br /><br /> No existe ningún registro histórico para los costes estándar.|Puede utilizar el seguimiento de producto específico sin usar la valoración de existencias Específica. El coste NO seguirá el número de lote, sino el coste supuesto de la valoración de existencias seleccionada.|  
+|General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
+|Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
+|Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
+|Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+-->
+<!--Table flipped for slightly better readability -->
+
+||Característica general|Aplicación/ajuste |Reevaluación|Varios |
+|-|---------|---------|---------|---------|
+|**FIFO**     |Fácil de comprender|La aplicación hace un seguimiento de **la cantidad pendiente**.<br /><br /> El ajuste desvía los costes según la liquidación de la cantidad. |Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Si se especifica una fecha retroactiva para una salida de existencias, las entradas existentes NO se volverán a liquidar para proporcionar un flujo correcto FIFO del coste.|
+|**Promedio**     |Basándose en opciones de periodo: **Día**/**Semana**/**Mes**/**Trimestre**/**Periodo contable**.<br /><br /> Se puede calcular por producto o por producto, almacén y variante.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> Los costes se calculan y se envían por la **fecha de valoración**. |Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer solo por producto.<br /><br /> Se puede realizar retroactivamente. |Si se retrocede la fecha de una entrada o una salida del inventario, se vuelve a calcular el coste medio y se ajustan todos los registros afectados.<br /><br /> Si cambia el periodo o el tipo de cálculo, todos los registros afectados deben ajustarse.|
+|**Estándar**     |Fácil de usar pero requiere mantenimiento cualificado.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> La aplicación se basa en el método FIFO.|Revaloriza las cantidades facturadas y no facturadas.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Utilice la página **Hoja de trabajo estándar** para actualizar y distribuir periódicamente los costes estándar.<br /><br /> NO se admite por UA.<br /><br /> No existe ningún registro histórico para los costes estándar.|
+|**Especial**     |Requiere el seguimiento de producto en la transacción de entrada y de salida.<br /><br /> Normalmente se usa para productos serializados.|Toda las liquidaciones son fijas.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Puede utilizar el seguimiento de producto específico sin usar la valoración de existencias Específica. El coste NO seguirá el número de lote, sino el coste supuesto de la valoración de existencias seleccionada.|
 
 ## Ejemplo
 
@@ -140,13 +149,14 @@ En el caso de productos donde se use el método de costes **Estándar**, las ent
 
 ## Consulte también
 
- [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
- [Detalles de diseño: Desviación](design-details-variance.md)   
- [Detalles de diseño: Coste medio](design-details-average-cost.md)   
- [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
- [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
- [Finanzas](finance.md)  
- [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Detalles de diseño: coste de inventario](design-details-inventory-costing.md)  
+[Detalles de diseño: desviación](design-details-variance.md)  
+[Detalles de diseño: coste medio](design-details-average-cost.md)  
+[Detalles de diseño: liquidación de productos](design-details-item-application.md)  
+[Gestión de costes de inventario](finance-manage-inventory-costs.md)  
+[Finanzas](finance.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Glosario de términos de procesos de negocio de Dynamics 365](/dynamics365/guidance/business-processes/glossary)  
+[Definir resumen de costes de productos y servicios](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

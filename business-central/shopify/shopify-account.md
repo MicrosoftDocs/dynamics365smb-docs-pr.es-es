@@ -50,7 +50,10 @@ Después de crear la tienda, en el **Administrador de Shopify** de la tienda cre
   1. *(para probar) Bogus Gateway*. Para obtener más información, consulte [Activar Bogus Gateway para realizar pruebas](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify Payments* en modo de prueba. Obtenga más información en [Probar Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Las tiendas de desarrollo suelen estar protegidas con contraseña. Cuando intenta abrir una página específica en su tienda en línea desde [!INCLUDE [prod_short](../includes/prod_short.md)], por ejemplo, para ir a un producto o pedido específico, deberá ingresar su contraseña. Mientras realiza la prueba, para evitar tener que ingresar su contraseña, inicie sesión en su administrador de Shopify y abra su tienda desde allí. No necesitará ingresar la contraseña de la tienda hasta que cierre el navegador o la sesión expire.  
+
 ## Consulte también
 
-[Comenzar con el conector Shopify](get-started.md)  
+[Comenzar a usar el conector Shopify](get-started.md)  
 [Tutorial: Configurar y usar el Shopify Connector](walkthrough-setting-up-and-using-shopify.md)

@@ -1,13 +1,13 @@
 ---
 title: Sincronizar transacciones y pagos
 description: Configure y ejecute la importación de transacciones y pagos desde Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Transacciones y pagos
@@ -21,6 +21,8 @@ Si utiliza Shopify Payment como proveedor de pagos, además de la información s
 Las transacciones de pago que tienen lugar en Shopify se sincronizan junto con los pedidos y se pueden ver desde la página **Pedidos de Shopify**.
 
 Para revisar todas las transacciones, elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones**, y luego seleccione el enlace relacionado.
+
+El campo **N.º de factura registrada** puede ser útil en el proceso de conciliación.
 
 Si configuró la asignación de formas de pago, el documento de ventas creado tendrá asignado un Código de forma de pago. Obtenga más información en [Asignación de métodos de pago](#payment-method-mapping).
 
