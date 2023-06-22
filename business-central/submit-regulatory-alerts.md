@@ -8,11 +8,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features" />Enviar alertas sobre las características normativas específicas del país/región
+# Enviar alertas sobre las características normativas específicas del país/región
 
 Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar alertas normativas a través del servicio de envío de alertas de Dynamics.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs" />Para enviar una alerta normativa en LCS
+## Para enviar una alerta normativa en LCS
 
 1. Vaya a [https://lcs.dynamics.com](https://lcs.dynamics.com) e inicie sesión  
 
@@ -65,14 +65,14 @@ Le invitamos a utilizar Microsoft Dynamics Lifecycle Services (LCS) para enviar 
 
       Después de enviar la alerta, recibirá una confirmación de que la alerta se envió correctamente a Microsoft.
 
-## <a name="see-also" />Consulte también
+## Consulte también
 
 [Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Cambiar idioma y región](about-locale-language.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Bienvenido a Business Central](welcome.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
