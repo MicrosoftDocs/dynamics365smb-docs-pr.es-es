@@ -11,14 +11,14 @@ ms.search.form: 680
 ms.date: 08/08/2022
 ms.author: a-reishima
 ---
-# Compartir y exportar informes con la bandeja de entrada de informes
+# <a name="share-and-export-reports-with-the-report-inbox" />Compartir y exportar informes con la bandeja de entrada de informes
 
 La página **Bandeja de entrada de informes** enumera los informes programados generados por el usuario en [!INCLUDE[prod_short](includes/prod_short.md)], y se puede utilizar no solo para acceder a los informes generados, sino también para compartir y abrir los archivos en OneDrive for Business.
 
 > [!TIP]
 > Las siguientes acciones también están disponibles en la parte **Bandeja de entrada de informes** en el Área de trabajo. Si la parte no se muestra en su interfaz, aprenda cómo personalizar su área de trabajo aquí: [Personalice su espacio de trabajo](ui-personalization-user.md).
 
-## Descargar informes generados
+## <a name="download-generated-reports" />Descargar informes generados
 
 Para guardar informes anteriores, abra la página **Bandeja de entrada de informes** siguiendo estos pasos:
 
@@ -30,7 +30,7 @@ Para guardar informes anteriores, abra la página **Bandeja de entrada de inform
 >
 > Los archivos generados se guardan en el formato definido al programar el informe y se pueden cambiar en la página **Entradas de la cola de trabajos**, junto con la recurrencia y otras configuraciones. Obtenga información sobre cómo cambiar el formato del archivo de informe y establecer opciones adicionales en [Administrar informes recurrentes programados](ui-work-report.md#manage-scheduled-recurring-reports).
 
-## Abrir informes generados en OneDrive
+## <a name="open-generated-reports-in-onedrive" />Abrir informes generados en OneDrive
 
 Para exportar el archivo de informe a Microsoft OneDrive para la Empresa, seleccione el informe en la página **Bandeja de entrada de informes** y elija la acción **Abrir en OneDrive**. A continuación, el informe se copia en la carpeta [!INCLUDE[prod_short](includes/prod_short.md)] en OneDrive y abierto en una nueva ventana del navegador, donde puede imprimir y administrar el archivo del documento.
 
@@ -38,7 +38,7 @@ Para exportar el archivo de informe a Microsoft OneDrive para la Empresa, selecc
 >
 > Informes programados para expirar en la página **Programar un informe** y copiados en OneDrive no se eliminan automáticamente de la carpeta compartida.
 
-## Compartir informes programados
+## <a name="share-scheduled-reports" />Compartir informes programados
 
 Compartir informes con colaboradores también es posible en la página **Bandeja de entrada de informes**. Seleccione el informe y elija la acción **Compartir** . En la página **Enviar enlace**, seleccione quién puede abrir el archivo, defina permisos de edición, luego elija **Enviar** para enviar un enlace para acceder al informe guardado.
 
@@ -47,9 +47,9 @@ Compartir informes con colaboradores también es posible en la página **Bandeja
 >
 > Usar la acción **Compartir** hace que el archivo de informe generado esté disponible para otros usuarios solo en OneDrive para la Empresa y no incluye el informe programado en su **Bandeja de entrada de informes**.
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/paths/build-reports/)
+## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/build-reports/)
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Ejecutar e imprimir informes](ui-work-report.md)  
 [Informes disponibles en [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

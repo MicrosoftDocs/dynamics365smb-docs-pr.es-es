@@ -10,27 +10,27 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Tutorial: planificación manual de suministros
+# <a name="walkthrough-planning-supplies-manually" />Tutorial: planificación manual de suministros
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 En este tutorial, se demuestra el proceso de planificar pedidos de suministro para cubrir la nueva demanda. Puede iniciar la planificación de suministros a intervalos fijos, por ejemplo, todas las mañanas o todos los lunes, o bien cuando le notifiquen desde ventas o producción, en función del tipo de demanda. En este tutorial, utilizará la página **Planificación de pedidos**, una sencilla herramienta de planificación de suministros basada en la toma manual de decisiones en lugar de en una planificación automática basada en parámetros.  
 
-## Acerca de este tutorial  
+## <a name="about-this-walkthrough" />Acerca de este tutorial
  En este tutorial se ilustran las siguientes tareas:  
 
 -   Planificación de un pedido de compra para la fabricación de componentes.  
 -   Planificación de un pedido de transferencia para cubrir la demanda de venta.  
 -   Planificación de una orden de producción para un producto multinivel.  
 
-## Funciones  
+## <a name="roles" />Funciones
  En este tutorial se demuestran las tareas realizadas por las siguientes funciones de usuarios:  
 
 -   Planificador de producción  
 -   Agente de compras  
 -   Procesadora de pedidos de ventas  
 
-## Requisitos previos  
+## <a name="prerequisites" />Requisitos previos
  Antes de comenzar este tutorial, debe instalar el [!INCLUDE[prod_short](includes/prod_short.md)]. Se deben realizar las modificaciones siguientes a la base de datos:  
 
 -   Elimine todos los pedidos de ventas existentes para bicicletas.  
@@ -39,17 +39,17 @@ En este tutorial, se demuestra el proceso de planificar pedidos de suministro pa
 
  Como regla, utilice los datos sugeridos en este tutorial pues contiene los registros necesarios.  
 
-## Historia  
+## <a name="story" />Historia
  Eduardo, el Planificador de producción de una pequeña empresa de fabricación, va a planificar las órdenes de producción y los pedidos de compra para cubrir una nueva demanda de venta.  
 
  Teniendo en cuenta que los productos tienen pocos niveles de L.M. y que el flujo de pedidos es relativamente bajo, Eduardo utiliza la página **Planificación de pedidos** para crear pedidos de suministros de forma manual—los niveles de producto de uno en uno.  
 
  En entornos de fabricación más complejos, se utiliza la hoja de planificación para planificar el suministro basándose en parámetros de productos como ciclo de reprogramación, plazo de seguridad, punto pedido y cálculos por lotes de la demanda consolidada de todos los niveles de productos.  
 
-## Configuración de los datos de ejemplo  
+## <a name="setting-up-the-sample-data" />Configuración de los datos de ejemplo
  La empresa de demostración CRONUS estándar tiene en la actualidad gran cantidad de demanda no planificada. Durante las diferentes tareas de planificación de este tutorial, para desviarse del flujo empresarial real, deberá hacer caso omiso de la demanda con fechas de vencimientos próximas y usar en su lugar la demanda con fechas posteriores.  
 
-## Usar la página Planificación de pedidos  
+## <a name="use-the-order-planning-page" />Usar la página Planificación de pedidos
 
 A la página **Planificación de pedidos** se puede acceder desde varias ubicaciones diferentes:  
 
@@ -58,7 +58,7 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 -   Compra, Planificación  
 -   Además, puede abrir esta página para un pedido de producción específico eligiendo la acción **Planificación**.
 
-### Para utilizar la página Planificación de pedidos  
+### <a name="to-use-the-order-planning-page" />Para utilizar la página Planificación de pedidos
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Planificación de pedidos** y luego elija el enlace relacionado.  
 
@@ -82,10 +82,10 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
      No se mostrarán los pedidos que no tengan problemas de disponibilidad. Si no hay pedidos cuando se calcula un plan, se mostrará un mensaje y no aparecerá ninguna línea de planificación.  
 
-## Planificación de un pedido de compra para cubrir la demanda de componente  
+## <a name="planning-a-purchase-order-to-fulfill-component-demand" />Planificación de un pedido de compra para cubrir la demanda de componente
  En este procedimiento, creará un pedido de compra para los componentes de fabricación necesarios.  
 
-### Para planificar un pedido de compra que cubra la necesidad de componentes en producción  
+### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production" />Para planificar un pedido de compra que cubra la necesidad de componentes en producción
 
 1.  Expanda la primera línea (elija el símbolo +).  
 2.  Seleccione la primera línea de demanda, con el producto **LSU-15**, y después seleccione la acción **Mostrar documento**.  
@@ -122,10 +122,10 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
      Los pedidos de compra se crean ahora y se guardan como los últimos pedidos de la lista de pedidos de compra.  
 
-## Planificación de un pedido de transferencia para cubrir la demanda de venta  
+## <a name="planning-a-transfer-order-to-fulfill-sales-demand" />Planificación de un pedido de transferencia para cubrir la demanda de venta
  En este procedimiento, va a planificar la demanda para un pedido de venta. Las líneas de demanda representan líneas de venta y no líneas de componente, como en la demanda de producción.  
 
-### Para planificar un pedido de transferencia para cubrir la demanda de venta  
+### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand" />Para planificar un pedido de transferencia para cubrir la demanda de venta
 
 1.  Mueva el puntero a la línea de planificación del pedido **2008**.  
 2.  Expanda la línea y mueva el puntero a la línea de demanda.  
@@ -150,10 +150,10 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
      Ya se ha creado y guardado el pedido de transferencia en la lista como el último pedido en la lista de pedidos de transferencia abiertos.  
 
-## Planificación de una orden de producción multinivel para cubrir la demanda de venta  
+## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand" />Planificación de una orden de producción multinivel para cubrir la demanda de venta
  En este procedimiento, planificará para cubrir la demanda de venta de un producto elaborado con varios niveles, cada uno crea una demanda de producción dependiente.  
 
-### Para planificar una producción multinivel para cubrir la demanda de venta  
+### <a name="to-plan-multilevel-production-to-fulfill-sales-demand" />Para planificar una producción multinivel para cubrir la demanda de venta
 
 1.  Seleccione la línea de planificación con la demanda de venta para el pedido **1001**, creado anteriormente como dato de requisitos previos.  
 
@@ -172,7 +172,7 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
  Como planificador de producción ahora debe planificar una orden de producción específica.  
 
-### Para planificar una orden de producción específica  
+### <a name="to-plan-a-specific-production-order" />Para planificar una orden de producción específica
 
 1.  Abra la orden de producción **101001** para diez bicicletas, que acaba de crear con la función **Crear pedidos compra**.  
 2.  Abra la página **Componentes orden producción** para comprobar que el timbre adicional está reflejado en la orden de producción.  
@@ -222,7 +222,7 @@ A la página **Planificación de pedidos** se puede acceder desde varias ubicaci
 
      En la página **O.P. planif. en firme** revise como están programadas las horas de inicio y finalización de cada pedido según la estructura del producto. Primero se producen los componentes de nivel inferior. Por lo tanto, debe planificar pedidos de varios niveles como se demuestra en este flujo de trabajo de planificación.  
 
-## Consulte también  
+## <a name="see-also" />Consulte también
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

@@ -10,7 +10,7 @@ ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 732
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Configuración de la gestión del almacén
+# <a name="setting-up-warehouse-management" />Configuración de la gestión del almacén
 
 La estrategia de distribución de una empresa se refleja en la configuración de sus procesos de almacén. Esto incluye definir el tratamiento de los distintos productos en ubicaciones distintas del almacén, como el nivel de control de ubicación y el alcance del flujo de trabajo necesario entre las actividades de almacén.  
 
@@ -35,9 +35,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Obtener información sobre el modo de reorganizar ubicaciones o zonas para lograr mayor eficiencia en las actividades del almacén.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## Consultar la [formación de Microsoft](/training/paths/set-up-warehouse-management/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" />Consultar la [formación de Microsoft](/training/paths/set-up-warehouse-management/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Inventario](inventory-manage-inventory.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ---
-# Gestión de transacciones entre empresas vinculadas
+# <a name="managing-intercompany-transactions" />Gestión de transacciones entre empresas vinculadas
 
 Las empresas con más de una entidad legal con funciones contables separadas pueden beneficiarse de las transacciones entre empresas. Por ejemplo, es útil para empresas que tienen filiales en varios mercados o regiones internacionales. O bien, una organización puede estar formada por varias empresas, pero puede carecer del un número equivalente de departamentos de contabilidad y administrativos. Las transacciones entre empresas vinculadas le permiten simplificar los procesos y transacciones empresariales entre las empresas vinculadas.
 
@@ -23,7 +23,7 @@ La funcionalidad entre empresas vinculadas tienen cuatro ventajas principales:
 * Se logran un seguimiento y una visibilidad totales de las actividades empresariales y los historiales de las transacciones  
 * Las transacciones con las subsidiarias y las filiales son eficaces y rentables  
 
-## Simplificar el flujo de actividades empresariales  
+## <a name="streamline-the-flow-of-business-activities" />Simplificar el flujo de actividades empresariales
 
 Las transacciones entre empresas vinculadas le permiten distribuir los documentos de compras y ventas, así como los movimientos del diario general a todas las sucursales, oficinas de ventas o filiales. La distribución de transacciones ahorra tiempo y aumenta la eficiencia en toda la organización, al reducir la entrada de datos. Reduce la necesidad de enviar, recibir, imprimir y archivar documentos de compras y ventas.  
 
@@ -68,14 +68,14 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Organice y procese las transacciones entrantes y salientes que intercambia con sus socios de empresas vinculadas.|[Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)|
 |Utilice las transacciones de empresas vinculadas para distribuir costes entre empresas asociadas.|[Asignar costes a socios entre empresas](intercompany-allocate-costs.md)|
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

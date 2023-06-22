@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: edupont
 ---
-# Detalles de diseño: Ajuste de coste
+# <a name="design-details-cost-adjustment" />Detalles de diseño: Ajuste de coste
 
 El propósito principal del ajuste de coste es desviar los cambios de coste de los orígenes de coste a los destinatarios de coste, según la valoración de existencias de un producto, para proporcionar la valoración de inventario correcta.  
 
@@ -27,7 +27,7 @@ A continuación, se indican los propósitos, o funciones, secundarios del ajuste
 
 Los costes de inventario deben ajustarse antes de que los movimientos de valores relacionados se puedan conciliar con la contabilidad. Para obtener más información, consulte [Detalles de diseño: Conciliación con contabilidad](design-details-reconciliation-with-the-general-ledger.md).  
 
-## Detección del ajuste
+## <a name="detecting-the-adjustment" />Detección del ajuste
 
 La tarea de detectar si se debe producir un ajuste del coste la lleva a cabo principalmente la rutina Diario de productos - Línea de registro, mientras que la tarea de calcular y generar los movimientos de ajuste de coste la realiza el proceso **Valorar stock - movs. producto**.  
 
@@ -37,21 +37,21 @@ Para poder desviar costes, el mecanismo de detección determina qué orígenes h
 * Punto de movimiento de ajuste de coste medio  
 * Nivel de pedido  
 
-### Liq. mov. producto
+### <a name="item-application-entry" />Liq. mov. producto
 
 Esta función de detección se usa para los productos que usan las valoraciones de existencias FIFO, LIFO, Estándar y Específica, y para los escenarios de liquidaciones fijas. La función funciona de la forma siguiente:  
 
 * El ajuste de costes se detecta al marcar los movimientos de producto de origen como *Mov. liquidado a ajustar* cada vez que se registra un movimiento de producto o de valor.  
 * El coste se desvía según los encadenamientos de coste registrados en la tabla **Liq. mov. producto**.  
 
-### Punto de movimiento de ajuste de coste medio
+### <a name="average-cost-adjustment-entry-point" />Punto de movimiento de ajuste de coste medio
 
 Esta función de detección se usa para los productos que usan la valoración de existencias Media. La función funciona de la forma siguiente:  
 
 * El ajuste de costes se detecta al marcar un registro en la tabla **Punto de entrada aj. coste promedio** cada vez que se registra un movimiento de valor.  
 * El desvío de coste se produce aplicando los costes a los movimientos de valor con fecha de valoración posterior.  
 
-### Nivel de pedido
+### <a name="order-level" />Nivel de pedido
 
 Esta función de detección se usa en escenarios de conversión, producción y ensamblado. La función funciona de la forma siguiente:  
 
@@ -64,7 +64,7 @@ La función de nivel de pedido se usa para detectar los ajustes en el registro d
 
 Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 
-## Ajuste de coste manual y automático
+## <a name="manual-versus-automatic-cost-adjustment" />Ajuste de coste manual y automático
 
 El ajuste del coste se puede realizar de dos formas:  
 
@@ -79,25 +79,25 @@ Independientemente de si ejecuta el ajuste de costes manual o automáticamente, 
 
 Los movimientos de nuevo ajuste y de valor de redondeo tienen la fecha de registro de la factura relacionada. Las excepciones son si los movimientos de valor entran en un periodo contable o un periodo de inventario cerrado o si la fecha de registro es anterior a la del campo **Permitir registro desde** en la página **Configuración de contabilidad**. Cuando esto se produce, el trabajo por lotes asigna la fecha de registro como la primera fecha del periodo abierto siguiente.  
 
-## Proceso Valorar stock - movs. producto
+## <a name="adjust-cost---item-entries-batch-job" />Proceso Valorar stock - movs. producto
 
 Al ejecutar el proceso **Valorar stock - movs. producto**, tiene la opción de ejecutar el proceso para todos los productos o solo para determinados productos o categorías.  
 
 > [!NOTE]  
 > Se recomienda ejecutar siempre el proceso para todos los productos y usar solo la opción de filtrado para reducir el tiempo de ejecución del proceso o para corregir el coste de un determinado artículo.  
 
-### Ejemplo
+### <a name="example" />Ejemplo
 
 En el ejemplo siguiente se muestra si registra un producto comprado como recibido y facturado en 01-01-20. Después, registra el producto vendido como enviado y facturado el 15-01-20. A continuación, ejecute los procesos **Valorar stock - movs. producto** y **Reg. var. inventario en contabilidad**. Se crean los siguientes registros:  
 
-#### Movimientos de valor (1) 
+#### <a name="value-entries-" />Movimientos de valor (1)
 
 |Fecha reg.|Tipo mov. producto|Importe coste (Real)|Coste regis. en contab.|Cantidad facturada|Nº mov.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Compra|10.00|10.00|1|1|  
 |15-01-20|Venta|-10,00|-10,00|-1|2|  
 
-#### Movimientos de relación en C/G: tabla Relación movs. productos (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Movimientos de relación en C/G: tabla Relación movs. productos (1)
 
 |Nº mov. contabilidad|Nº mov. valor|Nº asto. registro|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ En el ejemplo siguiente se muestra si registra un producto comprado como recibid
 |3|2|1|  
 |4|2|1|  
 
-#### Movimientos de contabilidad (1)
+#### <a name="general-ledger-entries-" />Movimientos de contabilidad (1)
 
 |Fecha reg.|Cuenta|Nº cuenta (demostración En-US)|Importe|Nº mov.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ En el ejemplo siguiente se muestra si registra un producto comprado como recibid
 
 Más tarde, se registra un cargo de producto de compra de 2,00 DL facturado en 10-02-20. Ejecute el proceso **Valorar stock - movs. producto** y, a continuación, **Reg. var. inventario en contabilidad**. El proceso de ajuste del coste ajusta el coste de la venta en 2,00 DL y el proceso **Reg. var. inventario en cont.** registra los nuevos movimientos de valoración en la contabilidad. El resultado es el siguiente.  
 
-#### Movimientos de valor (2)  
+#### <a name="value-entries-" />Movimientos de valor (2)
 
 |Fecha reg.|Tipo mov. producto|Importe coste (Real)|Coste regis. en contab.|Cantidad facturada|Ajuste|Nº mov.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |10-02-20|Compra|2.00|2.00|0|No|3|  
 |15-01-20|Venta|-2,00|-2,00|0|Sí|4|  
 
-#### Movimientos de relación en C/G: tabla Relación movs. productos (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Movimientos de relación en C/G: tabla Relación movs. productos (2)
 
 |Nº mov. contabilidad|Nº mov. valor|Nº asto. registro|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Más tarde, se registra un cargo de producto de compra de 2,00 DL facturado en 1
 |7|4|2|  
 |8|4|2|  
 
-#### Movimientos de contabilidad (2)
+#### <a name="general-ledger-entries-" />Movimientos de contabilidad (2)
 
 |Fecha reg.|Cuenta|Nº cuenta (demostración En-US)|Importe|Nº mov.|  
 |------------|-----------|------------------------|------|---------|  
@@ -142,7 +142,7 @@ Más tarde, se registra un cargo de producto de compra de 2,00 DL facturado en 1
 |15-01-20|[Cuenta de inventario]|2130|-2,00|7|  
 |15-01-20|[Cuenta de CV]|7290|2.00|8|  
 
-## Ajuste automático coste
+## <a name="automatic-cost-adjustment" />Ajuste automático coste
 
 Para configurar que el ajuste de coste se ejecute automáticamente al registrar una transacción de inventario, utilice el campo **Ajuste automático coste** en la página **Configuración de inventario**. Este campo le permite seleccionar hasta qué punto en el pasado a partir de la fecha de trabajo actual desea que se realice el ajuste de coste. Las siguientes opciones están disponibles.  
 
@@ -158,7 +158,7 @@ Para configurar que el ajuste de coste se ejecute automáticamente al registrar 
 
 La selección que elija en el campo **Ajuste automático coste** es importante para el rendimiento y la exactitud de sus costes. Los periodos de tiempo más breves, como **Día** o **Semana**, afectan menos al rendimiento del sistema porque proporcionan un requisito más estricto de que solo los costes registrados en el último día o en la última semana se pueden ajustar automáticamente. Esto significa que el ajuste de coste automático no se ejecuta con tanta frecuencia y, por lo tanto, afecta menos al rendimiento del sistema. No obstante, esto significa también que los costes unitarios pueden ser menos exactos.  
 
-### Ejemplo
+### <a name="example" />Ejemplo
 
 En el ejemplo siguiente se muestra un escenario de ajuste de coste automático:  
 
@@ -170,7 +170,7 @@ Si ha configurado aplicar el ajuste automático del coste en los registros que s
 
 Si ha configurado aplicar el ajuste automático del coste en los registros que se produzcan dentro de un día o una semana a partir de la fecha de trabajo actual, el ajuste automático del coste no se ejecutará, y el coste de compra no se desviará a la venta hasta ejecutar el trabajo por lotes **Valorar stock - movs. producto**.  
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Modificar costes de productos](inventory-how-adjust-item-costs.md)  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  

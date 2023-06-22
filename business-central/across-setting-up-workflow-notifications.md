@@ -8,7 +8,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# Notificaciones de flujo de trabajo de aprobación
+# <a name="approval-workflow-notifications" />Notificaciones de flujo de trabajo de aprobación
 
 Configure sus flujos de trabajo para notificar automáticamente a los usuarios cuando se requiera su atención para un paso en un flujo de trabajo. Muchas respuestas del flujo de trabajo corresponden a la notificación al usuario de un evento que se ha producido y en el que deben realizar una acción.
 
@@ -20,7 +20,7 @@ Por ejemplo, puede establecer que el Usuario 2, el usuario aprobador, reciba una
 > [!IMPORTANT]  
 > Todas las notificaciones de flujo de trabajo se envían a través de una cola de proyectos. Asegúrese de que la cola de proyectos en la instalación está configurada para gestionar las notificaciones de flujo de trabajo, así como que se haya seleccionado la casilla **Iniciar automáticamente desde servidor**. Obtenga más información en [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## Configuración de notificaciones
+## <a name="set-up-notifications" />Configuración de notificaciones
 
 Puede configurar distintos aspectos de las notificaciones de flujo de trabajo en los lugares siguientes:  
 
@@ -49,9 +49,9 @@ Puede configurar distintos aspectos de las notificaciones de flujo de trabajo en
 
   Para los flujos de trabajo de aprobación, agregue un paso de respuesta de flujo de trabajo para notificar al remitente cuando su solicitud se ha aprobado o rechazado. Obtenga más información del paso 9 en la sección [Crear flujos de trabajo](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
 [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)  

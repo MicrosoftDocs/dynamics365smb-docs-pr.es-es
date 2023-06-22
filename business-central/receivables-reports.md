@@ -8,15 +8,15 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# Informes y análisis de cobros en Business Central
+# <a name="accounts-receivable-reports-and-analytics-in-business-central" />Informes y análisis de cobros en Business Central
 
 Para ayudarlo a administrar sus cobros en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
-## Informes
+## <a name="reports" />Informes
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  

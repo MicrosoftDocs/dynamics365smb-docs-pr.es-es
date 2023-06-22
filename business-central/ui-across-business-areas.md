@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# Funciones empresariales generales
+# <a name="general-business-functionality" />Funciones empresariales generales
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).
 
@@ -45,11 +45,11 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 | Configure definiciones de intercambio de datos para que pueda enviar y recibir documentos electrónicos. |[Intercambio de datos electrónicamente](across-data-exchange.md) |
 | Utilice mapas en línea para encontrar ubicaciones e indicaciones para clientes, proveedores y direcciones en general. | [Usar Mapas en línea para encontrar ubicaciones e indicaciones](across-online-maps.md) |
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administración](admin-setup-and-administration.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

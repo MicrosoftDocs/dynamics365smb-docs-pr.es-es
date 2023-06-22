@@ -11,7 +11,7 @@ ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Personalizar Business Central
+# <a name="customize-business-central" />Personalizar Business Central
 
 Existen diferentes formas de personalizar la aplicación para tener acceso a las funciones, la funcionalidad y los datos que más necesitan, de la manera que mejor se adapte a su trabajo diario. Aquellos que vean los cambios dependerán de lo que haga, como se describe en esta tabla.
 
@@ -28,13 +28,13 @@ Existen diferentes formas de personalizar la aplicación para tener acceso a las
 > [!NOTE]
 > Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[prod_short](includes/prod_short.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario. Por lo tanto, los usuarios con la experiencia **Esencial** pueden leer en algunos temas acerca de la funcionalidad y los elementos de la IU que no están visibles en su interfaz de usuario. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-## Consultar la [formación de Microsoft](/training/paths/tailor-roles-design-ui/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Consultar la [formación de Microsoft](/training/paths/tailor-roles-design-ui/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

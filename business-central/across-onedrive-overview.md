@@ -9,17 +9,17 @@ ms.date: 02/28/2022
 ms.author: jswymer
 ---
 
-# Integración de Business Central y OneDrive para la Empresa
+# <a name="business-central-and-onedrive-for-business-integration" />Integración de Business Central y OneDrive para la Empresa
 
 OneDrive para la Empresa es un servicio de almacenamiento en la nube que se incluye en Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] facilita almacenar, administrar y compartir archivos con otras personas a través de OneDrive. Cuando un archivo está en su OneDrive puede disfrutar de las ricas experiencias de colaboración de las versiones en línea de los productos de Microsoft, como Word, Excel y PowerPoint. Por ejemplo, puede compartir un documento de Word y luego usted y sus colegas pueden editarlo juntos en tiempo real. OneDrive también le permite abrir otros tipos de archivos, como PDF. 
 
-## Introducción a las características de OneDrive
+## <a name="get-started-with-onedrive-features" />Introducción a las características de OneDrive
 
 Si usa [!INCLUDE[prod_short](includes/prod_short.md)] en línea, ya hemos creado la conexión entre [!INCLUDE[prod_short](includes/prod_short.md)] en línea y OneDrive, por lo que es fácil comenzar. El único requisito es que los usuarios hayan abierto OneDrive al menos una vez. Con [!INCLUDE[prod_short](includes/prod_short.md)] local, un administrador debe configurar la conexión antes de que pueda comenzar. Más información en [Administrar la integración de OneDrive con Business Central](admin-onedrive-integration.md).
 
 <!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
 
-### Abrir y compartir archivos en OneDrive
+### <a name="open-and-share-in-onedrive" />Abrir y compartir archivos en OneDrive
 
 En la mayoría de las páginas donde hay archivos disponibles, como la Bandeja de entrada de informes o los archivos adjuntos a los registros, encontrará las acciones **Abrir en OneDrive** y **Compartir**.
 
@@ -33,7 +33,7 @@ En la mayoría de las páginas donde hay archivos disponibles, como la Bandeja d
 |Abrir en OneDrive|Copie el archivo en una carpeta de Business Central en su OneDrive y abra el archivo.|[Abrir en OneDrive](across-share-onedrive.md#open-in-onedrive) |
 |Participación|Copie el archivo en su OneDrive y compártalo con otras personas.|[Compartir en OneDrive](across-share-onedrive.md#share) |
 
-### Guarde libros de Excel y archivos de informes en OneDrive
+### <a name="save-excel-workbooks-and-report-files-in-onedrive" />Guarde libros de Excel y archivos de informes en OneDrive
 
 Con la configuración de integración de OneDrive, un par de otras características familiares usarán automáticamente OneDrive para guardar archivos en lugar de guardar archivos en su dispositivo:
 
@@ -55,7 +55,7 @@ The folder and its content are private until you decide to share them with other
 > [!NOTE]
 > También puede conectar su [!INCLUDE[prod_short](includes/prod_short.md)] local con OneDrive. Sin embargo, hay algunas cosas que se pueden hacer para que funcione. Para obtener más información, consulte [Configurar Business Central local](admin-onedrive-integration-onpremises.md).
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Administrar la integración de OneDrive con Business Central](admin-onedrive-integration.md)  
 [Abrir archivos de Business Central en OneDrive](across-share-onedrive.md)  

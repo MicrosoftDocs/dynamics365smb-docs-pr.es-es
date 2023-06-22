@@ -12,17 +12,17 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# Tutorial de flujo entrante y saliente en las configuraciones de almacén mixto
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-mixed-warehouse-configurations" />Tutorial de flujo entrante y saliente en las configuraciones de almacén mixto
 
 Este tutorial demuestra cómo completar los flujos de entrada y salida en una configuración mixta, donde el almacén de flujo de entrada se configura como Básico: pedido por pedido y para el flujo de salida se usa la configuración avanzada. Para obtener más información, consulte [Resumen de las diferentes opciones de configuración](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Requisitos previos  
+## <a name="prerequisites" />Requisitos previos
 Para completar este tutorial, deberá convertirse en empleado de almacén en el almacén *AMARILLO*, siguiendo estos pasos:  
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2. Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
 3. En el campo **Código de almacén**, especifique *AMARILLO*.  
 
-## Flujo entrante: recepción y almacenamiento en la configuración del almacenamiento básico
+## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations" />Flujo entrante: recepción y almacenamiento en la configuración del almacenamiento básico
 
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
@@ -37,10 +37,10 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de entrada 
 
 En el siguiente tutorial se muestra el método C de la tabla anterior.  
 
-### Escenario  
+### <a name="scenario" />Escenario
 Alicia, la agente de compras, crea pedidos de compra para diversos granos tostados, según surge la demanda. Cuando la entrega combinada llega al almacén, John, el trabajador del almacén, recibe y coloca los productos. Cuando John contabiliza la recepción, los productos se contabilizan como recibidos en el inventario y estarán disponibles para la venta u otra demanda.  
 
-### Pasos
+### <a name="steps" />Pasos
 1. Configure la página **Tarjeta de almacén** para definir los flujos entrantes de almacén de la empresa.  
 
     1.  Elija el icono ![Bombilla que abre la característica Dígame 2.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
@@ -69,7 +69,7 @@ Alicia, la agente de compras, crea pedidos de compra para diversos granos tostad
     4. en la segunda línea, cambie el valor del campo **Cantidad a recibir** de *200* a *190*.
     5. Elija la acción **Contabilizar recepción**.
 
-### Resultados 
+### <a name="results" />Resultados
  - los granos tostados ahora se registran como almacenados
  - se crea **Recepción de almacén contabilizada**
  - se crea **Recepción de compra contabilizada**
@@ -77,7 +77,7 @@ Alicia, la agente de compras, crea pedidos de compra para diversos granos tostad
  - el producto **Inventario** aumenta en la cantidad elegida
     
 
-## Flujo saliente: selección y envío en las configuraciones del almacenamiento básico
+## <a name="outbound-flow-picking-and-shipping-in-advanced-warehouse-configurations" />Flujo saliente: selección y envío en las configuraciones del almacenamiento básico
 
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
@@ -92,10 +92,10 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de salida d
 
 En el siguiente tutorial se demuestra el método D de la tabla anterior.
 
-### Escenario  
+### <a name="scenario" />Escenario
 Susan, la procesadora de pedidos, crea pedidos de venta de diversos granos tostados y lo pasa al almacén. Como todos los pedidos provienen del mismo cliente, Ellen, la gerente del almacén, decide enviarlos juntos. Juan, el trabajador de almacén debe comprobar que el envío se prepara y envía al cliente.
 
-### Pasos
+### <a name="steps" />Pasos
 Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la configuración del almacenamiento básico](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Libera los pedidos de venta al almacén.  
@@ -137,7 +137,7 @@ Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la 
     4. Elija la acción **Contabilizar envío**.
     5. Confirme la opción **Enviar**.
 
-### Resultados
+### <a name="results" />Resultados
  - los granos tostados ahora se registran como seleccionados 
  - se crea la **Selección de almacén registrada**
  - se crea **Envío de almacén contabilizado**
@@ -146,7 +146,7 @@ Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la 
  - el producto **Inventario** disminuye en la cantidad elegida
 
 
-## Consulte también
+## <a name="see-also" />Consulte también
 [Recibir productos](../../warehouse-how-receive-items.md)
 [Configurar almacenes básicos con zonas de operaciones](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 [Detalles de diseño: flujo entrante de almacén](../../design-details-inbound-warehouse-flow.md)

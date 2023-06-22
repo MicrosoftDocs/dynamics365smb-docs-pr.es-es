@@ -10,7 +10,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Configurar las finanzas
+# <a name="setting-up-finance" />Configurar las finanzas
 
 Antes de que pueda comenzar a administrar su negocio, debe especificar cómo desea administrar los procesos financieros de la empresa. En primer lugar, debe configurar el elemento básico de los registros de contabilidad de la empresa: el plan de cuentas (COA). A continuación, debe configurar los grupos contables, que se encargan de que el proceso de asignación de cuentas contables predeterminadas a los clientes, proveedores y productos sea más eficaz.
 
@@ -51,9 +51,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Según su ubicación geográfica, algunas páginas de Business Central pueden contener campos que no se describen en los productos que están en la lista de arriba porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Finanzas](finance.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  
@@ -62,6 +62,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

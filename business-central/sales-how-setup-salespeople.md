@@ -10,7 +10,7 @@ ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Configurar vendedores
+# <a name="set-up-salespeople" />Configurar vendedores
 
 Muchas empresas quieren realizar un seguimiento del rendimiento personal de sus empleados como base para calcular la comisión o prima por ventas. Vea, por ejemplo, el informe de **Comisiones del vendedor**. Ciertas empresas puede preferir asignar un vendedor a cada uno de sus contactos.
 
@@ -18,16 +18,16 @@ Cuando debe configurar un vendedor en la página **Vendedor**, puede seleccionar
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
-## Para configurar un código de vendedor
+## <a name="to-set-up-a-salesperson-code" />Para configurar un código de vendedor
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Vendedores** y luego elija el enlace relacionado.
 2. En la página **Vendedor**, elija la acción **Nuevo**.
 
 Puede utilizar vendedores en diferentes tareas de gestión de relaciones y de marketing. Por ejemplo, puede asignar tareas a un vendedor, de modo que las tareas se incorporen en las oportunidades de ventas que tiene asignadas el vendedor. Para obtener más información, vea [Configurar ciclos de ventas de oportunidad y etapas de ciclo](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Ccial](sales-manage-sales.md)  

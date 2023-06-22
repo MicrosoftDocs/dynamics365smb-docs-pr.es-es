@@ -11,12 +11,12 @@ ms.search.form: '10704, 10705'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Crear plantillas para las declaraciones telemáticas de IVA en formato de archivo de texto
+# <a name="create-templates-for-telematic-vat-statements-in-text-file-format" />Crear plantillas para las declaraciones telemáticas de IVA en formato de archivo de texto
 Para mostrar las declaraciones de IVA electrónicamente, debe crear plantillas para generar los archivos necesarios. Puede enviar los archivos en formato de texto y en formato XML. Este procedimiento describe cómo crear plantillas para los archivos de texto.  
 
 Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkID=238181).  
 
-## Para crear una plantilla para las declaraciones telemáticas de IVA en formato de archivo de texto  
+## <a name="to-create-a-template-for-vat-statements-in-text-file-format" />Para crear una plantilla para las declaraciones telemáticas de IVA en formato de archivo de texto
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Declaración de IVA** y luego elija el enlace apropiado.  
 2.  Seleccione la declaración de IVA requerida y después seleccione **Diseñar archivo TXT**.  
@@ -44,7 +44,7 @@ Para obtener más información, consulte el sitio web de la [Agencia Tributaria]
 
 Esta acción crea la plantilla. Ahora puede crear un archivo que luego puede enviar a las autoridades fiscales.  
 
-## Consulte también  
+## <a name="see-also" />Consulte también
  [Exportar declaraciones de IVA en formato de texto](how-to-export-vat-statements-in-text-format.md)   
  [Crear plantillas para las declaraciones telemáticas de IVA en formato XML](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 

@@ -11,7 +11,7 @@ ms.author: solsen
 ms.date: 04/01/2022
 ---
 
-# Resiliencia de complementos de control en Business Central
+# <a name="control-add-in-resiliency-in-business-central" />Resiliencia de complementos de control en Business Central
 
 A partir de la actualización 20.0 de [!INCLUDE[prod_short](includes/prod_short.md)], los complementos de control que funcionan lentamente se detectan de forma automática y se muestra un cuadro de diálogo similar al siguiente.
 
@@ -19,6 +19,6 @@ A partir de la actualización 20.0 de [!INCLUDE[prod_short](includes/prod_short.
 
 Un complemento de control en mal estado puede afectar a su experiencia de Business Central y hacer que la página en la que está trabajando se inicie lentamente. No afecta a los datos y los cambios se guardan siempre. Si ve la advertencia como se muestra arriba, puede ocultarla, pero es posible que vuelva a aparecer y, si el problema persiste, debe ponerse en contacto con su administrador.
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 <!-- []() link to new topic in dev docs -->

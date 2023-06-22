@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
 ---
-# Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
+# <a name="design-details-posting-date-on-adjustment-value-entry" />Detalles de diseño: Fecha registro en el movimiento de valor de ajuste
 
 Este artículo proporciona orientación para los usuarios de la función de cálculo de costes de inventario en [!INCLUDE[prod_short](includes/prod_short.md)], y en particular de cómo el trabajo por lotes **Ajustar coste: movimientos de producto** identifica y asigna una fecha de registro a los registros de valor que el trabajo por lotes está a punto de crear.
 
-## Cómo se asignan las fechas de registro
+## <a name="how-posting-dates-are-assigned" />Cómo se asignan las fechas de registro
 
 El proceso **Valorar stock - movs. producto** asigna una fecha de registro al movimiento de valor que creará en los pasos siguientes:  
 
@@ -26,7 +26,7 @@ El proceso **Valorar stock - movs. producto** asigna una fecha de registro al mo
 
 Revisemos este proceso más en la práctica. Supongamos que tenemos un movimiento de producto de venta. El producto se envió el 5 de septiembre de 2020 y se facturó el día después.  
 
-#### Mov. producto
+#### <a name="item-ledger-entry" />Mov. producto
 
 |Nº mov.  |Nº producto  |Fecha reg.  |Tipo movimiento  | N.º documento |Código de ubicación  |Cantidad  |Importe coste (Real)  |Cantidad facturada  |Cantidad pendiente  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -52,7 +52,7 @@ Para asignar la fecha de registro para el **Movimiento n.º 391** se aplicaron l
 
 Revisemos la venta mencionada anteriormente agregando la configuración de los rangos de fechas de publicación permitidos.  
   
-#### Periodos de inventario
+#### <a name="inventory-periods" />Periodos de inventario
 
 |Fecha final  |Name  |Cerrada  |
 |---------|---------|---------|
@@ -71,7 +71,7 @@ Revisemos la venta mencionada anteriormente agregando la configuración de los r
 
 La primera fecha de publicación permitida es el primer día del primer periodo abierto, que es el 1 de septiembre de 2020.  
 
-#### Configuración de contabilidad
+#### <a name="general-ledger-setup" />Configuración de contabilidad
 
 |Campo|Valor  |
 |---------|---------|
@@ -93,19 +93,19 @@ La fecha de registro asignada inicial era el 6 de septiembre como se muestra en 
 |381     |  A       |    2020-09-06     |    Venta     | Coste directo   | 103022        |319     | Azul        |  0       |-1        |-10       |    10     | No  |0      |       Ccial   |
 |391     |  A       |    **2020-09-10**     |    Venta     | Coste directo   | 103022        |319     | Azul        |  0       |0         |-1        |    0     |Sí   |    181   | AJUSINVEN   |
 
-## Problemas comunes con el trabajo en lote "Ajustar coste: movimientos de producto"
+## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job" />Problemas comunes con el trabajo en lote "Ajustar coste: movimientos de producto"
 
 Hay dos escenarios que el equipo de asistencia se encuentra con la frecuencia suficiente para justificar sus propios artículos de resolución de problemas.
 
-### Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"
+### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates" />Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"
 
 Si encuentra este error, debe ajustar las fechas en las que el usuario puede publicar movimientos. Para obtener más información, consulte [Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### La fecha de registro en el movimiento de valor de ajuste frente a la fecha de registro en el movimiento que causa el ajuste, como la revaluación o el cargo de producto
+### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge" />La fecha de registro en el movimiento de valor de ajuste frente a la fecha de registro en el movimiento que causa el ajuste, como la revaluación o el cargo de producto
 
 Para obtener más información, consulte [Fecha de registro en el movimiento de valor de ajuste en comparación con el movimiento de origen](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## Consulte también  
+## <a name="see-also" />Consulte también
 
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  

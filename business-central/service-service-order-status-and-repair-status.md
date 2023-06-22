@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Estado de pedido de servicio y estado de reparación
+# <a name="service-order-status-and-repair-status" />Estado de pedido de servicio y estado de reparación
 
 El campo **Estado** de la página **Pedido servicio** y el estado de reparación del producto de servicio, que se representa en el campo **Código estado reparación** de la página **Pedido servicio** están relacionados en Gestión servicios. El estado de pedido de servicio indica el estado de reparación de todos los productos de servicio del pedido de servicio.  
 
@@ -27,7 +27,7 @@ Cuando se convierte una oferta de servicio en un pedido, cambia el estado de rep
 > [!NOTE]
 > Antes de poder crear órdenes de servicio, debe configurar estados de reparación y prioridades de estado de servicio. Para obtener más información, vea [Configurar estados para pedidos de servicio y reparaciones](service-order-repair-status.md).
 
-## Especificar el estado de pedido de servicio para el estado de reparación
+## <a name="specifying-service-order-status-for-repair-status" />Especificar el estado de pedido de servicio para el estado de reparación
 
 Cada estado de reparación se encuentra vinculado a un estado de pedido de servicio determinado. Las opciones para el estado de la orden de servicio son las siguientes:
 
@@ -48,23 +48,23 @@ Las opciones de estado de reparación son las siguientes:
 * **Componente recibido**
 * **Terminada**  
 
-### Pendiente
+### <a name="pending" />Pendiente
 
 El estado de pedido de servicio **Pendiente** indica que el servicio puede iniciarse o continuar en cualquier momento. Por lo tanto, las opciones de estado de reparación **Inicial**, **Remitido**, **Parcialmente servido** y **Componente recibido** pueden vincularse a este estado de pedido de servicio.  
 
-### En proceso
+### <a name="in-process" />En proceso
 
 El estado de pedido de servicio **En proceso** indica que el servicio está en curso. Por lo tanto, las opciones de estado de reparación **En proceso** y **Componente pedido** pueden vincularse a este estado de pedido de servicio. Si vincula el estado **Componente pedido** al estado **En proceso** de un pedido de servicio, también deberá vincular el estado **Componente recibido** a este estado de pedido de servicio.  
 
-### Esperar
+### <a name="on-hold" />Esperar
 
 El estado de pedido de servicio **En espera** indica que el servicio se encuentra retenido de forma temporal a la espera de una respuesta del cliente o de componentes para que pueda iniciarse el servicio. Por lo tanto, las opciones de estado de reparación **Oferta terminada**, **Componente pedido** y **Esperando al cliente** pueden vincularse a este estado de pedido de servicio.  
 
-### Terminada
+### <a name="finished" />Terminada
 
 El estado de pedido de servicio **Terminado** indica que se ha completado el servicio. Por lo tanto, el estado de reparación **Terminado** está vinculado a este estado.  
 
-## Asignar prioridad al estado de pedido de servicio
+## <a name="assigning-priority-to-service-order-status" />Asignar prioridad al estado de pedido de servicio
 
 Cuando se modifica el estado de reparación de un producto de servicio, se identifican las opciones de estado de pedido de servicio vinculadas a las distintas opciones de estado de reparación de todos los productos de servicio del pedido. Si los productos de servicio se encuentran vinculados a dos o más opciones de estado de pedido de servicio, se selecciona la opción del estado de pedido de servicio con la prioridad más alta.  
 
@@ -72,7 +72,7 @@ Deberá decidir qué estado de pedido de servicio contiene la información más 
 
 Luego, cuando crea una nueva orden de servicio y le agrega elementos de servicio, el campo **Prioridad** en el encabezado de la orden de servicio se actualiza según las prioridades de los artículos de servicio.  
 
-### Ejemplo:
+### <a name="example" />Ejemplo:
 
 Un ejemplo típico de asignación de nivel de prioridad podría ser:  
 
@@ -83,7 +83,7 @@ Un ejemplo típico de asignación de nivel de prioridad podría ser:
 
 Por ejemplo, si un producto de servicio tiene el estado de reparación **Inicial**, vinculado al estado de pedido de servicio **Pendiente**, otro producto tiene el estado **En proceso**, vinculado al estado de pedido de servicio **En proceso**, y el tercer producto tiene el estado **Componente pedido**, vinculado al estado de pedido de servicio **En espera**, el estado de pedido de servicio resultante será **En proceso**, porque tiene la prioridad más alta.  
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Configuración de estados para órdenes y reparaciones de servicio](service-order-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  

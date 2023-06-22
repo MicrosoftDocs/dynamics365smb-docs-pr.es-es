@@ -11,7 +11,7 @@ ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Configurar banca
+# <a name="setting-up-banking" />Configurar banca
 
 Mediante el uso de fichas de bancos, puede realizar un seguimiento de todos sus bancos, en cualquier divisa. Cuando haya configurado los bancos, puede utilizar también la opción de impresión de cheques.
 
@@ -25,7 +25,7 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Administrar cobros](receivables-manage-receivables.md)  

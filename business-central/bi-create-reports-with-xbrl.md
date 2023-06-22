@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/14/2022
 ms.author: edupont
 ---
-# Crear informes con XBRL
+# <a name="create-reports-with-xbrl" />Crear informes con XBRL
 
 > [!NOTE]
 > Estamos en proceso de eliminar las características para informes XBRL de [!INCLUDE[prod_short](includes/prod_short.md)]. Más información en [Cambios en el primer lanzamiento de versiones de 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
@@ -29,13 +29,13 @@ XBRL, siglas en inglés de e**X**tensible **B**usiness **R**eporting **L**anguag
 >
 > El soporte completo para taxonomías puede requerir etiquetado y herramientas XBRL de terceros. La organización XBRL International tiene una lista de herramientas y servicios; dependiendo de los requisitos de generación de informes XBRL para una taxonomía determinada, es posible que desee explorar esos recursos. Más información en [Primeros pasos para empresas](https://go.microsoft.com/fwlink/?linkid=2153466) y [Herramientas y servicios](https://go.microsoft.com/fwlink/?linkid=2153356).
 
-## eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales)
+## <a name="extensible-business-reporting-language" />eXtensible Business Reporting Language (Lenguaje ampliado para informes comerciales)
 
 El sitio Web www.xbrl.org mantiene las taxonomías de XBRL. Para obtener más información y descargar taxonomías visite el sitio Web de XBRL.  
 
 Digamos que alguien quiere información financiera de usted. Proporcionan una taxonomía (un documento XML) que contiene uno o varios esquemas, cada uno con una o varias líneas. Las líneas corresponden a operaciones financieras individuales que requiere el remitente. Importe esta taxonomía y luego rellene los esquemas introduciendo las cuentas que corresponden a cada línea y el cálculo que se desea, como el saldo del periodo o el saldo a la fecha. En algunos casos puede introducir una constante, por ejemplo, el número de empleados. Ahora ya puede enviar el documento de instancia (un documento XML) al solicitante. La idea es que esto puede ser un evento periódico, por lo que si no ha hecho cambios en la taxonomía, sólo tiene que exportar los nuevos documentos de instancia para los nuevos periodos cuando se lo soliciten.
 
-## XBRL consta de los siguientes componentes
+## <a name="xbrl-comprises-the-following-components" />XBRL consta de los siguientes componentes
 
 La **especificación** XBRL explica lo que es XBRL y cómo generar documentos de instancia y taxonomías XBRL. La especificación XBRL explica XBRL en términos técnicos y está pensada para un público técnico.  
 
@@ -47,11 +47,11 @@ Una **taxonomía** XBRL es un "vocabulario" o "diccionario" creado por un grupo,
 
 Un **documento de instancia** XBRL es un informe de negocios, como un extracto financiero preparado para la especificación XBRL. La taxonomía explica el significado de los valores del documento de instancia. De hecho, un documento de instancia es inútil a menos que conozca la taxonomía para la que está preparada.  
 
-## Taxonomías por niveles
+## <a name="layered-taxonomies" />Taxonomías por niveles
 
 Una taxonomía puede constar de una taxonomía base, por ejemplo US GAAP (principios de contabilidad generalmente aceptados de los Estados Unidos) o IAS (normas contables internacionales), y luego tener una o más extensiones. Para reflejar esto, una taxonomía hace referencia a uno o varios esquemas, cada uno de los cuales son taxonomías propiamente dichas. Cuando se cargan las taxonomías adicionales en la base de datos, los elementos nuevos simplemente se agregan al final de los elementos existentes.  
 
-## Base de enlaces
+## <a name="linkbases" />Base de enlaces
 
 En XBRL (especif. 2), la taxonomía se describe en varios archivos XML. El archivo XML principal es el propio archivo de esquema de la taxonomía (archivo .xsd) que sólo contiene una lista desordenada de elementos u operaciones que se van a comunicar. Además, normalmente hay algunos archivos de base de enlaces (.xml). Los archivos de base de enlaces contienen datos que complementan la taxonomía básica (archivo .xsd). Existen seis tipos de archivos de base de enlaces de los cuales cuatro afectan a [!INCLUDE[prod_short](includes/prod_short.md)]. Son:
 
@@ -60,7 +60,7 @@ En XBRL (especif. 2), la taxonomía se describe en varios archivos XML. El archi
 * Base de enlaces de cálculo: Esta base de enlaces contiene información sobre cómo se distribuyen los elementos. La estructura es muy parecida a la de la base de enlaces de presentación, excepto que cada enlace o 'arc', como se denominan, tiene una propiedad Weight. La propiedad Weight puede ser 1 o –1, que indica si el elemento debe agregarse o eliminarse de su elemento padre. Tenga en cuenta que las distribuciones no se alinean necesariamente con la presentación visual.  
 * Base de enlaces de referencia: Esta base de enlaces es un archivo xml que contiene información adicional acerca de los datos que requiere el emisor de la taxonomía.
 
-## Configurar líneas XBRL
+## <a name="set-up-xbrl-lines" />Configurar líneas XBRL
 
 Después de importar o actualizar la taxonomía, las líneas de los esquema deben rellenarse con toda la información necesaria para satisfacer los requisitos de informes financieros concretos. Esta información incuye información básica de la empresa, los extractos financieros reales, los informes contables, las notas a los extractos financieros, esquemas de cuentas suplementarios, etc.  
 
@@ -83,7 +83,7 @@ Configure las líneas XBRL asignando los datos de la texto a sus datos contables
    > [!NOTE]  
    > Las taxonomías pueden contener elementos que [!INCLUDE[prod_short](includes/prod_short.md)] no soporta. Si un elemento no es compatible, el campo **Tipo de fuente** mostrará **No aplica** y el campo **Descripción** mostrará un mensaje de error, como **Tipo inesperado: "tipo específico no reconocido"**. Si debe exportar el elemento, elija un tipo de fuente coincidente. Normalmente, se trata de una constante o una descripción. De esta forma, podrá ingresar y exportar datos; sin embargo, dichos elementos pueden tener reglas de validación que no se pueden verificar antes de exportar.
 
-## Importar taxonomías XBRL
+## <a name="import-an-xbrl-taxonomy" />Importar taxonomías XBRL
 
 El primer paso para trabajar con la funcionalidad XBRL es importar una taxonomía en la base de datos de la empresa. Una taxonomía se compone de uno o varios esquemas y algunas bases de enlaces. Una vez haya completado la importación de los esquemas y las bases de enlaces y haya aplicado las bases de enlaces linkbases a los esquemas, puede configurar las líneas y asignar las cuentas contables del pan de cuentas a las líneas apropiadas de la taxonomía.  
 
@@ -102,7 +102,7 @@ El primer paso para trabajar con la funcionalidad XBRL es importar una taxonomí
 > [!IMPORTANT]  
 > En vez de aplicar las base de enlaces individualmente justo después de importar, puede esperar hasta que haya importado todas las bases de enlaces y, a continuación, aplicarlas todas simultáneamente. Para hacerlo, seleccione el botón **No** cuando el sistema le pregunte si desea aplicar las bases de enlaces recién importadas al esquema. Seleccione las líneas con las bases de enlaces que desea aplicar.  
 
-## Actualizar una taxonomía XBRL
+## <a name="update-an-xbrl-taxonomy" />Actualizar una taxonomía XBRL
 
 Cuando una taxonomía cambie, también tiene que actualizar la taxonomía actual. La razón para la actualización puede ser un cambio en el esquema, un cambio en la base de enlaces o una nueva base de enlaces. Después de actualizar la taxonomía, sólo tiene que asignar las líneas de las líneas nuevas o modificadas.  
 
@@ -114,9 +114,9 @@ Cuando una taxonomía cambie, también tiene que actualizar la taxonomía actual
 6. Para importar la base de enlaces, elija la acción **Importar**.  
 7. Elija **Sí** para aplicar la base de enlaces al esquema.  
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics--business-centralindex" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  
 [Finanzas](finance.md)  

@@ -10,7 +10,7 @@ ms.date: 06/24/2021
 ms.search.form: null
 ms.author: edupont
 ---
-# Registrar documentos y diarios
+# <a name="posting-documents-and-journals" />Registrar documentos y diarios
 
 Registrar representa la acción contable de registrar transacciones empresariales en extractos de varias empresas.
 
@@ -27,7 +27,7 @@ En la tabla siguiente se describen tareas relacionadas con vínculos a los temas
 | Obtenga una vista previa, en una página, de las entradas que se crearán al registrar. |[Vista previa de los resultados del registro](ui-how-preview-post-results.md) |
 | Obtenga una vista previa, en un informe, de las entradas que se crearán al registrar. |[Ver informes de prueba antes de realizar el registro](ui-how-view-test-reports-posting.md) |
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Editar documentos registrados](across-edit-posted-document.md)  
 [Buscar entradas relacionadas para documentos registrados](ui-find-entries.md)  

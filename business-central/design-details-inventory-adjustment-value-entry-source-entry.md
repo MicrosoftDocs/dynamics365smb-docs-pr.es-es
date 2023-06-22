@@ -11,15 +11,15 @@ ms.date: 09/17/2021
 ms.author: edupont
 ---
 
-# Fecha de registro en el movimiento de valor de ajuste en comparación con el movimiento de origen
+# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry" />Fecha de registro en el movimiento de valor de ajuste en comparación con el movimiento de origen
 
 Este artículo compara la fecha de registro del movimiento de valor de ajuste con la fecha de registro del movimiento que provoca la ejecución del trabajo por lotes Ajustar coste: movimientos de producto, en particular un escenario de revalorización y un escenario de cargo de producto.
 
 El trabajo por lotes **Ajustar coste: movimientos de producto** procesará sus datos dependiendo de su escenario y configuración de [!INCLUDE[prod_short](includes/prod_short.md)]. En esta sección, describimos dos procesos separados, y para cada uno mostramos el tipo de impacto que el trabajo por lotes Ajustar coste: movimientos de producto tiene en los datos.
 
-## Ejemplo de revaluación
+## <a name="revaluation-scenario" />Ejemplo de revaluación
 
-### Requisitos previos  
+### <a name="prerequisites" />Requisitos previos
 
 Introduzca los siguientes valores:
 
@@ -45,7 +45,7 @@ Introduzca los siguientes valores:
 
 - Permitir registro hasta = vacío  
 
-### Para probar el ejemplo
+### <a name="to-test-the-scenario" />Para probar el ejemplo
 
 Pruebe este escenario realizando los siguientes pasos.
 
@@ -150,15 +150,15 @@ El ajuste realizado para el Ajuste negativo en el paso 3 es el que produce la di
 
 Para lograr el ajuste del Ajuste negativo en el paso 3 en diciembre, el campo Configuración de contabilidad, Permitir registro desde, debe indicar una fecha en diciembre.  
 
-### Conclusión
+### <a name="conclusion" />Conclusión
 
 Con la experiencia obtenida en este escenario, al tener en cuenta la configuración más adecuada para un rango de fechas de registro permitido para una empresa, es posible que desee tener en cuenta lo siguiente. Siempre que permita que los cambios en el valor del inventario se registren en un periodo, como diciembre en este caso, la configuración que utiliza la empresa para los rangos de fechas de registro permitidos debe estar alineada con esta decisión. El campo Permitir registro desde de la Configuración de contabilidad, que comienza el 1 de diciembre, permitirá que la revaluación realizada en diciembre se envíe a los movimientos salientes afectados en el mismo período.  
 
 Los grupos de usuarios a los que no se les permite publicar en diciembre pero sí en enero, que probablemente estaban destinados a estar limitados por la Configuración de contabilidad de este ejemplo, deberían repararse a través de la Configuración del usuario.  
 
-## Ejemplo cargos producto  
+## <a name="item-charge-scenario" />Ejemplo cargos producto
 
-### Requisitos previos  
+### <a name="prerequisites" />Requisitos previos
 
 Introduzca los siguientes valores:
 
@@ -184,7 +184,7 @@ Introduzca los siguientes valores:
 
 - Permitir registro hasta = vacío  
 
-### Para probar el ejemplo  
+### <a name="to-test-the-scenario" />Para probar el ejemplo
 
 Pruebe este escenario realizando los siguientes pasos:
 
@@ -350,7 +350,7 @@ Es un desafío tener el informe de Valoración inventario para demostrar Cantida
 
 En este ejemplo, una opción podría ser tener en la Configuración de contabilidad, en el campo Permitir registro desde, una fecha indicada en diciembre por un par de días más y posponer el registro del cargo por primer producto para permitir todos los costes del período o ejercicio anterior para que el período al que pertenecen primero los pueda reconocer, mientras se ejecuta el proceso Valorar stock - movs. producto y luego mover la fecha de registro permitida al nuevo período\/ejercicio. El primer cargo de producto con fecha de registro el 2 de enero podría registrarse.  
 
-## Consulte también  
+## <a name="see-also" />Consulte también
 
 [Detalles de diseño: Fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  

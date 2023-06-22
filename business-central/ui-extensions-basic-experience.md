@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Extensión de la experiencia básica
+# <a name="the-basic-experience-extension" />Extensión de la experiencia básica
 
 Si ha estado usando Microsoft Dynamics C5, los socios de Microsoft pueden ayudarle a realizar la transición a una solución más moderna basada en [!INCLUDE[prod_short](includes/prod_short.md)], para que pueda seguir disfrutando de las mismas capacidades optimizadas que con Dynamics C5.
 
@@ -21,7 +21,7 @@ Esta extensión está destinada a pequeñas empresas y puede admitir hasta tres 
 > [!NOTE]
 > A partir de ahora, esta extensión está disponible solo para clientes de Dinamarca e Islandia.
 
-## Lo que hay disponible
+## <a name="whats-available" />Lo que hay disponible
 
 La siguiente tabla describe las capacidades que están disponibles si instala la extensión Experiencia básica.
 
@@ -33,7 +33,7 @@ La siguiente tabla describe las capacidades que están disponibles si instala la
 |**Administración de proyectos** |Trabajos, precios de trabajos, hojas de horas, asignaciones, tareas, recursos |
 |**Inventario** |Inventario básico, sustituciones de productos, referencia cruzada de productos |
 
-## Introducción
+## <a name="getting-started" />Introducción
 
 Esta extensión es un poco diferente a la mayoría, y necesitará la ayuda de un socio de Microsoft para instalarla y configurarla. Para que sepa qué puede esperar, aquí tiene una vista de alto nivel de lo que hará el socio de Microsoft.
 
@@ -44,11 +44,11 @@ Esta extensión es un poco diferente a la mayoría, y necesitará la ayuda de un
 5. Agregar el paquete **Demostrción de RapidStart**. <!--what does the package contain?-->
 6. Descargar e instalar la extensión Experiencia básica desde AppSource.
 
-## Migración de datos
+## <a name="migrating-data" />Migración de datos
 
 Lleve consigo sus datos de Dynamics C5. Después de que su socio de Microsoft instale la extensión Experiencia básica, tendrá una empresa vacía. Una forma fácil de mover sus datos de Dynamics C5 a Experiencia básica es usar la extensión Migración de datos de C5, que se incluye en [!INCLUDE[prod_short](includes/prod_short.md)]. La extensión migra clientes, proveedores, productos, sus cuentas de contabilidad y sus movimientos.
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Extensión de migración de datos de C5](ui-extensions-c5-data-migration.md)  
 

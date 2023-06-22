@@ -8,15 +8,15 @@ ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# Informes y análisis de activos fijos en Business Central
+# <a name="fixed-assets-reports-and-analytics-in-business-central" />Informes y análisis de activos fijos en Business Central
 
 Para ayudarlo a administrar sus activos fijos en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
-## Informes
+## <a name="reports" />Informes
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  

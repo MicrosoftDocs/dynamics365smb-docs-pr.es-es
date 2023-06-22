@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 08/12/2022
 ms.author: jswymer
 ---
-# Establecer el diseño utilizado por un informe
+# <a name="setting-the-layout-used-by-a-report" />Establecer el diseño utilizado por un informe
 
 > **SE APLICA A:** Business Central Online, Business Central local, lanzamiento de versiones 1 de 2022 y posteriores. Para versiones anteriores, vaya [aquí](ui-how-change-layout-currently-used-report.md).
 
@@ -19,7 +19,7 @@ El diseño de un informe determina el aspecto de un informe. Controla qué campo
 
 Cuando hay varias empresas en la aplicación, los diseños se establecen por empresa. Así, el mismo informe en una empresa puede tener un diseño diferente en otra.
 
-## Comenzar
+## <a name="get-started" />Comenzar
 
 Hay varias formas de establecer qué diseño usa un informe. Cada forma tiene ventajas, dependiendo de lo que estés buscando hacer: 
 
@@ -36,12 +36,12 @@ Hay varias formas de establecer qué diseño usa un informe. Cada forma tiene ve
   > [!NOTE]
   > No puede usar la página **Diseños de informe** para diseños de Word y RDLC que se crearon usando la función heredada **Diseños personalizados**. De hecho, ni siquiera verá estos diseños personalizados en la lista de la página **Diseños de informe**. Para estos diseños, solo puede configurarlos usando la página **Selección de diseño de informes**.
 
-## Establecer el diseño desde la página Diseños de informe
+## <a name="set-the-layout-from-the-report-layouts-page" />Establecer el diseño desde la página Diseños de informe
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Busque el diseño en la lista, selecciónelo y, a continuación, seleccione la acción **Establecer valor predeterminado** en la parte superior de la página.
 
-## Establecer el diseño desde la página Selección de diseño de informes
+## <a name="set-the-layout-from-report-layout-selection-page" />Establecer el diseño desde la página Selección de diseño de informes
 
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
   
@@ -54,13 +54,13 @@ Hay varias formas de establecer qué diseño usa un informe. Cada forma tiene ve
 
 4. En la página **Diseños de informe**, seleccione el diseño, luego seleccione **Aceptar**.
 
-## Revertir al diseño predeterminado original
+## <a name="revert-to-the-original-default-layout" />Revertir al diseño predeterminado original
 
 Los informes están diseñados para usar un diseño de forma predeterminada. Puede volver al diseño predeterminado original desde la página **Selección de diseño de informes**. Simplemente seleccione el informe, luego seleccione la acción **Restaurar la selección predeterminada** en la parte superior de la página.
 
-## Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

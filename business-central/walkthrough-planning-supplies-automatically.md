@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Tutorial: planificación automática de suministros
+# <a name="walkthrough-planning-supplies-automatically" />Tutorial: planificación automática de suministros
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -23,7 +23,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  El resultado de planificación se calcula en parte con los conjuntos demanda-suministro de la base de datos y en parte con la configuración de fichas ud. almacenamiento o fichas producto, L.M. producción y rutas.  
 
-## Acerca de este tutorial  
+## <a name="about-this-walkthrough" />Acerca de este tutorial
  En este tutorial, se demuestra el modo de utilizar el sistema de planificación del suministro para planificar automáticamente todos los pedidos de compra y órdenes de producción necesarias para producir 15 bicicletas de ruta demandadas en diferentes pedidos de venta. Para ofrecer un tutorial claro y realista, se ha delimitado el número de líneas de planificación eliminando todos los demás conjuntos de demanda-suministro en la empresa de demostración CRONUS, salvo la demanda de ventas en el almacén EAST.  
 
  En este tutorial se ilustran las siguientes tareas:  
@@ -33,18 +33,18 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 -   Creación automática de los pedidos de suministros sugeridos.  
 -   Creación de nueva demanda de ventas y replanificar consiguientemente.  
 
-## Funciones  
+## <a name="roles" />Funciones
 
 -   Planificador de producción  
 -   Agente de compras  
 
-## Requisitos previos  
+## <a name="prerequisites" />Requisitos previos
  Para completar este tutorial, necesitará:  
 
 -   La empresa de demostración CRONUS España S.A.  
 -   Cambiar varios valores de configuración del producto como se indica en los pasos de la sección "Preparación de datos de ejemplo", más adelante en este tutorial.  
 
-## Historia  
+## <a name="story" />Historia
  El cliente, Cannon Group PLC, hace un pedido de cinco bicicletas de ruta para su entrega el 05-02-2021 (5 de febrero).  
 
  Eduardo, el planificador de producción, realiza la planificación de suministros de rutina para la primera semana de febrero de 2021. Eduardo realiza el filtrado en su propio almacén, ESTE, y especifica el intervalo de planificación de la fecha de trabajo 23-01-2021 a 07-02-2021 antes de calcular un plan de suministro inicial.  
@@ -55,17 +55,17 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  Durante los diversos pasos de planificación, Eduardo consulta los pedidos implicados y utiliza la función Seguimiento pedido para ver qué demanda es cubierta con qué suministro.  
 
-## Preparación de datos de ejemplo  
+## <a name="preparing-sample-data" />Preparación de datos de ejemplo
  Cree ud. almacenamiento (UA) para la bicicleta de ruta y una selección de todos sus componentes, números de producto 1001 a 1300. (Algunos componentes se excluyen para simplificar los procedimientos.) Ajuste los parámetros de planificación de los componentes seleccionados para proporcionar un resultado de planificación más transparente.  
 
-### Para crear unidades de almacenamiento  
+### <a name="to-create-stockkeeping-units" />Para crear unidades de almacenamiento
 
 1.  Abra la ficha de producto correspondiente a 1001, bicicleta de ruta.  
 2.  Seleccione la acción **Crear unidad de almacenamiento**.  
 3.  En la página **Crear ud. de almacenam.**, deje todas las opciones y filtros sin cambiar y, a continuación, haga clic en **Aceptar**.  
 4.  Repita los pasos 1 a 3 para todos los productos en el intervalo numérico entre 1100 y 1300.  
 
-### Para cambiar los parámetros de planificación seleccionados  
+### <a name="to-change-selected-planning-parameters" />Para cambiar los parámetros de planificación seleccionados
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de almacenamiento**, y luego elija el enlace relacionado.  
 2.  Abra la ficha de unidad de almacenamiento EAST para el producto 1100, rueda delantera.  
@@ -79,10 +79,10 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  De este modo finaliza la preparación de datos de ejemplo para el tutorial.  
 
-## Creación de un plan de suministro regenerativo  
+## <a name="creating-a-regenerative-supply-plan" />Creación de un plan de suministro regenerativo
  En reacción a un nuevo pedido de venta de cinco bicicletas de ruta, Ricardo comienza el proceso de planificación configurando las opciones, los filtros y el intervalo de planificación para excluir el resto de la demanda, salvo la de la primera semana de febrero en el almacén EAST. Ricardo comienza por calcular un programa maestro de producción (MPS) y luego calcula un plan de suministro completo para toda la demanda de nivel inferior (MRP).  
 
-### Para crear el pedido de venta  
+### <a name="to-create-the-sales-order" />Para crear el pedido de venta
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
@@ -94,7 +94,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 4.  Acepte el aviso de disponibilidad y elija el botón **Sí** para registrar la cantidad de demanda nueva.  
 
-### Crear un plan regenerativo para satisfacer la demanda en el almacén EAST.  
+### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east" />Crear un plan regenerativo para satisfacer la demanda en el almacén EAST.
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
@@ -117,7 +117,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 7.  Cierre las páginas **Pedido venta** y **Seguimiento pedido**.  
 
-### Para calcular MRP para incluir las necesidades subyacentes del componente  
+### <a name="to-calculate-mrp-to-include-underlying-component-needs" />Para calcular MRP para incluir las necesidades subyacentes del componente
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
@@ -131,14 +131,14 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
      Se crea un total de 14 líneas de planificación que sugieren pedidos de suministro para toda la demanda que representa el pedido de venta de bicicletas de ruta del almacén EAST.  
 
-## Análisis del resultado de planificación  
+## <a name="analyzing-the-planning-result" />Análisis del resultado de planificación
  Para estudiar las cantidades sugeridas, Eduardo analiza según líneas de planificación seleccionadas para ver movimientos de seguimiento y parámetros de planificación de pedido.  
 
  En la página **Hoja de planificación**, observe en la columna **Fecha vencimiento** que los pedidos de suministro sugeridos se programan hacia atrás desde la fecha de vencimiento del pedido de venta, 05-02-2021. La escala de tiempo empieza en la línea de planificación superior con la orden de producción para producir las bicicletas de ruta terminadas. La escala de tiempo finaliza en la línea de planificación inferior con el pedido de compra de productos de nivel inferior, 1255, Arandela trasera, que vence el 01-30-2021. Como la línea de planificación para el producto 1251, eje de rueda posterior, esta línea representa un pedido de compra para los componentes que vencen en la fecha inicial de su producto principal fabricado, el producto de subensamblado 1250 que, a su vez, vence el 03-02-2014. En toda la hoja de cálculo, puede ver que todos los productos subyacentes vencen en la fecha inicial de sus productos principales.  
 
  La línea de planificación para el producto 1300, Mtje. cadena, sugiere diez piezas. Esto se desvía de las cinco piezas que esperamos que necesite para cubrir el pedido de venta. Empiece a visualizar los movimientos de seguimiento del pedido.  
 
-### Ver los movimientos de seguimiento del pedido para el producto 1300  
+### <a name="to-view-order-tracking-entries-for-item-" />Ver los movimientos de seguimiento del pedido para el producto 1300
 
 1.  Seleccione la línea de planificación del producto 1300 y seleccione la acción **Seguimiento de pedido**.  
 
@@ -148,7 +148,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
      La página **Elementos planificación sin seguimiento** muestra que el producto 1300 utiliza un parámetro de planificación, Cantidad mínima pedido, de 10,00. Por lo tanto, la línea de planificación es para diez piezas en total, de las cuales se puede realizar un seguimiento de cinco a una demanda. Las cinco últimas piezas son una cantidad no seguida para satisfacer el parámetro de planificación. Empiece a revisar el parámetro de la planificación.  
 
-### Para comprobar el parámetro de planificación  
+### <a name="to-check-the-planning-parameter" />Para comprobar el parámetro de planificación
 
 1.  En la página **Elementos planificación sin seguimiento**, seleccione la línea de seguimiento de pedido para el producto 1300.  
 2.  Elija el campo **Nº de producto** y, a continuación, elija la acción **Avanzado**.  
@@ -157,7 +157,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 5.  En la ficha desplegable **Planificación**, tenga en cuenta que el campo **Cantidad mínima pedido** contiene 10.  
 6.  Cierre todas las páginas salvo **Hoja planificación**.  
 
-### Para ver más movimientos de seguimiento de pedidos  
+### <a name="to-view-more-order-tracking-entries" />Para ver más movimientos de seguimiento de pedidos
 
 1.  Seleccione la línea de planificación del producto 1110, Llanta y seleccione la acción **Seguimiento de pedido**.  
 
@@ -179,10 +179,10 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  De este modo finaliza el análisis del plan de suministro inicial. Observe que la casilla **Aceptar mensaje acción** está seleccionada en todas las líneas de planificación, lo que indica que están listas para convertirse en pedidos de suministro.  
 
-## Realización de mensajes de acción  
+## <a name="carrying-out-action-messages" />Realización de mensajes de acción
  A continuación, Eduardo convierte las líneas de planificación sugeridas en pedidos de suministro con la función **Ejecutar mensajes acción**.  
 
-### Para crear automáticamente los pedidos de suministros sugeridos  
+### <a name="to-automatically-create-the-suggested-supply-orders" />Para crear automáticamente los pedidos de suministros sugeridos
 
 1.  Seleccione la casilla **Aceptar mensaje acción** en todas las líneas de planificación con una advertencia de tipo Excepción.  
 2.  Seleccione la acción **Ejecutar mensajes de acción**.  
@@ -197,12 +197,12 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  De este modo finaliza el cálculo inicial, análisis y creación de un plan de suministro para la demanda en el almacén EAST para la primera semana de febrero. En la siguiente sección, otro cliente realiza un pedido de diez bicicletas de ruta, por lo que Eduardo deberá replanificar.  
 
-## Creación de un plan de saldo periodo  
+## <a name="creating-a-net-change-plan" />Creación de un plan de saldo periodo
  Al día siguiente, antes de que se inicie o registre ninguno de los pedidos de suministro iniciales, llega un nuevo pedido de venta de Libros S.A. de diez bicicletas de ruta para enviarse el 12-02-2021. A Eduardo le notifican la nueva demanda y pasa a replanificar para ajustar el plan de suministro actual. Eduardo utiliza la función Planif. saldo periodo para calcular únicamente los cambios que se realizan a la demanda o al suministro desde la última ejecución de la planificación. Además, Eduardo expande el periodo de planificación al 14-02-2021, para incluir la nueva demanda de venta el 12-02-2014.  
 
  El sistema de planificación calcula el mejor modo de cubrir la demanda para estos dos productos idénticos, como consolidar algunos pedidos de compra y órdenes de producción, reprogramar otros pedidos y crear nuevos pedidos donde se requiera.  
 
-### Para crear la demanda de ventas nueva y replanificar  
+### <a name="to-create-the-new-sales-demand-and-replan-accordingly" />Para crear la demanda de ventas nueva y replanificar
 
 1.  Seleccione la acción **Nuevo**.  
 2.  En la página **Pedido de venta**, rellene los campos tal como se describe en la tabla siguiente.  
@@ -229,12 +229,12 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  Todas las demás líneas de planificación contienen un mensaje de acción **Reprog. y camb. cdad.** Esto indica que, además de aumentarse en cantidad, se trasladan las fechas de vencimiento en relación con el plan de suministro para incluir la cantidad adicional en el tiempo de producción disponible (capacidad). Los componentes comprados se vuelven a programar y se aumentan para suministrar las órdenes de producción. Empiece a analizar el nuevo plan.  
 
-## Análisis del resultado de planificación modificado  
+## <a name="analyzing-the-changed-planning-result" />Análisis del resultado de planificación modificado
  Dado que todos los productos planificados de lote a lote en el filtro, 1100 a 1300, tienen un periodo de reprogramación de dos semanas, se modifican todos sus pedidos de suministros existentes para cubrir la nueva demanda, que se realiza dentro de las dos semanas especificadas.  
 
  Varias líneas de planificación se multiplican simplemente por tres para proporcionar 15 bicicletas de ruta en lugar de 5, y las fechas de vencimiento se retroceden para proporcionar las cantidades aumentadas por la fecha de envío del pedido de venta Cannon Group. Para estas líneas de planificación, todas las cantidades pueden ser seguidas. Las líneas de planificación restantes incrementan en diez piezas, además de mover sus fechas de vencimiento. Para estas líneas de planificación, una parte de las cantidades no son seguidas debido a parámetros de planificación diferentes. Empiece a visualizar algunos de estos movimientos de seguimiento del pedido.  
 
-### Ver los movimientos de seguimiento del pedido para el producto 1250  
+### <a name="to-view-order-tracking-entries-for-item-" />Ver los movimientos de seguimiento del pedido para el producto 1250
 
 1.  Seleccione la línea de planificación del producto 1250 y seleccione la acción **Seguimiento de pedido**.  
 
@@ -248,7 +248,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
 3.  Cierre todas las páginas salvo **Hoja planificación**.  
 
-### Ver un pedido existente  
+### <a name="to-view-an-existing-order" />Ver un pedido existente
 
 1.  En la línea de planificación del producto 1250, elija el campo **Nº orden ref.**. .  
 2.  En la página **Orden produc. planif. en firme** para el buje trasero. El pedido existente de diez piezas, que se creó en la primera ejecución de la planificación, se abrirá.  
@@ -256,7 +256,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  De este modo finaliza el tutorial sobre cómo se utiliza el sistema de planificación para detectar automáticamente la demanda, calcular los pedidos de suministro adecuados según los parámetros de demanda y planificación y, finalmente, crear automáticamente diferentes tipos de pedidos de suministro con las fechas y cantidades adecuadas.  
 
-## Consulte también  
+## <a name="see-also" />Consulte también
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)

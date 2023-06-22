@@ -11,7 +11,7 @@ ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 563
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Administrar activos fijos
+# <a name="managing-fixed-assets" />Administrar activos fijos
 
 La funcionalidad Activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
 
@@ -41,15 +41,15 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registrar transacciones de venta/baja, ver movimientos de venta/baja y registrar ventas/bajas parciales. |[Cancelar o retirar activos fijos](fa-how-dispose-retire.md) |
 | Gestionar presupuestos de activos fijos, costes, ventas/bajas y amortización. |[Gestionar presupuestos de los activos fijos](fa-how-manage-budgets.md) |
 
-## Resumen en vídeo
+## <a name="video-overview" />Resumen en vídeo
 
 El siguiente video cubre los conceptos básicos de los activos fijos.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-transactions/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-transactions/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Configuración de activos fijos](fa-setup.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
@@ -57,7 +57,7 @@ El siguiente video cubre los conceptos básicos de los activos fijos.
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

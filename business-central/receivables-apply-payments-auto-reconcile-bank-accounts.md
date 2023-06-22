@@ -11,7 +11,7 @@ ms.search.form: '1290, 1291, 1293, 1294'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Liquidación de pagos automáticamente y conciliación de cuentas bancarias
+# <a name="applying-payments-automatically-and-reconciling-bank-accounts" />Liquidación de pagos automáticamente y conciliación de cuentas bancarias
 Debe conciliar con frecuencia los bancos y las cuentas de cobros y de pagos liquidando pagos registrados en el banco en sus facturas abiertas (sin abonar) relacionadas, abonos y otros movimientos pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Puede realizar esta tarea en la página **Diario de conciliación de pagos**, por ejemplo, importando una fuente o archivo de extracto bancario para registrar rápidamente los pagos. Los pagos se liquidan en los movimientos de cliente o proveedor abiertos en función de las coincidencias entre el texto de pago y la información de movimiento. Puede revisar y cambiar las liquidaciones automáticas entes de registrar el diario. Puede elegir cerrar los movimientos de cuentas bancarias abiertos relacionados con los movimientos liquidados cuando registra el diario. La cuenta bancaria se concilia automáticamente cuando se liquidan todos los pagos.
@@ -37,9 +37,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Vincule el texto sobre pagos con cuentas concretas de cliente, de proveedor o de contabilidad para que siempre se registren recibos de cobro o gastos periódicos en dichas cuentas cuando no haya documentos a los que aplicarlos. |[Asignar texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Establezca reglas para determinar el modo en que los pagos/operaciones bancarias deben liquidarse automáticamente en los movimientos pendientes relacionados cuando se utiliza la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**.|[Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)|
 
-## Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/index) relacionada
 
-## Consulte también
+## <a name="see-also" />Consulte también
 [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  

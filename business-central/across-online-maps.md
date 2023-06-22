@@ -8,7 +8,7 @@ ms.search.form: '21, 26, 76, 86, 88, 300, 370, 800, 804, 5050, 5200, 5703'
 ms.date: 07/15/2022
 ms.author: a-reishima
 ---
-# Usar Mapas en línea para encontrar ubicaciones e indicaciones
+# <a name="use-online-maps-to-find-locations-and-directions" />Usar Mapas en línea para encontrar ubicaciones e indicaciones
 
 Puede obtener un mapa del servicio de mapas en línea en los que se muestran la dirección y la ubicación de un cliente o proveedor, así como generar indicaciones de rutas para llegar a ellas. Se puede obtener acceso a la característica **Online Map** desde las siguientes fichas de [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -25,14 +25,14 @@ Puede obtener un mapa del servicio de mapas en línea en los que se muestran la 
 > [!NOTE]
 > Si no hay ningún código en el campo **Cód. país/ región**, el mapa en línea no podrá buscar direcciones.
 
-## Busque una ubicación en un mapa en línea
+## <a name="find-a-location-in-an-online-map" />Busque una ubicación en un mapa en línea
 
 1. Abra una de las fichas mencionadas anteriormente.
 2. Elija la acción **Mapa en línea** o **Mostrar en el mapa**.
 3. Elija el campo **Esta dirección** y, a continuación, seleccione **Aceptar**.
 4. El mapa en línea configurado se abre con la ubicación de la dirección definida en la tarjeta.
 
-## Obtener indicaciones de ruta desde su ubicación
+## <a name="get-route-directions-from-your-location" />Obtener indicaciones de ruta desde su ubicación
 
 1. Abra una de las fichas mencionadas anteriormente.
 2. Elija la acción **Mapa en línea** o **Mostrar en el mapa**.
@@ -42,7 +42,7 @@ Puede obtener un mapa del servicio de mapas en línea en los que se muestran la 
 > [!NOTE]
 > El mapa en línea se abre en el navegador o la aplicación predeterminados, que pueden solicitar acceso a los datos de ubicación del dispositivo.
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Configurar mapas en línea](across-online-maps-setup.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  

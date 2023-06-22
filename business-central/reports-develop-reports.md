@@ -12,11 +12,11 @@ ms.date: 02/03/2022
 ms.author: kepontop
 ---
 
-# Desarrollo de diseños de informes y conjuntos de datos de Business Central
+# <a name="developing-business-central-report-layouts-and-datasets" />Desarrollo de diseños de informes y conjuntos de datos de Business Central
 
 Un informe de [!INCLUDE[prod_short](includes/prod_short.md)] consta de un objeto de informe que define el _conjunto de datos_ del informe (qué datos están disponibles) y una serie de _diseños de informes_ (cómo se presentan los datos).  
 
-## Desarrollo de diseños de informe
+## <a name="developing-report-layouts" />Desarrollo de diseños de informe
 
 ¿Tal vez desee modificar los diseños de informes existentes proporcionados en [!INCLUDE[prod_short](includes/prod_short.md)]? Dependiendo de la tecnología utilizada para el diseño, esto es algo que podría hacer usted mismo (diseños de Excel y tal vez también de Word), o tal vez necesite un desarrollador para hacerlo (diseños RDLC con pixelación perfecta).
 
@@ -31,7 +31,7 @@ Un informe de [!INCLUDE[prod_short](includes/prod_short.md)] consta de un objeto
 | para aprender a cambiar el diseño predeterminado de un informe. | [Cambiar el diseño predeterminado](ui-how-change-layout-currently-used-report.md) |
 <!-- | Para aprender a trabajar con diseños de Excel | [Trabajar con diseños de Excel](ui-how-add-fields-word-report-layout.md) | -->
 
-## Desarrollo de conjuntos de datos de informes
+## <a name="developing-report-datasets" />Desarrollo de conjuntos de datos de informes
 
  Para cambiar las definiciones de conjuntos de datos que definen qué datos están disponibles en el informe, necesita un desarrollador que conozca el lenguaje de programación AL y las herramientas para desarrollar objetos de informe y extensiones de informe.
 
@@ -40,7 +40,7 @@ Un informe de [!INCLUDE[prod_short](includes/prod_short.md)] consta de un objeto
 | Aprender a programar reportes en AL | [Guía de desarrollo de informes](/dynamics365/business-central/dev-itpro/developer/devenv-reports) |
 | Aprender a hacer que los informes funcionen | [Guía de ajuste del rendimiento de los informes](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports) |
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Descripción general de Inteligencia empresarial e informes](reports-use-reports.md)
 

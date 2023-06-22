@@ -12,13 +12,13 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Configuración y asiento de la regularización
+# <a name="set-up-and-close-income-statement-balances" />Configuración y asiento de la regularización
 Puede utilizar cuentas de regularización para saldar y realizar el seguimiento de varias cuentas al mismo tiempo. El proceso **Asiento regularización** transfiere las cuentas de regularización a una cuenta del balance y las cierra. Cuando se ejecuta el proceso **Asiento regularización**, los movimientos se registran automáticamente.  
 
 > [!NOTE]  
 >  Antes de ejecutar el proceso, se debe cerrar el ejercicio.  
 
-## Para configurar la cuenta de regularización  
+## <a name="to-set-up-the-income-statement-balance-account" />Para configurar la cuenta de regularización
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2.  Seleccione una cuenta de contabilidad existente y después seleccione **Editar** para abrir la página **Ficha cuenta**.  
@@ -30,7 +30,7 @@ Puede utilizar cuentas de regularización para saldar y realizar el seguimiento 
 
 5.  Escriba la información en los campos requeridos y, a continuación, elija el botón **Aceptar**.  
 
-## Para el asiento de la regularización  
+## <a name="to-close-income-statement-balances" />Para el asiento de la regularización
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Asiento regularización** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
@@ -54,7 +54,7 @@ Puede utilizar cuentas de regularización para saldar y realizar el seguimiento 
 
 4.  Elija el botón **Aceptar**.  
 
-## Consulte también  
+## <a name="see-also" />Consulte también
  [Funcionalidad local para España](spain-local-functionality.md)
 
 

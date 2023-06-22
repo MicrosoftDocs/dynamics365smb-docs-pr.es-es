@@ -8,15 +8,15 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.author: andreipa
 ---
-# Informes y análisis de inventario y almacén en Business Central
+# <a name="inventory-and-warehouse-reports-and-analytics-in-business-central" />Informes y análisis de inventario y almacén en Business Central
 
 Los informes de inventario y almacén en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de la producción y los negocios obtener información y estadísticas sobre las actividades de inventario y almacén actuales y pasadas.  
 
-## Informes
+## <a name="reports" />Informes
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 
-## Tareas
+## <a name="tasks" />Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
@@ -24,7 +24,7 @@ Los siguientes artículos describen algunas de las tareas clave para analizar el
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Configurar inventario](inventory-setup-inventory.md)  
 [Inventario](inventory-manage-inventory.md)  

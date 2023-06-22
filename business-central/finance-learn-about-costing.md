@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Acerca del contabilidad de valoración
+# <a name="about-inventory-costing" />Acerca del contabilidad de valoración
 Administrar inventario y valoración se refiere al registro y la creación de informes sobre los costes de explotación de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.  
 
  Es preciso entender los principios básicos, es decir, que los métodos de valoración definen cómo se valoran los productos cuando salen del inventario, que el ajuste de costes actualiza el coste de las mercancías vendidas con los costes de compra asociados registrados tras su venta y que los valores de inventario deben registrarse en cuentas contables exclusivas periódicamente.  
@@ -31,7 +31,7 @@ Administrar inventario y valoración se refiere al registro y la creación de in
 |Leer cómo los periodos de inventario ayudan a las empresas a controlar el valor de las existencias con el tiempo definiendo periodos más cortos que se pueden cerrar para registrar según avanza el año fiscal.|[Trabajar con periodos de inventario](finance-how-to-work-with-inventory-periods.md)|  
 |Comprender todos los mecanismos del motor de cálculo de costos, incluyendo lo que sucede cuando se registran las transacciones de montaje y producción.|[Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)|  
 
-## Consulte también
+## <a name="see-also" />Consulte también
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)    
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

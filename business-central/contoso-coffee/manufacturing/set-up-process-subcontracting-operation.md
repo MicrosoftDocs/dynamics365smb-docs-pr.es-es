@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Configurar y procesar una operación de subcontratación
+# <a name="set-up-and-process-a-subcontracting-operation" />Configurar y procesar una operación de subcontratación
 
 En este artículo, lo guiaremos a través de los pasos para usar los datos de demostración de Contoso Coffee en la subcontratación.
 
-## Caso
+## <a name="scenario" />Caso
 
 Usted es el planificador de producción de Contoso Coffee. Debido a limitaciones de capacidad, planea usar un subcontratista para producir el artículo **SP-SCM1009, Airpot**.
 
 Aquí, crea una nueva orden de producción liberada para 12 unidades del artículo SP-SCM1009, Airpot, usando Enrutamiento - SP-SCM1009-SUB-2. Utilice la hoja de trabajo de subcontratación para generar una orden de compra para la producción y luego finalice la operación al recibir y facturar la orden de compra.
 
-## Pasos
+## <a name="steps" />Pasos
 
 1. Cree una nueva orden de producción liberada para 12 unidades del artículo SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Aquí, crea una nueva orden de producción liberada para 12 unidades del artíc
 
 La salida del artículo SP-SCM1009 Airpot ahora está registrada.
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Introducción a datos de demostración de Contoso Coffee](../contoso-coffee-intro.md)  

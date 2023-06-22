@@ -11,13 +11,13 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-includeprodlongincludesprodlongmd" />Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tiene una estrategia de localización combinada que incluye tanto modelos dirigidos por Microsoft como modelos dirigidos por socios. En esta sección puede ver las descripciones de la funcionalidad que se aplica a los países y regiones donde Microsoft proporciona el cumplimiento normativo y otra funcionalidad local.  
 
 Para obtener una lista de los mercados admitidos actualmente, consulte [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## Funcionalidad local
+## <a name="local-functionality" />Funcionalidad local
 
 Para conocer la funcionalidad local de cada país o región, elija el vínculo relacionado:
 
@@ -48,11 +48,11 @@ Para conocer la funcionalidad local de cada país o región, elija el vínculo r
 |        | India | [Funcionalidad local para India](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nueva Zelanda | [Funcionalidad local para Nueva Zelanda](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### Otros países o regiones
+### <a name="other-countries" />Otros países o regiones
 
 [!INCLUDE[prod_short](includes/prod_short.md)] también está disponible en otros mercados mediante aplicaciones de localización. Si un socio de Microsoft ha desarrollado una aplicación de localización para su país o región, puede encontrarla en [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## Consulte también
+## <a name="see-also" />Consulte también
 [Crear entornos](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Cumplimiento](compliance/compliance-overview.md)  

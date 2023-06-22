@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Actualizar costes estándar
+# <a name="update-standard-costs" />Actualizar costes estándar
 Debe actualizar periódicamente los costes estándar de los componentes y distribuir los nuevos costes al producto principal. El proceso normalmente consiste en los cuatro pasos siguientes:  
 
 1.  Actualizar los costes en los niveles de componente y de capacidad. Para obtener más información, consulte el proceso **Sugerir coste estándar prod.**.  
@@ -20,7 +20,7 @@ Debe actualizar periódicamente los costes estándar de los componentes y distri
 
 Para obtener más información, consulte [Acerca de Calcular el coste estándar](finance-about-calculating-standard-cost.md).
   
-## Para actualizar los costes estándar
+## <a name="to-update-standard-costs" />Para actualizar los costes estándar
 
 1.  Ejecute el proceso **Valorar stock - movs. producto**.  
 2.  Ejecute el proceso **Regis. variación existencias**.  
@@ -35,7 +35,7 @@ Para obtener más información, consulte [Acerca de Calcular el coste estándar]
     7.  Ejecute el proceso **Implementar cambios de coste estándar**.  
 4.  Revise y registre la página **Diario revalorizac.** , el cual se ha rellenado con entradas provenientes de los pasos anteriores del proceso.  
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
  [Acerca del cálculo de coste estándar](finance-about-calculating-standard-cost.md)   
  [Gestión de costes de inventario](finance-manage-inventory-costs.md)   

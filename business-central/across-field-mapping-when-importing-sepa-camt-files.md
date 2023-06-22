@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/06/2023
 ms.custom: bap-template
 ---
-# Asignación de campos al importar archivos CAMT de SEPA
+# <a name="field-mapping-when-importing-sepa-camt-files" />Asignación de campos al importar archivos CAMT de SEPA
 
 [!INCLUDE[prod_short](includes/prod_short.md)] admite los estándares de SEPA (zona única de pagos en euros) regional para importar los extractos de cuenta de SEPA (formato CAMT). Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Para obtener información acerca de cómo crear o ajustar una definición de intercambio de datos, consulte [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
-## Asignación de datos de CAMT a los campos de la tabla del diario general (81)  
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />Asignación de datos de CAMT a los campos de la tabla del diario general (81)
 
 |Ruta de acceso al elemento|Elemento de mensaje|Tipo de datos|Descripción|Identificador de signo de negativo|Nº campo|Nombre de campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|No estructurado|Texto|Información suministrada para activar el emparejamiento o la conciliación de un movimiento con los productos que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas de cobro no estructuradas.||8|Descripción|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texto|Información adicional acerca del movimiento.||1222|Información de la transacción|  
 
-## Asignación de datos de CAMT a los campos de la tabla de conciliación (273)  
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />Asignación de datos de CAMT a los campos de la tabla de conciliación (273)
 
 |Ruta de acceso al elemento|Elemento de mensaje|Tipo de datos|Descripción|Identificador de signo de negativo|Nº campo|Nombre de campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Fecha|La fecha y hora de creación del mensaje.||3|Fecha extracto|  
 |Stmt/Bal/Amt|Importe|Decimal|Importe derivado de los importes liquidados para todos los movimientos de debe y haber.||4|Saldo final extracto|  
 
-## Asignación de datos de CAMT a los campos de la tabla de la línea de conciliación (274)  
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />Asignación de datos de CAMT a los campos de la tabla de la línea de conciliación (274)
 
 |Ruta de acceso al elemento|Elemento de mensaje|Tipo de datos|Descripción|Identificador de signo de negativo|Nº campo|Nombre de campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -55,7 +55,7 @@ ms.custom: bap-template
 > [!IMPORTANT]
 > En una importación de extractos de cuenta CAMT, [!INCLUDE[prod_short](includes/prod_short.md)] espera que cada transacción sea única, lo que significa que el campo **Id. de transacción** que viene de la etiqueta *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* del archivo CAMT, debe ser única dentro de la conciliación de banco abierta. Si la información no está presente, [!INCLUDE[prod_short](includes/prod_short.md)] ignora el pago. Si se registró una conciliación de banco anterior en el mismo banco con el mismo Id. de transacción que en la importación actual, la transacción actual no se conciliará automáticamente, pero se podrá importar.
 
-## Consulte también  
+## <a name="see-also" />Consulte también
 
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)  

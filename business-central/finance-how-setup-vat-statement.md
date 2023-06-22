@@ -11,11 +11,11 @@ ms.search.form: '317, 318, 320, 474'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Configurar tipos de declaración de IVA y nombres de declaración de IVA
+# <a name="set-up-vat-statement-templates-and-vat-statement-names" />Configurar tipos de declaración de IVA y nombres de declaración de IVA
 
 Las autoridades fiscales pueden modificar, y lo hacen, sus requisitos para registrar el IVA. Los tipos de declaración del IVA y los nombres de declaración del IVA pueden ayudarle a prepararse para los próximos cambios y hacer una transición sin problemas a los nuevos requisitos. Puede usar plantillas de declaración de IVA para configurar diferentes informes al elegir imprimir la declaración. Cada plantilla de declaración de IVA puede tener varios nombres de declaración de IVA que a su vez definen los cálculos, y puede crear un nuevo nombre de declaración de IVA cuando cambien los requisitos. Por ejemplo, un nombre podría calcular el IVA para este año basándose en los requisitos actuales y otro podría calcular el IVA basándose en los requisitos para el próximo año. Los nombres también son una forma de mantener un historial de los formatos de las declaraciones del IVA, por ejemplo, para que pueda consultar cómo calculó el IVA en años anteriores.
 
-## Para definir una declaración de IVA
+## <a name="to-define-a-vat-statement" />Para definir una declaración de IVA
 
 Las declaraciones de IVA le permiten calcular el importe de liquidación de IVA de un determinado periodo, por ejemplo, un trimestre.
 
@@ -27,7 +27,7 @@ Las declaraciones de IVA le permiten calcular el importe de liquidación de IVA 
 > Puede filtrar la información que incluirá la declaración, dependiendo de lo que elija en el campo **Tipo**. **Cuentas a totalizar** resulta útil cuando desea el IVA de una cuenta específica.
 **Total mov. IVA** obtiene el IVA de las cuentas asignadas a las selecciones en los campos **Tipo IVA**, **Grupo reg. IVA negocio** o **Grupo reg. IVA producto**. **Filas a totalizar** permite introducir un valor o criterios de filtro rápido en el campo **Filas a totalizar**. Para obtener más información, consulte [Buscar, filtrar y ordenar datos](ui-enter-criteria-filters.md). **Descripción** se utiliza con frecuencia para agregar una nota a la declaración. Por ejemplo, puede utilizarlo como cabecera cuando haya utilizado el total de filas.
 
-## Para obtener una vista previa de la declaración de IVA
+## <a name="to-preview-the-vat-statement" />Para obtener una vista previa de la declaración de IVA
 
 Después de definir una declaración de IVA, puede obtener una vista previa de ella para asegurarse de que satisface sus necesidades.
 > [!Tip]
@@ -39,9 +39,9 @@ Después de definir una declaración de IVA, puede obtener una vista previa de e
 4. En las líneas cuyo campo **Tipo** contenga **Total mov. IVA**, podrá ver una lista de los movimientos de IVA al seleccionar el importe del campo **Importe columna**.
 5. Puede usar la personalización para mostrar más campos en las líneas. Por ejemplo, el importe base no realizado y el importe de IVA no realizado, si está utilizando el IVA no realizado.
 
-## Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Configurar el impuesto sobre el valor añadido](finance-setup-vat.md)  
 [Configuración del impuesto sobre el valor añadido no realizado](finance-setup-unrealized-vat.md)  

@@ -11,13 +11,13 @@ ms.search.form: '374, 404'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Seleccionar una plantilla de cheques
+# <a name="select-a-check-layout" />Seleccionar una plantilla de cheques
 
 Puede diseñar los cheques conforme a los estándares definidos por las autoridades locales. Las imágenes de los cheques se pueden imprimir en inglés, francés o español.
 
 Los cheques se han diseñado para imprimir formatos de imágenes de cheque de Estados Unidos y Canadá en un formato cheque-matriz-cheque o en un formato matriz-matriz-cheque.
 
-## Para seleccionar una plantilla de cheques
+## <a name="to-select-a-check-layout" />Para seleccionar una plantilla de cheques
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección informes banco** y luego elija el enlace relacionado.
 2. En la página **Informe selección - Bancos**, en el campo **Uso**, seleccione **Cheque**.
@@ -34,7 +34,7 @@ Cuando haya configurado los diseños de cheques, puede imprimir cheques desde la
 
 Para cambiar una de estas plantillas de cheques predeterminadas, utilice la integración de Word o RDLC. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
-## Usar MICR y fuentes de seguridad
+## <a name="use-micr-and-security-fonts" />Usar MICR y fuentes de seguridad
 La versión en línea de [!INCLUDE[prod_short](includes/prod_short.md)] contiene fuentes preinstaladas en los servidores que se pueden usar al definir diseños de verificación. A continuación se describen qué fuentes están disponibles y tiene enlaces a información detallada por parte de proveedores externos de las fuentes.
 
 > [!Important]
@@ -45,19 +45,19 @@ En la actualización 15.3 y posteriores, las fuentes de reconocimiento de caract
 > [!NOTE]
 > Por razones legales y de seguridad, no puede cargar fuentes personalizadas en el ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### Especificaciones MICR E-13B
+### <a name="micr-e-b-specifications" />Especificaciones MICR E-13B
 
 A continuación se resumen las especificaciones para las fuentes MICR E-13B que pueden ser útiles al calibrar fuentes para que estén en diseños de cheques con impresoras MICR específicas.
 
 ![Especificaciones MICR E-13B.](media/font_MICR_E-13B_Specifications.png "Especificaciones MICR E-13B")
 
-### Caracteres delimitadores
+### <a name="delimiter-characters" />Caracteres delimitadores
 
 ![Caracteres delimitadores.](media/font-micr-letters.png "Caracteres delimitadores")
 
 La especificación completa de las fuentes MICR E-13B se puede encontrar en la documentación del proveedor aquí: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### Especificaciones MICR CMC-7
+### <a name="micr-cmc--specifications" />Especificaciones MICR CMC-7
 
 Las siguientes fuentes CMC-7 están disponibles en línea en [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -70,13 +70,13 @@ A continuación se resumen las especificaciones para las fuentes MICR CMC-7 que 
 
 ![Especificaciones MICR CMC-7.](media/font_MICR_CMC-7_Specifications.png "Especificaciones MICR CMC-7")
 
-### Caracteres delimitadores
+### <a name="delimiter-characters" />Caracteres delimitadores
 
 ![Caracteres delimitadores para CMC-7.](media/font-cmc7-letters.png "Caracteres delimitadores para CMC-7")
 
 La especificación completa de las fuentes MICR CMC-7 se puede encontrar en la documentación del proveedor aquí: (http://www.idautomation.com/micr-fonts/cmc7/).
 
-### Especificaciones de fuente segura
+### <a name="secure-font-specifications" />Especificaciones de fuente segura
 
 A continuación se resumen las especificaciones para las fuentes de comprobación de seguridad que pueden ser útiles al calibrar fuentes para que estén en diseños de cheques con impresoras MICR específicas.
 
@@ -86,7 +86,7 @@ La especificación completa de las fuentes de comprobación de seguridad se pued
 
 Las fuentes para otros fines también están disponibles en [!INCLUDE[prod_short](includes/prod_short.md)]. Para más información, consulte [Fuentes Disponibles](ui-fonts.md)
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md)  
 [Fuentes en Business Central](ui-fonts.md)  

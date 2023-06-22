@@ -11,7 +11,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# Extensión de pagos y conciliaciones (DK)
+# <a name="the-payments-and-reconciliations-dk-extension" />Extensión de pagos y conciliaciones (DK)
 
 Realice pagos rápidos y sin errores exportando archivos formateados específicamente para intercambios con su proveedor o banco. Estos archivos aceleran los procesos de pago y conciliación, y eliminan los errores que pueden ocurrir al ingresar manualmente la información en un sitio web de un banco.  
 
@@ -20,7 +20,7 @@ Esta extensión admite los formatos de archivo para varios bancos de Dinamarca. 
 > [!Note]
 > Para utilizar la extensión, es necesario conocer el formato que el banco o proveedor requiere. Algunos bancos o proveedores ofrecen esta información en las páginas web; sin embargo, es posible que deba contactar con su servicio de atención al cliente para obtener la información.  
 
-## Formatos bancarios compatibles
+## <a name="supported-bank-formats" />Formatos bancarios compatibles
 Esta extensión puede liquidar los formatos de archivo siguiente para archivos de pagos:  
 
 * BANKDATA-V3  
@@ -36,7 +36,7 @@ Esta extensión puede liquidar los formatos de archivo siguiente para archivos d
 * SDC  
 * SDC-CSV  
 
-## Para configurar la extensión
+## <a name="to-set-up-the-extension" />Para configurar la extensión
 
 Existen algunos pasos a seguir para empezar.  
 
@@ -47,13 +47,13 @@ Existen algunos pasos a seguir para empezar.
 
 Además, debe asignar a los proveedores a un **Grupo contable negocio** y un **Grupo contable proveedor** nacional. La configuración de país/región para el proveedor debe ser Dinamarca (DK). Para obtener más información, consulte [Configurar los grupos contables](finance-posting-groups.md).  
 
-### Para permitir que [!INCLUDE[prod_short](includes/prod_short.md)] realice exportaciones de datos de pagos
+### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />Para permitir que [!INCLUDE[prod_short](includes/prod_short.md)] realice exportaciones de datos de pagos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de pagos** y luego elija el enlace relacionado.  
 2. En la página **Editar diario de pagos**, seleccione el proceso **Banco**.  
 3. Seleccione la casilla de verificación **Permitir exportación de pagos**.  
 
-### Para especificar una forma de pago de un proveedor
+### <a name="to-specify-a-payment-method-for-a-vendor" />Para especificar una forma de pago de un proveedor
 
 La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!INCLUDE[prod_short](includes/prod_short.md)] admite.
 
@@ -67,13 +67,13 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 2. Abra la ficha, amplíe la pestaña **Pagos**, en el campo **Forma pago** seleccione la forma de pago.  
 3. Según de la opción que seleccione, debe rellenar otros campos. Consulte la tabla anterior para obtener una descripción de las combinaciones.  
 
-### Para especificar el formato que debe utilizar en un banco
+### <a name="to-specify-the-format-to-use-for-a-bank-account" />Para especificar el formato que debe utilizar en un banco
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.  
 2. Abra la ficha del banco.  
 3. En el campo **Formato de exportación de pagos**, seleccione el formato del archivo de exportación.  
 
-## Elección de la información de pago de FIK o Giro para facturas de proveedores
+## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices" />Elección de la información de pago de FIK o Giro para facturas de proveedores
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Seleccione el proveedor. Recuerde, debe ser un proveedor danés con una dirección en Dinamarca.
@@ -85,7 +85,7 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 
 5. Registrar la factura.
 
-## Para utilizar la extensión para exportar datos de pago
+## <a name="to-use-the-extension-to-export-payment-data" />Para utilizar la extensión para exportar datos de pago
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Proponer diarios de pagos a proveedores**.  
@@ -97,7 +97,7 @@ La siguiente tabla muestra las combinaciones de formas de pago FIK y GIRO que [!
 4. En el campo **Tipo pago por banco**, elija **Pago electrónico**.  
 5. Seleccione la acción **Exportar**.  
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Personalizar Business Central for [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Cobrar pagos mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
