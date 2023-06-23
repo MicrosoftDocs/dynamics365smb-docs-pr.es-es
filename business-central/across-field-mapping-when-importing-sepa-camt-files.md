@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Para obtener información acerca de cómo crear o ajustar una definición de intercambio de datos, consulte [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />Asignación de datos de CAMT a los campos de la tabla del diario general (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" />Asignación de datos de CAMT a los campos de la tabla del diario general (81)
 
 |Ruta de acceso al elemento|Elemento de mensaje|Tipo de datos|Descripción|Identificador de signo de negativo|Nº campo|Nombre de campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|No estructurado|Texto|Información suministrada para activar el emparejamiento o la conciliación de un movimiento con los productos que el pago pretende liquidar, como facturas comerciales en un sistema de cuentas de cobro no estructuradas.||8|Descripción|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texto|Información adicional acerca del movimiento.||1222|Información de la transacción|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />Asignación de datos de CAMT a los campos de la tabla de conciliación (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" />Asignación de datos de CAMT a los campos de la tabla de conciliación (273)
 
 |Ruta de acceso al elemento|Elemento de mensaje|Tipo de datos|Descripción|Identificador de signo de negativo|Nº campo|Nombre de campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Fecha|La fecha y hora de creación del mensaje.||3|Fecha extracto|  
 |Stmt/Bal/Amt|Importe|Decimal|Importe derivado de los importes liquidados para todos los movimientos de debe y haber.||4|Saldo final extracto|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />Asignación de datos de CAMT a los campos de la tabla de la línea de conciliación (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" />Asignación de datos de CAMT a los campos de la tabla de la línea de conciliación (274)
 
 |Ruta de acceso al elemento|Elemento de mensaje|Tipo de datos|Descripción|Identificador de signo de negativo|Nº campo|Nombre de campo|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

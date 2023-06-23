@@ -80,7 +80,7 @@ Para este ejemplo, el movimiento de activo fijo es el siguiente:
 | 30/06/27 |Amortización |180 |-6.250,00 |6,250.00 |
 | 31/12/27 |Amortización |180 |-6.250,00 |0 |
 
-## <a name="declining-balance--depreciation" />Amortización con regresivo 1
+## <a name="declining-balance-1-depreciation" />Amortización con regresivo 1
 
 Este método de amortización acelerado asigna la mayor parte del coste de un activo en los primeros años de su vida útil. Si utiliza este método, deberá introducir un porcentaje fijo anual.  
 
@@ -92,7 +92,7 @@ La base amortizable se calcula como el valor neto menos la amortización desde l
 
 El importe de amortización registrado puede contener ciertos movimientos con diferentes tipos de registros (depreciación, personalizado1 y personalizado2) registrados desde el inicio del año fiscal actual. Estos tipos de registro se incluyen en el importe de amortización registrado, si los campos **Tipo amortización** y **Compone valor neto** están activados en la página **Config. tipo registro A/F**.  
 
-### <a name="example---declining-balance--depreciation" />Ejemplo: amortización con regresivo 1
+### <a name="example---declining-balance-1-depreciation" />Ejemplo: amortización con regresivo 1
 
 Un activo tiene un coste de 100.000 DL. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años.  
 
@@ -122,11 +122,11 @@ Método de cálculo:
 
 El cálculo continúa hasta que el valor neto iguala al importe de redondeo final o al valor residual que ha introducido.  
 
-## <a name="declining-balance--depreciation" />Amortización con regresivo 2
+## <a name="declining-balance-2-depreciation" />Amortización con regresivo 2
 
 Los métodos Regresivo 1 y Regresivo 2 calculan el mismo importe total de amortización para cada año. Sin embargo, si ejecuta el proceso **Calcular amortización** más de una vez al año, el método Regresivo 1 dará como resultado importes de amortización iguales para cada periodo de amortización. Por otra parte, el método Regresivo 2 dará como resultado importes de amortización cada vez más reducidos en cada periodo.  
 
-### <a name="example---declining-balance--depreciation" />Ejemplo: amortización con regresivo 2
+### <a name="example---declining-balance-2-depreciation" />Ejemplo: amortización con regresivo 2
 
 Un activo tiene un coste de 100.000 DL. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años. Los movimientos de activos son los siguientes:  
 
@@ -159,7 +159,7 @@ Los valores de amortización son:
 | 30/06/21 |IA = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
 | 31/12/21 |IA = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8701,91 |
 
-## <a name="dbsl-depreciation" />Amortización Rs1/L
+## <a name="db1sl-depreciation" />Amortización Rs1/L
 
 Rs1/L es una combinación abreviada de Regresivo 1 y Lineal. El cálculo continúa hasta que el valor neto iguala al importe de redondeo final o al valor residual que ha introducido.  
 
@@ -169,7 +169,7 @@ Puede usar varios porcentajes para el cálculo regresivo.
 
 Si utiliza este método, deberá introducir la vida útil estimada y el porcentaje regresivo en la página **A/F Libros amortización**.  
 
-### <a name="example---db-sl-depreciation" />Ejemplo: amortización Rs1/L
+### <a name="example---db1-sl-depreciation" />Ejemplo: amortización Rs1/L
 
 Un activo tiene un coste de 100.000 DL. En la página **A/F Crear libros amortización**, el campo **% Regresivo** contiene 25 y el campo **Nº años amortización** contiene 8. El proceso **Calcular amortización** se realiza cada dos años.  
 
@@ -246,7 +246,7 @@ Los movimientos contables de activos fijos son los siguientes:
 | 31/12/24 |Amortización |360 |-20.000,00 |10,000.00 |
 | 31/12/25 |Amortización |180 |-10.000,00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Ejemplo - Amortización Rs1/L utilizando el convenio de medio año
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Ejemplo - Amortización Rs1/L utilizando el convenio de medio año
 
 Un activo fijo tiene un coste de 100 000 DL. La **Fecha inicio amortización** es 01/11/20. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser el 30/06/25. En la página **A/F Libros amortización**, el campo **% Regresivo** contiene 40. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
 

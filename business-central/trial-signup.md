@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# <a name="sign-up-for-a-free-dynamics--business-central-trial" />Regístrese para obtener una versión de prueba de Dynamics 365 Business Central
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial" />Regístrese para obtener una versión de prueba de Dynamics 365 Business Central
 
 Business Central ofrece una prueba gratuita. Tras un registro rápido, tendrá acceso a muchas de las características clave de la aplicación. La versión de prueba le permite probar la aplicación con datos de muestra. Si desea probar las cosas con sus propios datos, puede cambiar a una prueba gratuita de 30 días. [Obtener más información acerca de la conexión a Business Central](across-business-functionality.md).  
 
@@ -38,7 +38,7 @@ También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[prod_sh
 
 Para obtener más información sobre lo que puede hacer con [!INCLUDE [prod_short](includes/prod_short.md)], consulte [Preparación para hacer negocios](ui-get-ready-business.md) y [Funcionalidad empresarial](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
 
 ## <a name="additional-resources" />Recursos adicionales
 

@@ -32,7 +32,7 @@ Cuando haya configurado su inventario, puede gestionar varios procesos relaciona
 |Importe varias imágenes de producto de una sola vez desde un archivo zip en el que los archivos se denominan según los números de los elementos.|[Importar varias imágenes de producto](inventory-how-import-item-pictures.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

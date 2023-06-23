@@ -67,71 +67,71 @@ El **Almacén obligatorio** en la página **Configuración de inventario** y el 
 
 Consulte las variaciones en la configuración de escenarios siguiente.
 
-### <a name="setup-" />Configuración 1
+### <a name="setup-1" />Configuración 1
 
 * Almacén obligatorio = *Sí*  
 * La unidad de almacenamiento está configurada en *WEST*  
 * Componentes en alm. = *EAST*  
 
-#### <a name="case--demand-is-at-west-location" />Caso 1.1: La demanda está en un almacén *WEST*
+#### <a name="case-11-demand-is-at-west-location" />Caso 1.1: La demanda está en un almacén *WEST*
 
 El producto se planifica en función de los parámetros de planificación de la ficha de la unidad de almacenamiento (incluidas posibles transferencias).
 
-#### <a name="case--demand-is-at-east-location" />Caso 1.2: La demanda está en un almacén *EAST*
+#### <a name="case-12-demand-is-at-east-location" />Caso 1.2: La demanda está en un almacén *EAST*
 
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.
 
-#### <a name="case--demand-is-at-north-location" />Caso 1.3: La demanda está en un almacén *NORTH*
+#### <a name="case-13-demand-is-at-north-location" />Caso 1.3: La demanda está en un almacén *NORTH*
 
 El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
-#### <a name="case--demand-is-at-blank-location" />Caso 1.4: La demanda está en un almacén *EN BLANCO*
+#### <a name="case-14-demand-is-at-blank-location" />Caso 1.4: La demanda está en un almacén *EN BLANCO*
 
 El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
-### <a name="setup-" />Configuración 2
+### <a name="setup-2" />Configuración 2
 
 * Almacén obligatorio = *Sí*  
 * No existe unidad de almacenamiento  
 * Componentes en alm. = *EAST*  
 
-#### <a name="case--demand-is-at-west-location" />Caso 2.1: La demanda está en un almacén *WEST*
+#### <a name="case-21-demand-is-at-west-location" />Caso 2.1: La demanda está en un almacén *WEST*
 
 El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
-#### <a name="case--demand-is-at-east-location" />Caso 2.2: La demanda está en un almacén *EAST*
+#### <a name="case-22-demand-is-at-east-location" />Caso 2.2: La demanda está en un almacén *EAST*
 
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.  
 
-### <a name="setup-" />Configuración 3
+### <a name="setup-3" />Configuración 3
 
 * Almacén obligatorio = *No*  
 * No existe unidad de almacenamiento  
 * Componentes en alm. = *EAST*  
 
-#### <a name="case--demand-is-at-west-location" />Caso 3.1: La demanda está en un almacén *WEST*
+#### <a name="case-31-demand-is-at-west-location" />Caso 3.1: La demanda está en un almacén *WEST*
 
 El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
-#### <a name="case--demand-is-at-east-location" />Caso 3.2: La demanda está en un almacén *EAST*
+#### <a name="case-32-demand-is-at-east-location" />Caso 3.2: La demanda está en un almacén *EAST*
 
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.  
 
-#### <a name="case--demand-is-at-blank-location" />Caso 3.3: La demanda está en un almacén *EN BLANCO*
+#### <a name="case-33-demand-is-at-blank-location" />Caso 3.3: La demanda está en un almacén *EN BLANCO*
 
 El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
-### <a name="setup-" />Configuración 4
+### <a name="setup-4" />Configuración 4
 
 * Almacén obligatorio = *No*  
 * No existe unidad de almacenamiento  
 * Componentes en alm. = *EN BLANCO*  
 
-#### <a name="case--demand-is-at-east-location" />Caso 4.1: La demanda está en un almacén *EAST*
+#### <a name="case-41-demand-is-at-east-location" />Caso 4.1: La demanda está en un almacén *EAST*
 
 El producto se planifica en función de los siguientes parámetros: Política reaprov. = *Lote a lote* (*Pedido* sigue siendo *Pedido*), Incluir existencias = *Sí*, todos los demás parámetros de planificación = vacíos.
 
-#### <a name="case--demand-is-at-blank-location" />Caso 4.2: La demanda está en un almacén *EN BLANCO*
+#### <a name="case-42-demand-is-at-blank-location" />Caso 4.2: La demanda está en un almacén *EN BLANCO*
 
 El producto se planifica en función de los parámetros de planificación de la ficha del producto.
 
@@ -139,7 +139,7 @@ Como se puede ver en el último escenario, la única manera de conseguir un resu
 
 Por tanto, si suele planificar la demanda en diferentes almacenes, le recomendamos que use la capacidad Uds. de almacenan.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Consulte la formación relacionada en [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Consulte la formación relacionada en [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Consulte también .
 

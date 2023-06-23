@@ -45,7 +45,7 @@ Hemos facilitado la invitación a su contable externo. Abra simplemente la pági
 >
 > Esta tarea requiere acceso para administrar usuarios y licencias en Azure Active Directory. El usuario que envía esta invitación debe tener asignado el rol **Administrador global** o **Administrador de usuarios** en el Centro de administración de Microsoft 365. Para obtener más información, consulte [Acerca de los roles de administrador](/microsoft-365/admin/add-users/about-admin-roles) en el contenido de administración de Microsoft 365.  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Añadir su contable a su Microsoft 365 en Azure Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Añadir su contable a su Microsoft 365 en Azure Portal
 
 Si su administrador o distribuidor no desea utilizar la guía **Invitar a un contable externo**, pueden añadir un usuario externo en Azure Portal y asignar a este usuario la licencia *Contable externo*. Para más información, consulte [Inicio rápido: añada usuarios invitados a su directorio en Azure Portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

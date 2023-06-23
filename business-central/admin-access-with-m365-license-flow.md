@@ -10,7 +10,7 @@ ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="user-access-flow-for-microsoft--licenses" />Flujo de acceso de usuario para licencias de Microsoft 365
+# <a name="user-access-flow-for-microsoft-365-licenses" />Flujo de acceso de usuario para licencias de Microsoft 365
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 

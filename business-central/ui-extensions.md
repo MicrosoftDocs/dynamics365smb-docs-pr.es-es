@@ -87,7 +87,7 @@ Los socios y distribuidores de Microsoft pueden crear aplicaciones que pueden us
 > [!NOTE]
 > Si es un socio o distribuidor de Microsoft y está interesado en proporcionar una lista de aplicaciones recomendadas, consulte [Recomendar aplicaciones de AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) en la administración de contenidos.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/customize-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/customize-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -20,11 +20,11 @@ Use la dirección de correo electrónico de su trabajo o escuela. Estableceremos
 
 Esta aplicación es un servicio basado en la nube que no requiere un software especial que no sea un navegador web actualizado, aunque se aplican algunas restricciones.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" /><a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant"></a>¿Cómo puedo registrarme para la prueba sin un inquilino de Microsoft 365?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" /><a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant"></a>¿Cómo puedo registrarme para la prueba sin un inquilino de Microsoft 365?
 
 No puede. Use una dirección de correo electrónico de su trabajo o escuela.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" /><a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service"></a>¿Puedo registrarme en otras aplicaciones de Dynamics 365, como Sales, Marketing y Customer Service?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" /><a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service"></a>¿Puedo registrarme en otras aplicaciones de Dynamics 365, como Sales, Marketing y Customer Service?
 
 Sí que puede. Para ver todas las evaluaciones disponibles, [visite la página del centro de conectividad de prueba](https://dynamics.microsoft.com/dynamics-365-free-trial). Puede usar la misma cuenta de correo electrónico para registrarse en diferentes evaluaciones.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

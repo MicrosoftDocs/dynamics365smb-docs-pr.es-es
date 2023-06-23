@@ -89,7 +89,7 @@ El valor predeterminado para la tolerancia de pagos es permitida. Para no permit
 > [!NOTE]  
 > Si el cliente o proveedor tiene movimientos pendientes, primero debe eliminar la tolerancia de pagos de los movimientos que están abiertos actualmente.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Ejemplo 1: cálculos de tolerancia para un único documento
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Ejemplo 1: cálculos de tolerancia para un único documento
 
 A continuación, se presentan algunos ejemplos que muestran los cálculos de tolerancia previstos y los registros que se producen en diferentes situaciones.  
 
@@ -127,7 +127,7 @@ Los ejemplos con la alternativa A o B representan lo siguiente:
 
 En relación con el ejemplo anterior, los diagramas de los intervalos de pagos son los siguientes:  
 
-#### <a name="-payment-date--scenarios--" />(1) Fecha pago <=15/01/03 (ejemplos 1 a 3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Fecha pago <=15/01/03 (ejemplos 1 a 3)
 
 Importe pendiente por  
 
@@ -139,7 +139,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) La fecha de pago está comprendida entre 16/01/03 y 20/01/03 (ejemplos 4 a 9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) La fecha de pago está comprendida entre 16/01/03 y 20/01/03 (ejemplos 4 a 9)
 
 Importe pendiente por  
 
@@ -151,7 +151,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) la fecha de pago es posterior a 20/01/03 (ejemplos 10 a 15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) la fecha de pago es posterior a 20/01/03 (ejemplos 10 a 15)
 
 Importe pendiente por  
 
@@ -163,7 +163,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, ningún movimiento de liquidación se puede cerrar aunque tenga tolerancia.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Ejemplo 2: cálculos de tolerancia para varios documentos
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Ejemplo 2: cálculos de tolerancia para varios documentos
 
 A continuación, se presentan algunos ejemplos que muestran los cálculos de tolerancia previstos y los registros que se producen en diferentes situaciones. Los ejemplos se limitan a las situaciones que dan como resultado que todos los movimientos de liquidación se cierran.  
 
@@ -215,7 +215,7 @@ Los ejemplos con la alternativa A, B, C o D representan lo siguiente:
 
 En relación con el ejemplo anterior, los diagramas de los intervalos de pagos son los siguientes:  
 
-#### <a name="-payment-date--scenarios--" />(1) Fecha pago <=15/01/03 (ejemplos 1 a 3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Fecha pago <=15/01/03 (ejemplos 1 a 3)
 
 Importe pendiente por  
 
@@ -227,7 +227,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) La fecha de pago está comprendida entre 16/01/03 y 17.01.03 (ejemplos 4 a 9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) La fecha de pago está comprendida entre 16/01/03 y 17.01.03 (ejemplos 4 a 9)
 
 Importe pendiente por  
 
@@ -239,7 +239,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) La fecha de pago está comprendida entre 01/18/03 y 20/01/03 (ejemplos 10 a 21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) La fecha de pago está comprendida entre 01/18/03 y 20/01/03 (ejemplos 10 a 21)
 
 Importe pendiente por  
 
@@ -251,7 +251,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) La fecha de pago está comprendida entre 21/01/03 y 22/01/03 (ejemplos 22 a 27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) La fecha de pago está comprendida entre 21/01/03 y 22/01/03 (ejemplos 22 a 27)
 
 Importe pendiente por  
 
@@ -263,7 +263,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) la fecha de pago es posterior a 22/01/03 (ejemplos 28 a 30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) la fecha de pago es posterior a 22/01/03 (ejemplos 28 a 30)
 
 Importe pendiente por  
 
@@ -275,7 +275,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -275,7 +275,7 @@ Por ejemplo, suponga que está utilizando un teclado numérico que utiliza un pu
 > [!TIP]
 > Puede haber ocasiones en las que quiera usar el separador decimal para introducir un punto (.). Por ejemplo, suponga que estaba introduciendo un rango de fechas en un filtro, como `01/01/2022..04/01/2022`, o cualquier cosa que requiera un punto. Para adaptarse a este caso, seleccione las teclas <kbd>Alt</kbd>+<kbd>Separador decimal</kbd> en el teclado numérico. Esta combinación de teclas cambia el separador decimal entre la salida de un punto y el separador decimal determinado por el ajuste **Región**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

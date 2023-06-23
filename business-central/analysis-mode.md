@@ -50,7 +50,7 @@ En el modo de análisis de datos, la página se divide en dos áreas:
 - El área principal, que consta del área de datos (1), la barra de resumen (2) y la barra de pestañas (5)
 - El área de manipulación de datos, que consta de dos paneles: columnas (3) y filtros de análisis (4).
 
-### <a name="data-area-" />Área de datos (1)
+### <a name="data-area-1" />Área de datos (1)
 
 El área de datos es donde se muestran las filas y columnas de la página de lista y se resumen los datos. El área de datos proporciona una forma versátil de controlar el diseño de las columnas y una forma rápida de obtener un resumen de los datos. Para las columnas que contienen valores numéricos, la suma de todos los valores de la columna se muestra en la última fila, a menos que haya definido grupos de filas. En este caso, las sumas aparecen como subtotal para los grupos.  
 
@@ -64,7 +64,7 @@ El área de datos es donde se muestran las filas y columnas de la página de lis
 - Utilice el área de datos para interactuar con los datos. Para las columnas que contienen valores sumables numéricos, puede obtener estadísticas descriptivas en un conjunto de campos, marcándolos. Las estadísticas aparecen en la barra de estado (2), en la parte inferior de la página.
 - Exportar datos en formato Excel o csv. Simplemente, haga clic con el botón derecho en el área de datos o en una selección de celdas para exportar.
 
-### <a name="summary-bar-" />Barra de resumen (2)
+### <a name="summary-bar-2" />Barra de resumen (2)
 
 La barra de resumen se encuentra en la parte inferior de la página y muestra estadísticas sobre los datos de la lista. A medida que interactúa con columnas cuyos valores se pueden sumar, como al seleccionar varias filas en una columna que muestra cantidades, los datos se actualizarán.
 
@@ -83,7 +83,7 @@ La siguiente tabla describe los diferentes números que se muestran en el área 
 |Máx|El valor máximo en todos los campos sumables seleccionados.|
 |Suma|La suma total de todos los valores en los campos sumables seleccionados.|
 
-### <a name="columns-" />Columnas (3)
+### <a name="columns-3" />Columnas (3)
 
 El panel **Columnas** es uno de los dos paneles que trabajan juntos para definir su análisis. La otra zona es el panel **Filtros de análisis**. El panel **Columnas** se utiliza para resumir los datos. Utilice el panel **Columnas** para definir qué columnas deben incluirse en el análisis.
 
@@ -98,7 +98,7 @@ El panel **Columnas** es uno de los dos paneles que trabajan juntos para definir
 
 Para mover un campo de un área a otra, seleccione el icono de agarrar ![Muestra una descripción general de una página en el modo de análisis de datos](media/column-grab-icon.png) junto a la columna en la lista anterior y arrástrelo al área de destino. No puede mover un campo a un área donde no está permitido.
 
-### <a name="analysis-filters-" />Filtros de análisis (4)
+### <a name="analysis-filters-4" />Filtros de análisis (4)
 
 El panel **Filtros de análisis** le permite establecer más filtros de datos en las columnas para limitar las entradas de la lista. Establezca filtros en las columnas para limitar las entradas en la lista y las sumas posteriores solo a aquellas entradas que le interesen según los criterios que defina. Por ejemplo, suponga que solo le interesan los datos de un cliente específico o los pedidos de ventas que superan un importe específico. Para establecer un filtro, seleccione la columna, elija la operación de comparación de la lista (como **Iguales** o **Comienza por**) y luego introduzca el valor.
 
@@ -107,7 +107,7 @@ El panel **Filtros de análisis** le permite establecer más filtros de datos en
 > [!NOTE]
 > Los filtros adicionales solo se aplican a la pestaña de análisis actual. Esto le permite definir exactamente los filtros de datos adicionales que se necesitan para un análisis específico.
 
-### <a name="tabs-" />Pestañas (5)
+### <a name="tabs-5" />Pestañas (5)
 
 El área de pestañas de la parte superior le permite crear diferentes configuraciones (columnas y filtros de análisis) en pestañas separadas, donde puede manipular los datos de las pestañas de forma independiente. Siempre hay al menos una pestaña, llamada **Análisis 1**, de forma predeterminada. Agregar más pestañas es beneficioso para guardar configuraciones de análisis de uso frecuente en un conjunto de datos. Por ejemplo, puede tener pestañas para analizar datos en modo dinámico y otras pestañas que filtran a un subconjunto de filas. Algunas pestañas pueden mostrar una vista detallada con muchas columnas y otras solo mostrar algunas columnas clave.
 

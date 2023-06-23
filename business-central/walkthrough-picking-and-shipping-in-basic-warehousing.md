@@ -77,7 +77,7 @@ Para utilizar esta funcionalidad, debe agregarse al almacén como trabajador del
   3. En el campo **Cód. almacén**, elija SUR.  
   4. Seleccione el campo **Predeterminado** y, a continuación, seleccione el botón **Sí**.  
 
-### <a name="making-item--s-available" />Hacer que el producto 1928-S esté disponible
+### <a name="making-item-1928-s-available" />Hacer que el producto 1928-S esté disponible
 
 Para que el producto 1928-S esté disponible en el almacén SUR siga estos pasos:  
 

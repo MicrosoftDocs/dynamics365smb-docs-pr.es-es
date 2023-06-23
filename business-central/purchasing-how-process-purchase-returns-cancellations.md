@@ -181,7 +181,7 @@ Cuando se combinan envíos devueltos en un abono y se registran, se crea un abon
 2. Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.  
 3. También puede eliminar los pedidos de devolución de compra individuales manualmente.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 [Compras](purchasing-manage-purchasing.md)  

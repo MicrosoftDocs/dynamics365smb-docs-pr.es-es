@@ -282,7 +282,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
  Con la página **Seguimiento productos**, el controlador de calidad ha averiguado que LOT1 contenía los cuadros de bicicletas defectuosos, qué proveedor los suministró y en qué transacción registrada se han usado. Ahora deben determinar si aparece LOT1 en algún documento abierto mediante la integración del resultado del seguimiento en la página **Buscar movimientos**, donde puede realizar una búsqueda en todos los registros de la base de datos.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />Para buscar todas las incidencias de LOT1 en registros no registrados, como pedidos pendientes
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />Para buscar todas las incidencias de LOT1 en registros no registrados, como pedidos pendientes
 
 1.  En la página **Seguimiento productos**, seleccione en la primera línea de seguimiento, el albarán de compras de LOT1.  
 2.  Seleccione la acción **Buscar movimientos**.  

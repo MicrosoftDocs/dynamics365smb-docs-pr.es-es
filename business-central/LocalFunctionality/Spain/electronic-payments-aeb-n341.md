@@ -12,7 +12,7 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="electronic-payments--aeb-n-in-the-spanish-version" />Pagos electrónicos - AEB N34.1 en la versión en español
+# <a name="electronic-payments--aeb-n341-in-the-spanish-version" />Pagos electrónicos - AEB N34.1 en la versión en español
 Con la funcionalidad de pagos electrónicos, puede pagar a los proveedores mediante pagos electrónicos en lugar de tener que emitir cheques en papel. Los pagos electrónicos se exportan a un formato de archivo AEB N34.1 estándar, utilizado por casi todos los bancos en España. Posteriormente, este archivo se transmite al banco.  
 
 Podrá crear pagos electrónicos desde los diarios de pagos o desde la funcionalidad Cartera (lista de informes). Su objetivo es ocuparse de los casos siguientes:  

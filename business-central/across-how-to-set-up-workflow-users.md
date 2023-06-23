@@ -11,7 +11,7 @@ ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# Configurar una secuencia de usuarios de flujo de trabajo
+# <a name="set-up-a-sequence-of-workflow-users" />Configurar una secuencia de usuarios de flujo de trabajo
 
 Para poder crear flujos de trabajo de aprobación, debe configurar los usuarios que enviarán solicitudes y sus aprobadores. Por ejemplo, puede especificar quién debe recibir una notificación para actuar sobre un paso del flujo de trabajo. Los participantes en el flujo de trabajo de aprobación se configuran en la página **Config. usuario aprobación**. Obtenga más información en [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ En la página **Grupos de usuarios de flujo de trabajo** puede especificar dónd
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## Para configurar un grupo de usuarios de flujo de trabajo
+## <a name="to-set-up-a-workflow-user-group" />Para configurar un grupo de usuarios de flujo de trabajo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de usuarios de flujo de trabajo** y luego elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**. Se abre la página **Grupo de usuarios de flujo de trabajo**.  
@@ -34,9 +34,9 @@ En la página **Grupos de usuarios de flujo de trabajo** puede especificar dónd
 
 6. Repita el paso 5 para añadir más usuarios de flujo de trabajo al grupo de usuarios del flujo de trabajo.  
 
-## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  
 [Configurar flujos de trabajo de aprobación](across-set-up-workflows.md)  

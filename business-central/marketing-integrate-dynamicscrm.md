@@ -12,7 +12,7 @@ ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 53
 ms.date: 09/16/2022
 ms.author: bholtorf
 ---
-# <a name="use-dynamics--sales-from-business-central" />Usar Dynamics 365 Sales desde Business Central
+# <a name="use-dynamics-365-sales-from-business-central" />Usar Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[prod_short](includes/prod_short.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
 
 Para poder utilizar las capacidades de integración, el administrador del sistema debe configurar la conexión y definir los usuarios en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, vea [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).

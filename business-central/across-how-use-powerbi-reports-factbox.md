@@ -116,7 +116,7 @@ Verifique que la página que desea que se muestre es la primera página de su in
 
 Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 píxeles. Guarde el informe y, a continuación, actualice la página de listas.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

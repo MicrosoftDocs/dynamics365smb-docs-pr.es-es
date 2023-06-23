@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Advertencias y mensajes de error en Dynamics 365 Business Central
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Advertencias y mensajes de error en Dynamics 365 Business Central
 
 Durante un día de trabajo, es posible que vea notificaciones en [!INCLUDE [prod_short](includes/prod_short.md)] sobre que algo salió mal o que no fue posible publicar algo, por ejemplo. En muchos casos, la notificación facilita la resolución del problema o la reversión de cualquier cambio que haya realizado. En otros casos, es posible que no tenga la información que necesita para el desbloqueo. Este artículo proporciona sugerencias sobre cómo progresar.  
 

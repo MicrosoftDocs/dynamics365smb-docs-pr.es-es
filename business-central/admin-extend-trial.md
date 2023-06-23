@@ -45,7 +45,7 @@ Cuando expire su período de prueba ampliado, puede [suscribirse](https://go.mic
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

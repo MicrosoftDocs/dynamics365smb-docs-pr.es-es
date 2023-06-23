@@ -39,7 +39,7 @@ La configuración de un diseño de Excel en un informe conlleva básicamente dos
 1. Crear el nuevo archivo de diseño de Excel.
 2. Agregar el nuevo diseño al informe.
 
-## <a name="task--create-the-excel-layout-file" />Tarea 1: Crear el archivo de diseño de Excel
+## <a name="task-1-create-the-excel-layout-file" />Tarea 1: Crear el archivo de diseño de Excel
 
 Estas son las tres maneras de crear un archivo de diseño de Excel para un informe.
 
@@ -58,13 +58,13 @@ Siga estos pasos para crear un diseño de Excel a partir de cualquier informe, i
 
 Si ya hay un diseño de Excel para un informe, puede usar el diseño existente como punto de partida. Hay dos enfoques para obtener una copia del diseño. Puede exportar el diseño existente desde la página **Diseños de informe**, o bien descargar el diseño desde la página de solicitud de informes. Ambas formas descargan un archivo de diseño de Excel que incluye todas las hojas del archivo existente. La diferencia radica en que cuando lo descarga desde la página de solicitud, el diseño incluye datos reales. (Los datos no son necesarios, pero ayudan a la hora de diseñar el diseño).
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Enfoque 1: Exportar el diseño desde la página **Diseños de informe**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Enfoque 1: Exportar el diseño desde la página **Diseños de informe**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Seleccione el diseño de Excel de la lista y luego elija la acción **Exportar diseño** desde la parte superior de la página.
 3. Abra el archivo en Excel, realice los cambios y después guarde el archivo.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Enfoque 2: Descargar el diseño de la página de solicitud de informes
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Enfoque 2: Descargar el diseño de la página de solicitud de informes
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. En la página **Diseños de informe**, elija cualquier diseño para el informe y, a continuación, elija la acción **Ejecutar informe**.
@@ -77,7 +77,7 @@ Este es el método más avanzado de crear un diseño de informe de Excel. Como r
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Tarea 2: Agregar el diseño de Excel al informe
+## <a name="task-2-add-the-excel-layout-to-the-report" />Tarea 2: Agregar el diseño de Excel al informe
 
 Una vez que tenga el archivo de diseño de Excel, la siguiente tarea es agregarlo como un nuevo diseño para el informe.
 

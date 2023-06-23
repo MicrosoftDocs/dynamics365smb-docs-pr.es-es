@@ -138,7 +138,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  La línea de planificación para el producto 1300, Mtje. cadena, sugiere diez piezas. Esto se desvía de las cinco piezas que esperamos que necesite para cubrir el pedido de venta. Empiece a visualizar los movimientos de seguimiento del pedido.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Ver los movimientos de seguimiento del pedido para el producto 1300
+### <a name="to-view-order-tracking-entries-for-item-1300" />Ver los movimientos de seguimiento del pedido para el producto 1300
 
 1.  Seleccione la línea de planificación del producto 1300 y seleccione la acción **Seguimiento de pedido**.  
 
@@ -234,7 +234,7 @@ Las frases "ejecutar planificación" y "ejecutar MRP" hacen referencia al cálcu
 
  Varias líneas de planificación se multiplican simplemente por tres para proporcionar 15 bicicletas de ruta en lugar de 5, y las fechas de vencimiento se retroceden para proporcionar las cantidades aumentadas por la fecha de envío del pedido de venta Cannon Group. Para estas líneas de planificación, todas las cantidades pueden ser seguidas. Las líneas de planificación restantes incrementan en diez piezas, además de mover sus fechas de vencimiento. Para estas líneas de planificación, una parte de las cantidades no son seguidas debido a parámetros de planificación diferentes. Empiece a visualizar algunos de estos movimientos de seguimiento del pedido.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Ver los movimientos de seguimiento del pedido para el producto 1250
+### <a name="to-view-order-tracking-entries-for-item-1250" />Ver los movimientos de seguimiento del pedido para el producto 1250
 
 1.  Seleccione la línea de planificación del producto 1250 y seleccione la acción **Seguimiento de pedido**.  
 

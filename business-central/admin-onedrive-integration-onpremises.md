@@ -49,7 +49,7 @@ Al registrar la aplicación, tenga en cuenta los siguientes puntos:
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />Configurar la conexión de OneDrive en la versión 21 y posteriores
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />Configurar la conexión de OneDrive en la versión 21 y posteriores
 
 Use este procedimiento si está usando Business Central 2022 versión 2 (versión 21) o posterior.
 
@@ -74,7 +74,7 @@ Use este procedimiento si está usando Business Central 2022 versión 2 (versió
    - Si aún no ha configurado la aplicación de Azure AD registrada, la guía **Configurar Azure Active Directory** se abre.
 6. Una vez completado, el aviso de privacidad para la integración de OneDrive está acordada para todos los usuarios. Si desea cambiarlo para que los usuarios deban estar de acuerdo o en desacuerdo por sí mismos, entonces vaya a la página **Estado de los avisos de privacidad** y seleccione **Dejar que el usuario decida** para la integración de OneDrive. A continuación, se solicitará a los usuarios que acepten o no el aviso de privacidad la primera vez que utilicen las caracteristicas de OneDrive. Para obtener más información, consulte [Avisos de privacidad](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />Configurar la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] en la versión 19 y 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Configurar la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] en la versión 19 y 20
 
 Use este procedimiento si está usando el primer lanzamiento de versiones de 2022 de Business Central (versión 20) o el segundo lanzamiento de versiones de 2021 (versión 19).
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Use este procedimiento si está usando el primer lanzamiento de versiones de 202
 > [!IMPORTANT]
 > La página **Configuración de conexión de SharePoint** se utiliza para configurar varias funciones heredadas. La sección **General** configura la conexión con OneDrive, y la sección **Documentos compartidos** redirige archivos a SharePoint en su lugar. **Configuración de la conexión de SharePoint** ha quedado obsoleta y se eliminará en la próxima versión. Le recomendamos que no configure la sección **Documentos compartidos**. Para más información, consulte [Funciones obsoletas en la aplicación base ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />Después de actualizar a la versión 21
+## <a name="after-upgrade-to-version-21" />Después de actualizar a la versión 21
 
 Cuando actualiza a la versión 21 o posterior, la conexión existente a OneDrive que está configurado en la página **Configuración de la conexión de SharePoint** seguirá funcionando. Pero, como la página **Configuración de la conexión de SharePoint** se eliminará en la versión 23, le recomendamos que cambie a la nueva integración de OneDrive, como se describe en la siguiente sección. Hacer este cambio ahora hará que sea más fácil cuando la **Configuración de la conexión de SharePoint** finalmente se elimine. Además, le permitirá utilizar la guía de configuración asistida de **Configuración de OneDrive** para administrar las características de OneDrive que son accesibles para los usuarios.
 

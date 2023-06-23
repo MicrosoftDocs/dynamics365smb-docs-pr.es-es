@@ -64,15 +64,15 @@ En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo 
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="El flujo de entrada básico en un almacén.":::
 
-### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Liberar un documento de origen para crear una solicitud de ubicación de inventario
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Liberar un documento de origen para crear una solicitud de ubicación de inventario
 
 Cuando reciba artículos, libere el documento de origen, como una orden de compra o una orden de transferencia entrante. Al liberar el documento, los artículos quedan disponibles para su ubicación. También puede crear mediante envío documentos de ubicación de inventario para líneas de pedido particulares, en función de las ubicaciones especificadas y de las cantidades que gestionar.  
 
-### <a name="-create-an-inventory-put-away" />2: Crear una ubicación de inventario
+### <a name="2-create-an-inventory-put-away" />2: Crear una ubicación de inventario
 
 En la página **Ubicación inventario**, mediante extracción, puede obtener las líneas pendientes del documento de origen basándose en las solicitudes de entrada al almacén. De manera automática, también puede crear líneas de ubicación de inventario cuando crea el documento de origen.  
 
-### <a name="-post-an-inventory-put-away" />3: Registrar un almacenamiento de inventario
+### <a name="3-post-an-inventory-put-away" />3: Registrar un almacenamiento de inventario
 
 En cada línea de los productos que se han ubicado, parcial o totalmente, rellene el campo **Cantidad** y, a continuación, registre la ubicación de inventario. Los documentos de origen que están relacionados con la ubicación de inventario se registran como recibidos.  
 
@@ -89,21 +89,21 @@ En el diagrama siguiente se ilustran los flujos de almacén de entrada por tipo 
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Flujo de entrada avanzado en un almacén.":::
 
-### <a name="-release-the-source-document" />1: Lanzar el documento de origen
+### <a name="1-release-the-source-document" />1: Lanzar el documento de origen
 
 Cuando reciba artículos, libere el documento de origen, como una orden de compra o una orden de transferencia entrante. Al liberar el documento, los artículos quedan disponibles para su ubicación. El almacenamiento contendrá referencias al tipo y el número de documento de origen.
 
-### <a name="-create-a-warehouse-receipt" />2: Crear una recepción de almacén
+### <a name="2-create-a-warehouse-receipt" />2: Crear una recepción de almacén
 
 Obtenga las líneas del documento de origen de entrada en la página **Recep. almacén**. Puede combinar varias líneas del documento de origen en un documento de recepción de almacén. Rellene el campo **Cdad. a manipular** y seleccione la zona y la ubicación de recepción, si procede.  
 
-### <a name="-post-the-warehouse-receipt" />3: Registrar la recepción de almacén
+### <a name="3-post-the-warehouse-receipt" />3: Registrar la recepción de almacén
 
 Registre la recepción de almacén para crear los movimientos de producto positivos. El campo **Cantidad recibida** en la línea de entrada del documento de origen se actualiza.  
 
 Si el interruptor **Requerir ubicación** no está activado en la tarjeta de ubicación, aquí es donde se detiene el proceso. De lo contrario, al registrar el documento de origen de entrada, los artículos quedan disponibles para su ubicación. El almacenamiento contiene referencias al tipo y el número de documento de origen.  
 
-### <a name="-optional-generate-put-away-worksheet-lines" />4: (Opcional) Generar líneas de hoja de trabajo de ubicación
+### <a name="4-optional-generate-put-away-worksheet-lines" />4: (Opcional) Generar líneas de hoja de trabajo de ubicación
 
 Obtenga las líneas de ubicación del almacén en la **Hoja de trabajo de ubicación** basándose en los recibos de almacén registrados o en las operaciones que generan resultados. Elija las líneas para ubicar y especifique la siguiente información:
 
@@ -118,11 +118,11 @@ Cuando todas las ubicaciones se planifican y asignan a empleados de almacén, ge
 > [!NOTE]  
 > Si el control de alternancia **Utilizar hoja trabajo ubicación** no se ha activado en la ficha de almacén, los documentos de ubicación en almacén se crean directamente de acuerdo con las recepciones de almacén registradas. En ese caso, este paso no es necesario.  
 
-### <a name="-create-a-warehouse-put-away-document" />5: Crear un documento de almacenamiento de almacén
+### <a name="5-create-a-warehouse-put-away-document" />5: Crear un documento de almacenamiento de almacén
 
 Cree un documento de ubicación de almacén de forma pull, en función del recibo de almacén registrado. Alternativamente, cree el documento de ubicación de almacén y asígnelo a un trabajador de almacén mediante envío.  
 
-### <a name="-register-a-warehouse-put-away" />6: Registrar una ubicación de almacén
+### <a name="6-register-a-warehouse-put-away" />6: Registrar una ubicación de almacén
 
 En cada línea de los productos que se han ubicado, parcial o totalmente, rellene el campo **Cantidad** en la página **Ubicación almacén** y, a continuación, registre la ubicación de almacén.  
 

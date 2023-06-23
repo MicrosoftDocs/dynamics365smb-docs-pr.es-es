@@ -133,13 +133,13 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  ![Primer ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Números de movimiento 8 y 9
+### <a name="entry-numbers-8-and-9" />Números de movimiento 8 y 9
  En el caso de necesidad componentes para LOTA y de LOTB respectivamente, se crean enlaces de seguimiento desde la demanda en la tabla 5407, **Componente orden producción**, al aprovisionamiento en la tabla 32, **Mov. producto**. El campo **Estado reserva** contiene **Seguimiento** para indicar que estos movimientos son vínculos de seguimiento de pedidos dinámico entre suministro y demanda.  
 
 > [!NOTE]  
 >  El campo **Nº lote** está vacío en las líneas de demanda porque los números de lote no están especificado en las líneas de componente de la orden de producción lanzada.  
 
-### <a name="entry-numbers-" />Números de movimiento 10
+### <a name="entry-numbers-10" />Números de movimiento 10
  Desde la demanda de venta en la tabla 37, **Lín. venta**, se crea un vínculo de seguimiento de pedidos hacia el aprovisionamiento en la tabla 5406, **Lín. orden prod.**. El campo **Estado reserva** contiene **Reservas**, y el campo **Atado** contiene **Pedido contra pedido**. Se debe a que la orden de producción lanzada se ha generado específicamente para el pedido de venta y debe permanecer vinculada, a diferencia de las conexiones de seguimiento de pedidos con un estado de reserva de **Seguimiento**, que se crean y cambian dinámicamente. Para obtener más información, consulte la sección "Reservas automáticas" en este tema.  
 
  En este punto del ejemplo, las 100 unidades de LOTA y LOTB se transferirán al almacén EAST por medio de un pedido de transferencia.  
@@ -151,12 +151,12 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  ![Segundo ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Números de movimiento 8 y 9
+### <a name="entry-numbers-8-and-9" />Números de movimiento 8 y 9
  Los movimientos de seguimiento de pedidos para los dos lotes del componente que refleja la demanda de la tabla 5407 cambian el estado de reserva de **Seguimiento** a **Excedente**. El motivo es que los suministros a los que estaban vinculados antes, en la tabla 32, se han usado mediante el envío del pedido de transferencia.  
 
  Los excedentes verdaderos, como en este caso, reflejan un exceso de aprovisionamiento que permanece sin seguimiento. Es una indicación de desequilibrio en la red de pedidos que generará un mensaje de acción por parte del sistema de planificación, a menos que se resuelva dinámicamente.  
 
-### <a name="entry-numbers--to-" />Números de movimiento de 12 a 16
+### <a name="entry-numbers-12-to-16" />Números de movimiento de 12 a 16
  Dado que se registran dos lotes del componente en el pedido de transferencia como enviados pero no recibidos, todos los registros positivos de seguimiento del pedido relacionados son del tipo de reserva **Excedente**, lo que indica que no están asignados a ninguna demanda. Para cada número de lote, un movimiento se relaciona con la tabla 5741, **Lín. transferencia**, y un movimiento se relaciona con el movimiento de producto en la ubicación en tránsito donde ahora están los productos.  
 
  En este punto del ejemplo, el pedido de transferencia de los componentes del almacén EAST a WEST se registran como recibido.  
@@ -173,7 +173,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  ![Cuarto ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Números de movimiento 21 y 22
+### <a name="entry-numbers-21-and-22" />Números de movimiento 21 y 22
  Como la necesidad de componentes se ha cambiado a la ubicación EAST y el suministro está disponible como movimientos de producto en la ubicación EAST, ahora se realiza un seguimiento completo de todos los movimientos de seguimiento de pedidos de los dos números de lote, tal como indica el estado de reserva de **Seguimiento**.  
 
  El campo **Nº lote** ahora está rellenado en el movimiento de seguimiento de pedidos para la tabla 5407 porque los números de lote se han asignado a las líneas de componente de la orden de producción.  

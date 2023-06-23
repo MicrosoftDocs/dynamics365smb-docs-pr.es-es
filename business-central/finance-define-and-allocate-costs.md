@@ -70,7 +70,7 @@ La siguiente tabla muestra qué filtros son posibles para distintas bases de asi
 |Productos vendidos (importe)|Nº producto|Sí|Sí|Sí|Grupo contable existencias|  
 |Productos comprados (importe)|N.º producto|Sí|Sí|Sí|Grupo registro inventario|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Ejemplo 1: definición de asignaciones estáticas basadas en la proporción de asignación
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Ejemplo 1: definición de asignaciones estáticas basadas en la proporción de asignación
 
 El método de asignaciones estáticas se basa en un valor definido, por ejemplo los metros cuadrados utilizados, o una proporción de asignación establecida de 5:2:4.  
 
@@ -110,7 +110,7 @@ Este tema describe cómo definir tres nuevos objetos de coste de destino de asig
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente el campo **Porcentaje** con un porcentaje que depende de las tres relaciones de asignación que se han introducido en el campo **Compartir** para las tres líneas.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Ejemplo 2: definición de asignaciones dinámicas basándose en productos vendidos
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Ejemplo 2: definición de asignaciones dinámicas basándose en productos vendidos
 
 Este tema muestra un ejemplo de cómo definir asignaciones mediante el método de asignación dinámica. En el ejemplo, se cambia la asignación dinámica de los costes del centro de coste VENTAS para admitir el nuevo EQUIPO TI del objeto de coste. Los paquetes de EQUIPO TI tienen números de producto en el rango de 8904-W a 8924-W. Utiliza las cifras de ventas del año anterior para calcular el reparto. La asignación se registra al tipo de coste de ayuda 9903.  
 
@@ -137,7 +137,7 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

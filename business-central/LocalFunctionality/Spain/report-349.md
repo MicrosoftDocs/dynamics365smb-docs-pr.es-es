@@ -12,7 +12,7 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="report--in-the-spanish-version" />Informe 349 en la versión en español
+# <a name="report-349-in-the-spanish-version" />Informe 349 en la versión en español
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. En España, este informe 349 es parte del sistema intracomunitario de intercambio de información sobre el IVA (VIES).  
 
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], el modelo de Informe 349 se basa en los movimientos de IVA filtrados por los códigos de país o región. Debe crear un modelo 349 y enviar el archivo a la web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181) o con un CD-ROM.  

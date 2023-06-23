@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Solucionar problemas de acceso con licencias de Microsoft 365
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Solucionar problemas de acceso con licencias de Microsoft 365
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />Mensaje de error "Esta página utiliza datos de tablas relacionadas a las que no tiene acceso"
 
@@ -24,7 +24,7 @@ Al acceder a un registro en Teams, se le muestra un mensaje de error en una pest
 
 Lo más probable es que le falten permisos de objeto para las tablas a las que se vincula la página actual o el registro.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />Se ha habilitado el acceso a Microsoft 365, pero los usuarios obtienen un error de permiso
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Se ha habilitado el acceso a Microsoft 365, pero los usuarios obtienen un error de permiso
 
 ### <a name="symptoms" />Síntomas
 

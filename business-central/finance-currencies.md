@@ -29,7 +29,7 @@ Especifique los códigos de moneda en la lista **Divisas**, incluida la informac
 
 Los tipos de cambio son la herramienta para calcular el valor en divisa local (DL) de cada transacción en moneda. Para obtener más información, vea [Actualizar tipos cambio divisa](finance-how-update-currencies.md).  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

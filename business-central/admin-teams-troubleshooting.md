@@ -182,7 +182,7 @@ Es probable que este problema se deba a que compartió una vista de lista que es
 [Cambiar la empresa y otras configuraciones en Teams](across-teams-settings.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includedfinincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

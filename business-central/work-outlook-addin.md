@@ -122,7 +122,7 @@ Si está usando la aplicación de Outlook, simplemente elija **Vínculo de docum
 > A partir del primer lanzamiento de versiones de 2022, los documentos se abren en una nueva ventana del navegador con todas las funciones que ya conoce de [!INCLUDE [prod_short](includes/prod_short.md)]. Puede navegar de un documento a una lista y viceversa, abrir listas en Excel, enviar documentos para imprimir y ejecutar u obtener una vista previa de informes relacionados. También tiene todos los métodos abreviados de teclado familiares allí mismo cuando abre documentos desde Outlook.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

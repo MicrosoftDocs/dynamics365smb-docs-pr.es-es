@@ -33,7 +33,7 @@ Cuando crea una nueva línea de diario, cabecera de documentos o línea de docum
 
 Cuando modifica y cierra la página **Editar movimientos de grupo de dimensiones**, se realiza una comprobación para ver si la combinación de valores de dimensión existe como grupo de dimensiones en la tabla. Si la combinación tiene lugar en la tabla, el Id. correspondiente del grupo de dimensiones se asigna a la línea de diario, cabecera de documentos o línea de documentos. Si no, un nuevo grupo de dimensiones se agrega a la tabla, y el nuevo Id. del grupo de dimensiones se asigna a la línea de diario, cabecera de documento o línea de documento.
 
-## <a name="codeunit--dimension-management" />Gestión de dimensiones de codeunit 408
+## <a name="codeunit-408-dimension-management" />Gestión de dimensiones de codeunit 408
 Codeunit 408, gestión de dimensiones, es una biblioteca de funciones que controla tareas comunes relacionadas con las dimensiones, como copiar desde una tabla a otra o desde un documento a otro.
 
 ## <a name="performance-improvement" />Mejora del rendimiento

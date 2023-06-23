@@ -104,7 +104,7 @@ Rellene los campos en orden opuesto, de esta manera:
 
 La dimensión ADM se copiará desde la ubicación ESTE.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics--business-central" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics-365-business-central" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also" />Consulte también .
 

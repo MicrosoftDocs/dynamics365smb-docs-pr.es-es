@@ -33,7 +33,7 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 |Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 [Ccial](sales-manage-sales.md)  

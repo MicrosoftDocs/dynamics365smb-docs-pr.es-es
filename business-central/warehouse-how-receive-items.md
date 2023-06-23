@@ -92,7 +92,7 @@ Si las ubicaciones son obligatorias para un almacén, los códigos de zona y ubi
 * Para configuraciones avanzadas que usan ubicación y recolección dirigidas, [!INCLUDE [prod_short](includes/prod_short.md)] usa el código de ubicación de recepción de la página **Ficha almacén** para la ubicación. Si no se especifica un código de ubicación de recepción, no se especifica ninguna ubicación. Si el producto y las ubicaciones de recepción no coinciden, el código de ubicación de recepción está en blanco.
 * En otras configuraciones, si no se especifica un código de ubicación de recepción, [!INCLUDE [prod_short](includes/prod_short.md)] usa el código de ubicación del documento de origen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) relacionada.
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) relacionada.
 
 ## <a name="see-also" />Consulte también .
 

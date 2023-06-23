@@ -11,7 +11,7 @@ ms.search.form: '10737, 10738, 10744'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up--reports-for-small-businesses-in-the-spanish-version" />Configurar informes 340 para pequeñas empresas en la versión en español
+# <a name="set-up-340-reports-for-small-businesses-in-the-spanish-version" />Configurar informes 340 para pequeñas empresas en la versión en español
 Utilice el siguiente procedimiento para configurar su negocio para que informe en efectivo, es decir, Criterios de contabilidad de efectivo (CAC). Si aún no lo ha hecho, puede configurar grupos de contabilización para la contabilización del IVA en efectivo para compras y ventas.  
 
 Cuando rellena un informe 340, se supone que todas las líneas de transacción que están asociadas con el IVA no liquidado se han llevado a cabo bajo contabilidad de efectivo.  

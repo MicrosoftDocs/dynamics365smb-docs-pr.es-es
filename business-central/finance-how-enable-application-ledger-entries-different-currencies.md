@@ -42,7 +42,7 @@ Si liquida movimientos en varias divisas distintas, debe configurar las cuentas 
 3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos registro proveedor**, y luego elija el enlace relacionado.  
 4. En los campos **Cta. neg. red. liquids. divisa** y **Cta. pos. red. liquids. divisa**, especifique el número de cuentas contables para registrar las diferencias de redondeo.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

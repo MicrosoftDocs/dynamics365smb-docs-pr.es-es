@@ -33,20 +33,20 @@ En el ejemplo siguiente se muestra cómo los movimientos de producto, los movimi
 
  Registra un pedido de compra como recibido y facturado para 10 productos con un coste unitario directo de 7 DL y una tasa de costes generales de 1 DL. La fecha de registro es 01-01-20. Se crean los siguientes registros:  
 
-### <a name="item-ledger-entries-" />Movimientos contables de producto (1)
+### <a name="item-ledger-entries-1" />Movimientos contables de producto (1)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Cantidad|Nº mov.|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Compra|80,00|10|1|  
 
-### <a name="value-entries-" />Movimientos de valor (1)
+### <a name="value-entries-1" />Movimientos de valor (1)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Nº mov. producto|Nº mov.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Coste directo|70.00|1|1|  
 |01-01-20|Coste indirecto|10.00|1|2|  
 
-### <a name="item-application-entries-" />Movimientos de liquidación de producto (1)
+### <a name="item-application-entries-1" />Movimientos de liquidación de producto (1)
 
 |Nº mov.|Nº movimiento contable de producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ En el ejemplo siguiente se muestra cómo los movimientos de producto, los movimi
 
  A continuación, registre una venta de 10 unidades del producto con una fecha de registro de 15-01-20.  
 
-### <a name="item-ledger-entries-" />Movimientos contables de producto (2)
+### <a name="item-ledger-entries-2" />Movimientos contables de producto (2)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Cantidad|Nº mov.|  
 |------------|----------|--------------------|--------|---------|  
 |15-01-20|Venta|-80,00|-10|2|  
 
-### <a name="value-entries-" />Movimientos de valor (2)
+### <a name="value-entries-2" />Movimientos de valor (2)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Nº movimiento contable de producto|Nº mov.|  
 |------------|----------|--------------------|---------------------|---------|  
 |15-01-20|Coste directo|-80,00|2|3|  
 
-### <a name="item-application-entries-" />Movimientos de liquidación de producto (2)
+### <a name="item-application-entries-2" />Movimientos de liquidación de producto (2)
 
 |Nº mov.|Nº movimiento contable de producto|Nº mov. prod. entrada|Nº mov. prod. salida|Cantidad|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Al final del periodo contable se ejecuta el trabajo por lotes de **Registro vari
 
  En las tablas siguientes se muestra el resultado de conciliar las transacciones de inventario en este ejemplo con la contabilidad.  
 
-### <a name="value-entries-" />Movimientos de valor (3)
+### <a name="value-entries-3" />Movimientos de valor (3)
 
 |Fecha reg.|Tipo movimiento|Importe coste (Real)|Coste regis. en contab.|Nº mov. producto|Nº mov.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Al final del periodo contable se ejecuta el trabajo por lotes de **Registro vari
 |01-01-20|Coste indirecto|10.00|10.00|1|2|  
 |15-01-20|Coste directo|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-" />Movimientos de contabilidad (3)
+### <a name="general-ledger-entries-3" />Movimientos de contabilidad (3)
 
 |Fecha reg.|Cuenta|Nº cuenta (demostración En-US)|Importe|Nº mov.|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Al final del periodo contable se ejecuta el trabajo por lotes de **Registro vari
 
  La relación entre los movimientos de valoración y los movimientos de contabilidad se almacena en la tabla **Relación movs. productos - C/G**  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Movimientos de relación en C/G: tabla Relación movs. productos (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Movimientos de relación en C/G: tabla Relación movs. productos (3)
 
 |Nº mov. contabilidad|Nº mov. valor|Nº asto. registro|  
 |-------------|---------------|----------------|  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 05/12/2023
 ms.author: bholtorf
 ---
-# Detalles de diseño: Métodos de coste
+# <a name="design-details-costing-methods" />Detalles de diseño: Métodos de coste
 
 La valoración de existencias determina si en el cálculo de costes se capitaliza y utiliza un valor real o uno presupuestado. Junto con la fecha de registro y la secuencia, el método de coste también influye en cómo se registra el flujo de costes.
 
@@ -49,7 +49,7 @@ Los métodos de coste varían en cuanto a la forma en que el inventario disminuy
 |**Estándar**     |Fácil de usar pero requiere mantenimiento cualificado.|La aplicación hace un seguimiento de la **cantidad pendiente**.<br /><br /> La aplicación se basa en el método FIFO.|Revaloriza las cantidades facturadas y no facturadas.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Utilice la página **Hoja de trabajo estándar** para actualizar y distribuir periódicamente los costes estándar.<br /><br /> NO se admite por UA.<br /><br /> No existe ningún registro histórico para los costes estándar.|
 |**Especial**     |Requiere el seguimiento de producto en la transacción de entrada y de salida.<br /><br /> Normalmente se usa para productos serializados.|Toda las liquidaciones son fijas.|Revaloriza solo la cantidad facturada.<br /><br /> Se puede hacer por producto o por movimiento de producto.<br /><br /> Se puede realizar retroactivamente.|Puede utilizar el seguimiento de producto específico sin usar la valoración de existencias Específica. El coste NO seguirá el número de lote, sino el coste supuesto de la valoración de existencias seleccionada.|
 
-## Ejemplo
+## <a name="example" />Ejemplo
 
 En esta sección se proporcionan ejemplos de cómo las distintas valoraciones de existencias afectan al valor de inventario.  
 
@@ -67,7 +67,7 @@ En la tabla siguiente se muestran las entradas y las salidas de existencias en l
 > [!NOTE]  
 > La cantidad resultante en el inventario es cero. Por tanto, el valor de inventario debe ser cero, independientemente del método de coste.  
 
-### Efecto de los métodos de coste en la valoración de entrada de existencias  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases" />Efecto de los métodos de coste en la valoración de entrada de existencias
 
 En el caso de productos con métodos de coste que utilizan el coste real como base de valoración (**FIFO**, **LIFO**, **Promedio** o **Específico**), las entradas de existencias se calculan según el coste de compra del producto.  
 
@@ -75,11 +75,11 @@ En el caso de productos con métodos de coste que utilizan el coste real como ba
 
     En el caso de productos donde se use el método de costes **Estándar**, las entradas de existencias se calculan según el coste estándar actual.  
 
-#### Estándar  
+#### <a name="standard" />Estándar
 
 En el caso de productos donde se use el método de costes **Estándar**, las entradas de existencias se calculan según el coste estándar actual.  
 
-### Efecto de los métodos de coste en la valoración de salidas de existencias
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases" />Efecto de los métodos de coste en la valoración de salidas de existencias
 
 - **FIFO**  
 
@@ -147,7 +147,7 @@ En el caso de productos donde se use el método de costes **Estándar**, las ent
     |01-03-20|-1|-10,00|**1**|5|  
     |01-04-20|-1|-30,00|**3**|6|  
 
-## Consulte también
+## <a name="see-also" />Consulte también
 
 [Detalles de diseño: coste de inventario](design-details-inventory-costing.md)  
 [Detalles de diseño: desviación](design-details-variance.md)  

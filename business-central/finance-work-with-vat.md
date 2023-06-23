@@ -234,7 +234,7 @@ Para ver un grupo de certificados, desde la página **Certificados de suministro
 > * Para crear manualmente un certificado de suministro  
 > * Para imprimir certificado de suministro.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

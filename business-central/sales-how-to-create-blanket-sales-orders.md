@@ -89,7 +89,7 @@ El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y c
 
 5. En la página **Líneas de venta**, seleccione la acción **Mostrar documento** para ver la entrada.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

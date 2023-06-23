@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Flujos de trabajo en Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Flujos de trabajo en Dynamics 365 Business Central
 
 Puede configurar y utilizar flujos de trabajo para vincular tareas de procesos empresariales realizadas por distintos usuarios. Las tareas del sistema, como la publicación automática, se pueden incluir como pasos de flujos de trabajo. Las tareas del sistema pueden estar precedidas o seguidas por tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.
 

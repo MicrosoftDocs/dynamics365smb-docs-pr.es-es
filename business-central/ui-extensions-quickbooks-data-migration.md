@@ -61,7 +61,7 @@ Hay algunas acciones concretas que debe realizar: si las transacciones de QuickB
 Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
 Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

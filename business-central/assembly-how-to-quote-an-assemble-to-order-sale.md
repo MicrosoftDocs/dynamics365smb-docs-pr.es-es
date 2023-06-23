@@ -34,7 +34,7 @@ Como cuando se vende cualquier otro tipo de producto, también puede crear una o
 6.  Cuando se hayan ajustado las líneas del pedido de ensamblado a la oferta, cierre la página **Ensamblar para líneas de pedido** para volver a la página **Oferta venta**.  
 7.  Si el cliente acepta la oferta, cree un pedido de venta para el elemento del ensamblado ofertado. Para obtener más información, consulte [Crear ofertas de ventas](sales-how-make-offers.md). La oferta de ensamblado vinculada y cualquier personalización se asocian a ese nuevo pedido de venta para preparar el ensamblado del producto o los productos que se van a vender.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

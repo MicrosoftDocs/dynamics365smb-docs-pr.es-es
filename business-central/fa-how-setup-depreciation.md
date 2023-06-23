@@ -84,7 +84,7 @@ Puede definir para cada libro de amortización una configuración predeterminada
 3. Si desea tener una configuración predeterminada para cada usuario, elija el campo **Id. usuario** y selecciónela desde la página **Usuarios**.  
 4. En el resto de campos, seleccione la sección o plantilla del diario que debe usarse de forma predeterminada.  
 
-## <a name="fiscal-year--days-field-depreciation" />Amortización de campo Ejercicio 365 días
+## <a name="fiscal-year-365-days-field-depreciation" />Amortización de campo Ejercicio 365 días
 
 Cuando el proceso Calcular amortización calcula las amortizaciones, el proceso normalmente utiliza un año estándar de 360 días en el que cada uno de los 12 meses tiene 30 días.
 

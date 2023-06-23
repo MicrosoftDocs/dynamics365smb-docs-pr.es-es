@@ -120,7 +120,7 @@ La página **Corrección de datos de OCR** que abrió desde la página **Documen
 
 Los campos de la ficha desplegable **Información financiera** en la página **Documento entrante** se actualizan con los valores nuevos que introdujo en el paso 4.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

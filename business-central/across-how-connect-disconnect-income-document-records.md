@@ -41,7 +41,7 @@ En cualquier momento puede eliminar los archivos adjuntos de los documentos no r
 
 Se elimina la conexión al documento registrado. Ahora puede conectar otro registro de documento entrante al documento registrado como se describe en este artículo.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

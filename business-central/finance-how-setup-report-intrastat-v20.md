@@ -170,7 +170,7 @@ En muchos paises, las autoridades aduaneras y fiscales han establecido códigos 
 
 En la página **Códigos arancelarios**, aguregue todos los códigos que utilice. Introduzca los códigos en la tarjeta del producto antes de empezar a contabilizar. Una vez configurados los códigos, introdúzcalos en el campo **Código arancelario.** de la tarjeta de proveedor. Rellene también el campo **Peso neto** de la ficha de artículo.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Consulte también .
 

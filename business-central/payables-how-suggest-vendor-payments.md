@@ -47,7 +47,7 @@ De forma alternativa, puede crear manualmente las líneas de pago con la fecha d
 > [!NOTE]  
 >   Si la factura de compra tiene fecha vencida, la fecha de registro se establece en la fecha de trabajo, y la fuente de la línea cambia a color rojo.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/suggest-vendor-payments-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/suggest-vendor-payments-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

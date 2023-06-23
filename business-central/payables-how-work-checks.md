@@ -75,7 +75,7 @@ Si desea revisar los cheques registrados, por ejemplo, para verificar los cheque
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Banco - Desglose cheques** y luego elija el enlace relacionado.
 2. Establezca los filtros como relevantes y luego elija el botón **Vista previa**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/use-checks-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/use-checks-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

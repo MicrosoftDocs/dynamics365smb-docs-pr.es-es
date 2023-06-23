@@ -69,7 +69,7 @@ Con la característica habilitada, solo se puede registrar una transacción de d
 | Revise recibos de gastos, convierta documentos en papel y electrónicos en líneas de diario y digitalice facturas en papel de los proveedores. | [Configurar documentos entrantes](across-how-setup-income-documents.md) |
 | Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos. |[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics--business-central" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Consulte también .
 

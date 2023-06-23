@@ -64,7 +64,7 @@ Para obtener más información, consulte [Usar el diseñador](/dynamics365/busin
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -24,7 +24,7 @@ Si está realizando pagos en efectivo, la siguiente secuencia de tareas enumera 
 ## <a name="applying-payments-in-cash-to-invoices" />Liquidación de pagos en efectivo a las facturas
 Liquide los pagos en efectivo a las facturas que ha recibido de clientes. Para obtener información acerca de cómo liquidar pagos en facturas, vea [Administrar cobros](../../receivables-manage-receivables.md). Solo los pagos liquidados en efectivo se utilizan para realizar pagos en efectivo. Si no liquida los pagos en efectivo a las facturas, no puede indicar pagos en efectivo.  
 
-## <a name="making--payments-in-cash-declaration" />Creación de pagos 340 en declaración de efectivo
+## <a name="making-340-payments-in-cash-declaration" />Creación de pagos 340 en declaración de efectivo
 Utilice el proceso **Modelo 340** para informar realizar pagos 340 en la declaración de efectivo. Para obtener información acerca de cómo especificar y seleccionar la información para generar la declaración, consulte Modelo 340.  
 
 > [!NOTE]  

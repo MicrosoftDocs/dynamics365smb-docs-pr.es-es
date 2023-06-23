@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="report--in-the-spanish-version" />Informe 340 en la versión en español
+# <a name="report-340-in-the-spanish-version" />Informe 340 en la versión en español
 El **Informe 340** contiene información sobre facturas e impuestos emitidos o recibidos por su empresa en un período determinado y se basa en **Fecha de IVA**. El informe se genera en un formato que ha aprobado la administración fiscal. Este informe debe enviarse en el período de liquidación mensual o trimestral de la empresa, según el tamaño de la empresa. Este archivo puede cargarse en el sitio web de la Agencia Tributaria o enviarse en CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://www.agenciatributaria.es/). Si el número de operaciones es mayor a 1 000 000 el informe se puede enviar electrónicamente.  
 
 ## <a name="reporting-requirements-for-entrepreneurs-and-small-companies" />Requisitos de informes para emprendedores y pequeñas empresas
@@ -42,7 +42,7 @@ El formato de archivo del **informe 340** incluye un registro de deponente y al 
 > [!NOTE]  
 >  Si no hay ningún registro de formato, el archivo no se crea y se muestra un mensaje de error.  
 
-## <a name="entries-included-in-report-" />Movimientos incluidos en el informe 340
+## <a name="entries-included-in-report-340" />Movimientos incluidos en el informe 340
 Los movimientos incluidos en el **informe 340** deben haberse registrado durante el ejercicio y el periodo que se ha indicado en el formulario de solicitud. Los movimientos que se incluyen en el informe de pagos en efectivo se pueden registrar del año anterior.  
 
 ### <a name="businesses" />Negocios

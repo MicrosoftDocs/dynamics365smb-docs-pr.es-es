@@ -88,7 +88,7 @@ Puede comparar el valor del campo **Saldo en cuenta bancaria después del regist
 > [!NOTE]  
 >   Si no desea conciliar la cuenta bancaria de la página **Diario de conciliación de pagos**, debe usar la página **Conciliación banco**. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

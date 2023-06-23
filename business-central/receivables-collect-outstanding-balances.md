@@ -107,7 +107,7 @@ Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la pá
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Para obtener más información, vea [Configurar tipos múltiples de interés](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

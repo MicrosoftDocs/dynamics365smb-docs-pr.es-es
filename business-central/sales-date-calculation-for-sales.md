@@ -36,7 +36,7 @@ Si no especifica una fecha de entrega requerida en la línea del pedido de venta
 - *fecha envío + tiempo manip. alm. salida = fecha envío planeada*
 - *fecha envío planeada + hora envío = fecha entrega planeada*
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics--business-central" />Consulte la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Consulte la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada.
 
 ## <a name="see-also" />Consulte también .
 

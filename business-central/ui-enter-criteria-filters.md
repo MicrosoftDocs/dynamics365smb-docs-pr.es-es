@@ -172,7 +172,7 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 > [!TIP]
 > Si está usando un teclado numérico, la tecla del separador decimal puede emitir un carácter distinto al punto (.). Para pasar a un punto, seleccione las teclas <kbd>Alt</kbd>+<kbd>Separador decimal</kbd> del teclado numérico. Cuando quiera volver a cambiar, seleccione de nuevo <kbd>Alt</kbd>+<kbd>Separador decimal</kbd>. Para más información, consulte [Configurar el separador decimal utilizado por los teclados numéricos](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) O/o
+#### <a name="124-eitheror" />(&#124;) O/o
 
 |Ejemplo|Registros mostrados|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Use `%myvendors` en el campo de proveedor **No** para mostrar todos los registro
 |-----------------------|-----------------------|  
 |`%myvendors`|Proveedores en **Mis proveedores** en el Área de trabajo. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

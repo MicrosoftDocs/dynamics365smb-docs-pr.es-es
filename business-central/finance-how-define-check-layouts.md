@@ -45,7 +45,7 @@ En la actualización 15.3 y posteriores, las fuentes de reconocimiento de caract
 > [!NOTE]
 > Por razones legales y de seguridad, no puede cargar fuentes personalizadas en el ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="micr-e-b-specifications" />Especificaciones MICR E-13B
+### <a name="micr-e-13b-specifications" />Especificaciones MICR E-13B
 
 A continuación se resumen las especificaciones para las fuentes MICR E-13B que pueden ser útiles al calibrar fuentes para que estén en diseños de cheques con impresoras MICR específicas.
 
@@ -57,7 +57,7 @@ A continuación se resumen las especificaciones para las fuentes MICR E-13B que 
 
 La especificación completa de las fuentes MICR E-13B se puede encontrar en la documentación del proveedor aquí: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />Especificaciones MICR CMC-7
+### <a name="micr-cmc-7-specifications" />Especificaciones MICR CMC-7
 
 Las siguientes fuentes CMC-7 están disponibles en línea en [!INCLUDE[prod_short](includes/prod_short.md)]:
 

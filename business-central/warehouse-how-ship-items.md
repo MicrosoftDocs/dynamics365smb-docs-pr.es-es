@@ -115,7 +115,7 @@ Una vez registrado el envío de almacén, los distintos campos de la línea de p
 >
 > La cantidad ensamblada para pedido se maneja como se describe en este artículo. La cantidad de inventario se maneja como una línea de envío de almacén regular. Para obtener más información sobre los escenarios de combinación, vaya a [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada.
 
 ## <a name="see-also" />Consulte también .
 

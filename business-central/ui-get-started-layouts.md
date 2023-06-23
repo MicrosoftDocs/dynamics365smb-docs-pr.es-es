@@ -179,7 +179,7 @@ Siga estos pasos si desea cambiar el nombre y la descripción de un diseño defi
     > Como ayuda para buscar el diseño, use el cuadro **Buscar**, el panel **Filtro** y la clasificación de columnas.
 3. Cambie el **Nombre del diseño** y, a continuación, seleccione **Aceptar**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

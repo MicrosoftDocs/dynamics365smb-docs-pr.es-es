@@ -159,7 +159,7 @@ Para obtener detalles sobre la planificación con ubicaciones y transferencias, 
 > [!TIP]
 > Cuando trabaje en las páginas **Hoja de demanda** u **Hoja de planificación**, puede organizar las líneas ordenándolas por nombre de columna. Esto es especialmente útil en la página Hoja de planificación porque se puede usar para órdenes de producción de varios niveles. De forma predeterminada, las líneas se ordenan por el campo **N.º producto**. Para agrupar líneas de un pedido de varios niveles, ordene según el **Nº orden ref.** . También los campos **Orden MPS** y **Nivel de planificación** pueden ayudar a mostrar la jerarquía de las líneas.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/plan-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/plan-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

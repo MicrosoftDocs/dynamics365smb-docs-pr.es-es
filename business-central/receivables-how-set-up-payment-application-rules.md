@@ -74,7 +74,7 @@ La siguiente tabla describe las reglas de aplicación de pago estándar en [!INC
 | Baja              | 4        | N.º                    | N.º                             | Una instancia                      |
 | Baja              | 5        | N.º                    | N.º                             | Múltiples instancias               |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/reconciliation-journals-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  

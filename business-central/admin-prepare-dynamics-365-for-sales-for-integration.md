@@ -10,7 +10,7 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="integrating-with-dynamics--sales" />Integración con Dynamics 365 Sales
+# <a name="integrating-with-dynamics-365-sales" />Integración con Dynamics 365 Sales
 
 El papel de vendedor se considera a menudo uno de los trabajos más orientados hacia el exterior en una empresa. Sin embargo, puede ser útil para los vendedores poder mirar hacia adentro en la empresa y ver lo que está sucediendo en la trastienda. Al integrar [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[crm_md](includes/crm_md.md)], puede darle a su personal de ventas esa perspectiva. La integración permitirá que la gente vea la información en [!INCLUDE[prod_short](includes/prod_short.md)] mientras trabajan en [!INCLUDE[crm_md](includes/crm_md.md)]. Por ejemplo, al preparar una oferta de ventas podría ser útil saber si tiene suficiente inventario para cumplir el pedido. Para obtener más información, consulte [Usar Dynamics 365 Sales desde Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -51,7 +51,7 @@ Puede usar una guía de configuración asistida para configurar rápidamente la 
 |**Habilitar la conexión de Dynamics 365 Sales** | Habilitar la conexión a [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Versión de Dynamics 365 SDK** | Solo es relevante si va a realizar la integración con una versión local de [!INCLUDE[crm_md](includes/crm_md.md)]. Este SDK es el kit de desarrollo de software de Dynamics 365 (también designado Xrm) que se utiliza para conectar [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]. La versión debe ser compatible con la versión de SDK que utiliza [!INCLUDE[crm_md](includes/crm_md.md)] e igual o más nueva que la versión que utiliza [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
-### <a name="connection-settings-on-the-microsoft-dynamics--connection-setup-page" />Configuración de conexión en la página de configuración de conexión de Microsoft Dynamics 365
+### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page" />Configuración de conexión en la página de configuración de conexión de Microsoft Dynamics 365
 
 Escriba la siguiente información para la conexión de [!INCLUDE[crm_md](includes/crm_md.md)] a [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -183,7 +183,7 @@ La tabla siguiente describe los proyectos de sincronización predeterminados par
 |Proyecto de sincronización de POSTEDSALESINV-INV - Dynamics 365 Sales|Sincroniza las facturas de [!INCLUDE[crm_md](includes/crm_md.md)] con facturas de ventas registradas de [!INCLUDE[prod_short](includes/prod_short.md)].|De [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]|FACTURAS-FACTURAS DE VENTAS REGISTRADAS|30|1440<br> (24 h)|
 |Sincronización de Estadísticas de clientes - Dynamics 365 Sales|Actualiza las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] con los últimos datos de los clientes de [!INCLUDE[prod_short](includes/prod_short.md)]. En [!INCLUDE[crm_md](includes/crm_md.md)], la información se muestra en el formulario de vista rápida **Estadísticas de la cuenta de Business Central** de cuentas que están emparejadas con los clientes de [!INCLUDE[prod_short](includes/prod_short.md)].<br /><br /> Estos datos también pueden actualizarse manualmente desde cada registro de cliente. Para obtener más información, consulte [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Nota:** este movimiento de la cola de proyectos es relevante solo si la solución de integración de [!INCLUDE[prod_short](includes/prod_short.md)] está instalada en [!INCLUDE[crm_md](includes/crm_md.md)]. |No aplicable|No aplicable|30|No aplicable| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central--release-wave--and-microsoft-dynamics-nav-" />Conexión con las versiones locales de Business Central 2019, lanzamientos de versiones 1 y Microsoft Dynamics NAV 2018
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018" />Conexión con las versiones locales de Business Central 2019, lanzamientos de versiones 1 y Microsoft Dynamics NAV 2018
 El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) que está desaprobando el tipo de autenticación de Office365. Si esta usando una versión de [!INCLUDE[prod_short](includes/prod_short.md)] local anterior a Business Central 2019, lanzamiento de versiones 1, debe usar el tipo de autenticación OAuth para conectarse a [!INCLUDE[crm_md](includes/crm_md.md)] online. Los pasos de esta sección describen cómo conectar las siguientes versiones del producto:
 
 * Business Central 2019 lanzamiento de versiones 1
@@ -201,7 +201,7 @@ El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-c
 
    - OAuth
 
-### <a name="to-connect-business-central--release-wave--and-dynamics-nav-" />Para conectar Business Central 2019 lanzamiento de versiones 1 y Dynamics NAV 2018
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018" />Para conectar Business Central 2019 lanzamiento de versiones 1 y Dynamics NAV 2018
 
 1. Importe la Solución de integración de Microsoft Dynamics 365 Business Central en su entorno de [!INCLUDE[crm_md](includes/crm_md.md)]. La solución de integración está disponible en la carpeta CrmCustomization del DVD de instalación de [!INCLUDE[prod_short](includes/prod_short.md)] o Dynamics NAV 2018. Dependiendo de la versión de su producto, importe una de las siguientes soluciones:
 

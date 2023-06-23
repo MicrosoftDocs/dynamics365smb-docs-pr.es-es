@@ -47,7 +47,7 @@ En este procedimiento, se reemplazan las cantidades de ensamblar para pedido con
 > [!CAUTION]  
 > El campo **Cód. ubicación** en el pedido de venta podría contener el valor de lo scampos **Cód. ubic. ensamblar para pedido** o **Cód. ubic. desde ensamblado** en la ficha de almacén. Si es así, el campo **Cód. ubicación** de la línea de pedido de venta podría ser incorrecto para esta combinación de cantidades de ensamblar para pedido y ensamblar para stock. Es una buena idea hacer una doble comprobación de que la ubicación en el campo **Cód. ubicación** es válida para todas las cantidades. También puede introducir las dos cantidades en líneas de pedido de venta distintas.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/assemble-to-order-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

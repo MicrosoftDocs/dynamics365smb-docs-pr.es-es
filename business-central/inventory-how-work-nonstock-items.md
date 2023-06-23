@@ -58,7 +58,7 @@ El siguiente proceso utiliza una orden de venta, pero los pasos son los mismos p
 > [!NOTE]  
 > Una referencia de producto se crea automáticamente entre el número del producto del proveedor y su nuevo número de producto. Para obtener más información sobre las referencias de productos, vaya a [Usar referencias de productos](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

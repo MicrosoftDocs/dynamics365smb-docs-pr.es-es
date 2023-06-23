@@ -116,7 +116,7 @@ Cuando trabaja con el **Informe Intrastat** verá un campo **Estado** en el enca
 * *Liberado*: [!INCLUDE[prod_short](includes/prod_short.md)] cambia automáticamente el estado a *Liberado* cuando se crea un archivo. A partir de ese momento, no podrá modificar su **Informe Intrastat**. Si necesita cambiar algo e informar nuevamente, puede usar la acción **Reabrir** para reabrir el informe Intrastat. Una vez que se vuelve a abrir el documento, puede utilizar la acción **Liberar** para liberar el documento de nuevo.
 * **Notificado**: especifica si el movimiento ya se ha declarado a las autoridades fiscales. Este no es un estado regular sino un campo independiente, e incluso si reabriera el informe de Intrastat, aún mostraría que el archivo ya se creó para este informe.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Consulte también .
 

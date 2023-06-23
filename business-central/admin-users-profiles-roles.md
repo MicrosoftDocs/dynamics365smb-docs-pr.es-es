@@ -167,7 +167,7 @@ Como administrador de [!INCLUDE[prod_short](includes/prod_short.md)] online, pue
 
 Para [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, puede administrar sesiones usando SQL Server Management Studio, por ejemplo. Para más información, consulte [Documentación técnica de SQL Server](/sql/sql-server).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/users-security-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/users-security-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

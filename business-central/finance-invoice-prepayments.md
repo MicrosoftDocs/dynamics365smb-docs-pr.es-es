@@ -29,7 +29,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Crear un pedido, ajustar los importes de prepago y emitir una factura para los importes de prepago.|[Crear facturas de prepagos](finance-how-to-create-prepayment-invoices.md)|  
 |Emitir una factura de prepago adicional, bien para productos adicionales o para un depósito adicional en el pedido original, o emitir un abono de prepago.|[Corregir prepagos](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

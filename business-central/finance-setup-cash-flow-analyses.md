@@ -134,7 +134,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 7. Amplíe la ficha desplegable **Azure AI** y, a continuación, rellene los campos, incluidas la URL de API y la clave de API proporcionadas desde el estudio de Azure Machine Learning. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. En el área de trabajo Contable, elija la acción **Recalcular previsión** en el gráfico **Previsión de flujo de efectivo**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 

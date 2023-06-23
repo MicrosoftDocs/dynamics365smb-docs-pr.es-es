@@ -58,7 +58,7 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
 Después de modificar el diseño, pruebe a actualizar el diseño de nuevo.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
  [Gestión de diseños de informe](ui-manage-report-layouts.md)  

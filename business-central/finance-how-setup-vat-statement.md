@@ -39,7 +39,7 @@ Después de definir una declaración de IVA, puede obtener una vista previa de e
 4. En las líneas cuyo campo **Tipo** contenga **Total mov. IVA**, podrá ver una lista de los movimientos de IVA al seleccionar el importe del campo **Importe columna**.
 5. Puede usar la personalización para mostrar más campos en las líneas. Por ejemplo, el importe base no realizado y el importe de IVA no realizado, si está utilizando el IVA no realizado.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -26,7 +26,7 @@ Si un proveedor tiene una o más cuentas bancarias y desea establecer una opció
 2. Abre la ficha del proveedor.
 3. En la ficha desplegable **Pagos**, elija la cuenta bancaria del proveedor predeterminado en el campo **Código de cuenta bancaria preferida**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

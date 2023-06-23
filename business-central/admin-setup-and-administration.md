@@ -54,7 +54,7 @@ Los administradores internos y delegados tienen acceso al [!INCLUDE [prod_short]
 |Administre sesiones de usuario, incluida la cancelación de una sesión si el usuario está bloqueado.|[Administrar sesiones](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configure el suscriptor para enviar datos de telemetría a Azure Application Insights para mejor análisis y resolución de problemas.|[Habilitar envío de telemetría a Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

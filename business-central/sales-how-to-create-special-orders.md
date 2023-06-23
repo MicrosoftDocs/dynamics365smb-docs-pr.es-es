@@ -38,7 +38,7 @@ El sistema de planificación respeta un pedido de compra que se crea como un ped
 > [!NOTE]  
 >  No puede utilizar la funcionalidad de pedido especial si el artículo ya está reservado. Por lo tanto, para los artículos que se venden en pedidos especiales, asegúrese de que el campo **Reservar** de la ficha de producto no se establezca en **Siempre**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

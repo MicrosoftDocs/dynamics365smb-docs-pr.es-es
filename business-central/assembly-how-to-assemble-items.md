@@ -61,7 +61,7 @@ Siga los pasos de este procedimiento para ensamblar un artículo para almacenar.
 
 Después de que el registrar se realice correctamente, el artículo de ensamblado se registra como salida al código de almacén y al potencial código de ubicación definidos en el pedido de ensamblado. Para los pedidos de ensamblado creados manualmente, la ubicación se puede copiar desde el campo de instalación **Ubicación pred. pedidos**. Para los flujos de ensamblar para pedido, el código de almacén se copia de la línea del pedido de venta.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

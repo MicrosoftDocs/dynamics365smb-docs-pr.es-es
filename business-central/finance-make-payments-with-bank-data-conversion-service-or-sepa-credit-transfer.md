@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Efectúe pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Efectúe pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA
 
 En la página **Diario de pagos**, puede procesar pagos a sus proveedores exportando un archivo junto con la información de pago desde las líneas de diario. Después, puede cargar el archivo al banco electrónico donde procesar las transferencias de dinero relacionadas. [!INCLUDE[prod_short](includes/prod_short.md)] admite el formato de transferencia de crédito SEPA, pero en su país o región, es posible que haya otros formatos para pagos electrónicos.
 
@@ -23,7 +23,7 @@ En la página **Diario de pagos**, puede procesar pagos a sus proveedores export
 > [!NOTE]  
 > Cuando haya comprobado que el banco ha procesado correctamente los pagos, puede continuar con el registro de las líneas del diario de pagos.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />Configuración de la extensión de AMC Banking 365 Fundamentals
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />Configuración de la extensión de AMC Banking 365 Fundamentals
 
 Active la extensión AMC Banking 365 Fundamentals 365 para convertir los archivos de extracto de cuenta a un formato que pueda importar o para tener los archivos de pago exportados convertidos al formato que el banco requiere. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 

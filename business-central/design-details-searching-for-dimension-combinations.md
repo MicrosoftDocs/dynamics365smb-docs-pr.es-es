@@ -16,7 +16,7 @@ Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLU
 ## <a name="building-search-tree" />Creación de árbol de búsqueda
  La tabla 481 **Nodo árbol grupo dimensiones** se usa cuando [!INCLUDE[prod_short](includes/prod_short.md)] evalúa si ya existe un conjunto de dimensiones en la tabla 480 **Mov. grupo dimensiones**. La evaluación se realiza de forma recursiva recorriendo el árbol desde el nivel superior con el número 0. El nivel superior 0 representa un grupo de dimensiones sin movimientos de grupo de dimensiones. Los elementos secundarios de este grupo de dimensiones representan los grupos de dimensiones con un solo movimiento de grupo de dimensiones. Los elementos secundarios de estos grupos de dimensiones representan los grupos de dimensiones con dos elementos secundarios, etc.  
 
-### <a name="example-" />Ejemplo 1
+### <a name="example-1" />Ejemplo 1
  En el diagrama siguiente se representa un árbol de búsqueda con seis grupos de dimensiones. En el diagrama solo se muestra el movimiento de grupo de dimensiones de diferenciación.  
 
  ![Ejemplo de estructura de árbol de dimensiones.](media/nav2013_dimension_tree.png "Ejemplo de estructura de árbol de dimensiones")  
@@ -33,7 +33,7 @@ Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLU
 |Grupo 5|AREA 40|  
 |Grupo 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Ejemplo 2
+### <a name="example-2" />Ejemplo 2
  En este ejemplo se muestra cómo evalúa [!INCLUDE[prod_short](includes/prod_short.md)] si existe un grupo de dimensiones compuesto por movimientos de grupo de dimensiones AREA 40, DEPT PROD.  
 
  Primero, [!INCLUDE[prod_short](includes/prod_short.md)] también actualiza la tabla **Nodo árbol grupo dimensiones** para garantizar que el árbol de búsqueda obedezca al diagrama siguiente. Por lo tanto, el grupo de dimensiones 7 se convierte en un elemento secundario del grupo de dimensiones 5.  

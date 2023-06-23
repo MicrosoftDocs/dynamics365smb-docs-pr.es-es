@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 02/23/2022
 ---
 
-# <a name="dynamics--business-central-trial-faq" />Preguntas más frecuentes de la prueba de Dynamics 365 Business Central
+# <a name="dynamics-365-business-central-trial-faq" />Preguntas más frecuentes de la prueba de Dynamics 365 Business Central
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
@@ -44,7 +44,7 @@ Cambie a la versión de prueba de 30 días y luego agregue sus propios datos. Pa
 
 No puede. Si elimina accidentalmente datos de muestra, solicite a su administrador que cree un nuevo entorno de espacio aislado. Para obtener más información, consulte [Producción y entornos de espacios aislados](/dynamics365/business-central/dev-itpro/administration/environment-types) en el contenido para administradores (solo en inglés).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

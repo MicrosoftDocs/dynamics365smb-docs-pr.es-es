@@ -90,14 +90,14 @@ Al ejecutar el proceso **Valorar stock - movs. producto**, tiene la opción de e
 
 En el ejemplo siguiente se muestra si registra un producto comprado como recibido y facturado en 01-01-20. Después, registra el producto vendido como enviado y facturado el 15-01-20. A continuación, ejecute los procesos **Valorar stock - movs. producto** y **Reg. var. inventario en contabilidad**. Se crean los siguientes registros:  
 
-#### <a name="value-entries-" />Movimientos de valor (1)
+#### <a name="value-entries-1" />Movimientos de valor (1)
 
 |Fecha reg.|Tipo mov. producto|Importe coste (Real)|Coste regis. en contab.|Cantidad facturada|Nº mov.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Compra|10.00|10.00|1|1|  
 |15-01-20|Venta|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Movimientos de relación en C/G: tabla Relación movs. productos (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Movimientos de relación en C/G: tabla Relación movs. productos (1)
 
 |Nº mov. contabilidad|Nº mov. valor|Nº asto. registro|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ En el ejemplo siguiente se muestra si registra un producto comprado como recibid
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Movimientos de contabilidad (1)
+#### <a name="general-ledger-entries-1" />Movimientos de contabilidad (1)
 
 |Fecha reg.|Cuenta|Nº cuenta (demostración En-US)|Importe|Nº mov.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ En el ejemplo siguiente se muestra si registra un producto comprado como recibid
 
 Más tarde, se registra un cargo de producto de compra de 2,00 DL facturado en 10-02-20. Ejecute el proceso **Valorar stock - movs. producto** y, a continuación, **Reg. var. inventario en contabilidad**. El proceso de ajuste del coste ajusta el coste de la venta en 2,00 DL y el proceso **Reg. var. inventario en cont.** registra los nuevos movimientos de valoración en la contabilidad. El resultado es el siguiente.  
 
-#### <a name="value-entries-" />Movimientos de valor (2)
+#### <a name="value-entries-2" />Movimientos de valor (2)
 
 |Fecha reg.|Tipo mov. producto|Importe coste (Real)|Coste regis. en contab.|Cantidad facturada|Ajuste|Nº mov.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |10-02-20|Compra|2.00|2.00|0|No|3|  
 |15-01-20|Venta|-2,00|-2,00|0|Sí|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Movimientos de relación en C/G: tabla Relación movs. productos (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Movimientos de relación en C/G: tabla Relación movs. productos (2)
 
 |Nº mov. contabilidad|Nº mov. valor|Nº asto. registro|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Más tarde, se registra un cargo de producto de compra de 2,00 DL facturado en 1
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Movimientos de contabilidad (2)
+#### <a name="general-ledger-entries-2" />Movimientos de contabilidad (2)
 
 |Fecha reg.|Cuenta|Nº cuenta (demostración En-US)|Importe|Nº mov.|  
 |------------|-----------|------------------------|------|---------|  

@@ -43,7 +43,7 @@ En términos de base de datos, esta característica se conoce comúnmente como *
     > [!NOTE]
     > Si un objeto que es editable, como la Tarjeta del cliente, se establece en **Solo lectura**, se seguirá utilizando la base de datos principal, independientemente de la intención de acceso, lo que permitirá a los usuarios realizar cambios de forma normal.
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Consultar la [formación de Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/deploy-configure-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 [Funciones empresariales](across-business-functionality.md)  

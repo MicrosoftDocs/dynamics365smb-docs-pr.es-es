@@ -26,7 +26,7 @@ Utilice las siguientes páginas para crear y analizar presupuestos de coste. Eli
 |Vea registros de presupuesto de costes y movimientos de presupuestos de costes.|Página de **Registros de presupuesto de costes**|  
 |Imprima comparaciones del presupuesto de costes con varios informes.|Informe **Saldo/presupuesto contable costes**<br /><br /> Informe **Extracto contable de costes/Presupuesto**<br /><br /> Informe **Ppto. costes por centro de coste**<br /><br /> Informe **Ppto. costes por objeto de coste**|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-reports-dynamics--business-central" />Consultar la [formación de Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-reports-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/cost-accounting-reports-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

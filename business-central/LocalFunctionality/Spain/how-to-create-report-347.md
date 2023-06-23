@@ -7,7 +7,7 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="create-report--in-the-spanish-version" />Crear informe 347 en la versión en español
+# <a name="create-report-347-in-the-spanish-version" />Crear informe 347 en la versión en español
 Todas las empresas deben presentar una declaración anual, el **Informe 347**, a la administración fiscal que proporcione las transacciones de ventas y compras del periodo fiscal anterior.  
 
 El modelo del Informe 347 se genera en un formato que ha aprobado la administración fiscal para cargarlo en la oficina Web virtual o enviarlo en CD-ROM.  
@@ -20,7 +20,7 @@ Antes de crear el modelo del informe 347, puede ejecutar un informe para identif
 2.  Seleccione la acción **Pagos en efectivo no liquidados**.  
 3.  Rellene los campos de la ficha desplegable **Opciones**.  
 
-## <a name="to-create-a-report--declaration" />Para crear un modelo del informe 347
+## <a name="to-create-a-report-347-declaration" />Para crear un modelo del informe 347
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Modelo 347** y luego elija el enlace relacionado.  
 2.  Rellene los campos de la ficha desplegable **Opciones**. Para obtener más información, consulte Crear Modelo 347.  
@@ -28,7 +28,7 @@ Antes de crear el modelo del informe 347, puede ejecutar un informe para identif
 
 Cuando registre el modelo del informe 347, debe incluir etiquetas del modelo 347. Estas etiquetas son necesarias como parte del paquete para la administración fiscal.  
 
-## <a name="to-create--declaration-labels" />Para crear etiquetas del modelo 347
+## <a name="to-create-347-declaration-labels" />Para crear etiquetas del modelo 347
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Etiquetas modelo 347** y luego elija el enlace relacionado.  
 2.  Rellene los campos de la ficha desplegable **Opciones**. Para obtener más información, consulte Etiquetas modelo.  

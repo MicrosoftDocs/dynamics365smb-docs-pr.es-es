@@ -184,7 +184,7 @@ Puede importar y exportar informes financieros como paquetes de configuración R
 > [!NOTE]
 > Cuando importe informes financieros, se eliminarán los registros existentes con los mismos nombres que los que está importando.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics--business-centralindex" />Consulte la [formación de Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index) relacionada.
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Consulte la [formación de Microsoft](/training/modules/configure-financial-reports-dynamics-365-business-central/index) relacionada.
 
 ## <a name="see-also" />Consulte también .
 
