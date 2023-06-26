@@ -3,12 +3,11 @@ title: Solucionar problemas de sus flujos de trabajo automatizados
 description: Aprenda a solucionar problemas de conexión entre Business Central y Power Automate cuando crea un flujo de trabajo automatizado.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 06/16/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: d365-business-central
 ---
 
 # Solucionar problemas de sus [!INCLUDE[prod_short](includes/prod_short.md)] flujos de trabajo automatizados
@@ -23,10 +22,24 @@ Si un evento crea o cambia muchos registros, el flujo no se ejecuta en algunos o
 
 ### Causa posible
 
-Actualmente, hay un límite en la cantidad de registros que puede procesar un flujo. Si se crean o modifican más de 100 registros en 30 segundos, el flujo no se activará.
+Actualmente, hay un límite en la cantidad de registros que puede procesar un flujo. Si se crean o modifican más de 100 registros en 30 segundos, el flujo no se activa.
 
 > [!NOTE]
 > Para los desarrolladores, la activación del flujo se realiza a través de notificaciones de un webhook y esta limitación se debe a la forma en la que el conector de Business Central gestiona las notificaciones de `collection` Obtenga más información en [Trabajando con webhooks en Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) en la ayuda para desarrolladores y administradores.
+
+## Error "La respuesta del servicio de Business Central es demasiado grande"
+
+### Problema
+
+Cuando se utiliza una acción que interactúa con registros (como *Crear registro (V3)* y *Obtener registro (V3)*), Power Automate podría mostrar un error similar a este:
+
+`The response from the Business Central service is too large`
+
+### Causa posible
+
+Aunque Business Central no tiene un límite establecido en el tamaño de los registros que devuelven las API, el conector de Dynamics 365 Business Central para Power Automate solo puede manejar registros de hasta 8 MB.
+
+Todas las API de Business Central proporcionadas por Microsoft devuelven registros por debajo de este límite, pero es posible que las API proporcionadas por partners no. Si ve un error "La respuesta del servicio de Business Central es demasiado grande", comuníquese con el partner que creó la API que está utilizando.
 
 ## Error "Conjunto de entidades no encontrado"
 

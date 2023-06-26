@@ -5,10 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: how-to
-ms.date: 02/24/2023
+ms.date: 03/22/2023
 ms.custom: bap-template
+ms-service: dynamics365-business-central
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents" />Administrar archivos adjuntos, vínculos y notas en fichas y documentos
+# Administrar archivos adjuntos, vínculos y notas en fichas y documentos
 
 En la mayoría de las páginas de lista, fichas y documentos, puede adjuntar archivos, agregar vínculos y escribir notas en la pestaña **Adjuntos** del panel **Cuadro informativo**. El número del título de la pestaña indica cuántos archivos adjuntos, vínculos o notas existen para la ficha o documento.
 
@@ -19,11 +20,13 @@ Los archivos adjuntos, enlaces y notas permanecen adjuntos a la ficha o document
 También puede agregar archivos adjuntos a los correos electrónicos que envía desde [!INCLUDE [prod_short](includes/prod_short.md)]. Cuando envía un correo electrónico directamente desde un documento, como una oferta de venta, la acción **Agregar archivo desde documento origen** le permite elegir los archivos que se le adjuntan. Solo puede elegir archivos que se han adjuntado al documento. No puede elegir archivos que se han adjuntado a líneas.
 
 > [!NOTE]
-> Cuando envía y factura parcialmente un pedido de venta o de compra, el archivo adjunto solo se adjuntará a la factura final del pedido. Del mismo modo, cuando factura con la característica Fraccionamientos, el archivo adjunto se adjunta a los movimientos contables del documento, pero no para los movimientos de aplazamiento.
+> Cuando envía y factura parcialmente un pedido de venta o de compra, el archivo adjunto solo se adjuntará a la factura final del pedido. Del mismo modo, cuando factura con los fraccionamientos, el archivo adjunto se adjunta a los movimientos contables del documento, pero no para los movimientos de aplazamiento.
 >
-> Si elimina un pedido antes de que se facture, el archivo adjunto también se elimina. Cuando factura pedidos de compra mediante la acción Traer albaranes de una factura de compra, el archivo adjunto de los pedidos de compra no se agrega a la factura de compra.
+> Si elimina un pedido antes de que se facture, el archivo adjunto también se elimina.
+>
+> Cuando usa la acción **Traer albaranes** en una factura de compra, el archivo adjunto del pedido de compra relacionado se agrega a la factura de compra.
 
-## <a name="to-attach-a-file-to-a-purchase-invoice" />Para adjuntar un archivo a una factura de compra
+## Para adjuntar un archivo a una factura de compra
 
 Puede adjuntar cualquier tipo de archivo, como archivo de texto, imagen o vídeo, a una ficha, documento o línea de un documento. Esto es útil, por ejemplo, cuando desea almacenar la factura de un proveedor como un archivo PDF en la factura de compra relacionada en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,19 +42,21 @@ El procedimiento siguiente se basa en una factura de compra. Los pasos son parec
 2. Abra la factura de compra a la que desea adjuntar un archivo.
 3. En el panel **Cuadro informativo**, elija la pestaña **Adjuntos**.
 4. Elija el valor que va detrás del campo **Documentos**, como "0".
-5. En la página **Documentos adjuntos**, en el campo **Archivo adjunto**, seleccione la acción **Seleccionar archivo**.
-6. Seleccione un archivo de cualquier ubicación y, a continuación, elija el botón **Abrir**.
+5. En la página **Documentos adjuntos**, en el campo **Anexo**.
+6. En el cuadro de diálogo **Adjuntar un documento**, realice uno de los siguientes pasos para adjuntar un archivo:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
 El archivo se adjunta ahora a la factura de compra.
 
-## <a name="to-view-an-attached-file" />Para ver un archivo adjunto.
+## para ver un archivo adjunto
 
-1. En el panel **Cuadro informativo**, abra la pestaña **Adjuntos**.
+1. En el cuadro informativo, abra la pestaña **Anexos**.
 2. Elija el valor que va detrás del campo **Documentos**, como "1".
 3. En la página **Documentos adjuntos**, seleccione la acción **Vista previa**.
 4. Abra el archivo descargado.
 
-## <a name="to-save-a-document-as-a-pdf-attachment" />Para guardar un documento como un archivo PDF adjunto
+## Para guardar un documento como un archivo PDF adjunto
 
 Siempre que necesite guardar un documento como un archivo, puede usar la acción **Adjuntar como PDF** para capturar el contenido actual del documento como un archivo PDF adjunto al cuadro informativo del documento. Esto es útil, por ejemplo, cuando los documentos siguen varios pasos de un proceso, como un proceso de ventas o un flujo de trabajo de aprobación, y desea consultar una copia impresa del paso anterior.
 
@@ -62,7 +67,7 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son similare
 
 Se agrega un archivo PDF con el contenido actual del pedido de cliente a la pestaña **Archivos adjuntos** del cuadro informativo.
 
-## <a name="to-add-a-link-from-an-item-card" />Para añadir un enlace de una ficha de producto
+## Para añadir un enlace de una ficha de producto
 
 Puede añadir un enlace de una ficha o un documento a cualquier URL. Esto es útil, por ejemplo, cuando desea vincular una ficha de producto con el catálogo de producto del proveedor.
 
@@ -80,7 +85,7 @@ El procedimiento siguiente se basa en una ficha de producto. Los pasos son parec
 
 El vínculo ahora está adjunto a la ficha de producto.  
 
-## <a name="to-write-a-note-on-a-sales-order" />Para escribir una nota en un pedido de venta
+## Para escribir una nota en un pedido de venta
 
 Puede escribir una nota en un documento o ficha, por ejemplo, para comunicar instrucciones especiales a otros usuarios del documento o ficha. Puede incluir vínculos de archivo y URL en las notas.
 
@@ -97,7 +102,7 @@ El procedimiento siguiente se basa en un pedido de venta. Los pasos son parecido
 
 La nota ahora está adjuntada al pedido de venta.
 
-## <a name="see-also" />Consulte también
+## Consulte también  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Documentos entrantes](across-income-documents.md)  
 [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)  
