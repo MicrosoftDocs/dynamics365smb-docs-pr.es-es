@@ -35,7 +35,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Obtener información sobre el modo de reorganizar ubicaciones o zonas para lograr mayor eficiencia en las actividades del almacén.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" />Consultar la [formación de Microsoft](/training/paths/set-up-warehouse-management/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/set-up-warehouse-management/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

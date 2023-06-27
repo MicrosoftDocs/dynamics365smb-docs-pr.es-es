@@ -220,7 +220,7 @@ El procedimiento siguiente se basa en la página **Diario general**, pero se apl
 
 Cuando sea necesario, los valores del campo **Nº documento** se cambian para que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Después de que se vuelven a numerar documentos, podrá registrar el diario.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/use-journals-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/use-journals-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

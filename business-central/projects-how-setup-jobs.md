@@ -99,7 +99,7 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 | **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costes reconocidos del proyecto. Normalmente, es una cuenta de cargo. |
 | **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

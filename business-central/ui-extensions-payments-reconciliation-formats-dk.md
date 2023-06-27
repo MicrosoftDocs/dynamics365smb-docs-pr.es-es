@@ -47,7 +47,7 @@ Existen algunos pasos a seguir para empezar.
 
 Además, debe asignar a los proveedores a un **Grupo contable negocio** y un **Grupo contable proveedor** nacional. La configuración de país/región para el proveedor debe ser Dinamarca (DK). Para obtener más información, consulte [Configurar los grupos contables](finance-posting-groups.md).  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />Para permitir que [!INCLUDE[prod_short](includes/prod_short.md)] realice exportaciones de datos de pagos
+### <a name="to-allow--to-export-payment-data" />Para permitir que [!INCLUDE[prod_short](includes/prod_short.md)] realice exportaciones de datos de pagos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de pagos** y luego elija el enlace relacionado.  
 2. En la página **Editar diario de pagos**, seleccione el proceso **Banco**.  

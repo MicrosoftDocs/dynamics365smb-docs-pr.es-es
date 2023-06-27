@@ -155,7 +155,7 @@ Puede cambiar los valores en estos campos, pero si selecciona el campo **Aplicab
 
 Si especifica un valor en el campo **Código de tipo de transacción de servicio**, pero no selecciona el campo **Aplicable para declaración de servicio** puede contabilizar el documento, pero la línea no se calculará cuando lo haga.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Consulte también .
 

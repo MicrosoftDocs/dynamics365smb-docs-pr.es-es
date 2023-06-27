@@ -28,7 +28,7 @@ Si su [!INCLUDE [prod_short](includes/prod_short.md)] incluye varias empresas, e
 
 Hay algunas funciones que puede usar para cambiar entre empresas mientras trabaja, como el cambiador de empresas (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Más información en [Cambiar a otra empresa o entorno](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Mostrar una insignia de la empresa
+## <a name="display-a-company-badge" /><a name="badge"></a>Mostrar una insignia de la empresa
 
 Cuando hay más de una empresa o entorno, verá el selector de empresas en la parte superior derecha de la barra de la aplicación, cerca del icono de búsqueda en la barra de la aplicación. De forma predeterminada, el conmutador de empresa utiliza un icono de empresa estándar, como ![Lanzador de iconos de empresa.](media/ui-experience/company-icon.png "Muestra el icono de cambio de empresa que se utiliza cuando hay un único entorno") y ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Muestra el icono de cambio de empresa que se utiliza cuando hay varios entornos").
 
@@ -54,7 +54,7 @@ El nombre de la empresa siempre se muestra en la esquina superior izquierda y fu
 
 La experiencia de usuario predeterminada en una prueba de [!INCLUDE [prod_short](includes/prod_short.md)] no revela todas las capacidades. Puede activar la experiencia completa en la página **Información de la empresa**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

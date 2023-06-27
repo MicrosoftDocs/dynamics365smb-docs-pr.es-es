@@ -126,7 +126,7 @@ Cuando algo anda mal, [!INCLUDE[prod_short](includes/prod_short.md)] mostrará l
 > [!NOTE]
 > El manejo de errores descrito anteriormente no está disponible en diarios de artículos, recursos, empleados y activos fijos, ni para cuentas de contabilidad agregadas en versiones locales de grupos de registro.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesposting-groups-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/posting-groups-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/posting-groups-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -60,7 +60,7 @@ Puede crear una factura a partir de las líneas de planificación de proyecto e 
 > [!NOTE]  
 >   El procedimiento anterior es similar para crear, revisar y registrar un abono de venta relacionado con el proyecto.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

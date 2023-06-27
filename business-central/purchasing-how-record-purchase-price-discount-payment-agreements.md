@@ -139,7 +139,7 @@ El mejor precio es el precio más bajo permisible con el mayor descuento de lín
 
 Si no se puede calcular ningún precio especial para el producto de la línea, se inserta el último coste directo o el precio unitario de la ficha de producto.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-prices-discounts-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 

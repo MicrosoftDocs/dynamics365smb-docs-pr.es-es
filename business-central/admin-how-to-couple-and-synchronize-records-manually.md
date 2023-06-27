@@ -39,7 +39,7 @@ Este video muestra el acoplamiento y la sincronización de datos en el contexto 
 2. Seleccione la acción **Sincronizar ahora**.  
 3. Si un registro se puede sincronizar en una dirección, seleccione la opción que especifica la dirección de actualización de datos y, a continuación, seleccione **Aceptar**.  
 
-## <a name="to-synchronize-a-single-record-from-includecrmmdincludescrmmdmd" />Para sincronizar un solo registro en [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="to-synchronize-a-single-record-from-" />Para sincronizar un solo registro en [!INCLUDE[crm_md](includes/crm_md.md)]
 
 1. En [!INCLUDE[crm_md](includes/crm_md.md)], abra el formulario para el registro que desea emparejar. Por ejemplo, el formulario Tarjeta de cuenta o Tarjeta de contacto.  
 2. Elija la acción **[!INCLUDE[prod_short](includes/prod_short.md)]** en la cinta para abrir y emparejar el registro automáticamente.

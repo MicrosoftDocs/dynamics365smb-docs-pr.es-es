@@ -100,7 +100,7 @@ Utiliza la herramienta de cambio de tasa de IVA para gestionar los cambios en la
 > [!IMPORTANT]  
 > Después de la conversión, el campo **Convertido** en la tabla **Mov. registro cambios en tasa IVA** queda seleccionado y el campo **Fecha conversión** en la tabla **Mov. registro cambios en tasa IVA** muestra la fecha de conversión.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/rate-change-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/rate-change-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -147,7 +147,7 @@ Esta funcionalidad estará disponible próximamente. A partir de febrero de 2022
 
 Si tiene informes antiguos basados en datos de Business Central, no se conectarán a la réplica de la base de datos de solo lectura.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>He probado la versión preliminar del nuevo conector para la actualización de febrero de 2022. Cuando me conecto a mi página personalizada de la API de Business Central, aparece el error "No se puede insertar un registro. La intención de conexión actual es de solo lectura". ¿Cómo puedo solucionarlo?
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>He probado la versión preliminar del nuevo conector para la actualización de febrero de 2022. Cuando me conecto a mi página personalizada de la API de Business Central, aparece el error "No se puede insertar un registro. La intención de conexión actual es de solo lectura". ¿Cómo puedo solucionarlo?
 
 Con el nuevo conector, los nuevos informes que utilizan datos de Business Central se conectarán a una réplica de solo lectura de la base de datos de Business Central de forma predeterminada. Este cambio traerá una mejora en el rendimiento. Sin embargo, en casos excepcionales, podría causar el error. Este error generalmente ocurre porque su API personalizada está realizando modificaciones en los registros de Business Central mientras Power BI trata de obtener los datos. En particular, ocurre como parte de los desencadenadores AL: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord y OnAfterGetCurrRecord.
 
@@ -182,7 +182,7 @@ In general, we recommend avoiding any database modifications in API pages when t
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 -->
-### <a name="a-namepermsahow-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>¿Cómo cambio o borro la cuenta de usuario que estoy usando actualmente para conectarme a Business Central desde Power BI Desktop?
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>¿Cómo cambio o borro la cuenta de usuario que estoy usando actualmente para conectarme a Business Central desde Power BI Desktop?
 
 En Power BI Desktop, realice uno de los siguientes pasos:
 
@@ -237,14 +237,14 @@ Sí. Este escenario avanzado ayudará a Business Central a mantener el rendimien
 
 Estamos investigando esta función. Power BI ofrece API enriquecidas para controlar la implementación de informes. Para más información, vea [Introducción a las canalizaciones de implementación](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />Cuando obtengo datos de Business Central para usarlos en mis informes de Power BI, veo algunos valores como "_x0020_". ¿Qué son estos valores?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values" />Cuando obtengo datos de Business Central para usarlos en mis informes de Power BI, veo algunos valores como "_x0020_". ¿Qué son estos valores?
 
 Algunas páginas de API, incluida la mayoría de las páginas de API v2.0, tienen campos basados en [Objetos de enumeración AL](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Los campos basados en objetos de enumeración AL deben tener nombres que sean coherentes y siempre iguales, para que los filtros del informe siempre funcionen, sin importar el idioma o el sistema operativo que esté utilizando. Por este motivo, los campos basados en enumeraciones de AL no se traducen y se codifican para evitar cualquier carácter especial, incluido el espacio. En particular, siempre que haya una opción vacía en el objeto AL Enum, se codifica como "_x0020_". Siempre puede aplicar una transformación a sus datos en Power BI si desea mostrar algún valor diferente para estos campos, por ejemplo, "Vacío".
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

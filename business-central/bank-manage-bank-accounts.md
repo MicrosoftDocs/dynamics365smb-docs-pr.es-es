@@ -32,7 +32,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Use la conciliación bancaria para ayudar a comprobar que sus libros estén actualizados y no publique la conciliación hasta que esté satisfecho con la conciliación.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

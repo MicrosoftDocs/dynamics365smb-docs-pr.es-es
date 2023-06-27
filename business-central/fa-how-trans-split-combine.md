@@ -66,7 +66,7 @@ Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijo
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Imprimir** o **Versión preliminar**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Consultar la [formación de Microsoft](/training/paths/reclassify-fixed-assets/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/reclassify-fixed-assets/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

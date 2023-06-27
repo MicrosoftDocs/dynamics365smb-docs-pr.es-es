@@ -26,7 +26,7 @@ La siguiente tabla cubre la funcionalidad de inteligencia empresarial y de infor
 | Integre herramientas de inteligencia de negocios externas con [!INCLUDE[prod_short](includes/prod_short.md)].| [Herramientas de inteligencia empresarial externas](reports-external-analysis.md) |
 |Modifique diseños de informes o incluso desarrolle sus propios informes desde cero. |[Desarrollo de informes](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-training" />Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
 
 ## <a name="see-also" />Consulte también .
 

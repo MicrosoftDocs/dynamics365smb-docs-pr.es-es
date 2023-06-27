@@ -83,7 +83,7 @@ Implementación centralizada es una característica del Centro de administració
 
 Cuando termine, siempre puede cambiar la implementación en el Centro de administración de Microsoft 365, como asignar más usuarios. Para obtener más información sobre la implementación de complementos en el Centro de administración, consulte [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Instale el complemento para su propio uso
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Instale el complemento para su propio uso
 
 Si su organización lo permite, puede instalar el complemento Business Central solo para usted. Si no está seguro, consulte con su administrador.
 
@@ -94,7 +94,7 @@ Si su organización lo permite, puede instalar el complemento Business Central s
 
 Business Central se conectará a su servidor de correo electrónico e instalará el complemento en su Outlook. Esto no tardará mucho. Ahora está listo para comenzar a usar el complemento en Outlook.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Para Business Central local
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>Para Business Central local
 
 Si usa Business Central local, la instalación del complemento puede ser ligeramente diferente.
 
@@ -116,7 +116,7 @@ Si usa Business Central local, la instalación del complemento puede ser ligeram
 
 Ahora está listo para comenzar a usar el complemento en Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

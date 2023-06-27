@@ -30,7 +30,7 @@ La función Dígame recoge las acciones, páginas e informes que se originan a p
 
 La Búsqueda de páginas se ha convertido en la función Dígame para ayudarle a realizar el trabajo rápidamente. La búsqueda de páginas solo puede ayudarle a desplazarse por páginas o informes. A nivel técnico, la función Dígame ya no se basa en el concepto heredado de MenuSuite.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Utilizo [!INCLUDE[prod_short](includes/prod_short.md)] local. ¿Incluye la función Dígame?
+### <a name="i-use-on-premises--does-that-include-tell-me" />Utilizo [!INCLUDE[prod_short](includes/prod_short.md)] local. ¿Incluye la función Dígame?
 
 Puede usar la función Dígame en el cliente web local para buscar acciones, páginas e informes, pero aplicaciones y servicios de consultoría en AppSource.
 

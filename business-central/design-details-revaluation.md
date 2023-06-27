@@ -89,7 +89,7 @@ Al calcular la cantidad revalorizable de los productos mediante la valoración d
 -   Una entrada de valor con tipo de entrada **Desviación**. Este movimiento registra la diferencia entre el coste facturado y el coste estándar revalorizado.  
 -   Una entrada de valor con tipo de entrada **Revalorización**. Este movimiento registra la reversión de la revalorización del coste previsto.  
 
-### <a name="example" />Ejemplo
+### <a name="example-1" />Ejemplo
 En el ejemplo siguiente, que se basa en la producción de la cadena del ejemplo anterior, se muestra cómo se crean los tres tipos de movimientos. Se basa en el siguiente caso:  
 
 1.  El usuario registra los eslabones comprados como recibidos con un coste unitario de 2,00 DL.  
@@ -123,7 +123,7 @@ En la tabla siguiente se muestran los criterios que se usan para un producto que
 |E|Posterior al movimiento de revalorización número|Igual a la fecha de registro de revalorización|Sí|  
 |F|Posterior al movimiento de revalorización número|Posterior a la fecha de registro de revalorización|Sí|  
 
-### <a name="example" />Ejemplo
+### <a name="example-2" />Ejemplo
 El ejemplo siguiente, en el que se ilustra la revalorización de un producto que usa la valoración de existencias FIFO, se basa en el escenario siguiente:  
 
 1.  El 01-01-20, el usuario registra una compra de 6 unidades.  

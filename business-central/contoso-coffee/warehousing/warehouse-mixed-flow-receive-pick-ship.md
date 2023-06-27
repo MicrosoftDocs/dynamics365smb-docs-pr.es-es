@@ -92,10 +92,10 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de salida d
 
 En el siguiente tutorial se demuestra el método D de la tabla anterior.
 
-### <a name="scenario" />Escenario
+### <a name="scenario-1" />Escenario
 Susan, la procesadora de pedidos, crea pedidos de venta de diversos granos tostados y lo pasa al almacén. Como todos los pedidos provienen del mismo cliente, Ellen, la gerente del almacén, decide enviarlos juntos. Juan, el trabajador de almacén debe comprobar que el envío se prepara y envía al cliente.
 
-### <a name="steps" />Pasos
+### <a name="steps-1" />Pasos
 Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la configuración del almacenamiento básico](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Libera los pedidos de venta al almacén.  
@@ -137,7 +137,7 @@ Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la 
     4. Elija la acción **Contabilizar envío**.
     5. Confirme la opción **Enviar**.
 
-### <a name="results" />Resultados
+### <a name="results-1" />Resultados
  - los granos tostados ahora se registran como seleccionados 
  - se crea la **Selección de almacén registrada**
  - se crea **Envío de almacén contabilizado**

@@ -117,7 +117,7 @@ Las variaciones del flujo de trabajo se definen rellenando los campos de las lí
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Consultar la [formación de Microsoft](/training/modules/use-approval-workflows/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/use-approval-workflows/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

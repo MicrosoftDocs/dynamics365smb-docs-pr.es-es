@@ -111,7 +111,7 @@ A continuación, puede crear los documentos de almacén desde cero. Los pickings
 
 Ahora puede llevar los artículos al muelle de envío y registrar el envío, incluido el documento de origen relacionado, en la página **Envío de almacén**. Obtenga más información en [Enviar productos](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Consultar la [formación de Microsoft](/training/modules/pick-ship-items-warehouse/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/pick-ship-items-warehouse/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

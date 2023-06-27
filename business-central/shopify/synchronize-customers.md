@@ -10,14 +10,14 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# Sincronizar clientes
+# <a name="synchronize-customers" />Sincronizar clientes
 
 Cuando un pedido se importa desde Shopify, es esencial obtener la información sobre el cliente para el procesamiento posterior del documento en [!INCLUDE[prod_short](../includes/prod_short.md)]. Hay dos opciones principales para ello y sus diversas combinaciones:
 
 * Use un cliente especial para todos los pedidos.
 * Importe la información real del cliente desde Shopify. Esta opción también está disponible cuando exporta clientes a Shopify primero desde [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Configuraciones importantes al importar clientes desde Shopify
+## <a name="important-settings-when-importing-customers-from-shopify" />Configuraciones importantes al importar clientes desde Shopify
 
 Da igual si importa clientes desde Shopify de forma masiva o junto con la importación de pedidos, las siguientes configuraciones le permiten administrar el proceso:
 
@@ -29,7 +29,7 @@ Da igual si importa clientes desde Shopify de forma masiva o junto con la import
 |**Crear clientes desconocidos automáticamente**| Seleccione este campo si desea que el conector cree los clientes que falten cuando las opciones **Por correo electrónico/teléfono** o **Por información de dirección de facturación** se hayan seleccionado en el campo **Tipo de asignación de cliente**. Se creará un nuevo cliente usando datos importados y el **Código de plantilla de cliente** definido en las páginas **Ficha de tienda de Shopify** o **Plantilla de cliente de Shopify**. Tenga en cuenta que el cliente de Shopify debe tener al menos una dirección. A los pedidos creados a través del canal de ventas Shopify POS a menudo les faltan los detalles de la dirección. Si esta opción no está habilitada, deberá crear un cliente manualmente y vincularlo al cliente de Shopify.|
 |**Código de plantilla de cliente**|Este campo se usa con **Creación automática de clientes desconocidos**.<br>- Elija la plantilla predeterminada que se utilizará para los clientes creados automáticamente. Asegúrese de que la plantilla seleccionada contenga los campos obligatorios, como los campos **Grupo de registro de negocio general**, **Grupo de registro de clientes**, y el IVA o los campos relacionados con impuestos.<br>- Puede definir plantillas por país o región en la página **Plantillas de clientes de Shopify**, que es útil para el cálculo de impuestos adecuado. <br>- Obtenga más información en [Configurar impuestos](setup-taxes.md).|
 
-### Plantilla de cliente por país
+### <a name="customer-template-per-country" />Plantilla de cliente por país
 
 Algunas configuraciones se pueden definir en el nivel de país o región, o en el nivel de estado o provincia. Los ajustes se pueden configurar en [Envío y entrega](https://www.shopify.com/admin/settings/shipping) en Shopify.
 
@@ -43,7 +43,7 @@ Puede hacer lo siguiente para cada cliente mediante la **Plantilla de cliente de
 > [!NOTE]  
 > Los códigos de país son códigos de país ISO 3166-1 alfa-2. Obtenga más información en [Código de país](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Exportar clientes a Shopify
+## <a name="export-customers-to-shopify" />Exportar clientes a Shopify
 
 Puede explotar los clientes existentes a Shopify de forma masiva. En cada caso, se crean un cliente y una dirección predeterminadas. Puede gestionar el proceso con las siguientes configuraciones:
 
@@ -66,7 +66,7 @@ Los siguientes son requisitos para exportar un cliente:
 
 Una vez que haya creado los clientes en Shopify, puedes enviarles invitaciones directas animándolos a activar sus cuentas.
 
-### Rellenar la información del cliente en Shopify
+### <a name="populate-customer-information-in-shopify" />Rellenar la información del cliente en Shopify
 
 Un cliente en Shopify tiene nombre, apellido, correo electrónico y número de teléfono. Puede introducir el nombre y los apellidos a partir de los datos de la ficha del cliente en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -86,7 +86,7 @@ Un cliente en Shopify también tiene una dirección predeterminada. Esta direcci
 Para las direcciones en las que se utiliza la provincia, seleccione **Código** o **Nombre** en el campo **Origen de provincia**, en la página **Tarjeta de tienda de Shopify**. El código o el nombre especifica el tipo de datos almacenados en [!INCLUDE[prod_short](../includes/prod_short.md)], en el campo **Provincia**. Recuerde inicializar las plantillas de clientes por país, para que el mapeo de código/nombre de provincia esté listo. 
 
 
-## Sincronizar clientes
+## <a name="sync-customers" />Sincronizar clientes
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tienda de Shopify** y luego elija el enlace relacionado.
 2. Seleccione la tienda específica para la que desea sincronizar los clientes.
@@ -96,6 +96,6 @@ Como alternativa, use la acción **Iniciar sincronización de cliente** en la ve
 
 Puede programar la tarea para que se realice de forma automatizada. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Comenzar con el conector para Shopify](get-started.md)  

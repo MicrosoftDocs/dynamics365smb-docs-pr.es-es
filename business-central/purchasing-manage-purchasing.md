@@ -43,7 +43,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
@@ -54,7 +54,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

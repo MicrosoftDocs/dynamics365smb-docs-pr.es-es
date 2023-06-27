@@ -29,7 +29,7 @@ Hay algunos datos que debe tener listos para crear la conexión:
 > Estos pasos describen el procedimiento para [!INCLUDE[prod_short](includes/prod_short.md)] en línea.
 > Si está utilizando [!INCLUDE[prod_short](includes/prod_short.md)] local y no está utilizando la cuenta de Azure Active Directory para conectarse a [!INCLUDE [cds_long_md](includes/cds_long_md.md)], también debe especificar un nombre de usuario y una contraseña de una cuenta de usuario para la integración. Esta cuenta se conoce como la cuenta de "usuario de integración". Si está usando una cuenta de Azure Active Directory, la cuenta de usuario de integración no es necesaria ni se muestra. El usuario de integración se configurará automáticamente y no requiere una licencia.
 
-## <a name="set-up-a-connection-to-includecdslongmdincludescdslongmdmd" />Configurar una conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-a-connection-to-" />Configurar una conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 En todos los tipos de autenticación distintos de la autenticación de Microsoft 365, configure la conexión a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en la página **Configuración de la conexión de Dataverse**. Para la autenticación de Microsoft 365, es recomendable que use la guía de configuración asistida **Configuración de conexión de Dataverse**. La guía simplifica la configuración de la conexión y permite especificar características avanzadas, como el modelo de propiedad y la sincronización inicial.  
 
@@ -206,7 +206,7 @@ Se parte de la base que para los siguientes pasos está usando Azure AD para ges
    > [!NOTE]
    > Si no se le solicita que inicie sesión con su cuenta de administrador, probablemente se deba a que las ventanas emergentes están bloqueadas. Para iniciar sesión, permita las ventanas emergentes de `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-includecdslongmdincludescdslongmdmd" />Para desconectar de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### <a name="to-disconnect-from-" />Para desconectar de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de conexión de Dataverse** y luego elija el enlace relacionado.
 2. En la página **Configuración de conexión de Dataverse**, desactive **Habilitado**.  

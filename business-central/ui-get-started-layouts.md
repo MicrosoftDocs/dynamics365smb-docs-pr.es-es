@@ -47,7 +47,7 @@ Dependiendo de cuál sea su situación, las tareas reales variarán. Use la sigu
 |Cambiar el diseño actual utilizado por un informe a otro diseño|[Establecer el diseño utilizado por un informe](ui-set-report-layout.md)|
 |Cambiar el nombre y la descripción de un diseño|[Cambiar el nombre de un diseño](#rename)|
 
-## <a name="a-namedecideadecide-what-type-of-layout-you-want" /><a name="decide"></a>Decida qué tipo de diseño desea
+## <a name="decide-what-type-of-layout-you-want" /><a name="decide"></a>Decida qué tipo de diseño desea
 
 Lo primero al crear un diseño es decidir qué [tipo de diseño](ui-manage-report-layouts.md#layout-types) desea. Puede elegir Word, Excel o RDLC. El tipo de diseño dependerá de cómo quiera que sea el informe generado. Además, depende de su conocimiento del software de aplicación para crear los diseños, como Word, Excel y SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ Lo primero al crear un diseño es decidir qué [tipo de diseño](ui-manage-repor
 
 * Los conceptos de diseño generales son parecidos en Word y RDLC. Sin embargo, cada tipo tiene determinadas características de diseño que afectan a la forma en que el informe generado aparece en [!INCLUDE[prod_short](includes/prod_short.md)]. El mismo informe puede tener un aspecto diferente cuando se utiliza el diseño de informe de Word en comparación con el diseño de informe de RDLC.
 
-## <a name="a-namecreateacreate-a-new-layout" /><a name="create"></a>Crear un nuevo diseño
+## <a name="create-a-new-layout" /><a name="create"></a>Crear un nuevo diseño
 
 Hay dos formas de crear un nuevo diseño a partir de un diseño existente. Una forma es guardar el diseño existente en una copia. La otra forma es exportar el diseño existente.
 
@@ -127,7 +127,7 @@ Si desea ver cómo se ve el informe con el nuevo diseño, seleccione el diseño 
 
 ---
 
-## <a name="a-namemodifyamodify-a-layout" /><a name="modify"></a>Modificar un diseño
+## <a name="modify-a-layout" /><a name="modify"></a>Modificar un diseño
 
 Siga estos pasos para modificar un diseño definido por el usuario existente.
 
@@ -156,7 +156,7 @@ Siga estos pasos para modificar un diseño definido por el usuario existente.
    El archivo seleccionado se carga en el diseño y vuelve a la página **Diseños de informes**.
 7. Si desea ver cómo se ve el informe con el nuevo diseño, seleccione el diseño en la lista y luego seleccione **Ejecutar informe**.
 
-## <a name="a-namereplaceareplace-a-layout" /><a name="replace"></a>Reemplazar un diseño
+## <a name="replace-a-layout" /><a name="replace"></a>Reemplazar un diseño
 
 Siga estos pasos para reemplazar el archivo de diseño definido por el usuario existente con un nuevo archivo.
 
@@ -168,7 +168,7 @@ Siga estos pasos para reemplazar el archivo de diseño definido por el usuario e
    El archivo seleccionado se carga en el diseño y vuelve a la página **Diseños de informes**.
 5. Si desea ver cómo se ve el informe con el nuevo diseño, seleccione el diseño en la lista y luego seleccione **Ejecutar informe**.
 
-## <a name="a-namerenamearename-a-layout" /><a name="rename"></a>Cambiar el nombre de un diseño
+## <a name="rename-a-layout" /><a name="rename"></a>Cambiar el nombre de un diseño
 
 Siga estos pasos si desea cambiar el nombre y la descripción de un diseño definido por el usuario.
 
@@ -179,7 +179,7 @@ Siga estos pasos si desea cambiar el nombre y la descripción de un diseño defi
     > Como ayuda para buscar el diseño, use el cuadro **Buscar**, el panel **Filtro** y la clasificación de columnas.
 3. Cambie el **Nombre del diseño** y, a continuación, seleccione **Aceptar**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

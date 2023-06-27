@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Especificar una impresora predeterminada
+# <a name="specify-a-default-printer" /><a name="default"></a>Especificar una impresora predeterminada
 
 Después de configurar las impresoras en Business Central, puede especificar qué impresora desea usar de forma predeterminada. Hay un par de maneras de especificar las impresoras que se utilizarán por defecto para los informes y otros trabajos de impresión. Una impresora predeterminada es útil si trabaja con diferentes informes que requieren impresoras diferentes debido a su ubicación en la empresa o sus capacidades de salida.
 

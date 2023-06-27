@@ -47,7 +47,7 @@ Se muestran todos los registros de documento entrantes, incluyendo los registros
 > [!NOTE]  
 > También puede realizar esta acción para el registro individual en la página **Ficha de documento** entrante.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
   

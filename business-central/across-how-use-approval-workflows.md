@@ -78,7 +78,7 @@ La función **Enviar notificaciones de aprobación vencidas** buscará todas las
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Solicitudes de aprobación vencidas** y luego elija el enlace relacionado.
 2. En la página **Solicitudes de aprobación vencidas**, seleccione la acción **Seleccionar solicitudes de aprobación vencidas**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Consultar la [formación de Microsoft](/training/modules/use-approval-workflows/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/use-approval-workflows/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

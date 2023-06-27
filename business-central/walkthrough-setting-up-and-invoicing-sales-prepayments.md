@@ -235,7 +235,7 @@ También ha registrado una factura de prepago, creado una segunda factura de pre
 
 Las capacidades de prepago facilitan la configuración y aplicación de reglas de prepago para clientes y artículos. También le permiten registrar cada pago contra una factura.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

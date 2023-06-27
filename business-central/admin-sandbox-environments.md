@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-" />Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] en línea, puede obtener fácilmente un entorno seguro donde puede probar, formar o solucionar problemas sin alterar los procesos de trabajo o los datos de negocio de su empresa. Tal entorno de no producción se llama *entorno aislado*. Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.  
 
@@ -64,7 +64,7 @@ Para obtener más información, consulte [Usar el diseñador](/dynamics365/busin
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

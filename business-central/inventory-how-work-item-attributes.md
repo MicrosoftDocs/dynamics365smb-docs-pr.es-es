@@ -75,7 +75,7 @@ También puede asignar los atributos de producto a categorías de producto que s
 
 Los productos de la página **Productos** se filtran por los valores de atributo de productos especificados.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

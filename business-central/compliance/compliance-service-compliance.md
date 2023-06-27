@@ -31,7 +31,7 @@ Si desea encontrar la lista completa de ofertas de conformidad de Microsoft, con
 [Conformidad de las aplicaciones](compliance-application-compliance.md)  
 [Certificaciones](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

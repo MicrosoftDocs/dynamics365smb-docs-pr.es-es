@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Trabajar con ingresos recurrentes en [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Trabajar con ingresos recurrentes en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Muchas empresas están pasando de un modelo de ingresos de negocio en el que los ingresos se obtienen de la compra única de un cliente a un modelo de suscripción en el que los ingresos se realizan de forma periódica a cambio de un acceso constante a la entrega de un bien o servicio.
 [!INCLUDE[prod_short](includes/prod_short.md)] tiene las siguientes opciones para automatizar la manera en que envía las facturas de suscripción a sus clientes y registra ingresos recurrentes. 
@@ -35,7 +35,7 @@ El diario periódico de proyecto es una alternativa más avanzada al diario gene
 
 Después de registrar un diario periódico de proyecto, puede crear varias facturas con la tarea **Crear factura de venta de proyecto**. Puede revisar y registrar facturas creadas en la página **Facturas de venta**.
 
-### <a name="why-use-this-option" />Por qué usar esta opción
+### <a name="why-use-this-option-1" />Por qué usar esta opción
 
 Con esta opción, sigue el procedimiento de facturación estándar con todos los beneficios, incluidos los diseños estándar y del cliente para las preferencias de comunicación. También puede definir precios para cada trabajo individualmente.
 
@@ -47,7 +47,7 @@ Para obtener más información, consulte [Crear líneas de diario de proyectos](
 
 Si suele necesitar crear líneas de ventas y de compras con información similar, puede configurar líneas de venta periódicas que puede insertar en documentos de ventas y compras periódicas, por ejemplo, para órdenes de reposición periódicas. Utilice el trabajo por lotes **Crear facturas de venta periódicas** para crear facturas de venta según las líneas de venta periódicas asignadas a los clientes y con fechas de registro dentro de las fechas de inicio y fin de validez que especifique en las líneas de ventas periódicas.  
 
-### <a name="why-use-this-option" />Por qué usar esta opción
+### <a name="why-use-this-option-2" />Por qué usar esta opción
 
 Con esta opción, puede asignar las mismas líneas recurrentes a varios clientes. Puede definir el período de validez de las líneas de venta periódicas para un cliente específico. Puede asignar varias líneas periódicas al mismo cliente y todas se incluirán en la factura.
 
@@ -62,7 +62,7 @@ Un contrato de servicio contiene los acuerdos de contrato de servicio entre sus 
 Puede definir la fecha inicial del contrato, el período de la factura, si el contrato es de prepago o no, las especificaciones de actualización de precios si planea cambiar los precios mientras el contrato está activo. Puede usar artículos de servicio o artículos en líneas de contrato de servicio.
 Puede crear plantillas de contrato para definir la creación de determinados tipos de contratos.  
 
-### <a name="why-use-this-option" />Por qué usar esta opción
+### <a name="why-use-this-option-3" />Por qué usar esta opción
 
 Con esta opción, utiliza una parte de la funcionalidad avanzada de administración de servicios que no se limita a la emisión de facturas periódicas, sino que también respalda las operaciones de taller de reparación y servicio de campo.
 
@@ -78,7 +78,7 @@ Hay varias capacidades relacionadas en [!INCLUDE[prod_short](includes/prod_short
 Los pedidos abiertos de venta constituyen un marco de trabajo para establecer un acuerdo a largo plazo entre la empresa y un cliente.
 Normalmente, un pedido abierto se utiliza cuando un cliente se ha comprometido a comprar grandes cantidades que se van a entregar en varios envíos más pequeños durante un periodo de tiempo determinado. A menudo, los pedidos abiertos sólo incluyen un producto con fechas de entrega predeterminadas. El motivo principal para utilizar un pedido abierto en lugar de un pedido de venta es que las cantidades especificadas en un pedido abierto no afectan a la disponibilidad de los artículos. Sin embargo, se puede utilizar con fines de planificación.
 
-#### <a name="why-use-this-option" />Por qué usar esta opción
+#### <a name="why-use-this-option-4" />Por qué usar esta opción
 
 Con esta opción, utiliza la demanda anticipada, por lo que la información se considera durante las rutinas de planificación normales. Para obtener más información, consulte [Previsiones de demanda y pedidos abiertos](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ Consulte [Trabajar con pedidos de venta abiertos](sales-how-to-create-blanket-sa
 Puede utilizar pedidos periódicos para crear plantillas de pedidos abiertos para que los pedidos de ventas se puedan crear según los intervalos de fechas que defina. Por ejemplo, si entrega el mismo pedido de ventas cada dos semanas, puede usar un pedido abierto de venta y crear pedidos periódicos.
 Puede usar grupos periódicos para definir un rango de parámetros que muestren cómo realiza los pedidos. Estos grupos se asignan a pedidos abiertos que deben crearse con frecuencia. Para crear los pedidos periódicos, deberá ejecutar periódicamente el proceso de creación de pedidos periódicos. 
 
-#### <a name="why-use-this-option" />Por qué usar esta opción
+#### <a name="why-use-this-option-5" />Por qué usar esta opción
 
 Con esta opción, puede elegir entre precios fijos y "mejores".
 

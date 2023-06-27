@@ -49,7 +49,7 @@ Puede configurar distintos aspectos de las notificaciones de flujo de trabajo en
 
   Para los flujos de trabajo de aprobación, agregue un paso de respuesta de flujo de trabajo para notificar al remitente cuando su solicitud se ha aprobado o rechazado. Obtenga más información del paso 9 en la sección [Crear flujos de trabajo](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

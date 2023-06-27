@@ -99,7 +99,7 @@ Puede registrar el valor residual junto con el coste a partir del diario de acti
 > [!NOTE]
 > Si existe un valor residual para un activo fijo, ese valor se utilizará en el registro de amortización en lugar del valor del campo **Valor contable final** en la página **Libros amortización A/F**. Para obtener más información, consulte [Para administrar el valor contable final](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespurchase-fixed-assets" />Consultar la [formación de Microsoft](/training/modules/purchase-fixed-assets/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/purchase-fixed-assets/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

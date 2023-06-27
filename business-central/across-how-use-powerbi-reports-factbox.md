@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-includeprodshortincludesprodshortmd" />Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-" />Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] incluye un elemento de control de cuadro informativo de Power BI en muchas páginas de lista clave. El objetivo de este cuadro informativo es mostrar informes de Power BI relacionados con los registros de las listas, lo que ofrece más información sobre los datos. La idea es que a, medida que se desplaza por las filas de la lista, el informe se actualice para la entrada seleccionada.
 
@@ -116,7 +116,7 @@ Verifique que la página que desea que se muestre es la primera página de su in
 
 Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 píxeles. Guarde el informe y, a continuación, actualice la página de listas.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

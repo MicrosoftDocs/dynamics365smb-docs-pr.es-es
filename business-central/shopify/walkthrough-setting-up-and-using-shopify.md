@@ -132,11 +132,11 @@ En **Administrador de Shopify** observe que el pedido ahora está marcado como *
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Tutorial: invitar a los clientes a una nueva tienda en línea
 
-### <a name="scenario" />Escenario
+### <a name="scenario-1" />Escenario
 
 Después de un lanzamiento rápido y exitoso de su nueva tienda en línea, desea que sus clientes actuales la visiten y comiencen a realizar pedidos.
 
-### <a name="steps" />Pasos
+### <a name="steps-1" />Pasos
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguientes pasos:
 
@@ -148,11 +148,11 @@ En **Administrador de Shopify** observe que los clientes fueron importados. Abra
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Tutorial: ajuste fino de la gestión de artículos
 
-### <a name="scenario" />Escenario
+### <a name="scenario-2" />Escenario
 
 Le gustaría agregar más flexibilidad y control a sus procesos en torno a la gestión de artículos. Desea mejorar la descripción del producto y desea agregar más pasos de revisión antes de que los productos estén disponibles para el cliente final.
 
-### <a name="steps" />Pasos
+### <a name="steps-2" />Pasos
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguientes pasos:
 
@@ -241,11 +241,11 @@ En la **Tienda online Shopify** abra el catálogo de productos, busque el produc
 
 ## <a name="walkthrough-import-items-from-shopify" />Tutorial: Importar artículos desde Shopify
 
-### <a name="scenario" />Escenario
+### <a name="scenario-3" />Escenario
 
 Ya tiene una tienda en línea exitosa y le gustaría comenzar a usar [!INCLUDE[prod_short](../includes/prod_short.md)] como software de administración comercial. Le gustaría importar la mayor cantidad posible de datos de Shopify. 
 
-### <a name="steps" />Pasos
+### <a name="steps-3" />Pasos
 
 Esta es una continuación del [Tutorial: Comenzar a vender productos en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). También puede probar con sus propios datos, por ejemplo, su tienda Shopify o espacio aislado.
 

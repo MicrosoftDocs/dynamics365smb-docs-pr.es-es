@@ -41,7 +41,7 @@ detrás de RDL/RDLC, y cómo usar Report Builder.
 > [!NOTE]
 > Report Builder solo reconoce el tipo de archivo .rdl, no .rdlc. Los archivos de diseño exportados desde Business Central son tipos de archivo .rdlc. Entonces, para modificar estos diseños en Report Builder, cambie el nombre del tipo de archivo a .rdl.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

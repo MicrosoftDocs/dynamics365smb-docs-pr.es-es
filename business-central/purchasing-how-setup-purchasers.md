@@ -29,7 +29,7 @@ Si trabajan para la empresa varios compradores, puede configurarlos en una pági
 2. Abra la ficha de proveedor correspondiente al proveedor al que se le va a asignar un comprador.
 3. En el campo **Cód. comprador**, seleccione el código de comprador pertinente y, a continuación, cierre la página.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

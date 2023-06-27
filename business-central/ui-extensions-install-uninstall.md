@@ -22,7 +22,7 @@ Puede cambiar [!INCLUDE[prod_short](includes/prod_short.md)] instalando aplicaci
 
 Para usar una extensión, debe tener asignados los conjuntos de permisos que vienen con ella.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Instalar una extensión
+## <a name="install-an-extension" /><a name="install"></a>Instalar una extensión
 
 Puede administrar las aplicaciones y extensiones en la página **Administración de extensiones**. Puede acceder a esta página desde Inicio. Como alternativa, elija el icono **Buscar por página o informe** ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") en la esquina superior derecha, ingrese **Extensión** y luego elija el enlace relacionado.  
 
@@ -103,7 +103,7 @@ De forma predeterminada, cuando desinstala una aplicación que ha estado usando,
 [[!INCLUDE[prod_short](includes/prod_short.md)] Extensiones de otros proveedores](ui-extensions-other.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,7 +40,7 @@ La integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] i
 
 También puede crear informes visuales basándose en [!INCLUDE[prod_short](includes/prod_short.md)] utilizando la opción de tipo de archivo **Documento de Microsoft Excel (solo datos)** en las páginas de solicitud de informes. Obtenga más información en [Ejecutar e imprimir informes](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-power-bi" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/use-power-bi)
+## <a name="see-related-training-at-microsoft-learn" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/use-power-bi)
 
 ## <a name="see-also" />Consulte también .
 

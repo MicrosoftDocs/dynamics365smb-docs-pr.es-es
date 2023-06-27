@@ -70,7 +70,7 @@ Para trabajar con la página **Hoja trab. creación ubicación**, debe estar con
 
 Repita el proceso para otro grupo de ubicaciones hasta que haya creado todas las ubicaciones del almacén.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-bins" />Consultar la [formación de Microsoft](/training/modules/create-new-bins/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-new-bins/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

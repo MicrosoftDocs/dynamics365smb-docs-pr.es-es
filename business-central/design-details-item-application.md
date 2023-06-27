@@ -69,7 +69,7 @@ Cuando registra una salida de existencias, se crea un movimiento de liquidación
 
 En la tabla **Mov. producto**, el campo **Cantidad pendiente** muestra la cantidad que todavía no se ha procesado. Si la cantidad pendiente es mayor que 0, se selecciona la casilla **Abrir**.  
 
-### <a name="example" />Ejemplo
+### <a name="example-1" />Ejemplo
 El ejemplo a continuación muestra el movimiento de liquidación de producto creado cuando se registra un albarán de ventas de 5 de los productos que se recibieron en el ejemplo anterior. El primer movimiento de liquidación de producto es el albarán de compra. El segundo movimiento de liquidación es el albarán de venta.  
 
 En la tabla siguiente se muestran los dos movimientos de liquidación de producto que son el resultado de la entrada de existencias y de la salida de existencias, respectivamente.  

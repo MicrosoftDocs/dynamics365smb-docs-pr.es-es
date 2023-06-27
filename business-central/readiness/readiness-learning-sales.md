@@ -13,7 +13,7 @@ ms.author: margoc
 
 El siguiente catálogo está organizado desde el conocimiento básico hasta dominios específicos y desde el más básico hasta el más avanzado. Si el contenido está en varios formatos, se lo haremos saber, para que pueda elegir el formato de formación que mejor se adapte a sus necesidades.  
 
-## <a name="business-valuea-namebusvaluea" />Valor de negocio<a name="busvalue"></a>
+## <a name="business-value" />Valor de negocio<a name="busvalue"></a>
 
 | Contenido     | Descripción    | Formato                                | Longitud              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Explorar las capacidades de Dynamics 365 Business Central    | Sitio web    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Este módulo muestra características de aplicación, beneficios y ejemplos de Dynamics 365 Business Central en acción.    | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 24 minutos          |
 
-## <a name="getting-starteda-nameget-starteda" />Introducción<a name="get-started"></a>
+## <a name="getting-started" />Introducción<a name="get-started"></a>
 
 | Contenido   | Descripción   | Formato                                | Longitud              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,7 +30,7 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Trabajar como un profesional con los datos de Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | ¿Acaba de empezar a usar Business Central? Esta ruta de aprendizaje lo ayudará a prepararse para los tipos de datos en Business Central y cómo encontrar la información que necesita en la aplicación.      | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 2 horas 27 minutos  |
 | [Lista de reproducción de YouTube de Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | Página de destino de YouTube para los vídeos de Dynamics 365 Business Central  | Vídeos de YouTube  |                     |
 
-## <a name="grow-your-businessa-namegrowa" />Haga crecer su empresa<a name="grow"></a>
+## <a name="grow-your-business" />Haga crecer su empresa<a name="grow"></a>
 
 | Contenido   | Descripción        | Formato                                | Longitud                |
 |-----------|--------------------|---------------------------------------|-----------------------|

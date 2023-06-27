@@ -109,7 +109,7 @@ Para importaciones masivas, use paquetes de configuración para importar datos a
 > [!NOTE]
 > No puede usar **Editar en Excel** para crear líneas de diario con información de seguimiento.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -199,7 +199,7 @@ Para actualizar los precios de varios productos, debe crear una nueva lista de p
 
 Cuando haya registrado precios especiales y descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre sea óptimo, calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y productos. Para obtener más información, consulte [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/customer-discounts-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/customer-discounts-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

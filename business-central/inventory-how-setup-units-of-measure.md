@@ -74,7 +74,7 @@ Si suele comprar o vender en unidades que no sean la unidad de medida base, espe
 4. En compras, en la ficha desplegable **Reposición**, en el campo **Unidad medida compra**, abra la página **Unidades medida producto**.
 5. Seleccione el código que desea configurar como la unidad de medida predeterminada para ventas o compras, respectivamente y elija el botón **Aceptar**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

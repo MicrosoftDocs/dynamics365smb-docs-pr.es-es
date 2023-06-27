@@ -49,7 +49,7 @@ Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación qu
 
 En esta hoja puede trabajar con varias líneas de contenido de ubicación para varias ubicaciones y así obtener una buena panorámica de los que coloca en varias ubicaciones de una zona, pasillo o estantería.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Consultar la [formación de Microsoft](/training/modules/set-up-zones-bins/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/set-up-zones-bins/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

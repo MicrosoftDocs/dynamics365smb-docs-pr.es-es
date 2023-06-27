@@ -136,7 +136,7 @@ La fabricación de una ubicación dedicada proporciona una funcionalidad similar
 > [!NOTE]  
 >  La ubicación debe estar vacía antes de poder seleccionar o borrar el campo **Dedicado**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

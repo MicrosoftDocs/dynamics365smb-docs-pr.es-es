@@ -55,7 +55,7 @@ La siguiente tabla describe las tareas relacionadas.
 |Administre las operaciones comerciales en las oficinas de ventas, en los departamentos de compras o en las oficinas de planificación de plantas en múltiples ubicaciones.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
 |Utilice recursos con funciones específicas para diversos servicios y elementos de servicio.|[Configurar asignación de recursos](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsget-started-inventory-management" />Consultar la [formación de Microsoft](/training/paths/get-started-inventory-management/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/get-started-inventory-management/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
@@ -65,6 +65,6 @@ La siguiente tabla describe las tareas relacionadas.
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

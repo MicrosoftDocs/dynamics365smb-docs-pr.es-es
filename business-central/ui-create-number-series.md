@@ -92,7 +92,7 @@ El siguiente procedimiento muestra cómo configurar una serie numérica para el 
 
 El número seleccionado se utilizará para rellenar el campo **Nº** en la ficha o el documento en cuestión, según la configuración que ha establecido en la línea de serie numérica.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesnumber-series-trail-codes-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/number-series-trail-codes-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/number-series-trail-codes-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -242,7 +242,7 @@ Puede especificar los informes que deben imprimirse en diferentes etapas eligien
 > [!NOTE]
 > Los informes disponibles pueden variar según la localización de su país. La aplicación base no incluye ningún diseño.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Consultar la [formación de Microsoft](/training/modules/adjust-inventory/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/adjust-inventory/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

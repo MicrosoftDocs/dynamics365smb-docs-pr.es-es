@@ -53,7 +53,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Informar a los clientes las fechas de entrega de los pedidos, mediante el cálculo de la fecha fecha capaz de comprometer o la fecha del neto no comprometido.|[Calcular fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md)|
 |Resolver la confusión cuando existen dos o más registros para el mismo cliente.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/sell-items-services-dynamics-365-business-central/) relacionada.
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
@@ -63,6 +63,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

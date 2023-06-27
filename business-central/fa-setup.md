@@ -36,7 +36,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Conocer varios métodos de amortización de activos fijos. |[Métodos de depreciación](fa-depreciation-methods.md) |
 | Obtenga información sobre cómo aplicar métodos de amortización definidos por el usuario. |[Configurar métodos de amortización definidos por usuario](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Consultar la [formación de Microsoft](/training/paths/set-up-fixed-assets-management/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/set-up-fixed-assets-management/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

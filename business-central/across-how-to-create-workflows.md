@@ -172,7 +172,7 @@ La siguiente ilustración proporciona una descripción general del resultado de 
 
 A continuación, pruebe el flujo de trabajo abriendo una tarjeta de proveedor existente y cambiando el nombre. Verifique que se envíe una solicitud de aprobación después de cambiar el nombre del proveedor.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -294,7 +294,7 @@ Cuando introduzca un movimiento en B1 del diario general de activos fijos y acti
 > [!NOTE]  
 > No puede utilizar la misma serie de numeración en los diarios generales de activos fijos y en los diarios de activos fijos. Al registrar movimientos en los diarios generales de activos fijos, debe dejar en blanco el campo **Nº documento**. Si introduce un número en el campo, el número se duplica en el diario de activos fijos. También tendrá que modificar manualmente el número de documento para poder registrar el diario.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Consultar la [formación de Microsoft](/training/modules/configure-depreciation-books/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-depreciation-books/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

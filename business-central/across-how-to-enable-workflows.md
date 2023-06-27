@@ -22,7 +22,7 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
 2. Abra el flujo de trabajo que quiera activar.  
 3. En la página **Flujo de trabajo**, active **Habilitado**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

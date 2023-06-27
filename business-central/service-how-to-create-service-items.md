@@ -56,7 +56,7 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 
     Se insertará una línea de servicio del tipo **Coste** con el gasto de inicio. El gasto de inicio se aplica al producto de servicio seleccionado.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Consultar la [formación de Microsoft](/training/modules/create-items/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-items/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -55,7 +55,7 @@ Las reglas de flujo de correo buscan condiciones específicas en los mensajes y 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] solo procesa mensajes en la carpeta Bandeja de entrada en el buzón compartido. Si una regla mueve mensajes de la Bandeja de entrada a otra carpeta, esos mensajes no se procesarán. Además, los mensajes de la carpeta Correo no deseado también se ignoran.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Configurar [!INCLUDE[prod_short](includes/prod_short.md)] para registrar mensajes de correo electrónico
+## <a name="set-up--to-log-email-messages" />Configurar [!INCLUDE[prod_short](includes/prod_short.md)] para registrar mensajes de correo electrónico
 
 Comience con el registro de correo electrónico en dos sencillos pasos:
 
@@ -145,14 +145,14 @@ Si no estas usando Azure Active Directory para administrar las identidades y el 
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Para cambiar la cuenta de usuario utilizada para el registro de correo electrónico
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Inicie sesión en [!INCLUDE[prod_short](includes/prod_short.md)] con la cuenta que el trabajo programado usará para conectar el buzón compartido y procesar correos electrónicos. Esta cuenta debe tener acceso a [!INCLUDE[prod_short](includes/prod_short.md)] y Exchange Online.
 2. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Registro de correo electrónico** y luego elija el enlace relacionado. 
 3. Elija **Relacionados**, y después **Entrada de la cola de trabajos**.
 4. Reinicie el trabajo **Registro de correo electrónico**.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] Local
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] Local
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Registro de correo electrónico** y luego elija el enlace relacionado.
 2. Elija **Acciones**, y luego **Renovar token**.

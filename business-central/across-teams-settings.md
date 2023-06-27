@@ -37,7 +37,7 @@ Hay dos formas de abrir la página **Configuración**: 1) desde el cuadro de red
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -43,7 +43,7 @@ Para convertir archivos de imagen y PDF en documentos electrónicos que puede co
 
 Para obtener más información, vea [Usar el servicio OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

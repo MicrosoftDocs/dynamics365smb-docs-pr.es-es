@@ -58,7 +58,7 @@ Hay varias formas de establecer qué diseño usa un informe. Cada forma tiene ve
 
 Los informes están diseñados para usar un diseño de forma predeterminada. Puede volver al diseño predeterminado original desde la página **Selección de diseño de informes**. Simplemente seleccione el informe, luego seleccione la acción **Restaurar la selección predeterminada** en la parte superior de la página.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

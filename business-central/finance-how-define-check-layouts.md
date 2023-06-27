@@ -70,7 +70,7 @@ A continuación se resumen las especificaciones para las fuentes MICR CMC-7 que 
 
 ![Especificaciones MICR CMC-7.](media/font_MICR_CMC-7_Specifications.png "Especificaciones MICR CMC-7")
 
-### <a name="delimiter-characters" />Caracteres delimitadores
+### <a name="delimiter-characters-1" />Caracteres delimitadores
 
 ![Caracteres delimitadores para CMC-7.](media/font-cmc7-letters.png "Caracteres delimitadores para CMC-7")
 

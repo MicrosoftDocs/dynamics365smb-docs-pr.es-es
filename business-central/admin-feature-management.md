@@ -17,7 +17,7 @@ Cuando Microsoft publica características o mejoras de diseño de característic
 
 Más información acerca de la [Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

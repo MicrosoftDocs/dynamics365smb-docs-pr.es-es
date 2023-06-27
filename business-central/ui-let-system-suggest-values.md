@@ -10,7 +10,7 @@ ms.search.form: '39, 251, 981'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="letting-includeprodshortincludesprodshortmd-suggest-values" />Permitir que [!INCLUDE[prod_short](includes/prod_short.md)] proponga valores
+# <a name="letting--suggest-values" />Permitir que [!INCLUDE[prod_short](includes/prod_short.md)] proponga valores
 [!INCLUDE[prod_short](includes/prod_short.md)] puede ayudarle a completar las tareas más rápida y correctamente rellenando previamente los campos o las líneas completas con los datos que, de no ser así, debería calcular e introducir usted. Aunque los datos introducidos automáticamente son siempre correctos, puede cambiarlos si lo desea.
 
 La funcionalidad que introduce los valores del campo por usted, normalmente, se ofrece mediante tareas en las que se introducen grandes volúmenes de datos transaccionales y se desea evitar errores y ahorrar tiempo. Este tema contiene una selección de éstas funcionalidades. Se agregarán más secciones en futuras actualizaciones de [!INCLUDE[prod_short](includes/prod_short.md)].

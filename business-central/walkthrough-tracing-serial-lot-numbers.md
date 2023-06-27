@@ -297,7 +297,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
  De este modo finaliza el tutorial sobre cómo usar la página **Buscar movimientos** para la gestión de defectos en la integración con la página **Seguimiento de productos**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-serial-lot-numbers" />Consultar la [formación de Microsoft](/training/paths/use-serial-lot-numbers/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/use-serial-lot-numbers/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

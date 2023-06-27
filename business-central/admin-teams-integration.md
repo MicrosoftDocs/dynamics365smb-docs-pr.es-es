@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-" />Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ Esta sección describe los requisitos mínimos para que la características de l
 
     La configuración de directiva **Permitir vistas previas de URL** debe estar activada. De lo contrario, no se puede generar una tarjeta para los vínculos de [!INCLUDE [prod_short](includes/prod_short.md)] pegados en una conversación de Teams. Para obtener más información sobre esta configuración, consulte [Administrar directivas de mensajería en Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />Gestionar la aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] (opcional)
+### <a name="managing-the--app-optional" />Gestionar la aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] (opcional)
 
 Como administrador de Teams, puede administrar todas las aplicaciones de su organización, incluida la aplicación [!INCLUDE [prod_short](includes/prod_short.md)]. Puede aprobar o instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para su organización, bloquear la instalación de la aplicación para el usuario y más.
 
@@ -51,9 +51,9 @@ Para obtener más información, consulte los siguientes productos de la document
 - [Administre sus aplicaciones en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps)
 - [Administrar las directivas de configuración de la aplicación en Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />En [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-" />En [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements" />Requisitos mínimos
+### <a name="minimum-requirements-1" />Requisitos mínimos
 
 - Versión de [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -103,7 +103,7 @@ El centro de administración de Microsoft Teams es donde se configuran las polí
 
 Microsoft Teams proporciona amplios controles para el cumplimiento y la gestión de datos confidenciales o de identificación personal&mdash;incluidos los datos agregados a los chats y canales por la aplicación [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />Saber dónde se almacenan las tarjetas de [!INCLUDE [prod_short](includes/prod_short.md)]
+### <a name="understanding-where--cards-are-stored" />Saber dónde se almacenan las tarjetas de [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Después de enviar una tarjeta a un chat, la tarjeta y los campos que se muestran en la tarjeta se copian en Teams. Esta información está sujeta a las políticas de Teams de su organización, como las políticas de retención de datos. Cuando se muestran los detalles de la tarjeta, ninguno de los datos de la ventana de detalles se almacena en Teams. Los datos permanecen almacenados en [!INCLUDE [prod_short](includes/prod_short.md)] y Teams solo lo recuperará cuando el usuario elija ver los detalles. 
 
@@ -153,7 +153,7 @@ Usted configura la configuración por entorno. Por lo tanto, cuando active o des
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

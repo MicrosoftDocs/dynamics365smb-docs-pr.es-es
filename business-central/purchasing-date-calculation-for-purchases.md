@@ -58,7 +58,7 @@ Puede especificar manualmente la fórmula de fecha en las líneas. De lo contrar
 3. Ficha ud. de almacenam.
 4. Ficha proveedor
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

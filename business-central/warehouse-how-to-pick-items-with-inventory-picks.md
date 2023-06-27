@@ -118,7 +118,7 @@ En escenarios donde parte de la cantidad se ensambla primero y a la otra se le d
 > [!NOTE]  
 > Si los productos se ensamblan según el pedido, el picking de inventario para el pedido de ventas vinculado crea un movimiento de inventario para todos los componentes del ensamblado.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

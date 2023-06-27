@@ -63,7 +63,7 @@ La configuración asistida de **Configuración de OneDrive** se introdujo en el 
 
 Para cambiar, simplemente abra y ejecute la configuración asistida **Configuración de OneDrive** directamente o abra la página **Configuración de la conexión de SharePoint** y elija **Ir a la nueva configuración de OneDrive** en la notificación en la parte superior de la página. Siga la guía de configuración como se describe en la sección anterior.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />Restaurar OneDrive y [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="restoring-onedrive-and-" />Restaurar OneDrive y [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Como parte de un ejercicio de recuperación ante desastres, los administradores pueden necesitar restaurar un entorno en línea de [!INCLUDE[prod_short](includes/prod_short.md)] a una copia de seguridad de un momento del pasado, y sincronizar el almacenamiento de OneDrive a ese mismo punto en el tiempo. OneDrive proporciona varias herramientas de recuperación, como restaurar OneDrive de un usuario a un momento anterior, restaurar una versión anterior de un archivo individual o restaurar archivos eliminados. Para obtener más información, consulte los siguientes artículos:
 

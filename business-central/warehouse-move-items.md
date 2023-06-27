@@ -36,7 +36,7 @@ Las actividades de recuento, ajuste y reclasificación de productos pueden inclu
 |Utilice la hoja de trabajo del movimiento de almacén, el picking y el almacenamiento internos para mover los productos en configuraciones avanzadas de almacén con el picking y el almacenamiento dirigidos.|[Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Vuelva a estructurar el almacén con nuevos códigos y características de ubicación y muévalos.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

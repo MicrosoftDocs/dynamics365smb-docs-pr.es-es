@@ -98,7 +98,7 @@ La página **Plan de cuentas** muestra las cuentas en una lista jerárquica que 
 
 En una organización pequeña, como la empresa de demostración CRONUS, la mayoría de los usuarios pueden editar el plan de cuentas, excepto los usuarios con una licencia de TEAM MEMBER. Sin embargo, en organizaciones más grandes normalmente los roles de usuario y los permisos limitan el acceso para editar el plan de cuentas. Si es administrador o tiene el rol *Administrador de negocio* o *Contable*, puede controlar los permisos de usuario para dar a las personas adecuadas acceso a las tablas relevantes. Más información en la sección [Para obtener un resumen de los permisos de un usuario](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />Consultar la [formación de Microsoft](/training/modules/business-central-configure-general-ledger-setup/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/business-central-configure-general-ledger-setup/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

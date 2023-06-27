@@ -77,7 +77,7 @@ En la tabla siguiente se muestran algunos ejemplos de cómo puede utilizar la b�
 |`@*man`|Todos los registros que acaban por **man** independientemente de las mayúsculas y minúsculas. Por ejemplo, **Norman** pero no **Manchester** o **manual**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Filtrado
+## <a name="filtering" /><a name="filtering"></a>Filtrado
 
 El filtrado proporciona una forma más avanzada y versátil de controlar qué registros se incluyen en una lista o se incluyen en un informe o XMLport. Existen dos diferencias principales entre la búsqueda y el filtrado, como se describe en la tabla siguiente.
 
@@ -249,7 +249,7 @@ Al introducir criterios, puede usar todos los números y las letras que normalme
 |`..1299|1400..`|Incluye los registros cuyo número sea menor o igual que 1299 o un número igual o mayor que 1400|  
 |`>50&<100`|Incluye los registros cuyo número sea mayor que 50 y menor que 100.|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrado por valores que contienen símbolos
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrado por valores que contienen símbolos
 
 Puede haber casos en los que los valores de campo contengan uno de los siguientes símbolos:
 
@@ -302,7 +302,7 @@ Use `%myvendors` en el campo de proveedor **No** para mostrar todos los registro
 |-----------------------|-----------------------|  
 |`%myvendors`|Proveedores en **Mis proveedores** en el Área de trabajo. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/search-filter-sort-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -26,7 +26,7 @@ Es importante introducir los valores de configuración correctos desde el princi
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

@@ -230,7 +230,7 @@ Más información sobre directrices generales sobre cómo registrar una aplicaci
 > [!NOTE]
 Si tiene problemas para usar el protocolo SMTP para enviar correos electrónicos después de conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de su aplicación, podría deberse a que SMTP AUTH no está habilitado para su suscriptor. En su lugar, le recomendamos que use los conectores de correo electrónico de Microsoft 365 y del usuario actual, ya que usan las API de Microsoft Graph Mail. Sin embargo, si debe usar el protocolo SMTP, puede habilitar SMTP AUTH. Para obtener más información, consulte [Habilitar o deshabilitar el envío SMTP de cliente autenticado (SMTP AUTH) en Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />Conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de su aplicación
+### <a name="connect--to-your-app-registration" />Conectar [!INCLUDE[prod_short](includes/prod_short.md)] al registro de su aplicación
 
 Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](includes/prod_short.md)], utilice página **Registro de AAD para aplicaciones de correo electrónico** para conectar [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -263,7 +263,7 @@ Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](i
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
 
 ## <a name="see-also" />Consulte también
 

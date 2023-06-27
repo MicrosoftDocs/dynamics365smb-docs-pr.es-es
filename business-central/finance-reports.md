@@ -30,7 +30,7 @@ Los siguientes artículos describen algunas de las tareas clave para analizar el
 * [Crear informes con XBRL](bi-create-reports-with-xbrl.md)  
 * [Gestionar la intención de acceso a la base de datos](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

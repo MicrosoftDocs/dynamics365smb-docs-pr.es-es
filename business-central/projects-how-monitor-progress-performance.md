@@ -139,7 +139,7 @@ Los movimientos relativos a proyectos se guardan en los registros de movimientos
 
 En la página **Movimientos de proyecto** puede revisar los movimientos que está asociado con algún proyecto.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Encontrar la [formación de Microsoft](/training/paths/calculate-post-job-wip/) relacionada
+## <a name="find-related-microsoft-training" />Encontrar la [formación de Microsoft](/training/paths/calculate-post-job-wip/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

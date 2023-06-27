@@ -22,7 +22,7 @@ Cada usuario que desarrolla actividades en el almacén debe estar configurado co
 5. Active el conmutador **Predeterminado** para especificar que la ubicación es la única en la que el empleado puede realizar actividades de almacén.  
 6. Repita estos pasos para asignar otros empleados a ubicaciones o para asignar otras ubicaciones a empleados de almacén existentes.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

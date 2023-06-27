@@ -95,7 +95,7 @@ Después de haber registrado las líneas de diario de proyectos, puede ver las l
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Movimientos**.  
 3. En la página **Movs. proyectos**, elija la acción **Mostrar líneas planificación proyecto vinculadas**.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

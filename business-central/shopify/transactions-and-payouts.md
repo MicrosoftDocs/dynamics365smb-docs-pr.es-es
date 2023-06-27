@@ -10,13 +10,13 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# Transacciones y pagos
+# <a name="transactions-and-payouts" />Transacciones y pagos
 
 Cuando un cliente completa su pago en la tienda en línea, la información sobre los pagos se guarda como una **Transacción**. Puede haber varias transacciones vinculadas al pedido, como cuando un cliente utiliza una tarjeta de regalo para pagar parte del coste y luego utiliza una tarjeta de crédito o PayPal para el importe restante.
 
 Si utiliza Shopify Payment como proveedor de pagos, además de la información sobre el dinero recibido del cliente por el proveedor de pagos, también puede ver los pagos de Shopify a su cuenta bancaria.
 
-## Transacciones
+## <a name="transactions" />Transacciones
 
 Las transacciones de pago que tienen lugar en Shopify se sincronizan junto con los pedidos y se pueden ver desde la página **Pedidos de Shopify**.
 
@@ -26,7 +26,7 @@ El campo **N.º de factura registrada** puede ser útil en el proceso de concili
 
 Si configuró la asignación de formas de pago, el documento de ventas creado tendrá asignado un Código de forma de pago. Obtenga más información en [Asignación de métodos de pago](#payment-method-mapping).
 
-## Pagos
+## <a name="payouts" />Pagos
 
 Si su tienda utiliza Shopify Payment, recibirá los pagos a través de **Pagos de Shopify** cuando un cliente pague utilizando Shopify Payments y finalizaciones de compra aceleradas.
 
@@ -38,7 +38,7 @@ Para revisar todos los pagos, elija el icono ![Bombilla que abre la función Dí
 
 Los **pagos** son solo para fines informativos y no afectan a la contabilidad o los movimientos bancarios, aunque pueden ser útiles cuando procesa su estado de cuenta bancaria.
 
-## Asignación de método de pago
+## <a name="payment-method-mapping" />Asignación de método de pago
 
 Para llenar el **Código de método de pago** para documentos de venta importados de Shopify automáticamente, necesita configurar **Asignación de métodos de pago**.
 
@@ -52,7 +52,7 @@ Para llenar el **Código de método de pago** para documentos de venta importado
 > [!NOTE]  
 > Si el método de pago correspondiente en [!INCLUDE[prod_short](../includes/prod_short.md)] tiene **Tipo contrapartida** y **Bal. Nº cuenta** rellenados, entonces durante la contabilización el sistema de facturas creará un asiento de compensación del tipo *Pago* y lo aplicará al tipo *Factura* en la entrada de movimientos del cliente.
 
-## Casos de uso
+## <a name="use-cases" />Casos de uso
   
 Fiestas:
 
@@ -60,7 +60,7 @@ Fiestas:
 * Comerciante: identifique a su empresa.
 * Proveedor del servicio de pago: empresa que le facilita el procesamiento de pagos. Puede ser Shopify Payments o un tercero.
 
-### Como fluye el dinero
+### <a name="how-money-flows" />Como fluye el dinero
 
 El Comprador compra bienes en la tienda en línea. La última etapa es procesar el pago.
 
@@ -77,7 +77,7 @@ Según el banco, el Comerciante puede ver esta transacción entrante en su cuent
 
 Hay varias opciones sobre cómo manejar las transacciones de pago en [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### Opción 1: conciliar las transferencias entrantes a la cuenta bancaria con las facturas originales
+### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Opción 1: conciliar las transferencias entrantes a la cuenta bancaria con las facturas originales
   
 El comerciante importa la orden de venta a [!INCLUDE[prod_short](../includes/prod_short.md)] y enviar el envío y la factura.
 
@@ -90,7 +90,7 @@ Problemas:
 1. Puede ser difícil si hay varias facturas (y notas de crédito), pero un solo pago del proveedor de pago con una suma global.
 2. La cantidad generalmente no coincide debido a la comisión. Puede usar la tolerancia de pago o los descuentos de pago para manejar las tarifas.
 
-### Opción 2: conciliar las transferencias entrantes a la cuenta bancaria con la cuenta provisional que representa dinero en el proveedor del servicio de pago
+### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Opción 2: conciliar las transferencias entrantes a la cuenta bancaria con la cuenta provisional que representa dinero en el proveedor del servicio de pago
   
 El comerciante importa la orden de venta a [!INCLUDE[prod_short](../includes/prod_short.md)] y enviar el envío y la factura.
   
@@ -119,6 +119,6 @@ Problemas:
 
 1. Puede crear múltiples cuentas bancarias o C/G si está tratando con múltiples proveedores de pago. Sin embargo, los pedidos de venta en [!INCLUDE[prod_short](../includes/prod_short.md)] admiten solo un código de forma de pago, lo que dificulta la gestión de casos cuando un comprador utiliza múltiples formas de pago para un pedido.
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Comenzar con el conector para Shopify](get-started.md)  

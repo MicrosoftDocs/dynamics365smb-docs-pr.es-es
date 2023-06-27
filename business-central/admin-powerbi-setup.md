@@ -10,11 +10,11 @@ ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, bus
 ms.date: 07/13/2022
 ms.author: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-includeprodshortincludesprodshortmd" />Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="enabling-power-bi-integration-with-" />Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Este artículo describe cómo tener [!INCLUDE[prod_short](includes/prod_short.md)] listo para la integración con Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online ya está habilitado para la integración, aunque hay cierta información sobre las licencias que quizás desee leer. Para [!INCLUDE[prod_short](includes/prod_short.md)] local, habrá configurado su entorno para conectarse a Power BI antes de que los usuarios puedan trabajar con él.
 
-## <a name="a-namelicenseapower-bi-licensing" /><a name="license"></a>Licencias de Power BI
+## <a name="power-bi-licensing" /><a name="license"></a>Licencias de Power BI
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)], los usuarios obtienen una licencia de Power BI que proporciona acceso a las funciones más comunes en [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI. También puede comprar una licencia de Power BI Pro que brinda acceso a funciones adicionales. La siguiente tabla proporciona una descripción general de las funciones disponibles con cada licencia.
 
@@ -25,7 +25,7 @@ Con [!INCLUDE[prod_short](includes/prod_short.md)], los usuarios obtienen una li
 
 Para más información, ver [Licenciar el servicio de Power BI para los usuarios de su organización](/power-bi/admin/service-admin-licensing-organization) o [Registrarse para el servicio de Power BI como individuo](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="a-nameexposedataaexpose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Exponer datos a través de API o servicios web OData
+## <a name="expose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Exponer datos a través de API o servicios web OData
 
 Business Central ofrece dos formas de exponer datos que pueden ser consumidos por informes de Power BI: páginas API o consultas y servicios web Open Data Protocol (OData).
 
@@ -54,7 +54,7 @@ Para obtener más información sobre lo que puede hacer para garantizar el mejor
 
 Siempre que sea posible, le recomendamos que utilice páginas API en lugar del servicio web OData. Las páginas API son generalmente más rápidas para cargar datos en informes de Power BI que los servicios web OData. Además, son más flexibles porque le permiten obtener datos de campos de tabla que no están definidos en un objeto de página.
 
-## <a name="a-namesetupaset-up-includeprodshortincludesprodshortmd-on-premises-for-power-bi-integration" /><a name="setup"></a>Preparación de [!INCLUDE[prod_short](includes/prod_short.md)] para la integración de Power BI
+## <a name="set-up--on-premises-for-power-bi-integration" /><a name="setup"></a>Preparación de [!INCLUDE[prod_short](includes/prod_short.md)] para la integración de Power BI
 
 Esta sección explica los requisitos para una implementación de [!INCLUDE[prod_short](includes/prod_short.md)] local para integrarse con Power BI.
 
@@ -92,7 +92,7 @@ Esta sección explica los requisitos para una implementación de [!INCLUDE[prod_
     Para realizar la conexión inicial, abra [!INCLUDE[prod_short](includes/prod_short.md)] y ejecute **Comenzar con Power BI** desde la página principal. Esta acción le guiará a través del proceso de consentimiento y verificará su licencia de Power BI. Cuando se le solicite, inicie sesión con una cuenta de administrador de Azure. Para obtener más información, consulte [Conectar a Power BI, solo una vez](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

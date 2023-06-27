@@ -35,7 +35,7 @@ Si desea ver un historial completo de entradas de IVA, cada publicación que imp
 > [!NOTE]
 > Cada entorno [!INCLUDE[prod_short](includes/prod_short.md)] está destinado a gestionar la información reglamentaria en un solo país. Por ejemplo, la versión holandesa de [!INCLUDE[prod_short](includes/prod_short.md)] gestiona las declaraciones del IVA en los Países Bajos, pero no en otros países. Del mismo modo, la versión de Estados Unidos de [!INCLUDE[prod_short](includes/prod_short.md)] gestiona las declaraciones 1099 en los Estados Unidos y no admite la solicitud de declaraciones del IVA en otros países, a menos que sea posible a través de una extensión entregada por nuestro ecosistema de socios o una modificación de código específica del cliente.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Acerca del informe de la Lista venta CE
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Acerca del informe de la Lista venta CE
 
 En la Unión Europea (UE) y el Reino Unido, todas las empresas que venden bienes y servicios a los clientes con IVA, incluidos los de los estados miembros de la Unión Europea (UE), deben presentar una versión electrónica de su informe de la lista de ventas de la Comunidad Europea a sus clientes y autoridades fiscales. El informe **Lista de ventas de RE** funciona solo para los países de la UE.
 
@@ -53,7 +53,7 @@ Después de que la autoridad fiscal revise su informe, enviará un correo electr
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Acerca del informe de devolución de IVA
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Acerca del informe de devolución de IVA
 
 Utilice este informe para enviar el IVA para los documentos de ventas y compras, como órdenes de compra y venta, facturas y abonos. La información en el informe está en el mismo formato que el formulario de declaración de las autoridades aduaneras y fiscales.  
 
@@ -73,7 +73,7 @@ Para informar el IVA a una autoridad fiscal electrónicamente, debe conectar [!I
     > [!NOTE]  
     > Conviene probar la conexión. Para ello, seleccione la casilla **Modo de prueba** y, a continuación, prepare y envíe su informe de IVA como se describe en la sección [Preparar y enviar un informe de IVA](#to-prepare-and-submit-a-vat-report). Mientras está en modo de prueba, el servicio comprueba si la autoridad tributaria puede recibir su informe y el estado del informe indicará si el envío de la prueba ha sido satisfactorio. Debe recordar que no es un envío real. Para enviar el informe de válido, debe desactivar la casilla de verificación **Ejecutar en modo de prueba** y, a continuación, repetir el proceso.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Para configurar informes IVA en [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Para configurar informes IVA en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ En la tabla siguiente se describen las codeunits que debe crear para el informe.
 > [!Note]
 > Cuando cree las unidades de código para el informe, preste atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2021** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

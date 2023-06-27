@@ -29,13 +29,13 @@ La tabla siguiente proporciona un resumen de las tareas que realiza, por lo gene
 | Cerrar periodos contables y ejercicios fiscales, transferir saldos de cuentas de regularización a cuentas de balance y registrar el movimiento de cierre de final de año. |[Cierre de libros](year-close-books.md) |
 | Imprimir informes que le ayuden a crear resultados financieros. |[Preparación de extractos de cierre](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/close-fiscal-year-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 
 [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,7 +37,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
 > [!NOTE]  
 >  No puede modificar diseños de informe integrados<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Para abrir el elemento XML personalizado para el informe en Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Para abrir el elemento XML personalizado para el informe en Word
   
 1. Si todavía no está abierto, abra en Word el documento de diseño de informe de Word.  
   
@@ -103,7 +103,7 @@ Las imágenes se alinean en la esquina superior izquierda del control de conteni
   
 3. Para aumentar o reducir el tamaño de la imagen, arrastre un control de tamaño hacia fuera desde el centro del control de contenido, o hacia el centro del mismo.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Quitar los campos de etiqueta y de datos
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Quitar los campos de etiqueta y de datos
 
 Los campos de etiqueta y datos de un informe están incluidos en los controles de contenido en Word. La ilustración siguiente muestra un control de contenido seleccionado en el documento de Word.  
 

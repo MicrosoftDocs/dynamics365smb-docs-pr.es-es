@@ -102,7 +102,7 @@ Si lo ha hecho, debe hacer una excepción para los aplazamientos para permitir q
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad** o **Configuración de usuario**, y luego elija el enlace relacionado.
 2. En los campos **Permitir publicación diferida desde** y **Permitir publicación diferida a**, introduzca una fecha de inicio y fin para el período.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

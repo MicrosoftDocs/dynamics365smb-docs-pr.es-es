@@ -74,7 +74,7 @@ Además del precio especificado en la tarjeta de recurso, puede configurar preci
 3. En la página **Precio de venta del recurso**, rellene los campos en una línea según sea necesario.
 4. Repita el paso 3 para cada precio de venta de recurso alternativo que desee configurar.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

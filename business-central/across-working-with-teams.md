@@ -92,13 +92,13 @@ Aquí hay un par de cosas que debe tener en cuenta al trabajar con los detalles 
 
 Para obtener más información sobre cómo trabajar con tarjetas y detalles de tarjetas, consulte [Preguntas frecuentes de Teams](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Compartir un vínculo a una página de Business Central a Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Compartir un vínculo a una página de Business Central a Teams
 
 Directamente desde la mayoría de las páginas de colección, como la página **Productos** y páginas de detalles, como la tarjeta **Productos**, puede enviar un vínculo a la página a destinatarios específicos en una conversación de Teams. Por ejemplo, puede compartir un enlace a una vista filtrada de sus registros. Los destinatarios pueden seleccionar el enlace para abrir la página en [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!El menú Compartir mostrado en una tarjeta.](media/teams-share-link-v2.png "El menú Compartir mostrado en una tarjeta.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Requisitos previos
+### <a name="prerequisites-1" />Requisitos previos
 
 - Tiene acceso a Microsoft Teams.
 - (Opcional) Ha instalado la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. 
@@ -126,6 +126,6 @@ Directamente desde la mayoría de las páginas de colección, como la página **
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  
 [Desarrollo para la integración de Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -71,7 +71,7 @@ Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página 
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Para obtener más información, consulte [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Configure su empresa en [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-" />Configure su empresa en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Los artículos de [inicio rápido](quick-start-business-central.md) pueden ayudarle a dar los primeros pasos para configurar [!INCLUDE [prod_short](includes/prod_short.md)] para su organización. En [!INCLUDE [prod_short](includes/prod_short.md)], la página **Configuración asistida** enumera las guías de configuración asistida que pueden ayudarlo. Dependiendo de su rol y país o región, la página muestra diferentes guías de configuración del asistente, como se mustra en la siguiente tabla:
 
@@ -112,6 +112,6 @@ Según sus datos migrados, ahora puede empezar a crear nuevos documentos de comp
 [Migrar datos](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Períodos de prueba y vistas previas](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Todas las enumeraciones [!INCLUDE[prod_short](includes/prod_short.md)] anteriores se asignan a conjuntos de opciones de [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Extensión de conjuntos de opciones en [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-" />Extensión de conjuntos de opciones en [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Cree una nueva extensión AL.
 
 2. Agregue una extensión Enum para las opciones que desea extender. Asegúrese de usar el mismo valor. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Los primeros diez caracteres de los nuevos nombres de valores de opciones y títulos deben ser únicos. Por ejemplo, dos opciones llamadas "Transferir 20 días hábiles" y "Transferir 20 días naturales" causarán un error porque ambos tienen los mismos 10 primeros caracteres, "Transferir 2". Nómbrelos, por ejemplo, "TRF20 DH" y "TRF20 DN".
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />Actualizar la asignación de opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="update--option-mapping" />Actualizar la asignación de opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Ahora puede recrear la asignación entre las opciones [!INCLUDE[prod_short](includes/cds_long_md.md)] y los registros [!INCLUDE[prod_short](includes/prod_short.md)].
 
 En la página **Asignación de tablas de integración**, elija la línea para la asignación **Condiciones de pago** y luego elija la acción **Sincronizar registros modificados**. La página **Asignación de opciones de Dataverse** se actualiza con los registros adicionales siguientes.

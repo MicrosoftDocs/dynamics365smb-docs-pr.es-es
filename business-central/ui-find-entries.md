@@ -46,7 +46,7 @@ Después de hacer una selección, introduzca la información de búsqueda releva
 > [!TIP]
 > Para ver un par de ejemplos sobre el uso de **Buscar entradas**, consulte [Seguimiento de productos con seguimiento de productos](inventory-how-to-trace-item-tracked-items.md) y [Tutorial: seguimiento de números de lote de serie](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 

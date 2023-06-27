@@ -35,7 +35,7 @@ Para el usuario final, la experiencia de instalación es diferente para los dos 
 
 Con estas dos opciones de implementación, el complemento se configura automáticamente para conectarse a [!INCLUDE[prod_short](includes/prod_short.md)]. Una tercera opción de implementación es una instalación manual del complemento directamente desde Excel. Con esta opción, los usuarios deberán configurar el complemento para conectarse a [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Cambiar de adquisición individual a Implementación centralizada o a la inversa
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Cambiar de adquisición individual a Implementación centralizada o a la inversa
 
 Cuando cambia de adquisición individual del complemento a Implementación centralizada, o viceversa, los archivos de Excel que los usuarios crearon antes de la transición se ven afectados. Después de la transición, los usuarios pueden seguir abriendo cualquier hoja de cálculo de Excel creada previamente usando la acción **Editar en Excel** o creada manualmente mediante la configuración del complemento de Excel. Pero no pueden actualizar los datos en el archivo desde Business Central o insertar actualizaciones a Business Central
 
@@ -87,7 +87,7 @@ Cuando termine, siempre puede cambiar la implementación en el Centro de adminis
 > [!NOTE]
 > Pueden pasar hasta 24 horas antes de que el complemento se implemente automáticamente en Excel de los usuarios.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Adquisición individual: instale el complemento manualmente para su propio uso
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Adquisición individual: instale el complemento manualmente para su propio uso
 
 En la mayoría de los casos, cuando abre Excel desde Business Central, el complemento se instalará automáticamente o se le pedirá que lo instale. Sin embargo, puede haber casos en los que tenga que instalar manualmente el complemento.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

@@ -121,7 +121,7 @@ Campos **Fecha de documento**, **Monto** de la página **Movs. IVA**, donde:
 
 Antes de usar el servicio web predictivo, [!INCLUDE[prod_short](includes/prod_short.md)] comprime las transacciones por **Fecha de documento** según el valor del campo **Tipo de periodo** de la página **Configuración de flujo de efectivo**.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Crear y usar su propio servicio web predictivo para las previsiones de flujo de efectivo
 
 También puede crear su propio servicio web predictivo basado en un modelo público denominado **Modelo de previsión para Microsoft Business Central**. Este modelo predictivo está disponible en línea en la galería de Azure AI. Para usar el modelo, siga estos pasos:  
 
@@ -134,7 +134,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 7. Amplíe la ficha desplegable **Azure AI** y, a continuación, rellene los campos, incluidas la URL de API y la clave de API proporcionadas desde el estudio de Azure Machine Learning. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. En el área de trabajo Contable, elija la acción **Recalcular previsión** en el gráfico **Previsión de flujo de efectivo**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 

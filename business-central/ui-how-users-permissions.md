@@ -54,7 +54,7 @@ Ambos enfoques tienen sus propias ventajas y puede usarlos simultáneamente. Cad
 
 Para más información, vea [Acceso de administrador delegado a Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Configurar permisos basados en licencias
+### <a name="configure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Configurar permisos basados en licencias
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ Si esta configuración predeterminada no es la correcta para un entorno en parti
 > [!IMPORTANT]
 > Esta personalización de permisos solo surtirá efecto para los nuevos usuarios a los que les asigne la licencia correspondiente. Los usuarios existentes no se actualizan. Recomendamos que personalice los permisos antes de comenzar a asignar licencias de usuarios en el Centro de administración de Microsoft 365.
 
-### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Para agregar usuarios o actualizar información de usuario y asignaciones de licencia en Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Para agregar usuarios o actualizar información de usuario y asignaciones de licencia en Business Central
 
 Después de agregar usuarios o cambiar la información del usuario en el Centro de administración de Microsoft 365, puede importar rápidamente la información del usuario a [!INCLUDE[prod_short](includes/prod_short.md)]. La importación incluye asignaciones de licencias.  
 
@@ -118,7 +118,7 @@ Puede eliminar el acceso de un usuario a [!INCLUDE[prod_short](includes/prod_sho
 
 También puede eliminar la licencia de un usuario en el Centro de administración de Microsoft 365. El usuario no puede iniciar sesión. Para obtener más información, consulte [Quitar la asignación de las licencias de los usuarios](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Sincronización con Microsoft 365
+### <a name="synchronization-with-microsoft-365" /><a name="m365"></a>Sincronización con Microsoft 365
 
 Cuando asigna una licencia para [!INCLUDE[prod_short](includes/prod_short.md)] a un usuario en Microsoft 365, hay dos formas de crear el usuario en [!INCLUDE[prod_short](includes/prod_short.md)].  
 

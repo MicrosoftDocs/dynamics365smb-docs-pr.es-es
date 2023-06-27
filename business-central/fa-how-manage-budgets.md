@@ -54,7 +54,7 @@ Puede usar el informe **A/F - Proyección amort.** para calcular la amortizació
 4. Deje en blanco la ficha desplegable **Activo** para incluir todos los activos. En el campo **Activo presupuestado**, puede especificar **No** para excluir los activos presupuestados o **Sí** para ver solo los activos presupuestados.
 5. Elija el botón **Imprimir** o **Versión preliminar**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />Consultar la [formación de Microsoft](/training/modules/budget-fixed-assets/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/budget-fixed-assets/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

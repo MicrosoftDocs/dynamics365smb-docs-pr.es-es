@@ -24,7 +24,7 @@ Los pasos siguientes proporcionan una visión general de los pasos de la integra
 
 3. Sincronice los datos entre las aplicaciones. Para obtener más información, consulte [Sincronización de Business Central y Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Introducción a [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Introducción a [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Para comenzar con [!INCLUDE[prod_short](includes/cds_long_md.md)] necesitará una cuenta de Microsoft Power Apps. Si aún no tiene una cuenta de Power Apps, puede obtener una gratis visitando [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) y eligiendo el vínculo **Comenzar gratis**. Para obtener más información sobre cómo comenzar con [!INCLUDE[prod_short](includes/cds_long_md.md)], vea el módulo [Empezar con Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) de la formación de Microsft.
 
@@ -57,7 +57,7 @@ Para obtener más información sobre cada rol, como los permisos y los niveles d
 
 Durante la configuración de la conexión, se crean asignaciones de tablas de integración que son necesarias para sincronizar datos. Las entidades de [!INCLUDE[prod_short](includes/cds_long_md.md)] se asignan a tablas y campos de tabla en Business Central a través de tablas de integración. Para obtener más información, consulte [Asignación de entidad estándar para la sincronización](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Consultar la [formación de Microsoft](/training/modules/use-model-driven-apps-common-data-service/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/use-model-driven-apps-common-data-service/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

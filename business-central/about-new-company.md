@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ---
-# Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="create-new-companies-in-" />Crear nuevas en empresas en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], el contenedor para datos empresariales que pertenece a una unidad de negocio o entidad legal se denomina *empresa*. Cuando se registra en [!INCLUDE[prod_short](includes/prod_short.md)], recibe una empresa de demostración y una empresa vacía, *Mi empresa*. Cambiar entre las empresas es fácil, solo tiene que ir a **Mi configuración** y cambiar a la otra empresa. Pero también puede crear nuevas empresas en [!INCLUDE[prod_short](includes/prod_short.md)], según sus necesidades comerciales.  
 
@@ -21,7 +21,7 @@ Al crear una empresa nueva, una guía de configuración asistida le ayuda a obte
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Elegir la plantilla adecuada
+## <a name="choose-the-right-template" />Elegir la plantilla adecuada
 
 Si decide agregar una empresa al [!INCLUDE[prod_short](includes/prod_short.md)], puede utilizar la guía de configuración asistida **Crear nueva empresa** para comenzar. La guía de configuración está disponible en la página **Empresas** y en la búsqueda en el campo **Empresa** en la página **Mi configuración**.  
 
@@ -43,7 +43,7 @@ Durante su prueba de 30 días, puede crear todas las nuevas empresas que desee, 
 
 Su administrador puede obtener más información sobre pruebas y suscripciones [aquí](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## Copiar una empresa
+## <a name="copy-a-company" />Copiar una empresa
 
 En la página **Empresas**, puede usar la acción **Copiar** para crear una segunda empresa basada en los contenidos de una empresa existente. Eso es útil, por ejemplo, cuando desea probar una empresa sin interrumpir los datos de producción.
 
@@ -52,7 +52,7 @@ En la página **Empresas**, puede usar la acción **Copiar** para crear una segu
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
-## Establecer la empresa
+## <a name="set-up-the-company" />Establecer la empresa
 
 Cuando inicie sesión en una empresa nueva, se ejecutará el asistente **Configuración de la empresa** automáticamente y le ayudará a empezar. Se le pedirá información sobre su empresa, como la dirección, los datos bancarios y el método de cálculo de costes de inventario. Pedimos esta información porque se utiliza como base para muchas áreas en [!INCLUDE[prod_short](includes/prod_short.md)] que no tendrá que configurar manualmente más adelante.  
 
@@ -60,26 +60,26 @@ Por ejemplo, [!INCLUDE [prod_short](includes/prod_short.md)] incluye la direcci�
 
 Una vez que tenga los elementos básicos, puede configurar las áreas restantes. A continuación, puede agregar datos empresariales, como clientes y proveedores. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Empresas y entornos
+## <a name="companies-and-environments" />Empresas y entornos
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Para más información, vea [Cambiar a otra empresa o entorno](ui-organization-switch.md). Para obtener más información sobre los entornos, consulte [Comprender la infraestructura de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (solo en inglés).  
 
-## Cambiar el nombre de una empresa
+## <a name="changing-a-companys-name" />Cambiar el nombre de una empresa
 
 Una vez que se ha creado una empresa, no puede cambiar su nombre. Pero puedes cambiar su **Nombre para mostrar**, que es el texto que se mostrará a la empresa a lo largo de la aplicación.  
 
 > [!TIP]
 > Puede cambiar el nombre de una empresa si está utilizando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones.
 
-## Agregar Contoso Coffee
+## <a name="add-contoso-coffee" />Agregar Contoso Coffee
 
 La aplicación Contoso Coffee proporciona datos de demostración que pueden ayudarle a explorar las capacidades avanzadas de [!INCLUDE [prod_short](includes/prod_short.md)]. Encuentre la aplicación en AppSource e instálela en una empresa vacía, por ejemplo, una empresa en un entorno de espacio aislado. Para obtener más información, consulte [Introducción a los datos de demostración de Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
 
-## Consulte también .
+## <a name="see-also" />Consulte también .
 
 [Personalizar Business Central](ui-customizing-overview.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

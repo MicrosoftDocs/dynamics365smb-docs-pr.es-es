@@ -47,7 +47,7 @@ El siguiente video cubre los conceptos básicos de los activos fijos.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-transactions/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-transactions/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
@@ -57,7 +57,7 @@ El siguiente video cubre los conceptos básicos de los activos fijos.
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

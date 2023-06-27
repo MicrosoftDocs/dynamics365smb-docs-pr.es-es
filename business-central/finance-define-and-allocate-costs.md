@@ -137,7 +137,7 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

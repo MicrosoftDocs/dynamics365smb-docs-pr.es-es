@@ -158,7 +158,7 @@ Los grupos de usuarios a los que no se les permite publicar en diciembre pero s√
 
 ## <a name="item-charge-scenario" />Ejemplo cargos producto
 
-### <a name="prerequisites" />Requisitos previos
+### <a name="prerequisites-1" />Requisitos previos
 
 Introduzca los siguientes valores:
 
@@ -184,7 +184,7 @@ Introduzca los siguientes valores:
 
 - Permitir registro hasta = vac√≠o  
 
-### <a name="to-test-the-scenario" />Para probar el ejemplo
+### <a name="to-test-the-scenario-1" />Para probar el ejemplo
 
 Pruebe este escenario realizando los siguientes pasos:
 

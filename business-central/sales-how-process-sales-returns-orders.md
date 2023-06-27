@@ -95,7 +95,7 @@ Registre este precio aumentado como un cargo de producto en un abono o una devol
 
 Cuando registre el pedido de devolución de ventas, se añadirá el cargo de reaprovisionamiento al importe del movimiento de ventas correspondiente. De este modo podrá mantener la precisión de la valoración del inventario.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/return-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

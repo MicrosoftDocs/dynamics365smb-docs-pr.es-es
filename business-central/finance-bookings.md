@@ -11,7 +11,7 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-includeprodshortincludesprodshortmd" />Facturación masiva para Microsoft Bookings en [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-" />Facturación masiva para Microsoft Bookings en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Si su empresa utiliza la aplicación Bookings en Microsoft 365, puede hacer la facturación masiva para citas. La página **Reservas no facturadas** de [!INCLUDE[prod_short](includes/prod_short.md)] ofrece una lista de las reservas completadas de la empresa. En esta página puede seleccionar rápidamente citas que desea facturar y para crear borradores de factura de los servicios prestados.  
 

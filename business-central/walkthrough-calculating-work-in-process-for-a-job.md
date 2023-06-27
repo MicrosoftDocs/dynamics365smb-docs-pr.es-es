@@ -159,7 +159,7 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
  Este tutorial le ha enseñado a calcular el trabajo en curso en [!INCLUDE[prod_short](includes/prod_short.md)]. En proyectos más grandes, puede resultar útil transferir los costes a una cuenta WIP periódicamente mientras se completa el proyecto. Este tutorial le ha mostrado cómo excluir líneas de tarea de un cálculo. También le muestra cuándo tiene que calcular de nuevo. Y finalmente, este tutorial demuestra la forma de registrar el WIP en la contabilidad general. También se incluye un ejemplo de cómo revertir un WIP que registra la contabilidad general.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Consultar la [formación de Microsoft](/training/paths/calculate-post-job-wip/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/calculate-post-job-wip/) relacionada
 
 ## <a name="see-also" />Consulte también
 

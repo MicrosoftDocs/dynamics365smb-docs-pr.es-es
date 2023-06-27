@@ -51,7 +51,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Según su ubicación geográfica, algunas páginas de Business Central pueden contener campos que no se describen en los productos que están en la lista de arriba porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
@@ -62,6 +62,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

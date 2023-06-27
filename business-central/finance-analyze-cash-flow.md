@@ -42,7 +42,7 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 2. Seleccione una previsión de flujo de efectivo y, a continuación, seleccione la acción **Hoja flujos efectivo**.  
 3. En la página **Hoja flujos efectivo**, elija la acción **Proponer líneas de hoja de trabajo**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

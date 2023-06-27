@@ -128,7 +128,7 @@ Para que un producto se pueda incluir en el cálculo del compromiso de entrega, 
     - Seleccione **Capaz de comprometer** si sabe que el producto está actualmente fuera de stock y desea calcular la fecha más temprana en que podría estar disponible emitiendo nuevas órdenes de reposición.  
 5.  Elija el botón **Aceptar** para aceptar la fecha de envío más próxima disponible.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

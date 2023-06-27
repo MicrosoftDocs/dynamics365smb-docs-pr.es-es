@@ -211,11 +211,11 @@ Los ejemplos con la alternativa A, B, C o D representan lo siguiente:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Ninguno**|**Sí**|**0**|**0**|  
 |30|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Sí|0|5|  
 
-### <a name="payment-range-diagrams" />Diagramas de preparación, espera y movimiento de pago
+### <a name="payment-range-diagrams-1" />Diagramas de preparación, espera y movimiento de pago
 
 En relación con el ejemplo anterior, los diagramas de los intervalos de pagos son los siguientes:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Fecha pago <=15/01/03 (ejemplos 1 a 3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Fecha pago <=15/01/03 (ejemplos 1 a 3)
 
 Importe pendiente por  
 
@@ -275,7 +275,7 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

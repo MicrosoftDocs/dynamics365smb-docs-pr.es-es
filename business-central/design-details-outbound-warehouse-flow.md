@@ -83,7 +83,7 @@ En el diagrama siguiente se ilustran los procesos de almacén de salida para dif
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Muestra los pasos de un flujo de almacén de salida avanzado.":::
 
-### <a name="1-release-a-source-document" />1: Lanzar un documento de origen
+### <a name="1-release-a-source-document-1" />1: Lanzar un documento de origen
 
 Liberar un documento de origen en configuraciones avanzadas hace lo mismo que para las configuraciones básicas. Los artículos pasan a estar disponibles para su manipulación en el almacén. Por ejemplo, se pueden incluir en un envío.  
 

@@ -95,7 +95,7 @@ Para manejar el coste del producto para el recibo parcial, en la página **Asign
 
 Cuando esté listo para manejar el producto que faltaba, actualice el campo **Cantidad a manejar** y contabilice el pedido.
 
-## <a name="see-related-microsoft-trainingtrainingmodulespost-purchase-item-charges-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/post-purchase-item-charges-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

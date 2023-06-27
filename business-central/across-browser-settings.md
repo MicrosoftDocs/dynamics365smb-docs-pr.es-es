@@ -50,7 +50,7 @@ Si el navegador no permite cookies, obtendrá el siguiente error:
 1. En Microsoft Edge, vaya a **Configuraciones** > **Cookies y permisos del sitio** > **Cookies y datos del sitio**.
 2. Mueva el control de alternancia **Permitir que los sitios guarden y lean datos de cookies** a la derecha (activado).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Permitir ventanas emergentes desde Business Central
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Permitir ventanas emergentes desde Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] se integra con varios productos. En algunos casos, como con Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] se abre, o emerge, dentro del producto. Esta capacidad requiere que su navegador permita ventanas emergentes de [!INCLUDE[prod_short](includes/prod_short.md)].
 

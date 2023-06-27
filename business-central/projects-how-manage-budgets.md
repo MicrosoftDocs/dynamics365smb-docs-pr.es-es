@@ -17,7 +17,7 @@ Se puede configurar un presupuesto para cada proyecto. El presupuesto se utiliza
 
 El procedimiento siguiente describe cómo calcular los costes presupuestados durante la planificación. Para obtener información acerca del registro de precios y costes de proyecto presupuestados y reales, vea [Registro del uso para proyectos](projects-how-record-job-usage.md).  
 
-## <a name="a-namejobbudgetcostsa-to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Para estimar los costes presupuestados de un proyecto
+## <a name="to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Para estimar los costes presupuestados de un proyecto
 Si un cliente desea saber el precio de un proyecto que se facturará en función del uso, se deben determinar los costes presupuestados del proyecto. Para hacerlo, debe usar la página **Líneas tarea proyecto**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
@@ -43,7 +43,7 @@ En la página **Ficha proyecto**, puede ver un resumen del total de costes presu
 
 Para obtener información acerca del registro de precios y costes de proyecto presupuestados y reales, vea [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-job-planning-lines" />Consultar la [formación de Microsoft](/training/modules/set-up-job-planning-lines/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/set-up-job-planning-lines/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -50,7 +50,7 @@ En la página **Configuración de contabilidad**, si activa el botón de alterna
 
 En la página **Ayuda y soporte técnico** puede ver la versión de que [!INCLUDE[prod_short](includes/prod_short.md)] en la que se basa su empresa. Si desea basar una empresa en una versión diferente, su administrador puede crear un nuevo entorno de producción. Para obtener más información, vea [Crear un nuevo entorno de producción](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) en el contenido para desarrolladores y profesionales de TI.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Idiomas de la Ayuda de [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="languages-of-the--help" />Idiomas de la Ayuda de [!INCLUDE[prod_short](includes/prod_short.md)]
 
 El contenido de la Ayuda para la versión predeterminada de [!INCLUDE[prod_short](includes/prod_short.md)] se publica en Microsoft Learn. El contenido está disponible en diferentes idiomas. Si tiene acceso a la documentación desde [!INCLUDE[prod_short](includes/prod_short.md)], el contenido se mostrará en su idioma. De forma predeterminada, si una página en particular aún no está disponible en su idioma, se mostrarán en inglés.
 

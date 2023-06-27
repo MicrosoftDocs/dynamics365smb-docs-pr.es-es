@@ -51,7 +51,7 @@ El siguiente organigrama muestra cómo se rellena el campo de **Código de ubica
 
 :::image type="content" source="media/binflow.png" alt-text="Campo de código de ubicación en líneas de componentes de orden de producción.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Consultar la [formación de Microsoft](/training/modules/configure-bins-location/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-bins-location/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

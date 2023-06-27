@@ -112,7 +112,7 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 
 4.  Elija el botón **Aceptar** para guardar los cambios.
 
-## <a name="setting-up-a-job" />Configuración de un proyecto
+## <a name="setting-up-a-job-1" />Configuración de un proyecto
 
  En este escenario, CRONUS ha ganado un contrato con un cliente, Progressive Home Furnishings, para diseñar una sala de conferencias y un refectorio. El cliente tiene su sede en los Estados Unidos y el proyecto precisa un software especial. El director del proyecto llega a un acuerdo con el cliente y crea un proyecto que cubra el acuerdo.  
 
@@ -258,7 +258,7 @@ Ya se han registrado las líneas.
 2.  Seleccione la acción **Estadísticas**. Puede revisar información detallada acerca de los precios, costes y beneficio bruto del trabajo en las divisas local y extranjera.  
 3.  Elija el botón de **Cerrar** para cerrar la página **Estadísticas proyecto**.  
 
-## <a name="handling-fixed-prices" />Gestión de precios fijos
+## <a name="handling-fixed-prices-1" />Gestión de precios fijos
 
  CRONUS se han contratado a las salas de conferencias de instalación. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, Prakash desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Han llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
 
@@ -454,7 +454,7 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
  Este tutorial le ha llevado por algunos de los pasos básicos de trabajo con los proyectos en [!INCLUDE[prod_short](includes/prod_short.md)]. Ha aprendido acerca de cómo crear un trabajo nuevo, cómo copiar un trabajo y cómo administrar los pagos. Además, ha visto una demostración de cómo seguir las horas y crear las facturas.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Consultar la [formación de Microsoft](/training/paths/create-jobs/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/create-jobs/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

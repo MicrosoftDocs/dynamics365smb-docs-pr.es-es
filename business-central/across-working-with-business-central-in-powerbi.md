@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with-include-prodshortincludesprodshortmd-data-in-power-bi" />Trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
+# <a name="work-with--data-in-power-bi" />Trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
 
 En este artículo, aprenderá algunos de los conceptos básicos sobre cómo trabajar con informes y paneles en Power BI que usan [!INCLUDE [prod_short](includes/prod_short.md)] como fuente de datos. El artículo analiza algunos aspectos que lo ayudarán a comenzar como usuario de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener pautas generales e instrucciones sobre el uso de Power BI, ver [Documentación de Power BI para consumidores](/power-bi/consumer).
 
@@ -44,7 +44,7 @@ En el panel de navegación, debajo de Conjuntos de datos, seleccione Mas opcione
 
 Para obtener más información, vea [Configurar actualización programada](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="a-nameuploadaupload-reports-from-files" /><a name="upload"></a>Cargar informes desde archivos
+## <a name="upload-reports-from-files" /><a name="upload"></a>Cargar informes desde archivos
 
 Los informes de Power BI se pueden distribuir entre los usuarios como archivos .pbix. Si tiene un archivo .pbix, puede cargarlo en un espacio de trabajo. Para cargar un informe, siga los siguientes pasos:
 
@@ -62,7 +62,7 @@ Para más información, ver [Sube el informe al servicio](/power-bi/paginated-re
 > [!TIP]
 > Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] online, también puede cargar un informe desde [!INCLUDE[prod_short](includes/prod_short.md)]. Para más información, ver [Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)] - Subir informes](across-working-with-powerbi.md#upload).
 
-## <a name="a-nameshareashare-reports-with-others" /><a name="share"></a>Compartir informes con otros
+## <a name="share-reports-with-others" /><a name="share"></a>Compartir informes con otros
 
 Una vez que un informe está en su espacio de trabajo, puede compartirlo con otras personas de su organización.
 
@@ -71,7 +71,7 @@ Para compartir un informe, en una lista de informes o en un informe abierto, sel
 > [!NOTE]
 > Debe tener una [Licencia Pro de Power BI](/power-bi/service-features-license-type) y las personas con las que compartes también lo harán. El contenido debe estar en un espacio de trabajo con [capacidad Premium](/power-bi/service-premium-what-is). Para más información, vea [Formas de compartir el trabajo en Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

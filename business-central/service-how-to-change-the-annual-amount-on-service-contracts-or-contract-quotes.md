@@ -75,7 +75,7 @@ Si cambia el importe anual del contrato de servicio o de la oferta de contrato, 
 
 Los pasos se repiten para cada línea de contrato.  
 
-#### <a name="example" />Ejemplo:
+#### <a name="example-1" />Ejemplo:
 La casilla de verificación **Permite importes sin saldar** no está activada en el contrato de servicio que contiene tres líneas de contrato con esta información.  
 
 |Producto|Coste línea|Valor línea|% Descuento línea|Importe dto. línea|Importe línea|Bfº bruto|  
@@ -113,7 +113,7 @@ Si cambia el importe anual del contrato de servicio o de la oferta de contrato, 
     * % Descuento línea = Importe dto. línea / Valor línea * 100  
     * Bfº bruto = Importe línea - Coste línea  
 
-#### <a name="example" />Ejemplo
+#### <a name="example-2" />Ejemplo
 La casilla de verificación **Permite importes sin saldar** no está activada en el contrato de servicio que contiene tres líneas de contrato con esta información.  
 
 |Producto|Coste línea|Valor línea|% Descuento línea|Importe dto. línea|Importe línea|Bfº bruto|  

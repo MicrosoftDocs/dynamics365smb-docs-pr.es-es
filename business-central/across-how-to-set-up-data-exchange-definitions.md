@@ -33,7 +33,7 @@ La creación de una definición de intercambio de datos implica dos tareas:
 1. En la página **Definición de intercambio de datos**, describe el formato de líneas y columnas del archivo. Más información en la sección [Para describir el formato de las líneas y las columnas en el archivo](#formatlinescolumns).  
 2. En la página **Asignación de intercambio de datos**, asigne las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]. Más inforamción en la sección [Para asignar columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Para describir el formato de las líneas y las columnas en el archivo
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Para describir el formato de las líneas y las columnas en el archivo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -108,7 +108,7 @@ El paso siguiente en la creación de una definición de intercambio de datos es 
 > [!NOTE]  
 > La asignación específica depende del objetivo empresarial del archivo de datos que se intercambiará y de las variaciones locales. Incluso el estándar bancario de SEPA presenta variaciones locales. [!INCLUDE[prod_short](includes/prod_short.md)] admite importar archivos de extractos bancarios CAMT SEPA originales. Se representa mediante el código de registro de definición de intercambio de datos de **CAMT de SEPA** en la página **Definiciones intercambio de datos**. Para obtener información acerca de la asignación de campos específicos de esta ayuda de CAMT de SEPA, consulte [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > A veces, los valores en los campos que desea asignar son diferentes. Por ejemplo, en una aplicación comercial, el código de idioma para Estados Unidos es "U.S.", pero en la otra es "US". Eso significa que debe transformar el valor cuando intercambia datos. Esto sucede por de las reglas de transformación que define para los campos. Obtenga más información en [Reglas de transformación](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

@@ -10,13 +10,13 @@ ms.date: 04/26/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# <a name="introduction-to-includeprodshortincludesprodshortmd-and-power-bi" />Introducción a [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
+# <a name="introduction-to--and-power-bi" />Introducción a [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
 
 Es fácil obtener información sobre los datos de [!INCLUDE[prod_short](includes/prod_short.md)] con [Power BI](https://powerbi.microsoft.com), un sistema de visualización de datos de Microsoft. Power BI recupera datos de [!INCLUDE[prod_short](includes/prod_short.md)] para que pueda crear paneles e informes basados en esos datos. Power BI proporciona una alternativa flexible a los informes integrados en [!INCLUDE[prod_short](includes/prod_short.md)], lo que le permite desglosar y personalizar la visualización, e incluso fusionar datos de diferentes empresas en [!INCLUDE[prod_short](includes/prod_short.md)]. Algunos informes de Power BI también pueden integrarse en Business Central y visualizarse sin salir del sistema. Los paneles de control más complejos se experimentan mejor desde el sitio web de Power BI.
 
 ![Power BI y Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-includeprodshortincludesprodshortmd" />¿Qué puede hacer con Power BI y [!INCLUDE[prod_short](includes/prod_short.md)]?
+## <a name="what-you-can-do-with-power-bi-and-" />¿Qué puede hacer con Power BI y [!INCLUDE[prod_short](includes/prod_short.md)]?
 
 Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI. Algunas cosas se pueden hacer desde Power BI, mientras que otras cosas se hacen desde [!INCLUDE[prod_short](includes/prod_short.md)]. Además, algunas funciones solo están disponibles con [!INCLUDE[prod_short](includes/prod_short.md)] online, no local. La siguiente tabla le ofrece una descripción general.
 
@@ -71,7 +71,7 @@ Para obtener más información sobre métricas de Power BI, vea [Introducción a
 - Si Power BI ya está configurado y desea probar las funciones, vaya a [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

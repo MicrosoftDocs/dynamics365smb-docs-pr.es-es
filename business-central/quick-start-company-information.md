@@ -27,7 +27,7 @@ Puede introducir todos los datos relevantes en la página **Información empresa
 
 Una vez que haya terminado de rellenar la información, puede cerrar la página.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

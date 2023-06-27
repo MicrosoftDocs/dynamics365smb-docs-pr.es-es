@@ -49,7 +49,7 @@ Un nuevo campo, **Bloquear eliminación de cuentas de contabilidad**, se ha agre
 
 Establecer el campo **Bloquear eliminación de cuentas de contabilidad** en *Sí* puede considerarse una buena práctica, lo mismo que establecer la fecha del campo **Comprobar eliminación de cuenta después de** en, por ejemplo, la fecha en la que debe almacenar sus datos financieros.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 
@@ -65,6 +65,6 @@ Establecer el campo **Bloquear eliminación de cuentas de contabilidad** en *Sí
 [Configuración y asiento de la regularización en la versión en español](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Efectuar el test y la validación del plan de cuentas en la versión en español](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

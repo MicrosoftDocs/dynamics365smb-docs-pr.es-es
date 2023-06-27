@@ -38,7 +38,7 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
  Los cambios en los diseños de informe se prueban pero no se aplican a los diseños de informe reales. Una página **Registro de actualización de diseño de informe** aparece, la cual proporciona el estado de actualizaciones potenciales para cada diseño de informe. Si hay errores en un diseño de informe, puede acceder al diseño de informe directamente para modificar el mensaje para solucionar errores. Para obtener más información, vea [Corrección de errores](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="a-nameupdatelimitationsa-limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Limitaciones de la actualización de diseños de informe personalizados
+## <a name="limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Limitaciones de la actualización de diseños de informe personalizados
  Existen varios tipos de cambios que la actualización automática puede aplicar a los diseños de informe personalizados, por ejemplo, un campo que se utiliza en el diseño se ha eliminado del conjunto de datos del informe. Sin embargo, la actualización automática no puede administrar los siguientes cambios en un conjunto de datos de informe.  
 
 1.  Campos, etiquetas o elementos de datos borrados.  
@@ -49,7 +49,7 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
  Si el proceso de actualización detecta cualquiera de estos problemas, la actualización no puede aplicarse. Tendrá que solucionar los problemas manualmente, por ejemplo modificando el diseño de informe en Word o programáticamente con codeunits de actualización.  
 
-## <a name="a-namefixerrorsa-fixing-errors" /><a name="FixErrors"></a> Corrección de errores
+## <a name="fixing-errors" /><a name="FixErrors"></a> Corrección de errores
  Si sigue recibiendo un mensaje de error al actualizar o probar actualizaciones de diseño de informe, es muy probable que tenga que modificar el diseño del informe para corregir el problema. Consulte el mensaje de error para determinar la causa del problema.  
 
  El problema más habitual se produce cuando un campo que se utiliza en el diseño se elimina del conjunto de datos del informe. En este caso, verá una línea en el mensaje de error que indica que se ha eliminado un producto. Para corregir este problema, tendrá que modificar el diseño y eliminar el campo en cuestión.  
@@ -58,7 +58,7 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
 Después de modificar el diseño, pruebe a actualizar el diseño de nuevo.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
  [Gestión de diseños de informe](ui-manage-report-layouts.md)  

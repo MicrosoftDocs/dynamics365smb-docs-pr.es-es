@@ -15,7 +15,7 @@ ms.author: edupont
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

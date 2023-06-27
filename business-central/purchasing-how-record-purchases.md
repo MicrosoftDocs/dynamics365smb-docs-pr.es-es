@@ -193,9 +193,9 @@ En la mayoría de los casos, puede abrir movimientos desde la tarjeta o document
 
 Puede editar determinados campos en documentos de compra registrados, como el campo **Referencia pago**. Obtenga más información en [Editar documentos registrados](across-edit-posted-document.md). Para campos más críticos que afectan el registro de auditoría, debe revertir o deshacer la publicación. Obtenga más información en [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) relacionada.
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/index) relacionada.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training-1" />Consultar la [formación de Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 

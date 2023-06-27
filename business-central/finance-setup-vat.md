@@ -302,7 +302,7 @@ Debe configurar la información sobre cómo las autoridades fiscales de su país
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

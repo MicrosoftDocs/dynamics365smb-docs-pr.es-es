@@ -92,7 +92,7 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
 
 Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/send-reminders-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

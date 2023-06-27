@@ -151,7 +151,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  ![Segundo ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Números de movimiento 8 y 9
+### <a name="entry-numbers-8-and-9-1" />Números de movimiento 8 y 9
  Los movimientos de seguimiento de pedidos para los dos lotes del componente que refleja la demanda de la tabla 5407 cambian el estado de reserva de **Seguimiento** a **Excedente**. El motivo es que los suministros a los que estaban vinculados antes, en la tabla 32, se han usado mediante el envío del pedido de transferencia.  
 
  Los excedentes verdaderos, como en este caso, reflejan un exceso de aprovisionamiento que permanece sin seguimiento. Es una indicación de desequilibrio en la red de pedidos que generará un mensaje de acción por parte del sistema de planificación, a menos que se resuelva dinámicamente.  

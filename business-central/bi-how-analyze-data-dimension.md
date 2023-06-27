@@ -73,7 +73,7 @@ Use el siguiente procedimiento para actualizar una vista de análisis desde la p
 > [!NOTE]  
 > Para actualizar varias vistas de análisis al mismo tiempo, debe utilizar el proceso **Actualizar vistas de análisis**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn" />Consulte la formación relacionada en [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Consulte también .
 

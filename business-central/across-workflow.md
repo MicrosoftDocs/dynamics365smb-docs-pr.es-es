@@ -57,7 +57,7 @@ Los ejemplos de eventos de flujos de trabajo de aprobación incluyen la creació
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

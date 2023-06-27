@@ -96,7 +96,7 @@ En función de este ejemplo, puede modificar el campo **Cantidad a ensamblar** d
 * La cantidad mínima que puede introducir es 1. Debe ensamblar al menos una unidad para poder vender las cuatro unidades, si se asume que las tres restantes están disponibles en el inventario.  
 * La cantidad máxima que puede introducir es 4. Este límite asegura que usted no ensamble más artículos de los que necesita para la venta.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

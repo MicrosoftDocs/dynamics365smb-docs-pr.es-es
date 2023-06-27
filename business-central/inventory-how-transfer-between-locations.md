@@ -125,7 +125,7 @@ Si la cantidad se ha enviado en un envío de almacén, se crea una línea de cor
 
 Para completar la corrección, vuelva a abrir la orden de transferencia, introduzca la cantidad correcta y luego contabilice el pedido. Si utiliza un envío de almacén para enviar el pedido, cree y contabilice un nuevo envío de almacén.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Consultar la [formación de Microsoft](/training/modules/transfer-items/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/transfer-items/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

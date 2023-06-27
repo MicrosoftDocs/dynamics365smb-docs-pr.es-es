@@ -19,7 +19,7 @@ Al habilitar un servicio de pago en [!INCLUDE[prod_short](includes/prod_short.md
 
 Las extensiones Paypal Payments Standard y WorldPay Payments Standard están instaladas en [!INCLUDE[prod_short](includes/prod_short.md)] y están preparadas para que las habilite.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Para activar un servicio de pago en [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-" />Para activar un servicio de pago en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Servicios de pago** y luego elija el enlace relacionado.  
 2. En la página **Servicios de pago**, seleccione la acción **Nuevo**.  
@@ -37,7 +37,7 @@ Las extensiones Paypal Payments Standard y WorldPay Payments Standard están ins
     > [!NOTE]  
     > El campo **Servicio de pago** solo está disponible si ha activado el servicio de pago.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

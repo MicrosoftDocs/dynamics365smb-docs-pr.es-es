@@ -119,10 +119,10 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de salida d
 
 En el siguiente tutorial se demuestra el método B de la tabla anterior.
 
-### <a name="scenario" />Escenario
+### <a name="scenario-1" />Escenario
 Susan, la procesadora de pedidos, crea un pedido de venta de diversos granos tostados y lo pasa al almacén. Juan, el trabajador de almacén debe comprobar que el envío se prepara y envía al cliente. John controla todas las tareas relacionadas con la página **Selección de inventario**, que señala automáticamente las ubicaciones donde se almacenan los granos tostados.
 
-### <a name="steps" />Pasos
+### <a name="steps-1" />Pasos
 Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la configuración del almacenamiento básico](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Configure la página **Tarjeta de almacén** para definir los flujos entrantes de almacén de la empresa.  
@@ -159,7 +159,7 @@ Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la 
 
 5. Seleccione la acción **Registrar**, seleccione **Enviar** y, a continuación, el botón **Aceptar**.  
 
-### <a name="results" />Resultados
+### <a name="results-1" />Resultados
  - los granos tostados ahora se registran como seleccionados en ubicaciones especificadas
  - se crea **Selección de inventario contabilizado**
  - se crea el **Histórico de albaranes de venta**

@@ -174,7 +174,7 @@ En los pasos siguientes se ofrece un ejemplo de las acciones correspondientes pa
 
 :::image type="content" source="media/binflow.png" alt-text="Descripción general de cuándo y cómo se rellena el campo Código de ubicación.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

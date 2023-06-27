@@ -16,7 +16,7 @@ Utilice un servicio externo para incluir los últimos tipos de cambio de divisa 
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="a-namecurracurrencies" /><a name="curr"></a>Divisas
+## <a name="currencies" /><a name="curr"></a>Divisas
 
 En la tabla siguiente se describen los campos de la lista **Divisas**.
 
@@ -111,7 +111,7 @@ Puede especificar un código de divisa en una línea de un diario general y regi
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

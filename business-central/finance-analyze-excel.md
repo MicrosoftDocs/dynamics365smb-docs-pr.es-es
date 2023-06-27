@@ -44,13 +44,13 @@ Los informes de Excel predefinidos se basan en los datos de la empresa actual. P
 
 Otras hojas del libro de Excel muestran los datos que hay detrás del informe. Para averiguar qué hay detrás de las agrupaciones en los informes de Excel, es posible que deba filtrar las listas en [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />Complemento [!INCLUDE [prod_short](includes/prod_short.md)] de Excel
+## <a name="the--excel-add-in" />Complemento [!INCLUDE [prod_short](includes/prod_short.md)] de Excel
 
 Su experiencia con [!INCLUDE [prod_short](includes/prod_short.md)] incluye un complemento de Excel. Dependiendo de su suscripción, se iniciará sesión automáticamente o debe proprocioanr sus detalles de inicio de sesión para [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Ver y editar en Excel desde Business Central](across-work-with-excel.md).  
 
 El complemento le permite conseguir nuevos datos de [!INCLUDE [prod_short](includes/prod_short.md)] y puede insertar cambios en [!INCLUDE [prod_short](includes/prod_short.md)]. Sin embargo, la capacidad de insertar datos en la base de datos no está disponible para los informes financieros que peude ver en Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

@@ -79,7 +79,7 @@ Las cuentas bancarias en [!INCLUDE[prod_short](includes/prod_short.md)] registra
    El campo es diferente del campo **N.º cuenta bancaria** también disponible en la ficha desplegable **General**.
 4. Rellene los campos de la página **Ficha de cuenta bancaria** según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Consulte también .
 

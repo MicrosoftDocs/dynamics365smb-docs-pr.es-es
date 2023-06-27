@@ -115,7 +115,7 @@ Puede copiar los movimientos de un libro de amortización a otro usando el proce
 
 Las líneas copiadas se crean en el diario general de activos o en el de activos fijos, según si el libro de amortización que va a copiar tiene integración con el libro mayor.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Consultar la [formación de Microsoft](/training/modules/calculate-post-depreciations/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/calculate-post-depreciations/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

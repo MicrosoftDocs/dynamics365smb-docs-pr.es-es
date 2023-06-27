@@ -41,7 +41,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 [Ccial](sales-manage-sales.md)  
@@ -49,7 +49,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

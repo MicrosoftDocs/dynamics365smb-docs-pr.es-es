@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Experiencias contables en [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Experiencias contables en [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Los negocios deben crear sus libros y firmas de contabilidad. Algunas empresas emplean un contable externo, y otras lo tienen en plantilla. Independientemente del tipo de contable que sea, puede utilizar el Área de trabajo **Contable** como su página de inicio en [!INCLUDE[prod_short](includes/prod_short.md)]. Desde aquí, puede acceder a todas las páginas que necesita en su trabajo.  
 
@@ -25,7 +25,7 @@ Si es nuevo en [!INCLUDE[prod_short](includes/prod_short.md)], puede iniciar una
 
 Si trabaja en varias empresas [!INCLUDE [prod_short](includes/prod_short.md)], puede resultarle útil utilizar la página **Hub de empresas** para realizar un seguimiento del trabajo.  Para más información, consulte [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Invitación del contable externo a [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Invitación del contable externo a [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Si utiliza un contable externo para administrar los libros y los informes financieros, su administrador puede invitarle a su [!INCLUDE[prod_short](includes/prod_short.md)] para que pueda trabajar con usted en los datos fiscales. [!INCLUDE[prod_short](includes/prod_short.md)] incluye tres licencias de tipo Contable externo. Para obtener información detallada acerca de las licencias, consulte la [Guía de licencias de Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Si su administrador o distribuidor no desea utilizar la guía **Invitar a un con
 
 A continuación, debe asignar al nuevo usuario invitado una licencia para [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />Para darle acceso a su contable a su [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />Para darle acceso a su contable a su [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. En Azure Portal, en el usuario recién agregado, elija **Perfil** y luego elija **Editar**
 2. Actualizar el campo **Lugar de uso** al país relevante y luego elija **Guardar**.
@@ -78,7 +78,7 @@ A continuación, debe asignar al nuevo usuario invitado una licencia para [!INCL
 
 Si tiene éxito, la licencia se asigna al usuario invitado y se crea la cuenta de invitado.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Importar al nuevo usuario a [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Importar al nuevo usuario a [!INCLUDE[prod_short](includes/prod_short.md)]
 
 El contador recibirá un correo electrónico que le notifica que se le ha dado acceso a su Active Directory. A continuación, debe darles acceso a la compañía correcta en [!INCLUDE[prod_short](includes/prod_short.md)].
 

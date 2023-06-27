@@ -51,7 +51,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Aprenda a trabajar con listas de materiales de ensamblaje y sus diferencias con las listas de materiales de producción.|[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)|
 |Aprenda a registrar el consumo y la salida del ensamblaje, y cómo [!INCLUDE [prod_short](includes/prod_short.md)] distribuye los costos de artículos y recursos en el libro mayor.|[Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
@@ -63,6 +63,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

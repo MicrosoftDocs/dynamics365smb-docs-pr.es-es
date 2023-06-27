@@ -35,7 +35,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Pague a un proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Asegúrese de que su banco solo compensa cheques e importes validados enviándoles un archivo que contenga la información de proveedor, cheque y pago. |[Exportar un archivo de Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

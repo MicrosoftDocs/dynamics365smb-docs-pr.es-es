@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" />Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-" />Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 
 En este artículo, aprenderá algunos de los conceptos básicos sobre la visualización de informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -35,7 +35,7 @@ Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] local, debe estar
 
 Antes de que pueda usar Power BI con [!INCLUDE[prod_short](includes/prod_short.md)], deberá registrarse en el servicio de Power BI. Si aún no se ha registrado, vaya a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Cuando se registre, use su dirección de correo electrónico y contraseña del trabajo.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect"></a>Conectar a Power BI, solo una vez
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect"></a>Conectar a Power BI, solo una vez
 
 Cuando inicia sesión por primera vez en [!INCLUDE [prod_short](includes/prod_short.md)], lo más probable es que vea una parte de Power BI vacía (como se muestra en la figura anterior) en varias páginas. Lo primero que debe hacer es conectarse a su cuenta de Power BI. Una vez conectado, puede ver los informes. Solo tiene que hacer este paso una vez.
 
@@ -53,7 +53,7 @@ Comienza el proceso de conexión. Durante el proceso, [!INCLUDE [prod_short](inc
 > [!TIP]
 > Con [!INCLUDE [prod_short](includes/prod_short.md)] Online, este paso cargará automáticamente por defecto los infomes de Power BI utilizados en [!INCLUDE [prod_short](includes/prod_short.md)] para su espacio de trabajo de Power BI.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" />Desde [!INCLUDE [prod_short](includes/prod_short.md)] local
+#### <a name="from--on-premises" />Desde [!INCLUDE [prod_short](includes/prod_short.md)] local
 
 Conectarse a Power BI desde [!INCLUDE [prod_short](includes/prod_short.md)] es similar a Online. Sin embargo, se le pedirá en la página **PERMISOS DE SERVICIOS DE AZURE ACTIVE DIRECTORY** que otorgue acceso a servicios de Power BI. Para otorgar acceso, seleccione **Autorizar servicios de Azure** y entonces **Aceptar**.
 
@@ -99,7 +99,7 @@ Al regresar al área de trabajo, aparecerá el informe actualizado. Si usó **Gu
 > [!NOTE]
 > Esta capacidad no está disponible con [!INCLUDE [prod_short](includes/prod_short.md)] local.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload"></a>Cargar informes
+### <a name="upload-reports" /><a name="upload"></a>Cargar informes
 
 Los informes de Power BI se pueden distribuir entre los usuarios como archivos .pbix. Si tiene archivos .pbix, puede cargarlos y compartirlos con todos los usuarios de [!INCLUDE [prod_short](includes/prod_short.md)]. Los informes se comparten dentro de cada empresa en [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -126,7 +126,7 @@ Este mensaje aparece si el informe predeterminado no se pudo implementar en su e
 
 Probablemente se deba a que el nombre del informe no contiene el nombre de la página de la lista. Borre el filtro para obtener una lista completa de los informes de Power BI disponibles.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

@@ -47,7 +47,7 @@ Compartir informes con colaboradores también es posible en la página **Bandeja
 >
 > Usar la acción **Compartir** hace que el archivo de informe generado esté disponible para otros usuarios solo en OneDrive para la Empresa y no incluye el informe programado en su **Bandeja de entrada de informes**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/build-reports/)
+## <a name="see-related-training-at-microsoft-learn" />Consulte la formación relacionada en [Microsoft Learn](/learn/paths/build-reports/)
 
 ## <a name="see-also" />Consulte también .
 

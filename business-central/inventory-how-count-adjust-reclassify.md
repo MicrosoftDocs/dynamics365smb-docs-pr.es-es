@@ -202,7 +202,7 @@ Contabilice los registros de las ubicaciones de ajuste en el libro mayor de prod
 5. Elija **Aceptar**. Los ajustes positivos y negativos se suman para cada producto y se crean líneas en el diario de productos.  
 6. Registre las líneas del diario para especificar las diferencias de cantidades en el diario de productos. Los inventarios de las ubicaciones y el libro mayor de productos ahora coinciden.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Consultar la [formación de Microsoft](/training/modules/adjust-inventory/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/adjust-inventory/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

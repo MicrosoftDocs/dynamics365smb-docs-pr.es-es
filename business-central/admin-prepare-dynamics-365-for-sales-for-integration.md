@@ -25,7 +25,7 @@ Si ya ha integrado [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_sho
 > [!NOTE]
 > La reconexión a través de [!INCLUDE[prod_short](includes/cds_long_md.md)] aplicará la configuración de sincronización predeterminada y sobrescribirá cualquier configuración que tenga. Por ejemplo, se aplicarán las asignaciones de tabla predeterminadas.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Configuración de integración específica de una integración de [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="integration-settings-that-are-specific-to-a--integration" />Configuración de integración específica de una integración de [!INCLUDE[crm_md](includes/crm_md.md)]
 La integración con [!INCLUDE[prod_short](includes/prod_short.md)] sucede a través de [!INCLUDE[prod_short](includes/cds_long_md.md)] y hay muchas configuraciones y tablas estándar. Además de la configuración estándar, hay algunas que son específicas de [!INCLUDE[crm_md](includes/crm_md.md)]. Esa configuración se enumera en las siguientes secciones.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Permisos y roles de seguridad para cuentas de usuario en Sales

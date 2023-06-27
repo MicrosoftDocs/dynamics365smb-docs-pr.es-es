@@ -31,7 +31,7 @@ Para obtener más información, consulte sobre la extensión que se adapta a la 
 
 Si está listo para comenzar ahora, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado. Seleccione **Migrar los datos empresariales**y, a continuación, siga los pasos en la guía.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

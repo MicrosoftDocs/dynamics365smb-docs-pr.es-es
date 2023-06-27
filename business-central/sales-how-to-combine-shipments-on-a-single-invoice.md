@@ -59,7 +59,7 @@ También puede eliminar los pedidos de venta individuales manualmente.
 
 Repita las tareas 1 a 3 para cualquier otro documento asignado, como pedidos abiertos de ventas.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

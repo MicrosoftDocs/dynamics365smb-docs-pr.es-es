@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Al realizar tareas empresariales, el usuario interactúa con los datos de diferentes maneras; por ejemplo, crear registros e introducir datos, ordenar y filtrar datos, escribir notas y exportando datos a otras aplicaciones.
 
@@ -18,7 +18,7 @@ Por ejemplo, puede ajustar el tamaño y la posición de cualquier página. Para 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Sugerencias y trucos
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Sugerencias y trucos
 
 > [!TIP]
 > Para obtener un resumen en versión para imprimir de las funciones más usadas, elija la siguiente imagen y descargue el archivo PDF.
@@ -80,7 +80,7 @@ Cuando busca una página de lista abierta, como la lista **Órdenes de venta**, 
 
 Pero cuando abre la misma página de lista desde su página de inicio, la acción **Administrar** no está presente. En su lugar, para abrir un pedido de cliente individual, simplemente elija el campo **Número**. En esta vista, no puede anclar la barra de acción.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 
@@ -89,7 +89,7 @@ Pero cuando abre la misma página de lista desde su página de inicio, la acció
 [Funciones empresariales generales](ui-across-business-areas.md)  
 [Consejos de rendimiento para usuarios comerciales](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -83,7 +83,7 @@ Un empleado del almacén puede crear un nuevo almacenamiento de inventario basad
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

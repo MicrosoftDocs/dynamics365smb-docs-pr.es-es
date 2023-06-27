@@ -58,7 +58,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 6. Elija el elemento y, a continuación, seleccione **Mover**, **Eliminar**, **Ocultar**, **Mostrar**, **Mostrar en "Mostrar más"**, **Mostrar cuando se contrae**, **Mostrar siempre**, **Establecer/Borrar inmovilización de panel** o **Incluir/Excluir de entrada rápida**, según el tipo y el estado del elemento de la interfaz de usuario. Para obtener más información, consulte [Qué puede personalizar](#What).
 7. Cuando haya terminado de cambiar el diseño de una o más páginas, elija el botón **Listo** en el banner **Personalización**.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Qué puede personalizar
+## <a name="what-you-can-personalize" /><a name="What"></a>Qué puede personalizar
 
 |Qué desea hacer|Cómo hacerlo|Comentarios|
 |----|------------|-------|
@@ -74,7 +74,7 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 |Agregue una nueva acción a una página o informe en su Área de trabajo.|Desde la página de destino, la página de solicitud de informe o la ventana Avisarme, elija el icono de marcador.|Consulte [Marcar una página o informe en su Área de trabajo](ui-bookmarks.md)|
 |Siempre empiece una lista como expandida o contraída|Elija el botón **Expandir todo** o **Contraer todo** en la esquina superior izquierda de la lista. Alternativamente, elija la acción **Expandir todo** o **Contraer todo** en el menú de la primera columna. |Se aplica a las listas jerárquicas contraíbles.|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalización de la barra de acciones y los menús
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Personalización de la barra de acciones y los menús
 
 La personalización le permite decidir qué acciones se mostrarán en las barras de navegación y acciones y en las áreas de trabajo y dónde se mostrarán. Puede mostrar, ocultar o mover acciones individuales o grupos de acciones.
 
@@ -116,7 +116,7 @@ El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante
 1. Para mover una acción o grupo de acciones, arrástrelo y suéltelo en la posición deseada, igual que hace con los campos y columnas.
 2. Para mover una acción o un grupo de acciones a otro grupo de acciones que está vacío, arrastre la acción o el grupo de acciones al nuevo grupo y colóquelo en el cuadro **Colocar aquí una acción** .
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Personalizar partes
+## <a name="personalizing-parts" /><a name="Parts"></a>Personalizar partes
 
 Las partes son áreas de una página que normalmente se componen de varios campos, gráficos u otro contenido. Una parte muestra un borde de color cuando se enfoca en la parte. Por ejemplo, una pantalla de inicio del Área de trabajo tiene varias partes. Debido a su límite bien definido, puede personalizar toda la parte, así como su contenido.
 
@@ -158,7 +158,7 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
    > [!TIP]
    > Como administrador, puede ocultar el elemento **Automatización** de los usuarios. Obtenga más información en [Configurar la integración de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  

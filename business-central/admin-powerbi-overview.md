@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-includeprodshortincludesprodshortmd" />Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-" />Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]
 
 En este artículo, aprenderá sobre los diferentes aspectos de la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] para ayudarle a comprender su implementación y uso.
 
@@ -59,7 +59,7 @@ El siguiente diagrama ilustra el flujo de trabajo básico para los usuarios al c
 6. El usuario crea un informe en Power BI Desktop.
 7. El usuario publica el informe en el servicio Power BI. Los informes están disponibles para su selección en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

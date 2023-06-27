@@ -80,7 +80,7 @@ El paquete de configuración predeterminado admite las tablas siguientes:
 [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md)  
 [Importar varias imágenes de producto](inventory-how-import-item-pictures.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -44,7 +44,7 @@ Cambie a la versión de prueba de 30 días y luego agregue sus propios datos. Pa
 
 No puede. Si elimina accidentalmente datos de muestra, solicite a su administrador que cree un nuevo entorno de espacio aislado. Para obtener más información, consulte [Producción y entornos de espacios aislados](/dynamics365/business-central/dev-itpro/administration/environment-types) en el contenido para administradores (solo en inglés).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

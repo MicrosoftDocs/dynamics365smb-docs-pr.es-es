@@ -122,7 +122,7 @@ Puede utilizar un servicio externo para mantener actualizados los tipos de cambi
 
 El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el último tipo de cambio de divisa.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 

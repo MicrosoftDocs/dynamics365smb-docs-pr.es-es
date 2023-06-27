@@ -114,7 +114,7 @@ Si no seleccionó la casilla **A/F Amort. hasta fecha reg.**, el activo perderí
 
 *Total de amortización = 100 +15 + 55,54 = 170,54*
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-advanced-fixed-assets-transactions" />Consultar la [formación de Microsoft](/training/paths/manage-advanced-fixed-assets-transactions/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/manage-advanced-fixed-assets-transactions/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

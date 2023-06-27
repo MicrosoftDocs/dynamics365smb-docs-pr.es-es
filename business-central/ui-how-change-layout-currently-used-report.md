@@ -56,7 +56,7 @@ El nombre del diseño personalizado seleccionado ahora se muestra en el campo **
 
 Ahora puede ir a sus fichas de cliente y proveedor para especificar cuál de los diseños se usará para diferentes documentos que cree para el cliente o proveedor en cuestión, como confirmaciones de pedido o recordatorios de pagos. Para obtener más información, vea [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  

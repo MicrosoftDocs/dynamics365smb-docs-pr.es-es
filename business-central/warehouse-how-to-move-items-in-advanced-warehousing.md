@@ -138,7 +138,7 @@ Si debe registrar que los productos ya se han movido a otras ubicaciones sin alm
 2. Rellene los campos **Nº producto**, **Desde cód. zona**, **Desde cód. ubicación**, **Hasta cód. zona**, **Hasta cód. ubicación**.  
 3. Elija la acción **Registrar**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
 ## <a name="see-also" />Consulte también
 

@@ -62,7 +62,7 @@ Además, cada término de la tabla Términos interés está vinculado a la subta
 |%8|Contenido del campo **Código divisa** en la cabecera del documento de interés|  
 |%9|Contenido del campo **Fecha registro** en la cabecera del documento de interés|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/send-memos-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/send-memos-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

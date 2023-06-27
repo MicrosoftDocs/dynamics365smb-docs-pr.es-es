@@ -115,7 +115,7 @@ Cuando su empresa utiliza los procesos de planificación de suministro en [!INCL
 
 Para ver ejemplos de cómo puede utilizar los campos en la ficha desplegable **Planificación**, consulte [Prácticas recomendadas de configuración: parámetros de planificación](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Consultar la [formación de Microsoft](/training/modules/create-items/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-items/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

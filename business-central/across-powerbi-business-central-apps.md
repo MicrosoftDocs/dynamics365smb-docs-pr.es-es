@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the-include-prodshortincludesprodshortmd-apps-in-power-bi" />Usar aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
+# <a name="use-the--apps-in-power-bi" />Usar aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
 
 > **SE APLICA A:**[!INCLUDE [prod_long](includes/prod_long.md)] Online 
 
@@ -51,7 +51,7 @@ Las aplicaciones de Power BI requieren permisos para las tablas de donde se recu
 
 Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Cuando se registre, use su dirección de correo electrónico y contraseña del trabajo.
 
-## <a name="install-a-includeprodshortincludesprodshortmd-app-in-power-bi" />Instale una aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
+## <a name="install-a--app-in-power-bi" />Instale una aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
 1. Abra su explorador, navegue hasta [https://powerbi.microsoft.com](https://powerbi.microsoft.com) e inicie sesión en su cuenta.
 2. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.  
@@ -69,7 +69,7 @@ Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [h
 
     Cuando se complete, la aplicación estará disponible en **Aplicaciones** en el menú de navegación en Power BI.
 
-## <a name="connect-the-includeprodshortincludesprodshortmd-app-to-your-data" />Conecte la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] a sus datos
+## <a name="connect-the--app-to-your-data" />Conecte la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] a sus datos
 
 1. Bajo **Aplicaciones**, seleccione la aplicación Business Central, luego **Conectar**.
 2. Cuando se le solicite, rellene **Nombre de empresa** y **Entorno** con información sobre la instancia de [!INCLUDE[prod_short](includes/prod_short.md)] a la que desee conectarse.
@@ -96,7 +96,7 @@ No se ha configurado una cuenta de Power BI. Debe tener una licencia para obtene
 
 Este mensaje aparece si el informe predeterminado no se pudo implementar en su espacio de trabajo de Power BI. O el informe se implementó pero no se actualizó correctamente. Si sucede este problema, navegue hasta el informe en su espacio de trabajo de Power BI, seleccione **Conjunto de datos**, **Configuración** y luego actualice manualmente las credenciales. Una vez que el conjunto de datos se actualice correctamente, vuelva a [!INCLUDE[prod_short](includes/prod_short.md)] y seleccione manualmente el informe desde la página **Seleccionar informes**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-includeprodshortincludesprodshortmd-app-in-power-bi" />Necesita una licencia Power BI Pro para instalar la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />Necesita una licencia Power BI Pro para instalar la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
 Necesita una [Licencia Pro de Power BI](/power-bi/service-features-license-type) para compartir su contenido y las personas con las que lo comparte también lo hacen. El contenido debe estar en un espacio de trabajo con [capacidad Premium](/power-bi/service-premium-what-is). Para más información, vea [Formas de compartir el trabajo en Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -144,7 +144,7 @@ La aplicación de Power BI solo mostrará los datos de la empresa de [!INCLUDE[p
 - [Seleccione un mosaico](/power-bi/service-dashboard-tiles) para abrir el informe subyacente.  
 - De forma predeterminada, su conjunto de datos no está programado para actualizarse. Puede cambiar la programación de actualización o intentar actualizarlo a petición utilizando **Actualizar ahora**. Para obtener más información, vea [Configuración de actualización programada](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 

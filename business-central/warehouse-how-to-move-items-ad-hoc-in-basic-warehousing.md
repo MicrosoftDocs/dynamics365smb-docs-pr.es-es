@@ -89,7 +89,7 @@ En lugar de utilizar documentos de movimiento, puede registrar los movimientos r
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

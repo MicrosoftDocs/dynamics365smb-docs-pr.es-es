@@ -34,7 +34,7 @@ Para crear varias unidades de almacenamiento para un producto, utilice el proces
 > Si UA se suministra a través de producción, el campo **Coste estándar** no se usa al facturar y ajustar el coste real del producto fabricado. En su lugar, [!INCLUDE [prod_short](includes/prod_short.md)] utiliza el valor del campo **Coste estándar** de la ficha subyacente de producto, y cualquier desviación se calcula con el reparto de costes de dicho producto.<br><br>
 > Si bien puede asingar L.M. de producción y rutas a UA, la distribución del coste unitario y el cálculo relacionado de la parte de costes no están disponibles en UA. Para obtener más información sobre costes estándar, vaya a [Acerca del cálculo del coste estándar](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-trainingtrainingmodulescontrol-inventory-multiple-locations" />Consultar la [formación de Microsoft](/training/modules/control-inventory-multiple-locations/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/control-inventory-multiple-locations/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -17,7 +17,7 @@ En la página **Mi configuración**, puede ver y cambiar la configuración bási
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namerole-centerarole" /><a name="role-center"></a>Función
+## <a name="role" /><a name="role-center"></a>Función
 
 La función determina la página de inicio, una pantalla de inicio que está designada para las necesidades específicas del trabajo en una empresa. Dependiendo de su función, la página de inicio o el área de trabajo le brinda una descripción general del negocio, su departamento o sus tareas personales. También le ayuda a navegar por sus tareas diarias y encontrar el trabajo que le asignaron.
 
@@ -33,7 +33,7 @@ El rol pedido es **Administrador de negocio**, pero puede seleccionar otro rol p
 2. En la página **Mi configuración**, en el campo **Rol**, seleccione el rol que desea usar de forma predeterminada. Por ejemplo, seleccione **Contable**.
 3. Elija **Aceptar**.
 
-## <a name="a-namecompanyacompany" /><a name="company"></a>Compañía
+## <a name="company" /><a name="company"></a>Compañía
 
 Una empresa funciona como un contenedor de datos en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez. La empresa predeterminada se llama CRONUS y solo contiene datos de demostración.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="a-namebadgeato-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="a-namework-dateawork-date" /><a name="work-date"></a>Fecha de trabajo
+## <a name="work-date" /><a name="work-date"></a>Fecha de trabajo
 
 La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea hoy.
 
@@ -83,11 +83,11 @@ La fecha de trabajo es fundamental en las páginas que se pueden editar. Siempre
 
 Si la fecha de trabajo no está establecida en el día actual (hoy), la fecha de trabajo actual aparece en la esquina superior izquierda de todas las páginas donde puede editar datos.
 
-## <a name="a-nameregiona-region" /><a name="region"></a> Región
+## <a name="region" /><a name="region"></a> Región
 
 El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas. También determina qué carácter se usa como separador decimal cuando se usa un teclado numérico para introducir datos. Obtenga más información en [Introducción de datos](ui-enter-data.md#decimal).
 
-## <a name="a-namelanguagea-language" /><a name="language"></a> Idioma
+## <a name="language" /><a name="language"></a> Idioma
 
 Cambia el idioma de la pantalla. Este campo aparece sólo cuando hay más de un idioma a elegir.
 
@@ -107,7 +107,7 @@ Seleccione el vínculo *Cambiar cuándo recibo notificaciones* para ver o cambia
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 

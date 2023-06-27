@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Estado de avisos de privacidad en [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Estado de avisos de privacidad en [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Este artículo analiza qué es un aviso de privacidad y explica el propósito de la página **Estado de los avisos de privacidad** en [!INCLUDE[prod_short](includes/prod_short.md)]. También aprenderá cómo los administradores pueden usar esta página.
 

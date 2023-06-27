@@ -136,7 +136,7 @@ El tema incluye los siguientes procedimientos:
     |---------------------------------|---------------------------------------|  
     |**Cuenta para líneas que no son artículos físicos**|Especifica la cuenta que se inserta automáticamente en las líneas de compra creadas a partir de los documentos electrónicos cuando la línea de documento entrante no contiene un producto identificable. Cualquier línea del documento entrante que no tenga un GTIN o el número de producto del proveedor se convierte en una línea de compra de tipo **Cuenta**, y el campo **Nº** de la línea de compra contendrá la cuenta seleccionada en el campo **Cuenta para líneas que no son artículos físicos**.<br /><br /> Si dejas el campo **Cuenta para líneas que no son artículos físicos** en blanco y el documento entrante contiene líneas sin artículos identificables, no se creará el documento de compra. Entonces, aparecerá un mensaje de error que te indicará que rellenes el campo **Cuenta para líneas que no son artículos físicos** antes de completar la tarea.|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también
 [Intercambio de datos electrónicamente](across-data-exchange.md)   

@@ -139,7 +139,7 @@ Como se puede ver en el último escenario, la única manera de conseguir un resu
 
 Por tanto, si suele planificar la demanda en diferentes almacenes, le recomendamos que use la capacidad Uds. de almacenan.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Consulte la formación relacionada en [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Consulte la formación relacionada en [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Consulte también .
 

@@ -52,7 +52,7 @@ Para registrar siempre los gastos relacionados con las tarifas de un banco espec
 | --- | --- | --- | --- | --- |
 | MyBank |EN BLANCO |60400|Cuenta |EN BLANCO |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

@@ -59,7 +59,7 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de previsión de ventas e inventario** y, a continuación, elija el vínculo relacionado.  
 7. Expanda la ficha desplegable **General** y rellene los campos de URL de API y clave de API.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-sales-inventory-forecast-extension" />Consultar la [formación de Microsoft](/training/modules/use-sales-inventory-forecast-extension/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/use-sales-inventory-forecast-extension/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

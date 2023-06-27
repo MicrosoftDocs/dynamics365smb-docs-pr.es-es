@@ -64,7 +64,7 @@ Antes de empezar a utilizar flujos de trabajo, debe configurar usuarios de flujo
 | Ver los casos del paso del flujo de trabajo con estado de **Completado**. | [Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md) |
 | Eliminar un flujo de trabajo de aprobación que está seguro de que no se utilizará más. | [Eliminar flujos de trabajo de aprobación](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

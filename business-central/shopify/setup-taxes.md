@@ -89,7 +89,7 @@ En su **Administrador de Shopify**, seleccione **Incluir o excluir impuestos seg
 > [!NOTE]
 > Esta configuración no afecta a los precios en los mercados nacionales, lo que controla la opción **Todos los precios incluyen impuestos**.
 
-### <a name="all-prices-include-tax-is-selected" />Todos los precios incluyen impuestos es seleccionado
+### <a name="all-prices-include-tax-is-selected-1" />Todos los precios incluyen impuestos es seleccionado
 
 |-|Ventas domesticas|País extranjero donde el impuesto está incluido en el precio|País extranjero donde el impuesto está excluido|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ En su **Administrador de Shopify**, seleccione **Incluir o excluir impuestos seg
 
 El precio para cada cliente cambia dependiendo de su ubicación.
 
-### <a name="all-prices-include-tax-is-not-selected" />Todos los precios incluyen impuestos no es seleccionado
+### <a name="all-prices-include-tax-is-not-selected-1" />Todos los precios incluyen impuestos no es seleccionado
 
 |-|Ventas domesticas|País extranjero donde el impuesto está incluido en el precio|País extranjero, donde el impuesto está excluido|
 |------------------------|--------|--------|--------|

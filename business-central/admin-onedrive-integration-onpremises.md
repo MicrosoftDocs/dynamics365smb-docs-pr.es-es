@@ -22,7 +22,7 @@ Hay dos tareas que deben realizarse para configurar la integración de OneDrive.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] local solo se puede conectar a OneDrive alojado por Microsoft en la nube. No se admite la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] local al repositorio Mis sitios de SharePoint Server.
 
-## <a name="a-nameregisterapparegister-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Registrar una aplicación en Azure AD para la integración de OneDrive
+## <a name="register-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Registrar una aplicación en Azure AD para la integración de OneDrive
 
 En esta tarea, agregará una aplicación registrada para Business Central en el inquilino de Azure AD de su plan Microsoft 365. Como otros servicios de Azure que funcionan con Business Central, OneDrive requiere una aplicación registrada en Azure Active Directory (Azure AD). La aplicación registrada proporciona servicios de autenticación y autorización entre Business Central y SharePoint, que utiliza OneDrive.
 
@@ -45,7 +45,7 @@ Al registrar la aplicación, tenga en cuenta los siguientes puntos:
 
 - Si está utilizando la versión 19 o 20 de Business Central, copie el **ID de la aplicación (cliente)** y el **secreto del cliente** utilizado por la aplicación registrada. Necesitará esta información en la siguiente tarea.
 
-## <a name="a-nameurlaget-your-onedrive-url" /><a name="url"></a>Conseguir la URL de OneDrive
+## <a name="get-your-onedrive-url" /><a name="url"></a>Conseguir la URL de OneDrive
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
@@ -74,7 +74,7 @@ Use este procedimiento si está usando Business Central 2022 versión 2 (versió
    - Si aún no ha configurado la aplicación de Azure AD registrada, la guía **Configurar Azure Active Directory** se abre.
 6. Una vez completado, el aviso de privacidad para la integración de OneDrive está acordada para todos los usuarios. Si desea cambiarlo para que los usuarios deban estar de acuerdo o en desacuerdo por sí mismos, entonces vaya a la página **Estado de los avisos de privacidad** y seleccione **Dejar que el usuario decida** para la integración de OneDrive. A continuación, se solicitará a los usuarios que acepten o no el aviso de privacidad la primera vez que utilicen las caracteristicas de OneDrive. Para obtener más información, consulte [Avisos de privacidad](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Configurar la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] en la versión 19 y 20
+## <a name="set-up-the-connection-in--version-19-and-20" />Configurar la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] en la versión 19 y 20
 
 Use este procedimiento si está usando el primer lanzamiento de versiones de 2022 de Business Central (versión 20) o el segundo lanzamiento de versiones de 2021 (versión 19).
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ Para cambiar a la nueva integración de OneDrive, ejecute la guía de configurac
 
 Antes de comenzar con el cambio o mientras lo hace, consulte la siguiente sección para conocer algunos aspectos y consideraciones sobre el proceso. 
 
-### <a name="a-nameonedrivesetupmigrationaabout-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Acerca de cambiar a la nueva integración de OneDrive
+### <a name="about-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Acerca de cambiar a la nueva integración de OneDrive
 
 Además de la integración de OneDrive, Business Central también puede integrarse con otros servicios, como Power BI e impresión universal. La integración con estos otros servicios también requiere una aplicación registrada de Azure AD para la autenticación. La aplicación Azure AD utilizada por estos otros servicios está configurada en la configuración asistida **Configurar las cuentas de Azure Active Directory**. Cuando cambia de la configuración de conexión de SharePoint heredada, la nueva configuración asistida **Configuración de OneDrive** cambiará su integración de OneDrive para usar también la configuración asistida de **Configurar las cuentas de Azure Active Directory**, por lo que todas las integraciones utilizan la misma aplicación Azure AD.
 

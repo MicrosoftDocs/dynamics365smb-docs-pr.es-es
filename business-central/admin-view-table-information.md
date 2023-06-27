@@ -17,7 +17,7 @@ La página **Información de la tabla 8700** proporciona información sobre el n
 
 Esta información es útil para solucionar problemas de rendimiento, porque le permite ver la distribución del tamaño de los datos en las tablas.
 
-## <a name="viewing-table-information" />Visualización de información de tabla
+## <a name="viewing-table-information-1" />Visualización de información de tabla
 
 Para abrir esta página, seleccione el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Información de tabla** y luego elija el enlace relacionado.
 

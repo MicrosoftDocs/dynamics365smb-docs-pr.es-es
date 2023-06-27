@@ -231,7 +231,7 @@ Cuando se realiza la selección por FEFO, el programa recopila los productos que
 
 Las plantillas de ubicación especifican un conjunto de reglas con prioridad que se aplican al crear ubicaciones. Por ejemplo, una plantilla de ubicación puede requerir que coloque artículos en una ubicación con contenido de ubicación que tenga la misma unidad de medida. Si no se puede encontrar un contenedor similar con suficiente capacidad, el artículo debe colocarse en un contenedor vacío. Se asigna una plantilla de ubicación a un producto y a una ubicación.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
@@ -239,6 +239,6 @@ Las plantillas de ubicación especifican un conjunto de reglas con prioridad que
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

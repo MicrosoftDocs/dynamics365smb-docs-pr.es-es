@@ -112,7 +112,7 @@ Si el almacén usa el procesamiento de almacenamiento y de recepción y ha elimi
 
 5. Cuando haya colocado todos los productos en ubicaciones como se le ha indicado, elija la acción **Registrar ubicación**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

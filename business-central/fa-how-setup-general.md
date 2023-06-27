@@ -123,7 +123,7 @@ Si es la primera vez que utiliza los activos fijos en [!INCLUDE[prod_short](incl
 
 Si los activos fijos no se integran en la contabilidad, omita los pasos 6 y 8.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Consultar la [formación de Microsoft](/training/paths/set-up-fixed-assets-management/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/set-up-fixed-assets-management/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

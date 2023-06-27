@@ -63,7 +63,7 @@ Existen varios métodos abreviados de teclado que le permiten trabajar "sin rat�
 
 Para obtener más información sobre estos métodos abreviados, consulte [Métodos abreviados de teclado](keyboard-shortcuts.md). Algunos de los métodos del teclado abreviados se explican en este artículo.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Acelerar la entrada de datos con la entrada rápida
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Acelerar la entrada de datos con la entrada rápida
 
 La entrada rápida es una característica diseñada para la entrada de datos cuando se utiliza el teclado. La entrada rápida funciona en campos (como en las páginas de fichas) y en listas (filas y columnas). Es beneficioso cuando se realizan tareas de mecanografía repetitivas que requieren la creación de múltiples registros en secuencia. Los ejemplos incluyen un lote de pedidos de ventas o el registro de nuevos artículos.
 
@@ -125,7 +125,7 @@ Para empezar a filtrar, seleccione ![Icono del panel de filtrado](media/open-fil
 
 El filtrado es especialmente útil cuando se ven y analizan documentos más largos. Imagine que abre un histórico de facturas de venta. Luego, filtre los artículos de líneas para mostrar todos los artículos de líneas que tienen un descuento individual superior al 5 %. O bien, filtre para mostrar solo accesorios de bicicleta con 'pro' en el nombre.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Enfoque en los productos de línea
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Enfoque en los productos de línea
 
 Al trabajar en documentos que incluyen una parte de artículos de línea, puede cambiar la vista para centrarse solo en los artículos de línea. Los documentos de ejemplo son pedidos de ventas o páginas de facturas. La parte de artículos de línea se amplía para que ocupe casi todo el espacio de trabajo. Oculta otras partes de la página, excepto el área de acciones de la parte superior. Este diseño le proporciona una mejor visión general de los productos de línea y más espacio para trabajar en ellos.
 
@@ -266,7 +266,7 @@ A continuación se muestran algunos ejemplos.
 
  El número 5 se convierte a 5 hrs, si la unidad de medida es horas.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Configurar el separador decimal utilizado por los teclados numéricos
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Configurar el separador decimal utilizado por los teclados numéricos
 
 Cuando utilice la tecla <kbd>Separador decimal</kbd> en un teclado numérico para introducir datos, el separador decimal real que se introduce en el campo viene determinado por su configuración regional en Business Central. La mayoría de las regiones usan el punto (.) o la coma (,) como separador para los valores decimales, como se suele ver en las cantidades de moneda. La tecla decimal de su teclado se adapta a su región. Suele ser diferente a las teclas de punto o coma del resto del teclado. Establezca la región en Business Central en la página **Mi configuración**.
 
@@ -275,7 +275,7 @@ Por ejemplo, suponga que está utilizando un teclado numérico que utiliza un pu
 > [!TIP]
 > Puede haber ocasiones en las que quiera usar el separador decimal para introducir un punto (.). Por ejemplo, suponga que estaba introduciendo un rango de fechas en un filtro, como `01/01/2022..04/01/2022`, o cualquier cosa que requiera un punto. Para adaptarse a este caso, seleccione las teclas <kbd>Alt</kbd>+<kbd>Separador decimal</kbd> en el teclado numérico. Esta combinación de teclas cambia el separador decimal entre la salida de un punto y el separador decimal determinado por el ajuste **Región**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

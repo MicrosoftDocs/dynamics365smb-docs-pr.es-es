@@ -24,7 +24,7 @@ La contabilidad de costes se utiliza para ayudarle a conocer los costes de la di
 |Conocer los procesos de creación de presupuestos de costes.|[Crear presupuesto coste](finance-create-cost-budgets.md)|
 |Cancelar movimientos de presupuesto de costes en el registro de presupuestos de costes.|[Eliminar movs. ppto. costes](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también
 [Finanzas](finance.md)  

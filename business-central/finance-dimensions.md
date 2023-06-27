@@ -238,7 +238,7 @@ En una página de movimiento de contabilidad, puede ver si hay dimensiones globa
 > [!NOTE]  
 > La página **Dimensiones movimiento** muestra las dimensiones de un movimiento de contabilidad cada vez. Verá que se desplaza por los movimientos de contabilidad, el contenido de la página **Dimensiones movimiento** va cambiando según corresponda.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-centralindex" />Consultar la [formación de Microsoft](/training/modules/dimensions-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/dimensions-dynamics-365-business-central/index) relacionada
 
 ## <a name="see-also" />Consulte también .
 

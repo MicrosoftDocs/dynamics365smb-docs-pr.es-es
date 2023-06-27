@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd" />Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-" />Funcionalidad local en [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tiene una estrategia de localización combinada que incluye tanto modelos dirigidos por Microsoft como modelos dirigidos por socios. En esta sección puede ver las descripciones de la funcionalidad que se aplica a los países y regiones donde Microsoft proporciona el cumplimiento normativo y otra funcionalidad local.  
 

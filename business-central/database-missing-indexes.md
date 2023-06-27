@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# <a name="database-missing-indexes-in-includeprodlongincludesprodlongmd" />Faltan índices en la base de datos en [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-" />Faltan índices en la base de datos en [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Los administradores y desarrolladores pueden hacer que la base de datos sea más eficiente y, en última instancia, mejorar el rendimiento de la aplicación mediante el uso de información extraída por **Faltan índices en la base de datos** en [!INCLUDE[prod_short](includes/prod_short.md)].
 

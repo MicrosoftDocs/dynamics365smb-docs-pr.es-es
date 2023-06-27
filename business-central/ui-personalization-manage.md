@@ -62,7 +62,7 @@ Puede eliminar personalizaciones de página individuales que ha efectuado para u
 
 El diseño en las páginas seleccionadas se ajusta a los cambios que ha hecho.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Consultar la [formación de Microsoft](/training/paths/tailor-roles-design-ui/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/tailor-roles-design-ui/) relacionada
 
 ## <a name="see-also" />Consulte también .
 

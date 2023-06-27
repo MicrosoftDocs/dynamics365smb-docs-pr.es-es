@@ -61,7 +61,7 @@ Si aprueba el registro de documento entrante, se marca la casilla **Lanzado** de
 6. En la página **Insertar archivo**, seleccione el archivo que representa el documento entrante en cuestión y, a continuación, elija el botón **Abrir**.
 7. En la página **Documento entrante**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
 ## <a name="see-also" />Consulte también .
 
