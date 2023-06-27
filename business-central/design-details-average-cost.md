@@ -11,13 +11,13 @@ ms.search.form: '8645,'
 ms.date: 06/06/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-average-cost"></a><a name="design-details-average-cost"></a>Detalles de diseño: coste medio
+# Detalles de diseño: coste medio
 
 El costo medio de un artículo se calcula con una media ponderada periódica. La media se basa en el período de coste medio que se configura en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La fecha de valoración se establece automáticamente.  
 
-## <a name="setting-up-average-cost-calculation"></a><a name="setting-up-average-cost-calculation"></a>Configurar el cálculo del coste medio
+## Configurar el cálculo del coste medio
 
 En la tabla siguiente se describen los dos campos de la página **Configuración de inventario** que se deben rellenar para habilitar el cálculo de coste medio.  
 
@@ -31,7 +31,7 @@ En la tabla siguiente se describen los dos campos de la página **Configuración
 >
 > La página **Pedidos contables** muestra el periodo de coste medio y el tipo de cálculo de coste medio que está en vigor durante ese periodo, por cada periodo contable.  
 
-## <a name="calculating-average-cost"></a><a name="calculating-average-cost"></a>Cálculo de coste promedio
+## Cálculo de coste promedio
 
  Cuando se registra una transacción para un producto que utiliza el método de valoración de existencias Medio, se crea un movimiento en la tabla **Punto de entrada aj. coste promedio**. Este movimiento contiene el número de producto, el código de variante y el código de almacén de la transacción. El movimiento también contiene el campo **Fecha valoración**, el cual especifica la última fecha del periodo de coste medio en la que se registró la transacción.  
 
@@ -47,7 +47,7 @@ En la tabla siguiente se describen los dos campos de la página **Configuración
 
  El programa aplica el coste medio calculado a las salidas de existencias del elemento (producto, almacén o variante) con fechas de registro durante el periodo de coste medio. Para las salidas de existencias que se aplican de forma fija a salidas de existencias en el periodo de coste medio, [!INCLUDE [prod_short](includes/prod_short.md)] reenvía el coste medio calculado desde la entrada a la salida.  
 
-### <a name="example-average-cost-period--day"></a><a name="example-average-cost-period--day"></a>Ejemplo: Periodo de coste medio = Día
+### Ejemplo: Periodo de coste medio = Día
 
 En el ejemplo siguiente se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un día. El campo **Tipo cálculo cte. medio** en la página **Configuración de inventario** está configurado en **Producto**.  
 
@@ -85,7 +85,7 @@ En la tabla siguiente se muestran los movimientos de producto del producto del c
 | 02-02-23 |   Compra | 1 | 100.00 | 5 |
 | 02-03-23 |   Venta | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a><a name="example-average-cost-period--month"></a>Ejemplo: Periodo de coste medio = Mes
+### Ejemplo: Periodo de coste medio = Mes
 
  En este ejemplo se muestra el efecto de calcular el coste medio basado en un periodo de coste medio de un mes. El campo **Tipo cálculo cte. medio** en la página **Configuración de inventario** está configurado en **Producto**.  
 
@@ -130,7 +130,7 @@ El costo medio de la entrada número 3 se calcula en el período de coste medio 
 
 Para obtener el coste medio para febrero, [!INCLUDE [prod_short](includes/prod_short.md)] agrega el coste medio del producto recibido en el inventario (100,00) se suma al coste medio al comienzo del periodo (30,00). La suma (130,00) luego se divide por la cantidad total en el inventario (2). Este cálculo da el coste medio resultante del producto en el período de febrero (65,00). El programa asigna dicho coste medio a las salidas de existencias ocurridas en el periodo (entradas 4 y 6).  
 
-## <a name="setting-the-valuation-date"></a><a name="setting-the-valuation-date"></a>Definición de la fecha de valoración
+## Definición de la fecha de valoración
 
  El campo **Fecha valoración** de la tabla **Movimiento valor** determina a qué periodo de coste medio pertenece un movimiento de salida de existencias. Este ajuste también se aplica al inventario de trabajo en curso.  
 
@@ -143,7 +143,7 @@ Para obtener el coste medio para febrero, [!INCLUDE [prod_short](includes/prod_s
 | 3 | Anterior a la última fecha de valoración de los movimientos de valorización aplicados | Positivo | No | Última fecha de valoración de los movimientos de valoración aplicados |
 | 4 |  | Negativo | Sí | Fecha de registro del movimiento de valoración de revalorización |
 
-### <a name="example"></a><a name="example"></a>Ejemplo
+### Ejemplo
 
 En la siguiente tabla de movimientos de valoración se ilustran los distintos escenarios.  
 
@@ -165,7 +165,7 @@ En la siguiente tabla de movimientos de valoración se ilustran los distintos es
 
 Si la cantidad en el inventario es menor que cero después de registrar la salida de existencias, la fecha de valoración se establece en la fecha de registro de la salida de existencias. Esta fecha se puede modificar cuando se aplica la entrada de existencias, según las reglas descritas en la nota anteriormente en esta sección.  
 
-## <a name="recalculating-average-cost"></a><a name="recalculating-average-cost"></a>Nuevo cálculo de coste promedio
+## Nuevo cálculo de coste promedio
 
 Valorar las salidas de existencias como media ponderada sería sencillo en varios escenarios:
 
@@ -188,7 +188,7 @@ Esta flexibilidad puede obligar a volver a calcular el coste medio después de h
 
 Puede cambiar la base de valoración del inventario dentro de un periodo contable si se modifican los valores de los campos **Periodo coste medio** y **Tipo cálculo cte. medio**. Sin embargo, le recomendamos que tenga cuidado y consulte a su auditor.  
 
-### <a name="example-of-recalculated-average-cost"></a><a name="example-of-recalculated-average-cost"></a>Ejemplo de coste medio recalculado
+### Ejemplo de coste medio recalculado
 
 Este ejemplo muestra cómo [!INCLUDE [prod_short](includes/prod_short.md)] recalcula el coste medio cuando se registra en una fecha anterior a una salida de existencias. El ejemplo se basa en el periodo de coste medio de **Día**.  
 
@@ -213,7 +213,7 @@ En la tabla siguiente se muestran los movimientos de valoración que hay para el
 | 15-02-20 | -1 | -17,00 | 3 |
 | 16-02-20 | -1 | -17,00 | 4 |
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## Consulte también
 
 [Detalles de diseño: coste de inventario](design-details-inventory-costing.md)  
 [Detalles de diseño: métodos de coste](design-details-costing-methods.md)  
