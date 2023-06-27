@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="managing-inventory-costs"></a>Gestión de costes de inventario
+# <a name="managing-inventory-costs"></a><a name="managing-inventory-costs"></a>Gestión de costes de inventario
 La gestión de costes, también conocida como "valoración de existencias", se refiere al registro y la creación de informes sobre los costes operativos de la empresa. Incluye la creación de informes de los costes de stock y fabricación, es decir, el valor de los productos.   
 
 Es preciso entender los principios básicos, es decir, que los métodos de valoración definen cómo se valoran los productos cuando salen del inventario, que el ajuste de costes actualiza el coste de las mercancías vendidas con los costes de compra asociados registrados tras su venta y que los valores de inventario deben registrarse en cuentas contables exclusivas periódicamente.
@@ -33,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Realizar tareas de control e informes de final de periodo, como calcular el valor de existencias y registrar costes en la contabilidad.|[Creación de informes de costes y conciliación con la contabilidad](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Obtenga información sobre cómo puede usar la cola de proyectos para mover las tareas para ajustar el coste de inventario o conciliarlo con la contabilidad a un segundo plano.|[Ajustar y conciliar el coste de inventario con la contabilidad con cola de proyectos](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
  [Finanzas](finance.md)  
  [Grupos contables inventario](inventory-manage-inventory.md)   
  [Ccial](sales-manage-sales.md)   

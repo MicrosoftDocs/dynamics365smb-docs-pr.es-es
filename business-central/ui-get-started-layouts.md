@@ -11,14 +11,14 @@ ms.search.form: '9650, 9652'
 ms.date: 03/23/2022
 ms.author: jswymer
 ---
-# <a name="get-started-creating-report-layouts"></a>Empezar a crear diseños de informes
+# <a name="get-started-creating-report-layouts"></a><a name="get-started-creating-report-layouts"></a>Empezar a crear diseños de informes
 
 Business Central viene con muchos diseños integrados que puede usar en sus informes. Es posible que se hayan agregado otros diseños como parte de otras extensiones. Pero también es posible crear sus propios informes desde cero o basándose en un diseño existente.
 
 > [!IMPORTANT]
 > También puede utilizar los diseños de los informes para añadir contenido a los mensajes de correo electrónico. Por ejemplo, los diseños de informes pueden ahorrar tiempo y ayudar a garantizar la coherencia al reutilizar el mismo contenido cuando se comunica con sus clientes. Para usar diseños de informes personalizados con correo electrónico, el tipo de archivo para el diseño debe ser Word. No puede utilizar el tipo de archivo RDLC. Para más información, vea [Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a><a name="overview"></a>Información general
 
 Al trabajar con diseños de informes, resulta útil pensar en el diseño como un archivo que se importa y se asigna a un informe. Independientemente del tipo de diseño, la forma en que administra los diseños en Business Central es básicamente la misma. Por lo general, trabajará desde la página **Diseños de informe**. La principal diferencia es la forma en que se diseña el diseño, que se realiza utilizando el software de aplicación en el que se construye el diseño, como Word, Excel o SQL Server Report Builder.
 
@@ -34,7 +34,7 @@ Con este concepto en mente. Hay básicamente tres o cuatro tareas implicadas en 
 >
 > Para conocer la diferencia entre los diseños de extensión y los diseños definidos por el usuario, consulte [Origen de diseño](ui-manage-report-layouts.md#layout-sources).
 
-## <a name="get-started"></a>Introducción
+## <a name="get-started"></a><a name="get-started"></a>Introducción
 
 Dependiendo de cuál sea su situación, las tareas reales variarán. Use la siguiente tabla como ayuda para comenzar.
 
@@ -47,7 +47,7 @@ Dependiendo de cuál sea su situación, las tareas reales variarán. Use la sigu
 |Cambiar el diseño actual utilizado por un informe a otro diseño|[Establecer el diseño utilizado por un informe](ui-set-report-layout.md)|
 |Cambiar el nombre y la descripción de un diseño|[Cambiar el nombre de un diseño](#rename)|
 
-## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Decida qué tipo de diseño desea
+## <a name="decide-what-type-of-layout-you-want"></a><a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Decida qué tipo de diseño desea
 
 Lo primero al crear un diseño es decidir qué [tipo de diseño](ui-manage-report-layouts.md#layout-types) desea. Puede elegir Word, Excel o RDLC. El tipo de diseño dependerá de cómo quiera que sea el informe generado. Además, depende de su conocimiento del software de aplicación para crear los diseños, como Word, Excel y SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ Lo primero al crear un diseño es decidir qué [tipo de diseño](ui-manage-repor
 
 * Los conceptos de diseño generales son parecidos en Word y RDLC. Sin embargo, cada tipo tiene determinadas características de diseño que afectan a la forma en que el informe generado aparece en [!INCLUDE[prod_short](includes/prod_short.md)]. El mismo informe puede tener un aspecto diferente cuando se utiliza el diseño de informe de Word en comparación con el diseño de informe de RDLC.
 
-## <a name="create-a-new-layout"></a><a name="create"></a>Crear un nuevo diseño
+## <a name="create-a-new-layout"></a><a name="create-a-new-layout"></a><a name="create"></a>Crear un nuevo diseño
 
 Hay dos formas de crear un nuevo diseño a partir de un diseño existente. Una forma es guardar el diseño existente en una copia. La otra forma es exportar el diseño existente.
 
@@ -127,7 +127,7 @@ Si desea ver cómo se ve el informe con el nuevo diseño, seleccione el diseño 
 
 ---
 
-## <a name="modify-a-layout"></a><a name="modify"></a>Modificar un diseño
+## <a name="modify-a-layout"></a><a name="modify-a-layout"></a><a name="modify"></a>Modificar un diseño
 
 Siga estos pasos para modificar un diseño definido por el usuario existente.
 
@@ -156,7 +156,7 @@ Siga estos pasos para modificar un diseño definido por el usuario existente.
    El archivo seleccionado se carga en el diseño y vuelve a la página **Diseños de informes**.
 7. Si desea ver cómo se ve el informe con el nuevo diseño, seleccione el diseño en la lista y luego seleccione **Ejecutar informe**.
 
-## <a name="replace-a-layout"></a><a name="replace"></a>Reemplazar un diseño
+## <a name="replace-a-layout"></a><a name="replace-a-layout"></a><a name="replace"></a>Reemplazar un diseño
 
 Siga estos pasos para reemplazar el archivo de diseño definido por el usuario existente con un nuevo archivo.
 
@@ -168,7 +168,7 @@ Siga estos pasos para reemplazar el archivo de diseño definido por el usuario e
    El archivo seleccionado se carga en el diseño y vuelve a la página **Diseños de informes**.
 5. Si desea ver cómo se ve el informe con el nuevo diseño, seleccione el diseño en la lista y luego seleccione **Ejecutar informe**.
 
-## <a name="rename-a-layout"></a><a name="rename"></a>Cambiar el nombre de un diseño
+## <a name="rename-a-layout"></a><a name="rename-a-layout"></a><a name="rename"></a>Cambiar el nombre de un diseño
 
 Siga estos pasos si desea cambiar el nombre y la descripción de un diseño definido por el usuario.
 
@@ -179,9 +179,9 @@ Siga estos pasos si desea cambiar el nombre y la descripción de un diseño defi
     > Como ayuda para buscar el diseño, use el cuadro **Buscar**, el panel **Filtro** y la clasificación de columnas.
 3. Cambie el **Nombre del diseño** y, a continuación, seleccione **Aceptar**.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Trabajo con diseños de Word](ui-how-add-fields-word-report-layout.md)  

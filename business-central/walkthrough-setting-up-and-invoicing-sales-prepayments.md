@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas
+# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a><a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Tutorial: Configuración y facturación de prepagos de ventas
 
 Este tutorial lo lleva a través del proceso de configuración y uso de prepagos en [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -18,7 +18,7 @@ Este tutorial lo lleva a través del proceso de configuración y uso de prepagos
 
 Por ejemplo, puede enviar más facturas prepago adicionales si es necesario añadir más productos al pedido.  
 
-## <a name="about-this-walkthrough"></a>Acerca de este tutorial
+## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Acerca de este tutorial
 
 En este tutorial aparecen los siguientes ejemplos:  
 
@@ -29,7 +29,7 @@ En este tutorial aparecen los siguientes ejemplos:
 - Aplicación de prepagos a un pedido  
 - Facturación del importe final en un pedido con prepago  
 
-### <a name="roles"></a>Roles
+### <a name="roles"></a><a name="roles"></a>Roles
 
 En este tutorial se incluyen tareas para las siguientes funciones:  
 
@@ -37,7 +37,7 @@ En este tutorial se incluyen tareas para las siguientes funciones:
 - Procesadora de pedidos (Susana)  
 - Administrador Cobros (Andrés)  
 
-## <a name="story"></a>Historia
+## <a name="story"></a><a name="story"></a>Historia
 
  Phyllis es administradora de contabilidad y toma decisiones sobre qué clientes deben abonar un depósito antes de que se fabriquen o envíen los productos. Felisa configura [!INCLUDE[prod_short](includes/prod_short.md)] para calcular automáticamente los prepagos.  
 
@@ -53,7 +53,7 @@ En este tutorial se incluyen tareas para las siguientes funciones:
 
  Andrés registra el pago del cliente y lo aplica a las facturas; a continuación, envía la factura final.  
 
-## <a name="set-up-prepayments"></a>Configurar prepagos
+## <a name="set-up-prepayments"></a><a name="set-up-prepayments"></a>Configurar prepagos
 
 Felisa configura el sistema para gestionar los prepagos de los clientes.  
 
@@ -63,13 +63,13 @@ Felisa configura el sistema para gestionar los prepagos de los clientes.
 
 En los siguientes procedimientos, se describe cómo realizar las tareas de Felisa:  
 
-### <a name="to-set-up-number-series-for-prepayments"></a>Para configurar series numéricas para prepagos
+### <a name="to-set-up-number-series-for-prepayments"></a><a name="to-set-up-number-series-for-prepayments"></a>Para configurar series numéricas para prepagos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.  
 2. En la página **Conf. ventas y cobros**, amplíe la ficha desplegable **Numeración**.  
 3. Verifique que la serie numérica de las facturas de prepago registradas en el campo **Nº fact. prepago registrada** sea la misma que para las facturas de venta registradas (**Nº serie fact. registrada**) y que la serie numérica para abonos de prepago registrados (**Nº abono prepago registrado**) sea la misma que para los abonos registrados (**Nº serie abono registrado**).  
 
-### <a name="to-block-shipments-for-unpaid-prepayment"></a>Para bloquear envíos por prepagos sin abonar
+### <a name="to-block-shipments-for-unpaid-prepayment"></a><a name="to-block-shipments-for-unpaid-prepayment"></a>Para bloquear envíos por prepagos sin abonar
 
 1. En la página **Conf. ventas y cobros**, en la ficha desplegable **General**, seleccione la casilla **Comprobar prepago al registrar**.
 
@@ -79,7 +79,7 @@ Felisa exige que al cliente 20000 se le facture un prepago del 30% en todos los 
 
 Felisa requiere que a todos los clientes se les facture un depósito del 20 % para el producto 1896-S. El cliente 20000 tiene un mal historial de pagos, por lo que Phyllis requiere un prepago del 40 % para el cliente 20000, para el producto 1896-S. En el procedimiento siguiente se ilustra el modo de configurar los porcentajes de prepago predeterminados.  
 
-### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Para asignar porcentajes de prepago predeterminados a clientes y productos
+### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a><a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Para asignar porcentajes de prepago predeterminados a clientes y productos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.  
 2. Abra la ventana de la ficha del cliente 20000 (Trey Research).
@@ -97,7 +97,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20 % p
 
 6. Cierre todas las páginas.  
 
-### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Para especificar una cuenta para los prepagos de ventas en la configuración del registro general
+### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a><a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Para especificar una cuenta para los prepagos de ventas en la configuración del registro general
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.  
 2. Seleccione la línea donde el campo de **General neg. grupo contable** se establece en **NAC**, y el campo **General producción. grupo contable** se establece en **MERCADERÍA**.  
@@ -106,7 +106,7 @@ Felisa requiere que a todos los clientes se les facture un depósito del 20 % p
 > [!TIP]
 > Si no puede ver el campo de la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
 
-## <a name="create-an-order-that-requires-a-prepayment"></a>Crear un pedido que requiera un prepago
+## <a name="create-an-order-that-requires-a-prepayment"></a><a name="create-an-order-that-requires-a-prepayment"></a>Crear un pedido que requiera un prepago
 
  En el siguiente ejemplo, Susana, la procesadora de pedidos, crea un pedido cuando habla con un cliente. Los artículos que el cliente está ordenando requieren un prepago. Además, el cliente ha realizado algunos pagos atrasados en el pasado. Se ha indicado a Susana para requerir un importe fijo de **800** como prepago en el pedido.  
 
@@ -114,7 +114,7 @@ El cliente solicita que le permitan pagar el 35 %, lo que Susana acepta, y cambi
 
 Susana crea la factura de prepago y la envía al cliente.  
 
-### <a name="to-create-a-sales-order-with-a-prepayment"></a>Para crear un pedido de venta con prepago
+### <a name="to-create-a-sales-order-with-a-prepayment"></a><a name="to-create-a-sales-order-with-a-prepayment"></a>Para crear un pedido de venta con prepago
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -151,11 +151,11 @@ Susana crea la factura de prepago y la envía al cliente.
 12. En la advertencia que aparece, seleccione el botón de **Sí**. Un índice del 35% será aplicado como el porcentaje de pago para todo el pedido.  
 13. Verifique que se han actualizado las líneas correctamente.  
 
-## <a name="create-a-prepayment-invoice"></a>Crear una factura de prepago
+## <a name="create-a-prepayment-invoice"></a><a name="create-a-prepayment-invoice"></a>Crear una factura de prepago
 
 Después de escribir los valores de prepago correctos en el pedido, Susana crea la factura de prepago y la envía al cliente.  
 
-### <a name="to-create-a-prepayment-invoice"></a>Para crear una factura de prepago
+### <a name="to-create-a-prepayment-invoice"></a><a name="to-create-a-prepayment-invoice"></a>Para crear una factura de prepago
 
 1. En la página **Pedido de ventas**, elija **Acciones**, en el grupo **Registro**, elija **Prepago** y, a continuación, seleccione **Registrar e imprimir factura prepago**.
 2. Para registrar la factura, elija el botón **Sí**.  
@@ -163,11 +163,11 @@ Después de escribir los valores de prepago correctos en el pedido, Susana crea 
 > [!NOTE]  
 > Susan ahora enviaría la factura al cliente.  
 
-## <a name="create-an-additional-prepayment-invoice"></a>Crear una factura de prepago adicional
+## <a name="create-an-additional-prepayment-invoice"></a><a name="create-an-additional-prepayment-invoice"></a>Crear una factura de prepago adicional
 
 Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El cliente desea dos unidades del producto 1896-S. Susana vuelve a abrir y actualiza el pedido y, a continuación, crea una segunda factura de prepago del pedido y la envía al cliente.  
 
-### <a name="to-create-an-additional-prepayment-invoice"></a>Para crear una factura de prepago adicional
+### <a name="to-create-an-additional-prepayment-invoice"></a><a name="to-create-an-additional-prepayment-invoice"></a>Para crear una factura de prepago adicional
 
 1. En la página **Pedido venta**, seleccione la acción **Liberar** y, después, **Reabrir**.  
 2. En la línea del producto **1896-S**, en el campo **Cantidad**, escriba **2**.  
@@ -176,11 +176,11 @@ Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El 
 3. Para registrar una factura para el importe de prepago extra, elija **Acciones**, **Registro**, **Prepago** y seleccione **Registrar e imprimir factura prepago**.
 4. Para registrar la factura, elija el botón **Sí**.  
 
-## <a name="apply-the-prepayments"></a>Aplicar los prepagos
+## <a name="apply-the-prepayments"></a><a name="apply-the-prepayments"></a>Aplicar los prepagos
 
 El cliente paga el importe del prepago. Arnie, del departamento de contabilidad, registra el pago y lo aplica a las facturas de prepago.  
 
-### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Para aplicar un pago a las facturas de prepago
+### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a><a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Para aplicar un pago a las facturas de prepago
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de recibos de efectivo**, y luego elija el enlace relacionado.  
 2. Rellene una línea de diario con la siguiente información.  
@@ -200,11 +200,11 @@ El cliente paga el importe del prepago. Arnie, del departamento de contabilidad,
 7. Para publicar el diario, elija la acción **Registrar e imprimir**, luego seleccione **Publicar**.
 8. Elija el botón **Sí**.
 
-## <a name="invoice-the-remaining-amount"></a>Facturar el importe restante
+## <a name="invoice-the-remaining-amount"></a><a name="invoice-the-remaining-amount"></a>Facturar el importe restante
 
 Se ha notificado a Andrés que los productos del pedido se han enviado y que el pedido está listo para su facturación. Andrés crea la factura para el pedido.  
 
-### <a name="to-invoice-the-remaining-amount"></a>Para facturar el importe restante
+### <a name="to-invoice-the-remaining-amount"></a><a name="to-invoice-the-remaining-amount"></a>Para facturar el importe restante
 
 1. Abra el pedido de venta.
 2. Elija la acción **Registrar**, después **Registrar**.
@@ -218,11 +218,11 @@ Se ha notificado a Andrés que los productos del pedido se han enviado y que el 
 
 5. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Actualizar el estado de los pedidos y facturas prepago automáticamente
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a><a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Actualizar el estado de los pedidos y facturas prepago automáticamente
 
 Puede acelerar el procesamiento de pedidos y facturas configurando entradas de cola de trabajos que actualizan automáticamente el estado de esos documentos. Cuando se paga una factura de prepago, las entradas de la cola de trabajos pueden cambiar automáticamente el estado del documento de **Pago anticipado pendiente** a **Liberado**. Cuando configure las entradas de la cola de trabajos, las unidades de código que necesitará usar son **383 actualizado Pendiente Prepago Ventas** y **383 actualizado Pendiente Prepago Compra**. Le recomendamos que programe las entradas para que se ejecuten con frecuencia, por ejemplo, cada minuto. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a><a name="next-steps"></a>Pasos siguientes
 
 En este tutorial se han tratado los pasos siguientes para configurar [!INCLUDE[prod_short](includes/prod_short.md)] para gestionar prepagos. 
 
@@ -235,9 +235,9 @@ También ha registrado una factura de prepago, creado una segunda factura de pre
 
 Las capacidades de prepago facilitan la configuración y aplicación de reglas de prepago para clientes y artículos. También le permiten registrar cada pago contra una factura.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepayment-invoices-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Facturación de prepagos](finance-invoice-prepayments.md)  
 [Finanzas](finance.md)  

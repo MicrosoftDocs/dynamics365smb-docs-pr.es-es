@@ -8,7 +8,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="create-production-boms"></a>Crear LM de producción
+# <a name="create-production-boms"></a><a name="create-production-boms"></a>Crear LM de producción
 
 Una lista de materiales (L.M.) de producción contiene datos maestros que describen los componentes y los subconjuntos utilizados en la fabricación de un producto principal. Una vez creada la orden de producción para el producto principal, la L.M. de producción controlará el cálculo de las necesidades de material tal como se representan en la página **Componentes orden producción**.
 
@@ -22,7 +22,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 - Se deben crear fichas de producto para los productos principales que forman parte de la fabricación. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 - Se han configurado recursos de producción. Para obtener más información, consulte [Configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>Crear una L.M. de producción.
+## <a name="to-create-a-production-bom"></a><a name="to-create-a-production-bom"></a>Crear una L.M. de producción.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **L.M. de producción** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -46,7 +46,7 @@ Para poder configurar una ruta, lo siguiente debe existir:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Para volver a calcular el coste estándar del producto desde la ficha del producto, seleccione la acción **Fabricación** y, a continuación, seleccione la acción **Calcular coste estándar**.  
 
-## <a name="to-create-a-new-version-of-a-production-bom"></a>Para crear una versión nueva de una L.M. de producción
+## <a name="to-create-a-new-version-of-a-production-bom"></a><a name="to-create-a-new-version-of-a-production-bom"></a>Para crear una versión nueva de una L.M. de producción
 
 Se utilizan las nuevas versiones de la L.M. de producción cuando, por ejemplo, un producto se sustituye por otro, o cuando un cliente solicita una versión especial de un producto. El principio de versión permite administrar varias versiones de una L.M. de producción. La estructura de la versión de la L.M. de producción se corresponde con la de la L.M. de producción. La diferencia básica es la validez en el tiempo de las versiones. La validez se define mediante la fecha inicial.  
 
@@ -70,7 +70,7 @@ El periodo de validez de la versión se especifica mediante el campo **Fecha ini
 >
 > Las L.M. de producción ficticias sirven para estructurar productos. Este tipo de L.M. de producción nunca lleva a un producto terminado, sino que se utiliza exclusivamente para determinar la demanda dependiente. Las L.M. de producción ficticias no poseen sus propios datos maestros del producto.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Fórmula de cálculo de la cantidad en las L.M. de producción
+## <a name="quantity-calculation-formula-on-production-boms"></a><a name="quantity-calculation-formula-on-production-boms"></a>Fórmula de cálculo de la cantidad en las L.M. de producción
 
 La cantidad se calcula teniendo en cuenta las distintas dimensiones, que se especificaron en las líneas de la L.M. de producción. Las dimensiones se refieren a la unidad de orden del producto correspondiente. Se pueden especificar los valores de largo, ancho, alto y peso como dimensiones.  
 
@@ -88,11 +88,11 @@ La relación entre los componentes individuales se define en la fórmula de cál
 > [!NOTE]
 > El tipo de cálculo **Cantidad fija** garantiza que el consumo de un componente sea el mismo, independientemente de las cantidades de rechazo o de salida. Para componentes de orden de producción, cuando el campo **Fórmula de cálculo** se establece en **Cantidad fija**, el valor del campo **Cantidad esperada** siempre es igual al campo **Cantidad por**. El porcentaje de rechazo que se define en la misma línea se ignora. La cantidad fija es respetada por el informe **Disponibilidad por lista de materiales**. El informe mostrará el artículo como el cuello de botella si la cantidad disponible es menor que la cantidad en el campo **Cantidad por principal**. Los campos **Capaz de hacer principal** y **Capaz de hacer artículo superior** siempre están en blanco, independientemente de la cantidad disponible. La cantidad fija también se incluye en los cálculos de costos estándar. El tamaño del lote del artículo producido afecta el costo que se asigna para un artículo.
 
-### <a name="example"></a>Ejemplo
+### <a name="example"></a><a name="example"></a>Ejemplo
 
 Una L.M. de producción, requiere setenta componentes de metal con las dimensiones: largo = 0,20 m. y ancho: 0,15 m. Los valores se introducen de la manera siguiente: Fórmula de cálculo = Largo x Ancho, Largo = 20, Ancho = 15, Cantidad por = 70. La cantidad se obtiene de Cantidad por x Largo * Ancho, es decir, Cantidad = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Creación de rutas](production-how-to-create-routings.md)  
 [Administrar variantes de productos](inventory-item-variants.md)  

@@ -13,13 +13,13 @@ ms.date: 04/12/2021
 ms.author: edupont
 ---
 
-# <a name="intelligent-insights-in--online"></a>Información inteligente en [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# <a name="intelligent-insights-in--online"></a><a name="intelligent-insights-in--online"></a>Información inteligente en [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Como usuario de [!INCLUDE[prod_short](includes/prod_short.md)] en línea, tiene acceso completo a escenarios basados en la nube inteligente, como los KPI que están basados en aprendizaje automático, o cuando ve sus datos en Power BI.  
 
 Sin embargo, si usa [!INCLUDE [prod_short](includes/prod_short.md)] local, no tiene acceso a la misma información. Si desea beneficiarse de los escenarios en línea, debe migrar a [!INCLUDE [prod_short](includes/prod_short.md)] en línea. Para más información, consulte [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de la administración para [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in--online"></a>Visualización de información en [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## <a name="viewing-insights-in--online"></a><a name="viewing-insights-in--online"></a>Visualización de información en [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 En [!INCLUDE[prod_short](includes/prod_short.md)] en línea, la página **Información de Nube inteligente** muestra cuatro puntos clave de interés para la mayoría de las empresas:
 
@@ -35,7 +35,7 @@ Junto a los gráficos de KPI, obtendrá información sobre posibles áreas de pr
 
 La página también se conecta a Power BI para obtener más información. Opcionalmente, conéctese a Azure AI para obtener información aún más inteligente. Para obtener más información, consulte [Extensión de previsión de ventas e inventario](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Bienvenido a Business Central](welcome.md)  
 [Extensiones de migración a la nube](ui-extensions-data-replication.md)  

@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: edupont
 ---
 
-# <a name="exchanging-data-electronically"></a>Intercambio de datos electrónicamente
+# <a name="exchanging-data-electronically"></a><a name="exchanging-data-electronically"></a>Intercambio de datos electrónicamente
 Puede usar Marco de intercambio de datos para gestionar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios comerciales.
 
 En la versión estándar de [!INCLUDE[prod_short](includes/prod_short.md)], el Marco de intercambio de datos se utiliza en procesos, como el intercambio de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tasas de cambio de moneda. Para más información, ver [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md).
@@ -26,7 +26,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Preparar el intercambio de datos en un archivo reutilizando el esquema XML del archivo. Configurar definiciones de intercambio de datos. Configurar datos maestros para enviar documentos electrónicos. Configurar diversos campos de importación y exportación bancaria.|[Configuración del intercambio de datos](across-set-up-data-exchange.md)|  
 |Basándose en las definiciones de intercambio de datos, enviar facturas PEPPOL, recibir facturas PEPPOL, importar extractos bancarios y exportar archivos de pago por banco.|[Intercambio de datos](across-exchange-data.md)|  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 [Acerca del marco de intercambio de datos](across-about-the-data-exchange-framework.md)  
 [Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  

@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Mover productos internamente en configuraciones básicas de almacén
+# <a name="move-items-internally-in-basic-warehouse-configurations"></a><a name="move-items-internally-in-basic-warehouse-configurations"></a>Mover productos internamente en configuraciones básicas de almacén
 
 Es posible que desee mover productos entre ubicaciones sin una demanda de un documento de origen. Por ejemplo, como parte de las siguientes actividades:
 
@@ -25,11 +25,11 @@ En las configuraciones de almacén en las que la opción **Ubicac. obligatoria**
 * En la página **Movimiento interno**.
 * En la página **Diario reclasificación productos**.  
 
-## <a name="internal-movements"></a>Movimientos internos
+## <a name="internal-movements"></a><a name="internal-movements"></a>Movimientos internos
 
 La página **Movimientos internos** le permite especificar líneas de Traer y colocar cuando no hay una demanda de un documento de origen. La página Movimiento Interno es como una hoja de trabajo para organizar cosas. No puede procesar el movimiento real directamente desde ella. Cuando se complete una línea, use la acción **Crear movimiento de inventario** para enviar la línea a la página **Movimiento de inventario**, que es donde se tramita y registra el movimiento.
 
-### <a name="to-move-items-as-an-internal-movement"></a>Para mover los artículos como movimiento interno
+### <a name="to-move-items-as-an-internal-movement"></a><a name="to-move-items-as-an-internal-movement"></a>Para mover los artículos como movimiento interno
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") escriba **Movimientos internos** y, a continuación, elija el vínculo relacionado.  
 2. Elija la acción **Nuevo**. Asegúrese de que el campo **N.º** en desplegable **General** se haya rellenado.
@@ -59,7 +59,7 @@ La página **Movimientos internos** le permite especificar líneas de Traer y co
 
 Realice el resto del movimiento no planificado en la página **Movimiento inventario** de la misma forma que lo haría en un movimiento basado en los documentos de origen.
 
-### <a name="to-record-the-inventory-movement"></a>Para registrar el movimiento de inventario
+### <a name="to-record-the-inventory-movement"></a><a name="to-record-the-inventory-movement"></a>Para registrar el movimiento de inventario
 
 1. En la página **Movimiento inventario**, abra el documento para registrar el movimiento.  
 2. En las líneas de movimiento del campo **Cód. ubicación**, la ubicación desde la cual se debe realizar el picking de productos es donde el producto está disponible. Puede cambiar la ubicación si lo necesita.
@@ -72,7 +72,7 @@ Lo siguiente sucede durante el proceso de publicación:
 
 * Las entradas de almacén indican que la cantidad se transfiere de las ubicaciones de toma a las ubicaciones de colocación.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Para mover productos con el diario de reclasificación de productos:
+## <a name="to-move-items-with-the-item-reclassification-journal"></a><a name="to-move-items-with-the-item-reclassification-journal"></a>Para mover productos con el diario de reclasificación de productos:
 
 En lugar de utilizar documentos de movimiento, puede registrar los movimientos reclasificando sus códigos de ubicación en productos. Obtenga más información en [Recuento, ajuste y reclasificación de inventario con diarios](inventory-how-count-adjust-reclassify.md).
 
@@ -89,9 +89,9 @@ En lugar de utilizar documentos de movimiento, puede registrar los movimientos r
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

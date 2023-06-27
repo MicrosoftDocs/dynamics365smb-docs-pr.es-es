@@ -11,11 +11,11 @@ ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: edupont
 ---
-# <a name="create-recurring-sales"></a>Crear ventas periódicas
+# <a name="create-recurring-sales"></a><a name="create-recurring-sales"></a>Crear ventas periódicas
 
 Si suele necesitar crear líneas de ventas con información similar, puede configurar líneas estándar que puede insertar en documentos de ventas periódicas, por ejemplo, para órdenes de reposición periódicas.  
 
-## <a name="set-up-recurring-sales-lines"></a>Configurar las líneas de ventas periódicas
+## <a name="set-up-recurring-sales-lines"></a><a name="set-up-recurring-sales-lines"></a>Configurar las líneas de ventas periódicas
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Líneas de ventas periódicas** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Líneas de ventas periódicas**, elija la acción **Nuevo**.  
@@ -27,7 +27,7 @@ Si suele necesitar crear líneas de ventas con información similar, puede confi
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-sales-lines-to-a-customer"></a>Asignar líneas de ventas periódicas a un cliente
+## <a name="assign-recurring-sales-lines-to-a-customer"></a><a name="assign-recurring-sales-lines-to-a-customer"></a>Asignar líneas de ventas periódicas a un cliente
 
 Asigne una o varias líneas de ventas periódicas a un cliente para que estén disponibles para insertarlas en documentos de ventas para ese cliente.
 
@@ -49,7 +49,7 @@ Asigne una o varias líneas de ventas periódicas a un cliente para que estén d
 |**Automática**|Si existen varias líneas de venta recurrentes para el cliente, recibirá una notificación desde donde puede elegir cuál insertar. Si sólo existe una línea de venta recurrente, se insertará automáticamente.<br /><br />Esto solo funciona si el nuevo documento se creó a partir de una lista de documentos, por ejemplo, eligiendo la acción **Nuevo** en la página **Pedidos de venta**. No funciona si el documento se creó a partir de una ficha de cliente, por ejemplo.|
 |**Preguntar siempre**|Aparece una notificación y se muestran todas las líneas de venta recurrentes que existen para que pueda seleccionar una.
 
-## <a name="insert-recurring-sales-lines-on-a-sales-invoice"></a>Insertar líneas de ventas periódicas en una factura de ventas
+## <a name="insert-recurring-sales-lines-on-a-sales-invoice"></a><a name="insert-recurring-sales-lines-on-a-sales-invoice"></a>Insertar líneas de ventas periódicas en una factura de ventas
 
 Si existen líneas de ventas periódicas para el cliente, puede insertarlas, o hacer que se inserten, en todos los tipos de documentos de ventas, como una factura de ventas. Si ha activado las opciones de **Preguntar siempre** al asignar líneas de ventas periódicas a los clientes, se le informará de si existen líneas de ventas periódicas.
 
@@ -59,7 +59,7 @@ Si existen líneas de ventas periódicas para el cliente, puede insertarlas, o h
 4. En la página **Líneas de ventas periódicas**, elija el botón de búsqueda en el campo **Código** y seleccione un conjunto de líneas de ventas estándar.
 5. Elija el botón **Aceptar** para insertar las líneas de ventas estándar en la factura, donde puede reutilizar la información tal como está o editarla.
 
-## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Crear varias facturas de venta basadas en líneas de ventas periódicas
+## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a><a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Crear varias facturas de venta basadas en líneas de ventas periódicas
 
 Puede utilizar el trabajo por lotes **Crear facturas de venta periódicas** para crear facturas de venta según las líneas de venta estándar asignadas a los clientes y con fechas de registro dentro de las fechas de inicio y fin de validez que especifique en las líneas de ventas estándar.
 
@@ -70,9 +70,9 @@ Puede utilizar el trabajo por lotes **Crear facturas de venta periódicas** para
 
 Las facturas de venta se crean para los clientes con el código de ventas de cliente estándar especificado y la información de domiciliación especificada, para el registro en la fecha especificada.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Ccial](sales-manage-sales.md)  
 [Configurar ventas](sales-setup-sales.md)  

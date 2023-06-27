@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="business-functionality"></a>Funciones empresariales
+# <a name="business-functionality"></a><a name="business-functionality"></a>Funciones empresariales
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones para procesos empresariales comunes de las pequeñas y medianas empresas, principalmente de los servicios mayoristas y profesionales. Sin embargo, también se admiten procesos más complejos, por ejemplo, montaje, fabricación, servicio, y administración dirigida de almacén. [Aprenda cómo obtener una prueba gratuita aquí](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.author: edupont
 |Permitir a los usuarios intercambiar datos con orígenes externos durante las tareas diarias, como envío/recepción de documentos electrónicos, importación y exportación de archivos bancarios y actualización de tipos de cambio de divisa.|[Intercambio de datos electrónicamente](across-data-exchange.md)|
 |Registrar documentos externos en [!INCLUDE[prod_short](includes/prod_short.md)], incluidos los anexos de archivo y, a continuación, crear manualmente documentos relacionados o convertir automáticamente los archivos a documentos electrónicos.|[Documentos entrantes](across-income-documents.md)|
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Administración](admin-setup-and-administration.md)    
 [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  

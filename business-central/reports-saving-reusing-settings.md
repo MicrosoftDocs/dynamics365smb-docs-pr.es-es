@@ -10,7 +10,7 @@ ms.search.keywords: 'customization, personalization'
 ms.date: 12/21/2021
 ms.author: edupont
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrar configuraciones guardadas para informes y trabajos por lotes
+# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a><a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrar configuraciones guardadas para informes y trabajos por lotes
 
 Cuando se ejecutan informes, a los usuarios normalmente se les presenta una página que les permite seleccionar opciones y establecer filtros para cambiar los datos que se incluyen en el informe generado. Esta página se llama *página de solicitud*. Un informe puede incluir una o varias *opciones de configuración guardadas* que los usuarios pueden aplicar al informe de la página de solicitud. La *configuración guardada* son básicamente opciones y filtros predeterminados. El uso de la configuración guardada es una forma rápida y confiable de generar de forma coherente informes que contienen los datos correctos. Para obtener más información, consulte [Uso de la configuración guardada](ui-work-report.md#SavedSettings).
 
@@ -19,7 +19,7 @@ Cuando se ejecutan informes, a los usuarios normalmente se les presenta una pág
 
 Si tiene los permisos adecuados, puede ver, crear y modificar la configuración guardada de todos los informes para todos los usuarios de una empresa. Puede asignar la configuración guardada de un informe a usuarios individuales o a todos los usuarios de la empresa.
 
-## <a name="manage-saved-settings"></a>Administrar la configuración guardada
+## <a name="manage-saved-settings"></a><a name="manage-saved-settings"></a>Administrar la configuración guardada
 
 La configuración guardada se administra en la página **Configuración de informes**. Hay dos maneras de abrir esta página:
 
@@ -35,7 +35,7 @@ La página **Configuración del informe** muestra todas las entradas de configur
 >
 > Sin embargo, en algunos casos, la configuración no se puede compartir y el administrador tampoco puede cambiarla. La mayoría de los trabajos por lotes no admiten la configuración compartida.  
 
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Crear o modificar la configuración guardada para todos los usuarios
+## <a name="create-or-modify-saved-settings-for-all-users"></a><a name="create-or-modify-saved-settings-for-all-users"></a>Crear o modificar la configuración guardada para todos los usuarios
 
 Desde la página **Configuración del informe**, puede:
 
@@ -49,7 +49,7 @@ Desde la página **Configuración del informe**, puede:
 > [!NOTE]
 > La posibilidad de guardar la configuración solo está disponible en los informes en los que la [propiedad SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) de la página de solicitud del informe está establecida en **Sí**. El desarrollador define la propiedad **SaveValues**.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  
 

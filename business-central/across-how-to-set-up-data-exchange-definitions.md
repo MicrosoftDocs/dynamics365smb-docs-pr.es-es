@@ -9,7 +9,7 @@ ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
+# <a name="set-up-data-exchange-definitions"></a><a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
 
 Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para intercambiar datos en tablas específicas con datos en archivos externos. Por ejemplo para enviar y recibir documentos electrónicos, importar y exportar datos bancarios u otros datos, como nóminas y catálogos de artículos. Más información en [Intercambio de datos electrónicamente](across-data-exchange.md).  
 
@@ -26,14 +26,14 @@ Este artículo incluye los siguientes procedimientos:
 * Exportar una definición de intercambio de datos como un archivo XML para que lo utilicen otros usuarios.
 * Importar un archivo XML para una definición de intercambio de datos existente.
 
-## <a name="create-a-data-exchange-definition"></a>Crear una definición de intercambio de datos
+## <a name="create-a-data-exchange-definition"></a><a name="create-a-data-exchange-definition"></a>Crear una definición de intercambio de datos
 
 La creación de una definición de intercambio de datos implica dos tareas:  
 
 1. En la página **Definición de intercambio de datos**, describe el formato de líneas y columnas del archivo. Más información en la sección [Para describir el formato de las líneas y las columnas en el archivo](#formatlinescolumns).  
 2. En la página **Asignación de intercambio de datos**, asigne las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]. Más inforamción en la sección [Para asignar columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Para describir el formato de las líneas y las columnas en el archivo
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Para describir el formato de las líneas y las columnas en el archivo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -108,7 +108,7 @@ El paso siguiente en la creación de una definición de intercambio de datos es 
 > [!NOTE]  
 > La asignación específica depende del objetivo empresarial del archivo de datos que se intercambiará y de las variaciones locales. Incluso el estándar bancario de SEPA presenta variaciones locales. [!INCLUDE[prod_short](includes/prod_short.md)] admite importar archivos de extractos bancarios CAMT SEPA originales. Se representa mediante el código de registro de definición de intercambio de datos de **CAMT de SEPA** en la página **Definiciones intercambio de datos**. Para obtener información acerca de la asignación de campos específicos de esta ayuda de CAMT de SEPA, consulte [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > A veces, los valores en los campos que desea asignar son diferentes. Por ejemplo, en una aplicación comercial, el código de idioma para Estados Unidos es "U.S.", pero en la otra es "US". Eso significa que debe transformar el valor cuando intercambia datos. Esto sucede por de las reglas de transformación que define para los campos. Obtenga más información en [Reglas de transformación](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -163,7 +163,7 @@ A partir del segundo lanzamiento de versiones de 2022, también puede agrupar po
      |**Id. de campo**|Especifique el número del campo en el archivo externo que se usa para agrupar y este campo debe configurarlo el usuario.|
      |**Título campo**|Especifique el título del campo en el archivo externo que se usa para agrupación.|
 
-## <a name="transformation-rules"></a>Reglas de transformación
+## <a name="transformation-rules"></a><a name="transformation-rules"></a>Reglas de transformación
 
 Si los valores en los campos que está asignando difieren, debe usar reglas de transformación para las definiciones de intercambio de datos para que sean iguales. Defina reglas de transformación para las definiciones de intercambio de datos abriendo una definición existente, o creando una nueva definición, y luego en las **Definiciones de línea** FastTab, eligiendo **Gestionar**, y entonces **Mapeo de campo**. Se proporcionan reglas predefinidas, pero también puede crear las suyas propias. La siguiente tabla describe los tipos de transformaciones que puede realizar.
 
@@ -188,7 +188,7 @@ Si los valores en los campos que está asignando difieren, debe usar reglas de t
 > [!NOTE]  
 > Obtenga más información sobre el formato de fecha y hora en [Cadenas de formato de fecha y hora estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Consejo para desarrolladores: ejemplo de la opción personalizada
+### <a name="tip-for-developers-example-of-the-custom-option"></a><a name="tip-for-developers-example-of-the-custom-option"></a>Consejo para desarrolladores: ejemplo de la opción personalizada
 
 El siguiente ejemplo muestra cómo implementar su propio código de transformación.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 Después de definir sus reglas, puede probarlas. En la sección fich desplegable **Prueba**, introduzca un ejemplo de un valor que desea transformar y luego verifique los resultados mediante **Actualizar**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Exportar una definición de intercambio de datos como un archivo XML para que lo utilicen otros usuarios
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a><a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Exportar una definición de intercambio de datos como un archivo XML para que lo utilicen otros usuarios
 
 Cuando haya creado la definición de intercambio de datos para un archivo de datos específico, podrá exportar la definición de intercambio de datos como un archivo XML que podrá importar. Esta tarea se describe en el procedimiento siguiente:  
 
@@ -217,14 +217,14 @@ Cuando haya creado la definición de intercambio de datos para un archivo de dat
 
     Si ya se ha creado una definición de intercambio de datos, solo tiene que importar el archivo XML al marco de intercambio de datos. Esta tarea se describe en el procedimiento siguiente:  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Importar una definición de intercambio de datos existente
+## <a name="import-an-existing-data-exchange-definition"></a><a name="import-an-existing-data-exchange-definition"></a>Importar una definición de intercambio de datos existente
 
 1. Guarde el archivo XML que representa la definición del intercambio de datos en una ubicación adecuada.  
 2. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.  
 3. Seleccione la acción **Importar definición de intercambio de datos**.  
 4. Seleccione el archivo que ha guardado en el paso 1.  
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

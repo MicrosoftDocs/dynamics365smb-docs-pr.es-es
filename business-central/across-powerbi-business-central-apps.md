@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the--apps-in-power-bi"></a>Usar aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
+# <a name="use-the--apps-in-power-bi"></a><a name="use-the--apps-in-power-bi"></a>Usar aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI
 
 > **SE APLICA A:**[!INCLUDE [prod_long](includes/prod_long.md)] Online 
 
@@ -20,7 +20,7 @@ ms.author: jswymer
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
-## <a name="overview"></a>Panorama
+## <a name="overview"></a><a name="overview"></a>Panorama
 
 Cada aplicación incluye varios informes en los que puede profundizar en busca de datos, incluidas las siguientes características:
 
@@ -34,7 +34,7 @@ Las aplicaciones están diseñadas para trabajar con datos de cualquier empresa 
 > [!NOTE]
 > También puede crear sus propios informes y paneles en Power BI basándose en sus datos de [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Conectar los datos empresariales con Power BI](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a><a name="prerequisites"></a>Requisitos previos
 
 Las aplicaciones de Power BI requieren permisos para las tablas de donde se recuperan los datos y los servicios web que se utilizan para recuperar los datos. La siguiente tabla enumera los servicios web necesarios para cada aplicación de Power BI:
     
@@ -47,11 +47,11 @@ Las aplicaciones de Power BI requieren permisos para las tablas de donde se recu
 > [!TIP]
 > Un modo de fácil de encontrar los servicios web es buscar *servicios web* en [!INCLUDE[prod_short](includes/prod_short.md)]. En la página de **Servicios web**, asegúrese de que el campo **Publicar** esté seleccionado para los servicios web enumerados más arriba. Para obtener más información, consulte [Publicar un servicio web](across-how-publish-web-service.md).
 
-## <a name="get-ready"></a>Prepararse
+## <a name="get-ready"></a><a name="get-ready"></a>Prepararse
 
 Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Cuando se registre, use su dirección de correo electrónico y contraseña del trabajo.
 
-## <a name="install-a--app-in-power-bi"></a>Instale una aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
+## <a name="install-a--app-in-power-bi"></a><a name="install-a--app-in-power-bi"></a>Instale una aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
 1. Abra su explorador, navegue hasta [https://powerbi.microsoft.com](https://powerbi.microsoft.com) e inicie sesión en su cuenta.
 2. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.  
@@ -69,7 +69,7 @@ Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [h
 
     Cuando se complete, la aplicación estará disponible en **Aplicaciones** en el menú de navegación en Power BI.
 
-## <a name="connect-the--app-to-your-data"></a>Conecte la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] a sus datos
+## <a name="connect-the--app-to-your-data"></a><a name="connect-the--app-to-your-data"></a>Conecte la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] a sus datos
 
 1. Bajo **Aplicaciones**, seleccione la aplicación Business Central, luego **Conectar**.
 2. Cuando se le solicite, rellene **Nombre de empresa** y **Entorno** con información sobre la instancia de [!INCLUDE[prod_short](includes/prod_short.md)] a la que desee conectarse.
@@ -84,23 +84,23 @@ Regístrese para el servicio de Power BI. Si aún no se ha registrado, vaya a [h
 
     ![Seleccione Dynamics 365 Business Central y seleccione Obtener ahora.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## <a name="fixing-problems"></a>Solucionar problemas
+## <a name="fixing-problems"></a><a name="fixing-problems"></a>Solucionar problemas
 
 El panel de Power BI se basa en los servicios web publicados que se enumeran anteriormente. Muestra datos de la empresa de demostración o de su propia empresa si importa datos de su solución financiera actual. Sin embargo, si se produce algún error, en esta sección se proporcionará una solución para los problemas más habituales.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>No tiene una cuenta de Power BI
+### <a name="you-dont-have-a-power-bi-account"></a><a name="you-dont-have-a-power-bi-account"></a>No tiene una cuenta de Power BI
 
 No se ha configurado una cuenta de Power BI. Debe tener una licencia para obtener una cuenta de Power BI. Además, debe haber iniciado sesión previamente en Power BI para crear su espacio de trabajo de Power BI.  
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Mensaje: No hay informes habilitados. Elija Seleccionar informe para ver una lista de informes que se pueden visualizar.
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a><a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Mensaje: No hay informes habilitados. Elija Seleccionar informe para ver una lista de informes que se pueden visualizar.
 
 Este mensaje aparece si el informe predeterminado no se pudo implementar en su espacio de trabajo de Power BI. O el informe se implementó pero no se actualizó correctamente. Si sucede este problema, navegue hasta el informe en su espacio de trabajo de Power BI, seleccione **Conjunto de datos**, **Configuración** y luego actualice manualmente las credenciales. Una vez que el conjunto de datos se actualice correctamente, vuelva a [!INCLUDE[prod_short](includes/prod_short.md)] y seleccione manualmente el informe desde la página **Seleccionar informes**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>Necesita una licencia Power BI Pro para instalar la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a><a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>Necesita una licencia Power BI Pro para instalar la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
 Necesita una [Licencia Pro de Power BI](/power-bi/service-features-license-type) para compartir su contenido y las personas con las que lo comparte también lo hacen. El contenido debe estar en un espacio de trabajo con [capacidad Premium](/power-bi/service-premium-what-is). Para más información, vea [Formas de compartir el trabajo en Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Error en la validación de parámetros, asegúrese de que todos los parámetros sean válidos"
+### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a><a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Error en la validación de parámetros, asegúrese de que todos los parámetros sean válidos"
 
 Este error indica que uno o varios de los parámetros no son válidos.
 
@@ -109,7 +109,7 @@ Este error indica que uno o varios de los parámetros no son válidos.
 - Si se conecta a [!INCLUDE[prod_short](includes/prod_short.md)] local, ingresó una URL que no es válida. Puede verificar la URL en la página de **Servicios web** en [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Un puerto no está abierto para permitir que la petición pase a través de su firewall.
 
-### <a name="cant-sign-in"></a>No puede iniciar sesión
+### <a name="cant-sign-in"></a><a name="cant-sign-in"></a>No puede iniciar sesión
 
 Si obtiene un "error de inicio de sesión" después de usar sus credenciales de usuario de [!INCLUDE[prod_short](includes/prod_short.md)] para iniciar sesión, es probable que esté experimentando uno de los siguientes problemas:
 
@@ -117,36 +117,36 @@ Si obtiene un "error de inicio de sesión" después de usar sus credenciales de 
 - Ha seleccionado un tipo de autenticación distinto de Básico si se conecta con [!INCLUDE[prod_short](includes/prod_short.md)]local.
 - No ha introducido un nombre de usuario o una contraseña válidos.
 
-### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Mensaje: Su fuente de datos no se puede actualizar porque las credenciales no son válidas. Actualice sus credenciales y vuelva a intentarlo.
+### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a><a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Mensaje: Su fuente de datos no se puede actualizar porque las credenciales no son válidas. Actualice sus credenciales y vuelva a intentarlo.
 
 Para [!INCLUDE[prod_short](includes/prod_short.md)] local, el problema podría ser que la URL de OData solo esté expuesta a la red local.
 
-### <a name="incorrect-company-name"></a>Nombre de empresa incorrecto
+### <a name="incorrect-company-name"></a><a name="incorrect-company-name"></a>Nombre de empresa incorrecto
 
 Un error común es introducir el nombre para mostrar de empresa en lugar del nombre de la empresa. Para buscar el nombre de la empresa, busque **Empresas**. A continuación, use el campo **Nombre** al introducir el nombre de su empresa.
 
-### <a name="the-key-didnt-match-any-rows-in-the-table"></a>La clave no coincidía con ninguna fila de la tabla
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a><a name="the-key-didnt-match-any-rows-in-the-table"></a>La clave no coincidía con ninguna fila de la tabla
 
 Si introduce un nombre de empresa no válido durante el proceso de conexión, puede recibir el mensaje de error "La clave no coincidió con ninguna fila de la tabla". Proporcione el nombre correcto de la empresa e intente conectarse de nuevo.
 
-### <a name="historical-data-appears-to-be-missing"></a>Parece que faltan datos históricos
+### <a name="historical-data-appears-to-be-missing"></a><a name="historical-data-appears-to-be-missing"></a>Parece que faltan datos históricos
 
 Una vez que la aplicación de Power BI se instala y sus datos aparecen en Power BI, puede observar que no se muestran todos sus datos. Los conjuntos de datos se filtran para que solo se devuelvan los datos de los 365 días anteriores. Este valor predeterminado se utiliza para ayudar a que los informes sean más rápidos.  
 
-### <a name="i-only-see-data-for-a-single-company"></a>Solo veo datos de una sola empresa
+### <a name="i-only-see-data-for-a-single-company"></a><a name="i-only-see-data-for-a-single-company"></a>Solo veo datos de una sola empresa
 
 La aplicación de Power BI solo mostrará los datos de la empresa de [!INCLUDE[prod_short](includes/prod_short.md)] que se definió cuando se instaló la aplicación de Power BI. Los datos de empresas adicionales se pueden añadir a los informes añadiendo nuevas consultas que utilizan empresas diferentes como origen de datos.  
 
-### <a name="what-now"></a>¿Y ahora qué?
+### <a name="what-now"></a><a name="what-now"></a>¿Y ahora qué?
 
 - Intente [hacer una pregunta en el cuadro de preguntas](/power-bi/service-q-and-a-tips) en la parte superior del escritorio.
 - [Cambie los mosaicos](/power-bi/service-dashboard-edit-tile) en el escritorio.  
 - [Seleccione un mosaico](/power-bi/service-dashboard-tiles) para abrir el informe subyacente.  
 - De forma predeterminada, su conjunto de datos no está programado para actualizarse. Puede cambiar la programación de actualización o intentar actualizarlo a petición utilizando **Actualizar ahora**. Para obtener más información, vea [Configuración de actualización programada](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Business Central y Power BI](admin-powerbi.md)  
 [Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

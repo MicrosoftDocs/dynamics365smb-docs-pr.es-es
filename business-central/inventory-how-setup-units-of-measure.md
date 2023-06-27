@@ -10,7 +10,7 @@ ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-units-of-measure"></a>Configurar unidades de medida
+# <a name="set-up-units-of-measure"></a><a name="set-up-units-of-measure"></a>Configurar unidades de medida
 
 Como parte de la configuración de su [!INCLUDE [prod_short](includes/prod_short.md)], configura unidades de medida generales en la página **Unidades de medida**. Luego, cuando registra nuevos artículos, especifica la unidad de medida base en la **Ficha de producto**. Pero también puede agregar unidades de medida más adelante.  
 
@@ -23,7 +23,7 @@ Si un producto se almacena en una unidad de medida pero se fabrica en otra, se c
 
 Otra herramienta que facilita el trabajo con varias unidades de medida para elementos es la capacidad de especificar una precisión de redondeo para las unidades de medida base. La especificación de una precisión de redondeo proporciona una guía sobre lo que alguien debe introducir para un proceso empresarial determinado y ayuda a reducir los problemas de redondeo. Cuando usa unidades de medida alternativas, el valor en el campo **Cant. por unidad de medida** ayuda a calcular la cantidad en la unidad de medida base, lo que puede generar problemas de redondeo. Por ejemplo, imagina que estás recibiendo una caja que contiene seis productos. Cuando la caja llega a su almacén, descubre que falta uno de los seis productos. Decide no publicar el recibo de una caja, sino cambiar la cantidad recibida a cinco de seis piezas. Eso llevaría a recibir 4,99998 piezas, en lugar de cinco. En la página **Unidades medida producto**, el campo **Precisión de redondeo de cantidad** le permite especificar un valor que convertirá la cantidad en un número más fácil de entender. Continuando con el ejemplo, introduciríamos **1** en el campo para redondear hasta cinco piezas iguales.
 
-## <a name="to-set-up-units-of-measure"></a>Para configurar unidades de medida
+## <a name="to-set-up-units-of-measure"></a><a name="to-set-up-units-of-measure"></a>Para configurar unidades de medida
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de medida** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Se insertará una nueva línea vacía.  
@@ -36,7 +36,7 @@ Otra herramienta que facilita el trabajo con varias unidades de medida para elem
 
 Cuando registre un nuevo elemento, puede elegir la unidad medida base de la lista de unidades de medida que ha configurado. También puede configurar múltiples unidades de medida para un producto.  
 
-## <a name="to-set-up-multiple-item-units-of-measure"></a>Para configurar múltiples unidades medida producto
+## <a name="to-set-up-multiple-item-units-of-measure"></a><a name="to-set-up-multiple-item-units-of-measure"></a>Para configurar múltiples unidades medida producto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la ficha del producto para el que desea configurar unidades de medida alternas.
@@ -54,7 +54,7 @@ Cuando registre un nuevo elemento, puede elegir la unidad medida base de la list
 
 Ahora puede utilizar las unidades de medida alternas de los documentos de compra, producción y venta. Para obtener más información, consulte [Para introducir un código de unidad de medida predeterminada para las transacciones de compra y venta](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
-## <a name="to-set-up-unit-of-measure-translations"></a>Para configurar traducciones de unidades de medida
+## <a name="to-set-up-unit-of-measure-translations"></a><a name="to-set-up-unit-of-measure-translations"></a>Para configurar traducciones de unidades de medida
 
 Cuando vende productos a clientes extranjeros, quizás le interese especificar la unidad de medida en el idioma del cliente. Puede hacerlo especificando traducciones para unidades de medida.
 
@@ -64,7 +64,7 @@ Cuando vende productos a clientes extranjeros, quizás le interese especificar l
 4. En el campo **Descripción**, escriba el texto correspondiente.
 5. Repita los pasos del 2 al 4 con los códigos de unidad de medida y los idiomas para los que desea especificar traducciones.
 
-## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Para introducir un código de unidad de medida predeterminada para las transacciones de compra y venta
+## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a><a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Para introducir un código de unidad de medida predeterminada para las transacciones de compra y venta
 
 Si suele comprar o vender en unidades que no sean la unidad de medida base, especifique unidades de medida diferentes para las compras y las ventas. Para ello, debe configurar las unidades de medida en la página **Unidades medida producto**.
 
@@ -74,9 +74,9 @@ Si suele comprar o vender en unidades que no sean la unidad de medida base, espe
 4. En compras, en la ficha desplegable **Reposición**, en el campo **Unidad medida compra**, abra la página **Unidades medida producto**.
 5. Seleccione el código que desea configurar como la unidad de medida predeterminada para ventas o compras, respectivamente y elija el botón **Aceptar**.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Trabajar con la unidad de medida de lote de fabricación](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
+# <a name="design-details-central-concepts-of-the-planning-system"></a><a name="design-details-central-concepts-of-the-planning-system"></a>Detalles de diseño: Conceptos centrales del sistema de planificación
 
 Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. Luego, de acuerdo con el código de nivel inferior de cada artículo (posición de la lista de materiales), el trabajo por lotes llama a una unidad de código que calcula un plan de suministro. La unidad de código equilibra los conjuntos de oferta y demanda y sugiere acciones que debe realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
 
@@ -31,19 +31,19 @@ No obstante, el cálculo del plan de aprovisionamiento implica a distintos subsi
 
 El sistema de planificación no incluye ninguna lógica dedicada para la nivelación de capacidad o para la programación precisa. Esos tipos de trabajo de programación se realizan por separado. La falta de integración directa entre las dos áreas también significa que los cambios importantes de capacidad o de programación requerirán que vuelva a ejecutar la planificación.  
 
-## <a name="planning-parameters"></a>Parámetros de la planificación
+## <a name="planning-parameters"></a><a name="planning-parameters"></a>Parámetros de la planificación
 
 Los parámetros de planificación que establece para un producto o un grupo de productos controlan qué acciones sugerirá el sistema de planificación en las distintas situaciones. Defina parámetros de planificación para cada producto para comprobar el momento, la cantidad y el modo de reposición.  
 
 También puede definir parámetros de planificación para cualquier combinación de producto, variante y ubicación mediante la configuración de una unidad de almacenamiento (UA) para cada combinación y, a continuación, mediante la especificación de los parámetros individuales. Obtenga más información en [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md) y [Detalles de diseño: Parámetros de planificación](design-details-planning-parameters.md).  
 
-## <a name="planning-starting-date"></a>Fecha inicial de la planificación
+## <a name="planning-starting-date"></a><a name="planning-starting-date"></a>Fecha inicial de la planificación
 
 El sistema de planificación lo ayuda a evitar tener pedidos abiertos en el pasado y acciones sugeridas que no son posibles. Planificación trata todas las fechas anteriores a la fecha de inicio como una zona congelada. La regla siguiente se aplica a la zona congelada:  
 
 * Toda la demanda y aprovisionamiento antes de la fecha de inicio del periodo de planificación se tiene como parte del inventario o enviado. Es decir, se asume que el plan para el pasado se ejecuta según el plan proporcionado. Obtenga más información en [Procesar pedidos antes de la fecha de inicio de la planificación](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).  
 
-## <a name="dynamic-order-tracking-pegging"></a>Seguimiento dinámico de pedidos (fijación)
+## <a name="dynamic-order-tracking-pegging"></a><a name="dynamic-order-tracking-pegging"></a>Seguimiento dinámico de pedidos (fijación)
 
 El seguimiento dinámico de pedidos y su creación simultánea de mensajes de acción en la hoja de trabajo de planificación, no forma parte del sistema de planificación de suministro. Cuando se crea o se cambia una nueva demanda o suministro, el seguimiento dinámico de pedidos vincula, en tiempo real, la demanda y las cantidades que podrían cubrirla,  
 
@@ -57,7 +57,7 @@ Obtenga más información en [Detalles de diseño: Reserva, seguimiento de pedid
 
 En empresas con un flujo de productos bajo y menos estructuras de producto avanzadas, podría ser suficiente utilizar el seguimiento dinámico de pedidos para la planificación de aprovisionamiento. No obstante, en entornos más ocupados, el sistema de planificación se debe utilizar para garantizar un plan de aprovisionamiento correctamente equilibrado.  
 
-### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Seguimiento dinámico de pedidos frente al sistema de planificación
+### <a name="dynamic-order-tracking-versus-the-planning-system"></a><a name="dynamic-order-tracking-versus-the-planning-system"></a>Seguimiento dinámico de pedidos frente al sistema de planificación
 
 Poddría ser complicado diferenciar entre el sistema de planificación y el seguimiento dinámico de pedidos. Ambas funciones muestran la salida en la hoja de trabajo de la planificación mediante la sugerencia de acciones que el planificador debe realizar. No obstante, la forma en la que se produce esta salida es diferente.  
 
@@ -73,13 +73,13 @@ El sistema de planificación se ocupa de la oferta y la demanda de artículos en
 
 Después de ejecutar la planificación, la tabla Entrada de mensaje de acción no contiene ningún mensaje de acción. Esos mensajes son reemplazados por las acciones sugeridas en la hoja de trabajo de planificación. Obtenga más información en [Conexiones de seguimiento de pedidos durante la planificación](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).  
 
-## <a name="sequence-and-priority-in-planning"></a>Secuencia y prioridad en la planificación
+## <a name="sequence-and-priority-in-planning"></a><a name="sequence-and-priority-in-planning"></a>Secuencia y prioridad en la planificación
 
 La a secuencia de los cálculos en el plan es importante para que el trabajo se realice en un intervalo de tiempo razonable. La priorización de los requisitos y los recursos también desempeña una importante función a la hora de obtener los mejores resultados.  
 
 El sistema de planificación se basa en la demanda. Los productos de primer nivel se deben planificar antes que los productos de nivel inferior, ya que pueden generar una demanda adicional para los productos de nivel inferior. Por ejemplo, las ubicaciones minoristas deben planificarse antes de que se planifiquen los centros de distribución, porque la ubicación minorista podría incluir demanda adicional del centro de distribución. En un nivel de contrapartida detallado, si un pedido de suministro lanzado puede cubrir el pedido de venta, el sistema no debe crear una nueva orden de suministro. No se debe asignar un suministro con un número de lote específico para cubrir una demanda genérica si otra demanda requiere este lote concreto.  
 
-### <a name="item-priority--low-level-code"></a>Prioridad de producto / Cód. nivel más bajo
+### <a name="item-priority--low-level-code"></a><a name="item-priority--low-level-code"></a>Prioridad de producto / Cód. nivel más bajo
 
 En un entorno de fabricación, la demanda para un producto terminado y sellable dará como resultado una demanda derivada para los componentes que forman parte del producto terminado. La estructura de lista de materiales controla la estructura de componentes y puede abarcar varios niveles de productos semiterminados. La planificación de un producto en un nivel provocará demanda derivada para los componentes en el siguiente nivel. Esta jerarquía dará como resultado finalmente una demanda derivada de los productos comprados. El sistema de planificación planifica artículos en orden de clasificación en la jerarquía total de la lista de materiales. El sistema comienza con artículos vendibles terminados en el nivel superior y continúa hacia abajo en la estructura del producto hasta los artículos de nivel inferior (según el código de nivel inferior).  
 
@@ -89,7 +89,7 @@ La siguiente imagen muestra la secuencia en la que [!INCLUDE [prod_short](includ
 
 Para obtener más información acerca de las consideraciones de fabricación, vaya a [Cargar perfiles de inventario](design-details-balancing-demand-and-supply.md#load-inventory-profiles).  
 
-#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimización del rendimiento para cálculos de bajo nivel
+#### <a name="optimizing-performance-for-low-level-calculations"></a><a name="optimizing-performance-for-low-level-calculations"></a>Optimización del rendimiento para cálculos de bajo nivel
 
 Los cálculos de código de bajo nivel pueden afectar al rendimiento del sistema. Para reducir el efecto, puede desactivar el control de alternancia **Cálculo dinámico de códigos de bajo nivel** en la página **Configuración fabricación**. Cuando lo haga, [!INCLUDE[prod_short](includes/prod_short.md)] le sugiere que cree una entrada de cola de trabajos recurrente para actualizar diariamente los códigos de bajo nivel. Puede asegurarse de que el trabajo se ejecutará fuera del horario laboral especificando una hora de inicio en el campo **Primera fecha/hora de inicio**.
 
@@ -98,7 +98,7 @@ También puede agilizar los cálculos de códigos de bajo nivel seleccionando el
 > [!IMPORTANT]
 > Si elige optimizar el rendimiento, [!INCLUDE[prod_short](includes/prod_short.md)] utilizará nuevos métodos de cálculo para determinar los códigos de bajo nivel. Si tiene una extensión que se basa en los eventos utilizados por los cálculos anteriores, la extensión podría dejar de funcionar.
 
-### <a name="locations--transfer-level-priority"></a>Prioridad de ubicaciones o de nivel de transferencia
+### <a name="locations--transfer-level-priority"></a><a name="locations--transfer-level-priority"></a>Prioridad de ubicaciones o de nivel de transferencia
 
 Las empresas con más de un almacén podrían tener que planificar para cada almacén por individual. Por ejemplo, el nivel de existencias de seguridad de un producto y su directiva de reaprovisionamiento podrían diferir de un almacén a otro. Debe especificar los parámetros de planificación por artículo y ubicación.  
 
@@ -110,11 +110,11 @@ Cualquier producto puede gestionarse en cualquier almacén, pero [!INCLUDE [prod
 
 Obtenga más información en [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md).  
 
-### <a name="order-priority"></a>Prioridad pedido
+### <a name="order-priority"></a><a name="order-priority"></a>Prioridad pedido
 
 En una UA concreta, la fecha solicitada o disponible representa la máxima prioridad; la demanda de hoy se debe tratar antes que la de los próximos días. Pero aparte de esta clase de prioridad, los distintos tipos de demanda y aprovisionamiento se ordenan según su relevancia empresarial para decidir qué demanda se debe satisfacer primero. Por el lado de la oferta, la prioridad de la orden determina la fuente de suministro a aplicar primero. Obtenga más información en [Priorizar pedidos](design-details-balancing-demand-and-supply.md#prioritize-orders).  
 
-## <a name="demand-forecasts-and-blanket-orders"></a>Previsiones de demanda y pedidos abiertos
+## <a name="demand-forecasts-and-blanket-orders"></a><a name="demand-forecasts-and-blanket-orders"></a>Previsiones de demanda y pedidos abiertos
 
 Las previsiones y los pedidos abiertos representan ambos la demanda prevista. El pedido abierto, que abarca las compras previstas de un cliente durante un determinado periodo de tiempo, sirve para reducir la incertidumbre de una previsión global. El pedido abierto es una previsión específica del cliente por encima de la previsión sin especificar, como se ilustra en la imagen isguiente.  
 
@@ -122,7 +122,7 @@ Las previsiones y los pedidos abiertos representan ambos la demanda prevista. El
 
 Obtenga más información en [Los pedidos de ventas reducen la demanda de previsión](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-## <a name="planning-assignment"></a>Asignar planificación
+## <a name="planning-assignment"></a><a name="planning-assignment"></a>Asignar planificación
 
 Todos los artículos deben volver a planificarse para cuando el patrón de oferta o demanda haya cambiado desde la última vez que se calculó un plan. Por ejemplo, si introduce un nuevo pedido de venta o cambia uno existente, vuelva a calcular el plan. Entre otros motivos del nuevo cálculo del plan se incluye un cambio en la previsión o en el stock de seguridad. Un cambio en una lista de materiales mediante la adición o eliminación de un componente también indicaría probablemente un cambio, pero para el producto componente solo.  
 
@@ -141,7 +141,7 @@ Algunas personas creen que la planificación de cambio neto se debe realizar de 
 
 El sistema de planificación planifica solo los productos que ha preparado con los parámetros apropiados de planificación. De lo contrario, se supone que planeará los productos de un modo manual o semiautomático con la característica Planificación de pedidos. Para obtener más información sobre los procedimientos de planificación automática, vaya a [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md).  
 
-## <a name="item-dimensions"></a>Dimensiones de producto
+## <a name="item-dimensions"></a><a name="item-dimensions"></a>Dimensiones de producto
 
 La demanda y el aprovisionamiento pueden llevar códigos de variante y códigos de almacén que se deben respetar cuando el sistema de planificación salde la demanda y el aprovisionamiento.  
 
@@ -149,13 +149,13 @@ La demanda y el aprovisionamiento pueden llevar códigos de variante y códigos 
 
 En lugar de calcular cualquier combinación teórica de variante y ubicación, [!INCLUDE [prod_short](includes/prod_short.md)] solo calcula las combinaciones que existen realmente en la base de datos. Para obtener más información sobre cómo el sistema de planificación gestiona los códigos de almacén en demandas, vaya a [Detalles de diseño: Demanda en almacén vacío](design-details-balancing-demand-and-supply.md).  
 
-## <a name="item-attributes"></a>Atributos de artículo
+## <a name="item-attributes"></a><a name="item-attributes"></a>Atributos de artículo
 
 Los artículos suelen tener atributos generales, como el número de artículo am, el código de variante, el código de ubicación y el tipo de pedido. Sin embargo, cada evento de demanda y suministro puede tener otras especificaciones, como números de serie o de lote. El sistema de planificación planea estos atributos de determinadas formas según su nivel de especificación.  
 
 Un vínculo de pedido a pedido entre demanda y aprovisionamiento es otro tipo de atributo que afecta al sistema de planificación. Obtenga más información en [Enlaces de pedido a pedido](#order-to-order-links).
 
-### <a name="specific-attributes"></a>Atributos específicos
+### <a name="specific-attributes"></a><a name="specific-attributes"></a>Atributos específicos
 
 Algunos atributos de la demanda son específicos y la oferta debe coincidir exactamente con ellos.
 
@@ -169,7 +169,7 @@ El sistema de planificación aplica las reglas siguientes a estos atributos:
 
 Si el inventario o los suministros proyectados no cumplen una demanda de atributos específicos, el sistema de planificación sugiere un nuevo pedido de aprovisionamiento sin sin tener en cuenta los parámetros de planificación.  
 
-### <a name="non-specific-attributes"></a>Atributos no específicos
+### <a name="non-specific-attributes"></a><a name="non-specific-attributes"></a>Atributos no específicos
 
 Los artículos con números de serie o de lote sin una configuración específica de seguimiento de artículos pueden tener números de serie o de lote no específicos. Estos tipos de números se pueden aplicar a cualquier número de serie o de lote. El sistema de planificación tiene más libertad, por ejemplo, para hacer corresponder una demanda serializada con un suministro serializado, normalmente en inventario.  
 
@@ -177,7 +177,7 @@ Los suministros a demanda con números de serie o de lote, específicos o no esp
 
 Para obtener más información sobre cómo el sistema de planificación equilibra los atributos, vaya a [Exención de números de serie y de lote y de vínculos de pedido a pedido del periodo anterior](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period).  
 
-## <a name="order-to-order-links"></a>Vínculos de pedido a pedido
+## <a name="order-to-order-links"></a><a name="order-to-order-links"></a>Vínculos de pedido a pedido
 
 Pedido a pedido significa que usted compra, ensambla o produce un artículo para una demanda específica. Hay varias razones para elegir esta póliza:
 
@@ -200,7 +200,7 @@ Cuando existen vínculos de pedido contra pedido, el sistema de planificación n
 
 Los enlaces de reservas y seguimiento de pedidos se rompen si una situación se vuelve imposible. Por ejemplo, al mover la demanda a una fecha anterior a la oferta. Los enlaces de pedido a pedido se adaptan a los cambios en la oferta o la demanda y nunca se rompen.  
 
-## <a name="reservations"></a>Reservas
+## <a name="reservations"></a><a name="reservations"></a>Reservas
 
 El sistema de planificación no incluye ninguna cantidad reservada en los cálculos. Por ejemplo, si una cantidad para un pedido de ventas está total o parcialmente reservada, no puede usar la cantidad para cubrir otra demanda.
 
@@ -212,7 +212,7 @@ La siguiente imagen muestra cómo las reservas pueden dificultar la planificaci�
 
 Obtenga más información en [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-## <a name="warnings"></a>Advertencias
+## <a name="warnings"></a><a name="warnings"></a>Advertencias
 
 La primera columna de la hoja de planificación corresponde a los campos de advertencia. Aparece un icono de advertencia cuando crea una línea de planificación para una situación inusual.  
 
@@ -224,7 +224,7 @@ El suministro de las líneas de planificación con advertencias no se modifica n
 
 :::image type="content" source="media/nav_app_supply_planning_1_warnings.png" alt-text="Advertencias en la hoja de planificación.":::
 
-### <a name="emergency"></a>Emergencia
+### <a name="emergency"></a><a name="emergency"></a>Emergencia
 
 La advertencia de emergencia se muestra en dos situaciones:  
 
@@ -235,7 +235,7 @@ Si el inventario de un producto es negativo en la fecha de inicio de la planific
 
 Las líneas de documento con fecha de vencimiento antes de la fecha de inicio de la planificación se consolidan en un pedido de demanda de emergencia. El pedido se planifica para llegar en la fecha de inicio de la planificación.  
 
-### <a name="exception"></a>Excepción
+### <a name="exception"></a><a name="exception"></a>Excepción
 
 Se mostrará la advertencia de excepción si el inventario disponible previsto cae por debajo de la cantidad de existencias de seguridad. El programa de planificación sugerirá un pedido de suministros para cubrir la demanda en la fecha de vencimiento. El texto de advertencia informa de la cantidad de existencias de seguridad del producto y de la fecha en la que se infringe.  
 
@@ -246,7 +246,7 @@ Las propuestas de pedido excepcionales ayudan a garantizar que el inventario dis
 > [!NOTE]  
 > El sistema de planificación puede haber consumido el stock de seguridad intencionadamente y, a continuación, lo repondrá de forma inmediata. Obtenga más información en [Consumir existencias de seguridad](design-details-balancing-demand-and-supply.md#consume-safety-stock).
 
-### <a name="attention"></a>Atención
+### <a name="attention"></a><a name="attention"></a>Atención
 
 La advertencia de atención se muestra en tres situaciones:  
 
@@ -257,7 +257,7 @@ La advertencia de atención se muestra en tres situaciones:
 > [!NOTE]  
 > En las líneas de planificación con advertencias, el campo **Aceptar mensaje acción** está desactivado, ya que se espera que el planificador investigue estás líneas antes de llevar a cabo el plan.  
 
-## <a name="error-logs"></a>Registros de errores
+## <a name="error-logs"></a><a name="error-logs"></a>Registros de errores
 
 En la página de la solicitud **Calcular plan**, puede seleccionar el campo **Parar y mostrar primer error** para incluir una parada en la ejecución de la planificación cuando se encuentre el primer error. Se muestra un mensaje con información sobre el error. Si hay algún error, la hoja de cálculo de planificación solo mostrará las líneas de planificación correctas realizadas antes de que se produjera el error.  
 
@@ -265,20 +265,20 @@ Si el campo no está seleccionado, el trabajo por lotes **Calcular plan** contin
 
 :::image type="content" source="media/nav_app_supply_planning_1_error_log.png" alt-text="Mensajes de error en la hoja de planificación.":::
 
-## <a name="planning-flexibility"></a>Flexib. planificación
+## <a name="planning-flexibility"></a><a name="planning-flexibility"></a>Flexib. planificación
 
 No siempre es práctico planificar un pedido de suministro existente. Por ejemplo, cuando la producción ha comenzado o contratas personas adicionales en un día específico para hacer el trabajo. Para indicar si el sistema de planificación puede cambiar un pedido, todas las líneas de pedido de suministro tienen el campo **Flexib. planificación** con dos opciones: **Ilimitada** o **Ninguna**. Si el campo está establecido en **Ninguno**, el sistema de planificación no intentará modificar la línea del pedido de aprovisionamiento.  
 
 Puede elegir manualmente una opción del campo, pero, en algunos casos [!INCLUDE [prod_short](includes/prod_short.md)] lo configurará automáticamente. Es importante el hecho de que pueda configurar manualmente la flexibilidad de planificación, ya que facilita la adaptación del uso de la característica a diferentes flujos de trabajo y casos empresariales. Para obtener más información acerca de cómo se utiliza este campo, vaya a [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md).  
 
-## <a name="order-planning"></a>Planificación de pedidos
+## <a name="order-planning"></a><a name="order-planning"></a>Planificación de pedidos
 
 La herramienta de planificación de suministro básica representada por la página **Planificación de pedidos** se ha diseñado para la toma de decisiones manual. No tiene en cuenta ningún parámetro de planificación, por lo que no se contempla más adelante en este artículo. Obtenga más información en [Planificación de nuevos pedidos a pedido por pedido](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 > Recomendamos que no use la planificación de pedidos si su empresa ya utiliza las hojas de trabajo de planificación o solicitud. Los pedidos de aprovisionamientos creados a través de la página **Programación de pedidos** se pueden modificar o eliminar durante las ejecuciones de planificaciones automatizadas. Estos cambios suceden porque los procesos de planificación automatizados utilizan parámetros de planificación que podría no haber tenido en cuenta al realizar el plan manualmente en la página Programación de pedidos.  
 
-## <a name="finite-loading"></a>Carga limitada
+## <a name="finite-loading"></a><a name="finite-loading"></a>Carga limitada
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un cronograma aproximado para planificar el uso razonable de los recursos. No crea ni mantiene automáticamente programaciones detalladas basadas en prioridades o reglas de optimización.  
 
@@ -294,7 +294,7 @@ Al planificar con recursos de capacidad limitada, [!INCLUDE [prod_short](include
 
 Puede agreagar tiempo de amortiguación a recursos para minimizar la división de operaciones. Esta vez vamos a permitir que [!INCLUDE [prod_short](includes/prod_short.md)] programe la carga para el último día posible superando ligeramente el porcentaje de carga crítica.  
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)  
 [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)  

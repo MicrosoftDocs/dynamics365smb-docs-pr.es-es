@@ -12,31 +12,31 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Marque una página o informe en su Área de trabajo
+# <a name="bookmark-a-page-or-report-on-your-role-center"></a><a name="bookmark-a-page-or-report-on-your-role-center"></a>Marque una página o informe en su Área de trabajo
 Con el nuevo icono de marcador, puede agregar una acción que abre una página o informe desde el menú de navegación de su Área de trabajo. Los marcadores le permiten alcanzar rápidamente su contenido favorito o tareas comerciales. Agrega el marcador desde la página o informe de destino, lo que significa la pantalla que quiera vincular en el Área de trabajo para abrir.
 
 El icono de marcador se muestra en la esquina superior derecha de una página y también en la ventana **Dígame** donde puede marcar de manera eficiente múltiples páginas o informes. Si ya existe un marcador para la página, el icono está oscuro y la información sobre herramientas indica "Marcado".
 
-## <a name="to-bookmark-the-target-page"></a>Para marcar la página de destino
+## <a name="to-bookmark-the-target-page"></a><a name="to-bookmark-the-target-page"></a>Para marcar la página de destino
 1. Abra cualquier página para la que desee un vínculo en su área de trabajo.
 2. Elija el icono ![Marcador.](media/ui_bookmark_icon.png "Marcador"). .
 
 Ahora se agrega un nombre de acción según la página al menú de navegación en su área de trabajo.
 
-## <a name="to-bookmark-the-target-report"></a>Para marcar el informe de destino
+## <a name="to-bookmark-the-target-report"></a><a name="to-bookmark-the-target-report"></a>Para marcar el informe de destino
 1. Abra cualquier solicitud de informe para la que desee un vínculo en su área de trabajo.
 2. Elija el icono ![Marcador.](media/ui_bookmark_icon.png "Marcador") .
 
 Ahora se agrega un nombre de acción según el informe al menú de navegación en su área de trabajo.
 
-## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Para marcar una página o un informe desde la ventana Avisarme
+## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a><a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Para marcar una página o un informe desde la ventana Avisarme
 1. Abra la ventana **Dígame** e introduzca, por ejemplo, **Pedidos de venta**.
 2. Pase el cursor sobre el resultado de búsqueda para la página o informe **Pedidos de venta** y luego elija el icono ![Marcador](media/ui_bookmark_icon.png "Marcador") .
 
 Ahora se agrega un nombre de acción según la página o informe al menú de navegación en su área de trabajo.
 
 
-## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+## <a name="frequently-asked-questions"></a><a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
 - **¿Puedo reorganizar mis marcadores?**  
 Sí. Puede personalizar su Área de trabajo y mover las acciones a una secuencia más óptima o moverlas a grupos o subgrupos existentes.  
@@ -76,7 +76,7 @@ Cuando se agrega una acción nueva, cualquier texto traducido que estaba disponi
 - **¿Por qué no puedo agregar texto en una página directamente después de abrirla con el marcador?**<br> Cuando se marca una página, la página siempre se abrirá en el modo de visualización desde el marcador &mdash;incluso si estaba en el modo de edición cuando se marcó como favorito. Si selecciona el icono **Realizar cambios en la página** ![Muestra el icono de lápiz para editar la página.](media/edit-pencil.png) le permitirá agregar texto en los campos que son editables.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 [Personalizar el área de trabajo](ui-personalization-user.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  

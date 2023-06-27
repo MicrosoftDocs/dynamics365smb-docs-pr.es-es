@@ -11,7 +11,7 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
 ms.date: 03/24/2022
 ms.author: edupont
 ---
-# <a name="create-number-series"></a>Crear numeración
+# <a name="create-number-series"></a><a name="create-number-series"></a>Crear numeración
 
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
 
@@ -32,10 +32,10 @@ Las series numéricas normalmente se configuran para insertar automáticamente e
 
 Si desea usar más de un código de serie numérica para un tipo de datos maestros, por ejemplo, usar una serie numérica diferente para categorías de productos, puede establecer relaciones de series numéricas.
 
-## <a name="gaps-in-number-series"></a>Espacios en serie numérica
+## <a name="gaps-in-number-series"></a><a name="gaps-in-number-series"></a>Espacios en serie numérica
 No todos los registros que crea en [!INCLUDE[prod_short](includes/prod_short.md)] son transacciones financieras que deben usar una numeración secuencial. Las fichas de cliente, las ofertas de venta y las actividades de almacén son ejemplos de registros a los que se les asigna un número de una serie numérica, pero no están sujetos a auditoría financiera o pueden eliminarse. Para estas series numéricas, puede seleccionar la casilla **Permitir espacios en números** en la página **Líneas nº serie**. Esta configuración también se puede cambiar después de crear la serie numérica. Para obtener más información, consulte [Para crear una nueva serie numérica](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamiento del campo de número en documentos y fichas
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a><a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamiento del campo de número en documentos y fichas
 
 En documentos venta, compra y transferencia y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números predefinida o puede agregarlo manualmente. Sin embargo, bajo ciertas circunstancias, el campo **N.º** es invisible para evitar que lo edite.  
 
@@ -57,7 +57,7 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 > [!NOTE]  
 > Si necesita activar la numeración manual, por ejemplo, se han creado nuevas fichas de producto con un proceso de la migración de datos que ha ocultado el campo **Nº** de forma predeterminada, vaya a la página **Configuración del inventario** y elija el campo **Nº serie producto** para abrir y para definir las series numéricas relacionadas con **Numeración manual**.
 
-## <a name="to-create-a-new-number-series"></a>Para crear una nueva serie numérica
+## <a name="to-create-a-new-number-series"></a><a name="to-create-a-new-number-series"></a>Para crear una nueva serie numérica
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Nº series** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.  
@@ -71,7 +71,7 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 
 Puede asignar series numéricas a las plantillas que configura para los diferentes tipos de clientes y proveedores que su personal de ventas y compradores agregan con mayor frecuencia a su [!INCLUDE [prod_short](includes/prod_short.md)]. En ese caso, configure la serie de números relevante, vincúlelos a través de relaciones y luego agregue la primera serie de números de la relación relevante a la página de configuración correspondiente. A continuación, cuando un usuario crea un cliente, elige la plantilla correspondiente, y el nuevo cliente recibe un número asignado de la serie de números que se ha definido para esa plantilla.  
 
-## <a name="to-create-relationships-between-number-series"></a>Para crear relaciones entre números de serie
+## <a name="to-create-relationships-between-number-series"></a><a name="to-create-relationships-between-number-series"></a>Para crear relaciones entre números de serie
 
 Si ha configurado más de un código de número de serie para el mismo tipo de información básica o transacciones, puede crear relaciones entre los códigos. Esta característica puede servirle de ayuda para decidir entre un código u otro cuando utilice un número. Cuando configure una relación entre varias series de números, asocie todas las series relacionadas a un código de número de serie. Luego puede ingresar ese código en un campo de la ficha desplegable **Numeración** en una de las páginas de configuración relevantes, como **Configuración de ventas y cobros**.  
 
@@ -83,7 +83,7 @@ Si ha configurado más de un código de número de serie para el mismo tipo de i
 
 En lo sucesivo, cuando configure algo que requiera un número, podrá utilizar las relaciones que haya creado para seleccionar uno de los números de serie relacionados.
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Para configurar dónde se usa una serie numérica
+## <a name="to-set-up-where-a-number-series-is-used"></a><a name="to-set-up-where-a-number-series-is-used"></a>Para configurar dónde se usa una serie numérica
 
 El siguiente procedimiento muestra cómo configurar una serie numérica para el área de ventas. Los pasos son parecidos a los de otras áreas.  
 
@@ -92,9 +92,9 @@ El siguiente procedimiento muestra cómo configurar una serie numérica para el 
 
 El número seleccionado se utilizará para rellenar el campo **Nº** en la ficha o el documento en cuestión, según la configuración que ha establecido en la línea de serie numérica.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/number-series-trail-codes-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/number-series-trail-codes-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

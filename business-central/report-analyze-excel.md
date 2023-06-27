@@ -10,17 +10,17 @@ ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, W
 ms.date: 03/16/2022
 ms.author: jswymer
 ---
-# <a name="analyzing-report-data-with-excel-and-xml"></a>Análisis de datos de informes con Excel y XML
+# <a name="analyzing-report-data-with-excel-and-xml"></a><a name="analyzing-report-data-with-excel-and-xml"></a>Análisis de datos de informes con Excel y XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
 Como desarrollador o usuario avanzado, es útil inspeccionar los datos que se generan para un conjunto de datos de informe determinado mientras crea nuevos informes o modifica los existentes. Para admitir esta capacidad, puede exportar un conjunto de datos de informe como datos sin procesar a una hoja de cálculo de Excel, o archivo XML, directamente. En Excel, por ejemplo, puede realizar un análisis ad-hoc de los datos y diagnosticar problemas.
 
-## <a name="get-started"></a>Introducción
+## <a name="get-started"></a><a name="get-started"></a>Introducción
 
 Para exportar un conjunto de datos de informe a una hoja de cálculo de Excel o archivo XML, abra el informe en el cliente y luego, en la página de la solicitud, seleccione **Enviar a** > **Documento Microsoft Excel (solo datos)** o **Documento XML**. El archivo se descargará en su dispositivo.
 
-## <a name="more-about-excel-data-only"></a>Más sobre Excel (solo datos)
+## <a name="more-about-excel-data-only"></a><a name="more-about-excel-data-only"></a>Más sobre Excel (solo datos)
 
 La opción **Documento de Microsoft Excel (solo datos)** exporta los resultados del informe y los criterios que se utilizaron para generarlos, pero no incluye el diseño del informe. El archivo de Excel incluirá el conjunto de datos completo, como datos sin procesar, organizados en filas y columnas. Se incluyen todas las columnas de datos del conjunto de datos del informe, independientemente de si se utilizan en el diseño del informe.
 
@@ -31,13 +31,13 @@ Cada vez que exporta resultados, se crea una nueva hoja de trabajo. Utilizando l
 > [!NOTE]
 > No puede exportar un informe que tenga más de 1 048 576 filas o 16 384 columnas. Con Business Central local, el número máximo de filas exportadas puede ser incluso menor. Business Central Server incluye una opción de configuración, denominada **Filas de datos máximas permitidas para enviar a Excel**, para disminuir el límite del valor máximo. Para más información, vea [Configuración de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) o comuníquese con su administrador.
 
-## <a name="for-administrators"></a>Para administradores
+## <a name="for-administrators"></a><a name="for-administrators"></a>Para administradores
 
 - **Documento de Microsoft Excel (solo datos)** se introdujo como característica opcional en 2021 lanzamiento de versiones 1, actualización 18.3. Para dar acceso a los usuarios a esta característica mientras ejecutan el primer lanzamiento de versiones de 2021, habilite la característica **Guardar el conjunto de datos de informe en documento de Microsoft Excel**, en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management). En el segundo lanzamiento de versiones de 2021, esta característica pasa a ser permanente, por lo que no tendrá que habilitarla.
 
 - Para usar un **Documento de Microsoft Excel (solo datos)**, las cuentas de usuario necesitan el permiso **Permitir la acción Exportar conjunto de datos de informe a Excel**. Puede conceder a los usuarios este permiso asignando el conjunto de permisos **Herramientas de resolución de problemas** o **Exportar informe Excel**. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
 
-## <a name="for-developers-and-advanced-users"></a>Para desarrolladores y usuarios avanzados
+## <a name="for-developers-and-advanced-users"></a><a name="for-developers-and-advanced-users"></a>Para desarrolladores y usuarios avanzados
 
 La opción **Documento de Microsoft Excel (solo datos)** exporta todas las columnas, incluidas las que contienen filtros e instrucciones de formato para otros valores. A continuación se muestran algunos puntos de interés:
 
@@ -50,7 +50,7 @@ La opción **Documento de Microsoft Excel (solo datos)** exporta todas las colum
 
 Para obtener más información sobre el diseño de informes, consulte [Resumen del informe](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Trabajar con informes](ui-work-report.md)  
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  

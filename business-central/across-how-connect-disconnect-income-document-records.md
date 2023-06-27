@@ -10,7 +10,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Crear registros de documentos entrantes directamente desde documentos y movimientos
+# <a name="create-incoming-document-records-directly-from-documents-and-entries"></a><a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Crear registros de documentos entrantes directamente desde documentos y movimientos
 
 Puede almacenar los documentos empresariales externos en [!INCLUDE[prod_short](includes/prod_short.md)] adjuntando los archivos de documento a los registros de documento entrante relacionados. Si el documento, como una factura de compra, no se ha iniciado como un registro de documento entrante, puede crear un registro de documento entrante y conectarlo a él más adelante. También puede adjuntar archivos de documento entrante a los documentos de compra y de venta registrados, y a los movimientos de proveedor, de cliente y de contabilidad mediante el cuadro informativo **Archivos de documento entrante**, por ejemplo, en las páginas **Facturas de compra registradas** y **Movimientos de proveedor**.
 
@@ -18,21 +18,21 @@ Desde las páginas **Plan de cuentas** y **Movs. contabilidad**, podrá usar una
 
 Los procedimientos siguientes muestran cómo adjuntar un archivo a un movimiento contable de proveedor o una factura de compra existente que no se ha creado a partir de un registro de documento entrante. Adjuntar un archivo a los documentos de compra o venta registrados funciona de forma similar.
 
-## <a name="create-and-connect-an-incoming-document-record-from-a-purchase-invoice"></a>Para crear y conectar un registro de documento entrante a partir de una factura de compra
+## <a name="create-and-connect-an-incoming-document-record-from-a-purchase-invoice"></a><a name="create-and-connect-an-incoming-document-record-from-a-purchase-invoice"></a>Para crear y conectar un registro de documento entrante a partir de una factura de compra
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Seleccione la línea de una factura de compra a la que desee adjuntar un archivo y, a continuación, elija la acción **Crear documento entrante desde archivo**.
 3. También puede seleccionar la línea de una factura de compra a la que desee adjuntar un archivo y, a continuación, elija la acción **Adjuntar archivo**.
 4. En la página **Insertar archivo**, seleccione el archivo que representa el documento entrante en cuestión y, a continuación, elija el botón **Abrir**.
 
-## <a name="create-and-connect-an-incoming-document-record-from-a-vendor-ledger-entry"></a>Para crear y conectar un registro de documento entrante a partir de movimiento de proveedor
+## <a name="create-and-connect-an-incoming-document-record-from-a-vendor-ledger-entry"></a><a name="create-and-connect-an-incoming-document-record-from-a-vendor-ledger-entry"></a>Para crear y conectar un registro de documento entrante a partir de movimiento de proveedor
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movs. proveedores**, y luego elija el enlace relacionado.
 2. Seleccione una línea de un movimiento de proveedor al que desee adjuntar un archivo y, a continuación, elija la acción **Crear documento entrante desde archivo**.
 3. También puede seleccionar una línea de un movimiento de proveedor al que desee adjuntar un archivo y, a continuación, elija la acción **Adjuntar archivo**.
 4. En la página **Insertar archivo**, seleccione el archivo que representa el documento entrante en cuestión y, a continuación, elija el botón **Abrir**.
 
-## <a name="remove-a-connection-from-an-incoming-document-record-to-a-posted-document"></a>Para eliminar la conexión de un registro de documento entrante a un documento registrado
+## <a name="remove-a-connection-from-an-incoming-document-record-to-a-posted-document"></a><a name="remove-a-connection-from-an-incoming-document-record-to-a-posted-document"></a>Para eliminar la conexión de un registro de documento entrante a un documento registrado
 
 En cualquier momento puede eliminar los archivos adjuntos de los documentos no registrados eliminando el registro de documento entrante relacionado. Si se registra el documento, primero deberá eliminar la conexión desde el registro de documento entrante.
 
@@ -41,9 +41,9 @@ En cualquier momento puede eliminar los archivos adjuntos de los documentos no r
 
 Se elimina la conexión al documento registrado. Ahora puede conectar otro registro de documento entrante al documento registrado como se describe en este artículo.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Crear registros de documentos entrantes](across-how-create-income-document-records.md)
 [Usar OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md)

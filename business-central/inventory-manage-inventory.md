@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ---
 
-# <a name="manage-inventory"></a>Gestionar inventario
+# <a name="manage-inventory"></a><a name="manage-inventory"></a>Gestionar inventario
 
 Por cada producto físico que se comercialice, debe crear una ficha de producto del tipo **Inventario**. Los productos que ofrece a los clientes pero que no mantiene en el inventario, puede registrarlos como productos del catálogo, y puede convertirlos a productos de inventario cuando sea necesario. Puede aumentar o reducir la cantidad de un producto en el inventario registrándolo directamente desde los movimientos de producto, como después de un recuento físico o si no registra compras.
 
@@ -25,13 +25,13 @@ Para mejorar la información general de los productos y ayudarle a encontrarlos,
 
 La planificación de artículos para satisfacer la demanda está cubierta como parte de la función de planificación de oferta. Obtenga más información en [Planificación](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Conciliación de inventario
+## <a name="inventory-reconciliation"></a><a name="inventory-reconciliation"></a>Conciliación de inventario
 
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio en el valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad. Obtenga más información en [Conciliar costes de inventario con la contabilidad](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Aunque se hayan registrado los costes de inventario automáticamente en el libro mayor, seguirá siendo necesario asegurarse de que los costes de los bienes se dirigen a las transacciones de venta de salida relacionadas, especialmente en situaciones donde la venta de bienes se factura antes de la compra de estos bienes. Esto se denomina ajuste de costes. Los costes de los productos se ajustan automáticamente cada vez que registra transacciones de producto, pero también puede ajustar los costes de producto manualmente. Obtenga más información en [Ajustar costos de artículos](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Tareas relacionadas
+## <a name="related-tasks"></a><a name="related-tasks"></a>Tareas relacionadas
 
 La siguiente tabla describe las tareas relacionadas.
 
@@ -55,9 +55,9 @@ La siguiente tabla describe las tareas relacionadas.
 |Administre las operaciones comerciales en las oficinas de ventas, en los departamentos de compras o en las oficinas de planificación de plantas en múltiples ubicaciones.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
 |Utilice recursos con funciones específicas para diversos servicios y elementos de servicio.|[Configurar asignación de recursos](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/get-started-inventory-management/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/get-started-inventory-management/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Compra](purchasing-manage-purchasing.md)  

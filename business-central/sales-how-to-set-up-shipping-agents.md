@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="set-up-shipping-agents"></a>Configurar transportistas
+# <a name="set-up-shipping-agents"></a><a name="set-up-shipping-agents"></a>Configurar transportistas
 Configure un código para cada uno de sus transportistas e introduzca información acerca de ellos.  
 
 Si introduce una dirección de Internet para el transportista, y éste ofrece servicios de seguimiento de paquetes a través de Internet, utilice la función de seguimiento automático de paquetes. Para obtener más información, vea [Realizar seguimiento de paquetes](sales-how-track-packages.md).
@@ -20,7 +20,7 @@ Puede configurar un número ilimitado de servicios para cada transportista y esp
 
 Una vez asignado un servicio de transportista a una línea de pedido de venta, el tiempo de envío del servicio se incluirá en el cálculo del compromiso de entrega de dicha línea. Para obtener más información, consulte [Calcular las fechas de compromiso de entrega de pedido](sales-how-to-calculate-order-promising-dates.md).
 
-## <a name="to-set-up-a-shipping-agent"></a>Para configurar un transportista
+## <a name="to-set-up-a-shipping-agent"></a><a name="to-set-up-a-shipping-agent"></a>Para configurar un transportista
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transportistas**, y luego elija el enlace relacionado.  
 2.  Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Elija la acción **Servicios transportista**.
@@ -29,7 +29,7 @@ Una vez asignado un servicio de transportista a una línea de pedido de venta, e
 > [!NOTE]  
 >  Si elimina el transportista de la línea de pedido, también se eliminará el código de servicio de transportista. Se volverá a calcular el contenido de los campos basados en parte en el servicio de transportista.  
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 [Configurar métodos de envío](sales-how-set-up-shipment-methods.md)  
 [Hacer un seguimiento de los paquetes](sales-how-track-packages.md)    
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)

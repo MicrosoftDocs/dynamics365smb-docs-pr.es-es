@@ -10,11 +10,11 @@ ms.search.keywords: 'phone, tablet'
 ms.date: 01/11/2022
 ms.author: jswymer
 ---
-# <a name="get-business-central-desktop-app"></a>Obtener la aplicación de escritorio Business Central
+# <a name="get-business-central-desktop-app"></a><a name="get-business-central-desktop-app"></a>Obtener la aplicación de escritorio Business Central
 
 Si tiene un ordenador con Windows (PC) o macOS, puede instalar una aplicación Business Central en su escritorio. La aplicación funciona con Business Central Online y localmente.
 
-## <a name="why-use-the-app"></a>¿Por qué usar la aplicación?
+## <a name="why-use-the-app"></a><a name="why-use-the-app"></a>¿Por qué usar la aplicación?
 
 La aplicación Business Central se parece al cliente web, pero ofrece algunos beneficios como:
 
@@ -25,11 +25,11 @@ La aplicación Business Central se parece al cliente web, pero ofrece algunos be
 
      Cuando abre la aplicación para un entorno específico, el nombre del entorno se incluye en el título de la ventana. Cuando se trabaja en varios entornos [!INCLUDE[prod_short](includes/prod_short.md)], cada ventana de la aplicación se muestra por separado. El nombre le facilita ver qué ventana está asociada con cada entorno.
 
-## <a name="install-the-app-for-business-central-online"></a>Instalar la aplicación para Business Central Online
+## <a name="install-the-app-for-business-central-online"></a><a name="install-the-app-for-business-central-online"></a>Instalar la aplicación para Business Central Online
 
 Hay dos formas de instalar la aplicación para Business Central Online. Puedes instalarla directamente desde el navegador o desde Microsoft Store. Cualquiera que sea el enfoque que utilice, es la misma aplicación. La diferencia es que la instalación desde el navegador le permite instalar la aplicación para cada entorno cuando hay más de uno.
 
-### <a name="from-microsoft-store"></a>Desde Microsoft Store
+### <a name="from-microsoft-store"></a><a name="from-microsoft-store"></a>Desde Microsoft Store
 
 1. Vaya a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Escoja **Obtener** > **Instalar**. 
@@ -37,7 +37,7 @@ Hay dos formas de instalar la aplicación para Business Central Online. Puedes i
 
 La próxima vez que quiera abrir la aplicación, búsquela en el menú **Inicio**.
 
-### <a name="from-the-browser"></a>Desde el navegador
+### <a name="from-the-browser"></a><a name="from-the-browser"></a>Desde el navegador
 
 1. Abra el cliente web [!INCLUDE[prod_short](includes/prod_short.md)] en Microsoft Edge o Google Chrome.
 
@@ -57,7 +57,7 @@ La próxima vez que quiera abrir la aplicación, búsquela en el menú **Inicio*
 
 Una vez instalada, la aplicación aparece en el menú **Inicio**. Si ha seleccionado un entorno específico para la aplicación, el nombre del entorno se agrega al nombre de la aplicación en el menú **Inicio**.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Instalar la aplicación para Business Central de forma local
+## <a name="install-the-app-for-business-central-on-premises"></a><a name="install-the-app-for-business-central-on-premises"></a>Instalar la aplicación para Business Central de forma local
 
 La instalación de la aplicación de escritorio cuando utiliza Business Central local se realiza directamente desde el navegador según se [describió anteriormente](#from-the-browser). Si solo tiene un inquilino, simplemente abra Business Central en su navegador y, después, seleccione ![Icono para instalar una aplicación en Edge.](media/ui-edge-install-app-icon.png) **Aplicación disponible. Instalar Business Central** o ![Icono para instalar una aplicación en Chrome.](media/ui-chrome-install-app-icon.png) **Instalar Business Central** como se muestra arriba.
 
@@ -66,9 +66,9 @@ La diferencia es cuando tiene varios inquilinos. A diferencia de [!INCLUDE[prod_
 > [!IMPORTANT]
 > Si está utilizando el primer lanzamiento de versiones de Business Central 2021 (versión 18) o anterior, no puede instalar la aplicación como se describe en este artículo. En su lugar, instale la aplicación desde [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Para obtener más información y ayuda sobre la instalación de esta aplicación heredada, consulte [Preparación e instalación de la aplicación Business Central](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [P+F sobre aplicaciones móviles](ui-mobile-faq.yml)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
