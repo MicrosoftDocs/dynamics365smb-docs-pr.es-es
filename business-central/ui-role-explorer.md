@@ -12,7 +12,7 @@ ms.date: 08/01/2021
 ms.author: jswymer
 ---
 
-# <a name="finding-pages-with-the-role-explorer" />Búsqueda de páginas con el explorador de roles
+# <a name="finding-pages-with-the-role-explorer"></a>Búsqueda de páginas con el explorador de roles
 
 Puede obtener una descripción general de todas las funciones empresariales que están disponibles para su rol y para otros roles si va un paso más allá. En la siguiente documentación, esta descripción general de funciones se denomina *explorador de roles*.
 
@@ -20,7 +20,7 @@ Cada elemento del explorador de roles es una acción que abre una página. En co
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer" />Abrir el explorador de roles
+## <a name="open-the-role-explorer"></a>Abrir el explorador de roles
 
 Puede abrir el explorador de roles desde el área de trabajo y todas las páginas de la lista y desde la ventana **Dígame**.
 
@@ -29,7 +29,7 @@ Puede abrir el explorador de roles desde el área de trabajo y todas las página
 
 Cuando abre por primera vez el área de trabajo, muestra enlaces a la mayoría de las funciones disponibles para su rol.
 
-## <a name="navigate-features" />Navegar por las funciones
+## <a name="navigate-features"></a>Navegar por las funciones
 
 Las acciones que abren las páginas están organizadas en nodos con el nombre de las características o áreas de aplicación. Cada nodo se puede contraer o expandir individualmente y puede contraer/expandir todos los nodos a la vez.
 
@@ -37,11 +37,11 @@ Las acciones que abren las páginas están organizadas en nodos con el nombre de
 - Para expandir/contraer todos los nodos de nivel superior en la página, pero dejar los nodos secundarios como están, elija **...** en la parte superior, luego elija **Expandir** o **Contraer**.
 - Para expandir/contraer todos los nodos de nivel superior y todos los secundarios, elija **...** en la parte superior, luego elija la acción **Expandir todos** o **Contraer todos**.
 
-## <a name="search-for-features" />Buscar características
+## <a name="search-for-features"></a>Buscar características
 
 Para ubicar funciones rápidamente, seleccione **Encontrar**, luego introduzca una palabra o frase para la función que está tratando de encontrar. El área de trabajo resaltará cualquier texto correspondiente. Si una función está oculta a la vista en un nodo contraído, el nodo contraído se marca con un punto. 
 
-## <a name="explore-other-roles" />Explorar otros roles
+## <a name="explore-other-roles"></a>Explorar otros roles
 
 Para explorar roles distintos al suyo, seleccione **Explorar más roles**. El área de trabajo muestra cada función bajo su propia cabecera, con vínculos a sus funciones. A continuación, puede navegar y buscar funciones tal como lo hace cuando explora su rol.
 
@@ -57,7 +57,7 @@ Al explorar otros roles, también puede reducir la exploración utilizando las a
 > Para los desarrolladores, puede categorizar las páginas y los informes estableciendo la [Propiedad UsageCategory](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) en el código AL del objeto.
 <!--
  
-## <a name="role-explorer-actions" />Role explorer actions
+## <a name="role-explorer-actions"></a>Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -80,7 +80,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer" />Expandir y contraer nodos en el explorador de roles
+## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Expandir y contraer nodos en el explorador de roles
 
 Las acciones que abren las páginas están organizadas en nodos con el nombre de las características o áreas de aplicación. Cada nodo se puede contraer o expandir individualmente y puede contraer/expandir todos los nodos a la vez.
 
@@ -90,7 +90,7 @@ Las acciones que abren las páginas están organizadas en nodos con el nombre de
   - Seleccione las teclas <kbd>Ctrl</kbd>+<kbd>Mayúscula</kbd>mientras elige la acción **Expandir** o **Contraer** en la esquina superior derecha.
   - Elija **...** en la esquina superior derecha y luego elija la acción **Expandir todo** o **Contraer todo**.
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 [Búsqueda de páginas e información con Dígame](ui-search.md)  
 [Administración de perfiles](admin-users-profiles-roles.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

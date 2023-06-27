@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-variants" />Tutorial: variantes
+# <a name="walkthrough-variants"></a>Tutorial: variantes
 
 En este artículo, le guiaremos a través de los pasos para usar los datos de demostración de Contoso Coffee para obtener más información sobre variantes.
 
-## <a name="scenario" />Caso
+## <a name="scenario"></a>Caso
 
 Usted es el planificador de producción de Contoso Coffee. Debe actualizar la previsión de la demanda para cada variante del artículo SP-SCM1006, AutoDripLite. Como tienen colores diferentes, debe asegurarse de que se utiliza la lista de materiales (BOM) correcta para cada variante. Ejecute la hoja de trabajo de planificación para calcular el suministro.  
 
-## <a name="steps" />Pasos
+## <a name="steps"></a>Pasos
 
 1. Configure las unidades de mantenimiento de existencias para el artículo SP-SCM1006, AutoDripLite. Asigne una BOM para SKU con las variantes RED y WHITE.
 
@@ -98,6 +98,6 @@ Usted es el planificador de producción de Contoso Coffee. Debe actualizar la pr
 
     9. Para cada línea creada, elija la acción **Componentes** y revise qué pintura se usa.  
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Introducción a datos de demostración de Contoso Coffee](../contoso-coffee-intro.md)  

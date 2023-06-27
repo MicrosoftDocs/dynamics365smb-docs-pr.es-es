@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-" />Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-"></a>Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] incluye configuraciones estándar de la mayoría de procesos empresariales, pero puede cambiar la configuración para que se adapte a las necesidades de su organización. Los artículos de [Inicio rápido de Business Central](quick-start-business-central.md) pueden ayudarlo a dar los primeros pasos para familiarizarse con [!INCLUDE [prod_short](includes/prod_short.md)]. Este artículo proporciona una descripción general de cómo puede configurar [!INCLUDE [prod_short](includes/prod_short.md)] para su organización.
 
@@ -55,13 +55,13 @@ Algunas regiones requieren que sea el administrador en su suscripción [!INCLUDE
 > [!NOTE]
 > Como administrador, puede configurar una nueva empresa en [!INCLUDE[prod_short](includes/prod_short.md)] con RapidStart Services, que es una herramienta diseñada para acortar los tiempos de implementación, mejorar la calidad de la implementación, introducir un método de repetición para las implementaciones y mejorar la productividad mediante la automatización y simplificación de las tareas periódicas. Obtenga más información en [Configurar una empresa con RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps" />Configurar aplicaciones
+## <a name="set-up-apps"></a>Configurar aplicaciones
 
 Además de las capacidades básicas de [!INCLUDE [prod_short](includes/prod_short.md)], Microsoft agrega algunas aplicaciones que se indican en la página [**Administración de extensiones**](https://businesscentral.dynamics.com/?page=2500). A partir de octubre de 2022, cada aplicación incluirá un enlace para iniciar su página de configuración: solo tiene que elegir la acción **Configurar**.  
 
 También puede agregar capacidades a [!INCLUDE [prod_short](includes/prod_short.md)] agregando aplicaciones de AppSource. Obtenga más información en [Personalizar Business Central Online con extensiones](ui-extensions.md).  
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Resumen de la información de la empresa](admin-company-information.md)  
 [Administración](admin-setup-and-administration.md)  

@@ -10,11 +10,11 @@ ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="set-up-cash-customers" />Configurar clientes de efectivo
+# <a name="set-up-cash-customers"></a>Configurar clientes de efectivo
 
 No se puede crear una factura sin un número de cliente. Esto es válido, incluso si realiza una venta en efectivo y no tiene nada que registrar en una cuenta de cliente.  
 
-## <a name="to-set-up-a-cash-customer" />Para configurar un cliente de efectivo
+## <a name="to-set-up-a-cash-customer"></a>Para configurar un cliente de efectivo
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** y luego elija el enlace relacionado.  
 2. Cree una ficha **Cliente** nueva. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
@@ -29,7 +29,7 @@ No se puede crear una factura sin un número de cliente. Esto es válido, inclus
 >
 > Especifique un número de cuenta de cliente para dicho grupo contable, aunque el saldo de la cuenta quede siempre a 0 después de registrar una factura.  
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Administrar cobros](receivables-manage-receivables.md)  
 [Registro de clientes nuevos](sales-how-register-new-customers.md)

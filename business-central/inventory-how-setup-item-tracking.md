@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers" />Configurar el seguimiento de productos con números de serie, de lote y de paquete
+# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Configurar el seguimiento de productos con números de serie, de lote y de paquete
 
 Realice un seguimiento de los productos de inventario incluso en configuraciones de almacén complejas con números específicos para cada producto, ya sea como un objeto individual, como un lote o como un paquete. Con el seguimiento de productos, puede realizar un seguimiento de los productos en los movimientos internos del almacén y en los documentos de entrada y salida.
 
@@ -19,13 +19,13 @@ Los números de serie y lote de productos se pueden seguir, ya sea hacia adelant
 > [!TIP]
 > En 2021, el lanzamiento de versiones 1 y posteriores, active la actualización de la característica *Uso de seguimiento por número de paquete en el sistema de reservas y seguimiento* si desea trabajar con números de paquete, así como con números de serie y de lote. Para obtener más información, consulte [Habilitación de las próximas actualizaciones de antemano](admin-feature-management.md). Una vez que la característica está activada, puede asignar números de paquete a documentos de entrada y salida de forma similar a como puede trabajar con números de lote.  
 
-## <a name="numbers-and-item-tracking" />Seguimiento de números y productos
+## <a name="numbers-and-item-tracking"></a>Seguimiento de números y productos
 
 Como parte de los procesos de su almacén, puede agrupar sus existencias en paquetes, cajas, contenedores, etc. Pero, para realizar un seguimiento de los productos, asigna números únicos como identificación. Por ejemplo, fabrica y vende una silla que tiene el número de producto *1900-S*. Cada silla individual tiene un número de serie, *1001*, pero también agrupa cuatro sillas en un lote, *LOT0001*, y envía las sillas en un contenedor con el número de paquete *CONTENEDOR010* que también incluye otros productos, como *LOTE0100* con mesas auxiliares, y *LOTE200* con lámparas.  
 
 Dependiendo de su configuración, usa estos números diferentes para realizar un seguimiento del inventario en [!INCLUDE [prod_short](includes/prod_short.md)] en las distintas etapas de compras, ventas, operaciones de almacén, etc.
 
-## <a name="to-set-up-item-tracking-codes" />Para configurar códigos de seguimiento de producto
+## <a name="to-set-up-item-tracking-codes"></a>Para configurar códigos de seguimiento de producto
 
 Un código de seguimiento de producto refleja las distintas consideraciones que tiene una empresa en referencia al uso de números de serie y lote de los productos que se mueven en el inventario.  
 
@@ -42,7 +42,7 @@ Ya que este campo cubre todas las transacciones posibles con el producto, los ca
 > [!NOTE]  
 > Para asignar números de seguimiento de producto en las actividades de almacén, los campos de verificación **Seguim. nº serie almacén** y **Control lote almacén** se deben seleccionar en la ficha del código del seguimiento del producto.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers" />Para configurar las reglas de caducidad para números de serie o lote
+## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Para configurar las reglas de caducidad para números de serie o lote
 
 Con algunos productos es posible que le interese configurar fechas y reglas de caducidad específicas en el código de seguimiento de producto. Esta funcionalidad le permite realizar un seguimiento de la caducidad de determinados números de serie y de lote.
 
@@ -56,7 +56,7 @@ Con algunos productos es posible que le interese configurar fechas y reglas de c
     |**Requerir entrada fecha caducidad**|Especifica que debe introducirse una fecha de caducidad en la línea de seguimiento de producto.|  
     |**Usar fechas de caducidad**|Especifica que desea calcular las fechas de caducidad. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers" />Para configurar garantías para números de serie o lote
+## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Para configurar garantías para números de serie o lote
 
 Con algunos productos es posible que le interese configurar garantías específicas en el código de seguimiento de producto. Esta funcionalidad le permite realizar un seguimiento de la caducidad de las garantías de determinados números de serie o lote en inventario.  
 
@@ -70,7 +70,7 @@ Con algunos productos es posible que le interese configurar garantías específi
     |**Requerir entrada fecha garantía**|Especifica que debe introducir manualmente una fecha de garantía en la línea de seguimiento del producto.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes" />Para configurar los productos para el seguimiento con los códigos de seguimiento de productos correctos
+## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>Para configurar los productos para el seguimiento con los códigos de seguimiento de productos correctos
 
 Para habilitar el seguimiento de productos, primero debe asignar los códigos de seguimiento de productos a un producto. Hay dos formas de agregar códigos de seguimiento de productos, seleccionando el código de una lista predefinida o asignando un nuevo código único. Pase el cursor sobre los campos para leer una breve descripción.
 
@@ -79,14 +79,14 @@ Para habilitar el seguimiento de productos, primero debe asignar los códigos de
 3. En la ficha desplegable **Seguimiento de producto**, asigne los códigos de seguimiento de productos apropiados y elija el **Código de seguimiento del producto**, los **Números de serie**, y los **Números de lote**.
     1. También puede crear un nuevo código de seguimiento de producto seleccionando la acción **Nuevo**.
 
-## <a name="to-specify-opening-balances-for-the-items-you-track" />Para especificar saldos iniciales para los productos que sigue
+## <a name="to-specify-opening-balances-for-the-items-you-track"></a>Para especificar saldos iniciales para los productos que sigue
 
 Puede crear saldos iniciales para los productos que sigue. Dado que puede elegir diferentes configuraciones de almacén, hay dos opciones:
 
 * Habilite lotes específicos en la página **Diario productos** para permitir que las personas ingresen datos de serie, lote y paquete directamente en las líneas del diario.
 * Para lugares donde el control de alternancia **ubicación y picking directos** está activado, utilice la página **Diario de inventario físico de almacén** para que todos los campos de seguimiento de artículos estén disponibles. Los campos que están disponibles incluyen los campos **Fecha de garantía** y **Fecha de caducidad**.
 
-### <a name="item-journals" />Diarios de productos
+### <a name="item-journals"></a>Diarios de productos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de productos**, y luego elija el enlace relacionado.
 2. Seleccione el campo **Nombre** para abrir una lista de secciones del diario de productos.
@@ -98,7 +98,7 @@ Puede crear saldos iniciales para los productos que sigue. Dado que puede elegir
 > [!NOTE] 
 > [!INCLUDE [prod_short](includes/prod_short.md)] hace algunas validaciones menores cuando ingresa o importa datos. Se produce una comprobación más completa cuando contabiliza o transfiere datos de líneas de diario a la ventana **Líns. seg. prod.**. Esto último sucede automáticamente cuando abre la página **Líns. seg. prod.** desde la línea del diario de productos o si elige la acción **Actualizar líns. seguim. prod.**.
 
-### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on" />Diario de inventario físico de almacén para ubicaciones donde están activados la ubicación y el picking directos
+### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a>Diario de inventario físico de almacén para ubicaciones donde están activados la ubicación y el picking directos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de inventario físico de almacén** y luego elija el enlace relacionado.
 2. Rellene los campos en la línea del diario de productos según sea necesario. Tenga en cuenta que los campos **Nº lote**, **Nº de serie**, **Fecha de caducidad**, **Fecha de garantía** y **N.° de paquete** están disponibles (si la función está habilitada).
@@ -109,9 +109,9 @@ Para importaciones masivas, use paquetes de configuración para importar datos a
 > [!NOTE]
 > No puede usar **Editar en Excel** para crear líneas de diario con información de seguimiento.
 
-## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  

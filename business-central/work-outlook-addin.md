@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/21/2022
 ms.author: jswymer
 ---
-# <a name="use-business-central-as-your-business-inbox-in-outlook" />Usar Business Central como su bandeja de entrada de empresa en Outlook
+# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Usar Business Central como su bandeja de entrada de empresa en Outlook
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ofrece un complemento que le permite gestionar las interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con los complementos de Outlook de [!INCLUDE[prod_short](includes/prod_short.md)], puede ver los datos financieros relativos a los clientes y los proveedores, así como crear y enviar documentos financieros, como por ejemplo presupuestos y facturas.
 
@@ -24,7 +24,7 @@ El complemento de [!INCLUDE[prod_short](includes/prod_short.md)] consta de dos c
 
    Cuando se envía un documento comercia en un correo electrónico, el complemento proporciona un enlace directo en línea desde el cuerpo del correo electrónico al documento comercial real en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="get-started" />Introducción
+## <a name="get-started"></a>Introducción
 
 1. Lo primero que debe hacer es obtener el complemento [!INCLUDE[prod_short](includes/prod_short.md)] instalado en Outlook. Es posible que su administrador ya haya instalado el complemento. Entonces, si no está seguro, consulte con su administrador o vea el siguiente paso para verificar si está instalado.
 
@@ -45,7 +45,7 @@ La primera vez que usa el complemento, en el panel del complemento [!INCLUDE[pro
 
 Para obtener más información, consulte [Usar complementos en Outlook en la web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in" />Trabajar con contactos y documentos mediante el complemento Información detallada de contactos
+## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in"></a>Trabajar con contactos y documentos mediante el complemento Información detallada de contactos
 
 Supongamos que recibe un correo electrónico de un cliente que desea obtener una oferta de algunos productos. Puede abrir el complemento [!INCLUDE[prod_short](includes/prod_short.md)] directamente en Outlook, que reconoce al remitente como cliente y abre la ficha de cliente para esa empresa. Desde este panel puede ver la información general del cliente, así como analizar en más detalle documentos específicos. También puede rebuscar en el historial de ventas del cliente. Si es un contacto nuevo, puede crearlo como nuevo en [!INCLUDE[prod_short](includes/prod_short.md)] sin salir de Outlook.  
 
@@ -58,7 +58,7 @@ En ocasiones desea ver más campos de los que puede ver en el complemento, como 
 > [!TIP]
 > Las tareas explican cómo utilizar el complemento de un mensaje de correo electrónico. Pero puede hacer lo mismo desde una cita de calendario en Outlook.
 
-### <a name="look-up-a-business-contact-when-composing-an-email" />Buscar un contacto comercial al redactar un correo electrónico
+### <a name="look-up-a-business-contact-when-composing-an-email"></a>Buscar un contacto comercial al redactar un correo electrónico
 
 1. Cree nuevo mensaje de correo electrónico.
 2. En la cinta, vaya a **[!INCLUDE[prod_short](includes/prod_short.md)]** y elija **Información detallada de contactos**. O si está usando Outlook en la web, vaya a la parte inferior del mensaje de correo electrónico, elija ![Icono del complemento Business Central en Outlook.](media/outlook-business-central-icon.png) > **Información detallada de contactos**.
@@ -66,7 +66,7 @@ En ocasiones desea ver más campos de los que puede ver en el complemento, como 
 
     Se muestra una descripción general del contacto en el panel y el contacto se agrega en la línea **Para** del correo electrónico.
 
-### <a name="view-and-change-the-contact-details-or-switch-company" />Ver y cambiar los datos de contacto o cambiar de empresa
+### <a name="view-and-change-the-contact-details-or-switch-company"></a>Ver y cambiar los datos de contacto o cambiar de empresa
 
 La barra de acciones en la parte superior del panel del complemento [!INCLUDE[prod_short](includes/prod_short.md)] incluye varias acciones que le permiten profundizar en los detalles sobre el contacto y cambiar las cosas.
 
@@ -74,7 +74,7 @@ La barra de acciones en la parte superior del panel del complemento [!INCLUDE[pr
 
 Por ejemplo, puede abrir los detalles de contacto completos como los vería en [!INCLUDE[prod_short](includes/prod_short.md)]. Si trabaja con más de una empresa de [!INCLUDE[prod_short](includes/prod_short.md)], puede cambiar fácilmente entre empresas.
 
-### <a name="track-incoming-documents" />Hacer seguimiento de documentos entrantes
+### <a name="track-incoming-documents"></a>Hacer seguimiento de documentos entrantes
 
 Quizás use la lista de **Documentos entrantes** en [!INCLUDE[prod_short](includes/prod_short.md)] para realizar un seguimiento de los documentos para su procesamiento que los proveedores le envían, como una factura de compra que debe pagarse. Si lo hace, puede crear fácilmente registros de documentos entrantes desde el complemento de Outlook e incluir los archivos adjuntos de correo electrónico.
 
@@ -82,13 +82,13 @@ Quizás use la lista de **Documentos entrantes** en [!INCLUDE[prod_short](includ
 
 2. En la barra de acción del complemento, elija **Mostrar más acciones**, luego elija **Enviar a Documentos entrantes...**. .  
 
-### <a name="create-and-send-new-document-to-a-contact" />Crear y enviar un nuevo documento a un contacto
+### <a name="create-and-send-new-document-to-a-contact"></a>Crear y enviar un nuevo documento a un contacto
 
 1. En la cinta o en la parte inferior del mensaje de correo electrónico, elija ![Icono del complemento Business Central en Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]** > **Nuevo**, luego elija el tipo de documento que desea crear, como **Oferta de ventas**.
 2. Realice cambios en el documento en el panel del complemento **[!INCLUDE[prod_short](includes/prod_short.md)]**.
 3. Cuando el documento esté listo para enviarse al contacto, en la barra de acción, elija **Mostrar más acciones**, luego elija la acción **Enviar por correo electrónico**.
 
-### <a name="attach-files-to-records" />Adjuntar archivos a registros
+### <a name="attach-files-to-records"></a>Adjuntar archivos a registros
 
 Su bandeja de entrada de correo electrónico suele ser un origen de archivos entrantes que inician o desbloquean flujos de trabajo. Los archivos pueden incluir cosas como pagos de facturas en PDF, fotos de mercancías o requisitos en un documento de Word. Cuando trabaje en Outlook con registros de Business Central como proveedores, clientes, facturas de compra o pedidos de venta, puede adjuntar estos archivos a los registros.
 
@@ -98,7 +98,7 @@ Hay un par de formas de adjuntar archivos. Una forma es cargar archivos desde su
 
 Después de adjuntar un archivo, los compañeros de trabajo pueden descargarlo y verlo instantáneamente desde el cuadro informativo **Archivos adjuntos** en cualquiera de sus clientes de Business Central. O bien, pueden abrir el archivo en OneDrive para compartir y colaborar con su departamento.
 
-#### <a name="how-to-attach-a-file" />Cómo adjuntar un archivo
+#### <a name="how-to-attach-a-file"></a>Cómo adjuntar un archivo
 
 1. Abra el correo electrónico, seleccione ![Icono del complemento Business Central en Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Información detallada de contactos**.
 2. En la barra de acciones del complemento, seleccione **Mostrar más acciones** > **Archivos adjuntos**.
@@ -112,7 +112,7 @@ Después de adjuntar un archivo, los compañeros de trabajo pueden descargarlo y
 > [!NOTE]
 > No puede adjuntar archivos a todos los registros. Esta función está disponible para los registros que utilizan el cuadro informativo **Archivos adjuntos**, como un proveedor, un cliente, una factura de compra o un pedido de ventas.
 
-## <a name="view-a-document-from-an-email-using-the-document-view-add-in" />Ver un documento de un correo electrónico con el complemento Document View
+## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>Ver un documento de un correo electrónico con el complemento Document View
 
 Ya sea un correo electrónico que envió o recibió, puede mostrar cualquier documento de [!INCLUDE[prod_short](includes/prod_short.md)], como la oferta de venta, directamente en Outlook. Desde allí, puede realizar cambios y navegar a la información relacionada, tal como lo haría desde dentro de [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -122,9 +122,9 @@ Si está usando la aplicación de Outlook, simplemente elija **Vínculo de docum
 > A partir del primer lanzamiento de versiones de 2022, los documentos se abren en una nueva ventana del navegador con todas las funciones que ya conoce de [!INCLUDE [prod_short](includes/prod_short.md)]. Puede navegar de un documento a una lista y viceversa, abrir listas en Excel, enviar documentos para imprimir y ejecutar u obtener una vista previa de informes relacionados. También tiene todos los métodos abreviados de teclado familiares allí mismo cuando abre documentos desde Outlook.  
 
 
-## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/alternative-interfaces-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Obtener Business Central en mi dispositivo móvil](install-mobile-app.md)  

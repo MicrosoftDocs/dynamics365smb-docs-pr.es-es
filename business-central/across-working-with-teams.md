@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.custom: bap-template
 ---
 
-# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams" />Compartir registros y enlaces de página de Business Central en Microsoft Teams
+# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Compartir registros y enlaces de página de Business Central en Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ofrece un par de formas de compartir datos de Business Central directamente en una conversación de Microsoft Teams:
 
 <!-- 
-## <a name="overview" />Overview
+## <a name="overview"></a>Overview
 In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
@@ -36,13 +36,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 En las siguientes secciones se describen los distintos métodos en detalle.
 
-## <a name="include-and-view-a-business-central-card-in-a-teams-conversation" />Incluir y ver una tarjeta Business Central en una conversación de Teams
+## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Incluir y ver una tarjeta Business Central en una conversación de Teams
 
 Con la aplicación Business Central para Teams, puede copiar un vínculo de cualquier registro de Business Central, como un cliente o un pedido de ventas, y pegar el vínculo en una conversación de Teams. La aplicación conecta Microsoft Teams a los datos de su empresa en [!INCLUDE [prod_short](includes/prod_short.md)]\. A continuación expande el vínculo para convertirse en una tarjeta compacta e interactiva que muestra información sobre el registro. Una vez en la conversación, usted y sus compañeros de trabajo pueden ver más detalles sobre el registro, editar datos y tomar medidas, sin salir de Teams.
 
 [![Integración de Teams con Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
-### <a name="prerequisites" />Requisitos previos
+### <a name="prerequisites"></a>Requisitos previos
 
 - Tiene acceso a Microsoft Teams.
 - Ha instalado la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. Para obtener más información, consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)
@@ -50,7 +50,7 @@ Con la aplicación Business Central para Teams, puede copiar un vínculo de cual
 > [!NOTE]
 > Todos los participantes de una conversación de Teams podrán ver las tarjetas de los registros de Business Central que envíe a la conversación. Pero, para ver más detalles sobre los registros, usando los botones **Detalles** o **Desplegable** de una tarjeta, necesitarán acceder a [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Administración de integración de Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
 
-### <a name="include-a-business-central-card-in-a-teams-conversation" />Incluir una tarjeta Business Central en una conversación de Teams
+### <a name="include-a-business-central-card-in-a-teams-conversation"></a>Incluir una tarjeta Business Central en una conversación de Teams
 
 1. Inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)] usando su navegador.
 2. Abra el registro que quiere compartir.
@@ -79,7 +79,7 @@ Con la aplicación Business Central para Teams, puede copiar un vínculo de cual
     > Después de que aparezca la tarjeta y antes de seleccionar **Enviar**, puede eliminar la URL pegada si lo desea.
 9. Para ver más detalles o realizar cambios en el registro mostrado en la tarjeta, seleccione **Detalles**. Para obtener más información, consulte la sección siguiente.
 
-### <a name="view-card-details" />Ver detalles de tarjeta
+### <a name="view-card-details"></a>Ver detalles de tarjeta
 
 Una vez que se ha enviado una tarjeta a una conversación, todos los participantes con los [permisos adecuados](admin-teams-integration.md#permissions) puede seleccionar **Detalles** para abrir una ventana que muestra más información sobre el registro, y posiblemente realizar cambios en el registro. No importa si eres el que envía la tarjeta o el que la recibe. La característica **Detalles** es especialmente útil para los destinatarios, ya que les proporciona rápidamente información concisa y específica sobre el registro.
 
@@ -92,20 +92,20 @@ Aquí hay un par de cosas que debe tener en cuenta al trabajar con los detalles 
 
 Para obtener más información sobre cómo trabajar con tarjetas y detalles de tarjetas, consulte [Preguntas frecuentes de Teams](teams-faq.md).
 
-## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Compartir un vínculo a una página de Business Central a Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Compartir un vínculo a una página de Business Central a Teams
 
 Directamente desde la mayoría de las páginas de colección, como la página **Productos** y páginas de detalles, como la tarjeta **Productos**, puede enviar un vínculo a la página a destinatarios específicos en una conversación de Teams. Por ejemplo, puede compartir un enlace a una vista filtrada de sus registros. Los destinatarios pueden seleccionar el enlace para abrir la página en [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!El menú Compartir mostrado en una tarjeta.](media/teams-share-link-v2.png "El menú Compartir mostrado en una tarjeta.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites-1" />Requisitos previos
+### <a name="prerequisites-1"></a>Requisitos previos
 
 - Tiene acceso a Microsoft Teams.
 - (Opcional) Ha instalado la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. 
 
   Con la aplicación instalada, los mensajes que envíe con el enlace también incluirán una tarjeta compacta para la página. Para obtener más información sobre cómo instalar la aplicación, consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md).
 
-### <a name="share-a-link" />Compartir un enlace
+### <a name="share-a-link"></a>Compartir un enlace
 
 1. En [!INCLUDE [prod_short](includes/prod_short.md)]\,, abra la página que quiera compartir.
 2. En la parte superior de la página, elija el icono ![!Acción Compartir con otras aplicaciones en páginas.](media/share-icon.png) , luego **Compartir con Teams**.
@@ -116,7 +116,7 @@ Directamente desde la mayoría de las páginas de colección, como la página **
    Agregue más información si lo desea, luego elija **Compartir**.
 6. El enlace ahora se ha compartido. Si quiere ir a la conversación, elija **Ir a Teams**.
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  

@@ -11,13 +11,13 @@ ms.search.forms: '498, 497'
 ms.date: 08/11/2022
 ms.author: edupont
 ---
-# <a name="reserve-items" />Reservar artículos
+# <a name="reserve-items"></a>Reservar artículos
 
 Puede reservar productos para pedidos de venta, pedidos de servicio, pedidos de ensamblado, pdeidos de transferencia y órdenes de producción. También puede reservar productos en el inventario o de entrada en líneas de diario abiertas. Hace esto en la página **Reserva**.
 
 Cada línea que abra pra reservar artículos en la página **Reservas**, que se abre para reservar productos, muestra información sobre un tipo de línea (venta, compra o diario) o entrada de inventario. Las líneas describen cuántos productos están disponibles para reservarse desde cada tipo de línea o movimiento.
 
-## <a name="reserve-items-for-sales" />Reservar productos para venta
+## <a name="reserve-items-for-sales"></a>Reservar productos para venta
 
 El siguiente procedimiento describe cómo reservar productos de un pedido de venta. Los pasos son similares para pedidos de compra, transferencia, servicio y de ensambado.
   
@@ -36,7 +36,7 @@ El siguiente procedimiento describe cómo reservar productos de un pedido de ven
 > [!NOTE]  
 > Si existen líneas de seguimiento de producto para el pedido de venta, el programa de reservas le guiará por los pasos especiales. Obtenga más información en la sección [Para reservar un número de serie o de lote específico](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="reserve-an-item-for-a-production-order-line" />Reservar un producto para una línea de orden de producción
+## <a name="reserve-an-item-for-a-production-order-line"></a>Reservar un producto para una línea de orden de producción
 
 Puede reservar productos para órdenes de producción. Tiene que distinguir entre las líneas de la orden de producción, que implica el producto principal, y los componentes de la misma.
 
@@ -50,7 +50,7 @@ En el siguiente procedimiento, se utiliza una orden de producción planificada e
 
 Ahora se reserva la cantidad introducida en la línea de la orden de producción planificada en firme.
 
-## <a name="reserve-items-for-production-order-components" />Reservar productos para los componentes de la orden de producción
+## <a name="reserve-items-for-production-order-components"></a>Reservar productos para los componentes de la orden de producción
 
 Puede reservar productos para órdenes de producción. Tiene que distinguir entre las líneas de la orden de producción, que implica el producto principal, y los componentes de la misma.
 
@@ -66,7 +66,7 @@ En el siguiente procedimiento, se utiliza una orden de producción planificada e
 
 Ahora se reserva la cantidad introducida en la línea de componentes de producción planificada en firme.
 
-## <a name="change-a-reservation" />Modificar una reserva
+## <a name="change-a-reservation"></a>Modificar una reserva
 
 En ocasiones, quizá le interese modificar la reserva de un producto.
 
@@ -75,7 +75,7 @@ En ocasiones, quizá le interese modificar la reserva de un producto.
 3. En la página **Movs. reserva**, actualice el campo **Cantidad** de la línea que vaya a modificar.
 4. Confirme el mensaje que aparece eligiendo el botón **Acep.**.
 
-## <a name="cancel-a-reservation" />Cancelar una reserva
+## <a name="cancel-a-reservation"></a>Cancelar una reserva
 
 En ocasiones, quizá le interese eliminar la reserva de un producto.
 
@@ -84,7 +84,7 @@ En ocasiones, quizá le interese eliminar la reserva de un producto.
 3. En la página **Movs. reserva**, elija la acción **Cancelar reserva**.  
 4. Confirme el mensaje que aparece, eligiendo el botón **Sí**.  
 
-## <a name="reserve-a-specific-serial-or-lot-number" />Reservar un número de serie o de lote específico
+## <a name="reserve-a-specific-serial-or-lot-number"></a>Reservar un número de serie o de lote específico
 
 De los documentos de salida para los productos marcados para seguimiento, como pedidos de venta o listas de componentes de producción, puede reservar números de serie o de lote específicos. Esto puede resultar útil, por ejemplo, si necesita componentes de producción de un lote específico por coherencia con lotes anteriores de producción, o porque un cliente ha solicitado un número de serie específico. Obtenga más información en [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 
@@ -101,9 +101,9 @@ El procedimiento siguiente se basa en un pedido de venta.
 7. Elija el botón **Aceptar** para abrir la página **Reserva** que muestra solo el suministro con el número de seguimiento del producto especificado. Si existe alguna reserva no específica de cualquiera de los números de seguimiento de producto que ha especificado en esta línea, se le informa de la cantidad que ya se ha reservado.  
 8. Elija **Reservar auto.** o **Reservar desde la línea actual** para realizar una reserva de los números de seguimiento de productos específicos.
 
-## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/manage-outbound-serial-lot-numbers/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/manage-outbound-serial-lot-numbers/) relacionada
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)  

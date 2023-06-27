@@ -11,13 +11,13 @@ ms.search.form: '9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 902
 ms.date: 08/31/2022
 ms.author: jswymer
 ---
-# <a name="change-basic-settings" />Cambiar la configuración básica
+# <a name="change-basic-settings"></a>Cambiar la configuración básica
 
 En la página **Mi configuración**, puede ver y cambiar la configuración básica de su [!INCLUDE[prod_short](includes/prod_short.md)]. Los cambios que realice sólo afectan a su área de trabajo; no a las áreas de trabajo de otros usuarios.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="role" /><a name="role-center"></a>Función
+## <a name="role"></a><a name="role-center"></a>Función
 
 La función determina la página de inicio, una pantalla de inicio que está designada para las necesidades específicas del trabajo en una empresa. Dependiendo de su función, la página de inicio o el área de trabajo le brinda una descripción general del negocio, su departamento o sus tareas personales. También le ayuda a navegar por sus tareas diarias y encontrar el trabajo que le asignaron.
 
@@ -25,7 +25,7 @@ La función determina la página de inicio, una pantalla de inicio que está des
 
 * En el centro, busque el área **Actividades**, que muestra los datos actuales y se puede seleccionar para ver información más detallada. Los indicadores de rendimiento clave (KPI) pueden configurarse para mostrar un gráfico seleccionado para una representación visual de, por ejemplo, el flujo de efectivo o ingresos y gastos. También puede crear una lista de clientes favoritos en la página de inicio para las cuentas de empresa con las que hace negocios a menudo o a las que necesita prestar especial atención.
 
-### <a name="change-the-role" />Cambiar el rol
+### <a name="change-the-role"></a>Cambiar el rol
 
 El rol pedido es **Administrador de negocio**, pero puede seleccionar otro rol para usar un área de trabajo que se adapte mejor a sus necesidades.  
 
@@ -33,7 +33,7 @@ El rol pedido es **Administrador de negocio**, pero puede seleccionar otro rol p
 2. En la página **Mi configuración**, en el campo **Rol**, seleccione el rol que desea usar de forma predeterminada. Por ejemplo, seleccione **Contable**.
 3. Elija **Aceptar**.
 
-## <a name="company" /><a name="company"></a>Compañía
+## <a name="company"></a><a name="company"></a>Compañía
 
 Una empresa funciona como un contenedor de datos en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede haber múltiples empresas en una base de datos, pero solo se puede seleccionar una a la vez. La empresa predeterminada se llama CRONUS y solo contiene datos de demostración.
 
@@ -45,7 +45,7 @@ El campo **Empresa** muestra la empresa en la que trabaja actualmente y puede us
 La empresa predeterminada se llama CRONUS y solo contiene datos de demostración. Puede crear una nueva empresa con datos personalizados. Para obtener más información, consulte [Crear nuevas empresas](about-new-company.md).
 
 <!--
-### <a name="to-change-the-company-name" />To change the company name
+### <a name="to-change-the-company-name"></a>To change the company name
 
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="work-date" /><a name="work-date"></a>Fecha de trabajo
+## <a name="work-date"></a><a name="work-date"></a>Fecha de trabajo
 
 La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que cambiar temporalmente la fecha de trabajo para realizar tareas como la finalización de las transacciones de una fecha que no sea hoy.
 
@@ -73,7 +73,7 @@ La fecha de trabajo más utilizada es la fecha actual. Es posible que tenga que 
 > [!IMPORTANT]  
 > Después de modificar la fecha de trabajo, si cierra la sesión o cambia a otra empresa, los datos de trabajo vuelven a la fecha de trabajo predeterminada. Por lo tanto, la próxima vez que inicie sesión o vuelva a cambiar a la empresa original, es posible que tenga que volver a establecer la fecha de trabajo.
 
-### <a name="work-date-indication" />Indicación de la fecha de trabajo
+### <a name="work-date-indication"></a>Indicación de la fecha de trabajo
 
 La fecha de trabajo es fundamental en las páginas que se pueden editar. Siempre que la fecha de trabajo no se establezca en la fecha de hoy en una página editable, aparecen dos tipos de indicadores en la página:
 
@@ -83,11 +83,11 @@ La fecha de trabajo es fundamental en las páginas que se pueden editar. Siempre
 
 Si la fecha de trabajo no está establecida en el día actual (hoy), la fecha de trabajo actual aparece en la esquina superior izquierda de todas las páginas donde puede editar datos.
 
-## <a name="region" /><a name="region"></a> Región
+## <a name="region"></a><a name="region"></a> Región
 
 El valor **Región** determina cómo se muestran o se forman las fechas, los tiempos, los números, y divisas. También determina qué carácter se usa como separador decimal cuando se usa un teclado numérico para introducir datos. Obtenga más información en [Introducción de datos](ui-enter-data.md#decimal).
 
-## <a name="language" /><a name="language"></a> Idioma
+## <a name="language"></a><a name="language"></a> Idioma
 
 Cambia el idioma de la pantalla. Este campo aparece sólo cuando hay más de un idioma a elegir.
 
@@ -95,21 +95,21 @@ El idioma inicial lo determina el administrador o la configuración de su navega
 
 Los idiomas adicionales para [!INCLUDE[prod_short](includes/prod_short.md)] se pueden instalar desde AppSource. Si bien todos los idiomas de visualización compatibles se muestran en la lista, el administrador debe instalar la aplicación de idioma pertinente para el suscriptor antes de que los usuarios puedan cambiar al nuevo idioma en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="time-zone" />Zona horaria
+## <a name="time-zone"></a>Zona horaria
 
 Define la zona horaria en la que se encuentra. Cuando inicia sesión por primera vez en [!INCLUDE [prod_short](includes/prod_short.md)], la zona horaria se establece en función de la dirección de su empresa. Cámbiela si no se ajusta a su ubicación física.  
 
-## <a name="notifications" />Notificaciones
+## <a name="notifications"></a>Notificaciones
 
 Seleccione el vínculo *Cambiar cuándo recibo notificaciones* para ver o cambiar las notificaciones que recibe sobre determinados eventos o cambios de estado, cuando va a facturar a un cliente que tiene un saldo vencido o cuando el inventario disponible es inferior a la cantidad que va a vender, por ejemplo. Obtenga más información en [Administrar notificaciones](ui-smart-notifications.md).
 
-## <a name="teaching-tips" />Consejos didácticos
+## <a name="teaching-tips"></a>Consejos didácticos
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  

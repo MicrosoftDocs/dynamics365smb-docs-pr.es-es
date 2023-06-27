@@ -11,7 +11,7 @@ ms.search.form: '5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 927
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# <a name="insure-fixed-assets" />Aseguramiento de activos fijos
+# <a name="insure-fixed-assets"></a>Aseguramiento de activos fijos
 Una póliza de seguro para un activo fijo se representa con una ficha de seguro. Puede asignar uno o varios activos fijos a una póliza de seguro.
 
 Asigne un activo fijo a una póliza de seguros con el registro de los movimientos de cobertura del seguro desde la página **Diario seguros**.
@@ -25,7 +25,7 @@ Si la casilla de verificación **Registro auto. seguro** de la página **Configu
 
 Después de asignar un activo fijo a una póliza de seguros, se seleccionará la casilla de verificación **Asegurado** en la ficha del activo. Cuando vende el activo fijo, la casilla se deselecciona automáticamente.
 
-## <a name="to-create-or-modify-an-insurance-card" />Para crear o modificar una ficha de seguros
+## <a name="to-create-or-modify-an-insurance-card"></a>Para crear o modificar una ficha de seguros
 Una póliza de seguro para un activo fijo debe representarse con una ficha de seguro.
 
 Cuando reciba información de cambios en el importe de cobertura, debe especificar la nueva información de la página **Ficha seguro** para poder asegurarse un análisis correcto de la póliza de seguros.  
@@ -34,7 +34,7 @@ Cuando reciba información de cambios en el importe de cobertura, debe especific
 2. Seleccione la acción **Nuevo** para crear una ficha de póliza seguro nueva. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. De forma alternativa, seleccione la póliza de seguro que desea cambiar y, a continuación, elija la acción **Editar**.
 
-## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal" />Asigne un activo fijo a una póliza de seguros realizando el registro desde un diario de seguro.
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Asigne un activo fijo a una póliza de seguros realizando el registro desde un diario de seguro.
 Asigne un activo fijo a una póliza de seguros realizando el registro desde un movimiento de cobertura seguro.  
 
 El procedimiento siguiente explica cómo crear una línea en un diario de seguros manualmente. Si la casilla de verificación **Registro auto. seguro** está seleccionada en la página **Configuración A/F**, las líneas del diario de seguros se crearán automáticamente al registrar los costes. En ese caso, todo lo que tiene que hacer es registrar el diario.  
@@ -47,7 +47,7 @@ El procedimiento siguiente explica cómo crear una línea en un diario de seguro
     > [!NOTE]  
     >   Los movimientos de un diario seguros solo se registran en los movimientos de seguros.  
 
-## <a name="to-update-the-insurance-value-of-a-fixed-asset" />Para actualizar el valor del seguro de un activo fijo
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Para actualizar el valor del seguro de un activo fijo
 Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor de los activos cubiertos.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ajustar valores seguros** y luego elija el enlace relacionado.
@@ -61,16 +61,16 @@ Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor d
 4. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de seguros**, y luego elija el enlace relacionado.  
 5. Abra el diario de seguros pertinente, revise los valores creados y, a continuación, regístrelos en los movimientos de seguros.  
 
-## <a name="to-monitor-insurance-coverage" />Para controlar la cobertura de seguros
+## <a name="to-monitor-insurance-coverage"></a>Para controlar la cobertura de seguros
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona informes dedicados y páginas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
 
-### <a name="overview-of-insurance-policies" />Resumen de pólizas de seguro
+### <a name="overview-of-insurance-policies"></a>Resumen de pólizas de seguro
 Para obtener una visión general de las pólizas de seguros, obtenga una vista previa del informe **Seguro - Lista** o imprímalo. El informe muestra todas las pólizas y los campos más importantes de las fichas de seguro.  
 
-### <a name="insurance-coverage" />Cobertura seguro
+### <a name="insurance-coverage"></a>Cobertura seguro
 Para ver qué pólizas cubren cada activo y por cuánto, puede previsualizar o imprimir el informe **Seguro - Total asegurado**.  
 
-### <a name="overunder-coverage" />Sobre/infraseguro
+### <a name="overunder-coverage"></a>Sobre/infraseguro
 Puede comprobar si los activos tienen un exceso o una falta de seguro de la siguiente forma:  
 
 * En la página **Estadísticas seguro**. Con un importe positivo en el campo **Sobre/Infra asegurado** que significa que el activo está sobreasegurado. Un importe negativo indica que está infrasegurado.  
@@ -78,16 +78,16 @@ Puede comprobar si los activos tienen un exceso o una falta de seguro de la sigu
 * El informe **Sobre/Infra asegurado**.  
 * El informe **Análisis seguros**.  
 
-### <a name="uninsured-fixed-assets" />Activos fijos sin seguro
+### <a name="uninsured-fixed-assets"></a>Activos fijos sin seguro
 Para comprobar si ha olvidado asignar un activo fijo a una póliza seguros, puede imprimir o previsualizar el informe **A/Fs asegurados – no asegurados**. Este informe muestra los activos fijos para los que no ha habido ningún importe registrado en los movimientos de cobertura del seguro.  
 
-## <a name="to-view-insurance-coverage-ledger-entries" />Para ver los movimientos cobertura de seguro
+## <a name="to-view-insurance-coverage-ledger-entries"></a>Para ver los movimientos cobertura de seguro
 Puede ver los movimientos realizados en los movimientos de seguros.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Seguro** y luego elija el enlace relacionado.  
 2. Seleccione la póliza relevante y, a continuación, seleccione la acción **Movimientos seguro**.  
 
-## <a name="to-view-the-total-insurance-value-of-fixed-assets" />Para ver el total del valor del seguro de los activos
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Para ver el total del valor del seguro de los activos
 Una página de matriz dedicada muestra los valores de seguros registrados para cada póliza de seguro de cada activo fijo como resultado de los importes relacionados con los seguros que ha registrado.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Seguro** y luego elija el enlace relacionado.  
@@ -96,7 +96,7 @@ Una página de matriz dedicada muestra los valores de seguros registrados para c
 4. Elija la acción **Mostrar matriz**.  
 5. Para ver los movimientos de seguros subyacentes, elija un valor en la matriz.  
 
-## <a name="to-correct-insurance-coverage-entries" />Para corregir movimientos de seguros
+## <a name="to-correct-insurance-coverage-entries"></a>Para corregir movimientos de seguros
 Si se adjuntó un activo fijo a la póliza de seguros incorrecta, puede corregir este movimiento con la creación de dos movimientos de reclasificación del diario de seguro.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de seguros**, y luego elija el enlace relacionado.  
@@ -106,7 +106,7 @@ Si se adjuntó un activo fijo a la póliza de seguros incorrecta, puede corregir
 
 El activo se desvinculará de la póliza de seguros incorrecta, en la segunda línea, y se adjuntará a la correcta en la primera línea.  
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 [Activos fijos](fa-manage.md)  
 [Configurar activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  

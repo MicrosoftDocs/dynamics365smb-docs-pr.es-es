@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
 ---
-# <a name="set-up-intercompany-transactions" />Configurar transacciones entre empresas vinculadas
+# <a name="set-up-intercompany-transactions"></a>Configurar transacciones entre empresas vinculadas
 
 Las asociaciones entre empresas facilitan el manejo de los procesos contables cuando dos o más filiales de una empresa hacen negocios entre sí con frecuencia. Los socios pueden intercambiar transacciones, como ventas y compras, y gestionarlas de forma manual o automática. Por ejemplo, cuando un socio envía una línea de diario de ventas a otro socio, se crea una línea de diario de compras para el socio receptor.
 
@@ -21,7 +21,7 @@ El plan de cuentas de empresas vinculadas puede ser, por ejemplo, una versión d
 >
 > Las tareas de este artículo asumen que el interruptor de la característica está activado. Si ya configuró una asociación entre empresas, puede continuar usándola.
 
-## <a name="before-you-start" />Antes de comenzar
+## <a name="before-you-start"></a>Antes de comenzar
 
 Antes de comenzar a configurar su asociación entre empresas, hay algunas decisiones que tomar.
 
@@ -35,7 +35,7 @@ Antes de comenzar a configurar su asociación entre empresas, hay algunas decisi
 |¿Cómo desea manejar los números de producto?"     | Si las líneas de empresas vinculadas contienen productos, puede utilizar sus propios números de producto o configurar los números de producto de sus socios para cada producto que corresponda, ya sea en el campo **N.º de producto de proveedor** o en el campo **N.º de producto común** en la ficha del producto. También puede usar la acción **Referencia del producto** para asignar los números de sus productos a las descripciones de los productos de sus socios de empresas vinculadas. Para obtener más información sobre las referencias de productos, vaya a [Usar referencias de productos](inventory-how-use-item-cross-refs.md).        |
 |¿Están involucrados los recursos?     | Si las transacciones de ventas entre empresas vinculadas van a incluir recursos, debe rellenar el campo **N.º cuenta de contabilidad de compras de IC** en la tarjeta de recurso de cada recurso. El campo contiene el número de la cuenta contable de empresas vinculadas que la cuenta de este recurso contabilizará en la empresa asociada. Para obtener más información sobre rcursos, vaya a [Configurar recursos](projects-how-setup-resources.md).<br><br>**NOTA**<br>Las transacciones de compra entre empresas que incluyen recursos, activos fijos y cargos por artículos no son totalmente compatibles. En la empresa de socio, el campo **Tipo de línea** estará en blanco en las líneas del documento de compra que incluyan estas entidades. Debe actualizar el campo manualmente.        |
 
-## <a name="overview-of-the-steps-to-get-started" />Resumen de los pasos a seguir para empezar
+## <a name="overview-of-the-steps-to-get-started"></a>Resumen de los pasos a seguir para empezar
 
 Utilice la página **Configuración de empresas vinculadas** para configurar los siguientes componentes de las transacciones de empresas vinculadas:
 
@@ -47,7 +47,7 @@ Utilice la página **Configuración de empresas vinculadas** para configurar los
 * Las empresas que son los socios de empresas vinculadas.
 * Las empresas que son proveedores o clientes, o ambos.
 
-## <a name="set-up-a-synchronization-partner" />Configurar un socio de sincronización
+## <a name="set-up-a-synchronization-partner"></a>Configurar un socio de sincronización
 
 Todos los socios deben usar el mismo plan de cuentas de empresas vinculadas y, si es necesario, las mismas dimensiones de empresas vinculadas. Puede ahorrar tiempo al configurar la asociación utilizando el plan de cuentas y las dimensiones de uno de los socios como línea de base para el plan de cuentas y las dimensiones de empresas vinculadas. La empresa que utiliza como referencia se denomina *socio de sincronización*. Por lo general, el socio de sincronización es la empresa central, pero no tiene por qué serlo.
 
@@ -58,7 +58,7 @@ Cuando esté listo para sincronizar datos con su socio de sincronización, elija
 > [!NOTE]
 > Es importante asignar cuentas y dimensiones en ambas direcciones. Es decir, tanto al plan de cuentas y dimensiones de empresas vinculadas, como de ellos a sus propias cuentas y dimensiones.
 
-## <a name="set-up-the-intercompany-charts-of-accounts" />Configurar los planes de cuentas de las empresas vinculadas
+## <a name="set-up-the-intercompany-charts-of-accounts"></a>Configurar los planes de cuentas de las empresas vinculadas
 
 Todos los socios deben utilizar el mismo plan de cuentas de empresas vinculadas y asignarle las cuentas de su propio plan de cuentas. Si el plan de cuentas de su empresa define el plan de cuentas de empresas vinculadas para sus empresas asociadas, siga los pasos de esta sección.
 
@@ -76,7 +76,7 @@ Si usa un archivo XML que contiene el plan de cuentas de empresas vinculadas, si
 
 El próximo paso es asignar su plan de cuentas al plan de cuentas de empresas vinculadas. Más información en [Asignar el plan de cuentas de empresas vinculadas al plan de cuentas de la empresa propia](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts).
 
-### <a name="import-or-export-an-intercompany-chart-of-accounts" />Importar o exportar el plan de cuentas de empresas vinculadas
+### <a name="import-or-export-an-intercompany-chart-of-accounts"></a>Importar o exportar el plan de cuentas de empresas vinculadas
 
 La empresa de sincronización puede compartir su plan de cuentas con socios exportándolo a un archivo. Los socios pueden importar el archivo para obtener el plan de cuentas.
 
@@ -87,7 +87,7 @@ La empresa de sincronización puede compartir su plan de cuentas con socios expo
 
 La página **Plan de cuentas de empresas vinculadas** se rellena con las líneas de cuentas de contabilidad nuevas o modificadas, según el plan de cuentas de empresas vinculadas del archivo. Las líneas existentes, no relacionadas en la página permanecen sin cambios.
 
-## <a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts" />Asignar el plan de cuentas de empresas vinculadas al plan de cuentas de la empresa propia
+## <a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a>Asignar el plan de cuentas de empresas vinculadas al plan de cuentas de la empresa propia
 
 Cuando haya definido o importado el catálogo de cuentas de empresas vinculadas, asigne cada cuenta de empresas vinculadas a una de sus cuentas. En la página **Plan de cuentas de empresas vinculadas**, puede especificar cómo se transformarán las cuentas de contabilidad de empresas vinculadas en transacciones entrantes, en cuentas del plan de cuentas de su empresa.
 
@@ -108,7 +108,7 @@ Si las cuentas de empresas vinculadas y sus cuentas tienen los mismos números, 
     > [!TIP]
     > Si desea asignar muchas o quizás todas las cuentas, elija una línea, elija :::image type="icon" source="media/show-more-options-icon.png" border="false"::: y luego elija **Seleccionar más**.
 
-## <a name="set-up-intercompany-dimensions" />Configurar dimensiones de empresas vinculadas
+## <a name="set-up-intercompany-dimensions"></a>Configurar dimensiones de empresas vinculadas
 
 Si los socios van a intercambiar transacciones con dimensiones relacionadas con ellos, debe estar de acuerdo en las dimensiones que todos usarán. Por ejemplo, la empresa de sincronización puede crear una versión simplificada de sus dimensiones, exportarlas a un archivo XML y luego distribuir el archivo a cada socio. Cada socio puede importar el archivo XML en la página **Dimensiones de empresas vinculadas** y luego asignar las dimensiones de empresas vinculadas a sus dimensiones. Más información en [Asignar dimensiones de empresas vinculadas a las dimensiones de su empresa](#map-intercompany-dimensions-to-your-companys-dimensions).
 
@@ -127,7 +127,7 @@ Si los socios utilizarán las dimensiones de empresas vinculadas del socio de si
     > [!TIP]
     > Si copia las dimensiones de empresas vinculadas de un socio de sincronización, puede usar la acción **Configuración de sincronización** para actualizarlas dimensiones de las empresas vinculadas con cualquier cambio que el socio realice en las suyas.  
 
-### <a name="import-or-export-intercompany-dimensions" />Importar o exportar dimensiones de empresas vinculadas
+### <a name="import-or-export-intercompany-dimensions"></a>Importar o exportar dimensiones de empresas vinculadas
 
 La empresa de sincronización puede compartir sus dimensiones con socios exportándolas a un archivo. Los socios pueden importar el archivo para obtener las dimensiones.
 
@@ -138,7 +138,7 @@ La empresa de sincronización puede compartir sus dimensiones con socios export�
 
 El siguiente paso es asignar las dimensiones con las cimensiones de empresas vinculadas. Más información en [Asignar dimensiones de empresas vinculadas a las dimensiones de su empresa](#map-intercompany-dimensions-to-your-companys-dimensions).
 
-### <a name="map-intercompany-dimensions-to-your-companys-dimensions" />Asignar dimensiones de empresas vinculadas a las dimensiones de su empresa
+### <a name="map-intercompany-dimensions-to-your-companys-dimensions"></a>Asignar dimensiones de empresas vinculadas a las dimensiones de su empresa
 
 Una vez especifique las dimensiones que usará, asigne cada una de las dimensiones de empresas vinculadas a una de las dimensiones de su empresa y a la inversa. Utilice la página **Asignación de dimensiones entre empresas vinculadas** para especificar la asignación. Luego, repita el proceso para los valores de dimensión.
 
@@ -163,7 +163,7 @@ En los siguientes pasos, primero asigna dimensiones de empresas vinculadas a dim
 5. Seleccione la acción **Asignación de valores de dimensiones**.
 6. En la página **Asignación de valores de dimensión de empresas vinculadas** , los pasos para crear la asignación son similares a los que acaba de hacer para las dimensiones.
 
-## <a name="set-up-intercompany-general-journal-templates-and-batches" />Configurar plantillas y lotes del diario general de empresas vinculadas
+## <a name="set-up-intercompany-general-journal-templates-and-batches"></a>Configurar plantillas y lotes del diario general de empresas vinculadas
 
 Debe configurar una plantilla de diario general y un lote de diario general para usar de forma predeterminada para las transacciones entre empresas. La plantilla y el lote son especialmente importantes si acepta automáticamente transacciones entre empresas de sus socios. Para obtener más información sobre la aceptación automática de transacciones, vaya a [Aceptación automática de transacciones de socios de empresas vinculadas](#auto-accept-transactions-from-intercompany-partners).   
 
@@ -172,7 +172,7 @@ Debe configurar una plantilla de diario general y un lote de diario general para
 
 Para obtener más información sobre las plantillas y lotes de diarios generales, vaya a [Usar plantillas y lotes de diarios](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## <a name="set-up-a-company-for-intercompany-transactions" />Establecer una empresa para transacciones entre empresas vinculadas
+## <a name="set-up-a-company-for-intercompany-transactions"></a>Establecer una empresa para transacciones entre empresas vinculadas
 
 Los siguientes pasos asumen que un socio de sincronización está configurado con el plan de cuentas y las dimensiones en las que basará el plan de cuentas y las dimensiones de empresas vinculadas. Puede configurarlos usted mismo, pero normalmente es más rápido comenzar y el mantenimiento es más fácil si utiliza un socio de sincronización. Obtenga más información sobre el socio de sincronización, vaya a [Configurar un socio de sincronización](#set-up-a-synchronization-partner).
 
@@ -190,7 +190,7 @@ Los siguientes pasos asumen que un socio de sincronización está configurado co
 
 El siguiente paso es configurar las empresas de socios.
 
-## <a name="set-up-intercompany-partners" />Configurar socios de empresas vinculadas
+## <a name="set-up-intercompany-partners"></a>Configurar socios de empresas vinculadas
 
 Cada socio debe agregar todas las demás empresas de la asociación como si fueran un socio.
 
@@ -202,7 +202,7 @@ Cada socio debe agregar todas las demás empresas de la asociación como si fuer
 > [!NOTE]
 > Para la contabilización de empresas vinculadas, si activa la alternancia **Aceptar automáticamente transacciones** en la página **Socio de empresas vinculadas**, [!INCLUDE[prod_short](includes/prod_short.md)] suprime los mensajes de advertencia sobre facturas de compra que duplican el pedido de compra original. Es importante contar con un proceso de empresa para gestionar los duplicados. Por ejemplo, eliminando dichos pedidos de compra cuando se recibe la factura de compra del socio de empresas vinculadas.
 
-### <a name="set-up-intercompany-partners-as-customers-and-vendors" />Configurar socios de empresas vinculadas como empresas y proveedores
+### <a name="set-up-intercompany-partners-as-customers-and-vendors"></a>Configurar socios de empresas vinculadas como empresas y proveedores
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Configuración de empresas vinculadas** y luego elija el enlace relacionado.
 2. En la ficha desplegable **Socios de empresas vinculadas** , abra la página de la tarjeta del socio.
@@ -214,7 +214,7 @@ Cada socio debe agregar todas las demás empresas de la asociación como si fuer
     > [!TIP]
     > También puede especificar un cliente o proveedor como socio de empresas vinculadas, rellenando el campo **Código socio IC** en las páginas **Tarjeta de cliente** y **Tarjeta de proveedor**.
 
-### <a name="set-up-default-intercompany-partner-general-ledger-accounts" />Configurar cuentas de contabilidad de socios de empresas vinculadas predeterminadas
+### <a name="set-up-default-intercompany-partner-general-ledger-accounts"></a>Configurar cuentas de contabilidad de socios de empresas vinculadas predeterminadas
 
 Cuando crea una línea de venta o de compra de empresas vinculadas para enviarla como transacción saliente, introduzca una cuenta del plan de cuentas de empresas vinculadas como cuenta predeterminada en la que se contabiliza el importe en la empresa asociada. En la página **Tarjeta de cuenta contable**, para las cuentas que utiliza regularmente en líneas de ventas o compras salientes de empresas intervinculadas, puede especificar una cuenta genérica de empresa vinculada asociada. Por ejemplo, para su cuenta de clientes, puede introducir las cuentas de proveedores correspondientes desde el plan de cuentas de empresas vinculadas. Las cuentas de clientes y proveedores se utilizan como cuenta de compensación para el socio de empresas vinculadas cuando registra transacciones en los diarios generales de empresas vinculadas.  
 
@@ -224,7 +224,7 @@ Ahora, cuando introduzca una cuenta contable en el campo **Cta. contrapartida** 
 2. Abra la cuenta contable que se utiliza para transacciones entre empresas vinculadas y, en el campo **Cuentas contables predeterminadas de empresas vinculadas asociadas**, introduzca la cuenta de contabilidad general entre empresas vinculadas que su socio contabilizará cuando registre en la cuenta de contabilidad en la línea.
 3. Repita el paso 2 para cada cuenta que introduzca a menudo en el campo **Cta. contrapartida** en un diario o documento de empresas vinculadas.
 
-### <a name="auto-accept-transactions-from-intercompany-partners" />Aceptación automática de transacciones de socios de empresas vinculadas
+### <a name="auto-accept-transactions-from-intercompany-partners"></a>Aceptación automática de transacciones de socios de empresas vinculadas
 
 Para agilizar el proceso de transacciones de empresas vinculadas, puede especificar si quiere que esta empresa cree automáticamente líneas de diario en función de las contabilizaciones de un socio de empresas vinculadas desde la página **Diario general de empresas vinculadas**. Para crear automáticamente transacciones entrantes y salientes, debe activar las siguientes opciones para cada socio:
 
@@ -240,17 +240,17 @@ Las líneas de diario se crean automáticamente, pero no se contabilizan.
 > [!NOTE]
 > Si su organización usó características de empresas vinculadas en [!INCLUDE [prod_short](includes/prod_short.md)] antes del lanzamiento de versiones 1 de 2022, para aceptar transacciones automáticamente, su administrador debe activar el conmutador de característica **Aceptar automáticamente transacciones del diario general de empresas vinculadas** en la página **Administración de características**.
 
-### <a name="specify-the-bank-accounts-to-use-for-intercompany-partners" />Especificar las cuentas bancarias que se usarán para los socios de empresas vinculadas
+### <a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a>Especificar las cuentas bancarias que se usarán para los socios de empresas vinculadas
 
 Para facilitar los pagos rápidos, especifique una o más cuentas bancarias para usar con socios de empresas vinculadas. Cuando un socio utiliza un diario general de empresas vinculadas para realizar un pago, puede especificar la cuenta bancaria en la línea. La cuenta bancaria se utiliza como cuenta de contrapartida en la empresa receptora, lo que minimiza la necesidad de introducir transacciones manualmente.
 
 * Para especificar la cuenta bancaria a utilizar, en la página **Socios de empresas vinculadas** elija la acción **Cuentas bancarias**. En la **Tarjeta de cuenta bancaria interempresas**, introduzca la información de la cuenta.
 
-## <a name="troubleshoot-your-intercompany-setup" />Solucionar problemas de configuración entre empresas
+## <a name="troubleshoot-your-intercompany-setup"></a>Solucionar problemas de configuración entre empresas
 
 En la página **Configuración de empresas vinculadas**, el panel **Diagnósticos de configuración de empresas vinculadas** contiene mosaicos que indican si ha configurado todos los componentes necesarios para intercambiar transacciones entre empresas. Los mosaicos también están disponibles en el Área de trabajo de Business Manager. Elige los mosaicos para descubrir qué falta. Para obtener una descripción general de los componentes necesarios, vaya a [Descripción general de los pasos para comenzar](#overview-of-the-steps-to-get-started).
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
 [Finanzas](finance.md)  

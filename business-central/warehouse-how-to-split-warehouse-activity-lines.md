@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 9314, 9313, 9315, 9330'
 ---
-# <a name="split-warehouse-activity-lines" />Dividir líneas de actividad de almacén
+# <a name="split-warehouse-activity-lines"></a>Dividir líneas de actividad de almacén
 
 En almacenamientos, movimientos o picking de almacén y en almacenamiento y picking de inventario, se sugieren las ubicaciones para el picking o el almacenamiento de productos. La cantidad real de la ubicación sugerida quizá no sea suficiente, o no haya sitio suficiente en la ubicación sugerida para almacenar la cantidad requerida. En estos casos, puede dividir la línea para que los productos de esa línea se obtengan o coloquen en varias ubicaciones.  
 
@@ -23,7 +23,7 @@ El siguiente procedimiento se aplica a los siguientes documentos de almacén:
 * Movimientos de inventario
 * Picking de inventario  
 
-## <a name="to-split-warehouse-activity-lines" />Para dividir líneas de actividad de almacén
+## <a name="to-split-warehouse-activity-lines"></a>Para dividir líneas de actividad de almacén
 
 1. Abra una línea de actividad de almacén en donde esté intentando gestionar una cantidad insuficiente.  
 2. En el campo de **Cdad. a manipular**, introduzca la cantidad reducida que pueda manipular.  
@@ -33,7 +33,7 @@ El siguiente procedimiento se aplica a los siguientes documentos de almacén:
 > [!NOTE]  
 > Si utiliza ubicación y picking directos y divide las líneas, debe estar familiarizado con el almacén y poder elegir una ubicación que cumpla los requisitos de almacenamiento del producto y cubra los requisitos generales del documento de almacén. Por ejemplo, no debería dividir una línea de un documento de picking y colocar algunos productos en el área de almacenamiento masivo.  
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

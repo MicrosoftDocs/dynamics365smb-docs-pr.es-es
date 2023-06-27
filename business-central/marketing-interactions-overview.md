@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="managing-interactions-with-your-contacts" />Administración de las interacciones con los contactos
+# <a name="managing-interactions-with-your-contacts"></a>Administración de las interacciones con los contactos
 En [!INCLUDE[prod_short](includes/prod_short.md)], las interacciones son todos los tipos de comunicaciones entre su empresa y sus contactos. Por ejemplo, pueden ser por correo electrónico, carta, teléfono, reuniones, etc.
 
 Puede registrar todas las interacciones que tenga con sus contactos para poder hacer un seguimiento de las ventas y los esfuerzos comerciales dirigidos a éstos y mejorar las interacciones de negocio futuras.

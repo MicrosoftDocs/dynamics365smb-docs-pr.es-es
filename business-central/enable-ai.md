@@ -9,7 +9,7 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# <a name="configure-ai-powered-item-marketing-text-preview-with-copilot" />Configure el texto de marketing de artículos basado en IA (vista previa) con Copilot
+# <a name="configure-ai-powered-item-marketing-text-preview-with-copilot"></a>Configure el texto de marketing de artículos basado en IA (vista previa) con Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -20,28 +20,28 @@ Este artículo explica cómo puede controlar la capacidad de crear textos de mar
 
 Si no se cumple alguno de estos requisitos, la característica no estará disponible para su uso.
 
-## <a name="prerequisites" />Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 Está utilizando una [versión preliminar](ai-preview-getstarted.md) de Business Central que está habilitada para Copilot. La activación de Copilot la realiza un administrador. Para obtener más información, vaya a [Configurar texto de marketing de artículos impulsado por IA con Copilot](enable-ai.md).
 
-## <a name="enable-or-disable-create-ai-powered-product-descriptions-with-copilot" />Habilite o deshabilite Crear descripciones de productos basadas en IA con Copilot
+## <a name="enable-or-disable-create-ai-powered-product-descriptions-with-copilot"></a>Habilite o deshabilite Crear descripciones de productos basadas en IA con Copilot
 
 1. En Business Central, busque y abra la página **Gestión de características**.
 2. Establezca la columna **Habilitada para** para **Vista previa de características: Crear descripciones de productos potenciadas por IA con Copilot** a **Todos los usuarios** para activar la característica o **Ninguno** para deshabilitarla.
 
    Para más información sobre la gestión de características en general, vaya a [Gestión de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## <a name="consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users" />Consentir o rechazar la vista previa y los términos y condiciones de privacidad para todos los usuarios
+## <a name="consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users"></a>Consentir o rechazar la vista previa y los términos y condiciones de privacidad para todos los usuarios
 
 1. En Business Central, busque y abra la página **Estado de los avisos de privacidad**.
 2. En la columna **Nombre de la integración**, seleccione **Azure OpenAI**, a continuación, lea las condiciones que se le presentan.
 3. En la fila **Azure OpenAI**, seleccione la casilla **Acuerdo para todos** para dar su consentimiento o la casilla **En desacuerdo para todos** para rechazar.
 
-## <a name="next-steps" />Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 
 Una vez que habilite y dé su conformidad con la característica, estará listo para probar Copilot en los productos de Business Central. Vaya a [Agregar texto de marketing a los artículos](item-marketing-text.md).  
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Información general sobre el texto de marketing de productos impulsado por IA con Copilot](ai-overview.md)  
 [Cree texto de marketing para artículos usando Copilot](item-marketing-text.md)  

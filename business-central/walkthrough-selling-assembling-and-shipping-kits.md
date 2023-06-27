@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-selling-assembling-and-shipping-kits" />Tutorial: vender, ensamblar y enviar kits
+# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Tutorial: vender, ensamblar y enviar kits
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -20,18 +20,18 @@ La funcionalidad especial existe para controlar el envío de las cantidades tipo
 
 En configuraciones de almacén básicas, cuando una cantidad de ensamblar para pedido está lista para enviarse, el empleado del almacén responsable registra un picking de existencias para las líneas del pedido de venta. Esto crea un movimiento de inventario para los componentes y registra la salida de ensamblado y el envío del pedido de venta. Para obtener más información, consulte [Gestión de productos de ensamblar para pedido en picking de inventario](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough" />Acerca de este tutorial
+## <a name="about-this-walkthrough"></a>Acerca de este tutorial
 
 En este tutorial, se demuestran las siguientes tareas:  
 
-### <a name="setting-up-assembly-items" />Configurar productos de ensamblado
+### <a name="setting-up-assembly-items"></a>Configurar productos de ensamblado
 
 Los elementos del ensamblado se caracterizan según su sistema de reposición y la L.M. de ensamblado. La directiva de ensamblado del producto puede ser ensamblar para pedido (ATO) o ensamblar para stock (ATS). En esta sección se describen las tareas siguientes:  
 
 -   Configuración del sistema de reposición y la directiva de ensamblado apropiados en una nueva ficha de elemento del ensamblado.  
 -   Creación de una L.M. de ensamblado que enumera los componentes del ensamblado y el recurso que forman parte del elemento del ensamblado.  
 
-### <a name="selling-customized-assembly-items" />Vender elementos del ensamblado personalizados
+### <a name="selling-customized-assembly-items"></a>Vender elementos del ensamblado personalizados
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona la flexibilidad para introducir una cantidad de inventario y una cantidad de ensamblar para pedido en una línea de pedido de venta. En esta sección se describen las tareas siguientes:  
 
@@ -41,14 +41,14 @@ Los elementos del ensamblado se caracterizan según su sistema de reposición y 
 -   Crear una línea de pedido de venta mezclada donde partes de la cantidad de venta se proporcionan del inventario y la parte restante se debe ensamblar antes del envío.  
 -   Descripción de los avisos de disponibilidad ATO.  
 
-### <a name="planning-for-assembly-items" />Planificar para los elementos del ensamblado
+### <a name="planning-for-assembly-items"></a>Planificar para los elementos del ensamblado
 
 La demanda y el suministro del ensamblado los gestiona el sistema de planificación, al igual que en el caso de compras, transferencias y producción. En esta sección se describen las tareas siguientes:  
 
 -   Ejecutar un plan regenerativo para los productos con demanda de venta para el aprovisionamiento ensamblado.  
 -   Generar un pedido de ensamblado para satisfacer una cantidad de línea de venta antes de la fecha de envío solicitada.  
 
-### <a name="assembling-items" />Ensamblar productos
+### <a name="assembling-items"></a>Ensamblar productos
 
 Los pedidos de ensamblado funcionan de forma similar a las órdenes de producción, excepto que el consumo y la salida se graban y se registran directamente desde el pedido. Cuando los productos se ensamblan en el inventario, el trabajador del ensamblado tiene acceso completo a todos los campos de cabecera y línea. Cuando los productos se ensamblan en un pedido donde la cantidad y fecha se han prometido al cliente, determinados campos del pedido de ensamblado no se pueden editar. En ese caso, el registro del ensamblado se realiza a partir del envío de almacén para el pedido de venta vinculado. En esta sección se describen las tareas siguientes.  
 
@@ -56,7 +56,7 @@ Los pedidos de ensamblado funcionan de forma similar a las órdenes de producci�
 -   Acceder una línea de albarán de almacén desde un pedido de ensamblado ATO de graba el trabajo de ensamblado.  
 -   Acceder a un pedido de ensamblado ATO desde una línea de albarán de almacén para revisar los datos especificados automáticamente.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order" />Enviar elementos del ensamblado, desde el inventario y ensamblado para pedido
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Enviar elementos del ensamblado, desde el inventario y ensamblado para pedido
 
 Hay una funcionalidad especial para controlar el envío de las cantidades del ensamblar para pedido. En esta sección se describen las tareas siguientes:  
 
@@ -66,7 +66,7 @@ Hay una funcionalidad especial para controlar el envío de las cantidades del en
 -   Enviar cantidades de ensamblar para pedido.  
 -   Enviar elementos del ensamblado de inventario.  
 
-## <a name="roles" />Funciones
+## <a name="roles"></a>Funciones
 
 En este tutorial, se demuestran las tareas realizadas por los siguientes roles de usuario:  
 
@@ -76,7 +76,7 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 -   Encargado de picking  
 -   Responsable de envío  
 
-## <a name="prerequisites" />Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 Para poder realizar las tareas del tutorial, deberá hacer lo siguiente:  
 
@@ -110,7 +110,7 @@ Realice los pasos siguientes para quitar el plazo de entrega predeterminada para
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story" />Historia
+## <a name="story"></a>Historia
 
 El 23 de enero, Susana, la responsable del procesamiento de pedidos de venta recibe un pedido de La Tienda Aparatos de tres unidades del kit B, que es un producto ATO. Las tres unidades se personalizan y deben incluir la tarjeta gráfica de gran potencia y un bloque de RAM adicional. Las unidades de disco se actualizan a DWD porque las unidades de CD no están disponibles. Susana sabe que las unidades se pueden ensamblar inmediatamente, y deja la fecha de envío sugerida del 23 de enero.  
 
@@ -138,7 +138,7 @@ Roberto empaqueta las diez unidades ATS con las cinco unidades ATO que Elena ens
 
 Cuando el pedido de venta se registra posteriormente como facturado en su totalidad, se quitan el pedido de venta y los pedidos de ensamblado vinculados.  
 
-## <a name="prepare-sample-data" />Preparar datos de ejemplo
+## <a name="prepare-sample-data"></a>Preparar datos de ejemplo
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios producto almacén**, y luego elija el enlace relacionado.  
 2.  Elija el campo **Nombre sección** y seleccione el diario predeterminado.  
@@ -162,7 +162,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 7.  En la página **Calcular ajuste almacén**, seleccione el botón **Aceptar**.  
 8.  En la página **Diario de producto**, elija la acción **Registrar** y el botón **Sí**.  
 
-### <a name="creating-the-assembly-items" />Crear elementos del ensamblado
+### <a name="creating-the-assembly-items"></a>Crear elementos del ensamblado
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
@@ -213,7 +213,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
     |Artículo|80210|1|  
     |Recurso|Elena|1|  
 
-### <a name="selling-the-assembly-items" />Vender elementos del ensamblado
+### <a name="selling-the-assembly-items"></a>Vender elementos del ensamblado
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
@@ -266,7 +266,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 17. Seleccione la acción **Crear envío alm.**  
 18. Cierre el pedido de venta.  
 
-### <a name="planning-for-the-unavailable-ats-items" />Planificar para producto ATS no disponibles
+### <a name="planning-for-the-unavailable-ats-items"></a>Planificar para producto ATS no disponibles
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa**.  
@@ -284,7 +284,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 6.  En la página **Ejecutar mensajes acción**, elija el campo **Pedido de ensamblado** y seleccione **Realizar pedidos de ensamblado**.  
 7.  Elija el botón **Aceptar**.  
 
-### <a name="assembling-and-shipping-the-first-ato-quantity" />Ensamblar y enviar la primera cantidad ATO
+### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Ensamblar y enviar la primera cantidad ATO
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envío almacén** y luego elija el enlace relacionado.  
 
@@ -344,7 +344,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     Las actividades de almacén para cubrir la primera línea de pedido de venta antes del 23 de enero se han completado. A continuación, cumpla las líneas de pedido de venta que han de enviarse el 27 de enero.  
 
-### <a name="assembling-and-recording-the-second-ato-quantity" />Ensamblar y registrar la segunda cantidad ATO
+### <a name="assembling-and-recording-the-second-ato-quantity"></a>Ensamblar y registrar la segunda cantidad ATO
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos ensamblado** y luego elija el enlace relacionado.  
 
@@ -368,7 +368,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
 5.  Cierre la página **Pedido de ensamblado**.  
 
-### <a name="assembling-the-ats-quantity" />Ensamblar la cantidad ATS
+### <a name="assembling-the-ats-quantity"></a>Ensamblar la cantidad ATS
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos ensamblado** y luego elija el enlace relacionado.  
 2.  Abra el pedido de ensamblado ATO para diez unidades del kit A.  
@@ -396,7 +396,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     Observe que el pedido de ensamblado se quitó de la lista de pedidos abiertos.  
 
-### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order" />Enviar productos restantes, parcialmente de las existencias y parcialmente ensamblado para pedido
+### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Enviar productos restantes, parcialmente de las existencias y parcialmente ensamblado para pedido
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envío almacén** y luego elija el enlace relacionado.  
 2.  Abra el envío de almacén más reciente que se ha creado en el almacén BLANCO.  
@@ -436,9 +436,9 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     Cuando la Tienda Aparatos pague la recepción de los 18 equipos PC de CRONUS, se quitarán el pedido de venta y sus pedidos de ensamblado vinculados.  
 
-## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
  [Descripción de ensamblar para pedido y ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Ensamblar artículos](assembly-how-to-assemble-items.md)   

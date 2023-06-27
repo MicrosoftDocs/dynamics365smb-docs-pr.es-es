@@ -8,18 +8,18 @@ ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 05/15/2023
 ms.author: jswymer
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps" />Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps
+# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Cómo conectarse a sus datos de Business Central para crear una aplicación empresarial con Power Apps
 
 Puede convertir los datos de [!INCLUDE[prod_short](includes/prod_short.md)] en disponibles como origen de datos en Power Apps.  
 
 > [!TIP]  
 > Business Central ahora ofrece soporte de desarrollo y operaciones para Power Platform en AL-Go y muestras para que pueda comenzar a crear sus propias aplicaciones Power Apps. Estas características se encuentran actualmente en versión preliminar. Para obtener más información, vaya a [Business Central y Power Apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview) en la ayuda para desarrolladores y profesionales de TI.
 
-## <a name="prerequisites" />Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 Debe disponer de una cuenta válida con [!INCLUDE[prod_short](includes/prod_short.md)] y con Power Apps.  
 
-## <a name="add--as-a-data-source-in-power-apps" />Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Apps
+## <a name="add--as-a-data-source-in-power-apps"></a>Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Apps
 
 Estos pasos agregan una tabla de Business Central, como clientes o artículos, como fuente de datos de una aplicación Power Apps.
 
@@ -50,17 +50,17 @@ Ya se ha conectado correctamente con los datos de [!INCLUDE[prod_short](includes
 Cuando haya diseñado y creado la aplicación, puede compartirla con sus compañeros. Para obtener más información, consulte [Guardar y publicar una aplicación de lienzo en Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 
 <!--
-## <a name="sample-apps-to-get-started" />Sample apps to get started
+## <a name="sample-apps-to-get-started"></a>Sample apps to get started
 
 As a preview version, Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
 
-## <a name="develop-and-maintain-apps-application-lifecycle-management" />Develop and maintain apps application lifecycle management
+## <a name="develop-and-maintain-apps-application-lifecycle-management"></a>Develop and maintain apps application lifecycle management
 
 As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that let you push and pull Power Platfrom changes to and from enviroments. You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE](https://github.com/BusinessCentralDemos/AL-Go-PTE). For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm).-->
 
-## <a name="see-related-microsoft-training" />Consultar la [formación de Microsoft](/training/paths/power-apps-power-automate-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/power-apps-power-automate-business-central/) relacionada
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Crear una aplicación de lienzo a partir de una plantilla de Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  

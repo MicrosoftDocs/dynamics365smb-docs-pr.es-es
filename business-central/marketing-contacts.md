@@ -11,7 +11,7 @@ ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="managing-contacts" />Gestionar contactos
+# <a name="managing-contacts"></a>Gestionar contactos
 
 Los empleados de su empresa se reúnen periódicamente con posibles relaciones de negocio que pueden convertirse en relaciones formales. Todos estos contactos externos y su información detallada deben registrarse en el sistema para que la comunicación sea más satisfactoria y puedan convertirse fácilmente en relaciones formales con clientes, proveedores o bancos.
 
@@ -26,7 +26,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Configure los cuestionarios de perfil que desea utilizar en el momento de especificar información de los perfiles de sus contactos.|[Use cuestionarios de perfil para clasificar contactos comerciales](marketing-create-contact-profile-questionnaire.md)|
 |Resolver la confusión cuando existen dos o más registros para el mismo contacto.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  

@@ -10,14 +10,14 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# <a name="create-and-set-up-a-shopify-account" />Crear y configurar una cuenta de Shopify
+# <a name="create-and-set-up-a-shopify-account"></a>Crear y configurar una cuenta de Shopify
 
 Si está considerando utilizar Shopify como su solución de comercio electrónico y necesita una cuenta Shopify para validar el flujo de trabajo integrado, tiene las siguientes opciones:
 
 - Obtenga una versión de prueba. Este es el punto de partida típico para los usuarios finales.  
 - Crear tiendas de desarrollo. Este enfoque es para socios que realizan demostraciones recurrentes, capacitaciones y brindan soporte.
 
-## <a name="trial-end-user" />Prueba (usuario final)
+## <a name="trial-end-user"></a>Prueba (usuario final)
 
 Vaya al [sitio web de Shopify](https://www.shopify.com) y use su cuenta de correo electrónico como cuenta de administrador para registrarse para una prueba gratuita. Para obtener más información sobre cómo crear y personalizar su tienda en línea, consulte el [Centro de ayuda de Shopify](https://help.shopify.com/).
 
@@ -36,7 +36,7 @@ En el **Administrador de Shopify** de la tienda creada, aplique la siguiente **C
 > [!Important]  
 > Para evitar pagos, recuerda cancelar su prueba de Shopify.
 
-## <a name="development-store" />Tienda de desarrollo
+## <a name="development-store"></a>Tienda de desarrollo
 
 Comience por unirse al [Programa de socios de Shopify](https://help.shopify.com/partners/about). Luego, use el **panel de socios** para crear la tienda en desarrollo. Más información en [Crear tiendas de desarrollo](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -53,7 +53,7 @@ Después de crear la tienda, en el **Administrador de Shopify** de la tienda cre
 > [!Note]  
 > Las tiendas de desarrollo suelen estar protegidas con contraseña. Cuando intenta abrir una página específica en su tienda en línea desde [!INCLUDE [prod_short](../includes/prod_short.md)], por ejemplo, para ir a un producto o pedido específico, deberá ingresar su contraseña. Mientras realiza la prueba, para evitar tener que ingresar su contraseña, inicie sesión en su administrador de Shopify y abra su tienda desde allí. No necesitará ingresar la contraseña de la tienda hasta que cierre el navegador o la sesión expire.  
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Comenzar a usar el conector Shopify](get-started.md)  
 [Tutorial: Configurar y usar el Shopify Connector](walkthrough-setting-up-and-using-shopify.md)

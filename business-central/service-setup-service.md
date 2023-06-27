@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 
-# <a name="setting-up-service-management" />Configurar la gestión de servicios
+# <a name="setting-up-service-management"></a>Configurar la gestión de servicios
 Para poder utilizar las funciones de la gestión de servicios en [!INCLUDE[prod_short](includes/prod_short.md)], hay algunos parámetros que debe configurar. Por ejemplo, puede establecer códigos para servicios estándar, síntomas y códigos de defectos, y los productos de servicio y tipos de productos de servicio que requieran las necesidades de servicio al cliente de su empresa.  
 
 Cuando configure la gestión de servicios, debe decidir qué servicios desea ofrecer a los clientes y la previsión de dichos servicios. Un servicio es un tipo de trabajo realizado por uno o varios recursos y proporcionado a un cliente. Por ejemplo, un servicio podría ser un tipo de reparación de equipo. Un producto de servicio es el equipo o producto que necesita servicios, como el equipo que necesita reparación, instalado en un cliente determinado. Puede configurar servicios como parte de un grupo de productos relacionados de reparación o mantenimiento.  
@@ -35,7 +35,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Configure componentes de servicio y de productos. |[Configurar productos de servicio](service-how-setup-service-items.md) |
 | Establecer las bases para crear contratos de servicio y ofertas de contrato. |[Configurar contratos de servicio](service-how-setup-service-contracts.md) |
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 [Gestión de servicios](service-service.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 

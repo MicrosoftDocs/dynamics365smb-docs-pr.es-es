@@ -10,7 +10,7 @@ ms.search.form: 100
 ms.date: 08/25/2022
 ms.author: bholtorf
 ---
-# <a name="work-with-accounting-periods-and-fiscal-years" />Trabajar con periodos contables y ejercicios
+# <a name="work-with-accounting-periods-and-fiscal-years"></a>Trabajar con periodos contables y ejercicios
 
 Los períodos contables, también conocidos como períodos de información, son períodos de tiempo en los que una empresa u organización informa del rendimiento financiero, por ejemplo, generando su balance de ingresos o su balance. Normalmente, los períodos contables se refieren al ejercicio de la empresa, que puede contener varios períodos contables, como meses o trimestres.
 
@@ -20,11 +20,11 @@ Para muchas empresas, el año fiscal no se alinea con el año calendario, por ej
 
 Puede usar periodos contables en informes, como cuando revisa los movimientos registrados en la página **Saldo/Presupuesto**, donde se puede especificar el intervalo de informes. Una de las opciones que puede especificar para crear informes por período contable. También puede crear un informe financiero que compare los resultados de diferentes períodos contables.
 
-## <a name="creating-a-new-fiscal-year" />Creación de un nuevo ejercicio
+## <a name="creating-a-new-fiscal-year"></a>Creación de un nuevo ejercicio
 
 Puede crear períodos contables en bloque, utilizando el proceso **Crear ejercicio** o manualmente.
 
-### <a name="how-to-create-accounting-periods-in-bulk" />Cómo crear períodos contables en bloque
+### <a name="how-to-create-accounting-periods-in-bulk"></a>Cómo crear períodos contables en bloque
 
 Utilice el proceso **Crear ejercicio** para dividir un ejercicio en periodos de igual duración.  
 
@@ -35,7 +35,7 @@ Utilice el proceso **Crear ejercicio** para dividir un ejercicio en periodos de 
 5. En el campo **Longitud período**, introduzca una duración para cada período. Los identificadores de duración incluyen, por ejemplo, 1M para un mes, 1T para un trimestre y 1Y para un año.  
 6. Elija **Aceptar**.  
 
-### <a name="how-to-create-accounting-periods-manually" />Cómo crear períodos contables manualmente
+### <a name="how-to-create-accounting-periods-manually"></a>Cómo crear períodos contables manualmente
 
 Si los períodos contables de su ejercicio tienen duraciones diferentes, como el calendario 4-4-5 utilizado en comercio minorista, puede configurarlo manualmente.  
   
@@ -44,7 +44,7 @@ Si los períodos contables de su ejercicio tienen duraciones diferentes, como el
 3. Seleccione la casilla de verificación **Principio ejercicio** para indicar que es el primer periodo del ejercicio. [!INCLUDE[prod_short](includes/prod_short.md)] utilizará este periodo para determinar los periodos para cerrar al final del año.
 4. Repita los pasos 2 y 3 con cada periodo restante.  
 
-## <a name="closing-a-fiscal-year" />Cierre de un ejercicio
+## <a name="closing-a-fiscal-year"></a>Cierre de un ejercicio
 
 Cerrar el ejercicio es una de las tareas para cerrar los libros. Después de cerrar un ejercicio, se seleccionan las casillas **Cerrado** y **Fecha bloqueada** de todos los periodos del ejercicio. No puede volver a abrir un ejercicio ni desmarcar las casillas.
 
@@ -54,11 +54,11 @@ Cerrar el ejercicio es una de las tareas para cerrar los libros. Después de cer
 1. Elija el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Periodos contables** y luego elija el enlace relacionado.  
 2. Elija la acción **Cerrar ejercicio**.  
 
-## <a name="posting-entries-to-a-closed-fiscal-year" />Registro de movimientos en un ejercicio cerrado
+## <a name="posting-entries-to-a-closed-fiscal-year"></a>Registro de movimientos en un ejercicio cerrado
 
 Aunque un ejercicio esté cerrado, todavía podrá registrar en él movimientos de contabilidad. Al hacerlo, los movimientos se marcan como registrados en un ejercicio cerrado y se seleccionará la casilla **Asiento post-cierre**. De forma predeterminada, la casilla no se muestra en la página, pero puede agregarla. Los siguientes pasos son cerrar las cuentas de regularización y transferir los resultados del ejercicio a una cuenta en el balance. Repita estos pasos cada vez que registre movimientos en un ejercicio cerrado.
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Cerrar los libros](year-close-books.md)  
 [Cerrar años y periodos](year-close-years-periods.md)  

@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-bank-accounts-for-electronic-payments-in-the-spanish-version" />Configurar cuentas bancarias para pagos electrónicos en la versión en español
+# <a name="set-up-bank-accounts-for-electronic-payments-in-the-spanish-version"></a>Configurar cuentas bancarias para pagos electrónicos en la versión en español
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar cuentas bancarias para realizar pagos electrónicos.  
 
-## <a name="to-set-up-bank-accounts-for-electronic-payments" />Para configurar cuentas bancarias para realizar pagos electrónicos
+## <a name="to-set-up-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Transferencia**, asegúrese de que los campos **CCC Cód. banco**, **CCC Cód. oficina**, **CCC Dígito control** y **CCC Nº cuenta** se rellenan correctamente.  
@@ -30,7 +30,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar cuenta
     |---------------------------------|---------------------------------------|  
     |**Nº último aviso pago**|Especifique una serie de números distinta a la serie de números de los cheques. Esto es necesario para que los números no entren en conflicto entre sí. El aviso de pago se imprime en papel en blanco de forma que resulte fácil enviarlo al proveedor.|  
 
-## <a name="to-set-up-vendor-bank-accounts-for-electronic-payments" />Para configurar cuentas bancarias para realizar pagos electrónicos
+## <a name="to-set-up-vendor-bank-accounts-for-electronic-payments"></a>Para configurar cuentas bancarias para realizar pagos electrónicos
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ficha banco proveedor** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **General**, rellene los campos tal como se describe en la tabla siguiente.  
@@ -41,7 +41,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede configurar cuenta
 
 3.  En la ficha desplegable **Transferencia**, asegúrese de que los campos **CCC Cód. banco**, **CCC Cód. oficina**, **CCC Dígito control** y **CCC Nº cuenta** se rellenan correctamente.  
 
-## <a name="see-also" />Consulte también
+## <a name="see-also"></a>Consulte también
  [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)
 
 

@@ -9,14 +9,14 @@ ms.topic: how-to
 ms.date: 01/26/2023
 ms.custom: bap-template
 ---
-# <a name="set-up-email-printers" />Configurar impresoras por correo electrónico
+# <a name="set-up-email-printers"></a>Configurar impresoras por correo electrónico
 
 Este artículo explica cómo configurar impresoras habilitadas para correo electrónico en [!INCLUDE[prod_short](includes/prod_short.md)]. Con estas impresoras, [!INCLUDE[prod_short](includes/prod_short.md)] envía los trabajos de impresión a una impresora usando la dirección de correo electrónico de la impresora.
 
 > [!TIP]
 > Para conocer otras posibilidades de impresoras, vaya a [Descripción general de la administración de impresoras](admin-printer-setup-overview.md). 
 
-## <a name="prerequisites" />Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 - Lanzamiento de versiones 1 de 2020 de [!INCLUDE[prod_short](includes/prod_short.md)] o posterior
 - La extensión **Enviar a impresora de correo electrónico** está instalada
@@ -26,7 +26,7 @@ Este artículo explica cómo configurar impresoras habilitadas para correo elect
 
    Obtenga más información en [Configurar correo electrónico](admin-how-setup-email.md).
 
-## <a name="add-an-email-printer" />Agregar una impresora de correo electrónico
+## <a name="add-an-email-printer"></a>Agregar una impresora de correo electrónico
 
 La página **Administración de impresoras** le muestra las impresoras que están configuradas actualmente. La página también le da acceso a la página **Configuración** de cada impresora para editar una configuración existente o configurar una nueva impresora.
 
@@ -39,17 +39,17 @@ La página **Administración de impresoras** le muestra las impresoras que está
     >
     > Tenga en cuenta que la extensión de la impresora de correo electrónico está configurada con el tamaño de papel **A4** por defecto, que no es adecuado en Norteamérica, por ejemplo.
 
-## <a name="privacy-notice" />Aviso de privacidad
+## <a name="privacy-notice"></a>Aviso de privacidad
 
 Si usa la extensión de impresora de correo electrónico, todos o algunos trabajos de impresión se enviarán a la dirección de correo electrónico configurada para la impresora. Recomendamos encarecidamente que se vincule una identificación de correo electrónico única a un dispositivo de impresora utilizando solo los servicios oficiales proporcionados por el fabricante del hardware, como HP ePrint, KonicaMinolta EveryonePrint o Epson Email Print.
 
 Tome todas las precauciones de privacidad necesarias, incluida la garantía de que la solución de impresión de correo electrónico haya configurado correctamente los permisos, la configuración de privacidad y las políticas de retención. Es su responsabilidad proporcionar una dirección de correo electrónico correcta, verificada y operativa. Más información en [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement).
 
-## <a name="next-steps" />Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 
 [Configurar impresoras predeterminadas](ui-specify-printer-selection-reports.md)
 
-## <a name="see-also" />Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Información general de administración de impresoras](admin-printer-setup-overview.md)  
 [Configurar impresoras de impresión universal](admin-printer-setup-universal-print.md)
