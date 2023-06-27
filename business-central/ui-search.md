@@ -11,7 +11,7 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Búsqueda de páginas e información con Dígame
+# <a name="finding-pages-and-information-with-tell-me" /><a name="finding-pages-and-information-with-tell-me"></a>Búsqueda de páginas e información con Dígame
 
 Este artículo describe cómo la función de búsqueda en el producto *Dígame* puede ayudarle a ir rápidamente a cosas como acciones, páginas o informes, encontrar información sobre cómo completar una tarea concreta y descubrir otras aplicaciones y servicios de consultoría para [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -31,7 +31,7 @@ En la parte inferior de la página **Dígame** hay una acción llamada **explora
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="find-an-action-on-the-current-page"></a>Encontrar una acción en la página actual
+## <a name="find-an-action-on-the-current-page" /><a name="find-an-action-on-the-current-page"></a>Encontrar una acción en la página actual
 
 La sección **En la página actual** le permite encontrar y trabajar en la página que tiene abierta. Por ejemplo, si la página **Oferta de venta** está abierta y escribe "cliente", la sección incluye una acción que abre la ficha de cliente para el cliente seleccionado en la oferta de venta.
 
