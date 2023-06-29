@@ -11,16 +11,16 @@ ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022
 ms.author: edupont
 ---
-# <a name="request-quotes"></a><a name="request-quotes"></a>Solicitar presupuestos
+# <a name="request-quotes"></a><a name="request-quotes"></a><a name="request-quotes"></a>Solicitar presupuestos
 
 Las ofertas de compra pueden utilizarse como borradores de pedidos de compra, que luego se pueden convertir en facturas de compra o en pedidos.
 
-## <a name="create-a-purchase-quote"></a><a name="create-a-purchase-quote"></a>Crear una oferta de compra
+## <a name="create-a-purchase-quote"></a><a name="create-a-purchase-quote"></a><a name="create-a-purchase-quote"></a>Crear una oferta de compra
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ofertas de compra** y, a continuación, elija el vínculo relacionado.
 2. Crear un documento nuevo, de la misma forma que hace un pedido de compra. Obtenga más información en [Registrar compras](purchasing-how-record-purchases.md).
 
-## <a name="convert-a-purchase-quote-to-a-purchase-order"></a><a name="convert-a-purchase-quote-to-a-purchase-order"></a>Convertir una oferta de compra en un pedido de compra
+## <a name="convert-a-purchase-quote-to-a-purchase-order"></a><a name="convert-a-purchase-quote-to-a-purchase-order"></a><a name="convert-a-purchase-quote-to-a-purchase-order"></a>Convertir una oferta de compra en un pedido de compra
 
 Cuando haya aceptado la oferta del proveedor, puede convertirla en una orden de compra para procesar la compra.
 
@@ -31,9 +31,9 @@ La oferta de compra se quita de la base de datos. Se crea una factura o un pedid
 > [!NOTE]
 > No es posible convertir una oferta de compra en una factura de compra directamente, como es posible con las ofertas de venta. Para obtener detalles sobre cómo crear una factura de compra, lea [Registrar compras con facturas de compra](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consulte la [formación de Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consulte la [formación de Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/) relacionada.
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Compras](purchasing-manage-purchasing.md)  
 [Configurar compras](purchasing-setup-purchasing.md)  

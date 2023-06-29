@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 12/20/2022
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Registrar el consumo o uso para proyectos
+# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Registrar el consumo o uso para proyectos
 
 Desde la página **Ficha de proyecto**, puede abrir la página **Líneas planificación proyecto** para revisar y registrar el uso en varias partes del proyecto. Esta información se actualiza automáticamente cuando modifica y transfiere información entre trabajos y diarios de trabajo o facturas de trabajo. Para ello es necesario que active el conmutador **Aplicar vínculo uso de forma pred.** en la página **Config. proyecto**. Obtenga más información en [Configurar proyectos](projects-how-setup-jobs.md).  
 
@@ -21,7 +21,7 @@ Por ejemplo, para las líneas de planificación del tipo **Presupuesto**, puede 
 
 En los procedimientos siguientes se describe cómo registrar cantidades y costes reales (presupuestados) con un diario de proyectos. Alternativamente, puede utilizar los documentos de compra para registrar las compras de un proyecto. Obtenga más información en [Administración de suministros de proyecto](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Para registrar la utilización de una línea de planificación de proyecto de tipo Presupuesto
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Para registrar la utilización de una línea de planificación de proyecto de tipo Presupuesto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el proyecto y, a continuación, elija la acción **Líneas planificación proyecto**. 
@@ -43,14 +43,14 @@ En los procedimientos siguientes se describe cómo registrar cantidades y costes
 9. En la página **Líneas planificación proyecto**, revise el uso registrado mediante la consulta de los campos **Cantidad**, **Cantidad pendiente** y **Cdad. a transferir al diario**.  
 10. Repita los pasos del 3 al 8 para registrar la utilización adicional.  
 
-## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Para crear manualmente líneas de diario de proyectos
+## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Para crear manualmente líneas de diario de proyectos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2. En el campo **Nombre sección**, seleccione una sección de diario de proyectos relevante.  
 3. En una nueva línea, introduzca el número de documento, el número de proyecto, el número de la tarea del proyecto, el tipo y la cantidad del tipo que se consume.  
 4. Cuando las líneas del diario de proyectos están completas, seleccione la acción **Registrar**.  
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>Para ver el uso estimado del proyecto y registrar las actualizaciones
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>Para ver el uso estimado del proyecto y registrar las actualizaciones
 
 Puede ver el consumo del proyecto hasta que se termine en un paso. Para ello, utilice el proceso **Cálc. uso restante proyecto** para todas las tareas hasta la terminación del proyecto.  
 
@@ -65,7 +65,7 @@ Esto le permite supervisar y comparar los cálculos originales con los resultado
 4. Puede ser necesario actualizar el diario con algunos cambios.  
 5. Seleccione **Registrar**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Crear documentos de picking de almacén e inventario para un proyecto
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Crear documentos de picking de almacén e inventario para un proyecto
 
 Para crear documentos de picking de almacén de inventario para proyectos, su administrador debe habilitar **Actualización de característica: habilitar el picking de almacén e inventario de los proyectos** en la página **Administración de características**.
 
@@ -84,7 +84,7 @@ Puede usar acciones en las siguientes condiciones:
 > 
 > Si su almacén se ha configurado para requerir picking y procesamiento de envío, con lo que ha activado los campos de **Picking requerido** y **Envío requerido** en la **Ficha de almacén**, utilice la página **Picking de almacén** para gestionar el picking. Los picking de almacén son similares a los de inventario. La diferencia es que, en lugar de registrar la información del picking, registra el propio picking. Este registro no contabiliza el consumo, solo hace que los productos estén disponibles para el registro. Como administrador del almacén, puede utilizar la hoja de trabajo de un picking para organizar la información antes de crear las instrucciones individuales de picking de almacén
 
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Para revisar las líneas de planificación de un movimiento de proyecto
+## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Para revisar las líneas de planificación de un movimiento de proyecto
 
 Después de haber registrado las líneas de diario de proyectos, puede ver las líneas de planificación que están asociadas a los movimientos del diario de proyectos que se han registrado.
 
@@ -95,9 +95,9 @@ Después de haber registrado las líneas de diario de proyectos, puede ver las l
 2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Movimientos**.  
 3. En la página **Movs. proyectos**, elija la acción **Mostrar líneas planificación proyecto vinculadas**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Administración de proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  

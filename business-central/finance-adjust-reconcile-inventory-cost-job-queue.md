@@ -11,11 +11,11 @@ ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a><a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Programar trabajos para ajustar y conciliar el coste de inventario con la contabilidad
+# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a><a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a><a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Programar trabajos para ajustar y conciliar el coste de inventario con la contabilidad
 
 Para optimizar la experiencia, el ajuste automático de costes y el registro en la contabilidad están activados de forma predeterminada. Sin embargo, a medida que los datos se acumulan con el tiempo, eso podría afectar el rendimiento. Para reducir la carga en la aplicación, a menudo es útil usar entradas de la cola de proyectos para mover las tareas y ejecutarlas en segundo plano.
 
-## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a><a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Mueva la tarea de ajustar los costes de los productos a un segundo plano con la ayuda de la configuración asistida
+## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a><a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a><a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Mueva la tarea de ajustar los costes de los productos a un segundo plano con la ayuda de la configuración asistida
 
 Crear las entradas de la cola de proyectos puede ser complicado, incluso para un consultor experimentado, por lo que contamos con una guía de configuración asistida para facilitar el proceso de ajuste de los costes de los productos.  
 
@@ -29,7 +29,7 @@ Crear las entradas de la cola de proyectos puede ser complicado, incluso para un
 
 5. Seleccione el campo **Ver los movimiento de la cola de proyectos al finalizar** para revisar y ajustar la configuración. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a><a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Para crear un movimiento en la cola de proyectos para ajustar y conciliar el coste de inventario manualmente
+## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a><a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a><a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Para crear un movimiento en la cola de proyectos para ajustar y conciliar el coste de inventario manualmente
 
 Alternativamente, puede crear movimientos de cola de proyectos manualmente. El siguiente procedimiento muestra cómo configurar el trabajo por lotes **Ajustar coste: movimientos de productos** para que se ejecute automáticamente a diario, pero los mismos pasos se aplican al trabajo por lotes **Contabilizar el coste de inventario en la contabilidad**.  
 
@@ -48,7 +48,7 @@ Para programar una tarea para conciliar el inventario con la contabilidad, selec
 > [!TIP]
 > Para evitar el bloqueo, no programe tareas para el trabajo por lotes **Ajustar coste: movimientos de productos**, la codeunit **Contabilizar el costo de inventario en la contabilidad** ni las tareas para contabilizar transacciones de venta o compra al mismo tiempo. Además, asegúrese de que utilicen la misma categoría de cola de trabajos.
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Modificar costes de productos](inventory-how-adjust-item-costs.md)  
 [Conciliar costes de inventario con la contabilidad](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

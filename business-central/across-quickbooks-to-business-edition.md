@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Cambiar de una aplicación de QuickBooks a Dynamics 365 Business Central
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Cambiar de una aplicación de QuickBooks a Dynamics 365 Business Central
 
 Cada vez más empresas en crecimiento están cambiando de aplicaciones de finanzas como QuickBooks Desktop y QuickBooks Online, que están diseñadas para empresas emergentes y otras pequeñas empresas, a [!INCLUDE[prod_short](includes/prod_short.md)], que también admite organizaciones más grandes y complejas. 
 
@@ -27,13 +27,13 @@ Para obtener más información, consulte sobre la extensión que se adapta a la 
 * [Extensión de migración de datos de QuickBooks Desktop](ui-extensions-quickbooks-data-migration.md)
 * [Extensión de migración de datos de QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a><a name="ready-now"></a>¿Listo ahora?
+## <a name="ready-now"></a><a name="ready-now"></a><a name="ready-now"></a>¿Listo ahora?
 
 Si está listo para comenzar ahora, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado. Seleccione **Migrar los datos empresariales**y, a continuación, siga los pasos en la guía.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar Business Central con extensiones](ui-extensions.md)   

@@ -10,7 +10,7 @@ ms.search.keywords: 'undo, credit memo, return'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="correct-or-cancel-unpaid-sales-invoices"></a><a name="correct-or-cancel-unpaid-sales-invoices"></a>Corregir o cancelar facturas de venta sin abonar
+# <a name="correct-or-cancel-unpaid-sales-invoices"></a><a name="correct-or-cancel-unpaid-sales-invoices"></a><a name="correct-or-cancel-unpaid-sales-invoices"></a>Corregir o cancelar facturas de venta sin abonar
 
 Puede corregir o cancelar una factura de venta registrada impaga, siempre que no se haya enviado por completo. Esto es útil si se comete un error o si el cliente solicita un cambio antes de que se complete el envío. En todos los demás escenarios, le recomendamos que cree directamente una nota de crédito de ventas correctiva. Para más información, vea [Para crear una nota de crédito de ventas a partir de una factura de ventas registrada](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).  
 
@@ -29,7 +29,7 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
 > [!TIP]
 > Si ha publicado una factura de prepago para una factura de ventas que luego corrige o cancela, también debe corregir o cancelar el prepago. Para obtener más información, consulte [Corregir prepagos](finance-how-to-correct-prepayments.md).
 
-## <a name="to-cancel-a-posted-sales-invoice"></a><a name="to-cancel-a-posted-sales-invoice"></a>Cancelar una factura de venta registrada
+## <a name="to-cancel-a-posted-sales-invoice"></a><a name="to-cancel-a-posted-sales-invoice"></a><a name="to-cancel-a-posted-sales-invoice"></a>Cancelar una factura de venta registrada
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la factura de venta registrada que desea cancelar.
@@ -41,11 +41,11 @@ Al corregir o cancelar una factura de ventas registrada, el abono de venta de co
     Un abono de venta se crea y se registra automáticamente para anular la factura de venta registrada inicial. El campo **Cancelado** en la factura de ventas registrada inicial se cambia a **Sí**.
 4. Elija la acción **Mostrar abono correctivo** para ver el histórico de abonos de ventas que anula la factura de ventas registrada inicial.
 
-### <a name="partial-invoice-posting-also-supported"></a><a name="partial-invoice-posting-also-supported"></a>También se admite el registro parcial de facturas
+### <a name="partial-invoice-posting-also-supported"></a><a name="partial-invoice-posting-also-supported"></a><a name="partial-invoice-posting-also-supported"></a>También se admite el registro parcial de facturas
 
 Si la cancelación está relacionada con un registro parcial de la factura, la línea de pedido de venta original se actualiza para reflejar la cantidad facturada cancelada. Los campos **Cant. a facturar** y **Cant. facturada** en la línea de pedido de venta relacionada se restablecen a los valores previos del registro parcial.
 
-## <a name="to-correct-a-posted-sales-invoice"></a><a name="to-correct-a-posted-sales-invoice"></a>Corregir una factura de venta registrada
+## <a name="to-correct-a-posted-sales-invoice"></a><a name="to-correct-a-posted-sales-invoice"></a><a name="to-correct-a-posted-sales-invoice"></a>Corregir una factura de venta registrada
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la factura de venta registrada que desea corregir.
@@ -61,9 +61,9 @@ Si la cancelación está relacionada con un registro parcial de la factura, la l
     Un abono de venta se crea y se registra automáticamente para anular la factura de venta registrada inicial.
 5. Elija la acción **Mostrar abono correctivo** para ver el histórico de abonos de ventas que anula la factura de ventas registrada inicial.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Ccial](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  

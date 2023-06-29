@@ -12,13 +12,13 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
+# <a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a>Trabajar con fechas y horas del calendario
 
 Puede introducir fechas y horas de varias maneras. [!INCLUDE[prod_short](includes/prod_long.md)] incluye potentes funciones que aceleran la entrada de datos o ayudan a escribir expresiones de calendario complejas. Hay varios lugares en la aplicación donde puede introducir fechas y horas en los campos. Por ejemplo, en un pedido de venta, puede establecer la fecha de envío. Al filtrar listas o datos de informes, puede introducir fechas y horas para señalar solo los datos que le interesan.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a>Compruebe su región y la configuración de idioma
+## <a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a>Compruebe su región y la configuración de idioma
 
 La página **Mi configuración** especifica los valores de **Región** e **Idioma** que utiliza en la aplicación. Estos ajustes influyen en cómo se introducen las fechas y horas.
 
@@ -33,7 +33,7 @@ La página **Mi configuración** especifica los valores de **Región** e **Idiom
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a><a name="entering-dates"></a>Introducción de fechas
+## <a name="entering-dates"></a><a name="entering-dates"></a><a name="entering-dates"></a>Introducción de fechas
 
 En un campo de fecha, puede introducir una fecha con el formato estándar para la configuración de su región. Diferentes regiones pueden usar diferentes separadores entre los días, meses y años. Por ejemplo, algunas regiones usan guiones (mm-dd-aaaa) y otras usan barras diagonales (mm/dd/aaaa).  
 
@@ -45,7 +45,7 @@ En un campo de fecha, puede introducir una fecha con el formato estándar para l
 
 Para trabajar de forma más productiva con fechas y horas, puede utilizar cualquiera de los métodos o formatos que se describen en las siguientes secciones.
 
-### <a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a>Seleccionar fechas del calendario
+### <a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a>Seleccionar fechas del calendario
 
 Cualquier campo que muestre un icono de calendario se puede configurar con el selector de fechas del calendario. Para mostrar el selector de fechas del calendario, active el icono del calendario o seleccione el atajo <kbd>Ctrl</kbd>+<kbd>Inicio</kbd> en el campo.
 
@@ -53,7 +53,7 @@ Cualquier campo que muestre un icono de calendario se puede configurar con el se
 
 Consulte también [Métodos abreviados de teclado en el selector de fechas del calendario](keyboard-shortcuts.md#calendarshortcuts).
 
-### <a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a>Patrón día\-semana\-año
+### <a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a>Patrón día\-semana\-año
 
 Puede introducir una fecha como día de la semana seguido de un número de semana y, opcionalmente, un año. Por ejemplo, Lun25 o lun25 significa lunes de la semana 25. Si no introduce un año, se utiliza el año de la fecha de trabajo.
 
@@ -61,7 +61,7 @@ En lugar de introducir la palabra completa para el día de la semana, puede intr
 
 El esquema de número de la semana siempre es ISO 8601, donde la semana 1 es la semana con 4 de enero, o la semana con el primer jueves del año.
 
-### <a name="digit-patterns"></a><a name="digit-patterns"></a>Patrones de dígitos
+### <a name="digit-patterns"></a><a name="digit-patterns"></a><a name="digit-patterns"></a>Patrones de dígitos
 
 En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:
 
@@ -74,17 +74,17 @@ En un campo de fecha, puede introducir dos, cuatro, seis u ocho dígitos:
   > [!NOTE]
   > Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] en las instalaciones, el intervalo de años de dos dígitos puede ser diferente. Los administradores pueden cambiar el rango modificando el ajuste **CalendarTwoDigitYearMax** del servidor [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Configuración de Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### <a name="today"></a><a name="today"></a>Hoy
+### <a name="today"></a><a name="today"></a><a name="today"></a>Hoy
 
 Ingrese la palabra para _hoy_, en el idioma especificado en la página **Mi configuración**, para establecer la fecha de un registro en la fecha de hoy. En lugar de introducir la palabra completa, puede introducir parte de la palabra, comenzando desde el principio. Por ejemplo, en inglés, puede ingresar _t_ o _tod_, siempre que no sea también el comienzo de otra palabra.
 
-### <a name="period"></a><a name="period"></a>Período
+### <a name="period"></a><a name="period"></a><a name="period"></a>Período
 
 Para filtrar un período contable específico, en un campo de fecha introduzca la letra p, o la palabra periodo, seguida de un número que identifique el período contable, como p2 o periodo4. El período contable es relativo al ejercicio de la fecha de trabajo actual que la establecida en su área de trabajo. Por ejemplo, si la fecha de trabajo es **21/03/22**, con _p1_, o solo _p_, se filtra el primer periodo contable del ejercicio 2022 (por ejemplo, 01/01/22..31/01/22). _p15_ filtra el decimoquinto periodo contable desde el inicio del ejercicio 2022 (por ejemplo, 01/03/23..31/03/23).
 
 Los periodos contables se definen en la página **Periodos contables**. Para ver o cambiar los períodos contables, abra la página [aquí](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a><a name="work-date"></a>Fecha de trabajo
+### <a name="work-date"></a><a name="work-date"></a><a name="work-date"></a>Fecha de trabajo
 
 Utilice una fecha de trabajo para especificar una fecha que no sea la de hoy en los registros. Por ejemplo, una fecha de trabajo es útil cuando necesita establecer una fecha particular para varios registros. Usted especifica la fecha de trabajo en la página **Mi configuración**. 
 
@@ -92,13 +92,13 @@ Una forma rápida de ingresar la fecha de trabajo en los registros es ingresar p
 
 Si no ha especificado una fecha de trabajo, se utilizará la fecha de hoy. Para más información, consulte [Cambiar la configuración básica como la fecha de trabajo](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a><a name="closing-date"></a>Fecha cierre
+### <a name="closing-date"></a><a name="closing-date"></a><a name="closing-date"></a>Fecha cierre
 
 Cuando cierra el ejercicio, puede usar fechas U, para indicar que un movimiento es un movimiento de cierre. La fecha de cierre se encuentra técnicamente entre dos fechas, por ejemplo, entre 31 de diciembre y 1 de enero.
 
 Para especificar que es una fecha de cierre, coloque una C delante, como C123101. Use este formato en combinación con todos los patrones de fecha.
 
-### <a name="examples"></a><a name="examples"></a>Ejemplos
+### <a name="examples"></a><a name="examples"></a><a name="examples"></a>Ejemplos
 
 La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone que la configuración regional formatea las fechas de acuerdo con: **año.mes.día.**, una semana a partir del lunes y el idioma inglés.
 
@@ -123,7 +123,7 @@ La siguiente tabla contiene ejemplos de fechas en todos los formatos. Se supone 
 |m 23|Martes de la semana 23 del año de la fecha de trabajo|
 |m-1|Martes de la semana 1 del año de la fecha de trabajo|
 
-## <a name="setting-ranges"></a><a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Configuración de rangos
+## <a name="setting-ranges"></a><a name="setting-ranges"></a><a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Configuración de rangos
 
 En listas, totales e informes, puede establecer filtros en fechas, horas y fechas y horas que contienen un valor de inicio y, opcionalmente, un valor final para mostrar solo los datos de ese rango. Se aplican reglas estándar a la forma de establecer los rangos de fechas.
 
@@ -135,7 +135,7 @@ En listas, totales e informes, puede establecer filtros en fechas, horas y fecha
 
 Puede utilizar cualquiera de los formatos válidos en los filtros de rango de fechas. Por ejemplo, lun14 3..h 4p aplicado en un campo de fecha y hora da como resultado un filtro desde las 3 a.m. del lunes en la semana 14 del año actual de la fecha de trabajo, inclusive, hasta hoy a las 4 p.m., inclusive.
 
-## <a name="use-date-formulas"></a><a name="use-date-formulas"></a>Usar fórmulas de fecha
+## <a name="use-date-formulas"></a><a name="use-date-formulas"></a><a name="use-date-formulas"></a>Usar fórmulas de fecha
 
 Una fórmula de fecha es una breve combinación abreviada de letras y números que especifica cómo calcular fechas. Puede introducir fórmulas de fecha en varios campos o filtros de cálculo de fecha.
 
@@ -199,7 +199,7 @@ El ejemplo siguiente muestra cómo utilizar un signo menos para indicar una fech
 > [!IMPORTANT]
 > Si el almacén utiliza un calendario base, la fórmula de fecha que escriba en este campo, por ejemplo el campo **Tiempo envío**, se interpreta según los días laborables del calendario. Por ejemplo, 1S significa siete días laborables.
 <!--
-# <a name="entering-date-ranges"></a><a name="entering-date-ranges"></a>Entering Date Ranges
+# <a name="entering-date-ranges"></a><a name="entering-date-ranges"></a><a name="entering-date-ranges"></a>Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a>Use Date Formulas
+## <a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a>Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -287,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a><a name="entering-times"></a>Introducción de horas
+## <a name="entering-times"></a><a name="entering-times"></a><a name="entering-times"></a>Introducción de horas
 
 Cuando introduzca horas, puede insertar cualquier signo separador que no sea espacio entre las unidades. Si usa dos dígitos para cada unidad hasta milisegundos, entonces no es necesario.
 
@@ -320,11 +320,11 @@ En la tabla siguiente se muestran varias formas de introducir horas y cómo se i
 
 La palabra para "hora" en el idioma utilizado por [!INCLUDE[prod_short](includes/prod_long.md)] se evaluará hasta la hora actual de su ordenador o dispositivo móvil. Puede introducir cualquier parte de la palabra, comenzando desde el principio, como h u HOR.
 
-## <a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a>Introducir fechas y horas combinadas
+## <a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a>Introducir fechas y horas combinadas
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a><a name="entering-duration"></a>Introducción de duración
+## <a name="entering-duration"></a><a name="entering-duration"></a><a name="entering-duration"></a>Introducción de duración
 
 Algunos campos de la aplicación representan una duración o cantidad de tiempo transcurrido, en lugar de una fecha u hora específicas. Introduzca un periodo de tiempo como un número seguido de su unidad de medida.
 
@@ -345,9 +345,9 @@ Para ver qué unidad de medida se está utilizando en un campo de duración, int
 
 Por ejemplo, si la unidad de medida es horas, el número 5 se convierte a 5 hrs.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Cálculo de la fecha de las compras](purchasing-date-calculation-for-purchases.md)  

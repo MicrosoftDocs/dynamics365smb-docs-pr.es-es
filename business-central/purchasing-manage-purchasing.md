@@ -11,7 +11,7 @@ ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="purchasing"></a><a name="purchasing"></a>Compra
+# <a name="purchasing"></a><a name="purchasing"></a><a name="purchasing"></a>Compra
 
 Cree una factura o un pedido de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Si necesita controlar un inventario, las facturas de compra también se utilizan para actualizar dinámicamente los niveles de inventario para que pueda minimizar sus costes de inventario y proporcionar un mejor servicio al cliente. Los costes de compra, incluidos los gastos del servicio, y los valores de inventario resultantes del registro de las facturas de compra contribuyen a las cifras de ganancias y otros KPI financieros en el área de trabajo.
 
@@ -39,13 +39,13 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Resolver la confusión cuando existen dos o más registros para el mismo proveedor.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 |Administrar el compromiso a un proveedor para comprar grandes cantidades entregadas en varios envíos a lo largo del tiempo.|[Trabajar con pedidos abiertos de compra](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a><a name="external-document-numbers"></a>Números de documento externo
+## <a name="external-document-numbers"></a><a name="external-document-numbers"></a><a name="external-document-numbers"></a>Números de documento externo
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  

@@ -11,7 +11,7 @@ ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862
 ms.date: 12/20/2021
 ms.author: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a><a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
+# <a name="analyzing-cash-flow-in-your-company"></a><a name="analyzing-cash-flow-in-your-company"></a><a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
 Los gráficos del Área de trabajo Contable proporcionan información que le puede ayudar a tomar decisiones sólidas sobre qué debe hacer con el efectivo.  
 
 | Para responder a preguntas como las siguientes | Use este gráfico |
@@ -36,15 +36,15 @@ Si desea examinar la previsión, además de los movimientos de previsión, tambi
 * Resta los pagos y suma los cobros.  
 * Omite los pedidos de venta y de compra duplicados.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a><a name="to-view-a-cash-flow-worksheet"></a>Para ver la hoja de flujo de efectivo
+## <a name="to-view-a-cash-flow-worksheet"></a><a name="to-view-a-cash-flow-worksheet"></a><a name="to-view-a-cash-flow-worksheet"></a>Para ver la hoja de flujo de efectivo
 
 1. Busque **Previsiones de flujo de efectivo** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione una previsión de flujo de efectivo y, a continuación, seleccione la acción **Hoja flujos efectivo**.  
 3. En la página **Hoja flujos efectivo**, elija la acción **Proponer líneas de hoja de trabajo**.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

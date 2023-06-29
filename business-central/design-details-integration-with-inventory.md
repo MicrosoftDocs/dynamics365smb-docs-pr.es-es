@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-integration-with-inventory"></a><a name="design-details-integration-with-inventory"></a>Detalles de diseño: Integración con inventario
+# <a name="design-details-integration-with-inventory"></a><a name="design-details-integration-with-inventory"></a><a name="design-details-integration-with-inventory"></a>Detalles de diseño: Integración con inventario
 
 Las características de Warehouse Management e Inventario interactúan entre sí en el inventario físico y en el ajuste de inventario o de almacén.  
 
-## <a name="physical-inventory"></a><a name="physical-inventory"></a>Inventario físico
+## <a name="physical-inventory"></a><a name="physical-inventory"></a><a name="physical-inventory"></a>Inventario físico
 
 La página **Diario de inventario físico de almacén** se usa en la página **Diario inventario físico** para todas las ubicaciones de almacén avanzadas. Se calcula el inventario en el nivel de ubicación y se proporciona una lista impresa al empleado del almacén. La lista muestra los productos en los que se deben contar las ubicaciones.  
   
@@ -30,7 +30,7 @@ Cuando se registra el diario de inventario físico, se actualizan el inventario 
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## <a name="warehouse-adjustments-to-the-item-ledger"></a><a name="warehouse-adjustments-to-the-item-ledger"></a>Ajustes de almacén en el libro mayor de productos
+## <a name="warehouse-adjustments-to-the-item-ledger"></a><a name="warehouse-adjustments-to-the-item-ledger"></a><a name="warehouse-adjustments-to-the-item-ledger"></a>Ajustes de almacén en el libro mayor de productos
 
 Use la página **Diario de producto** y la función **Calcular ajuste almacén** para ajustar el inventario en el movimiento de producto según un ajuste que se ha realizado en la cantidad de producto en una ubicación de almacén. Para crear un vínculo entre el inventario y el almacén, debe definir una ubicación de ajuste predeterminado por ubicación.  
   
@@ -43,7 +43,7 @@ Para ajustar el contenido de la ubicación, puede utilizar el diario de producto
   
 Si introduce una cantidad positiva y registra la línea, el inventario almacenado en la ubicación se incrementará, y la cantidad de la ubicación de ajuste predeterminada se reducirá en consecuencia.  
   
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)  
 [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)  

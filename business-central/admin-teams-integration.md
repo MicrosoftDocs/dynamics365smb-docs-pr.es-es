@@ -11,15 +11,15 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-"></a><a name="managing-microsoft-teams-integration-with-"></a>Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-"></a><a name="managing-microsoft-teams-integration-with-"></a><a name="managing-microsoft-teams-integration-with-"></a>Gestionar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Este artículo proporciona una descripción general de lo que puede hacer como administrador para controlar la integración de Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a><a name="in-microsoft-teams"></a>En Microsoft Teams
+## <a name="in-microsoft-teams"></a><a name="in-microsoft-teams"></a><a name="in-microsoft-teams"></a>En Microsoft Teams
 
-### <a name="minimum-requirements"></a><a name="minimum-requirements"></a>Requisitos mínimos
+### <a name="minimum-requirements"></a><a name="minimum-requirements"></a><a name="minimum-requirements"></a>Requisitos mínimos
 
 Esta sección describe los requisitos mínimos para que la características de la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] trabajen en Teams.
 
@@ -42,7 +42,7 @@ Esta sección describe los requisitos mínimos para que la características de l
 
     La configuración de directiva **Permitir vistas previas de URL** debe estar activada. De lo contrario, no se puede generar una tarjeta para los vínculos de [!INCLUDE [prod_short](includes/prod_short.md)] pegados en una conversación de Teams. Para obtener más información sobre esta configuración, consulte [Administrar directivas de mensajería en Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the--app-optional"></a><a name="managing-the--app-optional"></a>Gestionar la aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] (opcional)
+### <a name="managing-the--app-optional"></a><a name="managing-the--app-optional"></a><a name="managing-the--app-optional"></a>Gestionar la aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] (opcional)
 
 Como administrador de Teams, puede administrar todas las aplicaciones de su organización, incluida la aplicación [!INCLUDE [prod_short](includes/prod_short.md)]. Puede aprobar o instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para su organización, bloquear la instalación de la aplicación para el usuario y más.
 
@@ -51,9 +51,9 @@ Para obtener más información, consulte los siguientes productos de la document
 - [Administre sus aplicaciones en el centro de administración de Microsoft Teams](/MicrosoftTeams/manage-apps)
 - [Administrar las directivas de configuración de la aplicación en Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-"></a><a name="in-"></a>En [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-"></a><a name="in-"></a><a name="in-"></a>En [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements-1"></a><a name="minimum-requirements-1"></a>Requisitos mínimos
+### <a name="minimum-requirements-1"></a><a name="minimum-requirements-1"></a><a name="minimum-requirements-1"></a>Requisitos mínimos
 
 - Versión de [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -75,7 +75,7 @@ Para obtener más información, consulte los siguientes productos de la document
     
     Para obtener información sobre permisos, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a><a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Instalación de la aplicación Business Central mediante Implementación centralizada
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a><a name="installing-the-business-central-app-by-using-centralized-deployment"></a><a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Instalación de la aplicación Business Central mediante Implementación centralizada
 
 El centro de administración de Microsoft Teams es donde se configuran las políticas de configuración de aplicaciones de Teams para la organización. En el centro de administración de Teams, puede usar la función Implementación centralizada para instalar automáticamente la aplicación Business Central en Teams para todos los usuarios de su organización, grupos específicos o usuarios individuales.
 
@@ -99,18 +99,18 @@ El centro de administración de Microsoft Teams es donde se configuran las polí
 > [!IMPORTANT]
 > La directiva de configuración de aplicaciones y la implementación de la aplicación para los usuarios pueden tardar hasta 24 horas.
 
-## <a name="managing-privacy-and-compliance"></a><a name="managing-privacy-and-compliance"></a>Gestionar la privacidad y el cumplimiento
+## <a name="managing-privacy-and-compliance"></a><a name="managing-privacy-and-compliance"></a><a name="managing-privacy-and-compliance"></a>Gestionar la privacidad y el cumplimiento
 
 Microsoft Teams proporciona amplios controles para el cumplimiento y la gestión de datos confidenciales o de identificación personal&mdash;incluidos los datos agregados a los chats y canales por la aplicación [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="understanding-where--cards-are-stored"></a><a name="understanding-where--cards-are-stored"></a>Saber dónde se almacenan las tarjetas de [!INCLUDE [prod_short](includes/prod_short.md)]
+### <a name="understanding-where--cards-are-stored"></a><a name="understanding-where--cards-are-stored"></a><a name="understanding-where--cards-are-stored"></a>Saber dónde se almacenan las tarjetas de [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Después de enviar una tarjeta a un chat, la tarjeta y los campos que se muestran en la tarjeta se copian en Teams. Esta información está sujeta a las políticas de Teams de su organización, como las políticas de retención de datos. Cuando se muestran los detalles de la tarjeta, ninguno de los datos de la ventana de detalles se almacena en Teams. Los datos permanecen almacenados en [!INCLUDE [prod_short](includes/prod_short.md)] y Teams solo lo recuperará cuando el usuario elija ver los detalles. 
 
 - Para obtener más información sobre dónde almacena Teams esos datos, consulte [Ubicación de los datos en Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Para obtener más información sobre las políticas de retención en Teams, consulte [Políticas de retención en Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a><a name="restricting-sharing-of-cards"></a>Restringir el intercambio de tarjetas
+### <a name="restricting-sharing-of-cards"></a><a name="restricting-sharing-of-cards"></a><a name="restricting-sharing-of-cards"></a>Restringir el intercambio de tarjetas
 
 Evita que usuarios o grupos específicos envíen tarjetas a chats o canales configurando políticas de mensajería que desactivan la configuración de **Vistas previas de URL**. Para obtener más información sobre esta configuración, consulte [Administrar directivas de mensajería en Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -118,7 +118,7 @@ También puede utilizar barreras de información para evitar que las personas o 
 
 Las características de prevención de pérdida de datos del Centro de cumplimiento y seguridad de Microsoft 365 no se pueden aplicar específicamente a las tarjetas. Pero se pueden aplicar a los mensajes de chat que contienen las tarjetas. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a><a name="responding-to-data-requests"></a>Responder a solicitudes de datos
+### <a name="responding-to-data-requests"></a><a name="responding-to-data-requests"></a><a name="responding-to-data-requests"></a>Responder a solicitudes de datos
 
 Permite que los miembros del equipo y los propietarios del equipo eliminen mensajes que contienen tarjetas confidenciales configurando políticas de mensajería, como: **Los propietarios pueden eliminar los mensajes enviados** y **Los usuarios pueden eliminar los mensajes enviados**. Para obtener más información, consulte [Administrar directivas de mensajería en Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -126,7 +126,7 @@ Las características de búsqueda de contenido y cumplimiento de eDiscovery del 
 
 Dado que los datos de la tarjeta en Teams son una copia de los datos en [!INCLUDE [prod_short](includes/prod_short.md)], también puede usar las características de [!INCLUDE [prod_short](includes/prod_short.md)] para exportar los datos de un cliente si se solicita. Para obtener más información sobre la privacidad en [!INCLUDE [prod_short](includes/prod_short.md)], vea [Preguntas frecuentes sobre privacidad para clientes de Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="show-or-hide-record-data-on-cards"></a><a name="show-or-hide-record-data-on-cards"></a>Mostrar u ocultar datos de registro en tarjetas
+## <a name="show-or-hide-record-data-on-cards"></a><a name="show-or-hide-record-data-on-cards"></a><a name="show-or-hide-record-data-on-cards"></a>Mostrar u ocultar datos de registro en tarjetas
 
 Cuando se comparte un registro con otras personas en un chat o canal de Teams, se muestra una tarjeta con campos que contienen datos sobre el registro. Todos los destinatarios pueden ver estos datos (o resumen de registros) de forma predeterminada, independientemente de su licencia o permisos en Business Central. Si es administrador, puede usar la guía de configuración asistida **Configuración de la tarjeta** para ocultar el resumen del registro, para que no aparezca en las tarjetas en Teams. Ocultar el resumen del registro elimina todos los campos e imágenes, pero sigue mostrando el botón **Detalles** y otra información que no pertenece al registro en la tarjeta.
 
@@ -145,7 +145,7 @@ Usted configura la configuración por entorno. Por lo tanto, cuando active o des
 4. En la página **Visibilidad de datos**, active el conmutador **Mostrar resumen de registro** para mostrar los datos de las tarjetas o desactive para ocultar los datos.
 5. Seleccione **Siguiente** y siga las instrucciones para completar la guía de configuración.
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Información general sobre [!INCLUDE [prod_short](includes/prod_short.md)] y la integración de Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  

@@ -11,13 +11,13 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ---
 
-# <a name="building-power-bi-reports-to-display--data"></a><a name="building-power-bi-reports-to-display--data"></a>Crear informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]
+# <a name="building-power-bi-reports-to-display--data"></a><a name="building-power-bi-reports-to-display--data"></a><a name="building-power-bi-reports-to-display--data"></a>Crear informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]
 
 Puede hacer que los datos de [!INCLUDE[prod_long](includes/prod_long.md)] estén disponibles como origen de datos en Power BI Desktop y generar informes eficaces del estado de la empresa.
 
 Este artículo describe cómo empezar a usar Power BI Desktop para crear informes que muestren datos de [!INCLUDE[prod_long](includes/prod_long.md)].  Después de crear informes, puede publicarlos en su servicio de Power BI o compartirlos con todos los usuarios de su organización. Una vez que estos informes estén en el servicio de Power BI, los usuarios que están configurados para él, pueden ver los informes en [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## <a name="get-ready"></a><a name="get-ready"></a>Prepararse
+## <a name="get-ready"></a><a name="get-ready"></a><a name="get-ready"></a>Prepararse
 
 - Regístrese para el servicio de Power BI.
 
@@ -46,7 +46,7 @@ Este artículo describe cómo empezar a usar Power BI Desktop para crear informe
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI Desktop
 
 La primera tarea al crear informes es agregar [!INCLUDE[prod_short](includes/prod_short.md)] como fuente de datos en Power BI Desktop. Una vez conectado, puede comenzar a generar el informe.
 
@@ -100,39 +100,39 @@ Una vez que los datos se hayan cargado, puede verlos en el panel de navegación 
 > [!TIP]
 > Para obtener más información sobre el uso de Power BI Desktop, vea [Introducción a Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="creating-accessible-reports"></a><a name="creating-accessible-reports"></a>Crear informes accesibles
+## <a name="creating-accessible-reports"></a><a name="creating-accessible-reports"></a><a name="creating-accessible-reports"></a>Crear informes accesibles
 
 Es importante que sus informes puedan ser utilizados por tantas personas como sea posible. Intente diseñar informes para que no requieran ninguna adaptación especial para satisfacer las necesidades específicas de diferentes usuarios. Asegúrese de que el diseño permita a los usuarios aprovechar las tecnologías de asistencia estándar, como los lectores de pantalla. Power BI incluye varias funciones, herramientas y pautas de accesibilidad para ayudarle a lograr este objetivo. Para más información, [Diseñar informes de Power BI para accesibilidad](/power-bi/create-reports/desktop-accessibility-creating-reports) en la documentación de Power BI.
 
-## <a name="creating-reports-to-display-data-associated-with-a-list"></a><a name="creating-reports-to-display-data-associated-with-a-list"></a>Crear informes para mostrar datos asociados con una lista
+## <a name="creating-reports-to-display-data-associated-with-a-list"></a><a name="creating-reports-to-display-data-associated-with-a-list"></a><a name="creating-reports-to-display-data-associated-with-a-list"></a>Crear informes para mostrar datos asociados con una lista
 
 Puede crear informes que se muestren en un cuadro informativo de una página de lista [!INCLUDE [prod_short](includes/prod_short.md)]. Los informes pueden contener datos sobre el registro seleccionado en la lista. La creación de estos informes es similar a otros informes, excepto que hay algunas cosas que deberá hacer para asegurarse de que los informes se muestren como se espera. Para más información, ver [Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the--report-theme-optional"></a><a name="using-the--report-theme-optional"></a><a name="theme"></a>Usar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)] (optional)
+## <a name="using-the--report-theme-optional"></a><a name="using-the--report-theme-optional"></a><a name="using-the--report-theme-optional"></a><a name="theme"></a>Usar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)] (optional)
 
 Antes de elaborar el informe, le recomendamos que descargue e importe el archivo de tema de Microsoft [!INCLUDE [prod_short](includes/prod_short.md)]. El archivo de tema crea una paleta de colores de forma que pueda crear informes con el mismo estilo de color que las aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] sin pedirle que defina colores personalizados para cada elemento visual.
 
 > [!NOTE]
 > Esta tarea es opcional. Siempre puede crear sus informes y luego descargar y aplicar la plantilla de estilo más tarde.
 
-### <a name="download-the-theme"></a><a name="download-the-theme"></a>Descargar el tema
+### <a name="download-the-theme"></a><a name="download-the-theme"></a><a name="download-the-theme"></a>Descargar el tema
 
 El archivo de tema está disponible como archivo json en la Galería de temas comunitarios de Microsoft Power BI. Para descargar el archivo de tema, siga los siguientes pasos:
 
 1. Ir a la[Galería de temas comunitarios de Microsoft Power BI para Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Seleccione el archivo adjunto de descarga **Microsoft Dynamics Business Central.json**.
 
-### <a name="import-the-theme-on-a-report"></a><a name="import-the-theme-on-a-report"></a>Importar el tema en un informe
+### <a name="import-the-theme-on-a-report"></a><a name="import-the-theme-on-a-report"></a><a name="import-the-theme-on-a-report"></a>Importar el tema en un informe
 
 Después de descargar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)], puede importarlo a sus informes. Para importar el tema, seleccione **Ver** > **Temas** > **Buscar temas**. Para más información, ver [Power BI Desktop - Importar temas de informes personalizados](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="publish-reports"></a><a name="publish-reports"></a>Publicar informes
+## <a name="publish-reports"></a><a name="publish-reports"></a><a name="publish-reports"></a>Publicar informes
 
 Una vez que haya creado o modificado un informe, puede publicarlo en su servicio de Power BI y también compartirlo con otros miembros de su organización. Una vez publicado, verá el informe en Power BI. El informe también está disponible para su selección en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Para publicar un informe, seleccione **Publicar** en la pestaña **Inicio** de la cinta o del menú **Archivo**. Si ha iniciado sesión en el servicio Power BI, el informe se publica en este servicio. De lo contrario, se le pedirá que inicie sesión. 
 
-## <a name="distribute-or-share-a-report"></a><a name="distribute-or-share-a-report"></a>Distribuir o compartir un informe
+## <a name="distribute-or-share-a-report"></a><a name="distribute-or-share-a-report"></a><a name="distribute-or-share-a-report"></a>Distribuir o compartir un informe
 
 Hay dos formas de enviar informes a sus compañeros de trabajo y a otras personas:
 
@@ -147,9 +147,9 @@ Hay dos formas de enviar informes a sus compañeros de trabajo y a otras persona
 
     Si tiene una licencia de Power BI Pro, puede compartir el informe con otros, directamente desde su servicio de Power BI. Para más información, ver [Power BI - Compartir un panel o informe](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="fixing-problems"></a><a name="fixing-problems"></a>Solucionar problemas
+## <a name="fixing-problems"></a><a name="fixing-problems"></a><a name="fixing-problems"></a>Solucionar problemas
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a><a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"No se puede insertar un registro. La intención de conexión actual es de solo lectura". error al conectarse a página API personalizada
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a><a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a><a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"No se puede insertar un registro. La intención de conexión actual es de solo lectura". error al conectarse a página API personalizada
 
 > **SE APLICA A:** Business Central online
 
@@ -180,9 +180,9 @@ A partir de febrero de 2022, los nuevos informes que utilizan datos de Business 
 9. Seleccione **Listo**.
 10. Seleccione **Cerrar y aplicar** en la cinta para guardar los cambios y cerrar Editor de Power Query.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Habilitar los datos de negocio para Power BI](admin-powerbi.md)  
 [Inteligencia empresarial](bi.md)  

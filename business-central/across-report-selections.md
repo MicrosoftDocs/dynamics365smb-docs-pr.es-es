@@ -8,11 +8,11 @@ ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
 ms.date: 06/09/2022
 ms.author: bholtorf
 ---
-# <a name="report-selection-for-documents-in-business-central"></a><a name="report-selection-for-documents-in-business-central"></a>Selección de ifnormes para documentos en Business Central
+# <a name="report-selection-for-documents-in-business-central"></a><a name="report-selection-for-documents-in-business-central"></a><a name="report-selection-for-documents-in-business-central"></a>Selección de ifnormes para documentos en Business Central
 
 Puede configurar informes predeterminados para imprimir documentos de ventas, compras y servicios, como pedidos, ofertas y facturas. Por ejemplo, si tiene un diseño específico para las facturas de venta, puede especificar ese informe en la página **Selecciones de informes: ventas** para que se utilice para enviar o imprimir facturas de venta.  
 
-## <a name="available-report-selections"></a><a name="available-report-selections"></a>Selecciones de informes disponibles
+## <a name="available-report-selections"></a><a name="available-report-selections"></a><a name="available-report-selections"></a>Selecciones de informes disponibles
 
 Las páginas **Selecciones de informes** especifican qué informe se imprimirá en diferentes situaciones. [!INCLUDE [prod_short](includes/prod_short.md)] proporciona configuraciones predeterminadas, pero puede cambiarlas si es necesario. También puede agregar informes a las páginas **Selección informes** para que el sistema imprima más de un informe por cada tipo de documento, por ejemplo. 
 
@@ -39,7 +39,7 @@ La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] in
 * **Selección informe - Proyecto**  
 * **Selección informe - Servicio**
 
-## <a name="example-report-selection-for-sales-documents"></a><a name="example-report-selection-for-sales-documents"></a>Ejemplo: Selección de informes para documentos de ventas
+## <a name="example-report-selection-for-sales-documents"></a><a name="example-report-selection-for-sales-documents"></a><a name="example-report-selection-for-sales-documents"></a>Ejemplo: Selección de informes para documentos de ventas
 
 La página **Selección de informes: ventas** ofrece los informes predeterminados que se utilizarán en diferentes escenarios para cada tipo de documento relacionado. Elija un tipo de documento en el campo **Uso** y luego agregue o revise la selección del informe. Puede configurar más de un informe y epsecificar la secuencia en el que se deben enviar o imprimir los informes.  
 
@@ -55,7 +55,7 @@ Por ejemplo, en las páginas **Selección de informes: ventas** y **Selección d
 |**Usar para los datos adjuntos de correo electrónico**| Adjunte el documento relacionado al correo electrónico.|
 |**Descripción del diseño del cuerpo del correo electrónico**|Especifique el diseño del cuerpo del correo electrónico que se utilizará. Normalmente, el diseño es un diseño de informe personalizado. |
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md)  

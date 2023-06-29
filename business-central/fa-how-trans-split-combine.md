@@ -10,11 +10,11 @@ ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="transfer-split-or-combine-fixed-assets"></a><a name="transfer-split-or-combine-fixed-assets"></a>Permite transferir, dividir o combinar activos fijos
+# <a name="transfer-split-or-combine-fixed-assets"></a><a name="transfer-split-or-combine-fixed-assets"></a><a name="transfer-split-or-combine-fixed-assets"></a>Permite transferir, dividir o combinar activos fijos
 
 Puede utilizar el diario de reclasificación de activos fijos para transferir, dividir y combinar activos fijos. En el informe **A/F - Valor contable 02** puede ver o imprimir los resultados de la reclasificación de los activos fijos.
 
-## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a><a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Para transferir un activo fijo a otro departamento
+## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a><a name="to-transfer-a-fixed-asset-to-a-different-department"></a><a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Para transferir un activo fijo a otro departamento
 
 Puede que necesite transferir un activo dijo a un departamento diferente cuando, por ejemplo, coloca un activo en el departamento de producción mientras está en construcción y, a continuación, cuando está terminado, lo cambia al departamento de administración.  
 
@@ -30,7 +30,7 @@ Puede que necesite transferir un activo dijo a un departamento diferente cuando,
 
 Si registró el coste de un activo, puede utilizar el diario de reclasificación de activos fijos para dividir el coste entre varios activos.  
 
-## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a><a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Para dividir un activo en tres activos fijos
+## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a><a name="to-split-a-fixed-asset-into-three-fixed-assets"></a><a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Para dividir un activo en tres activos fijos
 Puede dividir un activo en varios, por ejemplo, cuando necesita distribuir un activo entre diferentes departamentos. En este caso, puede mover, por ejemplo, el 25 % del coste y amortización del activo original al segundo activo y un 45 % al tercero. El 30 % restante permanece en el activo fijo original.
 
 1. Configure dos activos fijos nuevos. Introduzca los nuevos departamentos como dimensiones.  
@@ -46,7 +46,7 @@ Puede dividir un activo en varios, por ejemplo, cuando necesita distribuir un ac
 9. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales A/F**, y luego elija el enlace relacionado.
 10. En la página **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 4 al 8.
 
-## <a name="to-combine-two-fixed-assets-into-one"></a><a name="to-combine-two-fixed-assets-into-one"></a>Para combinar dos activos fijos en uno
+## <a name="to-combine-two-fixed-assets-into-one"></a><a name="to-combine-two-fixed-assets-into-one"></a><a name="to-combine-two-fixed-assets-into-one"></a>Para combinar dos activos fijos en uno
 
 Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijos distribuidos a un solo departamento. Si ha registrado costes y amortización en los activos que se moverán, estos valores se combinarán con el activo fijo simple.
 
@@ -60,15 +60,15 @@ Puede combinar varios activos en uno, por ejemplo, cuando mueve los activos fijo
 6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales de activos fijos** y luego elija el enlace relacionado.
 7. En la página **A/F diario general**, seleccione la acción **Registrar** para registrar la reclasificación que se ha realizado en los pasos del 2 al 5.
 
-## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a><a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Para ver los cambios en los valores del libro de amortización debido a la reclasificación del activo
+## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a><a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a><a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Para ver los cambios en los valores del libro de amortización debido a la reclasificación del activo
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Valor contable de activo fijo 02** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Imprimir** o **Versión preliminar**.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/reclassify-fixed-assets/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/reclassify-fixed-assets/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Activos fijos](fa-manage.md)  
 [Configuración de activos fijos](fa-setup.md)  

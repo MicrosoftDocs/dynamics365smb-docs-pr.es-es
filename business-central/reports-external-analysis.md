@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
 ---
-# <a name="analyze-data-in-business-intelligence-tools"></a><a name="analyze-data-in-business-intelligence-tools"></a>Analizar datos en herramientas de Business Intelligence
+# <a name="analyze-data-in-business-intelligence-tools"></a><a name="analyze-data-in-business-intelligence-tools"></a><a name="analyze-data-in-business-intelligence-tools"></a>Analizar datos en herramientas de Business Intelligence
 
 En caso de que prefiera utilizar herramientas de inteligencia empresarial que no están integradas en [!INCLUDE[prod_short](includes/prod_short.md)], esta página ha facilitado orientación sobre herramientas y métodos para lograrlo.
 
@@ -21,7 +21,7 @@ En caso de que prefiera utilizar herramientas de inteligencia empresarial que no
 |Extracción de datos a almacenes de datos o a lagos de datos. |[Extracción de datos a almacenes de datos o lagos de datos](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
 |Lea datos de Business Central con la API.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Descripción general de Inteligencia empresarial e informes](reports-use-reports.md)
 

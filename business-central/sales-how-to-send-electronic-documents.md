@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="send-electronic-documents"></a><a name="send-electronic-documents"></a>Enviar documentos electrónicos
+# <a name="send-electronic-documents"></a><a name="send-electronic-documents"></a><a name="send-electronic-documents"></a>Enviar documentos electrónicos
 
 La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite el envío de facturas electrónicas y abonos en formato PEPPOL, un formato admitido por los proveedores de servicios de intercambio de documentos más importantes. El proveedor de servicios de intercambio de documentos entrega documentos electrónicos de un socio comercial a otro. Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.  
 
@@ -18,7 +18,7 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite e
 
  Para enviar una factura de venta como documento electrónico de PEPPOL, seleccione la opción **Documento electrónico** en el cuadro de diálogo **Registrar y enviar**. Puede configurar también perfil de envío de documentos predeterminado del cliente desde ese cuadro de diálogo. En primer lugar, debe configurar los distintos datos maestros, como la información de la empresa, los clientes, los productos y las unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de los campos de [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 
-### <a name="to-send-an-electronic-sales-invoice"></a><a name="to-send-an-electronic-sales-invoice"></a>Para enviar una factura de venta electrónica
+### <a name="to-send-an-electronic-sales-invoice"></a><a name="to-send-an-electronic-sales-invoice"></a><a name="to-send-an-electronic-sales-invoice"></a>Para enviar una factura de venta electrónica
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 
@@ -43,9 +43,9 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite e
     > [!NOTE]  
     >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.**, elija la acción **Registro de actividades** para ver el estado del documento electrónico.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Configurar perfiles de envío de documentos](sales-how-setup-document-send-profiles.md)  

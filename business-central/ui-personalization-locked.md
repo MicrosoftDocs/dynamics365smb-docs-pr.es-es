@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a>Por qué la página está bloqueada para evitar la personalización
+# <a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a>Por qué la página está bloqueada para evitar la personalización
 
 Hay dos condiciones que le impiden personalizar una página. La página está bloqueada (como se indica en el icono ![Personalización bloqueada.](media/personalization-lock-icon.png "Bloqueo de personalizacion")) o está bloqueada (como se indica en el icono ![Bloqueo de personalización.](media/personalization-blocked-icon.png "Personalización bloqueada") ).
 
-## <a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a>Bloqueado para evitar la personalización
+## <a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a>Bloqueado para evitar la personalización
 
 Si hay un icono ![Personalizar bloqueo.](media/personalization-lock-icon.png "Bloqueo de personalizacion") en el banner **Personalización** cuando abre una página, se le impide realizar más cambios de personalización en la página.
 
@@ -30,14 +30,14 @@ Puede haber dos razones:
 
 2. Hasta ahora, ha utilizado únicamente el arco obsoleto [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] para personalizar la página.
 
-### <a name="unlocking-the-page"></a><a name="unlocking-the-page"></a>Desbloqueo de la página
+### <a name="unlocking-the-page"></a><a name="unlocking-the-page"></a><a name="unlocking-the-page"></a>Desbloqueo de la página
 
 Si desea desbloquear una página y seguir personalizándola, seleccione el icono ![Personalización bloqueada](media/personalization-lock-icon.png "Bloqueo de personalizacion") y, a continuación, elija la acción **Desbloquear**.  
 
 > [!CAUTION]
 > Se borrará la personalización actual de la página. La página volverá a su diseño original y tendrá que empezar desde cero.  
 
-## <a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a>Bloqueado para evitar la personalización
+## <a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a>Bloqueado para evitar la personalización
 
 Si hay un icono ![Personalización bloqueada](media/personalization-blocked-icon.png "Personalización bloqueada") en el banner **Personalización**, se le impide hacer cualquier personalización de la página.
 
@@ -45,7 +45,7 @@ Si hay un icono ![Personalización bloqueada](media/personalization-blocked-icon
 
 La razón es que el área de trabajo o rol que está actualmente asociado con su cuenta de usuario modifica esta página específicamente para su rol. Póngase en contacto con su administrador para obtener ayuda. Alternativamente, intente cambiar a un área de trabajo que incluya la adaptación de roles para esta página. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Personalizar el área de trabajo](ui-personalization-user.md)  
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  

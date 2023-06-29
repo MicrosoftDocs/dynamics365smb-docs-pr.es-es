@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a><a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado
+# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a><a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a><a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento avanzado
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -27,7 +27,7 @@ Obtenga más información en [Flujo de entrada en almacén](design-details-inbou
 
 En el siguiente tutorial se demuestra el método D de la tabla anterior.  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Acerca de este tutorial
+## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Acerca de este tutorial
 
 En la configuración avanzada de almacén, donde el almacén está configurado para requerir el procesamiento de recepción además del procesamiento de ubicación, utiliza la página **Recep. almacén** para registrar la recepción de productos en varios pedidos entrantes. Cuando se registra la recepción de almacén, se crean uno o más documentos de ubicación de almacén para indicar a los empleados del almacén que tomen los productos y los coloquen en lugares designados según la configuración de la ubicación o en otras ubicaciones. La colocación específica de los productos se registra cuando se registra la ubicación del almacén. El documento de origen de entrada puede ser un pedido de compra, una devolución de ventas, un pedido de transferencia de entrada o una orden de producción o ensamblaje con salida que está preparada para ubicarse. Si el albarán se crea a partir de un pedido de entrada, se puede recuperar más de un documento de origen entrante para el albarán. Con este método puede registrar muchos productos que llegada de distintos pedidos de entrada con un albarán.  
 
@@ -38,7 +38,7 @@ En este tutorial, se demuestran las siguientes tareas:
 -   Cree y registre un documento de recepción de almacén para varias líneas de pedido de compra de proveedores específicos.  
 -   Registrar una ubicación de almacén para los productos recibidos.  
 
-## <a name="roles"></a><a name="roles"></a>Funciones
+## <a name="roles"></a><a name="roles"></a><a name="roles"></a>Funciones
 
 En este tutorial, se demuestran las tareas realizadas por los siguientes roles de usuario:  
 
@@ -47,7 +47,7 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 -   Personal de recepción  
 -   Trabajador de almacén  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Requisitos previos
 
 Para completar este tutorial, necesitará:  
 
@@ -59,15 +59,15 @@ Para completar este tutorial, necesitará:
 3.  En el campo **Cód. almacén**, especifique BLANCO.  
 4.  Seleccione el campo de **Predeterminado**.  
 
-## <a name="story"></a><a name="story"></a>Historia
+## <a name="story"></a><a name="story"></a><a name="story"></a>Historia
 
 Alicia, el agente de compra en CRONUS, crea dos pedidos de compra de productos de accesorio de los proveedores 10000 y 20000 para su entrega al almacén BLANCO. Cuando las salidas llegan al almacén, Sammy, responsable de recibir los productos de los proveedores 10000 y 20000, utiliza un filtro para crear las líneas de recepción para los pedidos de compra que llegan de los dos proveedores. Sammy registra los productos como recibidos en el inventario en una recepción de almacén y pone los productos a disposición para venta u otra demanda. Juan, el empleado del almacén, toma los artículos de la ubicación de recepción y los aparta. Guarda todas las unidades en sus ubicaciones predeterminadas, excepto 40 de las 100 bisagras recibidas, las cuales guarda en el departamento de ensamblado dividiendo la línea de ubicación interna. Cuando Juan registra la ubicación, se actualiza el contenido de la ubicación se y los productos se ponen a disposición para picking del almacén.  
 
-## <a name="reviewing-the-white-location-setup"></a><a name="reviewing-the-white-location-setup"></a>Revisar la configuración de la ubicación BLANCA
+## <a name="reviewing-the-white-location-setup"></a><a name="reviewing-the-white-location-setup"></a><a name="reviewing-the-white-location-setup"></a>Revisar la configuración de la ubicación BLANCA
 
 La configuración de la página **Ficha almacén** define los flujos de almacén de la empresa.  
 
-### <a name="to-review-the-location-setup"></a><a name="to-review-the-location-setup"></a>Para revisar la configuración de almacén
+### <a name="to-review-the-location-setup"></a><a name="to-review-the-location-setup"></a><a name="to-review-the-location-setup"></a>Para revisar la configuración de almacén
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Abra la ficha de almacén BLANCO.  
@@ -79,11 +79,11 @@ La configuración de la página **Ficha almacén** define los flujos de almacén
 
 Esto significa que cuando se crea una recepción de almacén, este código de ubicación se copia en la cabecera del documento de recepción de almacén de manera predeterminada y en las líneas de las ubicaciones de almacén resultantes.  
 
-## <a name="creating-the-purchase-orders"></a><a name="creating-the-purchase-orders"></a>Creación de pedidos de compra
+## <a name="creating-the-purchase-orders"></a><a name="creating-the-purchase-orders"></a><a name="creating-the-purchase-orders"></a>Creación de pedidos de compra
 
 Los pedidos de compra son el tipo más común de documento de origen de entrada.  
 
-### <a name="to-create-the-purchase-orders"></a><a name="to-create-the-purchase-orders"></a>Procedimiento para crear pedidos de compra
+### <a name="to-create-the-purchase-orders"></a><a name="to-create-the-purchase-orders"></a><a name="to-create-the-purchase-orders"></a>Procedimiento para crear pedidos de compra
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 2.  Seleccione la acción **Nuevo**.  
@@ -112,11 +112,11 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
 
     Las entregas de los artículos de los proveedores 10000 y 20000 han llegado al almacén BLANCO y Sammy comienza a procesar los albaranes de compra.  
 
-## <a name="receiving-the-items"></a><a name="receiving-the-items"></a>Recibir los productos
+## <a name="receiving-the-items"></a><a name="receiving-the-items"></a><a name="receiving-the-items"></a>Recibir los productos
 
 En la página **Recep. almacén**, puede administrar varios pedidos entrantes para documentos de origen, como un pedido de compra.  
 
-### <a name="to-receive-the-items"></a><a name="to-receive-the-items"></a>Procedimiento para recibir productos
+### <a name="to-receive-the-items"></a><a name="to-receive-the-items"></a><a name="to-receive-the-items"></a>Procedimiento para recibir productos
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recepciones almacén** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
 3.  En el campo **Cód. almacén**, especifique BLANCO.  
@@ -131,12 +131,12 @@ En la página **Recep. almacén**, puede administrar varios pedidos entrantes pa
 
     Los movimientos de producto positivos se crean reflejando los albaranes de compra registrados de los accesorios de los proveedores 10000 y 20000, y los artículos están listos para ubicarlos en el almacén de la ubicación de recepción.  
 
-## <a name="putting-the-items-away"></a><a name="putting-the-items-away"></a>Establecer la ubicación de productos
+## <a name="putting-the-items-away"></a><a name="putting-the-items-away"></a><a name="putting-the-items-away"></a>Establecer la ubicación de productos
 
 En la página **Ubicar almacén**, puede administrar ubicaciones para un documento de recepción de almacén específico que cubre varios documentos de origen. Como todos los documentos de actividad de almacén, cada producto de la ubicación de almacén se representa por una línea Traer y una línea Colocar. En el procedimiento siguiente, el código de ubicación en las líneas Traer es la ubicación de recepción predeterminada en la ubicación BLANCO, W-08-0001.  
 
 
-### <a name="to-put-the-items-away"></a><a name="to-put-the-items-away"></a>Para ubicar los productos
+### <a name="to-put-the-items-away"></a><a name="to-put-the-items-away"></a><a name="to-put-the-items-away"></a>Para ubicar los productos
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione el único documento de ubicación de almacén en la lista y, a continuación, elija acción **Editar**.  
 
@@ -157,7 +157,7 @@ En la página **Ubicar almacén**, puede administrar ubicaciones para un documen
 
     Los accesorios recibidos se ubican ahora en las ubicaciones predeterminadas de los productos y se colocan 40 bisagras en el departamento de ensamblado. Los productos recibidos están disponibles ahora para picking para demanda interna, como pedidos de ensamblado, o para demanda externa, como albaranes de venta.  
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
  [Ubicar productos con ubic. exist. almacén](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md)   

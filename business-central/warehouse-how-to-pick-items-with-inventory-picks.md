@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks"></a><a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
+# <a name="pick-items-with-inventory-picks"></a><a name="pick-items-with-inventory-picks"></a><a name="pick-items-with-inventory-picks"></a>Realizar el picking de productos con picking inventario
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], la selección y el envío de productos se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
@@ -42,29 +42,29 @@ Puede crear un picking de inventario de tres formas:
 
 A continuación, se puede crear el picking de inventario en la página **Picking inventario** según el documento de origen.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document"></a><a name="to-create-an-inventory-pick-from-the-source-document"></a>Para crear un picking de inventario desde el documento de origen
+## <a name="to-create-an-inventory-pick-from-the-source-document"></a><a name="to-create-an-inventory-pick-from-the-source-document"></a><a name="to-create-an-inventory-pick-from-the-source-document"></a>Para crear un picking de inventario desde el documento de origen
 
 1. En el documento de origen, que puede ser un pedido de ventas, un pedido de devolución de compras o un pedido de transferencia de salida, elija la acción **Crear ubicac. invent./picking**.
 2. Seleccione la casilla **Crear picking de inventario**.  
 3. Elija el botón **Aceptar**. Se creará un nuevo picking de inventario.
 
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a><a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Para crear varios picking de inventario con un trabajo por lotes
+## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a><a name="to-create-multiple-inventory-picks-with-a-batch-job"></a><a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Para crear varios picking de inventario con un trabajo por lotes
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear almacenamiento/picking/movimiento de inventario** y, a continuación, elija el vínculo relacionado.  
 2. En la ficha desplegable **Solicitud almacén**, use los campos **Documento origen** y **Cód. procedencia mov.** para filtrar determinados tipos de documentos o intervalos de números de documento. Por ejemplo, puede crear picking solo de los pedidos de venta.  
 3. En la ficha desplegable **Opciones**, seleccione la casilla **Crear picking de inventario**.
 4. Elija el botón **Aceptar**.
 
-## <a name="to-create-the-pick-in-two-steps"></a><a name="to-create-the-pick-in-two-steps"></a>Para crear el picking en dos pasos
+## <a name="to-create-the-pick-in-two-steps"></a><a name="to-create-the-pick-in-two-steps"></a><a name="to-create-the-pick-in-two-steps"></a>Para crear el picking en dos pasos
 
-### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a><a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Para solicitar un picking de inventario lanzado el documento de origen
+### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a><a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a><a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Para solicitar un picking de inventario lanzado el documento de origen
 
 En el caso de pedidos de venta, pedidos de devolución de compra y pedidos de transferencia de salida, para crear la solicitud de almacén, lance el pedido. La liberación del pedido hace que los productos estén disponibles para el picking.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione el pedido de venta que desea lanzar, y después seleccione **Lanzar**.
 
-### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a><a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Para crear un picking de inventario basado en el documento de origen
+### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a><a name="to-create-an-inventory-pick-based-on-the-source-document"></a><a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Para crear un picking de inventario basado en el documento de origen
 
 Después de liberar un pedido, el empleado del almacén puede crear un picking de inventario.
 
@@ -75,7 +75,7 @@ Después de liberar un pedido, el empleado del almacén puede crear un picking d
 5. También, elija la acción **Traer documento origen** para crear una lista de todos los documentos de origen de salida que están preparados para el picking en el almacén.  
 6. Elija el botón **Aceptar** para rellenar las líneas de picking según los documentos de origen seleccionados.  
 
-## <a name="to-record-inventory-picks"></a><a name="to-record-inventory-picks"></a>Para registrar pickings de inventario
+## <a name="to-record-inventory-picks"></a><a name="to-record-inventory-picks"></a><a name="to-record-inventory-picks"></a>Para registrar pickings de inventario
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking inventario** y luego elija el enlace relacionado.  
 2. En las líneas de picking del campo **Cód. ubicación**, la ubicación desde la cual se debe realizar el picking de productos se sugiere como la ubicación predeterminada del artículo. Si es necesario puede cambiar la ubicación en esta página.  
@@ -88,7 +88,7 @@ Después de liberar un pedido, el empleado del almacén puede crear un picking d
     * Registre el envío de las líneas del documento de origen donde se realizó el picking.
     * Si el almacén utiliza ubicaciones, el registro también creará movimientos de almacén para registrar los cambios en la cantidad de la ubicación.  
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a><a name="handling-assemble-to-order-items-with-inventory-picks"></a>Tratamiento de productos de ensamblar para pedido con pickings de inventario
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a><a name="handling-assemble-to-order-items-with-inventory-picks"></a><a name="handling-assemble-to-order-items-with-inventory-picks"></a>Tratamiento de productos de ensamblar para pedido con pickings de inventario
 
 Puede utilizar la página **Picking de inventario** para realizar el picking y envíos para ventas cuando los productos se deben ensamblar antes de que se puedan enviar. Obtenga más información en [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -118,9 +118,9 @@ En escenarios donde parte de la cantidad se ensambla primero y a la otra se le d
 > [!NOTE]  
 > Si los productos se ensamblan según el pedido, el picking de inventario para el pedido de ventas vinculado crea un movimiento de inventario para todos los componentes del ensamblado.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

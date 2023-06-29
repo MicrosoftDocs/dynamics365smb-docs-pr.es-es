@@ -11,7 +11,7 @@ ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="making-payments"></a><a name="making-payments"></a>Creación de pagos
+# <a name="making-payments"></a><a name="making-payments"></a><a name="making-payments"></a>Creación de pagos
 
 Cuando efectúa pagos a proveedores o clientes, o reembolsos a empleados, las líneas de pago relacionadas se registran en la página **Diario de pagos**. El diario de pagos es un diario general que está optimizado para realizar pagos e incluye una serie de funciones potentes, como la función **Sugerir pagos de proveedores** que encuentra los pagos de proveedores vencidos, y el informe **Proveedor - Pagos por periodos** que muestra una descripción general de los pagos vencidos de proveedores.  
 
@@ -35,9 +35,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Pague a un proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Asegúrese de que su banco solo compensa cheques e importes validados enviándoles un archivo que contenga la información de proveedor, cheque y pago. |[Exportar un archivo de Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Administrar pagos](payables-manage-payables.md)  
 [Compras](purchasing-manage-purchasing.md)  

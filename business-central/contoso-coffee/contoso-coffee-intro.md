@@ -9,12 +9,12 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a>Introducción a datos de demostración de Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a>Introducción a datos de demostración de Contoso Coffee
 
 Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para Business Central agregan datos de demostración que puede usar para aprender a usar las capacidades de Business Central.  
 
 
-## <a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a>Configurar datos de Contoso Coffee
+## <a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a>Configurar datos de Contoso Coffee
 
 Para usar los datos de demostración de Contoso Coffee, debe instalar dos aplicaciones en la empresa correspondiente en [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -31,7 +31,7 @@ A continuación, debe completar:
  - La [Configuración de fabricación](manufacturing/contoso-coffee-manufacturing-intro.md) para preparar el uso de los [Escenarios de fabricación](#manufacturing-scenarios)
  - La [Configuración de almacenamiento](warehousing/contoso-coffee-warehousing-intro.md) para preparar el uso de los [Escenarios de almacenamiento](#warehousing-scenarios)
 
-## <a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a>Escenarios de Fabricación
+## <a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a>Escenarios de Fabricación
 
 Los datos de demostración de Contoso Coffee admiten actualmente los siguientes escenarios de fabricación para pruebas y entrenamiento:
 
@@ -49,7 +49,7 @@ Lea los pasos para cada escenario en el artículo correspondiente.
 > [!IMPORTANT]
 > Los tutoriales de fabricación requieren que la experiencia del usuario esté establecida en *Premium* en la página **Información empresa**.
 
-## <a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a>Escenarios de almacenamiento
+## <a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a>Escenarios de almacenamiento
 
 Los datos de demostración de Contoso Coffee admiten actualmente los siguientes escenarios de almacenamiento para pruebas y entrenamiento:
 
@@ -59,7 +59,7 @@ Los datos de demostración de Contoso Coffee admiten actualmente los siguientes 
 
 Lea los pasos para cada escenario en el artículo correspondiente.
    
-## <a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Fabricación](../production-manage-manufacturing.md)  
 [Gestión de almacén](../warehouse-manage-warehouse.md)  
