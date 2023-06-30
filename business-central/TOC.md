@@ -998,6 +998,7 @@
 ### India
 #### [Información general](LocalFunctionality/India/india-local-functionality.md)
 #### [Configurar números de serie de registro](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Registro de auditoría y registros de edición para software de contabilidad en India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Motor de impuestos
 ##### [Información general](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configuración de importación y exportación del motor de impuestos](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
