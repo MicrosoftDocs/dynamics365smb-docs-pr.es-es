@@ -12,7 +12,7 @@ ms.search.form: '9204,'
 ms.date: 04/01/2021
 ms.author: soalex
 ---
-# <a name="manage-user-settings-and-preferences"></a><a name="manage-user-settings-and-preferences"></a><a name="manage-user-settings-and-preferences"></a>Administrar configuraciones y preferencias de usuario
+# <a name="manage-user-settings-and-preferences"></a><a name="manage-user-settings-and-preferences"></a><a name="manage-user-settings-and-preferences"></a><a name="manage-user-settings-and-preferences"></a>Administrar configuraciones y preferencias de usuario
 
 Como administrador, puede configurar el usuario en [!INCLUDE[prod_short](includes/prod_short.md)], similar a cómo los usuarios individuales administran sus propias preferencias en la página **Mi configuración**.  
 
@@ -23,7 +23,7 @@ Obtenga un resumen de todos los usuarios en la lista **Usuarios** y cambie la co
 
 La página **Tarjeta Configuración usuario** es similar a la página **Mi configuración** a la que cada usuario tiene acceso, y es una potente herramienta para usted como administrador para establecer la configuración predeterminada y borrar páginas personalizadas, por ejemplo.  
 
-## <a name="types-of-user-settings"></a><a name="types-of-user-settings"></a><a name="types-of-user-settings"></a>Tipos de configuraciones de usuario
+## <a name="types-of-user-settings"></a><a name="types-of-user-settings"></a><a name="types-of-user-settings"></a><a name="types-of-user-settings"></a>Tipos de configuraciones de usuario
 
 *Configuraciones de usuario* no es lo mismo que *configuración de usuario*, que se refiere al usuario como entidad y al acceso del usuario en el sistema. Además, la configuración del usuario no tiene nada que ver con la personalización de un usuario, como cambios superficiales en la interfaz de usuario. La configuración del usuario determina la configuración predefinida para cada usuario en varios aspectos de la forma en que la aplicación se presenta al usuario. El siguiente párrafo enumera los cinco tipos de configuraciones y preferencias de usuario que el administrador puede establecer de forma individual o central:
 
@@ -59,21 +59,21 @@ La página **Tarjeta Configuración usuario** es similar a la página **Mi confi
 > [!NOTE]
 > Si se realiza la sincronización de un usuario de Microsoft 365 mientras que hay usuarios con sesión iniciada en [!INCLUDE[prod_short](includes/prod_short.md)], estos usuarios deben actualizar el navegador o cerrar sesión y volver a iniciar sesión en [!INCLUDE[prod_short](includes/prod_short.md)] para ver un posible idioma diferente que se hubiera establecido a través de la acción de sincronización.
 
-## <a name="overview-of-all-user-specific-changes"></a><a name="overview-of-all-user-specific-changes"></a><a name="overview-of-all-user-specific-changes"></a>Resumen de todos los cambios específicos del usuario
+## <a name="overview-of-all-user-specific-changes"></a><a name="overview-of-all-user-specific-changes"></a><a name="overview-of-all-user-specific-changes"></a><a name="overview-of-all-user-specific-changes"></a>Resumen de todos los cambios específicos del usuario
 
 Como administrador, puede obtener una resumen de los cambios individuales en [!INCLUDE [prod_short](includes/prod_short.md)] que cada usuario podría haber hecho en varias páginas en [!INCLUDE [prod_short](includes/prod_short.md)]. A medida que los usuarios realizan cambios en su experiencia en [!INCLUDE [prod_short](includes/prod_short.md)], estos cambios se reflejarán en la lista **Personalizaciones de usuario**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a><a name="to-review-or-delete-user-personalizations"></a><a name="to-review-or-delete-user-personalizations"></a>Para revisar o eliminar personalizaciones de usuarios
+## <a name="to-review-or-delete-user-personalizations"></a><a name="to-review-or-delete-user-personalizations"></a><a name="to-review-or-delete-user-personalizations"></a><a name="to-review-or-delete-user-personalizations"></a>Para revisar o eliminar personalizaciones de usuarios
 
 1. Elija el icono ![Buscar página o informe](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Páginas personalizadas** y luego elija el enlace relacionado.
 2. Esto muestra la lista de usuarios y sus páginas personalizadas. Para borrar la personalización de un usuario, haga clic en la fila correspondiente o elija **Administrar** y luego **Eliminar**.
 
 Esto elimina la personalización y la experiencia del usuario de la página correspondiente vuelve al estado predeterminado.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

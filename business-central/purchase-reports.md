@@ -8,21 +8,21 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a>Informes y análisis de compra en Business Central
+# <a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a>Informes y análisis de compra en Business Central
 
 Los informes de compra en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de la adquisición y los negocios obtener información y estadísticas sobre las actividades de compra actuales y pasadas.  
 
-## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Informes
+## <a name="reports"></a><a name="reports"></a><a name="reports"></a><a name="reports"></a>Informes
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a><a name="tasks"></a><a name="tasks"></a>Tareas
+## <a name="tasks"></a><a name="tasks"></a><a name="tasks"></a><a name="tasks"></a>Tareas
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Crear informes de análisis](bi-how-create-analysis-views-reports.md)  
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Compras](purchasing-manage-purchasing.md)  
 

@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a>Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a><a name="sandbox-environments-in-"></a>Ambientes de espacio aislado en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] en línea, puede obtener fácilmente un entorno seguro donde puede probar, formar o solucionar problemas sin alterar los procesos de trabajo o los datos de negocio de su empresa. Tal entorno de no producción se llama *entorno aislado*. Aislado de la producción, un entorno aislado es el lugar para explorar, aprender, demostrar, desarrollar y probar el servicio de forma segura sin el riesgo de afectar los datos y la configuración de su entorno de producción.  
 
@@ -35,13 +35,13 @@ El entorno aislado no es menos útil porque incluye un par de características �
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Diseñador](#designer)  
 
-## <a name="advanced-user-experience"></a><a name="advanced-user-experience"></a><a name="advanced-user-experience"></a>Experiencia de usuario avanzada
+## <a name="advanced-user-experience"></a><a name="advanced-user-experience"></a><a name="advanced-user-experience"></a><a name="advanced-user-experience"></a>Experiencia de usuario avanzada
 
 Es posible activar y probar la función avanzada (completa) de la versión estándar de [!INCLUDE[prod_short](includes/prod_short.md)] de un suscriptor aislado configurando el campo **Experiencia** en la página **Información de la empresa** a *Premium*. Busque la página **Información de la empresa** en el menú con el :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="icono de Configuración."::: .  
 
 Después de habilitar la experiencia de usuario *Premium*, obtendrá acceso a todos los perfiles estándar (roles) y áreas de trabajo en la versión estándar. Alternativamente, póngase en contacto con un distribuidor para una demostración de las capacidades. Para obtener más información, vea [¿Cómo encuentro un socio distribuidor?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### <a name="complete-sample-data"></a><a name="complete-sample-data"></a><a name="complete-sample-data"></a>Datos de muestra completos
+### <a name="complete-sample-data"></a><a name="complete-sample-data"></a><a name="complete-sample-data"></a><a name="complete-sample-data"></a>Datos de muestra completos
 
 Para situaciones en las que necesite datos de muestra adicionales, póngase en contacto con su socio distribuidor.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +56,7 @@ Para situaciones en las que necesite datos de muestra adicionales, póngase en c
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## <a name="designer"></a><a name="designer"></a><a name="designer"></a>Diseñadora
+## <a name="designer"></a><a name="designer"></a><a name="designer"></a><a name="designer"></a>Diseñadora
 
 En un entorno aislado, encontrará el **Diseñador** habilitado Puede activar Diseñador seleccionando el icono de diseño ![Diseñador.](./media/across-sandbox/sandbox-inclient-design-icon.png) en una página, o eligiendo el elemento de menú **Diseño** en el menú Configuración ![Configuración](media/ui-experience/settings_icon_small.png).  
 
@@ -64,9 +64,9 @@ Para obtener más información, consulte [Usar el diseñador](/dynamics365/busin
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Versiones de prueba y suscripciones de [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

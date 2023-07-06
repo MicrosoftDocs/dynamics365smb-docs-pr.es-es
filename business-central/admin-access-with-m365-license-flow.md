@@ -10,7 +10,7 @@ ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="user-access-flow-for-microsoft-365-licenses"></a><a name="user-access-flow-for-microsoft-365-licenses"></a><a name="user-access-flow-for-microsoft-365-licenses"></a>Flujo de acceso de usuario para licencias de Microsoft 365
+# <a name="user-access-flow-for-microsoft-365-licenses"></a><a name="user-access-flow-for-microsoft-365-licenses"></a><a name="user-access-flow-for-microsoft-365-licenses"></a><a name="user-access-flow-for-microsoft-365-licenses"></a>Flujo de acceso de usuario para licencias de Microsoft 365
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -30,7 +30,7 @@ La cuenta de usuario ahora está registrada en Business Central y se puede admin
 > [!NOTE]
 > Los pasos pueden variar según cualquier configuración de seguridad adicional que haya especificado en Microsoft 365 o Business Central.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
 [Configurar acceso con licencias de Microsoft 365](admin-access-with-m365-license-setup.md)  

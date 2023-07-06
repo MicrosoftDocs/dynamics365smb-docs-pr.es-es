@@ -11,7 +11,7 @@ ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380
 ms.date: 09/01/2022
 ms.author: edupont
 ---
-# <a name="register-new-customers"></a><a name="register-new-customers"></a><a name="register-new-customers"></a>Permite registrar nuevos clientes
+# <a name="register-new-customers"></a><a name="register-new-customers"></a><a name="register-new-customers"></a><a name="register-new-customers"></a>Permite registrar nuevos clientes
 
 Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien venda como ficha de cliente. Las fichas de cliente contienen la información necesaria para vender productos al cliente. Obtenga más información en [Facturar ventas](sales-how-invoice-sales.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
@@ -20,7 +20,7 @@ Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## <a name="adding-new-customers"></a><a name="adding-new-customers"></a><a name="adding-new-customers"></a>Agregar nuevos clientes
+## <a name="adding-new-customers"></a><a name="adding-new-customers"></a><a name="adding-new-customers"></a><a name="adding-new-customers"></a>Agregar nuevos clientes
 
 Puede agregar nuevos clientes manualmente, completando la página **Ficha de cliente**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear una plantilla para diferentes tipos de perfiles de clientes. El uso de plantillas ahorra tiempo al agregar nuevos clientes y ayuda a garantizar que la información sea correcta en todo momento. 
 
@@ -35,7 +35,7 @@ Después de crear una plantilla, puede usar la acción **Aplicar plantilla** par
 
 También puede crear un cliente a partir de un contacto. Obtenga más información en la sección [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### <a name="to-create-a-new-customer-card"></a><a name="to-create-a-new-customer-card"></a><a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
+### <a name="to-create-a-new-customer-card"></a><a name="to-create-a-new-customer-card"></a><a name="to-create-a-new-customer-card"></a><a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -43,7 +43,7 @@ La acción **Precios y descuentos** proporciona opciones para administrar precio
 
 El cliente estará registrado y la ficha de cliente está lista para usarse en los documentos de venta.  
 
-### <a name="to-save-the-customer-card-as-a-template"></a><a name="to-save-the-customer-card-as-a-template"></a><a name="to-save-the-customer-card-as-a-template"></a>Para guardar la ficha de cliente como una plantilla
+### <a name="to-save-the-customer-card-as-a-template"></a><a name="to-save-the-customer-card-as-a-template"></a><a name="to-save-the-customer-card-as-a-template"></a><a name="to-save-the-customer-card-as-a-template"></a>Para guardar la ficha de cliente como una plantilla
 
 Puede usar una ficha de cliente como plantilla cuando cree nuevas fichas de cliente.
 
@@ -55,11 +55,11 @@ Puede usar una ficha de cliente como plantilla cuando cree nuevas fichas de clie
 
 La plantilla de cliente se agrega a la lista de plantillas de cliente y puede usarla para crear nuevas fichas de cliente.
 
-## <a name="deleting-customer-cards"></a><a name="deleting-customer-cards"></a><a name="deleting-customer-cards"></a>Eliminar fichas cliente
+## <a name="deleting-customer-cards"></a><a name="deleting-customer-cards"></a><a name="deleting-customer-cards"></a><a name="deleting-customer-cards"></a>Eliminar fichas cliente
 
 Si ha publicado una transacción para un cliente, no puede eliminar la ficha de cliente porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas de cliente con movimientos, póngase en contacto con su socio de Microsoft para hacerlo mediante código.  
 
-## <a name="managing-credit-limits"></a><a name="managing-credit-limits"></a><a name="managing-credit-limits"></a>Administrar los límites de crédito
+## <a name="managing-credit-limits"></a><a name="managing-credit-limits"></a><a name="managing-credit-limits"></a><a name="managing-credit-limits"></a>Administrar los límites de crédito
 
 Los límites de crédito, los importes del saldo y las condiciones de pago permiten que [!INCLUDE [prod_short](includes/prod_short.md)] emita advertencias de crédito y deuda vencida al introducir un pedido de venta. Además, los elementos de términos de recordatorio y de intereses le permiten facturar intereses y/o recargos adicionales.  
 
@@ -69,7 +69,7 @@ Puede registrar, aunque se haya rebasado el límite de crédito. Si este campo s
 
 Puede optar por no recibir advertencias que le indiquen que se excedió el límite de crédito del cliente y puede especificar qué tipos de advertencias desea ver.
 
-### <a name="to-specify-credit-limit-warnings"></a><a name="to-specify-credit-limit-warnings"></a><a name="to-specify-credit-limit-warnings"></a>Para especificar advertencias de límites de crédito
+### <a name="to-specify-credit-limit-warnings"></a><a name="to-specify-credit-limit-warnings"></a><a name="to-specify-credit-limit-warnings"></a><a name="to-specify-credit-limit-warnings"></a>Para especificar advertencias de límites de crédito
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
 
@@ -82,9 +82,9 @@ Puede optar por no recibir advertencias que le indiquen que se excedió el lími
     |**Deuda vencida**|Se comprueba el campo **Saldo vencido** de la ficha cliente y aparece una advertencia si el cliente tiene una deuda vencida.|
     |**Ninguno**|No se muestra ninguna advertencia acerca del estado del cliente.|
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Definir las formas de pago](finance-payment-methods.md)  
 [Combinar registros duplicados](sales-how-merge-duplicate-records.md)  

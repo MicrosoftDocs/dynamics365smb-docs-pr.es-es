@@ -11,12 +11,12 @@ ms.date: 06/23/2021
 ms.author: edupont
 ROBOTS: NOINDEX
 ---
-# <a name="the-dynamics-gp-data-migration-extension"></a><a name="the-dynamics-gp-data-migration-extension"></a><a name="the-dynamics-gp-data-migration-extension"></a>Extensión de la migración de datos de Dynamics GP
+# <a name="the-dynamics-gp-data-migration-extension"></a><a name="the-dynamics-gp-data-migration-extension"></a><a name="the-dynamics-gp-data-migration-extension"></a><a name="the-dynamics-gp-data-migration-extension"></a>Extensión de la migración de datos de Dynamics GP
 
 > [!NOTE]
 > Esta extensión se deja de usar en la actualización 15.3. Recomendamos que los usuarios que quieran migrar desde Dynamics GP comiencen a utilizar el asistente **Migración en la nube** en su lugar. La extensión **Migración en la nube** tiene una funcionalidad más robusta y proporciona más datos a Business Central desde Dynamics GP. Para más información, consulte [Migrar a Business Central Online desde Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) en el contenido de la administración para [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Extensiones inteligentes en la nube para la migración a la nube](ui-extensions-data-replication.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  

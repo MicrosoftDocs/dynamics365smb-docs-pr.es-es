@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics-365-business-central"></a><a name="workflows-in-dynamics-365-business-central"></a><a name="workflows-in-dynamics-365-business-central"></a>Flujos de trabajo en Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central"></a><a name="workflows-in-dynamics-365-business-central"></a><a name="workflows-in-dynamics-365-business-central"></a><a name="workflows-in-dynamics-365-business-central"></a>Flujos de trabajo en Dynamics 365 Business Central
 
 Puede configurar y utilizar flujos de trabajo para vincular tareas de procesos empresariales realizadas por distintos usuarios. Las tareas del sistema, como la publicación automática, se pueden incluir como pasos de flujos de trabajo. Las tareas del sistema pueden estar precedidas o seguidas por tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.
 
@@ -26,7 +26,7 @@ La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] ad
 
   En la página **Plantillas de flujo de trabajo**, puede ver todos los flujos de trabajo disponibles. La versión de prueba de [!INCLUDE[prod_short](includes/prod_short.md)] incluye muchos flujos de trabajo preconfigurados que están representados por plantillas de flujo de trabajo que puede copiar para crear flujos de trabajo nuevos. Cuando abre una plantilla desde la página **Plantillas de flujo de trabajo** y el nombre del flujo de trabajo comienza por *MS-*, Microsoft agrega la plantilla de flujo de trabajo.
 
-## <a name="power-automate-flows"></a><a name="power-automate-flows"></a><a name="power-automate-flows"></a>Flujos de Power Automate
+## <a name="power-automate-flows"></a><a name="power-automate-flows"></a><a name="power-automate-flows"></a><a name="power-automate-flows"></a>Flujos de Power Automate
 
 Con [!INCLUDE [prod_short](includes/prod_short.md)] en línea, puede registrarse en Power Automate para crear potentes flujos de trabajo automatizados. Usted ejecuta esos flujos de trabajo desde [!INCLUDE [prod_short](includes/prod_short.md)]. Los flujos pueden conectar orígenes de datos internos y externos y herramientas, sin necesidad de tener conocimientos de codificación.
 
@@ -36,7 +36,7 @@ Con [!INCLUDE [prod_short](includes/prod_short.md)] en línea, puede registrarse
 |Obtenga más información sobre cómo crear, editar y administrar flujos|[Configurar flujos automatizados](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) y [Configurar flujos instantáneos](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Configurar la integración de Power Automate con [!INCLUDE[prod_short](includes/prod_short.md)] para usuarios como administrador|[Configurar la integración de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a><a name="approval-workflows"></a><a name="approval-workflows"></a>Flujos de trabajo de aprobación
+## <a name="approval-workflows"></a><a name="approval-workflows"></a><a name="approval-workflows"></a><a name="approval-workflows"></a>Flujos de trabajo de aprobación
 
 Cree un flujo de trabajo de aprobación definiendo qué inicia el flujo de trabajo y qué sucede a continuación, de la siguiente manera:
 
@@ -57,9 +57,9 @@ Los ejemplos de eventos de flujos de trabajo de aprobación incluyen la creació
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Ccial](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  

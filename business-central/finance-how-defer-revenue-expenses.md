@@ -11,13 +11,13 @@ ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="defer-revenues-and-expenses"></a><a name="defer-revenues-and-expenses"></a><a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
+# <a name="defer-revenues-and-expenses"></a><a name="defer-revenues-and-expenses"></a><a name="defer-revenues-and-expenses"></a><a name="defer-revenues-and-expenses"></a>Fraccionar ingresos y gastos
 
 Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el que se registró la transacción, puede usar la funcionalidad para fraccionar automáticamente ingresos y gastos según una previsión especificada.
 
 Para distribuir los ingresos o los gastos de los periodos contables relacionados, debe configurar una plantilla de fraccionamiento para el recurso, el producto o la cuenta de contabilidad para el que se registrará el ingreso o el gasto. Cuando registre el documento de venta o de compra relacionado, los ingresos o los gastos se fraccionan en los periodos contables relacionados, según la previsión de fraccionamiento que controle la configuración de la plantilla de fraccionamiento y la fecha de registro.
 
-## <a name="to-set-up-a-gl-account-for-deferral"></a><a name="to-set-up-a-gl-account-for-deferral"></a><a name="to-set-up-a-gl-account-for-deferral"></a>Para configurar una cuenta de contabilidad para el fraccionamiento
+## <a name="to-set-up-a-gl-account-for-deferral"></a><a name="to-set-up-a-gl-account-for-deferral"></a><a name="to-set-up-a-gl-account-for-deferral"></a><a name="to-set-up-a-gl-account-for-deferral"></a>Para configurar una cuenta de contabilidad para el fraccionamiento
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
@@ -26,7 +26,7 @@ Para distribuir los ingresos o los gastos de los periodos contables relacionados
 
 Para ambos tipos de fraccionamiento seleccione **Balance** en el campo **Tipo** y asigne un nombre adecuado a las cuentas, por ejemplo "Ingresos anticipados" en el caso de los ingresos fraccionados y "Gastos no pagados" en el caso de los gastos fraccionados.
 
-## <a name="to-set-up-a-deferral-template"></a><a name="to-set-up-a-deferral-template"></a><a name="to-set-up-a-deferral-template"></a>Para configurar una plantilla de fraccionamiento
+## <a name="to-set-up-a-deferral-template"></a><a name="to-set-up-a-deferral-template"></a><a name="to-set-up-a-deferral-template"></a><a name="to-set-up-a-deferral-template"></a>Para configurar una plantilla de fraccionamiento
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de fraccionamiento**, y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
@@ -48,7 +48,7 @@ Para ambos tipos de fraccionamiento seleccione **Balance** en el campo **Tipo** 
 
 Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados para %4 %6", la descripción mostrada será "Gastos fraccionados para febrero de 2016".
 
-## <a name="to-assign-a-deferral-template-to-an-item"></a><a name="to-assign-a-deferral-template-to-an-item"></a><a name="to-assign-a-deferral-template-to-an-item"></a>Para asignar una plantilla de fraccionamiento a un producto
+## <a name="to-assign-a-deferral-template-to-an-item"></a><a name="to-assign-a-deferral-template-to-an-item"></a><a name="to-assign-a-deferral-template-to-an-item"></a><a name="to-assign-a-deferral-template-to-an-item"></a>Para asignar una plantilla de fraccionamiento a un producto
 
 > [!NOTE]  
 > Los pasos de este procedimiento son los mismos que cuando asigna una plantilla de fraccionamiento a una cuenta o un recurso.
@@ -57,7 +57,7 @@ Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados p
 2. Abra la ficha del producto para los que se deban fraccionar los ingresos o los gastos para los periodos contables cuando el artículo se ha vendido o comprado.
 3. En el campo **Plantilla de fraccionamiento predeterminada**, seleccione la plantilla de fraccionamiento relevante.
 
-## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Para modificar una previsión de fraccionamiento de una factura de venta
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a><a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Para modificar una previsión de fraccionamiento de una factura de venta
 
 > [!NOTE]  
 > Los pasos de este procedimiento son los mismos que al cambiar una previsión de fraccionamiento, para gastos, de una factura de compra.
@@ -71,7 +71,7 @@ Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados p
 5. Elija la acción **Calcular previsión**.
 6. Elija el botón **Aceptar**. La previsión de fraccionamiento se actualiza para la factura de venta. La plantilla de fraccionamiento relacionada no se cambia.
 
-## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Para obtener una vista previa de cómo se registrarán los ingresos o los gastos fraccionados costes se registrarán en el libro mayor
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a><a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Para obtener una vista previa de cómo se registrarán los ingresos o los gastos fraccionados costes se registrarán en el libro mayor
 
 > [!NOTE]  
 > Los pasos de este procedimiento son los mismos que al obtener una vista previa de cómo se registran los fraccionamientos de gastos.
@@ -81,7 +81,7 @@ Ejemplo: la fecha de registro es 06/02/2016. Si introduce "Gastos fraccionados p
 
 Los movimientos de contabilidad que se van a registrar en la cuenta de fraccionamiento especificada, por ejemplo, Ingresos anticipados, son indican mediante la descripción que ha introducido en el campo **Desc. del período** de la plantilla de fraccionamiento, por ejemplo, "Gastos fraccionados para febrero de 2016".
 
-## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Para revisar los fraccionamientos registrados en el informe Resumen de fraccionamientos de ventas
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a><a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Para revisar los fraccionamientos registrados en el informe Resumen de fraccionamientos de ventas
 
 > [!NOTE]  
 > Los pasos de este procedimiento son los mismos que al revisar el informe Resumen de fraccionamientos de compras.
@@ -90,7 +90,7 @@ Los movimientos de contabilidad que se van a registrar en la cuenta de fracciona
 2. En la página **Resumen de fraccionamientos de ventas**, en el campo **Saldo a partir de**, introduzca la fecha hasta la que desea ver ingresos fraccionados.
 3. Haga clic en el botón **Vista previa**.
 
-## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a><a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a><a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Para especificar un período en el que permitir la publicación diferida
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a><a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a><a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a><a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Para especificar un período en el que permitir la publicación diferida
 
 Puede especificar un período en el que las personas pueden registrar transacciones ingresando fechas en los campos **Permitir publicar desde** y **Permitir publicar en** de la siguiente manera:
 
@@ -102,9 +102,9 @@ Si lo ha hecho, debe hacer una excepción para los aplazamientos para permitir q
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad** o **Configuración de usuario**, y luego elija el enlace relacionado.
 2. En los campos **Permitir publicación diferida desde** y **Permitir publicación diferida a**, introduzca una fecha de inicio y fin para el período.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  

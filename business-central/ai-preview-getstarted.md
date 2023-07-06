@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Comenzar a usar la versión de versión preliminar de Business Central para Copilot
+# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Comenzar a usar la versión de versión preliminar de Business Central para Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Puede probar el texto de marketing de artículos impulsado por IA con Copilot, ya sea un cliente existente de Business Central o un cliente potencial, es decir, alguien que solo está interesado en explorar Business Central y probar la nueva capacidad. Para comenzar, deberá obtener acceso a una versión de Business Central Online que admita la nueva capacidad. Complete la sección a continuación que se aplica a usted.
 
-## <a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a>Su organización ya usa Business Central
+## <a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a>Su organización ya usa Business Central
 
 Como cliente o partner existente, necesitará un administrador con acceso al Centro de administración de Business Central para configurar un entorno de espacio aislado que ejecute la versión preliminar que incluye Copilot. Una vez que el entorno está en funcionamiento, los usuarios pueden probar la nueva característica.
 
@@ -39,7 +39,7 @@ Para obtener más información sobre cómo crear entornos, vaya a [Crear un ento
 > [!IMPORTANT]
 > Si tiene entornos aislados de versión preliminar que se ejecutan en **22.0.54157.54311 (Versión preliminar: edición Copilot)**, tenga en cuenta que estos entornos solo están disponibles hasta el 1 de mayo de 2023. Después de esta fecha, deberá aprovisionar un nuevo entorno o actualizar cualquiera de sus otros entornos a la versión 22.0 o posterior para continuar probando la versión preliminar del texto de marketing de artículos con tecnología de IA.
 
-## <a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a>Su organización no usa Business Central
+## <a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a>Su organización no usa Business Central
 
 Si no es cliente de Business Central, regístrese para una prueba gratuita para probar las nuevas capacidades de IA. Registrarse para la versión de prueba es simple. Se le guiará a través de algunos pasos en los que deberá proporcionar cierta información, como su dirección de correo electrónico, número de teléfono y nombre. Para conseguir la versión de prueba, complete los siguientes pasos:
 
@@ -95,7 +95,7 @@ Si no es cliente de Business Central, regístrese para una prueba gratuita para 
    > [!TIP]
    > Si no ve **Su lista de comprobación**, seleccione primero el botón **Mostrar recorridos de demostración**.
 
-## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Pasos siguientes
 
 Las capacidades de IA proporcionadas por Copilot deben estar habilitadas antes de que usted o cualquier otra persona pueda usar Copilot. Para habilitar las capacidades de IA, un administrador debe aceptar los términos y condiciones de la [versión preliminar](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) y la [Declaración de privacidad de Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839) en nombre de la organización.
 
@@ -108,7 +108,7 @@ Hay dos formas de dar consentimiento como administrador:
 
 - La otra forma es usar la página **Estado de avisos de privacidad** en Business Central y aceptar la integración de **Azure OpenAI** para todos los usuarios. Para obtener más información, vaya a [Consentimiento de los términos y condiciones](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Información general sobre el texto de marketing de productos impulsado por IA con Copilot](ai-overview.md)  
 [Configurar texto de marketing de productos impulsado por IA con Copilot como administrador](enable-ai.md)  

@@ -8,15 +8,15 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Informes y análisis de cobros en Business Central
+# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Informes y análisis de cobros en Business Central
 
 Para ayudarlo a administrar sus cobros en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
-## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Informes
+## <a name="reports"></a><a name="reports"></a><a name="reports"></a><a name="reports"></a>Informes
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  

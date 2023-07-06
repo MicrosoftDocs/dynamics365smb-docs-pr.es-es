@@ -11,7 +11,7 @@ ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
 ms.date: 01/24/2022
 ms.author: edupont
 ---
-# <a name="set-up-bank-accounts"></a><a name="set-up-bank-accounts"></a><a name="set-up-bank-accounts"></a>Configurar cuentas bancarias
+# <a name="set-up-bank-accounts"></a><a name="set-up-bank-accounts"></a><a name="set-up-bank-accounts"></a><a name="set-up-bank-accounts"></a>Configurar cuentas bancarias
 
 Las cuentas bancarias se utilizan en [!INCLUDE[prod_short](includes/prod_short.md)] para hacer un seguimiento de las transacciones bancarias. Los bancos pueden expresarse en la divisa local (DL) o en una extranjera. Cuando haya configurado todos los bancos, puede utilizar también la opción de impresión de cheques. Las cuentas bancarias incluyen funcionalidad adicional para [conciliación de pagos](receivables-apply-payments-auto-reconcile-bank-accounts.md), [conciliación bancaria](bank-how-reconcile-bank-accounts-separately.md) y la importación y exportación de archivos bancarios. Las cuentas bancarias también se pueden incluir en transacciones en los diarios generales. Cada cuenta bancaria está vinculada a una cuenta en el plan de cuentas a través del grupo contable de la cuenta bancaria asignada. El uso de una cuenta bancaria en una transacción de pago creará automáticamente una entrada tanto en la cuenta bancaria como en la cuenta de contabilidad (G/L) conectada.  
 
@@ -81,7 +81,7 @@ Vea en el video a continuación los pasos básicos para configurar una cuenta ba
 > [!WARNING]
 > Algunos campos pueden contener datos confidenciales, como los campos **Cód. sucursal banco**, **N.º cuenta bancaria**, **Código SWIFT**, y **Código IBAN**. Más información en [Supervisar campos confidenciales](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a><a name="to-set-up-bank-accounts"></a><a name="to-set-up-bank-accounts"></a>Para configurar bancos
+## <a name="to-set-up-bank-accounts"></a><a name="to-set-up-bank-accounts"></a><a name="to-set-up-bank-accounts"></a><a name="to-set-up-bank-accounts"></a>Para configurar bancos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el vínculo relacionado.
 2. En la página **Cuentas bancarias**, elija la acción **Nuevo**.
@@ -151,7 +151,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a><a name="to-enter-an-opening-balance"></a><a name="to-enter-an-opening-balance"></a>Para introducir un saldo inicial
+## <a name="to-enter-an-opening-balance"></a><a name="to-enter-an-opening-balance"></a><a name="to-enter-an-opening-balance"></a><a name="to-enter-an-opening-balance"></a>Para introducir un saldo inicial
 
 Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimiento de cuenta bancaria con el importe en cuestión. Puede hacerlo si realiza una conciliación de bancos. Obtenga más información en [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -160,7 +160,7 @@ Para completar el campo **Saldo** con un saldo inicial, debe publicar un movimie
 > [!IMPORTANT]
 > No registre el saldo de apertura directamente en el libro mayor. Tener entradas en la cuenta del L/M que se registraron directamente en ella generalmente hace que no pueda conciliar la cuenta bancaria. Con las cuentas bancarias en moneda extranjera, esta práctica genera diferencias que se acumulan a medida que contabiliza más conciliaciones bancarias. Normalmente, contabiliza el saldo bancario inicial directamente en la cuenta bancaria y el importe termina en la cuenta del L/M. Como alternativa, más tarde, puede revertirlo contra una cuenta de contabilidad que utilice para equilibrar el saldo inicial del libro mayor. En cualquier caso, debe equilibrar cualquier registro directo en la cuenta de contabilidad antes de iniciar su primera conciliación bancaria, especialmente si la cuenta bancaria está en una divisa extranjera.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a><a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a><a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Para configurar la cuenta para la importación o exportación de archivos bancarios
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a><a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a><a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a><a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Para configurar la cuenta para la importación o exportación de archivos bancarios
 
 Los campos relacionados con la importación y la exportación de archivos o fuentes de banco se encuentran en la ficha desplegable **Transferencia** en la página **Ficha banco**. Más información en [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -213,13 +213,13 @@ La siguiente ilustración muestra la ruta de los pagos salientes (los números e
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a><a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a><a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Para configurar cuentas bancarias de proveedor para exportar archivos bancarios
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a><a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a><a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a><a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Para configurar cuentas bancarias de proveedor para exportar archivos bancarios
 
 Los campos de la ficha desplegable **Transferencia** en la página **Ficha banco proveedor** están relacionados con la exportación de archivos o fuentes de banco. Más información en [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) y [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a><a name="changing-your-bank-account"></a><a name="changing-your-bank-account"></a>Cambiar su cuenta bancaria
+## <a name="changing-your-bank-account"></a><a name="changing-your-bank-account"></a><a name="changing-your-bank-account"></a><a name="changing-your-bank-account"></a>Cambiar su cuenta bancaria
 
 Para utilizar una cuenta bancaria diferente para su negocio, debe crear la nueva cuenta bancaria en [!INCLUDE[prod_short](includes/prod_short.md)]. Le recomendamos que no reemplace simplemente la información sobre la cuenta que está utilizando actualmente porque puede causar datos incorrectos. Por ejemplo, es posible que su saldo inicial sea incorrecto o que la fuente de su banco deje de funcionar correctamente. Es importante que mantenga separadas las cuentas actual y nueva.
 
@@ -230,9 +230,9 @@ Después de crear la nueva cuenta bancaria, también debe crear un nuevo grupo c
 
 Para obtener una vista más condensada de sus cuentas de caja en los informes financieros, utilice las cuentas **Principio-Total** y **Fin-Total** en su plan de cuentas, las filas **Sumatorio** en informes financieros o categorías de cuentas de contabilidad. Más información en [Inteligencia empresarial y Financial Reporting](bi.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Configurar banca](bank-setup-banking.md)  
 [Configurar los grupos contables](finance-posting-groups.md)  

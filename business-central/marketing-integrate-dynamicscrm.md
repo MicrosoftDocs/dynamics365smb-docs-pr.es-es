@@ -12,7 +12,7 @@ ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 53
 ms.date: 09/16/2022
 ms.author: bholtorf
 ---
-# <a name="use-dynamics-365-sales-from-business-central"></a><a name="use-dynamics-365-sales-from-business-central"></a><a name="use-dynamics-365-sales-from-business-central"></a>Usar Dynamics 365 Sales desde Business Central
+# <a name="use-dynamics-365-sales-from-business-central"></a><a name="use-dynamics-365-sales-from-business-central"></a><a name="use-dynamics-365-sales-from-business-central"></a><a name="use-dynamics-365-sales-from-business-central"></a>Usar Dynamics 365 Sales desde Business Central
 Si utiliza Dynamics 365 Sales para la interacción con el cliente, puede disfrutar de una integración perfecta en el proceso de clientes potenciales a efectivo mediante el uso de [!INCLUDE[prod_short](includes/prod_short.md)] para las actividades de backend como el procesamiento de pedidos, la gestión de inventario y la gestión de sus finanzas.
 
 Para poder utilizar las capacidades de integración, el administrador del sistema debe configurar la conexión y definir los usuarios en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, vea [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -29,7 +29,7 @@ Por el contrario, los procesadores de pedidos en [!INCLUDE[prod_short](includes/
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] se integra solo con [!INCLUDE[crm_md](includes/crm_md.md)]. Otras aplicaciones de Dynamics 365 que cambian el flujo de trabajo estándar o el modelo de datos en [!INCLUDE[crm_md](includes/crm_md.md)], por ejemplo, Project Service Automation, pueden romper la integración entre [!INCLUDE[prod_short](includes/prod_short.md)] y [!INCLUDE[crm_md](includes/crm_md.md)].
 
-## <a name="coupling-records"></a><a name="coupling-records"></a><a name="coupling-records"></a>Emparejamiento de registros
+## <a name="coupling-records"></a><a name="coupling-records"></a><a name="coupling-records"></a><a name="coupling-records"></a>Emparejamiento de registros
 La guía de configuración asistida le permite elegir los datos que desea sincronizar. Más tarde, también puede configurar la sincronización de registros específicos. Esto se conoce como *emparejamiento*. Por ejemplo, puede emparejar una cuenta específica en [!INCLUDE[crm_md](includes/crm_md.md)] con un cliente específico en [!INCLUDE[prod_short](includes/prod_short.md)]. Esta sección describe lo que se debe tener en cuenta al emparejar registros.
 
 Por ejemplo, si desea ver las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] como clientes en [!INCLUDE[prod_short](includes/prod_short.md)], debe emparejar los dos tipos de registros. Para ello, en la página de lista **Clientes** en [!INCLUDE[prod_short](includes/prod_short.md)], utilice la acción **Configurar emparejamiento**. A continuación, especifique qué clientes de [!INCLUDE[prod_short](includes/prod_short.md)] coinciden con cada cuenta de [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -51,14 +51,14 @@ En algunos casos se deben emparejar ciertos conjuntos de datos antes que otros, 
 
 En [!INCLUDE[crm_md](includes/crm_md.md)], los pedidos de venta dependen de información como clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos. Para que la integración con los pedidos de venta funcione, debe emparejar clientes, unidades de medida, divisas, grupos de precios de cliente, productos o recursos.
 
-## <a name="fully-synchronizing-records"></a><a name="fully-synchronizing-records"></a><a name="fully-synchronizing-records"></a>Sincronización completa de los registros
+## <a name="fully-synchronizing-records"></a><a name="fully-synchronizing-records"></a><a name="fully-synchronizing-records"></a><a name="fully-synchronizing-records"></a>Sincronización completa de los registros
 Al final de la guía de configuración asistida, puede elegir la acción **Ejecutar sincronización completa** para iniciar la sincronización de todos los registros de [!INCLUDE[prod_short](includes/prod_short.md)] con todos los registros relacionados en [!INCLUDE[crm_md](includes/crm_md.md)]. En la página **Revisión de sinc. completa de Dynamics 365 Sales**, elija la acción **Iniciar**. La sincronización completa puede tardar algún tiempo en completarse, pero puede continuar trabajando en [!INCLUDE[prod_short](includes/prod_short.md)] mientras se ejecuta en segundo plano.
 
 Para comprobar el progreso de los trabajos individuales en una sincronización completa, en la página **Revisión de sinc. completa de Dynamics 365 Sales**, seleccione un registro para ver los detalles. Para actualizar el estado durante la sincronización, actualice la página.
 
 En la página **Configuración de conexión de Microsoft Dynamics 365**, puede obtener los detalles acerca de la sincronización completa en cualquier momento. Desde aquí también puede abrir la página **Lista de asignaciones de tablas de integración** para ver información detallada acerca de las tablas de [!INCLUDE[prod_short](includes/prod_short.md)] y en Sales que se deben sincronizar.
 
-## <a name="handling-sales-order-data"></a><a name="handling-sales-order-data"></a><a name="handling-sales-order-data"></a>Manejar datos de pedidos de venta
+## <a name="handling-sales-order-data"></a><a name="handling-sales-order-data"></a><a name="handling-sales-order-data"></a><a name="handling-sales-order-data"></a>Manejar datos de pedidos de venta
 Los pedidos de venta que los usuarios envían en [!INCLUDE[crm_md](includes/crm_md.md)] se transferirán automáticamente a [!INCLUDE[prod_short](includes/prod_short.md)] si selecciona la casilla **Crear automáticamente pedidos de venta** en la página **Configuración de conexión de Microsoft Dynamics 365**.
 Como alternativa, puede convertir manualmente los pedidos de venta presentados desde [!INCLUDE[crm_md](includes/crm_md.md)] utilizando la acción **Crear en [!INCLUDE[prod_short](includes/prod_short.md)]** disponible en la página **Pedidos de venta - Dynamics 365 for Sales**.
 En dichos pedidos de venta, el campo **Nombre** del pedido original se transfiere y se asigna al campo **Número de documento externo** del pedido de venta en [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -77,7 +77,7 @@ Las actualizaciones de los campos de las cabeceras de los pedidos de venta, como
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
-## <a name="handling-sales-quotes-data"></a><a name="handling-sales-quotes-data"></a><a name="handling-sales-quotes-data"></a>Manejar datos de ofertas de venta
+## <a name="handling-sales-quotes-data"></a><a name="handling-sales-quotes-data"></a><a name="handling-sales-quotes-data"></a><a name="handling-sales-quotes-data"></a>Manejar datos de ofertas de venta
 Las ofertas de venta que se activan en [!INCLUDE[crm_md](includes/crm_md.md)] se transferirán a [!INCLUDE[prod_short](includes/prod_short.md)] si selecciona la casilla **Procesar automáticamente ofertas** en la página **Configuración de conexión de Microsoft Dynamics 365**.
 Como alternativa, puede convertir manualmente las ofertas de venta activadas desde [!INCLUDE[crm_md](includes/crm_md.md)] utilizando la acción **Procesar en [!INCLUDE[prod_short](includes/prod_short.md)]** en la página **Ofertas de venta - Dynamics 365 Sales**.
 En dichas ofertas de venta, el campo **Nombre** de la oferta original se transfiere y se asigna al campo **Número de documento externo** del pedido de venta en [!INCLUDE[prod_short](includes/prod_short.md)]. También se transfiere el campo **En vigor hasta** de la oferta y se asigna al campo **Oferta válida hasta** en la oferta de venta en [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -86,12 +86,12 @@ Las ofertas de venta pasan por muchas revisiones mientras se están finalizando.
 
 Cuando elige **Proceso** en [!INCLUDE[prod_short](includes/prod_short.md)] para una oferta que está en estado **Ganada**, se crea un pedido de ventas en [!INCLUDE[prod_short](includes/prod_short.md)] solo si se envía un pedido de venta correspondiente en [!INCLUDE[crm_md](includes/crm_md.md)]. De lo contrario, la oferta solo se publica en [!INCLUDE[prod_short](includes/prod_short.md)]. Si se envía un pedido de venta en [!INCLUDE[crm_md](includes/crm_md.md)] más tarde y se crea un pedido de venta a partir de ahí, el **N.º de oferta** se actualiza en el pedido de venta y se archiva la oferta.
 
-## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a><a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a><a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestión de histórico de facturas de venta, pagos de cliente y estadísticas
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a><a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a><a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a><a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Gestión de histórico de facturas de venta, pagos de cliente y estadísticas
 Después de completar un pedido de venta, se crearán las facturas correspondientes. Cuando factura un pedido de venta, puede transferir el histórico de facturas de venta a [!INCLUDE[crm_md](includes/crm_md.md)] si selecciona la casilla **Crear factura en [!INCLUDE[crm_md](includes/crm_md.md)]** en la página **Histórico facturas venta**. Las facturas registradas se transfieren a [!INCLUDE[crm_md](includes/crm_md.md)] con el estado **Facturado**.
 
 Cuando se recibe el pago del cliente para la factura de venta en [!INCLUDE[prod_short](includes/prod_short.md)], el estado de la factura de venta cambiará a **Pagado** con el campo **Motivo de estado** establecido en **Parcial**, si se ha pagado parcialmente, o **Completo**, si se ha pagado completamente, cuando elija la acción **Actualizar estadísticas de cuentas** en la página del cliente en [!INCLUDE[prod_short](includes/prod_short.md)]. La función **Actualizar estadísticas de cuentas** también actualizará valores como los campos **Saldo** y **Total ventas** en el cuadro informativo **Estadísticas de cuentas de [!INCLUDE[prod_short](includes/prod_short.md)]** en [!INCLUDE[crm_md](includes/crm_md.md)]. Alternativamente, puede hacer que los trabajos programados, Estadísticas de clientes y POSTEDSALESINV-INV, ejecuten automáticamente estos dos procesos en segundo plano. 
 
-## <a name="handling-sales-prices"></a><a name="handling-sales-prices"></a><a name="handling-sales-prices"></a>Manejo de precios de venta
+## <a name="handling-sales-prices"></a><a name="handling-sales-prices"></a><a name="handling-sales-prices"></a><a name="handling-sales-prices"></a>Manejo de precios de venta
 > [!NOTE]
 > En el segundo lanzamiento de versiones de 2020, lanzamos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo que usa esa versión, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -130,7 +130,7 @@ Para sincronizar listas de precios, en la página **Lista de precios de venta**,
 ---
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 [Integración con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Gestión de relaciones](marketing-relationship-management.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 04/26/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-planning-parameters"></a><a name="design-details-planning-parameters"></a><a name="design-details-planning-parameters"></a>Detalles de diseño: parámetros de planificación
+# <a name="design-details-planning-parameters"></a><a name="design-details-planning-parameters"></a><a name="design-details-planning-parameters"></a><a name="design-details-planning-parameters"></a>Detalles de diseño: parámetros de planificación
 
 En este artículo se describen los parámetros de planificación que puede usar en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -23,11 +23,11 @@ La forma en que el sistema de planificación controla el suministro de productos
 |Modificar los pedidos de suministro|Cantidad mínima pedido<br /><br /> Cantidad máxima pedido<br /><br /> Múltiplos de pedido|
 |Delimitación del producto planificado|Directiva fabricación:<br /><br /> -  Fab-contra-stock<br />- Fab-contra-pedido|
 
-## <a name="define-whether-the-item-is-planned"></a><a name="define-whether-the-item-is-planned"></a><a name="define-whether-the-item-is-planned"></a>Definir si se planifica el producto
+## <a name="define-whether-the-item-is-planned"></a><a name="define-whether-the-item-is-planned"></a><a name="define-whether-the-item-is-planned"></a><a name="define-whether-the-item-is-planned"></a>Definir si se planifica el producto
 
 Para incluir un producto o UA en el proceso de planificación, debe asignarle una directiva de reaprovisionamiento. De lo contrario, debe planificarse manualmente, por ejemplo, mediante la característica Planificación de pedidos.  
 
-## <a name="define-when-to-reorder"></a><a name="define-when-to-reorder"></a><a name="define-when-to-reorder"></a>Definir cuándo reaprovisionar
+## <a name="define-when-to-reorder"></a><a name="define-when-to-reorder"></a><a name="define-when-to-reorder"></a><a name="define-when-to-reorder"></a>Definir cuándo reaprovisionar
 
 Por lo general, las propuestas de reaprovisionamiento solo se lanzan cuando la cantidad disponible proyectada ha caído o está por debajo de una cantidad determinada. El punto de pedido define la cantidad. De lo contrario, será cero. Se puede ajustar cero si se especifica un stock de seguridad. Si define un plazo de seguridad, la propuesta se entregará en el periodo anterior a la fecha de vencimiento requerida.  
 
@@ -40,7 +40,7 @@ En la página **Configuración fabricación**, debe configurar el plazo de segur
 
 Los campo **Periodo de reprogramación**, **Periodo de acumulación de lotes** y **Periodo amortiguador** también desempeñan un rol en el reaprovisionamiento. Para obtener más información, vea [Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a><a name="define-how-much-to-reorder"></a><a name="define-how-much-to-reorder"></a>Definir qué cantidad reaprovisionar
+## <a name="define-how-much-to-reorder"></a><a name="define-how-much-to-reorder"></a><a name="define-how-much-to-reorder"></a><a name="define-how-much-to-reorder"></a>Definir qué cantidad reaprovisionar
 
 Si el sistema de planificación detecta necesidad de reaprovisionamiento, la directiva de reaprovisionamiento determina el momento del pedido y la cantidad correspondiente.  
 
@@ -52,7 +52,7 @@ Independiente de la directiva de reaprovisionamiento, el sistema de planificaci�
 4. Si hay más demanda bruta que vence antes de la fecha de fin de la propuesta de pedido anticipado y esta demanda lleva al inventario disponible proyectado actualmente calculado por debajo de la cantidad de existencias de seguridad, la cantidad del pedido se aumenta para suplir el déficit. El pedido de suministro sugerido se programa hacia atrás a partir de la fecha de vencimiento de la demanda bruta que habría infringido el stock de seguridad.  
 5. Si el campo **Ciclo** no está relleno, solo se agrega la demanda bruta en la misma fecha de vencimiento.  
 
-### <a name="reordering-policies"></a><a name="reordering-policies"></a><a name="reordering-policies"></a>Directivas de reaprovisionamiento
+### <a name="reordering-policies"></a><a name="reordering-policies"></a><a name="reordering-policies"></a><a name="reordering-policies"></a>Directivas de reaprovisionamiento
 
 Las siguientes directivas de reaprovisionamiento afectan a la cuenta que se reaprovisiona. Para obtener más información sobre las directivas de reordenación, vaya a [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md).  
 
@@ -63,7 +63,7 @@ Las siguientes directivas de reaprovisionamiento afectan a la cuenta que se reap
 |**Pedido**|Se calculará la cantidad de pedido para cubrir cada evento de demanda individual y el conjunto de demanda-suministro permanecerá vinculado hasta su ejecución. No se tiene en cuenta ningún parámetro de planificación.|  
 |**Lote a lote**|La cantidad se calcula para cubrir la suma de la demanda que vence en el ciclo.|  
 
-## <a name="optimize-when-and-how-much-to-reorder"></a><a name="optimize-when-and-how-much-to-reorder"></a><a name="optimize-when-and-how-much-to-reorder"></a>Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento
+## <a name="optimize-when-and-how-much-to-reorder"></a><a name="optimize-when-and-how-much-to-reorder"></a><a name="optimize-when-and-how-much-to-reorder"></a><a name="optimize-when-and-how-much-to-reorder"></a>Optimizar cuando se produzca el reaprovisionamiento y según la cantidad de reaprovisionamiento
 
 Un planificador puede optimizar los parámetros de planificación para limitar las sugerencias de reprogramación, acumular demanda (cantidad dinámica de nuevo pedido) o evitar acciones de planificación insignificantes. Los siguientes campos contribuyen a optimizar el momento y la cantidad de reaprovisionamiento.  
 
@@ -100,13 +100,13 @@ En los siguientes ejemplos, las flechas negras representan el aprovisionamiento 
 
 **Valores predeterminados:** el valor predeterminado del campo **Ciclo** y los tres campos del periodo de reaprovisionamiento están en blanco. Para todos los campos, excepto el campo **Periodo amortiguador** esto significa 0D (cero días). Si el campo **Periodo amortiguador** está en blanco, se usará el valor global en el campo **Periodo predet. amortiguador** en la página **Configuración fabricación**.  
 
-## <a name="modify-the-supply-orders"></a><a name="modify-the-supply-orders"></a><a name="modify-the-supply-orders"></a>Modificar los pedidos de suministro
+## <a name="modify-the-supply-orders"></a><a name="modify-the-supply-orders"></a><a name="modify-the-supply-orders"></a><a name="modify-the-supply-orders"></a>Modificar los pedidos de suministro
 
 Cuando se ha calculado la cantidad de la propuesta de pedido, uno o más de los modificadores de pedido pueden ajustarla. Por ejemplo, la cantidad de pedido máxima es mayor que o igual a la cantidad de pedido mínima, que es mayor que o igual al múltiplo de pedido.  
 
 La cantidad se reduce si supera la cantidad de pedido máximo. A continuación, se aumenta si se encuentra por debajo de la cantidad de pedido mínima. Finalmente, se redondea hacia arriba de modo que coincida con un múltiplo de pedido especificado. Las cantidades pendientes utilizan los mismos ajustes hasta que la demanda total se haya convertido a propuestas de pedidos.  
 
-## <a name="delimit-the-item"></a><a name="delimit-the-item"></a><a name="delimit-the-item"></a>Delimitación del producto
+## <a name="delimit-the-item"></a><a name="delimit-the-item"></a><a name="delimit-the-item"></a><a name="delimit-the-item"></a>Delimitación del producto
 
 El campo **Política fabricación** en la página **Ficha producto** define qué otros pedidos propone el cálculo de MRP.  
 
@@ -114,7 +114,7 @@ Si utiliza la opción **Fab-contra-existencias**, los pedidos solo afectan al pr
 
 Si utiliza la opción **Fab-contra-pedido**, el sistema de planificación analiza la L.M. de producción del producto y crea propuestas de pedido vinculadas para los productos de nivel inferior que también se hayan definido como Fab-contra-pedido. Esto continúa siempre que haya productos de fabricación contra pedido en las estructuras de L.M. descendentes.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a><a name="use-low-level-codes-to-manage-derived-demand"></a><a name="use-low-level-codes-to-manage-derived-demand"></a>Utilizar códigos de bajo nivel para gestionar la demanda derivada
+## <a name="use-low-level-codes-to-manage-derived-demand"></a><a name="use-low-level-codes-to-manage-derived-demand"></a><a name="use-low-level-codes-to-manage-derived-demand"></a><a name="use-low-level-codes-to-manage-derived-demand"></a>Utilizar códigos de bajo nivel para gestionar la demanda derivada
 
 Utilice códigos de bajo nivel para hacer que la demanda derivada de componentes avance hasta los niveles inferiores de la L.M. Para obtener más información sobre los códigos de bajo nivel, vaya a [Prioridad de producto / Cód. nivel más bajo](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -130,7 +130,7 @@ Como alternativa al cálculo automático que se realiza de forma dinámica si el
 > [!NOTE]
 > Aunque active el campo **Código dinámico de nivel bajo** esté seleccionado, los códigos de nivel bajo de los productos componentes no cambiarán dinámicamente si se elimina o se define como no certificada una L.M. principal. Este caso puede dificultar la adición de productos nuevos al final de la estructura de productos, ya que se podría superar el número máximo de códigos de nivel bajo. Por lo tanto, para estructuras de productos grandes que alcancen el límite del código de nivel más bajo, puede ejecutar el trabajo por lotes de **Calcular código de nivel bajo** con frecuencia para mantener la estructura.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Detalles de diseño: gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)  
 [Detalles de diseño: equilibrio de oferta y demanda](design-details-balancing-demand-and-supply.md)  

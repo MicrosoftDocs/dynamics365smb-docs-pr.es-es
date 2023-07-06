@@ -15,7 +15,7 @@ Antes de poder configurar el registro de correo electrónico, debe preparar las 
 
 Siga los pasos a continuación para configurar Exchange Online, con enlaces a donde puede obtener más información.
 
-### <a name="create-an-admin-role-group"></a><a name="create-an-admin-role-group"></a><a name="create-an-admin-role-group"></a>Crear un grupo de roles de administrador
+### <a name="create-an-admin-role-group"></a><a name="create-an-admin-role-group"></a><a name="create-an-admin-role-group"></a><a name="create-an-admin-role-group"></a>Crear un grupo de roles de administrador
 
 Cree un grupo de funciones de administrador para las carpetas públicas basada en la información de la siguiente tabla:
 
@@ -27,7 +27,7 @@ Cree un grupo de funciones de administrador para las carpetas públicas basada e
 
 Para obtener más información, vea [Administrar grupos de roles en Exchange Online](/exchange/permissions-exo/role-groups).
 
-### <a name="create-a-new-public-folder-mailbox"></a><a name="create-a-new-public-folder-mailbox"></a><a name="create-a-new-public-folder-mailbox"></a>Crear un nuevo buzón de carpeta pública
+### <a name="create-a-new-public-folder-mailbox"></a><a name="create-a-new-public-folder-mailbox"></a><a name="create-a-new-public-folder-mailbox"></a><a name="create-a-new-public-folder-mailbox"></a>Crear un nuevo buzón de carpeta pública
 
 Cree un buzón nuevo de carpetas públicas basado en la información de la siguiente tabla:
 
@@ -37,7 +37,7 @@ Cree un buzón nuevo de carpetas públicas basado en la información de la sigui
 
 Para obtener más información, vea [Crear un buzón de carpeta pública](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### <a name="create-new-public-folders"></a><a name="create-new-public-folders"></a><a name="create-new-public-folders"></a>Crear carpetas públicas nuevas
+### <a name="create-new-public-folders"></a><a name="create-new-public-folders"></a><a name="create-new-public-folders"></a><a name="create-new-public-folders"></a>Crear carpetas públicas nuevas
 
 1. Cree una nueva carpeta pública con el nombre **Registro de correo electrónico** en la raíz para que la ruta completa a la carpeta pase a ser `\Email Logging\`.
 2. Cree dos subcarpetas para que el resultado sea la siguiente ruta completa a las carpetas:
@@ -47,23 +47,23 @@ Para obtener más información, vea [Crear un buzón de carpeta pública](/excha
 
 Para obtener más información, vea [Crear una carpeta pública](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### <a name="set-public-folder-ownership"></a><a name="set-public-folder-ownership"></a><a name="set-public-folder-ownership"></a>Establecer la propiedad de la carpeta pública
+### <a name="set-public-folder-ownership"></a><a name="set-public-folder-ownership"></a><a name="set-public-folder-ownership"></a><a name="set-public-folder-ownership"></a>Establecer la propiedad de la carpeta pública
 
 Configure el usuario de registro de correo electrónico como propietario de ambas carpetas públicas, *Cola* y *Almacenamiento*.
 
 Para obtener más información, vea [Asignar permisos a la carpeta pública](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### <a name="mail-enable-the-queue-public-folder"></a><a name="mail-enable-the-queue-public-folder"></a><a name="mail-enable-the-queue-public-folder"></a>Habilitar la carpeta pública *Cola* para el correo electrónico
+### <a name="mail-enable-the-queue-public-folder"></a><a name="mail-enable-the-queue-public-folder"></a><a name="mail-enable-the-queue-public-folder"></a><a name="mail-enable-the-queue-public-folder"></a>Habilitar la carpeta pública *Cola* para el correo electrónico
 
   Para más información, consulte [Habilitar o deshabilitar una carpeta pública para el correo electrónico](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a><a name="mail-enable-sending-emails-to-the-queue-public-folder"></a><a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Habilitar el envío de correos electrónicos para la carpeta pública *Cola*
+### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a><a name="mail-enable-sending-emails-to-the-queue-public-folder"></a><a name="mail-enable-sending-emails-to-the-queue-public-folder"></a><a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Habilitar el envío de correos electrónicos para la carpeta pública *Cola*
 
 Habilitar el envío de correos electrónicos para la carpeta pública *Cola* con Outlook o el Shell de administración de Exchange.
 
 Para más información, vea [Permitir a los usuarios anónimos enviar correos electrónicos a una carpeta pública habilitada para correo](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a><a name="create-mail-flow-rules"></a><a name="create-mail-flow-rules"></a>Crear reglas de flujo de correo
+### <a name="create-mail-flow-rules"></a><a name="create-mail-flow-rules"></a><a name="create-mail-flow-rules"></a><a name="create-mail-flow-rules"></a>Crear reglas de flujo de correo
 
 Cree dos reglas de flujo de correo basadas en la información de la siguiente tabla:
 

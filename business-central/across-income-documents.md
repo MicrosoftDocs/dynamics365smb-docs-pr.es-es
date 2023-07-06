@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="incoming-documents"></a><a name="incoming-documents"></a><a name="incoming-documents"></a>Documentos entrantes
+# <a name="incoming-documents"></a><a name="incoming-documents"></a><a name="incoming-documents"></a><a name="incoming-documents"></a>Documentos entrantes
 
 Los documentos empresariales externos pueden llegar a la empresa como datos adjuntos de correo electrónico o como una copia en papel que se digitaliza para archivarla. Este escenario es habitual en las compras, donde dichos archivos de documentos entrantes representan los recibos de pago de gastos o pequeñas compras.
 
 En la página **Documentos entrantes**, puede usar distintas funciones para revisar recibos de gastos, gestionar tareas de OCR y convertir archivos de documentos entrantes, manual o automáticamente en los documentos pertinentes o en líneas de diario. Los archivos externos se pueden adjuntar en cualquier etapa del proceso, incluidos los documentos registrados y los movimientos de proveedor, cliente y de contabilidad resultantes.
 
-## <a name="usage-scenario"></a><a name="usage-scenario"></a><a name="usage-scenario"></a>Escenario de uso
+## <a name="usage-scenario"></a><a name="usage-scenario"></a><a name="usage-scenario"></a><a name="usage-scenario"></a>Escenario de uso
 
 Puede registrar archivos o copias en papel recibidas de sus socios comerciales en [!INCLUDE[prod_short](includes/prod_short.md)] y crear un registro de documento. Por ejemplo, una factura de compra o venta, una nota de crédito o una línea de diario.
 
@@ -30,7 +30,7 @@ Por ejemplo, cuando recibes una factura de un proveedor en formato PDF, la puede
 > [!TIP]
 > Cree registros de documentos entrantes en [!INCLUDE[prod_short](includes/prod_short.md)] directamente desde los correos electrónicos enviados por los proveedores mediante el complemento de Outlook. Para obtener más información, consulte [Usar Business Central como su bandeja de entrada de empresa en Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a><a name="incoming-document-features"></a><a name="incoming-document-features"></a>Características de documentos entrantes
+## <a name="incoming-document-features"></a><a name="incoming-document-features"></a><a name="incoming-document-features"></a><a name="incoming-document-features"></a>Características de documentos entrantes
 
 El proceso de documento entrante puede constar de las principales actividades siguientes:
 
@@ -57,9 +57,9 @@ El proceso de documento entrante puede constar de las principales actividades si
 | Desde las páginas **Plan de cuentas** y **Movs. contabilidad**, podrá usar una función de búsqueda para buscar los movimientos de contabilidad para aquellos documentos registrados que no tienen registros de documento entrantes y, a continuación, vincularlos de forma centralizada a registros existentes o crear registros nuevos con archivos de documentos adjuntos. |[Buscar documentos registrados sin registros de documentos entrantes](across-how-find-posted-documents-without-income-document-records.md) |
 | Obtenga un mejor resumen estableciendo los registros de documentos entrantes en *Procesado* y retirándolos de la vista por defecto. |[Gestionar varios registros de documento entrantes](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Compras](purchasing-manage-purchasing.md)  
 [Edición de documentos registrados](across-edit-posted-document.md)  

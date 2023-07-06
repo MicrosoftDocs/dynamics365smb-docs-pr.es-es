@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Trabajar con diseños de Word
+# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Trabajar con diseños de Word
 
 Un diseño de informe de Word determina el contenido y el formato de un informe cuando se obtiene una vista previa y se imprime desde Business Central. Puede crear y modificar estos diseños usando Microsoft Word.
 
@@ -26,18 +26,18 @@ Si está creando un diseño de informe de Word desde cero o agregando nuevos cam
 > [!TIP]  
 > Mostrar las líneas de cuadrícula de la tabla de manera que se vean los límites de las celdas de la tabla. No se olvide de ocultar las líneas de cuadrícula cuando termine la edición. Para mostrar u ocultar líneas de cuadrícula de tabla, seleccione la tabla y, a continuación, en **Diseño** en la pestaña **Escritorio**, elija **Ver líneas de cuadrícula**.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inserción de fuentes en disposiciones de Word para mayor consistencia
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inserción de fuentes en disposiciones de Word para mayor consistencia
 
 Para garantizar que los informes siempre se muestren e impriman con las fuentes deseadas, cada vez que los usuarios abran o impriman los informes, puede insertar las fuentes en el documento de Word. Sin embargo, la inserción de fuentes puede aumentar significativamente el tamaño de los archivos de Word. Para obtener más información acerca de la inserción de fuentes en Word, consulte [Insertar fuentes en Word, PowerPoint o Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Añadir campos de datos
+## <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Añadir campos de datos
 
 Un conjunto de datos de informe puede constar de campos que muestran etiquetas, datos e imágenes. Este tema describe el procedimiento para agregar campos de un conjunto de datos de informe a un diseño de informe de Word para un informe. Agregue campos al informe mediante el elemento XML personalizado de Word y mediante la adición de controles de contenido que asignen los campos al conjunto de datos del informe. La adición de campos requiere tener conocimientos del conjunto de datos del informe, de forma que pueda identificar los campos que desea agregar al diseño.  
   
 > [!NOTE]  
 >  No puede modificar diseños de informe integrados<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Para abrir el elemento XML personalizado para el informe en Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Para abrir el elemento XML personalizado para el informe en Word
   
 1. Si todavía no está abierto, abra en Word el documento de diseño de informe de Word.  
   
@@ -59,7 +59,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
   
      Una vez que seleccione el elemento XML personalizado, el panel Asignación XML muestra las etiquetas y los controles de campo que hay disponibles para el informe.  
   
-### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Para añadir una etiqueta o un campo de datos
+### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Para añadir una etiqueta o un campo de datos
   
 1. Coloque el cursor en el documento donde desea agregar el control.  
   
@@ -68,7 +68,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
     > [!NOTE]  
     >  No puede agregar un campo manualmente escribiendo el nombre del campo de conjunto de datos en el control de contenido. Debe utilizar el panel **Asignación XML** para asignar los campos.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Para agregar filas repetidas a los campos de datos para crear una lista
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Para agregar filas repetidas a los campos de datos para crear una lista
   
 1. En una tabla, agregue una fila de tabla que incluya una columna por cada campo que desee repetir.  
   
@@ -86,7 +86,7 @@ Un conjunto de datos de informe puede constar de campos que muestran etiquetas, 
   
     3. Por cada campo, repita los pasos a y b.  
   
-## <a name="adding-image-fields"></a><a name="adding-image-fields"></a><a name="adding-image-fields"></a>Adición de campos de imagen
+## <a name="adding-image-fields"></a><a name="adding-image-fields"></a><a name="adding-image-fields"></a><a name="adding-image-fields"></a>Adición de campos de imagen
 
 Un conjunto de datos de informe incluye un campo que contiene una imagen, como un logotipo de empresa o una imagen de un producto. Para agregar una imagen desde el conjunto de datos del informe, inserte un control de contenido **Imagen**.  
   
@@ -95,7 +95,7 @@ Las imágenes se alinean en la esquina superior izquierda del control de conteni
 > [!IMPORTANT]  
 > Puede agregar solo imágenes que tengan formato compatible con Word, como tipos de archivo .bmp, .jpeg y .png. Si agrega una imagen que tenga un formato no admitido en Word, recibirá un error cuando ejecute el informe desde el cliente de [!INCLUDE[prod_short](includes/prod_short.md)].  
   
-### <a name="to-add-an-image"></a><a name="to-add-an-image"></a><a name="to-add-an-image"></a>Para agregar una imagen
+### <a name="to-add-an-image"></a><a name="to-add-an-image"></a><a name="to-add-an-image"></a><a name="to-add-an-image"></a>Para agregar una imagen
   
 1. Coloque el puntero en el documento donde desea agregar el control.  
   
@@ -103,7 +103,7 @@ Las imágenes se alinean en la esquina superior izquierda del control de conteni
   
 3. Para aumentar o reducir el tamaño de la imagen, arrastre un control de tamaño hacia fuera desde el centro del control de contenido, o hacia el centro del mismo.  
 
-## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Quitar los campos de etiqueta y de datos
+## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Quitar los campos de etiqueta y de datos
 
 Los campos de etiqueta y datos de un informe están incluidos en los controles de contenido en Word. La ilustración siguiente muestra un control de contenido seleccionado en el documento de Word.  
 
@@ -111,7 +111,7 @@ Los campos de etiqueta y datos de un informe están incluidos en los controles d
 
 El nombre del campo de etiqueta o de datos se muestra en el control de contenido. En el ejemplo, el nombre de campo es CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Para eliminar una etiqueta o un campo de datos
+### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Para eliminar una etiqueta o un campo de datos
 
 1. Haga clic con el botón secundario en el campo que desee eliminar y seleccione **Eliminar control de contenido**.  
 
@@ -119,11 +119,11 @@ El nombre del campo de etiqueta o de datos se muestra en el control de contenido
 
 2. Elimine el texto restante según sea necesario.
 
-## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Resumen de Elemento XML
+## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Resumen de Elemento XML
 
 Los diseños de informe de Word se crean sobre *elementos XML personalizados*. Un elemento XML personalizado de un informe consta de los elementos que se corresponden con los elementos de datos, columnas y etiquetas que componen el conjunto de datos del informe. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->El elemento XML personalizado se utiliza para asignar datos en un informe cuando este se ejecuta.
 
-### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>Estructura XML del elemento XML personalizado
+### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>Estructura XML del elemento XML personalizado
 
 La tabla siguiente proporciona un resumen simplificado del XML de un elemento XML personalizado.  
   
@@ -136,7 +136,7 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Elementos y columnas de datos que están anidados en el elemento de datos de nivel superior. Las columnas se enumeran en orden alfabético en el elemento de datos correspondiente.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elemento de cierre.|  
   
-### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Elemento XML personalizado en Word
+### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Elemento XML personalizado en Word
 
  En Word, se abre el elemento XML personalizado en el panel **Asignación XML** y, a continuación, se usa el panel para asignar elementos a los controles de contenido en el documento de Word. El panel **Asignación XML** está disponible desde la pestaña **Desarrollador** (para obtener más información, consulte [Visualizar la pestaña Desarrollador en la cinta de opciones](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
@@ -154,7 +154,7 @@ La tabla siguiente proporciona un resumen simplificado del XML de un elemento XM
   
 * El idioma de la etiqueta que se muestra al ejecutar el informe depende del valor de idioma del objeto de informe.  
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
 

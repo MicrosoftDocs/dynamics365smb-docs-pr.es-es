@@ -10,14 +10,14 @@ ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="post-scrap-manually"></a><a name="post-scrap-manually"></a><a name="post-scrap-manually"></a>Registrar el material de rechazo manualmente
+# <a name="post-scrap-manually"></a><a name="post-scrap-manually"></a><a name="post-scrap-manually"></a><a name="post-scrap-manually"></a>Registrar el material de rechazo manualmente
 
 Si se produce material de rechazo durante el proceso, se puede introducir en el diario de salida.  
 
 > [!NOTE]
 > La cantidad de material de rechazo no incrementa la cantidad de salida.  
 
-## <a name="to-post-scrap-manually"></a><a name="to-post-scrap-manually"></a><a name="to-post-scrap-manually"></a>Para registrar el material de rechazo manualmente
+## <a name="to-post-scrap-manually"></a><a name="to-post-scrap-manually"></a><a name="to-post-scrap-manually"></a><a name="to-post-scrap-manually"></a>Para registrar el material de rechazo manualmente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario salida**, y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +27,7 @@ Si se produce material de rechazo durante el proceso, se puede introducir en el 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Fabricación](production-manage-manufacturing.md)
 [Configuración de fabricación](production-configure-production-processes.md)  

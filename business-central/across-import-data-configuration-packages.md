@@ -10,7 +10,7 @@ ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: edupont
 ---
-# <a name="import-business-data-from-other-finance-systems"></a><a name="import-business-data-from-other-finance-systems"></a><a name="import-business-data-from-other-finance-systems"></a>Importar datos de empresa de otros sistemas financieros
+# <a name="import-business-data-from-other-finance-systems"></a><a name="import-business-data-from-other-finance-systems"></a><a name="import-business-data-from-other-finance-systems"></a><a name="import-business-data-from-other-finance-systems"></a>Importar datos de empresa de otros sistemas financieros
 
 Cuando se registra en [!INCLUDE[prod_short](includes/prod_short.md)], puede elegir crear una empresa vacía, de este modo podrá cargar sus datos y probar su nueva empresa de [!INCLUDE[prod_short](includes/prod_short.md)]. En función de la solución de finanzas que use su empresa actualmente, puede transferir información sobre clientes, proveedores, inventario y cuentas bancarias.  
 
@@ -21,11 +21,11 @@ Desde el área de trabajo, puede iniciar una guía de configuración asistida qu
 > [!TIP]  
 > Se recomienda utilizar asistentes de migración para importar datos de Dynamics GP, Dynamics NAV o QuickBooks. Para más información, consulte [Migrar datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de la administración, o [Migración de datos de QuickBooks](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a><a name="work-with-data-in-excel"></a><a name="work-with-data-in-excel"></a>Trabajar con datos en Excel
+## <a name="work-with-data-in-excel"></a><a name="work-with-data-in-excel"></a><a name="work-with-data-in-excel"></a><a name="work-with-data-in-excel"></a>Trabajar con datos en Excel
 
 Puede usar el complemento de Excel para preparar contenido existente y usarlo en [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Ver y editar en Excel desde Business Central](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a><a name="import-data-from-configuration-packages"></a><a name="import-data-from-configuration-packages"></a>Importar datos desde los paquetes de configuración
+## <a name="import-data-from-configuration-packages"></a><a name="import-data-from-configuration-packages"></a><a name="import-data-from-configuration-packages"></a><a name="import-data-from-configuration-packages"></a>Importar datos desde los paquetes de configuración
 
 Para un trabajo de implementación más grande, puede configurar paquetes de configuración específicos de la solución. Para obtener más información, consulte [Configurar paquetes de configuración de la empresa](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (solo en inglés) en el contenido de desarrolladores y administración.  
 
@@ -42,7 +42,7 @@ Al exportar el paquete de configuración predeterminado a Excel, el libro genera
 > [!NOTE]
 > Los campos de tipo BLOB no se pueden exportar/importar con Excel.
 
-### <a name="tables-in-the-default-configuration-package"></a><a name="tables-in-the-default-configuration-package"></a><a name="tables-in-the-default-configuration-package"></a>Tablas del paquete de configuración predeterminado
+### <a name="tables-in-the-default-configuration-package"></a><a name="tables-in-the-default-configuration-package"></a><a name="tables-in-the-default-configuration-package"></a><a name="tables-in-the-default-configuration-package"></a>Tablas del paquete de configuración predeterminado
 
 El paquete de configuración predeterminado admite las tablas siguientes:
 
@@ -73,7 +73,7 @@ El paquete de configuración predeterminado admite las tablas siguientes:
 - Precio venta
 - Precio compra
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Migración de datos locales a Business Central Online (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Establecer paquetes de configuración de una empresa](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

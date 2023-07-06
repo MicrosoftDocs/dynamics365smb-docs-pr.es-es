@@ -8,12 +8,12 @@ ms.search.form: '142, 800, 806'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="track-packages"></a><a name="track-packages"></a><a name="track-packages"></a>Hacer un seguimiento de los paquetes
+# <a name="track-packages"></a><a name="track-packages"></a><a name="track-packages"></a><a name="track-packages"></a>Hacer un seguimiento de los paquetes
 La mayoría de los agentes de envío brindan un servicio web que le permite rastrear el estado de sus paquetes mientras están en ruta. Esa información puede ser útil en muchos procesos comerciales, por ejemplo, al ofrecer servicio al cliente. Si utiliza uno o más de estos transportistas, puede introducir cierta información básica sobre ellos y utilizar su servicio de seguimiento directamente desde las páginas Histórico albaranes ventas, Histórico facturas ventas, Notas de abono de ventas registradas y Recibo de devolución registrado. Para obtener más información, vea [Configurar transportistas](sales-how-to-set-up-shipping-agents.md). 
 
 El siguiente procedimiento muestra cómo rastrear un paquete desde un histórico albaranes venta, pero se aplican los mismos pasos para habilitar el seguimiento del paquete desde las páginas Factura de ventas registrada, Abono venta registrado e Histórico de recepción de devolución.  
 
-## <a name="to-track-a-package"></a><a name="to-track-a-package"></a><a name="to-track-a-package"></a>Para hacer el seguimiento de un paquete
+## <a name="to-track-a-package"></a><a name="to-track-a-package"></a><a name="to-track-a-package"></a><a name="to-track-a-package"></a>Para hacer el seguimiento de un paquete
 
 > [!NOTE]
 > El siguiente procedimiento utiliza la página Histórico albaranes venta como ejemplo. Los pasos para rastrear un paquete son los mismos en las páginas Histórico facturas venta, Notas de abono de ventas registradas y Recibo de devolución registrado.
@@ -24,7 +24,7 @@ El siguiente procedimiento muestra cómo rastrear un paquete desde un histórico
 4. Asegúrese de que el agente de envío correcto y el nivel de servicio sean los correctos y luego cierre la página.
 5. Elija la acción **Seguir envío** para abrir el servicio de seguimiento del paquete del transportista.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Configurar transportistas](sales-how-to-set-up-shipping-agents.md)  
 [Ccial](sales-manage-sales.md)  

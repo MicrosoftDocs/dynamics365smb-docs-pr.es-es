@@ -12,11 +12,11 @@ ms.date: 09/29/2021
 ms.author: edupont
 ---
 
-# <a name="procurement-quick-start"></a><a name="procurement-quick-start"></a><a name="procurement-quick-start"></a>Inicio rápido de adquisiciones
+# <a name="procurement-quick-start"></a><a name="procurement-quick-start"></a><a name="procurement-quick-start"></a><a name="procurement-quick-start"></a>Inicio rápido de adquisiciones
 
 Para poder comprar productos y servicios, primero debe configurar proveedores. Una vez hecho esto, puede comenzar a registrar órdenes de compra y recibir facturas.  
 
-## <a name="set-up-vendors"></a><a name="set-up-vendors"></a><a name="set-up-vendors"></a>Configurar proveedores
+## <a name="set-up-vendors"></a><a name="set-up-vendors"></a><a name="set-up-vendors"></a><a name="set-up-vendors"></a>Configurar proveedores
 
 El siguiente vídeo le muestra cómo configurar un proveedor en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -24,13 +24,13 @@ El siguiente vídeo le muestra cómo configurar un proveedor en [!INCLUDE[prod_s
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### <a name="set-up-a-new-vendor"></a><a name="set-up-a-new-vendor"></a><a name="set-up-a-new-vendor"></a>Configurar un proveedor nuevo
+### <a name="set-up-a-new-vendor"></a><a name="set-up-a-new-vendor"></a><a name="set-up-a-new-vendor"></a><a name="set-up-a-new-vendor"></a>Configurar un proveedor nuevo
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Para obtener más información y detalles adicionales que puede hacer cuando registra proveedores, consulte [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).  
 
-## <a name="create-new-purchase-orders"></a><a name="create-new-purchase-orders"></a><a name="create-new-purchase-orders"></a>Crear nuevos pedidos de compra
+## <a name="create-new-purchase-orders"></a><a name="create-new-purchase-orders"></a><a name="create-new-purchase-orders"></a><a name="create-new-purchase-orders"></a>Crear nuevos pedidos de compra
 
 Cuando compra algo a un proveedor, tiene dos opciones. La primera, y la más simple, es crear una factura de compra. Sin embargo, debe usar pedidos de compra si el proceso de compra requiere que registre recibos parciales de una cantidad del pedido, por ejemplo, porque el proveedor no disponía de la cantidad total.
 
@@ -40,7 +40,7 @@ El siguiente vídeo le muestra cómo crear un pedido de compra en [!INCLUDE[prod
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### <a name="to-create-a-purchase-order"></a><a name="to-create-a-purchase-order"></a><a name="to-create-a-purchase-order"></a>Para crear un pedido de compra
+### <a name="to-create-a-purchase-order"></a><a name="to-create-a-purchase-order"></a><a name="to-create-a-purchase-order"></a><a name="to-create-a-purchase-order"></a>Para crear un pedido de compra
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 
@@ -66,11 +66,11 @@ El siguiente vídeo le muestra cómo crear un pedido de compra en [!INCLUDE[prod
 
 Para obtener más información y detalles adicionales que puede hacer al crear un pedido de compra, consulte [Compras](purchasing-manage-purchasing.md).  
 
-## <a name="create-a-purchase-invoice"></a><a name="create-a-purchase-invoice"></a><a name="create-a-purchase-invoice"></a>Crear una factura de compra
+## <a name="create-a-purchase-invoice"></a><a name="create-a-purchase-invoice"></a><a name="create-a-purchase-invoice"></a><a name="create-a-purchase-invoice"></a>Crear una factura de compra
 
 Cree una factura de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Crear una factura de compra es similar a crear un pedido de compra.
 
-### <a name="how-to-create-and-post-a-purchase-invoice"></a><a name="how-to-create-and-post-a-purchase-invoice"></a><a name="how-to-create-and-post-a-purchase-invoice"></a>Cómo crear y registrar una factura de compra
+### <a name="how-to-create-and-post-a-purchase-invoice"></a><a name="how-to-create-and-post-a-purchase-invoice"></a><a name="how-to-create-and-post-a-purchase-invoice"></a><a name="how-to-create-and-post-a-purchase-invoice"></a>Cómo crear y registrar una factura de compra
 
 1. Elija el icono ![Bombilla que abre la función Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.  
 2. En la página **Factura de compra**, seleccione la acción **Nuevo** para crear una nueva factura de compra.
@@ -95,7 +95,7 @@ La compra ahora se refleja en el inventario, en los movimientos de recursos y en
 
 Para obtener más información y detalles adicionales que puede hacer al crear una factura de compra, consulte [Registrar compras con facturas de compra](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
 
 [Inicio rápido de Business Central](quick-start-business-central.md)  
 [Resumen de compras](Purchasing-manage-purchasing.md)  

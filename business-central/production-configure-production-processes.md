@@ -10,7 +10,7 @@ ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a>Configuración de fabricación
+# <a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a>Configuración de fabricación
 
 Para convertir material en artículos producidos finales, se deben configurar recursos de producción, como listas de materiales, ruta, operadores de máquina y maquinaria, en el sistema.
 
@@ -33,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Uso de tareas estándar para simplificar la creación de rutas adjuntando rápidamente información adicional a operaciones periódicas.|[Configurar de líneas de ruta estándar](production-how-set-up-standard-routing-lines.md)|  
 |Prepare centros de trabajo y rutas para representar operaciones de producción subcontratadas.|[Subcontratación de fabricación](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
 
 [Fabricación](production-manage-manufacturing.md)  
 [Planificación](production-planning.md)  
