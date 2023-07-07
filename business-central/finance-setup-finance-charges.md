@@ -11,11 +11,11 @@ ms.search.form: '6, 494'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-finance-charge-terms"></a><a name="set-up-finance-charge-terms"></a><a name="set-up-finance-charge-terms"></a><a name="set-up-finance-charge-terms"></a>Configurar términos interés
+# <a name="set-up-finance-charge-terms"></a>Configurar términos interés
 
 Si un cliente no paga en la fecha de vencimiento, puede calcular automáticamente intereses y añadirlos a los importes vencidos en la cuenta del cliente. Puede informar a los clientes de los cargos añadidos enviando documentos de interés. Pero primero debe definir un código que represente cada cálculo de interés financiero. Después puede introducir este código en el campo Cód. interés de las fichas de cliente.  
 
-## <a name="finance-charge-terms"></a><a name="finance-charge-terms"></a><a name="finance-charge-terms"></a><a name="finance-charge-terms"></a>Términos interés
+## <a name="finance-charge-terms"></a>Términos interés
 
 Debe configurar los términos del cargo financiero para cada cálculo del cargo financiero y luego asignar los términos al cliente en el campo **Código de condiciones de cargo financiero** en la página **Cliente**.
 
@@ -33,7 +33,7 @@ Puede calcular los intereses utilizando el cálculo por días crédito o bien el
 
 Además, cada término de la tabla Términos interés está vinculado a la subtabla Texto interés. Por cada grupo de términos de interés, puede definir un texto inicial y/o final que se incluyen en el documento de interés.
 
-### <a name="to-set-up-finance-charge-terms"></a><a name="to-set-up-finance-charge-terms"></a><a name="to-set-up-finance-charge-terms"></a><a name="to-set-up-finance-charge-terms"></a>Configurar términos interés
+### <a name="to-set-up-finance-charge-terms"></a>Configurar términos interés
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos interés** y, a continuación, elija el vínculo relacionado.  
 2. Rellene los campos según sea necesario.
@@ -62,9 +62,9 @@ Además, cada término de la tabla Términos interés está vinculado a la subta
 |%8|Contenido del campo **Código divisa** en la cabecera del documento de interés|  
 |%9|Contenido del campo **Fecha registro** en la cabecera del documento de interés|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/send-memos-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/send-memos-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar términos y niveles de recordatorios.](finance-setup-reminders.md)  

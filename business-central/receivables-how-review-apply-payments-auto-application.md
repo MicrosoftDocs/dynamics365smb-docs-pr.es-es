@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a>Revisar y aplicar pagos manualmente después de unanaplicación automática
+# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Revisar y aplicar pagos manualmente después de unanaplicación automática
 Para cada línea de diario que representa un pago en la página **Diario de conciliación de pagos** podrá abrir la página **Liquidación de pago** para ver todos los candidatos con movimientos pendientes de pago y podrá ver información detallada para cada movimiento sobre la correspondencia de datos en la que se basa la liquidación de un pago. Aquí puede liquidar manualmente pagos o volver a liquidar pagos que se aplicaron automáticamente en un movimiento incorrecto. Para obtener más información acerca de la liquidación automática, vea [Conciliar pagos usando la liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -30,7 +30,7 @@ Por tanto, es recomendable buscar los códigos de divisas extranjeras en el camp
 > [!NOTE]  
 >   Puede liquidar solo un pago en una cuenta. Si desea dividir la liquidación en varios movimientos pendientes, por ejemplo para liquidar un pago de suma total, los movimientos pendientes deben serlo para la misma cuenta. Para obtener más información, consulte los pasos 7 y 8 del procedimiento de este tema.
 
-## <a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a>Para revisar o aplicar pagos después de una liquidación automática
+## <a name="to-review-or-apply-payments-after-automatic-application"></a>Para revisar o aplicar pagos después de una liquidación automática
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de conciliación de pagos** y luego elija el enlace relacionado.
 2. Abra el diario de conciliación de pagos de un banco para el que desee conciliar los pagos. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 3. En la página **Diario de conciliación de pagos**, seleccione un pago que desee revisar o liquidar manualmente a uno o varios movimientos pendientes y, a continuación, seleccione la acción **Liquidación manual**.
@@ -43,7 +43,7 @@ Por tanto, es recomendable buscar los códigos de divisas extranjeras en el camp
 
 Se cierra la página **Liquidación de pagos** y, en la página **Diario de conciliación de pagos** el valor del campo **Confianza de la correspondencia** cambia a **Aceptado** para indicarle que ha revisado o ha liquidado manualmente el pago.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

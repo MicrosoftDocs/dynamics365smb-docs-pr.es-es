@@ -11,14 +11,14 @@ ms.search.forms: '5091, 5139,'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="manage-interactions-for-segments"></a><a name="manage-interactions-for-segments"></a><a name="manage-interactions-for-segments"></a><a name="manage-interactions-for-segments"></a>Administrar interacciones para segmentos
+# <a name="manage-interactions-for-segments"></a>Administrar interacciones para segmentos
 La página **Segmento** es un tipo de hoja de cálculo con la que puede:
 
 * Crear segmentos.
 * Guardar los criterios de segmentación usados para seleccionar los contactos.
 * Grabar el segmento y registrar interacciones relacionadas con los contactos del segmento.
 
-## <a name="segmenting"></a><a name="segmenting"></a><a name="segmenting"></a><a name="segmenting"></a>Segmentar
+## <a name="segmenting"></a>Segmentar
 Hay varias formas de crear segmentos:
 
 * Puede introducir manualmente en las líneas del segmento los contactos que desee incluir en el mismo.
@@ -26,17 +26,17 @@ Hay varias formas de crear segmentos:
 * Puede volver a utilizar un segmento grabado como base para crear uno nuevo.
 * Puede volver a utilizar los criterios de segmentación guardados.
 
-## <a name="interactions"></a><a name="interactions"></a><a name="interactions"></a><a name="interactions"></a>Interacciones
+## <a name="interactions"></a>Interacciones
 En la página **Segmento**, puede crear a la vez interacciones para varios contactos. Por ejemplo, puede combinar un segmento con un documento de Microsoft Word, para poder enviar una carta a todos los contactos del segmento.
 
 Puede especificar información acerca de la interacción del segmento en la cabecera de **Segmento**. Por ejemplo, puede elegir la plantilla de interacción que se usará con todos los contactos, especificar una descripción, un tipo de correspondencia, etc. Sin embargo, puede modificar esta información en la línea de segmento para cada contacto en particular, por ejemplo, si especifica otra descripción de un contacto. Si combina un segmento con un documento de Microsoft Word, puede personalizar el documento para que se envíe a uno o más contactos del segmento, por ejemplo, agregando comentarios personalizados al documento.
 
-## <a name="logging"></a><a name="logging"></a><a name="logging"></a><a name="logging"></a>Registro
+## <a name="logging"></a>Registro
 En la página **Segmento**, si elige **Registrar**, la aplicación registra las interacciones en la página **Mov. log de interacción** y registra el segmento. Después de grabar el segmento, sólo podrá encontrarlo en la página **Segmentos archivados**.
 
 En la página **Segmentos archivados**, puede decidir crear un segmento de seguimiento que contenga los mismos contactos que el segmento que ha archivado.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 [Crear segmentos](marketing-how-create-segment.md)  
 [Crear interacciones de segmentos](marketing-how-create-interactions.md)  
 [Administrar segmentos](marketing-segments.md)  

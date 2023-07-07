@@ -11,11 +11,11 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a><a name="bulk-invoicing-for-microsoft-bookings-in-"></a><a name="bulk-invoicing-for-microsoft-bookings-in-"></a><a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Facturación masiva para Microsoft Bookings en [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Facturación masiva para Microsoft Bookings en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Si su empresa utiliza la aplicación Bookings en Microsoft 365, puede hacer la facturación masiva para citas. La página **Reservas no facturadas** de [!INCLUDE[prod_short](includes/prod_short.md)] ofrece una lista de las reservas completadas de la empresa. En esta página puede seleccionar rápidamente citas que desea facturar y para crear borradores de factura de los servicios prestados.  
 
-## <a name="connect-to-bookings"></a><a name="connect-to-bookings"></a><a name="connect-to-bookings"></a><a name="connect-to-bookings"></a>Conectarse a Bookings
+## <a name="connect-to-bookings"></a>Conectarse a Bookings
 
 Para conectarse [!INCLUDE[prod_short](includes/prod_short.md)] con Bookings, debe especificar su empresa de Bookings, lo que desea sincronizar con Bookings, la frecuencia con que se realizará la sincronización y las plantillas que se usarán. Puede configurar esta información en la página **Configuración de sincronización de Bookings**, que puede iniciar desde la página **Configuración de la sincronización de Exchange**, que puede encontrar mediante [Buscar](ui-search.md).  
 
@@ -29,7 +29,7 @@ De manera similar, si desea sincronizar los elementos de servicio entre Bookings
 > [!NOTE]
 > Solo los elementos de tipo *Servicio* se sincronizarán entre Bookings y [!INCLUDE[prod_short](includes/prod_short.md)]. La plantilla que configuró en la página **Plantillas de configuración** para que se pueda utilizar para la sincronización de elementos debe definir el tipo como *Servicio*.
 
-## <a name="invoice-appointments"></a><a name="invoice-appointments"></a><a name="invoice-appointments"></a><a name="invoice-appointments"></a>Citas de factura
+## <a name="invoice-appointments"></a>Citas de factura
 
 Cuando sea el momento de enviar facturas de las reservas completadas, vaya a la página **Reservas no facturadas**. Dependiendo de la frecuencia con que se sincroniza la información, la lista es larga o corta. Puede crear facturas para todas las reservas de la lista o una reserva cada vez. Puede seleccionar una o varias entradas de la lista y facturar solo esas.  
 
@@ -38,7 +38,7 @@ La compatibilidad para facturar citas desde Bookings es más simple que el flujo
 > [!NOTE]
 > En mayo de 2022, hemos detectado un problema en la integración con Bookings. Actualmente, la sincronización de Bookings con [!INCLUDE [prod_short](includes/prod_short.md)] requiere la asociación manual de las facturas con los clientes en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Finanzas](finance.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  

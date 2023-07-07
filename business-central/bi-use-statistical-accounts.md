@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
 ---
-# <a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a>Analice datos con cuentas estadísticas
+# <a name="analyze-data-with-statistical-accounts"></a>Analice datos con cuentas estadísticas
 
 Utilice cuentas estadísticas para complementar la información de los informes financieros. Las cuentas estadísticas le permiten agregar métricas que se basan en datos no transaccionales. Puede agregar los datos no transaccionales como unidades basadas en números, como:
 
@@ -26,12 +26,12 @@ En cuanto a su funcionamiento, las cuentas estadísticas son similares a las cue
 
 Hay un par de diferencias clave entre las cuentas estadísticas y las cuentas de registro. Las cuentas estadísticas son entidades separadas y no se incluyen en los informes de balance de comprobación. Además, no necesita equilibrar los importes de débito y crédito cuando utiliza diarios de cuentas estadísticas para contabilizar asientos en una cuenta estadística. Simplemente se registra el importe.
 
-## <a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a>Configurar una cuenta estadística
+## <a name="set-up-a-statistical-account"></a>Configurar una cuenta estadística
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas estadísticas** y luego elija el vínculo relacionado.
 1. Rellene los campos en la ficha desplegable **General**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a>Contabilizar importes en una cuenta estadística
+## <a name="post-amounts-to-a-statistical-account"></a>Contabilizar importes en una cuenta estadística
 
 1. Para registrar los importes de los que desea realizar un seguimiento, en la página **Cuentas estadísticas**, elija la acción **Diario de cuentas estadísticas**.
 1. En el campo **Fecha de registro**, introduzca la última fecha del periodo de registro en el que desea registrar importes.
@@ -41,11 +41,11 @@ Hay un par de diferencias clave entre las cuentas estadísticas y las cuentas de
 1. En el campo **Importe**, introduzca el importe a registrar. 
 1. Opcional: si desea incluir la cuenta estadística en análisis más avanzados, especifique las dimensiones en los campos **Código de departamento** y **Código de grupo de clientes**. Para obtener más información sobre las dimensiones, vaya a [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md).
 
-## <a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a>Verificar importes de cuentas estadísticas
+## <a name="verify-statistical-account-amounts"></a>Verificar importes de cuentas estadísticas
 
 En la página **Cuentas estadísticas**, use la acción **Saldo de cuentas estadísticas** para verificar que los importes registrados sean correctos para cada período.  
 
-## <a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a>Incluir la cuenta estadística en un informe financiero
+## <a name="include-the-statistical-account-in-a-financial-report"></a>Incluir la cuenta estadística en un informe financiero
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.
 1. Cree un nuevo informe financiero de una de las siguientes maneras:
@@ -61,7 +61,7 @@ En la página **Cuentas estadísticas**, use la acción **Saldo de cuentas estad
 1. En el campo **Tipo de fila**, elija si desea ver el saldo en la fecha de registro o al comienzo del período de registro, o mostrar el cambio en el importe durante el período.
 1. Rellene el resto de campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Inteligencia empresarial financiera](bi.md)  
 [Informes y análisis financieros en Business Central](finance-reports.md)

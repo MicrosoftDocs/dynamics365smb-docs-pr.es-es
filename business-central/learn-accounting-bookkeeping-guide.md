@@ -12,7 +12,7 @@ ms.date: 03/14/2023
 ms.author: altotovi
 ---
 
-# <a name="accounting-and-bookkeeping"></a><a name="accounting-and-bookkeeping"></a><a name="accounting-and-bookkeeping"></a><a name="accounting-and-bookkeeping"></a>Contabilidad y auditoría
+# <a name="accounting-and-bookkeeping"></a>Contabilidad y auditoría
 
 La contabilidad es una función crítica en cualquier solución de planificación de recursos empresariales (ERP), y también en la mayoría de las empresas. La contabilidad representa el proceso de registrar y catalogar las transacciones financieras de una empresa, y luego recuperar, medir, resumir y presentar los resultados mediante el uso de diferentes informes que a menudo exige la legislación local. El objetivo principal de este proceso es ayudar a la gerencia de la empresa a comprender las finanzas del negocio y medir los resultados de las actividades económicas de la empresa.
 
@@ -100,7 +100,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 | Habilite la información financiera global por medio de las organizaciones internacionales de contabilidad el estándar de lenguaje de informes de negocio extensible (XBRL). | [Crear informes con XBRL](bi-create-reports-with-xbrl.md) |
 | Cambie la intención de acceso a la base de datos en informes, páginas de tipo API y consultas para ayudar a reducir la carga y mejorar el rendimiento. | [Administrar intento de acceso a bases de datos](admin-data-access-intent.md) |
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar las finanzas](finance-setup-finance.md)  
 [Ventas](sales-manage-sales.md)  

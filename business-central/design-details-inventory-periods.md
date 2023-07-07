@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-inventory-periods"></a><a name="design-details-inventory-periods"></a><a name="design-details-inventory-periods"></a><a name="design-details-inventory-periods"></a>Detalles de diseño: Periodos de inventario
+# <a name="design-details-inventory-periods"></a>Detalles de diseño: Periodos de inventario
 Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a menudo repercuten en los saldos y los métodos de coste para periodos contables que pueden considerarse cerrados. Esto puede tener un efecto negativo en los informes exactos, especialmente en las corporaciones globales. La característica Periodos inventario se puede usar para evitar dichos problemas mediante la apertura o el cierre de periodos de inventario para limitar el registro en un periodo de tiempo configurado.  
 
  Un periodo inventario es un periodo de tiempo, definido por una fecha de fin, en el que se registran transacciones de inventario. Cuando cierra un periodo de inventario, no se puede registrar ningún cambio de valor en el periodo cerrado. Esto incluye nuevos registros de valoración, registros previstos o facturados, cambios en los valores existentes y ajustes de coste. No obstante, podrá aplicarse a un movimiento de producto abierto dentro del periodo cerrado. Para obtener más información, consulte [Detalles de diseño: Liquidación de productos](design-details-item-application.md).  
@@ -23,7 +23,7 @@ Las transacciones o los ajustes de coste a los que se aplica fecha retroactiva a
 
  Cuando cierra un periodo de inventario, se crea un movimiento de periodo de inventario mediante el número del último registro de producto que está dentro de dicho periodo. Además, la hora, la fecha y el código del usuario del usuario que cierra el periodo se registran en el movimiento del periodo de inventario. Usando esta información con el último registro de producto para el periodo anterior, puede ver qué transacciones de inventario se registraron en el periodo del inventario. También se pueden volver a abrir periodos de inventario si necesita aplicar un registro en un periodo cerrado. Cuando se vuelve a abrir un periodo de inventario, se crea un movimiento de periodo de inventario.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  

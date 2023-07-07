@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# <a name="application-design-details"></a><a name="application-design-details"></a><a name="application-design-details"></a><a name="application-design-details"></a>Detalles de diseño de la aplicación
+# <a name="application-design-details"></a>Detalles de diseño de la aplicación
 
 Los artículos en esta sección contienen información técnica detallada acerca de las características de la aplicación complejas en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ El contenido de los detalles de diseño va dirigido a implementadores, desarroll
 |Conocer el diseño histórico y actual de la funcionalidad del seguimiento de productos y cómo se integra con el programa de reservas para incluir números de serie y de lote en los cálculos de disponibilidad.|[Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)|  
 |Obtenga más información sobre la función Línea de contabilización del diario general.|[Detalles de diseño: línea de registro en diario general](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Planificación](production-planning.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  

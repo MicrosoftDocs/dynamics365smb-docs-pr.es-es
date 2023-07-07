@@ -11,11 +11,11 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="register-employees"></a><a name="register-employees"></a><a name="register-employees"></a><a name="register-employees"></a>Registrar empleados
+# <a name="register-employees"></a>Registrar empleados
 
 Para usar la funcionalidad de Recursos humanos, primero debe agregar a cada empleado completando los campos en la página **Ficha de empleado**.
 
-## <a name="adding-new-employees"></a><a name="adding-new-employees"></a><a name="adding-new-employees"></a><a name="adding-new-employees"></a>Agregar nuevos empleados
+## <a name="adding-new-employees"></a>Agregar nuevos empleados
 
 Puede agregar nuevos empleados manualmente, completando los campos en la página **Ficha de empleado**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear plantillas para diferentes tipos de perfiles de empleados. El uso de plantillas ahorra tiempo al agregar nuevos empleados y ayuda a garantizar que la información sea correcta en todo momento. Si crea plantillas para más de un tipo de empleado, puede elegir la plantilla que utilizará cuando agregue un empleado. Si crea solo una plantilla, se utilizará para todos los empleados nuevos. Después de crear una plantilla, puede usar la acción **Aplicar plantilla** para aplicarla a uno o más empleados seleccionados. Para crear una plantilla, complete la información que desea reutilizar en la página Ficha de empleado y luego guárdela como una plantilla.
 
@@ -27,13 +27,13 @@ Los detalles de un empleado se pueden modificar en cualquier momento. Mantener l
 > [!NOTE]  
 > Puede reembolsar a los empleados por sus gastos durante las actividades comerciales. Para ello, debe rellenar los campos de la ficha desplegable **Pagos** en la página **Ficha empleado**. Para obtener más información, consulte [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
 
-## <a name="to-set-up-an-employee"></a><a name="to-set-up-an-employee"></a><a name="to-set-up-an-employee"></a><a name="to-set-up-an-employee"></a>Para configurar un empleado
+## <a name="to-set-up-an-employee"></a>Para configurar un empleado
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la página **Ficha empleado**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-insert-a-picture-of-an-employee"></a><a name="to-insert-a-picture-of-an-employee"></a><a name="to-insert-a-picture-of-an-employee"></a><a name="to-insert-a-picture-of-an-employee"></a>Para insertar una imagen de un empleado
+## <a name="to-insert-a-picture-of-an-employee"></a>Para insertar una imagen de un empleado
 
 Si tiene una imagen de un empleado, puede insertarla en su ficha.
 
@@ -45,7 +45,7 @@ Si tiene una imagen de un empleado, puede insertarla en su ficha.
 
 La imagen se inserta en el cuadro informativo **Imagen empleado**.
 
-## <a name="to-register-various-information-about-an-employee"></a><a name="to-register-various-information-about-an-employee"></a><a name="to-register-various-information-about-an-employee"></a><a name="to-register-various-information-about-an-employee"></a>Para registrar información diversa acerca de un empleado
+## <a name="to-register-various-information-about-an-employee"></a>Para registrar información diversa acerca de un empleado
 
 En la ficha de empleado, puede configurar información como la afiliación al sindicato, familiares y contratos. A continuación se describe cómo configurar una dirección alternativa. Los pasos son parecidos para el resto de la información que puede definir en una ficha de empleado.
 
@@ -57,7 +57,7 @@ Utilice direcciones alternativas para llevar un control de la ubicación de los 
 4. En la página **Lista de direcciones alternativas**, rellene los campos según sea necesario.
 5. Repita el paso 4 para cada dirección alternativa.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)  
 [Finanzas](finance.md)  

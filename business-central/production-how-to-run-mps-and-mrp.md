@@ -10,7 +10,7 @@ ms.search.form: '99000852, 99000860'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="run-full-planning-mps-or-mrp"></a><a name="run-full-planning-mps-or-mrp"></a><a name="run-full-planning-mps-or-mrp"></a><a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Ejecutar la planificación completa, MPS o MRP
 
 Los términos "ejecutar la hoja de planificación" o "ejecutar MRP" hacen referencia al cálculo del programa de producción principal y a las necesidades de material, en función de la demanda real y prevista. El programa de planificación puede calcular tanto el Programa de producción principal (MPS) como la Planificación de necesidades de material (MRP) cuando se solicite, o calcular ambas cosas a la vez.  
 
@@ -23,7 +23,7 @@ Los vínculos creados por el motor de planificación entre la demanda y el abast
 
 Para obtener buenos resultados en la planificación, se deben haber configurado correctamente las siguientes opciones: fichas de producto, L.M. de ensamblado. L.M. de producción y rutas.  
 
-## <a name="methods-for-generating-a-plan"></a><a name="methods-for-generating-a-plan"></a><a name="methods-for-generating-a-plan"></a><a name="methods-for-generating-a-plan"></a>Métodos para generar un plan
+## <a name="methods-for-generating-a-plan"></a>Métodos para generar un plan
 
 -   **Calc. planif. regenerativa**: esta función procesa o vuelve a generar el plan de materiales. El proceso comienza con la eliminación de todos los pedidos de aprovisionamiento cargados actualmente. Se vuelven a planificar todos los productos de la base de datos.  
 -   **Calc. plan. cambio periodo**: esta función procesa un plan de cambio neto. Los productos se tienen en cuenta en una planificación de cambio neto de dos tipos de cambios:  
@@ -38,7 +38,7 @@ Con cada método previsto, [!INCLUDE[prod_short](includes/prod_short.md)] genera
 >   
 >  La función Traer mensajes de acción se puede ejecutar entre planes de cambio neto y regenerativos para obtener una vista inmediata del efecto de los cambios en el programa, pero no se debe usar como sustituto de los procesos de los dos planes completos.  
 
-## <a name="to-calculate-the-planning-worksheet"></a><a name="to-calculate-the-planning-worksheet"></a><a name="to-calculate-the-planning-worksheet"></a><a name="to-calculate-the-planning-worksheet"></a>Para calcular la hoja de planificación
+## <a name="to-calculate-the-planning-worksheet"></a>Para calcular la hoja de planificación
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hojas de planificación** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Calcular planificación regenerativa** para abrir la página **Calcular plan**.  
 3.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
@@ -57,7 +57,7 @@ Con cada método previsto, [!INCLUDE[prod_short](includes/prod_short.md)] genera
 4.  En la ficha desplegable **Producto**, defina los filtros para ejecutar la planificación por producto, descripción de producto o almacén.  
 5.  Elija el botón **Aceptar**. El proceso se ejecuta y, a continuación, la hoja de planificación se rellena con las líneas de planificación.  
 
-## <a name="to-perform-action-messages"></a><a name="to-perform-action-messages"></a><a name="to-perform-action-messages"></a><a name="to-perform-action-messages"></a>Para ejecutar los mensajes de acción
+## <a name="to-perform-action-messages"></a>Para ejecutar los mensajes de acción
 1.  En la página **Hoja de planificación**, elija la acción **Ejecutar mensajes de acción**.  
 2.  En la ficha desplegable **Opciones**, especifique cómo crear suministros. Rellene los campos tal como se describe en la tabla siguiente.  
 
@@ -75,7 +75,7 @@ Con cada método previsto, [!INCLUDE[prod_short](includes/prod_short.md)] genera
 
 El proceso elimina las líneas de la hoja de planificación una vez que ha llevado a cabo el mensaje de acción. Las demás líneas permanecen en la hoja de planificación hasta que se aceptan posteriormente, o se eliminan. Las líneas se pueden eliminar manualmente.  
 
-## <a name="action-messages"></a><a name="action-messages"></a><a name="action-messages"></a><a name="action-messages"></a>Mensajes de acción
+## <a name="action-messages"></a>Mensajes de acción
 Los mensajes de acción son emitidos por el sistema de seguimiento de pedidos cuando, con los pedidos existentes, no se logra un equilibrio. Se trata de sugerencias para que realice los cambios necesarios para volver a llegar a un equilibrio entre aprovisionamiento y demanda.  
 
 La generación de mensajes de acción tiene lugar en un nivel por vez, por código de nivel inferior de cada producto. Así se garantiza que se consideren todos los productos que tengan o vayan a tener cambios de aprovisionamiento o demanda.  
@@ -97,7 +97,7 @@ Como respuesta a los desequilibrios entre aprovisionamiento y demanda, se genera
 |**Reprogramar y cambiar cantidad**|Si se han modificado las fechas y las cantidades de un pedido, debe cambiar las fechas y las cantidades de los planes. Los mensajes de acción recogen las dos acciones en un mensaje, **Reprog. y cambiar cdad.**, para garantizar que la red de pedidos vuelva a quedar equilibrada.|  
 |**Cancelar**|Si se elimina una demanda que se ha cubierto pedido a pedido, se emite un mensaje de acción para cancelar el pedido de suministro relacionado. Si la relación no es pedido a pedido, se genera un mensaje de acción para cambiar y reducir el abastecimiento. Si, por otros factores, como ajustes de inventario, no se requiere un pedido de suministro en el momento en que el usuario genera los mensajes de acción, [!INCLUDE[prod_short](includes/prod_short.md)] sugiere el mensaje **Cancelar** en la hoja.|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 [Planificación](production-planning.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)    

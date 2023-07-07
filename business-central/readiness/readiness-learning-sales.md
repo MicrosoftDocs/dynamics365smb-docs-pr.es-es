@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a>Catálogo de aprendizaje de ventas y marketing para socios
+# <a name="partner-sales-and-marketing-learning-catalog"></a>Catálogo de aprendizaje de ventas y marketing para socios
 
 ¿Es responsable de ayudar a sus clientes a comprar la solución adecuada?
 
 El siguiente catálogo está organizado desde el conocimiento básico hasta dominios específicos y desde el más básico hasta el más avanzado. Si el contenido está en varios formatos, se lo haremos saber, para que pueda elegir el formato de formación que mejor se adapte a sus necesidades.  
 
-## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Valor de negocio<a name="busvalue"></a>
+## <a name="business-value"></a><a name="busvalue"></a>Valor de negocio
 
 | Contenido     | Descripción    | Formato                                | Longitud              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Explorar las capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/) | Explorar las capacidades de Dynamics 365 Business Central    | Sitio web    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Este módulo muestra características de aplicación, beneficios y ejemplos de Dynamics 365 Business Central en acción.    | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 24 minutos          |
 
-## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Introducción<a name="get-started"></a>
+## <a name="getting-started"></a><a name="get-started"></a>Introducción
 
 | Contenido   | Descripción   | Formato                                | Longitud              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,7 +30,7 @@ El siguiente catálogo está organizado desde el conocimiento básico hasta domi
 | [Trabajar como un profesional con los datos de Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | ¿Acaba de empezar a usar Business Central? Esta ruta de aprendizaje lo ayudará a prepararse para los tipos de datos en Business Central y cómo encontrar la información que necesita en la aplicación.      | Ruta de aprendizaje en línea gratuito y a su propio ritmo | 2 horas 27 minutos  |
 | [Lista de reproducción de YouTube de Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | Página de destino de YouTube para los vídeos de Dynamics 365 Business Central  | Vídeos de YouTube  |                     |
 
-## <a name="grow-your-business"></a><a name="grow-your-business"></a><a name="grow-your-business"></a><a name="grow-your-business"></a>Haga crecer su empresa<a name="grow"></a>
+## <a name="grow-your-business"></a><a name="grow"></a>Haga crecer su empresa
 
 | Contenido   | Descripción        | Formato                                | Longitud                |
 |-----------|--------------------|---------------------------------------|-----------------------|

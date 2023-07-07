@@ -11,7 +11,7 @@ ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
 ---
-# <a name="vat-management-overview"></a><a name="vat-management-overview"></a><a name="vat-management-overview"></a><a name="vat-management-overview"></a>Información general de la administración de IVA
+# <a name="vat-management-overview"></a>Información general de la administración de IVA
 El Impuesto al Valor Agregado (IVA) es un impuesto indirecto sobre el consumo de bienes y servicios. El IVA se aplica en cada etapa de la cadena de suministro donde se agrega valor desde la producción inicial hasta el punto de venta. Para iniciarse en la administración del IVA, vea los temas siguientes.  
 
 |  Artículo  |  Descripción  |  
@@ -28,7 +28,7 @@ El Impuesto al Valor Agregado (IVA) es un impuesto indirecto sobre el consumo de
 | [Validar el CIF/NIF](finance-how-validate-vat-registration-number.md) | Este artículo explicac cómo usar la validación de Business Central para los CIF/NIF de sus contactos, clientes y proveedores, según el servicio de validación de números de IVA VIES de la Unión Europea.|
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

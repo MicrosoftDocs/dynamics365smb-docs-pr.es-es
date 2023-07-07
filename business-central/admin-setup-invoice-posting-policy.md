@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.forms: '119, 9807,'
 ---
 
-# <a name="define-an-invoice-posting-policy-for-users"></a><a name="define-an-invoice-posting-policy-for-users"></a><a name="define-an-invoice-posting-policy-for-users"></a><a name="define-an-invoice-posting-policy-for-users"></a>Definir una directiva de registro de facturas para usuarios
+# <a name="define-an-invoice-posting-policy-for-users"></a>Definir una directiva de registro de facturas para usuarios
 
 Las empresas a menudo tienen procesos únicos para contabilizar envíos y facturas de compra y venta. Por ejemplo, los procesos pueden variar desde una persona que registra todo en un pedido de compra hasta varios empleados. Puede impedir que los usuarios registren facturas o solicitar que las facturas se registren junto con los envíos o las recepciones.
 
-## <a name="to-specify-a-posting-policy"></a><a name="to-specify-a-posting-policy"></a><a name="to-specify-a-posting-policy"></a><a name="to-specify-a-posting-policy"></a>Para especificar una directiva de registro
+## <a name="to-specify-a-posting-policy"></a>Para especificar una directiva de registro
 
 En la página **Configuración de usuario**, en los campos **Directiva de publicación de facturas de ventas** y **Directiva de publicación de facturas de compras** , elija una de las siguientes opciones:
 
@@ -22,7 +22,7 @@ En la página **Configuración de usuario**, en los campos **Directiva de public
 * **Prohibido**: impide que el usuario registre facturas. Business Central mostrará un cuadro de diálogo de confirmación que proporciona solo las opciones **Enviar** o **Recibir**.
 * **Obligatorio**: permite al usuario registrar facturas junto con recibos o envíos. Business Central mostrará un cuadro de diálogo de confirmación con las opciones **Enviar y facturar** o **Recibir y facturar**.
 
-## <a name="effect-on-documents"></a><a name="effect-on-documents"></a><a name="effect-on-documents"></a><a name="effect-on-documents"></a>Efecto en documentos
+## <a name="effect-on-documents"></a>Efecto en documentos
 
 La siguiente tabla describe cómo las directivas de registro de facturas afectan a los documentos.
 
@@ -39,7 +39,7 @@ La siguiente tabla describe cómo las directivas de registro de facturas afectan
    > [!Note]
    > La configuración no afecta al registro de líneas de diario generales donde puede seleccionar **Factura** en el campo **Tipo de documento**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Registrar compras con facturas de compra y pedidos](purchasing-how-record-purchases.md)  

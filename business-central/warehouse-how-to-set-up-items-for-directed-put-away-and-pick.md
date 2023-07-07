@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 11/07/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a><a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a><a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a><a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurar productos y almacenes para ubicaciones y picking directos
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Configurar productos y almacenes para ubicaciones y picking directos
 
 Cuando un almacén está configurado para ubicación y picking directos, tiene disponible nueva funcionalidad que le ayuda a ejecutar los procesos de almacén de la forma más eficaz posible.  Para utilizar toda esta funcionalidad, tiene que proporcionar información adicional sobre los productos, que, a su vez, ayuda a que se realicen los cálculos necesarios para sugerir las formas más efectivas y eficaces de dirigir las actividades de almacén. 
 
-## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a><a name="to-set-up-an-item-for-directed-put-away-and-pick"></a><a name="to-set-up-an-item-for-directed-put-away-and-pick"></a><a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Para configurar productos para picking y ubicaciones directas
+## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Para configurar productos para picking y ubicaciones directas
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. Abra la ficha del producto que desee configurar para picking y ubicaciones directas.
@@ -25,7 +25,7 @@ Cuando un almacén está configurado para ubicación y picking directos, tiene d
 6. Seleccione la acción **Contenido ubicación**.
 7. En la página **Contenidos ubicación** puede definir el almacén y la ubicación con la que debe asociarse el producto. El campo **Genérico** no se utiliza cuando el almacén está configurado para ubicación y picking directos.  
 
-## <a name="to-start-using-directed-put-away-and-pick"></a><a name="to-start-using-directed-put-away-and-pick"></a><a name="to-start-using-directed-put-away-and-pick"></a><a name="to-start-using-directed-put-away-and-pick"></a>Para empezar a utilizar el almacenamiento y el picking dirigidos
+## <a name="to-start-using-directed-put-away-and-pick"></a>Para empezar a utilizar el almacenamiento y el picking dirigidos
 
 La ubicación y picking directos le ofrecen la posibilidad de tener acceso a características de configuración avanzada de almacén que pueden mejorar su eficacia y la fiabilidad de sus datos. Para utilizar esta funcionalidad, primero debe configurar varios parámetros en su almacén.  
 
@@ -46,7 +46,7 @@ También puede definir los códigos de clase de almacén, si el almacén trabaja
 
 Ahora está listo para configurar zonas, si lo desea. El uso de zonas reduce el número de campos que tiene que rellenar al configurar sus ubicaciones, porque las ubicaciones creadas en zonas heredan varias propiedades de la zona. Las zonas también ayudan a los empleados nuevos o temporales a orientarse en el almacén. Observe que el flujo se controla a través de las ubicaciones, por tanto es posible funcionar con las ubicaciones y una sola zona.  
 
-## <a name="to-set-up-a-zone-in-your-warehouse"></a><a name="to-set-up-a-zone-in-your-warehouse"></a><a name="to-set-up-a-zone-in-your-warehouse"></a><a name="to-set-up-a-zone-in-your-warehouse"></a>Para configurar una zona en el almacén
+## <a name="to-set-up-a-zone-in-your-warehouse"></a>Para configurar una zona en el almacén
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2. Seleccione el almacén donde desee configurar la zona y abra la ficha de almacén y elija la acción **Zonas**.  
@@ -61,7 +61,7 @@ El siguiente paso es definir ubicaciones. Para obtener más información, consul
 
 Además, deberá crear plantillas de ubicación y periodos de cuenta. Para obtener más información, vea [Configurar plantillas de almacenamiento](warehouse-how-to-set-up-put-away-templates.md).  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

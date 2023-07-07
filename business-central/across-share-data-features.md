@@ -8,31 +8,31 @@ ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
 ---
-# <a name="sharing-business-data-from-business-central"></a><a name="sharing-business-data-from-business-central"></a><a name="sharing-business-data-from-business-central"></a><a name="sharing-business-data-from-business-central"></a>Compartir datos comerciales desde Business Central
+# <a name="sharing-business-data-from-business-central"></a>Compartir datos comerciales desde Business Central
 
 La colaboración entre personas dentro y fuera de una organización forma parte integral de la mayoría de las empresas. [!INCLUDE[prod_short](includes/prod_short.md)] ofrece varias características para compartir datos comerciales, como una lista de registros, registros específicos o documentos. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Con todas estas características, el acceso a los datos está protegido por la licencia y los permisos de Business Central.
 
-## <a name="copying-a-link"></a><a name="copying-a-link"></a><a name="copying-a-link"></a><a name="copying-a-link"></a>Copiar un vínculo
+## <a name="copying-a-link"></a>Copiar un vínculo
 
 ![Admitido](media/check.png) Business Central Online ![Admitido](media/check.png) Business Central local
 
 Desde cualquier página, puede copiar la URL de la página, luego pegarla y distribuirla en otras formas de medios como correos electrónicos, chats de Teams o mensajes de texto. La manera más sencilla de copiar un vínculo es seleccionando **Compartir** > **Copiar vínculo** desde la parte superior de la página. Otra forma es copiar la URL directamente del cuadro de direcciones del navegador.
 
-### <a name="modify-the-page-link"></a><a name="modify-the-page-link"></a><a name="modify-the-page-link"></a><a name="modify-the-page-link"></a>Modificar el vínculo de la página
+### <a name="modify-the-page-link"></a>Modificar el vínculo de la página
 
 Después de copiar un vínculo, antes de enviarlo, puede modificar la URL para manipular lo que se muestra cuando se abre la página. Por ejemplo, puede agregar filtros o especificar una empresa diferente.
 
 Para obtener más información, consulte [URL de cliente web](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a><a name="about-filtered-lists"></a><a name="about-filtered-lists"></a><a name="about-filtered-lists"></a>Acerca de las listas filtradas
+### <a name="about-filtered-lists"></a>Acerca de las listas filtradas
 
 Con el panel de filtro en las páginas de lista, puede aplicar filtros para restringir los registros que se muestran en la lista. Si usa la acción **Copiar vínculo** o copia la URL desde el navegador, el vínculo de la página no incluirá los cambios de filtro. Los usuarios que abran el vínculo verán la colección completa. La forma de mantener el filtrado en un vínculo de página de colección es guardar primero la página filtrada como una **Vista**. A continuación, abra la vista y copie el vínculo desde ahí.
 
 Para obtener más información, consulte [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a><a name="sharing-to-teams"></a><a name="sharing-to-teams"></a><a name="sharing-to-teams"></a>Compartir con Teams
+## <a name="sharing-to-teams"></a>Compartir con Teams
 
 ![Admitido](media/check.png) Business Central Online ![No admitido](media/x-icon.png) Business Central local
 
@@ -40,7 +40,7 @@ Directamente desde la mayoría de las páginas de colección y páginas de detal
 
 Para obtener más información, consulte [Compartir registros y vínculos de páginas en Teams](across-working-with-teams.md).
 
-## <a name="sharing-through-onedrive"></a><a name="sharing-through-onedrive"></a><a name="sharing-through-onedrive"></a><a name="sharing-through-onedrive"></a>Compartir a través de OneDrive
+## <a name="sharing-through-onedrive"></a>Compartir a través de OneDrive
 
 ![Admitido](media/check.png) Business Central Online ![Admitido](media/check.png) Business Central local
 
@@ -48,7 +48,7 @@ Business Central facilita almacenar, administrar y compartir archivos con otras 
 
 Para obtener más información, consulte [Compartir archivos en OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a><a name="opening-in-excel"></a><a name="opening-in-excel"></a><a name="opening-in-excel"></a>Abrir en Excel
+## <a name="opening-in-excel"></a>Abrir en Excel
 
 ![Admitido](media/check.png) Business Central Online ![Admitido](media/check.png) Business Central local
 
@@ -56,7 +56,7 @@ Para páginas de lista y listas insertadas en una página, puede usar la acción
 
 Para obtener más información, consulte [Ver y editar en Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a><a name="sharing-rows-or-tables"></a><a name="sharing-rows-or-tables"></a><a name="sharing-rows-or-tables"></a>Compartir filas o tablas
+## <a name="sharing-rows-or-tables"></a>Compartir filas o tablas
 
 ![Admitido](media/check.png) Business Central Online ![Admitido](media/check.png) Business Central local
 
@@ -64,7 +64,7 @@ Puede compartir uno o varios registros en una lista. Simplemente seleccione el m
 
 Para obtener más información, consulte [Preguntas frecuentes sobre copiar y pegar](faq-copy-paste.yml).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Integración de Business Central y OneDrive](across-onedrive-overview.md)  
 [Administrar la integración de OneDrive con Business Central](admin-onedrive-integration.md)  

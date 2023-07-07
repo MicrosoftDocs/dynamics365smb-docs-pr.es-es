@@ -8,17 +8,17 @@ ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a><a name="financial-reports-and-analytics-in-business-central"></a><a name="financial-reports-and-analytics-in-business-central"></a><a name="financial-reports-and-analytics-in-business-central"></a>Informes y análisis financieros en Business Central
+# <a name="financial-reports-and-analytics-in-business-central"></a>Informes y análisis financieros en Business Central
 
 Financial Reporting en [!INCLUDE [prod_short](includes/prod_short.md)] aporta a los profesionales financieros y de la empresa la capacidad de crear, mantener, implementar y ver estados financieros. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes. [!INCLUDE [prod_short](includes/prod_short.md)] incluye diversos informes, funciones de seguimiento y herramientas para ayudar a los auditores o controladores que son responsables de informar al departamento de finanzas. Financial Reporting incluye soporte para dimensiones, por lo que los segmentos o dimensiones de la cuenta están disponibles de inmediato. No se necesitan otras herramientas ni pasos de configuración.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="reports"></a><a name="reports"></a><a name="reports"></a><a name="reports"></a>Informes
+## <a name="reports"></a>Informes
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks"></a><a name="tasks"></a><a name="tasks"></a><a name="tasks"></a>Tareas
+## <a name="tasks"></a>Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
@@ -30,9 +30,9 @@ Los siguientes artículos describen algunas de las tareas clave para analizar el
 * [Crear informes con XBRL](bi-create-reports-with-xbrl.md)  
 * [Gestionar la intención de acceso a la base de datos](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/create-financial-reports-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Crear presupuesto coste](finance-create-cost-budgets.md)  
 [Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)  

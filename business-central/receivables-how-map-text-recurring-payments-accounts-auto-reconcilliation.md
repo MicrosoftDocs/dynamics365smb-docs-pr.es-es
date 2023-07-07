@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Asignar texto en pagos periódicos a cuentas para conciliación automática
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Asignar texto en pagos periódicos a cuentas para conciliación automática
 
 En la página **Asignación de texto a cuenta**, que se abre desde la página **Diario de conciliación de pagos**, puede configurar asignaciones entre el texto de los pagos y las cuentas de débito, crédito y saldo específicas para que los pagos se contabilicen en las cuentas específicas cuando contabilices el diario de conciliación de pagos.
 
@@ -24,7 +24,7 @@ Los pagos registrados según la asignación de texto a cuenta no se aplican a mo
 
 En una línea del diario de conciliación de pagos en la que el pago se estableció en contabilizarse según la asignación de texto a cuenta, el campo **Confianza de la correspondencia** contiene **Asignación de texto a cuenta: Alta** y los campos **Tipo de cuenta** y **N.º cuenta** contienen las cuentas asociadas.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Para asignar texto en pagos periódicos a cuentas para conciliación automática
+## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Para asignar texto en pagos periódicos a cuentas para conciliación automática
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de conciliación de pagos** y luego elija el enlace relacionado.
 2. Abra un diario de conciliación de pagos. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ En una línea del diario de conciliación de pagos en la que el pago se establec
 
 La próxima vez que importe un archivo de un extracto bancario o seleccione la función **Liquidar automáticamente** de la página **Diario de conciliación de pagos**, las líneas de diario de los pagos que contienen el texto asignado especificado, incluirán las cuentas asignadas en los campos **Tipo de cuenta** y **N.º cuenta**. El campo **Confianza de la correspondencia** contendrá **Asignación de texto a cuenta: Alta** Esto es así siempre que la función de liquidación automática solo pueda proporcionar una confianza de correspondencia **Baja** o **Media**.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a><a name="example-text-to-account-mapping-for-bank-fees"></a>Ejemplo: asignación de texto a cuenta para comisiones bancarias
+## <a name="example-text-to-account-mapping-for-bank-fees"></a>Ejemplo: asignación de texto a cuenta para comisiones bancarias
 
 Para registrar siempre los gastos relacionados con las tarifas de un banco específico, MyBank, en la cuenta de contabilidad para comisiones y tarifas bancarias (cuenta 60400), rellene una línea en la página **Asignación de texto a cuenta** de la siguiente manera.
 
@@ -52,9 +52,9 @@ Para registrar siempre los gastos relacionados con las tarifas de un banco espec
 | --- | --- | --- | --- | --- |
 | MyBank |EN BLANCO |60400|Cuenta |EN BLANCO |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  

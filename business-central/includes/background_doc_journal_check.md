@@ -4,7 +4,7 @@ ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a><a name="check-data-in-documents-and-journals-while-you-work"></a><a name="check-data-in-documents-and-journals-while-you-work"></a><a name="check-data-in-documents-and-journals-while-you-work"></a>Comprobar datos en documentos y diarios mientras trabaja
+## <a name="check-data-in-documents-and-journals-while-you-work"></a>Comprobar datos en documentos y diarios mientras trabaja
 
 En el lanzamiento de versiones 1 de 2022, presentamos una característica que validará los datos que introduzca en documentos y diarios mientras los introduce. Por ejemplo, la activación de esta característica puede ayudar a evitar errores en la introducción de datos o no poder registrar algo debido a un error. 
 

@@ -11,7 +11,7 @@ ms.search.form: '1450, 1451, 1452, 1453, 1454, 1458, 1460,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a><a name="the-envestnet-yodlee-bank-feeds-extension"></a><a name="the-envestnet-yodlee-bank-feeds-extension"></a><a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión Envestnet Yodlee Bank Feeds
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Extensión Envestnet Yodlee Bank Feeds
 
 Para conciliar pagos realizados en sus bancos rápidamente, el servicio Envestnet Yodlee Bank Feeds permite vincular su cuenta bancaria del sistema a su cuenta bancaria en línea. Esto significa que el último extracto bancario se introduce manual o automáticamente en el diario de conciliación de pagos, lo que garantiza que siempre procesará sus últimos pagos con el mínimo de errores.
 
@@ -34,13 +34,13 @@ El servicio Envestnet Yodlee Bank Feeds proporciona las siguientes ventajas:
 * Admite fuentes de banco manuales o automáticas.
 * Habilita la externalización de la conciliación de pagos a un contable proporcionando acceso a los extractos bancarios.
 
-## <a name="available-bank-feeds"></a><a name="available-bank-feeds"></a><a name="available-bank-feeds"></a><a name="available-bank-feeds"></a>Fuentes de banco disponibles
+## <a name="available-bank-feeds"></a>Fuentes de banco disponibles
 
 Puede comprobar si un banco es compatible configurando y conectándose al servicio Envestnet Yodlee Bank Feeds. El banco aparecerá en la lista si es compatible con Envestnet Yodlee.
 
 Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Liquidación de pagos automáticamente y conciliación de bancos](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

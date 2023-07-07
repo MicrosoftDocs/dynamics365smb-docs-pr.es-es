@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="setting-up-sales"></a><a name="setting-up-sales"></a><a name="setting-up-sales"></a><a name="setting-up-sales"></a>Configuración de ventas
+# <a name="setting-up-sales"></a>Configuración de ventas
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
 
 Debe definir la configuración general en la página **Ventas y cobros**, como qué documentos de ventas se requieren, cómo se registran sus valores y el tipo de líneas que se crearán de forma predeterminada. Esta configuración general se efectúa normalmente una vez durante la implementación inicial.
@@ -33,9 +33,9 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 |Introducir información acerca de los distintos proveedores de transporte empleados, incluyendo un vínculo a su servicio de seguimiento del envío.|[Configurar transportistas](sales-how-to-set-up-shipping-agents.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/trade-get-started-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

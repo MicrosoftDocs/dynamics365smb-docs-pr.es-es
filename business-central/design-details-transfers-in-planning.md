@@ -9,7 +9,7 @@ ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ---
-# <a name="design-details-transfers-in-planning"></a><a name="design-details-transfers-in-planning"></a><a name="design-details-transfers-in-planning"></a><a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
+# <a name="design-details-transfers-in-planning"></a>Detalles de diseño: Transferencias en planificación
 
 Los pedidos de transferencia también son un origen de suministro al trabajar en el nivel de UA. Al usar varias ubicaciones (almacenes), el sistema de reposición de UA se puede configurar en Transferencia, lo que implica que se realiza la reposición de la ubicación mediante la transferencia de mercancías desde otra ubicación. En una situación con más almacenes, es posible que tenga una cadena de transferencias. El suministro a la ubicación VERDE se transfiere desde AMARILLO, el suministro a AMARILLO se transfiere desde ROJO, y así sucesivamente. En el principio de la cadena hay un sistema de reposición de **Or. prod.** o **Compra**.  
 
@@ -27,7 +27,7 @@ Si la demanda cambia, podría causar un efecto dominó a lo largo de la cadena. 
 
 ![Ejemplo de equilibrio entre la oferta y la demanda en transferencias.](media/nav_app_supply_planning_7_transfers2.png "Ejemplo de equilibrio entre la oferta y la demanda en transferencias")  
 
-## <a name="why-is-a-transfer-a-special-case"></a><a name="why-is-a-transfer-a-special-case"></a><a name="why-is-a-transfer-a-special-case"></a><a name="why-is-a-transfer-a-special-case"></a>¿Por qué la transferencia es un caso especial?
+## <a name="why-is-a-transfer-a-special-case"></a>¿Por qué la transferencia es un caso especial?
 
 Los pedidos de transferencia son similares a los demás pedidos, como los pedidos de compra o producción. No obstante, lo que ocurre en un segundo plano es diferente.  
 
@@ -37,7 +37,7 @@ Una diferencia consiste en que una línea de transferencia representa tanto la d
 
 Cuando [!INCLUDE [prod_short](includes/prod_short.md)] cambia la parte de suministro de la transferencia, debe realizar un cambio similar en la parte de demanda.  
 
-## <a name="transfers-are-dependent-demand"></a><a name="transfers-are-dependent-demand"></a><a name="transfers-are-dependent-demand"></a><a name="transfers-are-dependent-demand"></a>Las transferencias dependen de la demanda
+## <a name="transfers-are-dependent-demand"></a>Las transferencias dependen de la demanda
 
 La relación de la oferta y la demanda es similar a la de los componentes en las líneas de pedidos de producción. La diferencia radica en que los componentes de las líneas de pedido de producción están en el siguiente nivel de planificación y tienen un producto diferente. Las dos partes de la transferencia están en el mismo nivel para el mismo producto.  
 
@@ -47,7 +47,7 @@ A menos que la flexibilidad de planificación sea Ninguna, una línea de transfe
 
 En el procedimiento de planificación, la demanda de transferencia debe tenerse en consideración solo después de que el sistema de planificación haya procesado el lado de la oferta. Antes de que se produzca ese procesamiento, no se conoce la demanda real. La secuencia de modificaciones es importante para los pedidos de transferencia.  
 
-## <a name="planning-sequence"></a><a name="planning-sequence"></a><a name="planning-sequence"></a><a name="planning-sequence"></a>Secuencia de planificación
+## <a name="planning-sequence"></a>Secuencia de planificación
 
 La siguiente imagen muestra un ejemplo de una cadena de transferencias.  
 
@@ -59,7 +59,7 @@ En este ejemplo, el sistema de planificación empieza con la demanda del cliente
 
 ![Planificación de suministros con transferencias.](media/nav_app_supply_planning_7_transfers5.png "Planificación de suministros con transferencias")  
 
-## <a name="transfer-level-code"></a><a name="transfer-level-code"></a><a name="transfer-level-code"></a><a name="transfer-level-code"></a>Código de nivel de transferencia
+## <a name="transfer-level-code"></a>Código de nivel de transferencia
 
 El código de nivel de transferencia del SKU determina la secuencia en que el sistema de planificación procesa los almacenes.  
 
@@ -71,7 +71,7 @@ El código de nivel de transferencia será 0 para las SKU con pedido de compra o
 
 Al actualizar un SKU, el sistema de planificación detecta los sistemas de reposición de los SKU tienen referencias circulares.  
 
-## <a name="planning-transfers-without-sku"></a><a name="planning-transfers-without-sku"></a><a name="planning-transfers-without-sku"></a><a name="planning-transfers-without-sku"></a>Transferencias de planificación sin SKU
+## <a name="planning-transfers-without-sku"></a>Transferencias de planificación sin SKU
 
 Para configuraciones de almacén menos avanzadas, puede usar almacenes y realizar transferencias manuales entre almacenes, incluso si no usa SKU. Por ejemplo, la transferencia puede cubrir un pedido de ventas en ese almacén. El sistema de planificación reacciona a los cambios de la demanda.  
 
@@ -81,7 +81,7 @@ Para las transferencias manuales, el sistema de planificación analiza los pedid
 
 Si hay varias transferencias a un almacén, el primer pedido de transferencia define la dirección de la planificación. Las transferencias en dirección opuesta se cancelarán.  
 
-## <a name="changing-quantity-with-reservations"></a><a name="changing-quantity-with-reservations"></a><a name="changing-quantity-with-reservations"></a><a name="changing-quantity-with-reservations"></a>Cambio de cantidad con reservas
+## <a name="changing-quantity-with-reservations"></a>Cambio de cantidad con reservas
 
 Al cambiar las cantidades de una oferta, el sistema de planificación tiene en cuenta las reservas. La cantidad reservada representa el límite inferior de cuánto reducir la oferta.  
 
@@ -96,7 +96,7 @@ Aunque en el lado entrante pueda haber un exceso de oferta, no puede reducir la 
 
 ![Reservas en planificación de transferencia.](media/nav_app_supply_planning_7_transfers8.png "Reservas en planificación de transferencia")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a><a name="changing-quantity-in-a-transfer-chain"></a><a name="changing-quantity-in-a-transfer-chain"></a><a name="changing-quantity-in-a-transfer-chain"></a>Cambio de cantidad en un cadena de transferencia
+## <a name="changing-quantity-in-a-transfer-chain"></a>Cambio de cantidad en un cadena de transferencia
 
 Este es un ejemplo de lo que sucede cuando cambia una cantidad en un cambio de transferencia.
 
@@ -118,7 +118,7 @@ Cuando el sistema de planificación se ejecuta de nuevo, debe eliminar el exceso
 
 La transferencia ROSA-ROJA se ha reducido a 22. La parte de entrada de la transferencia AZUL-ROSA no está reservada, pero la parte de salida sí. La reserva significa que no se puede reducir la cantidad por debajo de 27.  
 
-## <a name="lead-time-calculation"></a><a name="lead-time-calculation"></a><a name="lead-time-calculation"></a><a name="lead-time-calculation"></a>Cálculo del plazo
+## <a name="lead-time-calculation"></a>Cálculo del plazo
 
 Al calcular la fecha de vencimiento de un pedido de transferencia, se tienen en cuenta varios tipos de plazos.  
 
@@ -149,7 +149,7 @@ El ejemplo muestra los siguientes cálculos:
 * Fecha inicial + Tiempo de envío = Fecha final  
 * Fecha final + Tiempo manip. alm. entrada = Fecha recepción  
 
-## <a name="safety-lead-time"></a><a name="safety-lead-time"></a><a name="safety-lead-time"></a><a name="safety-lead-time"></a>Plazo de seguridad
+## <a name="safety-lead-time"></a>Plazo de seguridad
 
 El campo **Plazo seguridad genérico** de la página **Configuración fabricación** y el campo **Plazo de seguridad** de la página **Ficha producto** no están incluidos en el cálculo del pedido de transferencia. Sin embargo, el plazo de seguridad influye en el plan total. El plazo de seguridad afecta al pedido de reabastecimiento (compra o producción) al comienzo de la cadena de transferencia. Ese es el punto donde se colocaron los productos en el almacén desde el que se transferirán.  
 
@@ -159,7 +159,7 @@ En la línea de la orden de producción, la Fecha final + Plazo de seguridad + T
 
 En la línea del pedido de compra, la Fecha recep. planificada + Plazo de seguridad + Tiempo manip. alm. entrada = Fecha recepción esperada.  
 
-## <a name="reschedule"></a><a name="reschedule"></a><a name="reschedule"></a><a name="reschedule"></a>Reprogramar
+## <a name="reschedule"></a>Reprogramar
 
 Al reprogramar una línea de transferencia, el sistema de planificación buscar la parte de salida y modifica la fecha y hora.
 
@@ -170,11 +170,11 @@ Al reprogramar una línea de transferencia, el sistema de planificación buscar 
 
 Al modificar la fecha de vencimiento de una línea de transferencia, el plazo se debe calcular para actualizar la parte de salida de la transferencia.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains"></a><a name="serial-and-lot-numbers-in-transfer-chains"></a><a name="serial-and-lot-numbers-in-transfer-chains"></a><a name="serial-and-lot-numbers-in-transfer-chains"></a>Números de serie y de lote en cadenas de transferencias
+## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Números de serie y de lote en cadenas de transferencias
 
 Si la demanda usa números de serie o lote y se ejecuta el motor de planificación, se crearán pedidos de transferencia. Para obtener más información acerca de este concepto, consulte Atributos de producto. Sin embargo, si se eliminan números de serie o lote de la demanda, los pedidos de transferencia seguirán usando los números de serie y de lote, y la planificación no los tendrá en cuenta (no eliminados).  
 
-## <a name="order-to-order-links"></a><a name="order-to-order-links"></a><a name="order-to-order-links"></a><a name="order-to-order-links"></a>Vínculos de pedido a pedido
+## <a name="order-to-order-links"></a>Vínculos de pedido a pedido
 
 En este ejemplo, el SKU AZUL está configurado con una directiva de reaprovisionamiento **Pedido**. Los SKU ROSA y ROJO tienen la directiva de reaprovisionamiento **Lote a lote**. La creación de un pedido de venta de 27 en el almacén ROJO conduce a una cadena de transferencias. La última transferencia está en el almacén AZUL y está reservada con un enlace. En este ejemplo, las reservas no son reservas firmes creadas por el planificador en el almacén ROSA. El sistema de planificación crea los enlaces. La diferencia importante es que el sistema de planificación puede cambiar esto último.  
 
@@ -182,7 +182,7 @@ En este ejemplo, el SKU AZUL está configurado con una directiva de reaprovision
 
 Si la demanda cambia de 27 a 22, el sistema de planificación bajará la cantidad a lo largo de la cadena. La reserva vinculante también se reducirá.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)   
 [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)   

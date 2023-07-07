@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a><a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a><a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a><a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Guía: Utilice la planificación de pedidos para crear y reservar suministros
+# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Guía: Utilice la planificación de pedidos para crear y reservar suministros
 
 En este artículo, lo guiaremos a través de los pasos para usar los datos de demostración de Contoso Coffee en la planificación de pedidos.
 
-## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Caso
+## <a name="scenario"></a>Caso
 
 Usted es el planificador de producción de Contoso Coffee. Creó una orden de producción para 100 unidades del artículo **SP-SCM1009, Airpot** y desea planificar subensamblajes para este pedido. La planificación de pedidos se utiliza para crear la orden de fabricación necesaria para el suministro. Debido a que está creando la orden de producción para cumplir con los requisitos de una orden específica, decide reservar la salida de la orden de producción.  
 
-## <a name="steps"></a><a name="steps"></a><a name="steps"></a><a name="steps"></a>Pasos
+## <a name="steps"></a>Pasos
 
 1. Cree la nueva orden de producción liberada para 100 unidades del artículo **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ Usted es el planificador de producción de Contoso Coffee. Creó una orden de pr
 
 Eso es todo para la planificación de pedidos en [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Introducción a datos de demostración de Contoso Coffee](../contoso-coffee-intro.md)  
 [Sobre los pedidos de producción](../../production-about-production-orders.md)  

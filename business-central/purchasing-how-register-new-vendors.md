@@ -11,7 +11,7 @@ ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-vendors"></a><a name="register-new-vendors"></a><a name="register-new-vendors"></a><a name="register-new-vendors"></a>Permite registrar nuevos proveedores
+# <a name="register-new-vendors"></a>Permite registrar nuevos proveedores
 
 Los proveedores proporcionan los productos que usted vende. Cada proveedor del que compra debe estar registrado con una ficha de proveedor.
 
@@ -22,7 +22,7 @@ Las fichas de proveedor contienen la información necesaria para comprar product
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## <a name="adding-new-vendors"></a><a name="adding-new-vendors"></a><a name="adding-new-vendors"></a><a name="adding-new-vendors"></a>Agregar nuevos proveedores
+## <a name="adding-new-vendors"></a>Agregar nuevos proveedores
 
 Puede agregar nuevos proveedores manualmente, completando la página **Ficha de proveedor**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear plantillas para diferentes tipos de perfiles de proveedores. El uso de plantillas ahorra tiempo al agregar nuevos proveedores y ayuda a garantizar que la información sea correcta en todo momento.
 
@@ -40,7 +40,7 @@ Las direcciones Remitir a se utilizan al imprimir cheques para pagar a los prove
 
 Las direcciones de envío se especifican en las páginas Ficha proveedor y en la ficha desplegable Envío y pagos en las órdenes de compra y las facturas. Cuando crea líneas del diario de pago usando las acciones Pagar a proveedor o Crear pago de la página de lista de proveedores o la página Ficha proveedor, o la acción Liquidar movimientos de un diario de pago, se asigna el código de recepción de remisión en el movimiento del proveedor. Puede sobrescribir este valor.
 
-### <a name="to-create-a-new-vendor"></a><a name="to-create-a-new-vendor"></a><a name="to-create-a-new-vendor"></a><a name="to-create-a-new-vendor"></a>Para crear un nuevo proveedor
+### <a name="to-create-a-new-vendor"></a>Para crear un nuevo proveedor
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -51,7 +51,7 @@ El proveedor estará registrado y la ficha de proveedor está lista para usarse 
 
 Si desea usar esta ficha de proveedor como plantilla cuando cree nuevas fichas de proveedor, puede guardarla. Obtenga más información en la sección [Para guardar la ficha de proveedor como plantilla](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-and-editing-vendor-information"></a><a name="deleting-and-editing-vendor-information"></a><a name="deleting-and-editing-vendor-information"></a><a name="deleting-and-editing-vendor-information"></a>Eliminar y editar la información del proveedor
+### <a name="deleting-and-editing-vendor-information"></a>Eliminar y editar la información del proveedor
 
 Puede editar la información de las fichas de proveedor en cualquier momento. Sin embargo, si ha publicado una transacción para un proveedor, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la auditoría. Para eliminar fichas de proveedores con movimientos, póngase en contacto con su socio de Microsoft para hacerlo a través del código.
 
@@ -61,7 +61,7 @@ Puede editar la información de las fichas de proveedor en cualquier momento. Si
 > [!TIP]
 > Puede agregar direcciones alternativas en las tarjetas de proveedores eligiendo la acción **Direcciones de pedidos**.
 
-## <a name="to-save-the-vendor-card-as-a-template"></a><a name="to-save-the-vendor-card-as-a-template"></a><a name="to-save-the-vendor-card-as-a-template"></a><a name="to-save-the-vendor-card-as-a-template"></a>Para guardar la ficha de proveedor como una plantilla
+## <a name="to-save-the-vendor-card-as-a-template"></a>Para guardar la ficha de proveedor como una plantilla
 
 1. En la página **Ficha proveedor**, seleccione la acción **Guardar como plantilla**. La página **Plantilla proveedor** se abre mostrando la ficha de proveedor como plantilla.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -70,9 +70,9 @@ Puede editar la información de las fichas de proveedor en cualquier momento. Si
 5. Cuando haya finalizado la nueva plantilla de proveedor, seleccione **Aceptar**.  
    La plantilla de proveedor se agrega a la lista de plantillas de proveedor, de modo que puede usarla para crear nuevas fichas de proveedor.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada.
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Combinar registros duplicados](sales-how-merge-duplicate-records.md)  
 [Crear numeración](ui-create-number-series.md)  

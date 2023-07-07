@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# <a name="walkthrough-tracing-seriallot-numbers"></a><a name="walkthrough-tracing-seriallot-numbers"></a><a name="walkthrough-tracing-seriallot-numbers"></a><a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Tutorial: seguimiento de números de serie/lote
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -20,7 +20,7 @@ La primera tarea en la gestión de defectos es investigar de dónde procedían l
 
 La segunda tarea en la gestión de defectos es determinar si los productos supervisados están planificados en documentos pendientes, como pedidos de venta no registrados o en diarios de consumo. Este trabajo se realiza en la página **Buscar movimientos**. Puede utilizar la función Buscar movimientos para buscar todos los tipos de registros de base de datos.  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Acerca de este tutorial
+## <a name="about-this-walkthrough"></a>Acerca de este tutorial
 
 En este tutorial se muestra el modo de identificar qué productos son defectuosos, qué proveedor los ha suministrado y si se han usado, para que los pedidos correspondientes se puedan detener o retirar.  
 
@@ -30,7 +30,7 @@ En este tutorial se ilustran las siguientes tareas:
 - Seguimiento desde el origen hasta el uso.  
 - Búsqueda de todos los registros actuales que contienen el número de serie/lote del que se ha realizado un seguimiento.  
 
-## <a name="roles"></a><a name="roles"></a><a name="roles"></a><a name="roles"></a>Funciones
+## <a name="roles"></a>Funciones
 
 En este tutorial, se demuestran las tareas realizadas por los siguientes roles de usuario:  
 
@@ -39,14 +39,14 @@ En este tutorial, se demuestran las tareas realizadas por los siguientes roles d
 - Procesador de pedidos  
 - Agente de compras  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 Para completar este tutorial, necesitará:  
 
 - La empresa de [!INCLUDE[prod_short](includes/prod_short.md)].  
 <!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
-## <a name="story"></a><a name="story"></a><a name="story"></a><a name="story"></a>Historia
+## <a name="story"></a>Historia
 
 Ricardo, el controlador de calidad, está trabajando en una devolución de venta del producto 1002, Bicicleta de carreras. El cliente, Sellafrio S.L., se ha quejado de que el cuadro tiene costuras de soldadura agrietadas. Los técnicos de control de calidad han confirmado que el cuadro de la bicicleta devuelta está defectuoso. El controlador de calidad debe determinar ahora:  
 
@@ -59,7 +59,7 @@ Los resultados de esta primera tarea de seguimiento del productos identifican lo
 
 Las dos primeras tareas de gestión de defectos se realizan en la página **Seguimiento productos**. La última tarea se realiza en la página **Buscar movimientos**, en integración con la página **Seguimiento de productos**.  
 
-## <a name="prepare-sample-data"></a><a name="prepare-sample-data"></a><a name="prepare-sample-data"></a><a name="prepare-sample-data"></a>Preparar datos de ejemplo
+## <a name="prepare-sample-data"></a>Preparar datos de ejemplo
 
 Debe crear los siguientes productos nuevos:  
 
@@ -68,7 +68,7 @@ Debe crear los siguientes productos nuevos:
 
 A continuación, deberá crear diversas transacciones de compra, producción y venta con los dos productos.  
 
-### <a name="to-create-the-items"></a><a name="to-create-the-items"></a><a name="to-create-the-items"></a><a name="to-create-the-items"></a>Para crear los productos
+### <a name="to-create-the-items"></a>Para crear los productos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -105,7 +105,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, debe comprar cuadros de bicicletas de Custom Metals Incorporated.  
 
-### <a name="to-purchase-components"></a><a name="to-purchase-components"></a><a name="to-purchase-components"></a><a name="to-purchase-components"></a>Para comprar componentes
+### <a name="to-purchase-components"></a>Para comprar componentes
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -136,7 +136,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, fabrique dos bicicletas de carreras, NS1 y NS2.  
 
-### <a name="to-produce-end-items"></a><a name="to-produce-end-items"></a><a name="to-produce-end-items"></a><a name="to-produce-end-items"></a>Para producir los productos finales
+### <a name="to-produce-end-items"></a>Para producir los productos finales
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. lanzadas** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione el grupo **Nuevo**.  
@@ -183,7 +183,7 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     A continuación, venda bicicletas de carreras. Primero venda la bicicleta de carreras con NS1 a Selangorian Ltd.  
 
-### <a name="to-sell-the-end-items"></a><a name="to-sell-the-end-items"></a><a name="to-sell-the-end-items"></a><a name="to-sell-the-end-items"></a>Para vender los productos finales
+### <a name="to-sell-the-end-items"></a>Para vender los productos finales
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2.  Elija la acción **Nuevo** y, a continuación, cree un pedido de venta rellenando los campos siguientes.  
@@ -223,11 +223,11 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     Así finaliza la preparación de datos para demostrar las características Seguimiento de productos y Buscar movimientos.  
 
-## <a name="tracing-from-usage-to-origin"></a><a name="tracing-from-usage-to-origin"></a><a name="tracing-from-usage-to-origin"></a><a name="tracing-from-usage-to-origin"></a>Seguimiento desde el uso hasta el origen
+## <a name="tracing-from-usage-to-origin"></a>Seguimiento desde el uso hasta el origen
 
  En el departamento de ventas, el controlador de calidad averigua que la bicicleta de carrera devuelta, producto 1002, tiene el número de serie NS1. Con esta información básica, pueden determinar dónde se utilizó por última vez la bicicleta de carreras terminada, en este caso, en el albarán de venta a Selangorian Ltd. A continuación, el controlador de calidad debe realizar un seguimiento hasta llegar al origen para establecer de qué número de lote procedía el cuadro de carreras defectuoso y qué proveedor lo suministró.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a><a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a><a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a><a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Para determinar qué lote incluía el cuadro defectuoso y quién lo suministró
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Para determinar qué lote incluía el cuadro defectuoso y quién lo suministró
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Seguimiento de productos**, y luego elija el enlace relacionado.  
 2.  En la página **Seguimiento productos**, escriba **NS1** en el campo **Filtro nº serie** y, a continuación, **1002** en el campo **Filtro producto**.  
@@ -254,13 +254,13 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
      De este modo finaliza la primera tarea de gestión de defectos mediante la página **Seguimiento productos**. El controlador de calidad ahora debe determinar si otros documentos registrados han procesado cuadros de bicicleta de LOT1.  
 
-## <a name="tracing-from-origin-to-usage"></a><a name="tracing-from-origin-to-usage"></a><a name="tracing-from-origin-to-usage"></a><a name="tracing-from-origin-to-usage"></a>Seguimiento desde el origen hasta el uso
+## <a name="tracing-from-origin-to-usage"></a>Seguimiento desde el origen hasta el uso
 
  El controlador de calidad ha establecido que los cuadros de bicicletas defectuosos procedían de LOT1. Ahora deben buscar otras bicicletas de carrera que contengan cuadros de bicicleta del lote defectuoso, para que se puedan detener o recuperar.  
 
  Un modo de preparar esta tarea de seguimiento en la página **Seguimiento productos** es introducir manualmente LOT1 en el campo de **Filtro nº lote** y 2000 en el campo de **Filtro producto**. Sin embargo, este tutorial utilizará la función de **Realizar seguimiento opuestos - desde línea**.  
 
-### <a name="to-find-all-usage-of-the-faulty-lot"></a><a name="to-find-all-usage-of-the-faulty-lot"></a><a name="to-find-all-usage-of-the-faulty-lot"></a><a name="to-find-all-usage-of-the-faulty-lot"></a>Para buscar todos los usos del lote defectuoso
+### <a name="to-find-all-usage-of-the-faulty-lot"></a>Para buscar todos los usos del lote defectuoso
 
 1.  En la página **Seguimiento productos**, seleccione la línea del albarán de compra, la última línea de seguimiento, elija **Realizar seguimiento opuestos - desde línea**.  
 
@@ -278,11 +278,11 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
     De este modo finaliza la segunda tarea de gestión de defectos mediante la página **Seguimiento productos**. Dado que la página **Seguimiento de productos** se basa únicamente en los movimientos registrados, el controlador de calidad debe continuar hasta la página **Buscar movimientos** para asegurarse de que LOT1 no se utiliza en documentos no registrados.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a><a name="finding-all-records-of-a-seriallot-number"></a><a name="finding-all-records-of-a-seriallot-number"></a><a name="finding-all-records-of-a-seriallot-number"></a>Búsqueda de un número de serie/lote en todos los registros
+## <a name="finding-all-records-of-a-seriallot-number"></a>Búsqueda de un número de serie/lote en todos los registros
 
  Con la página **Seguimiento productos**, el controlador de calidad ha averiguado que LOT1 contenía los cuadros de bicicletas defectuosos, qué proveedor los suministró y en qué transacción registrada se han usado. Ahora deben determinar si aparece LOT1 en algún documento abierto mediante la integración del resultado del seguimiento en la página **Buscar movimientos**, donde puede realizar una búsqueda en todos los registros de la base de datos.  
 
-### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a><a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a><a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a><a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Para buscar todas las incidencias de LOT1 en registros no registrados, como pedidos pendientes
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Para buscar todas las incidencias de LOT1 en registros no registrados, como pedidos pendientes
 
 1.  En la página **Seguimiento productos**, seleccione en la primera línea de seguimiento, el albarán de compras de LOT1.  
 2.  Seleccione la acción **Buscar movimientos**.  
@@ -297,9 +297,9 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
  De este modo finaliza el tutorial sobre cómo usar la página **Buscar movimientos** para la gestión de defectos en la integración con la página **Seguimiento de productos**.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/use-serial-lot-numbers/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/use-serial-lot-numbers/) relacionada
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  

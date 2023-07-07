@@ -10,34 +10,34 @@ ms.search.keywords: 'Outlook, Microsoft 365, inbox, business inbox, WebView2, Ed
 ms.date: 05/12/2021
 ms.author: jswymer
 ---
-# <a name="optimizing-outlook-for-your-business-inbox"></a><a name="optimizing-outlook-for-your-business-inbox"></a><a name="optimizing-outlook-for-your-business-inbox"></a><a name="optimizing-outlook-for-your-business-inbox"></a>Optimizar Otulook para la bandeja de entrada de empresa
+# <a name="optimizing-outlook-for-your-business-inbox"></a>Optimizar Otulook para la bandeja de entrada de empresa
 
 Este artículo analiza las cosas que puede hacer para obtener la mejor experiencia posible con la bandeja de entrada de empresa en Microsoft Outlook. 
 
-## <a name="update-outlook"></a><a name="update-outlook"></a><a name="update-outlook"></a><a name="update-outlook"></a>Actualizar Outlook
+## <a name="update-outlook"></a>Actualizar Outlook
 
 Actualice a la versión 2012 de Outlook o la más reciente.
 
 > [!NOTE]
 > Si no puede actualizar Outlook a la versión 2012 o posterior, asegúrese de actualizar al menos a la versión 1905. Esto evita que el complemento de Outlook se ejecute utilizando componentes heredados de Internet Explorer
 
-### <a name="how-to-check-your-version-of-outlook"></a><a name="how-to-check-your-version-of-outlook"></a><a name="how-to-check-your-version-of-outlook"></a><a name="how-to-check-your-version-of-outlook"></a>Cómo verificar su versión de Outlook
+### <a name="how-to-check-your-version-of-outlook"></a>Cómo verificar su versión de Outlook
 
 Si utiliza Office 2019 o Microsoft 365, siga esta guía de soporte de Microsoft para verificar qué versión de Outlook tiene:  
 
 [Acerca de Office: ¿Qué versión de Office estoy usando?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
-### <a name="how-to-update-outlook"></a><a name="how-to-update-outlook"></a><a name="how-to-update-outlook"></a><a name="how-to-update-outlook"></a>Cómo actualizar Outlook
+### <a name="how-to-update-outlook"></a>Cómo actualizar Outlook
 
 Para actualizar Outlook a la última versión, siga esta guía de soporte de Microsoft o comuníquese con su administrador:
 
 [Instalar actualizaciones de Office](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview2"></a><a name="install-microsoft-edge-webview2"></a><a name="install-microsoft-edge-webview2"></a><a name="install-microsoft-edge-webview2"></a>Instalar Microsoft Edge WebView2
+## <a name="install-microsoft-edge-webview2"></a>Instalar Microsoft Edge WebView2
 
 Asegúrese de que Microsoft Edge WebView2 está instalado en su dispositivo.
 
-### <a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a><a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a><a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a><a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a>Cómo comprobar si Microsoft Edge WebView2 está instalado
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a>Cómo comprobar si Microsoft Edge WebView2 está instalado
 
 Para comprobar si Microsoft Edge WebView2 está instalado en un ordenador, siga los siguientes pasos:
 
@@ -52,7 +52,7 @@ Desde el Panel de control:
 2. Seleccione **Programas** > **Programas y características**.
 3. En el cuadro de búsqueda, escriba **WebView2**. Si Microsoft Edge WebView2 está instalado, verá una entrada llamada **Tiempo de ejecución de Microsoft Edge WebView2**.
 
-### <a name="how-to-install-microsoft-edge-webview2"></a><a name="how-to-install-microsoft-edge-webview2"></a><a name="how-to-install-microsoft-edge-webview2"></a><a name="how-to-install-microsoft-edge-webview2"></a>Cómo instalar Microsoft Edge WebView2
+### <a name="how-to-install-microsoft-edge-webview2"></a>Cómo instalar Microsoft Edge WebView2
 
 1. Utilice el navegador para ir a [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Seleccione **Descargar**.
@@ -62,11 +62,11 @@ Desde el Panel de control:
 > [!NOTE]
 > Su organización puede tener restricciones sobre qué componentes se pueden instalar en su dispositivo. Póngase en contacto con su administrador para obtener ayuda.
 
-## <a name="use-a-supported-browser"></a><a name="use-a-supported-browser"></a><a name="use-a-supported-browser"></a><a name="use-a-supported-browser"></a>Usar un explorador admitido
+## <a name="use-a-supported-browser"></a>Usar un explorador admitido
 
 Considere la posibilidad de utilizar Outlook para la web en uno de los navegadores compatibles con Business Central. Para obtener una lista de navegadores compatibles, consulte [Requisitos mínimos para utilizar Business Central](product-requirements.md#browsers).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Obtener Business Central en mi dispositivo móvil](install-mobile-app.md)  
