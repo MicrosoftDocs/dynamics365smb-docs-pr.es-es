@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Configurar el IVA no deducible
 
-El impuesto sobre el valor agregado (IVA) no deducible es el IVA que debe pagar un comprador, pero que no es deducible de la propia cuota de IVA del comprador. Las empresas generalmente pueden recuperar el IVA en la compra de bienes y servicios que están relacionados con sus actividades comerciales. Sin embargo, en algunas situaciones, una empresa incurre en un IVA que no es deducible. Estas situaciones suelen estar relacionadas con las reglamentaciones locales y pueden diferir de un país a otro. Sin embargo, el modelo de utilización del IVA no deducible o parcialmente deducible es similar. Puede usar el IVA proporcional para calcular el IVA cuando hay IVA deducible y no deducible.
+El impuesto sobre el valor agregado (IVA) no deducible es el IVA que debe pagar un comprador, pero que no es deducible de la propia cuota de IVA del comprador. Las empresas generalmente pueden recuperar el IVA en la compra de bienes y servicios que están relacionados con sus actividades comerciales. Sin embargo, en algunas situaciones, una empresa incurre en un IVA que no es deducible. Estas situaciones suelen estar relacionadas con las reglamentaciones locales y pueden diferir entre países y regiones. Sin embargo, el modelo de utilización del IVA no deducible o parcialmente deducible es similar. Puede usar el IVA proporcional para calcular el IVA cuando hay IVA deducible y no deducible.
 
 En general, el IVA no se puede deducir de algunas compras debido a los siguientes factores:
 
 - **El tipo de bienes o servicios que se compran**: el IVA es total o parcialmente no deducible por una disposición de la ley sobre bienes como automóviles, teléfonos móviles y alimentos que se compran en restaurantes.
 - **IVA prorrateado parcialmente deducible**: el IVA se prorratea de acuerdo con la relación entre las operaciones de venta por las que se debe el IVA y todas las operaciones que se han realizado. El IVA que exceda esta relación no se puede deducir.
 
-Debido a que puede ser difícil saber dónde y cómo se usa un artículo, debe comunicarse con las autoridades fiscales locales de su país para determinar si un porcentaje específico del IVA es deducible en función de los datos históricos. 
+Debido a que puede ser difícil saber dónde y cómo se usa un artículo, debe comunicarse con las autoridades fiscales locales de su país o región para determinar si un porcentaje específico del IVA es deducible en función de los datos históricos. 
 
 > [!IMPORTANT]
 > Esta característica global está disponible en todos los países con IVA habilitado **excepto Bélgica, Italia, Noruega y España**. Estas ubicaciones ya tienen una característica local existente y se actualizarán en el futuro. No ejecute esta característica en estos países porque el procedimiento de actualización no existe.

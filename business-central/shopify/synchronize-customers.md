@@ -29,7 +29,7 @@ Da igual si importa clientes desde Shopify de forma masiva o junto con la import
 |**Crear clientes desconocidos automáticamente**| Seleccione este campo si desea que el conector cree los clientes que falten cuando las opciones **Por correo electrónico/teléfono** o **Por información de dirección de facturación** se hayan seleccionado en el campo **Tipo de asignación de cliente**. Se creará un nuevo cliente usando datos importados y el **Código de plantilla de cliente** definido en las páginas **Ficha de tienda de Shopify** o **Plantilla de cliente de Shopify**. Tenga en cuenta que el cliente de Shopify debe tener al menos una dirección. A los pedidos creados a través del canal de ventas Shopify POS a menudo les faltan los detalles de la dirección. Si esta opción no está habilitada, deberá crear un cliente manualmente y vincularlo al cliente de Shopify.|
 |**Código de plantilla de cliente**|Este campo se usa con **Creación automática de clientes desconocidos**.<br>- Elija la plantilla predeterminada que se utilizará para los clientes creados automáticamente. Asegúrese de que la plantilla seleccionada contenga los campos obligatorios, como los campos **Grupo de registro de negocio general**, **Grupo de registro de clientes**, y el IVA o los campos relacionados con impuestos.<br>- Puede definir plantillas por país o región en la página **Plantillas de clientes de Shopify**, que es útil para el cálculo de impuestos adecuado. <br>- Obtenga más información en [Configurar impuestos](setup-taxes.md).|
 
-### Plantilla de cliente por país
+### Plantilla de cliente por país o región
 
 Algunas configuraciones se pueden definir en el nivel de país o región, o en el nivel de estado o provincia. Los ajustes se pueden configurar en [Envío y entrega](https://www.shopify.com/admin/settings/shipping) en Shopify.
 
@@ -37,7 +37,7 @@ Puede hacer lo siguiente para cada cliente mediante la **Plantilla de cliente de
 
 1. Especificar el **N.º de cliente genérico**, que tiene prioridad sobre la selección en los campos **Importación de clientes desde Shopify** y **Tipo de asignación de cliente**. Se utiliza en el pedido de venta importado.
 2. Defina el **Código de plantilla de cliente**, que se utiliza para crear clientes que falten si se ha habilitado **Crear clientes desconocidos automáticamente**. Si el **Código de plantilla de cliente** está vacío, entonces la función usa el **Código de plantilla de cliente** definido en la **Ficha de tienda de Shopify**. El sistema primero intenta encontrar una plantilla para el **Código de país/región** para la dirección predeterminada. Si no encuentra una plantilla, utiliza la primera dirección.
-3. En algunos casos, el **Código de plantilla de cliente** definido para un país no es suficiente para garantizar cálculos correctos de impuestos (por ejemplo, para países con impuesto sobre las ventas). En este caso, incluir **Área fiscal** podría ser una adición útil.
+3. En algunos casos, el **Código de plantilla de cliente** definido para un país o región no es suficiente para garantizar cálculos correctos de impuestos (por ejemplo, para países o regiones con impuesto sobre las ventas). En este caso, incluir **Área fiscal** podría ser una adición útil.
 4. El campo **Zona fiscal** también contiene una pareja de **Código de país** y **Nombre de provincia**. Este par es útil cuando el conector necesita convertir un código en un nombre, o viceversa.
 
 > [!NOTE]  
@@ -83,7 +83,7 @@ Un cliente en Shopify también tiene una dirección predeterminada. Esta direcci
 |1|**Nombre**|Máxima prioridad, si el campo **Origen de nombre** en la **Ficha de tienda de Shopify** contiene *Nombre de empresa*.|
 |2|**Nombre 2**|Prioridad más baja, si el campo **Origen de nombre 2** en la **Ficha de tienda de Shopify** contiene *Nombre de empresa*.|
 
-Para las direcciones en las que se utiliza la provincia, seleccione **Código** o **Nombre** en el campo **Origen de provincia**, en la página **Tarjeta de tienda de Shopify**. El código o el nombre especifica el tipo de datos almacenados en [!INCLUDE[prod_short](../includes/prod_short.md)], en el campo **Provincia**. Recuerde inicializar las plantillas de clientes por país, para que el mapeo de código/nombre de provincia esté listo. 
+Para las direcciones en las que se utiliza la provincia, seleccione **Código** o **Nombre** en el campo **Origen de provincia**, en la página **Tarjeta de tienda de Shopify**. El código o el nombre especifica el tipo de datos almacenados en [!INCLUDE[prod_short](../includes/prod_short.md)], en el campo **Provincia**. Recuerde inicializar las plantillas de clientes por país o región, para que la asignación de código/nombre de provincia esté listo. 
 
 
 ## Sincronizar clientes

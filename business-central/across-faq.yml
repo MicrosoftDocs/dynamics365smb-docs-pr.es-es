@@ -16,7 +16,7 @@ sections:
       - question: |
           ¿Está Business Central disponible en mí país o región?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] está disponible en un número reducido de mercados, pero se añaden nuevos países o regiones mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente. Obtenga más información en [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible solo en inglés).  
+          [!INCLUDE[prod_short](includes/prod_short.md)] está disponible en un número reducido de mercados, pero se añaden nuevos países y regiones mediante la localización dirigida por Microsoft o mediante la localización dirigida por socios trimestralmente. Obtenga más información en [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (disponible solo en inglés).  
       - question: |
           ¿Cómo obtengo Business Central?
         answer: |

@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="compliance-overview"></a>Información general sobre cumplimiento
+# Información general sobre cumplimiento
 
 En este contenido se incluye información acerca de la conformidad en relación con [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -24,7 +24,7 @@ En esta sección puede obtener más información sobre nuestro enfoque sobre la 
 |Consulte la información sobre certificaciones diferentes relacionadas con Business Central. Aquí encontrará información sobre certificaciones generales y certificaciones específicas de cada país o región.|[Certificaciones](compliance-certifications.md)|  
 |Información sobre los términos del acuerdo de nivel de servicio y otros términos del servicio|[Términos del servicio](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

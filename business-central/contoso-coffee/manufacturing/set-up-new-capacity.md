@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a>Guía: Configurar nueva capacidad
+# Guía: Configurar nueva capacidad
 
 En este artículo, lo guiaremos a través de los pasos para usar los datos de demostración de Contoso Coffee en la forma en que administra la capacidad.  
 
-## <a name="scenario"></a>Caso
+## Caso
 
 Usted es el planificador de producción de Contoso Coffee. En respuesta a los cambios en el taller, debe configurar un nuevo centro de trabajo, Departamento de pruebas. El nuevo centro de trabajo tiene un centro de máquina, Pruebas. Los nuevos centros deberán contar con un calendario de aforo para un solo turno de 08:00:00 AM a 4:00:00 PM, de lunes a viernes.  
 
-## <a name="steps"></a>Pasos
+## Pasos
 
 1. Configurar el centro de trabajo.
 
@@ -32,7 +32,7 @@ Usted es el planificador de producción de Contoso Coffee. En respuesta a los ca
         |**Coste unitario directo**|3,25|
         |**Cálculo coste unitario**|Hora|
         |**Método de baja**|Manual|
-        |**Grupo contable producto**|NO IVA</br></br>Tenga en cuenta que esta selección depende de su configuración de contabilidad y país.|
+        |**Grupo contable producto**|NO IVA</br></br>Tenga en cuenta que esta selección depende de su configuración de contabilidad y país o región.|
         |**Cód. unidad medida** |MINUTOS|
         |**Capacidad** |1|
         |**Eficiencia** |90|
@@ -84,6 +84,6 @@ Usted es el planificador de producción de Contoso Coffee. En respuesta a los ca
 
 En la página **Entradas de calendario**, las entradas de capacidad diaria en el campo **Capacidad (Total)** son de 480 minutos. Esto refleja un turno de ocho horas por cada día de trabajo. Además el campo **Capacidad (Efectiva)** muestra 432 minutos. Esto refleja la tasa de eficiencia del 90 por ciento que asignó al centro de máquinas.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Introducción a datos de demostración de Contoso Coffee](../contoso-coffee-intro.md)  
