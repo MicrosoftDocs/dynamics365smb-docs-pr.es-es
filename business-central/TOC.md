@@ -106,7 +106,7 @@
 ##### [Información general de la línea de registro en el diario general](design-details-general-journal-post-line-overview.md)  
 ##### [Detalles de diseño: estructura de interfaz de registro](design-details-posting-interface-structure.md)  
 ##### [Detalles de diseño: estructura de motor de registro](design-details-posting-engine-structure.md)  
-
+#### [Detalles de diseño: IVA no deducible](design-details-nondeductible-vat.md)
 ## Pruébelo
 ### [Regístrese para obtener una versión de prueba gratuita de Dynamics 365 Business Central](trial-signup.md)
 ### [Preguntas frecuentes de la versión de prueba de Dynamics 365 Business Central](trial-faq.md)
