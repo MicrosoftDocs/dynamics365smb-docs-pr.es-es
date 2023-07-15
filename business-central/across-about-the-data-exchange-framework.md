@@ -11,7 +11,7 @@ ms.search.form: '189,'
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# Acerca del marco de intercambio de datos
+# <a name="about-the-data-exchange-framework"></a>Acerca del marco de intercambio de datos
 
 Puede usar Marco de intercambio de datos para gestionar documentos empresariales, archivos bancarios, tipos de cambio de divisa y cualquier otro archivo de datos con sus socios o autoridades comerciales.
 
@@ -23,7 +23,7 @@ Como administrador o socio de Microsoft, puede usar el marco en nuevas funciones
 
  ![Marco de intercambio de dato &#45; Exportar.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## Documentos electrónicos
+## <a name="electronic-documents"></a>Documentos electrónicos
 
 Como alternativa al envío por correo electrónico de documentos de negocios con archivos adjuntos, puede enviarlos y recibirlos de forma electrónica. Un "documento electrónico" es un archivo estándar y compatible que representa un documento empresarial, como una factura de un proveedor que pueda recibirse y convertirse a una factura de compra en [!INCLUDE[prod_short](includes/prod_short.md)]. Los socios comerciales intercambian documentos electrónicos a través de servicios de intercambio de documentos externos. De forma predeterminada, [!INCLUDE[prod_short](includes/prod_short.md)] admite el envío y la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Hay preconfigurado un proveedor de servicios de intercambio de documentos principal, Tradeshift, listo para ser configurado según su empresa. Para proporcionar compatibilidad para otros formatos de documentos electrónicos, debe crear nuevas definiciones de intercambio de datos.  
 
@@ -35,7 +35,7 @@ Para recibir, por ejemplo, una factura de un proveedor como un documento electr�
 
   Para recibir, por ejemplo, una factura como documento electrónico de OCR, se procesa como cuando se recibe un documento electrónico de PEPPOL. La recepción y la conversión de documentos electrónicos de OCR las realiza el marco de intercambio de datos, representado por la definición de intercambio de datos **OCR - Factura**.  
 
-## Archivos bancarios
+## <a name="bank-files"></a>Archivos bancarios
 
 Los formatos de los archivos para intercambiar datos bancarios con aplicaciones de administración de empresas varían en función del proveedor del archivo y del país o la región. [!INCLUDE[prod_short](includes/prod_short.md)] admite la importación y exportación de archivos bancarios de la Zona única de pagos en euros (SEPA). Además, la extensión AMC Banking 365 Fundamentals le permite conectarse a una extensión AMC Banking 365 Fundamentals proporcionada por un proveedor externo, AMC Consult. Para obtener más información, consulte [Hacer pagos con la extensión AMC Banking 365 Fundamentals o Transferencia de crédito SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). Para proporcionar compatibilidad con otros formatos de documento electrónico, utilice el marco de intercambio de datos.  
 
@@ -47,17 +47,17 @@ Para exportar transferencias de crédito SEPA, se elige el botón **Exportar pag
 
  Además, las versiones locales de [!INCLUDE[prod_short](includes/prod_short.md)] admiten otros formatos de archivo para importar y exportar datos bancarios, transacciones de nóminas y otros datos. Para obtener más información, consulte la página de aterrizaje [Funcionalidad local](about-localization.md) para su su país o región en la Ayuda.  
 
-## Tipos cambio divisa
+## <a name="currency-exchange-rates"></a>Tipos cambio divisa
 
 Puede configurar un servicio externo para mantener actualizados los tipos de cambio de divisa. El servicio que proporciona tipos de cambio de divisa actualizados se habilita mediante una definición de intercambio de datos. Por consiguiente, la página **Tarjeta de configuración de actualización de tipo de cambio** es una visión condensada de la página **Definición de intercambio de datos** para la definición de intercambio de datos en cuestión.  
 
 Para todos los intercambios de datos en archivos XML, puede preparar la configuración de intercambio de datos cargando el archivo relacionado de esquema XML en la página **Visor de esquema XML**. Aquí se seleccionan los elementos de datos que se desea intercambiar con [!INCLUDE[prod_short](includes/prod_short.md)] y, a continuación, se inicializa una definición de intercambio de datos o se genera un XMLport.
 
-## Intrastat
+## <a name="intrastat"></a>Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] utiliza el marco de intercambio de datos para informes de Intrastat, donde puede crear fácilmente archivos con marca de tiempo en diferentes formatos para exportar. [!INCLUDE[prod_short](includes/prod_short.md)] contiene formatos preparados para países o regiones localizados, así como para la versión predeterminada. Pero puede cambiar el informe original o crear uno propio.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
 [Usar esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
