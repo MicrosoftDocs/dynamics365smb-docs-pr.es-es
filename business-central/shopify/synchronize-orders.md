@@ -18,7 +18,7 @@ Este artículo describe la configuración necesaria y los pasos que debe seguir 
 
 Introduzca un **código de moneda** si su tienda en línea utiliza una moneda diferente a la moneda local (LCY). La divisa especificada debe tener tipos de cambio configurados. Si su tienda en línea usa la misma divisa que [!INCLUDE[prod_short](../includes/prod_short.md)], deje el campo vacío. 
 
-Puede ver la moneda de la tienda en la configuración de [Detalles de la tienda](https://www.shopify.com/admin/settings/general) en su Administrador de Shopify. Shopify se puede configurar para aceptar diferentes monedas, sin embargo, los pedidos importados a [!INCLUDE[prod_short](../includes/prod_short.md)] utilizan la moneda de la tienda.
+Puede acceder a la moneda de la tienda en la configuración de [Detalles de la tienda](https://www.shopify.com/admin/settings/general) en su Administrador de Shopify. Shopify se puede configurar para aceptar diferentes monedas, sin embargo, los pedidos importados a [!INCLUDE[prod_short](../includes/prod_short.md)] utilizan la moneda de la tienda.
 
 Un pedido regular de Shopify puede incluir costes adicionales al subtotal, como los gastos de envío o, si está activado, las propinas. Estos importes se contabilizan directamente en la cuenta de contabilidad que se desea utilizar para los tipos de transacción específicos:
 
@@ -96,6 +96,31 @@ Alternativamente, puede buscar el trabajo por lotes **Sincronizar pedidos desde 
 
 Puede programar la tarea para que se realice automáticamente. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
 
+### Bajo el capó
+
+El Shopify Connector importa pedidos en dos pasos:
+
+1.  Importa encabezados de pedidos a la tabla **Órdenes para importar de Shopify** cuando cumplen ciertas condiciones:
+    
+* No se archivan.
+* Se crearon o modificaron después de la última sincronización.
+
+2.  Importa pedidos de Shopify e información complementaria.
+* El conector de Shopify procesa todos los registros en la tabla **Órdenes para importar de Shopify** que coincidan con los criterios de filtro que definió en la página de solicitud **Sincronizar órdenes de Shopify**. Por ejemplo, etiquetas, canal o el estado de cumplimiento. Si no ha especificado ningún filtro, procesa todos los registros.
+* Al importar un pedido de Shopify, Shopify Conector solicita información adicional de Shopify:
+
+    * Cabecera de pedido
+    * Líneas de pedido
+    * Información de envío y proceso de entrega
+    * Transacciones
+    * Devoluciones y reembolsos, si está configurado
+
+La página de **Pedidos de Shopify para importar** es útil para solucionar problemas de importación de pedidos. Puedes evaluar los pedidos que hay disponibles y seguir los siguientes pasos:
+
+* Compruebe si un error bloqueó la importación de un pedido específico y explore los detalles del error. Marque el campo **Tiene error**.
+* Procesar solo pedidos específicos. Deberá completar el campo **Código de tienda**, seleccionar uno o más pedidos y luego elegir la acción **Importar pedidos seleccionados**.
+* Elimine pedidos de la página **Pedido a importar de Shopify** para excluirlos de la sincronización.
+
 ## Revisar pedidos importados
 
 Una vez completada la importación, puede explorar el pedido de Shopify y encontrar toda la información relacionada, como transacciones de pago, costes de envío, procesos de entrega, nivel de riesgo, atraibutos y etiquetas de pedidos o los cumplimientos, si el pedido ya se cumplió en Shopify. También puede ver la confirmación de cualquier pedido que se haya enviado al cliente seleccionando la acción **Página de estado de Shopify**.
@@ -131,7 +156,7 @@ Si su configuración impide crear un cliente automáticamente y no se puede enco
 
 La función *Importar pedido de Shopify* intenta seleccionar los clientes en el siguiente orden:
 
-1. Si el campo **N.º de cliente genérico** se define en la **Plantilla de cliente de Shopify** para el **Cód. país/región dirección de envío**, se usa el **N.º de cliente genérico** independientemente de los ajustes de los campos **Importar cliente desde Shopify** y **Tipo de asignación de cliente**. Más información en [Plantilla de cliente por país](synchronize-customers.md#customer-template-per-country).
+1. Si el campo **N.º de cliente genérico** se define en la **Plantilla de cliente de Shopify** para el **Cód. país/región dirección de envío**, se usa el **N.º de cliente genérico** independientemente de los ajustes de los campos **Importar cliente desde Shopify** y **Tipo de asignación de cliente**. Más información en [Plantilla de cliente por país](synchronize-customers.md#customer-template-per-countryregion).
 2. Si **Importar clientes desde Shopify** está establecido en *Ninguno* y el **N.º de cliente genérico** se define en la página **Shopify Tarjeta de tienda**, luego el **N.º de cliente genérico** .
 
 Los próximos pasos dependen del **Tipo de asignación de cliente**.
