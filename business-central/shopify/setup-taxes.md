@@ -8,13 +8,13 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# <a name="set-up-taxes-for-the-shopify-connection"></a>Configurar impuestos para la conexión Shopify
+# Configurar impuestos para la conexión Shopify
 
 En este artículo, investigaremos cómo las diversas configuraciones de Shopify afectan a los precios de escaparate y los impuestos que se muestran a los clientes. También trataremos cómo configurar [!INCLUDE[prod_short](../includes/prod_short.md)] para apoyar la configuración en Shopify. Este artículo no pretende ser una guía fiscal completa. Para obtener más información, contacte con la autoridad fiscal local o con un profesional de impuestos.  
 
 El producto asume que usted está obligado a pagar impuestos cuando vende productos a nivel local o internacional.
 
-## <a name="if-you-sell-domestically"></a>Si vende a nivel nacional
+## Si vende a nivel nacional
 
 Después de configurar su Shopify para recaudar impuestos en su país o región nacional, puede decidir cómo desea mostrar los precios en su escaparate.
 
@@ -54,13 +54,13 @@ Ahora defina los precios de los productos en el campo **Tarjeta de producto** o 
 [!Note]
 > Estos ajustes afectan a la exportación de precios. Cuando importa pedidos desde Shopify, la configuración del campo **Precios IVA incluido** proviene de la **Plantilla de cliente** en la tarjeta de la tienda de Shopify, o la plantilla de cliente por país o región. Incluso si utiliza el cliente predeterminado para pedidos importados, debe completar el **Código de plantilla de cliente**.
 
-## <a name="if-you-sell-internationally"></a>Si vende a nivel internacional
+## Si vende a nivel internacional
 
 Esta sección explora la configuración para escenarios en los que debe recaudar impuestos cuando vende a otro país o región, como otros países o regiones de la UE.
 
 Actualmente, el conector Shopify solo admite la exportación de un solo precio. Shopify aplica automáticamente los impuestos locales, las monedas y el redondeo. La opción **Todos los precios incluyen impuestos** da como resultado las acciones descritas en las siguientes subsecciones.
 
-### <a name="all-prices-include-tax-is-selected"></a>Todos los precios incluyen impuestos es seleccionado
+### Todos los precios incluyen impuestos es seleccionado
 
 |-|Ventas domesticas|País o región extranjera donde está recaudando impuestos|País o región extranjera donde no está recaudando impuestos|
 |------------------------|--------|--------|--------|
@@ -70,7 +70,7 @@ Actualmente, el conector Shopify solo admite la exportación de un solo precio. 
 
 El precio para el cliente permanece intacto, independientemente de su ubicación, pero su margen se ve afectado debido a las diferentes tipos impositivos que difieren según el país o región.
 
-### <a name="all-prices-include-tax-is-not-selected"></a>Todos los precios incluyen impuestos no es seleccionado
+### Todos los precios incluyen impuestos no es seleccionado
 
 |-|Ventas domesticas|País extranjero donde estás recaudando impuestos|País extranjero donde no está recaudando impuestos|
 |------------------------|--------|--------|--------|
@@ -80,7 +80,7 @@ El precio para el cliente permanece intacto, independientemente de su ubicación
 
 Shopify agrega impuestos locales al precio definido en la tarjeta del producto según el lugar al que se envíen los productos.
 
-## <a name="dynamic-tax-inclusive-pricing"></a>Precios dinámicos con impuestos incluidos
+## Precios dinámicos con impuestos incluidos
 
 Los países o regiones tienen diferentes requisitos para incluir impuestos en los precios. Si desea que los precios incluyan impuestos automáticamente, puede activar [Precio dinámico con impuestos incluidos](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) en Shopify.
 
@@ -89,7 +89,7 @@ En su **Administrador de Shopify**, seleccione **Incluir o excluir impuestos seg
 > [!NOTE]
 > Esta configuración no afecta a los precios en los mercados nacionales, lo que controla la opción **Todos los precios incluyen impuestos**.
 
-### <a name="all-prices-include-tax-is-selected-1"></a>Todos los precios incluyen impuestos es seleccionado
+### Todos los precios incluyen impuestos es seleccionado
 
 |-|Ventas domesticas|País o región extranjera donde el impuesto está incluido en el precio|País o región extranjera donde el impuesto está excluido|
 |------------------------|---------------|---------------|--------|
@@ -99,7 +99,7 @@ En su **Administrador de Shopify**, seleccione **Incluir o excluir impuestos seg
 
 El precio para cada cliente cambia dependiendo de su ubicación.
 
-### <a name="all-prices-include-tax-is-not-selected-1"></a>Todos los precios incluyen impuestos no es seleccionado
+### Todos los precios incluyen impuestos no es seleccionado
 
 |-|Ventas domesticas|País o región extranjera donde el impuesto está incluido en el precio|País o región extranjera donde el impuesto está excluido|
 |------------------------|--------|--------|--------|
@@ -110,7 +110,7 @@ El precio para cada cliente cambia dependiendo de su ubicación.
 > [!NOTE]
 > La opción **Todos los precios incluyen impuestos** no cambia la forma en que se muestran los precios a los clientes internacionales.
 
-## <a name="if-you-sell-to-eu-customers"></a>Si vende a clientes de la UE
+## Si vende a clientes de la UE
 
 Los diferentes países y regiones de la UE tienen diferentes tasas de impuestos locales. Sin embargo, si se encuentra en la UE y vende a otros países o regiones de la UE, puede utilizar su tasa impositiva local en algunos casos.  
 
@@ -121,7 +121,7 @@ En su **Administrador de Shopify**, marque la casilla **Recaudar IVA** en la sec
 |Exención de microempresas|Use su tasa impositiva nacional para todas las ventas dentro de la UE|
 |Ventanilla única o registro específico del país o región|Utilice la tasa de IVA del país o región de su cliente|
 
-### <a name="collect-vat-set-to-one-stop-shop-registration"></a>Recaudar IVA configurado para el registro de ventanilla única
+### Recaudar IVA configurado para el registro de ventanilla única
 
 En el siguiente ejemplo, la opción **Todos los precios incluyen impuestos** está activada. El precio en la ficha del producto se establece en *1200*.
 
@@ -131,7 +131,7 @@ En el siguiente ejemplo, la opción **Todos los precios incluyen impuestos** est
 |Porcentaje de tasa fiscal|20|25|
 |Precio en la caja|1200|1250|
 
-### <a name="collect-vat-set-to-micro-business-exemption"></a>Recaudar IVA fijado en exención de microempresas
+### Recaudar IVA fijado en exención de microempresas
 
 En el siguiente ejemplo, la opción **Todos los precios incluyen impuestos** está activada. El precio en la ficha del producto se establece en *1200*.
 
@@ -143,7 +143,7 @@ En el siguiente ejemplo, la opción **Todos los precios incluyen impuestos** est
 
 Shopify usa la tasa impositiva nacional e ignora la tasa impositiva del país o región extranjera al calcular los precios finales.
 
-## <a name="importing-shopify-orders-sold-to-international-customers"></a>Importando pedidos de Shopify vendidos a clientes internacionales
+## Importando pedidos de Shopify vendidos a clientes internacionales
 
 Si está recaudando impuestos de varios países o regiones , debe definir una configuración específica de país o región en [!INCLUDE[prod_short](../includes/prod_short.md)]. Hay una razón por la que se requiere esta configuración. Cuando se crea un documento de ventas en [!INCLUDE[prod_short](../includes/prod_short.md)], [!INCLUDE [prod_short](../includes/prod_short.md)] calcula los impuestos en lugar de reutilizar los impuestos importados desde Shopify.
 
@@ -161,13 +161,13 @@ Puede especificar los ajustes específicos de país/región en la página **Plan
 > [!NOTE]
 > La configuración del campo **Precios con IVA incluido** proviene de la plantilla, no del cliente específico. Es importante definir la plantilla de cliente.
 
-## <a name="other-tax-remarks"></a>Otras observaciones sobre impuestos
+## Otras observaciones sobre impuestos
 
 Mientras que el pedido de Shopify importado contiene información sobre impuestos, los impuestos se vuelven a calcular cuando se crea el documento de ventas. Ese nuevo cálculo significa que es importante que la configuración de IVA/impuestos sea correcta en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 * Múltiples tasas de impuestos o IVA sobre productos. Por ejemplo, algunas categorías de productos están sujetas a tipos impositivos reducidos. Puede usar la característica [anulación de impuestos](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) en Shopify. Al importar y crear productos en [!INCLUDE[prod_short](../includes/prod_short.md)], usan la configuración de impuestos especificada en el código de plantilla de producto en la tienda Shopify. Antes de importar pedidos con dichos productos, actualice el grupo contable de productos con IVA.  
 * Tasas de impuestos dependientes de la dirección. Utilice el campo **Prioridad de área fiscal** junto con la tabla **Plantillas de clientes** para sobrescribir la lógica estándar que rellena el **Código de área fiscal** en el documento de venta. El campo **Prioridad de área fiscal** especifica la prioridad de la que la función debe tomar la información sobre el país o región y el estado o provincia. Luego, se identifica el registro correspondiente en las plantillas de cliente de Shopify y se usan el **Código de área fiscal**, **Sujeto a impuestos** y **Grupo de registro de negocio con IVA** al crear un documento de ventas.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Comenzar con el conector para Shopify](get-started.md)  
