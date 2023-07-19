@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Información general sobre cumplimiento
+# <a name="compliance-overview"></a>Información general sobre cumplimiento
 
 En este contenido se incluye información acerca de la conformidad en relación con [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
