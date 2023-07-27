@@ -6,17 +6,17 @@ ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
 ms.reviewer: jswymer
-ms.date: 04/26/2023
+ms.date: 07/17/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# <a name="introduction-to--and-power-bi"></a>Introducción a [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
+# Introducción a [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
 
 Es fácil obtener información sobre los datos de [!INCLUDE[prod_short](includes/prod_short.md)] con [Power BI](https://powerbi.microsoft.com), un sistema de visualización de datos de Microsoft. Power BI recupera datos de [!INCLUDE[prod_short](includes/prod_short.md)] para que pueda crear paneles e informes basados en esos datos. Power BI proporciona una alternativa flexible a los informes integrados en [!INCLUDE[prod_short](includes/prod_short.md)], lo que le permite desglosar y personalizar la visualización, e incluso fusionar datos de diferentes empresas en [!INCLUDE[prod_short](includes/prod_short.md)]. Algunos informes de Power BI también pueden integrarse en Business Central y visualizarse sin salir del sistema. Los paneles de control más complejos se experimentan mejor desde el sitio web de Power BI.
 
 ![Power BI y Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-"></a>¿Qué puede hacer con Power BI y [!INCLUDE[prod_short](includes/prod_short.md)]?
+## ¿Qué puede hacer con Power BI y [!INCLUDE[prod_short](includes/prod_short.md)]?
 
 Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI. Algunas cosas se pueden hacer desde Power BI, mientras que otras cosas se hacen desde [!INCLUDE[prod_short](includes/prod_short.md)]. Además, algunas funciones solo están disponibles con [!INCLUDE[prod_short](includes/prod_short.md)] online, no local. La siguiente tabla le ofrece una descripción general.
 
@@ -30,7 +30,7 @@ Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short
 
 <a name="onprem"><sup>*</sup></a> Esta función requiere una aplicación registrada para Business Central en Microsoft Azure. Para más información, ver [Registro de Business Central local en Azure AD para la integración con otros servicios](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Prepararse para usar Power BI
+## Prepararse para usar Power BI
 
 Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Las tareas dependerán de su rol en su organización y de lo que quiera hacer con Power BI:
 
@@ -45,7 +45,7 @@ Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power
 |Exponer datos de Business Central a Power BI||![es una marca de verificación.](media/check.png)|![otra nueva marca de verificación](media/check.png)|[Exponer datos a través de páginas API o servicios web OData](admin-powerbi-setup.md#exposedata)
 |Habilitar la integración de Power BI<br />(solo local)||![es una marca de verificación.](media/check.png)||[Configuración Business Central local para la integración de Power BI](admin-powerbi-setup.md#setup)|
 
-## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Realice un seguimiento de los KPI de su negocio con métricas de Power BI
+## Realice un seguimiento de los KPI de su negocio con métricas de Power BI
 
 Si usa Power BI en datos de [!INCLUDE[prod_short](includes/prod_short.md)], es fácil realizar un seguimiento de los KPI o las métricas que son importantes para usted. 
 
@@ -53,27 +53,26 @@ Con las métricas de Power BI, puede seleccionar sus propias métricas y realiza
 
 Siga este proceso de cuatro pasos para configurar métricas de Power BI:
 
-1. Cree un cuadro de mandos en el servicio Power BI. Consulte [Crear cuadros de mandos en Power BI](/power-bi/create-reports/service-goals-create).
-2. Agregue las _métricas_ que desea seguir conectándose a su informe de Power BI de telemetría. Consulte [Crear métricas conectadas](/power-bi/create-reports/service-goals-create-connected).
-3. Para agregar alertas, defina reglas de estado para sus métricas. Consulte [Crear reglas de estado automatizadas para métricas](/power-bi/create-reports/service-metrics-status-rules).
+1. Cree un cuadro de mandos en el servicio Power BI. Obtenga más información en [Crear cuadros de mando en Power BI](/power-bi/create-reports/service-goals-create).  
+2. Agregue las _métricas_ que desea seguir conectándose a su informe de Power BI de telemetría. Obtenga más información en [Crear métricas conectadas](/power-bi/create-reports/service-goals-create-connected).  
+3. Para agregar alertas, defina reglas de estado para sus métricas. Obtenga más información en [Crear reglas de estado automatizadas para métricas](/power-bi/create-reports/service-metrics-status-rules).  
 
-   Este paso automatizará las actualizaciones de estado según las reglas que rigen esa métrica. Las reglas desencadenan cambios en función del valor, el porcentaje de cumplimiento del objetivo, las condiciones de fecha o una combinación de los tres, lo que hace que las reglas sean lo más versátiles posible. Para métricas conectadas, estas reglas de estado se actualizan cada vez que se actualizan los datos en su cuadro de mandos.
-4. Finalmente, siga las métricas para recibir alertas en Teams o por correo electrónico. Consulte [Seguir las métricas](/power-bi/create-reports/service-metrics-follow).
+    Este paso automatizará las actualizaciones de estado según las reglas que rigen esa métrica. Las reglas desencadenan cambios en función del valor, el porcentaje de cumplimiento del objetivo, las condiciones de fecha o una combinación de los tres, lo que hace que las reglas sean lo más versátiles posible. Para métricas conectadas, estas reglas de estado se actualizan cada vez que se actualizan los datos en su cuadro de mandos.
+4. Finalmente, siga las métricas para recibir alertas en Teams o por correo electrónico. Obtén más información en [Seguir las métricas](/power-bi/create-reports/service-metrics-follow).  
 
-Para obtener más información sobre métricas de Power BI, vea [Introducción a métricas de Power BI](/power-bi/create-reports/service-goals-introduction).
+Obtenga más información sobre métricas de Power BI en [Introducción a métricas de Power BI](/power-bi/create-reports/service-goals-introduction).
 
 > [!NOTE]
 > Actualmente no es posible insertar cuadros de mandos desde métricas de Power BI en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="next-steps"></a>Pasos siguientes
+## Pasos siguientes
 
 - Si usted es un administrador que necesita configurar Power BI en [!INCLUDE[prod_short](includes/prod_short.md)], vaya a [Habilitar integración de Power BI](admin-powerbi-setup.md).
 - Si Power BI ya está configurado y desea probar las funciones, vaya a [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md).
 
+## Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
-
-## <a name="see-also"></a>Consulte también
+## Consulte también .
 
 [Inteligencia empresarial](bi.md)  
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

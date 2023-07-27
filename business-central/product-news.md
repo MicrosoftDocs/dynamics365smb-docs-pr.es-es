@@ -9,7 +9,7 @@ ms.date: 06/15/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Novedades y planificación de Dynamics 365 Business Central
+# Novedades y planificación de Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -22,21 +22,22 @@ También puede querer explorar el sitio [Capacidades de Dynamics 365 Business Ce
 
 Obtenga información sobre cómo su [!INCLUDE [prod_short](includes/prod_short.md)] en línea obtiene las próximas actualizaciones en [Actualizaciones principales y actualizaciones menores](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (solo en inglés).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Reciba notificaciones sobre cambios a través de una fuente RSS
+## Reciba notificaciones sobre cambios a través de una fuente RSS
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Visite nuestra biblioteca de vídeos](across-videos.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Formación de Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Inicio rápido de Business Central](quick-start-business-central.md)  
+[productos de inicio rápido de Business Central](quick-start-business-central.md)  
+[Novedades y cambios](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Capacidades de Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Hoja de ruta de Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)  
 [Blog de Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Precio de Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
-[Comunidad de Dynamics 365 Business Central](https://community.dynamics.com/business/)
+[Foro de la comunidad de Dynamics 365 Business Central](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
