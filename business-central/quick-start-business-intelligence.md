@@ -12,11 +12,11 @@ ms.date: 08/17/2022
 ms.author: a-reishima
 ---
 
-# Inicio rápido de inteligencia empresarial
+# <a name="business-intelligence-quick-start"></a>Inicio rápido de inteligencia empresarial
 
 Poder recopilar y analizar las cantidades cada vez mayores de datos de una manera procesable es una parte inestimable de hacer negocios en estos días. [!INCLUDE[prod_short](includes/prod_short.md)] ofrece muchas herramientas de inteligencia empresarial &mdash;tanto incorporadas como integradas con otros servicios&mdash; para ayudar a su empresa en el proceso de toma de decisiones.
 
-## Obtener información sobre sus puntos clave de interés
+## <a name="get-insights-on-your-key-points-of-interest"></a>Obtener información sobre sus puntos clave de interés
 
 [!INCLUDE[prod_short](includes/prod_short.md)] incluye gráficos integrados que se pueden mostrar en la parte **Información** de la página de inicio, que cubre *ingresos y gastos*, *flujo de efectivo*, *tendencias de ventas* y otros informes. Puede encontrar indicadores clave de rendimiento (KPI) adicionales en la página **Información de Nube inteligente**, que muestra información procesable de finanzas, inventario, ventas y adquisiciones:
 
@@ -24,7 +24,7 @@ Poder recopilar y analizar las cantidades cada vez mayores de datos de una maner
 
 Se pueden seleccionar las tarjetas de datos y las informaciones disponibles para abrir la página de la contabilidad correspondiente. La página **Información de Nube inteligente** también utiliza una conexión con las suscripciones existentes de Power BI y Azure Machine Learning para mostrar paneles de análisis y previsión.
 
-## Configurar integración de Power BI
+## <a name="set-up-power-bi-integration"></a>Configurar integración de Power BI
 
 Puede conectar [!INCLUDE[prod_short](includes/prod_short.md)] con Power BI para crear informes penetrantes y potentes paneles. La integración de Power BI proporciona muchas opciones para dar una visión basada en los datos de su negocio, incluyendo una amplia gama de personalizaciones visuales, de filtrado y de visualización.
 
@@ -40,9 +40,9 @@ La integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] i
 
 También puede crear informes visuales basándose en [!INCLUDE[prod_short](includes/prod_short.md)] utilizando la opción de tipo de archivo **Documento de Microsoft Excel (solo datos)** en las páginas de solicitud de informes. Obtenga más información en [Ejecutar e imprimir informes](ui-work-report.md).
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/paths/use-power-bi)
+## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/paths/use-power-bi)
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Análisis empresarial y Financial Reporting](bi.md)  
 [Inicio rápido de Business Central](quick-start-business-central.md)  

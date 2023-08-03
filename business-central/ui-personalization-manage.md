@@ -8,7 +8,7 @@ ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Personalizar páginas para perfiles
+# <a name="customize-pages-for-profiles"></a>Personalizar páginas para perfiles
 
 Los usuarios pueden personalizar las páginas que componen su área de trabajo para que se adapte a sus preferencias. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
@@ -19,7 +19,7 @@ Los administradores pueden personalizar las páginas para un perfil, de acuerdo 
 
 La personalización de la página comienza en la página **Perfiles (roles)**, el punto de partida del administrador para administrar los perfiles de los usuarios en fichas de perfil individuales. Además de personalizar el diseño de la página, puede controlar otras configuraciones para los perfiles en la página **Perfil (rol)** para cada perfil. Para obtener más información, consulte [Administrar perfiles](admin-users-profiles-roles.md).
 
-## Para personalizar páginas para un perfil
+## <a name="to-customize-pages-for-a-profile"></a>Para personalizar páginas para un perfil
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Perfiles (roles)** y luego elija el enlace relacionado.
 2. Seleccione la línea del perfil para el que desea personalizar páginas y, después, seleccione la acción **Editar**.
@@ -37,7 +37,7 @@ La personalización de la página comienza en la página **Perfiles (roles)**, e
 
 La personalización de las páginas se ha registrado ahora para el perfil.
 
-## Para ver todas las páginas personalizadas para un perfil
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Para ver todas las páginas personalizadas para un perfil
 
 Puede obtener una visión general de qué páginas están personalizadas para un perfil, por ejemplo, para planificar cuáles personalizar o eliminar.
 
@@ -45,7 +45,7 @@ Puede obtener una visión general de qué páginas están personalizadas para un
 
 En la página **Páginas personalizadas**, puede eliminar personalizaciones y solucionar problemas mediante la búsqueda de posibles problemas.  
 
-## Para eliminar las personalizaciones de un perfil
+## <a name="to-delete-all-customizations-for-a-profile"></a>Para eliminar las personalizaciones de un perfil
 
 Puede cancelar todas las personalizaciones que ha realizado en un perfil. Las personalizaciones introducidas con una extensión y las personalizaciones realizadas por un usuario no se eliminarán. Puede eliminar todas las personalizaciones con otra acción. Para obtener más información, consulte [Para eliminar todas las personalizaciones efectuadas por un usuario](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -53,7 +53,7 @@ Puede cancelar todas las personalizaciones que ha realizado en un perfil. Las pe
 
 El diseño en las páginas para el perfil se restablece al diseño predeterminado.  
 
-## Para eliminar la personalización de páginas específicas para un perfil
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Para eliminar la personalización de páginas específicas para un perfil
 
 Puede eliminar personalizaciones de página individuales que ha efectuado para un perfil. Las personalizaciones introducidas con una extensión y las personalizaciones realizadas por un usuario no se eliminarán. Puede eliminar las personalizaciones de página específicas con otra acción. Para obtener más información, consulte [Para eliminar las personalizaciones de páginas específicas](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -62,9 +62,9 @@ Puede eliminar personalizaciones de página individuales que ha efectuado para u
 
 El diseño en las páginas seleccionadas se ajusta a los cambios que ha hecho.
 
-## Consultar la [formación de Microsoft](/training/paths/tailor-roles-design-ui/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/tailor-roles-design-ui/) relacionada
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Personalizar el área de trabajo](ui-personalization-user.md)  
 [Administración de perfiles](admin-users-profiles-roles.md)  
