@@ -7,7 +7,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valoración de existencias
+# Configuración de valoración de existencias
 
 Para asegurarse de que los costes de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos. Por lo general, las empresas eligen una valoración de existencias específica y la aplican a los productos del inventario, por ejemplo, para ayudarles a seguir el valor de los productos en stock.  
 
@@ -30,7 +30,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Asegurar que las devoluciones de compras se liquidan con la transacción de entrada original para conservar el valor del inventario.|Campo **Reversión de coste exacto obligatoria** en la página **Compras y pagos**|
 |Configurar las reglas de redondeo que hay que aplicar al ajustar o sugerir precios de productos y al ajustar o sugerir costes estándar.|Página **Método de redondeo**|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Configurar información de inventario general](inventory-how-setup-general.md)  

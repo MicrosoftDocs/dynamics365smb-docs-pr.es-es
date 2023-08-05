@@ -10,7 +10,7 @@ ms.date: 12/05/2022
 ms.custom: bap-template
 ---
 
-# <a name="warehouse-management-overview"></a>Información general de la gestión de almacenes
+# Información general de la gestión de almacenes
 
 Hay dos cosas que son importantes para todas las empresas que mueven mercancías físicamente dentro y fuera de su almacén:
 
@@ -26,7 +26,7 @@ Para ayudar a las empresas a lograr esas cosas, las funciones de almacén en [!I
 
 Implemente estas características en diferentes combinaciones para adaptar sus procesos de almacén a su empresa. Permita una mayor complejidad a medida que su empresa crece y sus procesos cambian.
 
-## <a name="overview-of-different-configuration-options"></a>Descripción general de las diferentes opciones de configuración
+## Descripción general de las diferentes opciones de configuración
 
 Puede configurar funciones de almacén de varias formas. Es importante elegir opciones que mejoren sus procesos sin causar gastos generales. La siguiente tabla ofrece una descripción general de las configuraciones típicas para tratar con bienes físicos.
 
@@ -48,13 +48,13 @@ El nivel de complejidad también se ve afectado por los tipos de documentos que 
 
 Otro factor que afecta la complejidad es cómo se representa su almacén físico en [!INCLUDE[prod_short](includes/prod_short.md)]. Obtenga más información en [Modelado del almacén físico](#modeling-the-physical-warehouse).
 
-## <a name="modeling-the-physical-warehouse"></a>Modelado del almacén físico
+## Modelado del almacén físico
 
 Tiene varias opciones para representar la configuración real de su almacén en [!INCLUDE[prod_short](includes/prod_short.md)]. Sus elecciones determinan cómo trabajará con las características del almacén.
 
 La ubicación de los artículos puede ser estantes, ubicaciones o contenedores, y existen ventajas y desventajas para cada opción.
 
-### <a name="locations-and-bins"></a>Ubicaciones y contenedores
+### Ubicaciones y contenedores
 
 Para manejar bienes físicos, debe tener al menos una ubicación. Puede usar múltiples ubicaciones o usar contenedores para modelar su almacén y estructura organizacional.
 
@@ -66,7 +66,7 @@ Por lo general, las ubicaciones son la forma preferida de organizar las operacio
 * Configurar los parámetros de planificación. Obtenga más información en [Parámetros de planificación](production-about-planning-functionality.md#planning-parameters).  
 * Use diferentes funciones de almacén para cada ubicación.
 
-### <a name="shelves-and-bins"></a>Estantes y contenedores
+### Estantes y contenedores
 
 Si siempre almacena un artículo en el mismo lugar, puede usar el campo **N.º de estante** en las páginas **Tarjeta de artículo** o **Tarjeta de unidad de inventario**. Este campo puede utilizarse como sistema de almacenamiento manual básico en entornos sin ubicaciones. El valor del campo se copia desde la ficha de producto en línea de documento e informes, pero es solo informativo. El valor no se utiliza en las actividades de almacén o en los cálculos de disponibilidad.
 
@@ -77,7 +77,7 @@ Las ubicaciones representan la estructura del almacén básico y se utilizan par
 * Restricciones de capacidad y peso de la ubicación (solo para ubicación y recolección dirigidas).
 * Valoración de ubicación (solo para selección y ubicación dirigidas).
 
-## <a name="typical-warehouse-workflow"></a>Flujo de trabajo de almacén típico
+## Flujo de trabajo de almacén típico
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.
 
@@ -89,19 +89,19 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 
 Configure los procesos de almacén adecuados para su empresa. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
 
-## <a name="terminology-related-to-warehouse-management"></a>Terminología relacionada con la gestión de almacenes
+## Terminología relacionada con la gestión de almacenes
 
-### <a name="complexity-levels"></a>Niveles de complejidad
+### Niveles de complejidad
 
 Usamos los términos "básico" y "avanzado" para diferenciar entre niveles de complejidad. Esta diferenciación sencilla abarca diferentes niveles de complejidad en configuraciones de ubicación, tal como admiten distintos documentos de almacén. El nivel más avanzado de almacenamiento se conoce como "Almacenamiento y recolección dirigidos". Para usar la ubicación dirigida y la selección para una ubicación, active el control de alternancia **ubicación dirigida y elija** en la página **Tarjeta de ubicación**.
 
-### <a name="warehouse-flows"></a>Flujos de almacén
+### Flujos de almacén
 
 * Flujo entrante: los productos se trasladan a la ubicación del almacén y se ponen a disposición, como compras y transferencias de entrada.
 * Flujo de salida: seleccione y envíe artículos a clientes u otras ubicaciones.
 * Flujo interno: maneje elementos dentro de una ubicación. Por ejemplo, los componentes se mueven a producción o se hace un recuento de inventario físico.
 
-### <a name="basic-documents"></a>Documentos básicos
+### Documentos básicos  
 
 Los siguientes documentos se utilizan en flujos básicos de almacén.
 
@@ -111,7 +111,7 @@ Los siguientes documentos se utilizan en flujos básicos de almacén.
 * Diario productos
 * Diario reclasificación producto
 
-### <a name="advanced-documents"></a>Documentos avanzados
+### Documentos avanzados  
 
 Los siguientes documentos se utilizan en flujos avanzados de almacén.
 
@@ -129,11 +129,11 @@ Los siguientes documentos se utilizan en flujos avanzados de almacén.
 * Diario de productos de almacén
 * Diario de reclasificación de artículos de almacén
 
-### <a name="pages-and-settings"></a>Páginas y configuraciones
+### Páginas y configuraciones
 
 Esta sección describe los conceptos detrás de las páginas clave y la configuración para el almacenamiento.
 
-#### <a name="bins-and-bin-content"></a>Ubicaciones y contenido de ubicación
+#### Ubicaciones y contenido de ubicación
 
 Una ubicación es un dispositivo de almacenamiento diseñado para contener partes diferenciadas. Es la unidad de contenedor de menos tamaño en [!INCLUDE[prod_short](includes/prod_short.md)]. Las cantidades de producto en las ubicaciones se denominan *contenidos de ubicación*. Una búsqueda desde campo de **Producto** o el campo **Cód. ubicación** en cualquier línea de documento relacionada con el almacén muestra la disponibilidad calculada del producto en la ubicación.  
 
@@ -150,7 +150,7 @@ Una ubicación dedicada guarda contenido de ubicación que solo puede selecciona
 
 Puede tener una ubicación predeterminada por producto y ubicación.  
 
-#### <a name="bin-type"></a>Tipo ubicación
+#### Tipo ubicación
 
 Las ubicaciones que utilizan ubicación y selección dirigidas pueden utilizar tipos de ubicación. Los tipos de contenedores controlan las actividades que permite para un contenedor. Los siguientes tipos de ubicación están disponibles:  
 
@@ -168,7 +168,7 @@ Con las excepciones de los tipos de contenedores PICK, PUTPICK y PUTAWAY, el tip
 > [!NOTE]  
 > Debe usar movimientos para mover artículos a contenedores RECIBIR y QC. use movimientos para mover artículos de contenedores SHIP y QC.  
 
-#### <a name="bin-ranking"></a>Ranking ubicación
+#### Ranking ubicación
 
 En la gestión avanzada del almacén, puede automatizar y optimizar cómo se recogen los productos en hojas de trabajo de colocación y selección clasificando las ubicaciones. Se propone la extracción y colocación de productos según los criterios de clasificación.
 
@@ -176,7 +176,7 @@ Los procesos de ubicación se optimizan según el ranking de ubicación mediante
 
 La clasificación de los contenedores y el contenido de los contenedores son las propiedades básicas que guían a los empleados del almacén en el almacén.  
 
-#### <a name="bin-setup"></a>Configuración de ubicación
+#### Configuración de ubicación
 
 En el almacenamiento avanzado, puede especificar los siguientes valores de capacidad para controlar cómo y en qué contenedores almacena artículos:
 
@@ -193,7 +193,7 @@ Antes de establecer restricciones de capacidad para contenidos de ubicación en 
 > [!NOTE]  
 > Solo puede usar varias unidades de medida en ubicaciones que usan ubicación y recolección dirigidas. En el resto de las configuraciones, solo puede usar contenidos de ubicación en la unidad de medida base. En todas las transacciones con un unidad de medida mayor que la unidad de medida base del producto, la cantidad se convierte a la unidad de medida base.  
 
-#### <a name="zone"></a>Zona
+#### Zona
 
 En la gestión avanzada del almacén, las ubicaciones se pueden agrupar en las zonas para controlar el direccionamiento del flujo de trabajo de las actividades de almacén para los almacenes.  
 
@@ -201,7 +201,7 @@ Una zona podría ser una zona de recepción o una zona de almacenamiento, y cada
 
 La mayoría de las propiedades asignadas a una zona se asignan a las ubicaciones que se crean para la zona.  
 
-#### <a name="warehouse-class"></a>Clase almacén
+#### Clase almacén
 
 En el almacenamiento avanzado, puede asignar códigos de clase de almacén a las siguientes entidades: 
 
@@ -215,11 +215,11 @@ Cuando trabaja con clases de almacén y una ubicación de recepción o envío pr
 
 En los flujos entrantes, el código de clase está resaltado con líneas de entrada cuando el código de clase del producto no coincide con la ubicación predeterminada de recepción. Si no se han asignado las ubicaciones predeterminadas correctas, la cantidad no puede recibirse.  
 
-#### <a name="location"></a>Almacén
+#### Almacén
 
 Una ubicación es una estructura física o lugar donde se recibe, almacena y envía el inventario. Una ubicación puede ser un almacén, un vehículo de servicio, una sala de exposición, una planta o un área de una planta. El inventario a menudo se organiza en contenedores y zonas.
 
-#### <a name="first-expired-first-out"></a>Primero en caducar primero en salir
+#### Primero en caducar primero en salir
 
 Si selecciona la casilla **Picking según FEFO** en la ficha desplegable **Directivas ubicación** de la página **Ficha de almacén**, los productos con seguimiento se seleccionan en el almacén según su fecha de vencimiento. Primero se realiza el picking de los productos con las fechas de vencimiento más tempranas.  
 
@@ -227,18 +227,18 @@ Las actividades de almacén en todos los documentos de picking y de movimientos 
 
 Cuando se realiza la selección por FEFO, el programa recopila los productos que caducan en primer lugar y el resultado es una lista temporal de seguimiento de productos basada en la fecha de vencimiento. Si dos productos tienen la misma fecha de caducidad, se selecciona primero aquel cuyo número de lote o de serie sea menor. Si los números de lote o de serie son iguales, se selecciona primero el producto que se registró en primer lugar. Los criterios estándar para seleccionar productos en ubicaciones de selección, como Ranking ubicación y División bulto, se aplican a la lista temporal de seguimiento de productos FEFO.  
 
-#### <a name="put-away-template"></a>Plantilla ubicar
+#### Plantilla ubicar
 
 Las plantillas de ubicación especifican un conjunto de reglas con prioridad que se aplican al crear ubicaciones. Por ejemplo, una plantilla de ubicación puede requerir que coloque artículos en una ubicación con contenido de ubicación que tenga la misma unidad de medida. Si no se puede encontrar un contenedor similar con suficiente capacidad, el artículo debe colocarse en un contenedor vacío. Se asigna una plantilla de ubicación a un producto y a una ubicación.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,11 +9,11 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="application-compliance"></a>Conformidad de las aplicaciones
+# Conformidad de las aplicaciones
 
 Este artículo proporciona información sobre cómo [!INCLUDE [prod_short](../includes/prod_short.md)] faculta a las empresas para agilizar los procesos de negocios a la vez que cumplen de manera consistente y rentable con el aumento de los requisitos de regulación e informes.
 
-## <a name="data-privacy"></a>Privacidad de datos
+## Privacidad de datos
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] cumple las leyes y regulaciones de privacidad de datos. [Obtenga información acerca de cómo responder a solicitudes del interesado en Business Central](../admin-responding-to-requests-about-personal-data.md).
 
@@ -21,7 +21,7 @@ Si desarrolla extensiones de [!INCLUDE [prod_short](../includes/prod_short.md)],
 
 [Más información sobre la privacidad de datos en Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
-## <a name="accounting-processes-and-controls-to-aid-compliance"></a>Procesos y controles contables para facilitar el cumplimiento
+## Procesos y controles contables para facilitar el cumplimiento
 
 Las empresas se enfrentan cada vez a más desafíos de contabilidad financiera cada año. Dependiendo de la industria, los mercados, la ubicación geográfica y las necesidades financieras, una organización puede estar sujeta a los principios de contabilidad generalmente aceptados (PCGA) locales y a alguno de los siguientes:
 
@@ -29,11 +29,11 @@ Las empresas se enfrentan cada vez a más desafíos de contabilidad financiera c
 - La sección de Normas Internacionales de Información Financiera de las Normas Internacionales de Contabilidad de la Unión Europea (NIC/NIIF), que entró en vigencia en 2005 y establece normas internacionales de contabilidad para el reconocimiento, medición, consolidación y creación de informes.
 - El Nuevo Acuerdo de Capital de Basilea, Basilea II, aprobado en 2004 para abordar los problemas de riesgo de las instituciones financieras y promover una mayor estabilidad en el sistema financiero en general.
 
-## <a name="enhance-people-practices-with-technology"></a>Mejorar las prácticas de las personas con la tecnología
+## Mejorar las prácticas de las personas con la tecnología
 
 La conformidad no solo depende de la información precisa y los procesos contables apropiados, sino también de las personas que configuran y administran esos procesos. Una solución de administración de negocios efectiva puede facilitar la conformidad y ayudar a administrar información válida y accesible a través de procesos transparentes que se han establecido de conformidad con los estándares normativos del sector.
 
-## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Obtener los beneficios de una solución de gestión empresarial integrada
+## Obtener los beneficios de una solución de gestión empresarial integrada
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] proporciona información operativa y financiera integrada en tiempo real desde toda su organización, para que pueda:
 
@@ -42,22 +42,22 @@ La conformidad no solo depende de la información precisa y los procesos contabl
 - Generar informes financieros de manera rápida y fácil de acuerdo con los estándares normativos aplicables.
 - Mantener registros de auditoría exhaustivos con funciones detalladas y registros de cambios.
 
-## <a name="gain-control-of-critical-information-processes-and-reports"></a>Obtener control de información, procesos e informes críticos.
+## Obtener control de información, procesos e informes críticos.
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] mejora el control de las funciones clave y la información crítica para la operación financiera exitosa de su negocio.
 
-### <a name="manage-compliance-to-the-standards-that-matter"></a>Gestionar la conformidad de las normas importantes
+### Gestionar la conformidad de las normas importantes
 
 Información integrada, procesos alineados y herramientas fáciles de usar para ayudar a sus empleados a cumplir con las expectativas y los estándares de administración financiera que son importantes para su negocio específico.
 
-### <a name="tailor-financial-reports-to-your-needs"></a>Adaptar los informes financieros a sus necesidades
+### Adaptar los informes financieros a sus necesidades
 
 - Defina la estructura del plan de cuentas de su empresa en función de los requisitos comerciales y las normas reglamentarias aplicables.
 - Cree cuentas y maneje procesos complejos relacionados con un rango de actividades comerciales, incluida la valoración de inventarios, las monedas extranjeras, los informes de segmentos y las salidas de los PCGA locales.
 - Controle el nivel de detalle para cada transacción registrada y seleccione el registro detallado para tipos específicos de transacciones, como activos fijos y cuentas por pagar.
 - Personalice los cálculos programados y las visualizaciones de los informes financieros o exporte la información a Microsoft Excel para un análisis más detallado.
 
-### <a name="improve-information-validity"></a>Mejorar la validez de la información
+### Mejorar la validez de la información
 
 - Configure los campos de datos para aceptar solo información en el formato correcto, como el número correcto de posiciones decimales o patrones alfanuméricos.
 - Ayude a garantizar que la información se complete con los controles de la aplicación, como solicitar que se ingrese un número de factura del proveedor antes de que se pueda contabilizar una orden de compra.
@@ -66,20 +66,20 @@ Información integrada, procesos alineados y herramientas fáciles de usar para 
 - Identifique y resuelva fácilmente las discrepancias con una función de conciliación que recupera la información de transacciones y cuentas bancarias actuales y la compara con las publicaciones de contabilidad.
 - Programe copias de seguridad manuales o automáticas para ayudar a proteger la información de fallos electrónicos.
 
-### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Cumpla rápidamente con las solicitudes de descubrimiento y las demandas de informes
+### Cumpla rápidamente con las solicitudes de descubrimiento y las demandas de informes
 
 - Ahorre tiempo al crear informes estándar que utilizan parámetros y criterios comerciales comunes para satisfacer las necesidades típicas de informes, desde resúmenes de pedidos hasta cuentas por cobrar vencidas.
 - Realice revisiones complejas con funcionalidades básicas o avanzadas de análisis de negocios.
 - Cree informes personalizados con las herramientas integradas y la integración con Microsoft Power BI.
 
-### <a name="help-ensure-clear-audit-trails"></a>Facilidad para garantizar pistas de auditoría claras
+### Facilidad para garantizar pistas de auditoría claras
 
 - Realice el seguimiento de documentos e información tanto hacia delante como hacia atrás a través del sistema, desde la fuente original hasta los estados financieros finales y viceversa.
 - Identifique cómo, cuándo y quién ingresó o editó la información, y en qué cuentas se han publicado las entradas financieras.
 - Busque cambios en la base de datos, incluidos los datos anteriores y revisados, en el [registro de cambios](../across-log-changes.md) de la solución.
 - Aumente la transparencia y la facilidad de uso de la auditoría y acelere el acceso a la información para auditores externos con caracterísicas de detalles, búsqueda, filtrado, registro y navegación.
 
-## <a name="compliance-and-local-functionality"></a>Conformidad y funcionalidad local
+## Conformidad y funcionalidad local
 
 Microsoft crea versiones localizadas de Business Central para un número limitado de mercados. Estas localizaciones se centran principalmente en características regulatorias en el áreas fiscal y financiera, pero a veces pueden involucrar otras partes de la solución. Si desea ver qué se crea en las versiones localizadas de Microsot de Business Central, vea **Funcionalidad local** en el menú en este sitio web y elija un país o región. Obtenga más información en [Funcionalidad local](../about-localization.md).  
 
@@ -95,7 +95,7 @@ Microsoft crea versiones localizadas de Business Central para un número limitad
 > **Basilea II: implicaciones para la presentación de informes y análisis**  
 > Basilea II, desarrollada por el Banco de Pagos Internacionales, ayuda a garantizar la protección y la seguridad en el sistema financiero en tres áreas clave: requisitos de capital mínimo, proceso de revisión supervisora y disciplina de mercado. Aunque el acuerdo se aplica a las instituciones financieras y no se dirige a las pequeñas y medianas empresas, Basilea II puede tener algunas implicaciones para estas organizaciones en la presentación de informes y el análisis.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Conformidad](compliance-overview.md)  
 [Conformidad de los servicios](compliance-service-compliance.md)  

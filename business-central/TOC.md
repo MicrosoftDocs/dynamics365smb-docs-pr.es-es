@@ -350,6 +350,7 @@
 
 ### Administrar IVA
 #### [Información general de la administración de IVA](finance-manage-vat.md)
+#### [Transacciones de compra de la UE a terceros](finance-how-to-eu3party-trade-purchase.md)
 #### Configurar IVA
 ##### [Configurar impuesto sobre valor añadido](finance-setup-vat.md)
 ##### [Configuración de grupo contable](finance-posting-groups.md#tax-posting-groups)

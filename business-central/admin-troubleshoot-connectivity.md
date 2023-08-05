@@ -99,6 +99,26 @@ Comprueba que el usuario autenticado pueda conectarse a un entorno descubierto, 
 |No hay dirección de agrupación para realizar esta verificación|Consulte la lista de entornos disponibles en el centro de administración de Business Central.|
 |El punto final de la versión no existe|Consulte la lista de entornos disponibles en el centro de administración de Business Central.|
 
+## Conectividad del servidor web
+
+Comprueba que el usuario autenticado puede establecer correctamente conexiones con el servidor web.
+
+|Problema|Soluciones que puede probar|
+|-------|-------------|
+|No hay ningún usuario autenticado para realizar esta comprobación|Vea la comprobación de **Autenticacion de usuario**.|
+|Error al recuperar entornos disponibles para su cuenta.|Vea **Descubrimiento de entornos de Business Central**.|
+|No hay dirección de agrupación para realizar esta verificación|Consulte la lista de entornos disponibles en el centro de administración de Business Central.|
+|No se pudo establecer una conexión con el servidor web|Borre el caché y vuelva a cargar la página.|
+
+## Estado de mantenimiento del servicio
+
+Informa sobre el estado de salud del servicio de Business Central comprobando las interrupciones declaradas.
+
+|Problema|Soluciones que puede probar|
+|-------|-------------|
+|No hay ningún usuario autenticado para realizar esta comprobación|Vea la comprobación de **Autenticacion de usuario**.|
+|Lo sentimos, Business Central no está disponible temporalmente. Por favor, inténtelo más tarde.|Vuelva a intentarlo más tarde.|
+
 ## Consulte también
 
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  

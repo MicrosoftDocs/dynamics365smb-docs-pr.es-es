@@ -11,7 +11,7 @@ ms.search.form: '5605, 5551, 5600, 5628, 5629, 5633'
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# <a name="acquire-fixed-assets"></a>Activos fijos adquiridos
+# Activos fijos adquiridos
 
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Un libro de amortización debe estar configurado y asignado a cada activo fijo antes de que pueda adquirirlo.
 
@@ -21,7 +21,7 @@ El valor residual es el valor restante de un activo cuando ya no se puede utiliz
 
 El ajuste de valores se utiliza para ajustar los valores a los cambios de niveles generales de precio. El proceso **Ajustar valores activos** puede utilizarse para calcular los costes de adquisición como de sustitución.
 
-## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Para crear un activo y adquirirlo automáticamente
+## Para crear un activo y adquirirlo automáticamente
 
 El procedimiento siguiente describe cómo crear un activo y después adquirirlo utilizando la página **Adquisición activos asistida** para crear y registrar las líneas necesarias del diario general de activos. También puede crear y registrar las líneas de diario manualmente. Para obtener más información, consulte [Para registrar una adquisición de un activo manualmente con el diario general de activos](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
@@ -39,7 +39,7 @@ El procedimiento siguiente describe cómo crear un activo y después adquirirlo 
 
 Cuando elige **Finalizar**, se rellena el campo **Valor libro** de la página **Ficha activo fijo** e indica que el activo se ha adquirido según el coste especificado.  
 
-## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Para configurar una lista de componentes para un activo principal
+## Para configurar una lista de componentes para un activo principal
 
 Puede agrupar sus activos en principales y sus componentes. Por ejemplo, puede tener un equipo de producción que consista en muchas partes, las cuales desea agrupar de esta manera.  
 
@@ -53,7 +53,7 @@ Tanto el activo principal como todos sus componentes deben configurarse como fic
 6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de activos fijos** y luego elija el enlace relacionado.
 7. Seleccione la casilla de verificación **Permitir reg. en activos pples**.
 
-## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Para registrar una adquisición de activo manualmente con el diario general de activos fijos
+## Para registrar una adquisición de activo manualmente con el diario general de activos fijos
 
 El procedimiento siguiente describe cómo adquirir un activo manualmente creando y registrando líneas en la página **A/F Diario general**. También puede adquirir un activo de manera automática utilizando la página **Adquisición activos asistida**. Para obtener más información, consulte el paso 5 en [Para crear un activo y adquirirlo automáticamente](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
@@ -68,7 +68,7 @@ El procedimiento siguiente describe cómo adquirir un activo manualmente creando
 > [!TIP]  
 >   Si rellena el campo **Nº seguro** del diario general de activos fijos en el momento de registrar un coste, [!INCLUDE[prod_short](includes/prod_short.md)] también registrará el coste del activo en los movimientos de seguros. Para obtener más información, vea [Asegurar activos fijos](fa-how-insure.md).
 
-## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Para anular un coste del registro de un activo
+## Para anular un coste del registro de un activo
 
 Si se equivoca al registrar un coste, puede eliminar el movimiento mediante el proceso **Cancelar movs. A/F** y registrar seguidamente el movimiento de adquisición correcto. Los movimientos incorrectos se transfieren a la página **A/F Movs. anulados**.
 
@@ -84,7 +84,7 @@ Por ejemplo, si registra una adquisición con la fecha incorrecta, debe corregir
 5. Elija el botón **Aceptar** para iniciar el trabajo por lotes.
 6. Cuando se hayan cancelado el movimiento o movimientos incorrectos, registre el coste correcto.
 
-## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Para registrar el valor residual junto con el coste
+## Para registrar el valor residual junto con el coste
 
 Puede registrar el valor residual junto con el coste a partir del diario de activos.
 
@@ -99,9 +99,9 @@ Puede registrar el valor residual junto con el coste a partir del diario de acti
 > [!NOTE]
 > Si existe un valor residual para un activo fijo, ese valor se utilizará en el registro de amortización en lugar del valor del campo **Valor contable final** en la página **Libros amortización A/F**. Para obtener más información, consulte [Para administrar el valor contable final](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/purchase-fixed-assets/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/purchase-fixed-assets/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Activos fijos](fa-manage.md) 
 

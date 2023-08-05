@@ -10,7 +10,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="manage-many-incoming-document-records"></a>Gestionar varios registros de documento entrantes
+# Gestionar varios registros de documento entrantes
 
 A medida que crea o procesa registros de documento entrantes, el número de líneas en la página **Documentos entrantes** puede aumentar hasta el punto de perder la visión general. Por lo tanto, puede establecer los registros de documento entrantes en *Procesado* para eliminarlos de la vista por defecto. Cuando selecciona la acción **Mostrar todos**, puede ver tanto los registros procesados como los que están sin procesar.
 
@@ -22,7 +22,7 @@ La casilla de verificación **Procesado** se selecciona automáticamente en los 
 > [!NOTE]  
 > Cuando abre la página **Documentos entrantes** con la acción **Mis documentos entrantes** en el área de trabajo, solo se muestran los registros de documento entrantes sin procesar de forma predeterminada. En este tema se trata como "la vista por defecto".
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Para eliminar los registros de documento entrantes de la vista por defecto
+## Para eliminar los registros de documento entrantes de la vista por defecto
 
 1. En la página **Documentos entrantes**, seleccione una o más líneas para los registros de documento entrantes que quiera eliminar de la vista por defecto.
 2. Seleccione la acción **Establecer en Procesado**.
@@ -32,13 +32,13 @@ La casilla de verificación **Procesado** se selecciona automáticamente en los 
 > [!NOTE]  
 > También puede realizar esta acción para el registro individual en la página **Ficha de documento** entrante.
 
-## <a name="to-view-all-incoming-document-records"></a>Para ver todos los registros de documento entrantes
+## Para ver todos los registros de documento entrantes
 
 1. En la página **Documentos entrantes**, seleccione la opción **Mostrar todos**.
 
 Se muestran todos los registros de documento entrantes, incluyendo los registros que no tienen seleccionada la casilla **Procesado**.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a>Para agregar los registros de documento entrantes a la vista por defecto
+## Para agregar los registros de documento entrantes a la vista por defecto
 
 1. En la página **Documentos entrantes**, seleccione la opción **Mostrar todos**.
 2. Seleccione una o más líneas para los registros de documento entrantes que desea que aparezcan en la vista por defecto.
@@ -47,9 +47,9 @@ Se muestran todos los registros de documento entrantes, incluyendo los registros
 > [!NOTE]  
 > También puede realizar esta acción para el registro individual en la página **Ficha de documento** entrante.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
   
 [Crear registros de documentos entrantes](across-how-create-income-document-records.md)
 [Cree registros de documentos entrantes directamente desde documentos y entradas](across-how-connect-disconnect-income-document-records.md)

@@ -10,11 +10,11 @@ ms.date: 02/10/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Descripción general de la configuración y administración de la impresora
+# Descripción general de la configuración y administración de la impresora
 
 La impresión de documentos e informes desde [!INCLUDE[prod_short](includes/prod_short.md)] es una tarea importante para los usuarios empresariales. Usted normalmente querrá enviar trabajos de impresión directamente a una de las impresoras de su organización, independientemente del cliente o la aplicación de [!INCLUDE[prod_short](includes/prod_short.md)] que use. Puesto que [!INCLUDE[prod_short](includes/prod_short.md)] Online es un servicio en la nube, no puede llegar directamente a las impresoras locales conectadas a los dispositivos de los usuarios, pero puede conectarlo a impresoras habilitadas para la nube.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>¿Cuáles son sus posibilidades de impresión en Business Central?
+## ¿Cuáles son sus posibilidades de impresión en Business Central?
 
 Para satisfacer sus necesidades de impresión, [!INCLUDE[prod_short](includes/prod_short.md)] ofrece las siguientes características:
 
@@ -29,13 +29,13 @@ La mayor parte del trabajo para configurar impresoras se puede realizar desde la
 > [!IMPORTANT]
 > Para Business Central en las instalaciones, Universal Print y Email Print requieren que se use la autenticación de Azure Active Directory (AD) o NavUserPassword.
 
-## <a name="custom-printer-extensions"></a>Extensiones de impresora personalizadas
+## Extensiones de impresora personalizadas
 
 [!INCLUDE[prod_short](includes/prod_short.md)] admite otras extensiones de impresora personalizadas que agregan aún más características de impresión. Por lo tanto, si instala extensiones de impresora personalizadas, su aplicación puede incluir características de impresión que no se describen en este artículo.
 
 Si es un desarrollador de AL y desea obtener información sobre cómo crear extensiones de impresora, vaya a [Desarrollo de extensiones de impresora en Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Pasos siguientes
+## Pasos siguientes
 
 - [Configurar impresoras de Impresión universal](admin-printer-setup-universal-print.md)  
 - [Configurar impresoras por correo electrónico](admin-printer-setup-email.md)  

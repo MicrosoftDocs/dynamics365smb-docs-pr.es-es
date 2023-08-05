@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Detalles de diseño: Disponibilidad en el almacén
+# Detalles de diseño: Disponibilidad en el almacén
 
 Esté al tanto de la disponibilidad de artículos para garantizar que los pedidos salientes fluyan de manera eficiente y que sus tiempos de entrega sean óptimos.  
 
@@ -21,13 +21,13 @@ Antes de asignar cantidades a selecciones para los flujos de salida, [!INCLUDE [
 
 Cuando no se cumplen las condiciones, se muestran mensajes de error. Un mensaje típico es el genérico "No hay nada que manejar". . El mensaje se puede mostrar por muchas razones diferentes, en los flujos de entrada y salida, en los que una línea de documento contiene el campo **Cant. a manipular**.
 
-## <a name="bin-content-and-reservations"></a>Contenido y reservas de ubicación
+## Contenido y reservas de ubicación  
 
 Las cantidades de artículos existen tanto como asientos de almacén como asientos de artículos en el inventario. Estos dos tipos de movimientos contienen información diversa sobre el lugar donde están los productos y si están disponibles. Los movimientos de almacén definen la disponibilidad de un producto por ubicación y tipo de ubicación, lo que se denomina contenido de ubicación. Los movimientos de producto definen la disponibilidad de un producto por su reserva para documentos de salida.  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calcula la cantidad que está disponible para recoger cuando el contenido del contenedor se combina con las reservas.  
 
-## <a name="quantity-available-to-pick"></a>Cantidad disponible para picking
+## Cantidad disponible para picking  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reserva artículos para envíos de órdenes de venta pendientes para que no se seleccionen para otras órdenes de venta que se envíen antes. [!INCLUDE [prod_short](includes/prod_short.md)] resta las cantidades de artículos que ya se están procesando, de la siguiente manera:
 
@@ -46,7 +46,7 @@ El resultado está disponible en estos documentos en los campos de cantidad, com
 > [!NOTE]  
 > Para la prioridad de las reservas, la cantidad que reservar se resta de la cantidad disponible para seleccionar. Por ejemplo, si la cantidad disponible en las ubicaciones de selección es 5 unidades, pero hay 100 unidades en ubicaciones de colocación, cuando reserve más de 5 unidades para otro pedido, aparecerá un mensaje de error, ya que la cantidad adicional debe estar disponible en ubicaciones de selección.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Cálculo de la cantidad disponible para seleccionar
+### Cálculo de la cantidad disponible para seleccionar  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calcula la cantidad disponible para picking de la manera siguiente:  
 
@@ -56,7 +56,7 @@ En el diagrama siguiente se muestra los diferentes elementos del cálculo.
 
 ![Disponible para picking con superposición de reservas.](media/design_details_warehouse_management_availability_2.png "Disponible para picking con superposición de reservas")  
 
-## <a name="quantity-available-to-reserve"></a>Cantidad disponible para reservar
+## Cantidad disponible para reservar
 
 Dado que coexisten los conceptos de contenido y de reserva de ubicación, la cantidad de productos disponibles para reservar se debe alinear con las asignaciones hacia documentos de almacén de salida.  
 
@@ -73,7 +73,7 @@ El resultado se muestra en el campo**Cantidad total disponible** en la página *
 
 En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la página **Reservas**.  
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Cálculo de la cantidad disponible para reservar
+### Cálculo de la cantidad disponible para reservar
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calcula la cantidad disponible para reservar de la manera siguiente:  
 
@@ -83,7 +83,7 @@ En el diagrama siguiente se muestra los diferentes elementos del cálculo.
 
 ![Disponible para reserva por asignaciones de almacén.](media/design_details_warehouse_management_availability_3.png "Disponible para reserva por asignaciones de almacén")  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 
 [Descripción general de la gestión de almacenes](design-details-warehouse-management.md)
 [Ver la disponibilidad de artículos](inventory-how-availability-overview.md)

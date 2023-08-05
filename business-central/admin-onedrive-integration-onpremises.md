@@ -10,7 +10,7 @@ ms.search.keywords: 'OneDrive, share, browser'
 ms.date: 09/06/2022
 ms.author: jswymer
 ---
-# <a name="configuring-onedrive-integration-with-business-central-on-premises"></a>Configuración de la integración de OneDrive con Business Central local
+# Configuración de la integración de OneDrive con Business Central local
 
 Este artículo explica cómo configurar la integración de OneDrive con Business Central local. A diferencia de [!INCLUDE[prod_short](includes/prod_short.md)] en línea, la conexión entre Business Central y OneDrive para la Empresa no se configura automáticamente. Si la conexión no se configura, los usuarios no pueden usar las funciones para OneDrive.
 
@@ -22,7 +22,7 @@ Hay dos tareas que deben realizarse para configurar la integración de OneDrive.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] local solo se puede conectar a OneDrive alojado por Microsoft en la nube. No se admite la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] local al repositorio Mis sitios de SharePoint Server.
 
-## <a name="register-an-app-in-azure-ad-for-onedrive-integration"></a><a name="registerapp"></a>Registrar una aplicación en Azure AD para la integración de OneDrive
+## <a name="registerapp"></a>Registrar una aplicación en Azure AD para la integración de OneDrive
 
 En esta tarea, agregará una aplicación registrada para Business Central en el inquilino de Azure AD de su plan Microsoft 365. Como otros servicios de Azure que funcionan con Business Central, OneDrive requiere una aplicación registrada en Azure Active Directory (Azure AD). La aplicación registrada proporciona servicios de autenticación y autorización entre Business Central y SharePoint, que utiliza OneDrive.
 
@@ -45,19 +45,19 @@ Al registrar la aplicación, tenga en cuenta los siguientes puntos:
 
 - Si está utilizando la versión 19 o 20 de Business Central, copie el **ID de la aplicación (cliente)** y el **secreto del cliente** utilizado por la aplicación registrada. Necesitará esta información en la siguiente tarea.
 
-## <a name="get-your-onedrive-url"></a><a name="url"></a>Conseguir la URL de OneDrive
+## <a name="url"></a>Conseguir la URL de OneDrive
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version-21-and-later"></a>Configurar la conexión de OneDrive en la versión 21 y posteriores
+## Configurar la conexión de OneDrive en la versión 21 y posteriores
 
 Use este procedimiento si está usando Business Central 2022 versión 2 (versión 21) o posterior.
 
-### <a name="prerequisites"></a>Requisitos previos
+### Requisitos previos
 
 - Permiso indirecto, modificar y eliminar (imd) en la tabla **Escenario de servicio de documentos** como minimo
 
-### <a name="run-onedrive-setup"></a>Ejecutar la configuración de OneDrive
+### Ejecutar la configuración de OneDrive
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de OneDrive** y luego elija el enlace relacionado.
 2. La primera vez que ejecute la configuración asistida, verá **Su privacidad**. Lea la inforamción de la página y, si está de acuerdo con los términos, seleccione **Aceptar** para continuar.
@@ -74,7 +74,7 @@ Use este procedimiento si está usando Business Central 2022 versión 2 (versió
    - Si aún no ha configurado la aplicación de Azure AD registrada, la guía **Configurar Azure Active Directory** se abre.
 6. Una vez completado, el aviso de privacidad para la integración de OneDrive está acordada para todos los usuarios. Si desea cambiarlo para que los usuarios deban estar de acuerdo o en desacuerdo por sí mismos, entonces vaya a la página **Estado de los avisos de privacidad** y seleccione **Dejar que el usuario decida** para la integración de OneDrive. A continuación, se solicitará a los usuarios que acepten o no el aviso de privacidad la primera vez que utilicen las caracteristicas de OneDrive. Para obtener más información, consulte [Avisos de privacidad](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in--version-19-and-20"></a>Configurar la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] en la versión 19 y 20
+## Configurar la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] en la versión 19 y 20
 
 Use este procedimiento si está usando el primer lanzamiento de versiones de 2022 de Business Central (versión 20) o el segundo lanzamiento de versiones de 2021 (versión 19).
 > [!IMPORTANT]
@@ -96,17 +96,17 @@ Use este procedimiento si está usando el primer lanzamiento de versiones de 202
 > [!IMPORTANT]
 > La página **Configuración de conexión de SharePoint** se utiliza para configurar varias funciones heredadas. La sección **General** configura la conexión con OneDrive, y la sección **Documentos compartidos** redirige archivos a SharePoint en su lugar. **Configuración de la conexión de SharePoint** ha quedado obsoleta y se eliminará en la próxima versión. Le recomendamos que no configure la sección **Documentos compartidos**. Para más información, consulte [Funciones obsoletas en la aplicación base ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-21"></a>Después de actualizar a la versión 21
+## Después de actualizar a la versión 21
 
 Cuando actualiza a la versión 21 o posterior, la conexión existente a OneDrive que está configurado en la página **Configuración de la conexión de SharePoint** seguirá funcionando. Pero, como la página **Configuración de la conexión de SharePoint** se eliminará en la versión 23, le recomendamos que cambie a la nueva integración de OneDrive, como se describe en la siguiente sección. Hacer este cambio ahora hará que sea más fácil cuando la **Configuración de la conexión de SharePoint** finalmente se elimine. Además, le permitirá utilizar la guía de configuración asistida de **Configuración de OneDrive** para administrar las características de OneDrive que son accesibles para los usuarios.
 
-## <a name="switching-from-legacy-sharepoint-to-new-onedrive-integration"></a>Cambiar SharePoint heredado a la nueva integración de OneDrive
+## Cambiar SharePoint heredado a la nueva integración de OneDrive 
 
 Para cambiar a la nueva integración de OneDrive, ejecute la guía de configuración asistida de **Configuración de OneDrive**, que puede abrir directamente o desde la página **Configuración de la conexión de SharePoint** heredada. La configuración asistida de **Configuración de OneDrive** le guiará a través de la transición y le brindará información sobre los cambios que se realizarán en el camino.
 
 Antes de comenzar con el cambio o mientras lo hace, consulte la siguiente sección para conocer algunos aspectos y consideraciones sobre el proceso. 
 
-### <a name="about-switching-to-the-new-onedrive-integration"></a><a name="onedrivesetupmigration"></a>Acerca de cambiar a la nueva integración de OneDrive
+### <a name="onedrivesetupmigration"></a>Acerca de cambiar a la nueva integración de OneDrive
 
 Además de la integración de OneDrive, Business Central también puede integrarse con otros servicios, como Power BI e impresión universal. La integración con estos otros servicios también requiere una aplicación registrada de Azure AD para la autenticación. La aplicación Azure AD utilizada por estos otros servicios está configurada en la configuración asistida **Configurar las cuentas de Azure Active Directory**. Cuando cambia de la configuración de conexión de SharePoint heredada, la nueva configuración asistida **Configuración de OneDrive** cambiará su integración de OneDrive para usar también la configuración asistida de **Configurar las cuentas de Azure Active Directory**, por lo que todas las integraciones utilizan la misma aplicación Azure AD.
 
@@ -115,7 +115,7 @@ Este cambio tiene implicaciones a la hora de pasar a la nueva integración de On
 > [!IMPORTANT]
 > Después de cambiar a la nueva configuración de OneDrive, ya no puede utilizar la página **Configuración de la conexión de SharePoint** para configurar la integración de OneDrive.
 
-#### <a name="how-the-changes-affect-the-integration"></a>Cómo afectan los cambios a la integración
+#### Cómo afectan los cambios a la integración
 
 La configuración asistida de **Configuración de OneDrive** siempre usará la aplicación que está configurada en la configuración asistida **Configurar las cuentas de Azure Active Directory**, si hay una. Cuando ejecuta la configuración asistida **Configuración de OneDrive**, comparará la aplicación configurada en **Configurar sus cuentas de Azure Active Directory** con su aplicación actual configurada en **Configuración de la conexión de SharePoint**.
 
@@ -147,7 +147,7 @@ La configuración asistida de **Configuración de OneDrive** siempre usará la a
 
    `The Azure Active Directory Application used for authentication will be configured for all Business Central integrations`.
 
-### <a name="run-onedrive-setup-to-switch-to-the-new-onedrive-integration"></a>Ejecutar la configuración de OneDrive para cambiar a la nueva integración de OneDrive
+### Ejecutar la configuración de OneDrive para cambiar a la nueva integración de OneDrive
 
 1. Abra la página **Configuración de OneDrive** o la página **Configuración de la conexión de SharePoint**.
 2. Si está usando la **Configuración de la conexión de SharePoint**, elija **Ir a la nueva configuración de OneDrive** en la notificación en la parte superior de la página.
@@ -161,7 +161,7 @@ La configuración asistida de **Configuración de OneDrive** siempre usará la a
 
    Si la prueba tiene éxito, seleccione **Hecho** y entonces todo estará listo. De lo contrario, use los mensajes en la página para ayudarlo a solucionar el problema.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Integración de Business Central y OneDrive para la Empresa](across-onedrive-overview.md)  
 [Abrir archivos de Business Central en OneDrive](across-share-onedrive.md)  
 [Preguntas más frecuentes de OneDrive](admin-onedrive-faq.md)

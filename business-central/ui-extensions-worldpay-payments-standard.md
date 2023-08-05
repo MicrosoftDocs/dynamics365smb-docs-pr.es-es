@@ -10,7 +10,7 @@ ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="the-worldpay-payments-standard-extension"></a>Extensión WorldPay Payments Standard
+# Extensión WorldPay Payments Standard
 
 > [!CAUTION]
 > La extensión WorldPay Payments Standard quedará obsoleta. El código se comercializa como obsoleto a partir del segundo lanzamiento de versiones de 2023. La aplicación estará activa durante los próximos tres lanzamientos principales y luego se eliminará.   
@@ -20,7 +20,7 @@ Si habilita la extensión y envía una factura de venta o un pedido de venta por
 
 La activación de extensiones de servicio de pago es gratuita en [!INCLUDE[prod_short](includes/prod_short.md)], pero deberá ponerse en contacto con el servicio de pago para obtener una cuenta. Para obtener más información, consulte [Permitir pagos de cliente a través de servicios de pago](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Configuración de ventas](sales-setup-sales.md)  
