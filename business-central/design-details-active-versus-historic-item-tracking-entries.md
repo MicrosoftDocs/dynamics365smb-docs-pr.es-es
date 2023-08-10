@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Detalles de diseño: registros de seguimiento de productos históricos frente a activos
+# <a name="design-details-active-versus-historic-item-tracking-entries"></a>Detalles de diseño: registros de seguimiento de productos históricos frente a activos
 Cuando se registran partes de una cantidad de línea de documento, solo dicha cantidad concreta se transfiere a los movimientos de producto y sus números de seguimiento de producto. No obstante, le interesará acceder a toda la información de seguimiento del producto relevante directamente desde la línea activa del documento. Es decir, no solo desea ver los movimientos que están relacionados con la cantidad restantes, sino que también desea información sobre las unidades que se han registrado. Cuando consulte o modifique la página **Líns. seguim. prod.**, el contenido colectivo de las tablas **Especificación seguimiento** (T336) y **Mov. reserva** (T337) se presentan en una versión temporal de T336. De este modo se garantiza que se obtiene acceso a los datos de seguimiento de producto históricos y activos como una sola unidad.  
 
  En la tabla siguiente se muestra cómo se usan T336 y T337 en un escenario de compra. Las cifras en negrita representan los valores que el usuario especifica manualmente en la página **Líns. seguim. prod.**  
@@ -52,7 +52,7 @@ Cuando se registran partes de una cantidad de línea de documento, solo dicha ca
 |Página **Líns. seguim. prod. almacén**|7|0|**5**|7|2|  
 |**T336**|7|0|0|7|7|  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
  [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)   
  [Detalles de diseño: página Líns. seguim. prod.](design-details-item-tracking-lines-window.md)
 

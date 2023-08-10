@@ -11,7 +11,7 @@ ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# Usar flujos de trabajo de aprobación del producto
+# <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
 
 Un flujo de trabajo es una secuencia de tareas que se desencadenan por una acción, una condición o una regla. Los flujos de trabajo generalmente se implementan para integrar la lógica empresarial a una organización, como la separación de funciones, unificar procesos o aplicar procedimientos recomendados.
 
@@ -64,9 +64,9 @@ Antes de empezar a utilizar flujos de trabajo, debe configurar usuarios de flujo
 | Ver los casos del paso del flujo de trabajo con estado de **Completado**. | [Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md) |
 | Eliminar un flujo de trabajo de aprobación que está seguro de que no se utilizará más. | [Eliminar flujos de trabajo de aprobación](across-how-to-delete-workflows.md) |
 
-## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar flujos de trabajo de aprobación](across-set-up-workflows.md)  
 [Flujo de trabajo](across-workflow.md)  

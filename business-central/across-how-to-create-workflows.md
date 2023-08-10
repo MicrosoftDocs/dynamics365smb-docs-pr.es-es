@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
 ---
-# Crear flujos de trabajo para conectar tareas en procesos de negocio
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Crear flujos de trabajo para conectar tareas en procesos de negocio
 
 Puede crear flujos de trabajo que conecten tareas en procesos de negocio realizadas por distintos usuarios. Puede incluir tareas de sistema, como registros automáticos, como pasos en los flujos de trabajo que van antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo.  
 
@@ -42,7 +42,7 @@ Un flujo de trabajo se divide en tres secciones:
 
 Las opciones para eventos y respuestas están definidas por el sistema. Para agregar nuevas opciones, deberá desarrollar una extensión.
 
-## Para crear un flujo de trabajo
+## <a name="to-create-a-workflow"></a>Para crear un flujo de trabajo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**. Se abre la página **Flujo de trabajo**.  
@@ -113,7 +113,7 @@ Las opciones para eventos y respuestas están definidas por el sistema. Para agr
 > [!TIP]  
 > Para explorar las relaciones entre las tablas que se utilizan en flujos de trabajo, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") y luego especifique **Flujo de trabajo: relaciones de tabla**.  
 
-## Ejemplo de creación de un nuevo flujo de trabajo utilizando eventos existentes
+## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Ejemplo de creación de un nuevo flujo de trabajo utilizando eventos existentes
 
 En el siguiente ejemplo, se crea un flujo de trabajo para aprobar un cambio en el nombre de un proveedor:
 
@@ -172,9 +172,9 @@ La siguiente ilustración proporciona una descripción general del resultado de 
 
 A continuación, pruebe el flujo de trabajo abriendo una tarjeta de proveedor existente y cambiando el nombre. Verifique que se envíe una solicitud de aprobación después de cambiar el nombre del proveedor.
 
-## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Crear flujos de trabajo a partir de plantillas de flujo de trabajo](across-how-to-create-workflows-from-workflow-templates.md)  
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  

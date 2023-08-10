@@ -11,14 +11,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 01/21/2022
 ms.author: edupont
 ---
-# Configurar o cambiar el plan de cuentas
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
 
 El plan de cuentas (COA) muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[prod_short](includes/prod_short.md)] incluye un COA estándar que está preparado para respaldar su negocio. Sin embargo, puede cambiar las cuentas predeterminadas y agregar nuevas cuentas.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Agregar o cambiar cuentas
+## <a name="add-or-change-accounts"></a>Agregar o cambiar cuentas
 
 Desde el COA, puede abrir cada cuenta de contabilidad y agregar o cambiar la configuración. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Para cuentas del tipo **Total**, deberá completar el campo **Sumatorio**. Para 
 > [!IMPORTANT]
 > Si ha escrito definiciones en los campos **Sumatorio** referentes a las cuentas **Fin-Total** antes de ejecutar la función Indentar, deberá volver a escribirlas, ya que esta función sobrescribe los valores de todos los campos **Fin-Total**.
 
-## Eliminar cuentas
+## <a name="delete-accounts"></a>Eliminar cuentas
 
 Puede eliminar una cuenta contable. Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:  
 
@@ -39,7 +39,7 @@ Puede eliminar una cuenta contable. Sin embargo, antes de eliminarla, deben cump
 
 [!INCLUDE[prod_short](includes/prod_short.md)] impide que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.  
 
-## Bloquear eliminación de cuentas de contabilidad
+## <a name="block-deletion-of-gl-accounts"></a>Bloquear eliminación de cuentas de contabilidad
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -49,9 +49,9 @@ Un nuevo campo, **Bloquear eliminación de cuentas de contabilidad**, se ha agre
 
 Establecer el campo **Bloquear eliminación de cuentas de contabilidad** en *Sí* puede considerarse una buena práctica, lo mismo que establecer la fecha del campo **Comprobar eliminación de cuenta después de** en, por ejemplo, la fecha en la que debe almacenar sus datos financieros.  
 
-## Consultar la [formación de Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/chart-accounts-dynamics-365-business-central/index) relacionada
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  

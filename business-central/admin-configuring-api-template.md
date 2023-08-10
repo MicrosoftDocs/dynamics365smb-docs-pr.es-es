@@ -12,17 +12,17 @@ ms.date: 06/07/2022
 ms.author: solsen
 ---
 
-# Configurar plantillas API
+# <a name="configure-api-templates"></a>Configurar plantillas API
 
 La biblioteca API para [!INCLUDE[prod_short_md](includes/prod_short.md)] proporciona una representación simplificada de las entidades subyacentes. Todas las propiedades de la aplicación no están expuestas a través de la API asociada. La página **Configuración de API** le permite definir plantillas que se utilizan para llenar propiedades vacías en una entidad cuando crea una acción POST a través de la API. 
 
 Por ejemplo, si se define una plantilla de configuración para la entidad del elemento, cuando se crea un nuevo registro del elemento a través de la API de elementos, las propiedades del nuevo elemento que no están definidas en la API se rellenarán a partir de la plantilla seleccionada. Si, por ejemplo, no se define ningún valor para el campo **Grupo contable producto** a través de la API, pero se define un valor en la plantilla seleccionada, el valor del grupo definido en la plantilla se aplicará al nuevo elemento. 
 
-## Configuración de la plantilla de entidad
+## <a name="setting-up-the-entity-template"></a>Configuración de la plantilla de entidad
 
 Para usar plantillas con la biblioteca API, primero debe configurar y definir propiedades para las plantillas. Puede configurar estas plantillas en la página **Plantillas de configuración**. Para más información, consulte [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de administración (solo en inglés).  
 
-## Asigne la plantilla a una API
+## <a name="assign-the-template-to-an-api"></a>Asigne la plantilla a una API
 
 Para asignar una plantilla a una API, debe seguir los siguientes pasos.
 
@@ -45,7 +45,7 @@ Para asignar una plantilla a una API, debe seguir los siguientes pasos.
 
     La plantilla definida se aplica a un nuevo registro creado a través de la API si, y únicamente en el caso de que, las condiciones definidas en el campo **Condiciones** se cumplan con los valores ya definidos para la nueva instancia de la entidad.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Documentación de la API](/dynamics-nav/fin-graph)  
 [Desarrollar Connect Apps para [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ---
-# Transferir el inventario entre almacenes
+# <a name="transfer-inventory-between-locations"></a>Transferir el inventario entre almacenes
 
 Puede transferir inventarios de productos entre almacenes creando pedidos de transferencia. También puede usar el diario de reclasificación de productos.
 
 > [!NOTE]
 > Para transferir productos, debe configurar los almacenes y las rutas de transferencia. Para obtener más información sobre cómo configurar almacenes, vaya a [Configurar almacenes](inventory-how-setup-locations.md). No puede usar pedidos de transferencia para almacenes *en blanco*.
 
-## Pedidos de transferencia
+## <a name="transfer-orders"></a>Pedidos de transferencia
 
 Puede enviar una transferencia de salida desde un almacén y recibir una transferencia de entrada en el destino. Con él, puede:
 
@@ -26,7 +26,7 @@ Puede enviar una transferencia de salida desde un almacén y recibir una transfe
 * Use diferentes funciones de almacén para los almacenes de entrada y salida.
 * Con algunas limitaciones, puede usar pedidos de transferencia para transferencias directas.
 
-## Diarios de reclasificación de productos
+## <a name="item-reclassification-journals"></a>Diarios de reclasificación de productos
 
 * Transferencia sencilla y directa de productos entre almacenes.
 * Mueva productos entre ubicaciones. Para obtener más información sobre la transferencia de productos entre ubicaciones, vaya a [Mover productos no planificados en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
@@ -35,7 +35,7 @@ Puede enviar una transferencia de salida desde un almacén y recibir una transfe
 * Reclasifique productos desde un almacén *en blanco* hasta un almacén real.
 * Las actividades de almacén no se administran. Se crearán movimientos de almacén.
 
-## Para transferir productos con un pedido de transferencia
+## <a name="to-transfer-items-with-a-transfer-order"></a>Para transferir productos con un pedido de transferencia
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de transferencia** y luego elija el enlace relacionado.
 2. En la página **Pedido de transferencia**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -60,7 +60,7 @@ Puede enviar una transferencia de salida desde un almacén y recibir una transfe
     Como trabajador de almacén en el almacén de procedencia de la transferencia, continúe con la recepción de los productos. Las líneas del pedido de transferencia son las mismas que en el envío y no se pueden editar.
 5. Seleccione la acción **Registrar**, seleccione la opción **Recepción** y seleccione el botón **Aceptar**.
 
-### Contabilizar varios pedidos de transferencia en un lote
+### <a name="post-multiple-transfer-orders-in-a-batch"></a>Contabilizar varios pedidos de transferencia en un lote
 
 El siguiente procedimiento explica cómo contabilizar pedidos de transferencia en un lote.
 
@@ -80,7 +80,7 @@ El siguiente procedimiento explica cómo contabilizar pedidos de transferencia e
     > [!NOTE]
     > La contabilización de varios documentos puede llevar algún tiempo y bloquear a otros usuarios. Considere habilitar la publicación en segundo plano. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### Programar una entrada de la cola de trabajos para contabilizar varios documentos en un lote
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Programar una entrada de la cola de trabajos para contabilizar varios documentos en un lote
 
 Como alternativa, puede usar la cola de trabajos para programar la contabilidad, para que se realice en un momento que sea conveniente para su organización. Por ejemplo, para su empresa puede tener sentido ejecutar ciertas rutinas cuando la mayor parte de la introducción de datos del día ha concluido.
 
@@ -100,7 +100,7 @@ El siguiente procedimiento muestra cómo configurar el informe **Contabilizar pe
 8. En el campo **Hora inicial**, introduzca **4 p. m.**.
 9. Elija la acción **Establecer estado en Preparado**.
 
-## Para transferir productos con el diario de reclasificación de productos
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Para transferir productos con el diario de reclasificación de productos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios reclasif. producto**, y luego elija el enlace relacionado.
 2. En la página **Diarios reclasif. producto**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -113,7 +113,7 @@ El siguiente procedimiento muestra cómo configurar el informe **Contabilizar pe
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Deahacer un envío de transferencia
+## <a name="undo-a-transfer-shipment"></a>Deahacer un envío de transferencia
 
 Si encuentra un error en una cantidad en una orden de transferencia contabilizada, siempre que no se reciba el envío, puede corregir fácilmente la cantidad. En la página **Envío de transferencia contabilizado**, la acción **Deshacer envío** crea líneas correctivas, de la siguiente manera:
 
@@ -125,9 +125,9 @@ Si la cantidad se ha enviado en un envío de almacén, se crea una línea de cor
 
 Para completar la corrección, vuelva a abrir la orden de transferencia, introduzca la cantidad correcta y luego contabilice el pedido. Si utiliza un envío de almacén para enviar el pedido, cree y contabilice un nuevo envío de almacén.
 
-## Consultar la [formación de Microsoft](/training/modules/transfer-items/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/transfer-items/) relacionada
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Gestionar inventario](inventory-manage-inventory.md)  
 [Configurar ubicaciones](inventory-how-setup-locations.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Gestión financiera
+# <a name="financial-management"></a>Gestión financiera
 
 [!INCLUDE[prod_short](includes/prod_short.md)] incluye una configuración estándar de muchos procesos financieros, pero puede cambiarla para que se adapte a las necesidades de su empresa. Obtenga más información en [Configurar las finanzas](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Trabaje con extractos financieros y resúmenes en Microsoft Excel. |[Análisis de estados financieros en Excel](finance-analyze-excel.md) |
 |Aprenda a usar el Área de trabajo contable, interactúe con un contable externo y utilice el hub de empresa para administrar las cuentas de varios clientes.|[Experiencias contables en Business Central](finance-accounting.md)|  
 
-## Realizar una visita guiada en vídeo
+## <a name="take-a-video-tour"></a>Realizar una visita guiada en vídeo
 
 Este vídeo presenta algunas de las capacidades clave para administrar las finanzas. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar las finanzas](finance-setup-finance.md)  
 [Ccial](sales-manage-sales.md)  

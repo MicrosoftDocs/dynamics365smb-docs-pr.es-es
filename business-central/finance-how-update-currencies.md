@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# Actualizar tipos cambio divisa
+# <a name="update-currency-exchange-rates"></a>Actualizar tipos cambio divisa
 
 Puede definir diferentes divisas en [!INCLUDE [prod_short](includes/prod_short.md)], por ejemplo, si opera con divisas distintas a su divisa local. Después, para ayudarle a realizar un seguimiento de los cambios en las tasas de cambio de divisa, puede administrar las divisas manualmente o configurar un servicio de tasa de cambio de diviso.
 
-## Divisas
+## <a name="currencies"></a>Divisas
 
 > [!TIP]  
 > Si está buscando información en tiempo real sobre tipos de cambio (FX) o tipos de cambio históricos, en [!INCLUDE[prod_short](includes/prod_short.md)] la encontrará como divisa. Además de este artículo, consulte también [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Puede definir diferentes divisas en [!INCLUDE [prod_short](includes/prod_short.m
 
 Especifique los códigos de moneda en la lista **Divisas**, incluida la información adicional y los ajustes necesarios para cada código de divisa. Para obtener más información, consulte [Divisas](finance-set-up-currencies.md#curr)
 
-### Ejemplo de una transacción de divisa por cobrar
+### <a name="example-of-a-receivable-currency-transaction"></a>Ejemplo de una transacción de divisa por cobrar
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Tipos de cambio
+## <a name="exchange-rates"></a>Tipos de cambio
 
 Los tipos de cambio son la herramienta para calcular el valor en divisa local (DL) de cada transacción en moneda. La página **Tipos de cambio** incluye los siguientes campos:
 
@@ -54,7 +54,7 @@ El importe del tipo de cambio del ajuste o el importe del tipo de cambio del aju
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## Ajustar los tipos de cambio
+## <a name="adjusting-exchange-rates"></a>Ajustar los tipos de cambio
 
 Puesto que los tipos de cambio fluctúan constantemente, los equivalentes de la divisa adicional del sistema se deben ajustar regularmente. Si no se llevan a cabo estos ajustes, los importes que se hayan convertido desde divisas extranjeras (o adicionales) y registrado en contabilidad en la divisa local pueden ser erróneos. Además, los movimientos diarios registrados antes de que se introduzca el tipo de cambio del día en la aplicación se tienen que actualizar una vez que se haya introducido esta información.
 
@@ -69,28 +69,28 @@ Puede obtener una vista previa del efecto que tendrá un ajuste en el registro a
 - **Por cuenta**: los movimientos contables para ganancias y pérdidas no realizadas tendrán valores de dimensión transferidos desde el movimiento de origen de configuración de dimensiones en la cuenta de ganancias y pérdidas no realizadas.
 - **Sin transferencia**: los movimientos contables para ganancias y pérdidas no realizadas no tendrán valores de dimensión.
 
-### Efecto en clientes y proveedores
+### <a name="effect-on-customers-and-vendors"></a>Efecto en clientes y proveedores
 
 En las cuentas de proveedores y clientes, el trabajo por lotes ajusta la divisa utilizando el tipo de cambio vigente a la fecha de registro que se especifica en el trabajo por lotes. El proceso calcula las diferencias de cada uno de los saldos en divisa y registra los importes en la cuenta especificada en el campo **Cta. dif. pos. no realizadas** o en el campo **Cta. dif. neg. no realizadas** de la página **Divisas**. Los movimientos de contrapartida se registran automáticamente en la cuenta de cobros y pagos de la contabilidad.
 
 El proceso utiliza todos los movimientos de clientes y de proveedores. Si hay un tipo de cambio diferente para un movimiento, el proceso crea un nuevo movimiento detallado de cliente o de proveedor, que refleja el importe ajustado del movimiento de cliente o de proveedor.
 
-#### Dimensiones en movimientos de clientes y proveedores
+#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensiones en movimientos de clientes y proveedores
 
 Los movimientos de ajuste se asignan a las dimensiones de los movimientos de clientes y proveedores y los ajustes se registran por combinación de valores de dimensiones.
 
-### Efecto sobre cuentas bancarias
+### <a name="effect-on-bank-accounts"></a>Efecto sobre cuentas bancarias
 
 En las cuentas de bancos, el trabajo por lotes ajusta la divisa utilizando el tipo de cambio vigente a la fecha de registro especificada en el trabajo por lotes. El proceso calcula las diferencias de cada banco y registra los importes en la cuenta contable especificada en el campo **Cta. dif. pos. realizadas** o en el campo **Cta. dif. neg. realizadas** de la página **Divisas**. Los movimientos de contrapartida se registran automáticamente en las cuentas de bancos especificadas en los grupos contables de bancos. El proceso calcula un movimiento por divisa por grupo contable.
 
-#### Dimensiones en movimientos de bancos
+#### <a name="dimensions-on-bank-account-entries"></a>Dimensiones en movimientos de bancos
 
 Los movimientos de ajustes de la cuenta contable del banco y de la cuenta de pérdidas y ganancias se asignan a las dimensiones predeterminadas de la cuenta de banco.
 
-### Efecto sobre cuentas
+### <a name="effect-on-gl-accounts"></a>Efecto sobre cuentas
 Si registra en una divisa adicional, puede hacer que el proceso genere movimientos nuevos de contabilidad para realizar ajustes de divisas entre la DL y la divisa adicional. El proceso calcula las diferencias de cada movimiento y ajusta el movimiento en función del valor que figure en el campo **Ajuste tipo cambio** para cada cuenta.
 
-##### Dimensiones en movimientos de cuentas contables
+##### <a name="dimensions-on-gl-account-entries"></a>Dimensiones en movimientos de cuentas contables
 Los movimientos registrados se asignan a las dimensiones predeterminadas de las cuentas donde están registrados.
 
 > [!Important]
@@ -98,7 +98,7 @@ Los movimientos registrados se asignan a las dimensiones predeterminadas de las 
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## Para configurar un servicio de tipo de cambio de divisa
+## <a name="to-set-up-a-currency-exchange-rate-service"></a>Para configurar un servicio de tipo de cambio de divisa
 Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa como FloatRates. 
 
 > [!NOTE]
@@ -116,15 +116,15 @@ Puede utilizar un servicio externo para mantener actualizados los tipos de cambi
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## Para actualizar los tipos de cambio de divisa mediante un servicio
+## <a name="to-update-currency-exchange-rates-through-a-service"></a>Para actualizar los tipos de cambio de divisa mediante un servicio
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Divisas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Actualizar tipos de cambio**.
 
 El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el último tipo de cambio de divisa.
 
-## Consultar la [formación de Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) relacionada
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Divisas en Business Central](finance-currencies.md)  
 [Configuración de divisas](finance-set-up-currencies.md)  

@@ -11,15 +11,15 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# Estado de avisos de privacidad en [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-"></a>Estado de avisos de privacidad en [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Este artículo analiza qué es un aviso de privacidad y explica el propósito de la página **Estado de los avisos de privacidad** en [!INCLUDE[prod_short](includes/prod_short.md)]. También aprenderá cómo los administradores pueden usar esta página.
 
-## Aviso de privacidad
+## <a name="privacy-notice"></a>Aviso de privacidad
 
 Un aviso de privacidad establece las políticas de recopilación de datos, procesamiento de datos y privacidad de datos seguidas por el controlador de datos de la organización. Es un documento que describe qué datos se recopilan y con qué fines, cómo se procesan los datos del usuario, cómo se almacenan y a quién contactar si un usuario quiere preguntar algo sobre sus datos. 
 
-## Página Estado de avisos de privacidad
+## <a name="privacy-notices-status-page"></a>Página Estado de avisos de privacidad
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], si los usuarios quieren integrar sus datos con Microsoft Exchange, Microsoft OneDrive y Microsoft Teams, deberán aceptar el aviso de privacidad de cada entidad. O un administrador puede aprobar los avisos de privacidad en su nombre. Los administradores pueden ver el estado de los avisos de privacidad en la página **Estado de los avisos de privacidad**. Puede encontrar la página **Estado de los avisos de privacidad** en [!INCLUDE[prod_short](includes/prod_short.md)] escribiendo el nombre de la página en la barra de búsqueda.  
 
@@ -35,7 +35,7 @@ En esa página, encontrará una tabla con opciones de aprobación para cada uno 
 > [!NOTE]
 > Solo puede ver el estado de los avisos de privacidad en la página **Estado de los avisos de privacidad** principal. Para editar las respuestas, vaya a **Lista de edición** en la barra de acción de la página donde ahora se puede hacer clic en las opciones y no están atenuadas.
 
-## Aprobaciones de aviso de privacidad
+## <a name="privacy-notice-approvals"></a>Aprobaciones de aviso de privacidad
 
 Los administradores pueden ver las aprobaciones individuales y administrarlas en la subpágina **Aprobaciones de avisos de privacidad**. Vaya a la barra *Acción* de la página **Acción de Avisos de privacidad**, bajo *Comportamiento*, para encontrar la opción *Mostrar aprobaciones individuales*. Esta opción va a la página **Aprobaciones de avisos de privacidad**.<br>
 
@@ -49,7 +49,7 @@ En esa página, encontrará una tabla con opciones de aprobación.
 | **No aceptar** | El usuario no aprueba el aviso de privacidad. |
 | **Nombre de usuario del aprobador** | Quien aprueba el aviso de privacidad. |
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Información general sobre cumplimiento  ](/dynamics365/business-central/compliance/compliance-overview)  
 [Responder a las solicitudes de datos personales  ](/dynamics365/business-central/admin-responding-to-requests-about-personal-data)  

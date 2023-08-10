@@ -10,13 +10,13 @@ ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Configurar plantillas de ubicación
+# <a name="set-up-put-away-templates"></a>Configurar plantillas de ubicación
 
 Con la funcionalidad de ubicación y picking directo, se sugiere la ubicación más adecuada para los productos en un momento determinado, según la plantilla de ubicación que ha configurado para el almacén, los rankings que ha dado a las ubicaciones y las cantidades máxima y mínima que ha definido para las ubicaciones fijas.  
 
 Puede configurar varias plantillas de ubicación y seleccionar una para controlar las ubicaciones en general en el almacén. También puede seleccionar una plantilla de ubicación para cualquier producto o unidad de almacenamiento que tenga unos requisitos de ubicación especiales.  
 
-## Para configurar las plantillas de ubicación
+## <a name="to-set-up-put-away-templates"></a>Para configurar las plantillas de ubicación
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plantillas de ubicación**, y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -31,9 +31,9 @@ Puede configurar varias plantillas de ubicación y seleccionar una para controla
 
 Puede crear varias plantillas de ubicación y, a continuación, aplicarlas como necesite. Se utilizará primero la plantilla de ubicación que ha seleccionado para el producto o unidad de almacenamiento, si existe. Si estos campos no están rellenos, se utilizará la plantilla que ha seleccionado para el almacén en la ficha desplegable **Políticas ubic.** de la ficha de almacén.  
 
-## Consultar la [formación de Microsoft](/training/modules/put-away-templates/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/put-away-templates/) relacionada
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

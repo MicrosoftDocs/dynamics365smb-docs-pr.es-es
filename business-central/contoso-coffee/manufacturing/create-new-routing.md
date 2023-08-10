@@ -7,15 +7,15 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ---
-# Tutorial: Crear una nueva ruta
+# <a name="walkthrough-create-a-new-routing"></a>Tutorial: Crear una nueva ruta
 
 En este artículo, le guiaremos por los pasos para usar los datos de demostración de Contoso Coffee para configurar manualmente una nueva ruta de producción en [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## Caso
+## <a name="scenario"></a>Caso
 
 Oscar, el ingeniero de procesos de Contoso Coffee, decide crear una nueva ruta con el nombre *Nueva ruta de acceso*. Puesto que esta ruta es diferente a cualquier otra ruta de Contoso Coffee, Óscar debe introducir manualmente toda la información de enrutamiento.  
 
-## Pasos
+## <a name="steps"></a>Pasos
 
 1. Cree el encabezado de la ruta.  
 
@@ -54,6 +54,6 @@ Oscar, el ingeniero de procesos de Contoso Coffee, decide crear una nueva ruta c
 
 La nueva ruta ya está configurada.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Introducción a datos de demostración de Contoso Coffee](../contoso-coffee-intro.md)  
