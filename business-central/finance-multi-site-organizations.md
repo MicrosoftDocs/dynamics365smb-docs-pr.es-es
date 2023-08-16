@@ -11,14 +11,14 @@ ms.date: 10/01/2020
 ms.author: bholtorf
 ---
 
-# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central para organizaciones internacionales y de sitios múltiples
+# Business Central para organizaciones internacionales y de sitios múltiples
 Las organizaciones que tienen varios sitios a menudo utilizan un modelo de negocio de centro y radios en el que una empresa matriz, o la sede central, gestiona las operaciones generales del negocio, mientras que cada sitio funciona como una entidad única e independiente. Los sitios a menudo están distribuidos geográficamente y tienen diferentes necesidades para compartir información con la empresa matriz. Además, los sitios no suelen necesitar el mismo nivel de complejidad y, a menudo, carecen de los recursos para mantener un sistema grande.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ofrece a las pequeñas y medianas empresas una solución de gestión empresarial que es fácil de usar y mantener con un bajo costo de propiedad.
 
 Este artículo presenta algunas de las formas en que [!INCLUDE[prod_short](includes/prod_short.md)] soporta un modelo de negocio de concentrador y radios.
 
-## <a name="integrating-the-headquarter-company-and-the-sites"></a>Integración de la empresa matriz y los sitios
+## Integración de la empresa matriz y los sitios
 
 [!INCLUDE[prod_short](includes/prod_short.md)] puede integrarse con el sistema de contabilidad de la empresa matriz mientras satisface las diferentes necesidades de los diferentes sitios, independientemente del tamaño, la ubicación o el tipo de negocio.
 
@@ -26,7 +26,7 @@ El siguiente diagrama es un ejemplo de diferentes sitios integrados con una empr
 
 ![Descripción del diagrama generada automáticamente.](media/multisite-headquarter-sites.png)
 
-## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Satisfacer las necesidades de los sitios nacionales e internacionales
+## Satisfacer las necesidades de los sitios nacionales e internacionales
 
 Las necesidades comerciales de los sitios a menudo difieren según el sector, los métodos comerciales o su relación con la empresa matriz. [!INCLUDE[prod_short](includes/prod_short.md)] se puede adaptar y ampliar fácilmente para diversos tipos de empresas y lugares. Microsoft AppSource ofrece una gran cantidad de aplicaciones de Microsoft y nuestros socios, y los socios pueden implementar rápidamente [!INCLUDE[prod_short](includes/prod_short.md)] con una interrupción mínima de las operaciones diarias.
 
@@ -45,7 +45,7 @@ Una red de más de 4 000 socios de Microsoft en todo el mundo proporciona experi
 | Maneje múltiples idiomas y divisas. | La compatibilidad con varios idiomas y monedas ayuda a satisfacer las necesidades locales. | [Capacidades multilingües](about-locale-language.md)<br></br>[Capacidades multidivisa](finance-how-setup-additional-currencies.md) |
 
 
-## <a name="consolidate-financial-data"></a>Consolidar datos financieros
+## Consolidar datos financieros
 
 Una faceta fundamental del modelo de negocio de concentrador y radios es la capacidad de la empresa matriz y los sitios para intercambiar datos financieros, incluso cuando la empresa matriz y los sitios utilizan diferentes sistemas, estructuras contables, idiomas y divisas.
 
@@ -55,7 +55,7 @@ Una faceta fundamental del modelo de negocio de concentrador y radios es la capa
 | Integre estructuras contables. | Transfiera datos de consolidación de diferentes estructuras contables a la suya. Formato de archivo incorporado para F&O (disponible con el segundo lanzamiento de 2020) | [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)<br></br>[Preparar las cuentas de contabilidad para la consolidación](finance-consolidated-company-reporting-setup.md#glacc) |
 | Realice transacciones en varias divisas. | Ayude a garantizar que los estados financieros en diferentes divisas sean precisos y utilicen tipos de cambio correctos. | [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md) |
 
-## <a name="share-business-insight-with-integrated-analytics"></a>Comparta Business Insight con el análisis integrado
+## Comparta Business Insight con el análisis integrado
 
 Alinee la organización con sus objetivos comerciales proporcionando un conocimiento común de la realidad actual. La analítica integrada puede ayudar a las personas a basar sus decisiones en el mismo conjunto de hechos.
 
@@ -67,7 +67,7 @@ Alinee la organización con sus objetivos comerciales proporcionando un conocimi
 | Analizar datos en Excel. | Busque hechos, resuelva problemas y realice análisis ad hoc en Microsoft Excel. | [Analizar estados financieros en Excel](finance-analyze-excel.md) |
 
 
-## <a name="exchange-data-using-apis-and-xmlports"></a>Intercambio de datos mediante API y XMLports
+## Intercambio de datos mediante API y XMLports
 
 Las API y XMLports simplifican el proceso de conectar instancias de [!INCLUDE[prod_short](includes/prod_short.md)], incluidos los que se han personalizado para cada sitio.
 
@@ -82,7 +82,7 @@ Las API y XMLports simplifican el proceso de conectar instancias de [!INCLUDE[pr
 | Conectarse a soluciones y servicios de terceros. | Las API establecen una conexión punto a punto entre Business Central y soluciones y servicios de terceros. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## <a name="promote-an-efficient-intercompany-supply-chain"></a>Promover una cadena de suministro interempresas eficiente
+## Promover una cadena de suministro interempresas eficiente
 
 Los sitios a menudo necesitan acceso a la cadena de suministro y la capacidad de administrar ciertos aspectos de la misma. Por ejemplo, los sitios pueden usar el mismo proveedor, pero administrar sus activos y ubicaciones físicas por separado.
 
@@ -91,7 +91,7 @@ Los sitios a menudo necesitan acceso a la cadena de suministro y la capacidad de
 | Trate las transacciones entre divisiones como transacciones normales de compra y venta. | Utilice los registros entre empresas para crear documentos de ventas y compras y entradas de movimientos de contabilidad para flujos de trabajo completos y para más de una empresa a la vez, para eliminar la entrada de datos duplicada. | [Gestión de transacciones entre empresas](intercompany-manage.md) |
 | Utilice procesos sin papel. | Evite el costo de enviar, recibir e imprimir documentos. | [Documentos entrantes](across-income-documents.md)<br><br> [Administrar archivos adjuntos, vínculos y notas en fichas y documentos](ui-how-add-link-to-record.md) |
 
-## <a name="respond-quickly-to-new-business-conditions"></a>Responda rápidamente a las nuevas condiciones comerciales
+## Responda rápidamente a las nuevas condiciones comerciales
 
 La empresa matriz debe poder reaccionar rápidamente a los cambios comerciales en cada sitio. En combinación con Power Automate, [!INCLUDE[prod_short](includes/prod_short.md)], puede servir como un mecanismo de alerta temprana.
 
@@ -102,7 +102,7 @@ La empresa matriz debe poder reaccionar rápidamente a los cambios comerciales e
 | Genere automáticamente alertas por correo electrónico. | Configure alertas en Power Automate que generarán correos electrónicos para informarle sobre las condiciones comerciales críticas en los sitios o socios de la cadena de suministro. | [Business Central y Power BI](admin-powerbi.md) |
 | Utilice alertas estándar o personalizadas. | Utilice 12 plantillas diferentes incluidas para Business Central o configure sus propias alertas para adaptarse a su negocio. | [Usar Business Central en un flujo de trabajo automatizado](across-how-use-financials-data-source-flow.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Administración de Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

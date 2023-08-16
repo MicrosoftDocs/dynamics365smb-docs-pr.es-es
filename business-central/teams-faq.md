@@ -340,6 +340,10 @@ Eliminar un mensaje que contiene una tarjeta no elimina ni afecta ningún dato e
 
 Nº Los valores de campo de una tarjeta en Teams, incluidas las imágenes, se basan en los datos disponibles cuando esa tarjeta se envió al chat. Las tarjetas de [!INCLUDE [prod_short.md](includes/prod_short.md)] no se actualizan automáticamente en Teams. 
 
+### ¿Por qué las tarjetas no muestran más información en lugar de solo el nombre de la página y el botón de detalles?
+
+Un administrador puede haber configurado la integración de Teams para que las tarjetas no muestren datos sobre registros. Para obtener más información, consulte [Mostrar u ocultar datos de registros en tarjetas](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### ¿Verán otros mi tarjeta si no tienen la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams? 
 
 Cuando redacta y envía un mensaje al chat que incluye una tarjeta, todos los usuarios verán la tarjeta, incluso si no han instalado la aplicación [!INCLUDE [prod_short.md](includes/prod_short.md)] para Teams.

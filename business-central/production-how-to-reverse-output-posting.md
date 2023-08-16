@@ -10,11 +10,11 @@ ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="reverse-output-posting"></a>Revertir el registro de la salida
+# Revertir el registro de la salida
 
 En ciertas ocasiones es necesario revertir el registro de la salida. Por ejemplo, si se ha cometido un error en la introducción de los datos y se ha registrado una cantidad de salida incorrecta en una orden de producción.  
 
-## <a name="to-reverse-an-output-posting"></a>Para revertir un registro de salida
+## Para revertir un registro de salida
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario salida**, y luego elija el enlace relacionado. Seleccione el lote.  
 2. Rellene los campos según sea necesario. Para obtener más información, vea [Registro de salida y tiempos de ejecución por lotes](production-how-to-post-output-quantity.md).
@@ -23,7 +23,7 @@ En ciertas ocasiones es necesario revertir el registro de la salida. Por ejemplo
 
 Los movimientos del diario de salida se registran como un ajuste positivo.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
  [Fabricación](production-manage-manufacturing.md) [Configuración de fabricación](production-configure-production-processes.md)  
  [Planificación](production-planning.md)  

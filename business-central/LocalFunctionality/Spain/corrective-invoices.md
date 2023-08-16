@@ -12,7 +12,7 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="corrective-invoices-in-the-spanish-version"></a>Facturas correctivas en la versión en español
+# Facturas correctivas en la versión en español
 La funcionalidad de factura correctiva permite enviar una factura correctiva cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales. Esta factura incluye todos los datos requeridos legalmente y hace referencia a la factura o facturas originales. Las facturas originales no se pueden anular y siguen siendo válidas. La factura correctiva contiene las correcciones y los motivos de estas correcciones.  
 
 Están disponibles las siguientes opciones:  
@@ -28,7 +28,7 @@ La factura correctiva debe cumplir los requisitos siguientes:
 - Se deben indicar claramente los números de las facturas que se corrigen.  
 - Únicamente se puede contabilizar una factura correctiva sin números de factura corregida si las correcciones son necesarias a causa de descuentos u ofertas por volumen.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
 
 

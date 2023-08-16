@@ -11,7 +11,7 @@ ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
 ---
-# <a name="vat-management-overview"></a>Información general de la administración de IVA
+# Información general de la administración de IVA
 El Impuesto al Valor Agregado (IVA) es un impuesto indirecto sobre el consumo de bienes y servicios. El IVA se aplica en cada etapa de la cadena de suministro donde se agrega valor desde la producción inicial hasta el punto de venta. Para iniciarse en la administración del IVA, vea los temas siguientes.  
 
 |  Artículo  |  Descripción  |  
@@ -22,13 +22,14 @@ El Impuesto al Valor Agregado (IVA) es un impuesto indirecto sobre el consumo de
 | [Configurar el IVA no deducible](finance-setup-nondeductible-vat.md) | Este artículo proporciona información sobre cómo configurar correctamente el IVA no deducible relacionado con porcentajes y cuentas.|
 | [Configurar impuesto sobre valor añadido no realizado](finance-setup-unrealized-vat.md) | Si utiliza contabilidad basada en efectivo, este artículo ofrece orientación para gestionar específicamente el IVA no realizado para venta y compras.|
 | [Enviar informes de IVA a las autoridades fiscales](finance-how-report-vat.md) | Use este artículo para aprender a preparar informes que registren el IVA de ventas durante un periodo, o durante vendas y compras, y enviarlo a las autoridades fiscales.|
-| [Usar IVA no deducible](finance-how-use-non-deductible-vat.md) | Este artículo explica cómo utilizar y declarar el IVA no deducible.|
+| [Usar IVA no deducible](finance-how-use-non-deductible-vat.md) | Este artículo explica cómo utilizar y declarar el IVA no deducible.| 
+| [Transacciones de compra de la UE a terceros](finance-how-to-eu3party-trade-purchase.md) | Use artículo para aprender a configurar el sistema cuando el comercio con terceros de la Unión Europea (UE) ocurre durante la recepción de una factura de compra de un cliente en un país/región de la UE y los productos se envían a un país/región de la UE diferente sin ingresar al país de residencia.|  
 | [Configurar una declaración de IVA](finance-how-setup-vat-statement.md) | Este artículo ofrece información para asegurar que conoce cómo configurar una plantilla y los nombres de la declaración de IVA para cumplir los cambiantes requisitos de la autoridad fiscal.|
 | [Administración de cambios del tipo de IVA](finance-how-use-vat-rate-change-tool.md) | Este artíuclo explica cómo puede utilizar la herramienta de cambio del tipo de IVA para Dynamics 365 Business Central para cambiar los tipos de IVA según la legislación local.|
 | [Validar el CIF/NIF](finance-how-validate-vat-registration-number.md) | Este artículo explicac cómo usar la validación de Business Central para los CIF/NIF de sus contactos, clientes y proveedores, según el servicio de validación de números de IVA VIES de la Unión Europea.|
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

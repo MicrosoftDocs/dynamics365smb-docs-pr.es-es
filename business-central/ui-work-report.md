@@ -3,9 +3,6 @@ title: Ejecutar e imprimir informes
 description: Aprenda a introducir un informe un informe en una cola de proyectos y programarlo para que se procesa en una fecha y hora específicas.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -136,6 +133,12 @@ El diseño de informe controla lo que se muestra en un informe, cómo se organiz
 - Para cambiar el diseño predeterminado utilizado por un informe, vaya a las páginas **Diseños de informes** o **Selección de diseño de informe**.
 
 Más información en [(Versión heredada) Establecer el diseño utilizado por un informe](ui-set-report-layout.md). Pero, si desea personalizar su propio diseño del informe, vaya a [Empezar a crear diseños](ui-get-started-layouts.md).
+
+## Cambiar idioma y formato de números, fechas y horas
+
+De forma predeterminada, el idioma del texto y el formato de los números, las fechas y las horas en un informe se basan en su idioma de trabajo y configuración regional, que se definen en la página **Mi configuración**. Sin embargo, puede cambiar el idioma y la región de formato caso por caso cuando obtenga una vista previa, imprima o envíe un informe. En la página de solicitud, seleccione **Avanzado**, luego configure las opciones de **Idioma** y **Región de formato** que desee.
+
+Para obtener más información sobre la página **Mi configuración**, vaya a [Cambiar la configuración básica](ui-change-basic-settings.md#region).
 
 ## Opciones avanzadas
 

@@ -11,14 +11,14 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="specify-a-default-printer"></a><a name="default"></a>Especificar una impresora predeterminada
+# <a name="default"></a>Especificar una impresora predeterminada  
 
 Después de configurar las impresoras en Business Central, puede especificar qué impresora desea usar de forma predeterminada. Hay un par de maneras de especificar las impresoras que se utilizarán por defecto para los informes y otros trabajos de impresión. Una impresora predeterminada es útil si trabaja con diferentes informes que requieren impresoras diferentes debido a su ubicación en la empresa o sus capacidades de salida.
 
 > [!IMPORTANT]
 > Las únicas impresoras que puede especificar como predeterminadas son **Microsoft Print to PDF** y las impresoras en la nube que ya se configuraron para su uso en Business Central, como las impresoras de correo electrónico y las impresoras Universal Print. Las impresoras en la nube generalmente las configura un administrador. Para obtener más información, consulte [Configuración y administración de la impresora](admin-printer-setup-overview.md).   
 
-## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Configurar una impresora como impresora predeterminada para todos los trabajos de impresión
+## Configurar una impresora como impresora predeterminada para todos los trabajos de impresión
 
 Mediante la página **Administración de impresoras** puede configurar una impresora como impresora predeterminada para todos los trabajos de impresión. Puede especificar la impresora como predeterminada solo para usted o para todos los usuarios.
 
@@ -31,7 +31,7 @@ Mediante la página **Administración de impresoras** puede configurar una impre
 > [!NOTE]
 > La configuración de una impresora predeterminada desde el **Administración de impresoras** agregará una entrada en las **Selecciones de impresora**.
 
-## <a name="set-a-default-printer-for-specific-reports"></a>Establecer una impresora predeterminada para informes específicos
+## Establecer una impresora predeterminada para informes específicos
 
 La página **Selecciones de impresora** le permite especificar la impresora que usará un informe de forma predeterminada. Las impresoras predeterminadas se configuran por cuenta de usuario. Puede configurar una impresora predeterminada solo para usted, para otro usuario o para todos los usuarios.
 
@@ -60,17 +60,17 @@ Usted o el administrador también pueden usar la página **Selecciones de impres
 > [!NOTE]
 > Las selecciones de impresora más específicas tienen preferencia sobre las selecciones de impresora más generales. Por ejemplo, una selección de impresora que tenga valores en **ID de usuario**, **ID de informe** y **Nombre de impresora** tiene prioridad sobre una selección de impresora que tenga entradas en blanco en los campos **ID de usuario** o **ID de informe**.
 
-## <a name="choosing-the-printer-when-running-a-report"></a>Elección de la impresora al generar un informe
+## Elección de la impresora al generar un informe
 
 En lugar de utilizar la impresora predeterminada al ejecutar un informe, puede anular esta configuración desde la página de solicitud. Simplemente elija la impresora que desea utilizar para esta generación del informe en el menú desplegable **Impresora**.
 
-## <a name="sizing-print-jobs"></a>Cambio de tamaño de los trabajos de impresión
+## Cambio de tamaño de los trabajos de impresión
 
 La impresión en la nube se ha diseñado para documentos de un tamaño razonable. La mayoría de los servicios en la nube, incluidos PrintNode y HP ePrint, tienen un límite de 10 MB por trabajo. Si necesita imprimir informes más grandes, es posible que deba dividirlos en varias copias impresas.
 
 [Formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administración de impresoras](admin-printer-setup-overview.md)  
 [Configurar impresoras de Impresión universal](admin-printer-setup-universal-print.md)  

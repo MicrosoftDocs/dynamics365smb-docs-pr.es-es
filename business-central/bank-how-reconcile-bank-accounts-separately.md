@@ -34,11 +34,6 @@ La casilla de verificación **Liquidado** se selecciona en las líneas en las qu
 
 Cuando el valor en el campo **Saldo total** en el panel **Líneas de extracto bancario** es igual al valor total del campo **Saldo a conciliar**, además del campo **Saldo últ. extracto**, en el panel **Movs. bancos**, puede seleccionar la acción **Registrar**. Los movimientos del libro mayor de banco no coincidentes permanecerán en la página, lo que indica las discrepancias que debe resolver para conciliar el banco.
 
-Para comprobar la conciliación de su cuenta bancaria antes de publicarla, utilice la acción **Informe de prueba** para preparar una vista previa de la conciliación. El siguiente informe está disponible en los siguientes contextos:
-
-* Cuando esté preparando una conciliación bancaria en la página **Conciliación de cuenta bancaria**.
-* Cuando concilia pagos en la página **Diarios de conciliación de pagos**.
-
 Cualquier línea que no pueda coincidir, indicada por un valor en el campo **Diferencia**, permanecerá en la página **Conciliación banco** después de registrar. Representan algún tipo de discrepancia que debe resolver antes de completar la conciliación de banco. La siguiente tabla describe algunas situaciones comerciales típicas que pueden causar diferencias.
 
 | Diferencia | Motivo | Resolución |
@@ -97,7 +92,7 @@ Puede investigar la base de las coincidencias utilizando la acción **Detalles d
     Si especifica cero o deja el campo en blanco la acción **Conciliar automáticamente** buscará solo por las fechas de transacción coincidentes en la fecha de registro de movimientos de la cuenta.
 3. Elija el botón **Aceptar**.
 
-    Las líneas están codificadas por colores para que sea más fácil entender qué hacer con ellas. Todas las líneas del extracto bancario y los movimientos la cuenta que pueden coincidir cambian a fuente verde y la casilla **Conciliado** queda seleccionada. Los asientos del libro mayor de cuentas bancarias que ya están emparejados con otras conciliaciones bancarias se muestran en letra azul.
+    Las líneas están codificadas por colores para que sea más fácil entender qué hacer con ellas. Las líneas del extracto bancario y los movimientos la cuenta que coinciden con la reconciliación bancaria actual cambian a una fuente verde en negrita. Los asientos del libro mayor de cuentas bancarias emparejados con otras conciliaciones bancarias se muestran en letra azul en cursiva.
 4. Para eliminar un coincidencia seleccione la línea de extracto de cuenta y, a continuación, seleccione la acción **Eliminar conciliación**.
 
 > [!TIP]
@@ -107,6 +102,13 @@ Puede investigar la base de las coincidencias utilizando la acción **Detalles d
 
 > [!TIP]
 > Al cotejar líneas y entradas manualmente, las acciones **Mostrar todo**, **Mostrar entradas invertidas**, **Ocultar entradas invertidas** y **Mostrar no coincidentes** pueden facilitar la obtención de una visión general. De forma predeterminada, las entradas del libro mayor de cuentas bancarias no incluyen entradas invertidas no coincidentes. Para incluir estas entradas en la lista y emparejarlas manualmente, elija la acción **Mostrar entradas invertidas**. Si elige ocultar las entradas invertidas después de haber realizado una o más coincidencias, las entradas coincidentes aún se muestran.
+
+> [!NOTE]
+> No puede publicar una conciliación bancaria si realiza una conciliación de varios a uno y los montos combinados contienen diferencias. Esto es cierto incluso si el saldo de las diferencias combinadas es cero.
+>
+> Este es un ejemplo de una coincidencia de muchos a uno que tiene diferencias. El valor de 200 para la entrada 1 del extracto bancario se compara con dos entradas del libro mayor bancario que tienen un valor total de 180. La diferencia es 20. El valor de 350 para del extracto bancario 2 se compara con otras dos entradas del libro mayor bancario que tienen un valor total de 370. La diferencia es -20, que equilibra el valor de 20 para el extracto bancario 1.  
+>
+> Para contabilizar una conciliación bancaria con diferencias en las líneas, contabilice las diferencias y luego cotejelas con los asientos contabilizados.
 
 1. En la página **Conciliar banco** seleccione una línea no conciliada en el panel **Líneas de extracto bancario**.
 2. En el panel **Movs. bancos** seleccione uno o más movimientos de la cuenta que pueden coincidir con la línea del extracto bancario seleccionada. Para elegir varias líneas, seleccione y mantenga presionada la tecla <kbd>CTRL</kbd> y luego elija las líneas.
@@ -121,6 +123,49 @@ Puede investigar la base de las coincidencias utilizando la acción **Detalles d
 > [!TIP]
 > Para eliminar un coincidencia seleccione la línea de extracto de cuenta y, a continuación, seleccione la acción **Eliminar conciliación**. Si ha correspondido varias líneas de extracto bancario con un registro de movimiento y necesita eliminar una o más de las líneas coincidentes, todas las correspondencias manuales se eliminan para el registro de movimiento cuando elija **Eliminar conciliación**.
 
+## Para validar su conciliación bancaria
+
+Para comprobar la conciliación de su cuenta bancaria antes de publicarla, utilice la acción **Informe de prueba** para tener una vista previa de la conciliación. El siguiente informe está disponible en los siguientes contextos:
+
+* Cuando esté preparando una conciliación bancaria en la página **Conciliación de cuenta bancaria**.
+* Cuando concilia pagos en la página **Diarios de conciliación de pagos**.
+
+Las líneas que no se pueden emparejar permanecen en la página **Reconciliación de cuenta bancaria** después de la contabilización. Estas líneas contienen un valor en el campo **Diferencia**. La diferencia representa una discrepancia que debe resolver antes de completar la conciliación de banco. La siguiente tabla describe algunas situaciones comerciales típicas que pueden causar diferencias.
+
+| Diferencia | Motivo | Resolución |
+|------------|--------|------------|
+| Una transacción en la cuenta bancaria en [!INCLUDE[prod_short](includes/prod_short.md)] no figura en el extracto de cuenta. | La transacción bancaria no se creó aunque se realizó un registro en [!INCLUDE[prod_short](includes/prod_short.md)]. | Cree la transacción faltante (o solicite a un deudor que la realice). Luego, vuelva a importar el archivo del extracto bancario o ingrese la transacción manualmente. |
+| Una transacción en el extracto de cuenta no existe como documento o línea de diario en [!INCLUDE[prod_short](includes/prod_short.md)]. | Se realizó una transacción bancaria sin un registro correspondiente en [!INCLUDE[prod_short](includes/prod_short.md)], por ejemplo, un registro de línea de diario para un gasto. | Crea y registra el movimiento que falta. Para conocer una forma rápida de iniciar esto, consulte [Para crear movimientos faltantes para que coincidan con las transacciones bancarias con](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines). |
+| Una transacción en el banco interno corresponde a una transacción bancaria, pero cierta información es demasiado diferente para dar una coincidencia. | La información, como el importe o el nombre del cliente, se ingresó de manera diferente en la transacción bancaria o el registro interno. | Revise la información y luego haga coincidir manualmente las dos. De manera opcional, corrija la falta de coincidencia. |
+
+Debe resolver las diferencias, por ejemplo, creando los movimientos que faltan y corrigiendo información que no coincide, o haciendo transacciones de dinero que faltan, hasta que se complete y se registre la conciliación de banco.
+
+> [!NOTE]
+> La página de conciliación bancaria y el informe de prueba asumen que solo está conciliando dentro del período hasta la fecha de finalización del estado de cuenta. Si hace coincidir una línea de extracto bancario con una entrada del libro mayor bancario antes de ingresar una fecha de finalización del extracto y luego ingresa una fecha de finalización posterior a la fecha de finalización de la entrada del libro mayor bancario, los datos en el informe de prueba serán incorrectos.
+
+La siguiente tabla describe los campos del informe de prueba que pueden ayudarlo a completar la conciliación bancaria.
+
+|Campo  |Descripción  |
+|---------|---------|
+|Fecha extracto| La fecha especificada en el campo **Fecha del extracto** en la página **Conciliación de cuenta bancaria**.|
+|Saldo últ. extracto|El saldo especificado en el campo **Saldo del último del extracto** en la página **Conciliación de cuenta bancaria**. Esto se completa automáticamente a partir de la conciliación más reciente para la misma cuenta bancaria. El valor es cero si esta es su primera conciliación de cuenta bancaria.|
+|Saldo final extracto|El saldo especificado en el campo **Saldo final del extracto** en la página **Conciliación de cuenta bancaria**. |
+|Número de cuenta de mayor <*número*> Saldo a la <*fecha*> | El saldo de la cuenta de mayor en la fecha de finalización del extracto. Este es el saldo sin filtrar a esa fecha. Si su banco usa su moneda local, este saldo debe ser el mismo que el saldo de su cuenta bancaria (que se muestra en el lado derecho del encabezado del informe) cuando haya conciliado todas las líneas del estado de cuenta. Un **()** vacío en el nombre de este campo significa que su banco utiliza la moneda local.<br><br>Una discrepancia en este y los campos anteriores podría indicar que ha contabilizado directamente en la cuenta de mayor o que está utilizando la misma cuenta de mayor para varios bancos, lo cual no se recomienda. Los bancos están vinculados al libro mayor a través del grupo de contabilización de cuentas bancarias especificado para la cuenta.<br><br>El informe de prueba muestra una advertencia si tiene publicaciones directas, incluso si el saldo de la publicación es cero. Las contabilizaciones directas que no se equilibran a menudo dan lugar a diferencias acumuladas para futuras conciliaciones bancarias. Debe verificar el saldo del libro mayor y las entradas del libro mayor antes de registrar la conciliación bancaria. Para obtener más información sobre la publicación directa, vaya a [Evitar la publicación directa](#avoid-direct-posting).|
+|Número de cuenta de mayor <*número*> Saldo (<*ML*>) a la <*fecha*>| El saldo de la cuenta de mayor en la fecha de finalización del extracto en la moneda local. El saldo se convierte a la moneda de la cuenta bancaria utilizando el tipo de cambio vigente en la fecha de finalización del estado de cuenta. Este es el saldo sin filtrar a esa fecha. Compare esto con el **Número de cuenta de mayor <* número *> Saldo en el campo <* fecha*>* si su banco utiliza una moneda extranjera. El valor en el campo Número de cuenta de mayor <* número *> Saldo a la <* fecha*> para la moneda local puede diferir ligeramente porque la conversión de moneda puede generar pequeñas diferencias. El saldo de su banco debe estar muy cerca de este saldo.  |
+|Saldo de cuenta bancaria a <*fecha*>| El saldo de la cuenta bancaria la fecha de finalización del extracto.|
+|Suma de las diferencias    | La suma de las diferencias para las líneas del extracto. Para acceder a los detalles, active la opción **Imprimir transacciones pendientes** cuando ingresa criterios para el informe. Una diferencia es una línea de extracto bancario que no coincide completamente con una o más entradas del libro mayor bancario. No puede contabilizar una conciliación de cuenta bancaria que tenga diferencias. Puede registrar una conciliación bancaria que contenga entradas de libro mayor que no coincidan con las líneas del extracto. Este valor se muestra en el campo **Transacciones bancarias pendientes** y en una sección separada si activa la opción Imprimir transacciones pendientes.      |
+|Saldo extracto     | El valor especificado en el campo **Saldo final del extracto** en la página **Conciliación de cuenta bancaria**.  |
+|Transacciones bancarias pendientes     | La suma de los asientos contables bancarios no conciliados y sin cheques que tienen una fecha de contabilización igual o anterior a la fecha de finalización del estado de cuenta. Esto sucede cuando registra transacciones antes de que se registren en su banco. Por ejemplo, al final de un período. Cuando crea la siguiente conciliación bancaria, puede conciliar estas entradas.        |
+|Cheques pendientes     | La suma de los asientos contables bancarios no conciliados para cheques que tienen una fecha de contabilización igual o anterior a la fecha de finalización del estado de cuenta. Esto sucede cuando registra transacciones antes de que se registren en su banco. Por ejemplo, esto puede suceder con los cheques si un proveedor no cobra un cheque en el mismo período en que lo registró. Cuando crea la siguiente conciliación bancaria, puede conciliar estas entradas.        |
+|Saldo bancos     | La suma de los valores del saldo final del extracto bancario, las transacciones bancarias pendientes y los cheques pendientes. Después de gestionar todas las diferencias en las entradas coincidentes, este saldo coincide con su saldo bancario. Por ejemplo, ha contabilizado todas las entradas coincidentes, así como las entradas que no pudo coincidir para este extracto bancario. Ahora puede contabilizar la conciliación.        |
+
+> [!TIP]
+> Si ejecuta el **Informe de prueba** desde la página **Diario de conciliación de pagos**, [!INCLUDE [prod_short](includes/prod_short.md)] calcula el valor en el **Estado de cuenta Saldo final** como sigue:
+>
+> * Saldo último estado de cuenta + suma de todas las líneas en el diario de conciliación de pagos
+>
+> Puede utilizar el valor para compararlo con su extracto bancario.
+
 ## Para crear movimientos no existentes para coincidir con las líneas del extracto de cuenta
 
 En ocasiones, un extracto bancario contiene importes por los intereses y recargos cobrados. Dichas líneas del extracto de cuenta no pueden conciliarse porque no existen movimientos relacionados en [!INCLUDE[prod_short](includes/prod_short.md)]. A continuación, deberá registrar una linea de diario para cada transacción para crear un movimiento relacionado que pueda coincidir.
@@ -128,9 +173,9 @@ En ocasiones, un extracto bancario contiene importes por los intereses y recargo
 1. En la página **Conciliación banco** seleccione la acción **Transferir al diario general**.  
 2. En la página **Transf. conciliación al diario**, especifique el diario general que se usará y haga clic en **Aceptar**.
 
-    La página **Diario general** se abre una ventana que contiene nuevas líneas del diario para las líneas de extracto bancario con los movimientos que faltan.
-3. Complete la línea del diario con la información relevante, como la cuenta de contrapartida. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
-4. Para revisar el resultado del registro antes de registrar, seleccione **Informe de prueba**. Se abre el informe **Estado de cuenta bancaria** y muestra los mismos campos que en el encabezado de la página **Conciliación banco**.
+    La página **Diario general** se abre una ventana con nuevas líneas del diario para las líneas de extracto bancario con los movimientos que faltan.
+3. Complete la línea del diario con la información, como la cuenta de contrapartida. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
+4. Para revisar el resultado de la publicación antes de publicar, elija la acción **Informe de prueba** y, a continuación, elija una opción para acceder al informe. El informe **Estado de cuenta bancaria** muestra los mismos campos que en el encabezado de la página **Conciliación de cuenta bancaria**.
 5. Seleccione la acción **Registrar**.
 
     Una vez registrado el movimiento, empareje con él la línea de extracto de cuenta.
@@ -197,11 +242,11 @@ Este error ocurre a menudo al ingresar un saldo inicial para una cuenta bancaria
 ## Consultar la [formación de Microsoft](/training/modules/bank-reconciliation-dynamics-365-business-central/index) relacionada
 
 ## Consulte también
+
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Liquidación de pagos automáticamente y conciliación de bancos](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Configurar banca](bank-setup-banking.md)  
 [Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

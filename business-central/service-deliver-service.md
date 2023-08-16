@@ -10,7 +10,7 @@ ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="delivering-service"></a>Prestación del servicio
+# Prestación del servicio
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones que le ayudarán a prestar servicio según los contratos que haya creado y los pedidos de servicio que se haya comprometido a cumplir. Sus técnicos de servicio o distribuidor encontrarán con facilidad los pedidos de servicio pendientes utilizando el **Panel despacho**. De un vistazo, el **Panel despacho** muestra qué pedidos están en curso y cuáles han finalizado.  
   
 Otro modo de revisar pedidos de servicio pendientes es usar la página **Tareas de servicio**. En esta visión de sus obligaciones de servicio, puede ver en qué parte de su flujo de trabajo de servicios se encuentra un pedido y cambiar el estado para reflejar interacciones con su cliente.  
@@ -33,7 +33,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Crear y registrar facturas para servicios entregados.|[Crear facturas o abonos de servicios](service-how-create-invoices.md)|  
 |Mantener a los clientes contentos prestándoles un producto mientras trabaja en el suyo.| [Prestar y recibir productos de préstamo](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Servicio de planificación](service-plan-service.md)  
 [Cumplimiento de contratos de servicio](service-fulfill-service-contracts.md)  
 [Administrar proyectos](projects-manage-projects.md)  
