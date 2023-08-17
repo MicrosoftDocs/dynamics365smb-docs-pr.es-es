@@ -11,7 +11,7 @@ ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Trabajar con periodos de inventario
+# <a name="work-with-inventory-periods"></a>Trabajar con periodos de inventario
 
 Los periodos del inventario definen un periodo de tiempo durante el cual es posible registrar cambios en el inventario. Un periodo del inventario se define por la fecha en la que finaliza. Cuando se cierra un periodo del inventario, no es posible registrar ningún cambio en él (ya sea previsto o facturado) antes de dicha fecha de finalización. Tampoco es posible registrar ningún valor nuevo en el inventario antes de dicha fecha. Si tiene movimientos de producto abiertos en ese periodo ya cerrado (lo que significa que existen cantidades positivas que todavía no ha aplicado a transacciones de salida), seguirá pudiendo aplicar cantidades de salida a dichos movimientos, incluso si el periodo está cerrado.  
 
@@ -21,14 +21,14 @@ En el siguiente apartado se explica cómo:
 * Cierre periodos de inventario.  
 * Vuelva a abrir periodos de inventario.  
 
-## Para crear un periodo de inventario
+## <a name="to-create-an-inventory-period"></a>Para crear un periodo de inventario
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Periodos inventario** y luego elija el enlace relacionado.  
 2. Cree una línea nueva.  
 3. En el campo **Fecha final**, introduzca la última fecha del periodo que desee definir. Cuando se cierre el periodo del inventario, ya no podrá registrar cambios en el inventario antes de dicha fecha.  
 4. Introduzca un nombre descriptivo en el campo **Nombre**. Elija el botón **Aceptar**.  
 
-## Cerrar periodos del inventario
+## <a name="closing-inventory-periods"></a>Cerrar periodos del inventario
 
 El campo **Cerrado** indica si el periodo del inventario se encuentra o no cerrado a efectos de poder realizar cambios en sus valores. Este campo no se puede modificar.  
 
@@ -39,7 +39,7 @@ Es posible cerrar un periodo del inventario siempre y cuando se cumplan las sigu
 
 Esto significa que todas las cantidades de transacciones de salida (como aquellas provenientes de los pedidos de ventas, transferencias de salida, facturas de ventas, devoluciones de compra o abonos de compra) deben aplicarse a una cantidad existente en el inventario.  
 
-### Para cerrar un periodo de inventario  
+### <a name="to-close-an-inventory-period"></a>Para cerrar un periodo de inventario
 
 1. Antes de cerrar un periodo de inventario, elija la acción **Valorar stock - movs. producto** para asegurarse de que se hayan registrado todos los ajustes de costes.
 
@@ -53,16 +53,16 @@ Esto significa que todas las cantidades de transacciones de salida (como aquella
 6. Seleccione le botón **Sí** para confirmar que desea cerrar el periodo, o bien elija **No** para cancelar el proceso.  
 7. Se cierra el periodo de inventario y aparece un mensaje de confirmación cuando haya finalizado.  
 
-## Volver a abrir periodos del inventario  
+## <a name="reopening-inventory-periods"></a>Volver a abrir periodos del inventario
 Después de haber cerrado el periodo de inventario, ya no podrá eliminarlo. No obstante, si lo desea podrá volver a abrirlo para permitir realizar cambios antes de la fecha de finalización del periodo del inventario. Al volver a abrir un periodo, también se volverán a abrir todos los periodos del inventario cuyas fechas de finalización sean posteriores a las del periodo que está volviendo a abrir.  
 
-### Para volver a abrir un periodo de inventario  
+### <a name="to-reopen-an-inventory-period"></a>Para volver a abrir un periodo de inventario
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Periodos inventario** y luego elija el enlace relacionado.  
 2. Seleccione el periodo del inventario que desea volver a abrir.  
 3. Seleccione la acción del periodo **Reabrir periodo**. Confirme que desea volver a abrir el periodo.  
 4. Todos los periodos del inventario cuyas fechas de finalización sean posteriores a las del periodo que ha seleccionado se vuelven a abrir.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Detalles de diseño: Periodos de inventario](design-details-inventory-periods.md)  
 [Finanzas](finance.md)  
 [Inventario](inventory-manage-inventory.md)  

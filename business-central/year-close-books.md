@@ -11,12 +11,12 @@ m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Cerrar los libros
+# <a name="closing-the-books"></a>Cerrar los libros
 Una vez que se haya asegurado de que todas sus cuentas estén actualizadas, y que asigne costes e ingresos, puede cerrar los libros para un ejercicio o periodo.
 
 El cierre del año no es obligatorio pero, si lo hace, le resultará más fácil trabajar en el sistema, porque podrá utilizar las opciones de filtrado disponibles. Tampoco tendrá que temer la pérdida de datos de las transacciones al realizar el cierre, porque todos los datos se conservan, incluso después de cerrar el año.
 
-## Cerrar procesos de libros
+## <a name="closing-book-process"></a>Cerrar procesos de libros
 El proceso de cerrar el libro incluye estas tareas principales:
 
 1. Cerrar el periodo contable.
@@ -38,14 +38,14 @@ El proceso de cerrar el libro incluye estas tareas principales:
 
     Para obtener más información, consulte [Registrar movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md).
 
-## Consecuencias del cierre
+## <a name="what-happens-when-you-close"></a>Consecuencias del cierre
 Al realizar el cierre al final del año, el programa traslada los ingresos calculados a la cuenta de remanentes. Además, el programa marca el ejercicio como "cerrado," y todos los movimientos siguientes del año cerrado como "movimientos del año anterior."
 
 El programa genera un movimiento de cierre, pero no lo registra automáticamente. Tiene la opción de realizar los movimientos de la cuenta de desplazamiento de capital, para poder decidir cómo asignar el movimiento de cierre. Por ejemplo, si la empresa consta de varias divisiones, puede dejar que el sistema genere un sólo movimiento de cierre para todas ellas y, a continuación, realizar un movimiento de desplazamiento para la cuenta de capital de cada división.
 
 Puede realizar registros en un ejercicio anterior, después de se hayan cerrado las cuentas de ingresos, si vuelve a ejecutar el proceso Asiento regularización.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Trabajar con periodos contables y ejercicios](finance-accounting-periods-and-fiscal-years.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
