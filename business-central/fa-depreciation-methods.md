@@ -1,23 +1,22 @@
 ---
 title: Métodos de amortización de activos fijos
-description: Conozca los diferentes métodos integrados para depreciar o amortizar activos fijos en la versión predeterminada de Business Central que incluye ocho métodos.
-author: edupont04
+description: Obtenga información sobre los diferentes métodos integrados para amortizar los activos fijos.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: write down
+ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
-ms.date: 07/05/2021
-ms.author: edupont
+ms.date: 08/08/2023
+ms.custom: bap-template
 ---
 # Métodos de amortización de activos fijos
 
-Hay ocho métodos de amortiación disponibles en la versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)]:  
+Hay ocho métodos de amortización disponibles en [!INCLUDE [prod_short](includes/prod_short.md)]:  
 
 * Lineal  
-* Regresivo 1  
-* Regresivo 2  
+* Regresivo saldo 2  
+* Regresivo saldo 1  
 * Rs1/L  
 * Rs2/L  
 * Definido por el usuario  
@@ -27,7 +26,7 @@ Hay ocho métodos de amortiación disponibles en la versión predeterminada de [
 * Manual  
 
   > [!NOTE]  
-  > Utilice este método para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos fijos que utilizan este método de amortización.  
+  > Utilice este método manual para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos que utilizan el método de amortización manual.  
 * Convenio de medio año  
 
   > [!NOTE]  
@@ -54,15 +53,15 @@ El valor neto puede reducirse con apreciaciones, depreciaciones, importes person
 
 ### Porcentaje fijo anual
 
-Si introduce un porcentaje fijo anual, la aplicación utiliza la fórmula siguiente para calcular el importe de amortización:  
+Si introduce un porcentaje fijo anual, [!INCLUDE [prod_short](includes/prod_short.md)] utiliza la fórmula siguiente para calcular el importe de amortización:  
 
 *Importe amortización = (% Lineal x Base amortizable x Nº días amortización) / (100 x 360)*  
 
 ### Importe fijo anual
 
-Si introduce un importe fijo anual, la aplicación utiliza esta fórmula para calcular el importe de amortización:  
+Si introduce un importe fijo anual, [!INCLUDE [prod_short](includes/prod_short.md)] utiliza la fórmula siguiente para calcular el importe de amortización:  
 
-*Importe amortización = (Importe fijo amortización x Número días amortización) / 360*  
+* *Importe amortización = (Importe fijo amortización x Número días amortización) / 360*  
 
 ### Ejemplo: amortización lineal
 
@@ -82,17 +81,17 @@ Para este ejemplo, el movimiento de activo fijo es el siguiente:
 
 ## Amortización con regresivo 1
 
-Este método de amortización acelerado asigna la mayor parte del coste de un activo en los primeros años de su vida útil. Si utiliza este método, deberá introducir un porcentaje fijo anual.  
+Este método de amortización asigna la mayor parte del coste de un activo en los primeros años de su vida útil. Si utiliza este método, deberá introducir un porcentaje fijo anual.  
 
 La fórmula siguiente calcula los importes de amortización:  
 
-*Importe amortización = (% Regresivo x Nº días amortización x Base amortizable) / (100 x 360)*  
+* *Importe amortización = (% Regresivo x Nº días amortización x Base amortizable) / (100 x 360)*  
 
-La base amortizable se calcula como el valor neto menos la amortización desde la fecha inicial del año fiscal actual.  
+La base depreciable se calcula como el valor en libros al comienzo del año. El número de días de días de amortización son los días entre la fecha de contabilización y la última fecha de amortización. [!INCLUDE [prod_short](includes/prod_short.md)] calcula la depreciación asumiendo que cualquier depreciación realizada en el año fiscal se realiza con esta fórmula.  
 
 El importe de amortización registrado puede contener ciertos movimientos con diferentes tipos de registros (depreciación, personalizado1 y personalizado2) registrados desde el inicio del año fiscal actual. Estos tipos de registro se incluyen en el importe de amortización registrado, si los campos **Tipo amortización** y **Compone valor neto** están activados en la página **Config. tipo registro A/F**.  
 
-### Ejemplo: amortización con regresivo 1
+### Ejemplo 1: amortización con regresivo 1
 
 Un activo tiene un coste de 100.000 DL. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años.  
 
@@ -121,6 +120,28 @@ Método de cálculo:
 * Año 3: *25 % de 56 250 = 14 062,50 = 7031,25 + 7031,25*
 
 El cálculo continúa hasta que el valor neto iguala al importe de redondeo final o al valor residual que ha introducido.  
+
+### Ejemplo 2: amortización con regresivo 1
+
+El valor en libros de un activo es 100 000 el 31/12/2022. Contabiliza una depreciación de 1778 el 2/2/23, que es el importe esperado (proporcional) de la depreciación del año a los 32 días. Si ejecuta la depreciación el 30/6/2023 [!INCLUDE [prod_short](includes/prod_short.md)] sugiere 8222, porque hay 148 días desde el 2/2/2023 hasta el 30/6/2023. La depreciación restante esperada para el 30/06/2023 se calcula utilizando la siguiente fórmula:
+
+* *148/360 x 0,20 x 100 000 = 8222*
+
+### Ejemplo 3: amortización con regresivo 1
+
+Si registra una cantidad que no se alinea con el método de depreciación de Saldo decreciente 1, por ejemplo, 5000, [!INCLUDE [prod_short](includes/prod_short.md)] sugerirá el resto de la cantidad esperada.
+
+El valor en libros de un activo es 100 000 el 31/12/2022. Usted registra una depreciación de 5000 el 2/2/2023, que es más que el monto esperado (proporcional) el 2/2/2023 a los 32 días. Si ejecuta la depreciación el 30/6/2023, [!INCLUDE [prod_short](includes/prod_short.md)] sugiere 8222, porque hay 148 días desde el 2/2/2023 hasta el 30/6/2023. La depreciación restante esperada para el 30/06/2023 se calcula utilizando la siguiente fórmula:
+
+* *148/360 x 0,20 x 100 000 = 8222*
+
+### Ejemplo 4: amortización con regresivo 1
+
+El valor en libros de un activo es 100 000 el 31/12/2023. Contabilizó una depreciación de 95 000 el 2/2/2023, que excede el monto de depreciación permitido para el año. Si ejecuta la depreciación el 30/6/2023, [!INCLUDE [prod_short](includes/prod_short.md)] sugiere 5000, porque hay 148 días desde el 2/2/2023 hasta el 30/6/2023. La depreciación restante esperada para el 30/06/2023 se calcula utilizando la siguiente fórmula: 
+
+* *148/360 x 0,20 x 100 000 = 8222*
+
+Sin embargo, el valor contable restante es solo 5000, por lo que [!INCLUDE [prod_short](includes/prod_short.md)] sugiere 5000 porque un valor contable no puede ser negativo.
 
 ## Amortización con regresivo 2
 
@@ -219,10 +240,10 @@ Método de cálculo:
 
 El método Convenio medio año solo se aplicará si activó el campo **Usar convenio medio año** en la página fija **A/F Libro amortización**.  
 
-Este método de amortización puede utilizarse junto con los siguientes métodos de amortización en la aplicación:  
+Este método de amortización puede utilizarse con los siguientes métodos de amortización:  
 
 * Lineal  
-* Regresivo 1  
+* Regresivo saldo 2  
 * Rs1/L  
 
 Al aplicar el Convenio medio año, un activo fijo tiene seis meses de amortización en el primer año fiscal, independientemente del contenido del campo **Fecha primera amortización**.  
@@ -248,7 +269,7 @@ Los movimientos contables de activos fijos son los siguientes:
 
 ## Ejemplo - Amortización Rs1/L utilizando el convenio de medio año
 
-Un activo fijo tiene un coste de 100 000 DL. La **Fecha inicio amortización** es 01/11/20. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser el 30/06/25. En la página **A/F Libros amortización**, el campo **% Regresivo** contiene 40. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
+Un activo tiene un coste de 100.000 DL. La **Fecha inicio amortización** es 01/11/20. La vida estimada es de cinco años, por lo que la **Fecha final amortización** debe ser el 30/06/25. En la página **A/F Libros amortización**, el campo **% Regresivo** contiene 40. El proceso **Calcular amortización** se realiza cada año. Este ejemplo sigue el calendario fiscal anual.  
 
 Los movimientos contables de activos fijos son los siguientes:  
 
@@ -284,9 +305,12 @@ Método de cálculo:
 
 ## Duplicación de movimientos en más libros de amortización
 
-Si tiene tres libros de amortización, B1, B2 y B3, y desea duplicar los movimientos del B1 al B2 y B3, puede activar el campo **Compone lista duplicados** en las fichas del libro de amortización para B2 y B3. Esto puede resultar de utilidad si el libro de amortización B1 está integrado en la contabilidad y utiliza el diario general de activos fijos, y los libros de amortización B2 y B3 no están integrados con la contabilidad y utiliza el diario de activos.  
+Si tiene tres libros de amortización, B1, B2 y B3, y desea duplicar los movimientos del B1 al B2 y B3, puede seleccionar la opción **Compone lista duplicados** en las fichas del libro de amortización para B2 y B3. Esta configuración le resultará útil, por ejemplo, en las situaciones siguientes:
 
-Cuando introduzca un movimiento en B1 del diario general de activos fijos y active el campo **Utiliza lista duplicados**, la aplicación duplicará el movimiento en los libros B2 y B3 del diario de activos en el momento de registrar el movimiento.  
+* El libro de depreciación B1 se integra con el libro mayor y utiliza el diario del L/M de activos fijos.
+* Los libros de depreciación B2 y B3 no se integran con el libro mayor y utiliza el diario del L/M de activos fijos.  
+
+Cuando introduzca un movimiento en B1 del diario general de activos fijos y active el campo **Utiliza lista duplicados**, [!INCLUDE [prod_short](includes/prod_short.md)] duplicará el movimiento en los libros B2 y B3 del diario de activos en el momento de registrar el movimiento.  
 
 > [!NOTE]  
 > No puede duplicar en el mismo diario y proceso de diario desde el que está duplicando. Si registra movimientos en el diario general de activos fijos, podrá duplicarlos en el diario de activos o en el diario general de activos fijos mediante otro proceso.  
@@ -303,6 +327,5 @@ Cuando introduzca un movimiento en B1 del diario general de activos fijos y acti
 [Finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
