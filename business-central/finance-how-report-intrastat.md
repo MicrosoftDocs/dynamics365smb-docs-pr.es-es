@@ -116,12 +116,31 @@ Cuando trabaja con el **Informe Intrastat** verá un campo **Estado** en el enca
 * *Liberado*: [!INCLUDE[prod_short](includes/prod_short.md)] cambia automáticamente el estado a *Liberado* cuando se crea un archivo. A partir de ese momento, no podrá modificar su **Informe Intrastat**. Si necesita cambiar algo e informar nuevamente, puede usar la acción **Reabrir** para reabrir el informe Intrastat. Una vez que se vuelve a abrir el documento, puede utilizar la acción **Liberar** para liberar el documento de nuevo.
 * **Notificado**: especifica si el movimiento ya se ha declarado a las autoridades fiscales. Este no es un estado regular sino un campo independiente, e incluso si reabriera el informe de Intrastat, aún mostraría que el archivo ya se creó para este informe.
 
+### Comercio triangular en intrastat
+
+El comercio triangular implica el comercio entre tres países o regiones donde los bienes pasan por alto el país de la empresa informante. En Business Central, esto se puede facilitar a través de la funcionalidad [Envío directo](sales-how-drop-shipment.md). Para habilitar esta opción, active el campo **Incluir envío directo** en la **Configuración de informe Intrastat**.  
+
+Cuando habilita esta opción, el sistema usa las siguientes reglas, pero solo si tiene **Drop Shipmnet** marcada en el **Pedido de venta**: 
+
+| Recibiendo de | Entregando a | Resultado intrastat esperado |
+|----------|------------|----------------------|
+| País o región como en **Información empresa** | País o región como en **Información empresa** | Sin líneas intrastat |  
+| País o región como en **Información empresa** | País o región de la UE diferente del país o región en **Información empresa** | Línea de envío intrastat | 
+| País o región como en **Información empresa** | País o región no perteneciente a la UE | Sin líneas intrastat |   
+| País o región de la UE diferente del país o región en **Información empresa** | País o región como en **Información empresa** | Línea de recepción intrastat | 
+| País o región de la UE diferente del país o región en **Información empresa** | País o región de la UE diferente del país o región en **Información empresa** | Sin líneas intrastat |
+| País o región de la UE diferente del país o región en **Información empresa** | País o región no perteneciente a la UE | Sin líneas intrastat | 
+| País o región no perteneciente a la UE | País o región como en **Información empresa** | Sin líneas intrastat |  
+| País o región no perteneciente a la UE | País o región de la UE diferente del país o región en **Información empresa** | Sin líneas intrastat |
+| País o región no perteneciente a la UE | País o región no perteneciente a la UE | Sin líneas intrastat |   
+
 ## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Consulte también .
 
-[Configuración de informes de Intrastat](finance-how-setup-report-intrastat.md)  
+[Configurar informes de Intrastat](finance-how-setup-report-intrastat.md)  
 [Gestión financiera](finance.md)  
+[Envío directo](sales-how-drop-shipment.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
