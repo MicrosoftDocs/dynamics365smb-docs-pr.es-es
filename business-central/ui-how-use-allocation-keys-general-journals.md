@@ -1,7 +1,7 @@
 ---
 title: Utilizar claves de asignación en diarios generales
 description: Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.search.form: '283, 284'
 ms.date: 06/29/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="use-allocation-keys-in-general-journals"></a>Utilizar claves de asignación en diarios generales
+# Utilizar claves de asignación en diarios generales
 Puede asignar un movimiento en un diario general a varias cuentas diferentes al registrar el diario. La distribución puede realizarse por cantidad, porcentaje o importe.
 
-## <a name="to-set-up-allocation-keys"></a>Para configurar claves de asignación
+## Para configurar claves de asignación
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general periódico** y luego elija el enlace relacionado.
 2. Seleccione el campo **Nombre de sección** para abrir la página **Secciones diario general**.
 3. Puede modificar las asignaciones en una sección existente de la lista o crear une nueva sección con asignaciones.
@@ -29,13 +29,13 @@ Puede asignar un movimiento en un diario general a varias cuentas diferentes al 
 10. Después de introducir las líneas de asignaciones, seleccione **Aceptar** para volver a la página **Diario general periódico**. El campo **Importe asignado (USD)** se rellena y coincide con el campo **Importe**.
 11. Registre el diario.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Para modificar una clave de asignación que ya haya sido configurada
+## Para modificar una clave de asignación que ya haya sido configurada
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general periódico** y luego elija el enlace relacionado.
 2. En la página **Diario general periódico** (Diarios generales periódicos), seleccione el diario con la distribución.
 3. Seleccione la línea con la asignación y, a continuación, seleccione la acción **Asignaciones**.
 4. Cambie los campos relevantes y, a continuación, elija el botón **Aceptar**.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

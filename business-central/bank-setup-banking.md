@@ -1,7 +1,7 @@
 ---
 title: Configurar banca
 description: 'Utilice fichas de banco para realizar un seguimiento de sus cuentas bancarias y configurar las fuentes de bancos, como Yodlee, para intercambiar datos.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-banking"></a>Configurar banca
+# Configurar banca
 
 Mediante el uso de fichas de bancos, puede realizar un seguimiento de todos sus bancos, en cualquier divisa. Cuando haya configurado los bancos, puede utilizar también la opción de impresión de cheques.
 
@@ -25,7 +25,7 @@ Para usar servicios de banca electrónica para importar extractos bancarios y ex
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Conciliar bancos](bank-manage-bank-accounts.md)  
 [Administrar cobros](receivables-manage-receivables.md)  

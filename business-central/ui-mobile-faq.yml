@@ -2,14 +2,14 @@
 metadata:
   title: P+F sobre aplicaciones móviles
   description: Consulte las respuestas a las preguntas frecuentes sobre el uso de Business Central en su teléfono o tableta.
-  author: edupont04
+  author: brentholtorf
   ms.topic: faq
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: 'phone, tablet'
   ms.date: 10/25/2021
-  ms.author: edupont
+  ms.author: bholtorf
 title: P+F sobre aplicaciones móviles
 summary: |
   Este artículo responde las preguntas que nuestros usuarios avanzados suelen hacer sobre las aplicaciones móviles para [!INCLUDE [prod_short](includes/prod_short.md)].  

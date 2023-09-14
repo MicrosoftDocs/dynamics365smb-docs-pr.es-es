@@ -1,7 +1,7 @@
 ---
 title: 'Recepción, almacenamiento, selección y envío en la configuración del almacenamiento básico'
 description: 'En Business Central, los procesos de entrada y salida se pueden realizar de maneras diferentes, en función del nivel de complejidad del almacén.'
-author: andreipanko
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,20 +9,20 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 04/01/2021
-ms.author: andreipa
+ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Tutorial de flujo entrante y saliente en las configuraciones de almacén básico
+# Tutorial de flujo entrante y saliente en las configuraciones de almacén básico
 
 Este tutorial muestra cómo completar los flujos entrantes y salientes en la configuración básica: pedido por pedido. Para obtener más información, consulte [Resumen de las diferentes opciones de configuración](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos  
 Para completar este tutorial, deberá convertirse en empleado de almacén en el almacén *PLATA*, siguiendo estos pasos:  
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2. Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
 3. En el campo **Código de almacén**, especifique *PLATA*.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Flujo entrante: recepción y almacenamiento en la configuración del almacenamiento básico
+## Flujo entrante: recepción y almacenamiento en la configuración del almacenamiento básico
 
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], los procesos de entrada para la recepción y la ubicación se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
@@ -37,10 +37,10 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de entrada 
 
 En el siguiente tutorial se demuestra el método B de la tabla anterior.  
 
-### <a name="scenario"></a>Escenario
+### Escenario  
 Alicia, la agente de compras, crea una orden de compra para diversos granos tostados. Cuando la entrega llega al almacén, John, el trabajador del almacén, coloca los productos en las ubicaciones adecuadas. Cuando John contabiliza el almacenamiento, los productos se contabilizan como como recibidos en el inventario y disponibles para la venta u otra demanda.  
 
-### <a name="steps"></a>Pasos
+### Pasos
 1. Configure la página **Tarjeta de almacén** para definir los flujos entrantes de almacén de la empresa.  
 
     1.  Elija el icono ![Bombilla que abre la característica Dígame 2.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
@@ -96,7 +96,7 @@ Alicia, la agente de compras, crea una orden de compra para diversos granos tost
 
     5.  Seleccione la acción **Registrar**, elija la acción **Recibir** y seleccione el botón **Aceptar**.  
 
-### <a name="results"></a>Resultados
+### Resultados 
  - los granos tostados ahora se registran como almacenados en ubicaciones especificadas
  - se crea **Ubicado el inventario contabilizado**
  - se crea **Recepción de compra contabilizada**
@@ -104,7 +104,7 @@ Alicia, la agente de compras, crea una orden de compra para diversos granos tost
  - el producto **Inventario** aumenta en la cantidad elegida
     
 
-## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Flujo saliente: selección y envío en la configuración del almacenamiento básico
+## Flujo saliente: selección y envío en la configuración del almacenamiento básico
 
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], los procesos de salida para el picking y el envío se pueden realizar de cuatro maneras utilizando distintas funciones según el nivel de complejidad del almacén.  
 
@@ -119,10 +119,10 @@ Para obtener más información, consulte [Detalles de diseño: Flujo de salida d
 
 En el siguiente tutorial se demuestra el método B de la tabla anterior.
 
-### <a name="scenario-1"></a>Escenario
+### Escenario  
 Susan, la procesadora de pedidos, crea un pedido de venta de diversos granos tostados y lo pasa al almacén. Juan, el trabajador de almacén debe comprobar que el envío se prepara y envía al cliente. John controla todas las tareas relacionadas con la página **Selección de inventario**, que señala automáticamente las ubicaciones donde se almacenan los granos tostados.
 
-### <a name="steps-1"></a>Pasos
+### Pasos
 Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la configuración del almacenamiento básico](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Configure la página **Tarjeta de almacén** para definir los flujos entrantes de almacén de la empresa.  
@@ -159,7 +159,7 @@ Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la 
 
 5. Seleccione la acción **Registrar**, seleccione **Enviar** y, a continuación, el botón **Aceptar**.  
 
-### <a name="results-1"></a>Resultados
+### Resultados
  - los granos tostados ahora se registran como seleccionados en ubicaciones especificadas
  - se crea **Selección de inventario contabilizado**
  - se crea el **Histórico de albaranes de venta**
@@ -167,7 +167,7 @@ Esto es una continuación de [Flujo entrante: recepción y almacenamiento en la 
  - el producto **Inventario** disminuye en la cantidad elegida
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Almacenar productos con almacenamientos de inventario](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Configurar almacenes básicos con zonas de operaciones](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Detalles de diseño: flujo entrante de almacén](../../design-details-inbound-warehouse-flow.md) 

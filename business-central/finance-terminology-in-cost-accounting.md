@@ -1,7 +1,7 @@
 ---
 title: Terminología en contabilidad de costes
 description: 'Este tema define los términos clave que se utilizan en la contabilidad de costes, como la clave de asignación y el origen de asignación.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminología en contabilidad de costes
+# Terminología en contabilidad de costes
 
 Este tema define los términos clave que se utilizan en contabilidad de costes.  
 
-## <a name="key-terms"></a>Términos clave
+## Términos clave
 
  La siguiente tabla muestra las definiciones de los términos clave de contabilidad de costes.  
 
@@ -43,9 +43,9 @@ Este tema define los términos clave que se utilizan en contabilidad de costes.
 |Coste variable|Los costes variables son los gastos que cambian en proporción a la actividad de una empresa. Los costes variables son la suma de costes marginales en todas las unidades producidas. Los costes fijos y los costes variables componen los dos componentes de costes totales.|  
 |Variante|Una variante se utiliza como etiqueta definida por el usuario opcional para las asignaciones. El objetivo de la etiqueta es filtrar grupos de asignación.|  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)  
  [Contabilidad para costes](finance-manage-cost-accounting.md)  

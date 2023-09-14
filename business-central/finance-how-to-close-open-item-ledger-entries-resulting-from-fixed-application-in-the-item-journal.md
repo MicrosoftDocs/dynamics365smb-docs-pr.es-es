@@ -1,16 +1,16 @@
 ---
 title: Cerrar entradas del libro mayor de artículos que provienen del uso de una aplicación fija
 description: Aprenda a crear una aplicación fija entre una transacción de entrada y la transacción de salida original en el diario de productos.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 40
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
+# Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
 
 Puede utilizar el campo **Liquidar por mov.** en la página **Diario de productos** para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original. Por ejemplo, para corregir la transacción de salida o procesar su devolución.  
 
@@ -23,7 +23,7 @@ Puede cambiar y volver a liquidar los movimientos de liquidación en determinada
 
 El siguiente procedimiento muestra cómo cerrar los movimientos realizando dos registros correctores en el diario de productos.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Para cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
+## Para cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos  
 
 1. Utilice el campo **Liquidar por mov.** para registrar un ajuste positivo con la cantidad correspondiente. Esto cierra el movimiento negativo original con una liquidación fija.  
 
@@ -32,7 +32,7 @@ El siguiente procedimiento muestra cómo cerrar los movimientos realizando dos r
 
     El campo **Liq. por nº orden** especifica si la cantidad que aparece en la línea del diario de productos debe liquidarse en un documento ya registrado. Si es así, introduzca el número de movimiento del producto sobre el que debería liquidarse la línea del diario.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)  
 [Procesamiento de devoluciones de ventas y cancelaciones](sales-how-process-sales-returns-cancellations.md)  

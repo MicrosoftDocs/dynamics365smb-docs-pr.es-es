@@ -1,16 +1,16 @@
 ---
 title: Transferencia y registro de movimientos de coste
 description: 'Antes de definir asignaciones de coste, debe entender los distintos orígenes de dónde provienen los movimientos de coste.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="transferring-and-posting-cost-entries"></a>Transferencia y registro de movimientos de coste
+# Transferencia y registro de movimientos de coste
 
 Antes de definir asignaciones de coste, debe entender cómo provienen los movimientos de coste de los orígenes siguientes:  
 
@@ -19,7 +19,7 @@ Antes de definir asignaciones de coste, debe entender cómo provienen los movimi
 - Registros automáticas de asignación de costes reales.  
 - Transferencia de los movimientos de presupuesto a real.
 
-## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criterios para la transferencia de movimientos de contabilidad a movimientos de coste
+## Criterios para la transferencia de movimientos de contabilidad a movimientos de coste
 
 Es importante entender los criterios para la transferencia de movimientos de contabilidad a movimientos de coste. Durante la transferencia, el proceso de **Transferir movs. contabilidad a costes** utiliza el siguiente criterio para determinar si y cómo se transfieren los movimientos de contabilidad.  
 
@@ -40,13 +40,13 @@ No se transfieren los movimientos de contabilidad si:
 - Los movimientos tienen una fecha de registro antes de **Fecha inicio para transferencia C/G**.  
 - Los movimientos se registraron con una fecha de cierre. Éstos son normalmente movimientos que restablecen el saldo de regularización al final del año.
 
-## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Transferencia de movimientos de contabilidad a movimientos de coste
+## Transferencia de movimientos de contabilidad a movimientos de coste
 
 Puede transferir movimientos de contabilidad a movimientos de coste.  
 
 Antes de ejecutar el proceso para transferir movimientos de contabilidad a movimientos de coste, debe preparar la transferencia para evitar el registro manual de corrección.  
 
-### <a name="to-prepare-the-transfer"></a>Para preparar la transferencia
+### Para preparar la transferencia  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración contabilidad costes** y luego elija el enlace relacionado.  
 2.  En la página **Configuración contabilidad costes**, verifique que el campo **Fecha inicio para transferencia C/G** esté definido el valor correcto.  
@@ -56,14 +56,14 @@ Antes de ejecutar el proceso para transferir movimientos de contabilidad a movim
 6.  Para cada cuenta contable correspondiente, en la página **Ficha cuenta**, compruebe que el campo **Nº tipo coste**. está vinculado correctamente a un tipo de coste. Para obtener más información, consulte [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md).  
 7.  Verifique que todos los movimientos de contabilidad correspondientes tengan valores de dimensión que correspondan a un centro de coste y a un objeto de coste.  
 
-### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Para transferir movimientos de contabilidad a movimientos de coste
+### Para transferir movimientos de contabilidad a movimientos de coste
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transferir movimientos de contabilidad a costes** y luego elija el enlace relacionado.  
 2.  Para iniciar la transferencia, elija el botón **Sí**. El proceso transfiere todos los movimientos de contabilidad que no se han transferido ya.  
 
 Durante la transferencia, el proceso crea conexiones en las entradas en la tabla **Movimiento de coste** y la tabla **Registro de costes**. Esto permite realizar un seguimiento del origen de los movimientos de coste.
 
-## <a name="automatic-transfer-and-combined-entries"></a>Transferencia automática y movimientos combinados
+## Transferencia automática y movimientos combinados
 
 En contabilidad de costes, puede transferir los movimientos de contabilidad a un tipo de coste mediante un registro combinado. Puede especificar si un tipo de coste recibe las movimientos agrupados en el campo **Combinar movimientos** en la definición del tipo de coste. La siguiente tabla describe las distintas opciones.  
 
@@ -76,15 +76,15 @@ En contabilidad de costes, puede transferir los movimientos de contabilidad a un
 > [!IMPORTANT]  
 >  Si ha seleccionado la casilla **Transf. autom. desde C/G** en la página **Configuración contabilidad costes**, [!INCLUDE[prod_short](includes/prod_short.md)] actualiza la contabilidad de costes después de cada registro en la contabilidad. Ya no se pueden realizar movimientos combinados.
 
-## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Los resultados de la transferencia de movimientos de contabilidad a movimientos de coste
+## Los resultados de la transferencia de movimientos de contabilidad a movimientos de coste
 
 Durante la transferencia de movimientos de contabilidad a movimientos de coste, [!INCLUDE[prod_short](includes/prod_short.md)] crea conexiones en los movimientos de la tabla **Mov. contabilidad**, la tabla **Movimiento de coste** y la tabla **Registro de costes** para permitir realizar un seguimiento de las conexiones entre los movimientos de costes y los movimientos de contabilidad.  
 
-### <a name="general-ledger-entries"></a>Movs. contabilidad
+### Movs. contabilidad
 
 Para cada movimiento de contabilidad que se transfiere a la contabilidad de costes, [!INCLUDE[prod_short](includes/prod_short.md)] rellena el campo de coste **N.º mov.**.  
 
-### <a name="cost-entries"></a>Movs. coste
+### Movs. coste
 
 Para cada movimiento de coste, [!INCLUDE[prod_short](includes/prod_short.md)] guarda el número de movimiento del movimiento de contabilidad correspondiente en el campo **Nº mov. contabilidad** en la tabla **Movimiento de coste**.  
 
@@ -94,13 +94,13 @@ El campo **Cuenta** en la tabla **Movimiento de coste** contiene el número de l
 
 Para movimientos de coste únicos, [!INCLUDE[prod_short](includes/prod_short.md)] transfiere el texto de registro del movimiento de contabilidad al campo de texto **Descripción**. Para movimientos combinados, el campo de texto muestra que estos movimientos se transfieren como movimientos combinados. Por ejemplo, para un movimiento combinado del mes de octubre de 2013, el texto puede ser **Movimientos combinados, octubre de 2013**.  
 
-### <a name="cost-register"></a>Registro costes
+### Registro costes
 
 En la tabla **Registro de costes**, [!INCLUDE[prod_short](includes/prod_short.md)] crea un movimiento con la transferencia de origen de la contabilidad. El movimiento registra el primer y último número de los movimientos de contabilidad que se transfieren, además del primer y último número de movimientos de coste creados.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)  
  [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)  

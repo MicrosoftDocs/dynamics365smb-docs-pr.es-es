@@ -2,7 +2,7 @@
 title: Gestión de relaciones
 description: Las características de gestión relaciones admiten las acciones de ventas y le permiten acceder a la información sobre contactos y clientes potenciales para atender a los clientes de forma eficaz.
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,9 +10,9 @@ ms.workload: na
 ms.search.keywords: 'contact, prospect, client'
 ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-relationships"></a>Gestionar las relaciones
+# Gestionar las relaciones
 Las funciones de gestión de relaciones de [!INCLUDE[prod_short](includes/prod_short.md)] le ayudan a gestionar y proporcionar soporte a sus esfuerzos de ventas. Con estas funciones, tiene acceso a información completa y precisa, de modo que las interacciones se pueden centrar en los segmentos de cliente o contacto preferidos.
 
 Las buenas prácticas de ventas y marketing consisten en tomar las mejores decisiones en los momentos adecuados. [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen preciso y puntual sobre la información de contacto para que pueda servir a sus clientes potenciales con más eficacia y aumentar la satisfacción de sus clientes.

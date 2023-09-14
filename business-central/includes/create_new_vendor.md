@@ -1,8 +1,8 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 09/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 1. Elija el icono ![Bombilla que abre la función Dígame 2.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.  

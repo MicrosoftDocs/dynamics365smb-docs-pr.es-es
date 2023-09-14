@@ -1,16 +1,16 @@
 ---
 title: 'Configurar procedimientos recomendados: valoración de existencias'
 description: La valoración de existencias en la ficha de producto define cómo se registra el flujo de coste del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del coste.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '30, 31'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setup-best-practices-costing-method"></a>Procedimientos recomendados de configuración: valoración de existencias
+# Procedimientos recomendados de configuración: valoración de existencias
 
 La **valoración de existencias** en la ficha de producto define cómo se registra el flujo de coste del producto y si un el valor real o presupuestado se capitaliza y utiliza en el cálculo del coste.  
 
@@ -26,7 +26,7 @@ En la tabla siguiente se proporcionan prácticas recomendadas sobre cómo config
 |Específico|Utilice esto en la producción o el comercio de productos fácilmente identificables con costes unitarios relativamente elevados.<br /><br /> Utilice para productos que están sujetos normativas.<br /><br /> Utilice esto para los productos con números de serie.|El coste unitario de un producto es el coste exacto en el que la unidad determinada fue recibida.|
 |Estándar|Utilice esto donde el control del coste es crítico.<br /><br /> Utilice esto en la fabricación repetitiva para establecer el valor de los costes de material directo, mano de obra directa y gastos de fabricación.<br /><br /> Utilice esto cuando hay disciplina y personal para mantener los estándares.|El coste unitario de un producto se preestablece basándose en una estimación.<br /><br /> Cuando el coste real se realiza posteriormente, el coste estándar se debe ajustar al coste real a través de valores de varianza.|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  

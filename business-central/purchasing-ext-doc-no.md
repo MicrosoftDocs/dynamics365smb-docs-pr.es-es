@@ -1,22 +1,22 @@
 ---
 title: Números de documento externo en documentos de compra
 description: Puede incluir información sobre los números que sus proveedores asignan a los documentos que le envían mediante el campo N.º documento externo o el campo Su referencia. Conozca la diferencia entre los dos campos aquí.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>Números de documento externo en documentos de compra
+# Números de documento externo en documentos de compra
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 También puede especificar números de documento externo en documentos de ventas. Para obtener más información, consulte [Números de documento externo](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Introducir números de documento externo](across-enter-external-document-numbers.md)  
 [Compras](purchasing-manage-purchasing.md)  

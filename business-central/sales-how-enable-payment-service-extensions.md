@@ -1,7 +1,7 @@
 ---
 title: Permitir los pagos de clientes con servicios de pago
 description: Facilite a los clientes el pago de las facturas habilitando servicios de pago.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: online payment
 ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="enable-customer-payments-through-payment-services"></a>Permitir los pagos de clientes mediante servicios de pago
+# Permitir los pagos de clientes mediante servicios de pago
 
 Como alternativa a cobrar pagos a través de transferencia bancaria o tarjetas de crédito, los clientes pueden pagarle a través de su cuenta en servicios de pago, como PayPal o WorldPay.  
 
@@ -22,7 +22,7 @@ Las extensiones Paypal Payments Standard y WorldPay Payments Standard están ins
 > [!CAUTION]
 > La extensión WorldPay Payments Standard quedará obsoleta. El código se comercializa como obsoleto a partir del segundo lanzamiento de versiones de 2023. La aplicación estará activa durante los próximos tres lanzamientos principales y luego se eliminará.   
 
-## <a name="to-enable-a-payment-service-in-"></a>Para activar un servicio de pago en [!INCLUDE[prod_short](includes/prod_short.md)]
+## Para activar un servicio de pago en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Servicios de pago** y luego elija el enlace relacionado.  
 2. En la página **Servicios de pago**, seleccione la acción **Nuevo**.  
@@ -31,7 +31,7 @@ Las extensiones Paypal Payments Standard y WorldPay Payments Standard están ins
 5. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Cierre la página.  
 
-## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Para seleccionar un servicio de pago en una factura de ventas
+## Para seleccionar un servicio de pago en una factura de ventas
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. Abra la factura de venta que desee pagar mediante el servicio de pago.  
@@ -40,9 +40,9 @@ Las extensiones Paypal Payments Standard y WorldPay Payments Standard están ins
     > [!NOTE]  
     > El campo **Servicio de pago** solo está disponible si ha activado el servicio de pago.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Ccial](sales-manage-sales.md)  

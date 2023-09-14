@@ -1,27 +1,27 @@
 ---
 title: Configuración de tareas estándar para operaciones
 description: Obtenga información sobre cómo configurar tareas estándar y agregar tareas estándar a las operaciones para simplificar el mantenimiento de las rutas.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-standard-routing-lines"></a>Configurar de líneas de ruta estándar
+# Configurar de líneas de ruta estándar
 
 La utilización de tareas estándar simplifica la creación y el mantenimiento de las rutas. Le permiten adjuntar rápidamente la información adicional a las operaciones periódicas.
 
-## <a name="to-set-up-a-standard-task"></a>Para configurar tareas estándar
+## Para configurar tareas estándar
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tareas estándar** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Elija la acción **Herramientas**, **Personal**, **Descripción** o **Herramientas**, y luego, en la página que se abre, agregue la entrada relevante.
 
-## <a name="to-add-a-standard-task-to-an-operation"></a>Para añadir una tarea estándar a una operación
+## Para añadir una tarea estándar a una operación
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Rutas** y luego elija el enlace relacionado.
 2. Abra la ruta pertinente.
@@ -29,7 +29,7 @@ La utilización de tareas estándar simplifica la creación y el mantenimiento d
 
 Cuando imprime la hoja de ruta, puede optar por incluir los elementos de la tarea estándar que agregó a las líneas de ruta.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Creación de rutas](production-how-to-create-routings.md)  
 [Crear LM de producción](production-how-to-create-production-boms.md)  

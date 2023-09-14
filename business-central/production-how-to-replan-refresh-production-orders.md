@@ -1,16 +1,16 @@
 ---
 title: Replanificar o actualizar órdenes de producción directamente
 description: Este tema describe los procedimientos sobre cómo replanificar órdenes de producción y actualizar órdenes de producción directamente.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a>Replanificar o actualizar órdenes de producción directamente
+# Replanificar o actualizar órdenes de producción directamente
 
 Se utiliza normalmente la función **Replanificar** después de haber agregado o cambiado componentes que conforman órdenes de producción subyacentes. La función de planificación calcula los cambios realizados en las líneas de componentes y rutas e incluye a los productos de los niveles de L.M. de producción inferiores, para los que puede crear nuevas órdenes de producción.  
 
@@ -28,7 +28,7 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 > [!NOTE]
 > Si utiliza la función Actualizar para recalcular las líneas de orden de producción, se eliminan las líneas antiguas y se calculan las nuevas.  
 
-## <a name="to-replan-a-production-order"></a>Para replanificar una orden de producción
+## Para replanificar una orden de producción
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. Planificadas en firme** y, a continuación, elija el vínculo relacionado.  
 2. Abra la orden de producción que desea replanificar.  
@@ -57,7 +57,7 @@ Puede insertar las líneas de la orden de producción manualmente o utilizar la 
 > [!NOTE]  
 > Es muy probable que los cambios realizados con la función **Replanificar** modifiquen la necesidad de capacidad de la orden de producción y que, por tanto, tenga que reprogramar las operaciones a continuación.  
 
-## <a name="to-refresh-a-production-order"></a>Para actualizar una orden de producción
+## Para actualizar una orden de producción
 
 Si ha modificado líneas de orden de producción, componentes o líneas de ruta, debe también actualizar la información en la orden de producción. En siguiente procedimiento, se calculan los componentes para una orden de producción planificada en firme. Los pasos son parecidos para las líneas de ruta.
 
@@ -80,7 +80,7 @@ Si ha modificado líneas de orden de producción, componentes o líneas de ruta,
 > [!NOTE]  
 > El cálculo de los componentes de la orden de producción elimina cambios realizados anteriormente en los mismos.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Planificación](production-planning.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  

@@ -1,7 +1,7 @@
 ---
 title: Resumen de contabilidad para costes
 description: La contabilidad de costes puede ayudarle a conocer los costes de la dirección de una empresa. Este artículo proporciona enlaces a otros artículos con más información.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="accounting-for-costs"></a>Contabilidad para costes
+# Contabilidad para costes
 La contabilidad de costes se utiliza para ayudarle a conocer los costes de la dirección de una empresa. Para iniciarse en la contabilidad de costes, vea los temas siguientes.  
 
 |Para|Vea|  
@@ -24,9 +24,9 @@ La contabilidad de costes se utiliza para ayudarle a conocer los costes de la di
 |Conocer los procesos de creación de presupuestos de costes.|[Crear presupuesto coste](finance-create-cost-budgets.md)|
 |Cancelar movimientos de presupuesto de costes en el registro de presupuestos de costes.|[Eliminar movs. ppto. costes](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Finanzas](finance.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

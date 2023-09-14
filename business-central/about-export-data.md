@@ -1,7 +1,7 @@
 ---
 title: Exportar los datos de Business Central a Excel
 description: 'Puede exportar los informes financieros y los datos de inteligencia empresarial desde Business Central a Excel, o abrir los datos en Excel.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: 'analysis, reporting, financial report, business intelligence, BI, Excel'
 ms.search.form: 9901
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="export-your-business-data-to-excel"></a>Exportar sus datos empresariales a Excel
+# Exportar sus datos empresariales a Excel
 
 Excel es una potente herramienta para trabajar con datos. Puede abrir cualquier lista en Excel desde [!INCLUDE[prod_short](includes/prod_short.md)]. Incluso puede modificar los datos en Excel y después volver a enviarlos a [!INCLUDE [prod_short](includes/prod_short.md)]. La misma capacidad le facilita llevar sus datos con usted si decide cancelar su suscripción.
 
-## <a name="opening-lists-in-excel"></a>Abrir listas en Excel
+## Abrir listas en Excel
 
 Puede abrir los datos en Excel desde cualquier diario, lista u hoja de trabajo. Abra solo la página que desee y, a continuación, elija **Abrir en Excel**. Por ejemplo, abra la lista de clientes (busque **Clientes**) y elija **Abrir en Excel**. El explorador le indicaŕa que abra o guardar el libro de Excel generado.  
 
@@ -24,11 +24,11 @@ Puede abrir los datos en Excel desde cualquier diario, lista u hoja de trabajo. 
 
 Cada lista incluye algunas columnas. La exportación a Excel incluye las columnas que se encuentran en su vista actual. Cambie las columnas abriendo el menú contextual para cualquier columna y luego especificando qué columnas desea ver. La lista de columnas es diferente para la mayoría de las listas. Las columnas reflejan la estructura de la base de datos que almacena sus datos. Si no está seguro de qué tipo de datos contiene una determinada columna, agréguela a su vista. Siempre puede volver a eliminarla.  
 
-### <a name="edit-data-in-excel"></a>Editar datos en Excel
+### Editar datos en Excel
 
 Su experiencia de [!INCLUDE[prod_short](includes/prod_short.md)] incluye un complemento para Excel para que pueda editar datos en Excel. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="exporting-data-to-other-finance-systems"></a>Exportar datos a otros sistemas financieros
+## Exportar datos a otros sistemas financieros
 
 Si decida cancelar la suscripción de [!INCLUDE[prod_short](includes/prod_short.md)], puede exportar los datos a Excel y llevárselos a su próximo sistema financiero.  
 
@@ -72,9 +72,9 @@ Le recomendamos que también considere la posibilidad de exportar los datos de l
 
 Para obtener más información, consulte [Para obtener un resumen de los permisos de un usuario](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
+## Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Cancelar la suscripción de [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  

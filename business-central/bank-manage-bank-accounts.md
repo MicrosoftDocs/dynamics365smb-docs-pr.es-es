@@ -1,7 +1,7 @@
 ---
 title: Administrar cuentas bancarias
 description: Debe reconciliar regularmente los movimientos de banco con las transacciones bancarias relacionadas en sus cuentas bancarias.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.search.form: '377, 378, 165, 1284'
 ms.date: 06/14/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Administre y concilie sus cuentas bancarias
+# Administre y concilie sus cuentas bancarias
 
 Se debe completar una conciliación de banco a intervalos regulares para todos sus bancos para garantizar que los registros de caja de la empresa sean correctos. Para ello, compare y haga corresponder los movimientos en sus bancos internos con las transacciones bancarias en su banco, y luego registre los saldos en sus bancos internos para que los totales estén disponibles para los directores financieros. La conciliación bancaria también es una forma práctica de descubrir y resolver pagos faltantes y errores de contabilidad.
 
@@ -32,9 +32,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Use la conciliación bancaria para ayudar a comprobar que sus libros estén actualizados y no publique la conciliación hasta que esté satisfecho con la conciliación.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configurar banca](bank-setup-banking.md)  
 [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)  

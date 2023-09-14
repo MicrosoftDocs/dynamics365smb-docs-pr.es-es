@@ -1,16 +1,16 @@
 ---
 title: 'Detalles de diseño: Diseño de seguimiento de productos'
 description: En este tema se describe el diseño detrás del seguimiento de productos en Business Central a medida que madura a través de las versiones del producto.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-item-tracking-design"></a>Detalles de diseño: Diseño de seguimiento de productos
+# Detalles de diseño: Diseño de seguimiento de productos
 
 El seguimiento de productos en [!INCLUDE[prod_short](includes/prod_short.md)] comenzó con [!INCLUDE [navnow_md](includes/navnow_md.md)]. La funcionalidad de seguimiento de productos pasa a ser una estructura de objetos independiente con vínculos complejos a documentos registrados y movimientos de producto, y está integrada con el sistema de reservas, que controla la reserva, el seguimiento de pedidos y los mensajes de acciones. Para obtener más información, consulte [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md) en Detalles de diseño: Planificación de aprovisionamiento.  
 
@@ -33,7 +33,7 @@ La codeunit 22, **Diario de productos – Línea de registro**, divide ahora el 
 
 Para obtener más información, consulte [Detalles de diseño: Estructura de registro de seguimiento de productos](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)
 

@@ -1,16 +1,16 @@
 ---
 title: Configurar procesos financieros
 description: Obtenga información sobre las tareas requeridas para configurar las finanzas en su empresa para adaptarse a todas sus necesidades de contabilidad o auditoría.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-finance"></a>Configurar las finanzas
+# Configurar las finanzas
 
 Antes de que pueda comenzar a administrar su negocio, debe especificar cómo desea administrar los procesos financieros de la empresa. En primer lugar, debe configurar el elemento básico de los registros de contabilidad de la empresa: el plan de cuentas (COA). A continuación, debe configurar los grupos contables, que se encargan de que el proceso de asignación de cuentas contables predeterminadas a los clientes, proveedores y productos sea más eficaz.
 
@@ -51,9 +51,9 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Según su ubicación geográfica, algunas páginas de Business Central pueden contener campos que no se describen en los productos que están en la lista de arriba porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Finanzas](finance.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  

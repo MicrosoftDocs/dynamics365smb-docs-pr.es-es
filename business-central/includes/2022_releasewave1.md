@@ -1,7 +1,7 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 > **SE APLICA A:** Lanzamiento de versiones 1 Business Central 2022 y posteriores

@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/05/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Vaya al [sitio de prueba](https://go.microsoft.com/fwlink/?linkid=847861), elija *Finanzas y operaciones*, y luego, en la tarjeta **Dynamics 365 Business Central**, elija el botón **Probar gratis**.  
 2. Introduzca la dirección de correo electrónico de su trabajo o escuela y otros datos. Se le redirigirá a su aplicación de prueba en [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

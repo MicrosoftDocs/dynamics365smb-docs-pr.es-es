@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 En los documentos de venta y los diarios, puede especificar un número de documento que haga referencia al sistema de numeración del cliente. <!--You can enter a maximum of ten characters, both numbers and letters.--> Utilice este campo para registrar el número que el cliente asignó al pedido, la factura o el abono. Posteriormente podrá utilizar este número si, por alguna razón, necesita buscar la entrada registrada del diario mediante este número.  

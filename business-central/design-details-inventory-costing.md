@@ -1,7 +1,7 @@
 ---
 title: 'Detalles de diseño: coste de inventario'
 description: En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Detalles de diseño: Coste de inventario
+# Detalles de diseño: Coste de inventario
 
 En esta documentación se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de valoración de inventario en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 La valoración de inventario, también conocida como "gestión de costes", se refiere al registro y la creación de informes sobre los costes operativos de la empresa.  
 
-## <a name="in-this-section"></a>En esta sección
+## En esta sección
 
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  

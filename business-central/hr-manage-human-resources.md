@@ -1,7 +1,7 @@
 ---
 title: Administrar recursos humanos
 description: 'Puede registrar nuevo personal, modificar la información del personal existente y registrar y analizar las ausencias.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'personnel, people, employee, staff, HR'
 ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="manage-human-resources"></a>Administrar recursos humanos
+# Administrar recursos humanos
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
 
@@ -26,7 +26,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registre a los empleados nuevos o modifique los registros de los empleados existentes y adjunte la información relacionada, como contratos y productos. |[Registrar empleados](hr-how-register-employees.md) |
 | Registre la ausencia de los empleados y consulte las estadísticas de ausencia mediante distintos filtros. |[Gestionar ausencia empleados](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

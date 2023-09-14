@@ -1,7 +1,7 @@
 ---
 title: Liquidar movimientos en distintas divisas
 description: 'Puede liquidar movimientos en varias divisas, por ejemplo, si vende a un cliente en una divisa y cobra en otra.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'multiple currencies, payment, reconcile'
 ms.search.form: '148, 460, 25'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Permitir la liquidación de movimientos de cliente en distintas divisas
+# Permitir la liquidación de movimientos de cliente en distintas divisas
 
 Si se realiza una compra a un proveedor en una divisa y se emite el pago en otra divisa, es posible liquidar la compra con el pago.
 
@@ -19,7 +19,7 @@ De igual modo, si vende a un cliente en una divisa y cobra en otra, puede liquid
 
 El procedimiento siguiente describe cómo configurarlo para movimientos de proveedor en la página **Configuración de compras y pagos**. La configuración es similar para los movimientos de cliente en la página **Configuración de ventas y cobros**.
 
-## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Para permitir la liquidación de movimientos de proveedor en divisas distintas
+## Para permitir la liquidación de movimientos de proveedor en divisas distintas
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de compras y pagos** y luego elija el enlace relacionado.
 2. En el campo **Liquidación entre divisas**, seleccione una de las siguientes opciones.
@@ -30,7 +30,7 @@ El procedimiento siguiente describe cómo configurarlo para movimientos de prove
 | UME |Se permite la liquidación entre divisas de la UME. |
 | Todo |Se permite la liquidación entre todas las divisas. |
 
-## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Para configurar cuentas para liquidar diferencias de redondeo en divisa
+## Para configurar cuentas para liquidar diferencias de redondeo en divisa
 
 Si liquida movimientos en varias divisas distintas, debe configurar las cuentas en las que se registrarán las diferencias de redondeo.  
 
@@ -42,9 +42,9 @@ Si liquida movimientos en varias divisas distintas, debe configurar las cuentas 
 3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos registro proveedor**, y luego elija el enlace relacionado.  
 4. En los campos **Cta. neg. red. liquids. divisa** y **Cta. pos. red. liquids. divisa**, especifique el número de cuentas contables para registrar las diferencias de redondeo.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) relacionada
+## Consultar la [formación de Microsoft](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) relacionada
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
