@@ -90,7 +90,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |*<kbd>Mayús</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Envíe las líneas sugeridas en la página de hojas de cálculo de flujo de efectivo.|No aplicable.|
 |*<kbd>Mayús</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Ver números de serie y de lote asignados al producto de línea en el documento o diario.|No aplicable.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navegación entre filas y columnas
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navegación entre filas y columnas
 
 Las cuadrículas con filas y columnas existen en muchos tipos de página en [!INCLUDE[prod_short](includes/prod_short.md)], como páginas de lista y partes de **Líneas** en documentos. Moverse de una celda a otra a través de una cuadrícula está totalmente preparado para el teclado.
 
@@ -111,7 +111,7 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 | <kbd>Tab</kbd> | En una lista editable, desplácese en la misma fila al siguiente campo de la derecha. | No aplicable. | 
 | <kbd>Mayús</kbd>+<kbd>Tabulador</kbd> | En una lista editable, desplácese en la misma fila al anterior campo de la izquierda. | No aplicable. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selección, copia y pegado
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Selección, copia y pegado
 
 |Seleccione estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 |<kbd>Mayús</kbd>+<kbd>Av Pág</kbd><br /><br />(<kbd>Mayús</kbd>+<kbd>Fn</kbd>+<kbd>Flecha arriba</kbd>)|Extienda la selección de filas para incluir las filas visibles por debajo de la selección actual de filas.|No aplicable.|
 |<kbd>F8</kbd>|Copie el campo en la misma columna de la fila anterior y péguelo en la fila actual. Solo lo puede hacer en listas editables. Mediante este método abreviado seguido de una <kbd>tabulación</kbd> podrá completar rápidamente los campos de los productos de la línea que desea que tengan el mismo valor que la fila anterior.|No aplicable.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Búsqueda y filtrado de listas
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Búsqueda y filtrado de listas
 
 |Seleccione estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
