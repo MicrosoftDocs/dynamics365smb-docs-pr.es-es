@@ -10,10 +10,10 @@ ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: bholtorf
 ---
-# Seguimiento de líneas de documentos
+# <a name="track-document-lines"></a>Seguimiento de líneas de documentos
 Puede ver documentos relacionados con líneas de orden de venta y líneas de orden de compra, incluso desde líneas de pedido archivadas. Los documentos relacionados que puede rastrear incluyen presupuestos, envíos, recibos y pedidos abiertos. Esto le permite identificar los documentos que se usan para procesar pedidos.  
 
-## Para realizar un seguimiento de los documentos relacionados con una línea de pedido de venta
+## <a name="to-track-documents-related-to-a-sales-order-line"></a>Para realizar un seguimiento de los documentos relacionados con una línea de pedido de venta
 El siguiente procedimiento describe cómo rastrear desde una línea de orden de venta. Los pasos son similares para las líneas de orden de compra y los pedidos abiertos.
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
@@ -24,7 +24,7 @@ El siguiente procedimiento describe cómo rastrear desde una línea de orden de 
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Ccial](sales-manage-sales.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

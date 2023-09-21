@@ -11,11 +11,11 @@ ms.date: 09/29/2021
 ms.author: bholtorf
 ---
 
-# Inicio rápido de ventas
+# <a name="sales-quick-start"></a>Inicio rápido de ventas
 
 Para poder vender productos y servicios, primero debe configurar productos y clientes. Una vez hecho esto, puede comenzar a registrar pedidos de ventas y enviar facturas.
 
-## Configurar productos para vender
+## <a name="set-up-items-to-sell"></a>Configurar productos para vender
 
 Este vídeo muestra cómo configurar un producto para vender en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,13 +23,13 @@ Este vídeo muestra cómo configurar un producto para vender en [!INCLUDE[prod_s
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### Configurar un producto nuevo
+### <a name="set-up-a-new-item"></a>Configurar un producto nuevo
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Para obtener más información y detalles adicionales que puede hacer cuando configura productos, consulte [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
-## Configurar clientes
+## <a name="set-up-customers"></a>Configurar clientes
 
 Este vídeo muestra cómo configurar un nuevo cliente en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -37,17 +37,17 @@ Este vídeo muestra cómo configurar un nuevo cliente en [!INCLUDE[prod_short](i
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### Configurar un cliente nuevo
+### <a name="set-up-a-new-customer"></a>Configurar un cliente nuevo
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Para obtener más información y detalles adicionales que puede hacer cuando configura cientes, consulte [Registrar nuevos clientes](sales-how-register-new-customers.md)
 
-## Crear un pedido de ventas  
+## <a name="create-a-sales-order"></a>Crear un pedido de ventas
 
 Cuando vende algo a un cliente, tiene dos opciones. La primera, y la más simple, es crear una factura de venta. Sin embargo, si su proceso de ventas es más complejo, por ejemplo, si tiene situaciones en las que solo envía partes de una cantidad de pedido, utilice un pedido de venta.
 
-### Para crear un pedido de ventas  
+### <a name="to-create-a-sales-order"></a>Para crear un pedido de ventas
 
 1. Elija el icono ![Bombilla que abre la función Dígame 10.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione **Nuevo** para crear una entrada nueva.
@@ -77,11 +77,11 @@ Cuando vende algo a un cliente, tiene dos opciones. La primera, y la más simple
 
 Para obtener más información y detalles adicionales que puede hacer al crear pedidos de venta de cliente, consulte [Vender productos con un pedido de venta de cliente](sales-how-sell-products.md).  
 
-## Crear una factura de venta
+## <a name="create-a-sales-invoice"></a>Crear una factura de venta
 
 Cuando crea y registra una factura de venta, no solo crea el documento de factura que envía al cliente, sino que también crea los movimientos de cantidad y valor relacionados en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### Para crear y registrar una factura de venta  
+### <a name="to-create-and-post-a-sales-invoice"></a>Para crear y registrar una factura de venta
 
 1. Elija el icono ![Bombilla que abre la función Dígame 20.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 
@@ -107,7 +107,7 @@ Cuando crea y registra una factura de venta, no solo crea el documento de factur
 
 Para obtener más información y detalles adicionales que puede hacer al crear una factura de venta de cliente, consulte [Facturar ventas](sales-how-invoice-sales.md)
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Inicio rápido de Business Central](quick-start-business-central.md)  
 [Información general de ventas](sales-manage-sales.md)  

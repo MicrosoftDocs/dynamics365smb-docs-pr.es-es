@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# Detalles de diseño: Tabla de asignación de planificación
+# <a name="design-details-planning-assignment-table"></a>Detalles de diseño: Tabla de asignación de planificación
 Todos los productos se deben planificar; no obstante, no hay razón para calcular un plan para un producto a menos que haya habido un cambio en el patrón de demanda o de aprovisionamiento desde la última vez que se calculó un plan.  
 
 Si el usuario ha introducido un nuevo pedido de venta o ha cambiado uno existente, existen motivos para volver a calcular el plan. Entre otros motivos se incluye un cambio en la previsión o en el stock de seguridad deseado. Un cambio en una lista de materiales mediante la adición o eliminación de un componente indicaría probablemente un cambio, pero para el producto componente solo.  
@@ -55,7 +55,7 @@ Al calcular un MPS o un MRP, se aplican las siguientes restricciones:
 * MPS: el sistema de planificación comprueba que el producto incluye una previsión de demanda o un pedido de venta. Si no, el producto no se incluye en el plan.  
 * MRP: si el sistema de planificación detecta que el producto se repone mediante una línea de planificación MPS o un pedido de suministro MRP, el producto quedará fuera de la planificación. No obstante, se incluyen las demandas de los componentes relevantes.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)   
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)   
 [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)   
