@@ -3,13 +3,13 @@ title: 'Detalles de diseño: Revalorización'
 description: Puede revalorizar el inventario según la base de valoración que refleja de forma más precisa el valor de inventario.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 07/07/2023
 ms.custom: bap-template
 ---
 
-# <a name="design-details-revaluation"></a>Detalles de diseño: Revalorización
+# Detalles de diseño: Revalorización
 
 Puede revalorizar el inventario según la base de valoración que refleja de forma más precisa el valor de inventario. También puede especificar una fecha retroactiva para actualizar correctamente el coste total de las mercancías vendidas se actualice correctamente para los productos que ya se han vendido. Los productos que usan la valoración de existencias Estándar que no se han facturado por completo también se pueden volver a valorar.  
 
@@ -19,7 +19,7 @@ En [!INCLUDE[prod_short](includes/prod_short.md)], dispone de la flexibilidad si
 - En el caso de productos con método de coste Estándar, los movimientos de coste previstos se incluyen en la revalorización.  
 - Las salidas de existencias afectadas por la revalorización se detectan.  
 
-## <a name="calculate-the-revaluable-quantity"></a>Calcular la cantidad revalorizable
+## Calcular la cantidad revalorizable
 
 La cantidad que puede revalorizar es el inventario restante disponible en una fecha determinada. La cantidad es el total de movimientos de productos completamente facturados que contabiliza en la fecha de revalorización o antes.  
 
@@ -30,7 +30,7 @@ Después de que se haya registrado una revalorización, puede registrar una entr
 
 Dado que puede revalorizar en cualquier fecha, debe tener convenciones para cuando considere un artículo como parte del inventario. Por ejemplo, cuando el producto está en el inventario y está catalogado como trabajo en curso (WIP).  
 
-### <a name="example"></a>Ejemplo
+### Ejemplo  
 
 En el ejemplo siguiente se ilustra cuándo forman parte del inventario las transiciones de producto de trabajo en curso. El ejemplo se basa en la producción de una cadena con 150 eslabones.  
 
@@ -79,7 +79,7 @@ La fecha de valoración se establece en la fecha del registro de consumo (01-02-
 |01-02-20|Coste directo|01-02-20|-150,00|2|2|  
 |15-02-20|Coste directo|15-02-20|150.00|3|3|  
 
-## <a name="expected-cost-in-revaluation"></a>Coste previsto en revalorización
+## Coste previsto en revalorización
 
 La cantidad que puede revalorizar se calcula como la suma de la cantidad de movimientos de producto totalmente facturados con una fecha de registro igual o anterior a la fecha de revalorización. Cuando se reciben o envían productos pero no se facturan, su valor de inventario no se puede calcular. Los productos que usan la valoración de existencias Estándar no están limitados en este sentido.  
 
@@ -92,7 +92,7 @@ Al calcular la cantidad revalorizable de los productos que usan la valoración d
 - Una entrada de valor con tipo de entrada **Desviación**. Este movimiento registra la diferencia entre el coste facturado y el coste estándar revalorizado.  
 - Una entrada de valor con tipo de entrada **Revalorización**. Este movimiento registra la reversión de la revalorización del coste previsto.
 
-### <a name="example-1"></a>Ejemplo
+### Ejemplo  
 
 El siguiente ejemplo se basa en la producción de la cadena del ejemplo anterior. Este ejemplo ilustra cómo se crean los tres tipos de entradas, según el siguiente escenario:  
 
@@ -114,7 +114,7 @@ La siguiente tabla muestra los resultados.
 |3.b.|15-01-20|Revaluación|20-01-20|-150,00|0.00|1|4|  
 |3.c.|15-01-20|Desviación|15-01-20|0.00|450.00|1|5|  
 
-## <a name="determine-whether-revaluation-affects-an-inventory-decrease"></a>Determinar si la revalorización afecta a una disminución del inventario
+## Determinar si la revalorización afecta a una disminución del inventario  
 
 Use la fecha del registro o de la revalorización se usa para determinar si una salida de existencias está afectada por una revalorización.  
 
@@ -129,7 +129,7 @@ En la tabla siguiente se muestran los criterios que se usan para un producto que
 |E|Posterior al movimiento de revalorización número|Igual a la fecha de registro de revalorización|Sí|  
 |F|Posterior al movimiento de revalorización número|Posterior a la fecha de registro de revalorización|Sí|  
 
-### <a name="example-2"></a>Ejemplo
+### Ejemplo  
 
 El ejemplo siguiente ilustra la revalorización de un producto que usa la valoración de existencias FIFO. El ejemplo se basa en el siguiente caso:  
 
@@ -160,7 +160,7 @@ En la tabla siguiente se muestran los movimientos de valoración resultantes.
 |F|01-04-20|Venta|01-04-20|-1|-10,00|7|8|  
 ||01-04-20|Venta|01-04-20|-1|2.00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a>Revalorización de inventario WIP
+## Revalorización de inventario WIP  
 
 La revalorización del inventario WIP implica la revalorización de los componentes registrados como inventario WIP.  
 
@@ -180,7 +180,7 @@ Puede revalorizar el inventario WIP en las siguientes condiciones:
 > [!CAUTION]  
 > El informe **Valoración inventario - WIP** muestra el valor de los movimientos de orden de producción registradas y, por lo tanto, puede ser algo confuso para los productos del trabajo en curso que se han revalorizado.  
 
-## <a name="revaluate-items-with-the-average-costing-method"></a>Revalorizar productos con el método de valorización de existencias Media
+## Revalorizar productos con el método de valorización de existencias Media
 
 Solo puede revalorizar productos que usan la valorización de existencias Media si **Calcular por** es *Producto*.
 
@@ -188,7 +188,7 @@ Solo puede realizar una revaluación al final del período seleccionado en el ca
 
 La revalorización no afectará a las transacciones negativas del mes en curso, por lo que tampoco se incluyen los asientos de entrada totalmente aplicados.
 
-### <a name="example-3"></a>Ejemplo
+### Ejemplo
 
 Este ejemplo muestra lo que sucede cuando calcula el valor de inventario en la página **Diario de revalorización de productos** . En la página **Configuración de inventario**, **Producto** se elige en el campo **Tipo cálculo cte. medio** y **Mes** se elige en el campo **Periodo coste promedio**.
 
@@ -218,7 +218,7 @@ El resultado de las siguientes entradas será 0, independientemente de la fecha 
 13-05-23|Compra|5|5.00|1
 26-04-23|Venta|-5|5.00|2
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 
 [Detalles de diseño: coste de inventario](design-details-inventory-costing.md)   
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)   

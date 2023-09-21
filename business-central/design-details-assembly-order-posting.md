@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-assembly-order-posting"></a>Detalles de diseño: Registro de pedidos de ensamblado
+# Detalles de diseño: Registro de pedidos de ensamblado
 El registro de pedidos de ensamblado se basa en los mismos principios que al registrar las actividades similares de los pedidos de venta y el consumo o la salida de producción. No obstante, los principios que se agrupan en los pedidos de ensamblado tienen su propia IU de registro, como para los pedidos de venta, mientras que el registro real de movimientos se produce en segundo plano como registro de productos directos y registro de diario de recursos, como con el de consumo, la salida y la capacidad de producción.  
 
 Al igual que el registro de orden de producción, se convierten los componentes consumidos y los recursos usados, y se envían como el elemento del ensamblado cuando se registra el pedido de ensamblado. Para obtener más información, consulte [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md). No obstante, el flujo del coste para los pedidos de ensamblado es menos complejo, especialmente porque el registro de coste de ensamblado solo se produce una vez, y por tanto que no genera un inventario de trabajo en curso.  
@@ -33,7 +33,7 @@ En el diagrama siguiente se muestra cómo los datos del ensamblado fluyen en los
 
 ![Flujo de movimiento relacionado con el ensamblado durante el registro.](media/design_details_assembly_posting_2.png "Flujo de movimiento relacionado con el ensamblado durante el registro")  
 
-## <a name="posting-sequence"></a>Secuencia de registro
+## Secuencia de registro  
 El registro de un pedido de ensamblado se produce en el orden siguiente:  
 
 1.  Se registran las líneas del pedido de ensamblado.  
@@ -49,12 +49,12 @@ En la tabla siguiente se describe la secuencia de las acciones.
 > [!IMPORTANT]  
 >  A diferencia de la salida de producción, que se registra al coste previsto, la salida de ensamblado se registra al coste real.  
 
-## <a name="cost-adjustment"></a>Ajuste de coste
+## Ajuste de coste  
  Después de que se registra un pedido de ensamblado, lo que significa que los componentes (material) y los recursos se ensamblan en un nuevo producto, se debe poder determinar el coste real del elemento del ensamblado y el coste de inventario real de los componentes que intervienen. Se logra mediante el desvío de los costes de los movimientos registrados del origen (componentes y recursos) a los movimientos registrados del destino (elemento del ensamblado). El desvío de los costes se realiza mediante el cálculo y la generación de nuevos movimientos, denominados movimientos de ajuste que se asocian con los movimientos de destino.  
 
  Los costes de ensamblado que se desviarán se detectan con el mecanismo de detección de nivel de pedido. Para obtener información acerca de otros mecanismos de detección de ajustes, consulte [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md).  
 
-### <a name="detecting-the-adjustment"></a>Detección del ajuste
+### Detección del ajuste  
 La función de detección de nivel de pedido se usa en escenarios de conversión, producción y ensamblado. La función funciona de la forma siguiente:  
 
 -   El ajuste de coste se detecta al marcar el pedido siempre que un recurso o un material se registra como consumido o utilizado.  
@@ -64,7 +64,7 @@ En el gráfico siguiente se muestra la estructura del movimiento de ajuste y có
 
 ![Flujo de movimiento relacionado con el ensamblado durante el ajuste de costes.](media/design_details_assembly_posting_3.png "Flujo de movimiento relacionado con el ensamblado durante el registro")  
 
-### <a name="performing-the-adjustment"></a>Realizar el ajuste
+### Realizar el ajuste  
 La distribución de los ajustes detectados de la lista de materiales y los costes de recursos en los movimientos de salida de ensamblado se lleva a cabo mediante el proceso **Valorar stock - movs. producto**. Contiene la función para aplicar ajustes de multinivel, que consta de los dos elementos siguientes:  
 
 -   Realizar el ajuste de pedido de ensamblado, que desvía el coste de la utilización de materiales y de recursos al movimiento de salida de ensamblado. Las líneas 5 y 6 del algoritmo siguiente son las responsables.  
@@ -77,7 +77,7 @@ La distribución de los ajustes detectados de la lista de materiales y los coste
 
 Para obtener más información acerca de cómo se registran costes de ensamblado y de producción en la contabilidad, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
-## <a name="assembly-costs-are-always-actual"></a>Los costes de ensamblado son siempre reales
+## Los costes de ensamblado son siempre reales  
  El concepto de trabajo en curso (WIP) no se aplica al registro de pedido de ensamblado. Los costes de ensamblado se registran solo como coste real, nunca como coste previsto. Para obtener más información, consulte [Detalles de diseño: Registro de coste previsto](design-details-expected-cost-posting.md).  
 
 Eso se habilita mediante la estructura de datos siguiente.  
@@ -95,21 +95,21 @@ Además, los campos del grupo contable de la cabecera de pedido de ensamblado y 
 
 Por consiguiente, en la contabilidad solo se registran los costes reales, y no se rellena ninguna cuenta provisional a partir del registro de pedidos de ensamblado. Para obtener más información, consulte [Detalles de diseño: cuentas en la contabilidad](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="assemble-to-order"></a>Ensamblar para pedido
+## Ensamblar para pedido  
 El movimiento de producto obtenido como consecuencia de registrar una venta de ensamblar para pedido se liquida de forma fija en el movimiento de producto relacionado para la salida de ensamblado. Por consiguiente, el coste de una venta de ensamblar para pedido se obtiene del pedido de ensamblado con el que está vinculado.  
 
 Los movimientos de producto del tipo Venta resultantes del registro de las cantidades de ensamblar para pedido se marcan con **Sí** en el campo **Ensamblar para pedido**.  
 
 El registro de las líneas de pedido de venta donde una parte es cantidad de inventario y otra parte es cantidad ensamblar para pedido genera movimientos de producto independientes, uno para la cantidad de inventario y otro para la cantidad de ensamblar para pedido.  
 
-### <a name="posting-dates"></a>Fechas de registro
+### Fechas de registro
 
 En general, las fechas de registro se copian de un pedido de ventas a la orden de ensamblado vinculada. La fecha de registro en el pedido de ensamblado se actualiza automáticamente cuando cambia la fecha de registro en el pedido de ventas directa o indirectamente, por ejemplo, si cambia la fecha de registro en el envío de almacén, selección de inventario o como parte de un registro masivo.
 
 Puede modificar la fecha de registro manualmente, en la orden de montaje. Sin embargo, no puede ser posterior a la fecha de registro en el pedido de ventas vinculado. El sistema mantendrá esta fecha a menos que actualice la fecha de registro en el pedido de ventas.
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Registro de órdenes de producción](design-details-production-order-posting.md)   
  [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  

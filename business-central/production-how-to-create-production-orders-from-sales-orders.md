@@ -3,17 +3,17 @@ title: Crear órdenes de producción desde pedidos de venta
 description: Conozca las distintas formas de crear pedidos de producción para productos producidos directamente a partir de pedidos de venta.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '99000883, 99000884,'
 ---
-# <a name="create-production-orders-from-sales-orders"></a>Crear órdenes de producción desde pedidos de venta
+# Crear órdenes de producción desde pedidos de venta
 
 Puede crear órdenes de producción para artículos producidos directamente desde los pedidos de venta.  
 
-## <a name="to-create-a-production-order-from-a-sales-order"></a>Para crear una orden de producción desde un pedido de venta
+## Para crear una orden de producción desde un pedido de venta  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione el pedido de venta para el que desea crear una orden de producción.  
@@ -27,7 +27,7 @@ Puede crear órdenes de producción para artículos producidos directamente desd
     >
     > Cuando crea pedidos de producción para pedidos de venta con la página Planificación de pedidos de venta, se aplican vínculos de pedido a pedido entre la demanda y la oferta. Cuando existen vínculos de pedido contra pedido, el sistema de planificación no incluye la oferta o el inventario vinculado en el procedimiento de contrapartida. Para obtener más información sobre la contrapartida, vaya a [Vínculos de pedido a pedido](design-details-central-concepts-of-the-planning-system.md#order-to-order-links).
 
-## <a name="order-type"></a>Tipo orden
+## Tipo orden  
 
 La siguiente tabla describe dos formas de crear pedidos de producción.
 
@@ -36,7 +36,7 @@ La siguiente tabla describe dos formas de crear pedidos de producción.
 |Orden producto|Se crea un pedido de producción para cada producto representado por una línea en la página **Planificación pedido venta**.|
 |Orden proyecto|Se crea un pedido de producción multilínea para todos los productos representados por líneas en la página **Planificación pedido venta**. Cuando utiliza pedidos de proyecto, el campo **Tipo procedencia mov.** del pedido de producción contiene **Cab. venta**. El pedido tiene una línea por cada producto de línea de ventas que se debe producir.|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
