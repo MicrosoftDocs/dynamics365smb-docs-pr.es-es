@@ -148,8 +148,6 @@ En la tabla siguiente se describen las codeunits que debe crear para el informe.
 > [!Note]
 > Cuando cree las unidades de código para el informe, preste atención al valor del campo **Versión de informe de IVA**. Este campo debe reflejar la versión del informe que la autoridad tributaria requiere. Por ejemplo, puede introducir **2021** en el campo para indicar que el informe cumple con los requisitos que estaban en vigor ese año. Para buscar la versión actual, póngase en contacto con su autoridad fiscal.  
 
-## Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)  

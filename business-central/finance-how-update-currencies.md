@@ -122,8 +122,6 @@ Puede utilizar un servicio externo para mantener actualizados los tipos de cambi
 
 El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el último tipo de cambio de divisa.
 
-## Consultar la [formación de Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Divisas en Business Central](finance-currencies.md)  

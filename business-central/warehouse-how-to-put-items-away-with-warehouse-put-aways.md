@@ -3,7 +3,7 @@ title: Almacenar productos con almacenamientos de almacén
 description: Obtenga información sobre las diferentes formas de usar los almacenamientos de almacén para almacenar los productos recibidos.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -111,8 +111,6 @@ Si el almacén usa el procesamiento de almacenamiento y de recepción y ha elimi
     > Si es necesario colocar los productos para otra línea en varias ubicaciones porque la ubicación designada está completa, por ejemplo, utilice la acción **Dividir línea** en la ficha desplegable **Líneas**. La acción crea una línea la cantidad restante que se debe administrar.
 
 5. Cuando haya colocado todos los productos en ubicaciones como se le ha indicado, elija la acción **Registrar ubicación**.  
-
-## Consultar la [formación de Microsoft](/training/modules/receive-put-away-items/) relacionada
 
 ## Consulte también .
 

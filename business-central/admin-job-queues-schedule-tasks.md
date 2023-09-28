@@ -37,6 +37,14 @@ Después de configurar y ejecutar las colas de proyectos, el estado puede cambia
 
 Después de que un proyecto finaliza correctamente, se elimina de la lista de movimientos de la cola de proyectos a menos que sea un proyecto periódico. Para los proyectos periódicos, el campo **Hora inicial más próxima** se ajusta para mostrar la próxima vez que el proyecto se ejecute.  
 
+## La primera fecha de inicio
+
+El valor en el campo **Fecha/hora de inicio más temprana** en la página **Tarjeta de entrada de cola de trabajos** se muestra la próxima vez que El trabajo se ejecutará. Hay varios factores que pueden afectar si una entrada de la cola de trabajos realmente se ejecuta en ese momento.
+
+Los factores más comunes son la cantidad de entradas de la cola de trabajos en un entorno y la cantidad total de tareas programadas. Para proteger los niveles de rendimiento, existen límites operativos. Si tiene muchas entradas en la cola y, por ejemplo, una de ellas falla o las entradas simplemente tardan más de lo esperado, es posible que el siguiente trabajo no comience a la hora esperada. Si tiene unidades de código que generan 100 000 o más tareas programadas, debe investigar si realmente necesita todas esas tareas. Puede acceder a la lista de todas las tareas programadas en la página **Tareas programadas**.
+
+Para obtener más información sobre cómo monitorear el estado de las entradas de la cola de trabajos, vaya a [Para ver el estado de cualquier trabajo](#to-view-status-for-any-job). Para obtener más información sobre los límites operativos, vaya a [Límites de tareas asincrónicas](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Supervisar el estado o los errores en la cola de proyectos
 
 Los datos que genera la cola de proyectos se almacenan, para que pueda solucionar los errores.  

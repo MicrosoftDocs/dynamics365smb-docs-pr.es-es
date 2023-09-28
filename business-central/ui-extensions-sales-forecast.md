@@ -59,12 +59,10 @@ También puede crear su propio servicio web predictivo basado en un modelo públ
 6. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de previsión de ventas e inventario** y, a continuación, elija el vínculo relacionado.  
 7. Expanda la ficha desplegable **General** y rellene los campos de URL de API y clave de API.  
 
-## Consultar la [formación de Microsoft](/training/modules/use-sales-inventory-forecast-extension/) relacionada
-
 ## Consulte también .
 
-[Ccial](sales-manage-sales.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Ventas](sales-manage-sales.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Usar inteligencia artificial en Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 

@@ -53,11 +53,9 @@ Introduzca 1.200.000 en la línea Mayor, exporte el presupuesto a Excel y luego 
 
 El departamento de Salarios distribuye el importe en las tres cuentas contables. Cuando vuelve a importar al presupuesto contable, las tres cuentas se completan con los nuevos datos de Excel, que suman 1.200.000 DL y la línea Mayor está en blanco.
 
-## Consultar la [formación de Microsoft](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index) relacionada
-
 ## Consulte también .
 
-[Exportar los datos de negocio a Excel](about-export-data.md)  
+[Exportar datos empresariales a Excel](about-export-data.md)  
 [Finanzas](finance.md)  
 [Inteligencia empresarial](bi.md)  
 [Configurar las finanzas](finance-setup-finance.md)  

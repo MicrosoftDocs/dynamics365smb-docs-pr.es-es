@@ -80,8 +80,6 @@ Cuando busca una página de lista abierta, como la lista **Órdenes de venta**, 
 
 Pero cuando abre la misma página de lista desde su página de inicio, la acción **Administrar** no está presente. En su lugar, para abrir un pedido de cliente individual, simplemente elija el campo **Número**. En esta vista, no puede anclar la barra de acción.  
 
-## Consultar la [formación de Microsoft](/training/paths/work-pro-data-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  

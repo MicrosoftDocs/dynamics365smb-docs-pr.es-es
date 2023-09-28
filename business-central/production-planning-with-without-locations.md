@@ -139,14 +139,12 @@ Como se puede ver en el último escenario, la única manera de conseguir un resu
 
 Por tanto, si suele planificar la demanda en diferentes almacenes, le recomendamos que use la capacidad Uds. de almacenan.
 
-## Consulte la formación relacionada en [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Consulte también .
 
 [Planificación](production-planning.md)  
 [Configurar fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  

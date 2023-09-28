@@ -3,13 +3,13 @@ title: Cómo configurar almacenes para utilizar ubicaciones
 description: Las ubicaciones representan la estructura del almacén básico y se utilizan para realizar sugerencias sobre la colocación de los artículos.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-locations-to-use-bins"></a>Configurar almacenes para utilizar las ubicaciones
+# Configurar almacenes para utilizar las ubicaciones
 
 Las ubicaciones representan la estructura básica del almacén y puede usarlos para sugerir dónde colocar los productos. Cuando haya creado sus ubicaciones, puede definir sus contenidos, o dejar que sirvan como ubicaciones flotantes sin contenido específico.
 
@@ -27,7 +27,7 @@ El siguiente paso es diseñar el flujo del producto en la ubicación, especifica
 > [!NOTE]  
 > Debe crear códigos de ubicación antes de especificarlos para el almacén. Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Configurar una situación para utilizar las ubicaciones
+## Configurar una situación para utilizar las ubicaciones
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2. Seleccione la situación donde desea utilizar las ubicaciones.  
@@ -45,15 +45,13 @@ El siguiente paso es diseñar el flujo del producto en la ubicación, especifica
 9. Opcional: rellene los campos de la ficha desplegable **Directivas de ubicación**. Los campos más importantes son **Política capacidad ubicación**, **Permite división bulto** y **Cód. plantilla ubicar**.  
 10. En la ficha desplegable **Almacén**, rellene los campos **Tiempo manip. alm. salida**, **Tiempo manip. alm. entrada** y **Código calendario base**. Para obtener más información, vaya a [Configurar calendarios de base](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a>Relleno en la ubicación de consumo
+## Relleno en la ubicación de consumo
 
 El siguiente organigrama muestra cómo se rellena el campo de **Código de ubicación** en las líneas del componente de la orden de producción según la configuración de ubicación.
 
 :::image type="content" source="media/binflow.png" alt-text="Campo de código de ubicación en líneas de componentes de orden de producción.":::
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/configure-bins-location/) relacionada
-
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

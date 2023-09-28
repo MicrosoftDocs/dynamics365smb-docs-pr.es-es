@@ -68,9 +68,7 @@ Con la característica habilitada, solo se puede registrar una transacción de d
 | Administre las interacciones comerciales con sus proveedores, importe los documentos de factura recibidos y registre nuevos proveedores utilizando el cliente de correo electrónico de Outlook. | [Configurar el complemento Business Central para Outlook](admin-outlook.md) |
 | Revise recibos de gastos, convierta documentos en papel y electrónicos en líneas de diario y digitalice facturas en papel de los proveedores. | [Configurar documentos entrantes](across-how-setup-income-documents.md) |
 | Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos. |[Selección de informes en Business Central](across-report-selections.md)|
-|Especifique si los usuarios pueden contabilizar facturas de compra y si deben contabilizarlas junto con los envíos. |[Definir una directiva de registro de facturas para usuarios](admin-setup-invoice-posting-policy.md)|
-
-## Consulte la formación relacionada en [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+|Especifique si los usuarios pueden contabilizar facturas de compra y si deben contabilizarlas junto con los envíos. |[Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)|
 
 ## Consulte también .
 

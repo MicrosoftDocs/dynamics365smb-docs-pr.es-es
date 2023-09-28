@@ -40,12 +40,10 @@ Las extensiones Paypal Payments Standard y WorldPay Payments Standard están ins
     > [!NOTE]  
     > El campo **Servicio de pago** solo está disponible si ha activado el servicio de pago.  
 
-## Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Configuración de ventas](sales-setup-sales.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

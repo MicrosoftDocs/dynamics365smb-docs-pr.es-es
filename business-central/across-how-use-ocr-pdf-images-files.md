@@ -120,8 +120,6 @@ La página **Corrección de datos de OCR** que abrió desde la página **Documen
 
 Los campos de la ficha desplegable **Información financiera** en la página **Documento entrante** se actualizan con los valores nuevos que introdujo en el paso 4.
 
-## Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Crear registros de documentos entrantes](across-how-create-income-document-records.md)

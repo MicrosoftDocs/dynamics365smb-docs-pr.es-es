@@ -56,11 +56,9 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 
     Se insertará una línea de servicio del tipo **Coste** con el gasto de inicio. El gasto de inicio se aplica al producto de servicio seleccionado.
 
-## Consultar la [formación de Microsoft](/training/modules/create-items/) relacionada
-
 ## Consulte también .
 
-[Configurar componentes de servicio y de productos](service-how-setup-service-items.md)  
+[Configurar productos de servicio y componentes de productos de servicio](service-how-setup-service-items.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 [Gestión de servicios](service-service.md)  
 

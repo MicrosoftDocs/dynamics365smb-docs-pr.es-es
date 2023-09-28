@@ -54,8 +54,6 @@ El nombre de la empresa siempre se muestra en la esquina superior izquierda y fu
 
 La experiencia de usuario predeterminada en una prueba de [!INCLUDE [prod_short](includes/prod_short.md)] no revela todas las capacidades. Puede activar la experiencia completa en la página **Información de la empresa**. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).  
 
-## Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Resumen de tareas para configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

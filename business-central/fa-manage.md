@@ -47,8 +47,6 @@ El siguiente video cubre los conceptos básicos de los activos fijos.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-transactions/) relacionada
-
 ## Consulte también .
 
 [Configuración de activos fijos](fa-setup.md)  

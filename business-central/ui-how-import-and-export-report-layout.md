@@ -45,8 +45,6 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
  El diseño de informe original personalizado se reemplaza con el diseño de informe importado.  
 
-## Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 
 [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   

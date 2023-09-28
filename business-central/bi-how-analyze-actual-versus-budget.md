@@ -60,8 +60,6 @@ En lugar de ver los importes reales y presupuestados de todas las cuentas en un 
 3. En la ficha desplegable **Opciones**, rellene los campos según sea necesario para definir lo que se muestra en la tabla.  
 4. En la ficha desplegable **Líneas**, pase el cursor sobre un campo en la tabla para leer una breve descripción sobre la cantidad mostrada.  
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
-
 ## Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  

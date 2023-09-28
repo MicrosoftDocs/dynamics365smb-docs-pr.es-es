@@ -51,8 +51,6 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Según su ubicación geográfica, algunas páginas de Business Central pueden contener campos que no se describen en los productos que están en la lista de arriba porque se aplican a funciones o personalizaciones locales. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Finanzas](finance.md)  

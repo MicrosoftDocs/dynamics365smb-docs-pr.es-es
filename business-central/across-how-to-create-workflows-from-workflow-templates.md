@@ -29,8 +29,6 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
    La página **Flujo de trabajo** se abre para un nuevo flujo de trabajo que contiene toda la información de la plantilla seleccionada. El valor del campo **Código** se amplía, por ejemplo, con "-01" para indicar que este es el primer flujo de trabajo creado a partir de la plantilla de flujo de trabajo.  
 4. Empiece a crear el flujo de trabajo modificando los pasos del flujo de trabajo o agregando nuevos pasos. Obtenga más información en [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
-## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
-
 ## Consulte también .
 
 [Crear flujos de trabajo de aprobación](across-how-to-create-workflows.md)  

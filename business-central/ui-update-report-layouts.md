@@ -58,8 +58,6 @@ Si no se producen errores, las actualizaciones se aplican a los diseños de info
 
 Después de modificar el diseño, pruebe a actualizar el diseño de nuevo.  
 
-## Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/index) relacionada
-
 ## Consulte también  
  [Gestión de diseños de informe](ui-manage-report-layouts.md)  
  [Trabajar con informes, trabajos por lotes y XMLports](ui-work-report.md)  

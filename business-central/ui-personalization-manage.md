@@ -62,12 +62,10 @@ Puede eliminar personalizaciones de página individuales que ha efectuado para u
 
 El diseño en las páginas seleccionadas se ajusta a los cambios que ha hecho.
 
-## Consultar la [formación de Microsoft](/training/paths/tailor-roles-design-ui/) relacionada
-
 ## Consulte también .
 
-[Personalizar el área de trabajo](ui-personalization-user.md)  
-[Administración de perfiles](admin-users-profiles-roles.md)  
+[Personalizar su área de trabajo](ui-personalization-user.md)  
+[Administrar perfiles](admin-users-profiles-roles.md)  
 [Cambiar la configuración básica](ui-change-basic-settings.md)  
 [Cambiar las funciones que se muestran](ui-experiences.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

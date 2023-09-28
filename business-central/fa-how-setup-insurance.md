@@ -55,8 +55,6 @@ En un libro del diario de seguros puede configurar secciones. Los valores de la 
 > [!NOTE]  
 >   Los números tienen una función especial en los nombres de diario. Si un nombre de libro diario o un nombre de sección del diario contiene un número, el número aumenta automáticamente en uno cada vez que se registra el diario. Por ejemplo, si se escribe HH1 en el campo **Nombre**, el nombre del diario cambiará a HH2 después de registrar el diario llamado HH1.
 
-## Consultar la [formación de Microsoft](/training/paths/set-up-fixed-assets-management/) relacionada
-
 ## Consulte también .
 
 [Configuración de activos fijos](fa-setup.md)  

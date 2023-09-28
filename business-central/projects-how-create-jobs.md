@@ -79,8 +79,6 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 4. En la página **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
 5. Repita los pasos 3 y 4 para todas líneas de planificación que necesita para la tarea de proyecto.
 
-## Consultar la [formación de Microsoft](/training/modules/create-new-job/) relacionada
-
 ## Consulte también .
 
 [Administración de proyectos](projects-manage-projects.md)  

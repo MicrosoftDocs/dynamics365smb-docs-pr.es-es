@@ -3,7 +3,7 @@ title: Realizar un picking de los artículos para el envío de almacén
 description: Obtenga información sobre cómo a utilizar los documentos de picking de almacén para crear y procesar información de picking antes de registrar el envío del almacén.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -110,8 +110,6 @@ A continuación, puede crear los documentos de almacén desde cero. Los pickings
 4. Después de terminar el picking y colocar los productos en el área de o ubicación de envío, elija la acción **Registrar picking**.  
 
 Ahora puede llevar los artículos al muelle de envío y registrar el envío, incluido el documento de origen relacionado, en la página **Envío de almacén**. Obtenga más información en [Enviar productos](warehouse-how-ship-items.md).
-
-## Consultar la [formación de Microsoft](/training/modules/pick-ship-items-warehouse/) relacionada
 
 ## Consulte también .
 

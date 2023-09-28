@@ -60,14 +60,12 @@ Puede crear una factura a partir de las líneas de planificación de proyecto e 
 > [!NOTE]  
 >   El procedimiento anterior es similar para crear, revisar y registrar un abono de venta relacionado con el proyecto.
 
-## Consultar la [formación de Microsoft](/training/paths/post-job-usage-sales/) relacionada
-
 ## Consulte también .
 
 [Administrar proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -43,8 +43,6 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite e
     > [!NOTE]  
     >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.**, elija la acción **Registro de actividades** para ver el estado del documento electrónico.  
 
-## Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 
 [Facturar ventas](sales-how-invoice-sales.md)  

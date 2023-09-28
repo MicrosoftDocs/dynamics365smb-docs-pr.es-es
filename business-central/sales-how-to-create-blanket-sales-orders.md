@@ -89,12 +89,10 @@ El vínculo entre el pedido abierto de venta y el pedido de venta de origen, y c
 
 5. En la página **Líneas de venta**, seleccione la acción **Mostrar documento** para ver la entrada.
 
-## Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Ccial](sales-manage-sales.md)  
-[Crear pedidos abiertos ensamblados](assembly-how-to-create-blanket-assembly-orders.md)  
+[Ventas](sales-manage-sales.md)  
+[Crear pedidos de ensamblado abiertos](assembly-how-to-create-blanket-assembly-orders.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

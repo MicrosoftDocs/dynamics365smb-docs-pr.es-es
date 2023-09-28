@@ -37,12 +37,10 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Vincule el texto sobre pagos con cuentas concretas de cliente, de proveedor o de contabilidad para que siempre se registren recibos de cobro o gastos periódicos en dichas cuentas cuando no haya documentos a los que aplicarlos. |[Asignar texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Establezca reglas para determinar el modo en que los pagos/operaciones bancarias deben liquidarse automáticamente en los movimientos pendientes relacionados cuando se utiliza la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**.|[Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)|
 
-## Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

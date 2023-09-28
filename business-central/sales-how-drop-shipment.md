@@ -72,8 +72,6 @@ Después de que el proveedor envíe los productos, puede establecer los pedidos 
 4. Seleccione la acción **Registrar** o **Registrar y enviar**.
 5. Elija la opción **Enviar** para facturar más adelante o la opción **Enviar y facturar** para facturar ahora.
 
-## Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Crear pedidos especiales](sales-how-to-create-special-orders.md)  

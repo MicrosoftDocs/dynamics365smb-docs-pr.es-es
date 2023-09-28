@@ -119,14 +119,12 @@ Incluso puede crear facturas pagadas directamente para clientes no registrados c
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Consultar la [formación de Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index) relacionada.
-
 ## Consulte también .
 
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Imprimir la lista de picking](sales-how-print-picking-list.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Facturación masiva desde Microsoft Bookings en Business Central ](finance-bookings.md)  

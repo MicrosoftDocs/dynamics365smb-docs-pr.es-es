@@ -45,8 +45,6 @@ En el momento de vender o dar de baja un activo, el valor de venta o baja se reg
 
 La página **Movs. contabilidad** se abre y puede ver los movimientos que se produjeron al registrar la venta/baja.  
 
-## Consultar la [formación de Microsoft](/training/modules/dispose-fixed-assets/) relacionada
-
 ## Consulte también .
 
 [Activos fijos](fa-manage.md)  

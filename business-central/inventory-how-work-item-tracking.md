@@ -220,8 +220,6 @@ El proceso de reclasificar el seguimiento para un producto significa convertir u
 8. Si desea modificar la información existente relativa al número de lote o de serie, puede registrar la información respectiva.  
 9. Registre el diario para enlazar los números de seguimiento de producto renovados o las fechas de caducidad con los movimientos de producto asociados.
 
-## Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
-
 ## Consulte también .
 
 [Configurar el seguimiento de productos con números de serie, de lote y de paquete](inventory-how-setup-item-tracking.md)  

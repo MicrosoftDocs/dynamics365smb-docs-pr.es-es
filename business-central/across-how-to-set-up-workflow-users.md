@@ -34,8 +34,6 @@ En la página **Grupos de usuarios de flujo de trabajo** puede especificar dónd
 
 6. Repita el paso 5 para añadir más usuarios de flujo de trabajo al grupo de usuarios del flujo de trabajo.  
 
-## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
-
 ## Consulte también .
 
 [Configurar usuarios de aprobación](across-how-to-set-up-approval-users.md)  

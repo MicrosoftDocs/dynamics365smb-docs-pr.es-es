@@ -37,11 +37,9 @@ Opcionalmente, agregue condiciones de pago a su método de pago. Para obtener m�
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.
 2. En el campo **Cód. forma pago**, seleccione la forma que se usará de forma predeterminada para el cliente o proveedor.
 
-## Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Permite registrar nuevos clientes](sales-how-register-new-customers.md)  
+[Registrar nuevos clientes](sales-how-register-new-customers.md)  
 [Configurar términos de pago](finance-payment-terms.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

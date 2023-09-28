@@ -15,8 +15,6 @@ ms.author: bholtorf
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Consultar la [formación de Microsoft](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  

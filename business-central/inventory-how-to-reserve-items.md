@@ -101,12 +101,10 @@ El procedimiento siguiente se basa en un pedido de venta.
 7. Elija el botón **Aceptar** para abrir la página **Reserva** que muestra solo el suministro con el número de seguimiento del producto especificado. Si existe alguna reserva no específica de cualquiera de los números de seguimiento de producto que ha especificado en esta línea, se le informa de la cantidad que ya se ha reservado.  
 8. Elija **Reservar auto.** o **Reservar desde la línea actual** para realizar una reserva de los números de seguimiento de productos específicos.
 
-## Consultar la [formación de Microsoft](/training/modules/manage-outbound-serial-lot-numbers/) relacionada
-
 ## Consulte también .
 
-[Inventario](inventory-manage-inventory.md)  
-[Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
+[Detalles de diseño: reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

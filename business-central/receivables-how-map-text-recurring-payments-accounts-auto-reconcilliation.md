@@ -50,14 +50,12 @@ Para registrar siempre los gastos relacionados con las tarifas de un banco espec
 
 | Asignando texto | N.º cta. débito | N.º cta. crédito | Tipo origen contr. | N.º origen contr. |
 | --- | --- | --- | --- | --- |
-| MyBank |EN BLANCO |60400|Cuenta |EN BLANCO |
-
-## Consultar la [formación de Microsoft](/training/modules/use-journals-dynamics-365-business-central/) relacionada
+| MyBank |EN BLANCO |60400|Cuenta C/G |EN BLANCO |
 
 ## Consulte también .
 
 [Administrar cobros](receivables-manage-receivables.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -62,8 +62,6 @@ Hay algunos pasos que es recomendable que haga:
 * Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
 * Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks Online no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
 
-## Consultar la [formación de Microsoft](/training/modules/migrate-data-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  

@@ -345,12 +345,10 @@ Para ver qué unidad de medida se está utilizando en un campo de duración, int
 
 Por ejemplo, si la unidad de medida es horas, el número 5 se convierte a 5 hrs.
 
-## Consultar la [formación de Microsoft](/training/modules/explore-modify-info-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
-[Cálculo de la fecha de las compras](purchasing-date-calculation-for-purchases.md)  
+[Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)  
 [Introducir criterios en los filtros](ui-enter-criteria-filters.md)  
 
 

@@ -64,8 +64,6 @@ r El archivo de informe generado se guarda automáticamente en la carpeta de des
 
 Obtenga más información sobre cómo adaptar los informes y documentos a las necesidades de su empresa en [Diseños de informes y documentos](ui-manage-report-layouts.md).
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/work-with-reports/)
-
 ## Consulte también .
 
 [Usar informes en el trabajo diario](reports-use-reports.md)  

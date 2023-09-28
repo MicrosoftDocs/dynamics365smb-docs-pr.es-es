@@ -90,8 +90,6 @@ Cuando el proceso Calcular amortización calcula las amortizaciones, el proceso 
 
 Si selecciona este campo, el proceso Calcular amortización utiliza un calendario de 365 en el que cada mes se calcula con el mismo número de días que en el calendario. La única excepción es el febrero en años bisiestos, que el proceso trata como que tiene 28 días en lugar de 29. Por eso, todos los años, incluso los bisiestos, consta que tienen 365 días.
 
-## Consultar la [formación de Microsoft](/training/modules/configure-depreciation-books/) relacionada
-
 ## Consulte también .
 
 [Configuración de activos fijos](fa-setup.md)  

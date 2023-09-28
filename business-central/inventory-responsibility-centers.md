@@ -49,8 +49,6 @@ Para configurarlo, debe asignar centros de responsabilidad a los usuarios en tre
 > [!NOTE]  
 > Los usuarios pueden ver solo los documentos publicados relacionados con su propio centro de responsabilidad. Sin embargo, pueden ver todas las entradas del libro mayor y navegar a otros documentos registrados desde las entradas del libro mayor.
 
-## Consultar la [formación de Microsoft](/training/modules/set-up-responsibility-centers/) relacionada
-
 ## Consulte también .
 
 [Configurar inventario](inventory-setup-inventory.md)  

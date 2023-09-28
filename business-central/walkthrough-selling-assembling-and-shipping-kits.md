@@ -436,8 +436,6 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 
     Cuando la Tienda Aparatos pague la recepción de los 18 equipos PC de CRONUS, se quitarán el pedido de venta y sus pedidos de ensamblado vinculados.  
 
-## Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
  [Descripción de ensamblar para pedido y ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md)   

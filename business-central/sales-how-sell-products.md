@@ -91,8 +91,6 @@ El producto relacionado y los movimientos de cliente se han creado ahora en su s
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada.
-
 ## Consulte también .
 
 [Facturar ventas](sales-how-invoice-sales.md)  

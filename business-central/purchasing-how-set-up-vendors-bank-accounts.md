@@ -26,12 +26,10 @@ Si un proveedor tiene una o más cuentas bancarias y desea establecer una opció
 2. Abre la ficha del proveedor.
 3. En la ficha desplegable **Pagos**, elija la cuenta bancaria del proveedor predeterminado en el campo **Código de cuenta bancaria preferida**.
 
-## Consultar la [formación de Microsoft](/training/modules/cash-management-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Configurar compras](purchasing-setup-purchasing.md)  
-[Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
+[Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)  
 [Configurar cuentas bancarias](bank-how-setup-bank-accounts.md)  
 [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

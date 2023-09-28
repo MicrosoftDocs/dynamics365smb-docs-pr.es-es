@@ -17,11 +17,9 @@ Esta extensión le guiará por el proceso para configurar una conexión entre su
 
 Una vez configurada la conexión, puede migrar datos de su solución local a [!INCLUDE[prod_short](includes/prod_short.md)] en línea. Esta extensión funcionará junto con una extensión de replicación de datos disponible para su solución local específica. Para más información, vea [Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Consultar la [formación de Microsoft](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Ejecución de la herramienta de migración a la nube](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Ejecutar la herramienta de migración a nube](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Extensiones inteligentes en la nube para la migración a la nube](ui-extensions-data-replication.md)  
 
 

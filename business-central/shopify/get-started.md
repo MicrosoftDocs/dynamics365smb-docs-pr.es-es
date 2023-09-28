@@ -59,7 +59,9 @@ Repita los pasos 2 a 6 para todas las tiendas en línea que desee conectar.
 ### Problemas conocidos
 
 - El navegador bloquea la ventana emergente. Al activar el conmutador en **Activado**, [!INCLUDE [prod_short](../includes/prod_short.md)] abre la página **En espera de una respuesta: no cierre esta página** mientras espera un token de acceso de Shopify. Si esa página está cerrada o bloqueada, no puede conectarse a Shopify. Obtenga más información en [Solicitar el token de acceso](troubleshoot.md#request-the-access-token)
+- Podría ser una buena idea tener el administrador de Shopify abierto en el mismo navegador que [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Error: error invalid_request de Oauth: no se pudo encontrar Aplicación API de Shopify con api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Error: error Oauth invalid_request: Su cuenta no tiene permiso para otorgar el acceso solicitado para esta aplicación.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [No se puede conectar desde el espacio aislado](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Pasos siguientes
@@ -108,8 +110,6 @@ Si mantiene activado el conmutador **Permitir la sincronización de datos para S
 
 *   Seleccione **Borrador** en el campo **Estado para crear producto** para asegurarse de que los productos exportados no estén disponibles para los compradores. Puede verificar cómo se ven los productos en la tienda en línea, sincronizar precios, opciones y niveles de existencias. Solo asegúrese de usar filtros en la página **Agregar elemento a Shopify**  para limitar la cantidad de elementos exportados.
 * Desactive la opción **Exportar cliente a Shopify** para no enviar clientes a Shopify.
-
-## Consultar la [formación de Microsoft](/training/paths/use-shopify-connector-dynamics-365-business-central/) relacionada
 
 ## Consulte también .
 

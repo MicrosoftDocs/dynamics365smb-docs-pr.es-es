@@ -53,15 +53,13 @@ La siguiente tabla describe las tareas relacionadas.
 |Configure la descripción del producto del vendedor o del cliente en su ficha de artículo para que pueda insertar rápidamente la descripción del producto en los documentos comerciales.|[Usar referencias de producto](inventory-how-use-item-cross-refs.md)|
 |Bloquear que un producto entre en líneas de compras y ventas, o que no se registre en ninguna transacción.|[Bloquear productos](inventory-how-block-items.md)|
 |Administre las operaciones comerciales en las oficinas de ventas, en los departamentos de compras o en las oficinas de planificación de plantas en múltiples ubicaciones.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
-|Utilice recursos con funciones específicas para diversos servicios y elementos de servicio.|[Configurar asignación de recursos](service-how-setup-resource-allocation.md)|
-
-## Consultar la [formación de Microsoft](/training/paths/get-started-inventory-management/) relacionada
+|Utilice recursos con funciones específicas para diversos servicios y elementos de servicio.|[Configurar la asignación de recursos](service-how-setup-resource-allocation.md)|
 
 ## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Compra](purchasing-manage-purchasing.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)  
 

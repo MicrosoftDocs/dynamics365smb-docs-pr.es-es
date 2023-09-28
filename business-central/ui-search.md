@@ -70,8 +70,6 @@ La función **Dígame qué desea hacer** no busca datos, como nombres de cliente
 
 Hemos mostrado la opción Dígame a varias partes interesadas, anotamos las preguntas que tenían en común y convertimos nuestras notas en una lista de preguntas frecuentes. Si le interesa, consulte las [Preguntas más frecuentes de la opción Dígame](ui-search-faq.md).
 
-## Consultar la [formación de Microsoft](/training/modules/user-interface-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 
 [Trabajar con Business Central](ui-work-product.md)  

@@ -28,8 +28,6 @@ Existen diferentes formas de personalizar la aplicación para tener acceso a las
 > [!NOTE]
 > Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[prod_short](includes/prod_short.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario. Por lo tanto, los usuarios con la experiencia **Esencial** pueden leer en algunos temas acerca de la funcionalidad y los elementos de la IU que no están visibles en su interfaz de usuario. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-## Consultar la [formación de Microsoft](/training/paths/tailor-roles-design-ui/) relacionada
-
 ## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -107,8 +107,6 @@ Seleccione el vínculo *Cambiar cuándo recibo notificaciones* para ver o cambia
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
-
 ## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

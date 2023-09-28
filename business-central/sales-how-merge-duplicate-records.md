@@ -56,12 +56,10 @@ El procedimiento siguiente se basa en una ficha de cliente. Los pasos son pareci
 > [!NOTE]
 > Para los contactos, puede usar la funcionalidad para encontrar contactos duplicados antes de usar la página **Combinar duplicados**. Para obtener más información, vea [Búsqueda de contactos duplicados](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Ccial](sales-manage-sales.md)  
-[Configuración de contactos](marketing-setup-contacts.md)  
+[Ventas](sales-manage-sales.md)  
+[Configurar contactos](marketing-setup-contacts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

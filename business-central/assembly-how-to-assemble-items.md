@@ -3,7 +3,7 @@ title: Ensamblar artículos
 description: Obtenga más información sobre los procesos de ensamblaje bajo pedido y ensamblaje para existencias en Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="assemble-items"></a>Ensamblar artículos
+# Ensamblar artículos
 
 Si el campo **Sistema reposición** en la ficha del artículo contiene **Montaje**, el método predeterminado para suministrar el artículo será ensamblarlo de acuerdo con la L.M. de ensamblado y potencialmente por un recurso definido. Obtenga más información en [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md). Obtenga más información acerca de cómo configurar un elemento del ensamblado en [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -27,7 +27,7 @@ Este artículo describe la configuración estándar para ensamblar para stock. S
 > [!NOTE]  
 > Los componentes de ensamblaje se manejan de forma especial en configuraciones básicas de almacén. Obtenga más información en [Tratamiento de productos de ensamblar para pedido con los picking de inventario](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Para ensamblar un artículo para stock
+## Para ensamblar un artículo para stock
 
 Siga los pasos de este procedimiento para ensamblar un artículo para almacenar. Para obtener más información sobre ensamblar por pedido, vaya a [Vender artículos ensamblados por pedido](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -61,13 +61,11 @@ Siga los pasos de este procedimiento para ensamblar un artículo para almacenar.
 
 Después de que el registrar se realice correctamente, el artículo de ensamblado se registra como salida al código de almacén y al potencial código de ubicación definidos en el pedido de ensamblado. Para los pedidos de ensamblado creados manualmente, la ubicación se puede copiar desde el campo de instalación **Ubicación pred. pedidos**. Para los flujos de ensamblar para pedido, el código de almacén se copia de la línea del pedido de venta.  
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/paths/assemble-items-dynamics-365-business-central/) relacionada
+## Consulte también .
 
-## <a name="see-also"></a>Consulte también .
-
-[Gestión de ensamblaje](assembly-assemble-items.md)  
+[Administración de ensamblados](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

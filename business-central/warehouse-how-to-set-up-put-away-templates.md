@@ -31,8 +31,6 @@ Puede configurar varias plantillas de ubicación y seleccionar una para controla
 
 Puede crear varias plantillas de ubicación y, a continuación, aplicarlas como necesite. Se utilizará primero la plantilla de ubicación que ha seleccionado para el producto o unidad de almacenamiento, si existe. Si estos campos no están rellenos, se utilizará la plantilla que ha seleccionado para el almacén en la ficha desplegable **Políticas ubic.** de la ficha de almacén.  
 
-## Consultar la [formación de Microsoft](/training/modules/put-away-templates/) relacionada
-
 ## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)

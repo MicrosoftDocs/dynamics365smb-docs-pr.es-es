@@ -106,12 +106,10 @@ El coste unitario de una L.M. de ensamblado equivale siempre al total de los cos
 
 Los costes de los productos que conforman la L.M. de ensamblado se copian de las fichas de productos componente. El coste de cada producto se multiplica por la cantidad, y el coste total se muestra en el campo **Coste unitario** en la ficha elemento de ensamblado.
 
-## Consulte la [formación de Microsoft](/training/modules/set-up-assembly-items-dynamics-365-business-central/) relacionada.
-
 ## Consulte también .
 
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Administrar variantes de productos](inventory-item-variants.md)  
+[Administrar variantes del producto](inventory-item-variants.md)  
 [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  

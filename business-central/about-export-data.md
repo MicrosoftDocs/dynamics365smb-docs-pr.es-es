@@ -72,8 +72,6 @@ Le recomendamos que también considere la posibilidad de exportar los datos de l
 
 Para obtener más información, consulte [Para obtener un resumen de los permisos de un usuario](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 [Cancelar la suscripción de [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  

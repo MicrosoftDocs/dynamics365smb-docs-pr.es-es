@@ -109,12 +109,10 @@ Para importaciones masivas, use paquetes de configuración para importar datos a
 > [!NOTE]
 > No puede usar **Editar en Excel** para crear líneas de diario con información de seguimiento.
 
-## Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
-
 ## Consulte también .
 
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
-[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
+[Seguir producto - Productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)  
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  

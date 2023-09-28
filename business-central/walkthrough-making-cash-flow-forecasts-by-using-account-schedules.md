@@ -133,8 +133,6 @@ Ken ahora está preparado para asignar la definición de columna al nombre del i
 2. En la página **Informe financiero**, puede seleccionar un importe y después ver los movimientos de la previsión del flujo de efectivo que conforman el importe. Además, puede ver la fórmula que se utiliza para calcular el importe. También puede filtrar los importes por fecha y dimensión.  
 3. Elija la acción **Imprimir** para que se imprima la previsión de flujo de efectivo.  
 
-## Consultar la [formación de Microsoft](/training/modules/forecast-cash-flow-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Trabajar con informes financieros](bi-how-work-account-schedule.md)  

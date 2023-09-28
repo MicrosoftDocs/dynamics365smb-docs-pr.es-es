@@ -50,7 +50,7 @@ Utilizar vistas de análisis que ya ha configurado con la matriz **Análisis por
 > No se puede seleccionar una longitud de periodo inferior al periodo especificado para la **Vista de análisis** en la ficha Vista de análisis. Los comandos **Conjunto siguiente** y **Conjunto anterior** están inactivos si ha seleccionado **Periodo** en el campo **Muestra como líneas** o **Muestra como columnas**.  
 
 > [!NOTE]  
-> Puede utilizar el informe **Dimensiones - Detalles** para mostrar una clasificación detallada de cómo se han utilizado las dimensiones en los movimientos durante un periodo seleccionado. Puede utilizar el informe **Dimensiones - Total** para mostrar sólo los importes totales.  
+> Puede utilizar el informe **Dimensiones - Detalles** para mostrar una clasificación detallada del uso de las dimensiones en los movimientos durante un periodo seleccionado. Puede utilizar el informe **Dimensiones - Total** para mostrar sólo los importes totales.  
 
 > [!TIP]  
 > También puede modificar la vista cambiando el contenido de los campos **Muestra como líneas** y **Muestra como columnas**. Para revertir una configuración de vista, elija la acción **Invertir líneas y columnas**.
@@ -72,8 +72,6 @@ Use el siguiente procedimiento para actualizar una vista de análisis desde la p
 
 > [!NOTE]  
 > Para actualizar varias vistas de análisis al mismo tiempo, debe utilizar el proceso **Actualizar vistas de análisis**.  
-
-## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
 
 ## Consulte también .
 

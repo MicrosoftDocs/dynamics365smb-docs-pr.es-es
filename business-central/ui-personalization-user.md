@@ -158,8 +158,6 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
    > [!TIP]
    > Como administrador, puede ocultar el elemento **Automatización** de los usuarios. Obtenga más información en [Configurar la integración de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

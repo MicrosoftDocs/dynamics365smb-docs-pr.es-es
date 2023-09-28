@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
 ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# <a name="the-service-declaration-extension"></a>La extensión de la declaración de servicio
+# La extensión de la declaración de servicio
 
 En algunos países o regiones de la UE, las autoridades exigen que las empresas informen sobre la exportación de servicios a otros países o regiones de la UE. La extensión **Declaración de servicio** le permite recopilar información sobre el comercio de servicios en la UE e informar a las autoridades. Aunque se llama **Declaración de servicio**, también puede usarlo como **Intrastat para servicios**. Esta extensión está disponible para todos los países o regiones de la UE como una versión W1 y se puede usar tal cual en Bélgica. Para otros países o regiones, se requerirá una extensión basada en el país o región. Si un país o región solo necesita un formato diferente, puede usar la configuración del informe en el **Marco de intercambio de datos** para cambiar el formato.
 
-## <a name="enable-the-service-declaration-extension"></a>Habilitar la extensión de declaración de servicio
+## Habilitar la extensión de declaración de servicio
 
 Después de instalar la extensión en su entorno, debe habilitarla.
 
@@ -26,11 +26,11 @@ Después de instalar la extensión en su entorno, debe habilitarla.
 5. Antes de comenzar, verifique el **Número total de códigos** para comprender cuántos tipos de transacciones de servicios ya se han especificado.
 6. Elija **Finalizar** en el último paso para finalizar la configuración.
 
-## <a name="set-up-the-service-declaration-extension"></a>Configurar la extensión de declaración de servicio
+## Configurar la extensión de declaración de servicio
 
 Puede configurar la extensión manualmente o mediante un archivo de informes en Definiciones de intercambio de datos.
 
-### <a name="to-set-up-service-declaration-manually"></a>Para configurar la declaración de servicio manualmente
+### Para configurar la declaración de servicio manualmente
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de declaración de servicios** y luego elija el enlace relacionado.
 2. En la ficha desplegable **General**, configure los campos tal como se describe en la tabla siguiente:
@@ -47,7 +47,7 @@ Puede configurar la extensión manualmente o mediante un archivo de informes en 
 3. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tipos de transacción de servicio** y luego elija el enlace relacionado.
 4. En las líneas, especifique **Códigos** y **Descripciones** para los tipos de transacción de servicio que usará.
 
-### <a name="set-up-a-reporting-file"></a>Configurar un archivo de informe
+### Configurar un archivo de informe
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
@@ -66,11 +66,11 @@ Puede configurar la extensión manualmente o mediante un archivo de informes en 
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] viene con una definición de intercambio de datos preconfigurada para **Declaración de servicio** para todos los países o regiones localizados. Obtenga más información acerca de cómo crear una nueva definición de intercambio de datos en [Configurar las definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
 
-## <a name="other-related-configurations"></a>Otras configuraciones relacionadas
+## Otras configuraciones relacionadas
 
 Antes de usar la extensión Declaración de servicio, configure algunos campos para artículos, recursos y cargos de artículos.
 
-### <a name="items"></a>Artículos
+### Artículos
 
 Configure la información relacionada con la Declaración de servicio en las páginas de la Tarjeta de artículo:
 
@@ -81,7 +81,7 @@ Configure la información relacionada con la Declaración de servicio en las pá
    2. En el campo **Código de tipo de transacción de servicio**, especifique el código para un **Tipo de transacción de servicio**.
    3. Si no desea incluir este elemento de servicio en las declaraciones de servicio, elija el campo **Excluir de la declaración de servicio**.
 
-### <a name="resources"></a>Recursos
+### Recursos
 
 Configure la información relacionada con la Declaración de servicio en las páginas de la Tarjeta de recurso:
 
@@ -91,7 +91,7 @@ Configure la información relacionada con la Declaración de servicio en las pá
    1. En el campo **Código de tipo de transacción de servicio**, especifique el código para un **Tipo de transacción de servicio**.
    2. Si no desea incluir este recurso en las declaraciones de servicio, elija el campo **Excluir de la declaración de servicio**.
 
-### <a name="item-charges"></a>Cargos art.
+### Cargos art.
 
 Configure la información relacionada con la Declaración de servicio para los cargos del artículo:
 
@@ -100,7 +100,7 @@ Configure la información relacionada con la Declaración de servicio para los c
 3. En el campo **Código de tipo de transacción de servicio**, especifique el código para un **Tipo de transacción de servicio**.
 4. Si no desea incluir este carfgo de artículo en las declaraciones de servicio, seleccione el campo **Excluir de la declaración de servicio**.
 
-## <a name="create-new-service-declaration"></a>Crear una declaración de servicio
+## Crear una declaración de servicio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Declaraciones de servicio** y, a continuación, elija el vínculo relacionado.
 2. Seleccione la acción **Nuevo**.
@@ -111,7 +111,7 @@ Configure la información relacionada con la Declaración de servicio para los c
 
 El trabajo por lotes recupera todas las entradas de los documentos de compra y venta aplicables en el período requerido y las agrega en las líneas de declaración de servicio. Pase el cursor sobre los campos en las líneas para leer una breve descripción.
 
-## <a name="modify-a-service-declaration"></a>Modificar una declaración de servicio
+## Modificar una declaración de servicio
 
 Si es necesario, puede modificar las líneas o agregar otras nuevas.
 
@@ -120,11 +120,11 @@ Si es necesario, puede modificar las líneas o agregar otras nuevas.
 3. En función del **Tipo de documento**, rellene el campo **Nº documento**.
 4. Rellene el resto de campos.
 
-## <a name="overview-the-service-declaration-lines"></a>Información general de las líneas de la declaración de servicio
+## Información general de las líneas de la declaración de servicio
 
 Después de crear una declaración de servicio, use la acción **Información general** para obtener una descripción general de las líneas de declaración de servicio. Puede agrupar y resumir las líneas de la misma manera que el archivo exportado. Las líneas también se pueden abrir en Excel.
 
-## <a name="report-service-declaration-in-a-file"></a>Informe de declaración de servicio en un archivo
+## Informe de declaración de servicio en un archivo
 
 Puede enviar la declaración de servicio como un archivo según los requisitos de las diferentes autoridades locales. Para crear un archivo:
 
@@ -134,17 +134,17 @@ Puede enviar la declaración de servicio como un archivo según los requisitos d
 4. Elija la acción **Crear archivo**.
 5. El archivo de la declaración de servicio se guardará en el formato requerido.
 
-## <a name="other-considerations"></a>Otras consideraciones
+## Otras consideraciones
 
 Cuando usa la extensión **Declaración de servicio**, hay algunas cosas más que debe considerar. Por ejemplo, es importante que sus grupos cumplan con los requisitos de las autoridades. También es importante que los servicios se incluyan correctamente en los documentos de compra y venta.
 
-### <a name="grouping-lines"></a>Líneas de agrupación
+### Líneas de agrupación
 
 En las líneas de declaración de servicios no existe agrupación por ningún campo. Todas las entradas se copian del documento original como fuente.
 
 La agrupación requerida por las autoridades se proporcionará en el archivo exportado. Debe configurar los grupos en la **Definición de intercambio de datos**, que es totalmente configurable. Más información en [Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="using-services-in-document-lines"></a>Uso de servicios en líneas de documentos
+### Uso de servicios en líneas de documentos
 
 Cuando crea una factura de compra, venta o servicios, encontrará dos campos relacionados con las declaraciones de servicio en sus líneas. Ambos campos se completan con los valores predeterminados de las configuraciones de su artículo, recurso o cargo del artículo.
 
@@ -155,9 +155,7 @@ Puede cambiar los valores en estos campos, pero si selecciona el campo **Aplicab
 
 Si especifica un valor en el campo **Código de tipo de transacción de servicio**, pero no selecciona el campo **Aplicable para declaración de servicio** puede contabilizar el documento, pero la línea no se calculará cuando lo haga.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar informes de Intrastat](finance-how-setup-report-intrastat.md)
 [Informes de Intrastat en Business Central](finance-how-report-intrastat.md)  

@@ -62,8 +62,6 @@ Además, cada término de la tabla Términos interés está vinculado a la subta
 |%8|Contenido del campo **Código divisa** en la cabecera del documento de interés|  
 |%9|Contenido del campo **Fecha registro** en la cabecera del documento de interés|  
 
-## Consultar la [formación de Microsoft](/training/modules/send-memos-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  

@@ -114,8 +114,6 @@ Cuando una taxonomía cambie, también tiene que actualizar la taxonomía actual
 6. Para importar la base de enlaces, elija la acción **Importar**.  
 7. Elija **Sí** para aplicar la base de enlaces al esquema.  
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
-
 ## Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  

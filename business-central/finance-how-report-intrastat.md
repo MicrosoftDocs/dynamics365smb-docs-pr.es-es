@@ -134,8 +134,6 @@ Cuando habilita esta opción, el sistema usa las siguientes reglas, pero solo si
 | País o región no perteneciente a la UE | País o región de la UE diferente del país o región en **Información empresa** | Sin líneas intrastat |
 | País o región no perteneciente a la UE | País o región no perteneciente a la UE | Sin líneas intrastat |   
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Consulte también .
 
 [Configurar informes de Intrastat](finance-how-setup-report-intrastat.md)  

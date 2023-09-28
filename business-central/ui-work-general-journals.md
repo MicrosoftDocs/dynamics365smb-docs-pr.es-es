@@ -224,11 +224,9 @@ El procedimiento siguiente se basa en la página **Diario general**, pero se apl
 
 Cuando sea necesario, los valores del campo **Nº documento** se cambian para que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Después de que se vuelven a numerar documentos, podrá registrar el diario.
 
-## Consultar la [formación de Microsoft](/training/paths/use-journals-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
-[Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
+[Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)  
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  
 [Asignar costes e ingresos](year-allocate-costs-income.md)  
 [Finanzas](finance.md)  

@@ -104,8 +104,6 @@ Rellene los campos en orden opuesto, de esta manera:
 
 La dimensión ADM se copiará desde la ubicación ESTE.
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## Consulte también .
 
 [Gestionar inventario](inventory-manage-inventory.md)  

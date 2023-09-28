@@ -84,8 +84,6 @@ En el informe **Mnto. - Detalles**, puede ver o imprimir los movimientos de mant
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Imprimir** o **Versión preliminar**.
 
-## Consultar la [formación de Microsoft](/training/paths/manage-fixed-assets-maintenance-insurances/) relacionada
-
 ## Consulte también .
 
 [Activos fijos](fa-manage.md)  

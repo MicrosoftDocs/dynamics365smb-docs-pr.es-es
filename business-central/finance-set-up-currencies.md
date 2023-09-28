@@ -111,8 +111,6 @@ Puede especificar un código de divisa en una línea de un diario general y regi
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Consultar la [formación de Microsoft](/training/modules/currencies-exchange-rates-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)  

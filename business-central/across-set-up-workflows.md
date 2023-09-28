@@ -42,8 +42,6 @@ Este video muestra cómo configurar un flujo de trabajo que requiere que un usua
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
-
 ## Consulte también .
 
 [Usar flujos de trabajo de aprobación](across-use-workflows.md)  

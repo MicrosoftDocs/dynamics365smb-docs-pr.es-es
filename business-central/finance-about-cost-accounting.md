@@ -68,11 +68,9 @@ De manera similar a la elaboración de presupuestos en el libro mayor, puede cre
 
 La mayoría de los informes y las estadística se basan en los movimientos de costes registrados. Puede definir el orden de los resultados y usar filtros para definir qué datos deben mostrarse. Puede crear informes para el análisis de distribución del coste. Además, puede utilizar los informes financieros estándar para definir cómo se muestran los informes para el plan de tipos de coste.  
 
-## Consultar la [formación de Microsoft](/training/paths/use-cost-accounting-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Contabilidad para costes](finance-manage-cost-accounting.md)  
+[Contabilidad de costes](finance-manage-cost-accounting.md)  
 [Finanzas](finance.md)  
 [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

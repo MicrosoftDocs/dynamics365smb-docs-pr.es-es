@@ -88,8 +88,6 @@ Las siguientes secciones describen cómo configurar los partes de horas si no ut
 > [!NOTE]  
 > No se puede cambiar el identificador de aprobador de la hoja de horas si hay hojas de horas que aún no se han procesado y tienen el estado **Enviado** o **Pendiente**.
 
-## Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
-
 ## Consulte también .
 
 [Uso de hojas de horas para proyectos](projects-how-use-time-sheets.md)  

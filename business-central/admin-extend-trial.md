@@ -45,11 +45,9 @@ Cuando expire su período de prueba ampliado, puede [suscribirse](https://go.mic
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Pruebas y suscripciones (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
+[Versiones de prueba y suscripciones (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Crear nuevas en empresas](about-new-company.md)  
 [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Ampliación de versiones de prueba (como administrador)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

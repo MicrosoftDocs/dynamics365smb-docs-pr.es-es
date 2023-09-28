@@ -115,13 +115,11 @@ Cuando su empresa utiliza los procesos de planificación de suministro en [!INCL
 
 Para ver ejemplos de cómo puede utilizar los campos en la ficha desplegable **Planificación**, consulte [Prácticas recomendadas de configuración: parámetros de planificación](setup-best-practices-planning-parameters.md).  
 
-## Consultar la [formación de Microsoft](/training/modules/create-items/) relacionada
-
 ## Consulte también .
 
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Configurar unidades de medida](inventory-how-setup-units-of-measure.md)  
-[Administrar variantes de productos](inventory-item-variants.md)  
+[Administrar variantes del producto](inventory-item-variants.md)  
 [Configuración de Informes de Intrastat](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Conciliar costes de inventario con la contabilidad](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Crear numeración](ui-create-number-series.md)  

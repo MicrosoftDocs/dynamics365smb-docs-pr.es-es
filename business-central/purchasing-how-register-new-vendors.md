@@ -70,8 +70,6 @@ Puede editar la información de las fichas de proveedor en cualquier momento. Si
 5. Cuando haya finalizado la nueva plantilla de proveedor, seleccione **Aceptar**.  
    La plantilla de proveedor se agrega a la lista de plantillas de proveedor, de modo que puede usarla para crear nuevas fichas de proveedor.
 
-## Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada.
-
 ## Consulte también .
 
 [Combinar registros duplicados](sales-how-merge-duplicate-records.md)  

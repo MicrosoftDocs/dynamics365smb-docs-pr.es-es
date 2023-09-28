@@ -52,8 +52,6 @@ El procedimiento siguiente describe cómo recibir una factura de proveedor y con
 
     Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[prod_short](includes/prod_short.md)], se mostrarán en la ficha desplegable **Mensajes de error**.  
 
-## Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 
 [Administrar pagos](payables-manage-payables.md)  

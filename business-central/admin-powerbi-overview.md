@@ -59,8 +59,6 @@ El siguiente diagrama ilustra el flujo de trabajo básico para los usuarios al c
 6. El usuario crea un informe en Power BI Desktop.
 7. El usuario publica el informe en el servicio Power BI. Los informes están disponibles para su selección en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Consultar la [formación de Microsoft](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 
 [Business Central y Power BI](admin-powerbi.md)  

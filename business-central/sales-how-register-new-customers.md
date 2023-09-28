@@ -82,8 +82,6 @@ Puede optar por no recibir advertencias que le indiquen que se excedió el lími
     |**Deuda vencida**|Se comprueba el campo **Saldo vencido** de la ficha cliente y aparece una advertencia si el cliente tiene una deuda vencida.|
     |**Ninguno**|No se muestra ninguna advertencia acerca del estado del cliente.|
 
-## Consultar la [formación de Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) relacionada.
-
 ## Consulte también .
 
 [Definir las formas de pago](finance-payment-methods.md)  

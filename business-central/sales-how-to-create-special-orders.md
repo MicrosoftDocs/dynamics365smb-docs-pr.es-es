@@ -38,12 +38,10 @@ El sistema de planificación respeta un pedido de compra que se crea como un ped
 > [!NOTE]  
 >  No puede utilizar la funcionalidad de pedido especial si el artículo ya está reservado. Por lo tanto, para los artículos que se venden en pedidos especiales, asegúrese de que el campo **Reservar** de la ficha de producto no se establezca en **Siempre**.  
 
-## Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md)  
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Realizar envíos directos](sales-how-drop-shipment.md)   
 [Detalles de diseño: Directivas de reaprovisionamiento](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

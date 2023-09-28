@@ -47,8 +47,6 @@ Se muestran todos los registros de documento entrantes, incluyendo los registros
 > [!NOTE]  
 > También puede realizar esta acción para el registro individual en la página **Ficha de documento** entrante.
 
-## Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
   
 [Crear registros de documentos entrantes](across-how-create-income-document-records.md)

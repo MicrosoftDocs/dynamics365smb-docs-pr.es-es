@@ -3,7 +3,7 @@ title: Desplazar productos
 description: Obtenga más información sobre cómo mover productos entre contenedores en el almacén.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
@@ -36,12 +36,10 @@ Las actividades de recuento, ajuste y reclasificación de productos pueden inclu
 |Utilice la hoja de trabajo del movimiento de almacén, el picking y el almacenamiento internos para mover los productos en configuraciones avanzadas de almacén con el picking y el almacenamiento dirigidos.|[Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Vuelva a estructurar el almacén con nuevos códigos y características de ubicación y muévalos.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|  
 
-## Consultar la [formación de Microsoft](/training/modules/manage-internal-warehouse-processes/) relacionada
-
 ## Consulte también .
 
-[Información general de la gestión de almacenes](design-details-warehouse-management.md)  
-[Inventario](inventory-manage-inventory.md)  
+[Información general de la administración de almacenes](design-details-warehouse-management.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

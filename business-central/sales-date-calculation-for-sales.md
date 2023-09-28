@@ -36,12 +36,10 @@ Si no especifica una fecha de entrega requerida en la línea del pedido de venta
 - *fecha envío + tiempo manip. alm. salida = fecha envío planeada*
 - *fecha envío planeada + hora envío = fecha entrega planeada*
 
-## Consulte la [formación de Microsoft](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/) relacionada.
-
 ## Consulte también .
 
-[Cálculo de la fecha de las compras](purchasing-date-calculation-for-purchases.md)  
-[Calcular fechas de compromiso de pedidos](sales-how-to-calculate-order-promising-dates.md)  
+[Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)  
+[Calcular fechas de compromiso de pedido](sales-how-to-calculate-order-promising-dates.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

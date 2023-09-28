@@ -302,8 +302,6 @@ Debe configurar la información sobre cómo las autoridades fiscales de su país
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Configurar tipos de declaración de IVA y nombres de declaración de IVA](finance-how-setup-vat-statement.md)  

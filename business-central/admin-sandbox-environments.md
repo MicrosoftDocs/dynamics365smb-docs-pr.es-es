@@ -3,7 +3,7 @@ title: Ambientes de espacio aislado
 description: 'Obtenga información sobre cómo un ambiente dedicado puede ayudarle a explorar, aprender, hacer demostraciones, desarrollar, solucionar problemas y probar Business Central de forma segura.'
 author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -63,8 +63,6 @@ En un entorno aislado, encontrará el **Diseñador** habilitado Puede activar Di
 Para obtener más información, consulte [Usar el diseñador](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) en el contenido para desarrolladores y administradores (solo en inglés).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-## Consultar la [formación de Microsoft](/training/modules/admin-online-dynamics-365-business-central/) relacionada
 
 ## Consulte también .
 

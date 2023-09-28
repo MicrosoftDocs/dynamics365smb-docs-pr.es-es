@@ -3,7 +3,7 @@ title: Realizar picking de productos con picking inventario
 description: Obtenga información sobre cómo usar pickings de inventario para registrar y publicar información de picking y envío para documentos de origen.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ En escenarios donde parte de la cantidad se ensambla primero y a la otra se le d
 
 > [!NOTE]  
 > Si los productos se ensamblan según el pedido, el picking de inventario para el pedido de ventas vinculado crea un movimiento de inventario para todos los componentes del ensamblado.  
-
-## Consultar la [formación de Microsoft](/training/paths/pick-ship-items-business-central/) relacionada
 
 ## Consulte también .
 

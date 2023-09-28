@@ -189,12 +189,10 @@ Para cada cuenta de contabilidad, puede definir valores de dimensión predetermi
 > [!NOTE]  
 >  Para garantizar que el centro de coste y el objeto de coste predefinidos que configuró en la contabilidad sean transportados automáticamente a la contabilidad de costes, seleccione la casilla **Comprobar registros C/G** en la página Configuración contabilidad costes.
 
-## Consultar la [formación de Microsoft](/training/modules/cost-accounting-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Contabilidad para costes](finance-manage-cost-accounting.md)  
-[Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)  
+[Contabilidad de costes](finance-manage-cost-accounting.md)  
+[Transferir y registrar movimientos de coste](finance-transfer-and-post-cost-entries.md)  
 [Definición y asignación de costes](finance-define-and-allocate-costs.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Compartir y exportar informes con la bandeja de entrada de informes
 description: 'Utilice la página Bandeja de entrada de informes para descargar, compartir y exportar informes en Business Central.'
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, dataset, export, report inbox, onedrive,'
 ms.search.form: 680
 ms.date: 08/08/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 # Compartir y exportar informes con la bandeja de entrada de informes
 
@@ -46,8 +46,6 @@ Compartir informes con colaboradores también es posible en la página **Bandeja
 > Para aprender más sobre la integración de OneDrive y características en [!INCLUDE[prod_short](includes/prod_short.md)], incluida la configuración por primera vez y las opciones para tratar los conflictos de nombres de archivo, lea el artículo[Abrir y compartir archivos en OneDrive](across-share-onedrive.md).
 >
 > Usar la acción **Compartir** hace que el archivo de informe generado esté disponible para otros usuarios solo en OneDrive para la Empresa y no incluye el informe programado en su **Bandeja de entrada de informes**.
-
-## Consulte la formación relacionada en [Microsoft Learn](/learn/paths/build-reports/)
 
 ## Consulte también .
 

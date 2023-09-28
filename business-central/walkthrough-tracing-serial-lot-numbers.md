@@ -297,12 +297,10 @@ A continuación, deberá crear diversas transacciones de compra, producción y v
 
  De este modo finaliza el tutorial sobre cómo usar la página **Buscar movimientos** para la gestión de defectos en la integración con la página **Seguimiento de productos**.  
 
-## Consultar la [formación de Microsoft](/training/paths/use-serial-lot-numbers/) relacionada
-
 ## Consulte también .
 
 [Trabajar con números de lote y de serie](inventory-how-work-item-tracking.md)  
-[Realizar seguimiento de productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
+[Seguir producto - Productos seguidos](inventory-how-to-trace-item-tracked-items.md)  
 [Buscar movimientos](ui-find-entries.md)  
 [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
 

@@ -242,8 +242,6 @@ Puede especificar los informes que deben imprimirse en diferentes etapas eligien
 > [!NOTE]
 > Los informes disponibles pueden variar según la localización de su país o región. La aplicación base no incluye ningún diseño.
 
-## Consultar la [formación de Microsoft](/training/modules/adjust-inventory/) relacionada
-
 ## Consulte también .
 
 [Recuento, ajuste y reclasificación de inventario con diarios](inventory-how-count-adjust-reclassify.md)  

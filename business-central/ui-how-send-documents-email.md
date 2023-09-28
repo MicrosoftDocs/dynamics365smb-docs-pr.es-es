@@ -76,8 +76,6 @@ Algunos documentos de [!INCLUDE[prod_short](includes/prod_short.md)] tienen un c
 
 La **Bandeja de salida de correo electrónico** es donde encontrará los correos electrónicos que guardó como borradores y los correos electrónicos que no se pudieron enviar, por ejemplo, si la dirección de correo electrónico no era válida. Para los mensajes que no se pudieron enviar, puede elegir **Mostrar error** o **Investigar error** para solucionar el problema.  
 
-## Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
-
 ## Consulte también
 
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  

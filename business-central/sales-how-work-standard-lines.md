@@ -70,11 +70,9 @@ Puede utilizar el trabajo por lotes **Crear facturas de venta periódicas** para
 
 Las facturas de venta se crean para los clientes con el código de ventas de cliente estándar especificado y la información de domiciliación especificada, para el registro en la fecha especificada.
 
-## Consultar la [formación de Microsoft](/training/modules/create-sales-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Configurar ventas](sales-setup-sales.md)  
 [Crear líneas de compra periódicas](purchasing-how-work-recurring-purchase-lines.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

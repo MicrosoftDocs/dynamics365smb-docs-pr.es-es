@@ -51,8 +51,6 @@ En la página **Factura de compra registrada**, puede elegir el botón **Corregi
 
 Si la cancelación está relacionada con un registro parcial de la factura, la línea de pedido de compra original se actualiza para reflejar la cantidad facturada cancelada. Los campos **Cant. a facturar** y **Cant. facturada** en la línea de pedido de compra relacionada se restablecen a los valores previos del registro parcial.
 
-## Consultar la [formación de Microsoft](/training/modules/receive-invoice-dynamics-d365-business-central/) relacionada
-
 ## Consulte también .
 
 [Compras](purchasing-manage-purchasing.md)  

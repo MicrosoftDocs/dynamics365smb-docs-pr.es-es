@@ -31,8 +31,6 @@ La página **Documentos registrados sin documento entrante** se abre con los doc
 
 Si no existe un registro de documento entrante correspondiente en la página **Documentos entrantes**, puede crearlo. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).
 
-## Consultar la [formación de Microsoft](/training/modules/incoming-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Crear registros de documentos entrantes](across-how-create-income-document-records.md)

@@ -3,7 +3,7 @@ title: Solución de problemas de Shopify y sincronización de Business Central
 description: Descubra qué hacer si algo falla cuando sincroniza datos entre Shopify y Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
@@ -143,6 +143,10 @@ Parece que usa [Insertar aplicación](/dynamics365/business-central/dev-itpro/de
 ### Error: error interno. Parece que hemos tenido un problema. ID de solicitud: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Póngase en contacto con el soporte técnico de Shopify dentro de los 7 días de haber experimentado este error y proporcione la identificación de la solicitud. Para obtener más información, vaya a [Opciones de soporte técnico para Shopify](shopify-faq.md#shopify).
+
+### Error: error Oauth invalid_request: Su cuenta no tiene permiso para otorgar el acceso solicitado para esta aplicación. 
+
+Parece que el usuario que solicita acceso no tiene derechos para administrar aplicaciones (capacidad para administrar e instalar aplicaciones y canales, así como también aprobar potencialmente cargos de aplicaciones). Es posible que puedas resolver este problema instalando la aplicación como propietario de la cuenta. Como alternativa, puede comprobar el **Permiso de apicación** del usuario en la configuración de [**usuario y permisos**](https://www.shopify.com/admin/settings/account) en el **Administrador de Shopify**.  
 
 ## Consulte también .
 

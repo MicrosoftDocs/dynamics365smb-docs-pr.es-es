@@ -25,11 +25,9 @@ Un informe de [!INCLUDE[prod_short](includes/prod_short.md)] recopila informaci�
 | Aprenda a cambiar el diseño predeterminado de un informe. | [Cambiar el diseño de informe predeterminado](ui-how-change-layout-currently-used-report.md) |
 | Vea y analice datos de un conjunto de datos de informe en Microsoft Excel. | [Guardar conjunto de datos de informe a Excel desde la página de solicitud](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## Consulte la [formación de Microsoft](/training/paths/setup-reporting-dynamics-365-business-central/) relacionada.
-
 ## Consulte también .
 
-[Descripción general de informe](reports-available-reports.md)  
+[Descripción general de los informes](reports-available-reports.md)  
 [Descripción general de Inteligencia empresarial e informes](ui-work-report.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -33,8 +33,6 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 |Prepárese para configurar una definición de intercambio de datos nueva de un determinado archivo o flujo de datos usando el esquema XML del archivo para rellenar previamente la ficha desplegable **Definiciones de columna** en la página **Definiciones de intercambio de registro**.|[Uso de esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Configure el marco de intercambio de datos para que los usuarios puedan recibir un formato de documento de compra nuevo, enviar un formato de documento de venta nuevo, importar un archivo bancario nuevo u otro intercambio de datos.|[Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Intercambio de datos electrónicamente](across-data-exchange.md)  

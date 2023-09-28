@@ -338,8 +338,6 @@ El proceso de trabajo con informes Intrastat es el mismo que el de la caracterí
 
 <!-- ### United Kingdom-->
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Consulte también .
 
 [Informes de Intrastat en Business Central](finance-how-report-intrastat.md)  

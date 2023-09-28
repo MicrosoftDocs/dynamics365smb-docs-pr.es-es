@@ -45,8 +45,6 @@ Para ahorrar tiempo cuando envía documentos a contactos de clientes y proveedor
 1. En la página **Diseños de documento**, en la línea para un diseño de informe que desea enviar a un contacto específico para el cliente, elija la acción **Seleccionar correo electrónico de contactos**.
 2. En la página **Contactos**, seleccione uno o más contactos y luego elija **Aceptar**.
 
-## Consultar la [formación de Microsoft](/training/modules/change-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Actualizar los diseños de informe personalizados](ui-update-report-layouts.md)  

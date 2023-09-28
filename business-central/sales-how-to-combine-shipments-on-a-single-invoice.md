@@ -1,22 +1,22 @@
 ---
 title: 'Procedimiento: agrupamiento de envíos en una factura única | Documentos de Microsoft'
 description: 'Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 12/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="combine-shipments-on-a-single-invoice"></a>Agrupar envíos en una factura única
+# Agrupar envíos en una factura única
 
 Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.  
 
 Para crear una agrupación de envíos, primero debe registrar más de un envío de venta para el mismo cliente en la misma divisa. Dicho de otro modo, debe haber creado dos o más pedidos de venta y haberlos registrado como enviados pero no facturados. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma manual en una factura única
+## Para agrupar envíos de forma manual en una factura única
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**. Para obtener más información, vea [Facturar ventas](sales-how-invoice-sales.md).
@@ -33,7 +33,7 @@ Para crear una agrupación de envíos, primero debe registrar más de un envío 
 > [!TIP]  
 > Si ha enviado pedidos donde el **Venta a-N.º cliente** es diferente de **Factura-a Nº cliente**, esas líneas no se muestran en el informe **Obtener líneas de envío**. Utilice la personalización para agregar el campo **Cliente de venta** a la página y elimine el filtro. Ahora puede agregar líneas de envío a la factura independientemente del valor en el campo **Venta a-N.º cliente** siempre que el campo **Factura-a Nº cliente** en las líneas de envío coincida con el valor de la factura de venta.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Para agrupar envíos de forma automática en una factura única
+## Para agrupar envíos de forma automática en una factura única
 
 [!INCLUDE[prod_short](includes/prod_short.md)] seleccionará solo pedidos de venta donde se elija **Combinar envíos**. 
 
@@ -45,7 +45,7 @@ Para crear una agrupación de envíos, primero debe registrar más de un envío 
 > [!NOTE]  
 >  Deberá registrar las facturas manualmente si no se ha activado la casilla de verificación **Registrar facturas** en el trabajo por lotes.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Eliminar pedidos de venta abiertos después del registro de envío combinado
+## Eliminar pedidos de venta abiertos después del registro de envío combinado
 
 Cuando se agrupan envíos en una factura y se registran, se crea una factura de venta registrada para las líneas facturadas. El campo **Cantidad facturada** del pedido de venta o pedido abierto de venta de origen se actualiza en función de la cantidad facturada.  
 
@@ -59,11 +59,9 @@ También puede eliminar los pedidos de venta individuales manualmente.
 
 Repita las tareas 1 a 3 para cualquier otro documento asignado, como pedidos abiertos de ventas.
 
-## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/) relacionada
+## Consulte también .
 
-## <a name="see-also"></a>Consulte también .
-
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

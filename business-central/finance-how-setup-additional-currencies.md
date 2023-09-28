@@ -124,12 +124,10 @@ Además, los importes de todos los movimientos posteriores del mismo tipo se reg
 > [!NOTE]  
 > El campo **Divisa adicional** sólo quedará activada una vez que se haya seleccionado **Aceptar** en el proceso **Ajust. divisa adicional**.  
 
-## Consultar la [formación de Microsoft](/training/paths/use-multiple-currencies-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)  
-[Cerrar años y periodos](year-close-years-periods.md)  
+[Cerrar ejercicios y periodos](year-close-years-periods.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

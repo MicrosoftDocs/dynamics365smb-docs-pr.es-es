@@ -61,8 +61,6 @@ Para conectar Business Central local debe crear una aplicación en la tienda de 
 
 Si prefiere almacenar el identificador y el secreto de la aplicación en una ubicación diferente, puede dejar en blanco los campos Id . del cliente y Secreto del cliente y escribir una extensión para obtener el identificador y el secreto de la ubicación. Puede proporcionar el secreto en tiempo de ejecución suscribiéndose a los eventos OnGetClientId y OnGetClientSecret en codeunit 1410 "Configuración servicio intercambio documentos".
 
-## Consultar la [formación de Microsoft](/training/modules/electronic-documents-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  

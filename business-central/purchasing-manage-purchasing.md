@@ -37,18 +37,16 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Convertir, por ejemplo, facturas electrónicas de sus proveedores a facturas de compra en Business Central.|[Recibir y convertir documentos electrónicos](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Aprenda cómo [!INCLUDE[prod_short](includes/prod_short.md)] calcula cuando se debe solicitar un producto para recibirlo en una fecha determinada.|[Cálculo de la fecha de compras](purchasing-date-calculation-for-purchases.md)|
 |Resolver la confusión cuando existen dos o más registros para el mismo proveedor.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
-|Administrar el compromiso a un proveedor para comprar grandes cantidades entregadas en varios envíos a lo largo del tiempo.|[Trabajar con pedidos abiertos de compra](sales-how-to-create-blanket-sales-orders.md)|
+|Administrar el compromiso a un proveedor para comprar grandes cantidades entregadas en varios envíos a lo largo del tiempo.|[Trabajar con pedidos de compra abiertos](sales-how-to-create-blanket-sales-orders.md)|
 
 ## Números de documento externo
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Consultar la [formación de Microsoft](/training/paths/purchase-items-services-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Configurar compras](purchasing-setup-purchasing.md)  
-[Permite registrar nuevos proveedores](purchasing-how-register-new-vendors.md)  
+[Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Administrar proyectos](projects-manage-projects.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

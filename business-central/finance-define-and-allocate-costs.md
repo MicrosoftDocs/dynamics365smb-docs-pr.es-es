@@ -137,12 +137,10 @@ Este tema muestra un ejemplo de cómo definir asignaciones mediante el método d
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] utiliza las cifras de ventas de ejercicios anteriores para calcular un reparto de 1596,50 DL con el 100 por ciento para los paquetes de EQUIPO TI. Esto significa que todos los productos vendidos el año anterior se asignarán al EQUIPO TI del objeto de coste.
 
-## Consultar la [formación de Microsoft](/training/modules/allocate-costs-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
  [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)  
- [Transferencia y registro de movimientos de coste](finance-transfer-and-post-cost-entries.md)  
+ [Transferir y registrar movimientos de coste](finance-transfer-and-post-cost-entries.md)  
  [Contabilidad para costes](finance-manage-cost-accounting.md)  
  [Terminología en contabilidad de costes](finance-terminology-in-cost-accounting.md)  
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)

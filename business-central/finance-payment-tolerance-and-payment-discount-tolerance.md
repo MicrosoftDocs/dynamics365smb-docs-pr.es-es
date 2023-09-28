@@ -275,8 +275,6 @@ Reglas de liquidación normales
 
 (2) si el pago no se produce en estos intervalos, no se pueden cerrar todos los movimientos de liquidación aun con tolerancia.
 
-## Consultar la [formación de Microsoft](/training/modules/enter-payments-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Finanzas](finance.md)  

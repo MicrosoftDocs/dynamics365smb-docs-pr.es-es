@@ -70,8 +70,6 @@ Para trabajar con la página **Hoja trab. creación ubicación**, debe estar con
 
 Repita el proceso para otro grupo de ubicaciones hasta que haya creado todas las ubicaciones del almacén.  
 
-## Consultar la [formación de Microsoft](/training/modules/create-new-bins/) relacionada
-
 ## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)

@@ -46,8 +46,6 @@ Una vez configurados los usuarios de aprobación, puede crear las respuestas de 
 
 El siguiente paso es especificar cómo desea que [!INCLUDE [prod_short](includes/prod_short.md)] notifique a las personas que una solicitud está pendiente de su atención. Obtenga más información en [Configurar notificaciones de flujo de trabajo de aprobación](across-setting-up-workflow-notifications.md).
 
-## Consultar la [formación de Microsoft](/training/modules/create-workflows/) relacionada
-
 ## Consulte también .
 
 [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)  

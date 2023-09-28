@@ -239,8 +239,6 @@ No utilice una cuenta de mayor que permita la contabilización directa en su gru
 
 Este error ocurre a menudo al ingresar un saldo inicial para una cuenta bancaria. Es importante que no registre el saldo de apertura directamente en el libro mayor. Los asientos en la cuenta de mayor que se registran directamente en la cuenta de mayor causarán problemas. Por ejemplo, estas entradas pueden impedirle conciliar su cuenta bancaria. Para las cuentas bancarias en moneda extranjera, las entradas pueden hacer que se acumulen diferencias después de contabilizar más conciliaciones bancarias debido a los ajustes del tipo de cambio de moneda. A menudo, contabiliza el saldo bancario inicial directamente en la cuenta bancaria y el importe termina en la cuenta del L/M. Como alternativa, lo revierte más tarde contra una cuenta de contabilidad que utilice para equilibrar el saldo inicial del libro mayor. En ambos casos, debe equilibrar cualquier registro directo en la cuenta de contabilidad antes de iniciar su primera conciliación bancaria, especialmente si la cuenta bancaria está en una divisa extranjera.
 
-## Consultar la [formación de Microsoft](/training/modules/bank-reconciliation-dynamics-365-business-central/index) relacionada
-
 ## Consulte también
 
 [Conciliar bancos](bank-manage-bank-accounts.md)  

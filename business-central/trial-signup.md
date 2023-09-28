@@ -38,8 +38,6 @@ También puede ponerse en contacto con el [equipo de ventas de [!INCLUDE[prod_sh
 
 Para obtener más información sobre lo que puede hacer con [!INCLUDE [prod_short](includes/prod_short.md)], consulte [Preparación para hacer negocios](ui-get-ready-business.md) y [Funcionalidad empresarial](across-business-functionality.md).  
 
-## Consultar la [formación de Microsoft](/training/modules/trial-dynamics-365-business-central/) relacionada
-
 ## Recursos adicionales
 
 - [Visite nuestra biblioteca de vídeos](across-videos.md)  

@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Tutorial: Configurar y usar el Shopify Connector
+# Tutorial: Configurar y usar el Shopify Connector
 
 Esta sección muestra algunos escenarios típicos y lo guía a través de los pasos para probar o capacitar a los usuarios en el flujo de trabajo de la tienda [!INCLUDE[prod_short](../includes/prod_short.md)] integrada y Shopify.
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Debe tener:
 
@@ -25,13 +25,13 @@ Debe tener:
 
 Obtenga más información sobre cómo crear pruebas y configuraciones recomendadas de Shopify en [Creación y configuración de la cuenta de Shopify](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Debe tener una cuenta de [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
 Por ejemplo, puede crear una cuenta de demostración o iniciar una prueba. Obtenga más información en [Preparar entornos de demostración de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) y [Registrarse para la prueba](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Conectar Business Central a la tienda de Shopify
+## Conectar Business Central a la tienda de Shopify
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguientes pasos:
 
@@ -43,32 +43,32 @@ En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguien
 
 Configure la tienda de Shopify como se describe en los pasos siguientes.
 
-1. Active el botón de alternancia **Registro habilitado**.
-2. Desactive la alternancia **Permitir sincronizaciones en segundo plano**.
-3. Seleccione **Para Shopify**, en el campo **Sincronizar elemento**.
-4. Seleccione **Para Shopify**, en el campo **Sincronizar imágenes de elementos**.
-5. Active el botón de alternancia **Sincronizar atributos de elementos**.
-6. Active el conmutador **Inventario con seguimiento**.
-7. Seleccione **Denegar** en el campo **Política de inventario predeterminada** .
-8. Active el conmutador **Creación automática de clientes desconocidos**.
-9. Rellene el campo **Código de plantilla de cliente** con la plantilla adecuada.
-10. Complete la **cuenta de gastos de envío**, la **Cuenta de propinas** con la cuenta de ingresos. Por ejemplo, en EE. UU., utilice `40100`.
-11. Active el conmutador **Creación automática de pedidos**.
+1. Desactive la alternancia **Permitir sincronizaciones en segundo plano**.
+2. Seleccione *Para Shopify*, en el campo **Sincronizar elemento**.
+3. Seleccione *Para Shopify*, en el campo **Sincronizar imágenes de elementos**.
+4. Active el botón de alternancia **Sincronizar atributos de elementos**.
+5. Active el conmutador **Inventario con seguimiento**.
+6. Seleccione *Denegar* en el campo **Política de inventario predeterminada** .
+7. Active el conmutador **Creación automática de clientes desconocidos**.
+8. Rellene el campo **Código de plantilla de cliente** con la plantilla adecuada.
+9. Complete la **cuenta de gastos de envío**, la **Cuenta de propinas** con la cuenta de ingresos. Por ejemplo, en EE. UU., utilice `40100`.
+10. Active el conmutador **Creación automática de pedidos**.
 
 Configurar asignación de ubicación:
 
 1. Elija la acción **Ubicaciones** para abrir **Ubicaciones de tienda de Shopify**.
-2. Elija la acción **Obtener ubicaciones de Shopify** para importar todas las ubicaciones definidas en Shopify.
+2. Elija la acción **Obtener ubicaciones de Shopify** para importar todas las ubicaciones definidas en Shopify. Seleccione su ubicación predeterminada en Shopify
 3. En **Filtro de ubicación**, introduzca `''|EAST|MAIN`
-4. Deseleccione la alternancia **Desactivado** para habilitar la sincronización de inventario para la ubicación de Shopify seleccionada.
+4. Active la opción **Ubicación predeterminada del producto**.
+5. Seleccione *Saldo disponible previsto hoy* en el campo **Cálculo de stock** para habilitar la sincronización de inventario para la ubicación seleccionada de Shopify.
 
-## <a name="walkthrough-start-selling-products-online"></a>Tutorial: Comienzar a vender productos en línea
+## Tutorial: Comienzar a vender productos en línea
 
-### <a name="scenario"></a>Escenario
+### Escenario
 
 Supongamos que desea probar Shopify como una tienda en línea sin perder mucho tiempo configurando cosas, especialmente porque ya mantiene sus artículos en [!INCLUDE[prod_short](../includes/prod_short.md)] correctamente. Después de lanzar su tienda en línea Shopify, obtiene inmediatamente nuevos clientes que están satisfechos con su tienda y su experiencia de compra. Entonces, deciden dejar propinas al momento de pagar.
 
-### <a name="steps"></a>Pasos
+### Pasos
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], realice los siguientes pasos:
 
@@ -130,13 +130,13 @@ Ahora los datos físicos y financieros se registran en [!INCLUDE[prod_short](../
 
 En **Administrador de Shopify** observe que el pedido ahora está marcado como *Cumplido*. También puede revisar los detalles del envío y ver la URL de seguimiento allí. Si vuelve a ejecutar **Sincronizar pedidos desde Shopify**, el pedido se archivará en ambos sistemas.
 
-## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Tutorial: invitar a los clientes a una nueva tienda en línea
+## Tutorial: invitar a los clientes a una nueva tienda en línea
 
-### <a name="scenario-1"></a>Escenario
+### Escenario
 
 Después de un lanzamiento rápido y exitoso de su nueva tienda en línea, desea que sus clientes actuales la visiten y comiencen a realizar pedidos.
 
-### <a name="steps-1"></a>Pasos
+### Pasos
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguientes pasos:
 
@@ -146,13 +146,13 @@ En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguien
 
 En **Administrador de Shopify** observe que los clientes fueron importados. Abra uno de los clientes y observe que el nombre y el apellido del cliente provienen del campo **Nombre de contacto** de la **Tarjeta de cliente**. El nombre de la empresa se puede encontrar en la dirección predeterminada, vinculada al cliente. Elija **Enviar invitación a la cuenta** para invitar al cliente.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Tutorial: ajuste fino de la gestión de artículos
+## Tutorial: ajuste fino de la gestión de artículos
 
-### <a name="scenario-2"></a>Escenario
+### Escenario 
 
 Le gustaría agregar más flexibilidad y control a sus procesos en torno a la gestión de artículos. Desea mejorar la descripción del producto y desea agregar más pasos de revisión antes de que los productos estén disponibles para el cliente final.
 
-### <a name="steps-2"></a>Pasos
+### Pasos
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguientes pasos:
 
@@ -167,7 +167,7 @@ Seleccione el producto **1896-S, Athens Desk** y ejecute los siguientes pasos.
 
 1. Elija la acción **Variantes** y luego agregue las dos variantes `PREMIUM, Athens Desk, Premium edition` y `ESSENTIAL, Athens Desk, Essential edition`.
 2. Elija la acción **Texto extendido**, cree un nuevo texto extendido válido para todos los códigos de idioma. En el campo **Descripción** escriba `Shopify`. 
-3. Agregue el siguiente texto con etiquetas HTML: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+3. Agregue el siguiente texto con etiquetas HTML: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Cierra la página **Texto extendido** y regresa a la tarjeta de artículo.
 4. Elija la acción **Precios de venta** y agregue nuevos precios como se muestra en la siguiente tabla:
 
   |Línea|**Tipo venta**|**Código ventas**|Tipo|Código|Cód. variante<br>(añadir el campo a través de la personalización)|Precio unitario|
@@ -214,7 +214,7 @@ Ejecute la sincronización.
 2. Seleccione la tienda *DEMO1* para la que desea sincronizar artículos para abrir la página **Tarjeta de tienda de Shopify**.
 3. Seleccione la acción **Productos** para abrir la ventana **Productos de Shopify**.
 4. Elija la acción **Agregar artículos**.
-5. Configure el filtro *TABLE* en el campo **Código de categoría de artículo**.
+5. Configure el filtro *TABLE|DESK* en el campo **Código de categoría de artículo**.
 6. Seleccione la acción **Sincronizar imágenes de productos**.
 7. Elija la acción **Sincronizar inventario**.
 
@@ -239,19 +239,19 @@ Tenga en cuenta que el inventario de ANTWERP Conference Table es 100, porque con
 
 En la **Tienda online Shopify** abra el catálogo de productos, busque el producto *ATHENS Desk*. Tenga en cuenta que hay diferentes opciones disponibles. Para diferentes opciones, los precios son diferentes. Preste atención a la información de descuento.
 
-## <a name="walkthrough-import-items-from-shopify"></a>Tutorial: Importar artículos desde Shopify
+## Tutorial: Importar artículos desde Shopify
 
-### <a name="scenario-3"></a>Escenario
+### Escenario 
 
 Ya tiene una tienda en línea exitosa y le gustaría comenzar a usar [!INCLUDE[prod_short](../includes/prod_short.md)] como software de administración comercial. Le gustaría importar la mayor cantidad posible de datos de Shopify. 
 
-### <a name="steps-3"></a>Pasos
+### Pasos
 
 Esta es una continuación del [Tutorial: Comenzar a vender productos en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). También puede probar con sus propios datos, por ejemplo, su tienda Shopify o espacio aislado.
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguientes pasos:
 
-#### <a name="prepare-data"></a>Preparar los datos
+#### Preparar los datos
 
 1. Cambie a una prueba gratuita de 30 días sin datos de muestra. Para obtener más información, consulte [Agregar sus propios datos a una prueba vacía](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Elija el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego elija el enlace relacionado.
@@ -262,19 +262,15 @@ En [!INCLUDE[prod_short](../includes/prod_short.md)], realice uno de los siguien
 
 Configure la tienda de Shopify como se describe a continuación en los pasos siguientes.
 
-7. Habilite el botón de alternancia **Registro habilitado**.
-8. Desactive la alternancia **Permitir sincronizaciones en segundo plano**.
-9. Seleccione **De Shopify**, en el campo **Sincronizar elemento**.
-5. Habilite la opción de alternancia **Creación automática de artículos desconocidos**.
-11. Rellene el campo **Código de plantilla de artículos** con la plantilla adecuada.
-12. Seleccione **De Shopify**, en el campo **Sincronizar imágenes de elementos**.
-13. Seleccione **Todos los clientes** en **Importación de clientes de Shopify**.
-14. Habilite la opción de alternancia **Creación automática de clientes desconocidos**.
-15. Rellene el campo **Código de plantilla de cliente** con la plantilla adecuada.
-16. Complete la **cuenta de gastos de envío**, la **Cuenta de propinas** con la cuenta de ingresos. Por ejemplo, en EE. UU., utilice `40100`.
-17. Habilite el conmutador **Creación automática de pedidos**.
+7. Desactive la alternancia **Permitir sincronizaciones en segundo plano**.
+8. Seleccione *De Shopify*, en el campo **Sincronizar elemento**.
+9. Habilite la opción de alternancia **Creación automática de artículos desconocidos**.
+10. Rellene el campo **Código de plantilla de artículos** con la plantilla adecuada.
+11. Seleccione *De Shopify*, en el campo **Sincronizar imágenes de elementos**.
+12. Seleccione *Todos los clientes* en **Importación de clientes de Shopify**.
+13. Habilite la opción de alternancia **Creación automática de clientes desconocidos**.
 
-#### <a name="run-the-synchronization"></a>Ejecutar la sincronización
+#### Ejecutar la sincronización
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego elija el enlace relacionado.
 2. Seleccione la tienda *DEMO2* para la que desea sincronizar datos para abrir la página **Tarjeta de tienda de Shopify**.
@@ -282,7 +278,7 @@ Configure la tienda de Shopify como se describe a continuación en los pasos sig
 4. Seleccione la acción **Sincronizar imágenes de productos**.
 5. Seleccione la acción **Sincronizar clientes**.
 
-### <a name="results"></a>Resultados
+### Resultados
 
 * Los productos de Shopify se importan. Para verificarlo, elija el icono ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de Shopify** y luego elija el enlace relacionado.
 * Se crean elementos con imágenes. Para verificarlo, elija el icono ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") y escriba **Producto** y luego elija el enlace relacionado.
@@ -290,6 +286,6 @@ Configure la tienda de Shopify como se describe a continuación en los pasos sig
 * Se crean clientes. Para verificarlo, elija el icono ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Comenzar con el conector Shopify](get-started.md)  

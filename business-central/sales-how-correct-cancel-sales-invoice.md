@@ -61,11 +61,9 @@ Si la cancelación está relacionada con un registro parcial de la factura, la l
     Un abono de venta se crea y se registra automáticamente para anular la factura de venta registrada inicial.
 5. Elija la acción **Mostrar abono correctivo** para ver el histórico de abonos de ventas que anula la factura de ventas registrada inicial.
 
-## Consultar la [formación de Microsoft](/training/modules/ship-invoice-items-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
-[Ccial](sales-manage-sales.md)  
+[Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
 [Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

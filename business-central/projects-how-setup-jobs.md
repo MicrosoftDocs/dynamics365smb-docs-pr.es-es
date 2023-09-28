@@ -3,7 +3,7 @@ title: 'Configurar proyectos, precios y grupos contables de proyectos'
 description: Describe cómo configurar información general sobre trabajos.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -81,29 +81,27 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos contables de proyectos**, y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos tal como se describe en la tabla siguiente.  
 
-| Campo Cuenta | Descripción |
-| --- | --- |
-| **Código** |Un identificador para el grupo contable. Puede escribir hasta 10 caracteres, incluso espacios. |
-| **Cuenta costes WIP** |Es la cuenta de trabajo en curso para el coste calculado de WIP del proyecto, y es una cuenta de activos de capital de balance. |
-| **Cta. costes acumulados trabajo en curso** |Una cuenta para el método Valor coste o Coste de ventas del cálculo de WIP. Esta cuenta es para pasivo de gastos acumulados en la hoja de balance. Cuando un ajuste de WIP requiere aumentar los costes de uso que se registran en el asiento de regularización, se registran en esta cuenta. |
-| **Cta. aplicada costes proyecto** |Es una cuenta de contrapartida de la cuenta de costes de trabajo en curso, que es complementaria de una cuenta de gastos negativa. |
-| **Cta. de costes liq. productos** |Es una cuenta de contrapartida de la cuenta de costes de trabajo en curso, que es complementaria de una cuenta de gastos negativa. |
-| **Cta. de costes liq. recursos** |Es una cuenta de contrapartida de la cuenta de costes de trabajo en curso, que es complementaria de una cuenta de gastos negativa. |
-| **Cta. de costes liq.** |Es una cuenta de contrapartida de la cuenta de costes de trabajo en curso, que es complementaria de una cuenta de gastos negativa. |
-| **Cta. ajuste costes proyecto** |Es la cuenta de contrapartida de la cuenta de costes de trabajo en curso, que es una cuenta de gastos. |
-| **Cta. gastos C/G (presupuesto)** |La cuenta de ventas que se utilizará con este grupo contable para los gastos de contabilidad de las tareas del proyecto. Si se deja en blanco, se usa la cuenta introducida en la línea de planificación del proyecto. |
-| **Cta. ventas acumuladas WIP** |Es la cuenta de trabajo en curso para el valor de ventas calculado de este trabajo, que es una cuenta de activos de capital del balance. Cuando un ajuste del trabajo en curso le exige un aumento de los ingresos reconocidos, se registran en esta cuenta. |
-| **Cta. ventas facturadas WIP** |Es la cuenta del valor de las ventas facturadas del trabajo en curso que no se puede reconocer. Es una cuenta de ingresos anticipados de balance. |
-| **Cuenta liq. ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas facturadas del trabajo en curso, que es una cuenta complementaria de ingresos. |
-| **Cuenta ajuste ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas del proyecto del trabajo en curso, que es una cuenta de ingresos. |
-| **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costes reconocidos del proyecto. Normalmente, es una cuenta de cargo. |
-| **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. |
-
-## Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
+| Campo Cuenta | Descripción | Utilizado en tipo WIP |
+| --- | --- |  --- |
+| **Código** |Un identificador para el grupo contable. Puede escribir hasta 10 caracteres, incluso espacios. | |
+| **Cuenta costes WIP** |Es la cuenta de trabajo en curso para el coste calculado de WIP del proyecto, y es una cuenta de activos de capital de balance. | Coste aplicado, Costes reconocidos|
+| **Cta. costes acumulados trabajo en curso** |Una cuenta para el método Valor coste o Coste de ventas del cálculo de WIP. Esta cuenta es para pasivo de gastos acumulados en la hoja de balance. Cuando un ajuste de WIP requiere aumentar los costes de uso que se registran en el asiento de regularización, se registran en esta cuenta. | Costes acumulados|
+| **Cta. aplicada costes proyecto** |Es una cuenta de contrapartida de la cuenta de costes de trabajo en curso, que es complementaria de una cuenta de gastos negativa. Se utiliza cuando **Método registro WIP usado** se establece en *Proyecto*. | Costes aplicados, Costes reconocidos|
+| **Cta. de costes liq. productos** |Igual que **Cta. aplicada costes proyecto**, pero se usa cuando **Método registro WIP usado** se establece en *Mov. proyecto*.| |
+| **Cta. de costes liq. recursos** |Igual que **Cta. aplicada costes proyecto**, pero se usa cuando **Método registro WIP usado** se establece en *Mov. proyecto*.| |
+| **Cta. de costes liq. contab.** |Igual que **Cta. aplicada costes proyecto**, pero se usa cuando **Método registro WIP usado** se establece en *Mov. proyecto*.| |
+| **Cta. ajuste costes proyecto** |Es la cuenta de contrapartida de la cuenta de costes de trabajo en curso, que es una cuenta de gastos. | Costes acumulados|
+| **Cta. gastos C/G (presupuesto)** |La cuenta de ventas que se utilizará con este grupo contable para los gastos de contabilidad de las tareas del proyecto. Si se deja en blanco, se usa la cuenta introducida en la línea de planificación del proyecto. | |
+| **Cta. ventas acumuladas WIP** |Es la cuenta de trabajo en curso para el valor de ventas calculado de este trabajo, que es una cuenta de activos de capital del balance. Cuando un ajuste del trabajo en curso le exige un aumento de los ingresos reconocidos, se registran en esta cuenta. | Ventas acumuladas, Ventas reconocidas|
+| **Cta. ventas facturadas WIP** |Es la cuenta del valor de las ventas facturadas del trabajo en curso que no se puede reconocer. Es una cuenta de ingresos anticipados de balance. | Ventas reconocidas, Ventas aplicadas|
+| **Cuenta liq. ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas facturadas del trabajo en curso, que es una cuenta complementaria de ingresos. | Ventas aplicadas, Ventas reconocidas|
+| **Cuenta ajuste ventas proy.** |Es la cuenta de contrapartida de la cuenta de ventas del proyecto del trabajo en curso, que es una cuenta de ingresos. | Ventas acumuladas|
+| **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costes reconocidos del proyecto. Normalmente, es una cuenta de cargo. | Costes reconocidos|
+| **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. | Ventas reconocidas|
 
 ## Consulte también .
 
-[Configuración de la administración de proyectos](projects-setup-projects.md)  
+[Configurar gestión del proyecto](projects-setup-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Administrar proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  

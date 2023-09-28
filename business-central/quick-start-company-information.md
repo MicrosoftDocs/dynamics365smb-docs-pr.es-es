@@ -27,8 +27,6 @@ Puede introducir todos los datos relevantes en la página **Información empresa
 
 Una vez que haya terminado de rellenar la información, puede cerrar la página.  
 
-## Consultar la [formación de Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) relacionada
-
 ## Consulte también .  
 
 [Resumen de la información de la empresa](admin-company-information.md)  

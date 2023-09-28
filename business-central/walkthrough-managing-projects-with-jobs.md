@@ -454,8 +454,6 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
  Este tutorial le ha llevado por algunos de los pasos básicos de trabajo con los proyectos en [!INCLUDE[prod_short](includes/prod_short.md)]. Ha aprendido acerca de cómo crear un trabajo nuevo, cómo copiar un trabajo y cómo administrar los pagos. Además, ha visto una demostración de cómo seguir las horas y crear las facturas.  
 
-## Consultar la [formación de Microsoft](/training/paths/create-jobs/) relacionada
-
 ## Consulte también .
 
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  

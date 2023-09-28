@@ -79,8 +79,6 @@ El código de auditoría seleccionado se copiará en las nuevas secciones de dia
 
 Al registrar la factura, el código de auditoría se copia en cada movimiento de contabilidad, cliente y proveedor. No puede asignar códigos de auditoría distintos a cada una de las líneas de venta y compra porque todas las líneas se registran como un solo movimiento.
 
-## Consultar la [formación de Microsoft](/training/paths/set-up-financial-management-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Finanzas](finance.md)  

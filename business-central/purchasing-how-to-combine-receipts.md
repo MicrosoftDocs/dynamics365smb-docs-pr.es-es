@@ -42,8 +42,6 @@ También puede eliminar los pedidos individuales manualmente.
 
 Repita las tareas 1 a 3 para cualquier otro documento asignado, como pedidos abiertos de compra.
 
-## Consultar la [formación de Microsoft](/training/modules/processing-invoices-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Compras](purchasing-manage-purchasing.md)  

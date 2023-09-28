@@ -234,8 +234,6 @@ Para ver un grupo de certificados, desde la página **Certificados de suministro
 > * Para crear manualmente un certificado de suministro  
 > * Para imprimir certificado de suministro.
 
-## Consultar la [formación de Microsoft](/training/paths/process-vat-dynamics-365-business-central/) relacionada
-
 ## Consulte también
 
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)  

@@ -40,12 +40,10 @@ La integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] i
 
 También puede crear informes visuales basándose en [!INCLUDE[prod_short](includes/prod_short.md)] utilizando la opción de tipo de archivo **Documento de Microsoft Excel (solo datos)** en las páginas de solicitud de informes. Obtenga más información en [Ejecutar e imprimir informes](ui-work-report.md).
 
-## Consulte la formación relacionada en [Microsoft Learn](/learn/paths/use-power-bi)
-
 ## Consulte también .
 
 [Análisis empresarial y Financial Reporting](bi.md)  
-[Inicio rápido de Business Central](quick-start-business-central.md)  
+[productos de inicio rápido de Business Central](quick-start-business-central.md)  
 [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

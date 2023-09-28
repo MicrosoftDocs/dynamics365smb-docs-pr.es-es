@@ -2,14 +2,12 @@
 title: Configurar el correo electrónico en Business Central (contiene vídeo)
 description: Describe cómo conectar cuentas de correo electrónico a Business Central para que pueda enviar mensajes salientes sin tener que abrir otra aplicación.
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Configurar correo electrónico
@@ -56,9 +54,11 @@ La siguiente tabla describe las extensiones de correo electrónico que están di
 Si desea utilizar el protocolo SMTP para enviar correos electrónicos desde [!INCLUDE[prod_short](includes/prod_short.md)], puede utilizar la extensión de Conector SMTP. Cuando configura una cuenta que utiliza SMTP, el **tipo de remitente** es un campo importante. Si elige **Usuario específico**, los correos electrónicos se enviarán con el nombre y otra información de la cuenta que está configurando. Sin embargo, si elige **Usuario actual**, los correos electrónicos se enviarán desde la cuenta de correo electrónico especificada para la cuenta de cada usuario. Usuario actual es parecido a la función Enviar como. Para más información, compruebe [Usar una dirección de remitente sustituta en los mensajes de correo electrónico salientes](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] local, puede usar el protocolo OAuth 2.0 para autenticación. Debe crear un registro de aplicación en Azure Portal y luego ejecutar la guía de configuración asistida **Configurar Azure Active Directory** en [!INCLUDE[prod_short](includes/prod_short.md)] para conectarse a Azure AD. Para obtener más información, consulte [Crear un registro de aplicación para Business Central en Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] local, puede usar el protocolo OAuth 2.0 para autenticación. Para utilizar OAuth para SMTP, todos los usuarios deben estar en el mismo inquilino de Microsoft Entra. 
+> 
+> Debe crear un registro de aplicación en Azure Portal y luego ejecutar la guía de configuración asistida **Configurar Azure Active Directory** en [!INCLUDE[prod_short](includes/prod_short.md)] para conectarse a Azure AD. Para obtener más información, consulte [Crear un registro de aplicación para Business Central en Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online está desaprobando el uso de la autenticación básica para SMPT. Los inquilinos que actualmente usan SMTP AUTH no se verán afectados por este cambio. Sin embargo, recomendamos enfáticamente usar la última versión de [!INCLUDE [prod_short](includes/prod_short.md)] y configurar la autenticación OAuth 2.0 para SMTP. No agregaremos autenticación basada en certificados para versiones anteriores de [!INCLUDE [prod_short](includes/prod_short.md)], por ejemplo, la versión 14. Si no puede configurar la autenticación OAuth 2.0, le recomendamos que explore alternativas de terceros si desea utilizar el correo electrónico SMTP en versiones anteriores.
+> Exchange Online está desaprobando el uso de la autenticación básica para SMTP. Los inquilinos que actualmente usan SMTP AUTH no se verán afectados por este cambio. Sin embargo, recomendamos enfáticamente usar la última versión de [!INCLUDE [prod_short](includes/prod_short.md)] y configurar la autenticación OAuth 2.0 para SMTP. No agregaremos autenticación basada en certificados para versiones anteriores de [!INCLUDE [prod_short](includes/prod_short.md)], por ejemplo, la versión 14. Si no puede configurar la autenticación OAuth 2.0, le recomendamos que explore alternativas de terceros si desea utilizar el correo electrónico SMTP en versiones anteriores.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -273,8 +273,6 @@ Después de registrar su aplicación en Azure Portal, en [!INCLUDE[prod_short](i
 18. The **Verify Registration** button becomes available. 
 
 -->
-
-## Consultar la [formación de Microsoft](/training/modules/set-up-email/) relacionada
 
 ## Consulte también
 

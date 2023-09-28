@@ -31,8 +31,6 @@ La oferta de compra se quita de la base de datos. Se crea una factura o un pedid
 > [!NOTE]
 > No es posible convertir una oferta de compra en una factura de compra directamente, como es posible con las ofertas de venta. Para obtener detalles sobre cómo crear una factura de compra, lea [Registrar compras con facturas de compra](purchasing-how-record-purchases.md).
 
-## Consulte la [formación de Microsoft](/training/modules/create-purchase-documents-dynamics-365-business-central/) relacionada.
-
 ## Consulte también .
 
 [Compras](purchasing-manage-purchasing.md)  
