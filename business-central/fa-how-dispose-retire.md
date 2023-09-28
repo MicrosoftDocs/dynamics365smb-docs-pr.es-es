@@ -11,7 +11,7 @@ ms.search.form: '5628, 5610, 5611, 5629, 5633'
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# Cancelar o retirar activos fijos
+# <a name="dispose-of-or-retire-fixed-assets"></a>Cancelar o retirar activos fijos
 
 En el momento de vender o dar de baja un activo, el valor de venta o baja debe registrarse para calcular y anotar las ganancias o las pérdidas. Un movimiento de venta o baja debe ser el último movimiento registrado de un activo. Puede registrar más de un movimiento de venta o baja en activos fijos que desea dar de baja parcialmente. El total de todos los importes de venta o baja registrados debe ser un abono.  
 
@@ -20,7 +20,7 @@ En el momento de vender o dar de baja un activo, el valor de venta o baja debe r
 
 Los siguientes pasos suponen que ya ha configurado los grupos contables relevantes en la página **Grupos registro A/F**. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 
-## Para registrar una venta/baja desde el diario general de activos fijos
+## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Para registrar una venta/baja desde el diario general de activos fijos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales de activos fijos** y luego elija el enlace relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ Los siguientes pasos suponen que ya ha configurado los grupos contables relevant
 
 Si vende o dispone de parte de un activo, debe dividir el activo antes de poder grabar la transacción de venta/baja. Para obtener más información, consulte [Transferir, dividir o combinar activos fijos](fa-how-trans-split-combine.md).  
 
-## Para ver movimientos venta/baja
+## <a name="to-view-disposal-ledger-entries"></a>Para ver movimientos venta/baja
 
 En el momento de vender o dar de baja un activo, el valor de venta o baja se registra en las cuentas contables en las que puede ver el resultado.  
 
@@ -45,7 +45,7 @@ En el momento de vender o dar de baja un activo, el valor de venta o baja se reg
 
 La página **Movs. contabilidad** se abre y puede ver los movimientos que se produjeron al registrar la venta/baja.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Activos fijos](fa-manage.md)  
 [Configuración de activos fijos](fa-setup.md)  
