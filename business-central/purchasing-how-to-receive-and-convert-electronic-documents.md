@@ -11,7 +11,7 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
+# Recibir y convertir documentos electrónicos
 
 La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite la recepción de facturas electrónicas y abonos en formato PEPPOL, admitido por los proveedores de servicios de intercambio de documentos más importantes. Para recibir una factura de un proveedor como un documento electrónico PEPPOL, debe procesarse el documento en la página Documentos entrantes para luego convertirlo en una factura de compra o en una línea de diario general en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -34,7 +34,7 @@ Puede iniciar la conversión de documentos electrónicos manualmente, tal como s
 
 El procedimiento siguiente describe cómo recibir una factura de proveedor y convertirla en una factura de compra en [!INCLUDE[prod_short](includes/prod_short.md)]. El procedimiento es el mismo cuando se convierte una factura de proveedor en una línea de diario general.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Para recibir y convertir una factura electrónica en una factura de compra
+### Para recibir y convertir una factura electrónica en una factura de compra
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.  
 
@@ -52,7 +52,7 @@ El procedimiento siguiente describe cómo recibir una factura de proveedor y con
 
     Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[prod_short](includes/prod_short.md)], se mostrarán en la ficha desplegable **Mensajes de error**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar pagos](payables-manage-payables.md)  
 [Documentos entrantes](across-income-documents.md)  

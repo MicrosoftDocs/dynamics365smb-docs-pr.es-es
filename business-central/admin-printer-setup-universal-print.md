@@ -10,7 +10,9 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-universal-print-printers"></a>Configurar impresoras de Impresión universal
+# Configurar impresoras de Impresión universal
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Impresión universal es un servicio basado en suscripción de Microsoft 365 que se ejecuta completamente en Microsoft Azure. Le brinda una administración centralizada de la impresora a través del portal de Impresión universal. [!INCLUDE[prod_short](includes/prod_short.md)] hace que las impresoras configuradas en Impresión universal estén disponibles para los usuarios cliente a través de la extensión **Integración de Impresión universal**.
 
@@ -21,7 +23,7 @@ La configuración completa requiere que trabaje en Microsoft Azure, usando [Azur
 1. En Microsoft Azure, configure Universal Print y agregue las impresoras que desea usar en Business Central a un recurso compartido de impresión. Vaya a [esta sección](#set-up-universal-print-and-printers-in-microsoft-azure)
 2. En [!INCLUDE[prod_short](includes/prod_short.md)], agregue las impresoras de los recursos compartidos de impresión en Universal Print. Vaya a [esta sección](#add-printers-in-business-central-online) para obtener información en línea o [aquí](#add-printers-in-business-central-on-premises) para obtener información local.
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos
 
 - Impresoras compatibles
 
@@ -35,7 +37,7 @@ La configuración completa requiere que trabaje en Microsoft Azure, usando [Azur
 
   - Tiene los roles **Administrador de impresoras** (o Gestor de impresoras) **Administrador global** en Azure.
 
-    Para administrar Impresión universal, su cuenta debe tener los roles **Administrador de impresoras** y **Administrador global** en Azure AD. Estos roles solo son necesarios para administrar Impresión universal. No son necearios para personas que configuren las impresoras desde [!INCLUDE[prod_short](includes/prod_short.md)].
+    Para administrar Impresión universal, su cuenta debe tener los roles **Administrador de impresoras** y **Administrador global** en Microsoft Entra ID. Estos roles solo son necesarios para administrar Impresión universal. No son necearios para personas que configuren las impresoras desde [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] online y local:
 
@@ -44,18 +46,18 @@ La configuración completa requiere que trabaje en Microsoft Azure, usando [Azur
 
     Esta extensión se publica e instala de forma predeterminada como parte de [!INCLUDE[prod_short](includes/prod_short.md)] Online y local. Puede verificar si se está instalado en la página **Administración de extensiones**. Más información sobre [Instalar y desinstalar extensiones en Business Central](ui-extensions-install-uninstall.md).
 - [!INCLUDE[prod_short](includes/prod_short.md)] solo local:
-  - La autenticación de Azure Active Directory (AD) o NavUserPassword está configurada.
+  - La autenticación de Microsoft Entra ID o NavUserPassword está configurada.
     > [!NOTE]
     >  La extensión Universal Print no admite la autenticación de servicio a servicio (S2S). Requiere un usuario que haya iniciado sesión para enviar trabajos de impresión al servicio Universal Print a través de Graph API.
-  - Una aplicación para Business Central está registrada en su suscriptor de Azure AD y [!INCLUDE[prod_short](includes/prod_short.md)].
+  - Una aplicación para Business Central está registrada en su suscriptor de Microsoft Entra y [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    Como otros servicios de Azure que funcionan con [!INCLUDE[prod_short](includes/prod_short.md)], Impresión universal requiere un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en Azure AD. El registro de la aplicación proporciona servicios de autenticación y autorización entre [!INCLUDE[prod_short](includes/prod_short.md)] y Impresión universal.
+    Como otros servicios de Azure que funcionan con [!INCLUDE[prod_short](includes/prod_short.md)], Impresión universal requiere un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en Microsoft Entra ID. El registro de la aplicación proporciona servicios de autenticación y autorización entre [!INCLUDE[prod_short](includes/prod_short.md)] y Impresión universal.
 
     Es posible que su implementación ya esté usando un registro de aplicación para otros servicios de Azure, como Power BI. Si es así, use también el registro de la aplicación existente para Impresión universal, en lugar de agregar uno nuevo. En este caso, lo único que tendrá que hacer es modificar el registro de la aplicación para incluir los permisos de impresión pertinentes para Microsoft Graph API: **PrinterShare.ReadBasic.All**, **PrintJob.Create** y **PrintJob.ReadBasic.** 
 
-    Para registrar una aplicación y establecer los permisos adecuados, siga los pasos descritos en [Registrar una aplicación en Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+    Para registrar una aplicación y establecer los permisos adecuados, siga los pasos descritos en [Registrar una aplicación en Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
-## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Configurar Impresión universal e impresoras en Microsoft Azure
+## Configurar Impresión universal e impresoras en Microsoft Azure
 
 Antes de que pueda empezar a administrar las impresoras de Impresión universal en Business Central, hay varias tareas para que Impresión universal funcione en Azure con las impresoras que desea usar.
 
@@ -69,9 +71,9 @@ Para obtener instrucciones detalladas sobre cómo realizar la configuración, co
 
       Para obtener más información, consulte [Ayuda del Centro de administración de Microsoft: asigne licencias a los usuarios](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-    - Con [!INCLUDE[prod_short](includes/prod_short.md)] local, asigna licencias en su suscriptor de Azure mediante Azure Portal.
+    - Con [!INCLUDE[prod_short](includes/prod_short.md)] local, asigna licencias en su suscriptor mediante Azure Portal.
 
-      Para obtener más información, consulte [Azure Directory: asigne o elimine licencias en el portal de Azure Active Directory](/azure/active-directory/fundamentals/license-users-groups).
+      Para obtener más información, consulte [Asigne o elimine licencias en Azure Portal](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Instale el conector de Impresión universal para registrar impresoras que no puedan comunicarse directamente con Impresión universal.
 
@@ -108,7 +110,7 @@ Para obtener instrucciones detalladas sobre cómo realizar la configuración, co
 
 Ahora, está listo para agregar las impresoras a [!INCLUDE[prod_short](includes/prod_short.md)], configurar impresoras predeterminadas para informes e imprimir.  
 
-## <a name="add-printers-in-business-central-online"></a>Agregar impresoras en Business Central Online
+## Agregar impresoras en Business Central Online
 
 Una vez configuradas y compartidas las impresoras en Impresión universal, estará listo para agregarlas a [!INCLUDE[prod_short](includes/prod_short.md)] para su uso. Hay dos formas de agregar impresoras de Impresión universal. Puede agregar las impresoras todas a la vez o individualmente, una a una.
 
@@ -131,7 +133,7 @@ Agregar impresoras individualmente le permite configurar la misma impresora de I
 
 Una vez que se ha agregado una impresora, puede ver y cambiar su configuración desde la página **Administración de impresoras**. Simplemente seleccione la impresora y, a continuación, elija **Editar configuración de impresora**.
 
-## <a name="add-printers-in-business-central-on-premises"></a>Agregar impresoras en Business Central local
+## Agregar impresoras en Business Central local
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -147,17 +149,17 @@ Por lo general, esto se hace la primera vez que se conectan a la aplicación reg
 > Si es administrador, le recomendamos que complete esta tarea antes que otros usuarios. Luego, informe a los usuarios que necesitarán usar impresoras Universal Print cómo hacerlo. Si la aplicación registrada de Azure para Universal Print requiere el consentimiento del administrador para los permisos de API, es más fácil si otorga el consentimiento en nombre de la organización. Puede otorgar el consentimiento del administrador desde Azure Portal o cuando ejecuta los pasos que se indican a continuación. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### <a name="connect-to-universal-print-for-the-first-time"></a>Conéctese a Universal Print por primera vez
+### Conéctese a Universal Print por primera vez
 
 Complete estos pasos para conectarse al servicio Universal Print por primera vez.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Administración de impresoras** y, a continuación, elija el vínculo relacionado.
 2. Seleccione **Impresión universal** > **Agregar todas las impresoras de impresión universal** para iniciar la guía de configuración asistida (asistente) **Agregar impresoras de impresión universal**.
-3. Siga las instrucciones en pantalla hasta llegar a la página PERMISOS DEL SERVICIO AZURE ACTIVE DIRECTORY.
+3. Siga las instrucciones en pantalla hasta llegar a la página **PERMISOS DEL SERVICIO MICROSOFT ENTRA**.
 
-    <!--The AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Azure AD setup, checking your Universal Print license, and then adding the printers.-->
+    <!--The MICROSOFT ENTRA SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Microsoft Entra ID setup, checking your Universal Print license, and then adding the printers.-->
 
-   ![Muestra la página PERMISOS DE SERVICIO DE AZURE ACTIVE DIRECTORY](media/azure-ad-services-permissions.png "Muestra la página PERMISOS DE SERVICIO DE AZURE ACTIVE DIRECTORY")
+   ![Muestra la página PERMISOS DEL SERVICIO MICROSOFT ENTRA](media/azure-ad-services-permissions.png "Muestra la página PERMISOS DEL SERVICIO MICROSOFT ENTRA")
 
 4. Seleccione el enlace **Autorizar servicios de Azure**.
 
@@ -173,11 +175,11 @@ Una vez que se ha agregado una impresora, puede ver y cambiar su configuración 
 
 Una vez que complete el inicio de sesión inicial, puede usar las impresoras Universal Print para imprimir informes y otros trabajos de impresión. Para más información, vaya a [Imprimir un informe](ui-work-report.md#PrintReport). Si desea agregar, quitar o cambiar cualquier impresora, simplemente regrese a la página **Administración de impresión** y seleccione **Impresión universal**.
 
-## <a name="common-problems-and-resolutions"></a>Problemas comunes y sus soluciones
+## Problemas comunes y sus soluciones
 
 En esta sección, aprenderá acerca de los problemas comunes que los usuarios pueden experimentar cuando intentan configurar o usar impresoras Universal Print.
 
-### <a name="you-dont-have-access-to-the-printer-your-printer"></a>No tiene acceso a la impresora \<your-printer\>.
+### No tiene acceso a la impresora \<your-printer\>.
 
 Si un usuario recibe este mensaje cuando intenta imprimir un documento en una impresora Universal Print, puede deberse a una de las siguientes condiciones:
 
@@ -186,17 +188,17 @@ Si un usuario recibe este mensaje cuando intenta imprimir un documento en una im
 - (Local) El registro de la aplicación de Azure que se usa para Universal Print no funciona o ha cambiado recientemente desde la última vez que el usuario inició sesión.
 - (Local) El usuario aún no ha iniciado sesión en la aplicación registrada de Azure para la aplicación Universal Printer y ha dado su consentimiento por primera vez.
 
-## <a name="there-was-an-error-fetching-printers-shared-to-you"></a>Se produjo un error al capturar las impresoras compartidas con usted.
+## Se produjo un error al capturar las impresoras compartidas con usted.
 
 Si un usuario recibe este mensaje cuando intenta agregar una impresora Universal Print desde la página **Administración de impresoras**, generalmente se debe a que aún no ha iniciado sesión en la aplicación registrada de Azure para Universal. Aplicación de impresora y consentida por primera vez. 
 <!--
-### <a name="troubleshooting"></a>Troubleshooting
+### Troubleshooting
 
-#### <a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
+#### You don't see the a printer in the 
 
 The printer is not shared in Universal Print.
 
-### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
+### You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -204,7 +206,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## <a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
+## Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -213,10 +215,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## <a name="next-steps"></a>Pasos siguientes
+## Pasos siguientes
 [Configurar impresoras predeterminadas](ui-specify-printer-selection-reports.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general de las impresoras](admin-printer-setup-overview.md)  
 [Configurar impresoras de correo electrónico](admin-printer-setup-email.md)

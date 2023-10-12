@@ -4,12 +4,12 @@ metadata:
   description: Consulte las respuestas a las preguntas frecuentes sobre el uso de Business Central en su teléfono o tableta.
   author: brentholtorf
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.service: dynamics365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 10/25/2021
+  ms.date: 09/21/2023
   ms.author: bholtorf
+  ms.reviewer: jswymer
+  ms.custom: bap-template
 title: P+F sobre aplicaciones móviles
 summary: |
   Este artículo responde las preguntas que nuestros usuarios avanzados suelen hacer sobre las aplicaciones móviles para [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -38,7 +38,7 @@ sections:
           | Acciones en la barra de acciones | Solo se muestran las acciones promocionadas. | Solo se muestran las acciones promocionadas. |  |
           | Cuadros informativos | No se muestra en las páginas de la lista ni en las hojas de trabajo. | No se muestra en las páginas de la lista ni en las hojas de trabajo. | Lista `Customer` en el área de trabjao `Small Business`. |
           | Filtros avanzados | No está disponible ningún filtrado específico de columna. | No está disponible ningún filtrado específico de columna. | Sobre la página de lista `Customer`. |
-          | Dígame | No disponible todavía. | No disponible todavía. | Vea [Búsqueda de páginas e información con Dígame](ui-search.md). |  |
+          | Dígame | Debe estar habilitado en [Gestión de funciones](/dynamics365/business-central/dev-itpro/administration/feature-management) utilizando el interruptor **Característica: busque páginas y datos en la aplicación móvil**. La sección **Obtener desde Microsoft AppSource** en los resultados de aplicaciones no está disponible. | Igual que las tabletas | Vea [Búsqueda de páginas e información con Dígame](ui-search.md). |  |
           | Explorador de roles | No disponible todavía. | No disponible todavía. | Vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md). |
           | Campos de fichas desplegables | No se muestran los campos en FastTabs en las páginas de lista. Solo el control del repetidor se muestra en el área de contenido de la página. | No disponible. |  |
           | Seleccionar de la lista completa | No disponible en búsquedas. Los usuarios no pueden ejecutar acciones en una página de búsqueda y no pueden acceder al conjunto completo de registros. | No disponible en búsquedas. Los usuarios no pueden ejecutar acciones en una página de búsqueda y no pueden acceder al conjunto completo de registros. | En `Item Card` al seleccionar **Unidades de medida base**. |
@@ -61,7 +61,7 @@ sections:
       - question: |
           ¿Puede un usuario invitado utilizar la aplicación para acceder a nuestra solución Business Central?
         answer: |
-          Nº Los usuarios invitados son usuarios invitados de inquilinos diferentes de Azure Active Directory del suyo. En este caso, la aplicación se autenticará en el inquilino Azure AD principal del usuario invitado e intentará abrir el punto final de Business Central en ese inquilino en lugar del suyo.  
+          N.º Los usuarios invitados son usuarios invitados de inquilinos diferentes de Microsoft Entra del suyo. En este caso, la aplicación se autenticará en el inquilino Microsoft Entra principal del usuario invitado e intentará abrir el punto final de Business Central en ese inquilino en lugar del suyo.  
 additionalContent: |
 
   ## Consulte también .

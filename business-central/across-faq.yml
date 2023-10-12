@@ -65,7 +65,7 @@ sections:
       - question: |
           ¿Dónde encuentro ese número de línea?
         answer: |
-          Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prod_short](includes/prod_short.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el **número de línea**. . Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prod_short](includes/prod_short.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el **número de línea**. . Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           ¿Por qué la Ayuda describe una funcionalidad a la que no puedo acceder?
         answer: |
@@ -90,7 +90,7 @@ sections:
 
           Si se registra con una cuenta de trabajo que no es de Microsoft 365 (como joe@mysolution.com) y tiene una suscripción a Microsoft 365, entonces puede asociar su dominio (*mysolution.com*) con la suscripción de Microsoft 365. Obtenga más información en [¿Qué es un dominio?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) en el contenido de Microsoft 365.  
 
-          Si no tiene una suscripción a Microsoft 365 y no desea adquirir una, entonces, le proporcionamos un nuevo suscriptor de Azure Active Directory cuando se registre para que tenga acceso a las herramientas avanzadas de administración en el portal de Azure.  
+          Si no tiene una suscripción a Microsoft 365 y no desea adquirir una, entonces, le proporcionamos un nuevo suscriptor de Microsoft Entra cuando se registre para que tenga acceso a las herramientas avanzadas de administración en el portal de Azure.  
       - question: |
           ¿De qué trata la integración con Microsoft 365?
         answer: |

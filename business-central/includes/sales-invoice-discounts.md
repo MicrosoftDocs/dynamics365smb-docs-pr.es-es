@@ -9,7 +9,7 @@ Cuando haya agregado todos los productos en las líneas, podrá calcular el desc
 El descuento se calcula sobre la base de todas las líneas del documento de venta en las que se ha seleccionado la casilla de verificación **Permitir dto. factura**. De forma predeterminada, se permiten descuentos en facturas. Sin embargo, las líneas con cargos de producto, por ejemplo, no se incluyen en el cálculo del descuento de factura. Para aplicar un descuento a dichas líneas, introduzca un valor en el campo **Importe dto. línea** de las líneas.  
 
 > [!NOTE]
-> De forma predeterminada, los campos **Permitir dto. factura** y **Importe dto. línea** están ocultos en las líneas. Si los campos no están disponibles, puede agregarlos personalizando la página. Para obtener más información, consulte [Personalizar el área de trabajo](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> De forma predeterminada, los campos **Permitir dto. factura** y **Importe dto. línea** están ocultos en las líneas. Si los campos no están disponibles, puede agregarlos personalizando la página. Para obtener más información, consulte [Personalizar el área de trabajo](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
 > Si se selecciona el campo **Calc. dto. factura** en la página **Conf. ventas y cobros**, el descuento en factura se calculará automáticamente. El momento en que se produce el cálculo difiere, según el tipo de documento de venta que se use.

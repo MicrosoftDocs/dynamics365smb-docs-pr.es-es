@@ -2,12 +2,12 @@
 title: Análisis de datos ad hoc
 description: Proporciona información general de todas las funciones que admiten tareas de análisis de datos ad hoc en el producto Business Central.
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.search.keywords: feature overview
 ms.date: 03/31/2023
 ms.author: jswymer
 ---
-# <a name="ad-hoc-data-analysis"></a>Análisis de datos ad hoc
+# Análisis de datos ad hoc
 
 En ocasiones necesita analizar datos de [!INCLUDE[prod_short](includes/prod_short.md)] de una manera que no está disponible en un informe estándar. Esta tarea a veces se denomina "análisis ad hoc". A continuación hay enlaces para ayudarlo a realizarla.
 
@@ -19,7 +19,7 @@ En ocasiones necesita analizar datos de [!INCLUDE[prod_short](includes/prod_shor
 | Vea y analice los datos financieros utilizando informes financieros | [Análisis financiero](bi.md) |
 | Analizar lista de datos directamente de una página |[Analizar datos en lista usando el modo de análisis de datos](analysis-mode.md)|
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Descripción general de Inteligencia empresarial e informes](ui-work-report.md)
 

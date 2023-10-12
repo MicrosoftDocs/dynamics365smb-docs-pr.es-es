@@ -4,16 +4,16 @@ description: Una hoja de referencia fácil de imprimir que contiene los métodos
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 02/09/2023
+ms.date: 09/11/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Referencia rápida de teclado: solo PC
+# Referencia rápida de teclado: solo PC
 
-#### <a name="general"></a>General
+#### General
 
 |Seleccione estas teclas|Para hacer esto|  
 |-|-|
@@ -26,6 +26,7 @@ ms.custom: bap-template
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Abrir **Buscar movimientos**|
 |<kbd>Alt</kbd>+<kbd>Arriba</kbd>|Abrir la información sobre herramientas o el error de validación|
 |<kbd>Alt</kbd>+<kbd>Flecha abajo</kbd>|Abrir un menú desplegable o buscar|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd><kbd>Flecha abajo</kbd>|Abra la tarjeta de un registro relacionado o la página de lista filtrada según el valor en el campo de búsqueda o asistencia a edición|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Abrir la página **Mi configuración**|
 |<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>W</kbd>|Abrir la ficha o documento actual en una nueva ventana|
 |<kbd>Ctrl</kbd>+<kbd>Insertar</kbd>|Insertar una nueva línea en un documento|
@@ -39,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Tabulador</kbd>/<kbd>Mayús</kbd>+<kbd>Tabulador</kbd>|Desplazar el enfoque al elemento siguiente/anterior|
 |<kbd>F6</kbd>/<kbd>Mayús</kbd>+<kbd>F6</kbd>|Desplazarse a la siguiente ficha desplegable/parte|
 
-#### <a name="navigate--select-rows"></a>Desplazarse y seleccionar filas
+#### Desplazarse y seleccionar filas
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
@@ -53,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Mayús</kbd>+<kbd>Re. pág</kbd>/<kbd>Abajo</kbd>|Seleccionar filas visibles arriba/abajo|
 |<kbd>Ctrl</kbd>+<kbd>Entrar</kbd>|Centrarse en la lista|
 
-#### <a name="copy--paste"></a>Copiar y pegar
+#### Copiar y pegar
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copiar/pegar filas|
 |<kbd>F8</kbd>|Copiar campo de arriba a la fila actual|
 
-#### <a name="search-filter--sort"></a>Buscar, filtrar y ordenar
+#### Buscar, filtrar y ordenar
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
@@ -71,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Mayús</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Agregar un filtro en el campo seleccionado|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>F3</kbd>|Restablecer filtros|
 
-#### <a name="quick-entry"></a>Entrada rápida
+#### Entrada rápida
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Mayús</kbd>+<kbd>Entrar</kbd>|Ir al siguiente campo de entrada rápida fuera de una lista|
 |<kbd>Entrar</kbd>/<kbd>Mayús</kbd>+<kbd>Entrar</kbd>|Ir al campo de entrada rápida siguiente/anterior|
 
-##### <a name="report-preview"></a>Vista preliminar de un informe
+##### Vista preliminar de un informe
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Inicio</kbd>/<kbd>Fin</kbd>|Ir a la primera/última página|
 
-#### <a name="numeric-keypad"></a>Teclado numérico
+#### Teclado numérico
 
 |Seleccione estas teclas|Para hacer esto|  
 |-|-|

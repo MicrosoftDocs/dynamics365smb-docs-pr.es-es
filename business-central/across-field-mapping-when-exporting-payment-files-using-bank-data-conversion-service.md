@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Asignación de campos al exportar archivos de pago utilizando la extensión AMC Banking 365 Fundamentals
+# Asignación de campos al exportar archivos de pago utilizando la extensión AMC Banking 365 Fundamentals
 Cuando exporta archivos de pago utilizando la extensión AMC Banking 365 Fundamentals, los datos que exporta se exponen al proveedor de servicios. El proveedor del servicio es responsable de la privacidad de estos datos. Para obtener más información sobre la extensión AMC Banking 365 Fundamentals, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -63,7 +63,7 @@ La siguiente tabla enumera los campos en [!INCLUDE[prod_short](includes/prod_sho
 |Nombre sección diario general|Nombre sección diario|Línea diario general|El nombre de la sección de diario general que se usa para la línea de pago|  
 |Nombre del banco del remitente - Conv. de datos|Nombre del banco - Conv. de datos|Cuenta bancaria|El nombre de la cuenta bancaria del emisor solicitado por la extensión AMC Banking 365 Fundamentals y especificado en la ficha de la cuenta bancaria|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)
 [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   

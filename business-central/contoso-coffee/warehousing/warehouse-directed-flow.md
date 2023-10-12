@@ -1,6 +1,6 @@
 ---
 title: 'Recepción, ubicación, movimiento, selección y envío en configuración avanzada de almacén con selección y almacenamiento dirigidos'
-description: 'En Business Central, los procesos de entrada y salida se pueden realizar de maneras diferentes, en función del nivel de complejidad del almacén.'
+description: 'Los procesos de entrada y salida se pueden realizar de maneras diferentes, en función del nivel de complejidad del almacén.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Tutorial del flujo de entrada y salida en Configuración avanzada de almacén con ubicación y selección dirigidas
+# Tutorial del flujo de entrada y salida en Configuración avanzada de almacén con ubicación y selección dirigidas
 
 Este tutorial muestra cómo completar los flujos entrantes y salientes en la configuración avanzada: almacenamiento y selección dirigidos. Para obtener más información, consulte [Resumen de las diferentes opciones de configuración](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos  
 Para completar este tutorial, deberá convertirse en empleado de almacén en el almacén *BLANCO*, siguiendo estos pasos:  
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2. Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
@@ -24,25 +24,25 @@ Para completar este tutorial, deberá convertirse en empleado de almacén en el 
 4. Habilite la opción **Predeterminado**.
 
 
-## <a name="scenario"></a>Escenario
+## Escenario  
 Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tránsito y de reabastecimiento de contenedores para acelerar el tiempo de recepción y envío.  
 
-## <a name="steps"></a>Pasos
+## Pasos
 
 1. Cree un envío de almacén.  
 
     1. Elija el icono ![Bombilla que abre la característica Dígame 2.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
-    2. Seleccione el pedido del cliente 10000 para la ubicación BLANCA. El n.º de pedido externo es *W-1*. Utilice las herramientas de personalización si el campo **N.º de pedido externo** no es visible. Para obtener más información, consulte [Personalizar el área de trabajo](../../ui-personalization-user.md).
+    2. Seleccione el pedido del cliente 10000 para la ubicación BLANCA. El n.º de pedido externo es *W-1*.
     3. Elija la acción **Crear envío de almacén** para crear un envío de almacén para el documento de venta seleccionado.
-    4.  Elija la acción **Liberar** para notificar al almacén que el pedido de venta está preparado para la manipulación en el almacén.  
+    4. Elija la acción **Liberar** para notificar al almacén que el pedido de venta está preparado para la manipulación en el almacén.  
 
 2. Definir ubicaciones para el producto a controlar dónde se almacena 
 
     1.  Elija el icono ![Bombilla que abre la característica Dígame 3.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
     2.  Seleccione el *WRB-1000* y, a continuación, seleccione la acción **Contenido de ubicación**.  
-    3.  Seleccione la acción **Nuevo**. Agregue dos líneas. Utilice las herramientas de personalización si el campo **Código de ubicación** no está visible. Para obtener más información, consulte [Personalizar el área de trabajo](../../ui-personalization-user.md). 
+    3.  Seleccione la acción **Nuevo**. Agregue dos líneas.
     
-    |Producto|Cód. almacén|Cód. ubicación|Fijo|Unidad medida|
+    |Artículo|Cód. almacén|Cód. ubicación|Corregido|Unidad de medida|
     |----------|----------|---------|---|------|  
     |WRB-1000|BLANCO|W-05-0001|Sí|CESTA|  
     |WRB-1000|BLANCO|W-05-0002|Sí|CESTA|
@@ -136,7 +136,7 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
     4. Confirme la opción **Enviar**.
 
 
-## <a name="results"></a>Resultados
+## Resultados
 - se crea **Recepción de almacén contabilizada**
 - se crea **Almacenamiento de almacén registrado**    
 - se crea **Recepción de compra contabilizada**    
@@ -150,7 +150,7 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
 
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Recibir productos](../../warehouse-how-receive-items.md) 
 [Detalles de diseño: Flujo de almacén entrante](../../design-details-inbound-warehouse-flow.md) 
 [Enviar productos](../../warehouse-how-ship-items.md) 

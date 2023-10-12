@@ -11,7 +11,7 @@ ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="managing-payables"></a>Administración de pagos
+# Administración de pagos
 
 Una gran parte de la gestión de cuentas por pagar es pagar a sus proveedores, o reembolsar los gastos a sus empleados. Puede usar funciones para agregar líneas de pagos de facturas de compra pendientes en la página **Diario de pagos**. Para enviar transacciones a su banco, puede exportar varias líneas de diario de pagos a un archivo y, a continuación, cargar el archivo a su banco. También puede efectuar pagos por cheque, incluida la transmisión de cheques como pagos electrónicos.
 
@@ -29,7 +29,7 @@ En la tabla siguiente se muestra una secuencia de tareas de cuentas por pagar, c
 |Asegúrese de la valoración de inventario correcta mediante la asignación de costes de producto, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar.|[Usar los cargos de producto a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)|
 |Reembolse a los empleados por gastos personales durante las actividades comerciales mediante el pago a su cuenta bancaria.|[Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Usar los cargos de productos a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)  

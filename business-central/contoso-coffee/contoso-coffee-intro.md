@@ -1,66 +1,48 @@
 ---
 title: Introducción a datos de demostración de Contoso Coffee
 description: Descripción general de escenarios sobre cómo los datos de demostración de Contoso Coffee pueden ayudarle a aprender a usar las capacidades de Business Central.
-ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4760
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.date: 09/20/2023
+ms.topic: article
+ms.service: dynamics365-business-central
+ms.search.form: '5194,'
+ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introducción a datos de demostración de Contoso Coffee
+# Introducción a datos de demostración de Contoso Coffee
 
-Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para Business Central agregan datos de demostración que puede usar para aprender a usar las capacidades de Business Central.  
+Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para [!INCLUDE [prod_short](../includes/prod_short.md)] agregan datos de demostración que puede usar para aprender a usar las capacidades de [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
+## Configurar datos de Contoso Coffee
 
-## <a name="set-up-contoso-coffee-data"></a>Configurar datos de Contoso Coffee
+[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
-Para usar los datos de demostración de Contoso Coffee, debe instalar dos aplicaciones en la empresa correspondiente en [!INCLUDE [prod_short](../includes/prod_short.md)]:  
+Cuando las aplicaciones estén instaladas, en la página **Herramienta de demostración de Contoso**, use la acción **Configurar** para preparar los siguientes módulos. Puede optar por instalar todos los datos disponibles, que incluyen datos de configuración y producción, o solo datos de configuración.
 
-- **Conjunto de datos de demostración de Contoso Coffee**  
+ - El **Módulo Común** para preparar la configuración general que requiere [!INCLUDE [prod_short](../includes/prod_short.md)]. Por ejemplo, cosas como series numéricas. 
 
-    Esta aplicación ofrece datos de demostración para la aplicación base.  
-- **Conjunto de datos de demostración de Contoso Coffee (ID de país)**  
+En la siguiente tabla se describen las configuraciones:  
 
-    Esta aplicación agrega contenido específico del país sobre la aplicación base.
+|Campo  |Descripción  |
+|---------|---------|
+|**Año inicial** |Especifica el primer año en el que desea usar los datos de demostración de Contoso Coffee. Según la configuración de la empresa, el año es un año natural o un año fiscal.|
+|**Código de país o región**|Especifica un código de país o región para clientes y proveedores nacionales.|
+|**Tipo de empresa**    |Especifica si la empresa actual debe declarar el IVA o el impuesto de venta. |
+|**Factor precio**     |Especifica un factor para convertir un precio de USD/EUR a la divisa local. *1* significa que el precio es la misma cantidad en cualquier divisa. Se utilizará un número mayor para obtener el precio en la divisa local. |
+|**Precisión de redondeo**  |Especifica la Precisión de redondeo con la que desea crear los datos de demostración.|
 
-Agregue las aplicaciones a una empresa vacía en una suscripción pagada o como parte de una prueba. Por ejemplo, cree una nueva empresa sin datos de muestra de la guía de configuración asistida **Crear nueva empresa** que puede abrir desde la lista **Empresas**. A continuación, agregue las aplicaciones del [mercado](../ui-extensions-install-uninstall.md#install) en caso de que no se indiquen en la página **Administración de extensiones**.  
+ - El [Módulo de fabricación](manufacturing/contoso-coffee-manufacturing-intro.md) para preparar los [Escenarios de fabricación](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
+ - El [Módulo de almacenamiento](warehousing/contoso-coffee-warehousing-intro.md) para preparar el uso de los [Escenarios de almacenamiento](warehousing/contoso-coffee-warehousing-intro.md#scenarios).
+ - El [Módulo de servicio](service/contoso-coffee-service-intro.md) para preparar el uso de los [Escenarios de servicio](service/contoso-coffee-service-intro.md#scenarios).
 
-A continuación, debe completar:
- - La [Configuración de fabricación](manufacturing/contoso-coffee-manufacturing-intro.md) para preparar el uso de los [Escenarios de fabricación](#manufacturing-scenarios)
- - La [Configuración de almacenamiento](warehousing/contoso-coffee-warehousing-intro.md) para preparar el uso de los [Escenarios de almacenamiento](#warehousing-scenarios)
+Después de configurar los módulos que desea probar, elija la acción **Generar** para crear datos de demostración para ellos.
 
-## <a name="manufacturing-scenarios"></a>Escenarios de Fabricación
-
-Los datos de demostración de Contoso Coffee admiten actualmente los siguientes escenarios de fabricación para pruebas y entrenamiento:
-
-1. [Crear una nueva L.M. de producción y una versión de L.M.](manufacturing/create-new-production-bom-version.md)  
-2. [Crear una nueva ruta](manufacturing/create-new-routing.md)  
-3. [Crear una nueva orden de producción planificada en firme y cambiarla](manufacturing/create-firm-planned-production-order-change.md)  
-4. [Combinar la baja automática y la manual](manufacturing/combine-automatic-manual-flushing.md)  
-5. [Utilice la planificación de pedidos para crear y reservar suministros](manufacturing/order-planning-create-reserve-supply.md)  
-6. [Configurar y procesar una operación de subcontratación](manufacturing/set-up-process-subcontracting-operation.md)  
-7. [Configurar nueva capacidad](manufacturing/set-up-new-capacity.md)  
-8. [Previsión de la demanda de variantes de producto con diferentes L.M. asignadas](manufacturing/variants.md)  
-
-Lea los pasos para cada escenario en el artículo correspondiente.  
-
-> [!IMPORTANT]
-> Los tutoriales de fabricación requieren que la experiencia del usuario esté establecida en *Premium* en la página **Información empresa**.
-
-## <a name="warehousing-scenarios"></a>Escenarios de almacenamiento
-
-Los datos de demostración de Contoso Coffee admiten actualmente los siguientes escenarios de almacenamiento para pruebas y entrenamiento:
-
-1.  Configure ubicaciones predeterminadas, reciba y almacene con inventario, seleccione y envíe con selección de inventario en orden por pedido con [Tutorial del flujo de entrada y salida en Configuraciones básicas de almacén](warehousing/warehouse-basic-flow-putaway-pick.md)
-2.  Reciba y almacene varios pedidos entrantes a la vez con recibo de almacén, envíe varios pedidos a la vez con envío de almacén, seleccione con selecciones de almacén con [Guía del flujo de entrada y salida en configuraciones de almacén mixtas](warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-3.  Configure contenedores fijos para la unidad de medida del producto, tránsito directo del usuario para reducir los movimientos físicos de las mercancías, optimice la ubicación de las mercancías con el reabastecimiento de contenedores, divida las unidades de medida grandes en unidades más pequeñas, distribuya la selección entre los empleados del almacén con la hoja de trabajo de selección con [Guía del flujo de entrada y salida en Configuración avanzada de almacén con ubicación y recolección dirigidas](warehousing/warehouse-directed-flow.md)
-
-Lea los pasos para cada escenario en el artículo correspondiente.
-   
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Fabricación](../production-manage-manufacturing.md)  
 [Gestión de almacén](../warehouse-manage-warehouse.md)  
+[Servicio](../service-service.md)
+<!-- [Projects and Jobs](../projects-manage-projects.md) -->
 

@@ -2,7 +2,7 @@
 title: Cambiar la empresa y otras configuraciones en Teams
 description: Obtenga información sobre cómo cambiar la configuración de conexión de Business Central en Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Cambiar la empresa y otras configuraciones en Teams
+# Cambiar la empresa y otras configuraciones en Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +27,7 @@ Hay dos formas de abrir la página **Configuración**: 1) desde el cuadro de red
 
    ![Configuración de Business Central desde el cuadro de mensaje.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  
