@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Cambiar el importe anual de los contratos de servicio o las ofertas de contrato
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Cambiar el importe anual de los contratos de servicio o las ofertas de contrato
 Puede cambiar el importe anual del contrato de servicio u oferta de contrato para corregir el importe que se facturará anualmente.  
 
-## Para cambiar el importe anual del contrato de servicio o la oferta de contrato  
+## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Para cambiar el importe anual del contrato de servicio o la oferta de contrato
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Contratos servicio** u **Ofertas contrato servicio** y, a continuación, elija el vínculo relacionado.  
 2. Elija el contrato o la oferta de contrato.  
@@ -22,14 +22,14 @@ Puede cambiar el importe anual del contrato de servicio u oferta de contrato par
 5. Cambie el contenido del campo **Importe anual**. No puede firmar, es decir, convertir en contrato de servicio si está trabajando en una oferta de contrato ni bloquear el contrato de servicio si tiene un importe anual negativo. Si establece el importe anual en cero, el contenido del campo **Periodo factura** debe ser **Ninguno** al firmar o bloquear el contrato de servicio.  
 6. Dependiendo de si activa la casilla **Permite importes sin saldar**, ejecute la distribución manual o automática de la diferencia de importe anual. Las líneas de contrato se actualizarán para que el valor del campo **Importe anual calculado** sea igual al nuevo importe anual.  
 
-## Diferencias de distribución entre cantidades anuales nuevas y calculadas
+## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Diferencias de distribución entre cantidades anuales nuevas y calculadas
 Si cambia el importe anual de un contrato de servicio o de la oferta de contrato, es posible que desee distribuir la diferencia entre los importes anuales nuevos y calculados en las líneas de contrato. Existen tres formas de distribuir importes:
 
 * Distribución uniforme  
 * Distribución basada en Importes de línea  
 * Distribución basada en beneficio bruto
 
-### Distribución uniforme
+### <a name="even-distribution"></a>Distribución uniforme
 Si cambia el importe anual del contrato de servicio o de la oferta de contrato, quizás le interese distribuir la diferencia entre los importes anuales nuevos y calculados en las líneas de contrato. La distribución uniforme es uno de los métodos de distribución automática que le pueden ayudar a repartir por igual la diferencia de importes anuales nuevos y calculados entre los importes de líneas en las líneas de contrato. La siguiente lista de los pasos del procedimiento de distribución describe la idea principal de este método:  
 
 1. La diferencia entre los valores de los campos **Importe anual** nuevo e **Importe anual calculado** se divide entre el número de líneas de contrato de la oferta de contrato o el contrato de servicio.  
@@ -41,7 +41,7 @@ Si cambia el importe anual del contrato de servicio o de la oferta de contrato, 
 
  Los pasos se repiten para cada línea de contrato.  
 
-#### Ejemplo:  
+#### <a name="example"></a>Ejemplo:
 La casilla de verificación **Permite importes sin saldar** no está activada en el contrato de servicio que contiene tres líneas de contrato con esta información.  
 
 |Producto|Coste línea|Valor línea|% Descuento línea|Importe dto. línea|Importe línea|Bfº bruto|  
@@ -62,7 +62,7 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 |Producto 2|40,00|50.00|16.00|8.00|42.00|2.00|  
 |Producto 3|50.00|70.00|14.29|10.00|60.00|10.00|  
 
-### Distribución basada en Importe de línea
+### <a name="distribution-based-on-line-amount"></a>Distribución basada en Importe de línea
 Si cambia el importe anual del contrato de servicio o de la oferta de contrato, quizás le interese distribuir la diferencia entre los importes anuales nuevos y calculados en las líneas de contrato. La distribución basada en importe de línea es un método automático que le pueden ayudar a repartir la diferencia de importes anuales nuevos y calculados entre los importes de líneas en las líneas de contrato. La distribución se realizará para repartir de forma proporcional el importe de línea en el importe anual calculado. La siguiente lista de los pasos del procedimiento de distribución para cada línea de contrato describe la idea principal de este método:  
 
 1. La contribución del porcentaje del importe de línea se calcula del siguiente modo: el contenido del campo **Importe línea** se divide entre los valores del campo **Importe anual calculado** en todas las líneas de contrato.  
@@ -75,7 +75,7 @@ Si cambia el importe anual del contrato de servicio o de la oferta de contrato, 
 
 Los pasos se repiten para cada línea de contrato.  
 
-#### Ejemplo:  
+#### <a name="example-1"></a>Ejemplo:
 La casilla de verificación **Permite importes sin saldar** no está activada en el contrato de servicio que contiene tres líneas de contrato con esta información.  
 
 |Producto|Coste línea|Valor línea|% Descuento línea|Importe dto. línea|Importe línea|Bfº bruto|  
@@ -102,7 +102,7 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 |Producto 2|20,00|23.00|8.65|1.99|21.01|1.01|  
 |Producto 3|24.00|27.00|11.37|3.07|23.93|-0,07|  
 
-### Distribución basada en beneficio bruto
+### <a name="distribution-based-on-profit"></a>Distribución basada en beneficio bruto
 Si cambia el importe anual del contrato de servicio o de la oferta de contrato, quizás le interese distribuir la diferencia entre los importes anuales nuevos y calculados en las líneas de contrato. La distribución basada en beneficio es uno de los métodos automáticos que le pueden ayudar a repartir la diferencia de importes anuales nuevos y calculados entre los importes de líneas en las líneas de contrato. Esta distribución se realizará un reparto de beneficios de forma proporcional en el contrato total o en el beneficio de la oferta de contrato. La siguiente lista de los pasos del procedimiento de distribución para cada línea de contrato describe la idea principal de este método:  
 
 1. La contribución del porcentaje de beneficio se calcula del siguiente modo: el contenido del campo **Bfº bruto** se divide entre la suma de los valores del campo **Bfº bruto** en todas las líneas de contrato.  
@@ -113,7 +113,7 @@ Si cambia el importe anual del contrato de servicio o de la oferta de contrato, 
     * % Descuento línea = Importe dto. línea / Valor línea * 100  
     * Bfº bruto = Importe línea - Coste línea  
 
-#### Ejemplo  
+#### <a name="example-2"></a>Ejemplo
 La casilla de verificación **Permite importes sin saldar** no está activada en el contrato de servicio que contiene tres líneas de contrato con esta información.  
 
 |Producto|Coste línea|Valor línea|% Descuento línea|Importe dto. línea|Importe línea|Bfº bruto|  
@@ -140,7 +140,7 @@ Finalmente, las líneas del contrato tendrán los siguientes datos:
 |Producto 2|50.00|58.00|9.93|5.76|52.24|2.24|  
 |Producto 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Creación de contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  
 

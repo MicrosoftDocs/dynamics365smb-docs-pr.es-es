@@ -19,7 +19,7 @@ Para obtener información detallada, consulte [Detalles de diseño: Planificaci�
 > [!NOTE]  
 > En todos los campos que se mencionan en este tema, lea la información de herramienta para entender su función. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="demand-and-supply"></a>Aprovisionamiento y demanda
+## <a name="supply-and-demand"></a>Aprovisionamiento y demanda
 
 La planificación tiene dos elementos: demanda y aprovisionamiento. Dichos elementos se deben equilibrar para garantizar que la demanda se satisface de manera puntual y rentable.  
 

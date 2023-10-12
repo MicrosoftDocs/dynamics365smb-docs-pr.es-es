@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ---
-# Configurar proyectos, precios y grupos contables de proyectos
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
 
 Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prod_short](includes/prod_short.md)]. Use la página **Configuración de trabajos** para definir cómo usará las características del trabajo.
 
@@ -21,7 +21,7 @@ Para cada trabajo, especifique información diversa:
 * Cuentas de proyecto
 * Grupos contables de proyecto (necesario)
 
-## Para configurar la información general de los proyectos
+## <a name="to-set-general-information-for-jobs"></a>Para configurar la información general de los proyectos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de proyectos** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +29,7 @@ Para cada trabajo, especifique información diversa:
 > [!NOTE]
 > El control de alternancia **Aplicar enlace de uso de forma predeterminada** de la página **Configuración de proyectos** indica si las entradas del libro mayor de proyectos están vinculadas a las líneas de planificación de proyecto de forma predeterminada. Active el control de alternancia para aplicar esta configuración a todos los trabajos nuevos. Puede habilitar o deshabilitar el seguimiento del uso del proyecto para un proyecto específico activando o desactivando el control de alternancia **Aplicar enlace de uso** en la página **Ficha de proyecto**.
 
-### Para configurar el seguimiento de uso de proyecto
+### <a name="to-set-up-job-usage-tracking"></a>Para configurar el seguimiento de uso de proyecto
 
 Cuando está trbajando en un proyecto, es posible que desee saber cómo va el seguimiento en comparación con el plan. Para explorar el uso, puede crear un vínculo entre las líneas de planificación de proyecto y la utilización real. El vínculo le permite realizar un seguimiento de sus costes y comprender cuánto trabajo queda. De forma predeterminada, el tipo de línea de planificación de proyecto es **Presupuesto**, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
 
@@ -43,7 +43,7 @@ Después de haber establecido el seguimiento de uso activando el control de alte
 > [!IMPORTANT]
 > Si no especifica un valor en el campo **Tipo de línea** de la línea del diario de proyecto o la línea de compra, no se crean líneas de planificación de proyecto cuando se registra el diario de trabajo o el documento de compra.
 
-## Para establecer los precios de recursos, productos y cuentas de contabilidad para trabajos
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Para establecer los precios de recursos, productos y cuentas de contabilidad para trabajos
 
 > [!NOTE]
 > En el segundo lanzamiento de versiones de 2020, lanzamos nuevos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ Cuando elige una cuenta de recurso, producto o de contabilidad para un trabajo, 
 
 ---
 
-## Para configurar grupos contables del proyecto
+## <a name="to-set-up-job-posting-groups"></a>Para configurar grupos contables del proyecto
 
 Un aspecto de los proyectos de planificación es decidir qué cuentas de registro se deben utilizar para la valoración de proyectos. Para poder registrar proyectos, debe configurar cuentas de registro para cada grupo contable del proyecto. Un grupo contable representa un vínculo entre el proyecto y cómo debe ser tratado en la contabilidad general. Al crear un proyecto, se especifica un grupo contable y, de forma predeterminada, todas las tareas que crea para el proyecto están asociadas con ese grupo contable. Sin embargo, al crear las tareas, puede sustituir el predeterminado y seleccionar a un grupo contable que sea más adecuado.  
 
@@ -99,7 +99,7 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 | **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costes reconocidos del proyecto. Normalmente, es una cuenta de cargo. | Costes reconocidos|
 | **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. | Ventas reconocidas|
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar gestión del proyecto](projects-setup-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

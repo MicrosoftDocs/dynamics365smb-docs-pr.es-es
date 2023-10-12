@@ -9,10 +9,10 @@ ms.date: 08/03/2023
 ms.custom: bap-template
 ---
 
-# Actualización de fechas de documentos con fechas de publicación
+# <a name="updating-document-dates-with-posting-dates"></a>Actualización de fechas de documentos con fechas de publicación
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configuración de ventas](sales-setup-sales.md)
