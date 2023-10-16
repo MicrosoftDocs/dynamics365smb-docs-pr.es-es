@@ -59,11 +59,9 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 3. En la ficha desplegable **N.º de serie** y **N.º de lote**, introduzca los números de seguimiento de productos de los que desea realizar un seguimiento.  
 4. Elija la acción **Buscar** para buscar todos los casos números de serie o de lote en la base de datos.  
 
-## Consultar la [formación de Microsoft](/training/modules/prepare-item-tracking/) relacionada
-
 ## Consulte también .
 
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)  
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)  
 [Detalles de diseño: Seguimiento de productos y reservas](design-details-item-tracking-and-reservations.md)  

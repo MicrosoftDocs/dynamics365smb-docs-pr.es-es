@@ -348,6 +348,11 @@
 #### [Trabajar con tolerancias de pago y tolerancias de descuentos de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
 
+### Administrar documentos electrónicos
+#### [Configurar documentos electrónicos](finance-how-setup-edocuments.md)
+#### [Usar documentos electrónicos en ventas y compras](finance-how-use-edocuments.md)
+#### [Ampliar la funcionalidad de documentos electrónicos](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Administrar IVA
 #### [Información general de la administración de IVA](finance-manage-vat.md)
 #### [Transacciones de compra de la UE a terceros](finance-how-to-eu3party-trade-purchase.md)
@@ -447,9 +452,10 @@
 ### [Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)
 ### [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)
 ### [Exportación de archivo de auditoría](finance-how-to-export-audit-files.md)
-### [Asignar costes e ingresos](year-allocate-costs-income.md)
 ### [Registrar y reembolsar los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)
 ### [Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)
+### [Asignar costes e ingresos periódicos](year-allocate-costs-income.md)
+### [Asignar ingresos y costes a varias cuentas](finance-allocate-revenue-costs.md)
 ### [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)
 ### [Importar transacciones de nómina](finance-how-import-payroll-transactions.md)
 ### [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)
@@ -585,6 +591,7 @@
 #### [Administrar interacciones para segmentos](marketing-interaction-segments.md)
 ### Administrar interacciones
 #### [Interacciones](marketing-interactions-overview.md)
+#### [Datos adjuntos para interacciones](marketing-interaction-attachments.md)
 #### [Registrar interacciones con contactos](marketing-interactions.md)
 #### [Crear interacciones en contactos y segmentos](marketing-how-create-interactions.md)
 #### [Registrar automáticamente interacciones con contactos](marketing-auto-record-interactions.md)
@@ -1545,6 +1552,7 @@
 #### [Configurar métodos de envío](sales-how-set-up-shipment-methods.md)
 #### [Configurar transportistas](sales-how-to-set-up-shipping-agents.md)
 #### [Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)
+#### [Actualizar fechas de documentos con fechas de registro](across-link-doc-dates-to-posting-dates.md)
 ### Configurar compradores
 #### [Configurar compradores](purchasing-setup-purchasing.md)
 #### [Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1562,7 @@
 #### [Configurar precios y descuentos](across-prices-and-discounts.md)
 #### [Registrar precios y descuentos de compra especiales](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)
+#### [Actualizar fechas de documentos con fechas de registro](across-link-doc-dates-to-posting-dates.md)
 ### Configurar inventario
 #### [Configurar inventario](inventory-setup-inventory.md)
 #### [Configurar información de inventario general](inventory-how-setup-general.md)
@@ -1791,7 +1800,7 @@
 ### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
 ### [Analizar datos de página en Excel](across-work-with-excel.md)
 ### [Analizar datos de informes con Excel](report-analyze-excel.md)
-### [Analizar datos de lista con el modo de análisis](analysis-mode.md)
+### [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md)
 ### [Inteligencia empresarial financiera](bi.md)
 
 ## Análisis integrados 

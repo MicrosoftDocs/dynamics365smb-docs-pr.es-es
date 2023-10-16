@@ -3,7 +3,7 @@ title: 'Detalles de diseño: Disponibilidad en el almacén'
 description: Conozca los diferentes factores que afectan la disponibilidad de artículos en su almacén.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
@@ -73,6 +73,10 @@ El resultado se muestra en el campo**Cantidad total disponible** en la página *
 
 En una línea de reserva, la cantidad que no se puede reservar, porque está asignada en el almacén, se muestra en el campo **Cant. asignada en Almacén** de la página **Reservas**.  
 
+## Verifique si los artículos están disponibles para ser recogidos
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Cálculo de la cantidad disponible para reservar
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calcula la cantidad disponible para reservar de la manera siguiente:  
@@ -85,8 +89,8 @@ En el diagrama siguiente se muestra los diferentes elementos del cálculo.
 
 ## Consulte también  
 
-[Descripción general de la gestión de almacenes](design-details-warehouse-management.md)
-[Ver la disponibilidad de artículos](inventory-how-availability-overview.md)
-
+[Información general de Warehouse Management](design-details-warehouse-management.md)
+[Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
+[Realizar picking para producción, ensamblado o proyectos en una configuración avanzada de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

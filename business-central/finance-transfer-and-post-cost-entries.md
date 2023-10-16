@@ -98,13 +98,11 @@ Para movimientos de coste únicos, [!INCLUDE[prod_short](includes/prod_short.md)
 
 En la tabla **Registro de costes**, [!INCLUDE[prod_short](includes/prod_short.md)] crea un movimiento con la transferencia de origen de la contabilidad. El movimiento registra el primer y último número de los movimientos de contabilidad que se transfieren, además del primer y último número de movimientos de coste creados.
 
-## Consultar la [formación de Microsoft](/training/modules/transfer-gl-entries-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
  [Acerca de la contabilidad de costes](finance-about-cost-accounting.md)  
  [Configuración de contabilidad de costes](finance-set-up-cost-accounting.md)  
- [Definición y asignación de costes](finance-define-and-allocate-costs.md)  
+ [Definir y asignar costes](finance-define-and-allocate-costs.md)  
  [Contabilidad para costes](finance-manage-cost-accounting.md)
 
 

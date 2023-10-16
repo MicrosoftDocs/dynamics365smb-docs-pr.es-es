@@ -74,8 +74,6 @@ Además del precio especificado en la tarjeta de recurso, puede configurar preci
 3. En la página **Precio de venta del recurso**, rellene los campos en una línea según sea necesario.
 4. Repita el paso 3 para cada precio de venta de recurso alternativo que desee configurar.
 
-## Consultar la [formación de Microsoft](/training/paths/set-up-jobs-resources/) relacionada
-
 ## Consulte también .
 
 [Configurar la administración de proyectos](projects-setup-projects.md)  

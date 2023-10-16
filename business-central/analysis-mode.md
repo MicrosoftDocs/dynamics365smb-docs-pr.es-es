@@ -1,11 +1,11 @@
 ---
-title: Analizar datos en páginas de lista usando el modo de análisis de datos
+title: Analizar datos en páginas de lista y consultas usando el modo de análisis de datos
 description: Aprenda a usar el modo de análisis de datos en Business Central para analizar datos.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/23/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -21,7 +21,7 @@ En este artículo, aprenderá a analizar datos de páginas en listas y consultas
 
 ## Requisitos previos 
 
-- Si está utilizando Business Central versión 22, el modo de análisis de datos está en vista previa, por lo que un administrador debe habilitarlo antes de poder usarlo. Para habilitarlo, vaya a la página **Administración de características** y active la **Actualización de funciones: modo de análisis, analice rápidamente los datos directamente en Business Central**. [Más información acerca de la Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Si está utilizando Business Central versión 22, el modo de análisis de datos está en versión preliminar. Por lo tanto, un administrador debe habilitarlo antes de poder utilizarlo. Para habilitarlo, vaya a la página **Administración de características** y active la **Actualización de funciones: modo de análisis, analice rápidamente los datos directamente en Business Central**. [Más información acerca de la Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - En la versión 23 y posteriores, a su cuenta se le debe asignar el conjunto de permisos **ANÁLISIS DE DATOS - EXEC** o incluir permiso de ejecución en el objeto del sistema **9640 Permitir datos Modo de análisis**. Como administrador, puede excluir estos permisos a los usuarios que no desea que tengan acceso al modo de análisis.
 
 > [!NOTE]
@@ -69,11 +69,11 @@ El área de datos es donde se muestran las filas y columnas de la página de con
   - Para anclar una columna a la izquierda o a la derecha del área de datos para que no se mueva de la pantalla cuando se desplace, seleccione ![Muestra el icono en una columna en el modo de análisis de datos que abre un menú de acciones](media/analysis-mode-column-menu-icon.png) > **Anclar columna** > **Anclar a la izquierda** la parte de la columna.
   - Defina filtros de datos directamente en la definición de columna en lugar de ir a los paneles de **Filtros de análisis**. Todavía puede echar un vistazo a los detalles sobre los datos relacionados y de cada línea, así como abrir la tarjeta para obtener más información sobre una entidad determinada.
 - Utilice el área de datos para interactuar con los datos. Para las columnas que contienen valores sumables numéricos, puede obtener estadísticas descriptivas en un conjunto de campos, marcándolos. Las estadísticas aparecen en la barra de estado (2), en la parte inferior de la página.
-- Exportar datos en formato Excel o csv. Simplemente, haga clic con el botón derecho en el área de datos o en una selección de celdas para exportar.
+- Exportar datos en formato Excel o csv. Haga clic con el botón derecho en el área de datos o en una selección de celdas para exportar.
 
 ### Barra de resumen (2)
 
-La barra de resumen se encuentra en la parte inferior de la página y muestra estadísticas sobre los datos de la página de lista o consulta. A medida que interactúa con columnas cuyos valores se pueden sumar, como al seleccionar varias filas en una columna que muestra cantidades, los datos se actualizarán.
+La barra de resumen se encuentra en la parte inferior de la página y muestra estadísticas sobre los datos de la página de lista o consulta. A medida que interactúa con columnas cuyos valores se pueden sumar, como al seleccionar varias filas en una columna que muestra cantidades, los datos se actualizan.
 
 ![Muestra una descripción general de una barra de resumen en el modo de análisis de datos](media/analysis-mode-totals-row.png)
 
@@ -103,7 +103,7 @@ El panel **Columnas** es uno de los dos paneles que trabajan juntos para definir
 |Grupos de filas|Utilice esta área para agrupar y sumar datos por uno o más campos. Solo puede incluir campos no numéricos, como campos de texto, fecha y hora. Los grupos de filas se usan a menudo en modo dinámico.|
 |Valores|Utilice esta área para especificar los campos para los que desea una suma total. Solo puede incluir campos que contengan números que se puedan sumar; por ejemplo, no campos de texto, fecha u hora.|
 
-Para mover un campo de un área a otra, seleccione el icono de agarrar ![Muestra una descripción general de una página en el modo de análisis de datos](media/column-grab-icon.png) junto a la columna en la lista anterior y arrástrelo al área de destino. No puede mover un campo a un área donde no está permitido.
+Para mover un campo de un área a otra, seleccione el icono de agarrar ![Muestra una descripción general de una página en el modo de análisis de datos](media/column-grab-icon.png) junto a la columna en la lista y arrástrelo al área de destino. No puede mover un campo a un área donde no está permitido.
 
 ### Filtros de análisis (4)
 
@@ -131,6 +131,16 @@ Aquí hay algunos consejos sobre cómo trabajar con varias pestañas de análisi
    > [!TIP]
    > Las pestañas que configuras solo son visibles para usted. Otros usuarios solo verán las pestañas que hayan configurado.
 - Puede copiar pestañas de análisis. La copia puede ser útil si desea experimentar cambiando una pestaña sin cambiar la original, o si desea crear diferentes variaciones del mismo análisis.
+
+
+## Jerarquías de fecha
+
+En el modo de análisis, los campos de fecha del conjunto de datos se generan en una jerarquía Año-Trimestre-Mes de tres campos separados. Esta jerarquía se basa en el calendario normal, no en ningún calendario fiscal definido en Business Central.
+
+Los campos adicionales reciben el nombre _\<field name\> Año_, _\<field name\> Trimestre_ y _\<field name\> Mes_. Por ejemplo, si el conjunto de datos incluye un campo llamado _Fecha de publicación_, entonces la jerarquía de fechas correspondiente consta de campos llamados _Año de fecha de publicación_, _Trimestre de fecha de contabilización_, y _Mes de fecha de contabilización_.
+
+> [!NOTE]
+> Actualmente, la jerarquía de fechas solo se aplica a los campos de tipo date, no a los campos de tipo de fecha y hora.
 
 ## Modo dinámico
 

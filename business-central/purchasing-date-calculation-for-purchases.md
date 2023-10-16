@@ -58,12 +58,10 @@ Puede especificar manualmente la fórmula de fecha en las líneas. De lo contrar
 3. Ficha ud. de almacenam.
 4. Ficha proveedor
 
-## Consultar la [formación de Microsoft](/training/modules/estimate-receipt-dates-dynamics-365-business-central/) relacionada
-
 ## Consulte también .
 
 [Cálculo de fecha de ventas](sales-date-calculation-for-sales.md)  
-[Calcular fechas de compromiso de pedidos](sales-how-to-calculate-order-promising-dates.md)  
+[Calcular fechas de compromiso de pedido](sales-how-to-calculate-order-promising-dates.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

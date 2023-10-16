@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Descripción general de Inteligencia empresarial e informes
+# Descripción general de Inteligencia empresarial e informes
 
 Las pequeñas y medianas empresas se basan en capacidades de análisis e informes integrados que pueden usar de inmediato como ayuda para realizar un seguimiento de su negocio. [!INCLUDE[prod_short](includes/prod_short.md)] admite procesos comerciales comunes, así como procesos más complejos para dichas organizaciones. Cada uno de estos procesos incluye heramientas de informes y análisis. También puede realizar análisis ad-hoc directamente desde su página principal.  
 
@@ -26,7 +26,7 @@ La siguiente tabla cubre la funcionalidad de inteligencia empresarial y de infor
 | Integre herramientas de inteligencia de negocios externas con [!INCLUDE[prod_short](includes/prod_short.md)].| [Herramientas de inteligencia empresarial externas](reports-external-analysis.md) |
 |Modifique diseños de informes o incluso desarrolle sus propios informes desde cero. |[Informes de desarrollo](reports-develop-reports.md)|
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

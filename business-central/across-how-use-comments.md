@@ -11,7 +11,7 @@ ms.search.form: '124, 30'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="add-comments-to-cards-and-documents"></a>Agregar comentarios a las fichas y documentos
+# Agregar comentarios a las fichas y documentos
 
 Puede añadir información adicional a cuentas de contabilidad, fichas de clientes o pedidos de venta para comunicar excepciones o acuerdos especiales a otros usuarios.
 Prácticamente todas las fichas y documentos tienen una acción de **Comentarios** que abre la página **Hoja de comentarios** donde puede escribir o leer comentarios. En los documentos, también puede agregar comentarios a líneas individuales.
@@ -25,14 +25,14 @@ Además, se puede especificar si se desea que los comentarios se transfieran de 
 
 A continuación se describe cómo agregar un comentario a una ficha de producto. Los pasos son similares para todas las demás fichas y documentos, excepto en las líneas de documentos, la acción de **Comentarios** se coloca en un menú de acciones de líneas.
 
-## <a name="to-add-a-comments-to-an-item-card"></a>Para añadir un comentario a una ficha de producto
+## Para añadir un comentario a una ficha de producto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la ficha de producto que corresponda.
 3. Seleccione la acción **Comentarios**.
 4. En la página **Hoja de comentarios**, escriba el texto y luego elija el botón **Aceptar**.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funciones empresariales generales](ui-across-business-areas.md)
