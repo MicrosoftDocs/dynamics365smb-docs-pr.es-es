@@ -13,7 +13,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ---
 
-# Extensiones de migración a la nube para migrar a Business Central Online
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Extensiones de migración a la nube para migrar a Business Central Online
 
 Dependiendo de su solución local, debe usar diferentes extensiones para conectar sus datos con [!INCLUDE[prod_short](includes/prod_short.md)] Online para migrar su solución a la nube.  
 
@@ -21,22 +21,22 @@ Si utiliza uno de los productos locales admitidos, puede configurar su entorno d
 
 Para más información, consulte [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) en el contenido de la administración para [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Business Central local
+## <a name="business-central-on-premises"></a>Business Central local
 
 Si utiliza una implementación local de [!INCLUDE[prod_short](includes/prod_short.md)], obtenga las extensiones **Base de nube inteligente** y **Nube inteligente de Business Central**, y luego ejecute la guía de configuración asistida **Configuración de migración a la nube**.  
 
-## Dynamics GP
+## <a name="dynamics-gp"></a>Dynamics GP
 
 Si utiliza Dynamics GP, obtenga las extensiones **Extensión de base de nube inteligente** y **Nube inteligente de Dynamics GP**, y luego ejecute la guía de configuración asistida **Configuración de migración a la nube**.  
 
 > [!IMPORTANT]
 > Migrar desde Dynamics GP usando la guía de configuración asistida **Configuración de migración a la nube** actualmente solo es compatible en los siguientes mercados: Estados Unidos, Canadá, Reino Unido.
 
-## Dynamics SL
+## <a name="dynamics-sl"></a>Dynamics SL
 
 Si utiliza Dynamics SL, obtenga las extensiones **Base de nube inteligente**, **Nube inteligente de Microsoft Dynamics SL** y **Listas inteligentes de historial de Microsoft Dynamics SL**, y luego ejecute la guía de configuración asistida **Configuración de migración a la nube**.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Extensión de base de migración a la nube](ui-extensions-intelligent-cloud.md)  
 [Migración de datos locales a Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

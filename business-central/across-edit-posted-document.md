@@ -12,7 +12,7 @@ ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: bholtorf
 ---
-# Editar documentos registrados
+# <a name="edit-posted-documents"></a>Editar documentos registrados
 
 A veces tiene que actualizar un documento registrado porque la información relevante para el documento ha cambiado. En un documento de venta publicado, puede ser el número de seguimiento del paquete del transportista, por ejemplo. En un documento de compra registrado, puede ser un texto de referencia de pago.
 
@@ -32,7 +32,7 @@ Los siguientes documentos adicionales se pueden editar en los países o regiones
 - RU: histórico de abonos de venta
 - IT: histórico envío transferencia, envío de servicio registrado
 
-## Para editar un histórico de albaranes de venta
+## <a name="to-edit-a-posted-sales-shipment"></a>Para editar un histórico de albaranes de venta
 
 A continuación se explica cómo editar un histórico de albaranes de venta. Los pasos son similares para los demás documentos admitidos.
 
@@ -43,7 +43,7 @@ A continuación se explica cómo editar un histórico de albaranes de venta. Los
 
 Se actualiza el histórico de albaranes de venta.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Buscar entradas relacionadas para documentos registrados](ui-find-entries.md)  
