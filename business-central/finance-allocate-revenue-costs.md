@@ -10,7 +10,7 @@ ms.search.form: '39, 2673, 2670, 2674,'
 ms.custom: bap-template
 ---
 
-# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Asignar ingresos y costos a múltiples cuentas del libro mayor
+# Asignar ingresos y costos a múltiples cuentas del libro mayor
 
 Este artículo describe cómo utilizar cuentas de asignación para distribuir importes en documentos de compras y ventas y líneas de diario general a diferentes cuentas del L/M. Puede asignar cantidades a través de una distribución fija o variable.  
 
@@ -25,7 +25,7 @@ La siguiente tabla presenta los métodos de asignación que puede utilizar.
 |Corregido     | Cuando desee dividir los gastos de una manera que se repita durante un período de tiempo más largo, puede utilizar una asignación fija. Una asignación fija le permite definir la división de la asignación. Esta división solo cambiará cuando cambie la configuración en la página **Cuenta de asignación**.        |
 |Variable     | Para distribuir ingresos o gastos en función de valores que cambian con el tiempo, utilice el método de asignación variable. Las asignaciones variables le permiten especificar las fuentes que se utilizarán para calcular los porcentajes de asignación. Este método es útil, por ejemplo, para dividir los costos de los empleados según la cantidad de personal en el departamento o división. Otro ejemplo es la distribución del costo del alquiler en función del metraje del piso de producción, que puede variar según la línea de producción a lo largo del tiempo. Las asignaciones variables utilizan una combinación de dimensiones y cuentas estadísticas para determinar cómo se distribuyen los montos durante un período de tiempo. Para obtener más información sobre las cuentas estadísticas, vaya a [Analizar datos con cuentas estadísticas](bi-use-statistical-accounts.md). Para obtener más información sobre las dimensiones, vaya a [Trabajar con dimensiones](finance-dimensions.md).        |
 
-## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Utilice un método de porcentaje o participación fija para asignar cantidades
+## Utilice un método de porcentaje o participación fija para asignar cantidades
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignación de cuenta** y luego elija el enlace relacionado.  
 1. En la página **Asignación de cuentas**, seleccione la acción **Nuevo**.
@@ -40,7 +40,7 @@ La siguiente tabla presenta los métodos de asignación que puede utilizar.
    > Si ingresa el monto real a asignar para una asignación fija en el campo **Compartir** , el campo **Porcentaje** muestra el porcentaje del importe total.
 1. Repita este proceso para cada cuenta que desee incluir en la asignación.
 
-## <a name="use-a-variable-method-to-allocate-amounts"></a>Utilice un método variable para asignar cantidades
+## Utilice un método variable para asignar cantidades
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Asignación de cuenta** y luego elija el enlace relacionado.  
 1. En la página **Asignación de cuentas**, seleccione la acción **Nuevo**.
@@ -53,7 +53,7 @@ La siguiente tabla presenta los métodos de asignación que puede utilizar.
 1. Opcional: para filtrar por valores de dimensiones globales específicos, elija la acción **Filtros de saldo de cuenta desglosado** y luego especifique los valores de filtro.
 1. Opcional: elija la acción **Dimensiones** y después específique las dimensiones para publicar para la línea.
 
-## <a name="allocate-amounts-on-the-fly"></a>Asignar cantidades sobre la marcha
+## Asignar cantidades sobre la marcha
 
 Cree cuentas de asignación para dividir ingresos y costos para cuentas de mayor y cuentas bancarias. Automatizar la asignación puede ahorrarle mucho tiempo. Sin embargo, si desea utilizar cuentas de asignación, pero no desea crearlas para cada cuenta del L/M, puede ahorrar aún más tiempo.
 
@@ -61,14 +61,14 @@ La opción Heredar del primario le permite utilizar la cuenta de asignación par
 
 Las asignaciones ad hoc son fáciles de configurar. En lugar de especificar un banco o una cuenta de libro mayor en el campo **Tipo de cuenta de destino** en la página **Cuenta de asignación**, elija la opción **Heredar del elemento primario**. Deje el campo **Número de cuenta de destino** en blanco. Cuando elija la cuenta del L/M en el documento o línea del diario, esa cuenta se utiliza para asignar importes.
 
-## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Verifique que los montos se distribuyan correctamente antes de publicarlos
+## Verifique que los montos se distribuyan correctamente antes de publicarlos
 
 Hay un par de formas de verificar que los montos se distribuyan correctamente:
 
 * En la página **Asignación de cuenta**, elija la acción **Probar asignación**. Use el campo **Monto a asignar** para probar diferentes cantidades.
 * En la página **Diarios del libro mayor**, elija el diario y utilice la acción **Vista previa de publicación**.
 
-## <a name="adjust-the-distribution"></a>Ajustar la distribución
+## Ajustar la distribución
 
 Si encuentra algo en una asignación que le gustaría cambiar, puede ajustar la asignación antes de publicarla.  
 
@@ -76,7 +76,7 @@ Si encuentra algo en una asignación que le gustaría cambiar, puede ajustar la 
 1. Seleccione la línea con la asignación y, a continuación, seleccione la acción **Redistribuir asignaciones de cuenta**.
 1. En la página **Cambiar asignaciones**, haga su ajuste.
 
-## <a name="post-an-allocation-transaction"></a>Publicar una transacción de asignación
+## Publicar una transacción de asignación
 
 Los siguientes pasos describen cómo registrar una transacción de asignación desde un diario general. Los pasos son iguales a todos los documentos de compra y venta.
 
@@ -90,8 +90,7 @@ Los siguientes pasos describen cómo registrar una transacción de asignación d
     1. En el campo **No. de cuenta**, elija la cuenta de libro mayor.
     1. En el campo **No. de Cuenta de asignación**, elija la cuenta de asignación que está configurada para usar la opción Heredar del primario. 
 1. Elija **Registrar**.
-1. 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Trabajar con diarios generales](ui-work-general-journals.md)  

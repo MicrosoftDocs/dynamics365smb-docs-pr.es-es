@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 09/07/2023
 ms.author: bholtorf
 ---
-# <a name="update-currency-exchange-rates"></a>Actualizar tipos de cambio de divisa
+# Actualizar tipos de cambio de divisa
 
 Puede definir diferentes divisas en [!INCLUDE [prod_short](includes/prod_short.md)], por ejemplo, si opera con divisas distintas a su divisa local. Para seguir los cambios en las tasas de cambio de divisa, puede administrar las tasas manualmente o configurar un servicio de tasa de cambio de divisas.
 
-## <a name="currencies"></a>Divisas
+## Divisas
 
 > [!TIP]  
 > Si está buscando información en tiempo real sobre tipos de cambio (FX) o tipos de cambio históricos, en [!INCLUDE[prod_short](includes/prod_short.md)] la encontrará como divisa. Además de este artículo, consulte también [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Puede definir diferentes divisas en [!INCLUDE [prod_short](includes/prod_short.m
 
 Especifique los códigos de moneda en la lista **Divisas**, incluida la información adicional y los ajustes necesarios para cada código de divisa. Para obtener más información, consulte [Divisas](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Ejemplo de una transacción de divisa por cobrar
+### Ejemplo de una transacción de divisa por cobrar
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Tipos de cambio
+## Tipos de cambio
 
 Los tipos de cambio son la herramienta para calcular el valor en divisa local (DL) de cada transacción en moneda. La página **Tipos de cambio** incluye los siguientes campos:
 
@@ -54,7 +54,7 @@ El importe del tipo de cambio del ajuste o el importe del tipo de cambio del aju
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates"></a>Ajustando divisas
+## Ajustando divisas
 
 Puesto que los tipos de cambio fluctúan constantemente, los equivalentes de otras divisas se deben ajustar regularmente. Si no lo hace, las cantidades convertidas de monedas extranjeras (u otras) y contabilizadas en el libro mayor en moneda local pueden ser incorrectas. Además, debe actualizar las entradas diarias publicadas antes de ingresar un tipo de cambio diario.
 
@@ -75,36 +75,36 @@ También puede especificar cómo el ajuste gestionará las dimensiones para regi
 > [!IMPORTANT]
 > Debido a los requisitos locales en Suiza, no recomendamos que habilite **Actualización de funciones: habilite el uso del nuevo ajuste de tipo de cambio extensible, incluida la revisión de publicaciones** en la versión de Suiza (CH).
 
-## <a name="preview-the-effect-of-an-adjustment"></a>Vista previa del efecto de un ajuste
+## Vista previa del efecto de un ajuste
 
 Puede obtener una vista previa del efecto que tendrá un ajuste en el de tasa de cambio antes de hacerlo realmente seleccionando la acción **Vista previade registro** en el informe **Ajustar tipos de cambio** de la página de solicitud (Informe 596). En la página de solicitud puede especificar qué incluir en la vista previa:
 
 * Obtener un registro detallado del libro mayor por movimiento
 * Obtenga una publicación resumida por divisa. Simplemente seleccione el campo **Ajustar por movimiento** en el informe **Ajuste de tasas de cambio** .
 
-### <a name="effect-on-customers-and-vendors"></a>Efecto en clientes y proveedores
+### Efecto en clientes y proveedores
 
 En las cuentas de proveedores y clientes, el proceso usa el tipo de cambio vigente en la fecha de registro especificada en el proceso para ajustar la divisa. El proceso calcula las diferencias de cada uno de los saldos en divisa y registra los importes en la cuenta especificada en el campo **Cta. dif. pos. no realizadas** o en el campo **Cta. dif. neg. no realizadas** de la página **Divisas**. Los movimientos de contrapartida se registran automáticamente en la cuenta de cobros y pagos de la contabilidad.
 
 El proceso utiliza todos los movimientos de clientes y de proveedores. Si hay un tipo de cambio diferente para un movimiento, el proceso crea un nuevo movimiento detallado de cliente o de proveedor. El nuevo asiento refleja el importe ajustado en el asiento contable del cliente o proveedor.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensiones en movimientos de clientes y proveedores
+#### Dimensiones en movimientos de clientes y proveedores
 
 [!INCLUDE [prod_short](includes/prod_short.md)] asigna las dimensiones de los movimientos de clientes y proveedores y los ajustes se registran por combinación de valores de dimensiones.
 
-### <a name="effect-on-bank-accounts"></a>Efecto sobre cuentas bancarias
+### Efecto sobre cuentas bancarias
 
 En las cuentas de bancos, el trabajo por lotes ajusta la divisa utilizando el tipo de cambio vigente a la fecha de registro especificada en el trabajo por lotes. El proceso calcula las diferencias de cada banco y registra los importes en la cuenta contable especificada en el campo **Cta. dif. pos. realizadas** o en el campo **Cta. dif. neg. realizadas** de la página **Divisas**. Los movimientos de contrapartida se registran automáticamente en las cuentas de bancos especificadas en los grupos contables de bancos. El proceso calcula un movimiento por divisa por grupo contable.
 
-#### <a name="dimensions-on-bank-account-entries"></a>Dimensiones en movimientos de cuentas bancarias
+#### Dimensiones en movimientos de cuentas bancarias
 
 Los movimientos de ajustes de la cuenta contable del banco y de la cuenta de pérdidas y ganancias se asignan a las dimensiones predeterminadas de la cuenta de banco.
 
-### <a name="effect-on-gl-accounts"></a>Efecto sobre cuentas de L/M
+### Efecto sobre cuentas de L/M
 
 Si registra en otra divisa adicional, puede hacer que el proceso genere movimientos nuevos de contabilidad para realizar ajustes entre la divisa local y otra divisa. El proceso calcula las diferencias de cada movimiento y ajusta el movimiento en función del valor que figure en el campo **Ajuste tipo cambio** para cada cuenta.
 
-#### <a name="dimensions-on-gl-account-entries"></a>Dimensiones en movimientos de cuentas contables
+#### Dimensiones en movimientos de cuentas contables
 
 Los movimientos registrados se asignan a las dimensiones predeterminadas de las cuentas donde están registrados.
 
@@ -113,7 +113,7 @@ Los movimientos registrados se asignan a las dimensiones predeterminadas de las 
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>Para configurar un servicio de tipo de cambio de divisa
+## Para configurar un servicio de tipo de cambio de divisa
 
 Puede utilizar un servicio externo para mantener actualizados los tipos de cambio de divisa como FloatRates. 
 
@@ -132,14 +132,21 @@ Puede utilizar un servicio externo para mantener actualizados los tipos de cambi
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a>Para actualizar los tipos de cambio de divisa mediante un servicio
+## Para actualizar los tipos de cambio de divisa mediante un servicio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Divisas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Actualizar tipos de cambio**.
 
 El valor del campo **Tipo cambio** en la página **Divisas** se actualiza con el último tipo de cambio de divisa.
 
-## <a name="see-also"></a>Consulte también
+## Corregir errores
+
+De vez en cuando, es posible que deba corregir un error en una transacción de pago asociado con ajustes a las ganancias y pérdidas de moneda extranjera. Puede utilizar la acción **Transacción inversa** en las páginas **Conciliación movs. bancos**, **Movs. clientes** y **Movs. proveedores** para cancelar la aplicación y revertir la transacción de pago.
+
+> [!NOTE]
+> Cuando cancela la aplicación y revierte un pago para una entrada que tenía ajustes de tipo de cambio asociados, la reversión registra entradas de reversión para los ajustes. Es posible que tengas que ejecutar el ajuste del tipo de cambio de moneda nuevamente para obtener el saldo actual correcto.
+
+## Consulte también
 
 [Divisas en Business Central](finance-currencies.md)  
 [Configuración de divisas](finance-set-up-currencies.md)  

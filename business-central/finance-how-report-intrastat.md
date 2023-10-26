@@ -116,6 +116,13 @@ Cuando trabaja con el **Informe Intrastat** verá un campo **Estado** en el enca
 * *Liberado*: [!INCLUDE[prod_short](includes/prod_short.md)] cambia automáticamente el estado a *Liberado* cuando se crea un archivo. A partir de ese momento, no podrá modificar su **Informe Intrastat**. Si necesita cambiar algo e informar nuevamente, puede usar la acción **Reabrir** para reabrir el informe Intrastat. Una vez que se vuelve a abrir el documento, puede utilizar la acción **Liberar** para liberar el documento de nuevo.
 * **Notificado**: especifica si el movimiento ya se ha declarado a las autoridades fiscales. Este no es un estado regular sino un campo independiente, e incluso si reabriera el informe de Intrastat, aún mostraría que el archivo ya se creó para este informe.
 
+### Ubicaciones en los informes Intrastat 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] siempre utiliza la información en el campo **Código de país/región** en la página **Tarjeta de ubicación** como el país para **enviar desde** o para **recibir a** mercancías. Cuando esta información no existe o no se utilizó la ubicación, el sistema utiliza la información de la página **Información empresa**.   
+
+> [!NOTE]
+> Si la empresa opera desde más de un país, los informes Intrastat no funcionan para todos los países donde están configuradas las ubicaciones. Los informes se basan únicamente para el país principal, ya que actualmente no es posible utilizar informes para varios países.  
+
 ### Comercio triangular en intrastat
 
 El comercio triangular implica el comercio entre tres países o regiones donde los bienes pasan por alto el país de la empresa informante. En Business Central, esto se puede facilitar a través de la funcionalidad [Envío directo](sales-how-drop-shipment.md). Para habilitar esta opción, active el campo **Incluir envío directo** en la **Configuración de informe Intrastat**.  

@@ -77,14 +77,14 @@ Para configurar el nivel de uso de la fecha de IVA, siga estos pasos:
 | **Usar pero no permitir modificaciones** | Todo lo relacionado con **Fecha de IVA** funciona de forma predeterminada con una excepción. No puedes modificar la **Fecha de IVA** en **Entradas de IVA**. |
 | **No usar la funcionalidad de fecha de IVA** | [!INCLUDE [prod_short](includes/prod_short.md)] se esconderá y hará que los campos **Fecha de IVA** no estén disponibles en documentos, diarios y entradas. La **Fecha de IVA predeterminada** se configurará como la **Fecha de publicación**. |
 
-3. Cierra la página.
+3. Cierre la página.
 
 > [!IMPORTANT]
 > Incluso si elige la opción **No usar la función de fecha de IVA**, [!INCLUDE [prod_short](includes/prod_short.md)] utilizará la **Fecha de IVA** en el fondo. Dado que la **Fecha de IVA predeterminada** se configura como la **Fecha de publicación**, y no puede cambiarla en este caso, obtendrá la misma experiencia que sin esta característica. Los campos **Fecha de IVA** se eliminarán de todas las páginas, pero este campo seguirá existiendo en las tablas y los informes funcionarán en función de él.
 
 ### Limitación de períodos para publicar y modificar la fecha del IVA
 
-Puede evitar que las personas publiquen o cambien entradas de IVA en intervalos de fechas específicos. Puede establecer la restricción usando dos configuraciones:
+Puede evitar que las personas publiquen o cambien entradas de IVA en intervalos de fechas específicos. Puede establecer la restricción con dos configuraciones:
 
 * Sobre la base de un **Período de devolución del IVA** cerrado
 * Sobre la base de los campos **Permitir publicar desde** y **Permitir publicar hasta**.
@@ -101,7 +101,32 @@ Puede evitar que las personas publiquen o cambien entradas de IVA en intervalos 
 | **Advertir al registrar en un periodo cerrado** | Muestre una advertencia, pero no bloquee la publicación, si desea registrar un documento o diario que tenga una fecha de IVA dentro de un **Período de devolución del IVA** cerrado. |
 | **Deshabilitada** | No realice ninguna acción en base a un **Período de devolución del IVA** cerrado. |
 
-#### Para limitar la publicación en función de Permitir desde/hasta el período
+#### Limitar la publicación en función de Permitir desde/hasta el período
+
+> [!NOTE]
+> A partir de la versión 23.1 de Business Central, este control cambia. En versiones anteriores, solo había un control en la página **Configuración de contabilidad** tanto para la fecha de publicación como para la fecha de IVA. Ahora, estos controles están divididos, por lo que el control en la página **Configuración de contabilidad** es solo para la **Fecha de publicación** y el control en la página **Configuración de IVA** es solo para la **Fecha de IVA**. También hay nuevos controles de fecha en la página **Configuración usuarios**.  
+
+##### Versión 23.1 o más reciente
+
+> [!IMPORTANT]
+> Cuando actualice a una nueva versión, tenga en cuenta que los valores se actualizan en el nuevo **Permitir fecha de IVA desde/hasta** en la página **Configuración de IVA** basada en los valores en **Permitir publicación desde/hasta** en la **Configuración de contabilidad**. Si desea utilizar controles de fecha diferentes, abra la página **Configuración del IVA** y realice cambios.  
+
+Puede configurar los límites en la empresa o en niveles de usuario específicos.
+
+Para limitar todas las publicaciones para toda la empresa:
+
+1. Seleccione el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de VAT** y luego seleccione el enlace relacionado.  
+2. En la ficha desplegable **Fecha de IVA** en el campo **Permitir fecha de IVA desde**, especifique la fecha de IVA a partir de la cual permite la publicación. No se permite publicar un documento o diario con una fecha de IVA anterior a esta fecha.  
+3. En la ficha desplegable **Fecha de IVA** en el campo **Permitir fecha de IVA hasta**, especifique la fecha de IVA hasta la que permite la publicación. No se permite publicar un documento o diario con una fecha de IVA posterior a esta fecha. 
+
+Para limitar las publicaciones para el usuario específico:  
+
+1. Seleccione el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de usuario** y luego seleccione el vínculo relacionado.  
+2. En el campo **Id. de usuario**, especifique el usuario al que desea permitir publicar en un período específico.  
+3. En el campo **Permitir la fecha de IVA desde**, especifique la fecha de IVA a partir de la cual permite la publicación. No se permite publicar un documento o diario con una fecha de IVA anterior a esta fecha. 
+4. En el campo **Permitir la fecha de IVA hasta**, especifique la fecha de IVA hasta la cual permite la publicación. No se permite publicar un documento o diario con una fecha de IVA posterior a esta fecha.  
+
+##### Versiones anteriores a la 23.1 
 
 Puede configurar la limitación en la empresa o en niveles de usuario específicos.
 
@@ -114,7 +139,7 @@ Para limitar todas las publicaciones para toda la empresa:
 Para limitar las publicaciones para el usuario específico:
 
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de usuario** y luego elija el enlace relacionado.  
-2. En el campo **ID de usuario**, especifique el usuario al que desea permitir publicar en un período específico.  
+2. En el campo **Id. de usuario**, especifique el usuario al que desea permitir publicar en un período específico.  
 3. En el campo **Permitir la publicación desde**, Especifique la fecha de IVA a partir de la cual permite la publicación. No se permite publicar un documento o diario con una fecha de IVA anterior a esta fecha.
 4. En el campo **Permitir la publicación hasta**, especifique la fecha de IVA hasta la cual permite la publicación. No se permite publicar un documento o diario con una fecha de IVA posterior a esta fecha.
 
@@ -156,7 +181,7 @@ Conviene utilizar códigos que sean fáciles de recordar y que describan el tipo
 
 Para configurar un grupo de registro de IVA de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la función Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Grupos de registro IVA de producto** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
 ## Combinar grupos de registro de IVA en configuraciones de registro de IVA

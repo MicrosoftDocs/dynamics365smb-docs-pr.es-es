@@ -18,6 +18,7 @@ El papel de vendedor se considera a menudo uno de los trabajos más orientados h
 > Este tema describe el proceso de integración de las versiones en línea de [!INCLUDE[crm_md](includes/crm_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)] a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener información sobre la configuración local, consulte [Preparación de Dynamics 365 Sales para la integración local](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## Integración a través de Dataverse
+
 Para facilitar la conexión y sincronización de datos con otras aplicaciones de Dynamics 365, [!INCLUDE[prod_short](includes/prod_short.md)] también se integra con [!INCLUDE[prod_short](includes/cds_long_md.md)]. Por ejemplo, puede conectarse a [!INCLUDE[crm_md](includes/crm_md.md)] o a aplicaciones que crea usted mismo. Si está integrando por primera vez, debe hacerlo a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener más información, vea [Integración con Dataverse](admin-common-data-service.md).
 
 Si ya ha integrado [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_short](includes/prod_short.md)], puede continuar sincronizando datos utilizando su configuración. Sin embargo, si actualiza o desactiva la integración de [!INCLUDE[crm_md](includes/crm_md.md)], para activarla de nuevo debe conectarse a través de [!INCLUDE[prod_short](includes/cds_long_md.md)]. Para obtener más información, vea [Actualización de una integración con Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
@@ -26,9 +27,11 @@ Si ya ha integrado [!INCLUDE[crm_md](includes/crm_md.md)] con [!INCLUDE[prod_sho
 > La reconexión a través de [!INCLUDE[prod_short](includes/cds_long_md.md)] aplicará la configuración de sincronización predeterminada y sobrescribirá cualquier configuración que tenga. Por ejemplo, se aplicarán las asignaciones de tabla predeterminadas.
 
 ## Configuración de integración específica de una integración de [!INCLUDE[crm_md](includes/crm_md.md)]
+
 La integración con [!INCLUDE[prod_short](includes/prod_short.md)] sucede a través de [!INCLUDE[prod_short](includes/cds_long_md.md)] y hay muchas configuraciones y tablas estándar. Además de la configuración estándar, hay algunas que son específicas de [!INCLUDE[crm_md](includes/crm_md.md)]. Esa configuración se enumera en las siguientes secciones.
 
 ## Permisos y roles de seguridad para cuentas de usuario en Sales
+
 Cuando instala la solución de integración, se configuran los permisos para la cuenta de usuario de integración. Si se cambian esos permisos, es posible que deba restablecerlos. Puede hacerlo reinstalando la solución de integración seleccionando **Volver a implementar la solución de integración** en la página **Configuración de conexión de Dynamics 365**. Se implementan los siguientes roles de seguridad:
 
 * Administrador de integración de Dynamics 365 Business Central
@@ -36,6 +39,7 @@ Cuando instala la solución de integración, se configuran los permisos para la 
 * Usuario de disponibilidad de producto de Dynamics 365 Business Central
 
 ### Configuración de conexión en la Guía de configuración
+
 Puede usar una guía de configuración asistida para configurar rápidamente la conexión y especificar si se activarán características avanzadas, como el emparejamiento entre los registros.
 
 1. Seleccione **Configuración y extensiones** y después seleccione **Configuración asistida**.
@@ -47,9 +51,10 @@ Puede usar una guía de configuración asistida para configurar rápidamente la 
 |--|--|
 | **Importar la solución de Dynamics 365 Sales** | Instale y configure la solución de integración en [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 |**Sincronizar automáticamente la disponibilidad de productos**|Especifica que se programará la cola de proyecto de disponibilidad de producto. La cola de proyecto se ejecuta cada 30 minutos y actualiza la disponibilidad de los productos emparejados.|
-| **Habilitar integración de pedido de venta** | Cuando los usuarios crean pedidos de venta en [!INCLUDE[crm_md](includes/crm_md.md)] y completan pedidos [!INCLUDE[prod_short](includes/prod_short.md)], esta configuración integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Debe proporcionar las credenciales de una cuenta de usuario de administrador en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Manejo de datos de pedidos de ventas especiales](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
+| **Habilitar integración de pedido de venta** | Cuando los usuarios crean pedidos de venta en [!INCLUDE[crm_md](includes/crm_md.md)] y completan pedidos [!INCLUDE[prod_short](includes/prod_short.md)], esta configuración integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).<br><br>**Nota:** No puede usar esta opción si usa la opción **Sincronización bidireccional de pedidos de ventas**. Las dos opciones se excluyen mutuamente. Para obtener más información sobre esta opción, vaya a [Sincronización única y bidireccional de pedidos de ventas](#single-and-bi-directional-synchronization-of-sales-orders). |
 |**Habilitar la conexión de Dynamics 365 Sales** | Habilitar la conexión a [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Versión de Dynamics 365 SDK** | Solo es relevante si va a realizar la integración con una versión local de [!INCLUDE[crm_md](includes/crm_md.md)]. Este SDK es el kit de desarrollo de software de Dynamics 365 (también designado Xrm) que se utiliza para conectar [!INCLUDE[prod_short](includes/prod_short.md)] a [!INCLUDE[crm_md](includes/crm_md.md)]. La versión debe ser compatible con la versión de SDK que utiliza [!INCLUDE[crm_md](includes/crm_md.md)] e igual o más nueva que la versión que utiliza [!INCLUDE[crm_md](includes/crm_md.md)]. |
+|**Sincronización bidireccional de pedidos de venta**|Sincronice pedidos de venta en ambas direcciones. Para obtener más información sobre esta opción, vaya a [Sincronización única y bidireccional de pedidos de ventas](#single-and-bi-directional-synchronization-of-sales-orders).<br><br>**Nota:** No puede usar esta opción si usa la opción **Habilitar integración de pedido de venta**. Las dos opciones se excluyen mutuamente.|
 
 ### Configuración de conexión en la página de configuración de conexión de Microsoft Dynamics 365
 
@@ -68,11 +73,29 @@ Además de las configuraciones anteriores, introduzca las siguientes configuraci
 | **La integración de pedidos de venta está habilitada** | Permitir que los usuarios envíen pedidos de venta y ofertas activadas en [!INCLUDE[crm_md](includes/crm_md.md)] y después verlas y procesarlas en [!INCLUDE[prod_short](includes/prod_short.md)]. Esta configuración integra el proceso en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Activar la integración de procesamiento de pedidos de venta](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Crear automáticamente pedidos de ventas** | Crear un pedido de venta en [!INCLUDE[prod_short](includes/prod_short.md)] cuando un usuario cree y envíe uno en [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Procesar automáticamente ofertas de venta** | Procesar una oferta de venta cuando en [!INCLUDE[prod_short](includes/prod_short.md)] cuando un usuario cree y active una en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Gestión de datos de ofertas de ventas](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
-|**Sincronización bidireccional de pedidos de venta**|Sincronice pedidos de venta en ambas direcciones. Por ejemplo, si un cliente cambia de opinión sobre el producto o la cantidad que pidió en [!INCLUDE[crm_md](includes/crm_md.md)], puede archivar el documento de ventas y crear uno nuevo en [!INCLUDE[prod_short](includes/prod_short.md)]. Lo mismo se aplica a los cambios en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, cuando cambian los precios, los importes de impuestos o las fechas de envío previstas, los cambios se sincronizan automáticamente para [!INCLUDE[crm_md](includes/crm_md.md)]. La sincronización bidireccional le ayuda a mantener a sus vendedores al día de los últimos cambios y el estado de las ofertas y pedidos.|
-
+|**Sincronización bidireccional de pedidos de venta**|Sincronice pedidos de venta en ambas direcciones. Para obtener más información sobre esta opción, vaya a [Sincronización única y bidireccional de pedidos de ventas](#single-and-bi-directional-synchronization-of-sales-orders).|
 <!--
 ### User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
+### La sincronización única y bidireccional de pedidos de venta
+
+Cuando configura su integración, ya sea en la guía de configuración o en la página de configuración de conexión de Microsoft Dynamics 365, hay opciones que controlan la dirección en la que sincroniza los pedidos de ventas y cómo los envía.
+
+La opción **Sincronización bidireccional de pedidos de venta** le permite sincronizar pedidos de venta desde Sales a [!INCLUDE [prod_short](includes/prod_short.md)] y viceversa. Por ejemplo, si un cliente cambia de opinión sobre el producto o la cantidad que pidió en [!INCLUDE[crm_md](includes/crm_md.md)], puede archivar el documento de ventas y crear uno nuevo en [!INCLUDE[prod_short](includes/prod_short.md)]. Lo mismo se aplica a los cambios en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, cuando cambian los precios, los importes de impuestos o las fechas de envío previstas, los cambios se sincronizan para [!INCLUDE[crm_md](includes/crm_md.md)]. La sincronización bidireccional le ayuda a mantener a sus vendedores al día de los últimos cambios y el estado de los pedidos de venta.
+
+Para la sincronización bidireccional, los pedidos de venta están disponibles para sincronización cuando cambia su estado a **Enviado** en Sales. Cuando establece ese estado, ya no puede cambiar la información en las líneas del pedido. Cuando sincroniza, el pedido se transfiere a [!INCLUDE [prod_short](includes/prod_short.md)] con el estado **Liberado**. Si hay un error, puede revertir el orden a **Abierto** (en [!INCLUDE [prod_short](includes/prod_short.md)]) o **Activo** (en Sales) y luego agregar o eliminar líneas para corregir el error y enviar el pedido nuevamente.
+
+> [!TIP]
+> Cuando habilita la opción **Sincronización bidireccional de pedidos de venta**, [!INCLUDE [prod_short](includes/prod_short.md)] crea un registro en la página **Archivos de pedidos de venta** cuando publica o cambia información en un pedido. Por ejemplo, las versiones archivadas pueden resultar útiles para explorar el historial de un pedido.
+
+La opción **Habilitar integración de pedido de venta** se sincroniza sola desde Sales a [!INCLUDE [prod_short](includes/prod_short.md)]. Para esta opción, utilice la acción **Enviar** en Sales para que los pedidos estén disponibles para sincronización. Cuando lo haga, ya no puede cambiar la información en las líneas del pedido. Cuando sincroniza, el pedido se transfiere a [!INCLUDE [prod_short](includes/prod_short.md)] con el estado **Liberado**.
+
+Para usar esta opción, debe proporcionar las credenciales de una cuenta de usuario de administrador en [!INCLUDE[crm_md](includes/crm_md.md)]. Para obtener más información, consulte [Manejo de datos de pedidos de ventas especiales](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+
+> [!NOTE]
+> Las opciones **Sincronización bidireccional de pedido de venta** y **Habilitar integración de pedido de venta** son mutuamente excluyentes. No puede usar ambas opciones al mismo tiempo.
+
+Para ambas opciones, [!INCLUDE [prod_short](includes/prod_short.md)] muestra todos los pedidos de venta con el estado **Enviado** en la página **Pedidos: Microsoft Dynamics 365 Sales**.
 
 ### Asignación de entidad de Sales estándar para la sincronización
 
@@ -100,6 +123,7 @@ La siguiente tabla enumera la asignación estándar entre tablas en [!INCLUDE[pr
 > Las asignaciones para las tablas Unidad de medida de elemento, Unidad de medida de recurso y Grupo de unidad están disponibles solo si su administrador ha activado la opción **Actualización de funciones: sincronización de varias unidades de medida con Dynamics 365 Sales** de función en la página **Gestión de funciones**. Para más información, ver [Sincronización de artículos y recursos con productos en diferentes unidades de medida](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
 ## Sincronización de artículos y recursos con productos con diferentes unidades de medida
+
 Las empresas a menudo producen o compran los artículos en una unidad de medida y luego los venden en otra. Para sincronizar elementos que utilizan varias unidades de medida, debe activar el interruptor **Actualización de funciones: sincronización de varias unidades de medida con Dynamics 365 Sales** de función en la página **Gestión de funciones**. 
 
 Cuando activa la actualización de funciones, se crea una nueva tabla de grupo de unidades y se asigna a cada elemento y recurso en [!INCLUDE[prod_short](includes/prod_short.md)]. Las tablas le permiten asignar las tablas Grupo de unidad, Unidad de medida de artículo y Unidad de medida de recurso en [!INCLUDE[prod_short](includes/prod_short.md)] al Grupo de Unidades de Dynamics 365 Sales en [!INCLUDE[crm_md](includes/crm_md.md)]. La siguiente imagen muestra las asignaciones.
@@ -109,6 +133,7 @@ Cuando activa la actualización de funciones, se crea una nueva tabla de grupo d
 Puede crear varias unidades de medida para cada grupo de unidades y asignar los grupos a productos en [!INCLUDE[crm_md](includes/crm_md.md)]. Posteriormente, podrá sincronizar los productos con elementos y recursos en [!INCLUDE[prod_short](includes/prod_short.md)]. Puede acoplar manualmente unidades de medida de artículos o unidades de medida de recursos con un grupo de unidades. Cuando lo haga, si el grupo de unidades para el elemento o recurso no está emparejado con un grupo de unidades en [!INCLUDE[crm_md](includes/crm_md.md)], por ejemplo, porque el grupo unitario no existía, [!INCLUDE[prod_short](includes/prod_short.md)] creará automáticamente el grupo de unidades en [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ### Asignación de elementos y recursos a productos
+
 Cuando activa el **Actualización de funciones: sincronización de varias unidades de medida con Dynamics 365 Sales** función de cambio, ocurre lo siguiente:
 
 * Se crean nuevas asignaciones para elementos y recursos.
@@ -125,7 +150,7 @@ Los siguientes pasos describen los pasos para comenzar a asignar grupos de unida
 1. Asegúrese de que los productos en [!INCLUDE[crm_md](includes/crm_md.md)] no se combinan con elementos o recursos en [!INCLUDE[prod_short](includes/prod_short.md)]. Si lo son, vaya a las páginas **Elementos** y / o **Recursos** y use las opciones de filtro para seleccionar los registros acoplados. Después elija la acción **Dynamics 365 Sales**, y luego elija **Desacoplar**. Esta acción programa un trabajo en segundo plano para desemparejar los registros. Mientras se ejecuta el trabajo, puede comprobar su estado mediante la acción **Registro de sincronización**. Para obtener más información, consulte [Emparejamiento y sincronización](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Debido a que se crearán nuevos productos en [!INCLUDE[crm_md](includes/crm_md.md)] con nuevos grupos de unidades, para evitar nombres duplicados, realice una de las siguientes acciones:
     
-    * Cambie el nombre de sus productos y luego retírelos en [!INCLUDE[crm_md](includes/crm_md.md)]. Para más información, ver [Retirar productos (Centro de ventas)](/dynamics365/sales-enterprise/retire-product). Para editar de forma masiva sus productos en Microsoft Excel, iniciar sesión en Power Apps, elija su entorno, vaya a la tabla **Producto** tabla y después elija la pestaña **Datos**. Borre los filtros que se apliquen. En el grupo **Datos** grupo, elija la acción **Editar datos en Excel**. Agregue un prefijo o sufijo a los productos acoplados y luego retírelos.
+  * Cambie el nombre de sus productos y luego retírelos en [!INCLUDE[crm_md](includes/crm_md.md)]. Para más información, ver [Retirar productos (Centro de ventas)](/dynamics365/sales-enterprise/retire-product). Para editar de forma masiva sus productos en Microsoft Excel, iniciar sesión en Power Apps, elija su entorno, vaya a la tabla **Producto** tabla y después elija la pestaña **Datos**. Borre los filtros que se apliquen. En el grupo **Datos** grupo, elija la acción **Editar datos en Excel**. Agregue un prefijo o sufijo a los productos acoplados y luego retírelos.
     * Retire sus productos y elimínelos. 
 
 3. Siga estos pasos para sincronizar **Grupos de unidades**, **Unidad de medidas**, **Elementos** y **Recursos**:
@@ -169,9 +194,9 @@ Los trabajos se ejecutan en el siguiente orden para evitar dependencias de empar
 5. Proyecto de sincronización de SALESPRC-PRODPRICE - Dynamics 365 Sales.
 6. Proyecto de sincronización de POSTEDSALESINV-INV - Dynamics 365 Sales.
 
-### Movimientos de la cola de proyectos de sincronización predeterminados
+### Entradas de cola de proyectos de sincronización predeterminados
 
-La tabla siguiente describe los proyectos de sincronización predeterminados para Sales.  
+La tabla siguiente describe los proyectos de sincronización predeterminados para [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 |Mov. cola proyecto|Descripción|Dirección|Asignación de tablas de integración|Frecuencia de sincronización predeterminada (minutos)|Tiempo de reposo de inactividad predeterminado (minutos)|  
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
@@ -184,6 +209,7 @@ La tabla siguiente describe los proyectos de sincronización predeterminados par
 |Sincronización de Estadísticas de clientes - Dynamics 365 Sales|Actualiza las cuentas de [!INCLUDE[crm_md](includes/crm_md.md)] con los últimos datos de los clientes de [!INCLUDE[prod_short](includes/prod_short.md)]. En [!INCLUDE[crm_md](includes/crm_md.md)], la información se muestra en el formulario de vista rápida **Estadísticas de la cuenta de Business Central** de cuentas que están emparejadas con los clientes de [!INCLUDE[prod_short](includes/prod_short.md)].<br /><br /> Estos datos también pueden actualizarse manualmente desde cada registro de cliente. Para obtener más información, consulte [Emparejar y sincronizar registros manualmente](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Nota:** este movimiento de la cola de proyectos es relevante solo si la solución de integración de [!INCLUDE[prod_short](includes/prod_short.md)] está instalada en [!INCLUDE[crm_md](includes/crm_md.md)]. |No aplicable|No aplicable|30|No aplicable| 
 
 ## Conexión con las versiones locales de Business Central 2019, lanzamientos de versiones 1 y Microsoft Dynamics NAV 2018
+
 El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) que está desaprobando el tipo de autenticación de Office365. Si esta usando una versión de [!INCLUDE[prod_short](includes/prod_short.md)] local anterior a Business Central 2019, lanzamiento de versiones 1, debe usar el tipo de autenticación OAuth para conectarse a [!INCLUDE[crm_md](includes/crm_md.md)] online. Los pasos de esta sección describen cómo conectar las siguientes versiones del producto:
 
 * Business Central 2019 lanzamiento de versiones 1
@@ -191,15 +217,15 @@ El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-c
 
 ### Requisitos previos
 
-- Debe tener una suscripción a Microsoft Azure. Una cuenta de prueba funcionará para el registro de la aplicación.
-- [!INCLUDE[crm_md](includes/crm_md.md)] está configurado para usar uno de los siguientes tipos de autenticación:
+* Debe tener una suscripción a Microsoft Azure. Una cuenta de prueba funcionará para el registro de la aplicación.
+* [!INCLUDE[crm_md](includes/crm_md.md)] está configurado para usar uno de los siguientes tipos de autenticación:
 
-   - Office365 (heredado)
+   * Office365 (heredado)
 
      > [!IMPORTANT]
      > A partir de abril de 2022, Office365 (heredado) ya no será compatible. Para obtener más información, consulte [Próximos cambios importantes (ceses de uso) en Power Apps, Power Automate y aplicaciones de interacción con el cliente](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
 
-   - OAuth
+   * OAuth
 
 ### Para conectar Business Central 2019 lanzamiento de versiones 1 y Dynamics NAV 2018
 
@@ -216,7 +242,7 @@ El equipo de Microsoft Power Platform ha [anunciado](/power-platform/important-c
    > [!Important]
    > Este usuario no debe tener la función de seguridad de administrador del sistema. Además, no puede utilizar la cuenta de administrador del sistema como usuario de integración.
 
-3.  En Azure Portal, cree un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Registrar una aplicación en Microsoft Entra ID](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+3. En Azure Portal, cree un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Registrar una aplicación en Microsoft Entra ID](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
   
    > [!NOTE]
    > Le recomendamos que registre la aplicación en el mismo inquilino que su entorno de Dataverse para que no tenga que dar su consentimiento para permitir que la aplicación acceda al entorno. Si registra la aplicación en otro entorno, debe iniciar sesión en Microsoft Entra ID usando la cuenta de administrador para su entorno de Dataverse y dar su consentimiento.
