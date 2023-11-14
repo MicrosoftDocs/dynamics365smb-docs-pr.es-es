@@ -2,10 +2,11 @@
 # [Documentación de Business Central](index.yml)
 # [Te damos la bienvenida a Business Central](welcome.md)
 # [Novedades y planificación](product-news.md)
-# Comenzar
+# Introducción
 ## [Información general de las funciones empresariales](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
-## Obtener información
+## Aprender
+### [Recursos para usuarios](resources-for-users.md)
 ### [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)
 ### [Formación de Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Tutoriales de procesos de negocio
@@ -349,6 +350,7 @@
 #### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
 
 ### Administrar documentos electrónicos
+#### [Información general de documentos electrónicos](finance-edocuments-overview.md)
 #### [Configurar documentos electrónicos](finance-how-setup-edocuments.md)
 #### [Usar documentos electrónicos en ventas y compras](finance-how-use-edocuments.md)
 #### [Ampliar la funcionalidad de documentos electrónicos](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
@@ -1815,7 +1817,8 @@
 
 ## Analizar datos en herramientas de inteligencia empresarial
 ### [Información general](reports-external-analysis.md)
-### [Uso de Power BI con Business Central](admin-powerbi.md)
+### [Microsoft Fabric y Business Central](admin-fabric.md)
+### [Usar Power BI con Business Central](admin-powerbi.md)
 ### [Analizar estados financieros con Excel](finance-analyze-excel.md)
 ### [Extraer datos a almacenes de datos o lagos de datos](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Leer datos con la API de Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)

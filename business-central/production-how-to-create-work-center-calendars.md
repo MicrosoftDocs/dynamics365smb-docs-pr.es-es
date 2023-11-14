@@ -10,7 +10,7 @@ ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-shop-calendars"></a>Configurar calendarios de planta
+# Configurar calendarios de planta
 
 Un calendario del centro de trabajo o de máquina especifica los días y las horas laborables, las vacaciones y las ausencias que determinan la capacidad disponible bruta del centro de trabajo, medida en tiempo, de acuerdo con los valores de eficiencia y capacidad definidos.
 
@@ -18,7 +18,7 @@ Como requisito para calcular el calendario de un centro de trabajo o de máquina
 
 A continuación se describe cómo configurar calendarios de centro de trabajo. Los pasos son parecidos al configurar los calendarios de centro de máquina.  
 
-## <a name="to-create-work-shifts"></a>Para crear turnos de trabajo
+## Para crear turnos de trabajo  
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Turnos trabajo** y luego elija el enlace relacionado.  
 2.  En una línea en blanco, escriba un número en el campo **Código** que identifique el turno de trabajo, por ejemplo, **1**.  
 3.  Describa el turno de trabajo en el campo **Descripción**, por ejemplo, **Primer turno**.  
@@ -26,7 +26,7 @@ A continuación se describe cómo configurar calendarios de centro de trabajo. L
 
 Aunque en los centros de trabajo no se trabaje en diferentes turnos, introduzca al menos un código de turno.  
 
-## <a name="to-set-up-a-shop-calendar"></a>Para configurar un calendario de planta
+## Para configurar un calendario de planta  
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Calendarios de planta** y luego elija el enlace relacionado.  
 2.  En una línea en blanco, escriba un número en el campo **Código** que identifique el calendario de planta.  
 3.  Describa el calendario de planta en el campo **Descripción**.  
@@ -60,7 +60,7 @@ Las vacaciones definidas tendrán una capacidad disponible de cero en el calenda
 
 El calendario de planta se puede asignar ahora a un centro de trabajo para calcular el calendario laborable que regirá la programación de todas las operaciones en dicho centro.  
 
-## <a name="to-calculate-a-work-center-calendar"></a>Para calcular un calendario de centro de trabajo
+## Para calcular un calendario de centro de trabajo  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Centros de trabajo** y luego elija el enlace relacionado.
 2. Abra el centro de trabajo que desea actualizar.  
@@ -88,7 +88,7 @@ Ahora se crearán o actualizarán los movimientos del calendario para mostrar la
 
 El calendario calculado del centro de trabajo definirá ahora cuándo y cuánta capacidad hay disponible en este centro de trabajo. Esto controla la programación detallada de las operaciones realizadas en el centro de trabajo.  
 
-## <a name="to-record-work-center-absence"></a>Para registrar las ausencias en el centro de trabajo
+## Para registrar las ausencias en el centro de trabajo  
 1.  En la página **Calendario de centro de trabajo**, elija la acción **Mostrar matriz**.
 2. En la página **Matriz de calendario de centro de trabajo**, seleccione el centro de trabajo y el día de calendario donde debe registrarse el tiempo de ausencia y, a continuación, seleccione la acción **Ausencia**.  
 3.  En la página **Ausencia**, defina la hora de inicio, la hora de finalización y la descripción del día de ausencia. Por ejemplo:  
@@ -99,7 +99,7 @@ El calendario calculado del centro de trabajo definirá ahora cuándo y cuánta 
 
 El tiempo de ausencia registrado se reduce de la capacidad del día seleccionado.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Configurar calendarios base](across-how-to-assign-base-calendars.md)  
 [Configuración de centros de trabajo y centros de máquinas](production-how-to-set-up-work-and-machine-centers.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="managing-receivables"></a>Administrar cobros
+# Administrar cobros
 
 Un paso normal en el ritmo financiero es conciliar las cuentas bancarias, lo que requiere liquidar pagos entrantes en las movimientos de cliente o propiedad para cerrar las facturas de venta y los abonos de compra como pagados.
 
@@ -41,7 +41,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuento de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Ventas](sales-manage-sales.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

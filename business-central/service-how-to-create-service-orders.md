@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="create-service-orders"></a>Crear pedidos de servicio
+# Crear pedidos de servicio
 Puede utilizar la página **Pedido servicio** para crear documentos en los que se introduce información acerca de un servicio, como reparación y mantenimiento, de productos de servicio a solicitud del cliente.  
 
 Cuando cree un pedido de servicio, solo tendrá que rellenar algunos campos. Algunos campos son opcionales y muchos se rellenarán automáticamente cuando rellene los campos correspondientes.  
 
-## <a name="to-create-a-service-order"></a>Para crear un pedido de servicio
+## Para crear un pedido de servicio    
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
 2. Cree un pedido de servicio nuevo.  
 3. En el campo **N.º**, introduzca un número para el pedido de servicio.  
@@ -28,7 +28,7 @@ Cuando cree un pedido de servicio, solo tendrá que rellenar algunos campos. Alg
 6. Si lo desea, puede rellenar el resto de los campos.  
 7. Registre las líneas de producto de servicio.  
 
-## <a name="to-create-a-service-order-from-a-contract"></a>Para crear un pedido de servicio a partir de un contrato
+## Para crear un pedido de servicio a partir de un contrato  
 Puede basarse en contratos de servicio para crear automáticamente ofertas de servicio de mantenimiento de productos de servicio.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear pedidos serv. contrato** y, a continuación, elija el enlace relacionado.  
@@ -42,7 +42,7 @@ Puede basarse en contratos de servicio para crear automáticamente ofertas de se
     > [!NOTE]  
     >  No podrá crear pedidos con varios productos de servicio, si configura el campo **Una línea prod. serv./pedido** en la página **Configuración de gestión de servicios**. 
 
-## <a name="to-convert-a-service-quote-to-a-service-order"></a>Para convertir una oferta de servicio en un pedido de servicio
+## Para convertir una oferta de servicio en un pedido de servicio
 Una vez que el cliente ha aceptado la oferta de servicio, puede convertirla en un pedido de servicio. La oferta se elimina y se configura un nuevo pedido de servicio con la misma descripción que la oferta de servicio. Se vuelven a calcular la fecha y el tiempo de respuesta del pedido de servicio y el estado se establece como **Pendiente**. El estado de reparación de los productos de servicio del pedido se cambian a **Inicial**.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] busca movimientos de asignación para todos los productos de servicio de la oferta de servicio cuyo estado sea **Activo**. Si encuentra los movimientos de asignación, se actualiza su estado de asignación a **Reasignación necesaria**. Cuando se reasignan los productos de servicio del pedido de servicio, se actualiza el estado de los movimientos de asignación registrados para la oferta a **Terminado**.   
@@ -51,7 +51,7 @@ Una vez que el cliente ha aceptado la oferta de servicio, puede convertirla en u
 2. Elija la oferta de servicio relevante que desee convertir en pedido de servicio.  
 3. Seleccione la acción **Crear pedido**.  
 
-## <a name="to-check-item-availability-for-one-or-more-orders"></a>Comprobación de la disponibilidad de los artículos para uno o varios pedidos de servicio
+## Comprobación de la disponibilidad de los artículos para uno o varios pedidos de servicio  
 Es posible comprobar si el artículo necesario para cubrir un pedido está en existencias y, en caso contrario, averiguar cuándo lo estará. Además, si es posible efectuar la reserva de un artículo, podrá reservarlo para asegurarse de que esté disponible para el uso. Puede activar la disponibilidad de un pedido determinado o de todos los pedidos.  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Panel despacho** y luego elija el enlace relacionado.  
@@ -62,7 +62,7 @@ Es posible comprobar si el artículo necesario para cubrir un pedido está en ex
 
 3. En la página **Panorama de demanda**, expanda el grupo de productos, y consulte la información acerca de la disponibilidad del producto. Por ejemplo, puede ver cuántos productos están en el inventario. También puede ver cuando un artículo estará disponible si se trata de un pedido pendiente, es decir, cuando el tipo de origen = compra o si se ha reservado.
 
-## <a name="to-reserve-an-item-for-a-service-order"></a>Reservar un artículo para un pedido de servicio
+## Reservar un artículo para un pedido de servicio
 Si necesita asegurarse de que un producto está disponible para el pedido de servicio, puede reservarlo.
 
 1. En el cuadro **Buscar**, escriba **Pedidos de servicio** y, a continuación, elija el vínculo relacionado.  
@@ -71,7 +71,7 @@ Si necesita asegurarse de que un producto está disponible para el pedido de ser
 4. En la página **Líneas servicio**, seleccione el producto para reservar y, a continuación, elija la acción **Reserva**.  
 5. En la página **Reservas**, elija **Reservar desde línea actual**.
 
-## <a name="to-insert-lines-based-on-standard-service-codes"></a>Para insertar líneas basadas en el servicio estándar
+## Para insertar líneas basadas en el servicio estándar  
 Si ha configurado códigos de servicio estándar y los ha asignado a grupos de productos de servicio, puede insertar las líneas estándar vinculadas a los códigos de servicio estándar en documentos de servicio. Para obtener más información, consulte [Configurar códigos de servicio estándar](service-how-setup-service-coding.md).   
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
@@ -84,10 +84,10 @@ Si ha configurado códigos de servicio estándar y los ha asignado a grupos de p
 > [!NOTE]  
 >  Si el campo **Cód. grupo prod. servicio** de la línea de artículo de servicio del documento está en blanco, quiere decir que el artículo de servicio no pertenece a ningún grupo de artículo de servicio. En este caso, la página **Códs. grupo prod. serv. est.** contendrá una lista de todos los códigos de servicio estándar. Debe seleccionar las líneas de la lista para insertar líneas de servicio estándar en el documento. También puede seleccionar de la lista de códigos de servicio estándar asignados a un grupo específico de artículos de servicio. Para ver la lista, seleccione el código correspondiente en el campo **Cód. grupo prod. servicio** de la página **Códs. grupo prod. serv. est.**  
 
-## <a name="to-register-internal-or-public-comments"></a>Para registrar comentarios internos o públicos
+## Para registrar comentarios internos o públicos
 Puede agregar comentarios que se imprimirán en los pedidos y ofertas de servicio para proporcionar información adicional. Puede agregar hasta 80 caracteres, incluso espacios. Si necesita escribir más texto, elija otra línea. Para registrar un comentario, elija una línea y, a continuación, elija la acción **Comentarios**.  
 
-## <a name="to-delete-invoiced-service-orders"></a>Para eliminar pedidos de servicio facturados
+## Para eliminar pedidos de servicio facturados  
 Los pedidos se suelen eliminar automáticamente después de haberse facturado en su totalidad. Cuando se registra una factura, se crea un movimiento correspondiente en la página **Facts. ventas (servicio) regis.** El documento registrado se puede ver en la página **Fact. ventas (servicio) regis.**  
 
 Sin embargo, los pedidos de servicio no se eliminarán de forma automática si la cantidad total de dicho pedido no se ha registrado desde el pedido de servicio en sí, sino desde la página **Factura servicio**. En este caso, puede que tenga que eliminar los pedidos facturados que no se hayan eliminado. Para ello, ejecute el proceso **Eliminar ped. servicio facturados**.  
@@ -97,7 +97,7 @@ Sin embargo, los pedidos de servicio no se eliminarán de forma automática si l
 3. Elija **Aceptar**.  
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Registro de servicio](service-service-posting.md)  
 [Registrar un ped. serv.](service-how-to-post-service-orders.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  

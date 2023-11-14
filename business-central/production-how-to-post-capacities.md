@@ -10,11 +10,11 @@ ms.search.form: '5832, 99000802, 99000820'
 ms.date: 03/08/2023
 ms.author: bholtorf
 ---
-# <a name="post-capacities"></a>Registrar capacidades
+# Registrar capacidades
 
 En el diario de capacidad, registra las capacidades consumidas que no se asignan a la orden de producción. Por ejemplo, el trabajo de mantenimiento se debe asignar a la capacidad, pero no a una orden de producción.  
 
-## <a name="to-post-capacities"></a>Para registrar capacidades
+## Para registrar capacidades  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de capacidad**, y luego elija el enlace relacionado.  
 2. Rellene los campos **Fecha registro** y **Nº documento**.  
@@ -25,7 +25,7 @@ En el diario de capacidad, registra las capacidades consumidas que no se asignan
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-work-center-ledger-entries"></a>Para consultar los movimientos de centros de trabajo
+## Para consultar los movimientos de centros de trabajo  
 
 En las páginas **Ficha de centro de trabajo** y **Ficha de centro de máquina**, puede ver las capacidades registradas como resultado de órdenes de producción terminadas.    
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Centros de trabajo** y luego elija el enlace relacionado.  
@@ -33,7 +33,7 @@ En las páginas **Ficha de centro de trabajo** y **Ficha de centro de máquina**
 
     La página **Movs. capacidad** muestra los movimientos registrados desde el centro de trabajo en la orden en que fueron registrados.   
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 
 [Fabricación](production-manage-manufacturing.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  

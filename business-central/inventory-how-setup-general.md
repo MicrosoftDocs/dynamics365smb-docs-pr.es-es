@@ -11,11 +11,11 @@ ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-general-inventory-information"></a>Configurar información de inventario general
+# Configurar información de inventario general
 
 Especifique la configuración del inventario en la página **Configuración de inventario**.
 
-## <a name="to-set-up-general-inventory-information"></a>Para configurar la información de inventario general
+## Para configurar la información de inventario general
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Config. existencias** y luego elija el enlace relacionado.
 2. En la página **Configuración de inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +31,7 @@ Si desea que el sistema incluya un tiempo de manipulación en almacén de entrad
 >
 > Alternativamente, puede ajustar manualmente los costes a intervalos regulares con el trabajo por lotes Ajustar coste - Entradas de productos. También puede desactivar el registro de costes o establecer el campo **Ajuste automático de costes** a *Nunca*. En ambos casos, se muestra una notificación desde la cual puede iniciar una guía de configuración asistida para ayudarlo a programar tareas para la cola de proyectos. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configuración de inventario](inventory-setup-inventory.md)  
 [Detalles de diseño: Métodos de coste](design-details-costing-methods.md)  

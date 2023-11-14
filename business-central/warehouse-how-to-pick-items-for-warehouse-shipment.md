@@ -10,7 +10,7 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Realizar un picking de los artículos para el envío de almacén
+# Realizar un picking de los artículos para el envío de almacén
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], la selección y el envío de productos se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
@@ -39,11 +39,11 @@ A continuación, puede crear los documentos de almacén desde cero. Los pickings
 >  
 > Para obtener información acerca de la realización de picking de componentes para pedidos de ensamblado en general, incluidas las situaciones en las que los productos no están relacionados con un envío de ventas, consulte [Picking para producción, ensamblado o proyectos en configuraciones avanzadas de almacén](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Verifique si los artículos están disponibles para ser recogidos
+## Verifique si los artículos están disponibles para ser recogidos
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Para crear documentos de picking de forma masiva con la hoja de trabajo de picking
+## Para crear documentos de picking de forma masiva con la hoja de trabajo de picking
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo picking** y luego elija el enlace relacionado.  
 
@@ -93,7 +93,7 @@ A continuación, puede crear los documentos de almacén desde cero. Los pickings
 
 8. Elija **Aceptar**. [!INCLUDE [prod_short](includes/prod_short.md)] creará el picking de acuerdo con sus selecciones.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Para realizar un picking de los envíos de almacén
+## Para realizar un picking de los envíos de almacén
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking almacén** y luego elija el enlace relacionado.  
 
@@ -115,7 +115,7 @@ A continuación, puede crear los documentos de almacén desde cero. Los pickings
 
 Ahora puede llevar los artículos al muelle de envío y registrar el envío, incluido el documento de origen relacionado, en la página **Envío de almacén**. Obtenga más información en [Enviar productos](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
