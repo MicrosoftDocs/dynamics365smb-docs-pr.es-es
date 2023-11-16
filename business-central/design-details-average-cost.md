@@ -67,12 +67,12 @@ En la tabla siguiente se muestran los movimientos de producto del producto del c
 
  En la tabla siguiente se muestran los movimientos en la tabla **Punto de entrada aj. coste promedio** que se aplican a los movimientos de valor que son el resultado de los movimientos de producto en la tabla anterior.  
 
-| **Nº producto** | **Cód. variante** | **Código de almacén** | **Fecha valoración** | **Coste ajustado** |
+| **N.º producto** | **Cód. variante** | **Código de almacén** | **Fecha valoración** | **Coste ajustado** |
 |--|--|--|--|--|
-| PROD1 |  | AZUL | 01-01-23 |   N.º |
-| PROD1 |  | AZUL | 02-01-23 |   N.º |
-| PROD1 |  | AZUL | 02-02-23 |   N.º |
-| PROD1 |  | AZUL | 02-03-23 |   N.º |
+| PROD1 |  | AZUL | 01-01-23 |   No |
+| PROD1 |  | AZUL | 02-01-23 |   No |
+| PROD1 |  | AZUL | 02-02-23 |   No |
+| PROD1 |  | AZUL | 02-03-23 |   No |
 
  En la tabla siguiente se muestran los mismos movimientos de producto después de que se haya ejecutado el proceso **Valorar stock - movs. producto**. Se calcula el coste medio por día y se aplica a las salidas de existencias.  
 
@@ -107,10 +107,10 @@ En la tabla siguiente se muestran los movimientos de producto del producto del c
 
 En la tabla siguiente se muestran los movimientos en la tabla **Punto de entrada aj. coste promedio** que se aplican a los movimientos de valor que son el resultado de los movimientos de producto en la tabla anterior.  
 
-| **Nº producto** | **Cód. variante** | **Código de almacén** | **Fecha valoración** | **Coste ajustado** |
+| **N.º producto** | **Cód. variante** | **Código de almacén** | **Fecha valoración** | **Coste ajustado** |
 |--|--|--|--|--|
-| PROD1 |  | AZUL | 01-31-23 |   N.º |
-| PROD1 |  | AZUL | 02-28-23 |   N.º |
+| PROD1 |  | AZUL | 01-31-23 |   No |
+| PROD1 |  | AZUL | 02-28-23 |   No |
 
 > [!NOTE]  
 > La fecha de valoración se establece como el último día del periodo de coste medio, que, en este caso, es el último día del mes.  
@@ -147,7 +147,7 @@ Para obtener el coste medio para febrero, [!INCLUDE [prod_short](includes/prod_s
 
 En la siguiente tabla de movimientos de valoración se ilustran los distintos escenarios.  
 
-| Caso | Fecha reg. | Tipo mov. producto | Fecha valoración | Cdad. valorada | Importe coste (real) | Nº mov. producto | N.º de movimiento |
+| Caso | Fecha reg. | Tipo mov. producto | Fecha valoración | Cdad. valorada | Importe coste (real) | N.º mov. producto | N.º de movimiento |
 |--|--|--|--|--|--|--|--|
 | 1 | 01-01-20 | Compra | 01-01-20 | 2 | 20.00 | 1 | 1 |
 | 2 | 15-01-20 | (Cargo de producto) | 01-01-20 | 2 | 8.00 | 1 | 2 |

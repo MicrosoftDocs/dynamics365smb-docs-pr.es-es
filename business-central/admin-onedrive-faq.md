@@ -26,7 +26,7 @@ Como parte de su suscripción a Microsoft 365, su organización le proporciona O
 
 ## ¿Admite [!INCLUDE[prod_short](includes/prod_short.md)] OneDrive para consumidores?
 
-Nº Esta integración está destinada exclusivamente a OneDrive para la Empresa y solo es compatible con su cuenta de trabajo. 
+No. Esta integración está destinada exclusivamente a OneDrive para la Empresa y solo es compatible con su cuenta de trabajo. 
 
 ## ¿Se admiten todos los planes de OneDrive para la Empresa?
 
@@ -42,11 +42,11 @@ Si, pero a diferencia de [!INCLUDE[prod_short](includes/prod_short.md)] en líne
 
 ## ¿Se conecta [!INCLUDE[prod_short](includes/prod_short.md)] local con SharePoint Server?
 
-N.º Esta combinación de implementación no se admite, incluso si SharePoint Server ha habilitado Mis sitios.  
+No. Esta combinación de implementación no se admite, incluso si SharePoint Server ha habilitado Mis sitios.  
 
 ## ¿Se conecta [!INCLUDE[prod_short](includes/prod_short.md)] en línea con SharePoint Server?
 
-N.º Esta combinación de implementación no se admite, incluso si SharePoint Server ha habilitado Mis sitios.  
+No. Esta combinación de implementación no se admite, incluso si SharePoint Server ha habilitado Mis sitios.  
 
 ## ¿Cómo funciona esto en una organización con múltiples entornos?
 

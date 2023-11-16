@@ -61,7 +61,7 @@ sections:
       - question: |
           ¿Puede un usuario invitado utilizar la aplicación para acceder a nuestra solución Business Central?
         answer: |
-          N.º Los usuarios invitados son usuarios invitados de inquilinos diferentes de Microsoft Entra del suyo. En este caso, la aplicación se autenticará en el inquilino Microsoft Entra principal del usuario invitado e intentará abrir el punto final de Business Central en ese inquilino en lugar del suyo.  
+          No. Los usuarios invitados son usuarios invitados de inquilinos diferentes de Microsoft Entra del suyo. En este caso, la aplicación se autenticará en el inquilino Microsoft Entra principal del usuario invitado e intentará abrir el punto final de Business Central en ese inquilino en lugar del suyo.  
 additionalContent: |
 
   ## Consulte también .

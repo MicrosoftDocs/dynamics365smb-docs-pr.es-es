@@ -144,14 +144,14 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 2.  Elija el campo **Nombre sección** y seleccione el diario predeterminado.  
 3.  Cree los ajustes de inventario positivos en el almacén BLANCO en la fecha de trabajo, el 23 de enero. Para ello, especifique la información siguiente.  
 
-    |**Nº producto**|**Cód. zona**|**Cód. ubicación**|**Cantidad**|  
+    |**N.º producto**|**Cód. zona**|**Cód. ubicación**|**Cantidad**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
     |80001|PICKING|W-01-0001|20|  
     |80005|PICKING|W-01-0001|20|  
-    |80011|PICKING|W-01-0001|nº 20|  
-    |80014|PICKING|W-01-0001|nº 20|  
-    |80203|PICKING|W-01-0001|nº 20|  
-    |80209|PICKING|W-01-0001|nº 20|  
+    |80011|PICKING|W-01-0001|n.º 20|  
+    |80014|PICKING|W-01-0001|n.º 20|  
+    |80203|PICKING|W-01-0001|n.º 20|  
+    |80209|PICKING|W-01-0001|n.º 20|  
 
 4.  Elija la acción **Registrar** y, a continuación, seleccione el botón **Sí**.  
 
@@ -183,7 +183,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 4.  Elija la acción **Ensamblado** y luego elija **L.M. de ensamblado**.  
 5.  Defina una L.M. de ensamblado para el kit A con la siguiente información.  
 
-    |**Escriba**|**Nº**|**Cantidad por**|  
+    |**Escriba**|**N.º**|**Cantidad por**|  
     |-------------------------------|------------------------------|---------------------------------------|  
     |Artículo|80001|1|  
     |Artículo|80011|1|  
@@ -206,7 +206,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 7.  Elija la acción **Ensamblado** y luego elija **L.M. de ensamblado**.  
 8.  Defina una L.M. de ensamblado para el kit B con la siguiente información.  
 
-    |**Escriba**|**Nº**|**Cantidad por**|  
+    |**Escriba**|**N.º**|**Cantidad por**|  
     |-------------------------------|------------------------------|---------------------------------------|  
     |Artículo|80005|1|  
     |Artículo|80014|1|  
@@ -238,7 +238,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 4.  Seleccione la línea de pedido de venta para tres unidades del kit B.  
 5.  En la ficha desplegable **Líneas**, seleccione **Línea**, seleccione **Ensamblar para pedido** y, a continuación, elija **Ensamblar para líneas de pedido**.  
 6.  En la página **Ensamblar para líneas de pedido**, en la línea del pedido de ensamblado para el producto 80014, introduzca **2** en el campo **Cantidad por**.  
-7.  En la línea del pedido de ensamblado para el producto 80210, elija el campo **Nº** y seleccione el producto 80209 en su lugar.  
+7.  En la línea del pedido de ensamblado para el producto 80210, elija el campo **N.º** y seleccione el producto 80209 en su lugar.  
 8.  Cree una nueva línea de pedido de ensamblado con la siguiente información.  
 
     |Tipo|N.º|Cantidad por|  
@@ -255,7 +255,7 @@ Cuando el pedido de venta se registra posteriormente como facturado en su totali
 13. En la ficha desplegable **Líneas**, seleccione **Línea**, seleccione **Ensamblar para pedido** y, a continuación, elija **Ensamblar para líneas de pedido**.  
 14. En la página **Ensamblar para líneas de pedido**, cree una nueva línea de pedido de ensamblado con la siguiente información.  
 
-    |Escriba|Nº|Cantidad por|  
+    |Escriba|N.º|Cantidad por|  
     |----------|---------|------------------|  
     |Producto|80203|1|  
 

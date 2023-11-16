@@ -41,7 +41,7 @@ En las fichas de artículo, el campo **Variante obligatoria si existe** tiene la
 |Valor de campo |Descripción|
 |---------|----|
 |Valor predeterminado| El valor de **Configuración de inventario** se aplica a este producto.|
-|N.º| Los usuarios no están obligados a especificar una variante para este producto.|
+|No| Los usuarios no están obligados a especificar una variante para este producto.|
 |Sí| Si el producto tiene una o más variantes, los usuarios deben especificar la variante pertinente. Si no lo hacen, no podrán registrar la transacción.|
 
 > [!NOTE]

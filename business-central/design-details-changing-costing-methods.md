@@ -111,7 +111,7 @@ Al crear pedidos de ensamblado, use la información del diario de inventario fí
 
 |Campo  |Valor a especificar  |
 |---------|---------|
-|Nº producto |El número del producto nuevo. |
+|N.º producto |El número del producto nuevo. |
 |Cantidad |La cantidad en el diario de inventario físico.<br> **NOTA**: Las cantidades calculadas por los diarios de inventario físico no incluyen las cantidades que se encuentran en pedidos que aún no se han enviado.  |
 |Cód. variante |Igual que en el diario de inventario físico.  |
 |Código de ubicación |Igual que en el diario de inventario físico. |
@@ -123,7 +123,7 @@ Al crear pedidos de ensamblado, use la información del diario de inventario fí
 |Campo  |Valor a especificar  |
 |---------|---------|
 |Escriba |Producto |
-|Nº |El número del producto original. |
+|N.º |El número del producto original. |
 |Cantidad por |1 |
 |Cód. variante |Igual que en el diario de inventario físico. |
 |Código de ubicación |Igual que en el diario de inventario físico. |

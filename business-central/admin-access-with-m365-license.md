@@ -42,11 +42,11 @@ Los usuarios tienen derecho a acceder a los datos de [!INCLUDE [prod_short](incl
 |Cliente accediendo al servicio de Business Central |Acceso|
 |-|-|
 |Aplicación Business Central para Microsoft Teams|![Sí](media/check.png)|
-|Cliente web de Business Central |![N.º](media/x-icon.png ) |
-|Aplicaciones móviles de Business Central|![N.º](media/x-icon.png )|
-|API de Business Central|![N.º](media/x-icon.png )|
-|Integraciones de Business Central con otras aplicaciones de Office|![N.º](media/x-icon.png )|
-|Business Central integrado en cualquier otra aplicación |![N.º](media/x-icon.png )|
+|Cliente web de Business Central |![No](media/x-icon.png ) |
+|Aplicaciones móviles de Business Central|![No](media/x-icon.png )|
+|API de Business Central|![No](media/x-icon.png )|
+|Integraciones de Business Central con otras aplicaciones de Office|![No](media/x-icon.png )|
+|Business Central integrado en cualquier otra aplicación |![No](media/x-icon.png )|
 
 ### Acceso a datos
 
@@ -76,19 +76,19 @@ Funciones del cliente de [!INCLUDE [prod_short](includes/prod_short.md)] integra
 
 |Función |Disponible|Funciones de ejemplo|
 |-|-|-|
-|Acciones del sistema de manipulación de datos |![N.º](media/x-icon.png )|Editar, crear, eliminar|
+|Acciones del sistema de manipulación de datos |![No](media/x-icon.png )|Editar, crear, eliminar|
 |Funciones básicas en listas|![Sí](media/check.png)|Buscar, ordenar, cambiar el diseño|
-|Funciones avanzadas en listas|![N.º](media/x-icon.png )|Panel de filtro, vistas|
+|Funciones avanzadas en listas|![No](media/x-icon.png )|Panel de filtro, vistas|
 |Desglose de lista a tarjeta |![Sí](media/check.png)||
-|Acceder a datos desde tablas relacionadas|![N.º](media/x-icon.png )|Panel de cuadro informativo, desglose de campo, vistazo, búsqueda |
-|Acciones|![N.º](media/x-icon.png )|Barra de acción, menús de acción, acciones de notificación de página|
-|Atajos de todo el sistema|![N.º](media/x-icon.png )|Mi configuración, explorador de roles, búsqueda Dígame  |
+|Acceder a datos desde tablas relacionadas|![No](media/x-icon.png )|Panel de cuadro informativo, desglose de campo, vistazo, búsqueda |
+|Acciones|![No](media/x-icon.png )|Barra de acción, menús de acción, acciones de notificación de página|
+|Atajos de todo el sistema|![No](media/x-icon.png )|Mi configuración, explorador de roles, búsqueda Dígame  |
 |Copiar|![Sí](media/check.png)|Copiar filas, copiar valor de campo, copiar vínculo a página|
-|Personalización de IU|![N.º](media/x-icon.png )|Personalice| 
+|Personalización de IU|![No](media/x-icon.png )|Personalice| 
 |Personalización de alineación|![Sí](media/check.png)|Redimensionar columna, Expandir/Contraer, Mostrar más |
-|Compartir datos |![N.º](media/x-icon.png )|Abrir o editar en Excel, compartir con Teams|
+|Compartir datos |![No](media/x-icon.png )|Abrir o editar en Excel, compartir con Teams|
 |Asistencia al usuario alineado|![Sí](media/check.png) |Información sobre herramientas, vínculos a la documentación|
-|Asistencia de usuario avanzada |![N.º](media/x-icon.png )|Sugerencias para la enseñanza de páginas y campos, panel de ayuda|
+|Asistencia de usuario avanzada |![No](media/x-icon.png )|Sugerencias para la enseñanza de páginas y campos, panel de ayuda|
 
 ## Requisitos mínimos
 

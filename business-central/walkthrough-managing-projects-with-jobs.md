@@ -83,7 +83,7 @@ Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que di
 2.  Selecione la acción **Nuevo** para crear una nueva ficha de recursos.  
 3.  En la ficha desplegable **General**, introduzca la siguiente información:  
 
-    - **Nº**: **Tricia**  
+    - **N.º**: **Tricia**  
     - **Nombre**: **Tricia**  
     - **Tipo**: **Persona**  
 
@@ -123,7 +123,7 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 3.  En la ficha desplegable **General**, introduzca la siguiente información:  
 
     - **Descripción**: **Asesoramiento en el equipamiento de la sala de conferencias**  
-    - **Factura-a Nº cliente**: **01445544**  
+    - **Factura-a N.º cliente**: **01445544**  
 
 4.  En la ficha desplegable **Registro**, escriba la siguiente información:  
 
@@ -148,7 +148,7 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 4.  Elija la acción **Producto**.  
 5.  En la página **Precios productos proyecto**, escriba la siguiente información y el precio personalizado:  
 
-    1.  **Nº producto**: **80201 (Programa gráfico)**  
+    1.  **N.º producto**: **80201 (Programa gráfico)**  
     2.  **Precio venta**: **200**  
 
 6.  Cierre la página.  
@@ -171,7 +171,7 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
     |------------------|---------------------------------------|-------------------|  
     |1000|Consultoría sobre la equipación de salones|Principio-Total|  
     |1010|Reunión de consulta con el cliente|Auxiliar|  
-    |nº 1020|Desarrollo|Auxiliar|  
+    |n.º 1020|Desarrollo|Auxiliar|  
     |1090|Total de consultoría|Fin Total|  
 
 3.  Para indicar que algunas tareas son subcategorías de otras tareas, elija la acción **Indentar tareas proyecto**.  
@@ -190,7 +190,7 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 
 2. Cree líneas de planificación con la siguiente información:  
 
-    | Línea | Tipo de línea | Fecha planif.  | Escriba        | Nº   | Cantidad | Precio unitario |
+    | Línea | Tipo de línea | Fecha planif.  | Escriba        | N.º   | Cantidad | Precio unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Presupuesto y facturable | (fecha de hoy) | Recurso | Tricia | 40        |     |
     | 2    | Presupuesto y facturable | (fecha de hoy) | Recurso | Alfredo | 40        |     |
@@ -199,7 +199,7 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
      Cierre la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
 3. Seleccione línea 1020 y, a continuación, elija la acción **Líneas de planificación de proyecto**. Escriba la siguiente información:  
 
-    | Línea | Tipo de línea | Fecha planif.  | Escriba        | Nº   | Cantidad | Precio unitario |
+    | Línea | Tipo de línea | Fecha planif.  | Escriba        | N.º   | Cantidad | Precio unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Presupuesto y facturable | (fecha de hoy) | Recurso | Tricia | 80        |     |
     | 2    | Presupuesto y facturable | (fecha de hoy) | Producto | 80201 (programa gráfico) | 1 |     |
@@ -215,8 +215,8 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
 2.  En la página **Diario proyectos**, en el campo **Nombre sección**, abra la lista **Secciones diario proyecto**. Seleccione la sección de diario de proyecto de **Tricia**.  
 3.  Seleccione la acción **Cálcular uso restante**.  
-4.  En la página **Calc. uso restante proyecto**, en la ficha desplegable **Tarea proyecto**, elija el campo de **Nº proyecto** y seleccione el número de proyecto correspondiente, normalmente trabajo J00010.  
-5.  En la ficha desplegable **Opciones**, escriba **J00001** en el campo **Nº documento**. Esto facilitará el futuro seguimiento del registro.  
+4.  En la página **Calc. uso restante proyecto**, en la ficha desplegable **Tarea proyecto**, elija el campo de **N.º proyecto** y seleccione el número de proyecto correspondiente, normalmente trabajo J00010.  
+5.  En la ficha desplegable **Opciones**, escriba **J00001** en el campo **N.º documento**. Esto facilitará el futuro seguimiento del registro.  
 6.  Escriba la fecha de hoy como fecha de registro.  
 7.  Elija el botón **Aceptar**. De este modo, se generarán las líneas de diario del proyecto derivadas de las líneas de planificación que creó Prakash para el proyecto.  
 8.  Elija el botón **Aceptar** en la página de confirmación. Las líneas generadas se añaden al diario del proyecto.  
@@ -232,7 +232,7 @@ Ya se han registrado las líneas.
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione el proyecto que ha creado antes y, después, seleccione la acción **Crear factura de venta de proyecto**.  
-3.  En la ficha desplegable **Tarea proyecto**, desactive cualquier filtro en **Nº tarea proyecto** para facturar el trabajo. En el campo **Nº proyecto**, seleccione el proyecto correspondiente.  
+3.  En la ficha desplegable **Tarea proyecto**, desactive cualquier filtro en **N.º tarea proyecto** para facturar el trabajo. En el campo **N.º proyecto**, seleccione el proyecto correspondiente.  
 4.  En la ficha desplegable **Opciones**, introduzca la fecha de registro y defina si desea crear una factura por tarea o una sola factura para todas las tareas.  
 5.  Elija el botón **Aceptar** para crear la factura y seleccione el botón **Aceptar** en la página de confirmación.  
 
@@ -241,7 +241,7 @@ Ya se han registrado las líneas.
 ### Para registrar una nueva factura de ventas  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
-2.  Abra la factura para el nº de cliente 01445544. Puede ver que se ha escrito la información para las líneas de planificación.  
+2.  Abra la factura para el n.º de cliente 01445544. Puede ver que se ha escrito la información para las líneas de planificación.  
 3.  Seleccione la acción **Registrar**. Elija **Sí** para confirmar el registro.  
 
 ### Para visualizar la factura registrada  
@@ -272,7 +272,7 @@ Ya se han registrado las líneas.
 
 4. En la página **Líneas de tarea de proyecto**, seleccione la línea 1120 y, a continuación, elija la acción **Líneas de planificación de proyecto**. Cree una línea de planificación con la siguiente información:  
 
-    | Línea | Tipo de línea | Escriba        | Nº   | Cantidad |
+    | Línea | Tipo de línea | Escriba        | N.º   | Cantidad |
     |------|-----------|-------------|-------|----------|
     | 1    | Presupuesto y facturable  | Recurso | Tricia | 30 |
 
@@ -289,11 +289,11 @@ Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas 
 
     - **Tipo línea**: **(en blanco)**  
     - **Fecha registro**: **(fecha actual)**  
-    - **Nº documento**: **J00002**  
-    - **Nº proyecto**: **Deco**  
-    - **Nº tarea proyecto**: **1120**  
+    - **N.º documento**: **J00002**  
+    - **N.º proyecto**: **Deco**  
+    - **N.º tarea proyecto**: **1120**  
     - **Tipo**: **recurso**  
-    - **Nº**: **Tricia**  
+    - **N.º**: **Tricia**  
     - **Cantidad**: **25**  
 
 3. Seleccione la acción **Registrar**.  
@@ -303,13 +303,13 @@ Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas 
 4. En la página **Diario de proyecto**, seleccione la acción **Cálc. uso restante**.  
 5. En la página **Cálc. uso restante proyecto**, en la ficha desplegable **Opciones**, escriba la siguiente información:  
 
-    - **Nº documento**: **J00003**  
+    - **N.º documento**: **J00003**  
     - **Fecha registro**: **(fecha actual)**  
 
 6. En la ficha desplegable **Tarea proyecto**, escriba la siguiente información:  
 
-    - **Nº proyecto**: **Deco**  
-    - **Nº tarea proyecto**: **1120**  
+    - **N.º proyecto**: **Deco**  
+    - **N.º tarea proyecto**: **1120**  
 
 7. Elija el botón **Aceptar** para ejecutar el cálculo.
 
@@ -318,10 +318,10 @@ Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas 
 8. En la opción **Diario proyecto**, cree una línea nueva con la siguiente información. Asegúrese de que ambos números de proyecto son secuenciales con los que ha utilizado ya:  
 
     - **Tipo de línea**: **Presupuesto**  
-    - **Nº proyecto**: **Deco**  
-    - **Nº tarea proyecto**: **1120**  
+    - **N.º proyecto**: **Deco**  
+    - **N.º tarea proyecto**: **1120**  
     - **Tipo**: **recurso**  
-    - **Nº**: **Tricia**  
+    - **N.º**: **Tricia**  
     - **Cantidad**: **5**  
 
      Mediante el uso del tipo de línea **Presupuesto**, se actualizan los costes y los precios previstos, pero no se factura al cliente ninguna de las actualizaciones de costes y precios de contrato.  
@@ -349,16 +349,16 @@ En la página **Copiar proyecto**, puede seleccionar las líneas de proyecto y t
 2. Selecione la acción **Nuevo** para crear un nuevo proyecto. Escriba la siguiente información:  
 
     - **Descripción**: **Equipamiento de 10 salas de conferencias**  
-    - **Factura-a Nº cliente**: **20000**  
+    - **Factura-a N.º cliente**: **20000**  
 
 3. Seleccione la acción **Copiar tareas de proyecto desde**.  
 4. En la página **Copiar tareas de proyecto**, introduzca lo siguiente:  
 
-    - **Nº proyecto**: **Deco**  
-    - **Nº tarea proyecto desde**: **1000**  
+    - **N.º proyecto**: **Deco**  
+    - **N.º tarea proyecto desde**: **1000**  
     - **Origen**: **Líneas planificación proyecto**  
     - **Incl. tipo línea planificación**: **Presupuesto + Facturable**  
-    - **Nº tarea proyecto hasta**: **Guildford Equipar 10 salas de conferencias**  
+    - **N.º tarea proyecto hasta**: **Guildford Equipar 10 salas de conferencias**  
     - Seleccione los campos **Copiar dimensiones** y **Copiar cantidad**.  
 
 5. Elija el botón **Aceptar** para copiar el proyecto y, a continuación, seleccione el botón **Aceptar** para cerrar la página de confirmación.  
@@ -375,11 +375,11 @@ CRONUS acaba de iniciar un proyecto grande de un año de duración. Dado que req
 2. En la página **Plan de cuentas**, seleccione la acción **Nuevo** para crear una ficha nueva.  
 3. En la ficha **Cuenta nueva**, escriba la siguiente información:  
 
-    - **Nº**: **40255**  
+    - **N.º**: **40255**  
     - **Nombre**: **Pago proyecto**  
 
 4. En la ficha desplegable **Registro**, en el campo **Grupo contable producto**, seleccione **Servicios**. Cierre la página.  
-5. En la página **Plan de cuentas**, seleccione **Nº 40255 de pago del proyecto** y, a continuación, seleccione la acción **Incidente en plan de cuentas**. Seleccione **Sí** para confirmar.  
+5. En la página **Plan de cuentas**, seleccione **N.º 40255 de pago del proyecto** y, a continuación, seleccione la acción **Incidente en plan de cuentas**. Seleccione **Sí** para confirmar.  
 
 Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece las tarifas y, a continuación, el pago a plazos configurado. En las líneas de tareas del proyecto, puede crear líneas específicas dedicadas al pago a plazos. Todo el trabajo finalizado del proyecto que se agregue a la previsión se escribirá en las líneas de uso. Para cada línea de tarea de pago en las líneas de planificación, el tipo de línea es **Facturable**, lo que significa que se va a facturar al cliente. Añada una nueva línea para la entrada del pago. En la línea de tarea de uso, puede escribir la información para los productos y recursos utilizados en este proyecto, lo cual aumentará la previsión, como horas de empleado y productos usados en el proyecto.  
 
@@ -389,7 +389,7 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 2. En la nueva ficha **Proyecto**, rellene la siguiente información:  
 
     - **Descripción**: **Redecoración del área de recepción**  
-    - **Factura-a Nº cliente**: **30000**  
+    - **Factura-a N.º cliente**: **30000**  
     - **Grupo contable proyecto**: **Equipar**  
     - **Método WIP**: **Valor coste**  
 
@@ -413,7 +413,7 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
 6. Cree una línea de planificación con la siguiente información:  
 
-    | Línea | Tipo de línea | Fecha planif.  | Escriba        | Nº   | Cantidad | Precio unitario |
+    | Línea | Tipo de línea | Fecha planif.  | Escriba        | N.º   | Cantidad | Precio unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Facturable  | (fecha de hoy) | Cuenta | 40255 | 1        | 5000       |
 
@@ -423,7 +423,7 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
 8. Cree una línea de planificación con la siguiente información:
 
-    | Línea | Tipo de línea | Fecha planif.  | Escriba     | Nº    | Cantidad |
+    | Línea | Tipo de línea | Fecha planif.  | Escriba     | N.º    | Cantidad |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Presupuesto    | (fecha de hoy) | Recurso | Tricia | 120      |
     | 2    | Presupuesto    | (fecha de hoy) | Producto     | 70104  | 10       |
@@ -434,7 +434,7 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
 10. Cree una línea de planificación con la siguiente información:
 
-    | Línea | Tipo de línea | Fecha planif.   | Escriba        | Nº   | Cantidad | Precio unitario |
+    | Línea | Tipo de línea | Fecha planif.   | Escriba        | N.º   | Cantidad | Precio unitario |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Facturable  | (una fecha futura) | Cuenta | 40255 | 1        | 5000       |
 

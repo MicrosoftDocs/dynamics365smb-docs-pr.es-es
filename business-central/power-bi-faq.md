@@ -23,7 +23,7 @@ Sí, porque los informes están incorporados desde Power BI.
 <!-- 3 -->
 ### ¿Están las aplicaciones de Business Central disponibles para Power BI en otros idiomas además del inglés?
 
-Nº Actualmente, estas aplicaciones solo están disponibles en inglés.
+No. Actualmente, estas aplicaciones solo están disponibles en inglés.
 
 <!-- 24 -->
 ### Una vez que se publique un informe en mi espacio de trabajo powerbi.com, ¿puedo descargar su pbix? 
@@ -33,7 +33,7 @@ Sí. Para más información, vea [Descargar un informe del servicio Power BI a P
 <!-- 27 -->
 ### ¿Puedo descargar las aplicaciones como archivos pbix? 
 
-Nº Actualmente, no ofrecemos la descarga de archivos pbix para las aplicaciones de Power BI, porque están publicadas en AppSource.
+No. Actualmente, no ofrecemos la descarga de archivos pbix para las aplicaciones de Power BI, porque están publicadas en AppSource.
 
 ## [Licencias](#tab/license)
 
@@ -41,7 +41,7 @@ Nº Actualmente, no ofrecemos la descarga de archivos pbix para las aplicaciones
 ### ¿Necesito una licencia de Power BI profesional para publicar informes? 
 
 <!-- todo What does " or for every user that consults the published report" mean? fixed -->
-Nº No es necesaria una licencia profesional para publicar informes. La licencia estándar (gratuita) de Power BI es suficiente. Para obtener más información, consulte [Licencias de Power BI](admin-powerbi-setup.md#license).
+No. No es necesaria una licencia profesional para publicar informes. La licencia estándar (gratuita) de Power BI es suficiente. Para obtener más información, consulte [Licencias de Power BI](admin-powerbi-setup.md#license).
 
 <!-- 15 -->
 ### ¿Hay algo que no pueda hacer con la licencia gratuita?
@@ -126,7 +126,7 @@ Actualmente, no hay forma de configurar un filtro para los datos del servicio we
 <!-- 10 -->
 ### Desde Power BI, además de utilizar una consulta, ¿hay otra forma de obtener datos de las tablas de Business Central que no tienen una página asociada? Por ejemplo, como la tabla *Asignación de valores de atributos de artículos*.
 
-Nº No en este momento.
+No. No en este momento.
 
 <!-- 12 --> 
 ### ¿Las consultas publicadas son más rápidas de usar que las páginas publicadas?
@@ -202,12 +202,12 @@ Sí. Nuestras pruebas indican que las páginas de API tienen hasta un 25% más d
 <!-- 18 -->
 ### ¿Hay planes para tener un espejo en la instancia de Azure SQL Database, al que pueda conectarme directamente?
 
-Nº No en este momento. Solo puede comunicarse con Business Central a través de las API.
+No. No en este momento. Solo puede comunicarse con Business Central a través de las API.
 
 <!-- 19 -->
 ### La carga de datos desde los servicios web de Business Central parece lenta. ¿Hay alguna forma de obtener datos directamente de la tabla de la base de datos SQL?
 
-Nº El acceso directo a la base de datos no es posible, pero cambiar a las páginas de API (cuando el nuevo conector esté disponible) será de gran ayuda.
+No. El acceso directo a la base de datos no es posible, pero cambiar a las páginas de API (cuando el nuevo conector esté disponible) será de gran ayuda.
 
 ## [Avanzado](#tab/advanced)
 <!-- 1 -->

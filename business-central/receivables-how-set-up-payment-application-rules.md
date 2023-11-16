@@ -71,8 +71,8 @@ La siguiente tabla describe las reglas de aplicación de pago estándar en [!INC
 | Baja              | 1        | Completamente                 | No                             | Ninguna instancia                     |
 | Baja              | 2        | Parcialmente             | No                             | Múltiples instancias               |
 | Baja              | 3        | Parcialmente             | No                             | Ninguna instancia                     |
-| Baja              | 4        | N.º                    | N.º                             | Una instancia                      |
-| Baja              | 5        | N.º                    | N.º                             | Múltiples instancias               |
+| Baja              | 4        | No                    | No                             | Una instancia                      |
+| Baja              | 5        | No                    | No                             | Múltiples instancias               |
 
 ## Consulte también
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  

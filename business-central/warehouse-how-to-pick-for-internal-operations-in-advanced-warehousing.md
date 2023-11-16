@@ -101,8 +101,8 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
 
     |Opción|Descripción|
     |-|-|
-    |Máx. Nº de líneas de picking|Crea los documentos de picking que tienen emplear no más del número de líneas especificado en cada documento.|
-    |Máx. Nº de doc. origen picking|Crea documentos de picking que abarcan hasta el número de documentos de origen especificado.|
+    |Máx. N.º de líneas de picking|Crea los documentos de picking que tienen emplear no más del número de líneas especificado en cada documento.|
+    |Máx. N.º de doc. origen picking|Crea documentos de picking que abarcan hasta el número de documentos de origen especificado.|
     |Id. usuario asignado|Crea los documentos de picking sólo para las líneas de la hoja de cálculo que se asignan al empleado seleccionado de almacén.|
     |Mét. clasif. para líns. picking|Seleccione una de las opciones disponibles para ordenar las líneas en el documento de picking creado.|
     |Define filtro div. bulto|Oculta líneas de picking de división de bulto intermedias cuando una unidad de medida grande se convierte en una más pequeña y con el picking realizado completamente.|

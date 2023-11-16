@@ -86,7 +86,7 @@ sections:
       - question: |
           ¿Tengo que comprar Microsoft 365?
         answer: |
-          N.º Pero si desea experimentar [!INCLUDE[prod_short](includes/prod_short.md)] completamente integrado con Microsoft 365, puede registrarse para un mes de prueba gratuita de Microsoft 365 [aquí](https://products.office.com/try).  
+          No. Pero si desea experimentar [!INCLUDE[prod_short](includes/prod_short.md)] completamente integrado con Microsoft 365, puede registrarse para un mes de prueba gratuita de Microsoft 365 [aquí](https://products.office.com/try).  
 
           Si se registra con una cuenta de trabajo que no es de Microsoft 365 (como joe@mysolution.com) y tiene una suscripción a Microsoft 365, entonces puede asociar su dominio (*mysolution.com*) con la suscripción de Microsoft 365. Obtenga más información en [¿Qué es un dominio?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) en el contenido de Microsoft 365.  
 

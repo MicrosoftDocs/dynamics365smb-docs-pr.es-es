@@ -60,7 +60,7 @@ sections:
       - question: |
           ¿Puedo buscar vistas en la ventana Dígame?
         answer: |
-          Nº La ventana **Dígame** solo muestra los resultados de búsqueda de la página, pero está a solo un paso de llegar a su vista favorita una vez que navegue a la página.
+          No. La ventana **Dígame** solo muestra los resultados de búsqueda de la página, pero está a solo un paso de llegar a su vista favorita una vez que navegue a la página.
       - question: |
           ¿Qué es el diseño compartido?
         answer: |

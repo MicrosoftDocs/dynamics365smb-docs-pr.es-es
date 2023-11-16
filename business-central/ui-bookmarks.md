@@ -68,7 +68,7 @@ Algunos informes pueden ser sustituidos por otros informes después de aplicar u
 <!-- For more information on report substitution, see this link UNAVAILABLE AT THIS TIME -->
 
 - **¿Están los marcadores disponibles para XMLports?**  
-Nº En este momento, no es posible agregar acciones para abrir XMLports desde la interfaz de usuario.
+No. En este momento, no es posible agregar acciones para abrir XMLports desde la interfaz de usuario.
 
 - **¿Se traducirán mis marcadores cuando cambie mi idioma en Business Central?**  
 Cuando se agrega una acción nueva, cualquier texto traducido que estaba disponible en ese momento se usará al marcar. Si se agrega texto traducido más tarde, la nueva acción no incluirá las traducciones más recientes.

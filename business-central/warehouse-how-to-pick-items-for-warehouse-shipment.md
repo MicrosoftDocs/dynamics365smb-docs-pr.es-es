@@ -83,8 +83,8 @@ A continuación, puede crear los documentos de almacén desde cero. Los pickings
 
     |Opción|Descripción|
     |-|-|
-    |Máx. Nº de líneas de picking|Crea los documentos de picking que tienen emplear no más del número de líneas especificado en cada documento.|
-    |Máx. Nº de doc. origen picking|Crea documentos de picking que, cada uno, abarca no más del número de documentos de origen especificado.|
+    |Máx. N.º de líneas de picking|Crea los documentos de picking que tienen emplear no más del número de líneas especificado en cada documento.|
+    |Máx. N.º de doc. origen picking|Crea documentos de picking que, cada uno, abarca no más del número de documentos de origen especificado.|
     |Id. usuario asignado|Crea los documentos de picking sólo para las líneas de la hoja de cálculo que se asignan al empleado seleccionado de almacén.|
     |Mét. clasif. para líns. picking|Seleccione una de las opciones disponibles para ordenar las líneas en el documento de picking creado.|
     |Define filtro div. bulto|Oculta líneas de picking de división de bulto intermedias cuando una unidad de medida grande se convierte en una más pequeña y con el picking realizado completamente.|

@@ -41,7 +41,7 @@ Sí. Agregar conjuntos de permisos al grupo de usuarios Usuarios internos de Mic
 
 ### Cuando un usuario de Business Central comparte un registro en Teams, ¿concede nuevos permisos?
 
-N.º Esta acción no es lo mismo que compartir un enlace a un documento de SharePoint donde la persona que comparte el documento puede elegir otorgar permiso a otros. En Business Central, solo los administradores pueden configurar y asignar permisos. En comparación con compartir documentos de SharePoint, es el equivalente a elegir la opción "Compartir con personas con acceso existente".
+No. Esta acción no es lo mismo que compartir un enlace a un documento de SharePoint donde la persona que comparte el documento puede elegir otorgar permiso a otros. En Business Central, solo los administradores pueden configurar y asignar permisos. En comparación con compartir documentos de SharePoint, es el equivalente a elegir la opción "Compartir con personas con acceso existente".
 
 ### ¿Esta función es compatible con la seguridad a nivel de fila?
 
@@ -95,7 +95,7 @@ Para maximizar la productividad y optimizar sus operaciones, las pymes suelen co
 
 ### ¿Esto es 100% gratuito?
  
-N.º El acceso a los datos de Business Central en Microsoft Teams requiere que cada usuario tenga una licencia de Business Central o una licencia de Microsoft 365 de la lista de planes admitidos.
+No. El acceso a los datos de Business Central en Microsoft Teams requiere que cada usuario tenga una licencia de Business Central o una licencia de Microsoft 365 de la lista de planes admitidos.
 
 ### ¿Funciona esto con pruebas de Microsoft 365 y pruebas de Business Central?
 
