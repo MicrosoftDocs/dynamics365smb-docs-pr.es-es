@@ -11,7 +11,7 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="add-contacts-to-segments"></a>Añadir contactos a segmentos
+# <a name="adding-contacts-to-segments"></a>Añadir contactos a segmentos
 Después de crear un segmento y especificar su información básica, puede que quiera añadir contactos al segmento. Puede hacerlo si rellena manualmente las líneas de la página **Segmento**, pero es más sencillo y rápido usar la acción **Agregar contactos**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Procedimiento para agregar un contacto a un segmento

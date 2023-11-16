@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# Configurar flujos de trabajo de aprobación
+# <a name="set-up-approval-workflows"></a>Configurar flujos de trabajo de aprobación
 
 Puede configurar y utilizar flujos de trabajo que vinculen tareas de procesos empresariales realizadas por distintos usuarios. Las tareas de sistema, como registros automáticos, se pueden incluir como pasos en los flujos de trabajo, antes o después de las tareas de usuario. Solicitar y conceder aprobaciones para crear registros nuevos son pasos habituales de un flujo de trabajo. Obtenga más información en [Usar flujos de trabajo de aprobación](across-use-workflows.md).
 
@@ -35,14 +35,14 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Compartir flujos de trabajo con otras bases de datos de [!INCLUDE[prod_short](includes/prod_short.md)].|[Importar y exportar flujos de trabajo de aprobación](across-how-to-export-and-import-workflows.md)|  
 |Aprender a configurar un flujo de trabajo para documentos de venta aprobados siguiendo un procedimiento de extremo a extremo.|[Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## Ejemplo de un flujo de trabajo de aprobación
+## <a name="example-of-an-approval-workflow"></a>Ejemplo de un flujo de trabajo de aprobación
 
 Este video muestra cómo configurar un flujo de trabajo que requiere que un usuario solicite la aprobación de otra persona antes de que pueda cambiar la información sobre un cliente existente o crear un nuevo cliente.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Usar flujos de trabajo de aprobación](across-use-workflows.md)  
 [Flujo de trabajo](across-workflow.md)  

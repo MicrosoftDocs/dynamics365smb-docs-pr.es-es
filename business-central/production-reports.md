@@ -8,21 +8,21 @@ ms.search.form: 'Report_5871, Report_5872, Report_99000753, Report_99000756, Rep
 ms.date: 06/01/2021
 ms.author: bholtorf
 ---
-# Informes y análisis de producción en Business Central
+# <a name="production-reports-and-analytics-in-business-central"></a>Informes y análisis de producción en Business Central
 
 Los informes de producción en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de la producción y los negocios obtener información y estadísticas sobre las actividades de producción actuales y pasadas.  
 
-## Informes
+## <a name="reports"></a>Informes
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## Tareas
+## <a name="tasks"></a>Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Configurar la vista de carga en centros de trabajo y de máquina](production-how-to-view-the-load-on-work-centers.md)  
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configuración de fabricación](production-configure-production-processes.md)  
 [Fabricación](production-manage-manufacturing.md)  
