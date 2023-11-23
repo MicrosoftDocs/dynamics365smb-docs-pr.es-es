@@ -116,13 +116,6 @@
 ### [Solución de problemas en el registro de autoservicio](ui-troubleshoot-self-signup.md)
 ### [Ampliar la versión de prueba](admin-extend-trial.md)
 ### [Cancelar la suscripción o eliminar Business Central](admin-cancel.md)
-### Texto de marketing de productos impulsado por IA con Copilot
-#### [Información general](ai-overview.md)
-#### [Obtener versión preliminar](ai-preview-getstarted.md)
-#### [Configurar texto de marketing de productos impulsado por IA](enable-ai.md)
-#### [Crear texto de marketing de productos impulsado por IA](item-marketing-text.md)
-#### [Preguntas frecuentes](ai-faq.md)
-
 ## Comprar
 ### [Comenzar con una suscripción](trial-signup.md#get-started-with-a-subscription)
 ### [Prepararse para hacer negocios](ui-get-ready-business.md)
@@ -379,6 +372,7 @@
 ### Conciliar cuentas bancarias
 #### [Información general de conciliación bancaria](bank-manage-bank-accounts.md)
 #### [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)
+#### [Conciliar cuentas bancarias con Copilot (versión preliminar)](bank-reconciliation-with-copilot.md)
 #### [Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Administrar transacciones entre empresas vinculadas
@@ -1577,7 +1571,6 @@
 #### [Configurar unidades de almacenamiento](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Clasificar productos](inventory-how-categorize-items.md)
 #### [Importar varias imágenes de producto](inventory-how-import-item-pictures.md)
-#### [Configurar texto de marketing de productos impulsado por IA con Copilot](enable-ai.md)
 ### Configurar gestión del proyecto
 #### [Configurar proyectos](projects-setup-projects.md)
 #### [Configurar recursos](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Guía de desarrollo de informes](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Guía de ajuste del rendimiento de los informes](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot y capacidades de IA
+## Administrar Copilot y capacidades de IA
+### [Configurar Copilot y capacidades de IA](enable-ai.md)
+### [Movimiento de datos de Copilot entre zonas geográficas](ai-copilot-data-movement.md)
+## Asistencia de conciliación de cuentas bancarias (versión preliminar)
+### [Conciliar cuentas bancarias con Copilot](bank-reconciliation-with-copilot.md)
+### [Preguntas frecuentes para la asistencia de conciliación bancaria](faqs-bank-reconciliation.md)
+## Sugerencias de texto de marketing
+### [Resumen de sugerencias de texto de marketing](ai-overview.md)
+### [Crear texto de marketing con Copilot](item-marketing-text.md)
+### [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)
 
 # Seguridad, cumplimiento y privacidad
 ## Seguridad y protección
@@ -1894,6 +1898,7 @@
 ### [Habilitar nuevas características de antemano](admin-feature-management.md)
 ### [Incorporar usuarios con listas de comprobación](admin-checklist.md)
 ### [Entornos de espacio aislado](admin-sandbox-environments.md)
+## [Copilot y capacidades de IA](enable-ai.md)
 ## Personalizar Business Central
 ### [Información general de personalización](ui-customizing-overview.md)
 ### [Personalizar páginas para perfiles](ui-personalization-manage.md)
@@ -1926,19 +1931,19 @@
 #### [US/CA/UK/AU/NZ/ZA: Enviar aviso de remesa](ui-extensions-send-remittance-advice.md)
 #### [Servicio WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Extensiones de Business Central de otros proveedores](ui-extensions-other.md)
-## Integrar con Dynamics 365 Sales
-### [Integrar con Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrar con otras aplicaciones de Dynamics 365
+### [Integrar con Dynamics 365 Sales mediante sincronización de datos](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrar con Microsoft Dataverse
-### [Integrar con Microsoft Dataverse](admin-common-data-service.md)
-### [Modelos de propiedad de datos](admin-cds-company-concept.md)
-### [Configurar cuentas de usuario para la integración con Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
-### [Conectar con Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrar con Dataverse mediante la sincronización de datos](admin-common-data-service.md)
+### [Modelos de propiedad de datos para la sincronización.](admin-cds-company-concept.md)
+### [Configurar cuentas de usuario para la integración con Dataverse mediante la sincronización de datos](admin-setting-up-integration-with-dynamics-sales.md)
+### [Conectar a Dataverse para sincronización de datos](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Sincronizar Business Central y Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Asignar tablas y campos para sincronizar](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Sincronizar manualmente las asignaciones de tablas](admin-manual-synchronization-of-table-mappings.md)
 ### [Programar una sincronización](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Solucionar errores de sincronización](admin-troubleshoot-sales-synchronization.md)
-### [Utilizar un flujo de Power Automate para alertas de cambios de entidad de Dataverse](admin-power-automate-flow-dataverse.md)
+### [Utilizar un flujo de Power Automate para sincronizar a tiempo cambios de entidad de Dataverse](admin-power-automate-flow-dataverse.md)
 ## Sincronizar datos maestros entre empresas
 ### [Prepararse para sincronizar datos maestros](admin-set-up-data-sync.md)
 ### [Administrar la sincronización de datos maestros](admin-sync-master-data.md)
@@ -2019,3 +2024,7 @@
 ## [Seguridad y protección](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Rendimiento](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Características quitadas o en desuso](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# IA responsable
+## [Información general](responsible-ai-overview.md)
+## [Preguntas frecuentes para la asistencia de conciliación bancaria (versión preliminar)](faqs-bank-reconciliation.md)
+## [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/04/2023
+ms.date: 10/24/2023
 ms.custom: bap-template
 ---
 # Conciliar cuentas bancarias
@@ -22,9 +22,15 @@ Sin embargo, también puede conciliar bancos en la página **Diario de conciliac
 
 Las líneas de la página **Conciliación banco** se dividen en dos paneles. El panel de **Líneas de extracto bancario** muestra tanto las transacciones bancarias como los movimientos con pagos pendientes. El panel **Movimientos bancarios** muestra los movimientos del banco interno.
 
-La conciliación de transacciones en extractos desde movimientos de banco en [!INCLUDE[prod_short](includes/prod_short.md)] se denomina *correspondencia*. Hay dos formas de hacer coincidir las transacciones con las entradas bancarias:
+## Acerca de la conciliación bancaria 
+
+La conciliación de transacciones en extractos desde movimientos de banco en [!INCLUDE[prod_short](includes/prod_short.md)] se denomina *correspondencia*. Hay tres formas de hacer coincidir las transacciones con las entradas bancarias:
 
 * Automáticamente, mediante la acción **Conciliar automáticamente**.
+
+* Automáticamente, mediante la acción **Conciliar con Copilot**.
+
+  Esta acción está disponible como parte de la función de asistencia (vista previa) de conciliación bancaria, que es una función impulsada por IA. [Obtenga más información acerca de la asistencia de conciliación de cuentas bancarias](bank-reconciliation-with-copilot.md).
 * Manualmente, seleccionando líneas en ambos paneles para vincular cada línea del extracto bancario a uno o más movimientos de banco relacionados y, a continuación, utilizar la acción **Conciliar manualmente**.
 
 La casilla de verificación **Liquidado** se selecciona en las líneas en las que los movimientos coinciden. Para obtener más información, consulte [Configurar reglas para la liquidación automática de pagos](receivables-how-set-up-payment-application-rules.md). Si introduce una fecha de finalización del estado de cuenta en la conciliación bancaria después de hacer coincidir sus líneas con las entradas, [!INCLUDE [prod_short](includes/prod_short.md)] deshará las coincidencias para las líneas y las entradas posteriores a esa fecha.
@@ -49,7 +55,7 @@ Puede rellenar el panel **Líneas de extracto bancario** en la página **Concili
 * Automáticamente, utilizando la función **Importar extracto de cuenta** para rellenar el panel **Líneas de los extractos de cuenta** con transacciones bancarias basándose en un archivo importado que proporciona el banco.
 * Manualmente, usando la función **Proponer líneas** para rellenar el panel de **Líneas del extracto de cuenta** basándose en las facturas en [!INCLUDE[prod_short](includes/prod_short.md)] que tienen pagos pendientes.
 
-## Para agregar líneas de extractos de bancos importando un extracto bancario
+## Agregar líneas de extractos de bancos importando un extracto bancario
 
 El panel de las **Líneas del extracto de cuenta** completará con las transacciones bancarias de acuerdo con un archivo o secuencia importados proporcionados por el banco.
 
@@ -80,9 +86,9 @@ El panel de las **Líneas del extracto de cuenta** se completará de acuerdo con
 4. Si no desea que los asientos del libro mayor de cuentas bancarias incluyan asientos invertidos abiertos no conciliados, seleccione la opción de alternancia **Excluir entradas invertidas**. De manera predeterminada, la lista de entradas del libro mayor de cuentas bancarias incluirá entradas invertidas hasta la fecha del estado de cuenta.
 5. Elija el botón **Aceptar**.
 
-## Para conciliar automáticamente las líneas de extracto bancario con movimientos de la cuenta
+## Conciliar automáticamente las líneas de extracto bancario con movimientos de la cuenta
 
-La página **Conciliación banco** ofrece una funcionalidad de correspondencia automática basada en una coincidencia de texto en una línea del extracto de cuenta (panel izquierdo) con texto en uno o más movimientos de contabilidad (panel derecho). Puede sobrescribir correspondencias automáticas sugeridas y puede optar por no utilizar correspondencia automática. Para obtener más información, consulte [Procedimiento: conciliar las líneas de extracto de cuenta con los movimientos de banco manualmente](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+La página **Conciliación banco** ofrece una funcionalidad de correspondencia automática basada en una coincidencia de texto en una línea del extracto de cuenta (panel izquierdo) con texto en uno o más movimientos de contabilidad (panel derecho). Puede sobrescribir correspondencias automáticas sugeridas y puede optar por no utilizar correspondencia automática. Para obtener más información, consulte [Conciliar las líneas de extracto de cuenta con los movimientos de banco manualmente](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 Puede investigar la base de las coincidencias utilizando la acción **Detalles de correspondencia**. Por ejemplo, los detalles incluirán los nombres de los campos que contenían valores coincidentes.  
 
@@ -98,7 +104,7 @@ Puede investigar la base de las coincidencias utilizando la acción **Detalles d
 > [!TIP]
 > Puede utilizar una combinación de correspondencia manual y automática. Si correspondido entradas manualmente, la correspondencia automática no sobrescribirá sus selecciones.
 
-## Para conciliar manualmente las líneas de extracto bancario con movimientos de la cuenta
+## Conciliar manualmente las líneas de extracto bancario con movimientos de la cuenta
 
 > [!TIP]
 > Al cotejar líneas y entradas manualmente, las acciones **Mostrar todo**, **Mostrar entradas invertidas**, **Ocultar entradas invertidas** y **Mostrar no coincidentes** pueden facilitar la obtención de una visión general. De forma predeterminada, las entradas del libro mayor de cuentas bancarias no incluyen entradas invertidas no coincidentes. Para incluir estas entradas en la lista y emparejarlas manualmente, elija la acción **Mostrar entradas invertidas**. Si elige ocultar las entradas invertidas después de haber realizado una o más coincidencias, las entradas coincidentes aún se muestran.
@@ -123,7 +129,7 @@ Puede investigar la base de las coincidencias utilizando la acción **Detalles d
 > [!TIP]
 > Para eliminar un coincidencia seleccione la línea de extracto de cuenta y, a continuación, seleccione la acción **Eliminar conciliación**. Si ha correspondido varias líneas de extracto bancario con un registro de movimiento y necesita eliminar una o más de las líneas coincidentes, todas las correspondencias manuales se eliminan para el registro de movimiento cuando elija **Eliminar conciliación**.
 
-## Para validar su conciliación bancaria
+## Validar su conciliación bancaria
 
 Para comprobar la conciliación de su cuenta bancaria antes de publicarla, utilice la acción **Informe de prueba** para tener una vista previa de la conciliación. El siguiente informe está disponible en los siguientes contextos:
 
@@ -239,10 +245,12 @@ No utilice una cuenta de mayor que permita la contabilización directa en su gru
 
 Este error ocurre a menudo al ingresar un saldo inicial para una cuenta bancaria. Es importante que no registre el saldo de apertura directamente en el libro mayor. Los asientos en la cuenta de mayor que se registran directamente en la cuenta de mayor causarán problemas. Por ejemplo, estas entradas pueden impedirle conciliar su cuenta bancaria. Para las cuentas bancarias en moneda extranjera, las entradas pueden hacer que se acumulen diferencias después de contabilizar más conciliaciones bancarias debido a los ajustes del tipo de cambio de moneda. A menudo, contabiliza el saldo bancario inicial directamente en la cuenta bancaria y el importe termina en la cuenta del L/M. Como alternativa, lo revierte más tarde contra una cuenta de contabilidad que utilice para equilibrar el saldo inicial del libro mayor. En ambos casos, debe equilibrar cualquier registro directo en la cuenta de contabilidad antes de iniciar su primera conciliación bancaria, especialmente si la cuenta bancaria está en una divisa extranjera.
 
+
 ## Consulte también
 
 [Conciliar bancos](bank-manage-bank-accounts.md)  
-[Liquidación de pagos automáticamente y conciliación de bancos](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Conciliar cuentas bancarias usando la asistencia de conciliación bancaria (vista previa)](bank-reconciliation-with-copilot.md)
+[Aplicar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Configurar banca](bank-setup-banking.md)  
 [Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

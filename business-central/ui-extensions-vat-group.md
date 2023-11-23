@@ -160,6 +160,18 @@ Cuando el representante del grupo ha enviado la declaración de IVA del grupo a 
 > [!IMPORTANT]
 > La funcionalidad del grupo de IVA solo se admite en aquellos mercados en los que [!INCLUDE[prod_short](includes/prod_short.md)] utiliza un marco de IVA que consta de declaraciones de IVA y períodos de devolución de IVA. No puede utilizar grupos de IVA en otros mercados con otras implementaciones de informes de IVA locales, como Austria, Alemania, Italia, España y Suiza.
 
+## Problema al habilitar la autenticación multifactor (MFA)
+
+Si recibe un mensaje de error relacionado con la autorización durante la renovación del **token OAuth2** en la página **Configuración del informe de IVA** después de habilitar MFA, complete los siguientes pasos.  
+
+1. Inicia sesión en **Azure Portal** como administrador de autenticación.  
+2. Vaya a **Microsoft Entra ID**.   
+3. Navegue a **Usuarios** y luego seleccione el usuario que desea realizar una acción.  
+4. Seleccione **Métodos de autenticación** en la parte superior de la página, seleccione **Requerir volver a registrar la autenticación multifactor**. 
+5. Vuelva a Dynamics 365 Business Central y seleccione renovar el token desde **Configuración del informe de IVA**.  
+
+Esta debería ser una configuración única después de habilitar la autenticación multifactor para el usuario seleccionado en **Configuración del informe de IVA**.  
+
 ## Consulte también .
 
 [Funcionalidad local del Reino Unido en la versión británica](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  

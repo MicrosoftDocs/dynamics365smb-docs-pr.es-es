@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 08/26/2022
 ms.author: bholtorf
 ---
-# <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local en la versión española
+# Funcionalidad local en la versión española
 
 En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilidad de la característica
+## Disponibilidad de la característica
 
 * IVA  
   * [SII para informes de IVA](sii-setup.md) **Disponible ahora**
@@ -32,6 +32,7 @@ En los temas siguientes se describe la funcionalidad local que es única para la
   * [Exportar declaraciones de IVA en formato XML](how-to-export-vat-statements-in-xml-format.md) **Disponible ahora**  
   * [Exportar declaraciones de IVA en formato de texto](how-to-export-vat-statements-in-text-format.md) **Disponible ahora**
   * [Recargos de equivalencia](equivalence-charges-ec-.md) **Disponible ahora**
+  * [Actualización del IVA no deducible en España](../../finance-setup-nondeductible-vat.md) **Disponible ahora**
 
 * Banca y pagos  
   * [Pagos electrónicos - AEB N34.1](electronic-payments-aeb-n341.md) **Disponible ahora**
@@ -66,15 +67,15 @@ En los temas siguientes se describe la funcionalidad local que es única para la
   * [Introducir códigos NACE](how-to-enter-nace-codes.md) **Disponible ahora**
   * [Establecer límites para fechas de vencimiento](how-to-set-limits-for-due-dates.md) **Disponible ahora**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Se están investigando los requisitos de legislación futura
+## Se están investigando los requisitos de legislación futura
 
-* Actualización del IVA no deducible en España - previsto para **agosto de 2023**
 * Requisitos para la facturación electrónica en español: previsto para **el segundo lanzamiento de versiones de 2024**
+* Estados SII - previstos para **Segunda ola de lanzamientos de 2024**  
 * Requisitos relacionados con la *Ley antifraude* en España y el impacto en Business Central 
 
 Si está al tanto de cualquier característica reglamentaria futura, envíe una [Alerta de características reglamentarias](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
