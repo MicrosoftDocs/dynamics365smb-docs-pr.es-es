@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: 7775
 ---
 
-# Configurar Copilot y capacidades de IA 
+# <a name="configure-copilot-and-ai-capabilities"></a>Configurar Copilot y capacidades de IA
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -34,12 +34,12 @@ Este artículo explica cómo controlar el acceso de los usuarios a Copilot y otr
 
 Si no se cumple alguno de estos requisitos, la característica no está disponible para su uso.
 
-## Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 - Usar Business Central Online, versión 23.1 o posterior. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Tener permisos de administrador o super en Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Consentimiento a la vista previa y términos de privacidad
+## <a name="allow-data-movement-across-geographies"></a>Consentimiento a la vista previa y términos de privacidad
 
 Consentimiento a los términos y condiciones de [versión preliminar](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) y [Declaración de privacidad de Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839) en nombre de la organización. A diferencia de los avisos de privacidad para otras características y servicios, solo los administradores pueden dar su consentimiento para el uso de Azure OpenAI, lo cual lo hacen en nombre de la organización. Los usuarios no pueden decidir por sí mismos.   
 
@@ -47,7 +47,7 @@ Consentimiento a los términos y condiciones de [versión preliminar](https://dy
 2. En la columna **Nombre de la integración**, seleccione **Azure OpenAI** y, a continuación, lea las condiciones que se le presentan.
 3. En la fila **Azure OpenAI**, seleccione la casilla **Acuerdo para todos** para dar su consentimiento o la casilla **En desacuerdo para todos** para rechazar.
 
-## Habilitar función en Gestión de funciones
+## <a name="activate-features"></a>Habilitar función en Gestión de funciones
 
 **Gestión de funciones** se utiliza para activar o desactivar funciones que están en vista previa, como la conciliación bancaria, y algunas funciones que están disponibles de forma general, como las sugerencias de marketing de artículos. [Más información acerca de la Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -59,7 +59,7 @@ Consentimiento a los términos y condiciones de [versión preliminar](https://dy
 
    Para más información sobre la gestión de características en general, vaya a [Gestión de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Permitir el movimiento de datos entre zonas geográficas
+## <a name="enable-feature-in-feature-management"></a>Permitir el movimiento de datos entre zonas geográficas
 
 Esta tarea se aplica solo si el interruptor **Permitir movimiento de datos** aparece cerca de la parte superior de la página **Copilot y capacidades de IA**. El interruptor **Permitir movimiento de datos** indica que la ubicación de su entorno Business Central&mdash;es decir, la geografía donde se procesan y almacenan los datos&mdash;no es la misma que la geografía del servicio Azure OpenAI utilizada por Copilot. Si desea habilitar Copilot, debe permitir el movimiento de datos entre geografías. Para obtener más información sobre el movimiento de datos, vaya a [Movimiento de datos de Copilot entre geografías](ai-copilot-data-movement.md). 
 
@@ -92,7 +92,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## Activar las funciones
+## <a name="granting-user-access"></a>Activar las funciones
 
 Usando la página **Copilot y capacidades de IA**, puede activar o desactivar funciones individuales para todos los usuarios.
 
@@ -106,14 +106,14 @@ Usando la página **Copilot y capacidades de IA**, puede activar o desactivar fu
    - Para desactivar una función, selecciónela en la lista, luego seleccione **Desactivar** en la cinta. 
 
 
-## Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 
 Después de habilitar y dar su consentimiento a las funciones, estará listo para probarlas. Ir a:
 
 - [Agregar texto de marketing para productos](item-marketing-text.md) 
 - [Conciliar con la asistencia de conciliación de cuentas bancarias](bank-reconciliation-with-copilot.md) 
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Resumen de sugerencias de texto de marketing](ai-overview.md)   
 [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)  
