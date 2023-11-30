@@ -5,9 +5,8 @@
 # Introducción
 ## [Información general de las funciones empresariales](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
-## Aprender
+## Obtener información
 ### [Recursos para usuarios](resources-for-users.md)
-### [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)
 ### [Formación de Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Tutoriales de procesos de negocio
 #### [Tutoriales disponibles](walkthrough-business-process-walkthroughs.md)
@@ -209,19 +208,6 @@
 ### [Visite nuestra biblioteca de vídeos](across-videos.md)
 ### [Obtener soporte técnico](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Funciones empresariales
 ## [Información general de las funciones empresariales](across-business-functionality.md)
 <!--general-->
@@ -244,6 +230,7 @@
 ### [Usar colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md)
 ### [Dejar que Business Central sugiera valores](ui-let-system-suggest-values.md)
 ### [Usar mapas en línea para buscar ubicaciones e indicaciones](across-online-maps.md)
+### [Configurar comprobantes digitales](across-how-setup-digital-vouchers.md)
 
 ### Documentos entrantes
 #### [Información general de los documentos entrantes](across-income-documents.md)
@@ -882,10 +869,12 @@
 
 ### Dinamarca
 #### [Funcionalidad local en la versión danesa](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Notificación y registro en el NemHandelsregisteret de Dinamarca](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### IVA
 ##### [Imprimir informes de conciliación de IVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Informes IVA-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Configuración del CIF/NIF para Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Presentar devoluciones de IVA electrónicamente](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banca y pagos
 ##### [Detalles de FIK en el diario de conciliación de pagos](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Extensión de pagos y conciliaciones (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -897,6 +886,8 @@
 ##### [Crear documentos electrónicos en formato OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Nómina
 ##### [Definiciones de datos de nóminas (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Comprobantes digitales
+##### [Configurar comprobantes digitales en Dinamarca](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finlandia
 #### [Funcionalidad local en la versión finlandesa](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1838,6 +1829,7 @@
 ## Administrar Copilot y capacidades de IA
 ### [Configurar Copilot y capacidades de IA](enable-ai.md)
 ### [Movimiento de datos de Copilot entre zonas geográficas](ai-copilot-data-movement.md)
+### [Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)
 ## Asistencia de conciliación de cuentas bancarias (versión preliminar)
 ### [Conciliar cuentas bancarias con Copilot](bank-reconciliation-with-copilot.md)
 ### [Preguntas frecuentes para la asistencia de conciliación bancaria](faqs-bank-reconciliation.md)

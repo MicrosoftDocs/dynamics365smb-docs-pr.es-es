@@ -65,7 +65,7 @@ sections:
       - question: |
           ¿Dónde encuentro ese número de línea?
         answer: |
-          Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prod_short](includes/prod_short.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el **número de línea**. . Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Los documentos, como los pedidos de venta o las facturas de compra, constan de encabezados y líneas. Cada línea tiene un número que [!INCLUDE [prod_short](includes/prod_short.md)] utiliza para identificar esta línea en particular. Como resultado, es posible que vea una advertencia o un mensaje de error de que algo anda mal en la línea número 1000, por ejemplo. En la versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)], los números de línea están ocultos. Si desea ver los números de línea, debe personalizar la página actual y agregar el campo **número de línea** . Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           ¿Por qué la Ayuda describe una funcionalidad a la que no puedo acceder?
         answer: |
@@ -86,7 +86,7 @@ sections:
       - question: |
           ¿Tengo que comprar Microsoft 365?
         answer: |
-          No. Pero si desea experimentar [!INCLUDE[prod_short](includes/prod_short.md)] completamente integrado con Microsoft 365, puede registrarse para un mes de prueba gratuita de Microsoft 365 [aquí](https://products.office.com/try).  
+          N.º Pero si desea experimentar [!INCLUDE[prod_short](includes/prod_short.md)] completamente integrado con Microsoft 365, puede registrarse para un mes de prueba gratuita de Microsoft 365 [aquí](https://products.office.com/try).  
 
           Si se registra con una cuenta de trabajo que no es de Microsoft 365 (como joe@mysolution.com) y tiene una suscripción a Microsoft 365, entonces puede asociar su dominio (*mysolution.com*) con la suscripción de Microsoft 365. Obtenga más información en [¿Qué es un dominio?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) en el contenido de Microsoft 365.  
 
@@ -151,8 +151,8 @@ additionalContent: |
   [Cambiar la configuración básica](ui-change-basic-settings.md)  
   [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Obtener respuestas a las preguntas](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
+  [Formación de Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
   [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
-  [Catálogo de aprendizaje de Business Central](readiness/readiness-learning-catalog.md)  
   [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
   [Disponibilidad nacional/regional y traducciones admitidas](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Términos del servicio](compliance/compliance-service-compliance.md#service-terms)  

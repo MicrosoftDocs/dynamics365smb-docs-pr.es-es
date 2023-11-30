@@ -132,6 +132,7 @@ Hay algunos pasos que puede seguir para mejorar las sugerencias de texto y modif
 ## Consulte también .
 
 [Resumen de sugerencias de texto de marketing](ai-overview.md)  
+[Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)  
 [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)  
 [Configurar Copilot y capacidades de IA](enable-ai.md)  
 [Registro de productos nuevos](inventory-how-register-new-items.md)  

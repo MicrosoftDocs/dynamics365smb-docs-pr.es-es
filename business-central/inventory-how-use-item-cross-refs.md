@@ -14,16 +14,6 @@ ms.custom: bap-template
 
 Si compra o vende artículos para los que usted y su proveedor o cliente usan términos diferentes, puede establecer una referencia entre sus términos para los artículos y los términos que usa el cliente o el proveedor de ese artículo. De esta manera, la descripción del artículo del proveedor o del cliente, la unidad de medida o el código de variante se insertan automáticamente en los documentos relevantes cuando se completa el **No. de referencia del artículo** .  
 
-> [!NOTE]
-> No todas las empresas utilizan referencias de artículos. Para minimizar el desorden en las páginas, hemos ocultado los campos y acciones relacionados de forma predeterminada. Si decide utilizarlos, puede seleccionar el campo **Usar referencias de producto** en la página **Configuración de inventario**. Después de habilitar las referencias de productos, los campos y las acciones están disponibles en las páginas Ficha de producto, Ficha de proveedor y Ficha de cliente y en los documentos de compra y venta.
->
-> En versiones anteriores al lanzamiento de versiones 2 de 2021, su administrador puede activar la característica *Escribir referencias de productos más largas* en la página [Gestión de funciones](https://businesscentral.dynamics.com/?page=2610) (el vínculo requiere que tenga un suscriptor [!INCLUDE [prod_short](includes/prod_short.md)]). La forma en que usa las referencias no cambia, pero los nombres de cosas como páginas y botones sí. Por ejemplo, la página **Entradas de referencias cruzadas de productos** se convertirá en la página **Entradas de referencia de artículo**.
-
-## Para comenzar a usar referencias de productos
-
-1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, escriba **Configuración de inventario** y luego elija el enlace relacionado.
-2. Seleccione el campo **Usar referencias de artículos** campo.
-
 ## Para configurar una referencia de artículo
 
 1. Elija el icono :::image type="icon" source="media/ui-search/search_small.png" border="false":::, escriba **Productos** y luego elija el enlace relacionado.
