@@ -35,7 +35,7 @@ Al enviar estos informes a la administración o a los auditores, se pueden inclu
 3.  En la ficha desplegable **Registro contabilidad**, seleccione los filtros apropiados.  
 4.  Seleccione el botón de **Imprimir** para imprimir el informe o elegir el botón de **Vista previa** para verlo en la pantalla.  
 
-## <a name="to-print-an-official-account-summarized-book-report"></a>Para imprimir un libro diario oficial resumido
+## <a name="to-print-an-official-account-of-a-summarized-book-report"></a>Para imprimir un libro diario oficial resumido
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libro diario oficial resumido** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  

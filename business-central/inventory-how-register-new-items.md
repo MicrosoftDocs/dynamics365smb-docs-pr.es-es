@@ -99,7 +99,7 @@ Cuando la cantidad solicitada sobrepasa la cantidad disponible en el inventario,
 
 Obtenga más información sobre las variantes en [Administrar variantes de productos](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Eliminar fichas de producto
+## <a name="delete-item-cards"></a>Eliminar fichas de producto
 
 Si ha publicado una transacción para un producto, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la valoración de inventario o auditoría. Para eliminar fichas de producto con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
 

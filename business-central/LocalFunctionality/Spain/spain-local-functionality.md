@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 08/26/2022
 ms.author: bholtorf
 ---
-# Funcionalidad local en la versión española
+# <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local en la versión española
 
 En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Disponibilidad de la característica
+## <a name="feature-availability"></a>Disponibilidad de la característica
 
 * IVA  
   * [SII para informes de IVA](sii-setup.md) **Disponible ahora**
@@ -67,7 +67,7 @@ En los temas siguientes se describe la funcionalidad local que es única para la
   * [Introducir códigos NACE](how-to-enter-nace-codes.md) **Disponible ahora**
   * [Establecer límites para fechas de vencimiento](how-to-set-limits-for-due-dates.md) **Disponible ahora**
 
-## Se están investigando los requisitos de legislación futura
+## <a name="future-legislation-requirements-being-investigated"></a>Se están investigando los requisitos de legislación futura
 
 * Requisitos para la facturación electrónica en español: previsto para **el segundo lanzamiento de versiones de 2024**
 * Estados SII - previstos para **Segunda ola de lanzamientos de 2024**  
@@ -75,7 +75,7 @@ En los temas siguientes se describe la funcionalidad local que es única para la
 
 Si está al tanto de cualquier característica reglamentaria futura, envíe una [Alerta de características reglamentarias](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)

@@ -73,7 +73,7 @@ Charles, el gerente de servicio, crea un contrato de servicio para facturar las 
 - Se creará un contrato de servicio firmado, con asientos en el libro mayor
 - Se creará una factura de servicio publicada
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Creación de un pedido de servicios para un contrato de servicio y asignar recursos
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Creación de un pedido de servicios para un contrato de servicio y asignar recursos
 
 ### <a name="scenario-2"></a>Escenario
 

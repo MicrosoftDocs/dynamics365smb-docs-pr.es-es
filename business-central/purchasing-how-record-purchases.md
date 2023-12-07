@@ -22,7 +22,7 @@ Cuando se reciben los productos de inventario o cuando se completa el servicio c
 > [!CAUTION]  
 > No registre una factura de compra para productos físicos hasta que reciba los productos y conozca el coste final de la compra, incluidos gastos adicionales. De lo contrario, las cifras de valor de inventario y de ganancias pueden estar sesgadas.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Crear y registrar una factura de venta
+### <a name="create-and-post-a-purchase-invoice"></a>Crear y registrar una factura de venta
 
 A continuación se describe cómo crear una factura de compra. Los pasos son parecidos para un pedido de compra. La principal diferencia es que los pedidos de compra tienen campos y acciones adicionales para la gestión física de los artículos.
 
