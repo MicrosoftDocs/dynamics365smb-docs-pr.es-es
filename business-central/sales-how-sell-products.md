@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 09/02/2022
+ms.date: 11/03/2023
 ms.author: bholtorf
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Vender productos con un pedido de venta de cliente
+# Vender productos con un pedido de venta de cliente
 
 Este artículo proporciona orientación sobre cuándo utilizar un pedido de venta de cliente además de una factura. Si el proceso de venta requiere que solo envíe parte de un pedido, quizá porque la cantidad total no está disponible inmediatamente, deberá procesar esa venta realizando un pedido de ventas.
 
@@ -19,11 +19,11 @@ También debe utilizar pedidos de ventas si vende productos que se entregan dire
 
 Cuando entregue los productos, ya sea total o parcialmente, registre el pedido de ventas como enviado o como enviado y facturado para crear los movimientos del producto relacionado y del cliente en su sistema. Cuando registre el pedido de venta, también puede enviarlo como PDF anexo. Puede rellenar previamente el cuerpo de correo electrónico con un resumen del pedido y la información de pago, como por ejemplo un vínculo a PayPal. Obtenga más información en [Enviar productos](warehouse-how-ship-items.md) y [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
 
-En los entornos comerciales en los que el cliente paga de forma inmediata, por ejemplo, mediante PayPal o en efectivo, el pago se registra inmediatamente al contabilizar la factura que no es de venta, es decir, la factura de venta publicada se cierra como totalmente liquidada. Seleccione el método relevante en el campo **Cód. forma pago** del pedido. Vea el paso 5 siguiente. Para pagos electrónicos, como PayPal, también debe completar el campo **Servicio de pago**. Obtenga más información en [Permitir los pagos de clientes mediante servicios de pago](sales-how-enable-payment-service-extensions.md).
+En los entornos comerciales en los que el cliente paga de forma inmediata, por ejemplo, a través de PayPal o en efectivo, el pago se registra inmediatamente al contabilizar la factura de venta, es decir, la factura de venta publicada se cierra como totalmente liquidada. Seleccione el método relevante en el campo **Cód. forma pago** del pedido. Vea el paso 5 siguiente. Para pagos electrónicos, como PayPal, también debe completar el campo **Servicio de pago**. Obtenga más información en [Permitir los pagos de clientes mediante servicios de pago](sales-how-enable-payment-service-extensions.md).
 
 Incluso puede crear pedidos pagados directamente para clientes no registrados configurando primero una tarjeta de "cliente de efectivo" que señale en el pedido de venta. Obtenga más información en [Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Crear un pedido de ventas
+## Crear un pedido de ventas
 
 > [!NOTE]  
 > El siguiente procedimiento asume que el cliente ya está preparado. Para obtener instrucciones sobre cómo hacer esto, consulte [Registrar nuevos clientes](sales-how-register-new-customers.md).
@@ -42,7 +42,7 @@ Incluso puede crear pedidos pagados directamente para clientes no registrados co
     Ya puede rellenar las líneas del pedido de venta con los productos de inventario o los servicios que quiera que compre el cliente.
 
     Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo un pedido de reabastecimiento mensual, puede insertar estas líneas en el pedido seleccionando la acción **Obtener líneas de venta periódicas**.
-5. En la ficha desplegable **Líneas** del campo **Tipo**, seleccione qué tipo de producto, cargo o transacción registrará para el cliente en la línea de venta.
+5. En la ficha desplegable **Líneas** del campo **Tipo**, seleccione qué tipo de producto, cargo o transacción registra para el cliente en la línea de venta.
 
 6. En el campo **N.º**, introduzca el número de un producto de inventario o servicio.
 
@@ -60,7 +60,7 @@ Incluso puede crear pedidos pagados directamente para clientes no registrados co
     El precio y el importe de las líneas se muestran con o sin IVA dependiendo de qué seleccione en el campo **Precios incluyendo IVA** en la ficha del cliente.
 8. En el campo **% Descuento línea**, especifique un porcentaje si desea conceder al cliente un descuento para el producto. El valor del campo **Importe de línea** se actualiza según corresponde.
 
-    Si ha configurado precios de producto especiales en la ficha desplegable **Precios venta y descuentos línea ventas** en la ficha del producto o en la del cliente, el porcentaje de descuento, el precio y el presupuesto de línea en la línea de la factura se actualizan automáticamente si se cumplen los criterios acordados para el precio. Obtenga más información en [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
+    Si configura los precios especiales de los productos en la ficha desplegable **Precios de venta y descuentos en la línea de ventas** de la tarjeta del cliente o del producto, y al cumplirse los criterios de precio, el precio y el importe de la línea de ventas se actualizan automáticamente. Obtenga más información en [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 9. Para agregar un comentario acerca de la línea de pedido que el cliente puede ver en el pedido de venta impreso, escriba un comentario en una línea vacía del campo **Descripción**.  
 10. Repita los pasos 5 a 9 para cada producto que desee que compre el cliente.
 
@@ -73,7 +73,7 @@ Incluso puede crear pedidos pagados directamente para clientes no registrados co
 
 11. Opcionalmente, en el campo **Importe de descuento en factura**, especifique el importe que se debe descontar del valor que aparece en el campo **Total impuestos incluidos**.
 
-    Si ha configurado descuentos en factura para el cliente, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura** si se cumplen los criterios, y el importe relacionado se inserta en el campo **Descuento en factura excluyendo impuesto** . Obtenga más información en [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
+    Si configura descuentos en factura para el cliente, y al cumplir los criterios, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura**. Y el importe correspondiente se inserta en el campo **Descuento en factura excluyendo impuesto**. Obtenga más información en [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Para enviar únicamente una parte de la cantidad del pedido, escriba dicha cantidad en el campo **Cantidad a enviar**. El calor se copia automáticamente en el campo **Cantidad a facturar**.
 
     > [!NOTE]
@@ -85,13 +85,13 @@ Incluso puede crear pedidos pagados directamente para clientes no registrados co
 
 El cuadro de diálogo **Registrar y enviar confirmación** muestra el método preferido del cliente para recibir documentos. Puede cambiar el método de envío seleccionando el botón de búsqueda en el campo **Enviar documento a**. Obtenga más información en [Configurar perfiles de envío de documentos](sales-how-setup-document-send-profiles.md).
 
-El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y el pedido de venta se genera automáticamente como un documento PDF. Cuando el pedido de venta se registra por completo, se elimina de la lista de pedidos de venta y se sustituye por nuevos documentos de la lista de facturas de venta registradas y la lista de envíos de venta registrados.  
+El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y el pedido de venta se genera automáticamente como un documento PDF. Una vez que el pedido de cliente está totalmente registrado, se quita de la lista de pedidos de cliente y se sustituye por nuevos documentos en la lista de facturas de venta y envíos de ventas.  
 
-## <a name="external-document-number"></a>Número de documento externo
+## Número de documento externo
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también
 
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Registrar ventas](ui-post-sales.md)  

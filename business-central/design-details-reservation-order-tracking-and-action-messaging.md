@@ -10,7 +10,7 @@ ms.search.keywords: 'design, replenishment, reordering'
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones
+# Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones
 El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.  
 
  En el centro del programa de reservas se encuentra la vinculación entre un movimiento de demanda y su correspondiente movimiento de aprovisionamiento, bien mediante reserva o mediante seguimiento de pedidos. Una reserva es un vínculo generado por el usuario, y un registro de seguimiento de pedido es un vínculo generado por el sistema. Las cantidades de un producto que se introduce en el programa de reservas aparece como reservado o como con seguimiento de pedido, pero no ambos al mismo tiempo. La manera en que los sistemas gestionan un producto depende de cómo se haya configurado el producto.  
@@ -27,12 +27,12 @@ El sistema de reservas es completo e incluye las características correlacionada
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## <a name="reservation"></a>Reserva
+## Reserva  
  Una reserva es un vínculo firme que conecta una demanda determinada con un aprovisionamiento específico. Este vínculo afecta directamente a la transacción de inventario posterior y garantiza la liquidación correcta de los movimientos de producto para fines de valoración de costes. Una reserva reemplaza el método de coste predeterminado de un producto. Para obtener más información, consulte [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md).  
 
  La página **Reservas** está accesible desde todas las líneas de pedido del tipo de demanda y de suministro. En esta página, el usuario puede especificar a qué movimiento de demanda o aprovisionamiento crear un enlace de reserva. La reserva consta de un par de registros que comparten el mismo número de movimiento. Un registro tiene un signo negativo y apunta a la demanda. El otro registro tiene un signo positivo y apunta al suministro. Estos registros se almacenan en la tabla **Mov. reserva** con el valor de estado **Reservas**. El usuario puede ver todas las reservas en la página **Movs. reserva**.  
 
-### <a name="offsetting-in-reservations"></a>Compensación en reservas
+### Compensación en reservas  
  Las reservas se realizan según las cantidades de producto disponibles. La disponibilidad de producto se calcula en términos básicos de la siguiente forma:  
 
  cantidad disponible = inventario + recepciones programadas - requerimientos brutos  
@@ -54,7 +54,7 @@ El sistema de reservas es completo e incluye las características correlacionada
 
  Para obtener más información, consulte [Detalles de diseño: Disponibilidad en el almacén](design-details-availability-in-the-warehouse.md).  
 
-### <a name="manual-reservation"></a>Reserva manual
+### Reserva manual  
  Cuando un usuario crea intencionadamente una reserva, obtiene la propiedad completa de estos productos, además de su responsabilidad. Esto significa que el usuario también debe modificar o cancelar manualmente una reserva. Dichos cambios manuales pueden provocar la modificación automática de las reservas implicadas.  
 
  En la tabla siguiente se muestra cuándo se pueden producir las modificaciones y cuáles son:  
@@ -69,7 +69,7 @@ El sistema de reservas es completo e incluye las características correlacionada
 > [!NOTE]  
 >  La funcionalidad de enlace posterior también puede cambiar las reservas sin informar al usuario, mediante la reorganización de las reservas no específicas de números de serie o de lote. Para obtener más información, consulte "Detalles de diseño: Seguimiento de productos y reservas".  
 
-### <a name="automatic-reservations"></a>Reservas automáticas
+### Reservas automáticas  
  La ficha de producto se puede configurar para que siempre se reserve automáticamente en la demanda, como los pedidos de venta. En este caso, se hace la reserva con respecto al inventario, pedidos de compra, pedidos de ensamblado y órdenes de producción. Si el aprovisionamiento es insuficiente se emite una advertencia.  
 
  Además, los productos se reservan automáticamente a través de diversas funciones de planificación para mantener una demanda vinculada a un aprovisionamiento concreto. Los movimientos de seguimiento de pedidos para dichos vínculos de planificación contienen **Reservas** en el campo **Estado reserva** en la tabla **Mov. reserva**. En las siguientes situaciones se crean reservas automáticas:  
@@ -90,7 +90,7 @@ El sistema de reservas es completo e incluye las características correlacionada
 
 -   Se incluyen y se pueden modificar en procesos de planificación posteriores, a diferencia de los productos reservados manualmente.  
 
-## <a name="order-tracking"></a>Seg. pedido
+## Seg. pedido  
  El seguimiento de pedidos ayuda al planificador a mantener un plan de suministro válido al ofrecer información general del desplazamiento entre la demanda y el suministro en la red de pedidos. Los registros de seguimiento de pedidos sirven de base para crear mensajes de acción dinámicos y planificar sugerencias de línea durante los procesos de planificación.  
 
 > [!NOTE]  
@@ -99,14 +99,14 @@ El sistema de reservas es completo e incluye las características correlacionada
 > [!NOTE]  
 >  La directiva de seguimiento de pedidos y la función Traer mensajes acción no están integradas con los trabajos. Esto significa que no se hace seguimiento automático de la demanda relacionada con un trabajo. Al no hacerse un seguimiento, podría hacer que se hiciera un seguimiento de un reabastecimiento existente con información de trabajo hacia otra demanda, por ejemplo, un pedido de venta. Por tanto, puede darse el caso de que haya información sobre el inventario disponible no sincronizada.  
 
-### <a name="the-order-network"></a>Red de pedidos
+### Red de pedidos  
  El sistema de seguimiento de pedidos se basa en el principio de que la red de pedidos debe estar siempre en un estado de equilibrio, en el que cada demanda que entre en el sistema se compense con un suministro correspondiente y viceversa. El programa lo proporciona mediante la identificación de los vínculos lógicos entre todos los movimientos de demanda y de suministro en la red de pedidos.  
 
  Este principio implica que un cambio en la demanda genera un desequilibrio en el lado de suministro de la red de pedidos. Inversamente, un cambio en el aprovisionamiento genera un desequilibrio en la demanda del lado de la red de pedidos. En realidad, la red de pedidos está en un estado de flujo constante con usuarios que entran, hacen modificaciones y eliminan pedidos. El seguimiento de pedidos procesa los pedidos dinámicamente, reacciona a cada cambio en el momento que entra en el sistema y forma parte de la red de pedidos. En cuanto se creen nuevos registros de seguimiento de pedidos, la red de pedidos pasa a tener saldo, pero solo hasta que se produzca el siguiente cambio.  
 
  Para aumentar la transparencia de los cálculos en el sistema de planificación, la página **Elementos planificación sin seguimiento** muestra las cantidades de las que no se realiza el seguimiento, que representan la diferencia de categoría entre la demanda conocida y el suministro sugerido. Cada línea en la página hace referencia a la causa de excedente, como **Pedido abierto**, **Nivel de existencias de seguridad**, **Cdad. fija reaprov**, **Cantidad mínima de pedido**, **Redondeo** o **Amortiguador**.  
 
-### <a name="offsetting-in-order-tracking"></a>Compensación en el seguimiento de pedidos
+### Compensación en el seguimiento de pedidos  
  A diferencia que con las reservas, que se pueden crear solo con cantidades disponibles de productos, el seguimiento de pedidos se puede aplicar a todas las entidades de la red de pedidos que formen parte del cálculo de requisitos netos del sistema de planificación. La demanda neta se calcula de la siguiente forma:  
 
  demanda neta = necesidades brutas + punto de pedido - recepciones programadas - recepciones planificadas - saldo disponible estimado  
@@ -114,7 +114,7 @@ El sistema de reservas es completo e incluye las características correlacionada
 > [!NOTE]  
 >  En las demandas relacionadas con previsiones o parámetros de planificación no se hacen seguimientos de pedidos.  
 
-### <a name="example-order-tracking-in-sales-production-and-transfers"></a>Ejemplo: Seguimiento de pedidos en ventas, producción y transferencias
+### Ejemplo: Seguimiento de pedidos en ventas, producción y transferencias  
  En el escenario siguiente se muestra el orden en el que se crean los movimientos de seguimiento de pedidos en la tabla **Mov. reserva** como resultado de varios cambios de la red de pedidos.  
 
  Supongamos que los siguientes son los datos para dos productos configurados para seguimiento de pedidos.  
@@ -133,13 +133,13 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  ![Primer ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers-8-and-9"></a>Números de movimiento 8 y 9
+### Números de movimiento 8 y 9  
  En el caso de necesidad componentes para LOTA y de LOTB respectivamente, se crean enlaces de seguimiento desde la demanda en la tabla 5407, **Componente orden producción**, al aprovisionamiento en la tabla 32, **Mov. producto**. El campo **Estado reserva** contiene **Seguimiento** para indicar que estos movimientos son vínculos de seguimiento de pedidos dinámico entre suministro y demanda.  
 
 > [!NOTE]  
 >  El campo **Nº lote** está vacío en las líneas de demanda porque los números de lote no están especificado en las líneas de componente de la orden de producción lanzada.  
 
-### <a name="entry-numbers-10"></a>Números de movimiento 10
+### Números de movimiento 10  
  Desde la demanda de venta en la tabla 37, **Lín. venta**, se crea un vínculo de seguimiento de pedidos hacia el aprovisionamiento en la tabla 5406, **Lín. orden prod.**. El campo **Estado reserva** contiene **Reservas**, y el campo **Atado** contiene **Pedido contra pedido**. Se debe a que la orden de producción lanzada se ha generado específicamente para el pedido de venta y debe permanecer vinculada, a diferencia de las conexiones de seguimiento de pedidos con un estado de reserva de **Seguimiento**, que se crean y cambian dinámicamente. Para obtener más información, consulte la sección "Reservas automáticas" en este tema.  
 
  En este punto del ejemplo, las 100 unidades de LOTA y LOTB se transferirán al almacén EAST por medio de un pedido de transferencia.  
@@ -151,12 +151,12 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  ![Segundo ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9-1"></a>Números de movimiento 8 y 9
+### Números de movimiento 8 y 9  
  Los movimientos de seguimiento de pedidos para los dos lotes del componente que refleja la demanda de la tabla 5407 cambian el estado de reserva de **Seguimiento** a **Excedente**. El motivo es que los suministros a los que estaban vinculados antes, en la tabla 32, se han usado mediante el envío del pedido de transferencia.  
 
  Los excedentes verdaderos, como en este caso, reflejan un exceso de aprovisionamiento que permanece sin seguimiento. Es una indicación de desequilibrio en la red de pedidos que generará un mensaje de acción por parte del sistema de planificación, a menos que se resuelva dinámicamente.  
 
-### <a name="entry-numbers-12-to-16"></a>Números de movimiento de 12 a 16
+### Números de movimiento de 12 a 16  
  Dado que se registran dos lotes del componente en el pedido de transferencia como enviados pero no recibidos, todos los registros positivos de seguimiento del pedido relacionados son del tipo de reserva **Excedente**, lo que indica que no están asignados a ninguna demanda. Para cada número de lote, un movimiento se relaciona con la tabla 5741, **Lín. transferencia**, y un movimiento se relaciona con el movimiento de producto en la ubicación en tránsito donde ahora están los productos.  
 
  En este punto del ejemplo, el pedido de transferencia de los componentes del almacén EAST a WEST se registran como recibido.  
@@ -173,14 +173,14 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  ![Cuarto ejemplo de entradas de seguimiento de pedidos en la tabla Mov. reserva.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers-21-and-22"></a>Números de movimiento 21 y 22
+### Números de movimiento 21 y 22  
  Como la necesidad de componentes se ha cambiado a la ubicación EAST y el suministro está disponible como movimientos de producto en la ubicación EAST, ahora se realiza un seguimiento completo de todos los movimientos de seguimiento de pedidos de los dos números de lote, tal como indica el estado de reserva de **Seguimiento**.  
 
  El campo **Nº lote** ahora está rellenado en el movimiento de seguimiento de pedidos para la tabla 5407 porque los números de lote se han asignado a las líneas de componente de la orden de producción.  
 
  Para ver más ejemplos de movimientos de seguimiento de pedidos en la tabla **Mov. reserva**, consulte la documentación sobre la "tabla de movimientos de reserva" en [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (requiere inicio de sesión).
 
-## <a name="action-messaging"></a>Mensajes de acción
+## Mensajes de acción  
  Cuando el sistema de seguimiento de pedidos detecta un desequilibrio en la red de pedidos, crea automáticamente un mensaje de acción para notificar al usuario. Los mensajes de acción son llamadas generadas por el sistema para que el usuario realice una acción que especifican los detalles de desequilibrio y sugerencias sobre cómo restaurar los saldos a la red de pedidos. Se muestran como líneas de planificación en la página **Hoja planificación** cuando se elige **Traer mensajes acción**. Además, los mensajes de acción se muestran en líneas de planificación generadas por la ejecución de la planificación para reflejar las sugerencias del sistema de planificación sobre cómo restaurar los saldos en la red de pedidos. En ambos casos, se ejecutan propuestas en la red de pedidos al elegir **Ejecutar mensajes de acción**.  
 
  Un mensaje de acción trata un nivel L.M. cada vez. Si el usuario acepta el mensaje de acción, puede generar mensajes de acción adicionales en el nivel de L.M. siguiente.  
@@ -207,10 +207,10 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
  Cuando se produce una disminución en la cantidad de demanda, el sistema de seguimiento de pedidos intenta resolver el desequilibrio realizando las comprobaciones anteriores en orden inverso. Esto significa que los mensajes de acción existentes podrían modificarse o, incluso, modificarse, si es necesario. El sistema de seguimiento de pedidos siempre presenta el beneficio neto de los cálculos al usuario.  
 
-## <a name="order-tracking-and-planning"></a>Seguimiento y planificación de pedidos
+## Seguimiento y planificación de pedidos  
  Cuando se ejecuta el sistema de planificación, elimina todos los registros de seguimiento de pedidos y los movimientos de mensajes de acción, y vuelve a crearlos como sugerencias de línea de planificación según los pares y las prioridades suministro/demanda. Cuando ha finalizado el proceso de planificación, la red de pedidos está equilibrada.  
 
-### <a name="planning-system-versus-order-tracking-and-action-messaging"></a>Sistema de planificación con respecto al seguimiento de pedidos y los mensajes de acción
+### Sistema de planificación con respecto al seguimiento de pedidos y los mensajes de acción  
  En la comparación siguiente se muestra la diferencia entre los métodos que usa el sistema de planificación para crear sugerencias de línea de planificación y los métodos que usa el sistema de seguimiento de pedidos para crear registros de seguimiento de pedidos y mensajes de acción.  
 
 -   El sistema de planificación se ocupa de todo el patrón de suministro y demanda de un determinado producto, mientras que el seguimiento de pedidos se ocupa del pedido que lo ha activado.  
@@ -223,7 +223,7 @@ En la página **Configuración fabricación**, el campo **Componentes en alm.** 
 
 -   El sistema de planificación crea un vínculo en un modo por lotes activado por el usuario cuando equilibra la demanda y el suministro, mientras que el seguimiento de pedidos crea los vínculos automática y dinámica a medida que el usuario introduce pedidos.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)   
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)
 

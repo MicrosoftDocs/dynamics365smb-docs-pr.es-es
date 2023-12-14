@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 09/11/2023
+ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="invoice-sales"></a>Facturar ventas
+# Facturar ventas
 
 Normalmente puede crear un pedido o una factura de venta para registrar el contrato con un cliente para vender determinados productos según los términos de entrega y pago establecidos.  
 
@@ -25,7 +25,7 @@ En todas las demás situaciones, los pedidos de venta y las facturas de venta fu
 
 Puede negocias con el cliente creando primero creando una oferta de venta, que puede convertir en una factura de venta cuando acuerde la venta. Obtenga más información en [Hacer presupuestos de ventas](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Crear factura de venta
+## Crear factura de venta
 
 Si el cliente decide comprar, registre la factura de venta para crear los movimientos de cantidad y valor relacionados. Cuando registre la factura de venta, también puede enviarla como PDF anexo. Puede rellenar previamente el cuerpo de correo electrónico con un resumen de la factura y la información de pagos, por ejemplo, proporcionando un vínculo a PayPal. Obtenga más información en [Enviar documentos por correo electrónico](ui-how-send-documents-email.md). Cuando el cliente paga la factura, puede registrar ese pago de diferentes maneras, según el tamaño y los flujos de trabajo preferidos de su organización. Obtenga más información en la sección [Registrar pagos](#register-payments).  
 
@@ -33,7 +33,7 @@ Las ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inv
 
 Puede rellenar los campos de clientes en la factura de venta de dos formas en función de si el cliente ya está registrado. Consulte el paso 2 del siguiente procedimiento.
 
-### <a name="to-create-a-sales-invoice"></a>Para crear una factura de venta
+### Para crear una factura de venta
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. En el campo **Nombre cliente**, escriba el nombre de un cliente existente. Sin embargo, si el cliente es nuevo y, por tanto, no está registrado, siga estos pasos para completar la información estándar del cliente en la página **Factura de venta**:
@@ -52,7 +52,7 @@ Puede rellenar los campos de clientes en la factura de venta de dos formas en fu
 
     Ahora podrá rellenar la ficha desplegable **Líneas** con productos que vende al cliente o para cualquier transacción con el cliente que desee registrar en una cuenta de contabilidad.
 
-4. En la ficha desplegable **Líneas** del campo **Tipo**, seleccione qué tipo de producto, cargo o transacción registrará para el cliente en la línea de venta.
+4. En la ficha desplegable **Líneas** del campo **Tipo**, seleccione qué tipo de producto, cargo o transacción registra para el cliente en la línea de venta.
    > [!TIP]
    > Si ha configurado líneas de venta periódicas para el cliente, como por ejemplo un pedido de reabastecimiento mensual, puede reflejar eso en el pedido seleccionando la acción **Obtener líneas de venta periódicas**.
 5. En el campo **N.º**, seleccione un registro para registrar según el valor del campo **Tipo**.
@@ -72,17 +72,17 @@ Puede rellenar los campos de clientes en la factura de venta de dos formas en fu
     El precio y el importe de las líneas tienen IVA o no, dependiendo de qué seleccione en el campo **Precios incluyendo IVA** en la ficha del cliente.  
 7. Si desea ofrecer un descuento, introduzca un porcentaje en el campo **% Descuento línea**. El valor del campo **Importe de línea** se actualiza según corresponde.  
 
-    Si hay configurados precios de producto especiales en la ficha desplegable **Precios venta y descuentos línea ventas** en la ficha del producto o en la del cliente, el precio y el importe de la línea de venta se actualizan automáticamente si se cumplen los criterios acordados para el precio. Obtenga más información en [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).  
+    Si los precios especiales de los productos se configuran en la ficha desplegable **Precios de venta y descuentos en la línea de ventas** de la tarjeta del cliente o del producto, y al cumplirse los criterios de precio, el precio y el importe de la línea de ventas se actualizan automáticamente. Obtenga más información en [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Repita los pasos 4 a 7 para cada producto o cargo que desee facturar al cliente.
 
-    Los campos de totales debajo de las líneas se actualizan automáticamente a medida que se crean o modifican líneas para visualizar los importes que se registrarán en los extractos.
+    Los campos de totales debajo de las líneas se actualizan automáticamente a medida que se crean o modifican líneas para visualizar los importes registrados en los extractos.
 
     > [!NOTE]
     > En casos muy raros, los importes registrados pueden desviarse de lo que se muestra en los campos de totales. Esto se debe normalmente a los cálculos de redondeo en relación con el IVA o el impuesto de venta.<br /><br />Para verificar los montos que publicará, utilice el cuadro informativo **Estadísticas de clientes** . Además, cuando selecciona la acción **Liberar**, los valores en los campos de totales se actualizarán para incluir los cálculos de redondeo.
 
 9. En el campo **Descuento en factura excluyendo impuesto**, especifique un importe que se debe descontar del valor que aparece en el campo **Total impuesto incl.**.
 
-    Si ha configurado descuentos en factura para el cliente, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura** si se cumplen los criterios de descuento, y el importe relacionado se inserta en el campo **Descuento en factura excluyendo impuesto** . Obtenga más información en [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
+    Si ha configurado descuentos en factura para el cliente, el valor porcentual especificado se inserta automáticamente en el campo **% descuento en factura** si se cumplen los criterios de descuento, y el importe relacionado se inserta en el campo **Descuento en factura excluyendo impuesto**. Obtenga más información en [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md).
 
 10. Cuando las líneas de la factura de venta ya estén completas, seleccione la acción **Registrar y enviar**.  
 
@@ -90,38 +90,38 @@ El cuadro de diálogo **Registrar y enviar confirmación** muestra el método pr
 
 El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y la factura de venta se genera como un documento PDF. La factura de venta se elimina de la lista de facturas de venta y se reemplaza con un nuevo documento de la lista de facturas de venta registradas.  
 
-### <a name="calculate-invoice-discounts-on-sales"></a>Calcular descuentos en factura para ventas
+### Calcular descuentos en factura para ventas
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Facturas registradas
+## Facturas registradas
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-Puede corregir o cancelar fácilmente una factura de venta registrada antes de que se pague. Esto es útil si se desea corregir un error de escritura o si el cliente solicita un cambio temprano en el proceso de pedido. Obtenga más información en [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md). Si la factura de venta registrada se ha pagado, deberá crear un abono de venta para revertir la venta. Obtenga más información en [Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).  
+Puede corregir o cancelar fácilmente una factura de venta registrada antes del pago final. Esto es útil si se desea corregir un error de escritura o si el cliente solicita un cambio temprano en el proceso de pedido. Obtenga más información en [Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md). Si la factura de venta registrada se ha pagado, deberá crear un abono de venta para revertir la venta. Obtenga más información en [Procesamiento de devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md).  
 
 [Abra la lista **Histórico facturas venta**](https://businesscentral.dynamics.com/?page=143) en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="register-payments"></a>Registrar pagos
+## Registrar pagos
 
 En función de sus necesidades comerciales, puede recibir un pago y registrarlo de diferentes maneras: de forma manual, automática y mediante servicios de pago.  
 
 Puede procesar los pagos directamente desde la ficha de cliente. Utilice la acción **Registrar pagos de cliente** para obtener un resumen de las facturas sin abonar de dicho cliente. A continuación, marque la factura como pagada de forma parcial o total. Esta conciliación de pagos permite procesar los pagos de sus clientes al conciliar los importes recibidos en la cuenta bancaria con las facturas de venta relacionadas no pagadas y luego registrar los pagos. Obtenga más información en la sección [Conciliar pagos individualmente](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-En los entornos comerciales donde el cliente paga después de la entrega, de acuerdo con los plazos de pago, una factura de ventas publicada permanece abierta (sin pagar) hasta que el departamento de Cobros verifique que se haya recibido el pago y lo liquide a la factura de ventas publicada. Esto se puede realizar manual o automáticamente. Obtenga más información en [Conciliar los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente](receivables-how-apply-sales-transactions-manually.md) y [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).  
+En entornos empresariales en los que el cliente paga algún tiempo después de la entrega. De acuerdo con las condiciones de pago, una factura de venta contabilizada permanece abierta (impagada) hasta que el departamento de cuentas por cobrar verifica el pago y lo aplica a la factura de venta contabilizada. Esto se puede realizar manual o automáticamente. Obtenga más información en [Conciliar los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente](receivables-how-apply-sales-transactions-manually.md) y [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).  
 
-En los entornos comerciales en los que el cliente paga de forma inmediata, por ejemplo, mediante PayPal o en efectivo, el pago se registra inmediatamente al contabilizar la factura de venta, es decir, la factura de venta publicada se cierra como totalmente liquidada. Seleccione el método relevante en el campo **Cód. forma pago** del pedido. Para pagos electrónicos, como PayPal, también debe completar el campo **Servicio de pago**. Obtenga más información en [Permitir los pagos de clientes mediante servicios de pago](sales-how-enable-payment-service-extensions.md).
+En los entornos comerciales en los que el cliente paga de forma inmediata, por ejemplo, a través de PayPal o en efectivo, el pago se registra inmediatamente al contabilizar la factura de venta, es decir, la factura de venta publicada se cierra como totalmente liquidada. Seleccione el método relevante en el campo **Cód. forma pago** del pedido. Para pagos electrónicos, como PayPal, también debe completar el campo **Servicio de pago**. Obtenga más información en [Permitir los pagos de clientes mediante servicios de pago](sales-how-enable-payment-service-extensions.md).
 
 Incluso puede crear facturas pagadas directamente para clientes no registrados configurando una tarjeta de "cliente de efectivo" para ellas que señale en la factura de venta. Obtenga más información en [Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md).  
 
 > [!TIP]
 > Si desea enviar a sus clientes recordatorios de pagos vencidos, debe configurar primero niveles y términos de recordatorio. Obtenga más información en [Configurar términos y niveles de recordatorios](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a>Números de documento externo
+## Números de documento externo
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también
 
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  

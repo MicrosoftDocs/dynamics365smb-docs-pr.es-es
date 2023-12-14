@@ -11,7 +11,7 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Recibir y convertir documentos electrónicos
+# Recibir y convertir documentos electrónicos
 
 > [!NOTE]
 > El contenido de este artículo solo se aplica a las versiones de Dynamics 365 Business Central que se lanzaron antes del segundo lanzamiento de versiones de 2023. En el segundo lanzamiento de versiones de 2023, se incluye una nueva funcionalidad para documentos electrónicos. Para obtener más información, vea [Configurar documentos electrónicos](finance-how-setup-edocuments.md). 
@@ -38,7 +38,7 @@ Puede iniciar la conversión de documentos electrónicos manualmente, tal como s
 
 El procedimiento siguiente describe cómo recibir una factura de proveedor y convertirla en una factura de compra en [!INCLUDE[prod_short](includes/prod_short.md)]. El procedimiento es el mismo cuando se convierte una factura de proveedor en una línea de diario general.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Para recibir y convertir una factura electrónica en una factura de compra
+### Para recibir y convertir una factura electrónica en una factura de compra
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Documentos entrantes** y luego elija el enlace relacionado.  
 
@@ -56,7 +56,7 @@ El procedimiento siguiente describe cómo recibir una factura de proveedor y con
 
     Los errores de validación, normalmente relacionados con datos maestros incorrectos o no presentes en [!INCLUDE[prod_short](includes/prod_short.md)], se mostrarán en la ficha desplegable **Mensajes de error**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar pagos](payables-manage-payables.md)  
 [Documentos entrantes](across-income-documents.md)  

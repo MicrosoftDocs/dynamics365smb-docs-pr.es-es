@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 09/26/2022
+ms.date: 11/02/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-items"></a>Registro de productos nuevos
+# Registro de productos nuevos
 
 Los productos, entre otros elementos, son la base de su empresa, las mercancías o servicios con las que comercializa. Cada producto se debe registrar como una ficha de producto.
 
@@ -21,7 +21,7 @@ La ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inve
 
 Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). Obtenga más información sobre las L.M. de ensamblado y las L.M. en [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
-Si le compra el mismo producto a varios proveedores, puede conectarlos a la ficha de producto. Los proveedores aparecerán después en la página **Tarifas de compra productos** , para poder fácilmente seleccionar un proveedor alternativo.
+Si le compra el mismo producto a varios proveedores, puede conectarlos a la ficha de producto. La página **Tarifas de compra productos** muestra a los proveedores, para poder fácilmente seleccionar un proveedor alternativo.
 
 *Productos del catálogo* son productos que ofrece a sus clientes, pero que no desea administrar en su sistema hasta que comience a venderlos. Los productos del catálogo no son artículos normales de tipo **No inventario**. Obtenga más información en [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).  
 
@@ -34,7 +34,7 @@ En el siguiente procedimiento se explica cómo crear una ficha de producto desde
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## <a name="to-create-a-new-item-card"></a>Para crear una nueva ficha de producto.
+## Para crear una nueva ficha de producto.
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -49,21 +49,21 @@ El producto quedará registrado y la ficha de producto está lista para usarse e
 
 Si desea usar esta ficha de producto como plantilla cuando cree nuevas fichas de producto, puede guardarla. Para obtener más información, vea la siguiente sección:  
 
-### <a name="to-save-the-item-card-as-a-template"></a>Para guardar la ficha de producto como plantilla
+### Para guardar la ficha de producto como plantilla
 
 1. En la página **Ficha de producto**, seleccione la acción **Guardar como plantilla**. La página **Plantilla de producto** se abre mostrando la ficha de producto como plantilla.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el producto.
-4. Modifique o introduzca los códigos de dimensión que se aplicarán a nuevas fichas de producto creadas con la plantilla.
-5. Cuando haya finalizado la nueva plantilla de producto, haga clic en el botón **Aceptar**.
+4. Modifique o introduzca los códigos de dimensión que se aplican a nuevas fichas de producto creadas con la plantilla.
+5. Cuando finalice la nueva plantilla de producto, haga clic en el botón **Aceptar**.
 
 La plantilla de producto se agrega a la lista de plantillas de producto, de modo que puede usarla para crear nuevas fichas de producto.
 
-### <a name="items-used-in-production-orders"></a>Productos utilizados en órdenes de producción
+### Productos utilizados en órdenes de producción
 
 Si desea registrar productos que luego se utilicen en órdenes de producción, especifique el sistema de reposición como *Ord. prod.* en la ficha despegable **Reposición**. Para obtener más información, vea [Acerca de las órdenes de producción](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Para configurar varios proveedores para un producto
+## Para configurar varios proveedores para un producto
 
 Si compra el mismo producto a varios proveedores, deberá introducir información acerca de cada proveedor del producto, como precios, plazo de entrega (días), descuentos, etc.  
 
@@ -74,13 +74,13 @@ Si compra el mismo producto a varios proveedores, deberá introducir informació
 5. Si lo desea, puede rellenar el resto de los campos.  
 6. Repita los pasos 2 a 5 para cada proveedor al que desee comprar el producto.
 
-Los proveedores aparecerán después en la página **Tarifas de compra productos** , que se abre desde la tarjeta del producto, para poder fácilmente seleccionar un proveedor alternativo.
+Los proveedores aparecen después en la página **Tarifas de compra productos**, que se abre desde la tarjeta del producto, para poder fácilmente seleccionar un proveedor alternativo.
 
-## <a name="set-up-item-substitutions"></a>Configurar sustituciones de productos
+## Configurar sustituciones de productos
 
 Puede configurar productos para que tengan sustitutos, como otros productos que se pueden utilizar en lugar del producto original.
 
-### <a name="to-make-an-item-substitution"></a>Para identificar la sustitución de un producto
+### Para identificar la sustitución de un producto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. Busque el producto relevante y luego seleccione en **N.º producto** para abrir la ficha del producto.  
@@ -93,29 +93,29 @@ Cuando la cantidad solicitada sobrepasa la cantidad disponible en el inventario,
 > [!NOTE]  
 > Tenga en cuenta que las sustituciones de productos no harán que un producto sea reemplazado automáticamente por otro producto, por ejemplo, al crear un pedido de cliente o en una lista de materiales. En cambio, se le alertará sobre el hecho de que hay una sustitución disponible para usted.
 
-## <a name="categories-attributes-and-variants"></a>Categorías, atributos y variantes
+## Categorías, atributos y variantes
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Obtenga más información sobre las variantes en [Administrar variantes de productos](inventory-item-variants.md).  
 
-## <a name="delete-item-cards"></a>Eliminar fichas de producto
+## Eliminar fichas de producto
 
-Si ha publicado una transacción para un producto, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la valoración de inventario o auditoría. Para eliminar fichas de producto con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
+Si registra una transacción para un producto, no puede eliminar la ficha porque los movimientos pueden ser necesarias para la valoración de inventario o auditoría. Para eliminar fichas de producto con movimientos, póngase en contacto con el socio de Microsoft para hacerlo a través del código.  
 
-## <a name="manage-inventory-in-warehouses"></a>Administrar el inventario en almacenes
+## Administrar el inventario en almacenes
 
-Cuando registre un nuevo producto, verá campos relacionados con la gestión del almacén, especialmente en la ficha desplegable **Almacén**. Si su organización no utiliza las capacidades de gestión de almacenes de [!INCLUDE [prod_short](includes/prod_short.md)], entonces puede ignorar esos campos.  
+Cuando registre un nuevo producto, ve campos relacionados con la gestión del almacén, especialmente en la ficha desplegable **Almacén**. Si su organización no utiliza las capacidades de gestión de almacenes de [!INCLUDE [prod_short](includes/prod_short.md)], entonces puede ignorar esos campos.  
 
 Si su organización configura posteriormente la gestión de almacenes, le recomendamos que se asegure de que todos los productos tenga la información adecuada en los distintos campos. De esta manera, los procesos de almacén pueden ejecutarse como se esperaba. Esta información puede incluir campos como **Código de clase de almacén** o **Código de plantilla de ubicación**. Para obtener más información, consulte [Configuración de la administración de almacén](warehouse-setup-warehouse.md).  
 
-## <a name="planning"></a>Planific.
+## Planific.
 
 Cuando su empresa utiliza los procesos de planificación de suministro en [!INCLUDE [prod_short](includes/prod_short.md)], debe completar los campos correspondientes en la ficha desplegable **Planificación**. Para obtener una introducción sobre el área de planificación, consulte [Detalles de diseño: conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md).  
 
 Para ver ejemplos de cómo puede utilizar los campos en la ficha desplegable **Planificación**, consulte [Prácticas recomendadas de configuración: parámetros de planificación](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también
 
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configurar unidades de medida](inventory-how-setup-units-of-measure.md)  

@@ -9,7 +9,7 @@ ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: bholtorf
 ---
-# <a name="create-jobs"></a>Crear proyectos
+# Crear proyectos
 
 Cuando inicie un proyecto nuevo, debe crear una ficha de proyecto con tareas de proyecto integradas y líneas de planificación de proyecto, estructuradas en dos niveles.  
 
@@ -28,7 +28,7 @@ A veces, la parte a la que recibe un servicio es diferente de la parte que paga 
 * Agregue información sobre referencias externas para simplificar la comunicación sobre el proyecto.
 * Sobrescriba los términos financieros estándar del proyecto.
 
-## <a name="to-create-a-job-card"></a>Para crear una ficha de proyecto
+## Para crear una ficha de proyecto
 
 Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proyecto y las líneas de planificación de proyecto para el mismo.
 
@@ -47,7 +47,7 @@ Opcionalmente, marque las acciones del proyecto como bloqueadas utilizando el ca
 |Registrar    |Podrá trabajar con las líneas de planificación, pero estará bloqueado el registro para el proyecto. Si elige esta opción, no podrá registrar ningún consumo o ventas relacionados con el proyecto.|
 |Todo  |Todas las acciones están bloqueadas.|
 
-## <a name="to-create-tasks-for-a-job"></a>Para crear tareas para un proyecto
+## Para crear tareas para un proyecto
 
 Una parte clave de la creación de un proyecto es especificar las diversas tareas que conlleva. Para especificar tareas, debe crear una línea por tarea en la ficha desplegable **Tareas** de la página **Ficha de proyecto**. Cada proyecto debe tener al menos una tarea.
 
@@ -58,7 +58,7 @@ Una parte clave de la creación de un proyecto es especificar las diversas tarea
 5. Repita los pasos 3 y 4 para todas las tareas que necesite para el proyecto.
 6. Para especificar las tareas de proyecto con la información sobre otras tareas de proyecto, elija la acción **Copiar tareas de proyecto desde**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
-## <a name="to-create-planning-lines-for-a-job"></a>Para crear líneas de planificación de un proyecto
+## Para crear líneas de planificación de un proyecto
 
 Puede redefinir las nuevas tareas de proyecto como líneas de planificación de proyecto. Una línea de planificación puede capturar la información de un proyecto que desee supervisar. Por ejemplo, puede realizar un seguimiento de los recursos que requiere el proyecto o los productos que se necesitan. Por ejemplo, tiene una tarea para lograr que un cliente apruebe un proyecto. Puede asociar esa tarea con líneas de planificación para productos como reuniones con clientes y asignar un recurso.  
 
@@ -79,7 +79,7 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 4. En la página **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
 5. Repita los pasos 3 y 4 para todas líneas de planificación que necesita para la tarea de proyecto.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administración de proyectos](projects-manage-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

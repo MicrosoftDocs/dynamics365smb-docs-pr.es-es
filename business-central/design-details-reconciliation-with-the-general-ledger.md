@@ -10,7 +10,7 @@ ms.search.keywords: 'design, reconciliation, general ledger, inventory'
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-reconciliation-with-the-general-ledger"></a>Detalles de diseño: Conciliación con contabilidad
+# Detalles de diseño: Conciliación con contabilidad
 Cuando registra transacciones del inventario, como envíos de ventas, salida de producción o ajustes negativos, se registran los cambios realizados en la cantidad y en los valores del inventario en los movimientos de contabilidad y en los movimientos de valores, respectivamente. El siguiente paso en el proceso será registrar los valores del inventario en las cuentas del inventario del módulo de contabilidad.  
 
 Existen dos formas de conciliar el inventario con la contabilidad:  
@@ -18,22 +18,22 @@ Existen dos formas de conciliar el inventario con la contabilidad:
 * Esto se hace manualmente ejecutando el trabajo por lotes **Registrar variación inventario en contabilidad**.  
 * Automáticamente, cada vez que se registra una transacción de inventario.  
 
-## <a name="post-inventory-cost-to-gl-batch-job"></a>Trabajo por lote Reg. var. inventario en cont.
+## Trabajo por lote Reg. var. inventario en cont.  
 Cuando ejecute el trabajo por lotes **Registrar variación inventario en contabilidad**, se crearán los movimientos de contabilidad según los movimientos de valoración. Puede resumir los movimientos de contabilidad por cada movimiento de valoración o crear movimientos de contabilidad por cada combinación de fecha de registro, código de ubicaciones, grupo de registro de inventario, grupo contable general del negocio y grupo contable general del producto.  
 
 Las fechas de registro de los movimientos de contabilidad se establecerán en la fecha de registro del movimiento de valoración correspondiente, excepto si el movimiento de valoración se encuentra en un periodo contable cerrado. En este caso, se omite el movimiento de valoración y se debe cambiar la configuración de contabilidad o del usuario para activar el registro dentro del rango de fechas.  
 
 Cuando ejecute el proceso **Registrar variación inventario en contabilidad**, es posible que se produzcan errores porque falta la configuración o porque la configuración de dimensión no es compatible. Si el proceso encuentra errores relacionados con la configuración de dimensión, omitirá dichos errores y utilizará las dimensiones del movimiento de valor. Para otros errores, el trabajo por lotes no registra los movimientos de valores y muestra una lista de ellos al final del informe, en una sección llamada **Movimientos omitidos**. Para registrar dichos movimientos, deberá primeramente arreglar las causas de los errores. Para ver una lista con los errores antes de ejecutar el trabajo por lotes, puede ejecutar el informe **Reg. var. ex. en cont. - Test**. Este informe muestra un listado con todos los errores encontrados durante un proceso de registro de prueba. Puede solucionar dichos errores y después ejecutar el proceso de registro de costes sin que se omita ningún movimiento.  
 
-## <a name="automatic-cost-posting"></a>Variación existencias automát.
+## Variación existencias automát.  
 Para configurar que el registro de costes en contabilidad se ejecute automáticamente al registrar una transacción de inventario, seleccione la casilla **Variación existencias automát.** en la página **Configuración de inventario**. La fecha de registro del movimiento de contabilidad es la misma que la fecha de registro del movimiento de producto.  
 
-## <a name="account-types"></a>Tipos de cuenta
+## Tipos de cuenta  
 Durante la conciliación, los valores de inventario se registran en la cuenta de inventario en la hoja de balance. El mismo importe, pero con el signo contrario, se registra en la cuenta de contrapartida correspondiente. Normalmente, la cuenta de contrapartida es una cuenta de ganancias y pérdidas. No obstante, cuando se registra un coste directo relacionado con un consumo o una salida, la cuenta de contrapartida es una cuenta de balance. El tipo del movimiento de producto y del movimiento de valoración determina en qué cuenta de contabilidad se realizará el registro.  
 
 El tipo de movimiento indica en qué cuenta de contabilidad se registrará. Se determina mediante el signo de la cantidad en el movimiento de producto o la cantidad valorada del movimiento de valoración, ya que las cantidades siempre tienen el mismo signo. Por ejemplo, un movimiento de venta con una cantidad positiva describe una salida de existencias fruto de una venta, y un movimiento de venta con una cantidad negativa describe una entrada de existencias fruto de una devolución de venta.  
 
-### <a name="example"></a>Ejemplo
+### Ejemplo  
 En el ejemplo siguiente se muestra una cadena de bicicleta que se ha fabricado con eslabones comprados. En este ejemplo se muestra cómo se usan los diferentes tipos de cuenta contable en un escenario típico.  
 
 La casilla **Regis. cte. previsto en contab.** de la página **Configuración de inventario** está seleccionada y la configuración siguiente está definida.  
@@ -61,7 +61,7 @@ En la tabla siguiente se muestra cómo está configurado el centro de trabajo en
 |**Coste unitario directo**|DL 2,00|  
 |**Porcentaje de coste indirecto**|10|  
 
-##### <a name="scenario"></a>Caso
+##### Caso  
 1. El usuario compra 150 eslabones y registra el pedido de compra como recibido. (Compra)  
 2. El usuario registra el pedido de compra como facturado. Esto crea un importe general de 3,00 DL que debe asignarse y un importe de desviación de 18,00 DL. (Compra)  
 
@@ -110,7 +110,7 @@ En la tabla siguiente se muestra cómo está configurado el centro de trabajo en
 
 Para obtener más información acerca de la relación entre los tipos de cuenta y los distintos tipos de movimientos de valoración, consulte [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
 [Detalles de diseño: Registro de coste previsto](design-details-expected-cost-posting.md)   
 [Detalles de diseño: Ajuste de coste](design-details-cost-adjustment.md)

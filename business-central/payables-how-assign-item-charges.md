@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'transportation, added cost, landed cost'
 ms.search.form: '5709, 5800, 5805, 5814'
-ms.date: 06/22/2021
+ms.date: 11/08/2023
 ms.author: bholtorf
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Usar los cargos de producto a cuenta para los costes comerciales adicionales
+# Usar los cargos de productos a cuenta para los costes comerciales adicionales
 
 Para asegurarse de la valoración correcta, sus productos de inventario deben cargar costes adicionales, tales como fletes, manipulación física, seguros y transporte en los que incurra al comprar o vender artículos. Para las compras, el coste en destino de un producto comprado se compone del precio de compra del proveedor y de otros cargos de producto directos que se pueden asignar a albaranes o envíos devueltos determinados. Para las compras, conocer el coste de envío de los productos vendidos es tan importante para la empresa como conocer el coste de los productos comprados.
 
@@ -21,7 +21,7 @@ Además de registrar el coste añadido en su valor de inventario, puede usar car
 * Desglosar el coste unitario o el precio de venta de un producto con fines de análisis.
 * Incluya las deducciones de compras en el coste unitario y las deducciones de ventas en el precio de venta.
 
-Antes de poder asignar cargos de productos, debe configurar números de cargo de productos para los diferentes tipos de cargos de productos. Los números incluyen en qué cuentas contables se contabilizan los costes relacionados con las ventas, las compras y los ajustes de inventario. Un número de cargo de producto contiene una combinación de grupo contable de producto, código de grupo de impuesto, grupo de registro IVA producto y cargos de producto. Cuando introduce el número de cargo del producto en un documento de compra o venta, se recupera la cuenta contable. La cuenta que se recupera se selecciona en función de la configuración del número de cargo del producto y la información del documento.
+Antes de poder asignar cargos de productos, debe configurar números de cargo de productos para los diferentes tipos de cargos de productos. Los números incluyen en qué cuentas contables se contabilizan los costes relacionados con las ventas, las compras y los ajustes de inventario. Un número de cargo de producto contiene una combinación de grupo contable de producto, código de grupo de impuesto, grupo de registro IVA producto y cargos de producto. Cuando introduce el número de cargo del producto en un documento de compra o venta, se recupera la cuenta contable. La cuenta recuperada se selecciona en función de la configuración del número de cargo del producto y la información del documento.
 
 Para los documentos de compra y de venta, puede asignar un coste de producto de las siguientes maneras:
 
@@ -31,13 +31,13 @@ Para los documentos de compra y de venta, puede asignar un coste de producto de 
 > [!NOTE]  
 > Puede asignar cargos de artículos a pedidos, facturas y abonos para ventas y compras. Los procedimientos siguientes describen cómo gestionar los cargos de producto en una factura de compra. Los pasos son parecidos a los de los documentos de compra y venta.
 
-## <a name="example"></a>Ejemplo:
+## Ejemplo:
 
 Este vídeo muestra cómo gestionar un coste de envío adicional como parte de los costes de existencias.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Configurar números de coste de producto
+## Configurar números de coste de producto
 
 Los números de cargo de producto sirven para diferenciar los distintos tipos de cargos de productos.
 
@@ -45,7 +45,7 @@ Los números de cargo de producto sirven para diferenciar los distintos tipos de
 2. En la página **Cargos producto**, seleccione la acción **Nuevo** para crear una línea nueva.
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto directamente en la factura de compra del producto
+## Asignar un coste de producto directamente en la factura de compra del producto
 
 Si conoce el cargo de un producto en el momento en que registra la factura de compra, siga este procedimiento.
 
@@ -65,11 +65,11 @@ Si conoce el cargo de un producto en el momento en que registra la factura de co
 9. En la página **Asignación cargos prod.**, seleccione la acción **Sugerir asignación cargo prod.**
 10. Si hay más de una línea de factura del tipo Producto, elija una de las cuatro opciones de distribución.  
 
-El cargo del producto está completamente asignado, el valor de la factura de compra en el campo **Cdad. para asignar** es cero.
+Si el cargo del producto está completamente asignado, el valor de la factura de compra en el campo **Cdad. para asignar** es cero.
 
 El cargo de producto está asignado a la factura de compra. Al registrar la recepción de la factura de compra, los valores de inventario de los elementos se actualizan con el coste del cargo del producto.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Asignar un coste de producto de una factura independiente a la factura de compra del producto
+## Asignar un coste de producto de una factura independiente a la factura de compra del producto
 
 Si recibió una factura por el cargo de producto después de haber publicado el recibo de compra original, siga este procedimiento.
 
@@ -80,7 +80,7 @@ Si recibió una factura por el cargo de producto después de haber publicado el 
 
 El cargo de producto de la factura de compra independiente se asigna al producto en el recibo de compra registrado, y se actualiza el valor de inventario del artículo con el coste del cargo de producto.
 
-## <a name="handle-item-charges-for-partial-receipts"></a>Manejar cargos de productos para recibos parciales
+## Manejar cargos de productos para recibos parciales
 
 Exploremos un ejemplo de cómo manejar los cargos de productos para un recibo parcial.
 
@@ -95,7 +95,7 @@ Para manejar el coste del producto para el recibo parcial, en la página **Asign
 
 Cuando esté listo para manejar el producto que faltaba, actualice el campo **Cantidad a manejar** y contabilice el pedido.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también
 
 [Administrar pagos](payables-manage-payables.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  

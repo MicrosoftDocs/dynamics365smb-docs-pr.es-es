@@ -1,14 +1,14 @@
 ---
-title: Introducción a la Administración de servicio de Contoso Coffee
+title: Introducción a la administración de servicio de Contoso Coffee
 description: Este artículo le presenta los datos de demostración de Consoso Coffee para gestión de servicio.
 author: andreipanko
 ms.author: andreipa
 ms.topic: how-to
-ms.date: 05/31/2023
+ms.date: 11/27/2023
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Introducción a la Administración de servicio de Contoso Coffee
+# Introducción a la administración de servicio de Contoso Coffee
 
 Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para Business Central agregan datos de demostración que puede usar para aprender a usar las capacidades de administración de servicio en Business Central.
 
@@ -22,11 +22,11 @@ Esta aplicación proporciona varios elementos que se utilizan para los tutoriale
 > Antes de ejecutar cualquiera de los escenarios para Contoso Coffee, registre las líneas del diario de productos con saldos iniciales. Para ver más requisitos, consulte la sección [Configurar datos de Contoso Coffee](#set-up-contoso-coffee-service-management-data).
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Configuración de datos de demostración de Contoso Coffee para administración de servicio
+## Configuración de los datos de administración del servicio de Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
-Una vez instaladas las aplicaciones relevantes, vaya a la página de la [Herramienta de demostración de Contoso](https://businesscentral.dynamics.com/?page=5194) en [!INCLUDE [prod_short](../../includes/prod_short.md)], seleccione la línea *Módulo de servicio* y use la acción **Configurar** para preparar los módulos. En las siguientes tablas se describen las configuraciones:  
+Una vez instaladas las aplicaciones relevantes, vaya a la página de la [Herramienta de demostración de Contoso](https://businesscentral.dynamics.com/?page=5194) en [!INCLUDE [prod_short](../../includes/prod_short.md)], seleccione la línea *Módulo de servicio* y use la acción **Configurar** para preparar los módulos. En la siguiente tabla se describen las configuraciones:  
 
 |Campo  |Descripción  |
 |---------|---------|
@@ -36,13 +36,12 @@ Una vez instaladas las aplicaciones relevantes, vaya a la página de la [Herrami
 |**N.º prod. servicio 1**  |El elemento de tipo servicio que se utilizará en el escenario de reparación.|
 |**N.º prod. servicio 2**  |El elemento de tipo servicio que se utilizará en el escenario de reparación.|
 |**N.º recurso 1**  |El recurso que se usará para los escenarios de contrato.|
-|**N.º recurso 2**  |El recurso que se usará para los escenarios de sustitución.|
+|**N.º recurso 2**  |El recurso que se usará para los escenarios de break-fix.|
 |**Ubicación de servicio** |Especifica el almacén que desea usar para las operaciones de servicio. El valor predeterminado es *PRINCIPAL*, pero puede cambiarlo para adaptarlo a sus necesidades.|
-
 
 Una vez que esté listo, elija la acción **Crear datos de demostración** acción. Se tarda unos minutos en agregar los datos a la base de datos subyacente, pero luego ya está listo para ejecutar los distintos escenarios.  
 
-## <a name="scenarios"></a>Escenarios
+## Escenarios
 
 Los datos de demostración de Contoso Coffee admiten actualmente los siguientes escenarios de servicio para pruebas y formación:
 
@@ -55,6 +54,6 @@ Lea los pasos para cada escenario en el artículo correspondiente.
 > Los tutoriales de servicio requieren que la experiencia del usuario esté establecida en **Premium** en la página **Información empresa**.
 
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también
 
 [Servicio](../../service-service.md)
