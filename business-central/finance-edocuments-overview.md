@@ -12,7 +12,7 @@ ms.date: 10/10/2023
 ms.author: altotovi
 ---
 
-# Información general de documentos electrónicos
+# <a name="e-documents-overview"></a>Información general de documentos electrónicos
 
 Los documentos electrónicos son la columna vertebral de las transacciones comerciales modernas. Abarcan documentos vitales, como facturas y recibos en ambas direcciones (entrega y recepción). También agregan capacidades para mensajes relacionados con el estado de los documentos entre puntos de acceso.
 
@@ -32,7 +32,7 @@ La documentación explica los documentos electrónicos en detalle. Muestra las c
 | [Ampliar la funcionalidad de documentos electrónicos](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Aprenda cómo ampliar la funcionalidad de los documentos electrónicos con requisitos locales o industriales específicos mediante la creación de aplicaciones adicionales además de esta. |
 | [Intercambio de datos electrónicamente](across-data-exchange.md) | Aprenda cómo usar Marco de intercambio de datos para gestionar el intercambio de datos en documentos empresariales, como archivos bancarios y tipos de cambio de divisa. | 
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Gestión financiera](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf
 ---
-# Uso de esquemas XML para preparar definiciones de intercambio de datos
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Uso de esquemas XML para preparar definiciones de intercambio de datos
 
 Para habilitar la importación y exportación de datos en archivos XML mediante el marco de intercambio de datos en [!INCLUDE[prod_short](includes/prod_short.md)], puede usar esquemas XML de los archivos para definir los elementos de datos que desea intercambiar con [!INCLUDE[prod_short](includes/prod_short.md)]. Este trabajo se realiza en la página **Visor de esquema XML** mediante la carga del archivo de esquema XML, la selección de los elementos de datos pertinentes y la inicialización de una definición de intercambio de datos.  
 
@@ -24,7 +24,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
 - Para generar una definición de intercambio de datos basada en un esquema XML  
 
-## Para cargar un archivo de esquema XML
+## <a name="to-load-an-xml-schema-file"></a>Para cargar un archivo de esquema XML
 
 1. Asegúrese de que esté disponible el archivo de esquema XML. La extensión de archivo es .xsd.  
 
@@ -48,7 +48,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
     > [!NOTE]  
     >  El árbol del esquema XML cargado está contraído de forma predeterminada. Puede ampliar cada nodo eligiendo el botón **+** en el nodo. Para expandir todos los nodos, seleccione **Expandir todo** en la cinta.  
 
-### Para seleccionar o borrar nodos en un esquema XML  
+### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Para seleccionar o borrar nodos en un esquema XML
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Visor de esquemas XML** y luego elija el enlace relacionado.  
 
@@ -86,7 +86,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 
      El campo **Opción** especifica que el nodo tiene dos o más nodos de hermano que funcionan como opciones.  
 
-### Para generar una definición de intercambio de datos basada en un esquema XML  
+### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Para generar una definición de intercambio de datos basada en un esquema XML
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Esquemas XML** y luego elija el enlace relacionado.  
 
@@ -104,7 +104,7 @@ Para habilitar la importación y exportación de datos en archivos XML mediante 
 > [!NOTE]
 > En la fase de lanzamiento 1 de 2019 y versiones anteriores, podía generar un XMLport basado en el esquema y luego importarlo en su solución. Esto ya no es compatible.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configurar definiciones de intercambio de datos](across-how-to-set-up-data-exchange-definitions.md)  
 [Exportar pagos a un archivo bancario](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

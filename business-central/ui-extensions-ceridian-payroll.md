@@ -11,7 +11,7 @@ ms.search.form: '1665,'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# La extensión de nóminas de Ceridian
+# <a name="the-ceridian-payroll-extension"></a>La extensión de nóminas de Ceridian
 
 Para contabilizar los pagos de salario y transacciones relacionadas, deberá importar y registrar las transacciones financieras de salario creadas para el proveedor de nóminas al libro mayor.
 
@@ -19,7 +19,7 @@ Para hacer esto, primero importe un archivo que recibirá del proveedor de nómi
 
 La extensión de nóminas de Ceridian le permite importar transacciones de nóminas de los servicios Ceridian HR/Payroll (EE. UU.) y Ceridian PowerPay (Canadá).
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Finanzas](finance.md)  

@@ -8,7 +8,7 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: bholtorf
 ---
-# Configuración de divisas
+# <a name="set-up-currencies"></a>Configuración de divisas
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -16,7 +16,7 @@ Utilice un servicio externo para incluir los últimos tipos de cambio de divisa 
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="curr"></a>Divisas
+## <a name="currencies"></a><a name="curr"></a>Divisas
 
 En la tabla siguiente se describen los campos de la lista **Divisas**.
 
@@ -52,7 +52,7 @@ En la tabla siguiente se describen los campos de la lista **Divisas**.
 |**Máx. diferencia IVA permitida**|El importe máximo permitido por diferencias de IVA en esta divisa. Para obtener más información, consulte [Corrección manual de los importes del IVA en los documentos de ventas y compras](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
 |**Tipo redondeo IVA**|Especifica el método de redondeo para corregir los importes de IVA manualmente en los documentos de compra y venta. Es posible que este campo no esté visible de forma predeterminada. Se puede recuperar personalizando la página.|
 
-### Funciones de divisa disponibles
+### <a name="available-currency-functions"></a>Funciones de divisa disponibles
 
 La siguiente tabla describe las acciones clave en la página **Divisas**.  
 
@@ -67,11 +67,11 @@ La siguiente tabla describe las acciones clave en la página **Divisas**.
 ||**Actualizar tipos de cambio**|Permite obtener los tipos de cambio de divisa más recientes de un proveedor de servicios.|
 |**Informes**|**Saldo divisas extranjeras**|Ver los saldos de todos los clientes y los proveedores en divisa extranjera y en la moneda local (DL). El informe muestra dos saldos DL. Uno es el saldo de divisa extranjera convertido a DL utilizando el tipo de cambio en el momento de la transacción. El otro es el saldo de divisa extranjera convertido a DL utilizando el tipo de cambio del día.|
 
-## DL y otras divisas
+## <a name="lcy-and-other-currencies"></a>DL y otras divisas
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Redondeo de divisas
+## <a name="rounding-currencies"></a>Redondeo de divisas
 
 Para administrar las divisas que no utilizan decimales y evitar su uso innecesario en las divisas extranjeras, puede utilizar dos funciones de redondeo diferentes:
 
@@ -83,35 +83,35 @@ Estas funciones pueden utilizarse de forma independiente o combinarse entre sí.
 
 A diferencia de las funciones de redondeo de facturas, las funciones de redondeo de importe y precio-producto sólo afectan a los importes en divisas extranjeras-no a los importes correspondientes en divisas locales. Estas dos funciones no dan lugar a ningún registro en las cuentas de contabilidad. Como consecuencia, no es necesario especificar ninguna cuenta en los grupos contables ni en ninguna otra sección.
 
-### Redondeo precio-producto
+### <a name="unit-amount-rounding"></a>Redondeo precio-producto
 
 La característica de redondeo precio-producto controla el modo en que se redondean los precios de venta de los productos y recursos en divisas extranjeras en las líneas de venta y compra. Debe especificar las reglas para cada divisa de forma independiente, en el campo **Prec. redondeo precio-prod.** de la lista **Divisas**.
 
 La característica de redondeo precio-producto se utiliza de forma automática cada vez que introduce un número de producto o de recurso en una línea de ventas. Si la factura corresponde a un cliente con un código de divisa, el precio del producto o recurso se convierte a la divisa del cliente. El precio se redondea según el valor de precisión de redondeo precio-producto especificado para la divisa.
 
-### Redondeo de importe
+### <a name="amount-rounding"></a>Redondeo de importe
 
 La característica de redondeo de importe controla el modo en que se redondean los importes en divisas extranjeras en las líneas del diario general, las líneas de ventas y las líneas de compras. Debe especificar las reglas para cada divisa de forma independiente en el campo **Prec. redondeo importe** de la lista **Divisas**.
 
 Los importes en divisas extranjeras se redondean cuando se rellenan y registran líneas de diarios generales, líneas de ventas y líneas de compras.
 
-## Tipos de cambio
+## <a name="exchange-rates"></a>Tipos de cambio
 
 Puede registrar tipos de cambio para cada divisa extranjera y especificar a partir de qué fechas se aplicarán estos tipos de cambio. Por ejemplo, puede especificar tipos de cambio diarios, mensuales o trimestrales para cada divisa extranjera.
 
 Puede mantener tipos de cambio históricos en la página **Tipos cambio divisa** para utilizarlos como referencia. Cuando necesite actualizar los tipos de cambio, puede utilizar el botón **Actualizar tipos de cambio** para obtener los últimos tipos de cambio de un proveedor de servicios externo.
 
-## Cuentas contables
+## <a name="general-ledger-accounts"></a>Cuentas contables
 
 No es posible vincular códigos de divisa a las cuentas contables debido a que los importes de dichas cuentas se muestran en la divisa local. Si tiene un préstamo bancario en dólares estadounidenses y efectúa un ingreso en una cuenta bancaria en coronas suecas, deberá configurar sus cuentas bancarias en dólares estadounidenses y en coronas suecas para poder realizar su seguimiento. Mediante los grupos contables, puede vincular las cuentas a las cuentas contables correspondientes. En la contabilidad, el valor de los importes se muestra en la divisa local.
 
 Puede especificar un código de divisa en una línea de un diario general y registrar dicha línea en una cuenta contable. El tipo de cambio correspondiente se utilizará para convertir el importe a la divisa local antes de que se registre en la cuenta contable.  
 
-## Ejemplo de una transacción de divisa por cobrar
+## <a name="example-of-a-receivable-currency-transaction"></a>Ejemplo de una transacción de divisa por cobrar
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)  
 [Configurar una divisa de informes adicional](finance-how-setup-additional-currencies.md)  
