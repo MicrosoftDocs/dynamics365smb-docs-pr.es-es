@@ -12,7 +12,7 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Configurar documentos electrónicos
+# Configurar documentos electrónicos
 
 > [!IMPORTANT]
 > El módulo principal de E-Documents es un marco. De forma predeterminada, no hay ningún campo **Integración de servicio**. Si encuentra las opciones de **Formato de documento** de forma predeterminada, tenga en cuenta que se ofrecen a modo de ejemplo y que la localización debe proporcionar un formato detallado. Estos detalles forman parte de las aplicaciones de localización, porque son específicos de los requisitos locales.
@@ -22,7 +22,7 @@ ms.author: altotovi
 
 El primer paso en la configuración de documentos electrónicos (e-documents) es configurar el Servicio de documentos electrónicos donde se define el comportamiento completo de su sistema en relación con la comunicación de documentos electrónicos.
 
-## <a name="set-up-the-e-document-service"></a>Configurar el servicio de documentos electrónicos
+## Configurar el servicio de documentos electrónicos
 
 Siga estos pasos para configurar el Servicio de documentos electrónicos.
 
@@ -72,7 +72,7 @@ Si ha configurado el formato **Definición de intercambio de datos** en su local
 
 Si no usa el formato **Definición de intercambio de datos**, puede crear y configurar formatos utilizando la [interfaz](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Ajuste la información en las líneas **Asignación de exportación** y **Asignación de importación**, donde encontrará las tablas y los campos para configurar las reglas de transformación. En este caso, debe agregar una nueva opción en el campo **Formato de documento** que esté relacionada con su formato.
 
-## <a name="set-up-a-document-sending-profile"></a>Configurar un perfil de envío de documentos
+## Configurar un perfil de envío de documentos
 
 Puede configurar un método preferido de envío de documentos de ventas para cada cliente. De esta manera, no tiene que seleccionar una opción de envío cada vez que selecciona la acción **Registrar y enviar** . En la página **Perfiles de envío de documentos**, puede establecer diferentes perfiles de envío y después seleccionar entre ellos en el campo **Perfil de envío de documentos** de una ficha de cliente. Puede seleccionar la casilla **Predeterminado** para especificar que un perfil de envío de documentos es el perfil predeterminado para todos los clientes, excepto para los clientes en los que el campo **Perfil de envío de documentos** esté configurado con un perfil de envío diferente.
 
@@ -94,7 +94,7 @@ Siga estos pasos para configurar un perfil de envío de documentos.
     > [!NOTE]
     > Si selecciona **Flujo de servicio de documentos electrónicos ampliado** en el campo **Documento electrónico** , debe tener ya configurado el flujo de trabajo para sus documentos electrónicos.
 
-## <a name="set-up-the-workflow"></a>Configurar el flujo de trabajo
+## Configurar el flujo de trabajo
 
 Siga estos pasos para configurar el flujo de trabajo que se utiliza en la funcionalidad de documentos electrónicos.
 
@@ -113,7 +113,7 @@ Para usar más flujos de trabajo, configúrelos a través de los perfiles de env
 
 Cuando configure su flujo de trabajo en la página **Flujo de trabajo**, señale el campo **Condición On** en la ficha desplegable **Pasos de flujo de trabajo**. En la página **Condiciones del evento**, en el campo **Filtro**, seleccione el perfil de envío de documentos que desea usar.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Configurar una política de retención de documentos electrónicos
+## Configurar una política de retención de documentos electrónicos
 
 Los documentos electrónicos pueden estar sujetos a diferentes legislaciones locales relacionadas con el período de conservación de los documentos electrónicos. Por lo tanto, hemos agregado una configuración de política de retención para toda la información importante relacionada con los documentos electrónicos. Los administradores pueden definir políticas de retención que especifiquen con qué frecuencia Dynamics 365 Business Central elimina registros obsoletos relacionados con documentos electrónicos. Para obtener más información sobre las directivas de retención en, consulte [Definir directivas de retención](admin-data-retention-policies.md).
 
@@ -127,7 +127,7 @@ Para configurar políticas de retención relacionadas con documentos electrónic
     - Registro de asignación de documentos electrónicos
     - Almacenamiento de datos de documentos electrónicos
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Cómo usar documentos electrónicos en Business Central](finance-how-use-edocuments.md)  
 [Cómo ampliar documentos electrónicos en Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
