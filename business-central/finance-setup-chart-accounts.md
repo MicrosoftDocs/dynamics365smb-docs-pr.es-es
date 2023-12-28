@@ -1,24 +1,23 @@
 ---
 title: Configurar o cambiar el plan de cuentas (contiene vídeo)
-description: El plan de cuentas (COA) muestra las cuentas de contabilidad que almacenan sus datos financieros. Puede cambiar las cuentas predeterminadas en el plan de cuentas y puede agregar nuevas cuentas.
+description: Aprenda a configurar su plan de cuentas (COA) para mostrar las cuentas de contabilidad que almacenan sus datos financieros.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 01/21/2022
-ms.author: bholtorf
+ms.date: 12/19/2023
+ms.custom: bap-template
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
+# Configurar o cambiar el plan de cuentas
 
 El plan de cuentas (COA) muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[prod_short](includes/prod_short.md)] incluye un COA estándar que está preparado para respaldar su negocio. Sin embargo, puede cambiar las cuentas predeterminadas y agregar nuevas cuentas.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Agregar o cambiar cuentas
+## Agregar o cambiar cuentas
 
 Desde el COA, puede abrir cada cuenta de contabilidad y agregar o cambiar la configuración. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +28,7 @@ Para cuentas del tipo **Total**, deberá completar el campo **Sumatorio**. Para 
 > [!IMPORTANT]
 > Si ha escrito definiciones en los campos **Sumatorio** referentes a las cuentas **Fin-Total** antes de ejecutar la función Indentar, deberá volver a escribirlas, ya que esta función sobrescribe los valores de todos los campos **Fin-Total**.
 
-## <a name="delete-accounts"></a>Eliminar cuentas
+## Eliminar cuentas
 
 Puede eliminar una cuenta contable. Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:  
 
@@ -39,17 +38,17 @@ Puede eliminar una cuenta contable. Sin embargo, antes de eliminarla, deben cump
 
 [!INCLUDE[prod_short](includes/prod_short.md)] impide que elimine una cuenta de contabilidad que guarde los datos que se necesitan en el plan de cuentas.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Bloquear eliminación de cuentas de contabilidad
+También puede especificar cuándo permitir que las personas eliminen cuentas. En la página **Configuración de contabilidad**, la casilla **Bloquear eliminación de cuentas de mayor** funciona junto con la fecha en el campo **Comprobar la cuenta del L/M tras eliminación** para actuar como una validación adicional. Si activa la opción **Bloquear eliminación de cuentas de contabilidad** no puede eliminar cuentas que tengan movimientos después de la fecha en el campo **Comprobar eliminación de cuenta después de**. Para eliminar dicha cuenta, alguien con acceso a la página **Configuración de contabilidad** debe desactivar la opción **Bloquear eliminación de cuentas de mayor**.  
 
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+Activar el campo **Bloquear eliminación de cuentas de contabilidad** puede considerarse una buena práctica, lo mismo que establecer la fecha del campo **Comprobar eliminación de cuenta después de** en, por ejemplo, la fecha en la que la regulación le requiere que debe almacenar sus datos financieros.  
 
-El lanzamiento de versiones 2 de 2022 introduce una protección adicional contra la eliminación accidental de cuentas contabilidad, incluso en los escenarios en los que se cumplen los criterios.  
+### Guía de vídeo
 
-Un nuevo campo, **Bloquear eliminación de cuentas de contabilidad**, se ha agregado a la página **Configuración de contabilidad**. Cuando se establece en *Sí*, el campo hace de validación adicional, lo que significa que no puede eliminar cuentas con movimientos posteriores a la fecha del campo **Comprobar eliminación de cuenta después de**. Para eliminar esta cuenta, un usuario con acceso a la página **Configuración de contabilidad** debe establecer primero este campo en *No*.  
+Este vídeo muestra cómo especificar si las personas pueden eliminar cuentas del L/M y cuándo.
 
-Establecer el campo **Bloquear eliminación de cuentas de contabilidad** en *Sí* puede considerarse una buena práctica, lo mismo que establecer la fecha del campo **Comprobar eliminación de cuenta después de** en, por ejemplo, la fecha en la que debe almacenar sus datos financieros.  
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  

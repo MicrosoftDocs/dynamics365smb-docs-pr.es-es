@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Personalizar su área de trabajo
 
-Puede personalizar el área de trabajo para que se adapte a sus preferencias y trabajo. Cambie las páginas para que muestren solo la información que necesita, donde la necesita. La personalización afecta solo a su espacio de trabajo. No cambia la forma en que otros trabajan. Puede personalizar todo tipo de páginas, incluida la página [Área de trabajo](ui-change-basic-settings.md#role-center). 
+Puede personalizar el área de trabajo para que se adapte a sus preferencias y trabajo. Cambie las páginas para que muestren solo la información que necesita, donde la necesita. La personalización afecta solo a su espacio de trabajo. No cambia la forma en que otros trabajan. Puede personalizar todo tipo de páginas, incluida la página [Área de trabajo](ui-change-basic-settings.md#role-center).
+
+> [!NOTE]
+> Debido a restricciones en las capacidades de diseño en el cliente web, actualmente no es posible personalizar los controles dentro de la sintaxis de la cuadrícula.
+Se aplica a todos los modos de diseño, no sólo a la personalización.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,7 +188,6 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 - Algunas páginas tienen varios campos de página que se asignan a la misma tabla de origen. El panel mostrará ambos o todos esos campos de página de manera independiente. Mostrar/ocultar/mover esos campos también es independiente sin que uno afecte al otro.
 - Si una parte o grupo está oculto, los campos fantasma todavía se mostrarán dentro, pero no podrá arrastrar y soltar ni agregar/mostrar ese campo hasta que haga visible el grupo/parte.
 
-## Consultar la [formación de Microsoft](/training/modules/personalize-ui-dynamics-365-business-central/index) relacionada
 
 ## Consulte también
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  

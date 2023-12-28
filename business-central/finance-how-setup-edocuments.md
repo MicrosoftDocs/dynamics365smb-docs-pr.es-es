@@ -70,7 +70,11 @@ Siga estos pasos para configurar el Servicio de documentos electrónicos.
 
 Si ha configurado el formato **Definición de intercambio de datos** en su localización, puede añadir una línea para cada tipo de documento que necesite. Agregue líneas que coincidan con el ejemplo de intercambio de datos predeterminado para el formato W1 PEPPOL. Sin embargo, primero seleccione la opción **Tipo de Documento** para cada línea que necesite. Para cada tipo de datos, seleccione el valor de **Importar código de def. de intercambio de datos** o **Exportar código de def. de intercambio de datos** que desee usar.
 
-Si no usa el formato **Definición de intercambio de datos**, puede crear y configurar formatos utilizando la [interfaz](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Ajuste la información en las líneas **Asignación de exportación** y **Asignación de importación**, donde encontrará las tablas y los campos para configurar las reglas de transformación. En este caso, debe agregar una nueva opción en el campo **Formato de documento** que esté relacionada con su formato.
+Si no usa el formato **Definición de intercambio de datos**, puede crear y configurar formatos utilizando la [interfaz](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Ajuste la información en las líneas **Asignación de exportación** y **Asignación de importación**, donde encontrará las tablas y los campos para configurar las reglas de transformación. En este caso, debe agregar una nueva opción en el campo **Formato de documento** que esté relacionada con su formato.  
+
+### Tipos de documento admitidos 
+
+Los tipos de documentos admitidos se basan en el **formato de documento**. Para comprobar qué tipos de documentos son compatibles, en la página **Servicio de documentos electrónicos**, ejecute la acción **Tipos de documentos admitidos**. Se abre **Tipos de documentos de origen admitidos por el servicio de documentos electrónicos** y en la columna **Tipo de documento de origen**, puede encontrar todos los tipos de documentos admitidos.  
 
 ## Configurar un perfil de envío de documentos
 
