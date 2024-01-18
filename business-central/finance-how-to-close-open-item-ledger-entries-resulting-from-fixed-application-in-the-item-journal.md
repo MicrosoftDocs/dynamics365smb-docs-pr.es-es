@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 40
-ms.date: 04/01/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
+# Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
 
 Puede utilizar el campo **Liquidar por mov.** en la página **Diario de productos** para crear manualmente una liquidación fija entre una transacción de entrada y la transacción de salida original. Por ejemplo, para corregir la transacción de salida o procesar su devolución.  
 
@@ -23,18 +23,18 @@ Puede cambiar y volver a liquidar los movimientos de liquidación en determinada
 
 El siguiente procedimiento muestra cómo cerrar los movimientos realizando dos registros correctores en el diario de productos.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Para cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
+## Para cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos  
 
 1. Utilice el campo **Liquidar por mov.** para registrar un ajuste positivo con la cantidad correspondiente. Esto cierra el movimiento negativo original con una liquidación fija.  
 
     El campo **Liquidar por mov.** especifica el número del movimiento de productos de salida cuyo coste se desvía al movimiento de producto de entrada cuando se registra una transacción de entrada de tipo **Entrada** o **Compra** con el diario de productos.  
 2. Utilice el campo **Liquidar por mov.** para registrar un ajuste negativo. Esto cierra el movimiento positivo de corrección original con una liquidación fija.  
 
-    El campo **Liq. por nº orden** especifica si la cantidad que aparece en la línea del diario de productos debe liquidarse en un documento ya registrado. Si es así, introduzca el número de movimiento del producto sobre el que debería liquidarse la línea del diario.
+    El campo **Liq. por nº orden** especifica si la cantidad que aparece en la línea del diario de productos debe liquidarse en un documento ya registrado. Si es así, introduzca el número de movimiento del producto sobre el que debería liquidarse la línea de diario de producto.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
-[Eliminar y liquidar de nuevo los movimientos contables de producto](finance-how-to-remove-and-reapply-item-entries.md)  
+[Quitar y volver a liquidar los movimientos de productos](finance-how-to-remove-and-reapply-item-entries.md)  
 [Procesamiento de devoluciones de ventas y cancelaciones](sales-how-process-sales-returns-cancellations.md)  
 [Configuración de valoración de existencias](finance-set-up-inventory-valuation-and-costing.md)  
 [Gestión de costes de inventario](finance-manage-inventory-costs.md)  

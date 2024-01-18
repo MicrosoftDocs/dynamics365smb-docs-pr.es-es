@@ -1,19 +1,19 @@
 ---
-title: Administración de valores de opciones que faltan
+title: Administrar valores de opciones que faltan
 description: Aprenda a evitar que falle la sincronización completa porque las opciones difieren en los campos asignados. Este proceso requiere la ayuda de un desarrollador.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 03/23/2022
+ms.date: 12/12/2023
 ---
 
-# Administración de valores de opciones que faltan
+# Administrar valores de opciones que faltan
 > [!NOTE]
 > En el primer lanzamiento de versiones de 2022, puede crear sus propias asignaciones de opciones. Para obtener más información, consulte [Personalización de asignaciones de opciones con Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Las nuevas capacidades requieren que su administrador habilite **Actualización de características: Asignación a conjuntos de opciones en Dataverse sin código** en la página **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Este tema está destinado a una audiencia técnica. Los procesos que describe requieren la ayuda de un desarrollador.
+Este artículo está destinado a una audiencia técnica. Los procesos que describe requieren la ayuda de un desarrollador.
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] contiene tres campos de conjunto de opciones que contienen valores que puede asignar a campos [!INCLUDE[prod_short](includes/prod_short.md)] de tipo Opción para la sincronización automática. Durante la sincronización, las opciones no asignadas se ignoran y las opciones que faltan se anexan a la tabla [!INCLUDE[prod_short](includes/prod_short.md)] relacionada y se agregan a la tabla del sistema **Asignación de opciones de Dataverse** para su administración manual más tarde. Por ejemplo, agregando las opciones que faltan en cualquiera de los productos y luego actualizando la asignación.
 
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Todas las enumeraciones [!INCLUDE[prod_short](includes/prod_short.md)] anteriores se asignan a conjuntos de opciones de [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### Extensión de conjuntos de opciones en [!INCLUDE[prod_short](includes/prod_short.md)]
+## Extensión de conjuntos de opciones en [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Cree una nueva extensión AL.
 
 2. Agregue una extensión Enum para las opciones que desea extender. Asegúrese de usar el mismo valor. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Los primeros diez caracteres de los nuevos nombres de valores de opciones y títulos deben ser únicos. Por ejemplo, dos opciones llamadas "Transferir 20 días hábiles" y "Transferir 20 días naturales" causarán un error porque ambos tienen los mismos 10 primeros caracteres, "Transferir 2". Nómbrelos, por ejemplo, "TRF20 DH" y "TRF20 DN".
 
-### Actualizar la asignación de opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Actualizar la asignación de opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Ahora puede recrear la asignación entre las opciones [!INCLUDE[prod_short](includes/cds_long_md.md)] y los registros [!INCLUDE[prod_short](includes/prod_short.md)].
 
 En la página **Asignación de tablas de integración**, elija la línea para la asignación **Condiciones de pago** y luego elija la acción **Sincronizar registros modificados**. La página **Asignación de opciones de Dataverse** se actualiza con los registros adicionales siguientes.
@@ -118,7 +118,7 @@ En la página **Asignación de tablas de integración**, elija la línea para la
 | **Condiciones de pago: CASH PAYME**  | **779800001**  | **Pago efectivo**     |
 | **Condiciones de pago: TRANSFER**    | **779800002**  | **Transferencia**         |
 
-La tabla **Condiciones de pago** de [!INCLUDE[prod_short](includes/prod_short.md)] tendrá nuevos registros para las opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]. En la siguiente tabla, las nuevas opciones están en negrita. Las filas en cursiva representan todas las opciones que ahora se pueden sincronizar. Las filas restantes representan opciones que no están en uso y se ignorarán durante la sincronización. Puede eliminarlas o ampliar las opciones de Dataverse con los mismos nombres.
+La tabla **Condiciones de pago** de [!INCLUDE[prod_short](includes/prod_short.md)] tendrá nuevos registros para las opciones [!INCLUDE[prod_short](includes/cds_long_md.md)]. En la siguiente tabla, las nuevas opciones están en negrita. Las filas en cursiva representan todas las opciones que ahora se pueden sincronizar. Las filas restantes representan opciones que no están en uso y se ignoran durante la sincronización. Puede eliminarlas o ampliar las opciones de Dataverse con los mismos nombres.
 
 | Code       | Cálculo de fecha de vencimiento | Fecha cálculo dto. P.P. | % descuento | Calc. dto. P.P. en abonos | Descripción       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|

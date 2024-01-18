@@ -7,16 +7,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 04/01/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Tutorial: cálculo del trabajo en curso para un proyecto
+# Tutorial: cálculo del trabajo en curso para un proyecto
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-Con proyectos, puede programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con el uso de recursos en un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto. Si un proyecto se extiende durante un periodo prolongado, es posible que desee transferir estos costes a una cuenta de Trabajo en curso (WIP) en el balance mientras se realiza el proyecto. De este modo, podrá identificar los costes y ventas en las cuentas de regularización cuando lo desee.  
+Con proyectos, puede programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con el uso de recursos en un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto. Si un proyecto se extiende durante un periodo prolongado, es posible que desee transferir estos costes a una cuenta de Trabajo en curso (WIP) en el balance mientras se realiza el proyecto. De este modo, podrá identificar los costes y ventas en las cuentas de regularización cuando sea apropiado.  
 
-## <a name="about-this-walkthrough"></a>Acerca de este tutorial
+## Acerca de este tutorial
 
  En este tutorial se ilustran las siguientes tareas:  
 
@@ -28,23 +28,23 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
  Cada paso del proceso calcula el valor y mueve las transacciones del proyecto a la contabilidad. Los pasos de cálculo y registro son independientes, para que pueda revisar los datos y realizar modificaciones antes de registrar en la contabilidad. Por lo tanto, debe asegurarse de que toda la información sea correcta después de ejecutar los trabajos por lotes de cálculos y antes de ejecutar los trabajos por lotes de registro.  
 
-## <a name="roles"></a>Funciones
+## Funciones
 
  En este tutorial se utiliza al miembro del equipo del proyecto (Tricia) como personaje.  
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos
 
  Para poder realizar las tareas del tutorial, [!INCLUDE[prod_short](includes/prod_short.md)] debe estar instalado en su ordenador:  
 
-## <a name="story"></a>Historia
+## Historia
 
- Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte del trabajo en CRONUS está orientado al proyecto y Tricia, un miembro del equipo de proyecto, utiliza los trabajos para tener una visión general de cada trabajo en curso que CRONUS ha iniciado y también los trabajos que se han completado. Algunos de los trabajos pueden ser muy largos y pueden durar varios meses. Tricia puede usar un Cuenta WIP para registrar el trabajo en curso y realizar el seguimiento de los costes del proyecto.  
+ Este tutorial se centra en la empresa CRONUS España S.A., una empresa de diseño y consultoría que diseña y ajusta nuevas infraestructuras, (como salas de conferencias y oficinas) con mobiliario, accesorios y unidades de almacenamiento. La mayor parte del trabajo en CRONUS está orientado al proyecto y Tricia, un miembro del equipo de proyecto, utiliza los trabajos para tener una visión general de cada trabajo en curso que CRONUS ha iniciado y también los trabajos que se han completado. Algunos de los proyectos pueden ser largos y pueden durar varios meses. Tricia puede usar un Cuenta WIP para registrar el trabajo en curso y realizar el seguimiento de los costes del proyecto.  
 
-## <a name="calculating-wip"></a>Cálculo de WIP
+## Cálculo de WIP
 
- CRONUS ha contratado un proyecto extenso que ahora se ha ampliado a varios periodos de registro. Tricia, un miembro de equipo de proyecto, calcula el trabajo en curso (WIP) para garantizar que el informe financiero de la empresa será preciso.  
+ CRONUS ha contratado un proyecto extenso que ahora se ha ampliado a varios periodos de registro. Tricia, un miembro de equipo de proyecto, calcula el trabajo en curso (WIP) para garantizar que el informe financiero de la empresa es preciso.  
 
- Durante este procedimiento, Tricia seleccionará un grupo específico de tareas que se incluirá en el cálculo de WIP. En la página **Líneas de tarea proyecto**, Tricia puede especificar estas líneas en la columna **WIP-Total**.  
+ Durante este procedimiento, Tricia selecciona un grupo específico de tareas que se incluye en el cálculo de WIP. En la página **Líneas de tarea proyecto**, Tricia puede especificar estas líneas en la columna **WIP-Total**.  
 
  La siguiente tabla describe las tres opciones.  
 
@@ -54,12 +54,12 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 |**Total**|Define el rango o grupo de tareas que se incluyen en el cálculo del WIP y del reconocimiento. En el grupo, cualquier tarea de proyecto con **Tipo tarea proyecto** definido como **Registro** se incluirá en el total WIP, a menos que el campo **Total WIP** se defina como **Excluido**.|  
 |**Excluido**|Se aplica sólo a una tarea con el **Tipo tarea proyecto** **Registro**. La tarea no se incluye cuando se calcula el WIP y el reconocimiento.|  
 
- En el siguiente tutorial, Tricia aplica el método de Valor de coste, su estándar de la empresa, para calcular el WIP. Tricia especifica la parte del trabajo que se incluirá en el cálculo de WIP, asignando los valores WIP-Total a diversas líneas de tareas del proyecto.  
+ En el siguiente tutorial, Tricia aplica el método de Valor de coste, su estándar de la empresa, para calcular el WIP. Tricia especifica la parte del trabajo que se incluye en el cálculo de WIP, asignando los valores WIP-Total a diversas líneas de tareas del proyecto.  
 
-### <a name="to-calculate-wip"></a>Para calcular WIP
+### Para calcular WIP  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
-2.  En la lista **Proyectos**, seleccione el proyecto **Reno** y, después, seleccione **Editar**. Se abrirá la ficha de proyecto en modo edición.  
+2.  En la lista **Proyectos**, seleccione el proyecto **Reno** y, después, seleccione **Editar**. Se abre la ficha de proyecto en modo edición.  
 
      WIP se puede calcular basándose en Valor coste, Valor venta, Coste ventas, Porcentaje completado o Contrato consumado. En este ejemplo, CRONUS utiliza el método de Valor del coste.  
 
@@ -88,15 +88,15 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
  Observe que el valor de **Importe costes reconoc.** es 215,60 en la columna **Para registrar**. Esto refleja los costes totales de dos de los productos en el grupo de las tareas 1110 - 1130 del trabajo. El tercer producto se estableció en **Excluido** y, por lo tanto, no se incluye en el cálculo del WIP.  
 
-### <a name="to-review-wip-warnings"></a>Para revisar las advertencias WIP
+### Para revisar las advertencias WIP  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cabina WIP proyecto** y luego elija el enlace relacionado.  
+1.  Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cabina WIP proyecto** y luego elija el enlace relacionado.  
 2.  Seleccione el proyecto **Reno** y, a continuación, seleccione la acción **Mostrar advertencias**.  
 3.  En la página **Advertencias WIP proyecto**, revisar la advertencia asociada con el proyecto.  
 
  Después de finalizar el periodo contable, Tricia debe volver a recalcular el WIP para incluir el trabajo completado hasta este momento.  
 
-### <a name="to-recalculate-wip"></a>Para volver a calcular WIP
+### Para volver a calcular WIP  
 
 1.  En la ficha **Proyecto**, seleccione la acción **Movimientos WIP** para ver el cálculo de WIP.  
 
@@ -106,13 +106,13 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 3.  Cierre la página.  
 
 > [!NOTE]  
->  Solamente se calcula el trabajo en curso y el reconocimiento. No se registra en contabilidad. Para hacerlo, es necesario ejecutar el trabajo por lotes **Registrar WIP en C/G** después de haber calculado Trabajo en curso y Reconocimiento.
+>  Solamente se calcula el trabajo en curso y el reconocimiento. No se registra en contabilidad. Para hacerlo, es necesario ejecutar el proceso **Registrar WIP en C/G** después de haber calculado Trabajo en curso y reconocimiento.
 
-## <a name="posting-wip-to-general-ledger"></a>Registro de WIP en contabilidad
+## Registro de WIP en contabilidad
 
  Ahora que Tricia ha calculado el WIP para este proyecto, puede registrarlo en la contabilidad general.  
 
-### <a name="to-post-wip-to-general-ledger"></a>Para registrar un WIP en contabilidad
+### Para registrar un WIP en contabilidad  
 
 1.  En la lista **Proyectos**, seleccione el proyecto **Reno**.  
 2.  Seleccione la acción **WIP** y, a continuación elija la acción **Resgistrar WIP en C/G**.  
@@ -132,18 +132,18 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 10. En la ficha desplegable **Trabajo en curso y reconocimiento**, observe que la columna de **Registrado**, el campo de **Recog. Importe de contabilidad de los costes** ahora está introducido, lo que indica que el WIP se registró en la contabilidad general correctamente.  
 11. Elija el botón **Aceptar** para cerrar la ficha.  
 
-## <a name="reversing-a-wip-posting"></a>Reversión de un registro WIP
+## Reversión de un registro WIP
 
  Tricia determina que las tareas del proyecto que se excluyeron de cálculo del WIP deben haberse calculado en el WIP. Tricia puede revertir las contabilidades incorrectas sin tener que contabilizar nuevos movimientos de WIP.  
 
-### <a name="to-reverse-a-wip-posting"></a>Para revertir un registro WIP
+### Para revertir un registro WIP  
 
 1.  En la lista **Proyectos**, seleccione el proyecto **Reno**.  
 2.  Seleccione la acción **WIP** y, a continuación elija la acción **Resgistrar WIP en C/G**.  
 3.  En la página **Registrar WIP en C/G proyecto**, en la ficha desplegable **Proyecto**, seleccione **Reno** en **Nº**. .  
 4.  En la ficha desplegable **Opciones**, en el campo **Nº documento reversión**, escriba **1**.  
 5.  Especifique la fecha de registro original en el campo **Fecha registro reversión**. Debe ser la misma fecha que la que se usó para calcular el WIP la primera vez.  
-6.  Seleccione la casilla **Solo reversión**. De este modo, se revertirá el WIP registrado previamente, pero sí se registra el nuevo WIP en la contabilidad.  
+6.  Seleccione la casilla **Solo reversión**. De este modo, se revierte el WIP registrado previamente, pero sí se registra el nuevo WIP en la contabilidad.  
 7.  Elija el botón **Aceptar** para ejecutar el trabajo por lotes y seleccione el botón **Aceptar** para cerrar la página de confirmación.  
 8.  Abra la ficha **Proyecto** para **Reno**.  
 9. En la ficha desplegable **Trabajo en curso y reconocimiento**, verifique que no haya movimientos registrados de WIP.  
@@ -155,11 +155,11 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
     > [!NOTE]  
     >  Suponga el WIP calculado y registrado de Tricia para un proyecto con fechas incorrectas. Después del método que se ha discutido anteriormente, Tricia puede revertir los asientos incorrectos, corregir las fechas y volver a la contabilidad general.  
 
-## <a name="next-steps"></a>Pasos siguientes
+## Pasos siguientes
 
- Este tutorial le ha enseñado a calcular el trabajo en curso en [!INCLUDE[prod_short](includes/prod_short.md)]. En proyectos más grandes, puede resultar útil transferir los costes a una cuenta WIP periódicamente mientras se completa el proyecto. Este tutorial le ha mostrado cómo excluir líneas de tarea de un cálculo. También le muestra cuándo tiene que calcular de nuevo. Y finalmente, este tutorial demuestra la forma de registrar el WIP en la contabilidad general. También se incluye un ejemplo de cómo revertir un WIP que registra la contabilidad general.  
+ Este tutorial le ha enseñado a calcular el trabajo en curso en [!INCLUDE[prod_short](includes/prod_short.md)]. En proyectos más grandes, es posible que resulte útil transferir los costes a una cuenta WIP periódicamente mientras se completa el proyecto. Este tutorial le ha mostrado cómo excluir líneas de tarea de un cálculo. También le muestra cuándo tiene que calcular de nuevo. Y finalmente, este tutorial demuestra la forma de registrar el WIP en la contabilidad general. También se incluye un ejemplo de cómo revertir un WIP que registra la contabilidad general.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Tutorial: administración de programas con proyectos](walkthrough-managing-projects-with-jobs.md)  

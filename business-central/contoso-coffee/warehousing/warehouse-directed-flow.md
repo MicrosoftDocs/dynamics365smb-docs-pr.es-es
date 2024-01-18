@@ -1,5 +1,5 @@
 ---
-title: 'Recepción, ubicación, movimiento, selección y envío en configuración avanzada de almacén con selección y almacenamiento dirigidos'
+title: 'Recepción, almacenamiento, movimiento, selección y envío en la configuración de almacén avanzada'
 description: 'Los procesos de entrada y salida se pueden realizar de maneras diferentes, en función del nivel de complejidad del almacén.'
 author: brentholtorf
 ms.topic: conceptual
@@ -8,15 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 04/01/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Tutorial del flujo de entrada y salida en Configuración avanzada de almacén con ubicación y selección dirigidas
+# Tutorial de flujo entrante y saliente en la configuración avanzada de almacén
 
 Este tutorial muestra cómo completar los flujos entrantes y salientes en la configuración avanzada: almacenamiento y selección dirigidos. Para obtener más información, consulte [Resumen de las diferentes opciones de configuración](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos  
 Para completar este tutorial, deberá convertirse en empleado de almacén en el almacén *BLANCO*, siguiendo estos pasos:  
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2. Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
@@ -24,10 +24,10 @@ Para completar este tutorial, deberá convertirse en empleado de almacén en el 
 4. Habilite la opción **Predeterminado**.
 
 
-## <a name="scenario"></a>Escenario
+## Escenario  
 Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tránsito y de reabastecimiento de contenedores para acelerar el tiempo de recepción y envío.  
 
-## <a name="steps"></a>Pasos
+## Pasos
 
 1. Cree un envío de almacén.  
 
@@ -55,7 +55,7 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
 
 
 4. Verifique si hay pedidos salientes que necesitan productos recibidos y envíe el recibo
-    1. Elija la acción **Calcular tránsito directo**. Esto rellenará una columna **Cantidad a tránsito directo**.
+    1. Elija la acción **Calcular tránsito directo**. Esto rellena una columna **Cantidad a tránsito directo**.
     2. Introduzca 0 en el campo **Cantidad para tránsito cruzado** en la línea con el producto *WRB-1000*, ya que no planea volver a empacar en el área de recepción.
     3. Elija la acción **Contabilizar recepción**.
 
@@ -64,12 +64,12 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
     2. Localizar el documento de ubicación de almacén creado a partir de su Recibo de almacén y abrirlo
     3. En la página **Almacenamiento en almacén**, revise la sección **Líneas**
 
-    En esta etapa, se revela la lógica de capacidad de la ubicación. las líneas de almacenamiento del almacén tendrán tres líneas para el producto *WRB-1000*:
+    En esta etapa, se revela la lógica de capacidad de la ubicación. las líneas de almacenamiento del almacén tienen tres líneas para el producto *WRB-1000*:
     - Una línea Tomar para mover las cantidades recibidas desde la ubicación de recepción (W-08-0001)
-    - Una línea Lugar que moverá una BOLSA a una de las ubicaciones fijas configuradas (W-05-0001)
-    - Una línea Lugar que moverá otra BOLSA a otras ubicaciones fijas (W-05-0002). Esto se debe a que la ubicación fija única no puede contener la cantidad total de la recepción.
+    - Una línea Lugar que mueve una BOLSA a una de las ubicaciones fijas configuradas (W-05-0001)
+    - Una línea Lugar que mueve otra BOLSA a otras ubicaciones fijas (W-05-0002). Esto se debe a que la ubicación fija única no puede contener la cantidad total de la recepción.
 
-    Dado que este almacenamiento contiene líneas de tránsito directo, verá tres líneas para el producto *WRB-1001*:
+    Dado que este almacenamiento contiene líneas de tránsito directo, ve tres líneas para el producto *WRB-1001*:
     -  Una línea Tomar para mover las cantidades recibidas desde la ubicación de recepción (W-08-0001)
     -  Una línea Lugar para los 2 de la ubicación de tránsito cruzado
     -  Una línea Lugar para la cantidad restante en la ubicación de almacenamiento
@@ -120,7 +120,7 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
     4. Elija la acción **Crear picking**.
     5. Confirme cualquiera de las configuraciones de selección necesarias, por ejemplo, habilite la alternancia **Por zona de origen**. Elija el botón **Aceptar**.
     
-    Recibirá un mensaje de confirmación con los números de selección. Hay dos selecciones, ya que algunos productos están ubicados en la zona de tránsito directo, cerca del área de envío, y tendría sentido procesarlos por separado.
+    Recibe un mensaje de confirmación con los números de selección. Hay dos selecciones, ya que algunos productos están ubicados en la zona de tránsito directo, cerca del área de envío, y tendría sentido procesarlos por separado.
 
 9.  Registrar las selecciones de almacén
     1. Elija el icono ![Bombilla que abre la característica Dígame 10.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selecciones de almacén** y elija el vínculo relacionado.
@@ -136,7 +136,7 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
     4. Confirme la opción **Enviar**.
 
 
-## <a name="results"></a>Resultados
+## Resultados
 - se crea **Recepción de almacén contabilizada**
 - se crea **Almacenamiento de almacén registrado**    
 - se crea **Recepción de compra contabilizada**    
@@ -150,7 +150,7 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
 
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Recibir productos](../../warehouse-how-receive-items.md) 
 [Detalles de diseño: Flujo de almacén entrante](../../design-details-inbound-warehouse-flow.md) 
 [Enviar productos](../../warehouse-how-ship-items.md) 

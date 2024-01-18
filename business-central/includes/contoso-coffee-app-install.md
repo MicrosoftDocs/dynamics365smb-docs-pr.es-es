@@ -1,0 +1,14 @@
+---
+author: andreipanko
+ms.topic: include
+ms.date: 05/31/2023
+ms.author: andreipa
+---
+
+Para usar los datos de demostración de Contoso Coffee, debe instalar dos aplicaciones en la empresa correspondiente en [!INCLUDE [prod_short](../includes/prod_short.md)]:  <br><br>
+- **Conjunto de datos de demostración de Contoso Coffee**  
+    Esta aplicación ofrece datos de demostración para la aplicación base.  
+- **Conjunto de datos de demostración de Contoso Coffee (ID de país)**  
+    Esta aplicación agrega contenido específico del país sobre la aplicación base.
+<br><br>
+Agregue las aplicaciones a una empresa vacía en una suscripción pagada o como parte de una prueba. Por ejemplo, cree una nueva empresa sin datos de muestra de la guía de configuración asistida **Crear nueva empresa** que puede abrir desde la lista **Empresas**. A continuación, agregue las aplicaciones del [mercado](../ui-extensions-install-uninstall.md#install) en caso de que no se indiquen en la página **Administración de extensiones**.  

@@ -6,12 +6,13 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 09/12/2023
+ms.date: 12/13/2023
 ms.custom: bap-template
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Realizar picking para producción, ensamblado o proyectos en una configuración avanzada de almacén
 
-La forma de realizar el picking de componentes para fabricación, trabajos u órdenes de ensamblado depende de la configuración del almacén. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
+# Realizar picking para producción, ensamblado o proyectos en una configuración avanzada de almacén
+
+La forma de realizar el picking de componentes para producción, proyectos u órdenes de ensamblado depende de la configuración del almacén. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
 
 En una configuración de almacén avanzada para el flujo de salida (picking), active los botones de alternancia **Picking requerido** y **Envío requerido** en la página **Ficha almacén** para el almacén.
 
@@ -30,7 +31,7 @@ Para seleccionar o mover componentes para documentos de origen en forma de extra
 |Pedido de ensamblado|Cambie el estado a Lanzada.|
 |Proyectos | Cambie el estado a Abierto o cree un trabajo con el estado Abierto de inmediato.|  
 
-## <a name="production"></a>Producción
+## Producción
 
 Utilice documentos de **Picking almacén** para seleccionar componentes de producción en el flujo a producción.
 
@@ -39,13 +40,13 @@ Para un almacén que usa ubicaciones para mover productos a ubicaciones de aprov
 * Para un almacén que utiliza almacenaje y picking dirigidos, siga los pasos del artículo [Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * Para otros almacenes, siga las instrucciones del artículo [Mover productos internos en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Ensamblado
+## Ensamblado  
 
 Utilice los documentos **Picking almacén** para mover componentes del ensamblado al área de ensamblado.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] es compatible con los tipos ensamblar para stock y ensamblar para pedido de los flujos de ensamblado. Para obtener más información sobre el ensamblado para pedido en el flujo de almacén saliente, vaya a [Tratamiento de productos ensamblar para pedido en los envíos de almacén](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Administración de proyectos
+## Administración de proyectos  
 
 Utilice documentos de **Picking almacén** para seleccionar componentes de proyecto en el flujo a la administración de proyectos.
 
@@ -54,17 +55,17 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
 >
 > Los trabajos no admiten configuraciones avanzadas en las que el botón de alternancia **Pick. directo de almacén** está activado.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Verifique si los artículos están disponibles para ser recogidos
+## Verifique si los artículos están disponibles para ser recogidos
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Para crear documentos de picking de forma masiva con la hoja de trabajo de picking
+## Para crear documentos de picking de forma masiva con la hoja de trabajo de picking
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo picking** y luego elija el enlace relacionado.  
 
 2. Seleccione la acción **Traer documentos almacén**.  
 
-    La lista mostrará la producción liberada, los trabajos y los pedidos de ensamblado que se han enviado a la función de picking. Los pedidos incluyen aquellos para los que ya se han creado instrucciones de picking. Los documentos con líneas de picking que ya se han preparado completamente no se muestran en la lista.  
+    La lista muestra la producción liberada, los proyectos y los pedidos de ensamblado que se han enviado a la función de picking. Los pedidos incluyen aquellos para los que ya se han creado instrucciones de picking. Los documentos con líneas de picking que ya se han preparado y registrado no se muestran en esta lista.  
 3. Seleccione los pedidos para los que desea preparar el picking.
 
     > [!NOTE]  
@@ -79,7 +80,7 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
 
     La página muestra las cantidades disponibles en contenedores de cross-dock, lo cual es útil para planificar asignaciones de trabajo en situaciones de cross-docking. [!INCLUDE[prod_short](includes/prod_short.md)] siempre propondrá una selección de un contenedor de cross-dock primero.
 
-6. Si es necesario, edite las líneas manualmente. También puede eliminar algunas líneas para realizar un picking más eficaz. Por ejemplo, si hay varias líneas con productos en ubicaciones de tránsito directo, es posible que desee realizar un picking de todas las líneas. Se seleccionarán los productos de tránsito directo junto con el resto de los productos del documento de origen, y las ubicaciones de tránsito directo tendrán espacio para la entrada de más productos.
+6. Si es necesario, edite las líneas manualmente. También puede eliminar algunas líneas para realizar un picking más eficaz. Por ejemplo, si hay varias líneas con productos en ubicaciones de tránsito directo, es posible que desee realizar un picking de todas las líneas. Se seleccionan los productos de tránsito directo junto con el resto de los productos del documento de origen, y las ubicaciones de tránsito directo tienen espacio para la entrada de más productos.
 
     > [!NOTE]  
     >  Las líneas solo se eliminarán de esta hoja de trabajo, no de la lista de selección de picking.  
@@ -93,8 +94,8 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
     |Por almacén Documento|Crea los documentos de picking independientes para las líneas de la hoja de cálculo con el mismo documento de origen de almacén.|
     |Por Cli./Prov./Alm.|Crea documentos de picking separados para cada cliente (trabajos)|
     |Por prod.|Crea los documentos de picking independientes para cada producto en la hoja de cálculo de picking.|
-    |Por Desde zona|Crea los documentos de picking independientes para cada zona de la que traerá los productos.|
-    |Por ubicación|Crea los documentos de picking independientes para cada ubicación de la que traerá los productos.|
+    |Por Desde zona|Crea los documentos de picking independientes para cada zona de la que trae los productos.|
+    |Por ubicación|Crea los documentos de picking independientes para cada ubicación de la que trae los productos.|
     |Por fecha vto.|Crea los documentos de picking independientes para los documentos de origen con la misma fecha de vencimiento.|
 
     Especifique cómo se crean los documentos de picking seleccionando una de las siguientes opciones.  
@@ -105,13 +106,13 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
     |Máx. Nº de doc. origen picking|Crea documentos de picking que abarcan hasta el número de documentos de origen especificado.|
     |Id. usuario asignado|Crea los documentos de picking sólo para las líneas de la hoja de cálculo que se asignan al empleado seleccionado de almacén.|
     |Mét. clasif. para líns. picking|Seleccione una de las opciones disponibles para ordenar las líneas en el documento de picking creado.|
-    |Define filtro div. bulto|Oculta líneas de picking de división de bulto intermedias cuando una unidad de medida grande se convierte en una más pequeña y con el picking realizado completamente.|
+    |Define filtro div. bulto|Oculta líneas de picking de división de bulto intermedias cuando una unidad de medida grande se convierte en una más pequeña y con el picking realizado.|
     |No rellene cdad. a manipular|Deja el campo **Cdad. a manipular** vacío en las líneas de picking creadas.|
     |Imprim. picking|Imprime los documentos de picking cuando se crean. También puede imprimir de los documentos de picking creados.|
 
 8. Elija el botón **Aceptar**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Para seleccionar pedidos para un pedido de producción, pedido de ensamblado y trabajo
+## Para seleccionar pedidos para un pedido de producción, pedido de ensamblado y trabajo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado.  
 
@@ -121,7 +122,7 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
 
     Si el almacén está configurado para utilizar ubicaciones, las ubicaciones genéricas de los productos se utilizan para sugerir de dónde tomar los productos. Las instrucciones contienen como mínimo dos líneas independientes para las acciones Traer y Colocar.  
 
-    Las áreas de operación, como los talleres de producción, pueden tener un contenedor predeterminado para los componentes que requieren. Si es así, el código de ubicación predeterminado se agrega al documento de selección de almacén para indicar dónde colocar los artículos. Para obtener más información, consulte la información sobre herramientas de los campos **Cód. ubic. para producción**, **Cód. ubic. para ensamblado** y **Hasta-cód. hueco**
+    Las áreas de operación, como los talleres de producción, pueden tener un contenedor predeterminado para los componentes que requieren. Si es así, el código de ubicación predeterminado se agrega al documento de selección de almacén para indicar dónde colocar los artículos. Para obtener más información, consulte la información sobre herramientas de los campos **Cód. ubic. para producción**, **Cód. ubic. para ensamblado** y **Hasta-cód. hueco**.
 
     Si el almacén está configurado para utilizar ubicación y picking directos, el ranking de ubicación se utiliza para calcular las mejores ubicaciones de las que hacer picking. Esas ubicaciones se sugieren en las líneas de picking. Las instrucciones contienen como mínimo dos líneas independientes para las acciones Traer y Colocar.  
 
@@ -139,15 +140,15 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
     * [Ensamblar artículos](assembly-how-to-assemble-items.md)
     * [Registrar el consumo o uso para proyectos](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Baja de componentes de producción en una configuración de almacén avanzada
+## Baja de componentes de producción en una configuración de almacén avanzada
 
 Los métodos de baja afectan al flujo de componentes en producción. Obtenga más información en [Bajar componentes según la salida de la operación](production-how-to-flush-components-according-to-operation-output.md). Según el método de baja seleccionado, puede realizar el picking de componentes para la producción de las siguientes maneras:
 
-* Utilice un documento de **Picking almacén** para registrar la selección de productos que usan el método de vaciado **Manual**. Deberá registrar el consumo por separado. Obtenga más información en [Registrar consumibles de producción por lotes](production-how-to-post-consumption.md).
-* Utilice un documento de **Picking almacén** para registrar el picking para productos que usan el método de baja **Pick + Adelante** y **Pick + Atrás**. El consumo de los componentes se producirá automáticamente cuando cambie el estado de la orden de fabricación o al iniciar o finalizar una operación. Todos los componentes necesarios deben estar disponibles. De lo contrario, el registro del consumo de baja se detiene para ese componente.
+* Utilice un documento de **Picking almacén** para registrar la selección de productos que usan el método de vaciado **Manual**. Debe registrar el consumo por separado. Obtenga más información en [Registrar consumibles de producción por lotes](production-how-to-post-consumption.md).
+* Utilice un documento de **Picking almacén** para registrar el picking para productos que usan el método de baja **Pick + Adelante** y **Pick + Atrás**. El consumo de los componentes se produce automáticamente cuando cambie el estado de la orden de fabricación o al iniciar o finalizar una operación. Todos los componentes necesarios deben estar disponibles. De lo contrario, el registro del consumo de baja se detiene para ese componente.
 * Use un documento de **Movimiento de almacén** sin una referencia a un documento de origen u otras formas de registrar el movimiento de componentes que usan el método de baja **Adelante** o **Atrás** . Los componentes se consumen automáticamente al cambiar de estado la orden de fabricación o al iniciar o finalizar una operación. Todos los componentes necesarios deben estar disponibles. De lo contrario, el registro del consumo de baja se detiene para ese componente. Obtenga más información en [Desplazar productos](warehouse-move-items.md).
 
-### <a name="example"></a>Ejemplo:
+### Ejemplo:
 
 Tiene un pedido de fabricación de 15 unidades del producto SP-SCM1004. Algunos de los elementos de la lista de componentes deben eliminarse manualmente en un diario de consumo. Se puede realizar el picking y la baja de otros productos automáticamente mediante el método de baja **Pick + Atrás**.  
 
@@ -156,7 +157,7 @@ En los pasos siguientes se describen las acciones correspondientes para distinta
 1. El supervisor de planta lanza la orden de producción. Los productos con el método de baja **Anticipada** y sin conexión de ruta se deducen de la ubicación de aprovisionamiento manual.  
 2. El supervisor de planta elige la acción **Crear selección de almacén** en el pedido de producción. Un documento de selección de almacén se crea para seleccionar productos con métodos de baja **Manual**, **Seleccionar + Atrás** y **Seleccionar + Adelante**. Estos productos se colocan en la ubicación para producción.  
 3. El administrador de almacén asigna los picking a un empleado de almacén.  
-4. El empleado del almacén realiza el picking de los productos de las ubicaciones apropiadas y los coloca en la ubicación Para producción o en la ubicación especificada en el picking del almacén. La ubicación puede ser una ubicación de centro de trabajo o de centro de máquina.
+4. El empleado del almacén realiza el picking de los productos de las ubicaciones apropiadas y los coloca en la ubicación Para producción o en la ubicación especificada en el picking del almacén. La ubicación podría ser una ubicación de centro de trabajo o de centro de máquina.
 5. El empleado de almacén registra el picking. La cantidad se transfiera de la ubicación de picking a la ubicación de consumo. Se actualiza el campo **Cdad. preparada pedido** de la lista de componentes para todos los productos preparados.
 
     > [!NOTE]  
@@ -170,7 +171,7 @@ En la ilustración siguiente se muestra cuando se rellena el campo **Cód. ubica
 
 :::image type="content" source="media/binflow.png" alt-text="Descripción general de cuándo y cómo se rellena el campo Código de ubicación.":::
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 - [Gestionar inventario](inventory-manage-inventory.md)  
 - [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  

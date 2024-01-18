@@ -1,24 +1,24 @@
 ---
 title: Crear una nueva orden de producción planificada en firme y cambiarla
 description: Tutorial para un planificador de producción de Contoso Coffee que desea crear una orden de producción planificada en firme y luego modificarla.
-ms.date: 04/01/2022
+ms.date: 12/12/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Tutorial: Crear una nueva orden de producción planificada en firme y cambiarla
+# Tutorial: Crear una nueva orden de producción planificada en firme y cambiarla
 
 En este artículo, le guiaremos a través de los pasos para usar los datos de demostración de Contoso Coffee para trabajar con órdenes de producción.  
 
-## <a name="scenario"></a>Caso
+## Caso
 
 Eduardo, el planificador de producción de Contoso Coffee, debe crear una nueva orden de producción para 10 unidades del artículo **SP-SCM1009, Airpot** con vencimiento el 28 de abril. Eduardo lo programa hacia atrás y confirma que pueden iniciar el pedido el 27 de abril.  
 
 Poco después de terminar esta tarea, se le pide a Eduardo que aumente el pedido a 50 unidades. Al hacerlo, la funcionalidad de programación regresiva adelanta demasiado la fecha de inicio del pedido. Por lo tanto, Eduardo programa el a partir del 23 de abril para determinar una fecha de finalización más realista.  
 
-## <a name="steps"></a>Pasos
+## Pasos
 
 1. Cree la orden de producción inicial para 10 unidades del artículo **SP-SCM1009, Airpot**.
 
@@ -45,7 +45,7 @@ Poco después de terminar esta tarea, se le pide a Eduardo que aumente el pedido
 
 3. Elija la acción **Actualizar orden producción**.  
 
-    La fecha de inicio se ha postpuesto al 20 de abril. Esta no es una fecha aceptable para Eduardo.
+    La fecha de inicio se postpone ahora al 20 de abril. Esta no es una fecha aceptable para Eduardo.
 
 4. Activa una programación hacia delante de la orden de producción.
 
@@ -58,6 +58,6 @@ Poco después de terminar esta tarea, se le pide a Eduardo que aumente el pedido
 
 La nueva orden de producción ya está configurada y se cumplen los requisitos de Eduardo.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Introducción a datos de demostración de Contoso Coffee](../contoso-coffee-intro.md)  

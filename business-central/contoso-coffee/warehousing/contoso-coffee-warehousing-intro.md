@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Introducción al almacenamiento de Contoso Coffee
+# Introducción al almacenamiento de Contoso Coffee
 
 Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para Business Central agregan datos de demostración que puede usar para aprender a usar las capacidades de almacenamiento en Business Central. Puede configurar las características del almacén de varias maneras, consulte [Descripción general de las diferentes opciones de configuración](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,9 +27,9 @@ La aplicación proporciona tres almacenes optimizados para diferentes escenarios
 
   Esta ubicación utiliza la configuración de almacén avanzado con ubicaciones y almacenamientos dirigidos, lo que permite reglas más avanzadas sobre cómo se mueven los productos en el almacén.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Configurar datos de Contoso Coffee para almacenamiento
+## Configurar datos de Contoso Coffee para almacenamiento
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Una vez instaladas las aplicaciones relevantes, vaya a la página de la [Herramienta de demostración de Contoso](https://businesscentral.dynamics.com/?page=5194) en [!INCLUDE [prod_short](../../includes/prod_short.md)], seleccione la línea *Módulo de almacén* y use la acción **Configurar** para preparar los módulos. En las siguientes tablas se describen las configuraciones:  
 
@@ -50,7 +50,7 @@ Una vez que esté listo, elija la acción **Crear datos de demostración** acci�
 > [!IMPORTANT]
 > Si está ejecutando los escenarios, es posible que desee verificar que su usuario se haya agregado para los almacenes seleccionados. Para obtener más información, vea [Configurar los empleados de almacén](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Escenarios
+## Escenarios
 
 Los datos de demostración de almacenamiento de Contoso Coffee admiten actualmente los siguientes escenarios de pruebas y entrenamiento:
 
@@ -60,7 +60,7 @@ Los datos de demostración de almacenamiento de Contoso Coffee admiten actualmen
 
 Lea los pasos para cada escenario en el artículo correspondiente.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configuración de inventario](../../inventory-setup-inventory.md) 
 [Cómo configurar almacenes](../../inventory-how-setup-locations.md) 

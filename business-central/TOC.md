@@ -42,6 +42,10 @@
 ##### [Tutorial sobre el flujo entrante y saliente en configuraciones del almacenamiento básico](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Tutorial sobre el flujo entrante y saliente en configuraciones del almacenamiento mixto](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Tutorial sobre el flujo entrante y saliente en una configuración de almacén avanzada con almacenamiento y picking dirigidos](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Servicio
+##### [Introducción a la administración de servicio de Contoso Coffee](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Tutorial de pedidos de servicio para productos de servicio](contoso-coffee/service/service-basic-flow-order.md)
+##### [Tutorial de contratos de servicio para productos de servicio](contoso-coffee/service/service-contract-flow.md)
 
 ### Detalles de diseño
 #### [Información general de los detalles de diseño de las aplicaciones](design-details-application-design.md)
