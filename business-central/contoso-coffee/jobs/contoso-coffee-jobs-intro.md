@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Introducción a la Administración de proyecto y trabajos de Contoso Coffee
+# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Introducción a la Administración de proyecto y trabajos de Contoso Coffee
 
 Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para Business Central agregan datos de demostración que puede usar para aprender a usar las capacidades de trabajos y gestión de proyectos de Business Central.
 
@@ -21,7 +21,7 @@ Esta aplicación proporciona varios elementos que se utilizan para los tutoriale
 > Antes de ejecutar cualquiera de los escenarios para Contoso Coffee, registre las líneas del diario de productos con saldos iniciales. Para ver más requisitos, consulte la sección [Configurar datos de Contoso Coffee](#set-up-contoso-coffee-jobs-and-project-management-data).
 >
 > 
-## Configurar los datos de la Administración de proyecto y trabajos de Contoso Coffee
+## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Configurar los datos de la Administración de proyecto y trabajos de Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -46,4 +46,4 @@ Una vez que las aplicaciones correspondientes estén instaladas, vaya a la pági
 
 Una vez que esté listo, elija la acción **Crear datos de demostración** acción. Se tarda unos minutos en agregar los datos a la base de datos subyacente, pero luego ya está listo para ejecutar los distintos escenarios.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
