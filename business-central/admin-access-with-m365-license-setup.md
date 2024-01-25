@@ -4,20 +4,20 @@ description: Una guía sobre cómo los administradores pueden configurar el acce
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 09/28/2023
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ms.search.form: '9061,'
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Configurar el acceso a Business Central en Teams con licencias de Microsoft 365
+# Configurar el acceso a Business Central en Teams con licencias de Microsoft 365
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Los administradores deben completar varias actividades antes de que los usuarios puedan acceder a [!INCLUDE [prod_short](includes/prod_short.md)] con su licencia de Microsoft 365. Los pasos a continuación representan la configuración mínima requerida para comenzar. Para obtener más información sobre el acceso con licencias de Microsoft 365, vaya a [Acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md).
 
-## <a name="guidelines"></a>Directrices
+## Directrices
 
 Configurar el acceso con licencias de Microsoft 365 implica las siguientes tareas:
 
@@ -38,7 +38,7 @@ Configurar el acceso con licencias de Microsoft 365 implica las siguientes tarea
 > 2. En la página **Configuración asistida**, vaya a la sección **Haga más con Business Central** y seleccione **Acceso con licencias de Microsoft 365**.
 > 3. Siga estas instrucciones.  
 
-## <a name="configure-permissions"></a>Configurar permisos
+## Configurar permisos
 
 [!INCLUDE [prod_short](includes/prod_short.md)] es seguro por diseño y minimiza el riesgo al no otorgar permisos a usuarios de Microsoft 365 directamente. Los administradores deben configurar permisos de objetos que determinen a qué tablas, páginas e informes se puede acceder en Teams con solo una licencia de Microsoft 365. Estos permisos son los permisos iniciales asignados cuando un usuario inicia sesión por primera vez con su licencia de Microsoft 365. 
 
@@ -61,7 +61,7 @@ Cuando se trabaja con varios entornos, la configuración de la licencia se debe 
 
 Obtenga más información en [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md) y [Componer conjuntos de permisos](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="enable-access-with-microsoft-365-licenses"></a>Habilitar el acceso con licencias de Microsoft 365
+## Habilitar el acceso con licencias de Microsoft 365
 
 El acceso con licencias de Microsoft 365 está desactivado de forma predeterminada. El acceso debe habilitarse para cada entorno de forma independiente, dando a los administradores el control y permitiendo la implementación por etapas en toda la organización. Active el acceso mediante el centro de administración de [!INCLUDE [prod_short](includes/prod_short.md)]: 
 
@@ -71,13 +71,13 @@ El acceso con licencias de Microsoft 365 está desactivado de forma predetermina
 4. En el panel **Licencias de Microsoft 365**, active el interruptor. 
 5. Seleccione **Guardar** cuando termine y acepte la confirmación. El cambio entra en vigor inmediatamente.
 
-## <a name="choose-who-gets-access-by-using-security-group"></a>Elija quién obtiene acceso mediante el uso del grupo de seguridad
+## Elija quién obtiene acceso mediante el uso del grupo de seguridad
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 En el centro de administración de Business Center, se puede asignar un entorno a uno o más grupos de seguridad para controlar el acceso. Puede asignar un grupo de Microsoft Entra al entorno. Al asignar un grupo de Microsoft Entra a un entorno, solo los miembros directos e indirectos del grupo tienen acceso al entorno. Los miembros indirectos son usuarios de otro grupo, que a su vez es miembro del grupo asignado al entorno. Aunque todos los usuarios con licencia de Microsoft Entra ID se agregarán al entorno cuando se sincronice con Microsoft 365, solo los miembros del grupo pueden iniciar sesión. Para obtener información, consulte [Administrar el acceso mediante grupos de Microsoft Entra](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) en la ayuda para desarrolladores y profesionales de TI.
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Implementar la aplicación Business Central para Teams
+## Implementar la aplicación Business Central para Teams
 
 Para que los titulares de licencias de [!INCLUDE [prod_short](includes/prod_short.md)] compartan datos en Teams y para que los titulares de licencias de Microsoft 365 accedan a esos datos, cada uno debe tener instalada la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Teams. Aunque los usuarios pueden instalar la aplicación por sí mismos, se recomienda que los administradores utilicen la implementación centralizada. La implementación centralizada le permite implementar la aplicación a una audiencia más amplia en toda la organización y minimizar el esfuerzo del usuario individual. 
 
@@ -89,7 +89,7 @@ Para obtener información sobre cómo implementar de forma centralizada la aplic
 > [!TIP]
 > ¿Está buscando una forma más rápida de empezar a probar esta característica? Los usuarios de prueba pueden instalar la aplicación en [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="test-your-setup"></a>Probar su configuración
+## Probar su configuración
 
 Para verificar que su configuración esté lista para la producción, los siguientes pasos le ayudarán a generar la confianza de que todo funciona como debería.
 
@@ -113,7 +113,7 @@ Para verificar que su configuración esté lista para la producción, los siguie
 > [!TIP]
 > ¿Ha habido algún problema? Consulte [Solucionar problemas de acceso con licencias de Microsoft 365](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Descripción general del acceso a Business Central con licencias de Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
 [Solucionar problemas de acceso con licencias de Microsoft 365](admin-access-with-m365-license-troubleshooting.md)  

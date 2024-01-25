@@ -3,13 +3,15 @@ title: Funciones de prueba que se conectan a otros servicios de Microsoft
 description: Descripción general de los servicios de Microsoft a los que Business Central se conecta con la versión de prueba.
 author: jswymer
 ms.topic: overview
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 12/12/2023
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.collection:
+  - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Funciones de prueba que se conectan a otros servicios de Microsoft
+# Funciones de prueba que se conectan a otros servicios de Microsoft 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] es una solución integral de gestión empresarial que está profundamente integrada con aplicaciones de productividad Microsoft 365 y Power Platform. Su versión de prueba gratuita de Business Central puede conectarse a muchos servicios diferentes de Microsoft que primero debe configurar y habilitar. Para aprovechar al máximo su prueba gratuita, algunas de estas funciones se han habilitado automáticamente para usted. Aunque la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] está habilitada, estos servicios no están incluidos con su versión de prueba y deben comprarse por separado a menos que ya los tenga.
 

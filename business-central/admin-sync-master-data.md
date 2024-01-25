@@ -4,13 +4,13 @@ description: Aprenda a administrar la sincronización de datos maestros.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# <a name="manage-master-data-synchronization"></a>Administrar la sincronización de datos maestros
+# Administrar la sincronización de datos maestros
 
 Después de configurar la sincronización de datos maestros y sincronizar por primera vez, los registros de las tablas seleccionadas se acoplan y se crea una entrada de cola de trabajos recurrentes para cada tabla. Las entradas de la cola de trabajos sincronizan automáticamente los datos en las empresas filiales cuando alguien realiza un cambio en la empresa de origen. En otro caso, no necesita hacer nada.
 
@@ -21,7 +21,7 @@ Sin embargo, a veces las cosas salen mal y puede haber situaciones que deba gest
 
 Este artículo describe las herramientas que puede utilizar para que la sincronización funcione sin problemas.
 
-## <a name="investigate-the-status-of-synchronization"></a>Investigar el estado de la sincronización
+## Investigar el estado de la sincronización
 
 Hay dos acciones en la página **Tablas de sincronización** que pueden ayudarle a monitorear la sincronización:
 
@@ -38,29 +38,29 @@ La siguiente tabla describe las acciones.
 > [!NOTE]
 > Si encuentra un error en la página **Trabajos de sincronización de integración** que no puede resolver usted mismo, si se pone en contacto con su socio o Microsoft para obtener asistencia, es útil proporcionar el mensaje de error e información de la pila de llamadas.
 
-## <a name="synchronize-modified-records"></a>Sincronizar registros modificados
+## Sincronizar registros modificados
 
 Si cambia una configuración para una tabla o campo en una filial, debe actualizar la sincronización. Por ejemplo, si decide seleccionar la casilla de verificación **Sobrescribir cambio local** en un campo para permitir que los datos de la empresa de origen sobrescriban los cambios locales. Para actualizar la sincronización, use la acción **Sincronizar registros modificados** en la página **Tablas de sincronización**.
 
-## <a name="update-table-schemas"></a>Actualizar esquemas de tablas
+## Actualizar esquemas de tablas
 
 Si la empresa de origen cambia una tabla, por ejemplo, al agregar un campo que desea sincronizar, las filiales deben actualizar sus asignaciones de campos. En la página **Campos de sincronización**, use la acción **Actualizar campos**. 
 
-## <a name="enable-or-disable-couplings-between-records"></a>Habilitar o deshabilitar los acoplamientos entre registros
+## Habilitar o deshabilitar los acoplamientos entre registros
 
 Para iniciar o detener el acoplamiento de registros específicos en una tabla, en la página **Campos de sincronización**, elija los campos y luego use las acciones **Habilitar** o **Deshabilitar**. 
 
 > [!TIP]
 > Una forma rápida de habilitar o deshabilitar varios campos al mismo tiempo es seleccionarlos en la lista y luego usar las acciones **Habilitar** o **Deshabilitar**.
 
-## <a name="adding-extensions"></a>Agregar extensiones
+## Agregar extensiones
 
 Si la empresa de origen instala una nueva extensión, la filial también debe instalarla si desea sincronizar datos para ella. La filial puede usar la acción **Actualizar campos** en la página **Campos de sincronización** para agregar las tablas de la extensión a la lista.
 
 > [!NOTE]
 > Algunas tablas obtienen datos de tablas relacionadas. Si agrega una extensión que no incluye tablas relacionadas, los campos de esas tablas no estarán disponibles. Verifique que haya agregado todas las tablas relacionadas.
 
-## <a name="clean-up-old-entries"></a>Limpiar entradas antiguas
+## Limpiar entradas antiguas
 
 Con el tiempo, la cantidad de entradas del registro de sincronización aumentará, por lo que es posible que desee hacer un poco de limpieza para eliminar las entradas innecesarias. Para facilitar la limpieza de entradas antiguas, la página **Trabajos de sincronización de integración** ofrece las siguientes acciones:
 
@@ -68,11 +68,11 @@ Con el tiempo, la cantidad de entradas del registro de sincronización aumentar�
 * **Eliminar todos los movs.**
 
 <!--
-## <a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
+## Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Prepararse para sincronizar datos maestros](admin-set-up-data-sync.md)

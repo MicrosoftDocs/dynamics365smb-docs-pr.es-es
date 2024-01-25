@@ -4,12 +4,12 @@ description: Este artículo describe cómo priorizar objetivos equilibrando la o
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/15/2022
 ms.custom: bap-template
 ---
-# <a name="design-details-balancing-supply-and-demand"></a>Detalles de diseño: Equilibrio de oferta y demanda
+# Detalles de diseño: Equilibrio de oferta y demanda
 
 Para comprender cómo funciona el sistema de planificación, es importante comprender sus objetivos prioritarios:  
 
@@ -18,7 +18,7 @@ Para comprender cómo funciona el sistema de planificación, es importante compr
 
 En general, estos objetivos se logran equilibrando el aprovisionamiento con la demanda.  
 
-## <a name="supply-and-demand"></a>Oferta y demanda
+## Oferta y demanda
 
 El término *oferta* se refiere a cualquier tipo de cantidad positiva o entrante, como:
 
@@ -46,7 +46,7 @@ Cuando se cargan los perfiles de inventario, se equilibran los conjuntos de dema
 
 Los niveles de inventario y los parámetros de planificación son otros tipos de oferta y demanda. Estos tipos se someten a un equilibrio integrado para reponer los artículos en stock. Obtenga más información en [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md).
 
-## <a name="the-concept-of-balancing-in-brief"></a>El concepto del equilibrio en resumen
+## El concepto del equilibrio en resumen
 
 La demanda proviene de sus clientes. El suministro es lo que crea y elimina para establecer el equilibrio. El sistema de planificación se inicia con la demanda y, a continuación, vuelve hacia el suministro.  
 
@@ -56,7 +56,7 @@ El objetivo de la planificación es equilibrar la oferta y demanda de un product
 
 :::image type="content" source="media/nav_app_supply_planning_2_balancing.png" alt-text="Resumen del equilibrio entre la oferta y la demanda.":::
 
-## <a name="process-orders-before-the-planning-start-date"></a>Procesar pedidos antes de la fecha de inicio de la planificación
+## Procesar pedidos antes de la fecha de inicio de la planificación
 
 Para evitar que un plan de suministro muestre sugerencias poco razonables, el sistema de planificación no planificará nada en el período anterior a la fecha de inicio de la planificación. La siguiente regla se aplica a ese período:
 
@@ -70,11 +70,11 @@ Salvo algunas excepciones, el sistema de planificación no sugerirá ningún cam
 
 Si el inventario disponible inicial es menor que cero, el sistema de planificación sugiere un pedido de aprovisionamiento de emergencia el día antes del periodo de planificación para cubrir la cantidad que falta. Por tanto, el inventario proyectado y disponible será siempre al menos cero cuando empiece la planificación para el periodo futuro. La línea de planificación de este pedido de suministro mostrará un icono de advertencia de emergencia con información adicional.
 
-### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period"></a>Los números de serie y de lote y las conexiones de pedido contra pedido están exentos del periodo anterior
+### Los números de serie y de lote y las conexiones de pedido contra pedido están exentos del periodo anterior  
 
 Si se requieren números de serie o de lote o existe un enlace de pedido a pedido, el sistema de planificación ignora la regla sobre el período anterior. Incluirá cantidades retroactivas desde la fecha de inicio y podría sugerir acciones correctivas si la oferta y la demanda no están sincronizadas. Estos conjuntos de oferta y demanda deben coincidir para garantizar que se satisfaga una demanda específica.
 
-## <a name="load-inventory-profiles"></a>Cargar los perfiles de inventario
+## Cargar los perfiles de inventario
 
 Para organizar los orígenes de oferta y demanda, el sistema de planificación las organiza en dos escalas temporales denominadas perfiles de inventario.  
 
@@ -98,7 +98,7 @@ En general, el sistema de planificación considera todos los pedidos de aprovisi
 
 Aparte de cargar los tipos de oferta y demanda, se cargan determinados tipos respetando reglas especiales y dependencias. Las siguientes secciones de este artículo describen estas reglas y dependencias.  
 
-### <a name="item-dimensions-are-separated"></a>Las dimensiones de producto están separadas
+### Las dimensiones de producto están separadas  
 
 El plan de suministro se debe calcular para cada combinación de dimensiones de producto, como variante y ubicación. Solo es necesario calcular las combinaciones con una necesidad de demanda o de suministro.  
 
@@ -107,7 +107,7 @@ El sistema de planificación busca combinaciones en el perfil de inventario. Cua
 > [!NOTE]  
 > No tiene que introducir un registro de SKU al introducir la demanda o el suministro de una determinada combinación de variante y ubicación. Por lo tanto, si no existe una SKU para una combinación determinada, [!INCLUDE [prod_short](includes/prod_short.md)] crea un registro de SKU temporal según los datos del producto. Si el control de alternancia **Almacén obligatorio** se establece en Sí en la **página de configuración del inventario**, se debe crear una SKU o bien el control de alternancia de **componentes en el almacén** debe definirse en Sí. Obtenga información en [Planificación con o sin almacenes](production-planning-with-without-locations.md).  
 
-### <a name="serial-and-lot-numbers-are-loaded-by-specification-level"></a>Los números de serie y de lote se cargan por nivel de especificación
+### Los números de serie y de lote se cargan por nivel de especificación  
 
 Los números de serie o lote se cargan en los perfiles de inventario, junto con la oferta y demanda a los que están asignados.  
 
@@ -122,7 +122,7 @@ Otra razón por la que el suministro de números de serie y de lote es inflexibl
 
 El balance de números de serie y de lote no respeta la regla de no planificar nada antes de la fecha de inicio de la planificación. Si la oferta y la demanda no se sincronizan, el sistema de planificación sugerirá cambios o nuevos pedidos, independientemente de la fecha de inicio de la planificación.  
 
-### <a name="order-to-order-links-are-never-broken"></a>Las conexiones de pedido contra pedido nunca se rompen
+### Las conexiones de pedido contra pedido nunca se rompen
 
 Al planificar un producto de pedido contra pedido, el suministro vinculado solo se debe usar para lo que se pensó originalmente. La demanda vinculada no se debe cubrir con otra oferta, incluso si la oferta está disponible en cuanto a tiempo y a cantidad. Por ejemplo, no se puede utilizar para cubrir otra demanda un pedido de ensamblado vinculado a un pedido de venta en un caso de ensamblado para pedido.  
 
@@ -136,17 +136,17 @@ Esta contrapartida también afecta a la temporización. No se considera el horiz
 > [!NOTE]  
 > Las previsiones no deben llevar a crear pedidos de aprovisionamiento limitados por un vínculo de pedido a pedido. Si se usa la previsión, solo debe hacerse como generador de una demanda dependiente en un entorno de fabricación.
 
-### <a name="component-need-is-loaded-according-to-production-order-changes"></a>La necesidad de componente se carga según los cambios de la orden de producción
+### La necesidad de componente se carga según los cambios de la orden de producción
 
 Al manipular las órdenes de producción, el sistema de planificación debe supervisar los componentes necesarios antes de cargarlos en el perfil de demanda. Las líneas de componente resultantes de una orden de producción cambiada reemplazarán las líneas del pedido original. El cambio garantiza que el sistema de planificación no duplica las líneas de planificación para una necesidad de componentes.  
 
-### <a name="consume-safety-stock"></a>Consumir el stock de seguridad
+### Consumir el stock de seguridad
 
 El stock de seguridad es una demanda que se carga en el perfil de inventario en la fecha inicial de la planificación.  
 
 El stock de seguridad es una cantidad de inventario que se aparta para satisfacer las incertidumbres en la demanda durante el plazo de reposición. Sin embargo, se puede consumir para satisfacer una demanda. En ese caso, el sistema de planificación garantizará que el stock de seguridad se reponga rápidamente. El sistema sugiere una orden de suministro para reponer la cantidad de existencias de seguridad en la fecha en que se consume. La línea de planificación mostrará un icono de advertencia de excepción explicando que el stock de seguridad se ha consumido parcialmente o en su totalidad a través de un pedido de excepción para la cantidad que falta.  
 
-### <a name="forecast-demand-is-reduced-by-sales-orders"></a>Los pedidos de ventas reducen la demanda de previsión
+### Los pedidos de ventas reducen la demanda de previsión
 
 Las previsiones de demanda expresan la demanda futura prevista. Mientras se introduce la demanda real, normalmente como pedidos de venta para productos fabricados, se consume la previsión.
 
@@ -163,13 +163,13 @@ La previsión puede ser para diferentes tipos de demanda:
 
 Un producto puede tener los dos tipos de previsión. Durante la planificación, el consumo se realiza por separado, primero para la demanda independiente y después para la demanda dependiente.  
 
-### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Los pedidos de venta reducen la demanda del pedido abierto
+### Los pedidos de venta reducen la demanda del pedido abierto
 
 La previsión se complementa con los pedidos de venta abiertos como una forma de especificar la demanda futura de un cliente específico. Como con la previsión (sin especificar), las ventas reales deberán consumir la demanda prevista, y la cantidad pendiente deberá corresponder al perfil de inventario de demanda. El consumo no reduce realmente la cantidad del pedido de venta abierto.
 
 El cálculo de planificación incluye los pedidos de venta abiertos vinculados a la línea de pedido abierto específica, pero no incluye ningún periodo de tiempo válido. Tampoco incluye los pedidos registrados, porque el procedimiento de registro ya ha reducido la cantidad pendiente del pedido abierto.
 
-## <a name="prioritize-orders"></a>Prioridad de pedidos
+## Prioridad de pedidos
 
 Dentro de un SKU dado, la fecha solicitada o disponible representa la prioridad más alta. La demanda de hoy debe ser atendida antes que la demanda de la próxima semana. Pero, además de esta prioridad global, el sistema de planificación hará las siguientes sugerencias según las prioridades de orden:
 
@@ -178,7 +178,7 @@ Dentro de un SKU dado, la fecha solicitada o disponible representa la prioridad 
 
 La oferta y demanda cargadas contribuyen a un perfil del inventario proyectado según las prioridades.  
 
-### <a name="priorities-on-the-demand-side"></a>Prioridades en la demanda
+### Prioridades en la demanda  
 
 1. Ya enviado: movimiento de producto  
 2. Pedido dev. compra  
@@ -193,7 +193,7 @@ La oferta y demanda cargadas contribuyen a un perfil del inventario proyectado s
 > [!NOTE]  
 > Las devoluciones de compras normalmente no intervienen en la planificación de suministros; siempre se deben reservar del lote que se va a devolver. Si no reserva, las devoluciones de compra desempeñan una función en la disponibilidad y se les da una elevada prioridad para evitar que el sistema de planificación sugiera un pedido de aprovisionamiento solo para servir a una devolución de compra.  
 
-### <a name="priorities-on-the-supply-side"></a>Prioridades en el suministro
+### Prioridades en el suministro  
 
 1. Ya en el inventario: movimiento de producto (flexibilidad de planificación = ninguna)  
 2. Pedido de devolución de venta (flexibilidad de planificación = ninguna)  
@@ -202,7 +202,7 @@ La oferta y demanda cargadas contribuyen a un perfil del inventario proyectado s
 5. Pedido de ensamblado  
 6. Pedido de compra  
 
-### <a name="priority-related-to-the-state-of-supply-and-demand"></a>Prioridad relacionada con el estado de la oferfta y la demanda
+### Prioridad relacionada con el estado de la oferfta y la demanda  
 
 Además de las prioridades del tipo de oferta y demanda, hay otras cosas que afectan la flexibilidad de planificación. Por ejemplo, las actividades del almacén y el estado de los siguientes pedidos:
 
@@ -220,7 +220,7 @@ El estado de estas órdenes tiene los siguientes efectos:
 4. Orden de producción planificada en firme (flexibilidad de planificación = ilimitada)  
 5. Planificado/Abierto: todos los tipos de pedido (flexibilidad de planificación = ilimitada)
 
-## <a name="balancing-supply-with-demand"></a>Equilibrio de oferta y demanda
+## Equilibrio de oferta y demanda
 
 El sistema de planificación equilibra la oferta y la demanda sugiriendo acciones para revisar las órdenes de suministro que no están equilibradas. Este equilibrio ocurre para cada combinación de variante y ubicación.  
 
@@ -254,7 +254,7 @@ Cada evento hace referencia a su tipo e identificación de origen. Las reglas pa
 
  El procedimiento comienza de nuevo con la demanda siguiente y el suministro actual, o viceversa. El suministro actual también puede cubrir esta demanda siguiente, o la demanda actual no se ha cubierto por completo.  
 
-### <a name="rules-for-actions-for-supply-events"></a>Reglas de acciones para los eventos de oferta
+### Reglas de acciones para los eventos de oferta
 
 Para los cálculos de arriba hacia abajo en los que la oferta debe satisfacer la demanda, la demanda se toma como un dato. Está fuera del control del sistema de planificación. Sin embargo, el sistema de planificación puede administrar el lado de la oferta y hará las siguientes sugerencias:
 
@@ -297,7 +297,7 @@ En general, todo el aprovisionamiento tiene una flexibilidad de planificación l
 * **Cancelar**: como incidente especial de la acción de disminución de cantidad, el pedido de aprovisionamiento puede cancelarse si se ha reducido a cero. 
 * **Nuevo**: si no hay pedidos de suministro, o no se puede cambiar uno existente para satisfacer la cantidad necesaria en la fecha de vencimiento de la demanda, se sugiere un nuevo pedido de suministro.  
 
-### <a name="determine-the-supply-quantity"></a>Determinar la cantidad de aprovisionamiento
+### Determinar la cantidad de aprovisionamiento  
 
 Usted define los parámetros de planificación que controlan la cantidad sugerida de cada pedido de suministro.  
 
@@ -311,7 +311,7 @@ La cantidad sugerida podría modificarse en esta secuencia:
 2. Hasta la cantidad de pedido mínima.  
 3. Hasta cumplir el múltiplo de pedido más próximo.
 
-### <a name="order-tracking-links-during-planning"></a>Conexiones de seguimiento de pedidos durante la planificación
+### Conexiones de seguimiento de pedidos durante la planificación  
 
 Para el seguimiento de pedidos durante la planificación, el sistema de planificación reorganiza los vínculos de seguimiento de pedidos para las combinaciones de producto, variante o almacén. El sistema reorganiza los enlaces de seguimiento por las siguientes razones:
 
@@ -325,7 +325,7 @@ Antes de cuadrar el aprovisionamiento por la demanda, el sistema de planificaci�
 > [!NOTE]  
 > Aunque el producto no se haya configurado para seguimiento dinámico de pedidos, el sistema de planificación establecerá vínculos de seguimiento de pedidos equilibrados.
 
-## <a name="close-balanced-supply-and-demand"></a>Cerrar la oferta y demanda equilibradas
+## Cerrar la oferta y demanda equilibradas
 
 Equilibrar la oferta tiene tres resultados posibles:
 
@@ -335,7 +335,7 @@ Equilibrar la oferta tiene tres resultados posibles:
 
 Por último, el sistema de planificación creará una conexión de seguimiento de pedidos entre el suministro y la demanda.  
 
-### <a name="create-the-planning-line-suggested-action"></a>Crear la línea de planificación (acción sugerida)
+### Crear la línea de planificación (acción sugerida)  
 
 Si se sugiere alguna acción (**nueva**, **cambiar de cantidad**, **reprogramar**, **reprogramar y cambiar de cantidad** o **cancelar**) para revisar el pedido de aprovisionamiento, el sistema de planificación crea una línea de planificación en la hoja de trabajo de planificación. Para el seguimiento de pedidos, la línea de planificación se crea no solo cuando se cierra el evento de suministro, sino también si se cierra el evento de demanda. Esto es así aunque el evento de suministro aún esté abierto y podría cambiarse cuando se procese el siguiente evento de demanda. La línea de planificación se puede modificar de nuevo cuando se crea.
 
@@ -345,7 +345,7 @@ Para reducir la carga en la base de datos al manejar órdenes de producción, la
 * Incluir ruta: la ruta planificada incluye el cálculo de las fechas y las horas de inicio y fin. Incluir la ruta exige muchos accesos a la base de datos. Para determinar las fechas finales y de vencimiento, podría ser necesario calcular la ruta aunque el evento de suministro no se haya cerrado. Por ejemplo, si está programando hacia adelante.  
 * Incluir despliegue de L.M.: puede suceder justo antes de cerrar el evento de aprovisionamiento.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)  
 [Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)  

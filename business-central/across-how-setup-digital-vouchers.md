@@ -4,7 +4,7 @@ description: Este artículo explica cómo configurar y utilizar vales digitales 
 author: altotovi
 ms.author: altotovi
 ms.reviewer: null
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: 'digital voucher, voucher, attachment, setup'
 ms.search.form: '5579, 5582, 5587'
@@ -12,7 +12,7 @@ ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-digital-vouchers"></a>Configurar comprobantes digitales
+# Configurar comprobantes digitales
 
 Los administradores pueden utilizar la funcionalidad de comprobante digital para exigir que los documentos se adjunten a transacciones específicas cuando se publiquen. Por lo tanto, esta funcionalidad permite un enfoque basado en el origen y proporciona un mejor seguimiento de auditoría. Para ello se pueden configurar diferentes tipos de cumplimiento, dependiendo de los documentos o tipos de diario.
 
@@ -21,14 +21,14 @@ El término *bono digital* se refiere a una forma digital o electrónica de un c
 > [!IMPORTANT]
 > En algunos países y regiones, es posible que no pueda configurar algunas opciones, ya que es posible que los requisitos legales exijan configuraciones específicas. Si encuentra estas restricciones, busque una explicación detallada en la página de documentación de su país o región.
 
-## <a name="enable-digital-vouchers"></a>Habilitar comprobantes digitales
+## Habilitar comprobantes digitales
 
 Siga estos pasos para habilitar la funcionalidad de vale digital.
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de vale digital** y luego seleccione el vínculo relacionado.
 2. Seleccione la casilla de verificación **Habilitado**.
 
-## <a name="set-up-digital-vouchers-1"></a>Configurar comprobantes digitales
+## Configurar comprobantes digitales
 
 Puede utilizar diferentes configuraciones para los siguientes documentos y diarios.
 
@@ -48,7 +48,7 @@ Siga estos pasos para definir cómo su organización utiliza los vales digitales
 4. Seleccione la casilla **Generar automáticamente** para generar el comprobante digital automáticamente. Por ejemplo, si no desea agregar manualmente una factura de venta a su transacción, seleccione esta casilla de verificación. Luego, sólo tienes que publicar el documento. El sistema crea automáticamente el documento, según el diseño de su informe, y lo adjunta a la transacción.
 5. Seleccione la casilla **Omitir si se agrega manualmente** si no desea agregar un cupón digital generado automáticamente si el usuario ya agregó un archivo adjunto manual.
 
-### <a name="use-source-codes-for-setup"></a>Utilice códigos fuente para la configuración
+### Utilice códigos fuente para la configuración
 
 Para utilizar el cumplimiento para los diarios, pero no para todos los tipos de transacciones, conecte el código fuente específico para identificar el tipo de entrada: diario general, diario de ventas o diario de compras.
 
@@ -58,7 +58,7 @@ Siga estos pasos para configurar códigos fuente específicos para vales digital
 2. Sobre la página **Códigos fuente de entrada de vales**, seleccione los códigos fuente que desea configurar.
 3. Cierre la página.
 
-## <a name="use-the-functionality"></a>Usar la funcionalidad
+## Usar la funcionalidad
 
 Abra un documento de compra o venta e ingrese información en los campos obligatorios. Antes de publicar el documento, debes seguir estos pasos para adjuntar un comprobante digital.
 
@@ -75,13 +75,13 @@ Si accidentalmente adjunta el comprobante incorrecto, siga estos pasos para elim
 > [!NOTE]
 > Si el adjunto de un comprobante digital está configurado como obligatorio e intenta publicar documentos o diarios sin adjuntar un comprobante, el sistema le impide publicar. Recibe el siguiente mensaje de error: "No es posible publicar sin adjuntar el comprobante digital".
 
-### <a name="find-attached-vouchers-in-transactions"></a>Buscar comprobantes adjuntos en transacciones
+### Buscar comprobantes adjuntos en transacciones
 
 Puede encontrar el comprobante adjunto en el documento publicado o en la página **Movimientos del libro mayor** buscando en el cuadro informativo **Archivos de documentos entrantes**.
 
 No puede eliminar un documento adjunto una vez completada la publicación. Sin embargo, puede agregar más archivos adjuntos una vez completada la publicación.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión financiera](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

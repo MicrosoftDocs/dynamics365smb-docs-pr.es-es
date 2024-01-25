@@ -3,13 +3,13 @@ title: Introducción a la fabricación de Contoso Coffee
 description: Descripción general de escenarios sobre cómo los datos de demostración de Contoso Coffee pueden ayudarle a aprender a usar las capacidades de fabricación en Business Central.
 ms.date: 04/01/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '4765,'
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introducción a la fabricación de Contoso Coffee
+# Introducción a la fabricación de Contoso Coffee
 
 Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para Business Central agregan datos de demostración que puede usar para aprender a usar las capacidades de fabricación en Business Central.  
 
@@ -36,7 +36,7 @@ Las actividades de fabricación para todos los escenarios utilizan la ubicación
 > [!IMPORTANT]
 > Antes de ejecutar cualquiera de los escenarios para Contoso Coffee, registre las líneas del diario de productos con saldos iniciales. Para ver más requisitos, consulte la sección [Configurar datos de Contoso Coffee](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Configuración de datos de demostración de Contoso Coffee para fabricación
+## Configuración de datos de demostración de Contoso Coffee para fabricación
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,7 +47,7 @@ Las actividades de fabricación para todos los escenarios utilizan la ubicación
 
 Una vez que esté listo, elija la acción **Crear datos de demostración** acción. Se tarda unos minutos en agregar los datos a la base de datos subyacente, pero luego ya está listo para ejecutar los distintos escenarios.  
 
-## <a name="scenarios"></a>Escenarios
+## Escenarios
 
 Los datos de fabricación de Contoso Coffee admiten actualmente los siguientes escenarios de fabricación para pruebas y entrenamiento:
 
@@ -65,7 +65,7 @@ Lea los pasos para cada escenario en el artículo correspondiente.
 > [!IMPORTANT]
 > Estos tutoriales requieren que la experiencia del usuario esté establecida en *Premium* en la página **Información empresa**.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Fabricación](../../production-manage-manufacturing.md)  
 [Informes y análisis de producción en Business Central](../../production-reports.md)  
