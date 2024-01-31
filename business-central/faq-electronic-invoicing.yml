@@ -5,6 +5,7 @@ metadata:
   ms.topic: faq
   author: brentholtorf
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: P+F sobre facturación electrónica
 summary: |
   El servicio de intercambio de documentos integrado envía facturas electrónicas a TradeShift, un proveedor de servicios que transmite facturas electrónicas a los destinatarios de PEPPOL o NemHandel. Pero el servicio admite un número limitado de versiones.   

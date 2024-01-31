@@ -3,15 +3,14 @@ title: Configuración de activos fijos
 description: 'Obtenga información sobre la secuencia de tareas que debe realizar para configurar activos fijos, como maquinaria o edificios.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-fixed-assets"></a>Configurar activos fijos
+# Configurar activos fijos
 
 Antes de trabajar con activos fijos, debe definir algunos parámetros:  
 
@@ -36,7 +35,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Conocer varios métodos de amortización de activos fijos. |[Métodos de depreciación](fa-depreciation-methods.md) |
 | Obtenga información sobre cómo aplicar métodos de amortización definidos por el usuario. |[Configurar métodos de amortización definidos por usuario](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Activos fijos](fa-manage.md)  
 [Finanzas](finance.md)  

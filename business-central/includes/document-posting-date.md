@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 11/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Los campos **Fecha del documento** y **Fecha de publicación** en los documentos de compra y venta pueden ayudarle a cumplir con las normas contables y garantizar cálculos financieros precisos. Los campos tienen diferentes propósitos:

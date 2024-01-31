@@ -3,38 +3,37 @@ title: Configurar términos y niveles de recordatorios.
 description: Aprenda a configurar Business Central para enviar un recordatorio a un cliente sobre un pago pendiente y los intereses o comisiones generados por el retraso.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>Configurar términos y niveles de recordatorios.
+# Configurar términos y niveles de recordatorios.
 
 Puede usar recordatorios para recordar a los clientes que tienen importes vencidos. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## <a name="reminder-terms"></a>Términos de recordatorio
+## Términos de recordatorio
 
 Si los clientes tienen pagos vencidos, deberá decidir cómo y cuándo les enviará un recordatorio. Además, puede cargar en sus cuentas intereses o comisiones. Puede configurar un número ilimitado de recordatorios.  
 
 > [!NOTE]
 > Si desea calcular intereses sobre pagos vencidos, puede hacerlo al crear recordatorios. Sin embargo, si sólo desea calcular intereses e informar a sus clientes acerca de esto sin enviar recordatorios, debe usar [documentos de interés](finance-setup-finance-charges.md). Para más información, vea [Recordatorios](receivables-collect-outstanding-balances.md#reminders) o [Cargos financieros](receivables-collect-outstanding-balances.md#finance-charges), respectivamente.
 
-### <a name="to-set-up-reminder-terms"></a>Para configurar los recordatorios
+### Para configurar los recordatorios
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de recordatorios** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Para utilizar más de una combinación de recordatorios, configure un código para cada uno.
 
-## <a name="reminder-levels"></a>Niveles de recordatorio
+## Niveles de recordatorio
 
 Para cada código de términos de recordatorio, puede definir un número ilimitado de niveles de recordatorio. La primera vez que se crear un recordatorio para un cliente, se utiliza la configuración del nivel 1. Cuando se emite el recordatorio, el número de nivel se registra en los movimientos de recordatorio creados y vinculados a los movimientos del cliente individuales. Si es necesario volver a recordar al cliente, se comprueban todos los movimientos de recordatorio vinculados a movimientos de cliente abiertos para localizar el número de nivel más alto. Para el nuevo recordatorio se utilizarán las condiciones del siguiente número de nivel.
 
 Si crea más recordatorios de aquellos para los que tenga niveles definidos, se utilizarán las condiciones para el nivel más alto. Puede crear tantos recordatorios como permita el campo **Nº máx. recordatorios** en los términos de recordatorio.
 
-### <a name="to-set-up-reminder-levels"></a>Para configurar los niveles de recordatorio
+### Para configurar los niveles de recordatorio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de recordatorios** y luego elija el enlace relacionado.  
 2. En la página **Términos recordatorio**, seleccione la línea que incluya los términos para los que desea configurar niveles y, a continuación, elija la acción **Niveles**.  
@@ -92,7 +91,7 @@ Si crea más recordatorios de aquellos para los que tenga niveles definidos, se 
 
 Una vez configurados los términos de recordatorio, con niveles y texto adicionales, escriba uno de los códigos en cada una de las fichas de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Enviar recordatorios de saldos pendientes](receivables-send-reminders.md)  

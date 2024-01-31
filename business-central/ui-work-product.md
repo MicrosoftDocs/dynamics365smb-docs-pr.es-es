@@ -8,8 +8,9 @@ ms.topic: conceptual
 ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/19/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-"></a>Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
+# Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mientras trabaja en [!INCLUDE [prod_short](includes/prod_short.md)], interactúa con los datos de diferentes maneras. Por ejemplo, crea registros, ingresa datos, ordena y filtra datos, escribe notas y exporta datos a otras aplicaciones.
 
@@ -23,14 +24,14 @@ Si quiere usar la barra de desplazamiento horizontal para ver todas las columnas
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Sugerencias y trucos
+## <a name="cheatsheet"></a>Sugerencias y trucos
 
 > [!TIP]
 > Para obtener un resumen en versión para imprimir de las funciones más usadas, elija la siguiente imagen y descargue el archivo PDF.
 >
 > [ ![Icono para el archivo PDF.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icono que abre un PDF")
 
-## <a name="links-to-learn-more"></a>Vínculos para obtener más información
+## Vínculos para obtener más información
 
 En la tabla siguiente se indican algunas de las funciones generales y vínculos a los artículos en que se describen.
 
@@ -56,13 +57,13 @@ En la tabla siguiente se indican algunas de las funciones generales y vínculos 
 |Gestionar el contenido y formato de informes y documentos. Especifique los datos del campo que se incluirán y cómo aparecen. Por ejemplo, elija un estilo de texto, agregue imágenes y más.|[Administrar diseños de informes y documentos](ui-manage-report-layouts.md) |
 |Conocer las funciones que hacen que [!INCLUDE[prod_short](includes/prod_short.md)] sea accesible a personas con discapacidades.|[Accesibilidad y métodos abreviados de teclado](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a>Desplazarse por Business Central
+## Desplazarse por Business Central
 
 A continuación se muestra un vídeo corto acerca de cómo desplazarse en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="choosing-a-desktop-browser"></a>Elegir un navegador de escritorio
+## Elegir un navegador de escritorio
 
 [!INCLUDE[prod_short](includes/prod_short.md)] admite múltiples navegadores y cada navegador ofrece varias funciones. El navegador juega un papel importante en la capacidad de respuesta y la fluidez de la interfaz de usuario. Consulte la lista de navegadores compatibles y recomendados para [Business Central Online](./product-requirements.md) y navegadores para [Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -72,7 +73,7 @@ A continuación se muestra un vídeo corto acerca de cómo desplazarse en [!INCL
     > Internet Explorer ya no es compatible. Para obtener más información, vaya a la [documentación de Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Mantenga su navegador actualizado a la última versión.
 
-## <a name="action-bars"></a>Barras de acción
+## Barras de acción
 
 En [!INCLUDE [prod_short](includes/prod_short.md)], usted realiza la mayor parte de su trabajo en una lista, un documento o una tarjeta. Todas las páginas tienen una barra con acciones que son relevantes para ellas. Las acciones son casi las mismas para la tarjeta o documento individual y la lista de entidades. De esta forma, puede gestionar un pedido de cliente individual en la página **Órdenes de venta** y en la **Órdenes de venta**, incluidos su registro y facturación.  
 
@@ -89,7 +90,7 @@ Cuando busca una página de lista abierta, como la lista **Órdenes de venta**, 
 
 Cuando abre la misma página de lista desde su página de inicio, la acción **Administrar** no está disponible. En su lugar, para abrir un pedido de cliente individual, elija el campo **Número**. En esta vista, no puede anclar la barra de acción.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Configuración de Business Central](setup.md)  

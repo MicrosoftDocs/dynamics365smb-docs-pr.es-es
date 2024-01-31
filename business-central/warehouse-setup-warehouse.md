@@ -3,14 +3,13 @@ title: Configurar procesos de almacén
 description: 'La estrategia de distribución de una empresa se refleja en la configuración de sus procesos de almacén, por ejempo, las ubicaciones de almacén.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 09/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-warehouse-management"></a>Configuración de la gestión del almacén
+# Configuración de la gestión del almacén
 
 La estrategia de distribución de una empresa se refleja en la configuración de sus procesos de almacén. Esto incluye definir el tratamiento de los distintos productos en ubicaciones distintas del almacén, como el nivel de control de ubicación y el alcance del flujo de trabajo necesario entre las actividades de almacén.  
 
@@ -35,7 +34,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Obtener información sobre el modo de reorganizar ubicaciones o zonas para lograr mayor eficiencia en las actividades del almacén.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Administración de ensamblados](assembly-assemble-items.md)  

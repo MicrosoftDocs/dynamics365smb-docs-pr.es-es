@@ -3,9 +3,10 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-1. Elija el icono ![Bombilla que abre la función Dígame 22.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la función Dígame 22.](../media/ui-search/search_small.png "Buscar una lupa") , escriba **Productos**, y luego elija el enlace relacionado.  
 2. En la página **Productos**, seleccione la acción **Nuevo**.
 
     Si solo existe una plantilla de producto, se abre una nueva ficha de producto con algunos de los campos rellenados con la información de la plantilla.

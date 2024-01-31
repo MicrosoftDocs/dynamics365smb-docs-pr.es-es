@@ -9,8 +9,9 @@ ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
+ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-management"></a>Gestión de ensamblaje
+# Gestión de ensamblaje
 
 Las empresas pueden suministrar productos a sus clientes mediante la combinación de componentes sin usar funciones de fabricación. Las funciones para ensamblar artículos se integran con funciones relacionadas, como ventas, planificación, reservas y almacenamiento.  
 
@@ -51,7 +52,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Aprenda a trabajar con listas de materiales de ensamblaje y sus diferencias con las listas de materiales de producción.|[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)|
 |Aprenda a registrar el consumo y la salida del ensamblaje, y cómo [!INCLUDE [prod_short](includes/prod_short.md)] distribuye los costos de artículos y recursos en el libro mayor.|[Detalles de diseño: registro de pedidos de ensamblado](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con listas de materiales](inventory-how-work-BOMs.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  

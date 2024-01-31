@@ -3,14 +3,13 @@ title: Importar y exportar un diseño de informe o documento
 description: Puede importar y exportar un diseño de informe personalizado existente como archivo a o desde una ubicación de su equipo y red.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(Versión heredada) Importar y exportar diseños de informe personalizados
+# (Versión heredada) Importar y exportar diseños de informe personalizados
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -19,7 +18,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 > [!IMPORTANT]  
 >  No puede importar o exportar diseños de informe integrados.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>Para exportar un diseño de informe a un archivo
+### Para exportar un diseño de informe a un archivo  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.  
 
@@ -29,7 +28,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
 4.  En el cuadro de diálogo **Exportar archivo**, elija el botón **Guardar** y, a continuación, guarde el archivo en una ubicación de su equipo o red.  
 
-### <a name="to-import-a-report-layout-file"></a>Para importar un archivo de diseño de informe
+### Para importar un archivo de diseño de informe  
 
 1.  Asegúrese de que el archivo correspondiente que define el diseño de informe está disponible en el equipo o en la red.  
 
@@ -45,7 +44,7 @@ Puede importar y exportar un diseño de informe personalizado existente como arc
 
  El diseño de informe original personalizado se reemplaza con el diseño de informe importado.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Crear y modificar un diseño de informe personalizado](ui-how-create-custom-report-layout.md)   
 [Administrar diseños de informes y documentos](ui-manage-report-layouts.md)  

@@ -3,15 +3,14 @@ title: Procesamiento de devoluciones o cancelaciones
 description: Explica cómo crear y registrar un abono de compra cuando se desean devolver productos a un proveedor o cancelar servicios comprados.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Procesamiento de devoluciones de compra o cancelaciones
+# Procesamiento de devoluciones de compra o cancelaciones
 
 Si desea devolver productos al proveedor o cancelar servicios comprados, puede crear y registrar un abono de compra que especifique el cambio solicitado en relación a la factura de compra original. Para incluir la información correcta de la factura de compras, puede crear el abono de compra directamente de la factura de compra contabilizada o puede crear un nuevo abono de compra con información de factura copiada.
 
@@ -28,7 +27,7 @@ Además de la original factura de compra registrada, puede liquidar el abono de 
 
 El registro del abono también revertirá cualquier coste de producto que se hubiera asignado al documento registrado, de forma que los movimientos de valor del producto son los mismos de antes que se asignara el cargo de producto.
 
-## <a name="inventory-costing"></a>Inventario y valoración
+## Inventario y valoración
 Para conservar la valoración correcta del inventario, normalmente desea tomar los artículos devueltos del inventario al costo unitario en el que fueron comprados, no al costo unitario actual. Esto se denomina reversión de coste exacto.
 
 Existen dos funciones para asignar la reversión de coste exacta automáticamente.  
@@ -42,7 +41,7 @@ Para asignar manualmente la reversión del coste exacto, debe elegir el campo **
 
 Para obtener más información, consulte [Detalles de diseño: valoración de inventario](design-details-inventory-costing.md).
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Para crear un nuevo abono de compra desde una factura de compra registrada.
+## Para crear un nuevo abono de compra desde una factura de compra registrada.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Histórico facturas compra** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Facturas de compra registradas**, seleccione la factura de compra que desea revertir y, a continuación, seleccione la acción **Crear abono correctivo**.
@@ -63,7 +62,7 @@ Las facturas de compra registradas a las que se aplica el abono ahora están rev
 
 El abono de compra se ha eliminado y remplazado por un nuevo documento de la lista de abonos de compra registrados.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Crear un nuevo abono de compra copiando una factura de compra registrada.
+## Crear un nuevo abono de compra copiando una factura de compra registrada.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de compra** y, a continuación, elija el enlace relacionado.
 2. Seleccione la acción **Nuevo** para abrir un abono de compras vacío.
@@ -75,7 +74,7 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 8. Elija el botón **Aceptar**. Las líneas de factura copiadas se insertarán en el abono de compra.
 9. Complete el abono de compra como se explica en [Para crear un abono de compra de una factura de compras registrada](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Crear un pedido de devolución de compras basado en uno o más documentos de compras registrados
+## Crear un pedido de devolución de compras basado en uno o más documentos de compras registrados
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Devolución de pedidos** y, a continuación, seleccione el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -125,7 +124,7 @@ El abono de compra se ha eliminado y remplazado por un nuevo documento de la lis
 10. En la página **Pedido dev. compra**, en el campo **Cód. auditoría dev.** de cada línea, seleccione el motivo de la devolución.
 11. Seleccione la acción **Registrar**.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Para crear un pedido de sustitución a partir de un pedido de devolución de compra
+## Para crear un pedido de sustitución a partir de un pedido de devolución de compra
 
 Puede estar de acuerdo con el proveedor en que compense un producto comprado, sustituyendo el producto. El producto de sustitución puede ser el mismo u otro distinto. Esta situación se puede dar si el proveedor le envió por error un producto equivocado.  
 
@@ -134,7 +133,7 @@ Puede estar de acuerdo con el proveedor en que compense un producto comprado, su
 3. En la página **Mover líneas compra negativas**, rellene los campos en una línea según sea necesario.
 4. Elija el botón **Aceptar**. La línea negativa se elimina del pedido de devolución de compra y se crea un nuevo pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>Para crear una deducción de compra
+## Para crear una deducción de compra
 
 Si los productos que recibe del proveedor no son satisfactorios, como cuando están dañados o son del color o tamaño incorrecto, es posible que el proveedor le ofrezca una deducción de compra.  
 
@@ -153,7 +152,7 @@ Puede registrar este coste reducido de compra como un cargo de producto en un ab
 
 Cuando registre el pedido de devolución de compra, la deducción de compra se añadirá al importe del movimiento de compra correspondiente. De este modo podrá mantener la precisión de la valoración del inventario.  
 
-## <a name="to-combine-return-shipments"></a>Para combinar envíos devueltos
+## Para combinar envíos devueltos
 
 Si desea devolver los productos cubiertos por distintos pedidos de devolución de compra al mismo vendedor, entonces puede utilizar la función **Combinar envíos devueltos**.  
 
@@ -175,13 +174,13 @@ Cuando se combinan envíos devueltos en un abono y se registran, se crea un abon
     Si ha seleccionado una línea de envío de devolución incorrecta o desea comenzar desde el principio, solo elimine las líneas del abono de compra y vuelva a usar la función **Traer líns. envío devol.**  
 6. Seleccione la acción **Registrar**.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Para eliminar pedidos de devolución de compra abiertos después del registro del envío de devolución
+### Para eliminar pedidos de devolución de compra abiertos después del registro del envío de devolución  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar pedidos de devolución de compra facturados** y, a continuación, elija el enlace relacionado.  
 2. Rellene los campos según sea necesario y, a continuación, haga clic en el botón **Aceptar**.  
 3. También puede eliminar los pedidos de devolución de compra individuales manualmente.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

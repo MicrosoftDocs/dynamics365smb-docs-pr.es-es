@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 08/03/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 1. Elija la ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.

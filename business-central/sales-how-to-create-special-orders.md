@@ -3,14 +3,13 @@ title: Cómo crear pedidos especiales
 description: Aprenda a crear un pedido especial para un determinado producto del catálogo que se vaya a enviar a un cliente en particular.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-special-orders"></a>Crear pedidos especiales
+# Crear pedidos especiales
 
 Se puede crear un pedido especial para un determinado producto del catálogo que se vaya a enviar a un cliente en particular. El proveedor envía el producto al almacén de su empresa y de allí se envía a su cliente sólo o con otros productos de otro pedido.  
 
@@ -18,7 +17,7 @@ Los pedidos especiales implican que el pedido de compra y el pedido de venta est
 
 Para utilizar esta función, primero debe tener configuradas las fichas de cliente, de proveedor y de producto necesarias para el pedido.  
 
-## <a name="to-create-a-special-order"></a>Para crear un pedido especial
+## Para crear un pedido especial
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedido venta** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**. Cree un  pedido de venta del producto y rellénelo. Para obtener más información, vea [Vender productos](sales-how-sell-products.md).
@@ -38,7 +37,7 @@ El sistema de planificación respeta un pedido de compra que se crea como un ped
 > [!NOTE]  
 >  No puede utilizar la funcionalidad de pedido especial si el artículo ya está reservado. Por lo tanto, para los artículos que se venden en pedidos especiales, asegúrese de que el campo **Reservar** de la ficha de producto no se establezca en **Siempre**.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md)  
 [Ventas](sales-manage-sales.md)  

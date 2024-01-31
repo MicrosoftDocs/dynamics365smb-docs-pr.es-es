@@ -10,9 +10,10 @@ ms.search.keywords: 'tax, posting, sales tax'
 ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
 ms.date: 07/21/2022
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Impuesto sobre las ventas en la versión predeterminada de Business Central
+# Impuesto sobre las ventas en la versión predeterminada de Business Central
 
 Un **impuesto sobre las ventas** es un impuesto que se aplica a la compra de bienes y servicios para los consumidores y a la venta de bienes y servicios para las empresas. El impuesto sobre las ventas, idealmente, debería aplicarse a todo el consumo final con pocas exenciones. Las exenciones en los consumos finales dependen de las autoridades locales pero, en general, las transacciones entre empresas están exentas del impuesto sobre las ventas.  
 
@@ -23,7 +24,7 @@ Normalmente, los impuestos sobre las ventas se aplican a la venta minorista de b
 > [!IMPORTANT]
 > Aunque el impuesto sobre las ventas está disponible en la versión predeterminada, Microsoft solo admite el uso del impuesto sobre las ventas en Estados Unidos y Canadá.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Informe del impuesto de venta en EE. UU.](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Informes del impuesto de venta en Canadá](localfunctionality/canada/ca-sales-tax.md)  

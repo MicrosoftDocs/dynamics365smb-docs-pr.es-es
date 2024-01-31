@@ -3,28 +3,27 @@ title: Compartir contactos entre Business Central y Outlook
 description: Este servicio tiene una integración profunda con Microsoft 365 para que pueda compartir contactos entre Outlook y Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'contacts, Microsoft 365'
 ms.search.form: '6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311'
 ms.date: 03/17/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Sincronizar los contactos de Business Central con los de Microsoft Outlook
+# Sincronizar los contactos de Business Central con los de Microsoft Outlook
 
 Puede configurar la sincronización de contactos para que sus contactos en [!INCLUDE[prod_short](includes/prod_short.md)] tengan la misma información que sus contactos en Microsoft Outlook. Por ejemplo, si es comercial, puede trabajar al mismo tiempo en Outlook y [!INCLUDE[prod_short](includes/prod_short.md)]. Si los contactos son los mismos en ambos lugares, su trabajo es más sencillo.  
 
 De forma predeterminada, los contactos que está sincronizando se guardan en una carpeta de **Business Central** en sus Favoritos en el Panel de carpetas en Outlook. La carpeta Business Central puede facilitar la identificación de los contactos que está sincronizando. Puede configurar filtros para sincronizar solo contactos específicos de [!INCLUDE[prod_short](includes/prod_short.md)] a Outlook. Una vez que haya configurado la sincronización, puede sincronizar manualmente o automatizar el proceso para sincronizar de forma programada.  
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos
 
 - Su perfil de usuario en [!INCLUDE[prod_short](includes/prod_short.md)] debe especificar su cuenta de correo electrónico de Microsoft 365.
 
   Puede comprobar esta configuración en la sección **Autenticación de Microsoft 365** de su perfil de usuario en la lista **Usuarios**.
 - Con [!INCLUDE[prod_short](includes/prod_short.md)], configuró la sincronización de contactos como se describe en [Configurar la sincronización de contactos con Outlook para Business Central local](admin-contact-sync-setup-onprem.md)
 
-## <a name="set-up-synchronization"></a>Configurar sincronización
+## Configurar sincronización
 
 Configure cómo quiere sincronizar los contactos con Outlook en la página **Configuración de la sincronización de Exchange** en [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -34,7 +33,7 @@ Cada uno de sus compañeros de trabajo también puede configurar su propia sincr
 
 Después de configurar la sincronización, puede sincronizar los cambios en el contacto manualmente o puede automatizar el proceso configurando una entrada en la cola de trabajos. Para obtener más información acerca de la automatización, consulte la siguiente sección de este artículo.
 
-### <a name="automate-synchronization"></a>Automatizar sincronización
+### Automatizar sincronización
 
 Puede crear una entrada en la cola de trabajos que sincronizará los contactos de acuerdo a una programación que defina. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md). 
 
@@ -45,7 +44,7 @@ La siguiente tabla enumera los ajustes en la página **Ficha mov. cola proyecto*
 |Tipo objeto para ejecutar|Codeunit|
 |Id. objeto para ejecutar|6700|
 
-## <a name="synchronize-contacts"></a>Sincronizar contactos
+## Sincronizar contactos
 
 Si está acostumbrado a trabajar con contactos en [!INCLUDE[prod_short](includes/prod_short.md)], le resultará fácil sincronizar manualmente desde la lista **Contactos** cuando le convenga. Puede sincronizar sus contactos de dos maneras:
 
@@ -62,7 +61,7 @@ En ambos casos, los contactos solo se sincronizan desde Outlook si tienen rellen
 > [!NOTE]
 > Si elimina un contacto en Outlook, pero lo mantiene en [!INCLUDE[prod_short](includes/prod_short.md)], el contacto se volverá a crear en Outlook la próxima vez que sincronice. 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Finanzas](finance.md)  

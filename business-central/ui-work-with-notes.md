@@ -3,15 +3,14 @@ title: Añadir información a sus registros para usted mismo | Documentos de Mic
 description: 'Adjunte una nota a cualquier registro de la aplicación. Por ejemplo, si tiene información adicional sobre un pedido de venta que no se ajusta a ninguno de los campos del pedido de venta, puede escribir una nota.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ROBOTS: 'NOINDEX,NOFOLLOW'
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="add-and-view-notes-on-records"></a>Añadir y visualizar notas de registros
+# Añadir y visualizar notas de registros
  Puede <!--OnPrem and your colleagues -->puede agregar notas a los registros de la aplicación. Muchas páginas, particularmente las que muestran una lista de registros, como la página **Pedidos de ventas**, incluyen la acción **Notas** o el cuadro de información de **Notas**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
@@ -22,7 +21,7 @@ ms.author: jswymer
 >  You can only select one recipient of the note.-->  
 
 <!--OnPrem
-## <a name="to-work-with-notes-on-a-record"></a>To work with notes on a record
+## To work with notes on a record
 
 1.  Open a list of records, such as the **Sales Orders** page, or a card, such as the **Sales Order** page.  
 
@@ -40,7 +39,7 @@ ms.author: jswymer
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

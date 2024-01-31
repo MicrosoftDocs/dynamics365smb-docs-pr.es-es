@@ -3,15 +3,14 @@ title: Conformidad de los servicios y SLA
 description: 'Desde una perspectiva de servicio, Business Central cumple con los estrictos requisitos y el cumplimiento de SLA en varias certificaciones ISO y específicas de la industria.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
 ms.date: 06/14/2021
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Conformidad de los servicios
+# Conformidad de los servicios
 
 En este contenido se incluye información acerca de la conformidad de los servicios en relación con [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
@@ -21,11 +20,11 @@ Consulte la lista detallada de [ofertas de conformidad de la nube para Business 
 
 Si desea encontrar la lista completa de ofertas de conformidad de Microsoft, consulte [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Términos del servicio
+## Términos del servicio
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Conformidad](compliance-overview.md)  
 [Conformidad de las aplicaciones](compliance-application-compliance.md)  

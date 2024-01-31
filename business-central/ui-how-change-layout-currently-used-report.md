@@ -10,8 +10,9 @@ ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a>(Versión heredada) Establecer el diseño utilizado por un informe
+# (Versión heredada) Establecer el diseño utilizado por un informe
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -24,7 +25,7 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 > [!TIP]  
 > Los informes de documento (no listas) que utilizan un diseño de informe de Word suelen ser más rápidos que los que utilizan un diseño de informe RDLC. Por lo tanto, si tiene la opción de elegir entre un diseño de informe Word o RDLC para un informe de documento, utilice el diseño de informe Word para obtener el mejor rendimiento.
 
-## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Para cambiar qué diseño de informe se usará para un informe o documento
+## Para cambiar qué diseño de informe se usará para un informe o documento
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
   
@@ -43,7 +44,7 @@ Cuando se definen diseños de informes personalizados, puede seleccionarlos de l
 
 Si ha seleccionado un diseño de informe de RDLC o de Word, no se requiere ninguna otra acción y el diseño se utilizará la próxima vez que se ejecute el informe.
 
-## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Para cambiar el diseño de informe personalizado para usar un diseño de informe
+## Para cambiar el diseño de informe personalizado para usar un diseño de informe
 
 También es posible que desee cambiar el diseño personalizado utilizado actualmente. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
@@ -56,7 +57,7 @@ El nombre del diseño personalizado seleccionado ahora se muestra en el campo **
 
 Ahora puede ir a sus fichas de cliente y proveedor para especificar cuál de los diseños se usará para diferentes documentos que cree para el cliente o proveedor en cuestión, como confirmaciones de pedido o recordatorios de pagos. Para obtener más información, vea [Definir diseños de documentos para clientes y proveedores](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

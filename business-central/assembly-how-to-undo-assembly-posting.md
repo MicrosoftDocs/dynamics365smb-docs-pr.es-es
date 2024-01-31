@@ -9,8 +9,9 @@ ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
+ms.service: dynamics-365-business-central
 ---
-# <a name="undo-assembly-posting"></a>Deshacer registro de ensamblado.
+# Deshacer registro de ensamblado.
 
 Deshacer la publicación de una orden de ensamblado para corregir un error o eliminar una publicación no deseada.
 
@@ -33,7 +34,7 @@ Los pedidos de ensamblado existentes se pueden restablecer sólo si no se modifi
 
 El procedimiento siguiente describe cómo deshacer los pedidos de ensamblado registrado que contengan artículos que se ensamblaron para stock. Para deshacer pedidos de ensamblado registrados con artículos ensamblados a pedido, use la acción **Deshacer envío** en el envío registrado relacionado. Para obtener más información sobre cómo deshacer envíos, vaya a [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md). El pedido de ensamblado registrado se deshace tal como se describe en este artículo.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Para deshacer el registro de un pedido de ensamblado
+## Para deshacer el registro de un pedido de ensamblado
 
 Puede deshacer total o parcialmente las órdenes de ensamblado registradas.
 
@@ -50,7 +51,7 @@ El campo **Revertido** del pedido de ensamblado cambia a **Sí**. La contabiliza
 > [!NOTE]  
 > Para restaurar las cantidades de los registros parciales múltiples en un pedido de ensamblado, deberá deshacer todos los pedidos de ensamblado registrados siguiendo los pasos 1 a 3.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  

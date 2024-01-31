@@ -5,14 +5,13 @@ services: project-madeira
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="corrective-invoices-in-the-spanish-version"></a>Facturas correctivas en la versión en español
+# Facturas correctivas en la versión en español
 La funcionalidad de factura rectificativa permite enviar una factura rectificativa cuando haya un error o conflicto que afecte al importe del IVA o a los datos fiscales. Esta factura incluye todos los datos requeridos legalmente y hace referencia a la factura o facturas originales. Las facturas originales no se pueden anular y siguen siendo válidas. La factura correctiva contiene las correcciones y los motivos de estas correcciones.  
 
 Están disponibles las siguientes opciones:  
@@ -28,7 +27,7 @@ La factura correctiva debe cumplir los requisitos siguientes:
 - Se deben indicar claramente los números de las facturas que se corrigen.  
 - Únicamente se puede contabilizar una factura correctiva sin números de factura corregida si las correcciones son necesarias a causa de descuentos u ofertas por volumen.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
  [Funcionalidad local para España](spain-local-functionality.md)
 
 

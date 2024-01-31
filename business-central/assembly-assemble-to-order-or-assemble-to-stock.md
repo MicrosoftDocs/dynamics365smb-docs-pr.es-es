@@ -9,15 +9,16 @@ ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
+ms.service: dynamics-365-business-central
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Descripción de ensamblar para pedido y ensamblar para stock
+# Descripción de ensamblar para pedido y ensamblar para stock
 
 [!INCLUDE [prod_short](includes/prod_short.md)] permite suministrar productos de ensamblaje de estas formas:
 
 * Ensamblar para pedido  
 * Ensamblar para stock  
 
-## <a name="assemble-to-order"></a>Ensamblar para pedido
+## Ensamblar para pedido
 
 Use el proceso de ensamblado a pedido para los artículos que no desea almacenar. Por ejemplo, por las siguientes razones:
 
@@ -43,7 +44,7 @@ Cuando especifique un producto de ensamblar para pedido en una línea de pedido 
 
 Para especificar que un artículo se ensambla a pedido, en el campo **Política de ensamblaje** en la página **Tarjeta de artículo** para el artículo, elija **Ensamblar para pedido**.  
 
-## <a name="assemble-to-stock"></a>Ensamblar para stock
+## Ensamblar para stock
 
 Use el proceso ensamblar para almacenar para artículos que ensamble y almacene para futuras ventas. Los artículos ensamblados para almacenar son artículos estándar, como kits empaquetados, que no se pueden personalizar. También puede consumir estos elementos como componentes de subensamblaje. Los productos se seleccionan y procesan como artículos únicos y se consideran productos terminados. Para obtener más información sobre productos de montaje, vaya a [Ensamblaje de productos](assembly-how-to-assemble-items.md).  
 
@@ -54,7 +55,7 @@ Cuando se especifica un artículo de ensamblar para stock en una línea de venta
 
 Para especificar que un artículo se ensambla para stock, en el campo **Política de ensamblaje** en la página **Tarjeta de artículo** para el artículo, elija **Ensamblar para stock**.  
 
-## <a name="combination-scenarios"></a>Escenarios de combinación
+## Escenarios de combinación
 
 Cuando se combinan las cantidades de inventario y ensamblar a pedido en una orden de venta, las cantidades de ensamblar a pedido deben enviarse primero.  
 
@@ -96,7 +97,7 @@ En función de este ejemplo, puede modificar el campo **Cantidad a ensamblar** d
 * La cantidad mínima que puede introducir es 1. Debe ensamblar al menos una unidad para poder vender las cuatro unidades, si se asume que las tres restantes están disponibles en el inventario.  
 * La cantidad máxima que puede introducir es 4. Este límite asegura que usted no ensamble más artículos de los que necesita para la venta.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administración de ensamblados](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  

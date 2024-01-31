@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 Necesitará una URL para establecer conexión con OneDrive desde Business Central. La forma más fácil de obtener la URL es iniciar sesión en [OneDrive](https://onedrive.live.com) para su organización. En la dirección del navegador, verá una URL que tiene el siguiente formato:
 
 `https://<your Microsoft 365 tenant name>-my.sharepoint.com/personal/<your user name>`

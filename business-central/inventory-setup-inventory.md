@@ -3,15 +3,14 @@ title: Configurar inventario
 description: 'Describe cómo configurar los procesos de stock e inventario, incluidas las rutas de transferencia y ubicaciones, como los almacenes.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-inventory"></a>Configurar inventario
+# Configurar inventario
 Para poder administrar la actividad de un almacén y los costes de inventario, debe configurar las reglas y valores que definen las políticas de inventario de la empresa.
 
 Puede obtener un mejor servicio al cliente y optimizar la cadena de suministro si organiza las existencias en varias direcciones. Puede comprar, almacenar o vender productos en distintos almacenes y transferir inventarios entre ellos.
@@ -32,7 +31,7 @@ Cuando haya configurado su inventario, puede gestionar varios procesos relaciona
 |Importe varias imágenes de producto de una sola vez desde un archivo zip en el que los archivos se denominan según los números de los elementos.|[Importar varias imágenes de producto](inventory-how-import-item-pictures.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar inventario](inventory-manage-inventory.md)  
 [Administrar compras](purchasing-manage-purchasing.md)  

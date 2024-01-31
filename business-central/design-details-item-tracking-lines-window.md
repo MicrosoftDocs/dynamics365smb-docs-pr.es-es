@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: 'design, inventory, item, tracking, serial number, lot number'
 ms.date: 06/15/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-item-tracking-lines-page"></a>Detalles de diseño: página Líns. seguim. prod.
+# Detalles de diseño: página Líns. seguim. prod.
 Los registros de seguimiento de producto y los registros de reserva se crean en el sistema de reservas, y su disponibilidad se calcula dinámicamente. Los datos introducidos en la página **Líns. seguim. prod.** se administran en una versión temporal de la tabla **Especificación seguimiento.** Cuando la página está cerrada, los datos activos se transfieren a la tabla **Mov. reserva** y los datos históricos se transfieren a la tabla **Especificación seguimiento**. Para obtener más información, consulte [Detalles de diseño: registros de seguimiento de productos históricos frente a activos](design-details-active-versus-historic-item-tracking-entries.md).  
   
 Las búsquedas de los campos **N.º serie** y **N.º lote** muestran la visibilidad en función de las tablas **Mov. producto** y **Mov. reserva**, sin filtro de fecha. La matriz de los campos de cantidad del encabezado de la página **Líneas seguimiento producto** muestra dinámicamente las cantidades y las sumas de los números de seguimiento de producto que se introducen en las líneas de la página. Las cantidades deben corresponder a las de la línea del documento, que se indica como **0** en los campos **Indefinido** en la cabecera de la página.  
@@ -23,7 +24,7 @@ Para coordinar el flujo de números de serie y de lote a través del inventario,
   
 Las reglas para introducir datos en la página **Líns. seguim. prod.** también admiten los principios de acoplamiento que rigen el seguimiento, la planificación y la reserva del pedido. Para obtener más información, consulte [Detalles de diseño: Seguimiento de productos y planificación](design-details-item-tracking-and-planning.md).  
   
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

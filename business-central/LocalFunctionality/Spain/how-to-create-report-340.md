@@ -10,13 +10,14 @@ ms.search.keywords: null
 ms.search.form: '10737, 10738, 10744'
 ms.date: 11/23/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-report-340-in-the-spanish-version"></a>Crear informe 340 en la versión en español
+# Crear informe 340 en la versión en español
 El Informe 340 incluye todas las facturas de compras y ventas que registra una empresa durante un periodo determinado. El informe también incluye los códigos de operación con impuestos y pagos en efectivo relacionados.  
 
 Este informe se genera en un formato que ha aprobado la administración fiscal. Debe presentar este informe en una periodicidad mensual o trimestral, en función del tamaño de la empresa.  
 
-## <a name="to-create-report-340"></a>Para crear el informe 340
+## Para crear el informe 340  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Modelo 340** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Opciones** de la página **Modelo 340**, rellene los campos tal y como se describe en la tabla siguiente.  
@@ -38,7 +39,7 @@ Este informe se genera en un formato que ha aprobado la administración fiscal. 
 
 3.  Seleccione los filtros apropiados y, a continuación, elija el botón **Aceptar**. Se creará el archivo de texto del Informe 340 en la ruta especificada.  
 
-## <a name="to-create-a-modelo-340-report-under-the-cac-regimen"></a>Para crear un informe de Modelo 340 en de régimen CAC
+## Para crear un informe de Modelo 340 en de régimen CAC  
 
 1.  Realice los pasos del procedimiento anterior.  
 2.  Según sea necesario, ajuste y modifique la información del código de operación. Para que el informe pase la validación cuando lo envíe a la administración fiscal, las líneas que tengan un pago no realizado deben actualizarse e incluir un código de operación. Puede cambiar el código de operación de Z o 3 a Z o 1 – 8 solo para los pagos en efectivo.  
@@ -50,7 +51,7 @@ Este informe se genera en un formato que ha aprobado la administración fiscal. 
 
 Si imprime el documento registrado, por ejemplo, una factura de venta registrada, este incluye la etiqueta siguiente: **Régimen especial del criterio de caja**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
  [Informe 340](report-340.md)   
  [Pagos en efectivo](payments-in-cash.md)   
  [Agencia Tributaria](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)

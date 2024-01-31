@@ -3,14 +3,13 @@ title: Solución de problemas de errores de sincronización
 description: 'Este tema proporciona orientación para identificar, solucionar problemas y resolver errores de sincronización.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="troubleshooting-synchronization-errors"></a>Solución de problemas de errores de sincronización
+# Solución de problemas de errores de sincronización
 
 
 Hay muchos factores involucrados en la integración de [!INCLUDE[prod_short](includes/prod_short.md)] con [!INCLUDE[prod_short](includes/cds_long_md.md)], y a veces las cosas salen mal. Este tema señala algunos de los errores típicos que se producen y ofrece algunos consejos para corregirlos.
@@ -32,7 +31,7 @@ Las siguientes son algunas herramientas en la página Errores de sincronización
 * Las acciones **Eliminar movs. anteriores a 7 días** y **Eliminar todos los movs.** limpiarán la lista. Normalmente, estas acciones se utilizan después de haber resuelto la causa de un error que afecta a muchos registros. Sin embargo, preste atención. Estas acciones pueden eliminar errores que todavía son relevantes.
 * La acción **Mostrar error de pila de llamadas** muestra información que puede ayudar a identificar la causa del error. Si no puede resolver el error usted mismo y decide enviar una solicitud de soporte, incluya la información en la solicitud de soporte.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Integración con Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Configuración de cuentas de usuario para la integración con Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Configurar una conexión a Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  

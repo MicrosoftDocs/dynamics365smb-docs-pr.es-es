@@ -3,15 +3,14 @@ title: Descripción general de Inteligencia empresarial e informes
 description: Proporciona una descripción general de todas las características de inteligencia empresarial e informes con soporte de Business Central.
 author: KennieNP
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
+ms.service: dynamics-365-business-central
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Descripción general de Inteligencia empresarial e informes
+# Descripción general de Inteligencia empresarial e informes
 
 Las pequeñas y medianas empresas se basan en capacidades de análisis e informes integrados que pueden usar de inmediato como ayuda para realizar un seguimiento de su negocio. [!INCLUDE[prod_short](includes/prod_short.md)] admite procesos comerciales comunes, así como procesos más complejos para dichas organizaciones. Cada uno de estos procesos incluye heramientas de informes y análisis. También puede realizar análisis ad-hoc directamente desde su página principal.  
 
@@ -27,7 +26,7 @@ La siguiente tabla cubre la funcionalidad de inteligencia empresarial y de infor
 |Modifique diseños de informes o incluso desarrolle sus propios informes desde cero. |[Informes de desarrollo](reports-develop-reports.md)|
 |Analizar datos con Microsoft Fabric| [Introducción a Microsoft Fabric y Business Central](admin-fabric.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

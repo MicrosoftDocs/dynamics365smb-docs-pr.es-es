@@ -1,2 +1,5 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!NOTE]
 > Los diseños de informes personalizados son una función heredada que se está eliminando gradualmente. En su lugar, debe comenzar a crear diseños definidos por el usuario como se describe [aquí](../ui-get-started-layouts.md).

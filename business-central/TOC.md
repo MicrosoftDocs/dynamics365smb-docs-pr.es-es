@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 
 # [Documentación de Business Central](index.yml)
 # [Te damos la bienvenida a Business Central](welcome.md)
@@ -286,6 +289,7 @@
 ## Finanzas
 ### [Información general sobre finanzas](finance.md)
 ### [Informes financieros](finance-reports.md)
+
 ### Administrar cobros
 #### [Información general de cobros](receivables-manage-receivables.md)
 #### [Informes y análisis de cobros](receivables-reports.md)
@@ -298,6 +302,7 @@
 ##### [Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)
 #### [Conciliar los pagos de clientes desde una lista de documentos de venta impagados](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Conciliar los pagos de clientes con el diario de recibos de cobro o los movimientos de cliente](receivables-how-apply-sales-transactions-manually.md)
+#### [Consolidar saldos para una empresa que es un cliente y un proveedor](finance-consolidate-customer-vendor-balances.md)
 #### [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)
 #### [Cobrar mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Enviar recordatorios de saldos pendientes](receivables-send-reminders.md)
@@ -326,34 +331,13 @@
 ##### [Conciliar pagos que no se pueden liquidar automáticamente](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Asignar texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedores](payables-how-apply-purchase-transactions-manually.md)
+#### [Consolidar saldos para una empresa que es un cliente y un proveedor](finance-consolidate-customer-vendor-balances.md)
 #### [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)
 #### [Cobrar mediante adeudo directo SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Bloquear proveedores](payables-how-block-vendors.md)
 #### [Usar los cargos de productos a cuenta para los costes comerciales adicionales](payables-how-assign-item-charges.md)
 #### [Trabajar con tolerancias de pago y tolerancias de descuentos de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md)
-
-### Administrar documentos electrónicos
-#### [Información general de documentos electrónicos](finance-edocuments-overview.md)
-#### [Configurar documentos electrónicos](finance-how-setup-edocuments.md)
-#### [Usar documentos electrónicos en ventas y compras](finance-how-use-edocuments.md)
-#### [Establecer el conector de documentos electrónicos con puntos de conexión externos](finance-how-setup-edocuments-external.md)
-#### [Ampliar la funcionalidad de documentos electrónicos](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Administrar IVA
-#### [Información general de la administración de IVA](finance-manage-vat.md)
-#### [Transacciones de compra de la UE a terceros](finance-how-to-eu3party-trade-purchase.md)
-#### Configurar IVA
-##### [Configurar impuesto sobre valor añadido](finance-setup-vat.md)
-##### [Configuración de grupo contable](finance-posting-groups.md#tax-posting-groups)
-##### [Configurar el IVA no deducible](finance-setup-nondeductible-vat.md)
-##### [Configurar impuesto sobre valor añadido no realizado](finance-setup-unrealized-vat.md)
-##### [Configurar una declaración de IVA](finance-how-setup-vat-statement.md)
-#### [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)
-#### [Usar IVA no deducible](finance-how-use-non-deductible-vat.md)
-#### [Enviar informes de IVA a las autoridades fiscales](finance-how-report-vat.md)
-#### [Administrar cambios del tipo de IVA](finance-how-use-vat-rate-change-tool.md)
-#### [Validar el CIF/NIF](finance-how-validate-vat-registration-number.md)
 
 ### Facturar prepagos
 #### [Información general de prepagos](finance-invoice-prepayments.md)
@@ -366,13 +350,8 @@
 #### [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)
 #### [Conciliar cuentas bancarias con Copilot (versión preliminar)](bank-reconciliation-with-copilot.md)
 #### [Liquidar pagos automáticamente y conciliar cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Administrar transacciones entre empresas vinculadas
-#### [Información general de empresas vinculadas](intercompany-manage.md)
-#### [Configurar empresas vinculadas](intercompany-how-setup.md)
-#### [Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)
-#### [Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)
-#### [Asignar costes a socios de empresas vinculadas](intercompany-allocate-costs.md)
+#### [Transferir fondos bancarios](bank-how-transfer-bank-funds.md)
+#### [Crear depósitos bancarios](bank-create-bank-deposits.md)
 
 ### Contabilidad de costes
 #### [Información general de contabilidad de costes](finance-manage-cost-accounting.md)
@@ -408,6 +387,8 @@
 ### Administrar el flujo de efectivo
 #### [Información general del flujo de efectivo](finance-cash-flow-overview.md)
 #### [Analizar los flujos de efectivo de la empresa](finance-analyze-cash-flow.md)
+#### [Tutorial: Usar informes financieros para elaborar previsiones del flujo de efectivo](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Cerrar ejercicios y periodos
 #### [Información general del cierre de ejercicio](year-close-years-periods.md)
@@ -424,38 +405,63 @@
 #### [Cerrar cuentas de extracto de ingresos](year-close-income-statement.md)
 #### [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)
 
-### Consolidar los datos financieros de varias empresas
-#### [Consolidación de empresa](finance-consolidated-company-reporting.md)
-#### [Configurar la consolidación de empresa](finance-consolidated-company-reporting-setup.md)
-
-### Trabajar con el plan de cuentas y la contabilidad general
+### Trabajar con el plan de cuentas y la contabilidad general (C/G)
 #### [Entender la contabilidad general y los planes de cuentas](finance-general-ledger.md)
 #### [Consultar cuentas](finance-review-accounts.md)
+#### [Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)
+#### [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)
+#### [Registrar y reembolsar los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)
+#### [Crear presupuestos contables](finance-how-create-budgets.md)
+#### [Exportación de archivo de auditoría](finance-how-to-export-audit-files.md)
+#### [Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)
+#### [Asignar costes e ingresos periódicos](year-allocate-costs-income.md)
+#### [Asignar ingresos y costes a varias cuentas](finance-allocate-revenue-costs.md)
 
-### [Consolidar saldos para una empresa que es un cliente y un proveedor](finance-consolidate-customer-vendor-balances.md)
-### [Trabajar con dimensiones](finance-dimensions.md)
-### [Solucionar problemas y corregir dimensiones](finance-troubleshooting-correcting-dimensions.md)
-### [Divisas en Business Central](finance-currencies.md)
-### [Crear presupuestos contables](finance-how-create-budgets.md)
-### [Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)
-### [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)
-### [Exportación de archivo de auditoría](finance-how-to-export-audit-files.md)
-### [Registrar y reembolsar los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)
-### [Fraccionar ingresos y gastos](finance-how-defer-revenue-expenses.md)
-### [Asignar costes e ingresos periódicos](year-allocate-costs-income.md)
-### [Asignar ingresos y costes a varias cuentas](finance-allocate-revenue-costs.md)
-### [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)
-### [Importar transacciones de nómina](finance-how-import-payroll-transactions.md)
-### [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)
-### [Crear informes de IVA para las autoridades fiscales](finance-how-report-vat.md)
-### [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)
-### [Administrar cambios del tipo de IVA](finance-how-use-vat-rate-change-tool.md)
-### [Tutorial: Usar informes financieros para elaborar previsiones del flujo de efectivo](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Analizar estados financieros en Excel](finance-analyze-excel.md)
-### [Transferir fondos bancarios](bank-how-transfer-bank-funds.md)
-### [Crear depósitos bancarios](bank-create-bank-deposits.md)
-### [Experiencias contables en Business Central](finance-accounting.md)
+### Trabajar con dimensiones.
+#### [Información general de las dimensiones](finance-dimensions.md)
+#### [Solucionar problemas y corregir dimensiones](finance-troubleshooting-correcting-dimensions.md)
+#### [Importar transacciones de nómina](finance-how-import-payroll-transactions.md)
+
+### Trabajar con divisas
+#### [Divisas en Business Central](finance-currencies.md)
+#### [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)
+
+### Trabajar con IVA
+#### [Información general de la administración de IVA](finance-manage-vat.md)
+#### [Transacciones de compra de la UE a terceros](finance-how-to-eu3party-trade-purchase.md)
+#### Configurar IVA
+##### [Configurar impuesto sobre valor añadido](finance-setup-vat.md)
+##### [Configuración de grupo contable](finance-posting-groups.md#tax-posting-groups)
+##### [Configurar el IVA no deducible](finance-setup-nondeductible-vat.md)
+##### [Configurar impuesto sobre valor añadido no realizado](finance-setup-unrealized-vat.md)
+##### [Configurar una declaración de IVA](finance-how-setup-vat-statement.md)
+#### [Trabajar con el IVA por ventas y compras](finance-work-with-vat.md)
+#### [Usar IVA no deducible](finance-how-use-non-deductible-vat.md)
+#### [Enviar informes de IVA a las autoridades fiscales](finance-how-report-vat.md)
+#### [Administrar cambios del tipo de IVA](finance-how-use-vat-rate-change-tool.md)
+#### [Validar el CIF/NIF](finance-how-validate-vat-registration-number.md)
+#### [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)
+
+### Configurar y utilizar documentos electrónicos
+#### [Información general de documentos electrónicos](finance-edocuments-overview.md)
+#### [Configurar documentos electrónicos](finance-how-setup-edocuments.md)
+#### [Usar documentos electrónicos en ventas y compras](finance-how-use-edocuments.md)
+#### [Establecer el conector de documentos electrónicos con puntos de conexión externos](finance-how-setup-edocuments-external.md)
+#### [Ampliar la funcionalidad de documentos electrónicos](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### [Organizaciones internacionales y de múltiples sitios](finance-multi-site-organizations.md)
+#### Consolidar los datos financieros de varias empresas
+##### [Consolidación de empresa](finance-consolidated-company-reporting.md)
+##### [Configurar la consolidación de empresa](finance-consolidated-company-reporting-setup.md)
+#### Administrar transacciones entre empresas vinculadas
+##### [Información general de empresas vinculadas](intercompany-manage.md)
+##### [Configurar empresas vinculadas](intercompany-how-setup.md)
+##### [Usar documentos y diarios de empresas vinculadas](intercompany-how-work-documents-journals.md)
+##### [Administrar la bandeja de entrada y la bandeja de salida de empresas vinculadas](intercompany-how-manage-intercompany-inbox.md)
+##### [Asignar costes a socios de empresas vinculadas](intercompany-allocate-costs.md)
+
+### [Experiencias contables en Business Central](finance-accounting.md)
+
 
 ## Inteligencia empresarial e informes financieros
 ### [Información general de la inteligencia empresarial y los informes financieros](bi.md)
@@ -466,8 +472,11 @@
 ### [Configurar y publicar un servicio web KPI basado en informes financieros](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)
 ### [Crear informes de análisis](bi-how-create-analysis-views-reports.md)
+### [Analizar estados financieros en Excel](finance-analyze-excel.md)
 ### [Crear informes con XBRL](bi-create-reports-with-xbrl.md)
 ### [Administrar intento de acceso a bases de datos](admin-data-access-intent.md)
+### [Tutorial: Usar informes financieros para elaborar previsiones del flujo de efectivo](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Venta
 ### [Información general de ventas](sales-manage-sales.md)
@@ -874,9 +883,13 @@
 
 ### Dinamarca
 #### [Funcionalidad local en la versión danesa](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### [Notificación y registro en el NemHandelsregisteret de Dinamarca](localfunctionality/denmark/how-to-nemhandel-register.md)
-#### [Configurar la facturación electrónica con NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### Cumplimiento
 #### [Conservar los datos transaccionales durante cinco años en Dinamarca](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Configurar comprobantes digitales en Dinamarca](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Auditoría
+##### [Exportar el formato de archivo de auditoría SAF-T en Dinamarca](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Plan de cuentas público estándar en Dinamarca](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Exportar datos contables a Regnskab Basis en Dinamarca](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### IVA
 ##### [Imprimir informes de conciliación de IVA](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Informes IVA-VIES](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -890,11 +903,11 @@
 ##### [Configurar clientes para OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Configurar la facturación electrónica de OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [Extensión de OIOUBL para la facturación electrónica](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Crear documentos electrónicos en formato OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+##### [Crear documentos electrónicos en formato OIOUBL](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Notificación y registro en el NemHandelsregisteret de Dinamarca](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Configurar la facturación electrónica con NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Nómina
 ##### [Definiciones de datos de nóminas (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-#### Comprobantes digitales
-##### [Configurar comprobantes digitales en Dinamarca](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finlandia
 #### [Funcionalidad local en la versión finlandesa](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1832,19 +1845,6 @@
 #### [Guía de desarrollo de informes](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Guía de ajuste del rendimiento de los informes](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-# Copilot y capacidades de IA
-## Administrar Copilot y capacidades de IA
-### [Configurar Copilot y capacidades de IA](enable-ai.md)
-### [Movimiento de datos de Copilot entre zonas geográficas](ai-copilot-data-movement.md)
-### [Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)
-## Asistencia de conciliación de cuentas bancarias (versión preliminar)
-### [Conciliar cuentas bancarias con Copilot](bank-reconciliation-with-copilot.md)
-### [Preguntas frecuentes para la asistencia de conciliación bancaria](faqs-bank-reconciliation.md)
-## Sugerencias de texto de marketing
-### [Resumen de sugerencias de texto de marketing](ai-overview.md)
-### [Crear texto de marketing con Copilot](item-marketing-text.md)
-### [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)
-
 # Seguridad, cumplimiento y privacidad
 ## Seguridad y protección
 ### [Información general de seguridad y protección (solo en inglés)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -2023,6 +2023,18 @@
 ## [Seguridad y protección](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Rendimiento](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Características quitadas o en desuso](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot y capacidades de IA
+## Administrar Copilot y capacidades de IA
+### [Configurar Copilot y capacidades de IA](enable-ai.md)
+### [Movimiento de datos de Copilot entre zonas geográficas](ai-copilot-data-movement.md)
+### [Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)
+## Asistencia de conciliación de cuentas bancarias (versión preliminar)
+### [Conciliar cuentas bancarias con Copilot](bank-reconciliation-with-copilot.md)
+### [Preguntas frecuentes para la asistencia de conciliación bancaria](faqs-bank-reconciliation.md)
+## Sugerencias de texto de marketing
+### [Resumen de sugerencias de texto de marketing](ai-overview.md)
+### [Crear texto de marketing con Copilot](item-marketing-text.md)
+### [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)
 # IA responsable
 ## [Información general](responsible-ai-overview.md)
 ## [Preguntas frecuentes para la asistencia de conciliación bancaria (versión preliminar)](faqs-bank-reconciliation.md)

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Cuando introduce fechas y horas, que son una fecha y una hora combinadas en un campo, debe introducir un espacio entre la fecha y la hora. La parte de la fecha solo puede contener espacios en la forma del separador de fecha oficial de la configuración de su región. El tiempo puede contener espacios alrededor del indicador AM/PM en la configuración regional correspondiente.
 
