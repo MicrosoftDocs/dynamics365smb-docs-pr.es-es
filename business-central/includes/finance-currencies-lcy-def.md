@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Las empresas trabajan en más países o regiones, por lo que es vital que puedan intercambiar y generar información financiera en más de una divisa. La divisa local (DL) se define en la página **Configuración de contabilidad** como se describe en el artículo [Descripción de contabilidad y plan de cuentas](../finance-general-ledger.md). Una vez que se ha definido la divisa local (DL), se representará como una divisa en blanco, por lo que cuando el campo **Divisa** esté vacío, significa que la divisa es DL.  
 

@@ -3,9 +3,7 @@ title: Editar documentos de venta y compra registrados
 description: Este tema explica cómo actualizar la información en un documento registrado como envío de ventas o factura de compra cuando la información relevante ha cambiado.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
 ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'

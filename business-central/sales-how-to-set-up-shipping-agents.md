@@ -3,9 +3,7 @@ title: Cómo configurar transportistas
 description: Aprenda a configurar un código para cada uno de sus transportistas e ingrese información descriptiva sobre cada uno de ellos y los servicios que brindan.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

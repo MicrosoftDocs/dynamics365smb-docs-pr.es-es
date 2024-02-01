@@ -3,9 +3,7 @@ title: Adeudo directo SEPA en Business Central
 description: 'Con el consentimiento de sus clientes, puede cobrar los pagos directamente al banco del cliente según el formato SEPA.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '371, 423, 424, 427, 1208, 1207, 1230'
 ms.date: 06/16/2021
 ms.author: bholtorf

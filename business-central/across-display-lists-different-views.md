@@ -3,9 +3,7 @@ title: Ajustar la cantidad de detalle que se ve en las listas
 description: Puede mostrar listas como filas detalladas que proporcionen el máximo de información o como mosaicos que sean fáciles de analizar visualmente y puede incluir miniaturas de imágenes.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021

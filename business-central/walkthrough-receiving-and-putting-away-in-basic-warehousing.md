@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Tutorial: recepción y ubicación en la configuración del almacenamiento básico
+# Tutorial: recepción y ubicación en la configuración del almacenamiento básico
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], la recepción y la ubicación se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
@@ -23,7 +24,7 @@ Obtenga más información en [Flujo de entrada en almacén](design-details-inbou
 
 En el siguiente tutorial se demuestra el método B de la tabla anterior.  
 
-## <a name="about-this-walkthrough"></a>Acerca de este tutorial
+## Acerca de este tutorial  
 
 En la configuración básica de almacén, donde el almacén está configurado para requerir proceso de ubicación, pero no de recepción, utiliza la página **Ubicación existencias** para registrar la información de ubicación y recepción de los documentos de origen entrantes. Los siguientes documentos son documentos de origen de entrada:
 
@@ -50,7 +51,7 @@ En este tutorial, se demuestran las siguientes tareas:
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## <a name="roles"></a>Roles
+## Roles  
 
 Los siguientes roles de usuario realizan las tareas que este tutorial demuestra:  
 
@@ -58,7 +59,7 @@ Los siguientes roles de usuario realizan las tareas que este tutorial demuestra:
 * Agente de compras  
 * Trabajador de almacén  
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos  
 
 Para completar este tutorial, necesitará:  
 
@@ -70,15 +71,15 @@ Para completar este tutorial, necesitará:
     3. En el campo **LCód. almacén**, especifique **PLATA**.  
     4. Seleccione la casilla de verificación **Predeterminado**.  
 
-## <a name="story"></a>Historia
+## Historia  
 
 Ellen, administradora del almacén en CRONUS España S.A., crea un pedido de compra de 10 unidades del producto LS-75 y 30 unidades del producto LS-81 del proveedor 10000 para su entrega al almacén PLATA. Cuando la entrega llega al almacén, Juan, el trabajador del almacén, coloca los productos en las ubicaciones predeterminadas definidas para los productos. Cuando Juan registra la ubicación, los productos se registran como recibidos en el inventario y estarán disponibles para la venta u otra demanda.  
 
-## <a name="setting-up-the-location"></a>Configuración del almacén
+## Configuración del almacén  
 
 La configuración de la página **Ficha almacén** define los flujos de almacén de la empresa.  
 
-### <a name="to-set-up-the-location"></a>Configurar el almacén
+### Configurar el almacén  
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2. Abra la ficha de almacén PLATA.  
@@ -95,11 +96,11 @@ La configuración de la página **Ficha almacén** define los flujos de almacén
 7. Seleccione los campos **Fijo** y **Predet.**.  
 8. En el campo **Nº producto**, introduzca **LS-81**.  
 
-## <a name="create-the-purchase-order"></a>Crear el pedido de compra
+## Crear el pedido de compra  
 
 Los pedidos de compra son el tipo más común de documento de origen de entrada.  
 
-### <a name="to-create-the-purchase-order"></a>Crear el pedido de compra
+### Crear el pedido de compra  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -119,11 +120,11 @@ Los pedidos de compra son el tipo más común de documento de origen de entrada.
 
     La entrega de los altavoces del proveedor 10000 ha llegado al almacén PLATA y Juan comienza a guardarlos en su ubicación.  
 
-## <a name="receive-and-put-the-items-away"></a>Recibir y establecer la ubicación de los productos
+## Recibir y establecer la ubicación de los productos  
 
 Use la página **Ubicación existencias** para administrar todas las actividades de almacén de entrada para un documento de origen determinado, como un pedido de compra.  
 
-### <a name="to-receive-and-put-the-items-away"></a>Recibir y establecer la ubicación de los productos
+### Recibir y establecer la ubicación de los productos  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicación de inventario** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -140,7 +141,7 @@ Use la página **Ubicación existencias** para administrar todas las actividades
 
     Los 40 altavoces ahora se registran como en ubicaciones en la ubicación S-01-0001, y un movimiento de producto positivo se crea para reflejar la recepción de compra registrada.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 
 [Ubicar productos con ubicación de inventario](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Configurar almacenes básicos con áreas de operaciones](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

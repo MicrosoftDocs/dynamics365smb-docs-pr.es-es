@@ -3,9 +3,7 @@ title: Ver las instancias de paso de flujo de trabajo archivadas
 description: Todas las instancias de paso de flujo de trabajo completada se guardan en la página Instancias de paso de flujo de trabajo archivadas. Cada paso consta de un evento de flujo de trabajo y una respuesta de flujo de trabajo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1530,'
 ms.date: 09/09/2022

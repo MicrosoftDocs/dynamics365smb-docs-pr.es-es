@@ -3,9 +3,7 @@ title: Sincronización manual de asignaciones de tablas | Documentos de Microsof
 description: La sincronización copia los datos entre tablas de Microsoft Dataverse y Business Central para mantener actualizados ambos sistemas.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.date: 04/01/2021
 ms.author: bholtorf

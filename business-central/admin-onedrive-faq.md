@@ -3,9 +3,7 @@ title: Preguntas más frecuentes de OneDrive para la Empresa
 description: Obtenga respuestas a algunas preguntas típicas sobre cómo trabajar con OneDrive para la Empresa y Business Central.
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'OneDrive, integration, share, browser'
 ms.date: 09/09/2022
 ms.author: bholtorf

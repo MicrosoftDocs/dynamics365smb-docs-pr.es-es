@@ -7,9 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/25/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="compliance-overview"></a>Información general sobre cumplimiento
+# Información general sobre cumplimiento
 
 En este contenido se incluye información acerca de la conformidad en relación con [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

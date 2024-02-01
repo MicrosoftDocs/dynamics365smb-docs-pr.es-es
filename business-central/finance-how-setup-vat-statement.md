@@ -3,9 +3,7 @@ title: Configurar una nueva declaración de IVA
 description: Este tema le explica cómo configurar una plantilla de declaración de IVA y nombres de declaración de IVA para cumplir los cambiantes requisitos de la autoridad fiscal.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '317, 318, 320, 474'
 ms.date: 06/16/2021

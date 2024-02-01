@@ -4,9 +4,7 @@ description: 'Obtenga información sobre cómo un ambiente dedicado puede ayudar
 author: brentholtorf
 ms.topic: conceptual
 ms.reviewer: bholtorf
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: bholtorf

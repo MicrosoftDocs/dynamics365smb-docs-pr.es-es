@@ -3,9 +3,7 @@ title: Inicio rápido Información empresa
 description: Aprenda a completar los primeros campos críticos sobre su empresa en Business Central leyendo este artículo de Inicio rápido.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: '1,'
 ms.date: 03/14/2022

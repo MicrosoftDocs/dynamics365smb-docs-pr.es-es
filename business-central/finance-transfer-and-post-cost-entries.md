@@ -3,9 +3,7 @@ title: Transferencia y registro de movimientos de coste
 description: 'Antes de definir asignaciones de coste, debe entender los distintos orígenes de dónde provienen los movimientos de coste.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
 ms.date: 06/16/2021
 ms.author: bholtorf

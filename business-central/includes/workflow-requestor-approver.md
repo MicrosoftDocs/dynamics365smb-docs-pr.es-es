@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Cuando configure usuarios para los flujos de trabajo de aprobación, es importante que un mismo usuario no sea a la vez solicitante y aprobador en un grupo de usuarios de un flujo de trabajo. Cuando un usuario es solicitante y aprobador, las aprobaciones funcionan para él de la siguiente manera:

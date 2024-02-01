@@ -3,9 +3,7 @@ title: Administrar configuraciones guardadas para informes y trabajos por lotes
 description: Describe cómo el administrador puede configurar opciones y filtros predefinidos para un informe y compartir esa configuración con uno o todos los usuarios.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customization, personalization'
 ms.date: 12/21/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Optimizar Outlook para su bandeja de entrada de empresa
 description: Obtenga información sobre las cosas que puede hacer para mejorar la experiencia con la bandeja de entrada de empresa en Microsoft Outlook.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in'
 ms.date: 12/06/2023
 ms.author: jswymer

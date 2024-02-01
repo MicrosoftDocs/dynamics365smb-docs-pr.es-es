@@ -3,9 +3,7 @@ title: Establecer el diseño de informe
 description: Aprenda a configurar el diseño que se usa en un informe al obtener una vista previa e imprimir.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9652, 9650'
 ms.date: 08/12/2022

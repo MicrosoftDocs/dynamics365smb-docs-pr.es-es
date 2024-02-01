@@ -3,9 +3,7 @@ title: Utilizar un flujo de Power Automate para sincronizar a tiempo cambios de 
 description: Aprenda a crear un flujo en Power Automate que le avisará cuando cambie una entidad en el entorno de Dataverse.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Power Automate, Flow, Dataverse'
 ms.search.form: null
 ms.date: 09/05/2022

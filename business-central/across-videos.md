@@ -3,9 +3,7 @@ title: Visite nuestra biblioteca de vídeos
 description: 'Visite nuestra biblioteca de vídeos para obtener ayuda, desde vídeos de introducción que ilustran tareas comunes de "cómo hacer" hasta vídeos de productos temáticos.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'video, library, how to'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/11/2021

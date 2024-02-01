@@ -3,9 +3,7 @@ title: Configurar términos interés
 description: Obtenga información sobre cómo configurar Business Central para poder informar a los clientes de los cargos adicionales mediante el envío de notas de cargos financieros.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge'
 ms.search.form: '6, 494'
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: Resumen de contabilidad para costes
 description: La contabilidad de costes puede ayudarle a conocer los costes de la dirección de una empresa. Este artículo proporciona enlaces a otros artículos con más información.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 04/01/2021

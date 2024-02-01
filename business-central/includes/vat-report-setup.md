@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/11/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 1. Elija el icono ![Bombilla que abre la función Dígame 0.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración del informe de IVA** y luego elija el enlace relacionado.  
 2. Para permitir que los usuarios cambien y vuelvan a enviar este informe, elija el campo **Permitir modificación**.  

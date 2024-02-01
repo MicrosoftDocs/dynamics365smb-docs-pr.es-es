@@ -3,12 +3,11 @@ title: Usar Business Central sin Outlook
 description: 'Si no tiene Outlook, no puede utilizar Business Central como su bandeja de entrada de empresa en Outlook, pero puede trabajar en un navegador o en su dispositivo móvil.'
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 12/11/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Usar Business Central sin Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] tiene una integración profunda con Microsoft 365 y puede usar [!INCLUDE[prod_short](includes/prod_short.md)] como su bandeja de entrada de empresa en Outlook. Pero si no tiene Outlook, puede trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] en el navegador o en su dispositivo móvil.  

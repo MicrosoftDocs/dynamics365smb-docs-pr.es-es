@@ -3,9 +3,7 @@ title: Usar la extensión PayPal Payments Standard
 description: Este artículo describe cómo utilizar la extensión estándar para permitir a clientes realizar pagos con PayPal.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 12/12/2023

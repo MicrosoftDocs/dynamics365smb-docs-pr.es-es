@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Los usuarios de [!INCLUDE[prod_short](prod_short.md)] a veces admiten a más de un departamento o suborganización dentro de una unidad de negocio. Por ejemplo, una empresa puede tener oficinas de ventas en distintas ciudades y múltiples países o regiones, por lo que ha creado una unidad de negocios separada para cada oficina. Las oficinas que se encuentran en el mismo país o región se configuran como *empresas* separadas en un *entorno* compartido. Otras oficinas se crean como empresas en entornos separados porque tienen su base geográfica en otros países o regiones.
 

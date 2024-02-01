@@ -3,9 +3,7 @@ title: Números de documento externo en documentos de compra
 description: Puede incluir información sobre los números que sus proveedores asignan a los documentos que le envían mediante el campo N.º documento externo o el campo Su referencia. Conozca la diferencia entre los dos campos aquí.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 05/27/2021
 ms.author: bholtorf

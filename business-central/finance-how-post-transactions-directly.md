@@ -3,9 +3,7 @@ title: Registrar gastos o ingresos directamente en contabilidad
 description: Para las actividades empresariales que no está representadas por un documento puede crear las transacciones relacionadas registrando líneas de diario en la página Diario general.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'direct posting, general ledger'
 ms.search.form: '39, 251'
 ms.date: 06/16/2021

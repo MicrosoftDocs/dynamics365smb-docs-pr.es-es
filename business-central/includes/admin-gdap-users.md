@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Es posible que vea a otros usuarios en la lista **Usuarios** aparte de los de su propia empresa. Cuando un administrador delegado de una empresa asociada distribuidora inicia sesión en un entorno de [!INCLUDE [prod_short](prod_short.md)] en nombre de su cliente, se crea automáticamente como un usuario dentro [!INCLUDE [prod_short](prod_short.md)]. De esta forma, las acciones realizadas por un administrador delegado quedan registradas en [!INCLUDE [prod_short](prod_short.md)], como la publicación de documentos, y asociados con su id. de usuario.  
 

@@ -1,2 +1,5 @@
+---
+ms.service: dynamics-365-business-central
+---
 - Arrastre el archivo desde el explorador de archivos de su dispositivo hasta el cuadro de diálogo.
 - Seleccione el vínculo **haga clic aquí para navegar**, busque el archivo y luego seleccione el botón **Abrir**.

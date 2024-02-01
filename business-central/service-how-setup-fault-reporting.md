@@ -3,9 +3,7 @@ title: Configurar informes de defectos en gestión de servicios
 description: El informe de defectos le permite configurar estándares para registrar información de defectos de productos de servicio con códigos de defectos y más.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

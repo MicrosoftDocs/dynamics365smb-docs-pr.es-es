@@ -3,9 +3,7 @@ title: Configurar áreas de aplicación complejas mediante procedimientos recome
 description: Es importante introducir los valores de configuración correctos desde el principio para el éxito de cualquier nuevo software de negocio.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

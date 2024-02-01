@@ -3,6 +3,7 @@ author: andreipanko
 ms.topic: include
 ms.date: 05/31/2023
 ms.author: andreipa
+ms.service: dynamics-365-business-central
 ---
 
 Para usar los datos de demostración de Contoso Coffee, debe instalar dos aplicaciones en la empresa correspondiente en [!INCLUDE [prod_short](../includes/prod_short.md)]:  <br><br>

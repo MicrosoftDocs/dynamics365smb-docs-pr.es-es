@@ -3,9 +3,7 @@ title: Resumen de tareas para la prestación del servicio | Documentos de Micros
 description: Describe las tareas para asegurarse de que se entrega un servicio de calidad y se cumplen los acuerdos con los clientes.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: bholtorf

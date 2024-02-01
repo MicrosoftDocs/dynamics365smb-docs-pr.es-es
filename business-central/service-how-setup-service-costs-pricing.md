@@ -3,9 +3,7 @@ title: Configurar precios y costes de servicios
 description: 'Aprenda a utilizar las funciones de precios para configurar y personalizar su aplicación de modo que aplique y ajuste precios sobre productos de servicio, reparaciones y pedidos.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, cost, service order'
 ms.date: 06/25/2021
 ms.author: bholtorf

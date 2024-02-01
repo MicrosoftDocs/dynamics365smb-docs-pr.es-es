@@ -3,9 +3,7 @@ title: Crear una oferta de compra para solicitar una oferta
 description: Describe cómo crear una oferta de venta o un documento de solicitud de oferta (RFQ) para registrar la oferta a un cliente para vender productos con determinadas condiciones.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022

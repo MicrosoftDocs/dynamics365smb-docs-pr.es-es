@@ -3,14 +3,13 @@ title: Mostrar informes de Power BI personalizados
 description: Puedes usar Power BI FactBox para mostrar informes de Power BI y obtener información adicional sobre los datos de los registros en las listas clave.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 06/11/2021
+ms.date: 12/13/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
+# Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] incluye un elemento de control de cuadro informativo de Power BI en muchas páginas de lista clave. El objetivo de este cuadro informativo es mostrar informes de Power BI relacionados con los registros de las listas, lo que ofrece más información sobre los datos. La idea es que a, medida que se desplaza por las filas de la lista, el informe se actualice para la entrada seleccionada.
 
@@ -19,7 +18,7 @@ ms.author: jswymer
 > [!NOTE]
 > Para obtener información general sobre la creación y la publicación de informes de Power BI para Business Central, consulte [Creación de informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos
 
 - Una cuenta de Power BI.
 - Power BI Desktop.
@@ -27,7 +26,7 @@ ms.author: jswymer
 <!-- 
 For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## <a name="create-a-report-for-a-list-page"></a>Crear un informe para una página de lista
+## Crear un informe para una página de lista
 
 1. Inicie Power BI Desktop.
 2. Seleccione **Obtener datos** y comience a elegir el origen de datos para el informe.
@@ -75,7 +74,7 @@ For more information about getting started, see [Use [!INCLUDE[prod_short](inclu
 
     Si está diseñado correctamente, se muestra el informe.  
 
-## <a name="set-the-report-size-and-color"></a>Configurar el tamaño y el color del informe
+## Configurar el tamaño y el color del informe
 
 El tamaño del informe se debe configurar en 325 píxeles por 310 píxeles. Este tamaño proporciona el escalado correcto del informe en el espacio disponible del control del cuadro informativo de Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]. Para definir el tamaño del informe, coloque el enfoque fuera del área de diseño de informe y, a continuación, elija el icono de rodillo de pintura.
 
@@ -88,35 +87,35 @@ Si desea que el fondo del informe se mezcle con el color de fondo del control de
 > [!TIP]
 > Use el archivo de tema [!INCLUDE [prod_short](includes/prod_short.md)] para crear informes con el mismo estilo de color que las aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar el tema de informe de [!INCLUDE [prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-powerbi.md#theme).
 
-## <a name="reports-with-multiple-pages"></a>Informes con varias páginas
+## Informes con varias páginas
 
-Con Power BI, puede crear un solo informe con varias páginas. Sin embargo, para los informes que se mostrarán con páginas de lista, no recomendamos que tengan más de una página. El cuadro informativo de Power BI solo mostrará la primera página de su informe.
+Con Power BI, puede crear un solo informe con varias páginas. Sin embargo, para los informes que se muestran con páginas de lista, no recomendamos que tengan más de una página. El cuadro informativo de Power BI solo muestra la primera página de su informe.
 
-## <a name="fixing-problems"></a>Solucionar problemas
+## Solucionar problemas
 
 En esta sección se explica cómo solucionar los problemas que puede encontrar al intentar ver un informe de Power BI para una página de lista en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>No puede ver el cuadro informativo de Power BI en una página de lista
+### No puede ver el cuadro informativo de Power BI en una página de lista
 
 De forma predeterminada, el cuadro informativo de Power BI está oculto a la vista. Para mostrar el cuadro informativo en una página, en la barra de acciones, seleccione **Acciones** > **Mostrar** > **Mostrar/ocultar informes de Power BI**.
 
-### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>No puede ver el informe en el panel Seleccionar informe
+### No puede ver el informe en el panel Seleccionar informe
 
 El nombre del informe no contiene el nombre de la página de la lista que se muestra. Borre el filtro para obtener una lista completa de los informes de Power BI disponibles.  
 
-### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>El informe está cargado pero en blanco, no filtrado o filtrado incorrectamente
+### El informe está cargado pero en blanco, no filtrado o filtrado incorrectamente
 
 Verifique que el filtro de informes contenga la clave principal correcta. En la mayoría de los casos, este campo es **Nº**, pero en la tabla **Mov. contabilidad**, por ejemplo, debe usar el campo **Nº mov.**.
 
-### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>El informe está cargado, pero muestra una página que no esperaba
+### El informe está cargado, pero muestra una página que no esperaba
 
 Verifique que la página que desea que se muestre es la primera página de su informe.  
 
-### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>El informe aparecerá con un borde gris no deseado o es demasiado pequeño o demasiado grande
+### El informe aparecerá con un borde gris no deseado o es demasiado pequeño o demasiado grande
 
 Compruebe que el tamaño del informe se ha configurado en 325 píxeles x 310 píxeles. Guarde el informe y, a continuación, actualice la página de listas.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Habilitar los datos de negocio para Power BI](admin-powerbi.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  

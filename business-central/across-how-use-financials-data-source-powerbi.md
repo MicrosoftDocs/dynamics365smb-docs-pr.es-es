@@ -3,9 +3,7 @@ title: Creación de informes en Power BI Desktop para mostrar datos de Business 
 description: Haga que los datos estén disponibles como origen de datos en Power BI y generar informes eficaces del estado de la empresa.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
 ms.date: 09/07/2022
 ms.author: jswymer

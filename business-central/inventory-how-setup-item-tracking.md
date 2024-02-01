@@ -3,9 +3,7 @@ title: 'Configurar el seguimiento de productos con números de serie, de lote y 
 description: 'Configurar el seguimiento de productos con números de serie, de lote y de paquete'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: bholtorf

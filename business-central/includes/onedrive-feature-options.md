@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 |Opción|Descripción|
 |------|----------|
 |**Usar OneDrive para las características de la aplicación**|Si activa esta opción, las acciones **Abrir en OneDrive** y **Compartir** estarán disponibles en archivos de Business Central como archivos adjuntos a documentos o en la bandeja de entrada de informes. Estas acciones permiten a los usuarios copiar, abrir y compartir archivos en OneDrive. <ul><li>Funciones de Business Central que almacenan o capturan documentos y otros archivos, y ofrecen acciones Abrir en OneDrive y Compartir para sacar esos archivos de Business Central, como Documentos entrantes y archivos adjuntos de registros.</li><li>Funciones de línea de negocio que generan libros de Excel personalizados, como presupuestos de ventas.</li><li>Informes enviados a la bandeja de entrada de informes</li><li>Si ha instalado personalizaciones o extensiones, estas pueden agregar más funciones que usan OneDrive.</li></ul>Para obtener más información, consulte [Abrir y compartir archivos de Business Central en OneDrive](../across-share-onedrive.md).

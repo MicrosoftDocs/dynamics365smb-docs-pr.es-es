@@ -3,9 +3,7 @@ title: Intercambio de datos
 description: 'Intercambie documentos comerciales electrónicos, por ejemplo, archivos bancarios, entre Business Central y terceros.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'exchange data, external files, electronic documents, AMC Banking, OCT, SEPA'
 ms.date: 06/10/2021
 ms.author: bholtorf

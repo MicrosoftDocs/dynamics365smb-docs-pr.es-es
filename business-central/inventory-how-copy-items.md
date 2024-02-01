@@ -3,9 +3,7 @@ title: Cómo copiar productos existentes en productos nuevos
 description: 'Al añadir un nuevo producto, para ahorrar tiempo, puede utilizar la función Copiar producto para copiar un producto existente y utilizarlo como plantilla para un nuevo producto.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021

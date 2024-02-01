@@ -3,9 +3,7 @@ title: Analizar importes reales frente a importes presupuestados
 description: 'Este artículo describe cómo analizar los importes reales frente a los importes presupuestados como un medio para recopilar, analizar y compartir los datos de su empresa.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022

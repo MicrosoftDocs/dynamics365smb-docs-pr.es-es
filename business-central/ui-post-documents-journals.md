@@ -3,14 +3,13 @@ title: Registrar documentos y diarios
 description: Este tema describe las acciones de registro y las formas en que puede registrar documentos y diarios en los distintos libros de contabilidad de la empresa.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="posting-documents-and-journals"></a>Registrar documentos y diarios
+# Registrar documentos y diarios
 
 Registrar representa la acción contable de registrar transacciones empresariales en extractos de varias empresas.
 
@@ -27,7 +26,7 @@ En la tabla siguiente se describen tareas relacionadas con vínculos a los temas
 | Obtenga una vista previa, en una página, de las entradas que se crearán al registrar. |[Vista previa de los resultados del registro](ui-how-preview-post-results.md) |
 | Obtenga una vista previa, en un informe, de las entradas que se crearán al registrar. |[Ver informes de prueba antes de realizar el registro](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Editar documentos registrados](across-edit-posted-document.md)  
 [Buscar entradas relacionadas para documentos registrados](ui-find-entries.md)  

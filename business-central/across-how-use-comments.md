@@ -3,9 +3,7 @@ title: Agregar comentarios a las fichas y documentos
 description: 'Añada información adicional a las cuentas, fichas de clientes o pedidos de ventas para comunicar acuerdos, como un precio especial o un método de entrega, a otros usuarios.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '124, 30'
 ms.date: 04/01/2021

@@ -5,8 +5,9 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Preguntas frecuentes sobre el uso de Business Central
 summary: |
   Esta sección contiene las respuestas de las preguntas más frecuentes sobre el inicio de sesión en una versión de prueba, la adquisición de una suscripción y el uso de [!INCLUDE[prod_short](includes/prod_short.md)]. También puede obtener información sobre cómo obtener asistencia técnica.  
@@ -22,7 +23,7 @@ sections:
         answer: |
           Puede registrarse para obtener una versión de prueba y explorar [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Si necesita más tiempo para explorar, [puede ampliar su periodo de prueba](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          Para ayudarle a empezar a hacer negocios en [!INCLUDE[prod_short](includes/prod_short.md)], puede iniciar guías de configuración asistida, vídeos o temas de ayuda para determinadas tareas de configuración. Obtenga más información en [Preparación para hacer negocios](ui-get-ready-business.md).  
+          Para ayudarle a empezar a hacer negocios en [!INCLUDE[prod_short](includes/prod_short.md)], puede iniciar guías de configuración asistida, vídeos o artículos de ayuda para determinadas tareas de configuración. Obtenga más información en [Preparación para hacer negocios](ui-get-ready-business.md).  
 
           Cuando esté preparado para adquirir [!INCLUDE[prod_short](includes/prod_short.md)], puede encontrar un socio de [!INCLUDE[prod_short](includes/prod_short.md)] en la página [Estoy buscando un proveedor de soluciones](https://go.microsoft.com/fwlink/?linkid=2038145). Obtenga más información en [¿Cómo encuentro un socio distribuidor?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -44,7 +45,7 @@ sections:
       - question: |
           ¿Existen diferencias entre una implementación local y Business Central Online?
         answer: |
-          Sí. [!INCLUDE [prod_short](includes/prod_short.md)] está optimizado para una implementación en línea y algunas funcionalidades pueden ejecutarse localmente solo en algunas circunstancias, mientras que otras no son compatibles en absoluto. Obtenga más información en [Características no implementadas en implementaciones locales de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (solo disponible en inglés).
+          Sí. [!INCLUDE [prod_short](includes/prod_short.md)] está optimizado para una implementación en línea y algunas funcionalidades podrían ejecutarse localmente solo en algunas circunstancias, mientras que otras no son compatibles en absoluto. Obtenga más información en [Características no implementadas en implementaciones locales de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (solo disponible en inglés).
       - question: |
           ¿Puedo recibir formación en Business Central?
         answer: |
@@ -55,13 +56,13 @@ sections:
           La comunidad de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona más contenido, como la [Guía de campo de Microsoft Dynamics 365 Business Central](https://leanpub.com/dynamics), que la ha elaborado un socio.  
       - question: ¿Cómo obtengo soporte técnico para Business Central?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] se vende a través de socios y debe ponerse en contacto con su socio distribuidor para obtener ayuda con problemas técnicos. Si su socio de [!INCLUDE[prod_short](includes/prod_short.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
+          [!INCLUDE[prod_short](includes/prod_short.md)] se vende a través de socios y debe ponerse en contacto con su socio distribuidor para obtener ayuda con problemas técnicos. Si su partner de [!INCLUDE[prod_short](includes/prod_short.md)] no puede resolver el problema, generará un vale de soporte técnico con Microsoft.  
 
           Obtenga más información en [Ayuda y soporte técnico](product-help-and-support.md) y en la sección [¿Cómo encuentro un socio distribuidor?](#how-do-i-find-a-reselling-partner).  
       - question: |
           ¿Dónde se encuentra el botón Guardar?
         answer: |
-          No hay ningún botón *Guardar* en las páginas como en otros programas con los que pueda estar familiarizado. En [!INCLUDE[prod_short](includes/prod_short.md)], los cambios realizados en un campo se guardan automáticamente en cuanto se traslada al siguiente campo o cierra la página, mientras no haya errores. Al realizar cambios en un campo y pasar a otro, verá el texto **Guardando** en la esquina superior derecha de la página. Cambiará a **Guardado** rápidamente si no se producen errores. Si se produce un error, el texto cambiará **No guardado**.  
+          No hay ningún botón *Guardar* en las páginas como en otros programas con los que pueda estar familiarizado. En [!INCLUDE[prod_short](includes/prod_short.md)], los cambios realizados en un campo se guardan automáticamente en cuanto se traslada al siguiente campo o cierra la página, mientras no haya errores. Al realizar cambios en un campo y pasar a otro, ve el texto **Guardando** en la esquina superior derecha de la página. Cambiará a **Guardado** rápidamente si no se producen errores. Si se produce un error, el texto cambia a **No guardado**.  
       - question: |
           ¿Dónde encuentro ese número de línea?
         answer: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           ¿Por qué la Ayuda describe una funcionalidad a la que no puedo acceder?
         answer: |
-          Si la configuración de Experiencia en la página **Información de la empresa** está establecida en **Esencial**, los elementos de la interfaz de usuario para las funciones de Gestión de fabricación y servicios no serán visibles porque requieren la experiencia **Premium**. Se inserta una nota de texto en los temas de ayuda de alto nivel para estas áreas de funciones. Obtenga más información en [Cambiar las funciones que se muestran](ui-experiences.md).  
+          Si la configuración de Experiencia en la página **Información de la empresa** está establecida en **Esencial**, los elementos de la interfaz de usuario para las funciones de Gestión de fabricación y servicios no serán visibles porque requieren la experiencia **Premium**. Se inserta una nota de texto en los artículos de ayuda de alto nivel para estas áreas de funciones. Obtenga más información en [Cambiar las funciones que se muestran](ui-experiences.md).  
       - question: |
           ¿Por qué no hay nueva información disponible en mi idioma?
         answer: |
@@ -80,7 +81,7 @@ sections:
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] en línea requiere una dirección de correo electrónico del trabajo o la escuela. [!INCLUDE[prod_short](includes/prod_short.md)] en línea no admite direcciones de correo electrónico proporcionadas por servicios de correo electrónico del consumidor ni por proveedores de telecomunicación. Esto incluye outlook.com, hotmail.com, gmail.com y otros.  
 
-          Si intenta iniciar sesión con una dirección de correo personal, recibirá un mensaje indicando que use una dirección del trabajo o la escuela. Obtenga más información en [Solución de problemas del registro de autoservicio](ui-troubleshoot-self-signup.md).  
+          Si intenta iniciar sesión con una dirección de correo personal, recibe un mensaje indicando que use una dirección del trabajo o la escuela. Obtenga más información en [Solución de problemas del registro de autoservicio](ui-troubleshoot-self-signup.md).  
 
           Si desea realizar la implementación local de [!INCLUDE[prod_short](includes/prod_short.md)], puede utilizar otros métodos de autenticación. Obtenga más información en [Despliegue de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
       - question: |
@@ -98,10 +99,10 @@ sections:
       - question: |
           ¿Puedo ampliar mi periodo de prueba de 30 días de "Nueva empresa"?
         answer: |
-          Sí. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostraremos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía. Puede ampliarse el período de prueba una vez. Después, puede ampliarlo otros 30 días una empresa asociada con Microsoft. Obtenga más información en [Extender la versión de prueba](admin-extend-trial.md).
+          Sí. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostramos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía. Puede ampliarse el período de prueba una vez. Después, puede ampliarlo otros 30 días una empresa asociada con Microsoft. Obtenga más información en [Extender la versión de prueba](admin-extend-trial.md).
 
           > [!NOTE]
-          > Puede tardar hasta dos días laborales en completarse el proceso de ampliación de la prueba.  
+          > Podría tardar hasta dos días laborales en completarse el proceso de ampliación de la prueba.  
 
           Para obtener más información sobre cómo buscar un socio, vea [¿Cómo encuentro un socio distribuidor?](#how-do-i-find-a-reselling-partner)  
       - question: |
@@ -142,7 +143,7 @@ additionalContent: |
   ## Consulte también
 
   [Preparación para hacer negocios](ui-get-ready-business.md)  
-  [FAQ acerca de la función Dígame](ui-search-faq.md)  
+  [Preguntas frecuentes acerca de la característica Información](ui-search-faq.md)  
   [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)  
   [Preguntas frecuentes sobre vistas de lista](ui-views-faq.yml)  
   [Cambiar idioma y región](about-locale-language.md)  

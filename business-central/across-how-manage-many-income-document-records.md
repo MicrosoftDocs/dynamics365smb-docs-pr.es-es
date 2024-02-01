@@ -3,9 +3,7 @@ title: Definir qué documentos entrantes ver
 description: 'Ajuste la vista predeterminada de los documentos entrantes, como facturas electrónicas, para mejorar el resumen de registros procesados y sin procesar.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: bholtorf

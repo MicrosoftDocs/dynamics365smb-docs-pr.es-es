@@ -3,9 +3,7 @@ title: Uso del hub de empresas
 description: Proporciona información sobre la extensión de hub de empresas que puede utilizar para gestionar su trabajo en varias empresas en Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: null
 ms.search.form: '1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167,'
 ms.date: 04/01/2021

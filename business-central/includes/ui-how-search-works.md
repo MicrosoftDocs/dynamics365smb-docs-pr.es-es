@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Después de ingresar sus palabras clave, [!INCLUDE [prod_short](prod_short.md)] inicia su búsqueda en segundo plano y revisa cada tabla una a la vez. Los resultados de la búsqueda comienzan a aparecer después de terminar cada tabla. Si ingresa más de una palabra clave, los resultados incluirán solo los registros que tengan todas las palabras en cualquiera de los campos seleccionados.

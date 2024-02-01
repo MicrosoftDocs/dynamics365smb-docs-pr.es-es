@@ -1,25 +1,24 @@
 ---
 title: 'Funcionalidad local para España [ES]'
-description: En los temas siguientes se describe la funcionalidad local de la versión española de Business Central.
+description: En los artículos siguientes se describe la funcionalidad local de la versión española de Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: null
-ms.date: 08/26/2022
+ms.date: 01/12/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local en la versión española
 
-En los temas siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+# Funcionalidad local para España en la versión española
 
-## <a name="feature-availability"></a>Disponibilidad de la característica
+En los artículos siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+
+## Disponibilidad de la característica
 
 * IVA  
   * [SII para informes de IVA](sii-setup.md) **Disponible ahora**
   * [SII - Tipos de factura y abonos en documentos de compra y venta](SII-invoice-types-sales-purchase-documents.md) **Disponible ahora**
-  * [Informes IVA](vat-reports.md) **Disponible ahora**
+  * [Informes de IVA](vat-reports.md) **Disponible ahora**
   * [Informe 340](report-340.md) **Disponible ahora**  
   * [Crear el informe 340](how-to-create-report-340.md) **Disponible ahora**  
   * [Informe 347](report-347.md) **Disponible ahora**  
@@ -42,7 +41,7 @@ En los temas siguientes se describe la funcionalidad local que es única para la
   * [Anular pagos electrónicos](how-to-void-electronic-payments.md) **Disponible ahora**
   * [Configurar códigos CCC de bancos](how-to-set-up-bank-ccc-codes.md) **Disponible ahora**
   * [Introducir códigos CCC](how-to-enter-ccc-codes.md) **Disponible ahora**
-  * [Configuración de días de pago y de periodos no-pago](how-to-set-up-payment-days-and-non-payment-periods.md) **Disponible ahora**
+  * [Configuración de días de pago y de periodos de no pago](how-to-set-up-payment-days-and-non-payment-periods.md) **Disponible ahora**
   * [Pagos en efectivo](payments-in-cash.md) **Disponible ahora**
 
 * Facturación electrónica
@@ -67,15 +66,17 @@ En los temas siguientes se describe la funcionalidad local que es única para la
   * [Introducir códigos NACE](how-to-enter-nace-codes.md) **Disponible ahora**
   * [Establecer límites para fechas de vencimiento](how-to-set-limits-for-due-dates.md) **Disponible ahora**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Se están investigando los requisitos de legislación futura
+## Se están investigando los requisitos de legislación futura
 
-* Requisitos para la facturación electrónica en español: previsto para **el segundo lanzamiento de versiones de 2024**
-* Estados SII - previstos para **Segunda ola de lanzamientos de 2024**  
-* Requisitos relacionados con la *Ley antifraude* en España y el impacto en Business Central 
+* Nuevo enfoque de envío de múltiples documentos en SII - **planeado para 23.4**
+* Introducir la opción "Ignorar en SII" para la Cuenta de mayor - **prevista para 23.5** 
+* Facturación electrónica en español: **prevista para el segundo lanzamiento de versiones de 2024**  
+* Estados SII - **previstos para Segunda ola de lanzamientos de 2024**  
+* Los requisitos relacionados con la *Ley antifraude* en España y el impacto en Business Central son objeto de investigación. 
 
 Si está al tanto de cualquier característica reglamentaria futura, envíe una [Alerta de características reglamentarias](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)

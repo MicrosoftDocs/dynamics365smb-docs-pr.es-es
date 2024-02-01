@@ -7,8 +7,9 @@ ms.search.keywords: 'accountant, accounting, company hub'
 ms.search.form: '1151, 1155, 1166, 1165'
 ms.date: 09/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="add-companies-to-your-company-hub"></a>Agregar empresas al hub de empresas
+# Agregar empresas al hub de empresas
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +20,7 @@ Justo en la página de aterrizaje del hub de la empresa, encontrará el menú **
 > [!NOTE]
 > Puede conectar el hub de la empresa a tantas empresas como necesite. Sin embargo, solo puede conectar el hub de la empresa a empresas alojadas en [!INCLUDE [prod_short](includes/prod_short.md)] en línea.
 
-## <a name="environment-links"></a>Vínculos de entorno
+## Vínculos de entorno
 
 Un vínculo de entorno es una tarjeta en la que especifica el entorno de [!INCLUDE [prod_short](includes/prod_short.md)] que hospeda una o más empresas en las que trabaja. Los datos de la tarjeta para cada entorno los especifica usted y puede cambiarlos según sea necesario. Sin embargo, el campo **Vínculo de entorno** es fundamental, ya que así es como puede acceder a cada empresa en [!INCLUDE [prod_short](includes/prod_short.md)]. Utilice la acción **Probar la conexión** de la cinta para comprobar que ha introducido el vínculo correcto. El vínculo que debe introducir apunta al entorno que hospeda la empresa que está agregando, y debe incluir el Id. de Microsoft Entra o el nombre de dominio de la organización. Por ejemplo, si han especificado un dominio como MyBusiness.com, entonces el vínculo a su [!INCLUDE [prod_short](includes/prod_short.md)] es ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. De lo contrario, se verá así: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
 
@@ -32,14 +33,14 @@ El vínculo se utiliza cuando elige la empresa en el hub de empresas.
 >
 > Si ha pasado a la empresa de prueba de treinta días, Mi empresa, puede agregarla a la lista seleccionando la acción **Recargar/Recargar todas las empresas** de la lista.
 
-## <a name="load-companies"></a>Cargar empresas
+## Cargar empresas
 
 Cuando haya agregado sus entornos, sus empresas aparecerán automáticamente. Sin embargo, si sabe que se ha agregado una nueva empresa a un entorno, puede elegir la acción **Recargar todas las empresas** para actualizar la lista. Utilice la misma acción para actualizar los datos de todas sus empresas.  
 
 > [!TIP]
 > Para actualizar los datos en el hub de empresas, debe tener acceso a los datos de las empresas de las que provienen los datos.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md)  
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  

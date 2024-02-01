@@ -3,9 +3,7 @@ title: Modificar las sugerencias de planificación en vista gráfica
 description: Una actividad típica de planificación - cambiar o añadir líneas de la hoja de planificación para modificar los pedidos de suministros sugeridos antes de confirmarlos ejecuta la función Ejecutar mensajes acción.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/22/2023
 ms.author: bholtorf

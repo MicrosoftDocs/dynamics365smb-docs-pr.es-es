@@ -3,9 +3,7 @@ title: Movimientos contables abiertos de productos de inventario cero
 description: Este artículo aborda un problema donde el nivel de inventario es cero aunque existen movimientos de producto pendientes.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Impuesto sobre las ventas en la versión predeterminada
 description: Conozca cómo la versión base de Business Central soporta el impuesto sobre las ventas y obtenga una descripción del concepto básico.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tax, posting, sales tax'
 ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
 ms.date: 07/21/2022

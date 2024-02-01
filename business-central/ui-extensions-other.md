@@ -3,9 +3,7 @@ title: Extensiones de Business Central de otros proveedores
 description: Este tema enumera las aplicaciones y las extensiones para personalizar Business Central finanzas proporcionados por otras empresas.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'app, add-in, manifest, customize'
 ms.date: 06/24/2021
 ms.author: bholtorf

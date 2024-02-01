@@ -3,9 +3,7 @@ title: Configurar usuarios de aprobación
 description: 'Antes de poder crear flujos de trabajo que impliquen pasos de aprobación, debe configurar los usuarios del flujo de trabajo implicados en los procesos de aprobación.'
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf

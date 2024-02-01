@@ -3,9 +3,7 @@ title: Resolución de problemas y corrección de dimensiones
 description: Obtenga información sobre cómo solucionar errores de dimensión típicos y cómo corregir las dimensiones después de que se utilicen en transacciones registradas.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'dimension, correction, correct, business intelligence'
 ms.search.form: '116, 540, 2588'
 ms.date: 09/27/2021

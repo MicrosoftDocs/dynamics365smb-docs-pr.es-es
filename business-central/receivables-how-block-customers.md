@@ -3,9 +3,7 @@ title: Cómo bloquear ventas a clientes
 description: 'Si es necesario, puede bloquear la inclusión de un cliente en documentos de ventas y otras transacciones de ventas.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

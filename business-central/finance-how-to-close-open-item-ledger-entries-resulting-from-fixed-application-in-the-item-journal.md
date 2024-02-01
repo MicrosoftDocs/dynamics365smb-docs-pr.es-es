@@ -3,12 +3,11 @@ title: Cerrar entradas del libro mayor de artículos que provienen del uso de un
 description: Aprenda a crear una aplicación fija entre una transacción de entrada y la transacción de salida original en el diario de productos.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 40
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Cerrar los movimientos de producto abiertos que se crean por una liquidación fija en el diario de productos
 

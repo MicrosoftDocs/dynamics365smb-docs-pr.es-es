@@ -3,9 +3,7 @@ title: Usar documentos electrónicos en ventas y compras
 description: Aprenda a utilizar la funcionalidad de documentos electrónicos relacionada con las facturas de compra y venta.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, purchase'
 ms.search.form: '42, 43, 51, 6103, 6133, 6121, 9301, 9305, 9308'
 ms.date: 10/03/2023

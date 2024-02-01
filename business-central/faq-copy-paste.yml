@@ -3,6 +3,7 @@ metadata:
   title: P+F sobre copiar y pegar datos
   description: Obtenga respuestas a las preguntas frecuentes sobre cómo copiar y pegar datos de campos y filas de las páginas de Business Central.
   ms.topic: faq
+  ms.service: dynamics-365-business-central
 title: Preguntas frecuentes sobre copiar y pegar
 summary: |
   Puede copiar una o más filas (registros) de una lista o un solo campo en una página y luego pegar lo que ha copiado en la misma página, otra página o un documento externo (como Microsoft Excel y el correo electrónico de Outlook).  

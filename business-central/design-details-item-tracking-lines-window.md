@@ -3,9 +3,7 @@ title: 'Detalles de diseño: página Líns. seguim. prod.'
 description: Lea información acerca de cómo gestionar el flujo de números de serie y números de lote en el inventario utilizando la página Líns. seguim. prod. almacén.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, inventory, item, tracking, serial number, lot number'
 ms.date: 06/15/2021
 ms.author: bholtorf

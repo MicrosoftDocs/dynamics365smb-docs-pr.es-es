@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Los empleados del almacén pueden enviar y recibir artículos que no están en el inventario junto con bienes físicos en órdenes de compra y venta. Los artículos que no están en el inventario son intangibles, como seguros o costes adicionales.

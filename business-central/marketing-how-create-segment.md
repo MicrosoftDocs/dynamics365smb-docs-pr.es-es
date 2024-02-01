@@ -3,9 +3,7 @@ title: Crear segmentos
 description: 'Describe cómo crear un segmento para un grupo de contactos en Business Central, por ejemplo, para dirigirse a varios contactos con un correo directo.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.search.form: '5091, 5093'
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: Interrupción masiva con picking y ubicaciones directas
 description: 'Aprenda a habilitar interrupción automática masiva con ubicación y picking dirigidos, así como interrupción en picking, ubicaciones, movimientos y más.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '5703, 7352'
 ms.date: 11/04/2022

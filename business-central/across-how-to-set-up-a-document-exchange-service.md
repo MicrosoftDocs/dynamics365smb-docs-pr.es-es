@@ -3,9 +3,7 @@ title: 'Procedimiento: Configurar un servicio de intercambio de documentos | Doc
 description: Para intercambiar documentos electrónicos con socios comerciales se usa un proveedor de servicios externo.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf

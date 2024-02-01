@@ -4,12 +4,11 @@ description: Es más fácil trabajar con números enteros. Utilice esta extensi�
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'machinery, buildings'
 ms.date: 10/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # La solución de problemas de la extensión de Movs. Activos
 Utilice la extensión Solución de problemas de Movs. Activos para redondear los montos de depreciación y adquisición en los asientos contables de activos fijos a números enteros. Por ejemplo, para redondear una cantidad de 30 000,44 a 30 000. Las causas típicas de los problemas de redondeo son la migración de datos, el comienzo repentino de registrar cantidades en el libro mayor o las personalizaciones que ha realizado en su [!INCLUDE[prod_short](includes/prod_short.md)].

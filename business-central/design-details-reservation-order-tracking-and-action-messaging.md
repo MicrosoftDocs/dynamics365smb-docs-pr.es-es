@@ -3,9 +3,7 @@ title: 'Detalles de diseño: reserva, seguimiento de pedidos y mensajes de accio
 description: El sistema de reservas es completo e incluye las características correlacionadas y paralelas de seguimiento de pedidos y mensajes de acción.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, replenishment, reordering'
 ms.date: 06/08/2021
 ms.author: bholtorf

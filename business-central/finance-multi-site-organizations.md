@@ -3,9 +3,7 @@ title: Business Central para organizaciones internacionales y de sitios múltipl
 description: Business Central proporciona capacidades que admiten un modelo de negocio de de concentrador y radios.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'hub-and-spoke, multi-site, headquarter, sites'
 ms.date: 10/01/2020
 ms.author: bholtorf

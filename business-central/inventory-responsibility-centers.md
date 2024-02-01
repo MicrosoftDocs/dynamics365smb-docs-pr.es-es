@@ -3,9 +3,7 @@ title: Trabajar con centros de responsabilidad
 description: 'Un centro de responsabiliadad, como centro administrativo, ayuda a las empresas a configurar vistas específicas para cada usuario de los documentos de compra y de venta relacionados exclusivamente con cada centro.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: '5714, 5715'
 ms.date: 03/09/2023

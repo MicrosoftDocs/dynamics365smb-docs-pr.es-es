@@ -3,9 +3,7 @@ title: 'Crear el informe 340 [ES]'
 description: Lea sobre cómo crear el informe 340 para las autoridades fiscales en la versión en español de Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '10737, 10738, 10744'
 ms.date: 11/23/2023

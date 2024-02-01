@@ -3,9 +3,7 @@ title: 'Detalles de diseño: Ajuste de coste'
 description: 'El ajuste de coste desvía los cambios de coste de los orígenes de coste a los destinatarios de coste, según la valoración de existencias de un producto, para proporcionar la valoración de inventario correcta.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
