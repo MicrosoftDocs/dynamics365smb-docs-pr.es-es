@@ -10,11 +10,11 @@ ms.date: 06/25/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Cerrar periodos contables
+# <a name="close-accounting-periods"></a>Cerrar periodos contables
 
 Cuando finaliza un ejercicio, debe cerrar los periodos que lo forman.
 
-## Para cerrar periodos contables
+## <a name="to-close-accounting-periods"></a>Para cerrar periodos contables
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Periodos contables** y luego elija el enlace relacionado.
 2. En la página **Periodos contables**, elija la acción **Cerrar ejercicio**.
@@ -31,7 +31,7 @@ Incluso aunque un ejercicio se haya cerrado, todavía podrá registrar en él mo
 
 Después de cerrar un ejercicio, debe regularizar las cuentas de explotación y transferir los resultados del año a una cuenta del balance. Puede repetirlo cada vez que registre el ejercicio cerrado.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Cierre de libros](year-close-books.md)  
 [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)  

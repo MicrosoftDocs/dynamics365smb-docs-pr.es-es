@@ -9,20 +9,20 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ver informes de prueba antes de realizar el registro
+# <a name="view-test-reports-before-posting"></a>Ver informes de prueba antes de realizar el registro
 Cuando esté listo para registrar un documento, como un pedido, una factura o un abono, puede probar el documento para asegurarse de que no hay problemas que vayan a bloquear el registro.
 
 > [!NOTE]  
 >   Con el siguiente procedimiento se realiza una prueba antes de registrar un documento de compra. La funcionalidad funciona de la misma forma que para los documentos de venta.
 
-## Para imprimir un test antes de registrar una factura de compra
+## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Para imprimir un test antes de registrar una factura de compra
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y, a continuación, elija el vínculo relacionado.
 2. Abra la factura de compra que desee evaluar.
 3. Elija la acción **Informe de prueba**.  
 
 Todas las partes de la factura de compra se prueban y el resultado se presenta en un informe. Si el informe indica errores o falta información, deberá solucionar el problema antes de registrar la factura de compra.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Registrar documentos y diarios](ui-post-documents-journals.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ms.service: dynamics-365-business-central
 ---
-# Configurar los empleados de almacén
+# <a name="set-up-warehouse-employees"></a>Configurar los empleados de almacén
 
 Debe configurar cada usuario que desarrolla actividades en el almacén como empleado de almacén y asignarlo a una ubicación predeterminada. [!INCLUDE [prod_short](includes/prod_short.md)] filtra las actividades del almacén a la ubicación predeterminada del empleado. Solo pueden realizar las actividades de almacén en la ubicación. También puede asignar a un usuario a otros almacenes. Pueden acceder pero no realizar actividades en esos lugares.
 
-## Para configurar los empleados de almacén  
+## <a name="to-set-up-warehouse-employees"></a>Para configurar los empleados de almacén
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -26,9 +26,9 @@ Debe configurar cada usuario que desarrolla actividades en el almacén como empl
 > [!TIP]
 > También puede usar la acción **Agregarme como empleado del almacén** para agregarse rápidamente a la lista de empleados del almacén. Por ejemplo, esto es útil cuando está probando las capacidades.
 
-## Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
+## <a name="see-related-microsoft-training"></a>Consultar la [formación de Microsoft](/training/modules/get-started-warehouse-management/) relacionada
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

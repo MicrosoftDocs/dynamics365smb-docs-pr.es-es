@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Incorporación de usuarios con listas de comprobación
+# <a name="onboard-users-with-checklists"></a>Incorporación de usuarios con listas de comprobación
 
 La primera vez que un usuario inicia sesión en una nueva empresa de [!INCLUDE [prod_short](includes/prod_short.md)], puede ver un banner que le anima a iniciar la lista de comprobación **Introducción** para ayudarle a configurar la información clave y prepararse para el negocio. Como administrador o socio distribuidor, puede personalizar las listas de comprobación predefinidas y puede configurar sus propios pasos.
 
-## Para agregar un producto a la lista de comprobación
+## <a name="to-add-an-item-to-the-checklist"></a>Para agregar un producto a la lista de comprobación
 
 1. Inicie sesión en [!INCLUDE[prod_short](includes/prod_short.md)] en [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -26,7 +26,7 @@ La primera vez que un usuario inicia sesión en una nueva empresa de [!INCLUDE [
     > [!TIP]
     > Si el paso es para una guía de configuración, el campo **Tarea** especifica la guía de configuración. Si el paso es para aprender más, el campo **Tarea** especifica el vínculo al artículo o al módulo de aprendizaje electrónico.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Administración](admin-setup-and-administration.md)  
