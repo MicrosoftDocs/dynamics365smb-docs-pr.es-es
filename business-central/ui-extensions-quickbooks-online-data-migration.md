@@ -13,11 +13,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension"></a>Extensión de migración de datos de QuickBooks Online
+# Extensión de migración de datos de QuickBooks Online
 
 Esta extensión se incluye en la guía de configuración asistida **Migración de datos** para ayudarle a migrar datos comerciales importantes de QuickBooks Online a [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, esto es útil cuando su negocio está creciendo y ha decidido actualizar su aplicación de administración de negocios con [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-data-can-i-import-from-quickbooks-online"></a>¿Qué datos puedo importar desde QuickBooks Online?
+## ¿Qué datos puedo importar desde QuickBooks Online?
 
 Puede importar los datos siguientes de QuickBooks Online a [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -34,7 +34,7 @@ Migramos únicamente los importes totales de los documentos de ventas y compras.
 > [!NOTE]  
 > No migramos pedidos de compra o venta.
 
-## <a name="before-you-start"></a>Antes de comenzar
+## Antes de comenzar
 
 Una parte importante del proceso de migración es especificar las cuentas a las que se deben migrar las transacciones. Conviene planificar esta asignación antes de migrar los datos. Por ejemplo, las cuentas en la que registre transacciones de:  
 
@@ -46,14 +46,14 @@ Una parte importante del proceso de migración es especificar las cuentas a las 
 
 Si las transacciones en QuickBooks Online tienen impuestos, debe configurar una cuenta de impuestos para sus jurisdicciones fiscales en [!INCLUDE[prod_short](includes/prod_short.md)] antes de poder registrar las transacciones.
 
-## <a name="how-do-i-start-using-the-extension"></a>¿Cómo empiezo a usar la extensión?
+## ¿Cómo empiezo a usar la extensión?
 
 Empezar es muy fácil. Únicamente tiene que ejecutar la guía de configuración asistida **Migración de datos**. Instrucciones:
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija **Migrar datos empresariales**.
 2. Siga las instrucciones en cada paso de la guía de configuración asistida.
 
-## <a name="what-do-i-do-after-i-migrate-data"></a>¿Qué hago después de la migración de datos?
+## ¿Qué hago después de la migración de datos?
 
 Una vez haya migrado los datos, las transacciones muestran el estado **No registrado**, para que pueda revisarlas y crear ajustes. Para revisar las transacciones, vaya a la página donde están normalmente. Por ejemplo, para revisar facturas de ventas no registradas, vaya a la página **Facturas de ventas**. Para revisar las diario de pagos, vaya a la página **Diario de pagos**.  
 
@@ -63,7 +63,7 @@ Hay algunos pasos que es recomendable que haga:
 * Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
 * Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks Online no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
