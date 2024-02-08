@@ -59,7 +59,7 @@ Al final de la guía de configuración, puede optar por permitir que [!INCLUDE [
 
 Las siguientes secciones describen cómo configurar los partes de horas si no utiliza la guía de configuración asistida **Configurar partes de horas**.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Para configurar la información general de los partes de horas manualmente
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Para configurar la información general de los partes de horas manualmente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de recursos** y luego elija el enlace relacionado.  
 1. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ Las siguientes secciones describen cómo configurar los partes de horas si no ut
 | **Siempre** |El uso del campo **Cód. responsable** de la ficha de proyecto aprueba la hoja de horas. |
 | **Solo máquina** |Si la hoja de horas de la máquina está vinculada a un proyecto, el usuario del campo **Cód. responsable** de la ficha de proyecto aprueba la hoja de horas. Si la hoja de horas de la máquina está vinculada a un recurso, el usuario del campo **Id. usuario aprob. hoja horas** de la ficha de recurso aprueba la hoja de horas. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Para asignar un administrador de los partes de horas manualmente
+### <a name="assign-a-time-sheet-administrator-manually"></a>Para asignar un administrador de los partes de horas manualmente
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de usuario** y luego elija el enlace relacionado.  
 3. Seleccione el usuario que será el administrador de partes de horas y seleccione la casilla **Admin. partes de horas**.  
@@ -82,7 +82,7 @@ Las siguientes secciones describen cómo configurar los partes de horas si no ut
 > [!TIP]  
 > Recomendamos que designe a un solo usuario como administrador de hoja de horas para una empresa. En el siguiente procedimiento, configure un propietario y un aprobado de hoja de horas, donde el aprobador se asigne para cada recurso.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Para asignar un propietario y un aprobador de los partes de horas manualmente
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Para asignar un propietario y un aprobador de los partes de horas manualmente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recursos** y luego elija el enlace relacionado.
 2. Seleccione el recurso para el que desea definir la capacidad para usar hojas de horas y, a continuación, seleccione la casilla **Usar partes de horas**.  

@@ -47,7 +47,7 @@ Con el conector de Shopify las empresas pueden vincular su tienda (o tiendas) de
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] se está asociando con Shopify para ayudar a nuestros clientes a crear una mejor experiencia de compra. Mientas que Shopify ofrece a los comerciantes una solución de comercio fácil de usar, [!INCLUDE[prod_short](../includes/prod_short.md)] ofrece una gestión empresarial integral de los equipos de finanzas, ventas, servicios y operaciones. Utilice la conexión perfecta entre las aplicaciones para sincronizar pedidos, existencias e información del cliente para cumplir con los pedidos más rápido y atender mejor a los clientes.
 
-## <a name="which-microsoft-products-are-the-shopify-connector-available-for"></a>¿Para qué productos de Microsoft está disponible el conector de Shopify?
+## <a name="which-microsoft-products-is-the-shopify-connector-available-for"></a>¿Para qué productos de Microsoft está disponible el conector de Shopify?
 
 Esta función está disponible solo para [!INCLUDE[prod_short](../includes/prod_short.md)] en línea, a partir de la versión 20.1. No está disponible para implementaciones locales. El conector está preinstalado para nuevos entornos. Las organizaciones con entornos existentes pueden descargar e instalar el conector desde AppSource. La organización debe tener una licencia de [!INCLUDE [prod_short](../includes/prod_short.md)] y una licencia de Shopify para usar el conector. Para más información sobre países o regiones, idiomas y ediciones de [!INCLUDE[prod_short](../includes/prod_short.md)] permitidos, vaya al [Conector de Shopify en AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 

@@ -131,7 +131,7 @@ El registro de la hoja de horas se hace en horas, la unidad de medida base está
     > Un administrador puede rechazar una línea del parte de horas que se ha enviado para su aprobación. Si una línea tiene el estado de **Impagado**, puede realizar los cambios en la línea y seleccionar **Enviar** de nuevo.  
 6. Elija el botón **Aceptar**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Para aprobar o rechazar una hoja de horas
+## <a name="approve-or-reject-a-time-sheet"></a>Para aprobar o rechazar una hoja de horas
 
 Una hoja de horas debe haberse enviado para su aprobación para que se pueda usar. Puede aprobar y rechazar las líneas individuales en una hoja de horas o enviarlas de nuevo al emisor. Un parte de horas se puede aprobar de dos maneras:
 
@@ -207,7 +207,7 @@ Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede regi
 5. Seleccione la acción **Registrar**.  
 6. Para comprobar el registro, elija la acción **Movimientos**. Se abre la página **Movs. proyectos**, en la que muestra el resultado del registro del diario de recursos.
 
-## <a name="to-archive-time-sheets"></a>Para archivar las hojas de horas
+## <a name="archive-time-sheets"></a>Para archivar las hojas de horas
 
 Después de registrar los partes de horas, puede archivarlos para referencia futura. Debe publicar todas las líneas en un parte de horas antes de poder archivarlo.
 
