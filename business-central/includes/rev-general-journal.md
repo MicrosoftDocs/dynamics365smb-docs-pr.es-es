@@ -3,9 +3,10 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/27/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Reversión de diarios para corregir errores
+### Reversión de diarios para corregir errores
 
 Cuando se trabaja con diarios que tienen muchas líneas y algo sale mal, es importante tener una manera fácil de corregir los errores. La página **Diario general publicado** ofrece un par de acciones que pueden ayudar.
 

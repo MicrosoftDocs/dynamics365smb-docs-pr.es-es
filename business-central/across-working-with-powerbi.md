@@ -3,19 +3,17 @@ title: Trabajar con informes de Power BI en Business Central | Documentos de Mic
 description: 'Obtener información, inteligencia empresarial y KPI de los datos de Business Central con Power BI.'
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.date: 12/19/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-power-bi-reports-in-"></a>Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
+# Trabajar con informes de Power BI en [!INCLUDE [prod_short](includes/prod_short.md)]
 
 En este artículo, aprenderá algunos de los conceptos básicos sobre la visualización de informes de Power BI, incluyendo tarjetas de puntuación en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="overview"></a>Información general
+## Información general
 
 Los informes de Power BI le brindan información sobre su [!INCLUDE[prod_short](includes/prod_short.md)]. Varias páginas en [!INCLUDE [prod_short](includes/prod_short.md)] incluyen una parte de informes de Power BI que puede mostrar informes de Power BI. El centro de roles es una página típica en la que verá una parte de informes de Power BI. Algunas páginas de lista, como **Artículos**, también incluye una parte de Power BI.
 
@@ -23,20 +21,20 @@ Los informes de Power BI le brindan información sobre su [!INCLUDE[prod_short](
 
 ![Parte de Power BI en Business Central.](./media/power-bi-part.png)
 
-## <a name="get-started"></a>Introducción
+## Introducción
 
-### <a name="prerequisites"></a>Requisitos previos
+### Requisitos previos
 
 Si está usando [!INCLUDE[prod_short](includes/prod_short.md)] local, debe estar habilitado para la integración en Power BI. Esta tarea normalmente la realiza un administrador. Para más información, ver [Preparar [!INCLUDE[prod_short](includes/prod_short.md)] local para la integración de Power BI](admin-powerbi-setup.md#setup).
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] online ya está configurado para integrarse con Power BI.
 
-### <a name="sign-up-power-bi"></a>Registrarse en Power BI
+### Registrarse en Power BI
 
 Antes de que pueda usar Power BI con [!INCLUDE[prod_short](includes/prod_short.md)], deberá registrarse en el servicio de Power BI. Si aún no se ha registrado, vaya a [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Cuando se registre, use su dirección de correo electrónico y contraseña del trabajo.
 
-## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Conectar a Power BI, solo una vez
+## <a name="connect"></a>Conectar a Power BI, solo una vez
 
 Cuando inicia sesión por primera vez en [!INCLUDE [prod_short](includes/prod_short.md)], lo más probable es que vea una parte de Power BI vacía (como se muestra en la figura anterior) en varias páginas. Lo primero que debe hacer es conectarse a su cuenta de Power BI. Una vez conectado, puede ver los informes. Solo tiene que hacer este paso una vez.
 
@@ -54,15 +52,15 @@ Comienza el proceso de conexión. Durante el proceso, [!INCLUDE [prod_short](inc
 > [!TIP]
 > Con [!INCLUDE [prod_short](includes/prod_short.md)] Online, este paso cargará automáticamente por defecto los infomes de Power BI utilizados en [!INCLUDE [prod_short](includes/prod_short.md)] para su espacio de trabajo de Power BI.
 
-#### <a name="from--on-premises"></a>Desde [!INCLUDE [prod_short](includes/prod_short.md)] local
+#### Desde [!INCLUDE [prod_short](includes/prod_short.md)] local
 
 Conectarse a Power BI desde [!INCLUDE [prod_short](includes/prod_short.md)] es similar a Online. Sin embargo, se le pedirá en la página **PERMISOS DE SERVICIOS DE MICROSOFT ENTRA** que otorgue acceso a servicios de Power BI. Para otorgar acceso, seleccione **Autorizar servicios de Azure** y entonces **Aceptar**.
 
 Una vez conectado, puede seleccionar un informe de la parte de Power BI en las páginas.
 
-## <a name="work-with-power-bi-reports"></a>Trabajar con informes de Power BI
+## Trabajar con informes de Power BI
 
-### <a name="show-reports-on-list-pages"></a>Mostrar informes en páginas de lista
+### Mostrar informes en páginas de lista
 
 [!INCLUDE[prod_long](includes/prod_long.md)] incluye un cuadro informativo de Power BI en varias páginas de lista clave. Este cuadro informativo proporciona información extra sobre los datos de la lista. A medida que se desplaza por las filas de la lista, el informe se actualiza y se filtra para la entrada seleccionada.
 
@@ -73,13 +71,13 @@ Para aprender a crear informes para páginas de lista, consulte [Crear informes 
 >
 > O si tiene una versión anterior de Business Central, vaya a la barra de acción, seleccione **Comportamiento** > **Monitor** > **Mostrar/ocultar Informes de Power BI**.
 
-### <a name="switch-reports"></a>Cambiar informes
+### Cambiar informes
 
 Una parte de Power BI en una página puede mostrar cualquier informe de Power BI que esté disponible para usted. Para cambiar y ver otro informe, elija la acción **Seleccionar informe** en la lista de comandos desplegable en la parte superior de la parte.  
 
 La página **Selección de informes de Power BI** muestra una lista de todos los informes de Power BI a los que tiene acceso. Esta lista se recupera de cualquiera de sus propias áreas de trabajo o áreas de trabajo que se hayan compartido con usted en el servicio de Power BI. Seleccione la casilla **Habilitar** para cada informe que desee visualizar en la página y, a continuación, seleccione **Aceptar**. Volverá a su página Web y aparecerá el último informe que haya habilitado. Con la lista desplegable de comandos, utilice el comando **Anterior** y **Siguiente** para navegar entre informes.  
 
-### <a name="get-more-reports"></a>Obtener más informes
+### Obtener más informes
 
 Si no ve ningún informe en la página **Selección de informes de Power BI** o no ve el informe que desea, elija **Obtener informes**. Esta acción le permite buscar informes en dos ubicaciones: *Mi Organización* o *Servicios*.
 
@@ -89,7 +87,7 @@ Si no ve ningún informe en la página **Selección de informes de Power BI** o 
 > [!TIP]
 > Si tiene Power BI Desktop, también puede crear nuevos informes de Power BI. Entonces, una vez que esos informes se publiquen en su espacio de trabajo de Power BI, aparecerán en la página página **Selección de informes de Power BI**.  
 
-### <a name="manage-and-modify-reports"></a>Gestionar y modificar informes
+### Gestionar y modificar informes
 
 Puede realizar cambios en un informe en la parte de Power BI. Los cambios que realice se publicarán en el servicio de Power BI. Si el informe se comparte con otros usuarios, también verán los cambios, a menos que guarde los cambios en un nuevo informe.
 
@@ -100,7 +98,7 @@ Al regresar al área de trabajo, aparecerá el informe actualizado. Si usó **Gu
 > [!NOTE]
 > Esta capacidad no está disponible con [!INCLUDE [prod_short](includes/prod_short.md)] local.
 
-### <a name="upload-reports"></a><a name="upload"></a>Cargar informes
+### <a name="upload"></a>Cargar informes
 
 Los informes de Power BI se pueden distribuir entre los usuarios como archivos .pbix. Si tiene archivos .pbix, puede cargarlos y compartirlos con todos los usuarios de [!INCLUDE [prod_short](includes/prod_short.md)]. Los informes se comparten dentro de cada empresa en [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -111,23 +109,23 @@ Después de que el informe se cargue en su espacio de trabajo de Power BI, se ca
 > [!NOTE]
 > Cargar un informe requiere que tenga permisos de usuario SUPER en [!INCLUDE[prod_short](includes/prod_short.md)]. Además, no puede cargar informes con [!INCLUDE [prod_short](includes/prod_short.md)] local. Con local, carga informes directamente a su espacio de trabajo de Power BI. Para obtener más información, consulte [Trabajar con datos de [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI](across-working-with-business-central-in-powerbi.md).
 
-## <a name="fixing-problems"></a>Solucionar problemas
+## Solucionar problemas
 
 Sin embargo, si se produce algún error, en esta sección se proporcionará una solución para los problemas más habituales.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>No tiene una cuenta de Power BI
+### No tiene una cuenta de Power BI
 
 No se ha configurado una cuenta de Power BI. Para obtener una cuenta de Power BI válida, debe tener una licencia y debe haber iniciado sesión previamente en Power BI, para crear un espacio de trabajo de Power BI.
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Mensaje: No hay informes habilitados. Elija Seleccionar informe para ver una lista de informes que se pueden visualizar.
+### Mensaje: No hay informes habilitados. Elija Seleccionar informe para ver una lista de informes que se pueden visualizar.
 
 Este mensaje aparece si el informe predeterminado no se pudo implementar en su espacio de trabajo de Power BI. O se implementó pero no se actualizó correctamente. Navegue hasta el informe en su espacio de trabajo de Power BI, seleccione **Conjunto de datos**, **Configuración** y luego actualice manualmente las credenciales. Una vez que el conjunto de datos se actualice correctamente, vuelva a [!INCLUDE[prod_short](includes/prod_short.md)] y seleccione manualmente el informe desde la página **Seleccionar informes**.
 
-#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>No puede ver un informe en la página Seleccionar informe en una página de lista
+#### No puede ver un informe en la página Seleccionar informe en una página de lista
 
 Probablemente se deba a que el nombre del informe no contiene el nombre de la página de la lista. Borre el filtro para obtener una lista completa de los informes de Power BI disponibles.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Business Central y Power BI](admin-powerbi.md)  
 [Crear informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]](across-how-use-financials-data-source-powerbi.md)  

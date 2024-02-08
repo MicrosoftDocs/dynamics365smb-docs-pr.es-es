@@ -12,7 +12,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-project-management"></a>Configurar la administración de proyectos
+# Configurar la administración de proyectos
 
 Antes de poder usar [!INCLUDE[prod_short](includes/prod_short.md)] para administrar proyectos, debe configurar los recursos, las hojas de horas y los proyectos.
 
@@ -27,7 +27,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Habilitar los recursos para notificar el uso del tiempo de un individuo o una máquina, y habilitar que un administrador pueda revisar el uso y su asignación. |[Configuración de hojas de horas](projects-how-setup-time-sheets.md) |
 | Crear fichas de proyecto y preparar tareas de proyecto. Configurar precios de los productos y los recursos de proyecto y definir los grupos contables de proyectos. |[Configurar proyectos](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar proyectos](projects-manage-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
