@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-"></a>Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]
+# Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]
 
 En este artículo, aprenderá sobre los diferentes aspectos de la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)] para ayudarle a comprender su implementación y uso.
 
-## <a name="components"></a>Componentes
+## Componentes
 
 La siguiente tabla describe los componentes principales relacionados con la integración de Power BI.
 
@@ -24,7 +24,7 @@ La siguiente tabla describe los componentes principales relacionados con la inte
 |Power BI Desktop|Una herramienta de creación para crear informes y paneles, y le permite ejecutar informes. Está disponible como descarga gratuita en Microsoft Store y se instala localmente.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Solución en línea o local con conectores expuestos a Power BI y la capacidad de incrustar una parte de Power BI.|
 
-## <a name="whats-available-from-the-start"></a>Que hay disponible desde el principio
+## Que hay disponible desde el principio
 
 La siguiente tabla describe las características disponibles.
 
@@ -36,7 +36,7 @@ La siguiente tabla describe las características disponibles.
 |Los informes predeterminados de Power BI sobre centros de roles desplegados en Power BI|Online|
 |Aplicaciones de Power BI en Microsoft AppSource|Online|
 
-## <a name="architecture"></a>Arquitectura
+## Arquitectura
 
 [!INCLUDE[prod_short](includes/prod_short.md)] se integra con Power BI a través de un conector que utiliza OData. La fuente de datos para los informes de Power BI se exponen como páginas API y servicios web de OData.
 
@@ -44,7 +44,7 @@ La siguiente tabla describe las características disponibles.
 
 A partir de febrero de 2022, los informes de Power BI para [!INCLUDE[prod_short](includes/prod_short.md)] en línea provienen de una réplica secundaria de la base de datos de solo lectura. La réplica de la base de datos es parte de la capacidad de [escalado de lectura](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) de [!INCLUDE[prod_short](includes/prod_short.md)] en línea. Esta configuración libera la base de datos principal para transacciones, lo que mejora el rendimiento del sistema. La conexión a la réplica de la base de datos de solo lectura es una parte integral del conector Business Central Online y no requiere ninguna configuración adicional de su parte. Todos los informes nuevos se conectarán a la réplica de la base de datos de solo lectura de forma predeterminada. Los informes antiguos seguirán utilizando la base de datos principal. Para más información, consulte [Plan del segundo lanzamiento de versiones de Business Central 2021](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
-## <a name="general-flow"></a>Flujo general
+## Flujo general
 
 El siguiente diagrama ilustra el flujo de trabajo básico para los usuarios al conectar [!INCLUDE[prod_short](includes/prod_short.md)] a Power BI.
 
@@ -58,7 +58,7 @@ El siguiente diagrama ilustra el flujo de trabajo básico para los usuarios al c
 6. El usuario crea un informe en Power BI Desktop.
 7. El usuario publica el informe en el servicio Power BI. Los informes están disponibles para su selección en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Business Central y Power BI](admin-powerbi.md)  
 [Power BI para consumidores](/power-bi/consumer/end-user-consumer)  
