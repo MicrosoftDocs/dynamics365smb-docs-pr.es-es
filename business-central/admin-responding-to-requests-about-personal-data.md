@@ -7,9 +7,10 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.date: 04/25/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="responding-to-requests-about-users-personal-data"></a>Respuesta a las solicitudes de datos personales de usuarios
+# Respuesta a las solicitudes de datos personales de usuarios
 
 Los asuntos de datos pueden solicitar varios tipos de acciones relacionadas con sus datos personales. Por ejemplo, según algunos reglamentos y leyes de privacidad, tienen derecho a solicitar la exportación, eliminación y modificación de sus datos personales. Estas solicitudes se denominan *Solicitudes de los interesados*. Si ha clasificado la confidencialidad de sus datos y está seguro de que son correctos, un administrador puede responder a las solicitudes utilizando las opciones de la pestaña **Privacidad de datos** en el área de trabajo **Director de TI**. 
 <!--
@@ -18,7 +19,7 @@ For more information about classifying data and data sensitivity in [!INCLUDE[pr
 * [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) 
 * [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->
 
-## <a name="types-of-requests"></a>Tipos de solicitudes
+## Tipos de solicitudes
 
 La siguiente tabla proporciona ejemplos de los tipos de solicitudes a las que pueden responder los administradores.
 
@@ -31,11 +32,11 @@ La siguiente tabla proporciona ejemplos de los tipos de solicitudes a las que pu
 |Solicitudes de eliminación|Un asunto de datos puede solicitarle que elimine sus datos personales. Hay varias maneras de eliminar datos personales utilizando las capacidades de personalización, pero la decisión y la implementación son su responsabilidad. En algunos casos, puede editar directamente sus datos. Por ejemplo, eliminar un contacto y luego ejecutar el proceso Eliminar mov. cancel. reg. inter. para eliminar interacciones para el contacto. <br><br> **Nota:** Si ha especificado una fecha en el campo **Permitir eliminar documentos anteriores a** en las páginas **Configuración ventas y cobros** o **Configuración compras y pagos**, puede tener que cambiar la fecha para poder eliminar los documentos de ventas y compras publicados que tengan fechas de registro en esa fecha o antes.|
 |Solicitudes para su corrección|Un asunto de datos puede solicitarle que corrija los datos personales incorrectos. Existen varias formas de hacerlo. En algunos casos, puede exportar listas a Excel para editar de manera masiva múltiples registros y luego importar los datos actualizados. Para obtener más información, consulte [Exportar los datos de negocio a Excel](about-export-data.md). También puede editar manualmente los campos que contienen datos personales, como editar información sobre un cliente en la tarjeta del cliente. Sin embargo, los registros como los movimientos del libro mayor general, de clientes y de impuestos son importantes. Si almacena datos personales en registros de transacciones comerciales, considere utilizar las capacidades de personalización para modificar dichos datos personales.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a>Restringir el procesamiento de datos para un interesado
+## Restringir el procesamiento de datos para un interesado
 
 Un asunto de datos puede solicitarle que detenga temporalmente el procesamiento de sus datos personales. Para cumplir con dichas solicitudes, puede marcar su registro como bloqueado debido a la privacidad para detener el procesamiento de sus datos. Cuando un registro está marcado como bloqueado, no puede crear nuevas transacciones que usen ese registro. Por ejemplo, no puede crear una nueva factura para un cliente cuando el cliente o el vendedor están bloqueados. Para marcar a un asunto de datos como bloqueado, abra la tarjeta para el sujeto de datos, por ejemplo, el Cliente, Proveedor o Tarjetas de contacto, y elija la casilla de verificación **Privacidad bloqueada**. Tiene que elegir **Mostrar más** para mostrar el campo.  
 
-## <a name="handling-data-subject-requests-when-using-a-trial-version"></a>Gestionar solicitudes de interesados cuando se utiliza una versión de prueba
+## Gestionar solicitudes de interesados cuando se utiliza una versión de prueba
 
 Algunos tipos de datos personales forman parte de una cuenta de Microsoft 365 y solo los administradores pueden exportar los datos. El proceso para gestionar las solicitudes de los sujetos de datos es diferente según el tipo de inquilino de [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -47,21 +48,21 @@ En la página de Privacidad del trabajo y la escuela, también puede cerrar su c
 
 Todavía puede marcar personas como bloqueadas debido a la privacidad y exportar, editar o eliminar transacciones como se explica en otra sección de este artículo.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Exportar datos de tablas no clasificadas por interesado
+## Exportar datos de tablas no clasificadas por interesado
 
 Si debe exportar datos que no están clasificados de manera que se exporten automáticamente, como los datos de la tabla Respuestas de perfil, debe realizar las siguientes acciones:
 
 * Considere si realmente debe exportar datos complementarios que no estén directamente relacionados con el contacto.
 * Agregue la tabla y la relación manualmente al paquete Rapid Start y expórtelas directamente desde el paquete Rapid Start. Generamos un paquete Rapid Start para usted para que pueda modificarlo en tales situaciones.
 
-## <a name="handling-data-about-minors"></a>Controlar datos sobre menores
+## Controlar datos sobre menores
 
 Si la edad de una persona de contacto es inferior a la edad de consentimiento legal según las leyes de su región, puede indicarlo seleccionando la casilla de verificación **Menor** en la **Tarjeta de contacto**. Al introducirlos, la casilla de verificación **Privacidad bloqueada** se seleccionará automáticamente. Cuando reciba el consentimiento del padre o tutor legal del menor, puede elegir la casilla **Consentimiento de los padres recibido** para desbloquear el contacto. Aunque puede procesar datos personales para menores, no puede usar la funcionalidad de creación de perfiles en Dynamics 365 Sales.
 
 > [!Note]
 > El Registro de cambios puede registrar detalles tales como cuándo y por quién se seleccionó la casilla de verificación **Consentimiento de los padres recibido**. Un administrador puede configurarlo utilizando la guía **Cambiar configuración de registro** y también eligiendo la casilla de verificación **Registrar modificación para el consentimiento de los padres** en la tarjeta de **Contacto**. Para obtener más información, vea [Registrar cambios](across-log-changes.md).  
 
-### <a name="see-also"></a>Consulte también
+### Consulte también
 
 <!-- [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->

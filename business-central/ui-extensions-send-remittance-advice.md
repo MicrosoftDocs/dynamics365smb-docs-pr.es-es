@@ -3,15 +3,13 @@ title: Extensión Enviar de aviso de pago | Documentos de Microsoft
 description: 'Describe la extensión Enviar aviso de pago, que permite enviar por correo electrónico y reenviar el aviso de pago desde el diario de pagos y los movimientos de proveedores.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advice'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-remittance-advice"></a>Enviar aviso de pago
+# Enviar aviso de pago
 
 Cuando se utiliza el aviso de pago para notificar a los proveedores de los pagos que se están realizando, ahora puede enviar el aviso de pago por correo electrónico en bloque desde el diario de pagos, así como volver a enviarlo después de que se hayan realizado los pagos desde las entradas de proveedores mediante el uso de perfiles de envío de documentos.
 
@@ -23,7 +21,7 @@ Puede enviar el aviso de pago de dos maneras diferentes:
 * En la página **Diario de pagos**, seleccione **Relacionado**, **Pagos**, **Enviar aviso de remesa** para enviar por correo electrónico el aviso de remesa para una o varias líneas del diario de pagos
 * En la página **Movs. proveedores**, elija **Acciones**, **Funciones**, **Enviar aviso de pago** para enviar por correo electrónico un aviso de pago después de registrar los pagos del proveedor, para uno o varios movimientos de proveedores.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Proponer pagos a proveedores](payables-how-suggest-vendor-payments.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
