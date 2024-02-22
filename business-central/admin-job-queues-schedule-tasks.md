@@ -63,16 +63,19 @@ La siguiente tabla describe los valores del campo **Estado**.
 |--|--|
 | Preparado | La entrada de la cola de proyectos está lista para ejecutarse. |
 | En proceso | El movimiento de la cola de proyectos está en proceso. Este campo se actualiza mientras la cola de proyectos se está ejecutando. |
-| En espera | Estado predeterminado del movimiento de cola de proyectos cuando se crea. Elija la acción **Establecer estado en Preparado** para cambiar el estado a **Preparado**. Elija la acción **Establecer en espera** para cambiar el estado de nuevo a **Esperar**. |
-| Error | Hubo un problema. Elija **Mostrar mensaje de error** para mostrar el mensaje de error. |
+| En espera | Estado predeterminado del movimiento de cola de proyectos cuando se crea. Elija la acción **Establecer estado en Preparado** para cambiar el estado a **Preparado**. Elija la acción **Establecer en espera** para cambiar el estado de nuevo a **Esperar**. Para obtener más información, consulte [Acerca de En espera](#about-on-hold).|
+| Error | Ha habido un problema. Elija **Mostrar mensaje de error** para mostrar el mensaje de error. |
 | Terminado | El movimiento de la cola de proyectos se ha terminado. |
 
-> [!Tip]  
+> [!TIP]  
 > Las entradas de la cola de trabajos dejan de ejecutarse cuando hay un error. Por ejemplo, esto puede ser un problema cuando una entrada se conecta a un servicio externo, como una fuente bancaria. Si el servicio no está disponible temporalmente y la entrada de la cola de trabajos no se puede conectar, la entrada mostrará un error y dejará de ejecutarse. Tendrá que reiniciar manualmente la entrada de la cola de proyectos. Sin embargo, los campos **Número máximo de intentos** y **Retardo de repetición (s)** pueden ayudarle a evitar esta situación. El campo **Número máximo de intentos** le permite especificar cuántas veces puede fallar la entrada de la cola de trabajos antes de que deje de intentar ejecutarse. El campo **Retardo de repetición (s)** le permite especificar la cantidad de tiempo, en segundos, entre intentos. La combinación de estos dos campos podría mantener la entrada de la cola de trabajos en ejecución hasta que el servicio externo esté disponible.
 
+### Acerca de En espera
+
+Ajustar una entrada de la cola de trabajos a **En espera** no afecta un trabajo que ya se está ejecutando. Una vez que un trabajo se ha iniciado en la cola de trabajos, continúa ejecutándose hasta su finalización, independientemente de cualquier cambio posterior realizado en la entrada de la cola de trabajos, como ponerlo en espera.<br><br>El estado **En espera** se utiliza normalmente para evitar que un trabajo se inicie automáticamente cuando llega a su hora de inicio programada. Le permite pausar temporalmente la ejecución de un trabajo antes de que comience a procesarse. Sin embargo, una vez que un trabajo ya está en marcha, cambiar el estado a "En espera" no interrumpirá ni afectará a la ejecución del trabajo.<br><br>Si necesita detener o cancelar un trabajo en ejecución, puede hacerlo interviniendo manualmente en el proceso, por ejemplo, finalizando la sesión correspondiente o el proceso responsable de ejecutar el trabajo.
 ### Para ver el estado de un proyecto
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de cola de proyectos** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Movimientos de cola de proyectos** y luego elija el enlace relacionado.
 2. En la página **Movs. cola proyectos**, seleccione un movimiento de la cola de proyectos y luego elija la acción **Registrar movs**.  
 
 > [!TIP]

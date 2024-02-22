@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Los campos **Fecha del documento** y **Fecha de publicación** en los documentos de compra y venta pueden ayudarle a cumplir con las normas contables y garantizar cálculos financieros precisos. Los campos tienen diferentes propósitos:
+Los campos **Fecha del documento** y **Fecha de publicación** en los documentos de compra y venta le ayudan a cumplir con las normas contables y obtener cálculos financieros precisos. Los campos tienen diferentes propósitos:
 
 - Para que [!INCLUDE [prod_short](prod_short.md)] calcule correctamente los cargos financieros y el importe adeudado en las facturas de venta, la **Fecha del documento** debe coincidir con una de las siguientes fechas:
 

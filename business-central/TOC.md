@@ -1560,9 +1560,10 @@ ms.service: dynamics-365-business-central
 #### [Configurar transportistas](sales-how-to-set-up-shipping-agents.md)
 #### [Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)
 #### [Actualizar fechas de documentos con fechas de registro](across-link-doc-dates-to-posting-dates.md)
-### Configurar compradores
-#### [Configurar compradores](purchasing-setup-purchasing.md)
-#### [Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)
+#### [Mostrar una advertencia por falta stock](sales-setup-show-stockout-warning.md)
+### Configurar compra
+#### [Configurar compra](purchasing-setup-purchasing.md)
+#### [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md)
 #### [Configurar las cuentas bancarias de proveedores](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Dar prioridad a proveedores](purchasing-how-prioritize-vendors.md)
 #### [Configurar compradores](purchasing-how-setup-purchasers.md)

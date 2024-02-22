@@ -38,13 +38,13 @@ sections:
           | Acciones en la barra de acciones | Solo se muestran las acciones promocionadas. | Solo se muestran las acciones promocionadas. |  |
           | Cuadros informativos | No se muestra en las páginas de la lista ni en las hojas de trabajo. | No se muestra en las páginas de la lista ni en las hojas de trabajo. | Lista `Customer` en el área de trabjao `Small Business`. |
           | Filtros avanzados | No está disponible ningún filtrado específico de columna. | No está disponible ningún filtrado específico de columna. | Sobre la página de lista `Customer`. |
-          | Dígame | Debe estar habilitado en [Gestión de funciones](/dynamics365/business-central/dev-itpro/administration/feature-management) utilizando el interruptor **Característica: busque páginas y datos en la aplicación móvil**. La sección **Obtener desde Microsoft AppSource** en los resultados de aplicaciones no está disponible. | Igual que las tabletas | Vea [Búsqueda de páginas e información con Dígame](ui-search.md). |  |
-          | Explorador de roles | No disponible todavía. | No disponible todavía. | Vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md). |
+          | Dígame | Debe estar habilitado en [Gestión de funciones](/dynamics365/business-central/dev-itpro/administration/feature-management) utilizando el interruptor **Característica: busque páginas y datos en la aplicación móvil**. La sección **Obtener desde Microsoft AppSource** en los resultados de aplicaciones no está disponible. | Igual que las tabletas | Vaya a [Búsqueda de páginas e información con Dígame](ui-search.md). |  |
+          | Explorador de roles | No disponible todavía. | No disponible todavía. | Vaya a [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md). |
           | Campos de fichas desplegables | No se muestran los campos en FastTabs en las páginas de lista. Solo el control del repetidor se muestra en el área de contenido de la página. | No disponible. |  |
           | Seleccionar de la lista completa | No disponible en búsquedas. Los usuarios no pueden ejecutar acciones en una página de búsqueda y no pueden acceder al conjunto completo de registros. | No disponible en búsquedas. Los usuarios no pueden ejecutar acciones en una página de búsqueda y no pueden acceder al conjunto completo de registros. | En `Item Card` al seleccionar **Unidades de medida base**. |
-          | Buscar en las columnas de la lista | Compatible parcialmente. La búsqueda no incluirá FlowFields. | Compatible parcialmente. La búsqueda no incluirá FlowFields. | Vea ejemplos en la página de lista `Customers`. |
-          | Búsquedas | Disponible. | Disponible, con la diferencia de que las búsquedas avanzadas y simples se comportan de manera similar en el teléfono. La búsqueda no mostrará la tarjeta, no mostrará FactBoxes ni ningún grupo de campos. | Vea ejemplos en la página `Customer Card`. |
-          | Controles de matriz | No disponible. | No disponible. | Vea el ejemplo en `G/L Budget`. |
+          | Buscar en las columnas de la lista | Compatible parcialmente. La búsqueda no incluirá FlowFields. | Compatible parcialmente. La búsqueda no incluirá FlowFields. | Vaya a ejemplos en la página de lista `Customers`. |
+          | Búsquedas | Disponible. | Disponible, con la diferencia de que las búsquedas avanzadas y simples se comportan de manera similar en el teléfono. La búsqueda no mostrará la tarjeta, no mostrará FactBoxes ni ningún grupo de campos. | Vaya a ejemplos en la página `Customer Card`. |
+          | Controles de matriz | No disponible. | No disponible. | Vaya al ejemplo en `G/L Budget`. |
           | Descarga de archivos | Disponible. No se pueden descargar varios archivos al mismo tiempo. | Disponible. No se pueden descargar varios archivos al mismo tiempo. | Informe `Trial Balance` en la casilla **Imprimir en Excel**. |
           | Páginas de hoja de trabajo | Disponible. | No disponible; se muestra un mensaje de error. | Hoja de trabajo `Sales Price` o `Cash Flow`. |
           | Listas | Disponible. | Disponible, con la diferencia de que se muestran en un diseño de ladrillo. | Páginas de clientes o pedidos de venta. |
@@ -53,15 +53,15 @@ sections:
       - question: |
           ¿Es la misma experiencia en tabletas y teléfonos?
         answer: |
-          Casi, pero no del todo. Vea la lista en la sección [¿Es la misma experiencia en las aplicaciones que en el navegador?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
+          Casi, pero no del todo. Vaya a la lista en la sección [¿Es la misma experiencia en las aplicaciones que en el navegador?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
       - question: |
           ¿Puedo conectar la aplicación a nuestra solución local?
         answer: |
-          Sí que puede. Es una forma ligeramente diferente de iniciar sesión, eso es todo. Para obtener más información, consulte [Usar Business Central local](install-mobile-app.md#use-business-central-on-premises).  
+          Sí que puede. Es una forma ligeramente diferente de iniciar sesión, eso es todo. Para obtener más información, vaya a [Usar Business Central local](install-mobile-app.md#use-business-central-on-premises).  
       - question: |
           ¿Puede un usuario invitado utilizar la aplicación para acceder a nuestra solución Business Central?
         answer: |
-          No. Los usuarios invitados son usuarios invitados de inquilinos diferentes de Microsoft Entra del suyo. En este caso, la aplicación se autenticará en el inquilino Microsoft Entra principal del usuario invitado e intentará abrir el punto final de Business Central en ese inquilino en lugar del suyo.  
+          N.º Los usuarios invitados son usuarios invitados de inquilinos diferentes de Microsoft Entra del suyo. En este caso, la aplicación se autenticará en el inquilino Microsoft Entra principal del usuario invitado e intentará abrir el punto final de Business Central en ese inquilino en lugar del suyo.  
 additionalContent: |
 
   ## Consulte también .
