@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 01/15/2024
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Personalizar su área de trabajo
+# Personalizar su área de trabajo
 
 Puede personalizar el área de trabajo para que se adapte a sus preferencias y trabajo. Cambie las páginas para que muestren solo la información que necesita, donde la necesita. La personalización afecta solo a su espacio de trabajo. No cambia la forma en que otros trabajan. Puede personalizar todo tipo de páginas, incluida la página [Área de trabajo](ui-change-basic-settings.md#role-center).
 
@@ -27,13 +27,13 @@ Puede realizar varios cambios, como mover u ocultar campos, columnas, acciones y
 > Los administradores pueden hacer los mismos cambios de diseño que los usuarios al personalizar el perfil (rol) que se asigna a varios usuarios. Para obtener más información sobre las páginas para roles, vaya a [Personalizar páginas para roles](ui-personalization-manage.md)<br /><br />
 Los administradores también pueden anular o deshabilitar la personalización de los usuarios y pueden definir qué características están incluso disponibles para que los usuarios las vean en todas las empresas o en empresas específicas. Para obtener más información, consulte [Personalizar Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Vídeo
+## Vídeo
 
 El siguiente video muestra algunas de las formas en que puede personalizar su área de trabajo.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="change-the-width-of-a-column"></a>Para cambiar el ancho de una columna
+## Para cambiar el ancho de una columna
 
 Puede cambiar fácilmente el tamaño de las columnas en cualquier lista. Solo tiene que arrastrar el límite entre dos columnas a la izquierda o derecha.  
 
@@ -42,7 +42,7 @@ Puede cambiar fácilmente el tamaño de las columnas en cualquier lista. Solo ti
 
 En cuanto a otra personalización, los cambios que efectúe en el ancho de columna se almacenan en su cuenta y le siguen sin importar en qué dispositivo inicie sesión.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Empezar a personalizar utilizando el modo de personalización
+## Empezar a personalizar utilizando el modo de personalización
 
 1. Abra cualquier página que quiera personalizar.
 1. En la esquina superior derecha, seleccione el icono ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") , y luego elija la acción **Personalizar**.
@@ -60,14 +60,14 @@ En cuanto a otra personalización, los cambios que efectúe en el ancho de colum
 
 Para obtener más información, consulte [Qué puede personalizar](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Qué puede personalizar
+## <a name="What"></a>Qué puede personalizar
 
 |Qué desea hacer|Cómo hacerlo|Comentarios|
 |----|------------|-------|
 |Mover algo, un campo, una columna de la lista, un icono, una acción o una parte a otro lugar de la página|Señale en cualquier lugar qué desea mover y arrástrelo a su nueva posición. Una línea vertical u horizontal gruesa indica la posición.<br /><br />![Icono No se puede mover aquí](media/personalization-cannot-move-here.png "Modo de personalización: icono No se puede mover aquí") indica que no puede mover el elemento a la posición seleccionada.|Las piezas son subdivisiones o áreas en una página que contienen elementos como múltiples campos, otra página, un gráfico o iconos.<br /><br />[Más información sobre cómo personalizar acciones](#Actions)<br>[Más información sobre cómo personalizar partes](#Parts)|
 |Ocultar un elemento que se muestra actualmente, como un campo, una columna en una lista, un mosaico, una acción o una parte.|Seleccione el elemento, seleccione la punta de flecha y luego seleccione <b>Ocultar</b>.|En el modo de personalización, las acciones ocultas aparecen atenuadas con texto en cursiva y las partes ocultas están sombreadas por líneas diagonales. Los campos y columnas ocultos no se indican directamente en la página, pero puede localizarlos usando el panel <b>Agregar campo a página</b> ([más información sobre campos de trabajo](#fields)).<br><br>Cuando salga del modo de personalización, todos los elementos desaparecerán de la vista. Si el campo que oculta también se muestra en el encabezado de la ficha desplegable cuando está contraída, el campo ya no aparece allí.|
 |Mostrar una acción o parte que actualmente está oculta|Para un elemento atenuado (oculto), elija la punta de flecha y luego elija <b>Mostrar</b>.|El elemento oculto vuelve a estar visible.|
-|Mostrar un campo que actualmente está oculto|En el banner <b>Personalización</b>, elija la acción <b>+ Campo</b>.<br /></br>El panel <b>Agregar campo a página</b> se abre en el lado derecho de la página. Si selecciona un campo en el panel, su ubicación oculta aparece en la página.<br /><br />Para mostrar un campo, arrástrelo desde el panel o desde su ubicación oculta a la posición que desee. La posición se indica con una fina línea vertical u horizontal.<br><br> Otra forma es seleccionar la punta de flecha en la ubicación oculta del campo y seleccionar **Mostrar**. |Cada página incluye un conjunto predefinido de campos que puede elegir mostrar.<br /><br />[Más información sobre los campos de trabajo](#fields) |
+|Agregar un campo que actualmente está oculto|En el banner <b>Personalización</b>, elija la acción <b>+ Campo</b>.<br /></br>El panel <b>Agregar campo a página</b> se abre en el lado derecho de la página. Si selecciona un campo en el panel, su ubicación oculta aparece en la página.<br /><br />Para agregar un campo, arrástrelo desde el panel o desde su ubicación oculta a la posición que desee. La posición se indica con una fina línea vertical u horizontal.<br><br> Otra forma es seleccionar la punta de flecha en la ubicación oculta del campo y seleccionar **Mostrar**. |Cada página incluye un conjunto predefinido de campos que puede elegir mostrar.<br /><br />[Más información sobre los campos de trabajo](#fields) |
 |Muestre un campo de la cabecera de una ficha desplegable cuando está contraída.|Elija la punta de flecha y, a continuación, seleccione <b>Mostrar cuando se contrae</b>. <br /> <br />Si no hace ve esta opción, significa que ya está establecida. En este caso, para dejar de mostrar el campo del encabezado de la ficha desplegable, elija <b>Mostrar siempre</b>.|*Ficha desplegable* es el término que se utiliza para un grupo de campos que aparecerán bajo un encabezado común. Utilice la opción <b>Mostrar cuando se contrae</b> para mostrar los campos más importantes. Si selecciona un campo del encabezado, se abre la ficha desplegable y se centra en el campo seleccionado.<br /><br />Esta opción solo es aplicable si una página tiene una más de una ficha desplegable. Si hay solo una ficha desplegable, no se puede contraer, por lo que la opción <b>Mostrar cuando se contrae</b> no está disponible.|
 |Hacer que un campo se muestre solo cuando seleccione **Mostrar más**.|Elija la punta de flecha y, a continuación, seleccione <b>Mostrar en "Mostrar más"</b>.|Si no ve la opción <b>Mostrar en "Mostrar más"</b>, significa que el campo ya está establecido. En este caso, para que un campo se muestre siempre, no solo al seleccionar **Mostrar más**, elija <b>Mostrar siempre</b>.|
 |Cambie si un campo se puede editar o no.|Seleccione el campo, la punta de flecha en el campo y, a continuación, <b>Bloquear edición</b> para evitar el cambio del valor del campo o <b>Desbloquear edición</b> para permitir los cambios del valor del campo.|Solo puede desbloquear campos que haya bloqueado anteriormente. Algunos campos están bloqueados de forma predeterminada, ya sea por diseño o por un administrador de perfil que ha [personalizado la página](ui-personalization-manage.md). Estos campos no se pueden desbloquear.|
@@ -77,7 +77,7 @@ Para obtener más información, consulte [Qué puede personalizar](#What).
 |Agregue una nueva acción a una página o informe en su Área de trabajo.|Desde la página de destino, la página de solicitud de informe o la ventana Avisarme, elija el icono de marcador.|[Más información sobre cómo establecer marcadores para páginas e informes](ui-bookmarks.md)|
 |Siempre empiece una lista como expandida o contraída|Elija el botón **Expandir todo** o **Contraer todo** en la esquina superior izquierda de la lista. Alternativamente, elija la acción **Expandir todo** o **Contraer todo** en el menú de la primera columna. |Se aplica a las listas jerárquicas contraíbles.|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Personalizar la barra de acciones y los menús
+## <a name="Actions"></a>Personalizar la barra de acciones y los menús
 
 La personalización le permite decidir qué acciones se mostrarán en las barras de navegación y acciones y en las áreas de trabajo y dónde se mostrarán. Puede mostrar, ocultar o mover acciones individuales o grupos de acciones.
 
@@ -96,7 +96,7 @@ Una *categoría promocionada* es un grupo de acciones que antes de la línea ver
 > [!NOTE]  
 > Para borrar la personalización, seleccione la punta de flecha alrededor del menú del diseñador de la pieza y luego elija **Borrar personalización**.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Eliminar, ocultar y mostrar acciones y grupos de acciones
+### Eliminar, ocultar y mostrar acciones y grupos de acciones
 
 Cuando desee mostrar u ocultar una acción, las opciones situadas debajo de la punta de flecha definen lo que puede hacer dependiendo del estado de la acción. 
 
@@ -109,7 +109,7 @@ Cuando desee mostrar u ocultar una acción, las opciones situadas debajo de la p
 |**Ocultar**|Esta opción aparece si la acción o el grupo de acciones no se encuentra en otro lugar de la barra de navegación o barra de acciones. Como **Eliminar**, al elegir esta opción se provoca que la acción o el grupo de acciones desaparezca de la barra de navegación o barra de acciones. No obstante, en el modo de personalización, aún se muestra la acción o el grupo de acciones en la posición actual, excepto que aparece atenuada.|
 |**Mostrar**|Esta opción aparece si la acción o el grupo de acciones están ocultos (atenuados). Al elegir esta opción se provoca que la acción o el grupo de acciones aparezca en la barra de navegación o barra de acciones.|
 
-### <a name="move-actions-and-action-groups"></a>Mover acciones y grupos de acciones
+### Mover acciones y grupos de acciones
 
 El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante una línea horizontal entre dos acciones o un borde alrededor de un grupo de acciones. Existen las siguientes limitaciones:
 
@@ -119,7 +119,7 @@ El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante
 1. Para mover una acción o grupo de acciones, arrástrelo y suéltelo en la posición deseada, igual que hace con los campos y columnas.
 2. Para mover una acción o un grupo de acciones a otro grupo de acciones que está vacío, arrastre la acción o el grupo de acciones al nuevo grupo y colóquelo en el cuadro **Colocar aquí una acción** .
 
-### <a name="about-the-automate-menu"></a>Acerca del menú Automatizar
+### Acerca del menú Automatizar
 
 - No puede ocultar ni mover el menú **Automatizar** o el submenú **Power Automate** y sus acciones.
 - Puede mover los flujos incluidos en el elemento **Automatizar**, pero no puede ocultarlos mediante la personalización. Mover el flujo hace una copia del flujo al destino, no lo elimina del elemento **Automatizar**.
@@ -127,7 +127,7 @@ El lugar donde se pueden soltar acciones o grupos de acciones se indica mediante
 > [!TIP]
 > Como administrador, puede ocultar el elemento **Automatización** de los usuarios. Obtenga más información en [Configurar la integración de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Personalizar partes
+## <a name="Parts"></a>Personalizar partes
 
 Apunte a o seleccione <kbd>Alt</kbd>+<kbd>Flecha hacia arriba</kbd> Las partes son áreas de una página que normalmente se componen de varios campos, gráficos u otro contenido. Una parte muestra un borde de color cuando se enfoca en la parte. Por ejemplo, una pantalla de inicio del Área de trabajo tiene varias partes. Debido a su límite bien definido, puede personalizar toda la parte, así como su contenido.
 
@@ -137,9 +137,9 @@ Apunte a o seleccione <kbd>Alt</kbd>+<kbd>Flecha hacia arriba</kbd> Las partes s
 
 Puede borrar todos los cambios de personalización que haya realizado en una sola parte seleccionando la opción **Borrar personalización** bajo la punta de flecha de la parte. Borrar la personalización de una parte solo afecta a los cambios en el contenido de la parte, no a la ubicación ni a la visibilidad de la parte en la página.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Trabajar con campos y columnas
+## <a name="fields"></a> Trabajar con campos y columnas
 
-Al personalizar una página, utiliza el panel **Agregar campo a página** para mostrar los campos que actualmente están ocultos en la página. Para abrir este panel, seleccione la acción **+ Campo** cerca de la parte superior de la página. A diferencia de otros elementos ocultos, los campos ocultos no se indican en la propia página en modo de personalización. Sin embargo, puede identificar campos ocultos utilizando el panel **Agregar campo a página**.
+Al personalizar una página, utiliza el panel **Agregar campo a página** para incluir campos o columnas en la página que actualmente están ocultos de la vista. Para abrir este panel, seleccione la acción **+ Campo** cerca de la parte superior de la página. A diferencia de otros elementos ocultos, los campos ocultos no se indican en la propia página en modo de personalización. Sin embargo, puede identificar campos ocultos utilizando el panel **Agregar campo a página**.
 
 Aquí hay algunas pautas generales para seguir al usar el panel **Agregar campo a página**:
 
@@ -152,14 +152,17 @@ Aquí hay algunas pautas generales para seguir al usar el panel **Agregar campo 
 - Los campos disponibles en el panel **Agregar campo a página** los determina el desarrollador de la página y su tabla de origen, o un administrador de perfil que haya [personalizado la página](ui-personalization-manage.md). No puede crear campos ni columnas nuevos.
 - Algunas páginas tienen varios campos de página que se asignan a la misma tabla de origen. El panel muestra ambos/todos esos campos de página de forma independiente. Mostrar/ocultar/mover esos campos también es independiente sin que uno afecte al otro.
 
-### <a name="add-a-field-so-its-visible-on-the-page"></a>Hacer visible un campo oculto
+### Agregar un campo para que sea visible en la página
 
-Hay dos formas de mostrar un campo que actualmente está oculto en la página:
+Desde el panel **Agregar campo a la página**, hay dos formas de incluir un campo que actualmente está oculto en la página:
 
 - Arrastre el campo a la posición deseada. Una línea vertical u horizontal gruesa indica la ubicación de destino.
 - Seleccione el campo en la lista, luego vaya al campo sombreado de la página y seleccione la opción **Mostrar**.
 
-## <a name="clear-personalization"></a>Borrar personalización
+> [!NOTE]
+> Algunos campos que agregue no serán editables en la página cuando haya terminado con la personalización. Estos campos se diseñaron originalmente de esta manera o un administrador [personalizó](ui-personalization-manage.md) la página para evitar que usted los edite.
+
+## Borrar personalización
 
 En algún momento, es posible que desee borrar algunos o todos los cambios de personalización que hizo en esta página a lo largo del tiempo.
 
@@ -176,7 +179,7 @@ En algún momento, es posible que desee borrar algunos o todos los cambios de pe
 |**Solo campos y columnas**|Borra todos los cambios de personalización que haya realizado en la página excepto cambios en la barra de navegación o de acciones. Tales cambios incluyen cambios en los campos, columnas, piezas e iconos. |
 |**Todo**|Borra todos los cambios de personalización que haya realizado para que se parezca a la original. Tales cambios incluyen cambios en las barras de navegación y de acciones, campos, columnas, partes e iconos.|
 
-## <a name="tips-and-other-points-of-interest"></a>Sugerencias y otros puntos de interés
+## Sugerencias y otros puntos de interés
 
 Para ayudarle a comprender mejor la personalización, le presentamos algunos consejos.
 
@@ -187,7 +190,7 @@ Para ayudarle a comprender mejor la personalización, le presentamos algunos con
 - Algunas páginas tienen varios campos de página que se asignan a la misma tabla de origen. El panel mostrará ambos o todos esos campos de página de manera independiente. Mostrar/ocultar/mover esos campos también es independiente sin que uno afecte al otro.
 - Si una parte o grupo está oculto, los campos fantasma todavía se mostrarán dentro, pero no podrá arrastrar y soltar ni agregar/mostrar ese campo hasta que haga visible el grupo/parte.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Personalizar páginas para perfiles](ui-personalization-manage.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
