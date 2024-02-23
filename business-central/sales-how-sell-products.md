@@ -2,13 +2,14 @@
 title: Crear un pedido de venta de cliente y vender productos
 description: Describe cómo crear un pedido de venta para registrar el acuerdo con un cliente para vender o comerciar productos con condiciones específicas.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Vender productos con un pedido de venta de cliente
 
@@ -89,6 +90,12 @@ El producto relacionado y los movimientos de cliente se han creado ahora en su s
 ## Número de documento externo
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Trabajo con campos de importes
+
+Los valores en los campos que muestran importes pueden ser positivos o negativos, dependiendo de si el valor representa un crédito o un débito. Este video muestra cómo trabajar con campos que muestran importes.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Consulte también
 
