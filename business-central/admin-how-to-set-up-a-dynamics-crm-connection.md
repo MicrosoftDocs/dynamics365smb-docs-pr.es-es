@@ -212,7 +212,7 @@ Para conectarse usando una cuenta de Microsoft Entra, debe registrar una aplicac
 
 Se parte de la base que para los siguientes pasos está usando Microsoft Entra ID para gestionar identidades y accesos. Para obtener más información sobre cómo registrar una aplicación en Microsoft Entra ID, vea [Inicio rápido: Registrar una aplicación con la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
-1. En el Portal de Azure, en **Administrar** en el oanel de navegación, elija **Autenticación**.  
+1. En el Portal de Azure, en **Administrar** en el panel de navegación, elija **Autenticación**.  
 2. En **Redirigir URL**, agregue la URL de redireccionamiento que se sugiere en la página **Configuración de la conexión de Dataverse** en [!INCLUDE[prod_short](includes/prod_short.md)].
 3. En **Administrar**, elija **Permisos de API**.
 4. En **Permisos configurados**, elija **Agregar un permiso**, y luego agregue permisos delegados en la pestaña **API de Microsoft** de la siguiente manera:
