@@ -7,7 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'posting setup, initialize'
 ms.search.form: '312, 313'
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -111,9 +111,21 @@ De esta manera, cuando trabaje en un documento que usa un grupo contable o una c
 > [!NOTE]
 > Para llevarlo directamente al grupo contable o configuración al que le falta una cuenta de contabilidad general, [!INCLUDE[prod_short](includes/prod_short.md)] creará una configuración o grupo contable que servirá como marcador. Los grupos contables y las configuraciones son una forma para que el contable controle cómo se registran los movimientos en la contabilidad general, por lo que es posible que la creación al momento de grupos contables y configuraciones no esté permitida en su organización.  
 >
-> En ese caso, desactive la notificación *Cuenta C/G que falta en grupo de registro o configuración* y, a continuación, trabaje con su contable para realizar los cambios relevantes en el grupo contable, la configuración o su documento. Este es un paso importante, porque una vez que se contabilizan los documentos, los grupos contables o configuraciones incorrectamente utilizados no se pueden eliminar porque se han creado movimientos de contabilidad general para ellos.
+> En ese caso, desactive la notificación *Cuenta C/G que falta en grupo de registro o configuración* y, a continuación, trabaje con su contable para realizar los cambios relevantes en el grupo contable, la configuración o su documento. Este es un paso importante, porque después de que se contabilizan los documentos, no puede eliminar los grupos contables o configuraciones incorrectamente utilizados porque se han creado movimientos de contabilidad general para ellos.
 
-A partir del primer lanzamiento de versiones de 2022, puede usar el campo **Bloqueado** en la página **Configuración grupos contables** para evitar que los usuarios utilicen por error una configuración que ya no es pertinente para los nuevos registros.  
+Use el campo **Bloqueado** en la página **Configuración grupos contables** para evitar que los usuarios utilicen por error una configuración que ya no es pertinente para los nuevos registros. 
+
+## Acceda a todos los campos y cuentas cuando configure un grupo de publicación  
+
+Los grupos de publicación pueden ser complejos de configurar. Debido a que algunos tipos de cuentas no se usan con frecuencia, [!INCLUDE [prod_short](includes/prod_short.md)] no las muestra como columnas en las líneas. Además, para que sea un poco más fácil elegir las cuentas adecuadas, [!INCLUDE [prod_short](includes/prod_short.md)] filtra las cuentas que puedes elegir en las búsquedas de campos. 
+
+Si desea acceder a todas las cuentas en las líneas y en las búsquedas de campo, hay un par de configuraciones que pueden ayudar:
+
+* Para mostrar todas las cuentas como columnas en las líneas, active la opción **Mostrar todas las cuentas** .
+* En líneas individuales, para acceder a todas las cuentas en las búsquedas de campo, seleccione la casilla de verificación **Ver todas las cuentas en la búsqueda** .
+
+> [!NOTE]
+> Es posible que la opción **Mostrar todas las cuentas** no funcione en la página **Configuración general de publicaciones** . Esto se debe a que [!INCLUDE [prod_short](includes/prod_short.md)] siempre muestra todas las cuentas como columnas en las líneas de esa página.
 
 ## Solución de problemas de errores de grupos de publicación
 
