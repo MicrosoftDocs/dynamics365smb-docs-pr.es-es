@@ -4,7 +4,7 @@ description: Varios escenarios de integración para demostrar el flujo de trabaj
 ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126'
+ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157'
 ms.reviewer: solsen
 author: brentholtorf
 ms.author: bholtorf
@@ -50,17 +50,17 @@ Siga estos pasos para configurar la tienda de Shopify:
 5. Active el conmutador **Inventario con seguimiento**.
 6. Seleccione *Denegar* en el campo **Política de inventario predeterminada** .
 7. Active el conmutador **Creación automática de clientes desconocidos**.
-8. Rellene el campo **Código de plantilla de cliente** con la plantilla adecuada.
+8. Rellene el campo **Código de plantilla de cliente/empresa** con la plantilla adecuada.
 9. Complete la **cuenta de gastos de envío**, la **Cuenta de propinas** con la cuenta de ingresos. Por ejemplo, en EE. UU., utilice `40210`.
 10. Active el conmutador **Creación automática de pedidos**.
+11. Desactive la opción **Liberación automática de pedidos de ventas**.
 
 Configurar asignación de ubicación:
 
 1. Seleccione la acción **Ubicaciones** para abrir **Ubicaciones de tienda de Shopify**.
-2. Seleccione la acción **Obtener ubicaciones de Shopify** para importar todas las ubicaciones definidas en Shopify. Seleccione su ubicación predeterminada en Shopify.
+2. Seleccione la acción **Obtener ubicaciones de Shopify** para importar todas las ubicaciones definidas en Shopify. Seleccione la entrada con el conmutador **Es principal** seleccionado.
 3. En **Filtro de ubicación**, introduzca `''|EAST|MAIN`
-4. Active la opción **Ubicación predeterminada del producto**.
-5. Seleccione *Saldo disponible previsto hoy* en el campo **Cálculo de stock** para habilitar una sincronización de inventario para una ubicación seleccionada de Shopify.
+4. Seleccione *Saldo disponible previsto hoy* en el campo **Cálculo de stock** para habilitar una sincronización de inventario para una ubicación seleccionada de Shopify.
 
 ## Tutorial: Comienzar a vender productos en línea
 
@@ -74,11 +74,11 @@ En [!INCLUDE[prod_short](../includes/prod_short.md)], siga estos pasos:
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de Shopify**, y luego seleccione el vínculo relacionado.
 2. Seleccione **Agregar productos**.
-3. En el campo **Código de tienda**, especifique *DEMO1*.
-4. Establezca el filtro `CHAIR` en el campo **Código de categoría del artículo** (agregue un campo de filtro si es necesario).
-5. Seleccione **Aceptar** y espere hasta que se complete la sincronización inicial de artículos y precios.
-6. Seleccione **Sincronizar imágenes de producto**.
-7. Seleccione **Sincronizar inventario**.
+3. En el campo **Código de tienda**, especifique `DEMO1`.
+4. Configure el filtro `CHAIR` en el campo **Código de categoría de artículo**.
+5. Active el botón de alternancia **Sincronizar imágenes de producto**.
+6. Active el conmutador **Sincronizar inventario**.
+7. Seleccione **Aceptar** y espere hasta que se complete la sincronización inicial de artículos, precios, imágenes e inventario.
 
 En la **Tienda en línea de Shopify**:
 > [!Tip]  
@@ -97,14 +97,13 @@ Seleccione **Cómprelo ahora** y proceda a pagar.
 2. En los campos **Nombre** y **Apellido**, introduzca `Claudia Lawson`.
 3. Introduzca la dirección local.
 4. Seleccione la casilla de verificación **Guardar esta información para la próxima vez**.
-5. Seleccione **Continuar con el envío**.
-6. Mantenga `Standard` como método de envío y luego seleccione el botón **Continuar con el pago** .
-7. Seleccione la propina `10%`.
-8. En el campo **Tarjeta de crédito**, introduzca `1` si usa *(para probar) Bogus Gateway*, o introduzca `5555 5555 5555 4444`; si usa *Shopify Payments* en modo de prueba.
+6. Mantenga *Estándar* como método de envío.
+8. En el campo **Número de tarjeta de crédito**, introduzca `1` si usa *(para probar) Bogus Gateway*, o introduzca `5555 5555 5555 4444`; si usa *Shopify Payments* en modo de prueba.
 9. Complete el campo **Nombre en la tarjeta**.
 10. En el campo **Fecha de vencimiento**, ingrese el mes/año actual.
 11. En el **Código de seguridad**, especifique `111`.
-12. Seleccione **Pagar ahora**.
+7. Opcional: seleccione la propina `10%`.
+8. 12. Seleccione **Pagar ahora**.
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], realice los siguientes pasos:
 
@@ -118,8 +117,7 @@ El pedido importado está listo para ser procesado.
 2. Observe que se crean el nuevo cliente y los pedidos de ventas.
 3. Explore las acciones **Riesgo** y **Coste de envío** .
 4. Seleccione **Pedido de ventas** para abrir la ventana **Pedido venta**. El pedido de venta es una demanda que, si es necesario, se puede cubrir con ensamblaje, producción o compra con la ayuda del motor de planificación. También es compatible con varios procesos de manejo de almacén con separación completa de funciones.
-5. Seleccione la acción **Volver a abrir**.
-6. En el campo **Agente**, introduzca `DHL`.
+6. En el campo **Agente**, introduzca `DHL`. Vuelva a abrir el pedido si es necesario eligiendo la acción **Reabrir**.
 7. En el campo **Nº seguimiento bulto**, escriba `123456789`.
 8. Seleccione **Registrar**, mantenga la opción **Enviar y facturar** y, a continuación, seleccione **Aceptar**.
 
@@ -130,27 +128,43 @@ Ahora los datos físicos y financieros se registran en [!INCLUDE[prod_short](../
 
 En **Administrador de Shopify**, observe que el pedido ahora está marcado como *Cumplido*. También puede revisar los detalles del envío y ver la URL de seguimiento allí. Si vuelve a ejecutar **Sincronizar pedidos desde Shopify**, el pedido se archivará en ambos sistemas.
 
-## Tutorial: invitar a los clientes a una nueva tienda en línea
+## Tutorial: Agregar los clientes a una nueva tienda en línea
 
 ### Escenario
 
-Después de un lanzamiento rápido y exitoso de su nueva tienda en línea, desea que sus clientes actuales la visiten y comiencen a realizar pedidos.
+Después de un lanzamiento rápido y exitoso de su nueva tienda en línea, desea que sus clientes actuales la visiten y comiencen a realizar pedidos. Dependiendo de su plan y proceso de Shopify, puede probar flujos B2B y D2C.
 
-### Pasos
+### Pasos de D2C
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
 
-1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego seleccione el vínculo relacionado.
-2. Seleccione la tienda **DEMO1** para la que desea sincronizar los clientes para abrir la página **Tarjeta de tienda de Shopify**.
-3. Seleccione **Sincronizar clientes**.
+1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes de Shopify** y luego seleccione el vínculo relacionado.
+2. Seleccione **Agregar clientes**.
+3. En el campo **Código de tienda**, especifique `DEMO1`.
+4. Establezca el filtro `20000` en **N.º** .
+5. Seleccione **Aceptar** y espere hasta que se complete la sincronización inicial de clientes.
 
-En **Administrador de Shopify**, observe que los clientes fueron importados. Abra uno de los clientes y observe que el nombre y el apellido del cliente provienen del campo **Nombre de contacto** de la **Tarjeta de cliente**. El nombre de la empresa se puede encontrar en la dirección predeterminada, vinculada al cliente. Seleccione **Enviar invitación a la cuenta** para invitar al cliente.
+En **Administrador de Shopify**, observe que el cliente se haya importado. Abra los clientes y observe que el nombre y el apellido del cliente provienen del campo **Nombre de contacto** de la **Tarjeta de cliente**. El nombre de la empresa se puede encontrar en la dirección predeterminada, vinculada al cliente. Si utiliza *Cuentas de clientes clásicas*, puede seleccionar **Enviar invitación a cuenta** para invitar al cliente. Con *Nuevas cuentas de clientes* no se requiere una contraseña para que los clientes inicien sesión; en cambio, Shopify permite que sus clientes inicien sesión usando un código de verificación de 6 dígitos enviado por correo electrónico. 
+
+### Pasos de B2B
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
+
+En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
+
+1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empresas de Shopify** y luego seleccione el vínculo relacionado.
+2. Seleccione **Agregar empresa**.
+3. En el campo **Código de tienda**, especifique `DEMO1`.
+4. Establezca el filtro `30000` en **N.º** .
+5. Seleccione **Aceptar** y espere hasta que se complete la sincronización inicial de clientes.
+
+En **Admin de Shopify**, observe que tanto la empresa como el cliente fueron importados. Abra los clientes y observe el cuadro de datos de la empresa con un enlace a la empresa, la ubicación y los permisos asignados. Seleccione **[...]** en el cuadro de datos **Empresa** y luego seleccione **Enviar correo electrónico de acceso B2B** para invitar al cliente.
 
 ## Tutorial: ajuste fino de la gestión de artículos
 
 ### Escenario 
 
-Le gustaría agregar más flexibilidad y control a sus procesos en torno a la gestión de productos. Desea mejorar las descripciones del producto y desea agregar más pasos de revisión antes de que los productos estén disponibles para los clientes.
+Le gustaría agregar más flexibilidad y control a sus procesos en torno a la gestión de productos. Desea mejorar las descripciones del producto y desea agregar más pasos de revisión antes de que los productos estén disponibles para todos los clientes.
 
 ### Pasos
 
@@ -162,20 +176,18 @@ Preparar datos.
 2. Agregue un grupo de precios nuevo. En el campo **Código**, especifique `SHOPIFY`.
 3. Cierre la ventana **Grupo de precios del cliente**.
 4. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego seleccione el vínculo relacionado.
+5. Seleccione el producto *1896-S, Athens Desk* y luego siga estos pasos:
 
-Seleccione el producto **1896-S, Athens Desk** y luego siga estos pasos:
-
-1. Seleccione la acción **Variantes** y luego agregue las dos variantes: `PREMIUM, Athens Desk, Premium edition` y `ESSENTIAL, Athens Desk, Essential edition`.
-2. Seleccione la acción **Texto extendido** y luego cree un nuevo texto extendido válido para todos los códigos de idioma. En el campo **Descripción** escriba `Shopify`. 
-3. Agregue el siguiente texto con etiquetas HTML: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Cierre la página **Texto extendido** y regrese a la ficha de producto.
-4. Seleccione la acción **Precios de venta** y agregue nuevos precios como se muestra en la siguiente tabla:
+6. Seleccione la acción **Variantes** y luego agregue las dos variantes: `PREMIUM, Athens Desk, Premium edition` y `ESSENTIAL, Athens Desk, Essential edition`.
+7. Seleccione la acción **Texto de marketing** y utilice el **Borrador con Copilot** para obtener un texto creativo y atractivo. Si la sugerencia de texto de marketing no está habilitada, simplemente ingrese: '**Diseño simple y elegante** combina con cualquier conjunto. *Disponible en dos ediciones*'. 
+8. Seleccione la acción **Precios de venta** y agregue nuevos precios como se muestra en la siguiente tabla:
 
    |Línea|Tipo venta|Código ventas|Tipo|Código|Cód. variante<br>(añadir el campo a través de la personalización)|Precio unitario|
-   |------|------------|------------|------------|------------|------------|------------|
+   |------|------------|------------|------------|----------------|------------|------------|
    |1|Grupo de precio de cliente|SHOPIFY|Artículo|1896-S|ESSENTIAL|700|
    |2|Grupo de precio de cliente|SHOPIFY|Artículo|1896-S|PREMIUM|1000|
 
-5. Seleccione la acción **Descuentos de ventas** y agregue un nuevo descuento:
+9. Seleccione la acción **Descuentos de ventas** y agregue un nuevo descuento:
 
    * **Tipo de venta** *Grupo de discos de cliente*
    * **Código de ventas** *RETAIL*
@@ -184,39 +196,39 @@ Seleccione el producto **1896-S, Athens Desk** y luego siga estos pasos:
    * **Código de unidad medida** *PCS*
    * **% de descuento en línea** *10*
 
-6. Seleccione la acción **Referencias de productos** y agregue las siguientes líneas:
+10. Seleccione la acción **Referencias de productos** y agregue las siguientes líneas:
 
    |Línea|Tipo referencia|N.º referencia|Cód. variante|
    |------|------------|------------|------------|
    |1|Código de barras|77777777|ESSENTIAL|
    |2|Código de barras|11111111|PREMIUM|
 
-
-Seleccione el producto **1920-S, ANTWERP Conference Table** y luego siga estos pasos:
-
-1. Seleccione **Ajustar inventario** y en el campo **Nuevo inventario**, ingrese `100` para las ubicaciones *ESTE* y *OESTE*. 
-2. Seleccione **Aceptar**.
+11. Seleccione el producto *1920-S, ANTWERP Conference Table* y luego siga estos pasos:
+12. Seleccione **Ajustar inventario** y en el campo **Nuevo inventario**, ingrese `100` para las ubicaciones *ESTE* y *OESTE*. 
+13. Seleccione **Aceptar**.
 
 Ajuste la configuración de sincronización.
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego seleccione el vínculo relacionado.
-2. Seleccione la tienda *DEMO1* para la que desea sincronizar artículos para abrir la página **Ficha de tienda de Shopify**.
-3. Seleccione *SHOPIFY* en el campo **Grupo de precios del cliente**.
-4. Seleccione *RETAIL* en el campo **Grupo de descuentos del cliente**.
-5. Habilite el campo **Texto extendido del elemento de sincronización**.
-6. Seleccione *Número de artículo + Código de variante* en el campo **Asignación de SKU**.
-7. Seleccione *Borrador* en el campo **Estado de productos creados**.
-8. Seleccione *Estado en archivado* en el campo **Acción para producto eliminado**.
-
+2. Seleccione la tienda `DEMO1` para la que desea sincronizar artículos para abrir la página **Tarjeta de tienda de Shopify**.
+3. Habilite el campo **Sincronizar texto de marketing**.
+4. Seleccione *Número de artículo + Código de variante* en el campo **Asignación de SKU**.
+5. Seleccione *Continuar* en el campo **Política de inventario predeterminada**.
+6. Seleccione *Borrador* en el campo **Estado de productos creados**.
+7. Seleccione *Estado en archivado* en el campo **Acción para producto eliminado**.
+8. Seleccione *SHOPIFY* en el campo **Grupo de precios del cliente**.
+9. Seleccione *RETAIL* en el campo **Grupo de descuentos del cliente**.
+ 
 Ejecute la sincronización.
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tiendas de Shopify** y luego seleccione el vínculo relacionado.
-2. Seleccione la tienda *DEMO1* para la que desea sincronizar artículos para abrir la página **Ficha de tienda de Shopify**.
+2. Seleccione la tienda `DEMO1` para la que desea sincronizar artículos para abrir la página **Tarjeta de tienda de Shopify**.
 3. Seleccione **Productos** para abrir la ventana **Productos de Shopify**.
 4. Seleccione la acción **Agregar artículos**.
 5. Configure el filtro *TABLE|DESK* en el campo **Código de categoría de artículo**.
-6. Seleccione **Sincronizar imágenes de producto**.
-7. Seleccione **Sincronizar inventario**.
+6. Active el botón de alternancia **Sincronizar imágenes de producto**.
+7. Active el conmutador **Sincronizar inventario**.
+8. Seleccione **Aceptar** y espere hasta que se complete la sincronización inicial de artículos, precios, imágenes e inventario.
 
 Se agregan productos. Tenga en cuenta que el estado se establece en *Borrador* y, por lo tanto, los artículos no están visibles en la tienda en línea Shopify.
 
@@ -239,7 +251,100 @@ Tenga en cuenta que el inventario de ANTWERP Conference Table es 100, porque con
 
 En la **Tienda online Shopify** abra el catálogo de productos y busque el producto *ATHENS Desk*. Tenga en cuenta que hay diferentes opciones disponibles. Para diferentes opciones, los precios son diferentes. Preste atención a la información de descuento.
 
-## Tutorial: Importar artículos desde Shopify
+### Pasos adicionales para B2B
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
+
+Puede configurar el conector para crear y asignar catálogos para empresas exportadas automáticamente. Los pasos siguientes son útiles si desea un control más preciso de lo que está disponible para los clientes B2B.
+
+En **Admin de Shopify**cree y asigne un catálogo.
+
+1. Seleccione **Productos** y luego **Catálogos** en la barra lateral del **Admin de Shopify**.
+2. Cree un catálogo para productos específicos. Indique el título 'B2B'. 
+3. Elija **Administrar** y luego **Administrar productos y precios**.
+4. Seleccione el filtro *Excluido*, busque *Escritorio ATHERN* y elija **Incluir en el catálogo**.
+5. Seleccione **Clientes** y luego **Empresas** en la barra lateral del **Admin de Shopify**.
+6. Seleccione *Escuela de Bellas Artes* y elija **[...]** y luego **Agregar catálogos** y agregue el catálogo *B2B* creado anteriormente.
+
+En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
+
+Preparar datos.
+
+1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego seleccione el vínculo relacionado.
+
+2. Seleccione el producto **1896-S, Athens Desk** y luego siga estos pasos:
+
+3. Seleccione la acción **Descuentos de ventas** y agregue un nuevo descuento:
+
+   * **Tipo de venta** *Grupo de discos de cliente*
+   * **Código de ventas** *LARGE ACC*
+   * **Tipo** *Producto*
+   * **Código** *1896-S*
+   * **Código de unidad medida** *PCS*
+   * **% de descuento en línea** *25*
+
+4. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Catálogos de Shopify**, y luego seleccione el vínculo relacionado.
+5. Seleccione **Obtener catálogos**.
+6. En el campo **Código de tienda**, especifique `DEMO1`.
+7. Seleccione la entrada con el nombre de catálogo *B2B* para el que desea sincronizar los precios.
+8. Habilite la opción **Sincronizar precios**.
+9. Seleccione *SHOPIFY* en el campo **Grupo de precios del cliente**.
+10. Seleccione *LARGE ACC* en el campo **Grupo de descuentos del cliente**.
+11. Elija **Sincronizar precios** y espere hasta que se complete la sincronización inicial de precios.
+
+En **Admin de Shopify**, explore los precios del catálogo *B2B*.
+
+En la **Tienda online Shopify** abra el catálogo de productos y busque el producto *ATHENS Desk*. Tenga en cuenta que los precios tienen información de descuento.
+
+## Tutorial: verificación y sincronización de pedidos para compradores individuales y representantes de empresas
+Esta es una continuación del [Tutorial: Comenzar a vender productos en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). También puede probar con sus propios datos, por ejemplo, su tienda Shopify o espacio aislado.
+
+Comprador individual
+
+1. En la **Tienda en línea de Shopify**. Elija el icono **Cuenta**. Ingrese el correo electrónico al que tiene acceso.
+2. Inicie sesión utilizando un código de verificación único de 6 dígitos enviado al correo electrónico que especificó.
+3. Explore el catálogo de productos, debería poder ver todos los productos con precios minoristas.
+4. Seleccione Variante esencial y seleccione **Comprarlo ahora** y proceda al pago.
+5. Rellene los campos **Nombre** y **Apellido**.
+6. Introduzca la dirección local.
+7. Mantenga *Estándar* como método de envío.
+8. En el campo **Número de tarjeta de crédito**, introduzca `1` si usa *(para probar) Bogus Gateway*, o introduzca `5555 5555 5555 4444`; si usa *Shopify Payments* en modo de prueba.
+9. En el campo **Fecha de vencimiento**, ingrese el mes/año actual.
+10. En el **Código de seguridad**, especifique `111`.
+11. Complete el campo **Nombre en la tarjeta**.
+12. Seleccione **Pagar ahora**.
+ 
+Representante de empresa
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
+
+1. En **Admin de Shopify**.
+2. Seleccione **Clientes** y luego **Empresas** en la barra lateral del **Admin de Shopify**.
+3. Abra la entrada *Escuela de Bellas Artes*.
+4. Elija **[...]** en el cuadro **Escuela de Bellas Artes** y luego **Editar condiciones de pago** y *Vencimiento en cumplimiento*.
+5. Elija **[...]** en el cuadro **Clientes** y luego **Agregar cliente**, y agregue uno con el correo electrónico que utilizó para iniciar sesión en la tienda anteriormente.
+6. En la **Tienda en línea de Shopify**. Elija el icono **Cuenta**. Ingrese el correo electrónico al que tiene acceso.
+7. Inicie sesión utilizando un código de verificación único de 6 dígitos enviado al correo electrónico que especificó.
+8. Explore el catálogo de productos, debería poder ver solo el producto agregado al catálogo *B2B* con precios especiales al por menor.
+9. Seleccione Variante esencial y seleccione **Comprarlo ahora** y proceda al pago.
+10. Observe que la cuenta, la dirección de envío y el método de pago estén completos.
+11. Complete el campo **Numero postal** con `PO-12345`.
+12. Seleccione **Enviar pedido**.
+ 
+En [!INCLUDE[prod_short](../includes/prod_short.md)], realice los siguientes pasos:
+
+1. Seleccione el icono ![Bombilla que abre la característica Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta de Shopify** y, a continuación, elija el vínculo relacionado.
+2. Seleccione la acción **Sincronizar usuarios desde Shopify**.
+3. Seleccione **Aceptar**.
+
+El pedido importado está listo para ser procesado.
+
+1. Seleccione el pedido importado para abrir la ventana **Pedido de Shopify**.
+2. Tenga en cuenta que, aunque ambos pedidos fueron enviados por la misma persona, están vinculados a dos clientes diferentes. 
+3. En el pedido enviado en nombre de la empresa puede ver el valor en el campo **Número postal**, que también se transfiere al campo **N.º de documento externo** del documento de ventas creado.
+4. Como configuramos la empresa B2B para gestionar los pagos fuera de Shopify, el **Estado financiero** se establece en *Pendiente*. Una vez que haya recibido el pago, seleccione la acción **Marcar como pagado**. El estado financiero se actualizará en Shopify. 
+
+## Tutorial: Importar artículos, clientes y empresas desde Shopify
 
 ### Escenario 
 
@@ -247,7 +352,7 @@ Ya tiene una tienda en línea exitosa y le gustaría comenzar a usar [!INCLUDE[p
 
 ### Pasos
 
-Esta es una continuación del [Tutorial: Comenzar a vender productos en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). También puede probar con sus propios datos, por ejemplo, su tienda Shopify o espacio aislado.
+Esta es una continuación del [Tutorial: comenzar a vender productos en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) y el [Tutorial: agregar clientes a la nueva tienda en línea](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). También puede probar con sus propios datos, por ejemplo, su tienda Shopify o espacio aislado.
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], siga los pasos que se enumeran a continuación.
 
@@ -263,12 +368,16 @@ En [!INCLUDE[prod_short](../includes/prod_short.md)], siga los pasos que se enum
 Configure la tienda Shopify como se describe aquí:
 
 1. Desactive la alternancia **Permitir sincronizaciones en segundo plano**.
-1. Seleccione *De Shopify*, en el campo **Sincronizar elemento**.
-1. Habilite la opción de alternancia **Creación automática de artículos desconocidos**.
-1. Rellene el campo **Código de plantilla de artículos** con la plantilla adecuada.
-1. Seleccione *De Shopify*, en el campo **Sincronizar imágenes de elementos**.
-1. Seleccione *Todos los clientes* en **Importación de clientes de Shopify**.
-1. Habilite la opción de alternancia **Creación automática de clientes desconocidos**.
+2. Seleccione *De Shopify*, en el campo **Sincronizar elemento**.
+3. Habilite la opción de alternancia **Creación automática de artículos desconocidos**.
+4. Rellene el campo **Código de plantilla de artículos** con la plantilla adecuada.
+5. Seleccione *De Shopify*, en el campo **Sincronizar imágenes de elementos**.
+6. Seleccione *Número de artículo + Código de variante* en el campo **Asignación de SKU**.
+7. Seleccione *Todos los clientes* en **Importación de clientes de Shopify**.
+8. Habilite la opción de alternancia **Creación automática de cliente desconocido**.
+9. Rellene el campo **Código de plantilla de cliente/empresa** con la plantilla adecuada.
+10. Seleccione *Todos los clientes* en **Importación de empresas desde Shopify**.
+11. Habilite la opción de alternancia **Creación automática de empresa desconocida**.
 
 #### Ejecutar la sincronización
 
@@ -277,12 +386,14 @@ Configure la tienda Shopify como se describe aquí:
 3. Seleccione **Sincronizar productos**.
 4. Seleccione **Sincronizar imágenes de producto**.
 5. Seleccione **Sincronizar clientes**.
+6. Seleccione **Sincronizar empresas**
 
 ### Resultados
 
 * Los productos de Shopify se importan. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de Shopify**, y luego seleccione el vínculo relacionado.
 * Se crean elementos con imágenes. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Producto**, y luego seleccione el vínculo relacionado.
 * Los clientes de Shopify son importados. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes de Shopify** y luego seleccione el vínculo relacionado.
+* Las empresas de Shopify se importan. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empresas de Shopify** y luego seleccione el vínculo relacionado.
 * Se crean clientes. Para verificarlo, seleccione ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes de** y luego seleccione el vínculo relacionado.
 
 
