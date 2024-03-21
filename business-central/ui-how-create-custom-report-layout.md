@@ -10,7 +10,7 @@ ms.date: 03/06/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Versión heredada) Crear y modificar diseños de informe personalizados
+# (Versión heredada) Crear y modificar diseños de informe personalizados
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -28,7 +28,7 @@ Después de definir sus diseños de informes personalizados, puede seleccionarlo
 
 También puede utilizar los diseños de los informes personalizados para añadir contenido a los mensajes de correo electrónico. Los diseños de informes pueden ahorrar tiempo y ayudar a garantizar la coherencia al reutilizar el mismo contenido cuando se comunica con sus clientes. Para usar diseños de informes personalizados con correo electrónico, el tipo de archivo para el diseño debe ser Word; no puede usar el tipo de archivo RDLC. Más información en [Configurar textos y diseños de correo electrónico reutilizables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Crear un diseño personalizado
+## Crear un diseño personalizado
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Selección de diseño de informes** y luego elija el enlace relacionado.
 
@@ -53,11 +53,11 @@ Se ha creado el diseño personalizado y puede modificarlo como desee.
 > [!TIP]
 > Puede exportar los resultados del informe a un archivo de Microsoft Excel para ver el conjunto de datos completo, incluidas todas las columnas, pero sin el diseño. El archivo de Excel puede ayudarle a validar que el informe devuelve los datos esperados o diagnosticar problemas. Para más información, consulte [Analizar datos de informes con Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Modificación de un diseño personalizado
+## <a name="ModifyCustomLayout"></a>Modificación de un diseño personalizado
 
 Para modificar el diseño de un informe personalizado, primero debe exportar el diseño del informe como archivo a una ubicación en su equipo o red. Luego, abra el documento exportado y realice los cambios. Cuando haya terminado de realizar los cambios, importe el diseño de informe.
 
-### <a name="modify-a-custom-layout"></a>Modificar un diseño personalizado
+### Modificar un diseño personalizado
 
 1. Exportar un diseño personalizado desde la página **Diseños de informe personalizados**. Si esta página no es ya abierta, busque y abra la página **Selección de diseño de informes**, seleccione el informe que tiene el diseño que quiere modificar y haga clic en la acción **Diseños personalizados**.  
 2. En la página **Diseños de informe personalizados**, seleccione el diseño que desea modificar, seleccione la acción **Exportar diseño** y, después, seleccione **Guardar** o **Guardar como** para guardar el documento de diseño del informe en una ubicación del equipo o red.  
@@ -77,7 +77,7 @@ Para modificar el diseño de un informe personalizado, primero debe exportar el 
 > Recuerde importar el documento de diseño de informe que modificó. De lo contrario, el nuevo diseño del informe no estará disponible.
 
 <!--
-## <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Create and modify custom report layouts
+##  <a name="MakeChangesToLayout"></a> Create and modify custom report layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
@@ -86,11 +86,11 @@ If you're designing a Word report layout from scratch or adding new data fields,
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
+### Embedding fonts in Word layouts for consistency
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a>Removing label and data fields in Word layouts
+###  <a name="RemoveField"></a> Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -98,7 +98,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
+### To remove a label or data field  
 
 1. Right-click the field you want to delete, then choose **Remove Content Control**.  
 
@@ -106,11 +106,11 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a>Adding data fields
+### Adding data fields
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md)  

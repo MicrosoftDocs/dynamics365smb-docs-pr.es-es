@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-service-orders-for-service-items"></a>Tutorial de pedidos de servicio para productos de servicio
+# Tutorial de pedidos de servicio para productos de servicio
 
 Este tutorial demuestra varios procesos principales:
 
@@ -18,13 +18,13 @@ Este tutorial demuestra varios procesos principales:
 - Proporcionar un artículo en préstamo al cliente por un tiempo de reparación
 - Registrar y facturar el pedido de servicio
     
-## <a name="creating-a-service-order"></a>Crear un pedido de servicio
+## Crear un pedido de servicio
 
-### <a name="scenario"></a>Escenario
+### Escenario  
 
 Charles, el gerente de servicio, crea un pedido de servicio para un escenario de reparación y presta un Préstamo al cliente para el momento de la reparación.
 
-### <a name="steps"></a>Pasos
+### Pasos
 
 1. Cree la Orden de Servicio manualmente para el Artículo que requiere reparación.
    1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") Icono, ingrese **Órdenes de servicio**
@@ -41,20 +41,20 @@ Charles, el gerente de servicio, crea un pedido de servicio para un escenario de
    1. En Líneas, seleccione **PRÉSTAMO1** como el N.º de préstamo. Confirme la emisión del Préstamo seleccionando **Sí** para prestar el Préstamo. 
    2. Elija la acción Funciones **Obtener Códigos de servicio est.**, seleccione el código estándar asociado con el grupo de servicio y seleccione **Aceptar**.
    
-### <a name="results"></a>Resultados
+### Resultados
 
 - Se crea un pedido de servicio para el producto
 - El Registro de documentos de servicio del pedido de servicio muestra las actividades del producto prestado.
 - El producto prestado tiene un movimiento para reflejar el préstamo.
    
 
-## <a name="register-performed-work-mark-loaner-as-returned"></a>El registrador realizó el trabajo, marque el préstamo como devuelto.
+## El registrador realizó el trabajo, marque el préstamo como devuelto.
 
-### <a name="scenario-1"></a>Escenario
+### Escenario  
 
 El técnico de servicio marca el préstamo como devuelto y registra el trabajo realizado.
 
-### <a name="steps-1"></a>Pasos
+### Pasos
 
 1. Ubique la tarea de Servicio y registre la hora 
    1. Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tareas de servicio** y luego elija el enlace relacionado.
@@ -74,13 +74,13 @@ El técnico de servicio marca el préstamo como devuelto y registra el trabajo r
    3. Seleccione la acción **Recibir** 
    4. Confirme la devolución del Préstamo seleccionando **Sí** para devolver el Préstamo.
       
-### <a name="results-1"></a>Resultados
+### Resultados
 
 - El **Registro de documentos de servicio** del pedido de servicio muestra las actividades del producto prestado.
 - El producto prestado tiene un movimiento para reflejar el recibo.
 
 
-### <a name="scenario-2"></a>Escenario
+### Escenario  
 
 Charles, el gerente de servicio, publica el pedido de servicio terminado.
 
@@ -91,11 +91,11 @@ Charles, el gerente de servicio, publica el pedido de servicio terminado.
 2. En el pedido de servicio, registre la factura
    1. Elija la acción **Registrar** para completar la Orden de Servicio, seleccione la acción **Envío y factura** y luego elija el botón **Aceptar**.
    2. Confirme la apertura de la factura registrada seleccionando **Sí**. 
-### <a name="results-2"></a>Resultados
+### Resultados
 
 - se creará una **factura de servicio publicada**.
 - se crean las **Entradas de libro de servicio** asociadas con el artículo y recurso
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Tutorial de contratos de servicio para artículos de servicio](service-contract-flow.md)  
 [Servicio](../../service-service.md)

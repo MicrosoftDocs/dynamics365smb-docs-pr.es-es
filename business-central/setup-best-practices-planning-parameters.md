@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Procedimientos recomendados de configuración: parámetros de la planificación
+# Procedimientos recomendados de configuración: parámetros de la planificación
 
 La ficha desplegable **Planificación** de la ficha de producto es el centro de la cadena de suministro de una empresa. La configuración de los parámetros correctos de planificación es muy importante para un control de inventario rentable y un servicio al cliente superior.  
 
@@ -33,7 +33,7 @@ La ficha desplegable **Planificación** de la ficha de producto es el centro de 
 >
 > Si las empresas planean la demanda en distintos almacenes, es muy recomendable definir UA para cada almacén y que toda la demanda se cree con un valor en el campo **Cód. almacén**. Obtenga información en [Detalles del diseño: Planificación con o sin almacenes](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Procedimientos recomendados de configuración: planificación de suministros](setup-best-practices-supply-planning.md)  
 [Detalles de diseño: Planificación de aprovisionamiento](design-details-supply-planning.md)  
 [Configurar áreas de aplicación complejas mediante procedimientos recomendados](set-up-complex-application-areas-using-best-practices.md)  

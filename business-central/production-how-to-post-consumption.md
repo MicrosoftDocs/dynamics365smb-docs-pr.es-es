@@ -9,7 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="batch-post-production-consumption"></a>Registrar consumibles de producción por lotes
+# Registrar consumibles de producción por lotes
 
 Si el método de baja es **Manual**, use un diario de consumo para contabilizar los componentes manualmente.  
 
@@ -18,7 +18,7 @@ Si el método de baja es **Manual**, use un diario de consumo para contabilizar 
 
 También puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para que registre (*vaciar*) automáticamente los componentes cuando inicia o finaliza órdenes de producción. Para obtener más información, consulte [Procedimiento: Habilitar el vaciado de componentes según la producción de la operación](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Para registrar el consumo en una o varias líneas de la orden de producción
+## Para registrar el consumo en una o varias líneas de la orden de producción
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de consumo** y, a continuación, elija el vínculo relacionado.  
 2. Rellene los campos con los datos de las órdenes de producción y del consumo. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -32,7 +32,7 @@ También puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para qu
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Fabricación](production-manage-manufacturing.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  

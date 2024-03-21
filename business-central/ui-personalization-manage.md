@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="customize-pages-for-profiles"></a>Personalizar páginas para perfiles
+# Personalizar páginas para perfiles
 
 
 Business Central proporciona tanto [personalización](ui-personalization-user.md) para usuarios como personalización para administradores. La personalización permite a los usuarios adaptar su espacio de trabajo ajustando los diseños de página para adaptarlos a sus propias preferencias. Los administradores pueden personalizar diseños de páginas para un perfil específico, en función de los roles o departamentos empresariales, para que todos los usuarios asignados vean la misma página personalizada. Si bien la personalización permite a los usuarios mostrar, ocultar y mover campos y acciones en una página, la personalización ofrece capacidades adicionales. Por ejemplo, la personalización le permite mostrar campos que están en la tabla de origen o en las tablas de extensión de la página, pero que no están definidos en el objeto de la página, lo cual no es personalización posible.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
@@ -23,13 +23,13 @@ Business Central proporciona tanto [personalización](ui-personalization-user.md
 
 La personalización de la página comienza en la página **Perfiles (roles)**, el punto de partida del administrador para administrar los perfiles de los usuarios en fichas de perfil individuales. Además de personalizar el diseño de la página, puede controlar otras configuraciones para los perfiles en la página **Perfil (rol)** para cada perfil. Para obtener más información, consulte [Administrar perfiles](admin-users-profiles-roles.md).
 
-## <a name="prerequisites"></a>Requisitos previos
+## Requisitos previos
 
 - Su cuenta de Business Central debe tener el conjunto de permisos **Gest. perf. D365** o permisos equivalentes. 
 
    El conjunto de permisos **Gest. perf. D365** incluye el permiso de ejecución en el objeto del sistema **9026 Agregar campo a tabla**. Si no tiene este permiso, no podrá agregar campos en la página a menos que estén definidos en el objeto de la página. 
 
-## <a name="customize-pages-for-a-profile"></a>Personalizar páginas para un perfil
+## Personalizar páginas para un perfil
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Perfiles (roles)** y luego elija el enlace relacionado.
 2. Seleccione la línea del perfil para el que desea personalizar páginas y, después, seleccione la acción **Editar**.
@@ -47,7 +47,7 @@ La personalización de la página comienza en la página **Perfiles (roles)**, e
 
 La personalización de las páginas se ha registrado ahora para el perfil.
 
-## <a name="view-all-customized-pages-for-a-profile"></a>Ver todas las páginas personalizadas para un perfil
+## Ver todas las páginas personalizadas para un perfil
 
 Puede obtener una visión general de qué páginas están personalizadas para un perfil, por ejemplo, para planificar cuáles personalizar o eliminar.
 
@@ -55,7 +55,7 @@ Puede obtener una visión general de qué páginas están personalizadas para un
 
 En la página **Páginas personalizadas**, puede eliminar personalizaciones y solucionar problemas mediante la búsqueda de posibles problemas.  
 
-## <a name="delete-all-customizations-for-a-profile"></a>Eliminar todas las personalizaciones de un perfil
+## Eliminar todas las personalizaciones de un perfil
 
 Puede cancelar todas las personalizaciones que ha realizado en un perfil. Las personalizaciones introducidas con una extensión y las personalizaciones realizadas por un usuario no se eliminan. Puede eliminar todas las personalizaciones con otra acción. Para obtener más información, consulte [Para eliminar todas las personalizaciones efectuadas por un usuario](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -63,7 +63,7 @@ Puede cancelar todas las personalizaciones que ha realizado en un perfil. Las pe
 
 El diseño en las páginas para el perfil se restablece al diseño predeterminado.  
 
-## <a name="delete-customization-for-specific-pages-for-a-profile"></a>Eliminar la personalización de páginas específicas para un perfil
+## Eliminar la personalización de páginas específicas para un perfil
 
 Puede eliminar personalizaciones de página individuales que ha efectuado para un perfil. Las personalizaciones introducidas con una extensión y las personalizaciones realizadas por un usuario no se eliminan. Puede eliminar las personalizaciones de página específicas con otra acción. Para obtener más información, consulte [Para eliminar las personalizaciones de páginas específicas](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -72,7 +72,7 @@ Puede eliminar personalizaciones de página individuales que ha efectuado para u
 
 El diseño en las páginas seleccionadas se ajusta a los cambios que ha hecho.
 
-## <a name="add-a-field"></a>Agregar un campo
+## Agregar un campo
 
 Agrega campos a la página desde el panel **Agregar campo a la página**, que se abre seleccionando la acción **+ Campo** en el modo de personalización. Es importante comprender que el panel **Agregar campo a la página** se usa para mostrar campos que ya existen, en la página y sus tablas de origen, pero que actualmente están ocultos a la vista. No puede crear nuevos campos.
 
@@ -93,7 +93,7 @@ Utilice el botón de filtro encima de la lista para cambiar qué categoría de c
 
 :::image type="content" source="media/customization-filter.svg" alt-text="Muestra el botón de filtro en el panel Agregar un campo en el modo de personalización.":::
  
-### <a name="add-table-field-thats-not-on-the-page-object"></a>Agregar campo de tabla que no está en el objeto de página
+### Agregar campo de tabla que no está en el objeto de página
 
 Si desea que un campo de solo tabla esté disponible en una página para los usuarios , primero debe agregarlo a la página. Una vez que haya agregado el campo, los usuarios pueden elegir mostrar u ocultar el campo mediante personalización. Hay dos formas de agregar un campo.
 
@@ -105,7 +105,7 @@ Una vez que se haya agregado el campo, la información sobre herramientas para e
 > [!NOTE]
 > El campo agregado está bloqueado para edición y no se puede desbloquear.
 
-## <a name="remove-a-field"></a>Eliminar un campo
+## Eliminar un campo
 
 Si ha agregado un campo de tabla que originalmente no estaba en el objeto de la página, puede volver a eliminarlo. Eliminar un campo es diferente a ocultarlo. Cuando oculta un campo, los usuarios aún pueden mostrarlo en su espacio de trabajo mediante la personalización. Sin embargo, si elimina un campo, el campo ya no estará disponible para que los usuarios lo muestren o lo oculten. Si el campo se muestra actualmente en el espacio de trabajo de un usuario, desaparece de su espacio de trabajo cuando lo elimina. 
 
@@ -114,7 +114,7 @@ Para eliminar un campo, seleccione la punta de flecha en el campo de la página 
 > [!IMPORTANT]
 > Al eliminar un campo no se eliminan los datos almacenados en el campo ni sus tablas de origen. Simplemente elimina el campo de la vista. 
 
-## <a name="lock-and-unlock-editing"></a>Bloquear y desbloquear la edición
+## Bloquear y desbloquear la edición
 
 La personalización le permite bloquear (permitir la edición) o desbloquear la edición (impedir la edición) de la mayoría de los campos de una página. Para bloquear o desbloquear la edición, seleccione el campo en la página, seleccione la punta de flecha y luego seleccione **Bloquear edición** o **Desbloquear edición**. Es importante tener en cuenta algunas reglas sobre cómo bloquear y desbloquear campos:
 
@@ -124,13 +124,13 @@ La personalización le permite bloquear (permitir la edición) o desbloquear la 
 
 
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
-## <a name="important-information-and-tips"></a>Información importante y sugerencias
+## Información importante y sugerencias 
 
 - No todos los campos de la tabla pueden estar disponibles para su personalización desde el panel **Agregar campo a la página**. El desarrollador de una tabla puede optar por evitar que un campo aparezca en la personalización estableciendo la propiedad [AllowInCustomization](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) del campo en `false`.
 - No puede personalizar una página que está en [modo de análisis](analysis-mode.md). El modificador **Analizar** está desactivado. Si cambia al modo de personalización mientras la página está en modo de análisis, el modo de análisis se desactiva automáticamente. 
 - Algunas páginas tienen varios campos de página que se asignan a la misma tabla de origen. El panel **Agregar campo a página** muestra todos estos campos de página de manera independiente. Puede mostrar, ocultar o mover estos campos de forma independiente sin afectar a los demás.
 - Si una parte o grupo está oculto, aún puede identificar campos ocultos dentro de la parte o grupo, pero no puede agregar, mover ni mostrar campos en la parte o el grupo hasta que se hagan visibles. 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Personalizar su área de trabajo](ui-personalization-user.md)  
 [Administrar perfiles](admin-users-profiles-roles.md)  
