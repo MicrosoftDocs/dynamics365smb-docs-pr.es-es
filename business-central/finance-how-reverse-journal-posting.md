@@ -9,7 +9,7 @@ ms.date: 03/28/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Revertir los registros de diario y deshacer los recibos/envíos
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Revertir los registros de diario y deshacer los recibos/envíos
 
 Revertir los registros de diario es útil, por ejemplo para corregir errores y borrar un movimiento de ajuste antiguo antes de introducir uno nuevo. Una entrada inversa es la misma que la entrada original pero tienen un registro opuesto en el campo **Cantidad**. La entrada inversa debe tener el mismo número de documento y fecha de publicación como la entrada original. Después de revertir una entrada, debe registrar el movimiento correcto.
 
@@ -21,7 +21,7 @@ Si ha realizado un registro de una cantidad negativa errónea, como un pedido de
 
 Si ha realizado un registro de una cantidad positiva errónea, como un albarán de venta o un envío de devolución de compra con un número de productos erróneo, como enviado, pero no facturado, puede deshacer el registro.
 
-## Para revertir el registro de diario de un movimiento de contabilidad
+## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Para revertir el registro de diario de un movimiento de contabilidad
 
 Se pueden revertir movimientos desde todas las páginas **Movimientos**. El siguiente procedimiento se basa en la página **Movs. contabilidad**.
 
@@ -35,7 +35,7 @@ Se pueden revertir movimientos desde todas las páginas **Movimientos**. El sigu
 3. En la página **Revertir movs. trans.**, elija la acción **Revertir**.
 4. Elija **Sí** para confirmar la inversión.
 
-## Para registrar un movimiento negativo  
+## <a name="to-post-a-negative-entry"></a>Para registrar un movimiento negativo
 
 Use el campo **Corrección** para enviar un adeudo negativo en lugar de un abono, o registrar un crédito negativo en vez de un débito en una cuenta. De forma predeterminada, el campo está disponible en todos los diarios. Los campos **Importe debe** e **Importe haber** incluyen tanto el movimiento original como el corregido. Estos campos no influyen en el saldo de la cuenta.  
 
@@ -45,7 +45,7 @@ Use el campo **Corrección** para enviar un adeudo negativo en lugar de un abono
 4. En la línea del diario que desea activar para los movimientos negativos, seleccione la casilla de activación **Corrección**.  
 5. Para registrar el diario, elija la acción **Registrar** y el botón **Sí**.
 
-## Para deshacer la cantidad en un albarán de compra registrado  
+## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Para deshacer la cantidad en un albarán de compra registrado
 
 Los pasos siguientes describen cómo deshacer un albarán registrado de artículos o recursos. Los pasos son parecidos para los envíos registrados.
 
@@ -58,7 +58,7 @@ Una línea correctiva se agrega bajo la línea de recepción seleccionada. Si se
 
 Los campos de **Cantidad recibida** y de **Cdad. Rec. no facturada** en el pedido de compra relacionado se establecerán a cero.
 
-## Deshacer y rehacer una cantidad registrada en un envío devuelto registrado
+## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Deshacer y rehacer una cantidad registrada en un envío devuelto registrado
 
 Los siguientes pasos describen cómo:
 
@@ -84,7 +84,7 @@ Los pasos son parecidos para las recepciones de devolución registradas.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Deshacer registro de ensamblado](assembly-how-to-undo-assembly-posting.md)  
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  

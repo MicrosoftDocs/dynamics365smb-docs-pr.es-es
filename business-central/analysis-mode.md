@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analizar página de lista y datos de consulta usando el modo de análisis de datos
+# <a name="analyze-list-page-and-query-data-using-data-analysis-mode"></a>Analizar página de lista y datos de consulta usando el modo de análisis de datos
 
 > **SE APLICA A:** Vista previa pública en el primer lanzamiento de versiones de Business Central 2023 y posteriores para analizar páginas de lista; Generalmente disponible en el segundo lanzamiento de versiones de Business Central 2023 para analizar datos de páginas de listas y consultas.
 
@@ -19,7 +19,7 @@ En este artículo, aprenderá a analizar datos de páginas en listas y consultas
 > [!TIP]
 > Lo bueno del modo de análisis de datos es que no cambia ninguno de los datos subyacentes de la página de lista o consulta ni el diseño de la página o consulta cuando no está en modo de análisis de datos. Entonces, la mejor manera de aprender qué puede hacer en el modo de análisis de datos es probar cosas.
 
-## Requisitos previos 
+## <a name="prerequisites"></a>Requisitos previos
 
 - Si está utilizando Business Central versión 22, el modo de análisis de datos está en versión preliminar. Por lo tanto, un administrador debe habilitarlo antes de poder utilizarlo. Para habilitarlo, vaya a la página **Administración de características** y active la **Actualización de funciones: modo de análisis, analice rápidamente los datos directamente en Business Central**. [Más información acerca de la Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - En la versión 23 y posteriores, a su cuenta se le debe asignar el conjunto de permisos **ANÁLISIS DE DATOS - EXEC** o incluir permiso de ejecución en el objeto del sistema **9640 Permitir datos Modo de análisis**. Como administrador, puede excluir estos permisos a los usuarios que no desea que tengan acceso al modo de análisis.
@@ -27,7 +27,7 @@ En este artículo, aprenderá a analizar datos de páginas en listas y consultas
 > [!NOTE]
 > Es posible que observe algunas páginas de lista que no incluyen el interruptor **Analizar** para cambiar al modo de análisis. La razón es que los desarrolladores pueden desactivar el modo de análisis en páginas específicas utilizando la propiedad  [AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) en AL.
 
-## Comenzar
+## <a name="get-started"></a>Comenzar
 
 1. Abra la página de lista o consulta.
 
@@ -50,14 +50,14 @@ En este artículo, aprenderá a analizar datos de páginas en listas y consultas
 > [!NOTE]
 > Los datos que se muestran en el modo de análisis están controlados por los filtros o vistas establecidos en la página de lista. Esto le permite filtrar previamente los datos antes de entrar al modo de análisis.
 
-## Trabajar con el modo de análisis de datos
+## <a name="work-with-data-analysis-mode"></a>Trabajar con el modo de análisis de datos
 
 En el modo de análisis de datos, la página se divide en dos áreas:
 
 - El área principal, que consta del área de datos (1), la barra de resumen (2) y la barra de pestañas (5)
 - El área de manipulación de datos, que consta de dos paneles: columnas (3) y filtros de análisis (4).
 
-### Área de datos (1)
+### <a name="data-area-1"></a>Área de datos (1)
 
 El área de datos es donde se muestran las filas y columnas de la página de consulta de lista y se resumen los datos. El área de datos proporciona una forma versátil de controlar el diseño de las columnas y una forma rápida de obtener un resumen de los datos. Para las columnas que contienen valores numéricos, la suma de todos los valores de la columna se muestra en la última fila, a menos que haya definido grupos de filas. En este caso, las sumas aparecen como subtotal para los grupos.  
 
@@ -72,7 +72,7 @@ El área de datos es donde se muestran las filas y columnas de la página de con
 - Utilice el área de datos para interactuar con los datos. Para las columnas que contienen valores sumables numéricos, puede obtener estadísticas descriptivas en un conjunto de campos, marcándolos. Las estadísticas aparecen en la barra de estado (2), en la parte inferior de la página.
 - Exportar datos en formato Excel o csv. Haga clic con el botón derecho en el área de datos o en una selección de celdas para exportar.
 
-### Barra de resumen (2)
+### <a name="summary-bar-2"></a>Barra de resumen (2)
 
 La barra de resumen se encuentra en la parte inferior de la página y muestra estadísticas sobre los datos de la página de lista o consulta. A medida que interactúa con columnas cuyos valores se pueden sumar, como al seleccionar varias filas en una columna que muestra cantidades, los datos se actualizan.
 
@@ -91,7 +91,7 @@ La siguiente tabla describe los diferentes números que se muestran en el área 
 |Máx|El valor máximo en todos los campos sumables seleccionados.|
 |Suma|La suma total de todos los valores en los campos sumables seleccionados.|
 
-### Columnas (3)
+### <a name="columns-3"></a>Columnas (3)
 
 El panel **Columnas** es uno de los dos paneles que trabajan juntos para definir su análisis. La otra zona es el panel **Filtros de análisis**. El panel **Columnas** se utiliza para resumir los datos. Utilice el panel **Columnas** para definir qué columnas deben incluirse en el análisis.
 
@@ -106,7 +106,7 @@ El panel **Columnas** es uno de los dos paneles que trabajan juntos para definir
 
 Para mover un campo de un área a otra, seleccione el icono de agarrar ![Muestra una descripción general de una página en el modo de análisis de datos](media/column-grab-icon.png) junto a la columna en la lista y arrástrelo al área de destino. No puede mover un campo a un área donde no está permitido.
 
-### Filtros de análisis (4)
+### <a name="analysis-filters-4"></a>Filtros de análisis (4)
 
 El panel **Filtros de análisis** le permite establecer más filtros de datos en las columnas para limitar las entradas de la lista. Establezca filtros en las columnas para limitar las entradas en la lista y las sumas posteriores solo a aquellas entradas que le interesen según los criterios que defina. Por ejemplo, suponga que solo le interesan los datos de un cliente específico o los pedidos de ventas que superan un importe específico. Para establecer un filtro, seleccione la columna, elija la operación de comparación de la lista (como **Iguales** o **Comienza por**) y luego introduzca el valor.
 
@@ -115,7 +115,7 @@ El panel **Filtros de análisis** le permite establecer más filtros de datos en
 > [!NOTE]
 > Los filtros adicionales solo se aplican a la pestaña de análisis actual. Esto le permite definir exactamente los filtros de datos adicionales que se necesitan para un análisis específico.
 
-### Pestañas (5)
+### <a name="tabs-5"></a>Pestañas (5)
 
 El área de pestañas de la parte superior le permite crear diferentes configuraciones (columnas y filtros de análisis) en pestañas separadas, donde puede manipular los datos de las pestañas de forma independiente. Siempre hay al menos una pestaña, llamada **Análisis 1**, de forma predeterminada. Agregar más pestañas es beneficioso para guardar configuraciones de análisis de uso frecuente en un conjunto de datos. Por ejemplo, puede tener pestañas para analizar datos en modo dinámico y otras pestañas que filtran a un subconjunto de filas. Algunas pestañas pueden mostrar una vista detallada con muchas columnas y otras solo mostrar algunas columnas clave.
 
@@ -134,7 +134,7 @@ Aquí hay algunos consejos sobre cómo trabajar con varias pestañas de análisi
 - Puede copiar pestañas de análisis. La copia puede ser útil si desea experimentar cambiando una pestaña sin cambiar la original, o si desea crear diferentes variaciones del mismo análisis.
 
 
-## Jerarquías de fecha
+## <a name="date-hierarchies"></a>Jerarquías de fecha
 
 En el modo de análisis, los campos de fecha del conjunto de datos se generan en una jerarquía Año-Trimestre-Mes de tres campos separados. Esta jerarquía se basa en el calendario normal, no en ningún calendario fiscal definido en Business Central.
 
@@ -143,7 +143,7 @@ Los campos adicionales reciben el nombre _\<field name\> Año_, _\<field name\> 
 > [!NOTE]
 > Actualmente, la jerarquía de fechas solo se aplica a los campos de tipo date, no a los campos de tipo de fecha y hora.
 
-## Modo dinámico
+## <a name="pivot-mode"></a>Modo dinámico
 
 Puede usar el modo dinámico para analizar una gran cantidad de datos numéricos, subtotalizando datos por categorías y subcategorías. El modo dinámico es como [tablas dinámicas en Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
@@ -164,7 +164,7 @@ Desarrollar el análisis de datos en modo dinámico implica mover campos a las t
 > Las columnas que solo tienen unos pocos valores posibles son las mejores candidatas para usarlas en **Valores** de columnas.
 
 
-## Analizar grandes cantidades de datos
+## <a name="analyze-large-amounts-of-data"></a>Analizar grandes cantidades de datos
 
 Si el conjunto de datos que desea analizar supera las 100 000 filas, se le sugiere ingresar a un modo de análisis optimizado para conjuntos de datos grandes. Actualmente existen dos limitaciones si cambia a este modo: 
 
@@ -178,7 +178,7 @@ Si el conjunto de datos que desea analizar supera las 100 000 filas, se le sugie
 
    Si habilita el modo dinámico y arrastra un campo al área **Etiquetas de columna**, donde los datos subyacentes para ese campo tienen demasiados valores distintos, entonces la pestaña del navegador podría dejar de responder y eventualmente se cierra, lo que requiere que usted comience de nuevo en una nueva sesión. En este caso, no gire sobre ese campo o establezca un filtro en el campo antes de agregarlo al área **Etiquetas de columna**.
 
-## Compartir análisis de datos
+## <a name="share-data-analysis"></a>Compartir análisis de datos
 
 Después de haber preparado un análisis en una pestaña, puede compartirlo como un vínculo con compañeros de trabajo y otras personas de su organización directamente desde el cliente. Sólo los destinatarios que tengan permiso sobre la empresa y los datos pueden utilizar el enlace.
 
@@ -198,7 +198,7 @@ Después de haber preparado un análisis en una pestaña, puede compartirlo como
 
 2. Una vez recibido, los destinatarios pueden seleccionar el enlace y abrir el análisis de la página o consulta en Business Central. Se les solicita que especifiquen un nombre para la nueva pestaña de análisis que se creará.  
 
-## Limitaciones en el primer lanzamiento de versiones de 2023 (vista previa)
+## <a name="limitations-in-2023-release-wave-1-preview"></a>Limitaciones en el primer lanzamiento de versiones de 2023 (vista previa)
 
 La vista previa pública de esta característica tiene las siguientes limitaciones:
 
@@ -206,7 +206,7 @@ La vista previa pública de esta característica tiene las siguientes limitacion
 - La función de análisis de datos compartidos no está disponible.
 - La capacidad de guardar opciones de análisis de datos preferidas en páginas de lista y guardar menús de análisis por pestaña de análisis no está disponible actualmente.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Análisis de datos ad hoc](reports-adhoc-analysis.md)  
 [Ver y editar en Excel](across-work-with-excel.md)  

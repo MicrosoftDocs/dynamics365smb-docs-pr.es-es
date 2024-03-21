@@ -11,7 +11,7 @@ ms.search.form: '7351,'
 ms.service: dynamics-365-business-central
 ---
 
-# Mover productos en configuraciones avanzadas de almacén que usan almacenamiento y picking dirigidos
+# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Mover productos en configuraciones avanzadas de almacén que usan almacenamiento y picking dirigidos
 
 Puede mover productos entre ubicaciones sin una demanda de un documento de origen. Por ejemplo, es posible que desee hacerlo como parte de las siguientes actividades:
 
@@ -37,9 +37,9 @@ Las páginas **Hoja trabajo movimiento**, **Picking interno de almacén** y **Al
 * Los almacenamientos usan plantillas de ubicación
 * El picking utiliza la clasificación y la disponibilidad de los contenedores
 
-## Hoja de trabajo de movimiento de almacén
+## <a name="warehouse-movement-worksheet"></a>Hoja de trabajo de movimiento de almacén
 
-### Para mover los artículos con la hoja de cálculo del movimiento de almacén
+### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Para mover los artículos con la hoja de cálculo del movimiento de almacén
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Hoja trabajo mov.** y, a continuación, elija el vínculo relacionado.  
 2. Rellene los campos de las líneas de la hoja de trabajo manualmente o utilice una de las siguientes acciones para rellenar automáticamente las líneas:
@@ -56,7 +56,7 @@ Las páginas **Hoja trabajo movimiento**, **Picking interno de almacén** y **Al
 
 3. Elija la acción **Crear movimiento** para crear el movimiento. Cuando el movimiento se completa, puede registrarlo.  
 
-### Para registrar el movimiento de almacén
+### <a name="to-register-the-warehouse-movement"></a>Para registrar el movimiento de almacén
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos** y luego elija el enlace relacionado.  
 2. Abra el documento de movimientos para registrarlo.  
@@ -72,9 +72,9 @@ Las páginas **Hoja trabajo movimiento**, **Picking interno de almacén** y **Al
 > [!NOTE]  
 > En el caso de los almacenes que utilizan el almacenamiento y el picking dirigidos, no puede mover artículos manualmente en ubicaciones del tipo **RECIBIR** porque aún no se consideran como inventario disponible. Debe almacenar los artículos en estas ubicaciones antes de que estén disponibles para movimientos.
 
-## Picking interno  
+## <a name="internal-pick"></a>Picking interno
 
-### Para crear un picking interno  
+### <a name="to-create-an-internal-pick"></a>Para crear un picking interno
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking interno alm.** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.
@@ -83,7 +83,7 @@ Las páginas **Hoja trabajo movimiento**, **Picking interno de almacén** y **Al
 5. Elija la acción **Crear picking**. Ahora está preparada una instrucción de picking de almacén para que un empelado la ejecute. También puede elegir la acción **Liberar** y crear pickings de almacén utilizando la página **Hoja de trabajo de picking**. Para obtener más información sobre las hojas de trabajo de picking, vaya a [Crear documentos de picking de forma masiva con la hoja de trabajo de picking](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Cuando el picking se completa, puede registrarlo.  
 
-### Para registrar el picking de almacén
+### <a name="to-register-the-warehouse-pick"></a>Para registrar el picking de almacén
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado.  
 
@@ -95,9 +95,9 @@ Las páginas **Hoja trabajo movimiento**, **Picking interno de almacén** y **Al
 
 4. Después de terminar el picking y colocar los productos en el área de o ubicación de envío, elija la acción **Registrar picking**.  
 
-## Almacenamiento interno  
+## <a name="internal-put-away"></a>Almacenamiento interno
 
-### Para crear un ubicación interna  
+### <a name="to-create-an-internal-put-away"></a>Para crear un ubicación interna
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Almacenamientos internos de almacén** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.
@@ -111,7 +111,7 @@ Las páginas **Hoja trabajo movimiento**, **Picking interno de almacén** y **Al
 6. Seleccione la acción **Crear ubicación**. Ahora está preparada una instrucción de ubicación de almacén para un empelado de almacén. También puede elegir la acción **Liberar** para crear almacenamientos de almacén utilizando la página **Hoja de trabajo de almacenamiento**. Para obtener más información sobre las hojas de trabajo de almacenamiento, vaya a [Crear documentos de almacenamiento de forma masiva con la hoja de trabajo de almacenamiento](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Cuando el almacenamiento se completa, puede registrarlo.  
 
-### Para registrar el almacenamiento de almacén
+### <a name="to-register-the-warehouse-put-away"></a>Para registrar el almacenamiento de almacén
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.
 2. Abra el almacén la almacenamiento que está preparado para manipular.  
@@ -131,7 +131,7 @@ Las páginas **Hoja trabajo movimiento**, **Picking interno de almacén** y **Al
 
 5. Cuando haya colocado todos los productos en ubicaciones como se le ha indicado, elija la acción **Registrar ubicación**.  
 
-## Para registrar un movimiento que ya ha ocurrido
+## <a name="to-register-a-movement-that-has-already-happened"></a>Para registrar un movimiento que ya ha ocurrido
 
 Si debe registrar que los productos ya se han movido a otras ubicaciones sin almacenamiento, picking o movimiento, puede usar la página **Diario reclasificación almacén** para registrar el movimiento.
 
@@ -139,7 +139,7 @@ Si debe registrar que los productos ya se han movido a otras ubicaciones sin alm
 2. Rellene los campos **Nº producto**, **Desde cód. zona**, **Desde cód. ubicación**, **Hasta cód. zona**, **Hasta cód. ubicación**.  
 3. Elija la acción **Registrar**.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

@@ -11,12 +11,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Extensión de la migración de datos de QuickBooks
+# <a name="the-quickbooks-data-migration-extension"></a>Extensión de la migración de datos de QuickBooks
 
 Esta extensión facilita la migración de clientes, proveedores, productos y cuentas de QuickBooks a [!INCLUDE[prod_short](includes/prod_short.md)]. Si la empresa usa QuickBooks actualmente, puede exportar la información correspondiente y después abrir una guía de instalación asistida para cargar los datos en [!INCLUDE[prod_short](includes/prod_short.md)].  
 Para obtener más información, vea [Importar datos empresariales desde otros sistemas financieros](across-import-data-configuration-packages.md).
 
-## Datos desde QuickBooks Desktop
+## <a name="data-from-quickbooks-desktop"></a>Datos desde QuickBooks Desktop
 
 Puede importar los datos siguientes desde QuickBooks Online a Business Central:
 
@@ -33,7 +33,7 @@ Migramos únicamente los importes totales de los documentos de ventas y compras.
 > [!NOTE]
 > No migramos pedidos de compra o venta.
 
-## Antes de comenzar
+## <a name="before-you-start"></a>Antes de comenzar
 
 Una parte importante del proceso de migración es especificar las cuentas a las que se deben migrar las transacciones. Conviene planificar esta asignación antes de migrar los datos. Por ejemplo, las cuentas en la que registre transacciones de:
 
@@ -49,18 +49,18 @@ Para extraer sus datos de la aplicación QuickBooks Desktop necesitará descarga
 > [!NOTE]
 > La herramienta de exportador de datos actualmente solo funciona en QuickBooks 2017 y 2018.
 
-## Buscar la extensión de la migración de datos de QuickBooks
+## <a name="finding-the-quickbooks-data-migration-extension"></a>Buscar la extensión de la migración de datos de QuickBooks
 
 La extensión de la migración de datos de QuickBooks está instalada y lista como parte integrada de la guía de configuración asistida de la migración de datos. Si está listo para comenzar ahora y ha exportado sus datos desde QuickBooks, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado. Seleccione **Migrar los datos empresariales**y, a continuación, siga los pasos en la guía.  
 
-## ¿Qué hago después de la migración de datos?
+## <a name="what-do-i-do-after-i-migrate-data"></a>¿Qué hago después de la migración de datos?
 
 Una vez haya migrado los datos, las transacciones muestran el estado No registrado, para que pueda revisarlas y crear ajustes. Para revisar las transacciones, vaya a la página donde están normalmente. Por ejemplo, para revisar facturas de ventas no registradas, vaya a la página Facturas de ventas. Para revisar las diario de pagos, vaya a la página Diario de pagos.
 Hay algunas acciones concretas que debe realizar: si las transacciones de QuickBooks tenían importes de descuento o bonificación, debe agregar manualmente los importes a las transacciones relacionadas en Business Central antes de registrarlas.
 Si está utilizando el impuesto sobre el valor añadido (IVA), es posible que tenga que agregar un grupo de contable de negocio y un grupo contable de productos a la configuración de grupos contables para poder contabilizar importes de IVA.
 Verifique los saldos iniciales de las cuentas en el libro mayor. QuickBooks no almacena el saldo actual de todas las cuentas, por lo que es posible que tenga que corregir los saldos iniciales.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  

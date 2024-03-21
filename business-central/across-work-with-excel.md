@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Ver y editar en Excel desde Business Central
+# <a name="viewing-and-editing-in-excel-from-business-central"></a>Ver y editar en Excel desde Business Central
 
 Con las páginas que muestran una lista de registros en filas y columnas, como una lista de clientes, órdenes de venta o facturas, puede exportar la lista a Microsoft Excel y verla ahí. Dependiendo de la página, tiene dos opciones para ver en Excel. Ambas opciones están disponibles en el icono **Compartir** ![Compartir una página en otra aplicación.](media/share-icon.png) en la parte superior de una página. Puede seleccionar la acción **Abrir en Excel** o la acción **Editar en Excel** en la página. Este artículo explica las dos acciones.
 
-## Abrir en Excel
+## <a name="open-in-excel"></a>Abrir en Excel
 
 Con la acción **Abrir en Excel** puede realizar cambios en los registros en Excel, pero no puede volver a publicar los cambios en [!INCLUDE[prod_short](includes/prod_short.md)]. Solo puede guardar los cambios en el archivo de Excel, sin afectar los datos en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -32,7 +32,7 @@ Con la acción **Abrir en Excel** puede realizar cambios en los registros en Exc
 > En Excel, los números enteros en columnas tendrán un símbolo decimal al final (como un punto `.` o una coma `,` ) aunque el símbolo decimal no se muestre en Business Central. El símbolo decimal depende de la configuración regional de su dispositivo. Por ejemplo, `10` en Business Central podría aparecer como `10.` o `10,` en Excel. Puede cambiar el formato en Excel seleccionando los valores y luego seleccionando <kbd>Ctrl</kbd>+<kbd>1</kbd>. Para obtener más información sobre cómo cambiar el formato de los números en Excel, vaya a [Dar formato a los números](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
 
 
-## Editar en Excel
+## <a name="edit-in-excel"></a>Editar en Excel
 
 La acción **Editar en Excel** está disponible en la mayoría de las listas, pero no en todas. Con la acción **Editar en Excel** puede realizar cambios en registros en Excel y luego volver a publicarlos en [!INCLUDE[prod_short](includes/prod_short.md)]. Cuando se abre Excel, verá el panel **Complemento de Excel** a la derecha.
 
@@ -41,13 +41,13 @@ La acción **Editar en Excel** está disponible en la mayoría de las listas, pe
 - Para obtener los datos más recientes de [!INCLUDE[prod_short](includes/prod_short.md)], elija **Actualizar** en el panel Complemento de Excel.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-### Primer inicio de sesión
+### <a name="first-time-sign-in"></a>Primer inicio de sesión
 
 La acción **Editar en Excel** requiere que el complemento Business Central esté instalado en Excel. En algunos casos es posible que su administrador haya configurado el complemento para instalarse automáticamente. En este caso, solo debe iniciar sesión en Business Central en el panel **Complemento de Excel** con su nombre de usuario y contraseña. De lo contrario, se abrirá el panel **Nuevo complemento de Office**. Para instalar el complemento, elija **Confía en este complemento**, que instalará el complemento directamente desde la Tienda Office.
 
 Si el complemento no se instala, comuníquese con su administrador o intente instalarlo manualmente. Para más información, consulte [Instalar el complemento manualmente para su propio uso](admin-deploy-excel-addin.md#install).
 
-### Trabajar en entornos y empresas diferentes
+### <a name="work-across-environments-and-companies"></a>Trabajar en entornos y empresas diferentes
 
 Puede cambiar la compañía con la que está trabajando. Para cambiar de empresa, seleccione el icono **Opciones** ![Opciones del complemento de Excel.](media/cogwheel.png "Opciones del complemento de Excel") En el panel Complemento de Excel, seleccione la empresa del campo **Empresa**.  
 
@@ -61,7 +61,7 @@ Si realiza cambios en el complemento, debe volver a cargarlo para actualizar la 
 >
 > Para [!INCLUDE[prod_short](includes/prod_short.md)] local, la acción **Editar en Excel** solo está disponible si el administrador ha configurado el complemento de Excel y solo está disponible para el cliente web. Para los administradores: si desea aprender cómo instalar el complemento de Excel, consulte [Configuración del complemento de Excel para editar datos de Business Central](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-### Límites al usar Excel para la web 
+### <a name="limits-when-using-excel-for-the-web"></a>Límites al usar Excel para la web
 
 Cuando **Editar en Excel** se usa en páginas de lista para tablas con muchas columnas, el libro de trabajo resultante puede tener demasiadas columnas para que el archivo se vea en Excel para la Web. [!INCLUDE[prod_short](includes/prod_short.md)] limita automáticamente el libro de trabajo exportado a 100 columnas cuando OneDrive está configurado para las características del sistema. 
 
@@ -70,7 +70,7 @@ Cuando **Editar en Excel** se usa en páginas de lista para tablas con muchas co
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
 [Trabajar con Business Central](ui-work-product.md)  

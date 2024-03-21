@@ -11,7 +11,7 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# Preparar Financial Reporting con categorías de cuentas y datos financieros
+# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Preparar Financial Reporting con categorías de cuentas y datos financieros
 
 Los informes financieros permiten obtener información sobre los datos financieros almacenados en su plan de cuentas (COA). Los informes financieros analizan cifras en cuentas de contabilidad (G/L) y comparan los movimientos de contabilidad con los presupuestados. Los resultados se muestran en gráficos e informes en su área de trabajo, como el gráfico de flujo de efectivo y los informes Balance de ingresos y Balance.
 
@@ -21,7 +21,7 @@ Se obtiene acceso a estos dos informes, por ejemplo, con la acción **Estados fi
 
 Configurar informes financieros requiere obtener una comprensión de los datos financieros del plan de cuentas. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto, pero eso requiere tener presupuestos creados. Obtenga más información en [Crear presupuestos de G/L](finance-how-create-budgets.md).
 
-## Informes financieros
+## <a name="financial-reports"></a>Informes financieros
 
 Los informes financieros organizan las cuentas de su catálogo de cuentas de manera que facilitan más la presentación de los datos. Puede configurar diversas plantillas para definir la información que desea extraer del plan de cuentas. Los informes financieros proporcionan un lugar para cálculos que no se puedan realizar directamente en el plan de cuentas. Por ejemplo, puede crear subtotales para grupos de cuentas y luego incluir ese total en otros totales. Otro ejemplo es para calcular márgenes de beneficios en dimensiones, como departamentos o grupos de clientes. Además, puede filtrar los movimientos y los movimientos presupuestarios, por ejemplo, por saldo periodo o importe debe.
 
@@ -38,7 +38,7 @@ También puede comparar dos o más informes financieros y definiciones de column
 * Crear tantos informes financieros como necesite, cada uno de ellos con un nombre diferente.
 * Configurar diversas plantillas de informes e imprimir estos con las cifras actuales.
 
-## Categorías de cuenta de G/L
+## <a name="gl-account-categories"></a>Categorías de cuenta de G/L
 
 Puede usar categorías de cuentas para cambiar el diseño de sus balances financieros. Por ejemplo, una vez configuradas las categorías de cuentas en la página **Categorías de cuenta**, puede elegir la acción **Generar informes financieros** y actualizar los informes financieros subyacentes para los informes financieros principales. Luego, la próxima vez que ejecute uno de estos informes, como el informe **Extracto del saldo**, se agregan los nuevos totales y subtotales.
 
@@ -47,7 +47,7 @@ Puede usar categorías de cuentas para cambiar el diseño de sus balances financ
 >
 > Debería crear y estructurar sus propias categorías de cuentas de mayor de nivel inferior desde cero, en una jerarquía si es necesario, en lugar de tratar de reorganizar las existentes. Por ejemplo, puede reestructurar el nodo **Pasivo** para contener un nuevo nodo **Capital** seguido por los nodos **Pasivo circulante** y **Pasivos a largo plazo**.
 
-## Crear un nuevo informe financiero
+## <a name="create-a-new-financial-report"></a>Crear un nuevo informe financiero
 
 Usa informes financieros para analizar cuentas de contabilidad (G/L) o comparar los movimientos de contabilidad con los presupuestados. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto.
 
@@ -78,7 +78,7 @@ Los informes financieros en la versión estándar de [!INCLUDE[prod_short](inclu
 
 Ha definido la base del informe financiero siguiente, las filas de datos financieros que se visualizarán y una plantilla de columnas existente para mostrar los datos de las filas usando parámetros personalizados. Si la definición de columnas predeterminada seleccionada en el paso 4 no se adapta a su finalidad, siga los pasos de [Editar una definición de columna](#edit-a-column-definition).
 
-### Editar una definición de columna
+### <a name="edit-a-column-definition"></a>Editar una definición de columna
 
 Utilice las definiciones de columnas para especificar las columnas para incluir en el informe resultante. Por ejemplo, puede diseñar una plantilla para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior. Puede tener hasta 15 columnas, lo cual es útil, por ejemplo, para ver presupuestos de 12 meses con una columna que muestra el total.
 
@@ -93,7 +93,7 @@ Utilice las definiciones de columnas para especificar las columnas para incluir 
 > [!NOTE]
 > Las columnas definidas en cada fila representan las columnas tres y posteriores en la página **Informe financiero**. Las dos primeras columnas, **N.º fila** y **Descripción**, son fijas.  
 
-### Crear una columna que calcule porcentajes
+### <a name="create-a-column-that-calculates-percentages"></a>Crear una columna que calcule porcentajes
 
 En ocasiones, podría desear incluir una columna en un informe financiero para calcular los porcentajes de un total. Por ejemplo, si tiene filas que detallan las ventas por dimensión, podría desear crear una columna para indicar el porcentaje de las ventas totales en cada fila.
 
@@ -106,7 +106,7 @@ En ocasiones, podría desear incluir una columna en un informe financiero para c
 7. Rellene los campos de la línea como se indica a continuación: en el campo **Tipo columna**, seleccione **Fórmula**. En el campo **Fórmula**, introduzca una fórmula para el importe para el que desea calcular un porcentaje, seguida del signo de porcentaje (%). Por tanto, si el número de columna N contiene los saldos periodos, escriba **N%**.  
 8. Repita los pasos del 4 al 7 para cada grupo de filas que desee subdividir por porcentaje.
 
-## Configurar informes financieros con resúmenes
+## <a name="set-up-financial-reports-with-overviews"></a>Configurar informes financieros con resúmenes
 
 Puede usar un informe financiero para crear un extracto que compare las cifras de contabilidad con las cifras presupuestadas.
 
@@ -124,7 +124,7 @@ Puede usar un informe financiero para crear un extracto que compare las cifras d
 
 Ahora puede copiar y pegar el extracto del presupuesto en una hoja de cálculo.  
 
-## Comparación de períodos contables usando fórmulas de períodos
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Comparación de períodos contables usando fórmulas de períodos
 
 El informe financiero puede comparar los resultados de diferentes períodos contables, como el mes pasado en comparación con el mismo mes del año anterior. Para ello, abra la página **Definición de columna** y personalícela agregando el campo **Fórmula del período de comparación** como columna. Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md). A continuación, puede establecer ese campo en una fórmula de período.  
 
@@ -158,7 +158,7 @@ Si desea calcular el importe del periodo de comparación para periodos de tiempo
 
 Obtenga más información en [Trabajar con fechas y horas del calendario](ui-enter-date-ranges.md).
 
-## Imprimir y guardar informes financieros
+## <a name="print-and-save-financial-reports"></a>Imprimir y guardar informes financieros
 
 Puede imprimir informes financieros utilizando los servicios de impresión de su dispositivo. [!INCLUDE[prod_short](includes/prod_short.md)] también ofrece la opción de guardar informes como libros de trabajo de Microsoft Excel, documentos de Microsoft Word, archivos PDF y XML.
 
@@ -169,7 +169,7 @@ Puede imprimir informes financieros utilizando los servicios de impresión de su
     1. La opción **(Manejado por el navegador)** indica que no hay una impresora designada para el informe. En este caso, el navegador manejará la impresión y mostrará unos pasos de impresión estándar, donde puede elegir una impresora local conectada a su dispositivo. **(Manejado por el navegador)** no está disponible en la aplicación móvil de [!INCLUDE[prod_short](includes/prod_short.md)] o la aplicación para Microsoft Teams.
 5. Seleccione la acción **Imprimir**.
 
-### Programe un informe financiero o guárdelo como un documento PDF, Word o Excel
+### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Programe un informe financiero o guárdelo como un documento PDF, Word o Excel
 
 Un informe financiero se puede guardar como un archivo en diferentes formatos, como PDF, XML, Word o Excel. Alternativamente, [!INCLUDE[prod_short](includes/prod_short.md)] se puede configurar para generar informes financieros recurrentes:
 
@@ -180,11 +180,11 @@ Un informe financiero se puede guardar como un archivo en diferentes formatos, c
 5. Para generar un informe financiero programado o recurrente, complete los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
    * Para informes financieros recurrentes, configure los campos **Fecha/hora de inicio más temprana** y **Fecha/hora de caducidad** con la primera y última fecha, respectivamente, para generar el informe financiero. Además, seleccione en qué días se genera el informe configurando el campo **Fórmula de fecha de próxima ejecución** siguiendo el formato explicado en la sección [Usar fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas).
 
-## Importación o exportación de informes financieros
+## <a name="importing-or-exporting-financial-reports"></a>Importación o exportación de informes financieros
 
 Puede importar y exportar informes financieros como paquetes de configuración RapidStart, que son útiles para compartir la información con otras empresas, por ejemplo. El paquete se crea en un archivo .rapidstart, que comprime los contenidos.
 
-### Importar y exportar informes financieros
+### <a name="import-and-export-financial-reports"></a>Importar y exportar informes financieros
 
 1. Elija el icono ![Bombilla que abre la función Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.
 2. Elija el informe financiero, luego elija la acción **Importar informe financiero** o **Exportar informe financiero**, dependiendo de lo que quiera hacer.
@@ -192,7 +192,7 @@ Puede importar y exportar informes financieros como paquetes de configuración R
 > [!NOTE]
 > Cuando importe informes financieros, se eliminarán los registros existentes con los mismos nombres que los que está importando.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Ejecutar e imprimir informes](ui-work-report.md)  
 [Inteligencia empresarial financiera](bi.md)  

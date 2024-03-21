@@ -10,7 +10,7 @@ ms.date: 12/11/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Extensión WorldPay Payments Standard
+# <a name="the-worldpay-payments-standard-extension"></a>Extensión WorldPay Payments Standard
 
 > [!CAUTION]
 > La extensión WorldPay Payments Standard quedará obsoleta. El código se marca como obsoleto a partir del segundo lanzamiento de versiones de 2023. La aplicación estará activa durante los próximos tres lanzamientos principales y luego se eliminará.
@@ -21,7 +21,7 @@ Si habilita la extensión, cuando envía una factura de venta por correo electr�
 
 La activación de extensiones de servicio de pago es gratuita en [!INCLUDE[prod_short](includes/prod_short.md)], pero deberá ponerse en contacto con el servicio de pago para obtener una cuenta. Para obtener más información, consulte [Permitir pagos de cliente a través de servicios de pago](sales-how-enable-payment-service-extensions.md).
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Configuración de ventas](sales-setup-sales.md)  
