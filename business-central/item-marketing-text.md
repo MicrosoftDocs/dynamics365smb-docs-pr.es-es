@@ -5,19 +5,19 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/13/2023
+ms.date: 03/06/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="add-marketing-text-to-items"></a>Agregar texto de marketing para productos
+# Agregar texto de marketing para productos
 
 Para cualquier producto registrado en Business Central, puede escribir *texto de marketing* sobre el producto. Aunque el texto de marketing es una especie de descripción, es diferente que el campo **Descripción** del producto. El campo **Descripción** se utiliza normalmente como un nombre visible conciso para identificar rápidamente el producto. El texto de marketing, por otro lado, es un texto más rico y descriptivo. Su propósito es agregar contenido promocional y de marketing, también conocido como *copia*. Este texto puede publicarse después con el producto si se publica en una tienda web, como Shopify, o pegarse en correos electrónicos u otras comunicaciones con sus clientes.
 
 Hay dos formas de crear el texto de marketing. La forma más fácil de comenzar es usar Copilot, que sugiere texto generado por IA. La otra forma es empezar de cero. 
 
-## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Obtener sugerencias de texto de marketing con Copilot
+## <a name=copilot></a>Obtener sugerencias de texto de marketing con Copilot
 
 Con Copilot, obtiene rápidamente una sugerencia de texto que se genera automáticamente para usted. El texto generado por IA se adapta al elemento y proporciona un buen punto de partida. El texto se basa en parte en la siguiente información:
 
@@ -28,7 +28,7 @@ Con Copilot, obtiene rápidamente una sugerencia de texto que se genera automát
 
 Copilot está diseñado para ahorrarle tiempo y ayudarlo a escribir texto creativo y atractivo que refleje su marca y sea consistente en toda su línea de productos. Comience generando una sugerencia, luego cambie el texto sugerido según sea necesario.
 
-### <a name="prerequisites"></a>Requisitos previos
+### Requisitos previos
 
 - La función de sugerencias de textos de marketing está habilitada y activada en su entorno. Esta tarea suele realizarla un administrador. Para obtener más información, vaya a [Configurar Copilot y capacidades de IA](enable-ai.md).
 - Está utilizando uno de los idiomas admitidos actualmente por las sugerencias de texto de marketing.
@@ -38,7 +38,7 @@ Copilot está diseñado para ahorrarle tiempo y ayudarlo a escribir texto creati
   Para cambiar el idioma, en la esquina superior derecha, seleccione el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") > **Mi configuración** > **Idioma**. Para obtener más información, vaya a [Cambiar configuración básica](ui-change-basic-settings.md#language).
 - Consulte las [preguntas frecuentes sobre sugerencias de textos de marketing](faqs-marketing-text.md) para saber cómo se aplica la IA.
 
-### <a name="create-first-draft-with-copilot"></a>Crear un primer borrador con Copilot
+### Crear un primer borrador con Copilot
 
 Complete los siguientes pasos para agregar texto de marketing a un artículo existente. Para aprender cómo crear un nuevo elemento, vaya a [Registrar nuevos elementos](inventory-how-register-new-items.md).
 
@@ -48,28 +48,28 @@ Complete los siguientes pasos para agregar texto de marketing a un artículo exi
 
    - Haga doble clic en el elemento o seleccione su valor en **N.º** .
 
+1. Desde la tarjeta de artículo, hay dos formas de comenzar a escribir texto de marketing con Copilot: desde el cuadro informativo **Texto de marketing** o utilizando la acción **Texto de marketing**. Estos métodos se indican en la siguiente figura de una ficha de artículo.  
+
    [![Muestra una tarjeta de producto con panel de texto de marketing](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
-2. Desde la ficha del producto, hay dos formas de empezar a escribir texto de marketing con Copilot. Realice uno de los siguientes pasos:
+   Para crear el primer borrador de un elemento, realice uno de los siguientes pasos:
 
    - En el panel **Texto de marketing** del cuadro informativo en la parte derecha de la página, seleccione **Borrador con Copilot**. 
-   
-     Copilot comienza a redactar el texto de marketing. 
+
+     Copilot comienza a redactar el texto de marketing.
 
    - En la parte superior de la página, seleccione la acción **Texto de marketing**, luego seleccione **Borrador con Copilot** en la **Ventana Editar texto de marketing**.  La ventana **Borrador de texto de marketing con Copilot** aparece y enumera todos los atributos disponibles para el elemento.
-   
-     ![Muestra la ventana de edición de texto de marketing](media/marketing-text-copilot-attributes.svg)
+1. Seleccione los atributos en los que desea que Copilot base las sugerencias y luego seleccione **Generar**. Puede cambiar los atributos seleccionados y otras opciones más adelante. Copilot comienza a redactar el texto de marketing. 
 
-     Seleccione los atributos en los que desea que Copilot base las sugerencias y luego seleccione **Generar**. Puede cambiar los atributos seleccionados y otras opciones más adelante. Copilot comienza a redactar el texto de marketing. 
-     
-3. Cuando Copilot completa el borrador, el texto aparece en la ventana del editor de Copilot para que lo revise y lo edite. 
+   ![Muestra la ventana de edición de texto de marketing](media/marketing-text-copilot-attributes.svg)
+
+1. Cuando Copilot completa el borrador, el texto aparece en la ventana del editor de Copilot para que lo revise y lo edite.
 
    [![Muestra la creación con ventanas Copilot](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
    Ahora puede obtener más sugerencias, intentar mejorar las sugerencias que recibe, editar texto y más. Vaya a [Revisar, editar y guardar](#review-edit-and-save-text) para obtener más información.
 
-
-### <a name="review-edit-and-save-text"></a>Revisar, editar y guardar texto
+### Revisar, editar y guardar texto
 
 Una vez que tenga el primer borrador, debe revisarlo y hacer cambios en el texto para dejarlo listo para su publicación. Este trabajo se hace desde el editor de Copilot, que le permite obtener más sugerencias, cambiar las preferencias para influir en las sugerencias y realizar cambios y diseñar manualmente el texto.
 
@@ -92,7 +92,7 @@ Use las siguientes pautas para finalizar y guardar el texto de marketing.
    - Si desea guardar el texto, seleccione **Mantenerlo**. 
    - Si no desea guardar, seleccione el botón de descartar (papelera) ![Muestra el ícono de la papelera para eliminar todas las propuestas de Copilot para la conciliación de cuentas bancarias](media/copilot-delete-trash-can.png).
 
-### <a name="improve-and-tailor-text-suggestions"></a>Mejorar y adaptar las sugerencias de texto
+### Mejorar y adaptar las sugerencias de texto
 
 Hay algunos pasos que puede seguir para mejorar las sugerencias de texto y modificarlas para adaptarlas a sus preferencias personales o de empresa.
 
@@ -115,11 +115,11 @@ Hay algunos pasos que puede seguir para mejorar las sugerencias de texto y modif
 
    Copilot encuentra palabras y frases relacionadas con la categoría y las trabajará en el texto sugerido.
 
-### <a name="working-with-multiple-languages"></a>Trabajar con varios idiomas
+### Trabajar con varios idiomas 
 
 El texto se genera siempre en el idioma definido por su [configuración](ui-change-basic-settings.md#language) de usuario. Si su organización opera e introduce datos en Business Central en otro idioma, o si Business Central está conectado a su tienda en línea, por ejemplo con Shopify, esto podría dar lugar a la publicación de contenidos que no coincidan con contenidos de marketing similares.
 
-## <a name="create-text-from-scratch"></a>Crear texto desde cero
+## Crear texto desde cero
 
 1. En Business Central, abra el producto que desea modificar como sigue:
 
@@ -133,7 +133,7 @@ El texto se genera siempre en el idioma definido por su [configuración](ui-chan
 3. Realice cambios en el texto directamente en el cuadro **Texto de marketing**. Use la barra de herramientas en la parte inferior del cuadro para dar formato y estilo al texto, agregar enlaces y más.
 4. Seleccione **DE ACUERDO** cuando haya terminado para guardar el texto.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Resumen de sugerencias de texto de marketing](ai-overview.md)  
 [Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)  

@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Configuración de estados para órdenes y reparaciones de servicio
+# Configuración de estados para órdenes y reparaciones de servicio
 
 Debe configurar opciones de estado de reparación que identifican el progreso de la reparación y el mantenimiento de productos de servicio de pedidos de servicio. Debe configurar como mínimo nueve opciones de estado de reparación que identifiquen situaciones o acciones realizadas durante el servicio de productos de servicio.  
 
@@ -19,7 +19,7 @@ Cuando se modifica el estado de reparación de un producto de servicio de un ped
 
 Antes de poder configurar un estado de reparación, debe establecer prioridades de estado de servicio.
 
-## <a name="to-set-up-service-status-priorities"></a>Para configurar prioridades de estado de servicio
+## Para configurar prioridades de estado de servicio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estado de pedido de servicio** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione el estado de pedido de servicio para el que desea establecer la prioridad.  
@@ -27,7 +27,7 @@ Antes de poder configurar un estado de reparación, debe establecer prioridades 
 
 Repita las tareas 2 y 3 hasta que haya establecido la prioridad de las cuatro opciones de estado: **Pendiente**, **En proceso**, **Terminado** y **En espera**.  
 
-## <a name="to-set-up-a-repair-status"></a>Para configurar un estado de reparación
+## Para configurar un estado de reparación
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Estado de reparación** y luego elija el enlace relacionado.
 2. Cree un estado de reparación nuevo.  
@@ -40,7 +40,7 @@ Repita las tareas 2 y 3 hasta que haya establecido la prioridad de las cuatro op
 
 Repita estos pasos para cada una de las opciones de estado de reparación que desee crear.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Estado de pedido de servicio y estado de reparación](service-service-order-status-and-repair-status.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  

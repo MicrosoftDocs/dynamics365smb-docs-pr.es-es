@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# <a name="get-ready-to-synchronize-master-data"></a>Prepararse para sincronizar datos maestros
+# Prepararse para sincronizar datos maestros
 
 Cuando dos o más empresas utilizan algunos de los mismos datos maestros, puede sincronizar los datos en lugar de agregarlos manualmente en cada empresa. Por ejemplo, la sincronización de datos es particularmente útil cuando está configurando nuevas empresas filiales.
 
@@ -25,14 +25,14 @@ Los datos maestros incluyen configuraciones e información no transaccional sobr
 
 Establezca la sincronización en las empresas filiales. Usando un modelo de extracción, las filiales extraen los datos de la empresa de origen que necesitan para hacer negocios con ellos. Después de configurar la sincronización y sincronizar los datos por primera vez, ya está todo listo. Los movimientos de cola de proyectos actualizan registros emparejados en las filiales cuando alguien cambia datos en la empresa de origen.
 
-## <a name="uni-directional-synchronization-only"></a>Solo sincronización unidireccional
+## Solo sincronización unidireccional
 
 Puede sincronizar datos solo de la empresa de origen a las empresas filiales en forma de extracción. Las filiales no pueden enviar datos a la empresa de origen.
 
 > [!NOTE]
 > Aunque es posible, no recomendamos que configure la sincronización bidireccional. Es decir, sincronizar datos de la empresa de origen a las filiales y de las filiales a la empresa de origen. La sincronización de datos en ambas direcciones puede generar conflictos o sobrescrituras no deseadas.
 
-## <a name="before-you-start"></a>Antes de comenzar
+## Antes de comenzar
 
 Estos son los requisitos para configurar la sincronización.
 
@@ -42,7 +42,7 @@ Estos son los requisitos para configurar la sincronización.
 > [!NOTE]
 > Las licencias de miembro del equipo o administrador interno le permiten acceder pero no modificar registros, por lo que no se pueden usar para configurar la sincronización. La licencia de administrador delegado no le permite programar tareas en segundo plano, por lo que no podrá completar la configuración.
 
-## <a name="specify-the-source-company"></a>Especificar la empresa de origen
+## Especificar la empresa de origen
 
 Los primeros pasos son especificar la empresa que será la fuente de datos y habilitar la sincronización. Las empresas filiales extraen datos de la empresa de origen.
 
@@ -56,7 +56,7 @@ Los primeros pasos son especificar la empresa que será la fuente de datos y hab
 
 El siguiente paso es habilitar tablas y campos para la sincronización.
 
-## <a name="enable-or-disable-tables-and-fields"></a>Habilitar o deshabilitar tablas y campos
+## Habilitar o deshabilitar tablas y campos
 
 Para ahorrar tiempo, [!INCLUDE [prod_short](includes/prod_short.md)] proporciona una lista de tablas que las empresas suelen sincronizar. De forma predeterminada, estas tablas están habilitadas para sincronización. Puede modificarlas, deshabilitarlas o eliminarlas como mejor le parezca. Para ahorrar tiempo, algunos campos de las tablas ya están deshabilitados, porque probablemente no sean relevantes para la filial.
 
@@ -78,7 +78,7 @@ Para ahorrar tiempo, [!INCLUDE [prod_short](includes/prod_short.md)] proporciona
 > [!TIP]
 > Una forma rápida de habilitar o deshabilitar varios campos al mismo tiempo es seleccionarlos en la lista y luego usar las acciones **Habilitar** o **Deshabilitar**.
 
-### <a name="use-match-based-coupling"></a>Usar emparejamiento basado en coincidencias
+### Usar emparejamiento basado en coincidencias
 
 Puede especificar los datos para sincronizar para una tabla haciendo coincidir los registros según criterios. En la página **Configuración de administración de datos maestros**, elija la acción **Emparejamiento basado en coincidencias** para abrir la página **Seleccionar criterios de emparejamiento**. Puede definir los siguientes criterios para su coincidencia:
 
@@ -87,7 +87,7 @@ Puede especificar los datos para sincronizar para una tabla haciendo coincidir l
 * Los campos que se utilizarán para hacer coincidir los registros y si la coincidencia distingue entre mayúsculas y minúsculas.
 * Priorice el orden en el que se buscan los registros especificando un prioridad de coincidencia. [!INCLUDE [prod_short](includes/prod_short.md)] buscará una coincidencia en orden ascendente según la prioridad de coincidencia. Un valor en blanco es igual a la prioridad 0, que es la prioridad más alta. Los campos con la prioridad 0 se consideran en primer lugar.
 
-## <a name="synchronize-for-the-first-time"></a>Sincronizar por primera vez
+## Sincronizar por primera vez
 
 Cuando esté listo, en la página **Configuración de administración de datos maestros** , seleccione la acción **Iniciar sincronización inicial**. En la página **Sincronización inicial de datos maestros** elija el tipo de sincronización que desea usar para cada tabla.
 
@@ -106,9 +106,9 @@ Mientras se ejecuta la sincronización, la columna **Estado del trabajo** de la 
 
 Para acceder a detalles, como el número de registros que se insertan o modifican, elija el valor en la columna **Estado del trabajo** para abrir la página **Ver: trabajos de sincronización de integración**. Para los registros que se insertaron, puede elegir el número en la columna **Insertado** para acceder a más detalles sobre los nuevos registros.
 
-## <a name="add-or-delete-tables-from-the-synchronization-tables-list"></a>Agregar o eliminar tablas de la lista de tablas de sincronización
+## Agregar o eliminar tablas de la lista de tablas de sincronización
 
-### <a name="add-a-table"></a>Agregar una tabla
+### Agregar una tabla
 
 > [!IMPORTANT]
 > Aunque las tablas que contienen datos transaccionales están disponibles en la lista, como las tablas que contienen entradas del libro mayor, no debe elegirlas. La sincronización solo funciona para tablas que contienen datos no transaccionales.
@@ -117,7 +117,7 @@ Para acceder a detalles, como el número de registros que se insertan o modifica
 1. Elija **Nueva** y, a continuación, elija la tabla a agregar.
 1. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### <a name="delete-a-table"></a>Eliminar una tabla
+### Eliminar una tabla
 
 > [!NOTE]
 > Si elimina un registro en la empresa de origen, no se elimina también en la filial. Esto ayuda a evitar la pérdida no deseada de datos. La filial puede decidir eliminar la tabla si lo desea.
@@ -125,10 +125,10 @@ Para acceder a detalles, como el número de registros que se insertan o modifica
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tablas de sincronización** y luego elija el vínculo relacionado.
 1. Elija la acción **Eliminar**.
 
-## <a name="use-export-and-import-to-share-a-synchronization-setup"></a>Use exportar e importar para compartir una configuración de sincronización
+## Use exportar e importar para compartir una configuración de sincronización
 
 Si está configurando varias filiales que usan la misma configuración de sincronización o una similar, hay un ahorro de tiempo. Configure una empresa filial y luego exporte su configuración a un archivo .xml. El archivo contiene la configuración completa, incluidas las asignaciones de tablas y campos y los criterios de filtro. A continuación, puede importar el archivo a la siguiente filial. Para importar o exportar una configuración, en la página **Configuración de administración de datos maestros**, use las acciones **Importar** o **Exportar**.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar la sincronización de datos maestros](admin-sync-master-data.md)

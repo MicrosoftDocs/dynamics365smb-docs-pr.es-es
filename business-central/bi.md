@@ -10,7 +10,7 @@ ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="financial-business-intelligence"></a>Inteligencia empresarial financiera
+# Inteligencia empresarial financiera
 
 Las empresas capturan una ingente cantidad de información durante las actividades diarias. Esta información, que refleja aspectos como las cifras de ventas, las compras, los gastos operativos, los salarios de los empleados o los presupuestos de la organización, y que se conoce como inteligencia empresarial, resulta muy valiosa para los responsables de la toma de decisiones. [!INCLUDE[prod_short](includes/prod_short.md)] contiene muchas funciones para ayudarle a recopilar, analizar y compartir la información de su empresa.
 
@@ -31,7 +31,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Habilite la información financiera global por medio de las organizaciones internacionales de contabilidad el estándar de lenguaje de informes de negocio extensible (XBRL).|[Crear informes con XBRL](bi-create-reports-with-xbrl.md)|
 |Cambie la intención de acceso a la base de datos en informes, páginas de tipo API y consultas para reducir la carga y mejorar el rendimiento.|[Gestionar la intención de acceso a la base de datos](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Finanzas](finance.md)  
 [Usar Business Central como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  

@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-sales-and-purchases"></a>Usar documentos electrónicos en ventas y compras
+# Usar documentos electrónicos en ventas y compras
 
 Puede utilizar documentos electrónicos configurados (documentos electrónicos) con documentos de compras y ventas.
 
@@ -34,13 +34,13 @@ Puede usar los siguientes documentos con la función de documentos electrónicos
 > [!NOTE]
 > Actualmente, una orden de compra solo se puede utilizar cuando crea el documento a partir del documento electrónico de su proveedor. Sin embargo, no puede actualizar el documento existente con líneas que recibió de su proveedor.  
 
-## <a name="e-documents-in-sales"></a>Documentos electrónicos en ventas
+## Documentos electrónicos en ventas
 
 Para crear y enviar una factura electrónica a un cliente, debe crear y registrar la factura de venta. Para obtener más información sobre el proceso estándar, consulte [Ventas con facturas](sales-how-invoice-sales.md).
 
 Después de contabilizar el documento de ventas, abra la página **Factura de ventas registrada** para obtener a la página **Documento electrónico** relacionada.
 
-### <a name="view-e-documents"></a>Ver documentos electrónicos
+### Ver documentos electrónicos
 
 Para ver documentos electrónicos existentes, siga estos pasos.
 
@@ -49,7 +49,7 @@ Para ver documentos electrónicos existentes, siga estos pasos.
 3. El campo **Registro** muestra el número del documento de la factura de venta registrada. Seleccione el enlace para abrir el documento.
 4. En el campo **Estado del documento electrónico** , puede ver el estado en tiempo real del documento y su ubicación en el proceso. Si el documento está contabilizado, el estado es **Procesado**.
 
-### <a name="e-document-statuses-and-logs"></a>Estados y registros de documentos electrónicos
+### Estados y registros de documentos electrónicos
 
 Para obtener detalles sobre el nivel de estado del servicio de su documento electrónico, consulte la pestaña desplegable **Estado del servicio de documento electrónico** . En las líneas, el sistema muestra uno o más servicios que el documento utilizó. En el escenario más común, cada documento utiliza solo un servicio. Sin embargo, un documento puede utilizar varios servicios.
 
@@ -73,11 +73,11 @@ Si hay un problema con el proveedor de servicios y el documento no se puede envi
 
 Una vez solucionado el problema, ejecute manualmente las acciones **Enviar documento**. Si necesita diferentes acciones, como **Documento recreado**, **Cancelar documento** u **Obtener aprobación**, puede ejecutarlos.
 
-## <a name="e-documents-in-purchases"></a>Documentos electrónicos en compras
+## Documentos electrónicos en compras
 
 La recepción de facturas electrónicas de compra en Dynamics 365 Business Central puede realizarse como un trabajo por lotes o manualmente.
 
-### <a name="run-the-batch-job"></a>Ejecutar el trabajo por lotes
+### Ejecutar el trabajo por lotes
 
 > [!NOTE]
 > Este trabajo por lotes es para el cobro automatizado de sus facturas entrantes. Solo puede funcionar en un país o región donde exista la funcionalidad.
@@ -101,7 +101,7 @@ Hay dos errores comunes:
 
 Después de corregir los errores y advertencias, puede especificar manualmente cuándo el sistema debe crear una factura de compra según su configuración seleccionando **Crear documento**.
 
-### <a name="manually-import-invoices"></a>Importar facturas manualmente
+### Importar facturas manualmente
 
 Para importar manualmente documentos electrónicos externos, siga estos pasos.
 
@@ -112,7 +112,7 @@ Para importar manualmente documentos electrónicos externos, siga estos pasos.
 5. Cuando haya terminado de solucionar los problemas, en el grupo **Importar manualmente**, seleccione **Crear documento**.
 6. Una vez creado el documento en Business Central, podrá verlo tal como lo haría si utiliza un trabajo por lotes.
 
-## <a name="overview-of-e-document-statuses"></a>Descripción general de los estados de los documentos electrónicos
+## Descripción general de los estados de los documentos electrónicos
 
 Para obtener una mejor descripción general de todos los documentos electrónicos de la empresa, puede seleccionar el centro de funciones **Contable** donde existen estados de documentos electrónicos. Allí podrá encontrar actividades de documentos electrónicos que tengan los siguientes estados:
 
@@ -128,7 +128,7 @@ Para obtener una mejor descripción general de todos los documentos electrónico
     - En curso
     - Error
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Cómo configurar documentos electrónicos en Business Central](finance-how-setup-edocuments.md)  
 [Cómo ampliar documentos electrónicos en Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

@@ -8,7 +8,7 @@ ms.date: 03/31/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="ad-hoc-data-analysis"></a>Análisis de datos ad hoc
+# Análisis de datos ad hoc
 
 En ocasiones necesita analizar datos de [!INCLUDE[prod_short](includes/prod_short.md)] de una manera que no está disponible en un informe estándar. Esta tarea a veces se denomina "análisis ad hoc". A continuación hay enlaces para ayudarlo a realizarla.
 
@@ -20,7 +20,7 @@ En ocasiones necesita analizar datos de [!INCLUDE[prod_short](includes/prod_shor
 | Vea y analice los datos financieros utilizando informes financieros | [Análisis financiero](bi.md) |
 | Analizar lista de datos directamente de una página |[Analizar datos en lista usando el modo de análisis de datos](analysis-mode.md)|
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Descripción general de Inteligencia empresarial e informes](ui-work-report.md)
 

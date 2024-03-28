@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.devlang: al
   ms.search.keywords: 'list, filter, pane, views'
-  ms.date: 08/09/2022
+  ms.date: 02/28/2024
   ms.author: mikebc
   ms.service: dynamics-365-business-central
 title: Preguntas frecuentes sobre vistas de lista
@@ -86,7 +86,7 @@ sections:
           - Vistas de sistema heredadas que son una parte estándar de la aplicación de negocio pero que se crearon utilizando versiones anteriores de [!INCLUDE[prod_short](includes/prod_short.md)]. Estas vistas ofrecen menos opciones. Solo puede guardarlas como una nueva vista y tampoco puede ocultarlas ni reordenarlas. Las vistas de sistema heredadas dejarán de estar operativas en una actualización futura de [!INCLUDE[prod_short](includes/prod_short.md)].
 
           > [!NOTE]
-          > A partir del segundo lanzamiento de versiones de Business Central 2023, las vistas heredadas ya no serán compatibles y no se mostrarán en la página de lista. Obtenga información técnica sobre cómo los desarrolladores pueden migrar a vistas de lista modernas en [Migración de vistas heredadas a vistas modernas](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
+          > A partir del primer lanzamiento de versiones de Business Central 2024, las vistas heredadas ya no serán compatibles y no se mostrarán en la página de lista. Obtenga información técnica sobre cómo los desarrolladores pueden migrar a vistas de lista modernas en [Migración de vistas heredadas a vistas modernas](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
       - question: |
           ¿Cómo supero las limitaciones de las vistas del sistema heredado?
         answer: |
