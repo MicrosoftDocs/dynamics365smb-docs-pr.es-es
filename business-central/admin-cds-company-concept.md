@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Modelos de propiedad de datos para la sincronización.
+# <a name="data-ownership-models-for-synchronization"></a>Modelos de propiedad de datos para la sincronización.
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] requiere que especifique un propietario para los datos que almacena. Para más información, consulte [Tipos de tablas](/powerapps/maker/data-platform/types-of-entities) en la documentación de Power Apps. Cuando configura la integración entre [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[prod_short](includes/prod_short.md)], debe elegir la propiedad **Usuario o equipo** para los registros que están sincronizados. Las acciones que se pueden realizar en estos registros se pueden controlar a nivel de usuario. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## Propiedad de equipo
+## <a name="team-ownership"></a>Propiedad de equipo
 En [!INCLUDE[prod_short](includes/prod_short.md)], una empresa es una tabla legal y comercial que ofrece formas de proteger y visualizar datos comerciales. Los usuarios siempre trabajan en el contexto de una empresa. Lo más cerca que [!INCLUDE[prod_short](includes/cds_long_md.md)] llega a este concepto es la tabla de unidad de negocio, que no tiene implicaciones legales o comerciales.
 
 Debido a que las unidades de negocio carecen de implicaciones legales y comerciales, no puede forzar una asignación uno a uno (1:1) para sincronizar los datos entre una empresa y una unidad de negocio, ya sea unidireccional o bidireccional. Para hacer posible la sincronización, cuando habilita la sincronización para una empresa en [!INCLUDE[prod_short](includes/prod_short.md)], lo siguiente sucede en [!INCLUDE[prod_short](includes/cds_long_md.md)]:
@@ -48,21 +48,21 @@ La sincronización determina qué equipo debe poseer los registros. Esto se cont
 > [!NOTE]
 > Los registros se vuelven de solo lectura después de agregar y guardar una empresa, así que asegúrese de elegir la empresa correcta.
 
-## Elegir una unidad de negocio diferente
+## <a name="choosing-a-different-business-unit"></a>Elegir una unidad de negocio diferente
 Puede cambiar la selección de la unidad de negocio si está utilizando el modelo de propiedad de Teams. Si utiliza el modelo de propiedad de Persona, la unidad de negocio predeterminada siempre está seleccionada. 
 
 Si elige otra unidad de negocio, por ejemplo, una que haya creado anteriormente en [!INCLUDE[prod_short](includes/cds_long_md.md)], mantendrá su nombre original. Es decir, no tendrá el sufijo del id. de empresa. Crearemos un equipo que utilice la convención de nomenclatura.
 
 Al cambiar una unidad de negocio, puede elegir solo las unidades de negocio que están un nivel por debajo de la unidad de negocio raíz.
 
-## Propiedad de persona
+## <a name="person-ownership"></a>Propiedad de persona
 Si elige el modelo de propiedad de persona, debe especificar cada vendedor que será propietario de los nuevos registros. La unidad de negocio y el equipo se crean como se describe en la sección [Propiedad de equipo](admin-cds-company-concept.md#team-ownership).
 
 La unidad de negocio predeterminada se utiliza cuando se elige el modelo de propiedad Persona y no puede elegir otra unidad de negocio. El equipo asociado con la unidad de negocio predeterminada será propietario de registros de tablas comunes, como la tabla de Producto, que no están relacionadas con vendedores específicos.
 
 Cuando empareja a vendedores de [!INCLUDE[prod_short](includes/prod_short.md)] con usuarios de [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)] agregará el usuario al equipo predeterminado en [!INCLUDE[prod_short](includes/cds_long_md.md)]. Puede verificar que los usuarios se agregan mirando la columna **Miembro del equipo predeterminado** de la página **Usuarios - Common Data Service**. Si no se agrega el usuario, puede agregarlo manualmente utilizando la acción **Agregar usuarios acoplados al equipo**. Para obtener más información, consulte [Sincronizar datos de Business Central con Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Acerca de [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

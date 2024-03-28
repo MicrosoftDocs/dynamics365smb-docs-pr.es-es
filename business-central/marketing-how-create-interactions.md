@@ -11,13 +11,13 @@ ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.service: dynamics-365-business-central
 ---
-# Crear interacciones en contactos y segmentos
+# <a name="create-interactions-on-contacts-and-segments"></a>Crear interacciones en contactos y segmentos
 
 Puede crear interacciones para rastrear las comunicaciones que tiene con un solo contacto o con múltiples contactos en sus segmentos. Para facilitar la creación de interacciones, [!INCLUDE [prod_short](includes/prod_short.md)] proporciona la guía de configuración asistida **Crear interacción** . La guía le ayuda a capturar los detalles importantes sobre la interacción.
 
 Antes de crear interacciones, debe configurar las plantillas de interacción. Para obtener más información sobre plantillas de interacción, vaya a [Configurar plantillas de interacción](marketing-interactions.md).
 
-## Para crear una interacción con un contacto
+## <a name="to-create-an-interaction-with-a-contact"></a>Para crear una interacción con un contacto
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , introduzca **Contactos**, **Vendedor** o **Entrada del registro de interacción** y luego elija el enlace relacionado.
 2. Seleccione la acción **Crear interacción**.
@@ -26,7 +26,7 @@ Antes de crear interacciones, debe configurar las plantillas de interacción. Pa
 > [!NOTE]  
 > Si necesita detenerse antes de haber finalizado la interacción, puede elegir **Cancelar** y luego especificar si desea guardar su configuración para poder continuar más tarde. Para obtener más información sobre las interacciones pospuestas, vaya a [Para terminar de configurar una interacción pospuesta](#to-finish-setting-up-a-postponed-interaction).
 
-## Para crear una interacción en un segmento
+## <a name="to-create-an-interaction-on-a-segment"></a>Para crear una interacción en un segmento
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Crear interacción**.
@@ -41,12 +41,12 @@ Antes de crear interacciones, debe configurar las plantillas de interacción. Pa
 
 Se registra una interacción para cada contacto dentro del segmento en la tabla **Movimiento de registro de interacción** y se archiva el segmento. Puede encontrar los segmentos grabados en la página **Segmento grabado**.
 
-## Para terminar de configurar una interacción aplazada
+## <a name="to-finish-setting-up-a-postponed-interaction"></a>Para terminar de configurar una interacción aplazada
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Interacciones aplazadas** y, a continuación, elija el vínculo relacionado.
 2. Elija la interacción que desea terminar y, a continuación, seleccione la acción **Reanudar**.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Registrar interacciones](marketing-interactions.md)  
 [Gestionar contactos](marketing-contacts.md)  

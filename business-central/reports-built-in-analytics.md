@@ -9,7 +9,7 @@ ms.date: 02/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Análisis integrados
+# <a name="built-in-analytics"></a>Análisis integrados
 
 [!INCLUDE[prod_short](includes/prod_short.md)] viene con algunas características que le permiten analizar datos de forma agregada. Esta funcionalidad es útil si, por ejemplo, desea realizar un seguimiento de los indicadores clave de rendimiento (KPI) financieros o analizar estados financieros en Microsft Excel. A continuación hay enlaces para ayudarlo a aprender a usarlo.
 
@@ -22,7 +22,7 @@ ms.service: dynamics-365-business-central
 |Analizar datos financieros entre varias empresas | [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md) |
 |Obtener información sobre qué informes usan los usuarios| [Telemetría de uso de informes](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Descripción general de Inteligencia empresarial e informes](reports-use-reports.md)
 

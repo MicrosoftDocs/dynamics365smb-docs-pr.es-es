@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Configurar reglas para la liquidación automática de los pagos
+# <a name="set-up-rules-for-automatic-application-of-payments"></a>Configurar reglas para la liquidación automática de los pagos
 
 En la página **Reglas de liquidación de pago**, se establecen reglas para determinar cómo el texto de pago (en una transacción bancaria) se enlaza automáticamente en factoras relacionadas abiertas (sin pagar), notas de abono u otras entradas cuando usa la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
@@ -28,7 +28,7 @@ Además de los criterios de correspondencia, lo siguiente se aplica en relación
 - Para importes negativos, la correspondencia se realiza primero contra movimientos pendientes que representan las facturas de cliente y luego contra los abonos de proveedor.
 - Para importes positivos, la correspondencia se realiza primero contra movimientos pendientes que representan las facturas de proveedor y luego contra los abonos de cliente.
 
-## Para configurar una regla de liquidación de pago
+## <a name="to-set-up-a-payment-application-rule"></a>Para configurar una regla de liquidación de pago
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Reglas de liquidación de pagos** y luego elija el enlace relacionado.
 2. Defina una regla de liquidación de pago nueva o modificada; para ello, rellene los campos en una línea, tal como se describe en la tabla siguiente.
 
@@ -73,7 +73,7 @@ La siguiente tabla describe las reglas de aplicación de pago estándar en [!INC
 | Baja              | 4        | No                    | No                             | Una instancia                      |
 | Baja              | 5        | No                    | No                             | Múltiples instancias               |
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  

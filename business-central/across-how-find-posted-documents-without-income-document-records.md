@@ -9,11 +9,11 @@ ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Buscar documentos registrados sin registros de documentos entrantes
+# <a name="find-posted-documents-without-incoming-document-records"></a>Buscar documentos registrados sin registros de documentos entrantes
 
 Desde las páginas **Plan de cuentas** y **Movs. contabilidad**, podrá usar una función de búsqueda para buscar los movimientos de contabilidad para aquellos documentos de compra y de venta registrados que no tienen registros de documento entrantes y después vincularlos de forma centralizada a registros existentes o crear registros nuevos con archivos de documentos adjuntos.
 
-## para buscar documentos registrados sin registros de documentos entrantes
+## <a name="to-find-posted-documents-without-incoming-document-records"></a>para buscar documentos registrados sin registros de documentos entrantes
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.
 2. Seleccione una línea para una cuenta de contabilidad para la que quiere ver los documentos de ventas y compras registrados de los movimientos de contabilidad sin registros de documentos entrantes y, a continuación, seleccione la acción **Documentos registrados sin documento entrante**.
@@ -22,7 +22,7 @@ Desde las páginas **Plan de cuentas** y **Movs. contabilidad**, podrá usar una
 
 La página **Documentos registrados sin documento entrante** se abre con los documentos registrados de compra y de venta sin registros de documento entrantes representados por los movimientos de contabilidad de la cuenta para la que abrió la página. La página puede mostrar un máximo de 1000 líneas. De manera predeterminada, el campo **Filtro de fecha** contiene un filtro que limita las líneas a los movimientos con fechas de registro desde el inicio del periodo contable a la fecha de trabajo.
 
-## Para vincular los documentos encontrados con registros de documento entrantes existentes
+## <a name="to-connect-found-documents-to-existing-incoming-document-records"></a>Para vincular los documentos encontrados con registros de documento entrantes existentes
 
 1. En la página **Documentos registrados sin documento entrante**, seleccione la línea para un documento registrado que desee conectar con un registro de documento entrante existente y, a continuación, elija la acción **Seleccionar documento entrante**.
 2. En la página **Documentos entrantes**, seleccione el registro de documento entrante que desea agregar para conectarlo con el documento registrado encontrado y, a continuación, elija el botón **Aceptar**.
@@ -30,7 +30,7 @@ La página **Documentos registrados sin documento entrante** se abre con los doc
 
 Si no existe un registro de documento entrante correspondiente en la página **Documentos entrantes**, puede crearlo. Para obtener más información, vea [Crear registros de documentos entrantes](across-how-create-income-document-records.md).
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Crear registros de documentos entrantes](across-how-create-income-document-records.md)
 [Usar OCR para convertir archivos PDF y de imagen en documentos electrónicos](across-how-use-ocr-pdf-images-files.md)

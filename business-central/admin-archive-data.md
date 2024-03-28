@@ -11,13 +11,13 @@ ms.search.form: 630
 ms.service: dynamics-365-business-central
 ---
 
-# La extensión Archivo de datos
+# <a name="the-data-archive-extension"></a>La extensión Archivo de datos
 
 Con el tiempo, su empresa acumulará una cantidad sustancial de datos y, como administrador, probablemente sea una buena idea tener una estrategia para archivar datos. Tener muchos datos puede ralentizar las cosas, por ejemplo, puede llevar un poco más de tiempo generar informes o incluso bloquear registros. Además, grandes cantidades de datos pueden generar mayores costos de almacenamiento.
 
 La extensión Archivo de datos proporciona un marco básico para archivar y realizar copias de seguridad de los datos como parte de la compresión por fechas. La compresión por fechas consolida las entradas relacionadas en una sola entrada y los originales se eliminan. Obtenga más información en [Comprimir datos con compresión por fechas](admin-manage-documents.md#compress-data-with-date-compression). Sin embargo, puede ser útil conservar esos datos, por lo que en lugar de eliminarlos, puede archivarlos para su uso posterior.
 
-## Iniciar el archivo de datos
+## <a name="start-archiving-data"></a>Iniciar el archivo de datos
 
 La extensión está preinstalada y disponible en la **Administración de extensiones**, por lo que no necesita hacer nada para comenzar. La extensión también está disponible en AppSource.
 
@@ -51,10 +51,10 @@ Los siguientes trabajos por lotes utilizan la extensión Archivo de datos para c
 
 Para comenzar a archivar datos cuando ejecuta uno de los trabajos por lotes, active el botón de alternancia **Archivar movs. borrados**.
 
-## Consideraciones sobre el almacenamiento
+## <a name="storage-considerations"></a>Consideraciones sobre el almacenamiento
 
 Los datos archivados se almacenan en la tabla **Medios de suscriptor**. Le recomendamos que exporte archivos antiguos a, por ejemplo, un archivo CSV y luego elimine los registros del archivo antiguo.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Administrar almacenamiento eliminando documentos o comprimiendo datos](admin-manage-documents.md)
