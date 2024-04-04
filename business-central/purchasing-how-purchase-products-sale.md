@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Compra de artículos para una venta mediante la creación de facturas de compra
+# Compra de artículos para una venta mediante la creación de facturas de compra
 
 A partir de pedidos y facturas de venta, puede utilizar funciones para crear rápidamente los documentos de compra de las cantidades de productos que faltan que sean necesarias para la venta. Puede utilizar dos funciones distintas dependiendo del tipo de documento.
 
@@ -22,7 +22,7 @@ A partir de pedidos y facturas de venta, puede utilizar funciones para crear rá
 |**Crear pedidos de compra**|A partir de un pedido de compra, esta función crea un pedido de compra para cada proveedor de los productos que hay en el pedido de venta. Puede modificar la cantidad de compra antes de crear los pedidos de compra. Solo se sugieren las cantidades de venta no disponibles.
 |**Crear factura de compra**|A partir de un pedido de venta y desde una factura de venta, esta función crea una factura de compra de un proveedor seleccionado para todas las líneas o las líneas seleccionadas del documento de venta. Se sugiere la cantidad de venta completa.|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Para crear uno o más pedidos de compra a partir de un pedido de venta
+## Para crear uno o más pedidos de compra a partir de un pedido de venta
 Para crear un pedido de compra para cada cantidad de producto no disponible en el pedido de venta, utilice la función **Crear pedidos de compra**.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
@@ -42,7 +42,7 @@ Para crear un pedido de compra para cada cantidad de producto no disponible en e
 7. Procese el pedido o los pedidos de compra, por ejemplo, mediante la modificación o la adición de las líneas del pedido de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Para crear una factura de compra a partir de un pedido o pedidos de venta
+## Para crear una factura de compra a partir de un pedido o pedidos de venta
 Para crear una sola factura de compra para una o varias líneas de un documento de ventas seleccionando primero el proveedor al que se compra, utilice la función **Crear factura de compra**.
 
 > [!NOTE]  
@@ -58,7 +58,7 @@ Para crear una sola factura de compra para una o varias líneas de un documento 
     Se crea una factura de compra que contiene una, más de una o todas las líneas en la factura de venta.
 7. Procese la factura de compra, por ejemplo, mediante la modificación o la adición de las líneas de la factura de compra. Para obtener más información, consulte [Registrar compras](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Registrar compras](purchasing-how-record-purchases.md)  
 [Facturar ventas](sales-how-invoice-sales.md)  
