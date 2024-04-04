@@ -10,7 +10,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Facturar proyectos
+# <a name="invoice-projects"></a>Facturar proyectos
 
 Durante el proyecto, pueden acumularse los costes del proyecto por el uso de recursos, materiales y compras relacionadas con el proyecto. Según progresa el proyecto, estas transacciones se registran en el diario del proyecto. Es importante que se registren todos los costes en el diario del proyecto antes de facturar al cliente.
 
@@ -24,7 +24,7 @@ Puede facturar el proyecto completo desde la página **Líneas tareas proyecto**
 
 También puede facturar a una empresa que no sea el cliente final. A veces, la parte a la que se dirige un proyecto es diferente de la parte que paga la factura. En la página **Trabajos**, puede especificar el cliente que se beneficiará del proyecto en los campos **Vender a** y la parte a facturar en los campos **Cobrar a**. 
 
-## Para crear varias facturas de venta de proyecto
+## <a name="to-create-multiple-project-sales-invoices"></a>Para crear varias facturas de venta de proyecto
 
 Puede crear la factura de un proyecto o de una o varias tareas del proyecto para un cliente cuando se haya terminado el trabajo que se va a facturar o cuando se llegue a la fecha de facturación en función de un programa de facturación.
 
@@ -40,7 +40,7 @@ Puede revisar y registrar facturas creadas en la ventana **Facturas de venta**.
 > [!NOTE]
 > También puede facturar a un cliente seleccionando el proyecto y eligiendo la acción **Crear factura venta proyecto**. 
 
-## Para crear y registrar facturas de venta de proyecto desde líneas de planificación de proyecto
+## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>Para crear y registrar facturas de venta de proyecto desde líneas de planificación de proyecto
 
 Puede crear una factura a partir de las líneas de planificación de proyecto e indicar en ese momento la cantidad del producto, recurso o cuenta que desea facturar.
 
@@ -59,7 +59,7 @@ Puede crear una factura a partir de las líneas de planificación de proyecto e 
 > [!NOTE]  
 >   El procedimiento anterior es similar para crear, revisar y registrar un abono de venta relacionado con el proyecto.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Administrar proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  
