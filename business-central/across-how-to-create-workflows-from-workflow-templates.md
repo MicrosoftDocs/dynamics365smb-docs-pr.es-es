@@ -9,7 +9,7 @@ ms.date: 09/08/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Crear flujos de trabajo a partir de plantillas de flujo de trabajo
+# Crear flujos de trabajo a partir de plantillas de flujo de trabajo
 
 Para ahorrar el tiempo al crear nuevos flujos de trabajo de aprobación, puede usar plantillas de flujo de trabajo.  
 
@@ -19,7 +19,7 @@ Otra manera de crear rápidamente un flujo de trabajo es importar un flujo de tr
 
 En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una lista de los pasos utilizados en las líneas. Cada paso consta de un evento del flujo de trabajo, moderado por condiciones de evento, y una respuesta de flujo de trabajo, moderada por las opciones de respuesta. Los pasos del flujo de trabajo se definen rellenando los campos de las líneas de flujo de trabajo en listas fijas de valores de evento y respuesta que representan los escenarios de flujo de trabajo que admite el código de aplicación. Obtenga más información en [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>Para crear un flujo de trabajo a partir de una plantilla de flujo de trabajo
+## Para crear un flujo de trabajo a partir de una plantilla de flujo de trabajo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo flujo de trabajo desde plantilla**. Se abre la página **Plantillas de flujo de trabajo**.  
@@ -28,7 +28,7 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
    La página **Flujo de trabajo** se abre para un nuevo flujo de trabajo que contiene toda la información de la plantilla seleccionada. El valor del campo **Código** se amplía, por ejemplo, con "-01" para indicar que este es el primer flujo de trabajo creado a partir de la plantilla de flujo de trabajo.  
 4. Empiece a crear el flujo de trabajo modificando los pasos del flujo de trabajo o agregando nuevos pasos. Obtenga más información en [Crear flujos de trabajo](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Crear flujos de trabajo de aprobación](across-how-to-create-workflows.md)  
 [Importar y exportar flujos de trabajo de aprobación](across-how-to-export-and-import-workflows.md)  

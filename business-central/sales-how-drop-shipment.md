@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="make-drop-shipments"></a>Realizar envíos directos
+# Realizar envíos directos
 
 Un envío directo es el envío de los productos de uno de sus proveedores directamente a uno de sus clientes.
 
@@ -18,7 +18,7 @@ Cuando se marca un pedido de venta para envío directo y se crea un pedido de co
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## <a name="to-create-a-sales-order-for-drop-shipment"></a>Para crear un pedido de venta de envío directo
+## Para crear un pedido de venta de envío directo
 
 Para preparar un envío directo cree un pedido de venta para un producto e indique en la línea de ventas que dicha venta requiere un envío directo.
 
@@ -28,7 +28,7 @@ Para preparar un envío directo cree un pedido de venta para un producto e indiq
 > [!TIP]
 > De forma predeterminada, la casilla Envío directo y el campo Código de compra no están disponibles en las líneas. Si no lo están, puede agregarlos personalizando la sección de la página que contiene las líneas. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
-## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Para crear pedidos de compra para envíos directos
+## Para crear pedidos de compra para envíos directos
 
 Para preparar un envío directo, debe indicar en el pedido de compra que debe enviarse a su cliente, no a usted mismo.
 
@@ -45,7 +45,7 @@ Ahora puede decirle a su proveedor que envíe los artículos directamente al cli
 
 Si su proveedor proporciona un número de seguimiento o información similar, puede añadir esa información en una línea de orden de compra del tipo *Comentario*.  
 
-## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Para crear varios pedidos de compra para envíos directos
+## Para crear varios pedidos de compra para envíos directos
 
 También puede utilizar la hoja de demanda para crear el pedido de compra para el proveedor. 
 
@@ -57,11 +57,11 @@ La ventaja de utilizar la hoja de demanda es que puede crear órdenes de compra 
 4. Revise las líneas del pedido de compra y, en el campo **Nº proveedor**, seleccione el proveedor que suministra los bienes necesarios. 
 5. Elija la acción **Ejecutar mensajes de acción** para convertir líneas revisadas en un pedido de compra.
 
-## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Para ver el pedido de compra vinculado al pedido de venta.
+## Para ver el pedido de compra vinculado al pedido de venta.
 
 * Seleccione la línea del envío directo del pedido de compra, elija las acciones **Pedido**, **Envío directo** y, a continuación, **Pedido de compra**.
 
-## <a name="to-post-a-drop-shipment"></a>Para registrar un envío directo
+## Para registrar un envío directo
 
 Después de que el proveedor envíe los productos, puede establecer los pedidos de venta como enviados. También puede registrar el pedido de compra, pero solo con la opción **Recibir** hasta que se haya facturado el pedido de ventas.
 
@@ -71,7 +71,7 @@ Después de que el proveedor envíe los productos, puede establecer los pedidos 
 4. Seleccione la acción **Registrar** o **Registrar y enviar**.
 5. Elija la opción **Enviar** para facturar más adelante o la opción **Enviar y facturar** para facturar ahora.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Crear pedidos especiales](sales-how-to-create-special-orders.md)  
 [Comprar productos para una venta](purchasing-how-purchase-products-sale.md)  

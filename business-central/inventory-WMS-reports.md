@@ -11,22 +11,22 @@ ms.date: 04/13/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Informes y análisis de inventario y almacén
+# Informes y análisis de inventario y almacén
 
 Los informes de inventario y almacén en [!INCLUDE [prod_short](includes/prod_short.md)] proporcionan a los profesionales de la producción y los negocios información y estadísticas sobre las actividades de inventario y almacén actuales y pasadas.  
 
-## <a name="reports"></a>Informes
+## Informes
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Tareas
+## Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Crear informes de análisis](bi-how-create-analysis-views-reports.md)  
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Imprimir y escanear códigos de barras
+## Imprimir y escanear códigos de barras
 
 El uso de códigos de barras puede ayudarle a agilizar los procesos de entrada, salida e internos de su almacén. 
 
@@ -44,7 +44,7 @@ Después de instalar la aplicación, puede utilizar la acción **Imprimir etique
 > [!NOTE]
 > Algunas impresoras y formatos de código de barras/código QR requieren una implementación específica. Es posible que tenga que cargar una plantilla de Word diferente o clonar el informe para crear su propia versión personalizada.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar inventario](inventory-setup-inventory.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
