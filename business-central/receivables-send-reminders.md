@@ -10,11 +10,11 @@ ms.date: 02/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Enviar recordatorios de saldos pendientes
+# Enviar recordatorios de saldos pendientes
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar tasas de interés múltiples para pagos atrasados](finance-how-to-set-up-multiple-interest-rates.md)  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="understanding-wip-methods-in-project-management"></a>Comprender los métodos WIP en la gestión de proyectos
+# Comprender los métodos WIP en la gestión de proyectos
 
 A medida que progresa un proyecto, se van consumiendo materiales, recursos y otros gastos, que se deben registrar en el proyecto. Trabajo en curso (WIP) es una función que permite estimar el valor financiero de los proyectos en la contabilidad mientras progresa el proyecto. En muchos casos, puede registrar gastos para un proyecto antes de facturarlo. Si solamente se registran gastos, el resultado financiero no será exacto.
 
@@ -26,7 +26,7 @@ Para supervisar el valor en la contabilidad, puede calcular WIP y registrar el v
 | Porcentaje de compleción |Costes reconocidos = Uso (Coste total)<br /><br /> Ingresos reconocidos = Precio total facturable x Porcentaje de terminación<br /><br /> Porcentaje de terminación = Coste total de uso / Coste total de presupuesto<br /> (Capturado en el campo **Compleción coste %** de las líneas de tarea de proyecto)<br /><br /> Ventas WIP = Ventas reconocidas - Precio facturado facturable |Los cálculos de los porcentajes de terminación reconocen los ingresos proporcionalmente a partir del porcentaje de terminación, es decir, el coste total de uso frente al coste de presupuesto.<br /><br /> Este cálculo requiere que se haya especificado correctamente el precio total facturable y el coste total de presupuesto para todo el proyecto. |
 | Contrato completado |Importe WIP = Importe coste WIP = Uso (Coste total)<br /><br /> Importe ventas WIP = (Precio facturado) facturable |Contrato consumado no reconoce los ingresos y los costes hasta que haya finalizado el proyecto. Es posible que desee utilizarlo cuando haya gran incertidumbre acerca de las estimaciones en cuanto a costes e ingresos del proyecto.<br /><br /> Todo el consumo se registra en la Cuenta costes WIP (activos) y las ventas facturadas se registran en la Cta. ventas facturadas WIP (pasivos) hasta que el proyecto finalice. |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administración de proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  
