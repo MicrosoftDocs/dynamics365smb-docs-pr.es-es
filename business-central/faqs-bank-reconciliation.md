@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes sobre la asistencia para la conciliación de cuentas bancarias (vista previa) con Copilot
 description: 'Estas preguntas frecuentes brindan información sobre la tecnología de inteligencia artificial utilizada para conciliar cuentas bancarias y extractos de Business Central. Incluye las consideraciones clave y detalles sobre cómo se usa la IA, cómo se probó y evaluó, y cualquier limitación específica.'
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,11 +13,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Preguntas frecuentes sobre la asistencia para la conciliación de cuentas bancarias (vista previa) con Copilot
+# Preguntas frecuentes sobre la asistencia para la conciliación de cuentas bancarias con Copilot (versión preliminar)
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+Estas preguntas frecuentes (FAQ) describen el impacto en la IA de la asistencia de Copilot con la conciliación de cuentas bancarias en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-Estas preguntas frecuentes (FAQ) describen el impacto en la IA de la asistencia de Copilot con la conciliación de cuentas bancarias en [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## ¿Qué es la asistencia de conciliación bancaria?
 

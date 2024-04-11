@@ -28,7 +28,7 @@ Se pueden revertir movimientos desde todas las páginas **Movimientos**. El sigu
 > [!NOTE]
 > El movimiento debe proceder de un registro de diario.
 >
-> Además no puede revertir los movimientos que se han registrado con información de un trabajo, o que han obtenido ganancias y pérdidas dentro de la misma transacción.
+> Además no puede revertir los movimientos que se han registrado con información de un proyecto, o que han obtenido ganancias y pérdidas dentro de la misma transacción.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de contabilidad** y luego elija el enlace relacionado.
 2. Seleccione el movimiento que desea revertir y, después, seleccione **Revertir transacción**.

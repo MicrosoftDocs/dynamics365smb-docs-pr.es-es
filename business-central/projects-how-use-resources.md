@@ -2,15 +2,15 @@
 title: Registrar y ajustar el uso y los precios de los recursos
 description: 'Describe cómo puede registrar el uso o consumo de recursos asociados a un proyecto, para realizar el seguimiento y administrar costes, precios y tipos de trabajo.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Uso de recursos para proyectos
+# Usar recursos para proyectos
 
 El consumo de los recursos en el diario de proyectos se registra para hacer un seguimiento de costes, precios y tipos de trabajo que están vinculados a proyectos. Para obtener más información, consulte [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
@@ -21,11 +21,11 @@ El consumo de un recurso también se puede registrar en un diario de recursos. L
 
 ## Para asignar recursos a proyectos
 
-Asigne recursos a proyectos creando líneas de planificación para el proyecto. Para obtener más información, vea [Crear proyectos](projects-how-create-jobs.md).
+Asigne recursos a proyectos creando líneas de planificación para el proyecto. Para obtener más información, consulte [Crear proyectos](projects-how-create-jobs.md).
 
 ## Para registrar el uso de recursos de un proyecto
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Diarios de proyectos** y luego elija el enlace relacionado.
 2. Abra una sección del diario de proyectos correspondiente y, a continuación, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Cuando el diario esté completo, seleccione la acción **Registrar**.
 
@@ -75,6 +75,5 @@ Si ya ha configurado precios de venta alternativos para algunos recursos, puede 
 [Compras](purchasing-manage-purchasing.md)         
 [Ventas](sales-manage-sales.md)     
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

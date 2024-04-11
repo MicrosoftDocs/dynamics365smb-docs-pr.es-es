@@ -7,7 +7,7 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ Incluso puede crear pedidos pagados directamente para clientes no registrados co
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.
 2. Seleccione **Nuevo** para crear una entrada nueva.
-3. En el campo **Cliente**, escriba el nombre de un cliente existente.
+3. En el campo **Nombre cliente**, escriba el nombre de un cliente existente.
 
     Otros campos de la página **Pedido de venta** se rellenarán con la información estándar del cliente seleccionado.  
 

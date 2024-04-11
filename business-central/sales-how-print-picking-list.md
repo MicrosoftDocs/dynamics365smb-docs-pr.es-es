@@ -1,11 +1,11 @@
 ---
-title: Imprimir lista de picking almacén a partir de un pedido de venta
+title: Imprimir lista de picking de inventario a partir de un pedido de venta
 description: 'Puede imprimir una lista de picking de inventario directamente desde un pedido de ventas, ventas, factura y otros documentos de venta de salida.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -31,7 +31,7 @@ También puede guardar la lista de picking como un documento, por ejemplo, para 
 
 ## Consulte también
 
-[Inventario](inventory-manage-inventory.md)  
+[Grupos contables inventario](inventory-manage-inventory.md)  
 [Flujo de salida del almacén](design-details-outbound-warehouse-flow.md)
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

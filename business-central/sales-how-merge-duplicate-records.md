@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ El procedimiento siguiente se basa en una ficha de cliente. Los pasos son pareci
 3. En la página **Ficha de cliente**, seleccione la acción **Combinar con**.
 4. En la página **Combinar duplicado**, en el campo **Combinar con**, seleccione el cliente que cree que es un duplicado del que ha abierto, indicado en el campo **Actual**.
 
-    La ficha desplegable **Campos** enumera los campos en los que los valores son diferentes para los dos clientes. Esto significa que si el cliente seleccionado es realmente un duplicado, solo se deben enumerar unos pocos campos, como errores de escritura y otros errores de entrada de datos.
+    La ficha desplegable **Campos** enumera los campos en los que los valores son diferentes para los dos clientes. Esto significa que si el cliente seleccionado es realmente un duplicado, solo se deben enumerar algunos campos, como errores de escritura y otros errores de entrada de datos.
 
     La ficha desplegable **Tablas relacionadas** enumera las tablas en las que hay campos con una relación en ambos clientes. Los campos **Recuento actual** y **Recuento duplicado** muestran el número de campos en las tablas relacionadas en las que se usa el valor **Nº** del cliente actual y del cliente duplicado. En la página **Combinar duplicado**, esta sección es solo informativa; sin embargo, si existen conflictos de combinación, los resolverá en la página **Combinar conflictos duplicados**. Consulte los pasos 8 a 12.   
 

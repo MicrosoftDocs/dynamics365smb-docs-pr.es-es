@@ -7,32 +7,27 @@ ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
-ms.date: 09/22/2023
+ms.date: 03/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Métodos de amortización de activos fijos
 
-Hay ocho métodos de amortización disponibles en [!INCLUDE [prod_short](includes/prod_short.md)]:  
+[!INCLUDE [prod_short](includes/prod_short.md)] admite ocho métodos diferentes de amortización de activos fijos:
 
-* Lineal  
-* Regresivo saldo 2  
-* Regresivo saldo 1  
-* Rs1/L  
-* Rs2/L  
-* Definido por el usuario  
-
-  Defina su propio método de amortización usando tablas de amortización. Para obtener información sobre cómo aplicar un método de amortización definido por el usuario, consulte [Configurar método de amortización definido por el usuario](fa-how-setup-user-defined-depreciation-method.md).
-* Manual  
-
-  Utilice este método manual para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos que utilizan el método de amortización manual.  
-* Convenio de medio año  
-
-  Al utilizar este método, se amortiza la misma cantidad de un activo fijo cada año.  
+* Lineal (L)
+* Regresivo 1 (Rs1)
+* Regresivo 2 (Rs2)
+* Rs1/L
+* Rs2/L
+* Convenio de medio año
+* Manual
+* Amortización definida por el usuario
 
 ## Amortización lineal
 
-Al utilizar el método lineal, debe especificar una de las siguientes opciones en el libro de amortización de activos fijos:  
+Con la amortización lineal, se amortiza el valor del activo con un porcentaje anual fijo o con un importe anual fijo durante el período de amortización. Al utilizar el método lineal, debe especificar una de las siguientes opciones en el libro de amortización de activos fijos:  
 
 * El periodo de amortización (años o meses) o una fecha final amortización  
 * Un porcentaje fijo anual  
@@ -43,7 +38,7 @@ Al utilizar el método lineal, debe especificar una de las siguientes opciones e
 
 Si introduce el periodo de amortización (número de años de amortización, número de meses o fecha de finalización), la siguiente fórmula calcula el importe de amortización:  
 
-*Importe amortización = ((Valor neto – Valor residual) x N. º días amortización) / Días restantes amortización*  
+* Importe amortización = ((Valor neto – Valor residual) x Nº días amortización) / Días restantes amortización*  
 
 Los días restantes de amortización se calculan como el número de días de amortización, menos el número de días entre la fecha inicial de amortización y la última fecha de movimiento del activo.  
 
@@ -53,13 +48,13 @@ El valor neto puede reducirse con apreciaciones, depreciaciones, importes person
 
 Si introduce un porcentaje fijo anual, [!INCLUDE [prod_short](includes/prod_short.md)] utiliza la fórmula siguiente para calcular el importe de amortización:  
 
-*Importe amortización = (% Lineal x Base amortizable x Nº días amortización) / (100 x 360)*  
+* Importe amortización = (% Lineal x Base amortizable x Nº días amortización) / (100 x 360)*  
 
 ### Importe fijo anual
 
 Si introduce un importe fijo anual, [!INCLUDE [prod_short](includes/prod_short.md)] utiliza la fórmula siguiente para calcular el importe de amortización:  
 
-* *Importe amortización = (Importe fijo amortización x Número días amortización) / 360*  
+* Importe amortización = (Importe fijo amortización x Número días amortización) / 360*  
 
 ### Ejemplo: amortización lineal
 
@@ -68,14 +63,15 @@ Un activo tiene un coste de 100.000 DL. Su vida estimada es de ocho años. El pr
 Para este ejemplo, el movimiento de activo fijo es el siguiente:  
 
 | Fecha | A/F Tipo registro | Días | Importe | Valor contable |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Coste |(Fecha inicio amortización) |100,000.00 |100,000.00 |
 | 30/06/20 |Amortización |180 |-6.250,00 |93,750.00 |
 | 31/12/20 |Amortización |180 |-6.250,00 |87,500.00 |
 | 30/06/21 |Amortización |180 |-6.250,00 |81,250.00 |
 | 31/12/21 |Amortización |180 |-6.250,00 |75,000.00 |
-| 30/06/27 |Amortización |180 |-6.250,00 |6,250.00 |
-| 31/12/27 |Amortización |180 |-6.250,00 |0 |
+| ...      |             |    |          |          |
+| 30/06/27 |Amortización |180 |-6.250,00 |6,250.00  |
+| 31/12/27 |Amortización |180 |-6.250,00 |0         |
 
 ## Amortización con regresivo 1
 
@@ -83,7 +79,7 @@ Este método de amortización asigna la mayor parte del coste de un activo en lo
 
 La fórmula siguiente calcula los importes de amortización:  
 
-* *Importe amortización = (% Regresivo x Nº días amortización x Base amortizable) / (100 x 360)*  
+* Importe amortización = (% Regresivo x Nº días amortización x Base amortizable) / (100 x 360)*  
 
 La base depreciable se calcula como el valor en libros al comienzo del año. El número de días de días de amortización son los días entre la fecha de contabilización y la última fecha de amortización. [!INCLUDE [prod_short](includes/prod_short.md)] calcula la depreciación asumiendo que cualquier depreciación realizada en el año fiscal se realiza con esta fórmula.  
 
@@ -96,7 +92,7 @@ Un activo tiene un coste de 100.000 DL. El valor del campo **% Regresivo** es 25
 La siguiente tabla muestra el aspecto de los movimientos de activo fijo.  
 
 | Fecha | A/F Tipo registro | Días | Importe | Valor contable |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Costes |(Fecha inicio amortización) |100,000.00 |100,000.00 |
 | 30/06/20 |Amortización |180 |-12.500,00 |87,500.00 |
 | 31/12/20 |Amortización |180 |-12.500,00 |75,000.00 |
@@ -108,14 +104,14 @@ La siguiente tabla muestra el aspecto de los movimientos de activo fijo.
 | 31/12/23 |Amortización |180 |-5.273,44 |31,640.62 |
 | 30/06/24 |Amortización |180 |-3.955,08 |27,685.54 |
 | 31/12/24 |Amortización |180 |-3.955,08 |23,730.46 |
+| ...      |             |    |          |          |
 
 Método de cálculo:  
 
 * Año 1: *25 % de 100 000 = 25 000 = 12 500 + 12 500*
-
 * Año 2: *25 % de 75 000 = 18 750 = 9375 + 9375*
-
 * Año 3: *25 % de 56 250 = 14 062,50 = 7031,25 + 7031,25*
+* ...
 
 El cálculo continúa hasta que el valor neto iguala al importe de redondeo final o al valor residual que ha introducido.  
 
@@ -127,7 +123,7 @@ El valor en libros de un activo es 100 000 el 31/12/2022. Contabiliza una depre
 
 ### Ejemplo 3: amortización con regresivo 1
 
-Si registra una cantidad que no se alinea con el método de depreciación de Saldo decreciente 1, por ejemplo, 5000, [!INCLUDE [prod_short](includes/prod_short.md)] sugerirá el resto de la cantidad esperada.
+Si registra una cantidad que no se alinea con el método de depreciación de Saldo decreciente 1, por ejemplo, 5000, [!INCLUDE [prod_short](includes/prod_short.md)] sugiere el resto del importe esperado.
 
 El valor en libros de un activo es 100 000 el 31/12/2022. Usted registra una depreciación de 5000 el 2/2/2023, que es más que el monto esperado (proporcional) el 2/2/2023 a los 32 días. Si ejecuta la depreciación el 30/6/2023, [!INCLUDE [prod_short](includes/prod_short.md)] sugiere 8222, porque hay 148 días desde el 2/2/2023 hasta el 30/6/2023. La depreciación restante esperada para el 30/06/2023 se calcula utilizando la siguiente fórmula:
 
@@ -143,19 +139,20 @@ Sin embargo, el valor contable restante es solo 5000, por lo que [!INCLUDE [prod
 
 ## Amortización con regresivo 2
 
-Los métodos Regresivo 1 y Regresivo 2 calculan el mismo importe total de amortización para cada año. Sin embargo, si ejecuta el proceso **Calcular amortización** más de una vez al año, el método Regresivo 1 dará como resultado importes de amortización iguales para cada periodo de amortización. Por otra parte, el método Regresivo 2 dará como resultado importes de amortización cada vez más reducidos en cada periodo.  
+Los métodos Regresivo 1 y Regresivo 2 calculan el mismo importe total de amortización para cada año. Sin embargo, si ejecuta el proceso **Calcular amortización** más de una vez al año, el método Regresivo 1 da como resultado importes de amortización iguales para cada periodo de amortización. Por otra parte, el método Regresivo 2 da como resultado importes de amortización cada vez más reducidos en cada periodo.  
 
 ### Ejemplo: amortización con regresivo 2
 
 Un activo tiene un coste de 100.000 DL. El valor del campo **% Regresivo** es 25. El proceso **Calcular amortización** se realiza cada dos años. Los movimientos de activos son los siguientes:  
 
-| Fecha | A/F Tipo registro | Días | Importe | Valor contable |
-| --- | --- | --- | --- | --- |
+| Fecha     | A/F Tipo registro  | Días                       | Importe    | Valor contable |
+| -------- | ---------------- | -------------------------  | --------- | ---------- |
 | 01/01/20 |Costes |(Fecha inicio amortización)|100,000.00 |100,000.00 |
-| 30/06/20 |Amortización |180 |-13.397,46 |86,602.54 |
-| 31/12/20 |Amortización |180 |-11.602,54 |75,000.00 |
-| 30/06/21 |Amortización |180 |-10.048,09 |64,951.91 |
-| 31/12/21 |Amortización |180 |-8.701,91 |56,250.00 |
+| 30/06/20 |Amortización      |180                         |-13.397,46 | 86,602.54 |
+| 31/12/20 |Amortización      |180                         |-11.602,54 | 75,000.00 |
+| 30/06/21 |Amortización      |180                         |-10.048,09 | 64,951.91 |
+| 31/12/21 |Amortización      |180                         |-8.701,91  | 56,250.00 |
+| ...      |                  |                            |           |           |
 
 Método de cálculo:  
 
@@ -167,16 +164,17 @@ Método de cálculo:
 
 La fórmula para calcular los importes de amortización es:  
 
-*IA* = *VN* x (1 – (1 – P)<sup>D</sup>)
+* *IA* = *VN* x (1 – (1 – P)<sup>D</sup>)
 
 Los valores de amortización son:  
 
-| Fecha | Cálculo |
-| --- | --- |
+| Fecha     | Cálculo                                                |
+| -------- | -----------                                                |
 | 30/06/20 |IA = 100 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 13 397,46 |
 | 31/12/20 |IA = 86 602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11 602,54 |
 | 30/06/21 |IA = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
-| 31/12/21 |IA = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8701,91 |
+| 31/12/21 |IA = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8701,91  |
+| ...      |                                                            |
 
 ## Amortización Rs1/L
 
@@ -195,7 +193,7 @@ Si utiliza este método, deberá introducir la vida útil estimada y el porcenta
 
 ### Ejemplo: amortización Rs1/L
 
-Un activo tiene un coste de 100.000 DL. En la página **A/F Crear libros amortización**, el campo **% Regresivo** contiene 25 y el campo **Nº años amortización** contiene 8. El proceso **Calcular amortización** se realiza cada dos años.  
+Un activo tiene un coste de 100.000 DL. En la página **Libros amortización activos**, el campo **% regresivo-saldo** contiene 25 y el campo **Nº años amortización** contiene **8**. El proceso **Calcular amortización** se realiza cada dos años.  
 
 Los movimientos contables de activos fijos son los siguientes:  
 
@@ -229,27 +227,27 @@ Método de cálculo:
 
     *Importe lineal = 100.000/8=12.500=6.250+6.250*  
 
-    Se utiliza el importe regresivo, ya que es el importe mayor.  
-
+    Se utiliza el importe del saldo de pérdida de valor, ya que es el importe mayor.  
+* ...
 * Año 5 (2025):  
 
     *Importe regresivo: 25% de 23,730.46 = 4,943.85=2,471.92+2,471.92*  
 
-    *Importe lineal = 23.730,46/3 = 7.910,15=3.995,07+3.995,08*  
+    *Importe lineal = 23,730.46/3=7,910.15=3,995.07+3,995.08*  
 
     Se utiliza el importe lineal, ya que es el importe mayor.  
 
 ## Amortización de convenio de medio año
 
-El método Convenio medio año solo se aplicará si activó el campo **Usar convenio medio año** en la página fija **A/F Libro amortización**.  
+El método de Convención de medio año solo se aplica si activa la opción **Usar convención de medio año** para el activo fijo en la página **Ficha activo**.  
 
-Este método de amortización puede utilizarse con los siguientes métodos de amortización:  
+Puede usar este método de amortización con los siguientes métodos de amortización:  
 
 * Lineal  
 * Regresivo saldo 2  
 * Rs1/L  
 
-Al aplicar el Convenio medio año, un activo fijo tiene seis meses de amortización en el primer año fiscal, independientemente del contenido del campo **Fecha primera amortización**.  
+Al aplicar el método Convenio medio año, un activo fijo tiene seis meses de amortización en el primer año fiscal, independientemente del contenido del campo **Fecha primera amortización**.  
 
 > [!NOTE]  
 > La vida estimada del activo que resta después del año fiscal siempre será de medio año con el método Convenio medio año. De esta manera, para poder aplicar correctamente el método Convenio medio año, el campo **Fecha final amortización** de la página **Libro de amortización activos** siempre debe contener una fecha exactamente seis meses antes de la fecha final del año fiscal en el que se amortizó totalmente el activo fijo.  
@@ -297,23 +295,23 @@ Método de cálculo:
     *Importe lineal = Importe de todo el año = 100 000/5 = 20 000.* Por lo tanto, por medio año, = 20 000/2 = 10 000  
 
     Se utiliza el importe del saldo de pérdida de valor, ya que es el importe mayor.  
-
+* ...
 * Año 5 (2024):  
 
     *Importe regresivo: 40% de 17.280,00 = 6.912,00*  
 
-    *Importe lineal = 28.800 / 1,5 = 11.520,00*  
+    *Importe lineal = 28.800/1,5=11.520,00*  
 
     Se utiliza el importe lineal, ya que es el importe mayor.  
 
-## Duplicación de movimientos en más libros de amortización
+## Entradas duplicadas en otros libros de amortización
 
-Si tiene tres libros de amortización, B1, B2 y B3, y desea duplicar los movimientos del B1 al B2 y B3, puede seleccionar la opción **Compone lista duplicados** en las fichas del libro de amortización para B2 y B3. Esta configuración le resultará útil, por ejemplo, en las situaciones siguientes:
+Si tiene tres libros de amortización, B1, B2 y B3, y desea duplicar los movimientos del B1 al B2 y B3, puede activar la opción **Compone lista duplicados** en las fichas del libro de amortización para B2 y B3. Esta configuración le resultará útil, por ejemplo, en las situaciones siguientes:
 
 * El libro de depreciación B1 se integra con el libro mayor y utiliza el diario del L/M de activos fijos.
 * Los libros de depreciación B2 y B3 no se integran con el libro mayor y utiliza el diario del L/M de activos fijos.  
 
-Cuando introduzca un movimiento en B1 del diario general de activos fijos y active el campo **Utiliza lista duplicados**, [!INCLUDE [prod_short](includes/prod_short.md)] duplicará el movimiento en los libros B2 y B3 del diario de activos en el momento de registrar el movimiento.  
+Cuando introduzca un movimiento en B1 del diario general de activos fijos y active el conmutador **Compone lista duplicados**, [!INCLUDE [prod_short](includes/prod_short.md)] duplica el movimiento en los libros B2 y B3 del diario de activos en el momento de registrar el movimiento.  
 
 > [!NOTE]  
 > No puede duplicar en el mismo diario y proceso de diario desde el que está duplicando. Si registra movimientos en el diario general de activos fijos, podrá duplicarlos en el diario de activos o en el diario general de activos fijos mediante otro proceso.  
@@ -321,9 +319,17 @@ Cuando introduzca un movimiento en B1 del diario general de activos fijos y acti
 > [!NOTE]  
 > No puede utilizar la misma serie de numeración en los diarios generales de activos fijos y en los diarios de activos fijos. Al registrar movimientos en los diarios generales de activos fijos, debe dejar en blanco el campo **Nº documento**. Si introduce un número en el campo, el número se duplica en el diario de activos fijos. También tendrá que modificar manualmente el número de documento para poder registrar el diario.  
 
-## Consulte también .
+## Amortización manual
 
-[Activos fijos](fa-manage.md)  
+Utilice este método manual para activos no sujetos a amortización, por ejemplo, los terrenos. Debe introducir la amortización en el diario general de activos fijos. El proceso **Calcular amortización** ignora los activos que utilizan el método de amortización manual.
+
+## Amortización definida por el usuario
+
+Si los métodos de amortización integrados no satisfacen sus necesidades, puede definir su propio método de amortización utilizando tablas de amortización. Para obtener información sobre cómo aplicar un método de amortización definido por el usuario, consulte [Configurar método de amortización definido por el usuario](fa-how-setup-user-defined-depreciation-method.md).
+
+## Consulte también
+
+[Información general de los activos fijos](fa-manage.md)  
 [Configuración de activos fijos](fa-setup.md)  
 [Finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  

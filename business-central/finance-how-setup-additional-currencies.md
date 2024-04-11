@@ -17,11 +17,10 @@ Las empresas trabajan cada vez en un mayor número de países o regiones, por lo
 > [!NOTE]  
 > Si está buscando información en tiempo real sobre tipos de cambio (FX) o tipos de cambio históricos, en [!INCLUDE[prod_short](includes/prod_short.md)] la encontrará como divisa. Además de este artículo, consulte también [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md).
 
-
-La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registrará automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA.
+La contabilidad se configura con la divisa local (DL), pero también se puede configurar para usarla en otra divisa a la que se asigna un tipo de cambio. Mediante la designación de una segunda divisa como la denominada divisa de informes adicional, [!INCLUDE[prod_short](includes/prod_short.md)] registra automáticamente los importes tanto en la divisa local como en la divisa adicional en todos los movimientos de contabilidad y en otros movimientos, por ejemplo los del IVA.
 
 > [!Warning]
-> La funcionalidad de divisa adicional no se debe usar como base de las traducciones de resultados financieros a menos que conozca las limitaciones. No es una herramienta que pueda realizar traducciones de resultados financieros de las subsidiarias extranjeras como parte de la consolidación de una empresa. La divisa de informes adicional solo se puede utilizar para preparar los informes en otra divisa, como si dicha divisa fuera la divisa local de la empresa.
+> La funcionalidad de divisa adicional no se debe usar como base de las traducciones de resultados financieros a menos que conozca las limitaciones. No puede traducir resultados financieros de las subsidiarias extranjeras como parte de la consolidación de una empresa. La divisa de informes adicional solo se puede utilizar para preparar los informes en otra divisa, como si dicha divisa fuera la divisa local de la empresa.
 >
 > Por ejemplo, tiene una gran cantidad de cuentas por cobrar en libras esterlinas (GBP) y ha configurado su divisa adicional (DA) en GBP. En este escenario, los importes en las cuentas por cobrar que utilizan libras esterlinas no se ajustarán por las ganancias / pérdidas por cambio de divisa en la DA, solo los importes en las cuentas por cobrar que estén en otras divisas. Eso significa que si usa DA para informar de sus estados financieros, podría producir saldos pendientes de cuentas por cobrar subestimados o exagerados.
 
@@ -31,7 +30,7 @@ El uso de una divisa adicional puede servir de ayuda en el proceso de creación 
 - Empresas de países o regiones que no pertenecen a la Unión Europea y tienen un gran volumen de transacciones con empresas de países o regiones de la Unión Europea. En este caso, la empresa que no pertenece a la Unión Europea puede crear informes en euros para que sus informes financieros resulten más útiles a sus socios de la Unión Europea.
 - Empresas que desean mostrar sus informes en una divisa de mayor difusión internacional, además de en su divisa local.
 
-Varios informes financieros se basan en movimientos contables. Para visualizar los datos del informe en la divisa adicional, solo tiene que colocar una marca de verificación en el campo **Mostrar importes en divisa de informes adicional** en la ficha desplegable **Opciones** del informe de contabilidad correspondiente.
+Varios informes financieros se basan en movimientos contables. Para visualizar los datos del informe en la divisa adicional, active la casilla de verificación **Mostrar importes en divisa de informes adicional** en la ficha desplegable **Opciones** del informe de contabilidad correspondiente.
 
 ## Ajustar los tipos de cambio
 
@@ -87,7 +86,7 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
 2. En la página **Configuración de contabilidad**, seleccione el método correspondiente en el campo **Tipo cambio ajuste IVA**.  
 3. Si realiza registros en una divisa adicional, en el campo **Tipo cambio ajuste IVA** puede especificar cómo se ajustarán las cuentas para el registro del IVA de la página **Config. grupos registro IVA** en función de las fluctuaciones del tipo de cambio entre la divisa local y la divisa adicional.  
 
-    Al ejecutar el proceso **Ajustar tipos de cambio**, el tipo de cambio de ajuste se identifica en la página **Tipo cambio divisa** y, a continuación, se comparan los importes de los campos **Importe** y **Importe divisa-adicional** del movimiento de IVA para determinar si hay ganancias o pérdidas por el tipo de cambio. El proceso usa la opción que seleccione en este campo para determinar cómo se van a registrar las diferencias positivas o negativas en el cambio para las cuentas de IVA.  
+    Al ejecutar el proceso **Ajustar tipos de cambio**, el tipo de cambio de ajuste se identifica en la página **Tipo cambio divisa** y, a continuación, se comparan los importes de los campos **Importe** e **Importe divisa-adicional** del movimiento de IVA para determinar si hay ganancias o pérdidas por el tipo de cambio. El proceso usa la opción que seleccione en este campo para determinar cómo se van a registrar las diferencias positivas o negativas en el cambio para las cuentas de IVA.  
 
     Las opciones son las mismas que para los movimientos de contabilidad, pero en este caso los movimientos que se ajustan son los del IVA. La siguiente tabla muestra a opciones que puede elegir.
 
@@ -104,7 +103,7 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
 4. Elija el botón **Sí** para confirmar que desea activar la divisa.  
 5. El trabajo por lotes **Ajustar divisa de informe adicional** se abre.
 
-    Este proceso convierte los importes en la divisa local de los movimientos existentes a la divisa adicional. El proceso usa un tipo de cambio predeterminado, copiado del que es válido en la fecha de trabajo de la página **Tipos cambio divisa**. La conversión de la divisa local a la divisa adicional puede producir importes residuales, que se registran en las cuentas de ganancias y pérdidas residuales especificadas en la página **Divisas**. La fecha de registro y el número de documento de estos movimientos son los mismos que los del movimiento de contabilidad original. Después de haber registrado todos los movimientos residuales, el proceso registra un movimiento de redondeo en la fecha de cierre de cada año cerrado en la cuenta de remanentes. Así se garantiza que el saldo final de las cuentas de ingresos de todos los años cerrados es 0, tanto en la divisa local como en la divisa adicional.
+    Este proceso convierte los importes en la divisa local de los movimientos existentes a la divisa adicional. El proceso usa un tipo de cambio predeterminado, copiado del que es válido en la fecha de trabajo de la página **Tipos cambio divisa**. La conversión de la divisa local a la divisa adicional puede producir importes residuales, que se registran en las cuentas de ganancias y pérdidas residuales especificadas en la página **Divisas**. La fecha de registro y el número de documento de estos movimientos son los mismos que los del movimiento de contabilidad original. Después de haber registrado todos los movimientos residuales, el proceso registra un movimiento de redondeo en la fecha de cierre de cada año cerrado en la cuenta de remanentes. Así se garantiza que el saldo final de las cuentas de ingresos de cada año cerrado es 0, tanto en la divisa local como en la divisa adicional.
 6. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Elija el botón **Aceptar** para iniciar el trabajo por lotes.  
 
@@ -113,7 +112,7 @@ Después de ejecutar el proceso, los importes de los siguientes movimientos exis
 - Movimientos de contabilidad  
 - Movimientos de liquidación de producto  
 - Movimientos de IVA  
-- Movs. proyectos  
+- Movimientos de proyecto  
 - Movimientos de valor  
 - Líneas de pedido de producción  
 - Movimientos de orden de producción  

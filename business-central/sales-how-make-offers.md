@@ -1,18 +1,18 @@
 ---
-title: Crear ofertas de ventas
+title: Hacer ofertas de venta
 description: Obtenga más información sobre cómo crear una oferta de venta o un documento de solicitud de propuesta (RFQ) para registrar la oferta a un cliente o cliente potencial para vender productos con determinadas condiciones.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Crear ofertas de ventas
+# Hacer ofertas de venta
 
-Puede crear una oferta de venta para registrar la oferta a un cliente o cliente potencial para vender determinados productos según términos de entrega y pago determinados. Puede enviar la oferta de venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la oferta. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
+Puede crear una oferta de venta para registrar la oferta a un cliente o cliente potencial para vender determinados productos según términos de entrega y pago determinados. Puede enviar la oferta de venta al cliente para comunicar la oferta. Puede enviar por correo electrónico el documento como un documento PDF anexo. También puede rellenar previamente el cuerpo del correo electrónico con un resumen de la oferta. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Mientras negocia con el cliente o cliente potencial, puede cambiar y reenviar la oferta de venta el número de veces necesario. Cuando el cliente acepta la oferta, convierte la oferta de venta a una factura de venta o un pedido de venta en el que se procesa la venta. Para obtener más información, consulte [Facturar ventas](sales-how-invoice-sales.md) o [Vender productos](sales-how-sell-products.md).
 
@@ -73,7 +73,7 @@ En la mayoría de los casos, usted envía ofertas de ventas a posibles clientes.
     > Para que la **Oferta válida hasta fecha** se complete automáticamente con un número determinado de días después de la creación de la oferta, puede completar el campo **Cálculo de validez de la oferta** en la página **Ventas y cobros**.
 
 10. Cuando las líneas de la oferta de venta ya estén completas, seleccione la acción **Enviar por correo electrónico**.
-11. En la página **Enviar correo electrónico**, rellene los campos restantes y revise la oferta de venta incluida. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md).
+11. En la página **Enviar correo electrónico**, rellene los campos restantes y revise la oferta de venta incluida. Para obtener más información, vea [Enviar documentos por correo electrónico](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Si el contacto acepta la oferta, elija la acción **Crear pedido**.  
 
     Alternativamente, si su organización prefiere ese proceso, elija la acción **Crear factura**.  
@@ -95,7 +95,7 @@ La conversión elimina la oferta de venta de la base de datos. Una factura de ve
 
 [Ventas](sales-manage-sales.md)  
 [Configuración de ventas](sales-setup-sales.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
+[Enviar documentos por correo electrónico](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Archivar documentos](across-how-to-archive-documents.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

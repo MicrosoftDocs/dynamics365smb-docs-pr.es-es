@@ -9,10 +9,12 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Detalles de diseño: Estructura de tablas
+# Detalles de diseño: estructura de tabla
+
 Para entender cómo se almacenan y registran los movimientos de dimensión, es importante comprender la estructura de tabla.  
 
 ## Tabla 480, Mov. grupo dimensiones  
+
 Esta tabla no se puede modificar. Tras escribir los datos en la tabla, no se podrá eliminar o modificar.
 
 |N.º de campo|Nombre de campo|Tipo de datos|Comentario|  
@@ -27,7 +29,7 @@ Esta tabla no se puede modificar. Tras escribir los datos en la tabla, no se pod
 ## Tabla 481, Nodo árbol grupo dimensiones  
 Esta tabla no se puede modificar. Se usa para buscar un grupo de dimensiones. Si no se encuentra el grupo de dimensiones, se crea un nuevo grupo.  
 
-|Nº campo|Nombre de campo|Tipo de datos|Comentario|  
+|N.º de campo|Nombre de campo|Tipo de datos|Comentario|  
 |---------------|----------------|---------------|-------------|  
 |1|**Id. grupo dimensiones principal**|Entero|0 para el nodo de nivel superior.|  
 |2|**Id. valor de dimensión**|Entero|Relación de tabla con el campo 12 de la tabla 349.|  
@@ -75,7 +77,7 @@ Además de otros campos de dimensión en la tabla, estos campos son importantes.
 
  El campo 480 no se puede modificar en las tablas siguientes.  
 
-|Nº tabla|Nombre tabla|  
+|Tabla n.º|Nombre de la tabla|  
 |---------------|----------------|  
 |17|**Mov. contabilidad**|  
 |21|**Mov. cliente**|  
@@ -140,7 +142,7 @@ El campo 480 se puede modificar en las tablas siguientes.
 |89|**Línea de diario L.M.**|  
 |96|**Mov. presupuesto**|  
 |207|**Lín. diario recurso**|  
-|210|**Lín. diario proyecto**|  
+|210|**Línea de diario de proyecto**|  
 |221|**Diario gen. distribución**|  
 |246|**Lín. hoja demanda**|  
 |295|**Cab. recordatorio**|  
@@ -163,10 +165,10 @@ El campo 480 se puede modificar en las tablas siguientes.
 
 El campo 480 existe en las siguientes tablas de búfer.  
 
-|Nº tabla|Nombre tabla|  
+|Tabla n.º|Nombre de la tabla|  
 |---------------|----------------|  
 |49|**Mem. inter. factura**|  
-|212|**Mem. inter. proyecto**|  
+|212|**Buffer registro proyecto**|  
 |372|**Mem. inter. pago**|  
 |382|**Mem. inter. mov. CV**|  
 |461|**Mem. int. lín. fact. prepago**|  

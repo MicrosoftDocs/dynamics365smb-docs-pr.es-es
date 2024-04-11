@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -11,7 +11,7 @@ La siguiente tabla describe algunos de los informes clave en los informes de ven
 | Informe | Descripción | Id. | 
 |---------|---------|---------|
 |[Cliente - Resumen de pedidos](https://businesscentral.dynamics.com?report=107)| Muestra el desglose de los pedidos con la cantidad no entregada aún de cada cliente en tres periodos consecutivos de 30 días cada uno, a partir de una fecha especificada. Existen también columnas con pedidos a entregar antes y después de los tres periodos, y una columna con el total del desglose de los pedidos por cliente. Utilice el informe para analizar el volumen de ventas previsto por la empresa. |107|
-|[Los 10 mejores clientes](https://businesscentral.dynamics.com?report=111)| Muestra información de compras y saldos de clientes durante un periodo determinado. Puede elegir el número de clientes que desea incluir en el informe. Solo se incluirán clientes que hayan comprado durante el periodo seleccionado, o que tengan algún saldo al final del mismo.<br>Los clientes aparecen ordenados por importes, y podrá elegir si aparecen ordenados por importe de ventas o por saldo. El informe ofrece una rápida visión de los clientes que más compran o que más deben.|111|
+|[Los 10 mejores clientes](https://businesscentral.dynamics.com?report=111)| Muestra información de compras y saldos de clientes durante un periodo determinado. Puede elegir el número de clientes que desea incluir en el informe. Sólo se incluirán clientes que hayan comprado durante el periodo seleccionado, o que tengan algún saldo al final del mismo.<br>Los clientes aparecen ordenados por importes, y podrá elegir si aparecen ordenados por importe de ventas o por saldo. El informe ofrece una rápida visión de los clientes que más compran o que más deben.|111|
 |[Cliente - Ventas por productos](https://businesscentral.dynamics.com?report=113)|Muestra una lista de las ventas de producto por cada cliente durante un periodo determinado. El informe contiene información sobre la cantidad, el importe de ventas, el beneficio bruto y los posibles descuentos. Puede servir, por ejemplo, para analizar los grupos de clientes de una empresa.|113|
 |[Ventas de inventario a clientes](https://businesscentral.dynamics.com?report=713)|Una descripción general desde la perspectiva de la vista del almacén. Esta es una vista diferente en comparación con el informe **Venta de cliente/producto**, y muestra el artículo primero y luego el cliente que compró este producto.|713|
 |[Cliente - Lista ventas](https://businesscentral.dynamics.com?report=119)|Muestra las ventas a clientes durante un periodo. Utilícelo para informar a las autoridades fiscales y aduaneras. Puede elegir incluir sólo clientes cuyas ventas totales superen una cantidad mínima. También puede especificar si desea que el informe muestre detalles de direcciones de cada cliente.<br>El informe se basa en ventas registradas en DL de los movimientos de clientes. En la parte inferior del informe, se muestra el total de ventas en DL. El total se basa en los clientes que ha incluido en el informe, es decir, los clientes que están incluidos en los filtros de la ficha desplegable Cliente y cuyas ventas totales son mayores que la cantidad especificada en el campo **Importes (DL) mayores de** de la ficha desplegable **Opciones**.|119|

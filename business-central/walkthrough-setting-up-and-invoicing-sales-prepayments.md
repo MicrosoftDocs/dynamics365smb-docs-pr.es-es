@@ -1,15 +1,15 @@
 ---
-title: Configuración y facturación de prepagos de ventas
+title: Configurar y facturar prepagos de ventas
 description: Los prepagos son pagos que se facturan y registran en un pedido de prepago de ventas o compras antes de la facturación final.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/03/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tutorial: Configuración y facturación de prepagos de ventas
+# Tutorial: Configurar y facturar prepagos de ventas
 
 Este tutorial lo lleva a través del proceso de configuración y uso de prepagos en [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -66,7 +66,7 @@ En los siguientes procedimientos, se describe cómo realizar las tareas de Felis
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.  
 2. En la página **Conf. ventas y cobros**, amplíe la ficha desplegable **Numeración**.  
-3. Verifique que la serie numérica de las facturas de prepago registradas en el campo **Nº fact. prepago registrada** sea la misma que para las facturas de venta registradas (**Nº serie fact. registrada**) y que la serie numérica para abonos de prepago registrados (**Nº abono prepago registrado**) sea la misma que para los abonos registrados (**Nº serie abono registrado**).  
+3. Verifique que la serie numérica de las facturas de prepago registradas en el campo **Nº fact. prepago registrada** sea la misma que para las facturas de venta registradas (**Nº serie fact. registrada**), y que la serie numérica para abonos de prepago registrados (**Nº abono prepago registrado**) sea la misma que para los abonos registrados (**Nº serie abono registrado**).  
 
 ### Para bloquear envíos por prepagos sin abonar
 
@@ -156,7 +156,7 @@ Después de escribir los valores de prepago correctos en el pedido, Susana crea 
 
 ### Para crear una factura de prepago
 
-1. En la página **Pedido de ventas**, elija **Acciones**, en el grupo **Registro**, elija **Prepago** y, a continuación, seleccione **Registrar e imprimir factura prepago**.
+1. En la página **Pedido de ventas**, elija **Acciones**, en el grupo **Registro**, elija **Prepago** y, a continuación, seleccione **Registrar e imprimir factura prepago**
 2. Para registrar la factura, elija el botón **Sí**.  
 
 > [!NOTE]  
@@ -171,8 +171,8 @@ Al día siguiente, el cliente llama a Susana y realiza cambios en el pedido. El 
 1. En la página **Pedido venta**, seleccione la acción **Liberar** y, después, **Reabrir**.  
 2. En la línea del producto **1896-S**, en el campo **Cantidad**, escriba **2**.  
 
-    En la acción **Pedido**, elija **Estadísticas**. El campo de **Cantidad prepago excl. IVA** contiene ahora **768.04** y el campo **Importe prepago facturado excl. IVA** contiene **417.76**. Estos valores muestran que hay un importe de prepago extra que aún no se ha facturado.  
-3. Para registrar una factura para el importe de prepago extra, elija **Acciones**, **Registro**, **Prepago** y seleccione **Registrar e imprimir factura prepago**.
+    En la acción **Pedido**, elija **Estadísticas**. El campo de **Prepago Excl de importe. IVA** contiene ahora **768,04** y el campo **Importe prepago facturado excl. IVA** contiene **417,76**. Estos valores muestran que hay un importe de prepago extra que aún no se ha facturado.  
+3. Para registrar una factura para el importe de prepago extra, elija **Acciones**, **Registro**, **Prepago** y seleccione **Registrar e imprimir factura prepago**
 4. Para registrar la factura, elija el botón **Sí**.  
 
 ## Aplicar los prepagos

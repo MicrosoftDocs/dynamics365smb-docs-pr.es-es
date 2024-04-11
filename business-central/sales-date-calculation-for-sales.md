@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/22/2022
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -30,7 +30,7 @@ Si los productos están disponibles para el picking en la fecha de envío, el pr
 
 ## Calcular la fecha de entrega más próxima posible
 
-Si no especifica una fecha de entrega requerida en la línea del pedido de venta, o si la fecha de entrega requerida no se puede cumplir, se calculará la fecha de disponibilidad de los productos más cercana. A continuación, se insertará dicha fecha en la línea del campo **Fecha envío** y con las siguientes fórmulas calculará la fecha prevista para el envío de los productos y la fecha de su entrega al cliente:
+Si no especifica una fecha de entrega requerida en una línea del pedido de venta, o si la fecha de entrega requerida no se puede cumplir, se calculará la fecha más próxima en la que estarán disponibles los productos. A continuación se insertará dicha fecha en la línea del campo **Fecha envío** y utiliza las fórmulas siguientes para calcular la fecha prevista para el envío de los productos y la fecha de su entrega al cliente:
 
 - *fecha envío + tiempo manip. alm. salida = fecha envío planeada*
 - *fecha envío planeada + hora envío = fecha entrega planeada*

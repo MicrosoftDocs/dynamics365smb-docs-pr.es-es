@@ -24,7 +24,7 @@ Opcionalmente, especifique si se aprueban los partes de horas y cómo. En funci�
 * Uno o varios usuarios como el administrador y el aprobador de todas las hojas de horas.
 * Un aprobador de la hoja de horas de cada recurso.
 
-Cuando haya configurado las hojas de horas, puede crear hojas de horas para recursos, y los recursos pueden registrar líneas de hoja de horas. Opcionalmente, asigne hojas de horas a líneas de planificación de trabajos. Para obtener más información, vaya a [Usar partes de horas](projects-how-use-time-sheets.md).  
+Cuando haya configurado las hojas de horas, puede crear hojas de horas para recursos, y los recursos pueden registrar líneas de hoja de horas. Opcionalmente, asigne hojas de horas a líneas de planificación de proyectos. Para obtener más información, vaya a [Usar partes de horas](projects-how-use-time-sheets.md).  
 
 ## Configurar partes de horas con la guía de configuración asistida
 

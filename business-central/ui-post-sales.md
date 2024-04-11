@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
-ms.date: 04/01/2021
+ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Registrar ventas
+# Registro de ventas
 
 En el menú **Registro** en un documento de venta, puede elegir entre las funciones de registro siguientes:
 

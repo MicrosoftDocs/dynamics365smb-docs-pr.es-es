@@ -80,7 +80,7 @@ Para que Microsoft proteja el servicio y a sus clientes, no es posible optar por
 
 La capacidad de sugerencias de textos de marketing recopila los datos mínimos requeridos por Business Central para ofrecer el servicio. Para obtener más información, consulte [Términos de Dynamics 365 para características impulsadas por Azure OpenAI](https://go.microsoft.com/fwlink/?linkid=2236010).
 
-La capacidad también recopila datos de los comentarios que el usuario puede proporcionar usando los íconos Me gusta (pulgar hacia arriba) o No me gusta (pulgar abajo) en la parte superior de la página de **Copilot**. Los datos son anónimos e incluyen la elección de Me gusta o No me gusta, el motivo de la No me gusta, si se proporciona, y la función Copit a la que se aplica el comentario. Usaremos estos datos para evaluar y mejorar la calidad de la capacidad.
+La capacidad también recopila datos de los comentarios que el usuario puede proporcionar usando los íconos Me gusta (pulgar hacia arriba) o No me gusta (pulgar abajo) en la parte superior de la página de **Copilot**. Los datos son anónimos e incluyen la elección de Me gusta o No me gusta, el motivo de la No me gusta, si se proporciona, y la función Copilot a la que se aplica el comentario. Usaremos estos datos para evaluar y mejorar la calidad de la capacidad.
 
 ## ¿Cuáles son las limitaciones actuales de [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] cuando usan el sistema?
 
@@ -88,7 +88,6 @@ La capacidad también recopila datos de los comentarios que el usuario puede pro
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
   Es posible que se devuelvan respuestas inexactas cuando los usuarios interactúan con el sistema en los idiomas admitidos. Además, se puede generar texto inexacto cuando el idioma del usuario y el idioma de los datos principales en la base de datos [!INCLUDE[prod_short](includes/prod_short.md)] no son idénticos.
-
 
 ## ¿Qué factores operativos y configuraciones permiten un uso eficaz y responsable del sistema?
 

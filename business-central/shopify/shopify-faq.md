@@ -25,23 +25,26 @@ Con el conector de Shopify las empresas pueden vincular sus tiendas de Shopify c
 - Soporte para más de una tienda de Shopify
   - Cada tienda tiene su propia configuración, incluida una colección de productos y ubicaciones utilizadas para calcular el inventario y las listas de precios.  
 - Sincronización bidireccional de artículos o productos
-  - El conector sincroniza imágenes, variantes de productos, códigos de barras, números de productos de proveedores, textos extendidos y etiquetas.  
+  - El conector sincroniza imágenes, variantes de productos, códigos de barras, números de productos de proveedores, textos y marketing extendidos y etiquetas.  
   - Exportar atributos de producto a Shopify.  
-  - Use grupos de precios de clientes seleccionados y descuentos para definir los precios exportados a Shopify.  
-  - Decida si los elementos se pueden crear automáticamente o solo permitir actualizaciones de productos existentes.  
+  - Use grupos de precios de clientes seleccionados y descuentos para definir los precios exportados a Shopify.
+  - Definir precios y descuentos para catálogos de productos vinculados a empresas B2B.
+  - Decida si los elementos se pueden crear automáticamente o solo permitir actualizaciones de productos existentes.
 - Sincronización de nivel de inventario
   - Elija algunas o todas las ubicaciones disponibles en [!INCLUDE [prod_short](../includes/prod_short.md)].  
   - Actualice los niveles de inventario en múltiples ubicaciones en Shopify.  
-- Sincronización bidireccional de clientes
+- Sincronización bidireccional de clientes y empresas
   - Clientes de mapa inteligente por teléfono y correo electrónico.  
   - Utilice plantillas específicas del país/región al crear clientes, lo que ayuda a garantizar que la configuración de impuestos sea correcta.  
 - Importar pedidos desde Shopify
-  - Incluir pedidos creados en varios canales, como la tienda en línea o **Shopify POS**.
+  - Incluir pedidos creados en varios canales, como la tienda en línea, **Shopify PDV** o **B2B**.
   - Costes de envío, tarjetas de regalo, propinas, métodos de envío y pago, transacciones y riesgo de fraude.  
   - Durante la importación, puede crear automáticamente clientes en [!INCLUDE [prod_short](../includes/prod_short.md)] o decidir gestionar los clientes en Shopify.  
   - Recibir información de pago desde Shopify Payments.
 - Seguimiento de la información de cumplimiento
-  - Opcionalmente, elija transferir la información de seguimiento del artículo desde [!INCLUDE [prod_short](../includes/prod_short.md)] a Shopify.  
+  - Opcionalmente, elija transferir la información de seguimiento del artículo desde [!INCLUDE [prod_short](../includes/prod_short.md)] a Shopify.
+- Integración sin cabeza
+  - Habilite la sincronización automática de productos, inventario, pedidos, cumplimientos y más.
 
 ## ¿Por qué Microsoft y Shopify forman esta asociación?
 
@@ -52,6 +55,8 @@ Con el conector de Shopify las empresas pueden vincular sus tiendas de Shopify c
 Esta función está disponible solo para [!INCLUDE[prod_short](../includes/prod_short.md)] en línea, a partir de la versión 20.1. No está disponible para implementaciones locales. El conector está preinstalado para nuevos entornos. Las organizaciones con entornos existentes pueden descargar e instalar el conector desde AppSource. La organización debe tener una licencia de [!INCLUDE [prod_short](../includes/prod_short.md)] y una licencia de Shopify para usar el conector. Para más información sobre países o regiones, idiomas y ediciones de [!INCLUDE[prod_short](../includes/prod_short.md)] permitidos, vaya al [Conector de Shopify en AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 El conector de Shopify no funciona para [Insertar aplicaciones](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), cuando la URL del cliente tenga el formato `https://[application name].bc.dynamics.com`.
+
+El conector Shopify no funciona con otros productos del portafolio de Dynamics 365.
 
 ## ¿Qué apoyo se ofrece para el conector de Shopify?
 
@@ -69,8 +74,6 @@ También puede explorar [Experts Marketplace](https://experts.shopify.com/) para
 
 ## Actualmente existen características no compatibles, pero las estamos siguiendo y podemos considerar agregarlas
 
-- Características B2B, incluidas empresas, listas de precios de empresas y condiciones de pago
-  - La compatibilidad ampliada con B2B estará disponible en el primer lanzamiento de versiones de 2024. Para obtener más información, consulte [Conectar Business Central con Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Mercados
   - Múltiples traducciones de datos maestros. Puede elegir un idioma que se utilizará para exportar la información del producto.
   - Precios por país/región. Una lista de precios está disponible para la moneda seleccionada. La conversión a otras monedas está a cargo de Shopify.
@@ -78,7 +81,7 @@ También puede explorar [Experts Marketplace](https://experts.shopify.com/) para
 
 ## ¿Es ampliable el conector de Shopify?
 
-Sí, el conector de Shopify es extensible. Consulte GitHub para acceder a la [lista de puntos de extensibilidad](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) y explore algunos [ejemplos](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
+Sí, el conector de Shopify es extensible. Consulte GitHub para acceder a la [lista de puntos de extensibilidad](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) y explore algunos [ejemplos](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## ¿Está el conector de Shopify abierto a la contribución?
 

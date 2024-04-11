@@ -51,6 +51,10 @@ Por instancias de [!INCLUDE[prod_short](../includes/prod_short.md)] existentes, 
 2. Seleccione la acción **Nuevo**.  
 3. En el campo **Código**, introduzca un código que hará que sea fácil de encontrar en [!INCLUDE[prod_short](../includes/prod_short.md)]. Por ejemplo, el nombre podría reflejar lo que vende una tienda, como "Muebles" o "Café", o el país o la región a la que sirve.
 4. En el campo **URL de Shopify**, introduzca la URL de la tienda en línea a la se está conectando. Utilice el siguiente formato: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > Puede copiar la URL desde el administrador de Shopify, como `https://admin.shopify.com/store/{shop}`, y el conector la convertirá al formato requerido.
+
 5. Active la alternancia en **Habilitado** y revise y acepte los términos y condiciones.
 6. Si se le solicita, inicie sesión en su cuenta de Shopify. Después de revisar los términos de privacidad y los permisos, elija el botón **Instalar aplicación**.
 
@@ -69,7 +73,7 @@ Repita los pasos 2 a 6 para todas las tiendas en línea que desee conectar.
 
 Ahora su tienda en línea está conectada a [!INCLUDE[prod_short](../includes/prod_short.md)]. En los siguientes pasos, definirá cómo y qué sincronizar.
 
-- [Sincronizar elementos](synchronize-items.md)
+- [Sincronizar artículos e inventario](synchronize-items.md)
 - [Sincronizar clientes](synchronize-customers.md)
 - [Sincronizar pedidos](synchronize-orders.md)
 

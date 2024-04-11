@@ -1,13 +1,14 @@
 ---
 title: 'Tutorial: cálculo del trabajo en curso para un proyecto'
-description: 'Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que se deben controlar a medida que avanza un proyecto.'
+description: 'Aprenda a registrar el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo a medida que avanza un proyecto.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/13/2023
-ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Tutorial: cálculo del trabajo en curso para un proyecto
 
@@ -47,45 +48,45 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
  La siguiente tabla describe las tres opciones.  
 
-|Campo|Description|  
+|Campo|Descripción|  
 |-------------------------------------|---------------------------------------|  
 |**\<blank\>**|Deje el campo en blanco si la tarea del proyecto es parte de un grupo de tareas.|  
 |**Total**|Define el rango o grupo de tareas que se incluyen en el cálculo del WIP y del reconocimiento. En el grupo, cualquier tarea de proyecto con **Tipo tarea proyecto** definido como **Registro** se incluirá en el total WIP, a menos que el campo **Total WIP** se defina como **Excluido**.|  
-|**Excluido**|Se aplica sólo a una tarea con el **Tipo tarea proyecto** **Registro**. La tarea no se incluye cuando se calcula el WIP y el reconocimiento.|  
+|**Excluido**|Se aplica sólo a una tarea con el **Tipo tarea proyecto** de **Registro**. La tarea no se incluye cuando se calcula el WIP y el reconocimiento.|  
 
- En el siguiente tutorial, Tricia aplica el método de Valor de coste, su estándar de la empresa, para calcular el WIP. Tricia especifica la parte del trabajo que se incluye en el cálculo de WIP, asignando los valores WIP-Total a diversas líneas de tareas del proyecto.  
+ En el siguiente tutorial, Tricia aplica el método de Valor de coste, su estándar de la empresa, para calcular el WIP. Tricia especifica la parte del proyecto que se incluirá en el cálculo de WIP, asignando los valores WIP-Total a diversas líneas de tareas del proyecto.  
 
 ### Para calcular WIP  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
-2.  En la lista **Proyectos**, seleccione el proyecto **Reno** y, después, seleccione **Editar**. Se abre la ficha de proyecto en modo edición.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Proyecto** y, a continuación, elija el vínculo relacionado.  
+2. En la lista **Proyectos**, seleccione el proyecto **Reno** y, después, seleccione **Editar**. Se abre la ficha de proyecto en modo edición.  
 
      WIP se puede calcular basándose en Valor coste, Valor venta, Coste ventas, Porcentaje completado o Contrato consumado. En este ejemplo, CRONUS utiliza el método de Valor del coste.  
 
-3.  En la ficha desplegable **Registro**, elija el campo **Método WIP** y seleccione **Valor coste**.  
-4.  Seleccione la acción **Líneas de tarea de proyecto** y defina los valores siguientes en el campo **WIP-Total**.  
+3. En la ficha desplegable **Registro**, elija el campo **Método WIP** y seleccione **Valor coste**.  
+4. Seleccione la acción **Líneas de tarea de proyecto** y defina los valores siguientes en el campo **WIP-Total**.  
 
      La siguiente tabla describe los valores.  
 
-    |Nº tarea proyecto|Campo WIP-Total|  
+    |N.º tarea proyecto|Campo WIP-Total|  
     |------------------|----------------------|  
     |1130|Excluido|  
     |1190|Total|  
     |1210|Excluido|  
     |1310|Excluido|  
 
-5.  Seleccione la acción **WIP** y, a continuación elija la acción **Calcular WIP**.  
-6.  En la página **Calcular WIP proyecto**, puede seleccionar un proyecto para el cual desea calcular WIP. En la ficha desplegable **Proyecto**, seleccione **Deerfield** en el campo **Nº** .  
-7.  En el campo **Fecha registro**, introduzca una fecha posterior a la fecha de trabajo.
-8.  En el campo **Nº documento**, escriba **1**. Esto crea un documento a la que podrá hacer referencia posteriormente para la trazabilidad.  
+5. Seleccione la acción **WIP** y, a continuación elija la acción **Calcular WIP**.  
+6. En la página **Calcular WIP del proyecto**, seleccione un proyecto para el cual calcular WIP. En la ficha desplegable **Proyecto**, seleccione **Deerfield** en el campo **Nº** .  
+7. En el campo **Fecha registro**, introduzca una fecha posterior a la fecha de trabajo.
+8. En el campo **Nº documento**, escriba **1**. Esto crea un documento a la que podrá hacer referencia posteriormente para la trazabilidad.  
 9. Elija el botón **Aceptar** para iniciar el trabajo por lotes. Aparece un mensaje. Elija el botón **Aceptar** para continuar. Cierre la página **Líneas tarea proyecto**.  
 
     > [!NOTE]  
     >  El mensaje indica que hay advertencias asociadas al cálculo del WIP. Revisará las advertencias en el siguiente procedimiento.  
 
-10. En la ficha **Proyecto**, expanda la ficha desplegable **Trabajo en curso y reconocimiento** para ver los valores calculados. También puede ver la **Fecha registro WIP** y los valores que se han registrado en la contabilidad general, si existe.  
+10. En la página **Ficha de proyecto**, expanda la ficha desplegable **Trabajo en curso y reconocimiento** para ver los valores calculados. También puede ver la **Fecha registro WIP** y los valores que se han registrado en la contabilidad general, si existe.  
 
- Observe que el valor de **Importe costes reconoc.** es 215,60 en la columna **Para registrar**. Esto refleja los costes totales de dos de los productos en el grupo de las tareas 1110 - 1130 del trabajo. El tercer producto se estableció en **Excluido** y, por lo tanto, no se incluye en el cálculo del WIP.  
+ Observe que el valor de **Importe costes reconoc.** es 215,60 en la columna **Para registrar**. Esto refleja los costes totales de dos de los productos en el grupo de las tareas 1110 - 1130 del proyecto. El tercer producto se estableció en **Excluido** y, por lo tanto, no se incluye en el cálculo del WIP.  
 
 ### Para revisar las advertencias WIP  
 
@@ -97,15 +98,15 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ### Para volver a calcular WIP  
 
-1.  En la ficha **Proyecto**, seleccione la acción **Movimientos WIP** para ver el cálculo de WIP.  
+1. En la página **Ficha de proyecto**, seleccione la acción **Movimientos WIP** para ver el cálculo de WIP.  
 
      La página **Movs. WIP proyecto** muestra los últimos movimientos de WIP calculados en un proyecto, aún si el WIP todavía no se ha registrado en contabilidad.  
 
-2.  Puede seguir los pasos del procedimiento que explica cómo calcular el WIP para volver a calcular el WIP. Cada vez que se calcula WIP, se crea un movimiento en la página **Movs. WIP proyecto**.  
-3.  Cierre la página.  
+2. Puede seguir los pasos del procedimiento que explica cómo calcular el WIP para volver a calcular el WIP. Cada vez que se calcula WIP, se crea un movimiento en la página **Movs. WIP proyecto**.  
+3. Cierre la página.  
 
 > [!NOTE]  
->  Solamente se calcula el trabajo en curso y el reconocimiento. No se registra en contabilidad. Para hacerlo, es necesario ejecutar el proceso **Registrar WIP en C/G** después de haber calculado Trabajo en curso y reconocimiento.
+> El WIP y el reconocimiento se calculan pero no se contabilizan en el libro mayor. Para hacerlo, es necesario ejecutar el proceso por lotes **Registrar WIP en C/G** después de haber calculado Trabajo en curso y reconocimiento.
 
 ## Registro de WIP en contabilidad
 
@@ -113,12 +114,12 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ### Para registrar un WIP en contabilidad  
 
-1.  En la lista **Proyectos**, seleccione el proyecto **Reno**.  
-2.  Seleccione la acción **WIP** y, a continuación elija la acción **Resgistrar WIP en C/G**.  
-3.  En la página **Registrar WIP en C/G proyecto**, en la ficha desplegable **Proyecto**, seleccione **Reno** en **Nº**. .  
-4.  En la ficha desplegable **Opciones**, en el campo **Nº documento reversión**, escriba **1**.  
-5.  Elija el botón **Aceptar** para registrar WIP a la contabilidad general.  
-6.  Elija el botón **Aceptar** para cerrar la página de confirmación.  
+1. En la lista **Proyectos**, seleccione el proyecto **Reno**.  
+2. Seleccione la acción **WIP** y, a continuación elija la acción **Resgistrar WIP en C/G**.  
+3. En la página **Registrar WIP en C/G proyecto**, en la ficha desplegable **Proyectos**, seleccione **Reno** en el campo **Nº** .  
+4. En la ficha desplegable **Opciones**, en el campo **Nº documento reversión**, escriba **1**.  
+5. Elija el botón **Aceptar** para registrar WIP a la contabilidad general.  
+6. Elija el botón **Aceptar** para cerrar la página de confirmación.  
 
      Una vez completado el registro, puede ver la información de registro en la página **Movs.contabilidad WIP**.  
 
@@ -126,8 +127,8 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
      En la página **Movs. C/G WIP proyecto**, compruebe que el WIP se haya registrado en la contabilidad.  
 
-8.  Cierre la página.  
-9. Abra la ficha **Proyecto** del proyecto **Reno**.  
+8. Cierre la página.  
+9. Abra la página **Ficha de proyecto** del proyecto **Reno**.  
 10. En la ficha desplegable **Trabajo en curso y reconocimiento**, observe que la columna de **Registrado**, el campo de **Recog. Importe de contabilidad de los costes** ahora está introducido, lo que indica que el WIP se registró en la contabilidad general correctamente.  
 11. Elija el botón **Aceptar** para cerrar la ficha.  
 
@@ -137,14 +138,14 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 
 ### Para revertir un registro WIP  
 
-1.  En la lista **Proyectos**, seleccione el proyecto **Reno**.  
-2.  Seleccione la acción **WIP** y, a continuación elija la acción **Resgistrar WIP en C/G**.  
-3.  En la página **Registrar WIP en C/G proyecto**, en la ficha desplegable **Proyecto**, seleccione **Reno** en **Nº**. .  
-4.  En la ficha desplegable **Opciones**, en el campo **Nº documento reversión**, escriba **1**.  
-5.  Especifique la fecha de registro original en el campo **Fecha registro reversión**. Debe ser la misma fecha que la que se usó para calcular el WIP la primera vez.  
-6.  Seleccione la casilla **Solo reversión**. De este modo, se revierte el WIP registrado previamente, pero sí se registra el nuevo WIP en la contabilidad.  
-7.  Elija el botón **Aceptar** para ejecutar el trabajo por lotes y seleccione el botón **Aceptar** para cerrar la página de confirmación.  
-8.  Abra la ficha **Proyecto** para **Reno**.  
+1. En la lista **Proyectos**, seleccione el proyecto **Reno**.  
+2. Seleccione la acción **WIP** y, a continuación elija la acción **Resgistrar WIP en C/G**.  
+3. En la página **Registrar WIP en C/G proyecto**, en la ficha desplegable **Proyecto**, seleccione **Reno** en el campo **Nº** .  
+4. En la ficha desplegable **Opciones**, en el campo **Nº documento reversión**, escriba **1**.  
+5. Especifique la fecha de registro original en el campo **Fecha registro reversión**. Debe ser la misma fecha que la que se usó para calcular el WIP la primera vez.  
+6. Seleccione la casilla **Solo reversión**. De este modo, se revierte el WIP registrado previamente, pero sí se registra el nuevo WIP en la contabilidad.  
+7. Elija el botón **Aceptar** para ejecutar el trabajo por lotes y seleccione el botón **Aceptar** para cerrar la página de confirmación.  
+8. Abra la página **Ficha de proyecto** de **Reno**.  
 9. En la ficha desplegable **Trabajo en curso y reconocimiento**, verifique que no haya movimientos registrados de WIP.  
 10. Cierre esta página.  
 11. En la lista de **Proyectos**, seleccione el proyecto **Reno**, seleccione la acción **WIP** y, a continuación, elija la acción **Movimientos de contabilidad del WIP**. Los movimientos WIP tienen la casilla **Revertido** activada.  
@@ -161,9 +162,9 @@ Con proyectos, puede programar el uso de los recursos de su empresa y realizar u
 ## Consulte también
 
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
- [Tutorial: administración de programas con proyectos](walkthrough-managing-projects-with-jobs.md)  
+ [Tutorial: administración de proyectos](walkthrough-managing-projects-with-jobs.md)  
  [Comprensión de los métodos WIP](projects-understanding-wip.md)  
- [Controlar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)  
+ [Supervisar el progreso y el rendimiento](projects-how-monitor-progress-performance.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

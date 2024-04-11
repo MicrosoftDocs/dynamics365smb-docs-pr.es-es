@@ -30,7 +30,7 @@ Copilot está diseñado para ahorrarle tiempo y ayudarlo a escribir texto creati
 
 ### Requisitos previos
 
-- La función de sugerencias de textos de marketing está habilitada y activada en su entorno. Esta tarea suele realizarla un administrador. Para obtener más información, vaya a [Configurar Copilot y capacidades de IA](enable-ai.md).
+- La función de sugerencias de textos de marketing está activada en su entorno. Esta tarea suele realizarla un administrador. Para obtener más información, vaya a [Configurar Copilot y capacidades de IA](enable-ai.md).
 - Está utilizando uno de los idiomas admitidos actualmente por las sugerencias de texto de marketing.
 
   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]

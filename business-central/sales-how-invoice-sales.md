@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Puede negocias con el cliente creando primero creando una oferta de venta, que p
 
 ## Crear factura de venta
 
-Si el cliente decide comprar, registre la factura de venta para crear los movimientos de cantidad y valor relacionados. Cuando registre la factura de venta, también puede enviarla como PDF anexo. Puede rellenar previamente el cuerpo de correo electrónico con un resumen de la factura y la información de pagos, por ejemplo, proporcionando un vínculo a PayPal. Obtenga más información en [Enviar documentos por correo electrónico](ui-how-send-documents-email.md). Cuando el cliente paga la factura, puede registrar ese pago de diferentes maneras, según el tamaño y los flujos de trabajo preferidos de su organización. Obtenga más información en la sección [Registrar pagos](#register-payments).  
+Si el cliente decide comprar, registre la factura de venta para crear los movimientos de cantidad y valor relacionados. Cuando registre la factura de venta, también puede enviarla como PDF anexo. Puede rellenar previamente el cuerpo de correo electrónico con un resumen de la factura y la información de pagos, por ejemplo, proporcionando un vínculo a PayPal. Obtenga más información en [Enviar documentos por correo electrónico](ui-how-send-documents-email.md#to-send-documents-by-email). Cuando el cliente paga la factura, puede registrar ese pago de diferentes maneras, según el tamaño y los flujos de trabajo preferidos de su organización. Obtenga más información en la sección [Registrar pagos](#register-payments).  
 
 Las ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra o una unidad física no guardada en el inventario, respectivamente. Obtenga más información en [Registrar nuevos productos](inventory-how-register-new-items.md). El proceso de la factura de venta es el mismo para los tres tipos de producto.
 
@@ -126,7 +126,7 @@ Incluso puede crear facturas pagadas directamente para clientes no registrados c
 [Configuración de ventas](sales-setup-sales.md)  
 [Imprimir la lista de picking](sales-how-print-picking-list.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
-[Enviar documentos por correo electrónico](ui-how-send-documents-email.md)  
+[Enviar documentos por correo electrónico](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Facturación masiva desde Microsoft Bookings en Business Central ](finance-bookings.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

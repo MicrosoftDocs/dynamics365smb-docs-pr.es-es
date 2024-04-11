@@ -7,7 +7,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: stock
 ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
-ms.date: 09/21/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -59,7 +59,7 @@ Puede ver la disponibilidad de un producto a lo largo del tiempo para periodos d
 
 Puede ver la disponibilidad de un producto en distintos sitios donde se almacena en la página **Disponib. prod. por almacén**.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la ficha de un producto del que quiera ver su disponibilidad.
 3. Elija la acción **Disponibilidad prod. por** y, a continuación, elija la acción **Almacén**.
 
@@ -121,13 +121,13 @@ La página **Disponibilidad producto por variante** muestra la disponibilidad re
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## Página Disponibilidad de ensamblado
+## Página disponibilidad de ensamblado
 
 La página **Disponibilidad de ensamblado** muestra la información de disponibilidad detallada para el elemento del ensamblado. Abre:
 
 - Automáticamente de una línea del pedido de venta en los escenarios de ensamblar para pedido cuando se introduce una cantidad que causa un problema de disponibilidad de componente.
 - Automáticamente de una cabecera del pedido de ensamblado cuando se introduce un valor en el campo Cantidad que causa un problema de disponibilidad de componente.
-- Manualmente cuando se abre desde un pedido de ensamblado. En la pestaña Acciones, en el grupo Funciones, haga clic en Mostrar disponibilidad.
+- Manualmente cuando se abre desde un pedido de ensamblado. En la pestaña Acciones, en el grupo Funciones, seleccione Mostrar disponibilidad.
 
 La ficha desplegable **Detalles** muestra información detallada de la disponibilidad del elemento de ensamblado, incluida cuánta de la cantidad del pedido de ensamblado se puede ensamblar para la fecha de vencimiento basándose en la disponibilidad de los componentes necesarios. Esto se mostrará en el campo Capaz de ensamblar en la ficha desplegable Detalles.
 

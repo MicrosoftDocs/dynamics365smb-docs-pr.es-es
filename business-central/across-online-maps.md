@@ -16,7 +16,7 @@ Puede obtener un mapa del servicio de mapas en línea en los que se muestran la 
 * Ficha cliente
 * Ficha proveedor
 * Ficha recurso
-* Ficha trabajo
+* Ficha proyecto
 * Ficha banco
 * Ficha contacto
 * Ficha empleado

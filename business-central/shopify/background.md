@@ -1,7 +1,7 @@
 ---
 title: Ejecutar tareas en segundo plano y de forma recurrente
 description: Configure la sincronización de datos entre Business Central y Shopify en segundo plano.
-ms.date: 05/11/2022
+ms.date: 03/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -22,7 +22,7 @@ Es eficiente ejecutar algunas tareas simultáneamente y de forma automatizada. P
 2. Seleccione la tienda para la que desea ejecutar la sincronización en segundo plano para abrir la página **Tarjeta de tienda de Shopify**.
 3. Active la alternancia **Permitir sincronizaciones en segundo plano**.
 
-Ahora, cuando se activa la acción de sincronización, en lugar de ejecutar una tarea en primer plano, le pedirá que espere. Cuando se haya completado, puede continuar con la siguiente acción. La tarea se crea como un **Movimiento de cola de proyectos** y comienza de inmediato.
+Ahora, cuando se inicia la acción de sincronización, en lugar de ejecutar una tarea en primer plano, le pide que espere. Cuando se haya completado, puede continuar con la siguiente acción. La tarea se crea como un **Movimiento de cola de proyectos** y comienza de inmediato.
 
 ## Programar tareas recurrentes
 
@@ -37,7 +37,10 @@ Puede programar las siguientes actividades recurrentes para que se realicen de f
 |**Sincronizar inventario**|Informe 30102 Sincronizar existencias con Shopify|
 |**Sincronizar imágenes**|Informe 30107 Sincronizar imágenes con Shopify|
 |**Sincronizar clientes**|Informe 30100 Sincronizar clientes con Shopify|
+|**Sincronizar empresas**|Informe 30114 Sincronizar empresas con Shopify (B2B)|
 |**Sincronizar pagos**|Informe 30105 Sincronizar pagos con Shopify|
+|**Catálogos sincronización**|Informe 30115 Sincronizar catálogos de Shopify (B2B)|
+|**Sincronizar precios de catálogos**|Informe 30116 Sincronizar precios de catálogos de Shopify (B2B)|
 
 > [!NOTE]
 > Algunos elementos pueden ser actualizados por varias tareas, por ejemplo, cuando importa pedidos, dependiendo de la configuración en la **Tarjeta de tienda de Shopify**, el sistema también puede importar y actualizar datos de clientes y/o productos. Recuerde utilizar la misma categoría de cola de trabajos para evitar conflictos.
@@ -51,6 +54,17 @@ Puede usar el campo **N.º de pedido de Shopify** para identificar los documento
 
 Para obtener más información sobre la publicación de pedidos de venta en un lote, vaya a [Para crear una entrada de cola de trabajos para el registro por lotes de pedidos de venta](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## Consulte también .
+## Para comprobar el estado de la sincronización
+
+En el Área de trabajo **Administrador de negocio**, la parte **Actividades de Shopify** ofrece varias señales que pueden ayudarle a identificar rápidamente si hay problemas con el conector de Shopify.
+
+- **Clientes no asignados**: el cliente de Shopify se importa, pero no está vinculado a una entrada de cliente correspondiente en [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Productos no asignados**: el producto de Shopify se importa, pero no está vinculado a una entrada de cliente correspondiente en [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Pedidos no procesados**: los pedidos de Shopify se importaron, pero los documentos de ventas en [!INCLUDE [prod_short](../includes/prod_short.md)] no se crearon, a menudo debido a productos o clientes no asignados.
+- **Envíos sin procesar**: los envíos de ventas registrados se originaron en pedidos de Shopify que no están sincronizados con Shopify.
+- **Errores de envíos**: el conector de Shopify no pudo sincronizar los envíos de ventas registrados con Shopify.
+- **Errores de sincronización**: hay entradas fallidas en la cola de trabajos relacionadas con la sincronización con Shopify.
+
+## Consulte también
 
 [Comenzar con el conector para Shopify](get-started.md)  

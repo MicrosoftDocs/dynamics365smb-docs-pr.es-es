@@ -1,11 +1,11 @@
 ---
-title: Configurar la gestión de servicio | Documentos de Microsoft
+title: Configurar la gestión de servicio | Microsoft Docs
 description: Descripción general de las tareas para configurar la Gestión de servicios para adaptarla a la forma en que sus organizaciones gestionan sus servicios.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -17,7 +17,7 @@ Cuando configure la gestión de servicios, debe decidir qué servicios desea ofr
   
 Cuando defina un servicio, puede asociarlo con las cualificaciones necesarias para llevarlo a cabo. Para aumentar la eficiencia de sus representantes de servicio, también puede configurar instrucciones de detección de errores en tiempo real y asignar costes de partida habituales, como costes de desplazamiento u otras tarifas.  
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
+En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.  
   
 | Para | Vea |
 | --- | --- |

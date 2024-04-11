@@ -1,13 +1,13 @@
 ---
 title: Sincronizar y cumplir con los pedidos de ventas
 description: Configure y ejecute la importación y el procesamiento de pedidos de ventas desde Shopify.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Sincronizar y cumplir con los pedidos de ventas
@@ -30,10 +30,12 @@ Habilite **Crear pedidos automáticamente** para crear automáticamente document
 
 Si desea liberar automáticamente un documento de ventas, active la opción **Liberación automática de pedidos de venta**.
 
+Si no desea enviar confirmaciones de envío automáticas a los clientes, desactive la opción **Enviar confirmación de envío**. Desactivar la opción puede resultar útil si vende productos digitales o desea utilizar otro mecanismo de notificación.
+
 Si selecciona el campo **N.º de pedido de Shopify** en línea de documento, [!INCLUDE [prod_short](../includes/prod_short.md)] inserta las líneas de ventas de tipo **Comentario** con número de pedido de Shopify.
 
->[!NOTE]
->El documento de ventas en [!INCLUDE[prod_short](../includes/prod_short.md)] se vincula al pedido de Shopify y puede agregar el número de pedido de **Shopify .** campo a la lista o páginas de tarjetas para pedidos de venta, facturas y envíos. Para obtener más información sobre cómo agregar un campo, vaya a [Empezar a personalizar utilizando el modo de personalización](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> El documento de ventas en [!INCLUDE[prod_short](../includes/prod_short.md)] se vincula al pedido de Shopify y puede agregar el número de pedido de **Shopify .** campo a la lista o páginas de tarjetas para pedidos de venta, facturas y envíos. Para obtener más información sobre cómo agregar un campo, vaya a [Empezar a personalizar utilizando el modo de personalización](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 En el campo **Prioridad de área fiscal**, dé prioridad a cómo seleccionar el código de área fiscal en direcciones en pedidos. El pedido importado de Shopify contiene información sobre impuestos. Los impuestos se vuelven a calcular cuando crea documentos de ventas, por lo que es importante que la configuración de IVA o impuestos sea correcta en [!INCLUDE[prod_short](../includes/prod_short.md)]. Para obtener más información sobre impuestos, vaya a [Configurar impuestos para la conexión Shopify](setup-taxes.md).
 
@@ -131,7 +133,11 @@ La página de **Pedidos de Shopify para importar** es útil para solucionar prob
 Una vez completada la importación, puede explorar el pedido de Shopify y encontrar toda la información relacionada, como transacciones de pago, costes de envío, procesos de entrega, nivel de riesgo, atraibutos y etiquetas de pedidos o los cumplimientos, si el pedido ya se cumplió en Shopify. También puede ver la confirmación de cualquier pedido que se haya enviado al cliente seleccionando la acción **Página de estado de Shopify**.
 
 > [!NOTE]  
-> Puede navegar a la ventana **Pedidos de Shopify** directamente y podrá ver pedidos con estado *abierto* de todas las tiendas. Para revisar los pedidos completados, debe abrir la página **Pedidos de Shopify** desde la ventana **Tarjeta de tienda de Shopify** específica.
+> Puede navegar a la ventana **Pedidos de Shopify** directamente y podrá ver pedidos con estado *abierto* de todas las tiendas. Para revisar los pedidos completados, debe abrir la página **Pedidos de Shopify** desde la página **Tarjeta de tienda de Shopify** específica.
+
+Antes de crear documentos de ventas en [!INCLUDE[prod_short](../includes/prod_short.md)], puede usar la acción **Sincronizar pedido desde Shopify** en la página **Pedido de Shopify** para volver a importar pedidos específicos.
+
+También puede marcar un pedido como pagado, lo cual resulta útil en un escenario B2B donde los pagos se procesan fuera del proceso de pago de Shopify. Elija la acción **Marcar como pagado** en la página **Pedido de Shopify**. Además, puede marcar un pedido como cancelado para iniciar el flujo de reembolso en Shopify. Elija la acción **Cancelar pedido** en la página **Pedido de Shopify**, complete los campos según sea necesario en la página **Cancelar pedido de Shopify** y pulse **Aceptar**. Deberá ejecutar la sincronización de pedidos para importar las actualizaciones a [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Crear documentos de ventas en Business Central
 
@@ -147,15 +153,17 @@ Si el conmutador de alternancia **Crear pedidos automáticamente** está habilit
 
 Si el pedido de Shopify requiere proceso de entrega, se crea un **Pedido de ventas**. Para pedidos Shopify entregados, como aquellos pedidos que contienen solo una tarjeta de regalo o que ya se controlan en Shopify, se crea una **Factura de venta**.
 
-Ahora se crea un documento de ventas y se puede administrar utilizando la funcionalidad [!INCLUDE[prod_short](../includes/prod_short.md)] estándar.
+Se crea un documento de ventas y se puede administrar utilizando la funcionalidad [!INCLUDE[prod_short](../includes/prod_short.md)] estándar.
+
+Si desea recrear el documento de ventas, puede utilizar la acción **Desvincular documentos procesados** en la página **Pedido de Shopify**. Tenga en cuenta que esta acción no elimina el documento de ventas ya creado. Debe procesarlo manualmente.
 
 ### Gestionar clientes perdidos
 
-Si su configuración impide crear un cliente automáticamente y no se puede encontrar un cliente existente adecuado, deberá asignar un cliente al pedido de Shopify manualmente. Existen varias formas de hacer esto:
+Si su configuración impide crear un cliente automáticamente y no se puede encontrar una correspondencia de cliente existente adecuada, deberá asignar un cliente al pedido de Shopify manualmente. Hay algunas formas de asignar clientes a los pedidos:
 
-* Puede asignar el **N.º de venta al cliente** y **Nº de cliente de facturación** directamente en la página **Pedidos de Shopify**, eligiendo un cliente de la lista de clientes existentes.
-* Puede seleccionar un código de plantilla de cliente, crear y asignar el cliente a través de la acción **Crear nuevo cliente** en la página **Pedidos de Shopify**. Tenga en cuenta que el cliente de Shopify debe tener al menos una dirección. A los pedidos creados a través del canal de ventas Shopify POS a menudo les faltan los detalles de la dirección.
-* Puede asignar un cliente existente al **Cliente de Shopify** relacionado en la ventana **Clientes de Shopify** y luego elegir la acción **Buscar asignación** en la página **Pedidos de Shopify**.
+* Asignar el **Venta a-N.º cliente** y **Nº de cliente de facturación** directamente en la página **Pedidos de Shopify**, eligiendo un cliente de la lista de clientes existentes.
+* Seleccionar una plantilla de cliente, crear y asignar el cliente a través de la acción **Crear nuevo cliente** en la página **Pedidos de Shopify**. El cliente de Shopify debe tener al menos una dirección. A los pedidos creados a través del canal de ventas Shopify PDV a menudo les faltan los detalles de la dirección.
+* Puede asignar un cliente existente al **Cliente de Shopify** relacionado en la página **Clientes de Shopify** y luego elegir la acción **Buscar asignación** en la página **Pedidos de Shopify**.
 
 ### Cómo el conector elige qué cliente usar
 
@@ -172,6 +180,8 @@ Los próximos pasos dependen del **Tipo de asignación de cliente**.
 
 > [!NOTE]  
 > El conector utiliza la información de la dirección de facturación y crea el cliente de facturación en [!INCLUDE[prod_short](../includes/prod_short.md)]. El cliente de venta es el mismo que el cliente de facturación.
+
+Para pedidos B2B, el flujo es similar, aunque el conector usa los campos **N.º de empresa predeterminada**, **Importación de la empresa desde Shopify**, **Tipo de asignación de empresa** en la página **Tarjeta de tienda de Shopify**. Observe que no hay **N.º de empresa predeterminada** En la **Plantilla de cliente de Shopify** en cuanto al B2B se espera tener clientes nombrados.
 
 ### Diferentes reglas de procesamiento para pedidos
 
@@ -199,27 +209,32 @@ Cada cola de trabajo importará y procesará pedidos dentro de los filtros defin
 
 En Shopify:
 
-|Editar|Impacto para pedido ya importado|Impacto para el pedido que se importa por primera vez|
+|Editar|Impacto en pedidos de Shopify aún no procesados en [!INCLUDE[prod_short](../includes/prod_short.md)] | Impacto en pedidos de Shopify ya procesados en [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
-|Cambiar la ubicación de proceso de entrega | La ubicación original está en las líneas | La ubicación de proceso de entrega está sincronizada con [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Editar un pedido y aumentar la cantidad| El encabezado del pedido y las tablas complementarias se actualizarán en [!INCLUDE[prod_short](../includes/prod_short.md)], las líneas no lo harán.| El pedido importado usará una nueva cantidad|
-|Editar un pedido y disminuir la cantidad| El encabezado del pedido y las tablas complementarias se actualizarán en [!INCLUDE[prod_short](../includes/prod_short.md)], las líneas no lo harán.| El pedido importado usará la cantidad original, el campo Cantidad a cumplir contendrá un nuevo valor.|
-|Editar un pedido y eliminar un producto existente | El encabezado del pedido y las tablas complementarias se actualizarán en [!INCLUDE[prod_short](../includes/prod_short.md)], las líneas no lo harán.| El producto eliminado aún se importará, el campo Cantidad a cumplir contendrá cero. |
-|Editar un pedido y agregar un nuevo artículo | El encabezado del pedido se actualizará, las líneas no. | Se importarán los elementos originales y añadidos. |
-|Procesar pedido: cumplir, actualizar información de pago | El encabezado del pedido se actualizará, pero las líneas no. |El cambio no tiene impacto sobre cómo se importa el pedido.|
-|Cancelar pedido | El encabezado del pedido se actualizará, pero las líneas no. |El pedido cancelado no se importa |
+|Cambiar la ubicación de proceso de entrega | La ubicación de proceso de entrega está sincronizada con [!INCLUDE[prod_short](../includes/prod_short.md)]. | La ubicación de proceso de entrega está sincronizada con [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Editar un pedido y aumentar la cantidad|El pedido importado usará una nueva cantidad.| Connector detectará cambios y marcará pedidos. |
+|Editar un pedido y disminuir la cantidad|El pedido importado usará una nueva cantidad. Se importará un reembolso de Shopify con monto 0 que no se puede convertir en nota de abono.| Connector detectará cambios y marcará pedidos. |
+|Editar un pedido y eliminar un producto existente |El elemento eliminado no se importará. Se importará un reembolso de Shopify con monto 0 que no se puede convertir en nota de abono.| Connector detectará cambios y marcará pedidos. |
+|Editar un pedido y agregar un nuevo artículo | Se importarán los elementos originales y añadidos. | Connector detectará cambios y marcará pedidos. |
+|Procesar pedido: cumplir, actualizar información de pago | El encabezado del pedido se actualizará. |El encabezado del pedido se actualizará. El proceso de entrega no se sincronizará con Shopify.|
+|Cancelar pedido pagado | El encabezado del pedido se actualizará y se procesará por separado |Connector detectará cambios y marcará pedidos. |
+|Cancelar pedido no pagado | El elemento eliminado no se importará. Se importará un reembolso de Shopify con monto 0 que no se puede convertir en nota de abono. |Connector detectará cambios y marcará pedidos. |
 
-Como puede ver, en algunos casos puede ser razonable eliminar un pedido editado en [!INCLUDE[prod_short](../includes/prod_short.md)] e importarlo como nuevo.
+En caso de que el pedido ya se haya procesado en [!INCLUDE[prod_short](../includes/prod_short.md)] el conector mostrará el siguiente mensaje de error: *El pedido ya se ha procesado en Business Central, pero se ha recibido una edición de Shopify. Los cambios no se propagaron al pedido procesado en Business Central. Actualice los documentos procesados para que coincidan con los datos recibidos de Shopify. Si desea forzar la sincronización, utiliza la acción "Sincronizar pedido desde Shopify" en la página de la ficha Pedido de Shopify.*
+
+Dependiendo del estado del documento de ventas creado, puede realizar las siguientes acciones:
+1. Eliminar documento de ventas creado
+2. Elija la acción **Desvincular documentos procesados** para restablecer el indicador **Procesado**.
+3. Elija la acción **Sincronizar pedido desde Shopify** para actualizar el pedido individual con datos recientes de Shopify.
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Editar|Impacto|
 |------|-----------|
-|Cambie la ubicación a otra ubicación, asignada a las ubicaciones de Shopify. Registre el envío. | El pedido se marcará como entregado. Se utilizará el almacén original. |
-|Cambie la ubicación a otra ubicación, no asignada a las ubicaciones de Shopify. Registre el envío. | El proceso de entrega no se sincronizará con Shopify. |
+|Cambie la ubicación a otra ubicación. Registre el envío. | El pedido se marcará como entregado. Se utilizará la ubicación de cumplimiento desde Shopify. |
 |Disminuya la cantidad. Registre el envío. | El pedido de Shopify se marcará como parcialmente entregado. |
-|Incremente la cantidad. Registre el envío. | El proceso de entrega no se sincronizará con Shopify. |
-|Agregue un artículo nuevo. Registre el envío. | El pedido de Shopify se marcará como entregado. Las líneas no se actualizarán. |
+|Incremente la cantidad. Registre el envío. | El proceso de entrega no se sincronizará con Shopify. Lo mismo si el cumplimiento se dividiera en Shopify pero procesado como una línea en [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Agregue un artículo nuevo. Registre el envío. | El pedido de Shopify se marcará como entregado. No se agregarán líneas nuevas. |
 
 ## Sincronizar envíos a Shopify
 

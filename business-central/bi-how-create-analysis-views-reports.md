@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 Los directores de ventas necesitan analizar las facturaciones, los ingresos brutos y otros indicadores clave del rendimiento de las ventas con regularidad. Los compradores están más interesados en la dinámica de los volúmenes de compra, las actuaciones de los proveedores y los precios de compra. A su vez, los directores de inventario/logística necesitan información sobre la rotación de inventarios, sobre los análisis de los movimientos de inventario y sobre las estadísticas de valores de inventario. Por lo tanto, no existe un informe de análisis único para todos.
 
-Puede personalizar informes de análisis basados en registros del histórico de transacciones, por ejemplo, ajustes de inventario, transferencias, compras y ventas. En un informe personalizado, los datos de origen, derivados de los movimientos del producto (con los movimientos de valor asociados) se pueden combinar, comparar y presentar de la forma que más convenga al usuario. En este sentido, el informe de análisis es muy similar al informe de tabla dinámica de Microsoft Excel.  
+Puede personalizar informes de análisis basados en registros del histórico de transacciones, por ejemplo, ajustes de inventario, transferencias, compras y ventas. En un informe personalizado, los datos de origen, derivados de los movimientos del producto (con los movimientos de valor asociados) se pueden combinar, comparar y presentar de la forma que más convenga al usuario. En este sentido, el informe de análisis es similar al informe de tabla dinámica de Microsoft Excel.  
 
 Entonces, por ejemplo, puede crear un informe personalizado que se centre en sus cuentas clave en términos de rotación total de productos en cantidades y cantidades vendidas, ganancia bruta y porcentaje de ganancia bruta durante el mes actual. Luego puede hacer que compare esas cifras con los resultados de meses anteriores o el mismo mes del año pasado y calcule las desviaciones. Todo esto se puede hacer en una sola vista, lo que permite explorar la causa de los problemas identificados e incluso elegir el desplegable para profundizar hasta los detalles del nivel de transacciones individuales.  
 

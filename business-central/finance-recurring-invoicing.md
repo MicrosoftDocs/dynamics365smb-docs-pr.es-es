@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Muchas empresas están pasando de un modelo de ingresos de negocio en el que los
 
 ## Registrar ingresos con un diario general periódico
 
-Un diario periódico es un diario general con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno, como el alquiler, las suscripciones, la electricidad o la calefacción. Al usar estos campos para las transacciones periódicas, puede registrar importes tanto fijos como variables. En un diario periódico, los movimientos que se van a registrar con regularidad sólo hay que escribirlos una vez. Por tanto, las cuentas, las dimensiones, los valores de dimensiones, etc. que se introduzcan permanecerán en el diario después del registro. Si hay que hacer algún cambio, puede realizarlo en cada registro.
+Un diario periódico es un diario general con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno, como el alquiler, las suscripciones, la electricidad o la calefacción. Al usar estos campos para las transacciones periódicas, puede registrar importes tanto fijos como variables. En un diario periódico, los movimientos que se registran con regularidad solo hay que escribirlos una vez. Por tanto, las cuentas, las dimensiones, los valores de dimensiones, etc. que se introduzcan permanecerán en el diario después del registro. Si hay que hacer algún cambio, puede realizarlo en cada registro.
 
 ### Por qué usar esta opción
 
@@ -36,11 +36,11 @@ Después de registrar un diario periódico de proyecto, puede crear varias factu
 
 ### Por qué usar esta opción
 
-Con esta opción, sigue el procedimiento de facturación estándar con todos los beneficios, incluidos los diseños estándar y del cliente para las preferencias de comunicación. También puede definir precios para cada trabajo individualmente.
+Con esta opción, sigue el procedimiento de facturación estándar con todos los beneficios, incluidos los diseños estándar y del cliente para las preferencias de comunicación. También puede definir precios para cada proyecto individualmente.
 
-Sin embargo, para cada nuevo cliente, debe crear un nuevo trabajo y agregar líneas al diario periódico. 
+Sin embargo, para cada nuevo cliente, debe crear un nuevo proyecto y agregar líneas al diario periódico. 
 
-Para obtener más información, consulte [Crear líneas de diario de proyectos](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) y [Crear varias facturas de venta de proyecto](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Para obtener más información, consulte [Crear líneas de diario de proyectos](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) y [Crear varias facturas de venta de proyecto](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Crear varias facturas de venta basadas en líneas de ventas periódicas
 
@@ -102,12 +102,12 @@ Para obtener más información, consulte [Pedidos periódicos](LocalFunctionalit
 
 En [AppSource.microsoft.com](https://appsource.microsoft.com/), puede obtener extensiones para Business Central. Algunas de las extensiones las proporciona Microsoft y otras las proporcionan otras empresas. La lista de las extensiones de otras empresas aumenta cada mes. Esté atento a [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) y consiga aplicaciones que le ayudarán en su trabajo en Business Central.  
 
-## Consulte también .
+## Consulte también
 
 [Fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas)  
 [Trabajar con diarios periódicos](ui-work-general-journals.md#work-with-recurring-journals)  
-[Crear líneas de diario de proyectos](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Crear varias facturas de venta de proyecto](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Crear líneas de diario de proyectos](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Crear varias facturas de venta de proyectos](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Crear líneas de ventas y de compras periódicas](sales-how-work-standard-lines.md)  
 [Trabajar con contratos de servicio y ofertas de contrato de servicio](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Facturar varios contratos de servicio](service-how-create-invoices.md#to-invoice-several-service-contracts)  

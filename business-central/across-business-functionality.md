@@ -24,7 +24,7 @@ ms.service: dynamics-365-business-central
 |Obtener información sobre el rendimiento de sus actividades empresariales mediante presupuestos, esquemas de cuentas y vistas de análisis.|[Inteligencia empresarial financiera](bi.md)|
 |Administrar los procesos y la información de venta, como ofertas, pedidos, devoluciones y cuentas de cliente, y crear envíos directos.|[Ventas](sales-manage-sales.md)|
 |Administrar los procesos y la información de compra, como facturas, pedidos, devoluciones y cuentas de proveedor, y comprar productos de documentos de venta. |[Compras](purchasing-manage-purchasing.md)|
-|Registrar nuevo inventario o productos de tipo servicio, clasificar productos para facilitar la búsqueda, ajustar los niveles de inventario y llevar a cabo tareas comunes de valoración de existencias.|[Inventario](inventory-manage-inventory.md)|
+|Registrar nuevo inventario o productos de tipo servicio, clasificar productos para facilitar la búsqueda, ajustar los niveles de inventario y llevar a cabo tareas comunes de valoración de existencias.|[Grupos contables inventario](inventory-manage-inventory.md)|
 |Crear proyectos y programar recursos para proyectos, administrar presupuestos de proyecto, supervisar el progreso y realizar el seguimiento de las horas de máquinas y de empleados.|[Administración de proyectos](projects-manage-projects.md)|
 |Organice los activos fijos, garantice una correcta amortización periódica y realice un seguimiento de los costes de mantenimiento.|[Activos fijos](fa-manage.md)|
 |Administrar y respaldar las acciones de venta y enfocar las interacciones en clientes y contactos preferidos.|[Gestión de relaciones](marketing-relationship-management.md)|

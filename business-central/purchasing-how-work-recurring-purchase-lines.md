@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
-ms.date: 07/06/2022
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -47,7 +47,7 @@ Asigne una o varias líneas de compras periódicas a un proveedor para que esté
 
 Si existen líneas de compras periódicas para el proveedor, puede insertarlas, o hacer que se agreguen automáticamente, en todos los tipos de documentos de compras, como una factura de compras. Si ha activado las opciones de **Preguntar siempre** al asignar líneas de compras periódicas a los proveedores, se le informará de si existen líneas de compras periódicas.
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y luego elija el enlace relacionado.
 2. Abra la factura de compras en la que desee insertar una o varias líneas de compras estándar.
 3. Elija la acción **Obtener líneas de compra periódicas**.
 4. En la página **Líneas de compras periódicas**, elija el botón de búsqueda en el campo **Código** y seleccione un conjunto de líneas de compras estándar.

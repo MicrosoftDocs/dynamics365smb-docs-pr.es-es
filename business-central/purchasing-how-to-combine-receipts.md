@@ -1,16 +1,16 @@
 ---
-title: Agrupar albaranes en una factura única
+title: Agrupar recepciones en una factura única
 description: 'Si desea facturar varios albaranes de compra a la vez, puede utilizar la función Combinar albaranes.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '136, 145, 146, 9308'
-ms.date: 08/03/2022
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Agrupar albaranes en una factura única
+# Agrupar recepciones en una factura única
 
 Si desea facturar varios albaranes de compra a la vez, puede seleccionar varias líneas de recibo en la factura de compra.  
 

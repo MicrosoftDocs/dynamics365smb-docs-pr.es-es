@@ -1,12 +1,12 @@
 ---
 title: Sincronizar artículos e inventario
 description: Configurar y ejecutar sincronizaciones de artículos entre Shopify y Business Central
-ms.date: 11/17/2023
+ms.date: 02/28/2024
 ms.topic: article
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.collection:
   - bap-ai-copilot
 ---
@@ -50,30 +50,8 @@ Primero, importe artículos de Shopify de forma masiva o junto con pedidos para 
 |**Separador de campo de SKU**|Use esto junto con **Asignación de SKU** ajustado a la opción **[N.º de artículo + Código de variante](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Defina un separador para usarlo para dividir la SKU.<br>Así, si en Shopify crea la variante con la SKU '1000/001', escribirá '/' en el campo **Separador de campo SKU** para crear el número de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] como '1000' y el código de variante del artículo como '001'. Tenga en cuenta que si crea la variante con la SKU "1000/001/111" en Shopify, el número de producto en [!INCLUDE[prod_short](../includes/prod_short.md)] será "1000" y el código de variante de producto "001". La parte "111" se ignora. |
 |**Prefijo de variante**|Se usa junto con **Asignación de SKU** ajustado a **Código de variante** o **N.º de articulo + Código de variante** como función alternativa cuando el SKU proveniente de Shopify esta vacío.<br>Si desea crear la variante de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] automáticamente, tendrá que introducir un valor en **Código**. Por defecto, se usa el valor definido en el campo SKU importado de Shopify. Sin embargo, si el SKU está vacío, generará un código que comenzará con el prefijo de variante definido y "001".|
 |**Shopify puede actualizar artículo**|Elija esta opción si desea actualizar artículos y/o variantes automáticamente.|
-
-### Efecto los SKU y códigos de barras del producto de Shopify en el mapeo y la creación de artículos y variantes en Business Central
-
-Cuando los productos son importados desde Shopify a las tablas **Productos de Shopify** y **variantes de Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] intenta encontrar registros existentes.
-
-La siguiente tabla describe las diferencias entre las opciones del campo **Asignación de SKU**.
-
-|Opción|Efecto en el mapeo|Efecto en la creación|
-|------|-----------------|------------------|
-|**En blanco**|El campo SKU no se usa en la rutina de asignación de artículos.|Sin efecto en la creación del elemento.<br>Esta opción impide la creación de variantes. Cuando en el pedido de ventas, solo se usa el artículo principal. Una variante se sigue pudiendo mapear manualmente en la página **Productos de Shopify**.|
-|**Nº producto**|Elíjalo si el campo SKU contiene el número de artículo.|Sin efecto en la creación de un elemento sin variantes. Para un artículo con variantes, cada variante se crea como un artículo separado.<br>Si Shopify tiene un producto con dos variantes y sus SKU son '1000' y '2000', en [!INCLUDE[prod_short](../includes/prod_short.md)], el sistema creará dos productos numerados '1000' y '2000'.|
-|**Cód. variante**|El campo SKU no se usa en la rutina de asignación de artículos.|Sin efecto en la creación del elemento. Cuando se crea una variante de artículo, el valor del campo SKU se usa como código. Si el SKU está vacío, se genera un código usando el campo **Prefijo de variante**.|
-|**N.º artículo + Código de variante**|Seleccione esto si el campo SKU contiene un número de artículo y el código de variante del artículo se separa por el valor definido en el campo **Separador de campos SKU**.|Cuando se crea un artículo, la primera parte del valor del campo SKU se designa como **N.º**. Si el campo SKU está vacío, un número de artículo se genera utilizando las series numéricas definidas en el campo **Código de plantilla de artículo** o **Números de artículo** de la página **Configuración de inventario**.<br>Cuando se crea un artículo, la función variante usa la segunda del valor del campo SKU se usa como **Código**. Si el campo de SKU está vacío, se genera un código usando el campo **Prefijo de variante**.|
-|**N.º de artículo de proveedor**|Elíjalo si el campo SKU contiene el número de artículo de proveedor. En este caso, el **Número de proveedor de artículo** no se usa en la página **Tarjeta de artículo**; más bien se usa el **Número de artículo del proveedor** del **Catálogo de proveedores de artículos**. Si el registro encontrado de *Catálogo de proveedores de artículos* contiene un código de variante, este código se utiliza para mapear la variante de Shopify.|Si existe un proveedor correspondiente en [!INCLUDE[prod_short](../includes/prod_short.md)], el valor de SKU se usará como **Número de artículo del proveedor** en la página **Tarjeta de artículo** y como **Referencia del artículo** de tipo *proveedor*. <br>Impide la creación de variantes. Es útil cuando desea usar el artículo principal solo en el pedido de ventas. Todavía puodrá asignar una variante manualmente desde la página **Productos de Shopify**.|
-|**Código de barras**|Elíjalo si el campo SKU contiene un código de barras. Se realiza una búsqueda entre **Referencias de artículos** del tipo de *código de barras*. Si el registro encontrado de Referencia de artículo contiene un código de variante, este código de variante se utiliza para mapear la variante de Shopify.|Sin efecto en la creación del elemento. <br>Impide la creación de variantes. Es útil cuando desea usar el artículo principal solo en el pedido de ventas. Todavía puodrá asignar una variante manualmente desde la página **Productos de Shopify**.|
-
-En la tabla siguiente se describe los efectos del campo **Código de barras**.
-
-|Efecto en el mapeo|Efecto en la creación|
-|-----------------|------------------|
-|Se realiza una búsqueda en las **Referencias de artículos** que contienen un tipo de código de barras para el valor definido en el campo **Código de barras** en Shopify. Si el registro encontrado de Referencia de artículo contiene un código de variante, este código de variante se utiliza para mapear la variante de Shopify.|El código de barras se guarda como **Referencia del artículo** para el artículo y variante de artículo.|
-
-> [!NOTE]  
-> Puede desencadenar el mapeo del producto/variantes seleccionados o todos los productos importados no mapeados seleccionando **Intentar buscar mapeo de producto** o **Intentar buscar asignaciones**.
+|**UdM como variante**| Elija esta opción si desea que todas las unidades de medida de los artículos se exporten como variantes separadas. Agregar campo usando la personalización. Obtenga más información en la sección [Unidad de medida como variante](synchronize-items.md#unit-of-measure-as-variant).|
+|**Nombre de opción de variante para UdM**| Utilice este campo con **UM como variante** para especificar bajo qué opción agregar variantes que representen unidades de medida. El valor predeterminado es *Unidad de medida*. Agregar campo usando la personalización.|
 
 ## Exportar elementos a Shopify
 
@@ -101,6 +79,37 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 |**Inventario seguido**| Elija cómo el sistema debe llenar el campo **Seguimiento de inventario** para productos exportados a Shopify. Puede actualizar la información de disponibilidad desde [!INCLUDE[prod_short](../includes/prod_short.md)] para productos en Shopify cuyo inventario de seguimiento está habilitado. Obtenga más información en la sección [Inventario](synchronize-items.md#sync-inventory-to-shopify).|
 |**Directiva de inventario predeterminada**|Escoja *Denegar* para evitar existencias negativas en el lado de Shopify. <br>Si está habilitado **Puede actualizar productos Shopify**, los cambios en el campo **Directiva de inventario predeterminada** se propagan a Shopify después de la siguiente sincronización para todos los productos y variantes enumerados en la página **Productos de Shopify** de la tienda seleccionada.|
 |**Puede actualizar productos de Shopify**|Defina este campo si [!INCLUDE[prod_short](../includes/prod_short.md)] solo puede crear productos o también puede actualizar productos. Seleccione esta opción si, después de la sincronización inicial desencadenada por la acción **Agregar artículo**, planea actualizar los productos manualmente usando la acción **Sincronizar producto** o usando la cola de trabajos para actualizaciones periódicas. Recuerde seleccionar **A Shopify** en el campo **Sincronización de elementos**.<br>**Puede actualizar productos de Shopify** no tiene impacto en la sincronización de precios, imágenes o niveles de inventario, que se configuran mediante controles independientes.<br>Si **Puede actualizar productos de Shopify** está habilitada, los siguientes campos en el lado de Shopify se actualizarán en el producto y, si es necesario, en el nivel de variante: **SKU**, **Código de barras**, **Peso**. El **Título**, **Tipo de producto**, **Proveedor** y **Descripción** del producto también se actualizará si los valores exportados no están vacíos. Para la descripción, esto significa que debe habilitar cualquiera de las opciones y atributos **Sincronizar texto extendido del elemento**, **Sincronizar texto de marketing del elemento** y **Sincronizar atributos del elemento** y el texto ampliado o de marketing deben tener valores. Si el producto usa variantes, la variante se agrega o elimina si es necesario. <br>Si el producto en Shopify está configurado para usar una matriz de variantes que combina dos o más opciones, el conector Shopify no puede crear una variante para ese producto. En [!INCLUDE[prod_short](../includes/prod_short.md)] no hay forma de definir la matriz de opciones, por eso el conector utiliza el **Código de variante** como única opción. Sin embargo Shopify espera varias opciones y se niega a crear una variante si falta información sobre una segunda y otras opciones. |
+|**UdM como variante**| Elija esta opción si desea que algunas opciones se exporten como importadas como unidades de medida en lugar de variantes. Agregar campo usando personalización Obtenga más información en la sección [Unidad de medida como variante](synchronize-items.md#unit-of-measure-as-variant).|
+|**Nombre de opción de variante para UdM**| Utilice este campo con **UM como variante** para especificar qué contiene variantes que representen unidades de medida. El valor predeterminado es *Unidad de medida*. Agregar campo usando la personalización.|
+
+> [!NOTE]
+> Cuando desee exportar muchos artículos y variantes, es posible que algunos estén bloqueados. No puede incluir artículos bloqueados ni variantes en los cálculos de precios, por lo que no se exportan. El Conector omite esos elementos y variantes, por lo que no es necesario filtrarlos en la página de solicitud **Agregar elemento a Shopify**.
+
+## Detalles avanzados
+
+### Efecto los SKU y códigos de barras del producto de Shopify en el mapeo y la creación de artículos y variantes en Business Central
+
+Cuando los productos son importados desde Shopify a las tablas **Productos de Shopify** y **variantes de Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] intenta encontrar registros existentes.
+
+La siguiente tabla describe las diferencias entre las opciones del campo **Asignación de SKU**.
+
+|Opción|Efecto en el mapeo|Efecto en la creación|
+|------|-----------------|------------------|
+|**En blanco**|El campo SKU no se usa en la rutina de asignación de artículos.|Sin efecto en la creación del elemento.<br>Esta opción impide la creación de variantes. Cuando en el pedido de ventas, solo se usa el artículo principal. Una variante se sigue pudiendo mapear manualmente en la página **Productos de Shopify**.|
+|**Nº producto**|Elíjalo si el campo SKU contiene el número de artículo.|Sin efecto en la creación de un elemento sin variantes. Para un artículo con variantes, cada variante se crea como un artículo separado.<br>Si Shopify tiene un producto con dos variantes y sus SKU son '1000' y '2000', en [!INCLUDE[prod_short](../includes/prod_short.md)], el sistema creará dos productos numerados '1000' y '2000'.|
+|**Cód. variante**|El campo SKU no se usa en la rutina de asignación de artículos.|Sin efecto en la creación del elemento. Cuando se crea una variante de artículo, el valor del campo SKU se usa como código. Si el SKU está vacío, se genera un código usando el campo **Prefijo de variante**.|
+|**N.º artículo + Código de variante**|Seleccione esto si el campo SKU contiene un número de artículo y el código de variante del artículo se separa por el valor definido en el campo **Separador de campos SKU**.|Cuando se crea un artículo, la primera parte del valor del campo SKU se designa como **N.º**. Si el campo SKU está vacío, un número de artículo se genera utilizando las series numéricas definidas en el campo **Código de plantilla de artículo** o **Números de artículo** de la página **Configuración de inventario**.<br>Cuando se crea un artículo, la función variante usa la segunda del valor del campo SKU se usa como **Código**. Si el campo de SKU está vacío, se genera un código usando el campo **Prefijo de variante**.|
+|**N.º de artículo de proveedor**|Elíjalo si el campo SKU contiene el número de artículo de proveedor. En este caso, el **Número de proveedor de artículo** no se usa en la página **Tarjeta de artículo**; más bien se usa el **Número de artículo del proveedor** del **Catálogo de proveedores de artículos**. Si el registro encontrado de *Catálogo de proveedores de artículos* contiene un código de variante, este código se utiliza para mapear la variante de Shopify.|Si existe un proveedor correspondiente en [!INCLUDE[prod_short](../includes/prod_short.md)], el valor de SKU se usará como **Número de artículo del proveedor** en la página **Tarjeta de artículo** y como **Referencia del artículo** de tipo *proveedor*. <br>Impide la creación de variantes. Es útil cuando desea usar el artículo principal solo en el pedido de ventas. Todavía puodrá asignar una variante manualmente desde la página **Productos de Shopify**.|
+|**Código de barras**|Elíjalo si el campo SKU contiene un código de barras. Se realiza una búsqueda entre **Referencias de artículos** del tipo de *código de barras*. Si el registro encontrado de Referencia de artículo contiene un código de variante, este código de variante se utiliza para mapear la variante de Shopify.|Sin efecto en la creación del elemento. <br>Impide la creación de variantes. Es útil cuando desea usar el artículo principal solo en el pedido de ventas. Todavía puodrá asignar una variante manualmente desde la página **Productos de Shopify**.|
+
+En la tabla siguiente se describe los efectos del campo **Código de barras**.
+
+|Efecto en el mapeo|Efecto en la creación|
+|-----------------|------------------|
+|Se realiza una búsqueda en las **Referencias de artículos** que contienen un tipo de código de barras para el valor definido en el campo **Código de barras** en Shopify. Si el registro encontrado de Referencia de artículo contiene un código de variante, este código de variante se utiliza para mapear la variante de Shopify.|El código de barras se guarda como **Referencia del artículo** para el artículo y variante de artículo.|
+
+> [!NOTE]  
+> Puede desencadenar el mapeo del producto/variantes seleccionados o todos los productos importados no mapeados seleccionando **Intentar buscar mapeo de producto** o **Intentar buscar asignaciones**.
 
 ### Información general de asignaciones de campos
 
@@ -118,7 +127,7 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 |Coste por artículo|**Coste unitario**|**Coste unitario**. El coste unitario solo se importa a los artículos recién creados, y no se actualizará en sincronizaciones posteriores.|
 |UA|Infórmese sobre esto en **Asignación de SKU** en la sección [Exportar elementos a Shopify](synchronize-items.md#export-items-to-shopify).|Obtenga más información sobre esto en la sección [Efecto de los SKU y códigos de barras definidos del producto de Shopify en la asignación y la creación de artículos y variantes en Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Código de barras|**Referencias de artículos** de tipo código de barras.|**Referencias de artículos** de tipo código de barras.|
-|El inventario se almacenará en| Depende de Ubicaciones de las tiendas Shopify. Si **Business Central Fulfilment Services** tiene el campo **Predeterminado** habilitado, el inventario se almacena y se envía desde **Business Central Fulfilment Services**. De lo contrario, se usa la ubicación principal de Shopify o varias ubicaciones.| No utilizado.|
+|El inventario se almacenará en| Depende de Ubicaciones de las tiendas Shopify. Si **Business Central Fulfilment Services** tiene el campo **Ubicación de producto predeterminada** habilitado, el inventario se almacena y se envía desde **Business Central Fulfilment Services**. De lo contrario, se usa la ubicación principal de Shopify o varias ubicaciones. Obtenga más información en [Dos enfoques para gestionar los cumplimientos](synchronize-items.md#two-approaches-to-manage-fulfillments)| No utilizado.|
 |Seguimiento de cantidad|De acuerdo con el campo **Inventario seguido** en la página **Tarjeta de tienda de Shopify**. Obtenga más información en la sección [Inventario](synchronize-items.md#sync-inventory-to-shopify). Solo se usa cuando exporta un producto por primera vez.|No utilizado.|
 |Continuar vendiendo cuando no haya existencias|De acuerdo con la **Directiva de inventario predeterminada** en la **Tarjeta de tienda de Shopify**.|No utilizado.|
 |Tipo|**Descripción** de **Código de categoría de artículos**. Si el tipo no está especificado en Shopify, se agrega como un tipo personalizado.|**Código de categoría de artículos**. Mapeo por descripción.|
@@ -132,6 +141,23 @@ Las siguientes configuraciones le permiten administrar el proceso de exportar ar
 
 Revise las etiquetas importadas en el cuadro informativo **Etiquetas** en la página **Producto de Shopify**. En la misma página, para editar etiquetas, seleccione la acción **Etiquetas**.
 Si la opción **A Shopify** está seleccionada en el campo **Artículo de sincronización**, las etiquetas asignadas se exportan a Shopify en la próxima sincronización.
+
+### Unidad de medida como variante
+
+Shopify no admite múltiples unidades de medida. Si desea vender el mismo producto como, por ejemplo, pieza y establecer y utilizar diferentes precios o descuentos, debe crear unidades de medida como variantes del producto.
+El conector Shopify se puede configurar para exportar unidades de medida como variantes o importar variantes como unidad de medida.
+
+Para habilitar esta capacidad, utilice los campos **UMO como variante** y **Nombre de opción de variante** en la **Tarjeta de compra Shopify**. Los campos están ocultos de forma predeterminada; utilice la personalización para agregarlos a la página.
+
+**Unidad de medida como comentarios de variante**
+
+* Cuando el producto se importa a [!INCLUDE[prod_short](../includes/prod_short.md)], el conector creará unidades de medida. Necesitará actualizar **Cant. por unidad de medida**.
+* Cuando se trata de una matriz de variantes, por ejemplo Color y UM, y desea importar productos, debe configurar *N.º de artículo + Código de variante* en el campo **Asignación de SKU** y asegúrese de que el campo **SKU** en Shopify tenga el mismo valor para todas las unidades de medida e incluya número de artículo y código de variante.
+* En [!INCLUDE[prod_short](../includes/prod_short.md)] la disponibilidad se calcula por artículo/variante de artículo y no por unidad de medida. Significa que se asignará la misma disponibilidad a cada variante que represente la unidad de medida (con respecto a **Cantidad por unidad de medida**), lo que puede llevar a casos en que la cantidad disponible en Shopify no es exacto. Ejemplo: Artículo que se vende en PCS y Caja de 6. El inventario en [!INCLUDE[prod_short](../includes/prod_short.md)] es de 6 unidades. Artículo exportado a Shopify como Producto con dos variantes. Una vez ejecutada la sincronización del inventario, el nivel de inventario en Shopify será 6 para la variante unidades y 1 para la variante caja. El comprador puede explorar solo la tienda y ver que el producto está disponible en ambas opciones y realizar el pedido por 1 CAJA. El próximo comprador verá que CAJA no está disponible, pero todavía quedan 6 UNIDADES. Esto se solucionará en la próxima sincronización del inventario.
+
+### URL y URL de vista previa
+
+Un producto añadido a Shopify o importado de Shopify podría tener la **URL** o **URL de vista previa** previamente rellenas. El campo **URL** estará vacío si el producto no se publica en la tienda en línea, por ejemplo porque su estado es borrador. La **URL** estará vacía si el almacén está protegido con contraseña, por ejemplo, porque se trata de un almacén de desarrollo. En la mayoría de los casos, puede utilizar **URL de vista previa** para comprobar cómo se verá el producto una vez publicado.
 
 ## Ejecutar sincronización de artículos
 
@@ -162,10 +188,6 @@ Alternativamente, puede sincronizar un producto eligiendo la acción **Agregar a
 Como alternativa, utilice la acción **Sincronizar productos** en la página **Productos de Shopify** o busque el trabajo por lotes **Sincronizar productos**.
 
 Puede programar la tarea para que se realice de forma automatizada. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
-
-### URL y URL de vista previa
-
-Un producto añadido a Shopify o importado de Shopify podría tener la **URL** o **URL de vista previa** previamente rellenas. El campo **URL** estará vacío si el producto no se publica en la tienda en línea, por ejemplo porque su estado es borrador. La **URL** estará vacía si el almacén está protegido con contraseña, por ejemplo, porque se trata de un almacén de desarrollo. En la mayoría de los casos, puede utilizar **URL de vista previa** para comprobar cómo se verá el producto una vez publicado.
 
 ### Actualizaciones ad hoc de productos de Shopify
 
@@ -253,8 +275,7 @@ La sincronización de inventario se puede configurar para elementos ya sincroniz
 4. Elija la acción **Obtener ubicaciones de Shopify** para importar todas las ubicaciones definidas en Shopify. Puede encontrarlas en la configuración de [**Ubicaciones**](https://www.shopify.com/admin/settings/locations) del **Administrador de Shopify**.
 5. En el campo **Filtro de ubicación**, agregue ubicaciones si desea incluir inventario solo de ubicaciones específicas. Por lo tanto, podría introducir *ESTE|OESTE* para que el inventario solo de estas dos ubicaciones esté disponible para la venta a través de la tienda en línea.
 6. Seleccione el método de cálculo de existencias que se usará para las ubicaciones seleccionadas de Shopify.
-7. Habilite **Predeterminado** si desea que la ubicación se utilice para la creación de registros de inventario y participe en la sincronización del inventario. Active **Predeterminado** para **Servicios de cumplimiento de Business Central** para crear un registro de inventario que represente el servicio de cumplimiento; de lo contrario, se creará un registro de inventario para ubicación principal de Shopify y todas las ubicaciones normales donde **Predeterminado** está activado.
-
+7. Habilite **Ubicación de producto predeterminada** si desea que la ubicación se utilice para la creación de registros de inventario y participe en la sincronización del inventario. 
 
 La sincronización de inventarios se puede inicializar de las dos maneras que se describen a continuación.
 
@@ -271,7 +292,7 @@ La sincronización de inventarios se puede inicializar de las dos maneras que se
 
 ### Consideraciones sobre inventarios
 
-* El método estándar de cálculo de existencias es **Saldo disponible proyectado en la fecha**. Con la extensibilidad, puede agregar más opciones. Para obtener más información sobre la extensibilidad, vaya a los [ejemplos](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
+* Hay dos métodos estándar de cálculo de existencias: **Saldo disponible proyectado en la fecha** e **Inventario libre (no reservado)**. Con la extensibilidad, puede agregar más opciones. Para obtener más información sobre la extensibilidad, vaya a los [ejemplos](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * Puede consultar la información de existencias recibida de Shopify en la página **Cuadro informativo de inventario de Shopify**. En este cuadro informativo, obtendrá una descripción general de las existencias de Shopify y el último inventario calculado en [!INCLUDE[prod_short](../includes/prod_short.md)]. Hay un registro por ubicación.
 * Si la información de existencias en Shopify es diferente de **Saldo disponible proyectado** en [!INCLUDE[prod_short](../includes/prod_short.md)], entonces las existencias se actualizarán en Shopify.
 * Cuando agrega una nueva ubicación en Shopify, también necesita agregar registros de inventario para ella. Shopify no lo hace automáticamente para los productos y variantes existentes y el conector no sincronizará los niveles de inventario para dichos productos en la nueva ubicación. Para obtener más información, vaya a [Asignación de inventario a ubicaciones](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
@@ -285,6 +306,51 @@ Hay 10 piezas del artículo A disponibles y dos órdenes de venta pendientes. Un
 |------|-----------------|-----------------|
 |Martes|9|Inventario 10 menos pedido de venta programado para enviarse el lunes|
 |Viernes|7|Inventario 10 menos ambas órdenes de venta|
+
+### Dos enfoques para gestionar los cumplimientos
+
+Hay dos formas de abordar el cumplimiento en Shopify:
+* Cumplimiento y seguimiento de inventario de Shopify "integrados"
+* Cumplimiento y seguimiento de inventario de terceros
+
+El inventario de cada producto en Shopify puede ser almacenado por Shopify o por 3PL.
+
+Si utiliza cumplimiento de Shopify, también puede definir varias ubicaciones en Shopify. Una vez creado el pedido, Shopify selecciona la ubicación según la disponibilidad y la prioridad. También puede especificar en qué ubicaciones planea realizar un seguimiento de un producto específico, por ejemplo, nunca vender desde la ubicación *ShowRoom*.
+
+Si utiliza 3PL, el proveedor 3PL se encarga de la gestión física, por lo que no se necesitan ubicaciones. Para 3PL el campo SKU se vuelve obligatorio.
+
+Cuando decide en qué ubicación realizar el seguimiento del artículo, Shopify crea registros en la tabla **Niveles de inventario** , que se pueden actualizar manualmente con la disponibilidad del inventario.
+
+El conector admite ambos modos. Puede enviar inventario a múltiples ubicaciones de Shopify o funcionar como servicio de cumplimiento.
+
+Desde la perspectiva [!INCLUDE[prod_short](../includes/prod_short.md)] cuando crea un artículo y quiere enviarlo a Shopify también desea:
+* usar la opción **Ubicación predeterminada del producto** para especificar si este artículo será cumplido por cumplimiento de Shopify o por 3PL. Siempre hay **Servicio de cumplimiento de Business Central**, pero puede haber más servicios de cumplimiento si se instalan más aplicaciones. Puede habilitar **Ubicación predeterminada del producto** solo en un registro si desea utilizar el servicio de cumplimiento. 
+* use la opción **Ubicación predeterminada del producto** para especificar qué ubicaciones desea usar para realizar un seguimiento del inventario. Puede activar la **Ubicación predeterminada del producto** para varias ubicaciones donde **El servicio de cumplimiento** está deshabilitado. Tenga en cuenta que siempre se realizará un seguimiento del inventario para su ubicación principal. 
+ 
+#### ¿Cuál es la diferencia?
+
+El cumplimiento de Shopify es útil cuando se utiliza Shopify PDV y existen múltiples tiendas físicas. Quiere que el empleado de la tienda física conozca su inventario actual. En este caso, crea varias ubicaciones en Shopify, múltiples ubicaciones en [!INCLUDE[prod_short](../includes/prod_short.md)], activando **Ubicación predeterminada del producto** para todas estas ubicaciones.  
+
+Si la logística se gestiona en [!INCLUDE[prod_short](../includes/prod_short.md)] donde puede tener tantas ubicaciones como sea necesario representando centros de distribución, no crea ubicaciones en Shopify, el conector Shopify crea automáticamente los servicios de cumplimiento de Business Central y puede vincular el inventario mediante filtros de ubicación desde varias ubicaciones a un registro de servicios de cumplimiento. Como resultado en Shopify no hay información sobre desde dónde se envían los productos, solo tiene información sobre el seguimiento. Mientras en [!INCLUDE[prod_short](../includes/prod_short.md)] puede seleccionar según disponibilidad y cercanía al destino. 
+
+#### Ejemplo de uso del conmutador de ubicación predeterminada del producto
+
+Después de elegir la acción **Obtener ubicaciones de Shopify** en la página **Ubicaciones de Shopify** verá las siguientes ubicaciones:
+
+|Nombre|Es servicio de proceso de entrega|Es principal|
+|------|-----------------|-----------------|
+|Principal| |**Sí**|
+|Segundo| | |
+|Servicio de cumplimiento de Business Central|**Sí**| |
+
+Repasemos el impacto de habilitar la opción de ubicación predeterminada del producto:
+
+|Nombre de las ubicaciones donde está activada la opción Ubicación predeterminada del producto|Impacto en cómo se crea el producto en Shopify|
+|------|-----------------|
+|Principal| El inventario se almacenará en: Múltiples ubicaciones; Ubicaciones seleccionadas: Principal (primaria) |
+|Principal y Segundo| El inventario se almacenará en: Múltiples ubicaciones; Ubicaciones seleccionadas: Principal y segunda |
+|Servicio de cumplimiento de Business Central|El inventario se almacenará en: Servicio de cumplimiento de Business Central; Ubicaciones seleccionadas: (Aplicación) Servicio de cumplimiento de Business Central|
+|Servicio de cumplimiento de Business Central y principal| Error: No puede usar almacenes de Shopify estándar con almacenes de servicio de proceso de entrega|
 
 ## Consulte también
 

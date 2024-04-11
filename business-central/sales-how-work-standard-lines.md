@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, sell, replenishment'
 ms.search.form: 172
-ms.date: 07/06/2022
+ms.date: 02/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -52,7 +52,7 @@ Asigne una o varias líneas de ventas periódicas a un cliente para que estén d
 
 Si existen líneas de ventas periódicas para el cliente, puede insertarlas, o hacer que se inserten, en todos los tipos de documentos de ventas, como una factura de ventas. Si ha activado las opciones de **Preguntar siempre** al asignar líneas de ventas periódicas a los clientes, se le informará de si existen líneas de ventas periódicas.
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.
 2. Abra la factura de ventas en la que desee insertar una o varias líneas de ventas estándar.
 3. Elija la acción **Obtener líneas de venta periódicas**.
 4. En la página **Líneas de ventas periódicas**, elija el botón de búsqueda en el campo **Código** y seleccione un conjunto de líneas de ventas estándar.

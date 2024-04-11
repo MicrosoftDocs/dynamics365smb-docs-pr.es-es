@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Configuración de la consolidación de empresas
+# Configurar la consolidación de empresa
 
 Para poder consolidar los movimientos de contabilidad de dos o más empresas (subsidiarias) en una empresa consolidada, debe preparar los planes de cuentas y la empresa de consolidación.  
 
@@ -75,6 +75,19 @@ Una gran parte de la configuración de la unidad de negocios es especificar cóm
 > [!NOTE]
 > La opción API también le permite compartir asientos del libro mayor de otros entornos [!INCLUDE [prod_short](includes/prod_short.md)]. Para utilizar la opción API, el usuario que configura la consolidación debe tener permiso para acceder a las entradas del L/M. Por ejemplo, los conjuntos de permisos D365 Basic y D365 Read brindan acceso.
 
+#### Configurar divisas de unidad de negocio
+
+Cuando ejecuta la consolidación para unidades de negocio que utilizan una divisa extranjera, debe prestar especial atención a los tipos de cambio que utilizan varias partes del proceso, y más aún cuando vuelve a ejecutar la consolidación. Para hacerlo, utilice la página **Configurar divisas de unidad de negocio** para realizar un seguimiento fácil de los tipos.
+
+La página **Configurar divisas de unidad de negocio** le brinda las últimas tasas para la tasa promedio, de cierre y de último cierre. Puede consultar los tipos de cambio en la tabla de tipos de cambio de divisas, lo que facilita la validación de los tipos. Puede cambiar los tipos de la ejecución actual ingresando los valores o copiándolos de ejecuciones anteriores. Para copiar tipos, elija **Seleccionar de las consolidaciones anteriores**. Esta página es particularmente valiosa cuando desea volver a ejecutar una consolidación anterior, donde necesita utilizar un tipo de cambio al cierre anterior. Esto es necesario para revalorizar correctamente las partidas de su saldo. La página **Seleccionar de la consolidación anterior** también es útil si solo desea ver las tarifas que se utilizaron, por ejemplo, al solucionar problemas. La página se filtra por ejecuciones que incluyen la unidad de negocio seleccionada.
+
+El trabajo por lotes **Ejecutar consolidación** se inicia desde la página de lista **Unidades de negocio**. También puede encontrar la página **Configurar divisas de unidad de negocio** eligiendo la acción **Tipos de cambio** .
+
+> [!NOTE]
+> Las páginas de configuración de tipos de cambio para promedio, cierre y último tipo al cierre que están actualmente disponibles en la tarjeta **Unidad de Negocio** quedarán obsoletas en una versión futura. Sin embargo, aún puede mantener estos tipos si tiene unidades de negocio que importa a través de archivos.
+
+#### Crear una unidad de negocio
+
 1. Inicie sesión en la empresa consolidada.
 2. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de negocio** y luego elija el enlace relacionado.  
 3. Elija **Nuevo** y, a continuación, rellene los campos necesarios de las fichas desplegables **General** y **Cuentas de L/M**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -100,7 +113,7 @@ Si el plan de cuentas de la unidad de negocio difiere de la empresa consolidada,
 
 ### <a name="exchrates"></a>Especificar los tipos de cambio para consolidaciones
 
-Si una unidad de negocio utiliza una divisa diferente de la empresa consolidada, debe especificar los métodos del tipo de cambio para cada cuenta antes de que se consolide. Para cada cuenta, el contenido del campo **Método de traducción Consol.** determina el tipo de cambio. En la empresa consolidada, en cada ficha de unidad de negocio, en el campo **Tabla de tipo de cambio de divisa** debe especificar si la consolidación usará tipos de cambio de la empresa o de la empresa consolidada. Si utiliza tipos de cambio de la empresa consolidada, puede cambiar los tipos de cambios para una empresa. Para las unidades de negocio, el campo **Tabla de tipo de cambio de divisas** de la ficha de la unidad de negocio contiene **Local**, puede cambiar el tipo de cambio para la ficha de la unidad de negocio. Los tipos de cambio se copian desde la tabla **Tipo cambio divisa**, pero puede cambiarlos antes de la consolidación.
+Si una unidad de negocio utiliza una divisa diferente de la empresa consolidada, debe especificar los métodos del tipo de cambio para cada cuenta antes de que se consolide. Para cada cuenta, el contenido del campo **Método de traducción Consol.** determina el tipo de cambio. En la empresa consolidada, en cada ficha de unidad de negocio, en el campo **Tabla de tipo de cambio de divisa** debe especificar si la consolidación usa tipos de cambio de la empresa o de la empresa consolidada. Si utiliza tipos de cambio de la empresa consolidada, puede cambiar los tipos de cambios para una empresa. Para las unidades de negocio, el campo **Tabla de tipo de cambio de divisas** de la ficha de la unidad de negocio contiene **Local**, puede cambiar el tipo de cambio para la ficha de la unidad de negocio. Los tipos de cambio se copian desde la tabla **Tipo cambio divisa**, pero puede cambiarlos antes de la consolidación.
 
 En la tabla siguiente se describen los métodos del tipo de cambio que puede utilizar para las cuentas.
 
@@ -113,13 +126,11 @@ En la tabla siguiente se describen los métodos del tipo de cambio que puede uti
 |Tipo de cambio compuesto | Los importes del periodo actual se traducen con el tipo de cambio medio y se agregan al saldo anteriormente registrado en la empresa consolidada. Normalmente utiliza este método para cuentas de ganancias retenidas. Esas cuentas incluyen cantidades de diferentes períodos, por lo que contienen cantidades convertidas con diferentes tipos de cambio.|
 |Tasa de participación | Esta opción es similar a **Compuesto**. Las diferencias se registran para separar cuentas de libro mayor.|
 
-Para especificar los tipos de cambio para las unidades de negocio, realice los pasos siguientes:
+Para especificar los tipos de cambio para una unidad de negocio, realice los pasos siguientes:
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de negocio** y luego elija el enlace relacionado.  
-2. En la página **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipo de cambio medio (manual)**.  
-3. En la página **Modificar tipo de cambio**, el contenido del campo **Tipo de cambio relacionado** se ha copiado de la tabla **Tipo de cambio de divisa**, pero se puede modificar. Cierre la página.  
-4. Seleccione la acción **Tipo de cambio al cierre**.  
-5. En el campo **Cantidad del tipo de cambio relacionado**, introduzca el tipo de cambio.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de negocio** y luego elija el enlace relacionado.  
+2. En la página **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipos de cambio**.  
+3. En la página **Configurar divisas de unidad de negocio**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Incluir o excluir dimensiones
 

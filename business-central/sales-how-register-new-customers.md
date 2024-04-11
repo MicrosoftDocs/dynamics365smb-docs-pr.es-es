@@ -2,20 +2,20 @@
 title: Registrar a nuevos clientes creando una ficha cliente (contiene vídeo)
 description: Describe cómo crear una ficha de cliente para registrar información acerca de cada cliente nuevo o existente a los que venda productos.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registrar nuevos clientes
 
 Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien venda como ficha de cliente. Las fichas de cliente contienen la información necesaria para vender productos al cliente. Obtenga más información en [Facturar ventas](sales-how-invoice-sales.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
 Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de ventas para seleccionar al rellenar fichas de cliente. Obtenga más información en [Configurar ventas](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ Puede elegir no recibir avisos cuando se supere el límite de crédito del clien
     |**Límite de crédito**|El valor del campo **Límite de crédito** de la ficha de cliente se compara con el saldo del cliente y se muestra un aviso si dicho saldo supera este importe.|
     |**Deuda vencida**|Se comprueba el campo **Saldo vencido** de la ficha cliente y aparece una advertencia si el cliente tiene una deuda vencida.|
     |**Ninguno**|No se muestra ninguna advertencia acerca del estado del cliente.|
+
+## Asignar un vendedor
+
+Puede asignar vendedores a la dirección de envío del cliente en lugar de a su dirección de facturación para que sus informes de ventas reflejen la verdadera distribución geográfica de sus ventas. Asignar un vendedor a la dirección de envío de un cliente le proporciona información más precisa y optimiza la asignación de recursos.
+
+Asigne un vendedor en la página de la tarjeta **Cliente** eligiendo **Cliente**, y luego **Direcciones de envío** para abrir la página **Lista de direcciones de envío**. Elija **Administrar**, y después **Editar** para abrir la página de la tarjeta **Dirección de envío**. Introduzca o elija un **Código de vendedor** para seleccionar al vendedor.
+
+Cuando elige la opción **Dirección de envío alternativa** como ubicación **Enviar a** en un documento de ventas, el **Código de vendedor** se actualiza para coincidir con el vendedor de **Enviar a** en lugar de la dirección **Facturar a**. 
 
 ## Consulte también
 

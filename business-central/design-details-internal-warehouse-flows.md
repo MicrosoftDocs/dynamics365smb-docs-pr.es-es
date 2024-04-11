@@ -11,20 +11,20 @@ ms.custom: bap-template
 ---
 # Flujos para producción, ensamblaje y proyectos
 
-Los flujos internos, como la selección de componentes y el almacenamiento de artículos finales para ensamblaje, trabajos y órdenes de producción, son similares a los flujos de entrada o salida. Por lo tanto, muchos de los procesos pueden parecer familiares. Este artículo proporciona información sobre cómo trabajar con flujos de almacén internos con varios niveles de complejidad.
+Los flujos internos, como la selección de componentes y el almacenamiento de artículos finales para ensamblaje, proyectos y órdenes de producción, son similares a los flujos de entrada o salida. Por lo tanto, muchos de los procesos pueden parecer familiares. Este artículo proporciona información sobre cómo trabajar con flujos de almacén internos con varios niveles de complejidad.
 
 ## Descripción general de las diferentes opciones de configuración
 
-Puede configurar funciones de almacén de varias formas. Es importante que las opciones que elija mejoren sus procesos sin causar gastos generales. Las siguientes tablas describen configuraciones típicas para tratar con bienes físicos para producción, trabajos y órdenes de ensamblaje.
+Puede configurar funciones de almacén de varias formas. Es importante que las opciones que elija mejoren sus procesos sin causar gastos generales. Las siguientes tablas describen configuraciones típicas para tratar con bienes físicos para producción, proyectos y órdenes de ensamblaje.
 
 ### Flujo de entrada (ubicación)
 
 |Nivel de complejidad|Descripción|Configuración|Cód. ubicación|Flujo de entrada de la orden de producción|Flujo de entrada de la orden de ensamblaje|Flujo de entrada de proyectos|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|No hay ninguna actividad de almacén dedicada.|Registrar desde pedidos y diarios||Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Diario de producción -> Diario de salida</br><br/> **NOTA**: puede publicar la salida usando **Diario de producción**.|Pedido de ensamblado|La ubicación no se aplica a los trabajos|  
-|Básico|Pedido por pedido.|Requerir almacenamiento. </br><br/> **NOTA**: Aunque la configuración se llama **Requerir ubicación**, aún puede publicar la salida de los documentos de origen en las ubicaciones donde seleccione esta casilla de verificación. |Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Orden de producción -> Ubicación de inventario|Pedido de ensamblado|La ubicación no se aplica a los trabajos|
-|Avanzado|Actividades de ubicación consolidadas para múltiples documentos de origen.|Requerir recepción + Requerir ubicación|Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Orden de producción -> Diario de salida|Órdenes de montaje -> movimientos internos | La ubicación no se aplica a los trabajos|
-|Avanzado|Igual que arriba + Actividades de selección/ubicación dirigidas|Selección y ubicación dirigidas (los conmutadores dependientes se habilitarán automáticamente)|Obligatorio|Igual que en el caso anterior|Igual que en el caso anterior| La ubicación no se aplica a los trabajos|
+|No hay ninguna actividad de almacén dedicada.|Registrar desde pedidos y diarios||Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Diario de producción -> Diario de salida</br><br/> **NOTA**: puede publicar la salida usando **Diario de producción**.|Pedido de ensamblado|La ubicación no se aplica a los proyectos|  
+|Básico|Pedido por pedido.|Requerir almacenamiento. </br><br/> **NOTA**: Aunque la configuración se llama **Requerir ubicación**, aún puede publicar la salida de los documentos de origen en las ubicaciones donde seleccione esta casilla de verificación. |Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Orden de producción -> Ubicación de inventario|Pedido de ensamblado|La ubicación no se aplica a los proyectos|
+|Avanzada|Actividades de ubicación consolidadas para múltiples documentos de origen.|Requerir recepción + Requerir ubicación|Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Orden de producción -> Diario de salida|Órdenes de montaje -> movimientos internos | La ubicación no se aplica a los proyectos|
+|Avanzada|Igual que arriba + Actividades de selección/ubicación dirigidas|Selección y ubicación dirigidas (los conmutadores dependientes se habilitarán automáticamente)|Obligatorio|Igual que en el caso anterior|Igual que en el caso anterior| La ubicación no se aplica a los proyectos|
 
 Algunas configuraciones no le permiten usar documentos de almacén dedicados para registrar ubicaciones. Sin embargo, si su ubicación usa contenedores, puede usar documentos de movimiento genéricos para mover artículos producidos o ensamblados al almacén. Obtener más información en [Mover productos internamente en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
@@ -33,9 +33,9 @@ Algunas configuraciones no le permiten usar documentos de almacén dedicados par
 |Nivel de complejidad|Descripción|Configuración|Cód. ubicación|Flujo de salida de la orden de producción|Flujo de salida de la orden de ensamblaje|Flujo de salida de proyectos|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |No hay ninguna actividad de almacén dedicada.|Registrar desde pedidos y diarios||Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Diario de producción -> Diario de consumo </br><br/> **NOTA**: puede registrar el consumo usando un **Diario de producción**.|Pedido de ensamblado|Proyecto -> Diario de proyecto|  
-|Básico|Pedido por pedido.|Picking requerido. </br><br/> **NOTA**: Aunque la configuración se llama **Picking requerido**, aún puede publicar la salida de los documentos de origen en las ubicaciones donde seleccione esta casilla de verificación. <!-- ToDo Test prod output-->|Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Pedido de producción -> Picking de inventario|Orden de montaje -> movimiento de inventario</br><br/>El **Movimiento de inventario** solo se puede usar con ubicaciones.|Proyecto -> Picking de inventario|
-|Avanzado|Actividades de picking consolidadas para múltiples documentos de origen.|Requerir envío + Requerir picking|Opcional. Controlado por el control de alternancia Código Bin es Obligatorio|Órdenes de producción -> Picking de almacén -> Diario de consumo |Órdenes de montaje -> Selección de almacén| Proyectos -> Picking de almacén -> Diario de proyectos |
-|Avanzado|Igual que arriba + Actividades de selección/ubicación dirigidas|Selección y ubicación dirigidas (los conmutadores dependientes se habilitarán automáticamente)|Obligatorio|Igual que en el caso anterior|Igual que en el caso anterior| La ubicación y el picking directo no es compatible con los proyectos|
+|Básico|Pedido por pedido.|Picking requerido. </br><br/> **NOTA**: Aunque la configuración se llama **Picking requerido**, aún puede publicar la salida de los documentos de origen en las ubicaciones donde seleccione esta casilla de verificación. <!-- ToDo Test prod output-->|Opcional. Controlado por el control de alternancia **Código Bin es Obligatorio**.|Pedido de producción -> Picking de inventario|Orden de montaje -> movimiento de inventario</br><br/>El **Movimiento de inventario** solo se puede usar con ubicaciones.|Proyecto - > Picking inventario|
+|Avanzada|Actividades de picking consolidadas para múltiples documentos de origen.|Requerir envío + Requerir picking|Opcional. Controlado por el control de alternancia Código Bin es Obligatorio|Órdenes de producción -> Picking de almacén -> Diario de consumo |Órdenes de montaje -> Selección de almacén| Proyecto(s) -> Picking de almacén -> Diario de proyectos |
+|Avanzada|Igual que arriba + Actividades de selección/ubicación dirigidas|Selección y ubicación dirigidas (los conmutadores dependientes se habilitarán automáticamente)|Obligatorio|Igual que en el caso anterior|Igual que en el caso anterior| La ubicación y el picking directo no es compatible con los proyectos|
 
 De manera similar al flujo de entrada, algunas configuraciones no le permiten usar documentos de almacén dedicados para registrar ubicaciones. Si su ubicación usa contenedores, puede usar documentos de movimiento genéricos para mover artículos producidos o ensamblados. Obtenga más información en [Mover productos](warehouse-move-items.md).
 
@@ -44,7 +44,7 @@ De manera similar al flujo de entrada, algunas configuraciones no le permiten us
 Incluso si no tiene actividades de almacén dedicadas, probablemente aún desee realizar un seguimiento de cosas como el consumo y la producción. Los siguientes artículos proporcionan información sobre cómo procesar recibos para documentos de origen.
 
 * [Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md)
-* [Ensamblar artículos](assembly-how-to-assemble-items.md)
+* [Ensamblar productos](assembly-how-to-assemble-items.md)
 * [Registrar el consumo o uso para proyectos](projects-how-record-job-usage.md)
 
 ## Configuración básica de almacén
@@ -85,7 +85,7 @@ Para almacenes que usan ubicaciones:
 
 Utilice documentos de **Picking de inventario** para seleccionar componentes de proyecto en el flujo a la administración de proyectos.
 
-Para una ubicación que utiliza contenedores, el campo **Código de contenedor al trabajo** en la ubicación define los flujos predeterminados para la gestión de proyectos.
+Para una ubicación que utiliza contenedores, el campo **Código de contenedor al proyecto** en la ubicación define los flujos predeterminados para la gestión de proyectos.
 
 ## Configuración avanzada de almacén  
 

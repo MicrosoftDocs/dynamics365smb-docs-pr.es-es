@@ -1,15 +1,15 @@
 ---
-title: Trabajar con pedidos abiertos de venta o pedidos de compra
+title: Trabajar con pedidos de venta abiertos o pedidos de compra
 description: Utilice los pedidos abiertos cuando un cliente ha acordado comprar grandes cantidades que se van a entregar en varios envíos más pequeños durante un periodo de tiempo determinado. Lo mismo se aplica a las compras.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Trabajar con pedidos abiertos de venta o pedidos abiertos de compra
+# Trabajar con pedidos de venta abiertos o pedidos abiertos de compra
 
 Los pedidos abiertos de venta constituyen un marco de trabajo para establecer un acuerdo a largo plazo con un cliente. De manera similar, utilice pedidos abiertos de compra para administrar contratos a largo plazo entre usted y su proveedor.
 

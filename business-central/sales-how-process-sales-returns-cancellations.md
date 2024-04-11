@@ -1,18 +1,18 @@
 ---
-title: Procesamiento de devoluciones de ventas o cancelaciones
+title: Procesar devoluciones de ventas o cancelaciones
 description: 'Describe cómo crear un abono de venta para procesar una devolución, una cancelación o un reembolso de productos o servicios de los que ha recibido el pago.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Procesamiento de devoluciones de ventas o cancelaciones
+# Procesar devoluciones de ventas o cancelaciones
 
-Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una abono de ventas que especifique el cambio requerido. Para incluir la información correcta de la factura de venta, puede hacer lo siguiente:  
+Si un cliente desea devolver u obtener un reembolso de algún producto o servicio que usted ha vendido y que le han pagado, debe crear y registrar una abono de ventas que especifique el cambio requerido. Para incluir la información correcta de la factura de venta, puede hacer las tareas siguientes:  
 
 - Crear una nota de abono de venta directamente desde un histórico de facturas de venta.
 - Cree una nueva nota de abono de ventas con la información de la factura copiada.

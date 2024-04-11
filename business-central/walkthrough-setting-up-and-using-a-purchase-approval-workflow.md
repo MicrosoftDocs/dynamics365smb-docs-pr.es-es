@@ -1,15 +1,15 @@
 ---
-title: Configuración y uso de un flujo de trabajo de aprobación de compra
+title: Configurar y usar un flujo de trabajo de aprobación de compra
 description: Este tutorial lo lleva a través de todas las etapas involucradas en la configuración y el uso de un flujo de trabajo de aprobación de compras en Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/13/2022
+ms.date: 03/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tutorial: Configuración y uso de un flujo de trabajo de aprobación de compra
+# Tutorial: Configurar y usar un flujo de trabajo de aprobación de compra
 
 Puede automatizar el proceso de aprobar nuevos registros o registros modificados, como documentos, líneas de diario y fichas cliente, creando flujos de trabajo con pasos para las aprobaciones en cuestión.
 
@@ -71,7 +71,7 @@ En este tutorial, el usuario recibe una notificación mediante una nota interna 
 4. En la página **Configuración de notificación**, seleccione la acción **Programación de notificación**.  
 5. En la página **Programación de notificación**, del campo **Periodicidad**, seleccione **Inmediatamente**.  
 
-## Creación del flujo de aprobación
+## Crear el flujo de trabajo de aprobación
 
 Cree el flujo de aprobación de pedido de compra copiando los pasos de la plantilla **Flujo de trabajo de aprobación de pedido de compra**. Deje los pasos de flujo de trabajo existentes sin cambiar y, a continuación, active el flujo de trabajo.  
 

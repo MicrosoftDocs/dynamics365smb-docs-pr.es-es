@@ -1,8 +1,8 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-Puede configurar un número ilimitado de términos de recordatorio. Cada conjunto de términos está identificado por un código. Cada recordatorio tiene niveles de recordatorio predefinidos. Cada nivel de recordatorio incluye reglas acerca de cuándo se debe emitir el recordatorio, por ejemplo, los días transcurridos desde la fecha de vencimiento de la factura o la fecha del recordatorio anterior.
+Para administrar cuentas por cobrar debe configurar términos de recordatorio y asignarlos a sus clientes. Los términos de recordatorio le permiten controlar cómo funciona el proceso de recordatorio. Cada recordatorio tiene una serie de niveles de recordatorio que define. Los niveles de recordatorio incluyen reglas sobre cuándo se emitirá el recordatorio, qué tarifas cobrar y si se deben calcular los intereses. Los niveles de recordatorio también incluyen una configuración de período de gracia que garantiza que no envíe un recordatorio de una factura que un cliente ya pagó.

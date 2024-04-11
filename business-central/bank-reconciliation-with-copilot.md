@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Conciliar cuentas bancarias con Copilot (versión preliminar)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 Este artículo explica cómo utilizar la asistencia de conciliación de cuentas bancarias para ayudarle a conciliar transacciones bancarias con asientos contables en Business Central.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Acerca de la asistencia de conciliación de cuentas bancarias
 
@@ -25,7 +27,7 @@ La asistencia para la conciliación de cuentas bancarias es un conjunto de funci
 - Cotejo mejorado de transacciones con asientos del libro mayor
 
    Es posible que ya esté familiarizado con la acción **Coincidir automáticamente** en **Cuenta bancaria. Página de conciliación** que relaciona automáticamente la mayoría de las transacciones bancarias con los asientos del libro mayor. Nos referimos a esta operación como *automatización*. Aunque la coincidencia automática funciona bien, los algoritmos que utiliza a veces pueden dar lugar a muchas transacciones no coincidentes. Copilot utiliza tecnología de inteligencia artificial para inspeccionar las transacciones restantes e identificar más coincidencias, según fechas, montos y descripciones. Por ejemplo, si un cliente pagó varias facturas como una suma global, Copilot concilia la línea única del extracto bancario con los múltiples asientos del libro mayor de facturas.
-   
+
    Vaya a [Conciliar cuentas bancarias con Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Cuentas contables sugeridas
@@ -34,11 +36,9 @@ La asistencia para la conciliación de cuentas bancarias es un conjunto de funci
   
    Vaya a [Transfiera transacciones bancarias no coincidentes a cuentas del libro mayor sugeridas](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Requisitos previos
 
-- La asistencia de conciliación de cuentas bancarias está habilitada y activada. Esta tarea la realiza un administrador. [Obtenga más información sobre cómo habilitar las capacidades de Copilot e IA](enable-ai.md).
+- La asistencia de conciliación de cuentas bancarias está activada. Esta tarea la realiza un administrador. [Obtenga más información sobre cómo configurar las capacidades de Copilot e IA](enable-ai.md).
 - Las cuentas bancarias en Business Central que desea conciliar están vinculadas a una cuenta bancaria en línea o configuradas con formato de importación de extracto bancario. 
 - Está familiarizado con la conciliación de cuentas bancarias en Business Central como se describe en [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md). 
 

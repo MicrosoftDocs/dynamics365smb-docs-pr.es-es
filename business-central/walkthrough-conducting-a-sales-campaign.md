@@ -1,15 +1,15 @@
 ---
-title: 'Tutorial: realización de una campaña de ventas'
+title: Tutorial sobre realizar una campaña de ventas
 description: Este tutorial brinda una descripción detallada de todas las tareas involucradas en la realización de una campaña de ventas en Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tutorial: realización de una campaña de ventas
+# Tutorial sobre realizar una campaña de ventas
 
 Una campaña es un tipo de actividad que implica varios contactos. Una importante parte de la configuración de una campaña implica la selección del público objetivo para la misma. Con este fin, en [!INCLUDE[prod_short](includes/prod_short.md)], creará un segmento o grupo de contactos con filtros.  
 
@@ -47,7 +47,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
  El empleado del Departamento de marketing maneja la producción, la distribución y la colocación de material de marketing.  
 
- La empresa acaba de lanzar un producto denominado el Rome Guest Chair. El producto se ha promocionado recientemente en una fuera de muestras, Office Futurus. Numerosos clientes han expresado un enorme interés en el producto y, como parte de un esfuerzo promocional, a aquellos clientes que compraron Rome Guest Chair durante el periodo de la campaña se les ofreció un precio especial de campaña.  
+ La empresa ha lanzado un producto denominado el Rome Guest Chair. El producto se ha promocionado recientemente en una fuera de muestras, Office Futurus. Numerosos clientes han expresado un enorme interés en el producto y, como parte de un esfuerzo promocional, a aquellos clientes que compraron Rome Guest Chair durante el periodo de la campaña se les ofreció un precio especial de campaña.  
 
  Una de las tareas del empleado de marketing después de la feria de muestra es introducir todos los clientes potenciales como contactos.  
 
@@ -95,7 +95,7 @@ La página **Segmento** contiene ahora una lista de contactos basada en los filt
 
 ## Extracción de los datos
 
- El director de marketing estudia atentamente la lista de contactos segmentada y observa que es demasiado extensa. El administrador decide reducir la lista basándose en clientes probables reales, para centrarse en el grupo objetivo correcto. Este proceso de refinar y reducir los datos también se conoce como extracción de datos.  
+ El director de marketing estudia atentamente la lista de contactos segmentada y observa que es demasiado grande. El administrador decide reducir la lista basándose en clientes probables reales, para centrarse en el grupo objetivo correcto. Este proceso de refinar y reducir los datos también se conoce como extracción de datos.  
 
 ### Para eliminar los contactos del segmento  
 
@@ -115,7 +115,7 @@ La página **Segmento** contiene ahora una lista de contactos basada en los filt
 1. En la página **Segmento**, seleccione la acción **Segmento**.
 2. Seleccione la acción **Volver**.
 
-Los contactos que acaba de eliminar se añaden de nuevo a la lista de contactos.
+Los contactos que ha eliminado se añaden de nuevo a la lista de contactos.
 
 ## Vinculación de un segmento con una campaña
 
@@ -172,7 +172,7 @@ Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_
 
  Las cartas se envían por correo electrónico automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se guarda en la lista de segmentos registrados. Para ver esa lista, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos archivados** y, a continuación, elija el vínculo relacionado.  
 
-## Registro de las respuestas de la campaña
+## Registrar las respuestas de la campaña
 
  En el siguiente par de semanas, los probables clientes responden a la carta. El director de marketing desea realizar un seguimiento de las respuestas y registrar estas interacciones.  
 

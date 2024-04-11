@@ -1,17 +1,17 @@
 ---
 title: Registrar el consumo o uso de recursos y artículos de proyectos
-description: 'En este artículo, se describe cómo registrar el consumo o el uso de productos o recursos para trabajos en la administración de proyectos.'
+description: 'En este artículo, se describe cómo registrar el consumo o el uso de productos o recursos para proyectos en la administración de proyectos.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ---
 # Registrar el consumo o uso para proyectos
 
-Desde la página **Ficha de proyecto**, puede abrir la página **Líneas planificación proyecto** para revisar y registrar el uso en varias partes del proyecto. Esta información se actualiza automáticamente cuando modifica y transfiere información entre trabajos y diarios de trabajo o facturas de trabajo. Para ello es necesario que active el conmutador **Aplicar vínculo uso de forma pred.** en la página **Config. proyecto**. Obtenga más información en [Configurar proyectos](projects-how-setup-jobs.md).  
+Desde la página **Ficha de proyecto**, puede abrir la página **Líneas planificación proyecto** para revisar y registrar el uso en varias partes del proyecto. Esta información se actualiza automáticamente cuando modifica y transfiere información entre proyectos y diarios de proyecto o facturas de proyecto. Para ello es necesario que active el conmutador **Aplicar vínculo uso de forma pred.** en la página **Config. proyecto**. Obtenga más información en [Configurar proyectos](projects-how-setup-jobs.md).  
 
 Por ejemplo, para las líneas de planificación del tipo **Presupuesto**, puede especificar la cantidad de un recurso y luego especificar la cantidad a transferir al diario de proyectos. Si el tipo de la línea de planificación es **Facturable**, puede especificar la cantidad del recurso y luego especificar la cantidad a transferir a una factura. Para obtener más información sobre cómo facturar al cliente, consulte [Proyectos de factura](projects-how-invoice-jobs.md). Al comparar la cantidad original, la cantidad restante o la cantidad registrada, puede revisar rápidamente la información de uso. Para obtener más información acerca de cómo estimar los valores presupuestados durante la planificación, vaya a [Administración de presupuestos de proyecto](projects-how-manage-budgets.md).  
 
@@ -19,12 +19,12 @@ En los procedimientos siguientes se describe cómo registrar cantidades y costes
 
 ## Para registrar la utilización de una línea de planificación de proyecto de tipo Presupuesto
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
-2. Seleccione el proyecto y, a continuación, elija la acción **Líneas planificación proyecto**. 
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Proyectos** y, a continuación, elija el vínculo relacionado.  
+2. Seleccione el proyecto y, a continuación, elija la acción **Líneas de planificación de proyecto**. 
 3. Seleccione una línea planificación de proyecto del tipo **Presupuesto** o **Presupuesto y Facturable** para la que desea registrar la utilización.   
 
     > [!NOTE]
-    > También puede registrar el uso para una línea de planificación de proyecto de tipo **Facturable**. Normalmente, usa estas líneas para crear facturas, pero también puede transferir la información a un diario. Obtenga más información en [Facturar proyectos](projects-how-invoice-jobs.md). 
+    > También puede registrar el uso para una línea de planificación de proyecto de tipo **Facturable**. Normalmente, usa estas líneas para crear facturas, pero también puede transferir la información a un diario. Obtenga más información en [Facturar proyectos](projects-how-invoice-jobs.md) 
 
 4. En el campo **Cdad. a transferir al diario**, introduzca la cantidad que desea transferir. La cantidad predeterminada es el valor que introduzca en el campo **Cantidad**.
 
@@ -44,7 +44,7 @@ En los procedimientos siguientes se describe cómo registrar cantidades y costes
 
 ## Para crear manualmente líneas de diario de proyectos
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
 2. En el campo **Nombre sección**, seleccione una sección de diario de proyectos relevante.  
 3. En una nueva línea, introduzca el número de documento, el número de proyecto, el número de la tarea del proyecto, el tipo y la cantidad del tipo que se consume.  
 4. Cuando las líneas del diario de proyectos están completas, seleccione la acción **Registrar**.  
@@ -60,17 +60,15 @@ Esto le permite supervisar y comparar los cálculos originales con los resultado
 > [!NOTE]  
 > Los movimientos de producto crean movimientos contables y reducen la cantidad de inventario. El proceso **Regis. variación existencias** transfiere el coste del inventario a la contabilidad. Los movimientos de recursos crean movimientos correspondientes.  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
-2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Cálc. uso restante**.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+2. Seleccione un diario de proyecto relevante y, a continuación, seleccione la acción **Cálc. uso restante**.  
 3. En la página **Cálc. uso restante proyecto** especifique el número del documento y la fecha de registro que se va a insertar en el diario y, a continuación, elija **Aceptar**.  
 4. Puede ser necesario actualizar el diario con algunos cambios.  
 5. Seleccione **Registrar**.
 
 ## Crear documentos de picking de almacén e inventario para un proyecto
 
-Para crear documentos de picking de almacén de inventario para proyectos, su administrador debe habilitar **Actualización de característica: habilitar el picking de almacén e inventario de los proyectos** en la página **Administración de características**.
-
-La función agrega las acciones **Crear picking inventario** y **Crear picking almacén** en **Ficha de proyecto**. Para crear o registrar un documento de selección, utilice las acciones **Líns. almac./picking/Líneas movimiento** o **Líneas de picking registradas**. Obtenga más información en [Flujos para producción, ensamblaje y proyectos](design-details-internal-warehouse-flows.md).
+Use las acciones **Crear picking inventario** y **Crear picking almacén** en la página **Ficha de proyecto**. Para crear o registrar un documento de selección, utilice las acciones **Líns. almac./picking/Líneas movimiento** o **Líneas de picking registradas**. Obtenga más información en [Flujos para producción, ensamblaje y proyectos](design-details-internal-warehouse-flows.md).
 
 Puede usar acciones en las siguientes condiciones:
 
@@ -92,17 +90,16 @@ Después de haber registrado las líneas de diario de proyectos, puede ver las l
 > [!NOTE]  
 > Esto requiere que la casilla **Aplicar enlace de uso** se haya seleccionado para el proyecto. Para obtener más información, consulte [Configurar proyectos](projects-how-setup-jobs.md).  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
-2. Seleccione un diario de trabajo relevante y, a continuación, seleccione la acción **Movimientos**.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+2. Seleccione un diario de proyecto relevante y, a continuación, seleccione la acción **Movimientos**.  
 3. En la página **Movs. proyectos**, elija la acción **Mostrar líneas planificación proyecto vinculadas**.
 
-## Consulte también .
+## Consulte también
 
 [Administración de proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

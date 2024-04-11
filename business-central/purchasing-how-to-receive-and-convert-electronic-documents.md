@@ -1,12 +1,12 @@
 ---
 title: Recibir y convertir documentos electrónicos
-description: Este tema explica cómo recibir documentos electrónicos directamente desde sus socios colaboradores o desde un servicio de OCR.
+description: Este artículo explica cómo recibir documentos electrónicos directamente desde sus socios colaboradores o desde un servicio de OCR.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

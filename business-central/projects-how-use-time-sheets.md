@@ -1,6 +1,6 @@
 ---
 title: Usar partes de horas
-description: 'Aprenda a crear, enviar, aprobar y publicar partes de horas para recursos, trabajos y servicios.'
+description: 'Aprenda a crear, enviar, aprobar y publicar partes de horas para recursos, proyectos y servicios.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
@@ -13,11 +13,11 @@ ms.custom: bap-template
 ---
 # Usar partes de horas
 
-En este artículo se describe cómo utilizar partes de tiempo en Business Central para realizar un seguimiento de las ausencias y para realizar un seguimiento del tiempo y los recursos que se dedican a un proyecto. Seguir el tiempo le permite identificar problemas rápido y evitar retrasos o saturaciones de coste. Con los partes de horas, un recurso puede notificar fácilmente el uso del tiempo de un individuo o una máquina, y los administradores pueden revisar fácilmente el uso y su asignación. 
+En este artículo se describe cómo utilizar partes de tiempo en Business Central para realizar un seguimiento de las ausencias y para realizar un seguimiento del tiempo y los recursos que se dedican a un proyecto. Seguir el tiempo le permite identificar problemas rápido y evitar retrasos o saturaciones de coste. Con los partes de horas, un recurso puede notificar fácilmente el uso del tiempo de un individuo o una máquina, y los administradores pueden revisar fácilmente el uso y su asignación.
 
-Puede copiar y usar sus líneas de planificación de proyecto en una hoja de horas. De esa forma, solo debe especificar la información en un lugar para que la información de la línea siempre sea correcta. Para más información, consulte [Para copiar líneas de planificación del proyecto en un parte de horas](#copy-job-planning-lines-to-a-time-sheet).
+Puede copiar y usar sus líneas de planificación de proyecto en una hoja de horas. De esa forma, solo debe especificar la información en un lugar para que la información de la línea siempre sea correcta. Para más información, consulte [Para copiar líneas de planificación del proyecto en un parte de horas](#copy-project-planning-lines-to-a-time-sheet).
 
-Una vez aprobados los movimientos del parte de horas de un proyecto, puede registrarlos en el diario de proyectos o de recursos correspondiente. Para obtener más información, vaya a [Para publicar líneas del parte de horas en un diario de trabajo](#post-time-sheet-lines-in-a-job-journal) y [Para publicar líneas del parte de horas en un diario de recursos](#post-time-sheet-lines-in-a-resource-journal).
+Una vez aprobados los movimientos del parte de horas de un proyecto, puede registrarlos en el diario de proyectos o de recursos correspondiente. Para obtener más información, vaya a [Para publicar líneas del parte de horas en un diario de proyecto](#post-time-sheet-lines-in-a-project-journal) y [Para publicar líneas del parte de horas en un diario de recursos](#post-time-sheet-lines-in-a-resource-journal).
 
 Para poder utilizar las hojas de horas, debe configurar la información general y especificar un administrador y uno o varios aprobadores de hojas de horas. Para obtener más información sobre cómo configurar partes de horas, vaya a [Configurar partes de horas](projects-how-setup-time-sheets.md).  
 
@@ -26,7 +26,7 @@ Para poder utilizar las hojas de horas, debe configurar la información general 
 
 ## Crear partes de horas
 
-Puede usar la página **Crear partes de horas** para configurar partes de horas para determinados periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado a una tarea. También puede [programar el trabajo por lotes para que se ejecute automáticamente](ui-work-report.md#ScheduleReport).  
+Puede usar la página **Crear partes de horas** para configurar hojas de horas de un número determinado de periodos o semanas. Después, el propietario de la hoja de horas puede abrirla y registrar el tiempo dedicado en una tarea. También puede [programar el proyecto por lotes para que se ejecute automáticamente](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Debe disponer de permisos para poder crear los partes de horas. Para obtener más información sobre los permisos, vaya a [Configurar partes de horas](projects-how-setup-time-sheets.md).
@@ -76,13 +76,13 @@ Si la información del parte de horas sigue siendo la misma de un período de ti
 2. Abra la hoja de horas de un periodo posterior al periodo de una hoja de horas existente con las líneas.  
 3. Elija la acción **Copiar líneas desde hoja de horas anterior**.
 
-Las líneas se copiarán, incluidos los detalles como el tipo y la descripción. Por ejemplo, si la línea está relacionada con un trabajo, se copiará **Nº proyecto**. Todas las líneas copiadas tienen el estado **Abierto**. Ahora puede modificar las líneas según sea necesario.
+Las líneas se copiarán, incluidos los detalles como el tipo y la descripción. Por ejemplo, si la línea está relacionada con un proyecto, **Nº proyecto** es el campo que se copia. Todas las líneas copiadas tienen el estado **Abierto**. Ahora puede modificar las líneas según sea necesario.
 
-## Para copiar líneas de planificación del proyecto en un parte de horas
+## Copiar líneas de planificación del proyecto en una hoja de horas
 
 El procedimiento siguiente describe cómo agregar rápidamente líneas de planificación del proyecto a una hoja de horas.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") Después, escriba **Parte de horas** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") Después, escriba **Parte de horas** y luego elija el enlace relacionado.  
 2. En la página **Hojas de horas**, seleccione un parte de horas para periodo de tiempo correspondiente.  
 3. Elija la acción **Crear líneas de planificación de proyecto**. Cualquier línea de planificación de proyecto del periodo de tiempo de la hoja de horas se copia en la hoja de horas de la persona o equipo en el campo **N.º recurso** en la hoja de horas.
 
@@ -161,16 +161,16 @@ Una vez aprobado o rechazado un parte de horas, no se podrá modificar hasta que
 3. En la página **Parte de horas**, elija la acción **Volver a abrir** y, a continuación, **Todas las líneas enviadas** para volver a abrir todas las líneas o la acción **Solo líneas seleccionadas** para volver a abrir únicamente las líneas que están seleccionadas en la página **Parte de horas**.
 4. Elija el botón **Aceptar**. El estado de las líneas de la hoja de horas cambia a **Enviado**.  
 
-## Para ver y aprobar partes de horas por tarea
+## Ver y aprobar partes de horas por proyecto
 
-En una tarea, puede especificar una persona que sea responsable del proyecto. Esa información está vinculada a las líneas del parte de horas. El enlace ofrece a los gerentes de proyecto una lista de los partes de horas para aprobar. Por ejemplo, el director del proyecto del equipo puede ser responsable de determinados trabajos de la empresa. En ese caso, el director debe designarse como **Persona responsable** en la página de la tarjeta de trabajo. En esta vista de información del parte de horas, puede ver las tareas del trabajo asociadas a un trabajo y la cantidad de horas empleadas.
+En un proyecto, puede especificar una persona que sea responsable del proyecto. Esa información está vinculada a las líneas del parte de horas. El enlace ofrece a los gerentes de proyecto una lista de los partes de horas para aprobar. Por ejemplo, el director del proyecto del equipo puede ser responsable de determinados proyectos de la empresa. En ese caso, el director debe designarse como **Persona responsable** en la página de la tarjeta de proyecto. En esta vista de información del parte de horas, puede ver las tareas del proyecto asociadas a un proyecto y la cantidad de horas empleadas.
 
 > [!NOTE]
-> Para aprobar los partes de horas en la página **Parte de horas del administrador por trabajo**, primero debe seleccionar una opción **Parte de horas por aprobación de trabajo** en la página **Configuración de recursos**. Para obtener más información sobre cómo configurar aprobaciones para recursos, vaya a [Configurar recursos](projects-how-setup-resources.md).
+> Para aprobar los partes de horas en la página **Parte de horas del administrador por proyecto**, primero debe seleccionar una opción **Parte de horas por aprobación de proyecto** en la página **Configuración de recursos**. Para obtener más información sobre cómo configurar aprobaciones para recursos, vaya a [Configurar recursos](projects-how-setup-resources.md).
 
-### Para aprobar o rechazar un parte de horas por trabajo
+### Aprobar o rechazar un parte de horas por proyecto
 
-1. En el cuadro **Buscar**, escriba **Hoja de horas del administrador por trabajo** y, a continuación, elija el vínculo relacionado. [!INCLUDE[prod_short](includes/prod_short.md)] muestra una lista de líneas de parte de horas asociadas con los trabajos de los que es responsable.
+1. En el cuadro **Buscar**, escriba **Hoja de horas del administrador por proyecto** y, a continuación, elija el vínculo relacionado. [!INCLUDE[prod_short](includes/prod_short.md)] muestra una lista de líneas de parte de horas asociadas con los proyectos de los que es responsable.
 2. Elija la acción **Aprobar** y, a continuación, elija la acción **Todas las líneas enviadas** para aprobar todas las líneas o la acción **Solo líneas seleccionadas** para aprobar únicamente las líneas que están seleccionadas en la página **Parte de horas**.
 
     > [!NOTE]
@@ -180,7 +180,7 @@ En una tarea, puede especificar una persona que sea responsable del proyecto. Es
 4. Elija el botón **Aceptar**.
 
 > [!NOTE]
-> Una vez aprobada o rechazada una línea del parte de horas por trabajo, no se podrá volver a abrir ni modificar en la página **Parte de horas**.
+> Una vez aprobada o rechazada una línea del parte de horas por proyecto, no se podrá volver a abrir ni modificar en la página **Parte de horas**.
 
 ## Para registrar las líneas de hoja de horas en un diario de recursos
 
@@ -193,11 +193,11 @@ Una vez aprobados los movimientos de la hoja de horas de un recurso, puede regis
 5. Seleccione la acción **Registrar**.  
 6. Para comprobar el registro, elija la acción **Movimientos**. Se abre la página **Movs. recursos**, en la que muestra el resultado del registro del diario de recursos.
 
-## Para registrar las líneas del parte de horas en un diario de proyectos
+## Para registrar las líneas de hoja de horas en un diario de proyectos
 
-Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlas en el diario de proyecto correspondiente.
+Una vez aprobados los movimientos de la hoja de horas de un proyecto, puede registrarlas en el diario de proyectos correspondiente.
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
 2. Elija la acción **Sugerir líneas de hojas de horas**.  
 3. En la página **Proponer líneas diario proyectos**, rellene los campos en una línea según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 4. Elija el botón **Aceptar**. Los movimientos de uso se crean en el diario de proyectos, donde puede modificar la información según sea necesario.  
@@ -227,6 +227,5 @@ Después de registrar los partes de horas, puede archivarlos para referencia fut
 [Compras](purchasing-manage-purchasing.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

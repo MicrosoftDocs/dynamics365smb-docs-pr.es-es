@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Puede reservar productos para pedidos de venta, pedidos de servicio, pedidos de 
 Cada línea que abra pra reservar artículos en la página **Reservas**, que se abre para reservar productos, muestra información sobre un tipo de línea (venta, compra o diario) o entrada de inventario. Las líneas describen cuántos productos están disponibles para reservarse desde cada tipo de línea o movimiento.
 
 > [!TIP]
-> Según las cantidades que haya reservado en el inventario, [!INCLUDE [prod_short](includes/prod_short.md)] muestra un estado en los documentos para que sepa rápidamente el siguiente paso. Por ejemplo, para indicar que puede enviar un pedido de ventas o comenzar a trabajar en un trabajo, ensamblaje u orden de producción. El estado también ayuda a reducir el riesgo de envíos parciales accidentales o retrasos debido a falta de existencias para órdenes de producción y ensamblaje.
+> Según las cantidades que haya reservado en el inventario, [!INCLUDE [prod_short](includes/prod_short.md)] muestra un estado en los documentos para que sepa rápidamente el siguiente paso. Por ejemplo, para indicar que puede enviar un pedido de ventas o comenzar a trabajar en un proyecto, ensamblaje u orden de producción. El estado también ayuda a reducir el riesgo de envíos parciales accidentales o retrasos debido a falta de existencias para órdenes de producción y ensamblaje.
 >
 > El campo **Reservado en stock** puede ayudarle a comprender si puede enviar o seleccionar para un pedido o línea de pedido específico. Para las líneas, el campo Reservado del stock está disponible en los cuadros informativos. Para acceder a la información de todo el pedido, el campo se encuentra en la página **Estadísticas**.
 
@@ -79,13 +79,13 @@ Utilice la página **Hoja de trabajo de reserva** para reservar y asignar mercan
 2. Elija la acción **Obtener demanda** y luego especifique el tipo de demanda que desea reservar del inventario disponible.
 3. Rellene los filtros según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Opcional: para asignar los elementos de inmediato, elija la acción **Asignar**.
-5. En la página **Directiva de asignación**, elija una directiva para cada paso
+5. En la página **Directiva de asignación**, elija una directiva para cada paso.
 
    |Directiva de asignación  |Descripción  |
    |---------|---------|
    |Básico     | Asigna stock a una demanda si no hay conflictos y la demanda se puede cubrir por completo. Por ejemplo, tiene el pedido de venta A con una cantidad de 10 y un trabajo con una cantidad de 7. Si tiene 20 en stock, ambas demandas reciben la cantidad completa. Si su stock es 12, no se asigna ningún stock. Debe asignar la cantidad manualmente.        |
    |Igualmente    | Distribuye el stock disponible según la demanda por igual. Por ejemplo, tiene un pedido de venta A con una cantidad de 10 y un trabajo con una cantidad de 7. Si su nivel de existencias es 20, ambas demandas recibirán la cantidad completa. Si su stock es 12, entonces ambas demandas obtendrán 6.        |
-   |Por prioridad de cliente|Distribución basada en el campo Prioridad de la ficha del cliente. En casos de cantidades insuficientes, el sistema priorizará el suministro a los clientes de mayor prioridad.|
+   |Por prioridad de cliente|Distribución basada en el campo **Prioridad** de la **ficha del cliente**. En casos de cantidades bajas de inventario, Business Central suministra primero a los clientes de mayor prioridad.|
 
 6. Para reservar todas las líneas donde **Aceptar** está activado, elija la acción **Hacer reserva**.
     

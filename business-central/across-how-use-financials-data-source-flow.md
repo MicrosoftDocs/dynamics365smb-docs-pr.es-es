@@ -107,7 +107,7 @@ La creación de nuevos flujos, o la modificación y gestión de los existentes (
 Estas tareas generalmente las realizan administradores o superusuarios. Las tareas requieren un conocimiento más amplio de los procesos de negocio en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte los siguientes artículos en la ayuda para desarrolladores y profesionales de TI de Business Central:
 
 - [Integración de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Crear flujos automatizados](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (también cubre flujos de aprobación)
+- [Crear flujos automatizados](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (también cubre flujos de aprobación)
 - [Crear flujos instantáneos](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Administrar flujos de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

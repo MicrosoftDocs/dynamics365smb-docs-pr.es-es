@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 05/27/2021
+ms.date: 04/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -17,7 +17,7 @@ También puede especificar números de documento externo en documentos de ventas
 
 ## Consulte también
 
-[Introducir números de documento externo](across-enter-external-document-numbers.md)  
+[Indicar números de documento externo](across-enter-external-document-numbers.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Números de documento externo en documentos de venta](sales-how-invoice-sales.md#external-document-numbers)  
 [Funciones empresariales generales](ui-across-business-areas.md)  

@@ -1,27 +1,28 @@
 ---
 title: Revalorizar activos fijos
-description: 'Obtenga información sobre cómo ajustar el valor de los activos fijos, registrar nuevos importes como amortización o apreciación, y registrar costes de adquisición adicionales.'
+description: 'Obtenga información sobre cómo ajustar el valor de los activos fijos, registrar nuevos importes como amortización o apreciación, y registrar otros costes de adquisición.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: '5628, 5629, 5633'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.form: '5628, 5629, 5633'
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Revalorizar activos fijos
 
 La revalorización de activos fijos está formada por apreciaciones, depreciaciones o ajustes de valor general.
 
-Cuando haya aumentado el valor de un activo, registre una línea de diario con un importe mayor, una apreciación, en el libro de amortización. El nuevo importe se registra como una apreciación en función de la configuración del registro de activos.
+Cuando aumente el valor de un activo, registre una línea de diario con una apreciación en el libro de amortización. El nuevo importe se registra como apreciación en función de la configuración del registro de activos.
 
-Cuando haya disminuido el valor de un activo, registre una línea de diario con un importe menor, una depreciación, en el libro de amortización. El nuevo importe se registra como una depreciación en función de la configuración del registro de activos.
+Cuando se reduzca el valor de un activo, registre una línea de diario con un importe menor, una amortización, en el libro de amortización. El nuevo importe se registra como una depreciación en función de la configuración del registro de activos.
 
 El ajuste de valores se utiliza para ajustar los diversos valores de los activos fijos como, por ejemplo, los cambios generales de precio. El proceso **Ajustar valores activos** puede utilizarse para cambiar diversos importes como, por ejemplo, importes de apreciación y depreciación.
 
 ## Para registrar una apreciación desde el diario general de activos fijos
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales A/F**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Diarios generales A/F**, y luego elija el enlace relacionado.  
 2. Cree una línea inicial de diario y rellene los campos según sea necesario.
 3. En el campo **A/F Tipo registro**, seleccione **Reevaluación**.
 4. Elija la acción **Introducir saldo AF**. Se crea una segunda línea de diario para la cuenta contrapartida que se ha configurado para el registro de apreciaciones.
@@ -57,11 +58,11 @@ El ajuste de valores se utiliza para ajustar los diversos valores de los activos
     > [!TIP]  
     >   Si los números de ajuste son solo para fines de simulación, puede crear un libro de amortización especial que los guarde. Así estos movimientos no afectarán a ninguno de los libros de amortización.
 
-## Para registrar costes adicionales
+## Para registrar otros costes de adquisición
 
-Puede registrar costes adicionales de un activo de la misma forma en que registra el coste original: desde una factura de compra o desde un diario de activos fijos. Para obtener más información, vea [Adquirir activos fijos](fa-how-acquire.md).  
+Contabilice otros costes de adquisición para un activo fijo a partir de una factura de compra o de un diario de activos fijos de la misma forma que contabiliza el coste de adquisición original. Para obtener más información, vea [Adquirir activos fijos](fa-how-acquire.md).  
 
-Si ya ha calculado la amortización para el activo, seleccione la casilla de verificación **Coste amortización** para que el coste adicional sea menor que el valor residual amortizado, en proporción al importe con el que se amortizó anteriormente el activo. Esto asegura que el periodo de amortización no cambia.  
+Si ya ha calculado la amortización para el activo, seleccione la casilla de verificación **Coste amortización** para que el coste adicional sea menor que el valor residual amortizado, en proporción al importe con el que se amortizó anteriormente el activo. Este método asegura que el periodo de amortización no cambia.  
 
 El porcentaje de amortización se calcula así:  
 
@@ -69,9 +70,9 @@ El porcentaje de amortización se calcula así:
 
 *Importe amortización = (P/100) x (Coste adicional – Valor residual)*  
 
-Recuerde seleccionar la casilla **A/F Amort. hasta fecha reg.** en la factura, las líneas del diario general de activos o del diario de activos fijos, para asegurarse de la amortización se calcula desde la última fecha de registro de activos fijos hasta la fecha de registro del coste adicional.
+Recuerde seleccionar la casilla **A/F Amort. hasta fecha reg.** en la factura, las líneas del diario general de activos o del diario de activos fijos, para asegurarse de la amortización se calcula desde la última fecha de registro de activos fijos hasta la fecha de registro de otros coste de adquisición.
 
-### Ejemplo: registro de costes adicionales
+### Ejemplo: registro de otros costes de adquisición
 
 Se compra una máquina el 1 de agosto de 2000. El coste es de 4.800. El método de amortización es lineal durante cuatro años.
 
@@ -89,9 +90,9 @@ Si seleccionó la casilla **A/F Amort. hasta fecha reg.** en la factura antes de
 
 Si seleccionó la casilla **Amort. hasta coste** en la factura antes de registrar, se realiza el siguiente cálculo:  
 
-*El coste adicional se amortiza en ((150 x 100) / 4800) / 100 x 480 = 15*
+*Otro coste de adquisición se amortiza como ((150 x 100) / 4800) / 100 x 480 = 15*
 
-La base de amortización es ahora *5280 = (4800 + 480)* y la amortización acumulada es *165 = (100 + 50 + 15)*, correspondiente a 45 días de amortización del coste total. Esto significa que el activo se amortizará por completo en el tiempo estimado de cuatro años.  
+La base de amortización es ahora *5280 = (4800 + 480)* y la amortización acumulada es *165 = (100 + 50 + 15)*, correspondiente a 45 días de amortización del coste total. Ese cálculo significa que el activo se amortiza por completo en el tiempo estimado de cuatro años.  
 
 Para ejecutar el proceso **Calcular amortización** sobre el 30/09/00 se realiza el siguiente cálculo:  
 

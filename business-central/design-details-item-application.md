@@ -133,7 +133,7 @@ Si el usuario no hubiera realizado la liquidación fija entre el abono de compra
 
 En la tabla siguiente se muestra el resultado en los movimientos de valoración del producto si el paso 2 del escenario anterior se lleva a cabo mediante una liquidación fija.  
 
-|Fecha reg.|Tipo mov. producto|Cdad. valorada|Importe coste (real)|Liq. por nº orden producto|Valorado a coste medio|Nº mov. producto|N.º de movimiento|  
+|Fecha reg.|Tipo mov. producto|Cdad. valorada|Importe coste (Real)||Valorado a coste medio|Nº mov. producto|N.º de movimiento|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Compra|1|200.00||No|1|1|  
 |01-01-20|Compra|1|1000.00||No|2|2|  

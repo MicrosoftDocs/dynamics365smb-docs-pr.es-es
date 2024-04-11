@@ -79,7 +79,7 @@ Para que los nuevos productos sean completamente útiles, debe copiar manualment
 |Ccial |Porcentajes prepago ventas | Compruebe si los porcentajes de prepago de ventas están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de prepago, en la página **Ficha de producto**, elija **Ventas** y después, **Porcentajes de prepago**.|
 |Compra |Porcentajes prepago compra |Compruebe si los porcentajes de prepago de compras están definidos para el producto original y transfiera esos datos al nuevo producto. Para ver los porcentajes de prepago, en la página **Ficha de producto**, elija **Compras** y después, **Porcentajes de prepago**. |
 |Almacén |Contenidos ubicación |Revise el contenido de ubicación definido para el producto original. Si se han especificado de forma individual columnas como Cant. mín, Cant. máx., Predeterminado y Dedicado, debe crear manualmente el contenido del contenido de ubicación para el nuevo producto. Si no es así, no se requiere ninguna acción. [!INCLUDE[prod_short](includes/prod_short.md)] mantendrá los registros cuando registre documentos de almacén y diarios.|
-|Proyecto |Precios del proyecto |Compruebe si los precios del proyecto están definidos para el producto original y transfiera esos datos al nuevo producto. Esta información está disponible en la página **Ficha de producto** en a parte **Detalles proyecto - N.º precios** en el panel **Cuadro informativo**. |
+|Proyecto |Precios del proyecto |Compruebe si los precios del proyecto están definidos para el producto original y transfiera esos datos al nuevo producto. Esta información está disponible en la página **Ficha de producto** en la parte **Detalles del proyecto - N.º precios** en el panel **Cuadro informativo**. |
 |Servicio |Capacidad de recursos de servicio |Compruebe si las capacidades de recursos de servicio están definidas para el producto original y transfiera esos datos al nuevo producto. Para ver las capacidades de recursos del servicio, use la acción **Capacidades de recursos** en la página **Ficha de producto**.  |
 | |Componentes del producto de servicio |Compruebe si los componentes están definidos para el producto de servicio original y transfiera esos datos al nuevo producto. Para ver los componentes del producto de servicio, en la página **Ficha de producto**, use la acción **Producto de servicio** para abrir la lista de productos de servicio relacionados y luego elija al acción **Componentes**.  |
 |Producción |LM producción |Compruebe si alguna L.M. de producción contiene el producto original y reemplácela con el nuevo producto. Para reemplazar el producto original, en la página **L.M. de producción**, elija la acción **Cambiar producto en L.M. producción**. |
@@ -110,7 +110,7 @@ Al crear pedidos de ensamblado, use la información del diario de inventario fí
 
 |Campo  |Valor a especificar  |
 |---------|---------|
-|N.º producto |El número del producto nuevo. |
+|Nº producto |El número del producto nuevo. |
 |Cantidad |La cantidad en el diario de inventario físico.<br> **NOTA**: Las cantidades calculadas por los diarios de inventario físico no incluyen las cantidades que se encuentran en pedidos que aún no se han enviado.  |
 |Cód. variante |Igual que en el diario de inventario físico.  |
 |Código de ubicación |Igual que en el diario de inventario físico. |
@@ -122,7 +122,7 @@ Al crear pedidos de ensamblado, use la información del diario de inventario fí
 |Campo  |Valor a especificar  |
 |---------|---------|
 |Escriba |Producto |
-|N.º |El número del producto original. |
+|Nº |El número del producto original. |
 |Cantidad por |1 |
 |Cód. variante |Igual que en el diario de inventario físico. |
 |Código de ubicación |Igual que en el diario de inventario físico. |
@@ -153,7 +153,7 @@ La siguiente tabla enumera áreas funcionales donde puede haber cantidades pendi
 |Planificación |Hoja de demanda, hoja de planificación y planificación de pedidos |
 |Almacén |Pedidos de transferencia, envíos de almacén, diarios de almacén y pickings de almacén, ubicaciones y movimientos, ubicación y picking internos y hojas de trabajo de creación de ubicación. |
 |Ensamblado |Documentos de ensamblado, incluyendo pedidos, pedidos de devolución y pedidos abiertos |
-|Proyectos |Líneas de planificación de proyecto y líneas del diario |
+|Proyectos |líneas de planificación de proyecto y líneas del diario de proyecto |
 |Servicio |Documentos de servicio y contratos de servicio. |
 |Producción |Orden de producción (planificadas, planificadas en firme y lanzadas) |
 

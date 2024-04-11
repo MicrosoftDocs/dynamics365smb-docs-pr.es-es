@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 06/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -71,7 +71,13 @@ La sincronización de moneda es unidireccional, desde [!INCLUDE [prod_short](inc
 * Los importes en la moneda base [!INCLUDE[prod_short](includes/cds_long_md.md)] se convierten a la moneda local [!INCLUDE [prod_short](includes/prod_short.md)] según el último tipo de cambio sincronizado desde [!INCLUDE [prod_short](includes/prod_short.md)].
 * Los importes en la moneda local [!INCLUDE [prod_short](includes/prod_short.md)] se sincronizan con la moneda local [!INCLUDE [prod_short](includes/prod_short.md)] en una de las otras monedas (no base) en [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## Consulte también .
+## Qué ocurre cuando se copia una empresa
+
+Puede copiar de forma segura las empresas que se integran con [!INCLUDE[prod_short](includes/cds_long_md.md)] o [!INCLUDE[crm_md](includes/crm_md.md)]. Copiar empresas ayuda a reducir el riesgo de inconsistencias en los datos y puede ahorrarle un tiempo valioso. Para obtener más información sobre cómo copiar empresas, vaya a [Copiar una empresa](about-new-company.md#copy-a-company).
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
+
+## Consulte también
 
 [Modelos de propiedad de datos](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

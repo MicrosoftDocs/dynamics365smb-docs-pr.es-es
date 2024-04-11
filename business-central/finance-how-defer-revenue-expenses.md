@@ -1,25 +1,28 @@
 ---
 title: Fraccionar ingresos y gastos
-description: 'Para reconocer ingresos y gastos en periodos en los que no se registró la transacción, puede fraccionarlos o posponerlos automáticamente según una previsión especificada.'
+description: 'Aprenda a aplazar o posponer automáticamente los ingresos y gastos en los periodos en los que no se ha contabilizado la operación, o a posponerlos a lo largo de un calendario especificado.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 # Fraccionar ingresos y gastos
 
-Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el que se registró la transacción, puede usar la funcionalidad para fraccionar automáticamente ingresos y gastos según una previsión especificada.
+Para reconocer un ingreso o un gasto en un periodo distinto del periodo en el que se registró la transacción, puede fraccionar automáticamente ingresos y gastos según una previsión especificada.
 
 Para distribuir los ingresos o los gastos de los periodos contables relacionados, debe configurar una plantilla de fraccionamiento para el recurso, el producto o la cuenta de contabilidad para el que se registrará el ingreso o el gasto. Cuando registre el documento de venta o de compra relacionado, los ingresos o los gastos se fraccionan en los periodos contables relacionados, según la previsión de fraccionamiento que controle la configuración de la plantilla de fraccionamiento y la fecha de registro.
 
+> [!NOTE]
+> Los diarios de ventas y compras validan el código de origen. La validación requiere que el código de origen de las ventas y los diarios de ventas, y de los diarios de compras y compras, respectivamente, no sean idénticos cuando se utilizan aplazamientos. Si está configurado para que sea idéntico, puede solucionar esta limitación creando una plantilla y un lote que utilice otro código de origen.
+
 ## Para configurar una cuenta de contabilidad para el fraccionamiento
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Plan de cuentas** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. Rellene los campos según sea necesario para crear una cuenta de contabilidad para los ingresos fraccionados. Para obtener más información, consulte [Libro mayor y plan de cuentas](finance-general-ledger.md).
 4. Repita los pasos 2 y 3 para crear una nueva cuenta de contabilidad para los gastos fraccionados.

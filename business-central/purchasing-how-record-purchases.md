@@ -1,12 +1,12 @@
 ---
-title: Registrar compras con facturas de compra (contiene vídeo)
+title: Registrar compras con facturas de compra (contiene video)
 description: 'Describe cómo comprar productos de inventario, no de inventario o recursos creando y registrando facturas o pedidos de compra.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Cuando se reciben los productos de inventario o cuando se completa el servicio c
 Los siguientes pasos describen cómo crear una factura de compra. Los pasos para crear un pedido de compra son similares. La principal diferencia es que los pedidos de compra tienen algunos campos y acciones adicionales para la gestión física de los artículos.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Facturas compra** y luego elija el enlace relacionado.  
-2. En el campo **Proveedor**, escriba el nombre de un proveedor existente.
+2. En el campo **Nombre proveedor**, escriba el nombre de un proveedor existente.
 
     Otros campos de la página **Factura de compra** se rellenarán con información estándar del proveedor seleccionado. Si el proveedor no está registrado, realice estos pasos:
 
-    1. En el campo **Proveedor**, especifique el nombre del proveedor nuevo.
+    1. En el campo **Nombre del proveedor**, especifique el nombre del proveedor nuevo.
     2. En el cuadro de diálogo que registra al nuevo proveedor, seleccione **Sí**.
     3. Para obtener más información sobre cómo completar la tarjeta de proveedor, vaya a [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md).  
     4. Cuando finalice la tarjeta de proveedor, seleccione **Aceptar** para volver a la página **Factura de compra**.
@@ -79,7 +79,7 @@ Las líneas de una factura de compra pueden ser del tipo **Recurso** o **Artícu
 > [!NOTE]
 > Con el tipo de línea de compra **Recurso**, también puede comprar recursos externos, por ejemplo, para facturar a un proveedor por el trabajo entregado. Obtenga más información en [Configurar recursos](projects-how-setup-resources.md).
 >
-> Para usar un recurso comprado, es posible que deba establecer la capacidad del recurso y asignarlo manualmente a un trabajo. La compra de un recurso crea un movimiento de recursos; sin embargo, los movimientos de recursos no se rastrean por cantidad y valor como, por ejemplo, los productos. Si se requiere el seguimiento de la cantidad y el valor, considere usar otros tipos de líneas de pedido.
+> Para usar un recurso comprado, es posible que deba establecer la capacidad del recurso y asignarlo manualmente a un proyecto. La compra de un recurso crea un movimiento de recursos; sin embargo, los movimientos de recursos no se rastrean por cantidad y valor como, por ejemplo, los productos. Si se requiere el seguimiento de la cantidad y el valor, considere usar otros tipos de líneas de pedido.
 
 ## Cuándo usar pedidos de compra
 

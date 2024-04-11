@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 Puede usar recordatorios para recordar a los clientes que tienen importes vencidos. También puede usar recordatorios para calcular intereses o comisiones e incluirlos en el recordatorio.
+
+> [!TIP]
+> La información de este artículo es precisa, sin embargo, describe un proceso mayoritariamente manual. [!INCLUDE [prod_short](prod_short.md)] ofrece herramientas que puede utilizar para automatizar los procesos de creación, emisión y envío de recordatorios. Automatizar estos pasos puede ahorrarle una cantidad considerable de tiempo dedicado a los cobros. Para obtener, consulte [Automatizar recordatorios en cobros](../finance-automate-reminders.md).
 
 Para poder crear recordatorios, debe configurar términos de recordatorio y asignarlos a sus clientes. Para más información, consulte [Configurar términos y niveles de recordatorio](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] El contenido de la página **Términos de interés** determina si el interés se calcula en el recordatorio.  
 

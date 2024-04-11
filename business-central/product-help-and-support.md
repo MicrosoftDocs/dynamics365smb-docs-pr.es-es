@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Las organizaciones que usan [!INCLUDE[prod_long](includes/prod_long.md)] pueden obtener soporte técnico para cualquier problema que puedan experimentar. En este artículo, le mostramos la siguiente información y muchos otros consejos sobre cómo usar [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Descubra cómo su asistente con tecnología de inteligencia artificial [puede guiarlo y explicarlo.](#chat-with-copilot)
 - Más información sobre cómo [desbloquear](#in-product-tips)  
-- Conozca dónde [obtener más información](#help-pane)    
-- Aprenda a encontrar [la información técnica](#help--support-page) que necesita para enviar una solicitud de soporte    
+- Conozca dónde [obtener más información](#help-pane)
+- Aprenda a encontrar [la información técnica](#help--support-page) que necesita para enviar una solicitud de soporte
+
+## Chatear con Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Chat con Copilot es una herramienta con tecnología de IA que responde preguntas y encuentra datos comerciales relacionados con Business Central. Está disponible desde cualquier página seleccionando el icono ![Muestra el icono para chatear con Copilot](media/chat-copilot-icon.png) **Copilot** en la esquina superior derecha. [Más información sobre el chat con Copilot](chat-with-copilot.md)
+
+### Ayuda con campos
+
+Copilot puede ayudarle a comprender el propósito y el uso típico de campos individuales. Cuando elige **Preguntar a Copilot** en la información sobre herramientas de un campo, el chat se abre con un mensaje de Explicación para el nombre del campo y Copilot proporciona información al respecto. Copilot enlaza a los artículos a los que hace referencia, por lo que es fácil verificar la descripción.
 
 ## Consejos en el producto
 
@@ -35,14 +46,9 @@ En [!INCLUDE [prod_short](includes/prod_short.md)], el elemento del menú Ayuda 
 
 La siguiente lista describe cómo puede acceder al panel de Ayuda y si se le agregan tarjetas:
 
-- Elija el enlace *Más información* en una información sobre herramientas para un campo
-
-  La siguiente tarjeta se agrega al panel de Ayuda:
-
-  - La información sobre herramientas del campo
-- Elija el enlace *Más información* en una información sobre herramientas para una acción
 - Elija el elemento del menú Ayuda (el signo de interrogación en la esquina superior derecha)
 - Usar el atajo de teclado <kbd>Ctrl</kbd>+<kbd>F1</kbd> desde cualquier lugar
+- Elija el enlace *Más información* en una información sobre herramientas para un campo, si está disponible. El enlace *Más información* solo está disponible en la aplicación móvil o en campos personalizados (es decir, campos de extensiones que no son de Mocrosoft) en el cliente web.
 
 > [!TIP]
 > Cuando elige un enlace, el artículo de destino se abre en una nueva pestaña del navegador. Puede optar por desacoplar la pestaña del navegador y, a continuación, ver la información relevante junto con [!INCLUDE [prod_short](includes/prod_short.md)]. El panel permanece abierto mientras navega por [!INCLUDE [prod_short](includes/prod_short.md)] para que el contenido que buscó permanezca visible.  

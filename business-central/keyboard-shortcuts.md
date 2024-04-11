@@ -22,7 +22,6 @@ Para obtener una descripción general de los métodos abreviados de teclado más
 > [ ![Icono para el archivo PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Icono que abre un PDF")
 
 
-
 ## Panorama
 
 Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que sea más fácil y más eficiente navegar por diferentes áreas y elementos en una página. La mayoría de los exploradores web admiten estos métodos abreviados, sin embargo, el comportamiento puede variar ligeramente.
@@ -194,12 +193,12 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Inicio</kbd>|Abrir el calendario si está cerrado. **Nota**: Esto no funciona si el campo de fecha está en una cuadrícula, donde <kbd>Ctrl</kbd>+<kbd>Inicio</kbd> salta a la primera fila.|
 |<kbd>Ctrl</kbd>+<kbd>Inicio</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Inicio</kbd>)|Desplazarse al mes actual, día actual.|
-|<kbd>Ctrl</kbd>+<kbd>Flecha izquierda</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Flecha izquierda</kbd>)|Desplazarse al día anterior.|
-|<kbd>Ctrl</kbd>+<kbd>Flecha derecha</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Flecha derecha</kbd>)|Desplazarse al día siguiente.|
-|<kbd>Ctrl</kbd>+<kbd>Flecha arriba</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Flecha arriba</kbd>)|Desplazarse a la semana anterior, el mismo día de la semana.|
-|<kbd>Ctrl</kbd>+<kbd>Flecha abajo</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Flecha abajo</kbd>)|Desplazarse a la semana siguiente, el mismo día de la semana.|
+|<kbd>Flecha izquierda</kbd><br /><br />(<kbd>Flecha izquierda</kbd>)|Desplazarse al día anterior.|
+|<kbd>Flecha hacia la derecha</kbd><br /><br />(<kbd>Flecha hacia la derecha</kbd>)|Desplazarse al día siguiente.|
+|<kbd>Flecha hacia arriba</kbd><br /><br />(<kbd>Flecha hacia arriba</kbd>)|Desplazarse a la semana anterior, el mismo día de la semana.|
+|<kbd>Flecha abajo</kbd><br /><br />(<kbd>Flecha abajo</kbd>)|Desplazarse a la semana siguiente, el mismo día de la semana.|
 |<kbd>Introduzca</kbd>|Seleccionar la fecha enfocada.|
-|<kbd>Ctrl</kbd>+<kbd>Fin</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Fin</kbd>)|Cierre el calendario y elimine la fecha actual.|
+|<kbd>Fin</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Fin</kbd>)|Cierre el calendario y elimine la fecha actual.|
 |<kbd>Esc</kbd>|Cierre el calendario sin una selección, mantenga la fecha actual.|
 |<kbd>Av. Pág.</kbd>|Desplazarse al mes siguiente.|
 |<kbd>Re. pág.</kbd>|Desplazarse al mes anterior.|  

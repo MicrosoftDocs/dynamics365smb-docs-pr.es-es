@@ -132,9 +132,9 @@ En **Administrador de Shopify**, observe que el pedido ahora está marcado como 
 
 ### Escenario
 
-Después de un lanzamiento rápido y exitoso de su nueva tienda en línea, desea que sus clientes actuales la visiten y comiencen a realizar pedidos. Dependiendo de su plan y proceso de Shopify, puede probar flujos B2B y D2C.
+Después de un lanzamiento rápido y exitoso de su nueva tienda en línea, desea que sus clientes actuales la visiten y comiencen a realizar pedidos. Dependiendo de su plan y proceso de Shopify, puede probar flujos B2B y DTC
 
-### Pasos de D2C
+### Pasos de DTC
 
 En [!INCLUDE[prod_short](../includes/prod_short.md)], haga lo siguiente:
 

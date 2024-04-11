@@ -1,14 +1,14 @@
 ---
 title: Enviar recordatorios de saldos pendientes
-description: Aprenda a enviar un recordatorio a un cliente sobre un pago atrasado.  que está vencido y agrega cargos o tarifas al pago debido a la demora.
+description: Aprenda a enviar un recordatorio a un cliente sobre un pago atrasado.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '436, 437, 442, 431, 432, 434'
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Enviar recordatorios de saldos pendientes
 

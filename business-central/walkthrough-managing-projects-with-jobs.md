@@ -9,11 +9,11 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tutorial: administración de programas con proyectos
+# Tutorial: administración de proyectos
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-Este tutorial le presenta a las funciones de administración de programas en los trabajos. Los proyectos le permiten programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con los recursos de un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que es posible que desee controlar a medida que avance un proyecto.  
+Este tutorial le presenta a las funciones de administración de proyectos. Los proyectos le permiten programar el uso de los recursos de su empresa y realizar un seguimiento de los diversos costes asociados con los recursos de un proyecto específico. Los proyectos implican el consumo de horas de mano de obra, horas de maquinaria, productos de inventario y otros tipos de consumo que es posible que desee controlar a medida que avance un proyecto.  
 
  En este tutorial, se trata la configuración de un nuevo proyecto, además de las tareas más comunes, como gestión de precios fijos, creación de pagos a plazo, registro de facturas de proyectos y copia de proyectos.  
 
@@ -21,9 +21,9 @@ Este tutorial le presenta a las funciones de administración de programas en los
 
  En este tutorial, se demuestran las siguientes tareas:  
 
-### Configuración de un proyecto
+### Configurar un proyecto
 
- Con la configuración de la estructura del presupuesto para los trabajos, crear un trabajo es directo. Este tutorial trata los siguientes procedimientos:  
+ Con la configuración de la estructura del presupuesto para los proyectos, crear un proyecto es directo. Este tutorial trata los siguientes procedimientos:  
 
 - Configuración de líneas de planificación y líneas de tarea de un proyecto.  
 - Creación de precios específicos de proyectos para productos y cuentas.  
@@ -31,7 +31,7 @@ Este tutorial le presenta a las funciones de administración de programas en los
 
 ### Gestión de precios fijos
 
- En proyectos, puede gestionar precios fijos y precios de servicios o mercaderías que se acuerdan por adelantado con los clientes. En este tutorial, puede hacer lo siguiente:  
+ Puede gestionar precios fijos y precios de servicios o mercaderías que se acuerdan por adelantado con los clientes. En este tutorial, puede hacer lo siguiente:  
 
 - Ver cómo se determinan los valores de facturas y contratos.  
 - Permitir trabajo adicional en el programa que no se ha facturado.  
@@ -52,7 +52,7 @@ Este tutorial le presenta a las funciones de administración de programas en los
 - Facturación de pagos a clientes.  
 - Cómo tener en cuenta el uso en un proyecto de pagos a plazo.  
 
-## Funciones
+## Roles
 
  En este tutorial se incluyen tareas para las siguientes funciones:  
 
@@ -68,7 +68,7 @@ Este tutorial le presenta a las funciones de administración de programas en los
 
 ## Historia
 
-Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que diseña y equipa nuevas infraestructuras, como salas de conferencias y oficinas, con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash, un administrador de proyectos de CRONUS utiliza proyectos para obtener un panorama de cada proyecto en curso que ha iniciado CRONUS, además de los proyectos finalizados. Prakash normalmente es uno de los que trata con los clientes y se introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los trabajos y el pago por plazos.
+Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que diseña y equipa nuevas infraestructuras, como salas de conferencias y oficinas, con mobiliario, accesorios y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash, un administrador de proyectos de CRONUS utiliza proyectos para obtener un panorama de cada tarea en curso que ha iniciado CRONUS, además de las tareas completadas. Prakash normalmente es uno de los que trata con los clientes y se introduce el núcleo del proyecto, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los proyectos y el pago por plazos.
 
  Tricia, miembro del equipo del proyecto que depende de Prakash, es la responsable de supervisar el día a día del proyecto. Tricia especifica su propio trabajo, así como el trabajo realizado por técnicos en todas las tareas, registra los productos que han utilizado y los costes en los que han incurrido.  
 
@@ -78,16 +78,16 @@ Este tutorial se centra en CRONUS, una empresa de diseño y consultoría, que di
 
 ### Para preparar los datos de ejemplo  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recursos** y luego elija el enlace relacionado.  
-2.  Selecione la acción **Nuevo** para crear una nueva ficha de recursos.  
-3.  En la ficha desplegable **General**, introduzca la siguiente información:  
+1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Recursos** y luego elija el enlace relacionado.  
+2. Selecione la acción **Nuevo** para crear una nueva ficha de recursos.  
+3. En la ficha desplegable **General**, introduzca la siguiente información:  
 
-    - **N.º**: **Tricia**  
+    - **Nº**: **Tricia**  
     - **Nombre**: **Tricia**  
     - **Tipo**: **Persona**  
 
-4.  Seleccione el campo **Unidad de medida base** y seleccione la acción **Nuevo** para abrir la página **Unidad de medida de recursos**. En el campo **Código**, seleccione **Hora**.  
-5.  En la ficha desplegable **Facturación**, escriba la siguiente información:  
+4. Seleccione el campo **Unidad de medida base** y seleccione la acción **Nuevo** para abrir la página **Unidad de medida de recursos**. En el campo **Código**, seleccione **Hora**.  
+5. En la ficha desplegable **Facturación**, escriba la siguiente información:  
 
     - **Coste unit. directo**: **5**  
     - **% Coste indirecto**: **4**  
@@ -101,76 +101,76 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 
 ### Para crear una sección de diario de proyecto  
 
-1.  Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
-2.  En la página **Diario proyecto**, seleccione el campo **Nombre sección**. Aparecerá la página **Secciones diario proyectos**.  
-3.  Seleccione la acción **Nuevo**, para crear una línea con la siguiente información:  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+2. En la página **Diario proyecto**, seleccione el campo **Nombre sección**. Aparecerá la página **Secciones diario proyectos**.  
+3. Seleccione la acción **Nuevo**, para crear una línea con la siguiente información:  
 
     - **Nombre**: **Tricia**  
     - **Descripción**: **Tricia**  
     - **Nos. serie**: **JJNL-GEN**  
 
-4.  Elija el botón **Aceptar** para guardar los cambios.
+4. Elija el botón **Aceptar** para guardar los cambios.
 
-## Configuración de un proyecto
+## Configurar un proyecto
 
  En este escenario, CRONUS ha ganado un contrato con un cliente, Progressive Home Furnishings, para diseñar una sala de conferencias y un refectorio. El cliente tiene su sede en los Estados Unidos y el proyecto precisa un software especial. El director del proyecto llega a un acuerdo con el cliente y crea un proyecto que cubra el acuerdo.  
 
 ### Para configurar un proyecto  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
-2.  Selecione la acción **Nuevo** para crear una nueva ficha.  
-3.  En la ficha desplegable **General**, introduzca la siguiente información:  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y, a continuación, elija el vínculo relacionado.  
+2. Selecione la acción **Nuevo** para crear una nueva ficha.  
+3. En la ficha desplegable **General**, introduzca la siguiente información:  
 
     - **Descripción**: **Asesoramiento en el equipamiento de la sala de conferencias**  
-    - **Factura-a N.º cliente**: **01445544**  
+    - **Factura-a Nº cliente**: **01445544**  
 
-4.  En la ficha desplegable **Registro**, escriba la siguiente información:  
+4. En la ficha desplegable **Registro**, escriba la siguiente información:  
 
     - **Estado**: **Planificación**  
-    - **Grupo contable proyecto**: **Equipar**  
+    - **Grupo contable de proyecto**: **Configurando**  
     - **Método WIP**: **Valor coste**  
 
-5.  En la ficha desplegable **Duración**, escriba la fecha de hoy en los campos **Fecha inicial** y **Fecha final**. Estas fechas ayudarán a aplicar las conversiones de divisas cuando se facture el proyecto.  
-6.  En la ficha desplegable **Comercio exterior**, defina el código de divisa en **USD**. Si selecciona USD en el campo **Código divisa factura**, el proyecto se facturará en dólares estadounidenses y se planificará en la divisa local de CRONUS.  
+5. En la ficha desplegable **Duración**, escriba la fecha de hoy en los campos **Fecha inicial** y **Fecha final**. Estas fechas ayudarán a aplicar las conversiones de divisas cuando se facture el proyecto.  
+6. En la ficha desplegable **Comercio exterior**, defina el código de divisa en **USD**. Si selecciona USD en el campo **Código divisa factura**, el proyecto se facturará en dólares estadounidenses y se planificará en la divisa local de CRONUS.  
 
  Puede personalizar el precio para los clientes por cada proyecto, en función de los contratos que ha configurado. En el siguiente procedimiento, el director de proyectos especifica un coste para el tiempo de Tricia, define el precio del software correspondiente y añade en el viaje costes que el cliente ha acordado pagar.  
 
 ### Para personalizar los precios  
 
-1.  Desde la ficha de proyecto, elija la acción **Recurso**.  
-2.  En la página **Precios recursos proyecto**, escriba la siguiente información:  
+1. Desde la **Ficha de proyecto**, elija la acción **Recurso**.  
+2. En la página **Precios recursos proyecto**, escriba la siguiente información:  
 
     - **Código**: **Tricia**  
     - **Precio venta**: **20**  
 
-3.  Cierre la página.  
-4.  Elija la acción **Producto**.  
-5.  En la página **Precios productos proyecto**, escriba la siguiente información y el precio personalizado:  
+3. Cierre la página.  
+4. Elija la acción **Producto**.  
+5. En la página **Precios productos proyecto**, escriba la siguiente información y el precio personalizado:  
 
-    1.  **N.º producto**: **80201 (Programa gráfico)**  
-    2.  **Precio venta**: **200**  
+    1. **Nº producto**: **80201 (Programa gráfico)**  
+    2. **Precio venta**: **200**  
 
-6.  Cierre la página.  
-7.  Elija la acción **Cuentas C/G**.  
-8.  En la página **precios de la cuenta de proyectos**, introduzca la siguiente información y el coste de viaje, para el que el cliente ha acordado pagar el coste además de un porcentaje del 25% :  
+6. Cierre la página.  
+7. Elija la acción **Cuentas C/G**.  
+8. En la página **Precios de la cuenta de proyectos**, introduzca la siguiente información y el coste de viaje, para el que el cliente ha acordado pagar el coste además de un porcentaje del 25% :  
 
-    1.  **Cuenta**: **8430 (Viajes)**  
-    2.  **Factor coste unitario**: **1,25**  
+    1. **Cuenta**: **8430 (Viajes)**  
+    2. **Factor coste unitario**: **1,25**  
 
 9. Cierre la página.  
 
- Los pasos finales en la configuración de un trabajo añaden las tareas del trabajo y las líneas de planificación que forman parte de cada tarea. Las líneas de planificación determinan qué se factura al cliente.  
+ Los pasos finales en la configuración de un proyecto añaden las tareas del proyecto y las líneas de planificación que forman parte de cada tarea. Las líneas de planificación determinan qué se factura al cliente.  
 
 ### Para agregar tareas de proyecto  
 
-1.  En la ficha **Proyecto** para el nuevo proyecto, seleccione la acción **Líneas de tarea de proyecto** .  
+1.  En la ficha **Proyecto** para el nuevo proyecto, seleccione la acción **Líneas de tarea de proyecto**.  
 2.  La siguiente tabla describe la información que tiene que debería introducir en los campos.  
 
-    |N.º tarea de trabajo|Description|Tipo de tarea de trabajo|  
+    |N.º tarea proyecto|Descripción|Tipo tarea proyecto|  
     |------------------|---------------------------------------|-------------------|  
-    |1000|Consultoría sobre la equipación de salones|Principio-Total|  
+    |1000|Consultoría sobre la equipación de salones|Total inicio|  
     |1010|Reunión de consulta con el cliente|Auxiliar|  
-    |n.º 1020|Desarrollo|Auxiliar|  
+    |nº 1020|Desarrollo|Auxiliar|  
     |1090|Total de consultoría|Fin Total|  
 
 3.  Para indicar que algunas tareas son subcategorías de otras tareas, elija la acción **Indentar tareas proyecto**.  
@@ -189,7 +189,7 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 
 2. Cree líneas de planificación con la siguiente información:  
 
-    | Línea | Tipo de línea | Fecha planif.  | Escriba        | N.º   | Cantidad | Precio unitario |
+    | Línea | Tipo de línea | Fecha planif.  | Escriba        | Nº   | Cantidad | Precio unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Presupuesto y facturable | (fecha de hoy) | Recurso | Tricia | 40        |     |
     | 2    | Presupuesto y facturable | (fecha de hoy) | Recurso | Alfredo | 40        |     |
@@ -198,7 +198,7 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
      Cierre la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
 3. Seleccione línea 1020 y, a continuación, elija la acción **Líneas de planificación de proyecto**. Escriba la siguiente información:  
 
-    | Línea | Tipo de línea | Fecha planif.  | Escriba        | N.º   | Cantidad | Precio unitario |
+    | Línea | Tipo de línea | Fecha planif.  | Escriba        | Nº   | Cantidad | Precio unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Presupuesto y facturable | (fecha de hoy) | Recurso | Tricia | 80        |     |
     | 2    | Presupuesto y facturable | (fecha de hoy) | Producto | 80201 (programa gráfico) | 1 |     |
@@ -207,18 +207,18 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 
 ## Cálculo del uso restante
 
- Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto durante algún tiempo y desea registrar sus horas y utilización en el proyecto. Tricia no ha trabajado más horas que las acordadas previamente con el cliente. Tricia utiliza el trabajo por lotes **Cálcular el uso restante** para calcular el uso restante para el proyecto en un diario del proyecto. Para cada tarea, el trabajo por lotes calcula la diferencia entre el uso programado de productos, recursos y gastos de contabilidad, y el uso real registrado en los movimientos del proyecto. A continuación, se muestra el uso restante en el diario del proyecto, desde el cual puede registrarlo.  
+ Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto durante algún tiempo y desea registrar sus horas y utilización. Tricia no ha trabajado más horas que las acordadas previamente con el cliente. Tricia utiliza el trabajo por lotes **Cálcular el uso restante** para calcular el uso restante para el proyecto en un diario del proyecto. Para cada tarea, el trabajo por lotes calcula la diferencia entre el uso programado de productos, recursos y gastos de contabilidad, y el uso real registrado en los movimientos del proyecto. A continuación, se muestra el uso restante en el diario del proyecto, desde el cual puede registrarlo.  
 
 ### Para calcular el uso restante  
 
-1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
-2.  En la página **Diario proyectos**, en el campo **Nombre sección**, abra la lista **Secciones diario proyecto**. Seleccione la sección de diario de proyecto de **Tricia**.  
-3.  Seleccione la acción **Cálcular uso restante**.  
-4.  En la página **Calc. uso restante proyecto**, en la ficha desplegable **Tarea proyecto**, elija el campo de **N.º proyecto** y seleccione el número de proyecto correspondiente, normalmente trabajo J00010.  
-5.  En la ficha desplegable **Opciones**, escriba **J00001** en el campo **N.º documento**. Esto facilitará el futuro seguimiento del registro.  
-6.  Escriba la fecha de hoy como fecha de registro.  
-7.  Elija el botón **Aceptar**. De este modo, se generarán las líneas de diario del proyecto derivadas de las líneas de planificación que creó Prakash para el proyecto.  
-8.  Elija el botón **Aceptar** en la página de confirmación. Las líneas generadas se añaden al diario del proyecto.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
+2. En la página **Diario proyectos**, en el campo **Nombre sección**, abra la lista **Secciones diario proyecto**. Seleccione la sección de diario de proyecto de **Tricia**.  
+3. Seleccione la acción **Cálcular uso restante**.  
+4. En la página **Cálc. uso restante proyecto**, en la ficha desplegable **Tarea de proyecto**, elija el **N.º de proyecto** y seleccione el número de proyecto correspondiente, normalmente trabajo J00010.  
+5. En la ficha desplegable **Opciones**, escriba **J00001** en el campo **Nº documento**. Esto facilitará el futuro seguimiento del registro.  
+6. Escriba la fecha de hoy como fecha de registro.  
+7. Elija el botón **Aceptar**. De este modo, se generarán las líneas de diario del proyecto derivadas de las líneas de planificación que creó Prakash para el proyecto.  
+8. Elija el botón **Aceptar** en la página de confirmación. Las líneas generadas se añaden al diario del proyecto.  
 9. Asegúrese de que todos los números del documento son J00001 y, a continuación seleccione la acción **Registrar**. Elija **Sí** para confirmar el registro.  
 
 Ya se han registrado las líneas.  
@@ -231,7 +231,7 @@ Ya se han registrado las líneas.
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione el proyecto que ha creado antes y, después, seleccione la acción **Crear factura de venta de proyecto**.  
-3.  En la ficha desplegable **Tarea proyecto**, desactive cualquier filtro en **N.º tarea proyecto** para facturar el trabajo. En el campo **N.º proyecto**, seleccione el proyecto correspondiente.  
+3.  En la ficha desplegable **Tarea proyecto**, desactive cualquier filtro en **Nº tarea proyecto** para facturar el trabajo. En el **N.º proyecto** seleccione el proyecto relevante.  
 4.  En la ficha desplegable **Opciones**, introduzca la fecha de registro y defina si desea crear una factura por tarea o una sola factura para todas las tareas.  
 5.  Elija el botón **Aceptar** para crear la factura y seleccione el botón **Aceptar** en la página de confirmación.  
 
@@ -240,7 +240,7 @@ Ya se han registrado las líneas.
 ### Para registrar una nueva factura de ventas  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
-2.  Abra la factura para el n.º de cliente 01445544. Puede ver que se ha escrito la información para las líneas de planificación.  
+2.  Abra la factura para el nº de cliente 01445544. Puede ver que se ha escrito la información para las líneas de planificación.  
 3.  Seleccione la acción **Registrar**. Elija **Sí** para confirmar el registro.  
 
 ### Para visualizar la factura registrada  
@@ -271,7 +271,7 @@ Ya se han registrado las líneas.
 
 4. En la página **Líneas de tarea de proyecto**, seleccione la línea 1120 y, a continuación, elija la acción **Líneas de planificación de proyecto**. Cree una línea de planificación con la siguiente información:  
 
-    | Línea | Tipo de línea | Escriba        | N.º   | Cantidad |
+    | Línea | Tipo de línea | Escriba        | Nº   | Cantidad |
     |------|-----------|-------------|-------|----------|
     | 1    | Presupuesto y facturable  | Recurso | Tricia | 30 |
 
@@ -283,16 +283,16 @@ Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas 
 
 ### Para especificar horas en el Diario proyectos  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos**, y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
 2. En una línea nueva, escriba la siguiente información:  
 
     - **Tipo línea**: **(en blanco)**  
     - **Fecha registro**: **(fecha actual)**  
-    - **N.º documento**: **J00002**  
-    - **N.º proyecto**: **Deco**  
+    - **Nº documento**: **J00002**  
+    - **Nº proyecto**: **Guildford**  
     - **N.º tarea proyecto**: **1120**  
     - **Tipo**: **recurso**  
-    - **N.º**: **Tricia**  
+    - **Nº**: **Tricia**  
     - **Cantidad**: **25**  
 
 3. Seleccione la acción **Registrar**.  
@@ -302,12 +302,12 @@ Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas 
 4. En la página **Diario de proyecto**, seleccione la acción **Cálc. uso restante**.  
 5. En la página **Cálc. uso restante proyecto**, en la ficha desplegable **Opciones**, escriba la siguiente información:  
 
-    - **N.º documento**: **J00003**  
+    - **Nº documento**: **J00003**  
     - **Fecha registro**: **(fecha actual)**  
 
 6. En la ficha desplegable **Tarea proyecto**, escriba la siguiente información:  
 
-    - **N.º proyecto**: **Deco**  
+    - **Nº proyecto**: **Guildford**  
     - **N.º tarea proyecto**: **1120**  
 
 7. Elija el botón **Aceptar** para ejecutar el cálculo.
@@ -317,10 +317,10 @@ Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas 
 8. En la opción **Diario proyecto**, cree una línea nueva con la siguiente información. Asegúrese de que ambos números de proyecto son secuenciales con los que ha utilizado ya:  
 
     - **Tipo de línea**: **Presupuesto**  
-    - **N.º proyecto**: **Deco**  
+    - **Nº proyecto**: **Guildford**  
     - **N.º tarea proyecto**: **1120**  
     - **Tipo**: **recurso**  
-    - **N.º**: **Tricia**  
+    - **Nº**: **Tricia**  
     - **Cantidad**: **5**  
 
      Mediante el uso del tipo de línea **Presupuesto**, se actualizan los costes y los precios previstos, pero no se factura al cliente ninguna de las actualizaciones de costes y precios de contrato.  
@@ -329,14 +329,14 @@ Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas 
 10. Abra la lista **Proyectos** .  
 11. Seleccione el trabajo DECO y, a continuación, en la sección **Líneas tarea proyecto**, seleccione la línea 1120 y en el campo **Presupuesto (coste total)**, haga clic con el botón derecho en el importe. Elija **Análisis** para ver la información.  
 
-     Los cambios se introducen automáticamente en la línea para el N.º tarea de trabajo 1120 En el coste total del proyecto programado, cinco horas adicionales de trabajo de Tricia se han añadido a la previsión.  
+     Los cambios se introducen automáticamente en la línea para el N.º tarea de proyecto 1120 En el coste total del proyecto programado, cinco horas adicionales de trabajo de Tricia se han añadido a la previsión.  
 
 12. Elija el botón **Cerrar** para cerrar la página.  
 13. Haga clic con el botón secundario en el importe del campo **Contrato (Coste total)** y elija **Análisis** para ver la información.  
 
 En el precio total del contrato, sólo se han incluido las 30 horas originales contratadas, pues es lo acordado con el cliente.  
 
-## Copia de proyectos
+## Copiar proyectos
 
 Prakash ha alcanzado un acuerdo con un cliente, Sellafrio S.L. para equipar 10 salas de conferencias. El acuerdo se parece a un trabajo anterior. Por tanto, ahorrará tiempo si copia ese trabajo anterior.  
 
@@ -344,20 +344,20 @@ En la página **Copiar proyecto**, puede seleccionar las líneas de proyecto y t
 
 ### Para copiar un proyecto  
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Selecione la acción **Nuevo** para crear un nuevo proyecto. Escriba la siguiente información:  
 
     - **Descripción**: **Equipamiento de 10 salas de conferencias**  
-    - **Factura-a N.º cliente**: **20000**  
+    - **Factura-a Nº cliente**: **20000**  
 
 3. Seleccione la acción **Copiar tareas de proyecto desde**.  
 4. En la página **Copiar tareas de proyecto**, introduzca lo siguiente:  
 
-    - **N.º proyecto**: **Deco**  
+    - **Nº proyecto**: **Guildford**  
     - **N.º tarea proyecto desde**: **1000**  
     - **Origen**: **Líneas planificación proyecto**  
     - **Incl. tipo línea planificación**: **Presupuesto + Facturable**  
-    - **N.º tarea proyecto hasta**: **Guildford Equipar 10 salas de conferencias**  
+    - **Nº tarea proyecto hasta**: **GuildfordSetting 10 salas de conferencias**  
     - Seleccione los campos **Copiar dimensiones** y **Copiar cantidad**.  
 
 5. Elija el botón **Aceptar** para copiar el proyecto y, a continuación, seleccione el botón **Aceptar** para cerrar la página de confirmación.  
@@ -374,11 +374,11 @@ CRONUS acaba de iniciar un proyecto grande de un año de duración. Dado que req
 2. En la página **Plan de cuentas**, seleccione la acción **Nuevo** para crear una ficha nueva.  
 3. En la ficha **Cuenta nueva**, escriba la siguiente información:  
 
-    - **N.º**: **40255**  
+    - **Nº**: **40255**  
     - **Nombre**: **Pago proyecto**  
 
 4. En la ficha desplegable **Registro**, en el campo **Grupo contable producto**, seleccione **Servicios**. Cierre la página.  
-5. En la página **Plan de cuentas**, seleccione **N.º 40255 de pago del proyecto** y, a continuación, seleccione la acción **Incidente en plan de cuentas**. Seleccione **Sí** para confirmar.  
+5. En la página **Plan de cuentas**, seleccione **Nº 40255 de pago del proyecto** y, a continuación, seleccione la acción **Incidente en plan de cuentas**. Seleccione **Sí** para confirmar.  
 
 Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece las tarifas y, a continuación, el pago a plazos configurado. En las líneas de tareas del proyecto, puede crear líneas específicas dedicadas al pago a plazos. Todo el trabajo finalizado del proyecto que se agregue a la previsión se escribirá en las líneas de uso. Para cada línea de tarea de pago en las líneas de planificación, el tipo de línea es **Facturable**, lo que significa que se va a facturar al cliente. Añada una nueva línea para la entrada del pago. En la línea de tarea de uso, puede escribir la información para los productos y recursos utilizados en este proyecto, lo cual aumentará la previsión, como horas de empleado y productos usados en el proyecto.  
 
@@ -388,8 +388,8 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 2. En la nueva ficha **Proyecto**, rellene la siguiente información:  
 
     - **Descripción**: **Redecoración del área de recepción**  
-    - **Factura-a N.º cliente**: **30000**  
-    - **Grupo contable proyecto**: **Equipar**  
+    - **Factura-a Nº cliente**: **30000**  
+    - **Grupo contable de proyecto**: **Configurando**  
     - **Método WIP**: **Valor coste**  
 
 3. En la ficha de proyecto, elija la acción **Precios** y, a continuación, la acción **Recurso**. Escriba la siguiente información:  
@@ -401,10 +401,10 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
 4. En la ficha **Proyecto**, en la sección **Tareas**, agregue líneas de tarea de un proyecto como se describe en la siguiente tabla:  
 
-    | Línea | N.º tarea de proyecto | Descripción          | Tipo de tarea de trabajo |
+    | Línea | N.º tarea proyecto | Descripción          | Tipo tarea proyecto |
     |------|--------------|----------------------|---------------|
     | 1    | 1000         | Pago del Pago inicial | Registro       |
-    | 2    | 2000         | Uso                | Auxiliar       |
+    | 2    | 2000         | Uso                | Registro       |
     | 3    | 3000         | Pago - Intermedio     | Registro       |
     | 4    | 4000         | Pago - Finalización | Registro       |
 
@@ -412,7 +412,7 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
 6. Cree una línea de planificación con la siguiente información:  
 
-    | Línea | Tipo de línea | Fecha planif.  | Escriba        | N.º   | Cantidad | Precio unitario |
+    | Línea | Tipo de línea | Fecha planif.  | Escriba        | Nº   | Cantidad | Precio unitario |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Facturable  | (fecha de hoy) | Cuenta | 40255 | 1        | 5000       |
 
@@ -422,18 +422,18 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
 8. Cree una línea de planificación con la siguiente información:
 
-    | Línea | Tipo de línea | Fecha planif.  | Escriba     | N.º    | Cantidad |
+    | Línea | Tipo de línea | Fecha planif.  | Escriba     | Nº    | Cantidad |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Presupuesto    | (fecha de hoy) | Recurso | Tricia | 120      |
-    | 2    | Presupuesto    | (fecha de hoy) | Producto     | 70104  | 10       |
+    | 2    | Ppto    | (fecha de hoy) | Artículo     | 70104  | 10       |
 
      Cierre la página. En la página **Líneas tarea proyecto**, podrá ver que se han actualizado los importes del programa.  
 
-9. Elija la tarea 32000 y, a continuación, la acción **Líneas de planificación de proyecto**.  
+9. Elija la tarea 32 000 y, a continuación, la acción **Líneas de planificación de proyecto**.  
 
 10. Cree una línea de planificación con la siguiente información:
 
-    | Línea | Tipo de línea | Fecha planif.   | Escriba        | N.º   | Cantidad | Precio unitario |
+    | Línea | Tipo de línea | Fecha planif.   | Escriba        | Nº   | Cantidad | Precio unitario |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Facturable  | (una fecha futura) | Cuenta | 40255 | 1        | 5000       |
 

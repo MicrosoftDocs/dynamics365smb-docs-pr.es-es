@@ -1,11 +1,11 @@
 ---
-title: 'Procedimiento: agrupamiento de envíos en una factura única | Documentos de Microsoft'
+title: 'Procedimiento: agrupamiento de envíos en una factura única | Microsoft Docs'
 description: 'Si desea facturar varios envíos a la vez, utilice la función de agrupación de envíos.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Para crear una agrupación de envíos, primero debe registrar más de un envío 
     - Para insertar todas las líneas, selecciónelas y haga clic en **Aceptar**.  
     - Para insertar líneas concretas, selecciónelas y haga clic en **Aceptar**. Puede utilizar la tecla Ctrl para seleccionar varias líneas no secuenciales.  
 
-    Si se ha seleccionado una línea de envío incorrecta o desea volver a empezar, sólo tiene que eliminar las líneas de la factura y volver a ejecutar la función **Traer líneas alb. venta**.  
+    Si se ha seleccionado una línea de envío incorrecta o desea volver a empezar, tiene que eliminar las líneas de la factura y volver a ejecutar la función **Traer líneas alb. venta**.  
 7. Para registrar la factura, elija la acción **Registrar**.  
 
 > [!TIP]  

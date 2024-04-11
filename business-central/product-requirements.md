@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ Le recomendamos que utilice una versión de canal estable de un navegador web, y
 
 ## Outlook
 
-**Aplicaciones de Outlook**: para usar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como bandeja de entrada de empresa en Outlook, necesita Outlook 2019 o posterior, u Outlook en la web. Su organización también debe utilizar Microsoft 365. No puede utilizar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como su bandeja de entrada empresarial en Outlook si su organización usa Exchange Server local. 
+**Aplicaciones de Outlook**: para usar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como bandeja de entrada de empresa en Outlook, necesita Outlook 2021 o posterior, u Outlook en la web. Su organización también debe utilizar Microsoft 365. No puede utilizar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como su bandeja de entrada empresarial en Outlook si su organización usa Exchange Server local. 
 
 **Exploradores:** Al usar [!INCLUDE[prod_short](includes/prod_short.md)] como bandeja de entrada de empresa en Outlook en un explorador, el complemento requiere que su equipo ejecute uno de los exploradores compatibles que se han enumerado en este artículo. 
 
@@ -51,7 +51,7 @@ Le recomendamos que utilice una versión de canal estable de un navegador web, y
 
 ## Excel
 
-**Editar en Excel:** Para usar el complemento de Excel para realizar cambios en Excel y volver a insertar los cambios en [!INCLUDE[prod_short](includes/prod_short.md)], necesita Excel 2019 o posterior. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
+**Editar en Excel:** Para usar el complemento de Excel para realizar cambios en Excel y volver a insertar los cambios en [!INCLUDE[prod_short](includes/prod_short.md)], necesita Excel 2021 o posterior. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Uso del centro de administración de Business Central
 

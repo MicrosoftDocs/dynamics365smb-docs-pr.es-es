@@ -25,7 +25,7 @@ Use los siguientes documentos de origen para las operaciones internas:
 
 * Cuando registra un picking de inventario para una operación interna, como la producción o un trabajo, el consumo de los componentes seleccionados se registra al mismo tiempo.
 * El control de alternancia **Ubicación obligatoria** en la página **Tarjeta del almacén** es opcional.
-* Cuando se utiliza el picking de inventario, el campo **Cód. ubicación** de una línea de componente de orden de producción o en líneas de planificación de trabajos define la ubicación *traer*. Los componentes se reducen en la ubicación traer cuando registra el consumo.
+* Cuando se utiliza el picking de inventario, el campo **Cód. ubicación** de una línea de componente de orden de producción o en líneas de planificación de proyecto define la ubicación *traer*. Los componentes se reducen en la ubicación traer cuando registra el consumo.
 
 ## Movimientos de inventario
 
@@ -60,9 +60,9 @@ Utilice documentos de **Picking de inventario** para seleccionar componentes de 
 Para las ubicaciones que usen ubicaciones, puede ampliar el flujo a los trabajos con **Movimiento de inventario**.
 
 > [!NOTE]
-> Se agregó la capacidad de seleccionar componentes para las líneas de planificación de trabajos a [!INCLUDE[d365fin](includes/d365fin_md.md)] en el lanzamiento de versiones 2 de 2022. Para empezar a usar la capacidad, un administrador debe activar **Actualización de característica: habilitar el picking de almacén e inventario de los proyectos** en la página **Administración de características**.
+> Se agregó la capacidad de seleccionar componentes para las líneas de planificación de proyectos a [!INCLUDE[d365fin](includes/d365fin_md.md)] en el lanzamiento de versiones 2 de 2022. Para empezar a usar la capacidad, un administrador debe activar **Actualización de característica: habilitar el picking de almacén e inventario de los proyectos** en la página **Administración de características**.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] utiliza el valor del campo **Cantidad restante** en la línea de planificación del trabajo cuando crea selecciones de inventario. Para usar selecciones de inventario para trabajos, debe activar la opción **Aplicar enlace de uso** en la página **Tarjeta de trabajo** para el trabajo. Esto le permite rastrear el uso contra su plan. Si no activa la opción, la cantidad restante permanecerá en **0** y la selección de inventario no se creará. Para obtener más información, consulte [Configurar seguimiento de uso de trabajo](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] utiliza el valor del campo **Cantidad restante** en la línea de planificación del proyecto cuando crea selecciones de inventario. Para usar selecciones de inventario para trabajos, debe activar la opción **Aplicar enlace de uso** en la página **Tarjeta de proyecto** para el trabajo. Esto le permite rastrear el uso contra su plan. Si no activa la opción, la cantidad restante permanecerá en **0** y la selección de inventario no se creará. Para obtener más información, consulte [Configurar seguimiento de uso de proyecto](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
 ## Realizar picking o mover a producción, ensamblado y proyectos en una configuración básica de almacén
 
@@ -140,7 +140,7 @@ Lo siguiente sucede durante el proceso de publicación:
 
 Lo siguiente sucede durante el proceso de publicación:
 
-* Los movimientos de almacén ahora indican que los componentes ahora están en las ubicaciones especificadas en las líneas del pedido de documento de origen. Por ejemplo, la orden de ensamblaje, el componente de producción o la línea de planificación del trabajo.
+* Los movimientos de almacén ahora indican que los componentes ahora están en las ubicaciones especificadas en las líneas del pedido de documento de origen. Por ejemplo, la orden de ensamblaje, el componente de producción o la línea de planificación del proyecto.
 
 >[!NOTE]
 > A diferencia de cuando se mueven los componentes con pickings de inventario, el consumo no se registra cuando se registra un movimiento de inventario. El consumo se registra como un paso separado al contabilizar el documento de origen.

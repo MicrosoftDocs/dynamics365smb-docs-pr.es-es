@@ -1,15 +1,15 @@
 ---
-title: Introducir números de documento externos
+title: Indicar números de documento externo
 description: 'Puede especificar números de documento externo para clientes y proveedores en todos los pedidos de compra y venta, facturas y abonos. Puede utilizar estos números para buscar líneas de compra y ventas registradas más adelante.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 05/28/2021
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Introducir números de documento externos
+# Indicar números de documento externo
 
 Puede especificar números de documento externo para clientes y proveedores en todos los pedidos de compra y venta, facturas y abonos. Puede utilizar estos números para buscar líneas de compra y ventas registradas más adelante.  
 

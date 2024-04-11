@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'find, search, Tell Me'
 ms.search.form: TellMe
-ms.date: 09/21/2023
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -41,7 +41,7 @@ Puede usar la función Dígame en el cliente web local para buscar acciones, pá
 
 ## ¿Está disponible para todos los factores de forma?
 
-Sí. Se introdujo en teléfonos y tabletas en el segundo lanzamiento de versiones de Business Central 2023, pero debe habilitarse en [Gestión de funciones](/dynamics365/business-central/dev-itpro/administration/feature-management) utilizando la opción **Característica: busque páginas y datos en la aplicación móvil**. 
+Sí. Se introdujo en teléfonos y tabletas en el segundo lanzamiento de versiones de Business Central 2023. En el segundo lanzamiento de versiones de 2023, debe estar habilitado en [Gestión de funciones](/dynamics365/business-central/dev-itpro/administration/feature-management) utilizando el interruptor **Característica: busque páginas y datos en la aplicación móvil**. En el primer lanzamiento de 2024 y posteriores, siempre estará habilitado.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

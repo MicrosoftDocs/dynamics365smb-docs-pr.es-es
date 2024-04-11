@@ -35,7 +35,7 @@ Para utilizar un modelo de precios básico, solo necesita especificar un precio 
 * Cantidad mínima
 * Fechas que definen el período de validez de los precios.
 
-Después de configurar precios especiales, [!INCLUDE[prod_short](includes/prod_short.md)] puede calcular los mejores precios en documentos de compra y venta y en líneas de diarios de trabajos y artículos. Obtenga más información en [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Después de configurar precios especiales, [!INCLUDE[prod_short](includes/prod_short.md)] puede calcular los mejores precios en documentos de compra y venta y en líneas de diarios de proyectos y artículos. Obtenga más información en [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Puede configurar dos tipos de descuentos para ofertas:
 
@@ -223,7 +223,7 @@ Para actualizar los precios de varios productos, debe crear una nueva lista de p
 
 ## Cálculo del mejor precio
 
-Después de registrar precios especiales y alinear descuentos para ventas y compras, [!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente el mejor precio en documentos de compra y venta y en líneas de diario de trabajos y artículos.
+Después de registrar precios especiales y alinear descuentos para ventas y compras, [!INCLUDE[prod_short](includes/prod_short.md)] calcula automáticamente el mejor precio en documentos de compra y venta y en líneas de diario de proyectos y artículos.
 
 El mejor precio es el precio más bajo con el mayor descuento de línea permitido en una fecha indicada. [!INCLUDE[prod_short](includes/prod_short.md)] calcula los mejores precios al agregar precios unitarios y los porcentajes de descuento de línea de los productos en las nuevas líneas de documento y diario.
 

@@ -52,7 +52,7 @@ Utilice los documentos **Picking almacén** para mover componentes del ensamblad
 Utilice documentos de **Picking almacén** para seleccionar componentes de proyecto en el flujo a la administración de proyectos.
 
 > [!NOTE]
-> Se agregó la capacidad de seleccionar componentes para las líneas de planificación de trabajos a [!INCLUDE[d365fin](includes/d365fin_md.md)] en el lanzamiento de versiones 2 de 2022. Para empezar a usar la capacidad, un administrador debe activar **Actualización de característica: habilitar el picking de almacén e inventario de los proyectos** en la página **Administración de características**.
+> Se agregó la capacidad de seleccionar componentes para las líneas de planificación de proyectos a [!INCLUDE[d365fin](includes/d365fin_md.md)] en el lanzamiento de versiones 2 de 2022. Para empezar a usar la capacidad, un administrador debe activar **Actualización de característica: habilitar el picking de almacén e inventario de los proyectos** en la página **Administración de características**.
 >
 > Los trabajos no admiten configuraciones avanzadas en las que el botón de alternancia **Pick. directo de almacén** está activado.
 
@@ -135,10 +135,10 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
 
 4. Después de realizar el picking y colocar los productos en el área de producción, ensamblado o trabajo, elija la acción **Registrar picking**.  
 
-    Ahora puede llevar los productos al área correspondiente y contabilizar la utilización o el consumo de los componentes del picking mediante la contabilización del diario de consumo, el pedido de ensamblado o el diario de trabajo. Los siguientes artículos ofrecen más información:
+    Ahora puede llevar los productos al área correspondiente y contabilizar la utilización o el consumo de los componentes del picking mediante la contabilización del diario de consumo, el pedido de ensamblado o el diario de proyecto. Los siguientes artículos ofrecen más información:
 
     * [Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md)
-    * [Ensamblar artículos](assembly-how-to-assemble-items.md)
+    * [Ensamblar productos](assembly-how-to-assemble-items.md)
     * [Registrar el consumo o uso para proyectos](projects-how-record-job-usage.md)
 
 ## Baja de componentes de producción en una configuración de almacén avanzada

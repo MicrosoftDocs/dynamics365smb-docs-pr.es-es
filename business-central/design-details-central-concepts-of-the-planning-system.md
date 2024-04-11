@@ -9,9 +9,9 @@ ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ---
-# Detalles de diseño: Conceptos centrales del sistema de planificación
+# Detalles de diseño: conceptos centrales del sistema de planificación
 
-Las funciones de planificación se incluyen en un proceso que primero selecciona los productos correspondientes y el periodo que se planificará. Luego, de acuerdo con el código de nivel inferior de cada artículo (posición de la lista de materiales), el trabajo por lotes llama a una unidad de código que calcula un plan de suministro. La unidad de código equilibra los conjuntos de oferta y demanda y sugiere acciones que debe realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
+Las funciones de planificación se incluyen en un proyecto por lotes que primero selecciona los productos correspondientes y el periodo que se planificará. Luego, de acuerdo con el código de nivel inferior de cada artículo (posición de la lista de materiales), el trabajo por lotes llama a una unidad de código que calcula un plan de suministro. La unidad de código equilibra los conjuntos de oferta y demanda y sugiere acciones que debe realizar el usuario. Las acciones sugeridas aparecen como líneas en la hoja de planificación o la hoja de demanda.  
 
 ![Contenido de la página Hojas de planificación.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contenido de la página Hojas de planificación")  
 
@@ -75,7 +75,7 @@ Después de ejecutar la planificación, la tabla Entrada de mensaje de acción n
 
 ## Secuencia y prioridad en la planificación
 
-La a secuencia de los cálculos en el plan es importante para que el trabajo se realice en un intervalo de tiempo razonable. La priorización de los requisitos y los recursos también desempeña una importante función a la hora de obtener los mejores resultados.  
+La a secuencia de los cálculos en el plan es importante para que el proyecto se realice en un intervalo de tiempo razonable. La priorización de los requisitos y los recursos también desempeña una importante función a la hora de obtener los mejores resultados.  
 
 El sistema de planificación se basa en la demanda. Los productos de primer nivel se deben planificar antes que los productos de nivel inferior, ya que pueden generar una demanda adicional para los productos de nivel inferior. Por ejemplo, las ubicaciones minoristas deben planificarse antes de que se planifiquen los centros de distribución, porque la ubicación minorista podría incluir demanda adicional del centro de distribución. En un nivel de contrapartida detallado, si un pedido de suministro lanzado puede cubrir el pedido de venta, el sistema no debe crear una nueva orden de suministro. No se debe asignar un suministro con un número de lote específico para cubrir una demanda genérica si otra demanda requiere este lote concreto.  
 
@@ -267,7 +267,7 @@ Si el campo no está seleccionado, el trabajo por lotes **Calcular plan** contin
 
 ## Flexib. planificación
 
-No siempre es práctico planificar un pedido de suministro existente. Por ejemplo, cuando la producción ha comenzado o contratas personas adicionales en un día específico para hacer el trabajo. Para indicar si el sistema de planificación puede cambiar un pedido, todas las líneas de pedido de suministro tienen el campo **Flexib. planificación** con dos opciones: **Ilimitada** o **Ninguna**. Si el campo está establecido en **Ninguno**, el sistema de planificación no intentará modificar la línea del pedido de aprovisionamiento.  
+No siempre es práctico planificar un pedido de suministro existente. Por ejemplo, cuando la producción ha comenzado o contratas personas adicionales en un día específico para hacer el proyecto. Para indicar si el sistema de planificación puede cambiar un pedido, todas las líneas de pedido de suministro tienen el campo **Flexib. planificación** con dos opciones: **Ilimitada** o **Ninguna**. Si el campo está establecido en **Ninguno**, el sistema de planificación no intentará modificar la línea del pedido de aprovisionamiento.  
 
 Puede elegir manualmente una opción del campo, pero, en algunos casos [!INCLUDE [prod_short](includes/prod_short.md)] lo configurará automáticamente. Es importante el hecho de que pueda configurar manualmente la flexibilidad de planificación, ya que facilita la adaptación del uso de la característica a diferentes flujos de trabajo y casos empresariales. Para obtener más información acerca de cómo se utiliza este campo, vaya a [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md).  
 

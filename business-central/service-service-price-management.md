@@ -46,7 +46,7 @@ Por ejemplo, puede configurar tipos de tarifas de servicio para un grupo de prec
 #### [Experiencia actual](#tab/current-experience)
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de servicio** y luego elija el enlace relacionado.  
 2. Seleccione el artículo de servicio, expanda la ficha desplegable **Precios y Ventas**, elija la acción **Recurso**, **Producto** o **Cuenta P/G**.
-3. En las páginas **Precios de los recursos laborales**, **Precios de artículos de trabajo** o **Precios de la cuenta P/G del trabajo**, rellene los campos según sea necesario.
+3. En las páginas **Precios de los recursos de proyecto**, **Precios de artículos de proyecto** o **Precios de la cuenta P/G del proyecto**, rellene los campos según sea necesario.
 
   
 ## Ajuste precio servicio  

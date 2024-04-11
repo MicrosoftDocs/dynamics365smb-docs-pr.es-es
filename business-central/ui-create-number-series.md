@@ -6,18 +6,18 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'numbers, numbering'
 ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
-ms.date: 03/24/2022
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Crear numeración
+# Crear serie numérica
 
-Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no sólo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores que se producen en la introducción de datos.
+Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no solo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores en la introducción de datos.
 
 > [!Important]
 > De forma predeterminada, no se permiten saltos en las series numéricas porque, por ley, el historial exacto de las transacciones financieras debe estar disponible para auditoría y, por lo tanto, debe seguir una secuencia ininterrumpida sin números eliminados.
-> 
-> Si desea permitir huecos en ciertas series numéricas, primero consulte a su auditor o director de contabilidad para asegurarse de que cumple los requisitos legales de su país o región. Para obtener más información, vea la sección [Espacios en serie numérica](#gaps-in-number-series).
+>
+> Si desea permitir huecos en ciertas series numéricas, consulte a su auditor o director de contabilidad para asegurarse de que cumple los requisitos legales de su país o región. Para obtener más información, vea la sección [Espacios en serie numérica](#gaps-in-number-series).
 
 > [!NOTE]  
 > Le recomendamos que use los mismos códigos de serie numérica que aparecen en la página **Lista nº serie** de la empresa de demostración CRONUS. Es posible que los códigos como *C-FAC+* no tengan un sentido inmediato, pero [!INCLUDE[prod_short](includes/prod_short.md)] tiene una serie de opciones de configuración predeterminadas que dependen de estos códigos de serie numérica.
@@ -32,11 +32,12 @@ Las series numéricas normalmente se configuran para insertar automáticamente e
 Si desea usar más de un código de serie numérica para un tipo de datos maestros, por ejemplo, usar una serie numérica diferente para categorías de productos, puede establecer relaciones de series numéricas.
 
 ## Espacios en serie numérica
+
 No todos los registros que crea en [!INCLUDE[prod_short](includes/prod_short.md)] son transacciones financieras que deben usar una numeración secuencial. Las fichas de cliente, las ofertas de venta y las actividades de almacén son ejemplos de registros a los que se les asigna un número de una serie numérica, pero no están sujetos a auditoría financiera o pueden eliminarse. Para estas series numéricas, puede seleccionar la casilla **Permitir espacios en números** en la página **Líneas nº serie**. Esta configuración también se puede cambiar después de crear la serie numérica. Para obtener más información, consulte [Para crear una nueva serie numérica](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## Comportamiento del campo de número en documentos y fichas
 
-En documentos venta, compra y transferencia y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números predefinida o puede agregarlo manualmente. Sin embargo, bajo ciertas circunstancias, el campo **N.º** es invisible para evitar que lo edite.  
+En documentos venta, compra, transferencia y servicio y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números predefinida o puede agregarlo manualmente. Sin embargo, bajo ciertas circunstancias, el campo **N.º** es invisible para evitar que lo edite.  
 
 El campo **Nº** se puede rellenar de tres maneras:
 
@@ -45,20 +46,22 @@ El campo **Nº** se puede rellenar de tres maneras:
     Aunque defina plantillas con varias series de números para los clientes, si la serie de números que se define en la página **Configuración de ventas y cobros** se configura de esta manera, el campo **N.º** será invisible en la ficha cliente, independientemente de la plantilla que utilice. Lo mismo se aplica a otros tipos de tarjetas y documentos.  
 
     > [!NOTE]  
-    > Si la serie numérica no funciona, por ejemplo, porque se ha quedado sin números, el campo **N.º** será visible y puede introducir un número de forma manual o resolver los problemas en la página **Nos. serie**.
+    > Si la serie numérica no funciona, por ejemplo porque alcanzó el último número definido para su rango, el **N.º** aparece para que pueda introducir un número de forma manual. Puedes resolver problemas en la página **N.º Serie**.
 
-2. Si hay varias series numéricas para el tipo de documento de compra o ficha, y la casilla **Numeración predet.** no está marcada para la serie numérica que hay asignada actualmente, el campo **N.º** está visible, y puede buscar en la página **Nos. serie** y seleccionar la serie numérica que desea utilizar. El número siguiente de la serie se inserta en el campo **N.º** .
+2. Si tiene varias series numéricas para el tipo de documento de compra o ficha, y la casilla **Numeración predet.** no está marcada para la serie numérica que hay asignada a la serie numérica, el campo **N.º** está visible, y puede ir a la página **N.º serie** y seleccionar la serie numérica que desea utilizar. El número siguiente de la serie se inserta en el campo **N.º** .
 
-3. Si no ha configurado una serie numérica para el tipo de documento o ficha, o si el campo **Numeración manual** de la serie numérica está seleccionado, el campo **N.º** está visible y deberá introducir cualquier número manualmente. Puede escribir un máximo de 20 caracteres, tanto números como letras.
+3. Si no ha configurado una serie numérica para el tipo de documento o ficha, o si el campo **Numeración manual** de la serie numérica está seleccionado, el campo **N.º** aparece y debe introducir un número de forma manual. Puede introducir hasta 20 caracteres, números y letras.
 
-Al abrir un nuevo documento o ficha para el que existe una serie numérica, la página **Configuración N.º serie** relevante se abre para que pueda configurar un número de serie para el tipo de documento o ficha antes de continuar con cualquier otra introducción de datos.
+Al abrir un nuevo documento o ficha para el que existe una serie numérica, la página **Configuración N.º serie** relevante se abre para que pueda configurar un número de serie para el tipo de documento o tarjeta y seguir trabajando.
 
 > [!NOTE]  
 > Si necesita activar la numeración manual, por ejemplo, se han creado nuevas fichas de producto con un proceso de la migración de datos que ha ocultado el campo **Nº** de forma predeterminada, vaya a la página **Configuración del inventario** y elija el campo **Nº serie producto** para abrir y para definir las series numéricas relacionadas con **Numeración manual**.
+>
+> Lo mismo ocurre si utiliza funciones de administración de servicios. Para resolver este problema, vaya a la página **Configuración de administración de servicio** y elija el campo **Nº servicio producto** para abrir y para definir las series numéricas relacionadas con **Numeración manual**.
 
 ## Para crear una nueva serie numérica
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Nº series** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Nº series** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.  
 3. En la línea nueva, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Seleccione la acción **Líneas**.  
@@ -66,9 +69,9 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 6. Repita el paso 5 para los distintos usos de la serie numérica que necesite. El campo **Fecha inicial** define qué línea de serie numérica está activa.  
 
 > [!TIP]
-> Para permitir que los usuarios especifiquen números manualmente al registrar un nuevo cliente o proveedor, por ejemplo, elija el campo **Núms. manuales** en la propia serie numérica. Para dejar de permitir la numeración manual, borre el campo.
+> Para permitir que los usuarios especifiquen números manualmente al registrar un nuevo cliente o proveedor, por ejemplo, elija el campo **Núms. manuales** en la propia serie numérica. Para prevenir la numeración manual, borre el campo.
 
-Puede asignar series numéricas a las plantillas que configura para los diferentes tipos de clientes y proveedores que su personal de ventas y compradores agregan con mayor frecuencia a su [!INCLUDE [prod_short](includes/prod_short.md)]. En ese caso, configure la serie de números relevante, vincúlelos a través de relaciones y luego agregue la primera serie de números de la relación relevante a la página de configuración correspondiente. A continuación, cuando un usuario crea un cliente, elige la plantilla correspondiente, y el nuevo cliente recibe un número asignado de la serie de números que se ha definido para esa plantilla.  
+Puede asignar series numéricas a las plantillas que configura para los diferentes tipos de clientes y proveedores que su personal de ventas y compradores agregan con mayor frecuencia. En ese caso, configure la serie de números relevante, vincúlelos a través de relaciones y luego agregue la primera serie de números de la relación relevante a la página de configuración correspondiente. A continuación, cuando un usuario crea un cliente, elige la plantilla correspondiente, y el nuevo cliente recibe un número asignado de la serie de números que se ha definido para esa plantilla.  
 
 ## Para crear relaciones entre números de serie
 
