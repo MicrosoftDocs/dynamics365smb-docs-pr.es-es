@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Configurar Copilot y capacidades de IA 
+# <a name="configure-copilot-and-ai-capabilities"></a>Configurar Copilot y capacidades de IA
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -37,12 +37,12 @@ Este artículo explica cómo controlar Copilot y otras capacidades de IA en Busi
 
 Si no se cumple alguno de estos requisitos, la característica no está disponible para su uso.-->
 
-## Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 - Está usando Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Tener permisos de administrador o super en Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Permitir el movimiento de datos entre zonas geográficas
+## <a name="allow-data-movement-across-geographies"></a>Permitir el movimiento de datos entre zonas geográficas
 
 Esta tarea se aplica solo si el interruptor **Permitir movimiento de datos** aparece cerca de la parte superior de la página **Copilot y capacidades de IA**. Si aparece el vínculo **¿Cómo controlo mis datos de copiloto?** en lugar del interruptor **Permitir movimiento de datos**, omita este paso.
 
@@ -79,7 +79,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## Activar las funciones
+## <a name="activate-features"></a>Activar las funciones
 
 Todas las capacidades de Copilot e IA están activas de forma predeterminada cuando están disponibles en versión preliminar o cuando están disponibles de forma general. Usando la página **Copilot y capacidades de IA**, puede desactivar o activar de nuevo funciones individuales para todos los usuarios.
 
@@ -95,7 +95,7 @@ Todas las capacidades de Copilot e IA están activas de forma predeterminada cua
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## Enable feature in Feature Management
+## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -108,7 +108,7 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## Conceder acceso de usuario
+## <a name="granting-user-access"></a>Conceder acceso de usuario
 
 Las capacidades de Copilot e IA pueden ofrecer funciones destinadas a cualquier usuario de su organización o a roles de usuario específicos. La mayoría de las capacidades de Copilot e IA ofrecen control de acceso mediante permisos y conjuntos de permisos en el sistema de gestión de permisos de Business Central. [Obtenga más información sobre permisos y conjuntos de permisos](ui-define-granular-permissions.md).
 
@@ -123,7 +123,7 @@ La siguiente tabla enumera los permisos necesarios para utilizar las caracterís
 
 Para otorgar o denegar el acceso a capacidades específicas que no son de copiloto de Microsoft e IA, consulte la documentación o el editor de esa función para identificar qué permisos se requieren.
 
-## Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 
 Después de habilitar y dar su consentimiento a las funciones, estará listo para probarlas. Ir a:
 
@@ -132,7 +132,7 @@ Después de habilitar y dar su consentimiento a las funciones, estará listo par
 - [Chatear con Copilot](chat-with-copilot.md)
 - [Conciliar con la asistencia de conciliación de cuentas bancarias](bank-reconciliation-with-copilot.md)
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)  
 [Preguntas frecuentes para asistencia de análisis](faqs-analysis-assist.md)  

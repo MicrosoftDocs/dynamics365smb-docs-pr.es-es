@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Descripción general de análisis, inteligencia empresarial e informes
+# <a name="analytics-business-intelligence-and-reporting-overview"></a>Descripción general de análisis, inteligencia empresarial e informes
 
 Las pequeñas y medianas empresas se basan en capacidades de análisis e informes integrados que pueden usar de inmediato como ayuda para realizar un seguimiento de su negocio. [!INCLUDE[prod_short](includes/prod_short.md)] proporciona informes y herramientas de análisis que cubren procesos comerciales básicos y complejos para dichas organizaciones. También puede realizar análisis ad-hoc directamente desde su página principal.  
 
-## Necesidades de análisis en organizaciones
+## <a name="analytics-needs-in-organizations"></a>Necesidades de análisis en organizaciones
 
 Al pensar en las necesidades de análisis en organizaciones, podría resultar útil utilizar un modelo mental basado en personas descritas en un alto nivel y sus diferentes necesidades de análisis.
 
@@ -34,7 +34,7 @@ Utilice las siguientes secciones para obtener más información sobre las formas
 - Análisis ad hoc
 - Informes
 
-## Uso de informes financieros para crear extractos financieros y KPI
+## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Uso de informes financieros para crear extractos financieros y KPI
 
 La función de informes financieros le permite obtener información sobre los datos financieros almacenados en su plan de cuentas (COA). Puede configurar informes financieros para analizar cifras en cuentas de contabilidad (G/L) y comparan los movimientos de contabilidad con los presupuestados.
 
@@ -44,7 +44,7 @@ Las dimensiones desempeñan un papel importante en la inteligencia empresarial. 
 
 Para obtener más información sobre los estados financieros y los KPI, vaya a [Uso de informes financieros para producir estados financieros y KPI](bi.md).
 
-## Utilización de indicadores clave de rendimiento (KPI) para alcanzar sus objetivos empresariales
+## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>Utilización de indicadores clave de rendimiento (KPI) para alcanzar sus objetivos empresariales
 
 Un indicador clave de rendimiento (KPI) es un valor medible que muestra la eficacia con la que está cumpliendo sus objetivos. Piense en los KPI como el cuadro de mandos de su empresa, una forma de medir si está cumpliendo o no sus objetivos.
 
@@ -59,7 +59,7 @@ La identificación y el seguimiento de los KPI le permiten saber si su empresa v
 
 Para obtener más información sobre KPI, consulte [Utilización de indicadores clave de rendimiento para alcanzar sus objetivos empresariales](./analytics-about-kpis.md)
 
-## Análisis de datos ad hoc
+## <a name="ad-hoc-data-analysis"></a>Análisis de datos ad hoc
 
 A veces, es posible que simplemente quiera comprobar si los números cuadran correctamente, confirmar o desacreditar rápidamente una hipótesis sobre el negocio o tal vez buscar anomalías en tus datos financieros. Para los análisis ad hoc, es posible que no tenga un informe integrado que ayude a responder sus preguntas. Para análisis ad hoc, utilice estas dos funciones:
 
@@ -79,7 +79,7 @@ Del mismo modo, puede utilizar la acción **Abrir en Excel** para abrir una pág
 
 Para obtener más información sobre los análisis de anuncios, vaya a [Análisis de datos ad-hoc](reports-adhoc-analysis.md).
 
-## Informes
+## <a name="reports"></a>Informes
 
 Un informe de [!INCLUDE[prod_short](includes/prod_short.md)] recopila información en función de un conjunto específico de criterios. Los informes organizan y presentan la información en un formato de fácil lectura que puede usar en Excel, imprimir o guardar como un archivo.  
 
@@ -105,7 +105,7 @@ La siguiente tabla enumera artículos sobre cómo utilizar los informes integrad
 | Obtenga más información sobre los informes integrados disponibles en [!INCLUDE[prod_short](includes/prod_short.md)]. |[Descripción general de los informes](reports-available-reports.md)| 
 | Utilice el Explorador de informes para ver todos los informes integrados. | [Exploración de informes por rol](ui-role-explorer.md) |
 
-## Inteligencia empresarial externa y herramientas de informes
+## <a name="external-business-intelligence-and-reporting-tools"></a>Inteligencia empresarial externa y herramientas de informes
 
 Si prefiere utilizar herramientas de inteligencia empresarial que no están integradas en [!INCLUDE[prod_short](includes/prod_short.md)], la siguiente tabla proporciona enlaces a orientación sobre herramientas y formas de utilizar herramientas externas.
 
@@ -117,7 +117,7 @@ Si prefiere utilizar herramientas de inteligencia empresarial que no están inte
 | Analizar datos de Business Central con Microsoft Fabric| [Introducción a Microsoft Fabric y Business Central](admin-fabric.md) |
 | Lea datos desde Business Central usando API | [API Business Central v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Uso de informes financieros para crear extractos financieros y KPI](bi.md)  
 [Utilización de indicadores clave de rendimiento (KPI) para alcanzar sus objetivos empresariales](analytics-about-kpis.md)  

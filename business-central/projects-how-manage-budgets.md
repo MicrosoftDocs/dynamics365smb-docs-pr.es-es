@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Gestionar presupuestos de programa
+# <a name="manage-project-budgets"></a>Gestionar presupuestos de programa
 
 Se puede configurar un presupuesto para cada proyecto. El presupuesto se utiliza para planificar los recursos que asigna a un proyecto. Puede ser genérico, con pocos movimientos, o bien puede contar con más movimientos divididos en niveles de actividad. Puede comparar los importes presupuestados con el uso real registrado en el diario de proyectos. Si supervisa las diferencias entre el uso real y el uso presupuestado, puede controlar un proyecto en curso y mejorar la calidad de futuros proyectos reduciendo el riesgo de subestimar los costes.
 
 El procedimiento siguiente describe cómo calcular los costes presupuestados durante la planificación. Para obtener información acerca del registro de precios y costes de proyecto presupuestados y reales, vea [Registro del uso para proyectos](projects-how-record-job-usage.md).  
 
-## <a name="JobBudgetCosts"></a> Para estimar los costes presupuestados de un proyecto
+## <a name="to-estimate-the-budgeted-costs-for-a-project"></a><a name="JobBudgetCosts"></a>Para estimar los costes presupuestados de un proyecto
 
 Si un cliente desea saber el precio de un proyecto que se facturará en función del uso, se deben determinar los costes presupuestados del proyecto. Use la página **Líneas tarea proyecto** para hacerlo.
 
@@ -44,7 +44,7 @@ En la página **Ficha proyecto**, puede ver un resumen del total de costes presu
 
 Para obtener información acerca del registro de precios y costes de proyecto presupuestados y reales, vea [Registro del uso para proyectos](projects-how-record-job-usage.md).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Administración de proyectos](projects-manage-projects.md)  
 [Finanzas](finance.md)  
