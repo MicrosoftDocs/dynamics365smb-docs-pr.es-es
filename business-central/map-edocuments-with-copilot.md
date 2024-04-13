@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Asignar documentos electrónicos a líneas de pedido de compra con Copilot (versión preliminar)
+# Asignar documentos electrónicos a líneas de pedido de compra con Copilot (versión preliminar)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Ahora puede actualizar una orden de compra existente en Business Central con la 
 > - AI-generated content may be incorrect.-->
 
 
-## <a name="identify-purchase-orders"></a>Identificar pedidos compra
+## Identificar pedidos compra
 
 Primero, puede identificar los pedidos de compra que puede corresponder automáticamente.
 
-## <a name="map-lines"></a>Asignar líneas
+## Asignar líneas
 
 Copilot le ayuda a hacer coincidir automáticamente líneas de facturas electrónicas con líneas de órdenes de compra y ofrece inteligencia de comparación adicional para mejorar las coincidencias.
 
 Después de compararlos y asignarlos, Business Central actualiza la orden de compra coincidente con la información de recibo relevante para garantizar que se reciban las cantidades correctas en las líneas de pedido.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Información general de documentos electrónicos](finance-edocuments-overview.md)  
 [Usar documentos electrónicos en ventas y compras](finance-how-use-edocuments.md)  

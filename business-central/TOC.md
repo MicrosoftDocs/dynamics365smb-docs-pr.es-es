@@ -471,6 +471,8 @@ ms.service: dynamics-365-business-central
 
 ### Informes financieros (Implementación de estados financieros y KPI)
 #### [Preparar informes financieros](bi-how-work-account-schedule.md)
+#### [Definiciones de filas en informes financieros](bi-row-definitions.md)
+#### [Definiciones de columnas en informes financieros](bi-column-definitions.md)
 #### [Tutorial: Usar informes financieros para elaborar previsiones de flujo de efectivo](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Configurar y publicar un servicio web KPI basado en informes financieros](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analizar datos con cuentas estadísticas](bi-use-statistical-accounts.md)
@@ -1049,6 +1051,7 @@ ms.service: dynamics-365-business-central
 
 ### Islandia
 #### [Funcionalidad local en la versión islandesa](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Configuración de la aplicación principal para Islandia W1](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### IVA
 ##### [Imprimir información de resumen de IVA en documentos](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Salida de datos especiales e informes para la autoridad fiscal](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### General  
 ##### [Asignar números de IRS al plan de cuentas](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Eliminar facturas y notas de abono registrados](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Número de registro en la localización islandesa](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### India
 #### [Información general](LocalFunctionality/India/india-local-functionality.md)
