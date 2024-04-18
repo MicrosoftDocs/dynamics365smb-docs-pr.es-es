@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bnielse
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 01/25/2023
+ms.date: 04/05/2024
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
@@ -20,6 +20,39 @@ Después de configurar la sincronización de datos maestros y sincronizar por pr
 Sin embargo, a veces las cosas salen mal y puede haber situaciones que deba gestionar o investigar. Por ejemplo, si las personas cambian el mismo registro tanto en la empresa de origen como en una filial, la sincronización fallará para que pueda especificar el cambio correcto. O bien, la empresa de origen podría instalar una extensión que cambie el esquema de una de las tablas que está sincronizando, agregando uno o dos campos. Si desea sincronizar los nuevos campos en las filiales, deberá instalar las mismas extensiones y actualizar los esquemas de tabla en su configuración.
 
 Este artículo describe las herramientas que puede utilizar para que la sincronización funcione sin problemas.
+
+## Sobrescribir cambios locales
+
+Puede usar la casilla de verificación **Sobrescribir cambio local** en los campos y tablas que sincroniza para permitir que los datos de la empresa de origen sobrescriban los datos de la empresa subsidiaria.
+
+> [!NOTE]
+> No puede habilitar la sincronización de un campo y permitir que la filial escriba valores en él independientemente de la empresa de origen. Debe deshabilitar la sincronización del campo o permitir que la empresa de origen sobrescriba los cambios locales.
+
+## Actualizar esquemas de tablas
+
+Si la empresa de origen cambia una tabla, por ejemplo, al agregar un campo que desea sincronizar, las filiales deben actualizar sus asignaciones de campos. En la página **Campos de sincronización**, use la acción **Actualizar campos**.
+
+## Habilitar o deshabilitar los acoplamientos entre registros
+
+Para iniciar o detener el acoplamiento de registros específicos en una tabla, en la página **Campos de sincronización**, elija los campos y luego use las acciones **Habilitar** o **Deshabilitar**.
+
+> [!TIP]
+> Una forma rápida de habilitar o deshabilitar varios campos al mismo tiempo es seleccionarlos en la lista y luego usar las acciones **Habilitar** o **Deshabilitar**.
+
+## Ejecutar una sincronización completa
+
+La acción **Ejecutar sincronización completa** programa una sincronización para todos los registros de la tabla en la empresa de origen y resincroniza todos los registros incondicionalmente. Por ejemplo, la resincronización es útil si habilita un campo adicional en una tabla de sincronización o agrega un campo adicional mediante la acción **Actualizar campos**. La acción sincroniza retroactivamente los datos de esos campos.
+
+## Sincronizar registros modificados
+
+Si cambia una configuración para una tabla o campo en una filial, debe actualizar la sincronización. Para actualizar la sincronización, use la acción **Sincronizar registros modificados** en la página **Tablas de sincronización**.
+
+La acción **Sincronizar registros modificados** programa una sincronización de los siguientes registros de la tabla:
+
+* Registros que no se pudieron sincronizar en el último intento.
+* Los registros que se cambiaron en la empresa de origen después de la última sincronización programada. Puede revisar la última hora de sincronización programada en la página **Tablas de sincronización** en el campo **Sincronizar cambios desde** .
+
+La acción funciona de la misma manera que una sincronización programada y puede usarla como una forma de sincronizar fuera de la programación. Por ejemplo, si selecciona la casilla de verificación **Sobrescribir cambio local** en un campo para permitir que los datos de la empresa de origen sobrescriban los cambios locales, la acción actualiza esos datos. También puede esperar hasta que se produzca la siguiente sincronización programada.
 
 ## Investigar el estado de la sincronización
 
@@ -38,20 +71,12 @@ La siguiente tabla describe las acciones.
 > [!NOTE]
 > Si encuentra un error en la página **Trabajos de sincronización de integración** que no puede resolver usted mismo, si se pone en contacto con su socio o Microsoft para obtener asistencia, es útil proporcionar el mensaje de error e información de la pila de llamadas.
 
-## Sincronizar registros modificados
+## Limpiar entradas antiguas
 
-Si cambia una configuración para una tabla o campo en una filial, debe actualizar la sincronización. Por ejemplo, si decide seleccionar la casilla de verificación **Sobrescribir cambio local** en un campo para permitir que los datos de la empresa de origen sobrescriban los cambios locales. Para actualizar la sincronización, use la acción **Sincronizar registros modificados** en la página **Tablas de sincronización**.
+Con el tiempo, la cantidad de entradas del registro de sincronización aumentará, por lo que es posible que desee hacer un poco de limpieza para eliminar las entradas innecesarias. Para facilitar la limpieza de entradas antiguas, la página **Trabajos de sincronización de integración** ofrece las siguientes acciones:
 
-## Actualizar esquemas de tablas
-
-Si la empresa de origen cambia una tabla, por ejemplo, al agregar un campo que desea sincronizar, las filiales deben actualizar sus asignaciones de campos. En la página **Campos de sincronización**, use la acción **Actualizar campos**. 
-
-## Habilitar o deshabilitar los acoplamientos entre registros
-
-Para iniciar o detener el acoplamiento de registros específicos en una tabla, en la página **Campos de sincronización**, elija los campos y luego use las acciones **Habilitar** o **Deshabilitar**. 
-
-> [!TIP]
-> Una forma rápida de habilitar o deshabilitar varios campos al mismo tiempo es seleccionarlos en la lista y luego usar las acciones **Habilitar** o **Deshabilitar**.
+* **Eliminar movs. anteriores a 7 días**
+* **Eliminar todos los movs.**
 
 ## Agregar extensiones
 
@@ -59,13 +84,6 @@ Si la empresa de origen instala una nueva extensión, la filial también debe in
 
 > [!NOTE]
 > Algunas tablas obtienen datos de tablas relacionadas. Si agrega una extensión que no incluye tablas relacionadas, los campos de esas tablas no estarán disponibles. Verifique que haya agregado todas las tablas relacionadas.
-
-## Limpiar entradas antiguas
-
-Con el tiempo, la cantidad de entradas del registro de sincronización aumentará, por lo que es posible que desee hacer un poco de limpieza para eliminar las entradas innecesarias. Para facilitar la limpieza de entradas antiguas, la página **Trabajos de sincronización de integración** ofrece las siguientes acciones:
-
-* **Eliminar movs. anteriores a 7 días**
-* **Eliminar todos los movs.**
 
 <!--
 ## Recreate a deleted job queue entry

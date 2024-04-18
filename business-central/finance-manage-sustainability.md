@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 02/12/2024
+ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Información general de administración de la sostenibilidad
+# Información general de administración de la sostenibilidad
 
 >[!IMPORTANT]
 >Esta característica estará disponible en Business Central a partir del **primer lanzamiento de versiones de 2024** y todos los vínculos de referencia se habilitarán una vez que estén disponibles.
@@ -38,13 +38,16 @@ Para iniciarse con la administración de sostenibilidad, vea los artículos sigu
 
 |  Artículo  |  Descripción  |  
 |--------|--------------| 
-|Configuración de sostenibilidad | Este artículo proporciona información para ayudarle a configurar correctamente todo el módulo de sostenibilidad. |
-|Plan de cuentas y libro mayor de sostenibilidad | Este artículo proporciona información sobre cómo configurar correctamente el Plan de cuentas de sostenibilidad, las categorías de cuentas y las subcategorías, y cómo analizar la información en las entradas de sostenibilidad. |
-|Cómo registrar emisiones | Utilice este artículo para aprender a trabajar con todo tipo de diarios de sostenibilidad. |
+|[Configuración de sostenibilidad](finance-sustainability-setup.md) | Este artículo proporciona información para ayudarle a configurar correctamente todo el módulo de sostenibilidad. |
+|[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md) | Este artículo proporciona información sobre cómo configurar correctamente el Plan de cuentas de sostenibilidad, las categorías de cuentas y las subcategorías, y cómo analizar la información en movimientos de sostenibilidad. |
+|[Cómo registrar emisiones de gases de efecto invernadero (GEI)](finance-sustainability-journal.md) | Utilice este artículo para aprender a trabajar con todo tipo de diarios de sostenibilidad. |
 
 
-## <a name="see-also"></a>Consulte también
-[Finanzas](finance.md)    
+## Consulte también  
+[Configuración de sostenibilidad](finance-sustainability-setup.md) 
+[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md) 
+[Cómo registrar emisiones de gases de efecto invernadero (GEI)](finance-sustainability-journal.md)
+[Finance](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
