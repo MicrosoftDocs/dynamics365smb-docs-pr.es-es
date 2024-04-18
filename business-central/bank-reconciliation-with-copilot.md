@@ -12,7 +12,7 @@ ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
-# Conciliar cuentas bancarias con Copilot (versión preliminar)
+# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Conciliar cuentas bancarias con Copilot (versión preliminar)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ Este artículo explica cómo utilizar la asistencia de conciliación de cuentas 
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Acerca de la asistencia de conciliación de cuentas bancarias
+## <a name="about-bank-account-reconciliation-assist"></a>Acerca de la asistencia de conciliación de cuentas bancarias
 
 La asistencia para la conciliación de cuentas bancarias es un conjunto de funciones impulsadas por IA que le ayudan a conciliar cuentas bancarias. La asistencia de conciliación de cuentas bancarias le ofrece dos tareas distintas a través de Copilot:
 
@@ -36,14 +36,14 @@ La asistencia para la conciliación de cuentas bancarias es un conjunto de funci
   
    Vaya a [Transfiera transacciones bancarias no coincidentes a cuentas del libro mayor sugeridas](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-## Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 - La asistencia de conciliación de cuentas bancarias está activada. Esta tarea la realiza un administrador. [Obtenga más información sobre cómo configurar las capacidades de Copilot e IA](enable-ai.md).
 - Las cuentas bancarias en Business Central que desea conciliar están vinculadas a una cuenta bancaria en línea o configuradas con formato de importación de extracto bancario. 
 - Está familiarizado con la conciliación de cuentas bancarias en Business Central como se describe en [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## Conciliar cuentas bancarias con Copilot
+## <a name="reconcile-bank-accounts-with-copilot"></a>Conciliar cuentas bancarias con Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -87,7 +87,7 @@ Con este enfoque, utiliza Copilot en una nueva conciliación de cuenta bancaria 
 1. Revise las coincidencias propuestas como se describe en la siguiente sección. 
 ---
 
-### Revisar, guardar o descartar coincidencias propuestas
+### <a name="review-save-or-discard-proposed-matches"></a>Revisar, guardar o descartar coincidencias propuestas
 
 Después de ejecutar Copilot, la ventana **Conciliar con Copilot** muestra los resultados detallados, incluidas las coincidencias propuestas. En este punto, no se han guardado coincidencias propuestas por Copilot, por lo que le brinda la oportunidad de inspeccionar las propuestas y guardarlas o descartarlas como desee.
 
@@ -102,7 +102,7 @@ La ventana de Copilot se divide en dos secciones. La sección superior proporcio
 |Saldo final extracto|Especifica el saldo final que se muestra en el extracto bancario con el que desea hacer la conciliación|
 |Registrar si está totalmente liquidado|Active este interruptor si desea publicar automáticamente la conciliación de la cuenta bancaria cuando todas las líneas (100%) coincidan y haya seleccionado **Mantenerlo**.|
 
-#### Guardar o descartar coincidencias propuestas
+#### <a name="save-or-discard-proposed-matches"></a>Guardar o descartar coincidencias propuestas
 
 En la sección **Propuestas coincidentes**, revise las coincidencias sugeridas línea por línea y luego tome la acción adecuada:
 
@@ -114,7 +114,7 @@ En la sección **Propuestas coincidentes**, revise las coincidencias sugeridas l
 - Para guardar las coincidencias que se muestran actualmente en la ventana de Copilot, seleccione **Mantenerlo**.
 
 
-## Transferir transacciones bancarias no coincidentes a cuentas del libro mayor sugeridas
+## <a name="post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts"></a>Transferir transacciones bancarias no coincidentes a cuentas del libro mayor sugeridas
 
 En esta sección, aprenderá a utilizar Copilot para transferir extractos de cuentas bancarias no conciliadas del libro mayor de cuentas bancarias a una cuenta del libro mayor. Esta tarea sólo se puede realizar a partir de una conciliación existente. 
 
@@ -151,11 +151,11 @@ En esta sección, aprenderá a utilizar Copilot para transferir extractos de cue
 
       Este paso confirma la transferencia de las propuestas actualmente seleccionadas del libro mayor de la cuenta bancaria a la cuenta del libro mayor. Contabiliza nuevos pagos en las cuentas de mayor propuestas y aplica las líneas correspondientes a los asientos del libro mayor de cuentas bancarias resultantes.
 
-## Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 
 [Validar la conciliación de cuenta bancaria](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 [Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)  
 [Preguntas frecuentes para IA responsable para asistencia de conciliación bancaria](faqs-bank-reconciliation.md)  
 [Configurar banca](bank-setup-banking.md)  
