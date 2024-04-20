@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Comprender los métodos de trabajo en proceso (WIP)](projects-understanding-wip.md)
 ### [Supervisar el progreso y el rendimiento del proyecto](projects-how-monitor-progress-performance.md)
 ### [Facturar proyectos](projects-how-invoice-jobs.md)
+### [Ensamblar para proyecto](projects-assemble-to-project.md)
 
 ## Activos fijos
 ### [Información general de los activos fijos](fa-manage.md)

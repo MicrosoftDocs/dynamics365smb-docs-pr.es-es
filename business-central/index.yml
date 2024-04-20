@@ -9,7 +9,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 highlightedContent:
   items:
@@ -71,6 +71,14 @@ additionalContent:
               url: /dynamics365/business-central/across-onedrive-overview
     - title: Administrar y desarrollar
       items:
+        - title: Copilot y capacidades de IA
+          links:
+            - text: Configurar Copilot y capacidades de IA
+              url: /dynamics365/business-central/enable-ai
+            - text: Ampliar Copilot en Business Central
+              url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+            - text: Características y preguntas frecuentes sobre IA responsable
+              url: /dynamics365/business-central/responsible-ai-overview
         - title: Administrar el acceso de los usuarios
           links:
             - text: Crear usuarios
@@ -133,6 +141,20 @@ additionalContent:
               url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
     - title: Ser productivo
       items:
+        - title: Copilot
+          links:
+            - text: Analizar datos de lista
+              url: /dynamics365/business-central/analysis-assist
+            - text: Chatear con Copilot
+              url: /dynamics365/business-central/chat-with-copilot
+            - text: Obtener sugerencias de texto de marketing
+              url: /dynamics365/business-central/ai-overview
+            - text: Hacer coincidir documentos electrónicos
+              url: /dynamics365/business-central/map-edocuments-with-copilot
+            - text: Conciliar cuentas bancarias
+              url: /dynamics365/business-central/bank-reconciliation-with-copilot
+            - text: Sugerir sugerencias de líneas
+              url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Configuración del área de trabajo
           links:
             - text: 'Idioma, región, fecha de trabajo, zona horaria y más'
@@ -153,7 +175,7 @@ additionalContent:
               url: /dynamics365/business-central/across-share-onedrive
             - text: Colaborar en Excel
               url: /dynamics365/business-central/across-work-with-excel
-        - title: 'Inteligencia empresarial, informes y análisis de datos'
+        - title: 'BI, informes y análisis de datos'
           links:
             - text: Información general
               url: /dynamics365/business-central/reports-bi-reporting
@@ -165,7 +187,9 @@ additionalContent:
               url: /dynamics365/business-central/analysis-mode
             - text: Analizar datos de informes con Excel
               url: /dynamics365/business-central/report-analyze-excel
-        - title: Funciones empresariales generales
+    - title: Hacer negocios
+      items:
+        - title: General
           links:
             - text: Diarios generales
               url: /dynamics365/business-central/ui-work-general-journals
@@ -175,8 +199,6 @@ additionalContent:
               url: /dynamics365/business-central/admin-job-queues-schedule-tasks
             - text: Documentos entrantes
               url: /dynamics365/business-central/across-income-documents
-    - title: Hacer negocios
-      items:
         - title: Finanzas
           links:
             - text: Información general
