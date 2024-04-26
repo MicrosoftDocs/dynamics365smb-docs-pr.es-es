@@ -103,7 +103,7 @@ Mensaje: `How does I save my filterrings to do them later?`
 
 En este ejemplo, le pide a Copilot orientación sobre cómo realizar alguna tarea en Business Central. Por lo general, Copilot puede comprender la intención de su pregunta, incluso si hay algunos errores gramaticales, ortográficos o abreviaturas.
 
-Mensaje: `Provide feedback on answers`
+## Proporcionar comentarios sobre las respuestas
 
 Puede calificar las respuestas que obtiene de Copilot usando el botón Me gusta (pulgar hacia arriba) para una buena calificación o el botón No me gusta (pulgar hacia abajo) para una calificación baja. Cuando selecciona el botón No me gusta, puede elegir un motivo, incluido inexacto, inadecuado u otro. Esta información nos puede ayudar a mejorar las sugerencias.
 

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ Este artículo explica cómo controlar Copilot y otras capacidades de IA en Busi
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-Si no se cumple alguno de estos requisitos, la característica no está disponible para su uso.-->
+Si no se cumple alguno de estos requisitos, la característica no está disponible para su uso.
 
 ## Requisitos previos
 
-- Está usando Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- Tener permisos de administrador o super en Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- Está usando Business Central Online.
+- Usted es un [administrador](#requirements-for-being-an-administrator) en Business Central.
 
 ## Permitir el movimiento de datos entre zonas geográficas
 
@@ -116,27 +116,46 @@ La siguiente tabla enumera los permisos necesarios para utilizar las caracterís
 
 |Características de Copilot|Permisos requeridos|
 |-|-|
-|Asistencia de análisis|Conjunto de permisos **DATA ANALYSIS - EXEC** o permiso de ejecución en el objeto del sistema 9640 **Permitir el modo de análisis de datos**. Estos son los mismos permisos necesarios para tener acceso al modo de análisis.|
+|Asistencia de análisis|Conjunto de permisos **DATA ANALYSIS - EXEC** o permiso de ejecución en el objeto del sistema 9640 **Permitir el modo de análisis de datos**. Estos permisos son los mismos permisos necesarios para tener acceso al modo de análisis.|
 |Asistencia de conciliación bancaria|Permiso en la página 7250 **Prop. IA concil. cuent. banc.** y la página 7252 **Trans. a Prop. IA cuenta libro mayor**.|
 |Chat |No existen permisos ni conjuntos de permisos que controlen el acceso al chat por usuario. Si el chat está activado, está disponible para todos los usuarios.|
+|Asignar documentos electrónicos |Permiso en la página 6166 **E-Doc. PO Copilot Prop**|
 |Sugerencias de texto de marketing |Permiso en la página 5836 **Texto de marketing de Copilot**|
+|Sugerencias de líneas de ventas |Permiso en la página 7275 **Sugerencias de IA de línea de ventas** y página 7276 **Sugerencias secundarias de IA de línea de ventas**|
 
-Para otorgar o denegar el acceso a capacidades específicas que no son de copiloto de Microsoft e IA, consulte la documentación o el editor de esa función para identificar qué permisos se requieren.
+Para conceder o denegar el acceso a características que no sean específicas de Microsoft Copilot e IA, consulte la documentación de la característica o al editor para identificar los permisos necesarios.
+
+## Requisitos para ser administrador
+
+Debe tener permisos SUPER en la cuenta de usuario de Business Central o una de las siguientes licencias de Business Central:
+
+- Administrador delegado
+- Departamento de soporte técnico delegado
+- Administrador global
+- Administrador de BC
+- Administrador de D365
+
+Business Central aún no ofrece permisos granulares a nivel de objeto para que solo administradores específicos puedan configurar Copilot.
 
 ## Pasos siguientes
 
 Después de habilitar y dar su consentimiento a las funciones, estará listo para probarlas. Ir a:
 
-- [Agregar texto de marketing para productos](item-marketing-text.md)
-- [Analizar datos en el modo de análisis con Copilot](analysis-assist.md)  
+- [Agregar texto de marketing para artículos con Copilot](item-marketing-text.md)
+- [Analizar datos de listas con la ayuda de Copilot](analysis-assist.md)  
 - [Chatear con Copilot](chat-with-copilot.md)
-- [Conciliar con la asistencia de conciliación de cuentas bancarias](bank-reconciliation-with-copilot.md)
+- [Asignar documentos electrónicos a líneas de pedido de compra con Copilot](map-edocuments-with-copilot.md)
+- [Conciliar cuentas bancarias con Copilot](bank-reconciliation-with-copilot.md)
+- [Sugerir líneas en pedidos de venta con Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
 ## Consulte también
 
 [Solucionar problemas de Copilot y capacidades de IA](ai-copilot-troubleshooting.md)  
-[Preguntas frecuentes para asistencia de análisis](faqs-analysis-assist.md)  
+[Preguntas frecuentes sobre asistencia de análisis](faqs-analysis-assist.md)  
 [Preguntas frecuentes para la asistencia de conciliación bancaria](faqs-bank-reconciliation.md)  
-[Preguntas frecuentas para Chatear con Copilot](faqs-chat-with-copilot.md)  
+[Preguntas frecuentes sobre Chatear con Copilot](faqs-chat-with-copilot.md)  
+[Preguntas frecuentes sobre la asignación de documentos electrónicos con pedidos de compra](faqs-map-edocuments.md)  
 [Preguntas frecuentes para sugerencias de texto de marketing](faqs-marketing-text.md)  
+[Preguntas frecuentes para las sugerencias de líneas de ventas](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Resumen de sugerencias de texto de marketing](ai-overview.md)  

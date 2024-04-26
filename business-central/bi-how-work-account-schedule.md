@@ -127,11 +127,42 @@ Puede usar un informe financiero para crear un extracto que compare las cifras d
 
 Ahora puede copiar y pegar el extracto del presupuesto en una hoja de cálculo.  
 
+## Integrar informes financieros con Excel
+
+Puede integrar un informe financiero con una plantilla de libro de Excel, ajustar el diseño para adaptarlo a sus necesidades y luego actualizar la plantilla de Excel con datos de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, esta integración facilita la generación de sus estados financieros mensuales y anuales en un formato que funcione para usted.
+
+### Configurar la integración de Excel para un informe financiero (crear una plantilla de Excel)
+
+Para configurar la integración de Excel para un informe financiero, siga estos pasos para crear una plantilla de Excel para un informe.
+
+1. Elija el icono ![Bombilla que abre la característica Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.
+1. En la página **Informes financieros**, seleccione el informe financiero que desee habilitar con Excel y a continuación, elija la acción **Exportar a Excel**.
+1. Seleccione la acción **Crear documento nuevo**. Esta acción descarga una plantilla de libro de Excel con una sola hoja de trabajo que lleva el nombre del informe.
+1. Copie la hoja de trabajo y cámbiele el nombre a **Datos**.
+1. Cambie el nombre de la hoja de trabajo del informe a su gusto.
+1. En la hoja de trabajo del informe, marque todas las celdas que muestran datos del informe financiero (incluidos los encabezados de columnas y filas). En la cinta **Inicio**, busque el menú **Número** y elija **General** como formato.
+1. Elija la celda más a la izquierda del área con datos del informe financiero y establezca una referencia a la celda equivalente en la hoja de cálculo de datos. Arrastre la fórmula hacia la derecha para extenderla a todas las celdas de la primera fila y luego arrastre la fila hacia abajo para cubrir todas las filas del informe financiero.
+1. Oculte la hoja de trabajo **Datos**.
+1. Dé formato a la hoja de trabajo del informe para adaptarla a sus necesidades.
+1. Guarde el libro en OneDrive o en un lugar similar donde se realice una copia de seguridad y se versione el archivo.
+1. Cierre el libro.
+
+### Ejecutar un informe financiero con una plantilla de Excel
+
+Para ejecutar un informe financiero con una plantilla de Excel, siga estos pasos:
+
+1. Elija el icono ![Bombilla que abre la función Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.
+1. En la página **Informes financieros**, seleccione el informe financiero que desee habilitar con Excel y a continuación, elija la acción **Exportar a Excel**.
+1. Seleccione la acción **Actualizar copia del documento existente**.
+1. Cargue su plantilla de Excel (cierre el libro de Excel antes de cargarlo).
+1. En la página **Búsqueda de nombre/valor**, elija la hoja de cálculo Datos.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] ejecuta el informe financiero y combina los datos resultantes con su plantilla de Excel.
+
 ## Imprimir y guardar informes financieros
 
 Puede imprimir informes financieros utilizando los servicios de impresión de su dispositivo. [!INCLUDE[prod_short](includes/prod_short.md)] también ofrece opciones para guardar informes como libros de trabajo de Excel, documentos de Word, archivos PDF y XML.
 
-1. Elija el icono ![Bombilla que abre la característica Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la función Dígame 4](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.
 1. En la página **Informes financieros**, seleccione el informe financiero que desea imprimir y, a continuación, elija la acción **Imprimir**.
 1. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. En el campo **Impresora**, seleccione el dispositivo al que se envía el informe.
@@ -147,6 +178,7 @@ Puede guardar un informe financiero en formatos de archivo tales como PDF, XML, 
 1. Configure el informe en consecuencia, luego elija la acción **Enviar a**.
 1. Seleccione el formato de archivo o la acción **Calendario** y elija **Aceptar**.
 1. Para generar un informe financiero programado o recurrente, complete los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Para informes financieros recurrentes, configure los campos **Fecha/hora de inicio más temprana** y **Fecha/hora de caducidad** con la primera y última fecha, respectivamente, para generar el informe financiero. Además, seleccione en qué días se genera el informe configurando el campo **Fórmula de fecha de próxima ejecución** siguiendo el formato explicado en la sección [Usar fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas).
+
 
 ## Procedimientos recomendados para trabajar con definiciones de informes financieros
 
@@ -165,7 +197,7 @@ Puede importar y exportar definiciones de informes financieros como paquetes de 
 
 Para importar o exportar definiciones de informes financieros, siga estos pasos:
 
-1. Elija el icono ![Bombilla que abre la función Dígame 4](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Informes financieros** y luego elija el vínculo relacionado.
 1. Elija el informe financiero, luego elija la acción **Importar informe financiero** o **Exportar informe financiero**, dependiendo de lo que quiera hacer.
 
 Para obtener más información sobre cómo importar o exportar definiciones de filas o columnas de informes financieros, consulte los siguientes artículos: 

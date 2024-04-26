@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot es el asistente impulsado por IA que ayuda a despertar la crea
 
 Copilot incluye un conjunto de capacidades en constante expansión que ayudan a los usuarios en diferentes roles y tareas. Puede leer sobre Copilot y otras características de IA en Business Central en [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## ¿Es Copilot gratuito? 
+## ¿Es Copilot gratuito?
 
 En este momento, Copilot en Business Central está incluido con su licencia de Business Central sin coste adicional. Esto no excluye que en una fecha posterior se puedan introducir políticas, cuotas o precios de uso legítimo.
 
@@ -39,6 +39,10 @@ Business Central ofrece numerosas características con tecnología de IA. Alguna
 ## ¿Está Copilot en Business Central disponible en todo el mundo? 
 
 Copilot incluye un conjunto de capacidades en constante expansión que ayudan a los usuarios en diferentes roles y tareas. Cada capacidad de Copilot define su propia lista de regiones e idiomas admitidos. Si bien es probable que la mayoría de las características comiencen a estar disponibles solo en inglés, aspiramos a desbloquear más idiomas y regiones con el tiempo. Puede obtener una descripción general de los idiomas y regiones de Copilot disponibles para aplicaciones comerciales en [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## ¿Copilot está al tanto de las personalizaciones de mi entorno?
+
+Algunas funciones de Copilot, aunque no todas, pueden funcionar con sus páginas y tablas personalizadas. Por ejemplo, puede usar [asistencia de análisis](analysis-assist.md) en sus listas personalizadas, o [chatear con Copilot](chat-with-copilot.md) para buscar registros en tablas personalizadas. Para comprender qué funciones de Copilot funcionan con personalizaciones, consulte los artículos de cada característica.
 
 ## ¿Puedo desarrollar mis propios copilotos para Business Central?
 
