@@ -148,7 +148,7 @@ Hay dos formas de enviar informes a sus compañeros de trabajo y a otras persona
 
 ## <a name="fixing-problems"></a>Solucionar problemas
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"No se puede insertar un registro. La intención de conexión actual es de solo lectura". error al conectarse a página API personalizada
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"No se puede insertar un registro. La intención de conexión actual es de solo lectura". error al conectarse a página API personalizada
 
 > **SE APLICA A:** Business Central online
 

@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="introduction-to--and-power-bi"></a>Introducción a [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
+# <a name="introduction-to-business-central-and-power-bi"></a>Introducción a [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ Es fácil obtener información sobre los datos de [!INCLUDE[prod_short](includes
 
 ![Power BI y Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-"></a>¿Qué puede hacer con Power BI y [!INCLUDE[prod_short](includes/prod_short.md)]?
+## <a name="what-you-can-do-with-power-bi-and-business-central"></a>¿Qué puede hacer con Power BI y [!INCLUDE[prod_short](includes/prod_short.md)]?
 
 Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI. Algunas cosas se pueden hacer desde Power BI, mientras que otras cosas se hacen desde [!INCLUDE[prod_short](includes/prod_short.md)]. Además, algunas funciones solo están disponibles con [!INCLUDE[prod_short](includes/prod_short.md)] online, no local. La siguiente tabla le ofrece una descripción general.
 
