@@ -10,14 +10,14 @@ ms.date: 04/24/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Fuentes Disponibles
+# <a name="available-fonts"></a>Fuentes Disponibles
 
 La versión en línea de [!INCLUDE[prod_short](includes/prod_short.md)] contiene fuentes preinstaladas en los servidores que se pueden usar al generar informes. Las siguientes secciones describen las fuentes disponibles.
 
 > [!NOTE]
 > Por razones legales y de seguridad, no puede cargar fuentes personalizadas en el ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Fuentes de documentos
+## <a name="document-fonts"></a>Fuentes de documentos
 
 Las siguientes fuentes están instaladas y disponibles para su uso en diseños de informes de Excel, Word y RDLC:
  
@@ -156,7 +156,7 @@ Las siguientes fuentes están instaladas y disponibles para su uso en diseños d
 * Yu Gothic UI Semibold
 * Yu Gothic UI Semilight
 
-## Fuentes para cheques
+## <a name="fonts-for-checks"></a>Fuentes para cheques
 
 Las fuentes de reconocimiento de caracteres de tinta magnética (MICR) están instaladas y disponibles para su uso. Ambos estándares E-13B y CMC-7 son admitidos.  
 
@@ -164,7 +164,7 @@ Además de las fuentes MICR, hay fuentes de seguridad especiales disponibles par
 
 Para obtener más información , vea [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md).  
 
-## Fuentes para códigos de barras
+## <a name="fonts-for-barcodes"></a>Fuentes para códigos de barras
 Las fuentes para generar códigos de barras están instaladas y disponibles para su uso en diseños de informes de Word y RDLC.
 
 Se admiten las siguientes simbologías de códigos de barras:
@@ -184,7 +184,7 @@ Se admiten las siguientes simbologías bidimensionales de códigos de barras:
 
 Para obtener más información, consulte [Fuentes para códigos de barras con Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Seleccionar una plantilla de cheques](finance-how-define-check-layouts.md)  
