@@ -11,7 +11,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Administración de proyectos
+# <a name="project-management"></a>Administración de proyectos
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], puede realizar tareas habituales de administración de proyectos, como configurar un proyecto y programar un recurso, así como proporcionar la información necesaria para administrar presupuestos y supervisar el progreso. Puede hacer un seguimiento de las horas de máquina y de empleados del proyecto utilizando las hojas de horas. Como administrador de proyectos, dispone de una buena visión general no solo de proyectos individuales, sino también de la asignación de empleados, maquinaria y otros recursos que se estén usando en todos los proyectos.
 
@@ -31,11 +31,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registrar el consumo de materiales, recursos y demás gastos del proyecto en curso (WIP) del proyecto para supervisar su valor financiero y mantener balances financieros correctos, aunque se registren los gastos del proyecto antes de facturar el proyecto. |[Supervisar el progreso y el rendimiento del proyecto](projects-how-monitor-progress-performance.md) |
 | Registrar los costes de proyecto para el uso de recursos, materiales y compras relacionadas con el proyecto de forma continua y emitir la factura al cliente, cuando el proyecto haya finalizado o según un programa de facturación. |[Facturar proyecto](projects-how-invoice-jobs.md) |
 
-## Introducción a los proyectos
+## <a name="get-started-with-projects"></a>Introducción a los proyectos
 
 La administración de proyectos ya es bastante complicada en sí misma, y aprender a crear proyectos y administrar el trabajo en curso en una nueva herramienta puede ser otra complicación. Para ayudarte a empezar con la administración de proyectos en [!INCLUDE[prod_short](includes/prod_short.md)], puede ver [un vídeo sobre la creación de proyectos](https://www.youtube.com/watch?v=VqaPWr7BWmw) en el canal [!INCLUDE[prod_short](includes/prod_short.md)] de YouTube.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configurar la administración de proyectos](projects-setup-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

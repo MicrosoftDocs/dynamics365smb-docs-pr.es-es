@@ -9,7 +9,7 @@ ms.date: 01/11/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-business-central-desktop-app"></a>Obtener la aplicación de escritorio Business Central
+# <a name="get-the-business-central-desktop-app"></a>Obtener la aplicación de escritorio Business Central
 
 Si tiene un ordenador con Windows (PC) o macOS, puede instalar una aplicación Business Central en su escritorio. La aplicación funciona con Business Central Online y localmente.
 
@@ -24,7 +24,7 @@ La aplicación Business Central se parece al cliente web, pero ofrece algunos be
 
      Cuando abre la aplicación para un entorno específico, el nombre del entorno se incluye en el título de la ventana. Cuando se trabaja en varios entornos [!INCLUDE[prod_short](includes/prod_short.md)], cada ventana de la aplicación se muestra por separado. El nombre le facilita ver qué ventana está asociada con cada entorno.
 
-## <a name="install-the-app-for-business-central-online"></a>Instalar la aplicación para Business Central Online
+## <a name="install-the-app-for--online"></a>Instalar la aplicación para Business Central Online
 
 Hay dos formas de instalar la aplicación para Business Central Online. Puedes instalarla directamente desde el navegador o desde Microsoft Store. Cualquiera que sea el enfoque que utilice, es la misma aplicación. La diferencia es que la instalación desde el navegador le permite instalar la aplicación para cada entorno cuando hay más de uno.
 
@@ -56,7 +56,7 @@ La próxima vez que quiera abrir la aplicación, búsquela en el menú **Inicio*
 
 Una vez instalada, la aplicación aparece en el menú **Inicio**. Si ha seleccionado un entorno específico para la aplicación, el nombre del entorno se agrega al nombre de la aplicación en el menú **Inicio**.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Instalar la aplicación para Business Central de forma local
+## <a name="install-the-app-for--on-premises"></a>Instalar la aplicación para Business Central de forma local
 
 La instalación de la aplicación de escritorio cuando utiliza Business Central local se realiza directamente desde el navegador según se [describió anteriormente](#from-the-browser). Si solo tiene un inquilino, simplemente abra Business Central en su navegador y, después, seleccione ![Icono para instalar una aplicación en Edge.](media/ui-edge-install-app-icon.png) **Aplicación disponible. Instalar Business Central** o ![Icono para instalar una aplicación en Chrome.](media/ui-chrome-install-app-icon.png) **Instalar Business Central** como se muestra arriba.
 

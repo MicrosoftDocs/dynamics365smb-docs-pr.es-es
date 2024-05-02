@@ -68,7 +68,7 @@ Luego, crea un pedido de cliente con una cantidad de 12 en la ubicación WEST. E
 > [!NOTE]  
 > Si las previsiones en función de las ubicaciones se observan por separado, la previsión global podría no ser representativa.
 
-### <a name="do-not-use-forecast-by-locations"></a>No use previsiones por almacenes
+### <a name="if-you-dont-use-forecast-by-locations"></a>No use previsiones por almacenes
 
 Si desactiva la opción **Usar pronóstico por ubicación**, entonces [!INCLUDE[prod_short](includes/prod_short.md)] ignorará los códigos de ubicación especificados para cada entrada de Previsión de demanda y agregará las previsiones en una previsión para ubicaciones vacías.  
 

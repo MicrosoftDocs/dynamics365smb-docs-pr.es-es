@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Informes y análisis de cuentas por pagar en Business Central
+# <a name="accounts-payable-reports-and-analytics"></a>Informes y análisis de cuentas por pagar en Business Central
 
 Para ayudarlo a administrar sus cuentas por pagar en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
