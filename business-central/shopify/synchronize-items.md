@@ -327,7 +327,7 @@ Desde la perspectiva [!INCLUDE[prod_short](../includes/prod_short.md)] cuando cr
 * usar la opción **Ubicación predeterminada del producto** para especificar si este artículo será cumplido por cumplimiento de Shopify o por 3PL. Siempre hay **Servicio de cumplimiento de Business Central**, pero puede haber más servicios de cumplimiento si se instalan más aplicaciones. Puede habilitar **Ubicación predeterminada del producto** solo en un registro si desea utilizar el servicio de cumplimiento. 
 * use la opción **Ubicación predeterminada del producto** para especificar qué ubicaciones desea usar para realizar un seguimiento del inventario. Puede activar la **Ubicación predeterminada del producto** para varias ubicaciones donde **El servicio de cumplimiento** está deshabilitado. Tenga en cuenta que siempre se realizará un seguimiento del inventario para su ubicación principal. 
  
-#### <a name="what-is-the-difference"></a>¿Cuál es la diferencia?
+#### <a name="whats-the-difference"></a>¿Cuál es la diferencia?
 
 El cumplimiento de Shopify es útil cuando se utiliza Shopify PDV y existen múltiples tiendas físicas. Quiere que el empleado de la tienda física conozca su inventario actual. En este caso, crea varias ubicaciones en Shopify, múltiples ubicaciones en [!INCLUDE[prod_short](../includes/prod_short.md)], activando **Ubicación predeterminada del producto** para todas estas ubicaciones.  
 

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics-in-business-central"></a>Análisis financiero en Business Central
+# <a name="financial-analytics"></a>Análisis financiero en Business Central
 
 Las empresas capturan una enorme cantidad de datos durante las actividades diarias que respaldan la valiosa inteligencia empresarial (BI) para los tomadores de decisiones: 
 

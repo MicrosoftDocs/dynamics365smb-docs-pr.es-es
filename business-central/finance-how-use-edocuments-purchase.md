@@ -157,7 +157,7 @@ Si desea agregar algo de tolerancia y permitir la diferencia entre líneas en **
 3. Esta configuración se aplicará a todas las líneas coincidentes, pero nuevamente considerando la tolerancia para el importe total, como para el **Coste unitario directo** junto con el **% de descuento en línea** aplicado.  
 4. Cierre la página.   
 
-##### <a name="to-match-lines-from-e-document"></a>Para hacer coincidir líneas de un documento electrónico
+##### <a name="matching-lines-from-e-document"></a>Para hacer coincidir líneas de un documento electrónico
 
 Puede hacer coincidir las líneas en la página  **Documento electrónico**. Para empezar, siga los pasos que se detallan a continuación:  
 

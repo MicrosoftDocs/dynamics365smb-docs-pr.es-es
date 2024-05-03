@@ -154,7 +154,7 @@ Puede explotar los clientes existentes a Shopify de forma masiva como empresa. E
 |**Permisos de contacto predeterminado**| Especifique qué permisos deben asignarse al contacto principal. Puede elegir entre **Ninguno**, **Sólo pedidos** y **Administrador de ubicación**.|
 |**Creación automática de catálogos**| Habilite esta opción si desea crear un catálogo que incluya todos los productos. Se crea un catálogo para cada empresa exportada.|
 
-## <a name="export-b2b-company-to-shopify"></a>Exportar empresa B2B a Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Exportar empresa B2B a Shopify
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Sincronización inicial de empresas B2B de Business Central a Shopify
 
