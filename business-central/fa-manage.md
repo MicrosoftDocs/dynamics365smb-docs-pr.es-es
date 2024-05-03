@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Administrar activos fijos
+# Administrar activos fijos
 
 La funcionalidad Activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y asegura una correcta amortización periódica. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
 
-## <a name="video-overview"></a>Resumen en vídeo
+## Resumen en vídeo
 
 El siguiente video cubre los conceptos básicos de los activos fijos:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Información general de los activos fijos
+## Información general de los activos fijos
 
 Deberá configurar una ficha con la información de cada activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Ahora puede empezar a adquirir, mantener y vender los activos fijos. También puede configurar activos presupuestados. El presupuesto le permite incluir adquisiciones y ventas anticipadas en los informes.
 
@@ -46,7 +46,7 @@ Puede vincular cada activo fijo a una o más pólizas de seguro y verificar que 
 > [!NOTE]  
 > Puede registrar transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. La ayuda para los activos fijos solo describe cómo utilizar la página **A/F Diario general**. Para obtener más información, consulte [Configurar amortización de activos fijos](fa-how-setup-depreciation.md).
 
-## <a name="how-to-use-fixed-assets"></a>Cómo usar activos fijos
+## Cómo usar activos fijos
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.
 
@@ -64,7 +64,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 | Gestionar presupuestos de activos fijos, costes, ventas/bajas y amortización. |[Administrar presupuestos para activos fijos.](fa-how-manage-budgets.md) |
 | Obtenga más información sobre las capacidades integradas de informes y análisis para activos fijos. | [Informes y análisis de activos fijos](fa-reports.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configuración de activos fijos](fa-setup.md)  
 [Información general sobre finanzas](finance.md)  
