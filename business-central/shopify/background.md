@@ -9,14 +9,14 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="run-tasks-in-the-background"></a>Ejecutar tareas en segundo plano
+# Ejecutar tareas en segundo plano
 
 Es eficiente ejecutar algunas tareas simultáneamente y de forma automatizada. Puede realizar dichas tareas en segundo plano y también puede establecer un cronograma cuando desee que esas tareas se ejecuten automáticamente. Para ejecutar tareas en segundo plano, se admiten dos modos:
 
 - Las tareas activadas manualmente se programan inmediatamente a través de **Movimientos de cola de proyectos**.
 - Las tareas recurrentes se programan en **Movimientos de cola de proyectos**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Ejecutar tareas en segundo plano para una tienda específica
+## Ejecutar tareas en segundo plano para una tienda específica
 
 1. Elija la ![Bombilla que abre la función Dígame.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tienda de Shopify** y luego elija el vínculo relacionado.
 2. Seleccione la tienda para la que desea ejecutar la sincronización en segundo plano para abrir la página **Tarjeta de tienda de Shopify**.
@@ -24,7 +24,7 @@ Es eficiente ejecutar algunas tareas simultáneamente y de forma automatizada. P
 
 Ahora, cuando se inicia la acción de sincronización, en lugar de ejecutar una tarea en primer plano, le pide que espere. Cuando se haya completado, puede continuar con la siguiente acción. La tarea se crea como un **Movimiento de cola de proyectos** y comienza de inmediato.
 
-## <a name="to-schedule-recurring-tasks"></a>Programar tareas recurrentes
+## Programar tareas recurrentes
 
 Puede programar las siguientes actividades recurrentes para que se realicen de forma automatizada. Obtenga más información sobre programar tareas en [Cola de trabajo](../admin-job-queues-schedule-tasks.md).
 
@@ -54,7 +54,7 @@ Puede usar el campo **N.º de pedido de Shopify** para identificar los documento
 
 Para obtener más información sobre la publicación de pedidos de venta en un lote, vaya a [Para crear una entrada de cola de trabajos para el registro por lotes de pedidos de venta](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="to-check-the-status-of-synchronization"></a>Para comprobar el estado de la sincronización
+## Para comprobar el estado de la sincronización
 
 En el Área de trabajo **Administrador de negocio**, la parte **Actividades de Shopify** ofrece varias señales que pueden ayudarle a identificar rápidamente si hay problemas con el conector de Shopify.
 
@@ -65,6 +65,6 @@ En el Área de trabajo **Administrador de negocio**, la parte **Actividades de S
 - **Errores de envíos**: el conector de Shopify no pudo sincronizar los envíos de ventas registrados con Shopify.
 - **Errores de sincronización**: hay entradas fallidas en la cola de trabajos relacionadas con la sincronización con Shopify.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Comenzar con el conector para Shopify](get-started.md)  
