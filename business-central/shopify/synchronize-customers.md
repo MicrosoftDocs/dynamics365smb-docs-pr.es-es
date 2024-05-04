@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ---
 
-# Sincronizar clientes y empresas
+# <a name="synchronize-customers-and-companies"></a>Sincronizar clientes y empresas
 
 Cuando un pedido se importa desde Shopify, es esencial obtener la información sobre el cliente para el procesamiento posterior del documento en [!INCLUDE[prod_short](../includes/prod_short.md)]. Hay dos opciones principales para ello y sus diversas combinaciones:
 
@@ -30,7 +30,7 @@ Para exportar un cliente desde [!INCLUDE[prod_short](../includes/prod_short.md)]
 * Exportar un cliente como cliente Shopify para DTC.
 * Exporte un cliente como par de empresa y cliente para el flujo B2B.
 
-## Configuraciones importantes al importar clientes DTC desde Shopify
+## <a name="important-settings-when-importing-dtc-customers-from-shopify"></a>Configuraciones importantes al importar clientes DTC desde Shopify
 
 Da igual si importa clientes desde Shopify de forma masiva o junto con la importación de pedidos, las siguientes configuraciones le permiten administrar el proceso:
 
@@ -42,7 +42,7 @@ Da igual si importa clientes desde Shopify de forma masiva o junto con la import
 |**Crear clientes desconocidos automáticamente**| Seleccione este campo si desea que el conector cree los clientes que falten cuando las opciones **Por correo electrónico/teléfono** o **Por información de dirección de facturación** se hayan seleccionado en el campo **Tipo de asignación de cliente**. Se creará un nuevo cliente usando datos importados y el **Código de plantilla de cliente** definido en las páginas **Ficha de tienda de Shopify** o **Plantilla de cliente de Shopify**. Tenga en cuenta que el cliente de Shopify debe tener al menos una dirección. A los pedidos creados a través del canal de ventas Shopify POS a menudo les faltan los detalles de la dirección. Si esta opción no está habilitada, deberá crear un cliente manualmente y vincularlo al cliente de Shopify.|
 |**Código plantilla cliente/empresa**|Este campo se usa con **Creación automática de clientes desconocidos**.</br></br> Elija la plantilla predeterminada que se utilizará para los clientes creados automáticamente. Asegúrese de que la plantilla seleccionada contenga los campos obligatorios, como los campos **Grupo de registro de negocio general**, **Grupo de registro de clientes**, y el IVA o los campos relacionados con impuestos.</br></br>Puede definir plantillas por país o región en la página **Plantillas de clientes de Shopify**, que es útil para el cálculo de impuestos adecuado.</br></br>Obtenga más información en [Configurar impuestos](setup-taxes.md).|
 
-### Plantilla de cliente por país o región
+### <a name="customer-template-per-countryregion"></a>Plantilla de cliente por país o región
 
 Algunas configuraciones se pueden definir en el nivel de país o región, o en el nivel de estado o provincia. Los ajustes se pueden configurar en [Envío y entrega](https://www.shopify.com/admin/settings/shipping) en Shopify.
 
@@ -56,7 +56,7 @@ Puede hacer lo siguiente para cada cliente mediante la **Plantilla de cliente de
 > [!NOTE]  
 > Los códigos de país son códigos de país ISO 3166-1 alfa-2. Obtenga más información en [Código de país](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Configuraciones importantes al exportar clientes de DTC a Shopify
+## <a name="important-settings-when-exporting-dtc-customers-to-shopify"></a>Configuraciones importantes al exportar clientes de DTC a Shopify
 
 Puede explotar los clientes existentes a Shopify de forma masiva. En cada caso, se crean un cliente y una dirección predeterminadas. Puede gestionar el proceso con las siguientes configuraciones:
 
@@ -79,7 +79,7 @@ Los siguientes son requisitos para exportar un cliente:
 
 Una vez que haya creado los clientes en Shopify, puedes enviarles invitaciones directas animándolos a activar sus cuentas.
 
-### Rellenar la información del cliente en Shopify
+### <a name="populate-customer-information-in-shopify"></a>Rellenar la información del cliente en Shopify
 
 Un cliente en Shopify tiene nombre, apellido, correo electrónico y número de teléfono. Puede introducir el nombre y los apellidos a partir de los datos de la ficha del cliente en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -98,9 +98,9 @@ Un cliente en Shopify también tiene una dirección predeterminada. Esta direcci
 
 Para las direcciones en las que se utiliza la provincia, seleccione **Código** o **Nombre** en el campo **Origen de provincia**, en la página **Tarjeta de tienda de Shopify**. El código o el nombre especifica el tipo de datos almacenados en [!INCLUDE[prod_short](../includes/prod_short.md)], en el campo **Provincia**. Recuerde inicializar las plantillas de clientes por país o región, para que la asignación de código/nombre de provincia esté listo. 
 
-## Exportar clientes DTC a Shopify
+## <a name="export-dtc-customers-to-shopify"></a>Exportar clientes DTC a Shopify
 
-### Sincronización inicial de clientes de Business Central a Shopify
+### <a name="initial-sync-of-customers-from-business-central-to-shopify"></a>Sincronización inicial de clientes de Business Central a Shopify
 
 1. Vaya al icono de búsqueda ![Bombilla que abre la función Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer"). , escriba **Clientes de Shopify** y luego elija el enlace relacionado.
 2. Elija la acción **Agregar cliente**.
@@ -113,7 +113,7 @@ Los clientes resultantes se crean automáticamente en Shopify con direcciones.
 > [!NOTE]  
 > La sincronización inicial de clientes de [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify no tiene en cuenta la configuración **Puede actualizar clientes de Shopify**.
 
-### Sincronizar clientes
+### <a name="sync-customers"></a>Sincronizar clientes
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tienda de Shopify** y luego elija el enlace relacionado.
 2. Seleccione la tienda específica para la que desea sincronizar los clientes.
@@ -123,11 +123,11 @@ Como alternativa, use la acción **Iniciar sincronización de cliente** en la ve
 
 Puede programar la tarea para que se realice de forma automatizada. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
 
-## Empresas B2B
+## <a name="b2b-companies"></a>Empresas B2B
 
 Si utilizas B2B en Shopify, además de clientes también puedes crear empresas. Puede vincular uno o más clientes individuales a una empresa. También puede definir condiciones de pago, ubicaciones y catálogos.
 
-## Configuraciones importantes al importar empresas B2B desde Shopify
+## <a name="important-settings-when-importing-b2b-companies-from-shopify"></a>Configuraciones importantes al importar empresas B2B desde Shopify
 
 Da igual si importa clientes desde Shopify de forma masiva o junto con la importación de pedidos, use la configuración de la tabla siguiente para administrar el proceso.
 
@@ -144,7 +144,7 @@ Da igual si importa clientes desde Shopify de forma masiva o junto con la import
 > Solo se importa una ubicación más antigua.
 > Sólo se importa el contacto principal.
 
-## Configuraciones importantes al exportar empresas B2B a Shopify
+## <a name="important-settings-when-exporting-b2b-companies-to-shopify"></a>Configuraciones importantes al exportar empresas B2B a Shopify
 
 Puede explotar los clientes existentes a Shopify de forma masiva como empresa. En cada caso se crea una empresa y una ubicación predeterminada y un contacto principal. También es posible crear un catálogo.
 
@@ -154,9 +154,9 @@ Puede explotar los clientes existentes a Shopify de forma masiva como empresa. E
 |**Permisos de contacto predeterminado**| Especifique qué permisos deben asignarse al contacto principal. Puede elegir entre **Ninguno**, **Sólo pedidos** y **Administrador de ubicación**.|
 |**Creación automática de catálogos**| Habilite esta opción si desea crear un catálogo que incluya todos los productos. Se crea un catálogo para cada empresa exportada.|
 
-## Exportar empresa B2B a Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Exportar empresa B2B a Shopify
 
-### Sincronización inicial de empresas B2B de Business Central a Shopify
+### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Sincronización inicial de empresas B2B de Business Central a Shopify
 
 1. Vaya al icono ![Bombilla que abre la función Dígame](../media/ui-search/search_small.png "Dígame qué desea hacer") de búsqueda. , escriba **Empresa de Shopify** y luego elija el enlace relacionado.
 2. Elija la acción **Agregar empresa**.
@@ -169,7 +169,7 @@ La empresa y clientes resultantes se crean automáticamente en Shopify.
 > [!NOTE]  
 > La sincronización inicial de empresas de [!INCLUDE[prod_short](../includes/prod_short.md)] a Shopify no tiene en cuenta la configuración **Puede actualizar empresas de Shopify**.
 
-### Sincronizar empresas B2B
+### <a name="sync-b2b-company"></a>Sincronizar empresas B2B
 
 1. Elija el icono ![Bombilla que abre la función Dígame 1.](../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tienda de Shopify** y luego elija el enlace relacionado.
 2. Seleccione la tienda específica para la que desea sincronizar los clientes.
@@ -179,6 +179,6 @@ Como alternativa, utilice la acción **Iniciar sincronización de empresa** en l
 
 Puede programar la tarea para que se ejecuten de forma automatizada. Obtenga más información en [Programar tareas recurrentes](background.md#to-schedule-recurring-tasks).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Comenzar con el conector para Shopify](get-started.md)  
