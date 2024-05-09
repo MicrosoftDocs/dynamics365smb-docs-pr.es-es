@@ -9,11 +9,11 @@ ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-temeplate
 ---
-# Advertencias y mensajes de error
+# <a name="warnings-and-error-messages"></a>Advertencias y mensajes de error
 
 Durante un día de trabajo, es posible que vea notificaciones en [!INCLUDE [prod_short](includes/prod_short.md)] sobre que algo salió mal o que no fue posible publicar algo, por ejemplo. En muchos casos, la notificación facilita la resolución del problema o la reversión de cualquier cambio que haya realizado. En otros casos, es posible que no tenga la información que necesita para el desbloqueo. Este artículo proporciona sugerencias sobre cómo progresar.  
 
-## Asistencia al usuario en el producto
+## <a name="in-product-user-assistance"></a>Asistencia al usuario en el producto
 
 La versión predeterminada de [!INCLUDE [prod_short](includes/prod_short.md)] incluye descripciones para la mayoría de los campos, columnas y acciones a las que se puede acceder cuando se elige el nombre. En combinación con consejos didácticos para páginas importantes, estas descripciones emergentes o leyendas son nuestra implementación actual de la *asistencia al usuario integrada*, que es un principio importante en el mundo actual del diseño de software.  
 
@@ -21,15 +21,15 @@ Si tiene una pregunta sobre un campo u otro elemento de la interfaz de usuario, 
 
 Para más información, vea [Modelo de asistencia al usuario de Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/user-assistance) en el contenido de administración de [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Página Ayuda y soporte técnico
+## <a name="help-and-support-page"></a>Página Ayuda y soporte técnico
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], el elemento del menú Ayuda (el signo de interrogación en la esquina superior derecha) le da acceso a la página de **Ayuda y soporte técnico**, donde puede encontrar vínculos a recursos que pueden ayudarle a encontrar respuestas a sus preguntas. Para obtener más información, vea [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
 
-## Ayuda a otros
+## <a name="help-others"></a>Ayuda a otros
 
 Si es administrador o superusuario, puede ayudar a otros buscando mensajes de error en la página **Registro de mensajes de error** o en el centro de administración. En muchos casos, el mensaje de advertencia o error se refiere a la configuración o la falta de permisos y problemas similares con los que el superusuario o el administrador pueden ayudar fácilmente. En otros casos, es posible que deba inspeccionar las páginas para identificar la causa. Para obtener más información, consulte [Encontrar información técnica](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) en el contenido de administración para [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Comparta los detalles del error para obtener asistencia más rápida
+## <a name="share-error-details-for-faster-assistance"></a>Comparta los detalles del error para obtener asistencia más rápida
 
 Aproveche la experiencia de colegas o expertos en la materia para superar obstáculos y minimizar el tiempo de inactividad. Cuando estás bloqueado por un error, puedes compartir fácilmente los detalles del error cuando recibas ayuda. 
 
@@ -47,7 +47,7 @@ También puede optar por compartir detalles por correo electrónico eligiendo **
 * Copie los detalles del error.
 * Abra su editor de correo electrónico predeterminado, donde puede pegar los detalles del error que copió y especificar a quién desea pedir ayuda. [!INCLUDE [prod_short](includes/prod_short.md)] agrega un enlace a la página donde experimentó.
 
-## Ayudarse a sí mismo
+## <a name="help-yourself"></a>Ayudarse a sí mismo
 
 Hemos hecho que sea más fácil comprender, acceder y resolver errores que provienen de la plataforma.
 
@@ -55,14 +55,14 @@ Los mensajes de error que la [!INCLUDE [prod_short](includes/prod_short.md)] pla
 
 Las acciones sobre los mensajes de error lo llevan directamente a la página donde un campo está causando el error. No es necesario que se tome el tiempo para encontrar la página o el campo usted mismo. Simplemente elija la acción en el mensaje de error y [!INCLUDE [prod_short](includes/prod_short.md)] lo llevará a la ubicación adecuada para resolver el error.
 
-### Consejo para desarrolladores
+### <a name="tip-for-developers"></a>Consejo para desarrolladores
 
 Si es desarrollador, cuando llama al método [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method) y no pasa el objeto ErrorInfo, [!INCLUDE [prod_short](includes/prod_short.md)] genera automáticamente el enlace a un página donde un usuario puede corregir el problema. [!INCLUDE [prod_short](includes/prod_short.md)] primero obtiene la página de búsqueda o desglose del registro y luego busca la página de la tarjeta o la página de búsqueda y agrega un vínculo de navegación a esa página de la tarjeta. [!INCLUDE [prod_short](includes/prod_short.md)] no agrega un enlace en las siguientes situaciones:
 
 * Si el error está en la página que está abierta actualmente.
 * Si el usuario no tiene permiso para modificar el registro subyacente.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Recursos de ayuda y soporte técnico](product-help-and-support.md)  
 [Preguntas frecuentes](across-faq.yml)  

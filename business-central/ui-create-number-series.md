@@ -10,7 +10,7 @@ ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Crear serie numérica
+# <a name="create-number-series"></a>Crear serie numérica
 
 Para cada empresa configurada, se necesitan asignar códigos de identificación exclusivos a elementos como cuentas de contabilidad, cuentas de proveedores y clientes, facturas y otros documentos. La numeración es importante no solo para la identificación. Un sistema de numeración bien diseñado también permite facilitar la gestión y el análisis de la empresa, y puede reducir el número de errores en la introducción de datos.
 
@@ -31,11 +31,11 @@ Las series numéricas normalmente se configuran para insertar automáticamente e
 
 Si desea usar más de un código de serie numérica para un tipo de datos maestros, por ejemplo, usar una serie numérica diferente para categorías de productos, puede establecer relaciones de series numéricas.
 
-## Espacios en serie numérica
+## <a name="gaps-in-number-series"></a>Espacios en serie numérica
 
 No todos los registros que crea en [!INCLUDE[prod_short](includes/prod_short.md)] son transacciones financieras que deben usar una numeración secuencial. Las fichas de cliente, las ofertas de venta y las actividades de almacén son ejemplos de registros a los que se les asigna un número de una serie numérica, pero no están sujetos a auditoría financiera o pueden eliminarse. Para estas series numéricas, puede seleccionar la casilla **Permitir espacios en números** en la página **Líneas nº serie**. Esta configuración también se puede cambiar después de crear la serie numérica. Para obtener más información, consulte [Para crear una nueva serie numérica](ui-create-number-series.md#to-create-a-new-number-series).
 
-## Comportamiento del campo de número en documentos y fichas
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Comportamiento del campo de número en documentos y fichas
 
 En documentos venta, compra, transferencia y servicio y en todas las fichas, el campo **N.º** se puede rellenar automáticamente a partir de una serie de números predefinida o puede agregarlo manualmente. Sin embargo, bajo ciertas circunstancias, el campo **N.º** es invisible para evitar que lo edite.  
 
@@ -59,7 +59,7 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 >
 > Lo mismo ocurre si utiliza funciones de administración de servicios. Para resolver este problema, vaya a la página **Configuración de administración de servicio** y elija el campo **Nº servicio producto** para abrir y para definir las series numéricas relacionadas con **Numeración manual**.
 
-## Para crear una nueva serie numérica
+## <a name="to-create-a-new-number-series"></a>Para crear una nueva serie numérica
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Nº series** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.  
@@ -73,7 +73,7 @@ Al abrir un nuevo documento o ficha para el que existe una serie numérica, la p
 
 Puede asignar series numéricas a las plantillas que configura para los diferentes tipos de clientes y proveedores que su personal de ventas y compradores agregan con mayor frecuencia. En ese caso, configure la serie de números relevante, vincúlelos a través de relaciones y luego agregue la primera serie de números de la relación relevante a la página de configuración correspondiente. A continuación, cuando un usuario crea un cliente, elige la plantilla correspondiente, y el nuevo cliente recibe un número asignado de la serie de números que se ha definido para esa plantilla.  
 
-## Para crear relaciones entre números de serie
+## <a name="to-create-relationships-between-number-series"></a>Para crear relaciones entre números de serie
 
 Si ha configurado más de un código de número de serie para el mismo tipo de información básica o transacciones, puede crear relaciones entre los códigos. Esta característica puede servirle de ayuda para decidir entre un código u otro cuando utilice un número. Cuando configure una relación entre varias series de números, asocie todas las series relacionadas a un código de número de serie. Luego puede ingresar ese código en un campo de la ficha desplegable **Numeración** en una de las páginas de configuración relevantes, como **Configuración de ventas y cobros**.  
 
@@ -85,7 +85,7 @@ Si ha configurado más de un código de número de serie para el mismo tipo de i
 
 En lo sucesivo, cuando configure algo que requiera un número, podrá utilizar las relaciones que haya creado para seleccionar uno de los números de serie relacionados.
 
-## Para configurar dónde se usa una serie numérica
+## <a name="to-set-up-where-a-number-series-is-used"></a>Para configurar dónde se usa una serie numérica
 
 El siguiente procedimiento muestra cómo configurar una serie numérica para el área de ventas. Los pasos son parecidos a los de otras áreas.  
 
@@ -94,7 +94,7 @@ El siguiente procedimiento muestra cómo configurar una serie numérica para el 
 
 El número seleccionado se utilizará para rellenar el campo **Nº** en la ficha o el documento en cuestión, según la configuración que ha establecido en la línea de serie numérica.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
