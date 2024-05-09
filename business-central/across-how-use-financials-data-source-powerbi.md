@@ -5,18 +5,18 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 09/07/2022
+ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="building-power-bi-reports-to-display--data"></a>Crear informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]
+# Crear informes de Power BI para mostrar datos de [!INCLUDE [prod_long](includes/prod_long.md)]
 
 Puede hacer que los datos de [!INCLUDE[prod_long](includes/prod_long.md)] estén disponibles como origen de datos en Power BI Desktop y generar informes eficaces del estado de la empresa.
 
 Este artículo describe cómo empezar a usar Power BI Desktop para crear informes que muestren datos de [!INCLUDE[prod_long](includes/prod_long.md)].  Después de crear informes, puede publicarlos en su servicio de Power BI o compartirlos con todos los usuarios de su organización. Una vez que estos informes estén en el servicio de Power BI, los usuarios que están configurados para él, pueden ver los informes en [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## <a name="get-ready"></a>Prepararse
+## Prepararse
 
 - Regístrese para el servicio de Power BI.
 
@@ -30,14 +30,14 @@ Este artículo describe cómo empezar a usar Power BI Desktop para crear informe
 
   Para más información, vea [Exponer datos a través de páginas API o servicios web OData](admin-powerbi-setup.md#exposedata).
 
-- Para [!INCLUDE[prod_short](includes/prod_short.md)] local, obtenga la siguiente información:
+<!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
-  - La URL de OData para [!INCLUDE[prod_short](includes/prod_short.md)].
+  - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Normalmente, esta URL tiene el formato `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, por ejemplo, `https://localhost:7048/BC190/ODataV4`. Si tiene una implementación de múltiples inquilinos, incluya al inquilino en la URL, por ejemplo, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
-  - Un nombre de usuario y una clave de acceso al servicio web de una cuenta de [!INCLUDE[prod_short](includes/prod_short.md)].
+    Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
+  - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
-    Para obtener datos de [!INCLUDE[prod_short](includes/prod_short.md)], Power BI utiliza autenticación básica. Por lo tanto, necesitará un nombre de usuario y una clave de acceso al servicio web para conectarse. La cuenta puede ser su propia cuenta de usuario o su organización puede tener una cuenta específica para este propósito.
+    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.-->
 
 - Descargue el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)] (opcional).
 
@@ -45,7 +45,7 @@ Este artículo describe cómo empezar a usar Power BI Desktop para crear informe
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI Desktop
+## <a name="getdata"></a>Agregar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI Desktop
 
 La primera tarea al crear informes es agregar [!INCLUDE[prod_short](includes/prod_short.md)] como fuente de datos en Power BI Desktop. Una vez conectado, puede comenzar a generar el informe.
 
@@ -57,7 +57,7 @@ La primera tarea al crear informes es agregar [!INCLUDE[prod_short](includes/pro
 4. En el panel **Servicios en línea**, realice uno de los siguientes pasos:
 
     - Para conectarse a [!INCLUDE [prod_short](includes/prod_short.md)] en línea, seleccione **Dynamics 365 Business Central**, luego **Conectar**.
-    - Para conectarse a [!INCLUDE [prod_short](includes/prod_short.md)] local, seleccione **Dynamics 365 Business Central (local)**, luego **Conectar**.
+    <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
 
 5. Inicie sesión en [!INCLUDE [prod_short](includes/prod_short.md)] (solo una vez).
 
@@ -65,7 +65,7 @@ La primera tarea al crear informes es agregar [!INCLUDE[prod_short](includes/pro
 
     - Para [!INCLUDE [prod_short](includes/prod_short.md)] online, seleccione **Iniciar sesión** y luego elija la cuenta pertinente. Use la misma cuenta con la que inicia sesión en [!INCLUDE [prod_short](includes/prod_short.md)]. Cuando termine, seleccione **Conectar**.
 
-    - Para [!INCLUDE [prod_short](includes/prod_short.md)] local, primero ingrese la dirección URL de OData para [!INCLUDE[prod_short](includes/prod_short.md)] y luego seleccione **Aceptar**. Cuando se le solicite, ingrese el nombre de usuario y la contraseña de la cuenta que se usará para conectarse a [!INCLUDE[prod_short](includes/prod_short.md)]. En **Contraseña**, ingrese la clave de acceso al servicio web. Cuando termine, seleccione **Conectar**.
+    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
     > Una vez que se haya conectado correctamente a [!INCLUDE[prod_short](includes/prod_short.md)], no se le volverá a solicitar que inicie sesión. [¿Cómo cambio o borro la cuenta que estoy usando actualmente para conectarme a Business Central desde Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
@@ -88,8 +88,9 @@ La primera tarea al crear informes es agregar [!INCLUDE[prod_short](includes/pro
 
           Esta carpeta enumera las páginas, unidades de código y consultas que se publican como servicios web en Business Central.
 
+    <!--
     > [!NOTE]
-    > La estructura de Business Central local es diferente porque no admite páginas API.
+    > The structure for Business Central on-premises is different because it doesn't support API pages.-->
 
 7. Seleccione el origen o los orígenes de datos que desea agregar al modelo de datos y después seleccione el botón **Cargar**.
 8. Si más adelante desea agregar más datos de Business Central, puede repetir los pasos anteriores.
@@ -99,45 +100,45 @@ Una vez que los datos se hayan cargado, puede verlos en el panel de navegación 
 > [!TIP]
 > Para obtener más información sobre el uso de Power BI Desktop, vea [Introducción a Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="creating-accessible-reports"></a>Crear informes accesibles
+## Crear informes accesibles
 
 Es importante que sus informes puedan ser utilizados por tantas personas como sea posible. Intente diseñar informes para que no requieran ninguna adaptación especial para satisfacer las necesidades específicas de diferentes usuarios. Asegúrese de que el diseño permita a los usuarios aprovechar las tecnologías de asistencia estándar, como los lectores de pantalla. Power BI incluye varias funciones, herramientas y pautas de accesibilidad para ayudarle a lograr este objetivo. Para más información, [Diseñar informes de Power BI para accesibilidad](/power-bi/create-reports/desktop-accessibility-creating-reports) en la documentación de Power BI.
 
-## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Crear informes para mostrar datos asociados con una lista
+## Crear informes para mostrar datos asociados con una lista
 
 Puede crear informes que se muestren en un cuadro informativo de una página de lista [!INCLUDE [prod_short](includes/prod_short.md)]. Los informes pueden contener datos sobre el registro seleccionado en la lista. La creación de estos informes es similar a otros informes, excepto que hay algunas cosas que deberá hacer para asegurarse de que los informes se muestren como se espera. Para más información, ver [Crear informes de Power BI para mostrar datos de lista en [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Usar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)] (optional)
+## <a name="theme"></a>Usar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)] (optional)
 
 Antes de elaborar el informe, le recomendamos que descargue e importe el archivo de tema de Microsoft [!INCLUDE [prod_short](includes/prod_short.md)]. El archivo de tema crea una paleta de colores de forma que pueda crear informes con el mismo estilo de color que las aplicaciones de [!INCLUDE [prod_short](includes/prod_short.md)] sin pedirle que defina colores personalizados para cada elemento visual.
 
 > [!NOTE]
 > Esta tarea es opcional. Siempre puede crear sus informes y luego descargar y aplicar la plantilla de estilo más tarde.
 
-### <a name="download-the-theme"></a>Descargar el tema
+### Descargar el tema
 
 El archivo de tema está disponible como archivo json en la Galería de temas comunitarios de Microsoft Power BI. Para descargar el archivo de tema, siga los siguientes pasos:
 
 1. Ir a la[Galería de temas comunitarios de Microsoft Power BI para Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Seleccione el archivo adjunto de descarga **Microsoft Dynamics Business Central.json**.
 
-### <a name="import-the-theme-on-a-report"></a>Importar el tema en un informe
+### Importar el tema en un informe
 
 Después de descargar el tema de informe [!INCLUDE [prod_short](includes/prod_short.md)], puede importarlo a sus informes. Para importar el tema, seleccione **Ver** > **Temas** > **Buscar temas**. Para más información, ver [Power BI Desktop - Importar temas de informes personalizados](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="publish-reports"></a>Publicar informes
+## Publicar informes
 
 Una vez que haya creado o modificado un informe, puede publicarlo en su servicio de Power BI y también compartirlo con otros miembros de su organización. Una vez publicado, verá el informe en Power BI. El informe también está disponible para su selección en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Para publicar un informe, seleccione **Publicar** en la pestaña **Inicio** de la cinta o del menú **Archivo**. Si ha iniciado sesión en el servicio Power BI, el informe se publica en este servicio. De lo contrario, se le pedirá que inicie sesión. 
 
-## <a name="distribute-or-share-a-report"></a>Distribuir o compartir un informe
+## Distribuir o compartir un informe
 
 Hay dos formas de enviar informes a sus compañeros de trabajo y a otras personas:
 
 - Distribuya informes como archivos .pbix.
 
-    Los informes se almacenan en su computadora como archivos .pbix. Puede distribuir el archivo .pbix del informe a los usuarios, como cualquier otro archivo. Luego, los usuarios pueden cargar el archivo en su servicio de Power BI. Ver [Cargar informes desde archivos](across-working-with-business-central-in-powerbi.md#upload).
+    Los informes se almacenan en su computadora como archivos .pbix. Puede distribuir el archivo .pbix del informe a los usuarios, como cualquier otro archivo. Luego, los usuarios pueden cargar el archivo en su servicio de Power BI. Ver [Cargar informes desde archivos](across-working-with-powerbi.md#upload).
 
     > [!NOTE]
     > La distribución de informes de esta manera significa que la actualización de los datos de los informes la realizará cada usuario de forma individual. Esta situación podría impactar el rendimiento de [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -146,9 +147,9 @@ Hay dos formas de enviar informes a sus compañeros de trabajo y a otras persona
 
     Si tiene una licencia de Power BI Pro, puede compartir el informe con otros, directamente desde su servicio de Power BI. Para más información, ver [Power BI - Compartir un panel o informe](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="fixing-problems"></a>Solucionar problemas
+## Solucionar problemas
 
-### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"No se puede insertar un registro. La intención de conexión actual es de solo lectura". error al conectarse a página API personalizada
+### "No se puede insertar un registro. La intención de conexión actual es de solo lectura". error al conectarse a página API personalizada
 
 > **SE APLICA A:** Business Central online
 
@@ -179,9 +180,9 @@ A partir de febrero de 2022, los nuevos informes que utilizan datos de Business 
 9. Seleccione **Listo**.
 10. Seleccione **Cerrar y aplicar** en la cinta para guardar los cambios y cerrar Editor de Power Query.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
-[Habilitar los datos de negocio para Power BI](admin-powerbi.md)  
+[Habilitar los datos de negocio para Power BI](admin-powerbi-setup.md)  
 [Inteligencia empresarial](bi.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Importar datos de empresa de otros sistemas financieros](across-import-data-configuration-packages.md)  

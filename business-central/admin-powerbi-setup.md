@@ -9,13 +9,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="enabling-power-bi-integration-with-"></a>Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
+# Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Este artículo describe cómo tener [!INCLUDE[prod_short](includes/prod_short.md)] listo para la integración con Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online ya está habilitado para la integración, aunque hay cierta información sobre las licencias que quizás desee leer. Para [!INCLUDE[prod_short](includes/prod_short.md)] local, habrá configurado su entorno para conectarse a Power BI antes de que los usuarios puedan trabajar con él.
 
-## <a name="power-bi-licensing"></a><a name="license"></a>Licencias de Power BI
+## <a name="license"></a>Licencias de Power BI
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)], los usuarios obtienen una licencia de Power BI que proporciona acceso a las funciones más comunes en [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI. También puede comprar una licencia de Power BI Pro que brinda acceso a funciones adicionales. La siguiente tabla proporciona una descripción general de las funciones disponibles con cada licencia.
 
@@ -26,11 +26,11 @@ Con [!INCLUDE[prod_short](includes/prod_short.md)], los usuarios obtienen una li
 
 Para más información, ver [Licenciar el servicio de Power BI para los usuarios de su organización](/power-bi/admin/service-admin-licensing-organization) o [Registrarse para el servicio de Power BI como individuo](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Exponer datos a través de API o servicios web OData
+## <a name="exposedata"></a>Exponer datos a través de API o servicios web OData
 
 Business Central ofrece dos formas de exponer datos que pueden ser consumidos por informes de Power BI: páginas API o consultas y servicios web Open Data Protocol (OData).
 
-### <a name="api-pages-and-queries"></a>Páginas API y consultas
+### Páginas API y consultas
 
 > **SE APLICA A:** Business Central online solo
 
@@ -45,60 +45,60 @@ Business Central online también admite API personalizadas. Los desarrolladores 
 >
 > En casos excepcionales, el comportamiento provocará un error cuando un usuario intente obtener datos de la API para un informe en Power BI Desktop. Sin embargo, si las modificaciones de la base de datos son necesarias en la API personalizada, los usuarios de Power BI Desktop pueden forzar el comportamiento. Para más información, consulte [Creación de informes de Power BI para mostrar datos de Business Central](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
-### <a name="odata-web-services"></a>Servicios web OData
+### Servicios web OData
 
 Puede publicar objetos de aplicación de Business Central, como unidades de código, páginas y consultas, como [Servicios web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Con Business Central online hay muchos servicios web publicados de forma predeterminada. Un modo de fácil de encontrar los servicios web es buscar *servicios web* en [!INCLUDE[prod_short](includes/prod_short.md)]. En la página de **Servicios web**, asegúrese de que el campo **Publicar** esté seleccionado para los servicios web enumerados más arriba. Para obtener más información sobre la publicación de servicios web, consulte [Publicar un servicio web](across-how-publish-web-service.md).
 
 Para obtener más información sobre lo que puede hacer para garantizar el mejor rendimiento de los servicios web, como se ve desde Business Central Server (el punto final) y desde el consumidor (el cliente), lea [Escribir servicios web eficientes](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
-### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Elegir si usar páginas API o servicios web OData
+### Elegir si usar páginas API o servicios web OData
 
-Siempre que sea posible, le recomendamos que utilice páginas API en lugar del servicio web OData. Las páginas API son generalmente más rápidas para cargar datos en informes de Power BI que los servicios web OData. Además, son más flexibles porque le permiten obtener datos de campos de tabla que no están definidos en un objeto de página.
+Siempre que sea posible, le recomendamos que utilice páginas API en lugar del servicio web OData. Las páginas API son más rápidas para cargar datos en informes de Power BI que los servicios web OData. Además, son más flexibles porque le permiten obtener datos de campos de tabla que no están definidos en un objeto de página.
 
-## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Preparación de [!INCLUDE[prod_short](includes/prod_short.md)] para la integración de Power BI
+<!--## <a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
 
-Esta sección explica los requisitos para una implementación de [!INCLUDE[prod_short](includes/prod_short.md)] local para integrarse con Power BI.
+This section explains the requirements for a [!INCLUDE[prod_short](includes/prod_short.md)] on-premises deployment to integrate with Power BI.
 
-1. Configure [NavUserPassword](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-navuserpassword) o [Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview) como el método de autenticación para la implementación.  
+1. Configure either [NavUserPassword](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-navuserpassword) or [Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview) as the authentication method for the deployment.  
     
     > [!NOTE]
-    > La integración de Power BI no es compatible con la autenticación de Windows y no es compatible con Windows Client.
+    > Power BI integration doesn't support Windows authentication and is not supported on Windows Client.
 
-2. Habilite los servicios web OData y el punto final ODataV4.
+2. Enable OData web services and the ODataV4 endpoint.
 
-    El servicio web OData debe estar habilitado en [!INCLUDE[server](includes/server.md)] y el puerto OData abierto en el firewall. Para obtener más información, consulte [Configuración de Business Central Server - OData Web Services](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#ODataServices).
+    OData web service must be enabled on the [!INCLUDE[server](includes/server.md)], and OData port opened in firewall. For more information, see [Configuring Business Central Server - OData Web Services](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#ODataServices).
 
-    El servidor local debe ser accesible desde Internet.
+    The local server must be accessible from the Internet.
 
-3. Proporcione a las cuentas de usuario de [!INCLUDE[prod_short](includes/prod_short.md)] una clave de acceso al servicio web.
+3. Give [!INCLUDE[prod_short](includes/prod_short.md)] user accounts a web service access key.
 
-    Se necesita una clave de acceso al servicio web únicamente para ver datos de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI. Puede asignar una clave de acceso al servicio web a cada cuenta de usuario. O en su lugar, cree una cuenta específica con una clave de acceso al servicio web para que la utilicen todos los usuarios. Para obtener más información, consulte [Autenticación de servicios web](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+    A web service access key is only needed to view [!INCLUDE[prod_short](includes/prod_short.md)] data in Power BI. You can assign a web service access key to each user account. Or instead, create a specific account with a web service access key for use by all users. For more information, see [Web Services Authentication](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
 
     <!--
     > [!IMPORTANT]
     > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Use OAuth to Authorize Business Central Web Services](/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth).-->
 
-4. Cree un registro de aplicación para [!INCLUDE[prod_short](includes/prod_short.md)] en Microsoft Azure.
+<!--4. Create an application registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
 
-    Para ver informes incrustados de Power BI en páginas de [!INCLUDE[prod_short](includes/prod_short.md)], se debe registrar una solicitud para [!INCLUDE[prod_short](includes/prod_short.md)] en Microsoft Azure. La aplicación registrada necesita permiso para servicios de Power BI. Como mínimo, la aplicación requiere el permiso **Usuario.ReadWrite.All**. Para que los usuarios vean informes de compartidos de espacios de trabajo Power BI, la aplicación necesita el permiso **Workspace.Read.All**. Para más información, vea [Registro de [!INCLUDE[prod_short](includes/prod_short.md)] local en Microsoft Entra ID para la integración con otros servicios](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    To view Power BI reports embedded in [!INCLUDE[prod_short](includes/prod_short.md)] pages, an application must be registered for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. The registered application needs permission to Power BI services. At a minimum, the app requires  **User.ReadWrite.All** permission. For users to view reports from shared Power BI workspaces, the app requires **Workspace.Read.All** permission. For more information, see [Registering [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises in Microsoft Entra ID for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
-    > Si su implementación utiliza la autenticación NavUserPassword, [!INCLUDE[prod_short](includes/prod_short.md)] se conecta al mismo servicio de Power BI para todos los usuarios. Especificará esta cuenta de servicio como parte del registro de la aplicación. Con la autenticación de Microsoft Entra, [!INCLUDE[prod_short](includes/prod_short.md)] se conecta al servicio de Power BI asociado con cuentas de usuario individuales.
+    > If your deployment uses NavUserPassword authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the same Power BI service for all users. You'll specify this service account as part of registering the application. With Microsoft Entra authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Power BI service associated with the individual user accounts.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
-5. Realice la conexión inicial desde Business Central a Power BI.
+<!--5. Make the initial connection from Business Central to Power BI.
 
-    Antes de que los usuarios finales puedan usar Power BI en [!INCLUDE[prod_short](includes/prod_short.md)], un administrador de la aplicación de Azure tendrá que dar su consentimiento al servicio de Power BI.
+    Before end-users can use Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], an Azure application administrator will have to give consent to the Power BI service.
 
-    Para realizar la conexión inicial, abra [!INCLUDE[prod_short](includes/prod_short.md)] y ejecute **Comenzar con Power BI** desde la página principal. Esta acción le guiará a través del proceso de consentimiento y verificará su licencia de Power BI. Cuando se le solicite, inicie sesión con una cuenta de administrador de Microsoft Entra. Para obtener más información, consulte [Conectar a Power BI, solo una vez](across-working-with-powerbi.md#connect).
+    To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Microsoft Entra admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).-->
 
-## <a name="setting-up-dataflows"></a>Configuración de flujos de datos
+## Configuración de flujos de datos
 
 Los flujos de datos le permiten ingerir, transformar y cargar datos en un espacio de trabajo de Power BI y luego utilizar los datos como base para sus informes. En algunos casos, estos flujos de datos pueden experimentar errores transitorios mientras realizan una actualización programada. El mensaje de error se ve así: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
 
 Con PowerAutomate, puede configurar reintentos para esta situación. Para obtener más información, consulte [Reintentar automáticamente un flujo de datos en caso de error](/power-query/dataflows/automatically-retry-dataflow).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Business Central y Power BI](admin-powerbi.md)  
 [Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

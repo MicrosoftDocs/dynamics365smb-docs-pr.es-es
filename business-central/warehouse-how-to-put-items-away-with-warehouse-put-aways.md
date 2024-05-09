@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Ubicar productos con ubic. exist. almacén
+# Ubicar productos con ubicación de almacén
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], la recepción y la ubicación se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
@@ -31,7 +31,7 @@ Según el valor del campo **Usar hoja de trabajo de almacenamiento** en la **Tar
 
 Además de las formas estándar de crear los almacenamientos de almacén que se describen en este artículo, puede crear los almacenamientos desde la recepción de almacén registrada relacionada. Esta acción es útil si tiene líneas de almacenamiento eliminadas y ha decidido no utilizar la hoja de trabajo de almacenamiento, porque crear o volver a crear las instrucciones de almacenamiento desde líneas de recepción registradas.
 
-## <a name="zone-and-bin-codes"></a>Códigos de zona y ubicación
+## Códigos de zona y ubicación
 
 En los almacenes que se configuran para utilizar el almacenamiento y el picking dirigidos, se requieren los parámetros siguientes para determinar el mejor lugar para colocar los productos:  
 
@@ -41,7 +41,7 @@ En los almacenes que se configuran para utilizar el almacenamiento y el picking 
 
 El ranking de las ubicaciones se usa cuando más de una ubicación coincide con el criterio de una plantilla de almacenamiento. Si los criterios de la plantilla de ubicación y el ranking de ubicación son los mismos para varias ubicaciones, se selecciona la ubicación con el número más alto.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Para crear documentos de almacenamiento de forma masiva con la hoja de trabajo de almacenamiento
+## Para crear documentos de almacenamiento de forma masiva con la hoja de trabajo de almacenamiento  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -54,12 +54,12 @@ Puede crear documentos de almacenamiento para varias recepciones al mismo tiempo
 3. Seleccione los documentos en los que desea trabajar. Puede trabajar con líneas de distintos documentos al mismo tiempo.  
 
     > [!NOTE]  
-    >  Si selecciona un documento de recepción o almacenamiento interno para el que ya ha creado instrucciones para todas sus líneas, [!INCLUDE[prod_short](includes/prod_short.md)] le indica que no tiene nada que manipular.  
+    > Si selecciona un documento de recepción o almacenamiento interno para el que ya ha creado instrucciones para todas sus líneas, [!INCLUDE[prod_short](includes/prod_short.md)]] le indica que no tiene nada que manipular.  
 
 4. Rellene el campo **Método ordenación** para ordenar las líneas.  
 
     > [!NOTE]  
-    >  La forma en que se ordenan las líneas en la hoja de trabajo no se traslada automáticamente a la instrucción de almacenamiento. Sin embargo, existen las mismas oportunidades de ordenación y clasificación de ubicaciones. Puede crear orden de la línea que planifique en la hoja de trabajo cuando crea las instrucciones de almacenamiento o clasificación en las instrucciones de almacenamiento.
+    > La forma en que se ordenan las líneas en la hoja de trabajo no se traslada automáticamente a la instrucción de almacenamiento. Sin embargo, existen las mismas oportunidades de ordenación y clasificación de ubicaciones. Puede crear orden de la línea que planifique en la hoja de trabajo cuando crea las instrucciones de almacenamiento o clasificación en las instrucciones de almacenamiento.
 
 5. Rellene el campo **Cdad. a manipular**. Seleccione la acción **Rellenar cdad. manip. autom.** o rellene los campos manualmente.  
 6. Si es necesario, edite las líneas manualmente. Puede eliminar líneas si, por ejemplo, es necesario almacenar algunos productos en una ubicación lejos de las ubicaciones de otros productos.  
@@ -77,7 +77,7 @@ Puede crear documentos de almacenamiento para varias recepciones al mismo tiempo
 
 8. Seleccione **Aceptar** para crear el almacenamiento.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Para crear una ubicación desde una recepción registrada
+## Para crear una ubicación desde una recepción registrada
 
 Si el almacén usa el procesamiento de almacenamiento y de recepción y ha eliminado las líneas de almacenamiento, o si utiliza almacenamiento y picking dirigidos y ha decidido no utilizar la hoja de trabajo de almacenamiento, puede crear o volver a crear las instrucciones de almacenamiento para líneas de recepción registradas.
 
@@ -90,7 +90,7 @@ Si el almacén usa el procesamiento de almacenamiento y de recepción y ha elimi
 4. Si el albarán se ha ubicado parcialmente o no se ha ubicado, elija la acción **Crear ubicación**.  
 5. Rellene los campos según sea necesario y, a continuación, haga clic en **Aceptar**.  
 
-## <a name="to-put-items-away"></a>Para almacenar productos
+## Para almacenar productos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Almacenamientos de almacén** y luego elija el enlace relacionado.
 
@@ -101,6 +101,9 @@ Si el almacén usa el procesamiento de almacenamiento y de recepción y ha elimi
 
     * Si las líneas Traer y Colocar de cada línea de recepción no están una a continuación de otra y desea que lo estén, puede ordenar las líneas seleccionando **Producto** en el campo **Método ordenación**.  
     * Si las clasificaciones de almacenamientos reflejan el diseño físico del almacén, utilice el método de clasificación **Clasificación de ubicaciones** para organizar el trabajo en torno a los almacenes de las ubicaciones.
+
+  > [!NOTE]  
+  > Las líneas se ordenan en orden ascendente por los criterios seleccionados. Si ordena por documento, la ordenación se realiza primero por tipo de documento según el campo **Documento de origen de la actividad de almacén**. Si ordena por destino de envío, la clasificación se realiza primero por tipo de destino según el campo **Tipo de destino de almacén**.
 
 4. Realizar las acciones.
 
@@ -114,7 +117,7 @@ Si el almacén usa el procesamiento de almacenamiento y de recepción y ha elimi
 
 5. Cuando haya colocado todos los productos en ubicaciones como se le ha indicado, elija la acción **Registrar ubicación**.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

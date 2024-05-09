@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchasing"></a>Compra
+# Compra
 
 Cree una factura o un pedido de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Si necesita controlar un inventario, las facturas de compra también se utilizan para actualizar dinámicamente los niveles de inventario para que pueda minimizar sus costes de inventario y proporcionar un mejor servicio al cliente. Los costes de compra, incluidos los gastos del servicio, y los valores de inventario resultantes del registro de las facturas de compra contribuyen a las cifras de ganancias y otros KPI financieros en el área de trabajo.
 
@@ -38,11 +38,11 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Resolver la confusión cuando existen dos o más registros para el mismo proveedor.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 |Administrar el compromiso a un proveedor para comprar grandes cantidades entregadas en varios envíos a lo largo del tiempo.|[Trabajar con pedidos de compra abiertos](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a>Números de documento externo
+## Números de documento externo
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)  

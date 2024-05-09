@@ -9,21 +9,17 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Informes y análisis de activos fijos en Business Central
+# Informes y análisis de activos fijos en Business Central
 
 Para ayudarlo a administrar sus activos fijos en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
-## <a name="reports"></a>Informes
+## Informes
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también
 
-[Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
-[Trabajar con dimensiones](finance-dimensions.md)  
+[Visión general del análisis de activos fijos](fa-analytics-overview.md)   
 [Administrar activos fijos](fa-manage.md)  
-[Información general de funcionalidad local](about-localization.md)  
-[Experiencias contables en [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

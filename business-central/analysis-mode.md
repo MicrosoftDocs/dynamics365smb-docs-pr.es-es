@@ -1,31 +1,31 @@
 ---
-title: Analizar datos en páginas de lista y consultas usando el modo de análisis de datos
-description: Aprenda a usar el modo de análisis de datos en Business Central para analizar datos.
+title: Analizar página de lista y datos de consulta usando el análisis de datos
+description: Aprenda a usar el modo de análisis en Business Central para analizar datos.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/15/2024
+ms.date: 04/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analizar página de lista y datos de consulta usando el modo de análisis de datos
+# Analizar página de lista y datos de consulta usando la característica de análisis de datos
 
 > **SE APLICA A:** Vista previa pública en el primer lanzamiento de versiones de Business Central 2023 y posteriores para analizar páginas de lista; Generalmente disponible en el segundo lanzamiento de versiones de Business Central 2023 para analizar datos de páginas de listas y consultas.
 
-En este artículo, aprenderá a analizar datos de páginas en listas y consultas mediante el *modo de análisis de datos*. El modo de análisis de datos le permite analizar datos directamente desde la página, sin tener que ejecutar un informe o cambiar a otra aplicación, como Excel. Proporciona una forma interactiva y versátil de calcular, resumir y examinar datos. En lugar de ejecutar informes con diferentes opciones y filtros, puede agregar varias pestañas que representen diferentes tareas o vistas de los datos. Los ejemplos podrían ser "Mis clientes", "Elementos de seguimiento", "Proveedores agregados recientemente", "Estadísticas de ventas" o cualquier otra vista que pueda imaginar.
+En este artículo, aprenderá a analizar datos de páginas en listas y consultas mediante la característica de *análisis de datos*. Con la característica de análisis de datos, puede analizar datos directamente desde la página, sin tener que ejecutar un informe o cambiar a otra aplicación, como Excel. Proporciona una forma interactiva y versátil de calcular, resumir y examinar datos. En lugar de ejecutar informes con diferentes opciones y filtros, puede agregar varias pestañas que representen diferentes tareas o vistas de los datos. Los ejemplos podrían ser "Mis clientes", "Elementos de seguimiento", "Proveedores agregados recientemente", "Estadísticas de ventas" o cualquier otra vista que pueda imaginar.
 
 > [!TIP]
-> Lo bueno del modo de análisis de datos es que no cambia ninguno de los datos subyacentes de la página de lista o consulta ni el diseño de la página o consulta cuando no está en modo de análisis de datos. Entonces, la mejor manera de aprender qué puede hacer en el modo de análisis de datos es probar cosas.
+> Lo bueno de la característica de análisis de datos es que no cambia ninguno de los datos subyacentes de la página de lista o consulta ni el diseño de la página o consulta cuando no está en el modo de análisis. Entonces, la mejor manera de aprender qué puede hacer en el modo de análisis es probar cosas.
 
 ## Requisitos previos 
 
-- Si está utilizando Business Central versión 22, el modo de análisis de datos está en versión preliminar. Por lo tanto, un administrador debe habilitarlo antes de poder utilizarlo. Para habilitarlo, vaya a la página **Administración de características** y active la **Actualización de funciones: modo de análisis, analice rápidamente los datos directamente en Business Central**. [Más información acerca de la Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Si está utilizando Business Central versión 22, la característica de análisis de datos está en versión preliminar. Por lo tanto, un administrador debe habilitarlo antes de poder utilizarlo. Para habilitarlo, vaya a la página **Administración de características** y active la **Actualización de funciones: modo de análisis, analice rápidamente los datos directamente en Business Central**. [Más información acerca de la Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - En la versión 23 y posteriores, a su cuenta se le debe asignar el conjunto de permisos **ANÁLISIS DE DATOS - EXEC** o incluir permiso de ejecución en el objeto del sistema **9640 Permitir datos Modo de análisis**. Como administrador, puede excluir estos permisos a los usuarios que no desea que tengan acceso al modo de análisis.
 
 > [!NOTE]
-> Es posible que observe algunas páginas de lista que no incluyen el interruptor **Analizar** para cambiar al modo de análisis. La razón es que los desarrolladores pueden desactivar el modo de análisis en páginas específicas utilizando la propiedad  [AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) en AL.
+> Es posible que observe algunas páginas de lista que no incluyen el interruptor **Entrar en el modo de análisis** para cambiar al modo de análisis. La razón es que los desarrolladores pueden desactivar el modo de análisis en páginas específicas utilizando la propiedad  [AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) en AL.
 
 ## Introducción
 
@@ -40,7 +40,7 @@ Complete estos pasos para comenzar a analizar datos utilizando el modo de análi
 
 2. En la barra de acciones en la parte superior de la página, seleccione el botón **Entrar en el modo de análisis** ![Muestra el botón para activar el modo de análisis](media/analysis-mode-icon.png).
 
-    El modo de análisis de datos abre los datos en una experiencia optimizada para el análisis de datos.  En el modo de análisis de datos, la barra de acción normal se reemplaza con una barra de modo de análisis de datos especial. La siguiente figura ilustra las diferentes áreas de una página en el modo de análisis de datos.
+    El modo de análisis abre los datos en una experiencia optimizada para el análisis de datos. En el modo de análisis, la barra de acción normal se reemplaza con una barra de modo de análisis especial. La siguiente figura ilustra las diferentes áreas de una página en el modo de análisis.
 
    [![Muestra una descripción general de una página en el modo de análisis de datos](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
 
@@ -50,29 +50,29 @@ Complete estos pasos para comenzar a analizar datos utilizando el modo de análi
 
 4. Cuando desee detener el modo de análisis, seleccione el botón **Salir del modo de análisis** ![Muestra el botón para desactivar el modo de análisis](media/analysis-mode-exit-icon.png)
 
-   Las pestañas de análisis que ha agregado permanecerán hasta que las elimine. Entonces, si regresa al modo de análisis de datos nuevamente, las verá exactamente como las dejó.
+   Las pestañas de análisis que ha agregado permanecerán hasta que las elimine. Entonces, si regresa al modo de análisis nuevamente, las verá exactamente como las dejó.
 
 > [!NOTE]
 > Los datos que se muestran en el modo de análisis están controlados por los filtros o vistas establecidos en la página de lista. Esto le permite filtrar previamente los datos antes de entrar al modo de análisis.
 
-## Trabajar con el modo de análisis de datos
+## Trabajar con el modo de análisis
 
-En el modo de análisis de datos, la página se divide en dos áreas:
+En el modo de análisis, la página se divide en dos áreas:
 
-- El área principal, que consta del área de datos (1), la barra de resumen (2) y la barra de pestañas (5)
+- El área principal, que consta del área de datos (1), la barra de resumen (2) y la barra de pestañas (5).
 - El área de manipulación de datos, que consta de dos paneles: columnas (3) y filtros de análisis (4).
 
 ### Área de datos (1)
 
 El área de datos es donde se muestran las filas y columnas de la página de consulta de lista y se resumen los datos. El área de datos proporciona una forma versátil de controlar el diseño de las columnas y una forma rápida de obtener un resumen de los datos. Para las columnas que contienen valores numéricos, la suma de todos los valores de la columna se muestra en la última fila, a menos que haya definido grupos de filas. En este caso, las sumas aparecen como subtotal para los grupos.  
 
-![Muestra una descripción general del área de datos en una página en el modo de análisis de datos](media/analysis-mode-data-area.png)
+![Muestra una descripción general del área de datos en una página en el modo de análisis](media/analysis-mode-data-area.png)
 
 - Para mover una columna, selecciónela y arrástrela hasta donde tenga más sentido en su análisis.
 - Para ordenar por una columna, seleccione el encabezado de la columna. Para ordenar en varias columnas, seleccione y mantenga presionada la tecla <kbd>Shift</kbd> mientras selecciona los encabezados de columna que desea ordenar.
-- Haga clic con el botón derecho en la columna o coloque el cursor sobre ella y seleccione el icono de menú ![Muestra el icono en una columna en el modo de análisis de datos que abre un menú de acciones](media/analysis-mode-column-menu-icon.png) para acceder a varias acciones que puede realizar en las columnas. Por ejemplo:
+- Haga clic con el botón derecho en la columna o coloque el cursor sobre ella y seleccione el icono de menú ![Muestra el icono en una columna en el modo de análisis que abre un menú de acciones](media/analysis-mode-column-menu-icon.png) para acceder a varias acciones que puede realizar en las columnas. Por ejemplo:
 
-  - Para anclar una columna a la izquierda o a la derecha del área de datos para que no se mueva de la pantalla cuando se desplace, seleccione ![Muestra el icono en una columna en el modo de análisis de datos que abre un menú de acciones](media/analysis-mode-column-menu-icon.png) > **Anclar columna** > **Anclar a la izquierda** la parte de la columna.
+  - Para anclar una columna a la izquierda o a la derecha del área de datos para que no se mueva de la pantalla cuando se desplace, seleccione ![Muestra el icono en una columna en el modo de análisis que abre un menú de acciones](media/analysis-mode-column-menu-icon.png) > **Anclar columna** > **Anclar a la izquierda** la parte de la columna.
   - Defina filtros de datos directamente en la definición de columna en lugar de ir a los paneles de **Filtros de análisis**. Todavía puede echar un vistazo a los detalles sobre los datos relacionados y de cada línea, así como abrir la tarjeta para obtener más información sobre una entidad determinada.
 - Utilice el área de datos para interactuar con los datos. Para las columnas que contienen valores sumables numéricos, puede obtener estadísticas descriptivas en un conjunto de campos, marcándolos. Las estadísticas aparecen en la barra de estado (2), en la parte inferior de la página.
 - Exportar datos en formato Excel o csv. Haga clic con el botón derecho en el área de datos o en una selección de celdas para exportar.
@@ -81,7 +81,7 @@ El área de datos es donde se muestran las filas y columnas de la página de con
 
 La barra de resumen se encuentra en la parte inferior de la página y muestra estadísticas sobre los datos de la página de lista o consulta. A medida que interactúa con columnas cuyos valores se pueden sumar, como al seleccionar varias filas en una columna que muestra cantidades, los datos se actualizan.
 
-![Muestra una descripción general de una barra de resumen en el modo de análisis de datos](media/analysis-mode-totals-row.png)
+![Muestra una descripción general de una barra de resumen en el modo de análisis](media/analysis-mode-totals-row.png)
 
 La siguiente tabla describe los diferentes números que se muestran en el área de totales:
 
@@ -100,7 +100,7 @@ La siguiente tabla describe los diferentes números que se muestran en el área 
 
 El panel **Columnas** es uno de los dos paneles que trabajan juntos para definir su análisis. La otra zona es el panel **Filtros de análisis**. El panel **Columnas** se utiliza para resumir los datos. Utilice el panel **Columnas** para definir qué columnas deben incluirse en el análisis.
 
-![Muestra una descripción general del panel de columnas en el modo de análisis de datos](media/analysis-mode-columns-3.png)
+![Muestra una descripción general del panel de columnas en el modo de análisis](media/analysis-mode-columns-3.png)
 
 |Áreas|Descripción|
 |-|-|
@@ -109,7 +109,7 @@ El panel **Columnas** es uno de los dos paneles que trabajan juntos para definir
 |Grupos de filas|Utilice esta área para agrupar y sumar datos por uno o más campos. Solo puede incluir campos no numéricos, como campos de texto, fecha y hora. Los grupos de filas se usan a menudo en modo dinámico.|
 |Valores|Utilice esta área para especificar los campos para los que desea una suma total. Solo puede incluir campos que contengan números que se puedan sumar; por ejemplo, no campos de texto, fecha u hora.|
 
-Para mover un campo de un área a otra, seleccione el icono de agarrar ![Muestra una descripción general de una página en el modo de análisis de datos](media/column-grab-icon.png) junto a la columna en la lista y arrástrelo al área de destino. No puede mover un campo a un área donde no está permitido.
+Para mover un campo de un área a otra, seleccione el icono de agarrar ![Muestra el botón para capturar un campo en el modo de análisis](media/column-grab-icon.png) junto a la columna en la lista y arrástrelo al área de destino. No puede mover un campo a un área donde no está permitido.
 
 ### Filtros de análisis (4)
 
@@ -132,18 +132,17 @@ Aquí hay algunos consejos sobre cómo trabajar con varias pestañas de análisi
    - **Eliminar** elimina la pestaña que tiene abierta actualmente. **Eliminar todo** elimina todas las pestañas que ha agregado, excepto la pestaña predeterminada **Análisis 1** .
 - No puede eliminar por completo **Análisis 1**, pero puede cambiarle el nombre mediante la acción **Renombrar** y borrar los cambios que ha realizado utilizando **Eliminar** o **Eliminar todo**.  
 
-- Las pestañas de análisis que ha agregado y configurado permanecerán hasta que las elimine. Entonces, si regresa al modo de análisis de datos nuevamente, las verá exactamente como las dejó.
+- Las pestañas de análisis que ha agregado y configurado permanecerán hasta que las elimine. Entonces, si regresa al modo de análisis nuevamente, las verá exactamente como las dejó.
 
    > [!TIP]
    > Las pestañas que configuras solo son visibles para usted. Otros usuarios solo verán las pestañas que hayan configurado.
 - Puede copiar pestañas de análisis. La copia puede ser útil si desea experimentar cambiando una pestaña sin cambiar la original, o si desea crear diferentes variaciones del mismo análisis.
 
-
 ## Jerarquías de fecha
 
 En el modo de análisis, los campos de fecha del conjunto de datos se generan en una jerarquía Año-Trimestre-Mes de tres campos separados. Esta jerarquía se basa en el calendario normal, no en ningún calendario fiscal definido en Business Central.
 
-Los campos adicionales reciben el nombre _\<field name\> Año_, _\<field name\> Trimestre_ y _\<field name\> Mes_. Por ejemplo, si el conjunto de datos incluye un campo llamado _Fecha de publicación_, entonces la jerarquía de fechas correspondiente consta de campos llamados _Año de fecha de publicación_, _Trimestre de fecha de contabilización_, y _Mes de fecha de contabilización_.
+Los campos adicionales reciben el nombre *\<field name\> Año*, *\<field name\> Trimestre* y *\<field name\> Mes*. Por ejemplo, si el conjunto de datos incluye un campo llamado *Fecha de publicación*, entonces la jerarquía de fechas correspondiente consta de campos llamados *Año de fecha de publicación*, *Trimestre de fecha de contabilización*, y *Mes de fecha de contabilización*.
 
 > [!NOTE]
 > Actualmente, la jerarquía de fechas solo se aplica a los campos de tipo date, no a los campos de tipo de fecha y hora.
@@ -167,7 +166,6 @@ Desarrollar el análisis de datos en modo dinámico implica mover campos a las t
 
 > [!TIP]
 > Las columnas que solo tienen unos pocos valores posibles son las mejores candidatas para usarlas en **Valores** de columnas.
-
 
 ## Analizar grandes cantidades de datos
 
@@ -198,10 +196,56 @@ Después de haber preparado un análisis en una pestaña, puede compartirlo como
    ![Muestra el cuadro de diálogo Copiar enlace para una pestaña de análisis](media/analysis-link-copied.svg)
 
 1. Seleccione **Copiar**.
-
 1. Pegue el enlace en el medio de comunicación de su elección, como Word, Outlook, Teams, OneNote, etc. 
+1. Una vez recibido, los destinatarios pueden seleccionar el enlace y abrir el análisis de la página o consulta en Business Central. Se les solicita que especifiquen un nombre para la nueva pestaña de análisis que se creará.  
 
-2. Una vez recibido, los destinatarios pueden seleccionar el enlace y abrir el análisis de la página o consulta en Business Central. Se les solicita que especifiquen un nombre para la nueva pestaña de análisis que se creará.  
+## Ejemplos de cómo analizar datos
+
+La característica *Analizar datos* está diseñada para una verificación rápida de hechos y un análisis ad hoc cuando no desea ejecutar un informe, si existe un informe para sus necesidades específicas o si desea iterar rápidamente para obtener una buena descripción general de parte de su negocio.
+
+En las siguientes secciones, encontrará ejemplos de escenarios de uso para muchas de las áreas funcionales de la aplicación Business Central.
+
+| Área | Para... | Abrir esta página en de análisis | Uso de estos campos |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Finance (Cobros)](#example-finance-accounts-receivables) | Vea lo que sus clientes le deben, por ejemplo, desglosado en intervalos de tiempo para saber cuándo vencen los importes. | [Movs. clientes](https://businesscentral.dynamics.com/?page=25) | **Nombre del cliente**, **Fecha de vencimiento** e **Importe restante** |
+| [Finance (Extracto de ingresos)](#example-finance-income-statement) | Vea sus ingresos en las cuentas de ingresos del plan de cuentas, por ejemplo, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes. | [Movs. contabilidad](https://businesscentral.dynamics.com/?page=20) | **Número de cuenta de mayor**, **Fecha registro** e **Importe**. |
+| [Finance (total activo)](#example-finance-total-assets) | Vea sus activos en las cuentas de activos del plan de cuentas, por ejemplo, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes. | [Movs. contabilidad](https://businesscentral.dynamics.com/?page=20) | **Número de cuenta de mayor**, **Fecha registro** e **Importe**. |
+
+### Ejemplo: Finance (Cobros)
+
+Para ver lo que sus clientes le deben, quizás desglosado en intervalos de tiempo para saber cuándo vencen los importes, haga lo siguiente.
+
+1. Abre la lista [Movimientos de cliente](https://businesscentral.dynamics.com/?page=25) y active el modo de análisis.
+1. Vaya al menú **Columnas** y elimine todas las columnas (seleccione la casilla junto al campo *Buscar*).
+1. Active el *modo *Dinámico*** (ubicado directamente encima del campo **Buscar**).
+1. Ahora, arrastra el campo *Nombre del cliente* al área **Grupos de filas** y arrastre **Importe restante** hacia el área **Valores**. 
+1. Por último, busque el campo **Fecha de vencimiento (mes)** y arrástrelo al área **Etiquetas de columna**. 
+1. Si desea restringir el análisis a un año/trimestre determinado, aplique un filtro en el menú **Filtros adicionales** (a la derecha, justo debajo del menú **Columnas**.) 
+1. Cambie el nombre de su pestaña de análisis a "Cuentas antiguas por mes" o algo que describa este análisis para usted. 
+
+### Ejemplo: Finance (Extracto de ingresos)
+
+Para ver sus ingresos en las cuentas de ingresos del plan de cuentas, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes, haga lo siguiente.
+
+1. Abre la lista [Movimientos de contabilidad](https://businesscentral.dynamics.com/?page=20) y active el modo de análisis.
+1. Vaya al menú **Columnas** y elimine todas las columnas (seleccione la casilla junto al campo **Buscar**).
+1. Active el modo **Dinámico** (ubicado directamente encima del campo **Buscar**).
+1. Ahora, arrastra el campo **Número de cuenta de mayor** al área **Grupos de filas** y arrastre **Importe** hacia el área **Valores**.
+1. Por último, busque el campo **Mes de fecha de contabilización** y arrástrelo al área **Etiquetas de columna**.
+1. Para el estado de resultados, debe filtrar las cuentas que utiliza para esto; en los datos de demostración de Business Central, estas son cuentas que comienzan con "4", la configuración de su plan de cuentas puede ser diferente (si ejecuta el informe [Balance de comprobación por periodo](https://businesscentral.dynamics.com/?report=38), puede ver fácilmente qué cuentas se utilizan en su configuración). Establezca un filtro en las cuentas apropiadas en el menú **Filtros adicionales** (a la derecha, justo debajo del menú **Columnas**.)
+1. Cambie el nombre de su pestaña de análisis a "Ingresos por mes" o algo que describa este análisis para usted.
+
+### Ejemplo: Finance (total activo)
+
+Para ver sus activos en las cuentas de activos del plan de cuentas, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes, haga lo siguiente.
+
+1. Abre la lista [Movimientos de contabilidad](https://businesscentral.dynamics.com/?page=20) y active el modo de análisis.
+1. Vaya al menú **Columnas** y elimine todas las columnas (seleccione la casilla junto al campo **Buscar**).
+1. Active el modo **Dinámico** (ubicado directamente encima del campo **Buscar**).
+1. Ahora, arrastra el campo **Número de cuenta de mayor** al área **Grupos de filas** y arrastre **Importe** hacia el área **Valores**.
+1. Por último, busque el campo **Mes de fecha de contabilización** y arrástrelo al área **Etiquetas de columna**.
+1. Para el estado de cuenta de activos totales, debe filtrar las cuentas que utiliza para esto; en los datos de demostración de Business Central, estas son cuentas que comienzan con "10", la configuración de su plan de cuentas puede ser diferente. Si ejecuta el informe [Balance de comprobación por periodo](https://businesscentral.dynamics.com/?report=38), podrá ver fácilmente qué cuentas se utilizan en su configuración. Establezca un filtro en las cuentas apropiadas en el menú **Filtros adicionales** (a la derecha, justo debajo del menú **Columnas**.)
+1. Cambie el nombre de su pestaña de análisis a "Ingresos por mes" o algo que describa este análisis para usted.
 
 ## Limitaciones en el primer lanzamiento de versiones de 2023 (vista previa)
 

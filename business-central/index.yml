@@ -153,7 +153,7 @@ additionalContent:
               url: /dynamics365/business-central/map-edocuments-with-copilot
             - text: Conciliar cuentas bancarias
               url: /dynamics365/business-central/bank-reconciliation-with-copilot
-            - text: Sugerir sugerencias de líneas
+            - text: Líneas de ventas sugeridas
               url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Configuración del área de trabajo
           links:

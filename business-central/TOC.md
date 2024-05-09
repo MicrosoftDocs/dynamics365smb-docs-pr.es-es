@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Registrar el movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md)
 
 ### Trabajar con el plan de cuentas y la contabilidad general (C/G)
-#### [Entender la contabilidad general y el plan de cuentas](finance-general-ledger.md)
+#### [Comprender la contabilidad general](finance-general-ledger.md)
+#### [Comprobando el plan de cuentas](finance-chart-of-accounts.md)
 #### [Consultar cuentas](finance-review-accounts.md)
 #### [Revalorizar saldos de contabilidad general](finance-revalue-account-balances.md)
 #### [Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)
@@ -477,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Configurar y publicar un servicio web KPI basado en informes financieros](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analizar datos con cuentas estadísticas](bi-use-statistical-accounts.md)
 #### [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)
-#### [Crear informes de análisis](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -493,9 +493,14 @@ ms.service: dynamics-365-business-central
 #### [Informes de cuentas por cobrar](receivables-reports.md)
 #### [Informes de cuentas por pagar](payables-reports.md)
 
-## Venta
+## Ventas
 ### [Información general de ventas](sales-manage-sales.md)
-### [Informes de ventas](sales-reports.md)
+### Análisis de ventas 
+#### [Información general sobre el análisis de ventas](sales-analytics-overview.md)
+#### [Crear informes de análisis de ventas](bi-how-create-analysis-views-reports.md)
+#### [Análisis ad hoc de datos de ventas](ad-hoc-analysis-sales.md)
+#### [Informes de ventas integrados](sales-reports.md)
+
 ### [Tutorial: Realizar una campaña de ventas](walkthrough-conducting-a-sales-campaign.md)
 ### [Tutorial: Configurar y facturar prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Registrar nuevos clientes](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Compras
 ### [Información general de compras](purchasing-manage-purchasing.md)
-### [Informes de compras](purchase-reports.md)
+### Análisis de compras 
+#### [Información general de análisis de compras](purchasing-analytics-overview.md)
+#### [Análisis ad hoc de datos de compras](ad-hoc-analysis-purchasing.md)
+#### [Informes de compras integrados](purchase-reports.md)
 ### [Tutorial: Configurar y usar un flujo de trabajo de aprobación de compra](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Registrar compras](purchasing-how-record-purchases.md)
 ### [Solicitar ofertas](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Activos fijos
 ### [Información general de los activos fijos](fa-manage.md)
+### Análisis de activos fijos
+#### [Información general de los análisis de activos fijos](fa-analytics-overview.md)
+#### Herramientas integradas de análisis de activos fijos
+##### [Supervisar costes de mantenimiento](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Controlar la cobertura de seguros](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Ver valores modificados del libro de amortización](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Ver valores venta/baja previstos](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Informes de activos fijos integrados](fa-reports.md)
 ### [Configurar activos fijos](fa-setup.md)
 ### [Métodos amortización](fa-depreciation-methods.md)
-### [Informes y análisis de activos fijos](fa-reports.md)
+### [Administrar presupuestos para activos fijos](fa-how-manage-budgets.md)
 ### [Adquirir activos fijos](fa-how-acquire.md)
 ### [Mantener activos fijos](fa-how-maintain.md)
 ### [Asegurar activos fijos](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Revalorizar activos fijos](fa-how-revalue.md)
 ### [Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md)
 ### [Cancelar o retirar activos fijos](fa-how-dispose-retire.md)
-### [Administrar presupuestos para activos fijos](fa-how-manage-budgets.md)
 ### [Solucionar problemas de movimientos activos](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Gestión de relaciones
 ### [Información general de la gestión de relaciones](marketing-relationship-management.md)
@@ -1758,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Crear informes para mostrar datos de lista](across-how-use-powerbi-reports-factbox.md)
 ##### Usuario empresarial
 ###### [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md)
-###### [Trabajar con datos de Business Central en Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Conectarse a Power BI desde Business Central local](across-working-with-business-central-in-powerbi.md)
 ###### [Usar aplicaciones de Business Central en Power BI](across-powerbi-business-central-apps.md)
 ##### [Preguntas frecuentes](power-bi-faq.md)
 #### Usar Power Automate con Business Central
@@ -1788,6 +1805,20 @@ ms.service: dynamics-365-business-central
 ## [Utilización de indicadores clave de rendimiento (KPI) para alcanzar sus objetivos empresariales](./analytics-about-kpis.md)
 ## [Uso de informes financieros](bi-how-work-account-schedule.md)
 
+## Análisis de datos ad hoc
+### [Información general](reports-adhoc-analysis.md)
+### [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)
+### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
+### [Analizar datos de página en Excel](across-work-with-excel.md)
+### [Analizar datos de informes con Excel](report-analyze-excel.md)
+### [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md)
+
+## Herramientas de análisis integrados
+### [Información general](reports-built-in-analytics.md)
+### [Trabajar con informes de Power BI](across-working-with-powerbi.md)
+### [Información inteligente (local)](about-intelligent-cloud.md)
+### [Telemetría de uso de informes](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 ## Usar informes en el trabajo diario
 ### [Información general](reports-use-reports.md)
 ### [Ejecutar informes](ui-work-report.md)
@@ -1811,7 +1842,7 @@ ms.service: dynamics-365-business-central
 #### [Análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)
 #### [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)
 
-### Venta
+### Ventas
 #### [Informes de ventas](sales-reports.md)
 #### [Estado de pedido de venta abierto](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
 #### [Seguimiento de paquete](sales-how-track-packages.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Información general de ofertas de servicio](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Información general de documentos de servicio registrados](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Análisis de datos ad hoc
-### [Información general](reports-adhoc-analysis.md)
-### [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)
-### [Preguntas frecuentes sobre búsqueda y filtrado](ui-search-filter-faq.yml)
-### [Analizar datos de página en Excel](across-work-with-excel.md)
-### [Analizar datos de informes con Excel](report-analyze-excel.md)
-### [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md)
-### [Inteligencia empresarial financiera](bi.md)
-
-## Análisis integrados 
-### [Información general](reports-built-in-analytics.md)
-### [Información inteligente](about-intelligent-cloud.md)
-### [Trabajar con informes de Power BI](across-working-with-powerbi.md)
-### [Inteligencia empresarial financiera](bi.md)
-### [Analizar estados financieros con Excel](finance-analyze-excel.md)
-### [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)
-### [Telemetría de uso de informes](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analizar datos en herramientas de inteligencia empresarial
-### [Información general](reports-external-analysis.md)
-### [Microsoft Fabric y Business Central](admin-fabric.md)
-### [Usar Power BI con Business Central](admin-powerbi.md)
-### [Analizar estados financieros con Excel](finance-analyze-excel.md)
-### [Extraer datos a almacenes de datos o lagos de datos](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Leer datos con la API de Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Informes de desarrollo
 ### [Información general](reports-develop-reports.md)
 ### Desarrollar diseños de informe
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Desarrollar conjuntos de datos de informes
 #### [Guía de desarrollo de informes](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Guía de ajuste del rendimiento de los informes](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Analizar datos en herramientas de inteligencia empresarial
+### [Información general](reports-external-analysis.md)
+### [Microsoft Fabric y Business Central](admin-fabric.md)
+### [Usar Power BI con Business Central](admin-powerbi.md)
+### [Analizar estados financieros con Excel](finance-analyze-excel.md)
+### [Extraer datos a almacenes de datos o lagos de datos](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Leer datos con la API de Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Seguridad, cumplimiento y privacidad
 ## Seguridad y protección

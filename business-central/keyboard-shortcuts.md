@@ -4,14 +4,14 @@ description: La lista completa de combinaciones de método abreviado de teclado 
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 12/14/2023
+ms.date: 04/19/2024
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-shortcuts"></a>Métodos abreviados
+# Métodos abreviados
 
 Este producto proporciona un resumen de algunas de las combinaciones de métodos abreviados que se pueden utilizar cuando trabaje con [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -22,7 +22,7 @@ Para obtener una descripción general de los métodos abreviados de teclado más
 > [ ![Icono para el archivo PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Icono que abre un PDF")
 
 
-## <a name="overview"></a>Panorama
+## Panorama
 
 Los métodos abreviados de teclado ayudan a la accesibilidad y pueden hacer que sea más fácil y más eficiente navegar por diferentes áreas y elementos en una página. La mayoría de los exploradores web admiten estos métodos abreviados, sin embargo, el comportamiento puede variar ligeramente.
 
@@ -37,7 +37,7 @@ La mayoría de los accesos directos son los mismos independientemente de que el 
 > [!NOTE]
 > Además de los métodos abreviados de teclado globales descritos en este artículo, hay disponibles varios métodos específicos de la empresa. Por ejemplo, en la versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)], <kbd>F9</kbd> publica un documento y <kbd>Ctrl</kbd>+<kbd>F7</kbd> muestra las entradas contables de un registro al abrirlo en una tarjeta. Este artículo incluye algunos de los atajos específicos de negocios más comunes, que se muestran en cursiva. Tenga en cuenta que los atajos reales pueden ser diferentes en su solución. En la interfaz de usuario, el método abreviado de teclado se muestra en la información sobre herramientas de la acción en cuestión.
 
-## <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a>Métodos abreviados de teclado generales
+##  <a name="Keyboard"></a> Métodos abreviados de teclado generales
 
 En la siguiente tabla se describen métodos abreviados de teclado para navegar y acceder a diferentes elementos de una página. Los elementos incluyen cosas como acciones, listas desplegables, búsquedas y más. Para obtener más información sobre los métodos abreviados de teclado para navegar por los registros una vez que está en una lista, consulte la siguiente sección.
 
@@ -72,14 +72,14 @@ En la siguiente tabla se describen métodos abreviados de teclado para navegar y
 |<kbd>Mayús</kbd>+<kbd>Tabulador</kbd>|Mueva el enfoque al control o elemento anterior de una página, como acciones, botones, campos o encabezados de una lista.|
 |<kbd>Y</kbd> y <kbd>N</kbd>|Activar los botones **Sí** y **No** en cuadros de diálogo. Las claves reales varían según el idioma actual especificado en **Mi configuración**. Por ejemplo, seleccione <kbd>J</kbd> para activar el botón **Ja** cuando se utiliza el idioma alemán.|
 
-## <a name="keyboard-shortcuts-in-lists"></a>Métodos abreviados de teclado en las listas
+## Métodos abreviados de teclado en las listas
 
 En la tabla siguiente se describen los métodos abreviados de teclado que puede usar en una página de lista. La acción de acceso directo es ligeramente diferente en función de si la página se muestra en la vista de lista o de mosaico.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### <a name="general"></a>General
+### General
 
 |Seleccione estas teclas<br />(en macOS)|Para hacerlo en una vista de lista|Para hacerlo en una vista de mosaico |
 |--------------------------------|-------------------------|--------------------------|
@@ -95,7 +95,7 @@ En la tabla siguiente se describen los métodos abreviados de teclado que puede 
 |<kbd>Mayús</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>|Envíe las líneas sugeridas en la página de **hoja de cálculo de flujo de efectivo**.|No aplicable.|
 |<kbd>Mayús</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>|Ver números de serie y de lote asignados al producto de línea en el documento o diario.|No aplicable.|
 
-### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Desplácese entre las filas y las columnas
+### <a name="navigateshortcuts"></a> Desplácese entre las filas y las columnas
 
 Las cuadrículas con filas y columnas existen en muchos tipos de página en [!INCLUDE[prod_short](includes/prod_short.md)], como páginas de lista y partes de **Líneas** en documentos. Moverse de una celda a otra a través de una cuadrícula está totalmente preparado para el teclado.
 
@@ -116,7 +116,7 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 | <kbd>Tab</kbd> | En una lista editable, desplácese en la misma fila al siguiente campo de la derecha. | No aplicable. | 
 | <kbd>Mayús</kbd>+<kbd>Tabulador</kbd> | En una lista editable, desplácese en la misma fila al anterior campo de la izquierda. | No aplicable. |
 
-### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Seleccionar, Copiar y Pegar
+### <a name="CopyRows"></a>Seleccionar, Copiar y Pegar
 
 |Seleccione estas teclas<br />(en macOS)|Para hacerlo en una vista de lista |Para hacerlo en una vista de mosaico |
 |--------------------------------|--------------------------|--------------------------|
@@ -134,7 +134,7 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 |<kbd>Mayús</kbd>+<kbd>Av Pág</kbd><br /><br />(<kbd>Mayús</kbd>+<kbd>Fn</kbd>+<kbd>Flecha abajo</kbd>)|Extienda la selección de filas para incluir las filas visibles por debajo de la selección actual de filas.|No aplicable.|
 |<kbd>F8</kbd>|Copie el campo en la misma columna de la fila anterior y péguelo en la fila actual. Solo lo puede hacer en listas editables. Mediante este método abreviado seguido de una <kbd>tabulación</kbd> podrá completar rápidamente los campos de los productos de la línea que desea que tengan el mismo valor que la fila anterior.|No aplicable.|
 
-### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Buscar y filtrar listas
+### <a name="KeyboardFilter"></a>Buscar y filtrar listas
 
 |Seleccione estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
@@ -146,7 +146,7 @@ Las cuadrículas con filas y columnas existen en muchos tipos de página en [!IN
 |<kbd>Ctrl</kbd>+<kbd>Mayús</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Restablecer filtros. Esto es lo mismo que elegir **Restablecer filtros** en el panel de filtro y se aplica a los filtros de campos y totales.<br /><br /> Los filtros vuelven a los filtros predeterminados para la vista actual. Si la vista actual es **Todos**, entonces es lo mismo que volver a una vista sin filtros con todos los registros. |
 |<kbd>Ctrl</kbd>+<kbd>Entrar</kbd>|Cambiar el enfoque del panel de filtros a la lista.|
 
-## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Métodos abreviados de teclado en fichas y documentos
+## Métodos abreviados de teclado en fichas y documentos
 
 Los siguientes métodos abreviados están disponibles en las páginas de ficha, como **Ficha cliente**, y en las páginas de documento, como **Pedido de venta**, para visualizar y modificar registros.
 
@@ -175,7 +175,7 @@ Los siguientes métodos abreviados están disponibles en las páginas de ficha, 
 |<kbd>Mayús</kbd>+<kbd>F9</kbd>|Publica e imprime un documento.|
 |<kbd>Mayús</kbd>+<kbd>F11</kbd>|Liquidar movimientos, obtener documentos de origen u obtener documentos de almacén.|
 
-## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Métodos abreviados de entrada rápida para campos
+## <a name="QuickEntry"></a>Métodos abreviados de entrada rápida para campos
 
 Los siguientes accesos directos pertenecen a la función de entrada rápida en fichas, documentos y páginas de listas. En las listas, los métodos abreviados no se pueden utilizar cuando la lista está en la vista de mosaico. Para obtener más información sobre la entrada rápida, consulte [Aceleración de la entrada de datos mediante la entrada rápida](ui-enter-data.md#QuickEntry).
 
@@ -185,7 +185,7 @@ Los siguientes accesos directos pertenecen a la función de entrada rápida en f
 |<kbd>Mayús</kbd>+<kbd>Entrar</kbd>|Confirmar el valor en el campo actual y pasar al campo de entrada rápida anterior.||
 |<kbd>Ctrl</kbd>+<kbd>Mayús</kbd>+<kbd>Entrar</kbd>|Confirmar el valor en la columna actual y pasar al siguiente campo de entrada rápida fuera de la lista.<br /><br />Este método abreviado se aplica a las listas insertadas en una página, como los productos de lista de un pedido de venta. Le permite salir rápidamente de la lista y continuar introduciendo datos en otros campos de la página.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a>Métodos abreviados de teclado en el calendario (selector de fecha)
+## <a name="calendarshortcuts"></a> Métodos abreviados de teclado en el calendario (selector de fecha)
 
 Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir un calendario (selector de fecha) que le permite seleccionar la fecha que desea. En la tabla siguiente se describen los métodos abreviados de teclado del calendario.
 
@@ -203,14 +203,14 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |<kbd>Av. Pág.</kbd>|Desplazarse al mes siguiente.|
 |<kbd>Re. pág.</kbd>|Desplazarse al mes anterior.|  
 
-## <a name="keyboard-shortcuts-in-date-fields"></a>Métodos abreviados de teclado en campos de fecha
+## Métodos abreviados de teclado en campos de fecha
 
 |Seleccione estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
 |<kbd>h</kbd>|Introduzca la fecha actual. "H" significa "hoy".|
 |<kbd>t</kbd>|Introduzca la fecha de trabajo. Para obtener más información, consulte [Fecha de trabajo](ui-change-basic-settings.md#work-date).|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Métodos abreviados de teclado en la vista preliminar de informe
+## <a name="reportpreviewshortcuts"></a>Métodos abreviados de teclado en la vista preliminar de informe
 
 |Seleccione estas teclas<br />(en macOS)|Para hacer esto|
 |--------------------------------|----------|
@@ -224,7 +224,7 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |<kbd>Av. Pág.</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Flecha absjo</kbd>)|Ir a la página siguiente del informe.|
 |<kbd>Re. pág.</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>flecha arriba</kbd>)|Ir a la página anterior del informe.|
 
-## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Atajos de teclado para acercar y alejar
+## <a name="zoomshortcuts"></a>Atajos de teclado para acercar y alejar
 
 |Seleccione estas teclas|Para hacer esto|
 |--------------------------------|----------|
@@ -232,7 +232,7 @@ Al configurar un campo de fecha, puede introducir la fecha manualmente o abrir u
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Alejar la página actual.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Acercar o alejar al 100 % la página actual.|  
 
-## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Atajos de teclado para el explorador de roles
+## <a name="roleexplorer"></a>Atajos de teclado para el explorador de roles
 
 El Explorador de roles le brinda una descripción general y acceso rápido a todas las características comerciales que están disponibles para su rol. Para obtener más información, vea [Búsqueda de páginas con el explorador de roles](ui-role-explorer.md).
 
@@ -244,7 +244,7 @@ El Explorador de roles le brinda una descripción general y acceso rápido a tod
 |<kbd>Mayús</kbd> <kbd>F3</kbd> o <kbd>Ctrl</kbd>+<kbd>Flecha arriba</kbd>|Mueve el foco a la anterior característica encontrada en el explorador de roles.|
 |<kbd>Ctrl</kbd>+<kbd>Mayús</kbd>|Expanda o contraiga todos los subnodos, además de los nodos de nivel superior, cuando elija la acción **Expandir** o **Contraer**.|
 
-## <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Accesos directos del teclado numérico
+##  <a name="keypad"></a> Accesos directos del teclado numérico
 
 En la tabla siguiente se describen los métodos abreviados en un teclado numérico.
 
@@ -252,20 +252,20 @@ En la tabla siguiente se describen los métodos abreviados en un teclado numéri
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Separador decimal</kbd>|Cambie la salida de la tecla de separador decimal a un punto (.) o al carácter determinado por la opción **Región** de la página **Mi configuración**. Para más información, consulte [Configurar el separador decimal utilizado por los teclados numéricos](ui-enter-data.md#decimal).|
 
+## Teclas de acceso para la barra de acciónes y el menú de navegación
 
-## <a name="access-keys-for-action-bar-and-navigation-menu"></a>Teclas de acceso para la barra de acciónes y el menú de navegación
-
-Las teclas de acceso son métodos abreviados de teclado que permiten seleccionar acciones específicas en la barra de acciones y el menú de navegación. Le permite navegar a través de las acciones para llegar a la página que desee. Las claves de acceso están disponibles en el cliente web de Business Central y son similares a las claves de acceso en Excel y Word Online.  
+Las teclas de acceso son atajos de teclado que le permiten seleccionar acciones específicas en la barra de acciones y el menú para facilitar la navegación, de forma similar a las teclas de acceso de Excel y Word. Sin embargo, solo están disponibles en el cliente web Business Central cuando el idioma de visualización está configurado en inglés.
 
 Para usar las teclas de acceso en una página, primero seleccione la tecla <kbd>Alt</kbd> para mostrar *sugerencias de teclas*, que son letras en pequeños recuadros junto a las acciones de la barra de acciones y el menú de navegación. 
 
 ![Imagen que muestra claves de acceso en la página de lista de clientes.](media/access-keys.png) 
 
 Para seleccionar una acción, seleccione la combinación de teclas que se muestra en la sugerencia de teclas, por ejemplo <kbd>H</kbd> o <kbd>J</kbd>+<kbd>F</kbd>.
+
 - Si la acción abre un submenú de otras acciones, se muestran las sugerencias de teclas para el submenú, lo que le permite continuar usando las teclas de acceso si lo desea.
-- Si la acción abre una página diferente, las sugerencias clave se desactivan. Para volver a mostrarlos, seleccione la tecla <kbd>Alt</kbd>. 
- 
-## <a name="see-also"></a>Consulte también
+- Si la acción abre una página diferente, las sugerencias clave se desactivan. Para volver a mostrarlos, seleccione la tecla <kbd>Alt</kbd>.
+
+## Consulte también
 
 [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Características de asistencia.](ui-accessibility.md)  

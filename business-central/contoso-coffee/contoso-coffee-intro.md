@@ -11,17 +11,17 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introducción a datos de demostración de Contoso Coffee
+# Introducción a datos de demostración de Contoso Coffee
 
 Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para [!INCLUDE [prod_short](../includes/prod_short.md)] agregan datos de demostración que puede usar para aprender a usar las capacidades de [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Configurar datos de Contoso Coffee
+## Configurar datos de Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
 Cuando las aplicaciones estén instaladas, en la página **Herramienta de demostración de Contoso**, use la acción **Configurar** para preparar los siguientes módulos. Puede optar por instalar todos los datos disponibles, que incluyen datos de configuración y producción, o solo datos de configuración.
 
- - El **Módulo Común** para preparar la configuración general que requiere [!INCLUDE [prod_short](../includes/prod_short.md)]. Por ejemplo, cosas como series numéricas. 
+ - El **Módulo Común** para preparar la configuración general que requiere [!INCLUDE [prod_short](../includes/prod_short.md)]. Por ejemplo, cosas como series numéricas. Tenga en cuenta que el **Módulo común** contiene datos complementarios para los escenarios de almacén, fabricación y servicio únicamente. No se recomienda ejecutarlo de forma aislada.
 
 En la siguiente tabla se describen las configuraciones:  
 
@@ -39,7 +39,7 @@ En la siguiente tabla se describen las configuraciones:
 
 Después de configurar los módulos que desea probar, elija la acción **Generar** para crear datos de demostración para ellos.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Fabricación](../production-manage-manufacturing.md)  
 [Gestión de almacén](../warehouse-manage-warehouse.md)  

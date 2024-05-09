@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
-ms.date: 12/19/2023
+ms.date: 04/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,31 +18,34 @@ La contabilidad (G/L) almacena sus datos financieros y el plan de cuentas (COA) 
 
 La configuración de la contabilidad es en la base de los procesos financieros porque define cómo se registran los datos. Dos páginas en concreto desempeñan un papel importante en la configuración de sus procesos financieros:  
 
-* La página **Configuración contabilidad**
+* **Configuración contabilidad**
+* **Configuración grupos contables**
 
-  En la página **Configuración contabilidad** especifique cómo gestionar determinados asuntos de contabilidad en su empresa, como:  
+### La página **Configuración contabilidad**
 
-  * Detalles de redondeo de factura  
-  * Formatos de dirección  
-  * Informes financieros
+Use la página **Configuración contabilidad** para especificar cómo gestionar determinados asuntos de contabilidad en su empresa, como:  
 
-  > [!TIP]
-  > La página **Configuración de contabilidad:** incluye campos genéricos y campos que son específicos de su país o región. Si no está seguro del significado de un campo, le sugerimos que trabaje con su contable para determinar si es relevante para su organización. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+* Detalles de redondeo de factura  
+* Formatos de dirección  
+* Informes financieros
 
-  Abra la página [aquí](https://businesscentral.dynamics.com/?page=118)
-  
-* La página **Configuración grupos contables**
+> [!TIP]
+> La página **Configuración de contabilidad:** incluye campos genéricos y campos que son específicos de su país o región. Si no está seguro del significado de un campo, le sugerimos que trabaje con su contable para determinar si es relevante para su organización. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-  De manera similar, en la página **Configuración grupos contables**, puede especificar cómo desea configurar las combinaciones generales del negocio y los grupos contables de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Pero también puede abrir cada línea en su propia tarjeta de configuración de registro. Obtenga más información en [Configuraciones de grupos contables](finance-posting-groups.md).  
+Para abrir la página ahora, utilice el siguiente vínculo [Configuración de contabilidad](https://businesscentral.dynamics.com/?page=118).
 
-  > [!TIP]
-  > Si no puede ver los campos que está buscando en la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
+### La página **Configuración grupos contables**
 
-  Abra la página [aquí](https://businesscentral.dynamics.com/?page=314).
+Utilice la página **Configuración grupos contables** para configurar combinaciones de grupos contables de negocio y de producto. Los grupos contables asignan entidades como clientes, proveedores, productos, recursos y documentos de venta y compra a cuentas contables. Rellene una línea por cada combinación de grupo contable de negocio y de producto. Pero también puede abrir cada línea en su propia tarjeta de configuración de registro. Obtenga más información en [Configuraciones de grupos contables](finance-posting-groups.md).  
+
+> [!TIP]
+> Si no puede ver los campos que está buscando en la página **Configuración grupos contables**, utilice la barra de desplazamiento horizontal situada en la parte inferior de la página para desplazarse hacia la derecha.  
+
+Para abrir la página ahora, utilice el siguiente vínculo [Configuración grupos contables](https://businesscentral.dynamics.com/?page=314).
 
 ## Plan de cuentas
 
-El plan de cuentas muestra todas las cuentas de contabilidad. Desde el plan de cuentas, puede realizar acciones como las siguientes:  
+La página **Plan de cuentas** muestra todas las cuentas de contabilidad general. Desde el plan de cuentas, puede realizar acciones como las siguientes:  
 
 * Ver informes que muestran movimientos de contabilidad y saldos.  
 * Cerrar el asiento de regularización.  
@@ -50,7 +53,7 @@ El plan de cuentas muestra todas las cuentas de contabilidad. Desde el plan de c
 * Ver una lista de grupos contables para dicha cuenta.
 * Para ver los saldos del Debe y el Haber de una sola cuenta.
 
-Puede agregar, cambiar o eliminar cuentas de contabilidad. Sin embargo, para evitar discrepancias, no puede eliminar una cuenta de contabilidad si sus datos se utilizan en el plan de cuentas. Además, a partir del lanzamiento de versiones 2 de 2022, también puede bloquear la eliminación accidental de cuentas en períodos sensibles. Obtenga más información en la sección [Eliminar cuentas](finance-setup-chart-accounts.md#delete-accounts).  
+Para obtener más información, vaya a [Conocer el plan de cuentas](finance-chart-of-accounts.md).
 
 ## Categorías de cuenta
 
@@ -64,9 +67,9 @@ Puede defnir si los tipos de informes específicos deben incluir las cuentas de 
 
 ### Ejemplo:
 
-Por ejemplo, el extracto de saldo predeterminado tiene una subcategoría para *Efectivo* en *Activos fijos*. Si desea que el extracto de saldo tenga en cuenta el efectivo pequeño y la cuenta corriente, necesita realizar estos pasos:
+Por ejemplo, el extracto de saldo predeterminado tiene una subcategoría para *Efectivo* en *Activos fijos*. Si desea que el extracto de saldo tenga en cuenta el efectivo pequeño y la cuenta corriente, siga estos pasos:
 
-1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Categorías de cuenta de contabilidad** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Categorías de cuenta de contabilidad** y luego elija el enlace relacionado.
    1. Alternativamente, [abra la página aquí](https://businesscentral.dynamics.com/?page=790).
 2. Seleccione la acción **Editar lista**.
 3. Agregue dos subcategorías nuevas: una para el efectivo pequeño y otra para su cuenta corriente:
@@ -87,19 +90,22 @@ Cuando elige la acción **Generar informes financieros**, o la próxima vez que 
 * Líneas con saldos de caja chica y la cuenta corriente.  
 
 > [!NOTE]
-> Si crea una cuenta de mayor sin asignar una categoría de cuenta, cuando asigne la cuenta a un grupo contable [!INCLUDE[prod_short](includes/prod_short.md)] asigna automáticamente la categoría de cuenta de la cuenta de mayor inmediatamente encima de la cuenta en su catálogo de cuentas. Sin embargo, para incluir la nueva cuenta en sus informes financieros, debe elegir la acción **Generar informes financieros** sobre la página **Categorías de cuentas del libro mayor**. Como alternativa, puede abrir la página Tarjeta de cuenta del L/M, especificar la categoría de la cuenta y luego volver a generar su informe financiero.
+> Si crea una cuenta de mayor sin asignar una categoría de cuenta, cuando asigne la cuenta a un grupo contable [!INCLUDE[prod_short](includes/prod_short.md)] asigna automáticamente la categoría de cuenta de la cuenta de mayor inmediatamente encima de la cuenta en su catálogo de cuentas. Sin embargo, para incluir la nueva cuenta en sus informes financieros, debe elegir la acción **Generar informes financieros** sobre la página **Categorías de cuentas del libro mayor**. Como alternativa, puede abrir la página Ficha cuenta, especificar la categoría de la cuenta y luego volver a generar su informe financiero.
 
-## Obtener una descripción general rápida
+## Acceso para crear y editar cuentas de proyecto y categorías de cuentas
 
-La página **Plan de cuentas** muestra las cuentas en una lista jerárquica que ofrece acceso rápido a la información clave de cada cuenta. Sin embargo, la lista es estática y, si tiene muchas cuentas, es posible que deba desplazarse para ver la información de diferentes cuentas. Si solo desea una descripción general rápida de los conceptos básicos, como cambios netos y saldos, la página **Introducción al plan de cuentas** es una alternativa útil. El diseño de columnas en la página ahora es el mismo que encontrará en la página **Catálogo de cuentas** (aunque con menos columnas), por lo que no tendrá que reorientarse. Puede expandir o contraer los niveles jerárquicos para condensar la vista. Para facilitar el cambio entre las páginas, la página **Introducción al plan de cuentas** está disponible en la página del **Plan de cuentas**.
+En una organización pequeña, como la empresa de demostración CRONUS, la mayoría de los usuarios pueden editar cuentas de proyecto, categorías de cuentas y el plan de cuentas, excepto los usuarios con una licencia de TEAM MEMBER. Sin embargo, en organizaciones más grandes normalmente los roles de usuario y los permisos limitan el acceso para editar esas entidades. Si es administrador o tiene el rol *Administrador de negocio* o *Contable*, puede controlar los permisos de usuario para dar a las personas adecuadas acceso a las tablas relevantes. Para obtener más información, vaya a la sección [Obtener un resumen de los permisos de un usuario](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Acceso para crear y editar cuentas y categorías de cuentas
+## Utilice dimensiones para simplificar su plan de cuentas
 
-En una organización pequeña, como la empresa de demostración CRONUS, la mayoría de los usuarios pueden editar el plan de cuentas, excepto los usuarios con una licencia de TEAM MEMBER. Sin embargo, en organizaciones más grandes normalmente los roles de usuario y los permisos limitan el acceso para editar el plan de cuentas. Si es administrador o tiene el rol *Administrador de negocio* o *Contable*, puede controlar los permisos de usuario para dar a las personas adecuadas acceso a las tablas relevantes. Más información en la sección [Obtener un resumen de los permisos de un usuario](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
+Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento. Así, en lugar de configurar cuentas de libro mayor separadas para cada departamento y proyecto, puede utilizar las dimensiones como base para el análisis y evitar tener que crear un plan de cuentas complicado.
+
+Para obtener más información sobre dimensiones, vaya a [Configurar dimensiones predeterminadas para clientes, proveedores, y otras cuentas](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
 ## Consulte también
 
-[Configurar o cambiar el plan de cuentas](finance-setup-chart-accounts.md)  
+[Conocer el plan de cuentas](finance-chart-of-accounts.md)  
+[Trabajar con dimensiones](finance-dimensions.md)  
 [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md)  
 [Inteligencia empresarial](bi.md)  
 [Finanzas](finance.md)  

@@ -2,26 +2,28 @@
 title: Informes y análisis de compra
 description: Consulte qué informes y análisis de compra están disponibles en la versión estándar de Business Central para que pueda realizar un seguimiento de su negocio.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Report_707, Report_709, Report_714, Report_716, Report_720'
-ms.date: 02/04/2024
-ms.author: bholtorf
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Informes y análisis de compra en Business Central
+# Informes y análisis de compra
 
 Los informes de compra en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de la adquisición y los negocios obtener información y estadísticas sobre las actividades de compra actuales y pasadas.  
 
 ## Informes
+
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
 ## Tareas
+
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Crear informes de análisis](bi-how-create-analysis-views-reports.md)  
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)  
-
 
 ## Consulte también .
 [Configurar compras](purchasing-setup-purchasing.md)  

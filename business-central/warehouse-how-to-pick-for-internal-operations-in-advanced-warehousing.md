@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
     > [!NOTE]
     > Si es necesario realizar el picking o colocar los productos para otra línea en varias ubicaciones porque la ubicación designada está completa, por ejemplo, utilice la acción **Dividir línea** en la ficha desplegable **Líneas**. La acción crea una línea la cantidad restante que se debe administrar.
 
+      Puede ordenar las líneas de picking por varios criterios, por ejemplo, por producto, número de estante o fecha de vencimiento. La clasificación puede ayudar a optimizar el proceso de almacenamiento, por ejemplo:
+
+    * Si las líneas Traer y Colocar de cada línea de envío no están una a continuación de otra y desea que lo estén, puede ordenar las líneas seleccionando **Producto** en el campo **Método ordenación**.  
+    * Si las clasificaciones de almacenamientos reflejan el diseño físico del almacén, utilice el método de clasificación **Clasificación de ubicaciones** para organizar el trabajo en torno a los almacenes de las ubicaciones.
+
+  > [!NOTE]  
+  > Las líneas se ordenan en orden ascendente por los criterios seleccionados. Si ordena por documento, la ordenación se realiza primero por tipo de documento según el campo **Documento de origen de la actividad de almacén**. Si ordena por destino de envío, la clasificación se realiza primero por tipo de destino según el campo **Tipo de destino de almacén**.
+
 4. Después de realizar el picking y colocar los productos en el área de producción, ensamblado o trabajo, elija la acción **Registrar picking**.  
 
     Ahora puede llevar los productos al área correspondiente y contabilizar la utilización o el consumo de los componentes del picking mediante la contabilización del diario de consumo, el pedido de ensamblado o el diario de proyecto. Los siguientes artículos ofrecen más información:
@@ -171,6 +179,14 @@ En los pasos siguientes se describen las acciones correspondientes para distinta
 En la ilustración siguiente se muestra cuando se rellena el campo **Cód. ubicación** de la lista de componentes según la configuración de la máquina o del centro de trabajo.  
 
 :::image type="content" source="media/binflow.png" alt-text="Descripción general de cuándo y cómo se rellena el campo Código de ubicación.":::
+
+## Componentes de producción bajo pedido (MTO) en una configuración de almacén avanzada
+
+En escenarios en los que un artículo producido consta de materias primas y artículos semiacabados con la política de fabricación establecida en **Fabricación contra pedido**, la selección de almacén para esos componentes semiacabados se agrega a la misma orden de producción con el campo **Código de nivel de planificación** completado. Se espera que los artículos semiacabados estén disponibles para el consumo de inmediato y no requieran selección, por lo que no se incluyen en el documento de selección del almacén. Las selecciones de almacén creadas solo incluyen materias primas para artículos producidos y para artículos semiacabados.
+
+Sin embargo, si hay artículos semiacabados disponibles en stock, el sistema de planificación sugiere que los consuma en lugar de producir la cantidad total. Por ejemplo, un artículo producido requiere cinco componentes semiacabados, pero ya hay tres en stock. En este caso, cinco artículos semiacabados se enumeran en los componentes de la orden de producción, pero solo dos se producen en la misma orden de producción como una línea de orden de producción separada.
+Esta configuración no es compatible con las selecciones de almacén y, según la frecuencia, debe cambiar la política de fabricación de dichos artículos semiacabados a **Fabricación contra stock** o divida manualmente la línea de componentes de la orden de producción cuando necesite seleccionar los artículos semiacabados producidos anteriormente.
+
 
 ## Consulte también
 

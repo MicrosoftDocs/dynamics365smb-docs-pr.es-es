@@ -1,17 +1,17 @@
 ---
-title: Clasificar confidencialidad de datos
+title: Clasificar la confidencialidad de los datos
 description: Debe especificar qué tipo de datos almacena sobre las personas para que pueda responder a las solicitudes de los asuntos de datos.
 author: brentholtorf
 ms.author: bholtorf
-ms.custom: na
-ms.reviewer: na
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.search.form: 1752
-ms.date: 06/14/2021
+ms.search.form: '1752,'
+ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="classifying-data-sensitivity-fields"></a>Clasificar campos de confidencialidad de datos
+# Clasificar campos de confidencialidad de datos
 
 Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
@@ -29,14 +29,14 @@ En la tabla siguiente se describen niveles de confidencialidad de datos que pued
 |Confidencial | Los datos comerciales que utiliza para fines de contabilidad u otros fines comerciales, y no desea exponer a otras entidades. Por ejemplo, movimientos contables.|
 |Normal | Datos generales que no pertenecen a ninguna otra categoría.|
 
-## <a name="how-do-i-classify-my-data"></a>¿Cómo clasifico mis datos?
+## ¿Cómo clasifico mis datos?
 
-Clasificar la confidencialidad de muchos campos uno a uno llevaría mucho tiempo. Para ayudar a acelerar el proceso, proporcionamos herramientas que puede usar para clasificar en bloque la confidencialidad de los campos y luego ajustar las clasificaciones para campos específicos. Puede encontrar herramientas en la hoja de trabajo Clasificación de datos, que está disponible en el área de trabajo Administración de usuarios, grupos de usuarios y permisos. Es necesario ser administrador del sistema para usar la hoja de trabajo.
+Clasificar la confidencialidad de muchos campos uno a uno llevaría mucho tiempo. Para ayudar a acelerar el proceso, proporcionamos herramientas que puede usar para clasificar en bloque la confidencialidad de los campos y luego ajustar las clasificaciones para campos específicos. Puede encontrar herramientas en la página Hoja de trabajo de clasificación de datos, que está disponible en el área de trabajo Administración de usuarios, grupos de usuarios y permisos. Es necesario ser administrador del sistema para usar la hoja de trabajo.
  
 > [!Important]  
-> Cuando abra la hoja de trabajo Clasificación de datos por primera vez, estará vacía. Debe ejecutar la guía Clasificación de datos para generar la lista de campos. Para iniciar la guía, elija la acción **Configurar clasificaciones de datos**.
+> Cuando abra la página Hoja de trabajo de clasificación de datos por primera vez, estará vacía. Debe ejecutar la guía Clasificación de datos para generar la lista de campos. Para iniciar la guía, elija la acción **Configurar clasificaciones de datos**.
 
-Por ejemplo, la hoja de trabajo Clasificación de datos le permite hacer cosas como:  
+Por ejemplo, la página Hoja de trabajo de clasificación de datos le permite hacer cosas como:  
 
 * Usar la guía de clasificación de datos para exportar sus campos a una hoja de cálculo de Excel donde puede clasificarlos en bloque. Usar la hoja de cálculo de Excel es particularmente útil si colabora con un socio de Microsoft. Después de actualizar la hoja de trabajo, puede usar la guía para importar y aplicar las clasificaciones. También puede utilizar la guía para ordenar campos manualmente.  
 * Elija un campo y luego filtre la lista para buscar campos similares que probablemente pertenezcan a la misma clasificación que el campo en el que basó la búsqueda.  
@@ -45,7 +45,7 @@ Por ejemplo, la hoja de trabajo Clasificación de datos le permite hacer cosas c
 > [!Tip]  
 > Hemos definido clasificaciones de confidencialidad de muestra para las tablas y campos en la empresa de demostración Cronus. Puede utilizar las clasificaciones como inspiración cuando ordene sus propias tablas y campos.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 <!-- [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data) -->
 [!INCLUDE[footer-include](includes/footer-banner.md)]

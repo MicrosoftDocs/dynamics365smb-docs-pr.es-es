@@ -24,10 +24,12 @@ Los siguientes artículos describen algunas de las tareas clave para analizar el
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 
 
-## Consulte también .
+## Consulte también
 
+[Información general de análisis de ventas](sales-analytics-overview.md)   
+[Análisis ad-hoc de datos de ventas](ad-hoc-analysis-sales.md)    
 [Configuración de ventas](sales-setup-sales.md)  
-[Ccial](sales-manage-sales.md)  
-[Reservar artículos](inventory-how-to-reserve-items.md)
+[Ventas](sales-manage-sales.md)  
+[Reservar productos](inventory-how-to-reserve-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

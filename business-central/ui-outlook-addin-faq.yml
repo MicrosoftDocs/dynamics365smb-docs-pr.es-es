@@ -27,10 +27,14 @@ sections:
         answer: |
           Sí. Como administrador, desarrollador o socio, puede modificar y crear sus propios manifiestos de complementos. Una forma es descargar el manifiesto de Contact Insights de cada entorno al que los usuarios deseen conectarse. Luego, modifique las etiquetas `<Id>` y `<DisplayName>` para permitir la instalación de varias versiones del complemento. Estas modificaciones permitirán que el usuario tenga varios complementos de Business Central instalados, cada uno apuntando a su propio entorno.
 
-          ![Múltiples complementos de Business Central para Outlook.](media/outlook-multiple-addins.png) 
+          ![Múltiples complementos de Business Central para Outlook.](media/outlook-multiple-addins.png)
+      - question: |
+          El complemento de Outlook me dice que la página no es compatible. ¿Por qué?
+        answer: |
+          Algunas características de Business Central requieren un espacio de trabajo importante para brindar una excelente experiencia y no están disponibles cuando se usa el panel de complementos de Outlook. Por ejemplo, cualquier página del asistente paso a paso no está disponible en el panel. Para solucionarlo, puede desplegar la página en el complemento mediante la acción "Salir". La ventana emergente se puede ampliar a cualquier tamaño, incluida la expansión para llenar la pantalla.
 additionalContent: |
 
-  ## Consulte también .
+  ## Consulte también
 
   [Obtener el complemento Business Central para Outlook](admin-outlook.md)  
   [Usar Business Central como su bandeja de entrada en Outlook](work-outlook-addin.md)  
