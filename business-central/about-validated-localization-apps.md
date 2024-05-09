@@ -10,11 +10,11 @@ ms.author: altotovi
 ---
 
 
-# <a name="development-of-validated-localization-apps"></a>Desarrollo de aplicaciones de localización validadas
+# Desarrollo de aplicaciones de localización validadas
 
 Este artículo describe los requisitos y pautas para desarrollar una aplicación de localización validada para [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-is-a-validated-localization-app"></a>¿Qué es una aplicación de localización validada?
+## ¿Qué es una aplicación de localización validada?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] está disponible [a nivel mundial en más de 170 mercados](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). En un conjunto de mercados, Microsoft trabaja con asociados ISV para localizar [!INCLUDE[prod_short](includes/prod_short.md)] a través de aplicaciones de localización disponibles en [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Para esas regiones, las localizaciones pueden estar disponibles a través del programa de aplicación de localización preferido. El programa de aplicaciones de localización preferidas reconoce aquellas aplicaciones que se crean de acuerdo con las pautas de calidad específicas de Microsoft. Los asociados ISV que cumplan con los requisitos y pautas del programa pueden beneficiarse técnica y comercialmente para atender a sus revendedores y clientes.  
 
@@ -36,7 +36,7 @@ Las aplicaciones del programa piloto de localización validado contienen un conj
 > [!NOTE]
 > La funcionalidad local es beneficiosa para los procesos comerciales de productividad en un país o región y, por lo tanto, agrega valor al negocio, pero no es necesaria desde una perspectiva regulatoria, como formatos bancarios y de pago específicos, informes de gastos, funciones de recursos humanos, nómina y similares, más pequeños o más grandes. y las funciones interesantes deberían aislarse en otras aplicaciones. Si las aplicaciones contienen estas funcionalidades, no se aprueban como aplicaciones de localización validadas.   
 
-## <a name="validated-localization-app-business-requirements"></a>Requisitos comerciales de la aplicación de localización validada
+## Requisitos comerciales de la aplicación de localización validada  
 
 - El proveedor de la aplicación de localización validada cumple con todos los requisitos para ser un proveedor indirecto de CSP.  
 - El proveedor de la aplicación de localización validada trae al mercado un mínimo. de ofertas en cinco países/regiones, que agrupan Dynamics 365 Business Central con una aplicación de localización validada. 
@@ -49,9 +49,9 @@ Las aplicaciones del programa piloto de localización validado contienen un conj
 - Las aplicaciones de localización validadas están disponibles para todos los clientes y asociados que quieran beneficiarse de ellas.  
 - El proveedor de la aplicación de localización validada participa en flujos de trabajo recurrentes con Microsoft.
 
-## <a name="validated-localization-app-functional-and-technical-requirements"></a>Requisitos funcionales y técnicos de la aplicación de localización validada
+## Requisitos funcionales y técnicos de la aplicación de localización validada  
 
-### <a name="functionality-requirements"></a>Requisitos de funcionalidad
+### Requisitos de funcionalidad   
 
 Además de cumplir los requisitos técnicos para la aplicación de localización preferida, el alcance mínimo viable del producto para la aplicación de localización preferida es:  
 
@@ -80,7 +80,7 @@ Además de cumplir los requisitos técnicos para la aplicación de localización
 - Prepare guías de configuración (asistentes) para áreas que son complejas de configurar para ayudar a los usuarios a habilitar, descubrir y tener una buena primera experiencia al usar su aplicación de localización.  
 - Los socios deben proporcionar documentación funcional para todos los aspectos de su localización.  
 
-### <a name="technical-requirements"></a>Requisitos técnicos
+### Requisitos técnicos  
 
 A continuación encontrará una lista de los requisitos que debe cumplir antes de enviar la aplicación de localización validada como extensión para su validación. Esta lista no cambia la [lista de validación técnica](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) y solo amplía los requisitos a partir de allí.  
 
@@ -99,7 +99,7 @@ A continuación encontrará una lista de los requisitos que debe cumplir antes d
 > [!NOTE]  
 > También puede crear una integración si le resulta beneficioso tener alguna funcionalidad ubicada fuera del entorno de [!INCLUDE[prod_short](includes/prod_short.md)] y en su lugar conectarse a [!INCLUDE[prod_short](includes/prod_short.md)] utilizando, por ejemplo, API o servicios web.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Validación técnica](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Desarrollo de una solución de localización estándar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
