@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Plan de cuentas y libro mayor de sostenibilidad 
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Plan de cuentas y libro mayor de sostenibilidad
 
-## Plan de cuentas de sostenibilidad  
+## <a name="chart-of-sustainability-accounts"></a>Plan de cuentas de sostenibilidad
 
 El **Plan de cuentas de sostenibilidad** (CoSA) forma la lista estructurada fundamental que se utiliza para registrar todos los datos de emisiones. Funciona como un marco que categoriza y organiza las cuentas de sostenibilidad en función de sus atributos, como el ámbito u otras agrupaciones. Por lo general, a cada cuenta se le asigna un código o número único para una fácil referencia y seguimiento, siguiendo la misma estructura que un **Plan de cuentas** tradicional, pero personalizado específicamente para supervisar datos relacionados con la sostenibilidad y métricas dentro de una organización. 
  
@@ -35,7 +35,7 @@ Desde el **Plan de cuentas de sostenibilidad** (CoSA), puede hacer cosas como:
     
 Puede agregar, cambiar o eliminar **Cuentas de sostenibilidad**. Sin embargo, para evitar discrepancias, no puede eliminar una **Cuenta de sostenibilidad** si hay uno o más asientos contables asociados con esta cuenta.  
 
-### Agregar o cambiar cuentas  
+### <a name="add-or-change-accounts"></a>Agregar o cambiar cuentas
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas de sostenibilidad** y luego seleccione el vínculo relacionado. 
 2. En la página **Plan de cuentas de sostenibilidad** (CoSA), puede abrir cada **Cuenta de sostenibilidad** y, a continuación, agregue o cambie la configuración. Pase el cursor sobre un campo para leer una breve descripción. 
@@ -45,11 +45,11 @@ Para cuentas del tipo **Total** , deberá completar el campo **Sumatorio**. Para
 >[!IMPORTANT]
 >Si ha escrito definiciones en los campos **Sumatorio** referentes a las cuentas **Fin-Total** antes de ejecutar la función Indentar, deberá volver a escribirlas, ya que esta función sobrescribe los valores de todos los campos **Fin-Total**.  
 
-### Eliminar cuentas  
+### <a name="delete-accounts"></a>Eliminar cuentas
 
 Puede eliminar una **Cuenta de sostenibilidad**. Sin embargo, antes de eliminarla, debe asegurarse de que haya uno o más movimientos asociados con esta cuenta, ya que Business Central le impedirá eliminar una **Cuenta de sostenibilidad** en esta situación.  
 
-## Categorías de cuenta   
+## <a name="account-categories"></a>Categorías de cuenta
 
 Los usuarios deben agregar la **Categoría de cuenta de sostenibilidad** a cada una de las **Cuentas de sostenibilidad**, para definir cómo se comporta el sistema, seleccionando ámbitos de emisión, emisiones dedicadas para seguimiento, fórmulas y configuraciones similares.  
 
@@ -89,7 +89,7 @@ Si usa la **Base de cálculo** (fórmulas), hay una explicación de cómo el sis
 |  | Personalizada | Emisiones = Importe personalizado * FE | _es decir, Importe personalizado = Estancias en hoteles..._ |
 |  | Combustible/Electricidad | Emisión = Combustible * FE | _es decir, Combustible = Cantidad de combustible gastado en el coche de empresa, coche de alquiler..._ |
 
-## Subcategorías de cuenta  
+## <a name="account-subcategories"></a>Subcategorías de cuenta
 
 Los usuarios deben agregar la **Subcategoría de cuenta de sostenibilidad** a cada una de las **Cuentas de sostenibilidad** para definir los factores de emisión que se utilizarán en las fórmulas, pero se basa en la opción de seguimiento de emisiones en la **Categoría de cuenta de sostenibilidad**.  
 
@@ -109,7 +109,7 @@ Para revisar las **Subcategorías de cuentas de sostenibilidad**, siga los pasos
 >[!NOTE]
 >Los campos **Importar datos** e **Importar de** están pensados para una posible integración con sistemas externos que se utilicen para recopilar factores de emisión, pero en el **primer lanzamiento de versiones de 2024** no se pueden usar como una característica de manera predeterminada.  
 
-## Movimientos de sostenibilidad  
+## <a name="sustainability-ledger-entries"></a>Movimientos de sostenibilidad
 
 **Movimiento de sostenibilidad** almacena el historial de todas las transacciones de sostenibilidad publicadas, organizando todos los datos de emisiones de acuerdo con el **Plan de cuentas de sostenibilidad**. Cuando un usuario publica el **Diario de sostenibilidad**, todos los datos importantes se registrarán allí. Todos los informes activos se generan en función de los **Movimientos de sostenibilidad**.   
 
@@ -118,7 +118,7 @@ El usuario puede abrir este movimiento para una cuenta específica usando la acc
 >[!IMPORTANT]
 >Una vez que publique sus datos en el Movimiento de sostenibilidad, no podrá eliminarlos. En caso de que haya cometido un error, puede registrar la transacción inversa usando los mismos detalles, pero usando el signo negativo para el importe.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)    
 [Información general de administración de la sostenibilidad](finance-manage-sustainability.md)
 [Configuración de sostenibilidad](finance-sustainability-setup.md)

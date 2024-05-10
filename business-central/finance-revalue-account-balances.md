@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# Revalorizar saldos de contabilidad general
+# <a name="revalue-general-ledger-account-balances"></a>Revalorizar saldos de contabilidad general
 
 Si utiliza cuentas de contabilidad general para registrar partidas del balance en divisas extranjeras, debe revalorizar los saldos de las cuentas antes de generar estados financieros. Los tipos de cambio de divisas cambian con frecuencia y la revalorización ayuda a que sus estados financieros sean más precisos.
 
-## Configurar revalorizaciones
+## <a name="set-up-revaluations"></a>Configurar revalorizaciones
 
 Usted configura cada cuenta que desea incluir en las revalorizaciones en la página **Ficha cuenta**. Puede seleccionar si desea contabilizar ajustes de revalorización en cuentas de pérdidas/ganancias realizadas o no realizadas. La contabilización de ganancias y pérdidas durante un ajuste del tipo de cambio de moneda sigue la rutina de contabilización normal. Por ejemplo, lo hace para cada configuración en la página  **Divisas**. Para obtener más información sobre los ajustes del tipo de cambio, vaya a [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ Para minimizar errores, en el campo **Registro divisa origen**, puede configurar
 * Misma divisa
 * Divisa local
 
-## Ejecutar una revalorización
+## <a name="run-a-revaluation"></a>Ejecutar una revalorización
 
 Para revalorizar los importes en divisa extranjera en moneda local para los saldos de cuentas del contabilidad, en la página **Plan de cuentas**, use la acción **Revalorización divisa contable** para iniciar un trabajo por lotes. El trabajo por lotes crea entradas de ajuste en el diario que seleccione. Cuando registra las entradas, ajusta el saldo en moneda local (ML) de la cuenta. Los saldos de cuentas de contabilidad que siempre se muestran en ML ahora reflejan cambios en las monedas en las que se registraron los asientos. Esta revalorización le permite producir un estado financiero más preciso con menos esfuerzo.
 
@@ -38,7 +38,7 @@ Si utiliza una moneda de informe adicional (DA), los asientos de revaluación de
 > [!NOTE]
 > La revalorización no brinda la posibilidad de aplicar o cancelar asientos, como se puede hacer con los asientos contables de clientes y proveedores. Los ajustes se realizan según el saldo por moneda.
 
-## Revalorizar cuentas versus ajustes de tipo de cambio de clientes y proveedores
+## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Revalorizar cuentas versus ajustes de tipo de cambio de clientes y proveedores
 
 La revalorización simplifica la tarea de ajustar los saldos de las cuentas de contabilidad general. La característica revaloriza el saldo por divisa por cuenta de contabilidad de manera muy similar a como lo hace para los ajustes en las cuentas de contabilidad que están vinculadas a cuentas bancarias. Si utiliza una cuenta de contabilidad para realizar un seguimiento de varios activos, considere utilizar una cuenta de proveedor o de cliente.
 
@@ -56,7 +56,7 @@ Esta diferencia es importante cuando evalúa si la revaloración de contabilidad
 > [!TIP]
 > Le recomendamos que pregunte a su contable o auditor qué tipo de cuenta es mejor para su negocio. Además, podría haber una aplicación para [!INCLUDE [prod_short](includes/prod_short.md)] en [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) que es perfecta para sus escenarios comerciales.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Revisar importes en cuentas del libro mayor](finance-review-accounts.md)  
 [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
