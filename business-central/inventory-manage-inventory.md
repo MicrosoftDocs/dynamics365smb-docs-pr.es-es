@@ -24,6 +24,16 @@ Para mejorar la información general de los productos y ayudarle a encontrarlos,
 
 La planificación de artículos para satisfacer la demanda está cubierta como parte de la función de planificación de oferta. Obtenga más información en [Planificación](production-planning.md).  
 
+## Análisis de inventario
+
+Esta sección describe las herramientas de análisis que puede usar para obtener información sobre sus datos de inventario.
+
+| Para... | Vea |
+| --- | --- |
+| Obtenga información sobre las capacidades para analizar datos de inventario. | [Información general sobre el análisis de ventas](inventory-analytics-overview.md) |
+| Realice análisis ad hoc de los datos de inventario directamente en las páginas de listas y consultas. | [Análisis ad-hoc de datos de inventario](ad-hoc-analysis-inventory.md) |
+| Explore informes de inventario integrados. | [Informes integrados de inventario y almacén](inventory-WMS-reports.md) |
+
 ## Conciliación de inventario
 
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio en el valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad. Obtenga más información en [Conciliar costes de inventario con la contabilidad](finance-how-to-post-inventory-costs-to-the-general-ledger.md).

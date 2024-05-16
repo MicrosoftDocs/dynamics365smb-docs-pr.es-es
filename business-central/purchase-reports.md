@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Informes y análisis de compra
 
-Los informes de compra en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de la adquisición y los negocios obtener información y estadísticas sobre las actividades de compra actuales y pasadas.  
+Los informes de compra permiten a los profesionales de la adquisición y los negocios obtener información y estadísticas sobre las actividades de compra actuales y pasadas.  
 
 ## Informes
 
@@ -20,13 +20,25 @@ Los informes de compra en [!INCLUDE [prod_short](includes/prod_short.md)] permit
 
 ## Tareas
 
-Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
+Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su compra:
 
-* [Crear informes de análisis](bi-how-create-analysis-views-reports.md)  
-* [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)  
+- [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)  
+- [Calcular las fechas de compras](purchasing-date-calculation-for-purchases.md)
+- [Ver movimientos de compras](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## Consulte también .
+## Explorar los informes de compra con el Explorador de informes
+
+Para obtener una descripción general de los informes disponibles para su compra, elija **Todos los informes** en la página de inicio. Esta acción abre el explorador de roles, que se filtra según las funciones en la opción **Informe y análisis**. En el encabezado **Compras** , elija **Explorar**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Ejemplo de informes sobre el centro de roles financieros XXX" lightbox="media/report-explorer-purchasing.png":::
+
+Para obtener más información, vaya a [Búsqueda de informes con el explorador de roles](ui-role-explorer.md). 
+
+## Consulte también
+
+[Análisis ad hoc de datos de compras](ad-hoc-analysis-purchasing.md)  
+[Información general de análisis de compras](purchasing-analytics-overview.md)   
 [Configurar compras](purchasing-setup-purchasing.md)  
-[Compras](purchasing-manage-purchasing.md)  
+[Información general de compras](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

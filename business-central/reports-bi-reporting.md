@@ -40,7 +40,7 @@ La función de informes financieros le permite obtener información sobre los da
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Captura de pantalla de un informe financiero." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Las dimensiones desempeñan un papel importante en la inteligencia empresarial. Una dimensión son datos que puede agregar a un movimiento como parámetro. las dimensiones, la permiten agrupar movimientos que tienen características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Entre otros fines, utilice las dimensiones al definir las vistas de análisis y al crear informes financieros. Obtenga más información en [Trabajar con dimensiones](finance-dimensions.md).
+Las dimensiones desempeñan un papel importante en la inteligencia empresarial. Una dimensión son datos que puede agregar a un movimiento como parámetro. Las dimensiones le permiten agrupar entradas que tienen características similares. Por ejemplo, grupos de clientes, regiones, productos y vendedores. Los grupos facilitan la recuperación de datos para su análisis. Entre otros fines, utilice las dimensiones al definir las vistas de análisis y al crear informes financieros. Obtenga más información en [Trabajar con dimensiones](finance-dimensions.md).
 
 Para obtener más información sobre los estados financieros y los KPI, vaya a [Uso de informes financieros para producir estados financieros y KPI](bi.md).
 
@@ -61,7 +61,7 @@ Para obtener más información sobre KPI, consulte [Utilización de indicadores 
 
 ## Análisis de datos ad hoc
 
-A veces, es posible que simplemente quiera comprobar si los números cuadran correctamente, confirmar o desacreditar rápidamente una hipótesis sobre el negocio o tal vez buscar anomalías en tus datos financieros. Para los análisis ad hoc, es posible que no tenga un informe integrado que ayude a responder sus preguntas. Para análisis ad hoc, utilice estas dos funciones:
+Es posible que simplemente quiera comprobar si los números cuadran correctamente, confirmar o desacreditar rápidamente una hipótesis sobre el negocio o tal vez buscar anomalías en tus datos financieros. Para los análisis ad hoc, es posible que no tenga un informe integrado que ayude a responder sus preguntas. Para análisis ad hoc, utilice estas dos funciones:
 
 - Análisis de datos en las páginas de la lista del libro mayor
 - Abrir en Excel
@@ -107,7 +107,7 @@ La siguiente tabla enumera artículos sobre cómo utilizar los informes integrad
 
 ## Inteligencia empresarial externa y herramientas de informes
 
-Si prefiere utilizar herramientas de inteligencia empresarial que no están integradas en [!INCLUDE[prod_short](includes/prod_short.md)], la siguiente tabla proporciona enlaces a orientación sobre herramientas y formas de utilizar herramientas externas.
+Si lo prefiere, puede utilizar herramientas de inteligencia empresarial que no están integradas [!INCLUDE[prod_short](includes/prod_short.md)]. La siguiente tabla proporciona vínculos a orientación y formas de utilizar herramientas externas.
 
 | Para  | Vea |
 | --- | --- |
@@ -116,6 +116,18 @@ Si prefiere utilizar herramientas de inteligencia empresarial que no están inte
 | Extraer datos a almacenes de datos o lagos de datos| [Cómo extraer datos a almacenes de datos o lagos de datos](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Analizar datos de Business Central con Microsoft Fabric| [Introducción a Microsoft Fabric y Business Central](admin-fabric.md) |
 | Lea datos desde Business Central usando API | [API Business Central v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Análisis por área funcional
+
+El contenido de este artículo general también está disponible en versiones especiales para muchas áreas funcionales [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Si trabaja con... | Vea |
+| --- | --- |
+| Finanzas | [Análisis financiero](bi.md) |
+| Venta | [Análisis de ventas](sales-analytics-overview.md) |
+| Compras | [Análisis de compras](purchasing-analytics-overview.md) |
+| Gestión de activos fijos | [Análisis de activos fijos](fa-analytics-overview.md) |
+
 
 ## Consulte también
 

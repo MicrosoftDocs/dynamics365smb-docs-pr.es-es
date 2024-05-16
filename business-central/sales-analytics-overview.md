@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="sales-analytics"></a>Análisis de ventas
+# Análisis de ventas
 
 Las empresas capturan muchos datos durante las actividades diarias que sirven de apoyo a la inteligencia empresarial (BI) para los responsables de ventas:
 
@@ -32,7 +32,7 @@ Cada una de estas características tiene sus ventajas y desventajas, según el t
 
 Este artículo presenta cómo puede utilizar estas características analíticas para proporcionar información de ventas.
 
-## <a name="analytics-needs-in-sales"></a>Necesidades de análisis en ventas
+## Necesidades de análisis en ventas
 
 Cuando piense en las necesidades analíticas en la administración de ventas, puede que le ayude utilizar un modelo basado en personas que describa las diferentes necesidades analíticas a alto nivel.
 
@@ -49,14 +49,14 @@ Las personas que desempeñan diferentes roles tienen diferentes necesidades en l
 |Director de cuentas / Vendedor | Datos detallados     | Informes operativos integrados <br> Datos de tareas en pantalla |
 
 <!-- 
-## <a name="sales-kpis"></a>Sales KPIs
+## Sales KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-sales"></a>Usar los informes financieros para elaborar estados financieros y KPI (relacionados con las ventas)
+## Usar los informes financieros para elaborar estados financieros y KPI (relacionados con las ventas)
 
 La característica **Financial Reporting** le permite obtener información sobre los datos financieros que se muestran en su plan de cuentas (COA). Puede configurar informes financieros para analizar cifras en cuentas de contabilidad (G/L) y comparan los movimientos de contabilidad con los presupuestados. Específicamente para la administración de ventas, puede configurar informes financieros en las cuentas de contabilidad general que utiliza para realizar un seguimiento de los registros de ventas.
 
@@ -64,13 +64,13 @@ Las dimensiones desempeñan un papel importante en la inteligencia empresarial. 
 
 Para más información sobre los informes financieros, vaya a [Preparar informes financieros con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-sales"></a>Informes financieros entre unidades de negocio o entidades jurídicas (relacionadas con las ventas)
+## Informes financieros entre unidades de negocio o entidades jurídicas (relacionadas con las ventas)
 
 Algunas organizaciones utilizan [!INCLUDE [prod_short](includes/prod_short.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prod_short](includes/prod_short.md)] en subsidiarias que deben reportar a organizaciones primarias. [!INCLUDE [prod_short](includes/prod_short.md)] ofrece a los contables herramientas que les ayudan a transferir asientos del libro mayor de dos o más empresas (subsidiarias) a una empresa consolidada. Específicamente para la administración de ventas, es posible que desee consolidar las entradas de contabilidad general de sus cuentas de ventas para realizar un seguimiento de los KPI de ventas en todas las unidades de negocios o entidades jurídicas.
 
 Para obtener más información, vaya a [Consolidación de empresa](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-sales-data"></a>Análisis ad-hoc de datos de ventas
+## Análisis ad-hoc de datos de ventas
 
 A veces, solo es necesario comprobar si los números cuadran correctamente o confirmar rápidamente una cifra. Las siguientes características son excelentes para análisis ad hoc:
 
@@ -90,13 +90,13 @@ Del mismo modo, puede utilizar la acción **Abrir en Excel** para abrir una pág
 
 Para obtener más información sobre cómo realizar análisis ad hoc de datos de ventas, vaya a [Análisis ad hoc de datos de ventas](ad-hoc-analysis-sales.md). 
 
-## <a name="built-in-reports-for-sales"></a>Informes de ventas integrados
+## Informes de ventas integrados
 
 [!INCLUDE [prod_short](includes/prod_short.md)] incluye varios informes integrados, funciones de seguimiento y herramientas para ayudar a las organizaciones de ventas a generar informes sobre sus datos.
 
 Para obtener una descripción general de los informes disponibles, elija **Todos los informes** en el panel superior de su página de inicio. Esta acción abre el explorador de roles, que se filtra según las funciones en la opción **Informe y análisis**. Para obtener más información, vaya a [Búsqueda de informes con el explorador de roles](ui-role-explorer.md). 
 
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Ejemplo de informes sobre el centro de roles financieros" lightbox="media/report-explorer-sales.png":::
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Ejemplo de informes sobre el centro de roles de ventas" lightbox="media/report-explorer-sales.png":::
 
 Los informes integrados vienen en dos versiones:
 
@@ -105,7 +105,7 @@ Los informes integrados vienen en dos versiones:
 
 Para obtener más información sobre los informes relevantes para las ventas, vaya a [Informes de ventas integrados](sales-reports.md).
 
-## <a name="on-screen-sales-analytics"></a>Análisis de ventas en pantalla
+## Análisis de ventas en pantalla
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tiene varias páginas que le brindan resúmenes de ventas y tareas por realizar. Aquí mostramos algunos ejemplos para empezar:
 
@@ -116,8 +116,12 @@ Para obtener más información sobre los informes relevantes para las ventas, va
 - [Calcular fechas de compromiso de pedido](sales-how-to-calculate-order-promising-dates.md)
 - [Calcular fechas de entrega para pedidos de venta](sales-date-calculation-for-sales.md)
 - [Seguir paquetes](sales-how-track-packages.md)
+- [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
+- [Estado de pedido de venta abierto](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+- [Ver líneas de pedido abierto de venta registradas y no registradas](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-### <a name="show-sales-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mostrar movimientos de contabilidad general y saldos relacionados con ventas desde la página Plan de cuentas
+
+### Mostrar movimientos de contabilidad general y saldos relacionados con ventas desde la página Plan de cuentas
 
 La página Plan de cuentas muestra todas las cuentas de contabilidad general con números agregados registrados en la contabilidad general. Desde esta página, puede hacer cosas como:  
 
@@ -131,7 +135,7 @@ Específicamente para ventas, puede crear una vista en la página Plan de cuenta
 
 Para obtener más información, vaya a [Conocer el plan de cuentas](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-sales"></a>Analizar datos por dimensiones (relacionadas con las ventas)
+### Analizar datos por dimensiones (relacionadas con las ventas)
 
 Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento.  
 
@@ -139,7 +143,7 @@ Así pues, en lugar de configurar cuentas de libro mayor separadas para cada dep
 
 Para obtener más información, vaya a [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Consolidación de empresa](finance-consolidated-company-reporting.md)   
 [Preparar informes financieros con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md)  

@@ -1,6 +1,6 @@
 ---
 title: Introducción a Business Central y Power BI
-description: 'Obtener uan introducción al uso de Power BI para conseguir información, inteligencia empresarial y KPI desde los datos de Business Central.'
+description: Obtener una introducción al uso de Power BI para conseguir información y KPI desde los datos de Business Central.
 author: jswymer
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
@@ -25,7 +25,7 @@ Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short
 
 |Característica|Descripción|Online|Local|Más información|
 |-------|-----------|--------------|-----------|----------------|
-|Ver datos de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI|Puede ver sus datos desde [!INCLUDE[prod_short](includes/prod_short.md)] en informes en Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online incluye algunos informes de Power BI predefinidos. O su organización puede haber puesto a su disposición algunos informes personalizados.|![Trabaja en línea.](media/check.png)|![Trabaja localmente](media/check.png)|[Aquí...](across-working-with-powerbi.md)|
+|Ver datos de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI|Puede ver sus datos desde [!INCLUDE[prod_short](includes/prod_short.md)] en informes en Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online incluye algunos informes de Power BI predefinidos. O su organización puede tener algunos informes personalizados.|![Trabaja en línea.](media/check.png)|![Trabaja localmente](media/check.png)|[Aquí...](across-working-with-powerbi.md)|
 |Ver informes de Power BI en el cliente de [!INCLUDE[prod_short](includes/prod_short.md)].| Los informes de Power BI que muestran datos de [!INCLUDE[prod_short](includes/prod_short.md)] se pueden incrustar directamente en las páginas de partes de [!INCLUDE[prod_short](includes/prod_short.md)]. Puede cambiar la parte para mostrar cualquier informe que esté disponible para usted. |![trabaja en línea.](media/check.png)|![Trabaja localmente](media/check.png)<sup>[*](#onprem)</sup>|[Aquí...](across-working-with-powerbi.md).|
 |Cree informes y paneles en Power BI que muestren datos de [!INCLUDE[prod_short](includes/prod_short.md)].|Utilice Power BI Desktop para crear sus propios informes y paneles. Puede publicar los informes en su propio servicio de Power BI o compartirlos con otros en su organización.|![Trabaja en línea.](media/check.png)|![trabaja localmente](media/check.png)|[Aquí...](across-how-use-financials-data-source-powerbi.md)|
 |Aplicaciones de [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publica tres aplicaciones para Power BI en Microsoft AppSource. Estas aplicaciones crean informes y paneles detallados en su servicio de Power BI para ver datos de [!INCLUDE[prod_short](includes/prod_short.md)]. Las aplicaciones disponibles incluyen: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Trabaja en línea.](media/check.png)||[Aquí...](across-powerbi-business-central-apps.md)|
@@ -35,7 +35,7 @@ Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short
 
 ## Prepararse para usar Power BI
 
-Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Las tareas dependerán de su rol en su organización y de lo que quiera hacer con Power BI:
+Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power BI con [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> Las tareas dependen de su rol en su organización y de lo que quiera hacer con Power BI:
 
 - Como *usuario comercial* usted quiere ver informes de Power BI, ya sea en el Servicio de Power BI o en Business Central
 - Como *administrador*, usted es responsable de la administración de la configuración de toda la organización que controla cómo funcionan Business Central y Power BI.
@@ -48,35 +48,16 @@ Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power
 |Exponer datos de Business Central a Power BI||![es una marca de verificación.](media/check.png)|![otra nueva marca de verificación](media/check.png)|[Exponer datos a través de páginas API o servicios web OData](admin-powerbi-setup.md#exposedata)
 |Habilitar la integración de Power BI<br />(solo local)||![es una marca de verificación.](media/check.png)||[Configuración Business Central local para la integración de Power BI](across-working-with-business-central-in-powerbi.md#setup)|
 
-## Realice un seguimiento de los KPI de su negocio con métricas de Power BI
-
-Si usa Power BI en datos de [!INCLUDE[prod_short](includes/prod_short.md)], es fácil realizar un seguimiento de los KPI o las métricas que son importantes para usted. 
-
-Con las métricas de Power BI, puede seleccionar sus propias métricas y realizar un seguimiento de los objetivos de negocio clave, en un solo panel. Esta característica mejora la cultura de datos promoviendo la responsabilidad, la alineación y la visibilidad de los equipos y las iniciativas de las organizaciones. 
-
-Siga este proceso de cuatro pasos para configurar métricas de Power BI:
-
-1. Cree un cuadro de mandos en el servicio Power BI. Obtenga más información en [Crear cuadros de mando en Power BI](/power-bi/create-reports/service-goals-create).  
-2. Agregue las _métricas_ que desea seguir conectándose a su informe de Power BI de telemetría. Obtenga más información en [Crear métricas conectadas](/power-bi/create-reports/service-goals-create-connected).  
-3. Para agregar alertas, defina reglas de estado para sus métricas. Obtenga más información en [Crear reglas de estado automatizadas para métricas](/power-bi/create-reports/service-metrics-status-rules).  
-
-    Este paso automatizará las actualizaciones de estado según las reglas que rigen esa métrica. Las reglas desencadenan cambios en función del valor, el porcentaje de cumplimiento del objetivo, las condiciones de fecha o una combinación de los tres, lo que hace que las reglas sean lo más versátiles posible. Para métricas conectadas, estas reglas de estado se actualizan cada vez que se actualizan los datos en su cuadro de mandos.
-4. Finalmente, siga las métricas para recibir alertas en Teams o por correo electrónico. Obtén más información en [Seguir las métricas](/power-bi/create-reports/service-metrics-follow).  
-
-Obtenga más información sobre métricas de Power BI en [Introducción a métricas de Power BI](/power-bi/create-reports/service-goals-introduction).
-
-> [!NOTE]
-> A partir del segundo lanzamiento de versiones de Business Central 2023, es posible integrar cuadros de mando de métricas Power BI en [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Pasos siguientes
 
 - Si usted es un administrador que necesita configurar Power BI en [!INCLUDE[prod_short](includes/prod_short.md)], vaya a [Habilitar integración de Power BI](admin-powerbi-setup.md).
 - Si Power BI ya está configurado y desea probar las funciones, vaya a [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md).
 
-## Consulte también .
+## Consulte también
 
-[Inteligencia empresarial](bi.md)  
-[Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Información general sobre el análisis](reports-bi-reporting.md)   
+[Realizar un seguimiento de KPI con métricas de Power BI](track-kpis-with-power-bi-metrics.md)   
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] como origen de datos de Power Apps](across-how-use-financials-data-source-powerapps.md)  
 [Usar [!INCLUDE[prod_short](includes/prod_short.md)] en Power Automate](across-how-use-financials-data-source-flow.md)  

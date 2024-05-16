@@ -449,9 +449,16 @@ ms.service: dynamics-365-business-central
 ### Configurar y utilizar documentos electrónicos
 #### [Información general de documentos electrónicos](finance-edocuments-overview.md)
 #### [Configurar documentos electrónicos](finance-how-setup-edocuments.md)
-#### [Usar documentos electrónicos en ventas y compras](finance-how-use-edocuments.md)
+#### [Usar documentos electrónicos en ventas](finance-how-use-edocuments.md)
+#### [Usar documentos electrónicos en compras](finance-how-use-edocuments-purchase.md)
 #### [Establecer el conector de documentos electrónicos con puntos de conexión externos](finance-how-setup-edocuments-external.md)
 #### [Ampliar la funcionalidad de documentos electrónicos](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Administración de la sostenibilidad
+#### [Información general de la administración de la sostenibilidad](finance-manage-sustainability.md)
+#### [Configuración de sostenibilidad](finance-sustainability-setup.md)
+#### [Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md)
+#### [Cómo registrar emisiones de gases de efecto invernadero (GEI)](finance-sustainability-journal.md)
 
 ### [Organizaciones internacionales y de múltiples sitios](finance-multi-site-organizations.md)
 #### Consolidar los datos financieros de varias empresas
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Analizar datos con cuentas estadísticas](bi-use-statistical-accounts.md)
 #### [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Análisis ad hoc de datos financieros](ad-hoc-analysis-finance.md)
 
 ### Herramientas de análisis financiero integradas
 #### [Analizar datos financieros del plan de cuentas](finance-general-ledger.md)
@@ -549,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Inventario
 ### [Información general de inventario](inventory-manage-inventory.md)
-### [Informes de inventario y almacén](inventory-WMS-reports.md)
+### Análisis de inventario 
+#### [Información general del análisis de inventario](inventory-analytics-overview.md)
+#### [Análisis ad hoc de datos de inventario](ad-hoc-analysis-inventory.md)
+#### [Informes de inventario y almacén integrados](inventory-WMS-reports.md)
 ### [Registro de productos nuevos](inventory-how-register-new-items.md)
 ### [Trabajar con listas de materiales](inventory-how-work-BOMs.md)
 ### [Clasificar productos](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Activos fijos
 ### [Información general de los activos fijos](fa-manage.md)
+
 ### Análisis de activos fijos
 #### [Información general de los análisis de activos fijos](fa-analytics-overview.md)
+#### [Análisis ad hoc de datos de activos fijos](ad-hoc-analysis-fa.md)
 #### Herramientas integradas de análisis de activos fijos
 ##### [Supervisar costes de mantenimiento](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Controlar la cobertura de seguros](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Ver valores venta/baja previstos](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Informes de activos fijos integrados](fa-reports.md)
+
 ### [Configurar activos fijos](fa-setup.md)
 ### [Métodos amortización](fa-depreciation-methods.md)
 ### [Administrar presupuestos para activos fijos](fa-how-manage-budgets.md)
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Funcionalidad local
 ### [Información general de la funcionalidad local](about-localization.md)
+### [Desarrollo de aplicaciones de localización validadas](about-validated-localization-apps.md)
 
 ### Australia
 #### [Información general de la versión australiana](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -1141,14 +1155,14 @@ ms.service: dynamics-365-business-central
 ###### [Crédito y ajuste de responsabilidad de GST](LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
 ###### [Conciliación de GST](LocalFunctionality/India/GST-Reconciliation.md)
 ###### [Factura electrónica de GST](LocalFunctionality/India/GST-E-Way-Bill.md)
-###### [IVA de ajuste de crédito de entrada](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
-###### [Liquidación de GST](LocalFunctionality/India/GST-Settelement.md)
-###### [Factura electrónica con GST](LocalFunctionality/India/GST-E-Invoice.md)
-##### GST Cess
-###### [Configuración básica de GST Cess](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
-###### [Cálculo de GST Cess](LocalFunctionality/India/GST-Cess-Calculations.md)
-##### GST en administración de servicios
-###### [GST en administración de servicios](LocalFunctionality/India/GST-Service-Management.md)
+###### [Ajuste de crédito de entrada del impuesto sobre bienes y servicios (IBS)](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
+###### [Liquidación del impuesto sobre bienes y servicios (IBS)](LocalFunctionality/India/GST-Settelement.md)
+###### [Factura electrónica con impuesto sobre bienes y servicios (IBS)](LocalFunctionality/India/GST-E-Invoice.md)
+##### Cess del impuesto sobre bienes y servicios (IBS)
+###### [Configuración básica de Cess del impuesto sobre bienes y servicios (IBS)](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [Cálculo de Cess del impuesto sobre bienes y servicios (IBS)](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### Impuesto sobre bienes y servicios (IBS) en administración de servicios
+###### [Impuesto sobre bienes y servicios (IBS) en administración de servicios](LocalFunctionality/India/GST-Service-Management.md)
 ##### GST de distribución del servicio de entrada
 ###### [Información general de GST de distribución del servicio de entrada](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
 ###### [Proceso de GST de distribución del servicio de entrada](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
@@ -1567,7 +1581,11 @@ ms.service: dynamics-365-business-central
 #### [Funcionalidad local en la versión estadounidense](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tributos
 ##### [Configuración de impuestos básicos](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Declaración del impuesto sobre las ventas en EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Declaración del impuesto sobre las ventas en EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Introducción a los formularios IRS 1099 y su funcionalidad.](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Configurar y usar el formulario IRS 1099 para la versión 24 (primer lanzamiento de versiones de 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [Usar los formularios IRS 1099](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [Presentar y reportar los formularios IRS 1099](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [Configurar y usar el formulario IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Cambios y detalles del formato reglamentario 1099](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Configurar y usar el formulario IRS 1096](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Análisis, inteligencia empresarial e informes 
 
 ## [Información general sobre el análisis](reports-bi-reporting.md)
-## [Utilización de indicadores clave de rendimiento (KPI) para alcanzar sus objetivos empresariales](./analytics-about-kpis.md)
-## [Uso de informes financieros](bi-how-work-account-schedule.md)
+## [Análisis por área funcional](analytics-by-functional-area.md)
+
+## KPI, paneles e informes financieros
+### [Utilización de indicadores clave de rendimiento (KPI) para alcanzar sus objetivos empresariales](analytics-about-kpis.md)
+### [Introducción a Business Central y Power BI](admin-powerbi.md)
+### [Trabajar con informes de Power BI](across-working-with-powerbi.md)
+### [Realizar un seguimiento de los KPI con métricas de Power BI](track-kpis-with-power-bi-metrics.md)
+### [Uso de informes financieros](bi-how-work-account-schedule.md)
 
 ## Análisis de datos ad hoc
 ### [Información general](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Analizar datos de página en Excel](across-work-with-excel.md)
 ### [Analizar datos de informes con Excel](report-analyze-excel.md)
 ### [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md)
-
-## Herramientas de análisis integrados
-### [Información general](reports-built-in-analytics.md)
-### [Trabajar con informes de Power BI](across-working-with-powerbi.md)
-### [Información inteligente (local)](about-intelligent-cloud.md)
-### [Telemetría de uso de informes](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Análisis de datos ad hoc por área funcional](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Usar informes en el trabajo diario
 ### [Información general](reports-use-reports.md)
@@ -1832,46 +1851,23 @@ ms.service: dynamics-365-business-central
 ### [(Heredado) Establecer el diseño utilizado por un informe](ui-how-change-layout-currently-used-report.md)
 
 ## Informes integrados
-### [Descripción general de los informes](reports-available-reports.md)
+### [Información general de los informes](reports-available-reports.md)
 ### Finanzas
-#### [Inteligencia empresarial financiera](bi.md)
-#### [Analizar estados financieros con Excel](finance-analyze-excel.md)
+#### [Preparar informes financieros](bi-how-work-account-schedule.md)
 #### [Informes financieros clave](finance-reports.md)
 #### [Informes de cobros](receivables-reports.md)
 #### [Informes de pagos](payables-reports.md)
-#### [Análisis de flujo de efectivo](finance-setup-cash-flow-analyses.md)
-#### [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)
 
-### Ventas
-#### [Informes de ventas](sales-reports.md)
-#### [Estado de pedido de venta abierto](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Seguimiento de paquete](sales-how-track-packages.md)
-#### [Ver líneas de pedido de venta abierto registradas y no registradas](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Compras
-#### [Informes de compras](purchase-reports.md)
-#### [Ver movimientos de compras](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Inventario y almacén
-#### [Informes de inventario y almacén](inventory-wms-reports.md)
-#### [Disponibilidad de productos](inventory-how-availability-overview.md)
-#### [Seguir productos con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)
-#### [Seguir producto - Productos seguidos](inventory-how-to-trace-item-tracked-items.md)
-#### [Auditar la conciliación entre la contabilidad de inventario y la contabilidad general](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Ver productos de tránsito directo en un envío o en la hoja de trabajo de picking](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Informes de ventas](sales-reports.md)
+### [Informes de compras](purchase-reports.md)
+### [Informes de inventario y almacén](inventory-wms-reports.md)
 
 ### Proyecto
 #### [Informes de proyecto](project-reports.md)
 #### [Ver estimaciones de uso de proyecto](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Supervisar el progreso y el rendimiento del proyecto](projects-how-monitor-progress-performance.md)
 
-### Activos fijos
-#### [Informes de activos fijos](fa-reports.md)
-#### [Supervisar costes de mantenimiento](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Controlar la cobertura de seguros](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Ver valores modificados del libro de amortización](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Ver valores venta/baja previstos](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Informes de activos fijos](fa-reports.md)
 
 ### Administración de ensamblados
 #### [Informes de administración de ensamblados](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Información general de pedidos de servicio](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Información general de ofertas de servicio](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Información general de documentos de servicio registrados](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Telemetría de uso de informes](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Informes de desarrollo
 ### [Información general](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Analizar datos en herramientas de inteligencia empresarial
 ### [Información general](reports-external-analysis.md)
 ### [Microsoft Fabric y Business Central](admin-fabric.md)
-### [Usar Power BI con Business Central](admin-powerbi.md)
-### [Analizar estados financieros con Excel](finance-analyze-excel.md)
 ### [Extraer datos a almacenes de datos o lagos de datos](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Leer datos con la API de Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Información inteligente (local)](about-intelligent-cloud.md)
 
 
 # Seguridad, cumplimiento y privacidad

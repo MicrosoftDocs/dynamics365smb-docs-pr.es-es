@@ -10,18 +10,18 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="record-purchases-with-purchase-invoices-and-orders"></a>Registrar compras con facturas de compra y pedidos
+# Registrar compras con facturas de compra y pedidos
 
-Cree una factura o un pedido de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Las facturas y los pedidos de compra también se utilizan para actualizar dinámicamente los niveles de inventario, lo que significa que puede minimizar costes de inventario y proporcionar un mejor servicio al cliente. Los costes de compra, incluidos los gastos del servicio, y los valores de inventario resultantes del registro de las facturas de compra o pedidos contribuyen a las cifras de ganancias y otros indicadores clave de rendimeinto (KPI) financieros en el Área de trabajo.
+Cree una factura o un pedido de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Las facturas y los pedidos de compra también se utilizan para actualizar dinámicamente los niveles de inventario, lo que significa que puede minimizar costes de inventario y proporcionar un mejor servicio al cliente. Los costes de compra, incluidos los gastos del servicio, y los valores de inventario resultantes del registro de las facturas de compra o pedidos contribuyen a las cifras de ganancias y otros indicadores clave de rendimiento (KPI) financieros en el Área de trabajo.
 
-## <a name="record-purchases-with-purchase-invoices"></a>Registrar compras con facturas de compra
+## Registrar compras con facturas de compra
 
 Cuando se reciben los productos de inventario o cuando se completa el servicio comprado, se registra la factura o el pedido de compra para actualizar el inventario y los registros financieros, y para activar el pago al proveedor según los términos de pago. [Creación de pagos](payables-make-payments.md).
 
 > [!CAUTION]  
 > No registre una factura de compra para productos físicos hasta que reciba los productos y conozca el coste final de la compra, incluidos gastos adicionales. De lo contrario, las cifras de valor de inventario y de ganancias pueden estar sesgadas.
 
-### <a name="create-and-post-a-purchase-invoice"></a>Crear y registrar una factura de venta
+### Crear y registrar una factura de venta
 
 Los siguientes pasos describen cómo crear una factura de compra. Los pasos para crear un pedido de compra son similares. La principal diferencia es que los pedidos de compra tienen algunos campos y acciones adicionales para la gestión física de los artículos.
 
@@ -56,23 +56,22 @@ Los siguientes pasos describen cómo crear una factura de compra. Los pasos para
     > Si ha configurado descuentos en factura para el proveedor, el valor porcentual especificado se inserta automáticamente en el campo **% descuento factura proveedor** si se cumplen los criterios. El importe relacionado se inserta en el campo **Importe descuento factura**.
 7. Cuando reciba los productos o servicios comprados, seleccione **Registrar**.
 
-La compra ahora se refleja en el inventario, en los movimientos de recursos y en los registros financieros, y se activa el pago al proveedor. La factura de compra se elimina de la lista de facturas de compra y se reemplaza con un nuevo documento de la lista de facturas de compra registradas.  Para obtener más información sobre lo que sucede cuando se contabilizan documentos de compra, consulte [Registrar compras](purchasing-how-record-purchases.md#posting-purchases).
+La compra ahora se refleja en el inventario, en los movimientos de recursos y en los registros financieros, y se activa el pago al proveedor. La factura de compra se elimina de la lista de facturas de compra y se reemplaza con un nuevo documento de la lista de facturas de compra registradas. Para obtener más información sobre lo que sucede cuando se contabilizan documentos de compra, consulte [Registrar compras](purchasing-how-record-purchases.md#posting-purchases).
 
 > [!NOTE]
 > En casos raros, los importes registrados pueden desviarse de lo que se muestra en los campos de totales. Esto se debe normalmente a los cálculos de redondeo en relación con el impuesto sobre el valor añadido (IVA) o el impuesto de venta.
 >
 > Para verificar los importes que se registrarán realmente, vaya a la página **Estadísticas**, que tiene en cuenta los cálculos de redondeo. Además, si selecciona la acción **Liberar**, los campos de totales se actualizarán para incluir los cálculos de redondeo.
 
-## <a name="posted-invoices"></a>Facturas registradas
+## Facturas registradas
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-Puede corregir o cancelar fácilmente una factura de compra registrada antes de pagar al proveedor. Esto es útil si se desea corregir un error de escritura o cambiar la compra de forma anticipada en el proceso de pedido. Obtenga más información en [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Para anular una compra de artículos o servicios que figuran en la factura de compra contabilizada para la que se procesa el pago, debe crear una nota de abono. Obtenga más información en [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
+Puede corregir o cancelar fácilmente una factura de compra registrada antes de pagar al proveedor. Por ejemplo, si se desea corregir un error de escritura o cambiar la compra de forma anticipada en el proceso de pedido. Obtenga más información en [Corregir o cancelar facturas de compra sin abonar](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Para anular una compra de artículos o servicios que figuran en la factura de compra contabilizada para la que se procesa el pago, debe crear una nota de abono. Obtenga más información en [Procesamiento de devoluciones de compra o cancelaciones](purchasing-how-process-purchase-returns-cancellations.md).
 
 [Abra la lista **Histórico facturas compra**](https://businesscentral.dynamics.com/?page=146) en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-
-## <a name="purchasing-noninventory-items"></a>Comprar artículos que no pertenecen al inventario
+## Comprar artículos que no pertenecen al inventario
 
 Las líneas de una factura de compra pueden ser del tipo **Recurso** o **Artículo**. Las fichas de producto se pueden clasificar adicionalmente como de tipo **Inventario**, **Servicio** o **No inventario**, lo que especifica si el producto representa una unidad de inventario físico, una unidad de tiempo de mano de obra (también aplicable para recursos) o una unidad física sin seguimiento en el inventario. Obtenga más información en [Registrar nuevos productos](inventory-how-register-new-items.md). El proceso de la factura de compra es el mismo para todos los tipos mencionados.
 
@@ -81,9 +80,9 @@ Las líneas de una factura de compra pueden ser del tipo **Recurso** o **Artícu
 >
 > Para usar un recurso comprado, es posible que deba establecer la capacidad del recurso y asignarlo manualmente a un proyecto. La compra de un recurso crea un movimiento de recursos; sin embargo, los movimientos de recursos no se rastrean por cantidad y valor como, por ejemplo, los productos. Si se requiere el seguimiento de la cantidad y el valor, considere usar otros tipos de líneas de pedido.
 
-## <a name="when-to-use-purchase-orders"></a>Cuándo usar pedidos de compra
+## Cuándo usar pedidos de compra
 
-Debe usar pedidos de compra si el proceso de compra requiere que registre recibos parciales de una cantidad del pedido, por ejemplo, porque el proveedor no dispone de la cantidad total. Si entrega productos venedidos directamente desde el proveedor al cliente como envío directo, deberá usar también pedidos de compras. Obtenga más información en [Realizar envíos directos](sales-how-drop-shipment.md).
+Utilice pedidos de compra si necesita registrar recibos parciales de la cantidad de un pedido. Por ejemplo, porque el proveedor no dispone de la cantidad total. Si entrega productos venedidos directamente desde el proveedor al cliente como envío directo, deberá usar también pedidos de compras. Obtenga más información en [Realizar envíos directos](sales-how-drop-shipment.md).
 
 En todos los demás aspectos, los pedidos de compra funcionan de la misma forma que las facturas de compra. El procedimiento siguiente se basa en una factura de compra. Los pasos son parecidos para un pedido de compra.
 
@@ -91,7 +90,7 @@ En todos los demás aspectos, los pedidos de compra funcionan de la misma forma 
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## <a name="receive-items-with-a-purchase-order"></a>Recibir productos con un pedido de compra
+## Recibir productos con un pedido de compra
 
 Los siguientes pasos describen cómo recibir productos con un pedido de compra. 
 
@@ -100,7 +99,7 @@ Los siguientes pasos describen cómo recibir productos con un pedido de compra.
 3. Escriba la cantidad recibida en el campo **Cantidad a recibir**.
 
    > [!NOTE]
-   > Si la cantidad recibida es superior a la ordenada del pedido de compra, y el proveedor se ha configurado para permitir recepciones en exceso, entonces use el campo **En exceso** para administrar la cantidad en exceso. Obtenga más información en la sección [Para recibir más artículos de los solicitados](purchasing-how-record-purchases.md#receive-more-items-than-ordered).
+   > Si la cantidad recibida es superior a la ordenada del pedido de compra, y el proveedor se ha configurado para permitir recepciones en exceso, entonces use el campo **En exceso** para administrar la cantidad en exceso. Obtenga más información en la sección [Para recibir más artículos de los solicitados](purchasing-how-record-purchases.md#receive-more-items-than-you-ordered).
 4. Seleccione la acción **Registrar**.
 
   El valor del campo **Cdad. recibida** se actualiza según corresponde. Si se trata de un recibo parcial, el valor es inferior al valor del campo **Cantidad**.
@@ -108,19 +107,23 @@ Los siguientes pasos describen cómo recibir productos con un pedido de compra.
 > [!NOTE]
 > Si usa una manipulación de almacén, no puede usar la acción **Registrar** en el pedido de compra para registrar el recibo. Esto se debe a que el empleado del almacén ya ha registrado como recibida la cantidad del pedido de compra. Obtenga más información en [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md).
 
-## <a name="receive-more-items-than-you-ordered"></a>Recibir más artículos de los solicitados
+## Recibir más artículos de los solicitados
 
 Cuando lleguen más productos de los que ha pedido, es posible que desee recibirlos en lugar de cancelar el recibo. Por ejemplo, puede ser más barato mantener el exceso de productos en el inventario que devolverlos o su proveedor puede ofrecerle un descuento por conservarlos.
 
+El siguiente vídeo muestra cómo trabajar con recibos en exceso.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2PE]
+
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
-### <a name="set-up-over-receipts"></a>Configurar recibos en exceso
+### Configurar recibos en exceso
 
 Cree códigos de exceso de recepción para definir un porcentaje por el cual una cantidad recibida puede exceder la cantidad pedida. Especifique el porcentaje en el campo **Porcentaje de tolerancia de recepción en exceso**. Luego asigna el código en las páginas Ficha producto o Ficha proveedor para productos y proveedores.  
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Códigos de recepción en exceso** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="assign-the-over-receipt-code-to-an-item"></a>Asignar el código de recepción en exceso a un producto
+### Asignar el código de recepción en exceso a un producto
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la página **Ficha producto** del producto.
@@ -131,13 +134,13 @@ El código de recepción en exceso se asigna al artículo. Los pedidos de compra
 > [!NOTE]
 > Puede configurar un flujo de trabajo de aprobación que requiera que se aprueben las recepciones en exceso antes de que se puedan administrar. Seleccione la casilla **Aprobación requerida** en la página **Códigos de recepción en exceso**. Obtenga más información en [Crear flujos de trabajo](across-how-to-create-workflows.md).
 
-### <a name="over-receive-an-order"></a>Recibir un pedido en exceso
+### Recibir un pedido en exceso
 
 En las líneas de compra y las líneas de recepción de almacén, el campo **Cantidad de recepción en exceso** se utiliza para registrar las cantidades recibidas en exceso, esto es, cantidades que exceden el valor de la cantidad pedida del campo **Cantidad**.
 
-Cuando administra una recepción en exceso, puede aumentar el valor del campo **Cant. para recibir** con la cantidad realmente recibida. El campo **Cantidad de recepción en exceso** se actualiza para mostrar la cantidad en exceso. Alternativamente, puede introducir la cantidad en exceso en el campo **Cantidad de recepción en exceso**. El campo **Cantidad para recibir** se actualiza para mostrar la cantidad solicitada más la cantidad en exceso. El siguiente procedimiento describe cómo completar el campo **Cantidad para recibir**.  
+Cuando administra una recepción en exceso, puede aumentar el valor del campo **Cant. para recibir** con la cantidad recibida. El campo **Cantidad de recepción en exceso** se actualiza para mostrar la cantidad en exceso. Alternativamente, puede introducir la cantidad en exceso en el campo **Cantidad de recepción en exceso**. El campo **Cantidad para recibir** se actualiza para mostrar la cantidad solicitada más la cantidad en exceso. El siguiente procedimiento describe cómo completar el campo **Cantidad para recibir**.  
 
-1. En un pedido de compra o un documento de recibo de almacén donde la cantidad recibida sea mayor que la ordenada, introduzca la cantidad realmente recibida en el campo **Cantidad para recibir**.
+1. En un pedido de compra o un documento de recibo de almacén donde la cantidad recibida sea mayor que la ordenada, introduzca la cantidad recibida en el campo **Cantidad para recibir**.
 
     Si el aumento está dentro de la tolerancia especificada por un código de recepción en exceso asignado, el campo **Cantidad de recepción en exceso** se actualiza para mostrar la cantidad en la que se excede el valor del campo **Cantidad**.
 
@@ -148,11 +151,11 @@ Cuando administra una recepción en exceso, puede aumentar el valor del campo **
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] no maneja automáticamente los aspectos financieros de las recepciones en exceso. Debe administrar manualmente esto de acuerdo con el proveedor, por ejemplo, enviando una factura nueva o actualizada.
 
-## <a name="external-document-number"></a>Número de documento externo
+## Número de documento externo
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="posting-purchases"></a>Registrar compras
+## Registrar compras
 
 En un documento de compra, puede elegir entre las acciones de registro siguientes:
 
@@ -182,17 +185,17 @@ Siempre puede revisar varios movimientos del libro mayor que se crean como resul
 
 Puede registrar o registrar e imprimir. Si elije registrar e imprimir, un informe se imprime cuando se registre el pedido. También puede elegir la acción **Registrar por lotes** para registrar varios pedidos a la vez. Obtenga más información en [Registrar varios documentos al mismo tiempo](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Ver movimientos
+## Ver movimientos
 
 Una vez finalizado el registro, las líneas de compra registradas se quitan del pedido. Al terminar el registro aparece un mensaje de aviso. Después de esto, podrá ver los movimientos registrados en las diferentes páginas, como **Movs. proveedores**, **Movs, contabilidad**, **Movs. productos**, **Movimientos de recursos**, **Albaranes compra** e **Histórico facturas compra**.
 
 En la mayoría de los casos, puede abrir movimientos desde la tarjeta o documento afectado. Por ejemplo, en la página **Ficha proveedor**, seleccione la acción **Entradas**.
 
-## <a name="editing-ledger-entries"></a>Editar movimientos
+## Editar movimientos
 
 Puede editar determinados campos en documentos de compra registrados, como el campo **Referencia pago**. Obtenga más información en [Editar documentos registrados](across-edit-posted-document.md). Para campos más críticos que afectan el registro de auditoría, debe revertir o deshacer la publicación. Obtenga más información en [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Solicitar presupuestos](purchasing-how-request-quotes.md)  
 [Comprar productos para una venta](purchasing-how-purchase-products-sale.md)  

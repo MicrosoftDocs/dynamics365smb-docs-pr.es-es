@@ -44,8 +44,20 @@ Después de instalar la aplicación, puede utilizar la acción **Imprimir etique
 > [!NOTE]
 > Algunas impresoras y formatos de código de barras/código QR requieren una implementación específica. Es posible que tenga que cargar una plantilla de Word diferente o clonar el informe para crear su propia versión personalizada.
 
-## Consulte también .
 
+## Explorar los informes de inventario con el Explorador de informes
+
+Para obtener una descripción general de los informes disponibles para su inventario, elija **Todos los informes** en la página de inicio. Esta acción abre el explorador de roles, que se filtra según las funciones en la opción **Informe y análisis**. En el encabezado **Ventas y marketing**, elija **Explorar**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Ejemplo de informes sobre el centro de roles financieros" lightbox="media/report-explorer-sales.png":::
+
+Para obtener más información, vaya a [Búsqueda de informes con el explorador de roles](ui-role-explorer.md).
+
+
+## Consulte también
+
+[Análisis ad-hoc de datos de inventario](ad-hoc-analysis-inventory.md)  
+[Información general de análisis de inventario](inventory-analytics-overview.md)   
 [Configurar inventario](inventory-setup-inventory.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  

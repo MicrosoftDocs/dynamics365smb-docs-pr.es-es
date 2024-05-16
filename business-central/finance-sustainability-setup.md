@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 04/02/2024
+ms.date: 04/24/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Configuración de sostenibilidad
+# Configuración de sostenibilidad  
 
 Para que el módulo de Sostenibilidad funcione correctamente, primero debe configurar algunos controles e instrucciones básicos relacionados con toda la funcionalidad.  
 
@@ -28,6 +28,10 @@ Para configurar un módulo de sostenibilidad, siga los siguientes pasos:
 | **Centro de responsabilidad obligatorio** | Especifica si el centro de responsabilidad es obligatorio, ya que el centro de responsabilidad se puede utilizar como una instalación para medir las emisiones basadas en instalaciones. Puede usar este campo en diarios sin configurarlo, pero puede seleccionarlo si desea obligar a los usuarios a completar el campo antes de registrar. |
 | **Cambio de base de cálculo de bloques si existen movimientos** | Especifica si el cambio de base de cálculo en la Categoría de cuenta está bloqueado al momento de la entrada de sostenibilidad, lo que significa que esta fórmula ya se aplicó. |
 | **Habilitar comprobación de errores en segundo plano** | Especifica si está habilitada la comprobación de errores en segundo plano de las líneas del diario de sostenibilidad. |
+
+> [!NOTE]
+> Después de habilitar o desactivar la **Comprobación de errores en segundo plano** en los diarios, deberá iniciar sesión nuevamente antes de comenzar la nueva configuración.
+ 
 
 3.  En la ficha desplegable **Cálculos**, configure los campos obligatorios relacionados con las fórmulas utilizadas para calcular las emisiones:  
 
@@ -49,12 +53,12 @@ Para configurar un módulo de sostenibilidad, siga los siguientes pasos:
 >[!NOTE]
 > En la versión 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] no admite informes para ninguna autoridad. Entonces, el campo relacionado con la configuración en la ficha desplegable **Informes** se utilizará para capacidades de generación de informes futuras, pero los socios también pueden utilizarla en versiones localizadas.
 
-## <a name="see-also"></a>Consulte también
-[Finanzas](finance.md)    
-[Información general de administración de la sostenibilidad](finance-manage-sustainability.md)
-[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md)
-[Cómo registrar emisiones](finance-sustainability-journal.md)
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Consulte también  
+[Finanzas](finance.md)  
+[Información general de administración de la sostenibilidad](finance-manage-sustainability.md)    
+[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md)    
+[Cómo registrar emisiones](finance-sustainability-journal.md)  
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

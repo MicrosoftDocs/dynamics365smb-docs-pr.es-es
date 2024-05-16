@@ -14,16 +14,23 @@ ms.service: dynamics-365-business-central
 
 Para ayudarlo a administrar sus cobros en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
+
 ## Informes
+
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-## Consulte también .
 
-[Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  
-[Trabajar con dimensiones](finance-dimensions.md)  
-[Administrar activos fijos](fa-manage.md)  
-[Información general de funcionalidad local](about-localization.md)  
+## Explorar los informes financieros con el Explorador de informes
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
+## Consulte también
+
+[Informes financieros clave](finance-reports.md)  
+[Análisis ad-hoc de datos financieros](ad-hoc-analysis-finance.md)   
+[Análisis financiero](bi.md)   
+[Análisis de ventas](sales-analytics-overview.md)  
 [Experiencias contables en [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

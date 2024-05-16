@@ -21,7 +21,14 @@ En ocasiones necesita analizar datos de [!INCLUDE[prod_short](includes/prod_shor
 | Ver y analizar datos de un conjunto de datos de informe en Excel | [Análisis de datos de informes con Excel y XML](report-analyze-excel.md) |
 | Analizar lista de datos directamente de una página |[Analizar datos en lista usando el modo de análisis de datos](analysis-mode.md)|
 
-## Consulte también .
+## Análisis de datos ad hoc por área funcional
+
+El contenido general sobre el análisis de datos ad hoc también está disponible en versiones especiales para muchas de las áreas funcionales en [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
+
+
+## Consulte también
 
 [Descripción general de Inteligencia empresarial e informes](ui-work-report.md)
 

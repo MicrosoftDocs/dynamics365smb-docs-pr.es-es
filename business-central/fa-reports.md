@@ -17,9 +17,15 @@ Para ayudarlo a administrar sus activos fijos en [!INCLUDE [prod_short](includes
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Explorar los informes financieros con el Explorador de informes
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Consulte también
 
+[Análisis ad-hoc de datos de activos fijos](ad-hoc-analysis-fa.md)     
 [Visión general del análisis de activos fijos](fa-analytics-overview.md)   
+[Información general del análisis financiero](bi.md)   
 [Administrar activos fijos](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

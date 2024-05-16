@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 03/29/2024
+ms.date: 04/23/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Información general de administración de la sostenibilidad
+# Información general de administración de la sostenibilidad
 
 >[!IMPORTANT]
 >Esta característica estará disponible en Business Central a partir del **primer lanzamiento de versiones de 2024** y todos los vínculos de referencia se habilitarán una vez que estén disponibles.
@@ -43,12 +43,12 @@ Para iniciarse con la administración de sostenibilidad, vea los artículos sigu
 |[Cómo registrar emisiones de gases de efecto invernadero (GEI)](finance-sustainability-journal.md) | Utilice este artículo para aprender a trabajar con todo tipo de diarios de sostenibilidad. |
 
 
-## <a name="see-also"></a>Consulte también
-[Configuración de sostenibilidad](finance-sustainability-setup.md) 
-[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md) 
-[Cómo registrar emisiones de gases de efecto invernadero (GEI)](finance-sustainability-journal.md)
-[Finance](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Consulte también  
+[Configuración de sostenibilidad](finance-sustainability-setup.md)   
+[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md)   
+[Cómo registrar emisiones de GEI](finance-sustainability-journal.md)  
+[Finanzas](finance.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
