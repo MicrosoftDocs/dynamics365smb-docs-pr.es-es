@@ -11,22 +11,22 @@ ms.date: 03/21/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Informes y análisis de inventario y almacén
+# <a name="inventory-and-warehouse-reports-and-analytics"></a>Informes y análisis de inventario y almacén
 
 Los informes de inventario y almacén en [!INCLUDE [prod_short](includes/prod_short.md)] proporcionan a los profesionales de la producción y los negocios información y estadísticas sobre las actividades de inventario y almacén actuales y pasadas.  
 
-## Informes
+## <a name="reports"></a>Informes
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## Tareas
+## <a name="tasks"></a>Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Crear informes de análisis](bi-how-create-analysis-views-reports.md)  
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 
-## Imprimir y escanear códigos de barras
+## <a name="print-and-scan-barcodes"></a>Imprimir y escanear códigos de barras
 
 El uso de códigos de barras puede ayudarle a agilizar los procesos de entrada, salida e internos de su almacén. 
 
@@ -45,7 +45,7 @@ Después de instalar la aplicación, puede utilizar la acción **Imprimir etique
 > Algunas impresoras y formatos de código de barras/código QR requieren una implementación específica. Es posible que tenga que cargar una plantilla de Word diferente o clonar el informe para crear su propia versión personalizada.
 
 
-## Explorar los informes de inventario con el Explorador de informes
+## <a name="explore-inventory-reports-with-report-explorer"></a>Explorar los informes de inventario con el Explorador de informes
 
 Para obtener una descripción general de los informes disponibles para su inventario, elija **Todos los informes** en la página de inicio. Esta acción abre el explorador de roles, que se filtra según las funciones en la opción **Informe y análisis**. En el encabezado **Ventas y marketing**, elija **Explorar**.
 
@@ -54,7 +54,7 @@ Para obtener una descripción general de los informes disponibles para su invent
 Para obtener más información, vaya a [Búsqueda de informes con el explorador de roles](ui-role-explorer.md).
 
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Análisis ad-hoc de datos de inventario](ad-hoc-analysis-inventory.md)  
 [Información general de análisis de inventario](inventory-analytics-overview.md)   

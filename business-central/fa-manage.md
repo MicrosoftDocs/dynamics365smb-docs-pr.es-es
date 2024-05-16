@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Administrar activos fijos
+# <a name="manage-fixed-assets"></a>Administrar activos fijos
 
 La funcionalidad de activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y ayuda a garantizar que su depreciación sea correcta. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
 
-## Resumen en vídeo
+## <a name="video-overview"></a>Resumen en vídeo
 
 El siguiente video cubre los conceptos básicos de los activos fijos:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Configuración inicial de activos fijos
+## <a name="initial-setup-of-fixed-assets"></a>Configuración inicial de activos fijos
 
 Antes de poder administrar activos fijos, debe completar las siguientes configuraciones:
 
@@ -34,7 +34,7 @@ Antes de poder administrar activos fijos, debe completar las siguientes configur
 
 Obtenga más información, vaya a [Configurar activos fijos](fa-setup.md).
 
-## Análisis de activos fijos
+## <a name="fixed-assets-analytics"></a>Análisis de activos fijos
 
 Esta sección describe las herramientas de análisis que puede usar para obtener información sobre sus activos fijos.
 
@@ -48,7 +48,7 @@ Esta sección describe las herramientas de análisis que puede usar para obtener
 | Ver movimientos de venta/baja. | [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vea valores de disposición proyectados. | [Ver valores venta/baja previstos](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Registrar activos fijos
+## <a name="register-fixed-assets"></a>Registrar activos fijos
 
 Para cada activo fijo debe configurar una ficha que contiene información sobre el mismo. Por ejemplo, puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes. Puede agrupar los activos de varias formas, como por clase, departamento o ubicación. Ahora puede adquirir, mantener y vender los activos fijos. También puede configurar activos presupuestados. El presupuesto le permite incluir adquisiciones y ventas anticipadas en los informes.
 
@@ -57,7 +57,7 @@ Para cada activo fijo debe configurar una ficha que contiene información sobre 
 | Gestionar presupuestos de activos fijos, costes, ventas/bajas y amortización. |[Administrar presupuestos para activos fijos.](fa-how-manage-budgets.md) |
 | Crear activos fijos, asignar métodos de amortización, registrar adquisiciones, valores residuales e imprimir listas de activos fijos. |[Adquirir activos fijos](fa-how-acquire.md) |
 
-## Establecer amortizaciones para los activos fijos
+## <a name="set-up-depreciations-for-your-fixed-assets"></a>Establecer amortizaciones para los activos fijos
 
 Para realizar un seguimiento de las amortizaciones de activos y otras transacciones financieras relacionadas con los activos, configure uno o varios libros de amortización para cada uno. Hay unos cuantos pasos para depreciar los activos:
 
@@ -74,7 +74,7 @@ Para realizar un seguimiento de las amortizaciones de activos y otras transaccio
 | Ver valores contables de depreciación modificados. | [Ver valores modificados del libro de amortización](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Registre manualmente transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. | [Configurar amortización de activos fijos](fa-how-setup-depreciation.md) |
 
-## Mantenimiento y seguros de activos fijos
+## <a name="fixed-assets-maintenance-and-insurance"></a>Mantenimiento y seguros de activos fijos
 
 Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de cada activo para cada activo. Realizar un seguimiento de los gastos de mantenimiento puede ser importante de cara al presupuesto y para decidir el reemplazo de un activo. Puede vincular cada activo fijo a una o más pólizas de seguro y verificar que las primas de las pólizas se alineen con el valor de los activos.
 
@@ -85,7 +85,7 @@ Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de
 | Actualizar información de seguros, registrar costes en pólizas de seguros, modificar la cobertura del seguro, ver estadísticas de seguros y listar pólizas de seguros. |[Asegurar activos fijos](fa-how-insure.md) |
 | Controle la cobertura de seguros. | [Controlar la cobertura de seguros](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## Reclasificar, transferir, dividir/combinar, ajustar valor, amortizar y enajenar activos fijos
+## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Reclasificar, transferir, dividir/combinar, ajustar valor, amortizar y enajenar activos fijos
 
 | Para  | Vea |
 | --- | --- |
@@ -95,7 +95,7 @@ Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de
 | Ver movimientos de venta/baja. | [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vea valores de disposición proyectados. | [Ver valores venta/baja previstos](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configuración de activos fijos](fa-setup.md)  
 [Visión general del análisis de activos fijos](fa-analytics-overview.md)  
