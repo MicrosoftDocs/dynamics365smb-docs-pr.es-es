@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Información general de administración de la sostenibilidad
+# Información general de administración de la sostenibilidad
 
 >[!IMPORTANT]
 >Esta característica estará disponible en Business Central a partir del **primer lanzamiento de versiones de 2024** y todos los vínculos de referencia se habilitarán una vez que estén disponibles.
@@ -43,7 +43,7 @@ Para iniciarse con la administración de sostenibilidad, vea los artículos sigu
 |[Cómo registrar emisiones de gases de efecto invernadero (GEI)](finance-sustainability-journal.md) | Utilice este artículo para aprender a trabajar con todo tipo de diarios de sostenibilidad. |
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Configuración de sostenibilidad](finance-sustainability-setup.md)   
 [Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md)   
 [Cómo registrar emisiones de GEI](finance-sustainability-journal.md)  
