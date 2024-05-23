@@ -36,7 +36,7 @@ Este tutorial le presenta a las funciones de administración de proyectos. Los p
 - Ver cómo se determinan los valores de facturas y contratos.  
 - Permitir trabajo adicional en el programa que no se ha facturado.  
 
-### <a name="copying-a-job"></a>Copia de un proyecto
+### <a name="copying-a-project"></a>Copia de un proyecto
 
  Esta parte del tutorial se centra en cómo copiar una parte o la totalidad de un proyecto para reducir la introducción manual de datos y mejorar la precisión. Incluye lo siguiente:  
 
@@ -223,11 +223,11 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 
 Ya se han registrado las líneas.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Creación y registro de una factura de ventas de proyecto
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Creación y registro de una factura de ventas de proyecto
 
  A continuación, Tricia puede crear una factura nueva para el trabajo completo o para parte de un trabajo. Tricia también puede adjuntar la factura a otra factura para el mismo cliente y proyecto. En este caso, Tricia factura todo el proyecto, ya que éste ya se ha completado.  
 
-### <a name="to-create-a-job-sales-invoice"></a>Para crear una factura de ventas del proyecto
+### <a name="to-create-a-project-sales-invoice"></a>Para crear una factura de ventas del proyecto
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2.  Seleccione el proyecto que ha creado antes y, después, seleccione la acción **Crear factura de venta de proyecto**.  
@@ -261,7 +261,7 @@ Ya se han registrado las líneas.
 
  CRONUS se han contratado a las salas de conferencias de instalación. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, Prakash desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Han llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>Para gestionar precios fijos en proyectos
+### <a name="to-manage-fixed-pricing-in-projects"></a>Para gestionar precios fijos en proyectos
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y luego elija el enlace relacionado.  
 2. Seleccione el número de proyecto **Deco** y, después, seleccione la acción **Líneas de tarea de proyecto**.  

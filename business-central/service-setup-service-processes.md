@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Configurar procesos de gestión de servicios
+# <a name="configure-service-management-processes"></a>Configurar procesos de gestión de servicios
 
 A continuación se muestran algunos ejemplos de la configuración que puede aplicar a los procesos de gestión de servicios:  
   
@@ -21,12 +21,12 @@ A continuación se muestran algunos ejemplos de la configuración que puede apli
 * Ajustes de los contratos, como el número máximo de días que se pueden utilizar para las órdenes de servicio contractuales, el uso de códigos de razón cuando se cancela un contrato, los textos estándar para las descripciones y los valores del contrato.  
 * Secuencias numéricas para documentos y productos relacionados con el servicio.  
 
-## Para introducir valores generales y obligatorios
+## <a name="to-enter-general-and-mandatory-settings"></a>Para introducir valores generales y obligatorios
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de administración de servicios** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Configurar directivas de publicación de facturas de servicios para usuarios
+## <a name="set-up-service-invoice-posting-policies-for-users"></a>Configurar directivas de publicación de facturas de servicios para usuarios
 
 Las empresas a menudo tienen procesos únicos para facturas y envíos. Por ejemplo, los procesos pueden variar desde una persona que registra todo en un pedido de servicio hasta varios empleados, cada uno trabajando con sus propias páginas.
 
@@ -55,7 +55,7 @@ La siguiente tabla describe los efectos en documentos diferentes.
 > [!NOTE]
 > Cuando registra facturas de servicio y notas de abono, no tiene ninguna opción de publicación. Los documentos siempre registran juntas las transacciones físicas y financieras. No se pueden contabilizar parcialmente facturas de servicio y notas de abono.
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 
 [Configurar información de defectos](service-how-setup-fault-reporting.md)  
 [Configurar la asignación de recursos](service-how-setup-resource-allocation.md)  

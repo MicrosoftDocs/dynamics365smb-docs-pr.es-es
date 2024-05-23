@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Usar flujos de trabajo de aprobación
+# <a name="how-to-use-approval-workflows"></a>Usar flujos de trabajo de aprobación
 
 Cuando un registro, como un documento de compra o una ficha de cliente, necesita ser aprobado por alguien de su organización, enviará una solicitud de aprobación como parte de un flujo de trabajo. En función de la configuración del flujo de trabajo, el aprobador adecuado recibirá notificación sobre que el registro requiere su aprobación.
 
@@ -21,7 +21,7 @@ Además de los flujos de trabajo de aprobación descritos en este artículo, pue
 
 Los flujos de trabajo de aprobación más importantes para los documentos de compras y ventas, los diarios de pago y las fichas de clientes y productos están listos para iniciar como guías. Obtenga más información en [Preparación para hacer negocios](ui-get-ready-business.md).
 
-## Solicitar una aprobación de registro
+## <a name="request-a-record-approval"></a>Solicitar una aprobación de registro
 
 La siguiente tarea se realizado por un usuario de aprobación.
 
@@ -32,7 +32,7 @@ El estado del movimiento de aprobación se actualiza de **Creado** a **Abierto**
 
 Cuando todos los aprobadores necesarios autorizan el registro, el estado cambia **Lanzados**. Podrá continuar trabajando con el registro.
 
-## Cancelar solicitudes de aprobación
+## <a name="cancel-approval-requests"></a>Cancelar solicitudes de aprobación
 
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
@@ -42,7 +42,7 @@ Puede que un cliente desee cambiar un pedido después de que éste haya sido env
 
 Una vez cancelada la solicitud de aprobación, el estado del movimiento de aprobación relacionado cambia a **Cancelado**. El estado del registro también se actualiza de **Aprobación pendiente** a **Abierto**. En este punto, el proceso de aprobación puede entonces comenzar de nuevo.
 
-## Aprobar o rechazar solicitudes de aprobación
+## <a name="approve-or-reject-approval-requests"></a>Aprobar o rechazar solicitudes de aprobación
 
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
@@ -58,7 +58,7 @@ Si hay configurada una jerarquía de aprobadores, el estado de registro es **Pen
 
 Al mismo tiempo, el estado de aprobación cambia de **Creado** a **Abrir** en cuanto se cree una solicitud de aprobación para el registro. Si se rechaza la solicitud, el estado de aprobación cambia **Rechazado**. El estado permanece en **Abrir** o **Rechazado** hasta que todos los aprobadores hayan aprobado la solicitud.
 
-## Delegar solicitudes de aprobación
+## <a name="delegate-approval-requests"></a>Delegar solicitudes de aprobación
 
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
@@ -69,7 +69,7 @@ Para evitar que los registros se acumulen o bloqueen el flujo de trabajo, el apr
 
 Se envía una notificación para aprobar la solicitud al aprobador sustituto.
 
-## Gestionar solicitudes de aprobación vencidas
+## <a name="manage-overdue-approval-requests"></a>Gestionar solicitudes de aprobación vencidas
 
 La siguiente tarea se realizado por un usuario de aprobación con derechos de aprobación.
 
@@ -80,7 +80,7 @@ La función **Enviar notificaciones de aprobación vencidas** buscará todas las
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Solicitudes de aprobación vencidas** y luego elija el enlace relacionado.
 2. En la página **Solicitudes de aprobación vencidas**, seleccione la acción **Seleccionar solicitudes de aprobación vencidas**.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Usar flujos de trabajo de aprobación](across-use-workflows.md)  
 [Flujo de trabajo](across-workflow.md)  
