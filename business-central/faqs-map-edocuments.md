@@ -7,12 +7,12 @@ ms.custom:
 ms.topic: article
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: altotovi
+ms.reviewer: bholtorf
 ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-mapping-e-documents-with-purchase-orders-using-copilot-preview"></a>Preguntas frecuentes sobre la asignación de documentos electrónicos con pedidos de compra mediante Copilot (versión preliminar)
+# Preguntas frecuentes sobre la asignación de documentos electrónicos con pedidos de compra mediante Copilot (versión preliminar)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ Estas preguntas frecuentes (P+F) describen el impacto de la característica **As
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-e-documents-matching-assistance"></a>¿Qué es la asistencia para la concordancia de documentos electrónicos?
+## ¿Qué es la asistencia para la concordancia de documentos electrónicos?
 
 Los documentos electrónicos sirven como base para transacciones comerciales modernas. Representan trámites críticos, como facturas y recibos, que fluyen en ambas direcciones a través de la entrega y la recepción. Puede generar y transmitir facturas electrónicas de forma digital en un formato estructurado que facilita el procesamiento automatizado de facturas. Sin embargo, el manejo de facturas digitales entrantes puede resultar más complicado para los equipos de cuentas por pagar.  
 
@@ -30,7 +30,7 @@ Históricamente, [!INCLUDE [prod_short](includes/prod_short.md)] podría generar
 
 **Asistencia para la concordancia de documentos electrónicos** utiliza IA generativa para agilizar este proceso automatizando el análisis de facturas electrónicas externas. La función permite a los contadores pedirle a Copilot que haga coincidir las líneas de las facturas electrónicas entrantes con las líneas de las órdenes de compra en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="what-are-capabilities-of-the-e-documents-matching-assistance"></a>¿Cuáles son las capacidades de la asistencia para la concordancia de documentos electrónicos?
+## ¿Cuáles son las capacidades de la asistencia para la concordancia de documentos electrónicos?
 
 Copilot brinda asistencia basada en inteligencia artificial para hacer coincidir la factura digital recibida con las órdenes de compra existentes [!INCLUDE [prod_short](includes/prod_short.md)]. Copilot relaciona líneas basándose en lo siguiente:
 
@@ -43,11 +43,11 @@ Copilot identifica descripciones similares si tienen la unidad de medida y los p
 
 Copilot no se conecta a su servicio de punto final de documentos electrónicos para recuperar o enviar comprobantes digitales. Esta tarea permanece totalmente bajo su control y es un requisito previo para utilizar la asistencia de Copilot. Esto es cierto, independientemente de si los documentos digitales se agregan a [!INCLUDE [prod_short](includes/prod_short.md)] mediante una conexión con un servicio de punto final o se introducen manualmente.  
 
-## <a name="what-is-the-intended-use-of-the-e-documents-matching-assistance"></a>¿Cuál es el uso previsto de la asistencia para la concordancia de documentos electrónicos?
+## ¿Cuál es el uso previsto de la asistencia para la concordancia de documentos electrónicos?  
 
 El objetivo de la característica **Asistencia para la concordancia de documentos electrónicos** es ayudar al equipo de cuentas por pagar a cotejar las órdenes de compra existentes con las facturas electrónicas entrantes. Gran parte de esta actividad gira en torno a la coincidencia de cadenas. [!INCLUDE [prod_short](includes/prod_short.md)] ofrece una característica que automatiza parte de esta actividad, y los LLM se han identificado como una oportunidad para complementar esa función y reducir aún más el esfuerzo manual.  
 
-## <a name="how-was-e-documents-matching-assistance-evaluated-what-metrics-are-used-to-measure-performance"></a>¿Cómo se evaluó la asistencia para la concordancia de documentos electrónicos? ¿Qué métricas se utilizan para medir el rendimiento?
+## ¿Cómo se evaluó la asistencia para la concordancia de documentos electrónicos? ¿Qué métricas se utilizan para medir el rendimiento?
 
 Esta característica se probó utilizando combinaciones de la siguiente información:
 
@@ -60,13 +60,13 @@ Esta característica se probó utilizando combinaciones de la siguiente informac
 
 Los datos de prueba representan tanto el uso típico como el uso por parte de malos actores. Se midió el rendimiento en comparación con la comparación manual de los mismos datos en facturas electrónicas y órdenes de compra.
 
-## <a name="what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system"></a>¿Cuáles son las limitaciones de la asistencia para la concordancia de documentos electrónicos? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de asistencia para la concordancia de documentos electrónicos?
+## ¿Cuáles son las limitaciones de la asistencia para la concordancia de documentos electrónicos? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de asistencia para la concordancia de documentos electrónicos?
 
 La **Asistencia para la concordancia de documentos electrónicos** funciona mejor cuando las descripciones de elementos externas (factura electrónica) e internas ([!INCLUDE [prod_short](includes/prod_short.md)]) y las unidades de medidas están en el mismo idioma. Los idiomas mixtos o el lenguaje mixto de las descripciones de productos a menudo resultan en menos coincidencias y sugerencias.  
 
 La combinación sugerida de artículos de facturas electrónicas con artículos de órdenes de compra funciona mejor en inglés. Aunque puede utilizar esta función en cualquier idioma compatible [!INCLUDE [prod_short](includes/prod_short.md)], es posible que experimente menos coincidencias de elementos en otros idiomas.
 
-## <a name="in-which-geographies-and-languages-is-e-documents-matching-assistance-available"></a>¿En qué geografías e idiomas está disponible la asistencia para la concordancia de documentos electrónicos?
+## ¿En qué geografías e idiomas está disponible la asistencia para la concordancia de documentos electrónicos? 
 
 Esta capacidad está disponible para cualquier entorno, localización de país/región y en cualquier idioma de usuario con la excepción de Canadá. Debido a la compatibilidad de idiomas limitada, la función no estará disponible inicialmente para los clientes canadienses porque no cumple la normativa del idioma. 
 
@@ -74,11 +74,11 @@ Para entornos de clientes ubicados en países o regiones donde el servicio Azure
 
 Para obtener más información sobre el idioma, vaya a [¿Cuáles son las limitaciones de la asistencia para la concordancia de documentos electrónicos? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de asistencia para la concordancia de documentos electrónicos?](#what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system).   
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>¿Qué factores operativos y configuraciones permiten un uso eficaz y responsable de la característica?
+## ¿Qué factores operativos y configuraciones permiten un uso eficaz y responsable de la característica?
 
 Copilot complementa el algoritmo de asignación que [!INCLUDE [prod_short](includes/prod_short.md)] ya proporciona y asigna las líneas que el algoritmo no proporcionó.
 
-### <a name="what-is-expected-of-end-users-while-using-e-documents-matching-assistance"></a>¿Qué se espera de los usuarios finales al utilizar la asistencia para la concordancia de documentos electrónicos?
+### ¿Qué se espera de los usuarios finales al utilizar la asistencia para la concordancia de documentos electrónicos?
 
 <!--Not sure that this is the right content for this section. Seems like it belongs more in the overview article because it's more related to how to use the feature-->
 
@@ -95,7 +95,7 @@ Puede utilizar **Asistencia para la concordancia de documentos electrónicos** p
 
 Las coincidencias de Copilot pueden ser incorrectas o incompletas. Siempre debe revisar su exactitud antes de decidir conservarlas. Las coincidencias y sugerencias de Copilot se guardan en [!INCLUDE [prod_short](includes/prod_short.md)] cuando elige **Mantenerlo** y sale de Copilot. También puede editar y corregir cualquier coincidencia o sugerencia antes de optar por conservarla. 
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-operating-e-documents-matching-assistance"></a>¿Qué se espera de los administradores y usuarios finales cuando operan la asistencia para la concordancia de documentos electrónicos?
+### ¿Qué se espera de los administradores y usuarios finales cuando operan la asistencia para la concordancia de documentos electrónicos?
 
 Los usuarios finales, como contables, tesoreros u otras personas que reciben facturas electrónicas, siempre deben revisar la exactitud de las coincidencias y sugerencias proporcionadas por Copilot antes de optar por conservarlas. Le recomendamos que revise las líneas de la orden de compra para verificar su exactitud y encontrar cualquier discrepancia. Usted decide si desea utilizar la **Asistencia para la concordancia de documentos electrónicos**. Incluso cuando la **Asistencia para la concordancia de documentos electrónicos** está activada por los administradores y disponible, puede elegir utilizarla siempre, a veces o nunca.  
 
@@ -105,15 +105,15 @@ Los administradores toman la decisión general sobre si utilizar Copilot en [!IN
 > - No admitimos esta característica para [!INCLUDE [prod_short](includes/prod_short.md)] local o en nubes privadas.
 > - Los socios no pueden ampliar esta característica. Los desarrolladores asociados no pueden modificar, reemplazar ni ampliar esta característica. 
 
-## <a name="is-copilot-the-only-way-to-match-e-documents-to-purchase-orders"></a>¿Es Copilot la única manera de hacer coincidir los documentos electrónicos con las órdenes de compra?
+## ¿Es Copilot la única manera de hacer coincidir los documentos electrónicos con las órdenes de compra?  
 
 No, usted decide si utiliza Copilot. [!INCLUDE [prod_short](includes/prod_short.md)] ofrece formas sin tecnología de IA para relacionar artículos de la factura electrónica recibida con artículos de órdenes de compra en [!INCLUDE [prod_short](includes/prod_short.md)]. Las organizaciones también pueden utilizar ambos enfoques al mismo tiempo.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>¿Cómo doy comentarios sobre el contenido generado por IA?
+## ¿Cómo doy comentarios sobre el contenido generado por IA?  
 
 Cada vez que Copilot proporciona coincidencias o sugerencias, puede proporcionar comentarios a Microsoft directamente desde la ventana de Copilot, utilizando los controles Me gusta y No me gusta. Sus comentarios permanecen anónimos y utilizamos estos datos para mejorar la calidad del servicio.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Información general de documentos electrónicos](finance-edocuments-overview.md)
 [Asignar documentos electrónicos a líneas de pedido de compra con Copilot](map-edocuments-with-copilot.md)

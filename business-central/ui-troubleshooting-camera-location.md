@@ -4,24 +4,21 @@ description: Este artículo describe cómo solucionar problemas de acceso a la i
 author: brentholtorf
 ms.author: bholtorf
 ms.date: 04/01/2021
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
 ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="troubleshooting-accessing-camera-and-location"></a>Solución de problemas: acceso a la cámara y a la ubicación
+# Solución de problemas: acceso a la cámara y a la ubicación
 
 Puede encontrar algunos problemas al intentar acceder a la cámara y a la información de ubicación de un dispositivo desde [!INCLUDE[prod_short](includes/prod_short.md)]. Puede encontrar las causas posibles de estos problemas y cómo solucionarlos a continuación.
 
-## <a name="device-must-have-camera-and-location-capabilities"></a>El dispositivo debe tener capacidades de cámara y ubicación
+## El dispositivo debe tener capacidades de cámara y ubicación
 
 Para acceder a la cámara o la ubicación de un usuario desde un dispositivo, el dispositivo debe tener una cámara física o la capacidad de recuperar información de ubicación.
 
 Si su dispositivo tiene capacidades de cámara y ubicación, pero sigue teniendo problemas, es posible que algunos controladores deban actualizarse o reinstalarse. Incluso si no está seguro, siempre recomendamos que actualice el sistema operativo, los controladores y el navegador de su dispositivo a la última versión para obtener la mejor experiencia.
 
-## <a name="access-permissions-not-enabled"></a>Permisos de acceso no habilitados
+## Permisos de acceso no habilitados
 
 Debe habilitar el acceso general a la cámara y la ubicación desde la configuración de privacidad de su dispositivo y otorgar permiso explícitamente para [!INCLUDE[prod_short](includes/prod_short.md)] para acceder a ellos. Por ejemplo, para ver o cambiar los permisos de un dispositivo ejecutando Windows, vaya a **Configuración**, elija **Privacidad** y, a continuación, **Permisos de la aplicación**. 
 
@@ -34,21 +31,21 @@ De manera predeterminada, el dispositivo o navegador mostrará una solicitud par
 > [!NOTE]  
 > Algunos navegadores antiguos no dan acceso a la cámara ni a la ubicación. Por ejemplo, la cámara no está disponible en Internet Explorer o el navegador Microsoft Edge (versión heredada).
 
-## <a name="web-client-connection-not-secure"></a>La conexión del cliente web no es segura
+## La conexión del cliente web no es segura
 
 Las capacidades de cámara y ubicación solo están disponibles cuando se accede al cliente web a través de conexiones HTTP con seguridad SSL, utilizando el esquema de URI `https://`. 
 
 La única excepción es conectarse a `http://localhost`, utilizado para fines de desarrollo y prueba.
 
 
-## <a name="work-with-virtualization-technologies"></a>Trabajar con tecnologías de virtualización
+## Trabajar con tecnologías de virtualización
 
 Cuando se conecte a [!INCLUDE[prod_short](includes/prod_short.md)] mediante el Escritorio remoto u otra virtualización, es posible que el acceso a la cámara o la ubicación no esté disponible. Si este es el caso, use el sistema físico en su lugar.
 
-## <a name="antivirus-software"></a>Software antivirus
+## Software antivirus
 Algunos software antivirus bloquean el acceso a la cámara y la ubicación de forma predeterminada. Recuerde comprobar la configuración de su software antivirus.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Implementación de la cámara en AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementación de la ubicación en AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

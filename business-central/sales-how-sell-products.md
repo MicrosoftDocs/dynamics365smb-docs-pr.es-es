@@ -3,7 +3,7 @@ title: Crear un pedido de venta de cliente y vender productos
 description: Describe cómo crear un pedido de venta para registrar el acuerdo con un cliente para vender o comerciar productos con condiciones específicas.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
@@ -11,7 +11,7 @@ ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Vender productos con un pedido de venta de cliente
+# Vender productos con un pedido de venta de cliente
 
 Este artículo proporciona orientación sobre cuándo utilizar un pedido de venta de cliente además de una factura. Si el proceso de venta requiere que solo envíe parte de un pedido, quizá porque la cantidad total no está disponible inmediatamente, deberá procesar esa venta realizando un pedido de ventas.
 
@@ -23,7 +23,7 @@ En los entornos comerciales en los que el cliente paga de forma inmediata, por e
 
 Incluso puede crear pedidos pagados directamente para clientes no registrados configurando primero una tarjeta de "cliente de efectivo" que señale en el pedido de venta. Obtenga más información en [Configurar clientes de efectivo](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Crear un pedido de ventas
+## Crear un pedido de ventas
 
 > [!NOTE]  
 > El siguiente procedimiento asume que el cliente ya está preparado. Para obtener instrucciones sobre cómo hacer esto, consulte [Registrar nuevos clientes](sales-how-register-new-customers.md).
@@ -87,17 +87,17 @@ El cuadro de diálogo **Registrar y enviar confirmación** muestra el método pr
 
 El producto relacionado y los movimientos de cliente se han creado ahora en su sistema y el pedido de venta se genera automáticamente como un documento PDF. Una vez que el pedido de cliente está totalmente registrado, se quita de la lista de pedidos de cliente y se sustituye por nuevos documentos en la lista de facturas de venta y envíos de ventas.  
 
-## <a name="external-document-number"></a>Número de documento externo
+## Número de documento externo
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="working-with-amount-fields"></a>Trabajo con campos de importes
+## Trabajo con campos de importes
 
 Los valores en los campos que muestran importes pueden ser positivos o negativos, dependiendo de si el valor representa un crédito o un débito. Este video muestra cómo trabajar con campos que muestran importes.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Registrar ventas](ui-post-sales.md)  

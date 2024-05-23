@@ -3,7 +3,7 @@ title: 'Configurar proyectos, precios y grupos contables de proyectos'
 description: Describe cómo configurar información general sobre proyectos.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template
@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-projects-prices-and-project-posting-groups"></a>Configurar proyectos, precios y grupos contables de proyectos
+# Configurar proyectos, precios y grupos contables de proyectos
 
 Como director de proyectos, puede configurar proyectos que definan cada uno de los proyectos que administra en [!INCLUDE[prod_short](includes/prod_short.md)]. Use la página **Configuración de proyectos** para definir cómo usará las características del proyecto.
 
@@ -22,7 +22,7 @@ Para cada proyecto, especifique información diversa:
 * Cuentas de proyecto
 * Grupos contables de proyecto (necesario)
 
-## <a name="to-set-general-information-for-projects"></a>Para configurar la información general de los proyectos
+## Para configurar la información general de los proyectos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Configuración de proyecto** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Para cada proyecto, especifique información diversa:
 > [!NOTE]
 > El control de alternancia **Aplicar enlace de uso de forma predeterminada** de la página **Configuración de proyectos** indica si las entradas del libro mayor de proyectos están vinculadas a las líneas de planificación de proyecto de forma predeterminada. Active el control de alternancia para aplicar esta configuración a todos los proyectos nuevos. Puede habilitar o deshabilitar el seguimiento del uso del proyecto para un proyecto específico activando o desactivando el control de alternancia **Aplicar enlace de uso** en la página **Ficha de proyecto**.
 
-### <a name="specify-a-default-location-for-project-items"></a>Especificar una ubicación predeterminada para los elementos del proyecto
+### Especificar una ubicación predeterminada para los elementos del proyecto
 
 Puede ahorrar tiempo en la entrada de datos especificando una ubicación y un contenedor predeterminados para los proyectos en la página **Tarjeta de proyecto**. Cuando crea tareas de proyecto, líneas de planificación de proyecto y líneas de diario de proyecto para el proyecto, la ubicación y el contenedor predeterminados se asignan automáticamente. Sin embargo, puede cambiar el código de ubicación y el contenedor de tareas y líneas si es necesario.
 
@@ -44,11 +44,11 @@ Hay algunas cosas que debes saber sobre el uso de ubicaciones predeterminadas:
 * Para las líneas de planificación de proyectos, el **Código de ubicación** se basa en el valor seleccionado en la línea de planificación de proyectos cuando selecciona un artículo. Si no se define un código de ubicación para la tarea del proyecto, se selecciona la ubicación del contenido de ubicación predeterminado. Puede cambiar ambos valores manualmente.
 * Para las líneas de diario de proyectos, el **Código de ubicación** se basa en el valor seleccionado en la línea de diario de proyectos cuando selecciona un artículo. Si no se define un código de ubicación para la tarea del proyecto, se selecciona la ubicación del contenido de ubicación predeterminado. Puede cambiar ambos valores manualmente.
 
-### <a name="invoice-multiple-customers-for-project-tasks"></a>Facturar a varios clientes por tareas del proyecto
+### Facturar a varios clientes por tareas del proyecto 
 
 Cuando los proyectos involucran a varios clientes, facturar a los clientes adecuados por las tareas adecuadas puede resultar un desafío. [!INCLUDE [prod_short](includes/prod_short.md)] hace que la facturación sea menos compleja al permitirle especificar los clientes a facturar y vender en cada línea de tarea del proyecto, para que pueda generar automáticamente facturas para los clientes correctos. Para obtener más información sobre cómo facturar a varios clientes, vaya a [Facturar a uno o más clientes por tareas de proyecto](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>Para configurar el seguimiento de uso de proyecto
+### Para configurar el seguimiento de uso de proyecto
 
 Cuando está trbajando en un proyecto, es posible que desee saber cómo va el seguimiento en comparación con el plan. Para explorar el uso, puede crear un vínculo entre las líneas de planificación de proyecto y la utilización real. El vínculo le permite realizar un seguimiento de sus costes y comprender cuánto trabajo queda. De forma predeterminada, el tipo de línea de planificación de proyecto es **Presupuesto**, pero utilizar el tipo de línea **Presupuesto y facturable** tiene efectos similares.
 
@@ -62,7 +62,7 @@ Después de haber establecido el seguimiento de uso activando el control de alte
 > [!IMPORTANT]
 > Si no especifica un valor en el campo **Tipo de línea** de la línea del diario de proyecto o la línea de compra, no se crean líneas de planificación de proyecto cuando se registra el diario de trabajo o el documento de compra.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>Para establecer los precios de recursos, productos y cuentas de contabilidad para proyectos
+## Para establecer los precios de recursos, productos y cuentas de contabilidad para proyectos
 
 > [!NOTE]
 > En el segundo lanzamiento de versiones de 2020, lanzamos nuevos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -90,7 +90,7 @@ Cuando elige una cuenta de recurso, producto o de contabilidad para un proyecto,
 
 ---
 
-## <a name="to-set-up-project-posting-groups"></a>Para configurar grupos de registro de proyecto
+## Para configurar grupos de registro de proyecto
 
 Un aspecto de los proyectos de planificación es decidir qué cuentas de registro se deben utilizar para la valoración de proyectos. Para poder registrar proyectos, debe configurar cuentas de registro para cada grupo contable del proyecto. Un grupo contable representa un vínculo entre el proyecto y cómo debe ser tratado en la contabilidad general. Al crear un proyecto, se especifica un grupo contable y, de forma predeterminada, todas las tareas que crea para el proyecto están asociadas con ese grupo contable. Sin embargo, al crear las tareas, puede sustituir el predeterminado y seleccionar a un grupo contable que sea más adecuado.  
 
@@ -118,7 +118,7 @@ Un aspecto de los proyectos de planificación es decidir qué cuentas de registr
 | **Cuenta costes reconocidos** |Es la cuenta de gastos que contiene los costes reconocidos del proyecto. Normalmente, es una cuenta de cargo. | Costes reconocidos|
 | **Cuenta ventas reconocidas** |Es la cuenta de ingresos que contiene los ingresos reconocidos del proyecto. Normalmente, es una cuenta de ingresos. | Ventas reconocidas|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configurar gestión del proyecto](projects-setup-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

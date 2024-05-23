@@ -1,23 +1,24 @@
 ---
-title: Establecer precios y descuentos
+title: Configurar precios y descuentos
 description: Describe cómo definir acuerdos de precios y descuentos estándar y especiales para ventas y compras.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: article
-ms.devlang: al
 ms.search.keywords: 'price, pricing, discount, discounting, rebate, sale, purchase, invoice'
 ms.search.form: '459, 460, 7001, 7011, 7015, 7016, 7017, 7018'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-prices-and-discounts"></a>Establecer precios y descuentos
+# Configurar precios y descuentos
 
 > [!NOTE]
 > En el segundo lanzamiento de versiones de 2020, lanzamos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo que usa esa versión, está usando la nueva experiencia. Si es un cliente existente, si está utilizando la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en la página **Administración de funciones**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Las estrategias de precios y descuentos para la compra y venta de artículos y servicios son herramientas fundamentales para negocios exitosos. Después de configurar los artículos y servicios que su empresa compra y vende, puede definir lo que paga o cobra por ellos, y esos importes se agregarán automáticamente a los documentos de ventas y compras. 
 
-## <a name="setting-up-prices-and-discounts"></a>Establecimiento de precios y descuentos
+## Establecimiento de precios y descuentos
 
 Antes de crear listas de precios, debe definir sus estrategias de precios y descuentos en la páginas **Configuración de ventas y cuentas de clientes** y **Configuración de compras y cuentas de proveedores**.
 
@@ -33,13 +34,13 @@ Dado que los descuentos de línea de venta y los precios de venta se basan en un
 > [!TIP]  
 > Si nunca debe venderse un producto con descuento, simplemente deje vacíos los campos de descuento en la ficha del producto y no incluya el producto en ninguna configuración de descuento de línea.
 
-## <a name="about-price-lists"></a>Acerca de las listas de precios
+## Acerca de las listas de precios
 
 Las listas de precios son flexibles y le permiten especificar el socio comercial o la actividad a la que se aplican. Por ejemplo, puede configurar una lista de precios que se aplique a todos los proveedores y clientes, u ofrecer precios especiales o descuentos para cada socio comercial, tal vez en función de una cantidad mínima en pedidos de compra o de venta, o de una determinada combinación de cliente, artículo, cantidad mínima, unidad de medida o períodos de tiempo. Los precios y descuentos que defina se aplican automáticamente a los documentos de compra y venta. 
 
-## <a name="set-up-prices"></a>Configurar precios
+## Configurar precios
 
-Estos pasos difieren, dependiendo de si su administrador ha activado la actualiación de la característica **Nueva experiencia de precios de venta**. 
+Estos pasos difieren, dependiendo de si su administrador ha activado la actualización de la característica **Nueva experiencia de precios de venta**. 
 
 #### [Experiencia actual](#tab/current-experience)  
 
@@ -67,7 +68,7 @@ Para revisar las listas de precios y los precios que se aplican a clientes o pro
 
 ---
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Para configurar un descuento de línea de venta para un cliente
+## Para configurar un descuento de línea de venta para un cliente
 
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualiación de la característica **Nueva experiencia de precios de venta**. 
 
@@ -97,7 +98,7 @@ Estos pasos difieren, dependiendo de si su administrador ha activado la actualia
 
 ---
 
-## <a name="work-with-invoice-discounts-and-service-charges"></a>Trabajar con descuentos en factura y cargos por servicios
+## Trabajar con descuentos en factura y cargos por servicios
 
 Al utilizar descuentos en factura, el importe de la factura determina el descuento aplicado. En la página **Descuentos en factura**, también puede añadir un cargo por servicio a las facturas que superen un determinado importe.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -114,7 +115,7 @@ Además de (o en lugar de) un porcentaje de descuento, puede vincular un importe
 > [!TIP]  
 > Antes de comenzar a introducir esta información, es una buena idea preparar su estructura de descuentos de antemano, para que sea más fácil ver qué clientes vincular a la misma página de descuento en factura. Para obtener más información sobre descuentos en ventas, consulte [Establecer descuentos para sus clientes](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Para configurar un descuento en factura para un cliente
+### Para configurar un descuento en factura para un cliente
 
 Después de decidir qué clientes pueden obtener descuentos en factura, introduzca el código de descuento en factura en las fichas de cliente y especifique los términos de cada código.
 
@@ -135,7 +136,7 @@ Configure de nuevo los términos de descuento en factura de ventas.
 
 El descuento en factura ahora está configurado y asignado al cliente en cuestión. Al seleccionar el código del cliente en el campo **Cód. dto. factura** en otras fichas de cliente, se asigna el mismo descuento en factura a estos clientes.
 
-## <a name="to-copy-sales-prices"></a>Para copiar precios de venta
+## Para copiar precios de venta
 
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualiación de la característica **Nueva experiencia de precios de venta**. 
 
@@ -166,7 +167,7 @@ El estado de la lista de precios debe ser **Borrador**.
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Para actualizar de forma masiva los precios de los artículos
+## Para actualizar de forma masiva los precios de los artículos
 
 Estos pasos difieren, dependiendo de si su administrador ha activado la actualiación de la característica **Nueva experiencia de precios de venta**. 
 
@@ -194,15 +195,14 @@ Para actualizar los precios de varios productos, debe crear una nueva lista de p
 
 ---
 
-## <a name="calculating-the-best-price"></a>Cálculo del mejor precio
+## Cálculo del mejor precio
 
 Cuando haya registrado precios especiales y descuentos de línea para ventas y compras, [!INCLUDE[d365fin](includes/d365fin_md.md)] garantiza que el beneficio en operaciones comerciales de producto siempre sea óptimo, calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y productos. Para obtener más información, consulte [Cálculo del mejor precio](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

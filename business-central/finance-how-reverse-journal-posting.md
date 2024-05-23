@@ -3,9 +3,9 @@ title: Deshacer un registro registrando el movimiento de reversión
 description: 'Si encuentra un error en un diario general contabilizado, puede utilizar la acción Revertir transacción para deshacer el registro con una prueba de auditoria correcta.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -27,10 +27,8 @@ Se pueden revertir movimientos desde todas las páginas **Movimientos**. El sigu
 
 > [!NOTE]
 > El movimiento debe proceder de un registro de diario.
->
-> Además no puede revertir los movimientos que se han registrado con información de un proyecto, o que han obtenido ganancias y pérdidas dentro de la misma transacción.
 
-1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de contabilidad** y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Movimientos de contabilidad** y luego elija el enlace relacionado.
 2. Seleccione el movimiento que desea revertir y, después, seleccione **Revertir transacción**.
 3. En la página **Revertir movs. trans.**, elija la acción **Revertir**.
 4. Elija **Sí** para confirmar la inversión.
@@ -84,10 +82,21 @@ Los pasos son parecidos para las recepciones de devolución registradas.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
+## Revertir un movimiento contable de cliente y proveedor con un movimiento de pérdida o ganancia lograda
+
+Puede utilizar la acción **Transacción inversa** para revertir pagos que se aplicaron a entradas que se originaron en divisas extranjeras y se ajustaron mediante el trabajo por lotes de Ajuste del tipo de cambio. La característica funciona tanto para compras como para ventas.
+
+El siguiente es un escenario simple que ilustra cómo funciona:
+
+1. Registre una factura de venta para un cliente utilizando una divisa extranjera.
+2. Ajuste el tipo de cambio de esa divisa.
+3. Registre un pago aplicado a la factura.
+4. Anule la aplicación y revierta la transacción de pago, por ejemplo, desde la página **Movs. clientes** .
+
 ## Consulte también
 
-[Deshacer registro de ensamblado](assembly-how-to-undo-assembly-posting.md)  
-[Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
+[Deshacer el registro de ensamblado](assembly-how-to-undo-assembly-posting.md)  
+[Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

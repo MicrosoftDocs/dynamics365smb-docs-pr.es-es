@@ -9,10 +9,10 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: kfend
+ms.reviewer: bholtorf
 ---
 
-# <a name="audit-file-export"></a>Exportación de archivo de auditoría
+# Exportación de archivo de auditoría
 
 La exportación de información contable del sistema es una solicitud común de algunas autoridades locales o auditores. Las exportaciones de formatos y la información requerida pueden diferir. Los asientos para la exportación suelen ser asientos del libro mayor (G/L) o asientos del impuesto al valor agregado (IVA). Sin embargo, a veces se requiere otra información.
 
@@ -21,7 +21,7 @@ La exportación de información contable del sistema es una solicitud común de 
 > [!NOTE]
 > Actualmente, puede seleccionar el formato SIE (Suecia), FEC (Francia) o SAF-T como una aplicación adicional. Los socios también pueden desarrollar un formato personalizado. El número de formatos disponibles aumentará con el tiempo.
 
-## <a name="set-up-audit-file-export"></a>Configurar la exportación de archivos de auditoría
+## Configurar la exportación de archivos de auditoría
 
 1. Seleccione el botón de búsqueda ![Botón de lupa que abre la función Tell Me.](media/ui-search/search_small.png "Dígame qué desea hacer"), ingrese **Configuración de exportación de archivo de auditoría** y luego seleccione el enlace relacionado.
 2. En la página **Configuración de exportación de archivo de auditoría**, siga estos pasos:
@@ -42,7 +42,7 @@ La exportación de información contable del sistema es una solicitud común de 
     2. En el campo **Nombre del archivo de auditoría**, especifique el nombre de archivo predeterminado o la plantilla de nombre de archivo para el archivo de auditoría que desea exportar.
     3. Seleccione la casilla de verificación **Archivar en Zip** para comprimir automáticamente los archivos exportados.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Proporcione la asignación de cuentas de mayor para la exportación de archivos de auditoría
+## Proporcione la asignación de cuentas de mayor para la exportación de archivos de auditoría
 
 La mayoría de los formatos requeridos por las autoridades para las cuentas de mayor requieren un plan de cuentas estándar específico. Por lo tanto, después de configurar sus cuentas de mayor, su archivo exportado se basará en las asignaciones. Puede utilizar más asignaciones en su sistema.
 
@@ -67,7 +67,7 @@ Siga estos pasos para proporcinoar la asignación de cuentas de mayor para la ex
     1. Para generar líneas en la página **Asignación de cuentas de mayor**, en función de un catálogo de cuentas existente, seleccione **Inicializar fuente para mapeo**. Para copiar la asignación de cuenta de mayor de algún otro código de asignación, seleccione **Copiar desde otra asignación**. Cuando haya terminado de crear líneas, todas las cuentas de mayor que hayan registrado asientos se marcarán en verde.
     2. Para marcar solo las cuentas de mayor que tienen entradas, seleccione **Actualizar disponibilidad de entrada de L/M**. Si **Incluir saldo entrante** está activado, todas las entradas del L/M contabilizadas se tienen en cuenta para el cálculo. De lo contrario, solo se consideran las entradas del L/M del período de informe.
 
-## <a name="export-the-audit-file"></a>Exportar el archivo auditoría
+## Exportar el archivo auditoría
 
 1. Seleccione el botón de búsqueda ![Botón de lupa que abre la función Tell Me.](media/ui-search/search_small.png "Dígame qué desea hacer"), ingrese **Documentos de exportación de archivo de auditoría** y luego seleccione el enlace relacionado.
 2. Sobre la página **Documentos de exportación de archivos de auditoría**, seleccione **Nuevo**.
@@ -95,7 +95,7 @@ Siga estos pasos para proporcinoar la asignación de cuentas de mayor para la ex
 > [!IMPORTANT]
 > Si tiene varias entradas para exportar, no le recomendamos que las exporte en la sesión actual, debido a posibles problemas de rendimiento. En su lugar, le recomendamos que utilice el procesamiento paralelo durante los días o las horas no laborables.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 [Gestión financiera](finance.md)  
 [Descripción de contabilidad y plan de cuentas](finance-general-ledger.md)  
 [Trabajar con dimensiones](finance-dimensions.md)  

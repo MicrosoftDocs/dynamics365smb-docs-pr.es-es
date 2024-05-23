@@ -3,25 +3,25 @@ title: Cómo crear productos de servicio
 description: 'Lea acerca de las diferentes formas en que puede crear productos de servicio en Business Central, por ejemplo, en una orden de servicio o al enviar artículos.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-service-items"></a>Crear prods. servicio
+# Crear prods. servicio
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], el término “producto de servicio” se refiere el equipo o productos que requieren servicio. Al crear un pedido de servicio, se especifican los productos que necesitan servicio. En el pedido, puede vincular un producto de servicio a un producto en existencias o un grupo de productos de servicio.
 
 Cuando reciba un producto que necesita servicio, puede registrarlo como un producto de servicio. Existen varias formas de hacerlo. Por ejemplo, puede crear un producto de servicio en la página **Productos de servicio**, o como parte de otro proceso, por ejemplo al trabajar con un pedido de servicio.
 
-## <a name="to-create-a-service-item"></a>Para crear un producto de servicio
+## Para crear un producto de servicio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos de servicio** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order"></a>Para crear productos de servicio en un pedido de servicio
+## Para crear productos de servicio en un pedido de servicio
 
 Cuando se reciben productos para servicio que desea registrar como productos de servicio, puede crearlos como productos de servicio en las páginas **Pedido servicio** u **Oferta servicio**.  
 
@@ -31,7 +31,7 @@ Cuando se reciben productos para servicio que desea registrar como productos de 
 
     Se asignará un número al artículo de servicio y se creará una ficha de artículo de servicio. El campo **Nº producto servicio** se rellenará con el número del nuevo producto de servicio.
 
-## <a name="to-create-a-service-item-when-shipping-items"></a>Para crear un producto de servicio al enviar productos
+## Para crear un producto de servicio al enviar productos
 
 Cuando se envían los productos al registrar los pedidos o las facturas de venta, los productos enviados se registran automáticamente como productos de servicio cuando se cumple la condición siguiente. Los artículos deben pertenecer a un grupo de artículo de servicio con la casilla **Crear prod. servicio** activada. Si los artículos tienen números de serie registrados en la página Líns. seguim. prod., esta información se copiará automáticamente al campo **Nº serie** en la ficha de artículo de servicio al crear artículos de servicio.  
 
@@ -48,7 +48,7 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 >
 > Si un producto es una L.M. y no ha desplegado la L.M., se crea un producto de servicio para aquel basándose en la condición del grupo de productos de servicio y, de manera opcional, en la condición de los números de serie.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Para insertar un gasto de inicio para un producto de servicio
+## Para insertar un gasto de inicio para un producto de servicio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Tareas de servicio** y luego elija el enlace relacionado.
 2. Elija la acción **Hoja de producto**.
@@ -56,7 +56,7 @@ El siguiente procedimiento muestra cómo crear productos de servicio al enviar p
 
     Se insertará una línea de servicio del tipo **Coste** con el gasto de inicio. El gasto de inicio se aplica al producto de servicio seleccionado.
 
-## <a name="block-items-item-variants-or-specific-service-items"></a>Bloquear artículos, variantes de artículos o artículos de servicio específicos
+## Bloquear artículos, variantes de artículos o artículos de servicio específicos
 
 Puede evitar que se utilicen artículos, variantes de artículo o artículos de servicio en transacciones de gestión de servicios, como contratos de servicio, órdenes de servicio y facturas de servicio. Esto puede resultar útil si desea restringir la disponibilidad de algunos artículos o artículos de servicio para fines de servicio, por ejemplo, debido a la interrupción del soporte, stock limitado o acuerdos contractuales.
 
@@ -79,7 +79,7 @@ Además, si tiene contratos de servicio, cotizaciones de contratos de servicio u
 - **Liberar para enviar** o **Registrar** en la página **Orden de servicio**.
 - **Registrar** en la página **Factura de servicio**.
 
-### <a name="block-a-service-item"></a>Bloquear un artículo de servicio
+### Bloquear un artículo de servicio
 
 Para bloquear el uso de un artículo de servicio en transacciones de gestión de servicios, en la página **Tarjeta de artículo de servicio**, en el campo **Bloqueado**, elija una de las siguientes opciones:
 
@@ -107,14 +107,14 @@ También puede ver los elementos de servicio bloqueados aplicando un filtro a lo
 - Artículos de servicio fuera de garantía (informe 5937)
 - Beneficio de servicio (artículos de servicio) (informe 5938)
 
-### <a name="data-upgrade"></a>Actualización de datos
+### Actualización de datos
 
 Esta característica no requiere configuración adicional. Sin embargo, si actualiza su [!INCLUDE [prod_short](includes/prod_short.md)], tenga en cuenta lo siguiente:
 
 - Si tiene artículos, variantes de artículos o plantillas de artículos donde la opción **Ventas bloqueadas** está activada, el campo **Servicio bloqueado** también se activa para esos registros durante la actualización. Esto garantiza que la lógica de bloqueo de ventas existente también se aplique a las transacciones de gestión de servicios.
 - Actualizaciones de datos solo si tiene al menos un elemento de servicio en su empresa, lo que significa que está utilizando la funcionalidad de administración de servicios y necesita la actualización de datos. Si no tiene artículos de servicio, la actualización de datos se omite y la opción **Servicio bloqueado** está desactivada de forma predeterminada para todos los artículos, variantes de artículos y plantillas de artículos.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configurar productos de servicio y componentes de productos de servicio](service-how-setup-service-items.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  

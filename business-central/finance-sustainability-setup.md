@@ -6,59 +6,58 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 04/24/2024
+ms.date: 05/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Configuración de sostenibilidad
+# Configuración de sostenibilidad
 
-Para que el módulo de Sostenibilidad funcione correctamente, primero debe configurar algunos controles e instrucciones básicos relacionados con toda la funcionalidad.  
+Antes de que el módulo de sostenibilidad pueda funcionar correctamente, debe configurar algunos controles e instrucciones básicos relacionados con toda la funcionalidad.
 
-Para configurar un módulo de sostenibilidad, siga los siguientes pasos:  
+Para configurar un módulo de sostenibilidad, siga los pasos:
 
-1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), icono, escriba **Configuración de sostenibilidad** y luego elija el vínculo relacionado.  
-2. En la ficha desplegable **General**, configure los campos obligatorios relacionados con este módulo:   
+1. Seleccione el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") icono, escriba **Configuración de sostenibilidad** y luego seleccione el vínculo relacionado.
+2. En la ficha desplegable **General**, configure los campos obligatorios relacionados con el módulo de sostenibilidad.
 
-|  Campo  |  Descripción  |  
-|--------|--------------| 
-| **Código de unidad de medida de emisiones** | Especifica el código de unidad de medida que se utiliza para registrar la emisión. |
-| **Posiciones decimales emisión** | Especifica el número de decimales que se muestran para las cantidades de emisión. La configuración predeterminada, 2:5, especifica que todas las cantidades se muestran con un mínimo de 2 decimales y un máximo de 5 decimales. También puede introducir un número fijo, como 2, lo que también significa que los importes se muestran con dos decimales. |
-| **País o región obligatorio** | Especifica si el valor de país o región es obligatorio. Puede usar este campo en diarios sin configurarlo, pero puede seleccionarlo si desea obligar a los usuarios a completar el campo antes de registrar. |
-| **Centro de responsabilidad obligatorio** | Especifica si el centro de responsabilidad es obligatorio, ya que el centro de responsabilidad se puede utilizar como una instalación para medir las emisiones basadas en instalaciones. Puede usar este campo en diarios sin configurarlo, pero puede seleccionarlo si desea obligar a los usuarios a completar el campo antes de registrar. |
-| **Cambio de base de cálculo de bloques si existen movimientos** | Especifica si el cambio de base de cálculo en la Categoría de cuenta está bloqueado al momento de la entrada de sostenibilidad, lo que significa que esta fórmula ya se aplicó. |
-| **Habilitar comprobación de errores en segundo plano** | Especifica si está habilitada la comprobación de errores en segundo plano de las líneas del diario de sostenibilidad. |
+    | Campo | Descripción |
+    |-------|-------------|
+    | **Código de unidad de medida de emisiones** | Especifique el código de unidad de medida que se utiliza para registrar las emisiones. |
+    | **Posiciones decimales emisión** | Especifique el número de decimales que se muestran para las cantidades de emisión. El ajuste predeterminado es *2:5*, indica que se muestran un mínimo de dos decimales y un máximo de cinco decimales para todos los importes. También puede introducir un número fijo. Por ejemplo, si introduce *2*, se muestran dos decimales para todos los importes. |
+    | **País o región obligatorio** | Especifique si el valor de país o región es obligatorio. Los usuarios pueden configurar el campo de país o región en los diarios incluso si no selecciona este campo. Sin embargo, al seleccionarlo, requiere que los usuarios configuren el campo de país o región antes de publicar. |
+    | **Centro de responsabilidad obligatorio** | Especifique si el centro de responsabilidad es obligatorio. El centro de responsabilidad se puede utilizar como una instalación, de modo que se puedan medir las emisiones basadas en las instalaciones. Los usuarios pueden configurar el centro de responsabilidad en los diarios incluso si no selecciona este campo. Sin embargo, al seleccionarlo, requiere que los usuarios configuren el centro de responsabilidad antes de publicar. |
+    | **Cambio de base de cálculo de bloques si existen movimientos** | Especifique si los cambios en la base de cálculo (fórmula) a nivel de categoría de cuenta se bloquean en el momento de la entrada de sostenibilidad, cuando la fórmula ya se ha aplicado. |
+    | **Habilitar comprobación de errores en segundo plano** | Especifique si está habilitada la comprobación de errores en segundo plano de las líneas del diario de sostenibilidad. |
 
-> [!NOTE]
-> Después de habilitar o desactivar la **Comprobación de errores en segundo plano** en los diarios, deberá iniciar sesión nuevamente antes de comenzar la nueva configuración.
- 
+    > [!NOTE]
+    > Después de activar o desactivar la comprobación de errores en segundo plano en los diarios, deberá volver a iniciar sesión antes de iniciar la nueva configuración.
 
-3.  En la ficha desplegable **Cálculos**, configure los campos obligatorios relacionados con las fórmulas utilizadas para calcular las emisiones:  
+3. En la ficha desplegable **Cálculos**, configure los campos obligatorios relacionados con las fórmulas que se utilizan para calcular las emisiones.
 
-|  Campo  |  Descripción  |  
-|--------|--------------| 
-| **Posiciones decimales combustible/electricidad** | Especifica el número de decimales que se muestran para los importes de combustible/electricidad. La configuración predeterminada, 2:5, especifica que todas las cantidades se muestran con un mínimo de 2 decimales y un máximo de 5 decimales. También puede introducir un número fijo, como 2, lo que también significa que los importes se muestran con dos decimales. |
-| **Posiciones decimales distancia** | Especifica el número de decimales que se muestran para las mediciones de distancia. La configuración predeterminada, 2:5, especifica que todas las cantidades se muestran con un mínimo de 2 decimales y un máximo de 5 decimales. También puede introducir un número fijo, como 2, lo que también significa que los importes se muestran con dos decimales. |
-| **N.º decimales para importes personalizados** | Especifica el número de decimales que se muestran para los importes personalizados. La configuración predeterminada, 2:5, especifica que todas las cantidades se muestran con un mínimo de 2 decimales y un máximo de 5 decimales. También puede introducir un número fijo, como 2, lo que también significa que los importes se muestran con dos decimales. |
+    | Campo | Descripción |
+    |-------|-------------|
+    | **Posiciones decimales combustible/electricidad** | Especifique el número de decimales que se muestran para los importes de combustible/electricidad. El ajuste predeterminado es *2:5*, indica que se muestran un mínimo de dos decimales y un máximo de cinco decimales para todos los importes. También puede introducir un número fijo. Por ejemplo, si introduce *2*, se muestran dos decimales para todos los importes. |
+    | **Posiciones decimales distancia** | Especifique el número de decimales que se muestran para las mediciones de distancia. El ajuste predeterminado es *2:5*, indica que se muestran un mínimo de dos decimales y un máximo de cinco decimales para todos los importes. También puede introducir un número fijo. Por ejemplo, si introduce *2*, se muestran dos decimales para todos los importes. |
+    | **N.º decimales para importes personalizados** | Especifique el número de decimales que se muestran para los importes personalizados. El ajuste predeterminado es *2:5*, indica que se muestran un mínimo de dos decimales y un máximo de cinco decimales para todos los importes. También puede introducir un número fijo. Por ejemplo, si introduce *2*, se muestran dos decimales para todos los importes. |
 
-4.  Termine la configuración en la ficha desplegable **Informes**, relacionada con la presentación de informes a las autoridades:   
+4. En la ficha desplegable **Informes**, complete la configuración configurando los campos relacionados con la presentación de informes a las autoridades.
 
-|  Campo  |  Descripción  |  
-|--------|--------------| 
-| **Código de unidad de medida de notificación de emisiones** | Especifica el código de unidad de medida que se utiliza para informar las emisiones, ya que puede utilizar diferentes unidades de medida al informar a las autoridades. Este campo no es aplicable a los informes estándar. |
-| **Factor UOM de notificación** | Especifica el factor de unidad de medida que se utiliza para registrar la emisión si utiliza diferentes unidades de medida al informar a las autoridades. |
-| **Precisión de redondeo de emisiones** | Especifica el tamaño del intervalo que se usará al redondear cantidades de emisiones al informar a las autoridades. |
-| **Tipo de redondeo de emisiones** | Especifica cómo el programa redondea una cantidad de emisión mientras informa a las autoridades, usando opciones: Más cercano, Arriba o Abajo. |
+    > [!NOTE]
+    > En la versión 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] no admite informes para ninguna autoridad. Por lo tanto, los campos que están relacionados con la configuración de esta funcionalidad en la ficha desplegable **Informes** están destinados a futuras capacidades de generación de informes. Sin embargo, los partners también pueden utilizar estos campos en versiones localizadas.
 
->[!NOTE]
-> En la versión 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] no admite informes para ninguna autoridad. Entonces, el campo relacionado con la configuración en la ficha desplegable **Informes** se utilizará para capacidades de generación de informes futuras, pero los socios también pueden utilizarla en versiones localizadas.
+    | Campo | Descripción |
+    |-------|-------------|
+    | **Código de unidad de medida de notificación de emisiones** | Especifique el código de unidad de medida que se utiliza para informar de las emisiones, ya que puede utilizar diferentes unidades de medida al informar a las autoridades. Este campo no es aplicable a los informes estándar. |
+    | **Factor UOM de notificación** | Especifique el factor de unidad de medida que se utiliza para registrar la emisión si utiliza diferentes unidades de medida al informar a las autoridades. |
+    | **Precisión de redondeo de emisiones** | Especifique el tamaño del intervalo que se usará al redondear cantidades de emisiones al informar a las autoridades. |
+    | **Tipo de redondeo de emisiones** | Especifique cómo el programa redondea las cantidades de emisiones cuando informa a las autoridades. Las siguientes opciones están disponibles: **Más cercano**, **Hacia arriba** y **Hacia abajo**. |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
+
 [Finanzas](finance.md)  
-[Información general de administración de la sostenibilidad](finance-manage-sustainability.md)    
-[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md)    
-[Cómo registrar emisiones](finance-sustainability-journal.md)  
+[Información general de la administración de la sostenibilidad](finance-manage-sustainability.md)  
+[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md)  
+[Registrar entradas de sostenibilidad](finance-sustainability-journal.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Crear una ficha de proyecto para un proyecto y especificar las tareas
 description: 'Para un proyecto nuevo, cree una ficha de proyecto que contenga tareas y líneas de planificación, como ayuda para administrar el progreso y los presupuestos.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-projects"></a>Crear proyectos
+# Crear proyectos
 
 Cuando inicie un proyecto nuevo, debe crear una ficha de proyecto con tareas de proyecto integradas y líneas de planificación de proyecto, estructuradas en dos niveles.  
 
@@ -24,7 +24,7 @@ La estructura de capas permite dividir el proyecto en tareas más pequeñas y us
 > [!TIP]
 > Elija la acción **Proyecto nuevo** en el área de trabajo **Administrador del proyecto** para iniciar una guía configuración asistida que le lleva por los pasos para crear un proyecto con tareas integradas y líneas de planificación. El procedimiento siguiente describe cómo realizar los pasos manualmente. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Facturar a uno o más clientes por tareas del proyecto
+## Facturar a uno o más clientes por tareas del proyecto
 
 A veces, la parte a la que recibe un servicio es diferente de la parte que paga la factura. Además, en ocasiones es posible que necesites facturar a varios clientes por las tareas del proyecto. En la página **Tarjeta de proyecto**, use el campo **Método de facturación de tareas** para especificar si está facturando a un cliente, o múltiples clientes.
 
@@ -36,7 +36,7 @@ Si factura a varios clientes, puede especificar el cliente que recibirá el serv
 * Agregue información sobre referencias externas para simplificar la comunicación sobre el proyecto.
 * Sobrescriba los términos financieros estándar del proyecto.
 
-## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Facturar a un cliente por varias tareas del proyecto
+## Facturar a un cliente por varias tareas del proyecto
 
 Puede simplificar su proceso de facturación enviando una factura a un cliente para varios proyectos. Agregue líneas de planificación de proyectos de varios proyectos a una factura de ventas de una sola vez. Este proceso es similar a crear una factura de ventas a partir de una línea de planificación de proyecto e ingresar un valor en el campo **Agregar al número de factura de ventas**.
 
@@ -54,7 +54,7 @@ Repita estos pasos si desea agregar otro conjunto de líneas de planificación d
 > * La acción **Obtener líneas de planificación de proyectos** no está disponible en pedidos de venta o cotizaciones de venta.
 > * No puede filtrar por el **Código de envío** o **Número de contacto.** .
 
-## <a name="to-create-a-project-card"></a>Para crear una ficha de proyecto
+## Para crear una ficha de proyecto
 
 Cree una ficha de proyecto y, a continuación, cree las líneas de tarea de proyecto y las líneas de planificación de proyecto para el mismo.
 
@@ -73,7 +73,7 @@ Opcionalmente, marque las acciones del proyecto como bloqueadas utilizando el ca
 |Registro    |Podrá trabajar con las líneas de planificación, pero estará bloqueado el registro para el proyecto. Si elige esta opción, no podrá registrar ningún consumo o ventas relacionados con el proyecto.|
 |Todo  |Todas las acciones están bloqueadas.|
 
-## <a name="to-create-tasks-for-a-project"></a>Para crear tareas para un proyecto
+## Para crear tareas para un proyecto
 
 Una parte clave de la creación de un proyecto es especificar las diversas tareas que conlleva. Para especificar tareas, debe crear una línea por tarea en la ficha desplegable **Tareas** de la página **Ficha de proyecto**. Cada proyecto debe tener al menos una tarea.
 
@@ -84,7 +84,7 @@ Una parte clave de la creación de un proyecto es especificar las diversas tarea
 5. Repita los pasos 3 y 4 para todas las tareas que necesite para el proyecto.
 6. Para especificar las tareas de proyecto con la información sobre otras tareas de proyecto, elija la acción **Copiar tareas de proyecto desde**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
-## <a name="to-create-planning-lines-for-a-project"></a>Para crear líneas de planificación de un proyecto
+## Para crear líneas de planificación de un proyecto
 
 Puede redefinir las nuevas tareas de proyecto como líneas de planificación de proyecto. Una línea de planificación puede capturar la información de un proyecto que desee supervisar. Por ejemplo, puede realizar un seguimiento de los recursos que requiere el proyecto o los productos que se necesitan. Por ejemplo, tiene una tarea para lograr que un cliente apruebe un proyecto. Puede asociar esa tarea con líneas de planificación para productos como reuniones con clientes y asignar un recurso.  
 
@@ -105,7 +105,7 @@ Una línea de planificación de un proyecto puede ser de uno de los siguientes t
 4. En la página **Líneas planificación proyecto**, en una línea nueva, rellene los campos según sea necesario.
 5. Repita los pasos 3 y 4 para todas líneas de planificación que necesita para la tarea de proyecto.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administración de proyectos](projects-manage-projects.md)  
 [Vídeo: Cómo crear un proyecto en Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

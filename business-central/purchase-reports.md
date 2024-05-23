@@ -10,15 +10,15 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-reporting-and-analytics"></a>Informes y análisis de compra
+# Informes y análisis de compra
 
 Los informes de compra permiten a los profesionales de la adquisición y los negocios obtener información y estadísticas sobre las actividades de compra actuales y pasadas.  
 
-## <a name="reports"></a>Informes
+## Informes
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Tareas
+## Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su compra:
 
@@ -26,7 +26,7 @@ Los siguientes artículos describen algunas de las tareas clave para analizar el
 - [Calcular las fechas de compras](purchasing-date-calculation-for-purchases.md)
 - [Ver movimientos de compras](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## <a name="explore-purchase-reports-with-report-explorer"></a>Explorar los informes de compra con el Explorador de informes
+## Explorar los informes de compra con el Explorador de informes
 
 Para obtener una descripción general de los informes disponibles para su compra, elija **Todos los informes** en la página de inicio. Esta acción abre el explorador de roles, que se filtra según las funciones en la opción **Informe y análisis**. En el encabezado **Compras** , elija **Explorar**.
 
@@ -34,7 +34,7 @@ Para obtener una descripción general de los informes disponibles para su compra
 
 Para obtener más información, vaya a [Búsqueda de informes con el explorador de roles](ui-role-explorer.md). 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Análisis ad hoc de datos de compras](ad-hoc-analysis-purchasing.md)  
 [Información general de análisis de compras](purchasing-analytics-overview.md)   

@@ -3,7 +3,7 @@ title: Asignar documentos electrónicos a líneas de pedido de compra con Copilo
 description: Obtenga información sobre cómo utilizar Copilot para asignar documentos electrónicos a líneas de órdenes de compra.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: altotovi
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.collection:
   - get-started
@@ -12,7 +12,7 @@ ms.date: 04/10/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Asignar documentos electrónicos a líneas de pedido de compra con Copilot (versión preliminar)
+# Asignar documentos electrónicos a líneas de pedido de compra con Copilot (versión preliminar)
 
 A medida que los procesos de adquisiciones se vuelven más digitales, la función de documentos electrónicos en Business Central desempeña un papel clave en la automatización de la recepción y el procesamiento de facturas de proveedores. Copilot puede ayudar en este proceso mejorando la asignación y la correspondencia de las facturas de los proveedores con los pedidos de compra. Esto reduce las tareas que consumen mucho tiempo y que normalmente incluirían búsquedas, consultas e introducción de datos exhaustivas. El beneficio se ve agravado por el hecho de que las facturas de los proveedores a menudo no se relacionan exactamente con los pedidos de compra, en cuyo caso Copilot está mejor posicionado para identificar los pedidos de compra correspondientes. Las capacidades de comparación mejoradas benefician particularmente a las organizaciones pequeñas y medianas que necesitan un seguimiento eficiente de documentos para líneas de órdenes de compra. Copilot es el asistente de trabajo con tecnología de IA que impulsa la creatividad y mejora la productividad de los usuarios de Business Central.
 
@@ -30,7 +30,7 @@ Ahora puede actualizar una orden de compra existente en Business Central con la 
 > - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
 > - AI-generated content may be incorrect.-->
 
-## <a name="to-activate-copilot"></a>Para activar Copilot
+## Para activar Copilot  
 
 Si no ha activado Copilot de **Ayuda de correspondencia de documentos electrónicos**, deberá hacerlo manualmente. Para habilitar el copiloto de **Ayuda de correspondencia de documentos electrónicos**, siga estos pasos: 
 
@@ -39,7 +39,7 @@ Si no ha activado Copilot de **Ayuda de correspondencia de documentos electróni
 
 Puede empezar a usar Copilot tan pronto como esté activado. 
 
-## <a name="identify-purchase-orders"></a>Identificar pedidos compra
+## Identificar pedidos compra
 
 Primero, puede identificar los pedidos de compra que puede corresponder automáticamente. Si su **Proveedor** ha configurado el campo **Recibir documento electrónico en** para trabajar con **Pedidos de Compra**, una vez creado el documento electrónico en [!INCLUDE[prod_short](includes/prod_short.md)] (manualmente o desde un punto final externo), [!INCLUDE[prod_short](includes/prod_short.md)] hará lo siguiente:
 
@@ -47,7 +47,7 @@ Primero, puede identificar los pedidos de compra que puede corresponder automát
 Este vínculo será visible en el campo **Documento** de este **Documento electrónico** específico. Si necesita cambiar el **Pedido de compra** vinculado automáticamente, puede hacerlo usando la acción **Actualizar vínculo de pedido de compra** y eligiendo manualmente uno de los pedidos de compra existentes para este proveedor. Puede hacerlo solo antes de hacer coincidir las líneas entre **Documento electrónico** y **Pedido de compra**.  
 2. Si el **Pedido de compra** para este proveedor específico *existe pero no hay ningún número de pedido de compra* en el archivo de **documento electrónico** recibido, si ha cargado este documento manualmente, [!INCLUDE[prod_short](includes/prod_short.md)] permite elegir uno de los pedidos de compra existentes cuando y si cargó este documento manualmente, abriendo la lista **Pedidos de compra** de los pedidos que ha obtenido de proveedores que contienen solo el **Documento electrónico**, donde debe seleccionar **Pedido de compra** que desea y seleccionar **Aceptar**. Si no seleccionó el **Pedido de compra** correcto u obtuvo el **Documento electrónico** automáticamente desde un extremo externo utilizando la **Cola de trabajos**, el nuevo **Documento electrónico** no se vinculará con ningún documento de compra, el **Estado del documento** será **Error** y el **Estado del documento electrónico** en la subpágina **Estado del servicio** será **Error de procesamiento de documento importado**. Para finalizar la vinculación con el **Pedido de compra**, seleccione la acción **Actualizar vínculo de pedido de compra** y elija uno de los pedidos de compra existentes para este proveedor.  
 
-## <a name="map-lines"></a>Asignar líneas
+## Asignar líneas
 
 Copilot le ayuda a hacer coincidir automáticamente líneas de facturas electrónicas con líneas de órdenes de compra y ofrece inteligencia de comparación adicional para mejorar las coincidencias.
 
@@ -101,7 +101,7 @@ Cuando desee ejecutar la comparación del pedido de compra, elija la acción **A
 > [!NOTE]
 > El análisis de precio/coste y la verificación de la cantidad disponible son parte de la actividad de preprocesamiento. 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Información general de documentos electrónicos](finance-edocuments-overview.md)    
 [Usar documentos electrónicos en ventas](finance-how-use-edocuments.md)    

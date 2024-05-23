@@ -3,7 +3,7 @@ title: Acerca de las órdenes de producción
 description: Obtenga información órdenes de producción y cómo se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917'
@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-production-orders"></a>Acerca de las órdenes de producción
+# Acerca de las órdenes de producción
 
 Las órdenes de producción se usan para gestionar la conversión de los materiales adquiridos en productos manufacturados. Las órdenes de producción dirigen el trabajo por los distintos centros de trabajo o de máquina de la planta.  
 
@@ -32,7 +32,7 @@ Las órdenes de producción son los puntos de partida de:
 - El control de la fabricación actual  
 - El seguimiento de la fabricación terminada  
 
-## <a name="production-order-creation"></a>Creación de órdenes de producción
+## Creación de órdenes de producción  
 
 Puede crear órdenes de producción una por una, manualmente, desde la página **Orden producción**, o se pueden generar desde las páginas **Planificación pedido venta** o **Planificación de pedidos**. También puede crear varias órdenes se utiliza la página **Hoja planificación**.  
 
@@ -44,7 +44,7 @@ Puede crear órdenes de producción utilizando información sobre:
 - Centros de máquina  
 - Centros de trabajo  
 
-## <a name="limitations-on-creating-production-orders"></a>Limitaciones en la creación de órdenes de producción
+## Limitaciones en la creación de órdenes de producción  
 
 Las órdenes de producción se reservan automáticamente y se realiza el seguimiento hasta su origen cuando:  
 
@@ -57,18 +57,18 @@ Para obtener más información, vea [Seguimiento de relaciones entre demanda y s
 
 Las órdenes de producción creadas por otros métodos no se reservan automáticamente, ni se realiza su seguimiento.
 
-## <a name="production-order-status"></a>Estado de las órdenes de producción
+## Estado de las órdenes de producción  
 
 El estado de una orden de producción controla su comportamiento en la aplicación. La forma y el contenido de una orden de producción se rigen por el estado de la misma. Las órdenes de producción se muestran en páginas diferentes según sus estados. No puede cambiar el estado de una orden de producción manualmente. Debe usar la función **Cambiar estado** en la orden de producción individual o en la página **Cambiar estado orden prod.**.  
 
-### <a name="simulated-production-order"></a>Orden producción simulada
+### Orden producción simulada  
 
 Una orden de producción simulada es exclusiva porque tiene las características siguientes:  
 
 - Como su nombre lo indica, es una simulación que puede utilizar para cotizaciones y cálculos de costos. Por ejemplo, cuando el departamento de Investigación y Desarrollo quiere obtener una estimación de costes de un artículo propuesto. Una orden de producción simulada sirve como ejemplo de una orden de producción.  
 - No afectan a la planificación de pedidos. La Planificación (MPS y MRP) no tiene en cuenta ni se ve afectada por las órdenes de producción simuladas. Además, una orden de producción simulada no se puede usar como libro, porque deja de existir cuando se cambia su estado.  
 
-### <a name="planned-production-order"></a>Orden producción planificada
+### Orden producción planificada  
 
 Una orden de producción planificada es exclusiva porque tiene las características siguientes:  
 
@@ -78,7 +78,7 @@ Una orden de producción planificada es exclusiva porque tiene las característi
 - Si se generan en planificación, se crea una "planificación de liberación órdenes" sugerida, que contiene la cantidad, la fecha de lanzamiento y la fecha de vencimiento. La lógica del sistema de planificación se basa en el sistema de reposición, las directivas de reaprovisionamiento y los modificadores de pedido con que se encuentra en el proceso de planificación de la demanda neta.  
 - Para conocer sus efectos, observe la carga de cada centro de trabajo o de máquina de la ruta de una orden de producción planificada.  
 
-### <a name="firm-planned-production-order"></a>Orden producción planificada en firme
+### Orden producción planificada en firme  
 
 Una orden de producción planificada en firme es exclusiva porque tiene las características siguientes:  
 
@@ -88,7 +88,7 @@ Una orden de producción planificada en firme es exclusiva porque tiene las cara
 - Si se generan en planificación, se crea una "planificación de liberación órdenes" sugerida, que contiene la cantidad, la fecha de lanzamiento y la fecha de vencimiento. La lógica del sistema de planificación se basa en el sistema de reposición, las directivas de reaprovisionamiento y los modificadores de pedido con que se encuentra en el proceso de planificación de la demanda neta.  
 - Para conocer sus efectos, observe la carga de cada centro de trabajo o de máquina de la ruta de una orden de producción planificada en firme.  
 
-### <a name="released-production-order"></a>Orden de producción lanzada
+### Orden de producción lanzada  
 
 La orden de producción lanzada es exclusiva, porque tiene las características siguientes:  
 
@@ -97,7 +97,7 @@ La orden de producción lanzada es exclusiva, porque tiene las características 
 - En un entorno de fabricación contra pedido (MTO), no es raro crear una orden de producción lanzada en cuanto se introduce el pedido de venta.  
 - El consumo de material y la salida del producto reales se pueden registrar manualmente con una orden de producción lanzada. Además, la baja automática del consumo y la salida del producto sólo tienen lugar con las órdenes de pedido lanzadas.  
 
-### <a name="finished-production-order"></a>Orden producción terminada
+### Orden producción terminada  
 
 Una orden de producción terminada es exclusiva, porque tiene las características siguientes:  
 
@@ -106,7 +106,7 @@ Una orden de producción terminada es exclusiva, porque tiene las característic
 - Las órdenes de producción terminadas se usan para crear informes estadísticos y para posibilitar el seguimiento de los pedidos (de venta, de producción y de compra, por ejemplo). La posibilidad de realizar el seguimiento hasta una orden de producción terminada permite revisar el historial detallado.  
 - Las órdenes de producción terminadas no se pueden modificar nunca.  
 
-## <a name="production-order-execution"></a>Ejecución de las órdenes de producción
+## Ejecución de las órdenes de producción  
 
 Tras crear y programar una orden de producción, se tiene que lanzar a la planta para su ejecución. Durante la ejecución de la orden se registra lo siguiente:  
 
@@ -116,7 +116,7 @@ Tras crear y programar una orden de producción, se tiene que lanzar a la planta
 
 Puede registrar esta información manualmente o por medio de informes automáticos. El método depende de la configuración en el campo Método de lavado del artículo y centro de trabajo.  
 
-### <a name="material-consumption"></a>Consumo de material
+### Consumo de material  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ofrece varias opciones sobre cómo registrar el consumo de material. Por ejemplo, se puede registrar de forma manual, lo que puede ser aconsejable si los componentes se sustituyen con frecuencia o la cantidad de productos rechazados es mayor que la prevista.  
 
@@ -133,7 +133,7 @@ El método de creación de informes retroactivos registra la cantidad real de to
 
 Al actualizar la orden de producción, el método de baja se copia de la ficha del producto. Puesto que el método de baja de cada componente de la orden de producción controla cómo y cuándo se registra el consumo, es importante tener en cuenta que el método de baja de un producto concreto se puede cambiar directamente en la orden de producción. Para obtener más información, consulte [Bajar componentes según la producción de la operación](production-how-to-flush-components-according-to-operation-output.md).
 
-### <a name="production-output"></a>Salida de producción
+### Salida de producción  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] proporciona la capacidad de realizar el seguimiento del tiempo invertido en el trabajo de una orden de producción, además de registrar la cantidad producida. Esta información puede resultar útil para determinar con más precisión los costes de producción. Los fabricantes que utilicen un sistema de costes estándar, pueden registrar la información real para desarrollar estándares más avanzados.  
 
@@ -145,13 +145,13 @@ El método adelantado registra la salida esperada (y el tiempo), que se registra
 
 El método retroactivo registra la salida esperada (y el tiempo), que se registra automáticamente al terminar la orden de producción. Los códigos de conexión de ruta no se tienen en cuenta en la baja hacia atrás de la salida.  
 
-### <a name="posting-consumption-and-output"></a>Registro del consumo y la salida
+### Registro del consumo y la salida  
 
 Puede utilizar cualquier combinación de consumo automático e información registrada manualmente, tanto para el consumo como para la salida. Por ejemplo, si lo desea puede realizar la baja automática hacia adelante de los componentes, pero utilizar el diario de consumo para registrar el rechazo. De igual forma, podría registrar automáticamente la salida y usar el diario de salida para registrar el rechazo del producto principal o el tiempo adicional invertido en la orden.  
 
 Por último, si introduce el consumo y la salida manualmente, debe determinar la secuencia en que va a registrar la información. Puede registrar el consumo en primer lugar y usar un método abreviado para introducir la información, que se basa en la cantidad de salida prevista. Pero, si lo prefiere, puede introducir primero la salida, mediante la función **Desplegar ruta**. A continuación, registraría el consumo en función de la cantidad de salida real.  
 
-### <a name="production-journal"></a>Diario de producción
+### Diario de producción  
 
 El [diario de producción](production-how-to-register-consumption-and-output.md) combina las funciones del diario de consumo y de los diarios de salida en uno solo, al que se puede tener acceso directamente desde una orden de producción lanzada.  
 
@@ -178,7 +178,7 @@ Con todo, el diario de producción difiere de los diarios de consumo y salida en
 
 En el diario de producción, las cantidades de consumo se registran como movimientos de producto negativos, las cantidades de salida se registran como movimientos de producto positivos y los tiempos invertidos se registran como movimientos de capacidad.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Fabricación](production-manage-manufacturing.md)
 [Configuración de fabricación](production-configure-production-processes.md)  
