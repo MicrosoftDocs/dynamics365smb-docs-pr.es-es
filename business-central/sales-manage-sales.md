@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Venta
+# <a name="sales"></a>Venta
 
 Puede crear una factura o un pedido de ventas para registrar el contrato con un cliente para vender determinados productos según términos de entrega y pago determinados.
 
@@ -34,7 +34,7 @@ Para todos los procesos de ventas, puede incorporar un flujo de trabajo de aprob
 
 En las siguientes secciones se indican una serie de tareas con vínculos a los artículos que las describen.
 
-## Introducción a las capacidades de ventas
+## <a name="get-started-with-sales-capabilities"></a>Introducción a las capacidades de ventas
 
 Antes de vender, especifique cómo desea administrar los procesos de venta de su empresa.
 
@@ -43,7 +43,7 @@ Antes de vender, especifique cómo desea administrar los procesos de venta de su
 | Cree una ficha de cliente para cada cliente al que vende.|[Registrar nuevos clientes](sales-how-register-new-customers.md) |
 | Configure cómo realiza las ventas, como precios y descuentos, precios para clientes y grupos de descuentos, vendedores, métodos de envío y agentes. | [Configurar ventas](sales-setup-sales.md) |
 
-## Análisis de ventas
+## <a name="sales-analytics"></a>Análisis de ventas
 
 Esta sección describe las herramientas de análisis que puede usar para obtener información sobre sus datos de venta.
 
@@ -53,7 +53,7 @@ Esta sección describe las herramientas de análisis que puede usar para obtener
 | Realice análisis ad hoc de los datos de venta directamente en las páginas de listas y consultas. | [Crear informes de análisis de ventas](bi-how-create-analysis-views-reports.md) |
 | Explore los informes de ventas incorporados. | [Informes de ventas integrados](sales-reports.md) |
 
-## De presupuesto a pedido a factura de venta
+## <a name="quote-to-order-to-sales-invoice"></a>De presupuesto a pedido a factura de venta
 
 La siguiente tabla describe cómo usar procesos de venta simples.
 
@@ -74,7 +74,7 @@ Si necesita procesos de venta más complejos, la siguiente tabla enumera artícu
 |Facturar a un cliente una vez por varios envíos, combinándolos en una única factura.|[Agrupar envíos en una factura única](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Vender elementos de ensamblaje que no están disponibles actualmente mediante una orden de ensamblado vinculada. El pedido de ensamblado puede suministrar la cantidad total o parcial del pedido de venta.|[Vender productos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## Realizar el picking y enviar
+## <a name="pick-and-ship"></a>Realizar el picking y enviar
 
 La siguiente tabla describe cómo seleccionar artículos para un pedido de venta y enviarlos al cliente.
 
@@ -86,7 +86,7 @@ La siguiente tabla describe cómo seleccionar artículos para un pedido de venta
 |Informar a los clientes las fechas de entrega de los pedidos, mediante el cálculo de la fecha fecha capaz de comprometer o la fecha del neto no comprometido.|[Calcular fechas de compromiso de pedido](sales-how-to-calculate-order-promising-dates.md)|
 | Aprenda cómo rastrear un paquete a partir de un envío de venta registrado. | [Seguir paquetes](sales-how-track-packages.md) |
 
-## Pedidos cancelados, reembolsos y devoluciones
+## <a name="canceled-orders-refunds-and-returns"></a>Pedidos cancelados, reembolsos y devoluciones
 
 La siguiente tabla describe cómo tratar los pedidos cancelados, los reembolsos y las devoluciones de los productos.
 
@@ -95,7 +95,7 @@ La siguiente tabla describe cómo tratar los pedidos cancelados, los reembolsos 
 | Realice una acción en una factura de venta registrada sin abonar para crear automáticamente un abono y para cancelar la factura de venta o regenerarla para poder hacer correcciones. |[Corregir o cancelar facturas de venta sin abonar](sales-how-correct-cancel-sales-invoice.md) |
 | Crea un abono de venta para revertir una factura de venta registrada específica para reflejar qué productos de Customer Returns y el importe de reembolso. |[Procesar devoluciones de ventas o cancelaciones](sales-how-process-sales-returns-cancellations.md) |
 
-## Otros procesos de venta
+## <a name="other-processes-in-sales"></a>Otros procesos de venta
 
 La siguiente tabla describe cómo tratar otros procesos de compra venta.
 
@@ -103,7 +103,7 @@ La siguiente tabla describe cómo tratar otros procesos de compra venta.
 | --- | --- |
 |Resolver la confusión cuando existen dos o más registros para el mismo cliente.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configuración de ventas](sales-setup-sales.md)  
 [Registrar nuevos clientes](sales-how-register-new-customers.md)  

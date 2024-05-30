@@ -142,7 +142,7 @@ Para limitar las publicaciones para el usuario específico:
 3. En el campo **Permitir la publicación desde**, Especifique la fecha de IVA a partir de la cual permite la publicación. No se permite publicar un documento o diario con una fecha de IVA anterior a esta fecha.
 4. En el campo **Permitir la publicación hasta**, especifique la fecha de IVA hasta la cual permite la publicación. No se permite publicar un documento o diario con una fecha de IVA posterior a esta fecha.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Configurar números CIF/NIF para su país o región
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Configurar números CIF/NIF para su país o región
 
 Para ayudar a garantizar que las personas introduzcan números CIF/NIF válidos, puede definir formatos que se usan en los países o regiones con los que mantiene relaciones comerciales. [!INCLUDE[prod_short](includes/prod_short.md)] mostrará un mensaje de error si alguien comete un error o utiliza un formato que sea incorrecto para el país o región.
 
@@ -232,7 +232,7 @@ En las secciones siguientes se describe cómo asignar los grupos de registro de 
     * En la ficha **Recurso**, amplíe la ficha desplegable **Facturación**.  
 3. Elija el grupo de registro de IVA de producto.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Configurar cláusulas para explicar la exención del IVA o los tipos de IVA no estándar
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Configurar cláusulas para explicar la exención del IVA o los tipos de IVA no estándar
 
 Configura una cláusula de IVA para describir información acerca del tipo de IVA que se está aplicando. Las leyes gubernamentales pueden requerir la información. Una vez que haya configurado una cláusula de IVA y la haya asociado a una configuración de registro de IVA, la cláusula de IVA se muestra en los documentos de venta impresos que usan ese grupo de configuración de registro de IVA.
 
@@ -293,7 +293,7 @@ Para configurar los códigos del IVA de importación, realice los pasos siguient
 5. En el campo **Tipo cálculo IVA**, elija **Total**.  
 6. En el campo **Cta. IVA acreditable**, escriba la cuenta que se utilizará para registrar el IVA de importación. Las demás cuentas son opcionales.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Usar el IVA de reversión para las transacciones entre países o regiones de la UE
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Usar el IVA de reversión para las transacciones entre países o regiones de la UE
 
 Algunas empresas deben usar el IVA de reversión al realizar transacciones comerciales con otras empresas. Por ejemplo, esta norma se aplica a compras de países o regiones de la UE y a ventas a países o regiones de la UE.  
 
@@ -303,7 +303,7 @@ Algunas empresas deben usar el IVA de reversión al realizar transacciones comer
 > [!TIP]  
 > Puede comprobar que una empresa está sujeta a IVA en otro país o región de la UE utilizando el servicio de validación de CIF/NIF de la UE. El servicio está disponible gratis en [!INCLUDE[prod_short](includes/prod_short.md)]. Para más información, consulte [Verificar CIF/NIF](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Ventas a países o regiones de la UE
+### <a name="sales-to-eu-countriesregions"></a>Ventas a países o regiones de la UE
 
 El IVA no se calcula para las ventas a empresas sujetas al IVA de otros países o regiones de la UE. Debe declarar el valor de estas ventas por separado en la declaración del IVA.  
 

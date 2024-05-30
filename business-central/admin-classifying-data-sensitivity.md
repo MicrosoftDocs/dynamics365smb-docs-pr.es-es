@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Clasificar campos de confidencialidad de datos
+# <a name="classifying-data-sensitivity-fields"></a>Clasificar campos de confidencialidad de datos
 
 Para clasificar los campos que contienen datos confidenciales o personales, un socio de Microsoft puede establecer la propiedad ```DataClassification``` en los campos. Esto requiere acceso a las tablas de la base de datos, ya sea a través del entorno de desarrollo o ejecutando un script de Windows PowerShell. Para obtener más información, consulte [Clasificar datos](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
@@ -29,7 +29,7 @@ En la tabla siguiente se describen niveles de confidencialidad de datos que pued
 |Confidencial | Los datos comerciales que utiliza para fines de contabilidad u otros fines comerciales, y no desea exponer a otras entidades. Por ejemplo, movimientos contables.|
 |Normal | Datos generales que no pertenecen a ninguna otra categoría.|
 
-## ¿Cómo clasifico mis datos?
+## <a name="how-do-i-classify-my-data"></a>¿Cómo clasifico mis datos?
 
 Clasificar la confidencialidad de muchos campos uno a uno llevaría mucho tiempo. Para ayudar a acelerar el proceso, proporcionamos herramientas que puede usar para clasificar en bloque la confidencialidad de los campos y luego ajustar las clasificaciones para campos específicos. Puede encontrar herramientas en la página Hoja de trabajo de clasificación de datos, que está disponible en el área de trabajo Administración de usuarios, grupos de usuarios y permisos. Es necesario ser administrador del sistema para usar la hoja de trabajo.
  
@@ -45,7 +45,7 @@ Por ejemplo, la página Hoja de trabajo de clasificación de datos le permite ha
 > [!Tip]  
 > Hemos definido clasificaciones de confidencialidad de muestra para las tablas y campos en la empresa de demostración Cronus. Puede utilizar las clasificaciones como inspiración cuando ordene sus propias tablas y campos.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 <!-- [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data) -->
 [!INCLUDE[footer-include](includes/footer-banner.md)]

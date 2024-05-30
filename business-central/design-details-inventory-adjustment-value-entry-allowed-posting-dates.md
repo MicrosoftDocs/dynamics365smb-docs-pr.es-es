@@ -26,7 +26,7 @@ Este mensaje de error indica que el usuario no puede publicar registros para la 
 
 El usuario en este caso tiene un rango de fechas de registro permitidas desde el 11 hasta el 30 de septiembre y, por lo tanto, no puede registrar el movimiento de valor de ajuste con fecha de publicación el 10 de septiembre.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Descripción general de la configuración de la fecha de registro involucrada
+### <a name="overview-of-the-posting-date-setup"></a>Descripción general de la configuración de la fecha de registro involucrada
 
 #### <a name="inventory-periods"></a>Periodos de inventario
 
