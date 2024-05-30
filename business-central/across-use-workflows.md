@@ -3,7 +3,7 @@ title: Usar flujos de trabajo de aprobación
 description: Puede configurar y utilizar flujos de trabajo que conecten tareas de procesos empresariales como la publicación automática o la solicitud y concesión de aprobación para nuevos registros.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
@@ -11,7 +11,7 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="use-approval-workflows"></a>Usar flujos de trabajo de aprobación del producto
+# Usar flujos de trabajo de aprobación del producto
 
 Un flujo de trabajo es una secuencia de tareas que se desencadenan por una acción, una condición o una regla. Los flujos de trabajo generalmente se implementan para integrar la lógica empresarial a una organización, como la separación de funciones, unificar procesos o aplicar procedimientos recomendados.
 
@@ -64,7 +64,7 @@ Antes de empezar a utilizar flujos de trabajo, debe configurar usuarios de flujo
 | Ver los casos del paso del flujo de trabajo con estado de **Completado**. | [Ver instancias de paso de flujo de trabajo archivadas](across-how-to-view-archived-workflow-step-instances.md) |
 | Eliminar un flujo de trabajo de aprobación que está seguro de que no se utilizará más. | [Eliminar flujos de trabajo de aprobación](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Configurar flujos de trabajo de aprobación](across-set-up-workflows.md)  
 [Flujo de trabajo](across-workflow.md)  

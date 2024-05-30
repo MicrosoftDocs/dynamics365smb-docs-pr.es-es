@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="introduction-to-business-central-and-power-bi"></a>Introducción a Business Central y Power BI
+# Introducción a Business Central y Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ Es fácil obtener información sobre los datos de [!INCLUDE[prod_short](includes
 
 ![Power BI y Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Qué puede hacer con Power BI y Business Central
+## Qué puede hacer con Power BI y Business Central
 
 Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI. Algunas cosas se pueden hacer desde Power BI, mientras que otras cosas se hacen desde [!INCLUDE[prod_short](includes/prod_short.md)]. Además, algunas funciones solo están disponibles con [!INCLUDE[prod_short](includes/prod_short.md)] online, no local. La siguiente tabla le ofrece una descripción general.
 
@@ -33,7 +33,7 @@ Hay varias funciones para trabajar con [!INCLUDE[prod_short](includes/prod_short
 
 <a name="onprem"><sup>*</sup></a> Esta función requiere una aplicación registrada para Business Central en Microsoft Azure. Para más información, ver [Registro de Business Central local en Microsoft Entra ID para la integración con otros servicios](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Prepararse para usar Power BI
+## Prepararse para usar Power BI
 
 Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power BI con [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> Las tareas dependen de su rol en su organización y de lo que quiera hacer con Power BI:
 
@@ -49,12 +49,12 @@ Hay algunas tareas que deben realizarse antes de que pueda comenzar a usar Power
 |Habilitar la integración de Power BI<br />(solo local)||![es una marca de verificación.](media/check.png)||[Configuración Business Central local para la integración de Power BI](across-working-with-business-central-in-powerbi.md#setup)|
 
 
-## <a name="next-steps"></a>Pasos siguientes
+## Pasos siguientes
 
 - Si usted es un administrador que necesita configurar Power BI en [!INCLUDE[prod_short](includes/prod_short.md)], vaya a [Habilitar integración de Power BI](admin-powerbi-setup.md).
 - Si Power BI ya está configurado y desea probar las funciones, vaya a [Trabajar con informes de Power BI en Business Central](across-working-with-powerbi.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Información general sobre el análisis](reports-bi-reporting.md)   
 [Realizar un seguimiento de KPI con métricas de Power BI](track-kpis-with-power-bi-metrics.md)   
