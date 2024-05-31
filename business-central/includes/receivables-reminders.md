@@ -20,7 +20,7 @@ Un movimiento de cliente que tenga el campo **En espera** relleno no solicitará
 
 Una vez creados recordatorios y realizadas las modificaciones necesarias, puede imprimir informes de test o enviar los recordatorios, normalmente por correo electrónico.
 
-### <a name="to-create-a-reminder-automatically"></a>Para crear un recordatorio automáticamente
+### Para crear un recordatorio automáticamente
 
 Los recordatorios son parecidos a las facturas. Cuando crea un recordatorio, debe rellenar una cabecera de recordatorio y una o varias líneas de recordatorio. Puede utilizar una función para crear recordatorios para todos los clientes de forma automática.
 
@@ -29,7 +29,7 @@ Los recordatorios son parecidos a las facturas. Cuando crea un recordatorio, deb
 3. En la página **Crear recordatorios**, rellene los campos para definir cómo y para quién se crean los recordatorios.
 4. Elija el botón **Aceptar**.
 
-### <a name="to-create-a-reminder-manually"></a>Para crear un recordatorio manualmente
+### Para crear un recordatorio manualmente
 
 En la página **Recordatorio**, puede rellenar la ficha desplegable **General** manualmente y rellenar las líneas automáticamente.
 
@@ -46,7 +46,7 @@ En la página **Recordatorio**, puede rellenar la ficha desplegable **General** 
 
 8. Elija el botón **Aceptar**.
 
-### <a name="to-replace-reminder-texts"></a>Para cambiar los textos de recordatorio
+### Para cambiar los textos de recordatorio
 
 Existen varias formas de definir el texto que aparecerá en el recordatorio impreso. In algunos casos, quizás le convenga cambiar los textos de comienzo o fin definidos para el nivel actual por los de otro nivel.
 
@@ -55,7 +55,7 @@ Existen varias formas de definir el texto que aparecerá en el recordatorio impr
 3. En la página **Actualizar texto recordatorio**, escriba el nivel deseado en el campo **Nivel recordatorio**.
 4. Elija el botón **Aceptar** para actualizar los textos de comienzo y fin.
 
-### <a name="to-issue-a-reminder"></a>Emitir un recordatorio
+### Emitir un recordatorio
 
 Una vez creados recordatorios y realizadas las modificaciones necesarias, puede imprimir informes de test o enviar los recordatorios.
 
@@ -80,7 +80,7 @@ Por otra parte, la emisión del recordatorio puede afectar a los movimientos de 
 
 El recordatorio está impreso para enviarlo a un correo electrónico específico como un archivo PDF adjunto.
 
-### <a name="to-cancel-an-issued-reminder"></a>Para cancelar un recordatorio emitido
+### Para cancelar un recordatorio emitido
 
 Si se han emitido recordatorios por error, puede cancelarlos antes de enviarlos. Puede hacerlo uno por uno o en lote.
 

@@ -22,7 +22,7 @@ Utilice las páginas de la lista siguiente para empezar a realizar análisis ad 
 - [Movs. clientes](https://businesscentral.dynamics.com/?page=25)
 - [Movs. proveedores](https://businesscentral.dynamics.com/?page=29)
 
-## Escenarios de análisis ad hoc de finanzas
+## Escenarios de análisis ad-hoc en finanzas
 
 Utilice la característica **Análisis de datos** para una verificación rápida de hechos y un análisis ad hoc:
 
@@ -34,12 +34,13 @@ Las siguientes secciones proporcionan ejemplos de escenarios de finanzas en [!IN
 
 | Área | Para... | Abrir esta página en de análisis | Uso de estos campos |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finance (Clientes)](#example-finance-accounts-receivables) | Vea lo que sus clientes le deben, por ejemplo, desglosado en intervalos de tiempo para saber cuándo vencen los importes. | [Movs. clientes](https://businesscentral.dynamics.com/?page=25) | **Nombre del cliente**, **Fecha de vencimiento** e **Importe restante** |
+|[Ejemplo: Finanzas (Cuentas por cobrar)](#example-finance-accounts-receivable) | Vea lo que sus clientes le deben, por ejemplo, desglosado en intervalos de tiempo para saber cuándo vencen los importes. | [Movs. clientes](https://businesscentral.dynamics.com/?page=25) | **Nombre del cliente**, **Fecha de vencimiento** e **Importe restante** |
 | [Finance (Proveedores)](#example-finance-accounts-payable) | Vea lo que debe a sus proveedores, quizás desglosado en intervalos de tiempo para saber cuándo vencen los importes. | [Movs. proveedores](https://businesscentral.dynamics.com/?page=29) | **Nombre del proveedor**, **Tipo de documento**, **N.º de documento**, **Año de fecha de vencimiento**, **Mes de fecha de vencimiento** e **Importe restante**. |
+| [Finanzas (Facturas de ventas por cuenta de mayor)](#example-finance-sales-invoices-by-gl-account) | Vea cómo se distribuyen sus facturas de ventas en las cuentas de mayor desde el plan de cuentas, por ejemplo, desglosadas en intervalos de tiempo para cuando se registraron los montos. | [Movs. contabilidad](https://businesscentral.dynamics.com/?page=20) | **Nombre de cuenta del L/M**, **Código fuente**, **Nombre de la cuenta del L/M**,  **N.º de cuenta de mayor**, **Importe de débito**, **Importe de crédito**, **Fecha de publicación Año**, **Fecha de publicación Trimestre** y **Fecha de publicación Fecha Mes** |
 | [Finance (Extracto de ingresos)](#example-finance-income-statement) | Vea sus ingresos en las cuentas de ingresos del plan de cuentas, por ejemplo, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes. | [Movs. contabilidad](https://businesscentral.dynamics.com/?page=20) | **Número de cuenta de mayor**, **Fecha registro** e **Importe**. |
 | [Finance (total activo)](#example-finance-total-assets) | Vea sus activos en las cuentas de activos del plan de cuentas, por ejemplo, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes. | [Movs. contabilidad](https://businesscentral.dynamics.com/?page=20) | **Número de cuenta de mayor**, **Fecha registro** e **Importe**. |
 
-### Ejemplo: Finance (Cobros)
+### Ejemplo: Finanzas (Cuentas por cobrar)
 
 Para ver lo que sus clientes le deben, quizás desglosado en intervalos de tiempo para saber cuándo vencen los importes, siga estos pasos:
 
@@ -67,12 +68,32 @@ La siguiente imagen muestra el resultado de estos pasos.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Ejemplo de cómo realizar análisis de datos en la página Movimientos de cliente" lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+### Ejemplo: Finanzas (Facturas de ventas por cuenta de mayor)
+
+Para ver cómo se distribuyen sus facturas de ventas en las cuentas de mayor desde el plan de cuentas, por ejemplo, desglosadas en intervalos de tiempo para cuando se registraron los montos, siga estos pasos:
+
+1. Abra la página [Movimientos del libro mayor](https://businesscentral.dynamics.com/?page=20) .
+1. Agregue los campos **Nombre de cuenta de mayor** y **Código fuente** personalizando la página. En el menú **Configuración**, elija **Personalizar**.
+1. Salga del modo de personalización.
+1. Elija :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entrar en el modo de análisis."::: para activar el modo de análisis.
+1. En el menú **Filtros de análisis**, establezca un filtro en el campo **Código fuente**  en **. VENTAS**. Si tiene personalizaciones que agregan otros valores, también puede agregarlos.
+1. En el menú **Columnas**, elimine todas las columnas (seleccione la casilla junto al campo **Buscar**).
+1. Active la opción **Modo dinámico** (ubicada encima del campo **Buscar** de la derecha).
+1. Arrastre los campos **Nombre de cuenta de mayor** y **N.º de cuenta de mayor** a  **Grupos de filas** área.
+1. Arrastre los campos **Importe de débito** y **Importe de crédito** a  **Valores** área.
+1. Arrastre el **Fecha de publicación Año**, **Fecha de publicación Trimestre** y **Fecha de publicación Mes** campos al área **Etiquetas de columna** .
+1. Cambie el nombre de su pestaña de análisis a **Desglose de facturas por cuenta**, o algo que describa este análisis.
+
+La siguiente imagen muestra el resultado de estos pasos.
+
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Ejemplo de cómo realizar un análisis de datos en la página Asientos del Libro mayor (para comprender las contabilizaciones de ventas)." lightbox="media/data-analysis-gl-entries-invoices.png":::
+
 ### Ejemplo: Finance (Extracto de ingresos)
 
 Para ver sus ingresos en las cuentas de ingresos del plan de cuentas, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes, siga estos pasos:
 
 1. Abra la lista [Movs. contabilidad](https://businesscentral.dynamics.com/?page=20) y elija :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entrar en el modo de análisis."::: para activar el modo de análisis.
-1. Vaya al menú **Columnas** y elimine todas las columnas (seleccione la casilla junto al campo **Buscar**).
+1. Vaya al menú **Columnas** y elimine todas las columnas (seleccione la casilla junto al campo **Buscar** a la derecha).
 1. Active la opción **Modo dinámico** (ubicada encima del campo **Buscar** de la derecha).
 1. Arrastre el campo **Número de cuenta de mayor** al área **Grupos de filas** y arrastre **Importe** hacia el área **Valores**.
 1. Arrastre el campo **Mes de fecha de contabilización** y arrástrelo al área **Etiquetas de columna**.
@@ -113,7 +134,7 @@ Para obtener más información, vaya a los siguientes artículos:
 [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md)  
 [Información general del análisis financiero](bi.md)  
 [Descripción general de análisis, inteligencia empresarial e informes](reports-bi-reporting.md)  
-[Información general sobre finanzas](finance.md)   
+[Información general sobre finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

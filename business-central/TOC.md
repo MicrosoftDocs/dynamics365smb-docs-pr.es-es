@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Métodos amortización](fa-depreciation-methods.md)
 ### [Administrar presupuestos para activos fijos](fa-how-manage-budgets.md)
 ### [Adquirir activos fijos](fa-how-acquire.md)
+### [Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md)
 ### [Mantener activos fijos](fa-how-maintain.md)
 ### [Asegurar activos fijos](fa-how-insure.md)
 ### [Transferir, dividir o combinar activos fijos](fa-how-trans-split-combine.md)
 ### [Revalorizar activos fijos](fa-how-revalue.md)
-### [Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md)
 ### [Cancelar o retirar activos fijos](fa-how-dispose-retire.md)
 ### [Solucionar problemas de movimientos activos](fa-troubleshooting-fa-ledger-entries.md)
 

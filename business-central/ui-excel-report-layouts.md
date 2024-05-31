@@ -10,7 +10,7 @@ ms.date: 11/10/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="working-with-microsoft-excel-layouts"></a>Trabajar con diseños de Microsoft Excel
+# Trabajar con diseños de Microsoft Excel
 
 Los diseños de informes de Microsoft Excel se basan en libros de Excel (archivos .xlsx). Con ellos, puede crear informes que incluyen características conocidas de Excel para resumir, analizar y presentar datos como las fórmulas, tablas dinámicas, gráficos dinámicos y más.
 
@@ -18,7 +18,7 @@ Los diseños de informes de Microsoft Excel se basan en libros de Excel (archivo
 
 En este artículo se explican información que es importante que sepa para empezar a usar los diseños de Excel.
 
-## <a name="why-use-excel-layouts"></a>¿Por qué usar diseños de Excel?
+## ¿Por qué usar diseños de Excel?
 
 Beneficios de usar diseños de Excel:
 
@@ -31,14 +31,14 @@ Beneficios de usar diseños de Excel:
   - [Previsión y análisis](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Use complementos instalados e integraciones de aplicaciones, como flujos de Power Automate o OneDrive.
 
-## <a name="get-started"></a>Comenzar
+## Comenzar
 
 La configuración de un diseño de Excel en un informe conlleva básicamente dos tareas:
 
 1. Crear el nuevo archivo de diseño de Excel.
 2. Agregar el nuevo diseño al informe.
 
-## <a name="task-1-create-the-excel-layout-file"></a>Tarea 1: Crear el archivo de diseño de Excel
+## Tarea 1: Crear el archivo de diseño de Excel
 
 Estas son las tres maneras de crear un archivo de diseño de Excel para un informe.
 
@@ -57,13 +57,13 @@ Siga estos pasos para crear un diseño de Excel a partir de cualquier informe, i
 
 Si ya hay un diseño de Excel para un informe, puede usar el diseño existente como punto de partida. Hay dos enfoques para obtener una copia del diseño. Puede exportar el diseño existente desde la página **Diseños de informe**, o bien descargar el diseño desde la página de solicitud de informes. Ambas formas descargan un archivo de diseño de Excel que incluye todas las hojas del archivo existente. La diferencia radica en que cuando lo descarga desde la página de solicitud, el diseño incluye datos reales. (Los datos no son necesarios, pero ayudan a la hora de diseñar el diseño).
 
-#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Enfoque 1: Exportar el diseño desde la página **Diseños de informe**
+#### Enfoque 1: Exportar el diseño desde la página **Diseños de informe**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Seleccione el diseño de Excel de la lista y luego elija la acción **Exportar diseño** desde la parte superior de la página.
 3. Abra el archivo en Excel, realice los cambios y después guarde el archivo.
 
-#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Enfoque 2: Descargar el diseño de la página de solicitud de informes
+#### Enfoque 2: Descargar el diseño de la página de solicitud de informes
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. En la página **Diseños de informe**, elija cualquier diseño para el informe y, a continuación, elija la acción **Ejecutar informe**.
@@ -76,7 +76,7 @@ Este es el método más avanzado de crear un diseño de informe de Excel. Como r
 
 ---
 
-## <a name="task-2-add-the-excel-layout-to-the-report"></a>Tarea 2: Agregar el diseño de Excel al informe
+## Tarea 2: Agregar el diseño de Excel al informe
 
 Una vez que tenga el archivo de diseño de Excel, la siguiente tarea es agregarlo como un nuevo diseño para el informe.
 
@@ -106,7 +106,7 @@ Una vez que tenga el archivo de diseño de Excel, la siguiente tarea es agregarl
 3. Report metadata 
 -->
 
-## <a name="understanding-excel-layouts"></a>Comprender los diseños de Excel
+## Comprender los diseños de Excel
 
 Hay algunas cosas que debe saber o tener en cuenta cuando cree o introduzca cambios en los diseños de Excel. Todo diseño de Excel debe incluir dos elementos: una hoja de **Datos** y una tabla de **Datos**. Estos elementos forman la base del diseño al definir los datos empresariales de Business Central con los que se puede trabajar. Puede considerar la hoja de **Datos** como un tipo de contrato entre el diseño y los datos empresariales. Usará estos datos como origen de cálculos y visualizaciones que desea presentar en otras hojas.
 
@@ -114,7 +114,7 @@ Hay algunos requisitos específicos para la estructura del libro de Excel. Si no
 
 [![Muestra los diferentes elementos de un diseño de Excel.](media/excel-layout-callouts-2.png)](media/excel-layout-callouts-2.png#lightbox)
 
-|N.º|Elemento|Descripción|Obligatoria|
+|Nº|Elemento|Descripción|Obligatoria|
 |---|-------|----|---|
 |1|Hoja **Datos**|<ul><li>Debe tener el nombre **Datos**.</li><li>Solo puede incluir una tabla, que debe tener el nombre **Datos**.</li></ul>|![Es obligatorio](media/check.png) | 
 |2|Tabla **Datos**|<ul><li>Debe tener el nombre **Datos**.</li><li>Debe tener al menos una columna.</li><li>Solo puede incluir columnas que están en el conjunto de datos del informe.</li><li>Debe comenzar en la primera celda **A1** de la hoja de **Datos**.</li></ul>|![Es obligatorio](media/check.png)|
@@ -128,7 +128,7 @@ En resumen, esto es lo que debe y no debe hacer en la hoja de **Datos**:
 - No agregue columnas a menos que estén incluidas en el conjunto de datos del informe.
 - Puede colocar las hojas en cualquier orden, con la hoja de **Datos** en primer o último lugar.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de diseños de informe](ui-manage-report-layouts.md)  
 [Cambiar el diseño de informe actual](ui-how-change-layout-currently-used-report.md)  

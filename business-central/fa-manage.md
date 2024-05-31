@@ -14,7 +14,33 @@ ms.custom: bap-template
 
 # Administrar activos fijos
 
-La funcionalidad de activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y ayuda a garantizar que su depreciación sea correcta. También le permite realizar un seguimiento de los costes de mantenimiento, gestionar las pólizas de seguros, registrar transacciones de activos y generar diversos informes y estadísticas.
+La funcionalidad de activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y ayuda a garantizar que su depreciación sea correcta. También le ayuda a realizar un seguimiento de los costos de mantenimiento, administrar pólizas de seguro, publicar transacciones de activos fijos y generar diversos informes y estadísticas.
+
+## ¿Qué es un activo fijo?
+
+Los activos fijos se diferencian de otros artículos de su almacén. Un activo fijo, también conocido como activo de capital, es una propiedad, planta o equipo tangible (PP&E) que usted posee o administra con la expectativa de que continuará ayudando a generar ingresos. Un activo es fijo cuando es un artículo que su empresa no consumirá, venderá ni convertirá en efectivo durante el próximo año calendario. Los activos fijos son diferentes de los activos corrientes, que están en efectivo o están programados para convertirse en efectivo dentro de los próximos 12 meses. Los activos fijos también difieren de su inventario, porque el inventario generalmente se consume en poco tiempo.
+
+## Tipos de activos fijos
+
+Las empresas suelen invertir en algunos tipos de activos fijos. Algunos ejemplos son:
+
+- Edificios e instalaciones
+- Equipos y software informáticos.
+- Muebles y accesorios
+- Maquinaria
+- Vehículos
+
+## Comprender la contabilidad de activos fijos
+
+La contabilidad de activos fijos significa mantener registros financieros precisos sobre sus activos de capital. Estos registros incluyen detalles sobre las cinco etapas del ciclo de vida de un activo. Después de su compra inicial, el ciclo de vida de cada activo fijo incluye al menos tres de las siguientes etapas:
+
+- Adquisición: Agrega un nuevo activo fijo a sus libros.
+- Depreciación: registra la disminución periódica del valor de un activo, que utiliza un método de depreciación para calcular. Para obtener más información, vaya a [Cálculo de depreciación de FA](LocalFunctionality/India/FA_Depreciation.md).
+- Revaluación: registra una evaluación del valor justo de mercado actual de un activo. Para obtener más información, vaya a [Revaluar activos fijos](fa-how-revalue.md).
+- Deterioro: Se registra una reducción en el valor debido a hechos o circunstancias.
+- Enajenación: Usted vende, desecha o utiliza otra forma de disponer de un activo al final de su vida útil.
+
+Las auditorías también se incluyen en los controles detallados de los registros contables de su empresa después del cierre de los libros del ejercicio financiero. Ya sean internas o externas, en las auditorías es posible que notes inconsistencias o diferencias entre tus notas y el estado real de tus activos. Las auditorías promueven la transparencia en sus activos y contabilidad si está perdiendo más dinero del previsto.
 
 ## Resumen en vídeo
 
@@ -61,7 +87,7 @@ Para cada activo fijo debe configurar una ficha que contiene información sobre 
 
 Para realizar un seguimiento de las amortizaciones de activos y otras transacciones financieras relacionadas con los activos, configure uno o varios libros de amortización para cada uno. Hay unos cuantos pasos para depreciar los activos:
 
-1. Ejecute un informe para calcular amortizaciones periódicas.
+1. Ejecute un informe que calcule la depreciación periódica.
 1. Rellene un diario con las entradas resultantes.
 1. Registre el diario.
 
@@ -95,10 +121,19 @@ Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de
 | Ver movimientos de venta/baja. | [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vea valores de disposición proyectados. | [Ver valores venta/baja previstos](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
+## Consejos para mejorar la contabilidad de sus activos fijos
+
+Hay algunas cosas que puede implementar en su estrategia contable para activos fijos que pueden ayudarlo a maximizar sus ganancias.
+
+- Establecer un umbral de capitalización. Cuando compra un artículo, determine una cantidad fija para la capitalización. El monto ayuda a garantizar que sus libros contables sean consistentes y facilita que usted y su equipo detecten errores contables.
+- Reevaluar el ciclo de vida del equipo. Es importante estimar correctamente el período de tiempo que puede utilizar sus activos fijos para su propósito original. Debido a que la contabilidad y la depreciación dependen de estimaciones precisas del ciclo de vida, reevalúe cuando sea necesario porque podría cambiar con el tiempo.
+- Etiqueta tus activos. Es esencial realizar un seguimiento y etiquetar sus activos durante todo su ciclo de vida porque muchos factores pueden afectar su valor. El etiquetado ayuda a rastrear sus artículos a lo largo de las etapas de su ciclo de vida y ayuda a prevenir robos, eliminar extravíos y respaldar las estadísticas financieras.
+- Automatice la información con el software de contabilidad de activos fijos. La automatización de las actividades manuales para realizar un seguimiento de sus datos con un software de contabilidad de activos fijos facilita la finalización de los procesos. La protección con contraseña puede ayudar a proporcionar acceso sólo a las personas que lo necesitan y están capacitadas para ello.
+
 ## Consulte también
 
 [Configuración de activos fijos](fa-setup.md)  
-[Visión general del análisis de activos fijos](fa-analytics-overview.md)  
+[Información general de los análisis de activos fijos](fa-analytics-overview.md)  
 [Información general sobre finanzas](finance.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-supply-planning"></a>Detalles de diseño: Planificación de aprovisionamiento
+# Detalles de diseño: Planificación de aprovisionamiento
 
 En esta sección se proporciona información técnica detallada de los conceptos y los principios que se usan en las características de planificación de suministros en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -21,13 +21,13 @@ Los artículos explican cómo funciona el sistema de planificación:
 * Describe la lógica del mecanismo central, que es el equilibrio de la oferta.
 * Explicar cómo utilizar las políticas de reordenación en la planificación de inventario  
 
-## <a name="in-this-section"></a>En esta sección
+## En esta sección  
 
 [Detalles de diseño: Conceptos centrales del sistema de planificación](design-details-central-concepts-of-the-planning-system.md)  
 [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Detalles de diseño: Equilibrio de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md)  
-[Detalles de diseño: Gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)  
-[Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)  
+[Detalles de diseño: equilibrio de oferta y demanda](design-details-balancing-demand-and-supply.md)  
+[Detalles de diseño: gestión de directivas de reaprovisionamiento](design-details-handling-reordering-policies.md)  
+[Detalles de diseño: parámetros de planificación](design-details-planning-parameters.md)  
 [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)  
 [Detalles del diseño: Planificación con o sin almacenes](production-planning-with-without-locations.md)  
 [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md)

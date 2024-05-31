@@ -10,7 +10,7 @@ author: jswymer
 ms.service: dynamics365-business-central
 ---
 
-# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>Preguntas frecuentes sobre el texto de marketing de productos impulsado por IA (versión preliminar) con Copilot
+# Preguntas frecuentes sobre el texto de marketing de productos impulsado por IA (versión preliminar) con Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -18,7 +18,7 @@ Este artículo usa preguntas y respuestas para explicar aspectos importantes sob
 
 ## [General](#tab/general)
 
-### <a name="what-is-copilot"></a>¿Qué es Copilot?
+### ¿Qué es Copilot?
 
 Copilot proporciona sugerencias de texto generadas por IA para artículos en Business Central. Está destinado a los usuarios que escriben texto de marketing para artículos para ayudarlos a producir contenido atractivo y convincente. Algunas principales ventajas son:
 
@@ -28,7 +28,7 @@ Copilot proporciona sugerencias de texto generadas por IA para artículos en Bus
 
 Los usuarios deben considerar el texto generado por IA como una sugerencia que debe revisarse y editarse para garantizar su precisión antes de que esté disponible públicamente.
 
-### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>¿Por qué Copilot no está disponible para texto de marketing en mis artículos en Business Central?
+### ¿Por qué Copilot no está disponible para texto de marketing en mis artículos en Business Central?
 
 Para que Copilot esté disponible, se deben cumplir los siguientes requisitos:
 
@@ -45,21 +45,21 @@ Para que Copilot esté disponible, se deben cumplir los siguientes requisitos:
 
    Para obtener más información, vaya a [Aceptar o rechazar los términos y condiciones de versión preliminar y privacidad para todos los usuarios](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>¿Copilot está disponible para versión preliminar en Business Central local?
+### ¿Copilot está disponible para versión preliminar en Business Central local?
 
 No, no se admite actualmente en Business Central local.
 
-### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>¿Cómo funciona Copilot, de dónde viene el texto sugerido?
+### ¿Cómo funciona Copilot, de dónde viene el texto sugerido?
 
-Copilot utiliza [el servicio Azure OpenAI de Microsoft](/azure/cognitive-services/openai/overview) para acceder a potentes modelos de lenguaje que analizan y generan lenguaje natural. Estos modelos han sido entrenados en un amplio cuerpo de conjuntos de datos de texto. Como resultado, Copilot puede generar respuestas sugeridas y personalizadas en inglés basadas en una cantidad mínima de datos de entrada, como los atributos, la categoría o la descripción de un artículo. 
+Copilot utiliza [el servicio OpenAI Azure](/azure/cognitive-services/openai/overview) de Microsoft para acceder a potentes modelos de lenguaje que analizan y generan lenguaje natural. Estos modelos han sido entrenados en un amplio cuerpo de conjuntos de datos de texto. Como resultado, Copilot puede generar respuestas sugeridas y personalizadas en inglés basadas en una cantidad mínima de datos de entrada, como los atributos, la categoría o la descripción de un artículo. 
 
-### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>¿Cuál es la calidad del texto sugerido por Copilot?
+### ¿Cuál es la calidad del texto sugerido por Copilot?
 
 Debido a que la tecnología subyacente detrás de Copilot utiliza IA que ha sido entrenada en una amplia gama de orígenes, el contenido generado no siempre es real o adecuado. Algunas sugerencias pueden incluso incluir contenido cuestionable o inapropiado. Es su responsabilidad revisar y editar las sugerencias generadas para asegurarse de que sean precisas y apropiadas.
 
 Para obtener información sobre sugerencias inapropiadas, vaya a [¿Qué se hace con las sugerencias de texto abusivas y dañinas?](/dynamics365/business-central/ai-faq?&tabs=oversight#whats-done-about-abusive-and-harmful-text-suggestions).
 
-### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>¿Cómo puedo mejorar las sugerencias que recibo de Copilot?
+### ¿Cómo puedo mejorar las sugerencias que recibo de Copilot?
 
 Hay algunas cosas que puede hacer para aprovechar al máximo las sugerencias de Copilot:
 
@@ -70,19 +70,19 @@ Hay algunas cosas que puede hacer para aprovechar al máximo las sugerencias de 
 
 Para obtener más información, vaya a [Mejorar y adaptar las sugerencias de texto](item-marketing-text.md#improve-and-tailor-text-suggestions).
 
-### <a name="what-if-im-not-satisfied-with-the-generated-text"></a>¿Qué pasa si no estoy satisfecho con el texto generado?
+### ¿Qué pasa si no estoy satisfecho con el texto generado?
 
 Para ayudarnos a mejorar el texto, seleccione **¿Es una buena sugerencia?** en la página **Crear con Copilot**, que puede responder con un pulgar hacia arriba (Me gusta) o un pulgar hacia abajo (Necesita mejorar).
 
 ![Muestra una tarjeta de producto con panel de texto de marketing](media/create-with-copilot-window-feedback.png)
 
-### <a name="can-admins-disable-copilot-if-so-how"></a>¿Pueden los administradores deshabilitar Copilot? Si es así, ¿cómo?
+### ¿Pueden los administradores deshabilitar Copilot? Si es así, ¿cómo?
 
 Business Central ofrece a los administradores dos formas de desactivar Copilot en la versión preliminar:
 
-- No aceptar el aviso de privacidad de Azure OpenAI para todos los usuarios.
+- No está de acuerdo con el aviso de privacidad de Azure OpenAI para todos los usuarios.
 
-  O
+  o
 
 - Desactivar la característica **Crear descripciones de productos con tecnología de IA con Copilot** en la página **Administración de características**.
 
@@ -90,29 +90,29 @@ Para obtener más información, vaya a [Configurar texto de marketing de artícu
 
 ## [Legitimidad](#tab/fairness)
 
-### <a name="does-copilot-work-with-languages-other-than-english"></a>¿Copilot trabaja con otros idiomas además del inglés?
+### ¿Copilot trabaja con otros idiomas además del inglés?
 
 Actualmente, Copilot solo admite inglés. Es posible que se devuelvan respuestas inexactas cuando los usuarios conversan con el sistema en idiomas distintos al inglés.
 
 ## [Supervisión humana](#tab/oversight)
 
-### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>¿Qué se ha hecho con las sugerencias de texto abusivas y dañinas?
+### ¿Qué se ha hecho con las sugerencias de texto abusivas y dañinas?
 
-El servicio Azure OpenAI almacena indicaciones y finalizaciones del servicio para supervisar el uso abusivo y desarrollar y mejorar la calidad de los sistemas de administración de contenido de Azure OpenAI. [Obtén más información sobre nuestra gestión y filtrado de contenido.](/azure/cognitive-services/openai/concepts/content-filter)
+El servicio Azure OpenAI almacena indicaciones y finalizaciones del servicio para monitorear el uso abusivo y desarrollar y mejorar la calidad de los sistemas de administración de contenido de Azure OpenAI. [Obtén más información sobre nuestra gestión y filtrado de contenido.](/azure/cognitive-services/openai/concepts/content-filter)
 
-Los empleados autorizados de Microsoft pueden acceder a sus datos de solicitud y finalización que han activado nuestros sistemas automatizados con el fin de investigar y comprobar posibles abusos; para los clientes que han implementado Azure OpenAI Service en la Unión Europea, los empleados autorizados de Microsoft estarán ubicados en la Unión Europea. Estos datos pueden utilizarse para mejorar nuestros sistemas de gestión de contenidos. En caso de que se confirme una infracción de la directiva, es posible que le pidamos que tome medidas inmediatas para remediar el problema y evitar más abusos. Si no se soluciona el problema, es posible que se suspenda o cancele el acceso a los recursos de Azure OpenAI.
+Los empleados autorizados de Microsoft pueden acceder a sus datos de notificación y finalización que han activado nuestros sistemas automatizados con el fin de investigar y verificar posibles abusos; Para los clientes que han implementado el servicio Azure OpenAI en la Unión Europea, los empleados autorizados de Microsoft estarán ubicados en la Unión Europea. Estos datos pueden utilizarse para mejorar nuestros sistemas de gestión de contenidos. En caso de que se confirme una infracción de la directiva, es posible que le pidamos que tome medidas inmediatas para remediar el problema y evitar más abusos. Si no se soluciona el problema, es posible que se suspenda o cancele el acceso a los recursos de Azure OpenAI.
 
-Para obtener más información, consulte [Datos, privacidad y seguridad para Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
+Para obtener más información, consulte [Datos, privacidad y seguridad para Azure OpenAI Servicio](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>¿Puedo optar por no participar en el proceso de registro y revisión humana?
+### ¿Puedo optar por no participar en el proceso de registro y revisión humana?  
 
-Como parte de proporcionar las versiones preliminares de Azure OpenAI, Microsoft procesará y almacenará los Datos del cliente enviados al servicio, así como el Contenido de salida, con el fin de supervisar y prevenir usos o resultados abusivos o dañinos del servicio; y desarrollar, probar y mejorar capacidades diseñadas para prevenir el uso abusivo y/o resultados dañinos del servicio. 
+Como parte de proporcionar las vistas previas de Azure OpenAI , Microsoft procesará y almacenará los datos del cliente enviados al servicio, así como el contenido de salida, con el fin de monitorear y prevenir usos o salidas abusivos o dañinos del servicio; y para desarrollar, probar y mejorar capacidades diseñadas para evitar el uso abusivo o resultados dañinos del servicio. 
 
 El personal autorizado de Microsoft puede revisar los datos que han activado nuestros sistemas automatizados para investigar y comprobar posibles abusos, y puede participar en una muestra aleatoria limitada de términos que no están marcados por nuestros sistemas automatizados para garantizar que los sistemas funcionen correctamente. El personal autorizado de Microsoft también puede acceder y usar estos datos para mejorar nuestros sistemas que supervisan y previenen usos o resultados abusivos o dañinos del servicio. Obtenga más información sobre [términos de versión preliminar](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
 ## [Privacidad](#tab/privacy)
 
-### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>¿Qué datos recopila la capacidad? ¿Cómo se usan los datos?
+### ¿Qué datos recopila la capacidad? ¿Cómo se usan los datos?
 
 La capacidad recopila su respuesta a la pregunta **¿Es una buena sugerencia?** en la página **Crear con Copilot**, que puede responder con un pulgar hacia arriba (Me gusta) o un pulgar hacia abajo (Necesita mejorar).
 
@@ -122,7 +122,7 @@ Usaremos estos datos para evaluar y mejorar la calidad de la capacidad. Más inf
 
 ---
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general sobre el texto de marketing de productos impulsado por IA con Copilot](ai-overview.md)  
 [Configurar texto de marketing de productos impulsado por IA con Copilot como administrador](enable-ai.md)  

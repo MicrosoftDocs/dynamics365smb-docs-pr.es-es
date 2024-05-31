@@ -9,7 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="batch-post-output-and-run-times"></a>Registrar por lotes el resultado y los tiempos de ejecución
+# Registrar por lotes el resultado y los tiempos de ejecución
 
 La cantidad de salida representa el trabajo en curso en términos de cantidad terminada y capacidad utilizada del centro de trabajo o de máquina.
 
@@ -24,7 +24,7 @@ Puede usar el diario de salida para:
 
 La página **Diario de producción** le permite hacer las mismas tareas que en la página **Diario de salida**, y también hacer tareas de contabilización de consumo. Para obtener más información, consulte [Registrar el consumo y la salida de una línea de orden de producción lanzada](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Para registrar cantidades de salida y/o registrar tiempos de ejecución en una o varias líneas de la orden de producción
+## Para registrar cantidades de salida y/o registrar tiempos de ejecución en una o varias líneas de la orden de producción
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario salida**, y luego elija el enlace relacionado.  
 2. Rellene los campos con los datos de las órdenes de producción y los datos de salida y/o tiempo de ejecución. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -38,7 +38,7 @@ La página **Diario de producción** le permite hacer las mismas tareas que en l
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Registrar el material de rechazo manualmente](production-how-to-post-scrap.md)
 [Revertir el registro de la salida](production-how-to-reverse-output-posting.md)

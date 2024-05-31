@@ -19,10 +19,10 @@ En la tabla siguiente se muestran varias formas de introducir fechas y horas y c
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|11/mes actual/año actual 12:00:00|
-|1112 12|11/12/año actual 12:00:00|
+|1112 12|11-12-año actual 12:00:00|
 |h u hoy|fecha de hoy 00:00:00|
 |h hora|fecha de hoy hora real|
-|h 10:30|fecha de hoy 10:30:00|
+|t 10:30|fecha de hoy 10:30:00|
 |h 3:3:3|fecha de hoy 03:03:03|
 |l o fecha de trabajo|la fecha de trabajo 00:00:00|
 |l o lunes|Lunes de la semana actual 00:00:00|

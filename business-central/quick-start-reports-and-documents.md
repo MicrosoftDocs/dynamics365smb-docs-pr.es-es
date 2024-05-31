@@ -1,21 +1,22 @@
 ---
-title: Inicio rápido de salida de documentos e informes básicos
+title: Inicio rápido para la producción de informes y documentos básicos
 description: 'Business Central ofrece plantillas incorporadas para informes y documentos, con muchas opciones de personalización para adaptarlas a las necesidades de su empresa.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
-ms.date: 08/15/2022
-ms.author: bholtorf
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a>Inicio rápido de salida de documentos e informes básicos
+# Inicio rápido para la producción de informes y documentos básicos
 
 Para adaptar [!INCLUDE[prod_short](includes/prod_short.md)] a las necesidades de su empresa, configure y utilice informes y documentos personalizados adecuados a los procesos e identidad visual de su negocio.
 
-## <a name="add-your-company-logo-to-documents"></a>Agregar el logotipo de su empresa a documentos
+## Agregar el logotipo de su empresa a documentos
 
 [!INCLUDE[prod_short](includes/prod_short.md)]tiene plantillas configuradas para usar el logotipo de su empresa para ahorrarle tiempo al personalizar documentos como facturas, pedidos y estados de cuenta.
 
@@ -23,9 +24,9 @@ Para adaptar [!INCLUDE[prod_short](includes/prod_short.md)] a las necesidades de
 2. Elija la acción **Imagen** y, a continuación, seleccione **Elegir**.
 3. Seleccione el archivo de imagen en su dispositivo.
 
-Puede ver las instrucciones anteriores en [este vídeo de YouTube](https://www.youtube.com/watch?v=AatXbKF1NGg). Una vez que la imagen aparece en el campo **Imagen**, puede cerrar la página **Información empresa**.
+Después de que la imagen se muestre en el campo **Imagen**, puede cerrar la página **Información de la empresa** .
 
-## <a name="run-reports"></a>Ejecutar informes
+## Ejecutar informes
 
 Los informes organizan la información procedente de diferentes orígenes en [!INCLUDE[prod_short](includes/prod_short.md)] y la presentan de una forma legible que puede imprimirse o compartirse digitalmente con facilidad. Los informes se pueden encontrar en las páginas a las que están asociados contextualmente. Por ejemplo, la página **Artículos** contiene informes relacionados con los niveles de inventario, las compras y las ventas, entre otros.
 
@@ -37,7 +38,7 @@ Los informes organizan la información procedente de diferentes orígenes en [!I
 
 Obtenga más información sobre el filtrado de datos, la programación de informes y mucho más en [Ejecutar e imprimir informes](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Guardar los informes como documentos PDF, Excel o Word
+## Guardar los informes como documentos PDF, Excel o Word
 
 Para compartir rápidamente los informes, puede guardar informes de [!INCLUDE[prod_short](includes/prod_short.md)] en documentos PDF, de Microsoft Excel o Microsoft Word.
 
@@ -46,7 +47,7 @@ Para compartir rápidamente los informes, puede guardar informes de [!INCLUDE[pr
 3. Seleccione el tipo de archivo y, a continuación, elija **Aceptar**.
 r El archivo de informe generado se guarda automáticamente en la carpeta de descargas de su navegador.
 
-### <a name="change-report-and-document-layouts"></a>Modificar los diseños de los informes y documentos
+### Modificar los diseños de los informes y documentos
 
 [!INCLUDE[prod_short](includes/prod_short.md)] viene con muchos diseños incorporados para sus informes y otros documentos generados, como las facturas de venta. Puedes usar aplicaciones como Microsoft Word o Excel para editar las plantillas de diseño para documentos e informes, como se describe en el siguiente ejemplo:
 
@@ -63,7 +64,7 @@ r El archivo de informe generado se guarda automáticamente en la carpeta de des
 
 Obtenga más información sobre cómo adaptar los informes y documentos a las necesidades de su empresa en [Diseños de informes y documentos](ui-manage-report-layouts.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Usar informes en el trabajo diario](reports-use-reports.md)  
 [Informes disponibles en [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
