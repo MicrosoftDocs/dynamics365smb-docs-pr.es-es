@@ -11,20 +11,20 @@ ms.date: 03/13/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Cobrar saldos pendientes
+# <a name="collect-outstanding-balances"></a>Cobrar saldos pendientes
 
 Gestionar cobros incluye comprobar si los importes vencidos se pagan puntualmente. Si los clientes tienen pagos vencidos, puede empezar enviando el informe de **Extracto de cliente** como recordatorio. También puede emitir recordatorios.
 
 Usar recordatorios para avisar a los clientes que tienen importes vencidos. También puede usar recordatorios para calcular intereses o comisiones e incluirlos en el recordatorio. Utilice documentos de interés si desea cargar a los clientes intereses o comisiones sin recordarles que tienen importes vencidos.
 
-## Extractos
+## <a name="statements"></a>Extractos
 
 Desde la tarjeta del cliente, puede crear un extracto con las transacciones de ese cliente con usted. Luego, puede generar un archivo PDF y enviarlo al cliente. Alternativamente, use el informe **Extracto de cliente** para enviar a sus clientes una descripción general de su negocio con usted. 
 
 > [!TIP]
 > Si es necesario, puede enviar el extracto a Excel para realizar cambios.  
 
-### Enviar el informe de extracto del cliente
+### <a name="to-send-the-customer-statement-report"></a>Enviar el informe de extracto del cliente
 
 1. Elija el icono ![Bombilla que abre la función Dígame 10.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Extracto del cliente** y luego elija el enlace relacionado.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,11 +33,11 @@ Desde la tarjeta del cliente, puede crear un extracto con las transacciones de e
 > [!NOTE]
 > Si usa varias divisas, el informe de Extracto de cliente siempre se imprime en la divisa del cliente. La última fecha de periodo de un extracto también se usa como la fecha del extracto y la fecha de vencimiento, si el vencimiento está incluido.
 
-## Recordatorios
+## <a name="reminders"></a>Recordatorios
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Cargos financieros
+## <a name="finance-charges"></a>Cargos financieros
 
 Si un cliente no paga en la fecha de vencimiento, puede calcular automáticamente intereses y añadirlos a los importes vencidos en la cuenta del cliente. Puede informar a los clientes de los cargos añadidos enviando documentos de interés.  
 
@@ -52,7 +52,7 @@ Después de crear los documentos de interés, puede modificarlos. El texto que a
 
 Después de crear documentos de interés y de realizar las modificaciones necesarias, puede imprimir informes de test o emitir los documentos de interés, normalmente por correo electrónico.
 
-### Para crear un documento de interés manualmente
+### <a name="to-create-a-finance-charge-memo-manually"></a>Para crear un documento de interés manualmente
 
 Los documentos de interés son parecidos a las facturas. Puede rellenar la cabecera manualmente y que el sistema rellene las líneas, o bien crear los documentos de interés para todos los clientes de forma automática.
 
@@ -65,7 +65,7 @@ Los documentos de interés son parecidos a las facturas. Puede rellenar la cabec
     > Aunque están en la lista, seleccionando **Pago** y **Abono** como **Tipo de Documento** los filtros no tendrán ningún efecto porque la función **Sugerir líneas de documento de interés** solo maneja cantidades positivas.
 5. Elija el botón **Aceptar** para iniciar el trabajo por lotes.  
 
-### Para actualizar los textos en documentos de interés
+### <a name="to-update-finance-charge-memo-texts"></a>Para actualizar los textos en documentos de interés
 
 En algunos casos, quizás le interese modificar el texto de comienzo y fin configurado para los recordatorios de interés. Si no hace esto en el momento de crear los documentos de interés aún sin emitir, puede actualizar los documentos con el texto modificado.
 
@@ -74,7 +74,7 @@ En algunos casos, quizás le interese modificar el texto de comienzo y fin confi
 3. En la página **Actualizar texto interés**, puede definir un filtro si desea actualizar varios documentos de interés.
 4. Elija el botón **Aceptar** para actualizar los textos de comienzo y fin.  
 
-### Emitir documentos de interés
+### <a name="to-issue-finance-charge-memos"></a>Emitir documentos de interés
 
 Después de crear documentos de interés y de realizar las modificaciones necesarias, puede imprimir informes de test o emitir los documentos de interés.
 
@@ -97,14 +97,14 @@ Además, la emisión del documento de interés puede afectar a los movimientos d
 
 El documento de interés está impreso para enviarlo a un correo electrónico específico como un archivo PDF adjunto.
 
-### Para cancelar un documento de interés emitido
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Para cancelar un documento de interés emitido
 
 Si se han emitido documentos de interés por error, puede cancelarlos antes de enviarlos. Puede hacerlo uno por uno o en lote.
 
 1. En la página **Documentos de interés emitidos**, seleccione una o más líneas de los documentos de interés emitidos que desea cancelar y, a continuación, elija la acción **Cancelar**.
 2. En la página **Cancelar docs. de interés emitidos**, rellene los campos según sea necesario y, a continuación, elija el botón **Aceptar**.
 
-### Para ver los movimientos de recordatorio y de interés  
+### <a name="to-view-reminder-and-finance-charge-entries"></a>Para ver los movimientos de recordatorio y de interés
 
 Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la página **Movs. recordatorio/interés** para cada línea de recordatorio que contenga un movimiento de cliente. Se puede obtener un resumen de los movimientos de recordatorio creados para un cliente específico.
 
@@ -112,11 +112,11 @@ Cuando se emite un recordatorio, se crea un movimiento de recordatorio en la pá
 2. Abra la ficha de cliente correspondiente y, a continuación, elija la acción **Movimientos**.
 3. En la página **Movs. cliente**, seleccione la línea que contenga el movimiento cuyos movimientos de recordatorio desea ver y, a continuación, elija la acción **Movs. recordatorio/interés.**
 
-## Tipos múltiples de interés
+## <a name="multiple-interest-rates"></a>Tipos múltiples de interés
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Para obtener más información, vea [Configurar tipos múltiples de interés](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configurar términos, niveles y textos de recordatorios.](finance-setup-reminders.md)  
 [Configurar términos de interés](finance-setup-finance-charges.md)  

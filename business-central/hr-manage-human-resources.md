@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Administrar recursos humanos
+# <a name="manage-human-resources"></a>Administrar recursos humanos
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], puede llevar un registro detallado de los empleados. Se puede registrar y actualizar información de los empleados, como contratos de empleo, información confidencial, cualificaciones y contactos del empleado.
 
@@ -25,7 +25,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Registre a los empleados nuevos o modifique los registros de los empleados existentes y adjunte la información relacionada, como contratos y productos. |[Registrar empleados](hr-how-register-employees.md) |
 | Registre la ausencia de los empleados y consulte las estadísticas de ausencia mediante distintos filtros. |[Gestionar ausencia empleados](hr-how-manage-absence.md) |
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

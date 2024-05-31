@@ -10,7 +10,7 @@ ms.date: 03/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Registro y reembolso de los costes de los empleados
+# <a name="record-and-reimburse-employees-expenses"></a>Registro y reembolso de los costes de los empleados
 
 [!INCLUDE[prod_short](includes/prod_short.md)] soporta transacciones para empleados de una manera similar a los proveedores. En consecuencia, existen grupos de contabilización de empleados para asegurarse de que las entradas del libro mayor de empleados se registran en las cuentas relevantes del libro mayor.
 
@@ -27,7 +27,7 @@ Puede utilizar diarios generales para cuentas de empleados para registrar los ga
 
 Para asegurarse de que el tipo de cambio de los importes esté actualizado, puede ajustar los saldos de los empleados cuando ejecute el trabajo por lotes del tipo de cambio de divisa. Si desea utilizar la tabla de tipos de cambio, pero liquidar los saldos de los empleados en su moneda local, puede excluir las cuentas de los empleados cuando ajuste los tipos de cambio.
 
-## Registrar el gasto de un empleado
+## <a name="to-record-an-employees-expense"></a>Registrar el gasto de un empleado
 
 Puede registrar los costes de los empleados en la página **Diario general**.
 
@@ -43,7 +43,7 @@ Puede registrar los costes de los empleados en la página **Diario general**.
     > Si desea introducir varias líneas de gastos sobre una línea de cuenta de contrapartida para la cuenta bancaria del empleado, seleccione la casilla de verificación **Sugerir importe de compensación** en la línea de la sección en la página **Secciones diario general**. El campo **Importe** de la línea de la cuenta de contrapartida se rellena previamente de forma automática con el valor que se requiere para compensar los gastos.
 5. Seleccione la acción **Registrar** para registrar gastos de la cuenta del empleado.
 
-## Reembolsar al empleado
+## <a name="to-reimburse-an-employee"></a>Reembolsar al empleado
 
 Reembolse a los empleados mediante pagos a su cuenta bancaria en la página **Diario de pagos**.  
 
@@ -53,11 +53,11 @@ Reembolse a los empleados mediante pagos a su cuenta bancaria en la página **Di
 4. Opcionalmente, elija la acción **Proponer pagos a empleados** para insertar automáticamente las líneas de diario para los reembolsos pendientes del empleado.
 5. Seleccione la acción **Registrar** para registrar el reembolso.  
 
-## Conciliar reembolsos con movimientos de empleado
+## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Conciliar reembolsos con movimientos de empleado
 
 Aplique los pagos de los empleados a las entradas del libro mayor relacionadas, de la misma manera que lo hace para los pagos a proveedores, por ejemplo, en la página **Diario de conciliación de pagos**, en función de las entradas del extracto bancario relacionadas. Para obtener más información, vea [Liquidación de pagos automáticamente y conciliación de cuentas bancarias](receivables-apply-payments-auto-reconcile-bank-accounts.md). Opcionalmente, puede liquidar manualmente en la página **Movimientos de los empleados**. Para obtener más información, consulte la sección [Conciliar pagos a proveedores con el diario de pagos o desde los movimientos de proveedor](payables-how-apply-purchase-transactions-manually.md) relacionada.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  

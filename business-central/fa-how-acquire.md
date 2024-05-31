@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Adquirir activos fijos
+# <a name="acquire-fixed-assets"></a>Adquirir activos fijos
 
 Utilice la página **Tarjeta de activos fijos** para ingresar información sobre un activo. Puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes y puede agruparlos de diferentes maneras como, por ejemplo, por clase, departamento o ubicación. Debe configurar y asignar un libro de depreciación a cada activo fijo antes de poder adquirirlo.
 
@@ -19,7 +19,7 @@ Después de configurar un activo fijo y asignar un libro de depreciación, debe 
 
 Utilice la indexación para ajustar los valores según los cambios generales en el nivel de precios. Utilice el trabajo por lotes **Indexar activos fijos** para calcular los costos de adquisición y los costos de reemplazo.
 
-## Agregue un activo fijo a su lista de activos fijos
+## <a name="add-a-fixed-asset-to-your-list-of-fixed-assets"></a>Agregue un activo fijo a su lista de activos fijos
 
 Antes de poder adquirir un activo fijo, debe agregarlo a su lista de activos. Hay varias formas de agregar activos fijos a su lista:
 
@@ -30,7 +30,7 @@ Antes de poder adquirir un activo fijo, debe agregarlo a su lista de activos. Ha
 
 Después de agregar activos fijos a su lista, el siguiente paso es adquirirlos para poder usarlos en transacciones. Obtenga más información en [Adquirir un activo fijo](#acquire-fixed-assets).
 
-### Agregar un activo fijo en la página Tarjeta de activo fijo
+### <a name="add-a-fixed-asset-on-the-fixed-asset-card-page"></a>Agregar un activo fijo en la página Tarjeta de activo fijo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Activos fijos** y luego elija el enlace relacionado.  
 2. Elija la acción **Nuevo** y, a continuación, rellene los campos de la ficha desplegable **General** como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Después de agregar activos fijos a su lista, el siguiente paso es adquirirlos p
 
     Después de completar los campos obligatorios, **Está listo para adquirir el activo fijo.** La notificación aparece en la parte superior de la página. Si está listo para adquirir el activo ahora, elija la acción **Adquirir** . Siga los pasos en la página **Adquisición asistida de activos fijos** para completar la adquisición. Si no está listo, siempre puede adquirir el activo más tarde.
 
-### Utilice Editar en Excel para agregar activos
+### <a name="use-edit-in-excel-to-add-assets"></a>Utilice Editar en Excel para agregar activos
 
 Si desea agregar numerosos activos fijos, Editar en Excel es una excelente herramienta. La herramienta descarga su lista actual de activos en una hoja de trabajo que incluye la mayoría de los campos disponibles en la página Tarjeta de activos fijos. Puede completar algunos o todos los campos en una fila para cada activo y publicar sus cambios para agregarlos a su lista en [!INCLUDE [prod_short](includes/prod_short.md)]. Si no puede completar todos los campos obligatorios, está bien. Puedes actualizarlos en [!INCLUDE [prod_short](includes/prod_short.md)] cuando estés listo.
 
@@ -55,7 +55,7 @@ Si desea agregar numerosos activos fijos, Editar en Excel es una excelente herra
 
 4. Para actualizar [!INCLUDE [prod_short](includes/prod_short.md)], en el panel **Microsoft Dynamics**, elija **Publicar**.
 
-### Agregar un activo fijo desde una orden de compra o factura
+### <a name="add-a-fixed-asset-from-a-purchase-order-or-invoice"></a>Agregar un activo fijo desde una orden de compra o factura
 
 Los siguientes pasos describen cómo agregar un activo fijo desde una orden de compra. Los pasos son similares para una factura de compra.
 
@@ -66,7 +66,7 @@ Los siguientes pasos describen cómo agregar un activo fijo desde una orden de c
 5. En el campo **N.º**, , elija un activo fijo existente para agregar un gasto o elija **Nuevo** para agregar un nuevo activo.
 6. Después de ingresar la información del nuevo activo y la orden de compra, elija **Publicar**.
 
-## Adquirir un activo fijo utilizando un diario del L/M de activos fijos
+## <a name="acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal"></a>Adquirir un activo fijo utilizando un diario del L/M de activos fijos
 
 El siguiente procedimiento describe cómo adquirir mediante la creación y contabilización de las líneas de diario del Libro Mayor de activos fijos requeridas. También puede crear y registrar las líneas de diario manualmente. Para obtener más información, vaya a [Adquirir un activo fijo mediante un diario del libro mayor de activos fijos](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
@@ -79,7 +79,7 @@ El siguiente procedimiento describe cómo adquirir mediante la creación y conta
 
 Cuando elige **Terminar**, el campo **Valor contable** en la **Tarjeta de activos fijos**  se completa, lo que indica que el activo fijo fue adquirido al costo de adquisición especificado.  
 
-## Para registrar una adquisición de activos fijos manualmente con un diario del L/M de activos fijos
+## <a name="to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal"></a>Para registrar una adquisición de activos fijos manualmente con un diario del L/M de activos fijos
 
 El procedimiento siguiente describe cómo adquirir un activo manualmente creando y registrando líneas en la página **A/F Diario general**. También puede adquirir un activo fijo automáticamente en la página **Tarjeta de Activo Fijo** eligiendo la acción **Adquirir activo fijo** . Para obtener más información, vaya a [Adquirir un activo fijo](#acquire-fixed-assets).
 
@@ -94,7 +94,7 @@ El procedimiento siguiente describe cómo adquirir un activo manualmente creando
 > [!TIP]  
 > Si completa el campo **Nº de seguro**, [!INCLUDE[prod_short](includes/prod_short.md)] también contabiliza el costo de adquisición del activo fijo en el libro mayor de cobertura de seguro. Para obtener más información, vaya a [Asegurar activos fijos](fa-how-insure.md).
 
-## Para configurar una lista de componentes para un activo principal
+## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Para configurar una lista de componentes para un activo principal
 
 Puede agrupar sus activos en principales y sus componentes. Por ejemplo, es posible que tenga una máquina de producción que consta de varias piezas que desee agrupar de esta manera.  
 
@@ -108,7 +108,7 @@ Debe configurar el activo principal y todos sus componentes como activo fijo ind
 6. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de activos fijos** y luego elija el enlace relacionado.
 7. Active la opción **Permitir publicación en activos principales** .
 
-## Para anular un coste del registro de un activo
+## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Para anular un coste del registro de un activo
 
 Si se equivoca al registrar un coste, puede eliminar el movimiento mediante el proceso **Cancelar movs. A/F** y registrar seguidamente el movimiento de adquisición correcto. Los movimientos incorrectos se transfieren a la página **A/F Movs. anulados**.
 
@@ -124,7 +124,7 @@ Por ejemplo, si registra una adquisición con la fecha incorrecta, debe corregir
 5. Elija el botón **Aceptar** para iniciar el trabajo por lotes.
 6. Cuando se hayan cancelado el movimiento o movimientos incorrectos, registre el coste correcto.
 
-## Para registrar el valor residual junto con el coste
+## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Para registrar el valor residual junto con el coste
 
 El valor residual es el valor restante de un activo cuando ya no se puede utilizar. Puede registrar el valor residual en el momento de registrar el coste. Para obtener más información, vaya a [Depreciar o amortizar activos fijos](fa-how-depreciate-amortize.md).
 
@@ -141,7 +141,7 @@ Puede registrar el valor residual junto con el coste a partir del diario de acti
 > [!NOTE]
 > Si existe un valor de rescate para un activo fijo, ese valor se utiliza en la contabilización de la depreciación en lugar del valor en el campo **Valor contable final** en el **Libros de depreciación FA** página. Para obtener más información, vaya a [Para administrar el valor contable final](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Activos fijos](fa-manage.md)  
 [Configuración de activos fijos](fa-setup.md)  

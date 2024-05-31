@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Gestionar contactos
+# <a name="managing-contacts"></a>Gestionar contactos
 
 Los empleados de su empresa se reúnen periódicamente con posibles relaciones de negocio que podrían convertirse en relaciones formales. Todos estos contactos externos y su información detallada deben registrarse en el sistema para que la comunicación sea más satisfactoria y puedan convertirse fácilmente en relaciones formales con clientes, proveedores o bancos.
 
@@ -26,7 +26,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Configure los cuestionarios de perfil que desea utilizar en el momento de especificar información de los perfiles de sus contactos.|[Use cuestionarios de perfil para clasificar contactos comerciales](marketing-create-contact-profile-questionnaire.md)|
 |Resolver la confusión cuando existen dos o más registros para el mismo contacto.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Ordenar, buscar y filtrar](ui-enter-criteria-filters.md)  
