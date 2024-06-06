@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Asignar costos a socios entre empresas
+# <a name="allocate-costs-to-intercompany-partners"></a>Asignar costos a socios entre empresas
 Cuando utiliza contabilizaciones de empresas vinculadas para transferir documentos entre empresas asociadas, las parametrizaciones relacionadas con el IVA (principalmente el grupo de contabilización comercial de IVA) asignadas a las cuentas de cliente o proveedor (asociadas con el socio de empresas vinculadas) controlan si y cómo se calcula y registra el IVA. También puede realizar distribuciones de costos directamente desde una orden de compra a empresas asociadas. Por ejemplo, si registra una factura de compra de un proveedor externo y desea distribuir algunos o todos los costos a uno o más socios de empresas vinculadas.
 
 Puede asignar costos a uno o más socios de empresas vinculadas mediante lo siguiente:
@@ -17,7 +17,7 @@ Puede asignar costos a uno o más socios de empresas vinculadas mediante lo sigu
 * **Diarios generales intercompañía** - Estos diarios son útiles cuando se compra un servicio. Por ejemplo, cuando una empresa matriz contrata un servicio para instalar sistemas informáticos en dos filiales. La factura se envía a la empresa matriz, pero los costos se asignan a los socios de empresas vinculadas. Para más información, vea [Trabajar con diarios y documentos de empresas vinculadas](intercompany-how-work-documents-journals.md).
 * Órdenes de compra y facturas: el uso de documentos de compra es útil cuando las funciones de compra de, por ejemplo, los gastos operativos, se centralizan en una empresa y luego se asignan a los socios de empresas vinculadas.
 
-## Asignar costos mediante un diario general de empresas vinculadas
+## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Asignar costos mediante un diario general de empresas vinculadas
 Para ingresar una línea en un diario general de empresas vinculadas, siga estos pasos. 
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario general de empresas vinculadas** y luego elija el enlace relacionado.
@@ -41,7 +41,7 @@ Para ingresar una línea en un diario general de empresas vinculadas, siga estos
    1. Rellene los campos restantes según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repita estos pasos para cada socio de empresas vinculadas que deba compartir el costo.
 1. Para contabilizar el documento y asignar los costos, elija **Enviar**.  
 
-## Para imputar costos mediante un documento de compra
+## <a name="to-allocate-costs-using-a-purchase-document"></a>Para imputar costos mediante un documento de compra
 El siguiente procedimiento describe cómo asignar costos usando una factura de compra. Los pasos son los mismos para pedidos de compra.
 
 > [!NOTE]
@@ -59,12 +59,12 @@ El siguiente procedimiento describe cómo asignar costos usando una factura de c
 1. Rellene los campos restantes según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 1. Para contabilizar la orden de compra, elija **Registrar**.
 
-## Para enviar los costos asignados a socios de empresas vinculadas
+## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Para enviar los costos asignados a socios de empresas vinculadas
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Transacciones sal. IC** y luego elija el enlace relacionado.
 2. Elija líneas para enviar y luego elija la acción **Enviar a IC Partner**. 
 3. Para asignar los costos, elija la acción **Acciones de línea completa**.
 
-## Cálculo del IVA para distribuciones de costos
+## <a name="calculating-vat-for-cost-distributions"></a>Cálculo del IVA para distribuciones de costos
 Cuando usa un documento para distribuir costos a socios de empresas vinculadas, hay dos configuraciones de IVA que debe tener en cuenta: 
 * La configuración de la cuenta de mayor para gastos:
    * Si el negocio general o los grupos de contabilización comercial del IVA se configuran en la cuenta de mayor, el cálculo depende de los grupos y los grupos de productos de la línea del documento.
@@ -76,7 +76,7 @@ Cuando usa un documento para distribuir costos a socios de empresas vinculadas, 
 > [!NOTE]
 > Es importante validar tanto la configuración del socio de empresas vinculadas como la configuración de la cuenta de mayor (para la cuenta de gastos utilizada para la distribución de costos) antes de asignar costos a los socios de empresas vinculadas.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Configurar empresa vinculada](intercompany-how-setup.md)  
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  
 [Finanzas](finance.md)  

@@ -11,13 +11,13 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# Preparar informes financieros con datos financieros y categorías de cuentas
+# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Preparar informes financieros con datos financieros y categorías de cuentas
 
 La característica **Informes financieros** le permite obtener información sobre los datos financieros que se muestran en su plan de cuentas (COA). Puede configurar informes financieros para analizar cifras en cuentas de contabilidad (G/L) y comparan los movimientos de contabilidad con los presupuestados. Los resultados se muestran en gráficos e informes en su área de trabajo, como el gráfico de flujo de efectivo y los informes Balance de ingresos y Balance. Se obtiene acceso a estos dos informes, por ejemplo, con la acción **Estados financieros** en las páginas de inicio Administrador de negocio y Contable.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona informes financieros de muestra que puede usar de inmediato como plantillas. También puede configurar sus propios informes para especificar las cifras que desea comparar. Por ejemplo, puede crear informes financieros para calcular márgenes de beneficios usando dimensiones, como departamentos o grupos de clientes. La cantidad de informes financieros que puede crear es ilimitada y no requiere la participación de un desarrollador.  
 
-## Requisitos previos para informes financieros
+## <a name="prerequisites-for-financial-reporting"></a>Requisitos previos para informes financieros
 
 Configurar informes financieros requiere obtener una comprensión de los estructura de su plan de cuentas. Hay tres conceptos clave a los que probablemente deba prestar atención antes de diseñar sus informes financieros:
 
@@ -31,7 +31,7 @@ La configuración de dimensiones le permite dividir sus datos financieros de man
 
 Si desea ver las entradas de contabilidad general como porcentajes de las entradas del presupuesto, debe crear presupuestos de G/L. Obtenga más información en [Crear presupuestos de G/L](finance-how-create-budgets.md).
 
-## Informes financieros
+## <a name="financial-reports"></a>Informes financieros
 
 Los informes financieros organizan las cuentas de su catálogo de cuentas de manera que facilitan más la presentación de los datos. Puede configurar diversas plantillas para definir la información que desea extraer del plan de cuentas. Los informes financieros también proporcionan un lugar para cálculos que no se puedan realizar directamente en el plan de cuentas. Por ejemplo, puede crear subtotales para grupos de cuentas y luego incluir ese total en otros totales. Otro ejemplo es para calcular márgenes de beneficios en dimensiones, como departamentos o grupos de clientes. Además, puede filtrar los movimientos y los movimientos presupuestarios, por ejemplo, por saldo periodo o importe debe.
 
@@ -63,13 +63,13 @@ También puede utilizar fórmulas para comparar dos o más informes financieros 
 - Crear tantos informes financieros como necesite, cada uno de ellos con un nombre diferente.
 - Configurar diversas plantillas de informes e imprimir estos con las cifras actuales.
 
-## Ruta de aprendizaje: Crear informes financieros en Microsoft Dynamics 365 Business Central
+## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Ruta de aprendizaje: Crear informes financieros en Microsoft Dynamics 365 Business Central
 
 ¿Quiere aprender a crear presupuestos y luego utilizar informes financieros, dimensiones y definiciones de filas y columnas para generar los informes financieros que normalmente necesitan las empresas?
 
 Comience en la siguiente ruta de aprendizaje [Crear informes financieros en Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central).
 
-## Crear un nuevo informe financiero
+## <a name="create-a-new-financial-report"></a>Crear un nuevo informe financiero
 
 Usa informes financieros para analizar cuentas de contabilidad (G/L) o comparar los movimientos de contabilidad con los presupuestados. Por ejemplo, puede ver los movimientos de contabilidad como porcentajes de los movimientos de presupuesto.
 
@@ -91,25 +91,25 @@ Los informes financieros en la versión estándar de [!INCLUDE[prod_short](inclu
 > [!NOTE]
 > Cuando abre un informe financiero en el modo Ver o Editar, el panel Filtro está disponible. No utilice el panel Filtro para establecer filtros para los datos de su informe. Tales filtros pueden causar errores o no filtrar los datos. En su lugar, utilice los campos de las pestañas desplegables **Opciones** y **Dimensiones** para configurar filtros para el informe.
 
-### Crear o editar una definición de fila
+### <a name="create-or-edit-a-row-definition"></a>Crear o editar una definición de fila
 
 Las definiciones de fila en informes financieros proporcionan un lugar para cálculos que no se puedan realizar directamente en el plan de cuentas. Por ejemplo, puede crear subtotales para grupos de cuentas y luego incluir ese total en otros totales. También puede calcular pasos intermedios que no se muestran en el informe final.
 
 Para obtener más información, vaya a [Definiciones de filas en informes financieros](bi-row-definitions.md).
 
-### Crear o editar una definición de columna
+### <a name="create-or-edit-a-column-definition"></a>Crear o editar una definición de columna
 
 Utilice las definiciones de columnas para especificar las columnas para incluir en el informe resultante. Por ejemplo, puede diseñar una plantilla de informe para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior. Puede tener hasta 15 columnas en una definición de columna. Por ejemplo, las columnas múltiples son útiles para mostrar los presupuestos de 12 meses con una columna que muestre el total.
 
 Para obtener más información, vaya a [Definiciones de columna en informes financieros](bi-column-definitions.md).
 
-## Usar dimensiones en informes financieros
+## <a name="using-dimensions-in-financial-reports"></a>Usar dimensiones en informes financieros
 
 En análisis financiero, una dimensión son datos que agrega a un movimiento como una especie de marcador. Estos datos se utilizan para agrupar movimientos de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Puede usar dimensiones en movimientos de diarios, documentos y presupuestos.
 
 Cada dimensión describe el foco del análisis. Así, un análisis de dos dimensiones, por ejemplo, sería ventas por área. Al utilizar más de dos dimensiones cuando se crea una entrada, puede realizar un análisis más complejo. Un ejemplo de análisis complejo es explorar las ventas por campaña de ventas por grupo de clientes por área. Eso le proporciona una mayor visión de su negocio, como por ejemplo, lo bien que está funcionando, dónde está prosperando o no y dónde debería asignar más recursos. Esa información le ayuda a tomar decisiones comerciales más informadas. Para obtener más información, vaya a [Trabajar con dimensiones](finance-dimensions.md).
 
-## Configurar informes financieros con resúmenes
+## <a name="set-up-financial-reports-with-overviews"></a>Configurar informes financieros con resúmenes
 
 Puede usar un informe financiero para crear un extracto que compare las cifras de contabilidad con las cifras presupuestadas.
 
@@ -127,11 +127,11 @@ Puede usar un informe financiero para crear un extracto que compare las cifras d
 
 Ahora puede copiar y pegar el extracto del presupuesto en una hoja de cálculo.  
 
-## Integrar informes financieros con Excel
+## <a name="integrate-financial-reports-with-excel"></a>Integrar informes financieros con Excel
 
 Puede integrar un informe financiero con una plantilla de libro de Excel, ajustar el diseño para adaptarlo a sus necesidades y luego actualizar la plantilla de Excel con datos de [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, esta integración facilita la generación de sus estados financieros mensuales y anuales en un formato que funcione para usted.
 
-### Configurar la integración de Excel para un informe financiero (crear una plantilla de Excel)
+### <a name="set-up-excel-integration-for-a-financial-report-create-an-excel-template"></a>Configurar la integración de Excel para un informe financiero (crear una plantilla de Excel)
 
 Para configurar la integración de Excel para un informe financiero, siga estos pasos para crear una plantilla de Excel para un informe.
 
@@ -147,7 +147,7 @@ Para configurar la integración de Excel para un informe financiero, siga estos 
 1. Guarde el libro en OneDrive o en un lugar similar donde se realice una copia de seguridad y se versione el archivo.
 1. Cierre el libro.
 
-### Ejecutar un informe financiero con una plantilla de Excel
+### <a name="run-a-financial-report-with-an-excel-template"></a>Ejecutar un informe financiero con una plantilla de Excel
 
 Para ejecutar un informe financiero con una plantilla de Excel, siga estos pasos:
 
@@ -158,7 +158,7 @@ Para ejecutar un informe financiero con una plantilla de Excel, siga estos pasos
 1. En la página **Búsqueda de nombre/valor**, elija la hoja de cálculo Datos.
 1. [!INCLUDE[prod_short](includes/prod_short.md)] ejecuta el informe financiero y combina los datos resultantes con su plantilla de Excel.
 
-## Imprimir y guardar informes financieros
+## <a name="print-and-save-financial-reports"></a>Imprimir y guardar informes financieros
 
 Puede imprimir informes financieros utilizando los servicios de impresión de su dispositivo. [!INCLUDE[prod_short](includes/prod_short.md)] también ofrece opciones para guardar informes como libros de trabajo de Excel, documentos de Word, archivos PDF y XML.
 
@@ -169,7 +169,7 @@ Puede imprimir informes financieros utilizando los servicios de impresión de su
     1. La opción **(Manejado por el navegador)** indica que no hay una impresora designada para el informe. En este caso, el navegador manejará la impresión y mostrará unos pasos de impresión estándar, donde puede elegir una impresora local conectada a su dispositivo. **(Manejado por el navegador)** no está disponible en la aplicación móvil de [!INCLUDE[prod_short](includes/prod_short.md)] o la aplicación para Teams.
 1. Seleccione la acción **Imprimir**.
 
-### Programe un informe financiero o guárdelo como un documento PDF, Word o Excel
+### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Programe un informe financiero o guárdelo como un documento PDF, Word o Excel
 
 Puede guardar un informe financiero en formatos de archivo tales como PDF, XML, Word o Excel. [!INCLUDE[prod_short](includes/prod_short.md)] también puede generar informes financieros recurrentes.
 
@@ -180,7 +180,7 @@ Puede guardar un informe financiero en formatos de archivo tales como PDF, XML, 
 1. Para generar un informe financiero programado o recurrente, complete los campos. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Para informes financieros recurrentes, configure los campos **Fecha/hora de inicio más temprana** y **Fecha/hora de caducidad** con la primera y última fecha, respectivamente, para generar el informe financiero. Además, seleccione en qué días se genera el informe configurando el campo **Fórmula de fecha de próxima ejecución** siguiendo el formato explicado en la sección [Usar fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas).
 
 
-## Procedimientos recomendados para trabajar con definiciones de informes financieros
+## <a name="best-practices-for-working-with-financial-report-definitions"></a>Procedimientos recomendados para trabajar con definiciones de informes financieros
 
 Las definiciones de informes financieros no tienen versiones. Cuando cambia la definición de un informe, la versión anterior se reemplaza si el cambio se guarda en la base de datos. La siguiente lista contiene algunos procedimientos recomendados para trabajar con definiciones de informes financieros:
 
@@ -188,7 +188,7 @@ Las definiciones de informes financieros no tienen versiones. Cuando cambia la d
 - Antes de cambiar la definición de un informe, considere la posibilidad de hacer una copia de seguridad del mismo, por si acaso su cambio no funciona como esperaba. Puede limitarse a copiar la definición (dándole un buen nombre) o exportarla. Para obtener más información, vaya a [Importar o exportar definiciones de informes financieros](#import-or-export-financial-report-definitions).
 - Si necesita una copia nueva de una definición que [!INCLUDE[prod_short](includes/prod_short.md)] proporciona, una manera fácil de obtenerla es crear una nueva empresa que solo contenga datos de configuración. Luego, exporte la definición e impórtela en la empresa donde la definición necesita una actualización.
 
-## Importar o exportar definiciones de informes financieros
+## <a name="import-or-export-financial-report-definitions"></a>Importar o exportar definiciones de informes financieros
 
 Puede importar y exportar definiciones de informes financieros como paquetes de configuración de RapidStart. Por ejemplo, los paquetes de configuración resultan útiles para compartir información con otras empresas. El paquete se crea en un archivo .rapidstart, que comprime los contenidos.
 
@@ -205,7 +205,7 @@ Para obtener más información sobre cómo importar o exportar definiciones de f
 - [Importar o exportar definiciones de filas en informes financieros](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions) o
 - [Importar o exportar definiciones de columnas en informes financieros](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Definiciones de filas en informes financieros](bi-row-definitions.md)  
 [Definiciones de columnas en informes financieros](bi-column-definitions.md)  

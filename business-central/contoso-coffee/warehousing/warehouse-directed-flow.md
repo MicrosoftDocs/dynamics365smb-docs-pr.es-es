@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Tutorial de flujo entrante y saliente en la configuración avanzada de almacén
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Tutorial de flujo entrante y saliente en la configuración avanzada de almacén
 
 Este tutorial muestra cómo completar los flujos entrantes y salientes en la configuración avanzada: almacenamiento y selección dirigidos. Para obtener más información, consulte [Resumen de las diferentes opciones de configuración](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Requisitos previos  
+## <a name="prerequisites"></a>Requisitos previos
 Para completar este tutorial, deberá convertirse en empleado de almacén en el almacén *BLANCO*, siguiendo estos pasos:  
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Empleados de almacén** y luego elija el enlace relacionado.  
 2. Elija el campo **Id. de usuario** y seleccione su propia cuenta de usuario en la página **Usuarios**.  
@@ -23,10 +23,10 @@ Para completar este tutorial, deberá convertirse en empleado de almacén en el 
 4. Habilite la opción **Predeterminado**.
 
 
-## Escenario  
+## <a name="scenario"></a>Escenario
 Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tránsito y de reabastecimiento de contenedores para acelerar el tiempo de recepción y envío.  
 
-## Pasos
+## <a name="steps"></a>Pasos
 
 1. Cree un envío de almacén.  
 
@@ -135,7 +135,7 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
     4. Confirme la opción **Enviar**.
 
 
-## Resultados
+## <a name="results"></a>Resultados
 - se crea **Recepción de almacén contabilizada**
 - se crea **Almacenamiento de almacén registrado**    
 - se crea **Recepción de compra contabilizada**    
@@ -149,7 +149,7 @@ Ellen, la gerente de almacén, utiliza la funcionalidad de mercancías en tráns
 
 
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Recibir productos](../../warehouse-how-receive-items.md) 
 [Detalles de diseño: Flujo de almacén entrante](../../design-details-inbound-warehouse-flow.md) 
 [Enviar productos](../../warehouse-how-ship-items.md) 

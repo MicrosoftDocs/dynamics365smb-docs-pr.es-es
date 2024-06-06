@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Crear pedidos abiertos ensamblados
+# <a name="create-blanket-assembly-orders"></a>Crear pedidos abiertos ensamblados
 
 Puede utilizar la administración de ensamblados para personalizar un artículo del ensamblado a la solicitud de un cliente durante el proceso de venta. Para obtener más información, consulte [Venta de artículos ensamblados para pedido](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -19,7 +19,7 @@ Puede utilizar la administración de ensamblados para personalizar un artículo 
 > [!NOTE]  
 >  Al igual que todos los pedidos abiertos, las cantidades de los pedidos abiertos de ensamblado solo son previsiones y no están operativas hasta que se convierten en pedidos de ensamblado reales. Por tanto, la funcionalidad del pedido, como el cálculo de disponibilidad, la reserva y el seguimiento de artículos no están activos en los pedidos de ensamblado abiertos.  
 
-## Crear un pedido de ensamblado abierto para un artículo de ensamblado para pedido  
+## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Crear un pedido de ensamblado abierto para un artículo de ensamblado para pedido
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos abiertos de ventas** y, a continuación, elija el vínculo relacionado.  
 2. Cree un nuevo pedido de ventas abierto con una línea para un artículo de ensamblado. Consulte [Crear pedidos abiertos de venta](sales-how-to-create-blanket-sales-orders.md) para obtener más información.  
@@ -35,7 +35,7 @@ Puede utilizar la administración de ensamblados para personalizar un artículo 
 
 El pedido de ensamblado abierto vinculado y las personalizaciones se vinculan a ese nuevo pedido de ventas para preparar el ensamblado de los artículos que se van a vender.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Crear pedidos abiertos de ventas](sales-how-to-create-blanket-sales-orders.md)  
 [Gestión de ensamblaje](assembly-assemble-items.md)  

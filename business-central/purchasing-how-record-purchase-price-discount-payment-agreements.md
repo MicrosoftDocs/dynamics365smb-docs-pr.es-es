@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Registrar precios y descuentos de compra especiales
+# <a name="record-special-purchase-prices-and-discounts"></a>Registrar precios y descuentos de compra especiales
 
 > [!NOTE]
 > En el segundo lanzamiento de versiones de 2020, lanzamos procesos optimizados para configurar y administrar precios y descuentos. Si es un cliente nuevo que usa esa versión, está usando la nueva experiencia. Si es un cliente existente, si está utilizando o no la nueva experiencia depende de si su administrador ha habilitado la actualización de funciones **Nueva experiencia de precios de venta** en **Administración de características**. Para más información, consulte [Habilitación de las próximas funciones antes de tiempo](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -30,7 +30,7 @@ Respecto a los descuentos, puede configurar y usar dos tipos de descuentos de co
 
 Puesto que los descuentos de línea y los precios de compra se basan en una combinación de producto y proveedor, también se puede introducir esta combinación desde la ficha de producto en la que se definen las reglas y los valores. Para obtener más información, vea [Registrar nuevos productos](inventory-how-register-new-items.md).
 
-## Para configurar un precio de compra especial para un proveedor
+## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Para configurar un precio de compra especial para un proveedor
 
 #### [Experiencia actual](#tab/current-experience)
 
@@ -53,7 +53,7 @@ Puesto que los descuentos de línea y los precios de compra se basan en una comb
 
 ---
 
-## Para configurar un descuento de línea para un proveedor
+## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Para configurar un descuento de línea para un proveedor
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra la ficha de proveedor correspondiente y, a continuación, elija la acción **Dto. línea**.
@@ -62,7 +62,7 @@ Puesto que los descuentos de línea y los precios de compra se basan en una comb
 3. Rellene los campos de la línea como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Rellene una línea para cada combinación por la que el proveedor le garantiza un descuento de compra.
 
-## Para configurar términos de descuento en factura para un proveedor:
+## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Para configurar términos de descuento en factura para un proveedor:
 
 Una vez su proveedor le haya informado de que descuentos en factura garantizan, introduzca el código de descuento en las fichas de cliente y especifique los términos de cada código.
 
@@ -82,7 +82,7 @@ Una vez su proveedor le haya informado de que descuentos en factura garantizan, 
 
 El descuento en factura está configurado y asignado el proveedor en cuestión. En el momento que selecciona el código de proveedor en el campo **Código de descuento de factura** en las fichas de proveedores, se asigna el mismo descuento en factura a esos proveedores.
 
-## Para seleccionar un principio de registro para descuentos de compra
+## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Para seleccionar un principio de registro para descuentos de compra
 
 Cuando se registra una factura de compra que incluye uno o varios descuentos, puede escoger entre dos principios de registro de importes de descuento. Puede registrar los descuentos por separado o restar los descuentos de los descuentos en factura.  
 
@@ -98,7 +98,7 @@ Antes de que pueda hacerlo, deberá haber configurado las cuentas necesarias par
 |**Dto. línea**|Restado|Registrado por separado|  
 |**Ninguno**|Restado|Restado|  
 
-## Descuentos y cargos por servicios de la factura de compra
+## <a name="purchase-invoice-discounts-and-service-charges"></a>Descuentos y cargos por servicios de la factura de compra
 
 Si aplica términos fijos para los descuentos en factura a algunos proveedores, podrá introducirlos para esos proveedores. Se calculará el descuento cuando rellene una factura de compra.  
 
@@ -115,7 +115,7 @@ Puede optar por que [!INCLUDE[prod_short](includes/prod_short.md)] calcule autom
 > [!TIP]  
 > Antes de introducir esta información, se recomienda preparar un esquema de la estructura de descuentos que desea utilizar. De este modo, podrá ver fácilmente los proveedores que se pueden vincular a la misma página de descuentos en factura. Cuantas menos páginas tenga que configurar, más rápido podrá introducir la información básica.
 
-## Cálculo del mejor precio
+## <a name="best-price-calculation"></a>Cálculo del mejor precio
 
 Cuando haya registrado precios especiales y los descuentos de línea para ventas y compras, [!INCLUDE[prod_short](includes/prod_short.md)] garantiza que el beneficio en operaciones comerciales de producto siempre son óptimos calculando automáticamente el mejor precio en los documentos de ventas y compras, y en líneas del diario de proyectos y recursos.
 
@@ -138,7 +138,7 @@ El mejor precio es el precio más bajo permisible con el mayor descuento de lín
 
 Si no se puede calcular ningún precio especial para el producto de la línea, se inserta el último coste directo o el precio unitario de la ficha de producto.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Compras](purchasing-manage-purchasing.md)  

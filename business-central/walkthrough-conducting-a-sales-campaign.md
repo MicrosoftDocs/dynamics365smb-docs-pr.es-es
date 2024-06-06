@@ -9,7 +9,7 @@ ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tutorial sobre realizar una campaña de ventas
+# <a name="walkthrough-conducting-a-sales-campaign"></a>Tutorial sobre realizar una campaña de ventas
 
 Una campaña es un tipo de actividad que implica varios contactos. Una importante parte de la configuración de una campaña implica la selección del público objetivo para la misma. Con este fin, en [!INCLUDE[prod_short](includes/prod_short.md)], creará un segmento o grupo de contactos con filtros.  
 
@@ -17,7 +17,7 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
  Las funciones Campaña y Segmento con sus procesos automatizados le permitirán planificar, organizar y realizar un seguimiento de sus actividades de marketing. De este modo aumentarán las posibilidades de conseguir nuevos clientes y conservar los actuales.  
 
-## Acerca de este tutorial
+## <a name="about-this-walkthrough"></a>Acerca de este tutorial
 
  En este tutorial se muestra el proceso para realizar un seguimiento en una feria de muestras y dirigirse a clientes potenciales (contactos) en una campaña de seguimiento.  
 
@@ -30,18 +30,18 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 - Envío de cartas a contactos.  
 - Registro de las respuestas de la campaña.  
 
-## Funciones
+## <a name="roles"></a>Funciones
 
  En este tutorial, se demuestran las tareas realizadas por los siguientes roles de usuario:  
 
 - Director de marketing o Director de ventas  
 - Empleado de marketing  
 
-## Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
  Para poder realizar las tareas del tutorial, deberá instalar [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
-## Historia
+## <a name="story"></a>Historia
 
  El Director de marketing del Departamento de ventas de CRONUS es responsable de la planificación de campañas y de su ejecución. El administrador de marketing también toma decisiones sobre en qué ferias de muestras participar y evalúa el progreso de la campaña.  
 
@@ -55,11 +55,11 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 
  El empleado ayuda a enviar cartas de agradecimiento a todos los contactos que dejaron sus tarjetas al personal del stand y, finalmente, el director registra todas las respuestas que reciban de los probables clientes.  
 
-## Organización de una campaña
+## <a name="setting-up-a-campaign"></a>Organización de una campaña
 
  En cuanto el empleado haya introducido las tarjetas de negocios recibidas en la feria de muestras, el director de marketing organiza una ficha de campaña para administrar las actividades relacionadas.  
 
-### Para configurar una campaña  
+### <a name="to-set-up-a-campaign"></a>Para configurar una campaña
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Campañas** y luego elija el enlace relacionado.  
 2. Seleccione **Nuevo** para crear una nueva campaña. En la ficha de la campaña, seleccione <kbd>Entrar</kbd> para crear un número de la campaña insertado automáticamente.  
@@ -67,13 +67,13 @@ Una campaña es un tipo de actividad que implica varios contactos. Una important
 4. Elegir el campo **Código de estado** y seleccione el código de estado "1-PLAN". 
 5. Rellene los campos **Fecha inicial** y **Fecha final** de la campaña como corresponda.  
 
-## Selección del público objetivo
+## <a name="selecting-the-target-audience"></a>Selección del público objetivo
 
  El director de marketing crea un segmento para seleccionar los contactos con los que desea interactuar.  
  
  Cuando crea un segmento, puede usar una variedad de criterios para seleccionar los contactos que deben ser objetivos para el segmento. Por ejemplo, puede seleccionar personas de contacto que trabajan en una ubicación de cliente o de probable cliente y que son los responsables de compras en sus empresas. Utilice los filtros para añadir los contactos según los criterios que mejor se ajusten a sus propósitos. Por ejemplo, puede elegir filtrar por responsabilidad del cargo de la persona de contacto, la relación empresarial o el sector de la empresa de contacto. Para este tutorial, elija el filtro **Responsabilidad cargo** para seleccionar los contactos.
 
-### Para crear un segmento con los contactos relevantes  
+### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Para crear un segmento con los contactos relevantes
 
 1. Elija la acción **Navegar** y luego elija la acción **Segmentos**.  
 2. Seleccione **Nuevo** para crear un nuevo segmento. En el segmento nuevo, seleccione **Entrar** para tener un número de segmento insertado automáticamente.  
@@ -86,18 +86,18 @@ La página **Segmento** contiene ahora una lista de contactos basada en los filt
 > [!NOTE]  
 > Puede guardar los criterios de segmentación para poder usarlos más adelante.
 
-### Para guardar sus criterios de segmentación
+### <a name="to-save-your-segmentation-criteria"></a>Para guardar sus criterios de segmentación
 
 1. En la página **Segmento**, seleccione **Acciones**.
 2. Elija **Funciones**, después **Segmento** y, luego, elija la acción **Guardar criterio**.  
 3. En la página **Guardar criterios segmento**, especifique un código para el segmento. En el campo **Descripción**, escriba una descripción de los criterios del segmento.
 4. Elija el botón **Aceptar**.  
 
-## Extracción de los datos
+## <a name="mining-the-data"></a>Extracción de los datos
 
  El director de marketing estudia atentamente la lista de contactos segmentada y observa que es demasiado grande. El administrador decide reducir la lista basándose en clientes probables reales, para centrarse en el grupo objetivo correcto. Este proceso de refinar y reducir los datos también se conoce como extracción de datos.  
 
-### Para eliminar los contactos del segmento  
+### <a name="to-remove-contacts-from-the-segment"></a>Para eliminar los contactos del segmento
 
 1. En la página **Segmento**, seleccione **Acciones**.
 2. En la barra de menú de abajo, elija **Funciones**, **Contactos** y **Reducir contactos**.  
@@ -110,28 +110,28 @@ La página **Segmento** contiene ahora una lista de contactos basada en los filt
  > [!NOTE]  
  > Si tuviera que deshacer esta eliminación de un grupo de contactos, puede hacerlo con la función **Volver**. En otras palabras, puede deshacer la última segmentación.  
 
-### Para recuperar los contactos eliminados
+### <a name="to-bring-back-the-removed-contacts"></a>Para recuperar los contactos eliminados
 
 1. En la página **Segmento**, seleccione la acción **Segmento**.
 2. Seleccione la acción **Volver**.
 
 Los contactos que ha eliminado se añaden de nuevo a la lista de contactos.
 
-## Vinculación de un segmento con una campaña
+## <a name="linking-a-segment-to-a-campaign"></a>Vinculación de un segmento con una campaña
 
 El director de marketing decide que la lista reducida es la lista final de contactos que desea que forme parte de la campaña. Por lo tanto, vincula este segmento a la campaña Feria comercial FUTURUS.  
 
-### Para vincular un segmento a la campaña  
+### <a name="to-link-a-segment-to-the-campaign"></a>Para vincular un segmento a la campaña
 
 1. En la página **Segmento**, en la ficha desplegable **Campaña**, elija el campo **Nº campaña** ara seleccionar la campaña a la que desee vincular el segmento, por ejemplo, **CP0001**.
 2. Seleccione **Sí**.  
 3. Dado que este segmento es el objetivo de la campaña, seleccione la casilla de verificación **Objetivo campaña** y elija **Sí**.  
 
-## Enviar cartas y correos electrónicos a los contactos
+## <a name="sending-letters-and-email-messages-to-contacts"></a>Enviar cartas y correos electrónicos a los contactos
 
  El empleado de marketing ayuda al director de esta área a enviar cartas a los probables clientes para agradecerles por visitar la feria de muestras.
 
-### Procedimiento para usar un segmento para enviar una carta a un contacto  
+### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Procedimiento para usar un segmento para enviar una carta a un contacto
 
 > [!NOTE]  
 > En este procedimiento, debe adjuntar un documento de Word. Puede agregar archivos adjuntos en cualquier idioma.
@@ -159,7 +159,7 @@ Una vez registrado el segmento, cada carta se envíe que se registra como intera
 
 Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movs. log. interacción** y luego elija el enlace relacionado. Hay un movimiento para cada carta enviada.  
 
-### Procedimiento para enviar un correo electrónico a un contacto  
+### <a name="to-send-an-email-message-to-a-contact"></a>Procedimiento para enviar un correo electrónico a un contacto
 
 1. En la ficha desplegable **Interacción**, en el campo **Cód. plantilla interacción**, seleccione la plantilla Carta de negocios, código **NEG**.  
 2. En el campo **Asunto (Genérico)**, escriba el siguiente texto a modo de ejemplo: **Gracias por visitar la feria de muestras**.  
@@ -172,13 +172,13 @@ Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_
 
  Las cartas se envían por correo electrónico automáticamente y se registra el segmento. Dado que ya se registró el segmento, este no figura en la lista de segmentos, sino que se guarda en la lista de segmentos registrados. Para ver esa lista, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos archivados** y, a continuación, elija el vínculo relacionado.  
 
-## Registrar las respuestas de la campaña
+## <a name="register-campaign-responses"></a>Registrar las respuestas de la campaña
 
  En el siguiente par de semanas, los probables clientes responden a la carta. El director de marketing desea realizar un seguimiento de las respuestas y registrar estas interacciones.  
 
  Con este fin, configure un segmento para los contactos que hayan respondido a la carta.  
 
-### Para registrar las respuestas de la campaña  
+### <a name="to-register-campaign-responses"></a>Para registrar las respuestas de la campaña
 
 1. En la página **Segmento**, en la ficha desplegable **Interacción**, elija el campo **Cód. plantilla interacción**.  
 
@@ -192,7 +192,7 @@ Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_
 7. En la página **Segmento**, seleccione **Grabar**.  
 8. En la página **Registrar segmento**, borre la casilla de verificación **Enviar archivos adjuntos**. Posteriormente, elija el botón **Aceptar** para confirmar que se ha registrado el segmento.  
   
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Gestión de relaciones](marketing-relationship-management.md)  
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

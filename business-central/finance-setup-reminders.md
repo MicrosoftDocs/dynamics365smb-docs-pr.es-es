@@ -10,21 +10,21 @@ ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Configurar términos, niveles y textos de recordatorios
+# <a name="set-up-reminder-terms-and-levels"></a>Configurar términos, niveles y textos de recordatorios
 
 Puede usar recordatorios para informar a los clientes de que tienen importes vencidos y solicitar pagos. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > Después de configurar los términos y niveles de recordatorios, puede incluirlos en procesos automatizados para crear, emitir y enviar recordatorios. Para obtener más información sobre el proceso automatizado, vaya a [Automatizar recordatorios en cobros](finance-automate-reminders.md).
 
-## Términos de recordatorio
+## <a name="reminder-terms"></a>Términos de recordatorio
 
 Si los clientes tienen pagos vencidos, deberá decidir cómo y cuándo les enviará un recordatorio. Además, puede cargar en sus cuentas intereses o comisiones. Puede configurar un número ilimitado de recordatorios.  
 
 > [!NOTE]
 > Si desea calcular intereses sobre pagos vencidos, puede hacerlo al crear recordatorios. Sin embargo, si sólo desea calcular intereses e informar a sus clientes acerca de esto sin enviar recordatorios, use [documentos de interés](finance-setup-finance-charges.md). Para más información, vea [Recordatorios](receivables-collect-outstanding-balances.md#reminders) o [Cargos financieros](receivables-collect-outstanding-balances.md#finance-charges).
 
-### Configurar archivos adjuntos y textos del cuerpo del correo electrónico para comunicaciones
+### <a name="set-up-attachment-and-email-body-texts-for-communications"></a>Configurar archivos adjuntos y textos del cuerpo del correo electrónico para comunicaciones
 
 En la página **Configuración de términos de recordatorio**, puede configurar textos adjuntos y mensajes de correo electrónico estándar para usarlos en todos los niveles de recordatorio o crear mensajes específicos para cada nivel. Por ejemplo, el mensaje que envía para el primer nivel de recordatorio puede tener un tono o contenido diferente al del segundo o tercer nivel. Para crear archivos adjuntos y textos de mensajes de correo electrónico para todos los niveles, elija **Comunicación con el cliente** en la parte superior de la página. Para crear mensajes para líneas específicas, en la ficha desplegable **Nivel de recordatorio** , elija una línea y luego elija la acción **Comunicación con el cliente** en la ficha desplegable.
 
@@ -35,19 +35,19 @@ Cuando envía un correo electrónico, el recordatorio es un informe que adjunta 
 > [!NOTE]
 > Comunicarse por correo electrónico directamente desde [!INCLUDE [prod_short](includes/prod_short.md)] requiere que esté configurado para hacerlo. Para obtener más información sobre cómo conectar cuentas de correo electrónico con [!INCLUDE [prod_short](includes/prod_short.md)], vaya a [Configurar correo electrónico](admin-how-setup-email.md).
 
-### Configurar los recordatorios
+### <a name="set-up-reminder-terms"></a>Configurar los recordatorios
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Términos de recordatorios** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Para utilizar más de una combinación de recordatorios, configure un código para cada uno.
 
-## Niveles de recordatorio
+## <a name="reminder-levels"></a>Niveles de recordatorio
 
 Para cada término de recordatorio, puede definir un número ilimitado de niveles de recordatorio, aunque la mayoría de las empresas utilizan sólo dos o tres niveles. La primera vez que se crear un recordatorio para un cliente, se utiliza la configuración del nivel 1. Cuando se emite el recordatorio, el número de nivel se registra en los movimientos de recordatorio creados y vinculados a los movimientos del cliente individuales. Si es necesario volver a recordar al cliente, se comprueban todos los movimientos de recordatorio vinculados a movimientos de cliente abiertos para localizar el número de nivel más alto. Para el nuevo recordatorio se utilizarán las condiciones del siguiente número de nivel.
 
 Si crea más recordatorios de aquellos para los define niveles, se utilizarán las condiciones para el nivel más alto. Puede crear tantos recordatorios como permita el campo **Nº máx. recordatorios** en los términos de recordatorio.
 
-### Para configurar los niveles de recordatorio
+### <a name="to-set-up-reminder-levels"></a>Para configurar los niveles de recordatorio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos de recordatorios** y luego elija el enlace relacionado.  
 2. En la página **Términos recordatorio**, seleccione la línea que incluya los términos para los que desea configurar niveles y, a continuación, elija la acción **Niveles**.  
@@ -107,7 +107,7 @@ Si crea más recordatorios de aquellos para los define niveles, se utilizarán l
 
 Una vez que haya configurado los términos del recordatorio, puede asignarlos a los clientes en las páginas de Tarjeta de cliente. Para obtener más información, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Enviar recordatorios de saldos pendientes](receivables-send-reminders.md)  

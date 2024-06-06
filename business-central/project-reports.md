@@ -9,22 +9,22 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Informes y análisis de proyecto en Business Central
+# <a name="project-reports-and-analytics-in-business-central"></a>Informes y análisis de proyecto en Business Central
 
 Los informes de proyecto en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de los proyectos y los negocios obtener información y estadísticas sobre las actividades de proyectos actuales y pasadas.  
 
-## Informes
+## <a name="reports"></a>Informes
 
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## Tareas
+## <a name="tasks"></a>Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Supervisar el progreso y el rendimiento del trabajo](projects-how-monitor-progress-performance.md)  
 
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar la administración de proyectos](projects-setup-projects.md)  
 [Administración de proyectos](projects-manage-projects.md)  

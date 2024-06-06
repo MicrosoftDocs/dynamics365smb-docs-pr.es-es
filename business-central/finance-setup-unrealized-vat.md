@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Configurar el IVA no realizado para la contabilidad basada en efectivo
+# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Configurar el IVA no realizado para la contabilidad basada en efectivo
 
 Si utiliza métodos de contabilidad basada en efectivo, puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para gestionar el IVA no realizado.
 
-## Usar las cuentas de contabilidad para el IVA no realizado
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Usar las cuentas de contabilidad para el IVA no realizado
 
 Puede elegir que los importes de IVA se calculen y registren en una cuenta temporal al registrar una factura y que, a continuación, se registren en la cuenta correcta y se incluyan en las declaraciones de IVA cuando se registre el pago real de la factura. Antes de poder hacerlo, deberá [configurar los grupos de registro de IVA](finance-setup-vat.md).
 
@@ -45,7 +45,7 @@ Para utilizar cuentas para IVA no realizado, realice los pasos siguientes:
 > [!NOTE]  
 > El importe de IVA se registrará en esta cuenta y permanecerá hasta que se registre el pago del cliente. A continuación, el importe se transfiere a la cuenta para el IVA soportado.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Configurar los cálculos y los métodos de registro del impuesto sobre el valor añadido](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,10 +11,10 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Revaluar inventario
+# <a name="revalue-inventory"></a>Revaluar inventario
 Si desea apreciar o depreciar un producto o el movimiento de un determinado producto, utilice el diario de revalorización.
 
-## Para revaluar el inventario
+## <a name="to-revalue-inventory"></a>Para revaluar el inventario
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de revaluación**, y luego elija el enlace relacionado.
 2. Elija la acción **Calcular valor inventario**.
 3. En la página **Calcular valor inventario**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -26,7 +26,7 @@ Si desea apreciar o depreciar un producto o el movimiento de un determinado prod
 
 Las nuevas entradas de valor ahora se crean de modo que reflejan las revalorizaciones que ha registrado. Puede ver los nuevos valores en las respectivas tarjetas de producto.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Detalles de diseño: Revalorización](design-details-revaluation.md)  
 [Inventario](inventory-manage-inventory.md)  
 [Ccial](sales-manage-sales.md)  

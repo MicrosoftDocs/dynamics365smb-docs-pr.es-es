@@ -9,7 +9,7 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Registrar notas de abono y pedidos de servicio
+# <a name="post-service-orders-and-credit-memos"></a>Registrar notas de abono y pedidos de servicio
 Una vez que haya creado un pedido de servicio, rellenado toda la información y realizado los cambios necesarios, podrá registrarlo. El pedido debe contener como mínimo una línea de producto de servicio y una línea de servicio para poder registrarlo. Si el pedido contiene más de una línea de servicio, se registrarán todas las líneas de una sola vez.  
 
 Si tiene un gran número de pedidos de servicio, puede ahorrar mucho tiempo si utiliza un proceso de trabajo por lotes para registrarlos a la vez. Puede ejecutar el trabajo por lotes con cualquier pedido de servicio.
@@ -17,7 +17,7 @@ Si tiene un gran número de pedidos de servicio, puede ahorrar mucho tiempo si u
 > [!Tip]
 > Antes de registrar un documento de servicio, se recomienda que utilice la acción **Informe de prueba** para comprobar los errores o la falta de información. Si hay errores, deberá corregir el problema. Podrá imprimir un nuevo informe de prueba para verificar el fijo y registrar el documento.
 
-## Para registrar un pedido de servicio    
+## <a name="to-post-a-service-order"></a>Para registrar un pedido de servicio
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
 2. Abra el pedido servicio que corresponda.  
 3. En la página **Pedido servicio**, seleccione una de las acciones siguientes.  
@@ -42,13 +42,13 @@ Solo puede contabilizar el consumo si la línea contiene una cantidad que se ha 
 
 Al registrar el pedido, se crearán los movimientos y los documentos registrados pertinentes. Se actualizarán los campos pertinentes en el documento de pedido de servicio.  
 
-## Para registrar lotes de pedidos de servicio
+## <a name="to-batch-post-service-orders"></a>Para registrar lotes de pedidos de servicio
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Registrar por lotes**.  
 3.  Puede definir un filtro para seleccionar números de pedido específicos o un intervalo de números de pedido para procesar.  
 4.  Elija **Aceptar** para iniciar el trabajo por lotes.  
 
-## Para registrar un abono de servicio  
+## <a name="to-post-a-service-credit-memo"></a>Para registrar un abono de servicio
 Cuando haya creado un abono de servicio y lo haya rellenado, podrá registrar el abono. Si hubiese algún error o falta de información en el abono al registrarlo, el proceso se verá interrumpido por un mensaje de error.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos servicio** y, a continuación, elija el vínculo relacionado.  
@@ -61,7 +61,7 @@ Cuando haya creado un abono de servicio y lo haya rellenado, podrá registrar el
 > [!NOTE]  
 >  Es importante especificar toda la información necesaria en los abonos antes de procesarlos. De lo contrario, podrían no registrarse. Cuando el trabajo por lotes finaliza el registro, aparece un mensaje que muestra cuántos abonos de servicio se han registrado.  
 
-## Para registrar el consumo de un pedido de servicio  
+## <a name="to-post-consumption-from-a-service-order"></a>Para registrar el consumo de un pedido de servicio
 En el siguiente procedimiento se describe cómo registrar los productos, los costes y/o las horas de recursos empleados para una operación de servicio específica por la que no cobrará al cliente. Puede registrar productos, horas o costes consumidos solamente para un envío registrado que no tenga facturas o consumo registrados.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
@@ -76,7 +76,7 @@ En el siguiente procedimiento se describe cómo registrar los productos, los cos
 
 El servicio se registrará como consumido parcial o totalmente, dependiendo del valor del campo **Cantidad a consumir**, y se crearán los movimientos contables relevantes. Asimismo, los documentos de envío de servicio registrados previamente se actualizarán por orden cronológico con las cantidades consumidas. Las cantidades correspondientes se actualizan en las líneas de servicio del pedido.  
 
-## Para registrar envíos de pedidos de servicio  
+## <a name="to-post-shipments-from-service-orders"></a>Para registrar envíos de pedidos de servicio
 Tras especificar los detalles de un servicio, puede actualizar y registrar las cantidades de productos utilizadas, el tiempo invertido y los costes adquiridos. Como resultado, [!INCLUDE[prod_short](includes/prod_short.md)] realiza los cambios necesarios para reflejar el nuevo estado del inventario y el estado actual del procesamiento del pedido específico.  
 
 El siguiente procedimiento muestra cómo registrar el envío de artículos de línea de servicio en almacenes en las que no se requiera control de almacén.  
@@ -95,7 +95,7 @@ Si el almacén está configurado para requerir el control de almacén, el envío
 
 Para obtener información acerca del envío de los productos de línea de servicio en configuraciones avanzadas de almacén, vaya a [Picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-## Para deshacer un consumo registrado  
+## <a name="to-undo-posted-consumption"></a>Para deshacer un consumo registrado
 Puede cancelar el consumo de los pedidos de servicio. Por ejemplo, porque se hayan registrado por error.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envíos servicios registrados** y, a continuación, elija el vínculo relacionado.  
@@ -111,7 +111,7 @@ Puede cancelar el consumo de los pedidos de servicio. Por ejemplo, porque se hay
 >    * El pedido de servicio se ha cerrado.  
 >    * Se ha registrado el área Proyectos, de modo que hay movimientos del proyecto vinculados.  
 
-## Para registrar líneas de servicio  
+## <a name="to-post-service-lines"></a>Para registrar líneas de servicio
 Si tiene que trabajar en un pedido de servicio durante un periodo largo de tiempo sin registrarlo, es posible que desee registrar algunas de las líneas de servicio vinculadas a éste para, por ejemplo, mantener actualizado el inventario. Para registrar, especifique las cantidades correspondientes en las líneas que se van a registrar. Puede elegir entre registrar las líneas una a una o seleccionar varias líneas a la vez.  
 
 El procedimiento siguiente describe el registro del envío directamente de un pedido de servicio en las ubicaciones sin control de almacén configurado. Si la ubicación está configurada para requerir control de almacén, el registro de envío se realiza en otro documento de almacén, dependiendo de la ubicación configurada.
@@ -121,7 +121,7 @@ El procedimiento siguiente describe el registro del envío directamente de un pe
 4. En las líneas que va a registrar, rellene los campos **Cantidad a enviar**, **Cdad. a facturar** y **Cantidad a consumir**, en función del modo en que vaya a registrar las líneas.  
 5. Seleccione la acción **Registrar**.
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Registro en la gestión de servicios](service-service-posting.md)  
 [Crear un pedido de servicio](service-how-to-create-service-orders.md)  
 

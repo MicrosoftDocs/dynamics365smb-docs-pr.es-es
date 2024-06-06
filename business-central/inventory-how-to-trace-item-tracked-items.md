@@ -10,7 +10,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Realizar seguimiento de productos seguidos
+# <a name="trace-item-tracked-items"></a>Realizar seguimiento de productos seguidos
 
 Puede ver donde se ha utilizado un producto marcado para seguimiento, incluso cómo y dónde se recibió o se produjo, transfirió, vendió, consumió o devolvió. También puede encontrar todas las instancias actuales de un número de serie o de lote específico en la base de datos. Puede hacerlo con las características Seguimiento de producto y [Buscar movimientos](ui-find-entries.md).  
 
@@ -22,7 +22,7 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 
  Las dos características se pueden utilizar en combinación mediante la transferencia de un número de serie o de lote rastreado a la página **Buscar movimientos** para terminar un escenario del seguimiento completo. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## Para controlar productos seguidos  
+## <a name="to-trace-item-tracked-items"></a>Para controlar productos seguidos
 
 1.  Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Seguimiento de productos**, y luego elija el enlace relacionado.  
 2.  En los campos de filtrado que aparecen en la parte superior de la página, introduzca los números de producto específicos o un filtro sobre los números de producto a los que desea realizar un seguimiento.  
@@ -51,14 +51,14 @@ Estas funciones pueden ser especialmente útiles en controles de calidad en los 
 >   
 >  Para buscar las líneas de seguimiento del producto donde el historial de la transacción ya se ha rastreado, seleccione el botón **Ir a rastreado**. La línea de seguimiento de producto en cuestión está seleccionada y se expanden todas las líneas subyacentes.  
 
-## Para buscar productos marcados para seguimiento con Buscar movimientos  
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Para buscar productos marcados para seguimiento con Buscar movimientos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Buscar movimientos** y, a continuación, elija el vínculo relacionado.  
 2. Escoja **Acciones** > **Buscar por** > **Buscar por referencia de producto**.
 3. En la ficha desplegable **N.º de serie** y **N.º de lote**, introduzca los números de seguimiento de productos de los que desea realizar un seguimiento.  
 4. Elija la acción **Buscar** para buscar todos los casos números de serie o de lote en la base de datos.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Trabajar con números de serie, de lote y de paquete](inventory-how-work-item-tracking.md)  
