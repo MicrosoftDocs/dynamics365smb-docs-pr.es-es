@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="need-more-time-to-decide-whether-to-subscribe"></a>¿Necesita más tiempo para decidir si suscribirse?
+# ¿Necesita más tiempo para decidir si suscribirse?
 
 Es importante tomar la decisión correcta al elegir una aplicación de negocios y sabemos que puede llevar tiempo explorar todos los rincones de [!INCLUDE[prod_short](includes/prod_short.md)]. Si necesita más tiempo para finalizar su evaluación, puede ampliar el período de prueba otros 30 días más. Cuando se acerque la fecha de vencimiento de su período de prueba, cuando inicie sesión le mostramos una notificación para avisarle. La notificación contendrá un enlace a la guía **Ampliar período de prueba** que puede usar para ampliar su período de prueba. Los 30 días adicionales comienzan en el momento que elija **Ampliar versión de prueba** en la guía.
 
 Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No es posible hacerlo dos veces, al menos no por su parte. Si ya ha ampliado el período de prueba, su socio de Microsoft puede ampliarlo nuevamente para usted, lo que también es una cosa de una sola vez. Si aún no trabaja con un socio, vea [¿Cómo encuentro un socio distribuidor?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 
-## <a name="to-extend-your-trial-period"></a>Para ampliar su período de prueba
+## Para ampliar su período de prueba
 
 1. Inicie sesión en [!INCLUDE[prod_short](includes/prod_short.md)] en [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -31,7 +31,7 @@ Sin embargo, por su parte solo puede ampliar el período de prueba una vez. No e
 > [!TIP]
 > Si no puede ver la notificación, puede forzar [!INCLUDE [prod_short](includes/prod_short.md)] para ejecutar la guía de configuración asistida de la **Prueba ampliada** agregando el parámetro ```?page=1828``` a la URL, como en el siguiente ejemplo: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
 
-## <a name="what-happens-if-my-trial-period-is-expired"></a>¿Qué pasa si mi período de prueba ha expirado?
+## ¿Qué pasa si mi período de prueba ha expirado?
 
 Si su primer período de prueba de 30 días ha caducado, puede ampliarlo usted mismo. Simplemente inicie sesión en la empresa de demostración e inicie la guía **Ampliar período de prueba** desde la notificación.  
 
@@ -45,7 +45,7 @@ Cuando expire su período de prueba ampliado, puede [suscribirse](https://go.mic
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Versiones de prueba y suscripciones (solo en inglés)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Crear nuevas en empresas](about-new-company.md)  

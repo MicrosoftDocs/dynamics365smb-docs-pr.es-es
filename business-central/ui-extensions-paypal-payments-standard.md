@@ -10,7 +10,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Extensión PayPal Payments Standard
+# Extensión PayPal Payments Standard
 
 Los clientes requieren continuamente un servicio de atención al cliente mejor, ya sea en cuanto a la calidad de los productos o a las opciones de pago y envío. El servicio Paypal Payments Standard ayuda a mejorar el servicio de atención al cliente.
 
@@ -28,7 +28,7 @@ El servicio Paypal Payments Standard proporciona las ventajas siguientes:
 
 Para obtener más información, consulte [Permitir pagos de cliente a través de PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Configuración de ventas](sales-setup-sales.md)  

@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Vender productos de ensamblado para pedido y productos de inventario juntos
+# Vender productos de ensamblado para pedido y productos de inventario juntos
 
 Si el campo **Directiva de ensamblado** de la ficha de producto de un elemento del ensamblado contiene **Ensamblar para stock**, el proceso de pedido de venta supone que el producto está ensamblado y se puede ya seleccionar del inventario, si está disponible. Por tanto, no se crea ni vincula ningún pedido de ensamblado automáticamente a la línea de pedido de venta. Sin embargo, si no está disponible parte o la totalidad de la configuración de un elemento del ensamblado para ensamblar para stock, puede crear un pedido de ensamblado para la cantidad restante. Para ello, rellene el campo **Cantidad a ensamblar para pedido** en la línea del pedido de ensamblado. Esta configuración le permite ensamblar el producto para pedido aunque esté configurado para ensamblarse para stock.  
 
@@ -23,7 +23,7 @@ Tiene una flexibilidad similar cuando vende artículos ensamblados a pedido y pa
 > [!NOTE]  
 > El procedimiento siguiente no incluye los pasos de pedido de venta que necesita seguir antes de crear un pedido de ensamblado para las cantidades no disponibles.
 
-## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Para vender productos de ensamblado para pedido y productos de inventario juntos
+## Para vender productos de ensamblado para pedido y productos de inventario juntos
 
 1. En una línea de pedido de venta de un producto para ensamblarse para stock, escriba una cantidad en el campo **Cantidad** que sea mayor que el inventario. La página **Comprobación disponibilidad** aparecerá. Para obtener más información sobre la disponibilidad de artículos, vaya a [Ver la disponibilidad de artículos](inventory-how-availability-overview.md).
 2. En el campo **Cdad. al ensamblar para pedido**, introduzca el valor del campo **Cantidad total**.  
@@ -33,7 +33,7 @@ Tiene una flexibilidad similar cuando vende artículos ensamblados a pedido y pa
 > [!CAUTION]  
 > El campo **Cód. ubicación** en el pedido de venta podría contener el valor de lo scampos **Cód. ubic. ensamblar para pedido** o **Cód. ubic. desde ensamblado** en la ficha de almacén. Si es así, el campo **Cód. ubicación** de la línea de pedido de venta podría ser incorrecto para esta combinación de cantidades de ensamblar para pedido y ensamblar para stock. Es una buena idea hacer una doble comprobación de que la ubicación en el campo **Cód. ubicación** es válida para todas las cantidades. También puede introducir las dos cantidades en líneas de pedido de venta distintas.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  

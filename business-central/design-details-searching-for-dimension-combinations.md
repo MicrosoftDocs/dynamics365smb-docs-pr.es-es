@@ -9,13 +9,13 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-searching-for-dimension-combinations"></a>Detalles de diseño: Búsqueda de combinaciones de dimensiones
+# Detalles de diseño: Búsqueda de combinaciones de dimensiones
 Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLUDE[prod_short](includes/prod_short.md)] evalúa si existe el grupo de dimensiones editado. Si no existe el grupo, se crea uno nuevo y se devuelve el identificador de la combinación de dimensiones.  
 
-## <a name="building-search-tree"></a>Creación de árbol de búsqueda
+## Creación de árbol de búsqueda  
  La tabla 481 **Nodo árbol grupo dimensiones** se usa cuando [!INCLUDE[prod_short](includes/prod_short.md)] evalúa si ya existe un conjunto de dimensiones en la tabla 480 **Mov. grupo dimensiones**. La evaluación se realiza de forma recursiva recorriendo el árbol desde el nivel superior con el número 0. El nivel superior 0 representa un grupo de dimensiones sin movimientos de grupo de dimensiones. Los elementos secundarios de este grupo de dimensiones representan los grupos de dimensiones con un solo movimiento de grupo de dimensiones. Los elementos secundarios de estos grupos de dimensiones representan los grupos de dimensiones con dos elementos secundarios, etc.  
 
-### <a name="example-1"></a>Ejemplo 1
+### Ejemplo 1  
  En el diagrama siguiente se representa un árbol de búsqueda con seis grupos de dimensiones. En el diagrama solo se muestra el movimiento de grupo de dimensiones de diferenciación.  
 
  ![Ejemplo de estructura de árbol de dimensiones.](media/nav2013_dimension_tree.png "Ejemplo de estructura de árbol de dimensiones")  
@@ -32,14 +32,14 @@ Cuando se cierra una página después de editar un grupo de dimensiones, [!INCLU
 |Grupo 5|AREA 40|  
 |Grupo 6|AREA 40, PROJ VW|  
 
-### <a name="example-2"></a>Ejemplo 2
+### Ejemplo 2  
  En este ejemplo se muestra cómo evalúa [!INCLUDE[prod_short](includes/prod_short.md)] si existe un grupo de dimensiones compuesto por movimientos de grupo de dimensiones AREA 40, DEPT PROD.  
 
  Primero, [!INCLUDE[prod_short](includes/prod_short.md)] también actualiza la tabla **Nodo árbol grupo dimensiones** para garantizar que el árbol de búsqueda obedezca al diagrama siguiente. Por lo tanto, el grupo de dimensiones 7 se convierte en un elemento secundario del grupo de dimensiones 5.  
 
  ![Ejemplo de estructura de árbol de dimensiones en NAV 2013.](media/nav2013_dimension_tree_example2.png "Ejemplo de estructura de árbol de dimensiones en NAV 2013")  
 
-### <a name="finding-dimension-set-id"></a>Búsqueda del identificador de grupo dimensiones
+### Búsqueda del identificador de grupo dimensiones  
  En el nivel conceptual, **Id. principal**, **Dimensión** y **Valor dimensión** en el árbol de búsqueda se agrupan y se utilizan como la clave principal porque [!INCLUDE[prod_short](includes/prod_short.md)] atraviesa el árbol en el mismo orden que los movimientos de dimensiones. La función GET (registro) se usa para buscar el identificador del grupo de dimensiones. En el ejemplo de código siguiente se muestra cómo encontrar el identificador del grupo de dimensiones cuando hay tres valores de dimensión.  
 
 ```  
@@ -64,7 +64,7 @@ EXIT(DimSet.ID);
 
 ```  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
     
  [Detalles de diseño: Movimientos de grupo de dimensiones](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Información general de los movimientos del grupo dimensiones](design-details-dimension-set-entries-overview.md)   

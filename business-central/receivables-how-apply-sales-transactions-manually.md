@@ -11,7 +11,7 @@ ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Concilie los pagos de los clientes con un diario de recibos de efectivo o con asientos del libro mayor de clientes
+# Concilie los pagos de los clientes con un diario de recibos de efectivo o con asientos del libro mayor de clientes
 
 Cuando recibe un pago en efectivo de un cliente o realiza un reembolso en efectivo, puede aplicar el pago o reembolso para cerrar débitos o créditos abiertos. Puede especificar el importe a liquidar. Por ejemplo, puede liquidar pagos parciales en movimientos de cliente. El cierre de movimientos de cliente conserva las estadísticas de cliente, los extractos de cuenta, los intereses, etc. al día.
 
@@ -31,7 +31,7 @@ Puede liquidar movimientos de cliente de varias formas:
 > [!NOTE]  
 > Si el campo **Método liquidación** de la ficha del cliente contiene **Liq. por antigüedad**, los pagos se liquidan en el movimiento de crédito pendiente más antiguo, a menos que especifique manualmente un movimiento. Si el método de liquidación es **Manual**, siempre debe liquidar los movimientos manualmente.
 
-## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Para rellenar y registrar un diario de recibos de efectivo
+## Para rellenar y registrar un diario de recibos de efectivo
 
 Un diario de recibos de caja es un tipo de diario general. Puede usarlo para registrar transacciones en cuentas de contabilidad, bancos, clientes, proveedores y activos fijos. Puede liquidar el pago a una o más entradas del debe cuando registra el pago. También puede aplicar desde las entradas publicadas más tarde.
 
@@ -54,7 +54,7 @@ Un diario de recibos de caja es un tipo de diario general. Puede usarlo para reg
    2. En el campo **Cta. contrapartida**, seleccione la cuenta de efectivo para los pagos en efectivo, o la cuenta del banco correspondiente para otros pagos.
 10. Registre el diario.
 
-## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Para liquidar un pago a un solo movimiento de cliente
+## Para liquidar un pago a un solo movimiento de cliente
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , ingrese **Diario de recibos de efectivo** y elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
@@ -70,7 +70,7 @@ Un diario de recibos de caja es un tipo de diario general. Puede usarlo para reg
 10. Elija el botón **Aceptar**. La página **Diario de recibos de efectivo** ahora muestra el movimiento en los campos **Liq. por tipo documento** y **Liq. por n.º documento**.
 11. Registro el diario de cobros.
 
-## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Para liquidar un pago a varios movimientos de cliente
+## Para liquidar un pago a varios movimientos de cliente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diario de recibos de efectivo**, y luego elija el enlace relacionado.
 2. Seleccione la acción **Editar diario**.
@@ -87,7 +87,7 @@ Un diario de recibos de caja es un tipo de diario general. Puede usarlo para reg
 11. Elija el botón **Aceptar**.
 12. Registro el diario de cobros.
 
-## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Para liquidar un abono a un único movimiento de cliente
+## Para liquidar un abono a un único movimiento de cliente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de venta** y, a continuación, elija el vínculo relacionado.
 2. Abra el abono de venta correspondiente.
@@ -98,7 +98,7 @@ Un diario de recibos de caja es un tipo de diario general. Puede usarlo para reg
 5. Elija el botón **Aceptar**. La página **Memoria de crédito de ventas** ahora muestra la entrada que seleccionó en **Se aplica al documento. Escriba** y **Se aplica al doc. Nº** campos. Asimismo, muestra el importe del abono que se va a registrar, ajustado con los posibles descuentos por pronto pago.
 6. Registre el abono.
 
-## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Para liquidar un abono a varios movimientos de cliente
+## Para liquidar un abono a varios movimientos de cliente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de venta** y, a continuación, elija el vínculo relacionado.
 2. Abra el abono de venta correspondiente.
@@ -110,7 +110,7 @@ Un diario de recibos de caja es un tipo de diario general. Puede usarlo para reg
 6. Elija el botón **Aceptar**. La página **Abono de venta** mostrará el importe del abono para registrar, ajustado para los posibles descuentos de pago.
 7. Registre el abono.
 
-## <a name="to-apply-posted-customer-ledger-entries"></a>Para liquidar movimientos de clientes registrados
+## Para liquidar movimientos de clientes registrados
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abra la ficha de cliente para el cliente con los movimientos que desea liquidar.
@@ -131,7 +131,7 @@ En la lista de movimientos, en la línea que contiene el movimiento que se liqui
 > [!NOTE]  
 > Después de seleccionar un movimiento en la página **Liquidar movs. cliente** o varios movimientos estableciendo **Liq. por id.**, el campo **Importe liquidado** de la línea de diario contendrá la suma de los importes restantes de los movimientos registrados que haya seleccionado, a menos que el campo ya contenga algún valor. Si selecciona **Liq. por antigüedad** en el campo **Método de liquidación** de la ficha de cliente, la liquidación se realizará automáticamente.
 
-## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Para liquidar movimientos de cliente en divisas diferentes
+## Para liquidar movimientos de cliente en divisas diferentes
 
 Si vende a un cliente en una divisa y cobra en otra, aún puede liquidar la factura con el pago.  
 
@@ -149,7 +149,7 @@ Se debe habilitar la liquidación de movimientos de cliente en divisas diferente
 > [!IMPORTANT]  
 >   Si liquida movimientos en distintas divisas, los movimientos se convierten a divisa local. Aunque los tipos de cambio de las dos divisas son fijos, como entre USD y EUR, es posible que exista un pequeño importe residual al convertir los importes a USD. Estos importes residuales mínimos se registran como ganancias y pérdidas en la cuenta especificada en los campos **Cta. dif. pos. realizadas** o **Cta. dif. neg. realizadas** de la página **Divisas**. El campo **Importe (USD)** también se ajusta para los movimientos de proveedor.  
 
-## <a name="to-correct-an-application-of-customer-entries"></a>Para corregir una liquidación de movimientos de clientes
+## Para corregir una liquidación de movimientos de clientes
 Cuando corrige una aplicación, se crean y registran entradas de corrección para todas las entradas. Las entradas de corrección son las mismas que las originales pero tienen un registro opuesto en el campo **Cantidad**. Las entradas de corrección incluyen todas las entradas del libro mayor derivadas de la aplicación. Por ejemplo, el descuento de pago y las ganancias/pérdidas de divisas. Se vuelven a abrir las entradas que cerró la aplicación.  
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
@@ -163,7 +163,7 @@ Cuando corrige una aplicación, se crean y registran entradas de corrección par
 > [!IMPORTANT]  
 >   Si se ha liquidado un movimiento con más de un movimiento de liquidación, primero deberá deshacer la liquidación más reciente.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

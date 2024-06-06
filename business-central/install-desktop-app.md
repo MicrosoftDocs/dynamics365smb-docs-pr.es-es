@@ -10,11 +10,11 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="get-the-business-central-desktop-app"></a>Obtener la aplicación de escritorio Business Central
+# Obtener la aplicación de escritorio Business Central
 
 Si tiene un ordenador con Windows (PC) o macOS, puede instalar una aplicación [!INCLUDE [prod_short](includes/prod_short.md)] en su escritorio. La aplicación funciona con [!INCLUDE [prod_short](includes/prod_short.md)] Online y localmente.
 
-## <a name="why-use-the-app"></a>¿Por qué usar la aplicación?
+## ¿Por qué usar la aplicación?
 
 La aplicación [!INCLUDE [prod_short](includes/prod_short.md)] se parece al cliente web, pero ofrece algunos beneficios como:
 
@@ -25,11 +25,11 @@ La aplicación [!INCLUDE [prod_short](includes/prod_short.md)] se parece al clie
 
      Cuando abre la aplicación para un entorno específico, el nombre del entorno se incluye en el título de la ventana. Cuando se trabaja en varios entornos [!INCLUDE[prod_short](includes/prod_short.md)], cada ventana de la aplicación se muestra por separado. El nombre le facilita ver qué ventana está asociada con cada entorno.
 
-## <a name="install-the-app-for--online"></a>Instalar la aplicación para [!INCLUDE [prod_short](includes/prod_short.md)] Online
+## Instalar la aplicación para [!INCLUDE [prod_short](includes/prod_short.md)] Online
 
 Hay dos formas de instalar la aplicación para [!INCLUDE [prod_short](includes/prod_short.md)] Online. Puedes instalarla directamente desde el navegador o desde Microsoft Store. Cualquiera que sea el enfoque que utilice, es la misma aplicación. La diferencia es que la instalación desde el navegador le permite instalar la aplicación para cada entorno cuando hay más de uno.
 
-### <a name="from-microsoft-store"></a>Desde Microsoft Store
+### Desde Microsoft Store
 
 1. Vaya a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Escoja **Obtener** > **Instalar**. 
@@ -37,7 +37,7 @@ Hay dos formas de instalar la aplicación para [!INCLUDE [prod_short](includes/p
 
 La próxima vez que quiera abrir la aplicación, búsquela en el menú **Inicio**.
 
-### <a name="from-the-browser"></a>Desde el navegador
+### Desde el navegador
 
 1. Abra el cliente web [!INCLUDE[prod_short](includes/prod_short.md)] en Microsoft Edge o Google Chrome.
 
@@ -57,13 +57,13 @@ La próxima vez que quiera abrir la aplicación, búsquela en el menú **Inicio*
 
 Una vez instalada, la aplicación aparece en el menú **Inicio**. Si ha seleccionado un entorno específico para la aplicación, el nombre del entorno se agrega al nombre de la aplicación en el menú **Inicio**.
 
-## <a name="install-the-app-for--on-premises"></a>Instalar la aplicación para [!INCLUDE [prod_short](includes/prod_short.md)] de forma local
+## Instalar la aplicación para [!INCLUDE [prod_short](includes/prod_short.md)] de forma local
 
 La instalación de la aplicación de escritorio cuando utiliza [!INCLUDE [prod_short](includes/prod_short.md)] local se realiza directamente desde el navegador [según se describió anteriormente](#from-the-browser). Si solo tiene un inquilino, simplemente abra [!INCLUDE [prod_short](includes/prod_short.md)] en su navegador y, después, seleccione ![Icono para instalar una aplicación en Edge.](media/ui-edge-install-app-icon.png) **Aplicación disponible. Instalar Business Central** o ![Icono para instalar una aplicación en Chrome.](media/ui-chrome-install-app-icon.png) **Instalar Business Central** como se muestra arriba.
 
 La diferencia es cuando tiene varios inquilinos. A diferencia de [!INCLUDE[prod_short](includes/prod_short.md)] en línea, donde puede instalar la aplicación por separado para diferentes entornos, solo puede instalar la aplicación para un inquilino. Por lo tanto, antes de instalar la aplicación cuando tenga varios suscriptores, asegúrese de cambiar al suscriptor correcto. Una vez instalada, cuando abra la aplicación, abrirá directamente el inquilino.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Preguntas frecuentes sobre aplicaciones móviles](ui-mobile-faq.yml)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  

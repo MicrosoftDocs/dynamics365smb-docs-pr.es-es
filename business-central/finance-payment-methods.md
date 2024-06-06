@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-methods"></a>Configure formas de pago
+# Configure formas de pago
 
 Las formas de pago definen la forma en que prefiere que los clientes le paguen y cómo desea pagar a sus proveedores. El método puede variar para cada cliente o proveedor. Ejemplos de formas de pago habituales son **banco**, **efectivo**, **cheque** o **cuenta**.
 
@@ -22,7 +22,7 @@ Sin embargo, los abonos para devoluciones son excepciones porque el dinero fluye
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>Para configurar una forma de pago
+## Para configurar una forma de pago
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona algunas formas de pago que las empresas utilizan con frecuencia. Sin embargo, puede agregar tantas como necesite.
 
@@ -31,12 +31,12 @@ Sin embargo, los abonos para devoluciones son excepciones porque el dinero fluye
 
 Opcionalmente, agregue condiciones de pago a su método de pago. Para obtener más información, consulte [Configurar términos de pago](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Para asignar una forma de pago a un cliente o proveedor
+## Para asignar una forma de pago a un cliente o proveedor
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cliente** o **Proveedor** y luego elija el enlace relacionado.
 2. En el campo **Cód. forma pago**, seleccione la forma que se usará de forma predeterminada para el cliente o proveedor.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Registrar nuevos clientes](sales-how-register-new-customers.md)  
 [Configurar términos de pago](finance-payment-terms.md)  
