@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-image-analyzer-extension"></a>Extensión del analizador de imágenes
+# Extensión del analizador de imágenes
 
 La extensión del analizador de imagen utiliza análisis de imagen muy potentes proporcionados por la API de Computer Vision de Azure Cognitive Services para detectar los atributos de las imágenes que se importan para los elementos y las personas de contacto, de modo que pueda revisarlos y asignarlos fácilmente. Para los elementos, los atributos podrían ser si el elemento es una tabla o un automóvil, y si es rojo o azul. Para las personas de contacto, los atributos podrían ser el género o edad.
 
@@ -21,11 +21,11 @@ El analizador está disponible en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Después de habilitar la extensión, el analizador se ejecuta cada vez que importa una imagen a un elemento o persona de contacto. Verá los atributos, el nivel de confianza y los detalles de inmediato y podrá decidir qué hacer con cada atributo. Si ha importado imágenes antes de activar la extensión del analizador de imágenes, debe ir al elemento o a las tarjetas de contacto y seleccionar la acción **Analizar imagen**.  
 
-## <a name="privacy-notice"></a>Aviso de privacidad
+## Aviso de privacidad
 
 Esta extensión utiliza la API de Computer Vision de Azure Cognitive Services, que puede tener diferentes niveles de compromisos de cumplimiento que [!INCLUDE[prod_short](includes/prod_short.md)]. Cuando habilita la extensión del analizador de imágenes, los datos del cliente, como una imagen de contacto o una imagen de un producto, se enviarán a la API de Computer Vision. Al instalar esta extensión, acepta que este conjunto limitado de datos se envíe a la API de Computer Vision. Tenga en cuenta que puede desactivar, así como desinstalar, la extensión del analizador de imágenes en cualquier momento para interrumpir el uso de esta funcionalidad. Para obtener más información, consulte [Centro de confianza de Microsoft](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## <a name="requirements"></a>Requisitos
+## Requisitos
 
 Hay algunos requisitos para las imágenes:
 
@@ -33,7 +33,7 @@ Hay algunos requisitos para las imágenes:
 * Tamaño del archivo máximo: menos de 4 MB  
 * Dimensiones de la imagen: mayor de 50 x 50 píxeles  
 
-## <a name="switch-on-the-image-analyzer-extension"></a>Activar la extensión del analizador de imágenes
+## Activar la extensión del analizador de imágenes
 
 La extensión del analizador de imágenes viene incorporada en [!INCLUDE[prod_short](includes/prod_short.md)]. Solo necesita activarla.
 
@@ -48,7 +48,7 @@ Para activar la extensión del analizador de imágenes, lleve a cabo una de esta
     > [!TIP]  
     > La página **Configuración del análisis de imágenes** también permite cambiar el grado de confianza de las sugerencias de atributos. Por ejemplo, si desea exigir un mayor grado de confianza, puede introducir un porcentaje más alto.
 
-## <a name="analyze-an-item-image"></a>Analizar una imagen de producto
+## Analizar una imagen de producto
 
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
 
@@ -68,7 +68,7 @@ El campo **Acción para realizar** tiene las siguientes opciones:
 > [!NOTE]  
 > De forma predeterminada **Atributos del producto** muestra atributos donde la **Puntuación de confianza** está por encima del **% de umbral de puntuación de confianza** definido en el **Configuración de análisis de imagen**. Para ver todos los atributos detectados, elija la acción **Ver todos los atributos**.
 
-## <a name="analyze-a-contact-person-picture"></a>Analizar una imagen de persona de contacto
+## Analizar una imagen de persona de contacto
 
 Los siguientes pasos describen cómo analizar una imagen que se importó antes de activar la extensión del analizador.  
 
@@ -89,7 +89,7 @@ Los siguientes pasos describen cómo analizar una imagen que se importó antes d
     >
     > La API de Computer Vision no devuelve el nivel de confianza para los atributos de edad y género.
   
-## <a name="use-your-own-computer-vision-api-account"></a>Usar su propia cuenta de la API de Computer Vision
+## Usar su propia cuenta de la API de Computer Vision
 
 También puede utilizar su propia cuenta para la API de Computer Vision, por ejemplo, si desea analizar más imágenes de las que ofrece la integración predeterminada.
 
@@ -99,21 +99,21 @@ También puede utilizar su propia cuenta para la API de Computer Vision, por eje
     > [!NOTE]  
     > Si no está escrito, debe agregar **/analyze** al final de la API de URI. Por ejemplo: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Ver cuántos análisis ha dejado en el período actual
+## Ver cuántos análisis ha dejado en el período actual
 
 Puede ver el número de análisis que ha realizado y cuántos pueden hacerse en el período actual.  
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de análisis de imagen** y luego elija el enlace relacionado.
 2. Los campos **Tipo de límite**, **Valor de límite** y **Análisis realizados** proporcionan la información de uso.  
 
-## <a name="stop-using-the-image-analyzer-extension"></a>Detener el uso de la extensión del analizador de imágenes
+## Detener el uso de la extensión del analizador de imágenes
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Conexiones de servicio** y luego elija **Configuración de análisis de imagen**.  
 2. Desactive el campo **Activar analizador de imágenes**.  
 
 Opcionalmente, desinstale la extensión por completo. Siempre puede volver a recuperarla en AppSource. Para obtener más información, consulte [Instalación y desinstalación de extensiones en Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)  
 [Clasificar productos](inventory-how-categorize-items.md)  

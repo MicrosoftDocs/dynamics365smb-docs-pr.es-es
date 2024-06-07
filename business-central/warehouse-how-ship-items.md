@@ -11,7 +11,7 @@ ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment"></a>Enviar productos con envío de almacén
+# Enviar productos con envío de almacén
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], la selección y el envío de productos se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
@@ -38,7 +38,7 @@ Puede crear un envío de almacén de dos maneras:
 * De manera forzada, cuando el trabajo se realiza pedido por pedido. Elija la acción **Crear envío de almacén** en el documento de origen para crear un envío de almacén para el documento.
 * De forma forzada, donde usa la acción **Liberar** en el documento de origen para liberarlo al almacén. Un empleado de almacén crea una **Envío de almacén** para uno o varios documentos de origen emitidos. El siguiente procedimiento describe cómo crear un envío de almacén de manera forzada.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>Para enviar productos con un documento de envío de almacén
+## Para enviar productos con un documento de envío de almacén
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Envíos de almacén** y luego elija el enlace relacionado.  
 2. Elija **Nuevo**.  
@@ -75,7 +75,7 @@ Puede crear un envío de almacén de dos maneras:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Cómo utilizar filtros para obtener documentos de origen
+## Cómo utilizar filtros para obtener documentos de origen
 
 Desde un envío de almacén, puede utilizar la página **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que definen los productos para recibir o enviar.
 
@@ -91,14 +91,14 @@ Todas las líneas del documento original liberado que cumplan los criterios de f
 
 Puede crear un número ilimitado de combinaciones de filtros. Los filtros se guardan en la página **Filtros para traer docs. orig.** y están disponibles la próxima vez que las necesite. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
 
-## <a name="zone-and-bin-codes"></a>Códigos de zona y ubicación
+## Códigos de zona y ubicación
 
 Si los contenedores son obligatorios en la ubicación, [!INCLUDE [prod_short](includes/prod_short.md)] sugiere una zona y un código de ubicación en el documento de envío del almacén.
 
 * Para configuraciones avanzadas en las que el almacén utiliza un almacén y picking dirigidos,  [!INCLUDE [prod_short](includes/prod_short.md)] utiliza la ubicación especificada en el campo **Cód. ubicación envío** en el campo **Ficha de almacén**. Si no se especifica un **Cód. ubicación envío**, el campo está en blanco. Si el producto y la ubicación de envío no coinciden, [!INCLUDE [prod_short](includes/prod_short.md)] deja la ubicación de envío en blanco.
 * En otros casos, [!INCLUDE [prod_short](includes/prod_short.md)] siempre utiliza la ubicación especificada en el campo **Cód. ubicación envío** de la **Ficha almacén** primero. Si no se especifica un código de ubicación de envío, [!INCLUDE [prod_short](includes/prod_short.md)] usa el código de ubicación del documento de origen.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Tratamiento de productos ensamblar para pedido en los envíos de almacén
+## Tratamiento de productos ensamblar para pedido en los envíos de almacén
 
 En escenarios de ensamblar para pedido, use el campo **Cdad. a enviar** de las líneas de envío de almacén para registrar cuántas unidades se ensamblan. La cantidad se registra como salida de ensamblado cuando se registra el envío de almacén. Para las demás líneas de envío de almacén, el valor del campo **Cdad. a enviar** es cero.
 
@@ -116,7 +116,7 @@ Una vez registrado el envío de almacén, los distintos campos de la línea de p
 >
 > La cantidad ensamblada para pedido se maneja como se describe en este artículo. La cantidad de inventario se maneja como una línea de envío de almacén regular. Para obtener más información sobre los escenarios de combinación, vaya a [Comprender Ensamblar para pedido y Ensamblar para stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  

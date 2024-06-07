@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-inventory-data"></a>Análisis ad-hoc de datos de inventario
+# Análisis ad-hoc de datos de inventario
 
 En este artículo se explica cómo usar la característica de **Análisis de datos** para analizar datos de inventario directamente de las páginas de lista y consultas. No es necesario ejecutar un informe ni cambiar a otra aplicación, como Excel. La característica proporciona una forma interactiva y versátil de calcular, resumir y examinar datos. En lugar de ejecutar informes con opciones y filtros, puede agregar varias pestañas que representen diferentes tareas o vistas de los datos. Algunos ejemplos son "existencias a punto de expirar" o "los más vendidos", o cualquier otra vista que pueda imaginar. Para obtener más información sobre cómo utilizar la característica **Análisis de datos**, vaya a [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Utilice las siguientes páginas de lista para análisis ad hoc de procesos de in
 
 - [Movs. productos](https://businesscentral.dynamics.com/?page=38)
 
-## <a name="inventory-ad-hoc-analysis-scenarios"></a>Escenarios de análisis ad hoc de inventario
+## Escenarios de análisis ad hoc de inventario
 
 Utilice la característica **Análisis de datos** para una verificación rápida de hechos y un análisis ad hoc:
 
@@ -38,7 +38,7 @@ Las siguientes secciones proporcionan ejemplos de escenarios de inventario en [!
 | Rendimiento del inventario | Obtenga una descripción general de las compras y ventas de su inventario por mes o trimestre. | [Movs. productos](https://businesscentral.dynamics.com/?page=38) | **Año de fecha de registro**, **Mes de fecha de contabilización**, **N.º producto**, **Cantidad**, **Importe ventas**, **Importe coste (Real)** y **Mes de fecha de contabilización** |
 | [Movimientos de inventario] | Obtenga una descripción general de cómo se mueven los productos de su inventario entre ubicaciones. | [Movs. productos](https://businesscentral.dynamics.com/?page=38) | **Código de ubicación**, **Cantidad**, **Fecha de registro**, **N.º producto** |
 
-## <a name="example-inventory-on-hand"></a>Ejemplo: Inventario disponible
+## Ejemplo: Inventario disponible
 
 Para analizar los artículos de su inventario que están en stock, siga estos pasos:
 
@@ -54,7 +54,7 @@ La siguiente imagen muestra el resultado de estos pasos.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Ejemplo de cómo hacer un análisis de datos de inventario disponible." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## <a name="example-track-expiring-or-old-stock"></a>Ejemplo: seguimiento de existencias antiguas o expiradas
+## Ejemplo: seguimiento de existencias antiguas o expiradas
 
 Para analizar artículos de su inventario que han estado en existencias durante mucho tiempo y no se venden bien, siga estos pasos:
 
@@ -69,7 +69,7 @@ La siguiente imagen muestra el resultado de estos pasos.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Ejemplo de cómo realizar análisis de datos de stock muerto en la página Movimientos de productos" lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## <a name="example-returned-items-by-return-reason"></a>Ejemplo: artículos devueltos por motivo de devolución
+## Ejemplo: artículos devueltos por motivo de devolución
 
 Para analizar los artículos devueltos ordenados por los motivos de su devolución, siga estos pasos:
 
@@ -83,7 +83,7 @@ Para analizar los artículos devueltos ordenados por los motivos de su devoluci�
 1. Agregue cualquier otro campo que desee en el análisis y habilítelo en el área **Columnas**. Por ejemplo, puede agregar **Fecha de registro**, **Tipo documento**, **N.º producto** y **N.º de documento**.
 1. Cambie el nombre de su pestaña de análisis a **Artículos devueltos por motivo de devolución** o algo que describa este análisis.  
 
-## <a name="example-inventory-throughput"></a>Ejemplo: rendimiento del inventario
+## Ejemplo: rendimiento del inventario
 
 1. Abra la lista [Movimientos contables de producto](https://businesscentral.dynamics.com/?page=38) y elija :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entrar en el modo de análisis."::: para activar el modo de análisis.
 1. Vaya al menú **Columnas** y elimine todas las columnas (seleccione la casilla junto al campo **Buscar** a la derecha).
@@ -93,7 +93,7 @@ Para analizar los artículos devueltos ordenados por los motivos de su devoluci�
 1. Arrastre el campo **Mes de fecha de contabilización** y arrástrelo al área **Grupos de columnas**.
 1. Cambie el nombre de su pestaña de análisis a **Rendimiento de inventario por mes** o algo que describa este análisis para usted.  
 
-## <a name="inventory-movements"></a>Movimientos de inventario
+## Movimientos de inventario
 
 Para realizar un seguimiento de los movimientos de inventario entre ubicaciones, siga estos pasos:
 
@@ -107,7 +107,7 @@ Para realizar un seguimiento de los movimientos de inventario entre ubicaciones,
    > [!TIP]
    > Si agrega el campo Fecha de publicación, también puede realizar un seguimiento de los movimientos a lo largo del tiempo.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Base de datos para análisis ad hoc de inventario
+## Base de datos para análisis ad hoc de inventario
 
 Cuando se registra un pedido de venta, [!INCLUDE [prod_short](includes/prod_short.md)] actualiza la cuenta del cliente, la contabilidad general y los movimientos de producto.
 
@@ -117,7 +117,7 @@ Cuando registra un documento de compra, [!INCLUDE [prod_short](includes/prod_sho
 
 - Para cada línea de compra, según corresponda, se crean asientos en la tabla **Mov. producto** (si la línea de compra es del tipo de producto). Además, los documentos de compra siempre se registran en las tablas **Histórico cab. albarán compra** e **Histórico cab. factura compra**. Obtenga más información, vaya a [Registrar compras](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md)  
 [Información general de análisis de inventario](inventory-analytics-overview.md)  

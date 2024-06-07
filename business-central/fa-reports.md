@@ -9,19 +9,19 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Informes y análisis de activos fijos en Business Central
+# Informes y análisis de activos fijos en Business Central
 
 Para ayudarlo a administrar sus activos fijos en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
-## <a name="reports"></a>Informes
+## Informes
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="explore-finance-reports-with-report-explorer"></a>Explorar los informes financieros con el Explorador de informes
+## Explorar los informes financieros con el Explorador de informes
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Análisis ad-hoc de datos de activos fijos](ad-hoc-analysis-fa.md)     
 [Visión general del análisis de activos fijos](fa-analytics-overview.md)   

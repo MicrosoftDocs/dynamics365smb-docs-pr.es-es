@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="business-intelligence-quick-start"></a>Inicio rápido de inteligencia empresarial
+# Inicio rápido de inteligencia empresarial
 
 Poder recopilar y analizar las cantidades cada vez mayores de datos de una manera procesable es una parte inestimable de hacer negocios en estos días. [!INCLUDE[prod_short](includes/prod_short.md)] ofrece muchas herramientas de inteligencia empresarial &mdash;tanto incorporadas como integradas con otros servicios&mdash; para ayudar a su empresa en el proceso de toma de decisiones.
 
@@ -28,7 +28,7 @@ Los diferentes roles en las organizaciones a menudo tienen formas preferidas de 
 
 Para obtener más información sobre análisis, vaya a [Descripción general de análisis](reports-bi-reporting.md).
 
-## <a name="analytics-by-functional-area"></a>Análisis por área funcional
+## Análisis por área funcional
 
 La siguiente tabla proporciona enlaces a artículos que describen cómo trabajar con análisis en áreas funcionales específicas [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,7 +39,7 @@ La siguiente tabla proporciona enlaces a artículos que describen cómo trabajar
 | Compras | [Análisis de compras](purchasing-analytics-overview.md) |
 | Gestión de activos fijos | [Análisis de activos fijos](fa-analytics-overview.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Información general sobre el análisis](reports-bi-reporting.md)  
 [productos de inicio rápido de Business Central](quick-start-business-central.md)  

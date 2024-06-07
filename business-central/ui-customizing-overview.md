@@ -10,7 +10,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="customize-business-central"></a>Personalizar Business Central
+# Personalizar Business Central
 
 Existen diferentes formas de personalizar la aplicación para tener acceso a las funciones, la funcionalidad y los datos que más necesitan, de la manera que mejor se adapte a su trabajo diario. Aquellos que vean los cambios dependerán de lo que haga, como se describe en esta tabla.
 
@@ -27,7 +27,7 @@ Existen diferentes formas de personalizar la aplicación para tener acceso a las
 > [!NOTE]
 > Todas las descripciones de funciones que aparecen en la documentación de [!INCLUDE[prod_short](includes/prod_short.md)] asumen la experiencia **Premium**, lo que significa que las descripciones cubren todo el alcance de los elementos de la interfaz de usuario. Por lo tanto, los usuarios con la experiencia **Esencial** pueden leer en algunos temas acerca de la funcionalidad y los elementos de la IU que no están visibles en su interfaz de usuario. Para obtener más información, consulte [Cambiar las funciones que se muestran](ui-experiences.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

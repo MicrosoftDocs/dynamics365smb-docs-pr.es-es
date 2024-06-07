@@ -9,15 +9,15 @@ ms.date: 05/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a>Informes y análisis de ventas en Business Central
+# Informes y análisis de ventas en Business Central
 
 Los informes de ventas permiten a los profesionales de las ventas y los negocios obtener información y estadísticas sobre las actividades de ventas actuales y pasadas.  
 
-## <a name="reports"></a>Informes
+## Informes
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a>Tareas
+## Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su venta:
 
@@ -27,7 +27,7 @@ Los siguientes artículos describen algunas de las tareas clave para analizar el
 * [Seguimiento de paquete](sales-how-track-packages.md)
 * [Ver líneas de pedido de venta abierto registradas y no registradas](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## <a name="explore-sales-reports-with-report-explorer"></a>Explorar los informes de venta con el Explorador de informes
+## Explorar los informes de venta con el Explorador de informes
 
 Para obtener una descripción general de los informes disponibles para las ventas, elija **Todos los informes** en la página de inicio. Esta acción abre el explorador de roles, que se filtra según las funciones en la opción **Informe y análisis**. En el encabezado **Ventas y marketing**, elija **Explorar**.
 
@@ -35,7 +35,7 @@ Para obtener una descripción general de los informes disponibles para las venta
 
 Para obtener más información, vaya a [Búsqueda de informes con el explorador de roles](ui-role-explorer.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Análisis ad-hoc de datos de ventas](ad-hoc-analysis-sales.md)    
 [Información general de análisis de ventas](sales-analytics-overview.md)   

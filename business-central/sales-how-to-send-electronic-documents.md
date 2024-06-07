@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-electronic-documents"></a>Enviar documentos electrónicos
+# Enviar documentos electrónicos
 
 > [!NOTE]
 > El contenido de este artículo solo se aplica a las versiones de Dynamics 365 Business Central que se lanzaron antes del segundo lanzamiento de versiones de 2023. En el segundo lanzamiento de versiones de 2023, se incluye una nueva funcionalidad para documentos electrónicos. Para obtener más información, vea [Configurar documentos electrónicos](finance-how-setup-edocuments.md).  
@@ -20,7 +20,7 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite e
 
  Para enviar una factura de venta como documento electrónico de PEPPOL, seleccione la opción **Documento electrónico** en el cuadro de diálogo **Registrar y enviar**. Puede configurar también perfil de envío de documentos predeterminado del cliente desde ese cuadro de diálogo. En primer lugar, debe configurar los distintos datos maestros, como la información de la empresa, los clientes, los productos y las unidades de medida. Se utilizan para identificar a los socios comerciales y los productos al convertir los datos de los campos de [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>Para enviar una factura de venta electrónica
+### Para enviar una factura de venta electrónica
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 
@@ -45,7 +45,7 @@ La versión genérica de [!INCLUDE[prod_short](includes/prod_short.md)] admite e
     > [!NOTE]  
     >  También puede enviar una factura de venta registrada como documento electrónico. El procedimiento es el mismo que el descrito en este tema para documentos de venta no registrada. En la página **Factura venta reg.**, elija la acción **Registro de actividades** para ver el estado del documento electrónico.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Facturar ventas](sales-how-invoice-sales.md)  
 [Configurar perfiles de envío de documentos](sales-how-setup-document-send-profiles.md)  

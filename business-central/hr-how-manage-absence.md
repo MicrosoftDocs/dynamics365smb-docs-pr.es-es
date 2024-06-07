@@ -9,7 +9,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-employee-absence"></a>Gestionar ausencia empleados
+# Gestionar ausencia empleados
 Para administrar la ausencia de un empleado, se debe registrar en la página **Registro de ausencias**. Puede posteriormente hacer un seguimiento de distintas maneras para fines de análisis y creación de informes.
 
 Las ausencias de empleado se pueden ver en dos páginas diferentes:
@@ -19,7 +19,7 @@ Las ausencias de empleado se pueden ver en dos páginas diferentes:
 
 Para obtener unas estadísticas fiables, se debe utilizar siempre la misma unidad de medida (hora o día) al registrar las ausencias.
 
-## <a name="to-register-employee-absence"></a>Para registrar ausencias de empleados
+## Para registrar ausencias de empleados
 Puede registrar las ausencias de empleados diariamente o a algún otro intervalo que cubra sus necesidades de organización.
 
 1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Registro de ausencia** y, a continuación, seleccione el vínculo relacionado.
@@ -30,20 +30,20 @@ Puede registrar las ausencias de empleados diariamente o a algún otro intervalo
     > [!Tip]
     > Para obtener datos estadísticos significativos, utilice siempre la misma unidad de medida, hora o día, al registrar las ausencias.
 
-## <a name="to-view-an-individual-employees-absence"></a>Para ver las ausencias de un empleado en particular
+## Para ver las ausencias de un empleado en particular
 1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Empleados** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el empleado correspondiente y, a continuación, elija la acción **Ausencias**.
 
     La página **Ausencias empleado** se abre para mostrar todas las ausencias y la fecha en que comenzaron y finalizaron.
 
-## <a name="to-view-an-employees-absence-by-categories"></a>Para ver las ausencias de un empleado por categorías
+## Para ver las ausencias de un empleado por categorías
 1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Empleados** y, a continuación, seleccione el vínculo relacionado.
 2. Seleccione el empleado correspondiente y, a continuación, elija la acción **Ausencias por categorías**.
 3. En la página **Empl. ausencias por categorías**, rellene los campos de filtro que sean necesarios y después seleccione la acción **Mostrar matriz**.
 
     La página **Emp. matriz ausenc. por catgs.** se abre para mostrar todas las ausencias, desglosadas por causas de ausencia.
 
-## <a name="to-view-all-employee-absences-by-category"></a>Para ver todas las ausencias de empleados por la categoría
+## Para ver todas las ausencias de empleados por la categoría
 1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Registro de ausencia** y, a continuación, seleccione el vínculo relacionado.
 2. En la página **Registro de ausencias** elija la acción **Panorama por categorías**.
 3. En la página **Panorama ausencias por categs.**, establezca un filtro en el campo **Filtro nº empleado** para ver las ausencias de un solo empleado o de un grupo de empleados.
@@ -51,7 +51,7 @@ Puede registrar las ausencias de empleados diariamente o a algún otro intervalo
 
     La página **Panorama ausencias por matriz categs.** muestra las ausencias de todos los empleados, desglosadas por varias causas de ausencia.
 
-## <a name="to-view-all-employee-absences-by-period"></a>Para ver todas las ausencias de empleados por periodo
+## Para ver todas las ausencias de empleados por periodo
 1. En la esquina superior derecha, seleccione el icono **Buscar página o informe**, escriba **Registro de ausencia** y, a continuación, seleccione el vínculo relacionado.
    En la página **Registro de ausencias** elija la acción **Panorama por periodos**.
 2. En la página **Panorama de ausencias por periodos** defina un filtro en el campo **Filtro causa ausencia** para ver las ausencias de empleado por las causas de ausencia específicas.
@@ -59,7 +59,7 @@ Puede registrar las ausencias de empleados diariamente o a algún otro intervalo
 
     La página **Matriz panorama ausencias en periodos** muestra las ausencias del empleado, desglosadas por periodos.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Administrar recursos humanos](hr-manage-human-resources.md)  
 [Finanzas](finance.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

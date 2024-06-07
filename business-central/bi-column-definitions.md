@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="column-definitions-in-financial-reporting"></a>Definiciones de columnas en Financial Reporting
+# Definiciones de columnas en Financial Reporting
 
 Utilice las definiciones de columnas para especificar las columnas para incluir en un informe. Por ejemplo, puede diseñar una plantilla de informe para comparar el saldo del periodo y el saldo a la fecha del mismo periodo del año actual y del año anterior. Puede tener hasta 15 columnas en una definición de columna. Por ejemplo, las columnas múltiples son útiles para mostrar los presupuestos de 12 meses con una columna que muestre el total.
 
-## <a name="create-or-edit-a-column-definition"></a>Crear o editar una definición de columna
+## Crear o editar una definición de columna
 
 Para crear o editar una definición de columna, siga estos pasos.
 
@@ -28,7 +28,7 @@ Para crear o editar una definición de columna, siga estos pasos.
 1. Elija **Aceptar**.
 1. Abra la página **Informe financiero** de vez en cuando para verificar que la nueva definición de columna funciona del modo previsto.
 
-## <a name="built-in-column-definitions"></a>Definiciones de columna integradas
+## Definiciones de columna integradas
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona ejemplos de definiciones de columnas que pueden ayudarle a comenzar rápidamente a configurar informes financieros que se adapten a sus necesidades.
 
@@ -41,7 +41,7 @@ Para crear o editar una definición de columna, siga estos pasos.
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Ejemplo: Crear una definición de columna para calcular porcentajes
+## Ejemplo: Crear una definición de columna para calcular porcentajes
 
 Podría desear incluir una columna en un informe financiero para calcular los porcentajes de un total. Por ejemplo, si tiene filas que detallan las ventas por dimensión, podría desear crear una columna para indicar el porcentaje de las ventas totales en cada fila.
 
@@ -58,7 +58,7 @@ Podría desear incluir una columna en un informe financiero para calcular los po
     1. En el campo **Fórmula**, introduzca una fórmula para el importe para el que desea calcular un porcentaje, seguida del signo de porcentaje (%). Por tanto, si el número de columna N contiene los saldos periodos, escriba **N%**.  
 1. Repita los pasos del 4 al 7 para cada grupo de filas que desee subdividir por porcentaje.
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Comparación de períodos contables usando fórmulas de períodos
+## Comparación de períodos contables usando fórmulas de períodos
 
 El informe financiero puede comparar los resultados de diferentes períodos contables, como el mes pasado en comparación con el mismo mes del año anterior. Para ello, abra la página **Definición de columna** y personalícela agregando el campo **Fórmula del período de comparación** como columna. Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md). A continuación, puede establecer ese campo en una fórmula de período.  
 
@@ -94,7 +94,7 @@ Obtenga más información en [Trabajar con fechas y horas del calendario](ui-ent
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## <a name="import-or-export-financial-report-column-definitions"></a>Importar o exportar definiciones de columna de informes financieros
+## Importar o exportar definiciones de columna de informes financieros
 
 A partir del primer lanzamiento de versiones de 2024 (versión 24.1), puede importar y exportar definiciones de columnas de informes financieros como paquetes de configuración de RapidStart. Por ejemplo, los paquetes de configuración resultan útiles para compartir información con otras empresas. El paquete se crea en un archivo .rapidstart, que comprime los contenidos.
 
@@ -106,7 +106,7 @@ Para importar o exportar definiciones de columna de informes financieros, siga e
 1. Elija el icono ![Bombilla que abre la característica Dígame 4.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Definiciones de columna** y luego elija el vínculo relacionado.
 1. Seleccione la definición de línea y, a continuación, elija la acción **Importar definición de columna** o **Exportar definición de columna** en función de lo que desee hacer.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Definiciones de filas en informes financieros](bi-row-definitions.md)  
 [Preparar informes financieros](bi-how-work-account-schedule.md)  
