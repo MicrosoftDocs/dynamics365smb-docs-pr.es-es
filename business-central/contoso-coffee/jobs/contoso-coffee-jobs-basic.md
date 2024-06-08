@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Tutorial de trabajos básicos
+# <a name="walkthrough-of-basic-jobs"></a>Tutorial de trabajos básicos
 
 Este tutorial demuestra varios procesos principales:
 
@@ -16,13 +16,13 @@ Este tutorial demuestra varios procesos principales:
 - Registrar los gastos de tiempo y material de un proyecto
 - Facturar un proyecto
 
-## Agregar una tarea de proyecto
+## <a name="adding-a-project-task"></a>Agregar una tarea de proyecto
 
-### Escenario  
+### <a name="scenario"></a>Escenario
 
 Simon, el jefe de proyecto, quiere que se registre el tiempo dedicado a enseñar al cliente a utilizar el producto de la cafetera espresso. Simon quiere utilizar una tarea separada en el proyecto para instalar una máquina comercial en el sitio.
 
-### Pasos
+### <a name="steps"></a>Pasos
 
 1. Cree la tarea de proyecto.
 
@@ -38,17 +38,17 @@ Simon, el jefe de proyecto, quiere que se registre el tiempo dedicado a enseñar
    1. En el área Tareas, busque la acción **Sangría a tareas de proyecto**.
    2. Confirme que desea aplicar sangría a las tareas seleccionando **Sí**.
 
-### Resultados
+### <a name="results"></a>Resultados
 
  - Ahora se pueden registrar el tiempo y los gastos en la nueva tarea de proyecto
 
-## Registrar el tiempo y los gastos de material de un proyecto
+## <a name="record-time-and-material-expenses-to-a-project"></a>Registrar el tiempo y los gastos de material de un proyecto
 
-### Escenario  
+### <a name="scenario-1"></a>Escenario
 
 Edgin, el técnico que instala la máquina, necesita registrar en el trabajo el tiempo y los materiales utilizados durante la instalación para la facturación. Edgin ya agregó los viajes y los materiales, y ahora necesita agregar tiempo para enseñar al personal cómo usar la máquina.
 
-### Pasos
+### <a name="steps-1"></a>Pasos
 
 1. Cree líneas de diario de proyecto adicionales.
 
@@ -64,20 +64,20 @@ Edgin, el técnico que instala la máquina, necesita registrar en el trabajo el 
    1. Seleccione la acción **Registrar**.
    2. Confirme que desea publicar las líneas seleccionando **Sí**.
 
-### Resultados
+### <a name="results-1"></a>Resultados
 
 - Se crean asientos del Libro mayor de proyectos y Asientos del Libro mayor de recursos de tipo *Uso*
 - Se crean asientos del libro mayor de artículos para ajustar negativamente el inventario.
 - En la Ficha Proyecto, los Costes y Precios en el área de Tareas reflejan los nuevos saldos pendientes de facturar.
 - En la ficha Proyecto, el cuadro informativo Detalles del proyecto refleja los totales de los precios.
 
-## Creación de una factura de venta para un proyecto
+## <a name="creating-a-sales-invoice-for-a-project"></a>Creación de una factura de venta para un proyecto
 
-### Escenario  
+### <a name="scenario-2"></a>Escenario
 
 Simon necesita crear y publicar una factura para enviarla al cliente con el tiempo y los gastos del proyecto.
 
-### Pasos
+### <a name="steps-2"></a>Pasos
 
 1. Cree la factura de venta.
 
@@ -92,7 +92,7 @@ Simon necesita crear y publicar una factura para enviarla al cliente con el tiem
    2. Seleccione la última factura para abrirla y revisarla.
    3. Seleccione la acción **Registrar**.
 
-### Resultados
+### <a name="results-2"></a>Resultados
 
 - Se crean asientos del Libro mayor de proyectos y Asientos del Libro mayor de recursos de tipo *Ventas*.
 - En la Ficha Proyecto, los Costes y Precios en el área de Tareas reflejarán los nuevos saldos facturados.

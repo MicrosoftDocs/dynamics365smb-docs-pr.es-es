@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Análisis ad-hoc de datos financieros
+# <a name="ad-hoc-analysis-of-finance-data"></a>Análisis ad-hoc de datos financieros
 
 En este artículo se explica cómo usar la característica de **Análisis de datos** para analizar datos financieros directamente de las páginas de lista y consultas. No es necesario ejecutar un informe ni cambiar a otra aplicación, como Excel. La característica proporciona una forma interactiva y versátil de calcular, resumir y examinar datos. En lugar de ejecutar informes con opciones y filtros, puede agregar varias pestañas que representen diferentes tareas o vistas de los datos. Algunos ejemplos son "Activos totales a lo largo del tiempo", "Clientes", "Proveedores" o cualquier otra vista que pueda imaginar. Para obtener más información sobre cómo utilizar la característica **Análisis de datos**, vaya a [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Utilice las páginas de la lista siguiente para empezar a realizar análisis ad 
 - [Movs. clientes](https://businesscentral.dynamics.com/?page=25)
 - [Movs. proveedores](https://businesscentral.dynamics.com/?page=29)
 
-## Escenarios de análisis ad-hoc en finanzas
+## <a name="ad-hoc-analysis-scenarios-in-finance"></a>Escenarios de análisis ad-hoc en finanzas
 
 Utilice la característica **Análisis de datos** para una verificación rápida de hechos y un análisis ad hoc:
 
@@ -40,7 +40,7 @@ Las siguientes secciones proporcionan ejemplos de escenarios de finanzas en [!IN
 | [Finance (Extracto de ingresos)](#example-finance-income-statement) | Vea sus ingresos en las cuentas de ingresos del plan de cuentas, por ejemplo, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes. | [Movs. contabilidad](https://businesscentral.dynamics.com/?page=20) | **Número de cuenta de mayor**, **Fecha registro** e **Importe**. |
 | [Finance (total activo)](#example-finance-total-assets) | Vea sus activos en las cuentas de activos del plan de cuentas, por ejemplo, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes. | [Movs. contabilidad](https://businesscentral.dynamics.com/?page=20) | **Número de cuenta de mayor**, **Fecha registro** e **Importe**. |
 
-### Ejemplo: Finanzas (Cuentas por cobrar)
+### <a name="example-finance-accounts-receivable"></a>Ejemplo: Finanzas (Cuentas por cobrar)
 
 Para ver lo que sus clientes le deben, quizás desglosado en intervalos de tiempo para saber cuándo vencen los importes, siga estos pasos:
 
@@ -52,7 +52,7 @@ Para ver lo que sus clientes le deben, quizás desglosado en intervalos de tiemp
 1. Para realizar el análisis para un año o trimestre determinado, aplique un filtro en el menú **Filtros de análisis** (ubicado debajo del menú **Columnas** de la derecha).
 1. Cambie el nombre de su pestaña de análisis a **Cuentas antiguas por mes** o algo que describa este análisis.
 
-### Ejemplo: Finance (Proveedores)
+### <a name="example-finance-accounts-payable"></a>Ejemplo: Finance (Proveedores)
 
 Para ver lo que debe a sus proveedores, quizás desglosado en intervalos de tiempo para saber cuándo vencen los importes, siga estos pasos:
 
@@ -68,7 +68,7 @@ La siguiente imagen muestra el resultado de estos pasos.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Ejemplo de cómo realizar análisis de datos en la página Movimientos de cliente" lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### Ejemplo: Finanzas (Facturas de ventas por cuenta de mayor)
+### <a name="example-finance-sales-invoices-by-gl-account"></a>Ejemplo: Finanzas (Facturas de ventas por cuenta de mayor)
 
 Para ver cómo se distribuyen sus facturas de ventas en las cuentas de mayor desde el plan de cuentas, por ejemplo, desglosadas en intervalos de tiempo para cuando se registraron los montos, siga estos pasos:
 
@@ -88,7 +88,7 @@ La siguiente imagen muestra el resultado de estos pasos.
 
 :::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Ejemplo de cómo realizar un análisis de datos en la página Asientos del Libro mayor (para comprender las contabilizaciones de ventas)." lightbox="media/data-analysis-gl-entries-invoices.png":::
 
-### Ejemplo: Finance (Extracto de ingresos)
+### <a name="example-finance-income-statement"></a>Ejemplo: Finance (Extracto de ingresos)
 
 Para ver sus ingresos en las cuentas de ingresos del plan de cuentas, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes, siga estos pasos:
 
@@ -104,7 +104,7 @@ Para ver sus ingresos en las cuentas de ingresos del plan de cuentas, desglosado
 
 1. Cambie el nombre de su pestaña de análisis a **Ingresos por mes** o algo que describa este análisis.
 
-### Ejemplo: Finance (total activo)
+### <a name="example-finance-total-assets"></a>Ejemplo: Finance (total activo)
 
 Para ver sus activos en las cuentas de activos del plan de cuentas, desglosados en intervalos de tiempo según los cuales se contabilizaron los importes, haga lo siguiente.
 
@@ -120,7 +120,7 @@ Para ver sus activos en las cuentas de activos del plan de cuentas, desglosados 
 
 1. Cambie el nombre de su pestaña de análisis a **Ingresos por mes** o algo que describa este análisis.
 
-## Base de datos para análisis ad hoc de finanzas
+## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Base de datos para análisis ad hoc de finanzas
 
 Cuando contabiliza diarios, [!INCLUDE [prod_short](includes/prod_short.md)] crea entradas en la tabla **Mov. contabilidad**. Por lo tanto, el análisis ad hoc sobre finanzas generales generalmente se realiza en la página [Movs. Contabilidad](https://businesscentral.dynamics.com/?page=20) . Para cobros y pagos, puede analizar [Movimiento de clientes](https://businesscentral.dynamics.com/?page=25) y [Movimiento de proveedores](https://businesscentral.dynamics.com/?page=29), respectivamente.
 
@@ -129,7 +129,7 @@ Para obtener más información, vaya a los siguientes artículos:
 - [Base de datos para análisis ad hoc de ventas](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Base de datos para análisis ad hoc de compras](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Analizar datos de lista y consulta con el modo de análisis](analysis-mode.md)  
 [Información general del análisis financiero](bi.md)  

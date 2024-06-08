@@ -9,7 +9,7 @@ ms.date: 05/25/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Prepárese para hacer negocios
+# <a name="get-ready-for-doing-business"></a>Prepárese para hacer negocios
 
 Enhorabuena, acaba de iniciar su primera empresa en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -22,7 +22,7 @@ También puede encontrar la lista de guías de configuración asistida si elige 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Introducción
+## <a name="get-started"></a>Introducción
 
 Cuando inicia sesión por primera vez o lanza una nueva empresa, la lista de comprobación **Introducción** le lleva por los pasos para prepararse para el negocio. Los pasos varían según su país o región y cualquier funcionalidad específica del sector que haya agregado a su [!INCLUDE [prod_short](includes/prod_short.md)]. A partir del lanzamiento de versiones 2 de 2021, cuando inicie sesión por primera vez en la empresa de demostración CRONUS, su página de inicio está optimizada para sus primeras experiencias. Si prefiere ver más vínculos a más páginas, simplemente cambie al rol de administrador de negocio. Para obtener más información, consulte [Cambiar configuración básica](ui-change-basic-settings.md).  
 
@@ -37,13 +37,13 @@ Si un área no está cubierta por una configuración asistida, elija el icono ![
 
 Cuando ha ejecutado una guía de configuración asistida, se marca como **Completado**.  
 
-## Consejos didácticos y recorridos
+## <a name="teaching-tips-and-tours"></a>Consejos didácticos y recorridos
 
 [!INCLUDE [prod_short](includes/prod_short.md)] incluye recorridos a los productos y consejos didácticos que pueden ayudarle a comenzar. En la versión actual, hay recorridos por los pasos de la lista **Introducción** y algunas de las páginas más utilizadas en la empresa de demostración, como la página de la ficha **Factura de venta**.  
 
 Los consejos didácticos son mensajes cortos que informan, recuerdan o enseñan sobre funcionalidades nuevas e importantes que se inician automáticamente cuando abre una página. Por ejemplo, para ver el consejo didáctico para la ficha **Factura de venta**, elija el vínculo en la esquina superior izquierda de la página donde dice *Factura de venta*. Esto lanza una leyenda con una breve descripción de la página y de lo que puede hacer ahí. Si existe un recorrido para la página, un vínculo le invita a realizar el recorrido. El vínculo *Más información* le lleva a la Ayuda del producto para la página.
 
-## Páginas de inicio específicas de rol
+## <a name="role-specific-home-pages"></a>Páginas de inicio específicas de rol
 
 En función de su rol, la página de inicio proporciona una vista general del negocio. En la parte superior, puede ver una barra de navegación que le da un acceso sencillo a los clientes, proveedores, productos, etc. En el centro se encuentra el mosaico **Actividades**. **Actividades** muestra los datos actuales y se puede hacer clic o pinchar sobre él para conseguir un acceso fácil al documento seleccionado.
 
@@ -54,11 +54,11 @@ Use las flechas para contraer una parte de la página y haga más espacio para m
 > [!TIP]  
 > Puede volver a la página de inicio seleccionando el nombre de la empresa en la esquina superior izquierda.
 
-## Información de empresa
+## <a name="company-information"></a>Información de empresa
 
 En **Configuración de la empresa** puede ver y editar información de configuración sobre la empresa actual, mucha de la cual se rellenó previamente si completó la configuración asistida **Configurar empresa** al registrarse en [!INCLUDE[prod_short](includes/prod_short.md)]. Si desea cambiar el logotipo de la empresa, la información de contacto, la configuración del banco o la información de los impuestos, puede hacerlo desde esta página.  
 
-## Agregar usuarios y permisos
+## <a name="adding-users-and-permissions"></a>Agregar usuarios y permisos
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -66,11 +66,11 @@ Agrega usuarios en el centro de administración de Microsoft 365. Para obtener m
 
 Cuando los usuarios se crean en Microsoft 365, se pueden importar en la página **Usuarios** mediante la acción **Obtener actualizaciones desde Office 365**. Después podrá continuar con la asignación de permisos a usuarios y la organización en grupos de usuarios. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md).  
 
-## Ayuda de productos
+## <a name="product-help"></a>Ayuda de productos
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Para obtener más información, consulte [Recursos para ayuda y soporte técnico](product-help-and-support.md).  
 
-### Configure su empresa en [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-"></a>Configure su empresa en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Los artículos de [inicio rápido](quick-start-business-central.md) pueden ayudarle a dar los primeros pasos para configurar [!INCLUDE [prod_short](includes/prod_short.md)] para su organización. En [!INCLUDE [prod_short](includes/prod_short.md)], la página **Configuración asistida** enumera las guías de configuración asistida que pueden ayudarlo. Dependiendo de su rol y país o región, la página muestra diferentes guías de configuración del asistente, como se mustra en la siguiente tabla:
 
@@ -92,11 +92,11 @@ Los artículos de [inicio rápido](quick-start-business-central.md) pueden ayuda
 
 La página **Configuración asistida** puede contener otras entradas. Cuando realice una configuración, esta se marcará como **Completada**. Puede configurar otras áreas de la empresa mediante la configuración manual. Para obtener más información, consulte [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 
 Según sus datos migrados, ahora puede empezar a crear nuevos documentos de compra o venta. Use la sección **Acciones** de su página de inicio para crear rápidamente una nueva oferta de venta, factura de venta, pedido de venta, factura de compra o registro de venta. Eche un vistazo a los artículos de [inicio rápido](quick-start-business-central.md) que le ayudarán a dar los primeros pasos.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Inicio rápido de Business Central](quick-start-business-central.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

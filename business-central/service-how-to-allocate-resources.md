@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Asignar recursos
+# <a name="allocate-resources"></a>Asignar recursos
 El principal elemento de la gestión del servicio son las personas que lo prestan. Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para asignar el personal adecuado a los proyectos correspondientes. Las asignaciones se pueden basar en zonas de servicio donde se encuentran las personas o donde tiene lugar el servicio. Además, puede agrupar los recursos al responder a solicitudes de servicio. Para obtener más información, vea [Asignación de recursos](service-how-setup-resource-allocation.md).
 
 Puede asignar recursos, por ejemplo, para técnicos, mediante **Panel despacho**, o desde una orden de servicio. Puede utilizar la disponibilidad de recursos y asignarlos para ejecutar las tareas de servicio de las órdenes u ofertas.
 
 Puede asignar el mismo recurso, por ejemplo, un técnico, o grupo de recursos a todos los productos de un pedido de servicio. Se crean movimientos de asignación para los otros productos de servicio del pedido que tengan el mismo número de recurso y fecha de asignación que la línea asignada. Las horas asignadas son las horas asignadas divididas por el número de productos de servicio del pedido. El campo **Estado** se establece automáticamente como **Activo** para todos los movimientos creados.
 
-## Para ver un resumen de las ofertas o los pedidos de servicio  
+## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Para ver un resumen de las ofertas o los pedidos de servicio
 A menudo puede que necesite ver la lista de pedidos de servicio u ofertas de servicio que cumplen determinados requisitos para poder realizar acciones específicas con ellas una a una. Por ejemplo, puede que tenga que asignar recursos a pedidos de servicio que pertenecen a un cliente específico.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Panel despacho** y luego elija el enlace relacionado.  
@@ -30,7 +30,7 @@ A menudo puede que necesite ver la lista de pedidos de servicio u ofertas de ser
 
     Se abrirá la página **Pedido de servicio** u **Oferta servicio** y podrá trabajar con el documento. Para volver a la página **Panel despacho**, elija **Aceptar**.
 
-## Para asignar un recurso mediante disponibilidad de grupo de recursos o grupos de recursos    
+## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Para asignar un recurso mediante disponibilidad de grupo de recursos o grupos de recursos
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Panel despacho** y elija el enlace relacionado.  
 2. Elija la orden de servicio y, a continuación, elija la acción **Asignaciones recurso**.  
 3. Elija el movimiento que contenga la tarea de servicio a la que desea asignar un recurso.  
@@ -48,7 +48,7 @@ A menudo puede que necesite ver la lista de pedidos de servicio u ofertas de ser
 > [!NOTE]  
 >  En el caso de un producto de servicio de un pedido de servicio, sólo pueden existir movimientos de asignación **Activos** con un solo recurso o grupo de recursos a la vez.  
 
-## Para asignar un recurso mediante un pedido de servicio  
+## <a name="to-allocate-a-resource-using-a-service-order"></a>Para asignar un recurso mediante un pedido de servicio
 Después de crear y rellenar un pedido de servicio o una oferta de servicio, puede asignar recursos (por ejemplo, técnicos) para realizar tareas de servicio registradas como líneas de producto de servicio en el documento.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de servicio** y luego elija el enlace relacionado.  
@@ -64,7 +64,7 @@ Después de crear y rellenar un pedido de servicio o una oferta de servicio, pue
 > [!NOTE]  
 >  En el caso de un producto de servicio de un pedido de servicio, sólo pueden existir movimientos de asignación con el estado Activos con un solo recurso o grupo de recursos a la vez.
 
-## Para reasignar recursos en un pedido de servicio  
+## <a name="to-reallocate-resources-on-a-service-order"></a>Para reasignar recursos en un pedido de servicio
 Puede reasignar recursos directamente desde un pedido u oferta de servicio cuando está trabajando con ellos. El movimiento original seguirá existiendo, pero su estado se actualizará de la siguiente forma:  
 
 * Si se inició el servicio mientras la asignación estaba **Activa**, es decir, si el estado de reparación del producto de servicio del movimiento se cambió a **En proceso**, el estado de asignación cambia de **Reasignación necesaria** a **Terminado**.  
@@ -78,7 +78,7 @@ Puede reasignar recursos directamente desde un pedido u oferta de servicio cuand
 5. Seleccione <kbd>Entrar</kbd>. Se abre un cuadro de diálogo en el que se le pregunta si desea reasignar el movimiento. Rellene el campo **Cód. auditoría** si es necesario y elija el botón **Sí** para confirmar la reasignación.  
 6. Rellene los campos **Fecha asignación** y **Horas asignadas**. Ahora el movimiento contiene el nuevo recurso y su estado es **Activo**.
 
-## Para reasignar un recurso con el panel despacho  
+## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Para reasignar un recurso con el panel despacho
 Si el recurso asignado a una tarea de servicio no puede realizar el trabajo, la tarea de servicio debe reasignarse. Normalmente, se reasignan recursos a una tarea de servicio mediante el **Panel despacho**.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Panel despacho** y luego elija el enlace relacionado.  
@@ -96,7 +96,7 @@ Si el recurso asignado a una tarea de servicio no puede realizar el trabajo, la 
     > * Si no se inició el servicio mientras la asignación estaba **Activa**, el estado de asignación cambia de **Reasignación necesaria** a **Cancelado**.  
     > * Si reasigna un pedido de servicio convertido de una oferta, el estado de los movimientos de asignación registrados para la oferta siempre cambia a **Terminado** cuando se reasignan los productos de servicio del pedido de servicio.  
 
-## Para registrar horas de recursos  
+## <a name="to-register-resource-hours"></a>Para registrar horas de recursos
 Al trabajar en productos de servicio de pedidos de servicio, deberá registrar las horas de recursos empleadas en el servicio. El siguiente procedimiento muestra cómo registrar las horas de recursos en la página **Hoja trabajo producto servicio**.  
 
 Puede utilizar el mismo procedimiento para registrar las horas en la página **Líneas servicio**, que podrá abrir desde la página Pedido de servicio. Abra la ficha de servicio correspondiente y elija la acción **Líneas servicio**.  
@@ -107,7 +107,7 @@ Si el mismo recurso trabaja en todos los productos de servicio del pedido de ser
 2. Elija la línea que contiene el producto de servicio en cuestión y, a continuación, elija la acción **Hoja de producto**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Para asignar recursos a todos los productos de servicio de un pedido
+## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Para asignar recursos a todos los productos de servicio de un pedido
 Si el mismo recurso, por ejemplo, un técnico, trabaja en todos los productos de servicio del pedido de servicio, puede registrar el total de horas de recursos para un solo producto de servicio y, a continuación, dividir la línea de recurso para asignar las horas de recursos a las líneas de recurso de los otros productos de servicio.  
 
 El siguiente procedimiento muestra cómo dividir líneas de recurso en la página **Líneas factura servicio**.  
@@ -120,7 +120,7 @@ El siguiente procedimiento muestra cómo dividir líneas de recurso en la págin
 
     Se crearán líneas de recurso para los otros productos de servicio del pedido que tengan el mismo número de recurso que la línea dividida. La cantidad es la cantidad de la línea dividida entre el número de productos de servicio del pedido.  
 
-## Para cancelar una asignación  
+## <a name="to-cancel-an-allocation"></a>Para cancelar una asignación
 Puede cancelar las asignaciones de recursos para las tareas de servicio sin reasignar las tareas.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Panel despacho** y luego elija el enlace relacionado.  
@@ -133,7 +133,7 @@ Puede cancelar las asignaciones de recursos para las tareas de servicio sin reas
     > [!NOTE]  
     > En el campo **Estado**, se selecciona automáticamente la opción **Reasignación necesaria**. Si el estado de reparación del producto de servicio del movimiento es **Inicial**, el estado de reparación cambia a **Remitido**, es decir, no se ha iniciado ningún servicio. Si el estado de reparación es **En proceso**, éste cambia a **Parcialmente servido**, es decir, se ha realizado parte del servicio.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Configurar asignación de recursos](service-how-setup-resource-allocation.md)  
 [Estado de asignación y estado de reparación](service-allocation-status-and-repair-status.md)  
 

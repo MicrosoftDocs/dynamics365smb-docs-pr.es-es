@@ -10,11 +10,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Uso de indicadores clave de rendimiento (KPI) para alcanzar sus objetivos comerciales
+# <a name="using-key-performance-indicators-kpis-to-meet-your-business-goals"></a>Uso de indicadores clave de rendimiento (KPI) para alcanzar sus objetivos comerciales
 
 Un indicador clave de rendimiento (KPI) es un valor medible que muestra la eficacia con la que está cumpliendo sus objetivos. Piense en los KPI como el cuadro de mandos de su empresa, una forma de medir si está cumpliendo o no sus objetivos.
 
-## Por qué son importantes los KPI
+## <a name="why-kpis-matter"></a>Por qué son importantes los KPI
 
 La identificación y el seguimiento de los KPI le permiten saber si su empresa va por el camino correcto o si debe cambiar de rumbo para evitar perder tiempo y dinero valiosos. Cuando se utilizan correctamente, los KPI son herramientas poderosas que le ayudan a:
 
@@ -25,7 +25,7 @@ La identificación y el seguimiento de los KPI le permiten saber si su empresa v
 - Motivar a los miembros del equipo.
 - Tomar decisiones mejores más rápido.
 
-## Comenzar a identificar sus KPI
+## <a name="get-started-identifying-your-kpis"></a>Comenzar a identificar sus KPI
 
 Entonces, ¿cómo empezar a identificar los KPI que son importantes para su negocio? Comience por aclarar sus objetivos estratégicos, colectivamente o por departamento.
 
@@ -35,7 +35,7 @@ A continuación, identifique los objetivos de KPI para los que está trabajando 
 
 Hable con su equipo y fomente el diálogo abierto sobre los KPI y sus objetivos. ¿Son demasiado agresivos? ¿Demasiado fácil? Los objetivos deberían ser desafiantes, pero si son demasiado inverosímiles o dependen completamente de métricas que su equipo no controla, sería prudente revisarlos. También querrá explorar las actividades y tácticas que utilizará su empresa para lograr esos objetivos. Por último, tómese el tiempo para evaluar dónde se encuentra hoy; este será su punto de partida de KPI.
 
-## Conozca los diferentes tipos de KPI
+## <a name="get-to-know-the-different-types-of-kpis"></a>Conozca los diferentes tipos de KPI
 
 Identificar qué KPI debe realizar un seguimiento se vuelve más fácil cuando comprende mejor los tipos de KPI que se utilizan más comúnmente para medir el progreso.
 
@@ -47,7 +47,7 @@ Identificar qué KPI debe realizar un seguimiento se vuelve más fácil cuando c
 
 Para cada KPI que elija rastrear, asigne un propietario y acuerde la frecuencia de seguimiento. Independientemente de los KPI que decida seguir, utilizar una plataforma o herramienta de KPI es clave para colaborar con su equipo en las definiciones de KPI. Al definir colectivamente cada KPI, luego capturar datos contextuales y unificarlos en una sola vista, permite acciones precisas en tiempo real.
 
-## Informes de KPI
+## <a name="kpi-reporting"></a>Informes de KPI
 
 Los informes de KPI llevan la información presentada en el panel de KPI a un nuevo nivel. Profundizan en los datos para obtener información y análisis más detallados.
 
@@ -68,7 +68,7 @@ Las consideraciones adicionales para crear sus informes KPI incluyen:
 - Presentar solo los KPI relevantes para no sobrecargar el informe con KPI que no se corresponden con los objetivos del informe.
 - Asegúrese de que sus informes sean claros, fáciles de entender y procesables para la audiencia prevista.
 
-## Herramientas para implementar KPI
+## <a name="tools-for-implementing-kpis"></a>Herramientas para implementar KPI
 
 La siguiente tabla enlaza con artículos sobre cómo utilizar herramientas de informes e inteligencia empresarial con datos de [!INCLUDE[prod_short](includes/prod_short.md)] para implementar KPI.
 
@@ -79,7 +79,7 @@ La siguiente tabla enlaza con artículos sobre cómo utilizar herramientas de in
 | [Analizar extractos financieros con Microsoft Excel](finance-analyze-excel.md) |
 | Integre herramientas de inteligencia de negocios externas con [!INCLUDE[prod_short](includes/prod_short.md)].| [Herramientas de inteligencia empresarial externas](reports-external-analysis.md) |
 
-## Prácticas recomendadas de KPI
+## <a name="kpi-best-practices"></a>Prácticas recomendadas de KPI
 
 Para ayudarle a aprovechar con éxito el poder de los KPI, hemos recopilado algunos consejos para que pueda comenzar.
 
@@ -96,7 +96,7 @@ Seguimiento de KPI:
 - Determine una cadencia para supervisar y actuar sobre los KPI. ¿Los paneles de KPI se supervisan diaria o semanalmente? ¿Las acciones sólo se producen después de informar o están las partes interesadas y/o los miembros del equipo facultados para ajustar las tácticas a lo largo del camino?
 - Asegúrese de contar con una protección de datos simple y de extremo a extremo para los paneles de datos, con controles para compartir fuera de la organización.
 
-## Errores comunes de KPI
+## <a name="common-kpi-mistakes"></a>Errores comunes de KPI
 
 Evite estos errores comunes de KPI:
 
@@ -106,7 +106,7 @@ Evite estos errores comunes de KPI:
 - Seguimiento de KPI sin propietarios. La rendición de cuentas importa, no solo por los resultados sino también por el proceso. Cada KPI debe tener un propietario responsable del seguimiento, la generación de informes, el análisis y la acción.
 - No tomar medidas sobre sus KPI. Ya sea que esté cumpliendo sus objetivos o quedándose atrás, los KPI son herramientas que le ayudarán a tomar mejores decisiones. Así que no realice un seguimiento por el simple hecho de realizar un seguimiento: actúe.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Información general de análisis](reports-bi-reporting.md)  
 [Uso de informes financieros para crear extractos financieros y KPI](bi.md)  

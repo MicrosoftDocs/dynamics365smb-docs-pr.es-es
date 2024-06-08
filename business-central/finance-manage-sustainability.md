@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Información general de la administración de la sostenibilidad
+# <a name="sustainability-management-overview"></a>Información general de la administración de la sostenibilidad
 
 > [!IMPORTANT]
 > Esta característica estará disponible en Business Central a partir del **primer lanzamiento de versiones de 2024**. Todos los vínculos de referencia se habilitarán una vez que estén disponibles.
@@ -42,7 +42,7 @@ Para iniciarse con la administración de sostenibilidad, use los artículos sigu
 | [Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md) | Este artículo proporciona información sobre cómo configurar correctamente el plan de cuentas de sostenibilidad (CoSA), las categorías de cuentas y las subcategorías, y cómo analizar la información en las entradas de sostenibilidad. |
 | [Registrar entradas de sostenibilidad](finance-sustainability-journal.md) | Utilice este artículo para aprender a trabajar con todo tipo de diarios de sostenibilidad. |
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configuración de sostenibilidad](finance-sustainability-setup.md)  
 [Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md)  

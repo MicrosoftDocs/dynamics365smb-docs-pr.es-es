@@ -10,7 +10,7 @@ ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Administre y concilie sus cuentas bancarias
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Administre y concilie sus cuentas bancarias
 
 Se debe completar una conciliación de banco a intervalos regulares para todos sus bancos para garantizar que los registros de caja de la empresa sean correctos. Para ello, compare y haga corresponder los movimientos en sus bancos internos con las transacciones bancarias en su banco, y luego registre los saldos en sus bancos internos para que los totales estén disponibles para los directores financieros. La conciliación bancaria también es una forma práctica de descubrir y resolver pagos faltantes y errores de contabilidad.
 
@@ -31,7 +31,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 > [!TIP]
 > Use la conciliación bancaria para ayudar a comprobar que sus libros estén actualizados y no publique la conciliación hasta que esté satisfecho con la conciliación.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar banca](bank-setup-banking.md)  
 [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)  

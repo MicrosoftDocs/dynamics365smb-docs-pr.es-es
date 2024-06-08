@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-## Procedimientos recomendados para trabajar con definiciones de columna
+## <a name="best-practices-for-working-with-column-definitions"></a>Procedimientos recomendados para trabajar con definiciones de columna
 
 Las definiciones de columnas no tienen versiones. Cuando cambia la definición de una columna, la versión anterior se reemplaza si el cambio se guarda en la base de datos. La siguiente lista contiene algunos procedimientos recomendados para trabajar con definiciones de columna:
 
