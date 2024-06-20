@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics"></a>Análisis financiero
+# Análisis financiero
 
 Las empresas capturan una enorme cantidad de datos durante las actividades diarias que respaldan la valiosa inteligencia empresarial (BI) para los tomadores de decisiones:
 
@@ -33,7 +33,7 @@ Cada una de estas características tiene sus propias ventajas y desventajas, seg
 
 Este artículo presenta cómo puede utilizar estas características analíticas para proporcionar información financiera.
 
-## <a name="analytics-needs-in-finance"></a>Necesidades de análisis en finanzas
+## Necesidades de análisis en finanzas
 
 Al pensar en las necesidades de análisis en finanzas, podría resultar útil utilizar un modelo mental basado en personas descritas en un alto nivel y sus diferentes necesidades de análisis.
 
@@ -49,7 +49,7 @@ Las personas que desempeñan diferentes roles tienen diferentes necesidades en l
 |Admin. financiera | Tendencias, resúmenes | Informes de gestión integrados <br> Análisis ad hoc      | 
 |Contable         | Datos detallados     | Informes operativos integrados <br> Datos de tareas en pantalla |
 
-## <a name="finance-kpis"></a>KPI financieros
+## KPI financieros
 
 Un indicador clave de rendimiento (KPI) es un valor medible que muestra la eficacia con la que está cumpliendo sus objetivos. En finanzas, las personas suelen utilizar los siguientes KPI para monitorear la salud financiera de su organización:
 
@@ -67,7 +67,7 @@ Un indicador clave de rendimiento (KPI) es un valor medible que muestra la efica
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Uso de informes financieros para crear extractos financieros y KPI
+## Uso de informes financieros para crear extractos financieros y KPI
 
 La característica **Informes financieros** le permite obtener información sobre los datos financieros que se muestran en su plan de cuentas (COA). Puede configurar informes financieros para analizar cifras en cuentas de contabilidad (G/L) y comparan los movimientos de contabilidad con los presupuestados. Los resultados se muestran en gráficos e informes en la página de inicio, como el gráfico de flujo de efectivo y los informes Balance de ingresos y Balance.
 
@@ -87,13 +87,13 @@ En la tabla siguiente se indican una serie de tareas en informes financieros con
 | Configurar vistas para analizar datos usando dimensiones.|[Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)|
 | Crear nuevos informes de análisis para ventas, compras y existencias, así como configurar plantillas de análisis. |[Crear informes de análisis](bi-how-create-analysis-views-reports.md)|
 
-## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Informes financieros entre unidades de negocio o entidades jurídicas
+## Informes financieros entre unidades de negocio o entidades jurídicas
 
 Algunas organizaciones utilizan [!INCLUDE [prod_short](includes/prod_short.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prod_short](includes/prod_short.md)] en subsidiarias que deben reportar a organizaciones matrices. [!INCLUDE [prod_short](includes/prod_short.md)] ofrece a los contables herramientas que les ayudan a transferir asientos del libro mayor de dos o más empresas (subsidiarias) a una empresa consolidada.  
 
 Para obtener más información, vaya a [Consolidación de empresa](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-finance-data"></a>Análisis ad-hoc de datos financieros
+## Análisis ad-hoc de datos financieros
 
 A veces, solo es necesario comprobar si los números cuadran correctamente o confirmar rápidamente una cifra. Las siguientes características son excelentes para análisis ad hoc:
 
@@ -114,7 +114,7 @@ Del mismo modo, puede utilizar la acción **Abrir en Excel** para abrir una pág
 
 Para obtener más información sobre cómo realizar análisis ad hoc en libros de contabilidad, consulte [Análisis ad hoc de datos financieros](ad-hoc-analysis-finance.md). 
 
-## <a name="built-in-reports-for-finance"></a>Informes financieros integrados
+## Informes financieros integrados
 
 [!INCLUDE [prod_short](includes/prod_short.md)] incluye diversos informes integrados, funciones de seguimiento y herramientas para ayudar a los auditores o controladores que son responsables de informar al departamento de finanzas.
 
@@ -141,11 +141,11 @@ Para obtener más información, consulte estos resúmenes de informes relevantes
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## <a name="on-screen-finance-task-pages"></a>Páginas de tareas financieras en pantalla
+## Páginas de tareas financieras en pantalla
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tiene varias páginas que le brindan resúmenes financieros y tareas por realizar.
 
-### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mostrar movimientos de contabilidad general y saldos del libro mayor desde la página Plan de cuentas
+### Mostrar movimientos de contabilidad general y saldos del libro mayor desde la página Plan de cuentas
 
 La página Plan de cuentas muestra todas las cuentas de contabilidad general con números agregados registrados en la contabilidad general. Desde esta página, puede hacer cosas como:  
 
@@ -157,13 +157,13 @@ La página Plan de cuentas muestra todas las cuentas de contabilidad general con
 
 Para obtener más información, vaya a [Conocer el plan de cuentas](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>Ver importes reales comparados con importes presupuestados para todas las cuentas y durante varios periodos
+### Ver importes reales comparados con importes presupuestados para todas las cuentas y durante varios periodos
 
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede querer ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos. Puede realizar la comparación desde la página **Plan de cuentas**, seleccionando la acción **Saldo/Ppto. cuenta**.
 
 Para obtener más información, vaya a [Analizar importes reales frente a importes presupuestados](bi-how-analyze-actual-versus-budget.md).
 
-### <a name="analyze-data-by-dimensions"></a>Analizar datos por dimensiones
+### Analizar datos por dimensiones
 
 Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento.  
 
@@ -171,7 +171,7 @@ Así pues, en lugar de configurar cuentas de libro mayor separadas para cada dep
 
 En análisis financiero, una dimensión son datos que agrega a un movimiento de contabilidad general como una especie de marcador. Estos datos se utilizan para agrupar movimientos de contabilidad general de características similares, como clientes, regiones, productos y vendedor, y así poder recuperar con facilidad estos grupos para su análisis. Puede usar dimensiones en movimientos de diarios, documentos y presupuestos. Para obtener más información, vea [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md)
 
-### <a name="analyzing-cash-flow"></a>Análisis el flujo de efectivo
+### Análisis el flujo de efectivo
 
 En la página de inicio Contable, en **Rendimiento finanzas**, los gráficos Ciclo de efectivo, Flujo de efectivo e Ingresos y gastos proporcionan formas de analizar el flujo de efectivo:
 
@@ -189,7 +189,7 @@ Para examinar la previsión, además de los movimientos de previsión, también 
 
 Para obtener más información, vaya a [Analizar el flujo de efectivo de la empresa](finance-analyze-cash-flow.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Manejar informes financieros entre unidades de negocio o entidades jurídicas](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->

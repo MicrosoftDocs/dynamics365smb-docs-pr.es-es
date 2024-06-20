@@ -8,8 +8,9 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="create-production-order-headers"></a>Crear cabeceras de orden de producción
+# Crear cabeceras de orden de producción
 
 Puede crear una orden de producción manualmente y el primer paso es crear la cabecera.
 
@@ -17,7 +18,7 @@ Las órdenes de producción normalmente se crean automáticamente por algunas ta
 
 En el siguiente procedimiento, se crea una orden de producción planificada en firme. Puede también crear órdenes de producción con estados distintos.  
 
-## <a name="to-create-a-production-order-header"></a>Para crear la cabecera de una orden de producción
+## Para crear la cabecera de una orden de producción
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **O.P. Planificadas en firme** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -30,7 +31,7 @@ En el siguiente procedimiento, se crea una orden de producción planificada en f
 
 Cuando cambian las necesidades de producción, como componentes u operaciones, puede replantear rápidamente la orden de producción. Para obtener más información, vea [Actualizar o replanificar las órdenes de producción directamente](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Fabricación](production-manage-manufacturing.md)
 [Configuración de fabricación](production-configure-production-processes.md)  

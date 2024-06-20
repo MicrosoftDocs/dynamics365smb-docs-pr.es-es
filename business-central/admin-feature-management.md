@@ -8,9 +8,10 @@ ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Habilitar las nuevas y próximas funciones de antemano
+# Habilitar las nuevas y próximas funciones de antemano
 
 Algunas funciones nuevas se pueden habilitar con anticipación, lo que le permite aprovecharlas lo antes posible. La habilitación de funciones pronto le proporciona el tiempo para probar y preparar a su organización para el cambio.
 
@@ -18,7 +19,7 @@ Cuando Microsoft publica características o mejoras de diseño de característic
 
 Más información acerca de la [Administración de características](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Características nuevas y planificadas](/dynamics365-release-plan/2021wave1/)  
 

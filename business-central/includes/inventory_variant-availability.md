@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/21/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Cuando abre la página **Disponibilidad prod. por variante** desde una línea del documento, puede insertar una variante en la línea del documento al seleccionar la línea con la variante que desea insertar y hacer clic en el botón Aceptar. Si solo ha utilizado la página para consultar la disponibilidad y no desea introducir una variante, cierre la página sin hacer clic en el botón Aceptar.
 

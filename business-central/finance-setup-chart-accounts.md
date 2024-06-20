@@ -11,14 +11,14 @@ ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Configurar o cambiar el plan de cuentas
+# Configurar o cambiar el plan de cuentas
 
 El plan de cuentas (COA) muestra las cuentas de contabilidad que almacenan sus datos financieros. [!INCLUDE[prod_short](includes/prod_short.md)] incluye un COA estándar que está preparado para respaldar su negocio. Sin embargo, puede cambiar las cuentas predeterminadas y agregar nuevas cuentas.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Agregar o cambiar cuentas
+## Agregar o cambiar cuentas
 
 Desde el COA, puede abrir cada cuenta de contabilidad y agregar o cambiar la configuración. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Para cuentas del tipo **Total**, deberá completar el campo **Sumatorio**. Para 
 > [!IMPORTANT]
 > Si ha escrito definiciones en los campos **Sumatorio** referentes a las cuentas **Fin-Total** antes de ejecutar la función Indentar, deberá volver a escribirlas, ya que esta función sobrescribe los valores de todos los campos **Fin-Total**.
 
-## <a name="delete-accounts"></a>Eliminar cuentas
+## Eliminar cuentas
 
 Puede eliminar una cuenta contable. Sin embargo, antes de eliminarla, deben cumplirse las condiciones siguientes:  
 
@@ -43,17 +43,17 @@ También puede especificar cuándo permitir que las personas eliminen cuentas. E
 
 Activar el campo **Bloquear eliminación de cuentas de contabilidad** puede considerarse una buena práctica, lo mismo que establecer la fecha del campo **Comprobar eliminación de cuenta después de** en, por ejemplo, la fecha en la que la regulación le requiere que debe almacenar sus datos financieros.  
 
-### <a name="video-guidance"></a>Guía de vídeo
+### Guía de vídeo
 
 Este vídeo muestra cómo especificar si las personas pueden eliminar cuentas del L/M y cuándo.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="learning-path-set-up-the-chart-of-accounts-in-dynamics-365-business-central"></a>Ruta de aprendizaje: configurar el plan de cuentas en Dynamics 365 Business Central
+## Ruta de aprendizaje: configurar el plan de cuentas en Dynamics 365 Business Central
 
 ¿Desea aprender a configurar el plan de cuentas en [!INCLUDE [prod_short](includes/prod_short.md)]? Luego comience con la siguiente ruta de aprendizaje [Configurar el plan de cuentas en Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Libro mayor y plan de cuentas](finance-general-ledger.md)  
 [Conciliar bancos](bank-manage-bank-accounts.md)  

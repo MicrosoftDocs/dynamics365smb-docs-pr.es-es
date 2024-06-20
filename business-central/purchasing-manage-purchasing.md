@@ -9,8 +9,9 @@ ms.search.form: '460, 9307'
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="purchasing"></a>Compra
+# Compra
 
 Cree una factura o un pedido de compra para registrar el coste de las compras y para realizar el seguimiento de los pagos. Si necesita controlar un inventario, las facturas de compra también se utilizan para actualizar dinámicamente los niveles de inventario para que pueda minimizar sus costes de inventario y proporcionar un mejor servicio al cliente. Los costes de compra, incluidos los gastos del servicio, y los valores de inventario resultantes del registro de las facturas de compra contribuyen a las cifras de ganancias y otros KPI financieros en el área de trabajo.
 
@@ -24,7 +25,7 @@ Para todos los procesos de compra, puede introducir un flujo de trabajo de aprob
 
 En las siguientes secciones se indican una serie de tareas con vínculos a los artículos que las describen.
 
-## <a name="get-started-with-purchase-capabilities"></a>Introducción a las capacidades de compra
+## Introducción a las capacidades de compra
 
 Antes de comprar bienes, especifique cómo desea administrar los procesos de compra de su empresa.
 
@@ -33,7 +34,7 @@ Antes de comprar bienes, especifique cómo desea administrar los procesos de com
 | Configurar las normas y los valores que definen las políticas de compra de la empresa. | [Configurar compra](purchasing-setup-purchasing.md) |
 | Registre cada proveedor del que compra con una ficha de proveedor. | [Registrar nuevos proveedores](purchasing-how-register-new-vendors.md) |
 
-## <a name="purchase-analytics"></a>Análisis de compras
+## Análisis de compras
 
 Esta sección describe las herramientas de análisis que puede usar para obtener información sobre sus procesos de compra.
 
@@ -43,7 +44,7 @@ Esta sección describe las herramientas de análisis que puede usar para obtener
 | Realice análisis ad hoc de los datos de compra directamente en las páginas de listas y consultas. | [Análisis ad-hoc de datos de compra](ad-hoc-analysis-purchasing.md) |
 | Explore informes integrados para compras. | [Informes de compras integrados](purchase-reports.md) |
 
-## <a name="quote-to-order-to-purchase-invoice"></a>De presupuesto a pedido a factura de compra
+## De presupuesto a pedido a factura de compra
 
 La siguiente tabla describe cómo usar procesos de compra simples.
 
@@ -64,7 +65,7 @@ Si necesita procesos de compra más complejos, la siguiente tabla enumera artíc
 |Administrar el compromiso a un proveedor para comprar grandes cantidades entregadas en varios envíos a lo largo del tiempo.|[Trabajar con pedidos de compra abiertos](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## <a name="canceled-orders-refunds-and-returns"></a>Pedidos cancelados, reembolsos y devoluciones
+## Pedidos cancelados, reembolsos y devoluciones
 
 La siguiente tabla describe cómo tratar los pedidos cancelados, los reembolsos y las devoluciones de los productos que adquiera.
 
@@ -74,7 +75,7 @@ La siguiente tabla describe cómo tratar los pedidos cancelados, los reembolsos 
 |Convertir, por ejemplo, facturas electrónicas de sus proveedores a facturas de compra en Business Central.|[Recibir y convertir documentos electrónicos](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## <a name="other-processes-in-sales"></a>Otros procesos de venta
+## Otros procesos de venta
 
 La siguiente tabla describe cómo tratar otros procesos de compra.
 
@@ -83,11 +84,11 @@ La siguiente tabla describe cómo tratar otros procesos de compra.
 |Resolver la confusión cuando existen dos o más registros para el mismo proveedor.|[Combinar registros duplicados](sales-how-merge-duplicate-records.md)|
 
 
-## <a name="external-document-numbers"></a>Números de documento externo
+## Números de documento externo
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configurar compras](purchasing-setup-purchasing.md)  
 [Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)  

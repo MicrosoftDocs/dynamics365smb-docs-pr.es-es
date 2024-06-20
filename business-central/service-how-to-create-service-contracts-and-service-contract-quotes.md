@@ -8,11 +8,12 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Trabajar con contratos de servicio y ofertas de contrato de servicio
+# Trabajar con contratos de servicio y ofertas de contrato de servicio
 Puede crear un contrato de servicio de forma manual o desde una oferta de contrato de servicio. Puede utilizar una oferta de contrato de servicio como precursora de un contrato de servicio, en ésta su empresa realiza una oferta al cliente para obtener así su aprobación para poder convertirla en un contrato de servicio. Los procedimientos para crear un contrato de servicio o una oferta de contrato de servicio son similares.  
 
-## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Para crear un contrato u oferta de contrato de servicio
+## Para crear un contrato u oferta de contrato de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , especifique **Contratos servicio** u **Ofertas contrato servicio** y, a continuación, elija el vínculo relacionado.  
 2. Crear un contrato u oferta de contrato de servicio nuevos:  
 3. Rellene el campo **No.**. . Se abrirá un cuadro de diálogo en el que se le preguntará si desea rellenar los datos comunes del contrato a partir de una plantilla de contrato. Si desea crear este tipo de contrato u oferta de contrato de servicio, seleccione **Sí**. Se abrirá la página **Lista plantilla contrato serv.**  
@@ -22,7 +23,7 @@ Puede crear un contrato de servicio de forma manual o desde una oferta de contra
 7. Agregue líneas de contrato al contrato o a la oferta de contrato de servicio.  
 8. Rellene el resto de campos según sea necesario.  
 
-## <a name="to-convert-a-service-contract-quote-to-service-contract"></a>Para convertir una oferta de contrato de servicio en un contrato de servicio
+## Para convertir una oferta de contrato de servicio en un contrato de servicio  
 Una vez que el cliente ha aceptado la oferta de contrato de servicio, puede convertirla en un contrato de servicio. Al mismo tiempo, puede crear una factura de servicio para el periodo inicial del contrato si la fecha inicial del mismo es anterior al inicio del siguiente periodo de factura.
 
 Una vez que finalice los pasos siguientes, se crea un contrato de servicio con el estado **Firmado**. Si se crea una factura de servicio para el periodo inicial del contrato, se calcula el importe facturado de la siguiente forma, en función de si se trata de un contrato detallado o no:  
@@ -45,7 +46,7 @@ Para contratos no detallados, el importe facturado se calcula de la siguiente fo
 
  La factura de servicio se registra en la cuenta de servicio del contrato, incluso si el contrato es de prepago.
 
-## <a name="to-create-contract-service-credit-memos"></a>Para crear abonos de servicio de contrato
+## Para crear abonos de servicio de contrato
 Puede utilizar abonos de servicio de contrato cuando un cliente cancela un contrato de servicio de prepago o elimina un producto de servicio de un contrato de prepago. También sirven para corregir una factura de servicio incorrecta.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos servicio** y, a continuación, elija el vínculo relacionado.  
@@ -65,12 +66,12 @@ Puede utilizar abonos de servicio de contrato cuando un cliente cancela un contr
 
  Para crear manualmente un abono cuando se quiten líneas de contrato de un contrato de servicio, en la página **Contrato servicio**, elija la acción **Abono**.  
 
-## <a name="updating-and-evaluating-contracts"></a>Actualización y evaluación de los contratos
+## Actualización y evaluación de los contratos
 A veces es necesario cambiar las condiciones de un contrato una vez creado. En la mayoría de las ocasiones, el contrato correspondiente se abre en la página **Contrato servicio** y se cambia según sea necesario.  
 
 Puede cambiar el estado del contrato, inicialmente configurado en **Bloqueado**, agregar y eliminar líneas del contrato y cancelar un contrato. Si desea ver el desempeño de su empresa en términos de pérdidas y ganancias, puede realizar un rápido análisis empresarial usando la función de análisis de contrato.
 
-## <a name="to-add-a-contract-line-to-a-service-contract-or-contract-quote"></a>Para agregar una línea de contrato a una oferta de contrato o contrato de servicio
+## Para agregar una línea de contrato a una oferta de contrato o contrato de servicio  
 Cuando un cliente compra un producto nuevo y desea incluirlo en el contrato u oferta de contrato de servicio existente, debe registrar el producto como un producto de servicio y, a continuación, agregarlo como una nueva línea al contrato u oferta de contrato.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contratos de servicio** y luego elija el enlace relacionado.  
@@ -80,7 +81,7 @@ Cuando un cliente compra un producto nuevo y desea incluirlo en el contrato u of
 5. En la ficha desplegable **Líneas**, agregue un producto, producto de servicio o una descripción de texto en cada línea de contrato. Alternativamente, puede agregar líneas de oferta de contrato. Tenga en cuenta que puede crear múltiples contratos por producto de servicio para incluirlo en diferentes contratos u ofertas de contrato de servicio al mismo tiempo.  
 6. Verifique y corrija los números de los campos **% Descuento línea**, **Importe dto. línea**, **Hora respuesta**, **Periodo servicio** y otros campos según sea necesario.
 
-## <a name="to-remove-contract-lines"></a>Para eliminar líneas de contrato
+## Para eliminar líneas de contrato  
 Es posible que tenga que eliminar líneas de contrato del contrato de servicio según elimina los correspondientes productos de servicio del contrato de servicio. Normalmente, se elimina una línea de contrato que ha caducado o que se corresponde a un producto de servicio que se ha estropeado.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contratos de servicio** y luego elija el enlace relacionado.  
@@ -96,7 +97,7 @@ Es posible que tenga que eliminar líneas de contrato del contrato de servicio s
 >   
 >  Si el contrato es detallado y de prepago y se han registrado facturas, podrá crear un abono para el contrato. Elija la acción **Crear abono**. Esto no es necesario si la casilla del campo **Abonos automáticos** de la ficha desplegable **Detalles de la factura** está seleccionada. En ese caso, un abono se crea automáticamente cuando se elimina una línea de contrato.
 
-## <a name="service-line-cost-and-value"></a>Coste y valor de la línea de servicio
+## Coste y valor de la línea de servicio
 En las líneas de un contrato de servicio, los importes de **Coste línea** y **Valor línea** se calculan según se describe en las siguientes tablas.
 
 | Opciones coste de línea | Description|
@@ -111,7 +112,7 @@ En las líneas de un contrato de servicio, los importes de **Coste línea** y **
 |**Producto** | En función del valor del campo **Método cálc. valor contrato** de la tabla **Config. gestión servicio**, el importe se recuperará de los campos **Precio venta** o **Coste unitario** de la tabla **Producto**. Después de eso, este valor se multiplica por el contenido del campo **% Valor contrato** de la tabla **Config. gestión servicio** y se divide entre 100. Este importe se copia en el campo **Valor línea**.<br /><br /> **NOTA**: Si el campo **Método cálc. valor contrato** está establecido en **Ninguno**, no se calculará el contenido del campo **Valor línea**.|  
 |**Descripción de texto** | El contenido del campo **Valor línea** se establece en cero.|  
 
-## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>Para agregar un descuento de contrato a las ofertas de contrato de servicios
+## Para agregar un descuento de contrato a las ofertas de contrato de servicios  
 Puede agregar descuentos de contrato sobre servicios para ofertas y servicios de contrato. Los descuentos pueden efectuarse sobre componentes de grupos de producto de servicio concretos, sobre horas de recursos de grupos de recursos determinados y sobre costes de servicio específicos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ofertas de contrato de servicio** y elija el enlace relacionado.  
@@ -123,7 +124,7 @@ Puede agregar descuentos de contrato sobre servicios para ofertas y servicios de
 > [!Tip]  
 >  Para agregar descuentos de contrato directamente a un contrato de servicio, realice los mismos pasos desde la página **Contrato servicio**.  
 
-## <a name="to-change-the-owner-of-a-service-contract"></a>Para cambiar el propietario de contratos de servicio
+## Para cambiar el propietario de contratos de servicio  
 Es posible que necesite modificar el propietario de un contrato de servicio. Si un producto de servicio incluido en un contrato de servicio está registrado en múltiples contratos no cancelados propiedad del mismo cliente, se actualizará automáticamente el propietario de todos los contratos de servicio que incluyan este producto de servicio y de todos los productos de servicio incluidos en estos contratos.  
 
 > [!NOTE]  
@@ -143,7 +144,7 @@ Es posible que necesite modificar el propietario de un contrato de servicio. Si 
 7. Seleccione el botón **Aceptar** para cambiar el cliente y el código de dirección de envío de los contratos de servicio.  
 8. Elija la acción **Bloquear contrato** para bloquear el contrato y asegurarse de que los cambios formarán parte de él.  
 
-## <a name="to-update-a-service-contract-price"></a>Para actualizar un precio de contrato de servicio
+## Para actualizar un precio de contrato de servicio  
 Para actualizar los precios de contratos de servicio, especifique un porcentaje de actualización de precio.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Actualizar precios de contrato de servicio** y, a continuación, elija el enlace relacionado.
@@ -152,7 +153,7 @@ Para actualizar los precios de contratos de servicio, especifique un porcentaje 
 4. En el campo **% Actualiz. precio**, introduzca el porcentaje por el que desea actualizar los precios.  
 5. En el campo **Acción**, seleccione **Actualizar precios contrato**.  
 
-## <a name="to-post-prepaid-contract-entries"></a>Para registrar movimientos de contrato de prepago
+## Para registrar movimientos de contrato de prepago  
 Si trabaja con contratos de servicio de prepago, deberá registrar movimientos de contrato de prepago con regularidad, para así transferir los pagos de prepago de las cuentas de contrato de prepago a las cuentas de contrato ordinarias.  
 
 Para poder registrar movimientos de contrato de prepago, deberá especificar un número de serie en el campo **Nº serie doc. regis. prepago** de la página **Config. gestión servicio**.  
@@ -163,13 +164,13 @@ Para poder registrar movimientos de contrato de prepago, deberá especificar un 
 5. En el campo **Acción**, seleccione **Registrar transacciones de prepago**  
 6. Seleccione **Aceptar** para registrar los movimientos.
 
-## <a name="changing-the-service-contract-status"></a>Cambio del estado de contrato de servicio
+## Cambio del estado de contrato de servicio
 Después de firmar el contrato de servicio, el valor del campo **Cambiar estado** se establece automáticamente en **Bloqueado**. Si desea modificar información del contrato de servicio o de la oferta de contrato de servicio, primero tiene que cambiar el estado del contrato u oferta de **Bloqueado** a **Abierto**. Tenga en cuenta que no puede crear facturas de servicio del contrato de servicio con el estado de cambio **Abierto**. Después de modificar el contrato u oferta de contrato, tiene que cambiar el estado a **Bloqueado** para poder crear de nuevo facturas de servicio y movimientos en el contrato de servicio que incluyan los cambios que ha realizado.  
 
 > [!NOTE]  
 >  El campo **Cambiar estado** no está relacionada con el campo **Estado lanzamiento** de la cabecera del pedido de servicio, que regirá la dirección del almacén de productos de servicio.  
 
-## <a name="to-cancel-a-service-contract"></a>Para cancelar un contrato de servicio
+## Para cancelar un contrato de servicio  
 Es posible que tenga que cancelar un contrato de servicio cuando el contrato haya caducado o cuando usted o el cliente lo hayan cancelado.  
 
 > [!NOTE]  
@@ -185,10 +186,10 @@ Es posible que tenga que cancelar un contrato de servicio cuando el contrato hay
 5. En el campo **Estado**, elija **Cancelado**.  
 6. Si hay facturas, abonos o movimientos de prepago abiertos registrados para el contrato, aparecerá un mensaje de confirmación. En el cuadro de mensaje, elija **No** para volver a contrato y registrar los documentos o **Sí** para continuar el proceso de cancelación.  
 
-## <a name="filing-a-service-contract-or-contract-quote"></a>Archivado de un contrato de servicio u oferta de contrato
+## Archivado de un contrato de servicio u oferta de contrato  
 Puede archivar contratos de servicio y ofertas de contrato en cualquier momento para registrar una copia del contrato o una oferta de contrato. [!INCLUDE[prod_short](includes/prod_short.md)] archiva contratos de servicio automáticamente cuando se convierten ofertas de contrato en contratos de servicio o se cancelan contratos de servicio. Puede archivar un contrato u oferta mediante la acción **Archivar contrato** en las páginas **Contratos de servicio** u **Ofertas contrato servicio**. Si desea ver los contratos de ofertas archivados busque **Contratos archivados**.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Configurar contratos de servicio](service-how-setup-service-contracts.md)  
 [Gestión de servicios](service-service.md)  
 [Convertir contratos de servicio que incluyen importes de IVA](service-how-to-convert-service-contracts.md)  

@@ -8,8 +8,9 @@ ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="use-reports-in-daily-work"></a>Usar informes en el trabajo diario
+# Usar informes en el trabajo diario
 
 Un informe de [!INCLUDE[prod_short](includes/prod_short.md)] recopila información en función de un conjunto específico de criterios. Organiza y presenta la información en un formato fácil de leer que puede imprimir o guardar como un archivo.  
 
@@ -24,7 +25,7 @@ Un informe de [!INCLUDE[prod_short](includes/prod_short.md)] recopila informaci�
 | Aprenda a cambiar el diseño predeterminado de un informe. | [Cambiar el diseño de informe predeterminado](ui-how-change-layout-currently-used-report.md) |
 | Vea y analice datos de un conjunto de datos de informe en Microsoft Excel. | [Guardar conjunto de datos de informe a Excel desde la página de solicitud](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Descripción general de los informes](reports-available-reports.md)  
 [Descripción general de Inteligencia empresarial e informes](ui-work-report.md)  

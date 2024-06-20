@@ -3,7 +3,7 @@ title: Configurar información general de activos fijos (FA)
 description: 'Antes de trabajar con activos fijos, debe configurar las cuentas contables predeterminadas, los grupos contables, las claves de asignación, las plantillas y secciones de diario, y los códigos de clase.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: '5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277'
 ms.date: 03/25/2024
@@ -11,18 +11,18 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="set-up-general-fixed-assets-information"></a>Configurar información general de activos fijos
+# Configurar información general de activos fijos
 
 Antes de poder administrar activos fijos (FA), debe configurar las cuentas contables predeterminadas, las claves de asignación, las plantillas y los lotes para registrar y reclasificar activos fijos. Asimismo, defina una jerarquía de clasificación (clases y subclases) para estructurar sus activos y, si es necesario, defina las ubicaciones en las que almacena los activos.
 
-## <a name="to-set-up-general-behavior-for-fixed-assets-functionality"></a>Para configurar el comportamiento general de la funcionalidad de activos fijos
+## Para configurar el comportamiento general de la funcionalidad de activos fijos
 
 Defina el comportamiento general o la funcionalidad de los activos y configure las series numéricas del documento en la página **Configuración de activos fijos**.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Configuración de activos fijos** y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-fixed-asset-posting-groups"></a>Para configurar los grupos contables de activos fijos
+## Para configurar los grupos contables de activos fijos
 
 Utilizar grupos contables para definir los grupos de activos fijos. Los movimientos de estos grupos contables se registran en las mismas cuentas contables.
 
@@ -36,7 +36,7 @@ Utilizar grupos contables para definir los grupos de activos fijos. Los movimien
 
 Para obtener más información sobre cómo usar la acción **Introducir saldo AF** en las líneas del diario general de activos, consulte [Revalorizar activos fijos](fa-how-revalue.md).
 
-## <a name="to-set-up-fixed-asset-journal-templates"></a>Para configurar las plantillas del diario de activos
+## Para configurar las plantillas del diario de activos
 
 Un libro es un diseño predeterminado de un diario. El libro contiene información de los códigos de seguimiento, informes y números de serie. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 
@@ -45,25 +45,25 @@ Un libro es un diseño predeterminado de un diario. El libro contiene informaci�
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Libros diarios activos**, y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
-## <a name="to-set-up-fixed-asset-class-and-subclass-codes"></a>Para configurar códigos de subclase y clase de activos
+## Para configurar códigos de subclase y clase de activos
 
 En activos fijos, puede definir una jerarquía de clasificación que se puede utilizar para agrupar activos. La jerarquía tiene dos niveles: clases y subclases.
 
-### <a name="fixed-asset-class-codes"></a>Códigos de clase de activos fijos
+### Códigos de clase de activos fijos
 
 Las clases de activos fijos son las entradas de nivel superior en la jerarquía de clasificación en la que agrupa los activos. Por ejemplo, utilice clases para dividir los activos en activos tangibles o intangibles. Debe crear al menos una clase de activo fijo en su configuración.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clases A/F** y luego elija el enlace relacionado.
 2. Introduzca códigos y nombres para las clases de activos fijos que desee crear.
 
-### <a name="fixed-asset-subclass-codes"></a>Códigos de subclase de activos fijos
+### Códigos de subclase de activos fijos
 
 Las subclases de activos fijos son las entradas de segundo nivel en la jerarquía de clasificación en la que agrupa los activos. Cada subclase apunta a una clase de nivel superior. Utilice códigos de subclase de activos fijos para agrupar los activos fijos en categorías más específicas, como edificios, vehículos, mobiliario o maquinaria. Debe crear al menos una subclase de activo fijo en su configuración.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Subclases A/F** y luego elija el enlace relacionado.
 2. Especifique los códigos y nombres que desea crear para las subclases de activos fijos.
 
-## <a name="start-to-register-assets"></a>Empezar a registrar activos
+## Empezar a registrar activos
 
 Si es la primera vez que utiliza los activos fijos en [!INCLUDE[prod_short](includes/prod_short.md)], deberá configurar antes el área de aplicación Contabilidad antes de configurar los activos fijos. La forma de hacerlo depende de si integra los activos fijos con la contabilidad.  
 
@@ -87,14 +87,14 @@ El siguiente procedimiento se utiliza si se van a registrar las transacciones de
 
 Si los activos fijos no se integran en la contabilidad, omita los pasos seis y ocho.
 
-## <a name="to-set-up-fixed-asset-location-codes-optional"></a>Para configurar códigos de ubicación de activos (opcional)
+## Para configurar códigos de ubicación de activos (opcional)
 
 Los códigos de ubicación de los activos fijos definen los identificadores de los lugares donde se pueden ubicar los activos, como el departamento de ventas, la recepción, la administración, la producción o el almacén. Puede utilizarlos para registrar la ubicación de un activo fijo. Esta información es útil a efectos de seguros e inventario.
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones A/F** y luego elija el enlace relacionado.
 2. Especifique los códigos y nombres que desea crear para las ubicaciones de activos.
 
-## <a name="to-set-up-fixed-asset-allocation-keys-optional"></a>Para configurar claves de distribución de activos fijos (opcional)
+## Para configurar claves de distribución de activos fijos (opcional)
 
 Utilice las claves de asignación para asignar las transacciones a varios departamentos o proyectos. Por ejemplo, puede configurar una clave de distribución para distribuir los costes de amortización de vehículos con el 35% para el departamento de administración y el 65% para el de ventas. Para obtener más información, consulte [Asignar costes e ingresos](year-allocate-costs-income.md).
 
@@ -105,7 +105,7 @@ Las claves de asignación se aplican a las clases de activos, no a los activos i
 3. En la página **A/F Distribuciones**, rellene los campos según sea necesario.
 4. Repita los pasos 2 y 3 en todos los tipos de registro para los que desea definir claves de distribución.
 
-## <a name="to-set-up-fixed-asset-journal-batches-optional"></a>Para configurar las secciones del diario de activos fijos (opcional)
+## Para configurar las secciones del diario de activos fijos (opcional)
 
 Puede configurar múltiples secciones de diario, que son diarios individuales para cada libro de diario. Por ejemplo, los empleados pueden tener su propia sección de diario que utiliza las iniciales del empleado como nombre de la sección. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
@@ -113,14 +113,14 @@ Puede configurar múltiples secciones de diario, que son diarios individuales pa
 2. Seleccione la plantilla de diario correspondiente y, a continuación, elija la acción **Secciones**.
 3. En la página **A/F Secciones diario**, rellene los campos según sea necesario.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-templates-optional"></a>Para configurar las plantillas del diario de reclasificación de activos (opcional)
+## Para configurar las plantillas del diario de reclasificación de activos (opcional)
 
 Use los diarios de reclasificación dedicados para transferir, dividir o combinar activos fijos. [!INCLUDE[prod_short](includes/prod_short.md)] crea automáticamente una plantilla del diario de reclasificación de activos la primera vez que se abre la página **A/F Diario reclasif.**, pero puede configurar otras plantillas de diarios de reclasificación. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **A/F Libros diarios reclasif.**, y luego elija el enlace relacionado.  
 2. Rellene los campos según sea necesario.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-batches-optional"></a>Para configurar las secciones del diario de reclasificación de activos (opcional)
+## Para configurar las secciones del diario de reclasificación de activos (opcional)
 
 Puede configurar múltiples secciones de diario, que son diarios individuales para cada libro de diario reclasificación. Por ejemplo, los empleados pueden tener su propia sección de diario reclasificación que utiliza las iniciales del empleado como nombre de la sección de diario reclasificación. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
 
@@ -128,7 +128,7 @@ Puede configurar múltiples secciones de diario, que son diarios individuales pa
 2. Seleccione la plantilla de diario correspondiente y, a continuación, elija la acción **Secciones**.
 3. En la página **A/F Secciones diario reclasif.**, rellene los campos según sea necesario.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configuración de activos fijos](fa-setup.md)  
 [Información general de los activos fijos](fa-manage.md)  

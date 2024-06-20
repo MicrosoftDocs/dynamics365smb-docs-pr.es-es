@@ -9,19 +9,20 @@ ms.search.form: '6216, 6219, 6220'
 ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Registrar entradas de sostenibilidad
+# Registrar entradas de sostenibilidad
 
 Actualmente, la única forma de registrar las emisiones de gases de efecto invernadero (GEI) en el libro de sostenibilidad es utilizar diarios de sostenibilidad.
 
-## <a name="sustainability-journals"></a>Diarios de sostenibilidad
+## Diarios de sostenibilidad
 
 Los diarios de sostenibilidad están diseñados para realizar un seguimiento y registrar actividades relacionadas con la sostenibilidad utilizando la misma experiencia de usuario que otras revistas en Business Central. Los usuarios que tengan la información necesaria pueden introducir manualmente las emisiones en un diario. Alternativamente, si carecen de esta información, pueden utilizar fórmulas incorporadas para calcular con precisión las emisiones basándose en parámetros específicos conocidos correspondientes a varios tipos de fuentes y cuentas.
 
 La información que introduzca en un diario es temporal y se puede modificar mientras se encuentre en ese diario. Al contabilizar el diario, la información se transfiere a las entradas del libro mayor de sostenibilidad en las cuentas individuales de sostenibilidad, donde no puede modificarse. Sin embargo, puede publicar entradas revertidas o corregidas.
 
-### <a name="use-journal-templates-and-batches"></a>Usar plantillas y secciones del diario
+### Usar plantillas y secciones del diario
 
 De manera predeterminada, existen dos plantillas de diario de sostenibilidad: la plantilla estándar y la plantilla periódica.
 
@@ -30,13 +31,13 @@ Para cada plantilla de diario, puede configurar su propio diario personal como u
 > [!TIP]
 > Si tiene muchas líneas, puede ayudar a reducir el riesgo de errores al tener un lote de diario para cada tipo de emisión. Alternativamente, puede utilizar el lote común para todos los tipos de emisiones.
 
-### <a name="validate-sustainability-journals"></a>Validar diarios de sostenibilidad
+### Validar diarios de sostenibilidad
 
 En la página **Configuración de sostenibilidad**, puede activar la comprobación en segundo plano para evitar retrasos al publicar. Si se produce algún error mientras trabaja en el diario de sostenibilidad, la validación se lo notifica y le impide contabilizar el diario.
 
 Cuando habilita la validación, el Cuadro informativo **Comprobación de diario** muestra los problemas en la línea actual y en todo el lote. La validación ocurre cuando carga una sección de diario y cuando selecciona otra línea de diario. El mosaico **Total de problemas** en el cuadro informativo muestra el número total de problemas que [!INCLUDE [prod_short](includes/prod_short.md)] encontró. Puede seleccionar el mosaico para abrir una descripción general de los problemas.
 
-### <a name="work-with-sustainability-journals"></a>Trabajar con diarios de sostenibilidad
+### Trabajar con diarios de sostenibilidad
 
 Para comenzar a trabajar con los diarios de sostenibilidad, siga estos pasos:
 
@@ -57,7 +58,7 @@ Para comenzar a trabajar con los diarios de sostenibilidad, siga estos pasos:
 
 Si su fórmula se base en la opción **Calcular desde contabilidad general** en la categoría de cuenta de sostenibilidad, debe utilizar la acción **Recopilar importe de movs. contables** antes de publicar el diario para calcular las emisiones basándose en este origen de datos. Además, si realizó cambios en los factores de emisión después de que se rellenaran las líneas del diario, deberá seleccionar la acción **Recalcular** para obtener la cantidad adecuada en el diario.
 
-### <a name="recurring-journals"></a>Diarios periódicos
+### Diarios periódicos
 
 Un diario periódico es un diario de sostenibilidad con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno. Los ejemplos incluyen transacciones de sostenibilidad como electricidad, calefacción u otras transacciones similares. Puede utilizar diarios periódicos para contabilizar importes fijos y variables.
 
@@ -69,7 +70,7 @@ El campo **Frecuencia repetición** también es importante y debe configurarse. 
 
 El campo **Fecha de caducidad** determina la fecha en que se registrará la línea por última vez. La línea no se registrará después de esa fecha. La ventaja de usar el campo **Fecha de caducidad** es que la línea no se borra del diario inmediatamente. Puede introducir una fecha posterior para poder utilizar la línea en el futuro. Si el campo se deja en blanco, la línea se registrará cada vez que se elimine del diario.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Finanzas](finance.md)  
 [Información general de la administración de la sostenibilidad](finance-manage-sustainability.md)  

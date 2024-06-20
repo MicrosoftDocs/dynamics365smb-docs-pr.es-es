@@ -8,12 +8,13 @@ ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-base-calendars"></a>Configurar calendarios base
+# Configurar calendarios base
 
 Puede asignar un calendario base a la empresa y a los socios comerciales, como clientes, proveedores o almacenes. Se calculan las fechas de entrega y de recepción de futuros pedidos de venta, pedidos de compra, pedidos de transferencia y líneas de órdenes de producción según los días laborables especificados en el calendario. La tarea principal en la configuración de un calendario base nuevo es especificar y definir los días no laborables que desea aplicar.  
 
-## <a name="to-set-up-a-base-calendar"></a>Para configurar un calendario base
+## Para configurar un calendario base
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Calendario base** y luego elija el enlace relacionado.  
 2.  Seleccione la acción **Nuevo**.  
@@ -35,7 +36,7 @@ Cuando se realice un movimiento, se selecciona el campo **No laborables**. Puede
 >  Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables.
 Especifica una fórmula de fecha con el tiempo que se tarda en reponer el producto. Se utiliza para calcular el campo **Fecha de recepción planificada**, si se calcula hacia adelante, y el campo **Fecha de pedido**, si calcula hacia atrás. Consulte [Plazo entrega (días)](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Plazo entrega (días)
+## Plazo entrega (días)
 
 Los calendarios base definidos para un proveedor o ubicación afecta en cómo se calculan las fechas y se redondea a los días laborables. Del mismo modo, los dos campos clave de fecha de las líneas de pedido de compra se calculan como sigue en distintas condiciones.
 
@@ -52,7 +53,7 @@ Los calendarios base definidos para un proveedor o ubicación afecta en cómo se
 
 El contenido del campo **Cálculo del plazo de entrega** se copia de la ficha de producto o de la ficha SKU, si el plazo se define para el producto, o en la página **Catálogo de productos del proveedor**, si el plazo se define para el proveedor.
 
-## <a name="to-customize-a-calendar"></a>Para personalizar un calendario
+## Para personalizar un calendario
 La tarea principal en la personalización de un calendario base para su empresa, o uno de sus socios comerciales, es cambiar el estado de los días laborables y días no laborables.
 
 Por ejemplo, mientras que un calendario base normalmente enumeraría todos los sábados como días no laborables, el calendario personalizado de un almacén determinado puede mostrar todos los sábados de los meses de noviembre y diciembre, incluso las vacaciones, como días laborables.
@@ -85,7 +86,7 @@ Si no rellena el campo **Cód. transportista** de la línea de pedido, se utiliz
 > [!NOTE]  
 > Si realiza cambios en un calendario base para el cual ya hay cambios en el calendario personalizado, se actualizan automáticamente todos los calendarios personalizados existentes.
 
-## <a name="to-assign-a-base-calendar"></a>Para asignar un calendario base
+## Para asignar un calendario base  
 Como ejemplo, el siguiente procedimiento programa fechas de entrega en líneas de pedidos de venta para un cliente.
 
 Los calendarios base se asignan a su propia empresa, clientes, proveedores, almacenes, y transportistas de la siguiente forma:  
@@ -107,7 +108,7 @@ Los calendarios base se asignan a su propia empresa, clientes, proveedores, alma
 > [!NOTE]  
 >  Antes de que pueda introducir valores en un calendario personalizado, primero debe asignar un calendario base a la empresa.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Compras](purchasing-manage-purchasing.md)  
 [Fabricación](production-manage-manufacturing.md)    
 [Inventario](inventory-manage-inventory.md)  

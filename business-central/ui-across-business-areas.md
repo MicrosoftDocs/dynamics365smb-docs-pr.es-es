@@ -3,13 +3,13 @@ title: Uso de la funcionalidad general en las áreas de negocio
 description: Obtenga información sobre la funcionalidad y las características que se usan en varias áreas de negocio en Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality"></a>Funciones empresariales generales
+# Funciones empresariales generales
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona funciones dedicadas para las áreas habituales comerciales, como finanzas y ventas. Para obtener más información, consulte [Funciones empresariales](across-business-functionality.md).
 
@@ -45,7 +45,7 @@ En la tabla siguiente se indican las áreas de negocio generales, con vínculos 
 | Configure definiciones de intercambio de datos para que pueda enviar y recibir documentos electrónicos. |[Intercambio de datos electrónicamente](across-data-exchange.md) |
 | Utilice mapas en línea para encontrar ubicaciones e indicaciones para clientes, proveedores y direcciones en general. | [Usar Mapas en línea para encontrar ubicaciones e indicaciones](across-online-maps.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administración](admin-setup-and-administration.md)  

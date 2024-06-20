@@ -7,9 +7,10 @@ ms.topic: how-to
 ms.date: 11/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Introducción a la administración de servicio de Contoso Coffee
+# Introducción a la administración de servicio de Contoso Coffee
 
 Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para Business Central agregan datos de demostración que puede usar para aprender a usar las capacidades de administración de servicio en Business Central.
 
@@ -23,7 +24,7 @@ Esta aplicación proporciona varios elementos que se utilizan para los tutoriale
 > Antes de ejecutar cualquiera de los escenarios para Contoso Coffee, registre las líneas del diario de productos con saldos iniciales. Para ver más requisitos, consulte la sección [Configurar datos de Contoso Coffee](#set-up-contoso-coffee-service-management-data).
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Configuración de los datos de administración del servicio de Contoso Coffee
+## Configuración de los datos de administración del servicio de Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -42,7 +43,7 @@ Una vez instaladas las aplicaciones relevantes, vaya a la página de la [Herrami
 
 Una vez que esté listo, elija la acción **Crear datos de demostración** acción. Se tarda unos minutos en agregar los datos a la base de datos subyacente, pero luego ya está listo para ejecutar los distintos escenarios.  
 
-## <a name="scenarios"></a>Escenarios
+## Escenarios
 
 Los datos de demostración de Contoso Coffee admiten actualmente los siguientes escenarios de servicio para pruebas y formación:
 
@@ -55,6 +56,6 @@ Lea los pasos para cada escenario en el artículo correspondiente.
 > Los tutoriales de servicio requieren que la experiencia del usuario esté establecida en **Premium** en la página **Información empresa**.
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Servicio](../../service-service.md)

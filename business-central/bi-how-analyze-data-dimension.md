@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analyze-data-by-dimensions"></a>Analizar datos por dimensiones
+# Analizar datos por dimensiones
 
 En análisis financiero, una dimensión son datos que agrega a un movimiento como una especie de marcador para agrupar movimientos con características similares. Por ejemplo, las dimensiones suelen agrupar entradas para clientes, regiones, productos y vendedores. Los grupos le permiten recuperar fácilmente datos sobre ellos para su análisis. Puede usar dimensiones en movimientos de diarios, documentos y presupuestos.
 
@@ -24,7 +24,7 @@ Cada dimensión describe el foco del análisis. Así, un análisis de dos dimens
 > [!NOTE]
 > Si descubre que se ha usado un valor de dimensión incorrecto en los movimientos de contabilidad, puede corregirlo y actualizar sus vistas de análisis. Para obtener más información, vaya a [Resolución de problemas y corrección de dimensiones](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Configurar una vista de análisis
+## Configurar una vista de análisis
 
 Los análisis por dimensiones usan una combinación seleccionada de dimensiones. Almacene, recupere y actualice ese conjunto de dimensiones creando una tarjeta **Vista de análisis**.
 
@@ -34,7 +34,7 @@ Los análisis por dimensiones usan una combinación seleccionada de dimensiones.
 4. Para agregar otros códigos de dimensión además de los cuatro de la ficha desplegable **Dimensiones**, elija la acción **Filtro**, rellene los campos y, a continuación, elija el botón **Aceptar**.  
 5. Para actualizar la vista, elija la acción **Actualizar**.
 
-## <a name="analyze-by-dimensions"></a>Analizar por dimensiones
+## Analizar por dimensiones
 
 Utilizar vistas de análisis que ya ha configurado con la matriz **Análisis por dimensiones** para consultar los importes de la contabilidad.
 
@@ -56,7 +56,7 @@ Utilizar vistas de análisis que ya ha configurado con la matriz **Análisis por
 > [!TIP]  
 > También puede modificar la vista cambiando el contenido de los campos **Muestra como líneas** y **Muestra como columnas**. Para revertir una configuración de vista, elija la acción **Invertir líneas y columnas**.
 
-## <a name="update-an-analysis-view"></a>Actualizar una vista de análisis
+## Actualizar una vista de análisis
 
 Los importes de la página **Análisis por dimensiones** le ofrecen una imagen del estado de la empresa en el momento de la última actualización. Para obtener el estado actual, ejecute la acción de actualización para actualizar la vista de análisis.
 
@@ -74,7 +74,7 @@ Use el siguiente procedimiento para actualizar una vista de análisis desde la p
 > [!NOTE]  
 > Para actualizar varias vistas de análisis al mismo tiempo, utilice el proceso **Actualizar vistas de análisis**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Inteligencia empresarial financiera](bi.md)  
 [Finanzas](finance.md)  

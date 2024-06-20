@@ -9,9 +9,10 @@ ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 3
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="manage-inventory"></a>Administrar inventario
+# Administrar inventario
 
 Por cada producto físico que se comercialice, debe crear una ficha de producto del tipo **Inventario**. Los productos que ofrece a los clientes pero que no mantiene en el inventario, puede registrarlos como productos del catálogo, y puede convertirlos a productos de inventario cuando sea necesario. Puede aumentar o reducir la cantidad de un producto en el inventario registrándolo directamente desde los movimientos de producto, como después de un recuento físico o si no registra compras.
 
@@ -24,7 +25,7 @@ Para mejorar la información general de los productos y ayudarle a encontrarlos,
 
 La planificación de artículos para satisfacer la demanda está cubierta como parte de la función de planificación de oferta. Obtenga más información en [Planificación](production-planning.md).  
 
-## <a name="inventory-analytics"></a>Análisis de inventario
+## Análisis de inventario
 
 Esta sección describe las herramientas de análisis que puede usar para obtener información sobre sus datos de inventario.
 
@@ -34,13 +35,13 @@ Esta sección describe las herramientas de análisis que puede usar para obtener
 | Realice análisis ad hoc de los datos de inventario directamente en las páginas de listas y consultas. | [Análisis ad-hoc de datos de inventario](ad-hoc-analysis-inventory.md) |
 | Explore informes de inventario integrados. | [Informes integrados de inventario y almacén](inventory-WMS-reports.md) |
 
-## <a name="inventory-reconciliation"></a>Conciliación de inventario
+## Conciliación de inventario
 
 Cuando registra transacciones del inventario, como los envíos de ventas, los albaranes de compra o los ajustes de inventario, los costes de producto cambiados se registran en movimientos de valor de productos. Para reflejar este cambio en el valor de inventario en sus libros de finanzas, los costes de inventario se registran automáticamente en las cuentas de inventario relacionadas del libro mayor. Para cada una de las transacciones de inventario que registre, los valores apropiados se contabilizan en la cuenta de inventario, en la cuenta de ajuste y en la cuenta de CV en el módulo de contabilidad. Obtenga más información en [Conciliar costes de inventario con la contabilidad](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Aunque se hayan registrado los costes de inventario automáticamente en el libro mayor, seguirá siendo necesario asegurarse de que los costes de los bienes se dirigen a las transacciones de venta de salida relacionadas, especialmente en situaciones donde la venta de bienes se factura antes de la compra de estos bienes. Esto se denomina ajuste de costes. Los costes de los productos se ajustan automáticamente cada vez que registra transacciones de producto, pero también puede ajustar los costes de producto manualmente. Obtenga más información en [Ajustar costos de artículos](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Tareas relacionadas
+## Tareas relacionadas
 
 La siguiente tabla describe las tareas relacionadas.
 
@@ -64,7 +65,7 @@ La siguiente tabla describe las tareas relacionadas.
 |Administre las operaciones comerciales en las oficinas de ventas, en los departamentos de compras o en las oficinas de planificación de plantas en múltiples ubicaciones.|[Trabajar con centros de responsabilidad](inventory-responsibility-centers.md)|
 |Utilice recursos con funciones específicas para diversos servicios y elementos de servicio.|[Configurar la asignación de recursos](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)    
 [Compras](purchasing-manage-purchasing.md)    

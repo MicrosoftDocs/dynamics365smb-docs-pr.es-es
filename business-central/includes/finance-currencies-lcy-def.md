@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Si su empresa opera en más de un país o región, probablemente sea importante que pueda hacer negocios en más de una moneda. Usted define su moneda local (LCY) en la página **Configuración del libro mayor**. Posteriormente, su moneda local se representará como moneda en blanco en documentos y transacciones. Cuando el campo **Moneda** está en blanco, la moneda es LCY.
 

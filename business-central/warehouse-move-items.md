@@ -5,12 +5,12 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
-ms.topic: Conceptual
+ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Mover artículos
+# Mover artículos
 
 Puede mover productos en e almacén de diferentes maneras, dependiendo de cómo haya configurado su almacén. La complejidad puede variar:
 
@@ -36,7 +36,7 @@ Las actividades de recuento, ajuste y reclasificación de productos pueden inclu
 |Utilice la hoja de trabajo del movimiento de almacén, el picking y el almacenamiento internos para mover los productos en configuraciones avanzadas de almacén con el picking y el almacenamiento dirigidos.|[Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Vuelva a estructurar el almacén con nuevos códigos y características de ubicación y muévalos.|[Reestructurar almacenes](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general de la administración de almacenes](design-details-warehouse-management.md)  
 [Grupos contables inventario](inventory-manage-inventory.md)  

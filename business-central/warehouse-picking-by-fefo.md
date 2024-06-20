@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="enable-picking-items-by-fefo"></a>Habilitar la realización de picking de productos por FEFO
+# Habilitar la realización de picking de productos por FEFO
 El primero que caduca es el primero en salir (FEFO en las siglas en inglés) es un método de ordenación que asegura que con los artículos más antiguos, aquéllos con las fechas de vencimiento más próxima, se hace el picking antes.  
 
  Esta funcionalidad sólo funciona únicamente cuando se cumplen los criterios siguientes:  
@@ -32,7 +33,7 @@ Para activar movimientos según el FEFO, deje en blanco el campo **Desde ubicaci
 <br /><br />
 Si el campo **Registro caducidad requerido** está seleccionado en **Ficha cód. seguim. prod.**, solo los productos que no se caducan se incluirán en el picking y las líneas se ordenan según el principio FEFO.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Realizar un picking de los artículos para el envío de almacén](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Realizar el picking de productos con picking inventario](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)

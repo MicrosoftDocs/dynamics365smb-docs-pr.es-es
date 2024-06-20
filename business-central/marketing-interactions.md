@@ -3,7 +3,7 @@ title: Administrar interacciones con los contactos
 description: 'Puede administrar todos los tipos de comunicaciones o interacciones entre su empresa y sus contactos; por ejemplo, cartas, llamadas de teléfono, reuniones, etc.'
 author: jswymer
 ms.author: jswymer
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5082,'
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="record-interactions-with-contacts"></a>Registrar interacciones con contactos
+# Registrar interacciones con contactos
 
 El registro de interacciones con contactos comerciales consta de estas tareas:
 
@@ -19,7 +19,7 @@ El registro de interacciones con contactos comerciales consta de estas tareas:
 * Crear interacciones en contactos o segmentos  
 * Ver y gestionar las interacciones registradas  
 
-## <a name="set-up-interaction-templates"></a>Configurar plantillas de interacción
+## Configurar plantillas de interacción
 
 Antes de registrar interacciones, debe configurar las plantillas de interacción. Una plantilla de interacción es un modelo que define las características básicas de una interacción. Al registrar interacciones, debe especificar las plantillas en las que se basa. Configuraciones como el modo de comunicación que se utilizó, quién inició la interacción y su costo se transfieren a la interacción.
 
@@ -27,14 +27,14 @@ Puede configurar una plantilla de interacción en la página **Plantillas de int
 
 Cuando configura una plantilla de interacción, puede agregar un archivo adjunto. Por ejemplo, puede adjuntar un documento Microsoft Word que contenga notas de una reunión. Para obtener más información sobre los anexos, vaya a [Anexos para interacciones](marketing-interaction-attachments.md). Repita estos pasos para configurar todas las plantillas de interacción que desee.  
 
-## <a name="create-interactions"></a>Crear interacciones
+## Crear interacciones
 
 Hay dos maneras de registrar interacciones:
 
 * puede crear de forma manual las interacciones relacionadas con un único contacto o un segmento. Para obtener más información, vea [Crear interacciones en contactos y segmentos](marketing-how-create-interactions.md)  
 * Puede registrar automáticamente interacciones cuando realiza acciones en la aplicación, por ejemplo, cuando imprime una factura o un presupuesto. Para obtener más información, vea [Registro automático de interacciones con contactos](marketing-auto-record-interactions.md)
 
-## <a name="view-and-manage-recorded-interactions"></a>Ver y gestionar las interacciones registradas
+## Ver y gestionar las interacciones registradas
 
 Puede ver todas las interacciones archivadas que no han sido borrados en la página **Movs. log. interacción**. Puede abrir esta página por:
 
@@ -47,7 +47,7 @@ Utilice la página Movimientos del log de interacción para ver el estado de las
 
 Puede eliminar los movimientos de registro de interacción que han sido cancelados. Para eliminar movimientos de registro de interacción, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Eliminar mov. cancel. reg. inter.** y elija el vínculo relacionado y rellene la información.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Gestionar contactos](marketing-contacts.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  

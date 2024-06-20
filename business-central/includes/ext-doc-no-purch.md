@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 En los documentos de compra y los diarios, puede especificar un número de documento que haga referencia al sistema de numeración del proveedor. Utilice este campo para registrar el número que el proveedor asignó al pedido, la factura o el abono. Posteriormente podrá utilizar este número si, por alguna razón, necesita buscar la entrada registrada del diario mediante este número.

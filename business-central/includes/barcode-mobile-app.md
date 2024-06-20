@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 10/02/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Si instala la aplicación móvil [!INCLUDE [prod_short](prod_short.md)] en su dispositivo móvil iOS o Android, podrá usar la cámara del dispositivo para escanear sus códigos de barras 1D o 2D y actualizar la información en [!INCLUDE [prod_short](prod_short.md)]. 

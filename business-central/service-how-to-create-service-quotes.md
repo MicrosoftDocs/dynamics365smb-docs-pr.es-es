@@ -8,13 +8,14 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="create-service-quotes"></a>Crear ofertas de servicio
+# Crear ofertas de servicio
 Puede pensar en ofertas de servicio como base para los pedidos de servicio. De hecho, son casi idénticos. Ambos contienen información como quién es el cliente, el tipo de pedido, el producto que requiera servicio, información sobre facturación y sobre el envío, e información acerca del proyecto de servicio real.
  
 Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, más adelante, convertir la oferta en un pedido de servicio.  
   
-## <a name="to-create-a-service-quote"></a>Para crear una oferta de servicio
+## Para crear una oferta de servicio  
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ofertas de servicio** y luego elija el enlace relacionado.  
 2. Cree una oferta de servicio nueva.  
 3. En el campo **N.º**, introduzca un número para la oferta de servicio. Si ha configurado números de serie para ofertas de servicio en la página **Config. gestión servicio**, también puede seleccionar <kbd>Entrar</kbd> para seleccionar el siguiente número de oferta de servicio disponible.  
@@ -27,7 +28,7 @@ Puede utilizar una oferta de servicio como borrador de un pedido de servicio y, 
 6. Rellene las líneas de producto de servicio.  
 7. Registre los costes previstos en las líneas de servicio.  
   
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Crear pedidos de servicio](service-how-to-create-service-orders.md)  
 [Trabajar en tareas de servicio](service-how-to-work-on-service-tasks.md)  
 
