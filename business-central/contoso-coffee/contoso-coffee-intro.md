@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# Introducción a datos de demostración de Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a>Introducción a datos de demostración de Contoso Coffee
 
 Contoso Coffee es una empresa ficticia que produce cafeteras comerciales y de consumo. La aplicaciones **Contoso Coffee** para [!INCLUDE [prod_short](../includes/prod_short.md)] agregan datos de demostración que puede usar para aprender a usar las capacidades de [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## Configurar datos de Contoso Coffee
+## <a name="set-up-contoso-coffee-data"></a>Configurar datos de Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
@@ -39,7 +39,7 @@ En la siguiente tabla se describen las configuraciones:
 
 Después de configurar los módulos que desea probar, elija la acción **Generar** para crear datos de demostración para ellos.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Fabricación](../production-manage-manufacturing.md)  
 [Gestión de almacén](../warehouse-manage-warehouse.md)  

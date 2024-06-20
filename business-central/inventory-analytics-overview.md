@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Análisis de inventario
+# <a name="inventory-analytics"></a>Análisis de inventario
 
 Las empresas capturan muchos datos durante las actividades diarias que sirven de apoyo a la inteligencia empresarial (BI) para los responsables de inventarios:
 
@@ -31,7 +31,7 @@ Cada una de estas características tiene sus ventajas y desventajas, según el t
 
 Este artículo presenta cómo puede utilizar estas características analíticas para obtener información sobre su inventario.
 
-## Necesidades de análisis en inventario
+## <a name="analytics-needs-in-inventory"></a>Necesidades de análisis en inventario
 
 Cuando piense en las necesidades analíticas en la administración de inventario, puede que le ayude utilizar un modelo basado en personas que describa las diferentes necesidades analíticas a alto nivel.
 
@@ -48,14 +48,14 @@ Las personas que desempeñan diferentes roles tienen diferentes necesidades en l
 |Trabajador de almacén   | Datos detallados     | Informes operativos integrados, datos de tareas en pantalla |
 
 <!-- 
-## Inventory KPIs
+## <a name="inventory-kpis"></a>Inventory KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Usar los informes financieros para elaborar estados financieros y KPI relacionados con el inventario
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-inventory"></a>Usar los informes financieros para elaborar estados financieros y KPI relacionados con el inventario
 
 La característica **Financial Reporting** le permite obtener información sobre los datos financieros que se muestran en su plan de cuentas (COA). Puede configurar informes financieros para analizar cifras en cuentas de contabilidad (G/L) y comparan los movimientos de contabilidad con los presupuestados. Específicamente para la administración de inventarios, puede configurar informes financieros en las cuentas de contabilidad general que utiliza para realizar un seguimiento de los registros de inventarios.
 
@@ -63,13 +63,13 @@ Las dimensiones desempeñan un papel importante en la inteligencia empresarial. 
 
 Para más información sobre los informes financieros, vaya a [Preparar informes financieros con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md).
 
-## Informes financieros entre unidades de negocio o entidades jurídicas (relacionadas con el inventario)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-inventory"></a>Informes financieros entre unidades de negocio o entidades jurídicas (relacionadas con el inventario)
 
 Algunas organizaciones utilizan [!INCLUDE [prod_short](includes/prod_short.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prod_short](includes/prod_short.md)] en subsidiarias que deben reportar a organizaciones primarias. [!INCLUDE [prod_short](includes/prod_short.md)] ofrece a los contables herramientas que les ayudan a transferir asientos del libro mayor de dos o más empresas (subsidiarias) a una empresa consolidada. Específicamente para la administración de inventarios, es posible que desee consolidar las entradas de contabilidad general de sus cuentas de inventarios para realizar un seguimiento de los KPI de ventas en todas las unidades de negocios o entidades jurídicas.
 
 Para obtener más información, vaya a [Consolidación de empresa](finance-consolidated-company-reporting.md).
 
-## Análisis ad-hoc de datos de inventario
+## <a name="ad-hoc-analysis-of-inventory-data"></a>Análisis ad-hoc de datos de inventario
 
 A veces, solo es necesario comprobar si los números cuadran correctamente o confirmar rápidamente una cifra. Las siguientes características son excelentes para análisis ad hoc:
 
@@ -89,7 +89,7 @@ Del mismo modo, puede utilizar la acción **Abrir en Excel** para abrir una pág
 
 Para obtener más información sobre cómo realizar análisis ad hoc de datos de inventarios, vaya a [Análisis ad hoc de datos de inventario](ad-hoc-analysis-inventory.md).
 
-## Informes integrados para inventario
+## <a name="built-in-reports-for-inventory"></a>Informes integrados para inventario
 
 [!INCLUDE [prod_short](includes/prod_short.md)] incluye varios informes integrados, funciones de seguimiento y herramientas para ayudar a las organizaciones de inventario a generar informes sobre sus datos.
 
@@ -104,7 +104,7 @@ Para obtener una descripción general de los informes disponibles, elija **Todos
 
 Para obtener más información sobre los informes relevantes para el inventario, vaya a [Informes de inventario y almacén integrados](inventory-WMS-reports.md).
 
-## Análisis de inventarios en pantalla
+## <a name="on-screen-inventory-analytics"></a>Análisis de inventarios en pantalla
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tiene varias páginas que le brindan resúmenes de inventario y tareas por realizar. Aquí mostramos algunos ejemplos para empezar:
 
@@ -120,7 +120,7 @@ El módulo de ventas también incluye páginas de análisis relacionadas con el 
 - [Calcular fechas de entrega para pedidos de venta](sales-date-calculation-for-sales.md)
 - [Seguir paquetes](sales-how-track-packages.md)
 
-### Mostrar los movimientos y balances de contabilidad general relacionados con el inventario desde la página del plan de cuentas
+### <a name="show-inventory-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Mostrar los movimientos y balances de contabilidad general relacionados con el inventario desde la página del plan de cuentas
 
 La página **Plan de cuentas** muestra todas las cuentas de contabilidad general con números agregados registrados en la contabilidad general. Desde esta página, puede hacer cosas como:  
 
@@ -134,7 +134,7 @@ Específicamente para administración de inventario, puede crear una vista en la
 
 Para obtener más información, vaya a [Conocer el plan de cuentas](finance-general-ledger.md#the-chart-of-accounts).
 
-### Analizar datos de inventario por dimensiones
+### <a name="analyze-inventory-data-by-dimensions"></a>Analizar datos de inventario por dimensiones
 
 Las dimensiones son valores que clasifican los movimientos de modo que pueda realizar el seguimiento y el análisis de los documentos, como pedidos de venta. Las dimensiones pueden, por ejemplo, indicar de qué proyecto o departamento procede un movimiento.  
 
@@ -142,7 +142,7 @@ Así pues, en lugar de configurar cuentas de libro mayor separadas para cada dep
 
 Para obtener más información, vaya a [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Consolidación de empresa](finance-consolidated-company-reporting.md)   
 [Preparar informes financieros con categorías de cuentas y datos financieros](bi-how-work-account-schedule.md)  

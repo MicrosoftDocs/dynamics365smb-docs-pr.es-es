@@ -10,10 +10,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Omitir descuentos en cuentas de contabilidad
+# <a name="ignore-discounts-in-general-ledger-accounts"></a>Omitir descuentos en cuentas de contabilidad
 Algunas cuentas de contabilidad no aceptan descuentos de pago o de factura. Para estas cuentas, se pueden omitir los descuentos.  
 
-## Para omitir descuentos en cuentas de contabilidad  
+## <a name="to-ignore-discounts-in-general-ledger-accounts"></a>Para omitir descuentos en cuentas de contabilidad
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2.  Elija la acción **Nuevo** para abrir la página **Ficha cuenta**.  
@@ -22,7 +22,7 @@ Algunas cuentas de contabilidad no aceptan descuentos de pago o de factura. Para
 5.  Escriba información en los campos requeridos.  
 6.  Elija el botón **Aceptar**.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
  [Funcionalidad local para España](spain-local-functionality.md)
 
 

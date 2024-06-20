@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Administrar el trabajo de varias empresas en el hub de empresas
+# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrar el trabajo de varias empresas en el hub de empresas
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -25,7 +25,7 @@ Puede acceder al centro cambiando al rol **Hub de empresas** Mi Configuración, 
 > [!NOTE]
 > Puede conectar el hub de la empresa a tantas empresas como necesite. Sin embargo, solo puede conectar el hub de la empresa a empresas alojadas en [!INCLUDE [prod_short](includes/prod_short.md)] en línea.
 
-## Página de inicio del hub de empresas
+## <a name="company-hub-home-page"></a>Página de inicio del hub de empresas
 
 Si usa el rol **Hub de empresas**, su página de inicio muestra una lista de empresas a las que tiene acceso, incluida información sobre datos de puntos de interés clave (KPI) y vínculos para abrir cada empresa. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Elija la acción **Hub de empresas** para abrir el hub de empresas, donde puede trabajar más de cerca con cada empresa.  
 
@@ -53,13 +53,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## Tareas asignadas
+## <a name="assigned-tasks"></a>Tareas asignadas
 
 En [!INCLUDE [prod_short](includes/prod_short.md)], puede asignarse tareas y asignarlas a otros, y viceversa. El hub de empresas le ofrece un resumen de las tareas asignadas por cada empresa y también puede tener acceso a una lista de todas las tareas asignadas mediante **Mis tareas de usuario** en la página **Inicio**.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### Mis tareas de usuario
+### <a name="my-user-tasks"></a>Mis tareas de usuario
 
 La lista **Mis tareas de usuario** le ayuda a priorizar su día al mostrar más información sobre sus tareas asignadas en todas sus empresas.  
 
@@ -71,7 +71,7 @@ Cuando haya terminado una tarea, márquela como completada.
 
 Para obtener más información sobre empresas y entornos, consulte [Vínculos de entorno](company-hub-add-company.md#environment-links).  
 
-## Acceder al hub de empresas
+## <a name="access-the-company-hub"></a>Acceder al hub de empresas
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -82,7 +82,7 @@ Para acceder al hub de empresas, debe tener acceso a través del grupo de usuari
 
 Si no puede encontrar el hub de empresas y sabe que se le ha concedido acceso a él, consulte con su administrador si el hub de empresas aparece en la página **Administración de extensiones**. Para obtener más información, consulte [Personalizar Business Central con extensiones](ui-extensions.md).  
 
-## Establecer el hub de empresas
+## <a name="set-up-the-company-hub"></a>Establecer el hub de empresas
 
 Para comenzar a utilizar el hub de empresas, debe agregar una o más empresas a su panel. Para más información, consulte [Agregar empresas al hub de empresas](company-hub-add-company.md).  
 
@@ -92,7 +92,7 @@ Por ejemplo, si es contable, sus clientes pueden invitarle a sus [!INCLUDE [prod
 
 Los administradores pueden usar la misma guía de configuración asistida para agregarle a su [!INCLUDE [prod_short](includes/prod_short.md)] o pueden agregarle a la cuenta de Microsoft Entra relevante del Centro de administración de Microsoft 365. Para obtener más información, consulte [Administrar usuarios y grupos](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Agregar empresas al hub de empresas](company-hub-add-company.md)  
 [Experiencias contables en Business Central](finance-accounting.md)  

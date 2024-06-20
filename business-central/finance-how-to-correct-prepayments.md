@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Corregir prepagos
+# <a name="correct-prepayments"></a>Corregir prepagos
 
 Puede corregir un pedido después de haber registrado una factura de prepago para el mismo. Puede agregar nuevas líneas a un pedido después de emitir un prepago y, a continuación, registrar otra factura de prepago, pero no puede eliminar una línea de un pedido una vez que se haya facturado un prepago para la línea.  
 
 > [!TIP]
 > Si ha publicado una factura de prepago para una factura de ventas que luego corrige o cancela, también debe corregir o cancelar el prepago.
 
-## Para corregir un prepago
+## <a name="to-correct-a-prepayment"></a>Para corregir un prepago
 
 El procedimiento siguiente muestra cómo emitir una abono de prepago para cancelar todos los pagos adelantados facturados para un pedido de venta.  
 
@@ -32,7 +32,7 @@ El procedimiento siguiente muestra cómo emitir una abono de prepago para cancel
 5. Para crear una factura prepago para las nuevas líneas en el abono de ventas, elija las acciones **Prepago** y **Registrar factura prepago** o **Registrar e imprimir factura prepago**.  
 6. Para emitir una factura de prepago adicional, aumente la cantidad de prepago de una o varias líneas y registre la factura de prepago. Se creará una nueva factura con la diferencia entre las cantidades de prepago facturadas y las nuevas cantidades de prepago.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Facturar prepagos](finance-invoice-prepayments.md)  
 [Tutorial: configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

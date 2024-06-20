@@ -11,7 +11,7 @@ ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Registrar nuevos clientes
+# <a name="register-new-customers"></a>Registrar nuevos clientes
 
 Los clientes son el origen de los ingresos. Debe registrar cada cliente a quien venda como ficha de cliente. Las fichas de cliente contienen la información necesaria para vender productos al cliente. Obtenga más información en [Facturar ventas](sales-how-invoice-sales.md) y [Registrar nuevos productos](inventory-how-register-new-items.md).  
 
@@ -19,7 +19,7 @@ Antes de que pueda registrar nuevos clientes, debe configurar varios códigos de
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## Agregar nuevos clientes
+## <a name="add-new-customers"></a>Agregar nuevos clientes
 
 Puede agregar nuevos clientes manualmente, completando la página **Ficha de cliente**, o puede utilizar plantillas que contienen información predefinida. Por ejemplo, puede crear una plantilla para diferentes tipos de perfiles de clientes. El uso de plantillas ahorra tiempo al agregar nuevos clientes y ayuda a garantizar que la información sea correcta en todo momento. 
 
@@ -34,7 +34,7 @@ Después de crear una plantilla, puede usar la acción **Aplicar plantilla** par
 
 También puede crear un cliente a partir de un contacto. Obtenga más información en la sección [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### Para crear una nueva ficha cliente.
+### <a name="to-create-a-new-customer-card"></a>Para crear una nueva ficha cliente.
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -42,7 +42,7 @@ La acción **Precios y descuentos** proporciona opciones para administrar precio
 
 El cliente estará registrado y la ficha de cliente está lista para usarse en los documentos de venta.  
 
-### Para guardar la ficha de cliente como una plantilla
+### <a name="to-save-the-customer-card-as-a-template"></a>Para guardar la ficha de cliente como una plantilla
 
 Puede usar una ficha de cliente como plantilla cuando cree nuevas fichas de cliente.
 
@@ -54,11 +54,11 @@ Puede usar una ficha de cliente como plantilla cuando cree nuevas fichas de clie
 
 La plantilla de cliente se agrega a la lista de plantillas de cliente y puede usarla para crear nuevas fichas de cliente.
 
-## Eliminar fichas cliente
+## <a name="delete-customer-cards"></a>Eliminar fichas cliente
 
 Si registra una transacción para un cliente, no puede eliminar la ficha cliente porque los movimientos pueden ser necesarios para la auditoría. Para eliminar fichas de cliente con movimientos, póngase en contacto con su socio de Microsoft para hacerlo mediante código.  
 
-## Administrar límites de crédito
+## <a name="manage-credit-limits"></a>Administrar límites de crédito
 
 Los límites de crédito, los importes del saldo y las condiciones de pago permiten que [!INCLUDE [prod_short](includes/prod_short.md)] emita advertencias de crédito y deuda vencida al introducir un pedido de venta. Además, los elementos de términos de recordatorio y de intereses le permiten facturar intereses y/o recargos adicionales.  
 
@@ -68,7 +68,7 @@ Puede registrar, aunque se exceda el límite de crédito. Un campo en blanco sig
 
 Puede elegir no recibir avisos cuando se supere el límite de crédito del cliente, y puede especificar qué tipos de advertencias desea ver.
 
-### Para especificar advertencias de límites de crédito
+### <a name="to-specify-credit-limit-warnings"></a>Para especificar advertencias de límites de crédito
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
 
@@ -81,7 +81,7 @@ Puede elegir no recibir avisos cuando se supere el límite de crédito del clien
     |**Deuda vencida**|Se comprueba el campo **Saldo vencido** de la ficha cliente y aparece una advertencia si el cliente tiene una deuda vencida.|
     |**Ninguno**|No se muestra ninguna advertencia acerca del estado del cliente.|
 
-## Asignar un vendedor
+## <a name="assign-a-salesperson"></a>Asignar un vendedor
 
 Puede asignar vendedores a la dirección de envío del cliente en lugar de a su dirección de facturación para que sus informes de ventas reflejen la verdadera distribución geográfica de sus ventas. Asignar un vendedor a la dirección de envío de un cliente le proporciona información más precisa y optimiza la asignación de recursos.
 
@@ -89,7 +89,7 @@ Asigne un vendedor en la página de la tarjeta **Cliente** eligiendo **Cliente**
 
 Cuando elige la opción **Dirección de envío alternativa** como ubicación **Enviar a** en un documento de ventas, el **Código de vendedor** se actualiza para coincidir con el vendedor de **Enviar a** en lugar de la dirección **Facturar a**. 
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Definir las formas de pago](finance-payment-methods.md)  
 [Combinar registros duplicados](sales-how-merge-duplicate-records.md)  

@@ -12,7 +12,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Administrar segmentos
+# <a name="managing-segments"></a>Administrar segmentos
 Puede crear segmentos para seleccionar un grupo de contactos en función de criterios específicos. Por ejemplo, un segmento puede ser el sector al que pertenecen los contactos o su relación de negocio con los contactos. Puede crear un segmento para seleccionar los contactos a los que se va a dirigir la campaña.
 
 La creación de un segmento consta de dos tareas principales:
@@ -28,7 +28,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Gestione los contactos que están asignados a segmentos. |[Añadir contactos a segmentos](marketing-add-contact-segment.md) |
 | Obtenga información sobre el uso de interacciones para segmentos, incluido el registro. |[Administrar interacciones para segmentos](marketing-interaction-segments.md) |
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Gestionar contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

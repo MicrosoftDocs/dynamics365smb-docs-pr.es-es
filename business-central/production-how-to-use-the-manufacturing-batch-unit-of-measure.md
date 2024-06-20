@@ -10,10 +10,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Trabajar con la unidad de medida de lote de fabricación
+# <a name="work-with-manufacturing-batch-units-of-measure"></a>Trabajar con la unidad de medida de lote de fabricación
 Si un producto se almacena en una unidad de medida pero se fabrica en otra, se crea una orden de producción que utiliza una unidad de medida de la sección de fabricación para calcular la cantidad correcta de componentes durante el trabajo por lotes **Actualizar orden producción**. Un ejemplo del cálculo de una unidad de medida de la sección de fabricación es el caso en que un producto fabricado se almacena por piezas pero se produce en toneladas.  
 
-## Para crear una lista de materiales de producción con una unidad de medida de sección  
+## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Para crear una lista de materiales de producción con una unidad de medida de sección
 1.  La unidad de medida de la sección de fabricación se configura como unidad de medida alternativa en la página **Unidades medida producto** del producto que se va a fabricar. La unidad de medida de sección no sustituye a la unidad de medida base del producto.  
 2.  Cree una L.M. producción para el producto configurado con la unidad de medida de sección de fabricación. Para obtener más información, consulte [Crear L.M. de producción](production-how-to-create-production-boms.md).  
 3.  En el campo **Cód. unidad medida**, seleccione la unidad de medida de sección de fabricación.  
@@ -26,7 +26,7 @@ Si un producto se almacena en una unidad de medida pero se fabrica en otra, se c
 
 En la ficha desplegable **Líneas**, elija la acción **Línea** y, a continuación, seleccione la acción **Componentes** para ver el resultado. La aplicación calcula la cantidad correcta de los componentes necesarios para satisfacer la lista de materiales de producción en función de la unidad de medida de la sección de fabricación.  
 
-## Para calcular una unidad de medida de sección de fabricación de una orden de producción  
+## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Para calcular una unidad de medida de sección de fabricación de una orden de producción
 1.  Cree una cabecera de orden de producción utilizando el producto configurado con la unidad de medida de la sección de fabricación.  
 2.  En el campo **Nº producto** de la línea de la orden de producción, escriba el mismo número de producto que se usa en la cabecera.  
 3.  En el campo **Cantidad**, escriba la misma cantidad que se usa en la cabecera.  
@@ -36,7 +36,7 @@ En la ficha desplegable **Líneas**, elija la acción **Línea** y, a continuaci
 7.  Elija el botón **Aceptar**.  
 8.  En la ficha desplegable **Líneas**, elija la acción **Línea** y, a continuación, seleccione la acción **Componentes** para ver el resultado. Se calcula la cantidad correcta de los componentes necesarios para satisfacer la lista de materiales de producción en función de la unidad de medida de sección de fabricación.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Creación de rutas](production-how-to-create-routings.md)  
 [Crear LM de producción](production-how-to-create-production-boms.md)     
 [Configuración de fabricación](production-configure-production-processes.md)  

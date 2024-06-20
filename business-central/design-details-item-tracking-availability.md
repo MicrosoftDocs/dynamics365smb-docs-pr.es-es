@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Detalles de diseño: Disponibilidad de seguimiento de productos
+# <a name="design-details-item-tracking-availability"></a>Detalles de diseño: Disponibilidad de seguimiento de productos
 Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto** proporcionan información de disponibilidad dinámica de los números de serie o de lote. El propósito de esto es aumentar la transparencia para los usuarios con respecto a los documentos de salida, como pedidos de venta, mostrándoles qué números de serie o cuántas unidades de un número de lote están asignado actualmente a otros documentos abiertos. De este modo se reduce la incertidumbre que provoca la doble asignación y transmite confianza en los procesadores de pedidos de que se pueden cumplir los números y las fechas de seguimiento de producto que han prometido en los pedidos de venta sin registrar. Para obtener más información, consulte [Detalles de diseño: Página de líneas de seguimiento de productos](design-details-item-tracking-lines-window.md).  
 
  Al abrir la página **Líneas seguimiento producto**, se recuperan los datos de disponibilidad de las tablas **Mov. producto** y **Mov. reserva**, sin filtro de reserva. Cuando elige el campo **Nº serie** o **Nº lote**, se abre la página **Resumen seguimiento prod.** y muestra un resumen de la información de seguimiento de producto en la tabla **Mov. reserva**. El resumen contiene la siguiente información sobre cada número de serie o de lote en la línea de seguimiento de producto:  
@@ -27,7 +27,7 @@ Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto**
 
  Para mantener el rendimiento de la base de datos, los datos de disponibilidad se recuperan solo una vez de la base de datos cuando se abre la página **Líneas seguimiento producto** y usa la función **Actualizar disponibilidad** en la página.  
 
-## Tipo cálculo  
+## <a name="calculation-formula"></a>Tipo cálculo
  Tal como se describe en la tabla anterior, la disponibilidad de un número de serie o de lote determinado se calcula como sigue.  
 
  cantidad total disponible = cantidad en inventario – (todas las demandas + cantidad sin transferir a la base de datos)  
@@ -35,7 +35,7 @@ Las páginas **Líneas seguimiento producto** y **Resumen seguimiento producto**
 > [!IMPORTANT]  
 >  Esta fórmula implica que en el cálculo de disponibilidad de número de serie o de lote solo se tiene en cuenta el inventario y se omiten las recepciones proyectadas. Por consiguiente, el aprovisionamiento que aún no se haya registrado en el inventario no afecta a la disponibilidad del seguimiento de productos, al contrario que la disponibilidad de los productos normal, donde se incluyen las recepciones proyectadas.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
  [Detalles de diseño: Seguimiento de productos](design-details-item-tracking.md)
 
 

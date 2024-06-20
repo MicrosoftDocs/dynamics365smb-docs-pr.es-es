@@ -9,17 +9,17 @@ ms.date: 07/15/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Configurar Mapas en línea
+# <a name="set-up-online-maps"></a>Configurar Mapas en línea
 
 Si planea realizar una visita a una dirección guardada en una tarjeta, por ejemplo a un cliente, puede conseguir un mapa en un servicio en línea con indicaciones de rutas descritas en el idioma que seleccione. Para que este servicio de mapas en línea pueda buscar las indicaciones y el mapa correctos, debe configurarlo en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Configurar la característica de mapas en línea
+## <a name="set-up-the-online-map-feature"></a>Configurar la característica de mapas en línea
 
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración Online Map** y luego elija el enlace relacionado.
 2. En la página **Configuración Online Map**, rellene los campos. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. Active el botón de alternancia **Habilitado**.
 
-### Personalizar las funciones del proveedor de mapas en línea
+### <a name="customize-the-online-map-provider-features"></a>Personalizar las funciones del proveedor de mapas en línea
 
 Para personalizar la función de mapas en línea más allá de las opciones enumeradas en la página **Configuración Online Map** o para usar un proveedor de mapas diferente, siga estos pasos:
 
@@ -28,7 +28,7 @@ Para personalizar la función de mapas en línea más allá de las opciones enum
 3. Rellene los campos para personalizar cómo [!INCLUDE[prod_short](includes/prod_short.md)] generará las URL para los servicios disponibles. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
    * Consulte la lista **Parámetro de sustitución de Online Map** en el panel **Cuadro informativo** de los datos disponibles para generar URL.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Usar Mapas en línea para encontrar ubicaciones e indicaciones](across-online-maps.md)  
 [Preparación para hacer negocios](ui-get-ready-business.md)  

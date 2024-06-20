@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Configurar activos fijos
+# <a name="setting-up-fixed-assets"></a>Configurar activos fijos
 
 Antes de trabajar con activos fijos (FA), debe definir algunos parámetros:  
 
@@ -26,7 +26,7 @@ Las secciones de este artículo enlazan con más información sobre cómo config
 
 Cuando habilite una actividad de activo fijo en la sección **Integración contabilidad** de la página **Ficha libro amortización**, utilice la página **A/F Diario general** para registrar las transacciones de la actividad.
 
-## Tareas de configuración necesarias
+## <a name="required-setup-tasks"></a>Tareas de configuración necesarias
 
 La siguiente tabla contiene una secuencia de tareas para configurar activos fijos y vínculos a artículos relacionados.
 
@@ -35,7 +35,7 @@ La siguiente tabla contiene una secuencia de tareas para configurar activos fijo
 | Configurar las cuentas predeterminadas, las claves de asignación, las plantillas y las secciones del diario utilizadas para registrar los activos fijos, y configurar las clases y subclases de activos fijos como, por ejemplo, Tangible e Intangible. |[Configurar información general de activos fijos](fa-how-setup-general.md) |
 | Crear libros de amortización y definir varios métodos de amortización, integrarlos con el libro mayor y permitir la duplicación de movimientos en varios libros de amortización. |[Configurar amortización de activos fijos](fa-how-setup-depreciation.md) |
 
-## Tareas de configuración opcionales (seguro, mantenimiento y métodos de amortización definidos por el usuario)
+## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Tareas de configuración opcionales (seguro, mantenimiento y métodos de amortización definidos por el usuario)
 
 La siguiente tabla contiene una secuencia de tareas opcionales para configurar los activos fijos, como los seguros, el mantenimiento y los métodos de amortización, así como enlaces a artículos relacionados. 
 
@@ -45,7 +45,7 @@ La siguiente tabla contiene una secuencia de tareas opcionales para configurar l
 | Activar el mantenimiento de activos fijos, configurar la información general de mantenimiento, configurar el mantenimiento de las cuentas de registro y definir los tipos de trabajo de mantenimiento. |[Configurar el mantenimiento de activos fijos](fa-how-setup-maintenance.md) |
 | Obtenga información sobre cómo aplicar métodos de amortización. |[Configurar métodos de amortización definidos por usuario](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Información general de los activos fijos](fa-manage.md)  
 [Visión general del análisis de activos fijos](fa-analytics-overview.md)   

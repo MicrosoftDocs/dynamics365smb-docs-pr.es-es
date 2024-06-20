@@ -9,11 +9,11 @@ ms.date: 02/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Crear facturas o notas de abono de servicios
+# <a name="create-service-invoices-or-credit-memos"></a>Crear facturas o notas de abono de servicios
 
 La facilidad de facturar sus pedidos de servicio es una función esencial de [!INCLUDE[prod_short](includes/prod_short.md)]. Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] de modo que un técnico de servicio de campo pueda crear una factura para un servicio que no esté vinculado con un contrato o pedido. Como alternativa, configure [!INCLUDE[prod_short](includes/prod_short.md)] para facturar contratos de servicio periódicamente. El periodo de factura de cada contrato define la frecuencia con que se factura.
 
-## Para facturar varios contratos de servicio
+## <a name="to-invoice-several-service-contracts"></a>Para facturar varios contratos de servicio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear facturas de contrato de servicio** y, a continuación, elija el enlace relacionado.  
 2. Establezca los filtros que desea aplicar.  
@@ -24,7 +24,7 @@ La facilidad de facturar sus pedidos de servicio es una función esencial de [!I
   
 También puede facturar un contrato de servicio directamente desde la página **Contrato servicio**, si la siguiente fecha de factura del contrato es anterior a la fecha de trabajo.
 
-## Facturar un contrato de servicio desde la página de contrato de servicio   
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Facturar un contrato de servicio desde la página de contrato de servicio
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contratos de servicio** y luego elija el enlace relacionado.  
 2. Elija el contrato de servicio que desea facturar y abra la ficha de contrato.  
@@ -34,7 +34,7 @@ También puede facturar un contrato de servicio directamente desde la página **
   > [!NOTE]  
   > No puede crear facturas de servicio para el contrato de servicio cuando el valor del campo **Cambiar estado** es **Abierto**.  
 
-## Para registrar una factura de un pedido de servicio  
+## <a name="to-post-an-invoice-from-a-service-order"></a>Para registrar una factura de un pedido de servicio
 
 En el siguiente procedimiento se describe cómo definir la parte del servicio por la que cobrará al cliente.  
 
@@ -54,7 +54,7 @@ En el siguiente procedimiento se describe cómo definir la parte del servicio po
   
  Cuando se registra el pedido con la opción **Facturar**, se crea una factura de servicio registrada junto con los movimientos correspondientes y actualiza los campos pertinentes en las líneas de servicio del pedido. Asimismo, se actualizan los documentos de envío registrados previamente con las cantidades facturadas. Si selecciona la opción de registro **Enviar y facturar**, se crea un envío registrado.
 
-## Para crear una factura de servicio manualmente  
+## <a name="to-create-a-service-invoice-manually"></a>Para crear una factura de servicio manualmente
 
 Normalmente, después de que registre un pedido de servicio con la opción **Facturar** o **Enviar y facturar**, se registrará automáticamente una factura de servicio. Aún así, puede que necesite emitir una factura que no esté vinculada a un contrato o pedido de servicio. Este procedimiento explica cómo emitir una factura al mismo tiempo que el cliente recibe el servicio.  
 
@@ -73,7 +73,7 @@ Normalmente, después de que registre un pedido de servicio con la opción **Fac
 6. En el campo **Fecha emisión documento** introduzca la fecha que aparecerá en la factura impresa y se utilizará para calcular la fecha de vencimiento.  
 7. Rellene las líneas de servicio de la factura. Rellene los campos **Tipo**, **Nº** y **Cantidad** para registrar los productos, los recursos y los costes que se han empleado en el servicio.
 
-## Para crear una factura que combine líneas de albarán registradas de uno o más pedidos de servicio 
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Para crear una factura que combine líneas de albarán registradas de uno o más pedidos de servicio
 
 Tal vez necesite crear una factura de servicio por un servicio que ya se ha enviado, ya sea de uno o de varios pedidos, pero que aún no se ha facturado ni consumido. Puede rellenar las líneas de factura de forma automática con las líneas de envío registrado seleccionadas para un cliente concreto.  
 
@@ -84,7 +84,7 @@ Tal vez necesite crear una factura de servicio por un servicio que ya se ha envi
   
  Se crean la factura de servicio registrada y los movimientos correspondientes. Los documentos de envío registrados previamente se actualizan con las cantidades facturadas y las cantidades en las líneas de servicio de los pedidos de origen.  
 
-## Para crear un abono de servicio  
+## <a name="to-create-a-service-credit-memo"></a>Para crear un abono de servicio
 
 Normalmente se utiliza un documento de nota de crédito de servicio cuando un cliente devuelve un artículo. Sin embargo, también puede utilizarlos para reembolsar a un cliente o para corregir una factura que fue un error.  
 
@@ -93,7 +93,7 @@ Normalmente se utiliza un documento de nota de crédito de servicio cuando un cl
 3. Los campos **Fecha de registro** y **Fecha de emisión de documento** muestran la fecha del trabajo. Aunque podría cambiarlo si lo necesita.    
 4. En las líneas de abono, escriba información acerca de los productos devueltos o eliminados, o bien especifique la compensación que se va a proporcionar al cliente.  
 
-## Corregir errores en facturas de servicios
+## <a name="correct-errors-in-service-invoices"></a>Corregir errores en facturas de servicios
 
 Puede eliminar facturas de servicios que tengan asientos del libro mayor de servicios asociados. Esto significa que puede corregir errores o realizar cambios en las facturas de servicios sin quedarse atascado ni perder datos. Por ejemplo, si olvida asignar un grupo contable de productos a una cuenta del L/M, puede agregarlo más tarde y volver a crear la factura del servicio.
 
@@ -109,7 +109,7 @@ Cuando elimina una factura de servicio, sucede lo siguiente:
 >
 > No puede eliminar una factura de servicio si sus detalles, como el período de facturación o la opción **Pagado por adelantado** se cambiaron en el contrato de servicio relacionado. Asegúrese de eliminar las facturas antes de cambiar la configuración del contrato de servicio.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Registrar facturas de servicio](service-how-to-post-service-orders.md)  
 [Configurar la gestión de servicios](service-setup-service.md)  

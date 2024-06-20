@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ---
-# Información general sobre las sugerencias de texto de marketing con Copilot
+# <a name="marketing-text-suggestions-with-copilot-overview"></a>Información general sobre las sugerencias de texto de marketing con Copilot
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 Este artículo ofrece una descripción general de la capacidad impulsada por IA proporcionada por Copilot en Business Central.
 
-## ¿Qué es el texto de marketing de productos impulsado por IA con Copilot?
+## <a name="what-is-ai-powered-item-marketing-text-with-copilot"></a>¿Qué es el texto de marketing de productos impulsado por IA con Copilot?
 
 Copilot proporciona asistencia de escritura impulsada por IA para los usuarios de Business Central responsables de la creación de textos de marketing (descripciones de productos) en artículos vendidos en tiendas en línea, como Shopify. Con el clic de un botón, Copilot genera texto que es atractivo y creativo y destaca los atributos clave del elemento específico. Con un poco de revisión y edición, está listo para publicarse.
 
@@ -28,13 +28,13 @@ Copilot usa el [Servicio Microsoft Azure OpenAI](/azure/cognitive-services/opena
 
 *El video no refleja exactamente cómo funciona o se ve la característica actualmente en el producto. La característica ha cambiado desde que se produjo el vídeo. Pero le da una idea general de la función y para qué puede usarla.*
   
-## Dónde se usa
+## <a name="where-its-used"></a>Dónde se usa
 
 Copilot está disponible en tarjetas de artículos en Business Central. En Business Central, los artículos son como productos en otras aplicaciones y tiendas. Cada artículo se puede administrar desde una tarjeta donde introduce detalles sobre el artículo, como sus dimensiones, coste o imagen. Esta tarjeta también incluye un cuadro para introducir texto de marketing. Este texto de marketing se puede publicar en su tienda en línea para promocionar el artículo. Aquí es donde entra Copilot. Simplemente seleccionando la acción **Borrador con Copilot** en la tarjeta del artículo, Copilot generará un borrador de texto inteligente para usted. Una vez que obtenga el primer borrador, puede ejecutar Copilot una y otra vez hasta que obtenga un borrador que le guste. Cuando tiene una sugerencia que le gusta, la revisa y la edita para comprobar su precisión y luego la guarda.
 
 Si Business Central está configurado para conectarse a su tienda en línea en Shopify, puede llevar este texto aún más lejos al publicarlo con el artículo directamente en su tienda seleccionando **Agregar a Shopify**.
 
-## Por qué y cómo usarlo
+## <a name="why-and-how-to-use-it"></a>Por qué y cómo usarlo
 
 El texto generado por IA puede ayudarle a acelerar el tiempo de comercialización de los productos en las tiendas en línea, al limitar el tiempo utilizado en la redacción de textos publicitarios. Algunas principales ventajas son:
 
@@ -44,7 +44,7 @@ El texto generado por IA puede ayudarle a acelerar el tiempo de comercializació
 
 Debe pensar en el texto generado por IA solo como una *sugerencia*. Las sugerencias pueden, en algunos casos, contener errores e incluso texto inapropiado, por lo que se requiere supervisión y revisión humana. Antes de poner el texto a disposición del público, debe revisarlo para comprobar su precisión y realizar los cambios apropiados.
 
-## Limitaciones actuales
+## <a name="current-limitations"></a>Limitaciones actuales
 
 Esta sección explica las limitaciones actuales de la capacidad de texto generado por IA proporcionada por Copilot.
 
@@ -55,7 +55,7 @@ Esta sección explica las limitaciones actuales de la capacidad de texto generad
 
 <!-- Partner extensibility of the AI capability by using AL code isn't supported.-->
 
-## Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 
 Para comenzar, necesitará un entorno de Business Central (v23.1 y posteriores) que esté habilitado con Copilot.
 
@@ -65,7 +65,7 @@ Para comenzar, necesitará un entorno de Business Central (v23.1 y posteriores) 
 
 Una vez que tenga un entorno o sendero listo, vaya a [Agregar texto de marketing a los artículos con Copilot](item-marketing-text.md).  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar Copilot y capacidades de IA](enable-ai.md)  
 [Agregar texto de marketing para artículos con Copilot](item-marketing-text.md)  

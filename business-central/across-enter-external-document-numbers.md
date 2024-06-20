@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Indicar números de documento externo
+# <a name="enter-external-document-numbers"></a>Indicar números de documento externo
 
 Puede especificar números de documento externo para clientes y proveedores en todos los pedidos de compra y venta, facturas y abonos. Puede utilizar estos números para buscar líneas de compra y ventas registradas más adelante.  
 
@@ -19,7 +19,7 @@ Puede especificar números de documento externo para clientes y proveedores en t
 
 El siguiente procedimiento explica cómo especificar un número de documento externo en un pedido de venta, pero se aplican pasos similares a otros documentos de compra.
 
-## Para especificar números de documentos externos en un pedido de ventas  
+## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Para especificar números de documentos externos en un pedido de ventas
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de venta** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione el pedido de venta correspondiente y, a continuación, elija la acción **Editar**.  
@@ -28,7 +28,7 @@ El siguiente procedimiento explica cómo especificar un número de documento ext
     En los documentos de compra, el campo relevante es **N.º factura proveedor**.
 4. Rellene el resto de los campos obligatorios.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Números de documento externo en documentos de compra](purchasing-ext-doc-no.md)  
 [Números de documento externo en documentos de venta](sales-how-invoice-sales.md#external-document-numbers)  

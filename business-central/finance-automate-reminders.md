@@ -11,7 +11,7 @@ ms.date: 03/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Automatizar recordatorios en cobros
+# <a name="automate-reminders-in-collections"></a>Automatizar recordatorios en cobros
 
 Haga que sus cobros sean más efectivos al automatizar los procesos de creación, emisión y envío de recordatorios a sus clientes. La automatización puede reducir significativamente el tiempo que dedicará a los cobros, brindar una mejor descripción general del proceso y brindarle control total sobre cada paso.
 
@@ -19,7 +19,7 @@ En la página **Automatización de recordatorios**, usted define las acciones in
 
 La automatización se produce a través de una entrada en la cola de trabajos. Cuando configura una automatización, utilice el campo **Cadencia** para especificar cómo y cuándo se ejecuta. Si elige **Manual**, la automatización se ejecuta una vez cuando utiliza la acción **Iniciar**. También puede elegir **Semanal**, **Mensual** o elegir **Personalizado** para configurar una cadencia más detallada. Si elige **Personalizado**, debe introducir una fórmula de datos. Para obtener más información sobre cómo introducir una fórmula de fecha, vaya a [Usar fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas). Cuando elija una opción que no sea **Manual**, la automatización se ejecuta hasta que la pause para ponerla en espera. Si desea ser aún más específico acerca de cuándo se ejecuta, utilice la acción **Entradas de la cola de trabajos** para abrir la página **Entradas de la cola de trabajos** y ajuste la periodicidad, por ejemplo, a diario o a un día laborable específico.
 
-## Automatizar el flujo de recordatorios
+## <a name="automate-the-reminders-flow"></a>Automatizar el flujo de recordatorios
 
 Las siguientes secciones describen cómo configurar recordatorios para crear, emitir y enviar automáticamente.
 
@@ -31,22 +31,22 @@ Las siguientes secciones describen cómo configurar recordatorios para crear, em
 1. Dependiendo del tipo de acción que realiza la automatización, complete los campos según sea necesario en la página de configuración. Para obtener más información sobre la configuración, vaya a [Configuración de acciones de recordatorio](#settings-for-reminder-actions).
 1. Después de configurar las acciones para la automatización, puede usar las acciones **Mover hacia arriba** y **Mover hacia abajo** para ajustar el orden en que se ejecutan.
 
-## Configuraciones para acciones de recordatorio
+## <a name="settings-for-reminder-actions"></a>Configuraciones para acciones de recordatorio
 
 Las opciones de configuración difieren para las acciones Crear, Emitir y Enviar recordatorio. En el siguiente apartado se explica cómo usarlas.
 
-### Crear
+### <a name="create"></a>Crear
 
 * Establezca el nivel máximo en todas las líneas de recordatorio.  
 * Cree recordatorios para movimientos en espera. Por ejemplo, esta configuración es útil si tiene una disputa en curso con un cliente y desea que vea el panorama general.
 * Cree recordatorios para todas las facturas impagadas y no solo para las vencidas. El informe muestra las facturas vencidas y aquellas que simplemente están impagadas pero no vencidas en secciones separadas.
 * Configure filtros para que el recordatorio sea más específico.
 
-### Emitir
+### <a name="issue"></a>Emitir
 
 Cuando emite un recordatorio, crea entradas en el libro mayor de clientes que contienen la fecha de contabilización y la fecha del impuesto. Utilice la configuración en la página **Configuración de recordatorios de problemas** para especificar si se reemplaza esa información en el recordatorio emitido con la información del recordatorio creado. Por ejemplo, si creó el recordatorio ayer y lo emite hoy, la fecha de vencimiento se mueve un día.
 
-### Enviar
+### <a name="send"></a>Enviar
 
 > [!NOTE]
 > La automatización de envío requiere que haya configurado el correo electrónico en [!INCLUDE [prod_short](includes/prod_short.md)]. Para obtener más información sobre cómo configurar un correo electrónico, vaya a [Configurar correo electrónico](admin-how-setup-email.md).
@@ -59,19 +59,19 @@ Utilice la configuración de la página **Enviar configuración de recordatorios
 * Configuraciones sobre qué incluir en el recordatorio.
 * Configuraciones para rastrear los recordatorios que envía mediante la creación de interacciones, ya sea que imprima o envíe el recordatorio por correo electrónico y si desea adjuntar solo facturas vencidas, todas las facturas o ninguna factura. 
 
-## Obtener acceso al historial de un recordatorio
+## <a name="access-the-history-of-a-reminder"></a>Obtener acceso al historial de un recordatorio
 
 [!INCLUDE [prod_short](includes/prod_short.md)] realiza un seguimiento de cada vez que se ejecuta una automatización. Para tener acceso al historial elija la acción **Entradas de registro**. También puedes utilizar la acción **Recordatorios emitidos** para tener acceso a una lista de los recordatorios que ha emitido.
 
-## Controlar los errores
+## <a name="handle-errors"></a>Controlar los errores
 
 En la ficha desplegable **Acciones** para cada acción puede especificar si desea que la automatización se detenga si la acción tiene un error. Si lo hace, la automatización no procesará las acciones que vienen después. Para activar o desactivar esta función, utilice las acciones **Establecer detención en caso de error** o **Borrar detención en caso de error**.
 
-## Cambiar la configuración de acción para una automatización
+## <a name="change-action-settings-for-an-automation"></a>Cambiar la configuración de acción para una automatización
 
 Puede cambiar la configuración de una automatización en cualquier momento. En la ficha desplegable **Acciones**, elija **Configuración** y luego realice los cambios.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configurar términos, niveles y textos de recordatorios](finance-setup-reminders.md)  
 [Enviar recordatorios de saldos pendientes](receivables-send-reminders.md)  

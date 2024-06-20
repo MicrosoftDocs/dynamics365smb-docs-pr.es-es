@@ -12,15 +12,15 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Administrar activos fijos
+# <a name="manage-fixed-assets"></a>Administrar activos fijos
 
 La funcionalidad de activos fijos de [!INCLUDE[prod_short](includes/prod_short.md)] proporciona un resumen de sus activos y ayuda a garantizar que su depreciación sea correcta. También le ayuda a realizar un seguimiento de los costos de mantenimiento, administrar pólizas de seguro, publicar transacciones de activos fijos y generar diversos informes y estadísticas.
 
-## ¿Qué es un activo fijo?
+## <a name="what-is-a-fixed-asset"></a>¿Qué es un activo fijo?
 
 Los activos fijos se diferencian de otros artículos de su almacén. Un activo fijo, también conocido como activo de capital, es una propiedad, planta o equipo tangible (PP&E) que usted posee o administra con la expectativa de que continuará ayudando a generar ingresos. Un activo es fijo cuando es un artículo que su empresa no consumirá, venderá ni convertirá en efectivo durante el próximo año calendario. Los activos fijos son diferentes de los activos corrientes, que están en efectivo o están programados para convertirse en efectivo dentro de los próximos 12 meses. Los activos fijos también difieren de su inventario, porque el inventario generalmente se consume en poco tiempo.
 
-## Tipos de activos fijos
+## <a name="types-of-fixed-assets"></a>Tipos de activos fijos
 
 Las empresas suelen invertir en algunos tipos de activos fijos. Algunos ejemplos son:
 
@@ -30,7 +30,7 @@ Las empresas suelen invertir en algunos tipos de activos fijos. Algunos ejemplos
 - Maquinaria
 - Vehículos
 
-## Comprender la contabilidad de activos fijos
+## <a name="understanding-fixed-asset-accounting"></a>Comprender la contabilidad de activos fijos
 
 La contabilidad de activos fijos significa mantener registros financieros precisos sobre sus activos de capital. Estos registros incluyen detalles sobre las cinco etapas del ciclo de vida de un activo. Después de su compra inicial, el ciclo de vida de cada activo fijo incluye al menos tres de las siguientes etapas:
 
@@ -42,13 +42,13 @@ La contabilidad de activos fijos significa mantener registros financieros precis
 
 Las auditorías también se incluyen en los controles detallados de los registros contables de su empresa después del cierre de los libros del ejercicio financiero. Ya sean internas o externas, en las auditorías es posible que notes inconsistencias o diferencias entre tus notas y el estado real de tus activos. Las auditorías promueven la transparencia en sus activos y contabilidad si está perdiendo más dinero del previsto.
 
-## Resumen en vídeo
+## <a name="video-overview"></a>Resumen en vídeo
 
 El siguiente video cubre los conceptos básicos de los activos fijos:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Configuración inicial de activos fijos
+## <a name="initial-setup-of-fixed-assets"></a>Configuración inicial de activos fijos
 
 Antes de poder administrar activos fijos, debe completar las siguientes configuraciones:
 
@@ -60,7 +60,7 @@ Antes de poder administrar activos fijos, debe completar las siguientes configur
 
 Obtenga más información, vaya a [Configurar activos fijos](fa-setup.md).
 
-## Análisis de activos fijos
+## <a name="fixed-assets-analytics"></a>Análisis de activos fijos
 
 Esta sección describe las herramientas de análisis que puede usar para obtener información sobre sus activos fijos.
 
@@ -74,7 +74,7 @@ Esta sección describe las herramientas de análisis que puede usar para obtener
 | Ver movimientos de venta/baja. | [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vea valores de disposición proyectados. | [Ver valores venta/baja previstos](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Registrar activos fijos
+## <a name="register-fixed-assets"></a>Registrar activos fijos
 
 Para cada activo fijo debe configurar una ficha que contiene información sobre el mismo. Por ejemplo, puede configurar los edificios o los bienes de producción como activos principales con una lista de componentes. Puede agrupar los activos de varias formas, como por clase, departamento o ubicación. Ahora puede adquirir, mantener y vender los activos fijos. También puede configurar activos presupuestados. El presupuesto le permite incluir adquisiciones y ventas anticipadas en los informes.
 
@@ -83,7 +83,7 @@ Para cada activo fijo debe configurar una ficha que contiene información sobre 
 | Gestionar presupuestos de activos fijos, costes, ventas/bajas y amortización. |[Administrar presupuestos para activos fijos.](fa-how-manage-budgets.md) |
 | Crear activos fijos, asignar métodos de amortización, registrar adquisiciones, valores residuales e imprimir listas de activos fijos. |[Adquirir activos fijos](fa-how-acquire.md) |
 
-## Establecer amortizaciones para los activos fijos
+## <a name="set-up-depreciations-for-your-fixed-assets"></a>Establecer amortizaciones para los activos fijos
 
 Para realizar un seguimiento de las amortizaciones de activos y otras transacciones financieras relacionadas con los activos, configure uno o varios libros de amortización para cada uno. Hay unos cuantos pasos para depreciar los activos:
 
@@ -100,7 +100,7 @@ Para realizar un seguimiento de las amortizaciones de activos y otras transaccio
 | Ver valores contables de depreciación modificados. | [Ver valores modificados del libro de amortización](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Registre manualmente transacciones de activos en las páginas **A/F Diario general** o **Diario activos fijos**, dependiendo de si las transacciones son para la información financiera o la gestión interna. | [Configurar amortización de activos fijos](fa-how-setup-depreciation.md) |
 
-## Mantenimiento y seguros de activos fijos
+## <a name="fixed-assets-maintenance-and-insurance"></a>Mantenimiento y seguros de activos fijos
 
 Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de cada activo para cada activo. Realizar un seguimiento de los gastos de mantenimiento puede ser importante de cara al presupuesto y para decidir el reemplazo de un activo. Puede vincular cada activo fijo a una o más pólizas de seguro y verificar que las primas de las pólizas se alineen con el valor de los activos.
 
@@ -111,7 +111,7 @@ Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de
 | Actualizar información de seguros, registrar costes en pólizas de seguros, modificar la cobertura del seguro, ver estadísticas de seguros y listar pólizas de seguros. |[Asegurar activos fijos](fa-how-insure.md) |
 | Controle la cobertura de seguros. | [Controlar la cobertura de seguros](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## Reclasificar, transferir, dividir/combinar, ajustar valor, amortizar y enajenar activos fijos
+## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Reclasificar, transferir, dividir/combinar, ajustar valor, amortizar y enajenar activos fijos
 
 | Para  | Vea |
 | --- | --- |
@@ -121,7 +121,7 @@ Puede registrar los costes de mantenimiento y la fecha del siguiente servicio de
 | Ver movimientos de venta/baja. | [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vea valores de disposición proyectados. | [Ver valores venta/baja previstos](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Consejos para mejorar la contabilidad de sus activos fijos
+## <a name="tips-for-improving-your-fixed-asset-accounting"></a>Consejos para mejorar la contabilidad de sus activos fijos
 
 Hay algunas cosas que puede implementar en su estrategia contable para activos fijos que pueden ayudarlo a maximizar sus ganancias.
 
@@ -130,7 +130,7 @@ Hay algunas cosas que puede implementar en su estrategia contable para activos f
 - Etiqueta tus activos. Es esencial realizar un seguimiento y etiquetar sus activos durante todo su ciclo de vida porque muchos factores pueden afectar su valor. El etiquetado ayuda a rastrear sus artículos a lo largo de las etapas de su ciclo de vida y ayuda a prevenir robos, eliminar extravíos y respaldar las estadísticas financieras.
 - Automatice la información con el software de contabilidad de activos fijos. La automatización de las actividades manuales para realizar un seguimiento de sus datos con un software de contabilidad de activos fijos facilita la finalización de los procesos. La protección con contraseña puede ayudar a proporcionar acceso sólo a las personas que lo necesitan y están capacitadas para ello.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configuración de activos fijos](fa-setup.md)  
 [Información general de los análisis de activos fijos](fa-analytics-overview.md)  

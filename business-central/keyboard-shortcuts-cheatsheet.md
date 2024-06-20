@@ -12,9 +12,9 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ---
 
-# Referencia rápida de teclado: solo PC
+# <a name="keyboard-quick-reference---pc-only"></a>Referencia rápida de teclado: solo PC
 
-#### General
+#### <a name="general"></a>General
 
 |Seleccione estas teclas|Para hacer esto|  
 |-|-|
@@ -41,7 +41,7 @@ ms.reviewer: jswymer
 |<kbd>Tabulador</kbd>/<kbd>Mayús</kbd>+<kbd>Tabulador</kbd>|Desplazar el enfoque al elemento siguiente/anterior|
 |<kbd>F6</kbd>/<kbd>Mayús</kbd>+<kbd>F6</kbd>|Desplazarse a la siguiente ficha desplegable/parte|
 
-#### Desplazarse y seleccionar filas
+#### <a name="navigate--select-rows"></a>Desplazarse y seleccionar filas
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
@@ -55,14 +55,14 @@ ms.reviewer: jswymer
 |<kbd>Mayús</kbd>+<kbd>Re. pág</kbd>/<kbd>Abajo</kbd>|Seleccionar filas visibles arriba/abajo|
 |<kbd>Ctrl</kbd>+<kbd>Entrar</kbd>|Centrarse en la lista|
 
-#### Copiar y pegar
+#### <a name="copy--paste"></a>Copiar y pegar
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copiar/pegar filas|
 |<kbd>F8</kbd>|Copiar campo de arriba a la fila actual|
 
-#### Buscar, filtrar y ordenar
+#### <a name="search-filter--sort"></a>Buscar, filtrar y ordenar
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
@@ -73,20 +73,20 @@ ms.reviewer: jswymer
 |<kbd>Mayús</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Agregar un filtro en el campo seleccionado|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Mayús</kbd>+<kbd>F3</kbd>|Restablecer filtros|
 
-#### Entrada rápida
+#### <a name="quick-entry"></a>Entrada rápida
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Mayús</kbd>+<kbd>Entrar</kbd>|Ir al siguiente campo de entrada rápida fuera de una lista|
 |<kbd>Entrar</kbd>/<kbd>Mayús</kbd>+<kbd>Entrar</kbd>|Ir al campo de entrada rápida siguiente/anterior|
 
-##### Vista preliminar de un informe
+##### <a name="report-preview"></a>Vista preliminar de un informe
 
 |Seleccione estas teclas|Para hacer esto|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Inicio</kbd>/<kbd>Fin</kbd>|Ir a la primera/última página|
 
-#### Teclado numérico
+#### <a name="numeric-keypad"></a>Teclado numérico
 
 |Seleccione estas teclas|Para hacer esto|  
 |-|-|

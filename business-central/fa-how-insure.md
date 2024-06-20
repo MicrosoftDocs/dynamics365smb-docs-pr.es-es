@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Asegurar activos fijos
+# <a name="insure-fixed-assets"></a>Asegurar activos fijos
 
 Utilice la página **Tarjeta de seguro** para configurar una póliza de seguro que cubra uno o más activos fijos. Puede asignar un activo fijo a una póliza de seguro o varios activos fijos a una póliza de seguro.
 
@@ -26,7 +26,7 @@ Si la opción **Contabilización automática de seguros** en la página **Config
 
 Después de asignar un activo fijo a una póliza de seguro, el campo **Asegurado** en la tarjeta de activo fijo contiene **Sí**. Cuando vende el activo fijo, la alternancia se desactiva automáticamente.
 
-## Para crear o modificar una ficha de seguros
+## <a name="to-create-or-modify-an-insurance-card"></a>Para crear o modificar una ficha de seguros
 
 Cuando reciba información de cambios en el importe de cobertura, debe especificar la nueva información de la página **Ficha seguro** para poder asegurarse un análisis correcto de la póliza de seguros.  
 
@@ -34,7 +34,7 @@ Cuando reciba información de cambios en el importe de cobertura, debe especific
 2. Seleccione la acción **Nuevo** para crear una ficha de póliza seguro nueva. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. De forma alternativa, seleccione la póliza de seguro que desea cambiar y, a continuación, elija la acción **Editar**.
 
-## Asigne un activo fijo a una póliza de seguros realizando el registro desde un diario de seguro.
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Asigne un activo fijo a una póliza de seguros realizando el registro desde un diario de seguro.
 
 Asigne un activo fijo a una póliza de seguros realizando el registro desde un movimiento de cobertura seguro.  
 
@@ -48,7 +48,7 @@ El procedimiento siguiente explica cómo crear una línea en un diario de seguro
     > [!NOTE]  
     > Los movimientos de un diario seguros solo se registran en los movimientos de seguros.  
 
-## Para actualizar el valor del seguro de un activo fijo
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Para actualizar el valor del seguro de un activo fijo
 
 Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor de los activos cubiertos.  
 
@@ -63,19 +63,19 @@ Puede utilizar el proceso **Ajustar valores seguros** para actualizar el valor d
 4. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de seguros**, y luego elija el enlace relacionado.  
 5. Abra el diario de seguros pertinente, revise los valores creados y, a continuación, regístrelos en los movimientos de seguros.  
 
-## Para controlar la cobertura de seguros
+## <a name="to-monitor-insurance-coverage"></a>Para controlar la cobertura de seguros
 
 [!INCLUDE[prod_short](includes/prod_short.md)] proporciona informes dedicados y páginas de estadísticas para usarlos en el análisis de las pólizas de seguro y saber si sus activos fijos tienen un exceso o una falta de seguro.  
 
-### Resumen de pólizas de seguro
+### <a name="overview-of-insurance-policies"></a>Resumen de pólizas de seguro
 
 Para obtener una visión general de las pólizas de seguros, obtenga una vista previa del informe **Seguro - Lista** o imprímalo. El informe muestra todas las pólizas y los campos más importantes de las fichas de seguro.  
 
-### Cobertura del seguro
+### <a name="insurance-coverage"></a>Cobertura del seguro
 
 Para ver qué pólizas cubren cada activo y por cuánto, puede previsualizar o imprimir el informe **Seguro - Total asegurado**.  
 
-#### Cobertura excesiva o insuficiente
+#### <a name="overunder-coverage"></a>Cobertura excesiva o insuficiente
 
 Puede comprobar si los activos fijos están sobreasegurados o insuficientemente asegurados de las siguientes maneras:  
 
@@ -84,18 +84,18 @@ Puede comprobar si los activos fijos están sobreasegurados o insuficientemente 
 * El informe **Sobre/Infra asegurado**.  
 * El informe **Análisis seguros**.  
 
-### Activos fijos no asegurados
+### <a name="uninsured-fixed-assets"></a>Activos fijos no asegurados
 
 Para verificar si olvidó asignar un activo fijo a una póliza de seguro, puede imprimir o obtener una vista previa del informe **Seguros - FA sin seguro** . Este informe muestra los activos fijos cuyos montos no se registran en el libro mayor de cobertura de seguro.  
 
-## Para ver los movimientos cobertura de seguro
+## <a name="to-view-insurance-coverage-ledger-entries"></a>Para ver los movimientos cobertura de seguro
 
 Puede ver las entradas que realizó en el libro mayor de cobertura del seguro.  
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Seguro** y luego elija el enlace relacionado.  
 2. Seleccione la póliza relevante y, a continuación, seleccione la acción **Movimientos seguro**.  
 
-## Para ver el total del valor del seguro de los activos
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Para ver el total del valor del seguro de los activos
 
 Una página de matriz muestra los valores de seguro que se registran para cada póliza de seguro para cada activo fijo que resultan de los importes relacionados con el seguro registrados.  
 
@@ -105,7 +105,7 @@ Una página de matriz muestra los valores de seguro que se registran para cada p
 4. Elija la acción **Mostrar matriz**.  
 5. Para ver los movimientos de seguros subyacentes, elija un valor en la matriz.  
 
-## Para corregir movimientos de seguros
+## <a name="to-correct-insurance-coverage-entries"></a>Para corregir movimientos de seguros
 
 Si se asignó un activo fijo a una póliza de seguro incorrecta, puede corregirlo creando dos asientos de reclasificación desde el diario de seguros.  
 
@@ -116,7 +116,7 @@ Si se asignó un activo fijo a una póliza de seguro incorrecta, puede corregirl
 
 El activo fijo se elimina de la póliza de seguro incorrecta en la segunda línea. El activo se asigna a la póliza de seguro correcta en la primera línea del diario.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Activos fijos](fa-manage.md)  
 [Configuración de activos fijos](fa-setup.md)  

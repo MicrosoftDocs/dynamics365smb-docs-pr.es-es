@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Análisis por área funcional
+# <a name="analytics-by-functional-area"></a>Análisis por área funcional
 
 El contenido general sobre el análisis también está disponible en versiones especiales para muchas de las áreas funcionales en [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -24,7 +24,7 @@ El contenido general sobre el análisis también está disponible en versiones e
 | Gestión de activos fijos | [Análisis de activos fijos](fa-analytics-overview.md) |
 
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Información general sobre el análisis](reports-bi-reporting.md)  
 

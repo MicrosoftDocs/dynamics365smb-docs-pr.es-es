@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Analizar importes reales frente a importes presupuestados
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analizar importes reales frente a importes presupuestados
 
 Como parte de la recopilación, el análisis y el uso compartido de los datos de la empresa, puede ver importes reales comparados con los importes presupuestados para todas las cuentas y durante varios periodos.
 
 Para analizar los importes presupuestados, primero debe crear presupuestos contables (G/L). Obtenga más información en [Crear presupuestos de G/L](finance-how-create-budgets.md).
 
-## Ver un presupuesto contable
+## <a name="view-a-gl-budget"></a>Ver un presupuesto contable
 
 En un presupuesto con dimensiones, puede filtrar los movimientos y, por lo tanto, ver presupuestos concretos.
 
@@ -34,7 +34,7 @@ En un presupuesto con dimensiones, puede filtrar los movimientos y, por lo tanto
 > [!TIP]  
 > Utilizar la acción **Editar presupuesto** para modificar el presupuesto. En la página de presupuesto, elija un importe para ver los movimientos de contabilidad subyacentes.
 
-## Ver los importes reales y presupuestados de todas las cuentas
+## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Ver los importes reales y presupuestados de todas las cuentas
 
 Puede ver presupuestos y compararlos con las cifras reales de varias áreas de [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -51,7 +51,7 @@ Las columnas de la izquierda contienen el plan de cuentas. De las cinco columnas
 > [!TIP]  
 > Utilice el campo **Ver por** en la página **Saldo/Ppto. cuenta** seleccionar la longitud del periodo. Utilice el campo **Ver como** para seleccionar el modo de cálculo de los importes, **Saldo periodo** o **Saldo a la fecha**. Elija la acción **Periodo anterior** o **Periodo siguiente** para cambiar el periodo.  
 
-## Para ver los importes reales y presupuestados de varios periodos  
+## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Para ver los importes reales y presupuestados de varios periodos
 
 En lugar de ver los importes reales y presupuestados de todas las cuentas en un único periodo, puede ver varios periodos de una cuenta.  
 
@@ -60,7 +60,7 @@ En lugar de ver los importes reales y presupuestados de todas las cuentas en un 
 3. En la ficha desplegable **Opciones**, rellene los campos según sea necesario para definir lo que se muestra en la tabla.  
 4. En la ficha desplegable **Líneas**, pase el cursor sobre un campo en la tabla para leer una breve descripción sobre la cantidad mostrada.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Inteligencia empresarial financiera](bi.md)  
 [Trabajar con informes financieros](bi-how-work-account-schedule.md)  

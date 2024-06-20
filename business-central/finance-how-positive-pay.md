@@ -11,18 +11,18 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Exportar un archivo de Positive Pay
+# <a name="export-a-positive-pay-file"></a>Exportar un archivo de Positive Pay
 Para asegurarse de que su banco solo compense los cheques e importes validados, puede exportar un archivo de Positive Pay que contenga la información de proveedor, el número de cheque y el importe de pago, que puede enviar al banco como referencia cuando se procesen pagos.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] se ha preconfigurado para admitir archivos de Positive Pay para Bank of America y City Bank.
 
-## Para configurar una cuenta bancaria para Positive Pay
+## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Para configurar una cuenta bancaria para Positive Pay
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Abra la ficha del banco para el que desea usar Positive Pay.
 3. En el campo **Código de exportación de Positive Pay**, introduzca POSPAYBANK.
 4. Cierre la página.
 
-## Para exportar un archivo de Positive Pay
+## <a name="to-export-a-positive-pay-file"></a>Para exportar un archivo de Positive Pay
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Cuentas bancarias** y luego elija el enlace relacionado.
 2. Seleccione el banco del que desea exportar un archivo de Positive Pay.
 3. Elija la acción **Exportación de Positive Pay**.
@@ -52,7 +52,7 @@ Para reexportar archivos de Positive Pay
 4. Seleccione la línea del archivo de exportación de Positive Pay que desea reexportar.
 5. En la página **Movimientos de Positive Pay**, elija la acción **Reexportar Positive Pay a archivo**.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Finanzas](finance.md)  
 [Configurar las finanzas](finance-setup-finance.md)  
 [Trabajar con diarios generales](ui-work-general-journals.md)  
