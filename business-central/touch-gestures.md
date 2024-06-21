@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Gestos táctiles y con lápiz para tabletas y teléfonos 
+# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Gestos táctiles y con lápiz para tabletas y teléfonos
 
 Este artículo proporciona algunos de los gestos especiales que puede utilizar al trabajar con [!INCLUDE[prod_short](includes/prod_short.md)] desde una tableta o teléfono.
 
@@ -30,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Referencia rápida de teclado: solo PC](keyboard-shortcuts-cheatsheet.md)  
 [Características de asistencia](ui-accessibility.md)  

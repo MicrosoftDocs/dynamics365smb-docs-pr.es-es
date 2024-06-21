@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Reestructurar almacenes
+# <a name="restructure-warehouses"></a>Reestructurar almacenes
 Es posible que desee volver a estructurar el almacén con nuevos códigos y características de ubicación. No realizará este tipo de actividad con mucha frecuencia, pero pueden producirse algunos casos en los que sea necesaria una reclasificación para conseguir o mantener una operatividad más eficaz. Por ejemplo:  
 
 - Es posible que desee cambiar los código de ubicación para admitir el uso de sistemas de captura automática de datos, por ejemplo, con dispositivos portátiles.  
@@ -20,7 +20,7 @@ Es posible que desee volver a estructurar el almacén con nuevos códigos y cara
 
 Si el almacén está configurado para utilizar ubicaciones, pero no ubicación y picking directos, reestructure el almacén creando las nuevas ubicaciones que desee usar en el futuro.  
 
-## Para reestructurar un almacén básico que utilice sólo las ubicaciones  
+## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Para reestructurar un almacén básico que utilice sólo las ubicaciones
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Almacén**, establezca el campo **Selección ubic. por defecto** en **Última ubic. utiliz.**  
 3.  Mueva todo el contenido de sus ubicaciones actuales a las nuevas ubicaciones que acaba de crear.  
@@ -35,7 +35,7 @@ Si el almacén está configurado para utilizar ubicaciones, pero no ubicación y
 
 Ahora habrá vaciado las ubicaciones donde solían estar los artículos. Las ubicaciones genéricas de los productos se han cambiado a las nuevas ubicaciones.  
 
-## Para reestructurar un almacén avanzado que utilice ubicación y picking directos  
+## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Para reestructurar un almacén avanzado que utilice ubicación y picking directos
 
 1.  Cree las nuevas ubicaciones que desea utilizar en el futuro. Para obtener más información, consulte [Crear ubicaciones](warehouse-how-to-create-individual-bins.md).  
 2.  Mueva todo el contenido de sus ubicaciones actuales a las nuevas ubicaciones que acaba de crear.  
@@ -52,7 +52,7 @@ Ahora habrá vaciado las ubicaciones donde solían estar los artículos. Las ubi
 
 Ahora ha quitado las ubicaciones del flujo de almacén y las ha reclasificado como ubicaciones de control de calidad. Las ubicaciones de control de calidad no tienen ninguno de los campos de la actividad en la página **Tipos ubicación** seleccionada y, por lo tanto, el flujo de productos no los tiene en cuenta. Para obtener más información, consulte [Configurar tipos de ubicaciones](warehouse-how-to-set-up-bin-types.md).  
 
-## Para eliminar una ubicación  
+## <a name="to-delete-a-bin"></a>Para eliminar una ubicación
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione el almacén que desea que elimine ubicaciones. Elija la acción **Ubicaciones**.  
@@ -63,7 +63,7 @@ Si selecciona **Sí**, la ubicación se elimina para su uso futuro, pero permane
 
 Si desea cambiar el nombre de una ubicación para que también cambie el nombre de todos los registros asociados con la ubicación, incluidos contenidos de la ubicación, líneas de actividad de almacén, líneas de actividad de almacén registradas, líneas de hojas de trabajo de almacén, líneas de recepción de almacén, líneas de recepción de almacén registradas, líneas de envío de almacén, líneas de envío de almacén registradas y movimientos de almacén; puede hacerlo en la página **Ubicaciones**.  
 
-## Para cambiar el nombre de una ubicación y el código de ubicación en todos los registros  
+## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Para cambiar el nombre de una ubicación y el código de ubicación en todos los registros
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2.  Seleccione la ubicación donde desee cambiar el nombre o el código de ubicación y elija la acción **Ubicaciones**.  
@@ -75,7 +75,7 @@ Si desea cambiar el nombre de una ubicación para que también cambie el nombre 
 >   
 >  Si está renombrando una ubicación que recibe o una ubicación de envío, se renombran todas las recepciones o envíos registrados que hacen referencia a la ubicación en cuestión.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)     

@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Consolidar los datos financieros de varias empresas
+# <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidar los datos financieros de varias empresas
 
 Algunas organizaciones utilizan [!INCLUDE [prod_short](includes/prod_short.md)] en múltiples empresas o entidades legales. Otros usan [!INCLUDE [prod_short](includes/prod_short.md)] en subsidiarias que deben reportar a organizaciones matrices. [!INCLUDE [prod_short](includes/prod_short.md)] ofrece a los contables herramientas que les ayudan a transferir asientos del libro mayor de dos o más empresas (subsidiarias) a una empresa consolidada.  
 
@@ -36,11 +36,11 @@ Configure la empresa consolidada de la misma forma que se configuran las demás 
 > [!TIP]
 > La consolidación de los datos financieros puede ser especialmente relevante para procesos entre empresas vinculadas. Para obtener más información sobre las funciones intercompañía, vaya a [Administración de transacciones intercompañía](intercompany-manage.md).
 
-## Consolidar datos
+## <a name="consolidate-data"></a>Consolidar datos
 
 Antes de consolidar, es una buena idea probar sus datos antes de transferirlos a la empresa consolidada. [!INCLUDE[prod_short](includes/prod_short.md)] busca las diferencias entre la información encontrada de las unidades de negocio y la empresa consolidada. Por ejemplo, si los números de cuenta o códigos de dimensión son diferentes. Corrija los errores antes de ejecutar el informe. Puede probar la base de datos o, si va a importar datos desde un archivo XML, el archivo.
 
-### Para probar los datos antes de la consolidación
+### <a name="test-the-data-before-you-consolidate"></a>Para probar los datos antes de la consolidación
 
 1. Abra la empresa consolidada.  
 2. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de negocio** y luego elija el enlace relacionado.  
@@ -49,7 +49,7 @@ Antes de consolidar, es una buena idea probar sus datos antes de transferirlos a
     * Para probar un archivo, elija la acción **Probar archivo**, escriba el nombre del archivo y después seleccione **Imprimir**.  
     * Para probar la base de datos, elija **Probar base de datos**.  
 
-### Ejecutar la consolidación
+### <a name="run-the-consolidation"></a>Ejecutar la consolidación
 
 Después de haber probado los datos, puede transferirlos a la empresa consolidada. Una guía de configuración asistida le ayudará durante el proceso.
 
@@ -60,7 +60,7 @@ Después de haber probado los datos, puede transferirlos a la empresa consolidad
 2. En la página **Unidades de negocio**, seleccione la acción **Consolidar**.  
 3. Rellene los campos requeridos.  
 
-## Utilizar el informe Balance de prueba consolidado
+## <a name="use-the-consolidated-trial-balance-report"></a>Utilizar el informe Balance de prueba consolidado
 
 El informe **Balance de prueba consolidado** puede darle un resumen del estado financiero general del negocio. El informe combina movimientos de contabilidad general de cada una de sus empresas en una empresa nueva creada por usted para los datos consolidados. La empresa consolidada es sólo un contenedor para los datos consolidados, y no tiene ningún dato vivo de sus empresas. Las empresas que incluya en la empresa que se convierten en **Unidades de negocio** en el informe. Si tiene cuatro unidades de empresa o menos, también puede utilizar el informe **Balance de prueba consolidado (4)**.  
 
@@ -71,7 +71,7 @@ El informe muestra una línea para cada cuenta y sigue la estructura del plan de
 * Las eliminaciones realizadas en la empresa consolidada. Las eliminaciones siempre se muestran para el periodo correspondiente al ejercicio de la empresa consolidada.
 * El total de la empresa consolidada después de las eliminaciones se muestra bien como un cambio neto o bien como el saldo a la fecha.
 
-## Eliminar transacciones repetidas
+## <a name="eliminate-repeated-transactions"></a>Eliminar transacciones repetidas
 
 Una vez que haya consolidado las empresas, primero debe encontrar y eliminar las transacciones registradas más de una vez en las empresas. El procesamiento de las eliminaciones de consolidación es un procedimiento manual.  
 
@@ -96,7 +96,7 @@ Se crea una línea para cada cuenta, según la estructura del plan de cuentas. U
 * El texto de registro, copiado del diario general.
 * El total de la empresa consolidada, después de las eliminaciones, si se registran.
 
-## Exportar e importar datos consolidados entre bases de datos
+## <a name="export-and-import-consolidated-data-between-databases"></a>Exportar e importar datos consolidados entre bases de datos
 
 Si los datos de una unidad de negocio están en otra base de datos, puede realizar una transferencia manual basada en archivos o automatizar el proceso mediante una API. Para obtener más información sobre la API, vaya a [Utilice nuestra API para compartir datos automáticamente entre entornos](#use-our-api-to-automatically-share-data-across-environments).
 
@@ -116,11 +116,11 @@ Los movimientos exportados tienen los siguientes campos: **Nº cuenta**, **Fecha
 3. El valor de dimensión exportado para el movimiento será el valor de dimensión de la empresa consolidada que se especifica en el campo **Código de consolidación** del valor de dimensión. Si no se ha introducido un valor de dimensión de empresa consolidada en el campo **Código de consolidación** para el valor de dimensión, se exportará a la línea el valor de dimensión en sí.  
 4. Además, los archivos XML contienen los tipos de cambio de divisa del periodo consolidado. Estos tipos se incluyen en una sección aparte al principio del archivo.  
 
-## Utilice nuestra API para compartir datos automáticamente entre entornos
+## <a name="use-our-api-to-automatically-share-data-across-environments"></a>Utilice nuestra API para compartir datos automáticamente entre entornos
 
 [!INCLUDE [prod_short](includes/prod_short.md)] proporciona una API que le permite automatizar el proceso de compartir datos financieros de las unidades de negocio a la empresa consolidada. La API es de uso gratuito y fácil de configurar. Incluso te permite compartir datos entre entornos de [!INCLUDE [prod_short](includes/prod_short.md)]. Por ejemplo, es posible que necesite compartir entre entornos cuando las unidades de negocio no se encuentren en las mismas zonas geográficas de Azure. Para obtener más información sobre el uso de la API para automatizar el proceso de consolidación, vaya a [Configurar la consolidación de empresas](finance-consolidated-company-reporting-setup.md#busunit).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Configurar la consolidación de empresa](finance-consolidated-company-reporting-setup.md)  
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Hub de empresas para extensión de Business Central
+# <a name="the-company-hub-for-business-central-extension"></a>Hub de empresas para extensión de Business Central
 
 Esta aplicación proporciona un panel con datos resumidos para cada empresa a la que el usuario tiene acceso en todo [!INCLUDE [prod_short](includes/prod_short.md)] en línea, como los muchos clientes de un contable. La página de inicio muestra los KPI financieros, así como un vínculo directo a los entornos individuales y las empresas para que los usuarios puedan acceder.
 
@@ -19,11 +19,11 @@ El panel incluye un Área de trabajo muy especializada que sirve para disponer d
 
 Al instalar la extensión por primera vez, una empresa de ejemplo le ayuda a empezar. Puede eliminar la empresa de ejemplo en cualquier momento.
 
-## Instalar la extensión
+## <a name="installing-the-extension"></a>Instalar la extensión
 
 Al instalar la extensión en su [!INCLUDE [prod_short](includes/prod_short.md)], se le preguntará si desea usarla ahora. Si lo hace, deberá cerrar la sesión e iniciarla de nuevo, porque la extensión reemplaza a su Área de trabajo y añade permisos a su perfil de usuario.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Administrar el trabajo de varias empresas en el hub de empresas](company-hub.md)  
 [Experiencias contables en Business Central](finance-accounting.md)  

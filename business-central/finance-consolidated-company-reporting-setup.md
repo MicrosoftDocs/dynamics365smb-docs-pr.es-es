@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Configurar la consolidación de empresa
+# <a name="set-up-company-consolidation"></a>Configurar la consolidación de empresa
 
 Para poder consolidar los movimientos de contabilidad de dos o más empresas (subsidiarias) en una empresa consolidada, debe preparar los planes de cuentas y la empresa de consolidación.  
 
@@ -23,7 +23,7 @@ En función de la complejidad de sus negocios, hay dos formas de configurar la c
   * En cada empresa, especifique qué cuentas de contabilidad se deben incluir en la consolidación y especifique el método de traducción de consolidación para cada cuenta.
   * En la empresa consolidada, configure una ficha de empresa para cada empresa que se desee incluir en la consolidación. La tarjeta de empresa incluye información como las fechas del ejercicio de la empresa y el porcentaje de cada cuenta que debe incluirse en la consolidación.
 
-## Configuración de consolidación sencilla
+## <a name="simple-consolidation-setup"></a>Configuración de consolidación sencilla
 
 Si su consolidación es directa, por ejemplo porque es propietario de la totalidad de las empresas a consolidar, la guía **Consolidación de la empresa** le ayudará con los pasos siguientes:
 
@@ -35,11 +35,11 @@ Para usar la guía de configuración asistida, realice los pasos siguientes:
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado.
 2. Seleccione **Procesar consolidaciones** y después complete cada paso en la guía de configuración asistida de consolidación de empresa.
 
-## Configuración de consolidación avanzada
+## <a name="advanced-consolidation-setup"></a>Configuración de consolidación avanzada
 
 Si necesita más configuraciones avanzadas para su consolidación, puede configurar la consolidación manualmente. Por ejemplo, si tiene empresas de las que es propietario sólo parcialmente, o tiene las empresas que no desea incluir.  
 
-### Configure la empresa consolidada
+### <a name="set-up-the-consolidated-company"></a>Configure la empresa consolidada
 
 Primero, debe configurar la empresa consolidada. Configure la empresa consolidada de la misma forma que se configuran las demás empresas. Para obtener más información sobre cómo crear una empresa, vaya a [Preparándose para hacer negocios](ui-get-ready-business.md).  
 
@@ -63,7 +63,7 @@ La siguiente lista ilustra los aspectos clave de la empresa consolidada.
 
     Para obtener más información, consulte la sección [Incluir o excluir dimensiones](#dim).
 
-### <a name="busunit"></a>Agregar empresas
+### <a name="add-business-units"></a><a name="busunit"></a>Agregar empresas
 
 En la empresa consolidada, configure cada empresa que de la que quiera consolidar sus datos como una unidad de negocio. Antes de ejecutar una consolidación y generar su informe de consolidación, es una buena idea verificar los datos financieros en cada unidad de negocio.
 
@@ -75,7 +75,7 @@ Una gran parte de la configuración de la unidad de negocios es especificar cóm
 > [!NOTE]
 > La opción API también le permite compartir asientos del libro mayor de otros entornos [!INCLUDE [prod_short](includes/prod_short.md)]. Para utilizar la opción API, el usuario que configura la consolidación debe tener permiso para acceder a las entradas del L/M. Por ejemplo, los conjuntos de permisos D365 Basic y D365 Read brindan acceso.
 
-#### Configurar divisas de unidad de negocio
+#### <a name="set-up-business-unit-currencies"></a>Configurar divisas de unidad de negocio
 
 Cuando ejecuta la consolidación para unidades de negocio que utilizan una divisa extranjera, debe prestar especial atención a los tipos de cambio que utilizan varias partes del proceso, y más aún cuando vuelve a ejecutar la consolidación. Para hacerlo, utilice la página **Configurar divisas de unidad de negocio** para realizar un seguimiento fácil de los tipos.
 
@@ -86,7 +86,7 @@ El trabajo por lotes **Ejecutar consolidación** se inicia desde la página de l
 > [!NOTE]
 > Las páginas de configuración de tipos de cambio para promedio, cierre y último tipo al cierre que están actualmente disponibles en la tarjeta **Unidad de Negocio** quedarán obsoletas en una versión futura. Sin embargo, aún puede mantener estos tipos si tiene unidades de negocio que importa a través de archivos.
 
-#### Crear una unidad de negocio
+#### <a name="create-a-business-unit"></a>Crear una unidad de negocio
 
 1. Inicie sesión en la empresa consolidada.
 2. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Unidades de negocio** y luego elija el enlace relacionado.  
@@ -102,7 +102,7 @@ El trabajo por lotes **Ejecutar consolidación** se inicia desde la página de l
         Para obtener la URL del punto de conexión, en la página [!INCLUDE [prod_short](includes/prod_short.md)] de la empresa de la unidad de negocio, abra la página **Tarjeta de unidad de negocio** y elija la acción **Configuración**. 
    * Para exportar un archivo .xml y compartirlo manualmente, elija **Formato de archivo**.
 
-### <a name="glacc"></a>Preparar los libros de contabilidad para la consolidación
+### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Preparar los libros de contabilidad para la consolidación
 
 En el plan de cuentas de una empresa que se va a consolidar se deben especificar cuentas para consolidación. Por cada cuenta de contabilidad de cada empresa, debe especificar la cuenta de la empresa consolidada a la que transferir el saldo tras la consolidación. Esta asignación le permite consolidar empresas que tienen diferentes planes de cuentas.
 
@@ -117,7 +117,7 @@ Si el plan de cuentas de la unidad de negocio difiere de la empresa consolidada,
 > [!TIP]
 > Puede haber situaciones en las que no desee incluir una cuenta en una consolidación. Por ejemplo, si desea que su empresa de consolidación refleje solo los balances de las empresas filiales. Para excluir una cuenta de la consolidación, active la opción **Excluir de la consolidación** para la cuenta.
 
-### <a name="exchrates"></a>Especificar los tipos de cambio para consolidaciones
+### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Especificar los tipos de cambio para consolidaciones
 
 Si una unidad de negocio utiliza una divisa diferente de la empresa consolidada, debe especificar los métodos del tipo de cambio para cada cuenta antes de que se consolide. Para cada cuenta, el contenido del campo **Método de traducción Consol.** determina el tipo de cambio. En la empresa consolidada, en cada ficha de unidad de negocio, en el campo **Tabla de tipo de cambio de divisa** debe especificar si la consolidación usa tipos de cambio de la empresa o de la empresa consolidada. Si utiliza tipos de cambio de la empresa consolidada, puede cambiar los tipos de cambios para una empresa. Para las unidades de negocio, el campo **Tabla de tipo de cambio de divisas** de la ficha de la unidad de negocio contiene **Local**, puede cambiar el tipo de cambio para la ficha de la unidad de negocio. Los tipos de cambio se copian desde la tabla **Tipo cambio divisa**, pero puede cambiarlos antes de la consolidación.
 
@@ -138,7 +138,7 @@ Para especificar los tipos de cambio para una unidad de negocio, realice los pas
 2. En la página **Lista de unidades de negocio**, seleccione la unidad de negocio y, después, seleccione la acción **Tipos de cambio**.  
 3. En la página **Configurar divisas de unidad de negocio**, rellene los campos según sea necesario. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="dim"></a>Incluir o excluir dimensiones
+### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Incluir o excluir dimensiones
 
 Puede consolidar información sobre dimensiones y cuentas de contabilidad.
 
@@ -148,15 +148,15 @@ Puede consolidar información sobre dimensiones y cuentas de contabilidad.
   * Para consolidar el código de valor de dimensión de la empresa con un código de valor de dimensión distinto en la empresa consolidada, rellene el campo **Código de consolidación** en las dimensiones.  
 * Agregue las dimensiones a las cuentas de contabilidad.
 
-### <a name="exclude"></a>Excluir una empresa de la consolidación
+### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Excluir una empresa de la consolidación
 
 Si no desea incluir una unidad de negocio en la consolidación, puede excluirla. Para hacerlo, vaya a la ficha de unidad de negocio y borre la casilla de verificación **Consolidar**.
 
-### <a name="include"></a>Incluir una empresa poseída parcialmente en la consolidación
+### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Incluir una empresa poseída parcialmente en la consolidación
 
 Si posee únicamente parte de una empresa, puede incluir un porcentaje de cada transacción que refleja el porcentaje que le pertenece. Por ejemplo, si le pertenece el 70 % de la empresa, la consolidación incluirá 70 $ de una factura de 100 $. Para especificar el porcentaje de la empresa que le pertenece, vaya a la ficha de la unidad de negocio e introduzca el porcentaje en el campo **Consolidación %**.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Consolidar los datos financieros de varias empresas](finance-consolidated-company-reporting.md)  
 [Gestión de transacciones entre empresas vinculadas](intercompany-manage.md)  

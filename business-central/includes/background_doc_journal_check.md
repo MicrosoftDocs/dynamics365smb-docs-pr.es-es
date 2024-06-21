@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-## Comprobar datos en documentos y diarios mientras trabaja
+## <a name="check-data-in-documents-and-journals-while-you-work"></a>Comprobar datos en documentos y diarios mientras trabaja
 
 Su administrador puede habilitar [!INCLUDE [prod_short](prod_short.md)] para validar los datos que introduce en documentos y diarios en tiempo real.
 

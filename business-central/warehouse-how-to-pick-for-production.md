@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# Realizar picking para producción, ensamblado o proyectos en una configuración básica de almacén
+# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Realizar picking para producción, ensamblado o proyectos en una configuración básica de almacén
 
 La forma de realizar el picking de componentes para fabricación, trabajos u órdenes de ensamblado depende de la configuración del almacén. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -21,13 +21,13 @@ Use los siguientes documentos de origen para las operaciones internas:
 * Picking inventario
 * Movimiento inventario
 
-## Picking de inventario
+## <a name="inventory-picks"></a>Picking de inventario
 
 * Cuando registra un picking de inventario para una operación interna, como la producción o un trabajo, el consumo de los componentes seleccionados se registra al mismo tiempo.
 * El control de alternancia **Ubicación obligatoria** en la página **Tarjeta del almacén** es opcional.
 * Cuando se utiliza el picking de inventario, el campo **Cód. ubicación** de una línea de componente de orden de producción o en líneas de planificación de proyecto define la ubicación *traer*. Los componentes se reducen en la ubicación traer cuando registra el consumo.
 
-## Movimientos de inventario
+## <a name="inventory-movements"></a>Movimientos de inventario
 
 * Los movimientos de inventario requieren que active el control de alternancia **Ubicación obligatoria** en la página **Tarjeta de ubicación** para la ubicación.
 * Los movimientos de inventario solo funcionan con líneas de componentes de órdenes de producción y líneas de órdenes de ensamblaje.
@@ -38,13 +38,13 @@ Use los siguientes documentos de origen para las operaciones internas:
 >[!NOTE]
 > Incluso si la opción **Picking requerido** está desactivada, puede usar un documento **Picking de almacén**. Los documentos de picking de almacén son similares a los documentos de **Picking de inventario**. Esto es útil si desea usar picking en operaciones y enviar en flujos de almacén de salida.
 
-### Producción
+### <a name="production"></a>Producción
 
 Utilice documentos de **Picking de inventario** para seleccionar componentes de producción en el flujo a producción.
 
 Para una ubicación que usa ubicaciones, puede ampliar el flujo a producción usando documentos de **Movimiento de inventario**. Los movimientos de inventario son especialmente útiles para la baja de componentes. Para obtener más información acerca del procedimiento de bajada del consumo de componentes desde las ubicaciones para producción o de aprovisionamiento manual, consulte [Bajada de componentes de producción en una configuración de almacén básica](#flushing-production-components-in-a-basic-warehouse-configuration).
 
-### Ensamblado  
+### <a name="assembly"></a>Ensamblado
 
 Utilice los documentos **Movimiento de inventario** para mover componentes del ensamblado al área de ensamblado.
 
@@ -53,7 +53,7 @@ Utilice los documentos **Movimiento de inventario** para mover componentes del e
 
 [!INCLUDE [prod_short](includes/prod_short.md)] es compatible con los tipos ensamblar para stock y ensamblar para pedido de los flujos de ensamblado. Para obtener más información sobre el ensamblado para pedido en el flujo de almacén saliente, vaya a [Tratamiento de productos para ensamblar para pedido en los pickings de inventario](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### Administración de proyectos  
+### <a name="project-management"></a>Administración de proyectos
 
 Utilice documentos de **Picking de inventario** para seleccionar componentes de proyecto en el flujo a la administración de proyectos.
 
@@ -64,7 +64,7 @@ Para las ubicaciones que usen ubicaciones, puede ampliar el flujo a los trabajos
 >
 > [!INCLUDE[prod_short](includes/prod_short.md)] utiliza el valor del campo **Cantidad restante** en la línea de planificación del proyecto cuando crea selecciones de inventario. Para usar selecciones de inventario para trabajos, debe activar la opción **Aplicar enlace de uso** en la página **Tarjeta de proyecto** para el trabajo. Esto le permite rastrear el uso contra su plan. Si no activa la opción, la cantidad restante permanecerá en **0** y la selección de inventario no se creará. Para obtener más información, consulte [Configurar seguimiento de uso de proyecto](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Realizar picking o mover a producción, ensamblado y proyectos en una configuración básica de almacén
+## <a name="pick-or-move-for-production-assembly-and-projects-in-a-basic-warehouse-configuration"></a>Realizar picking o mover a producción, ensamblado y proyectos en una configuración básica de almacén
 
 Puede crear un picking de inventario o movimientos de inventario de tres formas:  
 
@@ -72,26 +72,26 @@ Puede crear un picking de inventario o movimientos de inventario de tres formas:
 * Para diversos documentos de origen al mismo tiempo utilizando un trabajo por lotes.  
 * En dos pasos. Libere el documento de origen para que esté listo para el picking. Cree el movimiento o picking de inventario a partir de los documentos **Picking de inventario** o **Movimiento de inventario**. El picking o movimiento de inventario están basados en el documento de origen.  
 
-### Para crear un picking de inventario desde el documento de origen
+### <a name="to-create-an-inventory-pick-from-the-source-document"></a>Para crear un picking de inventario desde el documento de origen
 
 1. En el documento de origen, que puede ser una orden de producción o un trabajo, elija la acción **Crear almacenamiento/picking de inventario**.  
 2. Seleccione la casilla **Crear picking de inventario**.
 3. Elija el botón **Aceptar**.
 
-### Para crear un movimiento de inventario desde el documento de origen
+### <a name="to-create-an-inventory-movement-from-the-source-document"></a>Para crear un movimiento de inventario desde el documento de origen
 
 1. En el documento de origen, que puede ser una orden de producción, una orden de ensamblado o un trabajo, elija la acción **Crear almacenamiento/picking de inventario**.  
 2. Seleccione la casilla de verificación **Crear movimiento de inventario**.
 3. Elija el botón **Aceptar**.
 
-### Para crear varios picking o movimientos de inventario con un trabajo por lotes
+### <a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a>Para crear varios picking o movimientos de inventario con un trabajo por lotes
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear almacenamiento/picking/movimiento de inventario** y, a continuación, elija el vínculo relacionado.  
 2. En la ficha desplegable **Solicitud almacén**, use los campos **Documento origen** y **Cód. procedencia mov.** para filtrar tipos de documentos o intervalos de números de documento. Por ejemplo, puede crear picking solo de los pedidos de producción.
 3. En la ficha desplegable **Opciones**, active los controles deslizantes **Crear picking de inventario** o **Crear movimiento de inventario**.
 4. Elija el botón **Aceptar**.
 
-### Para crear pickings o movimientos de inventario en dos pasos
+### <a name="to-create-inventory-picks-or-movements-in-two-steps"></a>Para crear pickings o movimientos de inventario en dos pasos
 
 Para seleccionar o mover componentes para documentos de origen en dos pasos, debe liberar el documento de origen para que esté listo para picking. Lance los documentos de origen para las operaciones internas de las siguientes formas.  
 
@@ -113,7 +113,7 @@ Un empleado de almacén asignado al picking de artículos puede crear un documen
 5. También puede elegir la acción **Traer documento origen** para seleccionar un documento de una lista de documentos de origen de entrada que están preparados para el picking en el almacén.  
 6. Elija el botón **Aceptar** para rellenar las líneas de picking o movimientos según el documento de origen seleccionado.  
 
-## Para registrar el picking de inventario
+## <a name="to-record-the-inventory-pick"></a>Para registrar el picking de inventario
 
 1. En la página **Picking inventario**, abra el documento para el que registrar el picking.  
 2. En el campo **Cód. ubicación** en las líneas de picking, la ubicación desde donde se debe realizar el picking de productos donde el producto está disponible. Puede cambiar la ubicación si lo necesita.
@@ -129,7 +129,7 @@ Lo siguiente sucede durante el proceso de publicación:
 
 [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Para registrar el movimiento de inventario
+## <a name="to-record-the-inventory-movement"></a>Para registrar el movimiento de inventario
 
 1. En la página **Movimiento de inventario**, abra el documento para registrar el movimiento.  
 2. En el campo **Cód. ubicación**, en las líneas de movimientos, la ubicación desde la cual se debe realizar el picking se sugiere en función de la ubicación predeterminada del producto y la disponibilidad. Puede cambiar la ubicación si lo necesita.  
@@ -145,7 +145,7 @@ Lo siguiente sucede durante el proceso de publicación:
 >[!NOTE]
 > A diferencia de cuando se mueven los componentes con pickings de inventario, el consumo no se registra cuando se registra un movimiento de inventario. El consumo se registra como un paso separado al contabilizar el documento de origen.
 
-## La bajada de los componentes para producción en una configuración básica de almacén
+## <a name="flushing-production-components-in-a-basic-warehouse-configuration"></a>La bajada de los componentes para producción en una configuración básica de almacén
 
 Los métodos de baja afectan al flujo de componentes en producción. Obtenga más información en [Bajar componentes según la salida de la operación](production-how-to-flush-components-according-to-operation-output.md). Según el método de bajada seleccionado, puede realizar el picking de componentes para la producción de las siguientes maneras:
 
@@ -154,7 +154,7 @@ Los métodos de baja afectan al flujo de componentes en producción. Obtenga má
 * Utilice un documento de **Movimiento de inventario** con una referencia a un documento de origen para registrar los pickings para los componentes que utilizan el método de bajada **Picking + Adelante**, **Picking + Atrás**. El consumo de los componentes se producirá automáticamente cuando cambie el estado de la orden de fabricación o al iniciar o finalizar una operación. Todos los componentes necesarios deben estar disponibles. De lo contrario, el registro del consumo de baja se detiene para ese componente.
 * Use un documento de **Movimiento de inventario** sin una referencia a un documento de origen u otras formas de registrar el movimiento de componentes que usan el método de baja **Adelante** o **Atrás** . El consumo de los componentes se producirá automáticamente cuando cambie el estado de la orden de fabricación o al iniciar o finalizar una operación. Todos los componentes necesarios deben estar disponibles. De lo contrario, el registro del consumo de baja se detiene para ese componente. Obtener más información en [Mover productos internamente en configuraciones básicas de almacén](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-### Ejemplo:
+### <a name="example"></a>Ejemplo:
 
 Tiene un pedido de fabricación de 15 unidades del producto SP-SCM1004. Algunos de los productos de la lista de componentes deben darse de baja manualmente en un diario de consumo, y en los demás productos se puede llevar a cabo el picking y la bajada automáticamente mediante el método de baja **Pick + Atrás**.  
 
@@ -174,7 +174,7 @@ En los pasos siguientes se ofrece un ejemplo de las acciones correspondientes pa
 
 :::image type="content" source="media/binflow.png" alt-text="Descripción general de cuándo y cómo se rellena el campo Código de ubicación.":::
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Grupos contables inventario](inventory-manage-inventory.md)  
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)  

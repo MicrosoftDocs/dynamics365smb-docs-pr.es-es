@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Exportar pagos electrónicos en la versión en español
+# <a name="export-electronic-payments-in-the-spanish-version"></a>Exportar pagos electrónicos en la versión en español
 En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimientos del diario de pagos a un formato de archivo de acuerdo con cuatro estándares de pago diferentes. Utilice las siguientes páginas para exportar según los distintos estándares de pago.  
 
 |Estándar de pago|Página desde la que exportar|  
@@ -24,7 +24,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimien
 > [!IMPORTANT]  
 >  Antes de exportar un pago, debe seleccionar un formato de pago en el campo **Formato de exportación de pagos** en la página **Ficha banco**.  
 
-## Para exportar pagos electrónicos mediante la página Órdenes de pago  
+## <a name="to-export-electronic-payments-using-the-payment-orders-page"></a>Para exportar pagos electrónicos mediante la página Órdenes de pago
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Órdenes pago** y luego elija el enlace relacionado.  
 2.  Seleccione los documentos que desea pagar.  
@@ -54,7 +54,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimien
     > [!NOTE]  
     >  Solo puede registrar la orden de pago una vez que haya exportado correctamente los pagos electrónicos.  
 
-## Para exportar pagos electrónicos mediante la página Diario de pagos  
+## <a name="to-export-electronic-payments-using-the-payment-journal-page"></a>Para exportar pagos electrónicos mediante la página Diario de pagos
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.  
 2.  Seleccione los documentos que desea pagar.  
@@ -87,7 +87,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimien
     > [!NOTE]  
     >  En la versión genérica de [!INCLUDE[prod_short](../../includes/prod_short.md)], la página **Diario de pagos** se utiliza de forma similar para exportar pagos electrónicos en el formato de transferencia de crédito SEPA. Para obtener más información, consulte [Hacer pagos con la extensión AMC Banking 365 Fundamentals o Transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-## Para exportar los pagos electrónicos del módulo Cartera  
+## <a name="to-export-electronic-payments-from-the-cartera-module"></a>Para exportar los pagos electrónicos del módulo Cartera
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Orden pago - Exportar N34.1** y luego elija el enlace relacionado.  
 2.  Rellene los campos tal como se describe en la tabla siguiente.  
@@ -104,7 +104,7 @@ En [!INCLUDE[prod_short](../../includes/prod_short.md)], puede exportar movimien
 > [!NOTE]  
 >  Solo puede registrar la orden de pago una vez que haya exportado correctamente los pagos electrónicos.  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Pagos electrónicos – AEB N34.1](electronic-payments-aeb-n341.md)  
 [Configurar cuentas bancarias para realizar pagos electrónicos](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Realizar pagos con la extensión AMC Banking 365 Fundamentals o transferencia de crédito SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

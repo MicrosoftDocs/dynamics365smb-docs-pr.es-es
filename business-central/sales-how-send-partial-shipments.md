@@ -9,7 +9,7 @@ ms.date: 02/14/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Procesar envíos parciales
+# <a name="process-partial-shipments"></a>Procesar envíos parciales
 
 En un envío parcial, un pedido no se envía todo a la vez. Por ejemplo, en un pedido de 100 unidades, se envían 40 unidades inmediatamente y 60 unidades más adelante. No hay límite en el número de envíos que se pueden utilizar para un pedido.
 
@@ -19,7 +19,7 @@ De forma predeterminada, [!INCLUDE [prod_short](includes/prod_short.md)] estable
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Vender productos con un pedido de venta de cliente](sales-how-sell-products.md)  
 [Enviar productos](warehouse-how-ship-items.md)  

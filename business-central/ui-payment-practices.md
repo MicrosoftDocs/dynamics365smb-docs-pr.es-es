@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 --- 
 
-# Informe de prácticas de pago  
+# <a name="payment-practices-report"></a>Informe de prácticas de pago
 
 Algunos países/regiones exigen que las empresas informen de los plazos de pago de sus proveedores según lo definido por las autoridades locales. Estos informes pueden basarse en diferentes orígenes y pueden clasificar a los proveedores según su tamaño o condiciones de pago definidas, proporcionando informes para los proveedores para lo siguiente según lo requieran las autoridades locales:  
 
@@ -24,7 +24,7 @@ Los usuarios pueden seleccionar el período para el cual desean ejecutar un cál
 > [!NOTE]
 > Hasta ahora, estos informes son obligatorios en algunos países o regiones, pero se trata de una característica global y se puede utilizar en todas partes. Actualmente, las empresas suecas con 250 o más empleados deben informar cada año a la Oficina de Registro de Empresas de Suecia qué plazos de pago tienen para las compras a empresas más pequeñas que ellas. Existen leyes similares en el Reino Unido, Australia y Nueva Zelanda.  
 
-## Genere el informe 
+## <a name="generate-the-report"></a>Genere el informe
 
 Para ejecutar el informe de **Prácticas de pago**, siga los siguientes pasos:
 
@@ -48,7 +48,7 @@ Para ejecutar el informe de **Prácticas de pago**, siga los siguientes pasos:
 6. Desde todos los campos calculados, puede profundizar para ver cómo se ha calculado este resultado, abriendo la página **Lista de datos de prácticas de pago**.
 7. Si desea imprimir el documento, puede hacerlo ejecutando la acción **Imprimir**.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Informes financieros](finance-reports.md)  
 [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md)  

@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Informes y análisis de ensamblado en Business Central
+# <a name="assembly-reports-and-analytics-in-business-central"></a>Informes y análisis de ensamblado en Business Central
 
 Los informes de ensamblado en [!INCLUDE [prod_short](includes/prod_short.md)] permite a los profesionales de la producción y los negocios obtener información y estadísticas sobre las actividades de ensamblado actuales y pasadas.  
 
-## Informes
+## <a name="reports"></a>Informes
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## Tareas
+## <a name="tasks"></a>Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de su empresa:
 
 * [Consultar la disponibilidad de los productos](inventory-how-availability-overview.md)
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Gestión de ensamblaje](assembly-assemble-items.md)  
 [Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  

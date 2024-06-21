@@ -10,11 +10,11 @@ ms.custom: bap-template
 author: jswymer
 ---
 
-# Liberar y reabrir documentos de compras y ventas
+# <a name="release-and-reopen-sales-and-purchase-documents"></a>Liberar y reabrir documentos de compras y ventas
 
 En este artículo aprenderá a liberar o reabrir documentos de compras y ventas, como pedidos, facturas y ofertas. Libera documentos de compras y ventas para pasarlos a la siguiente etapa de procesamiento antes de que se publiquen. Cuando se lanza un pedido, este se incluye en todos los cálculos de disponibilidad a partir de la fecha de recepción esperada de los productos.
 
-## Liberar un documento de venta o de compra
+## <a name="release-a-sales-or-purchase-document"></a>Liberar un documento de venta o de compra
 
 1. Abra el documento que desea liberar como se indica a continuación:
 
@@ -25,7 +25,7 @@ En este artículo aprenderá a liberar o reabrir documentos de compras y ventas,
 
    El campo **Estado** cambia a **Liberado**.
 
-## Reabrir un documento de venta o de compra
+## <a name="reopen-a-sales-or-purchase-document"></a>Reabrir un documento de venta o de compra
 
 Puede realizar cambios en un documento de compraventa liberado reabriéndolo.
 
@@ -43,7 +43,7 @@ Ahora puede realizar cambios en el documento antes de liberarlo de nuevo.
 > [!NOTE]
 > En las líneas del documento que ya se han manipulado en el almacén, el único cambio que puede realizar consiste en cambiar la cantidad.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
   
 [Ventas](sales-manage-sales.md)  
 [Compras](purchasing-manage-purchasing.md)  
