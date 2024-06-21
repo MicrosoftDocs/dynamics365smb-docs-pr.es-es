@@ -10,13 +10,13 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-"></a>Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
+# Habilitar la integración de Power BI con [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Este artículo describe cómo tener [!INCLUDE[prod_short](includes/prod_short.md)] listo para la integración con Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online ya está habilitado para la integración, aunque hay cierta información sobre las licencias que quizás desee leer. Para [!INCLUDE[prod_short](includes/prod_short.md)] local, habrá configurado su entorno para conectarse a Power BI antes de que los usuarios puedan trabajar con él.
 
-## <a name="power-bi-licensing"></a><a name="license"></a>Licencias de Power BI
+## <a name="license"></a>Licencias de Power BI
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)], los usuarios obtienen una licencia de Power BI que proporciona acceso a las funciones más comunes en [!INCLUDE[prod_short](includes/prod_short.md)] y Power BI. También puede comprar una licencia de Power BI Pro que brinda acceso a funciones adicionales. La siguiente tabla proporciona una descripción general de las funciones disponibles con cada licencia.
 
@@ -27,11 +27,11 @@ Con [!INCLUDE[prod_short](includes/prod_short.md)], los usuarios obtienen una li
 
 Para más información, ver [Licenciar el servicio de Power BI para los usuarios de su organización](/power-bi/admin/service-admin-licensing-organization) o [Registrarse para el servicio de Power BI como individuo](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Exponer datos a través de API o servicios web OData
+## <a name="exposedata"></a>Exponer datos a través de API o servicios web OData
 
 Business Central ofrece dos formas de exponer datos que pueden ser consumidos por informes de Power BI: páginas API o consultas y servicios web Open Data Protocol (OData).
 
-### <a name="api-pages-and-queries"></a>Páginas API y consultas
+### Páginas API y consultas
 
 > **SE APLICA A:** Business Central online solo
 
@@ -46,13 +46,13 @@ Business Central online también admite API personalizadas. Los desarrolladores 
 >
 > En casos excepcionales, el comportamiento provocará un error cuando un usuario intente obtener datos de la API para un informe en Power BI Desktop. Sin embargo, si las modificaciones de la base de datos son necesarias en la API personalizada, los usuarios de Power BI Desktop pueden forzar el comportamiento. Para más información, consulte [Creación de informes de Power BI para mostrar datos de Business Central](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
-### <a name="odata-web-services"></a>Servicios web OData
+### Servicios web OData
 
 Puede publicar objetos de aplicación de Business Central, como unidades de código, páginas y consultas, como [Servicios web OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Con Business Central online hay muchos servicios web publicados de forma predeterminada. Un modo de fácil de encontrar los servicios web es buscar *servicios web* en [!INCLUDE[prod_short](includes/prod_short.md)]. En la página de **Servicios web**, asegúrese de que el campo **Publicar** esté seleccionado para los servicios web enumerados más arriba. Para obtener más información sobre la publicación de servicios web, consulte [Publicar un servicio web](across-how-publish-web-service.md).
 
 Para obtener más información sobre lo que puede hacer para garantizar el mejor rendimiento de los servicios web, como se ve desde Business Central Server (el punto final) y desde el consumidor (el cliente), lea [Escribir servicios web eficientes](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
-### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Elegir si usar páginas API o servicios web OData
+### Elegir si usar páginas API o servicios web OData
 
 Siempre que sea posible, le recomendamos que utilice páginas API en lugar del servicio web OData. Las páginas API son más rápidas para cargar datos en informes de Power BI que los servicios web OData. Además, son más flexibles porque le permiten obtener datos de campos de tabla que no están definidos en un objeto de página.
 
@@ -93,13 +93,13 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
 
     To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Microsoft Entra admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).-->
 
-## <a name="setting-up-dataflows"></a>Configuración de flujos de datos
+## Configuración de flujos de datos
 
 Los flujos de datos le permiten ingerir, transformar y cargar datos en un espacio de trabajo de Power BI y luego utilizar los datos como base para sus informes. En algunos casos, estos flujos de datos pueden experimentar errores transitorios mientras realizan una actualización programada. El mensaje de error se ve así: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
 
 Con PowerAutomate, puede configurar reintentos para esta situación. Para obtener más información, consulte [Reintentar automáticamente un flujo de datos en caso de error](/power-query/dataflows/automatically-retry-dataflow).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Business Central y Power BI](admin-powerbi.md)  
 [Componente de integración de Power BI e información general de la arquitectura para [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-bin-contents"></a>Crear contenido de ubicación
+# Crear contenido de ubicación
 
 Después de configurar las ubicaciones, puede configurar el contenido. Es decir, puede configurar los productos que desea almacenar en una ubicación determinada y definir las reglas que rigen la cumplimentación de la ubicación con un producto particular. Puede hacerlo manualmente en la página **Contenidos de ubicación** o automáticamente con la página **Crear hoja de contenido de ubicación**.
 
-## <a name="to-create-bin-content-manually"></a>Para crear el contenido de ubicación manualmente
+## Para crear el contenido de ubicación manualmente
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicaciones** y luego elija el enlace relacionado.  
 2. Seleccione la ubicación en la que desee configurar contenidos de ubicación y elija la acción **Ubicaciones**.  
@@ -31,7 +31,7 @@ Si selecciona el campo **Fijo**, define la ubicación fija del producto, lo que 
 > [!NOTE]  
 > Puede configurar varios contenidos de ubicación simultáneamente en la página **Hoja trab. creac. cont. ubic.**  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Para crear el contenido de una ubicación con una hoja de trabajo
+## Para crear el contenido de una ubicación con una hoja de trabajo
 
 Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación que desea para cada ubicación en la hoja de trabajo de creación de contenido de hoja de trabajo.
 
@@ -49,7 +49,7 @@ Cuando haya creado sus ubicaciones, puede crear el contenido de la ubicación qu
 
 En esta hoja puede trabajar con varias líneas de contenido de ubicación para varias ubicaciones y así obtener una buena panorámica de los que coloca en varias ubicaciones de una zona, pasillo o estantería.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

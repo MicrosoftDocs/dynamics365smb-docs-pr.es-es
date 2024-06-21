@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="view-archived-workflow-step-instances"></a>Ver instancias de paso de flujo de trabajo archivadas
+# Ver instancias de paso de flujo de trabajo archivadas
 
 Todas las instancias de paso de flujo de trabajo completada se guardan en la página **Instancias de paso de flujo de trabajo archivadas**.  
 
@@ -20,7 +20,7 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
 > [!NOTE]
 > Para ver el historial y el estado de los flujos de trabajo usando la integración de Power Automate, elija la acción **Mis flujos** en la página **Power Automate** y, a continuación, elija un flujo para ver su historial y estado de ejecución.
 
-## <a name="to-view-archived-workflow-step-instances"></a>Para ver las instancias de paso de flujo de trabajo archivadas
+## Para ver las instancias de paso de flujo de trabajo archivadas
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Flujos de trabajo** y luego elija el vínculo relacionado.  
 2. Abra el flujo de trabajo del que desea ver todas las instancias de paso de flujo de trabajo archivadas.  
@@ -31,7 +31,7 @@ En la página **Flujo de trabajo** puede crear un flujo de trabajo haciendo una 
 
    Se abre la página **Instancias de paso de flujo de trabajo archivadas** para mostrar todas las instancias de paso de flujo de trabajo archivadas. En el campo **Código flujo de trabajo** puede ver a qué flujo de trabajo pertenecía la instancia de paso de flujo de trabajo archivada.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Eliminar flujos de trabajo de aprobación](across-how-to-delete-workflows.md)  
 [Crear flujos de trabajo de aprobación](across-how-to-create-workflows.md)  

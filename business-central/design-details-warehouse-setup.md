@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-warehouse-setup"></a>Detalles de diseño: Configuración de almacén
+# Detalles de diseño: Configuración de almacén
 
 La funcionalidad de almacén en [!INCLUDE[prod_short](includes/prod_short.md)] contiene distintos niveles de complejidad, tal como se define mediante los permisos de licencia en los módulos ofrecidos. El nivel de complejidad de una solución de almacén se define en gran medida con la configuración de ubicación en las fichas de ubicación, que, a su vez, se controla mediante licencia, por lo que el acceso a los campos de configuración de ubicación está definido por la licencia. Además, los objetos de la aplicación en la licencia rigen qué documento de la IU que se deberá usar para las actividades de almacén permitidas.  
 <!--
@@ -44,7 +44,7 @@ En la tabla siguiente se muestran los módulos que se requieren para definir los
 
 Para ver ejemplos de cómo se usan los documentos de la IU por nivel de complejidad de almacén, consulte [Detalles de diseño: Flujo de entrada en almacén](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Ubicación y contenido de ubicación
+## Ubicación y contenido de ubicación
 
 Una ubicación es un dispositivo de almacenamiento diseñado para contener partes diferenciadas. Es la unidad de contenedor de menos tamaño en [!INCLUDE[prod_short](includes/prod_short.md)]. Las cantidades de producto en las ubicaciones se denominan contenido de ubicación. Una búsqueda desde campo de **Producto** o el campo **Cód. ubicación** en cualquier línea de documento relacionada con el almacén muestra la disponibilidad calculada del producto en la ubicación.  
 
@@ -61,7 +61,7 @@ El sistema usa la propiedad de ubicación predeterminada para sugerir ubicacione
 
 Solo puede haber una ubicación predeterminada por producto y ubicación.  
 
-## <a name="bin-type"></a>Tipo ubicación
+## Tipo ubicación
 
 En instalaciones WMS puede restringir las actividades de almacén permitidas para una ubicación asignándoles un tipo de ubicación. Existen los siguientes tipos de ubicación:  
 
@@ -79,7 +79,7 @@ En todos los tipos de ubicación, excepto los tipos PICKING, COLOCARPICKING y UB
 > [!NOTE]  
 > Solo se puede realizar el movimiento a las ubicaciones de tipo RECEPC y QC. Del mismo modo, solo se pueden realizar movimientos desde ubicaciones del tipo ENV y QC.  
 
-## <a name="bin-ranking"></a>Ranking ubicación
+## Ranking ubicación
 
 En la gestión avanzada del almacén se puede automatizar y optimizar cómo se recogen los productos en hojas de trabajo de colocación y selección clasificando las ubicaciones de modo que se proponga la extracción y colocación de productos según criterios de clasificación para utilizar el espacio de almacén óptimamente.  
 
@@ -87,7 +87,7 @@ Los procesos de ubicación se optimizan según el ranking de ubicación mediante
 
 La clasificación de ubicación junto con la información del contenido de la ubicación son las propiedades básicas que permiten a los usuarios incluir productos en el almacén.  
 
-## <a name="bin-setup"></a>Configuración de ubicación
+## Configuración de ubicación  
 En almacenes avanzados, las ubicaciones se pueden configurar con valores de capacidad, como cantidad, cubicaje total y peso, para controlar qué productos se almacenan en la ubicación y cómo.  
 
 En cada ficha de producto, puede asignar una unidad de medida (UM) para el producto, como piezas, palés, litros, gramos o cajas. También puede tener una unidad de medida base para un producto y especificar unidades de medida mayores que se basen en ella. Por ejemplo, puede definir un palé para que sea igual a 16 unidades, siendo estas la unidad de medida base.  
@@ -99,7 +99,7 @@ Antes de establecer restricciones de capacidad para contenidos de ubicación en 
 > [!NOTE]  
 > Solo es posible funcionar con varias unidades de medida en instalaciones SGA. En el resto de las configuraciones, los contenidos de ubicación solo pueden ir en la unidad de medida base. En todas las transacciones con un unidad de medida mayor que la unidad de medida base del producto, la cantidad se convierte a la unidad de medida base.  
 
-## <a name="zone"></a>Zona
+## Zona
 
 En la gestión avanzada del almacén, las ubicaciones se pueden agrupar en las zonas para controlar el direccionamiento del flujo de trabajo de las actividades de almacén.  
 
@@ -107,18 +107,18 @@ Una zona podría ser una zona de recepción o una zona de almacenamiento, y cada
 
 La mayoría de las propiedades asignadas a una zona se asignarán de forma predeterminada a la ubicación que se cree para dicha zona.  
 
-## <a name="class"></a>Clase
+## Clase  
 En la gestión avanzada del almacén se pueden asignar códigos de clase de almacén a productos, ubicaciones y zonas para controlar dónde se almacenan las distintas clases de producto, por ejemplo los productos congelados. Puede dividir una zona en varias clases de almacén. Por ejemplo, los productos en la zona de recepción se pueden almacenar como congelados, peligrosos u otra clase.  
 
 Cuando trabaja con clases de almacén y una ubicación de recepción o envío predeterminada, debe rellenar manualmente las ubicaciones apropiadas en la recepción y en las líneas de albarán de almacén.  
 
 En los flujos entrantes, el código de clase está resaltado con líneas de entrada cuando el código de clase del producto no coincide con la ubicación predeterminada de recepción. Si no se han asignado las ubicaciones predeterminadas correctas, la cantidad no puede recibirse.  
 
-## <a name="location"></a>Almacén
+## Almacén
 
 Un almacén es una estructura física o un lugar donde se recibe, se almacena y se envía el inventario, potencialmente organizado en ubicaciones. Una ubicación puede ser un almacén, un vehículo de servicio, una sala de exposición, una planta o un área dentro de una planta.  
 
-## <a name="first-expired-first-out"></a>Primero en caducar primero en salir
+## Primero en caducar primero en salir
 
 Si selecciona la casilla **Picking según FEFO (Primero en caducar, primero en salir)** en la ficha desplegable **Directivas ubicación** de la ficha de almacén, los productos con seguimiento se seleccionan según su fecha de vencimiento. Primero se realiza el picking de los productos con las fechas de vencimiento más tempranas.  
 
@@ -126,11 +126,11 @@ Las actividades de almacén en todos los documentos de picking y de movimientos 
 
 Cuando se realiza la selección por FEFO, el programa recopila los productos disponibles que caducan en primer lugar y el resultado es una lista temporal de seguimiento de productos basada en la fecha de vencimiento. Si dos productos tienen la misma fecha de caducidad, se selecciona primero aquel cuyo número de lote o de serie sea menor. Si los números de lote o de serie son iguales, entonces se selecciona primero el producto que se registró en primer lugar. Los criterios estándar para seleccionar productos en ubicaciones de selección, como Ranking ubicación y División bulto, se aplican a esta lista temporal de seguimiento de productos FEFO.  
 
-## <a name="put-away-template"></a>Plantilla ubicar
+## Plantilla ubicar
 
 La plantilla de ubicación se puede asignar a un producto y a una ubicación. La plantilla de ubicación especifica un conjunto de reglas con prioridad que se deben respetar al crear ubicaciones. Por ejemplo, una plantilla de ubicación puede requerir que el producto se coloque en una ubicación con contenido de ubicación que coincida con la unidad de medida y, si no se encuentra una ubicación similar con capacidad suficiente, el producto debe colocarse en una ubicación vacía.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Detalles de diseño: disponibilidad en el almacén](design-details-availability-in-the-warehouse.md)

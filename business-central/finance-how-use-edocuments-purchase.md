@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="use-e-documents-in-the-purchases-process"></a>Usar documentos electrónicos en el proceso de compra
+# Usar documentos electrónicos en el proceso de compra
 
 Puede utilizar documentos electrónicos configurados (documentos electrónicos) con los documentos de compra.
 
@@ -26,11 +26,11 @@ Se pueden usar los siguientes documentos de compra con la función de documentos
 > [!NOTE]
 > Desde [!INCLUDE[prod_short](includes/prod_short.md)] versión 24.0, se pueden conectar **Pedidos de compra** con los **Documentos electrónicos** recibidos.  
 
-## <a name="e-documents-in-purchases"></a>Documentos electrónicos en compras
+## Documentos electrónicos en compras
 
 La recepción de documentos electrónicos de compra en Dynamics 365 Business Central puede realizarse como un trabajo por lotes o manualmente.  
 
-### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Cómo configurar proveedores para que trabajen con diferentes documentos de compra
+### Cómo configurar proveedores para que trabajen con diferentes documentos de compra  
 
 Siga estos pasos para configurar proveedores para que funcionen correctamente con facturas electrónicas entrantes: 
 
@@ -47,9 +47,9 @@ Siga estos pasos para configurar proveedores para que funcionen correctamente co
 4. Elija una de las opciones que desee utilizar para el proveedor seleccionado. 
 5. Cierre la página.   
 
-### <a name="to-work-with-purchase-invoices"></a>Para trabajar con facturas de compra
+### Para trabajar con facturas de compra  
 
-#### <a name="run-the-batch-job"></a>Ejecutar el trabajo por lotes
+#### Ejecutar el trabajo por lotes  
 
 > [!NOTE]
 > Este trabajo por lotes es para el cobro automatizado de sus facturas entrantes. Solo puede funcionar en un país o región donde exista la funcionalidad.  
@@ -77,7 +77,7 @@ Hay dos errores comunes:
 
 Después de corregir los errores y advertencias, puede especificar manualmente cuándo el sistema debe crear una factura de compra según su configuración seleccionando **Crear documento**.   
 
-#### <a name="manually-import-invoices"></a>Importar facturas manualmente
+#### Importar facturas manualmente  
 
 Para importar manualmente documentos electrónicos externos, siga estos pasos:
 
@@ -88,9 +88,9 @@ Para importar manualmente documentos electrónicos externos, siga estos pasos:
 5. Cuando haya terminado de solucionar los problemas, en el grupo **Importar manualmente**, seleccione **Crear documento**.  
 6. Una vez creado el documento en [!INCLUDE[prod_short](includes/prod_short.md)], el uso de un trabajo por lotes no cambia la forma en que lo ve. 
 
-### <a name="e-documents-with-purchase-orders"></a>Documentos electrónicos con pedidos de compra
+### Documentos electrónicos con pedidos de compra  
 
-#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Vincular los pedidos de compra con los documentos electrónicos recibidos
+#### Vincular los pedidos de compra con los documentos electrónicos recibidos
 
 Si su **Proveedor** ha configurado el campo **Recibir documento electrónico en** para trabajar con **Pedidos de Compra**, una vez creado un documento electrónico en [!INCLUDE[prod_short](includes/prod_short.md)] (manualmente o desde un punto final externo), [!INCLUDE[prod_short](includes/prod_short.md)] hará lo siguiente:  
 
@@ -100,7 +100,7 @@ Si su **Proveedor** ha configurado el campo **Recibir documento electrónico en*
 
 3. Si el **Pedido de compra** para este proveedor en particular cuando se crea un nuevo **Documento electrónico**, [!INCLUDE[prod_short](includes/prod_short.md)] creará un nuevo **Pedido de compra**, utilizando el mismo modelo de creación que ya existe para las nuevas **Facturas de compra**. El **Estado del documento** de este **Documento electrónico** será **Procesado** y el **Estado del documento electrónico** en la subpágina **Estado del servicio** será **Documento importado creado**. Este vínculo será visible en el campo **Documento** de este **Documento electrónico** específico.   
 
-#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Líneas coincidentes del documento electrónico recibido con el pedido de compra
+#### Líneas coincidentes del documento electrónico recibido con el pedido de compra  
 
 Podrá cotejar tus documentos electrónicos recibidos con líneas de pedidos de compra desde dos lugares diferentes, desde la página **Documento electrónico** o desde la página **Pedido de compra**. La forma más sencilla de localizar los **Pedidos de compra** ya vinculados es utilizar el mosaico **Pedidos de compra vinculados** como parte de **Actividades de documentos electrónicos**. Todos los documentos no vinculados se pueden encontrar usando el mosaico **Facturas electrónicas de compra en espera** donde tiene una lista de **Documentos electrónicos** que necesita revisar.  
 
@@ -110,7 +110,7 @@ Podrá cotejar tus documentos electrónicos recibidos con líneas de pedidos de 
 > [!NOTE]
 > Si el porcentaje de IVA difiere entre el documento entrante y el porcentaje de IVA de la empresa, los documentos coincidentes no se pueden utilizar en un entorno de varios países o regiones.  
 
-##### <a name="matching-lines-from-purchase-order"></a>Líneas coincidentes del pedido de compra
+##### Líneas coincidentes del pedido de compra  
 
 Puede hacer coincidir las líneas de la lista **Pedidos de compra** o de uno de los **Pedidos de compra** abiertos. Para empezar, siga los pasos que se detallan a continuación:  
 
@@ -160,7 +160,7 @@ Si desea agregar algo de tolerancia y permitir la diferencia entre líneas en **
 3. Esta configuración se aplicará a todas las líneas coincidentes, pero nuevamente considerando la tolerancia para el importe total, como para el **Coste unitario directo** junto con el **% de descuento en línea** aplicado.  
 4. Cierre la página.   
 
-##### <a name="matching-lines-from-e-document"></a>Para hacer coincidir líneas de un documento electrónico
+##### Para hacer coincidir líneas de un documento electrónico  
 
 Puede hacer coincidir las líneas en la página  **Documento electrónico**. Para empezar, siga los pasos que se detallan a continuación:  
 
@@ -169,7 +169,7 @@ Puede hacer coincidir las líneas en la página  **Documento electrónico**. Par
 3. Elija la acción **Conciliar pedido de compra** para abrir la página **Conciliación de pedidos de compra**.  
 4. Repita los mismos pasos que utilizó cuando comenzó a emparejar los pedidos de compra.
 
-### <a name="e-document-matching-assistance-copilot"></a>Copiloto de ayuda de correspondencia de documentos electrónicos
+### Copiloto de ayuda de correspondencia de documentos electrónicos  
 
 > [!NOTE]
 > Actualmente el **Copiloto de ayuda de correspondencia de documentos electrónicos** se encuentra en estado de versión preliminar listo para producción y está disponible en todo el mundo, excepto en Canadá. Solo funciona en inglés. 
@@ -177,7 +177,7 @@ Puede hacer coincidir las líneas en la página  **Documento electrónico**. Par
 > [!NOTE]
 > Copilot es el asistente con tecnología de IA que ayuda a personas de su organización a desatar su creatividad y automatizar las tareas tediosas. El copiloto de **Ayuda de correspondencia de documentos electrónicos** ayuda a los usuarios a cotejar fácilmente sus facturas electrónicas recibidas con líneas de pedido de compra existentes, utilizando el modelo LLM para cotejar líneas entre dos documentos diferentes. 
 
-#### <a name="to-activate-the-copilot"></a>Para activar el copiloto
+#### Para activar el copiloto  
 
 En caso de que no haya activado el copiloto de **Ayuda de correspondencia de documentos electrónicos**, deberá hacerlo manualmente. Para habilitar el copiloto de **Ayuda de correspondencia de documentos electrónicos**, siga estos pasos: 
 
@@ -186,7 +186,7 @@ En caso de que no haya activado el copiloto de **Ayuda de correspondencia de doc
 
 Una vez que el copiloto esté activado, podrá comenzar a usarlo.
 
-#### <a name="use-the-e-document-matching-assistance-copilot"></a>Usar el copiloto de ayuda de correspondencia de documentos electrónicos
+#### Usar el copiloto de ayuda de correspondencia de documentos electrónicos 
 
 Si el copiloto está activado, las acciones existentes **Asignar líneas de documentos electrónicos** en pedidos comprados y **Conciliar pedido de compra** en la página **Documento electrónico** obtendrá diferentes iconos, que simbolizan la capacidad de IA. Puedes ejecutar estas acciones (iguales que en ejemplos anteriores del listado de pedidos de compra), desde uno de los **Pedidos de compra** o de **Documento electrónico**. Todos los pasos para ejecutar son iguales, pero cuando ejecuta esta acción, el resultado será diferente y deberá seguir estos pasos:  
 
@@ -231,7 +231,7 @@ Si el copiloto está activado, las acciones existentes **Asignar líneas de docu
 > [!NOTE]
 > El análisis de precio/coste y la verificación de la cantidad disponible son parte de la actividad de preprocesamiento.   
 
-## <a name="overview-of-e-document-statuses"></a>Descripción general de los estados de los documentos electrónicos
+## Descripción general de los estados de los documentos electrónicos
 
 Para obtener una mejor descripción general de todos los documentos electrónicos de la empresa, puede seleccionar el centro de funciones **Contable** donde existen estados de documentos electrónicos. Allí podrá encontrar actividades de documentos electrónicos que tengan los siguientes estados:
 
@@ -242,7 +242,7 @@ Para obtener una mejor descripción general de todos los documentos electrónico
     - Error
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configurar documentos electrónicos](finance-how-setup-edocuments.md)    
 [Usar un documento electrónico en el proceso de venta](finance-how-use-edocuments.md)   

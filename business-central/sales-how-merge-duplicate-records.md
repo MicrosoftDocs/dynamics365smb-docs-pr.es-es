@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="merge-duplicate-records"></a>Combinar registros duplicados
+# Combinar registros duplicados
 
 A medida que diferentes usuarios crean nuevas fichas de cliente, proveedor o contacto a lo largo del tiempo, o que los nuevos registros se crean automáticamente durante la migración, un cliente, proveedor o contacto puede estar representado en el sistema con más de un registro. En este caso, puede utilizar la página **Combinar duplicados** de la ficha del registro que desea conservar. La página le ofrece una visión general de los valores de campo duplicado y le ofrece funciones para seleccionar los valores que desea conservar o descartar al combinar dos registros en uno.
 
@@ -56,7 +56,7 @@ El procedimiento siguiente se basa en una ficha de cliente. Los pasos son pareci
 > [!NOTE]
 > Para los contactos, puede usar la funcionalidad para encontrar contactos duplicados antes de usar la página **Combinar duplicados**. Para obtener más información, vea [Búsqueda de contactos duplicados](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Ventas](sales-manage-sales.md)  
 [Configurar contactos](marketing-setup-contacts.md)  

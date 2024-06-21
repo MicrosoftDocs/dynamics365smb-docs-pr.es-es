@@ -11,10 +11,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-report-349-in-the-spanish-version"></a>Crear informe 349 en la versión en español
+# Crear informe 349 en la versión en español
 Debe presentar un informe periódico de comercio con otros países o regiones de la UE a las autoridades fiscales. Este modelo, el Informe 349, debe enviarse a las autoridades fiscales electrónicamente en la página web de la Agencia Tributaria o en un CD-ROM. Para obtener más información, consulte el sitio web de la [Agencia Tributaria](https://go.microsoft.com/fwlink/?LinkId=238181).  
 
-## <a name="to-create-report-349"></a>Para crear el informe 349
+## Para crear el informe 349  
 
 1.  Elija el icono ![Bombilla que abre la función Dígame.](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Modelo 349** y luego elija el enlace relacionado.  
 2.  En la ficha desplegable **Opciones**, rellene los campos tal como se describe en la tabla siguiente.  
@@ -37,7 +37,7 @@ Si el periodo incluye un abono, aparece un mensaje y, si elige el botón **Acept
 
 Los movimientos relacionados con abonos se muestran en la página **Advertencias 349 Cliente/Proveedor** ya que puede ser interesante incluirlos como correcciones a las facturas. Por ejemplo, si registra una factura de ventas en octubre y envía un abono en noviembre que corrige la factura de octubre, aparecerá una advertencia. A continuación, puede realizar los cambios necesarios en la página **Advertencia 349 Cliente/Proveedor**. Debe especificar la sección del importe total del cliente que se debe incluir en el modelo 349 de noviembre.  
 
-## <a name="to-correct-warnings-for-report-349"></a>Para corregir las advertencias del informe 349
+## Para corregir las advertencias del informe 349  
 
 1.  En la página **Advertencias 349 Cliente/Proveedor**, seleccione la línea del cliente correspondiente.  
 2.  Realice los cambios necesarios en la línea.  
@@ -59,7 +59,7 @@ Los movimientos relacionados con abonos se muestran en la página **Advertencias
 
 Para correcciones de importes que se incluyeron en un modelo 349 anterior, la página puede mostrar más de una advertencia para un cliente o proveedor con los mismos valores en los campos **Año fiscal y periodo de la factura que se rectifica** y **Periodo de ejercicio y de la factura que se rectifica**. En ese caso, debe combinar las correcciones realizadas en una sola línea para incluir los importes correspondientes del campo **Importe declarado anterior** e **Importe declarado inicial** del modelo 349.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Informe 349](report-349.md)   
 
 

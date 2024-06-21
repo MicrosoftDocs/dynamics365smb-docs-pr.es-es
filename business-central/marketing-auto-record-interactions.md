@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a>Registrar interacciones con contactos automáticamente
+# Registrar interacciones con contactos automáticamente
 Puede configurar la aplicación para que registre automáticamente interacciones de ventas, compras y documentos de servicio, hojas de portada, correos electrónicos, llamadas telefónicas, como:
 
 * Imprimir ofertas, pedidos, facturas, abonos y hojas de portada de compra y de ventas.
@@ -22,7 +22,7 @@ Puede configurar la aplicación para que registre automáticamente interacciones
 Para configurar los registros automáticos de estas interacciones, puede especificar plantillas de interacciones para estos documentos y acciones mediante la página **Configuración de plantilla de interacción**.  
 Para abrir la página **Configuración de plantilla de interacción**, elija la ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de plantilla de interacción** y luego elija el enlace relacionado.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Registrar interacciones con contactos](marketing-interactions.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

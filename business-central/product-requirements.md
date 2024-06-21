@@ -11,11 +11,11 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="minimum-requirements-for-using-business-central"></a>Requisitos mínimos para utilizar Business Central
+# Requisitos mínimos para utilizar Business Central
 
 Antes de que acceda a [!INCLUDE[prod_short](includes/prod_short.md)] en línea, le recomendamos que verifique que su equipo o dispositivo móvil cumple o supera los requisitos mínimos del sistema para el producto. En este artículo se especifican los requisitos.  
 
-## <a name="browsers"></a>Navegadores
+## Navegadores
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] está diseñado para que funcione con la versión actual de Microsoft Edge.
   
@@ -28,19 +28,19 @@ Antes de que acceda a [!INCLUDE[prod_short](includes/prod_short.md)] en línea, 
 
 Le recomendamos que utilice una versión de canal estable de un navegador web, ya que es la versión más confiable y estable que ha sido sometida a pruebas exhaustivas y corrección de errores. Esto garantiza que tendrá la mejor experiencia y será menos probable que encuentre problemas al utilizar el cliente web.
 
-## <a name="mobile-devices"></a>Dispositivos móviles
+## Dispositivos móviles
 
 **Android (tableta y teléfono):** una de las tres últimas versiones principales de sistema operativo y sus actualizaciones.
 
 **iOS (iPad e iPhone):** una de las tres últimas versiones principales de sistema operativo y sus actualizaciones.
 
-## <a name="outlook"></a>Outlook
+## Outlook
 
 **Aplicaciones de Outlook**: para usar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como bandeja de entrada de empresa en Outlook, necesita Outlook 2021 o posterior, u Outlook en la web. Su organización también debe utilizar Microsoft 365. No puede utilizar [!INCLUDE[prod_short](includes/prod_short.md)] en línea como su bandeja de entrada empresarial en Outlook si su organización usa Exchange Server local. 
 
 **Exploradores:** Al usar [!INCLUDE[prod_short](includes/prod_short.md)] como bandeja de entrada de empresa en Outlook en un explorador, el complemento requiere que su equipo ejecute uno de los exploradores compatibles que se han enumerado en este artículo. 
 
-## <a name="teams"></a>Teams
+## Teams
 
 **Aplicaciones de escritorio de Teams:** la aplicación [!INCLUDE[prod_short](includes/prod_short.md)] para Teams admite la última versión del cliente de escritorio de Windows de Teams. 
 
@@ -50,11 +50,11 @@ Le recomendamos que utilice una versión de canal estable de un navegador web, y
 
 **Suscripción admitida**: la aplicación [!INCLUDE[prod_short](includes/prod_short.md)] para Teams admite suscripciones Microsoft 365 Business y Enterprise, que incluyan Microsoft Teams o Microsoft Teams EEA pero no suscripciones independientes de Teams como Microsoft Teams (gratis) o Microsoft Teams Essentials.
 
-## <a name="excel"></a>Excel
+## Excel
 
 **Editar en Excel:** Para usar el complemento de Excel para realizar cambios en Excel y volver a insertar los cambios en [!INCLUDE[prod_short](includes/prod_short.md)], necesita Excel 2021 o posterior. Para obtener más información, consulte [Análisis de estados financieros en Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a>Uso del centro de administración de Business Central
+## <a name="TAC"></a> Uso del centro de administración de Business Central
 
 El centro de administración está diseñado para funcionar con la versión actual de los siguientes navegadores:
 
@@ -63,11 +63,11 @@ El centro de administración está diseñado para funcionar con la versión actu
 - Firefox para Windows
 - Safari para macOS
 
-## <a name="use-business-central-on-premises"></a>Use Business Central local
+## Use Business Central local
 
 Si desea implementar Business Central localmente, debe comprobar los requisitos del sistema. Para obtener más información, consulte [Requisitos del sistema para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23) y [Resumen de la implementación](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Requisitos del sistema para Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23)  

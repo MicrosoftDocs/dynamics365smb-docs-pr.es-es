@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="viewing-table-information"></a>Visualización de información de tabla
+# Visualización de información de tabla
 
 La página **Información de la tabla 8700** proporciona información sobre el número de registros en todo el sistema y tablas de negocios en [!INCLUDE[prod_short](includes/prod_short.md)] y cuántos datos contiene cada tabla.
 
 Esta información es útil para solucionar problemas de rendimiento, porque le permite ver la distribución del tamaño de los datos en las tablas.
 
-## <a name="view-table-information"></a>Ver información de tabla
+## Ver información de tabla
 
 Para abrir esta página, seleccione el icono ![Buscar página o informe.](media/ui-search/search_small.png "Icono Buscar página o informe") , escriba **Información de tabla** y luego elija el enlace relacionado.
 
@@ -42,7 +42,7 @@ La siguiente tabla describe la información proporcionada para cada tabla:
 > La página **Información de la tabla** muestra los tamaños de índice y datos, y la suma de los tamaños de la tabla no coincidirá con la capacidad total utilizada, porque muestra el tamaño de los datos, no el tamaño asignado real. . El espacio asignado siempre es mayor que el espacio utilizado para evitar tener que asignar espacio en cada inserción, lo que limitaría significativamente el rendimiento
 
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Inspección de páginas](across-inspect-page.md)  
 [Artículos de rendimiento para desarrolladores](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

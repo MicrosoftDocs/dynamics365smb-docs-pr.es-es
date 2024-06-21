@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="categorize-items"></a>Clasificar productos
+# Clasificar productos
 
 Para mantener una visión general de sus productos y ayudarle a ordenar y encontrar los productos, es muy útil organizar los productos en categorías.
 
@@ -19,7 +19,7 @@ Para buscar productos por características, puede asignar los atributos de produ
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
-## <a name="to-create-an-item-category"></a>Para crear una categoría de producto
+## Para crear una categoría de producto
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Categorías de artículos** y luego elija el enlace relacionado.
 2. En la página **Categorías producto**, seleccione la acción **Nuevo**.
 3. En la ficha desplegable **General** de la página **Ficha de categoría de producto**, complete los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,17 +33,17 @@ Para buscar productos por características, puede asignar los atributos de produ
 
 Si cambia de opinión sobre una categoría de artículo, puede eliminarla. Sin embargo, si ya se ha asignado a un elemento, debe eliminar esa asignación para poder eliminar la categoría del artículo.
 
-## <a name="to-assign-an-item-category-to-an-item"></a>Para asignar una categoría de producto a un producto
+## Para asignar una categoría de producto a un producto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
 2. Abra la ficha del producto al que desee asignar una categoría de producto.
 3. Elija el botón de búsqueda en el campo **Cód. categoría producto** y seleccione una categoría existente. De forma alternativa, elija la acción **Nuevo** para crear primero una nueva categoría de producto como se explica en [Para crear una categoría de producto](inventory-how-categorize-items.md#to-create-an-item-category).
 
-## <a name="categories-attributes-and-variants"></a>Categorías, atributos y variantes
+## Categorías, atributos y variantes
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con atributos de producto](inventory-how-work-item-attributes.md)  
 [Administrar variantes del producto](inventory-item-variants.md)  

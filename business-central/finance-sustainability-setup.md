@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-setup"></a>Configuración de sostenibilidad
+# Configuración de sostenibilidad
 
 Antes de que el módulo de sostenibilidad pueda funcionar correctamente, debe configurar algunos controles e instrucciones básicos relacionados con toda la funcionalidad.
 
@@ -53,7 +53,7 @@ Para configurar un módulo de sostenibilidad, siga los pasos:
     | **Precisión de redondeo de emisiones** | Especifique el tamaño del intervalo que se usará al redondear cantidades de emisiones al informar a las autoridades. |
     | **Tipo de redondeo de emisiones** | Especifique cómo el programa redondea las cantidades de emisiones cuando informa a las autoridades. Las siguientes opciones están disponibles: **Más cercano**, **Hacia arriba** y **Hacia abajo**. |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Finanzas](finance.md)  
 [Información general de la administración de la sostenibilidad](finance-manage-sustainability.md)  

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="built-in-finance-reports-in-business-central"></a>Informes financieros integrados en Business Central
+# Informes financieros integrados en Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] incluye diversos informes integrados, funciones de seguimiento y herramientas para ayudar a los auditores o controladores que son responsables de informar al departamento de finanzas.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="explore-finance-reports-with-report-explorer"></a>Explorar los informes financieros con el Explorador de informes
+## Explorar los informes financieros con el Explorador de informes
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Informes y análisis de cobros](receivables-reports.md)  
 [Informes y análisis de pagos](payables-reports.md)  

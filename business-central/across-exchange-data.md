@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="exchanging-data"></a>Intercambio de datos
+# Intercambio de datos
 Puede intercambiar datos entre [!INCLUDE[prod_short](includes/prod_short.md)] y secuencias o archivos externos en conexión con tareas de negocio comunes, como enviar y recibir documentos electrónicos e importar y exportar archivos bancarios.  
 
 Para poder enviar y recibir documentos electrónicos o importar y exportar archivos bancarios, debe configurar el marco de intercambio de datos para procesar las secuencias o los archivos de datos. Además, debe configurar áreas relacionadas, como los clientes a los que envía facturas electrónicas y la extensión AMC Banking 365 Fundamentals si distribuye conversiones de archivos bancarios a un proveedor de servicios externo. Para obtener más información, consulte [Configurar el intercambio de datos](across-set-up-data-exchange.md).  
@@ -31,7 +31,7 @@ Para poder enviar y recibir documentos electrónicos o importar y exportar archi
 |Exportar datos para informes de Intrastat en formato [!INCLUDE[prod_short](includes/prod_short.md)].|[Configuración de informes de Intrastat](finance-how-setup-report-intrastat.md)|
 |Ver qué campos de [!INCLUDE[prod_short](includes/prod_short.md)] están asignados a elementos de archivo al exportar archivos de pago con la extensión AMC Banking 365 Fundamentals.|[Asignación de campos al exportar archivos de pago utilizando la extensión AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Intercambio de datos electrónicamente](across-data-exchange.md)  
 [Facturar ventas](sales-how-invoice-sales.md)   

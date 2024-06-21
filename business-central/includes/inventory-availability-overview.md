@@ -27,11 +27,11 @@ La información también respeta otros factores que afectan la disponibilidad. P
 > [!NOTE]
 > Esta capacidad requiere que active la opción **Almacenamiento y recogida dirigidos** para las ubicaciones que utiliza en su proceso de selección.
 
-### <a name="set-up-previews"></a>Configurar versiones preliminares
+### Configurar versiones preliminares
 
 Para obtener detalles sobre lo que se selecciona y lo que no, active la opción **Mostrar resumen (almacenamiento y selección dirigidos)** en las páginas de solicitud **Almacén - Origen - Crear Documento** o **Almacén - Envío - Crear Selección**.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Determina la cantidad que puede elegir
+### Determina la cantidad que puede elegir
 
 En líneas en la página **Crear resumen de selección de almacén**, el campo **Cant. para gestionar (base)** muestra cuáles y cuántos elementos [!INCLUDE [prod_short](prod_short.md)] intentó elegir. El cuadro informativo **Resumen** proporciona más detalles.
 
@@ -58,7 +58,7 @@ La siguiente imagen ilustra la cantidad máxima considerada para recolección.
 |P     |Contenedores con contenido de tipo Pick con movimiento saliente bloqueado         |
 |C     |Otros contenedores         |
 
-### <a name="reservations"></a>Reservas
+### Reservas
 
 Si hay reservas para el artículo que se está seleccionando, el cálculo continúa. La idea es que la demanda reservada tiene mayor prioridad que la no reservada, lo que significa que seleccionar la demanda no reservada no debería impedir seleccionar la demanda reservada más adelante.
 
@@ -93,7 +93,7 @@ La siguiente imagen ilustra la asignación de cantidad disponible para cantidad 
 
 Si bien hay suficiente cantidad disponible en el almacén para satisfacer la selección por completo, esto provocará que la cantidad total reservada se asigne a las cantidades en contenedores dedicados o bloqueados, lo que impide la selección para esta demanda. Debido a que la demanda reservada tiene mayor prioridad, [!INCLUDE [prod_short](prod_short.md)] reduce la cantidad a seleccionar para evitar impactos negativos, como la imposibilidad de seleccionar, en la demanda reservada.
 
-### <a name="other-details"></a>Otros detalles
+### Otros detalles
 
 Si los artículos requieren seguimiento de artículos, también puede encontrar la cantidad en lotes bloqueados o números de serie, lo que provoca las siguientes reducciones:
 

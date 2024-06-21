@@ -9,7 +9,7 @@ ms.devlang: al
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Recibir productos con recepción de almacén
+# Recibir productos con recepción de almacén
 
 En [!INCLUDE[prod_short](includes/prod_short.md)], la recepción y la ubicación se realizan mediante uno de los cuatro métodos, como se describe en la siguiente tabla.
 
@@ -24,7 +24,7 @@ Para obtener más información sobre cómo manejar productos entrantes, vaya a [
 
 El siguiente artículo hace referencia a los métodos C y D de la tabla anterior.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Recibir productos con recibo de almacén
+## Recibir productos con recibo de almacén
 
 Cuando los productos llegan a un almacén que está configurado para procesar recepciones de almacén, debe obtener las líneas del documento de origen liberado que desencadenó la recepción. Si usa ubicaciones, puede aceptar la ubicación predeterminada o especificar la ubicación para colocar los productos. Este último puede ser necesario cuando recibe un producto por primera vez. A continuación, rellene las cantidades de los productos que ha recibido y registre la recepción.  
 
@@ -65,7 +65,7 @@ Puede crear una recepción de almacén de dos maneras:
     > [!NOTE]  
     > Si su almacén utiliza tránsito directo, puede comprobar si puede realizar el tránsito directo de productos sin almacenarlos. Para obtener más información sobre el tránsito directo, vaya a [Productos de tránsito directo](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Cómo utilizar filtros para obtener documentos de origen
+## Cómo utilizar filtros para obtener documentos de origen
 
 Desde una recepción de almacén, puede utilizar la página **Filtros para traer docs. orig.** para recuperar las líneas del documento de origen lanzado que especifican los productos para recibir.
 
@@ -81,7 +81,7 @@ Todas las líneas del documento original liberado que cumplan los criterios de f
 
 Puede crear un número ilimitado de combinaciones de filtros. Los filtros se guardan en la página **Filtros para traer docs. orig.** y están disponibles la próxima vez que las necesite. Puede modificar los criterios en cualquier momento eligiendo la acción **Modificar**.
 
-## <a name="zone-and-bin-codes"></a>Códigos de zona y ubicación
+## Códigos de zona y ubicación
 
 Para recibir productos con códigos de clase de almacén de la ubicación en el campo **Cód. ubicación** de la cabecera de documento, elimine el campo **Cód. ubicación** en la cabecera antes de recuperar líneas del documento de origen para los productos.  
 <!-- TBD, table with comparison of various options-->
@@ -91,7 +91,7 @@ Si las ubicaciones son obligatorias para un almacén, los códigos de zona y ubi
 * Para configuraciones avanzadas que usan ubicación y recolección dirigidas, [!INCLUDE [prod_short](includes/prod_short.md)] usa el código de ubicación de recepción de la página **Ficha almacén** para la ubicación. Si no se especifica un código de ubicación de recepción, no se especifica ninguna ubicación. Si el producto y las ubicaciones de recepción no coinciden, el código de ubicación de recepción está en blanco.
 * En otras configuraciones, si no se especifica un código de ubicación de recepción, [!INCLUDE [prod_short](includes/prod_short.md)] usa el código de ubicación del documento de origen.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Información general de la gestión de almacenes](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

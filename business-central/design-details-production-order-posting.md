@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-production-order-posting"></a>Detalles de diseño: Registro de órdenes de producción
+# Detalles de diseño: Registro de órdenes de producción
 Al igual que el registro de pedido de ensamblado, se convierten los componentes consumidos y el tiempo de máquina usado, y se envían como el producto fabricado cuando finaliza la orden de producción. Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md). No obstante, el flujo del coste para los pedidos de ensamblado es menos complejo, especialmente porque el registro de coste de ensamblado solo se produce una vez, y por tanto que no genera un inventario de trabajo en curso.
 
 
@@ -46,7 +46,7 @@ Los valores de entradas y salidas de existencias se registran en los distintos t
 
 Aunque los valores de las transacciones relacionadas con productos comprados se registren solo como movimientos de producto con las entradas de los valores relacionados, las transacciones relacionadas con los productos fabricados se registran como movimientos de capacidad con las entradas de los valores relacionados, además de en los movimientos de producto.  
 
-## <a name="posting-structure"></a>Estructura de registro
+## Estructura de registro  
 El registro de órdenes de producción de registro al inventario de trabajo en curso implica la salida, el consumo y la capacidad.  
 
 En el diagrama siguiente se muestran las rutinas de registro relacionadas en la codeunit 22.  
@@ -69,12 +69,12 @@ Se puede asociar una entrada de valor que describa el valor de inventario WIP co
 
 Para obtener más información acerca de cómo se registran costes de producción y ensamblado en la contabilidad, consulte [Detalles de diseño: Registro de inventario](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Registro de capacidad
+## Registro de capacidad  
 El registro de la salida de la última la línea de ruta de la orden de producción da como resultado un movimiento de capacidad para el producto final, además de su entrada de existencias.  
 
  El movimiento de capacidad es un registro de tiempo que se ha dedicado para producir el producto. El movimiento de valoración relacionado describe el aumento del valor de inventario del trabajo en curso, que es el valor del coste de conversión. Para obtener más información, consulte "Desde los movimientos de capacidad” en [Detalles de diseño: cuentas de contabilidad](design-details-accounts-in-the-general-ledger.md)”.  
 
-## <a name="production-order-costing"></a>Gestión de costes del pedido de producción
+## Gestión de costes del pedido de producción  
  Para controlar los costes del inventario y de producción, una empresa de fabricación debe medir el coste de las órdenes de producción, porque el coste estándar predeterminado de cada producto fabricado está capitalizado en el balance. Para obtener información acerca de por qué los productos fabricados utilizan el método de coste Estándar, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -98,7 +98,7 @@ En entornos de coste estándar, el coste de una orden de producción se basa en 
     >  Esto es distinto del registro de pedido de ensamblado, que siempre registra los costes reales. Para obtener más información, consulte [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md).  
 2.  Cuando la orden de producción se establece en **Terminada**, se factura mediante la ejecución del proceso **Valorar stock - movs. producto**. Como resultado, el coste total del pedido se calcula basándose en el coste estándar de los materiales consumidos y la capacidad. Se calculan y registran las desviaciones entre los costes estándar calculados y los costes de producción reales.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también  
  [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)   
  [Detalles de diseño: Registro de pedidos de ensamblado](design-details-assembly-order-posting.md)  
  [Gestión de costes de inventario](finance-manage-inventory-costs.md) [Finanzas](finance.md)  

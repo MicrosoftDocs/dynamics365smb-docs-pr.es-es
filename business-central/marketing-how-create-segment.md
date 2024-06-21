@@ -11,10 +11,10 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="create-segments"></a>Crear segmentos
+# Crear segmentos
 Puede crear segmentos para poder seleccionar un grupo de contactos, por ejemplo, si desea crear una interacción que implique a varios contactos, como en un envío de correo directo.
 
-## <a name="to-create-a-segment"></a>Para crear segmentos
+## Para crear segmentos
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Segmentos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
 3. En la sección **General**, en el campo **N.º**, introduzca un número para el segmento.
@@ -24,7 +24,7 @@ Puede crear segmentos para poder seleccionar un grupo de contactos, por ejemplo,
 
 Ahora puede agregar contactos al segmento. Para obtener más información, vea [Agregar contactos a segmentos](marketing-add-contact-segment.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Administrar segmentos](marketing-segments.md)  
 [Administrar oportunidades de venta](marketing-manage-sales-opportunities.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -12,11 +12,11 @@ ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
 
-# <a name="use-non-deductible-vat"></a>Usar IVA no deducible
+# Usar IVA no deducible
 
 Este artículo explica cómo utilizar y declarar el IVA no deducible.
 
-## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Crear una factura de compra con IVA no deducible
+## Crear una factura de compra con IVA no deducible
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas compra** y, a continuación, elija el vínculo relacionado.
 2. Seleccione **Nuevo** para crear una factura de compra e ingrese la información adecuada en el encabezado de la factura.
@@ -27,7 +27,7 @@ Este artículo explica cómo utilizar y declarar el IVA no deducible.
 
 5. Registrar la factura.
 
-## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Crear un pedido de compra con IVA no deducible
+## Crear un pedido de compra con IVA no deducible
 
 1. Seleccione el icono ![Bombilla que abre la característica Dígame 3.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de compra** y, a continuación, elija el vínculo relacionado.
 2. Seleccione **Nuevo** para crear un pedido de compra e ingrese la información adecuada en el encabezado del documento.
@@ -38,7 +38,7 @@ Este artículo explica cómo utilizar y declarar el IVA no deducible.
 
 5. Registre el pedido de compra.
 
-## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Ajustar los importes de IVA redondeados antes de la contabilización del documento
+## Ajustar los importes de IVA redondeados antes de la contabilización del documento
 
 Si los importes del IVA no se redondean de la misma manera en su entorno y en el sistema contable externo (el documento de factura original), puede ajustar el importe del IVA antes de contabilizar el documento. Para realizar este ajuste, siga estos pasos antes de contabilizar el documento.
 
@@ -61,7 +61,7 @@ Puede ajustar los valores de los campos **Importe de IVA** e **Importe IVA no de
 > [!IMPORTANT]
 > No se puede utilizar IVA no deducible en las facturas de prepago.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestión financiera](finance.md)
 

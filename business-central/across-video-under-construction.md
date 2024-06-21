@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sorry-this-content-is-under-construction"></a>Lo sentimos, este contenido está en construcción
+# Lo sentimos, este contenido está en construcción
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="Ahora mismo aquí no hay nada." border="false":::
 
@@ -21,7 +21,7 @@ Estamos agregando y mejorando constantemente [!INCLUDE[prod_short](includes/prod
 
 Sin embargo, vuelva pronto y, mientras tanto, puede explorar otros temas en el [Canal de Dynamics 365 en YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Visite nuestra biblioteca de vídeos](across-videos.md)
 
  

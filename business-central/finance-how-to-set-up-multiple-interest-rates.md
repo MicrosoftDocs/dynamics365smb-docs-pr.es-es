@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Configurar tasas de interés múltiples para pagos atrasados
+# Configurar tasas de interés múltiples para pagos atrasados
 
 Puede usar tasas de interés diferentes se utilizan para diferentes períodos de pagos retrasados en las transacciones comerciales. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -18,7 +18,7 @@ Por ejemplo, un gobierno especifica el interés máximo que debe percibirse por 
 
 Cuando cree los términos de interés y los términos de recordatorio, para la penalización por pago atrasado, puede especificar múltiples tasas de interés para que la penalización se calcule a partir de diferentes tasas de interés en diferentes períodos.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Configurar varios tipos de interés
+## Configurar varios tipos de interés
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Términos interés** y, a continuación, elija el vínculo relacionado.  
 2. En la página **Términos interés**, seleccione el término requerido de interés y después seleccione la acción **Tipos de interés**.  
@@ -30,7 +30,7 @@ Cuando cree los términos de interés y los términos de recordatorio, para la p
 
 Cuando emite una nota de cargo financiero, la nota muestra los cargos financieros con tasas de interés múltiples para un período de tiempo específico. La nota también contiene los detalles de contacto del cliente, la empresa que emite la nota, el importe adicional y el importe total. El movimiento inicial de la nota se muestra en negrita. Los cargos financieros se calculan con tasas de interés múltiples para un período de tiempo específico y se imprimen después del movimiento inicial de la nota.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Cobrar saldos pendientes](receivables-collect-outstanding-balances.md)  
 [Configurar las finanzas](finance-setup-finance.md)

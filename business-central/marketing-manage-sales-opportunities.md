@@ -12,7 +12,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="managing-sales-opportunities"></a>Administrar oportunidades de venta
+# Administrar oportunidades de venta
 Las referencias de entrada se pueden considerar oportunidades de venta. Puede crear oportunidades y asociarlas a un vendedor de forma que pueda realizar un seguimiento de las ventas potenciales.
 
 Para poder utilizar la gestión de oportunidades, debe configurar ciclos de ventas y etapas del ciclo de ventas. A medida que crea oportunidades, debe proporcionar información sobre el contacto, vendedor, ciclo de ventas y fechas, así como sobre sus estimaciones del valor de ventas de la oportunidad y un cálculo aproximado de las posibilidades de éxito.
@@ -25,7 +25,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Crear oportunidades de ventas que se tienen de los contactos. |[Crear oportunidades](marketing-how-create-opportunities.md) |
 | Mueva una oportunidad de ventas a través del ciclo de venta para que se complete. |[Procesar oportunidades de ventas](marketing-processing-sales-opportunities.md) |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Ccial](sales-manage-sales.md)  
 [Creación y administración de contactos](marketing-contacts.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="walkthrough-of-service-contracts-for-service-items"></a>Tutorial de contratos de servicio para productos de servicio
+# Tutorial de contratos de servicio para productos de servicio
 
 Este tutorial demuestra varios procesos principales:
 
@@ -21,13 +21,13 @@ Este tutorial demuestra varios procesos principales:
 - Completar la entrada de tiempo para la Orden de Servicio
 - Registrar y facturar el pedido de contrato de servicio
 
-## <a name="creation-of-service-items"></a>Creación de productos de servicio
+## Creación de productos de servicio
 
-### <a name="scenario"></a>Escenario
+### Escenario  
 
 Susan, la procesadora de pedidos, registra un pedido de venta que vende un artículo configurado para generar un artículo de servicio.  
 
-### <a name="steps"></a>Pasos
+### Pasos
 
 1. Verifique que el **Artículo** tenga **Grupo de artículos de servicio** seleccionado.
    
@@ -41,13 +41,13 @@ Susan, la procesadora de pedidos, registra un pedido de venta que vende un artí
     2. Seleccione el pedido para el cliente 10000. El n.º de pedido externo es: *SVC-1*.
     3. Elija la acción **Registrar** para enviar el artículo al cliente.
 
-### <a name="results"></a>Resultados
+### Resultados
 
 - Se crea un producto de servicio para el cliente 10 000
 
-## <a name="invoicing-a-service-contract"></a>Facturar un contrato de servicio
+##  Facturar un contrato de servicio
 
-### <a name="scenario-1"></a>Escenario
+### Escenario
 
 Charles, el gerente de servicio, crea un contrato de servicio para facturar las visitas de mantenimiento periódicas.
 
@@ -70,18 +70,18 @@ Charles, el gerente de servicio, crea un contrato de servicio para facturar las 
    1. Elija el icono ![Bombilla que abre la característica Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Factura servicio** y luego elija el enlace relacionado.
    2. Localice la factura de servicio y elija la acción **Registrar**.
 
-### <a name="results-1"></a>Resultados
+### Resultados
 
 - Se crea un contrato de servicio firmado, con asientos en el libro mayor
 - Se crea una factura de servicio registrada
 
-## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Creación de un pedido de servicio para un contrato de servicio y asignar recursos
+## Creación de un pedido de servicio para un contrato de servicio y asignar recursos
 
-### <a name="scenario-2"></a>Escenario
+### Escenario  
 
 Charles, el gerente de servicio, crea las órdenes de servicio para las órdenes de mantenimiento regulares según el contrato de servicio y luego revisará el panel de distribución para asignarlas.
 
-### <a name="steps-1"></a>Pasos
+### Pasos
 
 1. Ejecutar las Órdenes de Servicio que cumplen con las obligaciones de los Contratos de Servicio activos.
    1. Elija el icono ![Bombilla que abre la característica Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Crear pedidos serv. contrato** y, a continuación, elija el enlace relacionado.
@@ -104,21 +104,21 @@ Charles, el gerente de servicio, crea las órdenes de servicio para las órdenes
     3. La asignación se cambia a un estado activo.
     4. Al actualizar el tablero de distribución se muestra el **N.º de asignaciones** cambiando de 0 a 1 para la orden de servicio.
 
-### <a name="results-2"></a>Resultados
+### Resultados
 
 - Se crean órdenes de servicio para los contratos de servicio
 - Las órdenes de servicio se asignan a un recurso para completar el trabajo
 
-## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Complete la entrada de tiempo para la orden de servicio y publique la orden de servicio
+## Complete la entrada de tiempo para la orden de servicio y publique la orden de servicio
 
-### <a name="scenario-3"></a>Escenario
+### Escenario  
 
 El técnico de servicio registra su tiempo directamente en la Orden de servicio y luego marcará la orden como finalizada.
 
 > [!NOTE]
 > El ingreso de horas para órdenes de servicio se puede ingresar a través de hojas de horas. Para obtener más información, consulte [enlace a la parte de horas si esta nota tiene sentido].
 
-### <a name="steps-2"></a>Pasos
+### Pasos
 
 1. Localice la Orden de Servicio e ingrese el tiempo en la Línea de Servicio
    1. Elija el icono ![Bombilla que abre la característica Dígame](../../media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de servicio** y luego elija el enlace relacionado.
@@ -133,11 +133,11 @@ El técnico de servicio registra su tiempo directamente en la Orden de servicio 
 2. En el pedido de servicio, registre el consumo
    1. Elija la acción **Registrar** para completar la Orden de Servicio, seleccione la acción **Envío y consumo** y luego elija el botón **Aceptar**.
 
-### <a name="results-3"></a>Resultados
+### Resultados
 
 - Los asientos del libro mayor de servicios se crean asociados con el artículo de servicio, el contrato de servicio y el recurso
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Introducción a datos de demostración de Contoso Coffee](../../contoso-coffee/contoso-coffee-intro.md)  
 [Acerca de las órdenes de producción](../../production-about-production-orders.md)

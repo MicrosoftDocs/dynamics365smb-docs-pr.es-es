@@ -11,28 +11,28 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="business-central-quick-starts"></a>Productos de inicio rápido de Business Central
+# Productos de inicio rápido de Business Central
 
 Los artículos de inicio rápido le ayudarán a comenzar antes para que pueda empezar a realizar las funciones básicas de [!INCLUDE[prod_short](includes/prod_short.md)] que necesita.
 
 Las siguientes secciones ofrecen guías para principiantes que le ayudarán a familiarizarse con las funciones que necesita en [!INCLUDE[prod_short](includes/prod_short.md)]. Cada inicio rápido ofrece vínculos a contenido más avanzado sobre la funcionalidad, en caso de que lo necesite.
 
-## <a name="provide-basic-information-about-your-company"></a>Proporcionar información básica sobre su empresa
+## Proporcionar información básica sobre su empresa
 
 El primer paso es proporcionar la información básica sobre su empresa. La información incluye datos como su dirección, cuentas bancarias, número del impuesto sobre el valor añadido (IVA), etc. Para obtener más información, vaya a [Inicio rápido Información empresa](quick-start-company-information.md).
 
-## <a name="prepare-basic-financial-information"></a>Preparar la información financiera básica
+## Preparar la información financiera básica
 
 A continuación, es el momento de introducir la información financiera de su empresa para que esté lista para hacer negocios. Para ahorrar tiempo, puede utilizar el plan de cuentas que [!INCLUDE[prod_short](includes/prod_short.md)] proporciona. Si lo necesita, puede personalizarlo en unos pocos pasos siguiendo [Inicio rápido de información financiera](quick-start-financial-information.md).
 
 <!--
-## <a name="financial-basics"></a>Financial Basics
+## Financial Basics
 
 Financial Information  
 (chart of accounts, but explained for non-accountants)
 -->
 
-## <a name="print-reports-and-customize-documents"></a>Imprimir informes y personalizar documentos
+## Imprimir informes y personalizar documentos
 
 Para obtener información sobre cómo personalizar e imprimir informes y documentos, como las facturas de venta, para que se adapten mejor a las necesidades de su empresa, vaya a [Inicio rápido de salida de documentos e informes básicos](quick-start-reports-and-documents.md).
 
@@ -40,7 +40,7 @@ Para obtener información sobre cómo personalizar e imprimir informes y documen
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
-## <a name="sell-products-and-services"></a>Vender productos y servicios
+## Vender productos y servicios
 
 Comience rápidamente a vender productos y servicios siguiendo el artículo [Inicio rápido para ventas](quick-start-sell-products-and-services.md).
 
@@ -48,7 +48,7 @@ Comience rápidamente a vender productos y servicios siguiendo el artículo [Ini
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
 -->
 
-## <a name="buy-products-and-services"></a>Comprar productos y servicios
+## Comprar productos y servicios
 
 Aprenda a comprar productos y servicios en el artículo [Inicio rápido para adquisiciones](quick-start-procurement.md).  
 
@@ -56,7 +56,7 @@ Aprenda a comprar productos y servicios en el artículo [Inicio rápido para adq
 (buy stuff, register in inventory, pay vendor)
 -->
 
-## <a name="understand-your-company-with-business-intelligence"></a>Comprender su empresa con la inteligencia empresarial
+## Comprender su empresa con la inteligencia empresarial
 
 Transforme los datos de su empresa en información valiosa utilizando las herramientas demostradas en [Inicio rápido de inteligencia empresarial](quick-start-business-intelligence.md).
 
@@ -65,7 +65,7 @@ Business Intelligence
 (reports)
 -->
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Formación de Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Información general de las funciones empresariales](across-business-functionality.md)  
