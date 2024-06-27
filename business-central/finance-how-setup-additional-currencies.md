@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Configurar una divisa de informes adicional
+# <a name="set-up-an-additional-reporting-currency"></a>Configurar una divisa de informes adicional
 
 Las empresas trabajan cada vez en un mayor número de países o regiones, por lo que es muy importante que puedan revisar y crear informes de datos financieros en más de una divisa.
 
@@ -25,7 +25,7 @@ La contabilidad se configura con la divisa local (DL), pero también se puede co
 >
 > Por ejemplo, tiene una gran cantidad de cuentas por cobrar en libras esterlinas (GBP) y ha configurado su DA como GBP. En este escenario, los importes en las cuentas por cobrar que utilizan libras esterlinas no se ajustan por las ganancias / pérdidas por cambio de divisa en la DA, solo los importes en las cuentas por cobrar que estén en otras divisas. Eso significa que si usa DA para informar de sus estados financieros, podría producir saldos pendientes de cuentas por cobrar subestimados o exagerados.
 
-## Visualización de informes e importes en DA
+## <a name="displaying-reports-and-amounts-in-acy"></a>Visualización de informes e importes en DA
 
 El uso de DA puede ayudar al proceso de información de una empresa en los siguientes casos:
 
@@ -34,11 +34,11 @@ El uso de DA puede ayudar al proceso de información de una empresa en los sigui
 
 Varios informes financieros se basan en movimientos contables. Para visualizar los datos del informe en DA, active la casilla de verificación **Mostrar importes en divisa de informes adicional** en la ficha desplegable **Opciones** del informe de contabilidad correspondiente.
 
-## Ajustando divisas
+## <a name="adjusting-exchange-rates"></a>Ajustando divisas
 
 Puesto que los tipos de cambio fluctúan constantemente, los equivalentes de DA del sistema se deben ajustar regularmente. Si no se llevan a cabo estos ajustes, los importes que se hayan convertido desde divisas extranjeras (o adicionales) y registrado en contabilidad en la divisa local pueden ser erróneos. Además, los movimientos diarios registrados antes de que se introduzca el tipo de cambio del día en la aplicación se tienen que actualizar una vez que se haya introducido esta información. El proceso **Ajustar tipos de cambio** se usa para ajustar los tipos de cambio de los movimientos de clientes, proveedores y bancos. También sirve para actualizar los importes en DA de los movimientos de contabilidad. Para obtener más información, vea [Actualizar tipos cambio divisa](finance-how-update-currencies.md).
 
-## Configuración de DA
+## <a name="setting-up-an-acy"></a>Configuración de DA
 
 Para configurar DA, siga estos pasos:
 
@@ -47,7 +47,7 @@ Para configurar DA, siga estos pasos:
 - Especifique el método de ajuste de tipo de cambio para los movimientos del IVA.  
 - Activar DA.  
 
-### Para especificar cuentas para registrar los ajustes de tipo de cambio.  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Para especificar cuentas para registrar los ajustes de tipo de cambio.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Divisas** y luego elija el enlace relacionado.  
 2. En la página **Divisas**, rellene los siguientes campos para DA.  
@@ -64,7 +64,7 @@ Para configurar DA, siga estos pasos:
 
 Debe especificar, para cada cuenta, como se ajustarán los importes de contabilidad de la cuenta en función de las fluctuaciones del tipo de cambio entre ML y la DA.  
 
-### Para especificar el método de ajuste de tipo de cambio para todas las cuentas
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Para especificar el método de ajuste de tipo de cambio para todas las cuentas
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Plan de cuentas**, seleccione la cuenta correspondiente y, a continuación, la acción **Editar**.  
@@ -82,7 +82,7 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
 
 4.  Cierre la página **Ficha cuenta**.  
 
-### Especificar el método de ajuste de tipo de cambio para los movimientos del IVA
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Especificar el método de ajuste de tipo de cambio para los movimientos del IVA
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
 2. En la página **Configuración de contabilidad**, seleccione el método correspondiente en el campo **Tipo cambio ajuste IVA**.  
@@ -98,7 +98,7 @@ Debe especificar, para cada cuenta, como se ajustarán los importes de contabili
     |**Ajustar importe**|El importe en DL se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas**.|  
     |**Ajustar importe divisa adicional**|DA se ajusta para las ganancias o las pérdidas del tipo de cambio. Las diferencias positivas o negativas en la cuenta en el campo **Importe divisa-adicional** y en las cuentas que haya especificado para las diferencias positivas o negativas en los campos **Cta. aj. pos. C/G realizados** o **Cta. aj. neg. C/G** realizados de la página **Divisas**.|  
 
-### Para activar DA  
+### <a name="to-activate-the-acy"></a>Para activar DA
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de contabilidad**, y luego elija el enlace relacionado.  
 2. En la página **Configuración de contabilidad**, elija el campo **Divisa de informes adicional** para seleccionar la divisa adicional en la que desea informar.  
@@ -125,7 +125,7 @@ Además, los importes de todos los movimientos posteriores del mismo tipo se reg
 > [!NOTE]  
 > El campo **Divisa adicional** sólo quedará activada una vez que se haya seleccionado **Aceptar** en el proceso **Ajust. divisa adicional**.  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Actualizar tipos de cambio de divisa](finance-how-update-currencies.md)  
 [Cerrar ejercicios y periodos](year-close-years-periods.md)  

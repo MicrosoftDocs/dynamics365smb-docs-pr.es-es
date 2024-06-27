@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Use cuestionarios de perfil para clasificar contactos comerciales
+# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Use cuestionarios de perfil para clasificar contactos comerciales
 
 Puede clasificar los contactos con perspectivas de ventas con el fin de identificar los clientes potenciales a los que debe dirigirse la campaña de ventas. Puede configurar los cuestionarios de perfil que desea utilizar en el momento de especificar información de los perfiles de sus contactos. En cada cuestionario, puede configurar distintas preguntas que desee realizar a sus contactos. De esta manera, puede agrupar contactos para que sus campañas tengan más probabilidades de dirigirse a las personas adecuadas en función de los criterios que defina con los cuestionarios.  
 
@@ -20,13 +20,13 @@ Con los cuestionarios adecuados, puede clasificar los distintos clientes potenci
 
 Puede ejecutar el cuestionario para que responder de forma automática algunas de las preguntas, según los datos del contacto, cliente o proveedor.  
 
-## Para añadir un cuestionario de perfil
+## <a name="to-add-a-profile-questionnaire"></a>Para añadir un cuestionario de perfil
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de cuestionario** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
 3. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Para añadir preguntas a un cuestionario de perfil
+## <a name="to-add-questions-to-a-profile-questionnaire"></a>Para añadir preguntas a un cuestionario de perfil
 
 1. Seleccione el cuestionario de perfil correspondiente y, a continuación, elija la acción **Editar config. cuestionario**.  
 2. En la primera línea vacía, en el campo **Tipo**, elija **Pregunta** y escriba su pregunta en el campo **Descripción**. Rellene los otros campos de la línea.  
@@ -61,11 +61,11 @@ Tras crear un cuestionario, puede usarlo para valorar y clasificar sus contactos
 > [!NOTE]
 > Si especifica una pregunta que el sistema responde de forma automática, seleccione **Línea** y, a continuación, **Detalles pregunta** para especificar los criterios para responder a la pregunta automáticamente.
 
-## Aplicar cuestionarios a contactos
+## <a name="apply-questionnaires-to-contacts"></a>Aplicar cuestionarios a contactos
 
 Puede aplicar sus cuestionarios a contactos manualmente. Solo tiene que abrir la ficha de contacto correspondiente y elegir la acción **Perfil**. Luego, una vez que haya aplicado los cuestionarios que desea aplicar, puede comenzar a utilizar las categorías en sus campañas.  
 
-## la clasificación automática de los contactos
+## <a name="the-automatic-classification-of-contacts"></a>la clasificación automática de los contactos
 
 Puede clasificar automáticamente sus contactos según la información de cliente, proveedor y contacto, si configura las preguntas del perfil en la página **Config. cuestionario perfil**.  
 
@@ -74,7 +74,7 @@ Puede clasificar automáticamente sus contactos según la información de client
 
 Después de haber configurado las preguntas del perfil automático, si asigna el cuestionario de perfil que contiene esas preguntas a un contacto, [!INCLUDE[prod_short](includes/prod_short.md)] asignará automáticamente las respuestas correctas para ese contacto.  
 
-## Ejemplo
+## <a name="example"></a>Ejemplo
 
 Puede clasificar sus contactos según el volumen de compras que le hagan:
 
@@ -102,7 +102,7 @@ A continuación, rellene los datos de la página **Detalles pregunta perfil** de
 
 Al asignar el cuestionario perfil que contiene esta pregunta a un contacto, la aplicación escribe automáticamente la respuesta adecuada para este contacto en las líneas de perfil de la ficha de contacto.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Crear contactos](marketing-create-contact-companies.md)  
 

@@ -11,7 +11,7 @@ ms.search.form: '30, 461'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Configurar inventario
+# <a name="setting-up-inventory"></a>Configurar inventario
 
 Para poder administrar la actividad de un almacén y los costes de inventario, debe configurar las reglas y valores que definen las políticas de inventario de la empresa.
 
@@ -33,7 +33,7 @@ Cuando haya configurado su inventario, puede gestionar varios procesos relaciona
 |Importe varias imágenes de producto de una sola vez desde un archivo zip en el que los archivos se denominan según los números de los elementos.|[Importar varias imágenes de producto](inventory-how-import-item-pictures.md)|
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Administrar inventario](inventory-manage-inventory.md)  
 [Administrar compras](purchasing-manage-purchasing.md)  

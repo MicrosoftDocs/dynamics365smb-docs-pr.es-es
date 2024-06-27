@@ -11,7 +11,7 @@ ms.search.form: '36, 5870, 5872, 5874'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Trabajar con L.M. de ensamblado
+# <a name="work-with-assembly-boms"></a>Trabajar con L.M. de ensamblado
 
 Utilice listas de materiales (L.M.) de ensamblado para estructurar los productos principales que se deben montar desde los componentes con poco o ningún uso de recursos. Una L.M. de ensamblado también se puede utilizar, por ejemplo, para vender un producto principal formado por elementos componentes.
 
@@ -21,7 +21,7 @@ Un L.M. de ensamblado es los datos maestros que definen qué artículos componen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] también admite L.M. de producción. Las listas de materiales de producción se diferencian de las listas de materiales de ensamblado porque involucran procedimientos más complejos, incluido el uso de recursos, las rutas de producción y los centros de trabajo o de máquinas. Más información sobre las diferencias en [Trabajar con listas de materiales](inventory-how-work-BOMs.md) y [Crear L.M. de producción](production-how-to-create-production-boms.md).
 
-## Para crear una L.M. de ensamblado
+## <a name="to-create-an-assembly-bom"></a>Para crear una L.M. de ensamblado
 
 Para definir un artículo que consta de otros artículos, y quizás de los recursos que ensamblan el producto, debe crear una lista de materiales de ensamblado.  
 
@@ -43,7 +43,7 @@ Existen dos partes para crear una L.M. de ensamblado:
 > [!TIP]
 > Los artículos de montaje pueden tener variantes, como cualquier otro artículo, lo que le ayuda a mantener su lista de productos más corta. Obtenga más información sobre la característica en [Administrar variantes de productos](inventory-item-variants.md).
 
-## Para editar listas de materiales de ensamblado
+## <a name="to-edit-assembly-boms"></a>Para editar listas de materiales de ensamblado
 
 Puede editar las líneas en una lista de materiales de ensamblado en cualquier momento. Sin embargo, la lista de materiales podría estar siendo utilizada por ventas o ensamblados en curso del elemento primario. Cambiar la lista de materiales podría afectar a esas actividades. Elija la acción **Puntos de uso** para explorar los artículos que la utilizan y si los pedidos de venta o de montaje pueden verse afectados.
 
@@ -51,7 +51,7 @@ Puede editar las líneas en una lista de materiales de ensamblado en cualquier m
 2. Elija el valor **Sí** valor en la columna **L.M. de ensamblado**.
 3. En la página **L.M. de ensamblado** elija la acción **Editar lista** y luego cambie cualquier campo según sea necesario.
 
-## Para ver los componentes y recursos con sangría según la estructura de la L.M.
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Para ver los componentes y recursos con sangría según la estructura de la L.M.
 
 En la página **L.M. de ensamblado** puede abrir una página independiente que muestre que los componentes y cualquier recurso con sangría de acuerdo con la posición de la L.M. debajo del elemento del ensamblado.
 
@@ -60,7 +60,7 @@ En la página **L.M. de ensamblado** puede abrir una página independiente que m
 3. En la página **Ficha producto**, elija la acción **Ensamblado** y, a continuación, seleccione la acción **L.M. de ensamblado**.
 4. En la página **L.M. de ensamblado**, elija la acción **Mostrar L.M.**.
 
-## Para reponer el elemento del ensamblado por sus componentes en líneas de documento
+## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Para reponer el elemento del ensamblado por sus componentes en líneas de documento
 
 Desde cualquier documento de venta y de compra que contenga el elemento de montaje, puede utilizar una acción especial para reemplazar la línea del elemento de montaje con nuevas líneas para sus componentes. Esta acción es útil, por ejemplo, si desea vender componentes como un kit que representa el elemento del ensamblado.
 
@@ -80,7 +80,7 @@ Se vacían todos los campos de la línea de factura de ventas para el elemento d
 > [!NOTE]
 > El informe **Lista de picking por orden** también se cambia para mostrar solo los componentes. Esto significa que un trabajador de almacén que selecciona el artículo principal, el elemento del ensamblado, no lo verá en la lista de picking. Obtenga más información en [Imprimir la lista de selección](sales-how-print-picking-list.md).
 
-## Para calcular el coste estándar de un elemento de ensamblado
+## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Para calcular el coste estándar de un elemento de ensamblado
 
 Se calcula el coste unitario de un elemento de ensamblado distribuyendo el coste unitario de cada componente y recurso de la L.M. de ensamblado del producto.
 
@@ -104,7 +104,7 @@ El coste unitario de una L.M. de ensamblado equivale siempre al total de los cos
 
 Los costes de los productos que conforman la L.M. de ensamblado se copian de las fichas de productos componente. El coste de cada producto se multiplica por la cantidad, y el coste total se muestra en el campo **Coste unitario** en la ficha elemento de ensamblado.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Registro de productos nuevos](inventory-how-register-new-items.md)  
 [Administrar variantes del producto](inventory-item-variants.md)  

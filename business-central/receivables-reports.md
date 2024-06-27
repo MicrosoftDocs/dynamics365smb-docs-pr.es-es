@@ -10,20 +10,20 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Informes y análisis de cobros
+# <a name="accounts-receivable-reports-and-analytics"></a>Informes y análisis de cobros
 
 Para ayudarlo a administrar sus cobros en [!INCLUDE [prod_short](includes/prod_short.md)], los informes y análisis estándar están integrados. Va más allá de las restricciones tradicionales de los informes, para ayudarle a diseñar diversos tipos de informes.  
 
-## Informes
+## <a name="reports"></a>Informes
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-## Explorar los informes financieros con el Explorador de informes
+## <a name="explore-finance-reports-with-report-explorer"></a>Explorar los informes financieros con el Explorador de informes
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Informes financieros clave](finance-reports.md)  
 [Análisis ad-hoc de datos financieros](ad-hoc-analysis-finance.md)   

@@ -12,11 +12,11 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Preguntas frecuentes para sugerencias de texto de marketing con Copilot
+# <a name="faq-for-marketing-text-suggestions-with-copilot"></a>Preguntas frecuentes para sugerencias de texto de marketing con Copilot
 
 Estas preguntas frecuentes (FAQ) describen el impacto de la función [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] de IA en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## ¿Qué son las sugerencias de texto de marketing de productos?
+## <a name="what-is-item-marketing-text-suggestions"></a>¿Qué son las sugerencias de texto de marketing de productos?
 
 Copilot proporciona asistencia de redacción a los usuarios responsables de la creación de textos de marketing (también conocidos como copia) de los elementos de [!INCLUDE[prod_short](includes/prod_short.md)]. Esta característica se conoce como [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]. La característica [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] proporciona asistencia de redacción a los usuarios responsables de la creación de textos de marketing (también conocidos como *copia*) de los elementos de [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -33,20 +33,20 @@ Algunos beneficios clave de esta característica incluyen:
 - Desbloquea la creatividad para proporcionar descripciones de productos más atractivas.
 - Mejora la consistencia del material de marketing para las líneas de productos.
 
-## ¿Cuáles son las capacidades del sistema?
+## <a name="what-are-the-systems-capabilities"></a>¿Cuáles son las capacidades del sistema?
 
 La caracetrística [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] usa [el Servicio Azure OpenAI de Microsoft](/azure/cognitive-services/openai/overview) para acceder a modelos de lenguaje eficaces que analizan y generan texto basado en lenguaje natural. Estos modelos han sido entrenados en un amplio cuerpo de conjuntos de datos de texto. Como resultado, Copilot puede generar respuestas sugeridas y personalizadas en inglés basadas en una cantidad mínima de datos de entrada, como los atributos, la categoría o la descripción de un artículo. 
 
-## ¿Cuál es el uso previsto del sistema?
+## <a name="what-is-the-systems-intended-use"></a>¿Cuál es el uso previsto del sistema?
 
 Esta función está destinada a ayudar a los usuarios a crear textos de marketing para artículos en [!INCLUDE[prod_short](includes/prod_short.md)]. Los escritores utilizan la función para obtener rápidamente sugerencias de texto atractivas y atractivas, que luego se revisan y editan para garantizar su precisión. 
 
-## ¿Cómo se evaluó el texto de marketing de artículos? ¿Qué métricas se utilizan para medir el rendimiento?
+## <a name="how-was-item-marketing-text-evaluated-what-metrics-are-used-to-measure-performance"></a>¿Cómo se evaluó el texto de marketing de artículos? ¿Qué métricas se utilizan para medir el rendimiento?
 
 - La función se sometió a pruebas exhaustivas en las que expertos en idiomas evaluaron numerosos textos en diferentes idiomas según varios criterios. Las pruebas se basaron en los datos de demostración de [!INCLUDE[prod_short](includes/prod_short.md)] y otros catálogos de productos ficticios.
 - Esta característica está construida de acuerdo con el Estándar de IA Responsable de Microsoft. [Obtenga más información sobre la IA responsable de Microsoft](https://aka.ms/RAI).
 
-## ¿Cómo monitorea Microsoft la calidad del contenido generado?
+## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>¿Cómo monitorea Microsoft la calidad del contenido generado?
 
 Microsoft cuenta con varios sistemas para garantizar que las capacidades de Copilot permanezcan operativas y generen contenido de la más alta calidad.
 
@@ -68,7 +68,7 @@ Microsoft cuenta con varios sistemas para garantizar que las capacidades de Copi
 
    Para obtener más información, consulte [Datos, privacidad y seguridad para Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-## ¿Existe un proceso de registro y revisión humana como parte del servicio Azure OpenAI? Si es así, ¿puedo excluirme?  
+## <a name="is-there-a-logging-and-human-review-process-as-part-of-azure-openai-service-and-if-so-can-i-opt-out"></a>¿Existe un proceso de registro y revisión humana como parte del servicio Azure OpenAI? Si es así, ¿puedo excluirme?
 
 Como parte de proporcionar las versiones preliminares del servicio Azure OpenAI, Microsoft procesará y almacenará los Datos del cliente enviados al servicio, así como el Contenido de salida, con el fin de supervisar y prevenir usos o resultados abusivos o dañinos del servicio; y desarrollar, probar y mejorar capacidades diseñadas para prevenir el uso abusivo y/o resultados dañinos del servicio. 
 
@@ -76,13 +76,13 @@ El personal autorizado de Microsoft puede revisar los datos que han activado nue
 
 Para que Microsoft proteja el servicio y a sus clientes, no es posible optar por no participar en los procesos de registro y revisión humana.
 
-## ¿Qué datos recopila la capacidad? ¿Cómo se usan los datos?
+## <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>¿Qué datos recopila la capacidad? ¿Cómo se usan los datos?
 
 La capacidad de sugerencias de textos de marketing recopila los datos mínimos requeridos por Business Central para ofrecer el servicio. Para obtener más información, consulte [Términos de Dynamics 365 para características impulsadas por Azure OpenAI](https://go.microsoft.com/fwlink/?linkid=2236010).
 
 La capacidad también recopila datos de los comentarios que el usuario puede proporcionar usando los íconos Me gusta (pulgar hacia arriba) o No me gusta (pulgar abajo) en la parte superior de la página de **Copilot**. Los datos son anónimos e incluyen la elección de Me gusta o No me gusta, el motivo de la No me gusta, si se proporciona, y la función Copilot a la que se aplica el comentario. Usaremos estos datos para evaluar y mejorar la calidad de la capacidad.
 
-## ¿Cuáles son las limitaciones actuales de [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] cuando usan el sistema?
+## <a name="what-are-the-limitations-of--how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system"></a>¿Cuáles son las limitaciones actuales de [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] cuando usan el sistema?
 
 - Debido a que la tecnología subyacente detrás de la característica utiliza IA que ha sido entrenada en una amplia gama de orígenes, el contenido generado no siempre es real o adecuado. Algunas sugerencias pueden incluso incluir contenido cuestionable o inapropiado. Es su responsabilidad revisar y editar las sugerencias generadas para asegurarse de que sean precisas y apropiadas.
 
@@ -90,7 +90,7 @@ La capacidad también recopila datos de los comentarios que el usuario puede pro
   
    [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-## ¿Qué factores operativos y configuraciones permiten un uso eficaz y responsable del sistema?
+## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-system"></a>¿Qué factores operativos y configuraciones permiten un uso eficaz y responsable del sistema?
 
 Hay algunas cosas que puede hacer para aprovechar al máximo la característica:
 
@@ -105,7 +105,7 @@ Para obtener más información, vaya a [Mejorar y adaptar las sugerencias de tex
 > Revise siempre la precisión de las sugerencias antes de guardarlas y publicarlas para consumo público.
 
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 - [Sugerencias de texto de marketing](ai-overview.md)
 

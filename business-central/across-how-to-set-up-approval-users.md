@@ -10,7 +10,7 @@ ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Configurar usuarios de aprobación
+# <a name="set-up-approval-users"></a>Configurar usuarios de aprobación
 
 Antes de poder crear flujos de trabajo que impliquen pasos de aprobación, debe configurar los usuarios que intervienen en los procesos de aprobación en la página **Config. usuario aprobación**. También puede establecer límites de importe para distintos tipos de solicitudes, definir aprobadores sustitutos y configurar notificaciones.  
 
@@ -19,7 +19,7 @@ Una vez configurados los usuarios de aprobación, puede crear las respuestas de 
 > [!TIP]
 > Puede exigir que varios aprobadores reaccionen ante una solicitud de aprobación creando un grupo de aprobadores en la página **Grupo de usuarios de flujo de trabajo** . Obtenga más información en [Configurar grupos de usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md).  
 
-## Para configurar a un usuario de aprobación
+## <a name="to-set-up-an-approval-user"></a>Para configurar a un usuario de aprobación
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,7 +46,7 @@ Una vez configurados los usuarios de aprobación, puede crear las respuestas de 
 
 El siguiente paso es especificar cómo desea que [!INCLUDE [prod_short](includes/prod_short.md)] notifique a las personas que una solicitud está pendiente de su atención. Obtenga más información en [Configurar notificaciones de flujo de trabajo de aprobación](across-setting-up-workflow-notifications.md).
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configurar usuarios de flujo de trabajo](across-how-to-set-up-workflow-users.md)  
 [Configurar notificaciones de flujo de trabajo](across-setting-up-workflow-notifications.md)  

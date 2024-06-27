@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Registrar pagos y reembolsos en el diario de pagos
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrar pagos y reembolsos en el diario de pagos
 
 En la página **Diario de pagos**, registre los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
 
@@ -29,7 +29,7 @@ Los diarios de pagos son diarios generales optimizados para efectuar pagos. Pued
 
     Además de registrar que se realiza el pago, también puede usar la página **Diario de pagos** para generar el pago y procesarlo en su banco. Para obtener más información, vaya a [Realizar pagos de cheques](payables-how-work-checks.md) y [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Realizar pagos en el diario de pagos.
+## <a name="to-make-payments-in-the-payment-journal"></a>Realizar pagos en el diario de pagos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra el lote del diario que utiliza para los pagos.
@@ -40,7 +40,7 @@ Los diarios de pagos son diarios generales optimizados para efectuar pagos. Pued
 5. También puede usar la acción **Proponer pagos a proveedores**. Toda la información aplicable y los importes también se ingresan en las líneas del diario. Para obtener más información, vaya a [Sugerir pagos a proveedores](payables-how-suggest-vendor-payments.md).
 6. Tras completar todas las líneas del diario de pagos, seleccione la acción **Registrar**.
 
-## Para emitir un cheque de reembolso
+## <a name="to-issue-a-refund-check"></a>Para emitir un cheque de reembolso
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. En el campo **Tipo documento**, seleccione **Reembolso**.  
@@ -53,7 +53,7 @@ Los diarios de pagos son diarios generales optimizados para efectuar pagos. Pued
 9. En el campo **Liq. por n.º documento** , seleccione los documentos que requieren un reembolso.  
 10. Tras completar todas las líneas del diario de pagos, elija la acción **Publicar / Imprimir**, luego elija la acción **Publicar e imprimir** y luego seleccione **Sí**.  
   
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Realizar pagos por cheque](payables-how-work-checks.md)  
 [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

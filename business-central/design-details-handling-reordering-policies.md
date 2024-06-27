@@ -9,7 +9,7 @@ ms.date: 06/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Detalles de diseño: gestión de directivas de reaprovisionamiento
+# <a name="design-details-handling-reordering-policies"></a>Detalles de diseño: gestión de directivas de reaprovisionamiento
 
 Para incluir un artículo en la planificación de suministros, debe especificar una política de reabastecimiento para él en la página **Tarjeta de artículo**. Existen las directivas de reaprovisionamiento siguientes:  
 
@@ -20,36 +20,36 @@ Para incluir un artículo en la planificación de suministros, debe especificar 
 
 Las directivas **Cdad. fija reaprov.** y **Cdad. máxima** están relacionadas con la planificación de inventario. Estas políticas coexisten con el equilibrio paso a paso del suministro y el seguimiento de pedidos.  
 
-## Función del punto de pedido
+## <a name="the-role-of-the-reorder-point"></a>Función del punto de pedido
 
 Un punto de pedido representa la demanda durante un plazo de entrega. Cuando el inventario se proyecta por debajo del nivel de inventario definido por el punto de pedido, ha llegado el momento de pedir más cantidad. El inventario disminuye gradualmente hasta que llega la reposición. Puede llegar a cero o al nivel de existencias de seguridad. El sistema de planificación sugiere un pedido de suministros de programación anticipada en el momento en el que el inventario quede por debajo del punto de reaprovisionamiento.  
 
 Los niveles de inventario pueden moverse significativamente durante el intervalo de tiempo. Por lo tanto, el sistema de planificación monitorea constantemente el inventario disponible.
 
-## Supervisión del nivel de inventario proyectado y el punto de pedido
+## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Supervisión del nivel de inventario proyectado y el punto de pedido
 
 El inventario es un tipo de aprovisionamiento, pero para planificación del inventario, el sistema de planificación diferencia entre dos niveles de inventario:  
 
 * Inventario proyectado  
 * Inventario disponible proyectado  
 
-### Inventario proyectado  
+### <a name="projected-inventory"></a>Inventario proyectado
 
 Al comienzo del proceso de planificación, el inventario proyectado es la cantidad bruta de inventario. La cantidad bruta incluye la oferta y la demanda contabilizadas y no contabilizadas en el pasado. Esta cantidad se convierte en un nivel de inventario proyectado que mantienen las cantidades brutas de la oferta y la demanda futuras. La oferta y la demanda futuras se introducen a lo largo de la línea de tiempo, ya sea que se reserven o se asignen de otras formas.  
 
 El sistema de planificación usa el inventario proyectado para supervisar el punto de pedido y para determinar la cantidad de pedido al usar la directiva de reaprovisionamiento de **cantidad máxima**.  
 
-### Inventario disponible proyectado  
+### <a name="projected-available-inventory"></a>Inventario disponible proyectado
 
 El inventario disponible proyectado es la parte del inventario que está disponible para satisfacer la demanda en un momento determinado. El sistema de planificación usa el inventario disponible proyectado al supervisar el nivel de stock de seguridad. El inventario de seguridad siempre debe estar disponible para una demanda inesperada.  
 
-### Ciclos  
+### <a name="time-buckets"></a>Ciclos
 
 El inventario proyectado es importante para detectar cuándo se está alcanzando o cruzando el punto de pedido y calcular la cantidad correcta del pedido cuando se utiliza la directiva de reaprovisionamiento de **cantidad máxima**.  
 
 El nivel de inventario proyectado se calcula al principio del periodo de planificación. Es un nivel bruto que no tiene en cuenta las reservas u otras asignaciones. Para supervisar este nivel de inventario durante la secuencia de planificación, el sistema de planificación supervisa los cambios agregados durante un periodo de tiempo. Ese período se denomina *cubo de tiempo*. Para obtener más información sobre los períodos de tiempo, vaya a [El rol de los períodos de tiempo](#the-role-of-the-time-bucket). El sistema de planificación garantiza que el intervalo de tiempo sea de al menos un día. Un día es la unidad mínima de tiempo para eventos de demanda o suministro.  
 
-### Determinación del nivel de inventario proyectado  
+### <a name="determining-the-projected-inventory-level"></a>Determinación del nivel de inventario proyectado
 
 En la secuencia siguiente se describe cómo el sistema de planificación determina el nivel de inventario proyectado:  
 
@@ -78,7 +78,7 @@ La siguiente imagen muestra este principio.
 8. El sistema de planificación agrega el aviso de disminución del aviso -3 en el nivel de inventario proyectado, A: +4 -3 = 1 o B: +6 -3 = +3.  
 9. Para A, el sistema de planificación crea un pedido con programación anticipada en la fecha **Da**. Para B, el punto de pedido se alcanza y no se crea ningún pedido nuevo.
 
-## El rol del ciclo
+## <a name="the-role-of-the-time-bucket"></a>El rol del ciclo
 
 El propósito del ciclo es recopilar los eventos de demanda dentro de un intervalo de tiempo para crear un pedido de suministro conjunto.  
 
@@ -92,7 +92,7 @@ El concepto por ciclos refleja el proceso manual de comprobación del nivel de i
 
 Los ciclos se usan a menudo para evitar un efecto de cascada. Por ejemplo, una fila equilibrada de demanda y aprovisionamiento donde se cancela una demanda temprana, o se crea una nueva. El resultado podría ser que se programe cada pedido de suministro (sin incluir el último).
 
-## Mantenerse por debajo del nivel de desbordamiento
+## <a name="stay-below-the-overflow-level"></a>Mantenerse por debajo del nivel de desbordamiento
 
 Cuando se usan las políticas de reaprovisionamiento **cantidad máxima** y **cantidad fija**, el sistema de planificación se centra en el inventario proyectado únicamente en el ciclo indicado. Podría sugerir una oferta adicional cuando la demanda negativa o los cambios positivos en la oferta ocurren fuera del intervalo de tiempo. Para el suministro adicional, el sistema de planificación calcula la cantidad en la que debe reducir el suministro. Esta cantidad se denomina “nivel de desbordamiento.” El desbordamiento disponible se comunica como una línea de planificación con una acción de **Cambiar cantidad. (salida)** o **Cancelar** y el mensaje de advertencia siguiente:  
 
@@ -100,11 +100,11 @@ Cuando se usan las políticas de reaprovisionamiento **cantidad máxima** y **ca
 
 ![Nivel de desbordamiento de inventario.](media/supplyplanning_2_overflow1_new.png "Nivel de desbordamiento de inventario")  
 
-### Cálculo del nivel de desbordamiento  
+### <a name="calculating-the-overflow-level"></a>Cálculo del nivel de desbordamiento
 
 El nivel de desbordamiento se calcula de diferentes modos según la política de reabastecimiento.  
 
-#### Cdad. máxima
+#### <a name="maximum-qty"></a>Cdad. máxima
 
 Nivel de desbordamiento = inventario máximo  
 
@@ -113,7 +113,7 @@ Nivel de desbordamiento = inventario máximo
 >
 > nivel de desbordamiento = inventario máximo + cantidad mínima de pedido.  
 
-#### Cdad. fija reaprov.  
+#### <a name="fixed-reorder-qty"></a>Cdad. fija reaprov.
 
 nivel de desbordamiento = cantidad a pedir + punto de pedido  
 
@@ -122,15 +122,15 @@ nivel de desbordamiento = cantidad a pedir + punto de pedido
 >
 > nivel de desbordamiento = cantidad a pedir + cantidad mínima de pedido  
 
-#### Múltiplos de pedido  
+#### <a name="order-multiple"></a>Múltiplos de pedido
 
 Si existe un múltiplo de pedido, ajusta el nivel de desbordamiento para las directivas de reaprovisionamiento de cantidad máxima y cantidad fija de reaprovisionamiento.  
 
-### Crear la línea de planificación con advertencia de desbordamiento  
+### <a name="creating-the-planning-line-with-an-overflow-warning"></a>Crear la línea de planificación con advertencia de desbordamiento
 
 Se crea una línea de planificación cuando un suministro existente provoca que el inventario proyectado sea superior al nivel de desbordamiento al final de un ciclo. Para advertir del posible suministro extra, la línea de planificación tiene un mensaje de advertencia, el campo **Aceptar mensaje acción** no está seleccionado y el mensaje de acción es **Cancelar** o **Cambiar cdad**.  
 
-#### Cálculo de la cantidad en la línea de planificación  
+#### <a name="calculating-the-planning-line-quantity"></a>Cálculo de la cantidad en la línea de planificación
 
 La cantidad de una línea de planificación se calcula de la manera siguiente:
 
@@ -139,12 +139,12 @@ Cantidad de planificación de línea = cantidad de suministro actual – (invent
 > [!NOTE]  
 > Como con todas las líneas de advertencia, se omite la cantidad de pedido máximo y mínimo y múltiplo de pedido.  
 
-#### Definir el tipo de mensaje de acción  
+#### <a name="defining-the-action-message-type"></a>Definir el tipo de mensaje de acción
 
 * Si la cantidad de la línea de planificación es superior a 0, el mensaje de acción es **Cambiar cdad**.  
 * Si la cantidad de la línea de planificación es igual o menor que 0, el mensaje de acción es **Cancelar**.  
 
-#### Composición del mensaje de advertencia  
+#### <a name="composing-the-warning-message"></a>Composición del mensaje de advertencia
 
 Si hay desbordamiento, la página **Elementos planificación sin seguimiento** muestra un mensaje de advertencia con la siguiente información:  
 
@@ -154,11 +154,11 @@ Si hay desbordamiento, la página **Elementos planificación sin seguimiento** m
 
 Ejemplo: "El inventario proyectado 120 es superior al nivel de desbordamiento 60 el 01-28-23".  
 
-### Ejemplo de escenario  
+### <a name="example-scenario"></a>Ejemplo de escenario
 
 En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre dos ejecuciones de planificación. La característica de desbordamiento reduce la compra que se ha sugerido para la cantidad de venta inicial.  
 
-#### Configuración de producto  
+#### <a name="item-setup"></a>Configuración de producto
 
 |Política reaprov.|Cdad. máxima|  
 |-----------------------|------------------|  
@@ -166,7 +166,7 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 |Punto pedido|50|  
 |Grupos contables inventario|80|  
 
-#### Situación antes de una disminución de venta  
+#### <a name="situation-before-a-sales-decrease"></a>Situación antes de una disminución de venta
 
 |Evento|Cambiar cant.|Inventario proyectado|  
 |-----------|-----------------|-------------------------|  
@@ -175,7 +175,7 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 |Final del ciclo|Ninguno|10|  
 |Sugerir nuevo pedido de compra|+90|100|  
 
-#### Situación después de la disminución de venta  
+#### <a name="situation-after-sales-decrease"></a>Situación después de la disminución de venta
 
 |Cambiar|Cambiar cdad.|Inventario proyectado|  
 |------------|-----------------|-------------------------|  
@@ -185,7 +185,7 @@ En este ejemplo, un cliente cambia un pedido de venta de 70 a 40 piezas entre do
 |Final del ciclo|Ninguno|130|  
 |Sugerir disminución de compra<br><br> pedido a partir de 90 a 60|-30|100|  
 
-#### Líneas de planificación resultantes  
+#### <a name="resulting-planning-lines"></a>Líneas de planificación resultantes
 
 El sistema crea una línea de planificación de advertencia para reducir la compra con 30 de 90 a 60 para mantener el inventario proyectado en 100 según el nivel de desbordamiento.  
 
@@ -194,7 +194,7 @@ El sistema crea una línea de planificación de advertencia para reducir la comp
 > [!NOTE]  
 > Sin la característica de desbordamiento, no se crea ninguna advertencia si el nivel de inventario proyectado está por encima del máximo, lo que podría producir un suministro extra de 30.
 
-## Gestión de inventario negativo proyectado
+## <a name="handling-projected-negative-inventory"></a>Gestión de inventario negativo proyectado
 
 El punto de pedido expresa la demanda prevista durante el plazo del producto. El inventario proyectado debe ser lo suficientemente grande como para satisfacer la demanda hasta que se reciba el nuevo pedido. Mientras tanto, el stock de seguridad debe satisfacer las fluctuaciones en la demanda hasta un nivel de servicio objetivo.  
 
@@ -228,11 +228,11 @@ En la ilustración siguiente, el aprovisionamiento D representa un pedido de eme
 
 En la sección siguiente se describen las características de las cuatro directivas de reaprovisionamiento admitidas.
 
-## Directivas de reaprovisionamiento
+## <a name="reordering-policies"></a>Directivas de reaprovisionamiento
 
 Las directivas de reaprovisionamiento definen cuánto se debe pedir cuando se debe reponer el producto. Hay cuatro directivas de reaprovisionamiento.  
 
-### Cantidad de reabastecimiento fija
+### <a name="fixed-reorder-quantity"></a>Cantidad de reabastecimiento fija
 
 La política de cantidad de reaprovisionamiento fija se utiliza normalmente para la planificación de inventario de artículos con las siguientes características:
 
@@ -242,7 +242,7 @@ La política de cantidad de reaprovisionamiento fija se utiliza normalmente para
 
 Normalmente, esta directiva se usa con relación a un punto de pedido que refleja la demanda anticipada durante el plazo del producto.  
 
-#### Calculado por ciclo  
+#### <a name="calculated-per-time-bucket"></a>Calculado por ciclo
 
 Si alcanza o cruza el punto de pedido en un intervalo de tiempo (ciclo de pedido), el sistema sugiere dos acciones:
 
@@ -251,7 +251,7 @@ Si alcanza o cruza el punto de pedido en un intervalo de tiempo (ciclo de pedido
 
 El punto de pedido por ciclos reduce el número de sugerencias de suministro. Refleja un proceso de verificación manual del contenido real de los contenedores en su almacén.  
 
-#### Crea solo el aprovisionamiento necesario  
+#### <a name="creates-only-necessary-supply"></a>Crea solo el aprovisionamiento necesario
 
 Antes de sugerir un nuevo pedido de suministro para cumplir con un punto de pedido, el sistema de planificación verifica el siguiente suministro:
 
@@ -262,7 +262,7 @@ El sistema no sugiere un nuevo pedido de suministro si un suministro lleva el in
 
 Los pedidos de suministro que se crean específicamente para satisfacer un punto de pedido se excluyen del equilibrado de suministro normal y no cambian. Si desea eliminar gradualmente un artículo que tiene un punto de pedido, revise manualmente sus pedidos de suministros pendientes o cambie la política de pedido a **Lote por lote**. El sistema reduce o cancela el suministro extra.  
 
-#### Combina con modificadores de pedido  
+#### <a name="combines-with-order-modifiers"></a>Combina con modificadores de pedido
 
 Los modificadores de pedido Cantidad mínima pedido, Cantidad máxima pedido y Múltiplos de pedido no deben desempeñar un rol significativo cuando se usa la directiva Cantidad de pedido fija. Sin embargo, el sistema de planificación los tiene en cuenta:
 
@@ -270,27 +270,27 @@ Los modificadores de pedido Cantidad mínima pedido, Cantidad máxima pedido y M
 * Aumentar el pedido a la cantidad mínima de pedido especificada
 * Redondee la cantidad del pedido para cumplir con un múltiplo de pedido específico  
 
-#### Combina con calendarios  
+#### <a name="combines-with-calendars"></a>Combina con calendarios
 
 Antes de sugerir una nueva orden de suministro para cumplir con un punto de reorden, el sistema de planificación verifica si la orden está programada para un día no laborable. Utiliza los calendarios que especifique en el campo **Código de calendario base** en las páginas **Información de la empresa** y **Tarjeta de ubicación**.  
 
 Si la fecha programada es un día no laborable, el sistema de planificación mueve el pedido al próximo día laborable. Al mover la fecha, se puede dar lugar a un pedido que cumpla con el punto de pedido pero que no cumpla una demanda específica. Para este tipo de demandas sin saldar, el sistema de planificación crea un suministro extra.  
 
-#### No debe usarse con previsiones  
+#### <a name="shouldnt-be-used-with-forecasts"></a>No debe usarse con previsiones
 
 Dado que la demanda prevista aparece expresada ya en el nivel del punto de pedido, no es necesario incluir una previsión en la planificación. Si es necesario basar el plan en una previsión, utilice la directiva de **lote por lote**.  
 
-#### No se debe usar con reservas  
+#### <a name="must-not-be-used-with-reservations"></a>No se debe usar con reservas
 
 Si reserva una cantidad, por ejemplo una cantidad en inventario, para una demanda lejana, podría alterar la base de la planificación. Aunque el nivel de inventario estimado es aceptable en relación con el punto de nuevo pedido, las cantidades pueden no estar disponibles. El sistema podría intentar compensar creando órdenes de excepción. Sin embargo, recomendamos que el campo **Reservar** se establezca en **Nunca** en los artículos que se planifican mediante un punto de pedido.
 
-### Cantidad máxima
+### <a name="maximum-quantity"></a>Cantidad máxima
 
 La directiva de cantidad máxima es una forma de mantener el inventario mediante un punto de pedido.  
 
 También se aplica a esta directiva todo lo relacionado con la directiva de cantidad de reaprovisionamiento fija. La única diferencia es la cantidad del suministro sugerido. Al usar la directiva de cantidad máxima, la cantidad del nuevo pedido se define dinámicamente según el nivel de inventario proyectado. Por lo tanto, generalmente difiere de un pedido a otro.  
 
-#### Calculado por ciclo
+#### <a name="calculate-per-time-bucket"></a>Calculado por ciclo
 
 Cuando alcanza o cruza el punto de pedido, el sistema determina la cantidad de pedido al final de un intervalo de tiempo. Mide la diferencia entre el nivel de inventario proyectado actual y el inventario máximo especificado para determinar la cantidad del pedido. A continuación, el sistema comprueba:
 
@@ -301,7 +301,7 @@ Si es así, el sistema reduce la cantidad de la nueva orden de suministro por la
 
 Si no especifica una cantidad máxima de inventario, el sistema de planificación garantiza que el inventario proyectado alcance la cantidad de reorden.
 
-#### Combinar con modificadores de pedido
+#### <a name="combine-with-order-modifiers"></a>Combinar con modificadores de pedido
 
 Dependiendo de su configuración, podría ser mejor combinar la política de cantidad máxima con modificadores de pedidos:
 
@@ -309,13 +309,13 @@ Dependiendo de su configuración, podría ser mejor combinar la política de can
 * Redondear la cantidad a un número entero de unidades de medida de compra
 * Dividir la cantidad en lotes, como lo define la cantidad de pedido máximo  
 
-### Combinar con calendarios
+### <a name="combine-with-calendars"></a>Combinar con calendarios
 
 Antes de sugerir una nueva orden de suministro para cumplir con un punto de reorden, el sistema de planificación verifica si la orden está programada para un día no laborable. Utiliza los calendarios que especifique en el campo **Código de calendario base** en las páginas **Información de la empresa** y **Tarjeta de ubicación**.  
 
 Si la fecha programada es un día no laborable, el sistema de planificación mueve el pedido al próximo día laborable. Al mover la fecha, se puede dar lugar a un pedido que cumpla con el punto de pedido pero que no cumpla una demanda específica. Para este tipo de demandas sin saldar, el sistema de planificación crea un suministro extra.
 
-### Sentido
+### <a name="order"></a>Sentido
 
 En un entorno de fabricación contra pedido, el producto se compra o se produce para cubrir una demanda concreta. Normalmente, la política de reaprovisionamiento de pedido se utiliza para artículos con las siguientes características
 
@@ -331,11 +331,11 @@ En un entorno de fabricación contra pedido, el producto se compra o se produce 
 > [!TIP]
 > Si los atributos de los artículos no varían, podría ser mejor usar una política de reordenación de lote por lote. Como resultado, el programa usa un inventario no planificado y solo acumulará los pedidos de venta con la misma fecha de envío o dentro de un ciclo definido.  
 
-#### Conexiones de pedido contra pedido y fechas vencidas
+#### <a name="order-to-order-links-and-past-due-dates"></a>Conexiones de pedido contra pedido y fechas vencidas
 
 A diferencia de la mayoría de conjuntos de suministro-demanda, el sistema ha planificado completamente los pedidos vinculados con fechas de vencimiento anteriores a la fecha inicial de planificación. El motivo empresarial de esta excepción es que los conjuntos de demanda-suministro específicos se deben sincronizar. Para obtener más información acerca de la zona congelada aplicable a la mayoría de los tipos de aprovisionamiento-demanda, vaya a [Procesar los pedidos antes de la fecha de inicio de planificación](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).
 
-### Lote a lote
+### <a name="lot-for-lot"></a>Lote a lote
 
 La política Lote por lote es la más flexible porque el sistema solo reacciona a la demanda real. Actúa sobre la demanda anticipada de los pedidos abiertos y previstos y luego liquida la cantidad del pedido en función de la demanda. La directiva está pensada para los productos donde el inventario se puede aceptar pero se debe evitar.  
 
@@ -355,7 +355,7 @@ Debido a que la cantidad de la orden de suministro se basa en la demanda real, p
 * Aumentar el pedido a una cantidad mínima de pedido especificada
 * Reduzca la cantidad a la cantidad máxima de pedido especificada (y, por tanto, cree dos o más suministros para alcanzar la cantidad total necesaria)
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 
 [Detalles de diseño: Parámetros de la planificación](design-details-planning-parameters.md)  
 [Detalles de diseño: Tabla de asignación de planificación](design-details-planning-assignment-table.md)  

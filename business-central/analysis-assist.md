@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analizar datos en listas con la ayuda de Copilot (versión preliminar)
+# <a name="analyze-data-in-lists-with-help-from-copilot-preview"></a>Analizar datos en listas con la ayuda de Copilot (versión preliminar)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -18,21 +18,21 @@ Este artículo explica cómo utilizar la *asistencia de análisis* para ayudarle
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Acerca de la asistencia de análisis
+## <a name="about-analysis-assist"></a>Acerca de la asistencia de análisis
 
 La asistencia de análisis es un Copilot para el [modo de análisis](analysis-mode.md) en las páginas de lista en Business Central. El modo de análisis proporciona una forma interactiva y versátil de calcular, resumir y examinar datos. Para analizar datos en el modo de análisis, cree una pestaña *análisis* donde transforma los datos para mostrar las agregaciones y resúmenes deseados. Por ejemplo, organiza campos en filas y columnas, especifica filtros, ordena columnas y gira sobre campos. Con la asistencia de análisis, en lugar de realizar esta tarea manualmente, logra gran parte de lo mismo &mdash;o al menos para empezar&mdash; utilizando palabras. Al expresar la estructura que desea en lenguaje natural, como "ordenar la cantidad de menor a mayor" o "mostrar el costo promedio por categoría", la asistencia de análisis utiliza IA para generar un diseño sugerido en una pestaña de análisis.
 
-## Idiomas disponibles
+## <a name="available-languages"></a>Idiomas disponibles
 
 [!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
-## Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
 - La capacidad de asistencia de análisis está activada y se le otorgan permisos para usarla. Esta tarea suele realizarla un administrador. [Más información sobre la configuración de Copilot y las capacidades de IA](enable-ai.md).
 <!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
 <!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
-## Introducción
+## <a name="get-started"></a>Introducción
 
 1. Abra la página de la lista que desee analizar.
 
@@ -64,7 +64,7 @@ La asistencia de análisis es un Copilot para el [modo de análisis](analysis-mo
 
 1. Si desea guardar la ficha de análisis, seleccione **Mantenerlo**. Si no desea guardarlo, seleccione **Descartar**.
 
-## Sugerencias y ejemplos de mensajes
+## <a name="prompt-tips-and-examples"></a>Sugerencias y ejemplos de mensajes
 
 Crear mensajes efectivos para Copilot es esencial para obtener sugerencias de análisis precisas y relevantes. También hay formas de minimizar el texto que agrega en las indicaciones para hacerlo más rápido al escribir. A continuación se ofrecen algunos consejos y pautas seguidos de algunos ejemplos:
 
@@ -76,7 +76,7 @@ Crear mensajes efectivos para Copilot es esencial para obtener sugerencias de an
 - Se aceptan abreviaturas comunes.
 - Las mayúsculas y minúsculas no son importantes.
 
-### Ejemplos
+### <a name="examples"></a>Ejemplos
 
 Los siguientes ejemplos de indicaciones utilizan la asistencia de análisis en la lista **Productos**. La página de productos incluye tres campos sumables para el análisis: **Cantidad disponible**, **Coste unitario** y **Precio unitario**.
 
@@ -92,7 +92,7 @@ Mensaje: `Show total quantity per type per UoM`
 
 Este mensaje crea una tabla dinámica en el campo **Cantidad disponible** por **Unidad de medida base** por **Tipo**.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Preguntas frecuentes sobre IA responsable para asistencia en análisis](faqs-analysis-assist.md)  
 [Análisis de datos ad hoc](reports-adhoc-analysis.md)  

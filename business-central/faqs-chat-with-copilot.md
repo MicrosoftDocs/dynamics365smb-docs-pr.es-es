@@ -10,13 +10,13 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: 'copilot, AI, chat'
 ---
-# Preguntas frecuentes sobre IA responsable para Chatear con Copilot (versión preliminar)
+# <a name="responsible-ai-faq-for-chat-with-copilot-preview"></a>Preguntas frecuentes sobre IA responsable para Chatear con Copilot (versión preliminar)
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Estas preguntas frecuentes (P+F) describen el impacto de Chatear con Copilot en [!INCLUDE[prod_short](includes/prod_short.md)]. Si tiene preguntas generales sobre el uso de la función, consulte [Preguntas frecuentes para chatear con Copilot](chat-with-copilot-faq.md).
 
-## ¿Qué es Chatear con Copilot?
+## <a name="what-is-chat-with-copilot"></a>¿Qué es Chatear con Copilot?
 
 Microsoft Copilot es un asistente impulsado por IA que le ayuda a ser más creativo, productivo y eficiente. Puede chatear con Copilot en Business Central para obtener respuestas y perspectivas sobre [!INCLUDE[prod_short](includes/prod_short.md)] y los datos de su empresa escribiendo lo que desea saber en lenguaje natural.
 
@@ -24,11 +24,11 @@ El chat con Copilot, también llamado chat, es una función interactiva que resp
 
 Puede hacer preguntas en lenguaje natural, como "¿Cómo entrego productos a mis clientes directamente desde mis proveedores?" o "¿Tenemos sillas de oficina en stock por menos de 600 $?" En respuesta, Copilot proporciona respuestas en lenguaje natural. Dependiendo de las preguntas, las respuestas pueden incluir solo texto, vínculos a registros o páginas en [!INCLUDE[prod_short](includes/prod_short.md)] y vínculos a artículos de ayuda de [!INCLUDE[prod_short](includes/prod_short.md)] sobre Microsoft Learn.
 
-## ¿Cuáles son las capacidades de Chatear con Copilot?
+## <a name="what-are-capabilities-of-chat-with-copilot"></a>¿Cuáles son las capacidades de Chatear con Copilot?
 
 Puede chatear con Copilot para obtener respuestas a las siguientes clases de preguntas:
 
-### Explicar y guiar
+### <a name="explain-and-guide"></a>Explicar y guiar
 
 Puede pedirle a Copilot que les explique un concepto específico relacionado con [!INCLUDE[prod_short](includes/prod_short.md)], como qué son las dimensiones, o proporcionar orientación sobre cómo completar una tarea, como cómo publicar un pedido de ventas. Copilot busca la documentación oficial de [!INCLUDE[prod_short](includes/prod_short.md)] publicada por Microsoft y proporciona una respuesta basada en la documentación.
 
@@ -36,7 +36,7 @@ Puede pedirle a Copilot que les explique un concepto específico relacionado con
 
 - Copilot no toma medidas, no crea nuevos datos ni modifica ninguna configuración. Simplemente resume cualquier párrafo que encuentre en Microsoft Learn que coincida con la pregunta o el mensaje en el chat.
 
-### Buscar datos comerciales y páginas relacionadas
+### <a name="find-business-data-and-related-pages"></a>Buscar datos comerciales y páginas relacionadas
 
 Puede pedirle a Copilot que ubique páginas por nombre o solicitar registros según sus campos y restricciones. Si Copilot encuentra una coincidencia, responde con un vínculo al registro o la página relevante, que puede seleccionar para abrir.
 
@@ -46,17 +46,17 @@ Puede pedirle a Copilot que ubique páginas por nombre o solicitar registros seg
 
 - Copilot no toma medidas, no crea nuevos datos ni modifica ninguna configuración. Sólo resume los registros recibidos de la búsqueda de datos nativos de [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-## ¿Cuál es el uso previsto de Chatear con Copilot?
+## <a name="what-is-the-intended-use-of-chat-with-copilot"></a>¿Cuál es el uso previsto de Chatear con Copilot?
 
 El chat está diseñado para uso empresarial y para responder a preguntas relacionadas con [!INCLUDE[prod_short](includes/prod_short.md)] y los datos comerciales que contiene. La característica le ayuda a resolver tareas comunes, como buscar registros u obtener orientación. Puede expresarse con sus propias palabras, haciendo su trabajo más fácil y accesible cuando trabaje con [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## ¿Cómo se evaluó Chatear con Copilot? ¿Qué métricas se utilizan para medir el rendimiento?
+## <a name="how-was-chat-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>¿Cómo se evaluó Chatear con Copilot? ¿Qué métricas se utilizan para medir el rendimiento?
 
 - La función se sometió a pruebas exhaustivas durante las cuales se entregaron a Copilot numerosos textos en inglés que cubrían una amplia gama de temas y estilos de expresión de intenciones. Los resultados se evaluaron en función de la precisión, relevancia y seguridad.
   
 - La característica está construida de acuerdo con el Estándar de IA Responsable de Microsoft. [Obtenga más información sobre la IA responsable de Microsoft](https://aka.ms/RAI).
 
-## ¿Cómo monitorea Microsoft la calidad del contenido generado?
+## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>¿Cómo monitorea Microsoft la calidad del contenido generado?
 
 Microsoft cuenta con varios sistemas para garantizar que el contenido generado por Copilot sea de la más alta calidad, detectar abusos y garantizar la seguridad de nuestros clientes y sus datos.
 
@@ -70,7 +70,7 @@ Puede proporcionar comentarios sobre cada respuesta de Copilot e informar sobre 
   
 - Microsoft podría deshabilitar las funciones controladas por Copilot para clientes seleccionados si se detecta un abuso de la funcionalidad.
 
-## ¿Cuál son las limitaciones de Chatear con Copilot? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de Chatear con Copilot al utilizar el sistema?
+## <a name="what-are-the-limitations-of-chat-with-copilot-how-can-users-minimize-the-impact-of-the-chat-with-copilot-limitations-when-using-the-system"></a>¿Cuál son las limitaciones de Chatear con Copilot? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de Chatear con Copilot al utilizar el sistema?
 
 - Limitaciones generales de IA
 
@@ -92,17 +92,17 @@ Puede proporcionar comentarios sobre cada respuesta de Copilot e informar sobre 
 
 <!--## What operational factors and settings allow for effective and responsible use of the feature?-->
 
-## ¿Qué datos recopila Chatear con Copilot y cómo se utilizan?
+## <a name="what-data-does-chat-with-copilot-collect-and-how-is-it-used"></a>¿Qué datos recopila Chatear con Copilot y cómo se utilizan?
 
 Microsoft no utiliza los datos de su empresa, incluido el texto que envía a Copilot, para entrenar los modelos de IA fundamentales en beneficio de otros. Los administradores de la empresa tienen control total para controlar estos datos que forman parte de su suscripción a Azure. Debido a que los administradores u otras personas de su empresa pueden tener acceso a estos datos según lo determine su empleador, recomendamos que no introduzca datos confidenciales como contraseñas u otros secretos.
 
-## Qué ofrece Chatear con Copilot para seguridad
+## <a name="what-does-chat-with-copilot-offer-for-security"></a>Qué ofrece Chatear con Copilot para seguridad
 
 El chat está diseñado para ser seguro y se ejecuta bajo la identidad del usuario, heredando todos los permisos de seguridad y otras restricciones y nunca operando fuera de la seguridad de la plataforma [!INCLUDE[prod_short](includes/prod_short.md)]. Esto significa que Copilot solo puede obtener acceso a los datos a los que tiene acceso.
 
 Para los usuarios con permiso SUPER, el chat puede localizar más fácilmente datos no seguros a los que normalmente es más difícil tener acceso para otros usuarios. Las organizaciones que no aplican el modelo de seguridad de [!INCLUDE[prod_short](includes/prod_short.md)] para restringir a qué tablas y objetos tiene acceso cada usuario o rol de usuario, pueden correr un riesgo elevado al usar el chat. Por lo tanto, recomendamos que su organización implemente el modelo de seguridad de [!INCLUDE[prod_short](includes/prod_short.md)] o desactive el chat.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 - [Chatear con Copilot (versión preliminar)](chat-with-copilot.md)
 

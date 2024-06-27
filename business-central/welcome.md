@@ -10,7 +10,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="welcome-to-"></a>[!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] es una solución de administración empresarial para pequeñas y medianas empresas que automatiza y optimiza los procesos empresariales y le ayuda a administrar su empresa. Gracias a su gran adaptabilidad y variedad de funciones, [!INCLUDE[prod_short](includes/prod_short.md)] permite a las empresas administrar su negocio, incluidas las áreas de finanzas, fabricación, ventas, envíos, administración de proyectos, servicios, etc. Las organizaciones también pueden agregar fácilmente funcionalidades relevantes para la región de operación que, al ser personalizadas, ofrecen asistencia incluso a las industrias más especializadas. [!INCLUDE[prod_short](includes/prod_short.md)] es rápido de implementar, fácil de configurar y su simplicidad guía toda innovación en el diseño de productos, en su desarrollo, su implementación y su uso funcional.  
 
@@ -23,7 +23,7 @@ Si ya tiene [!INCLUDE[prod_short](includes/prod_short.md)], inicie sesión en [h
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Microsoft Learn
+## <a name="microsoft-learn"></a>Microsoft Learn
 
 En el panel de navegación de la izquierda, puede encontrar información sobre el uso de [!INCLUDE[prod_short](includes/prod_short.md)] en su empresa. Encuentre vínculos a descripciones de las funcionalidades más utilizadas en la sección [Procesos empresariales](#business-processes). Consulte también la sección [Obtener más información utilizando la documentación del producto](product-help-and-support.md#learn-more-using-the-product-documentation).
 
@@ -36,7 +36,7 @@ También puede [visitar nuestra biblioteca](across-videos.md) o empezar la ruta 
 
 Las siguientes secciones apuntan a artículos clave que pueden ayudarlo a familiarizarse con [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Procesos empresariales
+## <a name="business-processes"></a>Procesos empresariales
 
 - [Preparación para hacer negocios](ui-get-ready-business.md)
 - [Configurar [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
@@ -63,7 +63,7 @@ Las siguientes secciones apuntan a artículos clave que pueden ayudarlo a famili
   - [Funciones empresariales generales](ui-across-business-areas.md)
   - [Funcionalidad local](about-localization.md)
 
-## Contenido de desarrollo y administración
+## <a name="development-and-administration-content"></a>Contenido de desarrollo y administración
 
 - [Desarrollo y administración](/dynamics365/business-central/dev-itpro/index)
 - [Períodos de prueba y vistas previas](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -71,7 +71,7 @@ Las siguientes secciones apuntan a artículos clave que pueden ayudarlo a famili
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Reglas y directrices para código AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## Copilot y contenido de IA
+## <a name="copilot-and-ai-content"></a>Copilot y contenido de IA
 
 - [Información general](copilot-overview.md)
 - Características
@@ -87,13 +87,13 @@ Las siguientes secciones apuntan a artículos clave que pueden ayudarlo a famili
 - Desarrollo
   - [Ampliar Copilot en Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
 
-## Formación de Microsoft Learn
+## <a name="microsoft-learn-training"></a>Formación de Microsoft Learn
 
 Encuentre contenido de aprendizaje electrónico gratuito para [!INCLUDE[prod_short](includes/prod_short.md)] en la [formación de Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 También puede ver vídeos de funcionalidades nuevas y de uso común en nuestra biblioteca de vídeos. Para obtener más información, vaya a [Visite nuestra biblioteca de vídeos](across-videos.md).  
 
-## Recursos de la comunidad
+## <a name="community-resources"></a>Recursos de la comunidad
 
 - [Foro de la comunidad de Microsoft Dynamics 365 Business Central](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 - [Microsoft Dynamics 365 Business Central en el blog de Dynamics 365](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
@@ -101,11 +101,11 @@ También puede ver vídeos de funcionalidades nuevas y de uso común en nuestra 
 - [Planificador de versiones de Microsoft Dynamics 365 Business Central](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
 - [Microsoft Partner Network \(requiere una cuenta de miembro de Microsoft Partner Network\)](https://mspartner.microsoft.com)  
 
-## Reciba notificaciones sobre cambios a través de una fuente RSS
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Reciba notificaciones sobre cambios a través de una fuente RSS
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Formación de Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Inicios rápidos de Business Central](quick-start-business-central.md)  

@@ -9,7 +9,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Crear rutas
+# <a name="create-routings"></a>Crear rutas
 
 Las empresas con procesos de fabricación utilizan las rutas para visualizar y dirigir el funcionamiento de los mismos.
 
@@ -22,7 +22,7 @@ Para poder configurar una ruta, las siguientes configuraciones deben existir:
 - Se deben crear fichas de producto para los productos principales que forman parte de la fabricación. Para obtener más información, vaya a [Registrar nuevos productos](inventory-how-register-new-items.md).
 - Se han configurado recursos de producción. Para obtener más información, vaya a [Configurar centros de trabajo y centros de máquina](production-how-to-set-up-work-and-machine-centers.md).
 
-## Para crear una ruta
+## <a name="to-create-a-routing"></a>Para crear una ruta
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Rutas** y luego elija el enlace relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -51,7 +51,7 @@ Para poder configurar una ruta, las siguientes configuraciones deben existir:
 > [!NOTE]  
 > No olvide además volver a calcular el coste estándar del producto desde la ficha **Producto**: Elija la acción **Fabricación**, la acción **Calc. Coste estándar** y luego elija la acción **Todos los niveles**.  
 
-## Para crear conexiones de ruta
+## <a name="to-create-routing-links"></a>Para crear conexiones de ruta
 
 Puede crear conexiones de ruta para conectar componentes con operaciones específicas de forma de conservar su relación aunque se modifique la L.M. de producción o la ruta. Los vínculos de rutas permiten también dar de baja puntualmente los componentes, es decir, cuando se inicia la operación conectada específica, no cuando se lanza la orden de producción completa. Para obtener más información, vaya a [Bajar componentes según la salida de la operación](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ Otra ventaja importante es que las operaciones y los componentes conectados se m
 
 Los componentes seleccionados se conectan a las operaciones seleccionadas cuando cree o actualice una orden de producción con la L.M. de producción y ruta. Este vínculo es visible en la página **Prod. Componentes del pedido** bajo el pedido de producción. Puede eliminar y agregar códigos de vínculo de ruta en cualquier momento.
 
-## Para asignar personal, herramientas y medidas de calidad a operaciones de ruta
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Para asignar personal, herramientas y medidas de calidad a operaciones de ruta
 
 Si necesita personal con una cualificación, conocimiento o autorización especial para una operación, puede asignar este tipo de personal a la operación. Además, puede asignar herramientas y los requisitos de calidad a la operación. Este procedimiento describe cómo asignar personal. Los pasos son parecidos para otros tipos de información de la operación.
 
@@ -95,7 +95,7 @@ Si necesita personal con una cualificación, conocimiento o autorización especi
 4. Rellene los campos de la página **Personal ruta**.  
 5. Elija el botón **Aceptar** para salir de la página. Los valores introducidos se copian y asignan a la operación.  
 
-## Para crear una versión de ruta nueva
+## <a name="to-create-a-new-version-of-a-routing"></a>Para crear una versión de ruta nueva
 
 El principio de versión le permite administrar varias versiones de rutas. La estructura de la versión de ruta se corresponde con la de la ruta, la cual se compone de la cabecera y las líneas de la versión de la ruta. La diferencia básica se define mediante la fecha inicial.  
 
@@ -112,7 +112,7 @@ El principio de versión le permite administrar varias versiones de rutas. La es
 
 7. Cuando la configuración de la ruta esté completa, en el campo **Estado** elija **Certificada**.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Crear L.M. de producción](production-how-to-create-production-boms.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  

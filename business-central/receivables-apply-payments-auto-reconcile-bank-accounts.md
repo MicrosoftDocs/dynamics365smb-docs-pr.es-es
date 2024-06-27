@@ -11,7 +11,7 @@ ms.search.form: '1290, 1291, 1293, 1294'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Liquidar pagos automáticamente y conciliar cuentas bancarias
+# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Liquidar pagos automáticamente y conciliar cuentas bancarias
 
 Debe conciliar con frecuencia los bancos y las cuentas de cobros y de pagos liquidando pagos registrados en el banco en sus facturas abiertas (sin abonar) relacionadas, abonos y otros movimientos pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -38,7 +38,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 | Vincule el texto sobre pagos con cuentas concretas de cliente, de proveedor o de contabilidad para que siempre se registren recibos de cobro o gastos periódicos en dichas cuentas cuando no haya documentos a los que aplicarlos. |[Asignar texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Establezca reglas para determinar el modo en que los pagos/operaciones bancarias deben liquidarse automáticamente en los movimientos pendientes relacionados cuando se utiliza la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**.|[Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)|
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)  
 [Administrar cobros](receivables-manage-receivables.md)  

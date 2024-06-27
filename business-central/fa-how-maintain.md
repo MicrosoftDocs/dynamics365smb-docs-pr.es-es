@@ -11,7 +11,7 @@ ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Mantener activos fijos
+# <a name="maintain-fixed-assets"></a>Mantener activos fijos
 
 Los costes de mantenimiento son gastos operativos de las cosas que hace para preservar la condición de sus activos fijos. A diferencia de las mejoras de capital, el mantenimiento no aumenta el valor de sus activos.
 
@@ -24,7 +24,7 @@ Cada vez que envía un activo para recibir servicio se registran datos como la f
 
 El ajuste de valores se utiliza para ajustar los valores a los cambios de niveles generales de precio. Utilice la acción **Ajustar valores activos** para volver a calcular los costes de mantenimiento.
 
-## Registrar un coste de mantenimiento directamente en un activo fijo
+## <a name="record-a-maintenance-cost-directly-on-a-fixed-asset"></a>Registrar un coste de mantenimiento directamente en un activo fijo
 
 Cada vez que se realiza mantenimiento para un activo, como un servicio de visita, puede registrarlo en la página **Registros mantenimiento**.  
 
@@ -32,7 +32,7 @@ Cada vez que se realiza mantenimiento para un activo, como un servicio de visita
 2. Seleccione el activo en el que desea registrar el mantenimiento y, a continuación, elija la acción **Registro mantenimiento**.
 3. En la página **Registro mantenimiento**, rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Registre los costes de mantenimiento a partir de un diario general de activos fijos
+## <a name="post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Registre los costes de mantenimiento a partir de un diario general de activos fijos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Lista libros amortización** y luego elija el enlace relacionado.  
 2. Seleccione el libro de amortización que se ha asignado al activo y, a continuación, elija la acción **Editar**.
@@ -46,7 +46,7 @@ Cada vez que se realiza mantenimiento para un activo, como un servicio de visita
     > El paso 7 solo funciona si ha configurado lo siguiente: en la página **A/F Ficha grupo contable** del grupo contable del activo fijo, el campo **Cta. mantenimiento** contiene la cuenta de cargo y el campo **Cta. contrap. mantenimiento** contiene la cuenta contable en la que desea registrar los movimientos de contrapartida para apreciación. Para obtener más información, vea [Para configurar los grupos contables de activos fijos](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Seleccione la acción **Registrar**.
 
-## Registrar el coste de mantenimiento de una factura de compra
+## <a name="record-maintenance-cost-from-a-purchase-invoice"></a>Registrar el coste de mantenimiento de una factura de compra
 
 Los siguientes pasos describen cómo registrar los costes de mantenimiento de un activo fijo a partir de una factura de compra. Los pasos son parecidos para pedidos de compra.
 
@@ -57,7 +57,7 @@ Los siguientes pasos describen cómo registrar los costes de mantenimiento de un
 5. En el campo **A/F Tipo registro**, elija **Mantenimiento**.
 6. Registre la factura de compra.
 
-## Seguimiento de las visitas de servicio
+## <a name="follow-up-on-service-visits"></a>Seguimiento de las visitas de servicio
 
 Puede imprimir el informe **Mnto. - Próxima revisión** para ver la lista de activos programados para servicio. Puede utilizar este informe cuando desea actualizar el campo **Próxima fecha servicio** en las fichas de activos fijos.  
 
@@ -65,7 +65,7 @@ Puede imprimir el informe **Mnto. - Próxima revisión** para ver la lista de ac
 2. Rellene los campos **Fecha inicial** y **Fecha final**  
 3. Elija el botón **Imprimir** o **Versión preliminar**.
 
-## Supervisar costes de mantenimiento
+## <a name="monitor-maintenance-costs"></a>Supervisar costes de mantenimiento
 
 Puede ver estadísticas para supervisar los costes de mantenimiento.  
 
@@ -76,7 +76,7 @@ Puede ver estadísticas para supervisar los costes de mantenimiento.
 
 Utilice la página **Movs. mantenimiento** para ver los movimientos que conforman el importe en el campo **Mantenimiento**.
 
-## Ver o imprimir los costes de mantenimiento de varios activos fijos
+## <a name="view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Ver o imprimir los costes de mantenimiento de varios activos fijos
 
 En el informe **Mnto. - Análisis**, puede seleccionar el examen de mantenimiento según uno, dos o tres códigos de mantenimiento para una fecha o periodo especificados. El informe puede mostrar el total de los activos seleccionados o un total para cada uno.
 
@@ -84,7 +84,7 @@ En el informe **Mnto. - Análisis**, puede seleccionar el examen de mantenimient
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Imprimir** o **Versión preliminar**.
 
-## Ver movimientos de mantenimiento
+## <a name="view-maintenance-ledger-entries"></a>Ver movimientos de mantenimiento
 
 Puede explorar también los costes de mantenimiento si consulta los movimientos en el libro mayor.  
 
@@ -92,7 +92,7 @@ Puede explorar también los costes de mantenimiento si consulta los movimientos 
 2. Seleccione el activo en el que desea ver los movimientos de contabilidad y, a continuación, elija la acción **Libros amortización**.
 3. En la página **Libros amortización A/F**, seleccione el libro de amortización de activos correspondiente y, a continuación, elija la acción **Movs. mantenimiento**.
 
-## Ver o imprimir los movimientos de mantenimiento de varios activos fijos
+## <a name="view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Ver o imprimir los movimientos de mantenimiento de varios activos fijos
 
 En el informe **Mnto. - Detalles**, puede ver o imprimir los movimientos de mantenimiento para uno o varios activos fijos.  
 
@@ -100,7 +100,7 @@ En el informe **Mnto. - Detalles**, puede ver o imprimir los movimientos de mant
 2. Rellene los campos según sea necesario.
 3. Elija el botón **Imprimir** o **Versión preliminar**.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Activos fijos](fa-manage.md)  
 [Configuración de activos fijos](fa-setup.md)  

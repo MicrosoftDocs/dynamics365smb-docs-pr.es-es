@@ -10,7 +10,7 @@ ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 990
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Configurar centros de trabajo y centros de máquinas
+# <a name="set-up-work-centers-and-machine-centers"></a>Configurar centros de trabajo y centros de máquinas
 
 [!INCLUDE [prod_short](includes/prod_short.md)] distingue entre tres tipos de capacidades que se ordenan en una jerarquía en la que cada nivel contiene niveles subordinados.  
 
@@ -23,7 +23,7 @@ La capacidad planificada de un centro de trabajo se compone de la disponibilidad
 > [!IMPORTANT]
 > Para configurar centros de trabajo o de máquina, primero debe configurar calendarios de planta. Para obtener más información, consulte [Crear calendarios de planta](production-how-to-create-work-center-calendars.md).
 
-## Para definir centros de trabajo
+## <a name="to-set-up-a-work-center"></a>Para definir centros de trabajo
 
 Los siguientes pasos describen principalmente cómo configurar un centro de trabajo. Los pasos para configurar un calendario de centro de máquina son parecidos excepto por la ficha desplegable **Configurar ruta**.  
 
@@ -69,7 +69,7 @@ Los siguientes pasos describen principalmente cómo configurar un centro de trab
 > [!NOTE]
 > Utilice tiempos de cola para proporcionar un búfer entre el momento en que un componente llega a una máquina o centro de trabajo y cuando la operación comienza realmente. Por ejemplo, una pieza se entrega a un centro de máquinas a las 10:00, pero se tarda una hora en montarla en la máquina, por lo que la operación no comienza hasta las 11:00. Para tener en cuenta esa hora, el tiempo de espera sería una hora. El valor del campo **Tiempo cola** de la ficha de centro de trabajo o centro de máquina y la suma de los valores de los campos **Tiempo preparación**, **Tiempo ejecución**, **Tiempo espera** y **Tiempo movimiento** de la línea de la línea de ruta se combinan para proporcionar el plazo de producción del producto. Esto ayuda a proporcionar tiempos de producción generales precisos.  
 
-## Consideraciones sobre la capacidad
+## <a name="considerations-about-capacity"></a>Consideraciones sobre la capacidad
 
 La capacidad y la eficacia de los puestos de trabajo y de las máquinas no solo afectan a la capacidad disponible. Los valores también afectan al tiempo de producción general que consiste en el tiempo de configuración y el tiempo de ejecución, ambos definidos en la línea de enrutamiento.  
 
@@ -78,7 +78,7 @@ Cuando asigna una línea de enrutamiento a un centro de trabajo o de máquina, [
 - Cuánta capacidad se necesita.
 - Cuánto tiempo tarda la operación en completarse.  
 
-### Tiempo ejecución
+### <a name="run-time"></a>Tiempo ejecución
 
 Para calcular el tiempo de ejecución, el sistema asigna el tiempo exacto que se define en el campo **Tiempo de ejecución** de la línea de enrutamiento. La eficiencia y la capacidad no afectan al tiempo asignado. Por ejemplo, si el tiempo de ejecución se define como 2 horas, entonces el tiempo asignado es de 2 horas, independientemente de los valores en los campos de eficiencia y capacidad en el centro de trabajo.  
 
@@ -94,7 +94,7 @@ La *duración* de una operación, por el contrario, considera tanto la eficienci
 
 La capacidad fraccionaria es complicada. Lo discutiremos más adelante en este artículo. 
 
-### Tiempo preparación
+### <a name="setup-time"></a>Tiempo preparación
 
 La asignación de tiempo para el tiempo de preparación depende de la capacidad y se calcula como *Tiempo de preparación x Capacidad*. Por ejemplo, si la capacidad se establece en *2*, el tiempo de configuración asignado se duplica, porque debe configurar dos máquinas para la operación.  
 
@@ -105,7 +105,7 @@ La asignación de tiempo para el tiempo de preparación depende de la capacidad 
 
 La capacidad fractal se utiliza solo en casos específicos.
 
-### Centro de trabajo que procesa varios pedidos simultáneamente
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Centro de trabajo que procesa varios pedidos simultáneamente
 
 Usemos una cabina de pintura como ejemplo. Tiene la misma configuración y tiempo de ejecución para cada lote procesado. Pero cada lote puede contener varios pedidos individuales que se pintan simultáneamente.  
 
@@ -123,7 +123,7 @@ El tiempo de preparación asignado para cada pedido individual será en orden in
 En ambos casos, el tiempo total asignado para todos los pedidos es de dos horas.
 
 
-### Los recursos eficientes pueden dedicar solo una parte de su fecha de trabajo al trabajo productivo
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Los recursos eficientes pueden dedicar solo una parte de su fecha de trabajo al trabajo productivo
 
 > [!NOTE]
 > Esto no es un escenario recomendado. Le recomendamos que utilice la eficiencia en su lugar. 
@@ -134,7 +134,7 @@ El tiempo de ejecución asignado es de dos horas y la duración es de cuatro hor
 
 No utilice el tiempo de configuración para estos escenarios, ya que [!INCLUDE [prod_short](includes/prod_short.md)] asigna solo el 50 % del tiempo. Si el tiempo de configuración se establece en *2*, el tiempo de configuración asignado es de una hora y la duración es de dos horas.
 
-### Calendario consolidado
+### <a name="consolidated-calendar"></a>Calendario consolidado
 
 Cuando el campo **Calendario consolidado** está seleccionado, entonces el centro de trabajo no tiene capacidad propia. En cambio, su capacidad es igual a la suma de las capacidades de todos los centros de máquina que están asignados al centro de trabajo.  
 
@@ -150,7 +150,7 @@ Por ejemplo, si tiene dos centros de máquinas con una eficiencia de 80 y 70, re
 > [!NOTE]
 > Usar el campo **Calendario consolidado** cuando estructura sus rutas para programar operaciones de producción en el nivel del centro de la máquina, no en el nivel del centro de trabajo. Cuando consolida el calendario, la página **Carga del centro de trabajo** y los informes se convierten en un resumen de la carga agregada en todos los centros de máquinas que están asignados al centro de trabajo.
 
-### Ejemplo: distintos centros de máquina asignados a un centro de trabajo
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Ejemplo: distintos centros de máquina asignados a un centro de trabajo
 
 Es importante planificar qué capacidades van a componer la capacidad total al configurar los centros de máquina y los centros de trabajo.
 
@@ -160,7 +160,7 @@ Sin embargo, si combina centros de mecanizado idénticos (como 210 Tabla de empa
 
 Si no desea que las capacidades de los puestos de trabajo contribuyan a la capacidad total, especifique **0** en el campo **Eficiencia**.
 
-## Para configurar una capacidad efectiva de una máquina o de un centro de trabajo
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Para configurar una capacidad efectiva de una máquina o de un centro de trabajo
 
 Debe configurar los recursos de producción que considera críticos y señalarlos para aceptar una carga finita en lugar de la carga infinita predeterminada que aceptan otros recursos de producción. Un recurso de capacidad restringida puede ser un centro de trabajo o de máquina que es un cuello de botella y para el que le gustaría establecer una carga limitada y finita.
 
@@ -179,7 +179,7 @@ Al planificar con recursos de capacidad limitada, [!INCLUDE [prod_short](include
 
 > En el caso de división de la operación, el tiempo de configuración se asigna solo una vez, pues se presupone que se realiza algún ajuste manual para optimizar la programación.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Crear calendarios de planta](production-how-to-create-work-center-calendars.md)  
 [Configuración de fabricación](production-configure-production-processes.md)  

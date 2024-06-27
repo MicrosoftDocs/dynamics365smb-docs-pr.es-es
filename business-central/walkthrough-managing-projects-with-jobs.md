@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Tutorial: administración de proyectos
+# <a name="walkthrough-managing-projects"></a>Tutorial: administración de proyectos
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -23,11 +23,11 @@ Este tutorial cubre la configuración de un nuevo proyecto y las tareas relacion
 - Contabilizar facturas de proyectos
 - Copiar proyectos
 
-## Acerca de este tutorial
+## <a name="about-this-walkthrough"></a>Acerca de este tutorial
 
  En este tutorial, se demuestran las siguientes tareas:  
 
-### Configurar un proyecto
+### <a name="setting-up-a-project"></a>Configurar un proyecto
 
 Con la configuración de la estructura del presupuesto para los proyectos, crear un proyecto es directo. Este tutorial trata los siguientes procedimientos:  
 
@@ -35,14 +35,14 @@ Con la configuración de la estructura del presupuesto para los proyectos, crear
 - Crear precios específicos de proyectos para productos y cuentas.  
 - Facturar a clientes por un proyecto  
 
-### Gestión de precios fijos
+### <a name="handling-fixed-prices"></a>Gestión de precios fijos
 
  Puede gestionar precios fijos y precios de servicios o mercaderías que se acuerdan por adelantado con los clientes. En este tutorial aprenderá a:  
 
 - Ver cómo se determinan los valores de facturas y contratos.  
 - Permitir trabajo adicional en el programa que no se ha facturado.  
 
-### Copiar un proyecto
+### <a name="copying-a-project"></a>Copiar un proyecto
 
  Esta parte del tutorial se centra en cómo copiar una parte o la totalidad de un proyecto para reducir la introducción manual de datos y mejorar la precisión.
 
@@ -50,7 +50,7 @@ Con la configuración de la estructura del presupuesto para los proyectos, crear
 - Copiar precios específicos de proyectos.  
 - Copiar líneas de planificación.  
 
-### Creación de pagos a plazos
+### <a name="making-payment-by-installment"></a>Creación de pagos a plazos
 
  Cuando un proyecto amplio y caro tiene una larga duración, el cliente suele llegar a un acuerdo con la empresa para pagar a plazos. Este ejemplo muestra cómo configurar pagos a plazo y trata lo siguiente:  
 
@@ -58,31 +58,31 @@ Con la configuración de la estructura del presupuesto para los proyectos, crear
 - Facturar pagos a clientes.  
 - Tener en cuenta el uso en un proyecto de pagos a plazo.  
 
-## Roles
+## <a name="roles"></a>Roles
 
  En este tutorial se incluyen tareas para las siguientes funciones:  
 
 - Director de proyectos  
 - Miembro del equipo del proyecto  
 
-## Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 
  Para poder realizar las tareas del tutorial, debe:  
 
 - Instale la base de datos de demostración CRONUS.
 - Cree datos de ejemplo como indican los pasos de la siguiente sección.  
 
-## Historia
+## <a name="story"></a>Historia
 
 Este tutorial se centra en CRONUS, que es una empresa ficticia de diseño y consultoría que diseña y adapta nuevas infraestructuras. Por ejemplo, salas de conferencias y oficinas con muebles, complementos y unidades de almacenamiento. La mayor parte de su trabajo está orientado a los proyectos. Prakash, un administrador de proyectos de CRONUS utiliza proyectos para obtener un panorama de cada tarea en curso que CRONUS ha iniciado y completado. Prakash normalmente es uno de los que trata con los clientes y se introduce el núcleo del trabajo, que son líneas de tareas y de planificación, además de los precios, en [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash observa que crear, mantener y revisar la información es directo. Prakash también considera positiva la forma en que [!INCLUDE[prod_short](includes/prod_short.md)] activa copiar los proyectos y el pago por plazos.
 
  Tricia, miembro del equipo del proyecto que depende de Prakash, es la responsable de supervisar el día a día del proyecto. Tricia especifica el trabajo realizado por técnicos en todas las tareas, registra los productos que han utilizado y los costes en los que han incurrido.  
 
-## Preparación de datos de ejemplo
+## <a name="preparing-sample-data"></a>Preparación de datos de ejemplo
 
 Para prepararse para este tutorial, deberá añadir a Tricia como un recurso.  
 
-### Para preparar los datos de ejemplo  
+### <a name="to-prepare-the-sample-data"></a>Para preparar los datos de ejemplo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Recursos** y luego elija el enlace relacionado.  
 2. Selecione la acción **Nuevo** para crear una nueva ficha de recursos.  
@@ -105,7 +105,7 @@ Para prepararse para este tutorial, deberá añadir a Tricia como un recurso.
 
 En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, para contabilizar su uso.  
 
-### Para crear una sección de diario de proyecto  
+### <a name="to-create-a-project-journal-batch"></a>Para crear una sección de diario de proyecto
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
 2. En la página **Diario proyecto**, seleccione el campo **Nombre sección**. Aparecerá la página **Secciones diario proyectos**.  
@@ -117,11 +117,11 @@ En el siguiente procedimiento, cree un lote de diarios de proyecto para Tricia, 
 
 4. Elija el botón **Aceptar** para guardar los cambios.
 
-## Configurar un proyecto
+## <a name="setting-up-a-project-1"></a>Configurar un proyecto
 
 En este escenario, CRONUS ha ganado un contrato con un cliente, Progressive Home Furnishings, para diseñar una sala de conferencias y un refectorio. El cliente tiene su sede en los Estados Unidos y el proyecto precisa un software especial. El director del proyecto llega a un acuerdo con el cliente y crea un proyecto que cubra el acuerdo.  
 
-### Para configurar un proyecto  
+### <a name="to-set-up-a-project"></a>Para configurar un proyecto
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y, a continuación, elija el vínculo relacionado.  
 2. Selecione la acción **Nuevo** para crear una nueva ficha.  
@@ -141,7 +141,7 @@ En este escenario, CRONUS ha ganado un contrato con un cliente, Progressive Home
 
  Puede personalizar el precio para los clientes por cada proyecto, en función de los contratos que ha configurado. En el siguiente procedimiento, el director de proyectos especifica un coste para el tiempo de Tricia, define el precio del software correspondiente y añade en el viaje costes que el cliente ha acordado pagar.  
 
-### Para personalizar los precios  
+### <a name="to-customize-pricing"></a>Para personalizar los precios
 
 1. Desde la **Ficha de proyecto**, elija la acción **Recurso**.  
 2. En la página **Precios recursos proyecto**, escriba la siguiente información:  
@@ -167,7 +167,7 @@ En este escenario, CRONUS ha ganado un contrato con un cliente, Progressive Home
 
  Los pasos finales en la configuración de un proyecto añaden las tareas del proyecto y las líneas de planificación que forman parte de cada tarea. Las líneas de planificación determinan qué se factura al cliente.  
 
-### Para agregar tareas de proyecto  
+### <a name="to-add-project-tasks"></a>Para agregar tareas de proyecto
 
 1. En la ficha **Proyecto** para el nuevo proyecto, seleccione la acción **Líneas de tarea de proyecto**.  
 2. La siguiente tabla describe la información que tiene que debería introducir en los campos.  
@@ -189,7 +189,7 @@ Una línea de planificación puede ser uno de los siguientes tipos:
 
 En este tutorial, el director de proyectos utiliza **Presupuesto y facturable**. Crean tres líneas de planificación para la tarea 1010, y dos líneas de planificación para la tarea 1020.  
 
-### Para crear líneas de planificación  
+### <a name="to-create-planning-lines"></a>Para crear líneas de planificación
 
 1. Seleccione línea 1010 y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
 2. Cree líneas de planificación con la siguiente información:  
@@ -210,11 +210,11 @@ En este tutorial, el director de proyectos utiliza **Presupuesto y facturable**.
 
 4. Cierre la página. Los totales se actualizan en la página **Líneas tarea proyecto**.  
 
-## Cálculo del uso restante
+## <a name="calculating-remaining-usage"></a>Cálculo del uso restante
 
 Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto durante algún tiempo y desea registrar sus horas y utilización. Tricia no ha trabajado más horas que las acordadas previamente con el cliente. Tricia utiliza el trabajo por lotes **Cálcular el uso restante** para calcular el uso restante para el proyecto en un diario del proyecto. Para cada tarea, el trabajo por lotes calcula la diferencia entre el uso programado de productos, recursos y gastos de contabilidad, y el uso real registrado en los movimientos del proyecto. A continuación, se muestra el uso restante en el diario del proyecto y Tricia puede registrarlo.  
 
-### Para calcular el uso restante  
+### <a name="to-calculate-remaining-usage"></a>Para calcular el uso restante
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
 2. En la página **Diario proyectos**, en el campo **Nombre sección**, abra la lista **Secciones diario proyecto**. Seleccione la sección de diario de proyecto de **Tricia**.  
@@ -228,11 +228,11 @@ Tricia, el miembro del proyecto de equipo, ha estado trabajando en el proyecto d
 
 Ya se han registrado las líneas.  
 
-## Creación y registro de una factura de ventas de proyecto
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Creación y registro de una factura de ventas de proyecto
 
 A continuación, Tricia puede crear una factura nueva para el proyecto completo o para parte de un proyecto. Tricia también puede adjuntar la factura a otra factura para el mismo cliente y proyecto. En este caso, Tricia factura todo el proyecto, ya que éste ya se ha completado.  
 
-### Para crear una factura de ventas del proyecto  
+### <a name="to-create-a-project-sales-invoice"></a>Para crear una factura de ventas del proyecto
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione el proyecto que ha creado antes y, después, seleccione la acción **Crear factura de venta de proyecto**.  
@@ -242,13 +242,13 @@ A continuación, Tricia puede crear una factura nueva para el proyecto completo 
 
 Después de que Tricia cree la factura, está disponible desde el área de trabajo **Procesadora de pedidos de ventas**, por ejemplo.
 
-### Para registrar una nueva factura de ventas  
+### <a name="to-post-a-new-sales-invoice"></a>Para registrar una nueva factura de ventas
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Facturas venta** y luego elija el enlace relacionado.  
 2. Abra la factura para el nº de cliente 01445544. Puede ver que se ha escrito la información para las líneas de planificación.  
 3. Seleccione la acción **Registrar**. Elija **Sí** para confirmar el registro.  
 
-### Para visualizar la factura registrada  
+### <a name="to-view-the-posted-invoice"></a>Para visualizar la factura registrada
 
 1. Abra el proyecto y, a continuación, elija la acción **Líneas de planificación de proyecto**.  
 2. Seleccione una de las líneas de planificación que se han facturado y, a continuación, seleccione la acción **Facturas ventas/abono**.
@@ -256,17 +256,17 @@ Después de que Tricia cree la factura, está disponible desde el área de traba
 
 Tricia tiene una pregunta acerca de los precios, los costes y los beneficios correspondientes a este proyecto en particular; por lo que Tricia accede a esa información en la página **Estadísticas**.  
 
-### Para abrir la página Estadísticas  
+### <a name="to-open-the-statistics-page"></a>Para abrir la página Estadísticas
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Estadísticas**. Puede revisar información detallada acerca de los precios, costes y beneficio bruto del proyecto en las divisas local y extranjera.  
 3. Elija el botón de **Cerrar** para cerrar la página **Estadísticas proyecto**.  
 
-## Gestión de precios fijos
+## <a name="handling-fixed-prices-1"></a>Gestión de precios fijos
 
 CRONUS se ha contratado a las salas de conferencias de instalación. Como director del proyecto, Prakash desea tener un buen panorama de las tareas que requiere el proyecto con los costes presupuestados e incurridos asociados de cada tarea. Además, Prakash desea conocer el precio contratado total del proyecto y el importe que se lleva facturado. Han llegado a un acuerdo con el cliente respecto al precio fijo del proyecto.  
 
-### Para gestionar precios fijos en proyectos  
+### <a name="to-manage-fixed-pricing-in-projects"></a>Para gestionar precios fijos en proyectos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione el número de proyecto **Guildford** y, después, seleccione la acción **Líneas de tarea de proyecto**.  
@@ -286,7 +286,7 @@ CRONUS se ha contratado a las salas de conferencias de instalación. Como direct
 
 Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas en el proyecto e introduce estas horas en el diario de proyectos.  
 
-### Para especificar horas en el Diario proyectos  
+### <a name="to-enter-hours-in-a-project-journal"></a>Para especificar horas en el Diario proyectos
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de proyectos** y luego elija el enlace relacionado.  
 2. En una línea nueva, escriba la siguiente información:  
@@ -341,7 +341,7 @@ Una vez agregada al programa para esta línea de tarea, Tricia trabaja 25 horas 
 
 En el precio total del contrato, solo se han incluido las 30 horas originales contratadas según lo acordado con el cliente.  
 
-## Copiar proyectos
+## <a name="copying-projects"></a>Copiar proyectos
 
 Prakash ha alcanzado un acuerdo con un cliente, Sellafrio S.L. para equipar 10 salas de conferencias. El acuerdo se parece a un proyecto anterior. Por tanto, ahorra tiempo si copia ese proyecto anterior.  
 
@@ -352,7 +352,7 @@ En la página **Copiar proyecto**, puede seleccionar las líneas de proyecto y t
 
 A continuación, puede elegir el tipo de línea de planificación o de movimiento que desea incluir, solo seleccione el que sea relevante para este nuevo proyecto. Finalmente, puede seleccionar el proyecto que desea copiar y definir si los precios y las cantidades deben copiarse también.  
 
-### Para copiar un proyecto  
+### <a name="to-copy-a-project"></a>Para copiar un proyecto
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proyectos** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione **Nuevo** para crear un nuevo proyecto. Escriba la siguiente información:  
@@ -374,11 +374,11 @@ A continuación, puede elegir el tipo de línea de planificación o de movimient
 
 Comparando los precios, las líneas de tareas de proyectos y las líneas de planificación del proyecto para los dos proyectos, puede ver que la información se copió correctamente.  
 
-## Creación de pagos a plazos
+## <a name="making-payments-by-installments"></a>Creación de pagos a plazos
 
 CRONUS acaba de iniciar un proyecto grande de un año de duración. Dado que requiere numerosos recursos, el director del proyecto configura el contrato de manera que el cliente pague parte del precio por adelantado, parte cuando el proyecto vaya por la mitad y el último pago tras su finalización.  
 
-### Para configurar una cuenta nueva  
+### <a name="to-set-up-a-new-account"></a>Para configurar una cuenta nueva
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Plan de cuentas** y luego elija el enlace relacionado.  
 2. En la página **Plan de cuentas**, seleccione la acción **Nuevo** para crear una ficha nueva.  
@@ -392,7 +392,7 @@ CRONUS acaba de iniciar un proyecto grande de un año de duración. Dado que req
 
 Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece las tarifas y, a continuación, el pago a plazos configurado. En las líneas de tareas del proyecto, puede crear líneas específicas dedicadas al pago a plazos. Todo el trabajo finalizado del proyecto que se agregue a la previsión se escribirá en las líneas de uso. Para cada línea de tarea de pago en las líneas de planificación, el tipo de línea es **Facturable**, lo que significa que se va a facturar al cliente. Añada una nueva línea para la entrada del pago. En la línea de tarea de uso, puede escribir la información para los productos y recursos utilizados en este proyecto, lo cual aumentará la previsión, como horas de empleado y productos usados en el proyecto.  
 
-### Para crear un pago a plazos  
+### <a name="to-make-a-payment-by-installment"></a>Para crear un pago a plazos
 
 1. Permite crear un proyecto nuevo.  
 2. En la nueva ficha **Proyecto**, rellene la siguiente información:  
@@ -453,17 +453,17 @@ Los siguientes procedimientos muestran cómo crear un proyecto nuevo, establece 
 
  Ahora que se han especificado las líneas de tarea y de planificación, Prakash crea una factura para el primer pago. Prakash lo hace desde las líneas de tarea del proyecto, para asegurarse de que la factura sólo contenga las líneas del primer pago. Puede abrir el pedido de venta desde las líneas de planificación o desde las líneas de tarea.  
 
-### Para crear una factura  
+### <a name="to-create-an-invoice"></a>Para crear una factura
 
 1. En la página **Líneas de tarea de proyecto**, seleccione la línea 1000 y, a continuación, elija la acción **Crear factura de ventas**.  
 2. En la página **Crear factura venta**, establezca la fecha de hoy como la fecha de registro, especifique **Por la tarea** y elija el botón **Aceptar** para crear una factura con la información predeterminada. Elija el botón **Aceptar** para cerrar la página de confirmación.  
 3. Elija la acción **Crear factura/abono de venta**. En la factura de venta, puede ver que sólo se incluye en la factura el pago de entrada. Ahora puede enviarlo al cliente como acordaron.  
 
-## Resumen
+## <a name="summary"></a>Resumen
 
 Este tutorial le ha llevado por algunos de los pasos básicos de trabajo con los proyectos en [!INCLUDE[prod_short](includes/prod_short.md)]. Ha aprendido acerca de cómo crear un proyecto nuevo, cómo copiar un proyecto y cómo administrar los pagos. Además, ha visto una demostración de cómo seguir las horas y crear las facturas.  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
  [Tutoriales de procesos empresariales](walkthrough-business-process-walkthroughs.md)  
  [Configurar la administración de proyectos](projects-setup-projects.md)  

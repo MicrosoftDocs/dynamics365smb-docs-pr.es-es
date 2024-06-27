@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Informes y análisis de sostenibilidad en Business Central
+# <a name="sustainability-reports-and-analytics-in-business-central"></a>Informes y análisis de sostenibilidad en Business Central
 
 Los informes de sostenibilidad ofrecen a los profesionales de las finanzas información y estadísticas sobre las inversiones y emisiones actuales y pasadas en materia de sostenibilidad.  
 
-## Informes
+## <a name="reports"></a>Informes
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 
-## Tareas
+## <a name="tasks"></a>Tareas
 
 Los siguientes artículos describen algunas de las tareas clave para analizar el estado de sus esfuerzos de sostenibilidad:
 
 * [Calcular las emisiones según la contabilidad general](finance-sustainability-journal.md)
 
-## Explorar los informes de sostenibilidad con el Explorador de informes
+## <a name="explore-sustainability-reports-with-report-explorer"></a>Explorar los informes de sostenibilidad con el Explorador de informes
 
 Para obtener una descripción general de los informes disponibles para sostenibilidad, elija **Todos los informes** en la página de inicio. Esta acción abre el explorador de roles, que se filtra según las funciones en la opción **Informe y análisis**. En el encabezado **PENDIENTE**, elija **Explorar**.
 
@@ -34,7 +34,7 @@ Para obtener una descripción general de los informes disponibles para sostenibi
 
 Para obtener más información, vaya a [Búsqueda de informes con el explorador de roles](ui-role-explorer.md).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Análisis ad-hoc de datos de sostenibilidad](ad-hoc-analysis-sustainability.md)   
 [Información general de la administración de la sostenibilidad](finance-manage-sustainability.md)   
