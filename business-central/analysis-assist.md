@@ -5,37 +5,32 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/14/2024
+ms.date: 06/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
 # Analizar datos en listas con la ayuda de Copilot (versión preliminar)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Este artículo explica cómo utilizar la *asistencia de análisis* para ayudarle a analizar datos en páginas de lista.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Acerca de la asistencia de análisis
 
 La asistencia de análisis es un Copilot para el [modo de análisis](analysis-mode.md) en las páginas de lista en Business Central. El modo de análisis proporciona una forma interactiva y versátil de calcular, resumir y examinar datos. Para analizar datos en el modo de análisis, cree una pestaña *análisis* donde transforma los datos para mostrar las agregaciones y resúmenes deseados. Por ejemplo, organiza campos en filas y columnas, especifica filtros, ordena columnas y gira sobre campos. Con la asistencia de análisis, en lugar de realizar esta tarea manualmente, logra gran parte de lo mismo &mdash;o al menos para empezar&mdash; utilizando palabras. Al expresar la estructura que desea en lenguaje natural, como "ordenar la cantidad de menor a mayor" o "mostrar el costo promedio por categoría", la asistencia de análisis utiliza IA para generar un diseño sugerido en una pestaña de análisis.
 
+## Idiomas disponibles
 
-<!-- 
+[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
- However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
---> 
 ## Requisitos previos
 
 - La capacidad de asistencia de análisis está activada y se le otorgan permisos para usarla. Esta tarea suele realizarla un administrador. [Más información sobre la configuración de Copilot y las capacidades de IA](enable-ai.md).
-- El idioma de visualización en Business Central está configurado en una de las siguientes configuraciones regionales en inglés: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Obtenga más información sobre cómo cambiar el idioma](ui-change-basic-settings.md#language).
-- Su entorno de Business Central se encuentra en cualquier país o región excepto Canadá (esta característica aún no está disponible en Canadá).
-
-<!--
-> [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
+<!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
+<!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Introducción
 
@@ -48,7 +43,7 @@ La asistencia de análisis es un Copilot para el [modo de análisis](analysis-mo
     - En la barra de acciones en la parte superior de la página, seleccione ![Muestra el icono del copiloto.](media/copilot-icon.png) **Copilot** > **Analizar lista**.
     - En la barra de acciones en la parte superior de la página, seleccione ![Muestra el icono de ingreso al modo de análisis](media/analysis-mode-icon.png) **Entrar en el modo de análisis**, luego seleccione ![Muestra el icono del copiloto](media/copilot-icon.png) **Copilot** > **Crear nuevo análisis**.
 
-1. En la ventana **Analizar** con Copilot, introduzca una descripción del diseño que desee. Esta descripción se conoce como *solicitud*.
+1. En la ventana **Analizar artículos** con Copilot, introduzca una descripción del diseño que desee. Esta descripción se conoce como *solicitud*.
 
     ![Muestra Copilot asistente de análisis](media/analysis-assist.png)
 
@@ -61,7 +56,7 @@ La asistencia de análisis es un Copilot para el [modo de análisis](analysis-mo
    > [!NOTE]
    > Si navega fuera de la nueva pestaña de análisis (como ir a otra pestaña o página de análisis) o realiza cambios de diseño en la pestaña (como ordenar columnas o cambiar la configuración en las pestañas **Columnas** y **Filtros de análisis**), la nueva pestaña de análisis se guarda automáticamente y Copilot se cierra.
 
-1. Si desea cambiar el análisis generado, puede realizar uno de los pasos:
+1. Si desea cambiar el análisis generado, puede realizar uno de estos pasos:
 
    - Para continuar con las instrucciones anteriores, introduzca la información en el cuadro **Agregar más detalles sobre el análisis**, luego seleccione la flecha ![Mostrar la flecha de ajuste](media/analysis-assist-adjust-button.png) **Ajustar**. Copilot recuerda sus instrucciones anteriores y las utiliza para realizar ajustes.
 
@@ -87,7 +82,7 @@ Los siguientes ejemplos de indicaciones utilizan la asistencia de análisis en l
 
 Mensaje: `Show items by brand and unit of measure`
 
-Este mensaje intenta mostrar los totales de todos los campos sumables, agrupados por marca y campo **Unidad de medida base**. Pero en este caso, "marca" no coincide con ningún nombre de campo, por lo que Copilot probablemente no pueda encontrar un campo coincidente, por lo que le pedirá que reformule el mensaje y vuelva a intentarlo.
+Este mensaje intenta mostrar los totales de todos los campos sumables, agrupados por marca y campo **Unidad de medida base**. Pero en este caso, "marca" no coincide con ningún nombre de campo, por lo que Copilot probablemente no pueda encontrar un campo coincidente. Luego le pedirá que reformule el mensaje y vuelva a intentarlo.
 
 Mensaje: `Show items by type and uom`
 

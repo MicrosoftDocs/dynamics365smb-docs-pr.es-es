@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Con Copilot, obtiene rápidamente una sugerencia de texto que se genera automát
 
 Copilot está diseñado para ahorrarle tiempo y ayudarlo a escribir texto creativo y atractivo que refleje su marca y sea consistente en toda su línea de productos. Comience generando una sugerencia, luego cambie el texto sugerido según sea necesario.
 
+### Idiomas disponibles
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Requisitos previos
 
-- La función de sugerencias de textos de marketing está activada en su entorno. Esta tarea suele realizarla un administrador. Para obtener más información, vaya a [Configurar Copilot y capacidades de IA](enable-ai.md).
-- Está utilizando uno de los idiomas admitidos actualmente por las sugerencias de texto de marketing.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Para cambiar el idioma, en la esquina superior derecha, seleccione el icono **Configuración** ![Configuración](media/ui-experience/settings_icon_small.png "Icono de configuración para el área de trabajo") > **Mi configuración** > **Idioma**. Para obtener más información, vaya a [Cambiar configuración básica](ui-change-basic-settings.md#language).
-- Consulte las [preguntas frecuentes sobre sugerencias de textos de marketing](faqs-marketing-text.md) para saber cómo se aplica la IA.
+La función de sugerencias de textos de marketing está activada en su entorno. Esta tarea suele realizarla un administrador. Para obtener más información, vaya a [Configurar Copilot y capacidades de IA](enable-ai.md).
 
 ### Crear un primer borrador con Copilot
 

@@ -2,15 +2,16 @@
 title: Resumen de tareas para configurar los procesos de venta
 description: 'Descripción general de las tareas necesarias para configurar reglas y valores que definen sus políticas y procesos de ventas, incluida la configuración general y la configuración de ventas relacionada con las finanzas.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'trade, sell, configure'
 ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
-ms.date: 06/23/2021
-ms.author: bholtorf
+ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-sales"></a>Configuración de ventas
+# Configuración de ventas
 
 Para poder administrar procesos de venta, debe configurar las reglas y valores que definen las políticas de venta de la empresa.
 
@@ -34,7 +35,7 @@ La configuración de ventas relacionada con las finanzas, como las formas de pag
 |Especifique informes predeterminados que se utilizarán para diferentes tipos de documentos.|[Selección de informes en Business Central](across-report-selections.md)|
 |Especifique si los usuarios pueden contabilizar facturas de ventas y si deben contabilizarlas junto con los envíos. |[Definir una directiva de registro de facturas para los usuarios](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Ventas](sales-manage-sales.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

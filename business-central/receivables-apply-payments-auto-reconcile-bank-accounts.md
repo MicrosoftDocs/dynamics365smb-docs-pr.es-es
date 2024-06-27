@@ -2,23 +2,24 @@
 title: Conciliar cuentas bancarias y aplicar pagos
 description: 'Describe las tareas para conciliar las cuentas de banco, cobros y pagos, registrar recibos de efectivo o gastos, y liquidar los pagos automáticamente.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1291, 1293, 1294'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Liquidación de pagos automáticamente y conciliación de cuentas bancarias
+# Liquidar pagos automáticamente y conciliar cuentas bancarias
+
 Debe conciliar con frecuencia los bancos y las cuentas de cobros y de pagos liquidando pagos registrados en el banco en sus facturas abiertas (sin abonar) relacionadas, abonos y otros movimientos pendientes en [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Puede realizar esta tarea en la página **Diario de conciliación de pagos**, por ejemplo, importando una fuente o archivo de extracto bancario para registrar rápidamente los pagos. Los pagos se liquidan en los movimientos de cliente o proveedor abiertos en función de las coincidencias entre el texto de pago y la información de movimiento. Puede revisar y cambiar las liquidaciones automáticas entes de registrar el diario. Puede elegir cerrar los movimientos de cuentas bancarias abiertos relacionados con los movimientos liquidados cuando registra el diario. La cuenta bancaria se concilia automáticamente cuando se liquidan todos los pagos.
 
-La lógica que rige cómo se compara automáticamente el texto de pago con la información de movimiento se configura en la página **Reglas de liquidación de pago** como una serie de reglas priorizadas que puede editar.
+En la página **Reglas de liquidación de pagos** puede establecer reglas priorizadas que rijan la forma en que el texto de pago se empareja automáticamente con la información de entrada.
 
-También puede conciliar cuentas bancarias sin liquidar pagos simultáneamente. Este trabajo se realiza en la página **Conciliación banco**. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).   
+También puede conciliar cuentas bancarias sin liquidar pagos simultáneamente. Este trabajo se realiza en la página **Conciliación banco**. Para obtener más información, consulte [Conciliar bancos](bank-how-reconcile-bank-accounts-separately.md).
 
 Para importar extractos bancarios como fuente de banco, primero debe configurar y habilitar el servicio Envestnet Yodlee Bank Feeds y, a continuación, vincular sus cuentas bancarias a las cuentas bancarias en línea relacionadas. Para obtener más información, vea [Configurar el servicio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
@@ -27,7 +28,7 @@ Para importar extractos bancarios como fuente de banco, primero debe configurar 
 
 De forma alternativa, puede usar la extensión AMC Banking 365 Fundamentals para convertir un archivo de extracto de cuenta, en cualquier formato, a una secuencia de datos que pueda importar en [!INCLUDE[prod_short](includes/prod_short.md)]. Para obtener más información, consulte [Usar la extensión AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.  
+En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.  
 
 | Para | Vea |
 | --- | --- |
@@ -37,7 +38,8 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 | Vincule el texto sobre pagos con cuentas concretas de cliente, de proveedor o de contabilidad para que siempre se registren recibos de cobro o gastos periódicos en dichas cuentas cuando no haya documentos a los que aplicarlos. |[Asignar texto en pagos periódicos a cuentas para conciliación automática](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Establezca reglas para determinar el modo en que los pagos/operaciones bancarias deben liquidarse automáticamente en los movimientos pendientes relacionados cuando se utiliza la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**.|[Configurar reglas para la liquidación automática de los pagos](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
+
 [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  

@@ -12,19 +12,19 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>Preguntas frecuentes sobre sugerencias de líneas de ventas con Copilot (versión preliminar)
+# Preguntas frecuentes sobre sugerencias de líneas de ventas con Copilot (versión preliminar)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Estas preguntas frecuentes (P+F) describen el impacto de la característica de IA en la característica de sugerencias de líneas de venta en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-sales-line-suggestions-with-copilot"></a>¿Qué son las sugerencias de líneas de ventas con Copilot?
+## ¿Qué son las sugerencias de líneas de ventas con Copilot?
 
 La sugerencia de líneas de ventas con Copilot puede ayudar a crear líneas en documentos de ventas, como cotizaciones de ventas, pedidos y facturas, basadas en entradas estructuradas o lenguaje natural. La función no es un chat de propósito general, sino una experiencia altamente específica e integrada que puede utilizar en documentos de ventas. La función ofrece dos capacidades distintas que le ayudan a encontrar datos sobre productos individuales o documentos completos.
 
-## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>¿Cuáles son las capacidades de las sugerencias de líneas de ventas con Copilot?
+## ¿Cuáles son las capacidades de las sugerencias de líneas de ventas con Copilot?
 
 * Encontrar productos
 
@@ -34,7 +34,7 @@ La sugerencia de líneas de ventas con Copilot puede ayudar a crear líneas en d
 
   La gente suele repetir un pedido anterior, o al menos utilizarlo como punto de partida. Pero puede resultar complicado encontrar el orden correcto en una pila de pedidos. Es posible que recuerde parte del ID del pedido, que puede ser un número asignado por la empresa o un número de referencia recibido de un cliente. Ser capaz de utilizar indicaciones como *Necesita la última factura de abril* debería ayudarle a encontrar un pedido más rápido.
 
-## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>¿Cuál es el uso previsto de las sugerencias de líneas de ventas con Copilot?
+## ¿Cuál es el uso previsto de las sugerencias de líneas de ventas con Copilot?
 
 * Encontrar productos
 
@@ -59,13 +59,13 @@ La sugerencia de líneas de ventas con Copilot puede ayudar a crear líneas en d
   * *Obtener productos del pedido 103031*
   * *Necesito productos de la última factura en agosto*
 
-## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>¿Cómo se evaluaron las sugerencias de líneas de ventas con Copilot? ¿Qué métricas se utilizan para medir el rendimiento?
+## ¿Cómo se evaluaron las sugerencias de líneas de ventas con Copilot? ¿Qué métricas se utilizan para medir el rendimiento?
 
 La característica se sometió a pruebas exhaustivas en las que se incluyeron numerosos mensajes en inglés de EE. UU. que representan tanto el uso típico como el uso por parte de malos actores. Las pruebas se basaron en los datos de demostración de [!INCLUDE [prod_short](includes/prod_short.md)] y en un gran catálogo de productos etiquetados disponible como código abierto.
 
 Esta característica está construida de acuerdo con el Estándar de IA Responsable de Microsoft. [Obtenga más información sobre la IA responsable de Microsoft](https://aka.ms/RAI).
 
-## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>¿Cuáles son las limitaciones de las sugerencias de líneas de ventas con Copilot? ¿Cómo pueden los usuarios minimizar el impacto de las sugerencias de la línea de ventas con las limitaciones de Copilot al utilizar el sistema?
+## ¿Cuáles son las limitaciones de las sugerencias de líneas de ventas con Copilot? ¿Cómo pueden los usuarios minimizar el impacto de las sugerencias de la línea de ventas con las limitaciones de Copilot al utilizar el sistema?
 
 * Encontrar productos
   
@@ -113,33 +113,39 @@ Para los productos, la siguiente tabla enumera las tablas y campos que busca Cop
 
   Copilot no devuelve todas las líneas del tipo Producto. Solo se transfieren números de productos, códigos de variante y cantidades. Las cantidades del documento fuente se convierten a la **Unidad de medida de ventas**.
 
-## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>¿En qué geografías e idiomas están disponibles las sugerencias de líneas de venta?
+## ¿En qué geografías e idiomas están disponibles las sugerencias de líneas de venta?
 
-Con la excepción de Canadá, esta función está disponible para la localización de todos los países/regiones del entorno y en todos los idiomas admitidos. Debido a la compatibilidad de idiomas limitada, la función no estará disponible inicialmente para los clientes canadienses debido al cumplimiento normativo del idioma. Para que esta capacidad esté disponible para entornos de clientes ubicados en países o regiones donde el servicio Azure OpenAI no está implementado, los administradores primero deben dar su consentimiento para permitir el movimiento de datos a través de las fronteras para que [!INCLUDE [prod_short](includes/prod_short.md)] se conecte al servicio Azure OpenAI y para que esta capacidad esté disponible.  
+- Geografías disponibles
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>¿Qué factores operativos y configuraciones permiten un uso eficaz y responsable de la característica?
+   La característica de Copilot está disponible en todos los [países o regiones de Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) admitidos. No obstante, para que los entornos de clientes ubicados en países o regiones donde el servicio Azure OpenAI no está implementado, los administradores primero deben dar su consentimiento para permitir el movimiento de datos a través de las fronteras para que [!INCLUDE [prod_short](includes/prod_short.md)] se conecte al servicio Azure OpenAI y para que esta capacidad esté disponible. Obtenga más información sobre el [movimiento de datos de Copilot entre geografías](ai-copilot-data-movement.md).
+
+- Idiomas disponibles
+
+   [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+
+## ¿Qué factores operativos y configuraciones permiten un uso eficaz y responsable de la característica?
 
 Las sugerencias basadas en IA a veces pueden ser incorrectas o incompletas. Siempre debe revisar la exactitud de las sugerencias de Copilot antes de decidir si desea conservarlas. Las sugerencias de Copilot no se guardan en la base de datos de [!INCLUDE [prod_short](includes/prod_short.md)] hasta que elija el botón **Conservar** y salga de la ventana de Copilot. Puede editar y corregir cualquier sugerencia antes de decidir conservarla o después de insertarla en un documento de ventas.
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>¿Qué se espera de los administradores y usuarios finales cuando usan sugerencias de líneas de venta?
+### ¿Qué se espera de los administradores y usuarios finales cuando usan sugerencias de líneas de venta?
 
 Cada usuario individual elige si utilizar o no **Sugerencias de líneas de venta**. Incluso cuando la función está habilitada por los administradores y está disponible, puede elegir usarla siempre, a veces o nunca.  
 
-Los administradores toman la decisión general sobre si utilizar las capacidades de Copilot en [!INCLUDE [prod_short](includes/prod_short.md)]. Si los administradores habilitan Copilot, deben asegurarse de otorgar acceso a los usuarios adecuados.   
+Los administradores toman la decisión general sobre si utilizar las capacidades de Copilot en [!INCLUDE [prod_short](includes/prod_short.md)]. Si los administradores habilitan Copilot, deben asegurarse de otorgar acceso a los usuarios adecuados.
 
-> [¡NOTA!]
+> [!NOTE]
 > - No admitimos esta función en [!INCLUDE [prod_short](includes/prod_short.md)] local o en una nube privada.
 > - Los socios no pueden ampliar esta característica. Eso significa que los desarrolladores asociados no pueden modificarlo, reemplazarlo ni ampliarlo.
 
-## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>¿Es Copilot el único medio para crear líneas de ventas?
+## ¿Es Copilot el único medio para crear líneas de ventas?  
 
 No, el uso de Copilot es opcional. [!INCLUDE [prod_short](includes/prod_short.md)] ofrece formas sin tecnología de inteligencia artificial para insertar líneas de ventas o copiar documentos. Las organizaciones pueden utilizar ambos enfoques al mismo tiempo.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>¿Cómo doy comentarios sobre el contenido generado por IA?
+## ¿Cómo doy comentarios sobre el contenido generado por IA?  
 
 Cada vez que Copilot proporciona sugerencias, puede proporcionar comentarios a Microsoft directamente desde la ventana de Copilot, utilizando los controles Me gusta y No me gusta. Sus comentarios permanecen anónimos y utilizamos estos datos para mejorar la calidad del servicio.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Sugerir líneas en pedidos de venta con Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Configurar Copilot y capacidades de IA](enable-ai.md)  

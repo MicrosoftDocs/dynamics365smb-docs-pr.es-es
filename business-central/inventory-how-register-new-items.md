@@ -1,60 +1,63 @@
 ---
-title: Crear fichas de producto para bienes o servicios (contiene vídeo)
+title: Crear fichas de producto para bienes o servicios
 description: Cree fichas de productos para servicios que venda por horas y para productos físicos. Los ejemplos incluyen productos de ensamblaje y productos terminados que vende desde su inventario.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registro de productos nuevos
 
-Los productos, entre otros elementos, son la base de su empresa, las mercancías o servicios con las que comercializa. Cada producto se debe registrar como una ficha de producto.
+Los productos son los bienes o servicios que usted compra, almacena, vende, entrega y contabiliza. Utilice la página **Ficha Producto** para registrar información sobre los siguientes tipos de productos:
 
-Las fichas de producto contienen la información necesaria para comprar, almacenas, vender, entregar y contabilizar productos.
+* **Inventario** especifica que el producto es una unidad física que usted administra y rastrea en el inventario.
+* **No inventario** son unidades físicas que no administra ni rastrea en el inventario.
+* Los productos de **Servicio** son una unidad de tiempo de mano de obra, normalmente utilizada en la gestión de servicios.
 
-La ficha de producto puede ser del tipo **Inventario**, **Servicio** o **No inventario** para especificar si el producto representa una unidad de inventario físico, una unidad de tiempo de trabajo o una unidad física sin seguimiento en el inventario. Para obtener más información, consulte [unidad física sin seguimiento en el inventario](inventory-about-item-types.md).
+Para obtener más información sobre estos tipos de productos que no están en el inventario, vaya a [Acerca de los tipos de productos](inventory-about-item-types.md).
 
-Un producto se puede estructurar como un producto principal con productos secundarios subyacentes en una lista de materiales (L.M.). Obtenga más información sobre las L.M. de ensamblado y las L.M. en [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
+> [!TIP]
+> También existen los productos de catálogo, que son similares a los productos que no son de inventario en el sentido de que son productos que usted ofrece a los clientes pero que no administra hasta que los vende. Para obtener más información, vaya a [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).  
 
-Si le compra el mismo producto a varios proveedores, puede conectarlos a la ficha de producto. La página **Tarifas de compra productos** muestra a los proveedores, para poder fácilmente seleccionar un proveedor alternativo.
+## Proveedores primarios y alternativos
 
-*Productos del catálogo* son productos que ofrece a sus clientes, pero que no desea administrar en su sistema hasta que comience a venderlos. Los productos del catálogo no son artículos normales de tipo **No inventario**. Obtenga más información en [Trabajar con productos del catálogo](inventory-how-work-nonstock-items.md).  
+Si le compra el mismo producto a varios proveedores, puede conectarlos al producto. Utilice la acción **Proveedores** en la página **Ficha Producto** para abrir la página **Tarifas de compra productos**. La página muestra los proveedores a los que les compra el artículo, por lo que puede crear o seleccionar fácilmente un proveedor alternativo cuando crea un pedido de compra.
 
-> [!NOTE]  
-> Si existen plantillas para distintos tipos de producto, aparece una página automáticamente cuando se crea una nueva ficha de producto en la que puede seleccionar una plantilla de producto apropiada. Si solo existe una plantilla de producto, las nuevas fichas de producto utilizan siempre esa plantilla.
+## Usar plantillas de producto
 
-En el siguiente procedimiento se explica cómo crear una ficha de producto desde cero. También puede crear nuevas fichas de producto copiando las existentes. Para obtener más información, consulte [Copiar productos existentes para crear productos nuevos](inventory-how-copy-items.md).  
+Para reutilizar la configuración para diferentes tipos de productos cuando crea elementos nuevos, puede guardarlos como plantillas de productos. Las plantillas de productos ayudan a acelerar el proceso de agregar nuevos productos y aumentar la coherencia en los datos de sus productos. Cuando registra un producto nuevo, aparece una página que le permite elegir una plantilla. Después de elegir una plantilla, su configuración se completa en el producto que está creando. Si solo tiene una plantilla de producto, los nuevos productos utilizan siempre esa plantilla. Para aprender cómo configurar una plantilla de productos, vaya a [Guardar una ficha de producto como plantilla de producto](#save-an-item-card-as-an-item-template).
 
-<br />
+## Incluir productos en listas de materiales
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Puede estructurar jerarquías que tengan un producto principal con productos componentes subyacentes en listas de materiales (L.M.) de ensamblaje y producción. Para obtener más información sobre las L.M. de ensamblaje, vaya a [Trabajar con listas de materiales](inventory-how-work-BOMs.md).
 
 ## Para crear una nueva ficha de producto.
+
+El siguiente vídeo muestra cómo configurar un artículo en la página Ficha producto. Sin embargo, también puede crear nuevos productos copiando los existentes. Para obtener más información, vaya a [Copiar productos existentes para crear productos nuevos](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> En el campo **Valoración de existencias**, determinará la forma en que se calcula el coste unitario, presumiendo el flujo de productos físicos por la empresa. Hay cinco métodos de valoración de existencias, según del tipo de producto. Para obtener más información, consulte [Detalles de diseño: Métodos de coste](design-details-costing-methods.md).
+> En el campo **Valoración de existencias**, determinará la forma en que se calcula el coste unitario, presumiendo el flujo de productos físicos por la empresa. Hay cinco métodos de valoración de existencias, según del tipo de producto. Para obtener más información sobre la valoración, vaya a [Detalles de diseño: métodos de coste](design-details-costing-methods.md).
 >
-> Si selecciona **Promedio**, el coste unitario de un producto se calcula como el coste unitario medio en cada momento después de una compra. El inventario se valora con el supuesto de que todos los inventarios se venden simultáneamente. Con este ajuste, puede elegir el campo **Coste unitario** para ver en la página **Inf. general cálculo cte. medio** el historial de las transacciones con las que se calcula el coste medio.
+> Si selecciona **Promedio**, el coste unitario de un producto se calcula como el coste unitario medio en cada momento después de una compra. El inventario se valora con el supuesto de que todos los inventarios se venden simultáneamente. Con este ajuste, puede elegir el campo **Coste unitario** en la página **Inf. general cálculo cte. medio** para ver las transacciones que se han usado para calcular el coste medio.
 
-Puede ver o editar los precios o los descuentos especiales que concede al cliente, o que le proveedor le concede, por el producto si se cumplen determinados criterios, como, por ejemplo, el cliente, la cantidad de pedido mínima o la fecha final. Para ello, se eligen las acciones **Establecer precios especiales** o **Establecer descuentos especiales**. Por ejemplo, cada fila de la página **Precios ventas** representa un precio especial. Cada columna representa un criterio que debe aplicarse para conceder a un cliente el precio especial que introduzca en el campo **Precio venta** de la página **Precios ventas**. Para obtener más información, consulte [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md) o [Registrar precios y descuentos de compra especiales](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Puede utilizar precios especiales o descuentos que usted o su proveedor otorgan para el artículo según ciertos criterios. Por ejemplo, los criterios incluyen el cliente, la cantidad mínima de pedido o la fecha final. Configure precios especiales eligiendo las acciones **Establecer precios especiales** o **Establecer descuentos especiales**. Por ejemplo, cada fila de la página **Precios ventas** representa un precio especial. Cada columna representa un criterio que debe aplicarse para conceder a un cliente el precio especial que introduzca en el campo **Precio venta** de la página **Precios ventas**. Para obtener más información sobre los precios, vaya a [Registrar acuerdos de pago, descuentos y precios de venta](sales-how-record-sales-price-discount-payment-agreements.md) o [Registrar precios y descuentos de compra especiales](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-El producto quedará registrado y la ficha de producto está lista para usarse en los documentos de compra y venta.
+### Guardar una ficha de producto como plantilla de producto
 
-Si desea usar esta ficha de producto como plantilla cuando cree nuevas fichas de producto, puede guardarla. Para obtener más información, vea la siguiente sección:  
-
-### Para guardar la ficha de producto como plantilla
-
-1. En la página **Ficha de producto**, seleccione la acción **Guardar como plantilla**. La página **Plantilla de producto** se abre mostrando la ficha de producto como plantilla.
+1. En la página **Ficha de producto**, seleccione la acción **Guardar como plantilla**. La página **Plantilla de producto** muestra la ficha de producto como plantilla.
 2. Rellene los campos según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La página **Plantilla de dimensiones** se abre mostrando los códigos de dimensión configurados para el producto.
-4. Modifique o introduzca los códigos de dimensión que se aplican a nuevas fichas de producto creadas con la plantilla.
-5. Cuando finalice la nueva plantilla de producto, haga clic en el botón **Aceptar**.
+
+> [!TIP]
+> También puede reutilizar dimensiones para productos. Para volver a usar dimensiones en las plantillas, seleccione la acción **Dimensiones**. La página **Plantilla de dimensiones** muestra las dimensiones configuradas para el producto. Edite o agregue dimensiones que se apliquen a los nuevos elementos que cree a partir de la plantilla.
 
 La plantilla de producto se agrega a la lista de plantillas de producto, de modo que puede usarla para crear nuevas fichas de producto.
 

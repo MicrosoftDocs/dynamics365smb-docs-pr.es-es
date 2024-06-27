@@ -1,5 +1,5 @@
 ---
-title: Encontrar páginas e información (contiene vídeo)
+title: Encontrar páginas e información
 description: 'Este artículo describe cómo utilizar la búsqueda para encontrar acciones, páginas, informes, documentación y datos, así como otras aplicaciones y servicios de consultoría.'
 author: brentholtorf
 ms.topic: conceptual
@@ -8,8 +8,9 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Búsqueda de páginas e información con Dígame
+# Búsqueda de páginas e información con Dígame
 
 Este artículo describe cómo la búsqueda en el producto, *Dígame qué quiere hacer*, puede ayudarle a: 
 
@@ -32,24 +33,24 @@ En la parte inferior de la página **Dígame qué desea hacer** hay una acción 
 
 La página **Dígame qué desea hacer** clasifica los resultados según los datos que ingresa y la página en la que está trabajando. En el siguiente apartado se explican las categorías.
 
-## <a name="find-an-action-on-the-current-page"></a>Encontrar una acción en la página actual
+## Encontrar una acción en la página actual
 
 La sección **En la página actual** le permite encontrar acciones en la página que tiene abierta. Por ejemplo, si la página **Oferta de venta** está abierta y escribe "cliente", la sección incluye una acción que abre la página de ficha de cliente para el cliente seleccionado en la oferta de venta.
 
 > [!NOTE]  
 > La lista incluye solo las acciones que están disponibles en la barra de navegación en la parte superior de la página. Las acciones de las fichas desplegables no están incluidas.  
 
-## <a name="find-a-page-or-a-task"></a>Encontrar una página o una tarea
+## Encontrar una página o una tarea
 
 Los resultados de la sección **Ir a páginas y tareas** brindan acceso a otras páginas y le permiten realizar tareas o buscar información. Si usa estas páginas con frecuencia, puede elegir el icono de marcador para añadir un enlace a cualquier página en su área de trabajo. Para obtener más información, vaya a [Agregar una acción de página al área de trabajo](ui-bookmarks.md).
 
 Las páginas y las tareas que se enumeran dependen de la experiencia del usuario que eligió para su empresa. La experiencia **Esencial** ofrece menos acceso a páginas y tareas que la experiencia **Premium**. La primera vez que inicie sesión, use la experiencia **Esencial**. Para obtener más información sobre las experiencias de los usuarios, vaya a [Personalizar su [!INCLUDE[prod_short](includes/prod_short.md)] Experiencia](ui-experiences.md).
 
-## <a name="find-a-report-or-archived-information"></a>Encontrar un informe o información archivada
+## Encontrar un informe o información archivada
 
 La sección **Ir a Informes y análisis** ofrece acceso a las herramientas de informes. Por ejemplo, puede abrir el informe de **Balance** desde la lista o acceder a documentos archivados y otra información.  
 
-## <a name="find-a-record-or-search-the-documentation"></a>Buscar un registro o buscar la documentación
+## Buscar un registro o buscar la documentación
 
 La sección **Buscar por \<keyword\>** de [!INCLUDE [prod_short](includes/prod_short.md)] ofrece un par de formas de buscar:
 
@@ -59,7 +60,7 @@ La sección **Buscar por \<keyword\>** de [!INCLUDE [prod_short](includes/prod_s
   > [!NOTE]  
   > Sus resultados de búsqueda no incluirán documentación de extensiones de terceros.
 
-### <a name="use-tell-me-what-you-want-to-do"></a>Use Dígame qué desea hacer
+### Use Dígame qué desea hacer
 
 Use la ![Dígame qué desea hacer.](media/ui-search/search.png "Buscar página o informe") Icono de **Buscar** para busca datos por [!INCLUDE [prod_short](includes/prod_short.md)]. Por ejemplo, puede buscar un cliente ingresando su nombre o dirección, o incluso buscar un registro específico, como un pedido de venta. También puede utilizarlo para buscar información en nuestra documentación.
 
@@ -73,22 +74,22 @@ Simplemente ingrese al menos tres caracteres de una palabra clave y luego elija 
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 
-## <a name="get-more-functionality-from-apps"></a>Obtenga más funcionalidad de las aplicaciones
+## Obtenga más funcionalidad de las aplicaciones
 
 Nuestra comunidad de socios está desarrollando aplicaciones que agregan funcionalidades a [!INCLUDE[prod_short](includes/prod_short.md)]. La sección **Obtener de Microsoft AppSource** enumera aplicaciones para [!INCLUDE[prod_short](includes/prod_short.md)] que están disponibles en Microsoft AppSource y están relacionadas con la palabra clave que ha buscado.
 
-### <a name="use-search-on-list-pages"></a>Utilice la búsqueda en páginas de lista
+### Utilice la búsqueda en páginas de lista
 
 No está relacionado con Dígame qué desea hacer, pero hay otra forma de buscar datos específicos. Cuando está usando una página de lista, puede usar el campo ![Buscar en la lista](media/ui-search/search-list.png "Icono de lista de búsqueda") **Búsqueda** en la esquina izquierda de la cabecera de la lista para buscar datos en la página. La búsqueda solo se aplica a la lista que está viendo. Para obtener más información sobre cómo trabajar con datos en páginas de listas, vaya a [Ordenación, búsqueda y filtrado de listas](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > Puede buscar líneas de documentos registrados, como líneas de facturas, líneas de notas de crédito, líneas de envío y líneas de recepción. Busque el tipo de líneas de documentos que desea encontrar y luego marque los enlaces a los documentos en su página de inicio para acceder fácilmente a la vista original o filtrada. Más información en [Agregar una acción de página al área de trabajo](ui-bookmarks.md).
 
-## <a name="questions"></a>¿Tiene alguna pregunta?
+## ¿Tiene alguna pregunta?
 
 Hemos mostrado Buscar a varias partes interesadas, anotamos las preguntas que tenían en común y convertimos nuestras notas en una lista de preguntas frecuentes. Si le interesa, consulte las [Preguntas más frecuentes de la opción Dígame](ui-search-faq.md).
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Trabajar con Business Central](ui-work-product.md)  
 [Agregar una acción de página al área de trabajo](ui-bookmarks.md)  

@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Gestos táctiles y con lápiz](touch-gestures.md)
 ### [Solución de problemas: acceder a la cámara y a la ubicación](ui-troubleshooting-camera-location.md)
 ### [Información inteligente (solo en línea)](about-intelligent-cloud.md)
-## Preguntas frecuentes
+## Solución de problemas y preguntas frecuentes
 ### [Preguntas frecuentes](across-faq.yml)
 ### [Preguntas frecuentes sobre Chatear con Copilot (versión preliminar)](chat-with-copilot-faq.md)
 ### [Preguntas frecuentes acerca de la característica Información](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Preguntas frecuentes sobre Teams](teams-faq.md)
 ### [Preguntas frecuentes sobre facturación electrónica](faq-electronic-invoicing.yml)
 ### [Requisitos mínimos](product-requirements.md)
+### [Solución de problemas de Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Ayuda y soporte técnico
 ### [Recursos de ayuda y soporte técnico](product-help-and-support.md)
@@ -458,7 +459,12 @@ ms.service: dynamics-365-business-central
 #### [Información general de la administración de la sostenibilidad](finance-manage-sustainability.md)
 #### [Configuración de sostenibilidad](finance-sustainability-setup.md)
 #### [Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md)
-#### [Cómo registrar emisiones de gases de efecto invernadero (GEI)](finance-sustainability-journal.md)
+#### [Cómo registrar emisiones de gases de efecto invernadero (GHG)](finance-sustainability-journal.md)
+#### Análisis de sostenibilidad
+##### [Análisis ad hoc de datos de sostenibilidad](ad-hoc-analysis-sustainability.md)
+##### [Informes sobre sostenibilidad integrados](sustainability-reports.md)
+#### API de sostenibilidad
+##### [API de sostenibilidad](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Organizaciones internacionales y de múltiples sitios](finance-multi-site-organizations.md)
 #### Consolidar los datos financieros de varias empresas
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Información general de los análisis de activos fijos](fa-analytics-overview.md)
 #### [Análisis ad hoc de datos de activos fijos](ad-hoc-analysis-fa.md)
 #### Herramientas integradas de análisis de activos fijos
-##### [Supervisar costes de mantenimiento](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Supervisar costes de mantenimiento](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Controlar la cobertura de seguros](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Ver valores modificados del libro de amortización](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Ver movimientos de venta/baja](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Informes financieros clave](finance-reports.md)
 #### [Informes de cobros](receivables-reports.md)
 #### [Informes de pagos](payables-reports.md)
+#### [Informes sobre sostenibilidad](sustainability-reports.md)
 
 ### [Informes de ventas](sales-reports.md)
 ### [Informes de compras](purchase-reports.md)

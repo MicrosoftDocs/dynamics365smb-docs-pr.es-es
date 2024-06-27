@@ -1,5 +1,5 @@
 ---
-title: Preguntas frecuentes sobre la asistencia para la conciliación de cuentas bancarias (vista previa) con Copilot
+title: Preguntas frecuentes sobre la asistencia para la conciliación de cuentas bancarias con Copilot (versión preliminar)
 description: 'Estas preguntas frecuentes brindan información sobre la tecnología de inteligencia artificial utilizada para conciliar cuentas bancarias y extractos de Business Central. Incluye las consideraciones clave y detalles sobre cómo se usa la IA, cómo se probó y evaluó, y cualquier limitación específica.'
 ms.date: 03/27/2024
 ms.custom:
@@ -15,85 +15,89 @@ ms.collection:
 
 # Preguntas frecuentes sobre la asistencia para la conciliación de cuentas bancarias con Copilot (versión preliminar)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Estas preguntas frecuentes (FAQ) describen el impacto en la IA de la asistencia de Copilot con la conciliación de cuentas bancarias en [!INCLUDE[prod_short](includes/prod_short.md)].
+Estas preguntas frecuentes (FAQ) describen el impacto en la IA de la asistencia de Microsoft Copilot con la conciliación de cuentas bancarias en [!INCLUDE[prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## ¿Qué es la asistencia de conciliación bancaria?
 
-La conciliación bancaria es una tarea contable común en la que las organizaciones revisan sus estados de cuenta bancaria para identificar las transacciones que deben registrarse en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, esta tarea se utilizaría para identificar comisiones bancarias periódicas o pequeños gastos de empleados. Esta tarea suele ser un proceso de varios pasos, que comienza con la importación de extractos bancarios a [!INCLUDE[prod_short](includes/prod_short.md)], seguido de comparar transacciones con asientos contables y publicar nuevos asientos contables para reflejar cualquier transacción residual que sus libros contables no conocían anteriormente. Copilot en [!INCLUDE[prod_short](includes/prod_short.md)] reduce el esfuerzo manual al hacer coincidir más transacciones y sugerir cuentas del libro mayor en las que puede publicar. 
+La conciliación bancaria es una tarea contable común en la que las organizaciones revisan sus estados de cuenta bancaria para identificar las transacciones que deben registrarse en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, esta tarea se utilizaría para identificar comisiones bancarias periódicas o pequeños gastos de empleados.
+
+La conciliación bancaria suele ser un proceso de varios pasos. Primero, los extractos bancarios se importan a [!INCLUDE[prod_short](includes/prod_short.md)]. A continuación, se cotejan las transacciones con las entradas de contabilidad general. Finalmente, se contabilizan nuevos asientos contables para reflejar cualquier transacción residual que sus libros contables no conocían previamente.
+
+Copilot en [!INCLUDE[prod_short](includes/prod_short.md)] reduce el esfuerzo manual al hacer coincidir más transacciones y sugerir cuentas de contabilidad general (G/L) en las que puede publicar.
 
 ## ¿Cuáles son las capacidades de asistencia para la conciliación bancaria?
 
-Copilot proporciona asistencia impulsada por IA con dos tareas distintas: 
+Copilot proporciona asistencia impulsada por IA con dos tareas distintas:
 
-- Cotejo mejorado de transacciones con asientos del libro mayor 
+- Cotejo mejorado de transacciones con asientos del libro mayor
 
-   [!INCLUDE[prod_short](includes/prod_short.md)] ofrece reglas automatizadas que relacionan automáticamente muchas transacciones bancarias con asientos del libro mayor. Sin embargo, estas reglas son inflexibles y a menudo dan como resultado muchas transacciones no coincidentes, cada una de las cuales requiere inspección y comparación manual. Copilot utiliza tecnología de inteligencia artificial para inspeccionar las transacciones restantes e identificar más coincidencias, según fechas, montos y descripciones. Por ejemplo, si un cliente pagó varias facturas como una suma global, Copilot concilia la línea única del extracto bancario con los múltiples asientos del libro mayor de facturas. 
- 
-- Cuentas contables sugeridas 
+    [!INCLUDE[prod_short](includes/prod_short.md)] ofrece reglas automatizadas que relacionan automáticamente muchas transacciones bancarias con asientos del libro mayor. Sin embargo, estas reglas son inflexibles y a menudo dan lugar a muchas transacciones sin emparejar, cada una de las cuales requiere una inspección y comparación manuales. Copilot utiliza tecnología de inteligencia artificial para inspeccionar esas transacciones sin coincidencia e identificar más coincidencias, según fechas, montos y descripciones. Por ejemplo, si un cliente pagó varias facturas como una suma global, Copilot concilia la línea única del extracto bancario con los múltiples asientos del libro mayor de facturas.
 
-   Para las transacciones bancarias residuales que no podían cotejarse con ningún asiento del libro mayor, Copilot usa la tecnología de IA para comparar la descripción de la transacción con los nombres de las cuentas del L/M, sugiriendo la cuenta del L/M más probable en la que contabilizar. Por ejemplo, Copilot podría sugerir que la transacción con la narrativa "Parada de combustible 24" se publiquen en la cuenta "Transporte". 
+- Cuentas de L/M sugeridas
 
-Copilot no se conecta a su banco para recuperar o enviar transacciones. Esta tarea permanece totalmente bajo su control y es un requisito previo para comenzar a utilizar la asistencia de Copilot, ya sea que esas transacciones se agreguen a [!INCLUDE[prod_short](includes/prod_short.md)] mediante una conexión bancaria digital, importado desde un archivo de extracto bancario o ingresado manualmente. 
+    Para las transacciones bancarias residuales que no pueden cotejarse con ningún asiento del libro mayor, Copilot usa la tecnología de IA para comparar la descripción de la transacción con los nombres de las cuentas del L/M, sugiriendo la cuenta del L/M más probable en la que contabilizar. Por ejemplo, si las transacciones no coincidentes tienen la narrativa *Parada de combustible 24*, Copilot podría sugerirle que las contabilice en la cuenta *Transporte*.
+
+Copilot no se conecta a su banco para recuperar o enviar transacciones. Esta tarea permanece totalmente bajo su control. Es un requisito previo para utilizar la asistencia de Copilot, independientemente de si las transacciones se agregan a [!INCLUDE[prod_short](includes/prod_short.md)] mediante una conexión bancaria digital, se importan desde un archivo de extracto bancario o se introducen manualmente.
 
 ## ¿Cuál es el uso previsto de la asistencia de conciliación bancaria?
 
-La asistencia de conciliación de cuentas bancarias está diseñada para ayudar a identificar nuevas transacciones que los clientes deben contabilizar en [!INCLUDE[prod_short](includes/prod_short.md)], para mejorar la precisión de sus libros de contabilidad. Esta actividad no está destinada a detectar fraudes ni a identificar si los clientes pagaron a tiempo.   
+El asistente de conciliación de cuentas bancarias está diseñado para mejorar la exactitud de los libros de contabilidad ayudando a los clientes a identificar las nuevas transacciones que deben contabilizar en [!INCLUDE[prod_short](includes/prod_short.md)]. No está pensada para la detección de fraudes ni para identificar si los clientes pagaron a tiempo.
 
 ## ¿Cómo se evaluó la asistencia de conciliación bancaria? ¿Qué métricas se utilizan para medir el rendimiento?
 
-Esta funcionalidad se probó utilizando combinaciones de datos de transacciones bancarias sintéticas y cuentas de mayor y asientos contables similares que cubren las variaciones típicas y los límites de datos para cada campo y en diferentes idiomas. Los datos de prueba representan tanto el uso típico como el uso por parte de malos actores. El rendimiento se midió en comparación con la conciliación manual de los mismos datos. 
+La asistencia de conciliación de cuentas bancarias se probó utilizando combinaciones de datos de transacciones bancarias sintéticas y cuentas de mayor y asientos contables similares que cubren las variaciones típicas y los límites de datos para cada campo y en diferentes idiomas. Los datos de prueba representan tanto el uso típico como el uso por parte de malos actores. El rendimiento se midió en comparación con la conciliación manual de los mismos datos.
 
-## ¿Cuáles son las limitaciones de la asistencia de conciliación bancaria? ¿Cómo pueden los usuarios minimizar el impacto de las limitaciones de conciliación bancaria al utilizar el sistema?
+## ¿Cuáles son las limitaciones de la asistencia de conciliación bancaria? ¿Cómo pueden los usuarios minimizar el impacto de estas limitaciones cuando utilizan el sistema?
 
-La asistencia para la conciliación de cuentas bancarias funciona mejor cuando los nombres de cuentas del L/M, las descripciones de los asientos del libro mayor y las descripciones de las transacciones bancarias están todos en el mismo idioma. Los idiomas mixtos o el lenguaje mixto de las descripciones de transacciones a menudo resultan en menos coincidencias y sugerencias. 
+La asistencia para la conciliación de cuentas bancarias funciona mejor cuando los nombres de cuentas del L/M, las descripciones de los asientos del libro mayor y las descripciones de las transacciones bancarias están todos en el mismo idioma. Los idiomas mixtos o el lenguaje mixto de las descripciones de transacciones a menudo resultan en menos coincidencias y sugerencias.
 
-Las cuentas contables sugeridas funcionan mejor en inglés. Si bien esta función se puede utilizar en cualquiera de los idiomas disponibles de [!INCLUDE[prod_short](includes/prod_short.md)], los usuarios pueden experimentar menos coincidencias de transacciones y menos cuentas contables sugeridas en otros idiomas. 
-<!--
+Las cuentas contables sugeridas funcionan mejor en uno de los idiomas admitidos (consulte la siguiente sección para obtener una lista de idiomas). Es posible que los usuarios experimenten menos coincidencias de transacciones y menos cuentas contables sugeridas en otros idiomas.
 
-## What operational factors and settings allow for effective and responsible use of the feature?
-
-
--->
 ## ¿En qué geografías e idiomas está disponible la asistencia de conciliación bancaria? 
 
-Esta capacidad está disponible para cualquier entorno, localización de país/región y en cualquier idioma de usuario. Para entornos de clientes ubicados en países o regiones donde el servicio Azure OpenAI no está implementado, los administradores primero deben dar su consentimiento para permitir el movimiento de datos a través de las fronteras para que [!INCLUDE[prod_short](includes/prod_short.md)] se conecte al servicio Azure OpenAI y para que esta capacidad esté disponible. 
+- Geografías disponibles
 
-Para obtener más información sobre el idioma, consulte la pregunta anterior sobre limitaciones.  
+  La asistencia de conciliación de cuentas bancarias está disponible en todos los [países o regiones de Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) admitidos. Para que los entornos de clientes ubicados en países o regiones donde el servicio Azure OpenAI no está implementado, los administradores deben dar su consentimiento para permitir el movimiento de datos a través de las fronteras para que [!INCLUDE [prod_short](includes/prod_short.md)] se conecte al servicio Azure OpenAI y para que esta capacidad esté disponible. Obtenga más información sobre el [movimiento de datos de Copilot entre geografías](ai-copilot-data-movement.md).
 
-## ¿Qué se espera de los usuarios finales cuando operan la asistencia de conciliación de cuentas bancarias? 
+- Idiomas disponibles
 
-### Al usar la conciliación de cuenta bancaria 
+  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
-Las coincidencias y sugerencias basadas en IA a veces pueden ser incorrectas o incompletas. Los usuarios de la asistencia de conciliación de cuentas bancarias deben revisar la exactitud de las coincidencias y sugerencias proporcionadas por Copilot antes de optar por conservarlas. Las coincidencias y sugerencias de Copilot no se guardan en la base de datos [!INCLUDE[prod_short](includes/prod_short.md)] hasta que elijas el botón Conservar y salgas de la ventana de Copilot. También puede editar y corregir cualquier coincidencia o sugerencia antes de optar por conservarla. 
+Para obtener más información sobre el idioma, consulte la pregunta anterior sobre limitaciones.
 
-### Después de completar la conciliación de cuenta bancaria 
+## ¿Qué se espera de los usuarios del sistema cuando operan el asistente de conciliación de cuentas bancarias?
 
-Se recomienda que los usuarios también verifiquen la precisión y corrijan cualquier discrepancia después de salir de la ventana de Copilot, incluidas las siguientes actividades: 
+### Durante una conciliación de cuenta bancaria
 
-- Revise el informe de prueba de conciliación. 
-- Asegúrese de que su organización cuente con los procesos de revisión y auditoría adecuados. 
-- Vuelva a abrir cualquier conciliación publicada utilizando la función Deshacer. 
-- Corrija cualquier asiento erróneo en el libro mayor mediante la contabilización inversa de asientos. 
+Las coincidencias y sugerencias basadas en IA a veces pueden ser incorrectas o incompletas. Los usuarios del asistente de conciliación de cuentas bancarias deben revisar la exactitud de las coincidencias y sugerencias que proporciona Copilot antes de optar por conservarlas. Las coincidencias y sugerencias de Copilot no se guardan en la base de datos de [!INCLUDE[prod_short](includes/prod_short.md)] hasta que seleccione el botón **Mantenerlo** y cierre la ventana de Copilot. También puede editar y corregir cualquier coincidencia o sugerencia antes de optar por conservarla.
 
-## ¿Qué se espera de los administradores y usuarios finales cuando operan la asistencia de conciliación de cuentas bancarias? 
+### Después de completar la conciliación de cuenta bancaria
 
-Los usuarios finales, como contadores, tesoreros u otras personas que trabajan en la contabilidad empresarial, siempre deben revisar la exactitud de las coincidencias y sugerencias proporcionadas por Copilot antes de optar por conservarlas. Después de conciliar con Copilot, recomendamos revisar el informe de prueba de conciliación para verificar la precisión e identificar cualquier discrepancia. 
+Se recomienda que los usuarios también verifiquen la precisión y corrijan cualquier discrepancia después de cerrar la ventana de Copilot. Este proceso debe incluir las siguientes actividades:
 
-Los administradores deben asegurarse de que se haya concedido acceso a esta capacidad a los usuarios de contabilidad adecuados. 
+- Revise el informe de prueba de conciliación.
+- Asegúrese de que su organización cuente con los procesos de revisión y auditoría adecuados.
+- Vuelva a abrir cualquier conciliación publicada utilizando la función **Deshacer**.
+- Corrija cualquier asiento erróneo en el libro mayor mediante la contabilización inversa de asientos.
 
-## ¿Es Copilot el único medio para completar la conciliación de cuentas bancarias? 
+## ¿Qué se espera de los administradores y usuarios del sistema cuando operan la asistencia de conciliación de cuentas bancarias?
 
-No, el uso de Copilot es opcional. [!INCLUDE[prod_short](includes/prod_short.md)] ofrece medios tradicionales, sin tecnología de inteligencia artificial, para importar extractos bancarios, ejecutar reglas de comparación predefinidas y aplicar coincidencias y contabilizar manualmente en cuentas contables apropiadas. Tanto el enfoque tradicional como Copilot se pueden utilizar simultáneamente dentro de una organización. 
+Los usuarios del sistema, como contables, tesoreros u otras personas que se dediquen a la contabilidad empresarial, deben revisar siempre la exactitud de las coincidencias y sugerencias que Copilot proporciona antes de optar por mantenerlas. Tras la conciliación con Copilot, recomendamos que estos usuarios revisen el informe de prueba de la conciliación para verificar su exactitud e identificar cualquier discrepancia.
+
+Los administradores deben asegurarse de que se haya concedido acceso a esta capacidad a los usuarios de contabilidad adecuados.
+
+## ¿Es Copilot el único medio para completar la conciliación de cuentas bancarias?
+
+N.º No, el uso de Copilot es opcional. [!INCLUDE[prod_short](includes/prod_short.md)] ofrece medios tradicionales, sin tecnología de inteligencia artificial, para importar extractos bancarios, ejecutar reglas de comparación predefinidas y aplicar coincidencias y contabilizar manualmente en cuentas contables apropiadas. Tanto el enfoque tradicional como Copilot se pueden utilizar simultáneamente en una organización.
 
 ## ¿Cómo doy comentarios sobre el contenido generado por IA?
 
-Cada vez que Copilot proporciona coincidencias o sugerencias, puede proporcionar comentarios a Microsoft directamente desde la ventana de Copilot, utilizando los controles Me gusta y No me gusta. Sus comentarios permanecen anónimos y utilizamos estos datos para mejorar la calidad del servicio.
+Cada vez que Copilot le proporcione coincidencias o sugerencias, podrá enviar sus comentarios a Microsoft directamente desde la ventana de Copilot utilizando los controles de me gusta (pulgares arriba) y no me gusta (pulgares abajo). Sus comentarios permanecen anónimos y utilizamos estos datos para mejorar la calidad del servicio.
 
+## Consulte también
 
-## Consulte también .
-
-[Conciliar cuentas bancarias con la asistencia de conciliación bancaria (vista previa)](bank-reconciliation-with-copilot.md)
+[Conciliar cuentas bancarias con Copilot (versión preliminar)](bank-reconciliation-with-copilot.md)

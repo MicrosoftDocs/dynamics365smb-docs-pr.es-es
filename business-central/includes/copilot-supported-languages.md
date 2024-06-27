@@ -1,11 +1,12 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 11/01/2023
+ms.date: 06/10/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-Las sugerencias de textos de marketing solo se admiten en los siguientes idiomas y configuraciones regionales:
+Esta característica de Copilot se validó únicamente en los siguientes idiomas:
 
 |Idioma|Locales|
 |-|-|
@@ -17,3 +18,5 @@ Las sugerencias de textos de marketing solo se admiten en los siguientes idiomas
 |Neerlandés|nl-NL, nl-BE|
 |Italiano|it-IT, it-CH|
 |Japonés|ja-JP|
+
+Si bien se puede utilizar en otros idiomas, es posible que no funcione según lo previsto. La calidad del idioma puede variar según la interacción del usuario o la configuración del sistema, lo que puede afectar a la precisión y la experiencia del usuario.

@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/10/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
 # Asignar documentos electrónicos a líneas de pedido de compra con Copilot (versión preliminar)
 
-A medida que los procesos de adquisiciones se vuelven más digitales, la función de documentos electrónicos en Business Central desempeña un papel clave en la automatización de la recepción y el procesamiento de facturas de proveedores. Copilot puede ayudar en este proceso mejorando la asignación y la correspondencia de las facturas de los proveedores con los pedidos de compra. Esto reduce las tareas que consumen mucho tiempo y que normalmente incluirían búsquedas, consultas e introducción de datos exhaustivas. El beneficio se ve agravado por el hecho de que las facturas de los proveedores a menudo no se relacionan exactamente con los pedidos de compra, en cuyo caso Copilot está mejor posicionado para identificar los pedidos de compra correspondientes. Las capacidades de comparación mejoradas benefician particularmente a las organizaciones pequeñas y medianas que necesitan un seguimiento eficiente de documentos para líneas de órdenes de compra. Copilot es el asistente de trabajo con tecnología de IA que impulsa la creatividad y mejora la productividad de los usuarios de Business Central.
+A medida que los procesos de adquisiciones se vuelven más digitales, la función de documentos electrónicos en Business Central desempeña un papel clave en la automatización de la recepción y el procesamiento de facturas de proveedores. Copilot puede ayudar en este proceso mejorando la asignación y la correspondencia de las facturas de los proveedores con los pedidos de compra. Esta ayuda reduce el tiempo dedicado a tareas que normalmente incluirían una búsqueda exhaustiva, la consulta y la introducción de datos. Otra ventaja es cuando las facturas de los proveedores no se relacionan exactamente con los pedidos de compra En cuyo caso, Copilot está bien posicionado para identificar las órdenes de compra correspondientes. Las capacidades de comparación mejoradas benefician particularmente a las organizaciones pequeñas y medianas que necesitan un seguimiento eficiente de documentos para líneas de órdenes de compra. Copilot es el asistente de trabajo con tecnología de IA que impulsa la creatividad y mejora la productividad de los usuarios de Business Central.
 
 > [!IMPORTANT]
-> - Esta es una característica de Vista previa lista para producción para entornos de producción y sandbox en cualquier localización de país o región, con excepción de Canadá.
+> - Esta es una característica de Vista previa lista para producción para entornos de producción y espacio aislado en cualquier localización de país o región<!-- with the exception of Canada -->.
 > - Las vistas previas listas para producción están sujetas a términos de uso complementarios. Más información: [Términos de uso complementarios para la vista previa de Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - El contenido generado por IA puede ser incorrecto.
 
@@ -25,12 +25,11 @@ En la versión inicial de la aplicación **documento electrónico**, introdujimo
 
 Ahora puede actualizar una orden de compra existente en Business Central con la información recibida en la factura electrónica.
 
-<!--
-> [!NOTE]
-> - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
-> - AI-generated content may be incorrect.-->
+## Idiomas disponibles
 
-## Para activar Copilot  
+[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+
+## Activar Copilot  
 
 Si no ha activado Copilot de **Ayuda de correspondencia de documentos electrónicos**, deberá hacerlo manualmente. Para habilitar el copiloto de **Ayuda de correspondencia de documentos electrónicos**, siga estos pasos: 
 
@@ -43,8 +42,8 @@ Puede empezar a usar Copilot tan pronto como esté activado.
 
 Primero, puede identificar los pedidos de compra que puede corresponder automáticamente. Si su **Proveedor** ha configurado el campo **Recibir documento electrónico en** para trabajar con **Pedidos de Compra**, una vez creado el documento electrónico en [!INCLUDE[prod_short](includes/prod_short.md)] (manualmente o desde un punto final externo), [!INCLUDE[prod_short](includes/prod_short.md)] hará lo siguiente:
 
-1. Si el **Pedido de compra** para este proveedor en particular *existe y hay un número de pedido de compra* en el archivo de **documento electrónico**, [!INCLUDE[prod_short](includes/prod_short.md)] vinculará automáticamente este **Documento electrónico** con el **Pedido de compra** especificado. El **Estado del documento** de este **Documento electrónico** será **En curso** y el **Estado del documento electrónico** en la subpágina **Estado del servicio** será **Pedido vinculado**.  
-Este vínculo será visible en el campo **Documento** de este **Documento electrónico** específico. Si necesita cambiar el **Pedido de compra** vinculado automáticamente, puede hacerlo usando la acción **Actualizar vínculo de pedido de compra** y eligiendo manualmente uno de los pedidos de compra existentes para este proveedor. Puede hacerlo solo antes de hacer coincidir las líneas entre **Documento electrónico** y **Pedido de compra**.  
+1. Si el **Pedido de compra** para este proveedor en particular *existe y hay un número de pedido de compra* en el archivo de **documento electrónico**, [!INCLUDE[prod_short](includes/prod_short.md)] vinculará automáticamente este **Documento electrónico** con el **Pedido de compra** especificado. El **Estado del documento** de este **Documento electrónico** es **En curso** y el **Estado del documento electrónico** en la subpágina **Estado del servicio** es **Pedido vinculado**.  
+Este vínculo es visible en el campo **Documento** de este **Documento electrónico** específico. Si necesita cambiar el **Pedido de compra** vinculado automáticamente, puede hacerlo usando la acción **Actualizar vínculo de pedido de compra** y eligiendo manualmente uno de los pedidos de compra existentes para este proveedor. Puede hacerlo solo antes de hacer coincidir las líneas entre **Documento electrónico** y **Pedido de compra**.  
 2. Si el **Pedido de compra** para este proveedor específico *existe pero no hay ningún número de pedido de compra* en el archivo de **documento electrónico** recibido, si ha cargado este documento manualmente, [!INCLUDE[prod_short](includes/prod_short.md)] permite elegir uno de los pedidos de compra existentes cuando y si cargó este documento manualmente, abriendo la lista **Pedidos de compra** de los pedidos que ha obtenido de proveedores que contienen solo el **Documento electrónico**, donde debe seleccionar **Pedido de compra** que desea y seleccionar **Aceptar**. Si no seleccionó el **Pedido de compra** correcto u obtuvo el **Documento electrónico** automáticamente desde un extremo externo utilizando la **Cola de trabajos**, el nuevo **Documento electrónico** no se vinculará con ningún documento de compra, el **Estado del documento** será **Error** y el **Estado del documento electrónico** en la subpágina **Estado del servicio** será **Error de procesamiento de documento importado**. Para finalizar la vinculación con el **Pedido de compra**, seleccione la acción **Actualizar vínculo de pedido de compra** y elija uno de los pedidos de compra existentes para este proveedor.  
 
 ## Asignar líneas
@@ -64,11 +63,11 @@ Cuando desee ejecutar la comparación del pedido de compra, elija la acción **A
 2. Puede observar que la solicitud **Líneas de pedido de correspondencia de documentos electrónicos con Copilot** está funcionando y tiene la página **Conciliación de pedidos de compra** en segundo plano. Eso significa que está ocurriendo el mismo proceso pero con el apoyo automático de **Copilot**, que ejecuta el proceso de emparejamiento en su lugar. 
 3. Después de unos segundos, la **Líneas de pedido de correspondencia de documentos electrónicos con Copilot** sugerirán líneas para combinar con algunos detalles más: 
 
-    1. En el encabezado del mensaje, puede encontrar la siguiente información: 
+    1. En el encabezado del mensaje, puede encontrar la siguiente información:   
 
     |Nombre del campo |Descripción |
     |--------|-----------------|
-    |Coincidencia automática | Especifica el número de coincidencias propuestas por Copilot. Esto se basa en una comparación de cadenas y si hay un 80 % o más de descripciones superpuestas, el sistema hará coincidir estas descripciones automáticamente sin utilizar las capacidades de GPT. |
+    |Coincidencia automática | Especifica el número de coincidencias propuestas por Copilot. Este número se basa en una comparación de cadenas y si hay un 80 % o más de descripciones superpuestas, el sistema hará coincidir estas descripciones automáticamente sin utilizar las capacidades de Copilot. |
     |Coincidencia por Copilot | Especifica el número de coincidencias propuestas por Copilot mediante comparación semántica y de cadenas. |
     |N.º documento electrónico | Especifica el número del documento electrónico vinculado. |
     |Importe total sin IVA | Permite especificar el importe total de la factura sin IVA. |
@@ -81,10 +80,10 @@ Cuando desee ejecutar la comparación del pedido de compra, elija la acción **A
     |--------|-----------------|
     |N.º línea documento electrónico | Especifica el número de línea del documento electrónico (procedente del archivo del documento electrónico original). |
     |Descripción de la línea del documento electrónico | Especifica la descripción de línea del documento electrónico (procedente del archivo del documento electrónico original). |
-    |Cantidad conciliada | Especifica la cantidad que se liquidará a la línea del pedido de compra. |
+    |Cantidad conciliada | Especifica la cantidad que se liquida a la línea del pedido de compra. |
     |Propuesta | Especifica la acción propuesta por la IA y estas acciones sugeridas están relacionadas con la comparación de las líneas del pedido de compra. |
 
-    4. Todas las líneas totalmente sugeridas y coincidentes están marcadas en color verde. Si hay algún problema, es decir, precio diferente, pero dentro del rango de precios permitido, esta línea se marcará en color amarillo, y si hay alguna similitud entre los campos de descripción pero la diferencia de precio es mayor de lo permitido, esta línea se marcará en color rojo. 
+    4. Todas las líneas totalmente sugeridas y coincidentes están marcadas en color verde. Si hay un problema, por ejemplo, un precio diferente pero dentro del rango de precios permitido, esta línea se marca con un color amarillo. Si hay alguna similitud entre los campos de descripción pero la diferencia de precio es mayor de lo permitido, esta línea se marca con un color rojo.
     5. Si no está satisfecho con algunas sugerencias, puede eliminarlas usando la acción **Eliminar línea**.  
     6. Si desea ver las coincidencias de propuestas, puede seleccionar el enlace en la columna **Propuesta** para abrir la página **Detalles de coincidencia de documentos electrónicos**. 
     7. En la página **Detalles de coincidencia de documentos electrónicos** puede comparar los detalles del **Documentos electrónicos** y del **Pedido de compra** para estar seguro de la coincidencia sugerida antes de confirmarla. 

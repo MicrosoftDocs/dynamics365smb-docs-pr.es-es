@@ -2,35 +2,35 @@
 title: 'Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"'
 description: 'Resuelva el error del mensaje "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas" al ejecutar el trabajo por lotes Ajustar coste: movimientos de producto.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/17/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"
+# Mensaje de error: "La fecha de registro no está comprendida en su periodo de fechas de registro permitidas"
 
 Al usar el trabajo por lotes **Ajustar coste: movimientos de producto** puede encontrarse con el siguiente mensaje de error:
 
 **La fecha de registro no está comprendida en su periodo de fechas de registro permitidas**
 
-Este mensaje de error indica que el usuario no puede publicar registros para la fecha en cuestión, y esto se puede solucionar cambiando la configuración del usuario.
+Este mensaje indica que no puede publicar entradas para la fecha que introdujo. Puede solucionar este problema cambiando su configuración de usuario.
 
-## <a name="change-the-user-setup"></a>Cambiar la configuración del usuario
+## Cambiar la configuración del usuario  
 
-|Id. de usuario  |Permitir registro desde  | Permitir registro hasta  |
+|Id. de usuario  |Permite registro desde  | Permitir registro hasta  |
 |---------|---------|--------|
 |EUROPA  |  2020-09-11      |2020-09-30      |
 
-El usuario en este caso tiene un rango de fechas de registro permitidas desde el 11 hasta el 30 de septiembre y, por lo tanto, no puede registrar el movimiento de valor de ajuste con fecha de publicación el 10 de septiembre.  
+En este caso, puede publicar en el rango de fechas del 11 al 30 de septiembre. Sin embargo, no se le permite registrar la entrada del valor de ajuste con una fecha de publicación del 10 de septiembre.  
 
-### <a name="overview-of-the-posting-date-setup"></a>Descripción general de la configuración de la fecha de registro involucrada
+### Descripción general de la configuración de la fecha de registro
 
-#### <a name="inventory-periods"></a>Periodos de inventario
+#### Periodos inventario
 
-|Fecha final  |Name  |Cerrada  |
+|Fecha final  |Nombre  |Cerrada  |
 |---------|---------|---------|
 |2020-01-31     |2020 de enero      |  Sí    |
 |2020-02-28     |Febrero de 2020     |  Sí    |
@@ -45,7 +45,7 @@ El usuario en este caso tiene un rango de fechas de registro permitidas desde el
 |2020-11-30     |Noviembre de 2020   |         |
 |2020-12-31     |Diciembre de 2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Configuración de contabilidad
+#### Configuración de contabilidad
 
 |Campo|Valor|
 |---------|---------|
@@ -54,17 +54,17 @@ El usuario en este caso tiene un rango de fechas de registro permitidas desde el
 |Registrar tiempo:       |         |
 |Formato dirección local:|   C.P.      |  
 
-#### <a name="user-setup"></a>Configuración de usuarios
+#### Configuración de usuarios
 
 |Id. de usuario  |Permitir registro desde  | Permitir registro hasta  |
 |---------|---------|--------|
 |USERNAME |  2020-09-10      |2020-09-30      |
 
-Al asignar un rango de fechas de registro permitido más amplio que en el periodo de inventario o la configuración de contabilidad, será posible evitar el conflicto que provoca el mensaje de error. El movimiento valor de ajuste con fecha de contabilización del 10 de septiembre se contabilizará correctamente con esta configuración.
+Al asignar un intervalo de fechas de en el que permite registrar en las páginas **Periodo de inventario** o la **configuración de contabilidad**, será posible evitar el conflicto que provoca el mensaje de error. Por ejemplo, el intervalo más amplio le permite publicar la entrada del valor de ajuste con una fecha de publicación del 10 de septiembre.
   
-## <a name="see-also"></a>Consulte también
+## Consulte también  
 
-[Detalles de diseño: Fecha registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Detalles de diseño: fecha de registro en el movimiento de valor de ajuste](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Detalles de diseño: Coste de inventario](design-details-inventory-costing.md)  
 [Detalles de diseño: Liquidación de productos](design-details-item-application.md)  
 

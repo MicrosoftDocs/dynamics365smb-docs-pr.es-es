@@ -2,14 +2,16 @@
 title: Definir cómo se intercambian los datos electrónicamente
 description: 'Defina cómo Business Central intercambia datos con archivos externos como documentos electrónicos, datos bancarios, catálogos de artículos y más.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
-ms.date: 11/03/2022
-ms.author: bholtorf
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-data-exchange-definitions"></a>Configurar definiciones de intercambio de datos
+# Configurar definiciones de intercambio de datos
 
 Puede configurar [!INCLUDE[prod_short](includes/prod_short.md)] para intercambiar datos en tablas específicas con datos en archivos externos. Por ejemplo para enviar y recibir documentos electrónicos, importar y exportar datos bancarios u otros datos, como nóminas y catálogos de artículos. Más información en [Intercambio de datos electrónicamente](across-data-exchange.md).  
 
@@ -26,14 +28,14 @@ Este artículo incluye los siguientes procedimientos:
 * Exportar una definición de intercambio de datos como un archivo XML para que lo utilicen otros usuarios.
 * Importar un archivo XML para una definición de intercambio de datos existente.
 
-## <a name="create-a-data-exchange-definition"></a>Crear una definición de intercambio de datos
+## Crear una definición de intercambio de datos
 
 La creación de una definición de intercambio de datos implica dos tareas:  
 
 1. En la página **Definición de intercambio de datos**, describe el formato de líneas y columnas del archivo. Más información en la sección [Para describir el formato de las líneas y las columnas en el archivo](#formatlinescolumns).  
 2. En la página **Asignación de intercambio de datos**, asigne las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]. Más inforamción en la sección [Para asignar columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Para describir el formato de las líneas y las columnas en el archivo
+### <a name=formatlinescolumns></a>Para describir el formato de las líneas y las columnas en el archivo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -79,7 +81,7 @@ La creación de una definición de intercambio de datos implica dos tareas:
 
 5. Repita el paso 4 para crear una línea por cada tipo de datos de archivo que desee exportar.  
 
-     Continúe con la descripción del formato de las columnas en el archivo de datos rellenando los campos de la ficha desplegable **Definiciones de línea**, tal como se describe en la tabla siguiente. Puede utilizar el archivo de estructura, como un archivo .xsd, para que archivo de datos llene previamente la ficha desplegable con los elementos correspondientes. Más información en [Usar esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
+     Continúe con la descripción del formato de las columnas en el archivo de datos rellenando los campos de la ficha desplegable **Definiciones de línea**, tal como se describe en el paso 8 de la tabla. Puede utilizar un archivo de estructura, como un archivo .xsd, para que archivo de datos llene previamente la ficha desplegable con los elementos correspondientes. Más información en [Usar esquemas XML para preparar definiciones de intercambio de datos](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
 
 6. En la ficha desplegable **Definiciones de columna**, elija la acción **Obtener estructura de archivo**.  
 7. En la página **Obtener estructura de archivos**, seleccione el archivo de estructura relacionado y luego elija **Aceptar**. Las líneas de la ficha desplegable **Definiciones de columna** se rellenan según la estructura del archivo de datos.  
@@ -91,7 +93,7 @@ La creación de una definición de intercambio de datos implica dos tareas:
     |**Nombre**|Especifique el nombre de la columna.<br /><br /> En el caso de archivos XML, especifique el marcado de los datos que se intercambiarán.|  
     |**Tipo de datos**|Indique si los datos que se van a intercambiar son de tipo **Texto**, **Fecha** o **Decimal**.|  
     |**Formato de datos**|Especifique el formato de los datos, si lo hay. Por ejemplo, **dd-mm-aaaa** si el tipo de datos es **Fecha**. **Nota:** Para exportar, especifique el formato de datos según [!INCLUDE[prod_short](includes/prod_short.md)]. Para importar, especifique el formato de datos según .Net Framework. Más información en [Cadenas de tiempo y fecha estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
-    |**Referencia cultural de formato de datos**|Especifique el formato de datos regionales, si lo hay. Por ejemplo, **en-US** si el tipo de datos es **Decimal** para garantizar que la coma se utiliza como el separador de .000 según el formato de EE.UU. Más información en [Cadenas de tiempo y fecha estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Nota:** Este campo solo es pertinente para la importación.|  
+    |**Referencia cultural de formato de datos**|Especifique el formato de datos regionales, si lo hay. Por ejemplo, **en-US** si el tipo de datos es **Decimal** para garantizar que la coma se utiliza como el separador de 0.000 según el formato de EE. UU. Más información en [Cadenas de tiempo y fecha estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Nota:** Este campo solo es pertinente para la importación.|  
     |**Longitud**|Especifique la longitud de la línea de ancho fijo que contiene la columna si el archivo de datos es de tipo **Fixed Text**.|  
     |**Descripción**|Especifica una descripción de la columna, para fines informativos.|  
     |**Ruta acceso**|Especifique la posición del elemento en el esquema XML relacionado.|  
@@ -108,7 +110,7 @@ El paso siguiente en la creación de una definición de intercambio de datos es 
 > [!NOTE]  
 > La asignación específica depende del objetivo empresarial del archivo de datos que se intercambiará y de las variaciones locales. Incluso el estándar bancario de SEPA presenta variaciones locales. [!INCLUDE[prod_short](includes/prod_short.md)] admite importar archivos de extractos bancarios CAMT SEPA originales. Se representa mediante el código de registro de definición de intercambio de datos de **CAMT de SEPA** en la página **Definiciones intercambio de datos**. Para obtener información acerca de la asignación de campos específicos de esta ayuda de CAMT de SEPA, consulte [Asignación de campos al importar archivos CAMT de SEPA](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name=mapfields></a>Para asignar las columnas en el archivo de datos a los campos de [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > A veces, los valores en los campos que desea asignar son diferentes. Por ejemplo, en una aplicación comercial, el código de idioma para Estados Unidos es "U.S.", pero en la otra es "US". Eso significa que debe transformar el valor cuando intercambia datos. Esto sucede por de las reglas de transformación que define para los campos. Obtenga más información en [Reglas de transformación](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -121,7 +123,7 @@ También puede agrupar por cualquier campo, usar el índice clave para ordenar l
     |Campo|Descripción|  
     |---------------------------------|---------------------------------------|  
     |**Id. tabla**|Especifique la tabla que contiene los campos a los que se intercambian los datos, o desde los que se intercambian, según la asignación.|  
-    |**Usar como tabla intermedia**|Especifique si la tabla que seleccionó en el campo **Id. tabla** es una tabla intermedia en la que se almacenan los datos importados antes de asignarlos a la tabla de destino.<br /><br /> Normalmente se usa una tabla intermedia cuando la definición de intercambio de datos se utiliza para importar y para convertir los documentos electrónicos, como facturas de proveedor en facturas de compra en [!INCLUDE[prod_short](includes/prod_short.md)]. Más información en [Intercambio de datos electrónicamente](across-data-exchange.md).|  
+    |**Usar como tabla intermedia**|Especifique si la tabla que seleccionó en el campo **Id. tabla** es una tabla intermedia en la que se almacenan los datos importados antes de asignarlos a la tabla de destino.<br/><br/> Normalmente se usa una tabla intermedia cuando la definición de intercambio de datos importa y convierte los documentos electrónicos en [!INCLUDE[prod_short](includes/prod_short.md)]. Por ejemplo, documentos como facturas de proveedores en facturas de compra. Más información en [Intercambio de datos electrónicamente](across-data-exchange.md).|  
     |**Nombre**|Escriba un nombre para la configuración de asignación.|  
     |**Índice de la clave**|Especifique el índice de clave para ordenar los registros de origen antes de la exportación.|
     |**Codeunit de preasignación**|Especifique la codeunit que prepara la asignación entre los campos de [!INCLUDE[prod_short](includes/prod_short.md)] y los datos externos.|  
@@ -137,9 +139,9 @@ También puede agrupar por cualquier campo, usar el índice clave para ordenar l
      |**Id. de campo**|Especificar a qué campo se asigna la columna del campo **Nº Columna** .<br /><br /> Solo puede seleccionar en los campos que existan en la tabla especificada en el campo **Id. de tabla** en la ficha desplegable **General**.|
      |**Título campo**|Especifica el título del campo en el archivo externo que se asigna al campo que se encuentra en el campo **Id. de la tabla de destino**, cuando se usa una tabla intermedia para importar datos.|
      |**Opcional**|Especifique si se debe omitir la asignación si el campo está vacío. Si no selecciona esta opción, se producirá un error de exportación si el campo está vacío.|  
-     |**Regla de transformación**|Especifica la regla que transforma el texto importado en un valor admitido para que se pueda asignar a un campo especificado. Cuando elige un valor en este campo, el mismo valor se introduce en el campo **Regla de transformación** en la tabla **Búfer asignación campo intercambio datos** y viceversa. Consulte la siguiente sección para obtener más información sobre las reglas de transformación disponibles que se pueden aplicar.|
-     |**Sobrescribir valor**|Especifica que el valor actual se sobrescribirán con un nuevo valor.|
-     |**Prioridad**|Especifique el orden en que se deben procesar las asignaciones de campos. La asignación de campo con el número de mayor prioridad se procesará primero.|
+     |**Regla de transformación**|Especifica la regla que transforma el texto importado en un valor admitido para que se pueda asignar a un campo especificado. Cuando elige un valor en este campo, el mismo valor se introduce en el campo **Regla de transformación** en la tabla **Búfer asignación campo intercambio datos** y viceversa. Para obtener más información sobre cómo aplicar reglas de transformación, vaya a [Reglas de transformación](#transformation-rules).|
+     |**Sobrescribir valor**|Especifique que el nuevo valor puede sobrescribir el valor actual.|
+     |**Prioridad**|Especifique el orden en que se deben procesar las asignaciones de campos. La asignación de campo con el número de mayor prioridad se procesa primero.|
      |**Multiplicador**|Especifique un multiplicador que se aplicará a los datos numéricos, incluidos los valores negativos.|
 
    * Con el control de alternancia **Usar como tabla intermedia** activado:
@@ -153,8 +155,8 @@ También puede agrupar por cualquier campo, usar el índice clave para ordenar l
      |**Id. del campo de destino**|Especifique el campo de la tabla de destino al que se asigna el valor del campo **Título columna**, cuando se usa una tabla intermedia para importar datos.|
      |**Título campo**|Especifique el nombre del campo de la tabla de destino al que se asigna el valor del campo **Título columna**, cuando se usa una tabla intermedia para importar datos.|
      |**Validar solo**|Especifique que el mapa de elemento a campo no se usa para convertir datos, sino solo para validarlos.|
-     |**Regla de transformación**|Especifica la regla que transforma el texto importado en un valor admitido para que se pueda asignar a un campo especificado. Cuando elige un valor en este campo, el mismo valor se introduce en el campo **Regla de transformación** en la tabla **Búfer asignación campo intercambio datos** y viceversa. Consulte la siguiente sección para obtener más información sobre las reglas de transformación disponibles que se pueden aplicar.|
-     |**Prioridad**|Especifique el orden en que se deben procesar las asignaciones de campos. La asignación de campo con el número de mayor prioridad se procesará primero.|
+     |**Regla de transformación**|Especifica la regla que transforma el texto importado en un valor admitido para que se pueda asignar a un campo especificado. Cuando elige un valor en este campo, el mismo valor se introduce en el campo **Regla de transformación** en la tabla **Búfer asignación campo intercambio datos** y viceversa. Para obtener más información sobre reglas de transformación, vaya a [Reglas de transformación](#transformation-rules).|
+     |**Prioridad**|Especifique el orden en que se deben procesar las asignaciones de campos. La asignación de campo con el número de mayor prioridad se procesa primero.|
 
 4. En la ficha desplegable **Agrupación de campos**, especifique las reglas que desea usar para agrupar sus campos cuando cree el archivo completando los campos como se describe en la siguiente tabla.  
 
@@ -163,7 +165,7 @@ También puede agrupar por cualquier campo, usar el índice clave para ordenar l
      |**Id. de campo**|Especifique el número del campo en el archivo externo que se usa para agrupar y este campo debe configurarlo el usuario.|
      |**Título campo**|Especifique el título del campo en el archivo externo que se usa para agrupación.|
 
-## <a name="transformation-rules"></a>Reglas de transformación
+## Reglas de transformación
 
 Si los valores en los campos que está asignando difieren, debe usar reglas de transformación para las definiciones de intercambio de datos para que sean iguales. Defina reglas de transformación para las definiciones de intercambio de datos abriendo una definición existente, o creando una nueva definición, y luego en las **Definiciones de línea** FastTab, eligiendo **Gestionar**, y entonces **Mapeo de campo**. Se proporcionan reglas predefinidas, pero también puede crear las suyas propias. La siguiente tabla describe los tipos de transformaciones que puede realizar.
 
@@ -180,7 +182,7 @@ Si los valores en los campos que está asignando difieren, debe usar reglas de t
 |**Formato de fecha**|Especifique cómo mostrar las fechas. Por ejemplo, puede transformar DD-MM-AAAA a AAAA-MM-DD.|
 |**Símbolo decimal**|Defina reglas para la colocación de decimales y la precisión de redondeo.|
 |**Coincidencia - expresiones regulares**|Use una expresión regular para encontrar uno o más valores. Esta regla es similar a las opciones de **Subcadena** y **Expresión regular - Reemplazar**.|
-|**Personalizado**|Esta regla de transformación es una opción avanzada que requiere asistencia de un desarrollador. Permite un evento de integración al que puede suscribirse si desea usar su propio código de transformación. Si es desarrollador y desea utilizar esta opción, consulte la sección de abajo.|
+|**Personalizado**|Esta regla de transformación es una opción avanzada que requiere asistencia de un desarrollador. Permite un evento de integración al que puede suscribirse si desea usar su propio código de transformación. Si es desarrollador y desea utilizar esta opción, vaya a [Consejo para desarrolladores: ejemplo de la opción personalizada](#tip-for-developers-example-of-the-custom-option).|
 |**Formato de fecha y hora**|Defina cómo mostrar la fecha actual y la hora del día.|
 |**Búsqueda de campo**|Utilice campos de diferentes tablas. Para usarlos, necesita seguir algunas reglas. Primero, use el **Id. de tabla** para especificar el id. de la tabla que contiene el registro para la búsqueda de campos. Después, en el campo **Id. campo origen**, especifique el id. del campo que contiene el registro para la búsqueda de campo. Por último, en el campo **Id. campo destino**, especifique el id. del campo en el que se encuentra el registro para la búsqueda de campo. Opcionalmente, utilice el campo **Regla de búsqueda de campo** para especificar el tipo de búsqueda de campo. Para el campo **Objetivo**, se usa el valor de **Id. campo destino**, incluso si está en blanco. Para el campo **Original si el destino está en blanco**, se utiliza el valor original si el destino está en blanco.|
 |**Redondear**|Redondee el valor en este campo usando algunas reglas adicionales. Primero, en el campo **Precisión**, especifique una precisión de redondeo. Después, en el campo **Dirección**, especifique la dirección de redondeo.|
@@ -188,7 +190,7 @@ Si los valores en los campos que está asignando difieren, debe usar reglas de t
 > [!NOTE]  
 > Obtenga más información sobre el formato de fecha y hora en [Cadenas de formato de fecha y hora estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Consejo para desarrolladores: ejemplo de la opción personalizada
+### Consejo para desarrolladores: ejemplo de la opción personalizada
 
 El siguiente ejemplo muestra cómo implementar su propio código de transformación.
 
@@ -206,7 +208,7 @@ codeunit 60100 "Hello World"
 
 Después de definir sus reglas, puede probarlas. En la sección fich desplegable **Prueba**, introduzca un ejemplo de un valor que desea transformar y luego verifique los resultados mediante **Actualizar**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Exportar una definición de intercambio de datos como un archivo XML para que lo utilicen otros usuarios
+## Exportar una definición de intercambio de datos como un archivo XML para que lo utilicen otros usuarios
 
 Cuando haya creado la definición de intercambio de datos para un archivo de datos específico, podrá exportar la definición de intercambio de datos como un archivo XML que podrá importar. Esta tarea se describe en el procedimiento siguiente:  
 
@@ -217,14 +219,14 @@ Cuando haya creado la definición de intercambio de datos para un archivo de dat
 
     Si ya se ha creado una definición de intercambio de datos, solo tiene que importar el archivo XML al marco de intercambio de datos. Esta tarea se describe en el procedimiento siguiente:  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Importar una definición de intercambio de datos existente
+## Importar una definición de intercambio de datos existente
 
 1. Guarde el archivo XML que representa la definición del intercambio de datos en una ubicación adecuada.  
 2. Elija el icono ![Bombilla que abre la función Dígame 1.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Definiciones de intercambio de datos** y, a continuación, elija el vínculo relacionado.  
 3. Seleccione la acción **Importar definición de intercambio de datos**.  
 4. Seleccione el archivo que ha guardado en el paso 1.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Configuración del intercambio de datos](across-set-up-data-exchange.md)  
 [Configurar el envío y la recepción de documentos electrónicos](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

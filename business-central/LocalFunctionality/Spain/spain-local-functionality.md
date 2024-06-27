@@ -4,17 +4,17 @@ description: En los artículos siguientes se describe la funcionalidad local de 
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 04/25/2024
+ms.date: 06/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="spain-local-functionality-in-the-spanish-version"></a>Funcionalidad local para España en la versión española
+# Funcionalidad local para España en la versión española
 
 En los artículos siguientes se describe la funcionalidad local que es única para la versión española de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilidad de la característica
+## Disponibilidad de la característica
 
 * IVA  
   * [SII para informes de IVA](sii-setup.md) **Disponible ahora**
@@ -67,15 +67,14 @@ En los artículos siguientes se describe la funcionalidad local que es única pa
   * [Introducir códigos NACE](how-to-enter-nace-codes.md) **Disponible ahora**
   * [Establecer límites para fechas de vencimiento](how-to-set-limits-for-due-dates.md) **Disponible ahora**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Se están investigando los requisitos de legislación futura
+## Se están investigando los requisitos de legislación futura
 
-* Facturación electrónica en español: **prevista para el segundo lanzamiento de versiones de 2024**  
-* Estados SII - **previstos para Segunda ola de lanzamientos de 2024**  
-* Los requisitos relacionados con la *Ley antifraude* en España y el impacto en Business Central son objeto de investigación. 
+* Facturación electrónica en español: **prevista para diciembre de 2024**  
+* Los requisitos relacionados con la *Ley antifraude* en España y cómo afectan a Business Central son objeto de investigación. 
 
 Si está al tanto de cualquier característica reglamentaria futura, envíe una [Alerta de características reglamentarias](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Trabajar con [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
 [Disponibilidad nacional/regional e idiomas admitidos](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

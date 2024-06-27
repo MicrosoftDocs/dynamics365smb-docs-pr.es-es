@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'relationship, prospect'
-ms.date: 04/19/2024
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-contacts"></a>Crear contactos
+# Crear contactos
 
 Cuando desarrolle una relación comercial con alguien de otra empresa, agréguelo como contacto en [!INCLUDE[prod_short](includes/prod_short.md)]. Luego, agregue cualquier información sobre ellos o su empresa que pueda ser útil para futuras comunicaciones. Puede crear los siguientes tipos de contactos en la página **Ficha contacto**:
 
@@ -23,7 +23,7 @@ También puede modificar el valor del campo **Tipo** más tarde. Alternativament
 
 Cuando un contacto se convierte en un cliente, proveedor o empleado, por ejemplo, la persona de contacto o la empresa de contacto se convierte en el nombre del cliente. El registro del contacto se mantiene y puede vincular el contacto y el cliente para que sus datos se sincronicen en el futuro.
 
-## <a name="to-create-a-contact-manually"></a>Para crear un contacto manualmente
+## Para crear un contacto manualmente
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione la acción **Nuevo**.
@@ -32,7 +32,7 @@ Cuando un contacto se convierte en un cliente, proveedor o empleado, por ejemplo
    Por otra parte, si tiene un número de serie para los contactos de la página **Configuración de marketing**, puede seleccionar <kbd>Entrar</kbd> para hacer que el sistema inserte el siguiente número de contacto disponible.
 4. Rellene los campos restantes según sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Para crear un contacto desde un cliente, proveedor o banco
+## Para crear un contacto desde un cliente, proveedor o banco
 
 Si tiene clientes, proveedores y cuentas bancarias existentes para los que desea crear tarjetas de contacto, puede usar los trabajos por lotes **Crear Contactos desde**. Al crear un contacto de esta manera, la información de contacto se sincroniza más tarde con la información del cliente, proveedor o de la cuenta bancaria relacionada. Obtenga más información en [Sincronizar contactos con clientes, proveedores, empleados y bancos](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
@@ -51,7 +51,7 @@ Los siguientes números de contacto de la serie se asignan a los nuevos contacto
 > [!TIP]  
 > También puede hacerlo al revés, es decir, creando un cliente, proveedor, empleado o cuenta bancaria desde un contacto. Obtenga más información en la sección [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
-## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>Para crear un un cliente, proveedor, empleado o banco a partir de un contacto
+## Para crear un un cliente, proveedor, empleado o banco a partir de un contacto
 
 Si tiene un cliente, proveedor, empleado o banco para la empresa para la que desea crear un contacto, puede usar la acción **Crear como**. Al crear un contacto de esta manera, la información de contacto se sincroniza más tarde con la información del cliente, proveedor, empleado o banco. Obtenga más información en [Sincronizar contactos con clientes, proveedores y bancos](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
 
@@ -65,7 +65,7 @@ Si tiene un cliente, proveedor, empleado o banco para la empresa para la que des
 
 La información de contacto se transfiere de la ficha de contacto a una nueva tarjeta de cliente, proveedor, empleado o banco. Tal vez desee agregar información específica a cada una de las fichas, como detalles de facturación y de pago. Para obtener un ejemplo, vea [Registrar nuevos clientes](sales-how-register-new-customers.md).
 
-## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a>Para vincular un contacto con un cliente, proveedor, empleado o cuenta bancaria existente
+## Para vincular un contacto con un cliente, proveedor, empleado o cuenta bancaria existente
 
 Si tiene un contacto y un cliente, proveedor, empleado o banco para la misma empresa, puede vincular las dos entidades para sincronizar datos.
 
@@ -75,7 +75,7 @@ Si tiene un contacto y un cliente, proveedor, empleado o banco para la misma emp
 4. En el campo **Campos principales actuales**, especifique los campos a los que el sistema da prioridad cuando hay información conflictiva de los campos comunes al contacto y cliente, proveedor, empleado o banco. Por tanto, si el código de vendedor difiere entre el contacto y el cliente, puede optar por mantener el de la tarjeta de contacto seleccionando **Contacto**.
 5. Elija **Aceptar**.
 
-## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>Para quitar un vínculo entre un contacto y un cliente, proveedor, empleado o cuenta bancaria existente
+## Para quitar un vínculo entre un contacto y un cliente, proveedor, empleado o cuenta bancaria existente
 
 Si ha vinculado incorrectamente un contacto con un cliente, proveedor, empleado o cuenta bancaria, elimine el vínculo entre las entidades para que los datos ya no se sincronicen.
 
@@ -87,7 +87,7 @@ Si ha vinculado incorrectamente un contacto con un cliente, proveedor, empleado 
 > [!NOTE]  
 > No utilice la ventana **Relaciones de negocio** para cambiar las relaciones existentes. En su lugar, elimine la relación y use la acción **Vincular con existente**. Obtenga más información en la sección [Para vincular un contacto a un cliente, proveedor, empleado o cuenta bancaria existente](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Sincronizar contactos con clientes, proveedores, empleados y bancos
+## Sincronizar contactos con clientes, proveedores, empleados y bancos
 
 Si algunos contactos también son clientes, proveedores, empleados o bancos, podrá sincronizarlos con datos del contacto y obtener las siguientes ventajas:
 
@@ -107,12 +107,12 @@ Hay tres maneras de habilitar la sincronización de datos entre contactos y clie
 * Cuando crea clientes, proveedores, empleados o bancos a partir de contactos. Obtenga más información en la sección [Para crear un contacto como proveedor, empleado o banco de un contacto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 * Cuando se vinculan los contactos con clientes existentes, proveedores, empleados o bancos desde la tarjeta de contacto. Obtenga más información en la sección [Para vincular un contacto a un cliente, proveedor, empleado o cuenta bancaria existente](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Para ver con qué cliente, proveedor, empleado o banco está relacionado un contacto
+## Para ver con qué cliente, proveedor, empleado o banco está relacionado un contacto
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Contactos** y luego elija el enlace relacionado.
 2. Seleccione la línea de un contacto, elija la acción **Información relacionada** y, a continuación, la acción **Cliente/Proveedor/Empleado/Banco**.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Gestionar contactos](marketing-contacts.md)  
 [Configurar contactos](marketing-setup-contacts.md)  
