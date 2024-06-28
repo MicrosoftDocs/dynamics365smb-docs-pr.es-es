@@ -2127,6 +2127,7 @@ ms.service: dynamics-365-business-central
 ### [Preguntas frecuentes sobre la asignación de documentos electrónicos con pedidos de compra mediante Copilot](faqs-map-edocuments.md)
 # IA responsable
 ## [Información general](responsible-ai-overview.md)
+## [Preguntas frecuentes sobre la seguridad y privacidad de los datos de Copilot](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [Preguntas frecuentes sobre la asistencia al análisis (versión preliminar)](faqs-analysis-assist.md)
 ## [Preguntas frecuentes para la asistencia de conciliación bancaria (versión preliminar)](faqs-bank-reconciliation.md)
 ## [Preguntas frecuentes para Chatear con Copilot (versión preliminar)](faqs-chat-with-copilot.md)
