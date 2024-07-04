@@ -6,18 +6,18 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 05/08/2024
+ms.date: 06/19/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-management-overview"></a>Información general de la administración de la sostenibilidad
+# Información general de la administración de la sostenibilidad
 
 > [!IMPORTANT]
 > Esta característica estará disponible en Business Central a partir del **primer lanzamiento de versiones de 2024**. Todos los vínculos de referencia se habilitarán una vez que estén disponibles.
 
-Business Central ofrece una característica de administración de sostenibilidad que le ayuda a supervisar y administrar el impacto de su organización en el medio ambiente. Esta característica está diseñada para supervisar y regular la huella ambiental de una organización mediante el seguimiento de diversas emisiones de gases de efecto invernadero (GEI). De esta manera, facilita conocimientos adecuados. La característica respalda el proceso básico de recopilación de datos sobre emisiones a través de diarios de sostenibilidad. Puede introducir manualmente datos conocidos o utilizar métodos integrados para calcular las huellas de emisiones.
+Business Central ofrece una característica de administración de sostenibilidad que le ayuda a supervisar y administrar su organización y su impacto en el medio ambiente. Esta característica está diseñada para supervisar y regular la huella ambiental de una organización mediante el seguimiento de diversas emisiones de gases de efecto invernadero (GEI). De esta manera, facilita conocimientos adecuados. La característica respalda el proceso básico de recopilación de datos sobre emisiones a través de diarios de sostenibilidad. Puede introducir manualmente datos conocidos o utilizar métodos integrados para calcular las huellas de emisiones.
 
 > [!NOTE]
 > Esta versión inicial sirve como base y es completamente independiente de otras funciones de Business Central. Sin embargo, las versiones futuras apuntarán a una integración más estrecha y podrían automatizar algunos procesos manuales.
@@ -39,16 +39,25 @@ Para iniciarse con la administración de sostenibilidad, use los artículos sigu
 
 | Artículo | Descripción |
 |---------|-------------|
+| **Característica** |             |
 | [Configuración de sostenibilidad](finance-sustainability-setup.md) | Este artículo proporciona información para ayudarle a configurar correctamente todo el módulo de sostenibilidad. |
-| [Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md) | Este artículo proporciona información sobre cómo configurar correctamente el plan de cuentas de sostenibilidad (CoSA), las categorías de cuentas y las subcategorías, y cómo analizar la información en las entradas de sostenibilidad. |
+| [Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md) | Este artículo proporciona información sobre cómo configurar planes de cuentas de sostenibilidad (CoSA), categorías de cuentas y subcategorías. Y también, cómo analizar la información en movimientos de sostenibilidad. |
 | [Registrar entradas de sostenibilidad](finance-sustainability-journal.md) | Utilice este artículo para aprender a trabajar con todo tipo de diarios de sostenibilidad. |
+| **Notificación** |             |
+| [Análisis ad hoc de datos de sostenibilidad](ad-hoc-analysis-sustainability.md) | Este artículo proporciona información sobre cómo utilizar el análisis ad hoc para analizar los datos de sostenibilidad directamente desde las páginas de listas y las consultas. |
+| [Informes y análisis de sostenibilidad en Business Central](sustainability-reports.md) | Este artículo proporciona información sobre cómo utilizar informes y análisis integrados relacionados con la sostenibilidad en Business Central. |
+| **Integraciones** |             |
+| [API de sostenibilidad](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Utilice este artículo para aprender cómo crear aplicaciones conectadas que establezcan una conexión punto a punto entre Business Central y soluciones o servicios de sostenibilidad ajenos a Microsoft mediante API. |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
-[Configuración de sostenibilidad](finance-sustainability-setup.md)  
-[Plan de cuentas y libro mayor de sostenibilidad](finance-sustainability-accounts-ledger.md)  
-[Registrar entradas de sostenibilidad](finance-sustainability-journal.md)  
-[Finanzas](finance.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Configuración de sostenibilidad](finance-sustainability-setup.md)    
+[Plan de cuentas de sostenibilidad y contabilidad](finance-sustainability-accounts-ledger.md)    
+[Registrar entradas de sostenibilidad](finance-sustainability-journal.md)    
+[Análisis ad-hoc de datos de sostenibilidad](ad-hoc-analysis-sustainability.md)    
+[Informes y análisis de sostenibilidad en Business Central](sustainability-reports.md)   
+[API de sostenibilidad](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
+[Finanzas](finance.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
