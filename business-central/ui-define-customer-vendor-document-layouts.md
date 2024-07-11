@@ -37,7 +37,7 @@ Si aún no ha creado un diseño de informe personalizado para el tipo de documen
 3. En la página **Diseños de documento**, en la línea para un diseño de informe para el que desea utilizar un diseño personalizado, elija el campo **Descripción de diseño personalizado**.
 4. En la página **Diseños de informe personalizados**, seleccione el diseño de documento que desea utilizar para el tipo de documento de ventas. Para obtener más información, vea [Crear y modificar diseños de informe personalizados](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Para especificar qué contacto recibirá cada diseño de documento para un cliente
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Para especificar qué contacto recibirá cada diseño de documento para un cliente
 
 Para ahorrar tiempo cuando envía documentos a contactos de clientes y proveedores por correo electrónico, especifique sus direcciones de correo electrónico en los diseños de documentos. Por ejemplo, puede enviar estados de cuenta de los clientes a sus contactos de contable, pedidos de venta a sus compradores o pedidos de compra a los vendedores de los proveedores.
 

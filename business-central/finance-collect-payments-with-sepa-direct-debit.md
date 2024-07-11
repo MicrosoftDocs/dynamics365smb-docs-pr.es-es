@@ -25,7 +25,7 @@ Cuando los pagos se procesan correctamente, según lo ha comunicado el banco, pu
 > [!NOTE]  
 > Para cobrar los pagos mediante adeudo directo SEPA, la divisa de la factura de venta debe ser EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Configuración de domiciliaciones de adeudo directo SEPA
+## <a name="how-to-set-up-sepa-direct-debit"></a>Configuración de domiciliaciones de adeudo directo SEPA
 
 Desde la página **Cobros por adeudo directo** puede exportar instrucciones al banco electrónico para realizar recaudar un adeudo directo desde el banco del cliente a su cuenta bancaria, según el formato de débito directo de SEPA.
 
