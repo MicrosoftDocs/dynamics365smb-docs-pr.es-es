@@ -3,18 +3,18 @@ title: Personalizar Business Central Online con aplicaciones
 description: Obtenga toda información sobre cómo agregar funcionalidad y personalizar Business Central mediante la instalación de las aplicaciones en este artículo.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ms.topic: conceptual
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '2500, 2502, 20350, 20353'
-ms.date: 05/24/2024
+ms.date: 06/27/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="customizing-business-central-online-using-apps"></a>Personalizar Business Central Online con aplicaciones
+# Personalizar Business Central Online con aplicaciones
 
 Puede cambiar [!INCLUDE[prod_short](includes/prod_short.md)] en línea instalando aplicaciones que agregan funciones, cambian el comportamiento o proporcionan acceso a nuevos servicios en línea, por ejemplo. Estas aplicaciones también se llaman *extensiones* porque *extienden* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps"></a>Administrar aplicaciones
+## Administrar aplicaciones
 
 Cuando inicia [!INCLUDE[prod_short](includes/prod_short.md)] por primera vez, ya están instaladas algunas aplicaciones. Con el tiempo, tendrá disponibles más aplicaciones y puede elegir si desea usar la aplicación o no.
 
@@ -35,7 +35,7 @@ Puede administrar las aplicaciones en la página **Administración de extensione
 > [!NOTE]  
 > Inicie sesión en [AppSource.microsoft.com](https://appsource.microsoft.com/) con la cuenta de correo electrónico que usa para [!INCLUDE[prod_short](includes/prod_short.md)] en línea. Use la misma cuenta de correo para otros servicios y productos para disfrutar de una experiencia agilizada.  
 
-También puede ir al mercado de aplicaciones desde [!INCLUDE[prod_short](includes/prod_short.md)]. En la página **Gestión de extensiones**, puede ver las aplicaciones que están instaladas actualmente y puede abrir la página del **Mercado de extensiones** que muestra todas las aplicaciones para [!INCLUDE[prod_short](includes/prod_short.md)] que están disponibles actualmente en AppSource. Si elige el vínculo *Más aplicaciones* se le redireccionará a [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
+También puede obtener AppSource desde [!INCLUDE[prod_short](includes/prod_short.md)]. En la página **Administración de extensiones**, puede ver las aplicaciones que están instaladas actualmente y puede abrir la página **Aplicaciones de Microsoft AppSource** que muestra todas las aplicaciones de [!INCLUDE[prod_short](includes/prod_short.md)] que están disponibles actualmente en AppSource. Si elige la acción **Ver AppSource**, se le redireccionará a [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Para obtener más información, consulte [Administrar aplicaciones de AppSource](admin-manage-appsource-apps.md).
 
 Si selecciona una aplicación, puede consultar las funciones de la aplicación y acceder al sitio de ayuda de la aplicación para obtener más información. Cuando elige una aplicación debe aceptar las condiciones de uso. Si obtiene la aplicación del sitio web de AppSource, inicie sesión en [!INCLUDE[prod_short](includes/prod_short.md)] para completar la instalación.  
 
@@ -48,7 +48,7 @@ Algunas de las aplicaciones las proporciona Microsoft y otras las proporcionan [
 > [!NOTE]  
 > Puede estar atento a las nuevas aplicaciones de Microsoft y otros proveedores en [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>Aplicaciones y transferencia de datos
+## Aplicaciones y transferencia de datos
 
 Puesto que las siguientes aplicaciones se comunican con otros servicios, pueden transferir datos fuera de la geografía del entorno de [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -68,7 +68,7 @@ Lo mismo ocurre con la aplicación base, como las siguientes capacidades:
 * Online Map
 * CIF/NIF de la UE Servicio
 
-## <a name="connect-your-business"></a>Conectar el negocio
+## Conectar el negocio
 
 A partir de 2022, lanzamiento de versiones 2, los entornos en línea de [!INCLUDE [prod_short](includes/prod_short.md)] pueden enumerar una o más aplicaciones en las páginas **Aplicaciones de conectividad** y **Aplicaciones bancarias**. Estas aplicaciones pueden conectar su negocio a servicios externos para aumentar la productividad mediante la automatización de procesos. Por ejemplo, puede conectarse a sus bancos e importar transacciones bancarias automáticamente. Las aplicaciones son fáciles de instalar y configurar directamente desde esta página. Elija una aplicación para obtener más información sobre las capacidades y los precios.  
 
@@ -79,14 +79,14 @@ Vea la lista de aplicaciones sugeridas eligiendo la acción **Aplicaciones de co
 
 Este servicio externo genera una lista de aplicaciones relevantes según su país o región
 
-## <a name="recommended-apps"></a>Aplicaciones recomendadas
+## Aplicaciones recomendadas
 
 Los socios y distribuidores de Microsoft pueden crear aplicaciones que pueden usar para compilar listas de aplicaciones que a menudo recomiendan a sus clientes. Si lo hacen y han implementado la aplicación para su inquilino, las aplicaciones estarán disponibles en la página **Aplicaciones recomendadas**. Allí puede leer sobre cada aplicación y decidir si desea instalarlas.
 
 > [!NOTE]
 > Si es un socio o distribuidor de Microsoft y está interesado en proporcionar una lista de aplicaciones recomendadas, consulte [Recomendar aplicaciones de AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) en la administración de contenidos.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Instalar y desinstalar aplicaciones](ui-extensions-install-uninstall.md)  
 [Personalizar Business Central](ui-customizing-overview.md)  

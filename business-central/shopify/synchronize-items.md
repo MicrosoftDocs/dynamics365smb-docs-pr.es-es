@@ -7,15 +7,14 @@ ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.collection:
-  - bap-ai-copilot
+ms.custom: bap-template
 ---
 
 # Sincronizar artículos e inventario
 
-Los **Artículos** en [!INCLUDE[prod_short](../includes/prod_short.md)] son equivalentes a los *productos* en Shopify, e incluyen bienes físicos, descargas digitales, servicios y tarjetas de regalo que usted vende. Hay dos razones principales para sincronizar artículos:
+**Los productos** en [!INCLUDE[prod_short](../includes/prod_short.md)] son equivalentes a **productos** en Shopify. Son los bienes físicos, las descargas digitales, los servicios y las tarjetas regalo que usted vende. Hay dos razones principales para sincronizar artículos:
 
-1. La gestión de datos se realiza principalmente en [!INCLUDE[prod_short](../includes/prod_short.md)]. Necesita exportar todos o algunos datos desde allí a Shopify y hacerlo visible. Puede exportar el nombre del artículo, la descripción, la imagen, los precios, la disponibilidad, las variantes, los detalles del proveedor y el código de barras. Una vez exportados, puede revisar los elementos o hacerlos visibles inmediatamente.
+1. Cuando administra principalmente datos en [!INCLUDE[prod_short](../includes/prod_short.md)]. Necesita exportar todos o algunos datos desde allí a Shopify y hacerlo visible. Puede exportar el nombre del artículo, la descripción, la imagen, los precios, la disponibilidad, las variantes, los detalles del proveedor y el código de barras. Una vez exportados, puede revisar los elementos o hacerlos visibles inmediatamente.
 2. Cuando un pedido de Shopify se importa, la información sobre los artículos es vital para el procesamiento posterior del documento en [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 Los dos escenarios anteriores siempre están habilitados.
@@ -44,13 +43,13 @@ Primero, importe artículos de Shopify de forma masiva o junto con pedidos para 
 
 |Campo|Descripción|
 |------|-----------|
-|**Crear artículos desconocidos automáticamente**|Cuando se importan productos y variantes de Shopify a [!INCLUDE[prod_short](../includes/prod_short.md)], la función [!INCLUDE[prod_short](../includes/prod_short.md)] siempre intenta encontrar primero el registro coincidente en la lista de artículos. **Asignación de SKU** afecta a cómo se realiza la correspondencia y crea un nuevo artículo y/o variante de artículo. Habilite esta opción si desea crear un nuevo artículo o cuando no existe un registro correspondiente. El nuevo elemento se crea utilizando datos importados y el **Código de plantilla de artículos**. Si esta opción no está habilitada, deberá crear un artículo manualmente y usar la acción **Asignar producto** en la página **Productos de Shopify**.|
+|**Crear artículos desconocidos automáticamente**|Cuando se importan productos y variantes de Shopify a [!INCLUDE[prod_short](../includes/prod_short.md)], la función [!INCLUDE[prod_short](../includes/prod_short.md)] siempre intenta encontrar primero el registro coincidente en la lista de artículos. **Asignación de SKU** afecta a cómo se realiza la correspondencia y crea un nuevo artículo y/o variante de artículo. Habilite esta opción si desea crear un nuevo artículo o cuando no existe un registro correspondiente. El nuevo elemento se crea utilizando datos importados y el **Código de plantilla de artículos**. Si esta opción no está habilitada, cree un artículo manualmente y usar la acción **Asignar producto** en la página **Productos de Shopify**.|
 |**Código de plantilla de artículos**|Use este campo con la opción de alternancia **Creación automática de artículos desconocidos**.<br>Elija la plantilla que desea usar para los elementos creados automáticamente.|
 |**Asignación de SKU**|Elige cómo quiere usar el valor de **SKU** importado de Shopify durante el mapeo y la creación de artículos/variantes. Obtenga más información en la sección [Efecto de los SKU y códigos de barras definidos del producto de Shopify en el mapeo y la creación de artículos y variantes en Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**Separador de campo de SKU**|Use esto junto con **Asignación de SKU** ajustado a la opción **[N.º de artículo + Código de variante](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Defina un separador para usarlo para dividir la SKU.<br>Así, si en Shopify crea la variante con la SKU '1000/001', escribirá '/' en el campo **Separador de campo SKU** para crear el número de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] como '1000' y el código de variante del artículo como '001'. Tenga en cuenta que si crea la variante con la SKU "1000/001/111" en Shopify, el número de producto en [!INCLUDE[prod_short](../includes/prod_short.md)] será "1000" y el código de variante de producto "001". La parte "111" se ignora. |
-|**Prefijo de variante**|Se usa junto con **Asignación de SKU** ajustado a **Código de variante** o **N.º de articulo + Código de variante** como función alternativa cuando el SKU proveniente de Shopify esta vacío.<br>Si desea crear la variante de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] automáticamente, tendrá que introducir un valor en **Código**. Por defecto, se usa el valor definido en el campo SKU importado de Shopify. Sin embargo, si el SKU está vacío, generará un código que comenzará con el prefijo de variante definido y "001".|
+|**Separador de campo de SKU**|Use esto junto con **Asignación de SKU** ajustado a la opción **[N.º de artículo + Código de variante](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Defina un separador para usarlo para dividir la SKU.<br>Así, si en Shopify crea la variante con la SKU '1000/001', escribirá '/' en el campo **Separador de campo SKU** para crear el número de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] como '1000' y el código de variante del artículo como '001'. Si crea la variante con la SKU "1000/001/111" en Shopify, el número de producto en [!INCLUDE[prod_short](../includes/prod_short.md)] es "1000" y el código de variante de producto es "001". La parte "111" se ignora. |
+|**Prefijo de variante**|Se usa junto con **Asignación de SKU** ajustado a **Código de variante** o **N.º de articulo + Código de variante** como función alternativa cuando el SKU proveniente de Shopify esta vacío.<br>Si desea crear la variante de artículo en [!INCLUDE[prod_short](../includes/prod_short.md)] automáticamente, tiene que introducir un valor en **Código**. Por defecto, se usa el valor definido en el campo SKU importado de Shopify. Sin embargo, si el SKU está vacío, genera un código que comenzará con el prefijo de variante definido y "001".|
 |**Shopify puede actualizar artículo**|Elija esta opción si desea actualizar artículos y/o variantes automáticamente.|
-|**UdM como variante**| Elija esta opción si desea que todas las unidades de medida de los artículos se exporten como variantes separadas. Personalice la página para agregar el campo. Obtenga más información en la sección [Unidad de medida como variante](synchronize-items.md#unit-of-measure-as-variant).|
+|**UdM como variante**| Elija esta opción si desea que todas las unidades de medida de los artículos se exporten como variantes separadas. Para agregar el campo, personalice la página. Obtenga más información en la sección [Unidad de medida como variante](synchronize-items.md#unit-of-measure-as-variant).|
 |**Nombre de opción de variante para UdM**| Utilice este campo con **UM como variante** para especificar bajo qué opción agregar variantes que representen unidades de medida. El valor predeterminado es *Unidad de medida*. Utilice la personalización para agregar el campo a la página.|
 
 ## Exportar elementos a Shopify
@@ -62,6 +61,8 @@ Hay varias formas de exportar elementos a Shopify:
 * Ejecute la sincronización de elementos una o varias veces con la automatización.
 
 No importa cómo exporte los artículos, la información específica del artículo se transfiere a la lista de productos de Shopify según su elección de configuración para la sincronización de artículos.
+
+Antes de exportar un elemento a Shopify, el conector comprueba si ya existe un elemento. Primero, verifica si hay un producto o variante con un código de barras, porque está definido en la entrada **Referencias de artículos** de un tipo de código de barras. Si el campo **Asignación de SKU** está completo, el conector verifica si hay un producto o variante con el SKU completo. Para obtener más información, vaya a [Efecto de los SKU y códigos de barras definidos del producto de Shopify en la asignación y la creación de artículos y variantes en Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
 
 > [!IMPORTANT]
 > El producto se agrega únicamente al canal de ventas **Tienda en línea**. Debe publicar productos en otros canales de venta, como el PDV de Shopify, desde Shopify.
@@ -117,7 +118,7 @@ En la tabla siguiente se describe los efectos del campo **Código de barras**.
 |------|-----------------|-----------------|
 |Status|De acuerdo con el campo **Estado de los productos creados** en la **Tarjeta de tienda de Shopify**. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Cargo | **Descripción**. Si el código de idioma está definido y existe una traducción del artículo correspondiente, se utilizará la traducción del artículo en lugar de la descripción.|**Descripción**|
-|Título variante | **Cód. variante**.|**Descripción** de variante|
+|Título variante | **Cód. variante**.<br>La razón para usar **Código** y no **Descripción** es porque Shopify requiere títulos de variantes únicos por producto. En [!INCLUDE[prod_short](../includes/prod_short.md)] el **Código** es único, mientras que la **Descripción** no lo es. Las descripciones no únicas generarán problemas durante la exportación del producto.|**Descripción** de variante|
 |Descripción|Combina textos extendidos, texto de marketing y atributos si habilita las alternancias correspondientes en la tarjeta de tienda de Shopify. Respeta el código de idioma.|No utilizado.|
 |Título de página SEO|Valor fijo: vacío. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
 |Descripción meta de SEO|Valor fijo: vacío. Obtenga más información en la sección [Actualizaciones ad hoc de productos de Shopify](synchronize-items.md#ad-hoc-updates-of-shopify-products).|No utilizado.|
@@ -151,9 +152,9 @@ Para habilitar esta capacidad, utilice los campos **UMO como variante** y **Nomb
 
 **Unidad de medida como comentarios de variante**
 
-* Cuando el producto se importa a [!INCLUDE[prod_short](../includes/prod_short.md)], el conector creará unidades de medida. Necesitará actualizar **Cant. por unidad de medida**.
-* Cuando se trata de una matriz de variantes, por ejemplo Color y UM, y desea importar productos, debe configurar *N.º de artículo + Código de variante* en el campo **Asignación de SKU** y asegúrese de que el campo **SKU** en Shopify tenga el mismo valor para todas las unidades de medida e incluya número de artículo y código de variante.
-* En [!INCLUDE[prod_short](../includes/prod_short.md)] la disponibilidad se calcula por artículo/variante de artículo y no por unidad de medida. Significa que se asignará la misma disponibilidad a cada variante que represente la unidad de medida (con respecto a **Cantidad por unidad de medida**), lo que puede llevar a casos en que la cantidad disponible en Shopify no es exacto. Ejemplo: Artículo que se vende en PCS y Caja de 6. El inventario en [!INCLUDE[prod_short](../includes/prod_short.md)] es de 6 unidades. Artículo exportado a Shopify como Producto con dos variantes. Una vez ejecutada la sincronización del inventario, el nivel de inventario en Shopify será 6 para la variante unidades y 1 para la variante caja. El comprador puede explorar solo la tienda y ver que el producto está disponible en ambas opciones y realizar el pedido por 1 CAJA. El próximo comprador verá que CAJA no está disponible, pero todavía quedan 6 UNIDADES. Esto se solucionará en la próxima sincronización del inventario.
+* Cuando se trata de una matriz de variantes, por ejemplo Color y UM, y desea importar productos en [!INCLUDE[prod_short](../includes/prod_short.md)], debe configurar *N.º de artículo + Código de variante* en el campo **Asignación de SKU** y asegúrese de que el campo **SKU** en Shopify tenga el mismo valor para todas las unidades de medida e incluya número de artículo y código de variante.
+* En [!INCLUDE[prod_short](../includes/prod_short.md)] la disponibilidad se calcula por artículo/variante de artículo y no por unidad de medida. Significa que se asignará la misma disponibilidad a cada variante que represente la unidad de medida (con respecto a **Cantidad por unidad de medida**), lo que puede llevar a casos en que la cantidad disponible en Shopify no es exacto. Ejemplo: Artículo que se vende en PCS y Caja de 6. El inventario en [!INCLUDE[prod_short](../includes/prod_short.md)] es de 6 unidades. Artículo exportado a Shopify como Producto con dos variantes. Una vez ejecutada la sincronización del inventario, el nivel de inventario en Shopify será 6 para la variante unidades y 1 para la variante caja. El comprador puede explorar solo la tienda y ver que el producto está disponible en ambas opciones y realizar el pedido por 1 CAJA. El próximo comprador verá que CAJA no está disponible, pero todavía quedan 6 UNIDADES. Esto se solucionará con la próxima sincronización del inventario.
+* No podrá agregar la opción Unidad de medida a productos existentes con variantes (el resultado específico depende de otra configuración, como **Asignación de SKU**).
 
 ### URL y URL de vista previa
 
@@ -306,6 +307,14 @@ Hay 10 piezas del artículo A disponibles y dos órdenes de venta pendientes. Un
 |------|-----------------|-----------------|
 |Martes|9|Inventario 10 menos pedido de venta programado para enviarse el lunes|
 |Viernes|7|Inventario 10 menos ambas órdenes de venta|
+
+####  Ejemplo de cálculo de inventario libre (no reservado)
+
+Hay 10 piezas del artículo A disponibles y tres pedidos de venta pendientes. Un pedido con cantidad *1* reservado desde el asiento contable de artículo, uno con cantidad *2* no reservado y otro con cantidad *3* reservado de un pedido de compra. Para este método, la fecha de sincronización no es importante.
+
+|Valor utilizado para actualizar el nivel de existencias|Comentario|
+|-----------------|-----------------|
+|9|Inventario 10 menos el pedido de venta con inventario reservado del movimiento del producto. Se ignoran otros pedidos de ventas.|
 
 ### Dos enfoques para gestionar los cumplimientos
 
