@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [Informe de control de IVA](LocalFunctionality/Czech/vat-control-report.md)
 ##### [Informes de IVA](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [Corrección del IVA en moneda local](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [IVA no deducible](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat para checo (extensión)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Activos fijos
@@ -1587,8 +1588,8 @@ ms.service: dynamics-365-business-central
 #### [Funcionalidad local en la versión estadounidense](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tributos
 ##### [Configuración de impuestos básicos](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Declaración del impuesto sobre las ventas en EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)
-##### [Introducción a los formularios IRS 1099 y su funcionalidad.](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Impuesto sobre las ventas en EE. UU.](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Introducción a los formularios IRS 1099 y su funcionalidad](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Configurar y usar el formulario IRS 1099 para la versión 24 (primer lanzamiento de versiones de 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Usar los formularios IRS 1099](LocalFunctionality/UnitedStates/how-to-1099-use.md)
 #### [Presentar y reportar los formularios IRS 1099](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
