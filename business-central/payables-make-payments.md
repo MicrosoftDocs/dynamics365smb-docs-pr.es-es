@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Creación de pagos
+# <a name="make-payments"></a>Creación de pagos
 
 Usted paga a proveedores o clientes, o reembolsa a sus empleados, contabilizando líneas de pago en la página **Diario de pagos**. El diario de pagos es un diario general optimizado para realizar pagos, y ofrece muchas acciones eficaces. Por ejemplo, la acción **Sugerir pagos a proveedores** que encuentra pagos de proveedores vencidos y el informe **Proveedor - Pagos por periodos** que muestra una descripción general de los pagos vencidos a proveedores.  
 

@@ -50,7 +50,7 @@ Se crean los movimientos de contabilidad de proveedores y de cuenta bancaria tot
 > [!NOTE]  
 > Si quiere imprimir y pagar cheques en varias divisas de cuentas bancarias distintas, deberá ejecutar el proceso **Imprimir cheque** por separado para cada divisa y especificar la cuenta bancaria correspondiente.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Para anular los cheques imprimidos que no han sido registrados
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Para anular los cheques imprimidos que no han sido registrados
 
 Puede anular los cheques no registrados después de que hayan sido imprimidos usando la acción **Anular cheque** de la página **Diario de pagos**.
 
