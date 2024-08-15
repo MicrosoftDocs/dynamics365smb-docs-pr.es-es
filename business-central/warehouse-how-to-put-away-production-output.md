@@ -33,7 +33,7 @@ El primer paso para almacenar la salida es crear la solicitud de almacén de ent
 > [!NOTE]  
 > También puede crear la solicitud de almacén de entrada eligiendo el campo **Crear solicitud de entrada** al actualizar la orden de producción. Obtener más información en [Actualizar o replanificar órdenes de producción](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Para ubicar la salida con una ubicación de inventario
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Para ubicar la salida con una ubicación de inventario
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Ubicación existencias** y luego elija el enlace relacionado.  
 2. Cree una ubicación de inventario nueva. Obtenga más información en [Almacenar productos con almacenes de inventario](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,7 +49,7 @@ Al registrar un almacenamiento de inventario, se asume que todas las operaciones
 
 Si solo necesita registrar el tiempo de preparación y ejecución de la última operación, defina la cantidad de salida de la última operación en 0. Puede decidir no registrar la última línea eliminándola.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Para colocar el ensamblado y la producción en configuraciones avanzadas de almacén
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Para colocar el ensamblado y la producción en configuraciones avanzadas de almacén
 
 Al registrar la salida de la orden de producción o ensamblado en un almacén que utiliza el almacenamiento y picking dirigidos, la salida se coloca en la ubicación definida en la orden de producción o ensamblado. Obtenga más información sobre las diferentes formas de mover productos en el almacén con las configuraciones avanzadas; vaya a [Mover productos en configuraciones avanzadas de almacén](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 

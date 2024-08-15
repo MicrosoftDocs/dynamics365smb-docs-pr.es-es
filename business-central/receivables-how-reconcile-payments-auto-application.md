@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Conciliar pagos mediante aplicación automática
+# <a name="reconcile-payments-using-automatic-application"></a>Conciliar pagos mediante aplicación automática
 
 La página **Diario de conciliación de pagos** especifica los pagos, ya sean entrantes o salientes, que se han registrado como transacciones en su cuenta bancaria en línea o en un servicio de pago. Puede liquidar los pagos en movimientos abiertos de clientes, proveedores y cuentas bancarias relacionados. Complete el diario importando un extracto bancario como fuente o archivo bancario o ingresando manualmente las transacciones que realiza a través de su servicio de pago.
 
@@ -43,7 +43,7 @@ Para cada línea de diario en la página **Diario de conciliación de pagos** po
 > [!NOTE]  
 > Puede iniciar la importación de las transacciones bancarias al mismo tiempo que abre la página **Diario de conciliación de pagos** de un diario existente. El procedimiento siguiente describe cómo importar transacciones bancarias a la página **Diario de conciliación de pagos** una vez creado un nuevo diario.
 
-## Para conciliar los pagos con liquidación automática
+## <a name="to-reconcile-payments-using-automatic-application"></a>Para conciliar los pagos con liquidación automática
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de conciliación de pagos** y luego elija el enlace relacionado.
 2. Para trabajar en un nuevo diario de conciliación de pago, seleccione la acción **Nuevo diario**.
 3. En la página **Lista cuentas bancarias pago**, seleccione la cuenta bancaria que desee conciliar los pagos y, a continuación, haga clic en **Aceptar**.
@@ -88,7 +88,7 @@ Puede comparar el valor del campo **Saldo en cuenta bancaria después del regist
 > [!NOTE]  
 >   Si no desea conciliar la cuenta bancaria desde la página  **Diario de conciliación de pagos**, debe utilizar la página  **Conciliación de cuentas bancarias** . Para obtener más información, consulte  [Conciliar cuentas bancarias](bank-how-reconcile-bank-accounts-separately.md).
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  

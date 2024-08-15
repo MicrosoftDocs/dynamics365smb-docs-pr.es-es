@@ -24,7 +24,7 @@ Otro ejemplo es configurar una dimensión que se llame *Departamento* y luego us
 * Quién lo vendió.
 * Qué cliente lo compró.
 
-## <a name="analyzing-by-dimensions"></a>Analizar por dimensiones
+## <a name="analyze-by-dimensions"></a>Analizar por dimensiones
 
 Las Dimensiones desempeñan una función importante en la inteligencia empresarial, por ejemplo al definir vistas de análisis. Obtenga más información en [Analizar datos por dimensiones](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ Un grupo de dimensiones es una combinación única de valores de dimensión. Se 
 
 Cuando crea una línea de diario, cabecera de documentos o línea de documentos, puede especificar una combinación de valores de dimensión. En lugar de explícitamente guardar cada valor de dimensión en la base de datos, un Id. de grupo de dimensiones se asigna a la línea de diario, cabecera de documentos o línea de documentos para especificar el grupo de dimensiones.  
 
-## <a name="setting-up-dimensions"></a>Configurar dimensiones
+## <a name="set-up-dimensions"></a>Configurar dimensiones
 
 Puede definir las dimensiones y los valores de dimensión para clasificar los diarios y los documentos, como pedidos de venta y pedidos de compra. Las dimensiones se configuran en la página **Dimensiones**, donde se crea una línea para cada dimensión, como *Proyecto*, *Departamento*, *Área* y *Vendedor*.
 

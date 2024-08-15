@@ -11,7 +11,7 @@ ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Recuento y ajuste de inventario mediante documentos
+# <a name="count-and-adjust-inventory-using-documents"></a>Recuento y ajuste de inventario mediante documentos
 
 Puede realizar un inventario físico de los productos utilizando los documentos de pedido de inventario físico y registro de inventario físico. La página **Orden de inventario físico** se usa para organizar el proyecto de recuento de inventario completo, por ejemplo una por almacén. La página **Registro de inventario físico** se usa para comunicar y para capturar el recuento real de productos. Puede crear varias grabaciones para un pedido, por ejemplo, para distribuir grupos de productos a diferentes empleados.
 
@@ -29,7 +29,7 @@ El recuento de inventario con documentos consta de los pasos generales siguiente
 3. Escriba las cantidades contadas del producto en los registros, tal como se capturan en las copias impresas, por ejemplo, y establezca **Terminada**.
 4. Complete y registre el pedido de inventario físico.
 
-## Para crear un pedido de inventario físico
+## <a name="to-create-a-physical-inventory-order"></a>Para crear un pedido de inventario físico
 
 Un pedido de inventario físico es un documento completo formado por la cabecera del pedido de inventario físico y líneas de pedido. La información de la cabecera de inventario físico describe cómo realizar el inventario físico. Las líneas de pedido contienen información acerca de los productos y sus almacenes.
 
@@ -58,7 +58,7 @@ Ahora puede crear uno o más registros, que son instrucciones para los empleados
 >
 > Después de elegir **Finalizar** en la página **Orden de inventario físico**, [!INCLUDE [prod_short](includes/prod_short.md)] calcula las diferencias con respecto al paquete y otros detalles de seguimiento del artículo, y realiza ajustes positivos o negativos.
 
-## Para crear un registro de inventario físico
+## <a name="to-create-a-physical-inventory-recording"></a>Para crear un registro de inventario físico
 
 Para cada orden de inventario físico, puede crear uno o más documentos de registro de inventario físico en los que los empleados introducen las cantidades contadas. Los empleados pueden introducir cantidades manualmente o con un dispositivo de escaneo.
 
@@ -77,7 +77,7 @@ En caso de recuento manual, puede imprimir una lista, el informe **Registro inv.
 1. Para aquellos productos que utilizan seguimiento, cree una línea adicional para cada código de número de lote o de serie eligiendo la acción **Funciones** y, después, la acción **Copiar línea**. Para obtener más información, vaya a [Gestionar el seguimiento de artículos al contar el inventario](#handle-item-tracking-when-counting-inventory).  
 1. Seleccione la acción **Imprimir** para preparar el documento físico que los empleados pueden usar para anotar las cantidades que cuenten.
 
-## Para finalizar un registro de inventario físico
+## <a name="to-finish-a-physical-inventory-recording"></a>Para finalizar un registro de inventario físico
 
 Después de que los empleados cuenten las cantidades, registre las cantidades en [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -92,7 +92,7 @@ Después de que los empleados cuenten las cantidades, registre las cantidades en
     > 
     > Si no existe ninguna línea de pedido de inventario físico coincidente, y si está activada la casilla de verificación **Permitir registro sin pedido**, una nueva línea se agrega y se selecciona la casilla de verificación **Registrado sin pedido** en la línea de pedido de inventario físico relacionada. De lo contrario, aparece un mensaje de error y el proceso se cancela.> Si varias líneas de registro de inventario físico coinciden con una línea de pedido de inventario físico, se muestra un mensaje y se cancela el proceso. Si, por algún motivo, dos líneas idénticas de inventario físico idénticas terminan en pedido de inventario físico, puede usar una acción para resolverlo. Para obtener más información, vaya a [Para buscar líneas de pedido de inventario físico duplicadas](#to-find-duplicate-physical-inventory-order-lines).
 
-## Para completar un pedido de inventario físico
+## <a name="to-complete-a-physical-inventory-order"></a>Para completar un pedido de inventario físico
 
 Después de finalizar un registro de inventario físico, el campo  **Registrador de cantidad (base)**  en el pedido de inventario físico relacionado se actualiza con los valores contados (registrados) y se selecciona la casilla de verificación  **En líneas de registro** . Si una cantidad contada difiere de la cantidad esperada, los campos  **Cantidad pos. (base)** y **Cantidad neg. (base)** muestran la diferencia.
 
@@ -100,7 +100,7 @@ Para acceder a cantidades previstas y cualquier diferencia registrada para los p
 
 También puede elegir la acción **Dif. pedido invent. físico** para ver las diferencias entre la cantidad esperada y la cantidad contada.
 
-### Para encontrar líneas de pedido de inventario físico duplicadas
+### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Para encontrar líneas de pedido de inventario físico duplicadas
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Pedidos de inventario físico** y luego elija el enlace relacionado.
 2. Abra el inventario físico para ver las líneas duplicadas.
@@ -108,7 +108,7 @@ También puede elegir la acción **Dif. pedido invent. físico** para ver las di
 
 Las líneas de pedido de inventario físico duplicadas se muestran para que pueda eliminarlas y conservar solo una línea con un conjunto único de los valores de los campos **N.º producto**, **Código de variante**, **Código de almacén** y **Código de ubicación**.
 
-### Para registrar un pedido de inventario físico
+### <a name="to-post-a-physical-inventory-order"></a>Para registrar un pedido de inventario físico
 
 Después de completar un inventario físico pedido y cambiar el estado **Terminada**, puede registrarlo. Puede definir solo el estado de un inventario físico pedido en **Terminada** si se cumplen las condiciones siguientes:
 
@@ -129,7 +129,7 @@ Después de completar un inventario físico pedido y cambiar el estado **Termina
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-### Para ver los pedidos de inventario físico registrados
+### <a name="to-view-posted-physical-inventory-orders"></a>Para ver los pedidos de inventario físico registrados
 
 Después de realizar el registro, el pedido de inventario físico se borrará y podrá ver y evaluar el documento como un pedido de inventario físico registrado. El pedido publicado incluye los registros de su inventario físico y cualquier comentario realizado.
 
@@ -137,13 +137,13 @@ Después de realizar el registro, el pedido de inventario físico se borrará y 
 2. En la página **Pedidos inv. fís. registrados**, seleccione el pedido de inventario registrado que desea ver, y después seleccione la acción **Ver**.
 3. En la pestaña  **Relacionado**, seleccione  **Orden** y luego seleccione la acción  **Grabaciones**  para ver una lista de grabaciones de inventario físico relacionadas.  
 
-## Gestión de seguimiento de productos en el recuento de inventario
+## <a name="handle-item-tracking-when-counting-inventory"></a>Gestión de seguimiento de productos en el recuento de inventario
 
 El seguimiento de producto pertenece a los números de serie o de lote asignados a los productos. Al contar un producto que esté almacenado en el inventario, por ejemplo, 10 números de lote distintos, el empleado debe poder registrar cuáles y cuántas de las unidades de cada número de lote están en inventario. Obtenga más información en [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md).
 
 La casilla de verificación **Usar seguimiento de producto** en líneas de pedido de inventario físico se selecciona automáticamente cuando un código de seguimiento de producto está configurado para el producto. Puede seleccionar o borrar la casilla de verificación manualmente.
 
-### Ejemplo: preparar un registro de inventario físico para un producto seguido
+### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Ejemplo: preparar un registro de inventario físico para un producto seguido
 
 Considere un inventario físico del producto A, que está almacenado en inventario como diez números de serie distintos.
 
@@ -160,7 +160,7 @@ Considere un inventario físico del producto A, que está almacenado en inventar
 
 Observe que el informe **Registro inv. fís.** contiene diez líneas para el producto A, una para cada número de serie.
 
-### Ejemplo: registrar y contabilizar diferencias de los números de lote contados
+### <a name="example---record-and-post-counted-lot-number-differences"></a>Ejemplo: registrar y contabilizar diferencias de los números de lote contados
 
 Un producto con seguimiento de lote está almacenado en inventario con la serie de números “LOT”.
 
@@ -195,7 +195,7 @@ Un producto con seguimiento de lote está almacenado en inventario con la serie 
 
 En la página **Pedido de inventario físico**, el campo **Cantidad neg. (base)** contendrá **8**. Para la línea de pedido , la página **Lista seguim. prod. inv. fís.** muestra las cantidades positivas o negativas de cada número de lote.
 
-## Documentos de inventario
+## <a name="inventory-documents"></a>Documentos de inventario
 
 Los siguientes tipos de documentos son útiles para administrar su almacén:
 
@@ -207,7 +207,7 @@ Puede imprimir estos documentos en cualquier etapa, liberarlos y volver a abrirl
 > [!NOTE]
 > Antes de poder usar estos documentos, debe especificar una serie de números para crear sus identificadores. Para obtener más información, vaya a [Para configurar la numeración de documentos de inventario](#to-set-up-numbering-for-inventory-documents).
 
-### Para configurar la numeración de los documentos de inventario
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Para configurar la numeración de los documentos de inventario
 
 El siguiente procedimiento muestra cómo configurar la numeración de los documentos de inventario.
 
@@ -219,7 +219,7 @@ El siguiente procedimiento muestra cómo configurar la numeración de los docume
    - **Invt. Núm. de envíos**  
    - **Inversión publicada. Núm. de envío**  
 
-### Para crear y registrar un documento de inventario
+### <a name="to-create-and-post-an-inventory-document"></a>Para crear y registrar un documento de inventario
 
 En el siguiente procedimiento se muestra cómo crear, imprimir y registrar una recepción de inventario. Los pasos son parecidos para los envíos de inventario.
 
@@ -235,7 +235,7 @@ Las siguientes funciones están disponibles en la página  **Recibo de Inversió
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Impresión de documentos de inventario
+## <a name="printing-inventory-documents"></a>Impresión de documentos de inventario
 
 Puede especificar los informes que deben imprimirse en diferentes etapas eligiendo una de las siguientes opciones en el campo **Uso** de la página **Selección de informes - Inventario**:
 
@@ -247,7 +247,7 @@ Puede especificar los informes que deben imprimirse en diferentes etapas eligien
 > [!NOTE]
 > Los informes disponibles pueden variar según la localización de su país o región. La aplicación base no incluye ningún diseño.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Contar, Ajustar y reclasificar inventario mediante diarios](inventory-how-count-adjust-reclassify.md)    
 [Trabajar con números de serie y de lote](inventory-how-work-item-tracking.md)    

@@ -27,7 +27,7 @@ Puede realizar varios cambios, como mover u ocultar campos, columnas, acciones y
 > Los administradores pueden hacer los mismos cambios de diseño que los usuarios al personalizar el perfil (rol) que se asigna a varios usuarios. Para obtener más información sobre las páginas para roles, vaya a [Personalizar páginas para roles](ui-personalization-manage.md)<br /><br />
 Los administradores también pueden anular o deshabilitar la personalización de los usuarios y pueden definir qué características están incluso disponibles para que los usuarios las vean en todas las empresas o en empresas específicas. Para obtener más información, consulte [Personalizar Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Vídeo
+## <a name="video-and-training"></a>Vídeo
 
 El siguiente video muestra algunas de las formas en que puede personalizar su área de trabajo.
 

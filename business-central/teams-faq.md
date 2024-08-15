@@ -441,7 +441,7 @@ En este momento, la opción Compartir con Teams está disponible en el cliente w
 La **acción Compartir con Teams** se puede encontrar en el menú **Compartir** en todas las páginas, como páginas de fichas y documentos, páginas de listas u hojas de trabajo, incluidas las páginas personalizadas. La acción no está disponible en cuadros de diálogo o páginas que se muestran como cuadros de diálogo, como páginas de búsqueda o asistentes.
 
 ---
-## <a name="see-also"></a>Consulte también
+## <a name="related-information"></a>Consulte también
 
 [Información general sobre [!INCLUDE [prod_short](includes/prod_short.md)] y la integración de Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  

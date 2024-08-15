@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Trabajar con centros de responsabilidad
+# <a name="work-with-responsibility-centers"></a>Trabajar con centros de responsabilidad
 
 Los centros de responsabilidad proporcionan la capacidad de controlar los centros administrativos. Un centro de responsabilidad puede ser un centro de coste, de beneficios, de inversión o cualquier otro centro administrativo definido por la empresa. Entre los ejemplos de centros de responsabilidad se encuentran una oficina de ventas, un departamento de compras para varios almacenes y una oficina de planificación de una planta. Las empresas pueden, por ejemplo, configurar vistas específicas para cada usuario de los documentos de compra y de venta relacionados exclusivamente con un centro de responsabilidad determinado.  
 
@@ -19,7 +19,7 @@ El uso conjunto de varios almacenes y centros de responsabilidad ofrece la posib
 
 Las ubicaciones múltiples permiten a las empresas administrar su inventario en múltiples ubicaciones utilizando una base de datos. Los elementos clave de este módulo son dos conceptos: almacenes y unidades de almacenamiento. Un almacén se define como el lugar donde se gestionan la ubicación física y las cantidades de los productos. El concepto es lo suficientemente amplio como para incluir ubicaciones como plantas o instalaciones de producción y centros de distribución, almacenes, salas de exposición y vehículos de servicio. Una unidad de almacenamiento se define como un producto en una ubicación específica y/o como variante. Al utilizar unidades de almacenamiento, las empresas con diversos almacenes pueden agregar información de reposición, direcciones y determinada información de registro financiero para el almacén. Como resultado, pueden reponer variantes del mismo artículo para cada ubicación y solicitar artículos según la información de reposición específica de la ubicación.  
 
-## Para configurar un centro de responsabilidad
+## <a name="to-set-up-a-responsibility-center"></a>Para configurar un centro de responsabilidad
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Centros de responsabilidad** y, a continuación, elija el vínculo relacionado.  
 2. Seleccione la acción **Nuevo**.  
@@ -34,7 +34,7 @@ Este código se utiliza en todos los documentos de compras, ventas o servicio en
 > [!NOTE]  
 > Cuando introduce un código de centro de responsabilidad en un documento, éste afecta a la dirección, dimensiones y precios que figuran en el documento.  
 
-## Para asignar centros de responsabilidad a los usuarios
+## <a name="to-assign-responsibility-centers-to-users"></a>Para asignar centros de responsabilidad a los usuarios
 
 Puede establecer en la configuración de los usuarios que [!INCLUDE [prod_short](includes/prod_short.md)] recupere únicamente los documentos relevantes para sus áreas de trabajo concretas. Los usuarios están asociados a un centro de responsabilidad y trabajan únicamente con documentos relacionados con áreas de aplicación específicas en ese centro en particular.  
 
@@ -49,7 +49,7 @@ Para configurarlo, debe asignar centros de responsabilidad a los usuarios en tre
 > [!NOTE]  
 > Los usuarios pueden ver solo los documentos publicados relacionados con su propio centro de responsabilidad. Sin embargo, pueden ver todas las entradas del libro mayor y navegar a otros documentos registrados desde las entradas del libro mayor.
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Configuración del inventario](inventory-setup-inventory.md)    
 [Configuración de Warehouse Management](warehouse-setup-warehouse.md)    

@@ -76,7 +76,7 @@ Para obtener más información, consulte [Agregar una pestaña de Business Centr
 3. Instalar una aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. Consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md).
 4. Una vez que la aplicación esté instalada, estará listo para comenzar. Vea [Búsqueda de clientes, proveedores y otros contactos de Microsoft Teams](across-search-contacts-teams.md) y [Compartir registros en Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="related-information"></a>Consulte también
 
 [P+F de Teams](teams-faq.md)  
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  

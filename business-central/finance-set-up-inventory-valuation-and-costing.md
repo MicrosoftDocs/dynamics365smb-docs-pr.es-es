@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Configuración de valoración de existencias
+# <a name="set-up-inventory-valuation-and-costing"></a>Configuración de valoración de existencias
 
 Para asegurarse de que los costes de inventario se registran correctamente, debe configurar varios campos y páginas antes de comenzar a realizar transacciones de elementos. Por lo general, las empresas eligen una valoración de existencias específica y la aplican a los productos del inventario, por ejemplo, para ayudarles a seguir el valor de los productos en stock.  
 

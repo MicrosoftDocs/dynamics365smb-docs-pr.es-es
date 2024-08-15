@@ -62,7 +62,7 @@ Para configurar un valor predeterminado para una fecha de IVA, siga estos pasos:
 > [!NOTE]
 > De forma predeterminada, la **Fecha de IVA predeterminada** es la **Fecha registro**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Habilitación o deshabilitación de la función Fecha de IVA
+### <a name="enable-or-disable-the-vat-date-feature"></a>Habilitación o deshabilitación de la función Fecha de IVA
 
 Algunos países o regiones requieren que las empresas usen una fecha de IVA específica, pero otros países o regiones no. Algunos países o regiones también requieren que las empresas cambien la fecha del IVA en situaciones específicas después de haber publicado documentos, pero otros países o regiones no permiten cambios en las fechas del IVA. Para permitir diferentes contextos, puede elegir si desea utilizar esta funcionalidad y, de ser así, en qué medida.
 

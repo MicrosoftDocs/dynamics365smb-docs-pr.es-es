@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Conciliar los pagos a proveedores con el diario de pagos o desde las entradas del libro mayor de proveedores
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Conciliar los pagos a proveedores con el diario de pagos o desde las entradas del libro mayor de proveedores
 Cuando envía un pago o recibe un reembolso de un proveedor, debe decidir si va a liquidar uno o varios movimientos pendientes con el pago o el reembolso. Puede especificar el importe exacto que desea liquidar con el albarán de pago o el reembolso, y liquidar sólo parcialmente movimientos del proveedor. Debe liquidar todos los movimientos de proveedores para obtener estadísticas e informes correctos de los extractos de cuentas y los intereses.
 
 > [!NOTE]  
@@ -31,7 +31,7 @@ Puede aplicar pagos a proveedores manualmente a sus documentos de compra relacio
 
 También puede liquidar los pagos a proveedores y los pagos a clientes, después los pagos aparecen como transacciones negativas en su banco. En la página  **Diarios de conciliación de pagos**, puede utilizar funciones para la importación de extractos bancarios, la aplicación automática y la conciliación de cuentas bancarias. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
 
-## Para liquidar uno o varios movimientos del proveedor con un pago:
+## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Para liquidar uno o varios movimientos del proveedor con un pago:
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), , escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. En la página  **Diarios de pago**, en la primera línea del diario, ingrese la información relevante sobre la entrada de pago.
 3. Para liquidar un solo movimiento de proveedor:
@@ -49,7 +49,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
 5. Elija el botón **Aceptar**.
 6. Seleccione la acción **Registrar**, para registrar el diario de pagos.
 
-## Para liquidar un abono con uno o varios movimientos de proveedor
+## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Para liquidar un abono con uno o varios movimientos de proveedor
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Abonos de compra** y, a continuación, elija el enlace relacionado.
 2. Abra el abono que desea liquidar.
 3. Escriba la información relevante en la cabecera.
@@ -66,7 +66,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
    La página  **Notas de crédito de compra** muestra la entrada que ha seleccionado en el campo  **Se aplica a tipo de documento**  y en el campo  **Se aplica a número de documento** . La página también muestra el importe del abono para registrar, ajustado con los descuentos por pronto pago.
 7. Seleccione el botón **Registrar** para crear el abono de compra.
 
-## Para liquidar movimientos de proveedor registrados
+## <a name="to-apply-posted-vendor-ledger-entries"></a>Para liquidar movimientos de proveedor registrados
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Abra el proveedor pertinente con movimientos ya registrados.
 3. Seleccione la acción **Movimientos** y, a continuación, seleccione la acción **Liquidar movs**.
@@ -83,7 +83,7 @@ También puede liquidar los pagos a proveedores y los pagos a clientes, después
     La página **Registrar liquidación** se abre con el número de documento del movimiento de liquidación y la fecha de registro del movimiento con la fecha más reciente.
 9. Para registrar la liquidación, elija el botón **Aceptar**.
 
-## Para liquidar movimientos de proveedor entre divisas distintas
+## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Para liquidar movimientos de proveedor entre divisas distintas
 Si se realiza una venta a un proveedor en una divisa y se efectúa el pago en otra divisa, todavía se puede solicitar la factura para el pago.
 
 Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movimiento 2) en otra divisa, se usa la fecha de registro del Movimiento 1 para buscar el tipo de cambio adecuado para convertir los importes del Movimiento 2. El tipo de cambio relevante se encuentra en la página **Tipos cambio divisa**. En ese caso, debe habilitar la liquidación de movimientos de proveedor en divisas distintas. Para obtener más información, vea [Permitir la liquidación de movimientos de cliente en distintas divisas](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -98,7 +98,7 @@ Si con un movimiento (Movimiento 1) en una divisa liquida otro movimiento (Movim
 > [!IMPORTANT]  
 >   Si liquida movimientos en distintas divisas, los movimientos se convierten a divisa local. Aunque los tipos de cambio de las dos divisas son fijos, como entre USD y EUR, es posible que exista un pequeño importe residual al convertir los importes de divisa extranjera a USD. Estos importes residuales mínimos se registran como ganancias y pérdidas en la cuenta especificada en el campo **Cta. dif. pos. realizadas** o **Cta. dif. neg. realizadas** de la página **Divisas**. El campo **Importe (USD)** también se ajusta para los movimientos de proveedor correspondientes.
 
-## Para deshacer un movimiento de liquidación de movimientos de proveedor
+## <a name="to-unapply-an-application-of-vendor-entries"></a>Para deshacer un movimiento de liquidación de movimientos de proveedor
 Cuando se anula la aplicación de una aplicación errónea, se crean entradas correctoras que son idénticas a la entrada original pero con el logaritmo opuesto en el campo de importe y se registran para todas las entradas, incluidas todas las contabilizaciones en el libro mayor derivadas de la aplicación, como descuentos de pago y ganancias/pérdidas cambiarias. Los movimientos que se cerraron con la liquidación se volverán a abrir.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
@@ -112,7 +112,7 @@ Cuando se anula la aplicación de una aplicación errónea, se crean entradas co
 > [!IMPORTANT]  
 >   Si se ha liquidado un movimiento con más de un movimiento de liquidación, primero deberá deshacer la liquidación más reciente.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 [Pagos](payables-manage-payables.md)  
 [Compras](purchasing-manage-purchasing.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

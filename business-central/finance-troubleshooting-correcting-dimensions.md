@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Resolución de problemas y corrección de dimensiones
+# <a name="troubleshoot-and-correct-dimensions"></a>Resolución de problemas y corrección de dimensiones
 
 Las vistas de análisis e informes financieros a menudo se basan en datos de dimensiones. A pesar de las salvaguardas disponibles, a veces ocurre un error que puede dar lugar a inexactitudes. Este artículo describe algunos de los errores típicos y explica cómo corregir las asignaciones de dimensión en las transacciones registradas para que los informes financieros sean precisos.
 
@@ -45,14 +45,14 @@ Si descubre una dimensión incorrecta en los movimientos de contabilidad, puede 
 > [!IMPORTANT]
 > Las funciones para corregir dimensiones están destinadas únicamente a ayudar a que los informes financieros sean precisos. Las correcciones de dimensión se aplican solo a las entradas de movimientos. No cambian las dimensiones asignadas a los asientos en otros libros mayores para la misma transacción. Habrá una discrepancia entre las dimensiones asignadas en el libro mayor y los libros secundarios.
 
-### <a name="setting-up-dimension-corrections"></a>Configuración de correcciones de dimensión
+### <a name="set-up-dimension-corrections"></a>Configuración de correcciones de dimensión
 
 Hay dos cosas a tener en cuenta al configurar correcciones de dimensión:
 
 * ¿Hay dimensiones que no desea que la gente cambie? En la página **Configuración de corrección de dimensión**, especifique las dimensiones que desea bloquear para cambios.
 * ¿Quién puede cambiar dimensiones? Para permitir que las personas realicen cambios, asigne el permiso **CORRECCIÓN DIM. D365** a los usuarios. Los permisos les permiten crear correcciones de dimensión, ejecutarlas y deshacerlas si es necesario. También pueden especificar dimensiones bloqueadas. Para obtener más información, consulte [Asignar permisos a usuarios y grupos](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a>Corrección de una dimensión
+### <a name="correct-a-dimension"></a>Corrección de una dimensión
 
 Puede seleccionar manualmente uno o varios movimientos de contabilidad o usar filtros para seleccionar conjuntos de movimientos. Si es necesario, también puede agregar o eliminar dimensiones. 
 
@@ -82,13 +82,13 @@ Puede seleccionar manualmente uno o varios movimientos de contabilidad o usar fi
 5. Para validar la corrección, elija **Validar cambios de dimensión**. Para obtener más información, consulte [Validación de correcciones de dimensión](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Elija **Ejecutar**.
 
-### <a name="validating-dimension-corrections"></a>Validación de correcciones de dimensión
+### <a name="validate-dimension-corrections"></a>Validación de correcciones de dimensión
 
 Antes de ejecutar una corrección, es una buena idea validarla primero. La validación comprueba las restricciones sobre el valor al registrar para las cuentas de contabilidad, las restricciones para las dimensiones y si los valores de las dimensiones están bloqueados. Durante la validación, el estado de la corrección se establece en **Validación en proceso**. Después de validar una corrección, el resultado se muestra en el campo **Estado de validación**. Si se encontraron errores, puede usar la acción **Ver errores** para investigarlos. Después de corregir un error, debe usar la acción **Reabrir** para ejecutar la corrección o una nueva validación.
 
 Puede ejecutar una corrección inmediatamente o programarla para que se ejecute más adelante. Si está ejecutando correcciones en un conjunto de datos grande, le recomendamos que lo programe para que se ejecute fuera del horario comercial. Para obtener más información, consulte [Correcciones de dimensión en grandes conjuntos de datos](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Deshacer una corrección
+### <a name="undo-a-correction"></a>Deshacer una corrección
 
 Después de corregir una dimensión, si no le gusta lo que ve, puede usar la acción **Deshacer** para restablecer el valor anterior. Sin embargo, solo puede deshacer la corrección más reciente. Antes de deshacer una corrección, puede validar los cambios resultantes de la acción de deshacer. Por ejemplo, la validación resulta útil si las restricciones de dimensión han cambiado después de que se realizase la corrección.
 
@@ -102,11 +102,11 @@ Tenga cuidado al corregir grandes conjuntos de entradas, por ejemplo, conjuntos 
 
 Si **Actualizar al registrar** está habilitado para una vista de análisis, [!INCLUDE[prod_short](includes/prod_short.md)] puede actualizar la vista cuando se registran los documentos y diarios. También puede actualizar las vistas con esta configuración habilitada con los resultados de las correcciones de dimensión. Para ello, active el control de alternancia **Actualizar vistas de análisis**. La actualización de las vistas de análisis puede afectar al rendimiento, especialmente para grandes conjuntos de datos, por lo que le recomendamos que actualice las vistas de análisis solo para conjuntos de datos pequeños.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Visualización de correcciones de dimensión históricas
+### <a name="view-historical-dimension-corrections"></a>Visualización de correcciones de dimensión históricas
 
 Si se ha corregido un movimiento de contabilidad, puede investigar el cambio usando la acción **Historial de correcciones de dimensión**.
 
-### <a name="handling-incomplete-corrections"></a>Gestión de correcciones incompletas
+### <a name="handle-incomplete-corrections"></a>Gestión de correcciones incompletas
 
 Si una corrección no se completa, aparecerá una advertencia en la ficha de corrección. Si eso sucede, puede usar la acción **Restablecer** para revertir la corrección a un estado de borrador y deshacer los cambios. A continuación, puede volver a ejecutar la corrección.
 

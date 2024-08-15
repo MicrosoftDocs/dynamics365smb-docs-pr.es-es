@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Descripción de contabilidad y plan de cuentas
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Descripción de contabilidad y plan de cuentas
 
 La contabilidad (G/L) almacena sus datos financieros y el plan de cuentas (COA) muestra las cuentas donde se registran todos los movimientos contables. [!INCLUDE[prod_short](includes/prod_short.md)] incluye un gráfico estándar de cuentas que está preparado para respaldar su negocio.
 

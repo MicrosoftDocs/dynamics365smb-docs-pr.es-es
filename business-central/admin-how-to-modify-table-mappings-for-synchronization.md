@@ -28,7 +28,7 @@ Cuando cree la conexión entre las aplicaciones, [!INCLUDE[prod_short](includes/
 >
 > Para evitar un rendimiento lento, en la página  **Asignaciones de tablas de integración** , puede habilitar o deshabilitar la sincronización de datos basada en eventos para cualquier tabla. De forma predeterminada, la sincronización basada en eventos está activada para que las integraciones existentes no se vean afectadas. Su administrador puede activarla o desactivarla para tablas específicas.
 
-### <a name="additional-mappings"></a>Asignaciones adicionales
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Asignaciones adicionales
 
 Los términos de pago, los métodos de envío y los agentes de envío pueden cambiar, y es importante poder ajustarlos. Si habilita la característica **Actualización de características: asignar a conjuntos de opciones en Dataverse sin código** en la página [Administración de características](https://businesscentral.dynamics.com/?page=2610), puede agregar manualmente asignaciones de tablas de integración para términos de pago (TÉRMINOS DE PAGO), métodos de envío (MÉTODO DE ENVÍO) y agentes de envío (AGENTE DE ENVÍO). Esta asignación puede contribuir a garantizar que sus políticas sean las mismas para estas configuraciones en [!INCLUDE[prod_short](includes/cds_long_md.md)] y [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

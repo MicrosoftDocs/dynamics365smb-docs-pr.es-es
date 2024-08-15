@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
+# <a name="analyze-cash-flow-in-your-company"></a>Analizar el flujo de efectivo de la empresa
 Los gráficos del Área de trabajo Contable proporcionan información que le puede ayudar a tomar decisiones sólidas sobre qué debe hacer con el efectivo.  
 
 | Para responder a preguntas como las siguientes | Use este gráfico |

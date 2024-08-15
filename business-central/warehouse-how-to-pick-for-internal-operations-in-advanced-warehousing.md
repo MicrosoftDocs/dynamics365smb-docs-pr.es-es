@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Realizar picking para producción, ensamblado o proyectos en una configuración avanzada de almacén
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Realizar picking para producción, ensamblado o proyectos en una configuración avanzada de almacén
 
 La forma de realizar el picking de componentes para producción, proyectos u órdenes de ensamblado depende de la configuración del almacén. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Utilice documentos de **Picking almacén** para seleccionar componentes de proye
 
 8. Elija el botón **Aceptar**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Para seleccionar pedidos para un pedido de producción, pedido de ensamblado y trabajo
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Para seleccionar pedidos para un pedido de producción, pedido de ensamblado y trabajo
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Picking** y luego elija el enlace relacionado.  
 

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Vendedores de bloques
+# <a name="block-vendors"></a>Vendedores de bloques
 Puede bloquear a un proveedor, por ejemplo por insolvencia, para que no pueda agregarse a los documentos de compra o para que no se puedan contabilizar pagos para él.
 
 La siguiente tabla describe las distintas opciones de bloqueo de proveedores.  
@@ -23,12 +23,12 @@ La siguiente tabla describe las distintas opciones de bloqueo de proveedores.
 |**Pago**|No se pueden crear nuevos pagos para este proveedor.|  
 |**Todo**|No se permiten las transacciones de este proveedor.|  
 
-## Para bloquear a un proveedor  
+## <a name="to-block-a-vendor"></a>Para bloquear a un proveedor
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Proveedores** y luego elija el enlace relacionado.
 2. Seleccione el proveedor que desea bloquear.
 3. En el campo **Bloqueado** elija una de las opciones para bloquear.
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Registrar un nuevo proveedor](purchasing-how-register-new-vendors.md)  
 [Creación de pagos](payables-make-payments.md)  
 [Administrar pagos](payables-manage-payables.md)

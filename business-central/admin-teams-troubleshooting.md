@@ -174,7 +174,7 @@ Este problema se debe a que no tiene instalada la aplicación BC para Teams. Sol
 Es probable que este problema se deba a que compartió una vista de lista que es una vista personal. En este caso, trabaje con su administrador para crear vistas de lista específicas de roles que cubran los diferentes roles en el canal/chat, o cree esta vista para toda la organización para que todos puedan obtener una vista uniforme.
 
 
-## <a name="see-also"></a>Consulte también .
+## <a name="related-information"></a>Consulte también .
 
 [Información general sobre [!INCLUDE [prod_short](includes/prod_short.md)] y la integración de Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  

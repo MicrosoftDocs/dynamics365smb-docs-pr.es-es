@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="posting-the-year-end-closing-entry"></a>Registrar el movimiento de cierre del ejercicio
+# <a name="post-the-year-end-closing-entry"></a>Registrar el movimiento de cierre del ejercicio
 
 Después de usar el proceso **Asiento regularización** para generar los movimientos de cierre de fin de año, debe abrir el diario especificado en el proceso y revisar y registrar los movimientos.  
 

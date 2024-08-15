@@ -28,7 +28,7 @@ En el siguiente apartado se explica cómo:
 3. En el campo **Fecha final**, introduzca la última fecha del periodo que desee definir. Cuando se cierre el periodo del inventario, ya no podrá registrar cambios en el inventario antes de dicha fecha.  
 4. Introduzca un nombre descriptivo en el campo **Nombre**. Elija el botón **Aceptar**.  
 
-## <a name="closing-inventory-periods"></a>Cerrar periodos del inventario
+## <a name="to-close-inventory-periods"></a>Cerrar periodos del inventario
 
 El campo **Cerrado** indica si el periodo del inventario se encuentra o no cerrado a efectos de poder realizar cambios en sus valores. Este campo no se puede modificar.  
 

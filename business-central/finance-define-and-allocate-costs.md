@@ -28,7 +28,7 @@ Para cada destino de asignación, define una base de asignaciones. La base de la
 
 En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Configuración del origen de asignación y los destinos
+## <a name="set-up-allocation-source-and-targets"></a>Configuración del origen de asignación y los destinos
 
 Cada asignación está formada por un origen de asignación y uno o varios destinos de asignación. El origen de asignación define qué costes se asignarán. Los destinos de asignación determinan dónde se deben asignar los costes.  
 
@@ -50,11 +50,11 @@ Cada asignación está formada por un origen de asignación y uno o varios desti
 > [!NOTE]  
 > Seleccione la casilla **Bloqueado** para desactivar la configuración de asignación.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Configuración de filtros para las bases de la asignación dinámica
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Configuración de filtros para las bases de la asignación dinámica
 
 El método de asignación dinámica se basa en los valores cambiables. Por ejemplo, el número de empleados de un centro de coste o los productos vendidos de un objeto de coste en un periodo de tiempo determinado. Existen nueve bases predefinidas de asignación y doce rangos de fechas dinámicas. Define distintos filtros basados en la base de asignación.  
 
-### <a name="setting-filters"></a>Configurando filtros
+### <a name="set-filters"></a>Configurando filtros
 
 La siguiente tabla muestra qué filtros son posibles para distintas bases de asignación y qué valores son válidos en los campos **Filtro nº** y **Filtro grupo**. Seleccione <kbd>F1</kbd> en el campo **Filtro fecha vto.** para leer descripciones detalladas.  
 

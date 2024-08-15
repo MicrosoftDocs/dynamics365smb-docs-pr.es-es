@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Obtener el complemento Business Central para Outlook
+# <a name="get-the-business-central-add-in-for-outlook"></a>Obtener el complemento Business Central para Outlook
 
 Con [!INCLUDE[prod_short](includes/prod_short.md)] puede administrar interacciones comerciales con sus clientes y proveedores directamente en Microsoft Outlook. Con el complemento de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook, verá datos financieros relacionados con clientes y proveedores. También puede crear y enviar documentos financieros, como presupuestos y facturas.  
 
@@ -21,7 +21,7 @@ Hay dos formas de instalar el complemento Business Central para Outlook, según 
 
 - Como cualquier usuario, instale el complemento para su propio uso, si su administrador aún no lo ha implementado por usted.
 
-## Acerca del complemento Business Central para Outlook
+## <a name="about-the-business-central-add-in-for-outlook"></a>Acerca del complemento Business Central para Outlook
 
 El complemento Business Central para Outlook consta de dos complementos más pequeños:
 
@@ -40,20 +40,20 @@ Cada complemento se proporciona como archivo XML, llamado *manifiesto*, que debe
 > [!IMPORTANT]
 > ¿Trabajar con varios entornos? El complemento Business Central para Outlook está diseñado para funcionar con un solo entorno Business Central. Cuando se instala el complemento, el nombre del entorno se incluye en el manifiesto del complemento. Esta configuración significa que el complemento solo se conectará al entorno desde el que se instaló. Para usar el complemento con un entorno diferente, abra el entorno e instale el complemento nuevamente.
 
-## Implementar el complemento mediante Implementación centralizada como administrador
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Implementar el complemento mediante Implementación centralizada como administrador
 
 Implementación centralizada es una característica del Centro de administración de Microsoft 365 que se usa para instalar complementos automáticamente en las aplicaciones de Office de los usuarios, como Outlook. Es la forma recomendada para que los administradores implementen complementos de Office para usuarios y grupos dentro de su organización.
 
 > [!NOTE]
 > Para Business Central local, consulte [Configuración del complemento para la integración de Outlook con Business Central local](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) en el contenido de administración (solo en inglés).
 
-### Requisitos previos
+### <a name="prerequisites"></a>Requisitos previos
 
 - Una suscripción a Microsoft 365  
 - A los usuarios se les asigna una licencia de Microsoft 365  
 - Su cuenta tiene al menos el rol de [Administrador de Exchange](/entra/identity/role-based-access-control/permissions-reference#exchange-administrator] Microsoft 365 
 
-### Implementar el complemento
+### <a name="deploy-the-add-in"></a>Implementar el complemento
 
 1. En Business Central, elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración asistida** y luego elija el enlace relacionado.
 1. Elija **Implementación centralizada complementos Outlook** para iniciar la guía de configuración asistida.
@@ -84,7 +84,7 @@ Implementación centralizada es una característica del Centro de administració
 
 Cuando termine, siempre puede cambiar la implementación en el Centro de administración de Microsoft 365, como asignar más usuarios. Para obtener más información sobre la implementación de complementos en el Centro de administración, consulte [Implementar complementos en el centro de administración](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install"></a>Instale el complemento para su propio uso
+## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Instale el complemento para su propio uso
 
 Si su organización lo permite, puede instalar el complemento Business Central solo para usted. Si no está seguro, consulte con su administrador.
 
@@ -95,7 +95,7 @@ Si su organización lo permite, puede instalar el complemento Business Central s
 
 Business Central se conectará a su servidor de correo electrónico e instalará el complemento en su Outlook. Esto no tardará mucho. Ahora está listo para comenzar a usar el complemento en Outlook.
 
-### <a name="onprem"></a>Para Business Central local
+### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Para Business Central local
 
 Si usa Business Central local, la instalación del complemento puede ser ligeramente diferente.
 
@@ -117,7 +117,7 @@ Si usa Business Central local, la instalación del complemento puede ser ligeram
 
 Ahora está listo para comenzar a usar el complemento en Outlook.
 
-## Consulte también
+## <a name="see-also"></a>Consulte también
 
 [Preparación para hacer negocios](ui-get-ready-business.md)  
 [Obtener Business Central en mi dispositivo móvil](install-mobile-app.md)  

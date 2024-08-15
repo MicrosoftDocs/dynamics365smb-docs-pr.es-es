@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Realizar picking para producción, ensamblado o proyectos en una configuración básica de almacén
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Realizar picking para producción, ensamblado o proyectos en una configuración básica de almacén
 
 La forma de realizar el picking de componentes para fabricación, trabajos u órdenes de ensamblado depende de la configuración del almacén. Obtenga más información en [Configuración de Warehouse Management](warehouse-setup-warehouse.md).
 

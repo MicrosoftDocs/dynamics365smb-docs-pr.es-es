@@ -22,7 +22,7 @@ Los costes estándar se pueden mantener para los productos que se rellenan con l
 |**Ensamblado**|Coste directo del material, coste directo o de mano de obra fija y coste general.|  
 |**Ord. prod.**|Coste directo del material, coste de mano de obra, coste de subcontratista y coste general.|  
 
-## <a name="setting-up-standard-costs"></a>Configuración de los costes estándar
+## <a name="set-up-standard-costs"></a>Configuración de los costes estándar
 
 Dado que el coste estándar de un producto fabricado o ensamblado puede incluir diversos elementos de coste, entre ellos, costes de materiales, de capacidad (mano de obra) y de subcontratistas, ya sean directos o generales, deben establecerse los costes estándar para cada uno de estos elementos.  
 
@@ -88,7 +88,7 @@ Los costes de subcontratistas son aquellos asociados con los servicios que ofrec
 
 Dado que la subcontratación es una capacidad externalizada, puede configurar el coste de los servicios subcontratados tanto directos como indirectos en la ficha del centro de trabajo que representa la operación de subcontratación.  
 
-## <a name="updating-standard-costs"></a>Actualización de los costes estándar
+## <a name="update-standard-costs"></a>Actualización de los costes estándar
 
 Para actualizar o calcular el coste estándar de elementos de ensamblado, use la función de la ficha de producto.  
 

@@ -27,7 +27,7 @@ Hay dos formas de abrir la página **Configuración**: 1) desde el cuadro de red
 
    ![Configuración de Business Central desde el cuadro de mensaje.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Consulte también
+## <a name="related-information"></a>Consulte también
 
 [Descripción general de la integración de Business Central y Microsoft Teams](across-teams-overview.md)  
 [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md)  

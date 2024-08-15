@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Detalles de diseño: Seguimiento y planificación de artículos
+# <a name="design-details-item-tracking-and-planning"></a>Detalles de diseño: Seguimiento y planificación de artículos
 Dado que se almacenan en el programa de reservas, los números de seguimiento de producto se coordinan completamente con los registros de seguimiento de pedidos. Esto significa que a los productos con registros de seguimiento de pedido se les pueden asignar números de seguimiento de producto. Por el contrario, los productos que tienen número de seguimiento de producto pueden convertirse en registros de seguimiento de pedido. Para obtener más información, consulte [Detalles de diseño: Diseño de seguimiento de producto](design-details-item-tracking-design.md).
 
 Para obtener más información acerca de los sistemas integrados, consulte [Detalles de diseño: Reserva, seguimiento de pedido y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ En el caso de productos que utilizan seguimiento de productos específico, todas
 
 Para obtener más información, consulte [Detalles de diseño: Transferencias en planificación](design-details-transfers-in-planning.md).
 
-## Equilibrar la demanda y la oferta
+## <a name="balancing-demand-and-supply"></a>Equilibrar la demanda y la oferta
 Si un producto requiere un seguimiento específico, se crea un vínculo de seguimiento de pedido desde toda la demanda de seguimiento del producto a cualquier aprovisionamiento del mismo que corresponda, con la única limitación de que el aprovisionamiento deberá ir antes de la demanda. Si, en estas circunstancias, no se encuentra ningún aprovisionamiento de seguimiento de productos correspondiente a la demanda con seguimiento específico de productos, se crea un nuevo aprovisionamiento de seguimiento de productos inmediatamente sin tener cuenta el tamaño de pedido, los parámetros de planificación o la reprogramación del aprovisionamiento existente con el mismo número de serie o de lote.
 
 Si los números de seguimiento de productos se asignan en el lado de la demanda o en el lado del aprovisionamiento sin requerir seguimiento de productos específico, se crea un vínculo de seguimiento de pedidos desde la demanda con ese aprovisionamiento y en función de la sincronización y la cantidad más convenientes, tal y como ocurre con el procedimiento de contrapartida normal. El número de seguimiento de producto especificado se incorpora al registro de seguimiento de pedidos de la misma forma que cualquier cantidad de seguimiento de producto especificada define un extremo de la conexión de seguimiento de pedidos. Esto significa que se mantiene el número de seguimiento de producto que se ha introducido, a la vez que también forma parte del registro de seguimiento de pedidos.
@@ -44,7 +44,7 @@ Si los números de seguimiento de productos se asignan en el lado del aprovision
 
 Para obtener información detallada, consulte [Detalles de diseño: Equilibrado de aprovisionamiento y demanda](design-details-balancing-demand-and-supply.md).  
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Detalles de diseño: diseño del seguimiento de productos](design-details-item-tracking-design.md)  
 [Detalles de diseño: equilibrio de oferta y demanda](design-details-balancing-demand-and-supply.md)  
 [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)   
