@@ -1,19 +1,19 @@
 ---
-title: Reglas para la liquidación automática de los pagos
+title: Normas para la aplicación automática de pagos
 description: Lea sobre cómo configurar reglas para la liquidación automática de pagos en la página Reglas de liquidación de pagos.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 06/25/2021
+ms.date: 06/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Configurar reglas para la liquidación automática de los pagos
+# Establecer reglas para la aplicación automática de pagos
 
-En la página **Reglas de liquidación de pago**, se establecen reglas para determinar cómo el texto de pago (en una transacción bancaria) se enlaza automáticamente en factoras relacionadas abiertas (sin pagar), notas de abono u otras entradas cuando usa la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**. Para obtener más información, vea [Conciliar pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md).
+En la página **Reglas de liquidación de pago**, se establecen reglas para determinar cómo el texto de pago (en una transacción bancaria) se enlaza automáticamente en factoras relacionadas abiertas (sin pagar), notas de abono u otras entradas cuando usa la función **Liquidar automáticamente** en la página **Diario de conciliación de pagos**. Para obtener más información, consulte  [Conciliar pagos mediante la aplicación automática](receivables-how-reconcile-payments-auto-application.md).
 
 Las reglas de liquidación de pagos nuevas se configuran eligiendo qué tipos de datos en una línea de diario de conciliación de pago deben corresponder con datos en uno o varios movimientos pendientes antes de que el pago relacionado se liquide automáticamente en los movimientos pendientes. La calidad de cada liquidación automática se muestra como un valor de **Bajo** a **Alto** en el campo **Confianza de la correspondencia** en la página **Diario de conciliación de pagos**, según la regla de liquidación de pago que se haya utilizado.
 
@@ -29,7 +29,7 @@ Además de los criterios de correspondencia, lo siguiente se aplica en relación
 - Para importes negativos, la correspondencia se realiza primero contra movimientos pendientes que representan las facturas de cliente y luego contra los abonos de proveedor.
 - Para importes positivos, la correspondencia se realiza primero contra movimientos pendientes que representan las facturas de proveedor y luego contra los abonos de cliente.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Para configurar una regla de liquidación de pago
+## Para configurar una regla de liquidación de pago
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Reglas de liquidación de pagos** y luego elija el enlace relacionado.
 2. Defina una regla de liquidación de pago nueva o modificada; para ello, rellene los campos en una línea, tal como se describe en la tabla siguiente.
 
@@ -38,8 +38,8 @@ Además de los criterios de correspondencia, lo siguiente se aplica en relación
 |**Confianza de la correspondencia**|Especifica la confianza en la regla de liquidación que se define en la línea. <br /></br>Según la calidad de la liquidación de pago automático de la línea del diario, un valor que especifica en este campo se muestra en el campo **Confianza de la correspondencia** de la página **Diario de conciliación de pagos**.|
 |**Prioridad**|Especifica la prioridad de la regla de aplicación relativa a otras reglas de aplicación que se definen como líneas en la página **Reglas de liquidación de pago**. 1 representa la prioridad más alta.|
 |**Parte relacionada conciliada**|Especifica cuánta información sobre el cliente o el proveedor, como dirección, nombre de ciudad y número de cuenta bancaria, en la línea del diario de conciliación del pago debe coincidir con información en el movimiento pendiente antes de que la regla de liquidación se utilice para liquidar automáticamente el pago en el movimiento pendiente.|
-|**N.º doc./N.º doc. ext. conciliado**|Especifica si el texto de la línea del diario de conciliación de pagos debe coincidir con el valor de los campos **N.º documento** o **N.º documento externo** del movimiento pendiente, antes de que la regla de aplicación se use automáticamente para aplicar el pago al movimiento pendiente.|
-|**Tolerancia importe incl. conciliada**|Especifica cuántos movimientos para un cliente o un proveedor deben coincidir con el importe incluida la tolerancia de pago antes de que la regla de liquidación se use para liquidar automáticamente un pago en el movimiento pendiente.|
+|**N.º de documento/Extensión N.º de documento coincidente**|Especifica si el texto de la línea del diario de conciliación de pagos debe coincidir con el valor de los campos **N.º documento** o **N.º documento externo** del movimiento pendiente, antes de que la regla de aplicación se use automáticamente para aplicar el pago al movimiento pendiente.|
+|**Número de entradas dentro de la tolerancia de cantidad encontrada**|Especifica cuántos movimientos para un cliente o un proveedor deben coincidir con el importe incluida la tolerancia de pago antes de que la regla de liquidación se use para liquidar automáticamente un pago en el movimiento pendiente.|
 |**Revisión requerida**|Especifica si la aplicación de pago automático se recomienda para que el usuario la revise manualmente antes de publicarla. La elección del campo **Líneas a revisar** en la página **Diario de aplicación de pagos** inicia una experiencia guiada en la que puede revisar fácilmente varias aplicaciones en una secuencia de la página **Revisar aplicación de pago**.|
 
 La siguiente tabla describe las reglas de aplicación de pago estándar en [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -47,7 +47,7 @@ La siguiente tabla describe las reglas de aplicación de pago estándar en [!INC
 > [!Important]
 > Las reglas de liquidación de pagos pueden ser distintas en su implementación de [!INCLUDE[prod_short](includes/prod_short.md)].
 
-| Confianza de la correspondencia | Prioridad | Parte relacionada conciliada | N.º doc./N.º doc. ext. conciliado | Tolerancia importe incl. conciliada |
+| Confianza de la correspondencia | Prioridad | Parte relacionada conciliada | N.º documento/N.º documento ext. conciliado | Número de movimientos dentro de la tolerancia de importe encontrados |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
 | Alta             | 1        | Completamente                 | Sí: múltiple                 | Una instancia                      |
 | Alta             | 2        | Completamente                 | Sí: múltiple                 | Múltiples instancias               |
@@ -74,7 +74,7 @@ La siguiente tabla describe las reglas de aplicación de pago estándar en [!INC
 | Baja              | 4        | N.º                    | N.º                             | Una instancia                      |
 | Baja              | 5        | N.º                    | N.º                             | Múltiples instancias               |
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 [Conciliar los pagos con liquidación automática](receivables-how-reconcile-payments-auto-application.md)  
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ccial](sales-manage-sales.md)  

@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Trabajar con listas de materiales
+# Trabajar con listas de materiales
 
 Utilice listas de materiales (L.M.) para estructurar los productos principales que se deben montar a partir de otros productos o producir a través de centros de recursos o máquinas de componentes.
 
-## <a name="assembly-boms-or-production-boms"></a>L.M. de ensamblado o L.M. de producción
+## L.M. de ensamblado o L.M. de producción
 
 [!INCLUDE[prod_short](includes/prod_short.md)] admite dos tipos diferentes de listas de materiales:
 
@@ -24,7 +24,7 @@ Utilice listas de materiales (L.M.) para estructurar los productos principales q
 | [L.M. de ensamblado](assembly-how-work-assembly-boms.md) | Almacén/ensamblado | Productos que están formados por otros productos, ensamblados con recursos básicos o sin recursos. |
 | [L.M. de producción](production-how-to-create-production-boms.md) | Fabricación/producción | Productos formados por diferentes componentes y subensamblajes, producidos en un centro de trabajo o máquinas. |
 
-Utilice pedidos de ensamblado para fabricar artículos finales a partir de componentes en un proceso sencillo que puedan realizar uno o varios recursos básicos que no sean máquinas o centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo.  
+Las órdenes de ensamblaje se utilizan para fabricar artículos finales a partir de componentes en un proceso simple que puede llevarse a cabo por uno o más recursos básicos, que no son máquinas ni centros de trabajo, o sin ningún recurso. Por ejemplo, un proceso de ensamblado podría ser el picking de dos botellas de vino y un saco de café y, después, empaquetarlo todo como artículo de regalo.  
 
 Un L.M. de ensamblado es los datos maestros que definen qué artículos componentes forman un producto final ensamblado y que recursos se utilizan para ensamblar el artículo de ensamblado. Cuando introduzca un elemento de ensamblado una cantidad en una cabecera de un nuevo pedido de ensamblado, las líneas de pedidos de ensamblado se rellenan automáticamente en las L.M. de ensamblado con una línea de pedido de ensamblado por componente o recurso. Obtenga más información en [Administración de ensamblados](assembly-assemble-items.md).
 
@@ -36,14 +36,14 @@ El concepto de recursos de producción es mucho más avanzado que en administrac
 
 Los pedidos de ensamblado y las órdenes de producción se pueden relacionar directamente a los pedidos de venta. Sin embargo, solo podrá los pedidos de ensamblado para personalizar el producto final directamente para una solicitud de cliente con el pedido de venta.
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
-[Trabajar con L.M. de ensamblado](assembly-how-work-assembly-boms.md)  
-[Crear LM de producción](production-how-to-create-production-boms.md)  
-[Registro de productos nuevos](inventory-how-register-new-items.md)  
-[Administrar variantes de productos](inventory-item-variants.md)  
-[Inventario](inventory-manage-inventory.md)  
-[Fabricación](production-manage-manufacturing.md)  
-[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Trabajar con listas de materiales de ensamblaje](assembly-how-work-assembly-boms.md)    
+[Crear listas de materiales de producción](production-how-to-create-production-boms.md)    
+[Registrar nuevos artículos](inventory-how-register-new-items.md)    
+[Gestionar variantes de productos](inventory-item-variants.md)    
+[Grupos contables inventario](inventory-manage-inventory.md)    
+[Fabricación](production-manage-manufacturing.md)    
+[Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

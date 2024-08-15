@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, cash receipts, customer payment'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Conciliar los pagos de clientes desde una lista de documentos de venta impagados
+
+# Conciliar los pagos de clientes desde una lista de documentos de venta impagados
 
 Después de que los clientes realicen pagos electrónicos a su cuenta bancaria, debe realizar las siguientes acciones:
 
@@ -27,7 +28,7 @@ Utilice la página **Registrar pagos de cliente** para equilibrar las cuentas in
 
 Debe registrar pagos para los diferentes clientes que tienen distintas fechas de pago como pagos individuales. Los pagos para el mismo cliente con la misma fecha de pago se pueden registrar como pago de suma total. Los pagos de suma global pueden ser útiles, por ejemplo, cuando un cliente ha realizado un pago único que cubre varias facturas de venta.
 
-## <a name="to-set-up-the-payment-registration-journal"></a>Configurar el diario de registros de pago
+## Configurar el diario de registros de pago
 
 Dado que puede registrar distintos tipos de pago en diferentes cuentas de saldo, debe seleccionar una cuenta de saldo en la página **Configuración de registro de pago** antes de empezar a procesar los pagos de cliente. Si siempre registra en la misma cuenta de saldo, puede definir esa cuenta como la predeterminada y evitar este paso cada vez que abra la página **Registrar pagos de cliente**.  
 
@@ -37,7 +38,7 @@ Dado que puede registrar distintos tipos de pago en diferentes cuentas de saldo,
 > [!TIP]
 > Para facilitar la identificación posterior de los movimientos que se registraron a través del diario, puede asignar una serie numérica específica al diario de pagos. La serie de números es útil si utiliza diarios de conciliación de pagos para registrar y liquidar pagos.
 
-## <a name="to-register-customer-payments-individually"></a>Para registrar los pagos del cliente por separado
+## Para registrar los pagos del cliente por separado
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registrar pagos de cliente** y luego elija el enlace relacionado.  
 
@@ -54,7 +55,7 @@ Dado que puede registrar distintos tipos de pago en diferentes cuentas de saldo,
 
 La información de pagos se registra para los documentos en las líneas donde la casilla de verificación **Pago realizado** está seleccionada. Los movimientos de pago se registran en la cuenta contable, la cuenta de banco y las cuentas de cliente.
 
-## <a name="to-reconcile-lump-sum-payments"></a>Conciliar los pagos de suma totales
+## Conciliar los pagos de suma totales
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registrar pagos de cliente** y luego elija el enlace relacionado.
 2. Seleccione la casilla de verificación **Pago realizado** en las líneas para documentos registrados para el mismo cliente para el que se ha realizado un pago de suma total.  
@@ -80,7 +81,7 @@ Si un pago en el banco no se representa mediante una línea en la página **Regi
 
 Si un pago en el banco no se representa mediante ningún documento en , puede abrir un diario general previamente rellenado en la página **Registrar pagos de cliente** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto. Para obtener más información, consulte [Registrar pagos sin documento relacionado](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
-## <a name="to-process-customer-payments-with-discounts-manually"></a>Para procesar pagos de cliente con descuentos manualmente
+## Para procesar pagos de cliente con descuentos manualmente
 
 Si ha acordado un descuento por pronto pago con el cliente, los importes de pago pueden ser inferiores a los importes de factura si el pago se produce antes de la fecha de descuento acordada.  
 
@@ -91,7 +92,7 @@ En los procedimientos siguientes se explican formas para registrar pagos al desc
 * El importe del pago es menor que el importe al descuento restante. Registra el pago como parcial. El documento permanece abierto para recopilar o pagar el importe pendiente.  
 * El importe del pago es mayor que el importe al descuento restante. Registra los pagos tal como están. Solo se registra el importe pendiente. El importe adicional se abona al cliente.  
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Importar un importe de pago igual al descuento y donde la fecha de pago es antes de la fecha de descuento
+### Importar un importe de pago igual al descuento y donde la fecha de pago es antes de la fecha de descuento
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registrar pagos de cliente** y luego elija el enlace relacionado.  
 2. Introduzca el importe de pago en el campo **Importe recibido**. El importe es igual al importe en el campo **Importe pend. incl. descuento**.
@@ -101,7 +102,7 @@ En los procedimientos siguientes se explican formas para registrar pagos al desc
 4. Compruebe que el campo **Importe pendiente** contenga cero (0).  
 5. Seleccione la acción **Registrar pagos** para registrar el pago completo a la cuenta contable, la cuenta de banco y la cuenta de cliente.
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Importar un importe de pago igual al descuento ero donde la fecha de pago es posterior a la fecha de descuento
+### Importar un importe de pago igual al descuento ero donde la fecha de pago es posterior a la fecha de descuento
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registrar pagos de cliente** y luego elija el enlace relacionado.  
 2. Introduzca el importe de pago en el campo **Importe recibido**. El importe es igual al importe en el campo **Importe pend. incl. descuento**.
@@ -111,7 +112,7 @@ En los procedimientos siguientes se explican formas para registrar pagos al desc
 
    Los campos de fecha cambian a la fuente color rojo, y un mensaje de error se muestra en la parte inferior de la página. Los siguientes dos pasos solucionan eso.
 4. Seleccione la acción **Detalles**.  
-5. En la página **Detalles del registro de pago**, en el campo **Fecha de descuento del pago**, en la ficha desplegable **Descuento del pago**, especifique una fecha que sea posterior a la fecha del campo **Fecha de recepción**, en la página **Registro de pago**.  
+5. En la página  **Detalles de registro de pago**, en el campo  **Fecha de descuento de pago**  en la ficha rápida  **Descuento de pago**, ingrese una fecha que sea posterior a la fecha del campo  **Fecha de recepción**  en la página  **Configuración de registro de pago** .  
 
     El mensaje de error y la fuente de color rojo desaparecen, y puede seguir procesando el pago descontado.
 6. Compruebe que el campo **Importe pendiente** contenga el importe pendiente para pagar el importe total de la factura.  
@@ -119,7 +120,7 @@ En los procedimientos siguientes se explican formas para registrar pagos al desc
 
 El documento relacionado quedará abierto.
 
-### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Procesar un pago que es menor que el importe al descuento restante
+### Procesar un pago que es menor que el importe al descuento restante
 
 1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registrar pagos de cliente** y luego elija el enlace relacionado.  
 2. Introduzca el importe de pago en el campo **Importe recibido**. El importe es inferior al importe del campo **Importe pend. incl. descuento**.
@@ -131,7 +132,7 @@ El documento relacionado quedará abierto.
 
 El documento relacionado quedará abierto.
 
-### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Procesar un pago que es mayor que el importe al descuento restante
+### Procesar un pago que es mayor que el importe al descuento restante
 
 1. Elija el icono ![Bombilla que abre la característica Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Registrar pagos de cliente** y luego elija el enlace relacionado.  
 2. Introduzca el importe de pago en el campo **Importe recibido**. El importe es superior al importe del campo **Importe pend. incl. descuento**.  
@@ -143,7 +144,7 @@ El documento relacionado quedará abierto.
 
 El documento relacionado está cerrado y al cliente se acredita el importe de pago en exceso.  
 
-## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Buscar un documento de ventas específico que no está facturado totalmente
+## Buscar un documento de ventas específico que no está facturado totalmente
 
 La página **Registrar pagos de cliente** le facilita las tareas necesarias para calcular el saldo de las cuentas internas con cifras reales de efectivo para garantizar la colección efectiva de los clientes y el pago debido a los proveedores. Muestra los pagos entrantes pendientes como líneas que representen los documentos de venta donde se debe un importe para el pago.  
 
@@ -172,7 +173,7 @@ Si hay documentos que coinciden con los criterios de búsqueda, la página **Res
 
 Si un pago en el banco no se representa mediante ningún documento, puede abrir un diario general previamente rellenado en la página **Registrar pagos de cliente** para registrar el pago directamente en la cuenta de saldo sin liquidar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto.  
 
-## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Registrar pagos sin documento relacionado
+## Registrar pagos sin documento relacionado
 
 Si un pago en el banco no está representado por un documento, puede utilizar la acción **Diario general** para abrir una línea de diario general precargada desde la página **Registrar pagos de clientes**. Utilice el diario para registrar el pago directamente en la cuenta de contrapartida sin aplicar el pago a un documento. Alternativamente, puede que desee registrar el pago en el diario hasta que el origen del pago se haya resuelto.  
 
@@ -186,7 +187,7 @@ Puede registrar la línea del diario para actualizar el total de la cuenta de co
 
 Si no publica la línea del diario, su valor se agrega al valor en el campo **Importe pend. incl. descuento** campo en la página **Registro de pago**.  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Administrar cobros](receivables-manage-receivables.md)  
 [Ventas](sales-manage-sales.md)  

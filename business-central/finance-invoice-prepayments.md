@@ -1,16 +1,17 @@
 ---
-title: Facturar prepagos
+title: Prepagos de facturas
 description: Aprenda a utilizar prepagos para facturar y cobrar depósitos de los clientes y remitir depósitos a los proveedores en Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
-ms.date: 12/03/2021
+ms.date: 07/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="invoicing-prepayments"></a>Facturación de prepagos
+
+# Facturar prepagos
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -21,7 +22,7 @@ Por ejemplo, puede especificar un importe total para todo el pedido o puede dist
 > [!NOTE]
 > Si desea eliminar una línea para la cual ya se ha facturado un prepago, deberá emitir un abono de prepago para poder eliminar la línea.
 
-En la tabla siguiente se indican una serie de tareas con vínculos a los temas que las describen.
+En la tabla siguiente se indican una serie de tareas con vínculos a los artículos que las describen.
 
 |**Para**|**Vea**|  
 |------------|-------------|  
@@ -29,7 +30,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los temas q
 |Crear un pedido, ajustar los importes de prepago y emitir una factura para los importes de prepago.|[Crear facturas de prepagos](finance-how-to-create-prepayment-invoices.md)|  
 |Emitir una factura de prepago adicional, bien para productos adicionales o para un depósito adicional en el pedido original, o emitir un abono de prepago.|[Corregir prepagos](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Tutorial: configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzas](finance.md)  

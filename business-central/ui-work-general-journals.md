@@ -6,12 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 04/12/2024
+ms.date: 07/15/2024
 ms.custom: bap-template
 ms.search.keywords: 'journals, recurring, accrual, renumber, bulk-post'
 ms.search.form: '39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022'
 ---
-# <a name="work-with-general-journals"></a>Trabajar con diarios generales
+# Trabajar con diarios generales
 
 La mayoría de las transacciones financieras se registran en la contabilidad a través de documentos, como facturas de compra y pedidos de ventas. Sin embargo, también puede procesar actividades comerciales como:
 
@@ -20,11 +20,11 @@ La mayoría de las transacciones financieras se registran en la contabilidad a t
 * Uso de diarios recurrentes para contabilizar acumulaciones
 * Reembolso de gastos de empleados mediante la contabilización de líneas de diario en diarios  
 
-La mayoría de los diarios se basan en el diario general y puede procesar todas las transacciones en la página **Diario general**. Más información en [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md).  
+La mayoría de los diarios se basan en el diario general, y usted puede procesar todas las transacciones en la página  **Diarios generales** . Más información en [Registrar transacciones directamente en la contabilidad](finance-how-post-transactions-directly.md).  
 
 Por ejemplo, puede utilizar los gastos de empleados de puestos para el reembolso. Más información en [Registro y reembolso de los costes de los empleados](finance-how-record-reimburse-employee-expenses.md).
 
-Sin embargo, [!INCLUDE [prod_short](includes/prod_short.md)] también ofrece los diarios que están optimizados para tipos específicos de transacciones, como el **Diario de pagos** para registrar pagos. Obtenga más información en [Registrar pagos y reembolsos en el diario de pagos](payables-how-post-payments-refunds.md).  
+Sin embargo, también ofrece diarios optimizados para tipos específicos de transacciones, como el  [!INCLUDE [prod_short](includes/prod_short.md)] Diario de pagos *para registrar pagos.*  Obtenga más información en [Registrar pagos y reembolsos en el diario de pagos](payables-how-post-payments-refunds.md).  
 
 Utiliza diarios generales para registrar transacciones financieras de cuentas de la contabilidad general y otras cuentas. Las otras cuentas incluyen cuentas bancarias, de clientes, de proveedores y de empleados. La contabilización con un diario general crea entradas en las cuentas del libro mayor incluso cuando, por ejemplo, contabiliza una línea de diario en una cuenta de cliente. El asiento se contabiliza en una cuenta de cobros del libro mayor a través de un grupo de contabilización.
 
@@ -33,13 +33,13 @@ La información que introduzca en un diario es temporal y se puede modificar mie
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="add-context-to-general-journal-transactions"></a>Agregar contexto a las transacciones del diario general
+## Agregar contexto a las transacciones del diario general
 
 Cuando crea un diario, puede agregar enlaces que ofrezcan contexto a sus transacciones. Cuando publica el diario, [!INCLUDE [prod_short](includes/prod_short.md)] copia los enlaces al diario publicado y los asientos contables que crea el diario. Por ejemplo, proporcionar enlaces puede facilitarle la vida a su auditor. Si guarda imágenes de sus recibos de gastos en el sitio SharePoint de su empresa, puede agregar enlaces a los archivos. Cuando publica el diario para presentar sus gastos, su auditor puede acceder rápidamente a los archivos de recibos.
 
-## <a name="use-journal-templates-and-batches"></a>Usar plantillas y secciones del diario
+## Usar plantillas y secciones del diario
 
-Existen varias plantillas de diario general. Cada plantilla de diario se representa mediante una página específica con funciones particulares y los campos que se requieren para admitir estas funciones, como la página **Diario de conciliación de pagos** para procesar pagos bancarios y la página **Diario de pagos** para pagar a sus proveedores o reembolsar a sus empleados. Obtenga más información en [Realizar pagos](payables-make-payments.md) y [Conciliar los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente](receivables-how-apply-sales-transactions-manually.md).
+Existen varias plantillas de diario general. Cada plantilla de diario está representada por una página dedicada con funciones particulares y los campos necesarios para respaldar esas funciones, como la página  **Diarios de conciliación de pagos**  para procesar pagos bancarios y la página  **Diarios de pagos**  para pagar a sus proveedores o reembolsar a sus empleados. Obtenga más información en [Realizar pagos](payables-make-payments.md) y [Conciliar los pagos de clientes con el diario de recibos de efectivo o de los movimientos de cliente](receivables-how-apply-sales-transactions-manually.md).
 
 Para cada plantilla de diario, puede configurar su propio diario personal como una sección de diario. Por ejemplo, puede definir su propia sección de diario del diario de pagos que tiene su diseño y configuración personal. La sugerencia siguiente es un ejemplo de cómo personalizar un diario.
 
@@ -49,9 +49,9 @@ Para cada plantilla de diario, puede configurar su propio diario personal como u
 > [!TIP]
 > Puede agregar o eliminar campos en diarios personalizándolos. Obtenga más información en [Personalizar el área de trabajo](ui-personalization-user.md).
 
-### <a name="validating-general-journal-batches"></a>Validación de lotes de diario general
+### Validación de lotes de diario general
 
-Puede activar una verificación de antecedentes que ayuda a evitar retrasos al publicar. La comprobación le notifica cuando un error en el diario financiero en el que está trabajando le impida contabilizar el diario. En la página **Lote de diario general** puede elegir **Comprobación de errores de fondo** para hacer que [!INCLUDE[prod_short](includes/prod_short.md)] valide los diarios de finanzas, como los diarios generales o de pagos, mientras trabaja en ellos.
+Puede activar una verificación de antecedentes que ayuda a evitar retrasos al publicar. La comprobación le notifica cuando un error en el diario financiero en el que está trabajando le impida contabilizar el diario. En la página **Lotes del diario general**, puede elegir **Verificación de errores de fondo** para validar los diarios financieros, como los diarios generales o de pagos, mientras trabaja en ellos. [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 Cuando habilita la validación, los cuadros informativos **Comprobar documento** o **Comprobación de diario** mostrará los problemas en la línea actual y en todo el lote. La validación ocurre cuando carga una sección de diario de finanzas y cuando elige otra línea de diario. La ventana **Total de problemas** del Cuadro informativo muestra el número total de problemas que [!INCLUDE[prod_short](includes/prod_short.md)] ha encontrado y puede elegirla para abrirla y ver una descripción general de los problemas.
 
@@ -59,20 +59,20 @@ Puede usar las acciones **Mostrar líneas con problemas** y **Mostrar todas las 
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
-## <a name="understanding-main-accounts-and-balancing-accounts"></a>Descripción de las cuentas principales y las cuentas de contrapartida
+## Descripción de las cuentas principales y las cuentas de contrapartida
 
 Si ha configurado cuentas de contrapartida predeterminadas para las secciones del diario en la página **Diarios generales**, la cuenta de contrapartida se rellena automáticamente cuando rellene el campo **Nº cuenta**. En caso contrario, deberá rellenar manualmente los campos **Nº cuenta** y **Cta. contrapartida**. Un importe positivo en el campo **Importe** se adeuda en la cuenta principal y se carga en la cuenta de contrapartida. Un importe negativo se carga en la cuenta principal y se adeuda en la cuenta de contrapartida.
 
 > [!NOTE]  
 > El IVA se calcula de manera independiente para la cuenta principal y la cuenta de contrapartida, para que puedan utilizar diferentes tipos porcentuales de IVA.
 
-## <a name="work-with-recurring-journals"></a>Trabajar con diarios periódicos
+## Trabajar con diarios periódicos
 
 Un diario periódico es un diario general con campos específicos para administrar las transacciones que registre frecuentemente con pocos cambios o con ninguno. Por ejemplo, transacciones de gastos como alquiler, suscripciones, electricidad y calefacción. El uso de diarios recurrentes le permite contabilizar importes fijos y variables y especificar entradas de reversión automática para el día posterior a la fecha de contabilización. Las claves de asignación le permiten dividir los movimientos periódicos entre varias cuentas. Obtenga más información en [Asignación de importes de diario periódicos a varias cuentas](#allocating-recurring-journal-amounts-to-several-accounts).
 
 En un diario periódico, crea las entradas que se van a registrar con regularidad solo una vez. Por ejemplo, las cuentas, las dimensiones, los valores de dimensiones y demás, permanecen en el diario después del registro. Si se necesitan cambios, puede hacerlos cada vez que publique.
 
-### <a name="recurring-method-field"></a>Campo Periodicidad
+### Campo Periodicidad
 
 El campo **Periodicidad** es importante. Determina la forma en que se tratará el importe en la línea de diario una vez realizado el registro. Por ejemplo, si usa el mismo importe cada vez que se registra la línea, puede permitir que el valor se mantenga. Si usa las mismas cuentas y texto de la línea, pero el importe varía en cada una, puede optar por borrar el importe después de cada registro.
 
@@ -90,11 +90,11 @@ El campo **Periodicidad** es importante. Determina la forma en que se tratará e
 > [!NOTE]  
 > Los campos de IVA se pueden rellenar en la línea del diario periódico o en la línea del diario de distribución, pero no en ambas. Es decir, sólo se pueden rellenar en la página **Asignaciones** si no se han rellenado las líneas correspondientes en el diario periódico.
 
-### <a name="recurring-frequency-field"></a>Campo Frecuencia repetición
+### Campo Frecuencia repetición
 
 Este campo de fórmula de fecha determina la frecuencia con la que se registra la entrada en la línea del diario y debe completarse. Obtenga más información en [Usar fórmulas de fecha](ui-enter-date-ranges.md#use-date-formulas).
 
-#### <a name="examples"></a>Ejemplos
+#### Ejemplos
 
 Si la línea de diario debe registrarse cada mes, escriba **1M**. Después de cada registro, la fecha del campo **Fecha registro** se actualizará con la fecha del mes siguiente.
 
@@ -104,7 +104,7 @@ Si desea registrar un movimiento el último día de cada mes, opte por una de es
 
 * Registre el primer movimiento de cualquier día del mes e introduzca la fórmula 1M+CM. Con esta fórmula, la fecha de registro será después de un mes completo + los días que faltan del mes actual.
 
-### <a name="expiration-date-field"></a>Campo fecha caducidad
+### Campo fecha caducidad
 
 Este campo determina la fecha en la que se registra la línea por última vez. La línea no se registrará después de esta fecha.
 
@@ -112,9 +112,9 @@ La ventaja de usar el campo fecha de caducidad es que la línea no se borra del 
 
 Si el campo se deja en blanco, la línea se registrará cada vez que se elimine del diario.
 
-### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Asignación de importes de diario periódicos a varias cuentas
+### Asignación de importes de diario periódicos a varias cuentas
 
-En la página **Diario general periódico**, puede elegir la acción **Asignaciones** para especificar cómo asignar importes de la línea del diario periódico a varias cuentas y dimensiones. La asignación funciona como línea de cuenta de contrapartida a la del diario periódico.
+En la página  **Diarios generales recurrentes**, puede elegir la acción  **Asignaciones**  para especificar cómo asignar importes en la línea del diario recurrente a varias cuentas y dimensiones. La asignación funciona como línea de cuenta de contrapartida a la del diario periódico.
 
 Al igual que un diario recurrente, ingresa una asignación una vez y permanece en el diario de asignación después de la publicación. No es necesario que ingrese cantidades y asignaciones cada vez que registre la línea de diario recurrente.
 
@@ -130,7 +130,7 @@ Por ejemplo, su empresa tiene un par de unidades de negocio y varios departament
 > [!NOTE]
 > Las dimensiones que establezca en las líneas de asignación no se calculan automáticamente y debe especificar qué valores de dimensión deben establecerse en las cuentas de asignación. En caso de que desee conservar el vínculo entre la dimensión de la cuenta de origen y la dimensión de la cuenta de asignación, le recomendamos que utilice las capacidades de [Contabilidad de costos](finance-about-cost-accounting.md) en su lugar.
 
-#### <a name="example-allocating-rent-payments-to-different-departments"></a>Ejemplo: Asignación de pagos de alquiler a diferentes departamentos
+#### Ejemplo: Asignación de pagos de alquiler a diferentes departamentos
 
 Si usted paga un alquiler mensual, tendrá que introducir el importe en la cuenta de caja en una línea del diario periódico. En la página **Asignaciones** puede usar la dimensión Departamento dividir el gasto entre varios departamentos. Por ejemplo, según la cantidad de metros cuadrados que ocupe cada departamento. El cálculo se basa en el porcentaje de asignación en cada línea. Se pueden ubicar de distintas maneras:
 
@@ -139,11 +139,11 @@ Si usted paga un alquiler mensual, tendrá que introducir el importe en la cuent
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-### <a name="calculate-the-reversal-date"></a>Cálculo de la fecha de reversión
+### Cálculo de la fecha de reversión
 
 Al utilizar diarios generales periódicos para contabilizar acumulaciones al final de un período, es importante tener un control total sobre los asientos de reversión. En la página **Diarios generales periódicos**, el campo **Cálculo de la fecha de reversión** le permite controlar la fecha en que se publicarán las entradas de reversión cuando se utilicen métodos periódicos de reversión.
 
-#### <a name="example"></a>Ejemplo
+#### Ejemplo
 
 Las acumulaciones generalmente se contabilizan con métodos periódicos **Fijos**, **Variables** o de **Saldo** en la línea del diario. La fecha de registro del importe contabilizado en la cuenta en la línea de diario se calcula utilizando la frecuencia periódica. La fecha de registro del movimiento de contrapartida se calcula utilizando el campo **Cálculo de la fecha de reversión**, como sigue:
 
@@ -153,7 +153,7 @@ Las acumulaciones generalmente se contabilizan con métodos periódicos **Fijos*
 > [!NOTE]
 > De manera predeterminada, el campo **Cálculo de la fecha de reversión** no está disponible en la página **Diarios generales periódicos** página. Para usar el campo, debe agregarlo personalizando la página. Para obtener más información, consulte [Personalizar el área de trabajo](ui-personalization-user.md).
 
-## <a name="work-with-standard-journals"></a>Trabajar con diarios estándar
+## Trabajar con diarios estándar
 
 Cuando haya creado líneas de diario que probablemente vaya a volver a crear más adelante, puede guardarlas como un diario estándar antes de registrar el diario. Lo mismo se aplica a los diarios de productos y a los diarios generales.
 
@@ -163,7 +163,7 @@ Cuando haya creado líneas de diario que probablemente vaya a volver a crear má
 > [!NOTE]  
 > Los siguientes procedimientos se refieren al diario de productos, pero la información también se aplica al diario general.
 
-### <a name="to-save-a-standard-journal"></a>Para guardar un diario estándar
+### Para guardar un diario estándar
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de productos**, y luego elija el enlace relacionado.
 2. Escriba una o varias líneas de diario.
@@ -179,7 +179,7 @@ Cuando haya creado líneas de diario que probablemente vaya a volver a crear má
 
 Cuando guarda el diario de artículos estándar, se muestra la página Diario de artículos para que pueda registrarlo.
 
-### <a name="to-reuse-a-standard-journal"></a>Para reutilizar un diario estándar
+### Para reutilizar un diario estándar
 
 > [!NOTE]
 > Los diarios estándar no siempre tienen los mismos campos que los diarios generales. Cuando utiliza la acción Obtener diarios estándar para copiar los campos en el diario general, es posible que el diario general tenga menos información que si lo creara manualmente. 
@@ -203,7 +203,7 @@ Cuando guarda el diario de artículos estándar, se muestra la página Diario de
 5. Seleccione las líneas del diario de productos que desea ajustar y, a continuación, elija la acción **Volver a calcular precio unitario**. Esta acción actualiza el campo Precio unitario con el coste unitario actual del producto.
 6. Seleccione la acción **Registrar**.
 
-## <a name="to-renumber-document-numbers-in-journals"></a>Para renumerar números de documento en diarios
+## Para renumerar números de documento en diarios
 
 Para evitar recibir errores de registro debido al número de documento, puede utilizar la acción **Renumerar los números de documento** antes de registrar un diario.
 
@@ -215,16 +215,16 @@ Esta función también funciona en las vistas filtradas.
 
 La nueva numeración de los números de documento respeta las aplicaciones relacionadas, como una solicitud de pago realizada desde el documento en la línea del diario a una cuenta de proveedor. Por consiguiente, los campos **Liq. por id.** y **Liq. por nº documento** se actualizan en las entradas contables.
 
-### <a name="to-renumber-documents-in-journals"></a>Para renumerar los documentos en diarios
+### Para renumerar los documentos en diarios
 
-El procedimiento siguiente se basa en la página **Diario general**, pero se aplica a todos los demás diarios que se basan en el diario general, como la ventana **Diario de pagos**.
+El siguiente procedimiento se basa en la página  **Diarios generales**, pero se aplica a todos los demás diarios que se basan en el diario general, como la página  **Diarios de pagos** .
 
-1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado.
+1. Elija el icono ![Bombilla que abre la característica Dígame](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado.
 2. Cuando esté listo para registrar el diario, elija la acción **Renumerar los números de documento**.
 
 Cuando sea necesario, los valores del campo **Nº documento** se cambian para que el número de documento en las líneas de diario individuales o agrupadas estén en orden secuencial. Después de que se vuelven a numerar documentos, podrá registrar el diario.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Registrar transacciones directamente en la contabilidad general](finance-how-post-transactions-directly.md)  
 [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md)  

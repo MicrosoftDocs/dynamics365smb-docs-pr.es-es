@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 05/24/2024
+ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="make-payments"></a>Creación de pagos
+# Realizar pagos
 
 Usted paga a proveedores o clientes, o reembolsa a sus empleados, contabilizando líneas de pago en la página **Diario de pagos**. El diario de pagos es un diario general optimizado para realizar pagos, y ofrece muchas acciones eficaces. Por ejemplo, la acción **Sugerir pagos a proveedores** que encuentra pagos de proveedores vencidos y el informe **Proveedor - Pagos por periodos** que muestra una descripción general de los pagos vencidos a proveedores.  
 
@@ -35,7 +35,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 | Pague a un proveedor en efectivo o cheque y registre el pago cuando registre la factura. |[Liquidar facturas de compra inmediatamente](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Asegúrese de que su banco solo compensa cheques e importes validados enviándoles un archivo que contenga la información de proveedor, cheque y pago. |[Exportar un archivo Positive Pay](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Administrar pagos](payables-manage-payables.md)  
 [Compras](purchasing-manage-purchasing.md)  

@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Extensión PayPal Payments Standard
+# Extensión PayPal Payments Standard
 
 La extensión PayPal Payments Standard puede ayudarle a aumentar sus niveles de servicio al cliente al facilitarles el pago de sus facturas.
 
-Como alternativa al cobro de pagos mediante transferencia bancaria o crédito Tarjetas, los clientes pueden pagar a través de su cuenta PayPal. Cuando envía una factura de venta por correo electrónico, hay un vínculo de PayPal en el cuerpo del correo electrónico y en el documento PDF adjunto. Si el cliente elige vincular, se abre la página de servicio de su cuenta PayPal y muestra los detalles de pago. El cliente podrá pagar la factura como cualquier otro pago de PayPal.
+Como alternativa a cobrar los pagos mediante transferencia bancaria o tarjeta de crédito Tarjetas, los clientes pueden pagar a través de su cuenta PayPal. Cuando envía una factura de venta por correo electrónico, hay un vínculo de PayPal en el cuerpo del correo electrónico y en el documento PDF adjunto. Si el cliente elige vincular, se abre la página de servicio de su cuenta PayPal y se muestran los detalles del pago. El cliente podrá pagar la factura como cualquier otro pago de PayPal.
 
 El servicio Paypal Payments Standard proporciona las ventajas siguientes:
 
@@ -27,18 +27,18 @@ El servicio Paypal Payments Standard proporciona las ventajas siguientes:
 * El servicio Paypal Payments Standard no conlleva tarifas mensuales ni tarifas de instalación.
 * Como es una extensión, puede habilitar el servicio Paypal Payments Standard fácilmente si su empresa lo requiere.  
 
-Para obtener más información sobre cómo configurar la extensión, vaya a [Habilitar el pago del cliente a través de PayPal](sales-how-enable-payment-service-extensions.md).
+Para obtener más información sobre cómo configurar la extensión, vaya a  [Habilitar el pago del cliente a través de PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="register-payments-automatically-for-business-accounts"></a>Registre pagos automáticamente para cuentas comerciales
+## Registrar pagos automáticamente para cuentas comerciales
 
-[!INCLUDE [prod_short](includes/prod_short.md)] Puede registrar pagos automáticamente si tiene una cuenta de comerciante comercial para la plataforma de comercio de PayPal. Cuando sus clientes utilizan PayPal vincular para pagar una factura, [!INCLUDE [prod_short](includes/prod_short.md)] publica las entradas y cierra el documento.
+[!INCLUDE [prod_short](includes/prod_short.md)] Puede registrar pagos automáticamente si tiene una cuenta comercial para la plataforma de comercio de PayPal. Cuando sus clientes utilizan PayPal vincular para pagar una factura, [!INCLUDE [prod_short](includes/prod_short.md)] registra las entradas y cierra el documento.
 
-Para utilizar esta capacidad, en la página **Configuración de registro de pagos** en [!INCLUDE [prod_short](includes/prod_short.md)], active **Registrar pagos automáticamente.** alterne y verifique las cuentas que utilizará para los pagos. Si decide que no desea registrar pagos automáticamente, puede desactivarlo nuevamente.
+Para utilizar esta capacidad, en la página  **Configuración de registro de pagos**  en [!INCLUDE [prod_short](includes/prod_short.md)], active la opción  **Registrar pagos automáticamente**  y verifique las cuentas que utilizará para los pagos. Si decide que no desea registrar los pagos automáticamente, puede desactivarlo nuevamente.
 
 > [!TIP]
-> Los desarrolladores pueden utilizar cuentas sandbox para probar la configuración. Para hacerlo, cambie la URL de PayPal a **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] utiliza la Notificación de pago instantáneo (IPN) de PayPal a través de notify_url.
+> Los desarrolladores pueden usar cuentas sandbox para probar la configuración. Para ello, cambie la URL de PayPal a **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] utiliza la notificación de pago instantáneo (IPN) de PayPal a través de notify_url.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Personalizar [!INCLUDE[prod_short](includes/prod_short.md)] con extensiones](ui-extensions.md)  
 [Configuración de ventas](sales-setup-sales.md)  

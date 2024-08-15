@@ -10,7 +10,8 @@ ms.search.form: '314, 459, 460, 664'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-prepayments"></a>Configurar prepagos
+
+# Configurar prepagos
 
 Utiliza prepagos cuando:
 
@@ -35,7 +36,7 @@ El importe prepagado pertenece al comprador hasta que reciba los bienes o servic
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Para agregar cuentas de prepago a la configuración de grupos contables
+## Para agregar cuentas de prepago a la configuración de grupos contables  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración grupos contables** y luego elija el enlace relacionado.
 2. En la página **Configuración grupos contables**, rellene los campos siguientes para las líneas relevantes:  
@@ -45,7 +46,7 @@ El importe prepagado pertenece al comprador hasta que reciba los bienes o servic
 
 Si todavía no ha configurado cuentas de contabilidad para prepagos, puede abrir la página **Lista de cuentas** desde el campo de cuenta relevante.  
 
-## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurar números de serie para documentos de prepago
+## Configurar números de serie para documentos de prepago  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Configuración de ventas y cobros** y luego elija el enlace relacionado.
 2. En la página **Configuración de ventas y cobros**, en la ficha desplegable **Serie numérica**, complete los siguientes campos:  
@@ -62,25 +63,25 @@ Si todavía no ha configurado cuentas de contabilidad para prepagos, puede abrir
 > [!NOTE]  
 > Puede utilizar la misma numeración de serie para las facturas de prepago y las facturas normales, o bien utilizar numeraciones de serie distintas. Si utiliza series distintas, éstas no deben solaparse, ya que no debe haber ningún número que se repita en ambas series.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Definir porcentajes de prepago para productos, clientes y vendedores
+## Definir porcentajes de prepago para productos, clientes y vendedores
 
 Puede definir un porcentaje de prepago predeterminado de un producto para todos los clientes, un cliente determinado o un grupo de precios de cliente. Si no desea aplicar el mismo porcentaje de prepago a todos los clientes, debe especificar a qué clientes o a qué grupos de precios de clientes se aplica el porcentaje de prepago.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Productos**, y luego elija el enlace relacionado.
-2. Seleccione un elemento y, a continuación, elija la acción **Conf. ventas y cobros**.  
+2. Seleccionar un artículo y luego elija la acción  **Porcentajes de prepago de ventas** .  
 3. En la página **Porcentajes prepago ventas**, rellene los campos como sea necesario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Puede definir un porcentaje de prepago predeterminado para un cliente o proveedor en relación con todos los productos y todos los tipos de líneas de venta. Introduzca el porcentaje en la tarjeta del cliente o del proveedor. El siguiente procedimiento muestra cómo especificar un porcentaje de pago anticipado para un cliente, pero se aplican pasos similares a los proveedores.  
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Clientes** y luego elija el enlace relacionado.
 2. Abrir la ficha para un cliente.
-3. Rellene el campo **% prepago**.
+3. En la pestaña rápida **Pagos**, complete el campo **Porcentaje de prepago** .
 4. Repita los pasos para otros clientes o proveedores.  
 
 > [!TIP]
 > También puede acceder a la página **Porcentajes prepago ventas** desde la tarjeta de cliente o proveedor.
 
-### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Para determinar qué porcentaje de prepago tiene prioridad
+### Para determinar qué porcentaje de prepago tiene prioridad  
 
 Un pedido podría tener un porcentaje de prepago en la cabecera de venta y otro porcentaje distinto para los productos en las líneas. Para determinar qué porcentaje de prepago se aplica a cada línea de venta, [!INCLUDE [prod_short](includes/prod_short.md)] busca y aplica el primer porcentaje predeterminado en el siguiente orden:  
 
@@ -91,7 +92,7 @@ Un pedido podría tener un porcentaje de prepago en la cabecera de venta y otro 
 
 Dicho de otro modo, el porcentaje de prepago de la ficha del cliente solo se aplica si no hay definido un porcentaje de prepago para el producto. Sin embargo, si modifica el contenido del campo **Porcentaje de prepago** en la cabecera de venta o compra después de crear las líneas, se actualiza el porcentaje de prepago en todas las líneas. La actualización facilita la creación de un pedido con un porcentaje de prepago fijo, independientemente del porcentaje definido para los productos.
 
-## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Para liberar automáticamente pedidos de venta cuando se aplican prepagos
+## Para liberar automáticamente pedidos de venta cuando se aplican prepagos
 
 Puede ahorrar tiempo configurando una entrada en la cola de trabajos que liberará automáticamente pedidos de venta que requieren prepago después de que la liquidación de pagos. Automatizar el proceso le ahorra el paso de lanzar el pedido de venta.
 
@@ -104,7 +105,7 @@ Puede ahorrar tiempo configurando una entrada en la cola de trabajos que liberar
 3. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Movimientos de cola de proyectos** y luego elija el enlace relacionado.
 4. Configure la entrada de la cola de trabajos **Actualización pendiente prepago ventas**, por ejemplo, utilizando la configuración en la ficha desplegable **Periodicidad** para programar la frecuencia con la que desea que se ejecute. Para obtener más información, consulte [Uso de colas de proyectos para programar tareas](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .  
 
 [Facturar prepagos](finance-invoice-prepayments.md)  
 [Tutorial: configuración y facturación de prepagos de ventas](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

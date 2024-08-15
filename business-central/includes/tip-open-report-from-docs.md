@@ -1,10 +1,6 @@
 ---
-author: brentholtorf
-ms.topic: include
-ms.date: 06/12/2024
-ms.author: bholtorf
-ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+autor: brentholtorf ms.tema: incluir <<<<<<< Actualizado en sentido ascendente ms.date: 12/06/2024 ======= ms.date: 20/05/2024
+>>>>>>> Cambios guardados ms.autor: bholtorf ms.service: dynamics-365-business-central ms.reviewer: bholtorf
 ---
 
 > [!TIP]

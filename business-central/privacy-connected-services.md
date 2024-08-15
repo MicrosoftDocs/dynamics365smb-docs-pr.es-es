@@ -9,7 +9,7 @@ ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Funciones de prueba que se conectan a otros servicios de Microsoft
+# Funciones de prueba que se conectan a otros servicios de Microsoft 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] es una solución integral de gestión empresarial que está profundamente integrada con aplicaciones de productividad Microsoft 365 y Power Platform. Su versión de prueba gratuita de Business Central puede conectarse a muchos servicios diferentes de Microsoft que primero debe configurar y habilitar. Para aprovechar al máximo su prueba gratuita, algunas de estas funciones se han habilitado automáticamente para usted. Aunque la conexión de [!INCLUDE[prod_short](includes/prod_short.md)] está habilitada, estos servicios no están incluidos con su versión de prueba y deben comprarse por separado a menos que ya los tenga.
 
@@ -28,7 +28,7 @@ La siguiente tabla indica las conexiones a los servicios de Microsoft que se hab
 > - Usted acepta que sus datos se compartan con ese servicio de Microsoft. Si su organización ha implementado estos servicios en un país o región diferente, conectarse al servicio puede resultar en que sus datos crucen los límites de residencia de datos. Asegúrese de confirmar las políticas de su organización y los requisitos de cumplimiento del gobierno para la residencia de datos antes de usar estas características. 
 > - Puede afectar los servicios que no son pruebas. Si su organización utiliza estos servicios en producción y no se evalúan junto con Business Central, otros usuarios de estos servicios que no participen en esta versión de prueba de [!INCLUDE[prod_short](includes/prod_short.md)] pueden ser afectados.
 > - [!INCLUDE[prod_short](includes/prod_short.md)] también puede conectarse a servicios de Microsoft o servicios de terceros según las personalizaciones y extensiones que usted o su administrador hayan instalado en su [!INCLUDE[prod_short](includes/prod_short.md)] prueba. Para obtener información sobre cómo sus extensiones procesan sus datos, contacte con el desarrollador de la extensión o siga el enlace de privacidad para la extensión en AppSource.
-> - Para las funciones de versión preliminar, usted acepta los términos [versión preliminar](https://go.microsoft.com/fwlink/?linkid=2189520).
+> - Para las funciones en versión preliminar, usted acepta los [términos de versión preliminar](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 Su privacidad es importante para nosotros. Puede obtener información sobre cómo Microsoft procesa sus datos en la [Declaración de privacidad de Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 

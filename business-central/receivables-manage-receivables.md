@@ -7,10 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-receivables"></a>Administrar cobros
+# Administrar cobros
 
 Un paso habitual en cualquier ritmo financiero es conciliar las cuentas bancarias. Para cerrar facturas de ventas y notas de crédito de compra como pagadas, aplique los pagos entrantes a los asientos contables de clientes o proveedores.
 
@@ -41,8 +41,7 @@ En la tabla siguiente se indican una serie de tareas con vínculos a los artícu
 |Configure una tolerancia por la que el sistema cierre una factura aunque el pago, incluido el descuento, no cubra totalmente el importe de la factura.|[Trabajar con tolerancias de pago y tolerancias de descuentos de pago](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Predecir cuando los pagos se realizarán tarde para los documentos de ventas. | [Extensión de predicción de pagos atrasados](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-also"></a>Consulte también
-
+## Consulte también
 [Ventas](sales-manage-sales.md)  
 [Administrar pagos](payables-manage-payables.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

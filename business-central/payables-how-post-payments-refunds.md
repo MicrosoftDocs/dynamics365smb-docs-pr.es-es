@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP'
 ms.search.form: '256, 233, 624, 1228'
-ms.date: 06/06/2024
+ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrar pagos y reembolsos en el diario de pagos
+# Registrar pagos y reembolsos en el diario de pagos
 
-En la página **Diario de pagos**, registre los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
+En la página  **Diarios de pagos**, usted registra los pagos que realiza a los proveedores y los reembolsos que realiza a los clientes. Cuando publica una línea de diario de pagos, el importe pagado se registra en la cuenta bancaria especificada. A continuación, debe tomar medidas para realizar la transferencia de dinero real desde la cuenta bancaria relacionada.  
 
 Los diarios de pagos son diarios generales optimizados para efectuar pagos. Puede agregar líneas rápidamente de forma manual, puede permitir que [!INCLUDE[prod_short](includes/prod_short.md)] sugiera pagos a proveedores y puede aplicar el pago a los documentos publicados. A pesar de que está haciendo pagos, debe introducir una cantidad positiva en el campo **Importe del documento**. Dependiendo del tipo de documento para la línea de diario, este importe se convierte a un importe negativo en las transacciones subyacentes. De esta manera, es más rápido agregar líneas de diario manualmente. Si prefiere introducir importes negativos, puede personalizar el diario de pagos para que muestre el campo **Importe** en su lugar. Para obtener más información sobre la personalización de páginas, vaya a [Empezar a personalizar utilizando el modo de personalización](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
 
@@ -29,18 +29,18 @@ Los diarios de pagos son diarios generales optimizados para efectuar pagos. Pued
 
     Además de registrar que se realiza el pago, también puede usar la página **Diario de pagos** para generar el pago y procesarlo en su banco. Para obtener más información, vaya a [Realizar pagos de cheques](payables-how-work-checks.md) y [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Realizar pagos en el diario de pagos.
+## Realizar pagos en el diario de pagos.
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. Abra el lote del diario que utiliza para los pagos.
 3. Si sabe a quién pagar, complete los campos manualmente. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Para aplicar también el pago a la factura o abono relacionado, seleccione el campo **Liq. por n.º documento**, en la página **Aplicar movs. proveedor**, seleccione la factura o abono relevante, y luego elija el botón **Aceptar**.
+4. Para aplicar también el pago a la factura o nota de crédito relacionada, seleccione el campo  **Se aplica a n.º de documento**, en la página  **Aplicar entradas de proveedor**, Seleccionar la factura o nota de crédito correspondiente y, a continuación, seleccione el botón **Aceptar** .
 
     Muchos de los campos, como **Importe del documento** y **Fecha vencimiento**, ahora contienen información del documento seleccionado.
 5. También puede usar la acción **Proponer pagos a proveedores**. Toda la información aplicable y los importes también se ingresan en las líneas del diario. Para obtener más información, vaya a [Sugerir pagos a proveedores](payables-how-suggest-vendor-payments.md).
 6. Tras completar todas las líneas del diario de pagos, seleccione la acción **Registrar**.
 
-## <a name="to-issue-a-refund-check"></a>Para emitir un cheque de reembolso
+## Para emitir un cheque de reembolso
 
 1. Elija el icono ![Bombilla que abre la función Dígame](media/ui-search/search_small.png "Dígame qué desea hacer"), escriba **Diarios de pagos** y luego elija el enlace relacionado.
 2. En el campo **Tipo documento**, seleccione **Reembolso**.  
@@ -49,11 +49,11 @@ Los diarios de pagos son diarios generales optimizados para efectuar pagos. Pued
 5. En el campo **Nº cuenta**, seleccione el número de cuenta del cliente al que se emitirá el cheque de reembolso.  
 6. En el campo **Importe**, introduzca el importe que quiere reembolsar.  
 7. En el campo **Tipo contrapartida**, seleccione **Cuenta bancaria**.  
-8. En el campo **Bal. Nº cuenta**, seleccione la cuenta bancaria de la que sale el cheque.  
+8. En el campo  **N.º de cuenta de saldo**, Seleccionar la cuenta bancaria de la que sale el cheque.  
 9. En el campo **Liq. por n.º documento** , seleccione los documentos que requieren un reembolso.  
 10. Tras completar todas las líneas del diario de pagos, elija la acción **Publicar / Imprimir**, luego elija la acción **Publicar e imprimir** y luego seleccione **Sí**.  
   
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Realizar pagos por cheque](payables-how-work-checks.md)  
 [Realizar pagos electrónicos](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
