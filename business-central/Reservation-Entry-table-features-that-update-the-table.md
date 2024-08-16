@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Mesa de entrada de reservas - Introducción
+# <a name="reservation-entry-table---introduction"></a>Mesa de entrada de reservas - Introducción
 
 Este documento técnico proporciona orientación para ayudarlo a comprender y solucionar problemas de inconsistencia de datos en la tabla de  *Entrada de reserva* (Tabla 337) en Microsoft Dynamics NAV. La primera parte es una introducción a las características que generan o modifican datos en esta tabla. También cubre varios campos en la tabla de  *Entrada de Reserva*  que vale la pena destacar en relación con estas características. La segunda parte demuestra mediante ejemplos cómo se generan, eliminan o modifican las entradas en la tabla  *Entrada de reserva*  cuando se procesan órdenes de transferencia o se ejecutan funciones de planificación.
 
@@ -28,9 +28,9 @@ En términos generales, los datos generados en la tabla de  *Entrada de reserva*
 - Parámetros de planificación del artículo o unidad de stock tarjeta
 - Cód. seguim. prod.
 
-## Características que actualizan la tabla de Entrada de Reservas
+## <a name="features-that-update-the-reservation-entry-table"></a>Características que actualizan la tabla de Entrada de Reservas
 
-### Política de seguimiento de pedidos
+### <a name="order-tracking-policy"></a>Política de seguimiento de pedidos
 
 Si el campo  **Política de seguimiento de pedidos**  de un artículo está configurado en Ninguno, Microsoft Dynamics NAV nunca se crearán entradas de reserva en la tabla  *Entrada de reserva*, a menos que se ejecute el Plan de cambio neto o el Plan regenerativo, la Reserva o el Seguimiento de artículos. Además, sin el seguimiento de pedidos habilitado, puede tener entradas de reserva al utilizar las políticas de fabricación bajo pedido o de ensamblaje bajo pedido.
 
@@ -51,7 +51,7 @@ Al configurar el campo  **Política de seguimiento de pedidos**  en el artículo
 > [!NOTE]  
 > La funcionalidad de seguimiento no reemplaza la funcionalidad de planificación, que considera todos los artículos, demandas y suministros juntos para proporcionar propuestas de planificación óptimas para optimizar los niveles de servicio al cliente y equilibrar los niveles de inventario.
 
-### Política de reservas
+### <a name="reservation-policy"></a>Política de reservas
 
 Una reserva consta de un par de registros en la tabla  *Entrada de reserva* con un  **Estado de reserva** de Reserva, que comparte el mismo número de entrada. Un registro tiene el campo Positivo habilitado y apunta al suministro. El otro registro tiene el campo  **Positivo** no habilitado y apunta a la demanda. Los campos **Tipo de fuente**, **N.º de referencia de fuente** y **ID de fuente** resaltan la reserva vincular entre la demanda y la oferta.
 
@@ -122,7 +122,7 @@ Microsoft Dynamics NAV Mostrará el siguiente mensaje de advertencia:
 
 Con esto concluye la demostración de la interacción entre el uso de reservas automáticas y el seguimiento de pedidos. Los ejemplos también muestran lo que sucede cuando se modifican las fechas de vencimiento y el mensaje de error que se activa cuando hay un conflicto de reserva.
 
-### Planificación calculada
+### <a name="planning-calculated"></a>Planificación calculada
 
 La planificación Listo mediante la planificación de pedidos, la hoja de trabajo de requisición o la hoja de trabajo de planificación generará entradas en la tabla  *Entrada de reserva*  con el campo  **Estado de reserva**  establecido en Seguimiento, Reserva o Excedente. Siempre debe haber un par coincidente con el mismo número de entrada de valor positivo y negativo en el campo  **Cantidad (Base)**  cuando el estado sea Seguimiento o Reserva. El campo  **Tipo de fuente**  será el tipo de demanda, es decir, la tabla 37 para la cantidad negativa y una tabla de planificación, por ejemplo, la tabla 246, para la cantidad positiva. El campo  **ID de fuente**  será PLANIFICACIÓN.
 
@@ -145,7 +145,7 @@ Estas entradas se generan durante la ejecución de la planificación y explican 
 
 En la tabla de  *Entrada de Reserva*, al igual que en las órdenes de Compra, Transferencia y Producción, hay un campo de  **Flexibilidad de Planificación** . Este campo de opción define si el suministro representado por estas órdenes de suministro es considerado por el sistema de planificación al calcular los Mensajes de Acción. Si el campo contiene la opción Ilimitado, entonces el sistema de planificación incluye la línea al calcular Mensajes de Acción. Si el campo contiene la opción Ninguna, entonces la línea es firme e inmutable, y el sistema de planificación no incluye la línea al calcular los Mensajes de Acción. La función se administra en la tabla  *Entrada de reserva*  mediante el campo con el mismo nombre.
 
-### Política de reordenamiento y fabricación
+### <a name="reordering-and-manufacturing-policy"></a>Política de reordenamiento y fabricación
 
 Si se ejecuta una función de planificación para un conjunto de artículos con la Política de reordenamiento establecida en Pedido, se crearán entradas en la tabla de  Microsoft Dynamics NAV Entrada de reserva *con el estado de reserva del tipo Reserva en lugar de Seguimiento.* 
 
@@ -153,7 +153,7 @@ Los campos  **Tipo de fuente** e  **ID de fuente**  tendrán el tratamiento equi
 
 El campo  **Vinculación**  se completa para controlar las órdenes de suministro que están vinculadas a una demanda específica, por ejemplo, las órdenes de producción que se crean directamente a partir de una orden de venta. El campo muestra Pedido a pedido cuando la entrada está vinculada específicamente a una demanda o un suministro (reserva automática). La demanda puede estar relacionada con las ventas o la necesidad de componentes.
 
-### Seguimiento de artículos y entrada de reservas de prospectos
+### <a name="item-tracking-and-prospect-reservation-entry"></a>Seguimiento de artículos y entrada de reservas de prospectos
 
 El estado de reserva de Prospecto se puede crear en la tabla  Microsoft Dynamics NAV Entrada de reserva *cuando no esté utilizando ninguna entidad de red de pedidos, es decir, Seguimiento de pedidos.*  Por ejemplo, en una línea del diario de consumo, asigna el seguimiento de artículos al componente. Sin embargo, si el artículo ya tiene seguimiento de pedido, es posible que se creen más entradas de reserva de prospectos. Microsoft Dynamics NAV  Esto se demuestra en el EJEMPLO 2 relacionado con las órdenes de transferencia en la segunda parte de este documento.
 
@@ -167,15 +167,15 @@ Dado que las entradas del libro mayor de artículos llevan la información de se
 
 Para obtener más información, revise los documentos técnicos que se enumeran en Recursos adicionales al final de este documento. Microsoft Dynamics NAV 
 
-### Campos Subtipo de origen, Mensaje de acción suprimida, Ajuste del mensaje de acción y No permitir cancelación
+### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Campos Subtipo de origen, Mensaje de acción suprimida, Ajuste del mensaje de acción y No permitir cancelación
 
 En esta sección se describen los campos  **Subtipo de origen**,  **Mensaje de acción suprimida**,  **Ajuste del mensaje de acción** y  **No permitir cancelación**  en la tabla  *Entrada de reserva* . Se proporcionan escenarios para demostrar el uso de los campos  **Mensaje de acción suprimido**,  **Ajuste del mensaje de acción**  y  **No permitir cancelación** . El campo  **Ajuste del mensaje de acción**  se utiliza para la función de política de seguimiento de pedidos Seguimiento y mensaje de acción. El campo  **No permitir cancelación**  se utiliza para la función Ensamblaje bajo pedido en Microsoft Dynamics NAV 2013.
 
-#### Subtipo origen
+#### <a name="source-subtype"></a>Subtipo origen
 
 El campo  **Subtipo de fuente**  indica con qué subtipo de fuente está relacionada la entrada de reserva. Si la entrada está relacionada con una línea de compra o venta, el campo se copia del campo  **Tipo de documento**  en la línea. Si está relacionado con una línea de diario, el campo se copia del campo  **Tipo de entrada**  en la línea de diario.
 
-#### Mensaje acción suprimido
+#### <a name="suppressed-action-msg"></a>Mensaje acción suprimido
 
 El campo  **Mensaje de acción suprimida**  registra cuándo un suministro existente ya se ha procesado parcialmente, por ejemplo, cuando ya se ha recibido parcialmente una orden de compra o se han registrado consumos en una orden de producción.
 
@@ -208,7 +208,7 @@ La entrada n.° 28 en la tabla 337 tiene el estado de reserva Seguimiento para q
 
 La entrada n° 30 es la orden de compra existente que se ha recibido parcialmente con cantidad 2. Como resultado, el campo  **Estado de reserva**  es Excedente y Microsoft Dynamics NAV establece el campo  **Cantidad (Base)**  en  *8* (saldo restante) y el campo  **Mensaje de acción suprimida**  está habilitado.
 
-#### Ajuste mensajes acción
+#### <a name="action-message-adjustment"></a>Ajuste mensajes acción
 
 El campo  **Ajuste del mensaje de acción** muestra el cambio en el lado de suministro del seguimiento de pedidos que se produce cuando acepta los mensajes de acción relacionados. Aquí aparece un valor solo cuando las funciones para el seguimiento de pedidos y los mensajes de acción están activas (la política de seguimiento de pedidos está establecida en Seguimiento y mensajes de acción). El valor se calcula en función de los datos de la tabla  *Entrada de mensaje de acción*  (Tabla 99000849). El siguiente ejemplo sirve como ilustración:
 1. Artículo abierto 80002. Establezca el siguiente campo:
@@ -224,7 +224,7 @@ La información de estado de la tabla 337 se muestra en la siguiente ilustració
 6. La entrada No. 34 tiene el campo  **Ajuste del Mensaje de Acción**  en la tabla 337 habilitado para 5 unidades con estado de reserva Excedente. Como la orden de venta se incrementó en paso 5, Microsoft Dynamics NAV creé esta reserva porque se requiere más suministro.
 7. Abra la página  **Hojas de trabajo de planificación**  y en la pestaña  **Inicio**, en el grupo  **Proceso**, seleccione  **Obtener mensajes de acción**. Microsoft Dynamics NAV sugerirá aumentar la cantidad de la orden de compra de 100 a 105.
 
-#### No permitir cancelación
+#### <a name="disallow-cancellation"></a>No permitir cancelación
 
 El campo  **No permitir cancelación** indica que la entrada de reserva representa la vincular entre una línea de orden de venta y una orden de ensamblaje. No puedes eliminar esta reserva porque es necesaria para mantener la sincronización que se produce cuando se ensambla un artículo según el pedido. El siguiente ejemplo sirve como ilustración:
 
@@ -253,7 +253,7 @@ La entrada n.° 82 tiene estado de reserva excedente como 9 unidades del invent
 
 La entrada No. 86 tiene Orden a Orden Vinculante con Estado de Reserva. Además, el campo  **No permitir cancelación**  está habilitado ya que la política de ensamblaje está configurada como Ensamblar según pedido para el artículo Ensamblaje FG. Finalmente, el campo  **Flexibilidad de planificación**  se establece en Ninguno, ya que no permite que la lógica de planificación elimine la reserva. Microsoft Dynamics NAV 
 
-#### Cantidad disponible para recoger y reservas
+#### <a name="quantity-available-to-pick-and-reservations"></a>Cantidad disponible para recoger y reservas
 
 El campo  **Cantidad reservada de recogida y envío**  en la tabla 337 que existe en versiones anteriores a 2013 controla la disponibilidad de los artículos dentro de un almacén administrado. Microsoft Dynamics NAV  En cualquier instalación de gestión de almacenes, las cantidades de artículos existen tanto como entradas de almacén como entradas de libro mayor de artículos. Microsoft Dynamics NAV  Estos dos tipos de entrada contienen información diferente sobre dónde existen los artículos y si están disponibles. Los movimientos de almacén definen la disponibilidad de un producto por ubicación y tipo de ubicación, lo que se denomina contenido de ubicación. Los movimientos de producto definen la disponibilidad de un producto por sus documentos de reserva a salida. Existe una funcionalidad especial en el algoritmo de selección para calcular la cantidad que está disponible para seleccionar cuando el contenido del contenedor se combina con las reservas. El algoritmo de selección resta las cantidades reservadas para otros documentos de salida, las cantidades en documentos de selección existentes y las cantidades que se seleccionan pero aún no se han enviado ni consumido. El resultado se muestra en el campo  **Cantidad disponible para seleccionar**  en la página  **Hoja de trabajo de selección**, donde el campo se calcula dinámicamente. El valor también se calcula cuando un usuario crea selecciones de almacén directamente a partir de documentos de salida, como pedidos de venta, consumo de producción o transferencias de salida.
 
@@ -301,9 +301,9 @@ Cuando el almacenamiento en almacén se registra en paso 7, esto habilita la cre
 
 La siguiente ilustración está tomada de 2009 R2. Microsoft Dynamics NAV 
 
-## Ilustraciones que utilizan órdenes de transferencia y planificación
+## <a name="illustrations-using-transfer-orders-and-planning"></a>Ilustraciones que utilizan órdenes de transferencia y planificación
 
-### Pedidos de transferencia
+### <a name="transfer-orders"></a>Pedidos de transferencia
 
 Cuando se utilizan órdenes de transferencia y el artículo se envía pero no se recibe en su totalidad, en la tabla de  *Entrada de reserva*  obtendrá un estado de reserva Excedente. El código de ubicación será la ubicación de transferencia.
 
@@ -313,7 +313,7 @@ Cuando se activa el seguimiento de pedidos y no hay demanda (pedido de venta o c
 
 Esto se demuestra en el primer ejemplo.
 
-#### Ejemplo 1
+#### <a name="example-1"></a>Ejemplo 1
 
 1. Abra los elementos 80003 y 80004 y establezca el campo  **Política de seguimiento**  en  *Solo seguimiento*. Deje los demás campos como predeterminados.
 2. Abra un diario de artículos y aumente el inventario de estos artículos a la cantidad 10 cada uno contra la ubicación ROJA y registre las líneas del diario.
@@ -342,7 +342,7 @@ La explicación de los siguientes campos contra la entrada de reserva 43 es la s
 |**Tipo procedencia mov.**|Tabla de entradas del libro mayor de artículos 32.|  
 |**Fuente Ref. No.**|Entrada de artículo abierto número 322.|
 
-#### Ejemplo 2
+#### <a name="example-2"></a>Ejemplo 2
 
 El siguiente ejemplo ilustra lo que sucede cuando un componente se transfiere entre ubicaciones, pero al mismo tiempo se realiza un seguimiento entre una necesidad de demanda y un suministro disponible. Los componentes se transferirán desde la ubicación ROJA a la AZUL, donde se consumirán en una orden de producción liberada. El componente utiliza Seguimiento de pedidos, Planificación de pedidos y Seguimiento de artículos.
 
@@ -378,7 +378,7 @@ El artículo producido obtendrá la salida contra la ubicación AZUL.
 
 La información de estado de la tabla 337 se muestra en la siguiente ilustración.
 
-##### Entradas de reserva con los números 55 y 56
+##### <a name="reservation-entries-with-numbers-55-and-56"></a>Entradas de reserva con los números 55 y 56
 
 Para la necesidad de componentes del Lote A y del Lote B, respectivamente, se crean enlaces de seguimiento de pedidos desde la demanda en la tabla 5407, Componente de pedido de producción, hasta el suministro en la tabla 32, Entrada de libro mayor de artículos. El **Estado de la reserva**  El campo contiene seguimiento para las cuatro entradas para indicar que estos enlaces de seguimiento de pedidos dinámicos están entre oferta y demanda.
 
@@ -387,7 +387,7 @@ La demanda en la tabla 5407, Componente de orden de producción, está vinculada
 > [!NOTE]  
 > El campo **Nº lote** está vacío en las líneas de demanda porque los números de lote no están especificado en las líneas de componente de la orden de producción lanzada.
 
-##### Entrada de reserva con el número 57
+##### <a name="reservation-entry-with-number-57"></a>Entrada de reserva con el número 57
 
 A partir de la demanda de ventas de la tabla 37, Línea de ventas, se crea un pedido de seguimiento vincular hasta el suministro en la tabla 5406, Línea de pedido de producción. El campo  **Estado de reserva**  contiene Reserva, y el campo  **Vinculación**  contiene Pedido a pedido. Esto se debe a que la orden de producción liberada se generó específicamente para la orden de venta y debe permanecer vinculada, a diferencia de los enlaces de seguimiento de pedidos con estado de reserva de Seguimiento, que se crean y modifican dinámicamente.
 
@@ -405,11 +405,11 @@ Publique la cantidad total pendiente como Enviado SOLAMENTE.
 
 La información de estado de la tabla 337 se muestra en la siguiente ilustración.
 
-##### Entradas de reserva con número 55 y 56
+##### <a name="reservation-entries-with-number-55-and-56"></a>Entradas de reserva con número 55 y 56
 
 Las entradas de seguimiento de pedidos para los dos lotes del componente que reflejan la demanda en la tabla 5407 se cambian de un estado de reserva de Seguimiento a Excedente. El motivo es que los suministros a los que estaban vinculados antes, en la tabla 32, se han usado mediante el envío del pedido de transferencia. Los excedentes verdaderos, como en este caso, reflejan un exceso de aprovisionamiento que permanece sin seguimiento. Es una indicación de desequilibrio en la red de pedidos, que generará un mensaje de acción por parte del sistema de planificación a menos que se resuelva dinámicamente.
 
-##### Números de entrada de reserva del 59 al 63
+##### <a name="reservation-entry-numbers-59-to-63"></a>Números de entrada de reserva del 59 al 63
 
 Debido a que los dos lotes del componente están registrados en la orden de transferencia como enviados pero no recibidos, todas las entradas de seguimiento de orden positivas relacionadas son del tipo de reserva Excedente, lo que indica que no están asignadas a ninguna demanda. Para cada número de lote, una entrada se relaciona con la tabla 5741, Línea de transferencia, y una entrada se relaciona con la entrada del libro mayor de artículos en la ubicación en tránsito donde ahora existen los artículos.
 
@@ -434,21 +434,21 @@ Cerrar el formulario de seguimiento de artículos.
 
 La información de estado de la tabla 337 se muestra en la siguiente ilustración.
 
-##### Entradas de reserva con los números 68 y 69
+##### <a name="reservation-entries-with-numbers-68-and-69"></a>Entradas de reserva con los números 68 y 69
 
 Dado que la necesidad del componente se ha cambiado a la ubicación AZUL y el suministro está disponible como entradas del libro mayor de artículos en la ubicación AZUL, todas las entradas de seguimiento de pedidos para los dos números de lote ahora están completamente rastreadas, lo que se indica mediante el estado de reserva de Seguimiento. Los números de lote no se completan en el campo  **N.º de lote**  contra la demanda en la tabla 5406,  **Línea de orden de producción**, ya que no especificamos números de lote para el componente en la orden de producción lanzada.
 
-##### Entradas de reserva con los números 70 y 71
+##### <a name="reservation-entries-with-numbers-70-and-71"></a>Entradas de reserva con los números 70 y 71
 
 Las entradas con estado de reserva Prospecto se generan en la tabla 337. El motivo es que ambos números de lote están asignados al componente en el diario de consumo, pero el diario no se ha registrado.
 
 Esto completa la sección sobre cómo se generan, modifican y eliminan las entradas de seguimiento de pedidos en la tabla de  **Entrada de reserva**  cuando se utilizan múltiples funciones en combinación con órdenes de transferencia.
 
-### Planificación calculada
+### <a name="planning-calculated-1"></a>Planificación calculada
 
 Al utilizar funciones de planificación, es decir, la  **Hoja de trabajo de requisición**, la  **Hoja de trabajo de planificación** o la  **Planificación de pedidos**, las entradas de reserva en la tabla 337 de  **Entrada de reserva**  se pueden modificar o agregar según la sugerencia de planificación proporcionada por la lógica en Microsoft Dynamics NAV. El ejemplo 3 utilizará **Política de reordenamiento**  Ordene con **Política de fabricación**  Fabricación bajo pedido de un artículo producido. El componente utilizará **Política de reordenamiento**  Cantidad de reorden fija.
 
-#### Ejemplo 3
+#### <a name="example-3"></a>Ejemplo 3
 
 1. En el **Configuración de fabricación**  tarjeta, **Componente en la ubicación**  es ROJO del ejemplo anterior.
 2. Crear nuevo artículo elemento primario 70061. Establezca los siguientes campos:
@@ -497,17 +497,17 @@ El campo  **Estado de reserva**  es Reserva y se crea un enlace de pedido a pedi
 
 La demanda de 40 unidades contra el campo **ID de fuente** es el número de orden de venta 1005 y el Tipo de fuente es *Línea de ventas* tabla 37. La entrada de reserva está alineada con la sugerencia de planificación, Fuente Ref. No. 10000, el ID de fuente es PLANIFICACIÓN y el tipo de fuente es  *Línea de requisición* tabla 246. Por lo tanto, existe un equilibrio entre la demanda de la orden de venta y la oferta sugerida por el motor de planificación.
 
-##### Reservación de entradas números 73 y 74
+##### <a name="reservation-entry-numbers-73-and-74"></a>Reservación de entradas números 73 y 74
 
 Al ejecutar el trabajo por lotes Calcular plan, las siguientes cuatro entradas se generan con un estado de reserva de Seguimiento debido a la configuración de la política de reordenamiento Cantidad de reorden fija para el componente. El suministro requerido para el componente Artículo 70062 se repone mediante las sugerencias de planificación proporcionadas, Fuente Ref. No. 20000 y 30000, con ID de fuente establecida en PLANIFICACIÓN y Tipo de fuente de la tabla 246 de  *Línea de requisición* . La necesidad del componente se crea para satisfacer la demanda del artículo elemento primario 70061 para una cantidad total (base) de 40. Como resultado de esta demanda, el campo  **Línea de pedido de producción de origen** es 10000, con Tipo de fuente en la tabla  *Necesidad de componente*  99000829.
 
 El estado de la reserva no es Excedente, ya que existe seguimiento del pedido entre la demanda del Artículo elemento primario 70061 y el suministro del Artículo componente 70062.
 
-##### Reservación de entradas números 75 y 76
+##### <a name="reservation-entry-numbers-75-and-76"></a>Reservación de entradas números 75 y 76
 
 Las dos últimas entradas tienen un estado de reserva Excedente, ya que son Cantidades sin seguimiento generadas en la hoja de trabajo de planificación relacionada con los parámetros de reordenamiento Reorden apuntar y Cantidad de reordenamiento.
 
-## Consulte también  
+## <a name="see-also"></a>Consulte también
 [Detalles de diseño: diseño del seguimiento de productos](design-details-item-tracking-design.md)  
 [Detalles de diseño: equilibrio de oferta y demanda](design-details-balancing-demand-and-supply.md)  
 [Detalles de diseño: Reserva, seguimiento de pedidos y mensajes de acciones](design-details-reservation-order-tracking-and-action-messaging.md)   
