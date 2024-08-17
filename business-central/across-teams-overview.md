@@ -11,7 +11,7 @@ ms.date: 09/22/2022
 ms.custom: bap-template
 ---
 
-# Descripción general de Business Central y Microsoft Teams
+# <a name="business-central-and-microsoft-teams-integration"></a>Descripción general de Business Central y Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,11 +19,11 @@ ms.custom: bap-template
 
 La aplicación está disponible en el mercado de Teams y puede usarla con la aplicación web, de escritorio o móvil de Teams.
 
-## Resumen de las características
+## <a name="features-overview"></a>Resumen de las características
 
 La aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Teams ofrece las siguientes características.
 
-### Buscar detalles de clientes, proveedores y otros contactos
+### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Buscar detalles de clientes, proveedores y otros contactos
 
 Independientemente de dónde se encuentre en Teams, puede buscar detalles sobre clientes, proveedores y otros contactos de [!INCLUDE [prod_short](includes/prod_short.md)]. Esta característica no solo le permite ver información general sobre los contactos, sino que también le brinda acceso al historial de interacciones, documentos relacionados y mucho más.
 
@@ -35,7 +35,7 @@ También puede compartir detalles de contacto en una conversación. Desde ahí, 
 
 Para obtener más información, consulte [Búsqueda de contactos de Microsoft Teams](across-search-contacts-teams.md).
 
-### Compartir registros en conversaciones
+### <a name="share-records-in-conversations"></a>Compartir registros en conversaciones
 
 Copie un vínculo a cualquier registro de Business Central y péguelo en una conversación de Teams para compartirlo con sus compañeros de trabajo. La aplicación expandirá el vínculo para convertirse en una tarjeta compacta e interactiva que muestra información sobre el registro.
 
@@ -45,7 +45,7 @@ Una vez en la conversación, usted y sus compañeros de trabajo pueden ver más 
 
 Para obtener más información, consulte [Compartir registros en Microsoft Teams](across-working-with-teams.md).
 
-### Compartir vínculos desde páginas de Business Central a Teams
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Compartir vínculos desde páginas de Business Central a Teams
 
 Directamente desde la mayoría de las páginas de recopilación y detalles de Business Central, puede utilizar la acción **Compartir con Teams** del icono ![!El icono del menú Compartir en páginas.](media/share-icon.png "El menú Compartir mostrado en una tarjeta.") para escribir un mensaje, elegir destinatarios, como miembros del equipo, grupos o canales, y enviar el mensaje con un vínculo y a la página de Business Central.
 
@@ -55,7 +55,7 @@ Directamente desde la mayoría de las páginas de recopilación y detalles de Bu
 
 Para obtener más información, consulte [Compartir registros y vínculos de páginas en Microsoft Teams](across-working-with-teams.md#share-link).
 
-### Agregar una pestaña de Business Central al canal o chat de Teams
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Agregar una pestaña de Business Central al canal o chat de Teams
 
 Con la aplicación Business Central para Teams instalada, puede agregar una pestaña en un canal o chat para mostrar datos de Business Central de listas y páginas de tarjetas.
 
@@ -63,7 +63,7 @@ Con la aplicación Business Central para Teams instalada, puede agregar una pest
 
 Para obtener más información, consulte [Agregar una pestaña de Business Central en Teams](across-teams-tab.md).
 
-## Introducción
+## <a name="get-started"></a>Introducción
 
 1. Se requiere una cuenta de usuario de [!INCLUDE [prod_short](includes/prod_short.md)] en línea para la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Teams.
 
@@ -76,7 +76,7 @@ Para obtener más información, consulte [Agregar una pestaña de Business Centr
 3. Instalar una aplicación de [!INCLUDE [prod_short](includes/prod_short.md)] en Teams. Consulte [Instalar la aplicación [!INCLUDE [prod_short](includes/prod_short.md)] para Microsoft Teams](across-install-app-for-teams.md).
 4. Una vez que la aplicación esté instalada, estará listo para comenzar. Vea [Búsqueda de clientes, proveedores y otros contactos de Microsoft Teams](across-search-contacts-teams.md) y [Compartir registros en Microsoft Teams](across-working-with-teams.md).
 
-## Consulte también
+## <a name="related-information"></a>Consulte también
 
 [P+F de Teams](teams-faq.md)  
 [Consejos para la solución de problemas de Teams](admin-teams-troubleshooting.md)  

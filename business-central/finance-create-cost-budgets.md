@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Crear presupuesto coste
+# <a name="creating-cost-budgets"></a>Crear presupuesto coste
 
 El presupuesto en contabilidad de costes se parece al presupuesto de la contabilidad. Un presupuesto de costes se crea a partir de los tipos de coste del mismo modo como un presupuesto para la contabilidad se crea a partir de las cuentas de contabilidad.  
 
@@ -26,7 +26,7 @@ Utilice las siguientes páginas para crear y analizar presupuestos de coste. Eli
 |Vea registros de presupuesto de costes y movimientos de presupuestos de costes.|Página de **Registros de presupuesto de costes**|  
 |Imprima comparaciones del presupuesto de costes con varios informes.|Informe **Saldo/presupuesto contable costes**<br /><br /> Informe **Extracto contable de costes/Presupuesto**<br /><br /> Informe **Ppto. costes por centro de coste**<br /><br /> Informe **Ppto. costes por objeto de coste**|  
 
-## Consulte también .
+## <a name="see-also"></a>Consulte también .
 
 [Contabilidad de costes](finance-manage-cost-accounting.md)  
 [Crear presupuestos contables](finance-how-create-budgets.md)  
