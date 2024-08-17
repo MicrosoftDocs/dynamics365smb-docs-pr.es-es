@@ -11,7 +11,7 @@ ms.search.form: '39, 251'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Registrar transacciones directamente en la contabilidad general
+# Registrar transacciones directamente en la contabilidad general
 
 Puede usar diarios generales para registrar transacciones financieras directamente en cuentas generales y otras cuentas, como cuentas bancarias, de cliente, proveedor y empleado.  
 
@@ -21,7 +21,7 @@ Los diarios generales registran las transacciones financieras directamente en cu
 
 Los asientos que publica con documentos requieren un proceso de nota de abono. Sin embargo, puede revertir los asientos que contabiliza en el diario general. Para obtener más información, vea [Revertir los registros de diario y deshacer los recibos/envíos](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Para registrar una transacción directamente en una cuenta contable
+## Para registrar una transacción directamente en una cuenta contable
 
 1. Elija el icono ![Bombilla que abre la función Dígame.](media/ui-search/search_small.png "Dígame qué desea hacer") , escriba **Diarios generales**, y luego elija el enlace relacionado.
 2. Abra el lote del diario general. Para obtener más información, consulte [Trabajar con diarios generales](ui-work-general-journals.md).
@@ -35,7 +35,7 @@ Los asientos que publica con documentos requieren un proceso de nota de abono. S
     > Si desea introducir varias líneas de transacción sobre una línea de cuenta de contrapartida, por ejemplo, de una cuenta bancaria, seleccione la casilla de verificación **Sugerir importe de compensación** en la línea de la sección en la página **Secciones diario general**. El campo **Importe** de la línea de la cuenta de contrapartida se rellena previamente de forma automática con el valor que se requiere para compensar las transacciones.
 5. Seleccione la acción **Registrar** para registrar las transacciones en las cuentas contables especificadas.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Trabajar con diarios generales](ui-work-general-journals.md)  
 [Registrar y reembolsar los costes de los empleados](finance-how-record-reimburse-employee-expenses.md)  

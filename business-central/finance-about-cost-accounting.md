@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-cost-accounting"></a>Acerca de la contabilidad de costes
+# Acerca de la contabilidad de costes
 
 La contabilidad de costes puede ayudarle a conocer los costes de la dirección de una empresa. La información de contabilidad de costes se ha diseñado para analizar:  
 
@@ -20,7 +20,7 @@ La contabilidad de costes puede ayudarle a conocer los costes de la dirección d
 
 En contabilidad de costes, puede asignar costes reales y presupuestados de las operaciones, departamentos, productos y proyectos para analizar la rentabilidad de su empresa.  
 
-## <a name="workflow-in-cost-accounting"></a>Flujo de trabajo en contabilidad de costes
+## Flujo de trabajo en contabilidad de costes
 
 Contabilidad de costes tiene los siguientes componentes principales:  
 
@@ -34,7 +34,7 @@ El diagrama siguiente muestra el flujo de trabajo en contabilidad de costes.
 
 ![Resumen de la contabilidad de costes.](media/costaccountingoverview.png "CostAccountingOverview")  
 
-## <a name="cost-types-cost-centers-and-cost-objects"></a>Tipos de coste, centros de coste y objetos de costes
+## Tipos de coste, centros de coste y objetos de costes
 
 Define los tipos de coste, los centros de coste y los objetos de coste para analizar cuáles son los costes, de dónde provienen y quién debe asumirlos.  
 
@@ -46,13 +46,13 @@ Los objetos de coste son productos, grupos de productos o servicios que ofrece u
 
 Puede relacionar los centros de coste a los departamentos y los objetos de coste a los proyectos en su empresa. A través de la contabilidad general, puede vincular los centros de coste y los objetos de coste a cualquier dimensión y complementar esa información con subtotales y títulos.  
 
-## <a name="cost-entries-and-cost-journals"></a>Movimientos de costes y diarios de costes
+## Movimientos de costes y diarios de costes
 
 Los costes operativos se pueden transferir desde la contabilidad. Puede transferir automáticamente los movimientos de coste de la contabilidad a los movimientos de coste con cada registro. También puede utilizar un trabajo por lotes para transferir movimientos de contabilidad a movimientos de coste basados en los registros de resúmenes diarios o mensuales.  
 
 En los diarios de costes, puede registrar costes y actividades que no provengan de la contabilidad general ni se generen por asignaciones. Por ejemplo, puede registrar costes puros operativos, gastos internos, distribuciones y movimientos de corrección entre tipos de coste, centros de coste y objetos de coste por separado o periódicamente.  
 
-## <a name="cost-allocations"></a>Asignaciones coste
+## Asignaciones coste
 
 Las asignaciones mueven los costes e ingresos entre tipos de coste, centros de coste y objetos de coste. Los costes generales se registran primero a centros de coste y luego se cargan a objetos de coste. Un ejemplo sería realizar en un departamento de ventas que vende varios productos al mismo tiempo. Los gastos generales del departamento, como salarios, suministros y gastos de viaje, se asignan inicialmente al centro de costes de ventas. A continuación, los costes se asignan entre los distintos productos (objetos de coste) vendidos, junto con los materiales adquiridos (coste directo).
 
@@ -60,15 +60,15 @@ La base de asignaciones y la exactitud de la definición de asignación tienen u
 
 Cada asignación está formada por un origen de asignación y uno o varios destinos de asignación. Puede asignar valores reales o valores presupuestados utilizando el método de asignación estática basado en un valor definido. Por ejemplo, metros cuadrados, o una proporción de asignación establecida de 5:2:4. También puede asignar valores reales o valores presupuestados utilizando el método de asignación dinámica con nueve bases predefinidas de asignación y 12 rangos de fechas dinámicas.  
 
-## <a name="cost-budgets"></a>Presupuestos coste
+## Presupuestos coste
 
 De manera similar a la elaboración de presupuestos en el libro mayor, puede crear presupuestos para planificar costos durante un período determinado (por ejemplo, un año fiscal), que se pueden aplicar a un centro de costos (departamento de la empresa) o a un objeto de costo (producto o servicio). Puede crear tantos presupuestos de coste como sea necesario. Luego puede copiar el presupuesto de costes en el presupuesto de contabilidad y viceversa. Y puede transferir los costes presupuestados como costes reales.
 
-## <a name="cost-reporting"></a>Información de coste
+## Información de coste
 
 La mayoría de los informes y las estadística se basan en los movimientos de costes registrados. Puede definir el orden de los resultados y usar filtros para definir qué datos deben mostrarse. Puede crear informes para el análisis de distribución del coste. Además, puede utilizar los informes financieros estándar para definir cómo se muestran los informes para el plan de tipos de coste.  
 
-## <a name="see-also"></a>Consulte también .
+## Consulte también .
 
 [Contabilidad de costes](finance-manage-cost-accounting.md)  
 [Finanzas](finance.md)  

@@ -11,12 +11,12 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="closing-the-books"></a>Cerrar los libros
+# Cerrar los libros
 Una vez que se haya asegurado de que todas sus cuentas estén actualizadas, y que asigne costes e ingresos, puede cerrar los libros para un ejercicio o periodo.
 
 El cierre del año no es obligatorio pero, si lo hace, le resultará más fácil trabajar en el sistema, porque podrá utilizar las opciones de filtrado disponibles. Tampoco tendrá que temer la pérdida de datos de las transacciones al realizar el cierre, porque todos los datos se conservan, incluso después de cerrar el año.
 
-## <a name="closing-book-process"></a>Cerrar procesos de libros
+## Cerrar procesos de libros
 El proceso de cerrar el libro incluye estas tareas principales:
 
 1. Cerrar el periodo contable.
@@ -38,7 +38,7 @@ El proceso de cerrar el libro incluye estas tareas principales:
 
     Para obtener más información, consulte [Registrar movimiento de cierre del ejercicio](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Consecuencias del cierre
+## Consecuencias del cierre
 
 Al realizar el cierre al final del año, el programa traslada los ingresos calculados a la cuenta de remanentes. Además, el programa marca el ejercicio como "cerrado," y todos los movimientos siguientes del año cerrado como "movimientos del año anterior."
 
@@ -46,7 +46,7 @@ El programa genera un movimiento de cierre, pero no lo registra automáticamente
 
 Puede realizar registros en un ejercicio anterior, después de se hayan cerrado las cuentas de ingresos, si vuelve a ejecutar el proceso Asiento regularización.
 
-## <a name="see-also"></a>Consulte también
+## Consulte también
 
 [Trabajar con periodos contables y años fiscales](finance-accounting-periods-and-fiscal-years.md)  
 [Trabajar con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
